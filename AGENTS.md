@@ -1,0 +1,13 @@
+# Coding rules
+
+Read README.md and SHARED-DATA.md first, then only the DEVELOPMENT.md sections relevant to the requested work. Read SETUP.md when working on startup or dependencies.
+
+- Keep work focused and replies concise; the user wants to conserve credits. Inspect the owning implementation and nearby tests. Avoid repeated broad scans, unrelated improvements and full-catalogue renders. Do not spawn agents unless explicitly requested.
+- Preserve existing user edits. Before manual file changes, make a dated backup of affected files under `../hackriculture-data/backups/`. This project has no Git history; never delete existing backups.
+- Preserve the accepted staggered print layout, borders/dark headings, 19 Quick Facts icons, 1–5 Core Needs scale and lossless hero crops unless the user requests changes to them. Do not revive rejected layout experiments.
+- Gardening JSON lives only in `../hackriculture-data/`. Never recreate source/root mirrors. Every admin data mutation must preserve the previous bytes in `../hackriculture-data/backups/admin/` using the existing dated version scheme.
+- Preserve keyed objects, unknown fields, ranked text, measurement pairs and cyclic `--MM` month values. Keep `src/types.ts`, Zod schemas and admin validation aligned. Reuse `src/lib/` helpers.
+- Admin saves and PDF generation require the Vite dev server. Use `start.command` and loopback only. Never put credentials in chat or project files.
+- Run focused tests for code changes, then `npm test` and `npm run build` before delivery. For print changes, verify actual PDFs for four or five representative crops in both units, including font/image readiness; add A5/A6 checks when paper sizing changes. Documentation-only changes need link/content checks, not application tests.
+- Known overflow, missing images and mixed-unit prose are not permission to expand scope. Distinguish existing limitations from new regressions. Do not upgrade dependencies or resize artwork without a task-related reason.
+- Maintain current working docs when architecture, data contracts or accepted design changes. Record checks actually run and material limitations; do not accumulate session transcripts or claims about servers still running.

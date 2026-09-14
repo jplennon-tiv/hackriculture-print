@@ -1,0 +1,176 @@
+/* Rendered in fullWidthSection — no grid-column override needed */
+.detailCard {
+    background: var(--cream);
+}
+
+.intro {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    line-height: 1.7;
+    margin-bottom: 1.25rem;
+    padding: 0.75rem 1rem;
+    background: var(--green-pale);
+    border-left: 3px solid var(--green-light);
+    border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+}
+
+/* Section heading within card */
+.section {
+    margin-top: 1.25rem;
+}
+
+.sectionTitle {
+    font-family: "Playfair Display", Georgia, serif;
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: var(--green-dark);
+    margin-bottom: 0.75rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 1px solid var(--border);
+}
+
+/* ── Symptom table ───────────────────────────────────────────────────────────── */
+.tableWrap {
+    overflow-x: auto;
+    border-radius: var(--radius-sm);
+    border: 1px solid var(--border);
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.85rem;
+}
+
+.th {
+    background: var(--green-dark);
+    color: #e8f5e3;
+    text-align: left;
+    padding: 0.6rem 0.85rem;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.td {
+    padding: 0.55rem 0.85rem;
+    color: var(--text-secondary);
+    vertical-align: top;
+    line-height: 1.5;
+    border-bottom: 1px solid var(--border);
+}
+
+.rowEven {
+    background: #fff;
+}
+.rowOdd {
+    background: var(--green-bg);
+}
+
+/* ── Condition cards ─────────────────────────────────────────────────────────── */
+.conditionGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 0.85rem;
+}
+
+.conditionCard {
+    background: var(--red-pale);
+    border: 1px solid #fca5a5;
+    border-radius: var(--radius-sm);
+    padding: 0.85rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+/* Two-column layout used when a condition has an image */
+.conditionBody {
+    display: grid;
+    grid-template-columns: 110px 1fr;
+    gap: 0.75rem;
+    align-items: start;
+}
+
+@media (max-width: 480px) {
+    .conditionBody {
+        grid-template-columns: 1fr;
+    }
+    .conditionImage {
+        order: -1;
+        width: 100%;
+        aspect-ratio: 4 / 3;
+    }
+}
+
+.conditionImage {
+    width: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+    border-radius: var(--radius-sm);
+    border: 1px solid #fca5a5;
+    display: block;
+}
+
+.conditionHeader {
+    display: flex;
+    align-items: baseline;
+    gap: 0.6rem;
+    flex-wrap: wrap;
+}
+
+.conditionName {
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--red-dark);
+}
+
+.conditionVisual {
+    font-size: 0.75rem;
+    font-style: italic;
+    color: #b91c1c;
+}
+
+.conditionDesc {
+    font-size: 0.85rem;
+    color: #7f1d1d;
+    line-height: 1.6;
+}
+
+.conditionActions {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    margin-top: 0.25rem;
+    padding-top: 0.5rem;
+    border-top: 1px solid #fecaca;
+}
+
+.actionItem {
+    font-size: 0.82rem;
+    line-height: 1.6;
+}
+
+.actionLabel {
+    font-weight: 700;
+    color: var(--red-dark);
+}
+
+.actionLabel::after {
+    content: ": ";
+}
+
+.actionText {
+    color: #7f1d1d;
+}
+
+/* ── Star highlighting ──────────────────────────────────────── */
+
+.conditionCardStarred {
+    border-color: #f59e0b !important;
+    background: rgba(251, 191, 36, 0.07) !important;
+}

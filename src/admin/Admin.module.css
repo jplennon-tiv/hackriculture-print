@@ -1,0 +1,1390 @@
+/* ── Admin login page ────────────────────────────────────────────── */
+.loginWrap {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fef3c7;
+}
+
+.loginCard {
+    background: #fff;
+    border: 2px solid #f59e0b;
+    border-radius: 16px;
+    padding: 2.5rem 2rem;
+    width: 100%;
+    max-width: 380px;
+    box-shadow: 0 8px 24px rgba(245, 158, 11, 0.15);
+    text-align: center;
+}
+
+.loginLogo {
+    font-size: 3rem;
+    margin-bottom: 0.75rem;
+}
+
+.loginTitle {
+    font-family: "Playfair Display", Georgia, serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #92400e;
+    margin-bottom: 0.4rem;
+}
+
+.loginHint {
+    font-size: 0.85rem;
+    color: #b45309;
+    margin-bottom: 1.5rem;
+}
+
+.loginForm {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.loginInput {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    border: 1.5px solid #fcd34d;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-family: inherit;
+    outline: none;
+    transition: border-color 0.15s;
+    box-sizing: border-box;
+}
+
+.loginInput:focus {
+    border-color: #f59e0b;
+}
+
+.loginError {
+    font-size: 0.85rem;
+    color: #dc2626;
+    margin: 0;
+}
+
+.loginBtn {
+    padding: 0.75rem;
+    background: #d97706;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: inherit;
+    cursor: pointer;
+    transition: background 0.15s;
+}
+
+.loginBtn:hover:not(:disabled) {
+    background: #b45309;
+}
+
+.loginBtn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+/* ── Admin shell ─────────────────────────────────────────────────── */
+.adminShell {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* ── Admin header bar ────────────────────────────────────────────── */
+.adminHeader {
+    background: #92400e;
+    color: #fef3c7;
+    padding: 0 1.5rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.adminHeaderInner {
+    max-width: 1280px;
+    margin: 0 auto;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.adminLogo {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+}
+
+.adminLogoIcon {
+    font-size: 1.6rem;
+    line-height: 1;
+}
+
+.adminLogoText {
+    font-family: "Playfair Display", Georgia, serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #fef3c7;
+}
+
+.adminBadge {
+    background: #f59e0b;
+    color: #78350f;
+    font-size: 0.7rem;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 0.2rem 0.55rem;
+    border-radius: 999px;
+}
+
+/* ── Admin nav bar ───────────────────────────────────────────────── */
+.adminNav {
+    background: #b45309;
+    border-bottom: 3px solid #92400e;
+}
+
+.adminNavInner {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 0.5rem;
+    display: flex;
+    align-items: stretch;
+}
+
+.adminNavList {
+    display: flex;
+    list-style: none;
+    gap: 0;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+.adminNavItem {
+    display: flex;
+}
+
+.adminNavLink {
+    display: block;
+    padding: 0.75rem 1.1rem;
+    color: #fde68a;
+    text-decoration: none;
+    font-size: 0.875rem;
+    font-weight: 500;
+    border-bottom: 3px solid transparent;
+    margin-bottom: -3px;
+    transition:
+        color 0.15s,
+        background 0.15s;
+}
+
+.adminNavLink:hover {
+    color: #fff;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.adminNavLinkActive {
+    color: #fff;
+    border-bottom-color: #fcd34d;
+    background: rgba(255, 255, 255, 0.08);
+}
+
+/* Group dropdown */
+.adminNavGroup {
+    position: relative;
+    list-style: none;
+}
+
+.adminGroupBtn {
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+    padding: 0.75rem 1.1rem;
+    background: none;
+    border: none;
+    border-bottom: 3px solid transparent;
+    margin-bottom: -3px;
+    color: #fde68a;
+    font-size: 0.875rem;
+    font-weight: 500;
+    font-family: inherit;
+    cursor: pointer;
+    white-space: nowrap;
+    transition:
+        color 0.15s,
+        background 0.15s;
+    line-height: 1;
+}
+
+.adminNavGroup:hover .adminGroupBtn,
+.adminNavGroup:focus-within .adminGroupBtn {
+    color: #fff;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.adminGroupBtnActive {
+    color: #fff;
+    border-bottom-color: #fcd34d;
+    background: rgba(255, 255, 255, 0.08);
+}
+
+.adminCaret {
+    font-size: 0.7rem;
+    opacity: 0.75;
+    transition: transform 0.15s;
+    display: inline-block;
+}
+
+.adminNavGroup:hover .adminCaret,
+.adminNavGroup:focus-within .adminCaret {
+    transform: rotate(180deg);
+}
+
+.adminDropdown {
+    display: none;
+    position: absolute;
+    top: calc(100% + 3px);
+    left: 0;
+    min-width: 210px;
+    background: #92400e;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 0 0 8px 8px;
+    list-style: none;
+    padding: 0.35rem 0;
+    z-index: 100;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.adminNavGroup:hover .adminDropdown,
+.adminNavGroup:focus-within .adminDropdown {
+    display: block;
+}
+
+.adminDropdownLink {
+    display: block;
+    padding: 0.5rem 1.1rem;
+    color: #fde68a;
+    text-decoration: none;
+    font-size: 0.85rem;
+    white-space: nowrap;
+    transition:
+        background 0.1s,
+        color 0.1s;
+}
+
+.adminDropdownLink:hover {
+    background: rgba(255, 255, 255, 0.12);
+    color: #fff;
+}
+
+.adminDropdownLinkActive {
+    color: #fbbf24;
+    font-weight: 600;
+    background: rgba(251, 191, 36, 0.1);
+}
+
+.logoutBtn {
+    padding: 0.4rem 0.9rem;
+    background: rgba(255, 255, 255, 0.12);
+    color: #fde68a;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 6px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    font-family: inherit;
+    cursor: pointer;
+    align-self: center;
+    margin: 0 0.5rem;
+    white-space: nowrap;
+    transition:
+        background 0.15s,
+        color 0.15s;
+}
+
+.logoutBtn:hover {
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+}
+
+/* ── Admin main content ──────────────────────────────────────────── */
+.adminMain {
+    flex: 1;
+    padding: 1.5rem 1rem 3rem;
+    background: #fffbeb;
+}
+
+.adminFooter {
+    background: #92400e;
+    color: #d97706;
+    text-align: center;
+    padding: 0.75rem;
+    font-size: 0.8rem;
+}
+
+/* ── Loading / error states ──────────────────────────────────────── */
+.loadingState {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 30vh;
+    font-size: 1rem;
+    color: #b45309;
+}
+
+.errorState {
+    max-width: 600px;
+    margin: 3rem auto;
+    padding: 1.5rem;
+    background: #fef2f2;
+    border: 1px solid #fca5a5;
+    border-radius: 12px;
+    color: #991b1b;
+    text-align: center;
+}
+
+/* ── Admin page ──────────────────────────────────────────────────── */
+.adminPage {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.adminPageHeader {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #fde68a;
+    flex-wrap: wrap;
+}
+
+.adminPageTitle {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+}
+
+.adminVegTitle {
+    font-family: "Playfair Display", Georgia, serif;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #78350f;
+    margin: 0;
+}
+
+.adminPageActions {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+}
+
+.saveMsg {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #16a34a;
+}
+
+/* ── Rename ──────────────────────────────────────────────────────── */
+.renameRow {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    flex-wrap: wrap;
+}
+
+.renameInput {
+    font-family: "Playfair Display", Georgia, serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #78350f;
+    border: 2px solid #f59e0b;
+    border-radius: 8px;
+    padding: 0.3rem 0.6rem;
+    outline: none;
+    background: #fff;
+    min-width: 240px;
+}
+
+.renameInput:focus {
+    border-color: #d97706;
+}
+
+/* ── Delete button ───────────────────────────────────────────────── */
+.deleteBtn {
+    padding: 0.5rem 1rem;
+    background: #fef2f2;
+    color: #991b1b;
+    border: 1.5px solid #fca5a5;
+    border-radius: 8px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    font-family: inherit;
+    cursor: pointer;
+    transition:
+        background 0.15s,
+        color 0.15s;
+}
+
+.deleteBtn:hover:not(:disabled) {
+    background: #fee2e2;
+    color: #7f1d1d;
+}
+
+.deleteBtn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+/* ── Sections grid ───────────────────────────────────────────────── */
+.sectionsGrid {
+    columns: 2 400px;
+    column-gap: 1.25rem;
+}
+
+/* ── Editable section card ───────────────────────────────────────── */
+.editCard {
+    background: #fff;
+    border-radius: 12px;
+    border: 1.5px solid #fde68a;
+    padding: 1.25rem;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+    break-inside: avoid;
+    margin-bottom: 1.25rem;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    transition:
+        border-color 0.15s,
+        box-shadow 0.15s;
+}
+
+.editCardActive {
+    border-color: #f59e0b;
+    box-shadow: 0 0 0 3px rgba(245, 158, 11, 0.2);
+}
+
+.editCardHeader {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    margin-bottom: 0.65rem;
+    padding-bottom: 0.6rem;
+    border-bottom: 2px solid #fef3c7;
+}
+
+.editCardIcon {
+    font-size: 1.1rem;
+    line-height: 1;
+}
+
+.editCardTitle {
+    font-family: "Playfair Display", Georgia, serif;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #78350f;
+    flex: 1;
+    margin: 0;
+}
+
+/* ── Edit / action buttons ───────────────────────────────────────── */
+.editBtn {
+    padding: 0.3rem 0.7rem;
+    background: #fef3c7;
+    color: #92400e;
+    border: 1.5px solid #fcd34d;
+    border-radius: 6px;
+    font-size: 0.78rem;
+    font-weight: 600;
+    font-family: inherit;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: background 0.15s;
+}
+
+.editBtn:hover {
+    background: #fde68a;
+}
+
+.saveSectionBtn {
+    padding: 0.5rem 1.1rem;
+    background: #d97706;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 0.875rem;
+    font-weight: 600;
+    font-family: inherit;
+    cursor: pointer;
+    transition: background 0.15s;
+}
+
+.saveSectionBtn:hover:not(:disabled) {
+    background: #b45309;
+}
+
+.saveSectionBtn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.cancelSectionBtn {
+    padding: 0.5rem 1.1rem;
+    background: #f5f5f4;
+    color: #57534e;
+    border: 1.5px solid #d6d3d1;
+    border-radius: 8px;
+    font-size: 0.875rem;
+    font-weight: 600;
+    font-family: inherit;
+    cursor: pointer;
+    transition: background 0.15s;
+}
+
+.cancelSectionBtn:hover {
+    background: #e7e5e4;
+}
+
+.editActions {
+    display: flex;
+    gap: 0.65rem;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+}
+
+.saveError {
+    font-size: 0.85rem;
+    color: #dc2626;
+    margin: 0.5rem 0 0;
+}
+
+/* ── Value summary (collapsed view) ─────────────────────────────── */
+.valueSummary {
+    min-height: 1.5rem;
+}
+
+.nullBadge {
+    font-size: 0.78rem;
+    font-style: italic;
+    color: #a8a29e;
+    background: #f5f5f4;
+    padding: 0.2rem 0.55rem;
+    border-radius: 999px;
+}
+
+.valuePeek {
+    font-size: 0.83rem;
+    color: #78716c;
+    line-height: 1.5;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+/* ── Field editors ───────────────────────────────────────────────── */
+.editorBody {
+    margin-top: 0.75rem;
+}
+
+.fieldTextarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.65rem 0.85rem;
+    border: 1.5px solid #e7e5e4;
+    border-radius: 8px;
+    font-size: 0.88rem;
+    font-family: inherit;
+    line-height: 1.55;
+    resize: vertical;
+    outline: none;
+    transition: border-color 0.15s;
+    background: #fffbf5;
+}
+
+.fieldTextarea:focus {
+    border-color: #f59e0b;
+    background: #fff;
+}
+
+/* String array editor */
+.arrayEditor {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.arrayRow {
+    display: flex;
+    gap: 0.4rem;
+    align-items: flex-start;
+}
+
+.arrayRow .fieldTextarea {
+    flex: 1;
+}
+
+.arrayBtns {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.arrayBtn {
+    width: 2rem;
+    height: 2rem;
+    background: #fef3c7;
+    color: #92400e;
+    border: 1.5px solid #fcd34d;
+    border-radius: 6px;
+    font-size: 0.75rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.1s;
+}
+
+.arrayBtn:hover:not(:disabled) {
+    background: #fde68a;
+}
+
+.arrayBtn:disabled {
+    opacity: 0.35;
+    cursor: not-allowed;
+}
+
+.arrayBtnRemove {
+    background: #fef2f2;
+    color: #991b1b;
+    border-color: #fca5a5;
+}
+
+.arrayBtnRemove:hover {
+    background: #fee2e2 !important;
+}
+
+.addRowBtn {
+    align-self: flex-start;
+    padding: 0.35rem 0.75rem;
+    background: #fef3c7;
+    color: #92400e;
+    border: 1.5px dashed #fcd34d;
+    border-radius: 6px;
+    font-size: 0.82rem;
+    font-weight: 600;
+    font-family: inherit;
+    cursor: pointer;
+    margin-top: 0.25rem;
+    transition: background 0.1s;
+}
+
+.addRowBtn:hover {
+    background: #fde68a;
+}
+
+/* Object editor */
+.objEditor {
+    display: flex;
+    flex-direction: column;
+    gap: 0.65rem;
+}
+
+.objRow {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.objLabel {
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #92400e;
+}
+
+/* KV object editor */
+.kvRow {
+    display: grid;
+    grid-template-columns: 160px 1fr auto;
+    gap: 0.4rem;
+    align-items: flex-start;
+}
+
+.kvKey {
+    padding: 0.5rem 0.6rem;
+    border: 1.5px solid #e7e5e4;
+    border-radius: 6px;
+    font-size: 0.82rem;
+    font-family: monospace;
+    font-weight: 700;
+    text-transform: uppercase;
+    outline: none;
+    background: #fffbf5;
+    transition: border-color 0.15s;
+}
+
+.kvKey:focus {
+    border-color: #f59e0b;
+}
+
+/* JSON editor */
+.jsonEditor {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.jsonEditor .fieldTextarea {
+    font-family: "Fira Code", "Cascadia Code", "Courier New", monospace;
+    font-size: 0.8rem;
+    line-height: 1.5;
+}
+
+.jsonError {
+    font-size: 0.82rem;
+    color: #dc2626;
+    margin: 0;
+}
+
+.jsonHint {
+    font-size: 0.75rem;
+    color: #a8a29e;
+    margin: 0;
+    font-style: italic;
+}
+
+/* ── Add vegetable form ──────────────────────────────────────────── */
+.addForm {
+    max-width: 640px;
+    background: #fff;
+    border: 1.5px solid #fde68a;
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+}
+
+.addForm form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.addLabel {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #78350f;
+}
+
+.addInput {
+    padding: 0.7rem 0.9rem;
+    border: 1.5px solid #e7e5e4;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-family: inherit;
+    outline: none;
+    background: #fffbf5;
+    transition: border-color 0.15s;
+}
+
+.addInput:focus {
+    border-color: #f59e0b;
+}
+
+/* ── Image editor ────────────────────────────────────────────────── */
+
+.imageSection {
+    margin-bottom: 1.5rem;
+}
+
+/* Compact variant used when image sits next to QF summary */
+.imageSectionCompact {
+    width: 210px;
+    flex-shrink: 0;
+    margin-bottom: 0;
+}
+
+.imageSectionTitle {
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #92400e;
+    margin-bottom: 0.75rem;
+}
+
+/* Grid used on the trouble page to show all condition images */
+.conditionImagesGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 1rem;
+}
+
+.imageEditorCard {
+    background: #fffbf0;
+    border: 1px solid #fcd34d;
+    border-radius: 8px;
+    padding: 0.65rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.imageEditorLabel {
+    font-size: 0.72rem;
+    font-weight: 700;
+    color: #78350f;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.imageEditorPreview {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    background: #fef3c7;
+    border-radius: 6px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #fde68a;
+}
+
+.imageEditorImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.imageEditorPlaceholder {
+    font-size: 0.72rem;
+    color: #b45309;
+    font-style: italic;
+}
+
+.imageEditorActions {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    flex-wrap: wrap;
+}
+
+.errorMsg {
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: #dc2626;
+}
+
+/* ── Ranked item controls ──────────────────────────────────────────── */
+
+/* Row wrapping textarea + rank/star for ranked arrays */
+.rankedRow {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    border: 1px solid var(--admin-border, #fcd34d);
+    border-radius: 8px;
+    padding: 0.6rem 0.75rem;
+    background: #fffdf5;
+}
+
+/* Rank input + star checkbox inline strip */
+.rankedMeta {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+}
+
+.rankLabel {
+    font-size: 0.72rem;
+    font-weight: 600;
+    color: #78350f;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+
+.rankInput {
+    width: 3.5rem;
+    padding: 0.2rem 0.35rem;
+    border: 1.5px solid #fcd34d;
+    border-radius: 5px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #78350f;
+    text-align: center;
+    outline: none;
+}
+
+.rankInput:focus {
+    border-color: #f59e0b;
+}
+
+.starCheck {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    cursor: pointer;
+    font-size: 0.9rem;
+    color: #f59e0b;
+    user-select: none;
+}
+
+.starCheck input {
+    accent-color: #f59e0b;
+}
+
+.iconPicker {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    cursor: pointer;
+    user-select: none;
+}
+
+.iconPickerPreview {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+
+.iconPickerPreviewEmpty {
+    display: inline-block;
+    width: 20px;
+    text-align: center;
+    color: #9ca3af;
+    font-size: 0.85rem;
+}
+
+.iconPickerSelect {
+    padding: 0.15rem 0.3rem;
+    border: 1.5px solid #fcd34d;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #78350f;
+    background: #fff;
+    outline: none;
+}
+
+.iconPickerSelect:focus {
+    border-color: #f59e0b;
+}
+
+/* Ranked object row (fixed keys like in_the_kitchen) */
+.rankedObjRow {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+    border-bottom: 1px solid #fde68a;
+    padding-bottom: 0.75rem;
+    margin-bottom: 0.75rem;
+}
+
+.rankedObjRow:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+/* Ranked KV row (editable keys like troubles) */
+.kvRankedRow {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+    border: 1px solid var(--admin-border, #fcd34d);
+    border-radius: 8px;
+    padding: 0.6rem 0.75rem;
+    background: #fffdf5;
+    margin-bottom: 0.5rem;
+}
+
+/* ── Short text (PDF summary) section inside ranked rows ──────────── */
+.shortTextSection {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    padding-top: 0.15rem;
+}
+
+.shortTextLabel {
+    font-size: 0.68rem;
+    font-weight: 600;
+    color: #9ca3af;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+
+/* ── Quick Facts hints ───────────────────────────────────────────── */
+
+/* Row of "Feeds PDF:" + badge chips shown on every section card */
+.qfTagsRow {
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+    flex-wrap: wrap;
+    margin-bottom: 0.5rem;
+}
+
+.qfTagsLabel {
+    font-size: 0.62rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #9ca3af;
+}
+
+/* Pill badge in the section card header */
+.qfHeaderBadge {
+    font-size: 0.6rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #065f46;
+    background: #d1fae5;
+    border: 1px solid #6ee7b7;
+    border-radius: 999px;
+    padding: 0.15rem 0.5rem;
+    white-space: nowrap;
+}
+
+/* Italic note below the section header */
+.sectionNote {
+    font-size: 0.74rem;
+    color: #6b7280;
+    font-style: italic;
+    margin: -0.25rem 0 0.5rem;
+    line-height: 1.45;
+}
+
+/* Flex row wrapping a field label + inline QF badge */
+.objLabelRow {
+    display: flex;
+    align-items: center;
+    gap: 0.45rem;
+    flex-wrap: wrap;
+}
+
+/* Inline badge next to a specific field's label */
+.qfBadge {
+    font-size: 0.6rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #065f46;
+    background: #d1fae5;
+    border: 1px solid #6ee7b7;
+    border-radius: 4px;
+    padding: 0.1rem 0.4rem;
+    white-space: nowrap;
+}
+
+/* ── Quick Facts summary panel ───────────────────────────────────── */
+
+.heroQfRow {
+    display: flex;
+    gap: 1.25rem;
+    align-items: flex-start;
+    margin-bottom: 1.5rem;
+}
+
+.qfSummaryPanel {
+    flex: 1;
+    min-width: 0;
+    background: #fff;
+    border: 1.5px solid #fcd34d;
+    border-radius: 12px;
+    padding: 1rem 1.25rem 0.75rem;
+    margin-bottom: 0;
+}
+
+.qfSummaryHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.65rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #fef3c7;
+}
+
+.qfSummaryTitle {
+    font-size: 0.82rem;
+    font-weight: 700;
+    color: #78350f;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+}
+
+.qfSummaryScore {
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: #6b7280;
+}
+
+.qfSummaryTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.qfSummaryRow {
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background 0.12s;
+}
+
+.qfSummaryRow:hover {
+    background: #fffbf5;
+}
+
+.qfSummaryRowMissing {
+    opacity: 0.55;
+}
+
+.qfSummaryLabel {
+    font-size: 0.68rem;
+    font-weight: 700;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: #78350f;
+    padding: 0.22rem 0.75rem 0.22rem 0.2rem;
+    white-space: nowrap;
+    width: 105px;
+}
+
+.qfSummaryVal {
+    font-size: 0.82rem;
+    color: #374151;
+    padding: 0.22rem 0.5rem;
+    line-height: 1.35;
+    max-width: 0; /* forces truncation inside table */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+}
+
+.qfSummaryMissing {
+    font-style: italic;
+    color: #d1d5db;
+    font-size: 0.75rem;
+}
+
+.qfSummaryJump {
+    font-size: 0.65rem;
+    color: #d97706;
+    padding: 0.22rem 0.1rem 0.22rem 0.5rem;
+    white-space: nowrap;
+    opacity: 0;
+    transition: opacity 0.12s;
+}
+
+.qfSummaryRow:hover .qfSummaryJump {
+    opacity: 1;
+}
+
+/* ── Nav completeness dot ─────────────────────────────────────────── */
+
+.qfDot {
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    margin-left: 0.35rem;
+    flex-shrink: 0;
+    vertical-align: middle;
+    position: relative;
+    top: -1px;
+}
+
+.qfDotGreen {
+    background: #22c55e;
+}
+.qfDotAmber {
+    background: #f59e0b;
+}
+.qfDotRed {
+    background: #ef4444;
+}
+
+/* ── Structured Calendar editor ───────────────────────────────────── */
+
+.calMonthPanel {
+    background: #f0fdf4;
+    border: 1px solid #bbf7d0;
+    border-radius: 8px;
+    padding: 0.75rem 1rem 0.65rem;
+    margin-bottom: 0.75rem;
+}
+
+.calMonthTitle {
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: #166534;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.55rem;
+}
+
+.calMonthRow {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.4rem;
+}
+
+.calMonthLabel {
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #166534;
+    width: 70px;
+    flex-shrink: 0;
+}
+
+.calMonthSelect {
+    padding: 0.28rem 0.5rem;
+    border: 1px solid #86efac;
+    border-radius: 5px;
+    font-size: 0.82rem;
+    font-family: inherit;
+    background: #fff;
+    color: #374151;
+    outline: none;
+    cursor: pointer;
+}
+
+.calMonthSelect:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+}
+
+.calMonthTo {
+    font-size: 0.75rem;
+    color: #6b7280;
+}
+
+.calMonthNote {
+    font-size: 0.72rem;
+    color: #6b7280;
+    font-style: italic;
+    margin: 0.5rem 0 0;
+    line-height: 1.4;
+}
+
+.calMonthNote code {
+    font-style: normal;
+    background: #e5e7eb;
+    padding: 0.05em 0.3em;
+    border-radius: 3px;
+    font-size: 0.88em;
+}
+
+/* ── Imperial/metric measurement pair editor ── */
+.measurePair {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.measureSide {
+    flex: 1 1 240px;
+    min-width: 200px;
+}
+
+.measureHead {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 3px;
+}
+
+.measureLabel {
+    font-size: 0.72rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    opacity: 0.65;
+}
+
+.measureConvBtn {
+    font-size: 0.72rem;
+    padding: 2px 8px;
+    cursor: pointer;
+    border: 1px solid #cbd5c0;
+    border-radius: 4px;
+    background: #f3f6f1;
+}
+
+.measureConvBtn:hover {
+    background: #e6ede2;
+}
+
+.measureVarieties {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.measureVarietyRow {
+    border-left: 3px solid #e0e6db;
+    padding-left: 10px;
+}
+
+.measureVarietyKey {
+    display: block;
+    font-size: 0.78rem;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.measureSingle {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: flex-start;
+}
+
+/* ── Core Needs editor (three 1–10 sliders) ─────────────────────────────── */
+.coreNeeds {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 4px 0;
+}
+
+.coreNeedRow {
+    display: grid;
+    grid-template-columns: 84px 1fr 56px auto;
+    align-items: center;
+    gap: 10px;
+}
+
+.coreNeedLabel {
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.coreNeedRange {
+    width: 100%;
+}
+
+.coreNeedNum {
+    width: 52px;
+    padding: 4px 6px;
+}
+
+.coreNeedScale {
+    color: #6b7280;
+    font-size: 0.8rem;
+}

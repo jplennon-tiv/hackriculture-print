@@ -1,0 +1,722 @@
+/* ── Page layout ─────────────────────────────────────────────────── */
+.page {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/* ── Hero ─────────────────────────────────────────────────────────── */
+.hero {
+    /* Fallback colour shown while image loads or when no image */
+    background-color: #162d1f;
+    /* The JS inline style adds the image + directional gradient overlay.
+       This CSS gradient is the no-image fallback. */
+    background: linear-gradient(
+        155deg,
+        #162d1f 0%,
+        #1e4029 45%,
+        #2a5538 72%,
+        #1a3526 100%
+    );
+    border-radius: 20px;
+    /* Single column — image is in the CSS background */
+    display: flex;
+    align-items: stretch;
+    min-height: 340px;
+    margin-bottom: 2rem;
+    box-shadow:
+        0 24px 64px rgba(0, 0, 0, 0.28),
+        0 4px 16px rgba(0, 0, 0, 0.18),
+        inset 0 1px 0 rgba(255, 255, 255, 0.07);
+    position: relative;
+    overflow: hidden;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(
+        ellipse 70% 80% at 20% 15%,
+        rgba(255, 255, 255, 0.055) 0%,
+        transparent 60%
+    );
+    pointer-events: none;
+}
+
+.hero::after {
+    content: "";
+    position: absolute;
+    top: -80px;
+    right: -50px;
+    width: 280px;
+    height: 280px;
+    border: 1px solid rgba(255, 255, 255, 0.055);
+    border-radius: 50%;
+    pointer-events: none;
+}
+
+.heroContent {
+    padding: 3rem 2.5rem 2.75rem 3rem;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    /* Cap width so text stays in the readable left area,
+       leaving the right side clear for the background image */
+    max-width: 60%;
+    flex: 1;
+}
+
+.heroSubtitle {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.67rem;
+    font-weight: 700;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: #7dcca0;
+    margin-bottom: 0.6rem;
+}
+
+.heroSubtitle::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 2px;
+    background: currentColor;
+    border-radius: 2px;
+    opacity: 0.6;
+}
+
+.heroTitle {
+    font-family: "Playfair Display", Georgia, serif;
+    font-size: clamp(2.4rem, 5vw, 3.8rem);
+    font-weight: 700;
+    color: #fff;
+    line-height: 1.05;
+    margin-bottom: 1.1rem;
+    letter-spacing: -0.02em;
+}
+
+.heroIntro {
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.68);
+    line-height: 1.8;
+    max-width: 58ch;
+    margin-bottom: 1.5rem;
+}
+
+.difficultyWrapper {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.35rem;
+    padding-bottom: 0.45rem;
+}
+
+.difficultyBadge {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.65rem;
+    background: rgba(255, 255, 255, 0.22);
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    border-radius: 100px;
+    padding: 0.42rem 1rem;
+    backdrop-filter: blur(8px);
+    width: fit-content;
+}
+
+.difficultyLabel {
+    font-size: 0.6rem;
+    font-weight: 700;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: #7dcca0;
+}
+
+.difficultyValue {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.92);
+}
+
+/* heroImageCol and heroImage removed — image is now a CSS background */
+
+/* ── Calendar + Sowing row ───────────────────────────────────────── */
+.calendarSowingRow {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 1.25rem;
+    margin-bottom: 1.75rem;
+    align-items: stretch;
+}
+
+.calendarCol,
+.sowingCol {
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Ensure both cards fill the full column height */
+.calendarCol > *,
+.sowingCol > * {
+    flex: 1;
+}
+
+@media (max-width: 800px) {
+    .calendarSowingRow {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* ── Hero quick-fact chips ───────────────────────────────────────── */
+.heroStats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45rem;
+    margin-top: 1rem;
+}
+
+.heroStat {
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+    background: rgba(255, 255, 255, 0.14);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    padding: 0.32rem 0.7rem;
+    backdrop-filter: blur(6px);
+    min-width: 72px;
+}
+
+.heroStatLabel {
+    font-size: 0.57rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #7dcca0;
+    line-height: 1.2;
+}
+
+.heroStatValue {
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.92);
+    line-height: 1.3;
+}
+
+.heroNote {
+    font-size: 0.78rem;
+    font-style: italic;
+    color: rgba(255, 255, 255, 0.6);
+    line-height: 1.55;
+    margin-top: 0.55rem;
+    max-width: 55ch;
+}
+
+.pdfBtn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    margin-top: 1rem;
+    padding: 0.4rem 0.85rem;
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.85);
+    background: rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(255, 255, 255, 0.28);
+    border-radius: 6px;
+    cursor: pointer;
+    transition:
+        background 0.15s,
+        border-color 0.15s;
+    text-decoration: none;
+}
+
+.pdfBtn:hover {
+    background: rgba(255, 255, 255, 0.2);
+    border-color: rgba(255, 255, 255, 0.5);
+    color: white;
+}
+
+/* ── Card grid ───────────────────────────────────────────────────── */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.25rem;
+    align-items: stretch;
+}
+
+.fullWidthSection {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    margin-top: 1.25rem;
+}
+
+/* ── Card base ────────────────────────────────────────────────────── */
+.card {
+    background: #fff;
+    border-radius: 14px;
+    padding: 1.6rem;
+    box-shadow:
+        0 2px 8px rgba(0, 0, 0, 0.06),
+        0 1px 2px rgba(0, 0, 0, 0.04);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    border-top: 3px solid var(--green-mid);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.cardHeader {
+    display: flex;
+    align-items: center;
+    gap: 0.55rem;
+    margin-bottom: 1.1rem;
+}
+
+.cardIcon {
+    font-size: 1.05rem;
+    line-height: 1;
+    opacity: 0.75;
+}
+
+.cardTitle {
+    font-family: "Playfair Display", Georgia, serif;
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: var(--green-dark);
+    letter-spacing: -0.01em;
+}
+
+.cardText {
+    font-size: 0.88rem;
+    color: var(--text-secondary);
+    line-height: 1.7;
+    margin-bottom: 1rem;
+}
+
+.cardNote {
+    font-size: 0.855rem;
+    color: var(--text-secondary);
+    background: var(--green-pale);
+    border-left: 3px solid var(--green-light);
+    border-radius: 0 8px 8px 0;
+    padding: 0.65rem 0.9rem;
+    margin-bottom: 1rem;
+    line-height: 1.65;
+}
+
+/* ── Spec grid ───────────────────────────────────────────────────── */
+.specGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+    gap: 0.55rem;
+    margin-top: 0.8rem;
+}
+
+.spec {
+    background: var(--green-pale);
+    border-radius: 8px;
+    padding: 0.65rem 0.8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    border: 1px solid var(--border);
+}
+
+.specLabel {
+    font-size: 0.64rem;
+    font-weight: 700;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+}
+
+.specValue {
+    font-size: 0.88rem;
+    font-weight: 600;
+    color: var(--green-dark);
+    line-height: 1.3;
+}
+
+/* ── Lists ───────────────────────────────────────────────────────── */
+.tipList {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.65rem;
+}
+
+.tipItem {
+    font-size: 0.88rem;
+    color: var(--text-secondary);
+    line-height: 1.7;
+    padding-left: 1.35rem;
+    position: relative;
+}
+
+.tipItem::before {
+    content: "";
+    position: absolute;
+    left: 0.05rem;
+    top: 0.52em;
+    width: 7px;
+    height: 7px;
+    background: var(--green-light);
+    border-radius: 50% 0 50% 0;
+    transform: rotate(45deg);
+    opacity: 0.85;
+}
+
+.orderedList {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.85rem;
+    counter-reset: steps;
+}
+
+.orderedItem {
+    font-size: 0.88rem;
+    color: var(--text-secondary);
+    line-height: 1.7;
+    padding-left: 2.25rem;
+    position: relative;
+    counter-increment: steps;
+}
+
+.orderedItem::before {
+    content: counter(steps);
+    position: absolute;
+    left: 0;
+    top: 0.1em;
+    width: 1.5rem;
+    height: 1.5rem;
+    background: linear-gradient(135deg, var(--green-mid), var(--green-light));
+    color: #fff;
+    border-radius: 50%;
+    font-size: 0.68rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    box-shadow: 0 2px 6px rgba(74, 124, 63, 0.4);
+}
+
+/* ── Varieties ───────────────────────────────────────────────────── */
+.varietiesCard {
+    /* fullWidthSection */
+}
+
+.varietyList {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+    gap: 0.85rem;
+}
+
+.varietySubList {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+    gap: 0.65rem;
+    margin-top: 0.5rem;
+}
+
+.varietyItem {
+    background: var(--green-pale);
+    border-radius: 10px;
+    padding: 0.9rem 1rem;
+    border: 1px solid var(--border);
+    transition: box-shadow 0.15s;
+}
+
+.varietyItem:hover {
+    box-shadow: 0 4px 12px rgba(45, 90, 39, 0.12);
+}
+
+.varietyName {
+    display: block;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: var(--green-dark);
+    margin-bottom: 0.4rem;
+}
+
+.varietyDesc {
+    font-size: 0.84rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+}
+
+.varietyGroup {
+    grid-column: 1 / -1;
+    background: var(--sand);
+    border-radius: 10px;
+    padding: 1.1rem 1.25rem;
+    border: 1px solid var(--border);
+    border-left: 4px solid var(--green-mid);
+}
+
+.varietyGroupName {
+    font-family: "Playfair Display", Georgia, serif;
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--green-dark);
+    margin-bottom: 0.5rem;
+}
+
+.varietyGroupOverview {
+    font-size: 0.84rem;
+    color: var(--text-secondary);
+    line-height: 1.65;
+    margin-bottom: 0.65rem;
+}
+
+.varietyOtherNames {
+    font-size: 0.78rem;
+    font-style: italic;
+    color: var(--text-muted);
+    margin-bottom: 0.4rem;
+}
+
+.varietyMaturityMonths {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--green-dark);
+    margin-bottom: 0.6rem;
+    letter-spacing: 0.01em;
+}
+
+/* ── Kitchen card ────────────────────────────────────────────────── */
+.kitchenCard {
+    background: #fffbf0;
+    border-color: rgba(0, 0, 0, 0.06);
+    border-top-color: #d97706;
+}
+
+.kitchenCard .cardTitle {
+    color: #92400e;
+}
+
+.kitchenGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 0.85rem;
+    margin-top: 0.5rem;
+}
+
+.kitchenItem {
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 8px;
+    padding: 0.85rem 1rem;
+    border: 1px solid #fde68a;
+}
+
+.kitchenItemLabel {
+    display: block;
+    font-size: 0.64rem;
+    font-weight: 700;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: #b45309;
+    margin-bottom: 0.35rem;
+}
+
+.kitchenItemText {
+    font-size: 0.86rem;
+    color: #78350f;
+    line-height: 1.65;
+}
+
+/* ── Troubles card ───────────────────────────────────────────────── */
+.troublesCard {
+    background: #fff8f8;
+    border-color: rgba(0, 0, 0, 0.06);
+    border-top-color: #dc2626;
+}
+
+.troublesCard .cardTitle {
+    color: var(--red-dark);
+}
+
+.troublesNote {
+    font-size: 0.85rem;
+    font-style: italic;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin-bottom: 0.5rem;
+}
+
+.troublesList {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.troubleItem {
+    border-left: 3px solid #ef4444;
+    padding: 0.55rem 0.8rem;
+    background: rgba(239, 68, 68, 0.04);
+    border-radius: 0 8px 8px 0;
+}
+
+.troubleName {
+    display: block;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--red-dark);
+    margin-bottom: 0.25rem;
+}
+
+.troubleDesc {
+    font-size: 0.86rem;
+    color: #7f1d1d;
+    line-height: 1.65;
+}
+
+/* ── Trouble guide links ─────────────────────────────────────────── */
+.troubleLinks {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.troubleLink {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.8rem 1.1rem;
+    background: #fff8f8;
+    border: 1.5px solid #fca5a5;
+    border-radius: 10px;
+    color: var(--red-dark);
+    text-decoration: none;
+    font-size: 0.88rem;
+    font-weight: 600;
+    transition:
+        background 0.15s,
+        border-color 0.15s,
+        transform 0.1s;
+}
+
+.troubleLink:hover {
+    background: #fee2e2;
+    border-color: #f87171;
+    transform: translateX(2px);
+}
+
+.troubleLinkArrow {
+    font-size: 1rem;
+    opacity: 0.55;
+    transition: opacity 0.15s;
+}
+
+.troubleLink:hover .troubleLinkArrow {
+    opacity: 1;
+}
+
+/* ── Responsive ──────────────────────────────────────────────────── */
+@media (max-width: 800px) {
+    .hero {
+        min-height: 280px;
+        /* On small screens shift the gradient so text area widens */
+        background-position:
+            left,
+            right -30px bottom !important;
+    }
+
+    .heroContent {
+        padding: 2.25rem 1.75rem 2rem;
+        max-width: 80%;
+    }
+
+    .grid {
+        columns: 1;
+    }
+}
+
+@media (max-width: 500px) {
+    .hero {
+        /* Hide image on very small screens — gradient only */
+        background-image: linear-gradient(
+            155deg,
+            #162d1f 0%,
+            #1e4029 45%,
+            #2a5538 72%,
+            #1a3526 100%
+        ) !important;
+    }
+
+    .heroContent {
+        padding: 2rem 1.5rem;
+        max-width: 100%;
+    }
+}
+
+/* ── Star highlighting ───────────────────────────────────────────── */
+
+.starBadge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.15rem;
+    font-size: 0.62rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #92400e;
+    background: #fef3c7;
+    border: 1px solid #f59e0b;
+    border-radius: 3px;
+    padding: 0.08rem 0.32rem;
+    margin-right: 0.45rem;
+    vertical-align: middle;
+    white-space: nowrap;
+    line-height: 1.4;
+}
+
+/* List items (soil, looking-after, harvesting) */
+.tipItemStarred {
+    background: rgba(251, 191, 36, 0.1);
+    border-left: 3px solid #f59e0b;
+    border-radius: 0 6px 6px 0;
+    margin-left: -0.1rem;
+    padding-left: 1.7rem !important;
+}
+
+/* Ordered list items (looking-after) */
+.orderedItemStarred {
+    background: rgba(251, 191, 36, 0.1);
+    border-left: 3px solid #f59e0b;
+    border-radius: 0 6px 6px 0;
+    margin-left: -0.1rem;
+    padding-left: 2.6rem !important;
+}
+
+/* In the Kitchen sections */
+.kitchenItemStarred {
+    border-color: #f59e0b !important;
+    background: rgba(251, 191, 36, 0.08) !important;
+}
+
+/* Inline trouble entries */
+.troubleItemStarred {
+    border-left-color: #f59e0b !important;
+    background: rgba(251, 191, 36, 0.08) !important;
+}
+
+/* Variety cards */
+.varietyItemStarred {
+    border-color: #f59e0b !important;
+    background: rgba(251, 191, 36, 0.1) !important;
+}

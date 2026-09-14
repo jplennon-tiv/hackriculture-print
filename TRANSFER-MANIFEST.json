@@ -1,0 +1,2698 @@
+{
+  "preparedOn": "2026-09-14",
+  "source": "claude_app",
+  "files": [
+    {
+      "path": "adminApiPlugin.ts",
+      "bytes": 28355,
+      "sha256": "7475f1d9d54117cf52fea3c4adf04e0a459b5681f876f57c8be3cb878f1dbe8b"
+    },
+    {
+      "path": "index.html",
+      "bytes": 748,
+      "sha256": "239e76d77d323c62710bb1ae2b7541810f3637e7617de80b41a9127ada6faedf"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 112471,
+      "sha256": "42ec316b3983cf513f17c6ae56f3c9d518411c4bbae66aa514bc71e89257982a"
+    },
+    {
+      "path": "package.json",
+      "bytes": 790,
+      "sha256": "7aa5465eb10676a284cbf742b21aa2829d0264718f48f34c572892d5b7f50dbf"
+    },
+    {
+      "path": "pdfPlugin.ts",
+      "bytes": 12644,
+      "sha256": "53d4f486c7a8078bcc5eef3daab99ec8e9b52d126b2ddc9c1a713c3f5cd8d42a"
+    },
+    {
+      "path": "public/favicon.svg",
+      "bytes": 110,
+      "sha256": "821488c89966852bffcb19de064b212e6aa12ddb1b63954bfff18c671766b481"
+    },
+    {
+      "path": "public/images/header_chars/calendar.png",
+      "bytes": 21501,
+      "sha256": "b1ec235f38098628f5cb31265c3e77dfc8df90ff11d26fd5c652c0ddf83778a6"
+    },
+    {
+      "path": "public/images/header_chars/season_autumn.png",
+      "bytes": 22719,
+      "sha256": "4ca52bce40f7ed4d202ea4b534c95f4b1452885db344c9e9a86087bc882bff6e"
+    },
+    {
+      "path": "public/images/header_chars/season_spring.png",
+      "bytes": 25211,
+      "sha256": "9466e5c14558b41dfd6d3fc0574ae0d374bc94fb81883fdb22666e34d3fff070"
+    },
+    {
+      "path": "public/images/header_chars/season_summer.png",
+      "bytes": 22550,
+      "sha256": "ee56d04397fe879f6355ce31840a771f6003722723b998a0b0ddf5dd16361e9e"
+    },
+    {
+      "path": "public/images/header_chars/season_winter.png",
+      "bytes": 27234,
+      "sha256": "ca39face0f863f4298f7c4e04dc460b57bd74675d8a3bd73d4704bfab97c5ab1"
+    },
+    {
+      "path": "public/images/icons/bubble.png",
+      "bytes": 243456,
+      "sha256": "6013413dfab547018ec69d17db5e582de2ac4f9a88dd3f8b38c1d9585e4a2ac5"
+    },
+    {
+      "path": "public/images/icons/bubble2.png",
+      "bytes": 328438,
+      "sha256": "cc6fdd0e1d24e77d7ff1452261c7d0e40fb20f972f3ae0f1b3b90f30b503654d"
+    },
+    {
+      "path": "public/images/icons/head.png",
+      "bytes": 281804,
+      "sha256": "3f94b56c0b8dc86bf4571985577a28f6e2e09726094f5cb21ff9f3a3c456e461"
+    },
+    {
+      "path": "public/images/icons/nutrition.png",
+      "bytes": 445084,
+      "sha256": "caa3b2eb486fe00c43a19598ecdc4f57574561104b37dfe869ffce1666477d2d"
+    },
+    {
+      "path": "public/images/icons/sun.png",
+      "bytes": 521769,
+      "sha256": "c4b91ce2e205b5a9596f8b4ac29f4047ed64e401d68c6116a3cee8f561fa84ff"
+    },
+    {
+      "path": "public/images/icons/water.png",
+      "bytes": 586156,
+      "sha256": "07e2b3dd329fbf0b3f1e9f4ac93170c6709a585b605acb03259bcc02ecd9bf08"
+    },
+    {
+      "path": "public/images/key_risks/aphid.png",
+      "bytes": 214439,
+      "sha256": "a12a9bdfe58e03cccc2217fa1bf863d5e7f59dd4d399179a8551fa7d42776b91"
+    },
+    {
+      "path": "public/images/key_risks/beetle.png",
+      "bytes": 334186,
+      "sha256": "53f38252b843ccf45b6a782f2ef2004b495ebe29c06e5321597455bf564d28d3"
+    },
+    {
+      "path": "public/images/key_risks/bird.png",
+      "bytes": 221124,
+      "sha256": "9688fa9221f2fa713f12b6aacbdbe99fcf2d4ad15dedeb3eda017d9597945536"
+    },
+    {
+      "path": "public/images/key_risks/blight.png",
+      "bytes": 308450,
+      "sha256": "68867e251ad4399be49988a9b59566d3ec4e11e932a7bc661e822bdab75efa10"
+    },
+    {
+      "path": "public/images/key_risks/blossom_drop.png",
+      "bytes": 4076,
+      "sha256": "2b1aa7b5c5828600b71c3408df03668726a3ab42a9f1592ead75efa9352586d8"
+    },
+    {
+      "path": "public/images/key_risks/blossom_end_rot.png",
+      "bytes": 6776,
+      "sha256": "59ab34c5422da19fb8c352cddc8b400af763743c3cd8d4dc2d817bce654749cb"
+    },
+    {
+      "path": "public/images/key_risks/bolting.png",
+      "bytes": 5903,
+      "sha256": "f3052a0dbd5dd3872a1e2e606013b426e324bcbfb1e63c14057bd837c3819583"
+    },
+    {
+      "path": "public/images/key_risks/caterpillar.png",
+      "bytes": 201637,
+      "sha256": "72c57b8f728646d7c02313f84e418b3d163ddbbbc73260446d362d02508ce5da"
+    },
+    {
+      "path": "public/images/key_risks/club_root.png",
+      "bytes": 308136,
+      "sha256": "6b4ee446ec995867bd0989bd1c60a03e4c971c38ff9dc0b189e2c6d7b64ad342"
+    },
+    {
+      "path": "public/images/key_risks/damping_off.png",
+      "bytes": 88571,
+      "sha256": "9bd99605aff4574080df99972ab8ede9eadf8f6ecb26fcf6d70ad269a8ee650c"
+    },
+    {
+      "path": "public/images/key_risks/deficiency.png",
+      "bytes": 301648,
+      "sha256": "1f2fb3775a6089a458fb4646dfb0c038fd1d565155de3f648fdfee436ba454cc"
+    },
+    {
+      "path": "public/images/key_risks/fly.png",
+      "bytes": 336144,
+      "sha256": "5a719493ba76a04227737debc45530330674f0cb4ed535dfdbfbed7c5f021fb5"
+    },
+    {
+      "path": "public/images/key_risks/forked_root.png",
+      "bytes": 4965,
+      "sha256": "600526acbf9f41634789942cb68238b03a6c8baf7d13f28f6cbb35c1292b0b6b"
+    },
+    {
+      "path": "public/images/key_risks/frost.png",
+      "bytes": 8202,
+      "sha256": "cc9dce55900104d0117e49c999345a2eecd1d89eb83d3a6ef7d48a68bb44a447"
+    },
+    {
+      "path": "public/images/key_risks/grey_mould.png",
+      "bytes": 366395,
+      "sha256": "0852af7b0f73bae41f2f7f09e08cf378c198d81b08d2bb29708ce8c4a8e72600"
+    },
+    {
+      "path": "public/images/key_risks/head.png",
+      "bytes": 281804,
+      "sha256": "3f94b56c0b8dc86bf4571985577a28f6e2e09726094f5cb21ff9f3a3c456e461"
+    },
+    {
+      "path": "public/images/key_risks/hollow_root.png",
+      "bytes": 5448,
+      "sha256": "fe61c1e8f0a7e7e99e764f02889489760b0702ada25f1861bbbed430695d4a16"
+    },
+    {
+      "path": "public/images/key_risks/leaf_spot.png",
+      "bytes": 264151,
+      "sha256": "34cd21f58c5ee7e9db56be6ead2f2ebb05f4c4ba032c5fdcaab6002822a3198b"
+    },
+    {
+      "path": "public/images/key_risks/mouse.png",
+      "bytes": 280141,
+      "sha256": "71a03039cbfdece647c8e18f6573ff5940c04ae50e47e7a5f7289d6fe2428897"
+    },
+    {
+      "path": "public/images/key_risks/poor_germination.png",
+      "bytes": 3688,
+      "sha256": "5c1621daab789ddf616552a75d20042fa66d4fa3252b5d82df12ce79caff9e98"
+    },
+    {
+      "path": "public/images/key_risks/powdery_mildew.png",
+      "bytes": 778496,
+      "sha256": "1223605329c0a63bd1f35aac10a0544e099192c97542755a72f486d74ec0711c"
+    },
+    {
+      "path": "public/images/key_risks/root_rot.png",
+      "bytes": 338484,
+      "sha256": "1ece911047c37e7424e31259b38b4d5f22e0d9eca5fced452fc10bcce0c58700"
+    },
+    {
+      "path": "public/images/key_risks/rust_spots.png",
+      "bytes": 269043,
+      "sha256": "144bda7d9590fec183a9573efa087caa69498ed2db5389b5b39185020a2f1d02"
+    },
+    {
+      "path": "public/images/key_risks/slug.png",
+      "bytes": 168990,
+      "sha256": "f2d7544cc34368a19e5c52b54a08a26b0fd30144fb118359b8be70da319f4cc4"
+    },
+    {
+      "path": "public/images/key_risks/soil_grub.png",
+      "bytes": 340060,
+      "sha256": "40bc82102ed386987fba4db1c469e061697deb0e78bef2923d97b74411f0946c"
+    },
+    {
+      "path": "public/images/key_risks/spider_mite.png",
+      "bytes": 252608,
+      "sha256": "b23b8acfadb91f071cd3c202e900055165eca696cc158f73bf901935d5bfa240"
+    },
+    {
+      "path": "public/images/key_risks/splitting.png",
+      "bytes": 7731,
+      "sha256": "7e5fa146eada52b18ebdde698563af8c26360ef6fd30b1a65cbd7465be54cb88"
+    },
+    {
+      "path": "public/images/key_risks/stem_rot.png",
+      "bytes": 1462217,
+      "sha256": "3f7fb2a9613b2292945296e41faee9eba5428b72d8af72f7f2de92ead1d0d714"
+    },
+    {
+      "path": "public/images/key_risks/sun_scald.png",
+      "bytes": 5493,
+      "sha256": "a861abf900c9d46aea499dc7e6feca5eeb3a7ff0d52b72a6483706a858891496"
+    },
+    {
+      "path": "public/images/key_risks/thermometer.png",
+      "bytes": 1367181,
+      "sha256": "d4962baca711ce79c19d868dc14c53ed50773797cdbc7baf6a4af1f12acf8173"
+    },
+    {
+      "path": "public/images/key_risks/tipburn.png",
+      "bytes": 8007,
+      "sha256": "c567ae4a03efb93a5bb1726095cf9668958fa24cfda3a2925a54fefe8f3cd02f"
+    },
+    {
+      "path": "public/images/key_risks/virus_leaf.png",
+      "bytes": 354336,
+      "sha256": "f03bc572d3f021589757ae4cd0a9e9a7150a4b81f2631e58cfe061e73bdc425c"
+    },
+    {
+      "path": "public/images/key_risks/weed.png",
+      "bytes": 1469045,
+      "sha256": "4841d941699cf915f18f95b394d82ef490b6d10b87237db9b273597e4a58abd9"
+    },
+    {
+      "path": "public/images/key_risks/whitefly.png",
+      "bytes": 269314,
+      "sha256": "7f3605aa9b123432c4fdb9746a620aa46790b97a77b0f02bc5f831ecb2f43ce7"
+    },
+    {
+      "path": "public/images/key_risks/wind.png",
+      "bytes": 1424726,
+      "sha256": "f8384befa528b0126532fdf51da84df80c6e852155195eca903bc6dd261e2835"
+    },
+    {
+      "path": "public/images/quick_facts/depth.png",
+      "bytes": 1748,
+      "sha256": "70e5f63d44a3d2e8542941a682c747330842e7098553d8e1f733e27c14d73395"
+    },
+    {
+      "path": "public/images/quick_facts/feeding.png",
+      "bytes": 4708,
+      "sha256": "61bb8e97ffc6f7bbe6aafa723af12925429fe0a031003ead4e4828be1615dd58"
+    },
+    {
+      "path": "public/images/quick_facts/germination.png",
+      "bytes": 3508,
+      "sha256": "baded6fa904a85a7d9448b984f36ef9dae865aaa6e0c62cd72cbe9199128c3c0"
+    },
+    {
+      "path": "public/images/quick_facts/harvest.png",
+      "bytes": 4764,
+      "sha256": "00a9ed8d96f48485f10dfa62be1a32b0cb03735661e4fe2da167110639b4bdcf"
+    },
+    {
+      "path": "public/images/quick_facts/ph.png",
+      "bytes": 3308,
+      "sha256": "b20a2600a5e9f016f5027df600a7186a7901f7d6ecdbd9de59db64549bbe4e18"
+    },
+    {
+      "path": "public/images/quick_facts/plant_spacing.png",
+      "bytes": 1993,
+      "sha256": "fbdce45d9e696409bcdbe086105df17e4afc97a21a3308c81819b31ee64b53da"
+    },
+    {
+      "path": "public/images/quick_facts/ready_in.png",
+      "bytes": 5783,
+      "sha256": "b2bfed998fbf5aa6ff356db1ba370c61130556be2032ebd3985e8cb125d689d0"
+    },
+    {
+      "path": "public/images/quick_facts/row_spacing.png",
+      "bytes": 3140,
+      "sha256": "008d76c5189d02570c588f09d57773dad1bf85b411b67c666559a296155898f1"
+    },
+    {
+      "path": "public/images/quick_facts/seed_life.png",
+      "bytes": 2740,
+      "sha256": "91c189cd0ad733b2da96b3b83dc4fed7fe722f0cb7a9ab7112fae0014f7b8ba2"
+    },
+    {
+      "path": "public/images/quick_facts/soil.png",
+      "bytes": 2783,
+      "sha256": "338f99fe563b9115aacad2212d3610b8abc5997bc9c561a50686499ecfbc9a53"
+    },
+    {
+      "path": "public/images/quick_facts/sow.png",
+      "bytes": 3788,
+      "sha256": "eef8c41aba3cc8338deda6fd01afd1b74779f3edde975b9d81c8ced75cb8f0dd"
+    },
+    {
+      "path": "public/images/quick_facts/trial/README.md",
+      "bytes": 1411,
+      "sha256": "65bed3fb8d512db72e15b0d40e45ede370d8d7ae1f14a62447ed5d76e2f80784"
+    },
+    {
+      "path": "public/images/quick_facts/trial/depth.png",
+      "bytes": 9797,
+      "sha256": "423edbe9ef4df7df4dce59f9c8017be6bd52a90c3c743801a3b41f51fe610a7c"
+    },
+    {
+      "path": "public/images/quick_facts/trial/depth.svg",
+      "bytes": 662,
+      "sha256": "33a6317e27a088cbcab38493643b9dac4597c4a68a5f7f2173d409dfe4f19992"
+    },
+    {
+      "path": "public/images/quick_facts/trial/feeding.png",
+      "bytes": 16336,
+      "sha256": "065d5a25203bdeb3403d7a8b724f3527a6ca9f4647d8fab7deba0571f26cf6ad"
+    },
+    {
+      "path": "public/images/quick_facts/trial/feeding.svg",
+      "bytes": 806,
+      "sha256": "611d5039c9a81be50ce238de401d6697b9ad766fbf7ddeb033c7d3ae1019482c"
+    },
+    {
+      "path": "public/images/quick_facts/trial/germination.png",
+      "bytes": 20209,
+      "sha256": "f8e37c4c17133ac75e276b2a1bdfc34409e640ebd3725ad70453a6edc9f5ffc3"
+    },
+    {
+      "path": "public/images/quick_facts/trial/germination.svg",
+      "bytes": 906,
+      "sha256": "b6fc1ef0d777ecc7733c54ae866c83a764ec5b9bc010c8a7ff3772a1eee9d14d"
+    },
+    {
+      "path": "public/images/quick_facts/trial/harvest.png",
+      "bytes": 16953,
+      "sha256": "3192a1c3386e4b61bd9a280b2b19b936541a06b3eb41c5824ed9cca063025c38"
+    },
+    {
+      "path": "public/images/quick_facts/trial/harvest.svg",
+      "bytes": 931,
+      "sha256": "f29f6075f7ad4880e2f3be0a3b911d5f33251e08f8b17cd970a260084a3fab7a"
+    },
+    {
+      "path": "public/images/quick_facts/trial/mulching.png",
+      "bytes": 15523,
+      "sha256": "811ba96c17a855d64906af743aa4563901e580dfe7bc3fd871b2c8d9c7f928cf"
+    },
+    {
+      "path": "public/images/quick_facts/trial/mulching.svg",
+      "bytes": 628,
+      "sha256": "f9293e6933b6c8a3e7904bd4c084ea561c526239d91ee4b89c8d3846014fb176"
+    },
+    {
+      "path": "public/images/quick_facts/trial/ph.png",
+      "bytes": 13142,
+      "sha256": "7fa0f9279f192761e430a4465d888bee3d6e05a368910475657ea9bc765ac006"
+    },
+    {
+      "path": "public/images/quick_facts/trial/ph.svg",
+      "bytes": 779,
+      "sha256": "339d715d09c7e9029a42ec74038e764c81db60d53fa7a990b4f6171327fc48b1"
+    },
+    {
+      "path": "public/images/quick_facts/trial/plant_spacing.png",
+      "bytes": 9518,
+      "sha256": "711eded1deefd37a2883521d714765aa82d89958119808319ed65adc9de084f2"
+    },
+    {
+      "path": "public/images/quick_facts/trial/plant_spacing.svg",
+      "bytes": 633,
+      "sha256": "54ed8eddc8ac91768be2eb8330a3cd4349fb0f682e75e5c286c03777266dc906"
+    },
+    {
+      "path": "public/images/quick_facts/trial/planting.png",
+      "bytes": 14193,
+      "sha256": "520a9de4da908305e3435eae24d8945813ec55cd4feeb4af9922c696a6f62125"
+    },
+    {
+      "path": "public/images/quick_facts/trial/planting.svg",
+      "bytes": 677,
+      "sha256": "69dfeaaa7ca0d69afabadd772b8a560f1605e45e68c70dc76285a9bbc31c4c8f"
+    },
+    {
+      "path": "public/images/quick_facts/trial/protection.png",
+      "bytes": 16945,
+      "sha256": "89fa1a718315dd69ead9ce3b3e6cfc8c6e00bbea0973ced3dd3975ea3ef11340"
+    },
+    {
+      "path": "public/images/quick_facts/trial/protection.svg",
+      "bytes": 660,
+      "sha256": "94d7be47d22ef8f2d603e3851af413d408432ea59ccc3eee5702c58d2027db32"
+    },
+    {
+      "path": "public/images/quick_facts/trial/ready_in.png",
+      "bytes": 12733,
+      "sha256": "3693bb00c78e96ca7f157c13c327afb830bc305b5560fc0bfba106a51715b8cb"
+    },
+    {
+      "path": "public/images/quick_facts/trial/ready_in.svg",
+      "bytes": 630,
+      "sha256": "dd61718d02f2edd3a8f321279f12264a1a24c326ddf896fbaf0c1395a2f120fb"
+    },
+    {
+      "path": "public/images/quick_facts/trial/row_spacing.png",
+      "bytes": 7926,
+      "sha256": "6e8916ba2cb17449881a17873a406ef77ff64ac439f4c60eed54d31cd43a7de2"
+    },
+    {
+      "path": "public/images/quick_facts/trial/row_spacing.svg",
+      "bytes": 700,
+      "sha256": "5c1b97603c012c55a2f2991d0a99f676b350d60f71cbb034c93d7a1e31e8c59c"
+    },
+    {
+      "path": "public/images/quick_facts/trial/seed_life.png",
+      "bytes": 17049,
+      "sha256": "374262e9463f7c225e04521a8fb5b6fe7703cb785d24ffab50b9a1f0380e0bd8"
+    },
+    {
+      "path": "public/images/quick_facts/trial/seed_life.svg",
+      "bytes": 894,
+      "sha256": "c6bb7c1e4f5163fe79506f9804547be7b1cc775fe9d6c41f0119608f9839c164"
+    },
+    {
+      "path": "public/images/quick_facts/trial/soil.png",
+      "bytes": 17937,
+      "sha256": "e4400446b15d7fb381fe5c556be2ed435306b58aa2ed62c3f97211445a4d9a31"
+    },
+    {
+      "path": "public/images/quick_facts/trial/soil.svg",
+      "bytes": 601,
+      "sha256": "1917679cc93ae5f93868cc7416a212dfedd381188ec99ba2a9c62242f77d8d7f"
+    },
+    {
+      "path": "public/images/quick_facts/trial/sow.png",
+      "bytes": 19449,
+      "sha256": "85df9a6adb4547a5a6f858fb40f18e308925a0211d5d5f2c412c98ad660445ed"
+    },
+    {
+      "path": "public/images/quick_facts/trial/sow.svg",
+      "bytes": 952,
+      "sha256": "722a66d88b28a1e1b12f6053d67fe352e74cb04b962dc15abfc34a89c308bd2c"
+    },
+    {
+      "path": "public/images/quick_facts/trial/storage.png",
+      "bytes": 11399,
+      "sha256": "5ce93aaac4a9fc376411652f7bfc6df1fb635c469ec4d85db22f4976e4e0d37b"
+    },
+    {
+      "path": "public/images/quick_facts/trial/storage.svg",
+      "bytes": 694,
+      "sha256": "2e6db07fce706b77f13ecdaad8f96df76b71f2786df052e726fbbeb166986183"
+    },
+    {
+      "path": "public/images/quick_facts/trial/support.png",
+      "bytes": 21069,
+      "sha256": "67065d0729180762765d4a2986abbf19a02d8f6d29ad7e5d67458682d5f57d7d"
+    },
+    {
+      "path": "public/images/quick_facts/trial/support.svg",
+      "bytes": 658,
+      "sha256": "a9496df8acf71e253c10f6dca786a588199a5e3346fcdd55f2e716a6aa2624ea"
+    },
+    {
+      "path": "public/images/quick_facts/trial/water.png",
+      "bytes": 18264,
+      "sha256": "dffc8a08cc1d11803b2a45202b38322157ae9cddee057e6e39e1d1a5ca4f591c"
+    },
+    {
+      "path": "public/images/quick_facts/trial/water.svg",
+      "bytes": 724,
+      "sha256": "4d9bda317da2b343f950bc9eed31ac2c6dd8c79b34f7ca1a599b6be4ca789af1"
+    },
+    {
+      "path": "public/images/quick_facts/trial/weeding.png",
+      "bytes": 15888,
+      "sha256": "a2aafa14b3185b42c458f1f5d706dd714f1ac707798a246046a30396b940c53e"
+    },
+    {
+      "path": "public/images/quick_facts/trial/weeding.svg",
+      "bytes": 618,
+      "sha256": "75e923c26a7cb4b04312d72130fc5395f2852440151c0a8cd8bee9a4fd38516d"
+    },
+    {
+      "path": "public/images/quick_facts/trial/yield.png",
+      "bytes": 21224,
+      "sha256": "25f8eafe7e222d8d7737ea0c3a0285fb240132d1f475be8357dedf3bc6ccf15e"
+    },
+    {
+      "path": "public/images/quick_facts/trial/yield.svg",
+      "bytes": 691,
+      "sha256": "f72906ef0042b6edbbc5a74450c9d43478ec434ed90e133f66b3b0b89fbf4574"
+    },
+    {
+      "path": "public/images/quick_facts/water.png",
+      "bytes": 3005,
+      "sha256": "6c8ac272456d2b95a86ca2f878fd2a7eca2eaeb57556d9632373795b828e1aa9"
+    },
+    {
+      "path": "public/images/quick_facts/yield.png",
+      "bytes": 2891,
+      "sha256": "a19d217d6d6e6863e4658b496dafc090b3850f6efb7f553d9e221e0e82b6ef90"
+    },
+    {
+      "path": "public/images/troubles/bean_and_pea_troubles/anthracnose.png",
+      "bytes": 1629623,
+      "sha256": "5c2abe68222afd563e3e1afe4eac2ca101109b15e804d93abd6a78f63c0c56b9"
+    },
+    {
+      "path": "public/images/troubles/bean_and_pea_troubles/bean_seed_fly.png",
+      "bytes": 1738302,
+      "sha256": "fae20888532d1bc84b40f2e51f50c1b381ae8ba803154254a76cee835e0b8320"
+    },
+    {
+      "path": "public/images/troubles/bean_and_pea_troubles/birds.png",
+      "bytes": 1282626,
+      "sha256": "1aa5e723aed7245272c779b4d1ea38021b9de8f55a15ed0b61b5a003c216ef62"
+    },
+    {
+      "path": "public/images/troubles/bean_and_pea_troubles/black_bean_aphid.png",
+      "bytes": 1771978,
+      "sha256": "5ecc0a7a31f17df4599e4128516b24f15e926c6671bb9c67163cfe4484b92be2"
+    },
+    {
+      "path": "public/images/troubles/bean_and_pea_troubles/chocolate_spot.png",
+      "bytes": 1582148,
+      "sha256": "706cac989155dd85ebeae4e865a9d4b9c9696adf6d8bcccc3d59b83fef3bd603"
+    },
+    {
+      "path": "public/images/troubles/bean_and_pea_troubles/downy_mildew.png",
+      "bytes": 2323186,
+      "sha256": "4cf324a120340d1ba2c3c2da2cce67a8b2d46703d3ed5c664d69900341eadd9f"
+    },
+    {
+      "path": "public/images/troubles/bean_and_pea_troubles/foot_rot_and_root_rot.png",
+      "bytes": 2042273,
+      "sha256": "6778129e5a3508bb770a0741c9de24156fd3bf27c1df2382f28372d96aadb72c"
+    },
+    {
+      "path": "public/images/troubles/bean_and_pea_troubles/fusarium_wilt.png",
+      "bytes": 1716170,
+      "sha256": "3f3e970d9a0f42654a2cd76b7347ddc330066e724e59c54cfe14932f66d70483"
+    },
+    {
+      "path": "public/images/troubles/bean_and_pea_troubles/grey_mould_botrytis.png",
+      "bytes": 1732144,
+      "sha256": "814be6dd6e08fa0270f678053b5c38f1b31866f36db9cb7ab26ceb39f41f156f"
+    },
+    {
+      "path": "public/images/troubles/bean_and_pea_troubles/halo_blight.png",
+      "bytes": 1908117,
+      "sha256": "7adb0fa16f8858d885dc52a2d0e46b3aa67861d6eaafe0bb2707fad6567f8c35"
+    },
+    {
+      "path": "public/images/troubles/bean_and_pea_troubles/leaf_and_pod_spot.png",
+      "bytes": 1898135,
+      "sha256": "10a3050496b36a9384fc06ad60378e1fa83b9cfe1f7a798dd0fc64b31afebf2b"
+    },
+    {
+      "path": "public/images/troubles/bean_and_pea_troubles/marsh_spot.png",
+      "bytes": 1686475,
+      "sha256": "636d38c45ceddd7b257a0a7e3d853b7e6a9d13432bd7c538c8d4deedbe81e1e8"
+    },
+    {
+      "path": "public/images/troubles/bean_and_pea_troubles/mice.png",
+      "bytes": 1903164,
+      "sha256": "de1256f612b2b3d6bb8eae6f5343d4f19b693d778d2a7a6b666835da37b68654"
+    },
+    {
+      "path": "public/images/troubles/bean_and_pea_troubles/no_flowers.png",
+      "bytes": 1624337,
+      "sha256": "2a59f12eba88faa832a900b22352fdf25e0640b80950bd2d9cdf09efb4ad6db4"
+    },
+    {
+      "path": "public/images/troubles/bean_and_pea_troubles/no_pods.png",
+      "bytes": 2113427,
+      "sha256": "bceb76f3ee2236b6a07e4900b302fb3f0733a255bc812019970442ccdb7089ac"
+    },
+    {
+      "path": "public/images/troubles/bean_and_pea_troubles/pea_and_bean_weevil.png",
+      "bytes": 1501316,
+      "sha256": "f85860cce0026f5d6437fe676c264ce5417eac4b1983077bc89234e0dcc56068"
+    },
+    {
+      "path": "public/images/troubles/bean_and_pea_troubles/pea_aphid.png",
+      "bytes": 1780348,
+      "sha256": "52e6ebdea71f97dc9d00eaf49989a093ffe6f4c91233298f69583e89d54d29ae"
+    },
+    {
+      "path": "public/images/troubles/bean_and_pea_troubles/pea_moth.png",
+      "bytes": 1709990,
+      "sha256": "4d01a4714ed257a962a10897c52331d1ea7803f5ce084ea32c35529f1c65bf59"
+    },
+    {
+      "path": "public/images/troubles/bean_and_pea_troubles/pea_thrips.png",
+      "bytes": 1781240,
+      "sha256": "387c5637514ef77c6e8207669ce498a69f0e74ebfe4230bd21f97a6523775486"
+    },
+    {
+      "path": "public/images/troubles/bean_and_pea_troubles/powdery_mildew.png",
+      "bytes": 1890633,
+      "sha256": "8091fc01570f16fc4cf5668724c81eabb38cd1286dc4206492cf9ee18ee141b5"
+    },
+    {
+      "path": "public/images/troubles/bean_and_pea_troubles/seed_beetle.png",
+      "bytes": 1710417,
+      "sha256": "2b94604e762914af0ee861681ca91ecdd7ea7b039dabaa96a9e1bc45db526fda"
+    },
+    {
+      "path": "public/images/troubles/beetroot_troubles/blackleg.png",
+      "bytes": 1552862,
+      "sha256": "1663735760387d2216e416a74b92c181b2453f2d5b377319b91d450b51236264"
+    },
+    {
+      "path": "public/images/troubles/beetroot_troubles/bolting.png",
+      "bytes": 1672569,
+      "sha256": "aa1d37ae92d459a2d273e4ff69a0d50363bd8476bb4aceea7aa15eb5d95ae2f7"
+    },
+    {
+      "path": "public/images/troubles/beetroot_troubles/heart_rot.png",
+      "bytes": 1897082,
+      "sha256": "b8f9b93190ac72d28f532b9b2833ca386af1995322c40d00019c0834797ffb5f"
+    },
+    {
+      "path": "public/images/troubles/beetroot_troubles/leaf_spot.png",
+      "bytes": 1734362,
+      "sha256": "0ba92240275fbfcd7cbc845e97d602ffc5af8b7edeead34c064a07e5cf48a295"
+    },
+    {
+      "path": "public/images/troubles/beetroot_troubles/mangold_fly_leaf_miner.png",
+      "bytes": 1675287,
+      "sha256": "24519f45fed40900aa0147794d01322beef1db0f03ddd496b0f1df8090692317"
+    },
+    {
+      "path": "public/images/troubles/beetroot_troubles/speckled_yellows.png",
+      "bytes": 1319450,
+      "sha256": "d81f4a99ff2aa126ac9812c7377e62e3af7cf384a7254bf2f1029722e9132ea2"
+    },
+    {
+      "path": "public/images/troubles/brassica_troubles/black_rot.png",
+      "bytes": 1456538,
+      "sha256": "b63c731245c5447ab6ffd90568ec131d774e1c541cf89ee4093aaad0ff725fa5"
+    },
+    {
+      "path": "public/images/troubles/brassica_troubles/blown_brussels_sprouts.png",
+      "bytes": 2236759,
+      "sha256": "1841ea6d4bda18627e791be5045e865fb52a368f276f9c344b36a4cc3c8438fa"
+    },
+    {
+      "path": "public/images/troubles/brassica_troubles/boron_deficiency.png",
+      "bytes": 1426639,
+      "sha256": "e566d2c7fe43b7c7ab4bfa86ef455760bbae52e8f9a3e82fa8a41e81adad1c34"
+    },
+    {
+      "path": "public/images/troubles/brassica_troubles/button_cauliflowers.png",
+      "bytes": 2127311,
+      "sha256": "3ffdd5e2d0ccf81006cf8193a95f16c619d04d902e998857b6016d667e7f618a"
+    },
+    {
+      "path": "public/images/troubles/brassica_troubles/cabbage_caterpillars.png",
+      "bytes": 1710302,
+      "sha256": "5b8ded7dec9dca8e58899efbe00e639c0f321205c811c29d203e311a437b598e"
+    },
+    {
+      "path": "public/images/troubles/brassica_troubles/cabbage_root_fly.png",
+      "bytes": 1976742,
+      "sha256": "6c5a3f79892ceac6e0205a0d9ca122288deb88c10409f19827612200c546940a"
+    },
+    {
+      "path": "public/images/troubles/brassica_troubles/cabbage_stem_flea_beetle.png",
+      "bytes": 2134560,
+      "sha256": "a021de76f55645edc82b682a47641984dd152013036c714f5ae2f3453532e7e1"
+    },
+    {
+      "path": "public/images/troubles/brassica_troubles/cabbage_whitefly.png",
+      "bytes": 1923518,
+      "sha256": "d9a5ff08f6452976e728beaa75d25a85f39a58b7b47c29d5f6b5f1ea9d142ea6"
+    },
+    {
+      "path": "public/images/troubles/brassica_troubles/chafer_grubs.png",
+      "bytes": 1885753,
+      "sha256": "a9562bfd58c69b72cc82fd10ba256ad0b26f4a79095185cdab20bf912d75c352"
+    },
+    {
+      "path": "public/images/troubles/brassica_troubles/club_root_finger_and_toe.png",
+      "bytes": 1412780,
+      "sha256": "2d22faf141c0265abe3ce1cf8978967be04c38c51dccdd2b684a86e916c1aec0"
+    },
+    {
+      "path": "public/images/troubles/brassica_troubles/cutworm.png",
+      "bytes": 1914369,
+      "sha256": "e7910c341c9dc56f67e400dcf96a4d726ac73bf02d3bc979eef2116b45386dfb"
+    },
+    {
+      "path": "public/images/troubles/brassica_troubles/diamond_back_moth.png",
+      "bytes": 2317314,
+      "sha256": "1fdc45e3a9bc46d87bec88c7b66ecfb0e2a671e11aff72c58cce99521d307719"
+    },
+    {
+      "path": "public/images/troubles/brassica_troubles/downy_mildew.png",
+      "bytes": 1701797,
+      "sha256": "837718a1d3353e0bfc319d9c2fd702030417dcc431214adc93ab5ff5a3d16137"
+    },
+    {
+      "path": "public/images/troubles/brassica_troubles/flea_beetle.png",
+      "bytes": 1416198,
+      "sha256": "a35a34052a6ee8998568ba8ad503c7b23d5dffd3b5e94dfb4c82a1e4f41f4bc5"
+    },
+    {
+      "path": "public/images/troubles/brassica_troubles/frost.png",
+      "bytes": 1918753,
+      "sha256": "4e517264679637465e3faa413a9cc14b2bb62541ea5756eedfa3e0db19c638c2"
+    },
+    {
+      "path": "public/images/troubles/brassica_troubles/gall_weevil.png",
+      "bytes": 1784795,
+      "sha256": "9a0f0accf9a496170322940a6763c027e7ad2753adb5a6e0af5e81bd6f29f342"
+    },
+    {
+      "path": "public/images/troubles/brassica_troubles/heartless_cabbages.png",
+      "bytes": 1739275,
+      "sha256": "6a088d3e6f632df6022058f0b8a174ee505da6d621aeee2a27e63e274ddda8e4"
+    },
+    {
+      "path": "public/images/troubles/brassica_troubles/leaf_spot_ring_spot.png",
+      "bytes": 2033478,
+      "sha256": "a584a33aefdd0b52b256ee78d338fbd8c1a141d4c91d78a614b18ff0c7e452bf"
+    },
+    {
+      "path": "public/images/troubles/brassica_troubles/magnesium_deficiency.png",
+      "bytes": 1927131,
+      "sha256": "a326e4b6ed2a0335b2babbac7395c1d345dc6ab25cec3296d42c6136f53a74b4"
+    },
+    {
+      "path": "public/images/troubles/brassica_troubles/manganese_deficiency.png",
+      "bytes": 1674054,
+      "sha256": "d758d48a41378c2dc4c985155a10a17f585158a0be9e78e2af7d9866327777cd"
+    },
+    {
+      "path": "public/images/troubles/brassica_troubles/mealy_aphid.png",
+      "bytes": 1964606,
+      "sha256": "43b87a4aef14179f4d8ea2b8b55e221206d62856dad88e575a880b45260de507"
+    },
+    {
+      "path": "public/images/troubles/brassica_troubles/pigeons.png",
+      "bytes": 2063932,
+      "sha256": "e1840bb224fca73676ba457e3ad28d08f655a227d7ae1a75411e67ba5c7308c3"
+    },
+    {
+      "path": "public/images/troubles/brassica_troubles/slugs_and_snails.png",
+      "bytes": 2067709,
+      "sha256": "e7c0f6ab4678d0cb5677c16498e21126c10da5b0b2cf2732aa37dc4c18360ac5"
+    },
+    {
+      "path": "public/images/troubles/brassica_troubles/split_hearts.png",
+      "bytes": 1977689,
+      "sha256": "061a7ab0eccf931bd8a933078bb1dd1bee6ace3f8b9ab5003634a50cda7f6224"
+    },
+    {
+      "path": "public/images/troubles/brassica_troubles/swede_midge.png",
+      "bytes": 2027446,
+      "sha256": "67de664ac3a08dd31c2a72c122e222ab1d79481d0ae2071a01a3a36b78c3c409"
+    },
+    {
+      "path": "public/images/troubles/brassica_troubles/whiptail.png",
+      "bytes": 1988399,
+      "sha256": "9bc88b928f3b94eb5bc24ece767b59c358919682faa9f37e3994d4fd8d593359"
+    },
+    {
+      "path": "public/images/troubles/brassica_troubles/white_blister_white_rust.png",
+      "bytes": 2503432,
+      "sha256": "e052dd5aebbc174b0d9fc06dc388431dc94e78e73be99f1a983a63bf09ef40b8"
+    },
+    {
+      "path": "public/images/troubles/brassica_troubles/wire_stem.png",
+      "bytes": 2047944,
+      "sha256": "42b7516a31115e766a042f874a0b94c0695d69a30faf7a9f624ca30e86225ead"
+    },
+    {
+      "path": "public/images/troubles/carrot_and_parsnip_troubles/black_rot.png",
+      "bytes": 1528027,
+      "sha256": "02857a7a2c2236c48585317ee124a3be99d2c651f2b1724ec2806f6b7c1ea5c2"
+    },
+    {
+      "path": "public/images/troubles/carrot_and_parsnip_troubles/carrot_fly.png",
+      "bytes": 1477496,
+      "sha256": "1353d4f5ea8bb4bb7bbbddef67c2a096a370de1a765070fe449434e6e273ec73"
+    },
+    {
+      "path": "public/images/troubles/carrot_and_parsnip_troubles/carrot_willow_aphid.png",
+      "bytes": 1592981,
+      "sha256": "e5a881909684bc107c7af14a4ee4dc1b30880eece41671ace8fb66b6e932a536"
+    },
+    {
+      "path": "public/images/troubles/carrot_and_parsnip_troubles/clayburn.png",
+      "bytes": 1272401,
+      "sha256": "15833625f9b123e38554fdd3c74e36ffd820da330aae8cb19c55c3c1eaeb23bb"
+    },
+    {
+      "path": "public/images/troubles/carrot_and_parsnip_troubles/fanging.png",
+      "bytes": 1470827,
+      "sha256": "757321c808c4fcd3189512e3c24404b3ec6effd2f34b0cf065fc9009a2e5f81d"
+    },
+    {
+      "path": "public/images/troubles/carrot_and_parsnip_troubles/green_top.png",
+      "bytes": 1740759,
+      "sha256": "4e2a4f106b4a1233ac4076ec6275b46637cadb3b9d4f455be07988fe65fb6ad8"
+    },
+    {
+      "path": "public/images/troubles/carrot_and_parsnip_troubles/motley_dwarf_virus.png",
+      "bytes": 1785213,
+      "sha256": "c8a21673d24f9efad5bb4470bc9acbbb4c3a6541273a61e3373b5498fe8b7ad1"
+    },
+    {
+      "path": "public/images/troubles/carrot_and_parsnip_troubles/parsnip_canker.png",
+      "bytes": 1947303,
+      "sha256": "c9361c43e5e7971134fc2bbe1d6910d8dc214f5361063b47ddb0301d99a837fb"
+    },
+    {
+      "path": "public/images/troubles/carrot_and_parsnip_troubles/sclerotinia_rot.png",
+      "bytes": 1507022,
+      "sha256": "a55c758a7437e8d92a25f1fba9b592d39600d352f6dbc988f0dbca39415d3a2a"
+    },
+    {
+      "path": "public/images/troubles/carrot_and_parsnip_troubles/small_roots.png",
+      "bytes": 1502075,
+      "sha256": "3da30b33f3db8216379d2dcc44e83e6634500d1cfa9822fb5d6cd34ec5b633e6"
+    },
+    {
+      "path": "public/images/troubles/carrot_and_parsnip_troubles/splitting.png",
+      "bytes": 1416289,
+      "sha256": "bf1f80fc5ed44866a0c3e598239c30feabc3e273064f915a5bedeebddf1e1a7b"
+    },
+    {
+      "path": "public/images/troubles/carrot_and_parsnip_troubles/swift_moth.png",
+      "bytes": 1512198,
+      "sha256": "96075685f7c30d0a6deabc14adb4cf0017edf84be049b05c2c288b715628eb67"
+    },
+    {
+      "path": "public/images/troubles/carrot_and_parsnip_troubles/violet_root_rot.png",
+      "bytes": 1543421,
+      "sha256": "d179408d69c0947fbc6dceedaa073354b3d54e78ebf3b6e75a0df74ae648d14d"
+    },
+    {
+      "path": "public/images/troubles/celery_troubles/bolting.png",
+      "bytes": 1819910,
+      "sha256": "26fb89a0d53e6f491b6dfb303a6db24371a07526e15e91204f1746b9a4bd3d73"
+    },
+    {
+      "path": "public/images/troubles/celery_troubles/celery_fly_leaf_miner.png",
+      "bytes": 1864182,
+      "sha256": "a24744880fe47f519cca0db371d11c19182914d53c6c4d08725e362487542ec4"
+    },
+    {
+      "path": "public/images/troubles/celery_troubles/celery_heart_rot.png",
+      "bytes": 2210425,
+      "sha256": "41a67b7eac29a0982066905cd1d220f9926704a689c4d7e85aed30814f5dd553"
+    },
+    {
+      "path": "public/images/troubles/celery_troubles/celery_leaf_spot_blight.png",
+      "bytes": 2121834,
+      "sha256": "6e64c72420107b61d88656f0858a858ab79f1dc16f43c16d8a09a8bba9f1daed"
+    },
+    {
+      "path": "public/images/troubles/celery_troubles/slugs_and_snails.png",
+      "bytes": 2499503,
+      "sha256": "550d9d3f8923d62120a774f9d145f06b1c8f790f57aaa49c0b7aecb09909783a"
+    },
+    {
+      "path": "public/images/troubles/celery_troubles/splitting.png",
+      "bytes": 1996145,
+      "sha256": "e273e4d7c48e307dc99bab4dcd11407dc418bb44350e97f9b1fc37d84dd49215"
+    },
+    {
+      "path": "public/images/troubles/cucurbit_troubles/anthracnose_leaf_spot.png",
+      "bytes": 2768145,
+      "sha256": "6a24e28e76a2299e042f77d963c4657496c663dbef63ceba9629ccdead786949"
+    },
+    {
+      "path": "public/images/troubles/cucurbit_troubles/anthracnose_on_fruit.png",
+      "bytes": 2034964,
+      "sha256": "87b5512f8d5759c29ba9e48d1a86d57295c99f8b09531b372bdfa63aa25981b7"
+    },
+    {
+      "path": "public/images/troubles/cucurbit_troubles/basal_stem_rot.png",
+      "bytes": 2676411,
+      "sha256": "26f7572f89cab15f84c60fd3143357a23c0ab368f6f5ac2175044bf24b2d1b70"
+    },
+    {
+      "path": "public/images/troubles/cucurbit_troubles/bitterness.png",
+      "bytes": 2047100,
+      "sha256": "db2a703a054eccbc65747d18033a4e601b0db97ffce7938eaf3049a81ef1e58a"
+    },
+    {
+      "path": "public/images/troubles/cucurbit_troubles/black_rot.png",
+      "bytes": 1760829,
+      "sha256": "be7f3dcc32c567cf3b4b6c9b7297c7e6d06affb9fb4b08c7f72207d6dfd4a79d"
+    },
+    {
+      "path": "public/images/troubles/cucurbit_troubles/blotch.png",
+      "bytes": 2425260,
+      "sha256": "22bcc6887f20df21569d1e0ca10366230b1eaca953548a8bdb35acd674c58e0e"
+    },
+    {
+      "path": "public/images/troubles/cucurbit_troubles/cucumber_mosaic_virus.png",
+      "bytes": 2347316,
+      "sha256": "e3fe6b1f20e493db86e66b1667a7ab3af547e3a751fdb31eda1833b9af4c0e9b"
+    },
+    {
+      "path": "public/images/troubles/cucurbit_troubles/cucumber_mosaic_virus_on_fruit.png",
+      "bytes": 1814379,
+      "sha256": "5b9c0d9eb8a4d8590328ee639eb7da658492e66279c9347983942352b87e9f38"
+    },
+    {
+      "path": "public/images/troubles/cucurbit_troubles/eelworm.png",
+      "bytes": 2132590,
+      "sha256": "6d569385fff991254337b1e5bbbfc4dc927e9dbe9f5d52b541b91f785cb2cdab"
+    },
+    {
+      "path": "public/images/troubles/cucurbit_troubles/grey_mould_botrytis.png",
+      "bytes": 2357065,
+      "sha256": "7d122afe465b9955c09ace83d4a1a88dfa39b270449c7abcc70dc85299e6b664"
+    },
+    {
+      "path": "public/images/troubles/cucurbit_troubles/gummosis.png",
+      "bytes": 1772805,
+      "sha256": "54cc91a68f2762509d0db45d1076941d1c4cdaab92ce8d6c560abf52f67dee1f"
+    },
+    {
+      "path": "public/images/troubles/cucurbit_troubles/mice.png",
+      "bytes": 2396464,
+      "sha256": "bdb6c055cdf9b9dcbb4764f3636aa41bda2e399c57db94e6d571408ae0190f36"
+    },
+    {
+      "path": "public/images/troubles/cucurbit_troubles/no_fruit.png",
+      "bytes": 2166396,
+      "sha256": "131968ed42d5559cfc2aef12b041d446c1180909de94b8b89379d9995263b077"
+    },
+    {
+      "path": "public/images/troubles/cucurbit_troubles/poor_yield.png",
+      "bytes": 1534534,
+      "sha256": "b9b3b46845c7e36b4384e98fdfc8174218bdbb799518bb6bf8809e812934240b"
+    },
+    {
+      "path": "public/images/troubles/cucurbit_troubles/powdery_mildew.png",
+      "bytes": 2612842,
+      "sha256": "0417d5ddbe9778b1badb11c0e5b42ad1e0d0fd991e6f4fe4d389d40cd602d0e9"
+    },
+    {
+      "path": "public/images/troubles/cucurbit_troubles/red_spider_mite.png",
+      "bytes": 2949092,
+      "sha256": "fd2f8a07ff1f33dfb67406c19c6239c24692ca0bc6534cafbca75276c98a2ca4"
+    },
+    {
+      "path": "public/images/troubles/cucurbit_troubles/root_rot.png",
+      "bytes": 1921129,
+      "sha256": "cc1813aabd9440dae8964173a7b17ecb3a8abc6491a54d63a7fae98fbd5110ed"
+    },
+    {
+      "path": "public/images/troubles/cucurbit_troubles/sclerotinia_rot.png",
+      "bytes": 1959836,
+      "sha256": "de3ed65303ce888ced53676449496ef21750212f52011cced4f03452985d4046"
+    },
+    {
+      "path": "public/images/troubles/cucurbit_troubles/slugs_and_snails.png",
+      "bytes": 2652599,
+      "sha256": "bc6a1aad9ed77d35e463df453e73d1541985101637ddc13f618f4a3df4cf7845"
+    },
+    {
+      "path": "public/images/troubles/cucurbit_troubles/stem_rot.png",
+      "bytes": 2625469,
+      "sha256": "9a2b13e7fe31a1393e690e17cf480719b5bed9a334e022ba4895d6800949a977"
+    },
+    {
+      "path": "public/images/troubles/cucurbit_troubles/verticillium_wilt.png",
+      "bytes": 2043047,
+      "sha256": "0c1762bbe63117785594f83afca9aae203e02c907c8ce55e9c085f259feb59e3"
+    },
+    {
+      "path": "public/images/troubles/cucurbit_troubles/withering_of_young_fruit.png",
+      "bytes": 1888881,
+      "sha256": "385d9e7eb299ca5daac65ad1685b6155dc64ccc969c171ce98b29f133151f6f6"
+    },
+    {
+      "path": "public/images/troubles/lettuce_troubles/aphid.png",
+      "bytes": 2585438,
+      "sha256": "d69b1053a75af727693bb64d00190e7e2cca2d4eabe1f388483e3cdb53f44953"
+    },
+    {
+      "path": "public/images/troubles/lettuce_troubles/bolting.png",
+      "bytes": 1791656,
+      "sha256": "0a870b01f350ec1a01c4e51406e2bcd0b7f9b164de5881740dc04b00da3a3abf"
+    },
+    {
+      "path": "public/images/troubles/lettuce_troubles/cutworm.png",
+      "bytes": 1896094,
+      "sha256": "f90881082826658055f6a16fb26dd55d1fea76ccaadcfa3adefda4579d3bc986"
+    },
+    {
+      "path": "public/images/troubles/lettuce_troubles/downy_mildew.png",
+      "bytes": 2512145,
+      "sha256": "3572b881046095419141c61d320e5412d282af3f2e89c0f0c19f18ddf1c5e8ec"
+    },
+    {
+      "path": "public/images/troubles/lettuce_troubles/eelworm.png",
+      "bytes": 2237372,
+      "sha256": "59afd6d25e9f632f7b8fafbe1ba34f9d9c91eebd25a44ba09869b5a27b15b730"
+    },
+    {
+      "path": "public/images/troubles/lettuce_troubles/grey_mould_botrytis.png",
+      "bytes": 2476844,
+      "sha256": "ce17f903abe9969ad713831645aaa228c3f412be3fd8b292bedf50785f955e0f"
+    },
+    {
+      "path": "public/images/troubles/lettuce_troubles/lettuce_root_maggot.png",
+      "bytes": 2136491,
+      "sha256": "3de3f5dbb30043b1793ec4c9e3355cb5de0e19e0bde44026707090c09d60afcd"
+    },
+    {
+      "path": "public/images/troubles/lettuce_troubles/mosaic_virus.png",
+      "bytes": 2264536,
+      "sha256": "5f32001c6e2936c05b815d5f18ee708a6d4a821b1f689504fe148615f0c29448"
+    },
+    {
+      "path": "public/images/troubles/lettuce_troubles/no_hearts.png",
+      "bytes": 2460103,
+      "sha256": "e203c74fd1e8af47e794c8b6bc3b870bc9dc6af8b54442983d287a1fb61252b3"
+    },
+    {
+      "path": "public/images/troubles/lettuce_troubles/ring_spot.png",
+      "bytes": 2385985,
+      "sha256": "c7cc4247c78561b311aedbb4c92bc021715a25114e7ba20b7f7da903e5b1eb90"
+    },
+    {
+      "path": "public/images/troubles/lettuce_troubles/root_aphid.png",
+      "bytes": 2304909,
+      "sha256": "b8c08c258ff79bb6c93bc438d1ba788eb8da0bb510637d4677d851f97b7807df"
+    },
+    {
+      "path": "public/images/troubles/lettuce_troubles/slugs_and_snails.png",
+      "bytes": 2268611,
+      "sha256": "beac6533db7945700cadd6b20db0c82defedc6c06db66f289e569154ed502d78"
+    },
+    {
+      "path": "public/images/troubles/lettuce_troubles/tipburn.png",
+      "bytes": 2525576,
+      "sha256": "f5d11e5c1e9a42bf066ece343e192af3b55d2f965259ac0379d2f9a8394ee37c"
+    },
+    {
+      "path": "public/images/troubles/onion_and_leek_troubles/bolting.png",
+      "bytes": 1260914,
+      "sha256": "4cac4fd0e94c1167ffc2b4ea945945800c78dd6b941bc8178b7a2ab9b402804a"
+    },
+    {
+      "path": "public/images/troubles/onion_and_leek_troubles/bull_neck_thick_neck.png",
+      "bytes": 1514748,
+      "sha256": "10c2b5d3518dcc163ae96794b7bfbc08f1b7d7e3ac9250c84586f630c67d00d3"
+    },
+    {
+      "path": "public/images/troubles/onion_and_leek_troubles/downy_mildew.png",
+      "bytes": 1582058,
+      "sha256": "df7f4ae34eee4c55304ef6a837a150e80379ef0de1655c0d88cbe2abdd3065fe"
+    },
+    {
+      "path": "public/images/troubles/onion_and_leek_troubles/drooping_leaves.png",
+      "bytes": 1820657,
+      "sha256": "5f22ac87ffbbbd23945428f3c8326f3c2aa854e43240b62cb1c45d84d2e5e46a"
+    },
+    {
+      "path": "public/images/troubles/onion_and_leek_troubles/leek_moth.png",
+      "bytes": 1747051,
+      "sha256": "b63af09c26f0f710fd3acf3585c8cb3961dbce194416acbbfcec1b765fb99432"
+    },
+    {
+      "path": "public/images/troubles/onion_and_leek_troubles/neck_rot.png",
+      "bytes": 2066634,
+      "sha256": "2e407145f64b52a6200997928f8e7169e08e96f310e70f2a3aea4e8f3f562d9c"
+    },
+    {
+      "path": "public/images/troubles/onion_and_leek_troubles/onion_fly.png",
+      "bytes": 1554821,
+      "sha256": "29bbf55cefdf92744953c560c8a777d4b9780f5e8d2400e1af20df16d2f9282a"
+    },
+    {
+      "path": "public/images/troubles/onion_and_leek_troubles/rust.png",
+      "bytes": 1778125,
+      "sha256": "bc4ee78ee19617e8bfeb149d9ae0c8dc484794e2971721d833529b03dec869e7"
+    },
+    {
+      "path": "public/images/troubles/onion_and_leek_troubles/saddleback.png",
+      "bytes": 1981264,
+      "sha256": "6c1a5ba3669e906daad3ce2a8ff75ecb5db58c0ebfc070789f0a6710229d2cd0"
+    },
+    {
+      "path": "public/images/troubles/onion_and_leek_troubles/set_division.png",
+      "bytes": 1453034,
+      "sha256": "d325792942cf05a66bd11b74db874586bfc33fbc351c643980964e536c128c5b"
+    },
+    {
+      "path": "public/images/troubles/onion_and_leek_troubles/shanking.png",
+      "bytes": 1902146,
+      "sha256": "cffeb32e19044e37ec2429a0a10fdbda2ca53a4a06e31ce9d7e77968d058101f"
+    },
+    {
+      "path": "public/images/troubles/onion_and_leek_troubles/smut.png",
+      "bytes": 1652369,
+      "sha256": "fa03c58a07cd1ac67b6b756b70ed9f2f9f41dac51a13d953787900f215301a8b"
+    },
+    {
+      "path": "public/images/troubles/onion_and_leek_troubles/stem_bulb_eelworm.png",
+      "bytes": 1689192,
+      "sha256": "1d1470097db4ce721c5e44105fc5d3e201360d3b5fb634897c32172e3b05cf15"
+    },
+    {
+      "path": "public/images/troubles/onion_and_leek_troubles/white_rot_mouldy_nose.png",
+      "bytes": 2030055,
+      "sha256": "f41cf0b46d0aee8a6d4c6b9ff704e6379e4f16a620e71dc555c706bcda5994eb"
+    },
+    {
+      "path": "public/images/troubles/onion_and_leek_troubles/white_tip.png",
+      "bytes": 1223321,
+      "sha256": "b040372209a1d0137e10b98e450a2c26f2c45d05e9782ba3bc9c0416dee757ff"
+    },
+    {
+      "path": "public/images/troubles/potato_troubles/aphid_greenfly.png",
+      "bytes": 1923066,
+      "sha256": "60548b1b083a992cdf38c7d30b5f271e39461c01a7adb81c05dfbccea9c1a429"
+    },
+    {
+      "path": "public/images/troubles/potato_troubles/blackleg.png",
+      "bytes": 1674073,
+      "sha256": "ee2d5af900e2d1c3523ad4d666b1baced6bcf98c23a88ee1a67f86a235501e24"
+    },
+    {
+      "path": "public/images/troubles/potato_troubles/capsid_bug.png",
+      "bytes": 1812625,
+      "sha256": "85469dcd7cbbe9c4cc3b6721d027d5c3e4c0bca1c83dc4bacd7ecd99d5bd665c"
+    },
+    {
+      "path": "public/images/troubles/potato_troubles/common_scab.png",
+      "bytes": 1980043,
+      "sha256": "0fad90dcb22a64dd0517235fd34924569b5aabb7ed3f5b2fc305c2dc92dffa1b"
+    },
+    {
+      "path": "public/images/troubles/potato_troubles/dry_rot.png",
+      "bytes": 2027129,
+      "sha256": "81fd3ffa75e227d4d0a932aa54cbb017f34f0163b1e6341885dde413d83c4a60"
+    },
+    {
+      "path": "public/images/troubles/potato_troubles/frost.png",
+      "bytes": 1683998,
+      "sha256": "c2d3dda228491f48df5bca8d46a6d9441c5ad4edf14044611aa5fb6dd623a03e"
+    },
+    {
+      "path": "public/images/troubles/potato_troubles/gangrene.png",
+      "bytes": 1855469,
+      "sha256": "d3b1a08ea06ea92e30323ecf057c9c27c5d96cbb049fbccd6772552f2ad791fa"
+    },
+    {
+      "path": "public/images/troubles/potato_troubles/gapping.png",
+      "bytes": 1829310,
+      "sha256": "ed7354962dfcde6dd1fe656466fb61677cffd5cb049ec04dd3bf31abd0fa1b6d"
+    },
+    {
+      "path": "public/images/troubles/potato_troubles/hollow_heart.png",
+      "bytes": 2043050,
+      "sha256": "fd6edd42effccb2deb481fdb1a474a020e158dc3bf1c4aa67b24b8b3510be5d2"
+    },
+    {
+      "path": "public/images/troubles/potato_troubles/leaf_roll_virus.png",
+      "bytes": 1698108,
+      "sha256": "727ecebaabdfff7d56649da86a0a18d7ad3850494640f14671a7a6dce7895e27"
+    },
+    {
+      "path": "public/images/troubles/potato_troubles/magnesium_deficiency.png",
+      "bytes": 1905840,
+      "sha256": "b74d8fa41a6d13e0c07ec09e4eec7ebaaedaa3848a4020c719fc7523b589772e"
+    },
+    {
+      "path": "public/images/troubles/potato_troubles/mosaic_virus.png",
+      "bytes": 1985746,
+      "sha256": "7d33866ad72f2f99a60bc7f65d5b64f3326e186038eab668755f10d805a51c14"
+    },
+    {
+      "path": "public/images/troubles/potato_troubles/poor_quality.png",
+      "bytes": 1951317,
+      "sha256": "89c210c3e6beec72fb2197936550e7d32585958048bcc295c067c5faf4685540"
+    },
+    {
+      "path": "public/images/troubles/potato_troubles/potato_blight_1.png",
+      "bytes": 2084390,
+      "sha256": "be26d39e7d452104f529653cc041cf01f0b2d535cd0c7ce656093a39d7c6cd55"
+    },
+    {
+      "path": "public/images/troubles/potato_troubles/potato_blight_2.png",
+      "bytes": 1818793,
+      "sha256": "8a18f86266102d52e90abf9bf7e99b6ce6fe7d0f99a2ccf8a7b9db1b290d8a32"
+    },
+    {
+      "path": "public/images/troubles/potato_troubles/potato_cyst_eelworm.png",
+      "bytes": 1634980,
+      "sha256": "4ccba506ff4994b78c499f6f4e4f9274ae0121fae7166cae7d7ee6087494f64b"
+    },
+    {
+      "path": "public/images/troubles/potato_troubles/powdery_scab.png",
+      "bytes": 1902865,
+      "sha256": "2030a699b68750256889eee48bf2460ab4d7f6f7616345f7a7f2c4d538df0d40"
+    },
+    {
+      "path": "public/images/troubles/potato_troubles/rosy_rustic_moth.png",
+      "bytes": 1712170,
+      "sha256": "ce58af3966078237cd5b0cded931f9d7a59878704e38bcd4f757f016d1838c29"
+    },
+    {
+      "path": "public/images/troubles/potato_troubles/slugs.png",
+      "bytes": 2034449,
+      "sha256": "54a87c048a019c41e1f481dcfaa9491bf6a4ce75708d493e5708c6571c62a82a"
+    },
+    {
+      "path": "public/images/troubles/potato_troubles/soft_rot.png",
+      "bytes": 1894051,
+      "sha256": "d779f63ae473c83a9566a6c4912d98975a3c15e33521920eb892ec3db47f1d5d"
+    },
+    {
+      "path": "public/images/troubles/potato_troubles/soft_tubers.png",
+      "bytes": 1743447,
+      "sha256": "92a2f12e127a083be1e9c8ab3b39bb56bbd0db2ca52b172e64657a1e6306c8c4"
+    },
+    {
+      "path": "public/images/troubles/potato_troubles/spindly_sprouts.png",
+      "bytes": 1193400,
+      "sha256": "96b6eb64ccd9204079055821bd0b9da619c106131cf81c21558704179ed55be5"
+    },
+    {
+      "path": "public/images/troubles/potato_troubles/splitting.png",
+      "bytes": 1883030,
+      "sha256": "6ea17b7cf49afe561fbef82f595e4a49b91787d77af7d59e4d3a7af2abd8f5c7"
+    },
+    {
+      "path": "public/images/troubles/potato_troubles/spraing.png",
+      "bytes": 1768194,
+      "sha256": "449808b89014a5230e59c2923888508e181b6b8527be9db37ae819b7ad200b71"
+    },
+    {
+      "path": "public/images/troubles/potato_troubles/wart_disease.png",
+      "bytes": 1946700,
+      "sha256": "80283eaf416bd3a3247f4c35417f414cebea6a205598b90baeeca1527013dbb9"
+    },
+    {
+      "path": "public/images/troubles/potato_troubles/wireworm.png",
+      "bytes": 1791399,
+      "sha256": "dc8408f7c775b53cb62fa123c0f3aba6d73249057e1ff1b62f9c909a197762aa"
+    },
+    {
+      "path": "public/images/troubles/tomato_troubles/blossom_drop.png",
+      "bytes": 2100132,
+      "sha256": "5f02768c500da54b6b8f740029d5f370a7afbb300a2f3967204ea54096a84e4b"
+    },
+    {
+      "path": "public/images/troubles/tomato_troubles/blossom_end_rot.png",
+      "bytes": 2093281,
+      "sha256": "6d5177ab4324f7ed0b32611236225ef1bb9755e41f9a6105325231971dd81331"
+    },
+    {
+      "path": "public/images/troubles/tomato_troubles/blotchy_ripening.png",
+      "bytes": 1691352,
+      "sha256": "d14a06b7b663e2b0a04427b6f88f3b0e34353136c150be6525fa012dacd7a9c4"
+    },
+    {
+      "path": "public/images/troubles/tomato_troubles/buckeye_rot.png",
+      "bytes": 1986773,
+      "sha256": "8bfc22856f57faf2cbb7b8f290bf10401cb261ea3e7000095f97d101f621fa1e"
+    },
+    {
+      "path": "public/images/troubles/tomato_troubles/dry_set.png",
+      "bytes": 1735920,
+      "sha256": "bd15269b09c249f5c6a7662bb5c0c62c034876572d58725d42a749471d790158"
+    },
+    {
+      "path": "public/images/troubles/tomato_troubles/eelworm.png",
+      "bytes": 2074668,
+      "sha256": "c9e13ee9a62536619c4a0a850884f2690e171f9597c3c32cb5ebf6d60217fd84"
+    },
+    {
+      "path": "public/images/troubles/tomato_troubles/foot_rot.png",
+      "bytes": 1707565,
+      "sha256": "69d58d2cf1789a1352bb72b74d1973bf47f0020899ec49688ec927d680d3cc08"
+    },
+    {
+      "path": "public/images/troubles/tomato_troubles/ghost_spot.png",
+      "bytes": 2311585,
+      "sha256": "b4b5ee938087a8338124ace33258a3e25e7a94c396bad94f2a64088c0e06b0c3"
+    },
+    {
+      "path": "public/images/troubles/tomato_troubles/greenback.png",
+      "bytes": 2271662,
+      "sha256": "4741f8bd0d5a38ebb3ea02c478966a87f70e65f0f3c787e7f58aaba2df5f17ef"
+    },
+    {
+      "path": "public/images/troubles/tomato_troubles/greenhouse_whitefly.png",
+      "bytes": 1604206,
+      "sha256": "1472bdfc791c2c33aaafc2250221f0953077f5c9d65d646e6ae49a667b558462"
+    },
+    {
+      "path": "public/images/troubles/tomato_troubles/grey_mould_botrytis.png",
+      "bytes": 2142502,
+      "sha256": "a43820745faa332e68a016a2a29717c01ca54bb3c556e14ec2130b1085d0b7d8"
+    },
+    {
+      "path": "public/images/troubles/tomato_troubles/hollow_fruit.png",
+      "bytes": 1809527,
+      "sha256": "51f6c0d7775edb9795e0a4b45cf0780abff796e38a99452d652c8cbe34aca7c3"
+    },
+    {
+      "path": "public/images/troubles/tomato_troubles/hormone_damage.png",
+      "bytes": 2072949,
+      "sha256": "1fcac0d4a645a2e1f5c69fbe6b9626e98403f76edf0e730c42978e24cabf1515"
+    },
+    {
+      "path": "public/images/troubles/tomato_troubles/leaf_roll.png",
+      "bytes": 2119094,
+      "sha256": "8a7b44dc745bebda17e28393bab0ddaf2008134b83c2a0f47879cd2bb185007f"
+    },
+    {
+      "path": "public/images/troubles/tomato_troubles/magnesium_deficiency.png",
+      "bytes": 1696533,
+      "sha256": "a3e4c7b42e0361f2d0ca26a945dabff325e39fa7c596d10ccefe7a77e8b2639c"
+    },
+    {
+      "path": "public/images/troubles/tomato_troubles/potato_blight_1.png",
+      "bytes": 1861364,
+      "sha256": "8c795341c15766d9911ff8fda5654bbb92e2489bdfcd41da32d54a138ecaa7af"
+    },
+    {
+      "path": "public/images/troubles/tomato_troubles/potato_blight_2.png",
+      "bytes": 1888598,
+      "sha256": "2dbf9df2254072b45059fe5690f023be00b43cb3ff12d332a5ad9174ecf642a9"
+    },
+    {
+      "path": "public/images/troubles/tomato_troubles/root_rot.png",
+      "bytes": 2025695,
+      "sha256": "269b37a92fc8dc34db501b87474c527644c4b741aeaf3e464a2ae426eb0d5ba7"
+    },
+    {
+      "path": "public/images/troubles/tomato_troubles/split_fruit.png",
+      "bytes": 2365153,
+      "sha256": "d0046b5d36d006c123a895341714afc717d3ad9953766139691dfb9e318d9ce0"
+    },
+    {
+      "path": "public/images/troubles/tomato_troubles/stem_rot_didymella.png",
+      "bytes": 2087406,
+      "sha256": "82c90533efdace74d973b14e016b1efa1a2492b8c23731d850176c2198fc2e52"
+    },
+    {
+      "path": "public/images/troubles/tomato_troubles/sun_scald.png",
+      "bytes": 1991060,
+      "sha256": "6d0abb77c074100d8e3a01337e53dc9514ba6c1e1d8802cfcd04275c3e9795ef"
+    },
+    {
+      "path": "public/images/troubles/tomato_troubles/tomato_leaf_mould.png",
+      "bytes": 1714386,
+      "sha256": "af5fe817f91df0fc24c5310f304b0edc29c585577dd3de5717e28d19295b150e"
+    },
+    {
+      "path": "public/images/troubles/tomato_troubles/tomato_moth.png",
+      "bytes": 2018548,
+      "sha256": "a20da64d25e2b0cdfdb52eb804bef872df4fed8a165c87168ad12b503e8b39cc"
+    },
+    {
+      "path": "public/images/troubles/tomato_troubles/verticillium_wilt.png",
+      "bytes": 1858685,
+      "sha256": "763e0c550ea79310599005e8ef92bba9b4b9b5de73ae566915ade62acd7bee03"
+    },
+    {
+      "path": "public/images/troubles/tomato_troubles/virus.png",
+      "bytes": 1935137,
+      "sha256": "3ee6fc77b42cd655fa840e9e0364d704cf47a40a0aeed14366cfd789ab5924fb"
+    },
+    {
+      "path": "public/images/troubles/turnip_swede_radish_troubles/black_rot.png",
+      "bytes": 2259941,
+      "sha256": "f6d6b29478bdc65960d86528ee932ebe0e236e6898085151eb16ebd6ea1cb57e"
+    },
+    {
+      "path": "public/images/troubles/turnip_swede_radish_troubles/brown_heart.png",
+      "bytes": 1957465,
+      "sha256": "fb229bc9c73eec79109ec2f962a3276058f9bea9b546061222b7651e813cf0cc"
+    },
+    {
+      "path": "public/images/troubles/turnip_swede_radish_troubles/soft_rot.png",
+      "bytes": 1849503,
+      "sha256": "f9cd7b48547962e2aa9b70b3506d499172b18f742c38ccf45b90859d3074b090"
+    },
+    {
+      "path": "public/images/troubles/turnip_swede_radish_troubles/turnip_mosaic_virus.png",
+      "bytes": 1994239,
+      "sha256": "3f999d316ea80af1fd364f074b6510f2b64d42c2e291e17229a7b2fe52e70f50"
+    },
+    {
+      "path": "public/images/vegetable_background_images/artichoke_globe.jpg",
+      "bytes": 533782,
+      "sha256": "4e5e99b072b49a4c97bb4f83bfd842851eb801840f0750d4c834c34146ad8ef0"
+    },
+    {
+      "path": "public/images/vegetable_background_images/artichoke_jerusalem.jpg",
+      "bytes": 153694,
+      "sha256": "8d781547a07b23d121fb6486cd1cdbe8b6e6d786c46a13d2ec540c4e89300967"
+    },
+    {
+      "path": "public/images/vegetable_background_images/asparagus.jpg",
+      "bytes": 344748,
+      "sha256": "4a015052ad643b475d366611474cd7f27a64b2638da557cb47b051c5fb403078"
+    },
+    {
+      "path": "public/images/vegetable_background_images/aubergine.jpg",
+      "bytes": 43394,
+      "sha256": "e6e225abf2f6c8d822f3b3f1adb2437d3626170c2021e24e1c754633e032e8a1"
+    },
+    {
+      "path": "public/images/vegetable_background_images/bean_broad.jpg",
+      "bytes": 300886,
+      "sha256": "8fafc025b15cabef29a5a9625c56c1b437507df67249146c9dee976f9b8ee0da"
+    },
+    {
+      "path": "public/images/vegetable_background_images/bean_french.jpg",
+      "bytes": 116861,
+      "sha256": "bf29594652d2169a8e4fb70c30bb3d9ac4d5403b24e9791aacfca12d4b4ddd11"
+    },
+    {
+      "path": "public/images/vegetable_background_images/bean_runner.jpg",
+      "bytes": 114492,
+      "sha256": "0c8ab2c0d9635b97c506054e88ea0b28374674acc7070ad95f6c0098c50b9a04"
+    },
+    {
+      "path": "public/images/vegetable_background_images/beet_leaf.jpg",
+      "bytes": 90016,
+      "sha256": "ea3a37c9f76758ef624d8637c02ab5ddb5f9c35c369e4a8f6b84a91ae1efdbd8"
+    },
+    {
+      "path": "public/images/vegetable_background_images/beetroot.jpg",
+      "bytes": 218165,
+      "sha256": "f094da5fb3875f12c47ea31301bd25a1b9e49bd91bb14ef9f748006e7a92a7cd"
+    },
+    {
+      "path": "public/images/vegetable_background_images/broccoli.jpg",
+      "bytes": 173668,
+      "sha256": "427f618ebbb3ee332e41d6a8d69b382a7fbf8a4f8e56fc9287c9f3caa5d2128b"
+    },
+    {
+      "path": "public/images/vegetable_background_images/brussels_sprouts.jpg",
+      "bytes": 575759,
+      "sha256": "e601b220595bee6863b0603240b178c66f8f2b27e06d344df8f5858790cecbd7"
+    },
+    {
+      "path": "public/images/vegetable_background_images/cabbage.jpg",
+      "bytes": 216938,
+      "sha256": "ec6a073641287914f237136bae04014b4954bd525142b4b49526487384dfaf0a"
+    },
+    {
+      "path": "public/images/vegetable_background_images/capsicum.jpg",
+      "bytes": 415672,
+      "sha256": "1e77817ac1cdfda077c44f7585f6b25d14e5cb02e5d8f53e703b6b8982cc0435"
+    },
+    {
+      "path": "public/images/vegetable_background_images/carrot.jpg",
+      "bytes": 160285,
+      "sha256": "56618bd0c7d7378ad7e41c4de92e77fbeaacb2792a89ec62ee241c1b8600409b"
+    },
+    {
+      "path": "public/images/vegetable_background_images/cauliflower.jpg",
+      "bytes": 297261,
+      "sha256": "ee026fce707133b611607c44386e2e4c16b60fdcd036a9724f28caeb333b783a"
+    },
+    {
+      "path": "public/images/vegetable_background_images/celeriac.jpg",
+      "bytes": 143072,
+      "sha256": "6f65c6dc4ba47aa8bae0e80dcba74a738f8ff5cbe946c7eeee12b4ee73d7065b"
+    },
+    {
+      "path": "public/images/vegetable_background_images/celery.jpg",
+      "bytes": 95996,
+      "sha256": "7ba839ebc0d4ccc9d8a42848649691f5712a82a00142aaf875cd0fb755ca9ebf"
+    },
+    {
+      "path": "public/images/vegetable_background_images/chicory.jpg",
+      "bytes": 109542,
+      "sha256": "55ec1f6b217a91c75db351118afa39b7fc757460de5cdf9e98075dcdb55d0e86"
+    },
+    {
+      "path": "public/images/vegetable_background_images/cucumber_greenhouse.jpg",
+      "bytes": 259304,
+      "sha256": "62712e787ac06695d9aff4d2f8ae49f29f0ac39075fd15aece00191ed54f2df6"
+    },
+    {
+      "path": "public/images/vegetable_background_images/cucumber_outdoor.jpg",
+      "bytes": 259304,
+      "sha256": "62712e787ac06695d9aff4d2f8ae49f29f0ac39075fd15aece00191ed54f2df6"
+    },
+    {
+      "path": "public/images/vegetable_background_images/kale.jpg",
+      "bytes": 159818,
+      "sha256": "f904328d7491502ad36404a543c1a36159510cb9281f77b0670a7e815ede743c"
+    },
+    {
+      "path": "public/images/vegetable_background_images/kohl_rabi.jpg",
+      "bytes": 137720,
+      "sha256": "021a599e148b229411f84411ae0c2ac617c27cc0b2788ef50bba995ce033f61f"
+    },
+    {
+      "path": "public/images/vegetable_background_images/leek.jpg",
+      "bytes": 417695,
+      "sha256": "4593f8c9d8f0af8688a94ed33e27315169f1e1e9df5cf4cf861ed91a22fff81a"
+    },
+    {
+      "path": "public/images/vegetable_background_images/leek.png",
+      "bytes": 1873528,
+      "sha256": "fc3c50dc67aa1409484217bc4cc0ae1438696a374e9abea11420f33a47569ab6"
+    },
+    {
+      "path": "public/images/vegetable_background_images/lettuce.jpg",
+      "bytes": 187316,
+      "sha256": "6f4c08eecc0d1bdf91cb00234dc3ae7b69d2d73dabdb7bd78b51f65427714835"
+    },
+    {
+      "path": "public/images/vegetable_background_images/marrow_courgette_squash_pumpkin.jpg",
+      "bytes": 72713,
+      "sha256": "c288c1e010a7757617899e8e16d8adaa71aff6f240926f5ded142af26ad4c375"
+    },
+    {
+      "path": "public/images/vegetable_background_images/mushroom.jpg",
+      "bytes": 121771,
+      "sha256": "6dbf882931ab5e8507b245650f28d9f7b5069603ffa976e2ffa47f34b141715c"
+    },
+    {
+      "path": "public/images/vegetable_background_images/onion_from_seed.jpg",
+      "bytes": 66567,
+      "sha256": "12e98992a6ee0e36b9a09ac0b4f195bdb2c3d010bf55e8077613c727239a7ec7"
+    },
+    {
+      "path": "public/images/vegetable_background_images/onion_shallot_from_sets.jpg",
+      "bytes": 98997,
+      "sha256": "18ebf08ef30d2ef56398c899976086321f20efc853722c01ac002cb38d7fcb27"
+    },
+    {
+      "path": "public/images/vegetable_background_images/parsnip.jpg",
+      "bytes": 64435,
+      "sha256": "46fa8d44f96af01ca833e6e0fcc14e687a388fea8cbc28be58074645f0e642fc"
+    },
+    {
+      "path": "public/images/vegetable_background_images/pea.jpg",
+      "bytes": 146260,
+      "sha256": "4455b41b789a5f62f185f9a67e1a0a826226232b9377daef4c7ac30fcba9c481"
+    },
+    {
+      "path": "public/images/vegetable_background_images/potato.jpg",
+      "bytes": 245173,
+      "sha256": "35b593f9ce530e32fff540c4a5c61b388201ca0ac85645a64492c872e35bd681"
+    },
+    {
+      "path": "public/images/vegetable_background_images/radish.jpg",
+      "bytes": 130546,
+      "sha256": "dd5d80e34252043dc68392b09da688da5c5166e5e86d87a76c40d4c29cf60638"
+    },
+    {
+      "path": "public/images/vegetable_background_images/rhubarb.jpg",
+      "bytes": 659496,
+      "sha256": "5e225f109fed7e3f0f459696f86376b73aa78da6832978bf60ee4c5e529af06e"
+    },
+    {
+      "path": "public/images/vegetable_background_images/salsify_scorzonera.jpg",
+      "bytes": 103691,
+      "sha256": "f6d89549e63cdc64adf4edc24dde805e029e083bc34d65b6865ab5ad300a6bb0"
+    },
+    {
+      "path": "public/images/vegetable_background_images/spinach.jpg",
+      "bytes": 272440,
+      "sha256": "49a3a3b39ce632dc4b7e5f5db8fd9bd4578f79e7a70bafcc1689eb37ad9bbc71"
+    },
+    {
+      "path": "public/images/vegetable_background_images/swede.jpg",
+      "bytes": 132386,
+      "sha256": "8ae57cb5f777ec3e6d5cf555a12f304a9e763f4a71dd7d8e7a76e6d1b673c7b4"
+    },
+    {
+      "path": "public/images/vegetable_background_images/sweet_corn.jpg",
+      "bytes": 159813,
+      "sha256": "1071e5f7f70e39293af9f6f946d01398deced716c2d740b6f339aa47c7869da2"
+    },
+    {
+      "path": "public/images/vegetable_background_images/tomato_greenhouse.jpg",
+      "bytes": 101572,
+      "sha256": "0c3a64ebcf0a92d1800d49441292a236b0ce67a8788dbd24e3eb4e52a4f8c8ec"
+    },
+    {
+      "path": "public/images/vegetable_background_images/tomato_outdoor.jpg",
+      "bytes": 92768,
+      "sha256": "687a7035409c220e828ac60215835aa8bf5f52bb8f86cd20033468106592f362"
+    },
+    {
+      "path": "public/images/vegetable_background_images/turnip.jpg",
+      "bytes": 105740,
+      "sha256": "d89b18805ffa4448d0cbe5594c5bee18684aa40d5c6098b21f67e1a95e20a424"
+    },
+    {
+      "path": "public/images/vegetable_icons/artichoke_globe.png",
+      "bytes": 1239249,
+      "sha256": "d17dff8504cbb193ff7ff4fbfcc2c1a8cd3d7b50ca33bf45b823b874103bc84a"
+    },
+    {
+      "path": "public/images/vegetable_icons/artichoke_jerusalem.png",
+      "bytes": 616745,
+      "sha256": "eb26b91fbd96bc4ba3ca503caaf0bcdf2958ee90e93ce744fd6ffe4239c52026"
+    },
+    {
+      "path": "public/images/vegetable_icons/asparagus.png",
+      "bytes": 1312154,
+      "sha256": "383530fe7d432175d5a5095bfdca6ece4f556f07737891ff473f06fa9bbdd52b"
+    },
+    {
+      "path": "public/images/vegetable_icons/aubergine.png",
+      "bytes": 1245714,
+      "sha256": "54c2583a023cce77b85897bf9a212f72d49a70cc961de075051b0d472628fa42"
+    },
+    {
+      "path": "public/images/vegetable_icons/bean_broad.png",
+      "bytes": 726708,
+      "sha256": "a223d39c220ab18fca98355b473733d6ec76ecb37a96973a35e2b178c8884a41"
+    },
+    {
+      "path": "public/images/vegetable_icons/bean_french.png",
+      "bytes": 1322920,
+      "sha256": "4364c29b793ed3dde5032e69acd9e7c258d40078a21120b966a72ad633056e44"
+    },
+    {
+      "path": "public/images/vegetable_icons/bean_runner.png",
+      "bytes": 1307588,
+      "sha256": "30da9a414422972784b19320fe665afa50730a702e5f9701c71edd7b95007db3"
+    },
+    {
+      "path": "public/images/vegetable_icons/beet_leaf.png",
+      "bytes": 1266491,
+      "sha256": "44ed22d0eb59f4ec91443cbfb4ff38f6b0e150bf558adb4b309bb1e427ea594e"
+    },
+    {
+      "path": "public/images/vegetable_icons/beetroot.png",
+      "bytes": 1332038,
+      "sha256": "8f32558c42626070343c8cc75754ba624c9db5e5681fde45b815ab5a45b427ae"
+    },
+    {
+      "path": "public/images/vegetable_icons/broccoli.png",
+      "bytes": 1283352,
+      "sha256": "6a150f770ecffbf65c12f0a1adea78ea73e16a1935563f693841586d13d5297f"
+    },
+    {
+      "path": "public/images/vegetable_icons/brussels_sprouts.png",
+      "bytes": 1383646,
+      "sha256": "a9a6462c8ac339cd51b33e176ce1cbe8ec82e973525392cea80fd908d1765604"
+    },
+    {
+      "path": "public/images/vegetable_icons/cabbage.png",
+      "bytes": 1344391,
+      "sha256": "9e8bd51f29c396e699bada0f1daa4437595b516a26c20324d6c5a7611aeaaaea"
+    },
+    {
+      "path": "public/images/vegetable_icons/capsicum.png",
+      "bytes": 1280584,
+      "sha256": "270ae6e67f3eb33579d22d33512830c00be235435b459d6d7e007d812e947705"
+    },
+    {
+      "path": "public/images/vegetable_icons/carrot.png",
+      "bytes": 552694,
+      "sha256": "08243667e39386055e2ded5cabf604275ccd892803f823f39c0b7f7e61991cf0"
+    },
+    {
+      "path": "public/images/vegetable_icons/cauliflower.png",
+      "bytes": 1224318,
+      "sha256": "ed908ae425ca6b994f6ac27c2e2602ff5e85f65ce395ecf607d5a730564d79d1"
+    },
+    {
+      "path": "public/images/vegetable_icons/celeriac.png",
+      "bytes": 1356237,
+      "sha256": "6cade9d0b52924af6b4240159324b789d505f4e1e353d26159b108e7b3afb431"
+    },
+    {
+      "path": "public/images/vegetable_icons/celery.png",
+      "bytes": 1375054,
+      "sha256": "75d8cc830d9b0cba5bf2e43616cc4cd7efd6e51bd1e7842a0d9ae674e62a8456"
+    },
+    {
+      "path": "public/images/vegetable_icons/chicory.png",
+      "bytes": 1323610,
+      "sha256": "cae7a5317b9774d1094068ef1dc494334912c0bae5f7559edd634a9aed8ccffa"
+    },
+    {
+      "path": "public/images/vegetable_icons/cucumber_greenhouse.png",
+      "bytes": 1280854,
+      "sha256": "7c3efa01dbcdab2e7163f5e97cf96b5369b0ce5dc09e28aa20e1ad4088cb4d55"
+    },
+    {
+      "path": "public/images/vegetable_icons/cucumber_outdoor.png",
+      "bytes": 1299619,
+      "sha256": "d45c720b8cf8b062bfc651e41bae76d9b6763c859e7cc690bb050c4438f05b13"
+    },
+    {
+      "path": "public/images/vegetable_icons/endive.png",
+      "bytes": 1401880,
+      "sha256": "3d1e13c24dfaf34a7721c023c2c8faacfaeedeb59fc92d02c9829ee045dde3e7"
+    },
+    {
+      "path": "public/images/vegetable_icons/florence_fennel.png",
+      "bytes": 1446232,
+      "sha256": "e7fd176e8024ea3e4a88eb4259c841e22cb63bdbcbbb77900d9e204ebfbd2b6d"
+    },
+    {
+      "path": "public/images/vegetable_icons/garlic2.png",
+      "bytes": 1346958,
+      "sha256": "d17f1ddd1f94fb3bbdd42595c90066ef538c074f5ecc141668f1092559c465d5"
+    },
+    {
+      "path": "public/images/vegetable_icons/kale.png",
+      "bytes": 1374655,
+      "sha256": "d52ef75f835d1cfbca651bcc0fbe91289914f8c023b771ecd259535c99ee6d4d"
+    },
+    {
+      "path": "public/images/vegetable_icons/kohl_rabi.png",
+      "bytes": 1361916,
+      "sha256": "8991f0b69eef39a1533c3ff1a59102e1ebda57225cfdc120bae9d97253d935f2"
+    },
+    {
+      "path": "public/images/vegetable_icons/leek.png",
+      "bytes": 864849,
+      "sha256": "539f9c4343ff9b08c741998abc2c9061bf4327b7a741fef93ebce87f15a9808c"
+    },
+    {
+      "path": "public/images/vegetable_icons/lettuce.png",
+      "bytes": 1402937,
+      "sha256": "22eec4c4afeb93225381e08496844038b8eb94c9688567c1ae0255694a277cd5"
+    },
+    {
+      "path": "public/images/vegetable_icons/marrow_courgette.png",
+      "bytes": 1211094,
+      "sha256": "f35c1c4461991997e9e38e636e6027ffa2727b5590adf9ec9c0f42e1d9baa2c6"
+    },
+    {
+      "path": "public/images/vegetable_icons/mushroom.png",
+      "bytes": 1302233,
+      "sha256": "5b3e63d5cc2291eb1a1df2758942d3c3827cae69e1d3bf6cad0f1bb4c1854e2d"
+    },
+    {
+      "path": "public/images/vegetable_icons/onion_shallot.png",
+      "bytes": 1153222,
+      "sha256": "190878d8bddda6ae2ba24cb17c92c0c88c157c8893a8dc1eb7501d6971ae6fbc"
+    },
+    {
+      "path": "public/images/vegetable_icons/oriental_leaves2.png",
+      "bytes": 1340116,
+      "sha256": "03d05ddd5c1b5059baf4cce8399f19f64968c522179dd099c6e545bccefdf011"
+    },
+    {
+      "path": "public/images/vegetable_icons/parsnip.png",
+      "bytes": 1381371,
+      "sha256": "7b2034a21c323705bd7473c10f203be99608cd426900bc1d88a9accab99d3555"
+    },
+    {
+      "path": "public/images/vegetable_icons/pea.png",
+      "bytes": 1366151,
+      "sha256": "8979a8d5afc66689706b03bdd52e535d8da8fa5a11cd327b2eb2f72909c831a8"
+    },
+    {
+      "path": "public/images/vegetable_icons/potato.png",
+      "bytes": 1259607,
+      "sha256": "6cda35c5808cfde9a6cd5453fb292e886c9c351c48c4bfd765d9960a24539958"
+    },
+    {
+      "path": "public/images/vegetable_icons/radish.png",
+      "bytes": 1350447,
+      "sha256": "c7cce1d8b392dc3905805c07d28bc5e442a1efd3182cb67cd2c45521131018ba"
+    },
+    {
+      "path": "public/images/vegetable_icons/rhubarb.png",
+      "bytes": 1137295,
+      "sha256": "d678fd80be4e9cd9b8d0dd91295107e3ad60e832ee16d905ad5856e8ed47c4ad"
+    },
+    {
+      "path": "public/images/vegetable_icons/salsify_scorzonera.png",
+      "bytes": 399890,
+      "sha256": "7a2ae5e339493c512211d5973f63562aa893991296cc65cf7e8c9002983540e3"
+    },
+    {
+      "path": "public/images/vegetable_icons/spinach.png",
+      "bytes": 1205799,
+      "sha256": "6e1cde45ea573afecc7fcd8b03c9f89033a5a24f720477dcaa75040ed3cd6782"
+    },
+    {
+      "path": "public/images/vegetable_icons/squash_pumpkin.png",
+      "bytes": 1306380,
+      "sha256": "72a2e77c6d5896c416197313a8aba0354fc0eac7e568a9232910e494a865fa7d"
+    },
+    {
+      "path": "public/images/vegetable_icons/swede.png",
+      "bytes": 1338970,
+      "sha256": "fafb431afeab03ac45d524fd89a606f7b2679bcaa0fa4b8289791a24e042ab93"
+    },
+    {
+      "path": "public/images/vegetable_icons/sweet_corn.png",
+      "bytes": 1364849,
+      "sha256": "bf27b8c8ba9c075ad9e5ed92c895df5149c3ece92d0328d4d827e7e2e92ed1a9"
+    },
+    {
+      "path": "public/images/vegetable_icons/tomato_greenhouse.png",
+      "bytes": 1365361,
+      "sha256": "09318f1bacb130aa760f02c5f9485d478d1a127e2006de83ada845946fd4b7fc"
+    },
+    {
+      "path": "public/images/vegetable_icons/tomato_outdoor.png",
+      "bytes": 1312050,
+      "sha256": "60b4fe3d2649cc3756be069a8da00c5efdf4a061f1830bf3ae3f079a360102db"
+    },
+    {
+      "path": "public/images/vegetable_icons/turnip.png",
+      "bytes": 1328854,
+      "sha256": "d9c1775ff365b16848ec327cc28ad2736ae51dc1192575147b6e736fa17a7a02"
+    },
+    {
+      "path": "public/images/vegetable_watermarks/carrot_wm.png",
+      "bytes": 2764195,
+      "sha256": "9b356bed33db6d1baae4d0d77bd25f1544b9a2863e3c2852944adbbe9b1c7b0a"
+    },
+    {
+      "path": "public/images/vegetables/artichoke_globe.png",
+      "bytes": 1604528,
+      "sha256": "530484ae664dc50dbac347cfbff6d025c26adf243a38ac1f7495254cf81558c3"
+    },
+    {
+      "path": "public/images/vegetables/artichoke_jerusalem.png",
+      "bytes": 1288226,
+      "sha256": "50a305ddadd3f715e9618293cf8cab3984e275a73397ca746a4a5e780e98f1fa"
+    },
+    {
+      "path": "public/images/vegetables/asparagus.png",
+      "bytes": 1540067,
+      "sha256": "f66f0975374817856b6601fe5dd0c12227cc9f728e573f1cbbaa4776c996db2d"
+    },
+    {
+      "path": "public/images/vegetables/aubergine.png",
+      "bytes": 1232498,
+      "sha256": "dbdd695111a5d53503bed8c2eff50022d7dd9d2b36ffe503b6db5aedc1b17f03"
+    },
+    {
+      "path": "public/images/vegetables/bean_broad.png",
+      "bytes": 1802768,
+      "sha256": "ad94e0e82334574a3175ed06513f2307406bbf83039242665cc2f32ea697626e"
+    },
+    {
+      "path": "public/images/vegetables/bean_french.png",
+      "bytes": 1412682,
+      "sha256": "cb90c158dbe90e178ba1736994b40ec8b57c0afa89eff4c0ec64a1599185adbd"
+    },
+    {
+      "path": "public/images/vegetables/bean_runner.png",
+      "bytes": 1572400,
+      "sha256": "5386a628e293f99b3896be2fd773b6b1e973eea40891ba9028f207ae4e24fbbe"
+    },
+    {
+      "path": "public/images/vegetables/beet_leaf.png",
+      "bytes": 2020218,
+      "sha256": "b295e773ef19db02b24eb03ac756e0cdc7d99a814a0d4d524a9f7904913ae8b5"
+    },
+    {
+      "path": "public/images/vegetables/beetroot.png",
+      "bytes": 1550119,
+      "sha256": "e8d279ae9c6d0444ee4507e9f719b83752d12c8a233a51f203b82d666c7873af"
+    },
+    {
+      "path": "public/images/vegetables/broccoli.png",
+      "bytes": 1838832,
+      "sha256": "b18761a16f7bf1d2931e0bab480f498fe4bf51b3b41d335ef4a8b50ea1077175"
+    },
+    {
+      "path": "public/images/vegetables/brussels_sprouts.png",
+      "bytes": 1383238,
+      "sha256": "d0363247a112be9224530a041d289aa25195e34751cda861d0d18f93dc96fd5e"
+    },
+    {
+      "path": "public/images/vegetables/cabbage.png",
+      "bytes": 2026422,
+      "sha256": "b54f07dfa3af7a8ce71cce376fda08d425e65e46b8372fdbd89ae72dc8568ba2"
+    },
+    {
+      "path": "public/images/vegetables/capsicum.png",
+      "bytes": 1378231,
+      "sha256": "a661cb7a68c2b6655e8cfabb5731a3593358b0c52f736c498a6bbb7862be6bbf"
+    },
+    {
+      "path": "public/images/vegetables/carrot.png",
+      "bytes": 1124987,
+      "sha256": "60a200319b9822491a5b3dcb1fde92b12cf5943339c3771d534aca0aa55e98a8"
+    },
+    {
+      "path": "public/images/vegetables/cauliflower.png",
+      "bytes": 2320274,
+      "sha256": "3b3d3ce4d4cc92515f45739308e674abe4f35e1ea2c1a3640dfbe1cd6a1127b4"
+    },
+    {
+      "path": "public/images/vegetables/celeriac.png",
+      "bytes": 1456557,
+      "sha256": "03cb367493a66b58e9b0ac2aa0f80401b8ac22d594161aafaf991d3d5d21e8dc"
+    },
+    {
+      "path": "public/images/vegetables/celery.png",
+      "bytes": 1717097,
+      "sha256": "9db3c86866508f939a9a1ccaed05965885aeaed9383afb2522636259b1027154"
+    },
+    {
+      "path": "public/images/vegetables/chicory.png",
+      "bytes": 1421152,
+      "sha256": "a205fb7fe7a5228e82c27205cf1113f16989cce0c0ce8c8132ff97fa2fff8324"
+    },
+    {
+      "path": "public/images/vegetables/cropped/artichoke_globe.png",
+      "bytes": 1946957,
+      "sha256": "266aa8fa04cf1b70606ae8e04dd2903cf27b82819ae35fc3e6418a32533b1bb3"
+    },
+    {
+      "path": "public/images/vegetables/cropped/artichoke_jerusalem.png",
+      "bytes": 1504993,
+      "sha256": "3d42537b0c606bdac763bd213209253f10e2e2567044979e32d24ddeef55c584"
+    },
+    {
+      "path": "public/images/vegetables/cropped/asparagus.png",
+      "bytes": 1841587,
+      "sha256": "0bd917a70619d879cecdb941e3baa75031ee8cfd5843318a7ca555fc4b380afd"
+    },
+    {
+      "path": "public/images/vegetables/cropped/aubergine.png",
+      "bytes": 1586248,
+      "sha256": "d905827db13d8b9fb9e009cef07dcf71b95ccd5544580e533b35fc3cd14d5823"
+    },
+    {
+      "path": "public/images/vegetables/cropped/bean_broad.png",
+      "bytes": 2279516,
+      "sha256": "7e8425447e6a50c78300ba0aae40b34728e0fba9e4627f9f3e224a3591d3895b"
+    },
+    {
+      "path": "public/images/vegetables/cropped/bean_french.png",
+      "bytes": 1700073,
+      "sha256": "9510846ec03dab814009a8dc6b7c69e89ceeb14a1c1952250a948c24ba2e9cd7"
+    },
+    {
+      "path": "public/images/vegetables/cropped/bean_runner.png",
+      "bytes": 1982904,
+      "sha256": "7ba1f1cd4c9844e67434de63fa69cf2a37ab70ae45616a9e837193ce360e1c9a"
+    },
+    {
+      "path": "public/images/vegetables/cropped/beet_leaf.png",
+      "bytes": 2521474,
+      "sha256": "e3bc7d19562b87b59a17fc66017043e9222c1150a98f3c52c36e9374fc2128c3"
+    },
+    {
+      "path": "public/images/vegetables/cropped/beetroot.png",
+      "bytes": 1843869,
+      "sha256": "128efdfff9d980c815693384813a399e008b64054264b5a9cc5606afb5e4fba9"
+    },
+    {
+      "path": "public/images/vegetables/cropped/broccoli.png",
+      "bytes": 2168511,
+      "sha256": "b66c8095899ffa3ae4e33c0a0d9ae5c9d4fc6894d04a784a6a9ea8c5b4d8faf8"
+    },
+    {
+      "path": "public/images/vegetables/cropped/brussels_sprouts.png",
+      "bytes": 1676758,
+      "sha256": "75be738b0b8f3c19e8af0e35bbb6a8ebc3d40a98b28158e070ac280aeb6ccc4f"
+    },
+    {
+      "path": "public/images/vegetables/cropped/cabbage.png",
+      "bytes": 2457421,
+      "sha256": "0350d812061254a2b4a71bb66a95886c920ca0a114dfb0fae95a9f5e5d396592"
+    },
+    {
+      "path": "public/images/vegetables/cropped/capsicum.png",
+      "bytes": 1732550,
+      "sha256": "1ee55d346afc38dcfd6b9256672bfb56f67f9f49ffae21df1502cfe522fd6598"
+    },
+    {
+      "path": "public/images/vegetables/cropped/cauliflower.png",
+      "bytes": 2697625,
+      "sha256": "8caefc090c263508854730de932d27856adbc822253129ef74877202c52caa10"
+    },
+    {
+      "path": "public/images/vegetables/cropped/celeriac.png",
+      "bytes": 1640343,
+      "sha256": "435c70f2b82769a922530496621c0a523fc9554af1343df2ffcc3c9083799103"
+    },
+    {
+      "path": "public/images/vegetables/cropped/celery.png",
+      "bytes": 2049991,
+      "sha256": "211b4f7a330e0ad59a6fdf2e1e55d3cc9964e6fa0e3c6d467e6c65b6761d0825"
+    },
+    {
+      "path": "public/images/vegetables/cropped/chicory.png",
+      "bytes": 1655196,
+      "sha256": "e359bd9020aef86292be54725b5ecb43a4022b3ba4db4e1cca822bb11709af48"
+    },
+    {
+      "path": "public/images/vegetables/cropped/cucumber_greenhouse.png",
+      "bytes": 1355717,
+      "sha256": "98bdadb6da0d4013a6c4aeee2afef430dd0fef9143dc14afae5d2912cb85fb32"
+    },
+    {
+      "path": "public/images/vegetables/cropped/cucumber_outdoor.png",
+      "bytes": 1663718,
+      "sha256": "e4171d79607954d760f004638cff6111316d45a8cb1570c1e5c3a992de790d02"
+    },
+    {
+      "path": "public/images/vegetables/cropped/endive.png",
+      "bytes": 2245066,
+      "sha256": "092e24f75af2cafe9e8ccf7057f9d94595e4667b7fe7c6b3b35093e643f5aed1"
+    },
+    {
+      "path": "public/images/vegetables/cropped/florence_fennel.png",
+      "bytes": 2051625,
+      "sha256": "911e2901185f906bc39184f0ce661e6a0adf952fecd0e94f5e98135ef9bd8b0c"
+    },
+    {
+      "path": "public/images/vegetables/cropped/kohl_rabi.png",
+      "bytes": 2346664,
+      "sha256": "3a8ce35ebdd93e154309cd25448a0e453589a4de18d0835817e6fa7e3c78067d"
+    },
+    {
+      "path": "public/images/vegetables/cropped/leek.png",
+      "bytes": 1378640,
+      "sha256": "9c1c2562bc547c6fd3be6438462545c94ef771046f635b7f9f3ea3f49997ff34"
+    },
+    {
+      "path": "public/images/vegetables/cropped/lettuce.png",
+      "bytes": 2699967,
+      "sha256": "720009c0a87f614f2d08553eecd379d236a8c1a73b6e2553d4b497fc9e4ca976"
+    },
+    {
+      "path": "public/images/vegetables/cropped/marrow_courgette.png",
+      "bytes": 2146051,
+      "sha256": "86464b48da789345c6c807ee8deffd8baffdc1baa2750937beef22cb2f5f2c01"
+    },
+    {
+      "path": "public/images/vegetables/cropped/mushroom.png",
+      "bytes": 1787237,
+      "sha256": "23131685156a949c6ccedbd18c95c8da9a56c7517f1538e2f4ad21632a60b9af"
+    },
+    {
+      "path": "public/images/vegetables/cropped/onion_shallot.png",
+      "bytes": 1895507,
+      "sha256": "42755346f2961ac26c709c00707f504e3db015f5e249cac3c74f216a6c257317"
+    },
+    {
+      "path": "public/images/vegetables/cropped/parsnip.png",
+      "bytes": 989579,
+      "sha256": "1da4185964cf1912f42f6bf5917b3b4581f98fa74915dad65d581616167317e5"
+    },
+    {
+      "path": "public/images/vegetables/cropped/pea.png",
+      "bytes": 1938599,
+      "sha256": "e38089140e9f78e183e4c4d598a143940af9344686cfd1f364fcbcfea01866ad"
+    },
+    {
+      "path": "public/images/vegetables/cropped/potato.png",
+      "bytes": 2344314,
+      "sha256": "a73d367f0983cb2d031f56e2766bc8ca347ab3dfc1cdd6f4ee669af1bc52074d"
+    },
+    {
+      "path": "public/images/vegetables/cropped/radish.png",
+      "bytes": 1838220,
+      "sha256": "526e15ef2d7554fcf7ea444d59d96356b93cb3e94da15c3713cf928efb568a66"
+    },
+    {
+      "path": "public/images/vegetables/cropped/salsify_scorzonera.png",
+      "bytes": 1801930,
+      "sha256": "3628026dfb0bb97621b1f60d126a6aad051e939c59dad1f8ba81646bc3f0e32c"
+    },
+    {
+      "path": "public/images/vegetables/cropped/spinach.png",
+      "bytes": 2667088,
+      "sha256": "fd81f925042f4b7e5ca4dd41377fad697966fa8f0e0488cd3d399850439a9ee5"
+    },
+    {
+      "path": "public/images/vegetables/cropped/squash_pumpkin.png",
+      "bytes": 2146051,
+      "sha256": "86464b48da789345c6c807ee8deffd8baffdc1baa2750937beef22cb2f5f2c01"
+    },
+    {
+      "path": "public/images/vegetables/cropped/swede.png",
+      "bytes": 2011342,
+      "sha256": "d8218af84cf258a2956d494b5d218517027b1da4581dad07c87ccd5915a6ed94"
+    },
+    {
+      "path": "public/images/vegetables/cropped/sweet_corn.png",
+      "bytes": 1774238,
+      "sha256": "bf56dcc9a66c375ec7df31706903f1beb33229e32473e74db549e5d879a9bf14"
+    },
+    {
+      "path": "public/images/vegetables/cropped/tomato_greenhouse.png",
+      "bytes": 2140472,
+      "sha256": "e7116f1fd5f0ec4a8557a23be6966564005a13dcd5ea1a47eb2f4f4bcc1a1247"
+    },
+    {
+      "path": "public/images/vegetables/cropped/tomato_outdoor.png",
+      "bytes": 1513969,
+      "sha256": "873ab7723be2a5cbde79af364c0d552b5ade8188dca10b65ba8af24a822b6a9a"
+    },
+    {
+      "path": "public/images/vegetables/cropped/turnip.png",
+      "bytes": 1762697,
+      "sha256": "640e058b37257473eeb167104f81e458d516fd2f5969fdddd355394b7ddcdeaf"
+    },
+    {
+      "path": "public/images/vegetables/cucumber_greenhouse.png",
+      "bytes": 1121750,
+      "sha256": "ad2c59ef2ca1e4b6a374a74faa629d3420395bc93283c077656b7c99371a3ea1"
+    },
+    {
+      "path": "public/images/vegetables/cucumber_outdoor.png",
+      "bytes": 1361958,
+      "sha256": "a698bfaabd135405133d8b83aba21ae7c4176357a703c33a4ed475c60a18ba5e"
+    },
+    {
+      "path": "public/images/vegetables/endive.png",
+      "bytes": 1898623,
+      "sha256": "ce76a15868e623ff3941bb412ae28b970c9b4bf2311fa945f83b3b46285f69b9"
+    },
+    {
+      "path": "public/images/vegetables/florence_fennel.png",
+      "bytes": 1977038,
+      "sha256": "6adc29cf88dfd211867b86d97223a83cbe95c58e5b4faa33f8e7fed6d4a1c6b1"
+    },
+    {
+      "path": "public/images/vegetables/garlic.png",
+      "bytes": 904985,
+      "sha256": "4295b26f683976aaa1799b0c1709ac009d819330b26233429281209c8a2db26c"
+    },
+    {
+      "path": "public/images/vegetables/kale.png",
+      "bytes": 2195273,
+      "sha256": "725c5eaf481c0a37f63082f6ac4e092c94af0a5cbc1abcf82a6b1c1fd9c89fae"
+    },
+    {
+      "path": "public/images/vegetables/kohl_rabi.png",
+      "bytes": 1922504,
+      "sha256": "dc584972f916eb789167afa3803a177e5ad993326e7c4c91a1a9d50c213c7c00"
+    },
+    {
+      "path": "public/images/vegetables/leek.png",
+      "bytes": 1142349,
+      "sha256": "dd3404278a3b5660340320daf8f772492da5cbd551a60f719900683612dfae72"
+    },
+    {
+      "path": "public/images/vegetables/lettuce.png",
+      "bytes": 2144893,
+      "sha256": "59db3c1e5aa048c7a46d87a9e06f1b486fd25843e32c5b84906e30fb3f9fa825"
+    },
+    {
+      "path": "public/images/vegetables/marrow_courgette.png",
+      "bytes": 1758302,
+      "sha256": "363b49faeaab04f97e6b8964ab68fd9ecff3365907b3d03e496bee66487a0801"
+    },
+    {
+      "path": "public/images/vegetables/mushroom.png",
+      "bytes": 1853627,
+      "sha256": "4b76956f1a47a95de7c86692089425c6db842ada434ab411a2959251b5dbb559"
+    },
+    {
+      "path": "public/images/vegetables/onion_shallot.png",
+      "bytes": 1491809,
+      "sha256": "c4b3baf5b324b2d0c3c526f67dcdeb7e1ab02f513690c250b75730f0ea62db3b"
+    },
+    {
+      "path": "public/images/vegetables/oriental_leaves.png",
+      "bytes": 1993512,
+      "sha256": "ab7fce381a0e2e27a2ba9f4305fad784dd762e440d240135dbd54c2ae8c3d0bf"
+    },
+    {
+      "path": "public/images/vegetables/parsnip.png",
+      "bytes": 894950,
+      "sha256": "1b4798f7c9586cdff0e19f583dfa1b1b1eb51e5b86a92ff08c06ae7639e20351"
+    },
+    {
+      "path": "public/images/vegetables/pea.png",
+      "bytes": 1599000,
+      "sha256": "0b96142d157558aa4f760e390b2e814ceb5ed264388f46f31d86993c3c0c0302"
+    },
+    {
+      "path": "public/images/vegetables/potato.png",
+      "bytes": 1993522,
+      "sha256": "2cca387fab10c092ab9b235c9ab35dc2a28a04e22d687ec56c3e772c38ad887e"
+    },
+    {
+      "path": "public/images/vegetables/radish.png",
+      "bytes": 1529127,
+      "sha256": "c95e3fba354ef8204087eb5de257231d4bbcec94a8d3e5319af911a24a74b187"
+    },
+    {
+      "path": "public/images/vegetables/rhubarb.png",
+      "bytes": 1907954,
+      "sha256": "288ec69085b7f0e77c82e2323da166f67b2d5bc4d193512df9290f3660148538"
+    },
+    {
+      "path": "public/images/vegetables/salsify_scorzonera.png",
+      "bytes": 1565163,
+      "sha256": "b669d0e6d6c4f14df06e9c970a721c5099ccaf13c414091ac6c10d5ffeed031c"
+    },
+    {
+      "path": "public/images/vegetables/spinach.png",
+      "bytes": 2158071,
+      "sha256": "46cd16ecf7ffa6f9f1138c3d0e3e65db340800be4dee5f96bd3c37f7870111fb"
+    },
+    {
+      "path": "public/images/vegetables/squash_pumpkin.png",
+      "bytes": 1758302,
+      "sha256": "363b49faeaab04f97e6b8964ab68fd9ecff3365907b3d03e496bee66487a0801"
+    },
+    {
+      "path": "public/images/vegetables/swede.png",
+      "bytes": 1688476,
+      "sha256": "bf528e792f0173e9db0f87fdc2fb4b8f6f009e8882dd17596a2dbc8f625f02b8"
+    },
+    {
+      "path": "public/images/vegetables/sweet_corn.png",
+      "bytes": 1459438,
+      "sha256": "3f21cd704235e56a89ab0055ddbb0aa52f6b185d71216456124b3b94c12723cd"
+    },
+    {
+      "path": "public/images/vegetables/tomato_greenhouse.png",
+      "bytes": 1729791,
+      "sha256": "83fd8d98f43d31333b229fea4bd3f6307ea81658884338576375c7cde6634eb1"
+    },
+    {
+      "path": "public/images/vegetables/tomato_outdoor.png",
+      "bytes": 1330617,
+      "sha256": "ce18190d59ef7bdc1d28abab811663d77c0667f3193a4089f0960b84b8e6c9ad"
+    },
+    {
+      "path": "public/images/vegetables/turnip.png",
+      "bytes": 1398955,
+      "sha256": "44094630a8a95ebeed1b9b775edcebee61f34c9b57729e38af768830c10101bd"
+    },
+    {
+      "path": "scripts/crop-hero-images.mjs",
+      "bytes": 3469,
+      "sha256": "c0dce1526b3b2d81c93969769f93ff5eff8ed581ba75f76e288170bc73508a3a"
+    },
+    {
+      "path": "scripts/render-quick-fact-icons.mjs",
+      "bytes": 2182,
+      "sha256": "8302c4ab6eb52797437d23b0fc6f879d7d3e7ee7a471e4646a0e49339caa3990"
+    },
+    {
+      "path": "src/App.css",
+      "bytes": 1642,
+      "sha256": "7245eba63498febaee73b23e203975766de63cce6fe5922fd7240ec56fd774cb"
+    },
+    {
+      "path": "src/App.tsx",
+      "bytes": 6828,
+      "sha256": "ca29295d48196ffa529eaad25e279c5fcd145017d5a64038446a39e30a43f99b"
+    },
+    {
+      "path": "src/admin/AddVegetablePage.tsx",
+      "bytes": 4450,
+      "sha256": "d1ff6822cd5915b68e87eeb89ccb554163e414d10ab47ddee7eb90e5480008f6"
+    },
+    {
+      "path": "src/admin/Admin.module.css",
+      "bytes": 28135,
+      "sha256": "dbe34b34517ccef51521c035b0a561b558e5b8749ae79c90cf5bdd800f4a3b59"
+    },
+    {
+      "path": "src/admin/AdminApp.tsx",
+      "bytes": 9820,
+      "sha256": "ab086f1066fc7f96910ef4343c8e3f79ff152f67b3f1a47ce52f9ec21148b95c"
+    },
+    {
+      "path": "src/admin/AdminImageEditor.tsx",
+      "bytes": 4152,
+      "sha256": "01ad15fff8e28905449ac15712d21f61af4ec132da2f9351e8ef54f1d5e50655"
+    },
+    {
+      "path": "src/admin/AdminLogin.tsx",
+      "bytes": 2218,
+      "sha256": "ad5d51c23f6b4fd931600e27208ccc922535f4435280be8768da8f0e4d251a38"
+    },
+    {
+      "path": "src/admin/AdminNav.tsx",
+      "bytes": 6805,
+      "sha256": "078095c6989c6d9112f4232f7c03dabdeb6812970d05daf1f8f3e3ac8b026cd4"
+    },
+    {
+      "path": "src/admin/AdminTroublePage.tsx",
+      "bytes": 6747,
+      "sha256": "d7fed1e830d9f7a62c65f2a4379e22df436268cf0268c417a609f4bae766b4d7"
+    },
+    {
+      "path": "src/admin/AdminVegetablePage.tsx",
+      "bytes": 15944,
+      "sha256": "62ccd375df0f1ba57f885c1d96645deb14e0f601f34b7926ad46664dd39f69dd"
+    },
+    {
+      "path": "src/admin/EditableSection.tsx",
+      "bytes": 6293,
+      "sha256": "746149adf5e5696687ed264aa2df84927c225b6d236731f29972778ddca903c8"
+    },
+    {
+      "path": "src/admin/FieldEditor.tsx",
+      "bytes": 49716,
+      "sha256": "29505a9e33a3c7f4b0e0c60b903113d5435c60020fa5de53cc8ab7e71d292dbf"
+    },
+    {
+      "path": "src/admin/adminApi.ts",
+      "bytes": 3389,
+      "sha256": "22ba1a0f67f976eb1b8aec2cc9d469bbf83a9e299be98e21ac2829af29f267a4"
+    },
+    {
+      "path": "src/admin/qfHelpers.ts",
+      "bytes": 3010,
+      "sha256": "fd4f983118a1cbb51e9d193f3100b5616226efdfa7e98d4ac29911bfff06edca"
+    },
+    {
+      "path": "src/admin/useAdminAuth.ts",
+      "bytes": 565,
+      "sha256": "dfa14991754ef5a133aedec359f81d39795560aaceba64f3bce451ca44534dec"
+    },
+    {
+      "path": "src/components/BatchPrintButton.tsx",
+      "bytes": 5708,
+      "sha256": "0388644178a1daf69218f18f16f8bbe29f54ed129a8828f0fbd8cf2496197bc4"
+    },
+    {
+      "path": "src/components/CalendarCard.module.css",
+      "bytes": 2422,
+      "sha256": "15444bf79d0ecaf727bdbd7e21fdba5ff4a2c5e984e3aee6a49d68a5d1e10ea5"
+    },
+    {
+      "path": "src/components/CalendarCard.tsx",
+      "bytes": 5357,
+      "sha256": "258efbedbd3903e8e533a8f4ff4e98877a715bdf8c02ce146cf03a4d89832c2e"
+    },
+    {
+      "path": "src/components/CoreNeeds.tsx",
+      "bytes": 6413,
+      "sha256": "e1715be7883d4cfcb0a1272277e71455377fb2eb8782a36e6ee5b44222028bf7"
+    },
+    {
+      "path": "src/components/Nav.module.css",
+      "bytes": 3050,
+      "sha256": "1b4d75edd2f667df4f7c467cb0ec932329f7cf838d91b15d39b9259f4c018b20"
+    },
+    {
+      "path": "src/components/Nav.tsx",
+      "bytes": 3505,
+      "sha256": "7e8e19793deaab32ef27b0842da6879ac5f590b9342c7e99147201c14861359c"
+    },
+    {
+      "path": "src/components/PaperToggle.tsx",
+      "bytes": 951,
+      "sha256": "c7de9907c93468410c8f1878869d19b1f757f671a4422ceaa0ef73fb06963554"
+    },
+    {
+      "path": "src/components/SectionNav.module.css",
+      "bytes": 682,
+      "sha256": "058cf5a4ad4c929f7a0a8b0718f229cf072afcf095035bc90c0fbb30ae175d8b"
+    },
+    {
+      "path": "src/components/SectionNav.tsx",
+      "bytes": 1405,
+      "sha256": "ddd9a05081bf7fc395babd5b2f602ca0ba17a05b5806355997f7c4897aa5f52e"
+    },
+    {
+      "path": "src/components/SowingPanel.module.css",
+      "bytes": 3616,
+      "sha256": "4e9b360e81d779a541976fa51eb01b39491a6c61fb2ede1ebfdaa82862dd03a4"
+    },
+    {
+      "path": "src/components/SowingPanel.tsx",
+      "bytes": 21636,
+      "sha256": "d551b73be7dcb3baa3366aaf67ba428e501622b570cb61e0eea72a146807d3bb"
+    },
+    {
+      "path": "src/components/TroubleNav.module.css",
+      "bytes": 899,
+      "sha256": "d500cc47f969e0e0412760309f9e19338f2b96d29bb1dbc2a2537611618c73db"
+    },
+    {
+      "path": "src/components/TroubleNav.tsx",
+      "bytes": 1157,
+      "sha256": "1a2e2de59ad8b30611ff30916f738788b75f2abe18647fd76fc7a5e42b8e1bd8"
+    },
+    {
+      "path": "src/components/TroublePage.tsx",
+      "bytes": 2143,
+      "sha256": "7a8ca67c817bcfd3ca9baa84162d6963f06a9fd2b18c2f9c4aef4c296d62267d"
+    },
+    {
+      "path": "src/components/TroublesCard.tsx",
+      "bytes": 2916,
+      "sha256": "a43753ba98483f6b63188e9a01fbab988aa73a84bd3b9c2ab8e7d8db56b75a83"
+    },
+    {
+      "path": "src/components/TroublesDetailCard.module.css",
+      "bytes": 3790,
+      "sha256": "ada511ab644644fdc832b53f85abe331f50f643f1c287d5b17250d50a9048208"
+    },
+    {
+      "path": "src/components/TroublesDetailCard.tsx",
+      "bytes": 16660,
+      "sha256": "442e5f2b6f6499b50f1b403559f17861488eb830364d6e46aa7475952ae1161f"
+    },
+    {
+      "path": "src/components/UnitToggle.module.css",
+      "bytes": 428,
+      "sha256": "20e246e11415c5d82961b2456a73cb65b73026a40ee2feb0166c4179962efa3f"
+    },
+    {
+      "path": "src/components/UnitToggle.tsx",
+      "bytes": 1026,
+      "sha256": "57c278ce4e1530e854d3f41b968d27736a963ac6dc7512ac343c02b78fbd404c"
+    },
+    {
+      "path": "src/components/VarietiesCard.tsx",
+      "bytes": 6859,
+      "sha256": "1bd20753ca29e8308057d5e5fc9328459dad414425bd011e11491b3c31473474"
+    },
+    {
+      "path": "src/components/VegetablePage.module.css",
+      "bytes": 16818,
+      "sha256": "28aab1c41d1f6a6f9fde13fb2f34f54921b5e994b6a42539bd7e2ff8253c8c23"
+    },
+    {
+      "path": "src/components/VegetablePage.tsx",
+      "bytes": 17675,
+      "sha256": "38aae5e531e2d370c1ad47e296966071c201cf3242fdde46039b1e64b3c40927"
+    },
+    {
+      "path": "src/data.integrity.test.ts",
+      "bytes": 7968,
+      "sha256": "02c2c64cef8362699aff0a3a76219d3ef48408be02ba179f7c32009c3ac30473"
+    },
+    {
+      "path": "src/hooks/useRankFilter.ts",
+      "bytes": 2544,
+      "sha256": "d33666a870f39041feea22a2f51fda888401b90413e4e4f5bf4a076c692397c6"
+    },
+    {
+      "path": "src/index.css",
+      "bytes": 997,
+      "sha256": "7f9bcd0de709714acaf7e9994204dc73fc0d1cf3938c1921012fa858644f7c28"
+    },
+    {
+      "path": "src/lib/duration.test.ts",
+      "bytes": 2831,
+      "sha256": "fc47e13fc41787cfd2da2713a5a549745fc944549832f8fce30f02e7c173e53b"
+    },
+    {
+      "path": "src/lib/duration.ts",
+      "bytes": 2072,
+      "sha256": "8156301809fd82dfcfc4cd790887c71d5b3b145b27c814c75dee5720f52c2270"
+    },
+    {
+      "path": "src/lib/facts.test.ts",
+      "bytes": 5013,
+      "sha256": "2687b9297a9ebc8541a119efeaee790f9911c4014a1eb90a26c127d9391ad485"
+    },
+    {
+      "path": "src/lib/facts.ts",
+      "bytes": 4254,
+      "sha256": "ab6c8da9c00efd1971bfbffd7addc0618d949fcf60f0f34fe91e1f09eb51a97e"
+    },
+    {
+      "path": "src/lib/measure.test.ts",
+      "bytes": 6022,
+      "sha256": "4db2686d9e2c843041c64a6006cadfff5022bbe63e390e3f60376d50e92bafeb"
+    },
+    {
+      "path": "src/lib/measure.ts",
+      "bytes": 10903,
+      "sha256": "6457c2872609ab4a8641c619877b5369c863cac35fe684c7e9f760bf9ba61e07"
+    },
+    {
+      "path": "src/lib/months.test.ts",
+      "bytes": 4018,
+      "sha256": "f1b86777b93d851676f7717d2911d077f1779524d182004c7f1f6e95549c7a79"
+    },
+    {
+      "path": "src/lib/months.ts",
+      "bytes": 5091,
+      "sha256": "7f2fd16d54d47e561f691ec304722834776febad10604101447ff1c45afa04a9"
+    },
+    {
+      "path": "src/lib/paper.tsx",
+      "bytes": 1170,
+      "sha256": "2fc4d5de96526fca80a9751f80d22be9ae565f67d26a17072c2f7505528f50bd"
+    },
+    {
+      "path": "src/lib/quickFactIcons.test.ts",
+      "bytes": 2683,
+      "sha256": "91ae41e302389c032c873f3320caa0e169ef0df40038e9e22ff303b625548dd9"
+    },
+    {
+      "path": "src/lib/quickFactIcons.ts",
+      "bytes": 3232,
+      "sha256": "56cfa4869765818ce434d821c76a820ee9c48e78e2deca50788a04a7f0201f92"
+    },
+    {
+      "path": "src/lib/ranked.test.ts",
+      "bytes": 1771,
+      "sha256": "40b74825360ea8ebaa286cfa8518c615883dd8b0d85e7ab8b6d3c6de567fc62c"
+    },
+    {
+      "path": "src/lib/ranked.ts",
+      "bytes": 1302,
+      "sha256": "cc999f545b7af50a179b8a37e04c1799fb0ef6fced397a10757d4f277f25f3d8"
+    },
+    {
+      "path": "src/lib/slug.test.ts",
+      "bytes": 736,
+      "sha256": "210c4f4952af0e14c5af346a7e35fdd1f7de9c184ee98e8587fc99f84c712541"
+    },
+    {
+      "path": "src/lib/slug.ts",
+      "bytes": 272,
+      "sha256": "34713f53ada8d79413f54deb33d8135c72487b2ea6b5f3450caf4da023539380"
+    },
+    {
+      "path": "src/lib/units.tsx",
+      "bytes": 1192,
+      "sha256": "3950c7f70a1059c7a6b5b5445e57cc1207e20fe277991b0c4ff7b05214761031"
+    },
+    {
+      "path": "src/lib/varietyKeyed.test.ts",
+      "bytes": 1314,
+      "sha256": "b346dfa08663be8b61bb09af9997286b7ecd1762487565c106debbe97d823b08"
+    },
+    {
+      "path": "src/lib/varietyKeyed.ts",
+      "bytes": 1518,
+      "sha256": "87b414a317bd22539384f8fb4aa0becde4870190e597d8879f219a559e6a3689"
+    },
+    {
+      "path": "src/main.tsx",
+      "bytes": 245,
+      "sha256": "d4db9c618b47596c38d26c4c691c42839e9b9aab06f804af9eb8d9b28ac9d54d"
+    },
+    {
+      "path": "src/pdf/TroublePdfDownload.tsx",
+      "bytes": 2209,
+      "sha256": "decf35373f345c020e1af153e6185a2d69f3a0b8ab888ee3a7ecbf638fa96f92"
+    },
+    {
+      "path": "src/pdf/VegetablePdfDownload.tsx",
+      "bytes": 2450,
+      "sha256": "9dc617db8305475540dbf8fe0fa75fa925ad08659cb59a029b8ad8017e834d8b"
+    },
+    {
+      "path": "src/print/PrintTroublePage.tsx",
+      "bytes": 6509,
+      "sha256": "20adb5e5f501f930bad4b72bbe8dd65ea9adbe5826fce6f44e35ce73596fbf68"
+    },
+    {
+      "path": "src/print/PrintVegetablePage.tsx",
+      "bytes": 89137,
+      "sha256": "b89d1f9ab722a664cf2a52e74f266edc0c2d94b611cd955afec827c09747c782"
+    },
+    {
+      "path": "src/print/heroImageCrops.json",
+      "bytes": 7603,
+      "sha256": "c9f845ba98b2cb9402b7317b3e2119762928be5a78dce76a53b80ef988b4c821"
+    },
+    {
+      "path": "src/print/print.module.css",
+      "bytes": 41093,
+      "sha256": "837a7dc1c8810dcb75e15cd13591400d5965740212e89d551f7c05ccba1d3a9a"
+    },
+    {
+      "path": "src/print/useVegetableLayout.ts",
+      "bytes": 7926,
+      "sha256": "bea3217eb7baf34cc56d2b267371634d5dc5fa868879abb84ce2eb132b7f8c71"
+    },
+    {
+      "path": "src/print/vegetableLayout.test.ts",
+      "bytes": 3079,
+      "sha256": "183c4fd8f4fc818a52164993c1bec9cfa8de59c01784dd31b596204dc87aa3e5"
+    },
+    {
+      "path": "src/print/vegetableLayout.ts",
+      "bytes": 2590,
+      "sha256": "d829840058a6950650063d626201afa6b53004f0bccf4595caae762fa18b39ba"
+    },
+    {
+      "path": "src/print/vegetable_palettes.json",
+      "bytes": 1343,
+      "sha256": "af6a917d37762c6e21fa5cc15cecf6995a230eb0933fffee34151e027b33946b"
+    },
+    {
+      "path": "src/schema.ts",
+      "bytes": 10314,
+      "sha256": "fad62797ab76fb84b9aab4d405da7a53e4011805ba31a7ea80ae9707942f844d"
+    },
+    {
+      "path": "src/troubles.json",
+      "bytes": 219678,
+      "sha256": "e95fc673a9d3046626cf36e541cf1a035f99eb3310522cf727cd7759c5fead81"
+    },
+    {
+      "path": "src/types.ts",
+      "bytes": 8093,
+      "sha256": "6f9144b01d1d5658218c32892197eadd97c0faa279fc3363fcb405bbf60c06c5"
+    },
+    {
+      "path": "src/vegetable_groups.json",
+      "bytes": 1136,
+      "sha256": "8bba2a88995dc6963815d5a2a544ee5696a0517e46402147cc7d930e3ea0a75d"
+    },
+    {
+      "path": "src/vegetables.json",
+      "bytes": 1100720,
+      "sha256": "fb70bfa932afa7799bf79e1328b70a3d21220610fa6c9be8c29bd9f7abad65e3"
+    },
+    {
+      "path": "src/vite-env.d.ts",
+      "bytes": 38,
+      "sha256": "65996936fbb042915f7b74a200fcdde7e410f32a669b1ab9597cfaa4b0faddb5"
+    },
+    {
+      "path": "troubles.json",
+      "bytes": 219678,
+      "sha256": "e95fc673a9d3046626cf36e541cf1a035f99eb3310522cf727cd7759c5fead81"
+    },
+    {
+      "path": "tsconfig.app.json",
+      "bytes": 754,
+      "sha256": "719cb0f00130e92bb3612d4dc174eb12e19f700128153c719f48f44c6bb7557d"
+    },
+    {
+      "path": "tsconfig.json",
+      "bytes": 133,
+      "sha256": "55a0e7410696d0645de326562af39f17f48968be23db8a8cb7cfabc01c0b1cab"
+    },
+    {
+      "path": "tsconfig.node.json",
+      "bytes": 623,
+      "sha256": "3ee7ec2f0d4fb52372aa99ab9a6ed6b532ee6a50e34fa9db61938067ec7777f1"
+    },
+    {
+      "path": "vegetables.json",
+      "bytes": 1100720,
+      "sha256": "fb70bfa932afa7799bf79e1328b70a3d21220610fa6c9be8c29bd9f7abad65e3"
+    },
+    {
+      "path": "vite.config.ts",
+      "bytes": 261,
+      "sha256": "8666b5ae571e1bbf21a56264a2d36aeecd1af2bd419ecaff10b24b80c8337d4c"
+    },
+    {
+      "path": "vitest.config.ts",
+      "bytes": 250,
+      "sha256": "36e0c0e8022823c1a29bf321b6b0d52cb1bbfa35bc2f65a0965b74b91551cf4d"
+    }
+  ],
+  "missingSourceAssets": [
+    "/images/troubles/carrot_and_parsnip_troubles/old_seed_poor_germination.png",
+    "/images/troubles/carrot_and_parsnip_troubles/parsnip_rust_fungus.png",
+    "/images/troubles/onion_and_leek_troubles/allium_leaf_miner.png",
+    "/images/troubles/onion_and_leek_troubles/birds_pulling_sets.png",
+    "/images/troubles/potato_troubles/colorado_beetle.png",
+    "/images/troubles/tomato_troubles/aphids.png",
+    "/images/troubles/tomato_troubles/slugs.png",
+    "/images/troubles/tomato_troubles/cutworm.png",
+    "/images/troubles/turnip_swede_radish_troubles/flea_beetle.png",
+    "/images/troubles/turnip_swede_radish_troubles/cabbage_root_fly.png"
+  ]
+}

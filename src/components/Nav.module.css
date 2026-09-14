@@ -1,0 +1,137 @@
+.nav {
+    background: var(--green-mid);
+    border-bottom: 3px solid var(--green-dark);
+}
+
+.navInner {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 0.5rem;
+}
+
+.navList {
+    display: flex;
+    list-style: none;
+    gap: 0;
+    flex-wrap: wrap;
+}
+
+/* ── Flat fallback item (ungrouped) ──────────────────────────────── */
+.navItem {
+    display: flex;
+}
+
+.navLink {
+    display: block;
+    padding: 0.75rem 1.1rem;
+    color: #d4edcd;
+    text-decoration: none;
+    font-size: 0.875rem;
+    font-weight: 500;
+    border-bottom: 3px solid transparent;
+    margin-bottom: -3px;
+    transition: color 0.15s, border-color 0.15s, background 0.15s;
+}
+
+.navLink:hover {
+    color: #fff;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.navLinkActive {
+    color: #fff;
+    border-bottom-color: #a8e898;
+    background: rgba(255, 255, 255, 0.08);
+}
+
+/* ── Grouped dropdown item ───────────────────────────────────────── */
+.navGroup {
+    position: relative;
+    list-style: none;
+}
+
+/* The group button */
+.groupBtn {
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+    padding: 0.75rem 1.1rem;
+    background: none;
+    border: none;
+    border-bottom: 3px solid transparent;
+    margin-bottom: -3px;
+    color: #d4edcd;
+    font-size: 0.875rem;
+    font-weight: 500;
+    font-family: inherit;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: color 0.15s, border-color 0.15s, background 0.15s;
+    line-height: 1;
+}
+
+.navGroup:hover .groupBtn,
+.navGroup:focus-within .groupBtn {
+    color: #fff;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.groupBtnActive {
+    color: #fff;
+    border-bottom-color: #a8e898;
+    background: rgba(255, 255, 255, 0.08);
+}
+
+.caret {
+    font-size: 0.7rem;
+    opacity: 0.75;
+    transition: transform 0.15s;
+    display: inline-block;
+}
+
+.navGroup:hover .caret,
+.navGroup:focus-within .caret {
+    transform: rotate(180deg);
+}
+
+/* ── Dropdown panel ──────────────────────────────────────────────── */
+.dropdown {
+    display: none;
+    position: absolute;
+    top: calc(100% + 3px);
+    left: 0;
+    min-width: 210px;
+    background: var(--green-dark);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 0 0 8px 8px;
+    list-style: none;
+    padding: 0.35rem 0;
+    z-index: 100;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.navGroup:hover .dropdown,
+.navGroup:focus-within .dropdown {
+    display: block;
+}
+
+.dropdownLink {
+    display: block;
+    padding: 0.5rem 1.1rem;
+    color: #c5e0be;
+    text-decoration: none;
+    font-size: 0.85rem;
+    white-space: nowrap;
+    transition: background 0.1s, color 0.1s;
+}
+
+.dropdownLink:hover {
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+}
+
+.dropdownLinkActive {
+    color: #a8e898;
+    font-weight: 600;
+    background: rgba(168, 232, 152, 0.08);
+}

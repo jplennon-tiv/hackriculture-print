@@ -1,0 +1,26 @@
+.toggle {
+    display: inline-flex;
+    border: 1px solid var(--border, #cbd5c0);
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.btn,
+.active {
+    border: none;
+    background: transparent;
+    padding: 4px 10px;
+    font-size: 0.8rem;
+    cursor: pointer;
+    color: inherit;
+    line-height: 1.4;
+}
+
+.active {
+    background: var(--accent, #2f6b3a);
+    color: #fff;
+}
+
+.btn:hover {
+    background: rgba(0, 0, 0, 0.06);
+}

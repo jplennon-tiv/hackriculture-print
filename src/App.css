@@ -1,0 +1,58 @@
+/* ── App shell ─────────────────────────────────────────────────── */
+.app {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* ── Header ─────────────────────────────────────────────────────── */
+.app-header {
+    background: var(--green-dark);
+    color: #fff;
+    padding: 0 1.5rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.app-header-inner {
+    max-width: 1280px;
+    margin: 0 auto;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.app-logo {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+}
+
+.app-logo-icon {
+    font-size: 1.6rem;
+    line-height: 1;
+}
+
+.app-logo-text {
+    font-family: "Playfair Display", Georgia, serif;
+    font-size: 1.35rem;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+    color: #e8f5e3;
+}
+
+/* ── Main ────────────────────────────────────────────────────────── */
+.app-main {
+    flex: 1;
+    padding: 2rem 1rem 3rem;
+}
+
+/* ── Footer ──────────────────────────────────────────────────────── */
+.app-footer {
+    background: var(--green-dark);
+    color: #a8c9a0;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.8rem;
+}
