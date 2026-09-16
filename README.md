@@ -24,5 +24,6 @@ The launcher selects the Node version in `.nvmrc`, prompts privately for a sessi
 - [DEVELOPMENT.md](DEVELOPMENT.md): architecture, accepted print design, data contracts and validation.
 - [SETUP.md](SETUP.md): local commands, dependencies and troubleshooting.
 - [SHARED-DATA.md](SHARED-DATA.md): data ownership, backups and cross-project effects.
+- [Planting illustration progress](docs/planting-illustrations/PROGRESS.md): resume point, all 44 crop briefs, RHS correction audit and draft-image batch status.
 
 Update the relevant document when behaviour or architecture changes. Keep these files focused on current practice; historical migration details and prior documentation belong in shared backups.

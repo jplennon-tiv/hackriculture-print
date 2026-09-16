@@ -1,0 +1,16 @@
+.card {background:#fffcf5;}
+.stages {display:grid;gap:7px;padding:8px 9px 6px;}
+.stage {min-width:0;break-inside:avoid;}
+.title {display:flex;align-items:center;gap:6px;margin:0;font-size:8.5pt;font-weight:750;line-height:1.3;color:#39352b;}
+.number {display:inline-flex;align-items:center;justify-content:center;width:16px;height:16px;flex-shrink:0;background:#e07b39;border-radius:50%;color:white;font-size:7pt;}
+.image {display:block;width:100%;height:var(--planting-art-height);object-fit:contain;margin:3px auto;}
+.caption,.notes {font-size:8.5pt;line-height:1.4;color:#39382f;margin:0;}
+.lower {padding:6px 9px 8px;border-top:1px solid #ddd5c4;}
+.measures {display:grid;gap:3px;font-size:7.5pt;line-height:1.4;margin:0 0 6px;}
+.measures dt {font-weight:750;display:inline;}
+.measures dd {margin:0;white-space:pre-line;display:inline;}
+.notes {padding-left:13px;margin-top:5px;}
+.notes li+li {margin-top:3px;}
+.paired .stages {grid-template-columns:1fr 1fr;gap:7px;padding-top:6px;padding-bottom:4px;}
+.paired .title {align-items:flex-start;}
+.paired .lower {padding-top:4px;padding-bottom:6px;}

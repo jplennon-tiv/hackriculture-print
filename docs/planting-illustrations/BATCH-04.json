@@ -1,0 +1,317 @@
+{
+  "date": "2026-09-15",
+  "status": "13 scenes generated for seven crop records plus one explicit reuse; not installed",
+  "mode": "built-in image_gen; one call per scene",
+  "sourceSha256": "0e8f591e50e8d6794ef8902ac52b391d378006b2ae5703f9cec31fe15dba1df4",
+  "styleReferences": [
+    "references/concept-2.png",
+    "drafts/2026-09-15/carrot/01-sow-thinly-v1.png"
+  ],
+  "commonPrompt": "Use case: scientific-educational. Asset: ONE compact teaching vignette for printed vegetable Sowing & Planting instructions, legible at 36–48 mm width. Image 1 is Concept 2 STYLE REFERENCE ONLY; ignore all its text, measurements, mature crops and page layout. Image 2 is the approved CARROT ART STYLE ANCHOR: match its warm chocolate fine ink, pale sandy-tan soil stipple, soft muted watercolour, natural skin tone and economical botanical detail. Generate a NEW crop action, NOT another carrot. Wide 2:1 canvas, target 1536x768. GENUINELY TRANSPARENT alpha background, no paper, no background rectangle. One scene, meaningful artwork centred within 7% safe margins. Restrained greens, light soil, generous blank space. No text, numbers, arrows, badges, border, watermark, dimension marks or mature crop portrait. Anatomy and physical planting action must be coherent; roots connected to stems. All exact dimensions will be added separately from live source. Do not over-enlarge hands or tiny seeds.",
+  "jobs": [
+    {
+      "crop": "onion_shallot",
+      "id": "01-position-set-v1",
+      "title": "Position the set",
+      "scene": "One SMALL golden-brown onion set (a young dormant bulb, not a full-size eating onion) held above a modest open planting hole by a small hand. Papery pointed dry neck UP, short dry root tufts at basal plate DOWN. Side-on soil cutaway. No green shoot, no garlic clove, no multiple bulbs.",
+      "alt": "An onion set is positioned root-end down.",
+      "sourcePaths": [
+        "onion_shallot.sowing_and_planting.planting.method",
+        "onion_shallot.sowing_and_planting.planting.planting_depth"
+      ],
+      "status": "generated",
+      "approval": "new draft; not yet reviewed by user",
+      "attempts": 1,
+      "file": "drafts/2026-09-15/onion_shallot/01-position-set-v1.png",
+      "original": "/Users/johnlennon/.codex/generated_images/01a0a1a6-e9a1-7142-93c1-f53aed65e55d/exec-b54f21af-7045-4503-b04f-76a4bcb89803.png",
+      "qa": "Full-size and 24 mm-high slot review completed: common palette, coherent crop/action. Final captions and physical PDF fitting still pending.",
+      "dimensions": {
+        "width": 1774,
+        "height": 887
+      },
+      "hasTransparency": true
+    },
+    {
+      "crop": "onion_shallot",
+      "id": "02-firm-tip-showing-v1",
+      "title": "Firm with the tip showing",
+      "scene": "The same small golden-brown onion set is now seated in a side-on soil cutaway. Most bulb below the level ground, only its pointed dry tip JUST showing above soil. A few fingertips gently firm soil beside it. Basal plate and short connected roots beneath. Not an entire bulb standing on top, no deep buried neck, no mature leaves.",
+      "alt": "Soil is firmed around an onion set with its tip just showing.",
+      "sourcePaths": [
+        "onion_shallot.sowing_and_planting.planting.method",
+        "onion_shallot.sowing_and_planting.planting.planting_depth"
+      ],
+      "status": "generated",
+      "approval": "new draft; not yet reviewed by user",
+      "attempts": 1,
+      "file": "drafts/2026-09-15/onion_shallot/02-firm-tip-showing-v1.png",
+      "original": "/Users/johnlennon/.codex/generated_images/01a0a1a6-e9a1-7142-93c1-f53aed65e55d/exec-a96f415e-d961-4dd1-9ab8-f8f5931fb29c.png",
+      "qa": "Full-size and 24 mm-high slot review completed: common palette, coherent crop/action. Final captions and physical PDF fitting still pending.",
+      "dimensions": {
+        "width": 1774,
+        "height": 887
+      },
+      "hasTransparency": true
+    },
+    {
+      "crop": "garlic",
+      "id": "01-set-clove-v1",
+      "title": "Set a clove upright",
+      "scene": "One SINGLE garlic clove with pale papery skin, asymmetrical curved wedge shape and flat basal plate, held by a small hand into a narrow soil hole. Root/base DOWN, tapering pointed TIP UP. Not a whole segmented garlic bulb, not an onion set. Side-on cutaway; the clove is mostly below ground but the open hole lets us see its orientation.",
+      "alt": "A single garlic clove is placed with its basal plate down and tip up.",
+      "sourcePaths": [
+        "garlic.sowing_and_planting.method",
+        "garlic.sowing_and_planting.planting_depth",
+        "garlic.sowing_and_planting.notes"
+      ],
+      "status": "generated",
+      "approval": "new draft; not yet reviewed by user",
+      "attempts": 1,
+      "file": "drafts/2026-09-15/garlic/01-set-clove-v1.png",
+      "original": "/Users/johnlennon/.codex/generated_images/01a0a1a6-e9a1-7142-93c1-f53aed65e55d/exec-44955429-f200-44a8-8e29-1dcc4dcbac8a.png",
+      "qa": "Full-size and 24 mm-high slot review completed: common palette, coherent crop/action. Final captions and physical PDF fitting still pending.",
+      "dimensions": {
+        "width": 1774,
+        "height": 887
+      },
+      "hasTransparency": true
+    },
+    {
+      "crop": "garlic",
+      "id": "02-cover-tip-v1",
+      "title": "Cover the clove tip",
+      "scene": "The same SINGLE asymmetrical garlic clove visible inside a closed side-on soil cutaway, pointed tip UP and basal plate DOWN. Crucial: a CLEAR modest layer of soil ABOVE the pointed tip, roughly comparable to the height of the clove, ground line flat. No exposed tip, no sprout above ground, no entire garlic bulb. Small fingertips gently firm ground to one side. Leave blank space beside clove for separate soil-cover dimension later; no arrow now.",
+      "alt": "A garlic clove is covered with soil above its pointed tip.",
+      "sourcePaths": [
+        "garlic.sowing_and_planting.planting_depth",
+        "garlic.sowing_and_planting.notes"
+      ],
+      "status": "generated",
+      "approval": "new draft; not yet reviewed by user",
+      "attempts": 1,
+      "file": "drafts/2026-09-15/garlic/02-cover-tip-v1.png",
+      "original": "/Users/johnlennon/.codex/generated_images/01a0a1a6-e9a1-7142-93c1-f53aed65e55d/exec-e5e41bdd-7fd2-425f-8fc4-2d11150f8f1b.png",
+      "qa": "v1 tip too near soil surface; use preferred v2 with visible soil cover and more asymmetrical clove.",
+      "dimensions": {
+        "width": 1774,
+        "height": 887
+      },
+      "hasTransparency": true,
+      "preferredFile": "drafts/2026-09-15/garlic/02-cover-tip-v2.png",
+      "revisionStatus": "generated; preferred"
+    },
+    {
+      "crop": "artichoke_jerusalem",
+      "id": "01-set-tuber-v1",
+      "title": "Set the tuber",
+      "scene": "A single irregular knobbly elongated Jerusalem artichoke tuber, pale tan with pinkish knuckle-like eyes, is lowered by a small hand into a soil hole. Distinct branched lumpy tuber, NOT round potato, ginger root, asparagus crown or flowering globe artichoke. No mature stems. Side-on cutaway, simple soil.",
+      "alt": "A Jerusalem artichoke tuber is placed in prepared soil.",
+      "sourcePaths": [
+        "artichoke_jerusalem.sowing_and_planting.method",
+        "artichoke_jerusalem.sowing_and_planting.planting_depth"
+      ],
+      "status": "generated",
+      "approval": "new draft; not yet reviewed by user",
+      "attempts": 1,
+      "file": "drafts/2026-09-15/artichoke_jerusalem/01-set-tuber-v1.png",
+      "original": "/Users/johnlennon/.codex/generated_images/01a0a1a6-e9a1-7142-93c1-f53aed65e55d/exec-06b21a8f-41a9-431f-9421-5bf69cf29bcb.png",
+      "qa": "Full-size and 24 mm-high slot review completed: common palette, coherent crop/action. Final captions and physical PDF fitting still pending.",
+      "dimensions": {
+        "width": 1774,
+        "height": 887
+      },
+      "hasTransparency": true
+    },
+    {
+      "crop": "artichoke_jerusalem",
+      "id": "02-cover-tuber-v1",
+      "title": "Cover carefully",
+      "scene": "A single knobbly elongated tan Jerusalem artichoke tuber with pinkish eyes rests beneath a visible soil layer in side-on cutaway. A small rake edge smooths a LOW soft ridge at ground level. The tuber is enclosed in soil, no air cavern, no mature plant or potato sprouts. Ridge subtle, not a tall mound. Exact planting depth will be captioned rather than inferred from scale.",
+      "alt": "The tuber is covered carefully and soil drawn into a low ridge.",
+      "sourcePaths": [
+        "artichoke_jerusalem.sowing_and_planting.method",
+        "artichoke_jerusalem.sowing_and_planting.planting_depth"
+      ],
+      "status": "generated",
+      "approval": "new draft; not yet reviewed by user",
+      "attempts": 1,
+      "file": "drafts/2026-09-15/artichoke_jerusalem/02-cover-tuber-v1.png",
+      "original": "/Users/johnlennon/.codex/generated_images/01a0a1a6-e9a1-7142-93c1-f53aed65e55d/exec-170a42c5-54d2-4d3e-8c74-c53123b62cd9.png",
+      "qa": "Full-size and 24 mm-high slot review completed: common palette, coherent crop/action. Final captions and physical PDF fitting still pending.",
+      "dimensions": {
+        "width": 1774,
+        "height": 887
+      },
+      "hasTransparency": true
+    },
+    {
+      "crop": "marrow_courgette",
+      "id": "01-sow-on-edge-v1",
+      "title": "Sow on edge",
+      "scene": "A small terracotta-coloured nursery pot in side-on CUTAWAY with fine dark-tan compost. A small hand lowers ONE flat cream courgette seed ON ITS NARROW EDGE into a shallow slit, not lying flat. Broad oval seed has pointed end, not a tiny carrot grain. No sprout yet. Keep most compost and pot intact; show seed edge orientation clearly. The pot has a drainage hole; no decorative saucer or labels.",
+      "alt": "A courgette seed is sown on its edge in a small pot.",
+      "sourcePaths": [
+        "marrow_courgette.sowing_and_planting.method",
+        "marrow_courgette.sowing_and_planting.sowing_depth",
+        "marrow_courgette.sowing_and_planting.notes"
+      ],
+      "status": "generated",
+      "approval": "new draft; not yet reviewed by user",
+      "attempts": 1,
+      "file": "drafts/2026-09-15/marrow_courgette/01-sow-on-edge-v1.png",
+      "original": "/Users/johnlennon/.codex/generated_images/01a0a1a6-e9a1-7142-93c1-f53aed65e55d/exec-8ae020f9-2379-4f20-b37a-84a9e3239fcf.png",
+      "qa": "Full-size and 24 mm-high slot review completed: common palette, coherent crop/action. Final captions and physical PDF fitting still pending.",
+      "dimensions": {
+        "width": 1774,
+        "height": 887
+      },
+      "hasTransparency": true
+    },
+    {
+      "crop": "marrow_courgette",
+      "id": "02-plant-one-strong-plant-v1",
+      "title": "Plant one strong plant",
+      "scene": "ONE young courgette with two oval cotyledons and two modest lobed rough green true leaves, short stout stem, NO fruit or long trailing vine. Its intact small compost rootball is lowered into a prepared bed hole by a hand SUPPORTING THE ROOTBALL, not squeezing the stem. Side-on soil cutaway, top of rootball level with surrounding soil, leaves entirely above. No broken roots, no manure lump touching roots.",
+      "alt": "A hardened young courgette is planted with its rootball intact.",
+      "sourcePaths": [
+        "marrow_courgette.sowing_and_planting.method",
+        "marrow_courgette.sowing_and_planting.plant_spacing",
+        "marrow_courgette.sowing_and_planting.notes"
+      ],
+      "status": "generated",
+      "approval": "new draft; not yet reviewed by user",
+      "attempts": 1,
+      "file": "drafts/2026-09-15/marrow_courgette/02-plant-one-strong-plant-v1.png",
+      "original": "/Users/johnlennon/.codex/generated_images/01a0a1a6-e9a1-7142-93c1-f53aed65e55d/exec-dbe98e02-d09e-4339-b710-819a1334feb9.png",
+      "qa": "Full-size and 24 mm-high slot review completed: common palette, coherent crop/action. Final captions and physical PDF fitting still pending. Depicts lowering rootball in progress, not finished level; caption must explain settling rootball at correct final soil level.",
+      "dimensions": {
+        "width": 1774,
+        "height": 887
+      },
+      "hasTransparency": true
+    },
+    {
+      "crop": "squash_pumpkin",
+      "id": "01-sow-one-pot-v1",
+      "title": "Sow one pot",
+      "scene": "One large flat broad pale pumpkin/squash seed placed ON EDGE in a small plain terracotta-coloured nursery pot with fine compost, pot shown in side-on cutaway. A small hand releases seed into a shallow slit. Broad flat seed with creamy rim, not tiny carrot seeds. One seed only, no plant. Drainage hole visible, no saucer. Same compact pot language as other tender-crop scenes.",
+      "alt": "A large squash seed is sown singly in a small pot.",
+      "sourcePaths": [
+        "squash_pumpkin.sowing_and_planting.method",
+        "squash_pumpkin.sowing_and_planting.sowing_depth"
+      ],
+      "status": "generated",
+      "approval": "new draft; not yet reviewed by user",
+      "attempts": 1,
+      "file": "drafts/2026-09-15/squash_pumpkin/01-sow-one-pot-v1.png",
+      "original": "/Users/johnlennon/.codex/generated_images/01a0a1a6-e9a1-7142-93c1-f53aed65e55d/exec-4ae1c10c-f999-4fcf-94f6-5ec0a1763044.png",
+      "qa": "Full-size and 24 mm-high slot review completed: common palette, coherent crop/action. Final captions and physical PDF fitting still pending.",
+      "dimensions": {
+        "width": 1774,
+        "height": 887
+      },
+      "hasTransparency": true
+    },
+    {
+      "crop": "squash_pumpkin",
+      "id": "02-plant-intact-v1",
+      "title": "Plant with roots intact",
+      "scene": "ONE young squash/pumpkin seedling with two oval cotyledons and two broadly rounded slightly lobed green true leaves; a short stem beginning to lean sideways, no long vine, no pumpkin fruit. A small hand supports its INTACT dark compost rootball while setting it level into a broad prepared soil station. Rootball top at finished surface, all leaves unburied; no roots torn from compost. Sparse soil cutaway, no giant planting mound.",
+      "alt": "A young squash plant is set into its final station with roots undisturbed.",
+      "sourcePaths": [
+        "squash_pumpkin.sowing_and_planting.method",
+        "squash_pumpkin.sowing_and_planting.plant_spacing",
+        "squash_pumpkin.sowing_and_planting.notes"
+      ],
+      "status": "generated",
+      "approval": "new draft; not yet reviewed by user",
+      "attempts": 1,
+      "file": "drafts/2026-09-15/squash_pumpkin/02-plant-intact-v1.png",
+      "original": "/Users/johnlennon/.codex/generated_images/01a0a1a6-e9a1-7142-93c1-f53aed65e55d/exec-3c62a52e-dcd3-4af3-b2c7-501ddf8096ec.png",
+      "qa": "Full-size and 24 mm-high slot review completed: common palette, coherent crop/action. Final captions and physical PDF fitting still pending. Depicts lowering rootball in progress, not finished level; caption must explain settling rootball at correct final soil level.",
+      "dimensions": {
+        "width": 1774,
+        "height": 887
+      },
+      "hasTransparency": true
+    },
+    {
+      "crop": "cucumber_greenhouse",
+      "id": "01-sow-on-edge-v1",
+      "title": "Sow a cucumber seed",
+      "scene": "A single flat narrow oval pointed CUCUMBER seed placed on its thin edge into fine compost in a small plain terracotta-coloured nursery pot, seen in side-on cutaway. A small hand lowers the seed. Seed narrower than a pumpkin seed but not a carrot grain; pale ivory surface. One seed, no plant, shallow slit. No greenhouse backdrop, no labels; this pot action is reusable for indoor-started outdoor cucumbers too.",
+      "alt": "A cucumber seed is sown edgeways in a small pot.",
+      "sourcePaths": [
+        "cucumber_greenhouse.sowing_and_planting.method",
+        "cucumber_greenhouse.sowing_and_planting.sowing_depth"
+      ],
+      "status": "generated",
+      "approval": "new draft; not yet reviewed by user",
+      "attempts": 1,
+      "file": "drafts/2026-09-15/cucumber_greenhouse/01-sow-on-edge-v1.png",
+      "original": "/Users/johnlennon/.codex/generated_images/01a0a1a6-e9a1-7142-93c1-f53aed65e55d/exec-b724e2c5-4983-41a0-9ced-cc5d1e72c07c.png",
+      "qa": "Full-size and 24 mm-high slot review completed: common palette, coherent crop/action. Final captions and physical PDF fitting still pending.",
+      "dimensions": {
+        "width": 1774,
+        "height": 887
+      },
+      "hasTransparency": true
+    },
+    {
+      "crop": "cucumber_greenhouse",
+      "id": "02-plant-gently-v1",
+      "title": "Plant gently under cover",
+      "scene": "One SMALL young cucumber with two oval cotyledons and two angular triangular slightly toothed green true leaves, fragile short stem and one fine tendril. Intact pot-shaped rootball is being placed into a gently raised compost-rich station; top of rootball remains level with mound surface, not deeply buried. Small hand SUPPORTS THE ROOTBALL. A slim vertical cane behind hints at future greenhouse training, no full greenhouse scenery, no cucumbers/flowers/long vine. Cutaway soil, no damaged roots.",
+      "alt": "A greenhouse cucumber is planted gently with its rootball intact.",
+      "sourcePaths": [
+        "cucumber_greenhouse.sowing_and_planting.method",
+        "cucumber_greenhouse.sowing_and_planting.plant_spacing",
+        "cucumber_greenhouse.sowing_and_planting.notes"
+      ],
+      "status": "generated",
+      "approval": "new draft; not yet reviewed by user",
+      "attempts": 1,
+      "file": "drafts/2026-09-15/cucumber_greenhouse/02-plant-gently-v1.png",
+      "original": "/Users/johnlennon/.codex/generated_images/01a0a1a6-e9a1-7142-93c1-f53aed65e55d/exec-6d0a6993-af29-41fb-a6d1-169daab8dfa1.png",
+      "qa": "Full-size and 24 mm-high slot review completed: common palette, coherent crop/action. Final captions and physical PDF fitting still pending. Support cane deliberately continues beyond top; consider shortening it in a later presentation polish pass, without changing plant or roots. Depicts lowering rootball in progress, not finished level; caption must explain settling rootball at correct final soil level.",
+      "dimensions": {
+        "width": 1774,
+        "height": 887
+      },
+      "hasTransparency": true
+    },
+    {
+      "crop": "cucumber_outdoor",
+      "id": "02-plant-intact-v1",
+      "title": "Plant outdoors with roots intact",
+      "scene": "One young OUTDOOR cucumber seedling with two oval cotyledons and two triangular slightly toothed green true leaves, short stem and a fine tendril. A small hand supports its INTACT dark pot-shaped rootball as it is lowered into level prepared garden soil. Rootball top at finished ground; all leaves clear. No cane, greenhouse, cloche or extra props. No fruit, long vine or root disturbance. This is the final after-hardening planting action, condition later explained in caption.",
+      "alt": "A hardened outdoor cucumber is planted with its rootball intact.",
+      "sourcePaths": [
+        "cucumber_outdoor.sowing_and_planting.method",
+        "cucumber_outdoor.sowing_and_planting.notes"
+      ],
+      "status": "generated",
+      "approval": "new draft; not yet reviewed by user",
+      "attempts": 1,
+      "file": "drafts/2026-09-15/cucumber_outdoor/02-plant-intact-v1.png",
+      "original": "/Users/johnlennon/.codex/generated_images/01a0a1a6-e9a1-7142-93c1-f53aed65e55d/exec-43e27b67-888a-425b-ad33-f57f3480c0a9.png",
+      "qa": "Full-size and 24 mm-high slot review completed: common palette, coherent crop/action. Final captions and physical PDF fitting still pending. Depicts lowering rootball in progress, not finished level; caption must explain settling rootball at correct final soil level.",
+      "dimensions": {
+        "width": 1774,
+        "height": 887
+      },
+      "hasTransparency": true
+    }
+  ],
+  "reuse": [
+    {
+      "crop": "cucumber_outdoor",
+      "stage": 1,
+      "file": "drafts/2026-09-15/cucumber_greenhouse/01-sow-on-edge-v1.png",
+      "sourcePaths": [
+        "cucumber_outdoor.sowing_and_planting.notes"
+      ],
+      "reason": "Both indoor-started cucumber routes sow one seed edgeways in a small pot at the same route-specific depth; separate caption binds outdoor start timing. No duplicate generation needed."
+    }
+  ]
+}

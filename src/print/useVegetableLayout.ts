@@ -1,4 +1,5 @@
-import { useEffect, useLayoutEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useLayoutEffect, useRef, useState } from "react";
+import { nextPlantingFit, type PlantingFitState } from './plantingFit';
 import {
     introContentBudget,
     introFitAction,
@@ -20,6 +21,7 @@ export function useVegetableLayout(
     totalSentences: number,
     maxVarieties: number,
     staggeredHero = false,
+    planting?: {imageMm:number;minImageMm:number;maxImageMm:number;optionalNoteCount:number;issue:string|null} | null,
 ) {
     const sentenceCap = Math.min(totalSentences, LAYOUT_LIMITS.introSentences);
     const [phase, setPhase] = useState<LayoutPhase>("intro");
@@ -42,8 +44,17 @@ export function useVegetableLayout(
     const previousPageGap = useRef<number | null>(null);
     const previousIntroGap = useRef<number | null>(null);
     const previousPage2Gap = useRef<number | null>(null);
+    const [plantingActive,setPlantingActive]=useState(false);
+    const [plantingImagesReady,setPlantingImagesReady]=useState(false);
+    const [plantingImagesFailed,setPlantingImagesFailed]=useState(false);
+    const [plantingFit,setPlantingFit]=useState<PlantingFitState>({phase:'initial',noteCount:0,imageMm:planting?.imageMm??18,showImages:true});
+    const onPlantingAssets=useCallback((failed:boolean)=>{
+        setPlantingImagesFailed(failed);setPlantingImagesReady(true);
+    },[]);
 
     useLayoutEffect(() => {
+        // First fit the existing text-only sheet. Once locked, pictures never trim neighbours.
+        if (plantingActive) return;
         const page = page2Ref.current;
         const sentinel = page2SentinelRef.current;
         if (!page || !sentinel) {
@@ -62,7 +73,7 @@ export function useVegetableLayout(
         } else {
             setPage2Ready(true);
         }
-    }, [p2TrimLevel]);
+    }, [p2TrimLevel,plantingActive]);
 
     useLayoutEffect(() => {
         if (phase !== "intro" || (staggeredHero && !assetsReady)) return;
@@ -173,6 +184,8 @@ export function useVegetableLayout(
         return () => {
             cancelled = true;
             document.body.dataset.printReady = "false";
+            delete document.body.dataset.printError;
+            delete document.body.dataset.plantingLayout;
         };
     }, []);
 
@@ -205,17 +218,34 @@ export function useVegetableLayout(
         else setPhase("done");
     }, [phase, assetsReady, extraSentences, introSentences, sentenceCap]);
 
+    useLayoutEffect(()=>{
+        if(planting&&!planting.issue&&phase==='done'&&page2Ready&&assetsReady&&!plantingActive) setPlantingActive(true);
+    },[planting,phase,page2Ready,assetsReady,plantingActive]);
+
+    useLayoutEffect(()=>{
+        if(!planting||!plantingActive||!plantingImagesReady)return;
+        if(plantingImagesFailed&&plantingFit.showImages){setPlantingFit(s=>({...s,showImages:false}));return;}
+        const page=page2Ref.current,sentinel=page2SentinelRef.current;
+        if(!page||!sentinel)return;
+        const gap=958-contentHeight(page,sentinel);
+        const next=nextPlantingFit(plantingFit,gap,planting);
+        if(next!==plantingFit)setPlantingFit(next);
+    },[planting,plantingActive,plantingImagesReady,plantingImagesFailed,plantingFit]);
+
     useLayoutEffect(() => {
+        document.body.dataset.printError=planting?.issue??(plantingFit.phase==='error'?'Planting instructions exceed the safe page budget. Review this crop layout; no advice was silently removed.':'');
+        document.body.dataset.plantingLayout=planting?`${plantingActive?plantingFit.phase:'baseline'}:${plantingFit.noteCount}:${plantingFit.imageMm}:${plantingFit.showImages?'images':'text'}`:'legacy';
         document.body.dataset.printReady = String(
-            phase === "done" && page2Ready && assetsReady,
+            phase === "done" && page2Ready && assetsReady && (!planting||!!planting.issue||(plantingActive&&plantingImagesReady&&['done','error'].includes(plantingFit.phase))),
         );
-    }, [phase, page2Ready, assetsReady]);
+    }, [phase,page2Ready,assetsReady,planting,plantingActive,plantingImagesReady,plantingFit]);
 
     return {
         introSentenceCount: introSentences + extraSentences,
         varCount,
         imgMaxHeight,
         p2TrimLevel,
+        plantingActive,plantingFit,onPlantingAssets,
         page1Ref,
         page1SentinelRef,
         page2Ref,

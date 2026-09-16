@@ -1,0 +1,137 @@
+{
+  "date": "2026-09-15",
+  "status": "second seven-scene approval batch; not installed",
+  "mode": "built-in image_gen; one call per scene",
+  "sourceSha256": "74988e736425837f0381ea9ed05f9a7fa5ba83ce77db96396817d3d645ab1864",
+  "styleReference": "references/concept-2.png",
+  "commonPrompt": "Use case: scientific-educational. Asset: one production teaching vignette for a compact printed gardening card, usable at 55–60 mm width. Image 1 is STYLE REFERENCE ONLY: use the small action vignettes from the approved Concept 2 board, not its text, full-page layout, mature crop portraits or measurements. Warm chocolate-brown precise ink outlines, restrained botanical greens, light sandy-tan soil with sparse stipple, light natural watercolour shading, calm generous negative space. Create ONE single action, not a sheet of panels. Wide landscape approximately 2:1 canvas (target 1536 x 768), meaningful artwork centred inside 7% safe margins. Genuinely transparent background with alpha, no paper texture outside the illustrated soil. Realistic plant anatomy but simple readable shapes. No text, numbers, labels, arrows, badges, border, watermark, captions or measurement marks. Small details must remain legible in print. Do not depict mature harvested vegetables unless the planting material itself is a tuber or crown.",
+  "jobs": [
+    {
+      "crop": "beetroot",
+      "id": "01-sow-clusters-v1",
+      "title": "Sow seed clusters",
+      "scene": "A small hand releases a few irregular corky angular brown beetroot seed clusters along one shallow soil drill. Seed clusters are small rough knobbly glomerules, NOT smooth pea spheres, grains or beet roots. Side-on slight view into the drill, sparse seeds along base, pale sandy soil cutaway. No plants or mature vegetables.",
+      "alt": "Beetroot seed clusters are sown thinly into a drill.",
+      "sourcePaths": [
+        "beetroot.sowing_and_planting.method",
+        "beetroot.sowing_and_planting.sowing_depth"
+      ],
+      "status": "generated",
+      "approval": "approved-in-principle",
+      "attempts": 1,
+      "file": "drafts/2026-09-15/beetroot/01-sow-clusters-v1.png",
+      "original": "/Users/johnlennon/.codex/generated_images/01a0a1a6-e9a1-7142-93c1-f53aed65e55d/exec-9ea85d3b-602f-4654-ad3e-53bf81a0869d.png",
+      "qa": "Seed clusters look too berry-like; targeted angular/corky seed-shape refinement proposed before production.",
+      "revisionStatus": "generated; preferred",
+      "editPrompt": "Use case: precise-object-edit / scientific-educational. Image 1 is the edit target. Change ONLY the beetroot seed clusters. They currently resemble bunches of round berries. Replace every cluster, including the one held by the fingers, with a SINGLE small dry irregular angular corky glomerule: rough dull brown/tan, lumpy asymmetrical star-like fused fruit with small pits and sharp uneven projections, NOT smooth separate spheres, NOT grapes, NOT flowers, NOT shiny beads. Each sowing unit is one rough compound seedball. Make them somewhat smaller than the current grape-like bunches but still visible. Keep the same number and placement of sowing units. Preserve the hand, drill, soil cutaway, palette, line style, composition, canvas size and genuine transparent alpha background exactly. No letters, numbers, labels or arrows.",
+      "preferredFile": "drafts/2026-09-15/beetroot/01-sow-clusters-v2.png",
+      "revisionNote": "Beetroot v2 generated and visually preferred; v1 remains approved in principle and preserved."
+    },
+    {
+      "crop": "beetroot",
+      "id": "02-thin-seedlings-v1",
+      "title": "Thin seedlings",
+      "scene": "Side-on cutaway with two retained young beetroot seedlings, each with a few small oval green leaves, subtle reddish stems and fine pale roots with a tiny reddish root neck, NOT round mature swollen beet roots. A small hand gently removes one smaller crowded seedling between them. The surviving plants remain undisturbed. No drawing of planting a multi-seed clump: this is the direct-sown thinning route.",
+      "alt": "One crowded beetroot seedling is removed, leaving room for the retained plants.",
+      "sourcePaths": [
+        "beetroot.sowing_and_planting.method",
+        "beetroot.sowing_and_planting.plant_spacing"
+      ],
+      "status": "generated",
+      "approval": "approved-in-principle",
+      "attempts": 1,
+      "file": "drafts/2026-09-15/beetroot/02-thin-seedlings-v1.png",
+      "original": "/Users/johnlennon/.codex/generated_images/01a0a1a6-e9a1-7142-93c1-f53aed65e55d/exec-1eaa9ccb-a3d7-4806-8c9c-56d1a8546667.png",
+      "qa": "Initial visual review completed; final technical/print-size assessment pending."
+    },
+    {
+      "crop": "lettuce",
+      "id": "01-sow-shallowly-v1",
+      "title": "Sow shallowly",
+      "scene": "A small hand sows a few TINY narrow grey-brown lettuce seeds into a shallow fine-soil drill, side-on slight view of drill base. Lettuce seeds are tiny flattened pointed narrow achenes, not large golden grain or round peas. Sparse seeds and fine crumbly soil, not rocky garden soil. No plant or mature head. One compact sowing action.",
+      "alt": "Tiny lettuce seeds are sown thinly into a shallow drill.",
+      "sourcePaths": [
+        "lettuce.sowing_and_planting.seed_sowing.method",
+        "lettuce.sowing_and_planting.seed_sowing.sowing_depth"
+      ],
+      "status": "generated",
+      "approval": "approved-in-principle",
+      "attempts": 1,
+      "file": "drafts/2026-09-15/lettuce/01-sow-shallowly-v1.png",
+      "original": "/Users/johnlennon/.codex/generated_images/01a0a1a6-e9a1-7142-93c1-f53aed65e55d/exec-1320ac0f-d16f-4ea1-ba03-df8c59127b92.png",
+      "qa": "Initial visual review completed; final technical/print-size assessment pending."
+    },
+    {
+      "crop": "lettuce",
+      "id": "02-thin-for-type-v1",
+      "title": "Thin for the type",
+      "scene": "Side-on cutaway with two retained VERY YOUNG lettuce rosettes with three or four small soft pale-green leaves each and fine connected white roots. Not mature heads. A small hand removes one unwanted smaller seedling between them by holding a leaf, keeping retained roots undisturbed. The two surviving leaf bases stay just above the soil. Leave some clear horizontal space between retained stems for future label, but no arrow or text.",
+      "alt": "Young lettuce seedlings are thinned without burying the leaves of the retained plants.",
+      "sourcePaths": [
+        "lettuce.sowing_and_planting.seed_sowing.plant_spacing",
+        "lettuce.sowing_and_planting.planting_depth"
+      ],
+      "status": "generated",
+      "approval": "approved-in-principle",
+      "attempts": 1,
+      "file": "drafts/2026-09-15/lettuce/02-thin-for-type-v1.png",
+      "original": "/Users/johnlennon/.codex/generated_images/01a0a1a6-e9a1-7142-93c1-f53aed65e55d/exec-07149341-66cf-480c-a505-0cd0ed42a3c2.png",
+      "qa": "Initial visual review completed; final technical/print-size assessment pending."
+    },
+    {
+      "crop": "leek",
+      "id": "01-make-hole-v1",
+      "title": "Make the hole",
+      "scene": "Strict side-on cutaway of fine tan soil showing ONE narrow deep vertical dibber hole: cylindrical sides, round tapering base, roughly finger-width and several finger-widths deep. A simple smooth wooden dibber is being lifted vertically from the hole by a small hand, with its tapered end just above the hole entrance so the entire open hole remains visible. No plant yet. Ground surface is level. Narrow hole, NOT a broad potato trench. Reserve space beside hole for a future vertical depth arrow but do not draw it.",
+      "alt": "A wooden dibber makes a narrow deep planting hole for a leek.",
+      "sourcePaths": [
+        "leek.sowing_and_planting.planting_depth"
+      ],
+      "status": "generated",
+      "approval": "approved-in-principle",
+      "attempts": 1,
+      "file": "drafts/2026-09-15/leek/01-make-hole-v1.png",
+      "original": "/Users/johnlennon/.codex/generated_images/01a0a1a6-e9a1-7142-93c1-f53aed65e55d/exec-8ea10fae-1b14-442f-8c7b-4e153417ee9c.png",
+      "qa": "Full-size visual review completed; print-size assessment pending."
+    },
+    {
+      "crop": "leek",
+      "id": "02-lower-seedling-v1",
+      "title": "Lower the leek",
+      "scene": "Strict side-on soil cutaway showing ONE pencil-thick YOUNG leek lowered into the same narrow deep dibbed hole. A small hand holds its slender pale shank gently near the green leaves. Long strap-like flat blue-green leaves form a small fan above ground, with no swollen onion bulb. Fine white roots descend from the shank base to the bottom of the hole, not outside the soil. The surrounding hole remains OPEN around the lower shank, not packed with soil. Full scene has negative space, anatomical integrity. No arrows or labels.",
+      "alt": "A pencil-thick leek is lowered into an open planting hole.",
+      "sourcePaths": [
+        "leek.sowing_and_planting.method",
+        "leek.sowing_and_planting.planting_depth"
+      ],
+      "status": "generated",
+      "approval": "approved-in-principle",
+      "attempts": 1,
+      "file": "drafts/2026-09-15/leek/02-lower-seedling-v1.png",
+      "original": "/Users/johnlennon/.codex/generated_images/01a0a1a6-e9a1-7142-93c1-f53aed65e55d/exec-c061e398-3c04-41d9-a0b4-dc05c67e4b15.png",
+      "qa": "Full-size visual review completed; print-size assessment pending."
+    },
+    {
+      "crop": "leek",
+      "id": "03-water-hole-v1",
+      "title": "Water into the hole",
+      "scene": "Strict side-on cutaway of ONE young pencil-thick leek upright in the same narrow deep vertical hole. Strap-like blue-green leaves fan above ground; no bulb. Fine white roots at the bottom touch a small patch of wet settled soil. A SMALL green watering-can rose at upper side sends a few droplets INTO the gap of the OPEN hole beside the stem. Water settles roots; the upper hole still visibly has air space around the shank. Crucial: do NOT fill the hole with dry soil, no trowel, no hand backfilling, no flooded bed. Show the hole's continuing open upper section clearly.",
+      "alt": "Water settles a leek's roots into the hole without dry-soil backfilling.",
+      "sourcePaths": [
+        "leek.sowing_and_planting.method",
+        "leek.sowing_and_planting.planting_depth"
+      ],
+      "status": "generated",
+      "approval": "approved-in-principle",
+      "attempts": 1,
+      "file": "drafts/2026-09-15/leek/03-water-hole-v1.png",
+      "original": "/Users/johnlennon/.codex/generated_images/01a0a1a6-e9a1-7142-93c1-f53aed65e55d/exec-e2d3372b-b60a-4d28-aed3-92b0fb6d3234.png",
+      "qa": "Full-size visual review completed; print-size assessment pending."
+    }
+  ],
+  "approvalNote": "John approved all original 14 scenes in principle on 15 September 2026; beetroot seed refinement authorised. Production integration and fit QA still pending.",
+  "sourceReview": {
+    "sha256": "0e8f591e50e8d6794ef8902ac52b391d378006b2ae5703f9cec31fe15dba1df4",
+    "note": "Only garlic source changed since these scenes; bindings for this batch unchanged."
+  }
+}

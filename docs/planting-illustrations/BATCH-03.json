@@ -1,0 +1,287 @@
+{
+  "date": "2026-09-15",
+  "status": "complete draft batch; 12 scenes plus chicory revision, not installed",
+  "mode": "built-in image_gen; one call per scene",
+  "sourceSha256": "74988e736425837f0381ea9ed05f9a7fa5ba83ce77db96396817d3d645ab1864",
+  "styleReferences": [
+    "references/concept-2.png",
+    "drafts/2026-09-15/carrot/01-sow-thinly-v1.png"
+  ],
+  "commonPrompt": "Use case: scientific-educational. Asset: ONE compact teaching vignette for printed vegetable Sowing & Planting instructions, legible at 36–48 mm width. Image 1 is Concept 2 STYLE REFERENCE ONLY; ignore all its text, measurements, mature crops and page layout. Image 2 is the approved CARROT ART STYLE ANCHOR: match its warm chocolate fine ink, pale sandy-tan soil stipple, soft muted watercolour, natural skin tone and economical botanical detail. Generate a NEW crop action, NOT another carrot. Wide 2:1 canvas, target 1536x768. GENUINELY TRANSPARENT alpha background, no paper, no background rectangle. One scene, meaningful artwork centred within 7% safe margins. Restrained greens, light soil, generous blank space. No text, numbers, arrows, badges, border, watermark, dimension marks or mature crop portrait. Anatomy and physical planting action must be coherent; roots connected to stems. All exact dimensions will be added separately from live source. Do not over-enlarge hands or tiny seeds.",
+  "jobs": [
+    {
+      "crop": "bean_broad",
+      "id": "01-sow-large-beans-v1",
+      "title": "Sow large beans",
+      "scene": "A small hand lowers one broad bean into a soil cutaway drill. Show a few spaced large flattened oval buff beans at the drill base, with a darker short hilum along one edge; NOT round peas or kidney-shaped French beans. One side-on sowing action with the ground-to-drill-base relationship visible.",
+      "alt": "Broad beans are sown at intervals in a prepared drill.",
+      "sourcePaths": [
+        "bean_broad.sowing_and_planting.method",
+        "bean_broad.sowing_and_planting.sowing_depth"
+      ],
+      "status": "generated",
+      "approval": "new draft; not yet reviewed by user",
+      "attempts": 1,
+      "file": "drafts/2026-09-15/bean_broad/01-sow-large-beans-v1.png",
+      "original": "/Users/johnlennon/.codex/generated_images/01a0a1a6-e9a1-7142-93c1-f53aed65e55d/exec-a0cfa6cf-dfef-4236-bdb7-7cc635752dfe.png",
+      "qa": "Full-size and 24 mm-high slot review completed; coherent planting action, style matched. Schematic illustrations, exact labels remain separate.",
+      "dimensions": {
+        "width": 1774,
+        "height": 887
+      },
+      "hasTransparency": true
+    },
+    {
+      "crop": "bean_broad",
+      "id": "02-establish-double-row-v1",
+      "title": "Establish a double row",
+      "scene": "A small oblique overhead teaching cutaway showing six YOUNG broad-bean seedlings in TWO clearly paired parallel short rows, three plants each. Upright stout short stems with paired broad oval grey-green leaves, no pods, flowers or tendrils. Soil now covered and level. Simplify soil, keep plants separate and readable. This arrangement is schematic, not a measured diagram; no extra third row.",
+      "alt": "Young broad beans establish in a paired double row.",
+      "sourcePaths": [
+        "bean_broad.sowing_and_planting.method",
+        "bean_broad.sowing_and_planting.plant_spacing",
+        "bean_broad.sowing_and_planting.row_spacing"
+      ],
+      "status": "generated",
+      "approval": "new draft; not yet reviewed by user",
+      "attempts": 1,
+      "file": "drafts/2026-09-15/bean_broad/02-establish-double-row-v1.png",
+      "original": "/Users/johnlennon/.codex/generated_images/01a0a1a6-e9a1-7142-93c1-f53aed65e55d/exec-7723a880-2c39-4f0d-9dfa-4f2e5086e2db.png",
+      "qa": "Full-size and 24 mm-high slot review completed; coherent planting action, style matched. Schematic illustrations, exact labels remain separate.",
+      "dimensions": {
+        "width": 1774,
+        "height": 887
+      },
+      "hasTransparency": true
+    },
+    {
+      "crop": "bean_french",
+      "id": "01-sow-station-v1",
+      "title": "Sow a station",
+      "scene": "Side-on close soil cutaway of ONE sowing station: one smooth small cream kidney-shaped French bean rests at bottom of a modest planting depression; a small hand places a SECOND matching bean beside it. Exactly TWO beans for this one station. No plant, no mature pods, no round peas. Preserve space above the soil for separate depth label.",
+      "alt": "Two French-bean seeds are sown at one station.",
+      "sourcePaths": [
+        "bean_french.sowing_and_planting.method",
+        "bean_french.sowing_and_planting.sowing_depth"
+      ],
+      "status": "generated",
+      "approval": "new draft; not yet reviewed by user",
+      "attempts": 1,
+      "file": "drafts/2026-09-15/bean_french/01-sow-station-v1.png",
+      "original": "/Users/johnlennon/.codex/generated_images/01a0a1a6-e9a1-7142-93c1-f53aed65e55d/exec-58a01602-df1c-46b4-84c2-700dc93f3d7b.png",
+      "qa": "Full-size and 24 mm-high slot review completed; coherent planting action, style matched. Schematic illustrations, exact labels remain separate.",
+      "dimensions": {
+        "width": 1774,
+        "height": 887
+      },
+      "hasTransparency": true
+    },
+    {
+      "crop": "bean_french",
+      "id": "02-keep-strongest-v1",
+      "title": "Keep the strongest",
+      "scene": "One retained YOUNG dwarf French-bean seedling with a sturdy short stem and first broad pointed green leaves. A small hand gently removes a smaller weaker adjacent seedling by a leaf. Show fine connected roots and undisturbed soil around retained seedling. Not climbing beans, no pole, no mature pods, no sprawling vine, no mature plant. Clear healthy versus removed seedlings.",
+      "alt": "The weaker French-bean seedling is removed, leaving the stronger plant.",
+      "sourcePaths": [
+        "bean_french.sowing_and_planting.method",
+        "bean_french.sowing_and_planting.plant_spacing"
+      ],
+      "status": "generated",
+      "approval": "new draft; not yet reviewed by user",
+      "attempts": 1,
+      "file": "drafts/2026-09-15/bean_french/02-keep-strongest-v1.png",
+      "original": "/Users/johnlennon/.codex/generated_images/01a0a1a6-e9a1-7142-93c1-f53aed65e55d/exec-70b55e87-2577-427f-be64-a459bba9123b.png",
+      "qa": "Full-size and 24 mm-high slot review completed; coherent planting action, style matched. Schematic illustrations, exact labels remain separate.",
+      "dimensions": {
+        "width": 1774,
+        "height": 887
+      },
+      "hasTransparency": true
+    },
+    {
+      "crop": "pea",
+      "id": "01-sow-broad-drill-v1",
+      "title": "Sow a broad drill",
+      "scene": "A small hand releases a few pale green dried round peas into a BROAD FLAT-BOTTOMED soil drill seen obliquely from above with a front soil cutaway. Peas spread across the width in a loose staggered pattern, not one narrow line. A few round peas are slightly wrinkled; no pods. Keep flat drill bottom wide and clear, no measurements or arrows.",
+      "alt": "Pea seeds are spread across a broad flat-bottomed drill.",
+      "sourcePaths": [
+        "pea.sowing_and_planting.method",
+        "pea.sowing_and_planting.sowing_depth"
+      ],
+      "status": "generated",
+      "approval": "new draft; not yet reviewed by user",
+      "attempts": 1,
+      "file": "drafts/2026-09-15/pea/01-sow-broad-drill-v1.png",
+      "original": "/Users/johnlennon/.codex/generated_images/01a0a1a6-e9a1-7142-93c1-f53aed65e55d/exec-0da72726-27e9-4967-b757-ff7ffc4d2515.png",
+      "qa": "Full-size and 24 mm-high slot review completed; coherent planting action, style matched. Schematic illustrations, exact labels remain separate.",
+      "dimensions": {
+        "width": 1774,
+        "height": 887
+      },
+      "hasTransparency": true
+    },
+    {
+      "crop": "pea",
+      "id": "02-cover-and-support-v1",
+      "title": "Cover and support",
+      "scene": "A compact patch of four very YOUNG pea seedlings in covered level soil. Pea seedlings have paired small oval leaflets and fine curling tendrils reaching toward TWO slender twiggy branching pea sticks. No flowers, pods or mature climbing canopy. Short oblique cutaway shows seedling roots connected beneath soil. The sticks are natural brown branches, not a wall or ornate trellis.",
+      "alt": "Young peas establish in covered soil with twiggy support.",
+      "sourcePaths": [
+        "pea.sowing_and_planting.method",
+        "pea.sowing_and_planting.notes"
+      ],
+      "status": "generated",
+      "approval": "new draft; not yet reviewed by user",
+      "attempts": 1,
+      "file": "drafts/2026-09-15/pea/02-cover-and-support-v1.png",
+      "original": "/Users/johnlennon/.codex/generated_images/01a0a1a6-e9a1-7142-93c1-f53aed65e55d/exec-32748775-cce7-45aa-84e6-1c172a4ad2be.png",
+      "qa": "Full-size and 24 mm-high slot review completed; coherent planting action, style matched. Schematic illustrations, exact labels remain separate. Support tips close to canvas edge: preserve full canvas; leave widget padding.",
+      "dimensions": {
+        "width": 1774,
+        "height": 887
+      },
+      "hasTransparency": true
+    },
+    {
+      "crop": "parsnip",
+      "id": "01-sow-fresh-seed-v1",
+      "title": "Sow fresh seed",
+      "scene": "A small hand sows a few PALE STRAW flat papery oval-to-round parsnip seeds into a soil drill. Each seed has a thin translucent-looking rim and a subtle tan central seed body; NOT narrow carrot seeds, round pea balls, beet clusters or thick cereal grains. Side-on slight view into drill, sparse separated seeds, fine crumbly soil, no plant.",
+      "alt": "Fresh flat parsnip seeds are sown directly into a drill.",
+      "sourcePaths": [
+        "parsnip.sowing_and_planting.method",
+        "parsnip.sowing_and_planting.sowing_depth"
+      ],
+      "status": "generated",
+      "approval": "new draft; not yet reviewed by user",
+      "attempts": 1,
+      "file": "drafts/2026-09-15/parsnip/01-sow-fresh-seed-v1.png",
+      "original": "/Users/johnlennon/.codex/generated_images/01a0a1a6-e9a1-7142-93c1-f53aed65e55d/exec-0d376863-f0c9-4ddd-8f2c-21870bd5b737.png",
+      "qa": "Full-size and 24 mm-high slot review completed; coherent planting action, style matched. Schematic illustrations, exact labels remain separate.",
+      "dimensions": {
+        "width": 1774,
+        "height": 887
+      },
+      "hasTransparency": true
+    },
+    {
+      "crop": "parsnip",
+      "id": "02-thin-in-place-v1",
+      "title": "Thin in place",
+      "scene": "Two retained young parsnip seedlings growing in their original positions in a side-on soil cutaway. Small emerging toothed compound leaves, not feathery carrot foliage; long slender pale connected taproots, no mature cream root. A small hand lifts ONE unwanted smaller seedling between them. Do not show replanting, pots or disturbed retained roots.",
+      "alt": "Parsnip seedlings are thinned in place without transplanting the retained plants.",
+      "sourcePaths": [
+        "parsnip.sowing_and_planting.method",
+        "parsnip.sowing_and_planting.plant_spacing",
+        "parsnip.sowing_and_planting.notes"
+      ],
+      "status": "generated",
+      "approval": "new draft; not yet reviewed by user",
+      "attempts": 1,
+      "file": "drafts/2026-09-15/parsnip/02-thin-in-place-v1.png",
+      "original": "/Users/johnlennon/.codex/generated_images/01a0a1a6-e9a1-7142-93c1-f53aed65e55d/exec-b824bfbd-fa32-4a1f-8c84-b6ce8489d645.png",
+      "qa": "Full-size and 24 mm-high slot review completed; coherent planting action, style matched. Schematic illustrations, exact labels remain separate. Taproots deliberately schematic; caption must say discard thinnings, no transplanting.",
+      "dimensions": {
+        "width": 1774,
+        "height": 887
+      },
+      "hasTransparency": true
+    },
+    {
+      "crop": "radish",
+      "id": "01-sow-short-drill-v1",
+      "title": "Sow a short drill",
+      "scene": "A small hand sows a few small irregular rounded light brown radish seeds into a SHORT shallow fine-soil drill. Seeds separate, NOT beet clusters or peas. Same warm soil cutaway and small hand as style anchor. No radish plants or harvested roots.",
+      "alt": "A small quantity of salad-radish seed is sown in a shallow drill.",
+      "sourcePaths": [
+        "radish.sowing_and_planting.method",
+        "radish.sowing_and_planting.sowing_depth"
+      ],
+      "status": "generated",
+      "approval": "new draft; not yet reviewed by user",
+      "attempts": 1,
+      "file": "drafts/2026-09-15/radish/01-sow-short-drill-v1.png",
+      "original": "/Users/johnlennon/.codex/generated_images/01a0a1a6-e9a1-7142-93c1-f53aed65e55d/exec-3ae5b2cc-137c-455d-8b13-f216e37be205.png",
+      "qa": "Full-size and 24 mm-high slot review completed; coherent planting action, style matched. Schematic illustrations, exact labels remain separate.",
+      "dimensions": {
+        "width": 1774,
+        "height": 887
+      },
+      "hasTransparency": true
+    },
+    {
+      "crop": "radish",
+      "id": "02-leave-room-v1",
+      "title": "Leave room to grow",
+      "scene": "Three very young salad-radish seedlings at clear intervals in a short side-on soil strip. Small round cotyledons and one or two slightly lobed true leaves each. Tiny subtle red developing root necks with thin pale taproots; NO large harvest-ready red balls. No hand necessary: show correct space left after sowing thinly or thinning only if crowded. Keep soil line and root connections clear.",
+      "alt": "Young salad radishes have room between plants; thin only if crowded.",
+      "sourcePaths": [
+        "radish.sowing_and_planting.plant_spacing.small_spring_radishes",
+        "radish.sowing_and_planting.row_spacing.spring_summer_varieties"
+      ],
+      "status": "generated",
+      "approval": "new draft; not yet reviewed by user",
+      "attempts": 1,
+      "file": "drafts/2026-09-15/radish/02-leave-room-v1.png",
+      "original": "/Users/johnlennon/.codex/generated_images/01a0a1a6-e9a1-7142-93c1-f53aed65e55d/exec-a1a6fc80-1f96-4837-b204-7e15f910bf45.png",
+      "qa": "Full-size and 24 mm-high slot review completed; coherent planting action, style matched. Schematic illustrations, exact labels remain separate.",
+      "dimensions": {
+        "width": 1774,
+        "height": 887
+      },
+      "hasTransparency": true
+    },
+    {
+      "crop": "chicory",
+      "id": "01-sow-shallowly-v1",
+      "title": "Sow shallowly",
+      "scene": "A small hand sows a few tiny elongated angular pale tan chicory seeds in a fine shallow drill. Sparse seed, crumbly light sandy soil, minimal detail. Seeds are short angular achenes, not peas, beet clusters or huge grain. No plants and no blanched chicons.",
+      "alt": "Chicory seeds are sown thinly into a shallow drill.",
+      "sourcePaths": [
+        "chicory.sowing_and_planting.method",
+        "chicory.sowing_and_planting.sowing_depth"
+      ],
+      "status": "generated",
+      "approval": "new draft; not yet reviewed by user",
+      "attempts": 1,
+      "file": "drafts/2026-09-15/chicory/01-sow-shallowly-v1.png",
+      "original": "/Users/johnlennon/.codex/generated_images/01a0a1a6-e9a1-7142-93c1-f53aed65e55d/exec-e3e58d6c-02f5-4342-b149-f8749914b328.png",
+      "qa": "Hold for seed-shape correction: v1 copies pointed carrot-like seeds. Chicory achenes should be short stout, blunt/truncate and angular. Other visual styling is consistent.",
+      "dimensions": {
+        "width": 1774,
+        "height": 887
+      },
+      "hasTransparency": true,
+      "revisionStatus": "generated; preferred",
+      "preferredFile": "drafts/2026-09-15/chicory/01-sow-shallowly-v2.png",
+      "revisionNote": "Chicory v2 generated: short blunt/angular seeds replace carrot-like v1; visually preferred."
+    },
+    {
+      "crop": "chicory",
+      "id": "02-thin-young-plants-v1",
+      "title": "Thin young plants",
+      "scene": "Two small green young chicory rosettes with slightly toothed elongated leaves and fine connected pale roots in side-on soil cutaway. A small hand removes one smaller crowded seedling between them. No mature red radicchio head and no white forced chicon. Keep retained crowns above ground, soil level flat and roots undisturbed.",
+      "alt": "Young chicory is thinned to suit the chosen forcing or non-forcing crop.",
+      "sourcePaths": [
+        "chicory.sowing_and_planting.plant_spacing",
+        "chicory.sowing_and_planting.row_spacing",
+        "chicory.sowing_and_planting.notes"
+      ],
+      "status": "generated",
+      "approval": "new draft; not yet reviewed by user",
+      "attempts": 1,
+      "file": "drafts/2026-09-15/chicory/02-thin-young-plants-v1.png",
+      "original": "/Users/johnlennon/.codex/generated_images/01a0a1a6-e9a1-7142-93c1-f53aed65e55d/exec-bf403870-a9a3-4ae4-9bf2-85f292b48f1d.png",
+      "qa": "Full-size and 24 mm-high slot review completed; coherent planting action, style matched. Schematic illustrations, exact labels remain separate.",
+      "dimensions": {
+        "width": 1774,
+        "height": 887
+      },
+      "hasTransparency": true
+    }
+  ],
+  "sourceReview": {
+    "sha256": "0e8f591e50e8d6794ef8902ac52b391d378006b2ae5703f9cec31fe15dba1df4",
+    "note": "Only garlic source changed since these scenes; bindings for this batch unchanged."
+  }
+}

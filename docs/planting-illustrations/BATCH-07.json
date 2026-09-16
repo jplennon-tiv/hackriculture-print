@@ -1,0 +1,270 @@
+{
+  "date": "2026-09-15",
+  "status": "complete draft generation; awaiting user review, not installed",
+  "mode": "built-in image_gen; one call per scene",
+  "sourceSha256": "0e8f591e50e8d6794ef8902ac52b391d378006b2ae5703f9cec31fe15dba1df4",
+  "styleReferences": [
+    "references/concept-2.png",
+    "drafts/2026-09-15/carrot/01-sow-thinly-v1.png"
+  ],
+  "commonPrompt": "Use case: scientific-educational. Asset: ONE compact teaching vignette for printed vegetable Sowing & Planting instructions, legible at 36–48 mm width. Image 1 is Concept 2 STYLE REFERENCE ONLY; ignore all its text, measurements, mature crops and page layout. Image 2 is the approved CARROT ART STYLE ANCHOR: match its warm chocolate fine ink, pale sandy-tan soil stipple, soft muted watercolour, natural skin tone and economical botanical detail. Generate a NEW crop action, NOT another carrot. Wide 2:1 canvas, target 1536x768. GENUINELY TRANSPARENT alpha background, no paper, no background rectangle. One scene, meaningful artwork centred within 7% safe margins. Restrained greens, light soil, generous blank space. No text, numbers, arrows, badges, border, watermark, dimension marks or mature crop portrait. Anatomy and physical planting action must be coherent; roots connected to stems. All exact dimensions will be added separately from live source. Do not over-enlarge hands or tiny seeds.",
+  "jobs": [
+    {
+      "crop": "asparagus",
+      "id": "01-prepare-mound-v1",
+      "title": "Prepare the mound",
+      "scene": "A single empty planting trench in a short oblique soil cutaway. Low ridge of soil running along centre of trench, distinctly lower than surrounding ground; no plants, hands or roots. This is a prepared 20cm-deep trench, not a tall outdoor raised bed; no dimensions drawn.",
+      "alt": "asparagus: prepare the mound.",
+      "sourcePaths": [
+        "asparagus.sowing_and_planting.planting.method",
+        "asparagus.sowing_and_planting.planting.planting_depth",
+        "asparagus.sowing_and_planting.planting.trench_or_ridge_depth",
+        "asparagus.sowing_and_planting.planting.plant_spacing",
+        "asparagus.sowing_and_planting.planting.row_spacing",
+        "asparagus.sowing_and_planting.planting.notes",
+        "asparagus.sowing_and_planting.seed_sowing"
+      ],
+      "status": "generated",
+      "approval": "new draft; not yet reviewed by user",
+      "attempts": 1,
+      "file": "drafts/2026-09-15/asparagus/01-prepare-mound-v1.png",
+      "original": "/Users/johnlennon/.codex/generated_images/01a0a1a6-e9a1-7142-93c1-f53aed65e55d/exec-fd81ca13-103a-479e-b906-e1725c809476.png",
+      "qa": "Full-size visual review passed; young crop/action coherent, no baked labels. Genuine alpha, 1774x887 and small-slot visual review passed."
+    },
+    {
+      "crop": "asparagus",
+      "id": "02-spread-roots-v1",
+      "title": "Spread roots",
+      "scene": "One dormant asparagus crown seated on a low central soil ridge inside an open trench. Natural small central growing point with long fleshy pale tan roots CONNECTED to crown and fanned down BOTH sides of ridge. Entire crown and roots visible, all within trench; no fern growth, no rhubarb leaves. Slight oblique sectional view.",
+      "alt": "asparagus: spread roots.",
+      "sourcePaths": [
+        "asparagus.sowing_and_planting.planting.method",
+        "asparagus.sowing_and_planting.planting.planting_depth",
+        "asparagus.sowing_and_planting.planting.trench_or_ridge_depth",
+        "asparagus.sowing_and_planting.planting.plant_spacing",
+        "asparagus.sowing_and_planting.planting.row_spacing",
+        "asparagus.sowing_and_planting.planting.notes",
+        "asparagus.sowing_and_planting.seed_sowing"
+      ],
+      "status": "generated",
+      "approval": "new draft; not yet reviewed by user",
+      "attempts": 1,
+      "file": "drafts/2026-09-15/asparagus/02-spread-roots-v1.png",
+      "original": "/Users/johnlennon/.codex/generated_images/01a0a1a6-e9a1-7142-93c1-f53aed65e55d/exec-31be240a-07bd-4d71-8d38-dd39b4467fc0.png",
+      "qa": "Full-size visual review passed; young crop/action coherent, no baked labels. Genuine alpha, 1774x887 and small-slot visual review passed."
+    },
+    {
+      "crop": "asparagus",
+      "id": "03-initial-cover-v1",
+      "title": "Cover progressively",
+      "scene": "Cross-sectional view of the SAME kind of asparagus crown in trench: crown on low central ridge with connected roots down both sides. Modest soil cover immediately OVER crown and roots, but trench still depressed relative to surrounding ground. Crown entirely below this initial cover, not exposed. No shoots. This depicts initial covering only, not the later full trench fill.",
+      "alt": "asparagus: cover progressively.",
+      "sourcePaths": [
+        "asparagus.sowing_and_planting.planting.method",
+        "asparagus.sowing_and_planting.planting.planting_depth",
+        "asparagus.sowing_and_planting.planting.trench_or_ridge_depth",
+        "asparagus.sowing_and_planting.planting.plant_spacing",
+        "asparagus.sowing_and_planting.planting.row_spacing",
+        "asparagus.sowing_and_planting.planting.notes",
+        "asparagus.sowing_and_planting.seed_sowing"
+      ],
+      "status": "generated",
+      "approval": "new draft; not yet reviewed by user",
+      "attempts": 1,
+      "file": "drafts/2026-09-15/asparagus/03-initial-cover-v1.png",
+      "original": "/Users/johnlennon/.codex/generated_images/01a0a1a6-e9a1-7142-93c1-f53aed65e55d/exec-c1cbffe3-42c7-4670-ba0b-c7b85c865d8f.png",
+      "qa": "Full-size visual review passed; young crop/action coherent, no baked labels. Genuine alpha, 1774x887 and small-slot visual review passed."
+    },
+    {
+      "crop": "bean_runner",
+      "id": "01-set-supports-v1",
+      "title": "Set supports",
+      "scene": "A complete stable runner-bean frame: three pairs of slender brown poles along TWO parallel rows, paired poles leaning inward and crossing high above ground, joined by one horizontal ridge pole. Compact oblique perspective, entire poles and ridge visible within safe margins. Bare prepared soil patch, no plants yet, no decorative garden background.",
+      "alt": "bean runner: set supports.",
+      "sourcePaths": [
+        "bean_runner.sowing_and_planting.method",
+        "bean_runner.sowing_and_planting.sowing_depth",
+        "bean_runner.sowing_and_planting.plant_spacing",
+        "bean_runner.sowing_and_planting.row_spacing",
+        "bean_runner.sowing_and_planting.notes"
+      ],
+      "status": "generated",
+      "approval": "new draft; not yet reviewed by user",
+      "attempts": 1,
+      "file": "drafts/2026-09-15/bean_runner/01-set-supports-v1.png",
+      "original": "/Users/johnlennon/.codex/generated_images/01a0a1a6-e9a1-7142-93c1-f53aed65e55d/exec-01df87fd-d1c9-4701-86cb-1a547b63545e.png",
+      "qa": "Full-size visual review passed; young crop/action coherent, no baked labels. Genuine alpha, 1774x887 and small-slot visual review passed."
+    },
+    {
+      "crop": "bean_runner",
+      "id": "02-sow-beside-pole-v1",
+      "title": "Sow beside poles",
+      "scene": "Close-up of ONE pole base inserted in soil and one plump runner-bean seed set beside it in cutaway, covered below ground at approximately seed-sowing depth, hand placing a second bean into adjacent small hole. Only sowing stage, no seedlings, no entire tall frame, no numbers. Bean seed modest kidney shape not a large harvest bean pod.",
+      "alt": "bean runner: sow beside poles.",
+      "sourcePaths": [
+        "bean_runner.sowing_and_planting.method",
+        "bean_runner.sowing_and_planting.sowing_depth",
+        "bean_runner.sowing_and_planting.plant_spacing",
+        "bean_runner.sowing_and_planting.row_spacing",
+        "bean_runner.sowing_and_planting.notes"
+      ],
+      "status": "generated",
+      "approval": "new draft; not yet reviewed by user",
+      "attempts": 1,
+      "file": "drafts/2026-09-15/bean_runner/02-sow-beside-pole-v1.png",
+      "original": "/Users/johnlennon/.codex/generated_images/01a0a1a6-e9a1-7142-93c1-f53aed65e55d/exec-121aa405-a97c-405f-be52-6841f1d17dad.png",
+      "qa": "Full-size visual review passed; young crop/action coherent, no baked labels. Genuine alpha, 1774x887 and small-slot visual review passed."
+    },
+    {
+      "crop": "bean_runner",
+      "id": "03-establish-double-row-v1",
+      "title": "Establish seedlings",
+      "scene": "Compact oblique view of same runner-bean support frame: three pairs of poles in TWO parallel rows, leaning together crossed and connected at ridge; ONE small young runner-bean seedling at each pole base. Leaves at early two-to-three leaf stage, no flowers/pods. Make six bases and two-row relation clear, whole frame safely inside canvas.",
+      "alt": "bean runner: establish seedlings.",
+      "sourcePaths": [
+        "bean_runner.sowing_and_planting.method",
+        "bean_runner.sowing_and_planting.sowing_depth",
+        "bean_runner.sowing_and_planting.plant_spacing",
+        "bean_runner.sowing_and_planting.row_spacing",
+        "bean_runner.sowing_and_planting.notes"
+      ],
+      "status": "generated",
+      "approval": "new draft; not yet reviewed by user",
+      "attempts": 1,
+      "file": "drafts/2026-09-15/bean_runner/03-establish-double-row-v1.png",
+      "original": "/Users/johnlennon/.codex/generated_images/01a0a1a6-e9a1-7142-93c1-f53aed65e55d/exec-f5510d81-a5a8-4d7e-b7cd-ae9f7daa8ab1.png",
+      "qa": "Full-size visual review passed; young crop/action coherent, no baked labels. Genuine alpha, 1774x887 and small-slot visual review passed."
+    },
+    {
+      "crop": "celeriac",
+      "id": "01-surface-sow-v1",
+      "title": "Surface sow",
+      "scene": "Small shallow nursery tray of damp fine compost. Hand scatters very tiny celery/celeriac seeds ON TOP of compost, visibly on surface, NO buried seed cross-section and NO covering layer. Seeds subtle minute brown specks, not big beans. No plants, no transplanting.",
+      "alt": "celeriac: surface sow.",
+      "sourcePaths": [
+        "celeriac.sowing_and_planting.method",
+        "celeriac.sowing_and_planting.sowing_depth",
+        "celeriac.sowing_and_planting.planting_depth",
+        "celeriac.sowing_and_planting.plant_spacing",
+        "celeriac.sowing_and_planting.row_spacing",
+        "celeriac.sowing_and_planting.notes"
+      ],
+      "status": "generated",
+      "approval": "new draft; not yet reviewed by user",
+      "attempts": 1,
+      "file": "drafts/2026-09-15/celeriac/01-surface-sow-v1.png",
+      "original": "/Users/johnlennon/.codex/generated_images/01a0a1a6-e9a1-7142-93c1-f53aed65e55d/exec-dd63e0ff-31ea-4b46-87c7-059d6210da60.png",
+      "qa": "Full-size visual review passed; young crop/action coherent, no baked labels. Genuine alpha, 1774x887 and small-slot visual review passed."
+    },
+    {
+      "crop": "celeriac",
+      "id": "02-grow-on-v1",
+      "title": "Grow on",
+      "scene": "ONE tiny celeriac seedling carefully held ONLY by one seed leaf between fingertips, not gripped by stem, fine connected roots descending toward an empty module cell of compost. Delicate lobed green true leaves with small oval seed leaves. Roots intact, no swollen root bulb. Single pricking-out action.",
+      "alt": "celeriac: grow on.",
+      "sourcePaths": [
+        "celeriac.sowing_and_planting.method",
+        "celeriac.sowing_and_planting.sowing_depth",
+        "celeriac.sowing_and_planting.planting_depth",
+        "celeriac.sowing_and_planting.plant_spacing",
+        "celeriac.sowing_and_planting.row_spacing",
+        "celeriac.sowing_and_planting.notes"
+      ],
+      "status": "generated",
+      "approval": "new draft; not yet reviewed by user",
+      "attempts": 1,
+      "file": "drafts/2026-09-15/celeriac/02-grow-on-v1.png",
+      "original": "/Users/johnlennon/.codex/generated_images/01a0a1a6-e9a1-7142-93c1-f53aed65e55d/exec-b72b69d0-d0cc-4c4e-a561-ece59067eeb7.png",
+      "qa": "Full-size visual review passed; young crop/action coherent, no baked labels. Genuine alpha, 1774x887 and small-slot visual review passed."
+    },
+    {
+      "crop": "celeriac",
+      "id": "03-crown-clear-v1",
+      "title": "Keep crown clear",
+      "scene": "One young celeriac transplant at original module level in light soil cutaway. Crown/slightly thickened stem base exactly at soil surface with all leaf bases above ground; pale fine roots connected beneath. Small celery-like lobed leaves, no large harvested bulb. Hand gently firms soil beside intact plug, no earth piled over crown.",
+      "alt": "celeriac: keep crown clear.",
+      "sourcePaths": [
+        "celeriac.sowing_and_planting.method",
+        "celeriac.sowing_and_planting.sowing_depth",
+        "celeriac.sowing_and_planting.planting_depth",
+        "celeriac.sowing_and_planting.plant_spacing",
+        "celeriac.sowing_and_planting.row_spacing",
+        "celeriac.sowing_and_planting.notes"
+      ],
+      "status": "generated",
+      "approval": "new draft; not yet reviewed by user",
+      "attempts": 1,
+      "file": "drafts/2026-09-15/celeriac/03-crown-clear-v1.png",
+      "original": "/Users/johnlennon/.codex/generated_images/01a0a1a6-e9a1-7142-93c1-f53aed65e55d/exec-7b661bc9-f38f-4b41-86d2-8d1a6ff2e2fc.png",
+      "qa": "Full-size visual review passed; young crop/action coherent, no baked labels. Genuine alpha, 1774x887 and small-slot visual review passed."
+    },
+    {
+      "crop": "sweet_corn",
+      "id": "01-sow-kernel-v1",
+      "title": "Sow warm",
+      "scene": "ONE golden maize kernel in a deep individual module of compost shown in cutaway; kernel covered by modest compost depth, clearly below surface, without roots or seedling. Another kernel pinched in fingertips above adjacent second cell shows sowing action. Large real corn kernel, not tiny round seeds. No numbers.",
+      "alt": "sweet corn: sow warm.",
+      "sourcePaths": [
+        "sweet_corn.sowing_and_planting.seed_sowing",
+        "sweet_corn.sowing_and_planting.planting",
+        "sweet_corn.sowing_and_planting.sowing_depth",
+        "sweet_corn.sowing_and_planting.plant_spacing",
+        "sweet_corn.sowing_and_planting.row_spacing",
+        "sweet_corn.sowing_and_planting.seeds_per_station",
+        "sweet_corn.sowing_and_planting.notes"
+      ],
+      "status": "generated",
+      "approval": "new draft; not yet reviewed by user",
+      "attempts": 1,
+      "file": "drafts/2026-09-15/sweet_corn/01-sow-kernel-v1.png",
+      "original": "/Users/johnlennon/.codex/generated_images/01a0a1a6-e9a1-7142-93c1-f53aed65e55d/exec-91e0b47a-ee8f-452c-931e-910700971db3.png",
+      "qa": "Full-size visual review passed; young crop/action coherent, no baked labels. Genuine alpha, 1774x887 and small-slot visual review passed."
+    },
+    {
+      "crop": "sweet_corn",
+      "id": "02-plant-intact-v1",
+      "title": "Plant intact",
+      "scene": "Single young sweetcorn seedling with three narrow arching strap leaves, intact slender deep module plug being lowered into prepared hole. Roots remain enclosed in moist plug; no loose bare roots, no mature stalk/cob/tassel. Hand cradles plug sides gently, not crushing leaves. Light soil cutaway, one action.",
+      "alt": "sweet corn: plant intact.",
+      "sourcePaths": [
+        "sweet_corn.sowing_and_planting.seed_sowing",
+        "sweet_corn.sowing_and_planting.planting",
+        "sweet_corn.sowing_and_planting.sowing_depth",
+        "sweet_corn.sowing_and_planting.plant_spacing",
+        "sweet_corn.sowing_and_planting.row_spacing",
+        "sweet_corn.sowing_and_planting.seeds_per_station",
+        "sweet_corn.sowing_and_planting.notes"
+      ],
+      "status": "generated",
+      "approval": "new draft; not yet reviewed by user",
+      "attempts": 1,
+      "file": "drafts/2026-09-15/sweet_corn/02-plant-intact-v1.png",
+      "original": "/Users/johnlennon/.codex/generated_images/01a0a1a6-e9a1-7142-93c1-f53aed65e55d/exec-18a9b0f5-2f4d-4465-94a2-1d9b07229cf1.png",
+      "qa": "Full-size visual review passed; young crop/action coherent, no baked labels. Genuine alpha, 1774x887 and small-slot visual review passed."
+    },
+    {
+      "crop": "sweet_corn",
+      "id": "03-make-block-v1",
+      "title": "Make a block",
+      "scene": "Small planting plan in gentle overhead oblique perspective: EXACTLY sixteen very young sweetcorn plants in FOUR short parallel rows of FOUR plants. Equal spacing each way, clearly a compact square block, not a long line. Each plant only two or three small slender strap leaves; no tall corn, tassels or cobs. Subtle single light tan soil patch with softly irregular edges, no border, arrows or text.",
+      "alt": "sweet corn: make a block.",
+      "sourcePaths": [
+        "sweet_corn.sowing_and_planting.seed_sowing",
+        "sweet_corn.sowing_and_planting.planting",
+        "sweet_corn.sowing_and_planting.sowing_depth",
+        "sweet_corn.sowing_and_planting.plant_spacing",
+        "sweet_corn.sowing_and_planting.row_spacing",
+        "sweet_corn.sowing_and_planting.seeds_per_station",
+        "sweet_corn.sowing_and_planting.notes"
+      ],
+      "status": "generated",
+      "approval": "new draft; not yet reviewed by user",
+      "attempts": 1,
+      "file": "drafts/2026-09-15/sweet_corn/03-make-block-v1.png",
+      "original": "/Users/johnlennon/.codex/generated_images/01a0a1a6-e9a1-7142-93c1-f53aed65e55d/exec-31f47dad-9f7a-4790-868d-4e0d41dae40a.png",
+      "qa": "Preferred v4 visually counted: five short rows of four young plants (20), satisfying at least four-row block brief. v1/v2/v3 retained three horizontal rows; not selected. Exact block dimensions/spacing remain code labels.",
+      "preferredFile": "drafts/2026-09-15/sweet_corn/03-make-block-v4.png"
+    }
+  ],
+  "finalQA": "2026-09-16: full-size and 24mm-slot visual review, 1774x887 true alpha, complete catalogue/source binding verification passed. No production PDF implementation."
+}

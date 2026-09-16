@@ -31,6 +31,7 @@ import * as path from "node:path";
 const VIEWPORT = { width: 688, height: 979 } as const;
 
 type PaperSize = "A4" | "A5" | "A6";
+export class PrintContentError extends Error {}
 
 // A-series sizes step down by 1/√2 per size, so the A4-designed layout maps
 // faithfully onto A5/A6 by scaling both the render and the margins by the same
@@ -57,7 +58,7 @@ function pdfOptions(paper: PaperSize) {
 }
 
 /** Render a single /print/* URL to a PDF buffer. */
-async function renderPdf(
+export async function renderPdf(
     page: Page,
     baseUrl: string,
     type: "vegetable" | "trouble",
@@ -69,9 +70,11 @@ async function renderPdf(
     await page.goto(printUrl, { waitUntil: "networkidle" });
     // Wait for React's intro-text measurement loop to complete
     await page.waitForFunction(
-        () => (document.body as HTMLBodyElement).dataset.printReady === "true",
-        { timeout: 8000 },
+        () => document.body.dataset.printReady === "true" || !!document.body.dataset.printError,
+        undefined, { timeout: 15000 },
     );
+    const printError=await page.evaluate(()=>document.body.dataset.printError);
+    if(printError)throw new PrintContentError(printError);
     return await page.pdf(pdfOptions(paper));
 }
 
@@ -177,12 +180,12 @@ export function pdfPlugin(): Plugin {
                     } catch (err) {
                         if (browser) await browser.close().catch(() => {});
                         console.error("[pdf-gen]", err);
-                        res.writeHead(500, {
+                        res.writeHead(err instanceof PrintContentError ? 422 : 500, {
                             "Content-Type": "application/json",
                         });
                         res.end(
                             JSON.stringify({
-                                error: "PDF generation failed — make sure Playwright Chromium is installed (npx playwright install chromium)",
+                                error: err instanceof PrintContentError ? err.message : "PDF generation failed — make sure Playwright Chromium is installed (npx playwright install chromium)",
                                 detail: String(err),
                             }),
                         );

@@ -62,6 +62,20 @@ export const SowingAndPlantingSchema = z.looseObject({
     planting: z.looseObject({}).nullable().optional(),
 });
 
+const PlantingSourcePath = z.string().regex(/^(sowing_and_planting|looking_after_the_crop)\.[a-zA-Z0-9_.]+$/);
+const PlantingPrintTextSchema = z.looseObject({
+    id:z.string().regex(/^[a-z][a-z0-9_-]*$/),
+    text:z.string().trim().min(1),
+    source_paths:z.array(PlantingSourcePath).min(1),
+});
+export const PlantingPrintContentSchema = z.looseObject({
+    version:z.literal(1),
+    steps:z.array(PlantingPrintTextSchema.extend({title:z.string().trim().min(1),compact_text:z.string().trim().min(1).optional()})).min(1).max(4),
+    supplementary:z.array(PlantingPrintTextSchema),
+    optional_note_paths:z.array(PlantingSourcePath),
+    reviewed_source:z.string().regex(/^fnv1a64:[0-9a-f]{16}$/),
+}).refine(c => new Set(c.steps.map(s=>s.id)).size === c.steps.length, {message:'Planting step IDs must be unique'});
+
 export const InTheKitchenSchema = z.looseObject({
     overview: RankedTextSchema.nullable().optional(),
     storage: RankedTextSchema.nullable().optional(),
@@ -189,6 +203,7 @@ export const VegetableSchema = z.looseObject({
     seed_and_growing_facts: SeedAndGrowingFactsSchema.nullable().optional(),
     soil_facts: z.array(RankedTextSchema).nullable().optional(),
     sowing_and_planting: SowingAndPlantingSchema.nullable().optional(),
+    print_planting: PlantingPrintContentSchema.nullable().optional(),
     looking_after_the_crop: z.array(RankedTextSchema).nullable().optional(),
     harvesting: z.array(RankedTextSchema).nullable().optional(),
     in_the_kitchen: InTheKitchenSchema.nullable().optional(),

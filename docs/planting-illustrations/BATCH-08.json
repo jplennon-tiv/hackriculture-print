@@ -1,0 +1,225 @@
+{
+  "date": "2026-09-15",
+  "status": "complete draft generation; awaiting user review, not installed",
+  "mode": "built-in image_gen; one call per new scene, compatible tomato-pot reuse",
+  "sourceSha256": "0e8f591e50e8d6794ef8902ac52b391d378006b2ae5703f9cec31fe15dba1df4",
+  "styleReferences": [
+    "references/concept-2.png",
+    "drafts/2026-09-15/carrot/01-sow-thinly-v1.png"
+  ],
+  "commonPrompt": "Use case: scientific-educational. Asset: ONE compact teaching vignette for printed vegetable Sowing & Planting instructions, legible at 36–48 mm width. Image 1 is Concept 2 STYLE REFERENCE ONLY; ignore all its text, measurements, mature crops and page layout. Image 2 is the approved CARROT ART STYLE ANCHOR: match its warm chocolate fine ink, pale sandy-tan soil stipple, soft muted watercolour, natural skin tone and economical botanical detail. Generate a NEW crop action, NOT another carrot. Wide 2:1 canvas, target 1536x768. GENUINELY TRANSPARENT alpha background, no paper, no background rectangle. One scene, meaningful artwork centred within 7% safe margins. Restrained greens, light soil, generous blank space. No text, numbers, arrows, badges, border, watermark, dimension marks or mature crop portrait. Anatomy and physical planting action must be coherent; roots connected to stems. All exact dimensions will be added separately from live source. Do not over-enlarge hands or tiny seeds.",
+  "jobs": [
+    {
+      "crop": "celery",
+      "id": "01-raise-seedlings-v1",
+      "title": "Raise seedlings",
+      "scene": "Two tiny young celery seedlings in two small module cells of moist fine compost. Thin upright green petioles and small lobed leaflets, not mature celery bunches. Nursery stage ONLY, no bed, no buried-seed diagram. Caption will explain surface sowing and growing on.",
+      "alt": "celery: raise seedlings.",
+      "sourcePaths": [
+        "celery.sowing_and_planting.method",
+        "celery.sowing_and_planting.sowing_depth",
+        "celery.sowing_and_planting.planting_depth",
+        "celery.sowing_and_planting.plant_spacing",
+        "celery.sowing_and_planting.row_spacing",
+        "celery.sowing_and_planting.trench_or_ridge_depth",
+        "celery.sowing_and_planting.notes"
+      ],
+      "status": "generated",
+      "approval": "new draft; not yet reviewed by user",
+      "attempts": 1,
+      "file": "drafts/2026-09-15/celery/01-raise-seedlings-v1.png",
+      "original": "/Users/johnlennon/.codex/generated_images/01a0a1a6-e9a1-7142-93c1-f53aed65e55d/exec-6eb00013-42d9-435c-b610-1e8e72659671.png",
+      "qa": "Full-size visual review passed; young crop/action coherent, no baked labels. Genuine alpha, 1774x887 and small-slot visual review passed."
+    },
+    {
+      "crop": "celery",
+      "id": "02-plant-at-module-level-v1",
+      "title": "Plant a block",
+      "scene": "ONE young celery seedling settled at original module level in a level bed, fine roots contained in intact plug in soil cutaway. Petiole bases/crown at surface not buried. Hand gently firms to side. No trench, no mature white celery stems; this is self-blanching/green block route; block spacing diagram added separately in code.",
+      "alt": "celery: plant a block.",
+      "sourcePaths": [
+        "celery.sowing_and_planting.method",
+        "celery.sowing_and_planting.sowing_depth",
+        "celery.sowing_and_planting.planting_depth",
+        "celery.sowing_and_planting.plant_spacing",
+        "celery.sowing_and_planting.row_spacing",
+        "celery.sowing_and_planting.trench_or_ridge_depth",
+        "celery.sowing_and_planting.notes"
+      ],
+      "status": "generated",
+      "approval": "new draft; not yet reviewed by user",
+      "attempts": 1,
+      "file": "drafts/2026-09-15/celery/02-plant-at-module-level-v1.png",
+      "original": "/Users/johnlennon/.codex/generated_images/01a0a1a6-e9a1-7142-93c1-f53aed65e55d/exec-d424225b-c623-4c93-9b3d-2c45cbbe0e63.png",
+      "qa": "Full-size visual review passed; young crop/action coherent, no baked labels. Genuine alpha, 1774x887 and small-slot visual review passed."
+    },
+    {
+      "crop": "capsicum",
+      "id": "01-raise-warm-v1",
+      "title": "Raise warm",
+      "scene": "One young healthy pepper plant in modest small terracotta pot. Smooth pointed green leaves on upright branched stem, juvenile, NO peppers, flowers, stakes or greenhouse background. Single growing-on stage.",
+      "alt": "capsicum: raise warm.",
+      "sourcePaths": [
+        "capsicum.sowing_and_planting.method",
+        "capsicum.sowing_and_planting.sowing_depth",
+        "capsicum.sowing_and_planting.planting_depth",
+        "capsicum.sowing_and_planting.plant_spacing",
+        "capsicum.sowing_and_planting.row_spacing",
+        "capsicum.sowing_and_planting.notes"
+      ],
+      "status": "generated",
+      "approval": "new draft; not yet reviewed by user",
+      "attempts": 1,
+      "file": "drafts/2026-09-15/capsicum/01-raise-warm-v1.png",
+      "original": "/Users/johnlennon/.codex/generated_images/01a0a1a6-e9a1-7142-93c1-f53aed65e55d/exec-f8073f94-6ec7-4acb-9dae-6d4c480b0c5e.png",
+      "qa": "Full-size visual review passed; young crop/action coherent, no baked labels. Genuine alpha, 1774x887 and small-slot visual review passed."
+    },
+    {
+      "crop": "capsicum",
+      "id": "02-set-final-plant-v1",
+      "title": "Set final plant",
+      "scene": "Young pepper transplant with smooth pointed green leaves and intact rootball being lowered into a bed hole. Hand cradles soil plug, roots undisturbed; a little lower stem will be settled into soil when completed. IN-PROGRESS planting scene, not a definitive numerical depth diagram. No flowers/fruits, no tray or mature plants.",
+      "alt": "capsicum: set final plant.",
+      "sourcePaths": [
+        "capsicum.sowing_and_planting.method",
+        "capsicum.sowing_and_planting.sowing_depth",
+        "capsicum.sowing_and_planting.planting_depth",
+        "capsicum.sowing_and_planting.plant_spacing",
+        "capsicum.sowing_and_planting.row_spacing",
+        "capsicum.sowing_and_planting.notes"
+      ],
+      "status": "generated",
+      "approval": "new draft; not yet reviewed by user",
+      "attempts": 1,
+      "file": "drafts/2026-09-15/capsicum/02-set-final-plant-v1.png",
+      "original": "/Users/johnlennon/.codex/generated_images/01a0a1a6-e9a1-7142-93c1-f53aed65e55d/exec-3dfea64e-420c-40c6-88e0-a249ab148b5a.png",
+      "qa": "Full-size visual review passed; young crop/action coherent, no baked labels. Genuine alpha, 1774x887 and small-slot visual review passed."
+    },
+    {
+      "crop": "tomato_greenhouse",
+      "id": "01-grow-on-in-pot-v1",
+      "title": "Grow on in a pot",
+      "scene": "One young stout tomato plant in simple terracotta nursery pot. Recognisable compound divided serrated green tomato leaves and slightly hairy sturdy stem. No fruit, no mature sprawling vine, no greenhouse or outdoor background, no hand. Shared growing-on/hardening-stage picture.",
+      "alt": "tomato greenhouse: grow on in a pot.",
+      "sourcePaths": [
+        "tomato_greenhouse.sowing_and_planting.method",
+        "tomato_greenhouse.sowing_and_planting.potting_on",
+        "tomato_greenhouse.sowing_and_planting.greenhouse_planting",
+        "tomato_greenhouse.sowing_and_planting.planting_out",
+        "tomato_greenhouse.sowing_and_planting.supporting",
+        "tomato_greenhouse.sowing_and_planting.temperature",
+        "tomato_greenhouse.sowing_and_planting.book3_seed_raising",
+        "tomato_greenhouse.sowing_and_planting.early_heated_greenhouse_sowing"
+      ],
+      "status": "generated",
+      "approval": "new draft; not yet reviewed by user",
+      "attempts": 1,
+      "file": "drafts/2026-09-15/tomato_greenhouse/01-grow-on-in-pot-v1.png",
+      "original": "/Users/johnlennon/.codex/generated_images/01a0a1a6-e9a1-7142-93c1-f53aed65e55d/exec-4e66e528-c59a-4b00-82aa-69846d7434b9.png",
+      "qa": "Full-size visual review passed; young crop/action coherent, no baked labels. Genuine alpha, 1774x887 and small-slot visual review passed."
+    },
+    {
+      "crop": "tomato_greenhouse",
+      "id": "02-plant-and-support-v1",
+      "title": "Plant and support",
+      "scene": "One young tomato plant planted in light soil cutaway with top of intact former pot rootball just below soil surface, lower bare stem partly buried, all leaves above ground. Sturdy slender brown support cane beside stem, ONE loose figure-eight soft tie around stem and cane, visibly not tight. Support top neatly finished within canvas; no greenhouse interior needed. Compound serrated leaves, no fruit.",
+      "alt": "tomato greenhouse: plant and support.",
+      "sourcePaths": [
+        "tomato_greenhouse.sowing_and_planting.method",
+        "tomato_greenhouse.sowing_and_planting.potting_on",
+        "tomato_greenhouse.sowing_and_planting.greenhouse_planting",
+        "tomato_greenhouse.sowing_and_planting.planting_out",
+        "tomato_greenhouse.sowing_and_planting.supporting",
+        "tomato_greenhouse.sowing_and_planting.temperature",
+        "tomato_greenhouse.sowing_and_planting.book3_seed_raising",
+        "tomato_greenhouse.sowing_and_planting.early_heated_greenhouse_sowing"
+      ],
+      "status": "generated",
+      "approval": "new draft; not yet reviewed by user",
+      "attempts": 2,
+      "file": "drafts/2026-09-15/tomato_greenhouse/02-plant-and-support-v1.png",
+      "previousErrors": [
+        "image generation failed: http 429 Too Many Requests: Some(\"{\\\"error\\\":{\\\"type\\\":\\\"usage_limit_reached\\\",\\\"message\\\":\\\"The usage limit has been reached\\\",\\\"plan_type\\\":\\\"plus\\\",\\\"resets_at\\\":1789526303,\\\"eligible_promo\\\":null,\\\"resets_in_seconds\\\":15559}}\")"
+      ],
+      "original": "/Users/johnlennon/.codex/generated_images/01a0a1a6-e9a1-7142-93c1-f53aed65e55d/exec-f18cb795-afd6-4b4f-84aa-c837362d92fe.png",
+      "generatedDate": "2026-09-16",
+      "qa": "Full-size visual review passed; young crop/action coherent, no baked labels. Genuine alpha, 1774x887 and small-slot visual review passed."
+    },
+    {
+      "crop": "tomato_outdoor",
+      "id": "02-plant-beside-support-v1",
+      "title": "Plant beside support",
+      "scene": "One sturdy young outdoor tomato plant settled deeper in prepared soil: intact rootball fully below soil surface, modest bare lower stem below soil, all leaves above. Brown cane next to plant, single LOOSE figure-eight soft tie, roots connected within rootball. Slightly different hand-firming action to greenhouse scene, only one plant, no fruits/background. Entire cane top visible within safe margin.",
+      "alt": "tomato outdoor: plant beside support.",
+      "sourcePaths": [
+        "tomato_outdoor.sowing_and_planting.method",
+        "tomato_outdoor.sowing_and_planting.seed_raising",
+        "tomato_outdoor.sowing_and_planting.planting_out",
+        "tomato_outdoor.sowing_and_planting.plant_spacing",
+        "tomato_outdoor.sowing_and_planting.cordon_support",
+        "tomato_outdoor.sowing_and_planting.outdoor_tall_support",
+        "tomato_outdoor.sowing_and_planting.bush_tomato_planting"
+      ],
+      "status": "generated",
+      "approval": "new draft; not yet reviewed by user",
+      "attempts": 1,
+      "file": "drafts/2026-09-15/tomato_outdoor/02-plant-beside-support-v1.png",
+      "original": "/Users/johnlennon/.codex/generated_images/01a0a1a6-e9a1-7142-93c1-f53aed65e55d/exec-a96abfa7-65fe-40d8-b7e3-01b9c07811f0.png",
+      "generatedDate": "2026-09-16",
+      "qa": "Full-size visual review passed; young crop/action coherent, no baked labels. Genuine alpha, 1774x887 and small-slot visual review passed."
+    },
+    {
+      "crop": "mushroom",
+      "id": "01-spawned-compost-v1",
+      "title": "Start with spawned compost",
+      "scene": "A plain shallow wooden cultivation box containing supplied dark brown spawned compost, small front-side cutaway reveals fine WHITE FUNGAL THREADS within compost. No vegetable roots, seeds, green seedlings or wild mushrooms. Modest simple compost texture, no dense scary mould patches. No extra casing layer being poured. One quiet container-only teaching vignette, no hands.",
+      "alt": "mushroom: start with spawned compost.",
+      "sourcePaths": [
+        "mushroom.looking_after_the_crop",
+        "mushroom.soil_facts"
+      ],
+      "status": "generated",
+      "approval": "new draft; not yet reviewed by user",
+      "attempts": 1,
+      "file": "drafts/2026-09-15/mushroom/01-spawned-compost-v1.png",
+      "conditional": true,
+      "installationNote": "Optional cultivation card only if supplier-stage context and page budget permit; text-only remains safe fallback.",
+      "original": "/Users/johnlennon/.codex/generated_images/01a0a1a6-e9a1-7142-93c1-f53aed65e55d/exec-f3a5f939-218f-41dc-a6b7-828ac368583e.png",
+      "generatedDate": "2026-09-16",
+      "qa": "Full-size visual review passed; young crop/action coherent, no baked labels. Genuine alpha, 1774x887 and small-slot visual review passed."
+    },
+    {
+      "crop": "mushroom",
+      "id": "02-maintain-moisture-v1",
+      "title": "Maintain suitable moisture",
+      "scene": "Same plain shallow wooden mushroom cultivation box filled with supplied compost, a small hand-held water mister directs a fine light spray over its existing damp surface. No new layer being added, no flooding, puddles, watering can deluge, vegetable plants, seeds or roots. Product-stage conditional illustration; no claim every kit needs immediate watering. No mushrooms required. Fine economical lines, one compact action.",
+      "alt": "mushroom: maintain suitable moisture.",
+      "sourcePaths": [
+        "mushroom.looking_after_the_crop",
+        "mushroom.soil_facts"
+      ],
+      "status": "generated",
+      "approval": "new draft; not yet reviewed by user",
+      "attempts": 1,
+      "file": "drafts/2026-09-15/mushroom/02-maintain-moisture-v1.png",
+      "conditional": true,
+      "installationNote": "Optional cultivation card only if supplier-stage context and page budget permit; text-only remains safe fallback.",
+      "original": "/Users/johnlennon/.codex/generated_images/01a0a1a6-e9a1-7142-93c1-f53aed65e55d/exec-6f19b193-f467-40ed-b0b8-128a4f2a47d9.png",
+      "generatedDate": "2026-09-16",
+      "qa": "Full-size visual review passed; young crop/action coherent, no baked labels. Genuine alpha, 1774x887 and small-slot visual review passed."
+    }
+  ],
+  "reuse": [
+    {
+      "crop": "tomato_outdoor",
+      "stage": 1,
+      "file": "drafts/2026-09-15/tomato_greenhouse/01-grow-on-in-pot-v1.png",
+      "reason": "Same young tomato pot stage; hardening and temperature conditions remain route-specific captions.",
+      "sourcePaths": [
+        "tomato_outdoor.sowing_and_planting.seed_raising"
+      ]
+    }
+  ],
+  "resumed": "2026-09-16",
+  "finalQA": "2026-09-16: full-size and 24mm-slot visual review, 1774x887 true alpha, complete catalogue/source binding verification passed. No production PDF implementation."
+}

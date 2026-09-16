@@ -36,11 +36,16 @@ it("admin saves and image mutations use shared data and preserve each previous v
         expect(data.vegetables.carrot.name).toBe("Carrot");
         expect((await post("/save", { vegetables: {}, password: "wrong" })).status).toBe(401);
         expect((await post("/save", { vegetables: [] })).status).toBe(400);
+        const invalidPrint=structuredClone(data);
+        invalidPrint.vegetables.carrot.print_planting.steps[0].text='';
+        expect((await post('/save',invalidPrint)).status).toBe(400);
         expect(readFileSync(join(shared, "vegetables.json"), "utf8")).toBe(original);
         expect(existsSync(join(shared, "backups"))).toBe(false);
         data.vegetables.carrot.metadata.shared_data_test = "round one";
         expect((await post("/save", data)).status).toBe(200);
         const first = readFileSync(join(shared, "vegetables.json"), "utf8");
+        expect(JSON.parse(first).carrot.print_planting).toEqual(data.vegetables.carrot.print_planting);
+        expect(JSON.parse(first).carrot.sowing_and_planting).toEqual(data.vegetables.carrot.sowing_and_planting);
         data.vegetables.carrot.metadata.shared_data_test = "round two";
         expect((await post("/save", data)).status).toBe(200);
         const backups = join(shared, "backups/admin");

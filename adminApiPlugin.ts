@@ -2,7 +2,7 @@ import type { Plugin } from "vite";
 import fs from "node:fs";
 import path from "node:path";
 import type { IncomingMessage, ServerResponse } from "node:http";
-import { GardeningDataSchema, TroublesDataSchema } from "./src/schema";
+import { GardeningDataSchema, TroublesDataSchema, PlantingPrintContentSchema } from "./src/schema";
 
 // ── Integrity validators ───────────────────────────────────────────────────────
 
@@ -85,6 +85,10 @@ function validateVegetables(data: unknown): string[] {
         }
         // Notes inside sowing_and_planting (including nested sub-routes)
         const sp = v.sowing_and_planting as Record<string, unknown> | null;
+        if (v.print_planting != null) {
+            const print = PlantingPrintContentSchema.safeParse(v.print_planting);
+            if (!print.success) errors.push(`${key}.print_planting: invalid illustrated print content`);
+        }
         if (sp?.notes)
             checkRankedArray(
                 sp.notes,

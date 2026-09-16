@@ -1,0 +1,181 @@
+{
+  "date": "2026-09-15",
+  "status": "generated; seven scenes saved; awaiting user approval; not installed",
+  "mode": "built-in image_gen; one call per scene",
+  "styleReference": "references/concept-2.png",
+  "commonPrompt": "Use case: scientific-educational. Asset: one production teaching vignette for a compact printed gardening card, usable at 55–60 mm width. Image 1 is STYLE REFERENCE ONLY: use the small action vignettes from the approved Concept 2 board, not its text, full-page layout, mature crop portraits or measurements. Warm chocolate-brown precise ink outlines, restrained botanical greens, light sandy-tan soil with sparse stipple, light natural watercolour shading, calm generous negative space. Create ONE single action, not a sheet of panels. Wide landscape approximately 2:1 canvas (target 1536 x 768), meaningful artwork centred inside 7% safe margins. Genuinely transparent background with alpha, no paper texture outside the illustrated soil. Realistic plant anatomy but simple readable shapes. No text, numbers, labels, arrows, badges, border, watermark, captions or measurement marks. Small details must remain legible in print. Do not depict mature harvested vegetables unless the planting material itself is a tuber or crown.",
+  "jobs": [
+    {
+      "crop": "carrot",
+      "id": "01-sow-thinly-v1",
+      "title": "Sow thinly",
+      "scene": "Side-on with a slight view into a single shallow soil drill. A small natural hand gently releases a few TINY elongated ridged brown carrot seeds spaced thinly along the drill base. Seeds must not resemble orange spheres, beans or carrot roots. Light soil cutaway with level ground shoulders. No seedlings yet. One sparse action, compact composition.",
+      "alt": "Fingertips sow tiny carrot seeds thinly in a shallow drill.",
+      "sourcePaths": [
+        "carrot.sowing_and_planting.method",
+        "carrot.sowing_and_planting.sowing_depth"
+      ],
+      "status": "generated",
+      "approval": "approved-in-principle",
+      "attempts": 1,
+      "file": "drafts/2026-09-15/carrot/01-sow-thinly-v1.png",
+      "original": "/Users/johnlennon/.codex/generated_images/01a0a1a6-e9a1-7142-93c1-f53aed65e55d/exec-270bbd83-ec29-4add-b067-ce5857adf696.png",
+      "qa": "Candidate: single intended action; no embedded text or measurements; visually checked at full size and in a 24 mm-high slot on cream. No clipping of essential plant anatomy. User approval and final PDF labels/layout remain pending.",
+      "technical": {
+        "width": 1774,
+        "height": 887,
+        "hasAlpha": true,
+        "isOpaque": false
+      },
+      "annotationAnchors": "Defer until user approves this asset version; keep dimensions/spacing in code."
+    },
+    {
+      "crop": "carrot",
+      "id": "02-cover-lightly-v1",
+      "title": "Cover lightly",
+      "scene": "Strict side-on soil cutaway: five tiny elongated brown carrot seeds in one horizontal line just below a level finished soil surface, covered by a thin uniform layer of fine crumbly soil. Seed cover clearly shallow, not a deep trench. No hand, shoots or roots yet. Leave clean space at the right of the seed layer for a future code-drawn depth arrow; do not draw the arrow. No orange round seeds.",
+      "alt": "Carrot seeds covered by a shallow layer of fine soil.",
+      "sourcePaths": [
+        "carrot.sowing_and_planting.sowing_depth"
+      ],
+      "status": "generated",
+      "approval": "approved-in-principle",
+      "attempts": 1,
+      "file": "drafts/2026-09-15/carrot/02-cover-lightly-v1.png",
+      "original": "/Users/johnlennon/.codex/generated_images/01a0a1a6-e9a1-7142-93c1-f53aed65e55d/exec-472aab76-da27-4464-b260-e7ff78b5b03e.png",
+      "qa": "Candidate: single intended action; no embedded text or measurements; visually checked at full size and in a 24 mm-high slot on cream. No clipping of essential plant anatomy. User approval and final PDF labels/layout remain pending.",
+      "technical": {
+        "width": 1774,
+        "height": 887,
+        "hasAlpha": true,
+        "isOpaque": false
+      },
+      "annotationAnchors": "Defer until user approves this asset version; keep dimensions/spacing in code."
+    },
+    {
+      "crop": "carrot",
+      "id": "03-thin-later-v1",
+      "title": "Thin later",
+      "scene": "Side-on soil cutaway with TWO retained very young carrot seedlings spaced clearly apart: each has delicate green early feathery true leaves and a thin pale taproot with fine laterals, NOT a mature orange storage root. Between them a small hand gently lifts ONE unwanted smaller seedling by its leaves; show its tiny pale root emerging without disturbing the two retained seedlings. Three seedlings total, one being removed. Leave clear horizontal negative space between retained stems for a future spacing label, but draw no label or arrow.",
+      "alt": "A small unwanted carrot seedling is removed between two retained plants.",
+      "sourcePaths": [
+        "carrot.sowing_and_planting.plant_spacing",
+        "carrot.sowing_and_planting.notes"
+      ],
+      "status": "generated",
+      "approval": "approved-in-principle",
+      "attempts": 1,
+      "file": "drafts/2026-09-15/carrot/03-thin-later-v1.png",
+      "original": "/Users/johnlennon/.codex/generated_images/01a0a1a6-e9a1-7142-93c1-f53aed65e55d/exec-a3918e31-ccb5-4c58-89cd-197f1aeee55a.png",
+      "qa": "Candidate: single intended action; no embedded text or measurements; visually checked at full size and in a 24 mm-high slot on cream. No clipping of essential plant anatomy. User approval and final PDF labels/layout remain pending.",
+      "technical": {
+        "width": 1774,
+        "height": 887,
+        "hasAlpha": true,
+        "isOpaque": false
+      },
+      "annotationAnchors": "Defer until user approves this asset version; keep dimensions/spacing in code."
+    },
+    {
+      "crop": "potato",
+      "id": "01-sprouts-up-v1",
+      "title": "Sprouts upwards",
+      "scene": "Side-on cutaway of an OPEN planting trench with flat original ground shoulders on both sides. One tan seed-potato tuber rests firmly on the flat trench base, short sturdy purple-green sprouts facing UP. Tuber is well below original ground, with room between its top and the original ground surface. Soil base connects with trench walls. No hand, flowers, roots or foliage. Leave space near one wall for a later vertical trench-depth arrow from original ground surface down to trench floor. Do not draw arrows or numbers. It is trench depth, not depth of cover.",
+      "alt": "A seed potato rests at the base of an open trench with sprouts pointing up.",
+      "sourcePaths": [
+        "potato.sowing_and_planting.method",
+        "potato.sowing_and_planting.sowing_depth"
+      ],
+      "status": "generated",
+      "approval": "approved-in-principle",
+      "attempts": 1,
+      "file": "drafts/2026-09-15/potato/01-sprouts-up-v1.png",
+      "original": "/Users/johnlennon/.codex/generated_images/01a0a1a6-e9a1-7142-93c1-f53aed65e55d/exec-e618cfd9-1b23-453b-96e9-ae96fd6c25a1.png",
+      "qa": "Candidate: single intended action; no embedded text or measurements; visually checked at full size and in a 24 mm-high slot on cream. No clipping of essential plant anatomy. User approval and final PDF labels/layout remain pending.",
+      "technical": {
+        "width": 1774,
+        "height": 887,
+        "hasAlpha": true,
+        "isOpaque": false
+      },
+      "annotationAnchors": "Defer until user approves this asset version; keep dimensions/spacing in code."
+    },
+    {
+      "crop": "potato",
+      "id": "02-cover-gently-v1",
+      "title": "Cover gently",
+      "scene": "Strict side-on soil cutaway showing the same single tan seed-potato tuber with short stout purple-green sprouts, now completely covered by fine soil and an approximately level finished ground surface. All sprouts remain intact under the soil, no green leaves, no mature roots or new tubers. A small trowel at one side draws the last loose soil gently over the trench without touching the sprouts. Restrained sparse stipple. No numeric cover claim, no arrows.",
+      "alt": "Fine soil is drawn gently over a seed potato without damaging its sprouts.",
+      "sourcePaths": [
+        "potato.sowing_and_planting.method",
+        "potato.sowing_and_planting.image_notes"
+      ],
+      "status": "generated",
+      "approval": "approved-in-principle",
+      "attempts": 1,
+      "file": "drafts/2026-09-15/potato/02-cover-gently-v1.png",
+      "original": "/Users/johnlennon/.codex/generated_images/01a0a1a6-e9a1-7142-93c1-f53aed65e55d/exec-3d9a1e97-a022-4363-9c25-619d3fc3be46.png",
+      "qa": "Candidate: single intended action; no embedded text or measurements; visually checked at full size and in a 24 mm-high slot on cream. No clipping of essential plant anatomy. User approval and final PDF labels/layout remain pending.",
+      "technical": {
+        "width": 1774,
+        "height": 887,
+        "hasAlpha": true,
+        "isOpaque": false
+      },
+      "annotationAnchors": "Defer until user approves this asset version; keep dimensions/spacing in code."
+    },
+    {
+      "crop": "rhubarb",
+      "id": "01-set-crown-v1",
+      "title": "Set the crown",
+      "scene": "Side-on cutaway of one dormant rhubarb crown division being positioned in an open planting hole. Show a stout brown connected crown with several small pointed reddish-pink buds facing upward and thick tapering roots radiating naturally down into the hole. Root ends not cut off by canvas. Buds sit just ABOVE the level of surrounding original ground shoulders; no mature leaf stalks or foliage, no asparagus spaghetti roots. A small hand holds the crown gently from the side without hiding buds. Roots contained within the planting hole, not floating.",
+      "alt": "A dormant rhubarb crown is set into a hole with buds above soil level.",
+      "sourcePaths": [
+        "rhubarb.sowing_and_planting.planting.method"
+      ],
+      "status": "generated",
+      "approval": "approved-in-principle",
+      "attempts": 1,
+      "file": "drafts/2026-09-15/rhubarb/01-set-crown-v1.png",
+      "original": "/Users/johnlennon/.codex/generated_images/01a0a1a6-e9a1-7142-93c1-f53aed65e55d/exec-72e78b29-136b-47dd-926f-40d4e312f0f9.png",
+      "qa": "Candidate: single intended action; no embedded text or measurements; visually checked at full size and in a 24 mm-high slot on cream. No clipping of essential plant anatomy. User approval and final PDF labels/layout remain pending.",
+      "technical": {
+        "width": 1774,
+        "height": 887,
+        "hasAlpha": true,
+        "isOpaque": false
+      },
+      "annotationAnchors": "Defer until user approves this asset version; keep dimensions/spacing in code."
+    },
+    {
+      "crop": "rhubarb",
+      "id": "02-firm-and-water-v1",
+      "title": "Firm and water",
+      "scene": "Side-on finished soil cutaway of one rhubarb crown, substantial connected roots below soil, several small red pointed buds visibly JUST ABOVE finished soil level. Soil firmly encloses all roots, crown top not buried. A small green watering-can rose at upper side directs a few fine droplets onto surrounding soil, not a flood over buds. No hand needed, no mature stalks or large leaves. One compact instructional composition, careful anatomical soil boundary.",
+      "alt": "The soil is firmed and watered around a rhubarb crown, keeping buds exposed.",
+      "sourcePaths": [
+        "rhubarb.sowing_and_planting.planting.method",
+        "rhubarb.sowing_and_planting.planting.notes"
+      ],
+      "status": "generated",
+      "approval": "approved-in-principle",
+      "attempts": 1,
+      "file": "drafts/2026-09-15/rhubarb/02-firm-and-water-v1.png",
+      "original": "/Users/johnlennon/.codex/generated_images/01a0a1a6-e9a1-7142-93c1-f53aed65e55d/exec-1fd1ef6c-4491-41b6-9757-d5e3ff94cd41.png",
+      "qa": "Candidate: single intended action; no embedded text or measurements; visually checked at full size and in a 24 mm-high slot on cream. No clipping of essential plant anatomy. User approval and final PDF labels/layout remain pending.",
+      "technical": {
+        "width": 1774,
+        "height": 887,
+        "hasAlpha": true,
+        "isOpaque": false
+      },
+      "annotationAnchors": "Defer until user approves this asset version; keep dimensions/spacing in code."
+    }
+  ],
+  "sourceSha256": "a779fac8dc5b068e0a5a8a81b98e3b9bed4a889505866f977c2eb16fb88e6e3b",
+  "sourceReview": {
+    "currentSha256": "74988e736425837f0381ea9ed05f9a7fa5ba83ce77db96396817d3d645ab1864",
+    "note": "Since generation, potato method was reworded to avoid current renderer sentence truncation; intended action and trench measurement unchanged. All seven scenes remain consistent with current bindings."
+  },
+  "approvalNote": "John approved all original 14 scenes in principle on 15 September 2026; beetroot seed refinement authorised. Production integration and fit QA still pending."
+}

@@ -1,3 +1,5 @@
+import type { PlantingPrintContent } from './lib/planting';
+
 export interface RankedText {
     text: string;
     rank: number;
@@ -182,6 +184,8 @@ export interface Vegetable {
     seed_and_growing_facts?: SeedAndGrowingFacts | null;
     soil_facts?: RankedText[] | null;
     sowing_and_planting?: SowingAndPlanting | null;
+    /** Additive print adaptation; detailed instructions remain authoritative. */
+    print_planting?: PlantingPrintContent | null;
     looking_after_the_crop?: RankedText[] | null;
     harvesting?: RankedText[] | null;
     in_the_kitchen?: InTheKitchen | null;

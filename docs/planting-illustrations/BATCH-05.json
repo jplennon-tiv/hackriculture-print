@@ -1,0 +1,335 @@
+{
+  "date": "2026-09-15",
+  "status": "complete draft generation; not installed",
+  "mode": "built-in image_gen; one call per scene",
+  "sourceSha256": "0e8f591e50e8d6794ef8902ac52b391d378006b2ae5703f9cec31fe15dba1df4",
+  "styleReferences": [
+    "references/concept-2.png",
+    "drafts/2026-09-15/carrot/01-sow-thinly-v1.png"
+  ],
+  "commonPrompt": "Use case: scientific-educational. Asset: ONE compact teaching vignette for printed vegetable Sowing & Planting instructions, legible at 36–48 mm width. Image 1 is Concept 2 STYLE REFERENCE ONLY; ignore all its text, measurements, mature crops and page layout. Image 2 is the approved CARROT ART STYLE ANCHOR: match its warm chocolate fine ink, pale sandy-tan soil stipple, soft muted watercolour, natural skin tone and economical botanical detail. Generate a NEW crop action, NOT another carrot. Wide 2:1 canvas, target 1536x768. GENUINELY TRANSPARENT alpha background, no paper, no background rectangle. One scene, meaningful artwork centred within 7% safe margins. Restrained greens, light soil, generous blank space. No text, numbers, arrows, badges, border, watermark, dimension marks or mature crop portrait. Anatomy and physical planting action must be coherent; roots connected to stems. All exact dimensions will be added separately from live source. Do not over-enlarge hands or tiny seeds.",
+  "jobs": [
+    {
+      "crop": "artichoke_globe",
+      "id": "01-position-offset-v1",
+      "title": "Position offset",
+      "scene": "Crop artichoke globe, stage 1 ONLY: a rooted young sucker beside a hole, its original soil mark identifiable. Anatomy and stage constraints: Rooted globe-artichoke OFFSET with young silvery grey-green jagged lobed leaves, tips modestly shortened; NO flower head or tuber. Crown unburied. Roots connected, original soil mark identifiable. Hand supports roots or firms soil. ONE scene, not a multi-panel sequence. Preserve all leaves/roots within canvas. Soil tan; roots pale; no text.",
+      "alt": "artichoke globe: position offset.",
+      "sourcePaths": [
+        "artichoke_globe.sowing_and_planting.planting.method",
+        "artichoke_globe.sowing_and_planting.planting.planting_depth",
+        "artichoke_globe.sowing_and_planting.planting.plant_spacing",
+        "artichoke_globe.sowing_and_planting.planting.row_spacing",
+        "artichoke_globe.sowing_and_planting.planting.notes",
+        "artichoke_globe.sowing_and_planting.seed_sowing"
+      ],
+      "status": "generated",
+      "approval": "new draft; not yet reviewed by user",
+      "attempts": 1,
+      "file": "drafts/2026-09-15/artichoke_globe/01-position-offset-v1.png",
+      "original": "/Users/johnlennon/.codex/generated_images/01a0a1a6-e9a1-7142-93c1-f53aed65e55d/exec-5c8884fd-efd5-483e-9197-3119fb3022d3.png",
+      "qa": "Full-size visual check and genuine alpha/1774x887 check passed; contact sheet generated.",
+      "dimensions": {
+        "width": 1774,
+        "height": 887
+      },
+      "hasTransparency": true
+    },
+    {
+      "crop": "artichoke_globe",
+      "id": "02-firm-at-the-same-level-v1",
+      "title": "Firm at the same level",
+      "scene": "Crop artichoke globe, stage 2 ONLY: roots enclosed, crown unburied; soil being pressed beside the plant. Avoid showing a seed or a 5 cm burial arrow. Anatomy and stage constraints: Rooted globe-artichoke OFFSET with young silvery grey-green jagged lobed leaves, tips modestly shortened; NO flower head or tuber. Crown unburied. Roots connected, original soil mark identifiable. Hand supports roots or firms soil. ONE scene, not a multi-panel sequence. Preserve all leaves/roots within canvas. Soil tan; roots pale; no text.",
+      "alt": "artichoke globe: firm at the same level.",
+      "sourcePaths": [
+        "artichoke_globe.sowing_and_planting.planting.method",
+        "artichoke_globe.sowing_and_planting.planting.planting_depth",
+        "artichoke_globe.sowing_and_planting.planting.plant_spacing",
+        "artichoke_globe.sowing_and_planting.planting.row_spacing",
+        "artichoke_globe.sowing_and_planting.planting.notes",
+        "artichoke_globe.sowing_and_planting.seed_sowing"
+      ],
+      "status": "generated",
+      "approval": "new draft; not yet reviewed by user",
+      "attempts": 1,
+      "file": "drafts/2026-09-15/artichoke_globe/02-firm-at-the-same-level-v1.png",
+      "original": "/Users/johnlennon/.codex/generated_images/01a0a1a6-e9a1-7142-93c1-f53aed65e55d/exec-1adda972-d37c-431e-9fda-ab58f9df3d45.png",
+      "qa": "Full-size visual check and genuine alpha/1774x887 check passed; contact sheet generated.",
+      "dimensions": {
+        "width": 1774,
+        "height": 887
+      },
+      "hasTransparency": true
+    },
+    {
+      "crop": "aubergine",
+      "id": "01-raise-warm-v1",
+      "title": "Raise warm",
+      "scene": "Crop aubergine, stage 1 ONLY: small seedling in a pot with an intact rootball; sowing/potting-on instructions in caption. Anatomy and stage constraints: Young aubergine with broad softly fuzzy oval leaves and subtle purple-green stem; no flowers or fruit. First scene: plain terracotta nursery pot. Second: hand supports intact rootball into soil. ONE scene, not a multi-panel sequence. Preserve all leaves/roots within canvas. Soil tan; roots pale; no text.",
+      "alt": "aubergine: raise warm.",
+      "sourcePaths": [
+        "aubergine.sowing_and_planting.method",
+        "aubergine.sowing_and_planting.sowing_depth",
+        "aubergine.sowing_and_planting.planting_depth",
+        "aubergine.sowing_and_planting.plant_spacing",
+        "aubergine.sowing_and_planting.row_spacing",
+        "aubergine.sowing_and_planting.notes"
+      ],
+      "status": "generated",
+      "approval": "new draft; not yet reviewed by user",
+      "attempts": 1,
+      "file": "drafts/2026-09-15/aubergine/01-raise-warm-v1.png",
+      "original": "/Users/johnlennon/.codex/generated_images/01a0a1a6-e9a1-7142-93c1-f53aed65e55d/exec-8a46229a-3aac-414f-8cb7-3f6766eb6d9e.png",
+      "qa": "Full-size visual check and genuine alpha/1774x887 check passed; contact sheet generated.",
+      "dimensions": {
+        "width": 1774,
+        "height": 887
+      },
+      "hasTransparency": true
+    },
+    {
+      "crop": "aubergine",
+      "id": "02-plant-out-v1",
+      "title": "Plant out",
+      "scene": "Crop aubergine, stage 2 ONLY: young aubergine set into the final bed with roots undisturbed. Anatomy and stage constraints: Young aubergine with broad softly fuzzy oval leaves and subtle purple-green stem; no flowers or fruit. First scene: plain terracotta nursery pot. Second: hand supports intact rootball into soil. ONE scene, not a multi-panel sequence. Preserve all leaves/roots within canvas. Soil tan; roots pale; no text.",
+      "alt": "aubergine: plant out.",
+      "sourcePaths": [
+        "aubergine.sowing_and_planting.method",
+        "aubergine.sowing_and_planting.sowing_depth",
+        "aubergine.sowing_and_planting.planting_depth",
+        "aubergine.sowing_and_planting.plant_spacing",
+        "aubergine.sowing_and_planting.row_spacing",
+        "aubergine.sowing_and_planting.notes"
+      ],
+      "status": "generated",
+      "approval": "new draft; not yet reviewed by user",
+      "attempts": 1,
+      "file": "drafts/2026-09-15/aubergine/02-plant-out-v1.png",
+      "original": "/Users/johnlennon/.codex/generated_images/01a0a1a6-e9a1-7142-93c1-f53aed65e55d/exec-98f9d11b-8c74-495f-8f08-ba38156bc0de.png",
+      "qa": "Full-size visual check and genuine alpha/1774x887 check passed; contact sheet generated.",
+      "dimensions": {
+        "width": 1774,
+        "height": 887
+      },
+      "hasTransparency": true
+    },
+    {
+      "crop": "broccoli",
+      "id": "01-raise-seedlings-v1",
+      "title": "Raise seedlings",
+      "scene": "Crop broccoli, stage 1 ONLY: compact nursery/module view. Anatomy and stage constraints: Very young sprouting broccoli, 3–4 broad grey-green mildly lobed leaves, NO florets. First nursery module. Second plant deeper, LOWEST LEAVES JUST ABOVE ground; firm soil, intact roots. ONE scene, not a multi-panel sequence. Preserve all leaves/roots within canvas. Soil tan; roots pale; no text.",
+      "alt": "broccoli: raise seedlings.",
+      "sourcePaths": [
+        "broccoli.sowing_and_planting.method",
+        "broccoli.sowing_and_planting.sowing_depth",
+        "broccoli.sowing_and_planting.planting_depth",
+        "broccoli.sowing_and_planting.plant_spacing",
+        "broccoli.sowing_and_planting.row_spacing",
+        "broccoli.sowing_and_planting.notes"
+      ],
+      "status": "generated",
+      "approval": "new draft; not yet reviewed by user",
+      "attempts": 1,
+      "file": "drafts/2026-09-15/broccoli/01-raise-seedlings-v1.png",
+      "original": "/Users/johnlennon/.codex/generated_images/01a0a1a6-e9a1-7142-93c1-f53aed65e55d/exec-9fcfe2e9-f059-4085-8324-50a8d11d420d.png",
+      "qa": "Full-size visual check and genuine alpha/1774x887 check passed; contact sheet generated.",
+      "dimensions": {
+        "width": 1774,
+        "height": 887
+      },
+      "hasTransparency": true,
+      "preferredFile": "drafts/2026-09-15/broccoli/01-raise-seedlings-v2.png"
+    },
+    {
+      "crop": "broccoli",
+      "id": "02-transplant-firmly-v1",
+      "title": "Transplant firmly",
+      "scene": "ONE planting-and-firming vignette: a young sprouting broccoli with 3–4 mildly lobed grey-green leaves; no florets transplant in side-on tan soil cutaway. Set deeper so LOWEST LEAVES JUST ABOVE FINISHED SOIL, no buried foliage; intact roots below. Small fingertips firm soil beside the plant. Soil continuous around roots, no unfilled open pit. No module tray or second plant. Keep complete root system and leaves inside canvas. No lettering, arrows or mature crop.",
+      "alt": "broccoli: transplant firmly.",
+      "sourcePaths": [
+        "broccoli.sowing_and_planting.method",
+        "broccoli.sowing_and_planting.sowing_depth",
+        "broccoli.sowing_and_planting.planting_depth",
+        "broccoli.sowing_and_planting.plant_spacing",
+        "broccoli.sowing_and_planting.row_spacing",
+        "broccoli.sowing_and_planting.notes"
+      ],
+      "status": "generated",
+      "approval": "new draft; not yet reviewed by user",
+      "attempts": 2,
+      "file": "drafts/2026-09-15/broccoli/02-transplant-firmly-v1.png",
+      "previousError": "image generation failed: http 429 Too Many Requests: Some(\"{\\\"error\\\":{\\\"type\\\":\\\"usage_limit_reached\\\",\\\"message\\\":\\\"The usage limit has been reached\\\",\\\"plan_type\\\":\\\"plus\\\",\\\"resets_at\\\":1789507862,\\\"eligible_promo\\\":null,\\\"resets_in_seconds\\\":15103}}\")",
+      "resumeNote": "User reports credits reset; one resumed attempt authorised.",
+      "original": "/Users/johnlennon/.codex/generated_images/01a0a1a6-e9a1-7142-93c1-f53aed65e55d/exec-a02121b5-d510-48e0-a81b-73a7e15860d3.png",
+      "qa": "Full-size visual check and genuine alpha/1774x887 check passed; contact sheet generated."
+    },
+    {
+      "crop": "brussels_sprouts",
+      "id": "01-raise-strong-plants-v1",
+      "title": "Raise strong plants",
+      "scene": "ONE nursery-only vignette: two young Brussels sprout with rounded blue-green leaves; no mature sprout stalk seedlings growing in a small plain two-cell module. The module holds compost and roots normally; no seedling lifted, no hand transplanting, no outdoor soil bed, no hole or second action. All leaves and module inside safe margins. No text, arrows or mature crop.",
+      "alt": "brussels sprouts: raise strong plants.",
+      "sourcePaths": [
+        "brussels_sprouts.sowing_and_planting.method",
+        "brussels_sprouts.sowing_and_planting.sowing_depth",
+        "brussels_sprouts.sowing_and_planting.planting_depth",
+        "brussels_sprouts.sowing_and_planting.plant_spacing",
+        "brussels_sprouts.sowing_and_planting.row_spacing",
+        "brussels_sprouts.sowing_and_planting.notes"
+      ],
+      "status": "generated",
+      "approval": "new draft; not yet reviewed by user",
+      "attempts": 1,
+      "file": "drafts/2026-09-15/brussels_sprouts/01-raise-strong-plants-v1.png",
+      "original": "/Users/johnlennon/.codex/generated_images/01a0a1a6-e9a1-7142-93c1-f53aed65e55d/exec-e4367fef-9da4-4cf3-828e-eca3b7d5645a.png",
+      "qa": "Full-size visual check and genuine alpha/1774x887 check passed; contact sheet generated."
+    },
+    {
+      "crop": "brussels_sprouts",
+      "id": "02-plant-firmly-v1",
+      "title": "Plant firmly",
+      "scene": "ONE planting-and-firming vignette: a young Brussels sprout with rounded blue-green leaves; no mature sprout stalk transplant in side-on tan soil cutaway. Set deeper so LOWEST LEAVES JUST ABOVE FINISHED SOIL, no buried foliage; intact roots below. Small fingertips firm soil beside the plant. Soil continuous around roots, no unfilled open pit. No module tray or second plant. Keep complete root system and leaves inside canvas. No lettering, arrows or mature crop.",
+      "alt": "brussels sprouts: plant firmly.",
+      "sourcePaths": [
+        "brussels_sprouts.sowing_and_planting.method",
+        "brussels_sprouts.sowing_and_planting.sowing_depth",
+        "brussels_sprouts.sowing_and_planting.planting_depth",
+        "brussels_sprouts.sowing_and_planting.plant_spacing",
+        "brussels_sprouts.sowing_and_planting.row_spacing",
+        "brussels_sprouts.sowing_and_planting.notes"
+      ],
+      "status": "generated",
+      "approval": "new draft; not yet reviewed by user",
+      "attempts": 1,
+      "file": "drafts/2026-09-15/brussels_sprouts/02-plant-firmly-v1.png",
+      "original": "/Users/johnlennon/.codex/generated_images/01a0a1a6-e9a1-7142-93c1-f53aed65e55d/exec-243f361a-0a28-4db8-adcb-f34288bb2d8b.png",
+      "qa": "Full-size visual check and genuine alpha/1774x887 check passed; contact sheet generated."
+    },
+    {
+      "crop": "cabbage",
+      "id": "01-raise-seedlings-v1",
+      "title": "Raise seedlings",
+      "scene": "ONE nursery-only vignette: two young heading cabbage with rounded waxy blue-green leaves; no mature head seedlings growing in a small plain two-cell module. The module holds compost and roots normally; no seedling lifted, no hand transplanting, no outdoor soil bed, no hole or second action. All leaves and module inside safe margins. No text, arrows or mature crop.",
+      "alt": "cabbage: raise seedlings.",
+      "sourcePaths": [
+        "cabbage.sowing_and_planting.method",
+        "cabbage.sowing_and_planting.sowing_depth",
+        "cabbage.sowing_and_planting.planting_depth",
+        "cabbage.sowing_and_planting.plant_spacing",
+        "cabbage.sowing_and_planting.row_spacing",
+        "cabbage.sowing_and_planting.notes"
+      ],
+      "status": "generated",
+      "approval": "new draft; not yet reviewed by user",
+      "attempts": 1,
+      "file": "drafts/2026-09-15/cabbage/01-raise-seedlings-v1.png",
+      "original": "/Users/johnlennon/.codex/generated_images/01a0a1a6-e9a1-7142-93c1-f53aed65e55d/exec-b0a53f88-8e2a-41d0-aaf2-639970181b52.png",
+      "qa": "Full-size visual check and genuine alpha/1774x887 check passed; contact sheet generated."
+    },
+    {
+      "crop": "cabbage",
+      "id": "02-plant-at-the-correct-level-v1",
+      "title": "Plant at the correct level",
+      "scene": "ONE planting-and-firming vignette: a young heading cabbage with rounded waxy blue-green leaves; no mature head transplant in side-on tan soil cutaway. Rootball top FLUSH with finished soil, at original nursery level; do NOT bury extra stem. Small fingertips firm soil beside the plant. Soil continuous around roots, no unfilled open pit. No module tray or second plant. Keep complete root system and leaves inside canvas. No lettering, arrows or mature crop.",
+      "alt": "cabbage: plant at the correct level.",
+      "sourcePaths": [
+        "cabbage.sowing_and_planting.method",
+        "cabbage.sowing_and_planting.sowing_depth",
+        "cabbage.sowing_and_planting.planting_depth",
+        "cabbage.sowing_and_planting.plant_spacing",
+        "cabbage.sowing_and_planting.row_spacing",
+        "cabbage.sowing_and_planting.notes"
+      ],
+      "status": "generated",
+      "approval": "new draft; not yet reviewed by user",
+      "attempts": 1,
+      "file": "drafts/2026-09-15/cabbage/02-plant-at-the-correct-level-v1.png",
+      "original": "/Users/johnlennon/.codex/generated_images/01a0a1a6-e9a1-7142-93c1-f53aed65e55d/exec-038e4317-b058-4d57-b339-50c777553819.png",
+      "qa": "Full-size visual check and genuine alpha/1774x887 check passed; contact sheet generated."
+    },
+    {
+      "crop": "cauliflower",
+      "id": "01-raise-seedlings-v1",
+      "title": "Raise seedlings",
+      "scene": "ONE nursery-only vignette: two young cauliflower with elongated blue-green leaves; no white curd seedlings growing in a small plain two-cell module. The module holds compost and roots normally; no seedling lifted, no hand transplanting, no outdoor soil bed, no hole or second action. All leaves and module inside safe margins. No text, arrows or mature crop.",
+      "alt": "cauliflower: raise seedlings.",
+      "sourcePaths": [
+        "cauliflower.sowing_and_planting.method",
+        "cauliflower.sowing_and_planting.sowing_depth",
+        "cauliflower.sowing_and_planting.planting_depth",
+        "cauliflower.sowing_and_planting.plant_spacing",
+        "cauliflower.sowing_and_planting.row_spacing",
+        "cauliflower.sowing_and_planting.notes"
+      ],
+      "status": "generated",
+      "approval": "new draft; not yet reviewed by user",
+      "attempts": 1,
+      "file": "drafts/2026-09-15/cauliflower/01-raise-seedlings-v1.png",
+      "original": "/Users/johnlennon/.codex/generated_images/01a0a1a6-e9a1-7142-93c1-f53aed65e55d/exec-bcc59b3d-a694-48d8-b6ee-e60a92b64dcc.png",
+      "qa": "Full-size visual check and genuine alpha/1774x887 check passed; contact sheet generated."
+    },
+    {
+      "crop": "cauliflower",
+      "id": "02-firm-into-the-bed-v1",
+      "title": "Firm into the bed",
+      "scene": "ONE planting-and-firming vignette: a young cauliflower with elongated blue-green leaves; no white curd transplant in side-on tan soil cutaway. Rootball top FLUSH with finished soil, at original nursery level; do NOT bury extra stem. Small fingertips firm soil beside the plant. Soil continuous around roots, no unfilled open pit. No module tray or second plant. Keep complete root system and leaves inside canvas. No lettering, arrows or mature crop.",
+      "alt": "cauliflower: firm into the bed.",
+      "sourcePaths": [
+        "cauliflower.sowing_and_planting.method",
+        "cauliflower.sowing_and_planting.sowing_depth",
+        "cauliflower.sowing_and_planting.planting_depth",
+        "cauliflower.sowing_and_planting.plant_spacing",
+        "cauliflower.sowing_and_planting.row_spacing",
+        "cauliflower.sowing_and_planting.notes"
+      ],
+      "status": "generated",
+      "approval": "new draft; not yet reviewed by user",
+      "attempts": 1,
+      "file": "drafts/2026-09-15/cauliflower/02-firm-into-the-bed-v1.png",
+      "original": "/Users/johnlennon/.codex/generated_images/01a0a1a6-e9a1-7142-93c1-f53aed65e55d/exec-3dd70ca9-42d5-4249-95d4-804ef204f072.png",
+      "qa": "Full-size visual check and genuine alpha/1774x887 check passed; contact sheet generated."
+    },
+    {
+      "crop": "kale",
+      "id": "01-raise-young-plants-v1",
+      "title": "Raise young plants",
+      "scene": "ONE nursery-only vignette: two young curly kale with subtly frilled blue-green leaves; no mature harvest leaves seedlings growing in a small plain two-cell module. The module holds compost and roots normally; no seedling lifted, no hand transplanting, no outdoor soil bed, no hole or second action. All leaves and module inside safe margins. No text, arrows or mature crop.",
+      "alt": "kale: raise young plants.",
+      "sourcePaths": [
+        "kale.sowing_and_planting.method",
+        "kale.sowing_and_planting.sowing_depth",
+        "kale.sowing_and_planting.planting_depth",
+        "kale.sowing_and_planting.plant_spacing",
+        "kale.sowing_and_planting.row_spacing",
+        "kale.sowing_and_planting.notes"
+      ],
+      "status": "generated",
+      "approval": "new draft; not yet reviewed by user",
+      "attempts": 1,
+      "file": "drafts/2026-09-15/kale/01-raise-young-plants-v1.png",
+      "original": "/Users/johnlennon/.codex/generated_images/01a0a1a6-e9a1-7142-93c1-f53aed65e55d/exec-9bf5f6d1-8f9e-4e95-b633-0894bab72b13.png",
+      "qa": "Full-size visual check and genuine alpha/1774x887 check passed; contact sheet generated."
+    },
+    {
+      "crop": "kale",
+      "id": "02-set-deeper-and-firm-v1",
+      "title": "Set deeper and firm",
+      "scene": "ONE planting-and-firming vignette: a young curly kale with subtly frilled blue-green leaves; no mature harvest leaves transplant in side-on tan soil cutaway. Set deeper so LOWEST LEAVES JUST ABOVE FINISHED SOIL, no buried foliage; intact roots below. Small fingertips firm soil beside the plant. Soil continuous around roots, no unfilled open pit. No module tray or second plant. Keep complete root system and leaves inside canvas. No lettering, arrows or mature crop.",
+      "alt": "kale: set deeper and firm.",
+      "sourcePaths": [
+        "kale.sowing_and_planting.method",
+        "kale.sowing_and_planting.sowing_depth",
+        "kale.sowing_and_planting.planting_depth",
+        "kale.sowing_and_planting.plant_spacing",
+        "kale.sowing_and_planting.row_spacing",
+        "kale.sowing_and_planting.notes"
+      ],
+      "status": "generated",
+      "approval": "new draft; not yet reviewed by user",
+      "attempts": 1,
+      "file": "drafts/2026-09-15/kale/02-set-deeper-and-firm-v1.png",
+      "original": "/Users/johnlennon/.codex/generated_images/01a0a1a6-e9a1-7142-93c1-f53aed65e55d/exec-66164e97-ffbb-4341-8b86-33a090079564.png",
+      "qa": "Full-size visual check and genuine alpha/1774x887 check passed; contact sheet generated."
+    }
+  ]
+}

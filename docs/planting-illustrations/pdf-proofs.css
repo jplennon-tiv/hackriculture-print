@@ -1,0 +1,38 @@
+/* Loaded only into isolated proof browser tabs. No runtime stylesheet changes. */
+.proof-planting {background:#fffcf5;--art-height:18mm;}
+.proof-stages {display:grid;gap:7px;padding:8px 9px 6px;}
+.proof-stage {min-width:0;break-inside:avoid;}
+.proof-stage-title {display:flex;align-items:center;gap:6px;margin:0;font-size:8.5pt;font-weight:750;line-height:1.3;color:#39352b;}
+.proof-number {display:inline-flex;align-items:center;justify-content:center;width:16px;height:16px;flex-shrink:0;background:#e07b39;border-radius:50%;color:white;font-size:7pt;}
+.proof-art {display:block;width:100%;height:var(--art-height);object-fit:contain;margin:3px auto;}
+.proof-caption,.proof-alternative,.proof-notes {font-size:8.5pt;line-height:1.4;color:#39382f;margin:0;}
+.proof-lower {padding:6px 9px 8px;border-top:1px solid #ddd5c4;}
+.proof-measures {display:grid;gap:3px;font-size:7.5pt;line-height:1.4;margin:0 0 6px;}
+.proof-measures dt {font-weight:750;display:inline;}
+.proof-measures dd {margin:0;white-space:pre-line;display:inline;}
+.proof-notes {padding-left:13px;margin-top:5px;}
+.proof-notes li+li {margin-top:3px;}
+.proof-wide {margin-top:6px;--art-height:17mm;}
+.proof-wide .proof-stages {grid-auto-flow:column;grid-auto-columns:1fr;gap:10px;}
+.proof-wide .proof-stage+.proof-stage {border-left:1px solid #ddd5c4;padding-left:10px;}
+.proof-wide .proof-lower {display:grid;grid-template-columns:1fr 1.1fr;gap:14px;}
+.proof-rebalanced [class*="cheatLeft_"] {width:45%;}
+.proof-rebalanced [class*="cheatRight_"] {width:55%;}
+.proof-wide .proof-measures {align-content:start;}
+.proof-tip-labels {display:flex;flex-wrap:wrap;gap:3px 8px;padding:6px 8px;font-size:7.5pt;line-height:1.4;}
+.proof-tip-labels span::before {content:'• ';color:#d77a37;}
+.proof-rebalanced [class*="cheatLeft_"],.proof-rebalanced [class*="cheatRight_"] {gap:6px;}
+.proof-rebalanced [class*="cheatStepList_"] {padding-top:4px;padding-bottom:4px;gap:2px;}
+.proof-rebalanced [class*="cheatStep_"] {line-height:1.4;}
+.proof-rebalanced [class*="cheatPestVal_"],.proof-rebalanced [class*="cheatPestLbl_"] {padding-top:3px;padding-bottom:3px;}
+.proof-chicory-balance [class*="cheatLeft_"],.proof-chicory-balance [class*="cheatRight_"] {width:50%;}
+.proof-paired-small .proof-stages {grid-template-columns:1fr 1fr;gap:7px;}
+.proof-paired-small .proof-stage-title {align-items:flex-start;}
+.proof-wide .proof-stages,.proof-paired-small .proof-stages {padding-top:6px;padding-bottom:4px;}
+.proof-wide .proof-art {margin-top:2px;margin-bottom:2px;}
+.proof-wide .proof-lower,.proof-paired-small .proof-lower {padding-top:4px;padding-bottom:6px;}
+.proof-compact-tips {margin-top:0!important;}
+.proof-compact-tips [class*="cheatFinalTipsGrid_"] {flex-direction:column;}
+.proof-compact-tips [class*="cheatFinalTipItem_"] {padding:5px 8px;gap:6px;}
+.proof-compact-tips [class*="cheatFinalTipItem_"]::after {display:none;}
+.proof-compact-tips [class*="cheatFinalTipIcon_"] {width:22px;height:22px;}

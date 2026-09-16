@@ -8,6 +8,7 @@ import type { EditorType } from "./FieldEditor";
 import { extractQfRows, type QfRow } from "./qfHelpers";
 import { slugify } from "../lib/slug";
 import styles from "./Admin.module.css";
+import { plantingReviewIssue, plantingSourceFingerprint, plantingSourcePaths, readPlantingSource } from '../lib/planting';
 
 type SectionDef = {
     key: keyof Vegetable;
@@ -102,6 +103,10 @@ const SECTIONS: SectionDef[] = [
         title: "Looking After the Crop",
         icon: "🪴",
         editorType: "rankedArray",
+    },
+    {
+        key:'print_planting',title:'Illustrated Planting: Print Wording',icon:'🖨️',editorType:'json',
+        sectionNote:'Additive print captions, source links and optional note references. Detailed Sowing & Planting advice stays intact. Keep step IDs and source paths; measurements are resolved live, not copied here. After changing source advice, review these captions and confirm review using the panel above.',
     },
     {
         key: "harvesting",
@@ -414,6 +419,15 @@ export function AdminVegetablePage({
             </div>
 
             {/* Sections */}
+            {veg.print_planting&&<div className={styles.qfSummaryPanel}>
+                <strong>Illustrated planting review</strong>
+                <p>{plantingReviewIssue(veg)??'Print captions match their reviewed source. Measurements update automatically; exports do not call AI.'}</p>
+                {plantingReviewIssue(veg)&&<button type="button" disabled={isSaving||plantingSourcePaths(veg.print_planting).some(p=>readPlantingSource(veg,p)==null)}
+                    onClick={()=>{
+                        if(!window.confirm('Have you checked the print captions and compact captions against the detailed planting instructions? This marks that editorial review complete; it does not rewrite anything.'))return;
+                        void handleSaveSection('print_planting',{...veg.print_planting,reviewed_source:plantingSourceFingerprint(veg,veg.print_planting!)}).catch(error=>setSaveMsg(String(error)));
+                    }}>Confirm captions reviewed against source</button>}
+            </div>}
             <div className={styles.sectionsGrid}>
                 {SECTIONS.map((def) => (
                     <EditableSection

@@ -19,6 +19,9 @@ import {
 import styles from "./print.module.css";
 import { useVegetableLayout } from "./useVegetableLayout";
 import { quickFactIconPath, pickFinalTipIcon } from "../lib/quickFactIcons";
+import { resolvePlanting } from './plantingIllustrations';
+import { readPlantingSource } from '../lib/planting';
+import { PlantingCard } from './PlantingCard';
 
 const data = vegetablesJson as unknown as GardeningData;
 const troublesData = troublesJson as unknown as TroublesData;
@@ -627,7 +630,7 @@ export function PrintVegetablePage() {
 
     return (
         <VegetablePrintSheet
-            key={`${key}:${system}`}
+            key={`${key}:${system}:${JSON.stringify(veg)}`}
             veg={veg}
             vegetableKey={key}
             system={system}
@@ -645,6 +648,7 @@ function VegetablePrintSheet({
     system: UnitSystem;
 }) {
     const name = veg.name ?? key;
+    const planting=resolvePlanting(veg,key,system);
 
     const rawVarieties = veg.varieties;
     const allVarietyEntries: VarietyEntry[] =
@@ -661,6 +665,7 @@ function VegetablePrintSheet({
         varCount,
         imgMaxHeight,
         p2TrimLevel,
+        plantingActive,plantingFit,onPlantingAssets,
         page1Ref,
         page1SentinelRef,
         page2Ref,
@@ -673,6 +678,7 @@ function VegetablePrintSheet({
         countSentences(veg.introduction ?? ""),
         varietyPool.length,
         true,
+        planting?{...planting.layout,optionalNoteCount:planting.content.optional_note_paths.length,issue:planting.issue}:null,
     );
     const keyRisksCount = 4;
 
@@ -1025,6 +1031,9 @@ function VegetablePrintSheet({
 
     return (
         <>
+            {(planting?.issue||plantingFit.phase==='error')&&<p role="alert">
+                PDF export paused: {planting?.issue??'The planting card does not fit safely. Review its layout; no neighbouring advice has been removed.'}
+            </p>}
             {/* ════════════════════════════════════════════════ PAGE 1 — FRONT */}
             <div ref={page1Ref} className={styles.cheatPage} style={pageStyle}>
                 {/* Header — 3-section flex layout */}
@@ -1684,7 +1693,14 @@ function VegetablePrintSheet({
                             </div>
                         )}
 
-                        {sowing && (
+                        {plantingActive && planting ? <PlantingCard
+                            planting={planting} fit={plantingFit} onAssets={onPlantingAssets}
+                            notes={[
+                                ...sowingNotes.map(itemText),
+                                ...planting.content.optional_note_paths.map(path=>itemText(readPlantingSource(veg,path)))
+                                    .filter(text=>text&&!sowingNotes.some(n=>itemText(n)===text)).slice(0,plantingFit.noteCount),
+                            ]}
+                        /> : sowing && (
                             <div className={styles.cheatCard}>
                                 <div className={styles.cheatCardHd}>
                                     SOWING &amp; PLANTING

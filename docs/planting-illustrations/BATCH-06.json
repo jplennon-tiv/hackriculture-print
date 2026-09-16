@@ -1,0 +1,373 @@
+{
+  "date": "2026-09-15",
+  "status": "complete draft generation and targeted refinements; not installed",
+  "mode": "built-in image_gen; one call per new scene, explicit compatible reuse",
+  "sourceSha256": "0e8f591e50e8d6794ef8902ac52b391d378006b2ae5703f9cec31fe15dba1df4",
+  "styleReferences": [
+    "references/concept-2.png",
+    "drafts/2026-09-15/carrot/01-sow-thinly-v1.png"
+  ],
+  "commonPrompt": "Use case: scientific-educational. Asset: ONE compact teaching vignette for printed vegetable Sowing & Planting instructions, legible at 36–48 mm width. Image 1 is Concept 2 STYLE REFERENCE ONLY; ignore all its text, measurements, mature crops and page layout. Image 2 is the approved CARROT ART STYLE ANCHOR: match its warm chocolate fine ink, pale sandy-tan soil stipple, soft muted watercolour, natural skin tone and economical botanical detail. Generate a NEW crop action, NOT another carrot. Wide 2:1 canvas, target 1536x768. GENUINELY TRANSPARENT alpha background, no paper, no background rectangle. One scene, meaningful artwork centred within 7% safe margins. Restrained greens, light soil, generous blank space. No text, numbers, arrows, badges, border, watermark, dimension marks or mature crop portrait. Anatomy and physical planting action must be coherent; roots connected to stems. All exact dimensions will be added separately from live source. Do not over-enlarge hands or tiny seeds.",
+  "jobs": [
+    {
+      "crop": "beet_leaf",
+      "id": "02-thin-young-plants-v1",
+      "title": "Thin young plants",
+      "scene": "Crop beet leaf, stage 2 ONLY: strongest seedlings left; no mature chard portrait. Anatomy constraints: Young leaf-beet/chard seedlings with broad small oval leaves and pale green-to-white midribs, no giant mature chard and no beetroot bulb. Thinning scene: remove one crowded tiny plant by a leaf, retain two young plants with fine roots. ONE compact scene. Preserve all roots/leaves inside canvas. Main action is hand-sized, soil cutaway subtle. No text or numbers.",
+      "alt": "beet leaf: thin young plants.",
+      "sourcePaths": [
+        "beet_leaf.sowing_and_planting.method",
+        "beet_leaf.sowing_and_planting.sowing_depth",
+        "beet_leaf.sowing_and_planting.plant_spacing",
+        "beet_leaf.sowing_and_planting.row_spacing",
+        "beet_leaf.sowing_and_planting.notes"
+      ],
+      "status": "generated",
+      "approval": "new draft; not yet reviewed by user",
+      "attempts": 1,
+      "file": "drafts/2026-09-15/beet_leaf/02-thin-young-plants-v1.png",
+      "original": "/Users/johnlennon/.codex/generated_images/01a0a1a6-e9a1-7142-93c1-f53aed65e55d/exec-f72eaca7-7932-439d-86b7-833994941f96.png",
+      "qa": "Full-size reviewed; genuine alpha and 1774x887 verified. See preferredFile and refinement notes."
+    },
+    {
+      "crop": "endive",
+      "id": "02-thin-young-rosettes-v1",
+      "title": "Thin young rosettes",
+      "scene": "Crop endive, stage 2 ONLY: leaf shapes distinguish endive without requiring a mature head. Anatomy constraints: Young curly-endive rosettes with a few modestly frilled green leaves, no mature blanched head. Thinning in place, not transplanting. Main planting pair uses a tiny-seed sowing scene shared with chicory. ONE compact scene. Preserve all roots/leaves inside canvas. Main action is hand-sized, soil cutaway subtle. No text or numbers.",
+      "alt": "endive: thin young rosettes.",
+      "sourcePaths": [
+        "endive.sowing_and_planting.method",
+        "endive.sowing_and_planting.sowing_depth",
+        "endive.sowing_and_planting.plant_spacing",
+        "endive.sowing_and_planting.row_spacing",
+        "endive.sowing_and_planting.notes"
+      ],
+      "status": "generated",
+      "approval": "new draft; not yet reviewed by user",
+      "attempts": 1,
+      "file": "drafts/2026-09-15/endive/02-thin-young-rosettes-v1.png",
+      "original": "/Users/johnlennon/.codex/generated_images/01a0a1a6-e9a1-7142-93c1-f53aed65e55d/exec-569d1580-1de4-471f-a067-7452988c6aa4.png",
+      "qa": "Full-size reviewed; genuine alpha and 1774x887 verified. See preferredFile and refinement notes. v1 wrong action superseded by reviewed v2.",
+      "preferredFile": "drafts/2026-09-15/endive/02-thin-young-rosettes-v2.png"
+    },
+    {
+      "crop": "florence_fennel",
+      "id": "01-raise-in-modules-v1",
+      "title": "Raise in modules",
+      "scene": "Florence fennel: very young seedling with delicate threadlike feathery blue-green leaves, slender pale base, NO swollen mature bulb. ONLY nursery stage: two young plants in two small module cells. No hands, no outdoor bed, no transplanting. One coherent compact scene; all anatomy within safe margins.",
+      "alt": "florence fennel: raise in modules.",
+      "sourcePaths": [
+        "florence_fennel.sowing_and_planting.planting.method",
+        "florence_fennel.sowing_and_planting.planting.planting_depth",
+        "florence_fennel.sowing_and_planting.planting.plant_spacing",
+        "florence_fennel.sowing_and_planting.planting.notes",
+        "florence_fennel.sowing_and_planting.seed_sowing",
+        "florence_fennel.sowing_and_planting.row_spacing"
+      ],
+      "status": "generated",
+      "approval": "new draft; not yet reviewed by user",
+      "attempts": 1,
+      "file": "drafts/2026-09-15/florence_fennel/01-raise-in-modules-v1.png",
+      "original": "/Users/johnlennon/.codex/generated_images/01a0a1a6-e9a1-7142-93c1-f53aed65e55d/exec-d9b74e63-ed30-456b-9eb9-c96171fee231.png",
+      "qa": "Preferred version visually checked: sparse threadlike fennel foliage. v1/v2 rejected; planting v3 incorrectly retained nursery tray. Planting v4 correct outdoor flush-level plug, top frond approaches canvas edge; preserve full canvas/padding.",
+      "preferredFile": "drafts/2026-09-15/florence_fennel/01-raise-in-modules-v3.png"
+    },
+    {
+      "crop": "florence_fennel",
+      "id": "02-plant-level-v1",
+      "title": "Plant level",
+      "scene": "Florence fennel: very young seedling with delicate threadlike feathery blue-green leaves, slender pale base, NO swollen mature bulb. ONLY final planting stage: one young plant settled with intact plug top flush with surrounding ground, all crown/leaf bases above soil; hand gently firms beside plug. No nursery tray. One coherent compact scene; all anatomy within safe margins.",
+      "alt": "florence fennel: plant level.",
+      "sourcePaths": [
+        "florence_fennel.sowing_and_planting.planting.method",
+        "florence_fennel.sowing_and_planting.planting.planting_depth",
+        "florence_fennel.sowing_and_planting.planting.plant_spacing",
+        "florence_fennel.sowing_and_planting.planting.notes",
+        "florence_fennel.sowing_and_planting.seed_sowing",
+        "florence_fennel.sowing_and_planting.row_spacing"
+      ],
+      "status": "generated",
+      "approval": "new draft; not yet reviewed by user",
+      "attempts": 1,
+      "file": "drafts/2026-09-15/florence_fennel/02-plant-level-v1.png",
+      "original": "/Users/johnlennon/.codex/generated_images/01a0a1a6-e9a1-7142-93c1-f53aed65e55d/exec-52467dbc-137d-49cf-86fd-97acc3168e38.png",
+      "qa": "Preferred version visually checked: sparse threadlike fennel foliage. v1/v2 rejected; planting v3 incorrectly retained nursery tray. Planting v4 correct outdoor flush-level plug, top frond approaches canvas edge; preserve full canvas/padding.",
+      "preferredFile": "drafts/2026-09-15/florence_fennel/02-plant-level-v4.png"
+    },
+    {
+      "crop": "kohl_rabi",
+      "id": "01-sow-shallowly-v1",
+      "title": "Sow shallowly",
+      "scene": "Crop kohl rabi, stage 1 ONLY: fine drill and seeds. Anatomy constraints: Kohlrabi seed: tiny round dark-brown brassica grains, not elongated carrot seed. Young plant: few waxy grey-green leaves from a very slightly thickened ABOVE-GROUND stem, not a buried turnip root. Keep stem swelling tiny; root is slender and white below. Thin only young plants. ONE compact scene. Preserve all roots/leaves inside canvas. Main action is hand-sized, soil cutaway subtle. No text or numbers.",
+      "alt": "kohl rabi: sow shallowly.",
+      "sourcePaths": [
+        "kohl_rabi.sowing_and_planting.method",
+        "kohl_rabi.sowing_and_planting.sowing_depth",
+        "kohl_rabi.sowing_and_planting.plant_spacing",
+        "kohl_rabi.sowing_and_planting.row_spacing",
+        "kohl_rabi.sowing_and_planting.notes"
+      ],
+      "status": "generated",
+      "approval": "new draft; not yet reviewed by user",
+      "attempts": 1,
+      "file": "drafts/2026-09-15/kohl_rabi/01-sow-shallowly-v1.png",
+      "original": "/Users/johnlennon/.codex/generated_images/01a0a1a6-e9a1-7142-93c1-f53aed65e55d/exec-038a16d1-9774-4932-bb75-84de4f4f320d.png",
+      "qa": "Full-size reviewed; genuine alpha and 1774x887 verified. See preferredFile and refinement notes. v1 wrong action superseded by reviewed v2.",
+      "preferredFile": "drafts/2026-09-15/kohl_rabi/01-sow-shallowly-v2.png"
+    },
+    {
+      "crop": "kohl_rabi",
+      "id": "02-thin-young-plants-v1",
+      "title": "Thin young plants",
+      "scene": "Crop kohl rabi, stage 2 ONLY: tiny above-ground stem swelling, leaves above soil, no buried turnip-shaped bulb. Anatomy constraints: Kohlrabi seed: tiny round dark-brown brassica grains, not elongated carrot seed. Young plant: few waxy grey-green leaves from a very slightly thickened ABOVE-GROUND stem, not a buried turnip root. Keep stem swelling tiny; root is slender and white below. Thin only young plants. ONE compact scene. Preserve all roots/leaves inside canvas. Main action is hand-sized, soil cutaway subtle. No text or numbers.",
+      "alt": "kohl rabi: thin young plants.",
+      "sourcePaths": [
+        "kohl_rabi.sowing_and_planting.method",
+        "kohl_rabi.sowing_and_planting.sowing_depth",
+        "kohl_rabi.sowing_and_planting.plant_spacing",
+        "kohl_rabi.sowing_and_planting.row_spacing",
+        "kohl_rabi.sowing_and_planting.notes"
+      ],
+      "status": "generated",
+      "approval": "new draft; not yet reviewed by user",
+      "attempts": 1,
+      "file": "drafts/2026-09-15/kohl_rabi/02-thin-young-plants-v1.png",
+      "original": "/Users/johnlennon/.codex/generated_images/01a0a1a6-e9a1-7142-93c1-f53aed65e55d/exec-6cd98331-c611-49ac-87b6-fed76c38ae51.png",
+      "qa": "Full-size reviewed; genuine alpha and 1774x887 verified. See preferredFile and refinement notes."
+    },
+    {
+      "crop": "oriental_leaves",
+      "id": "01-raise-small-plugs-v1",
+      "title": "Raise small plugs",
+      "scene": "Asian leaf crops: small young seedlings with simple rounded to slightly toothed green leaves; no mature pak choi or cabbage hearts. ONLY nursery stage: two young seedlings growing in two small module cells; no hands, no outdoor bed or transplanting. One coherent compact scene with connected roots.",
+      "alt": "oriental leaves: raise small plugs.",
+      "sourcePaths": [
+        "oriental_leaves.sowing_and_planting.planting.method",
+        "oriental_leaves.sowing_and_planting.planting.planting_depth",
+        "oriental_leaves.sowing_and_planting.planting.plant_spacing",
+        "oriental_leaves.sowing_and_planting.planting.notes",
+        "oriental_leaves.sowing_and_planting.seed_sowing",
+        "oriental_leaves.sowing_and_planting.row_spacing"
+      ],
+      "status": "generated",
+      "approval": "new draft; not yet reviewed by user",
+      "attempts": 1,
+      "file": "drafts/2026-09-15/oriental_leaves/01-raise-small-plugs-v1.png",
+      "original": "/Users/johnlennon/.codex/generated_images/01a0a1a6-e9a1-7142-93c1-f53aed65e55d/exec-80321e0e-93df-45a6-b239-73a42865c24a.png",
+      "qa": "Full-size reviewed; genuine alpha and 1774x887 verified. See preferredFile and refinement notes."
+    },
+    {
+      "crop": "oriental_leaves",
+      "id": "02-plant-at-the-original-level-v1",
+      "title": "Plant at the original level",
+      "scene": "Asian leaf crops: small young seedlings with simple rounded to slightly toothed green leaves; no mature pak choi or cabbage hearts. ONLY planting stage: one small intact plug settled FLUSH at original level, crown/leaves above soil, hand gently firms beside it; no tray, no buried white leaf stalks. One coherent compact scene with connected roots.",
+      "alt": "oriental leaves: plant at the original level.",
+      "sourcePaths": [
+        "oriental_leaves.sowing_and_planting.planting.method",
+        "oriental_leaves.sowing_and_planting.planting.planting_depth",
+        "oriental_leaves.sowing_and_planting.planting.plant_spacing",
+        "oriental_leaves.sowing_and_planting.planting.notes",
+        "oriental_leaves.sowing_and_planting.seed_sowing",
+        "oriental_leaves.sowing_and_planting.row_spacing"
+      ],
+      "status": "generated",
+      "approval": "new draft; not yet reviewed by user",
+      "attempts": 1,
+      "file": "drafts/2026-09-15/oriental_leaves/02-plant-at-the-original-level-v1.png",
+      "original": "/Users/johnlennon/.codex/generated_images/01a0a1a6-e9a1-7142-93c1-f53aed65e55d/exec-96a6206c-1114-41a4-8773-92a51727653c.png",
+      "qa": "Full-size reviewed; genuine alpha and 1774x887 verified. See preferredFile and refinement notes."
+    },
+    {
+      "crop": "salsify_scorzonera",
+      "id": "01-sow-direct-v1",
+      "title": "Sow direct",
+      "scene": "Crop salsify scorzonera, stage 1 ONLY: slender elongated salsify seeds in a shallow drill. Anatomy constraints: SALSIFY main route, not scorzonera. Seeds are very slender elongated tan-brown stick-like achenes, some gently curved, no fluffy seed tufts, no round seeds, no carrot-grain shape. Young plants have narrow grass-like grey-green linear leaves and long very fine pale roots, NOT a black harvest root or leek shank. Thin in place, no pots or replanting. ONE compact scene. Preserve all roots/leaves inside canvas. Main action is hand-sized, soil cutaway subtle. No text or numbers.",
+      "alt": "salsify scorzonera: sow direct.",
+      "sourcePaths": [
+        "salsify_scorzonera.sowing_and_planting.method",
+        "salsify_scorzonera.sowing_and_planting.sowing_depth",
+        "salsify_scorzonera.sowing_and_planting.plant_spacing",
+        "salsify_scorzonera.sowing_and_planting.row_spacing",
+        "salsify_scorzonera.sowing_and_planting.notes"
+      ],
+      "status": "generated",
+      "approval": "new draft; not yet reviewed by user",
+      "attempts": 1,
+      "file": "drafts/2026-09-15/salsify_scorzonera/01-sow-direct-v1.png",
+      "original": "/Users/johnlennon/.codex/generated_images/01a0a1a6-e9a1-7142-93c1-f53aed65e55d/exec-b863f0e1-8730-4782-b5e3-330f7a6905e2.png",
+      "qa": "Full-size reviewed; genuine alpha and 1774x887 verified. See preferredFile and refinement notes."
+    },
+    {
+      "crop": "salsify_scorzonera",
+      "id": "02-thin-in-place-v1",
+      "title": "Thin in place",
+      "scene": "Crop salsify scorzonera, stage 2 ONLY: narrow-leaved young plants with slender pale roots, no transplanting. Anatomy constraints: SALSIFY main route, not scorzonera. Seeds are very slender elongated tan-brown stick-like achenes, some gently curved, no fluffy seed tufts, no round seeds, no carrot-grain shape. Young plants have narrow grass-like grey-green linear leaves and long very fine pale roots, NOT a black harvest root or leek shank. Thin in place, no pots or replanting. ONE compact scene. Preserve all roots/leaves inside canvas. Main action is hand-sized, soil cutaway subtle. No text or numbers.",
+      "alt": "salsify scorzonera: thin in place.",
+      "sourcePaths": [
+        "salsify_scorzonera.sowing_and_planting.method",
+        "salsify_scorzonera.sowing_and_planting.sowing_depth",
+        "salsify_scorzonera.sowing_and_planting.plant_spacing",
+        "salsify_scorzonera.sowing_and_planting.row_spacing",
+        "salsify_scorzonera.sowing_and_planting.notes"
+      ],
+      "status": "generated",
+      "approval": "new draft; not yet reviewed by user",
+      "attempts": 1,
+      "file": "drafts/2026-09-15/salsify_scorzonera/02-thin-in-place-v1.png",
+      "original": "/Users/johnlennon/.codex/generated_images/01a0a1a6-e9a1-7142-93c1-f53aed65e55d/exec-7ec25e4b-80c4-4089-aa84-ab5d628449be.png",
+      "qa": "Full-size reviewed; genuine alpha and 1774x887 verified. See preferredFile and refinement notes."
+    },
+    {
+      "crop": "spinach",
+      "id": "01-sow-the-drill-v1",
+      "title": "Sow the drill",
+      "scene": "Crop spinach, stage 1 ONLY: seed placed and covered. Anatomy constraints: TRUE SPINACH, smooth-seeded route. Seeds small rounded dull tan units, not beet seed clusters or New Zealand spinach seed cases. Young spinach has 2–3 smooth oval-to-slightly-arrow-shaped green leaves, no chard-white midribs, no mature sprawling plant. Thin young plants in original soil. ONE compact scene. Preserve all roots/leaves inside canvas. Main action is hand-sized, soil cutaway subtle. No text or numbers.",
+      "alt": "spinach: sow the drill.",
+      "sourcePaths": [
+        "spinach.sowing_and_planting.method",
+        "spinach.sowing_and_planting.sowing_depth",
+        "spinach.sowing_and_planting.plant_spacing",
+        "spinach.sowing_and_planting.row_spacing",
+        "spinach.sowing_and_planting.notes",
+        "spinach.sowing_and_planting.new_zealand_spinach"
+      ],
+      "status": "generated",
+      "approval": "new draft; not yet reviewed by user",
+      "attempts": 1,
+      "file": "drafts/2026-09-15/spinach/01-sow-the-drill-v1.png",
+      "original": "/Users/johnlennon/.codex/generated_images/01a0a1a6-e9a1-7142-93c1-f53aed65e55d/exec-db1ad347-a4cd-4256-8f98-e5692fd61e67.png",
+      "qa": "Full-size reviewed; genuine alpha and 1774x887 verified. See preferredFile and refinement notes."
+    },
+    {
+      "crop": "spinach",
+      "id": "02-thin-young-leaves-v1",
+      "title": "Thin young leaves",
+      "scene": "Crop spinach, stage 2 ONLY: one line of young true spinach plants, room between centres. Anatomy constraints: TRUE SPINACH, smooth-seeded route. Seeds small rounded dull tan units, not beet seed clusters or New Zealand spinach seed cases. Young spinach has 2–3 smooth oval-to-slightly-arrow-shaped green leaves, no chard-white midribs, no mature sprawling plant. Thin young plants in original soil. ONE compact scene. Preserve all roots/leaves inside canvas. Main action is hand-sized, soil cutaway subtle. No text or numbers.",
+      "alt": "spinach: thin young leaves.",
+      "sourcePaths": [
+        "spinach.sowing_and_planting.method",
+        "spinach.sowing_and_planting.sowing_depth",
+        "spinach.sowing_and_planting.plant_spacing",
+        "spinach.sowing_and_planting.row_spacing",
+        "spinach.sowing_and_planting.notes",
+        "spinach.sowing_and_planting.new_zealand_spinach"
+      ],
+      "status": "generated",
+      "approval": "new draft; not yet reviewed by user",
+      "attempts": 1,
+      "file": "drafts/2026-09-15/spinach/02-thin-young-leaves-v1.png",
+      "original": "/Users/johnlennon/.codex/generated_images/01a0a1a6-e9a1-7142-93c1-f53aed65e55d/exec-8b7491eb-357f-4d3c-9bb2-a8df088329fa.png",
+      "qa": "Full-size reviewed; genuine alpha and 1774x887 verified. See preferredFile and refinement notes."
+    },
+    {
+      "crop": "swede",
+      "id": "01-sow-shallow-drills-v1",
+      "title": "Sow shallow drills",
+      "scene": "Crop swede, stage 1 ONLY: small brassica seeds in a cutaway. Anatomy constraints: Tiny round dark-brown brassica seeds, not carrot-shaped. Young swede seedlings: small waxy bluish-green oval leaves with subtly lobed true leaf, no swollen mature swede. Thin small seedlings in place; pale fine roots remain undisturbed for retained plants. ONE compact scene. Preserve all roots/leaves inside canvas. Main action is hand-sized, soil cutaway subtle. No text or numbers.",
+      "alt": "swede: sow shallow drills.",
+      "sourcePaths": [
+        "swede.sowing_and_planting.seed_sowing.method",
+        "swede.sowing_and_planting.seed_sowing.sowing_depth",
+        "swede.sowing_and_planting.seed_sowing.plant_spacing",
+        "swede.sowing_and_planting.seed_sowing.row_spacing",
+        "swede.sowing_and_planting.seed_sowing.notes",
+        "swede.sowing_and_planting.planting"
+      ],
+      "status": "generated",
+      "approval": "new draft; not yet reviewed by user",
+      "attempts": 1,
+      "file": "drafts/2026-09-15/swede/01-sow-shallow-drills-v1.png",
+      "original": "/Users/johnlennon/.codex/generated_images/01a0a1a6-e9a1-7142-93c1-f53aed65e55d/exec-f5e4b2ec-17b4-4f00-a965-46a1b2562095.png",
+      "qa": "Full-size reviewed; genuine alpha and 1774x887 verified. See preferredFile and refinement notes."
+    },
+    {
+      "crop": "swede",
+      "id": "02-thin-small-seedlings-v1",
+      "title": "Thin small seedlings",
+      "scene": "Crop swede, stage 2 ONLY: spaced young plants, not oversized harvested roots. Anatomy constraints: Tiny round dark-brown brassica seeds, not carrot-shaped. Young swede seedlings: small waxy bluish-green oval leaves with subtly lobed true leaf, no swollen mature swede. Thin small seedlings in place; pale fine roots remain undisturbed for retained plants. ONE compact scene. Preserve all roots/leaves inside canvas. Main action is hand-sized, soil cutaway subtle. No text or numbers.",
+      "alt": "swede: thin small seedlings.",
+      "sourcePaths": [
+        "swede.sowing_and_planting.seed_sowing.method",
+        "swede.sowing_and_planting.seed_sowing.sowing_depth",
+        "swede.sowing_and_planting.seed_sowing.plant_spacing",
+        "swede.sowing_and_planting.seed_sowing.row_spacing",
+        "swede.sowing_and_planting.seed_sowing.notes",
+        "swede.sowing_and_planting.planting"
+      ],
+      "status": "generated",
+      "approval": "new draft; not yet reviewed by user",
+      "attempts": 1,
+      "file": "drafts/2026-09-15/swede/02-thin-small-seedlings-v1.png",
+      "original": "/Users/johnlennon/.codex/generated_images/01a0a1a6-e9a1-7142-93c1-f53aed65e55d/exec-0e5068b7-2fa9-40d5-b5c7-24f9bf7301ad.png",
+      "qa": "Full-size reviewed; genuine alpha and 1774x887 verified. See preferredFile and refinement notes."
+    },
+    {
+      "crop": "turnip",
+      "id": "01-sow-a-fine-drill-v1",
+      "title": "Sow a fine drill",
+      "scene": "Crop turnip, stage 1 ONLY: small brassica seeds, light soil cover. Anatomy constraints: Tiny round brown brassica seeds, NOT elongated carrot seeds. Young turnip seedlings with small green cotyledons and slightly hairy/lobed true leaves, thin white roots and barely developing pale root neck, NOT mature purple/white globes. Thin in place, no replanting. ONE compact scene. Preserve all roots/leaves inside canvas. Main action is hand-sized, soil cutaway subtle. No text or numbers.",
+      "alt": "turnip: sow a fine drill.",
+      "sourcePaths": [
+        "turnip.sowing_and_planting.method",
+        "turnip.sowing_and_planting.sowing_depth",
+        "turnip.sowing_and_planting.plant_spacing",
+        "turnip.sowing_and_planting.row_spacing",
+        "turnip.sowing_and_planting.notes"
+      ],
+      "status": "generated",
+      "approval": "new draft; not yet reviewed by user",
+      "attempts": 1,
+      "file": "drafts/2026-09-15/turnip/01-sow-a-fine-drill-v1.png",
+      "original": "/Users/johnlennon/.codex/generated_images/01a0a1a6-e9a1-7142-93c1-f53aed65e55d/exec-bf95d815-3011-4065-8236-565ca6f05436.png",
+      "qa": "Full-size reviewed; genuine alpha and 1774x887 verified. See preferredFile and refinement notes."
+    },
+    {
+      "crop": "turnip",
+      "id": "02-thin-for-intended-harvest-v1",
+      "title": "Thin for intended harvest",
+      "scene": "Crop turnip, stage 2 ONLY: small seedlings with source-specific room, not mature roots pulled for transplanting. Anatomy constraints: Tiny round brown brassica seeds, NOT elongated carrot seeds. Young turnip seedlings with small green cotyledons and slightly hairy/lobed true leaves, thin white roots and barely developing pale root neck, NOT mature purple/white globes. Thin in place, no replanting. ONE compact scene. Preserve all roots/leaves inside canvas. Main action is hand-sized, soil cutaway subtle. No text or numbers.",
+      "alt": "turnip: thin for intended harvest.",
+      "sourcePaths": [
+        "turnip.sowing_and_planting.method",
+        "turnip.sowing_and_planting.sowing_depth",
+        "turnip.sowing_and_planting.plant_spacing",
+        "turnip.sowing_and_planting.row_spacing",
+        "turnip.sowing_and_planting.notes"
+      ],
+      "status": "generated",
+      "approval": "new draft; not yet reviewed by user",
+      "attempts": 1,
+      "file": "drafts/2026-09-15/turnip/02-thin-for-intended-harvest-v1.png",
+      "original": "/Users/johnlennon/.codex/generated_images/01a0a1a6-e9a1-7142-93c1-f53aed65e55d/exec-ad7bb0a6-2b5c-46a1-a1c2-dc03719a461f.png",
+      "qa": "Full-size reviewed; genuine alpha and 1774x887 verified. See preferredFile and refinement notes."
+    }
+  ],
+  "reuse": [
+    {
+      "crop": "beet_leaf",
+      "stage": 1,
+      "file": "drafts/2026-09-15/beetroot/01-sow-clusters-v2.png",
+      "sourcePaths": [
+        "beet_leaf.sowing_and_planting.method",
+        "beet_leaf.sowing_and_planting.sowing_depth",
+        "beet_leaf.sowing_and_planting.plant_spacing",
+        "beet_leaf.sowing_and_planting.row_spacing",
+        "beet_leaf.sowing_and_planting.notes"
+      ],
+      "reason": "Same beet seed-cluster morphology and direct sowing depth as beetroot; final spacing captions differ."
+    },
+    {
+      "crop": "endive",
+      "stage": 1,
+      "file": "drafts/2026-09-15/chicory/01-sow-shallowly-v2.png",
+      "sourcePaths": [
+        "endive.sowing_and_planting.method",
+        "endive.sowing_and_planting.sowing_depth",
+        "endive.sowing_and_planting.plant_spacing",
+        "endive.sowing_and_planting.row_spacing",
+        "endive.sowing_and_planting.notes"
+      ],
+      "reason": "Same Cichorium short angular-achene sowing motif and shallow drill; endive final type/spacing text remains separate. Botanically schematic seed details, not a seed identification plate."
+    }
+  ]
+}
