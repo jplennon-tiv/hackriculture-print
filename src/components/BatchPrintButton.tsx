@@ -105,7 +105,7 @@ export function BatchPrintButton() {
                     borderRadius: 4,
                     cursor: running ? "wait" : "pointer",
                 }}
-                title="Render every vegetable and trouble group to ./output/"
+                title="Export the approved A4 cover and every vegetable and trouble group to ./output/"
             >
                 {running ? `🖨 ${pct}%` : "🖨 Batch print all"}
             </button>

@@ -4,10 +4,18 @@ export interface PlantingFitState {
     imageMm: number;
     showImages: boolean;
 }
-export interface PlantingFitOptions { minImageMm:number; maxImageMm:number; optionalNoteCount:number }
+export interface PlantingFitOptions { minImageMm:number; maxImageMm:number; optionalNoteCount:number; review?:boolean }
+/** Dense legacy sheets may already exceed 958px. Reuse only their measured
+ * height, never beyond the existing 965px page target or a larger new footprint. */
+export function plantingPageBudget(baselineHeight: number): number {
+    return Number.isFinite(baselineHeight) ? Math.max(958,Math.min(965,baselineHeight)) : 958;
+}
 /** Never changes other cards, truncates text or shrinks type. Every phase is bounded. */
 export function nextPlantingFit(state: PlantingFitState, gap: number, options: PlantingFitOptions): PlantingFitState {
     if (state.phase === 'done' || state.phase === 'error') return state;
+    // Explicit draft-only mode: retain illustrations and all frozen baseline text.
+    // Source/image readiness is still enforced by the caller; production is unchanged.
+    if (options.review) return {...state,phase:'done',noteCount:0,imageMm:options.minImageMm};
     if (state.phase === 'initial') {
         if (gap < 0) {
             if (state.showImages && state.imageMm > options.minImageMm) return {...state,imageMm:Math.max(options.minImageMm,state.imageMm-2)};

@@ -250,10 +250,10 @@ async function handleBatch(
         ) as Record<string, unknown>;
 
         const jobs: {
-            type: "vegetable" | "trouble";
+            type: "front-matter" | "vegetable" | "trouble";
             slug: string;
             label: string;
-        }[] = [];
+        }[] = [{type: "front-matter", slug: "cover", label: "Cover (A4)"}];
         for (const [key, veg] of Object.entries(vegetables)) {
             const slug = slugify(veg?.name ?? key);
             jobs.push({ type: "vegetable", slug, label: veg?.name ?? key });
@@ -267,6 +267,7 @@ async function handleBatch(
             total: jobs.length,
             vegetables: Object.keys(vegetables).length,
             troubles: Object.keys(troubles).length,
+            frontMatter: 1,
             outputDir,
         });
 
@@ -281,7 +282,10 @@ async function handleBatch(
             const job = jobs[i];
             const index = i + 1;
             try {
-                const pdf = await renderPdf(
+                // Approved, unit-independent A4 artwork; no AI/font/network work.
+                const pdf = job.type === "front-matter"
+                    ? await fs.readFile(path.join(root, "public/front-matter/cover-A4.pdf"))
+                    : await renderPdf(
                     page,
                     baseUrl,
                     job.type,
@@ -289,7 +293,8 @@ async function handleBatch(
                     units,
                     paper,
                 );
-                const filename = `${job.type}_${job.slug}.pdf`;
+                const filename = job.type === "front-matter"
+                    ? "00_cover_A4.pdf" : `${job.type}_${job.slug}.pdf`;
                 await fs.writeFile(path.join(outputDir, filename), pdf);
                 okCount++;
                 write({

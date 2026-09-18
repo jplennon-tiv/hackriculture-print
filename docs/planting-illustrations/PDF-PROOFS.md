@@ -1,5 +1,7 @@
 # Planting PDF proofs — restore point
 
+Historical proof stage below. John subsequently selected the existing-column version; five normal-export pilots are now installed. See [current production implementation](IMPLEMENTATION.md). The old full-width recommendation/next action is superseded.
+
 Status: complete for review, 16 September 2026. Review only; normal application exports and shared gardening data remain unchanged. Read [content comparison and validation](PDF-CONTENT-REVIEW.md) for the completed results and limitations.
 
 User requested the first five contextual PDF proofs (beetroot, carrot, potato, leek, chicory), and is interested in a full-width planting card with Final Tips moved into a smaller card. Compare existing-column and full-width arrangements. Preserve baseline visible content outside planting and record each planting-text change. No automatic trimming to accommodate art.

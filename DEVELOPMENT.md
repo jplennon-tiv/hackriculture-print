@@ -32,6 +32,8 @@ Core Needs uses 1–5 scores for sun, water and nutrition: PNG icons/five-cell b
 
 The intro fitter adds whole sentences to the same introduction after assets are ready, with bounded rollback when space runs out. There is no separate continuation below Core Needs.
 
+Page two uses the approved illustrated **existing-column** planting card for active crops; Final Tips stays full-width. `plantingIllustrations.ts` owns layout/measurement bindings; `PlantingCard.tsx` and `planting.module.css` render the widget. Normal fit uses bounded images and optional notes without trimming neighbouring advice. Review-only layouts require the explicit review query. Missing art falls back to text; stale captions, missing required measurements and unresolved normal-layout overflow block production export. See [implementation](docs/planting-illustrations/IMPLEMENTATION.md).
+
 ## Data contracts
 
 Read [SHARED-DATA.md](SHARED-DATA.md) for paths and ownership. Preserve these rules when editing data or validators:
@@ -42,6 +44,7 @@ Read [SHARED-DATA.md](SHARED-DATA.md) for paths and ownership. Preserve these ru
 - Measurements may be strings, `{imperial, metric}` pairs, variety-keyed values or null. Use `src/lib/measure.ts`. Unit selection does not rewrite prose; sowing-diagram geometry deliberately uses imperial values while labels reflect selected units.
 - Calendar values are `--MM` fragments and inclusive cyclic ranges, not timestamps. Use `harvest_time`, not obsolete picking/cutting/lifting/pulling keys. Structured durations and seasonal ranges are distinct concepts.
 - Vegetable routes derive from slugified display names; trouble routes use guide keys. Reuse `src/lib/slug.ts`. Broad bean's current key/route is `bean_broad`.
+- Optional `print_planting` stores granular print steps, supplementary text, source references, reviewed optional note paths and a source fingerprint. It supplements, never replaces, original gardening text. The admin JSON editor and explicit review confirmation support human edits; normal export never calls AI. Measurements are read live via explicit stage/variety bindings, not copied into captions. Referenced advice changes require caption review; number changes flow through automatically.
 
 ## Verification
 
@@ -49,9 +52,11 @@ Run focused checks after changes, then `npm test` and `npm run build` for code w
 
 For print changes, run `node scripts/check-transfer.mjs` with the local server running and visually inspect the resulting PDFs. It checks chicory, carrot, broad bean and lettuce in imperial/metric A4, plus a trouble PDF and login. Its two-page expectation applies to those crops only. Add targeted A5/A6 checks when paper sizing changes; avoid full-catalogue generation for routine work.
 
-The renderer uses a 688 × 979 viewport and waits for `document.body.dataset.printReady === "true"`. Preserve font/image readiness, bounded fitting, React StrictMode replay handling and conservative page budgets. Browser height does not prove PDF pagination. A5/A6 proportionally scale the A4 layout.
+The renderer uses a 688 × 979 viewport and waits for `document.body.dataset.printReady === "true"` or a non-empty `printError`. Errors stop export (single endpoint: HTTP 422; batch: per-crop failure). Preserve font/image readiness, bounded fitting, React StrictMode replay handling and conservative page budgets. Browser height does not prove PDF pagination. A5/A6 request scaling, but visual review found the existing fixed-A4 CSS page setup does not preserve the intended layout reliably; use A4 for reviewed output pending separate paper-size work.
 
 PDF endpoints: `GET /api/pdf/vegetable/:slug`, `GET /api/pdf/trouble/:slug`, `POST /api/pdf/batch`. See [SETUP.md](SETUP.md) for parameters and commands.
+
+Batch includes the approved cover first: `public/front-matter/cover-A4.pdf` is copied byte-for-byte to `output/00_cover_A4.pdf` and counted as a normal progress item. Cover failure is reported without stopping crop/trouble jobs. It always remains A4, independent of unit/paper selectors. Artwork lives in `public/images/front-matter/`; rebuild only after approved design edits with `node scripts/build-front-cover.mjs`. No generation or remote fonts are needed for the batch cover copy. See `public/front-matter/README.md` for source ownership.
 
 ## Asset maintenance
 
@@ -61,12 +66,15 @@ PDF endpoints: `GET /api/pdf/vegetable/:slug`, `GET /api/pdf/trouble/:slug`, `PO
 
 ## Current baseline and limitations
 
-Last application verification: 14 September 2026, Node 24.20.0. All 133 tests and the TypeScript/Vite build passed. Four representative crops produced eight two-page A4 PDFs with loaded images; the trouble PDF and login passed. Admin write/backup behaviour was checked against temporary fixtures. This is not a full-catalogue or A5/A6 audit.
+Current rollout checkpoint (18 September): illustrated POC output exists for all 44 crops, with 29 normal-active and 15 review-only layouts. [Final batch](docs/planting-illustrations/ROLLOUT-06.md) records basic readiness checks, pagination warnings and restore points. The user explicitly requested no regression suites or exhaustive proofing for these routine additions. `plantingReview=1` on the print page includes staged layouts and bypasses fit rejection only, with visible REVIEW labels; normal PDF endpoints retain their guards. Original source text and padding are unchanged. Earlier checks below are historical, not rerun claims.
+
+Earlier pilot verification: 16 September 2026, Node 24.20.0. All 159 tests and the TypeScript/Vite build passed. Five planting pilots produced 30 two-page PDFs across both units and A4/A5/A6; page-one text, baseline visible planting notes and neighbouring advice were retained. All A4 pilot backs and metric fronts were visually reviewed. The transfer smoke check also passed four representative crops in both units, a trouble PDF and login. Admin write/backup and batch error handling were checked against temporary fixtures; missing-art and source-change guards passed browser fault injection. No full-catalogue live batch was generated. Smaller-paper page counts pass but visual quality has the limitation below.
 
 Known issues, to address only within requested scope:
 
 - Some page-two overflow and unused Core Needs space remain; capsicum has previously produced three pages.
 - Some prose still contains imperial quantities in metric mode.
+- A5/A6 currently leave excessive whitespace and undersize text (observed in carrot/chicory exports); two-page/content checks do not imply visual approval. Paper-size CSS/renderer settings predate the planting widget and remain unchanged.
 - Ten missing trouble-image references are listed in `TRANSFER-MANIFEST.json`.
 - Inter and Playfair Display are fetched from Google Fonts; fully offline typography is not packaged and font timing can affect layout.
 - The build emits a large-chunk warning. The last dependency audit reported one moderate and five high advisories; remediation remains separate work.

@@ -20,7 +20,7 @@ export function PlantingCard({planting,fit,notes,onAssets}: {
     return <div ref={ref} className={`${styles.cheatCard} ${art.card} ${planting.layout.paired?art.paired:''}`}
         data-planting-card="illustrated" data-planting-images={fit.showImages?'shown':'text-fallback'}
         style={{'--planting-art-height':`${fit.imageMm}mm`} as CSSProperties}>
-        <div className={styles.cheatCardHd}>SOWING &amp; PLANTING</div>
+        <div className={styles.cheatCardHd}>SOWING &amp; PLANTING{planting.review?' - REVIEW':''}</div>
         <div className={art.stages}>
             {planting.steps.map((step,i)=><section className={art.stage} key={step.id}>
                 <h3 className={art.title}><span className={art.number}>{i+1}</span>{step.title}</h3>

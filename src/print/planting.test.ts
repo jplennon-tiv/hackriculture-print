@@ -4,8 +4,8 @@ import {resolve} from 'node:path';
 import type {Vegetable} from '../types';
 import {VegetableSchema,PlantingPrintContentSchema} from '../schema';
 import {plantingSourceFingerprint,plantingReviewIssue,readPlantingSource} from '../lib/planting';
-import {plantingLayouts,resolvePlanting} from './plantingIllustrations';
-import {nextPlantingFit,type PlantingFitState} from './plantingFit';
+import {plantingLayouts,pendingPlantingLayouts,resolvePlanting} from './plantingIllustrations';
+import {nextPlantingFit,plantingPageBudget,type PlantingFitState} from './plantingFit';
 
 const data=JSON.parse(readFileSync(resolve(import.meta.dirname,'../../../hackriculture-data/vegetables.json'),'utf8')) as Record<string,Vegetable>;
 const copy=(key='carrot')=>structuredClone(data[key]);
@@ -72,13 +72,157 @@ describe('additive, source-bound planting content',()=>{
         expect(readPlantingSource({},'__proto__.constructor')).toBeUndefined();
     });
     it('leaves non-pilots on the existing renderer',()=>{
-        expect(resolvePlanting(data.lettuce,'lettuce','metric')).toBeNull();
+        expect(resolvePlanting(data.asparagus,'asparagus','metric')).toBeNull();
         const veg=copy();delete veg.print_planting;
         expect(resolvePlanting(veg,'carrot','metric')).toBeNull();
+    });
+    it('keeps rollout crop variants bound to their own live fields',()=>{
+        const radish=copy('radish');
+        const spacing=radish.sowing_and_planting!.plant_spacing as Record<string,unknown>;
+        spacing.large_or_japanese_radishes={metric:'Oriental test spacing',imperial:'Oriental imperial'};
+        const r=resolvePlanting(radish,'radish','metric')!;
+        expect(r.measurements.find(m=>m.label==='Oriental plants')!.value).toBe('Oriental test spacing');
+        expect(r.measurements.find(m=>m.label==='Winter plants')!.value).toContain('15-20');
+        const t=resolvePlanting(data.turnip,'turnip','metric')!;
+        expect(t.measurements.find(m=>m.label==='Maincrop plants')!.value).toContain('23 cm');
+        expect(t.measurements.find(m=>m.label==='Baby / early plants')!.value).toContain('10 cm');
+        expect(t.measurements.find(m=>m.label==='Leaf-only plants')!.value).toContain('Heavy thinning is not usually needed');
+    });
+    it('retains nested swede instructions and separate species guidance',()=>{
+        const swede=resolvePlanting(data.swede,'swede','metric')!;
+        expect(swede.measurements[0].path).toBe('sowing_and_planting.seed_sowing.sowing_depth');
+        expect(swede.content.supplementary.some(t=>t.text.includes('pot-bound'))).toBe(true);
+        const changed=copy('swede');
+        (changed.sowing_and_planting!.seed_sowing as Record<string,unknown>).method='Changed sowing method';
+        expect(plantingReviewIssue(changed)).toMatch(/changed/);
+        const spinach=resolvePlanting(data.spinach,'spinach','metric')!;
+        expect(spinach.measurements.find(m=>m.label==='Rows')!.value).toBe('20 cm for true spinach');
+        expect(spinach.measurements.find(m=>m.label==='Final plants')!.value).toContain('7.5 cm');
+        expect(spinach.measurements.find(m=>m.label==='Final plants')!.value).toContain('15 cm');
+        expect(spinach.measurements.find(m=>m.label.includes('New Zealand'))!.value).toContain('1.2 m');
+        const salsify=resolvePlanting(data.salsify_scorzonera,'salsify_scorzonera','metric')!;
+        expect(salsify.measurements.every(m=>m.value.includes('scorzonera: follow'))).toBe(true);
+    });
+    it('separates brassica nursery rows from final crop and transplant measurements',()=>{
+        for(const key of ['broccoli','brussels_sprouts','cabbage','kale']) {
+            const result=resolvePlanting(data[key],key,'metric')!;
+            expect(result.measurements.find(m=>m.label==='Nursery rows')!.value).toContain('seed rows');
+            expect(result.measurements.find(m=>m.label==='Final spacing')!.path).toBe('sowing_and_planting.plant_spacing');
+        }
+        const broccoli=resolvePlanting(data.broccoli,'broccoli','metric')!;
+        expect(broccoli.measurements.find(m=>m.label==='Transplant depth')!.value).toContain('2.5 cm deeper');
+        expect(broccoli.steps[0].image).toContain('v2.png');
+        expect(resolvePlanting(data.kohl_rabi,'kohl_rabi','metric')!.steps[0].image).toContain('v2.png');
+    });
+    it('preserves cultivar and conditional routes in the brassica companions',()=>{
+        const cabbage=resolvePlanting(data.cabbage,'cabbage','metric')!;
+        expect(cabbage.content.supplementary[0].text).toContain('Chinese cabbage');
+        expect(cabbage.measurements.find(m=>m.label==='Final spacing')!.value).toContain('spring greens');
+        const cauliflower=resolvePlanting(data.cauliflower,'cauliflower','metric')!;
+        expect(cauliflower.measurements.find(m=>m.label==='Final plants')!.value).toContain('mini-cauliflowers');
+        const kale=resolvePlanting(data.kale,'kale','metric')!;
+        expect(kale.measurements.find(m=>m.label==='Final spacing')!.value).toContain('46 cm');
+        expect(kale.measurements.find(m=>m.label==='Final rows')!.value).toBe('At least 45 cm for standard rows');
+        expect(data.kale.sowing_and_planting!.notes![5].text).toContain('deep bed');
+        expect(kale.measurements.find(m=>m.label==='Transplant height')!.value).toBe('10-15 cm');
+        expect(resolvePlanting(data.kale,'kale','imperial')!.measurements.find(m=>m.label==='Transplant height')!.value).toBe('4-6 in.');
+        expect(kale.content.supplementary[0].text).toContain('Rape kale');
+    });
+    it('keeps clove cover separate from seed depth and preserves onion routes',()=>{
+        const garlic=resolvePlanting(data.garlic,'garlic','metric')!;
+        expect(garlic.measurements[0].path).toBe('sowing_and_planting.planting_depth');
+        expect(garlic.measurements[0].label).toBe('Soil above clove tip');
+        expect(garlic.measurements[0].value).toContain('2.5 cm');
+        expect(garlic.steps[1].image).toContain('v2.png');
+        const onions=resolvePlanting(data.onion_shallot,'onion_shallot','metric')!;
+        expect(onions.measurements[0].label).toBe('Seed depth (not sets)');
+        expect(onions.measurements[2].value).toContain('module clumps');
+        expect(onions.measurements[2].value).toContain('shallot sets');
+        expect(onions.content.supplementary[0].text).toContain('Seed route');
+        const changed=copy('onion_shallot');
+        (changed.sowing_and_planting!.planting as Record<string,unknown>).method='Changed set planting';
+        expect(plantingReviewIssue(changed)).toMatch(/changed/);
+    });
+    it('retains leaf-crop variants, nested sowing advice and selected reuse',()=>{
+        const oriental=resolvePlanting(data.oriental_leaves,'oriental_leaves','metric')!;
+        expect(oriental.measurements.find(m=>m.label==='Final plants / thinnings')!.value).toContain('3-5 cm for baby leaves');
+        expect(oriental.measurements.find(m=>m.label==='Final plants / thinnings')!.value).toContain('35 cm for Chinese cabbage hearts');
+        const changed=copy('oriental_leaves');
+        (changed.sowing_and_planting!.seed_sowing as Record<string,unknown>).method='Changed direct sowing';
+        expect(plantingReviewIssue(changed)).toMatch(/changed/);
+        expect(resolvePlanting(data.lettuce,'lettuce','metric')!.measurements[2].value).toContain('loose-leaf');
+        for(const [crop,original] of [['beet_leaf','beetroot/01-sow-clusters-v2.png'],['endive','chicory/01-sow-shallowly-v2.png']]) {
+            const scene=(plantingLayouts[crop]??pendingPlantingLayouts[crop]).stages[0].image;
+            expect(readFileSync(resolve(import.meta.dirname,'../../public',scene.slice(1))).equals(readFileSync(resolve(import.meta.dirname,'../../docs/planting-illustrations/drafts/2026-09-15',original)))).toBe(true);
+        }
+    });
+    it('keeps the prepared leaf-beet widget inactive until its legacy overflow is resolved',()=>{
+        expect(resolvePlanting(data.beet_leaf,'beet_leaf','metric')).toBeNull();
+        expect(PlantingPrintContentSchema.safeParse(data.beet_leaf.print_planting).success).toBe(true);
+        expect(plantingReviewIssue(data.beet_leaf)).toBeNull();
+        for(const stage of pendingPlantingLayouts.beet_leaf.stages)expect(existsSync(resolve(import.meta.dirname,'../../public',stage.image.slice(1)))).toBe(true);
+    });
+    it('keeps broad-bean row pairs and French-bean growing systems distinct',()=>{
+        const broad=resolvePlanting(data.bean_broad,'bean_broad','metric')!;
+        expect(broad.measurements.find(m=>m.label==='Within each row pair')!.value).toContain('23 cm');
+        expect(broad.measurements.find(m=>m.label==='Between row pairs')!.value).toContain('61 cm');
+        const french=resolvePlanting(data.bean_french,'bean_french','metric')!;
+        expect(french.measurements.find(m=>m.label==='Close-spaced dwarf rows: plants')!.value).toBe('10 cm');
+        expect(french.measurements.find(m=>m.label==='Dwarf blocks: plants')!.value).toBe('15 cm');
+        expect(french.measurements.find(m=>m.label==='Climbing supports')!.value).toContain('one plant per cane');
+        const changed=copy('bean_french');
+        (changed.sowing_and_planting as Record<string,unknown>).climbing_support_spacing={metric:'Changed spacing',imperial:'Changed imperial'};
+        expect(plantingReviewIssue(changed)).toBeNull();
+        expect(resolvePlanting(changed,'bean_french','metric')!.measurements.at(-1)!.value).toBe('Changed spacing');
+    });
+    it('retains full sweetcorn steps while combining raising and planting beside the selected block',()=>{
+        const corn=resolvePlanting(data.sweet_corn,'sweet_corn','metric')!;
+        expect(corn.content.steps).toHaveLength(3);
+        expect(corn.steps).toHaveLength(2);
+        expect(corn.steps[0].text).toContain('Sow in warm pots or modules');
+        expect(corn.steps[0].text).toContain('intact rootball');
+        expect(corn.steps[1].text).toContain('four or more');
+        expect(corn.steps[1].image).toContain('make-block-v4.png');
+        expect(corn.measurements.at(-1)!.value).toContain('baby corn');
+        const changed=copy('sweet_corn');
+        (changed.sowing_and_planting!.planting as Record<string,unknown>).method='Changed transplant route';
+        expect(plantingReviewIssue(changed)).toMatch(/changed/);
+    });
+    it.each(['bean_runner','pea'])('keeps %s prepared but inactive because its before PDF already overflows',key=>{
+        expect(resolvePlanting(data[key],key,'metric')).toBeNull();
+        expect(PlantingPrintContentSchema.safeParse(data[key].print_planting).success).toBe(true);
+        expect(plantingReviewIssue(data[key])).toBeNull();
+        for(const stage of pendingPlantingLayouts[key].stages)expect(existsSync(resolve(import.meta.dirname,'../../public',stage.image.slice(1)))).toBe(true);
     });
 });
 
 describe('bounded planting-only fitting',()=>{
+    it('permits illustration review without changing the production overflow guard',()=>{
+        const initial:PlantingFitState={phase:'initial',noteCount:0,imageMm:18,showImages:true};
+        const options={minImageMm:14,maxImageMm:22,optionalNoteCount:3};
+        expect(nextPlantingFit(initial,-500,{...options,review:true})).toEqual({...initial,phase:'done',imageMm:14});
+        expect(nextPlantingFit(initial,-500,options).phase).toBe('initial');
+        expect(resolvePlanting(data.pea,'pea','metric')).toBeNull();
+        expect(resolvePlanting(data.pea,'pea','metric',true)!.steps).toHaveLength(2);
+        const stale=copy('pea');stale.sowing_and_planting!.method='Changed advice';
+        expect(resolvePlanting(stale,'pea','metric',true)!.issue).toMatch(/changed/);
+    });
+    it('separates cucumber growing systems and squash cultivar spacing',()=>{
+        const greenhouse=resolvePlanting(data.cucumber_greenhouse,'cucumber_greenhouse','metric')!;
+        expect(greenhouse.measurements.some(m=>m.path.endsWith('row_spacing'))).toBe(false);
+        expect(greenhouse.measurements.find(m=>m.label==='Pots / bags / mounds')!.value).toContain('growing bag');
+        const outdoor=resolvePlanting(data.cucumber_outdoor,'cucumber_outdoor','metric')!;
+        expect(outdoor.measurements[0].label).toBe('Direct outdoor seed depth');
+        expect(outdoor.content.supplementary[0].text).toContain('June');
+        const squash=resolvePlanting(data.squash_pumpkin,'squash_pumpkin','metric')!;
+        expect(squash.measurements.find(m=>m.label==='Spacing by type')!.value).toContain('giant pumpkins');
+    });
+    it('allows only the existing dense baseline height, within a hard page cap',()=>{
+        expect(plantingPageBudget(920)).toBe(958);
+        expect(plantingPageBudget(961.5)).toBe(961.5);
+        expect(plantingPageBudget(1000)).toBe(965);
+        expect(plantingPageBudget(NaN)).toBe(958);
+    });
     const start:PlantingFitState={phase:'initial',noteCount:0,imageMm:18,showImages:true};
     const options={minImageMm:14,maxImageMm:22,optionalNoteCount:3};
     it('shrinks only artwork before text-only fallback, then reports overflow',()=>{

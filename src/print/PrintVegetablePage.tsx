@@ -648,7 +648,9 @@ function VegetablePrintSheet({
     system: UnitSystem;
 }) {
     const name = veg.name ?? key;
-    const planting=resolvePlanting(veg,key,system);
+    const [plantingSearchParams]=useSearchParams();
+    const plantingReview=plantingSearchParams.get('plantingReview')==='1';
+    const planting=resolvePlanting(veg,key,system,plantingReview);
 
     const rawVarieties = veg.varieties;
     const allVarietyEntries: VarietyEntry[] =
@@ -678,7 +680,7 @@ function VegetablePrintSheet({
         countSentences(veg.introduction ?? ""),
         varietyPool.length,
         true,
-        planting?{...planting.layout,optionalNoteCount:planting.content.optional_note_paths.length,issue:planting.issue}:null,
+        planting?{...planting.layout,review:plantingReview,optionalNoteCount:planting.content.optional_note_paths.length,issue:planting.issue}:null,
     );
     const keyRisksCount = 4;
 

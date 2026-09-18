@@ -1,5 +1,9 @@
 # Measurement review and provenance
 
+Rollout 02, 16 September: RHS checked kale final standard rows (at least 45 cm / 18 in.) and transplant height (10-15 cm / 4-6 in.). Added explicit live pairs only. All existing kale values, nursery guidance and qualified conventional/deep-bed alternatives remain unchanged. Nine intermediate draft edits were withdrawn before delivery; do not restore that interim master. See `../hackriculture-data/provenance/planting-rollout02-rhs-2026-09-16.json` relative to print root and [RHS kale](https://www.rhs.org.uk/vegetables/kale/grow-your-own). Website kale prose has no conflicting numeric paragraph and remains untouched. Existing cauliflower chemical-treatment notes were not promoted into new captions or optional notes; this rollout does not certify older pesticide advice.
+
+16 September rollout update: eight additional existing leaves corrected in spinach (depth, rows, staged thinning pairs) and salsify/scorzonera (full/short care spacing). Exact old/new values and RHS URLs are in `../hackriculture-data/provenance/planting-rollout01-rhs-2026-09-16.json` relative to the print project. Earlier audits below remain intact; this is still not a complete horticultural audit. Website approved prose was not rewritten.
+
 Reviewed 14–15 September 2026. John explicitly authorised RHS checks and correction of conflicting measurements. This is a targeted review for planting illustrations, not certification of every gardening claim in the collection.
 
 ## Applied first correction batch

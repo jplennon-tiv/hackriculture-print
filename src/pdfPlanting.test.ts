@@ -27,10 +27,12 @@ describe('shared single and batch print guard',()=>{
         await expect(renderPdf(mock.page as unknown as Page,'http://localhost:5173','vegetable','bad')).rejects.toBeInstanceOf(PrintContentError);
         expect(mock.page.pdf).not.toHaveBeenCalled();
     });
-    it('batch uses the guarded renderer and continues after a review-needed crop',async()=>{
+    it.each([true,false])('batch handles cover presence %s and continues after item failures',async(coverPresent)=>{
         const temporary=mkdtempSync(join(tmpdir(),'planting-batch-test-'));
         const root=join(temporary,'hackriculture-print'),shared=join(temporary,'hackriculture-data');
         mkdirSync(root);mkdirSync(shared);
+        mkdirSync(join(root,'public/front-matter'),{recursive:true});
+        if(coverPresent)writeFileSync(join(root,'public/front-matter/cover-A4.pdf'),'%PDF-approved-cover');
         writeFileSync(join(shared,'vegetables.json'),JSON.stringify({carrot:{name:'Carrot'},bad:{name:'Bad'},leek:{name:'Leek'}}));
         writeFileSync(join(shared,'troubles.json'),'{}');
         let handler: (...args:any[])=>Promise<void>;
@@ -42,7 +44,10 @@ describe('shared single and batch print guard',()=>{
         try{
             await handler!({url:'/api/pdf/batch?units=metric&paper=A4',method:'POST'},res,vi.fn());
             const events=chunks.map(s=>JSON.parse(s));
-            expect(events.at(-1)).toMatchObject({event:'done',total:3,ok:2,errors:1});
+            expect(events.at(-1)).toMatchObject({event:'done',total:4,ok:coverPresent?3:2,errors:coverPresent?1:2});
+            expect(events[1]).toMatchObject({type:'front-matter',slug:'cover',status:coverPresent?'ok':'error'});
+            if(coverPresent)expect(readFileSync(join(root,'output/00_cover_A4.pdf'),'utf8')).toBe('%PDF-approved-cover');
+            else expect(existsSync(join(root,'output/00_cover_A4.pdf'))).toBe(false);
             expect(events.find(e=>e.slug==='bad')).toMatchObject({status:'error',detail:expect.stringContaining('Review captions')});
             expect(readFileSync(join(root,'output/vegetable_carrot.pdf'),'utf8')).toBe('%PDF-test');
             expect(existsSync(join(root,'output/vegetable_bad.pdf'))).toBe(false);

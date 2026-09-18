@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useLayoutEffect, useRef, useState } from "react";
-import { nextPlantingFit, type PlantingFitState } from './plantingFit';
+import { nextPlantingFit, plantingPageBudget, type PlantingFitState } from './plantingFit';
 import {
     introContentBudget,
     introFitAction,
@@ -21,7 +21,7 @@ export function useVegetableLayout(
     totalSentences: number,
     maxVarieties: number,
     staggeredHero = false,
-    planting?: {imageMm:number;minImageMm:number;maxImageMm:number;optionalNoteCount:number;issue:string|null} | null,
+    planting?: {imageMm:number;minImageMm:number;maxImageMm:number;optionalNoteCount:number;issue:string|null;review?:boolean} | null,
 ) {
     const sentenceCap = Math.min(totalSentences, LAYOUT_LIMITS.introSentences);
     const [phase, setPhase] = useState<LayoutPhase>("intro");
@@ -45,6 +45,7 @@ export function useVegetableLayout(
     const previousIntroGap = useRef<number | null>(null);
     const previousPage2Gap = useRef<number | null>(null);
     const [plantingActive,setPlantingActive]=useState(false);
+    const plantingBudget=useRef(958);
     const [plantingImagesReady,setPlantingImagesReady]=useState(false);
     const [plantingImagesFailed,setPlantingImagesFailed]=useState(false);
     const [plantingFit,setPlantingFit]=useState<PlantingFitState>({phase:'initial',noteCount:0,imageMm:planting?.imageMm??18,showImages:true});
@@ -186,6 +187,7 @@ export function useVegetableLayout(
             document.body.dataset.printReady = "false";
             delete document.body.dataset.printError;
             delete document.body.dataset.plantingLayout;
+            delete document.body.dataset.plantingReview;
         };
     }, []);
 
@@ -219,7 +221,11 @@ export function useVegetableLayout(
     }, [phase, assetsReady, extraSentences, introSentences, sentenceCap]);
 
     useLayoutEffect(()=>{
-        if(planting&&!planting.issue&&phase==='done'&&page2Ready&&assetsReady&&!plantingActive) setPlantingActive(true);
+        if(planting&&!planting.issue&&phase==='done'&&page2Ready&&assetsReady&&!plantingActive) {
+            const page=page2Ref.current,sentinel=page2SentinelRef.current;
+            if(page&&sentinel)plantingBudget.current=plantingPageBudget(contentHeight(page,sentinel));
+            setPlantingActive(true);
+        }
     },[planting,phase,page2Ready,assetsReady,plantingActive]);
 
     useLayoutEffect(()=>{
@@ -227,7 +233,7 @@ export function useVegetableLayout(
         if(plantingImagesFailed&&plantingFit.showImages){setPlantingFit(s=>({...s,showImages:false}));return;}
         const page=page2Ref.current,sentinel=page2SentinelRef.current;
         if(!page||!sentinel)return;
-        const gap=958-contentHeight(page,sentinel);
+        const gap=plantingBudget.current-contentHeight(page,sentinel);
         const next=nextPlantingFit(plantingFit,gap,planting);
         if(next!==plantingFit)setPlantingFit(next);
     },[planting,plantingActive,plantingImagesReady,plantingImagesFailed,plantingFit]);
@@ -235,6 +241,7 @@ export function useVegetableLayout(
     useLayoutEffect(() => {
         document.body.dataset.printError=planting?.issue??(plantingFit.phase==='error'?'Planting instructions exceed the safe page budget. Review this crop layout; no advice was silently removed.':'');
         document.body.dataset.plantingLayout=planting?`${plantingActive?plantingFit.phase:'baseline'}:${plantingFit.noteCount}:${plantingFit.imageMm}:${plantingFit.showImages?'images':'text'}`:'legacy';
+        document.body.dataset.plantingReview=String(!!planting?.review);
         document.body.dataset.printReady = String(
             phase === "done" && page2Ready && assetsReady && (!planting||!!planting.issue||(plantingActive&&plantingImagesReady&&['done','error'].includes(plantingFit.phase))),
         );

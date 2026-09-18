@@ -1,5 +1,7 @@
 # Five-crop PDF content review
 
+Historical comparison below. The existing-column option was selected and implemented; see [production implementation and final checks](IMPLEMENTATION.md) for current status. Full-width was not installed.
+
 16 September 2026. Review prototypes only; no production widget installation or shared-data edits.
 
 ## What to open

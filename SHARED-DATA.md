@@ -12,6 +12,8 @@ The [cross-project contract](../hackriculture-data/SHARED-DATA.md) describes the
 
 The three master files originated from this print project's latest source. Print components import them directly; `adminApiPlugin.ts` reads/writes the same shared files. There are no local JSON mirrors. Navigation groups are currently read directly rather than edited through the admin UI.
 
+All 44 crop records now carry an additive `print_planting` editorial companion and all 44 layouts are active in normal/batch exports. This supplements, never replaces, granular gardening prose. Captions are source-linked and stored; normal export needs no AI. Measurements resolve from the live master where bound. Website prose and video scripts are not regenerated. See [current status](docs/planting-illustrations/ROLLOUT-06.md).
+
 Every admin save or image-reference change backs up the previous JSON bytes as `vegetables_YYYY-MM-DD_vN.json` or `troubles_YYYY-MM-DD_vN.json`. Repeated same-day writes increment N; no versions are pruned. This backs up JSON, not image binaries. Illustrations remain in this project's `public/` directory.
 
 To restore, stop the print server and copy the selected backup into the corresponding master filename in `hackriculture-data`. Restore both datasets together when undoing a change that affected both. Run the print tests and shared verifier before restarting. Never restore source/root pairs or use dated reference snapshots as the live source.
