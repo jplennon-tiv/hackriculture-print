@@ -1,5 +1,7 @@
 # Shared data and backups
 
+18 September cleanup: use Git for source/docs/artwork history and local shared JSON snapshots for data recovery. Do not create whole-project/media/PDF backup copies. Generated output and dist are disposable and ignored. See [cleanup record](../hackriculture-data/planning/CLEANUP-2026-09-18.md); older checkpoint paths in progress notes are historical and their contents are recoverable from the documented Trash location.
+
 The [cross-project contract](../hackriculture-data/SHARED-DATA.md) describes the shared layout and history. For routine print work:
 
 | Resource | Location relative to this project |

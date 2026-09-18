@@ -3,7 +3,7 @@
 Read README.md and SHARED-DATA.md first, then only the DEVELOPMENT.md sections relevant to the requested work. Read SETUP.md when working on startup or dependencies.
 
 - Keep work focused and replies concise; the user wants to conserve credits. Inspect the owning implementation and nearby tests. Avoid repeated broad scans, unrelated improvements and full-catalogue renders. Do not spawn agents unless explicitly requested.
-- Preserve existing user edits. Before manual file changes, make a dated backup of affected files under `../hackriculture-data/backups/`. This project has no Git history; never delete existing backups.
+- Preserve existing user edits. This project now has Git history. Keep local pre-edit backups for shared JSON under `../hackriculture-data/backups/`; use Git for code and documentation history. Do not create whole-project checkpoints or copy artwork, output PDFs, dist or dependencies into data backups. John authorised pruning redundant backups on 18 September 2026; see the shared cleanup record.
 - Preserve the accepted staggered print layout, borders/dark headings, 19 Quick Facts icons, 1–5 Core Needs scale and lossless hero crops unless the user requests changes to them. Do not revive rejected layout experiments.
 - Gardening JSON lives only in `../hackriculture-data/`. Never recreate source/root mirrors. Every admin data mutation must preserve the previous bytes in `../hackriculture-data/backups/admin/` using the existing dated version scheme.
 - Preserve keyed objects, unknown fields, ranked text, measurement pairs and cyclic `--MM` month values. Keep `src/types.ts`, Zod schemas and admin validation aligned. Reuse `src/lib/` helpers.

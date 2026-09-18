@@ -12,8 +12,8 @@ const icons={};for(const k of ['sow','harvest','depth','row_spacing','plant_spac
 for(const k of ['sun','water','nutrition'])icons[k]=await asset(`public/images/icons/${k}.png`);
 const sow=await asset('public/images/planting/carrot/sow-thinly-v1.png');
 const thin=await asset('public/images/planting/carrot/thin-later-v1.png');
-const front=await asset('output/pdf/planting-production/qa/carrot-metric-A4-front.png');
-const back=await asset('output/pdf/planting-production/qa/carrot-metric-A4-illustrated.png');
+const front=await asset('docs/front-matter/references/carrot-metric-A4-front.png');
+const back=await asset('docs/front-matter/references/carrot-metric-A4-illustrated.png');
 const img=(src,cls='',style='')=>`<img src="${src}" class="${cls}" style="${style}" alt="">`;
 const number=n=>`<b class="number">${n}</b>`;
 const foot=(concept,page)=>`<footer><span>VEGETABLE CHEAT SHEETS</span><span>${concept} / ${page} · CONCEPT MOCKUP</span></footer>`;
