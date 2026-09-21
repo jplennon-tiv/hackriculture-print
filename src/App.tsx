@@ -15,8 +15,8 @@ import PaperToggle from "./components/PaperToggle";
 import { UnitsProvider } from "./lib/units";
 import { PaperProvider } from "./lib/paper";
 import { VegetablePage } from "./components/VegetablePage";
-import vegetablesJson from "../../hackriculture-data/vegetables.json";
-import troublesJson from "../../hackriculture-data/troubles.json";
+import vegetablesJson from "../../hackriculture-data/generated/master/vegetables.json";
+import troublesJson from "../../hackriculture-data/generated/master/troubles.json";
 import type { GardeningData, TroublesData } from "./types";
 import { slugify } from "./lib/slug";
 import {

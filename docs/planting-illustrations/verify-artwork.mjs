@@ -1,3 +1,5 @@
+import {refreshGenerated} from '../../../hackriculture-data/lib/records.mjs';
+refreshGenerated();
 // Read-only complete catalogue, preferred/reused PNG and source binding verification.
 import fs from 'node:fs';
 import path from 'node:path';
@@ -5,7 +7,7 @@ import assert from 'node:assert/strict';
 import sharp from 'sharp';
 import { fileURLToPath } from 'node:url';
 const root = path.dirname(fileURLToPath(import.meta.url));
-const master = JSON.parse(fs.readFileSync(path.resolve(root, '../../../hackriculture-data/vegetables.json')));
+const master = JSON.parse(fs.readFileSync(path.resolve(root, '../../../hackriculture-data/generated/master/vegetables.json')));
 const batches = fs.readdirSync(root).filter(f => /^BATCH-\d+\.json$/.test(f)).sort().map(f => JSON.parse(fs.readFileSync(path.join(root, f))));
 const placements = new Map();
 const originals = new Set();

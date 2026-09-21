@@ -192,7 +192,10 @@ export const CoreNeedsSchema = z.looseObject({
     nutrition: z.number().min(1).max(5).nullable(),
 });
 
+const FieldAuditSchema=z.record(z.string(),z.looseObject({updated_at:z.string().datetime().nullable(),updated_by:z.string().min(1),deleted:z.boolean().optional()}));
 export const VegetableSchema = z.looseObject({
+    _field_metadata:FieldAuditSchema.optional(),
+    image_revision:z.string().regex(/^[a-f0-9]{64}$/).optional(),
     name: z.string().nullable().optional(),
     image: z.string().nullable().optional(),
     image_thumbnail: z.string().nullable().optional(),
@@ -234,7 +237,32 @@ const ActivePeriod = z.union([
     z.null(),
 ]);
 
+export const TroublePrintSummarySchema = z.looseObject({
+    version: z.literal(1),
+    status: z.enum(['approved', 'draft']),
+    source: z.looseObject({description: z.string().nullable(), treatment: z.string().nullable(), prevention: z.string().nullable()}),
+    recognise: z.string().nullable(),
+    act: z.string().nullable(),
+    prevent: z.string().nullable(),
+});
+
+export const AiFieldReviewSchema = z.looseObject({
+    updated_at: z.string().datetime(), updated_by: z.string().min(1),
+    status: z.enum(['draft', 'approved']), locked: z.boolean(),
+    dependencies: z.record(z.string(), z.string()), output_signature: z.string(),
+});
+export const AiPrintRecordSchema = z.looseObject({
+    ai_description: z.string().nullable().optional(),
+    ai_treatment: z.string().nullable().optional(),
+    ai_prevention: z.string().nullable().optional(),
+    ai_print: z.looseObject({version: z.literal(1), fields: z.looseObject({
+        description: AiFieldReviewSchema.optional(), treatment: AiFieldReviewSchema.optional(), prevention: AiFieldReviewSchema.optional(),
+    })}).optional(),
+});
 export const TroubleConditionSchema = z.looseObject({
+    image_revision:z.string().regex(/^[a-f0-9]{64}$/).optional(),
+    ...AiPrintRecordSchema.shape,
+    print_summary: TroublePrintSummarySchema.nullable().optional(),
     name: z.string(),
     image: z.string().nullable().optional(),
     visual_heading: z.string().nullable().optional(),
@@ -255,6 +283,15 @@ export const SymptomRowSchema = z.looseObject({
 });
 
 export const TroubleGroupSchema = z.looseObject({
+    _field_metadata:FieldAuditSchema.optional(),
+    ai_introduction: z.string().optional(),
+    ai_layout: z.looseObject({
+        version:z.literal(1),status:z.enum(['draft','approved']),renderer:z.string(),source_signature:z.string(),
+        updated_at:z.string().datetime(),updated_by:z.string().min(1),hero_images:z.array(z.string()),
+        pages:z.array(z.looseObject({intro_height_mm:z.number().positive().max(150).optional(),
+            columns:z.array(z.array(z.looseObject({key:z.string(),height_mm:z.number().positive().max(238)}))).length(2),
+        })).min(1),
+    }).optional(),
     source_heading: z.string(),
     applies_to: StringArray.optional(),
     introduction: z.string().nullable().optional(),

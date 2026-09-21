@@ -1,3 +1,5 @@
+import {refreshGenerated} from '../../../hackriculture-data/lib/records.mjs';
+refreshGenerated();
 // Review-only browser transformation. Does not modify the app or shared data.
 import fs from 'node:fs/promises';
 import path from 'node:path';
@@ -10,7 +12,7 @@ const root = path.dirname(fileURLToPath(import.meta.url));
 const project = path.resolve(root, '../..');
 const output = path.join(project, 'output/pdf/planting-proofs');
 await fs.mkdir(output, { recursive: true });
-const sourceBytes = await fs.readFile(path.resolve(project, '../hackriculture-data/vegetables.json'));
+const sourceBytes = await fs.readFile(path.resolve(project, '../hackriculture-data/generated/master/vegetables.json'));
 const master = JSON.parse(sourceBytes);
 const masterHash = createHash('sha256').update(sourceBytes).digest('hex');
 const crops = ['beetroot', 'carrot', 'potato', 'leek', 'chicory'];

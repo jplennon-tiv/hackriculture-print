@@ -1,4 +1,6 @@
 import type { PlantingPrintContent } from './lib/planting';
+import type { AiPrintRecord } from './lib/aiPrint';
+import type { TroubleLayoutPlan } from './print/troublePlan';
 
 export interface RankedText {
     text: string;
@@ -173,7 +175,11 @@ export interface CoreNeeds {
     nutrition: number | null;
 }
 
-export interface Vegetable {
+export interface AuditedRecord {
+    _field_metadata?: Record<string,{updated_at:string|null;updated_by:string;deleted?:boolean}>;
+}
+export interface Vegetable extends AuditedRecord {
+    image_revision?:string;
     name?: string | null;
     image?: string | null;
     image_thumbnail?: string | null;
@@ -206,7 +212,16 @@ export interface Vegetable {
 export type GardeningData = Record<string, Vegetable>;
 // ── Troubles detail types ─────────────────────────────────────────────────────
 
-export interface TroubleCondition {
+export interface TroubleCondition extends AiPrintRecord {
+    image_revision?:string;
+    print_summary?: {
+        version: 1;
+        status: 'approved' | 'draft';
+        source: { description: string | null; treatment: string | null; prevention: string | null };
+        recognise: string | null;
+        act: string | null;
+        prevent: string | null;
+    } | null;
     name: string;
     image?: string | null;
     visual_heading?: string | null;
@@ -236,7 +251,9 @@ export interface SymptomRow {
     likely_causes: (string | number)[];
 }
 
-export interface TroubleGroup {
+export interface TroubleGroup extends AuditedRecord {
+    ai_introduction?: string;
+    ai_layout?: TroubleLayoutPlan;
     source_heading: string;
     applies_to?: string[];
     introduction?: string | null;

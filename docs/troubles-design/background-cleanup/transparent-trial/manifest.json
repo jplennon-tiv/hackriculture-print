@@ -1,0 +1,97 @@
+{
+  "version": 1,
+  "generatedAt": "2026-09-21T11:17:37.920Z",
+  "method": "Alpha-only: edge-connected light-neutral flood (RGB min >=235, chroma <=10), then a bounded one-pixel light-edge feather. RGB channels retained exactly.",
+  "backgroundsReviewed": [
+    "#ffffff",
+    "#e8f1e4",
+    "#30383d"
+  ],
+  "entries": [
+    {
+      "id": "brassica_troubles/boron_deficiency",
+      "group": "brassica_troubles",
+      "key": "boron_deficiency",
+      "source": "public/images/troubles/brassica_troubles/blown_brussels_sprouts.png",
+      "sourceSha256": "1841ea6d4bda18627e791be5045e865fb52a368f276f9c344b36a4cc3c8438fa",
+      "output": "public/images/troubles/transparent-trial/brassica_troubles/boron_deficiency-v1.png",
+      "outputSha256": "3ea6a65504dd496740ae2c8d0208c2a7bbb23e89ccedc8a737f98bafe40afd4a",
+      "stats": {
+        "width": 1254,
+        "height": 1254,
+        "transparentPixels": 815686,
+        "transparentFraction": 0.5187139590312595,
+        "featheredPixels": 30,
+        "rgbChangedPixels": 0
+      }
+    },
+    {
+      "id": "bean_and_pea_troubles/pea_moth",
+      "group": "bean_and_pea_troubles",
+      "key": "pea_moth",
+      "source": "public/images/troubles/bean_and_pea_troubles/pea_moth.png",
+      "sourceSha256": "4d01a4714ed257a962a10897c52331d1ea7803f5ce084ea32c35529f1c65bf59",
+      "output": "public/images/troubles/transparent-trial/bean_and_pea_troubles/pea_moth-v1.png",
+      "outputSha256": "d712ba3a562ed0af2fc002b9218eefea994e3756763f31cd14ac9a591761ce42",
+      "stats": {
+        "width": 1254,
+        "height": 1254,
+        "transparentPixels": 1235167,
+        "transparentFraction": 0.7854718171389035,
+        "featheredPixels": 13,
+        "rgbChangedPixels": 0
+      }
+    },
+    {
+      "id": "carrot_and_parsnip_troubles/green_top",
+      "group": "carrot_and_parsnip_troubles",
+      "key": "green_top",
+      "source": "public/images/troubles/carrot_and_parsnip_troubles/green_top.png",
+      "sourceSha256": "4e2a4f106b4a1233ac4076ec6275b46637cadb3b9d4f455be07988fe65fb6ad8",
+      "output": "public/images/troubles/transparent-trial/carrot_and_parsnip_troubles/green_top-v1.png",
+      "outputSha256": "2b43499a4a426789aadd0ab9d2b08c3f4e3120ec234e2d4ef305da0424997730",
+      "stats": {
+        "width": 1254,
+        "height": 1254,
+        "transparentPixels": 1186230,
+        "transparentFraction": 0.7543516250391094,
+        "featheredPixels": 304,
+        "rgbChangedPixels": 0
+      }
+    },
+    {
+      "id": "bean_and_pea_troubles/powdery_mildew",
+      "group": "bean_and_pea_troubles",
+      "key": "powdery_mildew",
+      "source": "public/images/troubles/bean_and_pea_troubles/no_pods.png",
+      "sourceSha256": "bceb76f3ee2236b6a07e4900b302fb3f0733a255bc812019970442ccdb7089ac",
+      "output": "public/images/troubles/transparent-trial/bean_and_pea_troubles/powdery_mildew-v1.png",
+      "outputSha256": "46a7efc06b6090898cbefc1527bcfcf47e25db9cbfae89c16ddff9cf14fb83ed",
+      "stats": {
+        "width": 1254,
+        "height": 1254,
+        "transparentPixels": 974889,
+        "transparentFraction": 0.6199549002999015,
+        "featheredPixels": 71,
+        "rgbChangedPixels": 0
+      }
+    },
+    {
+      "id": "brassica_troubles/frost",
+      "group": "brassica_troubles",
+      "key": "frost",
+      "source": "public/images/troubles/brassica_troubles/frost-v2.png",
+      "sourceSha256": "6a54d2ea33c403006e3f0bcc162aaf7d6801acf4c550c71cd1a11d81c4bfd31d",
+      "output": "public/images/troubles/transparent-trial/brassica_troubles/frost-v1.png",
+      "outputSha256": "2dc2654f927c8a9147f32c0dedbc98e2ca495dbc23c6fb43dbe189ffd3a73b6e",
+      "stats": {
+        "width": 1312,
+        "height": 1199,
+        "transparentPixels": 709015,
+        "transparentFraction": 0.45071540816534106,
+        "featheredPixels": 111,
+        "rgbChangedPixels": 0
+      }
+    }
+  ]
+}

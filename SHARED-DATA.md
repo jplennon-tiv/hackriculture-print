@@ -6,19 +6,25 @@ The [cross-project contract](../hackriculture-data/SHARED-DATA.md) describes the
 
 | Resource | Location relative to this project |
 | --- | --- |
-| Master crop records | `../hackriculture-data/vegetables.json` |
-| Master trouble groups | `../hackriculture-data/troubles.json` |
+| Master crop records | `../hackriculture-data/vegetables/<key>/<key>.json` |
+| Master trouble groups | `../hackriculture-data/troubles/<key>/<key>.json` |
+| Manifest / shared reader-writer | `../hackriculture-data/records.json` / `lib/records.mjs` |
+| Disposable browser projections | `../hackriculture-data/generated/master/` |
 | Navigation groups | `../hackriculture-data/vegetable_groups.json` |
 | Admin JSON backups | `../hackriculture-data/backups/admin/` |
 | Website editorial resources | `../hackriculture-data/website/` |
 
-The three master files originated from this print project's latest source. Print components import them directly; `adminApiPlugin.ts` reads/writes the same shared files. There are no local JSON mirrors. Navigation groups are currently read directly rather than edited through the admin UI.
+Per-record migration completed 19 September. Admin reads/writes through the shared store; saves include a revision and reject stale browser tabs. Changed leaf fields receive `_field_metadata` audit entries. Browser components import generated projections, refreshed at Vite startup/build, after admin writes and on watched record changes. Navigation groups remain read directly. Root combined vegetables.json/troubles.json are retired, with exact bytes preserved in the migration backup.
 
 All 44 crop records now carry an additive `print_planting` editorial companion and all 44 layouts are active in normal/batch exports. This supplements, never replaces, granular gardening prose. Captions are source-linked and stored; normal export needs no AI. Measurements resolve from the live master where bound. Website prose and video scripts are not regenerated. See [current status](docs/planting-illustrations/ROLLOUT-06.md).
 
-Every admin save or image-reference change backs up the previous JSON bytes as `vegetables_YYYY-MM-DD_vN.json` or `troubles_YYYY-MM-DD_vN.json`. Repeated same-day writes increment N; no versions are pruned. This backs up JSON, not image binaries. Illustrations remain in this project's `public/` directory.
+Each changed record gets an exact preceding-byte JSON backup in a timestamp/UUID transaction folder under shared backups/admin. The transaction.json journal maps backups to canonical paths. Unchanged records are not rewritten/backed up. Image uploads record content hashes even when paths stay the same. Backups are JSON-only; illustrations remain in public and Git history.
 
-To restore, stop the print server and copy the selected backup into the corresponding master filename in `hackriculture-data`. Restore both datasets together when undoing a change that affected both. Run the print tests and shared verifier before restarting. Never restore source/root pairs or use dated reference snapshots as the live source.
+Troubles conditions may also carry an additive `print_summary`: version 1, approval status, exact source prose snapshot and recognise/act/prevent strings (nullable). Four pilot companions were approved/installed on 19 September. Full descriptions/treatments/preventions remain unchanged. Export uses a summary only while approved and source-current; otherwise it prints full prose and warns. No AI is needed for single/batch export. Website/video consumers continue to use their existing fields.
+
+John approved the corrected carrot/parsnip proof on 19 September. Its ai_ text, per-field reviews and layout are now approved and active in normal exports. Source/output signatures detect edits; granular source prose remains intact. AI writes are restricted to ai_ fields by default and cannot unlock protected review records, silently accept manual edits or approve their own drafts. Existing print_planting and print_summary layers remain intact. Source audit timestamps are managed by the shared writer; raw file edits bypass stamping but are still detected by print signatures.
+
+To restore, stop writers and use the transaction journal to restore prior bytes to exact per-record paths. Restore affected transactions together, refresh generated projections and validate before restarting. A crash lock or prepared journal requires inspection, not blind deletion. Restoring pre-migration aggregates requires the corresponding code rollback; never recreate them alongside current records as editable masters.
 
 Website prose remains a separately approved editorial layer in the shared folder. Its 16 linked measurement facts resolve from master records at build/startup; approved paragraphs and scoped calendars are not automatically rewritten. Review those adaptations for consistency after changing advice, and restart/rebuild the website to refresh its output. Existing video scripts/media remain reviewed production artifacts and are not regenerated by admin saves.
 

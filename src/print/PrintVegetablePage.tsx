@@ -1,6 +1,6 @@
 import { useParams, useSearchParams } from "react-router-dom";
-import vegetablesJson from "../../../hackriculture-data/vegetables.json";
-import troublesJson from "../../../hackriculture-data/troubles.json";
+import vegetablesJson from "../../../hackriculture-data/generated/master/vegetables.json";
+import troublesJson from "../../../hackriculture-data/generated/master/troubles.json";
 import palettesJson from "./vegetable_palettes.json";
 import heroImageCropsJson from "./heroImageCrops.json";
 import type { GardeningData, TroublesData, Vegetable } from "../types";

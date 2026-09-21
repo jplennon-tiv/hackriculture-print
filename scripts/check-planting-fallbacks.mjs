@@ -1,3 +1,5 @@
+import {refreshGenerated} from '../../hackriculture-data/lib/records.mjs';
+refreshGenerated();
 // Browser-only fault injection. Does not change source files or saved data.
 import assert from 'node:assert/strict';
 import {chromium} from 'playwright';
@@ -14,7 +16,7 @@ try{
     console.log('PASS: missing artwork retains captions, measurements and notes; bounded text-only fallback becomes ready.');
     await page.unrouteAll();
     let intercepted=false;
-    await page.route('**/hackriculture-data/vegetables.json*',async route=>{
+    await page.route('**/hackriculture-data/generated/master/vegetables.json*',async route=>{
         const response=await route.fetch();const original=await response.text();
         const old='Sow direct, very thinly, in shallow drills and cover lightly with fine soil or compost.';
         assert(original.includes(old));intercepted=true;

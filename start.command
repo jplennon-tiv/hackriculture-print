@@ -10,7 +10,7 @@ if ! command -v node >/dev/null || ! command -v npm >/dev/null; then
     print 'Install a supported Node.js version first; see SETUP.md.'
     exit 1
 fi
-for data_file in vegetables.json troubles.json vegetable_groups.json; do
+for data_file in records.json lib/records.mjs vegetable_groups.json; do
     if [[ ! -f "../hackriculture-data/$data_file" ]]; then
         print "Missing shared data: ../hackriculture-data/$data_file. See SHARED-DATA.md."
         exit 1

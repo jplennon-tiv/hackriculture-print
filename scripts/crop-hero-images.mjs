@@ -1,3 +1,5 @@
+import {refreshGenerated} from '../../hackriculture-data/lib/records.mjs';
+refreshGenerated();
 import assert from "node:assert/strict";
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
@@ -5,7 +7,7 @@ import sharp from "sharp";
 
 const root = new URL("../", import.meta.url);
 const data = JSON.parse(
-    await readFile(new URL("../hackriculture-data/vegetables.json", root), "utf8"),
+    await readFile(new URL("../hackriculture-data/generated/master/vegetables.json", root), "utf8"),
 );
 const args = process.argv.slice(2);
 const keys = args.includes("--all")

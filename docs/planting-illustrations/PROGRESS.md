@@ -1,5 +1,7 @@
 # Planting illustrations: resume here
 
+Latest update: normal exports now allow layout overflow with illustrations retained, per John's manual-editing workflow. Batch lists guide/page-budget warnings and actual PDF counts above two pages; all results are also recorded in output/batch-report.txt and batch-report.json. See DEVELOPMENT.md overflow policy. Earlier statements about blocking overflow are superseded; source-review errors still retain their separate checks. No text or padding changes. Representative normal exports succeeded for asparagus, leaf beet and carrot.
+
 Updated 18 September 2026. **44 of 44 crops now have stored companions, installed artwork and illustrated PDFs.** John approved the final PDF batch; all 44 planting layouts are now active in normal and batch exports. The guarded fitter remains enabled, and the explicit review query is retained for inspection. Original granular source text and leaf-beet padding remain unchanged. See [final batch / resume point](ROLLOUT-06.md).
 
 Latest pack: `output/pdf/planting-rollout06/planting-rollout06-A4-metric.pdf` (12 crops, 32 pages). Previous pack: `output/pdf/planting-rollout05/planting-rollout05-A4-metric.pdf` (7 crops, 17 pages). All outputs retained, including pagination warnings. Original granular master text and leaf-beet padding remain unchanged.

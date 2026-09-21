@@ -19,8 +19,8 @@ export function nextPlantingFit(state: PlantingFitState, gap: number, options: P
     if (state.phase === 'initial') {
         if (gap < 0) {
             if (state.showImages && state.imageMm > options.minImageMm) return {...state,imageMm:Math.max(options.minImageMm,state.imageMm-2)};
-            if (state.showImages) return {...state,showImages:false};
-            return {...state,phase:'error'};
+            // Export the full illustrated content even if it needs another page.
+            return {...state,phase:'done'};
         }
         return {...state,phase:'notes'};
     }

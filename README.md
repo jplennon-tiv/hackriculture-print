@@ -2,7 +2,7 @@
 
 A local gardening reference, content editor and printable growing-sheet generator. It produces vegetable and pest/disease guides as A4 PDFs, with imperial/metric controls and scaled A5/A6 output.
 
-This project is also the master gardening-data editor for the sibling website (`hackriculture`) and video project (`hackriculture-video`). The three gardening JSON files live only in `../hackriculture-data/`; there are no project-local copies. At the last verification, the collection contained 44 crops, 14 trouble groups and eight navigation groups.
+This project is also the master gardening-data editor for the sibling website (`hackriculture`) and video project (`hackriculture-video`). Authoritative gardening records live in shared `vegetables/<key>/<key>.json` and `troubles/<key>/<key>.json`, with `records.json` indexing 44 crops and 14 trouble groups. Eight navigation groups remain in shared `vegetable_groups.json`. Browser builds use disposable shared projections, not editable local copies.
 
 ## Start working
 

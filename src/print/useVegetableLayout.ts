@@ -186,6 +186,7 @@ export function useVegetableLayout(
             cancelled = true;
             document.body.dataset.printReady = "false";
             delete document.body.dataset.printError;
+            delete document.body.dataset.printWarnings;
             delete document.body.dataset.plantingLayout;
             delete document.body.dataset.plantingReview;
         };
@@ -239,7 +240,18 @@ export function useVegetableLayout(
     },[planting,plantingActive,plantingImagesReady,plantingImagesFailed,plantingFit]);
 
     useLayoutEffect(() => {
-        document.body.dataset.printError=planting?.issue??(plantingFit.phase==='error'?'Planting instructions exceed the safe page budget. Review this crop layout; no advice was silently removed.':'');
+        document.body.dataset.printError=planting?.issue??'';
+        const warnings:string[]=[];
+        for(const [label,page,sentinel,budget] of [
+            ['Page 1',page1Ref.current,page1SentinelRef.current,965],
+            ['Page 2',page2Ref.current,page2SentinelRef.current,plantingBudget.current],
+        ] as const){
+            if(page&&sentinel){
+                const excess=contentHeight(page,sentinel)-budget;
+                if(excess>1)warnings.push(`${label}: content exceeds the layout budget by approximately ${Math.ceil(excess*25.4/96)} mm; check the exported PDF for spillover.`);
+            }
+        }
+        document.body.dataset.printWarnings=JSON.stringify(warnings);
         document.body.dataset.plantingLayout=planting?`${plantingActive?plantingFit.phase:'baseline'}:${plantingFit.noteCount}:${plantingFit.imageMm}:${plantingFit.showImages?'images':'text'}`:'legacy';
         document.body.dataset.plantingReview=String(!!planting?.review);
         document.body.dataset.printReady = String(

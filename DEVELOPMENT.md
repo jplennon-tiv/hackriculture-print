@@ -2,6 +2,8 @@
 
 ## Architecture
 
+19 September per-record update: shared `lib/records.mjs` owns authoritative vegetable/trouble loading, backed-up transactional writes, field audit and revision checks. Browser imports are disposable `generated/master` projections refreshed by `sharedRecordsPlugin.ts`; never edit those files. Admin saves require the revision received on load (409 on stale/missing revision). Shared contract and migration checkpoint supersede historical aggregate-file paths below.
+
 React 19, TypeScript and Vite provide the local app. React Router handles public, admin and print routes. Exact dependency versions are in `package.json` and the lockfile.
 
 | Owner | Responsibility |
@@ -48,6 +50,8 @@ Read [SHARED-DATA.md](SHARED-DATA.md) for paths and ownership. Preserve these ru
 
 ## Verification
 
+18 September overflow policy: John requested always allowing layout-overflow exports for manual text editing. The planting fitter reduces images only to their minimum, then exports with illustrations even when over budget. Source-review errors remain distinct. `printWarnings` records approximate designed-page overflow; batch also counts Chromium PDF page dictionaries and flags vegetable outputs above two pages. The browser displays a per-guide warning/error list during the batch, and output/batch-report.txt plus batch-report.json preserve the complete result. Budget warnings are conservative: a warning need not mean an extra physical PDF page. No padding or source text was adjusted. Checked normal A4 metric endpoints: asparagus 3 pages, leaf beet 2, carrot 2, all HTTP 200 with images. Focused checks: 79 tests and TypeScript passed; browser report checked with a simulated stream.
+
 Run focused checks after changes, then `npm test` and `npm run build` for code work. `src/data.integrity.test.ts` validates shared data and the absence of mirrors. `src/admin.shared-data.test.ts` exercises save and vegetable/trouble image mutations using disposable sibling directories; never test writes against the real master.
 
 For print changes, run `node scripts/check-transfer.mjs` with the local server running and visually inspect the resulting PDFs. It checks chicory, carrot, broad bean and lettuce in imperial/metric A4, plus a trouble PDF and login. Its two-page expectation applies to those crops only. Add targeted A5/A6 checks when paper sizing changes; avoid full-catalogue generation for routine work.
@@ -59,6 +63,16 @@ PDF endpoints: `GET /api/pdf/vegetable/:slug`, `GET /api/pdf/trouble/:slug`, `PO
 Batch includes the approved cover first: `public/front-matter/cover-A4.pdf` is copied byte-for-byte to `output/00_cover_A4.pdf` and counted as a normal progress item. Cover failure is reported without stopping crop/trouble jobs. It always remains A4, independent of unit/paper selectors. Artwork lives in `public/images/front-matter/`; rebuild only after approved design edits with `node scripts/build-front-cover.mjs`. No generation or remote fonts are needed for the batch cover copy. See `public/front-matter/README.md` for source ownership.
 
 ## Asset maintenance
+
+Troubles page backgrounds (21 September): troublePalette reuses vegetable_palettes.json pageBackground for a shared known category, with pale neutral #F8F8F7 for mixed/missing/unknown categories. The colour is inherited by first and continuation pages. Widgets remain white, including their opaque condition-image backgrounds; existing coloured advice sections and header stripes are retained. No image conversion or layout migration is needed.
+
+Trailing Troubles widgets (21 September): incomplete final planned pages use content-height cards after budget-based image fitting. Fixed saved heights remain fit ceilings, not visible fill for trailing cards. Full four-card pages and preceding pages retain their saved heights; no prose, image scale, order or schema changes.
+
+Combined Troubles heroes (21 September): ten approved unified harvest illustrations under public/images/troubles/heroes/ replace separate crop heroes through ai_layout.hero_images. A single image in that namespace uses the full existing artwork holder; legacy individual crop images retain their former sizing. No introduction/page budgets changed. See docs/troubles-design/hero-rollout/README.md for approvals, prompts, backups and proof checks.
+
+Troubles renderer (19 September): `PrintTroublePage.tsx` uses isolated `troubles.module.css` and `troublePagination.ts`. Two-column A4 pages are measured after assets load; long cards continue without trimming text. Group-colour stripes use live vegetable categories and the vegetable palette, or grey for mixed/unknown membership. `troubleContent.ts` selects approved source-current `print_summary` companions; stale/draft summaries fall back to full prose with batch warnings. Four pilot companions are installed; other entries retain original text. Types, Zod and admin validation cover companions. Single and batch routes remain unchanged and AI-free. See `docs/troubles-design/PROGRESS.md`; run `node scripts/check-troubles-layout.mjs --all` against the local server for content-retention/fit checks. Missing illustrations warn rather than stop export.
+
+Front matter update (18 September): batch now includes `public/front-matter/how-to-use-A4.pdf` immediately after the cover as `output/01_how-to-use_A4.pdf`. It contains two A4 pages, counted as one job; both front-matter documents are static copies independent of crop units/paper. Missing-file errors do not halt subsequent jobs. Rebuild with `scripts/build-how-to.mjs`, review the output, then install the PDF under public/front-matter. Actual reference sheets and native layout are used, not generated gardening text. Verified both pages, six batch tests, 214 full tests and build.
 
 - `node scripts/crop-hero-images.mjs` defaults to chicory; it also accepts stable crop keys or `--all`. Inspect before broad runs. It uses sharp and rewrites generated crops/the crop manifest; regenerate only affected crops after replacing originals.
 - `node scripts/render-quick-fact-icons.mjs` exports SVG masters using installed Chromium. Inspect transparency and legibility at actual print size after edits.

@@ -1,8 +1,10 @@
+import {readCollection,saveCollections,revision} from "../hackriculture-data/lib/records.mjs";
 import type { Plugin } from "vite";
 import fs from "node:fs";
 import path from "node:path";
+import {createHash} from 'node:crypto';
 import type { IncomingMessage, ServerResponse } from "node:http";
-import { GardeningDataSchema, TroublesDataSchema, PlantingPrintContentSchema } from "./src/schema";
+import { GardeningDataSchema, TroublesDataSchema, PlantingPrintContentSchema, TroublePrintSummarySchema } from "./src/schema";
 
 // ── Integrity validators ───────────────────────────────────────────────────────
 
@@ -180,6 +182,8 @@ function validateTroubles(data: unknown): string[] {
                 continue;
             }
             const c = cond as Record<string, unknown>;
+            if (c.print_summary != null && !TroublePrintSummarySchema.safeParse(c.print_summary).success)
+                errors.push(`${key}.conditions.${ck}: invalid print_summary`);
             if (!c.name || typeof c.name !== "string")
                 errors.push(`${key}.conditions.${ck}: missing name`);
             if (
@@ -222,7 +226,6 @@ export function adminApiPlugin(): Plugin {
 
                     const ROOT = server.config.root;
                     const DATA = path.resolve(ROOT, "../hackriculture-data");
-                    const BACKUP = path.join(DATA, "backups", "admin");
                     const PASSWORD = process.env.ADMIN_PASSWORD ?? "M4sterc4rd";
 
                     const endpoint = req.url
@@ -267,22 +270,6 @@ export function adminApiPlugin(): Plugin {
                         res.end(JSON.stringify(data));
                     };
 
-                    const bump = (base: string) => {
-                        const today = new Date().toISOString().slice(0, 10);
-                        fs.mkdirSync(BACKUP, { recursive: true });
-                        let v = 1;
-                        while (
-                            fs.existsSync(
-                                path.join(
-                                    BACKUP,
-                                    `${base}_${today}_v${v}.json`,
-                                ),
-                            )
-                        )
-                            v++;
-                        return path.join(BACKUP, `${base}_${today}_v${v}.json`);
-                    };
-
                     try {
                         // POST /verify
                         if (endpoint === "/verify" && req.method === "POST") {
@@ -292,19 +279,7 @@ export function adminApiPlugin(): Plugin {
 
                         // GET /data — no auth needed (data already shipped with the app)
                         if (endpoint === "/data" && req.method === "GET") {
-                            const vegetables = JSON.parse(
-                                fs.readFileSync(
-                                    path.join(DATA, "vegetables.json"),
-                                    "utf-8",
-                                ),
-                            );
-                            const troubles = JSON.parse(
-                                fs.readFileSync(
-                                    path.join(DATA, "troubles.json"),
-                                    "utf-8",
-                                ),
-                            );
-                            return send(200, { vegetables, troubles });
+                            return send(200, {vegetables:readCollection("vegetables",DATA),troubles:readCollection("troubles",DATA),revision:revision(DATA)});
                         }
 
                         // Auth guard for mutating endpoints
@@ -360,25 +335,9 @@ export function adminApiPlugin(): Plugin {
                                 });
                             }
 
-                            const vegSrc = path.join(DATA, "vegetables.json");
-                            fs.copyFileSync(vegSrc, bump("vegetables"));
-                            fs.writeFileSync(
-                                vegSrc,
-                                JSON.stringify(vegetables, null, 2),
-                                "utf-8",
-                            );
-
-                            if (troubles) {
-                                const trSrc = path.join(DATA, "troubles.json");
-                                fs.copyFileSync(trSrc, bump("troubles"));
-                                fs.writeFileSync(
-                                    trSrc,
-                                    JSON.stringify(troubles, null, 2),
-                                    "utf-8",
-                                );
-                            }
-
-                            return send(200, { ok: true });
+                            if(typeof body.revision!=="string")return send(409,{error:"Reload the editor before saving (missing data revision)."});
+                            const result=saveCollections({vegetables,...(troubles?{troubles}:{})},{root:DATA,actor:"admin",expectedRevision:body.revision});
+                            return send(200,{ok:true,...result});
                         }
 
                         // POST /upload-image
@@ -406,8 +365,6 @@ export function adminApiPlugin(): Plugin {
                             const PUBLIC = path.join(ROOT, "public");
                             const ext =
                                 path.extname(fileName).toLowerCase() || ".png";
-                            const vegSrc = path.join(DATA, "vegetables.json");
-                            const trSrc = path.join(DATA, "troubles.json");
 
                             let destDir: string;
                             let destName: string;
@@ -440,9 +397,7 @@ export function adminApiPlugin(): Plugin {
 
                             // Delete old file if extension differs
                             if (type === "vegetable") {
-                                const vegData = JSON.parse(
-                                    fs.readFileSync(vegSrc, "utf-8"),
-                                ) as Record<string, Record<string, unknown>>;
+                                const vegData = readCollection("vegetables",DATA) as Record<string, Record<string, unknown>>;
                                 const old = vegData[key]?.image as
                                     | string
                                     | null;
@@ -452,9 +407,7 @@ export function adminApiPlugin(): Plugin {
                                         fs.unlinkSync(oldFull);
                                 }
                             } else {
-                                const trData = JSON.parse(
-                                    fs.readFileSync(trSrc, "utf-8"),
-                                ) as Record<string, Record<string, unknown>>;
+                                const trData = readCollection("troubles",DATA) as Record<string, Record<string, unknown>>;
                                 const conds = trData[key]?.conditions as
                                     | Record<string, Record<string, unknown>>
                                     | undefined;
@@ -477,21 +430,12 @@ export function adminApiPlugin(): Plugin {
 
                             // Update JSON
                             if (type === "vegetable") {
-                                const vegData = JSON.parse(
-                                    fs.readFileSync(vegSrc, "utf-8"),
-                                ) as Record<string, Record<string, unknown>>;
+                                const vegData = readCollection("vegetables",DATA) as Record<string, Record<string, unknown>>;
                                 vegData[key].image = jsonRelPath;
-                                fs.copyFileSync(vegSrc, bump("vegetables"));
-                                const vegJson = JSON.stringify(
-                                    vegData,
-                                    null,
-                                    2,
-                                );
-                                fs.writeFileSync(vegSrc, vegJson, "utf-8");
+                                vegData[key].image_revision=createHash('sha256').update(imgBuf).digest('hex');
+                                saveCollections({vegetables:vegData},{root:DATA,actor:"admin"});
                             } else {
-                                const trData = JSON.parse(
-                                    fs.readFileSync(trSrc, "utf-8"),
-                                ) as Record<
+                                const trData = readCollection("troubles",DATA) as Record<
                                     string,
                                     {
                                         conditions?: Record<
@@ -503,10 +447,9 @@ export function adminApiPlugin(): Plugin {
                                 const conds = trData[key]?.conditions;
                                 if (conds?.[conditionKey!]) {
                                     conds[conditionKey!].image = jsonRelPath;
+                                    conds[conditionKey!].image_revision=createHash('sha256').update(imgBuf).digest('hex');
                                 }
-                                fs.copyFileSync(trSrc, bump("troubles"));
-                                const trJson = JSON.stringify(trData, null, 2);
-                                fs.writeFileSync(trSrc, trJson, "utf-8");
+                                saveCollections({troubles:trData},{root:DATA,actor:"admin"});
                             }
 
                             return send(200, {
@@ -530,13 +473,9 @@ export function adminApiPlugin(): Plugin {
                                 return send(400, { error: "Missing fields" });
 
                             const PUBLIC = path.join(ROOT, "public");
-                            const vegSrc = path.join(DATA, "vegetables.json");
-                            const trSrc = path.join(DATA, "troubles.json");
 
                             if (type === "vegetable") {
-                                const vegData = JSON.parse(
-                                    fs.readFileSync(vegSrc, "utf-8"),
-                                ) as Record<string, Record<string, unknown>>;
+                                const vegData = readCollection("vegetables",DATA) as Record<string, Record<string, unknown>>;
                                 const old = vegData[key]?.image as
                                     | string
                                     | null;
@@ -546,21 +485,13 @@ export function adminApiPlugin(): Plugin {
                                         fs.unlinkSync(full);
                                     vegData[key].image = null;
                                 }
-                                fs.copyFileSync(vegSrc, bump("vegetables"));
-                                const vegJson = JSON.stringify(
-                                    vegData,
-                                    null,
-                                    2,
-                                );
-                                fs.writeFileSync(vegSrc, vegJson, "utf-8");
+                                saveCollections({vegetables:vegData},{root:DATA,actor:"admin"});
                             } else {
                                 if (!conditionKey)
                                     return send(400, {
                                         error: "conditionKey required",
                                     });
-                                const trData = JSON.parse(
-                                    fs.readFileSync(trSrc, "utf-8"),
-                                ) as Record<
+                                const trData = readCollection("troubles",DATA) as Record<
                                     string,
                                     {
                                         conditions?: Record<
@@ -581,9 +512,7 @@ export function adminApiPlugin(): Plugin {
                                         conds[conditionKey].image = null;
                                     }
                                 }
-                                fs.copyFileSync(trSrc, bump("troubles"));
-                                const trJson = JSON.stringify(trData, null, 2);
-                                fs.writeFileSync(trSrc, trJson, "utf-8");
+                                saveCollections({troubles:trData},{root:DATA,actor:"admin"});
                             }
 
                             return send(200, { ok: true });
@@ -591,6 +520,7 @@ export function adminApiPlugin(): Plugin {
 
                         send(404, { error: "Unknown endpoint" });
                     } catch (err) {
+                        if((err as {code?:string}).code==="STALE_DATA")return send(409,{error:String(err)});
                         send(500, { error: String(err) });
                     }
                 },

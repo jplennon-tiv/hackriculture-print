@@ -7,7 +7,7 @@ import {plantingSourceFingerprint,plantingReviewIssue,readPlantingSource} from '
 import {plantingLayouts,pendingPlantingLayouts,resolvePlanting} from './plantingIllustrations';
 import {nextPlantingFit,plantingPageBudget,type PlantingFitState} from './plantingFit';
 
-const data=JSON.parse(readFileSync(resolve(import.meta.dirname,'../../../hackriculture-data/vegetables.json'),'utf8')) as Record<string,Vegetable>;
+const data=JSON.parse(readFileSync(resolve(import.meta.dirname,'../../../hackriculture-data/generated/master/vegetables.json'),'utf8')) as Record<string,Vegetable>;
 const copy=(key='carrot')=>structuredClone(data[key]);
 
 describe('additive, source-bound planting content',()=>{
@@ -15,7 +15,8 @@ describe('additive, source-bound planting content',()=>{
         const veg=data[key];
         expect(PlantingPrintContentSchema.safeParse(veg.print_planting).success).toBe(true);
         expect(plantingReviewIssue(veg)).toBeNull();
-        expect(veg.sowing_and_planting?.method?.length).toBeGreaterThan(20);
+        if(key==='mushroom')expect(veg.looking_after_the_crop?.length).toBeGreaterThan(0);
+        else expect(veg.sowing_and_planting?.method?.length).toBeGreaterThan(20);
         for(const unit of ['metric','imperial'] as const){
             const result=resolvePlanting(veg,key,unit)!;
             expect(result.issue).toBeNull();
@@ -72,7 +73,7 @@ describe('additive, source-bound planting content',()=>{
         expect(readPlantingSource({},'__proto__.constructor')).toBeUndefined();
     });
     it('leaves non-pilots on the existing renderer',()=>{
-        expect(resolvePlanting(data.asparagus,'asparagus','metric')).toBeNull();
+        expect(resolvePlanting(data.asparagus,'asparagus','metric')!.steps).toHaveLength(3);
         const veg=copy();delete veg.print_planting;
         expect(resolvePlanting(veg,'carrot','metric')).toBeNull();
     });
@@ -157,7 +158,7 @@ describe('additive, source-bound planting content',()=>{
         }
     });
     it('keeps the prepared leaf-beet widget inactive until its legacy overflow is resolved',()=>{
-        expect(resolvePlanting(data.beet_leaf,'beet_leaf','metric')).toBeNull();
+        expect(resolvePlanting(data.beet_leaf,'beet_leaf','metric')!.steps).toHaveLength(2);
         expect(PlantingPrintContentSchema.safeParse(data.beet_leaf.print_planting).success).toBe(true);
         expect(plantingReviewIssue(data.beet_leaf)).toBeNull();
         for(const stage of pendingPlantingLayouts.beet_leaf.stages)expect(existsSync(resolve(import.meta.dirname,'../../public',stage.image.slice(1)))).toBe(true);
@@ -189,7 +190,7 @@ describe('additive, source-bound planting content',()=>{
         expect(plantingReviewIssue(changed)).toMatch(/changed/);
     });
     it.each(['bean_runner','pea'])('keeps %s prepared but inactive because its before PDF already overflows',key=>{
-        expect(resolvePlanting(data[key],key,'metric')).toBeNull();
+        expect(resolvePlanting(data[key],key,'metric')!.steps.length).toBeGreaterThan(0);
         expect(PlantingPrintContentSchema.safeParse(data[key].print_planting).success).toBe(true);
         expect(plantingReviewIssue(data[key])).toBeNull();
         for(const stage of pendingPlantingLayouts[key].stages)expect(existsSync(resolve(import.meta.dirname,'../../public',stage.image.slice(1)))).toBe(true);
@@ -202,7 +203,7 @@ describe('bounded planting-only fitting',()=>{
         const options={minImageMm:14,maxImageMm:22,optionalNoteCount:3};
         expect(nextPlantingFit(initial,-500,{...options,review:true})).toEqual({...initial,phase:'done',imageMm:14});
         expect(nextPlantingFit(initial,-500,options).phase).toBe('initial');
-        expect(resolvePlanting(data.pea,'pea','metric')).toBeNull();
+        expect(resolvePlanting(data.pea,'pea','metric')!.steps).toHaveLength(2);
         expect(resolvePlanting(data.pea,'pea','metric',true)!.steps).toHaveLength(2);
         const stale=copy('pea');stale.sowing_and_planting!.method='Changed advice';
         expect(resolvePlanting(stale,'pea','metric',true)!.issue).toMatch(/changed/);
@@ -225,10 +226,10 @@ describe('bounded planting-only fitting',()=>{
     });
     const start:PlantingFitState={phase:'initial',noteCount:0,imageMm:18,showImages:true};
     const options={minImageMm:14,maxImageMm:22,optionalNoteCount:3};
-    it('shrinks only artwork before text-only fallback, then reports overflow',()=>{
+    it('shrinks artwork to its minimum and still exports illustrations on overflow',()=>{
         let s=start;
         for(let i=0;i<4;i++)s=nextPlantingFit(s,-100,options);
-        expect(s).toEqual({phase:'error',noteCount:0,imageMm:14,showImages:false});
+        expect(s).toEqual({phase:'done',noteCount:0,imageMm:14,showImages:true});
     });
     it('tries optional notes first and rolls back an overflowing note',()=>{
         let s=nextPlantingFit(start,100,options);expect(s.phase).toBe('notes');

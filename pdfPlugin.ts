@@ -1,3 +1,4 @@
+import {refreshGenerated} from '../hackriculture-data/lib/records.mjs';
 /**
  * pdfPlugin.ts
  *
@@ -65,6 +66,7 @@ export async function renderPdf(
     slug: string,
     units: string = "imperial",
     paper: PaperSize = "A4",
+    onWarnings?: (warnings: string[]) => void,
 ): Promise<Buffer> {
     const printUrl = `${baseUrl}/print/${type}/${encodeURIComponent(slug)}?units=${units === "metric" ? "metric" : "imperial"}`;
     await page.goto(printUrl, { waitUntil: "networkidle" });
@@ -75,7 +77,13 @@ export async function renderPdf(
     );
     const printError=await page.evaluate(()=>document.body.dataset.printError);
     if(printError)throw new PrintContentError(printError);
-    return await page.pdf(pdfOptions(paper));
+    const warnings=await page.evaluate(()=>JSON.parse(document.body.dataset.printWarnings||'[]') as string[]);
+    const pdf=await page.pdf(pdfOptions(paper));
+    // Chromium writes page dictionaries uncompressed; count actual output pages.
+    const pages=(pdf.toString('latin1').match(/\/Type\s*\/Page\b/g)||[]).length;
+    if(type==='vegetable'&&pages>2)warnings.push(`Exported ${pages} PDF pages (usual target: 2).`);
+    onWarnings?.(warnings);
+    return pdf;
 }
 
 export function pdfPlugin(): Plugin {
@@ -211,8 +219,8 @@ function slugify(name: string): string {
 export function resolveBatchPaths(root: string) {
     const dataDir = path.resolve(root, "../hackriculture-data");
     return {
-        vegetables: path.join(dataDir, "vegetables.json"),
-        troubles: path.join(dataDir, "troubles.json"),
+        vegetables: path.join(dataDir, "generated/master/vegetables.json"),
+        troubles: path.join(dataDir, "generated/master/troubles.json"),
         output: path.join(root, "output"),
     };
 }
@@ -234,7 +242,8 @@ async function handleBatch(
 
     let browser: Browser | undefined;
     try {
-        // Load JSON fresh each run so admin edits are picked up
+        // Rebuild disposable projections from authoritative records before batch.
+        refreshGenerated(path.resolve(root,'../hackriculture-data'));
         const {
             vegetables: vegPath,
             troubles: troublesPath,
@@ -253,7 +262,10 @@ async function handleBatch(
             type: "front-matter" | "vegetable" | "trouble";
             slug: string;
             label: string;
-        }[] = [{type: "front-matter", slug: "cover", label: "Cover (A4)"}];
+        }[] = [
+            {type: "front-matter", slug: "cover", label: "Cover (A4)"},
+            {type: "front-matter", slug: "how-to-use", label: "How to use this guide (2 A4 pages)"},
+        ];
         for (const [key, veg] of Object.entries(vegetables)) {
             const slug = slugify(veg?.name ?? key);
             jobs.push({ type: "vegetable", slug, label: veg?.name ?? key });
@@ -267,7 +279,7 @@ async function handleBatch(
             total: jobs.length,
             vegetables: Object.keys(vegetables).length,
             troubles: Object.keys(troubles).length,
-            frontMatter: 1,
+            frontMatter: 2,
             outputDir,
         });
 
@@ -278,13 +290,15 @@ async function handleBatch(
 
         let okCount = 0;
         let errCount = 0;
+        const report: {label:string;filename?:string;warnings?:string[];error?:string}[]=[];
         for (let i = 0; i < jobs.length; i++) {
             const job = jobs[i];
             const index = i + 1;
             try {
+                let warnings:string[]=[];
                 // Approved, unit-independent A4 artwork; no AI/font/network work.
                 const pdf = job.type === "front-matter"
-                    ? await fs.readFile(path.join(root, "public/front-matter/cover-A4.pdf"))
+                    ? await fs.readFile(path.join(root, `public/front-matter/${job.slug}-A4.pdf`))
                     : await renderPdf(
                     page,
                     baseUrl,
@@ -292,11 +306,13 @@ async function handleBatch(
                     job.slug,
                     units,
                     paper,
+                    found=>{warnings=found;},
                 );
                 const filename = job.type === "front-matter"
-                    ? "00_cover_A4.pdf" : `${job.type}_${job.slug}.pdf`;
+                    ? (job.slug === "cover" ? "00_cover_A4.pdf" : "01_how-to-use_A4.pdf") : `${job.type}_${job.slug}.pdf`;
                 await fs.writeFile(path.join(outputDir, filename), pdf);
                 okCount++;
+                report.push({label:job.label,filename,warnings});
                 write({
                     event: "progress",
                     index,
@@ -306,9 +322,11 @@ async function handleBatch(
                     label: job.label,
                     filename,
                     status: "ok",
+                    warnings,
                 });
             } catch (err) {
                 errCount++;
+                report.push({label:job.label,error:String(err)});
                 write({
                     event: "progress",
                     index,
@@ -323,6 +341,8 @@ async function handleBatch(
             }
         }
 
+        await fs.writeFile(path.join(outputDir,'batch-report.json'),JSON.stringify({units,paper,generatedAt:new Date().toISOString(),results:report},null,2));
+        await fs.writeFile(path.join(outputDir,'batch-report.txt'),report.map(item=>`${item.label}${item.filename?' - '+item.filename:''}\n${item.error?'ERROR: '+item.error:item.warnings?.length?item.warnings.join('\n'):'OK'}`).join('\n\n'));
         write({
             event: "done",
             total: jobs.length,

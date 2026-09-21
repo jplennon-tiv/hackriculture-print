@@ -1,18 +1,18 @@
 import { describe, it, expect } from "vitest";
-import { readFileSync, existsSync } from "node:fs";
+import { existsSync } from "node:fs";
 import { join } from "node:path";
 import { GardeningDataSchema, TroublesDataSchema } from "./schema";
 import { isMeasurementPair } from "./lib/measure";
+import {readCollection} from '../../hackriculture-data/lib/records.mjs';
 
 const here = import.meta.dirname;
 const shared = join(here, "../../hackriculture-data");
-const readJson = (p: string) => JSON.parse(readFileSync(p, "utf8"));
 
-const vegetables = readJson(join(shared, "vegetables.json")) as Record<
+const vegetables = readCollection('vegetables',shared) as Record<
     string,
     Record<string, unknown>
 >;
-const troubles = readJson(join(shared, "troubles.json"));
+const troubles = readCollection('troubles',shared);
 
 const LEGACY_HARVEST = [
     "picking_time",
@@ -42,7 +42,7 @@ function walk(
         return;
     }
     visit(node as Record<string, unknown>, path);
-    for (const [k, v] of Object.entries(node)) walk(v, `${path}.${k}`, visit);
+    for (const [k, v] of Object.entries(node)) if(k!=='_field_metadata')walk(v, `${path}.${k}`, visit);
 }
 
 const isMeasuredValue = (n: Record<string, unknown>) =>
@@ -83,10 +83,12 @@ describe("schema validation", () => {
 describe("shared source", () => {
     it("keeps all three datasets only in hackriculture-data", () => {
         for (const name of ["vegetables.json", "troubles.json", "vegetable_groups.json"]) {
-            expect(existsSync(join(shared, name))).toBe(true);
+            expect(existsSync(join(shared, name))).toBe(name==='vegetable_groups.json');
             expect(existsSync(join(here, name))).toBe(false);
             expect(existsSync(join(here, "..", name))).toBe(false);
         }
+        expect(existsSync(join(shared,'records.json'))).toBe(true);
+        expect(existsSync(join(shared,'vegetables/carrot/carrot.json'))).toBe(true);
     });
 });
 

@@ -1,6 +1,7 @@
 import type { GardeningData, TroublesData } from "../types";
 
 const BASE = "/api/admin";
+let loadedRevision: string | undefined;
 
 export async function verifyPassword(password: string): Promise<boolean> {
     const res = await fetch(`${BASE}/verify`, {
@@ -17,10 +18,7 @@ export async function fetchAdminData(): Promise<{
 }> {
     const res = await fetch(`${BASE}/data`);
     if (!res.ok) throw new Error("Failed to fetch admin data");
-    return res.json() as Promise<{
-        vegetables: GardeningData;
-        troubles: TroublesData;
-    }>;
+    const data=await res.json();loadedRevision=data.revision;return data;
 }
 
 export async function saveData(
@@ -33,6 +31,7 @@ export async function saveData(
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
             password,
+            revision: loadedRevision,
             vegetables,
             ...(troubles ? { troubles } : {}),
         }),
@@ -48,6 +47,7 @@ export async function saveData(
             : "";
         throw new Error(base + detail);
     }
+    loadedRevision=(await res.json()).revision;
 }
 
 // ── Image management ──────────────────────────────────────────────────────────

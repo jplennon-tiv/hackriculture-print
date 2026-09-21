@@ -1,3 +1,5 @@
+import {refreshGenerated} from '../../../hackriculture-data/lib/records.mjs';
+refreshGenerated();
 // Read-only checks for resumable design work; no generated data or master writes.
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
@@ -6,7 +8,7 @@ import { fileURLToPath } from 'node:url';
 import { createHash } from 'node:crypto';
 
 const dir = path.dirname(fileURLToPath(import.meta.url));
-const masterPath = path.resolve(dir, '../../../hackriculture-data/vegetables.json');
+const masterPath = path.resolve(dir, '../../../hackriculture-data/generated/master/vegetables.json');
 const bytes = fs.readFileSync(masterPath);
 const master = JSON.parse(bytes);
 const hash = createHash('sha256').update(bytes).digest('hex');
