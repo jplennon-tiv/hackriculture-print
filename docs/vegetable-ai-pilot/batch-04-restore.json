@@ -1,0 +1,69 @@
+{
+  "baseline": "a7e88c69995c4337a65986834e95152817f21053e1df95cfa3941e14dbcd289f",
+  "sourceSave": {
+    "changed": 3,
+    "revision": "e36ef8e88e06acf16388f01c76677f2d952e4eb7894dade1f44a6f5d8a89e2e1"
+  },
+  "draftSave": {
+    "changed": 3,
+    "revision": "b838e8f1abdbf4f50e3207b4b7de3244a6de247b1d091e90994a8a2a034466ac"
+  },
+  "revision": "e4f2d595341f164a7b087bc90caf75f2a824b1dee9fde8f4178d5020c1b700c9",
+  "selected": {
+    "cauliflower": [
+      "Club Root (Finger and Toe)",
+      "Cabbage Caterpillars",
+      "Cabbage Root Fly",
+      "Button Cauliflowers",
+      "Blind Plants",
+      "Slugs and Snails",
+      "Boron Deficiency",
+      "Whiptail",
+      "Mealy Aphid",
+      "Flea Beetle"
+    ],
+    "kale": [
+      "Cabbage Caterpillars",
+      "Cabbage Whitefly",
+      "Mealy Aphid",
+      "Club Root (Finger and Toe)",
+      "Pigeons",
+      "Slugs and Snails",
+      "Cabbage Root Fly",
+      "Flea Beetle"
+    ],
+    "kohl_rabi": [
+      "Woody Kohl Rabi",
+      "Flea Beetle",
+      "Cabbage Caterpillars",
+      "Club Root (Finger and Toe)",
+      "Cabbage Root Fly",
+      "Slugs and Snails",
+      "Pigeons",
+      "Mealy Aphid"
+    ]
+  },
+  "measurementSave": {
+    "changed": 3,
+    "revision": "e4f2d595341f164a7b087bc90caf75f2a824b1dee9fde8f4178d5020c1b700c9"
+  },
+  "backups": [
+    "2026-09-21T20-36-36.185Z-875f9ae4-9652-4035-929d-cdfb4016bedc",
+    "2026-09-21T20-39-34.808Z-9457c70d-cd9d-40b4-aca2-997a3d56c50a",
+    "2026-09-21T20-39-35.149Z-77d7a05f-658e-4d75-a7d5-c3e03e719a68",
+    "2026-09-21T20-41-04.201Z-e71fb53d-7b43-4815-bfa9-6c24b58a0be1",
+    "2026-09-21T20-45-31.831Z-774b8502-9994-4b5b-baef-7cbc49179f26",
+    "2026-09-21T20-45-32.201Z-72d072f1-153c-4d50-b2bf-5f1ddfd59c95",
+    "2026-09-21T20-47-59.810Z-37229fc6-4101-45a6-98e3-64e9075dca51",
+    "2026-09-21T20-48-00.132Z-83647e73-afca-4c49-b7b0-5281cd0fc8fa",
+    "2026-09-21T20-49-55.335Z-bf861d39-7ad9-46a3-9046-798f9403a8f5"
+  ],
+  "checks": "batch-04-checks.json",
+  "proof": "output/pdf/vegetable-batch-04-review.pdf",
+  "proof_sha256": "ec7f0abc14c7f34bff89b4a5738033dacfeac372a7c4e71c1e201e591d3d402e",
+  "validation": "Six both-unit physical PDFs, two pages each; source/renderer/checksum/readiness/icon/variety/pest checks; zero column gaps. Shared integrity checked. No production code changed; prior 243 tests/build remain the signed-off baseline.",
+  "visual_samples": [
+    "All six metric pages; kohlrabi imperial back. Final priority/wording revision: cauliflower and kale changed pages."
+  ],
+  "limitations": "Kale variety duplicates, conflicting source routes and unprinted legacy controls are indexed in DATA-NORMALISATION.md. Poppler Type 3 glyph bounding-box advisories showed no visible damage in inspected pages."
+}

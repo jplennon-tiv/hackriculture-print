@@ -51,6 +51,8 @@ export interface SowingAndPlanting {
      * Measurement values may be a `MeasurementPair` `{ imperial, metric }`.
      */
     row_spacing?: MeasurementValue;
+    row_spacing_summary?: MeasurementPair;
+    plant_spacing_summary?: MeasurementPair;
     plant_spacing?: MeasurementValue;
     sowing_depth?: MeasurementValue;
     planting_depth?: MeasurementValue;
@@ -164,6 +166,7 @@ export interface TimeToHarvestGroup {
     > | null;
     /** Concise human summary used in headers. */
     ready_in_short: string | null;
+    ready_in_summary?: string;
 }
 
 export interface CoreNeeds {
@@ -179,6 +182,8 @@ export interface AuditedRecord {
     _field_metadata?: Record<string,{updated_at:string|null;updated_by:string;deleted?:boolean}>;
 }
 export interface Vegetable extends AuditedRecord {
+    ai_print_extracts?: import('./lib/vegetablePrint').VegetablePrintExtracts;
+    ai_print_layout?: import('./lib/vegetablePrint').VegetablePrintLayout;
     image_revision?:string;
     name?: string | null;
     image?: string | null;

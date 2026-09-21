@@ -69,19 +69,19 @@ const GENERAL_RULES: Array<[QuickFactIconKey, RegExp]> = [
     ],
 ];
 
-const FALLBACK_KEYS = ["sow", "soil", "water", "feeding", "harvest"] as const;
-
 export function pickFinalTipIcon(
     item: unknown,
     text: string,
-    fallbackIdx: number,
-): string {
+    _fallbackIdx: number,
+    exact = false,
+): string | undefined {
     const explicit =
         item && typeof item === "object"
             ? (item as { icon?: unknown }).icon
             : undefined;
     if (typeof explicit === "string" && explicit.trim()) {
         const key = explicit.trim();
+        if (exact) return quickFactIconPath(key);
         const refinements = REFINEMENTS[key as QuickFactIconKey];
         const context = CONTEXT_RULES.filter(([candidate]) =>
             refinements?.includes(candidate),
@@ -97,7 +97,5 @@ export function pickFinalTipIcon(
     const match = [...CONTEXT_RULES, ...GENERAL_RULES].find(([, pattern]) =>
         pattern.test(text),
     );
-    return quickFactIconPath(
-        match?.[0] ?? FALLBACK_KEYS[fallbackIdx % FALLBACK_KEYS.length],
-    );
+    return match ? quickFactIconPath(match[0]) : undefined;
 }

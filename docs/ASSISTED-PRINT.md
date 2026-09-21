@@ -4,6 +4,17 @@ Agreed with John, 19 September 2026. This interface is the preferred place to re
 
 ## Working cycle
 
+For vegetable work, read [the approved style contract](VEGETABLE-PRINT-STYLE.md)
+before selecting text or layout. The revised asparagus/radish/celery proofs are
+approved reference examples, not a mandate to use their exceptions on every crop.
+
+Vegetable layout priority (John, 21 September): page fit first, then align the
+bottoms of the two widget columns, then fill spare space with useful source
+content. Prefer fuller original introductions where they improve alignment.
+Final Tips normally remains a full-width bottom banner; per-crop alternatives
+may use stacked rows in a column and expand to its neighbour's base. Do not drop
+useful tips merely to keep a relocated tips widget short. Save these choices.
+
 Strict packing clarification (John, 20 September, supersedes the introduction exception below): ONLY the final page may have fewer than four condition widgets. A single widget on the final page is acceptable. Rearrange shorter cards onto page one and reclaim unused introduction height as needed, keeping all prose, images, font sizes and padding. For authoring, use pack-approved-troubles.mjs --full-first with explicit group keys; it measures and validates before any --save. Normal exports do not invoke this helper. Bean/pea and carrot/parsnip now conform, with stored intro heights 37 mm and 45 mm respectively.
 
 Packing rule (John, 20 September): for all Troubles sets, including previously approved sets, fill earlier pages as fully as readability allows and consolidate spare space at the end. Aim for four illustrated condition widgets per page, with an exception where the first-page introduction or genuinely larger cards require space. Reorder conditions instead of preserving a sparse original sequence; keep related problems together where practical. Preserve all approved text and illustrations, font sizes and padding. Save measured ordering/budgets for deterministic exports. Do not promise ceil(condition count / 4) pages until the introduction and cards have been measured. The six approved sets have now been repacked; exact ordering/heights live in each canonical group's ai_layout.pages. Normal exports reuse these plans without AI or rerunning the packing script.
@@ -30,3 +41,7 @@ The existing renderer is deterministic and can be used as the rendering engine. 
 Next Troubles exercise should optimise the complete carrot/parsnip guide, not just selected cards, then use that result to establish a repeatable editing/fit process. No generation was requested or run in the workflow-agreement turn.
 
 Related restore records: `troubles-design/PROGRESS.md`, `planting-illustrations/PROGRESS.md`, `front-matter/PROGRESS.md`. A4 is the reviewed format; retain existing unit choices or clarify when unresolved. Do not silently produce additional unit/paper variants or regenerate unrelated sets. Do not remove the browser buttons or deploy publicly.
+
+## Coordinated vegetable editorial review (21 September)
+
+Follow [WIDGET-COORDINATION.md](vegetable-ai-pilot/WIDGET-COORDINATION.md): review soil, care, harvest, planting notes and Final Tips together, save complete source-linked selections, then measure the whole page. Valid sowing-note extracts own all notes; automatic prefix top-up is disabled for them. Preserve crop/variant distinctions, use organic advice, choose exact tip icons, and document coverage/omissions. Missing extracts are visibly flagged as automatic fallbacks. The accepted title-length bubble rule remains.

@@ -1,6 +1,21 @@
 # Coding rules
 
+- John's standing preference (21 September): organic control methods only.
+  He authorises researched replacements of chemical pest/disease prescriptions
+  in the canonical master, with exact prior-byte backups and honest AI attribution.
+  Update affected print dependencies and re-present changed proofs for review.
+
+- Pest tables: select distinct, useful, crop-applicable problems before measuring.
+  No blanket row count, and no first-overflow cutoff as the final decision.
+  Merge duplicate labels, condense table prose while preserving full master
+  advice, then remeasure after edits and inspect actual PDFs in both units.
+  Record why useful candidates were omitted; do not force differing counts.
+
 Read README.md and SHARED-DATA.md first, then only the DEVELOPMENT.md sections relevant to the requested work. Read SETUP.md when working on startup or dependencies.
+
+For vegetable print/editorial/layout work, also read `docs/VEGETABLE-PRINT-STYLE.md`.
+It is John's approved style contract: fit first, column-bottom alignment second,
+useful whitespace filling third; full-width Final Tips remains the default.
 
 - Preferred PDF workflow (John, 19 September): requests here to "generate the troubles pages" or "generate the vegetables pages" mean assisted preparation and export, not merely pressing batch. Follow `docs/ASSISTED-PRINT.md`: measure, edit source-linked print companions where needed, render/review and save a resume point. Preserve full master advice. Existing browser exports remain deterministic; no external AI API integration requested.
 

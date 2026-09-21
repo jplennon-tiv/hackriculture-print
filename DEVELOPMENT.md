@@ -2,6 +2,17 @@
 
 ## Architecture
 
+21 September vegetable AI-once pilot: `src/lib/vegetablePrint.ts` resolves
+source-linked section extracts and stored layout choices. `aiReview=1` is an
+explicit draft preview; normal export needs approved/current data. Source/output
+checksums protect stale/manual changes, with warning/fallback instead of blocked
+PDFs. Shared writer enforces locks and prevents AI self-approval. Source field
+attribution remains in `_field_metadata`; extracts carry their own attribution.
+Keep `VEGETABLE_PRINT_REVISION` current after layout/font/CSS changes. Measured
+file hashes are provenance only in this pilot, not automatic runtime invalidation.
+Resume and known limitations: `docs/vegetable-ai-pilot/PROGRESS.md` and
+`EDITORIAL-REVIEW.md`. Do not rerun draft preparation after approval/user edits.
+
 19 September per-record update: shared `lib/records.mjs` owns authoritative vegetable/trouble loading, backed-up transactional writes, field audit and revision checks. Browser imports are disposable `generated/master` projections refreshed by `sharedRecordsPlugin.ts`; never edit those files. Admin saves require the revision received on load (409 on stale/missing revision). Shared contract and migration checkpoint supersede historical aggregate-file paths below.
 
 React 19, TypeScript and Vite provide the local app. React Router handles public, admin and print routes. Exact dependency versions are in `package.json` and the lockfile.
@@ -24,6 +35,21 @@ Admin middleware resolves the sibling data folder from the configured Vite proje
 
 ## Accepted print design
 
+The authoritative consolidated rules are [VEGETABLE-PRINT-STYLE.md](docs/VEGETABLE-PRINT-STYLE.md), approved with the three revised proofs on 21 September.
+
+21 September pilot refinement: priority is safe page fit, then column-base
+alignment, then useful whitespace filling. Saved layout options `intro_sentences`,
+`variety_count` and `align_bottoms` supplement the existing fitter; it still checks
+actual output. Flexible rows share spare height only for these saved choices.
+Column Final Tips can stack/stretch; default remains a full-width bottom banner.
+`src/lib/sentences.ts` preserves common gardening abbreviations and decimals.
+
+Renderer v3 correction: saved intro/variety counts are explicit choices, not
+automatic-fitting starting guesses. Page-one stretching is enabled after fitting.
+Key Risks ranks the complete applicable/deduplicated pool independently of the
+page-two table limit. Curated tips must have meaningful explicit icons, not the
+generic soil default. See vegetable-ai-pilot/ROLLOUT.md for corrected proofs.
+
 Page one uses a staggered grid: introduction and hero interlock above Quick Facts/Core Needs on the left, with sowing/harvest calendar and varieties on the right. Retain original borders, dark headings, tinted variety tables and coloured Key Risks. The borderless experiment was rejected.
 
 The 19 Quick Facts icons have SVG masters and transparent 384px PNG exports in `public/images/quick_facts/trial/`. Printed icons display at 28px. `src/lib/quickFactIcons.ts` owns context-sensitive selection and legacy paths; see the [icon guide](public/images/quick_facts/trial/README.md).
@@ -34,7 +60,7 @@ Core Needs uses 1–5 scores for sun, water and nutrition: PNG icons/five-cell b
 
 The intro fitter adds whole sentences to the same introduction after assets are ready, with bounded rollback when space runs out. There is no separate continuation below Core Needs.
 
-Page two uses the approved illustrated **existing-column** planting card for active crops; Final Tips stays full-width. `plantingIllustrations.ts` owns layout/measurement bindings; `PlantingCard.tsx` and `planting.module.css` render the widget. Normal fit uses bounded images and optional notes without trimming neighbouring advice. Review-only layouts require the explicit review query. Missing art falls back to text; stale captions, missing required measurements and unresolved normal-layout overflow block production export. See [implementation](docs/planting-illustrations/IMPLEMENTATION.md).
+Page two uses the approved illustrated **existing-column** planting card for active crops; Final Tips is full-width by default, with approved per-crop column exceptions. `plantingIllustrations.ts` owns layout/measurement bindings; `PlantingCard.tsx` and `planting.module.css` render the widget. Normal fit uses bounded images and optional notes without trimming neighbouring advice. Draft layouts require the explicit review query. Missing art falls back to text; source-review errors remain distinct from layout overflow, which warns but allows export. See [implementation](docs/planting-illustrations/IMPLEMENTATION.md) and the current overflow policy below.
 
 ## Data contracts
 
@@ -94,3 +120,5 @@ Known issues, to address only within requested scope:
 - The build emits a large-chunk warning. The last dependency audit reported one moderate and five high advisories; remediation remains separate work.
 
 Maintain this current summary when the implementation changes. Put historical logs in backups rather than extending the working guide with repeated session notes.
+
+Vegetable widget coordination (21 September): `vegetableEditorial.ts` owns legacy rank/deduplication and labelled measurement fallback; `months.ts` formats exact circular month windows. `facts.ts` keeps variant labels in full facts and compact ranges in headers. Valid saved sowing extracts suppress optional planting prefix selection; no new runtime AI or cross-widget state. `data-editorial-report` exposes selection mode/counts/notes; missing extracts warn. `vegetable-extracts-v4` requires refreshed renderer evidence. See [workflow and decisions](docs/vegetable-ai-pilot/WIDGET-COORDINATION.md).

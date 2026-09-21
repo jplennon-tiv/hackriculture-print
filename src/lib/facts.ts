@@ -89,6 +89,20 @@ export function yieldFact(
     y: YieldGroup | null | undefined,
     system: UnitSystem = "imperial",
 ): YieldFact | null {
+    // Variant-only yields must retain their identities, not masquerade as one
+    // general crop yield. Default basis preference remains an explicit summary.
+    if (y && !YIELD_ORDER.some(b=>firstText(y.default?.[b]))) {
+        const rows=Object.entries(y.by_variety??{}).flatMap(([key,values])=>{
+            const basis=YIELD_ORDER.find(b=>firstText(values[b]));
+            if (!basis) return [];
+            const raw=firstText(values[basis])!;
+            return [{key:key.replace(/_/g,' '),basis,value:system==='metric'?(convertMeasurement(raw,'metric')??raw):raw}];
+        });
+        if (rows.length>1) {
+            const sameBasis=rows.every(r=>r.basis===rows[0].basis);
+            return {label:sameBasis?YIELD_BASIS_LABEL[rows[0].basis][system]:'Yield',value:rows.map(r=>`${r.key}: ${r.value}${sameBasis?'':` (${YIELD_BASIS_LABEL[r.basis][system]})`}`).join('; ')};
+        }
+    }
     const picked = pickYield(y);
     if (!picked) return null;
     const value =
@@ -108,6 +122,10 @@ export function timeToHarvestSummary(
         durationOrText(t.default?.from_sowing) ??
         durationOrText(t.default?.from_planting);
     if (t1) return t1;
+    const variants=Object.values(t.by_variety??{}).flatMap(v=>[v.from_sowing??v.from_planting]).filter((v):v is MeasuredValue=>!!v);
+    if(variants.length>1 && variants.every(v=>typeof v.min==='number'&&v.unit===variants[0].unit)){
+        return formatDuration({...variants[0],min:Math.min(...variants.map(v=>v.min!)),max:Math.max(...variants.map(v=>v.max??v.min!))});
+    }
     for (const overrides of Object.values(t.by_variety ?? {})) {
         for (const mv of Object.values(overrides ?? {})) {
             const tt = durationOrText(mv);
@@ -115,6 +133,18 @@ export function timeToHarvestSummary(
         }
     }
     return null;
+}
+
+/** Full Quick Fact: compact header and labelled details serve different spaces. */
+export function timeToHarvestDetails(t:TimeToHarvestGroup|null|undefined):string|null {
+    if(!t)return null;
+    if(t.ready_in_summary)return t.ready_in_summary;
+    if(t.default?.from_sowing||t.default?.from_planting)return timeToHarvestSummary(t);
+    const rows=Object.entries(t.by_variety??{}).flatMap(([key,v])=>{
+        const duration=durationOrText(v.from_sowing??v.from_planting);
+        return duration?[`${key.replace(/_/g,' ')}: ${duration}`]:[];
+    });
+    return rows.length>1?rows.join('; '):timeToHarvestSummary(t);
 }
 
 /**

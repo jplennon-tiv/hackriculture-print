@@ -20,8 +20,11 @@ The launcher selects the Node version in `.nvmrc`, prompts privately for a sessi
 
 ## Working documentation
 
+- [Current vegetable rollout handover](docs/handover/START-HERE.md): clean new-session brief, read-only preflight and next batch.
+
 - [AGENTS.md](AGENTS.md): concise rules for coding assistants; read first.
 - [DEVELOPMENT.md](DEVELOPMENT.md): architecture, accepted print design, data contracts and validation.
+- [Approved vegetable print style](docs/VEGETABLE-PRINT-STYLE.md): layout priorities, typography/art preservation, editorial rules and saved per-crop exceptions.
 - [SETUP.md](SETUP.md): local commands, dependencies and troubleshooting.
 - [SHARED-DATA.md](SHARED-DATA.md): data ownership, backups and cross-project effects.
 - [Planting illustration progress](docs/planting-illustrations/PROGRESS.md): resume point, all 44 crop briefs, RHS correction audit and draft-image batch status.

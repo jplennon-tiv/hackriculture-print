@@ -144,3 +144,16 @@ describe("timeToHarvestSummary", () => {
         expect(timeToHarvestSummary(t)).toBe("12 weeks");
     });
 });
+
+
+describe("variant facts",()=>{
+ it("shows the full duration range rather than the first variant",()=>{
+  const t={default:{from_sowing:null,from_planting:null},ready_in_short:null,by_variety:{early:{from_sowing:{min:14,max:null,unit:"weeks",text:"14 weeks"}},late:{from_sowing:{min:26,max:null,unit:"weeks",text:"26 weeks"}}}} as TimeToHarvestGroup;
+  expect(timeToHarvestSummary(t)).toBe("14–26 weeks");
+ });
+ it("labels both yield variants in either unit",()=>{
+  const y={default:{per_plant:null,per_mature_plant:null,per_10_ft_row:null,per_10_ft_double_row:null},by_variety:{bush:{per_10_ft_row:mv("8 lb")},climbing:{per_10_ft_row:mv("12 lb")}}};
+  expect(yieldFact(y)?.value).toBe("bush: 8 lb; climbing: 12 lb");
+  expect(yieldFact(y,"metric")?.value).toMatch(/bush: .*kg; climbing: .*kg/);
+ });
+});

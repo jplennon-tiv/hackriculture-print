@@ -1226,6 +1226,19 @@ body {
     overflow: hidden;
 }
 
+/* The narrow saved-layout slot needs stacked tips, not two tiny columns. */
+.cheatFinalTips[data-final-tips-position="left-column"] .cheatFinalTipsGrid {
+    flex-direction: column;
+}
+.cheatFinalTips[data-final-tips-position="left-column"] .cheatFinalTipItem:not(:last-child)::after {
+    left: 10px;
+    right: 10px;
+    top: auto;
+    bottom: 0;
+    width: auto;
+    height: 1px;
+}
+
 .cheatFinalTipItem {
     flex: 1;
     display: flex;
@@ -1621,6 +1634,61 @@ body {
     grid-row: 3;
     min-width: 0;
     align-self: start;
+}
+
+/* Reviewed per-crop choice: fit first, align column bases, then distribute space. */
+.cheatStaggeredBody[data-align-bottoms] > .cheatLeft {
+    align-self: stretch;
+}
+.cheatStaggeredBody[data-align-bottoms] .cheatQfCard {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.cheatStaggeredBody[data-align-bottoms] .cheatQfList {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.cheatStaggeredBody[data-align-bottoms] .cheatQfRow {
+    flex: 1;
+}
+.cheatBody[data-align-bottoms]:not(.cheatStaggeredBody) > .cheatRight {
+    display: flex;
+    flex-direction: column;
+}
+/* Either column can be shorter after editorial selection. Extend its final
+   card border; keep the artwork, typography and internal padding unchanged. */
+.cheatBody[data-align-bottoms]:not(.cheatStaggeredBody) > .cheatLeft > .cheatCard:last-child {
+    flex: 1;
+}
+.cheatStaggeredBody[data-align-bottoms] > .cheatRight {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+}
+.cheatBody[data-align-bottoms] > .cheatRight > .cheatCard:last-child {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.cheatBody[data-align-bottoms] > .cheatRight > .cheatCard:last-child > table {
+    flex: 1;
+}
+.cheatFinalTips[data-fill][data-final-tips-position]:not([data-final-tips-position="full-width"]) {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.cheatFinalTips[data-fill] .cheatFinalTipsGrid {
+    flex: 1;
+    flex-direction: column;
+}
+.cheatFinalTips[data-fill] .cheatFinalTipItem {
+    align-items: center;
+}
+.cheatFinalTips[data-fill] .cheatFinalTipItem:not(:last-child)::after {
+    left: 10px; right: 10px; top: auto; bottom: 0; width: auto; height: 1px;
 }
 
 /* ── Category palette CSS custom property hooks ──────────────────────────── */

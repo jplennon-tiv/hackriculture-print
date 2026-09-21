@@ -87,11 +87,17 @@ describe("formatMonthRange", () => {
         expect(formatMonthRange(undefined)).toBe("");
         expect(formatMonthRange([], { empty: "—" })).toBe("—");
     });
-    it("summarises ascending data as min–max", () => {
+    it("preserves gaps in ascending data", () => {
         expect(formatMonthRange(["--03/--05"])).toBe("Mar – May");
-        expect(formatMonthRange(["--02", "--04"])).toBe("Feb – Apr");
-        expect(formatMonthRange(["--03", "--05", "--07"])).toBe("Mar – Jul");
+        expect(formatMonthRange(["--02", "--04"])).toBe("Feb; Apr");
+        expect(formatMonthRange(["--03", "--05", "--07"])).toBe("Mar; May; Jul");
         expect(formatMonthRange(["--06"])).toBe("Jun");
+    });
+    it("keeps separate windows and ignores invalid tokens", () => {
+        expect(formatMonthRange(["--03/--05","--08/--09"])).toBe("Mar – May; Aug – Sep");
+        expect(formatMonthRange(["--10/--02","--05"])).toBe("May; Oct – Feb");
+        expect(formatMonthRange(["--01/--12"])).toBe("Jan – Dec");
+        expect(formatMonthRange(["--13/--15","nonsense"])).toBe("");
     });
     it("reads a wrap-around range in season order, not inverted", () => {
         expect(formatMonthRange(["--10/--03"])).toBe("Oct – Mar");

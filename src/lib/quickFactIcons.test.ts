@@ -58,12 +58,11 @@ describe("quick fact icons", () => {
         expect(pickFinalTipIcon({}, text, 0)).toBe(quickFactIconPath(expected));
     });
 
-    it("preserves custom legacy keys and deterministic fallback", () => {
+    it("preserves custom legacy keys and leaves unclassified tips without invented icons", () => {
         expect(
             pickFinalTipIcon({ icon: " custom " }, "Mulch the soil.", 0),
         ).toBe("/images/quick_facts/custom.png");
-        expect(pickFinalTipIcon(null, "A general tip.", 6)).toBe(
-            quickFactIconPath("soil"),
-        );
+        expect(pickFinalTipIcon(null, "A general tip.", 6)).toBeUndefined();
+        expect(pickFinalTipIcon({icon:"soil"}, "Weed and mulch.", 0, true)).toBe(quickFactIconPath("soil"));
     });
 });

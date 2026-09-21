@@ -4,7 +4,7 @@ import fs from "node:fs";
 import path from "node:path";
 import {createHash} from 'node:crypto';
 import type { IncomingMessage, ServerResponse } from "node:http";
-import { GardeningDataSchema, TroublesDataSchema, PlantingPrintContentSchema, TroublePrintSummarySchema } from "./src/schema";
+import { GardeningDataSchema, TroublesDataSchema, PlantingPrintContentSchema, TroublePrintSummarySchema, VegetablePrintExtractsSchema, VegetablePrintLayoutSchema } from "./src/schema";
 
 // ── Integrity validators ───────────────────────────────────────────────────────
 
@@ -60,6 +60,8 @@ function validateVegetables(data: unknown): string[] {
             continue;
         }
         const v = veg as Record<string, unknown>;
+        if(v.ai_print_extracts!==undefined&&!VegetablePrintExtractsSchema.safeParse(v.ai_print_extracts).success)errors.push(`${key}.ai_print_extracts: invalid print extracts`);
+        if(v.ai_print_layout!==undefined&&!VegetablePrintLayoutSchema.safeParse(v.ai_print_layout).success)errors.push(`${key}.ai_print_layout: invalid print layout`);
 
         // Required fields
         if (!v.name || typeof v.name !== "string")

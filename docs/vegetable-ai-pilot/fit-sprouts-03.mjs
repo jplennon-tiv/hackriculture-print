@@ -1,0 +1,10 @@
+import assert from 'node:assert/strict';
+import {readCollection,revision,saveCollections} from '../../../hackriculture-data/lib/records.mjs';
+import {resolveVegetablePrintLayout,printChecksum} from '../../src/lib/vegetablePrint.ts';
+const rev=revision(),data=readCollection('vegetables'),v=data.brussels_sprouts,p=v.ai_print_layout;
+assert.equal(p.status,'draft');assert.equal(p.locked,false);assert.equal(resolveVegetablePrintLayout(v,true).warning,null);
+assert.equal(p.value.intro_sentences,2);
+p.value.intro_sentences=3;p.value.variety_count=4;
+p.output_checksum=printChecksum({...p.value,extracts:Object.fromEntries(Object.entries(v.ai_print_extracts.sections).map(([s,e])=>[s,e.value]))});
+p.updated_at=new Date().toISOString();delete p.measurements;
+console.log(saveCollections({vegetables:data},{expectedRevision:rev,actor:'AI:gpt-6-astra'}));

@@ -10,18 +10,23 @@ import { toStr } from "../lib/varietyKeyed";
 import { resolveMeasurement } from "../lib/measure";
 import type { UnitSystem } from "../lib/measure";
 import { CORE_NEED_DEFS } from "../components/CoreNeeds";
-import { MONTH_SHORT, MONTH_INITIALS, expandMonths } from "../lib/months";
+import { MONTH_INITIALS, expandMonths, formatMonthRange } from "../lib/months";
 import {
     yieldFact,
     timeToHarvestSummary,
+    timeToHarvestDetails,
     durationFactSummary,
 } from "../lib/facts";
 import styles from "./print.module.css";
 import { useVegetableLayout } from "./useVegetableLayout";
+import {firstSentence,countSentences,firstNSentences} from '../lib/sentences';
+import {appliesToVegetable} from '../lib/cropApplicability';
 import { quickFactIconPath, pickFinalTipIcon } from "../lib/quickFactIcons";
 import { resolvePlanting } from './plantingIllustrations';
 import { readPlantingSource } from '../lib/planting';
+import {rankedSelection, distinctTips, measurementFact} from '../lib/vegetableEditorial';
 import { PlantingCard } from './PlantingCard';
+import {resolveVegetableExtracts,resolveVegetablePrintLayout,printItems} from '../lib/vegetablePrint';
 
 const data = vegetablesJson as unknown as GardeningData;
 const troublesData = troublesJson as unknown as TroublesData;
@@ -392,46 +397,6 @@ function listItems(arr: unknown[] | null | undefined): unknown[] {
     return arr.filter((x) => rt(x).trim());
 }
 
-function smartTrim(items: unknown[], max: number, minRank = 7): unknown[] {
-    if (items.length <= max) return items;
-    const filtered = items.filter((i) => isStar(i) || rankVal(i) >= minRank);
-    if (filtered.length >= 3 && filtered.length <= max) return filtered;
-    if (filtered.length > max) return filtered.slice(0, max);
-    return items.slice(0, max);
-}
-
-function firstSentence(text: string): string {
-    const m = text.match(/^[^.!?]+[.!?]/);
-    return m ? m[0] : text.slice(0, 80) + (text.length > 80 ? "…" : "");
-}
-
-function countSentences(text: string): number {
-    const m = text.match(/[.!?]+(?:\s|$)/g);
-    return m ? m.length : 1;
-}
-
-function firstNSentences(text: string, n: number): string {
-    const re = /[.!?]+(?:\s+|$)/g;
-    let count = 0;
-    let lastIdx = text.length;
-    let m: RegExpExecArray | null;
-    while ((m = re.exec(text)) !== null) {
-        count++;
-        if (count >= n) {
-            lastIdx = m.index + m[0].trimEnd().length;
-            break;
-        }
-    }
-    return text.slice(0, lastIdx).trim();
-}
-
-function formatMonthRange(ranges: string[]): string {
-    const all = expandMonths(ranges, { wrap: true });
-    if (!all.size) return "—";
-    const sorted = Array.from(all).sort((a, b) => a - b);
-    return `${MONTH_SHORT[sorted[0]]} – ${MONTH_SHORT[sorted[sorted.length - 1]]}`;
-}
-
 function difficultyInfo(
     d: number | null | undefined,
     categoryColour: string,
@@ -639,7 +604,7 @@ export function PrintVegetablePage() {
 }
 
 function VegetablePrintSheet({
-    veg,
+    veg: sourceVeg,
     vegetableKey: key,
     system,
 }: {
@@ -647,8 +612,15 @@ function VegetablePrintSheet({
     vegetableKey: string;
     system: UnitSystem;
 }) {
-    const name = veg.name ?? key;
     const [plantingSearchParams]=useSearchParams();
+    const aiReview=plantingSearchParams.get('aiReview')==='1';
+    const curated=resolveVegetableExtracts(sourceVeg,aiReview);
+    const saved=resolveVegetablePrintLayout(sourceVeg,aiReview);
+    const veg:Vegetable={...sourceVeg,
+        ...(typeof curated.values.introduction==='string'?{introduction:curated.values.introduction}:{}),
+        ...(curated.values.key_notes?{key_notes:curated.values.key_notes as {title:string;body:string}[]}:{}),
+    };
+    const name = veg.name ?? key;
     const plantingReview=plantingSearchParams.get('plantingReview')==='1';
     const planting=resolvePlanting(veg,key,system,plantingReview);
 
@@ -659,10 +631,10 @@ function VegetablePrintSheet({
             : [];
     const varietyPool = (() => {
         const sorted = [...allVarietyEntries].sort((a, b) => b.rank - a.rank);
-        const highRank = sorted.filter((entry) => entry.rank >= 6);
-        return highRank.length >= 4 ? highRank : sorted;
+        return sorted;
     })();
     const {
+        alignmentReady,
         introSentenceCount,
         varCount,
         imgMaxHeight,
@@ -680,7 +652,13 @@ function VegetablePrintSheet({
         countSentences(veg.introduction ?? ""),
         varietyPool.length,
         true,
-        planting?{...planting.layout,review:plantingReview,optionalNoteCount:planting.content.optional_note_paths.length,issue:planting.issue}:null,
+        planting?{...planting.layout,review:plantingReview,optionalNoteCount:curated.values.sowing_notes!==undefined?0:planting.content.optional_note_paths.length,issue:planting.issue}:null,
+        [...curated.warnings,...(saved.warning?[saved.warning]:[]),
+            ...(['soil_facts','looking_after_the_crop','harvesting','sowing_notes','final_tips'] as const)
+                .filter(slot=>curated.values[slot]===undefined)
+                .map(slot=>`${slot}: automatic fallback selection; prepare a coordinated editorial extract before approval.`)],
+        saved.layout?.intro_sentences,
+        saved.layout?.variety_count,
     );
     const keyRisksCount = 4;
 
@@ -725,8 +703,8 @@ function VegetablePrintSheet({
     const facts = (veg.seed_and_growing_facts ?? {}) as Record<string, unknown>;
     const sfStr = (k: string) =>
         typeof facts[k] === "string" ? (facts[k] as string) : null;
-    const sowRange = formatMonthRange(sowPopular);
-    const harRange = formatMonthRange(cal?.harvest_time?.most_popular ?? []);
+    const sowRange = formatMonthRange(sowPopular,{empty:"—"});
+    const harRange = formatMonthRange(cal?.harvest_time?.most_popular ?? [],{empty:"—"});
 
     const sowing = (veg.sowing_and_planting ?? null) as Record<
         string,
@@ -740,11 +718,8 @@ function VegetablePrintSheet({
     const sowingMethod = sowingMethodFull
         ? firstNSentences(sowingMethodFull, Math.max(2, 5 - p2TrimLevel))
         : undefined;
-    const sowingRowSpacing = resolveMeasurement(sowing?.row_spacing, system);
-    const sowingPlantSpacing = resolveMeasurement(
-        sowing?.plant_spacing,
-        system,
-    );
+    const sowingRowSpacing = measurementFact(sowing?.row_spacing, sowing?.row_spacing_summary, system);
+    const sowingPlantSpacing = measurementFact(sowing?.plant_spacing, sowing?.plant_spacing_summary, system);
 
     const quickFacts: Array<{
         label: string;
@@ -771,14 +746,14 @@ function VegetablePrintSheet({
             value: yf.value,
             iconKey: "Yield",
         });
-    const readyInVal = timeToHarvestSummary(veg.time_to_harvest);
+    const readyInVal = timeToHarvestDetails(veg.time_to_harvest);
     if (readyInVal) quickFacts.push({ label: "Ready in", value: readyInVal });
 
     const coreNeeds = veg.core_needs ?? null;
 
     // ── Inline troubles ───────────────────────────────────────────────────────
     const troubles = veg.troubles ?? null;
-    const inlineTroubleEntries: Array<[string, unknown]> = troubles
+    let inlineTroubleEntries: Array<[string, unknown]> = troubles
         ? Object.entries(troubles).filter(
               ([k, v]) =>
                   k !== "_note" &&
@@ -803,11 +778,16 @@ function VegetablePrintSheet({
             .replace(/_/g, " ")
             .trim();
         n = n.replace(/\s*\d+$/, "");
+        if (/^slugs?(?: and snails?)?$/.test(n)) return 'slugs';
         if (vegNameNorm && n.startsWith(vegNameNorm + " ")) {
             n = n.slice(vegNameNorm.length + 1);
         }
         return n;
     };
+    // Old inline mirrors may contain a condition now explicitly scoped to
+    // another crop. Respect the shared condition scope without deleting source.
+    const scopedConditions=(veg.troubles_detail??[]).flatMap(groupKey=>Object.values(troublesData[groupKey]?.conditions??{}));
+    inlineTroubleEntries=inlineTroubleEntries.filter(([label])=>!scopedConditions.some(c=>normTroubleName(c.name)===normTroubleName(label)&&!appliesToVegetable(c,key)));
     const seenTroubleNames = new Set(
         inlineTroubleEntries.map(([k]) => normTroubleName(k)),
     );
@@ -819,9 +799,10 @@ function VegetablePrintSheet({
             if (!group?.conditions) continue;
             for (const cond of Object.values(group.conditions)) {
                 if (!cond?.name || !cond?.description) continue;
-                const key = normTroubleName(cond.name);
-                if (seenTroubleNames.has(key)) continue;
-                seenTroubleNames.add(key);
+                if (!appliesToVegetable(cond,key)) continue;
+                const troubleKey = normTroubleName(cond.name);
+                if (seenTroubleNames.has(troubleKey)) continue;
+                seenTroubleNames.add(troubleKey);
                 const signs = firstSentence(cond.description);
                 const treatment =
                     cond.treatment && cond.treatment !== "None."
@@ -841,20 +822,21 @@ function VegetablePrintSheet({
         }
     }
 
-    const troubleEntries = [
+    const rankedTroubleEntries = [
         ...[...inlineTroubleEntries].sort(
             (a, b) => rankVal(b[1]) - rankVal(a[1]),
         ),
         ...[...fallbackTroubleEntries].sort(
             (a, b) => rankVal(b[1]) - rankVal(a[1]),
         ),
-    ].slice(0, Math.max(3, 10 - p2TrimLevel));
+    ];
+    const troubleEntries = rankedTroubleEntries.slice(0, saved.layout?.pest_limit??Math.max(3, 10 - p2TrimLevel));
 
     // KEY RISKS — top 4 by rank; inline troubles first, then troubles_detail groups
     // Build the full sorted key-risk pool; slice to keyRisksCount in render
     const allKeyRisksPool: Array<{ name: string; text: string }> = (() => {
-        if (troubleEntries.length > 0) {
-            return [...troubleEntries]
+        if (rankedTroubleEntries.length > 0) {
+            return [...rankedTroubleEntries]
                 .sort((a, b) => rankVal(b[1]) - rankVal(a[1]))
                 .map(([k, v]) => ({ name: k, text: rt(v) }));
         }
@@ -867,7 +849,7 @@ function VegetablePrintSheet({
             const group = troublesData[groupKey as string];
             if (!group?.conditions) continue;
             for (const cond of Object.values(group.conditions)) {
-                if (cond.name && cond.description) {
+                if (cond.name && cond.description && appliesToVegetable(cond,key)) {
                     conditions.push({
                         name: cond.name,
                         text: cond.description,
@@ -886,21 +868,21 @@ function VegetablePrintSheet({
     const topVarieties = varietyPool.slice(0, varCount);
 
     // ── Content lists for page 2 ──────────────────────────────────────────────
-    // Caps shrink with p2TrimLevel to absorb a taller-than-usual page 2 header.
+    // Saved extracts own the whole selection. Legacy caps remain visible in the editorial report.
     const t = p2TrimLevel;
-    const soilItems = smartTrim(
+    const soilItems = printItems(curated.values.soil_facts,system,sourceVeg)??rankedSelection(
         listItems(veg.soil_facts as unknown[]),
         Math.max(2, 6 - t),
     );
-    const careItems = smartTrim(
+    const careItems = printItems(curated.values.looking_after_the_crop,system,sourceVeg)??rankedSelection(
         listItems(veg.looking_after_the_crop as unknown[]),
         Math.max(3, 8 - t),
     );
-    const harvestItems = smartTrim(
+    const harvestItems = printItems(curated.values.harvesting,system,sourceVeg)??rankedSelection(
         listItems(veg.harvesting as unknown[]),
         Math.max(2, 6 - t),
     );
-    const sowingNotes = smartTrim(
+    const sowingNotes = printItems(curated.values.sowing_notes,system,sourceVeg)??rankedSelection(
         Array.isArray((sowing as Record<string, unknown> | null)?.notes)
             ? listItems((sowing as Record<string, unknown>).notes as unknown[])
             : [],
@@ -923,10 +905,23 @@ function VegetablePrintSheet({
         ...listItems(veg.looking_after_the_crop as unknown[]),
         ...listItems(veg.soil_facts as unknown[]),
     ].filter(isStar);
-    const tipItems =
+    const tipItems = printItems(curated.values.final_tips,system,sourceVeg)??(
         starItems.length > 0
-            ? starItems.slice(0, Math.max(3, 5 - p2TrimLevel))
-            : careItems.slice(0, Math.max(3, 4 - p2TrimLevel));
+            ? rankedSelection(distinctTips(starItems), Math.max(3, 5 - p2TrimLevel))
+            : rankedSelection(distinctTips(careItems), Math.max(3, 4 - p2TrimLevel)));
+
+    const editorialReport = Object.fromEntries([
+        ['soil_facts',soilItems,veg.soil_facts],
+        ['looking_after_the_crop',careItems,veg.looking_after_the_crop],
+        ['harvesting',harvestItems,veg.harvesting],
+        ['sowing_notes',sowingNotes,sowing?.notes],
+        ['final_tips',tipItems,starItems],
+    ].map(([slot,selected,source])=>[slot,{
+        mode:curated.values[slot as keyof typeof curated.values]!==undefined?'reviewed':'automatic',
+        source_items:Array.isArray(source)?source.length:0,
+        printed_items:Array.isArray(selected)?selected.length:0,
+        editorial_note:sourceVeg.ai_print_extracts?.sections[slot as keyof typeof curated.values]?.editorial_note ?? null,
+    }]));
 
     // ── JSX helpers ───────────────────────────────────────────────────────────
     const itemText = (item: unknown): string => {
@@ -1017,6 +1012,15 @@ function VegetablePrintSheet({
         />
     ) : null;
 
+    const tipsPosition=saved.layout?.tips_position??'full-width';
+    const finalTips=tipItems.length>0&&<div className={styles.cheatFinalTips} data-final-tips-position={tipsPosition} data-fill={(tipsPosition!=='full-width'&&saved.layout?.align_bottoms)||undefined}>
+        <div className={styles.cheatFinalTipsHd}>FINAL TIPS</div>
+        <div className={styles.cheatFinalTipsGrid}>{tipItems.map((tip,i)=><div key={i} className={styles.cheatFinalTipItem}>
+            {pickFinalTipIcon(tip,itemText(tip),i,curated.values.final_tips!==undefined) && <img src={pickFinalTipIcon(tip,itemText(tip),i,curated.values.final_tips!==undefined)} alt="" className={styles.cheatFinalTipIcon}/>}
+            <span className={styles.cheatFinalTipText}>{itemText(tip)}</span>
+        </div>)}</div>
+    </div>;
+
     const introEl = (
         <div ref={introWrapperRef} className={styles.cheatStaggeredIntro}>
             {veg.hero_header && (
@@ -1083,12 +1087,7 @@ function VegetablePrintSheet({
                                     : undefined;
                                 // Prefer ready_in_short (concise header version)
                                 // over the full Quick Facts "Ready in" value
-                                const readyIn =
-                                    veg.time_to_harvest?.ready_in_short ??
-                                    quickFacts.find(
-                                        (f) => f.label === "Ready in",
-                                    )?.value ??
-                                    null;
+                                const readyIn = timeToHarvestSummary(veg.time_to_harvest);
                                 return (
                                     <>
                                         {seasons.length > 0 && (
@@ -1190,6 +1189,7 @@ function VegetablePrintSheet({
                     calendar tucks in beneath it (organic spill, no manual push) */}
                 <div
                     className={`${styles.cheatBody} ${styles.cheatStaggeredBody}`}
+                    data-align-bottoms={(alignmentReady&&saved.layout?.align_bottoms)||undefined}
                     style={{
                         gridTemplateColumns: `44% ${56 - heroColumnWidth}% ${heroColumnWidth}%`,
                     }}
@@ -1683,7 +1683,7 @@ function VegetablePrintSheet({
                         </div>
                     </div>
                 </div>
-                <div className={styles.cheatBody}>
+                <div className={styles.cheatBody} data-align-bottoms={saved.layout?.align_bottoms||undefined} data-editorial-report={JSON.stringify(editorialReport)}>
                     {/* LEFT: Soil + Sowing */}
                     <div className={styles.cheatLeft}>
                         {soilItems.length > 0 && (
@@ -1699,7 +1699,7 @@ function VegetablePrintSheet({
                             planting={planting} fit={plantingFit} onAssets={onPlantingAssets}
                             notes={[
                                 ...sowingNotes.map(itemText),
-                                ...planting.content.optional_note_paths.map(path=>itemText(readPlantingSource(veg,path)))
+                                ...(curated.values.sowing_notes!==undefined?[]:planting.content.optional_note_paths).map(path=>itemText(readPlantingSource(veg,path)))
                                     .filter(text=>text&&!sowingNotes.some(n=>itemText(n)===text)).slice(0,plantingFit.noteCount),
                             ]}
                         /> : sowing && (
@@ -1754,6 +1754,7 @@ function VegetablePrintSheet({
                                 )}
                             </div>
                         )}
+                        {tipsPosition==='left-column'&&finalTips}
                     </div>
 
                     {/* RIGHT: Looking After + Harvesting + Pests */}
@@ -1857,38 +1858,11 @@ function VegetablePrintSheet({
                                 </table>
                             </div>
                         )}
+                        {tipsPosition==='right-column'&&finalTips}
                     </div>
                 </div>
 
-                {/* Final Tips */}
-                {tipItems.length > 0 && (
-                    <div className={styles.cheatFinalTips}>
-                        <div className={styles.cheatFinalTipsHd}>
-                            FINAL TIPS
-                        </div>
-                        <div className={styles.cheatFinalTipsGrid}>
-                            {tipItems.map((tip, i) => (
-                                <div
-                                    key={i}
-                                    className={styles.cheatFinalTipItem}
-                                >
-                                    <img
-                                        src={pickFinalTipIcon(
-                                            tip,
-                                            itemText(tip),
-                                            i,
-                                        )}
-                                        alt=""
-                                        className={styles.cheatFinalTipIcon}
-                                    />
-                                    <span className={styles.cheatFinalTipText}>
-                                        {itemText(tip)}
-                                    </span>
-                                </div>
-                            ))}
-                        </div>
-                    </div>
-                )}
+                {tipsPosition==='full-width'&&finalTips}
                 {/* Page 2 content-end sentinel — used by p2TrimLevel algorithm */}
                 <div ref={page2SentinelRef} style={{ height: 0 }} />
             </div>

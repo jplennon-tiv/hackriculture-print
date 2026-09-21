@@ -1,0 +1,38 @@
+{
+  "baseline": "c4451d693f2b147763fd431b40b6e97322b03b5eaebee790c79d519a7fa0c6a5",
+  "sourceSave": {
+    "changed": 6,
+    "revision": "5a06dbf74fc59aae2bfd751b0223c631c6013415a64dc2bda86434dce4c8e7a9"
+  },
+  "draftSave": {
+    "changed": 12,
+    "revision": "090eb0665e1d221d8305657aa9f12ad234bb4deb38b9db18e006d81b6405cce2"
+  },
+  "revision": "bdb69a8f7162945a9d7592228019699b2c33c95c5dc31b650d7db7e5a34b3237",
+  "measurementSave": {
+    "changed": 12,
+    "revision": "bdb69a8f7162945a9d7592228019699b2c33c95c5dc31b650d7db7e5a34b3237"
+  },
+  "backups": [
+    "2026-09-21T20-00-56.046Z-053ccd7b-a2a2-4a8c-b6a8-08e4f9cbe055",
+    "2026-09-21T20-00-56.427Z-4f02b9d6-104b-445f-b5b7-35c30a3a54e6",
+    "2026-09-21T20-03-03.077Z-04ef2ee5-e51a-4951-a20d-0b34a2714f04",
+    "2026-09-21T20-03-45.035Z-43dd74ff-65f9-4f48-943f-c4d7583fc4da",
+    "2026-09-21T20-04-41.100Z-e5cf3753-8a3d-46b5-ab2a-cacda7870a62",
+    "2026-09-21T20-07-33.583Z-dbe4e5bc-7ef2-4d06-833d-67a2951552be",
+    "2026-09-21T20-09-43.143Z-36b755b4-f2cc-47fb-aad6-f1919c261a84",
+    "2026-09-21T20-11-30.072Z-e9f2c9be-08e6-4bed-b54d-9ad00e0994de"
+  ],
+  "checks": "widget-checks.json",
+  "proof": "output/pdf/vegetable-widgets-review.pdf",
+  "proof_sha256": "5e42bed34287c1b7235b9b3e5f27437573ceed6ba0ede4a6742d5ec3b469710c",
+  "tests": "243 tests passed; production build passed (existing large-chunk advisory)",
+  "visual_samples": [
+    "brussels_sprouts",
+    "bean_french",
+    "radish",
+    "celery",
+    "cabbage"
+  ],
+  "limitations": "Existing duplicated variety/risk identities and occasional mixed-unit master prose remain indexed for normalisation. Poppler Type 3 glyph bounding-box warnings did not show visible damage in inspected pages."
+}

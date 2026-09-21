@@ -115,56 +115,15 @@ export function isoMonthToName(iso: string): string {
     return n == null ? iso : MONTH_FULL[n];
 }
 
-/**
- * Short-name range ("Mar – May") between the earliest and latest month named in
- * `entries`. Returns a single short name when only one month is named, or
- * `empty` (default "") when none are. When a descending (wrap-around) range is
- * present, the span is computed as the complement of the largest off-season gap
- * so a winter crop reads "Oct – Mar" rather than an inverted "Mar – Oct".
- */
-export function formatMonthRange(
-    entries: string[] | undefined,
-    opts: { empty?: string } = {},
-): string {
-    const { empty = "" } = opts;
-    const nums = monthNumbers(entries);
-    if (!nums.length) return empty;
-
-    const hasWrap = (entries ?? []).some((e) => {
-        const m = e.trim().match(RANGE);
-        return m && parseInt(m[1], 10) > parseInt(m[2], 10);
-    });
-
-    if (hasWrap) {
-        const covered = expandMonths(entries, { wrap: true });
-        if (covered.size >= 12) return `${MONTH_SHORT[0]} – ${MONTH_SHORT[11]}`;
-        // Largest contiguous run of uncovered months (circular) is the off-season;
-        // the season is its complement.
-        let bestStart = -1;
-        let bestLen = 0;
-        for (let s = 0; s < 12; s++) {
-            if (covered.has(s) || !covered.has((s + 11) % 12)) continue;
-            let len = 0;
-            let i = s;
-            while (!covered.has(i) && len < 12) {
-                len++;
-                i = (i + 1) % 12;
-            }
-            if (len > bestLen) {
-                bestLen = len;
-                bestStart = s;
-            }
-        }
-        const seasonStart = (bestStart + bestLen) % 12;
-        const seasonEnd = (bestStart + 11) % 12;
-        return seasonStart === seasonEnd
-            ? MONTH_SHORT[seasonStart]
-            : `${MONTH_SHORT[seasonStart]} – ${MONTH_SHORT[seasonEnd]}`;
-    }
-
-    const min = Math.min(...nums);
-    const max = Math.max(...nums);
-    return min === max
-        ? MONTH_SHORT[min]
-        : `${MONTH_SHORT[min]} – ${MONTH_SHORT[max]}`;
+/** Exact contiguous windows, including winter wraps, without filling seasonal gaps. */
+export function formatMonthRange(entries: string[] | undefined, opts: {empty?:string} = {}): string {
+    const covered=expandMonths(entries,{wrap:true});
+    if (!covered.size) return opts.empty ?? '';
+    if (covered.size===12) return 'Jan – Dec';
+    const starts=Array.from({length:12},(_,i)=>i).filter(i=>covered.has(i)&&!covered.has((i+11)%12));
+    return starts.map(start=>{
+        let end=start;
+        while(covered.has((end+1)%12)) end=(end+1)%12;
+        return start===end ? MONTH_SHORT[start] : `${MONTH_SHORT[start]} – ${MONTH_SHORT[end]}`;
+    }).join('; ');
 }

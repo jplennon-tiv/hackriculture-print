@@ -22,13 +22,16 @@ export function useVegetableLayout(
     maxVarieties: number,
     staggeredHero = false,
     planting?: {imageMm:number;minImageMm:number;maxImageMm:number;optionalNoteCount:number;issue:string|null;review?:boolean} | null,
+    editorialWarnings:string[]=[],
+    savedIntroSentences?:number,
+    savedVarieties?:number,
 ) {
     const sentenceCap = Math.min(totalSentences, LAYOUT_LIMITS.introSentences);
     const [phase, setPhase] = useState<LayoutPhase>("intro");
-    const [introSentences, setIntroSentences] = useState(2);
+    const [introSentences, setIntroSentences] = useState(Math.min(savedIntroSentences??2,sentenceCap));
     const [introRefinements, setIntroRefinements] = useState(0);
     const [extraSentences, setExtraSentences] = useState(0);
-    const [varCount, setVarCount] = useState(4);
+    const [varCount, setVarCount] = useState(Math.min(savedVarieties??4,maxVarieties));
     const [imgMaxHeight, setImgMaxHeight] = useState(400);
     const [p2TrimLevel, setP2TrimLevel] = useState(0);
     const [page2Ready, setPage2Ready] = useState(false);
@@ -86,7 +89,7 @@ export function useVegetableLayout(
             ? (target?.getBoundingClientRect().bottom ?? 0) -
               paragraph.getBoundingClientRect().bottom
             : 0;
-        if (gap > LAYOUT_LIMITS.introGap && introSentences < sentenceCap) {
+        if (savedIntroSentences===undefined && gap > LAYOUT_LIMITS.introGap && introSentences < sentenceCap) {
             setIntroSentences((previous) => previous + 1);
         } else {
             previousPageGap.current = null;
@@ -96,6 +99,9 @@ export function useVegetableLayout(
 
     useLayoutEffect(() => {
         if (phase !== "page") return;
+        // A reviewed count is a content decision, not a starting guess. Keep it
+        // reproducible; the final overflow check still reports an invalid plan.
+        if(savedVarieties!==undefined){setPhase('top-up');return;}
         const page = page1Ref.current;
         const sentinel = page1SentinelRef.current;
         if (!page || !sentinel) {
@@ -146,7 +152,7 @@ export function useVegetableLayout(
         const wrapper = introWrapperRef.current;
         const introEnd = introSentinelRef.current;
         if (
-            introRefinements < LAYOUT_LIMITS.introRefinements &&
+            savedIntroSentences===undefined && introRefinements < LAYOUT_LIMITS.introRefinements &&
             introSentences < sentenceCap &&
             wrapper &&
             introEnd &&
@@ -194,6 +200,7 @@ export function useVegetableLayout(
 
     useLayoutEffect(() => {
         if (phase !== "top-up" || !assetsReady) return;
+        if(savedIntroSentences!==undefined){setPhase('done');return;}
         const page = page1Ref.current;
         const sentinel = page1SentinelRef.current;
         if (!page || !sentinel) {
@@ -241,7 +248,7 @@ export function useVegetableLayout(
 
     useLayoutEffect(() => {
         document.body.dataset.printError=planting?.issue??'';
-        const warnings:string[]=[];
+        const warnings:string[]=[...editorialWarnings];
         for(const [label,page,sentinel,budget] of [
             ['Page 1',page1Ref.current,page1SentinelRef.current,965],
             ['Page 2',page2Ref.current,page2SentinelRef.current,plantingBudget.current],
@@ -260,6 +267,7 @@ export function useVegetableLayout(
     }, [phase,page2Ready,assetsReady,planting,plantingActive,plantingImagesReady,plantingFit]);
 
     return {
+        alignmentReady:phase==='done',
         introSentenceCount: introSentences + extraSentences,
         varCount,
         imgMaxHeight,
