@@ -1,0 +1,8 @@
+import fs from 'node:fs';import assert from 'node:assert/strict';import {chromium} from 'playwright';
+import {readCollection,revision} from '../../../hackriculture-data/lib/records.mjs';
+const receipt=JSON.parse(fs.readFileSync('docs/vegetable-ai-pilot/FINAL-APPROVE-RECEIPT.json')),data=readCollection('vegetables'),rev=revision(),browser=await chromium.launch(),checks=[];
+try{const page=await browser.newPage({viewport:{width:688,height:979}});for(const key of receipt.keys)for(const units of ['metric','imperial']){
+ await page.goto(`http://127.0.0.1:5173/print/vegetable/${key}?units=${units}`,{waitUntil:'networkidle'});await page.waitForFunction(()=>document.body.dataset.printReady==='true'||document.body.dataset.printError);
+ const result=await page.evaluate(()=>({error:document.body.dataset.printError||null,warnings:JSON.parse(document.body.dataset.printWarnings||'[]'),fonts:document.fonts.status,missing:[...document.images].filter(i=>!i.complete||!i.naturalWidth).map(i=>i.src),tips:document.querySelectorAll('[class*="cheatFinalTipIcon"]').length}));
+ assert.equal(result.error,null);assert.equal(result.fonts,'loaded');assert.deepEqual(result.missing,[]);assert.equal(result.tips,data[key].ai_print_extracts.sections.final_tips.value.length);assert.ok(result.warnings.every(w=>key==='mushroom'&&w==='sowing_notes: automatic fallback selection; prepare a coordinated editorial extract before approval.'));checks.push({key,units,...result});console.log(key,units,'ready');
+}assert.equal(revision(),rev);fs.writeFileSync('docs/vegetable-ai-pilot/FINAL-NORMAL-ROUTE-CHECKS.json',JSON.stringify({at:new Date().toISOString(),shared_revision:rev,checks},null,2)+'\n');}finally{await browser.close();}

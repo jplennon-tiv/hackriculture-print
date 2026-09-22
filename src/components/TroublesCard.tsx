@@ -1,6 +1,7 @@
 import type { Troubles } from "../types";
 import type { RankFilter } from "../hooks/useRankFilter";
-import { getRank } from "../lib/ranked";
+import { useUnits } from "../lib/units";
+import { getRank, rt } from "../lib/ranked";
 import styles from "./VegetablePage.module.css";
 
 interface TroublesCardProps {
@@ -9,6 +10,7 @@ interface TroublesCardProps {
 }
 
 export function TroublesCard({ troubles, rankFilter }: TroublesCardProps) {
+    const { system } = useUnits();
     const passRank = rankFilter ?? (() => true);
     const note = troubles._note;
     const entries = Object.entries(troubles)
@@ -53,11 +55,7 @@ export function TroublesCard({ troubles, rankFilter }: TroublesCardProps) {
                                     {name}
                                 </span>
                                 <p className={styles.troubleDesc}>
-                                    {typeof desc === "object" &&
-                                    desc !== null &&
-                                    "text" in desc
-                                        ? (desc as { text: string }).text
-                                        : (desc as string)}
+                                    {rt(desc, system)}
                                 </p>
                             </div>
                         );

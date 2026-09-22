@@ -1,0 +1,336 @@
+{
+  "checked_at": "2026-09-21T21:58:32.184Z",
+  "checked_by": "AI:gpt-6-astra",
+  "renderer_revision": "vegetable-extracts-v5",
+  "compatible_previous_revision": "vegetable-extracts-v4",
+  "scope": "Source method and ranked text/short_text accept explicit unit pairs. String-only v4 rendering is compatible. Existing approvals and measurement records are untouched; this is regression evidence, not new user approval.",
+  "files": {
+    "src/print/PrintVegetablePage.tsx": {
+      "previous": "3866c338f167b8306271943935f31795e2446243709f67cf9009b5569891c9c4",
+      "current": "b2c91be112d50f7aa54c10997630b6bc0d983e5c4dfb0d3788ea1774aab229f6"
+    },
+    "src/print/print.module.css": {
+      "previous": "d8f6c0d96ae9ca0615b6cf1fd90a79304a2eb56aa4f253c0b6f4f7846c419712",
+      "current": "d8f6c0d96ae9ca0615b6cf1fd90a79304a2eb56aa4f253c0b6f4f7846c419712"
+    },
+    "src/print/useVegetableLayout.ts": {
+      "previous": "8d753a53c7b0669b6215c3cb5ab9e2fdd18da47507a851ab8f46ac94f10cc4ce",
+      "current": "8d753a53c7b0669b6215c3cb5ab9e2fdd18da47507a851ab8f46ac94f10cc4ce"
+    },
+    "src/print/vegetableLayout.ts": {
+      "previous": "d829840058a6950650063d626201afa6b53004f0bccf4595caae762fa18b39ba",
+      "current": "d829840058a6950650063d626201afa6b53004f0bccf4595caae762fa18b39ba"
+    },
+    "src/print/plantingFit.ts": {
+      "previous": "dc9de431439f09207fa561057b0149f39c6941eebb1903e6c408d1084e985e92",
+      "current": "dc9de431439f09207fa561057b0149f39c6941eebb1903e6c408d1084e985e92"
+    },
+    "src/print/plantingIllustrations.ts": {
+      "previous": "b90ae468984edce5c853271bb8b5f480e7564084282fe7dd55d782160da49898",
+      "current": "b90ae468984edce5c853271bb8b5f480e7564084282fe7dd55d782160da49898"
+    },
+    "src/print/PlantingCard.tsx": {
+      "previous": "13420ed1f6c10784df927ac73e52dd5445d9fa898287122d205418a4fc1becf2",
+      "current": "13420ed1f6c10784df927ac73e52dd5445d9fa898287122d205418a4fc1becf2"
+    },
+    "src/print/planting.module.css": {
+      "previous": "06de9c363ae2b5773c1d84083fd9c6e052baed4cf4d47517d41e2146fd3b837c",
+      "current": "06de9c363ae2b5773c1d84083fd9c6e052baed4cf4d47517d41e2146fd3b837c"
+    },
+    "src/lib/vegetablePrint.ts": {
+      "previous": "7a1aee26049b69baadf9c3a5424a8ac33975ba57af57482ad7bb46673553b2fc",
+      "current": "12c1f95fa967a606c3c642377360b47f8d30d7df1b3707ec0b0d0dd21658e948"
+    },
+    "src/lib/vegetableEditorial.ts": {
+      "previous": "c8f8c07c5314ce54ef39ad05395c88b67be1660677cbc0d66c5bf4c7a16a8d9a",
+      "current": "c8f8c07c5314ce54ef39ad05395c88b67be1660677cbc0d66c5bf4c7a16a8d9a"
+    },
+    "src/lib/months.ts": {
+      "previous": "21a7454d3ae048a31b200a893d3085c25581a787b06fa878c85598a13a9e9478",
+      "current": "21a7454d3ae048a31b200a893d3085c25581a787b06fa878c85598a13a9e9478"
+    },
+    "src/lib/facts.ts": {
+      "previous": "c9601fd9a91f56379028624e1d0067c89fa8094c46d178d2cfcd0a692a812b0e",
+      "current": "c9601fd9a91f56379028624e1d0067c89fa8094c46d178d2cfcd0a692a812b0e"
+    },
+    "src/lib/measure.ts": {
+      "previous": "6457c2872609ab4a8641c619877b5369c863cac35fe684c7e9f760bf9ba61e07",
+      "current": "6457c2872609ab4a8641c619877b5369c863cac35fe684c7e9f760bf9ba61e07"
+    },
+    "src/lib/quickFactIcons.ts": {
+      "previous": "1591b28d1f02e90ae806fb4c0b1b4097a5c80fd967c32c67056d74107d171d47",
+      "current": "1591b28d1f02e90ae806fb4c0b1b4097a5c80fd967c32c67056d74107d171d47"
+    },
+    "src/lib/planting.ts": {
+      "previous": "9c029844075f037170c3c37675cbc5dd308db02d1134e1fabec6141612d1c323",
+      "current": "9c029844075f037170c3c37675cbc5dd308db02d1134e1fabec6141612d1c323"
+    },
+    "src/lib/sentences.ts": {
+      "previous": "10440127d0460f63387f9bf5d851af65e81a9f5c9d8753595afe2dbc56529e5b",
+      "current": "10440127d0460f63387f9bf5d851af65e81a9f5c9d8753595afe2dbc56529e5b"
+    },
+    "src/lib/cropApplicability.ts": {
+      "previous": "5e9a018901134b54d3655f16a478d7ed32b6cd84be11f55aefbe84469135b5ff",
+      "current": "5e9a018901134b54d3655f16a478d7ed32b6cd84be11f55aefbe84469135b5ff"
+    },
+    "src/lib/ranked.ts": {
+      "previous": "cc999f545b7af50a179b8a37e04c1799fb0ef6fced397a10757d4f277f25f3d8",
+      "current": "4fd1ce1e81a20d26297e6489eb480d79e9a3fb4e84bddd567bd78ba9d4c89fe2"
+    },
+    "src/schema.ts": {
+      "previous": "d56d148b63aaf5201dfcf612a0f1f85b89258a966db3f708fe8a448d93ed5068",
+      "current": "7a1e8b7c9037cbbde87f58e3c819e5af0adaeb6955e7ccb49e901c05fd717bf7"
+    },
+    "src/types.ts": {
+      "previous": "853881a7605834acdcdf140bd118e281bfb6e6dfd0b110d564d118e64be91d87",
+      "current": "328776f57a07b963c4bc8ac0ff256a895da52dcdd0da71dfc63d39d41ca24231"
+    },
+    "src/admin/FieldEditor.tsx": {
+      "previous": "29505a9e33a3c7f4b0e0c60b903113d5435c60020fa5de53cc8ab7e71d292dbf",
+      "current": "6197169bea88e770b0d173d18d64add4b5df1908163341a6a2ff5f4505746b8e"
+    },
+    "adminApiPlugin.ts": {
+      "previous": "bb2c58edf695868c824c6520388ad8c44cd24f9982dc8a32792a614b6befcc08",
+      "current": "ff5be73fb4b86a8b71d917e3339c681d7432efe9c8710f9b2d68f632aebce6d4"
+    },
+    "src/components/SowingPanel.tsx": {
+      "previous": "d551b73be7dcb3baa3366aaf67ba428e501622b570cb61e0eea72a146807d3bb",
+      "current": "fc7a6600b6fbff44bc3c3ece06d44289197134100c89df80e2c041d4d3008988"
+    },
+    "src/components/VegetablePage.tsx": {
+      "previous": "38aae5e531e2d370c1ad47e296966071c201cf3242fdde46039b1e64b3c40927",
+      "current": "1c5691172b36ce263f298a0423b5e5281a014795a7d85b961dbf596f4b3523ed"
+    },
+    "src/components/VarietiesCard.tsx": {
+      "previous": "1bd20753ca29e8308057d5e5fc9328459dad414425bd011e11491b3c31473474",
+      "current": "66c20b0e3d9aa3e9be6650bcdf51aaa2601051729d867741ca02e0c013c0fae6"
+    },
+    "src/components/TroublesCard.tsx": {
+      "previous": "a43753ba98483f6b63188e9a01fbab988aa73a84bd3b9c2ab8e7d8db56b75a83",
+      "current": "c6a6b64b628fa4b911cc80bef4d7a392b2c318ffaa3e891e81588f98f43dacbd"
+    }
+  },
+  "results": [
+    {
+      "key": "carrot",
+      "units": "metric",
+      "pages": 2,
+      "error": null,
+      "warnings": [],
+      "fonts": "loaded",
+      "missing": [],
+      "alignment": [
+        0,
+        0
+      ]
+    },
+    {
+      "key": "carrot",
+      "units": "imperial",
+      "pages": 2,
+      "error": null,
+      "warnings": [],
+      "fonts": "loaded",
+      "missing": [],
+      "alignment": [
+        0,
+        0
+      ]
+    },
+    {
+      "key": "broccoli",
+      "units": "metric",
+      "pages": 2,
+      "error": null,
+      "warnings": [],
+      "fonts": "loaded",
+      "missing": [],
+      "alignment": [
+        0,
+        0
+      ]
+    },
+    {
+      "key": "broccoli",
+      "units": "imperial",
+      "pages": 2,
+      "error": null,
+      "warnings": [],
+      "fonts": "loaded",
+      "missing": [],
+      "alignment": [
+        0,
+        0
+      ]
+    },
+    {
+      "key": "cauliflower",
+      "units": "metric",
+      "pages": 2,
+      "error": null,
+      "warnings": [],
+      "fonts": "loaded",
+      "missing": [],
+      "alignment": [
+        0,
+        0
+      ]
+    },
+    {
+      "key": "cauliflower",
+      "units": "imperial",
+      "pages": 2,
+      "error": null,
+      "warnings": [],
+      "fonts": "loaded",
+      "missing": [],
+      "alignment": [
+        0,
+        0
+      ]
+    },
+    {
+      "key": "kohl_rabi",
+      "units": "metric",
+      "pages": 2,
+      "error": null,
+      "warnings": [],
+      "fonts": "loaded",
+      "missing": [],
+      "alignment": [
+        0,
+        0
+      ]
+    },
+    {
+      "key": "kohl_rabi",
+      "units": "imperial",
+      "pages": 2,
+      "error": null,
+      "warnings": [],
+      "fonts": "loaded",
+      "missing": [],
+      "alignment": [
+        0,
+        0
+      ]
+    }
+  ],
+  "pixel_comparison": {
+    "scale_to_px": 1000,
+    "results": [
+      {
+        "crop": "carrot",
+        "unit": "metric",
+        "page": 1,
+        "pixels_identical": true
+      },
+      {
+        "crop": "carrot",
+        "unit": "metric",
+        "page": 2,
+        "pixels_identical": true
+      },
+      {
+        "crop": "carrot",
+        "unit": "imperial",
+        "page": 1,
+        "pixels_identical": true
+      },
+      {
+        "crop": "carrot",
+        "unit": "imperial",
+        "page": 2,
+        "pixels_identical": true
+      },
+      {
+        "crop": "broccoli",
+        "unit": "metric",
+        "page": 1,
+        "pixels_identical": true
+      },
+      {
+        "crop": "broccoli",
+        "unit": "metric",
+        "page": 2,
+        "pixels_identical": true
+      },
+      {
+        "crop": "broccoli",
+        "unit": "imperial",
+        "page": 1,
+        "pixels_identical": true
+      },
+      {
+        "crop": "broccoli",
+        "unit": "imperial",
+        "page": 2,
+        "pixels_identical": true
+      },
+      {
+        "crop": "cauliflower",
+        "unit": "metric",
+        "page": 1,
+        "pixels_identical": true
+      },
+      {
+        "crop": "cauliflower",
+        "unit": "metric",
+        "page": 2,
+        "pixels_identical": true
+      },
+      {
+        "crop": "cauliflower",
+        "unit": "imperial",
+        "page": 1,
+        "pixels_identical": true
+      },
+      {
+        "crop": "cauliflower",
+        "unit": "imperial",
+        "page": 2,
+        "pixels_identical": true
+      },
+      {
+        "crop": "kohl_rabi",
+        "unit": "metric",
+        "page": 1,
+        "pixels_identical": true
+      },
+      {
+        "crop": "kohl_rabi",
+        "unit": "metric",
+        "page": 2,
+        "pixels_identical": true
+      },
+      {
+        "crop": "kohl_rabi",
+        "unit": "imperial",
+        "page": 1,
+        "pixels_identical": true
+      },
+      {
+        "crop": "kohl_rabi",
+        "unit": "imperial",
+        "page": 2,
+        "pixels_identical": true
+      }
+    ]
+  },
+  "source_browser_checks": {
+    "crop": "kale",
+    "units": [
+      "metric",
+      "imperial"
+    ],
+    "result": "Correct separate transplant prose, no object-render errors or internal most_popular commentary."
+  },
+  "master_backup": "backups/admin/2026-09-21T21-52-25.702Z-e72d83fd-6837-4cc0-9d60-7e4f98e600a7",
+  "validation": {
+    "tests_passed": 245,
+    "build": "passed; existing large-chunk warning",
+    "shared_integrity": "passed",
+    "preflight": "passed with expected kale review warnings",
+    "visual_spot_check": "cauliflower metric page two"
+  }
+}

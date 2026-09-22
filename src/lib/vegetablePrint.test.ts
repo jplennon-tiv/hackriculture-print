@@ -35,9 +35,18 @@ describe('vegetable print extracts',()=>{
   const v=fixture(),value={pest_limit:4,target_pages:2 as const};
   v.ai_print_layout={...v.ai_print_extracts!.sections.soil_facts!,value,renderer_revision:VEGETABLE_PRINT_REVISION,dependencies:layoutDependencies(v),output_checksum:printChecksum({...value,extracts:{soil_facts:v.ai_print_extracts!.sections.soil_facts!.value}})};
   expect(resolveVegetablePrintLayout(v).layout).toEqual(value);v.metadata={notes:'Unrelated'};expect(resolveVegetablePrintLayout(v).layout).toEqual(value);
+  v.ai_print_layout.renderer_revision='vegetable-extracts-v4';expect(resolveVegetablePrintLayout(v).layout).toEqual(value);
   v.ai_print_layout.renderer_revision='old';expect(resolveVegetablePrintLayout(v).warning).toContain('renderer');v.ai_print_layout.renderer_revision=VEGETABLE_PRINT_REVISION;
   v.ai_print_layout.value.pest_limit=5;expect(resolveVegetablePrintLayout(v).warning).toContain('manual');v.ai_print_layout.value.pest_limit=4;
   v.harvesting![0].text='Changed';expect(resolveVegetablePrintLayout(v).warning).toContain('source');
+ });
+ it('requires a new layout revision for paired source prose even with current dependencies',()=>{
+  const v=fixture(),value={pest_limit:4,target_pages:2 as const};
+  v.sowing_and_planting={method:{metric:'45 cm apart.',imperial:'18 in. apart.'}};
+  v.ai_print_layout={...v.ai_print_extracts!.sections.soil_facts!,value,renderer_revision:'vegetable-extracts-v4',dependencies:layoutDependencies(v),output_checksum:printChecksum({...value,extracts:{soil_facts:v.ai_print_extracts!.sections.soil_facts!.value}})};
+  expect(resolveVegetablePrintLayout(v).warning).toContain('renderer changed');
+  v.ai_print_layout.renderer_revision=VEGETABLE_PRINT_REVISION;
+  expect(resolveVegetablePrintLayout(v).layout).toEqual(value);
  });
  it('requires linked, available measurement pairs before rendering bound copy',()=>{
   const v=fixture(),e=v.ai_print_extracts!.sections.soil_facts!;

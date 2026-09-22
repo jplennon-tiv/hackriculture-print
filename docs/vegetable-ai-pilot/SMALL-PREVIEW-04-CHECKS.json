@@ -1,0 +1,136 @@
+{
+  "date": "2026-09-22",
+  "kind": "byte-identical copies of current checked drafts; no PDF regeneration",
+  "proofs": [
+    {
+      "crop": "spinach",
+      "units": "metric",
+      "file": "output/pdf/page-fill-review/spinach-metric.pdf",
+      "pages": 2,
+      "bytes": 9076235,
+      "sha256": "613cd8b28a825c20edb7e7ddd331f680c771ee319e16ca37aa583300650e9340",
+      "unchanged_from_checked_proof": true,
+      "saved_asset_readiness_verified": true
+    },
+    {
+      "crop": "spinach",
+      "units": "imperial",
+      "file": "output/pdf/page-fill-review/spinach-imperial.pdf",
+      "pages": 2,
+      "bytes": 9076424,
+      "sha256": "fa5f2799b373fb0d44a262f8ed9eb8a2ebd1805532b55e9f0f85f022fdfd2fd6",
+      "unchanged_from_checked_proof": true,
+      "saved_asset_readiness_verified": true
+    },
+    {
+      "crop": "pea",
+      "units": "metric",
+      "file": "output/pdf/page-fill-review/pea-metric.pdf",
+      "pages": 2,
+      "bytes": 9132058,
+      "sha256": "11c43c8c1abcd67c9e5e9c245033f4f970e2054be2c8342bdfd759de56901d30",
+      "unchanged_from_checked_proof": true,
+      "saved_asset_readiness_verified": true
+    },
+    {
+      "crop": "pea",
+      "units": "imperial",
+      "file": "output/pdf/page-fill-review/pea-imperial.pdf",
+      "pages": 2,
+      "bytes": 9130557,
+      "sha256": "af25d9bf60b45127b4ce705e5d5a8a09fbb3a11d7c3db1806503bbd469e22ca1",
+      "unchanged_from_checked_proof": true,
+      "saved_asset_readiness_verified": true
+    },
+    {
+      "crop": "leek",
+      "units": "metric",
+      "file": "output/pdf/page-fill-review/leek-metric.pdf",
+      "pages": 2,
+      "bytes": 7542421,
+      "sha256": "18543f4a0520a5b54cfe964460819ea74533136fc60225e698f352205a56ee4b",
+      "unchanged_from_checked_proof": true,
+      "saved_asset_readiness_verified": true
+    },
+    {
+      "crop": "leek",
+      "units": "imperial",
+      "file": "output/pdf/page-fill-review/leek-imperial.pdf",
+      "pages": 2,
+      "bytes": 7544037,
+      "sha256": "063d15fc944d2728c855fb8699be6071f31a85adaa854c3417100821af0c1a20",
+      "unchanged_from_checked_proof": true,
+      "saved_asset_readiness_verified": true
+    },
+    {
+      "crop": "onion_shallot",
+      "units": "metric",
+      "file": "output/pdf/page-fill-review/onion_shallot-metric.pdf",
+      "pages": 2,
+      "bytes": 9307172,
+      "sha256": "3ac9be1c10683364207277ae27643c6f76c8be6bbf125e844b1675a5455a842c",
+      "unchanged_from_checked_proof": true,
+      "saved_asset_readiness_verified": true
+    },
+    {
+      "crop": "onion_shallot",
+      "units": "imperial",
+      "file": "output/pdf/page-fill-review/onion_shallot-imperial.pdf",
+      "pages": 2,
+      "bytes": 9306324,
+      "sha256": "de060b2f8ddc53fe0cfc34a0f7811a9530fd471f7d905f1e8cfef3363d601033",
+      "unchanged_from_checked_proof": true,
+      "saved_asset_readiness_verified": true
+    }
+  ],
+  "render_checks": [
+    {
+      "file": "output/pdf/page-fill-review/spinach-metric.pdf",
+      "render_warnings": ""
+    },
+    {
+      "file": "output/pdf/page-fill-review/spinach-imperial.pdf",
+      "render_warnings": ""
+    },
+    {
+      "file": "output/pdf/page-fill-review/pea-metric.pdf",
+      "render_warnings": ""
+    },
+    {
+      "file": "output/pdf/page-fill-review/pea-imperial.pdf",
+      "render_warnings": ""
+    },
+    {
+      "file": "output/pdf/page-fill-review/leek-metric.pdf",
+      "render_warnings": ""
+    },
+    {
+      "file": "output/pdf/page-fill-review/leek-imperial.pdf",
+      "render_warnings": ""
+    },
+    {
+      "file": "output/pdf/page-fill-review/onion_shallot-metric.pdf",
+      "render_warnings": "Syntax Warning: Bad bounding box in Type 3 glyph\nSyntax Warning: Bad bounding box in Type 3 glyph\nSyntax Warning: Bad bounding box in Type 3 glyph\nSyntax Warning: Bad bounding box in Type 3 glyph"
+    },
+    {
+      "file": "output/pdf/page-fill-review/onion_shallot-imperial.pdf",
+      "render_warnings": "Syntax Warning: Bad bounding box in Type 3 glyph\nSyntax Warning: Bad bounding box in Type 3 glyph\nSyntax Warning: Bad bounding box in Type 3 glyph\nSyntax Warning: Bad bounding box in Type 3 glyph"
+    }
+  ],
+  "visual_review": {
+    "pages_inspected": 16,
+    "units": [
+      "metric",
+      "imperial"
+    ],
+    "result": "No new clipping, overlap, missing artwork or broken bottom borders. Onions/shallots Type 3 warnings render intact.",
+    "tip_counts": {
+      "spinach": 2,
+      "pea": 2,
+      "leek": 2,
+      "onion_shallot": 2
+    },
+    "deferred_by_user": "Overlapping bubble text will be addressed in a later task.",
+    "existing_limitations": "Legacy risk/variety duplicates and mixed-unit variety prose remain in the normalisation backlog."
+  }
+}

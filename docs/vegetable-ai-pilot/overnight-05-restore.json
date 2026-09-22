@@ -1,0 +1,80 @@
+{
+  "label": "overnight-05",
+  "transactions": [
+    {
+      "at": "2026-09-21T23:25:37.361Z",
+      "previous_revision": "667ae9b99dbd706c0125fb15e3a27b900903ea0d4e30d975cdfb8a1d94b60bee",
+      "save": {
+        "changed": 3,
+        "revision": "ddc0a2584a711bafb8e8cb651ef7ebd1d74a18921224379cf0eb88b781a439ab"
+      },
+      "backup": "backups/admin/2026-09-21T23-25-37.485Z-b7c42c67-f681-486b-8217-2d3f290f33f8"
+    },
+    {
+      "at": "2026-09-21T23:26:14.592Z",
+      "previous_revision": "ddc0a2584a711bafb8e8cb651ef7ebd1d74a18921224379cf0eb88b781a439ab",
+      "save": {
+        "changed": 1,
+        "revision": "56b664116d9a997afc194cf9c22f00a5fd054e598fbf73e0bd3e77541b80c2f3"
+      },
+      "backup": "backups/admin/2026-09-21T23-26-14.708Z-a4c47a28-f042-4195-991b-78dcdbcc7dfb"
+    },
+    {
+      "at": "2026-09-21T23:28:02.759Z",
+      "previous_revision": "56b664116d9a997afc194cf9c22f00a5fd054e598fbf73e0bd3e77541b80c2f3",
+      "save": {
+        "changed": 1,
+        "revision": "a69a81aa218516cc19242facaa7248fcb2072de5db4655f994d437da4def7fc8"
+      },
+      "backup": "backups/admin/2026-09-21T23-28-02.558Z-3b745e8c-60c8-4bf1-a3b0-b54628804545",
+      "changes": {
+        "endive": {
+          "layout": {
+            "variety_count": 6
+          },
+          "reason": "Seven variety rows caused 7 mm page-one overflow. Six retain broad-leaved and curly examples; all five distinct troubles remain, and the full source catalogue is preserved."
+        }
+      }
+    },
+    {
+      "at": "2026-09-21T23:28:45.483Z",
+      "previous_revision": "4358a90f989f6180ef8505cdf5e77e08b52b16c92bbbe7ad82abc659fa7cfa4a",
+      "save": {
+        "changed": 3,
+        "revision": "1888ac5aa49ac71a815032283173f8d1145866bc6a969c1a3f4533917386ccdb"
+      },
+      "backup": "backups/admin/2026-09-21T23-28-45.272Z-a8a6d22d-f1e7-4352-821e-e88c5cc432aa",
+      "kind": "measurement"
+    }
+  ],
+  "revision": "1888ac5aa49ac71a815032283173f8d1145866bc6a969c1a3f4533917386ccdb",
+  "selected": {
+    "chicory": [
+      "Slugs",
+      "SOIL PESTS",
+      "Bolting",
+      "Rotting",
+      "Bitter Chicons"
+    ],
+    "endive": [
+      "SLUGS",
+      "APHID",
+      "BOLTING",
+      "ROTTING",
+      "FROST"
+    ],
+    "florence_fennel": [
+      "BOLTING OR STEMMY BULBS",
+      "SMALL OR DRY BULBS",
+      "LOWER SHEATH ROT",
+      "FROST"
+    ]
+  },
+  "coverage": {
+    "chicory": "Five distinct actionable problems selected from original soil-pest advice, existing forcing guidance and current RHS chicory problems. General health is an overview, not a row. Broad slug-pellet/nematode prescription replaced with identification, hand removal and cultural controls in the full inline soil-pest entry. Soil/care/harvest cover both non-forcing salad heads and forcing roots, darkness, root selection, batch forcing and a possible second crop. Measurement instructions use established metric/imperial pairs. Wider-row and deep-bed variants retained in notes rather than silently discarded.",
+    "endive": "All five distinct inline problems retained with full organic replacements for slug pellets and permethrin/heptenophos aphid prescriptions. Curly and broad-leaved seasonal uses remain; soil/care retain moisture, shade, thinning and blanching only dry plants. Harvest preserves prompt pale-heart cutting, optional leaf picking and frost-free whole-plant storage. Notes cover successive late sowings plus closer small-leaf spacing with paired units. Full source retained aside from authorised control replacements.",
+    "florence_fennel": "All four distinct inline conditions retained; shared differently named mirrors are not separate pest rows. Three source varieties/types retained. Soil/care combine compost, moisture, prompt thinning and careful earthing. Harvest keeps bolting/rot urgency and sound-tissue distinction without promising fixed Christmas storage. Approved module/direct captions retained; complete notes keep June/July follow-crop route and protected/variety qualification for earlier sowing. Old perennial/climate statement and smaller legacy harvest-size rule are omitted as unhelpful generalisations, retained in master."
+  },
+  "exceptions": [],
+  "status": "checked-review-proofs"
+}

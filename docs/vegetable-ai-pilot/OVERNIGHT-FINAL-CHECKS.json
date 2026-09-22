@@ -1,0 +1,58 @@
+{
+  "checked_at": "2026-09-21T23:47:17.932Z",
+  "pdf_count": 58,
+  "pages_per_crop": [
+    2
+  ],
+  "warnings": [
+    {
+      "key": "mushroom",
+      "units": "metric",
+      "warnings": [
+        "sowing_notes: automatic fallback selection; prepare a coordinated editorial extract before approval."
+      ]
+    },
+    {
+      "key": "mushroom",
+      "units": "imperial",
+      "warnings": [
+        "sowing_notes: automatic fallback selection; prepare a coordinated editorial extract before approval."
+      ]
+    }
+  ],
+  "packs": [
+    {
+      "file": "output/pdf/vegetables-overnight-metric-review.pdf",
+      "pages": 58,
+      "sha256": "64f911932466551dd5a6e1386de2e6f7175bb1e42730b88d2eb7937078a10896"
+    },
+    {
+      "file": "output/pdf/vegetables-overnight-imperial-review.pdf",
+      "pages": 58,
+      "sha256": "2f4cbdcb27cbbf9639312ef2ec099136a9de49a9e0be50a521ad4b39df0a967a"
+    }
+  ],
+  "evidence_files": [
+    "overnight-01-checks.json",
+    "overnight-02-checks.json",
+    "overnight-03-checks.json",
+    "overnight-04-checks.json",
+    "overnight-05-checks.json",
+    "overnight-06-checks.json",
+    "overnight-07-checks.json",
+    "overnight-08-checks.json",
+    "overnight-09-checks.json",
+    "overnight-10-checks.json"
+  ],
+  "final_read_only_preflight": {
+    "exit_code": 0,
+    "known_exceptions": [
+      "kale source staleness",
+      "mushroom sowing_notes contract warning"
+    ]
+  },
+  "automation": {
+    "id": "complete-vegetable-review-proofs",
+    "status": "PAUSED"
+  }
+}

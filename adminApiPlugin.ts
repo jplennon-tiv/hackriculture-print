@@ -5,25 +5,10 @@ import path from "node:path";
 import {createHash} from 'node:crypto';
 import type { IncomingMessage, ServerResponse } from "node:http";
 import { GardeningDataSchema, TroublesDataSchema, PlantingPrintContentSchema, TroublePrintSummarySchema, VegetablePrintExtractsSchema, VegetablePrintLayoutSchema } from "./src/schema";
+import { RankedTextSchema } from './src/schema';
 
 // ── Integrity validators ───────────────────────────────────────────────────────
-
-type RankedItem = {
-    text: string;
-    rank: number;
-    star?: boolean;
-    short_text?: string;
-};
-function isRankedItem(v: unknown): v is RankedItem {
-    return (
-        typeof v === "object" &&
-        v !== null &&
-        "text" in v &&
-        "rank" in v &&
-        typeof (v as RankedItem).text === "string" &&
-        typeof (v as RankedItem).rank === "number"
-    );
-}
+const isRankedItem = (value: unknown): value is {rank:number;star?:boolean} => RankedTextSchema.safeParse(value).success;
 
 function checkRankedArray(arr: unknown, path: string, errors: string[]) {
     if (arr == null) return;

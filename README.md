@@ -20,7 +20,7 @@ The launcher selects the Node version in `.nvmrc`, prompts privately for a sessi
 
 ## Working documentation
 
-- [Current vegetable rollout handover](docs/handover/START-HERE.md): clean new-session brief, read-only preflight and next batch.
+- [Current vegetable rollout handover](docs/handover/START-HERE.md): completed rollout, saved approvals and read-only preflight.
 
 - [AGENTS.md](AGENTS.md): concise rules for coding assistants; read first.
 - [DEVELOPMENT.md](DEVELOPMENT.md): architecture, accepted print design, data contracts and validation.

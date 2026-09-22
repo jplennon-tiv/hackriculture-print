@@ -1,0 +1,121 @@
+{
+  "label": "overnight-08",
+  "transactions": [
+    {
+      "at": "2026-09-21T23:34:13.818Z",
+      "previous_revision": "63d6b3ebeb914a3e764c7cf34d05a1ce174abc4168edf7bd6f6aa2cd93c4b38d",
+      "save": {
+        "changed": 3,
+        "revision": "10d82466b40e35385e18aaa4e12d4486413baa71343475cb24e9f7ffbb84fbea"
+      },
+      "backup": "backups/admin/2026-09-21T23-34-13.951Z-c611b4b0-3f8a-4c9c-ba4c-c814929e9658"
+    },
+    {
+      "at": "2026-09-21T23:36:26.220Z",
+      "previous_revision": "10d82466b40e35385e18aaa4e12d4486413baa71343475cb24e9f7ffbb84fbea",
+      "save": {
+        "changed": 2,
+        "revision": "ca0ef743a07ab37ecbd13e268c6df53f1e64c5f28c357e1e083c3286ec0dfd9c"
+      },
+      "backup": "backups/admin/2026-09-21T23-36-25.994Z-c6a7d889-016d-47c2-92fc-be5a9ce5d1f4",
+      "changes": {
+        "tomato_greenhouse": {
+          "sections": {
+            "looking_after_the_crop": [
+              {
+                "text": "Tie cordons loosely, remove young side shoots and take off yellow lower leaves sparingly. Stop two leaves above the final truss at the chosen height or near season’s end.",
+                "rank": 8
+              },
+              {
+                "text": "Water roots steadily and feed organically at the product’s rate as fruit develops. Ventilate in heat, tap flowering trusses gently and adjust autumn watering to growth.",
+                "rank": 8
+              }
+            ],
+            "harvesting": [
+              {
+                "text": "Pick fully coloured fruit gently and use promptly. Bring sound unripe fruit indoors before cold ends the crop; check ripening trays and discard decay.",
+                "rank": 8
+              }
+            ]
+          },
+          "reason": "Page two is 13 mm over. Combine overlapping training/seasonal-care and harvesting actions, keeping all ten problems and the complete sowing note."
+        },
+        "tomato_outdoor": {
+          "sections": {
+            "looking_after_the_crop": [
+              {
+                "text": "Support and side-shoot cordons; remove yellow leaves sparingly. Stop above the final useful truss by late summer. Bush types normally need no side-shooting or stopping.",
+                "rank": 8
+              },
+              {
+                "text": "Water roots steadily and feed organically as fruit develops. Keep low fruit off wet soil. Ventilated cloches reduce rain on foliage; fleece does not prevent blight.",
+                "rank": 8
+              }
+            ],
+            "harvesting": [
+              {
+                "text": "Pick fully coloured fruit gently and use promptly. Bring sound unripe fruit indoors at season’s end; ripen in shallow trays, check regularly and discard rot.",
+                "rank": 8
+              }
+            ]
+          },
+          "reason": "Page two is 7 mm over. Combine repeated support/watering and indoor-ripening advice; all nine pest rows and complete planting timing remain."
+        }
+      }
+    },
+    {
+      "at": "2026-09-21T23:39:41.725Z",
+      "previous_revision": "9cc0a01a3cbb990d1afb47949edecbd2b09916e9668c526837082ad7ce6a4250",
+      "save": {
+        "changed": 3,
+        "revision": "3dec08d129264c3a247e6d46773c50cfab6d76daf37d16a4c03d4f16ba6920fd"
+      },
+      "backup": "backups/admin/2026-09-21T23-39-41.484Z-a7f82705-3415-427d-96b1-341993e7ff92",
+      "kind": "measurement"
+    }
+  ],
+  "revision": "3dec08d129264c3a247e6d46773c50cfab6d76daf37d16a4c03d4f16ba6920fd",
+  "selected": {
+    "tomato_greenhouse": [
+      "BLIGHT",
+      "SPLIT FRUIT",
+      "Greenhouse Whitefly",
+      "Aphids",
+      "Tomato Leaf Mould",
+      "Grey Mould (Botrytis)",
+      "Blossom End Rot",
+      "Blossom Drop",
+      "Magnesium Deficiency",
+      "Virus"
+    ],
+    "tomato_outdoor": [
+      "BLIGHT",
+      "SLUGS",
+      "CUTWORMS",
+      "SPLIT FRUIT",
+      "Blossom End Rot",
+      "Aphids",
+      "Virus",
+      "Grey Mould (Botrytis)",
+      "Blossom Drop"
+    ],
+    "capsicum": [
+      "RED SPIDER MITE",
+      "APHID",
+      "BLOSSOM END ROT",
+      "SLUGS",
+      "POOR FRUIT SET",
+      "ANTHRACNOSE",
+      "CUTWORM",
+      "Whitefly",
+      "Grey Mould"
+    ]
+  },
+  "coverage": {
+    "tomato_greenhouse": "Ten distinct greenhouse priorities: blight, splitting, separate whitefly/aphids, leaf mould, botrytis, blossom-end rot, blossom drop, magnesium and virus. Combined aphid/whitefly source row retained at low priority rather than printed twice. Lesser root/stem rots, leaf-roll physiology, sun/greenback/blotchy ripening and rare pests remain in full shared guide; heat/moisture/feeding prevention covered. Soil/care remove repeated growbag advice, replace artificial feed with organic feeding and avoid blanket misting. Cordon/bush distinctions, stopping, gentle leaf removal, pollination and late ripening retained. Source planting pairless old measurements are not injected into new extracts.",
+    "tomato_outdoor": "Nine useful outdoor issues: four inline plus blossom-end rot, aphids, virus, grey mould and blossom drop. Greenhouse whitefly is host-scoped out; leaf mould is chiefly under-cover and not prioritised. Other specialist rots/physiological disorders retained in shared source. Blight aliases combined. Soil/care and harvest explicitly separate cordons from bushes, keep steady water and support, and preserve late indoor ripening without unnecessary universal pruning. Seed timing and variety spacing retained; approved illustrated route unchanged.",
+    "capsicum": "Nine distinct useful capsicum problems: all seven inline plus whitefly and grey mould confirmed in RHS crop guidance. Full red-spider/aphid chemical prescriptions replaced with biological/cultural controls; unsubstantiated bean-distance anthracnose rule replaced by diagnosis/hygiene. Soil/care balance warmth, steady moisture, airflow, organic feeding and support. Harvest distinguishes green yield versus mature colour and chilli drying; source-wide claim that every ripe chilli is hotter not repeated. No fixed minimum temperature asserted for every cultivar; propagation temperature is correctly unit-paired."
+  },
+  "exceptions": [],
+  "status": "checked-review-proofs"
+}

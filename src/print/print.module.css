@@ -1227,6 +1227,17 @@ body {
 }
 
 /* The narrow saved-layout slot needs stacked tips, not two tiny columns. */
+.cheatFinalTips[data-tips-columns="2"] .cheatFinalTipsGrid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+.cheatFinalTips[data-tips-columns="2"] .cheatFinalTipItem:nth-child(even)::after {
+    display: none;
+}
+.cheatFinalTips[data-tips-columns="2"] .cheatFinalTipItem:nth-child(n+3) {
+    border-top: 1px solid #e0e0e0;
+}
+
 .cheatFinalTips[data-final-tips-position="left-column"] .cheatFinalTipsGrid {
     flex-direction: column;
 }

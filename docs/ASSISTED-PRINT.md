@@ -4,6 +4,15 @@ Agreed with John, 19 September 2026. This interface is the preferred place to re
 
 ## Working cycle
 
+22 September preview preference: John prefers shorter preview PDFs after the
+desktop crashed while restoring a large review task. For vegetable review,
+deliver one crop per PDF (normally two A4 pages), with metric and imperial kept
+separate; present a small review batch with an index. Reuse checksum-current
+individual proofs where possible. Do not automatically assemble or open a
+whole-catalogue combined preview; make combined packs only when requested.
+Keep original artwork, resolution, typography and page content intact. This
+changes assisted delivery, not the existing deterministic browser batch export.
+
 For vegetable work, read [the approved style contract](VEGETABLE-PRINT-STYLE.md)
 before selecting text or layout. The revised asparagus/radish/celery proofs are
 approved reference examples, not a mandate to use their exceptions on every crop.

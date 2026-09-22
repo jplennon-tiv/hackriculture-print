@@ -14,19 +14,20 @@ import { z } from "zod";
 
 // ── Primitives ──────────────────────────────────────────────────────────────
 
-/** {text, rank, star?, short_text?, icon?} — the workhorse rankable-string type. */
-export const RankedTextSchema = z.looseObject({
-    text: z.string(),
-    rank: z.number(),
-    star: z.boolean().optional(),
-    short_text: z.string().optional(),
-    icon: z.string().optional(),
-});
-
 /** Side-by-side imperial/metric display strings (see lib/measure.ts). */
 export const MeasurementPairSchema = z.looseObject({
     imperial: z.string().nullable(),
     metric: z.string().nullable(),
+});
+export const UnitTextSchema = z.union([z.string(), MeasurementPairSchema]);
+
+/** {text, rank, star?, short_text?, icon?} — the workhorse rankable-string type. */
+export const RankedTextSchema = z.looseObject({
+    text: UnitTextSchema,
+    rank: z.number(),
+    star: z.boolean().optional(),
+    short_text: UnitTextSchema.optional(),
+    icon: z.string().optional(),
 });
 
 /** A field that may be a plain string, a dual pair, OR a variety-keyed dict of either. */
@@ -51,7 +52,7 @@ export const SeedAndGrowingFactsSchema = z
     .catchall(z.union([z.string(), DurationValueSchema, z.null()]));
 
 export const SowingAndPlantingSchema = z.looseObject({
-    method: z.string().nullable().optional(),
+    method: UnitTextSchema.nullable().optional(),
     row_spacing: StringOrVarietyDict.optional(),
     row_spacing_summary: MeasurementPairSchema.optional(),
     plant_spacing_summary: MeasurementPairSchema.optional(),
@@ -205,7 +206,7 @@ export const VegetablePrintExtractsSchema=z.object({version:z.literal(1),section
  soil_facts:extract(ExtractItemsSchema).optional(),looking_after_the_crop:extract(ExtractItemsSchema).optional(),
  harvesting:extract(ExtractItemsSchema).optional(),sowing_notes:extract(ExtractItemsSchema).optional(),final_tips:extract(ExtractItemsSchema).optional(),
 })});
-export const VegetablePrintLayoutSchema=z.object({...PrintExtractReviewSchema,renderer_revision:z.string(),value:z.object({pest_limit:z.number().int().min(3).max(10),target_pages:z.literal(2),tips_position:z.enum(['full-width','right-column','left-column']).optional(),intro_sentences:z.number().int().min(1).max(12).optional(),variety_count:z.number().int().min(2).max(50).optional(),align_bottoms:z.boolean().optional()}),measurements:z.record(z.string(),z.unknown()).optional()});
+export const VegetablePrintLayoutSchema=z.object({...PrintExtractReviewSchema,renderer_revision:z.string(),value:z.object({pest_limit:z.number().int().min(3).max(10),target_pages:z.literal(2),tips_position:z.enum(['full-width','right-column','left-column']).optional(),tips_columns:z.literal(2).optional(),fill_bottoms:z.boolean().optional(),intro_sentences:z.number().int().min(1).max(12).optional(),variety_count:z.number().int().min(2).max(50).optional(),align_bottoms:z.boolean().optional()}),measurements:z.record(z.string(),z.unknown()).optional()});
 export const VegetableSchema = z.looseObject({
     ai_print_extracts:VegetablePrintExtractsSchema.optional(),
     ai_print_layout:VegetablePrintLayoutSchema.optional(),

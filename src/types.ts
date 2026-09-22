@@ -3,10 +3,10 @@ import type { AiPrintRecord } from './lib/aiPrint';
 import type { TroubleLayoutPlan } from './print/troublePlan';
 
 export interface RankedText {
-    text: string;
+    text: UnitText;
     rank: number;
     star?: boolean;
-    short_text?: string;
+    short_text?: UnitText;
 }
 
 /**
@@ -18,6 +18,9 @@ export interface MeasurementPair {
     imperial: string | null;
     metric: string | null;
 }
+
+/** Reader-facing prose may use the same explicit unit pair as measurements. */
+export type UnitText = string | MeasurementPair;
 
 /** A measurement field: a plain string, a dual pair, or variety-keyed values of either. */
 export type MeasurementValue =
@@ -44,7 +47,7 @@ export interface SeedAndGrowingFacts {
 }
 
 export interface SowingAndPlanting {
-    method?: string | null;
+    method?: UnitText | null;
     /**
      * Usually a display string, but a few crops (e.g. potato, onion) store a
      * variety-keyed object like `{ first_early_varieties: "24 in.", ... }`.

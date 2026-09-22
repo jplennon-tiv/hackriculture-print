@@ -6,6 +6,7 @@ import {VegetableSchema,PlantingPrintContentSchema} from '../schema';
 import {plantingSourceFingerprint,plantingReviewIssue,readPlantingSource} from '../lib/planting';
 import {plantingLayouts,pendingPlantingLayouts,resolvePlanting} from './plantingIllustrations';
 import {nextPlantingFit,plantingPageBudget,type PlantingFitState} from './plantingFit';
+import {rt} from '../lib/ranked';
 
 const data=JSON.parse(readFileSync(resolve(import.meta.dirname,'../../../hackriculture-data/generated/master/vegetables.json'),'utf8')) as Record<string,Vegetable>;
 const copy=(key='carrot')=>structuredClone(data[key]);
@@ -14,12 +15,15 @@ describe('additive, source-bound planting content',()=>{
     it.each(Object.keys(plantingLayouts))('%s has valid reviewed content and original detail',key=>{
         const veg=data[key];
         expect(PlantingPrintContentSchema.safeParse(veg.print_planting).success).toBe(true);
-        expect(plantingReviewIssue(veg)).toBeNull();
+        const pendingKaleReview=key==='kale'&&veg.ai_print_layout?.status==='draft';
+        if(pendingKaleReview)expect(plantingReviewIssue(veg)).toMatch(/source advice has changed/);
+        else expect(plantingReviewIssue(veg)).toBeNull();
         if(key==='mushroom')expect(veg.looking_after_the_crop?.length).toBeGreaterThan(0);
-        else expect(veg.sowing_and_planting?.method?.length).toBeGreaterThan(20);
+        else expect(rt(veg.sowing_and_planting?.method).length).toBeGreaterThan(20);
         for(const unit of ['metric','imperial'] as const){
             const result=resolvePlanting(veg,key,unit)!;
-            expect(result.issue).toBeNull();
+            if(pendingKaleReview)expect(result.issue).toMatch(/source advice has changed/);
+            else expect(result.issue).toBeNull();
             for(const m of result.measurements)expect(m.value.length).toBeGreaterThan(0);
             for(const step of result.steps)expect(existsSync(resolve(import.meta.dirname,'../../public',step.image.slice(1)))).toBe(true);
         }
@@ -122,9 +126,9 @@ describe('additive, source-bound planting content',()=>{
         const cauliflower=resolvePlanting(data.cauliflower,'cauliflower','metric')!;
         expect(cauliflower.measurements.find(m=>m.label==='Final plants')!.value).toContain('mini-cauliflowers');
         const kale=resolvePlanting(data.kale,'kale','metric')!;
-        expect(kale.measurements.find(m=>m.label==='Final spacing')!.value).toContain('46 cm');
-        expect(kale.measurements.find(m=>m.label==='Final rows')!.value).toBe('At least 45 cm for standard rows');
-        expect(data.kale.sowing_and_planting!.notes![5].text).toContain('deep bed');
+        expect(kale.measurements.find(m=>m.label==='Final spacing')!.value).toContain('45 cm');
+        expect(kale.measurements.find(m=>m.label==='Final rows')!.value).toContain('45–60 cm');
+        expect(rt(data.kale.sowing_and_planting!.notes![5],'metric')).toContain('deep bed');
         expect(kale.measurements.find(m=>m.label==='Transplant height')!.value).toBe('10-15 cm');
         expect(resolvePlanting(data.kale,'kale','imperial')!.measurements.find(m=>m.label==='Transplant height')!.value).toBe('4-6 in.');
         expect(kale.content.supplementary[0].text).toContain('Rape kale');

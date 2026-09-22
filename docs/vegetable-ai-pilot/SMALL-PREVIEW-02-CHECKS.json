@@ -1,0 +1,134 @@
+{
+  "date": "2026-09-22",
+  "kind": "byte-identical copies of current checked drafts; no PDF regeneration",
+  "proofs": [
+    {
+      "crop": "endive",
+      "units": "metric",
+      "file": "output/pdf/page-fill-review/endive-metric.pdf",
+      "pages": 2,
+      "bytes": 8532913,
+      "sha256": "da995bc975d52288f9dcb48c09068449f3e36ad495af2ef6a0c90e0cf2dd9334",
+      "unchanged_from_checked_proof": true,
+      "saved_asset_readiness_verified": true
+    },
+    {
+      "crop": "endive",
+      "units": "imperial",
+      "file": "output/pdf/page-fill-review/endive-imperial.pdf",
+      "pages": 2,
+      "bytes": 8533660,
+      "sha256": "408772bd037e6707faf7279c01931bacb370f16b0730de959c789d49b0ce4914",
+      "unchanged_from_checked_proof": true,
+      "saved_asset_readiness_verified": true
+    },
+    {
+      "crop": "aubergine",
+      "units": "metric",
+      "file": "output/pdf/page-fill-review/aubergine-metric.pdf",
+      "pages": 2,
+      "bytes": 8482589,
+      "sha256": "98e22d3938ec72421290b764f1d918c5b4972b1406d255382405ea7fd7e1f7ac",
+      "unchanged_from_checked_proof": true,
+      "saved_asset_readiness_verified": true
+    },
+    {
+      "crop": "aubergine",
+      "units": "imperial",
+      "file": "output/pdf/page-fill-review/aubergine-imperial.pdf",
+      "pages": 2,
+      "bytes": 8480567,
+      "sha256": "e68c7c33f2759a089d468ff8a5c57abb722f9f48d3f3952ccc47709785257ded",
+      "unchanged_from_checked_proof": true,
+      "saved_asset_readiness_verified": true
+    },
+    {
+      "crop": "artichoke_globe",
+      "units": "metric",
+      "file": "output/pdf/page-fill-review/artichoke_globe-metric.pdf",
+      "pages": 2,
+      "bytes": 9642796,
+      "sha256": "a9614d98f7d150ad8b0e2968ab6069335f1fff6701830004f2dbba894cd85d78",
+      "unchanged_from_checked_proof": true,
+      "saved_asset_readiness_verified": true
+    },
+    {
+      "crop": "artichoke_globe",
+      "units": "imperial",
+      "file": "output/pdf/page-fill-review/artichoke_globe-imperial.pdf",
+      "pages": 2,
+      "bytes": 9643602,
+      "sha256": "606ec677965a665a17449b6a6f3e8543c4ef10d5512005dc1e0ff7f0422dd971",
+      "unchanged_from_checked_proof": true,
+      "saved_asset_readiness_verified": true
+    },
+    {
+      "crop": "artichoke_jerusalem",
+      "units": "metric",
+      "file": "output/pdf/page-fill-review/artichoke_jerusalem-metric.pdf",
+      "pages": 2,
+      "bytes": 8403320,
+      "sha256": "21519baefbc8335926089f651c8537d9b3e6adefe217e0e0b9db50f5d638b9f2",
+      "unchanged_from_checked_proof": true,
+      "saved_asset_readiness_verified": true
+    },
+    {
+      "crop": "artichoke_jerusalem",
+      "units": "imperial",
+      "file": "output/pdf/page-fill-review/artichoke_jerusalem-imperial.pdf",
+      "pages": 2,
+      "bytes": 8401373,
+      "sha256": "dbf4959fc6a79396442d329bd54bb7cd5152a9f0fe29597192af0da5f9ed0459",
+      "unchanged_from_checked_proof": true,
+      "saved_asset_readiness_verified": true
+    }
+  ],
+  "render_checks": [
+    {
+      "file": "output/pdf/page-fill-review/endive-metric.pdf",
+      "render_warnings": ""
+    },
+    {
+      "file": "output/pdf/page-fill-review/endive-imperial.pdf",
+      "render_warnings": ""
+    },
+    {
+      "file": "output/pdf/page-fill-review/aubergine-metric.pdf",
+      "render_warnings": ""
+    },
+    {
+      "file": "output/pdf/page-fill-review/aubergine-imperial.pdf",
+      "render_warnings": ""
+    },
+    {
+      "file": "output/pdf/page-fill-review/artichoke_globe-metric.pdf",
+      "render_warnings": ""
+    },
+    {
+      "file": "output/pdf/page-fill-review/artichoke_globe-imperial.pdf",
+      "render_warnings": ""
+    },
+    {
+      "file": "output/pdf/page-fill-review/artichoke_jerusalem-metric.pdf",
+      "render_warnings": ""
+    },
+    {
+      "file": "output/pdf/page-fill-review/artichoke_jerusalem-imperial.pdf",
+      "render_warnings": ""
+    }
+  ],
+  "visual_review": {
+    "pages_inspected": 16,
+    "units": [
+      "metric",
+      "imperial"
+    ],
+    "result": "No new clipping, overlap, missing artwork or broken bottom borders observed; no Poppler warnings.",
+    "tip_counts": {
+      "endive": 4,
+      "aubergine": 2,
+      "artichoke_globe": 4,
+      "artichoke_jerusalem": 4
+    }
+  }
+}

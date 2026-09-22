@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useLayoutEffect, useRef, useState } from "react";
 import { nextPlantingFit, plantingPageBudget, type PlantingFitState } from './plantingFit';
+import {pageFillGrowth} from './pageFill';
 import {
     introContentBudget,
     introFitAction,
@@ -25,6 +26,7 @@ export function useVegetableLayout(
     editorialWarnings:string[]=[],
     savedIntroSentences?:number,
     savedVarieties?:number,
+    fillBottoms=false,
 ) {
     const sentenceCap = Math.min(totalSentences, LAYOUT_LIMITS.introSentences);
     const [phase, setPhase] = useState<LayoutPhase>("intro");
@@ -248,6 +250,16 @@ export function useVegetableLayout(
 
     useLayoutEffect(() => {
         document.body.dataset.printError=planting?.issue??'';
+        // Saved opt-in, after natural fitting and asset readiness. Reset before
+        // measuring so rerenders/StrictMode cannot accumulate artificial height.
+        const ready=phase==='done'&&assetsReady&&page2Ready&&(!planting||!!planting.issue||(plantingActive&&plantingImagesReady&&['done','error'].includes(plantingFit.phase)));
+        for(const [page,sentinel,budget] of [[page1Ref.current,page1SentinelRef.current,958],[page2Ref.current,page2SentinelRef.current,958]] as const){
+            const body=page?.querySelector<HTMLElement>('[data-align-bottoms]');
+            if(!page||!sentinel||!body)continue;
+            body.style.removeProperty('min-height');
+            const growth=pageFillGrowth(budget,contentHeight(page,sentinel),fillBottoms&&ready);
+            if(growth>0)body.style.minHeight=`${body.getBoundingClientRect().height+growth}px`;
+        }
         const warnings:string[]=[...editorialWarnings];
         for(const [label,page,sentinel,budget] of [
             ['Page 1',page1Ref.current,page1SentinelRef.current,965],
@@ -264,7 +276,7 @@ export function useVegetableLayout(
         document.body.dataset.printReady = String(
             phase === "done" && page2Ready && assetsReady && (!planting||!!planting.issue||(plantingActive&&plantingImagesReady&&['done','error'].includes(plantingFit.phase))),
         );
-    }, [phase,page2Ready,assetsReady,planting,plantingActive,plantingImagesReady,plantingFit]);
+    }, [phase,page2Ready,assetsReady,planting,plantingActive,plantingImagesReady,plantingFit,fillBottoms]);
 
     return {
         alignmentReady:phase==='done',

@@ -1,7 +1,7 @@
 # Vegetable sheets: approved style and layout rules
 
-Approved by John on 21 September 2026, after reviewing asparagus, radish and
-celery. Read this before creating or revising vegetable print extracts/layouts.
+Approved by John on 21 September 2026 and reaffirmed at rollout completion on
+22 September 2026, including the refinements recorded below. Read this before creating or revising vegetable print extracts/layouts.
 It supersedes conflicting earlier pilot experiments, not explicit later user
 instructions. The approved canonical records and current renderer are the
 reference; do not re-create the design from memory. For production mechanics,
@@ -20,6 +20,12 @@ also read [ASSISTED-PRINT.md](ASSISTED-PRINT.md) and the shared data contract.
    prose and additional relevant varieties over empty holes. After content
    selection, distribute remaining height through suitable rows/tips. Do not
    add filler, invent facts, or shift a large blank area elsewhere just to align.
+
+22 September correction: review the unused height below the last content widget
+on **each page**, in both units. Zero column difference and two physical pages do
+not detect an underfilled sheet. Start from full useful introductory prose, then
+make measured crop-specific cuts only where needed. Do not seed every new crop
+with two/three sentences or two Final Tips and treat that as finished curation.
 
 These priorities work together: alignment must not create overflow or shrink
 type. Passing a page-count check alone is not a design review.
@@ -106,11 +112,20 @@ Implementation owners: `src/print/PrintVegetablePage.tsx`, `print.module.css`,
 - **Final Tips is a full-width bottom banner by default.** Relocation is a
   deliberate saved exception where it fills a column hole. This approval is
   not an instruction to move Final Tips on all vegetables.
+- John clarified on 22 September: choose **2–4 useful Final Tips per vegetable**
+  according to the space left at the page bottom after rendering and fitting the
+  important content. Four is not a default or target. Select tips that add useful
+  advice, measure the whole page, and save the crop-specific count and arrangement.
+  Do not trim main content to make room for four tips or pad the selection to
+  reach a count. Existing accepted proofs need no change merely for variation.
 - In a column, stack tips in separate horizontal rows with their icons and
   dividers. Retain useful tips: restoring radish's third tip was explicitly
   requested. Do not remove a tip merely to make a relocated panel short.
 - Do not apply the stacked/fill CSS flag to a full-width banner: its tips stay
   side-by-side. The column exception must not change the default banner.
+- John’s 22 September refinement permits a saved `tips_columns: 2` full-width
+  banner: four useful tips form two rows of two. This opt-in keeps ordinary
+  banners and existing approved records unchanged; it is not a universal count.
 - Save a meaningful icon for every curated Final Tip, chosen from the existing
   icon set. Never let a general-purpose item helper silently assign `soil` to
   all tips. Repetition is fine when meaning warrants it (e.g. two protection
@@ -170,11 +185,20 @@ Authoritative reproduction data lives in the three shared crop records.
   `variety_count` where needed, `align_bottoms`, `pest_limit`, `target_pages`,
   dependency/output checksums and renderer revision. Save both-unit measured
   page counts, warnings, asset readiness and column-bottom gaps.
+- After useful content is selected, saved `fill_bottoms: true` may distribute a
+  modest measured remainder through the existing flexible rows. It runs after
+  asset readiness and natural fitting, resets before remeasurement, does not
+  shrink overflow, and refuses gaps above 96 px (25.4 mm), which need editorial
+  attention. It preserves fonts, padding and image dimensions. Record actual
+  bottom gaps and visually inspect row balance; this opt-in is not approval.
 - Normal export uses approved/current extracts and plans, with source fallback
   and warnings when stale. It calls no AI. Use `aiReview=1` only for draft proofing.
   Changed source content triggers review of affected extracts; timestamp-only
   changes are not a reason to rewrite. Layout depends on broader content.
-- New work is draft until John approves. Approval is a guarded status/audit-only
+- New work is draft until John approves or explicitly authorises advance approval
+  for a bounded set. On 22 September he approved the reviewed batch and all
+  remaining vegetables in this rollout in advance; this does not grant standing
+  approval for future factual or design changes. Approval is a guarded status/audit-only
   save through shared `lib/records.mjs`, with expectedRevision and exact-byte
   backups. Check current source/output signatures before approving.
 - Bump `VEGETABLE_PRINT_REVISION` for renderer/CSS/font behaviour changes. Saved
@@ -200,3 +224,37 @@ points. No deployment or website/video prose rewrite is implied by print approva
 ## Coordinated vegetable editorial review (21 September)
 
 Follow [WIDGET-COORDINATION.md](vegetable-ai-pilot/WIDGET-COORDINATION.md): review soil, care, harvest, planting notes and Final Tips together, save complete source-linked selections, then measure the whole page. Valid sowing-note extracts own all notes; automatic prefix top-up is disabled for them. Preserve crop/variant distinctions, use organic advice, choose exact tip icons, and document coverage/omissions. Missing extracts are visibly flagged as automatic fallbacks. The accepted title-length bubble rule remains.
+
+
+## Completion decisions - 22 September 2026
+
+John accepted the layout, approved the latest eight-crop set, and authorised
+completion and advance approval of all remaining vegetables. His instruction:
+"Please generate all the remaining vegetables and consider them approved in
+advance. Save and document in hard copy these layout rules and decisions!"
+
+- Keep **individual two-page crop PDFs**, separately in metric and imperial.
+  Eight crops may form a review set; do not merge them into a huge preview file.
+  Large combined packs were associated with the recovered task's app crash;
+  this is a practical precaution, not a proven crash diagnosis.
+- **Final Tips varies from 2 to 4** after the important content fits. No forced
+  variation between crops, fixed four-tip target, or main-content cuts to fit tips.
+- Overlapping speech-bubble text is explicitly deferred by John to a later task.
+  Accepted existing overlaps do not reopen this rollout or authorise redesign.
+- Mushroom is a recorded sparse-page exception. Keep its kit-growing route,
+  no invented variety rows or seed-sowing instructions, and no excessive stretch
+  to consume its roughly 53 mm bottom gap. Its absent sowing source produces an
+  existing fallback-selection diagnostic; do not manufacture source to hide it.
+- Kale's print selections must reflect its previously accepted corrected master:
+  conditional organic feeding, soil-test-led liming, separate leaf/shoot harvest
+  routes, and suitable protection for early and late sowings. Review the existing
+  planting captions against that source and refresh their review fingerprint;
+  keep the captions and master advice unchanged where already consistent.
+- Approval covers the saved print selections and layout. It does not certify
+  every legacy master-data claim, resume the paused normalisation programme,
+  alter website/video prose, or authorise public deployment. Existing catalogue
+  findings remain recorded in the shared data-normalisation log.
+- A printable copy of this complete contract is saved as
+  `output/pdf/vegetable-layout-rules-approved-2026-09-22.pdf`.
+  The Markdown file is the maintainable source; regenerate the hard copy after
+  any later approved rule change. AI records these decisions; John approves them.

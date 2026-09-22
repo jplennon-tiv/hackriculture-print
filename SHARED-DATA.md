@@ -1,5 +1,15 @@
 # Shared data and backups
 
+21 September kale correction: master ranked `text`/`short_text` and sowing
+`method` now also support `{imperial, metric}` prose pairs. Types, Zod, admin
+validation/editing and public/print consumers agree. See DEVELOPMENT.md and
+[unit-prose checks](docs/vegetable-ai-pilot/UNIT-PROSE-CHECKS.json). v5 accepts
+unchanged string-only v4 layouts; existing approval records remain untouched.
+22 September completion: all 44 crops are now approved. Kale's extracts and
+both-unit proof evidence were refreshed from the accepted master; its unchanged
+planting captions were reviewed and their source-review fingerprint updated.
+See [final sign-off](docs/vegetable-ai-pilot/FINAL-COMPLETION.md).
+
 21 September vegetable extract pilot: additive `ai_print_extracts.sections` and
 `ai_print_layout` now supported, with attribution, per-section dependencies,
 output checksums, draft/approved/locked status and saved A4 measurement evidence.

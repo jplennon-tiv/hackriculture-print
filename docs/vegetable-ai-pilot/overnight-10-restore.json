@@ -1,0 +1,130 @@
+{
+  "label": "overnight-10",
+  "transactions": [
+    {
+      "at": "2026-09-21T23:41:40.451Z",
+      "previous_revision": "ac5d17f6dee4ad46d86c7deb2c5e8e219511fa8bc11ea87a3afe09dd494a73c3",
+      "save": {
+        "changed": 2,
+        "revision": "8b6662312e80ad90150e71d3cf6b9f3e5caa27474a4812eb49d97ca4a9d902d4"
+      },
+      "backup": "backups/admin/2026-09-21T23-41-40.593Z-9645704c-32f4-40b2-ab22-b64a204dd9fb"
+    },
+    {
+      "at": "2026-09-21T23:42:18.902Z",
+      "previous_revision": "8b6662312e80ad90150e71d3cf6b9f3e5caa27474a4812eb49d97ca4a9d902d4",
+      "save": {
+        "changed": 1,
+        "revision": "faf28e3da8bd1d5c530a0355a7558585930dc2e05cf3edb17705e41f7e449de1"
+      },
+      "backup": "backups/admin/2026-09-21T23-42-19.039Z-df0684a0-658c-42c2-8334-15a31382d44c"
+    },
+    {
+      "at": "2026-09-21T23:42:43.629Z",
+      "previous_revision": "faf28e3da8bd1d5c530a0355a7558585930dc2e05cf3edb17705e41f7e449de1",
+      "save": {
+        "changed": 2,
+        "revision": "507d6eee3b8768e47271f87d6e91b5d559414a774f4754e1a149b1cea61e9216"
+      },
+      "backup": "backups/admin/2026-09-21T23-42-43.398Z-fbfa13ea-d6a2-4f6c-808d-5401b6c23407",
+      "kind": "measurement"
+    },
+    {
+      "at": "2026-09-21T23:43:25.902Z",
+      "previous_revision": "1432599312dedc3c24567e4b652c7efc829baf7143dfb699eb9a5e9494a4063b",
+      "save": {
+        "changed": 1,
+        "revision": "bba3563f80512e3b466d7fa892a1ebdac62154577091c89dfb1caaaabe4b4d32"
+      },
+      "backup": "backups/admin/2026-09-21T23-43-25.664Z-ec233a96-4640-488f-a80d-5b0a1385367b",
+      "changes": {
+        "mushroom": {
+          "sections": {
+            "looking_after_the_crop": [
+              {
+                "text": {
+                  "metric": "Cropping temperatures around 16–18°C suit cultivated button mushrooms. Follow the kit’s own temperatures and timing for spawn growth and fruiting.",
+                  "imperial": "Cropping temperatures around 60–64°F suit cultivated button mushrooms. Follow the kit’s own temperatures and timing for spawn growth and fruiting."
+                },
+                "rank": 8
+              },
+              {
+                "text": "Shade from direct sun and avoid sudden temperature changes. Water lightly when needed, keeping the casing moist without soaking the compost.",
+                "rank": 8
+              },
+              {
+                "text": "Keep containers, hands and tools clean. Watch for flies or unusual mould; isolate suspect kits before handling healthy ones.",
+                "rank": 8
+              }
+            ]
+          },
+          "reason": "Keep reader advice direct and leave source-review commentary in editorial metadata."
+        }
+      }
+    },
+    {
+      "at": "2026-09-21T23:43:56.017Z",
+      "previous_revision": "720e0dddce8390744ce4a9050e53c2bf3abc17f64e3c185ec0455b1694409186",
+      "save": {
+        "changed": 2,
+        "revision": "4ab6f355ed0d25cadd9c6ebfdebe0ce603e94c13c3f9a5ea37cfedab4edbe8e1"
+      },
+      "backup": "backups/admin/2026-09-21T23-43-55.788Z-858fddf5-1837-43d7-b0a1-6d06c3b73ae6",
+      "kind": "measurement"
+    }
+  ],
+  "revision": "4ab6f355ed0d25cadd9c6ebfdebe0ce603e94c13c3f9a5ea37cfedab4edbe8e1",
+  "selected": {
+    "rhubarb": [
+      "CROWN ROT",
+      "HONEY FUNGUS",
+      "SLUGS UNDER FORCING POTS",
+      "FLOWERING",
+      "POOR GROWTH OR STRINGY STEMS"
+    ],
+    "mushroom": [
+      "PESTS",
+      "DISEASES",
+      "Contaminating moulds"
+    ]
+  },
+  "coverage": {
+    "rhubarb": "Five distinct UK-relevant source problems retained. Rhubarb curculio is explicitly an American pest in the master and is excluded from this UK proof, with its full source retained at low priority. Crown rot and honey fungus advice uses diagnosis, removal and site hygiene instead of blanket burning. Soil/care/harvest jointly cover drainage, mulch clear of crowns, flowers, first-year rest, restrained picking and forcing recovery. All four varieties retained; existing mixed-unit variety prose deferred to normalisation. Seed route remains optional and slower, not a replacement for crowns.",
+    "mushroom": "Two existing source problem groups retained plus a distinct contaminating-mould problem supported by AHDB mushroom disease guidance. The old DISEASES group actually describes environmental stress; preserve its key for later normalisation. Permethrin prescription replaced in full with clean spawn, hygiene, exclusion and supplier-led biological options. Complete coordinated text focuses on the supplied button-mushroom compost route already shown in the approved planting widget. Long homemade compost recipe, conflicting first-flush timings, salt watering, peat casing and formaldehyde reference remain in master for later review; they are not recommended in the proof. No varieties invented. User-deferred third bubble remains untouched. No sowing_notes companion is created: mushroom has no sowing_and_planting source field, and its approved planting captions plus introduction already own the supplied-compost route."
+  },
+  "exceptions": [
+    {
+      "key": "mushroom",
+      "units": "metric",
+      "pages": 2,
+      "warnings": [
+        "sowing_notes: automatic fallback selection; prepare a coordinated editorial extract before approval."
+      ],
+      "alignment": [
+        {
+          "column_bottom_gap_px": 0
+        },
+        {
+          "column_bottom_gap_px": 0
+        }
+      ]
+    },
+    {
+      "key": "mushroom",
+      "units": "imperial",
+      "pages": 2,
+      "warnings": [
+        "sowing_notes: automatic fallback selection; prepare a coordinated editorial extract before approval."
+      ],
+      "alignment": [
+        {
+          "column_bottom_gap_px": 0
+        },
+        {
+          "column_bottom_gap_px": 0
+        }
+      ]
+    }
+  ],
+  "status": "review-proofs-with-exceptions"
+}

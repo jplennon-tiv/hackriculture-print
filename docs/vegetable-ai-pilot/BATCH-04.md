@@ -1,5 +1,9 @@
 # Cauliflower, kale and kohlrabi review
 
+**Approved by John, 21 September 2026.** Status-only save and proof hash:
+[batch-04-signoff.json](batch-04-signoff.json). There are now 15 approved crops,
+29 remaining. The review/pre-approval checkpoint below is preserved as evidence.
+
 21 September 2026. John explicitly signed off the previous 12-crop widget set,
 including its code and logic. [widget-signoff.json](widget-signoff.json) records
 the approved keys, transaction and renderer hashes. This next batch uses that

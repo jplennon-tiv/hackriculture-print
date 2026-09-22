@@ -1,0 +1,139 @@
+{
+  "date": "2026-09-22",
+  "kind": "byte-identical copies of current checked drafts; no PDF regeneration",
+  "proofs": [
+    {
+      "crop": "swede",
+      "units": "metric",
+      "file": "output/pdf/page-fill-review/swede-metric.pdf",
+      "pages": 2,
+      "bytes": 8756284,
+      "sha256": "25ea8e2fe1dfa827cf2536dd39b079e5bdbaef10991cbd427accd6e96030b15e",
+      "unchanged_from_checked_proof": true,
+      "saved_asset_readiness_verified": true
+    },
+    {
+      "crop": "swede",
+      "units": "imperial",
+      "file": "output/pdf/page-fill-review/swede-imperial.pdf",
+      "pages": 2,
+      "bytes": 8756416,
+      "sha256": "fb35770aae5974663216924e5b1f21876a0f34fe640fbdcca68b2a22c3b14a00",
+      "unchanged_from_checked_proof": true,
+      "saved_asset_readiness_verified": true
+    },
+    {
+      "crop": "turnip",
+      "units": "metric",
+      "file": "output/pdf/page-fill-review/turnip-metric.pdf",
+      "pages": 2,
+      "bytes": 8454099,
+      "sha256": "7aab1bd1f6108f26aaba4bdb37188900b518da363b41fc9acda40cfa3258e7f2",
+      "unchanged_from_checked_proof": true,
+      "saved_asset_readiness_verified": true
+    },
+    {
+      "crop": "turnip",
+      "units": "imperial",
+      "file": "output/pdf/page-fill-review/turnip-imperial.pdf",
+      "pages": 2,
+      "bytes": 8454807,
+      "sha256": "99b4f5b3c631337744a6e2bc429d90cd7cac0e694072fa19600b6e654d093b6a",
+      "unchanged_from_checked_proof": true,
+      "saved_asset_readiness_verified": true
+    },
+    {
+      "crop": "oriental_leaves",
+      "units": "metric",
+      "file": "output/pdf/page-fill-review/oriental_leaves-metric.pdf",
+      "pages": 2,
+      "bytes": 8602250,
+      "sha256": "d4d0142c0c199eb176f190b4924102808f9fe1fe651154f4212cd0183526bca4",
+      "unchanged_from_checked_proof": true,
+      "saved_asset_readiness_verified": true
+    },
+    {
+      "crop": "oriental_leaves",
+      "units": "imperial",
+      "file": "output/pdf/page-fill-review/oriental_leaves-imperial.pdf",
+      "pages": 2,
+      "bytes": 8602280,
+      "sha256": "ac40fdcf0a4101b622478c8ace3e49124b726f973b788ea6a8ab5424adac59b7",
+      "unchanged_from_checked_proof": true,
+      "saved_asset_readiness_verified": true
+    },
+    {
+      "crop": "beet_leaf",
+      "units": "metric",
+      "file": "output/pdf/page-fill-review/beet_leaf-metric.pdf",
+      "pages": 2,
+      "bytes": 9350270,
+      "sha256": "50d688e5d3d58f3e16ddf31a60233cf9ed55fe9922bfcfec28a04ccb86f90a93",
+      "unchanged_from_checked_proof": true,
+      "saved_asset_readiness_verified": true
+    },
+    {
+      "crop": "beet_leaf",
+      "units": "imperial",
+      "file": "output/pdf/page-fill-review/beet_leaf-imperial.pdf",
+      "pages": 2,
+      "bytes": 9348103,
+      "sha256": "edcc5ed3410788021b90bd63184d6a0c116a2c02485e9904ef34450a222a9e1a",
+      "unchanged_from_checked_proof": true,
+      "saved_asset_readiness_verified": true
+    }
+  ],
+  "render_checks": [
+    {
+      "file": "output/pdf/page-fill-review/swede-metric.pdf",
+      "render_warnings": ""
+    },
+    {
+      "file": "output/pdf/page-fill-review/swede-imperial.pdf",
+      "render_warnings": ""
+    },
+    {
+      "file": "output/pdf/page-fill-review/turnip-metric.pdf",
+      "render_warnings": ""
+    },
+    {
+      "file": "output/pdf/page-fill-review/turnip-imperial.pdf",
+      "render_warnings": ""
+    },
+    {
+      "file": "output/pdf/page-fill-review/oriental_leaves-metric.pdf",
+      "render_warnings": "Syntax Warning: Bad bounding box in Type 3 glyph\nSyntax Warning: Bad bounding box in Type 3 glyph"
+    },
+    {
+      "file": "output/pdf/page-fill-review/oriental_leaves-imperial.pdf",
+      "render_warnings": "Syntax Warning: Bad bounding box in Type 3 glyph\nSyntax Warning: Bad bounding box in Type 3 glyph"
+    },
+    {
+      "file": "output/pdf/page-fill-review/beet_leaf-metric.pdf",
+      "render_warnings": ""
+    },
+    {
+      "file": "output/pdf/page-fill-review/beet_leaf-imperial.pdf",
+      "render_warnings": ""
+    }
+  ],
+  "visual_review": {
+    "pages_inspected": 16,
+    "units": [
+      "metric",
+      "imperial"
+    ],
+    "new_layout_changes": false,
+    "exceptions": [
+      "Existing oriental leaves speech-icon blocks partly overlap text; Type 3 glyph warnings in both units.",
+      "Existing swede/turnip radish-only shared risk, oriental leaves duplicate bolting risks and turnip variety aliases."
+    ],
+    "turnip_direct_page_check": "PDF intact; no horizontal overflow in live screen or print media.",
+    "tip_counts": {
+      "swede": 2,
+      "turnip": 2,
+      "oriental_leaves": 2,
+      "beet_leaf": 2
+    }
+  }
+}

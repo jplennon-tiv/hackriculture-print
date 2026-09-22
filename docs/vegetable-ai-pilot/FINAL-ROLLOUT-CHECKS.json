@@ -1,0 +1,147 @@
+{
+  "date": "2026-09-22",
+  "proofs": [
+    {
+      "crop": "potato",
+      "units": "metric",
+      "file": "output/pdf/page-fill-review/potato-metric.pdf",
+      "pages": 2,
+      "sha256": "3b86583d8ecf10d20e494f4354e8cb7d54140d78569ea365ed5bdf8f63876b1a",
+      "unchanged_from_checked_proof": true,
+      "warnings": [],
+      "unused_bottom_mm": [
+        1.0313458333333398,
+        1.0313458333333398
+      ]
+    },
+    {
+      "crop": "potato",
+      "units": "imperial",
+      "file": "output/pdf/page-fill-review/potato-imperial.pdf",
+      "pages": 2,
+      "sha256": "af583be8f5bd7686629bb41783f92580431e79195900d0734d9457edc64abeed",
+      "unchanged_from_checked_proof": true,
+      "warnings": [],
+      "unused_bottom_mm": [
+        1.0313458333333398,
+        1.0313458333333398
+      ]
+    },
+    {
+      "crop": "tomato_greenhouse",
+      "units": "metric",
+      "file": "output/pdf/page-fill-review/tomato_greenhouse-metric.pdf",
+      "pages": 2,
+      "sha256": "bce032c027ab909c5d9af5258e01093347619173734d2e494d5199c155d94d7d",
+      "unchanged_from_checked_proof": true,
+      "warnings": [],
+      "unused_bottom_mm": [
+        1.0313458333333398,
+        1.0313458333333398
+      ]
+    },
+    {
+      "crop": "tomato_greenhouse",
+      "units": "imperial",
+      "file": "output/pdf/page-fill-review/tomato_greenhouse-imperial.pdf",
+      "pages": 2,
+      "sha256": "8590cf6568093cb52816b960099f514ab41586e9ac55750c3cd99a1d86ff4c00",
+      "unchanged_from_checked_proof": true,
+      "warnings": [],
+      "unused_bottom_mm": [
+        1.0313458333333398,
+        1.0313458333333398
+      ]
+    },
+    {
+      "crop": "capsicum",
+      "units": "metric",
+      "file": "output/pdf/page-fill-review/capsicum-metric.pdf",
+      "pages": 2,
+      "sha256": "f6ea33b28e02eba4db50c2f2b55b05b216bd478fd931f653bad1af57868308a4",
+      "unchanged_from_checked_proof": true,
+      "warnings": [],
+      "unused_bottom_mm": [
+        1.0313458333333398,
+        1.0313458333333398
+      ]
+    },
+    {
+      "crop": "capsicum",
+      "units": "imperial",
+      "file": "output/pdf/page-fill-review/capsicum-imperial.pdf",
+      "pages": 2,
+      "sha256": "480c58bb77e4daba8c313bd830246b37765f45fb3ddec465caa113d6fd5bbf10",
+      "unchanged_from_checked_proof": true,
+      "warnings": [],
+      "unused_bottom_mm": [
+        1.0313458333333398,
+        1.0313458333333398
+      ]
+    },
+    {
+      "crop": "mushroom",
+      "units": "metric",
+      "file": "output/pdf/page-fill-review/mushroom-metric.pdf",
+      "pages": 2,
+      "sha256": "7c3b66d84375a34085522cdbfcf9c6dc80ef9768d283a12d6b07a18ff0455fbf",
+      "unchanged_from_checked_proof": true,
+      "warnings": [
+        "sowing_notes: automatic fallback selection; prepare a coordinated editorial extract before approval."
+      ],
+      "unused_bottom_mm": [
+        52.69950989583334,
+        53.290688281250006
+      ]
+    },
+    {
+      "crop": "mushroom",
+      "units": "imperial",
+      "file": "output/pdf/page-fill-review/mushroom-imperial.pdf",
+      "pages": 2,
+      "sha256": "7710f1fe8f32b97a14eff004f871de53369287110f41e50b91addeb6823722d6",
+      "unchanged_from_checked_proof": true,
+      "warnings": [
+        "sowing_notes: automatic fallback selection; prepare a coordinated editorial extract before approval."
+      ],
+      "unused_bottom_mm": [
+        52.69950989583334,
+        53.290688281250006
+      ]
+    },
+    {
+      "crop": "kale",
+      "units": "metric",
+      "file": "output/pdf/page-fill-review/kale-metric.pdf",
+      "pages": 2,
+      "sha256": "3343fee55e6c63f1fcfad8cc86f485ce2d2dada232d50278239c9133896fe6b1",
+      "warnings": [],
+      "unused_bottom_mm": [
+        1.0313458333333398,
+        1.0313458333333398
+      ]
+    },
+    {
+      "crop": "kale",
+      "units": "imperial",
+      "file": "output/pdf/page-fill-review/kale-imperial.pdf",
+      "pages": 2,
+      "sha256": "9ee0aa42a5e28b105c38dc551088258dd46551e509ae55ad84f386af30558354",
+      "warnings": [],
+      "unused_bottom_mm": [
+        1.0313458333333398,
+        1.0313458333333398
+      ]
+    }
+  ],
+  "visual_review": {
+    "pages_inspected": 20,
+    "crops": 5,
+    "units": [
+      "metric",
+      "imperial"
+    ],
+    "result": "Two-page A4 crop PDFs visually checked. Aligned columns and legible layout; existing deferred bubble overlap and sparse mushroom pages retained. No new clipping or missing images found.",
+    "kale_selection": "Five full introduction sentences overflowed by about 10 mm; four by about 5 mm. Three sentences with six varieties still overflowed about 4 mm. Three sentences and five varieties leave about 1 mm at the bottom. Tender-picking and pest advice omitted from the introduction remains in harvest/care/pest widgets. Two final tips fit after important content; eight existing pest entries retained. No master prose or planting caption was changed."
+  }
+}

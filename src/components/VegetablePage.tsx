@@ -225,7 +225,7 @@ export function VegetablePage({
                                     {isStar(tip) && (
                                         <StarBadge label="Star Need" />
                                     )}
-                                    {rt(tip)}
+                                    {rt(tip, system)}
                                 </li>
                             ))}
                         </ul>
@@ -250,7 +250,7 @@ export function VegetablePage({
                                     {isStar(step) && (
                                         <StarBadge label="Star Need" />
                                     )}
-                                    {rt(step)}
+                                    {rt(step, system)}
                                 </li>
                             ))}
                         </ol>
@@ -273,7 +273,7 @@ export function VegetablePage({
                                     {isStar(tip) && (
                                         <StarBadge label="Star Tip" />
                                     )}
-                                    {rt(tip)}
+                                    {rt(tip, system)}
                                 </li>
                             ))}
                         </ul>
@@ -303,7 +303,7 @@ export function VegetablePage({
                                 {isStar(kitchen.overview) && (
                                     <StarBadge label="Star Tip" />
                                 )}
-                                {rt(kitchen.overview)}
+                                {rt(kitchen.overview, system)}
                             </p>
                         )}
                         <div className={styles.kitchenGrid}>
@@ -318,7 +318,7 @@ export function VegetablePage({
                                         Storage
                                     </span>
                                     <p className={styles.kitchenItemText}>
-                                        {rt(kitchen.storage)}
+                                        {rt(kitchen.storage, system)}
                                     </p>
                                 </div>
                             )}
@@ -333,7 +333,7 @@ export function VegetablePage({
                                         Preparation &amp; Cooking
                                     </span>
                                     <p className={styles.kitchenItemText}>
-                                        {rt(kitchen.cooking)}
+                                        {rt(kitchen.cooking, system)}
                                     </p>
                                 </div>
                             )}
@@ -348,7 +348,7 @@ export function VegetablePage({
                                         Freezing
                                     </span>
                                     <p className={styles.kitchenItemText}>
-                                        {rt(kitchen.freezing)}
+                                        {rt(kitchen.freezing, system)}
                                     </p>
                                 </div>
                             )}

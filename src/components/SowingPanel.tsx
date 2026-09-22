@@ -1,11 +1,12 @@
 import { filterRanked, sortRanked } from "../hooks/useRankFilter";
 import type { RankFilter } from "../hooks/useRankFilter";
+import { rt } from "../lib/ranked";
 import { resolveMeasurement } from "../lib/measure";
 import type { UnitSystem } from "../lib/measure";
 import styles from "./SowingPanel.module.css";
 
 interface SowingData {
-    method?: string | null;
+    method?: import("../types").UnitText | null;
     row_spacing?: string | null;
     plant_spacing?: string | null;
     sowing_depth?: string | null;
@@ -504,7 +505,7 @@ export function SowingPanel({ sowing, rankFilter, system }: SowingPanelProps) {
                 <h2 className={styles.title}>Sowing &amp; Planting</h2>
             </div>
 
-            {sowing.method && <p className={styles.method}>{sowing.method}</p>}
+            {sowing.method && <p className={styles.method}>{rt(sowing.method, system)}</p>}
 
             {showDiagram && (
                 <div className={styles.statsArea}>
@@ -541,10 +542,7 @@ export function SowingPanel({ sowing, rankFilter, system }: SowingPanelProps) {
                             n !== null &&
                             "star" in n &&
                             (n as { star?: boolean }).star === true;
-                        const text =
-                            typeof n === "object" && n !== null && "text" in n
-                                ? (n as { text: string }).text
-                                : String(n);
+                        const text = rt(n, system);
                         return (
                             <li
                                 key={i}

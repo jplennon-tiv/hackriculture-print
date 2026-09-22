@@ -35,6 +35,14 @@ Admin middleware resolves the sibling data folder from the configured Vite proje
 
 ## Accepted print design
 
+22 September page-fill correction: optional saved `tips_columns: 2` arranges
+full-width tips in two columns; optional `fill_bottoms` shares a modest measured
+remainder through the existing flexible rows after assets and natural fitting.
+Neither applies to older approved layouts without the flags. `pageFill.ts`
+rejects overflow, non-finite measurements and large gaps needing editorial work.
+Print QA now records unused bottom height, not only column alignment/page count.
+See `docs/vegetable-ai-pilot/PAGE-FILL-REVIEW.md` for revised proofs and checks.
+
 The authoritative consolidated rules are [VEGETABLE-PRINT-STYLE.md](docs/VEGETABLE-PRINT-STYLE.md), approved with the three revised proofs on 21 September.
 
 21 September pilot refinement: priority is safe page fit, then column-base
@@ -69,6 +77,7 @@ Read [SHARED-DATA.md](SHARED-DATA.md) for paths and ownership. Preserve these ru
 - Vegetables and troubles are keyed objects. Preserve unknown fields and opaque `group_overview` content during round trips.
 - Keep `src/types.ts`, `src/schema.ts` and hand-written admin validation aligned. Zod warns at boot and rejects invalid saves.
 - Ranked text can be `{text, rank, star?, short_text?, icon?}` or plain strings. Preserve ranks and existing filtering. `hero_header` is the short print lead, separate from difficulty/ease data.
+- Ranked `text`/`short_text` and sowing `method` also accept the existing `{imperial, metric}` pair shape. Store coherent full prose on each side; use `rt(value, system)` to select it. The admin reuses the measurement-pair editor and preserves both sides. Never embed both systems in one new paragraph, or put editorial/code notes in reader-facing prose.
 - Measurements may be strings, `{imperial, metric}` pairs, variety-keyed values or null. Use `src/lib/measure.ts`. Unit selection does not rewrite prose; sowing-diagram geometry deliberately uses imperial values while labels reflect selected units.
 - Calendar values are `--MM` fragments and inclusive cyclic ranges, not timestamps. Use `harvest_time`, not obsolete picking/cutting/lifting/pulling keys. Structured durations and seasonal ranges are distinct concepts.
 - Vegetable routes derive from slugified display names; trouble routes use guide keys. Reuse `src/lib/slug.ts`. Broad bean's current key/route is `bean_broad`.

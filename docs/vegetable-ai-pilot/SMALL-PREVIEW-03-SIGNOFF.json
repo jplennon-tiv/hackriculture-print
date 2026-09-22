@@ -1,0 +1,183 @@
+{
+  "at": "2026-09-22T14:53:13.298Z",
+  "approved_by": "John",
+  "recorded_by": "AI:gpt-6-astra",
+  "user_approval": "This set is also approved. Let’s do the next.",
+  "deferred": "John explicitly deferred overlapping bubble text to a later task.",
+  "approved": [
+    "swede",
+    "turnip",
+    "oriental_leaves",
+    "beet_leaf"
+  ],
+  "tip_counts": {
+    "swede": 2,
+    "turnip": 2,
+    "oriental_leaves": 2,
+    "beet_leaf": 2
+  },
+  "previous_revision": "210e180fb29203f4486ed6f3e088f4bb26eae23ce55a715312c653669f0a9666",
+  "save": {
+    "changed": 4,
+    "revision": "86260b0850dc9015ba5aa105370c98534835292cf193804bc4c955df3e21d7b2"
+  },
+  "backup": "backups/admin/2026-09-22T14-53-13.535Z-50f74285-5611-4c97-94e4-12b12c468829",
+  "exact_prior_bytes_verified": true,
+  "approval_only": true,
+  "proofs": [
+    {
+      "crop": "swede",
+      "units": "metric",
+      "file": "output/pdf/page-fill-review/swede-metric.pdf",
+      "pages": 2,
+      "bytes": 8756284,
+      "sha256": "25ea8e2fe1dfa827cf2536dd39b079e5bdbaef10991cbd427accd6e96030b15e",
+      "unchanged_from_checked_proof": true,
+      "saved_asset_readiness_verified": true
+    },
+    {
+      "crop": "swede",
+      "units": "imperial",
+      "file": "output/pdf/page-fill-review/swede-imperial.pdf",
+      "pages": 2,
+      "bytes": 8756416,
+      "sha256": "fb35770aae5974663216924e5b1f21876a0f34fe640fbdcca68b2a22c3b14a00",
+      "unchanged_from_checked_proof": true,
+      "saved_asset_readiness_verified": true
+    },
+    {
+      "crop": "turnip",
+      "units": "metric",
+      "file": "output/pdf/page-fill-review/turnip-metric.pdf",
+      "pages": 2,
+      "bytes": 8454099,
+      "sha256": "7aab1bd1f6108f26aaba4bdb37188900b518da363b41fc9acda40cfa3258e7f2",
+      "unchanged_from_checked_proof": true,
+      "saved_asset_readiness_verified": true
+    },
+    {
+      "crop": "turnip",
+      "units": "imperial",
+      "file": "output/pdf/page-fill-review/turnip-imperial.pdf",
+      "pages": 2,
+      "bytes": 8454807,
+      "sha256": "99b4f5b3c631337744a6e2bc429d90cd7cac0e694072fa19600b6e654d093b6a",
+      "unchanged_from_checked_proof": true,
+      "saved_asset_readiness_verified": true
+    },
+    {
+      "crop": "oriental_leaves",
+      "units": "metric",
+      "file": "output/pdf/page-fill-review/oriental_leaves-metric.pdf",
+      "pages": 2,
+      "bytes": 8602250,
+      "sha256": "d4d0142c0c199eb176f190b4924102808f9fe1fe651154f4212cd0183526bca4",
+      "unchanged_from_checked_proof": true,
+      "saved_asset_readiness_verified": true
+    },
+    {
+      "crop": "oriental_leaves",
+      "units": "imperial",
+      "file": "output/pdf/page-fill-review/oriental_leaves-imperial.pdf",
+      "pages": 2,
+      "bytes": 8602280,
+      "sha256": "ac40fdcf0a4101b622478c8ace3e49124b726f973b788ea6a8ab5424adac59b7",
+      "unchanged_from_checked_proof": true,
+      "saved_asset_readiness_verified": true
+    },
+    {
+      "crop": "beet_leaf",
+      "units": "metric",
+      "file": "output/pdf/page-fill-review/beet_leaf-metric.pdf",
+      "pages": 2,
+      "bytes": 9350270,
+      "sha256": "50d688e5d3d58f3e16ddf31a60233cf9ed55fe9922bfcfec28a04ccb86f90a93",
+      "unchanged_from_checked_proof": true,
+      "saved_asset_readiness_verified": true
+    },
+    {
+      "crop": "beet_leaf",
+      "units": "imperial",
+      "file": "output/pdf/page-fill-review/beet_leaf-imperial.pdf",
+      "pages": 2,
+      "bytes": 9348103,
+      "sha256": "edcc5ed3410788021b90bd63184d6a0c116a2c02485e9904ef34450a222a9e1a",
+      "unchanged_from_checked_proof": true,
+      "saved_asset_readiness_verified": true
+    }
+  ],
+  "normal_print_route_checks": [
+    {
+      "key": "swede",
+      "units": "metric",
+      "error": null,
+      "warnings": [],
+      "fonts": "loaded",
+      "missing": 0,
+      "tips": 2
+    },
+    {
+      "key": "swede",
+      "units": "imperial",
+      "error": null,
+      "warnings": [],
+      "fonts": "loaded",
+      "missing": 0,
+      "tips": 2
+    },
+    {
+      "key": "turnip",
+      "units": "metric",
+      "error": null,
+      "warnings": [],
+      "fonts": "loaded",
+      "missing": 0,
+      "tips": 2
+    },
+    {
+      "key": "turnip",
+      "units": "imperial",
+      "error": null,
+      "warnings": [],
+      "fonts": "loaded",
+      "missing": 0,
+      "tips": 2
+    },
+    {
+      "key": "oriental_leaves",
+      "units": "metric",
+      "error": null,
+      "warnings": [],
+      "fonts": "loaded",
+      "missing": 0,
+      "tips": 2
+    },
+    {
+      "key": "oriental_leaves",
+      "units": "imperial",
+      "error": null,
+      "warnings": [],
+      "fonts": "loaded",
+      "missing": 0,
+      "tips": 2
+    },
+    {
+      "key": "beet_leaf",
+      "units": "metric",
+      "error": null,
+      "warnings": [],
+      "fonts": "loaded",
+      "missing": 0,
+      "tips": 2
+    },
+    {
+      "key": "beet_leaf",
+      "units": "imperial",
+      "error": null,
+      "warnings": [],
+      "fonts": "loaded",
+      "missing": 0,
+      "tips": 2
+    }
+  ]
+}

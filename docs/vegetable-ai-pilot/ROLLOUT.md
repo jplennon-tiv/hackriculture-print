@@ -1,5 +1,17 @@
 # Vegetable extract rollout - resume here
 
+## Final sign-off - 22 September 2026
+
+**All 44 crops approved; zero drafts and zero unprepared.** John approved the
+latest eight and authorised advance approval of every remaining vegetable.
+See [FINAL-COMPLETION.md](FINAL-COMPLETION.md), the exact-byte transaction
+[receipt](FINAL-APPROVE-RECEIPT.json), and the maintained
+[style contract](../VEGETABLE-PRINT-STYLE.md). The complete contract also has a
+printable five-page hard copy. Kale's previously accepted source corrections
+are reflected in current proofs. Bubble-text repairs remain deferred and broader
+normalisation remains paused. All statuses below are historical checkpoints.
+
+
 21 September 2026. John authorised the remaining vegetable PDFs after approving
 asparagus, radish and celery. Follow ../VEGETABLE-PRINT-STYLE.md. Existing 44
 planting illustration approvals remain intact; this is the newer layout/extract
@@ -7,7 +19,74 @@ rollout, not missing image generation. No automatic approval of new extracts.
 
 ## State
 
-### Twelve signed off; next three ready for review — latest, 21 September 2026
+### Batch 04 approved; eight-crop batch 05 ready — current, 22 September
+
+John approved spinach, peas, leeks and onions/shallots and requested eight crops
+per set. [SMALL-PREVIEW-04-SIGNOFF.json](SMALL-PREVIEW-04-SIGNOFF.json) records
+the approval-only save and exact-byte backup. **31 approved, 12 rollout drafts,
+kale separately stale.** [Batch 05](SMALL-PREVIEW-05-REVIEW.md) presents garlic,
+parsnip, celeriac, both cucumbers, courgettes/marrows, squash/pumpkins and sweet
+corn in separate two-page files. Those eight await review; older totals follow.
+
+### Batch 03 approved; batch 04 ready — current, 22 September
+
+John approved swede, turnip, oriental leaves and leaf beet and explicitly deferred
+overlapping bubble text to a later task. Evidence:
+[SMALL-PREVIEW-03-SIGNOFF.json](SMALL-PREVIEW-03-SIGNOFF.json).
+Current totals: **27 approved crops, 16 rollout drafts and kale separately stale**.
+Spinach, peas, leeks and onions/shallots now await review in
+[batch 04](SMALL-PREVIEW-04-REVIEW.md). Older totals below are historical.
+
+### Four more approvals and review batch 03 — current, 22 September
+
+John approved endive, aubergine and both artichokes. Approval-only save and
+exact-byte backup evidence: [SMALL-PREVIEW-02-SIGNOFF.json](SMALL-PREVIEW-02-SIGNOFF.json).
+There are **23 approved crops, 20 rollout drafts and kale's separate stale draft**.
+Swede, turnip, oriental leaves and leaf beet are ready as small both-unit review
+files; [batch 03](SMALL-PREVIEW-03-REVIEW.md) includes existing visual/source
+exceptions. Those four remain drafts pending review.
+
+### Five recovered previews approved — current, 22 September
+
+John approved salsify/scorzonera, chicory, Florence fennel, outdoor tomato and
+rhubarb. [SMALL-PREVIEW-SIGNOFF.json](SMALL-PREVIEW-SIGNOFF.json) records the
+approval-only save, exact prior-byte backup and both-unit proof hashes.
+There are now **19 approved crops, 24 rollout drafts and kale's separate stale
+draft**. Use 2–4 useful Final Tips according to space left after the important
+content is fitted; four is not a default. Deliver one crop per preview PDF.
+Next flagged batch: endive, aubergine, globe artichoke and Jerusalem artichoke.
+Older pending-review totals below are historical.
+
+### Fuller replacement proofs — latest, 22 September
+
+John rejected the overnight packs' large bottom gaps. All 29 drafts have been
+reconsidered with fuller introductions, expanded sparse widgets, optional four-tip
+grids and measured bottom-space distribution. Replacement packs, checks and the
+remaining mushroom exception: [PAGE-FILL-REVIEW.md](PAGE-FILL-REVIEW.md).
+The 14 approved records plus kale are untouched. Await review, not self-approval.
+
+### Overnight preparation complete — latest, 22 September
+
+All 29 remaining crops now have source-linked draft extracts, saved layouts and
+checked two-page PDFs in both units. Two bookmarked 58-page packs and the exact
+review exceptions are in [OVERNIGHT-COMPLETION.md](OVERNIGHT-COMPLETION.md).
+There are 14 approved records, 29 newly prepared drafts and kale’s separate stale
+source-review draft. No unprepared crops remain. Do not infer approval or rerun
+one-time author scripts. The 38-transaction audit confirms all protected records,
+all planting companions and shared trouble data unchanged. Await John’s review;
+normalisation does not start automatically.
+
+### Fifteen approved; overnight completion authorised — historical, 21 September
+
+John approved cauliflower, kale and kohlrabi: [batch-04-signoff.json](batch-04-signoff.json).
+All 15 prepared crops are approved. He requested the remaining 29 run unattended
+from midnight UK time on 22 September until complete. See
+[OVERNIGHT-ROLLOUT.md](../handover/OVERNIGHT-ROLLOUT.md) for queue, scheduler ID,
+approved method and resume/completion rules. New proofs remain review drafts.
+Data normalisation is separately planned; preserve live source revisions and
+do not race a structural/variety migration against proof generation.
+
+### Twelve signed off; next three ready for review — historical, 21 September 2026
 
 John approved the complete coordinated-widget set, code and logic. Exact keys,
 approval transaction and renderer hashes: [widget-signoff.json](widget-signoff.json).

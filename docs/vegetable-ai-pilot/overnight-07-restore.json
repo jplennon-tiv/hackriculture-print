@@ -1,0 +1,109 @@
+{
+  "label": "overnight-07",
+  "transactions": [
+    {
+      "at": "2026-09-21T23:30:48.762Z",
+      "previous_revision": "dc5d3e473dce5754e1af8b876efd29cae19b98a456be8f0ab09a1d94941d2487",
+      "save": {
+        "changed": 3,
+        "revision": "e1d6dde16f60c4d60ad3fcdd7f340b10e05aba9a683d2a8689ed26e7854fe735"
+      },
+      "backup": "backups/admin/2026-09-21T23-30-48.902Z-69118212-2783-47c9-9fd8-005dda85fdee"
+    },
+    {
+      "at": "2026-09-21T23:32:32.083Z",
+      "previous_revision": "e1d6dde16f60c4d60ad3fcdd7f340b10e05aba9a683d2a8689ed26e7854fe735",
+      "save": {
+        "changed": 2,
+        "revision": "63d6b3ebeb914a3e764c7cf34d05a1ce174abc4168edf7bd6f6aa2cd93c4b38d"
+      },
+      "backup": "backups/admin/2026-09-21T23-32-31.864Z-84e8a73a-e1df-4c3c-a59f-a791d4648a11",
+      "changes": {
+        "squash_pumpkin": {
+          "layout": {
+            "variety_count": 4
+          },
+          "reason": "Seven lengthy variety rows create 31 mm page-one overflow in both units. Four examples fit; summer/winter/pumpkin distinctions remain in introduction, planting and harvest, with all nine problems retained."
+        },
+        "potato": {
+          "sections": {
+            "looking_after_the_crop": [
+              {
+                "text": "Protect shoots from frost. Earth up or mulch before tubers are exposed; weed carefully and water as tubers swell, especially in pots.",
+                "rank": 8
+              },
+              {
+                "text": "If blight becomes established, remove affected haulm and debris. Where conditions permit, wait about two weeks before lifting; use sound tubers promptly.",
+                "rank": 8
+              }
+            ],
+            "harvesting": [
+              {
+                "text": "Test-lift earlies at a useful size and use fresh. Lift storage crops after haulm dies, before severe frost, forking carefully and collecting every tuber.",
+                "rank": 8
+              },
+              {
+                "text": "Dry briefly out of strong light. Store only sound, dry tubers in breathable sacks, cool, dark and frost-free; use sound damaged ones first and discard rot.",
+                "rank": 8
+              }
+            ]
+          },
+          "reason": "Page two is 12 mm over. Combine repeated watering/frost and storage advice without removing any of the ten selected problems; blight timing and dark storage remain explicit. Vigorous-crop support detail stays in full master."
+        }
+      }
+    },
+    {
+      "at": "2026-09-21T23:36:26.890Z",
+      "previous_revision": "ca0ef743a07ab37ecbd13e268c6df53f1e64c5f28c357e1e083c3286ec0dfd9c",
+      "save": {
+        "changed": 3,
+        "revision": "0e96101b3d7e621959604218d0ab04890902f5aeb35235f0260098ecafeb2007"
+      },
+      "backup": "backups/admin/2026-09-21T23-36-26.666Z-cd076216-33e7-4eff-86ba-7f0cb9c59b6f",
+      "kind": "measurement"
+    }
+  ],
+  "revision": "0e96101b3d7e621959604218d0ab04890902f5aeb35235f0260098ecafeb2007",
+  "selected": {
+    "squash_pumpkin": [
+      "SOFT UNDERRIPE FRUIT",
+      "MILDEW",
+      "STEM DAMAGE AND ROT",
+      "GROUND ROT",
+      "SLUGS",
+      "No Fruit",
+      "Cucumber Mosaic Virus",
+      "Root Rot",
+      "Bitterness"
+    ],
+    "sweet_corn": [
+      "SLUGS",
+      "COLD CHECK",
+      "POOR POLLINATION",
+      "CROSS POLLINATION",
+      "BIRDS",
+      "BADGERS",
+      "SMUT",
+      "FRIT FLY"
+    ],
+    "potato": [
+      "BLIGHT",
+      "SLUGS",
+      "SCAB",
+      "EELWORM",
+      "FROST",
+      "STORAGE ROTS",
+      "Blackleg",
+      "Wireworm",
+      "WART DISEASE",
+      "COLORADO BEETLE"
+    ]
+  },
+  "coverage": {
+    "squash_pumpkin": "Nine useful distinct problems: five inline plus pollination, mosaic, root rot and bitter-fruit safety. Under-ripe/storage/powdery-mildew aliases covered; specialist rots, mites primarily under glass and geographically uncertain vine borer not promoted. Soil/care keep season, space, water, rooting nodes and optional giant-fruit restriction. Harvest separates tender summer squash from mature keepers and avoids telling users to eat carved display pumpkins. Complete notes retain winter/summer timing and cover removal. Full original source retained.",
+    "sweet_corn": "All eight distinct inline problems retained, with individual priorities reflecting establishment, pollination and local wildlife/disease risks. No artificial top-up. Soil/care keep warmth, humus, roots, watering at flowering, tillers and composting. Harvest uses kernel milk test rather than potentially misleading multi-week colour progression; baby corn remains distinct. Caption owns block geometry/rootball and thinning; notes cover protected/direct timing and late-sowing limits. Legacy mixed-unit imperial spacing and pseudo-variety rows are logged, not rewritten.",
+    "potato": "Ten distinct potato problems: eight inline plus blackleg and wireworm. Foliage/tuber blight combined; storage rot row covers the related store diseases without pretending to diagnose each. Aphids/viruses, nutrient and quality disorders remain in master for further diagnosis; greening safety retained explicitly in care/tip, not lost to table space. Current APHA guidance replaces squashing suspected Colorado beetles and premature wart disposal; official reporting retained even though uncommon. Soil/care/harvest preserve frost, coverage, earthing/mulch, water, blight wait and dark storage. Container route and planting seasons retained alongside no-dig caption."
+  },
+  "exceptions": [],
+  "status": "checked-review-proofs"
+}

@@ -9,7 +9,7 @@ import {
     hasImperial,
     hasMetric,
 } from "../lib/measure";
-import type { MeasurementPair } from "../types";
+import type { MeasurementPair, UnitText } from "../types";
 import styles from "./Admin.module.css";
 
 // Keys whose values are measurements → edited as imperial/metric pairs.
@@ -43,10 +43,10 @@ export const TIP_ICON_OPTIONS = QUICK_FACT_ICON_KEYS;
 
 // ── RankedText helpers ────────────────────────────────────────────────────────
 type RankedItem = {
-    text: string;
+    text: UnitText;
     rank: number;
     star?: boolean;
-    short_text?: string;
+    short_text?: UnitText;
     icon?: string;
 };
 
@@ -56,7 +56,7 @@ function isRankedItem(v: unknown): v is RankedItem {
         v !== null &&
         "text" in v &&
         "rank" in v &&
-        typeof (v as RankedItem).text === "string" &&
+        (typeof (v as RankedItem).text === "string" || isMeasurementPair((v as RankedItem).text)) &&
         typeof (v as RankedItem).rank === "number"
     );
 }
@@ -367,6 +367,23 @@ function KeyNoteArrayEditor({
 }
 
 // ── Ranked array editor (RankedText[]) ────────────────────────────────────────
+function hasProse(value: UnitText): boolean {
+    return typeof value === 'string' ? !!value.trim() :
+        !!(value.metric?.trim() || value.imperial?.trim());
+}
+
+/** Reuse the established measurement editor without flattening either side. */
+function ProseEditor({value, onChange, ...props}: {
+    value: UnitText;
+    onChange: (value: UnitText) => void;
+    rows?: number;
+    placeholder?: string;
+}) {
+    if (isMeasurementPair(value)) return <MeasurePairEditor value={value}
+        onChange={value => onChange(value as UnitText)} />;
+    return <Textarea value={value} onChange={onChange} {...props} />;
+}
+
 function RankedArrayEditor({
     value,
     onChange,
@@ -377,6 +394,7 @@ function RankedArrayEditor({
     const blank = (): RankedItem => ({ text: "", rank: 5 });
     const norm = (arr: RankedItem[]) =>
         arr.map((x) => ({
+            ...x,
             text: x.text,
             rank: x.rank,
             ...(x.star ? { star: true } : {}),
@@ -389,7 +407,7 @@ function RankedArrayEditor({
     useEffect(() => setItems(value.length ? norm(value) : [blank()]), [value]);
     const update = (next: RankedItem[]) => {
         setItems(next);
-        onChange(next.filter((x) => x.text.trim()));
+        onChange(next.filter((x) => hasProse(x.text)));
     };
     const set = <K extends keyof RankedItem>(
         i: number,
@@ -400,7 +418,7 @@ function RankedArrayEditor({
         <div className={styles.arrayEditor}>
             {items.map((item, i) => (
                 <div key={i} className={styles.rankedRow}>
-                    <Textarea
+                    <ProseEditor
                         value={item.text}
                         rows={2}
                         placeholder={`Item ${i + 1}`}
@@ -410,7 +428,7 @@ function RankedArrayEditor({
                         <label className={styles.shortTextLabel}>
                             Short text (PDF)
                         </label>
-                        <Textarea
+                        <ProseEditor
                             value={item.short_text ?? ""}
                             rows={1}
                             placeholder="Brief version for PDF cheat sheet"
@@ -494,13 +512,13 @@ function RankedObjectEditor({
     useEffect(() => setObj({ ...value }), [value]);
     const updateKey = (
         k: string,
-        text: string,
+        text: UnitText,
         rank: number,
         star: boolean,
     ) => {
         const next = {
             ...obj,
-            [k]: text ? { text, rank, ...(star ? { star: true } : {}) } : null,
+            [k]: hasProse(text) ? { ...obj[k], text, rank, star } : null,
         };
         setObj(next);
         onChange(next);
@@ -512,7 +530,7 @@ function RankedObjectEditor({
                     <label className={styles.objLabel}>
                         {k.replace(/_/g, " ")}
                     </label>
-                    <Textarea
+                    <ProseEditor
                         value={v?.text ?? ""}
                         rows={3}
                         placeholder="(empty)"
@@ -551,7 +569,8 @@ function RankedKvEditor({
 }) {
     type Pair = {
         key: string;
-        text: string;
+        text: UnitText;
+        original: Record<string, unknown>;
         signs: string;
         control: string;
         rank: number;
@@ -566,7 +585,8 @@ function RankedKvEditor({
                     : {};
             return {
                 key: k,
-                text: rt(val),
+                text: isRankedItem(val) ? val.text : rt(val),
+                original: obj,
                 signs: typeof obj.signs === "string" ? obj.signs : "",
                 control: typeof obj.control === "string" ? obj.control : "",
                 rank: isRankedItem(val) ? val.rank : 5,
@@ -581,11 +601,14 @@ function RankedKvEditor({
         const out: Record<string, unknown> = {};
         next.forEach((p) => {
             if (!p.key.trim()) return;
+            const retained = {...p.original};
+            for (const key of ['text','rank','star','signs','control']) delete retained[key];
             if (p.special) {
                 out[p.key.trim()] = p.text || null;
             } else {
-                out[p.key.trim()] = p.text
+                out[p.key.trim()] = hasProse(p.text)
                     ? {
+                          ...retained,
                           text: p.text,
                           rank: p.rank,
                           ...(p.star ? { star: true } : {}),
@@ -617,7 +640,7 @@ function RankedKvEditor({
                         placeholder="e.g. SLUGS"
                         onChange={(e) => set(i, { key: e.target.value })}
                     />
-                    <Textarea
+                    <ProseEditor
                         value={pair.text}
                         rows={2}
                         placeholder="Description (full text)"
@@ -678,6 +701,7 @@ function RankedKvEditor({
                         {
                             key: "",
                             text: "",
+                            original: {},
                             signs: "",
                             control: "",
                             rank: 5,
@@ -1263,7 +1287,7 @@ export function FieldEditor({
             return (
                 <StringArrayEditor
                     value={
-                        Array.isArray(value) ? (value as unknown[]).map(rt) : []
+                        Array.isArray(value) ? (value as unknown[]).map(v => rt(v)) : []
                     }
                     onChange={onChange}
                 />

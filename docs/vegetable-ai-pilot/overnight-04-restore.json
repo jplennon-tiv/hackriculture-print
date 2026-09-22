@@ -1,0 +1,61 @@
+{
+  "label": "overnight-04",
+  "transactions": [
+    {
+      "at": "2026-09-21T23:21:59.830Z",
+      "previous_revision": "459ad748bfa73f32586e24d9f6ee8e63d5e7f1253729b796b40870db9489bedc",
+      "save": {
+        "changed": 3,
+        "revision": "ce967ae4cfbbe85cc4c2d2ddc163b18baa8caf7e816b83b357a5983356e3c395"
+      },
+      "backup": "backups/admin/2026-09-21T23-21-59.951Z-a5ea8e10-774d-473e-8d94-2bc57f8a0a59"
+    },
+    {
+      "at": "2026-09-21T23:22:53.584Z",
+      "previous_revision": "42c4477ca79b1983d384669f4afbe898345e5054a5e226ce85800eabeb7eb183",
+      "save": {
+        "changed": 3,
+        "revision": "667ae9b99dbd706c0125fb15e3a27b900903ea0d4e30d975cdfb8a1d94b60bee"
+      },
+      "backup": "backups/admin/2026-09-21T23-22-53.383Z-c414f73c-8dad-4fa2-b1de-bb17ae01eb72",
+      "kind": "measurement"
+    }
+  ],
+  "revision": "667ae9b99dbd706c0125fb15e3a27b900903ea0d4e30d975cdfb8a1d94b60bee",
+  "selected": {
+    "parsnip": [
+      "CANKER",
+      "POOR GERMINATION",
+      "CARROT ROOT FLY",
+      "FORKING",
+      "LEAF MINER",
+      "Violet Root Rot",
+      "Sclerotinia Rot"
+    ],
+    "salsify_scorzonera": [
+      "WHITE BLISTER",
+      "FORKED ROOTS",
+      "SNAPPED ROOTS",
+      "BOLTING",
+      "SMALL ROOTS"
+    ],
+    "celeriac": [
+      "SLUGS",
+      "CARROT FLY",
+      "CELERY FLY",
+      "FROST",
+      "HOLLOW OR HOLED ROOTS",
+      "WOODLICE",
+      "Bolting",
+      "Celery Leaf Spot (Blight)",
+      "Damping Off"
+    ]
+  },
+  "coverage": {
+    "parsnip": "Seven distinct applicable problems: canker, germination, fly, forking, leaf miner and two different root rots. Ambiguous legacy rust-fungus identity is retained at low priority for diagnosis, not conflated with canker. Shared aliases and carrot-only conditions excluded; rarer swift moth/aphid and splitting remain source, with steady moisture covered in care. New sclerotinia row uses organic hygiene instead of the shared obsolete Cheshunt drench. Notes cover later sowing after weeds and warmer-spring reliability; radish marker and no transplanting already in captions. Soil/care/harvest retain undamaged roots, moisture, winter standing and lifting before spring flowering.",
+    "salsify_scorzonera": "Five distinct source problems retained; few-regular-problems is an overview, not a sixth disease. White blister confirmed by RHS. Absolute May-only scorzonera claim conflicts with RHS April advice: proof advises variety timing without imposing the old rule, and the original is logged for John. Named/type rows remain unnormalised; five examples omit the uncertain Scolymus identity. Direct sowing/no transplanting and thinning already in captions; sowing note retains seasonal/early-protected route. Soil, care and harvest distinguish fragile roots, second-year scorzonera and tender flower shoots.",
+    "celeriac": "Nine distinct useful issues: six inline plus bolting, leaf spot and damping off. Woodlice are identified as occupants of existing damage, not automatically blamed as primary pests. Carrot/celery-specific storage, heart/stalk disorders and aliases not appended. Soil/care retain fertility, shallow-root moisture and exposed crown; harvest covers mild standing versus frost-free storage. Caption already covers all main stages. Fleece establishment and conditional closer spacing assessed: fleece retained in tip; wider paired spacing retained, optional closer imperial-only guidance deferred rather than injected into metric copy."
+  },
+  "exceptions": [],
+  "status": "checked-review-proofs"
+}

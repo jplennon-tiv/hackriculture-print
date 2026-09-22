@@ -1,7 +1,9 @@
 import type { ReactNode } from "react";
 import type { Varieties, VarietyGroup } from "../types";
 import type { RankFilter } from "../hooks/useRankFilter";
-import { isRankedText } from "../lib/ranked";
+import { useUnits } from "../lib/units";
+import type { UnitSystem } from "../lib/measure";
+import { isRankedText, rt } from "../lib/ranked";
 import { isoMonthToName } from "../lib/months";
 import styles from "./VegetablePage.module.css";
 
@@ -34,6 +36,7 @@ const META_KEYS = new Set([
 /** Recursively render a group of varieties (may contain sub-groups) */
 function renderGroup(
     group: VarietyGroup,
+    system: UnitSystem,
     depth = 0,
     rankFilter?: RankFilter,
 ): ReactNode {
@@ -112,7 +115,7 @@ function renderGroup(
                                             {displayName}
                                         </span>
                                         <p className={styles.varietyDesc}>
-                                            {val.text}
+                                            {rt(val, system)}
                                         </p>
                                     </div>
                                 );
@@ -125,6 +128,7 @@ function renderGroup(
                                     </h3>
                                     {renderGroup(
                                         val as VarietyGroup,
+                                        system,
                                         depth + 1,
                                         rankFilter,
                                     )}
@@ -154,6 +158,7 @@ interface VarietiesCardProps {
 }
 
 export function VarietiesCard({ varieties, rankFilter }: VarietiesCardProps) {
+    const { system } = useUnits();
     const raw = varieties as Record<string, unknown>;
     const hasContent = raw.overview || hasVisibleEntries(raw, rankFilter);
 
@@ -165,7 +170,7 @@ export function VarietiesCard({ varieties, rankFilter }: VarietiesCardProps) {
                 <span className={styles.cardIcon}>🏷️</span>
                 <h2 className={styles.cardTitle}>Recommended Varieties</h2>
             </div>
-            {renderGroup(raw as VarietyGroup, 0, rankFilter)}
+            {renderGroup(raw as VarietyGroup, system, 0, rankFilter)}
         </div>
     );
 }

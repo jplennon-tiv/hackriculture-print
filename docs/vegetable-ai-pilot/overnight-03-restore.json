@@ -1,0 +1,133 @@
+{
+  "label": "overnight-03",
+  "transactions": [
+    {
+      "at": "2026-09-21T23:18:42.376Z",
+      "previous_revision": "3f052797d0716ae55857d0fc7b4868f2cf781d382a45fc5cc71e601dcd0df445",
+      "save": {
+        "changed": 3,
+        "revision": "c7d862d392556cc79288c7d5a1d1b8679d87ba47c628442b9b1ea4f3fdb23275"
+      },
+      "backup": "backups/admin/2026-09-21T23-18-42.503Z-171af917-0686-4693-8e85-d2cc71093a5a"
+    },
+    {
+      "at": "2026-09-21T23:20:13.766Z",
+      "previous_revision": "4488cfe5a883f13dc33f5d3f7bedadb67eadd025a7bb3fa7b5f63b0e5c7d285e",
+      "save": {
+        "changed": 2,
+        "revision": "704bc27490852245f2eee987a464bc9334c27c758fd0e7cb1f19abc143f03b78"
+      },
+      "backup": "backups/admin/2026-09-21T23-20-13.575Z-75c1bd48-0a7d-4223-bd6a-a2be680e2384",
+      "changes": {
+        "leek": {
+          "layout": {
+            "intro_sentences": 2,
+            "variety_count": 4
+          },
+          "reason": "Seven long variety rows caused 37 mm page-one overflow. Four examples retain early and hardy winter coverage, with the full catalogue preserved. Seasonal guidance remains in harvest and bubbles; all eight pests retained."
+        },
+        "onion_shallot": {
+          "sections": {
+            "final_tips": [
+              {
+                "text": "Unpack delayed sets and spread them in a cool, light place until planting.",
+                "rank": 8,
+                "icon": "sow"
+              },
+              {
+                "text": "Spring sets need suitable soil conditions; prolonged cold increases bolting risk.",
+                "rank": 8,
+                "icon": "protection"
+              }
+            ]
+          },
+          "reason": "Use the existing protection icon; temperature is not one of the approved Quick Facts assets."
+        }
+      }
+    },
+    {
+      "at": "2026-09-21T23:21:58.334Z",
+      "previous_revision": "704bc27490852245f2eee987a464bc9334c27c758fd0e7cb1f19abc143f03b78",
+      "save": {
+        "changed": 1,
+        "revision": "459ad748bfa73f32586e24d9f6ee8e63d5e7f1253729b796b40870db9489bedc"
+      },
+      "backup": "backups/admin/2026-09-21T23-21-58.140Z-c900c461-f712-47fd-b381-3f586b7bce0c",
+      "changes": {
+        "onion_shallot": {
+          "sections": {
+            "introduction": "Grow onions and shallots for fresh use, pickling or storage. Sets offer a simple start, seed gives wider choice, and shallot bulbs usually divide into clusters."
+          },
+          "reason": "Shorten introductory repetition to clear the remaining 1 mm budget warning, retaining seven variety rows and ten pests."
+        }
+      }
+    },
+    {
+      "at": "2026-09-21T23:22:36.446Z",
+      "previous_revision": "ce967ae4cfbbe85cc4c2d2ddc163b18baa8caf7e816b83b357a5983356e3c395",
+      "save": {
+        "changed": 1,
+        "revision": "58b6692c8cbc69dbec0288559fae0f97af62be24d83def78d0120655e3d2b639"
+      },
+      "backup": "backups/admin/2026-09-21T23-22-36.254Z-0ff07f65-36cc-4574-b529-bed68da395e7",
+      "changes": {
+        "onion_shallot": {
+          "layout": {
+            "variety_count": 6
+          },
+          "reason": "Shorter introduction did not change the remaining 1 mm warning: the variety column controls this page. Six rows clear the warning; full seven-plus catalogue remains in master."
+        }
+      }
+    },
+    {
+      "at": "2026-09-21T23:22:52.972Z",
+      "previous_revision": "58b6692c8cbc69dbec0288559fae0f97af62be24d83def78d0120655e3d2b639",
+      "save": {
+        "changed": 3,
+        "revision": "42c4477ca79b1983d384669f4afbe898345e5054a5e226ce85800eabeb7eb183"
+      },
+      "backup": "backups/admin/2026-09-21T23-22-52.761Z-ecb93870-4f01-419b-a58e-0dc5c27655de",
+      "kind": "measurement"
+    }
+  ],
+  "revision": "42c4477ca79b1983d384669f4afbe898345e5054a5e226ce85800eabeb7eb183",
+  "selected": {
+    "leek": [
+      "White Rot (Mouldy Nose)",
+      "Allium Leaf Miner",
+      "Leek Moth",
+      "Rust",
+      "Bolting",
+      "Stem & Bulb Eelworm",
+      "White Tip",
+      "Smut"
+    ],
+    "onion_shallot": [
+      "White Rot (Mouldy Nose)",
+      "Allium Leaf Miner",
+      "Bolting",
+      "Downy Mildew",
+      "Neck Rot",
+      "Onion Fly",
+      "Bull Neck (Thick Neck)",
+      "Birds Pulling Sets",
+      "Stem & Bulb Eelworm",
+      "Saddleback"
+    ],
+    "garlic": [
+      "WHITE ROT",
+      "RUST",
+      "BIRDS OR FROST LIFTING CLOVES",
+      "POOR STORAGE",
+      "Allium Leaf Miner",
+      "Stem & Bulb Eelworm"
+    ]
+  },
+  "coverage": {
+    "leek": "Eight crop-applicable problems retain serious soil diseases, the two distinct allium insects, rust, bolting and white tip. Bulb/set-only copied rows explicitly deprioritised for leeks, preserved in full for normalisation. Shared organic controls replace stale mancozeb/clearance advice and distinguish moth caterpillars from leaf-miner maggots. Soil/care retain moisture, optional blanching and mesh; harvest distinguishes tender early crops, hardy winter standing and spring bolting. Notes retain fresh seed, optional trimming and clumps/early starts. Source introduction trailing test edit excluded from extract, not deleted.",
+    "onion_shallot": "Ten useful distinct onion/shallot conditions selected before fitting. Host-scoped leek moth/rust/white tip/smut excluded; lower-priority drooping, set division and rare shanking left in full source, with moisture and diagnosis principles covered elsewhere. White rot/eelworm/fly/bird/thick-neck controls aligned to reviewed organic shared advice. Soil preparation repetitions merged; care retains shallow-root weeding and ripening. Harvest excludes unsafe use of diseased bulbs and forced neck bending; current RHS supports natural maturity and drying. Seed, set, salad, overwintered, module and shallot routes retained across caption/notes/tips. Old variety duplicates remain for normalisation.",
+    "garlic": "Six distinct garlic problems: four inline plus allium leaf miner and stem/bulb eelworm. Onion set/bulb disorders and leek-only conditions not imported; neck rot covered by poor-storage hygiene rather than a second similar row. White-rot control no longer implies normal rotation clears infection. Care/harvest retain winter patience, spring water, scapes, green garlic, maturity and drying. All five existing variety/type entries requested; structural variety-table limitations logged. Elephant garlic is described as a leek relative, not a hybrid; full source inconsistencies deferred."
+  },
+  "exceptions": [],
+  "status": "checked-review-proofs"
+}

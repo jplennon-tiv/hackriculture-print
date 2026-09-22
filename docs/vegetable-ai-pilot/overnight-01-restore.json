@@ -1,0 +1,110 @@
+{
+  "label": "overnight-01",
+  "transactions": [
+    {
+      "at": "2026-09-21T23:04:14.914Z",
+      "previous_revision": "0487949671217d338a3cf4b65f7aa95018ff2e3ed1e5a5d338530ab2a435e3ca",
+      "save": {
+        "changed": 3,
+        "revision": "af46dd5a21e5eaf7a45c79845f40d7ace5ccaa60d7cfed7f8b4c6b19218b3257"
+      },
+      "backup": "backups/admin/2026-09-21T23-04-15.033Z-18354b95-5f89-4389-a141-f11cebd89463"
+    },
+    {
+      "at": "2026-09-21T23:06:54.603Z",
+      "previous_revision": "af46dd5a21e5eaf7a45c79845f40d7ace5ccaa60d7cfed7f8b4c6b19218b3257",
+      "save": {
+        "changed": 2,
+        "revision": "bdada5f3d211d5696de10176cb764a208466f55dee71cea9184e39249e867a2e"
+      },
+      "backup": "backups/admin/2026-09-21T23-06-54.423Z-f7e30847-cf2c-4b05-9254-d80db5793fc0",
+      "changes": {
+        "turnip": {
+          "layout": {
+            "intro_sentences": 3
+          },
+          "reason": "Initial page-one spillover of 8 mm: omit the fourth introductory shape sentence while retaining all seven variety rows and all eight distinct pest rows."
+        },
+        "oriental_leaves": {
+          "layout": {
+            "intro_sentences": 2,
+            "variety_count": 7
+          },
+          "reason": "Initial page-one spillover of 16 mm: keep the opening definition and species list, and seven variety rows; Joi Choi is a further pak-choi example rather than a new crop type. Harvest speed and winter picking remain in the widgets. Preserve all eight distinct troubles."
+        }
+      }
+    },
+    {
+      "at": "2026-09-21T23:11:12.914Z",
+      "previous_revision": "bdada5f3d211d5696de10176cb764a208466f55dee71cea9184e39249e867a2e",
+      "save": {
+        "changed": 2,
+        "revision": "cd3b7450dab00ce7b4db0ce3943aec4ec1de5b0557e79bd17a3af822d43fc12b"
+      },
+      "backup": "backups/admin/2026-09-21T23-11-12.735Z-ae303b24-71f6-48d6-9b03-6dfbfb22f288",
+      "changes": {
+        "turnip": {
+          "layout": {
+            "variety_count": 6
+          },
+          "reason": "Seven variety rows exceed page one by 8 mm in both units even with the shorter introduction. Six rows retain early and maincrop examples; Green-Top White remains in the full source. All eight troubles remain."
+        },
+        "oriental_leaves": {
+          "layout": {
+            "variety_count": 6
+          },
+          "reason": "Seven variety rows exceed page one by 5 mm in both units. Six rows fit; pak choi remains explicitly covered in the introduction, planting and harvest guidance, with its named examples retained in the full source. All eight troubles remain."
+        }
+      }
+    },
+    {
+      "at": "2026-09-21T23:13:24.039Z",
+      "previous_revision": "8d21cd3ff68af87ac53af6f269de9f0b223b26030d996fa8d19ef6429c3b2361",
+      "save": {
+        "changed": 3,
+        "revision": "89ebef08cfe1df4d10aa7e999e2ba8baf153ff345ff6ae489cdccc8a3d3bc8dc"
+      },
+      "backup": "backups/admin/2026-09-21T23-13-23.848Z-8a2636f5-0e08-4c38-8caa-9f18092e6383",
+      "kind": "measurement"
+    }
+  ],
+  "revision": "89ebef08cfe1df4d10aa7e999e2ba8baf153ff345ff6ae489cdccc8a3d3bc8dc",
+  "selected": {
+    "swede": [
+      "FLEA BEETLE",
+      "CABBAGE ROOT FLY",
+      "BORON DEFICIENCY",
+      "BIRDS AND CATERPILLARS",
+      "Soft Rot",
+      "Black Rot",
+      "QUALITY PROBLEMS"
+    ],
+    "turnip": [
+      "FLEA BEETLE",
+      "CABBAGE ROOT FLY",
+      "BORON DEFICIENCY",
+      "BIRDS AND CATERPILLARS",
+      "Soft Rot",
+      "Black Rot",
+      "WOODY ROOTS",
+      "Turnip Mosaic Virus"
+    ],
+    "oriental_leaves": [
+      "FLEA BEETLE",
+      "SLUGS",
+      "CABBAGE CATERPILLARS",
+      "BOLTING",
+      "DRYNESS AND CHECKS",
+      "ROOT DISTURBANCE",
+      "FROST",
+      "CABBAGE ROOT FLY"
+    ]
+  },
+  "coverage": {
+    "swede": "All five original inline problems plus distinct soft/black rots. Shared boron/quality/bird/caterpillar aliases covered by these rows; radish-only disorders omitted. Soil combines preparation and climate; care keeps moisture, mulching and protection. Harvest retains standing, storage and spring-regrowth limits. Module/thinning/early sowing routes in approved captions; June follow-crop note retained, seed-per-ounce estimate omitted as planning detail. Legacy spacing conflict and variety age flagged for normalisation; no variety refresh.",
+    "turnip": "Five inline conditions plus soft rot, black rot and the turnip-specific mosaic virus; all distinct. Shared aliases and radish-only disorders not repeated. Soil/care merge fertility, moisture and thinning. March, cool-weather succession and August/mild early-September routes retained across notes/tips; edible tops and storage retained in harvest. Variety duplicates and conflicting legacy spacing/days-to-harvest are logged, not normalised.",
+    "oriental_leaves": "All eight distinct inline problems retained; shared differently named mirrors are not appended. Shungiku is not a brassica: pest wording stays host-specific. Care keeps water/weed/thin, conditional heart tying and pak-choi handling. Harvest separates baby/repeat cuts, mibuna, Chinese hearts and winter leaves. Approved module/direct captions retained; sowing notes distinguish species and spring Shungiku. Older universal tying advice qualified to shared reviewed guidance; source kept intact and discrepancy logged."
+  },
+  "exceptions": [],
+  "status": "checked-review-proofs"
+}

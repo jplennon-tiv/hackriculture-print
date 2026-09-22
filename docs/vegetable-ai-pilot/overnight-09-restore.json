@@ -1,0 +1,92 @@
+{
+  "label": "overnight-09",
+  "transactions": [
+    {
+      "at": "2026-09-21T23:36:28.505Z",
+      "previous_revision": "0e96101b3d7e621959604218d0ab04890902f5aeb35235f0260098ecafeb2007",
+      "save": {
+        "changed": 3,
+        "revision": "9cc0a01a3cbb990d1afb47949edecbd2b09916e9668c526837082ad7ce6a4250"
+      },
+      "backup": "backups/admin/2026-09-21T23-36-28.636Z-3d43f879-1bf3-49a6-8b87-0450d5fb90d7"
+    },
+    {
+      "at": "2026-09-21T23:39:42.402Z",
+      "previous_revision": "3dec08d129264c3a247e6d46773c50cfab6d76daf37d16a4c03d4f16ba6920fd",
+      "save": {
+        "changed": 3,
+        "revision": "ac5d17f6dee4ad46d86c7deb2c5e8e219511fa8bc11ea87a3afe09dd494a73c3"
+      },
+      "backup": "backups/admin/2026-09-21T23-39-42.167Z-29ea87fa-b6f1-44d6-bda3-258ad6879e9c",
+      "kind": "measurement"
+    },
+    {
+      "at": "2026-09-21T23:43:25.273Z",
+      "previous_revision": "507d6eee3b8768e47271f87d6e91b5d559414a774f4754e1a149b1cea61e9216",
+      "save": {
+        "changed": 1,
+        "revision": "1432599312dedc3c24567e4b652c7efc829baf7143dfb699eb9a5e9494a4063b"
+      },
+      "backup": "backups/admin/2026-09-21T23-43-25.040Z-1d804a86-ee02-4d89-9ed1-248478782ca7",
+      "changes": {
+        "aubergine": {
+          "sections": {
+            "sowing_notes": [
+              {
+                "text": {
+                  "metric": "For germination, provide steady warmth of at least 21°C. Heated-house planting may begin in April; unheated cover or outdoor planting must wait for sufficiently warm conditions.",
+                  "imperial": "For germination, provide steady warmth of at least 70°F. Heated-house planting may begin in April; unheated cover or outdoor planting must wait for sufficiently warm conditions."
+                },
+                "rank": 8
+              }
+            ]
+          },
+          "reason": "RHS aubergine guidance specifies at least 21°C/70°F for germination; clarify the stage and use paired prose."
+        }
+      }
+    },
+    {
+      "at": "2026-09-21T23:43:55.340Z",
+      "previous_revision": "bba3563f80512e3b466d7fa892a1ebdac62154577091c89dfb1caaaabe4b4d32",
+      "save": {
+        "changed": 3,
+        "revision": "720e0dddce8390744ce4a9050e53c2bf3abc17f64e3c185ec0455b1694409186"
+      },
+      "backup": "backups/admin/2026-09-21T23-43-55.109Z-675f3cad-f668-47bf-b40d-291978854a14",
+      "kind": "measurement"
+    }
+  ],
+  "revision": "720e0dddce8390744ce4a9050e53c2bf3abc17f64e3c185ec0455b1694409186",
+  "selected": {
+    "aubergine": [
+      "RED SPIDER MITE",
+      "APHID",
+      "WHITEFLY",
+      "FLEA BEETLE",
+      "MOULD",
+      "SLUGS",
+      "VERTICILLIUM WILT AND PHYTOPHTHORA BLIGHT"
+    ],
+    "artichoke_globe": [
+      "APHID",
+      "SLUGS AND SNAILS",
+      "BOTRYTIS",
+      "ARTICHOKE LEAF SPOT",
+      "FROST DAMAGE",
+      "PETAL BLIGHT",
+      "Mice"
+    ],
+    "artichoke_jerusalem": [
+      "SLUGS",
+      "SCLEROTINIA ROT",
+      "MICE"
+    ]
+  },
+  "coverage": {
+    "aubergine": "All seven distinct source problem groups retained. Combined wilt/blight label remains pending disease-identity normalisation, but proof seeks diagnosis rather than promising a fixed three-year cure. Whitefly monitoring separated from control with organic biological guidance. Soil/care/harvest preserve warmth, roots, support, optional branching/fruit thinning and glossy harvest. No blanket five-fruit limit: crop load follows variety and desired size. Early covered versus outdoor routes and optional seed soaking considered; soaking omitted as nonessential and kept in master.",
+    "artichoke_globe": "Six distinct inline problems plus mice already documented in the seed route. Aphid insecticide replaced in full with organic cultural control. Soil/care combine water, feeding, mulch and winter protection, while preserving crown renewal and shoot selection. Harvest keeps main/side-head timing and weak-first-year restraint. Caption already covers offset season, depth and seed route; note preserves not over-taking suckers. Extra spacing qualified by soil and kept as unit pair.",
+    "artichoke_jerusalem": "All three actual source problems retained without inventing extra rows. Slug pellets and phoxim/diazinon soil-grub prescriptions replaced in full with organic observation, removal and harvest timing. Soil/care retain weed control, earthing, water, support and optional feeding/flower removal. Harvest and tips cover hardy winter standing, saved planting stock and persistent regrowth. Caption already owns late-winter/spring block planting and avoiding shade; complete sowing note is intentionally empty. All three varieties retained."
+  },
+  "exceptions": [],
+  "status": "checked-review-proofs"
+}

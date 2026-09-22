@@ -2,6 +2,14 @@ import { describe, it, expect } from "vitest";
 import { rt, isStar, getRank, isRankedText } from "./ranked";
 
 describe("rt", () => {
+    it('selects explicit source prose without converting or losing qualifications', () => {
+        const text = {metric:'Allow about 45 cm; more for large plants.', imperial:'Allow about 18 in.; more for large plants.'};
+        expect(rt({text,rank:8}, 'metric')).toBe(text.metric);
+        expect(rt({text,rank:8}, 'imperial')).toBe(text.imperial);
+        expect(rt(text, 'metric')).toBe(text.metric);
+        expect(isRankedText({text,rank:8})).toBe(true);
+        expect(rt({metric:null,imperial:'18 in.'}, 'metric')).toBe('18 in.');
+    });
     it("returns the string as-is", () => {
         expect(rt("hello")).toBe("hello");
     });

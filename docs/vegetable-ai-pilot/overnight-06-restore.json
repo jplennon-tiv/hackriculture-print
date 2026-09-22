@@ -1,0 +1,88 @@
+{
+  "label": "overnight-06",
+  "transactions": [
+    {
+      "at": "2026-09-21T23:28:03.109Z",
+      "previous_revision": "a69a81aa218516cc19242facaa7248fcb2072de5db4655f994d437da4def7fc8",
+      "save": {
+        "changed": 3,
+        "revision": "fcbf3d3ef1fcaff96967b41ea621f7905705cf8bdb240b9d5b06a6f7b8773ff2"
+      },
+      "backup": "backups/admin/2026-09-21T23-28-03.242Z-5a9d7207-8a6b-4077-95a9-7717c61198d1"
+    },
+    {
+      "at": "2026-09-21T23:28:44.848Z",
+      "previous_revision": "fcbf3d3ef1fcaff96967b41ea621f7905705cf8bdb240b9d5b06a6f7b8773ff2",
+      "save": {
+        "changed": 2,
+        "revision": "4358a90f989f6180ef8505cdf5e77e08b52b16c92bbbe7ad82abc659fa7cfa4a"
+      },
+      "backup": "backups/admin/2026-09-21T23-28-44.641Z-8f101436-b668-4add-999d-32b5bdb9a123",
+      "changes": {
+        "cucumber_outdoor": {
+          "layout": {
+            "variety_count": 5
+          },
+          "reason": "Seven long variety rows exceed page one by 14 mm in both units. Five retain ridge and all-female examples; all nine problems remain and the full catalogue is preserved."
+        },
+        "marrow_courgette": {
+          "layout": {
+            "variety_count": 6
+          },
+          "reason": "Seven variety rows exceed page one by 9 mm in both units. Six fit while all seven distinct problems remain. Marrow handling remains explicit in care and harvest despite courgette-heavy source priorities."
+        }
+      }
+    },
+    {
+      "at": "2026-09-21T23:30:46.523Z",
+      "previous_revision": "1888ac5aa49ac71a815032283173f8d1145866bc6a969c1a3f4533917386ccdb",
+      "save": {
+        "changed": 3,
+        "revision": "dc5d3e473dce5754e1af8b876efd29cae19b98a456be8f0ab09a1d94941d2487"
+      },
+      "backup": "backups/admin/2026-09-21T23-30-46.314Z-4d21e7a8-848b-4028-b4ae-18d851820b9f",
+      "kind": "measurement"
+    }
+  ],
+  "revision": "dc5d3e473dce5754e1af8b876efd29cae19b98a456be8f0ab09a1d94941d2487",
+  "selected": {
+    "cucumber_greenhouse": [
+      "LACK OF WARMTH",
+      "BITTERNESS",
+      "MILDEW",
+      "RED SPIDER MITE",
+      "STEM AND FRUIT ROTS",
+      "Cucumber Mosaic Virus",
+      "Root Rot",
+      "Slugs and Snails",
+      "Withering of Young Fruit"
+    ],
+    "cucumber_outdoor": [
+      "LACK OF WARMTH",
+      "SLUGS AND WOODLICE",
+      "MILDEW",
+      "CUCUMBER MOSAIC VIRUS",
+      "FROST",
+      "Bitterness",
+      "Root Rot",
+      "Grey Mould (Botrytis)",
+      "Poor Fruit Set"
+    ],
+    "marrow_courgette": [
+      "SLUGS",
+      "MILDEW",
+      "POOR POLLINATION",
+      "FRUIT ROT",
+      "Cucumber Mosaic Virus",
+      "Root Rot",
+      "Bitterness"
+    ]
+  },
+  "coverage": {
+    "cucumber_greenhouse": "Nine distinct conditions selected: five inline plus mosaic virus, root rot, slugs and fruitlet failure. Powdery-mildew and grey/stem-rot aliases covered; fruit-virus symptoms grouped with mosaic. No-fruit pollination advice for marrows not applied to unpollinated greenhouse cucumbers. Lower-priority anthracnose, gummosis, eelworm and separate stem-rot identities retained for specialist diagnosis. Bitter-fruit disposal retained explicitly. Soil/care balance humidity with airflow and free drainage; training, flower handling and organic feeding retained. Heated/unheated sowing and planting windows combined in one complete note.",
+    "cucumber_outdoor": "Nine distinct outdoor problems: all five inline plus bitter fruit, root rot, botrytis and fruit set. Slugs/woodlice row combines original damage context with observation; aliases are not extra rows. Specialist rots, anthracnose, mites mainly under glass and out-of-scope squash storage advice remain in source. Care follows named variety pollination requirements rather than universal male-flower removal. Caption already covers warm direct sowing, intact roots and frost; notes add protected germination temperatures with paired units. Original slug-pellet optional source note is not printed and is logged for later scoped replacement.",
+    "marrow_courgette": "Seven distinct useful UK problems: four common inline conditions plus mosaic, root rot and bitter fruit. Legacy vine borer is retained at low priority pending geographic/source diagnosis, not promoted as routine UK advice. Shared no-fruit/withering and mildew aliases covered; rarer rots and greenhouse mites not duplicated. Care and harvest retain pollination, trailing support, tender courgettes versus mature storage marrows and skin-irritation precautions. Direct/under-cover timing and trailing route assessed together; all safe advice remains in master."
+  },
+  "exceptions": [],
+  "status": "checked-review-proofs"
+}

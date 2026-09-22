@@ -1,0 +1,126 @@
+{
+  "label": "overnight-02",
+  "transactions": [
+    {
+      "at": "2026-09-21T23:12:57.169Z",
+      "previous_revision": "cd3b7450dab00ce7b4db0ce3943aec4ec1de5b0557e79bd17a3af822d43fc12b",
+      "save": {
+        "changed": 3,
+        "revision": "8d21cd3ff68af87ac53af6f269de9f0b223b26030d996fa8d19ef6429c3b2361"
+      },
+      "backup": "backups/admin/2026-09-21T23-12-57.285Z-53925d26-82ff-4c67-9a07-34decc5e4d13"
+    },
+    {
+      "at": "2026-09-21T23:15:46.018Z",
+      "previous_revision": "89ebef08cfe1df4d10aa7e999e2ba8baf153ff345ff6ae489cdccc8a3d3bc8dc",
+      "save": {
+        "changed": 1,
+        "revision": "008453a823feee0cb1634059395257ee0a470878e51c19375a1d1a946f894149"
+      },
+      "backup": "backups/admin/2026-09-21T23-15-46.128Z-84272220-8087-4abe-a764-3ba057c130fd"
+    },
+    {
+      "at": "2026-09-21T23:15:46.795Z",
+      "previous_revision": "008453a823feee0cb1634059395257ee0a470878e51c19375a1d1a946f894149",
+      "save": {
+        "changed": 1,
+        "revision": "62fc92037b7817ceb469c2ca1ddfb42e5fc7d261c44aadecc18fe5ea869c3829"
+      },
+      "backup": "backups/admin/2026-09-21T23-15-46.614Z-fdb3c645-a50d-4fd8-9720-e3180f198b69",
+      "changes": {
+        "spinach": {
+          "layout": {
+            "variety_count": 5
+          },
+          "reason": "The six-row page one produced a nearly blank physical spill page despite no browser warning. Reduce to five examples, retaining summer/winter coverage; full varieties remain in master."
+        }
+      }
+    },
+    {
+      "at": "2026-09-21T23:16:44.040Z",
+      "previous_revision": "62fc92037b7817ceb469c2ca1ddfb42e5fc7d261c44aadecc18fe5ea869c3829",
+      "save": {
+        "changed": 1,
+        "revision": "3f052797d0716ae55857d0fc7b4868f2cf781d382a45fc5cc71e601dcd0df445"
+      },
+      "backup": "backups/admin/2026-09-21T23-16-43.857Z-89e3c92d-5c04-4fae-b763-d8931f2231ec",
+      "changes": {
+        "pea": {
+          "sections": {
+            "soil_facts": [
+              {
+                "text": "Use compost-enriched, moisture-retentive but well-drained soil. Avoid cold, waterlogged ground and heavy nitrogen feeding.",
+                "rank": 8
+              }
+            ],
+            "sowing_notes": [
+              {
+                "text": "Hardy round-seeded peas can overwinter from protected November sowings in mild areas. Later sowings face more heat, mildew and moths.",
+                "rank": 8
+              }
+            ],
+            "final_tips": [
+              {
+                "text": "Start early crops under cover and sow short rows in succession for manageable pickings.",
+                "rank": 8,
+                "icon": "sow"
+              },
+              {
+                "text": "Pick frequently: pods left to mature can slow further cropping.",
+                "rank": 8,
+                "icon": "harvest"
+              }
+            ]
+          },
+          "reason": "Measured left column, not the ten-row pest table, limits page two. Remove duplicated module-clump advice already in approved planting caption, move early protected sowing to Final Tips and combine soil preparation. Retain autumn route and all ten distinct pests; detailed pH remains in master."
+        }
+      }
+    },
+    {
+      "at": "2026-09-21T23:19:03.310Z",
+      "previous_revision": "c7d862d392556cc79288c7d5a1d1b8679d87ba47c628442b9b1ea4f3fdb23275",
+      "save": {
+        "changed": 3,
+        "revision": "4488cfe5a883f13dc33f5d3f7bedadb67eadd025a7bb3fa7b5f63b0e5c7d285e"
+      },
+      "backup": "backups/admin/2026-09-21T23-19-03.117Z-77307cef-1970-4348-902e-a3a18bbfd572",
+      "kind": "measurement"
+    }
+  ],
+  "revision": "4488cfe5a883f13dc33f5d3f7bedadb67eadd025a7bb3fa7b5f63b0e5c7d285e",
+  "selected": {
+    "beet_leaf": [
+      "Slugs",
+      "Downy Mildew",
+      "Manganese Deficiency",
+      "Leaf Spot"
+    ],
+    "spinach": [
+      "BOLTING",
+      "MOULD OR DOWNY MILDEW",
+      "MANGANESE DEFICIENCY",
+      "NEW ZEALAND SPINACH FROST",
+      "Leaf Spot",
+      "Spinach Blight"
+    ],
+    "pea": [
+      "PEA MOTH / CATERPILLARS",
+      "MILDEW",
+      "BIRDS",
+      "MICE",
+      "SLUGS",
+      "PEA AND BEAN WEEVIL",
+      "PEA THRIPS",
+      "Pea Aphid",
+      "Downy Mildew",
+      "Foot Rot and Root Rot"
+    ]
+  },
+  "coverage": {
+    "beet_leaf": "Three applicable shared/inline conditions plus slugs explicitly mentioned in the crop source. Copied true-spinach bolting is excluded by host scope; spinach blight and New Zealand frost do not apply. All four variety entries retained. Soil combines fertility, drainage and climate; care keeps thinning, moisture, flowering and repeat harvest. Notes distinguish chard and spinach-beet routes. Original master prose preserved; copied host scope logged for normalisation.",
+    "spinach": "Six distinct conditions: four inline rows plus leaf spot and spinach blight, with mildew aliases merged and New Zealand frost explicitly scoped. Introduction separates true spinach from its tender summer substitute. Soil/care retain season, fertility, moisture, pH and winter protection. Harvest preserves outer/centre and winter/NZ distinctions. Complete notes retain wet-winter and NZ station routes alongside approved true-spinach captions. No nutrition claims added; full source remains available.",
+    "pea": "Ten distinct useful pea problems selected by crop relevance: seven inline plus pea aphid, downy mildew and root rot. Powdery-mildew aliases combined; bean-specific fly/aphid/chocolate spot excluded. Less prominent seed beetle, marsh spot, wilt, anthracnose/leaf-pod spot and ambiguous halo-blight/no-pods shared advice remain in master for later review, not displaced at first overflow. Household-soap thrips prescription replaced with reviewed shared organic advice and RHS non-chemical principles. Soil/care/harvest retain support, moisture, shell/mangetout/snap, shoots and drying. Notes preserve early protected, clump and mild-autumn routes alongside approved captions. Variety aliases and unit-only summaries logged, not normalised. Initial physical PDF spilled and clipped with ten long rows. Condensed all ten signs/controls and coordinated soil/care/harvest/notes; no pest row removed."
+  },
+  "exceptions": [],
+  "status": "checked-review-proofs"
+}

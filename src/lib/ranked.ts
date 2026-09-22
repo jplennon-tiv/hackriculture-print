@@ -1,11 +1,13 @@
 import type { RankedText } from "../types";
+import { isMeasurementPair, pickMeasurement, DEFAULT_UNIT_SYSTEM, type UnitSystem } from './measure';
 
 /** Extract display text from a `RankedText` object, plain string, or unknown. */
-export function rt(v: unknown): string {
+export function rt(v: unknown, system: UnitSystem = DEFAULT_UNIT_SYSTEM): string {
     if (!v) return "";
     if (typeof v === "string") return v;
+    if (isMeasurementPair(v)) return pickMeasurement(v, system) ?? '';
     if (typeof v === "object" && "text" in (v as object))
-        return (v as { text: string }).text;
+        return pickMeasurement((v as { text: unknown }).text, system) ?? '';
     return "";
 }
 
@@ -35,7 +37,7 @@ export function isRankedText(v: unknown): v is RankedText {
         v !== null &&
         "text" in v &&
         "rank" in v &&
-        typeof (v as RankedText).text === "string" &&
+        (typeof (v as RankedText).text === "string" || isMeasurementPair((v as RankedText).text)) &&
         typeof (v as RankedText).rank === "number"
     );
 }

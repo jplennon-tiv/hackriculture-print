@@ -46,6 +46,9 @@ it("admin saves and image mutations use shared data and preserve each previous v
         expect(readFileSync(carrotPath, "utf8")).toBe(original);
         expect(existsSync(join(shared, "backups/admin"))).toBe(false);
         data.vegetables.carrot.metadata.shared_data_test = "round one";
+        data.vegetables.carrot.sowing_and_planting.notes[0].text = {metric:'Allow 10 cm.',imperial:'Allow 4 in.'};
+        data.vegetables.carrot.sowing_and_planting.notes[0].short_text = {metric:'10 cm apart.',imperial:'4 in. apart.'};
+        data.vegetables.carrot.sowing_and_planting.method = {metric:'Sow 1 cm deep.',imperial:'Sow ½ in. deep.'};
         expect((await post("/save", data)).status).toBe(200);
         const first = readFileSync(carrotPath, "utf8");
         expect(JSON.parse(first).print_planting).toEqual(data.vegetables.carrot.print_planting);

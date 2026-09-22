@@ -6,8 +6,7 @@ import heroImageCropsJson from "./heroImageCrops.json";
 import type { GardeningData, TroublesData, Vegetable } from "../types";
 import { slugify } from "../lib/slug";
 import { rt, isStar } from "../lib/ranked";
-import { toStr } from "../lib/varietyKeyed";
-import { resolveMeasurement } from "../lib/measure";
+import { resolveMeasurement, isMeasurementPair } from "../lib/measure";
 import type { UnitSystem } from "../lib/measure";
 import { CORE_NEED_DEFS } from "../components/CoreNeeds";
 import { MONTH_INITIALS, expandMonths, formatMonthRange } from "../lib/months";
@@ -475,7 +474,7 @@ const VARIETY_TYPE_LABELS: Record<string, string> = {
     additional_flavour_notes: "",
 };
 
-function flattenVarieties(varieties: Record<string, unknown>): VarietyEntry[] {
+function flattenVarieties(varieties: Record<string, unknown>, system: UnitSystem): VarietyEntry[] {
     const result: VarietyEntry[] = [];
     // Keys that indicate a garlic-style metadata group (outer key = variety name)
     const META_KEYS = new Set([
@@ -501,16 +500,14 @@ function flattenVarieties(varieties: Record<string, unknown>): VarietyEntry[] {
             continue;
         const obj = val as Record<string, unknown>;
 
-        if ("text" in obj && typeof obj.text === "string") {
+        if (typeof obj.text === 'string' || isMeasurementPair(obj.text)) {
             // Flat variety entry
             result.push({
                 type: "",
                 name: key,
-                text: obj.text,
+                text: rt(obj, system),
                 short_text:
-                    typeof obj.short_text === "string"
-                        ? obj.short_text
-                        : undefined,
+                    rt(obj.short_text, system) || undefined,
                 rank: typeof obj.rank === "number" ? obj.rank : 5,
             });
         } else {
@@ -561,15 +558,13 @@ function flattenVarieties(varieties: Record<string, unknown>): VarietyEntry[] {
                 if (typeof varVal !== "object" || varVal === null) continue;
                 const varObj = varVal as Record<string, unknown>;
 
-                if ("text" in varObj && typeof varObj.text === "string") {
+                if (typeof varObj.text === 'string' || isMeasurementPair(varObj.text)) {
                     result.push({
                         type: displayType,
                         name: varKey,
-                        text: varObj.text,
+                        text: rt(varObj, system),
                         short_text:
-                            typeof varObj.short_text === "string"
-                                ? varObj.short_text
-                                : undefined,
+                            rt(varObj.short_text, system) || undefined,
                         rank: typeof varObj.rank === "number" ? varObj.rank : 5,
                     });
                 }
@@ -627,7 +622,7 @@ function VegetablePrintSheet({
     const rawVarieties = veg.varieties;
     const allVarietyEntries: VarietyEntry[] =
         rawVarieties && typeof rawVarieties === "object"
-            ? flattenVarieties(rawVarieties as Record<string, unknown>)
+            ? flattenVarieties(rawVarieties as Record<string, unknown>, system)
             : [];
     const varietyPool = (() => {
         const sorted = [...allVarietyEntries].sort((a, b) => b.rank - a.rank);
@@ -659,6 +654,7 @@ function VegetablePrintSheet({
                 .map(slot=>`${slot}: automatic fallback selection; prepare a coordinated editorial extract before approval.`)],
         saved.layout?.intro_sentences,
         saved.layout?.variety_count,
+        saved.layout?.fill_bottoms,
     );
     const keyRisksCount = 4;
 
@@ -713,7 +709,7 @@ function VegetablePrintSheet({
     const sowingDepth =
         resolveMeasurement(sowing?.sowing_depth, system) ??
         resolveMeasurement(sowing?.planting_depth, system);
-    const sowingMethodFull = toStr(sowing?.method);
+    const sowingMethodFull = rt(sowing?.method, system);
     // Prose is truncated by sentence as p2TrimLevel rises — biggest lever for long-sowing overflow.
     const sowingMethod = sowingMethodFull
         ? firstNSentences(sowingMethodFull, Math.max(2, 5 - p2TrimLevel))
@@ -838,7 +834,7 @@ function VegetablePrintSheet({
         if (rankedTroubleEntries.length > 0) {
             return [...rankedTroubleEntries]
                 .sort((a, b) => rankVal(b[1]) - rankVal(a[1]))
-                .map(([k, v]) => ({ name: k, text: rt(v) }));
+                .map(([k, v]) => ({ name: k, text: rt(v, system) }));
         }
         // Fall back to troubles_detail groups from troubles.json
         const detailKeys = veg.troubles_detail;
@@ -928,10 +924,10 @@ function VegetablePrintSheet({
         if (!item) return "";
         if (typeof item === "object" && item !== null) {
             const obj = item as Record<string, unknown>;
-            if (typeof obj.short_text === "string" && obj.short_text)
-                return obj.short_text;
+            const short = rt(obj.short_text, system);
+            if (short) return short;
         }
-        return rt(item);
+        return rt(item, system);
     };
 
     const StepList = ({
@@ -1013,7 +1009,7 @@ function VegetablePrintSheet({
     ) : null;
 
     const tipsPosition=saved.layout?.tips_position??'full-width';
-    const finalTips=tipItems.length>0&&<div className={styles.cheatFinalTips} data-final-tips-position={tipsPosition} data-fill={(tipsPosition!=='full-width'&&saved.layout?.align_bottoms)||undefined}>
+    const finalTips=tipItems.length>0&&<div className={styles.cheatFinalTips} data-final-tips-position={tipsPosition} data-tips-columns={tipsPosition==='full-width'?saved.layout?.tips_columns:undefined} data-fill={(tipsPosition!=='full-width'&&saved.layout?.align_bottoms)||undefined}>
         <div className={styles.cheatFinalTipsHd}>FINAL TIPS</div>
         <div className={styles.cheatFinalTipsGrid}>{tipItems.map((tip,i)=><div key={i} className={styles.cheatFinalTipItem}>
             {pickFinalTipIcon(tip,itemText(tip),i,curated.values.final_tips!==undefined) && <img src={pickFinalTipIcon(tip,itemText(tip),i,curated.values.final_tips!==undefined)} alt="" className={styles.cheatFinalTipIcon}/>}
@@ -1610,8 +1606,8 @@ function VegetablePrintSheet({
                                 veg.key_notes.length > 0
                                     ? (veg.key_notes as KN[])
                                     : keyNotes.map((item) => ({
-                                          title: firstSentence(rt(item)),
-                                          body: rt(item),
+                                          title: firstSentence(rt(item, system)),
+                                          body: rt(item, system),
                                       }));
 
                             if (rawNotes.length === 0) return null;
@@ -1819,7 +1815,7 @@ function VegetablePrintSheet({
                                             >;
                                             const signs =
                                                 (obj.signs as string) ||
-                                                rt(v).split(".")[0] + ".";
+                                                rt(v, system).split(".")[0] + ".";
                                             const control =
                                                 (obj.control as string) || "";
                                             return (
