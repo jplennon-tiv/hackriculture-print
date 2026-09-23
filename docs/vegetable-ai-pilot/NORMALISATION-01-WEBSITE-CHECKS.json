@@ -1,0 +1,27 @@
+[
+  {
+    "guide": "peas",
+    "key": "pea",
+    "measurement_bindings": [],
+    "all_bound_values_unchanged": true
+  },
+  {
+    "guide": "french-beans",
+    "key": "bean_french",
+    "measurement_bindings": [
+      "sowing_and_planting.sowing_depth",
+      "sowing_and_planting.plant_spacing"
+    ],
+    "all_bound_values_unchanged": true
+  },
+  {
+    "guide": "carrots",
+    "key": "carrot",
+    "measurement_bindings": [
+      "sowing_and_planting.sowing_depth",
+      "sowing_and_planting.plant_spacing",
+      "sowing_and_planting.row_spacing"
+    ],
+    "all_bound_values_unchanged": true
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "at": "2026-09-22T23:16:15.374078+00:00",
+  "keys": [
+    "florence_fennel",
+    "garlic",
+    "kale",
+    "kohl_rabi"
+  ],
+  "units": [
+    "metric",
+    "imperial"
+  ],
+  "pages_inspected": 16,
+  "method": "All 16 Poppler-rendered pages inspected in four both-unit contact sheets by AI:gpt-6-astra; final fennel and garlic reinspected after risk-reference corrections.",
+  "result": "Eight individual two-page A4 PDFs. Fonts/images ready, no warnings, positive bottom clearance, aligned columns. All selected problems crop-applicable. Existing speech-bubble overlap deferred; approved spacing/fonts/art unchanged.",
+  "pest_selection_audit": {
+    "florence_fennel": "All four distinct crop-local issues print. Removed shared reference duplicating bolting and drought.",
+    "garlic": "All six crop-local issues print. Removed shared reference duplicating white rot and injecting onion bolting.",
+    "kale": "Eight useful distinct higher-ranked issues print: caterpillars, club root, whitefly, aphids, pigeons, slugs, root fly and flea beetle. Lower-ranked seedling diseases, nutrient deficiencies, minor insects and weather risks remain fully reviewed in master; omitted from the compact table because selected problems are more broadly useful. Removed wrong-host cauliflower boron entry, not counted as useful omission.",
+    "kohl_rabi": "Eight distinct higher-ranked issues print, prioritising woodiness and common brassica damage. Whitefly, seedling diseases, deficiencies and uncommon insects retain reviewed organic controls in master; lower priority for this quick-growing crop than selected rows. Removed wrong-host cauliflower boron entry."
+  },
+  "artifacts": [
+    "tmp/normalisation-overnight-05/qa/florence_fennel-sheet.png",
+    "tmp/normalisation-overnight-05/qa/garlic-sheet.png",
+    "tmp/normalisation-overnight-05/qa/kale-sheet.png",
+    "tmp/normalisation-overnight-05/qa/kohl_rabi-sheet.png"
+  ]
+}

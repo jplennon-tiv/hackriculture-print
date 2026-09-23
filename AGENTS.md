@@ -1,5 +1,18 @@
 # Coding rules
 
+John's editorial clarification (22 September): state the practical organic
+control directly and move on. Do not mention chemical alternatives merely to
+dismiss them or add ideological commentary. Preserve useful diagnostic or
+safety information; this is a rule about unnecessary reader-facing comparisons.
+
+John’s normalisation rules (22 September): check meaning as well as schema—
+import headings are not crop types; inspect duplicate identities, misplaced
+crop advice, contradictory fields and suspicious keys/prose. Preserve uncertain
+material and record it for review. Round practical gardening dimensions to easy
+numbers where useful (approximately 10–15% either way is acceptable), retaining
+coherent metric/imperial pairs and growing context. Do not mechanically apply a
+percentage rule to temperatures, pH, treatment quantities or biological limits.
+
 - John's standing preference (21 September): organic control methods only.
   He authorises researched replacements of chemical pest/disease prescriptions
   in the canonical master, with exact prior-byte backups and honest AI attribution.
@@ -29,3 +42,11 @@ useful whitespace filling third; full-width Final Tips remains the default.
 - Planting rollout exception, explicitly requested by John on 17 September: prioritise speed and produce all crop review PDFs with basic readiness/source checks and a small PDF spot-check only. Do not repeat full suites, cross-project builds or exhaustive both-unit visual comparisons for routine crop additions. Record layout/page-count issues for later polish rather than withholding previews. Broader renderer/data-contract changes still warrant focused tests. Preserve granular text, user edits and existing padding; keep restore points. Review output is not permission to deploy publicly. See the current policy at the top of planting PROGRESS.md.
 - Known overflow, missing images and mixed-unit prose are not permission to expand scope. Distinguish existing limitations from new regressions. Do not upgrade dependencies or resize artwork without a task-related reason.
 - Maintain current working docs when architecture, data contracts or accepted design changes. Record checks actually run and material limitations; do not accumulate session transcripts or claims about servers still running.
+
+John’s follow-up (22 September): resolve normalisation questions through RHS-first
+research, then primary seed-producer or horticultural sources. Correct likely
+name errors; record editorial inference separately from confirmed aliases, and
+retain genuinely distinct selections. Simplify conflicting spacing to mainstream
+advice. Remove unsupported claims rather than inventing replacements. Use a short
+decision summary; full diffs are optional. Batch-02 outputs will be reviewed later.
+Website/video work is excluded from this follow-up.

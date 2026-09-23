@@ -1,0 +1,18 @@
+{
+  "status": "reviewed",
+  "reviewer": "AI:gpt-6-astra",
+  "crops": [
+    "asparagus",
+    "cucumber_outdoor",
+    "tomato_greenhouse",
+    "carrot",
+    "cauliflower"
+  ],
+  "units": [
+    "metric",
+    "imperial"
+  ],
+  "pages_reviewed": 20,
+  "findings": "Reviewed both pages of all ten actual PDFs. New planting descriptions and measurement rows remain readable and inside their cards; no overflow or missing artwork. Unchanged control crops fit. Approved design preserved; previously deferred speech-bubble work remains out of scope.",
+  "tests": "74 focused planting tests and 247 full tests passed; production build passed (existing chunk-size warning)."
+}

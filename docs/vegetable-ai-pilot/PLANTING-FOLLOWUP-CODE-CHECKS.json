@@ -1,0 +1,16 @@
+{
+  "at": "2026-09-23T13:59:05.359Z",
+  "reason": "Only three crop-specific measurement declarations changed; other crop declarations and shared code byte-identical. Historical PDF evidence retained for unaffected crops.",
+  "affected_crops": [
+    "asparagus",
+    "cucumber_outdoor",
+    "tomato_greenhouse"
+  ],
+  "unaffected_crop_config_and_shared_code_identical": true,
+  "files": {
+    "src/print/plantingIllustrations.ts": {
+      "previous": "b90ae468984edce5c853271bb8b5f480e7564084282fe7dd55d782160da49898",
+      "current": "ba2181c6ca7d47ddf13aeb6463b546d981b613105065d322b2fdcd0a15dde4cb"
+    }
+  }
+}

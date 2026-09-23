@@ -11,18 +11,21 @@ if(Number(process.versions.node.split('.')[0])<24){
 }
 const printRoot=fileURLToPath(new URL('../../',import.meta.url));
 const sharedRoot=path.resolve(printRoot,'../hackriculture-data');
-const expectedRevision='ef74442574b8150b3fc3ae3ce5cab7660b979af7bbe0b67f2d3083b1a45a12cd';
-const approved=["artichoke_globe","artichoke_jerusalem","asparagus","aubergine","bean_broad","bean_french","bean_runner","beet_leaf","beetroot","broccoli","brussels_sprouts","cabbage","capsicum","carrot","cauliflower","celeriac","celery","chicory","cucumber_greenhouse","cucumber_outdoor","endive","florence_fennel","garlic","kale","kohl_rabi","leek","lettuce","marrow_courgette","mushroom","onion_shallot","oriental_leaves","parsnip","pea","potato","radish","rhubarb","salsify_scorzonera","spinach","squash_pumpkin","swede","sweet_corn","tomato_greenhouse","tomato_outdoor","turnip"];
+const expectedRevision='ccb092e2411d346bca48b71bc6bd0dc37ed34e1d0562622459adc1cb53c79b93';
+const normalisationDrafts=[];
+const acceptedNormalisation=['NORMALISATION-FRAMING-41-APPROVED.json','NORMALISATION-PLANTING-APPROVED.json'].flatMap(file=>JSON.parse(fs.readFileSync(path.join(sharedRoot,'planning',file))).keys);
+const approved=["artichoke_globe","artichoke_jerusalem","asparagus","aubergine","bean_broad","bean_french","bean_runner","beet_leaf","beetroot","broccoli","brussels_sprouts","cabbage","capsicum","carrot","cauliflower","celeriac","celery","chicory","cucumber_greenhouse","cucumber_outdoor","endive","florence_fennel","garlic","kale","kohl_rabi","leek","lettuce","marrow_courgette","mushroom","onion_shallot","oriental_leaves","parsnip","pea","potato","radish","rhubarb","salsify_scorzonera","spinach","squash_pumpkin","swede","sweet_corn","tomato_greenhouse","tomato_outdoor","turnip"].filter(key=>!normalisationDrafts.includes(key));
 const overnightRestores=fs.readdirSync(path.join(printRoot,'docs/vegetable-ai-pilot')).filter(f=>/^overnight-\d\d-restore\.json$/.test(f)).map(f=>JSON.parse(fs.readFileSync(path.join(printRoot,'docs/vegetable-ai-pilot',f))));
 const verifiedOvernight=overnightRestores.filter(r=>['checked-review-proofs','review-proofs-with-exceptions'].includes(r.status));
 const overnightKeys=verifiedOvernight.flatMap(r=>Object.keys(r.selected));
-const reviewDrafts=['kale',...overnightKeys].filter(key=>!approved.includes(key));
+const reviewDrafts=[...new Set([...normalisationDrafts,'kale',...overnightKeys])].filter(key=>!approved.includes(key));
 // Kale's accepted source and planting review were refreshed at final sign-off.
 const pendingSourceReview={};
 // Accepted documented exception: mushroom has no sowing_and_planting source; do not
 // invent a source field or change the approved renderer to hide this warning.
 const knownPrintWarnings={mushroom:['sowing_notes: automatic fallback selection; prepare a coordinated editorial extract before approval.']};
 const issues=[],notes=[];
+const plantingCheck=JSON.parse(fs.readFileSync(path.join(printRoot,'docs/vegetable-ai-pilot/PLANTING-FOLLOWUP-CODE-CHECKS.json')));
 // Exact checked v4→v5 transition; never rewrite historical approval evidence.
 const unitProseCheck=JSON.parse(fs.readFileSync(path.join(printRoot,'docs/vegetable-ai-pilot/UNIT-PROSE-CHECKS.json')));
 const fillCheckPath=path.join(printRoot,'docs/vegetable-ai-pilot/PAGE-FILL-CODE-CHECKS.json');
@@ -33,9 +36,9 @@ for(const [file,hashes] of Object.entries(unitProseCheck.files)){
  const p=path.join(printRoot,file);
  const transition=fillCheck?.files[file];
  if(transition&&transition.previous!==hashes.current)issues.push(`Page-fill transition baseline differs: ${file}`);
- if(!fs.existsSync(p)||createHash('sha256').update(fs.readFileSync(p)).digest('hex')!==(transition?.current??hashes.current))issues.push(`Checked renderer file differs: ${file}`);
+ if(!fs.existsSync(p)||createHash('sha256').update(fs.readFileSync(p)).digest('hex')!==(plantingCheck.files[file]?.current??transition?.current??hashes.current))issues.push(`Checked renderer file differs: ${file}`);
 }
-for(const[file,hashes]of Object.entries(fillCheck?.files??{}))if(!unitProseCheck.files[file]&&createHash('sha256').update(fs.readFileSync(path.join(printRoot,file))).digest('hex')!==hashes.current)issues.push(`Page-fill file differs: ${file}`);
+for(const[file,hashes]of Object.entries(fillCheck?.files??{}))if(!unitProseCheck.files[file]&&createHash('sha256').update(fs.readFileSync(path.join(printRoot,file))).digest('hex')!==(plantingCheck.files[file]?.current??hashes.current))issues.push(`Page-fill file differs: ${file}`);
 try{
  const {readCollection,revision}=await import('../../../hackriculture-data/lib/records.mjs');
  const {resolveVegetableExtracts,resolveVegetablePrintLayout,printChecksum,VEGETABLE_PRINT_REVISION}=await import('../../src/lib/vegetablePrint.ts');
@@ -62,14 +65,15 @@ try{
    const checked=unitProseCheck.files[file];
    const priorCompatible=plan.renderer_revision===unitProseCheck.compatible_previous_revision&&checked?.previous===hash;
    const fillCompatible=!plan.value.fill_bottoms&&!plan.value.tips_columns&&fillCheck?.files[file]?.current===actual&&(fillCheck.files[file].previous===hash||priorCompatible);
-   if(actual!==hash&&!fillCompatible&&!(priorCompatible&&checked?.current===actual))issues.push(`${key}: measured renderer file differs: ${file}`);
+   const plantingCompatible=!plantingCheck.affected_crops.includes(key)&&plantingCheck.unaffected_crop_config_and_shared_code_identical&&plantingCheck.files[file]?.previous===hash&&plantingCheck.files[file]?.current===actual;
+   if(actual!==hash&&!plantingCompatible&&!fillCompatible&&!(priorCompatible&&checked?.current===actual))issues.push(`${key}: measured renderer file differs: ${file}`);
   }
   if(evidence.results.length!==2||!['metric','imperial'].every(u=>evidence.results.some(r=>r.units===u)))issues.push(`${key}: both-unit evidence missing`);
   for(const r of evidence.results){
    for(const w of r.warnings??[])(knownPrintWarnings[key]?.includes(w)?notes:issues).push(`${key}/${r.units}: ${w}`);
    if(r.pages!==2||r.error||r.missing?.length||r.alignment?.some(a=>a.column_bottom_gap_px>1))issues.push(`${key}/${r.units}: saved measurements need review`);
   }
-  if(key==='kale'||overnightKeys.includes(key)){
+  if(normalisationDrafts.includes(key)||acceptedNormalisation.includes(key)||key==='kale'||overnightKeys.includes(key)){
    const record=verifiedOvernight.find(r=>Object.hasOwn(r.selected,key));
    for(const result of evidence.results){
     if(result.layout_checksum!==plan.output_checksum||result.source_checksum!==printChecksum(plan.dependencies))issues.push(`${key}/${result.units}: overnight measurement checksum differs`);
@@ -77,7 +81,7 @@ try{
     const pdf=path.join(printRoot,result.path??filled?.path??`tmp/pdfs/${record.label}/${key}-${result.units}.pdf`);
     if(!fs.existsSync(pdf)||createHash('sha256').update(fs.readFileSync(pdf)).digest('hex')!==result.pdf_sha256)issues.push(`${key}/${result.units}: overnight PDF missing or changed`);
    }
-   if(allowDrafts)notes.push(`${key}: checked draft only; editorial/visual exceptions remain in OVERNIGHT-PROGRESS.md.`);
+   if(allowDrafts)notes.push(`${key}: researched normalisation draft; John will review output later. See shared planning/NORMALISATION-PLANTING-REVIEW.html.`);
   }
  }
  const backups=fs.existsSync(path.join(sharedRoot,'backups/admin'))?fs.readdirSync(path.join(sharedRoot,'backups/admin'),{withFileTypes:true}).filter(x=>x.isDirectory()).map(x=>x.name).sort():[];

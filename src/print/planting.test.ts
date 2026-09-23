@@ -15,15 +15,12 @@ describe('additive, source-bound planting content',()=>{
     it.each(Object.keys(plantingLayouts))('%s has valid reviewed content and original detail',key=>{
         const veg=data[key];
         expect(PlantingPrintContentSchema.safeParse(veg.print_planting).success).toBe(true);
-        const pendingKaleReview=key==='kale'&&veg.ai_print_layout?.status==='draft';
-        if(pendingKaleReview)expect(plantingReviewIssue(veg)).toMatch(/source advice has changed/);
-        else expect(plantingReviewIssue(veg)).toBeNull();
+        expect(plantingReviewIssue(veg)).toBeNull();
         if(key==='mushroom')expect(veg.looking_after_the_crop?.length).toBeGreaterThan(0);
         else expect(rt(veg.sowing_and_planting?.method).length).toBeGreaterThan(20);
         for(const unit of ['metric','imperial'] as const){
             const result=resolvePlanting(veg,key,unit)!;
-            if(pendingKaleReview)expect(result.issue).toMatch(/source advice has changed/);
-            else expect(result.issue).toBeNull();
+            expect(result.issue).toBeNull();
             for(const m of result.measurements)expect(m.value.length).toBeGreaterThan(0);
             for(const step of result.steps)expect(existsSync(resolve(import.meta.dirname,'../../public',step.image.slice(1)))).toBe(true);
         }
@@ -58,11 +55,11 @@ describe('additive, source-bound planting content',()=>{
     });
     it('keeps potato varieties and leek seed/hole depths separate',()=>{
         const potato=resolvePlanting(data.potato,'potato','metric')!;
-        expect(potato.measurements.find(m=>m.label==='First-early rows')!.value).toBe('60 cm');
-        expect(potato.measurements.find(m=>m.label==='Maincrop rows')!.value).toBe('75 cm');
+        expect(potato.measurements.find(m=>m.label==='First-early rows')!.value).toBe('60 cm between rows');
+        expect(potato.measurements.find(m=>m.label==='Maincrop rows')!.value).toBe('75 cm between rows');
         const leek=resolvePlanting(data.leek,'leek','metric')!;
-        expect(leek.measurements.find(m=>m.label==='Seed depth')!.value).toBe('1.3 cm');
-        expect(leek.measurements.find(m=>m.label==='Transplant hole')!.value).toContain('13-15 cm');
+        expect(leek.measurements.find(m=>m.label==='Seed depth')!.value).toBe('1.5 cm');
+        expect(leek.measurements.find(m=>m.label==='Transplant hole')!.value).toContain('15 cm');
         expect(leek.steps).toHaveLength(2);
         expect(leek.steps[0].text).toContain('dibbed hole');
         expect(data.leek.print_planting!.steps).toHaveLength(3);
@@ -89,7 +86,7 @@ describe('additive, source-bound planting content',()=>{
         expect(r.measurements.find(m=>m.label==='Oriental plants')!.value).toBe('Oriental test spacing');
         expect(r.measurements.find(m=>m.label==='Winter plants')!.value).toContain('15-20');
         const t=resolvePlanting(data.turnip,'turnip','metric')!;
-        expect(t.measurements.find(m=>m.label==='Maincrop plants')!.value).toContain('23 cm');
+        expect(t.measurements.find(m=>m.label==='Maincrop plants')!.value).toContain('25 cm');
         expect(t.measurements.find(m=>m.label==='Baby / early plants')!.value).toContain('10 cm');
         expect(t.measurements.find(m=>m.label==='Leaf-only plants')!.value).toContain('Heavy thinning is not usually needed');
     });
@@ -101,10 +98,10 @@ describe('additive, source-bound planting content',()=>{
         (changed.sowing_and_planting!.seed_sowing as Record<string,unknown>).method='Changed sowing method';
         expect(plantingReviewIssue(changed)).toMatch(/changed/);
         const spinach=resolvePlanting(data.spinach,'spinach','metric')!;
-        expect(spinach.measurements.find(m=>m.label==='Rows')!.value).toBe('20 cm for true spinach');
-        expect(spinach.measurements.find(m=>m.label==='Final plants')!.value).toContain('7.5 cm');
+        expect(spinach.measurements.find(m=>m.label==='Rows')!.value).toBe('Between rows: 20 cm for true spinach');
+        expect(spinach.measurements.find(m=>m.label==='Final plants')!.value).toContain('8 cm');
         expect(spinach.measurements.find(m=>m.label==='Final plants')!.value).toContain('15 cm');
-        expect(spinach.measurements.find(m=>m.label.includes('New Zealand'))!.value).toContain('1.2 m');
+        expect(spinach.measurements.find(m=>m.label.includes('New Zealand'))!.value).toContain('90–120 cm');
         const salsify=resolvePlanting(data.salsify_scorzonera,'salsify_scorzonera','metric')!;
         expect(salsify.measurements.every(m=>m.value.includes('scorzonera: follow'))).toBe(true);
     });
@@ -115,7 +112,7 @@ describe('additive, source-bound planting content',()=>{
             expect(result.measurements.find(m=>m.label==='Final spacing')!.path).toBe('sowing_and_planting.plant_spacing');
         }
         const broccoli=resolvePlanting(data.broccoli,'broccoli','metric')!;
-        expect(broccoli.measurements.find(m=>m.label==='Transplant depth')!.value).toContain('2.5 cm deeper');
+        expect(broccoli.measurements.find(m=>m.label==='Transplant depth')!.value).toContain('lowest leaves at soil level');
         expect(broccoli.steps[0].image).toContain('v2.png');
         expect(resolvePlanting(data.kohl_rabi,'kohl_rabi','metric')!.steps[0].image).toContain('v2.png');
     });
@@ -128,7 +125,7 @@ describe('additive, source-bound planting content',()=>{
         const kale=resolvePlanting(data.kale,'kale','metric')!;
         expect(kale.measurements.find(m=>m.label==='Final spacing')!.value).toContain('45 cm');
         expect(kale.measurements.find(m=>m.label==='Final rows')!.value).toContain('45–60 cm');
-        expect(rt(data.kale.sowing_and_planting!.notes![5],'metric')).toContain('deep bed');
+        expect(rt(data.kale.sowing_and_planting!.notes![5],'metric')).toContain('baby leaves');
         expect(kale.measurements.find(m=>m.label==='Transplant height')!.value).toBe('10-15 cm');
         expect(resolvePlanting(data.kale,'kale','imperial')!.measurements.find(m=>m.label==='Transplant height')!.value).toBe('4-6 in.');
         expect(kale.content.supplementary[0].text).toContain('Rape kale');
@@ -142,7 +139,7 @@ describe('additive, source-bound planting content',()=>{
         const onions=resolvePlanting(data.onion_shallot,'onion_shallot','metric')!;
         expect(onions.measurements[0].label).toBe('Seed depth (not sets)');
         expect(onions.measurements[2].value).toContain('module clumps');
-        expect(onions.measurements[2].value).toContain('shallot sets');
+        expect(onions.measurements[2].value).toContain('shallots 15–20 cm');
         expect(onions.content.supplementary[0].text).toContain('Seed route');
         const changed=copy('onion_shallot');
         (changed.sowing_and_planting!.planting as Record<string,unknown>).method='Changed set planting';
@@ -150,8 +147,8 @@ describe('additive, source-bound planting content',()=>{
     });
     it('retains leaf-crop variants, nested sowing advice and selected reuse',()=>{
         const oriental=resolvePlanting(data.oriental_leaves,'oriental_leaves','metric')!;
-        expect(oriental.measurements.find(m=>m.label==='Final plants / thinnings')!.value).toContain('3-5 cm for baby leaves');
-        expect(oriental.measurements.find(m=>m.label==='Final plants / thinnings')!.value).toContain('35 cm for Chinese cabbage hearts');
+        expect(oriental.measurements.find(m=>m.label==='Final plants / thinnings')!.value).toContain('Baby leaves 10–15 cm');
+        expect(oriental.measurements.find(m=>m.label==='Final plants / thinnings')!.value).toContain('mature pak choi or cabbage hearts 30 cm');
         const changed=copy('oriental_leaves');
         (changed.sowing_and_planting!.seed_sowing as Record<string,unknown>).method='Changed direct sowing';
         expect(plantingReviewIssue(changed)).toMatch(/changed/);
@@ -169,11 +166,11 @@ describe('additive, source-bound planting content',()=>{
     });
     it('keeps broad-bean row pairs and French-bean growing systems distinct',()=>{
         const broad=resolvePlanting(data.bean_broad,'bean_broad','metric')!;
-        expect(broad.measurements.find(m=>m.label==='Within each row pair')!.value).toContain('23 cm');
-        expect(broad.measurements.find(m=>m.label==='Between row pairs')!.value).toContain('61 cm');
+        expect(broad.measurements.find(m=>m.label==='Within each row pair')!.value).toContain('25 cm');
+        expect(broad.measurements.find(m=>m.label==='Between row pairs')!.value).toContain('60 cm');
         const french=resolvePlanting(data.bean_french,'bean_french','metric')!;
-        expect(french.measurements.find(m=>m.label==='Close-spaced dwarf rows: plants')!.value).toBe('10 cm');
-        expect(french.measurements.find(m=>m.label==='Dwarf blocks: plants')!.value).toBe('15 cm');
+        expect(french.measurements.find(m=>m.label==='Close-spaced dwarf rows: plants')!.value).toBe('10 cm between plants');
+        expect(french.measurements.find(m=>m.label==='Dwarf blocks: plants')!.value).toBe('15 cm each way');
         expect(french.measurements.find(m=>m.label==='Climbing supports')!.value).toContain('one plant per cane');
         const changed=copy('bean_french');
         (changed.sowing_and_planting as Record<string,unknown>).climbing_support_spacing={metric:'Changed spacing',imperial:'Changed imperial'};
@@ -186,7 +183,7 @@ describe('additive, source-bound planting content',()=>{
         expect(corn.steps).toHaveLength(2);
         expect(corn.steps[0].text).toContain('Sow in warm pots or modules');
         expect(corn.steps[0].text).toContain('intact rootball');
-        expect(corn.steps[1].text).toContain('four or more');
+        expect(corn.steps[1].text).toContain('four short rows');
         expect(corn.steps[1].image).toContain('make-block-v4.png');
         expect(corn.measurements.at(-1)!.value).toContain('baby corn');
         const changed=copy('sweet_corn');
@@ -215,10 +212,10 @@ describe('bounded planting-only fitting',()=>{
     it('separates cucumber growing systems and squash cultivar spacing',()=>{
         const greenhouse=resolvePlanting(data.cucumber_greenhouse,'cucumber_greenhouse','metric')!;
         expect(greenhouse.measurements.some(m=>m.path.endsWith('row_spacing'))).toBe(false);
-        expect(greenhouse.measurements.find(m=>m.label==='Pots / bags / mounds')!.value).toContain('growing bag');
+        expect(greenhouse.measurements.find(m=>m.label==='Pots / bags / mounds')!.value).toContain('2 per growbag');
         const outdoor=resolvePlanting(data.cucumber_outdoor,'cucumber_outdoor','metric')!;
         expect(outdoor.measurements[0].label).toBe('Direct outdoor seed depth');
-        expect(outdoor.content.supplementary[0].text).toContain('June');
+        expect(outdoor.content.supplementary.find(s=>s.id==='direct')!.text).toContain('June');
         const squash=resolvePlanting(data.squash_pumpkin,'squash_pumpkin','metric')!;
         expect(squash.measurements.find(m=>m.label==='Spacing by type')!.value).toContain('giant pumpkins');
     });

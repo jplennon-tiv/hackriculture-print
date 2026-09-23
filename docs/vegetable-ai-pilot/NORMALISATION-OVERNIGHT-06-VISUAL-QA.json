@@ -1,0 +1,28 @@
+{
+  "at": "2026-09-22T23:36:10.159989+00:00",
+  "keys": [
+    "leek",
+    "marrow_courgette",
+    "squash_pumpkin",
+    "mushroom"
+  ],
+  "units": [
+    "metric",
+    "imperial"
+  ],
+  "pages_inspected": 16,
+  "method": "All 16 Poppler-rendered pages inspected in four both-unit sheets; final courgette and mushroom pages reinspected after summary consistency corrections. Squash follow-up removed empty keys only; rendered pages and geometry unchanged.",
+  "result": "Eight individual two-page A4 PDFs; fonts/images ready, positive bottom clearance and aligned columns. Mushroom retains its documented sparse-page/missing-sowing-source exception and exact known warning. Other crops have no warnings. Approved design unchanged; known bubble overlap deferred.",
+  "pest_selection_audit": {
+    "leek": "Eight common/high-impact problems selected: white rot, leaf miner, moth, rust, onion fly, bolting, eelworm and white tip. Less common smut/downy mildew/soft rot and nonspecific drooping retain reviewed advice in full master; lower usefulness for compact table. Wrong-host onion storage/set disorders removed, not counted as useful omissions.",
+    "marrow_courgette": "All seven UK-relevant source problems print. Geographically qualified North American vine borer remains in master; omitted from UK quick reference at its existing low rank.",
+    "squash_pumpkin": "All nine distinct crop-local issues print; repetitions removed and cucumber-only instructions corrected.",
+    "mushroom": "All three distinct kit problems print. No invented varieties or sowing parameters to fill sparse pages."
+  },
+  "artifacts": [
+    "tmp/normalisation-overnight-06/qa/leek-sheet.png",
+    "tmp/normalisation-overnight-06/qa/marrow_courgette-sheet.png",
+    "tmp/normalisation-overnight-06/qa/squash_pumpkin-sheet.png",
+    "tmp/normalisation-overnight-06/qa/mushroom-sheet.png"
+  ]
+}

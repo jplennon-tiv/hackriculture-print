@@ -1,0 +1,169 @@
+[
+  {
+    "guide": "beetroot",
+    "key": "beetroot",
+    "bindings": [
+      {
+        "path": "sowing_and_planting.sowing_depth",
+        "before": {
+          "imperial": "1 in.",
+          "metric": "2.5 cm"
+        },
+        "after": {
+          "imperial": "1 in.",
+          "metric": "2.5 cm"
+        },
+        "changed": false
+      },
+      {
+        "path": "sowing_and_planting.plant_spacing",
+        "before": {
+          "imperial": "4 in.",
+          "metric": "10 cm"
+        },
+        "after": {
+          "imperial": "4 in.",
+          "metric": "10 cm"
+        },
+        "changed": false
+      },
+      {
+        "path": "sowing_and_planting.row_spacing",
+        "before": {
+          "imperial": "12 in.",
+          "metric": "30 cm"
+        },
+        "after": {
+          "imperial": "12 in.",
+          "metric": "30 cm"
+        },
+        "changed": false
+      }
+    ],
+    "editorial_rewritten": false,
+    "impact": "No bound measurement changes."
+  },
+  {
+    "guide": "broad-beans",
+    "key": "bean_broad",
+    "bindings": [],
+    "editorial_rewritten": false,
+    "impact": "No bound measurement changes."
+  },
+  {
+    "guide": "lettuce",
+    "key": "lettuce",
+    "bindings": [],
+    "editorial_rewritten": false,
+    "impact": "No bound measurement changes."
+  },
+  {
+    "guide": "parsnips",
+    "key": "parsnip",
+    "bindings": [
+      {
+        "path": "sowing_and_planting.sowing_depth",
+        "before": {
+          "imperial": "about 1 in.; up to 1 1/2 in. in deep drills where conditions are suitable",
+          "metric": "about 2.5 cm; up to 4 cm in deep drills where conditions are suitable"
+        },
+        "after": {
+          "imperial": "about 1 in.; up to 1 1/2 in. in deep drills where conditions are suitable",
+          "metric": "about 2.5 cm; up to 4 cm in deep drills where conditions are suitable"
+        },
+        "changed": false
+      },
+      {
+        "path": "sowing_and_planting.plant_spacing",
+        "before": {
+          "imperial": "thin to 3-4 in. for ordinary roots; up to 10 in. for very large roots",
+          "metric": "thin to 7-10 cm for ordinary roots; up to 25 cm for very large roots"
+        },
+        "after": {
+          "imperial": "thin to 3-4 in. for smaller kitchen roots; up to 10 in. for very large roots",
+          "metric": "thin to 7.5-10 cm for smaller kitchen roots; up to 25 cm for very large roots"
+        },
+        "changed": true
+      },
+      {
+        "path": "sowing_and_planting.row_spacing",
+        "before": {
+          "imperial": "12 in.; or 3-4 rows along a 4 ft bed",
+          "metric": "30 cm; or 3-4 rows along a 1.2 m bed"
+        },
+        "after": {
+          "imperial": "12 in.; or 3-4 rows along a 4 ft bed",
+          "metric": "30 cm; or 3-4 rows along a 1.2 m bed"
+        },
+        "changed": false
+      }
+    ],
+    "editorial_rewritten": false,
+    "impact": "Bound measurements update on next website build; prose not regenerated."
+  },
+  {
+    "guide": "radishes",
+    "key": "radish",
+    "bindings": [
+      {
+        "path": "sowing_and_planting.sowing_depth",
+        "before": {
+          "imperial": "Salad radishes: 1/2 in.; winter and oriental radishes: about 3/4 in.",
+          "metric": "Salad radishes: 1 cm; winter and oriental radishes: about 2 cm."
+        },
+        "after": {
+          "imperial": "Salad radishes: 1/2 in.; winter and oriental radishes: about 3/4 in.",
+          "metric": "Salad radishes: 1 cm; winter and oriental radishes: about 2 cm."
+        },
+        "changed": false
+      },
+      {
+        "path": "sowing_and_planting.plant_spacing.small_spring_radishes",
+        "before": {
+          "imperial": "Sow or thin to 1-2 in. apart.",
+          "metric": "Sow or thin to 2.5-5 cm apart."
+        },
+        "after": {
+          "imperial": "Sow or thin to 1-2 in. apart.",
+          "metric": "Sow or thin to 2.5-5 cm apart."
+        },
+        "changed": false
+      },
+      {
+        "path": "sowing_and_planting.plant_spacing.winter_radishes",
+        "before": {
+          "imperial": "Sow or thin to 6-8 in. apart, depending on variety.",
+          "metric": "Sow or thin to 15-20 cm apart, depending on variety."
+        },
+        "after": {
+          "imperial": "Sow or thin to 6-8 in. apart, depending on variety.",
+          "metric": "Sow or thin to 15-20 cm apart, depending on variety."
+        },
+        "changed": false
+      }
+    ],
+    "editorial_rewritten": false,
+    "impact": "No bound measurement changes."
+  },
+  {
+    "guide": "runner-beans",
+    "key": "bean_runner",
+    "bindings": [],
+    "editorial_rewritten": false,
+    "impact": "No bound measurement changes."
+  },
+  {
+    "guide": "swedes",
+    "key": "swede",
+    "bindings": [],
+    "editorial_rewritten": false,
+    "impact": "No bound measurement changes."
+  },
+  {
+    "guide": "turnips",
+    "key": "turnip",
+    "bindings": [],
+    "editorial_rewritten": false,
+    "impact": "No bound measurement changes."
+  }
+]

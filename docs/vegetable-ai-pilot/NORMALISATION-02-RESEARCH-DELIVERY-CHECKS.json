@@ -1,0 +1,68 @@
+{
+  "at": "2026-09-22T21:55:53.656705+00:00",
+  "shared_revision": "1753286deed6051e86bca71420506b4168278a53917c37e8cc134eec721ee6be",
+  "scope": [
+    "bean_broad",
+    "beetroot",
+    "parsnip",
+    "turnip",
+    "swede",
+    "lettuce",
+    "bean_runner",
+    "radish"
+  ],
+  "pdf_readiness": {
+    "pdfs": 16,
+    "pages_each": 2,
+    "units": [
+      "metric",
+      "imperial"
+    ],
+    "format": "A4",
+    "warnings": [],
+    "fonts_and_images_ready": true,
+    "no_measured_overflow": true,
+    "column_bottom_alignment_within_px": 1
+  },
+  "visual_review": {
+    "crops": [
+      "bean_runner",
+      "radish",
+      "parsnip",
+      "turnip",
+      "lettuce"
+    ],
+    "units": [
+      "metric",
+      "imperial"
+    ],
+    "pages_inspected": 20,
+    "result": "No new clipping, spillover or table/border faults. Known bubble/icon text overlap remains deferred by John.",
+    "notable_checks": [
+      "Parsnip depth 1 cm / 1/2 in. and plant spacing 15 cm / 6 in. visible in Quick Facts and planting widget.",
+      "May King appears in lettuce recommended varieties.",
+      "Runner mosaic control no longer forbids ground recently containing clover.",
+      "Runner unsupported yield fact omitted rather than replaced by a guessed number."
+    ]
+  },
+  "checks": {
+    "vitest": "247 tests / 22 files passed",
+    "build": "passed; existing large-chunk warning",
+    "shared_integrity": "44 vegetables, 14 troubles, 8 groups passed",
+    "internal_semantic_checks": "unique JSON keys, unique cultivar labels, cyclic months preserved, positive organic wording passed",
+    "handover_preflight": "passed; existing mushroom missing-sowing-source exception preserved",
+    "summary_local_links": "passed",
+    "summary_visual_review": "passed"
+  },
+  "recovery_receipts": [
+    "NORMALISATION-02-RESEARCH-APPLIED.json",
+    "NORMALISATION-02-RESEARCH-FIT.json",
+    "NORMALISATION-02-RESEARCH-MEASURED.json"
+  ],
+  "boundaries": [
+    "No website/video work, deployments or shared Trouble mutations.",
+    "Other crop records unchanged.",
+    "Eight print layouts remain draft for later user output review.",
+    "This is a bounded resolution of the listed questions, not a complete catalogue fact audit."
+  ]
+}

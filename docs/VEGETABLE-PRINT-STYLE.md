@@ -27,6 +27,20 @@ not detect an underfilled sheet. Start from full useful introductory prose, then
 make measured crop-specific cuts only where needed. Do not seed every new crop
 with two/three sentences or two Final Tips and treat that as finished curation.
 
+23 September clarification: keep measurement values attached to their meaning.
+State between rows, between plants, or each way, retaining distinctions between
+nursery rows, final plants, clumps, containers and crop types. Ready In should
+identify sowing/planting/casing as its starting point and distinguish first
+harvest from the harvest season. Keep seasonal context where useful; qualify
+calendar-derived durations as approximate rather than inventing precision.
+
+John prefers fuller useful text to added padding when normalisation shortens a
+page. Reuse reviewed source descriptions and care advice, measure both units,
+and adjust each crop individually. Preserve fonts, padding, artwork and useful
+source detail. Flag more than 10 mm of unused designed-page bottom space for
+editorial review; this is a review trigger, not permission to add filler or to
+remove useful content. Record any justified exception explicitly.
+
 These priorities work together: alignment must not create overflow or shrink
 type. Passing a page-count check alone is not a design review.
 
@@ -140,6 +154,11 @@ Implementation owners: `src/print/PrintVegetablePage.tsx`, `print.module.css`,
 
 ## Editorial voice and facts
 
+John's editorial clarification (22 September): state the practical organic
+control directly and move on. Do not mention chemical alternatives merely to
+dismiss them or add ideological commentary. Preserve useful diagnostic or
+safety information; this is a rule about unnecessary reader-facing comparisons.
+
 - Stay as close as possible to the original text's style and meaning. Practical
   UK gardening language; no patronising slogans, invented experience or new
   claims. AI curation means selective condensation/expansion from source, not
@@ -241,7 +260,7 @@ advance. Save and document in hard copy these layout rules and decisions!"
   variation between crops, fixed four-tip target, or main-content cuts to fit tips.
 - Overlapping speech-bubble text is explicitly deferred by John to a later task.
   Accepted existing overlaps do not reopen this rollout or authorise redesign.
-- Mushroom is a recorded sparse-page exception. Keep its kit-growing route,
+- Mushroom was recorded as a sparse-page exception on 22 September. The 23 September revision restores useful kit/casing/harvest text and now fills both pages; the calendar-only column still has intrinsic space. The historical exception was: Keep its kit-growing route,
   no invented variety rows or seed-sowing instructions, and no excessive stretch
   to consume its roughly 53 mm bottom gap. Its absent sowing source produces an
   existing fallback-selection diagnostic; do not manufacture source to hide it.
@@ -255,6 +274,6 @@ advance. Save and document in hard copy these layout rules and decisions!"
   alter website/video prose, or authorise public deployment. Existing catalogue
   findings remain recorded in the shared data-normalisation log.
 - A printable copy of this complete contract is saved as
-  `output/pdf/vegetable-layout-rules-approved-2026-09-22.pdf`.
+  `output/pdf/vegetable-layout-rules-2026-09-23.pdf`.
   The Markdown file is the maintainable source; regenerate the hard copy after
   any later approved rule change. AI records these decisions; John approves them.

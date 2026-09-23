@@ -1,0 +1,28 @@
+{
+  "at": "2026-09-22T23:02:41.394843+00:00",
+  "keys": [
+    "chicory",
+    "cucumber_greenhouse",
+    "cucumber_outdoor",
+    "endive"
+  ],
+  "units": [
+    "metric",
+    "imperial"
+  ],
+  "pages_inspected": 16,
+  "method": "Poppler page renders inspected as four both-unit contact sheets by AI:gpt-6-astra; cucumber Key Risks and final endive fit reinspected after corrections",
+  "result": "Two A4 pages per proof; fonts/images ready, no warnings, positive bottom clearance and aligned columns. Correct crop-specific cucumber Key Risks replace inherited squash/marrow advice. Endive overflow resolved with concise print extracts, preserving full master and design. Existing bubble overlap deferred.",
+  "pest_selection_audit": {
+    "chicory": "All five distinct problems retained; GENERAL HEALTH removed as a false problem, useful advice remains in soil/care.",
+    "cucumber_greenhouse": "All nine crop-inline problems retained. Removed broad shared reference because it injected squash storage and marrow fruit-set risks.",
+    "cucumber_outdoor": "All nine distinct crop-inline problems retained; slug identity reconciled. Broad shared reference removed for wrong-host Key Risks.",
+    "endive": "All five problems retained. Escarole/Fris\u00e9e moved to type explanations, leaving five named varieties; saved six-row maximum unchanged."
+  },
+  "artifacts": [
+    "tmp/normalisation-overnight-04/qa/chicory-sheet.png",
+    "tmp/normalisation-overnight-04/qa/cucumber_greenhouse-sheet.png",
+    "tmp/normalisation-overnight-04/qa/cucumber_outdoor-sheet.png",
+    "tmp/normalisation-overnight-04/qa/endive-sheet.png"
+  ]
+}

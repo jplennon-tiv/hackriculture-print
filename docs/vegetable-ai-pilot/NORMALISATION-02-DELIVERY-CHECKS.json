@@ -1,0 +1,57 @@
+{
+  "at": "2026-09-22",
+  "approved_first_batch": [
+    "pea",
+    "bean_french",
+    "carrot"
+  ],
+  "drafts": [
+    "bean_broad",
+    "bean_runner",
+    "beetroot",
+    "radish",
+    "parsnip",
+    "turnip",
+    "swede",
+    "lettuce"
+  ],
+  "shared_revision": "e2eecccb0aabad84d77afd5d9c75d9e24806422eba2707ea628625945283b51c",
+  "tests": {
+    "focused_planting": 74,
+    "full_suite": 247,
+    "files": 22,
+    "result": "passed",
+    "updated_expectations": "Three literal spacing values updated in two existing binding tests; no runtime code changed."
+  },
+  "build": "passed; existing large-chunk warning",
+  "shared_integrity": "passed: 44 crops, 14 trouble groups, 8 navigation groups",
+  "preflight": "passed; existing mushroom missing-source warning only",
+  "pdf_checks": {
+    "count": 22,
+    "crops": 11,
+    "pages_each": 2,
+    "both_units": true,
+    "fonts": "loaded",
+    "missing_assets": [],
+    "warnings": [],
+    "reason_extra_first_batch": "Same direct-wording rule also applied to accepted pea, French bean and carrot; their proof evidence was refreshed. Initial marker anticipated eighteen validation PDFs; actual validation scope was twenty-two."
+  },
+  "visual_qa": {
+    "crops": [
+      "bean_broad",
+      "beetroot",
+      "radish",
+      "turnip",
+      "swede",
+      "lettuce"
+    ],
+    "both_units": true,
+    "pages_inspected": 24,
+    "method": "Poppler page rasters inspected as per-crop contact sheets",
+    "result": "No new clipping or overflow; existing bubble/icon overlap remains deferred."
+  },
+  "layout": "Existing saved counts, placement, artwork, typography and padding preserved; concise source lead sentences restored radish/turnip fit.",
+  "other_records": "33 crops and all shared Troubles unchanged throughout this turn; initial three had only approval/voice/evidence changes.",
+  "consumer_impact": "Only parsnip plant spacing changed among website bound values; no website prose or video changes.",
+  "review_status": "Eight crops await John\u2019s diff review; stop before more crops."
+}

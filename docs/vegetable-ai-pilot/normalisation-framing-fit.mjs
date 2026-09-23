@@ -1,0 +1,25 @@
+import{fs,assert,readCollection,revision,clone,refresh,save}from'../../../hackriculture-data/planning/normalisation-02-tools.mjs';
+const before=readCollection('vegetables'),d=clone(before),rev=revision();
+assert.equal(rev,'5502ade5277a23126faa639bbdbd8677e0e3e42bda500c82041cc9f6a21dae26','One-shot measured adjustment');
+const dir='../hackriculture-data/backups/admin/2026-09-23T11-15-36.850Z-55a5b446-1b11-4840-b139-3a1558213549';
+const original=Object.fromEntries(JSON.parse(fs.readFileSync(dir+'/transaction.json')).files.map(f=>[f.file.split('/')[1],JSON.parse(fs.readFileSync(dir+'/'+f.backup))]));
+for(const k of ['cabbage','cauliflower','celery'])d[k].varieties=clone(original[k].varieties);
+d.cabbage.ai_print_layout.value.intro_sentences=3;
+for(const[k,n]of Object.entries({bean_broad:5,bean_runner:3,beetroot:5,kohl_rabi:5}))d[k].ai_print_layout.value.intro_sentences=n;
+const summary={garlic:'Summer; ~8–9 months from autumn planting, less from spring',carrot:'Early ~12; maincrop ~16 weeks from sowing',squash_pumpkin:'Summer 8–12; winter 16–24 weeks from sowing',potato:'First early 13; second 16–18; maincrop 22 weeks from planting',radish:'Salad 3–6; winter 10–12 weeks from sowing'};
+for(const[k,s]of Object.entries(summary))d[k].time_to_harvest.ready_in_summary=s;
+d.asparagus.ai_print_extracts.sections.soil_facts.value=clone(original.asparagus.ai_print_extracts.sections.soil_facts.value);
+d.asparagus.ai_print_extracts.sections.soil_facts.value[0].text+=' Improve drainage or use a raised bed on heavy ground.';
+d.bean_french.sowing_and_planting.dwarf_block_spacing={imperial:'6 in. each way',metric:'15 cm each way'};
+d.brussels_sprouts.ai_print_extracts.sections.looking_after_the_crop.value[0]=clone(original.brussels_sprouts.ai_print_extracts.sections.looking_after_the_crop.value[0]);
+d.cabbage.ai_print_extracts.sections.soil_facts.value=clone(original.cabbage.ai_print_extracts.sections.soil_facts.value);
+d.lettuce.ai_print_extracts.sections.harvesting.value[2].text='Cut close to use; trim roots and damaged leaves. Compost over-mature plants before they shelter slugs or set seed.';
+const mushroom=d.mushroom;
+mushroom.ai_print_extracts.sections.looking_after_the_crop.value.pop();
+mushroom.ai_print_extracts.sections.harvesting.value=[0,1,3].map(i=>mushroom.ai_print_extracts.sections.harvesting.value[i]);
+const e=mushroom.ai_print_extracts.sections.introduction;
+e.value=mushroom.introduction+' '+mushroom.looking_after_the_crop[7].text+' '+mushroom.soil_facts[2].text+' '+mushroom.harvesting[0].text;
+e.dependencies.looking_after_the_crop=null;e.dependencies.soil_facts=null;e.dependencies.harvesting=null;
+mushroom.ai_print_layout.value.intro_sentences=12;
+const keys=[];for(const[k,v]of Object.entries(d))if(JSON.stringify(v)!==JSON.stringify(before[k])){refresh(v,before[k]);keys.push(k);}
+save(d,rev,keys,'NORMALISATION-FRAMING-FIT-WRITTEN.json','admin: John authorised measured source-text restoration and measurement context; authored by AI:gpt-6-astra');

@@ -1,52 +1,64 @@
-# Vegetable PDF rollout: completed
+**Complete, 23 September:** All 44 vegetables and current metric/imperial proofs are approved by John, including the final asparagus, outdoor cucumber and greenhouse tomato clarifications. Approval only: source wording and PDFs unchanged; exact prior-byte backups verified. Current revision `ccb092e2411d346bca48b71bc6bd0dc37ed34e1d0562622459adc1cb53c79b93`. [Catalogue review](../../../hackriculture-data/planning/NORMALISATION-FRAMING-REVIEW.html) · [Completion report](../../../hackriculture-data/planning/NORMALISATION-PLANTING-REPORT.md). No remaining normalisation review queue. Automation remains paused; reset untouched. Earlier checkpoints below are historical.
 
-**22 September 2026: all 44 vegetables are approved; no drafts or unprepared
-crops remain.** John approved batch 05 and explicitly authorised advance
-approval of all remaining vegetables. Do not restart the queue or ask him to
-review these same proofs again.
+<!-- overnight-normalisation checkpoint: 22 September 2026 -->
+**Current checkpoint:** 44/44 vegetables normalised; no crop remains queued. Eight overnight batches saved as drafts and checked in both units; final catalogue preflight, 247 tests and build passed. Automation paused; next action is John’s review. Revision `1870b7ca9b1f46f5bc4459796915d59c04a8023c870c686b11f71266fd305205`. See [live evidence](../../../hackriculture-data/planning/NORMALISATION-OVERNIGHT-PROGRESS.json), [morning report](../../../hackriculture-data/planning/NORMALISATION-OVERNIGHT-MORNING.md) and [individual review proofs](../../../hackriculture-data/planning/NORMALISATION-OVERNIGHT-REVIEW.html). Known mushroom warning, preserved leek user text and qualified cultivar identities are documented. Earlier numerical checkpoints below are history.
 
-Read [FINAL-COMPLETION.md](../vegetable-ai-pilot/FINAL-COMPLETION.md) for the final
-individual PDF links, checks, exceptions and transaction records. The approved
-[style contract](../VEGETABLE-PRINT-STYLE.md) is mandatory before future print
-work. Its complete printable hard copy is
-[the layout rules PDF](../../output/pdf/vegetable-layout-rules-approved-2026-09-22.pdf).
+# Current work: normalisation batch 02 awaits review
 
-Current shared revision:
-`ef74442574b8150b3fc3ae3ce5cab7660b979af7bbe0b67f2d3083b1a45a12cd`.
-The approval-only transaction is recorded in
-[FINAL-APPROVE-RECEIPT.json](../vegetable-ai-pilot/FINAL-APPROVE-RECEIPT.json), with
-exact prior bytes under shared
-`backups/admin/2026-09-22T15-15-46.336Z-8355077f-4b7a-43e3-9ac9-a6fa4a082c20`.
+**Overnight continuation authorised, 22 September:** John has now asked to finish
+normalisation for all vegetables overnight and will review tomorrow. This
+supersedes earlier batch stops. Follow [OVERNIGHT-NORMALISATION.md](OVERNIGHT-NORMALISATION.md)
+and the shared NORMALISATION-OVERNIGHT-PROGRESS.json queue; keep new outputs draft.
 
-## Resume safely
+**Current, 22 September:** batch 01 (pea, French bean, carrot) is accepted.
+John accepted batch-02 review notes and authorised RHS-first research, likely
+identity corrections and mainstream spacing. Those decisions are applied to
+broad bean, runner bean, beetroot, radish, parsnip, turnip, swede and lettuce.
+He will inspect outputs later; do not request another exhaustive diff review.
+There are 36 approved layouts and eight drafts pending later output sign-off.
+See NORMALISATION-02-DECISIONS.md in shared planning for the short summary.
 
-Read README.md and SHARED-DATA.md, then only relevant DEVELOPMENT.md sections.
-Run `node docs/handover/preflight.mjs` using Node 24 or later. It is read-only;
-newer legitimate edits must be inspected, never replaced by this checkpoint.
-The renderer is `vegetable-extracts-v5`; preserve saved decisions, approvals,
-manual edits, locks, artwork and source-linked measurement pairs.
+[Short decision summary](../../../hackriculture-data/planning/NORMALISATION-02-DECISIONS.md).
+Current shared revision: `1753286deed6051e86bca71420506b4168278a53917c37e8cc134eec721ee6be`.
+[Research correction receipt](../../../hackriculture-data/planning/NORMALISATION-02-RESEARCH-APPLIED.json)
+and [current measurement receipt](../../../hackriculture-data/planning/NORMALISATION-02-RESEARCH-MEASURED.json)
+link exact prior-byte backups. Only these eight crops changed in the research
+follow-up; shared Troubles and all other crop records are byte-identical.
+Sixteen two-page A4 validation PDFs passed both-unit readiness/overflow checks;
+five representative crops were visually inspected in both units. Tests: 247
+passed; build and shared integrity passed. Two initial fit regressions were
+fixed by concise source leads, retaining full advice and saved layout settings.
 
-Normal export is deterministic and uses approved current selections. Use
-`start.command` on loopback for admin saves or PDFs. Preserve the existing
-working-tree changes. Source JSON lives only in the sibling shared data store;
-use its guarded writer, expected revision and exact-byte transaction backups.
+Parsnip now uses RHS 1 cm sowing depth, 15 cm plants and 30 cm rows. Named identity,
+spacing and legacy-claim questions from batch 02 have recorded decisions, sources
+and confidence; two generic beetroot merges are explicitly editorial inference.
+Unsupported fixed yield and special pollination guarantees were removed.
+State organic methods directly without dismissing alternatives. John has deferred
+output review; do not treat the older request to wait for diff review as a blocker.
 
-## Agreed boundaries
+The earlier 44-crop rollout remains a completed historical milestone; its
+advance approval does not approve new normalisation changes. See
+[FINAL-COMPLETION.md](../vegetable-ai-pilot/FINAL-COMPLETION.md).
+The binding [style contract](../VEGETABLE-PRINT-STYLE.md) and its complete
+[printable hard copy](../../output/pdf/vegetable-layout-rules-approved-2026-09-22.pdf)
+remain unchanged. Choose 2–4 useful Final Tips according to space; keep full-width
+by default, saved column exceptions, existing typography/art and staggered layout.
+Bubble-text overlap remains deferred. Mushroom's sparse-page/missing-sowing-source
+exception is preserved. Kale is current and approved.
 
-- Choose 2-4 useful Final Tips after important content fits; four is not a target.
-  Keep full-width tips as the default and explicit saved column exceptions.
-- Keep individual two-page PDFs per crop and unit. Eight crops may be a review
-  set; avoid opening the historical huge combined packs in the recovered task.
-- Bubble-text overlap is deferred by John to a later task. No automatic redesign.
-- Mushroom keeps its sparse pages and existing missing-sowing-source diagnostic.
-  Do not invent crop data or stretch large blank areas to suppress the exception.
-- Kale is now current and approved. Its accepted master advice was not rewritten;
-  extracts and measurement evidence were refreshed, and the existing planting
-  captions were reviewed with only their source-review fingerprint updated.
-- Broader data normalisation remains paused. Legacy findings are still in shared
-  `planning/DATA-NORMALISATION.md`. Approval does not authorise deployment or a
-  website/video rewrite. Wait for John's next task.
+Read README.md and SHARED-DATA.md, then relevant DEVELOPMENT.md sections.
+Run `node docs/handover/preflight.mjs` with Node 24+. It is read-only: inspect
+newer edits, never restore this checkpoint over them. Normal exports use approved
+current selections; explicit `aiReview=1` is required for draft proofs.
+Use start.command on loopback for PDFs/admin saves. Preserve existing user edits,
+manual locks and source-linked pairs. Shared JSON lives only in hackriculture-data;
+use the guarded writer with expected revision and exact preceding-byte backups.
 
-For provenance see [ROLLOUT.md](../vegetable-ai-pilot/ROLLOUT.md) and
-[session recovery](SESSION-RECOVERY-2026-09-22.md). Earlier draft counts and
-pending-review instructions in historical records are superseded by this sign-off.
+John's new rules: check semantic plausibility, import artefacts, misplaced advice,
+duplicates and contradictions; round practical dimensions to familiar numbers
+where useful (approximately 10–15% tolerance), preserving context and paired units.
+Do not blindly percentage-round pH, temperature or biological limits.
+
+Shared condition ownership/host scope and a comprehensive variety audit remain separate;
+this is a bounded first pass, not a fully reconciled catalogue. Website prose,
+video artifacts and deployment were not changed. No subagents unless requested.

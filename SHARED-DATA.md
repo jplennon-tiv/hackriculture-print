@@ -1,11 +1,23 @@
+**23 September update:** All 44 normalised crops and current proofs are approved by John. The final three planting clarifications are signed off: [catalogue review](../hackriculture-data/planning/NORMALISATION-FRAMING-REVIEW.html) · [completion report](../hackriculture-data/planning/NORMALISATION-PLANTING-REPORT.md). Earlier checkpoints below are historical.
+
 # Shared data and backups
+
+**Current, 22 September:** batch 01 (pea, French bean, carrot) is accepted.
+John accepted batch-02 review notes and authorised RHS-first research, likely
+identity corrections and mainstream spacing. Those decisions are applied to
+broad bean, runner bean, beetroot, radish, parsnip, turnip, swede and lettuce.
+He will inspect outputs later; do not request another exhaustive diff review.
+There are 36 approved layouts and eight drafts pending later output sign-off.
+See NORMALISATION-02-DECISIONS.md in shared planning for the short summary.
+
+[Current review](../hackriculture-data/planning/NORMALISATION-02-REVIEW.md).
 
 21 September kale correction: master ranked `text`/`short_text` and sowing
 `method` now also support `{imperial, metric}` prose pairs. Types, Zod, admin
 validation/editing and public/print consumers agree. See DEVELOPMENT.md and
 [unit-prose checks](docs/vegetable-ai-pilot/UNIT-PROSE-CHECKS.json). v5 accepts
 unchanged string-only v4 layouts; existing approval records remain untouched.
-22 September completion: all 44 crops are now approved. Kale's extracts and
+22 September rollout completion: all 44 crops were approved. Kale's extracts and
 both-unit proof evidence were refreshed from the accepted master; its unchanged
 planting captions were reviewed and their source-review fingerprint updated.
 See [final sign-off](docs/vegetable-ai-pilot/FINAL-COMPLETION.md).

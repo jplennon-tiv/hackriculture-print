@@ -9,7 +9,7 @@ from reportlab.lib.pagesizes import A4
 from reportlab.lib.units import mm
 root=Path(__file__).resolve().parents[2]
 source=root/'docs/VEGETABLE-PRINT-STYLE.md'
-output=root/'output/pdf/vegetable-layout-rules-approved-2026-09-22.pdf'
+output=root/'output/pdf/vegetable-layout-rules-2026-09-23.pdf'
 styles=getSampleStyleSheet()
 styles.add(ParagraphStyle(name='BodyRules',fontName='Helvetica',fontSize=9.5,leading=13,spaceAfter=7,splitLongWords=True))
 styles.add(ParagraphStyle(name='BulletRules',parent=styles['BodyRules'],leftIndent=11,firstLineIndent=-9,spaceAfter=6))
@@ -30,7 +30,7 @@ while i<len(lines):
  if not line:i+=1;continue
  if line.startswith('# '):
   story.append(Paragraph(inline(line[2:]),styles['TitleRules']))
-  story.append(Paragraph('APPROVED RECORD | 22 SEPTEMBER 2026<br/>Decisions: John. Documentation: AI:gpt-6-astra.<br/>Complete print-style contract, including completion decisions.',styles['BodyRules']))
+  story.append(Paragraph('RECORDED DECISIONS | UPDATED 23 SEPTEMBER 2026<br/>Decisions: John. Documentation: AI:gpt-6-astra.<br/>Complete print-style contract, including measurement framing and useful page fill.',styles['BodyRules']))
   i+=1;continue
  if line.startswith('## '):
   story.append(Paragraph(inline(line[3:]),styles['HeadingRules']));i+=1;continue
@@ -52,10 +52,10 @@ while i<len(lines):
  story.append(WholeParagraph(text,styles['BulletRules'] if bullet or number else styles['BodyRules']))
 width,height=A4
 def footer(canvas,doc):
- canvas.saveState();canvas.setStrokeColor(colors.HexColor('#b8c9bf'));canvas.line(18*mm,16*mm,width-18*mm,16*mm);canvas.setFillColor(colors.HexColor('#52655a'));canvas.setFont('Helvetica',7.5);canvas.drawString(18*mm,11*mm,'HACKRICULTURE | Vegetable print rules | Approved 22 September 2026');canvas.drawRightString(width-18*mm,11*mm,f'{doc.page}');canvas.restoreState()
+ canvas.saveState();canvas.setStrokeColor(colors.HexColor('#b8c9bf'));canvas.line(18*mm,16*mm,width-18*mm,16*mm);canvas.setFillColor(colors.HexColor('#52655a'));canvas.setFont('Helvetica',7.5);canvas.drawString(18*mm,11*mm,'HACKRICULTURE | Vegetable print rules | Updated 23 September 2026');canvas.drawRightString(width-18*mm,11*mm,f'{doc.page}');canvas.restoreState()
 output.parent.mkdir(parents=True,exist_ok=True)
 doc=SimpleDocTemplate(str(output),pagesize=A4,rightMargin=18*mm,leftMargin=18*mm,topMargin=18*mm,bottomMargin=23*mm,title='Vegetable print: approved style and layout rules',author='John (decisions); AI:gpt-6-astra (documentation)')
 doc.build(story,onFirstPage=footer,onLaterPages=footer)
 receipt={'source':str(source.relative_to(root)),'source_sha256':hashlib.sha256(source.read_bytes()).hexdigest(),'pdf':str(output.relative_to(root)),'pdf_sha256':hashlib.sha256(output.read_bytes()).hexdigest()}
-(root/'docs/vegetable-ai-pilot/LAYOUT-RULES-HARD-COPY.json').write_text(json.dumps(receipt,indent=2)+'\n')
+(root/'docs/vegetable-ai-pilot/LAYOUT-RULES-HARD-COPY-2026-09-23.json').write_text(json.dumps(receipt,indent=2)+'\n')
 print(output)

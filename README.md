@@ -1,3 +1,5 @@
+**23 September update:** All 44 normalised crops and current proofs are approved by John. The final three planting clarifications are signed off: [catalogue review](../hackriculture-data/planning/NORMALISATION-FRAMING-REVIEW.html) · [completion report](../hackriculture-data/planning/NORMALISATION-PLANTING-REPORT.md). Earlier checkpoints below are historical.
+
 # hackriculture-print
 
 A local gardening reference, content editor and printable growing-sheet generator. It produces vegetable and pest/disease guides as A4 PDFs, with imperial/metric controls and scaled A5/A6 output.
@@ -20,7 +22,7 @@ The launcher selects the Node version in `.nvmrc`, prompts privately for a sessi
 
 ## Working documentation
 
-- [Current vegetable rollout handover](docs/handover/START-HERE.md): completed rollout, saved approvals and read-only preflight.
+- [Current vegetable rollout handover](docs/handover/START-HERE.md): completed rollout, researched normalisation corrections and eight drafts for later output review, and read-only preflight.
 
 - [AGENTS.md](AGENTS.md): concise rules for coding assistants; read first.
 - [DEVELOPMENT.md](DEVELOPMENT.md): architecture, accepted print design, data contracts and validation.
