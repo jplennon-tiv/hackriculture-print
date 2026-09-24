@@ -1,0 +1,473 @@
+{
+  "status": "approved_installed_verified",
+  "date": "2026-09-24",
+  "approved_by": "John",
+  "recorded_by": "AI assistant (Codex)",
+  "approval": "The new images work well. ... Let’s use the new images and wire them in.",
+  "icons": [
+    {
+      "key": "aphid",
+      "png": "/images/key-risk-icons/naturalistic-v3/aphid.png",
+      "sha256": "093634f9ed92ea0dcf1c16f9d8bffd39e190846f9b737d5697800ab951c7fd01"
+    },
+    {
+      "key": "frost",
+      "png": "/images/key-risk-icons/naturalistic-v3/frost.png",
+      "sha256": "3ad13c245b7fc35768b02be87287c46ce99ecd6b0e19f208aa7510ca31145487"
+    },
+    {
+      "key": "mildew",
+      "png": "/images/key-risk-icons/naturalistic-v3/mildew.png",
+      "sha256": "00cf518ef5456063cdd3268bd1773b502db4aec16cfc13e9089b955364170c42"
+    },
+    {
+      "key": "clubroot",
+      "png": "/images/key-risk-icons/naturalistic-v3/clubroot.png",
+      "sha256": "49184695fa0e072674a0e3ffca08840d6f542c7cb0764c052c76a0adf4b85f0c"
+    },
+    {
+      "key": "poor_germination",
+      "png": "/images/key-risk-icons/naturalistic-v3/poor_germination.png",
+      "sha256": "be8fb9f1b23fb41d19b70459313f745f0633cb1e4e46bd7b5f58c677e16615d0"
+    },
+    {
+      "key": "small_roots",
+      "png": "/images/key-risk-icons/naturalistic-v3/small_roots.png",
+      "sha256": "c89daeb734e553105574edccf1da514fe1269b6fcd11ccb4945c3e96c51f1edb"
+    },
+    {
+      "key": "beetle",
+      "png": "/images/key-risk-icons/naturalistic-v3/beetle.png",
+      "sha256": "11fbf22ddd2064308bd837c9855c93d44347f3e28c33cc08886a246252d7757b"
+    },
+    {
+      "key": "bird",
+      "png": "/images/key-risk-icons/naturalistic-v3/bird.png",
+      "sha256": "a0b8af127bc16457d63cd51c0625a9207ed718375b8616b5174aef19c990651e"
+    },
+    {
+      "key": "blight",
+      "png": "/images/key-risk-icons/naturalistic-v3/blight.png",
+      "sha256": "376496cdf38d2177db7194b1fad315c4599be9654531f70e66fa3de0af78972f"
+    },
+    {
+      "key": "blossom_drop",
+      "png": "/images/key-risk-icons/naturalistic-v3/blossom_drop.png",
+      "sha256": "96a04e8fc28885b77660dd77f40ddb560fb6710681e9bd68dd2b99c1fb382d7a"
+    },
+    {
+      "key": "blossom_end_rot",
+      "png": "/images/key-risk-icons/naturalistic-v3/blossom_end_rot.png",
+      "sha256": "59f0d93f18559ac7aa7da5d7f04d119599af731f8aa876252787e0dc4b51e530"
+    },
+    {
+      "key": "bolting",
+      "png": "/images/key-risk-icons/naturalistic-v3/bolting.png",
+      "sha256": "769878395f22719254ad9eef3629a11e612d90b81c6578688b80d4e730b8d7a0"
+    },
+    {
+      "key": "caterpillar",
+      "png": "/images/key-risk-icons/naturalistic-v3/caterpillar.png",
+      "sha256": "e80c9fc737716a5550e1770802336ec26e18acc8a13352a12580a95496814437"
+    },
+    {
+      "key": "damping_off",
+      "png": "/images/key-risk-icons/naturalistic-v3/damping_off.png",
+      "sha256": "7e46ab1344106079db5c186938e57210ff8e4cad77bc79cefa006c4c29d8a7d5"
+    },
+    {
+      "key": "deficiency",
+      "png": "/images/key-risk-icons/naturalistic-v3/deficiency.png",
+      "sha256": "49f1494c0aa428f2c3d3d3343392311922f4645b77bffd5e49b706b94466e1a7"
+    },
+    {
+      "key": "fly",
+      "png": "/images/key-risk-icons/naturalistic-v3/fly.png",
+      "sha256": "e2a0608d366214b5b6c5430cf99000fbb6adeb7759072422c7936e22a242f1b5"
+    },
+    {
+      "key": "forked_root",
+      "png": "/images/key-risk-icons/naturalistic-v3/forked_root.png",
+      "sha256": "037afdc664e8ed251749ba9215ba437c1942e05462d103d14d8118a9bb07bdaf"
+    },
+    {
+      "key": "grey_mould",
+      "png": "/images/key-risk-icons/naturalistic-v3/grey_mould.png",
+      "sha256": "9334259eb9df6bfa8ecbf963636e02d8b3232876a5c0d602514d3797beb27b43"
+    },
+    {
+      "key": "hollow_root",
+      "png": "/images/key-risk-icons/naturalistic-v3/hollow_root.png",
+      "sha256": "9919316501ef182cddf6f0414281b28d38ab0e47b55632d1e623576e03abb3b2"
+    },
+    {
+      "key": "leaf_spot",
+      "png": "/images/key-risk-icons/naturalistic-v3/leaf_spot.png",
+      "sha256": "cb9ee05831303b1f1ab640516aded775deb364b82a6e57700845f94bb3b1d88a"
+    },
+    {
+      "key": "mouse",
+      "png": "/images/key-risk-icons/naturalistic-v3/mouse.png",
+      "sha256": "e6109689f262bca0ec0cc273b755ce540034ddedff85e76dc623b2978f733c3e"
+    },
+    {
+      "key": "root_rot",
+      "png": "/images/key-risk-icons/naturalistic-v3/root_rot.png",
+      "sha256": "16244082636771189bfa2875fa655a1e5c7e8b846ef11d054f843eec5537af5d"
+    },
+    {
+      "key": "rust_spots",
+      "png": "/images/key-risk-icons/naturalistic-v3/rust_spots.png",
+      "sha256": "ea718c8ee43841f4d7a9f596152c3af4db2e10ab1c79aaacd1b45f68e98296b8"
+    },
+    {
+      "key": "slug",
+      "png": "/images/key-risk-icons/naturalistic-v3/slug.png",
+      "sha256": "0860a239c9aee58ed96f08a346bd1d7fa8b337240df3749aabd2e462fc466c87"
+    },
+    {
+      "key": "soil_grub",
+      "png": "/images/key-risk-icons/naturalistic-v3/soil_grub.png",
+      "sha256": "4f4a493666bca0ccff5eeb673e9ca5fa20ba99d70ce7a236b90318e20fb8232b"
+    },
+    {
+      "key": "spider_mite",
+      "png": "/images/key-risk-icons/naturalistic-v3/spider_mite.png",
+      "sha256": "bf059c808398c0e5b2cd1768c332bea76d58bfeb2a8a164ec863f144373c3525"
+    },
+    {
+      "key": "splitting",
+      "png": "/images/key-risk-icons/naturalistic-v3/splitting.png",
+      "sha256": "436d975b2e77c79070e0487cdbd1ac78ae71ec58a368063630bf0182890d501f"
+    },
+    {
+      "key": "stem_rot",
+      "png": "/images/key-risk-icons/naturalistic-v3/stem_rot.png",
+      "sha256": "d6c432add0ccf186aef4a8083d5cd74111797ab6bef0f0860ab542168aa70485"
+    },
+    {
+      "key": "sun_scald",
+      "png": "/images/key-risk-icons/naturalistic-v3/sun_scald.png",
+      "sha256": "ef86ea95475665e0945214e791e8b5f22f4856b543148d2ea367caa01d07cacc"
+    },
+    {
+      "key": "thermometer",
+      "png": "/images/key-risk-icons/naturalistic-v3/thermometer.png",
+      "sha256": "642b908a955498c7b12e4704e4e9f4bcd05b1c36a933c77fb0f234180a65f942"
+    },
+    {
+      "key": "tipburn",
+      "png": "/images/key-risk-icons/naturalistic-v3/tipburn.png",
+      "sha256": "3a0a5aea764e3c7fad56cc4900d963de724d7ecb69c7ba966b62ea64a647b11a"
+    },
+    {
+      "key": "virus_leaf",
+      "png": "/images/key-risk-icons/naturalistic-v3/virus_leaf.png",
+      "sha256": "d087adabe67c44d5c3863b7282238c4344800c15d38d16712eaefffdfa3aa8f9"
+    },
+    {
+      "key": "weed",
+      "png": "/images/key-risk-icons/naturalistic-v3/weed.png",
+      "sha256": "41f344a6af96c27a20bb0919102a5d91d53f8d8b4d700b1c6d5155f1ee93e945"
+    },
+    {
+      "key": "whitefly",
+      "png": "/images/key-risk-icons/naturalistic-v3/whitefly.png",
+      "sha256": "e678e8fdefe82afeccc186f4d20df0cb9608b62c047a46220d232f81b2dda015"
+    },
+    {
+      "key": "wind",
+      "png": "/images/key-risk-icons/naturalistic-v3/wind.png",
+      "sha256": "481791f387861e67409aa1f5b8409b47f598bbd0008261bc454be4e95476be50"
+    }
+  ],
+  "renderer_revision": "vegetable-extracts-v6",
+  "saved_choice_compatibility": "v5 and string-only v4 choices retained; fitting remeasures live layout. Canonical review metadata untouched.",
+  "mapping_changes": [
+    "All existing mapped artwork switched to approved naturalistic equivalents.",
+    "Small Roots now uses the dedicated small_roots drawing.",
+    "Clubroot (Finger and Toe) gains the same icon as the spaced Club Root alias; duplicate risk selection remains unchanged."
+  ],
+  "rendering": "32px alpha masks, #30352f default via --key-risk-ink. Hidden source img participates in existing asset decode/readiness checks. Original transparent PNG bytes unchanged.",
+  "padding": "32px slot replaces undersized 28px slot; image bottom margin removed; item top padding 8px (was 4px).",
+  "shared_revision_unchanged": "dc2673fcd2119f35fe2d0392847e2e058e972f509f4118e9e2cb52adb9ab52fb",
+  "original_monochrome_files_unchanged": 79,
+  "coloured_svg_png_files_unchanged": 72,
+  "focused_tests": 10,
+  "full_tests": 268,
+  "build": "passed; existing chunk-size warning",
+  "visual_review": "All 16 PDF pages inspected using Poppler PNGs. Clear space below Key Risks heading; no new clipping or missing artwork.",
+  "known_limitations": [
+    "Broccoli still selects duplicate Club Root / Clubroot, displacing Pigeons. This pre-existing editorial/deduplication issue was not changed.",
+    "Existing broad risk assignments (e.g. bitterness using poor germination) remain; no speculative remapping.",
+    "Crop bubbles remain deferred.",
+    "Older artwork is retained at its existing paths for historical review boards.",
+    "Representative validation only; no full-catalogue PDF regeneration."
+  ],
+  "results": [
+    {
+      "crop": "broccoli",
+      "units": "metric",
+      "pages": 2,
+      "pdf": "output/pdf/naturalistic-icons-installed/broccoli-metric.pdf",
+      "pdf_sha256": "5dfc5a65eaecc41509b4a95eda469ceeebbf0ee5498d4896fa8d3e83e2a309af",
+      "fonts": "loaded",
+      "missing": [],
+      "warnings": [],
+      "unchanged_text_and_other_image_references": true,
+      "risks": [
+        {
+          "label": "CABBAGE CATERPILLARS\nSummer and autumn broccoli is very prone to caterpillar damage.",
+          "src": "/images/key-risk-icons/naturalistic-v3/caterpillar.png",
+          "mask": "url(\"http://127.0.0.1:5173/images/key-risk-icons/naturalistic-v3/caterpillar.png\")"
+        },
+        {
+          "label": "CLUB ROOT (FINGER AND TOE)\nClub root causes swollen, distorted roots, poor growth and wilting in warm weather.",
+          "src": "/images/key-risk-icons/naturalistic-v3/clubroot.png",
+          "mask": "url(\"http://127.0.0.1:5173/images/key-risk-icons/naturalistic-v3/clubroot.png\")"
+        },
+        {
+          "label": "FROST\nSprouting broccoli is winter-hardy, but severe frost can damage shoots.",
+          "src": "/images/key-risk-icons/naturalistic-v3/frost.png",
+          "mask": "url(\"http://127.0.0.1:5173/images/key-risk-icons/naturalistic-v3/frost.png\")"
+        },
+        {
+          "label": "CLUBROOT (FINGER AND TOE)\nClub root causes swollen, distorted roots and plants that wilt in sunshine, grow poorly or fail to heart.",
+          "src": "/images/key-risk-icons/naturalistic-v3/clubroot.png",
+          "mask": "url(\"http://127.0.0.1:5173/images/key-risk-icons/naturalistic-v3/clubroot.png\")"
+        }
+      ]
+    },
+    {
+      "crop": "broccoli",
+      "units": "imperial",
+      "pages": 2,
+      "pdf": "output/pdf/naturalistic-icons-installed/broccoli-imperial.pdf",
+      "pdf_sha256": "7ba7d8881426266eafb9bdd65685a87324131814a4dc8feca536de0f56b48cec",
+      "fonts": "loaded",
+      "missing": [],
+      "warnings": [],
+      "unchanged_text_and_other_image_references": true,
+      "risks": [
+        {
+          "label": "CABBAGE CATERPILLARS\nSummer and autumn broccoli is very prone to caterpillar damage.",
+          "src": "/images/key-risk-icons/naturalistic-v3/caterpillar.png",
+          "mask": "url(\"http://127.0.0.1:5173/images/key-risk-icons/naturalistic-v3/caterpillar.png\")"
+        },
+        {
+          "label": "CLUB ROOT (FINGER AND TOE)\nClub root causes swollen, distorted roots, poor growth and wilting in warm weather.",
+          "src": "/images/key-risk-icons/naturalistic-v3/clubroot.png",
+          "mask": "url(\"http://127.0.0.1:5173/images/key-risk-icons/naturalistic-v3/clubroot.png\")"
+        },
+        {
+          "label": "FROST\nSprouting broccoli is winter-hardy, but severe frost can damage shoots.",
+          "src": "/images/key-risk-icons/naturalistic-v3/frost.png",
+          "mask": "url(\"http://127.0.0.1:5173/images/key-risk-icons/naturalistic-v3/frost.png\")"
+        },
+        {
+          "label": "CLUBROOT (FINGER AND TOE)\nClub root causes swollen, distorted roots and plants that wilt in sunshine, grow poorly or fail to heart.",
+          "src": "/images/key-risk-icons/naturalistic-v3/clubroot.png",
+          "mask": "url(\"http://127.0.0.1:5173/images/key-risk-icons/naturalistic-v3/clubroot.png\")"
+        }
+      ]
+    },
+    {
+      "crop": "carrot",
+      "units": "metric",
+      "pages": 2,
+      "pdf": "output/pdf/naturalistic-icons-installed/carrot-metric.pdf",
+      "pdf_sha256": "1c8da46c12e112aa6e2351f42f0fe7352cd469b03ba94aff0f90c79ce84f5727",
+      "fonts": "loaded",
+      "missing": [],
+      "warnings": [],
+      "unchanged_text_and_other_image_references": true,
+      "risks": [
+        {
+          "label": "CARROT FLY\nTell-tale signs on carrots are reddish leaves which wilt in sunny weather and later turn yellow.",
+          "src": "/images/key-risk-icons/naturalistic-v3/fly.png",
+          "mask": "url(\"http://127.0.0.1:5173/images/key-risk-icons/naturalistic-v3/fly.png\")"
+        },
+        {
+          "label": "FANGING\nFanging is usually caused by adding manure or compost to the soil shortly before seed sowing.",
+          "src": "/images/key-risk-icons/naturalistic-v3/forked_root.png",
+          "mask": "url(\"http://127.0.0.1:5173/images/key-risk-icons/naturalistic-v3/forked_root.png\")"
+        },
+        {
+          "label": "SMALL ROOTS\nAphids and virus will stunt growth and reduce yield, but even in the absence of pests and diseases many gardeners produce disappointingly small carrots.",
+          "src": "/images/key-risk-icons/naturalistic-v3/small_roots.png",
+          "mask": "url(\"http://127.0.0.1:5173/images/key-risk-icons/naturalistic-v3/small_roots.png\")"
+        },
+        {
+          "label": "SPLITTING\nMuch more serious than fanging of carrots, because the roots will not store.",
+          "src": "/images/key-risk-icons/naturalistic-v3/splitting.png",
+          "mask": "url(\"http://127.0.0.1:5173/images/key-risk-icons/naturalistic-v3/splitting.png\")"
+        }
+      ]
+    },
+    {
+      "crop": "carrot",
+      "units": "imperial",
+      "pages": 2,
+      "pdf": "output/pdf/naturalistic-icons-installed/carrot-imperial.pdf",
+      "pdf_sha256": "fd1189571a647bb6b3f3a64055c656e4a474d4e7503accd373629a245e5d483b",
+      "fonts": "loaded",
+      "missing": [],
+      "warnings": [],
+      "unchanged_text_and_other_image_references": true,
+      "risks": [
+        {
+          "label": "CARROT FLY\nTell-tale signs on carrots are reddish leaves which wilt in sunny weather and later turn yellow.",
+          "src": "/images/key-risk-icons/naturalistic-v3/fly.png",
+          "mask": "url(\"http://127.0.0.1:5173/images/key-risk-icons/naturalistic-v3/fly.png\")"
+        },
+        {
+          "label": "FANGING\nFanging is usually caused by adding manure or compost to the soil shortly before seed sowing.",
+          "src": "/images/key-risk-icons/naturalistic-v3/forked_root.png",
+          "mask": "url(\"http://127.0.0.1:5173/images/key-risk-icons/naturalistic-v3/forked_root.png\")"
+        },
+        {
+          "label": "SMALL ROOTS\nAphids and virus will stunt growth and reduce yield, but even in the absence of pests and diseases many gardeners produce disappointingly small carrots.",
+          "src": "/images/key-risk-icons/naturalistic-v3/small_roots.png",
+          "mask": "url(\"http://127.0.0.1:5173/images/key-risk-icons/naturalistic-v3/small_roots.png\")"
+        },
+        {
+          "label": "SPLITTING\nMuch more serious than fanging of carrots, because the roots will not store.",
+          "src": "/images/key-risk-icons/naturalistic-v3/splitting.png",
+          "mask": "url(\"http://127.0.0.1:5173/images/key-risk-icons/naturalistic-v3/splitting.png\")"
+        }
+      ]
+    },
+    {
+      "crop": "cucumber_greenhouse",
+      "units": "metric",
+      "pages": 2,
+      "pdf": "output/pdf/naturalistic-icons-installed/cucumber_greenhouse-metric.pdf",
+      "pdf_sha256": "ae7554cbfbe9ea1a5689b63066a4abddf7a99f018ed8764a3e98df9cdfaae6a8",
+      "fonts": "loaded",
+      "missing": [],
+      "warnings": [],
+      "unchanged_text_and_other_image_references": true,
+      "risks": [
+        {
+          "label": "RED SPIDER MITE\nSpeckled, yellowing leaves and fine webbing underneath can indicate red spider mite.",
+          "src": "/images/key-risk-icons/naturalistic-v3/spider_mite.png",
+          "mask": "url(\"http://127.0.0.1:5173/images/key-risk-icons/naturalistic-v3/spider_mite.png\")"
+        },
+        {
+          "label": "BITTERNESS\nStress, including uneven moisture or temperature, can increase bitterness.",
+          "src": "/images/key-risk-icons/naturalistic-v3/poor_germination.png",
+          "mask": "url(\"http://127.0.0.1:5173/images/key-risk-icons/naturalistic-v3/poor_germination.png\")"
+        },
+        {
+          "label": "MILDEW\nPowdery mildew often appears on older leaves later in the season.",
+          "src": "/images/key-risk-icons/naturalistic-v3/mildew.png",
+          "mask": "url(\"http://127.0.0.1:5173/images/key-risk-icons/naturalistic-v3/mildew.png\")"
+        },
+        {
+          "label": "LACK OF WARMTH\nCold sowing or planting conditions check growth and can give slugs, woodlice and soil diseases a chance to damage young plants.",
+          "src": "/images/key-risk-icons/naturalistic-v3/thermometer.png",
+          "mask": "url(\"http://127.0.0.1:5173/images/key-risk-icons/naturalistic-v3/thermometer.png\")"
+        }
+      ]
+    },
+    {
+      "crop": "cucumber_greenhouse",
+      "units": "imperial",
+      "pages": 2,
+      "pdf": "output/pdf/naturalistic-icons-installed/cucumber_greenhouse-imperial.pdf",
+      "pdf_sha256": "8e6f8c9df8db6f6d0fe4889ac8558de6e8df5aaf00e0dd89bb9d614107b9b306",
+      "fonts": "loaded",
+      "missing": [],
+      "warnings": [],
+      "unchanged_text_and_other_image_references": true,
+      "risks": [
+        {
+          "label": "RED SPIDER MITE\nSpeckled, yellowing leaves and fine webbing underneath can indicate red spider mite.",
+          "src": "/images/key-risk-icons/naturalistic-v3/spider_mite.png",
+          "mask": "url(\"http://127.0.0.1:5173/images/key-risk-icons/naturalistic-v3/spider_mite.png\")"
+        },
+        {
+          "label": "BITTERNESS\nStress, including uneven moisture or temperature, can increase bitterness.",
+          "src": "/images/key-risk-icons/naturalistic-v3/poor_germination.png",
+          "mask": "url(\"http://127.0.0.1:5173/images/key-risk-icons/naturalistic-v3/poor_germination.png\")"
+        },
+        {
+          "label": "MILDEW\nPowdery mildew often appears on older leaves later in the season.",
+          "src": "/images/key-risk-icons/naturalistic-v3/mildew.png",
+          "mask": "url(\"http://127.0.0.1:5173/images/key-risk-icons/naturalistic-v3/mildew.png\")"
+        },
+        {
+          "label": "LACK OF WARMTH\nCold sowing or planting conditions check growth and can give slugs, woodlice and soil diseases a chance to damage young plants.",
+          "src": "/images/key-risk-icons/naturalistic-v3/thermometer.png",
+          "mask": "url(\"http://127.0.0.1:5173/images/key-risk-icons/naturalistic-v3/thermometer.png\")"
+        }
+      ]
+    },
+    {
+      "crop": "rhubarb",
+      "units": "metric",
+      "pages": 2,
+      "pdf": "output/pdf/naturalistic-icons-installed/rhubarb-metric.pdf",
+      "pdf_sha256": "83bb1087208f1fa09f974e971d1460413d3f714fb4a880aee2bd2cb5255eccb3",
+      "fonts": "loaded",
+      "missing": [],
+      "warnings": [],
+      "unchanged_text_and_other_image_references": true,
+      "risks": [
+        {
+          "label": "CROWN ROT\nDecay at the crown can cause weak, dull stems and rotting buds.",
+          "src": "/images/key-risk-icons/naturalistic-v3/root_rot.png",
+          "mask": "url(\"http://127.0.0.1:5173/images/key-risk-icons/naturalistic-v3/root_rot.png\")"
+        },
+        {
+          "label": "SLUGS UNDER FORCING POTS\nSlugs may hide inside forcing pots or buckets and damage the tender forced stems.",
+          "src": "/images/key-risk-icons/naturalistic-v3/slug.png",
+          "mask": "url(\"http://127.0.0.1:5173/images/key-risk-icons/naturalistic-v3/slug.png\")"
+        },
+        {
+          "label": "POOR GROWTH OR STRINGY STEMS\nUsually linked to dry soil, lack of organic matter, overcropping, or forcing the same crown too often.",
+          "src": "/images/key-risk-icons/naturalistic-v3/deficiency.png",
+          "mask": "url(\"http://127.0.0.1:5173/images/key-risk-icons/naturalistic-v3/deficiency.png\")"
+        },
+        {
+          "label": "HONEY FUNGUS\nHoney fungus can cause rhubarb crowns to decline and die.",
+          "src": "/images/key-risk-icons/naturalistic-v3/root_rot.png",
+          "mask": "url(\"http://127.0.0.1:5173/images/key-risk-icons/naturalistic-v3/root_rot.png\")"
+        }
+      ]
+    },
+    {
+      "crop": "rhubarb",
+      "units": "imperial",
+      "pages": 2,
+      "pdf": "output/pdf/naturalistic-icons-installed/rhubarb-imperial.pdf",
+      "pdf_sha256": "9a9ee15f54f16eb9717c8918b35faf328779625b0d6fa9a696c54b2514a1d08f",
+      "fonts": "loaded",
+      "missing": [],
+      "warnings": [],
+      "unchanged_text_and_other_image_references": true,
+      "risks": [
+        {
+          "label": "CROWN ROT\nDecay at the crown can cause weak, dull stems and rotting buds.",
+          "src": "/images/key-risk-icons/naturalistic-v3/root_rot.png",
+          "mask": "url(\"http://127.0.0.1:5173/images/key-risk-icons/naturalistic-v3/root_rot.png\")"
+        },
+        {
+          "label": "SLUGS UNDER FORCING POTS\nSlugs may hide inside forcing pots or buckets and damage the tender forced stems.",
+          "src": "/images/key-risk-icons/naturalistic-v3/slug.png",
+          "mask": "url(\"http://127.0.0.1:5173/images/key-risk-icons/naturalistic-v3/slug.png\")"
+        },
+        {
+          "label": "POOR GROWTH OR STRINGY STEMS\nUsually linked to dry soil, lack of organic matter, overcropping, or forcing the same crown too often.",
+          "src": "/images/key-risk-icons/naturalistic-v3/deficiency.png",
+          "mask": "url(\"http://127.0.0.1:5173/images/key-risk-icons/naturalistic-v3/deficiency.png\")"
+        },
+        {
+          "label": "HONEY FUNGUS\nHoney fungus can cause rhubarb crowns to decline and die.",
+          "src": "/images/key-risk-icons/naturalistic-v3/root_rot.png",
+          "mask": "url(\"http://127.0.0.1:5173/images/key-risk-icons/naturalistic-v3/root_rot.png\")"
+        }
+      ]
+    }
+  ]
+}

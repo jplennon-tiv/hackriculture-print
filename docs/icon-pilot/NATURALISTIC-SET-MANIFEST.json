@@ -1,0 +1,391 @@
+{
+  "status": "naturalistic_style_selected_complete_set_for_review",
+  "decision": "John selected the naturalistic direction and explicitly requested redrawing the whole Key Risks set, including previously approved Growth and Weather and pilot drawings. Earlier approvals are retained as history, not used to exempt drawings from this redesign.",
+  "created_at": "2026-09-23T22:31:39.441088+00:00",
+  "total": 35,
+  "retained_selected_studies": 5,
+  "new_drawings": 30,
+  "production_installed": false,
+  "shared_revision": "dc2673fcd2119f35fe2d0392847e2e058e972f509f4118e9e2cb52adb9ab52fb",
+  "method": "Built-in image_gen, one image per subject, pigeon and leaf references. Generated PNGs retained without pixel edits; use alpha masks for exact adjustable ink. These are raster assets, not vector masters.",
+  "design_rule": "One core concept per icon; no secondary explanatory symbols. Frost is the crystal alone.",
+  "prompts": [
+    "NATURALISTIC-SINGLE-CONCEPT-PROMPTS.json",
+    "naturalistic-generation/root_rot-single-concept.json",
+    "NATURALISTIC-SET-PROMPTS.json",
+    "NATURALISTIC-STUDIES-PROMPTS.json",
+    "PIGEON-REVISION-PROMPT.txt"
+  ],
+  "icons": [
+    {
+      "key": "aphid",
+      "label": "Aphid",
+      "png": "/images/key-risk-icons/naturalistic-v3/aphid.png",
+      "sha256": "093634f9ed92ea0dcf1c16f9d8bffd39e190846f9b737d5697800ab951c7fd01",
+      "status": "new_for_review",
+      "old": "/images/key_risks/aphid.png",
+      "meaning": "Pear-shaped body, antennae, six legs and short rear tubes.",
+      "source_generation_file": "/Users/johnlennon/.codex/generated_images/01a0ce9a-441b-7850-86de-1b129506306d/exec-c4ad6582-85f0-476a-9b44-6bc548794d50.png",
+      "method": "built-in image_gen"
+    },
+    {
+      "key": "frost",
+      "label": "Frost",
+      "png": "/images/key-risk-icons/naturalistic-v3/frost.png",
+      "sha256": "3ad13c245b7fc35768b02be87287c46ce99ecd6b0e19f208aa7510ca31145487",
+      "status": "new_for_review",
+      "old": "/images/key_risks/frost.png",
+      "meaning": "A single six-armed frost crystal.",
+      "source_generation_file": "/Users/johnlennon/.codex/generated_images/01a0ce9a-441b-7850-86de-1b129506306d/exec-a9a89f9d-b50e-4ee9-9752-4f4b0af92eb9.png"
+    },
+    {
+      "key": "mildew",
+      "label": "Mildew",
+      "png": "/images/key-risk-icons/naturalistic-v3/mildew.png",
+      "sha256": "00cf518ef5456063cdd3268bd1773b502db4aec16cfc13e9089b955364170c42",
+      "status": "new_for_review",
+      "old": "/images/key_risks/powdery_mildew.png",
+      "meaning": "Irregular powder-like patches on a natural leaf.",
+      "source_generation_file": "/Users/johnlennon/.codex/generated_images/01a0ce9a-441b-7850-86de-1b129506306d/exec-c6772bf4-e856-43b1-bc2e-54bd93352d70.png",
+      "method": "built-in image_gen"
+    },
+    {
+      "key": "clubroot",
+      "label": "Clubroot",
+      "png": "/images/key-risk-icons/naturalistic-v3/clubroot.png",
+      "sha256": "49184695fa0e072674a0e3ffca08840d6f542c7cb0764c052c76a0adf4b85f0c",
+      "status": "new_for_review",
+      "old": "/images/key_risks/club_root.png",
+      "meaning": "A brassica with irregular swollen root lobes.",
+      "source_generation_file": "/Users/johnlennon/.codex/generated_images/01a0ce9a-441b-7850-86de-1b129506306d/exec-df9a9b66-83d6-4520-bb2d-ef7f0485d7c9.png",
+      "method": "built-in image_gen"
+    },
+    {
+      "key": "poor_germination",
+      "label": "Poor germination",
+      "png": "/images/key-risk-icons/naturalistic-v3/poor_germination.png",
+      "sha256": "be8fb9f1b23fb41d19b70459313f745f0633cb1e4e46bd7b5f58c677e16615d0",
+      "status": "new_for_review",
+      "old": "/images/key_risks/poor_germination.png",
+      "meaning": "Sparse seedling emergence above ungerminated seeds.",
+      "source_generation_file": "/Users/johnlennon/.codex/generated_images/01a0ce9a-441b-7850-86de-1b129506306d/exec-9101e2d8-8fb0-4d91-8a11-2447debd8c95.png",
+      "method": "built-in image_gen"
+    },
+    {
+      "key": "small_roots",
+      "label": "Small roots",
+      "png": "/images/key-risk-icons/naturalistic-v3/small_roots.png",
+      "sha256": "c89daeb734e553105574edccf1da514fe1269b6fcd11ccb4945c3e96c51f1edb",
+      "status": "new_for_review",
+      "old": "/images/key_risks/forked_root.png",
+      "meaning": "A short single root, distinct from the forked-root drawing.",
+      "source_generation_file": "/Users/johnlennon/.codex/generated_images/01a0ce9a-441b-7850-86de-1b129506306d/exec-b478f099-4ff3-4b75-b607-c65d88284087.png"
+    },
+    {
+      "key": "beetle",
+      "label": "Beetles and weevils",
+      "png": "/images/key-risk-icons/naturalistic-v3/beetle.png",
+      "sha256": "11fbf22ddd2064308bd837c9855c93d44347f3e28c33cc08886a246252d7757b",
+      "status": "new_for_review",
+      "old": "/images/key_risks/beetle.png",
+      "meaning": "Natural beetle anatomy and divided wing cases.",
+      "source_generation_file": "/Users/johnlennon/.codex/generated_images/01a0ce9a-441b-7850-86de-1b129506306d/exec-28029567-a789-4700-9bcb-41bbdb004a41.png",
+      "method": "built-in image_gen"
+    },
+    {
+      "key": "bird",
+      "label": "Birds / pigeons",
+      "png": "/images/key-risk-icons/naturalistic-v3/bird.png",
+      "sha256": "a0b8af127bc16457d63cd51c0625a9207ed718375b8616b5174aef19c990651e",
+      "status": "retained_selected_study",
+      "old": "/images/key_risks/bird.png",
+      "meaning": "Natural pigeon proportions, folded wing and delicate feet; retained from the successful study."
+    },
+    {
+      "key": "blight",
+      "label": "Blight",
+      "png": "/images/key-risk-icons/naturalistic-v3/blight.png",
+      "sha256": "376496cdf38d2177db7194b1fad315c4599be9654531f70e66fa3de0af78972f",
+      "status": "new_for_review",
+      "old": "/images/key_risks/blight.png",
+      "meaning": "Extensive irregular leaf damage, distinct from scattered spots.",
+      "source_generation_file": "/Users/johnlennon/.codex/generated_images/01a0ce9a-441b-7850-86de-1b129506306d/exec-8f4a3769-ab8d-424d-ac13-8bfa7228e5f6.png",
+      "method": "built-in image_gen"
+    },
+    {
+      "key": "blossom_drop",
+      "label": "Blossom drop / failed set",
+      "png": "/images/key-risk-icons/naturalistic-v3/blossom_drop.png",
+      "sha256": "96a04e8fc28885b77660dd77f40ddb560fb6710681e9bd68dd2b99c1fb382d7a",
+      "status": "new_for_review",
+      "old": "/images/key_risks/blossom_drop.png",
+      "meaning": "Detached blossom below its empty flower stalk.",
+      "source_generation_file": "/Users/johnlennon/.codex/generated_images/01a0ce9a-441b-7850-86de-1b129506306d/exec-567934b2-59e9-425c-80c3-ca7e7d051e2b.png",
+      "method": "built-in image_gen"
+    },
+    {
+      "key": "blossom_end_rot",
+      "label": "Blossom-end rot",
+      "png": "/images/key-risk-icons/naturalistic-v3/blossom_end_rot.png",
+      "sha256": "59f0d93f18559ac7aa7da5d7f04d119599af731f8aa876252787e0dc4b51e530",
+      "status": "retained_selected_study",
+      "old": "/images/key_risks/blossom_end_rot.png",
+      "meaning": "Tomato with damage at the blossom end; retained from the successful study."
+    },
+    {
+      "key": "bolting",
+      "label": "Bolting / premature flowering",
+      "png": "/images/key-risk-icons/naturalistic-v3/bolting.png",
+      "sha256": "769878395f22719254ad9eef3629a11e612d90b81c6578688b80d4e730b8d7a0",
+      "status": "new_for_review",
+      "old": "/images/key_risks/bolting.png",
+      "meaning": "A flowering stalk rising above a leafy rosette.",
+      "source_generation_file": "/Users/johnlennon/.codex/generated_images/01a0ce9a-441b-7850-86de-1b129506306d/exec-0c4162de-1310-43de-88ad-5d7c749522e5.png",
+      "method": "built-in image_gen"
+    },
+    {
+      "key": "caterpillar",
+      "label": "Caterpillars",
+      "png": "/images/key-risk-icons/naturalistic-v3/caterpillar.png",
+      "sha256": "e80c9fc737716a5550e1770802336ec26e18acc8a13352a12580a95496814437",
+      "status": "retained_selected_study",
+      "old": "/images/key_risks/caterpillar.png",
+      "meaning": "Natural segmented body and distinct legs; retained from the successful study."
+    },
+    {
+      "key": "damping_off",
+      "label": "Damping off",
+      "png": "/images/key-risk-icons/naturalistic-v3/damping_off.png",
+      "sha256": "7e46ab1344106079db5c186938e57210ff8e4cad77bc79cefa006c4c29d8a7d5",
+      "status": "new_for_review",
+      "old": "/images/key_risks/damping_off.png",
+      "meaning": "A seedling collapsed at a weakened stem base.",
+      "source_generation_file": "/Users/johnlennon/.codex/generated_images/01a0ce9a-441b-7850-86de-1b129506306d/exec-d2ac1b6b-f023-4cdc-b4d4-0e15b591eb77.png",
+      "method": "built-in image_gen"
+    },
+    {
+      "key": "deficiency",
+      "label": "Nutrient deficiency",
+      "png": "/images/key-risk-icons/naturalistic-v3/deficiency.png",
+      "sha256": "49f1494c0aa428f2c3d3d3343392311922f4645b77bffd5e49b706b94466e1a7",
+      "status": "new_for_review",
+      "old": "/images/key_risks/deficiency.png",
+      "meaning": "Interveinal damage indicated on a natural leaf.",
+      "source_generation_file": "/Users/johnlennon/.codex/generated_images/01a0ce9a-441b-7850-86de-1b129506306d/exec-acbfcba6-e424-43a3-b831-3ce696f664c8.png",
+      "method": "built-in image_gen"
+    },
+    {
+      "key": "fly",
+      "label": "Flies",
+      "png": "/images/key-risk-icons/naturalistic-v3/fly.png",
+      "sha256": "e2a0608d366214b5b6c5430cf99000fbb6adeb7759072422c7936e22a242f1b5",
+      "status": "new_for_review",
+      "old": "/images/key_risks/fly.png",
+      "meaning": "A fly with a single pair of wings and six legs.",
+      "source_generation_file": "/Users/johnlennon/.codex/generated_images/01a0ce9a-441b-7850-86de-1b129506306d/exec-32997d6f-c63e-44f4-96b1-527671a7e460.png",
+      "method": "built-in image_gen"
+    },
+    {
+      "key": "forked_root",
+      "label": "Forked roots",
+      "png": "/images/key-risk-icons/naturalistic-v3/forked_root.png",
+      "sha256": "037afdc664e8ed251749ba9215ba437c1942e05462d103d14d8118a9bb07bdaf",
+      "status": "new_for_review",
+      "old": "/images/key_risks/forked_root.png",
+      "meaning": "One carrot root dividing into two substantial branches.",
+      "source_generation_file": "/Users/johnlennon/.codex/generated_images/01a0ce9a-441b-7850-86de-1b129506306d/exec-9761470a-a500-48c1-8138-df49f04e0b64.png",
+      "method": "built-in image_gen"
+    },
+    {
+      "key": "grey_mould",
+      "label": "Grey mould / soft rot",
+      "png": "/images/key-risk-icons/naturalistic-v3/grey_mould.png",
+      "sha256": "9334259eb9df6bfa8ecbf963636e02d8b3232876a5c0d602514d3797beb27b43",
+      "status": "new_for_review",
+      "old": "/images/key_risks/grey_mould.png",
+      "meaning": "An affected fruit with a patch of mould growth.",
+      "source_generation_file": "/Users/johnlennon/.codex/generated_images/01a0ce9a-441b-7850-86de-1b129506306d/exec-b1b8c581-c35a-4fd7-970d-c0989bff62b4.png",
+      "method": "built-in image_gen"
+    },
+    {
+      "key": "hollow_root",
+      "label": "Hollow roots / hollow heart",
+      "png": "/images/key-risk-icons/naturalistic-v3/hollow_root.png",
+      "sha256": "9919316501ef182cddf6f0414281b28d38ab0e47b55632d1e623576e03abb3b2",
+      "status": "new_for_review",
+      "old": "/images/key_risks/hollow_root.png",
+      "meaning": "A cut root revealing an enclosed internal cavity.",
+      "source_generation_file": "/Users/johnlennon/.codex/generated_images/01a0ce9a-441b-7850-86de-1b129506306d/exec-838f7679-1b30-4ab3-a9ff-b5312a3fed87.png",
+      "method": "built-in image_gen"
+    },
+    {
+      "key": "leaf_spot",
+      "label": "Leaf spot",
+      "png": "/images/key-risk-icons/naturalistic-v3/leaf_spot.png",
+      "sha256": "cb9ee05831303b1f1ab640516aded775deb364b82a6e57700845f94bb3b1d88a",
+      "status": "retained_selected_study",
+      "old": "/images/key_risks/leaf_spot.png",
+      "meaning": "Natural leaf veins and irregular lesions; retained from the successful study."
+    },
+    {
+      "key": "mouse",
+      "label": "Mice",
+      "png": "/images/key-risk-icons/naturalistic-v3/mouse.png",
+      "sha256": "e6109689f262bca0ec0cc273b755ce540034ddedff85e76dc623b2978f733c3e",
+      "status": "new_for_review",
+      "old": "/images/key_risks/mouse.png",
+      "meaning": "Natural mouse proportions, slender tail and feet.",
+      "source_generation_file": "/Users/johnlennon/.codex/generated_images/01a0ce9a-441b-7850-86de-1b129506306d/exec-3995024f-7925-4043-b48e-6a94eb5a7450.png",
+      "method": "built-in image_gen"
+    },
+    {
+      "key": "root_rot",
+      "label": "Root rot",
+      "png": "/images/key-risk-icons/naturalistic-v3/root_rot.png",
+      "sha256": "16244082636771189bfa2875fa655a1e5c7e8b846ef11d054f843eec5537af5d",
+      "status": "new_for_review",
+      "old": "/images/key_risks/root_rot.png",
+      "meaning": "Damaged roots with surviving fine rootlets.",
+      "source_generation_file": "/Users/johnlennon/.codex/generated_images/01a0ce9a-441b-7850-86de-1b129506306d/exec-1c7857eb-43f9-40de-a0bc-9318fc9d206c.png",
+      "prompt": "Scientific-educational natural-history monochrome icon for ROOT ROT. The reference leaf image sets the drawing style only. Draw one lifted small plant with two modest leaves and a natural fine FIBROUS root system. The roots must be slender thread-like branching roots throughout, with frayed truncated ends, sparse remaining rootlets and irregular decayed breaks. NO thickened storage root, tuber, bulb, swollen root, root gall or club-shaped lobe anywhere: these would wrongly suggest clubroot. Use a few missing/broken sections and rough root edges to communicate decay, not arbitrary holes. One core concept, no additional symbols, soil block, tools or text. Refined organic contours and credible botanical anatomy, single flat dark ink #30352f on actual transparent background with transparent internal spaces. No white paint, gradients or shadows. Center the whole subject with generous clear margins. A coherent silhouette readable at 32px, not a busy root diagram."
+    },
+    {
+      "key": "rust_spots",
+      "label": "Rust spots",
+      "png": "/images/key-risk-icons/naturalistic-v3/rust_spots.png",
+      "sha256": "ea718c8ee43841f4d7a9f596152c3af4db2e10ab1c79aaacd1b45f68e98296b8",
+      "status": "new_for_review",
+      "old": "/images/key_risks/rust_spots.png",
+      "meaning": "Clusters of small pustules on a narrow allium leaf.",
+      "source_generation_file": "/Users/johnlennon/.codex/generated_images/01a0ce9a-441b-7850-86de-1b129506306d/exec-351407e5-b1e0-4442-adca-866eb5ab91bf.png",
+      "method": "built-in image_gen"
+    },
+    {
+      "key": "slug",
+      "label": "Slugs",
+      "png": "/images/key-risk-icons/naturalistic-v3/slug.png",
+      "sha256": "0860a239c9aee58ed96f08a346bd1d7fa8b337240df3749aabd2e462fc466c87",
+      "status": "retained_selected_study",
+      "old": "/images/key_risks/slug.png",
+      "meaning": "Long tapering body, mantle and feelers; retained from the successful study."
+    },
+    {
+      "key": "soil_grub",
+      "label": "Soil grubs",
+      "png": "/images/key-risk-icons/naturalistic-v3/soil_grub.png",
+      "sha256": "4f4a493666bca0ccff5eeb673e9ca5fa20ba99d70ce7a236b90318e20fb8232b",
+      "status": "new_for_review",
+      "old": "/images/key_risks/soil_grub.png",
+      "meaning": "A curled segmented grub with short legs near its head.",
+      "source_generation_file": "/Users/johnlennon/.codex/generated_images/01a0ce9a-441b-7850-86de-1b129506306d/exec-8d824402-ac04-4c98-8362-a6be9fc7f160.png",
+      "method": "built-in image_gen"
+    },
+    {
+      "key": "spider_mite",
+      "label": "Spider mites",
+      "png": "/images/key-risk-icons/naturalistic-v3/spider_mite.png",
+      "sha256": "bf059c808398c0e5b2cd1768c332bea76d58bfeb2a8a164ec863f144373c3525",
+      "status": "new_for_review",
+      "old": "/images/key_risks/spider_mite.png",
+      "meaning": "One eight-legged mite, without a secondary symbol.",
+      "source_generation_file": "/Users/johnlennon/.codex/generated_images/01a0ce9a-441b-7850-86de-1b129506306d/exec-8afea83c-f5d9-49d4-a511-edc3e1377a45.png"
+    },
+    {
+      "key": "splitting",
+      "label": "Splitting",
+      "png": "/images/key-risk-icons/naturalistic-v3/splitting.png",
+      "sha256": "436d975b2e77c79070e0487cdbd1ac78ae71ec58a368063630bf0182890d501f",
+      "status": "new_for_review",
+      "old": "/images/key_risks/splitting.png",
+      "meaning": "A swollen root with an open longitudinal split.",
+      "source_generation_file": "/Users/johnlennon/.codex/generated_images/01a0ce9a-441b-7850-86de-1b129506306d/exec-212de6a2-453a-476f-8855-0cf9aaaaf8b0.png",
+      "method": "built-in image_gen"
+    },
+    {
+      "key": "stem_rot",
+      "label": "Stem rot",
+      "png": "/images/key-risk-icons/naturalistic-v3/stem_rot.png",
+      "sha256": "d6c432add0ccf186aef4a8083d5cd74111797ab6bef0f0860ab542168aa70485",
+      "status": "new_for_review",
+      "old": "/images/key_risks/stem_rot.png",
+      "meaning": "Damage concentrated at the base of an upright stem.",
+      "source_generation_file": "/Users/johnlennon/.codex/generated_images/01a0ce9a-441b-7850-86de-1b129506306d/exec-7d7d1e83-7fb4-4b9c-a051-8eebd2e348a0.png",
+      "method": "built-in image_gen"
+    },
+    {
+      "key": "sun_scald",
+      "label": "Sun scorch / scald",
+      "png": "/images/key-risk-icons/naturalistic-v3/sun_scald.png",
+      "sha256": "ef86ea95475665e0945214e791e8b5f22f4856b543148d2ea367caa01d07cacc",
+      "status": "new_for_review",
+      "old": "/images/key_risks/sun_scald.png",
+      "meaning": "One pepper with an exposed-side scald patch.",
+      "source_generation_file": "/Users/johnlennon/.codex/generated_images/01a0ce9a-441b-7850-86de-1b129506306d/exec-3ae5d462-7796-4117-8aef-6d9507caf1a2.png"
+    },
+    {
+      "key": "thermometer",
+      "label": "Cold / lack of warmth",
+      "png": "/images/key-risk-icons/naturalistic-v3/thermometer.png",
+      "sha256": "642b908a955498c7b12e4704e4e9f4bcd05b1c36a933c77fb0f234180a65f942",
+      "status": "new_for_review",
+      "old": "/images/key_risks/thermometer.png",
+      "meaning": "Low-reading garden thermometer, distinct from frost.",
+      "source_generation_file": "/Users/johnlennon/.codex/generated_images/01a0ce9a-441b-7850-86de-1b129506306d/exec-899af997-f03b-403c-b65b-2a1bf7527de1.png",
+      "method": "built-in image_gen"
+    },
+    {
+      "key": "tipburn",
+      "label": "Tip burn",
+      "png": "/images/key-risk-icons/naturalistic-v3/tipburn.png",
+      "sha256": "3a0a5aea764e3c7fad56cc4900d963de724d7ecb69c7ba966b62ea64a647b11a",
+      "status": "new_for_review",
+      "old": "/images/key_risks/tipburn.png",
+      "meaning": "Damage concentrated at a curled leaf tip.",
+      "source_generation_file": "/Users/johnlennon/.codex/generated_images/01a0ce9a-441b-7850-86de-1b129506306d/exec-f31c16a3-a69e-49b3-a310-94907fc3cd24.png",
+      "method": "built-in image_gen"
+    },
+    {
+      "key": "virus_leaf",
+      "label": "Mosaic / distorted leaf",
+      "png": "/images/key-risk-icons/naturalistic-v3/virus_leaf.png",
+      "sha256": "d087adabe67c44d5c3863b7282238c4344800c15d38d16712eaefffdfa3aa8f9",
+      "status": "new_for_review",
+      "old": "/images/key_risks/virus_leaf.png",
+      "meaning": "A distorted leaf with irregular mosaic markings.",
+      "source_generation_file": "/Users/johnlennon/.codex/generated_images/01a0ce9a-441b-7850-86de-1b129506306d/exec-3cd35c83-c77d-450c-bd53-16a3b1478c76.png",
+      "method": "built-in image_gen"
+    },
+    {
+      "key": "weed",
+      "label": "Perennial weeds",
+      "png": "/images/key-risk-icons/naturalistic-v3/weed.png",
+      "sha256": "41f344a6af96c27a20bb0919102a5d91d53f8d8b4d700b1c6d5155f1ee93e945",
+      "status": "new_for_review",
+      "old": "/images/key_risks/weed.png",
+      "meaning": "Perennial weed with notched leaves and a substantial taproot.",
+      "source_generation_file": "/Users/johnlennon/.codex/generated_images/01a0ce9a-441b-7850-86de-1b129506306d/exec-91ae4046-f13c-4b20-879f-001151d4f706.png",
+      "method": "built-in image_gen"
+    },
+    {
+      "key": "whitefly",
+      "label": "Whitefly",
+      "png": "/images/key-risk-icons/naturalistic-v3/whitefly.png",
+      "sha256": "e678e8fdefe82afeccc186f4d20df0cb9608b62c047a46220d232f81b2dda015",
+      "status": "new_for_review",
+      "old": "/images/key_risks/whitefly.png",
+      "meaning": "A small insect with roof-like wings.",
+      "source_generation_file": "/Users/johnlennon/.codex/generated_images/01a0ce9a-441b-7850-86de-1b129506306d/exec-e02f2b7e-c87f-495b-a860-0bda96fe8e8c.png",
+      "method": "built-in image_gen"
+    },
+    {
+      "key": "wind",
+      "label": "Wind rock",
+      "png": "/images/key-risk-icons/naturalistic-v3/wind.png",
+      "sha256": "481791f387861e67409aa1f5b8409b47f598bbd0008261bc454be4e95476be50",
+      "status": "new_for_review",
+      "old": "/images/key_risks/wind.png",
+      "meaning": "A wind-bent plant with a loosened base.",
+      "source_generation_file": "/Users/johnlennon/.codex/generated_images/01a0ce9a-441b-7850-86de-1b129506306d/exec-b94bc9af-f104-4479-970f-35c0848ab914.png"
+    }
+  ]
+}

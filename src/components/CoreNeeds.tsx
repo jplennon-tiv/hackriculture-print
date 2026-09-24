@@ -1,4 +1,5 @@
 import type { ReactElement } from "react";
+import { quickFactIconPath } from "../lib/quickFactIcons";
 import type { CoreNeeds } from "../types";
 
 // Inline SVG icons for the Core Needs widget (swappable for PNGs later).
@@ -90,7 +91,7 @@ export const CORE_NEED_DEFS: {
     key: "sun" | "water" | "nutrition";
     label: string;
     color: string;
-    /** Illustrated PNG in public/images/icons (used by the print sheet). */
+    /** Approved coloured SVG (used by the print sheet). */
     img: string;
     /** Flat SVG fallback (used by the self-contained web bars). */
     Icon: (p: CoreNeedIconProps) => ReactElement;
@@ -99,21 +100,21 @@ export const CORE_NEED_DEFS: {
         key: "sun",
         label: "Sun",
         color: "#f5a623",
-        img: "/images/icons/sun.png",
+        img: quickFactIconPath("sun"),
         Icon: SunIcon,
     },
     {
         key: "water",
         label: "Water",
         color: "#2f80ed",
-        img: "/images/icons/water.png",
+        img: quickFactIconPath("water"),
         Icon: WateringCanIcon,
     },
     {
         key: "nutrition",
         label: "Nutrition",
         color: "#8a5a2b",
-        img: "/images/icons/nutrition.png",
+        img: quickFactIconPath("nutrition"),
         Icon: WheelbarrowIcon,
     },
 ];

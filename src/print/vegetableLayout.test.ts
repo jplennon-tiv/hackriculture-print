@@ -92,3 +92,9 @@ describe("page-two fitting", () => {
         expect(nextPage2Trim(0, null, 2)).toBe(2);
     });
 });
+
+import {pageContentBudget} from './vegetableLayout';
+it('warns before bottom padding and border spill onto another physical page',()=>{
+ expect(pageContentBudget(978.89,16,1,965)).toBe(960);
+ expect(pageContentBudget(978.89,16,1,958)).toBe(958);
+});

@@ -1,0 +1,902 @@
+{
+  "purpose": "Read-only scope evidence, not proposed or applied data edits",
+  "revision": "28df4d70397b07a9600a258d8de5f0b59e678d3c89f7390373186d2941a81fe0",
+  "crops": 44,
+  "final_tips": 110,
+  "counts": {
+    "plant_spacing": 9,
+    "planting": 11,
+    "protection": 16,
+    "storage": 12,
+    "harvest": 28,
+    "soil": 4,
+    "feeding": 2,
+    "sow": 17,
+    "support": 3,
+    "water": 6,
+    "depth": 1,
+    "yield": 1
+  },
+  "rows": [
+    {
+      "crop": "artichoke_jerusalem",
+      "index": 0,
+      "icon": "plant_spacing",
+      "text": "Keep the tall plants north of shorter vegetables so the screen does not rob them of light.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "artichoke_jerusalem",
+      "index": 1,
+      "icon": "planting",
+      "text": "A manageable clump is often easier to accommodate than a long shading row.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "artichoke_jerusalem",
+      "index": 2,
+      "icon": "protection",
+      "text": "In severe frost, cover stem bases with straw or lift tubers after the tops have died back.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "artichoke_jerusalem",
+      "index": 3,
+      "icon": "storage",
+      "text": "Protect stored tubers from rodents and inspect them regularly for damage or decay.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "artichoke_globe",
+      "index": 0,
+      "icon": "planting",
+      "text": "Seed-raised plants vary; offsets from good plants give more dependable results.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "artichoke_globe",
+      "index": 1,
+      "icon": "planting",
+      "text": "Replace ageing crowns gradually with vigorous suckers instead of renewing the whole bed at once.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "artichoke_globe",
+      "index": 2,
+      "icon": "harvest",
+      "text": "Very young heads may be eaten almost whole; older heads yield the fleshy scale bases and heart.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "artichoke_globe",
+      "index": 3,
+      "icon": "protection",
+      "text": "Inspect winter protection after wet weather and keep crowns out of stagnant damp.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "asparagus",
+      "index": 0,
+      "icon": "soil",
+      "text": "Treat the bed as a permanent feature: clean ground and patience pay off.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "asparagus",
+      "index": 1,
+      "icon": "feeding",
+      "text": "Strong summer fern growth feeds the crowns for next spring.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "aubergine",
+      "index": 0,
+      "icon": "planting",
+      "text": "Buy sturdy young plants in spring if you cannot provide warm, bright propagation conditions.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "aubergine",
+      "index": 1,
+      "icon": "harvest",
+      "text": "Adjust fruit thinning to the variety and the size you want, rather than using one fixed fruit count.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "bean_broad",
+      "index": 0,
+      "icon": "sow",
+      "text": "Sow spare seeds to fill gaps.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "bean_broad",
+      "index": 1,
+      "icon": "planting",
+      "text": "Wide rows of tall beans can shelter lower follow-on crops.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "bean_french",
+      "index": 0,
+      "icon": "harvest",
+      "text": "Pick before beans swell inside pods.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "bean_french",
+      "index": 1,
+      "icon": "support",
+      "text": "Give climbers supports at sowing or planting time.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "bean_runner",
+      "index": 0,
+      "icon": "sow",
+      "text": "Soak seed only if halo blight has not been a problem.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "bean_runner",
+      "index": 1,
+      "icon": "sow",
+      "text": "A warm July sowing may crop in autumn if soil stays moist.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "bean_runner",
+      "index": 2,
+      "icon": "water",
+      "text": "Keep roots moist from flowering.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "beet_leaf",
+      "index": 0,
+      "icon": "harvest",
+      "text": "Pick a little from several plants to keep a supply of young leaves coming.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "beet_leaf",
+      "index": 1,
+      "icon": "sow",
+      "text": "Keep late sowings growing before winter; they may provide useful early spring leaves.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "beetroot",
+      "index": 0,
+      "icon": "planting",
+      "text": "Leave four or five seedlings in module clumps.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "beetroot",
+      "index": 1,
+      "icon": "harvest",
+      "text": "Take the largest clump roots first, leaving others to swell.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "beetroot",
+      "index": 2,
+      "icon": "storage",
+      "text": "Twist off foliage; do not cut roots for storage.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "broccoli",
+      "index": 0,
+      "icon": "harvest",
+      "text": "Side shoots follow the main calabrese head.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "broccoli",
+      "index": 1,
+      "icon": "protection",
+      "text": "Keep netting clear of leaves.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "brussels_sprouts",
+      "index": 0,
+      "icon": "harvest",
+      "text": "Choose early and late varieties to extend winter picking.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "brussels_sprouts",
+      "index": 1,
+      "icon": "support",
+      "text": "Stake tall plants on windy sites.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "brussels_sprouts",
+      "index": 2,
+      "icon": "harvest",
+      "text": "Use tender leafy tops after button cropping.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "cabbage",
+      "index": 0,
+      "icon": "water",
+      "text": "Keep summer crops steadily watered.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "cabbage",
+      "index": 1,
+      "icon": "harvest",
+      "text": "Use spring thinnings as greens.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "cabbage",
+      "index": 2,
+      "icon": "storage",
+      "text": "Check stored heads regularly for rot.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "capsicum",
+      "index": 0,
+      "icon": "harvest",
+      "text": "Regularly picking some green peppers frees the plant to set more fruit.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "capsicum",
+      "index": 1,
+      "icon": "protection",
+      "text": "Use gloves when handling hot chillies and avoid touching your eyes.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "carrot",
+      "index": 0,
+      "icon": "soil",
+      "text": "Avoid fresh manure and disturbance around established roots.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "carrot",
+      "index": 1,
+      "icon": "harvest",
+      "text": "Work from one end of the row when harvesting.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "carrot",
+      "index": 2,
+      "icon": "storage",
+      "text": "Inspect stored roots and remove any that rot.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "cauliflower",
+      "index": 0,
+      "icon": "soil",
+      "text": "After peas or beans, keep soil settled; avoid pulling roots out.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "cauliflower",
+      "index": 1,
+      "icon": "plant_spacing",
+      "text": "Mini varieties need closer spacing than maincrops.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "cauliflower",
+      "index": 2,
+      "icon": "harvest",
+      "text": "Cut heads when ready, even if still small.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "celeriac",
+      "index": 0,
+      "icon": "protection",
+      "text": "Fleece can help newly planted seedlings establish; keep them growing without cold or dry checks.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "celeriac",
+      "index": 1,
+      "icon": "storage",
+      "text": "Check stored roots regularly and remove any that begin to rot.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "celery",
+      "index": 0,
+      "icon": "protection",
+      "text": "Wear gloves and long sleeves when tending celery; sap can irritate skin.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "celery",
+      "index": 1,
+      "icon": "protection",
+      "text": "Check for slugs; keep earth out of the heart.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "chicory",
+      "index": 0,
+      "icon": "sow",
+      "text": "Bring a few stored roots into growth at a time for a succession of winter chicons.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "chicory",
+      "index": 1,
+      "icon": "protection",
+      "text": "Check dark covers for slugs or rot without leaving the shoots exposed to light.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "chicory",
+      "index": 2,
+      "icon": "water",
+      "text": "Keep forcing compost moist, never waterlogged, and discard any roots that soften or rot.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "chicory",
+      "index": 3,
+      "icon": "planting",
+      "text": "Forcing and non-forcing varieties have different uses: select the type before planning winter salad crops.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "cucumber_greenhouse",
+      "index": 0,
+      "icon": "protection",
+      "text": "Check leaf undersides regularly so biological mite controls can be introduced before damage spreads.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "cucumber_greenhouse",
+      "index": 1,
+      "icon": "support",
+      "text": "Handle soft stems gently and support developing growth before it becomes heavy.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "cucumber_outdoor",
+      "index": 0,
+      "icon": "protection",
+      "text": "Support ground-grown fruit on a clean tile or board to reduce contact with wet soil.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "cucumber_outdoor",
+      "index": 1,
+      "icon": "water",
+      "text": "Water at the roots and avoid handling fragile stems roughly when picking or training.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "endive",
+      "index": 0,
+      "icon": "sow",
+      "text": "Repeat small sowings at roughly three-week intervals rather than producing one large glut.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "endive",
+      "index": 1,
+      "icon": "harvest",
+      "text": "Blanch only a few plants at once so pale hearts can be eaten at their best.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "endive",
+      "index": 2,
+      "icon": "storage",
+      "text": "Lift late plants into soil-filled boxes in dark, frost-free shelter to finish blanching.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "endive",
+      "index": 3,
+      "icon": "protection",
+      "text": "Do not tie or cover wet leaves: trapped moisture encourages rotting.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "florence_fennel",
+      "index": 0,
+      "icon": "planting",
+      "text": "Have modules ready when an early crop is nearly finished, then plant before they become root-bound.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "florence_fennel",
+      "index": 1,
+      "icon": "harvest",
+      "text": "Harvest a stemmy bulb for what it offers now; an elongated bulb is unlikely to swell later.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "florence_fennel",
+      "index": 2,
+      "icon": "water",
+      "text": "Maintain a compost mulch on light or depleted soil to conserve moisture through summer.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "florence_fennel",
+      "index": 3,
+      "icon": "harvest",
+      "text": "Do not wait for a fixed bulb size: harvest for tenderness before frost, fibrous growth or decay.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "garlic",
+      "index": 0,
+      "icon": "storage",
+      "text": "Softneck types usually store longer; use hardnecks earlier and enjoy their edible scapes.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "garlic",
+      "index": 1,
+      "icon": "plant_spacing",
+      "text": "Elephant garlic is a leek relative with large, mild cloves, so give it extra room.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "kale",
+      "index": 0,
+      "icon": "plant_spacing",
+      "text": "Choose spacing for your variety and growing method; larger plants need more room.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "kale",
+      "index": 1,
+      "icon": "harvest",
+      "text": "Winter-worn plants may still provide tender spring shoots.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "kohl_rabi",
+      "index": 0,
+      "icon": "sow",
+      "text": "Sow two or three small batches from April to June.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "kohl_rabi",
+      "index": 1,
+      "icon": "sow",
+      "text": "Try White Superschmelz for a July sowing and late crop.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "kohl_rabi",
+      "index": 2,
+      "icon": "water",
+      "text": "Moist soil and timely picking keep globes tender.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "leek",
+      "index": 0,
+      "icon": "storage",
+      "text": "If a winter bed must be cleared, heel lifted leeks into soil or moist sand under cover.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "leek",
+      "index": 1,
+      "icon": "depth",
+      "text": "Deeper planting gives more white shank, but excessive depth can check growth and make lifting harder.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "lettuce",
+      "index": 0,
+      "icon": "protection",
+      "text": "Keep summer seed trays cool and shaded.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "lettuce",
+      "index": 1,
+      "icon": "harvest",
+      "text": "Pick outer leaves without damaging the growing point.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "lettuce",
+      "index": 2,
+      "icon": "sow",
+      "text": "Sow hearting lettuces in succession to avoid a glut.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "marrow_courgette",
+      "index": 0,
+      "icon": "protection",
+      "text": "Raise developing marrows on a clean tile or board to keep their skins dry and sound.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "marrow_courgette",
+      "index": 1,
+      "icon": "harvest",
+      "text": "Remove misshapen first fruits and keep picking young courgettes to encourage the next crop.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "squash_pumpkin",
+      "index": 0,
+      "icon": "harvest",
+      "text": "Never carry squash or pumpkins by their stalks; support the weight of the fruit.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "squash_pumpkin",
+      "index": 1,
+      "icon": "storage",
+      "text": "Inspect stored fruit regularly and remove any showing soft patches or rot.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "mushroom",
+      "index": 0,
+      "icon": "planting",
+      "text": "Use fresh kits and check the supplier’s start-by date rather than storing them indefinitely.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "mushroom",
+      "index": 1,
+      "icon": "harvest",
+      "text": "Grow from identified cultivated spawn; do not treat an unknown mushroom appearing nearby as part of the crop.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "onion_shallot",
+      "index": 0,
+      "icon": "sow",
+      "text": "Unpack delayed sets and spread them in a cool, light place until planting.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "onion_shallot",
+      "index": 1,
+      "icon": "protection",
+      "text": "Spring sets need suitable soil conditions; prolonged cold increases bolting risk.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "oriental_leaves",
+      "index": 0,
+      "icon": "plant_spacing",
+      "text": "Use close sowings for baby leaves; give hearts more room.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "oriental_leaves",
+      "index": 1,
+      "icon": "sow",
+      "text": "Small late-July and August batches spread autumn picking.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "parsnip",
+      "index": 0,
+      "icon": "sow",
+      "text": "A few radishes mark slow-germinating rows and can be harvested before parsnips need the space.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "parsnip",
+      "index": 1,
+      "icon": "storage",
+      "text": "Lift only what you need while winter soil remains workable; keep stored roots from drying out.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "pea",
+      "index": 0,
+      "icon": "sow",
+      "text": "Start early crops under cover and sow short rows in succession for manageable pickings.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "pea",
+      "index": 1,
+      "icon": "harvest",
+      "text": "Pick frequently: pods left to mature can slow further cropping.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "potato",
+      "index": 0,
+      "icon": "protection",
+      "text": "Check mulch and ridges through the season: exposed tubers green in light and must not be eaten.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "potato",
+      "index": 1,
+      "icon": "storage",
+      "text": "Check stored potatoes regularly and remove soft or rotting tubers before decay spreads.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "radish",
+      "index": 0,
+      "icon": "sow",
+      "text": "Sow winter radishes in July or early August, not spring.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "radish",
+      "index": 1,
+      "icon": "harvest",
+      "text": "Clear quick crops promptly for the next crop.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "rhubarb",
+      "index": 0,
+      "icon": "harvest",
+      "text": "After forcing, take no more stalks that season and do not force the same crown the following year.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "rhubarb",
+      "index": 1,
+      "icon": "planting",
+      "text": "Healthy crown divisions retain a named variety; seedlings take longer and may vary.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "rhubarb",
+      "index": 2,
+      "icon": "planting",
+      "text": "Divide an ageing or crowded crown during dormancy and retain vigorous healthy pieces.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "rhubarb",
+      "index": 3,
+      "icon": "harvest",
+      "text": "Leaves are not edible. Compost them and use only the stalks in the kitchen.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "salsify_scorzonera",
+      "index": 0,
+      "icon": "plant_spacing",
+      "text": "Discard thinnings rather than transplanting: disturbed taproots rarely make a good crop.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "salsify_scorzonera",
+      "index": 1,
+      "icon": "harvest",
+      "text": "Scorzonera can be grown on into a second year; salsify left too long will flower and seed.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "salsify_scorzonera",
+      "index": 2,
+      "icon": "harvest",
+      "text": "Young second-year flower shoots can be cut and eaten before they become hard.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "salsify_scorzonera",
+      "index": 3,
+      "icon": "yield",
+      "text": "Grow these crops for delicacy and flavour rather than expecting a bulky staple yield.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "spinach",
+      "index": 0,
+      "icon": "plant_spacing",
+      "text": "Use tender thinnings in the kitchen instead of letting seedlings crowd one another.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "spinach",
+      "index": 1,
+      "icon": "sow",
+      "text": "Have a replacement short row ready when heat or flowering ends a true-spinach crop.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "swede",
+      "index": 0,
+      "icon": "plant_spacing",
+      "text": "Give maincrop roots more room than baby swedes.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "swede",
+      "index": 1,
+      "icon": "storage",
+      "text": "Store only sound roots and check them regularly.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "sweet_corn",
+      "index": 0,
+      "icon": "plant_spacing",
+      "text": "Check variety isolation advice: nearby maize or different sweet-corn types can affect eating quality.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "sweet_corn",
+      "index": 1,
+      "icon": "soil",
+      "text": "Chop healthy spent stems for compost; tough pieces may need a second composting cycle.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "tomato_greenhouse",
+      "index": 0,
+      "icon": "protection",
+      "text": "Check leaf undersides often so whitefly can be managed while numbers are still low.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "tomato_greenhouse",
+      "index": 1,
+      "icon": "feeding",
+      "text": "Avoid high-potash overfeeding: balanced nutrition matters as much as the amount supplied.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "tomato_outdoor",
+      "index": 0,
+      "icon": "harvest",
+      "text": "Check hidden fruit on bush plants regularly: ripe tomatoes and slug damage are easily missed.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "tomato_outdoor",
+      "index": 1,
+      "icon": "sow",
+      "text": "Stop tall plants in time for the local season; leave two leaves above the final truss.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "turnip",
+      "index": 0,
+      "icon": "harvest",
+      "text": "Dual-purpose varieties also provide young edible leaves.",
+      "status": "approved",
+      "locked": false
+    },
+    {
+      "crop": "turnip",
+      "index": 1,
+      "icon": "sow",
+      "text": "A small August sowing makes a useful catch crop.",
+      "status": "approved",
+      "locked": false
+    }
+  ]
+}

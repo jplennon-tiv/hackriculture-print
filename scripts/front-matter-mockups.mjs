@@ -8,7 +8,7 @@ await fs.mkdir(out,{recursive:true});
 const asset=async p=>'data:image/png;base64,'+(await fs.readFile(path.join(root,p))).toString('base64');
 const veg={};for(const k of ['beetroot','pea','tomato_outdoor','radish','artichoke_globe','squash_pumpkin','parsnip'])veg[k]=await asset(`public/images/vegetables/cropped/${k}.png`);
 veg.carrot=await asset('public/images/vegetables/carrot.png');
-const icons={};for(const k of ['sow','harvest','depth','row_spacing','plant_spacing','ready_in'])icons[k]=await asset(`public/images/quick_facts/trial/${k}.png`);
+const icons={};for(const k of ['sow','harvest','depth','row_spacing','plant_spacing','ready_in'])icons[k]=await asset(`docs/archive/coloured-icons-pre-style-a/public/images/quick_facts/trial/${k}.png`);
 for(const k of ['sun','water','nutrition'])icons[k]=await asset(`public/images/icons/${k}.png`);
 const sow=await asset('public/images/planting/carrot/sow-thinly-v1.png');
 const thin=await asset('public/images/planting/carrot/thin-later-v1.png');

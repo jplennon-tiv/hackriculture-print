@@ -1,6 +1,25 @@
-**23 September update:** All 44 normalised crops and current proofs are approved by John. The final three planting clarifications are signed off: [catalogue review](../hackriculture-data/planning/NORMALISATION-FRAMING-REVIEW.html) · [completion report](../hackriculture-data/planning/NORMALISATION-PLANTING-REPORT.md). Earlier checkpoints below are historical.
+**23 September update:** All 44 normalised crops and current proofs are approved by John. The final three planting clarifications are signed off: [catalogue review](../hackriculture-data/planning/NORMALISATION-FRAMING-REVIEW.html) · [completion report](../hackriculture-data/planning/NORMALISATION-PLANTING-REPORT.md). All 14 shared Troubles groups and their 28 proofs are also approved: [Troubles sign-off](../hackriculture-data/planning/troubles-normalisation/BROAD-APPROVED.json). Earlier checkpoints below are historical.
 
 # Shared data and backups
+
+24 September page-fit corrections: five vegetable records updated with the
+revision-guarded writer and exact prior-byte backups. Six inline `short_text`
+captions, concise bean signs/control (full original prose retained in `text`),
+and explicit broad-bean No Pods scope. Print extracts, saved layout choices,
+locks and statuses preserved; layout dependencies/evidence refreshed. Other 53
+records unchanged. [Receipt](docs/page-fit/SAVE-RECEIPT.json) ·
+[Decisions and proofs](docs/page-fit/README.md).
+
+24 September Key Risks: parsnip carrot-fly advice and crop-specific splitting
+were corrected with revision guards and exact prior-byte backups; the seven
+selected pest rows are preserved. [Core receipt](docs/icon-pilot/KEY-RISK-CORE-RECEIPT.json).
+The subsequent silhouette redraw made no canonical changes: all 58 records and
+current print-companion dependencies were verified unchanged.
+
+23 September icon installation: only two approved print-extract icon keys changed
+(broccoli netting, greenhouse-cucumber inspection), plus their review/output checksums.
+The guarded writer preserved exact prior bytes; [receipt](docs/icon-pilot/INSTALL-RECEIPT.json).
+Gardening prose, ranks, locks and the other 42 crop records are unchanged.
 
 **Current, 22 September:** batch 01 (pea, French bean, carrot) is accepted.
 John accepted batch-02 review notes and authorised RHS-first research, likely

@@ -20,6 +20,11 @@ export type PageFitAction =
     | "grow-image"
     | "done";
 
+/** The content sentinel excludes the page's bottom padding and border. */
+export function pageContentBudget(minHeight:number,paddingBottom:number,borderBottom:number,limit:number):number {
+    return Math.min(limit,Math.floor(minHeight-paddingBottom-borderBottom-1));
+}
+
 export function pageFitAction({
     gap,
     previousGap,

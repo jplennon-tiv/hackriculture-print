@@ -36,6 +36,8 @@ describe('vegetable print extracts',()=>{
   v.ai_print_layout={...v.ai_print_extracts!.sections.soil_facts!,value,renderer_revision:VEGETABLE_PRINT_REVISION,dependencies:layoutDependencies(v),output_checksum:printChecksum({...value,extracts:{soil_facts:v.ai_print_extracts!.sections.soil_facts!.value}})};
   expect(resolveVegetablePrintLayout(v).layout).toEqual(value);v.metadata={notes:'Unrelated'};expect(resolveVegetablePrintLayout(v).layout).toEqual(value);
   v.ai_print_layout.renderer_revision='vegetable-extracts-v4';expect(resolveVegetablePrintLayout(v).layout).toEqual(value);
+  v.ai_print_layout.renderer_revision='vegetable-extracts-v5';expect(resolveVegetablePrintLayout(v).layout).toEqual(value);
+  v.ai_print_layout.renderer_revision='vegetable-extracts-v6';expect(resolveVegetablePrintLayout(v).layout).toEqual(value);
   v.ai_print_layout.renderer_revision='old';expect(resolveVegetablePrintLayout(v).warning).toContain('renderer');v.ai_print_layout.renderer_revision=VEGETABLE_PRINT_REVISION;
   v.ai_print_layout.value.pest_limit=5;expect(resolveVegetablePrintLayout(v).warning).toContain('manual');v.ai_print_layout.value.pest_limit=4;
   v.harvesting![0].text='Changed';expect(resolveVegetablePrintLayout(v).warning).toContain('source');

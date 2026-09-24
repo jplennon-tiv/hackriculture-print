@@ -94,7 +94,7 @@ export function BatchPrintButton() {
             : 0;
 
     return (
-        <div style={{ display: "flex", alignItems: "center", gap: 12, flexWrap:'wrap' }}>
+        <div className="batch-print-controls">
             <button
                 onClick={handleClick}
                 disabled={running}
@@ -128,7 +128,7 @@ export function BatchPrintButton() {
                     ⛔ {progress.fatal}
                 </span>
             )}
-            {(progress.warningList.length>0||progress.errorList.length>0)&&<details open style={{flexBasis:'100%',background:'#fff',color:'#222',padding:12,borderRadius:6,maxHeight:320,overflowY:'auto'}}>
+            {(progress.warningList.length>0||progress.errorList.length>0)&&<details open className="batch-print-report">
                 <summary>Batch report: {progress.warningList.length} guides need layout review; {progress.errorList.length} export errors</summary>
                 {progress.warningList.length>0&&<ul>{progress.warningList.map((item,i)=><li key={i}><strong>{item.label}</strong>: {item.detail}</li>)}</ul>}
                 {progress.errorList.length>0&&<ul>{progress.errorList.map((item,i)=><li key={i}><strong>{item.label}</strong>: {item.detail}</li>)}</ul>}

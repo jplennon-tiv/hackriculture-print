@@ -1,0 +1,112 @@
+{
+  "date": "2026-09-24T17:04:56.768673+00:00",
+  "artwork": {
+    "redraws": 29,
+    "approved_references_preserved": 2,
+    "original_approved_png_hashes_preserved": 35,
+    "transparent_assets": 31,
+    "status": "all31 approved by John and wired in",
+    "manifest": "SILHOUETTE-SET-MANIFEST.json",
+    "alpha_checks": "SILHOUETTE-ALPHA-CHECKS.json"
+  },
+  "assignments": {
+    "crops": 44,
+    "cards": 173,
+    "all_images_loaded": true,
+    "no_duplicate_display_identities": true,
+    "pest_selections_and_all_card_text_unchanged_during_redraw": true,
+    "rejected_art_excluded": true,
+    "warnings": [
+      {
+        "crop": "bean_broad",
+        "before": [
+          "Page 1: content exceeds the layout budget by approximately 2 mm; check the exported PDF for spillover.",
+          "Page 2: content exceeds the layout budget by approximately 45 mm; check the exported PDF for spillover."
+        ],
+        "after": [
+          "Page 1: content exceeds the layout budget by approximately 2 mm; check the exported PDF for spillover.",
+          "Page 2: content exceeds the layout budget by approximately 45 mm; check the exported PDF for spillover."
+        ]
+      },
+      {
+        "crop": "bean_french",
+        "before": [
+          "Page 2: content exceeds the layout budget by approximately 19 mm; check the exported PDF for spillover."
+        ],
+        "after": [
+          "Page 2: content exceeds the layout budget by approximately 19 mm; check the exported PDF for spillover."
+        ]
+      },
+      {
+        "crop": "marrow_courgette",
+        "before": [
+          "Page 1: content exceeds the layout budget by approximately 1 mm; check the exported PDF for spillover."
+        ],
+        "after": [
+          "Page 1: content exceeds the layout budget by approximately 1 mm; check the exported PDF for spillover."
+        ]
+      },
+      {
+        "crop": "mushroom",
+        "before": [
+          "sowing_notes: automatic fallback selection; prepare a coordinated editorial extract before approval."
+        ],
+        "after": [
+          "sowing_notes: automatic fallback selection; prepare a coordinated editorial extract before approval."
+        ]
+      }
+    ]
+  },
+  "canonical_data": {
+    "revision": "e25a96e1cc08f8beab170f0750d9cd7628dcb33dbe25bee0b2eb145944b13c8b",
+    "unchanged_records": 58,
+    "writes_this_redraw": 0,
+    "current_companions": 44,
+    "schema_validation": "passed",
+    "earlier_guarded_corrections": "KEY-RISK-CORE-RECEIPT.json"
+  },
+  "tests": {
+    "focused": 15,
+    "full": 273,
+    "build": "passed; existing large-chunk warning"
+  },
+  "pdfs": {
+    "files": 10,
+    "pages": 20,
+    "all_pages_visually_reviewed": true,
+    "crops": [
+      "parsnip",
+      "beetroot",
+      "cauliflower",
+      "rhubarb",
+      "potato"
+    ],
+    "units": [
+      "metric",
+      "imperial"
+    ],
+    "readiness_fonts_images": "passed",
+    "new_clipping_or_fit_warnings": false,
+    "receipt": "KEY-RISK-CORRECTION-PROOFS.json",
+    "apple_pdf_spot_check": "Rhubarb metric, 150%; no icon box edges observed"
+  },
+  "review_board": {
+    "file": "SILHOUETTE-SET.html",
+    "images_loaded": 327,
+    "local_links_exist": true,
+    "mobile_width": 390,
+    "gallery_visual_review": "all31 at enlarged and32px sizes"
+  },
+  "limitations": [
+    "Existing fit warnings on broad bean, French bean and courgette, and mushroom sowing fallback, unchanged.",
+    "Audited false dormant label fallbacks stay unassigned; all currently rendered44crop Key Risks are mapped.",
+    "Crop bubbles deferred."
+  ],
+  "approval": {
+    "date": "2026-09-24",
+    "by": "John",
+    "receipt": "SILHOUETTE-APPROVAL.json",
+    "drawings": "approved",
+    "page_proofs": "approved"
+  }
+}

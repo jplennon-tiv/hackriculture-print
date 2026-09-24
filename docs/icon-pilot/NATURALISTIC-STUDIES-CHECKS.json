@@ -1,0 +1,60 @@
+{
+  "status": "passed_with_recorded_negligible_alpha_noise",
+  "checks": [
+    {
+      "key": "slug",
+      "width": 1254,
+      "height": 1254,
+      "transparent_pixels": 1399838,
+      "painted_pixels": 172678,
+      "edge_pixels": 0,
+      "max_edge_alpha": 0,
+      "note": null,
+      "generated_bytes_preserved": true
+    },
+    {
+      "key": "caterpillar",
+      "width": 1254,
+      "height": 1254,
+      "transparent_pixels": 1351939,
+      "painted_pixels": 220577,
+      "edge_pixels": 0,
+      "max_edge_alpha": 0,
+      "note": null,
+      "generated_bytes_preserved": true
+    },
+    {
+      "key": "leaf_spot",
+      "width": 1254,
+      "height": 1254,
+      "transparent_pixels": 1176074,
+      "painted_pixels": 396442,
+      "edge_pixels": 0,
+      "max_edge_alpha": 0,
+      "note": null,
+      "generated_bytes_preserved": true
+    },
+    {
+      "key": "blossom_end_rot",
+      "width": 1254,
+      "height": 1254,
+      "transparent_pixels": 1024291,
+      "painted_pixels": 548225,
+      "edge_pixels": 7,
+      "max_edge_alpha": 1,
+      "note": "Seven nearly transparent generated pixels at the bottom border (alpha 1/255); no visible subject clipping. Original bytes retained.",
+      "generated_bytes_preserved": true
+    }
+  ],
+  "previous_risk_pairs_unchanged": 35,
+  "production_monochrome_files_unchanged": 79,
+  "coloured_approved_pairs_unchanged": 36,
+  "shared_revision_unchanged": "dc2673fcd2119f35fe2d0392847e2e058e972f509f4118e9e2cb52adb9ab52fb",
+  "local_links_checked": 12,
+  "broken_images": 0,
+  "browser_errors": [],
+  "controls": "Ink and transparency checked",
+  "mobile": "No horizontal overflow at 390px",
+  "scope": "Artwork and review documentation only. No application code, production mappings, PDF layouts or data changes; no new application tests required.",
+  "visual_review": "All four three-way comparisons inspected enlarged and at 32px. Natural contours are retained; fine internal divisions, especially disease lesions, soften at actual size. Style decision remains with John."
+}

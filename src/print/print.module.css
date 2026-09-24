@@ -1511,14 +1511,18 @@ body {
     display: block;
     width: 32px;
     height: 32px;
+    margin: 0 auto;
     object-fit: contain;
-    margin: 0 auto 4px;
-    mix-blend-mode: multiply;
+    filter: url(#cheat-key-risk-ink);
+}
+
+.cheatKeyRiskInk {
+    flood-color: var(--key-risk-ink, #30352f);
 }
 
 /* ── Key risk item — centred layout with icon above name ─────────────────── */
 .cheatKeyRiskItem {
-    padding: 4px 6px;
+    padding: 8px 6px 4px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1556,8 +1560,8 @@ body {
 
 /* ── Key risk icon slot — fixed height so names align across all cells ────── */
 .cheatKeyRiskIconSlot {
-    width: 28px;
-    height: 28px;
+    width: 32px;
+    height: 32px;
     display: flex;
     align-items: center;
     justify-content: center;

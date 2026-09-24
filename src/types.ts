@@ -7,6 +7,8 @@ export interface RankedText {
     rank: number;
     star?: boolean;
     short_text?: UnitText;
+    /** Explicit crop scope for a crop-specific inline condition. */
+    applies_to?: string[];
 }
 
 /**

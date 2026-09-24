@@ -33,6 +33,13 @@ React 19, TypeScript and Vite provide the local app. React Router handles public
 
 Admin middleware resolves the sibling data folder from the configured Vite project root. No database is involved. Vite allows the imported shared JSON files without exposing the shared backup folder. Both admin and PDF plugins require the development server; PDF endpoints are unauthenticated and must remain local-only.
 
+The public batch report stays in normal header flow: `.app-header-inner` has a
+minimum height and wraps, while `.batch-print-controls` exposes its children to
+that layout. `.batch-print-report` takes a full row with bounded scrolling.
+Do not restore a fixed header height or overlay the report over navigation.
+`scripts/check-batch-report-layout.mjs` exercises warning/error streams and
+collapse/scroll behaviour at four widths without generating PDFs.
+
 ## Accepted print design
 
 22 September page-fill correction: optional saved `tips_columns: 2` arranges
@@ -60,9 +67,27 @@ generic soil default. See vegetable-ai-pilot/ROLLOUT.md for corrected proofs.
 
 Page one uses a staggered grid: introduction and hero interlock above Quick Facts/Core Needs on the left, with sowing/harvest calendar and varieties on the right. Retain original borders, dark headings, tinted variety tables and coloured Key Risks. The borderless experiment was rejected.
 
-The 19 Quick Facts icons have SVG masters and transparent 384px PNG exports in `public/images/quick_facts/trial/`. Printed icons display at 28px. `src/lib/quickFactIcons.ts` owns context-sensitive selection and legacy paths; see the [icon guide](public/images/quick_facts/trial/README.md).
+The approved style-A library has 36 transparent SVG masters and 384px PNG exports in `public/images/coloured-icons/style-a-v1/`. Quick Facts and printed Core Needs use SVGs at 28px; Final Tips use 32px. `src/lib/quickFactIcons.ts` owns selection, the nutrition/feeding alias and custom legacy fallback paths. All 36 meanings are available in the admin picker; no new keyword remapping was introduced. See the [icon guide](public/images/coloured-icons/style-a-v1/README.md) and [archive manifest](docs/archive/coloured-icons-pre-style-a/MANIFEST.json).
 
-Core Needs uses 1–5 scores for sun, water and nutrition: PNG icons/five-cell bars in print, shared SVG/continuous bars on public pages.
+Key Risks retain the 35 approved naturalistic transparent PNGs in
+`public/images/key-risk-icons/naturalistic-v3/`, supplemented by 31 crop-specific
+silhouettes in `silhouette-v5/` (all drawings and representative page proofs
+approved by John on 24 September). `src/lib/keyRiskIcons.ts` resolves crop-specific assignments
+before shared labels. Onions/shallots Bolting has a dedicated
+`onion-bolting-v1/onion_bolting.png` override (approved and installed).
+`troubleIdentity.ts` removes duplicate display identities
+without deleting master advice. No rejected `assignment-v4` artwork is used.
+32px images use a shared SVG alpha-preserving colour filter for consistent
+`--key-risk-ink` (default `#30352f`); ordinary images participate in existing
+decode/readiness checks. Avoid CSS background masks here: Apple PDF rendering
+showed box-edge hairlines at fractional zoom. Slots are 32px with 8px top
+clearance. Renderer v8 retains v7/v6/v5 and eligible string-only v4 saved content
+choices, then remeasures them. Shared approval records are preserved.
+[Current evidence and limitations](docs/icon-pilot/KEY-RISK-CORRECTIONS-STATUS.md)
+records all 44 crop assignments and five crops in both units. Old risk assets
+remain for historical review boards; crop bubbles remain deferred.
+
+Core Needs uses 1–5 scores for sun, water and nutrition: approved style-A SVG icons/five-cell bars in print, shared SVG/continuous bars on public pages.
 
 `src/print/heroImageCrops.json` maps originals to lossless crops and records dimensions. Cropping trims fully transparent margins, retains a 2% border and checks retained RGBA pixels without resampling. Originals remain intact. Use crop dimensions to recover space without shrinking illustrations.
 
@@ -110,7 +135,7 @@ Troubles renderer (19 September): `PrintTroublePage.tsx` uses isolated `troubles
 Front matter update (18 September): batch now includes `public/front-matter/how-to-use-A4.pdf` immediately after the cover as `output/01_how-to-use_A4.pdf`. It contains two A4 pages, counted as one job; both front-matter documents are static copies independent of crop units/paper. Missing-file errors do not halt subsequent jobs. Rebuild with `scripts/build-how-to.mjs`, review the output, then install the PDF under public/front-matter. Actual reference sheets and native layout are used, not generated gardening text. Verified both pages, six batch tests, 214 full tests and build.
 
 - `node scripts/crop-hero-images.mjs` defaults to chicory; it also accepts stable crop keys or `--all`. Inspect before broad runs. It uses sharp and rewrites generated crops/the crop manifest; regenerate only affected crops after replacing originals.
-- `node scripts/render-quick-fact-icons.mjs` exports SVG masters using installed Chromium. Inspect transparency and legibility at actual print size after edits.
+- The superseded Quick Facts raster exporter is archived with its original assets. Current style-A artwork is hash-guarded by `docs/icon-pilot/build-coloured-set.mjs`; do not re-render approved artwork unnecessarily. Static front-matter builders retain archived icons to reproduce their separately approved pages.
 - Some asset paths are constructed dynamically; text searches alone do not prove an image is unused. Preserve original image quality and avoid speculative cleanup.
 
 ## Current baseline and limitations
@@ -131,3 +156,14 @@ Known issues, to address only within requested scope:
 Maintain this current summary when the implementation changes. Put historical logs in backups rather than extending the working guide with repeated session notes.
 
 Vegetable widget coordination (21 September): `vegetableEditorial.ts` owns legacy rank/deduplication and labelled measurement fallback; `months.ts` formats exact circular month windows. `facts.ts` keeps variant labels in full facts and compact ranges in headers. Valid saved sowing extracts suppress optional planting prefix selection; no new runtime AI or cross-widget state. `data-editorial-report` exposes selection mode/counts/notes; missing extracts warn. `vegetable-extracts-v4` requires refreshed renderer evidence. See [workflow and decisions](docs/vegetable-ai-pilot/WIDGET-COORDINATION.md).
+
+24 September page-fit update (renderer v9): Key Risks prefer an inline ranked
+`short_text`, falling back to full `text`; no schema migration is needed for that
+existing field. Ranked inline conditions additionally accept optional
+`applies_to`, aligned in types/Zod. Explicit inline scope overrides same-label
+shared scope; unscoped advice retains the existing safety filter. Radish root
+quality aliases deduplicate only for radish. Existing v8/v7/v6/v5 and eligible v4
+layout choices remain compatible. Overflow warnings deduct page bottom padding,
+border and a rounding pixel from computed min-height, capped by the existing
+budget; warnings remain conservative and actual PDF page counts are authoritative.
+No font, artwork or padding changes. [Five-crop evidence](docs/page-fit/README.md).

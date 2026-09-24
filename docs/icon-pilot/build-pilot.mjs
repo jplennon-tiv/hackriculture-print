@@ -1,0 +1,105 @@
+// Isolated, hand-drawn vector study. Does not replace production assets or data.
+import fs from 'node:fs';
+import path from 'node:path';
+import sharp from 'sharp';
+
+const root = process.cwd();
+const assetDir = path.join(root, 'public/images/icon-pilot/v1');
+fs.mkdirSync(assetDir, { recursive: true });
+const palette = { ink: '#344638', leaf: '#698958', light: '#b9ca8e', earth: '#966641', amber: '#e4af57', cream: '#f1dcb7', water: '#669bac', mist: '#c7dfe2' };
+const styles = Object.entries(palette).map(([k,v])=>`.${k}{fill:var(--${k},${v})}`).join('');
+const sprout = (x,y,s=1)=>`<g transform="translate(${x} ${y}) scale(${s})"><path class="light" d="M0 0C-14 1-20-8-19-17C-7-18 0-10 0 0Z"/><path class="leaf" d="M0-2C1-16 9-21 21-20C20-7 10-1 0-2Z"/><path d="M0 13V-6" fill="none"/></g>`;
+const entries = [
+  ['sow','Sowing','colour','A seed packet and falling seeds; sowing rather than transplanting.',`
+    <g transform="rotate(-13 40 38)"><path class="cream" d="M19 12H60V62H19Z"/><path class="amber" d="M19 12H60V24H19Z"/><path d="M19 53H60" fill="none"/>${sprout(39,43,.58)}</g>
+    <ellipse class="earth" cx="66" cy="65" rx="3.6" ry="5" transform="rotate(28 66 65)"/><ellipse class="earth" cx="54" cy="77" rx="3.6" ry="5" transform="rotate(-22 54 77)"/>
+    <path d="M13 86H83" fill="none"/><path d="M72 81L76 85M27 79L31 84" fill="none"/>`],
+  ['row_spacing','Between rows','colour','Two rows viewed from above, with a perpendicular distance arrow.',`
+    <path class="cream" d="M14 16H62V31H14Z M14 64H62V79H14Z"/>
+    <g class="leaf"><path d="M25 25C15 23 17 15 17 15C25 15 29 20 25 25Z M25 25C23 15 32 12 34 15C35 23 29 25 25 25Z"/><path d="M49 25C39 23 41 15 41 15C49 15 53 20 49 25Z M49 25C47 15 56 12 58 15C59 23 53 25 49 25Z"/><path d="M25 73C15 71 17 63 17 63C25 63 29 68 25 73Z M25 73C23 63 32 60 34 63C35 71 29 73 25 73Z"/><path d="M49 73C39 71 41 63 41 63C49 63 53 68 49 73Z M49 73C47 63 56 60 58 63C59 71 53 73 49 73Z"/></g>
+    <path d="M78 21V74M72 27L78 21L84 27M72 68L78 74L84 68M15 48H59" fill="none"/>`],
+  ['plant_spacing','Between plants','colour','Two individual plants, with a horizontal distance arrow.',`
+    ${sprout(25,43,.77)}${sprout(72,43,.77)}
+    <path class="cream" d="M10 58H86V64H10Z"/><path d="M20 79H77M26 73L20 79L26 85M71 73L77 79L71 85" fill="none"/>`],
+  ['water','Watering','colour','Watering can with a visible rose and separate drops.',`
+    <path d="M25 40C5 28 8 69 27 59" fill="none" stroke-width="6"/>
+    <path class="water" d="M23 33H56L52 76Q38 82 25 74Z"/>
+    <path class="mist" d="M55 50L72 33L78 39L54 66Z"/>
+    <path class="water" d="M68 30L75 23L86 35L80 42Z"/>
+    <path class="mist" d="M23 33Q38 26 56 33L55 39H24Z"/>
+    <path d="M32 29V22Q42 14 51 25" fill="none" stroke-width="4"/>
+    <path class="water" d="M79 49Q71 60 79 60Q87 60 79 49Z M87 66Q80 75 87 75Q94 75 87 66Z" stroke="none"/>
+    <path d="M33 47L34 67" stroke="#c7dfe2" stroke-width="4" fill="none"/>`],
+  ['nutrition','Feeding / nutrition','colour','Compost sack with a leaf emblem; shared symbol for the two nutrition labels.',`
+    <path class="cream" d="M33 22L27 10L47 14L64 10L59 23L69 43Q85 78 62 84H32Q11 79 23 49Z"/>
+    <path class="earth" d="M31 23H61V30H31Z"/>
+    <path class="leaf" d="M35 66C25 46 49 43 61 40C67 58 54 72 35 66Z"/>
+    <path d="M34 71L54 50M25 73L30 77M63 73L60 77" fill="none"/>
+    <path d="M42 14L42 22M52 14L51 22" fill="none"/>`],
+  ['sun','Sunlight','colour','A clear sun disc, with eight evenly weighted rays.',`
+    <g fill="none" stroke-width="4"><path d="M48 10V21M48 75V86M10 48H21M75 48H86M21 21L29 29M67 67L75 75M21 75L29 67M67 29L75 21"/></g>
+    <circle class="amber" cx="48" cy="48" r="23"/>
+    <path d="M34 46A15 15 0 0 1 45 34" stroke="#f1dcb7" stroke-width="4" fill="none"/>`],
+  ['harvest','Harvesting','colour','A gathering basket containing fresh leaves and a root.',`
+    <path d="M27 50C21 13 75 13 70 50" stroke-width="5" fill="none"/>
+    <path class="amber" d="M47 40L68 46L47 70Z"/>
+    <path class="leaf" d="M63 44C59 33 64 22 70 16C72 30 70 34 68 39C72 29 80 27 86 28C81 38 75 44 63 44Z"/>
+    <path class="light" d="M38 53C18 47 17 30 20 23C35 25 39 39 38 53Z"/>
+    <path class="leaf" d="M38 52C32 32 46 24 54 27C56 41 48 50 38 52Z"/>
+    <path class="cream" d="M15 50H81L74 81Q48 89 22 81Z"/>
+    <path class="earth" d="M14 49H82V57H14Z"/>
+    <path d="M27 67H69M29 76H67M37 59V81M58 59V81" fill="none" stroke-width="2.2"/>`],
+  ['inspection','Inspect plants','colour','Magnifying glass over a leaf; inspecting rather than covering a crop.',`
+    <path class="light" d="M24 58C7 23 38 14 59 14C66 42 53 61 24 58Z"/>
+    <path d="M17 68L45 29M28 52L23 35" fill="none"/>
+    <circle class="mist" cx="55" cy="48" r="21"/>
+    <path class="leaf" d="M43 58C36 42 49 36 65 36C68 49 59 60 43 58Z"/>
+    <path d="M44 56L58 43" fill="none"/>
+    <path class="earth" d="M70 61L86 77Q89 80 85 84Q81 88 78 85L62 69Z"/>
+    <circle cx="55" cy="48" r="22" fill="none" stroke-width="5"/>`],
+  ['aphid','Aphids','mono','Pear-shaped body with six legs, antennae and paired rear tubes.',`
+    <g fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><path d="M40 25L28 11M56 25L68 11M34 40L21 32L13 38M62 40L75 32L83 38M30 52H17L10 62M66 52H79L86 62M34 66L23 73L23 85M62 66L73 73L73 85M36 65L31 78M60 65L65 78"/></g>
+    <path fill="currentColor" fill-rule="evenodd" d="M37 30C34 15 62 15 59 30C65 39 71 50 69 61C67 81 29 81 27 61C25 50 31 39 37 30Z M36 49C33 58 34 65 38 68L41 64C38 60 39 56 41 51Z"/>`],
+  ['frost','Frost','mono','A leaf below a six-point snowflake.',`
+    <g fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><path d="M60 8V48M43 18L77 38M43 38L77 18M55 11L60 16L65 11M55 45L60 40L65 45M44 24L50 23L49 17M71 39L70 33L76 32M44 32L50 33L49 39M71 17L70 23L76 24"/></g>
+    <path fill="currentColor" fill-rule="evenodd" d="M14 45C37 40 60 45 57 67C48 87 24 81 14 45Z M24 51L47 71L50 67L27 47Z"/>
+    <path d="M46 68L69 87" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round"/>`],
+  ['forked_root','Forked roots','mono','A root dividing into two substantial tips.',`
+    <path fill="currentColor" d="M44 29C27 27 25 12 25 9C40 10 44 18 44 29Z M49 27C47 13 58 7 69 9C68 21 60 27 49 27Z M44 32H50V39H44Z"/>
+    <path fill="currentColor" fill-rule="evenodd" d="M31 34Q48 29 63 35Q70 45 61 61L68 86Q59 87 47 66Q38 84 26 87L35 60Q23 44 31 34Z M35 41V46H48V41Z M48 51V56H60V51Z"/>`],
+  ['stunted_root','Small roots','mono','A short root and small leaf crown; deliberately not a forked root.',`
+    <path fill="currentColor" d="M44 43C30 42 28 31 29 25C41 26 46 32 44 43Z M49 42C46 29 56 24 67 25C66 37 58 42 49 42Z M44 40H50V50H44Z"/>
+    <path fill="currentColor" fill-rule="evenodd" d="M35 49Q47 44 60 49C65 61 56 71 47 77C39 73 31 61 35 49Z M39 53V57H48V53Z"/>
+    <g fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round"><path d="M12 49H27M67 49H84M21 59V80M17 59H25M17 80H25M73 61V81M69 61H77M69 81H77"/></g>`],
+  ['mildew','Mildew','mono','A leaf with visible powdery patches; general mildew pilot, not a diagnostic species claim.',`
+    <path fill="currentColor" fill-rule="evenodd" d="M20 73C8 39 39 13 83 11C85 57 64 83 28 79Z M36 38C28 28 44 22 48 32C57 33 55 44 46 43C42 49 32 46 36 38Z M59 53C53 45 66 39 70 47C77 51 70 60 65 57C62 63 55 60 59 53Z M33 62C26 56 36 50 41 55C49 53 52 65 43 66C39 73 29 70 33 62Z"/>
+    <path d="M14 86L62 34" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round"/>`],
+  ['broccoli','Broccoli','mono','A clustered crown and branching stalk, legible as a small solid mask.',`
+    <path fill="currentColor" fill-rule="evenodd" d="M17 50C3 42 8 27 19 25C19 13 35 8 43 17C52 4 69 11 70 23C86 20 96 41 81 50Q68 55 60 48L54 60L57 86H37L41 60L33 49Q25 56 17 50Z M37 42L46 59H50L60 41L55 39L48 50L41 39Z M24 24Q16 27 17 35L21 35Q21 29 27 28Z M48 20Q55 15 62 23L59 27Q54 21 50 24Z M72 33Q80 34 80 42L76 42Q76 38 71 37Z"/>`],
+  ['cucumber','Cucumber','mono','Long ridged cucumber with a small hooked stem; no tiny horizontal dash.',`
+    <path d="M72 22C73 12 85 19 86 9" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round"/>
+    <path fill="currentColor" fill-rule="evenodd" d="M60 21C69 16 83 27 80 37C75 53 46 82 32 86C18 89 9 74 17 63C24 53 45 29 60 21Z M64 30C49 40 29 64 25 73L29 76C34 66 54 43 68 34Z M72 42L69 45L72 48L75 45Z M57 59L54 62L57 65L60 62Z M41 74L38 77L41 80L44 77Z"/>`],
+];
+const manifest = [];
+for (const [key,label,family,meaning,body] of entries) {
+  const themedBody=body.replaceAll('stroke="#c7dfe2"','stroke="var(--mist,#c7dfe2)"').replaceAll('stroke="#f1dcb7"','stroke="var(--cream,#f1dcb7)"');
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" width="384" height="384" role="img" aria-labelledby="title"><title id="title">${label.replaceAll('&','&amp;')}</title><style>${styles}</style><g ${family==='colour'?'stroke="var(--ink,#344638)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"':'color="#30352f"'}>${themedBody}</g></svg>\n`;
+  fs.writeFileSync(path.join(assetDir,`${key}.svg`),svg);
+  await sharp(Buffer.from(svg)).resize(384,384).png().toFile(path.join(assetDir,`${key}.png`));
+  manifest.push({key,label,family,meaning,svg:`/images/icon-pilot/v1/${key}.svg`,png:`/images/icon-pilot/v1/${key}.png`});
+}
+fs.writeFileSync(path.join(root,'docs/icon-pilot/MANIFEST.json'),JSON.stringify({status:'pilot_for_review',version:1,palette,icons:manifest},null,2)+'\n');
+const cards = (family)=>manifest.filter(x=>x.family===family).map(x=>{
+ const svg=fs.readFileSync(path.join(assetDir,`${x.key}.svg`),'utf8').replace('width="384" height="384"','width="96" height="96"').replace(/id="title"/g,`id="title-${x.key}"`).replace(/aria-labelledby="title"/g,`aria-labelledby="title-${x.key}"`).replace('color="#30352f"','color="inherit"');
+ return `<article><div class="large">${svg}</div><h3>${x.label}</h3><p>${x.meaning}</p><div class="sizes"><span><img src="../../public${x.svg}" width="28" height="28">28px</span><span><img src="../../public${x.svg}" width="32" height="32">32px</span><span class="tint">${svg}34px</span></div></article>`;
+}).join('');
+const html=`<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Vegetable icon pilot · v1</title><style>
+*{box-sizing:border-box}body{font:15px/1.5 system-ui,sans-serif;background:#f6f3eb;color:#26362c;margin:0}main{max-width:1180px;padding:44px 36px 70px;margin:auto}h1{font:600 38px/1.1 Georgia,serif;margin:8px 0 18px}h2{font:600 26px Georgia,serif;margin:38px 0 7px}p{margin:8px 0}.kicker{font-size:12px;letter-spacing:.15em;text-transform:uppercase}.intro{max-width:800px}.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:22px}article{padding:18px;border:1px solid #d9d9c9;border-radius:12px;background:#fffdf7}article h3{font-size:16px;margin:12px 0 4px}article p{font-size:12px;color:#596456;min-height:54px}.large{height:112px;display:flex;align-items:center;justify-content:center;background:repeating-conic-gradient(#e8eadf 0% 25%,transparent 0% 50%) 0 0/16px 16px;border-radius:8px;color:var(--mono,#30352f)}.sizes{display:flex;gap:12px;justify-content:space-between;border-top:1px solid #e4e4d7;padding-top:12px}.sizes span{display:flex;min-width:48px;gap:5px;flex-direction:column;align-items:center;font-size:10px;color:#56614e}.sizes .tint{padding:3px;background:#e3ead4;border-radius:5px;color:var(--mono,#648247)}.tint svg{width:34px;height:34px}.controls{display:flex;gap:8px;align-items:center;margin:18px 0}button{border:1px solid #becab5;border-radius:6px;padding:8px 12px;background:#fff;cursor:pointer}.note{padding:16px 20px;border-left:3px solid #7f965e;background:#e9edde;margin-top:22px}.proofs{display:grid;grid-template-columns:1fr 1fr;gap:16px}.proofs section{background:#fffdf7;border:1px solid #d9d9c9;padding:18px;border-radius:10px}a{color:#3d653c}small{color:#596456}@media(max-width:800px){.grid{grid-template-columns:repeat(2,1fr)}main{padding:24px 18px}.proofs{grid-template-columns:1fr}}@media print{.controls{display:none}.grid{grid-template-columns:repeat(4,1fr)}article{break-inside:avoid}main{padding:0}h2{break-after:avoid}}
+</style><main><div class="kicker">Hackriculture · vegetable print · study 01</div><h1>One garden. Two icon families.</h1><p class="intro">A small vector pilot for review: eight coloured gardening symbols and seven single-colour risk/crop symbols. All artwork has a transparent background. The checkerboard belongs to this review page, not the image.</p><div class="note"><strong>Pilot only.</strong> The title banners, approved artwork, gardening data and live icon mappings are unchanged. The sample sheets substitute selected symbols only; remaining icons show the existing set.</div>
+<h2>Everyday growing</h2><p>Warm, restrained colours; the same drawing style for Quick Facts, Core Needs and Final Tips.</p><div class="grid">${cards('colour')}</div>
+<h2>Risks &amp; crop bubbles</h2><p>Solid, recognisable shapes with transparent cutouts. Risk colour stays charcoal; crop bubbles retain their category colour.</p><div class="controls"><small>Try the enlarged monochrome symbols:</small><button onclick="document.documentElement.style.setProperty('--mono','#30352f')">Charcoal</button><button onclick="document.documentElement.style.setProperty('--mono','#648247')">Leaf green</button><button onclick="document.documentElement.style.setProperty('--mono','#a43d32')">Fruit red</button></div><div class="grid">${cards('mono')}</div>
+<div class="note">The 28/32/34px samples match the existing page slots (about 7–9mm at 100% print size). Browser zoom and screen density affect their physical size on screen. SVG masters are editable; PNGs are transparent fixed-colour exports. Monochrome SVGs can be recoloured as masks; multi-colour SVGs use named palette tokens.</div>
+<h2>On the vegetable sheets</h2><p>Two crops, each in both units. These are separate two-page pilot PDFs.</p><div class="proofs">${['broccoli','cucumber_greenhouse'].map(k=>`<section><strong>${k==='broccoli'?'Broccoli':'Greenhouse cucumber'}</strong><p><a href="../../output/pdf/icon-pilot-v1/${k}-metric.pdf">Metric PDF</a> · <a href="../../output/pdf/icon-pilot-v1/${k}-imperial.pdf">Imperial PDF</a></p><small>${k==='broccoli'?'Includes sowing, spacing, watering, feeding, sun, harvest, frost and the broccoli bubble.':'Includes growing needs, spacing, mildew, cucumber bubble and the new leaf-inspection tip.'}</small></section>`).join('')}</div>
+<h2>Review focus</h2><p>Do the gardening icons feel like one family? Are the small symbols clear enough? Do the solid risk and crop silhouettes have the right amount of detail?</p><p><a href="README.md">Scope, inventory findings and next steps</a> · <a href="MANIFEST.json">Asset manifest</a></p></main></html>`;
+fs.writeFileSync(path.join(root,'docs/icon-pilot/REVIEW.html'),html);
+console.log(`Built ${manifest.length} SVG masters, ${manifest.length} transparent PNGs and review gallery.`);

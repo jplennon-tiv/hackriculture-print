@@ -5,7 +5,7 @@ const root=path.resolve(import.meta.dirname,'..'),out=path.join(root,'output/pdf
 await fs.mkdir(out,{recursive:true});
 const png=async p=>'data:image/png;base64,'+(await fs.readFile(path.join(root,p))).toString('base64');
 const sheets=await Promise.all(['front','illustrated'].map(k=>png(`docs/front-matter/references/carrot-metric-A4-${k}.png`)));
-const icons={};for(const k of ['depth','row_spacing','plant_spacing','harvest','water','weeding'])icons[k]=await png(`public/images/quick_facts/trial/${k}.png`);
+const icons={};for(const k of ['depth','row_spacing','plant_spacing','harvest','water','weeding'])icons[k]=await png(`docs/archive/coloured-icons-pre-style-a/public/images/quick_facts/trial/${k}.png`);
 const sow=await png('public/images/planting/carrot/sow-thinly-v1.png');
 const image=(src,style='')=>`<img src="${src}" style="${style}" alt="">`;
 const miniIcons=(keys)=>`<div class="iconrow">${keys.map(([k,label])=>`<div>${image(icons[k])}<span>${label}</span></div>`).join('')}</div>`;

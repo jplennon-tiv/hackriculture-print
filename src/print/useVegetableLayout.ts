@@ -7,6 +7,7 @@ import {
     LAYOUT_LIMITS,
     nextPage2Trim,
     pageFitAction,
+    pageContentBudget,
 } from "./vegetableLayout";
 
 type LayoutPhase = "intro" | "page" | "top-up" | "done";
@@ -266,7 +267,9 @@ export function useVegetableLayout(
             ['Page 2',page2Ref.current,page2SentinelRef.current,plantingBudget.current],
         ] as const){
             if(page&&sentinel){
-                const excess=contentHeight(page,sentinel)-budget;
+                const style=getComputedStyle(page);
+                const physicalBudget=pageContentBudget(parseFloat(style.minHeight),parseFloat(style.paddingBottom),parseFloat(style.borderBottomWidth),budget);
+                const excess=contentHeight(page,sentinel)-physicalBudget;
                 if(excess>1)warnings.push(`${label}: content exceeds the layout budget by approximately ${Math.ceil(excess*25.4/96)} mm; check the exported PDF for spillover.`);
             }
         }

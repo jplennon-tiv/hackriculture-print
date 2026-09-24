@@ -7,6 +7,15 @@ import {
 } from "./quickFactIcons";
 
 describe("quick fact icons", () => {
+    it("shares the feeding artwork with Core Needs nutrition", () => {
+        expect(quickFactIconPath("nutrition")).toBe(quickFactIconPath("feeding"));
+    });
+
+    it("respects precise saved keys without keyword remapping", () => {
+        expect(pickFinalTipIcon({icon:"inspection"}, "Check leaf undersides.", 0, true)).toBe(quickFactIconPath("inspection"));
+        expect(pickFinalTipIcon({icon:"netting"}, "Keep netting clear of leaves.", 0, true)).toBe(quickFactIconPath("netting"));
+    });
+
     it("uses the first specific action in a mixed, broadly tagged tip", () => {
         expect(
             pickFinalTipIcon(
@@ -21,9 +30,9 @@ describe("quick fact icons", () => {
         "has a PNG and editable master for %s",
         (key) => {
             const path = quickFactIconPath(key);
-            expect(path).toContain("/trial/");
+            expect(path).toContain("/coloured-icons/style-a-v1/");
             expect(existsSync(`public${path}`)).toBe(true);
-            expect(existsSync(`public${path.replace(/\.png$/, ".svg")}`)).toBe(
+            expect(existsSync(`public${path.replace(/\.svg$/, ".png")}`)).toBe(
                 true,
             );
         },

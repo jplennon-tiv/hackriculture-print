@@ -1,4 +1,4 @@
-**23 September update:** All 44 normalised crops and current proofs are approved by John. The final three planting clarifications are signed off: [catalogue review](../hackriculture-data/planning/NORMALISATION-FRAMING-REVIEW.html) · [completion report](../hackriculture-data/planning/NORMALISATION-PLANTING-REPORT.md). Earlier checkpoints below are historical.
+**23 September update:** All 44 normalised crops and current proofs are approved by John. The final three planting clarifications are signed off: [catalogue review](../hackriculture-data/planning/NORMALISATION-FRAMING-REVIEW.html) · [completion report](../hackriculture-data/planning/NORMALISATION-PLANTING-REPORT.md). All 14 shared Troubles groups and their 28 proofs are also approved: [Troubles sign-off](../hackriculture-data/planning/troubles-normalisation/BROAD-APPROVED.json). Earlier checkpoints below are historical.
 
 # hackriculture-print
 
@@ -19,6 +19,8 @@ The launcher selects the Node version in `.nvmrc`, prompts privately for a sessi
 - [Browse crops](http://127.0.0.1:5173/vegetable/carrot)
 - [Edit shared data](http://127.0.0.1:5173/admin/login)
 - [Preview a metric carrot PDF](http://127.0.0.1:5173/api/pdf/vegetable/carrot?inline=1&units=metric&paper=A4)
+
+Style-A coloured icons, the original 35 naturalistic Key Risks drawings and 31 supplementary silhouettes are approved and active for vegetable printing. The corrected assignments and representative page proofs are signed off. [Installation and archived originals](docs/icon-pilot/README.md).
 
 ## Working documentation
 

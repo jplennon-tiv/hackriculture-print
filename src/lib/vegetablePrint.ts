@@ -16,8 +16,9 @@ export interface VegetablePrintLayout extends ExtractReview {
  value:{pest_limit:number;target_pages:2;tips_position?:'full-width'|'right-column'|'left-column';tips_columns?:2;fill_bottoms?:boolean;intro_sentences?:number;variety_count?:number;align_bottoms?:boolean};
  measurements?:Record<string,unknown>;
 }
-export const VEGETABLE_PRINT_REVISION='vegetable-extracts-v5';
-/** v5 adds explicit source prose pairs; v4 string-only layouts render identically. */
+export const VEGETABLE_PRINT_REVISION='vegetable-extracts-v9';
+/** v9 honours explicit inline crop scope and concise Key Risks summaries.
+ * Prior saved content choices remain compatible; fitting remeasures them. */
 function hasPairedSourceProse(value:unknown):boolean {
  if(!value || typeof value!=='object')return false;
  return Object.entries(value).some(([key,child])=>{
@@ -90,6 +91,7 @@ export function layoutDependencies(veg:Vegetable):Record<string,string>{
 export function resolveVegetablePrintLayout(veg:Vegetable,drafts=false){
  const layout=veg.ai_print_layout;if(!layout)return {layout:null,warning:null};
  const compatible=layout.renderer_revision===VEGETABLE_PRINT_REVISION ||
+  ['vegetable-extracts-v5','vegetable-extracts-v6','vegetable-extracts-v7','vegetable-extracts-v8'].includes(layout.renderer_revision) ||
   (layout.renderer_revision==='vegetable-extracts-v4'&&!hasPairedSourceProse(veg));
  const reason=printChecksum(layout.dependencies)!==printChecksum(layoutDependencies(veg))?'layout source changed':
   !compatible?'renderer changed':

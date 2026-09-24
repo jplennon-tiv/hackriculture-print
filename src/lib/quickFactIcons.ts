@@ -18,13 +18,31 @@ export const QUICK_FACT_ICON_KEYS = [
     "weeding",
     "support",
     "protection",
+    "sun",
+    "inspection",
+    "gloves",
+    "succession",
+    "thinning",
+    "fruit_thinning",
+    "pruning",
+    "division",
+    "netting",
+    "cold_protection",
+    "shade",
+    "earthing_up",
+    "exclude_light",
+    "safety",
+    "fruit_rest",
+    "pollination",
+    "drainage",
 ] as const;
 
 type QuickFactIconKey = (typeof QUICK_FACT_ICON_KEYS)[number];
 
 export function quickFactIconPath(key: string): string {
-    return QUICK_FACT_ICON_KEYS.includes(key as QuickFactIconKey)
-        ? `/images/quick_facts/trial/${key}.png`
+    const canonical = key === "nutrition" ? "feeding" : key;
+    return QUICK_FACT_ICON_KEYS.includes(canonical as QuickFactIconKey)
+        ? `/images/coloured-icons/style-a-v1/${canonical}.svg`
         : `/images/quick_facts/${key}.png`;
 }
 

@@ -1,0 +1,44 @@
+{
+  "approved_by": "John",
+  "approved_at": "2026-09-23T21:14:07.165Z",
+  "decision": "All four coloured page proofs approved; install new images and archive old ones.",
+  "approved_proofs": [
+    {
+      "file": "output/pdf/coloured-icons-approved/broccoli-metric.pdf",
+      "sha256": "33241b0d151dae476ddeabeb070ffd97db7869a16ce5f2ee57930c41b410c234"
+    },
+    {
+      "file": "output/pdf/coloured-icons-approved/broccoli-imperial.pdf",
+      "sha256": "de10b924ba67bd1cc45c52b946ab78da66429b24d675e97deaf409248afde63e"
+    },
+    {
+      "file": "output/pdf/coloured-icons-approved/cucumber_greenhouse-metric.pdf",
+      "sha256": "2282268f65c2e53cbf9ea90d99a6d72bbd038b6f3ad6e575999bfdd5fca8a866"
+    },
+    {
+      "file": "output/pdf/coloured-icons-approved/cucumber_greenhouse-imperial.pdf",
+      "sha256": "079203bff61fd6742d5b1015bef7318877aa6480db8a0308e070456d2b689de2"
+    }
+  ],
+  "prior_revision": "28df4d70397b07a9600a258d8de5f0b59e678d3c89f7390373186d2941a81fe0",
+  "changed": 2,
+  "revision": "dc2673fcd2119f35fe2d0392847e2e058e972f509f4118e9e2cb52adb9ab52fb",
+  "backup": "/Users/johnlennon/Documents/web_site/hackriculture-data/backups/admin/2026-09-23T21-14-06.898Z-a41bc67c-534e-4da9-ad46-3a76c6827d56",
+  "exact_prior_byte_backups_verified": true,
+  "unaffected_vegetables_byte_identical": 42,
+  "edits": [
+    {
+      "key": "broccoli",
+      "text": "Keep netting clear of leaves.",
+      "from": "protection",
+      "to": "netting"
+    },
+    {
+      "key": "cucumber_greenhouse",
+      "text": "Check leaf undersides regularly so biological mite controls can be introduced before damage spreads.",
+      "from": "protection",
+      "to": "inspection"
+    }
+  ],
+  "archived_assets": "../archive/coloured-icons-pre-style-a/MANIFEST.json"
+}

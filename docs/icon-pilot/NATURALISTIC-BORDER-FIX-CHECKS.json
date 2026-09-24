@@ -1,0 +1,187 @@
+{
+  "status": "pdf_edge_fix_verified_rhubarb_concepts_proposed",
+  "date": "2026-09-24",
+  "renderer": "vegetable-extracts-v7",
+  "diagnosis": "CSS background-mask PDF clipping produces thin box edges at some fractional display scales. Reproduced with Apple CoreGraphics at 1.5x. Not an authored border; Poppler and live browser did not reproduce it in the checked views.",
+  "fix": "Direct PNG img with shared SVG feFlood/feComposite SourceAlpha filter; no filled CSS background rectangle. Same adjustable ink, size, spacing and original PNG bytes.",
+  "quartz_visual_comparison": {
+    "scales": [
+      1,
+      1.25,
+      1.5,
+      2,
+      3
+    ],
+    "before": "Hairlines seen at 1.5x.",
+    "after": "No icon-box hairlines seen at any checked scale.",
+    "script": "render-pdf-quartz.swift",
+    "before_150": "output/pdf/naturalistic-icons-border-fix/carrot-before-quartz-150.png",
+    "after_150": "output/pdf/naturalistic-icons-border-fix/carrot-after-quartz-150.png"
+  },
+  "all_16_poppler_pages_visually_reviewed": true,
+  "geometry": [
+    {
+      "file": "broccoli-imperial.pdf",
+      "all_text_unchanged": true,
+      "max_character_box_delta_pt": 0,
+      "within_0_1pt_tolerance": true
+    },
+    {
+      "file": "cucumber_greenhouse-metric.pdf",
+      "all_text_unchanged": true,
+      "max_character_box_delta_pt": 0.01631,
+      "within_0_1pt_tolerance": true
+    },
+    {
+      "file": "cucumber_greenhouse-imperial.pdf",
+      "all_text_unchanged": true,
+      "max_character_box_delta_pt": 0.01631,
+      "within_0_1pt_tolerance": true
+    },
+    {
+      "file": "broccoli-metric.pdf",
+      "all_text_unchanged": true,
+      "max_character_box_delta_pt": 0,
+      "within_0_1pt_tolerance": true
+    },
+    {
+      "file": "rhubarb-metric.pdf",
+      "all_text_unchanged": true,
+      "max_character_box_delta_pt": 0,
+      "within_0_1pt_tolerance": true
+    },
+    {
+      "file": "rhubarb-imperial.pdf",
+      "all_text_unchanged": true,
+      "max_character_box_delta_pt": 0,
+      "within_0_1pt_tolerance": true
+    },
+    {
+      "file": "carrot-imperial.pdf",
+      "all_text_unchanged": true,
+      "max_character_box_delta_pt": 0,
+      "within_0_1pt_tolerance": true
+    },
+    {
+      "file": "carrot-metric.pdf",
+      "all_text_unchanged": true,
+      "max_character_box_delta_pt": 0,
+      "within_0_1pt_tolerance": true
+    }
+  ],
+  "tests": {
+    "focused": 10,
+    "full": 268,
+    "build": "passed; existing chunk warning"
+  },
+  "approved_original_and_coloured_asset_hashes_unchanged": true,
+  "shared_revision_unchanged": "dc2673fcd2119f35fe2d0392847e2e058e972f509f4118e9e2cb52adb9ab52fb",
+  "rhubarb": {
+    "assignments_changed": false,
+    "reason": "Current generic mappings are visually inadequate; no specific approved replacement drawing exists.",
+    "proposed": [
+      {
+        "condition": "Crown rot",
+        "current": "root_rot.png",
+        "issue": "Generic rooted seedling does not communicate a decaying rhubarb crown.",
+        "subject": "A decaying rhubarb crown with a damaged bud; one subject, no badge."
+      },
+      {
+        "condition": "Poor growth or stringy stems",
+        "current": "deficiency.png",
+        "issue": "Leaf symptom suggests an unconfirmed nutrient diagnosis rather than thin stalks.",
+        "subject": "A thin rhubarb stalk with its recognisable leaf; one subject, no comparison chart."
+      },
+      {
+        "condition": "Honey fungus",
+        "current": "root_rot.png",
+        "issue": "Duplicates crown rot and has no fungal feature.",
+        "subject": "A root section exposing fungal growth under its outer layer. Needs enlarged and 32px review for recognisability.",
+        "source": "https://www.rhs.org.uk/disease/honey-fungus"
+      }
+    ],
+    "slug": "Keep existing approved slug."
+  },
+  "results": [
+    {
+      "crop": "broccoli",
+      "units": "metric",
+      "pdf": "output/pdf/naturalistic-icons-border-fix/broccoli-metric.pdf",
+      "pages": 2,
+      "fonts": "loaded",
+      "missing": [],
+      "warnings": [],
+      "pdf_sha256": "ac62c533af76c719a61d26694d12b8095179420cab637d9532fb063eadb0f4f9"
+    },
+    {
+      "crop": "broccoli",
+      "units": "imperial",
+      "pdf": "output/pdf/naturalistic-icons-border-fix/broccoli-imperial.pdf",
+      "pages": 2,
+      "fonts": "loaded",
+      "missing": [],
+      "warnings": [],
+      "pdf_sha256": "6bb676361ca2debe00a2a324ca19930fe1b081bb6ecac587c6cad273dc930fa9"
+    },
+    {
+      "crop": "carrot",
+      "units": "metric",
+      "pdf": "output/pdf/naturalistic-icons-border-fix/carrot-metric.pdf",
+      "pages": 2,
+      "fonts": "loaded",
+      "missing": [],
+      "warnings": [],
+      "pdf_sha256": "0f7b14d36acdfde5fe48f92b338723dd0a11ff8ee04eeb2f9ad24b604d2d995f"
+    },
+    {
+      "crop": "carrot",
+      "units": "imperial",
+      "pdf": "output/pdf/naturalistic-icons-border-fix/carrot-imperial.pdf",
+      "pages": 2,
+      "fonts": "loaded",
+      "missing": [],
+      "warnings": [],
+      "pdf_sha256": "f0568675222bfeea2d75e146238453be8355d1dd9dbd068509cf152bee331722"
+    },
+    {
+      "crop": "cucumber_greenhouse",
+      "units": "metric",
+      "pdf": "output/pdf/naturalistic-icons-border-fix/cucumber_greenhouse-metric.pdf",
+      "pages": 2,
+      "fonts": "loaded",
+      "missing": [],
+      "warnings": [],
+      "pdf_sha256": "5c2f4f8f9ed29e28785195522bbf9cc8dbd4d9c3ebf4d8fbcf8d52dc83de1294"
+    },
+    {
+      "crop": "cucumber_greenhouse",
+      "units": "imperial",
+      "pdf": "output/pdf/naturalistic-icons-border-fix/cucumber_greenhouse-imperial.pdf",
+      "pages": 2,
+      "fonts": "loaded",
+      "missing": [],
+      "warnings": [],
+      "pdf_sha256": "11d283b13c78883efe981cf87c35ea219b0ad8db0125b07437564c1726f7d1d4"
+    },
+    {
+      "crop": "rhubarb",
+      "units": "metric",
+      "pdf": "output/pdf/naturalistic-icons-border-fix/rhubarb-metric.pdf",
+      "pages": 2,
+      "fonts": "loaded",
+      "missing": [],
+      "warnings": [],
+      "pdf_sha256": "dabf12c941ac443a4477f397e21e9f33abea7e224a685b8ddca60afc32666fdf"
+    },
+    {
+      "crop": "rhubarb",
+      "units": "imperial",
+      "pdf": "output/pdf/naturalistic-icons-border-fix/rhubarb-imperial.pdf",
+      "pages": 2,
+      "fonts": "loaded",
+      "missing": [],
+      "warnings": [],
+      "pdf_sha256": "8bfc8b8835e99b4e0d330fc234cf002aefffdfac2abd407170d8d8651be2f95e"
+    }
+  ]
+}

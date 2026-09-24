@@ -1,3 +1,14 @@
+**Complete, 23 September: all shared Troubles approved by John.**
+All 14 groups, 220 conditions and 28 metric/imperial review proofs are approved.
+All 660 print fields and 14 layouts are approved/current for normal exports.
+Approval changed metadata only; exact preceding-byte backups and unchanged proof
+hashes were verified. Text, layout geometry, artwork and all 44 approved vegetable
+records remain unchanged. The 10 retained uncertainties and 19 vegetable-advice
+discrepancy topics remain documented; no new vegetable rewriting was performed.
+[Approved proofs and notes](../../../hackriculture-data/planning/troubles-normalisation/BROAD-REVIEW.html) ·
+[Approval receipt](../../../hackriculture-data/planning/troubles-normalisation/BROAD-APPROVED.json).
+Current shared revision: `28df4d70397b07a9600a258d8de5f0b59e678d3c89f7390373186d2941a81fe0`.
+
 # Troubles redesign: resume point
 
 ## Troubles page tints - 21 September 2026

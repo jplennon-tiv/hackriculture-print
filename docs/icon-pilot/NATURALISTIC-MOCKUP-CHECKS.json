@@ -1,0 +1,75 @@
+{
+  "status": "mockup_for_review",
+  "crop": "broccoli",
+  "units": "metric",
+  "paper": "A4",
+  "page": 1,
+  "file": "output/pdf/naturalistic-icons-mockup/broccoli-metric-page-1.pdf",
+  "pdf_sha256": "eedd5aa925beb562a9b013c6c948308d4d274f6003c885898661fd50751e110d",
+  "edits": [
+    {
+      "label": "Cabbage Caterpillars",
+      "key": "caterpillar",
+      "from": "/images/key_risks/caterpillar.png",
+      "mask": "/images/key-risk-icons/naturalistic-v3/caterpillar.png",
+      "ink": "#30352f",
+      "preload": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "label": "Club Root (Finger and Toe)",
+      "key": "clubroot",
+      "from": "/images/key_risks/club_root.png",
+      "mask": "/images/key-risk-icons/naturalistic-v3/clubroot.png",
+      "ink": "#30352f",
+      "preload": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "label": "FROST",
+      "key": "frost",
+      "from": "/images/key_risks/frost.png",
+      "mask": "/images/key-risk-icons/naturalistic-v3/frost.png",
+      "ink": "#30352f",
+      "preload": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "label": "PIGEONS",
+      "key": "bird",
+      "from": "/images/key_risks/bird.png",
+      "mask": "/images/key-risk-icons/naturalistic-v3/bird.png",
+      "ink": "#30352f",
+      "preload": [
+        1254,
+        1254
+      ]
+    }
+  ],
+  "approved_proof_adjustment": {
+    "from": "Clubroot (Finger and Toe)",
+    "to": "PIGEONS",
+    "text": "Pigeons can strip young plants and winter crops.",
+    "scope": "Browser-only restoration of the approved proof; production deduplication defect unchanged"
+  },
+  "text_and_geometry_unchanged_after_icon_substitution": true,
+  "fonts": "loaded",
+  "missing_images": [],
+  "warnings": [],
+  "unaffected_artwork_unchanged": true,
+  "shared_revision_unchanged": "dc2673fcd2119f35fe2d0392847e2e058e972f509f4118e9e2cb52adb9ab52fb",
+  "guarded_files_unchanged": 186,
+  "production_installed": false,
+  "pdf_visual_review": "Poppler-rendered A4 page inspected: all four risk drawings visible, no clipping or overlap, column bottoms aligned. Existing icon sizes retained.",
+  "preview": "output/pdf/naturalistic-icons-mockup/broccoli-metric-page-1.png",
+  "preview_sha256": "e7fcf7895c823b9c314ce0f88b9d54e9000c1994c0db8d4431eba9f8da5b3f3e",
+  "tests": "266 passed in 22 files",
+  "build": "Passed; existing large-chunk warning",
+  "review_page_checks": "Four local links and rendered page image ready"
+}

@@ -27,6 +27,7 @@ export const RankedTextSchema = z.looseObject({
     rank: z.number(),
     star: z.boolean().optional(),
     short_text: UnitTextSchema.optional(),
+    applies_to: z.array(z.string()).optional(),
     icon: z.string().optional(),
 });
 
