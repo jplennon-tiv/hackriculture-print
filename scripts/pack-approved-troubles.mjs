@@ -58,8 +58,8 @@ try{for(const slug of groups){
  await page.close();
 }
  const stripped=structuredClone(data);for(const slug of groups)stripped[slug].ai_layout=before[slug].ai_layout;assert.deepEqual(stripped,before);
- await fs.mkdir('output/pdf/ai-once-pilot',{recursive:true});
- await fs.writeFile('output/pdf/ai-once-pilot/packing-report.json',JSON.stringify(reports,null,2));
+ await fs.mkdir('output/pdf/troubles-review',{recursive:true});
+ await fs.writeFile('output/pdf/troubles-review/packing-report.json',JSON.stringify(reports,null,2));
  if(process.argv.includes('--save')){console.log(saveCollections({troubles:data},{actor:'User-authorised layout packing (model not recorded)',expectedRevision:rev}));refreshGenerated();}
  console.log(JSON.stringify(reports.map(({minimumCardHeights,...r})=>r),null,2));
 }finally{await browser.close();}

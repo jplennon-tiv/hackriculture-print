@@ -1,82 +1,44 @@
-**23 September update:** All 44 normalised crops and current proofs are approved by John. The final three planting clarifications are signed off: [catalogue review](../hackriculture-data/planning/NORMALISATION-FRAMING-REVIEW.html) · [completion report](../hackriculture-data/planning/NORMALISATION-PLANTING-REPORT.md). All 14 shared Troubles groups and their 28 proofs are also approved: [Troubles sign-off](../hackriculture-data/planning/troubles-normalisation/BROAD-APPROVED.json). Earlier checkpoints below are historical.
+# Shared data
 
-# Shared data and backups
+The [shared contract](../hackriculture-data/SHARED-DATA.md) is authoritative.
 
-24 September page-fit corrections: five vegetable records updated with the
-revision-guarded writer and exact prior-byte backups. Six inline `short_text`
-captions, concise bean signs/control (full original prose retained in `text`),
-and explicit broad-bean No Pods scope. Print extracts, saved layout choices,
-locks and statuses preserved; layout dependencies/evidence refreshed. Other 53
-records unchanged. [Receipt](docs/page-fit/SAVE-RECEIPT.json) ·
-[Decisions and proofs](docs/page-fit/README.md).
-
-24 September Key Risks: parsnip carrot-fly advice and crop-specific splitting
-were corrected with revision guards and exact prior-byte backups; the seven
-selected pest rows are preserved. [Core receipt](docs/icon-pilot/KEY-RISK-CORE-RECEIPT.json).
-The subsequent silhouette redraw made no canonical changes: all 58 records and
-current print-companion dependencies were verified unchanged.
-
-23 September icon installation: only two approved print-extract icon keys changed
-(broccoli netting, greenhouse-cucumber inspection), plus their review/output checksums.
-The guarded writer preserved exact prior bytes; [receipt](docs/icon-pilot/INSTALL-RECEIPT.json).
-Gardening prose, ranks, locks and the other 42 crop records are unchanged.
-
-**Current, 22 September:** batch 01 (pea, French bean, carrot) is accepted.
-John accepted batch-02 review notes and authorised RHS-first research, likely
-identity corrections and mainstream spacing. Those decisions are applied to
-broad bean, runner bean, beetroot, radish, parsnip, turnip, swede and lettuce.
-He will inspect outputs later; do not request another exhaustive diff review.
-There are 36 approved layouts and eight drafts pending later output sign-off.
-See NORMALISATION-02-DECISIONS.md in shared planning for the short summary.
-
-[Current review](../hackriculture-data/planning/NORMALISATION-02-REVIEW.md).
-
-21 September kale correction: master ranked `text`/`short_text` and sowing
-`method` now also support `{imperial, metric}` prose pairs. Types, Zod, admin
-validation/editing and public/print consumers agree. See DEVELOPMENT.md and
-[unit-prose checks](docs/vegetable-ai-pilot/UNIT-PROSE-CHECKS.json). v5 accepts
-unchanged string-only v4 layouts; existing approval records remain untouched.
-22 September rollout completion: all 44 crops were approved. Kale's extracts and
-both-unit proof evidence were refreshed from the accepted master; its unchanged
-planting captions were reviewed and their source-review fingerprint updated.
-See [final sign-off](docs/vegetable-ai-pilot/FINAL-COMPLETION.md).
-
-21 September vegetable extract pilot: additive `ai_print_extracts.sections` and
-`ai_print_layout` now supported, with attribution, per-section dependencies,
-output checksums, draft/approved/locked status and saved A4 measurement evidence.
-Normal exports reuse approved/current entries; explicit `aiReview=1` previews
-drafts. Stale entries warn and fall back, never run AI. Asparagus/radish/celery
-were approved by John on 21 September and are active in ordinary exports. See docs/vegetable-ai-pilot/EDITORIAL-REVIEW.md for
-source corrections, contract limitations and approval/resume procedure.
-
-18 September cleanup: use Git for source/docs/artwork history and local shared JSON snapshots for data recovery. Do not create whole-project/media/PDF backup copies. Generated output and dist are disposable and ignored. See [cleanup record](../hackriculture-data/planning/CLEANUP-2026-09-18.md); older checkpoint paths in progress notes are historical and their contents are recoverable from the documented Trash location.
-
-The [cross-project contract](../hackriculture-data/SHARED-DATA.md) describes the shared layout and history. For routine print work:
-
-| Resource | Location relative to this project |
+| Resource | Location |
 | --- | --- |
-| Master crop records | `../hackriculture-data/vegetables/<key>/<key>.json` |
-| Master trouble groups | `../hackriculture-data/troubles/<key>/<key>.json` |
-| Manifest / shared reader-writer | `../hackriculture-data/records.json` / `lib/records.mjs` |
+| 44 crop records | `../hackriculture-data/vegetables/<key>/<key>.json` |
+| 14 trouble groups | `../hackriculture-data/troubles/<key>/<key>.json` |
+| Stable record ordering | `../hackriculture-data/records.json` |
+| 8 navigation groups | `../hackriculture-data/vegetable_groups.json` |
+| Reader / revision-guarded writer | `../hackriculture-data/lib/records.mjs` |
 | Disposable browser projections | `../hackriculture-data/generated/master/` |
-| Navigation groups | `../hackriculture-data/vegetable_groups.json` |
-| Admin JSON backups | `../hackriculture-data/backups/admin/` |
-| Website editorial resources | `../hackriculture-data/website/` |
+| Exact prior-byte transaction backups | `../hackriculture-data/backups/admin/` |
+| Website's separate editorial layer | `../hackriculture-data/website/` |
 
-Per-record migration completed 19 September. Admin reads/writes through the shared store; saves include a revision and reject stale browser tabs. Changed leaf fields receive `_field_metadata` audit entries. Browser components import generated projections, refreshed at Vite startup/build, after admin writes and on watched record changes. Navigation groups remain read directly. Root combined vegetables.json/troubles.json are retired, with exact bytes preserved in the migration backup.
+Read with `readCollection`; write with `saveCollections` and `expectedRevision`.
+Preserve keyed objects, unknown fields, source prose, ranks, unit pairs, month
+fragments, locks and manual edits. Every changed record gets exact preceding-byte
+backup and leaf-level attribution. A stale revision rejects the save. Never edit
+projections or recreate root/local aggregate masters. Vite refreshes projections
+at startup/build and when records change.
 
-All 44 crop records now carry an additive `print_planting` editorial companion and all 44 layouts are active in normal/batch exports. This supplements, never replaces, granular gardening prose. Captions are source-linked and stored; normal export needs no AI. Measurements resolve from the live master where bound. Website prose and video scripts are not regenerated. See [current status](docs/planting-illustrations/ROLLOUT-06.md).
+AI scope defaults to `ai_` fields; John's explicitly authorised source corrections
+use the admin-correction workflow with honest AI attribution. New copy cannot be
+self-approved. Print dependency signatures detect source/manual changes; refresh
+affected companions only after reviewing their meaning, not just their checksums.
 
-Each changed record gets an exact preceding-byte JSON backup in a timestamp/UUID transaction folder under shared backups/admin. The transaction.json journal maps backups to canonical paths. Unchanged records are not rewritten/backed up. Image uploads record content hashes even when paths stay the same. Backups are JSON-only; illustrations remain in public and Git history.
+Current print companions: source-linked `ai_print_extracts`, `ai_print_layout`,
+`print_planting`, and Troubles `ai_print`/`ai_layout` or legacy `print_summary`.
+These supplement full master advice. Approved/current outputs are reused without
+AI; stale/draft outputs fall back or require explicit review mode. Measurements
+bound to master paths resolve in the chosen unit system.
 
-Troubles conditions may also carry an additive `print_summary`: version 1, approval status, exact source prose snapshot and recognise/act/prevent strings (nullable). Four pilot companions were approved/installed on 19 September. Full descriptions/treatments/preventions remain unchanged. Export uses a summary only while approved and source-current; otherwise it prints full prose and warns. No AI is needed for single/batch export. Website/video consumers continue to use their existing fields.
+Website paragraphs and video productions are independent reviewed resources;
+master corrections do not rewrite or republish them automatically. Keep sibling
+folders together and check affected consumers only when their contract changes.
 
-John approved the corrected carrot/parsnip proof on 19 September. Its ai_ text, per-field reviews and layout are now approved and active in normal exports. Source/output signatures detect edits; granular source prose remains intact. AI writes are restricted to ai_ fields by default and cannot unlock protected review records, silently accept manual edits or approve their own drafts. Existing print_planting and print_summary layers remain intact. Source audit timestamps are managed by the shared writer; raw file edits bypass stamping but are still detected by print signatures.
-
-To restore, stop writers and use the transaction journal to restore prior bytes to exact per-record paths. Restore affected transactions together, refresh generated projections and validate before restarting. A crash lock or prepared journal requires inspection, not blind deletion. Restoring pre-migration aggregates requires the corresponding code rollback; never recreate them alongside current records as editable masters.
-
-Website prose remains a separately approved editorial layer in the shared folder. Its 16 linked measurement facts resolve from master records at build/startup; approved paragraphs and scoped calendars are not automatically rewritten. Review those adaptations for consistency after changing advice, and restart/rebuild the website to refresh its output. Existing video scripts/media remain reviewed production artifacts and are not regenerated by admin saves.
-
-Keep all four sibling folders together for local development and backup. Historical snapshots and backups are recovery/provenance material, not alternative editable masters.
-
-Vegetable fact summaries (21 September): optional `sowing_and_planting.row_spacing_summary` and `plant_spacing_summary` are labelled metric/imperial pairs beside the unchanged keyed values; `time_to_harvest.ready_in_summary` is the labelled Quick Fact, while existing `ready_in_short` stays the compact header. Types and Zod/admin validation agree. Keep summaries consistent with their detailed values during normalisation; print dependencies detect changes but do not fact-check a manually edited master summary.
+Cleanup policy (John, 24 September): Git holds historical source, scripts and
+artwork. Old local backups may be pruned after successful transactions; retain the
+latest rollback and any unresolved/prepared transaction. Do not accumulate whole
+project, media or PDF backups. Future writes must still make exact-byte backups.
+The latest [page-fit save receipt](docs/page-fit/SAVE-RECEIPT.json) and its rollback
+are retained. Historical record metadata is provenance, not an instruction to
+recreate removed review files.

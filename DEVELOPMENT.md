@@ -1,169 +1,105 @@
-# Development guide
+# Current implementation
 
-## Architecture
+## Application and data
 
-21 September vegetable AI-once pilot: `src/lib/vegetablePrint.ts` resolves
-source-linked section extracts and stored layout choices. `aiReview=1` is an
-explicit draft preview; normal export needs approved/current data. Source/output
-checksums protect stale/manual changes, with warning/fallback instead of blocked
-PDFs. Shared writer enforces locks and prevents AI self-approval. Source field
-attribution remains in `_field_metadata`; extracts carry their own attribution.
-Keep `VEGETABLE_PRINT_REVISION` current after layout/font/CSS changes. Measured
-file hashes are provenance only in this pilot, not automatic runtime invalidation.
-Resume and known limitations: `docs/vegetable-ai-pilot/PROGRESS.md` and
-`EDITORIAL-REVIEW.md`. Do not rerun draft preparation after approval/user edits.
+React/Vite/TypeScript. `src/App.tsx` owns routing; `src/admin/` provides the local
+editor. `adminApiPlugin.ts` supplies authenticated saves/uploads;
+`pdfPlugin.ts` provides deterministic single and batch PDF exports.
+`sharedRecordsPlugin.ts` refreshes the shared store's disposable projections.
+Use the Vite server through `start.command` on loopback; static preview cannot
+save data or export PDFs. No external AI service is used by normal rendering.
 
-19 September per-record update: shared `lib/records.mjs` owns authoritative vegetable/trouble loading, backed-up transactional writes, field audit and revision checks. Browser imports are disposable `generated/master` projections refreshed by `sharedRecordsPlugin.ts`; never edit those files. Admin saves require the revision received on load (409 on stale/missing revision). Shared contract and migration checkpoint supersede historical aggregate-file paths below.
+`src/types.ts`, `src/schema.ts` and admin validation must agree. Keyed collections,
+unknown fields, ranks, `--MM` cyclic calendar values and paired prose survive
+round trips. Use `src/lib/` helpers for slug, months, duration, units and ranking.
+Ranked `text`/`short_text` and sowing `method` accept plain or metric/imperial prose.
+Inline conditions may specify `applies_to`; explicit crop scope takes precedence
+over a same-label shared condition. Unscoped entries retain the shared scope filter.
+`troubleIdentity.ts` deduplicates display aliases without deleting master advice.
 
-React 19, TypeScript and Vite provide the local app. React Router handles public, admin and print routes. Exact dependency versions are in `package.json` and the lockfile.
+## Vegetable printing
 
-| Owner | Responsibility |
-| --- | --- |
-| `src/App.tsx`, `src/components/` | Routing, crop/trouble views, navigation, units, paper and batch controls |
-| `src/admin/` | Password-gated editing, field editors and image uploads |
-| `adminApiPlugin.ts` | Local `/api/admin/*` middleware, validation, shared JSON writes and versioned backups |
-| `pdfPlugin.ts` | Sole PDF renderer; Playwright Chromium loads local print HTML |
-| `src/pdf/` | PDF request/download interface |
-| `src/print/PrintVegetablePage.tsx`, `PrintTroublePage.tsx` | Printed content |
-| `src/print/print.module.css` | Print styling |
-| `src/print/useVegetableLayout.ts` | DOM measurement, readiness and fitting phases |
-| `src/print/vegetableLayout.ts` | Pure fitting rules and limits, with neighbouring tests |
-| `src/lib/` | Shared ranking, slug, unit, measurement, month, duration and fact helpers |
-| `public/` | Runtime illustrations and icons |
+The binding [style contract](docs/VEGETABLE-PRINT-STYLE.md) takes priority:
+fit, then column-bottom alignment, then useful whitespace filling. Keep original
+fonts, padding, artwork and the staggered layout. Final Tips remains full-width by
+default, with existing per-crop exceptions.
 
-Admin middleware resolves the sibling data folder from the configured Vite project root. No database is involved. Vite allows the imported shared JSON files without exposing the shared backup folder. Both admin and PDF plugins require the development server; PDF endpoints are unauthenticated and must remain local-only.
+Owners: `src/print/PrintVegetablePage.tsx`, `print.module.css`,
+`useVegetableLayout.ts`, `vegetableLayout.ts`, `pageFill.ts`, `PlantingCard.tsx`,
+`planting.module.css`, `plantingIllustrations.ts` and `heroImageCrops.json`.
 
-The public batch report stays in normal header flow: `.app-header-inner` has a
-minimum height and wraps, while `.batch-print-controls` exposes its children to
-that layout. `.batch-print-report` takes a full row with bounded scrolling.
-Do not restore a fixed header height or overlay the report over navigation.
-`scripts/check-batch-report-layout.mjs` exercises warning/error streams and
-collapse/scroll behaviour at four widths without generating PDFs.
+All 44 planting layouts are active. Their illustrations and source-linked captions
+supplement granular master advice. Measurement paths resolve live values. Changed
+source prose requires caption review; image readiness precedes measurement.
+Valid saved sowing extracts own the notes, with no automatic prefix top-up.
 
-## Accepted print design
+Saved layout values (`pest_limit`, introduction/variety counts, tips placement,
+`tips_columns`, `align_bottoms`, `fill_bottoms`) are deliberate choices. Preserve
+them unless re-curating the crop. Do not use automatic fitting to silently override
+accepted counts or trim useful content. Flexible rows share only suitable spare
+height after natural fitting; typography and minimum padding stay fixed.
 
-22 September page-fill correction: optional saved `tips_columns: 2` arranges
-full-width tips in two columns; optional `fill_bottoms` shares a modest measured
-remainder through the existing flexible rows after assets and natural fitting.
-Neither applies to older approved layouts without the flags. `pageFill.ts`
-rejects overflow, non-finite measurements and large gaps needing editorial work.
-Print QA now records unused bottom height, not only column alignment/page count.
-See `docs/vegetable-ai-pilot/PAGE-FILL-REVIEW.md` for revised proofs and checks.
+Renderer revision is `vegetable-extracts-v9`; unchanged v8/v7/v6/v5 and eligible
+string-only v4 content choices remain compatible and are remeasured. Dependency
+and output signatures detect changed source or manual edits. `aiReview=1` permits
+explicit draft previews. It never grants approval.
 
-The authoritative consolidated rules are [VEGETABLE-PRINT-STYLE.md](docs/VEGETABLE-PRINT-STYLE.md), approved with the three revised proofs on 21 September.
+Key Risks prefer `short_text`, falling back to full `text`; the full applicable,
+deduplicated condition pool is ranked independently of the page-two table limit.
+Table counts vary with crop relevance and fit; condense signs/control before
+omitting useful conditions and preserve the original full advice.
 
-21 September pilot refinement: priority is safe page fit, then column-base
-alignment, then useful whitespace filling. Saved layout options `intro_sentences`,
-`variety_count` and `align_bottoms` supplement the existing fitter; it still checks
-actual output. Flexible rows share spare height only for these saved choices.
-Column Final Tips can stack/stretch; default remains a full-width bottom banner.
-`src/lib/sentences.ts` preserves common gardening abbreviations and decimals.
+## Artwork
 
-Renderer v3 correction: saved intro/variety counts are explicit choices, not
-automatic-fitting starting guesses. Page-one stretching is enabled after fitting.
-Key Risks ranks the complete applicable/deduplicated pool independently of the
-page-two table limit. Curated tips must have meaningful explicit icons, not the
-generic soil default. See vegetable-ai-pilot/ROLLOUT.md for corrected proofs.
+[Current asset registry](docs/assets/README.md). Keep SVG/PNG transparency and
+approved resolution. No resizing or redraw during unrelated maintenance.
 
-Page one uses a staggered grid: introduction and hero interlock above Quick Facts/Core Needs on the left, with sowing/harvest calendar and varieties on the right. Retain original borders, dark headings, tinted variety tables and coloured Key Risks. The borderless experiment was rejected.
+- Style-A coloured icons: `public/images/coloured-icons/style-a-v1/`, 36 SVG masters
+  and PNG companions. Quick Facts/Core Needs use 28px; Final Tips use 32px.
+  `src/lib/quickFactIcons.ts` owns selection; nutrition aliases feeding.
+- Key Risks: naturalistic-v3, silhouette-v5 and onion-bolting-v1 under
+  `public/images/key-risk-icons/`. `src/lib/keyRiskIcons.ts` owns crop overrides.
+  32px slots, 8px heading clearance, alpha-preserving SVG colour filter. Avoid CSS
+  background masks: they caused PDF box-edge artefacts at fractional zoom.
+- Hero originals and lossless transparent-margin crops are mapped in
+  `heroImageCrops.json`; preserve both. Planting artwork lives under
+  `public/images/planting/`. Crop bubbles remain outside the current task.
+- Approved static cover/how-to PDFs live in `public/front-matter/`. Builders are
+  `scripts/build-front-cover.mjs` and `scripts/build-how-to.mjs`; their required
+  template, reference pages and six historical icon inputs remain in
+  `docs/front-matter/`. These are live build inputs, not an old review archive.
 
-The approved style-A library has 36 transparent SVG masters and 384px PNG exports in `public/images/coloured-icons/style-a-v1/`. Quick Facts and printed Core Needs use SVGs at 28px; Final Tips use 32px. `src/lib/quickFactIcons.ts` owns selection, the nutrition/feeding alias and custom legacy fallback paths. All 36 meanings are available in the admin picker; no new keyword remapping was introduced. See the [icon guide](public/images/coloured-icons/style-a-v1/README.md) and [archive manifest](docs/archive/coloured-icons-pre-style-a/MANIFEST.json).
+## Troubles printing
 
-Key Risks retain the 35 approved naturalistic transparent PNGs in
-`public/images/key-risk-icons/naturalistic-v3/`, supplemented by 31 crop-specific
-silhouettes in `silhouette-v5/` (all drawings and representative page proofs
-approved by John on 24 September). `src/lib/keyRiskIcons.ts` resolves crop-specific assignments
-before shared labels. Onions/shallots Bolting has a dedicated
-`onion-bolting-v1/onion_bolting.png` override (approved and installed).
-`troubleIdentity.ts` removes duplicate display identities
-without deleting master advice. No rejected `assignment-v4` artwork is used.
-32px images use a shared SVG alpha-preserving colour filter for consistent
-`--key-risk-ink` (default `#30352f`); ordinary images participate in existing
-decode/readiness checks. Avoid CSS background masks here: Apple PDF rendering
-showed box-edge hairlines at fractional zoom. Slots are 32px with 8px top
-clearance. Renderer v8 retains v7/v6/v5 and eligible string-only v4 saved content
-choices, then remeasures them. Shared approval records are preserved.
-[Current evidence and limitations](docs/icon-pilot/KEY-RISK-CORRECTIONS-STATUS.md)
-records all 44 crop assignments and five crops in both units. Old risk assets
-remain for historical review boards; crop bubbles remain deferred.
+`PrintTroublePage.tsx`, `troubles.module.css`, `troubleContent.ts`,
+`troublePlan.ts` and `troublePagination.ts` render approved, source-current text
+and saved two-column card plans. Source changes invalidate saved adaptations;
+fallbacks warn. Full master prose remains intact. Existing group colours and
+approved combined heroes stay active. Each non-final page should contain four
+condition widgets; preserve readable content and report an impossible fit.
 
-Core Needs uses 1–5 scores for sun, water and nutrition: approved style-A SVG icons/five-cell bars in print, shared SVG/continuous bars on public pages.
+Reusable authoring tools remain in `scripts/`: `review-troubles-ai.mjs`,
+`export-troubles-review.mjs`, `approve-troubles-ai.mjs` and
+`pack-approved-troubles.mjs`. Use explicit group keys for bounded work; inspect
+arguments before use. Approval tools require John's actual approval.
+`check-troubles-layout.mjs` is an optional broader diagnostic, not a routine step.
 
-`src/print/heroImageCrops.json` maps originals to lossless crops and records dimensions. Cropping trims fully transparent margins, retains a 2% border and checks retained RGBA pixels without resampling. Originals remain intact. Use crop dimensions to recover space without shrinking illustrations.
+## Sizing, exports and checks
 
-The intro fitter adds whole sentences to the same introduction after assets are ready, with bounded rollback when space runs out. There is no separate continuation below Core Needs.
+A4 export: 688 × 979 measurement viewport; 18mm top, 20mm bottom, 14mm side margins;
+scale 1 and backgrounds on. Wait for `printReady` and loaded fonts/images.
+Source/readiness errors stop export. Layout warnings allow export for editing.
+Page budgets account for bottom padding and borders with a rounding margin;
+physical PDF page counts are authoritative. A warning can be conservative.
 
-Page two uses the approved illustrated **existing-column** planting card for active crops; Final Tips is full-width by default, with approved per-crop column exceptions. `plantingIllustrations.ts` owns layout/measurement bindings; `PlantingCard.tsx` and `planting.module.css` render the widget. Normal fit uses bounded images and optional notes without trimming neighbouring advice. Draft layouts require the explicit review query. Missing art falls back to text; source-review errors remain distinct from layout overflow, which warns but allows export. See [implementation](docs/planting-illustrations/IMPLEMENTATION.md) and the current overflow policy below.
+The batch report stays in normal header flow with bounded scrolling. Do not
+restore a fixed-height header or floating report. Its optional focused browser
+check is `scripts/check-batch-report-layout.mjs`.
 
-## Data contracts
-
-Read [SHARED-DATA.md](SHARED-DATA.md) for paths and ownership. Preserve these rules when editing data or validators:
-
-- Vegetables and troubles are keyed objects. Preserve unknown fields and opaque `group_overview` content during round trips.
-- Keep `src/types.ts`, `src/schema.ts` and hand-written admin validation aligned. Zod warns at boot and rejects invalid saves.
-- Ranked text can be `{text, rank, star?, short_text?, icon?}` or plain strings. Preserve ranks and existing filtering. `hero_header` is the short print lead, separate from difficulty/ease data.
-- Ranked `text`/`short_text` and sowing `method` also accept the existing `{imperial, metric}` pair shape. Store coherent full prose on each side; use `rt(value, system)` to select it. The admin reuses the measurement-pair editor and preserves both sides. Never embed both systems in one new paragraph, or put editorial/code notes in reader-facing prose.
-- Measurements may be strings, `{imperial, metric}` pairs, variety-keyed values or null. Use `src/lib/measure.ts`. Unit selection does not rewrite prose; sowing-diagram geometry deliberately uses imperial values while labels reflect selected units.
-- Calendar values are `--MM` fragments and inclusive cyclic ranges, not timestamps. Use `harvest_time`, not obsolete picking/cutting/lifting/pulling keys. Structured durations and seasonal ranges are distinct concepts.
-- Vegetable routes derive from slugified display names; trouble routes use guide keys. Reuse `src/lib/slug.ts`. Broad bean's current key/route is `bean_broad`.
-- Optional `print_planting` stores granular print steps, supplementary text, source references, reviewed optional note paths and a source fingerprint. It supplements, never replaces, original gardening text. The admin JSON editor and explicit review confirmation support human edits; normal export never calls AI. Measurements are read live via explicit stage/variety bindings, not copied into captions. Referenced advice changes require caption review; number changes flow through automatically.
-
-## Verification
-
-18 September overflow policy: John requested always allowing layout-overflow exports for manual text editing. The planting fitter reduces images only to their minimum, then exports with illustrations even when over budget. Source-review errors remain distinct. `printWarnings` records approximate designed-page overflow; batch also counts Chromium PDF page dictionaries and flags vegetable outputs above two pages. The browser displays a per-guide warning/error list during the batch, and output/batch-report.txt plus batch-report.json preserve the complete result. Budget warnings are conservative: a warning need not mean an extra physical PDF page. No padding or source text was adjusted. Checked normal A4 metric endpoints: asparagus 3 pages, leaf beet 2, carrot 2, all HTTP 200 with images. Focused checks: 79 tests and TypeScript passed; browser report checked with a simulated stream.
-
-Run focused checks after changes, then `npm test` and `npm run build` for code work. `src/data.integrity.test.ts` validates shared data and the absence of mirrors. `src/admin.shared-data.test.ts` exercises save and vegetable/trouble image mutations using disposable sibling directories; never test writes against the real master.
-
-For print changes, run `node scripts/check-transfer.mjs` with the local server running and visually inspect the resulting PDFs. It checks chicory, carrot, broad bean and lettuce in imperial/metric A4, plus a trouble PDF and login. Its two-page expectation applies to those crops only. Add targeted A5/A6 checks when paper sizing changes; avoid full-catalogue generation for routine work.
-
-The renderer uses a 688 × 979 viewport and waits for `document.body.dataset.printReady === "true"` or a non-empty `printError`. Errors stop export (single endpoint: HTTP 422; batch: per-crop failure). Preserve font/image readiness, bounded fitting, React StrictMode replay handling and conservative page budgets. Browser height does not prove PDF pagination. A5/A6 request scaling, but visual review found the existing fixed-A4 CSS page setup does not preserve the intended layout reliably; use A4 for reviewed output pending separate paper-size work.
-
-PDF endpoints: `GET /api/pdf/vegetable/:slug`, `GET /api/pdf/trouble/:slug`, `POST /api/pdf/batch`. See [SETUP.md](SETUP.md) for parameters and commands.
-
-Batch includes the approved cover first: `public/front-matter/cover-A4.pdf` is copied byte-for-byte to `output/00_cover_A4.pdf` and counted as a normal progress item. Cover failure is reported without stopping crop/trouble jobs. It always remains A4, independent of unit/paper selectors. Artwork lives in `public/images/front-matter/`; rebuild only after approved design edits with `node scripts/build-front-cover.mjs`. No generation or remote fonts are needed for the batch cover copy. See `public/front-matter/README.md` for source ownership.
-
-## Asset maintenance
-
-Troubles page backgrounds (21 September): troublePalette reuses vegetable_palettes.json pageBackground for a shared known category, with pale neutral #F8F8F7 for mixed/missing/unknown categories. The colour is inherited by first and continuation pages. Widgets remain white, including their opaque condition-image backgrounds; existing coloured advice sections and header stripes are retained. No image conversion or layout migration is needed.
-
-Trailing Troubles widgets (21 September): incomplete final planned pages use content-height cards after budget-based image fitting. Fixed saved heights remain fit ceilings, not visible fill for trailing cards. Full four-card pages and preceding pages retain their saved heights; no prose, image scale, order or schema changes.
-
-Combined Troubles heroes (21 September): ten approved unified harvest illustrations under public/images/troubles/heroes/ replace separate crop heroes through ai_layout.hero_images. A single image in that namespace uses the full existing artwork holder; legacy individual crop images retain their former sizing. No introduction/page budgets changed. See docs/troubles-design/hero-rollout/README.md for approvals, prompts, backups and proof checks.
-
-Troubles renderer (19 September): `PrintTroublePage.tsx` uses isolated `troubles.module.css` and `troublePagination.ts`. Two-column A4 pages are measured after assets load; long cards continue without trimming text. Group-colour stripes use live vegetable categories and the vegetable palette, or grey for mixed/unknown membership. `troubleContent.ts` selects approved source-current `print_summary` companions; stale/draft summaries fall back to full prose with batch warnings. Four pilot companions are installed; other entries retain original text. Types, Zod and admin validation cover companions. Single and batch routes remain unchanged and AI-free. See `docs/troubles-design/PROGRESS.md`; run `node scripts/check-troubles-layout.mjs --all` against the local server for content-retention/fit checks. Missing illustrations warn rather than stop export.
-
-Front matter update (18 September): batch now includes `public/front-matter/how-to-use-A4.pdf` immediately after the cover as `output/01_how-to-use_A4.pdf`. It contains two A4 pages, counted as one job; both front-matter documents are static copies independent of crop units/paper. Missing-file errors do not halt subsequent jobs. Rebuild with `scripts/build-how-to.mjs`, review the output, then install the PDF under public/front-matter. Actual reference sheets and native layout are used, not generated gardening text. Verified both pages, six batch tests, 214 full tests and build.
-
-- `node scripts/crop-hero-images.mjs` defaults to chicory; it also accepts stable crop keys or `--all`. Inspect before broad runs. It uses sharp and rewrites generated crops/the crop manifest; regenerate only affected crops after replacing originals.
-- The superseded Quick Facts raster exporter is archived with its original assets. Current style-A artwork is hash-guarded by `docs/icon-pilot/build-coloured-set.mjs`; do not re-render approved artwork unnecessarily. Static front-matter builders retain archived icons to reproduce their separately approved pages.
-- Some asset paths are constructed dynamically; text searches alone do not prove an image is unused. Preserve original image quality and avoid speculative cleanup.
-
-## Current baseline and limitations
-
-Current rollout checkpoint (18 September): illustrated POC output exists for all 44 crops, with 29 normal-active and 15 review-only layouts. [Final batch](docs/planting-illustrations/ROLLOUT-06.md) records basic readiness checks, pagination warnings and restore points. The user explicitly requested no regression suites or exhaustive proofing for these routine additions. `plantingReview=1` on the print page includes staged layouts and bypasses fit rejection only, with visible REVIEW labels; normal PDF endpoints retain their guards. Original source text and padding are unchanged. Earlier checks below are historical, not rerun claims.
-
-Earlier pilot verification: 16 September 2026, Node 24.20.0. All 159 tests and the TypeScript/Vite build passed. Five planting pilots produced 30 two-page PDFs across both units and A4/A5/A6; page-one text, baseline visible planting notes and neighbouring advice were retained. All A4 pilot backs and metric fronts were visually reviewed. The transfer smoke check also passed four representative crops in both units, a trouble PDF and login. Admin write/backup and batch error handling were checked against temporary fixtures; missing-art and source-change guards passed browser fault injection. No full-catalogue live batch was generated. Smaller-paper page counts pass but visual quality has the limitation below.
-
-Known issues, to address only within requested scope:
-
-- Some page-two overflow and unused Core Needs space remain; capsicum has previously produced three pages.
-- Some prose still contains imperial quantities in metric mode.
-- A5/A6 currently leave excessive whitespace and undersize text (observed in carrot/chicory exports); two-page/content checks do not imply visual approval. Paper-size CSS/renderer settings predate the planting widget and remain unchanged.
-- Ten missing trouble-image references are listed in `TRANSFER-MANIFEST.json`.
-- Inter and Playfair Display are fetched from Google Fonts; fully offline typography is not packaged and font timing can affect layout.
-- The build emits a large-chunk warning. The last dependency audit reported one moderate and five high advisories; remediation remains separate work.
-
-Maintain this current summary when the implementation changes. Put historical logs in backups rather than extending the working guide with repeated session notes.
-
-Vegetable widget coordination (21 September): `vegetableEditorial.ts` owns legacy rank/deduplication and labelled measurement fallback; `months.ts` formats exact circular month windows. `facts.ts` keeps variant labels in full facts and compact ranges in headers. Valid saved sowing extracts suppress optional planting prefix selection; no new runtime AI or cross-widget state. `data-editorial-report` exposes selection mode/counts/notes; missing extracts warn. `vegetable-extracts-v4` requires refreshed renderer evidence. See [workflow and decisions](docs/vegetable-ai-pilot/WIDGET-COORDINATION.md).
-
-24 September page-fit update (renderer v9): Key Risks prefer an inline ranked
-`short_text`, falling back to full `text`; no schema migration is needed for that
-existing field. Ranked inline conditions additionally accept optional
-`applies_to`, aligned in types/Zod. Explicit inline scope overrides same-label
-shared scope; unscoped advice retains the existing safety filter. Radish root
-quality aliases deduplicate only for radish. Existing v8/v7/v6/v5 and eligible v4
-layout choices remain compatible. Overflow warnings deduct page bottom padding,
-border and a rounding pixel from computed min-height, capped by the existing
-budget; warnings remain conservative and actual PDF page counts are authoritative.
-No font, artwork or padding changes. [Five-crop evidence](docs/page-fit/README.md).
+Routine POC verification is deliberately small: affected unit tests or `npm test`,
+then one affected-crop smoke PDF only for print changes. `check:fit` measures HTML
+without a PDF; `check:smoke` also checks actual pagination. Add the other unit when
+measurement/wrapping changes, or another crop for shared layout logic. Full suites,
+builds, raster reviews and catalogue exports are not mandatory after every edit.
+See [SETUP](SETUP.md) for commands and [current status](docs/handover/START-HERE.md)
+for known limitations. Do not run cross-project builds without a relevant change.

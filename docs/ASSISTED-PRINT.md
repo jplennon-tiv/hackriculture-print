@@ -1,56 +1,32 @@
-# Assisted PDF generation
+# Assisted printing
 
-Agreed with John, 19 September 2026. This interface is the preferred place to request page generation. A request such as "generate the troubles pages" or "generate the vegetables pages" authorises the assistant to prepare and export the named set, including source-grounded editing of print summaries to improve fit. It does not mean merely invoking the existing batch button. No separate AI API integration or purchase is required by this workflow. Existing buttons remain available; they do not themselves call AI.
+A request to generate guides means prepare useful source-linked print content,
+measure it and export it for review. Ordinary browser export stays deterministic;
+no separate AI API or purchase is required.
 
-## Working cycle
+1. Read live records, current approved companions and the relevant style rules.
+   Preserve manual edits and locks. Reuse current reviewed copy and artwork.
+2. Work on the requested crop/group. Fit vegetables to the accepted two-page A4
+   design; Troubles use readable two-column cards, four on each non-final page.
+   Prefer even page counts when practical, without filler or lost advice.
+3. Resolve substantive advice conflicts with RHS-first research. State practical
+   organic actions directly. Keep crop distinctions, diagnoses, safety, timing,
+   useful detail and coherent measurements. Never invent personal observations.
+4. Condense print summaries where needed while retaining full master advice.
+   Save with source dependencies, honest attribution and revision-guarded exact
+   prior-byte backups. Assistant output is not automatically user-approved.
+5. Run a bounded sizing/smoke check and inspect the affected proof when visually
+   relevant. Use the other unit for unit or wrapping changes. Expand only when
+   an actual failure or shared change justifies it; do not automatically render
+   five crops, all units or the catalogue after a minor change.
+6. Deliver individual crop PDFs and a concise result. Avoid combined preview
+   packs unless requested. Update the single current status, not another handover.
 
-22 September preview preference: John prefers shorter preview PDFs after the
-desktop crashed while restoring a large review task. For vegetable review,
-deliver one crop per PDF (normally two A4 pages), with metric and imperial kept
-separate; present a small review batch with an index. Reuse checksum-current
-individual proofs where possible. Do not automatically assemble or open a
-whole-catalogue combined preview; make combined packs only when requested.
-Keep original artwork, resolution, typography and page content intact. This
-changes assisted delivery, not the existing deterministic browser batch export.
+Vegetables follow [the approved style contract](VEGETABLE-PRINT-STYLE.md): fit,
+column alignment, then useful space filling; preserve fonts, padding and artwork.
+Final Tips is full-width by default. Missing source/extract warnings remain visible;
+do not fabricate advice or silently grant approval to suppress them.
 
-For vegetable work, read [the approved style contract](VEGETABLE-PRINT-STYLE.md)
-before selecting text or layout. The revised asparagus/radish/celery proofs are
-approved reference examples, not a mandate to use their exceptions on every crop.
-
-Vegetable layout priority (John, 21 September): page fit first, then align the
-bottoms of the two widget columns, then fill spare space with useful source
-content. Prefer fuller original introductions where they improve alignment.
-Final Tips normally remains a full-width bottom banner; per-crop alternatives
-may use stacked rows in a column and expand to its neighbour's base. Do not drop
-useful tips merely to keep a relocated tips widget short. Save these choices.
-
-Strict packing clarification (John, 20 September, supersedes the introduction exception below): ONLY the final page may have fewer than four condition widgets. A single widget on the final page is acceptable. Rearrange shorter cards onto page one and reclaim unused introduction height as needed, keeping all prose, images, font sizes and padding. For authoring, use pack-approved-troubles.mjs --full-first with explicit group keys; it measures and validates before any --save. Normal exports do not invoke this helper. Bean/pea and carrot/parsnip now conform, with stored intro heights 37 mm and 45 mm respectively.
-
-Packing rule (John, 20 September): for all Troubles sets, including previously approved sets, fill earlier pages as fully as readability allows and consolidate spare space at the end. Aim for four illustrated condition widgets per page, with an exception where the first-page introduction or genuinely larger cards require space. Reorder conditions instead of preserving a sparse original sequence; keep related problems together where practical. Preserve all approved text and illustrations, font sizes and padding. Save measured ordering/budgets for deterministic exports. Do not promise ceil(condition count / 4) pages until the introduction and cards have been measured. The six approved sets have now been repacked; exact ordering/heights live in each canonical group's ai_layout.pages. Normal exports reuse these plans without AI or rerunning the packing script.
-
-Duplex preference (John, 19 September): favour even page counts (2, 4, 6, 8, etc.) when choosing between natural layouts. This is not a hard limit: do not add filler or cut essential advice solely for parity.
-
-Organic policy (John, 19 September): remove chemical pesticide prescriptions and use practical organic methods. John expressly permits source-data corrections for this purpose; preserve granular advice and exact prior-byte backups, and then refresh affected AI dependencies. Charles Dowding and RHS are preferred resources, with advice checked for the relevant crop/problem. Do not substitute unverified home-made sprays or imply organic methods guarantee a cure. The first source pass covers beetroot, bean/pea and brassicas only; other groups remain pending.
-
-1. Read the relevant progress record, live source data and stored print companions. Reuse current approved copy/layout where suitable; do not rewrite everything on each run.
-2. Render/measure the requested guides. For Troubles, aim for four two-column cards per A4 page where readable and safe. For vegetables, preserve the accepted two-page design. These are targets, not permission to remove essential advice.
-3. Use assistant judgement here to shorten or, where genuinely useful, expand print-only wording from the full source. Preserve diagnostic distinctions, applicable crops, actions, timing, measurements, safety qualifications and uncertainty. Do not invent advice or pad text just to fill whitespace. Investigate conflicting or potentially dated facts using authoritative sources before changing facts.
-4. Re-render affected pages and inspect actual PDFs. Adjust summaries/layout within the accepted style; allow more space/pages when further cuts would lose important meaning. Keep text readable and existing user-controlled padding intact unless requested otherwise.
-5. Store print companions with source linkage/snapshots and an accurate review status. New assistant-edited copy is not automatically labelled user-approved. Use review generation when necessary; report proposed edits and unresolved issues for review. Preserve full master prose and all unrelated user edits. Back up shared JSON before mutation.
-6. Deliver PDFs in project output, a concise change/fit report and an updated resume point. Reuse saved decisions for subsequent runs when sources remain current. Work in bounded batches if credits are limited; record precisely what is complete and what remains.
-
-## Current implementation and next work
-
-Per-record rebuild completed and carrot/parsnip proof approved on 19 September. The paragraph below describes the earlier pilot checkpoint. Current master is the shared vegetables/<key>/<key>.json and troubles/<key>/<key>.json store; records.json indexes it. The writer stamps changed leaves, rejects stale saves, backs up exact preceding bytes and protects AI field scope/locks. Approved carrot/parsnip exports now use the saved plan normally. See shared SHARED-DATA.md and the newest Troubles progress checkpoint. Remaining work is extending preparation to other groups, not repeating this migration or asking again for carrot approval.
-
-19 September AI-once pilot supersedes the initial exercise description below: carrot/parsnip now has per-condition `ai_` text and `ai_print.fields` review/provenance/dependency metadata, plus a draft `ai_layout` plan and `ai_introduction`. Exact canonical JSON signatures detect relevant source and output edits without relying on timestamps. Approved/current text is reusable; draft review is explicit (`?aiReview=1`). Prior approved legacy summaries remain eligible during transition. Planned layout failure produces warnings and falls back to automatic pagination rather than blocking export. No AI runs during regeneration. See `troubles-design/PROGRESS.md` for commands, validation and remaining migration work. Per-record storage and automatic source-field change stamps are still pending.
-
-The existing renderer is deterministic and can be used as the rendering engine. Troubles has four approved `print_summary` companions, full-prose fallback for all other entries, category-colour strips and measured pagination. Its sparse output has been rejected as insufficiently well fitted; passing overflow checks is not sufficient design acceptance. Stored summaries require approved status today: add an explicit review path if generating unapproved drafts rather than silently marking them approved.
-
-Next Troubles exercise should optimise the complete carrot/parsnip guide, not just selected cards, then use that result to establish a repeatable editing/fit process. No generation was requested or run in the workflow-agreement turn.
-
-Related restore records: `troubles-design/PROGRESS.md`, `planting-illustrations/PROGRESS.md`, `front-matter/PROGRESS.md`. A4 is the reviewed format; retain existing unit choices or clarify when unresolved. Do not silently produce additional unit/paper variants or regenerate unrelated sets. Do not remove the browser buttons or deploy publicly.
-
-## Coordinated vegetable editorial review (21 September)
-
-Follow [WIDGET-COORDINATION.md](vegetable-ai-pilot/WIDGET-COORDINATION.md): review soil, care, harvest, planting notes and Final Tips together, save complete source-linked selections, then measure the whole page. Valid sowing-note extracts own all notes; automatic prefix top-up is disabled for them. Preserve crop/variant distinctions, use organic advice, choose exact tip icons, and document coverage/omissions. Missing extracts are visibly flagged as automatic fallbacks. The accepted title-length bubble rule remains.
+Use `npm run check:smoke -- <crop>` with start.command running. Troubles authoring
+commands are documented in [DEVELOPMENT](../DEVELOPMENT.md). Full tests/builds and
+catalogue-wide proof generation are explicit broader checks, not routine defaults.

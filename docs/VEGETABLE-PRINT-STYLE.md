@@ -242,7 +242,7 @@ points. No deployment or website/video prose rewrite is implied by print approva
 
 ## Coordinated vegetable editorial review (21 September)
 
-Follow [WIDGET-COORDINATION.md](vegetable-ai-pilot/WIDGET-COORDINATION.md): review soil, care, harvest, planting notes and Final Tips together, save complete source-linked selections, then measure the whole page. Valid sowing-note extracts own all notes; automatic prefix top-up is disabled for them. Preserve crop/variant distinctions, use organic advice, choose exact tip icons, and document coverage/omissions. Missing extracts are visibly flagged as automatic fallbacks. The accepted title-length bubble rule remains.
+For coordinated editorial changes, review soil, care, harvest, planting notes and Final Tips together, save complete source-linked selections, then measure the whole page. Valid sowing-note extracts own all notes; automatic prefix top-up is disabled for them. Preserve crop/variant distinctions, use organic advice, choose exact tip icons, and document coverage/omissions. Missing extracts are visibly flagged as automatic fallbacks. The accepted title-length bubble rule remains.
 
 
 ## Completion decisions - 22 September 2026
@@ -271,9 +271,8 @@ advance. Save and document in hard copy these layout rules and decisions!"
   keep the captions and master advice unchanged where already consistent.
 - Approval covers the saved print selections and layout. It does not certify
   every legacy master-data claim, resume the paused normalisation programme,
-  alter website/video prose, or authorise public deployment. Existing catalogue
-  findings remain recorded in the shared data-normalisation log.
-- A printable copy of this complete contract is saved as
-  `output/pdf/vegetable-layout-rules-2026-09-23.pdf`.
-  The Markdown file is the maintainable source; regenerate the hard copy after
-  any later approved rule change. AI records these decisions; John approves them.
+  alter website/video prose, or authorise public deployment. Current unresolved questions remain in the shared editorial open-questions file.
+
+## Routine POC verification
+
+John’s 24 September instruction replaces earlier mandatory broad proof checks: use one affected-crop sizing/smoke check, adding the other unit when units or wrapping change. A shared layout change may warrant another representative crop. No automatic five-crop batches, full suites or repeated raster packs after small edits. Keep the design and editorial rules above; broaden checks only when evidence warrants it. The Markdown contract is authoritative; old printed copies were removed during cleanup.

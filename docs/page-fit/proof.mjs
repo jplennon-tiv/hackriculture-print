@@ -1,8 +1,8 @@
 import fs from 'node:fs';import assert from 'node:assert/strict';import {chromium} from 'playwright';import {createHash} from 'node:crypto';
-import {readCollection,revision} from '../../../hackriculture-data/lib/records.mjs';import {prepare,crops} from './prepare.mjs';
-const mode=process.argv[2]||'candidate',data=mode==='candidate'?prepare(readCollection('vegetables')):null,out='output/pdf/page-fit/'+mode;fs.mkdirSync(out,{recursive:true});const b=await chromium.launch(),results=[];
+import {revision} from '../../../hackriculture-data/lib/records.mjs';const crops=['bean_broad','bean_french','marrow_courgette','garlic','radish'];
+const mode='final',out='output/pdf/page-fit/'+mode;fs.mkdirSync(out,{recursive:true});const b=await chromium.launch(),results=[];
 for(const key of crops)for(const units of ['metric','imperial']){
- const p=await b.newPage({viewport:{width:688,height:979}});if(data)await p.route('**/generated/master/vegetables.json*',r=>r.fulfill({contentType:'application/javascript',body:'export default '+JSON.stringify(data)}));
+ const p=await b.newPage({viewport:{width:688,height:979}});
  await p.goto(`http://127.0.0.1:5173/print/vegetable/${key}?units=${units}`,{waitUntil:'networkidle'});await p.waitForFunction(()=>document.body.dataset.printReady==='true');
  const state=await p.evaluate(()=>({warnings:JSON.parse(document.body.dataset.printWarnings),fonts:document.fonts.status,missing:[...document.images].filter(i=>!i.complete||!i.naturalWidth).map(i=>i.src),pests:[...document.querySelectorAll('[class*="cheatPestLbl"]')].map(e=>e.textContent),risks:[...document.querySelectorAll('[class*="cheatKeyRiskName"]')].map(e=>e.textContent),content:[...document.querySelectorAll('[class*="cheatPage_"]')].map(e=>({height:e.getBoundingClientRect().height,end:e.lastElementChild.getBoundingClientRect().bottom-e.getBoundingClientRect().top})),text:document.body.innerText}));
  assert.equal(state.fonts,'loaded');assert.deepEqual(state.missing,[]);

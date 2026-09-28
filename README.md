@@ -1,36 +1,32 @@
-**23 September update:** All 44 normalised crops and current proofs are approved by John. The final three planting clarifications are signed off: [catalogue review](../hackriculture-data/planning/NORMALISATION-FRAMING-REVIEW.html) · [completion report](../hackriculture-data/planning/NORMALISATION-PLANTING-REPORT.md). All 14 shared Troubles groups and their 28 proofs are also approved: [Troubles sign-off](../hackriculture-data/planning/troubles-normalisation/BROAD-APPROVED.json). Earlier checkpoints below are historical.
-
 # hackriculture-print
 
-A local gardening reference, content editor and printable growing-sheet generator. It produces vegetable and pest/disease guides as A4 PDFs, with imperial/metric controls and scaled A5/A6 output.
+Local gardening editor and A4 growing-sheet generator. The canonical data lives
+beside this project in `hackriculture-data`; the website and video projects share it.
 
-This project is also the master gardening-data editor for the sibling website (`hackriculture`) and video project (`hackriculture-video`). Authoritative gardening records live in shared `vegetables/<key>/<key>.json` and `troubles/<key>/<key>.json`, with `records.json` indexing 44 crops and 14 trouble groups. Eight navigation groups remain in shared `vegetable_groups.json`. Browser builds use disposable shared projections, not editable local copies.
+Start with `zsh start.command`, then open <http://127.0.0.1:5173>.
+The launcher selects Node 24 and asks privately for a session admin password.
+Keep its terminal open; Control-C stops it. Admin saves and PDF exports need this
+local dev server. No AI service runs during ordinary exports.
 
-## Start working
+All 44 vegetable guides, 14 shared Troubles groups, coloured icons and Key Risks
+artwork are approved. The latest page-fit corrections are in
+[the current proofs](docs/page-fit/REVIEW.html). See [current status](docs/handover/START-HERE.md)
+for the remaining warnings; crop bubbles are on John's own task list.
 
-From `/Users/johnlennon/Documents/web_site/hackriculture-print`, run:
+## Working documents
 
-```sh
-zsh start.command
-```
+- [AGENTS.md](AGENTS.md): editing rules and proportionate POC checks.
+- [SETUP.md](SETUP.md): startup, dependencies and quick commands.
+- [DEVELOPMENT.md](DEVELOPMENT.md): current implementation and contracts.
+- [SHARED-DATA.md](SHARED-DATA.md): data ownership and safe writes.
+- [Vegetable print style](docs/VEGETABLE-PRINT-STYLE.md): approved design rules.
+- [Assisted printing](docs/ASSISTED-PRINT.md): preparation and review workflow.
+- [Asset registry](docs/assets/README.md): approved artwork and preserved hashes.
 
-The launcher selects the Node version in `.nvmrc`, prompts privately for a session admin password and starts the local server on port 5173. Keep its Terminal open; Control-C stops it.
+Routine check: `npm test` (small data/layout suite). For a print change, with the
+server running, use `npm run check:smoke -- carrot` or substitute the affected crop.
+It checks readiness, fonts, images and one actual A4 PDF. See SETUP for options.
+Full tests and production builds remain available when the change warrants them.
 
-- [Browse crops](http://127.0.0.1:5173/vegetable/carrot)
-- [Edit shared data](http://127.0.0.1:5173/admin/login)
-- [Preview a metric carrot PDF](http://127.0.0.1:5173/api/pdf/vegetable/carrot?inline=1&units=metric&paper=A4)
-
-Style-A coloured icons, the original 35 naturalistic Key Risks drawings and 31 supplementary silhouettes are approved and active for vegetable printing. The corrected assignments and representative page proofs are signed off. [Installation and archived originals](docs/icon-pilot/README.md).
-
-## Working documentation
-
-- [Current vegetable rollout handover](docs/handover/START-HERE.md): completed rollout, researched normalisation corrections and eight drafts for later output review, and read-only preflight.
-
-- [AGENTS.md](AGENTS.md): concise rules for coding assistants; read first.
-- [DEVELOPMENT.md](DEVELOPMENT.md): architecture, accepted print design, data contracts and validation.
-- [Approved vegetable print style](docs/VEGETABLE-PRINT-STYLE.md): layout priorities, typography/art preservation, editorial rules and saved per-crop exceptions.
-- [SETUP.md](SETUP.md): local commands, dependencies and troubleshooting.
-- [SHARED-DATA.md](SHARED-DATA.md): data ownership, backups and cross-project effects.
-- [Planting illustration progress](docs/planting-illustrations/PROGRESS.md): resume point, all 44 crop briefs, RHS correction audit and draft-image batch status.
-
-Update the relevant document when behaviour or architecture changes. Keep these files focused on current practice; historical migration details and prior documentation belong in shared backups.
+Historical handovers, completed pilots and disposable proofs were removed at
+John's request. Git holds source history; do not recreate session archives.

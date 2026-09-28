@@ -153,12 +153,12 @@ describe('additive, source-bound planting content',()=>{
         (changed.sowing_and_planting!.seed_sowing as Record<string,unknown>).method='Changed direct sowing';
         expect(plantingReviewIssue(changed)).toMatch(/changed/);
         expect(resolvePlanting(data.lettuce,'lettuce','metric')!.measurements[2].value).toContain('loose-leaf');
-        for(const [crop,original] of [['beet_leaf','beetroot/01-sow-clusters-v2.png'],['endive','chicory/01-sow-shallowly-v2.png']]) {
+        for(const [crop,original] of [['beet_leaf','beetroot/sow-clusters-v2.png'],['endive','chicory/sow-shallowly-v2.png']]) {
             const scene=(plantingLayouts[crop]??pendingPlantingLayouts[crop]).stages[0].image;
-            expect(readFileSync(resolve(import.meta.dirname,'../../public',scene.slice(1))).equals(readFileSync(resolve(import.meta.dirname,'../../docs/planting-illustrations/drafts/2026-09-15',original)))).toBe(true);
+            expect(readFileSync(resolve(import.meta.dirname,'../../public',scene.slice(1))).equals(readFileSync(resolve(import.meta.dirname,'../../public/images/planting',original)))).toBe(true);
         }
     });
-    it('keeps the prepared leaf-beet widget inactive until its legacy overflow is resolved',()=>{
+    it('renders the active leaf-beet widget with current source companions',()=>{
         expect(resolvePlanting(data.beet_leaf,'beet_leaf','metric')!.steps).toHaveLength(2);
         expect(PlantingPrintContentSchema.safeParse(data.beet_leaf.print_planting).success).toBe(true);
         expect(plantingReviewIssue(data.beet_leaf)).toBeNull();

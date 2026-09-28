@@ -9,7 +9,7 @@ const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const slug=process.argv[2]??'carrot_and_parsnip_troubles';
 const data=JSON.parse(await fs.readFile(path.resolve(root,'../hackriculture-data/generated/master/troubles.json'),'utf8'));
 if(!Object.hasOwn(data,slug)||!/^[a-z0-9_]+$/.test(slug))throw Error('Unknown group');
-const out=path.join(root,'output/pdf/ai-once-pilot');await fs.mkdir(out,{recursive:true});
+const out=path.join(root,'output/pdf/troubles-review');await fs.mkdir(out,{recursive:true});
 const browser=await chromium.launch();
 try{
  const page=await browser.newPage({viewport:{width:794,height:1123}});

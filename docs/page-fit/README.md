@@ -35,7 +35,7 @@ locks and approval statuses preserved; changed fields carry honest AI attributio
 New summaries are presented for review, not self-approved. Layout dependencies and
 measurement evidence refreshed. No shared Troubles changes or artwork changes.
 
-26 focused tests, all 276 application tests, production build and shared schema
+At completion: 26 focused tests, all 276 application tests, production build and shared schema
 validation passed. The existing large-bundle build warning remains.
 [Final proof measurements](FINAL.json); [all-crop scan](ALL-CROPS.json).
 All 44 crops ready with fonts and risk images loaded. This is a metric HTML scan,
@@ -49,7 +49,9 @@ Crop bubbles remain on John's own list, outside this work.
 
 ## Reproduction
 
-Use `start.command` on loopback. `proof.mjs final` exports the five crops from
-live production data. `prepare.mjs` / `save.mjs` capture this one-time migration;
-the revision guard intentionally prevents rerunning against the changed master.
-Historical candidate evidence is retained; do not regenerate it from current data.
+Use `start.command` on loopback. For routine checks run
+`npm run check:smoke -- <crop>` from the project root. `proof.mjs` remains an
+explicit five-crop/both-unit export from current production data when requested;
+it is not part of routine verification. Candidate files and one-shot writers were
+removed after successful installation; final proof evidence and the latest exact
+prior-byte rollback remain.

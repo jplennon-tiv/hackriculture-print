@@ -1,7 +1,8 @@
-Key Risks naturalistic set: 35 transparent PNG drawings.
-Five selected studies retained byte-for-byte; 30 new drawings for review.
-Not installed. All previous artworks and approval records preserved.
-These are raster assets, not vector masters. Use the PNG alpha channel as a mask
-when a precise single ink or another icon colour is needed; do not infer colour
-from grayscale or flatten the PNG onto a background.
-See the manifest for paths, hashes, generation provenance and review status.
+# Approved naturalistic Key Risks
+
+35 transparent PNG drawings, approved and installed. Additional crop-specific
+silhouettes and the bolting-onion override are selected by
+`src/lib/keyRiskIcons.ts`. The active registry is
+`docs/assets/NATURALISTIC-SET-MANIFEST.json`. Preserve alpha and resolution.
+Print uses an SVG colour filter on normal images; do not restore CSS background
+masks, which caused PDF edge artefacts.

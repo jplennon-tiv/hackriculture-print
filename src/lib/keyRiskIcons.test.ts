@@ -5,12 +5,12 @@ import { getRiskIcon, RISK_ICONS, CROP_RISK_ICONS, UNASSIGNED_RISK_LABELS } from
 
 describe('naturalistic Key Risks assignments', () => {
     it('preserves all 35 approved original drawings byte-for-byte', () => {
-        const manifest = JSON.parse(readFileSync('docs/icon-pilot/NATURALISTIC-SET-MANIFEST.json', 'utf8'));
+        const manifest = JSON.parse(readFileSync('docs/assets/NATURALISTIC-SET-MANIFEST.json', 'utf8'));
         expect(manifest.icons).toHaveLength(35);
         for (const icon of manifest.icons) expect(createHash('sha256').update(readFileSync(`public${icon.png}`)).digest('hex')).toBe(icon.sha256);
     });
     it('resolves every assigned asset to a recorded, unchanged drawing', () => {
-        const icons = ['NATURALISTIC-SET-MANIFEST','SILHOUETTE-SET-MANIFEST','ONION-BOLTING-MANIFEST'].flatMap(name => JSON.parse(readFileSync(`docs/icon-pilot/${name}.json`,'utf8')).icons);
+        const icons = ['NATURALISTIC-SET-MANIFEST','SILHOUETTE-SET-MANIFEST','ONION-BOLTING-MANIFEST'].flatMap(name => JSON.parse(readFileSync(`docs/assets/${name}.json`,'utf8')).icons);
         const known = new Map(icons.map((i:{png:string;sha256:string})=>[i.png,i.sha256]));
         const paths = new Set([...Object.values(RISK_ICONS),...Object.values(CROP_RISK_ICONS).flatMap(Object.values)]);
         for (const path of paths) expect(createHash('sha256').update(readFileSync(`public${path}`)).digest('hex')).toBe(known.get(path));
@@ -34,7 +34,6 @@ describe('naturalistic Key Risks assignments', () => {
         expect(getRiskIcon('Rotting','chicory')).toContain('/leafy_heart_rot.png');
         expect(getRiskIcon('Button Cauliflowers','cauliflower')).toContain('/cauliflower_button.png');
         expect(getRiskIcon('Honey Fungus','rhubarb')).toContain('/honey_fungus_root.png');
-        for(const key of ['pepper_end_rot','potato_scab']) expect(readFileSync(`public/images/key-risk-icons/silhouette-v5/${key}.png`).equals(readFileSync(`docs/icon-pilot/silhouette-proofs/${key}.png`))).toBe(true);
     });
     it('keeps aliases and refuses audited false fallbacks', () => {
         expect(getRiskIcon('Clubroot (Finger and Toe)')).toBe(getRiskIcon('CLUB ROOT (FINGER AND TOE)'));

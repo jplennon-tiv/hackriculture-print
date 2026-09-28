@@ -1,1 +1,0 @@
-Six superseded naturalistic candidates, retained for history. Five were revised for John’s one-core-concept instruction; root rot was revised to avoid resembling clubroot. Use the complete naturalistic-v3 set for current review.
