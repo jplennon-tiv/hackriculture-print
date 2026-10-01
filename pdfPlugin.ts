@@ -20,6 +20,8 @@ import {refreshGenerated} from '../hackriculture-data/lib/records.mjs';
  * renders it with a headless Chromium, and returns/writes the PDF.
  */
 import type { Plugin } from "vite";
+import bookPagination from "./src/print/bookPagination.json";
+import {bookEntry,requireCurrentPagination} from "./src/print/bookPagination";
 import type { IncomingMessage, ServerResponse } from "node:http";
 import type { Browser, Page } from "playwright";
 import { promises as fs } from "node:fs";
@@ -250,28 +252,34 @@ async function handleBatch(
             output: outputDir,
         } = resolveBatchPaths(root);
         await fs.mkdir(outputDir, { recursive: true });
+        await fs.writeFile(path.join(outputDir,'collection-order.json'),JSON.stringify({units,paper,complete:false,documents:[]},null,2)+'\n');
 
         const vegetables = JSON.parse(
             await fs.readFile(vegPath, "utf-8"),
-        ) as Record<string, { name?: string | null }>;
+        ) as Record<string, { name?: string | null; category?: string | null }>;
         const troubles = JSON.parse(
             await fs.readFile(troublesPath, "utf-8"),
         ) as Record<string, unknown>;
 
+        await requireCurrentPagination(bookPagination.sourceSignature,vegetables,troubles);
+        const edition=bookPagination.editions[units==='metric'?'metric':'imperial'];
+        const contentsPlan=JSON.parse(await fs.readFile(path.join(root,'public/front-matter/pagination.json'),'utf8'));
+        if(contentsPlan.sourceSignature!==bookPagination.sourceSignature||JSON.stringify(contentsPlan.edition)!==JSON.stringify(edition))throw new PrintContentError('Contents pagination is stale. Run node docs/front-matter/entry-pages/build.mjs.');
         const jobs: {
             type: "front-matter" | "vegetable" | "trouble";
             slug: string;
             label: string;
+            key?: string;
         }[] = [
             {type: "front-matter", slug: "cover", label: "Cover (A4)"},
-            {type: "front-matter", slug: "how-to-use", label: "How to use this guide (2 A4 pages)"},
+            {type: "front-matter", slug: "contents", label: "Contents (A4)"},
+            {type: "front-matter", slug: "how-to-use", label: "How to use these sheets (A4)"},
         ];
-        for (const [key, veg] of Object.entries(vegetables)) {
-            const slug = slugify(veg?.name ?? key);
-            jobs.push({ type: "vegetable", slug, label: veg?.name ?? key });
+        for (const entry of edition.vegetables) {
+            jobs.push({ type: "vegetable", key:entry.key, slug:slugify(entry.label), label:entry.label });
         }
-        for (const key of Object.keys(troubles)) {
-            jobs.push({ type: "trouble", slug: key, label: key });
+        for (const entry of edition.troubles) {
+            jobs.push({ type: "trouble", key:entry.key, slug:entry.key, label:entry.label });
         }
 
         write({
@@ -279,7 +287,7 @@ async function handleBatch(
             total: jobs.length,
             vegetables: Object.keys(vegetables).length,
             troubles: Object.keys(troubles).length,
-            frontMatter: 2,
+            frontMatter: 3,
             outputDir,
         });
 
@@ -291,11 +299,13 @@ async function handleBatch(
         let okCount = 0;
         let errCount = 0;
         const report: {label:string;filename?:string;warnings?:string[];error?:string}[]=[];
+        const collectionOrder:{filename:string;start:number|null;pages:number}[]=[];
         for (let i = 0; i < jobs.length; i++) {
             const job = jobs[i];
             const index = i + 1;
             try {
                 let warnings:string[]=[];
+                const entry=job.type==='front-matter'?null:bookEntry(edition,job.type,job.key!);
                 // Approved, unit-independent A4 artwork; no AI/font/network work.
                 const pdf = job.type === "front-matter"
                     ? await fs.readFile(path.join(root, `public/front-matter/${job.slug}-A4.pdf`))
@@ -309,8 +319,9 @@ async function handleBatch(
                     found=>{warnings=found;},
                 );
                 const filename = job.type === "front-matter"
-                    ? (job.slug === "cover" ? "00_cover_A4.pdf" : "01_how-to-use_A4.pdf") : `${job.type}_${job.slug}.pdf`;
+                    ? (job.slug === "cover" ? "00_cover_A4.pdf" : job.slug === "contents" ? "01_contents_A4.pdf" : "02_how-to-use_A4.pdf") : `${job.type}_${job.slug}.pdf`;
                 await fs.writeFile(path.join(outputDir, filename), pdf);
+                collectionOrder.push({filename,start:entry?.start??null,pages:entry?.pages??1});
                 okCount++;
                 report.push({label:job.label,filename,warnings});
                 write({
@@ -341,6 +352,7 @@ async function handleBatch(
             }
         }
 
+        await fs.writeFile(path.join(outputDir,'collection-order.json'),JSON.stringify({units,paper,complete:errCount===0,numberedPages:edition.totalPages,documents:collectionOrder},null,2)+'\n');
         await fs.writeFile(path.join(outputDir,'batch-report.json'),JSON.stringify({units,paper,generatedAt:new Date().toISOString(),results:report},null,2));
         await fs.writeFile(path.join(outputDir,'batch-report.txt'),report.map(item=>`${item.label}${item.filename?' - '+item.filename:''}\n${item.error?'ERROR: '+item.error:item.warnings?.length?item.warnings.join('\n'):'OK'}`).join('\n\n'));
         write({

@@ -1,0 +1,66 @@
+{
+  "status": "design-a-selected",
+  "text": "All visible wording preserved in all six pages; compared ignoring whitespace.",
+  "checks": [
+    {
+      "variant": "a",
+      "page": "contents",
+      "end": 1053.296875,
+      "limit": 1110.46875,
+      "fonts": "loaded",
+      "missing": 0,
+      "headerIntersections": []
+    },
+    {
+      "variant": "a",
+      "page": "how-to",
+      "end": 1089.78125,
+      "limit": 1110.46875,
+      "fonts": "loaded",
+      "missing": 0,
+      "headerIntersections": []
+    },
+    {
+      "variant": "b",
+      "page": "contents",
+      "end": 1068.296875,
+      "limit": 1110.46875,
+      "fonts": "loaded",
+      "missing": 0,
+      "headerIntersections": []
+    },
+    {
+      "variant": "b",
+      "page": "how-to",
+      "end": 1092.78125,
+      "limit": 1110.46875,
+      "fonts": "loaded",
+      "missing": 0,
+      "headerIntersections": []
+    },
+    {
+      "variant": "c",
+      "page": "contents",
+      "end": 980.421875,
+      "limit": 999.515625,
+      "fonts": "loaded",
+      "missing": 0,
+      "headerIntersections": []
+    },
+    {
+      "variant": "c",
+      "page": "how-to",
+      "end": 970.96875,
+      "limit": 999.515625,
+      "fonts": "loaded",
+      "missing": 0,
+      "headerIntersections": []
+    }
+  ],
+  "visualReview": "All six final browser page images inspected; no clipping, missing art or text/art overlap found.",
+  "assetAlpha": {
+    "cluster": true,
+    "frieze": true
+  },
+  "reviewLinksChecked": 24
+}

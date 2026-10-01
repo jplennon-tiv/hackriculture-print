@@ -1,0 +1,265 @@
+{
+  "designId": "richer-a-v1",
+  "status": "approved-forward-design",
+  "approvedBy": "John",
+  "approvedOn": "2026-09-28",
+  "recordedBy": "AI assistant, recording explicit user approval",
+  "approvalText": "Love it - this has everything I'm looking for - please document it and lock it in as the design to use going forwards.",
+  "contract": "docs/VEGETABLE-PRINT-STYLE.md",
+  "reference": "docs/vegetable-style-pilot/fresh-c/RICH-A.html",
+  "coverDirection": "Cover C",
+  "scope": "Visual system, two-page composition and information richness for future vegetable guide work; metric and imperial carrot reference. Crop-specific content counts are not universal limits.",
+  "supersedes": [
+    "Garden Green as forward design",
+    "Verdant",
+    "Sparse original A study",
+    "B Seed to supper",
+    "C bold field guide"
+  ],
+  "protection": "Do not overwrite or prune these approved references as disposable pilot files. Use separate paths for new variants; retain this manifest as the approval baseline.",
+  "sourceRecordSHA256": "0e201bfa6f359476843261dc12db1a63c43925300d598b544bd80a696bf1eebb",
+  "validation": {
+    "perUnitReferenceStrings": 86,
+    "units": [
+      "metric",
+      "imperial"
+    ],
+    "browserPagesPerUnit": 2,
+    "visualPagesReviewed": 4,
+    "dimensionsPx": [
+      794,
+      1123
+    ],
+    "fontsAndImagesLoaded": true,
+    "textBoundsPassed": true,
+    "physicalPDFValidated": false
+  },
+  "production": {
+    "sharedTemplateMigrated": false,
+    "canonicalDataChanged": false,
+    "editorialLocksChanged": false,
+    "pending": [
+      "Implement shared template with this design",
+      "Validate A4 physical PDFs and font embedding at established margins in both units",
+      "Check another representative crop",
+      "Prepare remaining matching hero artwork"
+    ],
+    "overnightGenerationScheduled": false
+  },
+  "externalDependencies": [
+    "Google Fonts: Lilita One and Nunito Sans. Remote font files are not hashed; production packaging remains pending."
+  ],
+  "pathBase": "Repository root",
+  "files": [
+    {
+      "path": "docs/vegetable-style-pilot/fresh-c/a-rich-metric.html",
+      "sha256": "33653b6be2005445de813c0590812cc8bfe0bc2995d49545cd8cbc29da1c6382",
+      "bytes": 11807,
+      "role": "reference input or review evidence"
+    },
+    {
+      "path": "docs/vegetable-style-pilot/fresh-c/a-rich-imperial.html",
+      "sha256": "f3ba8dee1e55d8b9fa7a81eb418857fbc80f69f836b35e5f275afb5b65173d2f",
+      "bytes": 11813,
+      "role": "reference input or review evidence"
+    },
+    {
+      "path": "docs/vegetable-style-pilot/fresh-c/a-rich-metric-1.png",
+      "sha256": "e246b5f9cccc876b697689df416fdaee01de486159b4b7b5c91238dbe5726cab",
+      "bytes": 402521,
+      "role": "approved visual proof"
+    },
+    {
+      "path": "docs/vegetable-style-pilot/fresh-c/a-rich-metric-2.png",
+      "sha256": "81fe7088fa23b45319b1a708a9d104b4222ac61dc51ff992668a4700bb84817b",
+      "bytes": 402992,
+      "role": "approved visual proof"
+    },
+    {
+      "path": "docs/vegetable-style-pilot/fresh-c/a-rich-imperial-1.png",
+      "sha256": "59b8963d8615b6bf1f4f3f14da6d301ea47b7f54578ba743ffa8c770a66f47b9",
+      "bytes": 401290,
+      "role": "approved visual proof"
+    },
+    {
+      "path": "docs/vegetable-style-pilot/fresh-c/a-rich-imperial-2.png",
+      "sha256": "e53fd5769b20db8c0745e663a9c976c04c32016d3970a52cfe733ecf669fc71f",
+      "bytes": 402330,
+      "role": "approved visual proof"
+    },
+    {
+      "path": "docs/vegetable-style-pilot/fresh-c/rich-a.css",
+      "sha256": "0748ba7a0e0f2ee0e19b7cdb4281d1ae61dfbb178bbea213b0ef1087e70c5dd8",
+      "bytes": 8293,
+      "role": "reference input or review evidence"
+    },
+    {
+      "path": "docs/vegetable-style-pilot/fresh-c/rich-a.mjs",
+      "sha256": "53b1f43e809fc8ba36c62690d624545aed2c040549a5202b990efdaf7d34acca",
+      "bytes": 7879,
+      "role": "reference input or review evidence"
+    },
+    {
+      "path": "docs/vegetable-style-pilot/fresh-c/render-rich.mjs",
+      "sha256": "3640ecb1388811810c0de3d25d87ad11203ac1b358cd88e9c205abaf2e5dde09",
+      "bytes": 2905,
+      "role": "reference input or review evidence"
+    },
+    {
+      "path": "docs/vegetable-style-pilot/fresh-c/RICH-CONTENT.json",
+      "sha256": "1e864fd4c8cbcd174d2a7b061eda0be760d02816c36ca2d3ef359ff96a37a9e6",
+      "bytes": 13334,
+      "role": "reference input or review evidence"
+    },
+    {
+      "path": "docs/vegetable-style-pilot/fresh-c/RICH-CHECKS.json",
+      "sha256": "8b9bbef968c5ce3517b6bb59262036ac64860b0367d4539d86a6c3275faf9417",
+      "bytes": 1063,
+      "role": "reference input or review evidence"
+    },
+    {
+      "path": "docs/vegetable-style-pilot/fresh-c/RICH-A.html",
+      "sha256": "e1e23961a584bc85bafe6358af292e4632920f9cb3bf0c4f14f9099d4b4b5b61",
+      "bytes": 4635,
+      "role": "reference input or review evidence"
+    },
+    {
+      "path": "docs/vegetable-style-pilot/assets/carrot-cutout.png",
+      "sha256": "733b775e5e9f87d78669551ca911e39ea3eb61bed6bc54815e64b10c8fbdbfe9",
+      "bytes": 1586483,
+      "role": "artwork dependency"
+    },
+    {
+      "path": "public/images/coloured-icons/style-a-v1/depth.svg",
+      "sha256": "9def9bd8618ac59795cd21898794beec59ccc69d6f56a3eec348d72c71225c8b",
+      "bytes": 721,
+      "role": "artwork dependency"
+    },
+    {
+      "path": "public/images/coloured-icons/style-a-v1/feeding.svg",
+      "sha256": "3e608d406e7215df408c2479e1f2cb93614341de4dd86bb1a6e6c3417375acf0",
+      "bytes": 877,
+      "role": "artwork dependency"
+    },
+    {
+      "path": "public/images/coloured-icons/style-a-v1/germination.svg",
+      "sha256": "3eb2bf0ae6f6d8eaeb4c5e33a1f35e0e39107d2ae7c64b26ce3da8db17f43690",
+      "bytes": 940,
+      "role": "artwork dependency"
+    },
+    {
+      "path": "public/images/coloured-icons/style-a-v1/harvest.svg",
+      "sha256": "2e2a92dab8c46fab7393b432fdb6ab63e17a13b669bf65504c43f4c01664eebc",
+      "bytes": 1101,
+      "role": "artwork dependency"
+    },
+    {
+      "path": "public/images/coloured-icons/style-a-v1/plant_spacing.svg",
+      "sha256": "1bd1797978e7326293cb2073adf4a46f09bfce48f142988a4fef4132d6328bda",
+      "bytes": 1066,
+      "role": "artwork dependency"
+    },
+    {
+      "path": "public/images/coloured-icons/style-a-v1/ready_in.svg",
+      "sha256": "557c9d514809996e31bf1537897bcab9e4376d024dba25ea9df563d8f5723387",
+      "bytes": 781,
+      "role": "artwork dependency"
+    },
+    {
+      "path": "public/images/coloured-icons/style-a-v1/row_spacing.svg",
+      "sha256": "0f199eb0db35f880482c5766d0778b356c68101c959856ab92d643b6421b6103",
+      "bytes": 1914,
+      "role": "artwork dependency"
+    },
+    {
+      "path": "public/images/coloured-icons/style-a-v1/soil.svg",
+      "sha256": "bc41da4758b0b786d66ff10bf942a583704fabd7756f2c6b6ed58f2451fddab1",
+      "bytes": 1030,
+      "role": "artwork dependency"
+    },
+    {
+      "path": "public/images/coloured-icons/style-a-v1/sow.svg",
+      "sha256": "5a150a664ab00f44d71103b36293937f8ceb731ce655b9061b54ca5a92f1d4b8",
+      "bytes": 1155,
+      "role": "artwork dependency"
+    },
+    {
+      "path": "public/images/coloured-icons/style-a-v1/storage.svg",
+      "sha256": "e37dada4853d268b6ba76cedef584ef3628dce6d3ccfd30ca04a0c93ad9eed00",
+      "bytes": 1081,
+      "role": "artwork dependency"
+    },
+    {
+      "path": "public/images/coloured-icons/style-a-v1/sun.svg",
+      "sha256": "e90866bce6f2f468a8751456055a6b0d61a5d2c36365d9de7b8a1149b920e590",
+      "bytes": 821,
+      "role": "artwork dependency"
+    },
+    {
+      "path": "public/images/coloured-icons/style-a-v1/water.svg",
+      "sha256": "7724cb9ac4f56548c19202a76f62c34570f516121d3dbd1db53e524b2b6bff52",
+      "bytes": 1091,
+      "role": "artwork dependency"
+    },
+    {
+      "path": "public/images/coloured-icons/style-a-v1/yield.svg",
+      "sha256": "9133db3acdc5711776e458862fd09007770c761aec89131afe1f0e0237a0de0b",
+      "bytes": 963,
+      "role": "artwork dependency"
+    },
+    {
+      "path": "public/images/header_chars/season_autumn.png",
+      "sha256": "4ca52bce40f7ed4d202ea4b534c95f4b1452885db344c9e9a86087bc882bff6e",
+      "bytes": 22719,
+      "role": "artwork dependency"
+    },
+    {
+      "path": "public/images/header_chars/season_summer.png",
+      "sha256": "ee56d04397fe879f6355ce31840a771f6003722723b998a0b0ddf5dd16361e9e",
+      "bytes": 22550,
+      "role": "artwork dependency"
+    },
+    {
+      "path": "public/images/key-risk-icons/naturalistic-v3/fly.png",
+      "sha256": "e2a0608d366214b5b6c5430cf99000fbb6adeb7759072422c7936e22a242f1b5",
+      "bytes": 399316,
+      "role": "artwork dependency"
+    },
+    {
+      "path": "public/images/key-risk-icons/naturalistic-v3/forked_root.png",
+      "sha256": "037afdc664e8ed251749ba9215ba437c1942e05462d103d14d8118a9bb07bdaf",
+      "bytes": 450694,
+      "role": "artwork dependency"
+    },
+    {
+      "path": "public/images/key-risk-icons/naturalistic-v3/small_roots.png",
+      "sha256": "c89daeb734e553105574edccf1da514fe1269b6fcd11ccb4945c3e96c51f1edb",
+      "bytes": 416419,
+      "role": "artwork dependency"
+    },
+    {
+      "path": "public/images/key-risk-icons/naturalistic-v3/splitting.png",
+      "sha256": "436d975b2e77c79070e0487cdbd1ac78ae71ec58a368063630bf0182890d501f",
+      "bytes": 411653,
+      "role": "artwork dependency"
+    },
+    {
+      "path": "public/images/planting/carrot/cover-lightly-v1.png",
+      "sha256": "1373650d9f0d282f0354e85a16fc7bb60335393d7d55617bcf812c342cc2a8f8",
+      "bytes": 1062212,
+      "role": "artwork dependency"
+    },
+    {
+      "path": "public/images/planting/carrot/sow-thinly-v1.png",
+      "sha256": "7db8dce5d77e036d83e914e554cee223962630469b09650730d28a38a37ccbbc",
+      "bytes": 1319672,
+      "role": "artwork dependency"
+    },
+    {
+      "path": "public/images/planting/carrot/thin-later-v1.png",
+      "sha256": "79d1bf97036caa875606b4ebfd5252bce7fcb9b5c455bdf04e411e9fbe70c1c1",
+      "bytes": 1883662,
+      "role": "artwork dependency"
+    }
+  ]
+}

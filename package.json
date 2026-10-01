@@ -7,7 +7,7 @@
         "dev": "vite",
         "build": "tsc -b && vite build",
         "preview": "vite preview",
-        "test": "vitest run src/data.integrity.test.ts src/print/vegetableLayout.test.ts src/print/pageFill.test.ts src/lib/cropApplicability.test.ts src/lib/troubleIdentity.test.ts",
+        "test": "vitest run src/data.integrity.test.ts src/print/vegetableLayout.test.ts src/print/pageFill.test.ts src/lib/cropApplicability.test.ts src/lib/troubleIdentity.test.ts src/print/redesign.test.ts src/print/bookPagination.test.ts",
         "test:watch": "vitest",
         "test:all": "vitest run",
         "test:focused": "vitest run",

@@ -1,0 +1,380 @@
+{
+  "scope": "Same content as the live approved carrot guide, in a new A layout. Bubble artwork replaced by text callouts; all three callout messages retained.",
+  "sourceSHA256": "0e201bfa6f359476843261dc12db1a63c43925300d598b544bd80a696bf1eebb",
+  "models": {
+    "metric": {
+      "intro": "Freshly pulled carrots have a sweet, earthy flavour that shop-bought roots rarely match. They are also one of the more awkward crops to establish well: germination can be slow, seedlings are vulnerable to slugs, and the roots need deep, fine, stone-free soil if they are to grow straight and tender. Once growing, however, carrots are very rewarding, especially if sown in short successions so that roots can be lifted from early summer into autumn. Good moisture, careful thinning, and protection from carrot fly make a big difference.",
+      "facts": [
+        {
+          "label": "SOW",
+          "value": "Apr – Jun",
+          "icon": "/images/coloured-icons/style-a-v1/sow.svg"
+        },
+        {
+          "label": "HARVEST",
+          "value": "Aug – Oct",
+          "icon": "/images/coloured-icons/style-a-v1/harvest.svg"
+        },
+        {
+          "label": "GERMINATION",
+          "value": "17 days",
+          "icon": "/images/coloured-icons/style-a-v1/germination.svg"
+        },
+        {
+          "label": "DEPTH",
+          "value": "1.3 cm",
+          "icon": "/images/coloured-icons/style-a-v1/depth.svg"
+        },
+        {
+          "label": "ROW SPACING",
+          "value": "15 cm between rows",
+          "icon": "/images/coloured-icons/style-a-v1/row_spacing.svg"
+        },
+        {
+          "label": "PLANT SPACING",
+          "value": "Thin to 5-8 cm apart",
+          "icon": "/images/coloured-icons/style-a-v1/plant_spacing.svg"
+        },
+        {
+          "label": "YIELD (3 M ROW)",
+          "value": "early: 3.6 kg; maincrop: 4.5 kg",
+          "icon": "/images/coloured-icons/style-a-v1/yield.svg"
+        },
+        {
+          "label": "READY IN",
+          "value": "Early ~12; maincrop ~16 weeks from sowing",
+          "icon": "/images/coloured-icons/style-a-v1/ready_in.svg"
+        }
+      ],
+      "varieties": [
+        {
+          "type": "Intermediate-Rooted",
+          "name": "Chantenay Red Cored",
+          "text": "Most popular maincrop; stump-rooted, deep orange flesh, smooth skin."
+        },
+        {
+          "type": "Short-Rooted",
+          "name": "Early French Frame",
+          "text": "A round carrot - an excellent choice for shallow soils."
+        },
+        {
+          "type": "",
+          "name": "Early Scarlet Horn",
+          "text": "A good carrot of the Nantes type which is recommended for sowing under cloches in early March."
+        }
+      ],
+      "risks": [
+        {
+          "name": "CARROT FLY",
+          "text": "Tell-tale signs on carrots are reddish leaves which wilt in sunny weather and later turn yellow.",
+          "icon": "/images/key-risk-icons/naturalistic-v3/fly.png"
+        },
+        {
+          "name": "FANGING",
+          "text": "Fanging is usually caused by adding manure or compost to the soil shortly before seed sowing.",
+          "icon": "/images/key-risk-icons/naturalistic-v3/forked_root.png"
+        },
+        {
+          "name": "SMALL ROOTS",
+          "text": "Aphids and virus will stunt growth and reduce yield, but even in the absence of pests and diseases many gardeners produce disappointingly small carrots.",
+          "icon": "/images/key-risk-icons/naturalistic-v3/small_roots.png"
+        },
+        {
+          "name": "SPLITTING",
+          "text": "Much more serious than fanging of carrots, because the roots will not store.",
+          "icon": "/images/key-risk-icons/naturalistic-v3/splitting.png"
+        }
+      ],
+      "pests": [
+        {
+          "name": "Carrot Fly",
+          "values": [
+            "Tunnelled roots.",
+            "Use fine mesh; remove thinnings; avoid bruising."
+          ]
+        },
+        {
+          "name": "Fanging",
+          "values": [
+            "Forked roots",
+            "Remove stones, improve soil deeply and avoid fresh manure."
+          ]
+        },
+        {
+          "name": "Small Roots",
+          "values": [
+            "Small roots; weak growth.",
+            "Improve soil; use organic feed if growth is poor."
+          ]
+        },
+        {
+          "name": "Splitting",
+          "values": [
+            "Split roots.",
+            "Water evenly; mulch in drought; use split roots now."
+          ]
+        },
+        {
+          "name": "Sclerotinia Rot",
+          "values": [
+            "White mould; rotting roots.",
+            "Remove diseased roots; store sound roots; rotate."
+          ]
+        },
+        {
+          "name": "Carrot-Willow Aphid",
+          "values": [
+            "Distorted, stunted leaves.",
+            "Squash damaging colonies; encourage predators."
+          ]
+        },
+        {
+          "name": "Black Rot",
+          "values": [
+            "Black lesions on stored roots.",
+            "Remove rotten roots; store sound roots; rotate."
+          ]
+        },
+        {
+          "name": "Motley Dwarf Virus",
+          "values": [
+            "Yellow mottling; red outer leaves.",
+            "No cure; remove affected plants. Monitor aphids."
+          ]
+        },
+        {
+          "name": "Green Top",
+          "values": [
+            "Green exposed crowns.",
+            "Earth up to cover exposed root tops."
+          ]
+        },
+        {
+          "name": "Violet Root Rot",
+          "values": [
+            "Purple felt-like growth on roots.",
+            "Destroy affected roots; never store them; rotate."
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "text": "Avoid fresh manure and disturbance around established roots.",
+          "icon": "/images/coloured-icons/style-a-v1/soil.svg"
+        },
+        {
+          "text": "Work from one end of the row when harvesting.",
+          "icon": "/images/coloured-icons/style-a-v1/harvest.svg"
+        },
+        {
+          "text": "Inspect stored roots and remove any that rot.",
+          "icon": "/images/coloured-icons/style-a-v1/storage.svg"
+        }
+      ],
+      "planting": [
+        {
+          "title": "Sow thinly",
+          "text": "Sow direct, very thinly, in shallow drills.",
+          "icon": "/images/planting/carrot/sow-thinly-v1.png"
+        },
+        {
+          "title": "Cover lightly",
+          "text": "Cover lightly with fine soil or compost.",
+          "icon": "/images/planting/carrot/cover-lightly-v1.png"
+        },
+        {
+          "title": "Thin later",
+          "text": "Thin young seedlings to the final spacing below.",
+          "icon": "/images/planting/carrot/thin-later-v1.png"
+        }
+      ]
+    },
+    "imperial": {
+      "intro": "Freshly pulled carrots have a sweet, earthy flavour that shop-bought roots rarely match. They are also one of the more awkward crops to establish well: germination can be slow, seedlings are vulnerable to slugs, and the roots need deep, fine, stone-free soil if they are to grow straight and tender. Once growing, however, carrots are very rewarding, especially if sown in short successions so that roots can be lifted from early summer into autumn. Good moisture, careful thinning, and protection from carrot fly make a big difference.",
+      "facts": [
+        {
+          "label": "SOW",
+          "value": "Apr – Jun",
+          "icon": "/images/coloured-icons/style-a-v1/sow.svg"
+        },
+        {
+          "label": "HARVEST",
+          "value": "Aug – Oct",
+          "icon": "/images/coloured-icons/style-a-v1/harvest.svg"
+        },
+        {
+          "label": "GERMINATION",
+          "value": "17 days",
+          "icon": "/images/coloured-icons/style-a-v1/germination.svg"
+        },
+        {
+          "label": "DEPTH",
+          "value": "1/2 in.",
+          "icon": "/images/coloured-icons/style-a-v1/depth.svg"
+        },
+        {
+          "label": "ROW SPACING",
+          "value": "6 in. between rows",
+          "icon": "/images/coloured-icons/style-a-v1/row_spacing.svg"
+        },
+        {
+          "label": "PLANT SPACING",
+          "value": "Thin to 2-3 in. apart",
+          "icon": "/images/coloured-icons/style-a-v1/plant_spacing.svg"
+        },
+        {
+          "label": "YIELD (10 FT ROW)",
+          "value": "early: 8 lb; maincrop: 10 lb",
+          "icon": "/images/coloured-icons/style-a-v1/yield.svg"
+        },
+        {
+          "label": "READY IN",
+          "value": "Early ~12; maincrop ~16 weeks from sowing",
+          "icon": "/images/coloured-icons/style-a-v1/ready_in.svg"
+        }
+      ],
+      "varieties": [
+        {
+          "type": "Intermediate-Rooted",
+          "name": "Chantenay Red Cored",
+          "text": "Most popular maincrop; stump-rooted, deep orange flesh, smooth skin."
+        },
+        {
+          "type": "Short-Rooted",
+          "name": "Early French Frame",
+          "text": "A round carrot - an excellent choice for shallow soils."
+        },
+        {
+          "type": "",
+          "name": "Early Scarlet Horn",
+          "text": "A good carrot of the Nantes type which is recommended for sowing under cloches in early March."
+        }
+      ],
+      "risks": [
+        {
+          "name": "CARROT FLY",
+          "text": "Tell-tale signs on carrots are reddish leaves which wilt in sunny weather and later turn yellow.",
+          "icon": "/images/key-risk-icons/naturalistic-v3/fly.png"
+        },
+        {
+          "name": "FANGING",
+          "text": "Fanging is usually caused by adding manure or compost to the soil shortly before seed sowing.",
+          "icon": "/images/key-risk-icons/naturalistic-v3/forked_root.png"
+        },
+        {
+          "name": "SMALL ROOTS",
+          "text": "Aphids and virus will stunt growth and reduce yield, but even in the absence of pests and diseases many gardeners produce disappointingly small carrots.",
+          "icon": "/images/key-risk-icons/naturalistic-v3/small_roots.png"
+        },
+        {
+          "name": "SPLITTING",
+          "text": "Much more serious than fanging of carrots, because the roots will not store.",
+          "icon": "/images/key-risk-icons/naturalistic-v3/splitting.png"
+        }
+      ],
+      "pests": [
+        {
+          "name": "Carrot Fly",
+          "values": [
+            "Tunnelled roots.",
+            "Use fine mesh; remove thinnings; avoid bruising."
+          ]
+        },
+        {
+          "name": "Fanging",
+          "values": [
+            "Forked roots",
+            "Remove stones, improve soil deeply and avoid fresh manure."
+          ]
+        },
+        {
+          "name": "Small Roots",
+          "values": [
+            "Small roots; weak growth.",
+            "Improve soil; use organic feed if growth is poor."
+          ]
+        },
+        {
+          "name": "Splitting",
+          "values": [
+            "Split roots.",
+            "Water evenly; mulch in drought; use split roots now."
+          ]
+        },
+        {
+          "name": "Sclerotinia Rot",
+          "values": [
+            "White mould; rotting roots.",
+            "Remove diseased roots; store sound roots; rotate."
+          ]
+        },
+        {
+          "name": "Carrot-Willow Aphid",
+          "values": [
+            "Distorted, stunted leaves.",
+            "Squash damaging colonies; encourage predators."
+          ]
+        },
+        {
+          "name": "Black Rot",
+          "values": [
+            "Black lesions on stored roots.",
+            "Remove rotten roots; store sound roots; rotate."
+          ]
+        },
+        {
+          "name": "Motley Dwarf Virus",
+          "values": [
+            "Yellow mottling; red outer leaves.",
+            "No cure; remove affected plants. Monitor aphids."
+          ]
+        },
+        {
+          "name": "Green Top",
+          "values": [
+            "Green exposed crowns.",
+            "Earth up to cover exposed root tops."
+          ]
+        },
+        {
+          "name": "Violet Root Rot",
+          "values": [
+            "Purple felt-like growth on roots.",
+            "Destroy affected roots; never store them; rotate."
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "text": "Avoid fresh manure and disturbance around established roots.",
+          "icon": "/images/coloured-icons/style-a-v1/soil.svg"
+        },
+        {
+          "text": "Work from one end of the row when harvesting.",
+          "icon": "/images/coloured-icons/style-a-v1/harvest.svg"
+        },
+        {
+          "text": "Inspect stored roots and remove any that rot.",
+          "icon": "/images/coloured-icons/style-a-v1/storage.svg"
+        }
+      ],
+      "planting": [
+        {
+          "title": "Sow thinly",
+          "text": "Sow direct, very thinly, in shallow drills.",
+          "icon": "/images/planting/carrot/sow-thinly-v1.png"
+        },
+        {
+          "title": "Cover lightly",
+          "text": "Cover lightly with fine soil or compost.",
+          "icon": "/images/planting/carrot/cover-lightly-v1.png"
+        },
+        {
+          "title": "Thin later",
+          "text": "Thin young seedlings to the final spacing below.",
+          "icon": "/images/planting/carrot/thin-later-v1.png"
+        }
+      ]
+    }
+  }
+}

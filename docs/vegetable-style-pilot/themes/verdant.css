@@ -1,0 +1,14 @@
+/* Decorative pilot only. The hero retains its measured grid footprint. */
+.verdant-backdrop {
+ position:absolute;
+ pointer-events:none;
+ background:#ffe5c5;
+ border-radius:49% 38% 42% 56% / 36% 46% 52% 61%;
+ transform:rotate(-12deg);
+}
+[class*="cheatStaggeredBody_"] > [class*="cheatBodyImg_"] {
+ position:relative;
+ z-index:2;
+ transform:translate(14px,-27px) scale(1.1);
+ transform-origin:top right;
+}

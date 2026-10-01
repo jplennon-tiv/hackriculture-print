@@ -67,6 +67,6 @@ format. Single downloads go to the browser's download folder; batches use `outpu
 ## Troubleshooting
 
 - Missing shared JSON: restore the sibling folder arrangement; do not create local copies. See [SHARED-DATA.md](SHARED-DATA.md).
-- PDF errors: verify Chromium is installed and the launcher/dev server is running. Inter and Playfair Display load from Google Fonts; unavailable fonts can change wrapping and pagination.
+- PDF errors: verify Chromium is installed and the launcher/dev server is running. The active Richer A and Open Editorial routes use packaged Lilita One and Nunito Sans under `public/fonts/`; check their loading before measuring. Some frozen references and legacy templates use online fonts.
 - Unknown crop routes: use the display-name slug helpers; keys and slugs are not always interchangeable.
 - Invalid data: stop the server before restoring a shared backup, then run the tests before restarting.

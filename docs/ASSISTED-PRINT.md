@@ -1,5 +1,9 @@
 # Assisted printing
 
+The project-local [Guide layout review skill](../.agents/skills/guide-layout-review/SKILL.md)
+provides the discoverable workflow for this process; this document and the style
+contracts remain authoritative.
+
 A request to generate guides means prepare useful source-linked print content,
 measure it and export it for review. Ordinary browser export stays deterministic;
 no separate AI API or purchase is required.
@@ -7,8 +11,11 @@ no separate AI API or purchase is required.
 1. Read live records, current approved companions and the relevant style rules.
    Preserve manual edits and locks. Reuse current reviewed copy and artwork.
 2. Work on the requested crop/group. Fit vegetables to the accepted two-page A4
-   design; Troubles use readable two-column cards, four on each non-final page.
-   Prefer even page counts when practical, without filler or lost advice.
+   design; new Troubles work follows [Open Editorial v1](TROUBLES-PRINT-STYLE.md):
+   open columns, larger diagnostic images and natural entry heights. Six entries
+   fit the approved samples; use fewer when content requires it. The installed
+   renderer measures whole entries; old fixed card budgets are not reused.
+   Do not add filler or lose advice to force counts or even page totals.
 3. Resolve substantive advice conflicts with RHS-first research. State practical
    organic actions directly. Keep crop distinctions, diagnoses, safety, timing,
    useful detail and coherent measurements. Never invent personal observations.

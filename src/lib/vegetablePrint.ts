@@ -17,6 +17,7 @@ export interface VegetablePrintLayout extends ExtractReview {
  measurements?:Record<string,unknown>;
 }
 export const VEGETABLE_PRINT_REVISION='vegetable-extracts-v9';
+export const RICH_CONTENT_LAYOUT_REVISION='richer-a-v2-editorial-fill';
 /** v9 honours explicit inline crop scope and concise Key Risks summaries.
  * Prior saved content choices remain compatible; fitting remeasures them. */
 function hasPairedSourceProse(value:unknown):boolean {
@@ -90,7 +91,7 @@ export function layoutDependencies(veg:Vegetable):Record<string,string>{
 }
 export function resolveVegetablePrintLayout(veg:Vegetable,drafts=false){
  const layout=veg.ai_print_layout;if(!layout)return {layout:null,warning:null};
- const compatible=layout.renderer_revision===VEGETABLE_PRINT_REVISION ||
+ const compatible=layout.renderer_revision===RICH_CONTENT_LAYOUT_REVISION || layout.renderer_revision===VEGETABLE_PRINT_REVISION ||
   ['vegetable-extracts-v5','vegetable-extracts-v6','vegetable-extracts-v7','vegetable-extracts-v8'].includes(layout.renderer_revision) ||
   (layout.renderer_revision==='vegetable-extracts-v4'&&!hasPairedSourceProse(veg));
  const reason=printChecksum(layout.dependencies)!==printChecksum(layoutDependencies(veg))?'layout source changed':

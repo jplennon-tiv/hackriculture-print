@@ -1,0 +1,8 @@
+/* A: cover-green header, leaf-green widgets, orange risk strip. Geometry unchanged. */
+[class*="cheatPage_"]{--bg:#fefbf7;--hl:#d85b00;}
+[class*="cheatHeader_"]{background:#075238!important;border-bottom-color:#ff861c!important;}
+[class*="cheatCategory_"]{color:#ffb361!important;}
+[class*="cheatQfHd_"],[class*="cheatCardHd_"]{background:#236747!important;color:#fffdf2!important;}
+[class*="cheatCard_"]:has([class*="cheatKeyRisksGrid_"])>[class*="cheatCardHd_"]{background:#d85b00!important;}
+[class*="cheatQfCard_"],[class*="cheatReqCard_"],[class*="cheatCard_"]{border-color:#b9cbb8!important;}
+[class*="cheatQfLbl_"],[class*="cheatNeedLbl_"]{color:#174e35!important;}

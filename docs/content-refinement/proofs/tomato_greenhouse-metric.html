@@ -1,0 +1,1842 @@
+<!doctype html><html lang="en"><head>
+      
+
+      
+
+        <meta charset="UTF-8">
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>hackriculture-print</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&amp;family=Inter:wght@400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
+    <style type="text/css" data-vite-dev-id="/Users/johnlennon/Documents/web_site/hackriculture-print/src/components/Nav.module.css">._nav_w3i26_1 {
+    background: var(--green-mid);
+    border-bottom: 3px solid var(--green-dark);
+}
+
+._navInner_w3i26_6 {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 0.5rem;
+}
+
+._navList_w3i26_12 {
+    display: flex;
+    list-style: none;
+    gap: 0;
+    flex-wrap: wrap;
+}
+
+/* ── Flat fallback item (ungrouped) ──────────────────────────────── */
+._navItem_w3i26_20 {
+    display: flex;
+}
+
+._navLink_w3i26_24 {
+    display: block;
+    padding: 0.75rem 1.1rem;
+    color: #d4edcd;
+    text-decoration: none;
+    font-size: 0.875rem;
+    font-weight: 500;
+    border-bottom: 3px solid transparent;
+    margin-bottom: -3px;
+    transition: color 0.15s, border-color 0.15s, background 0.15s;
+}
+
+._navLink_w3i26_24:hover {
+    color: #fff;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+._navLinkActive_w3i26_41 {
+    color: #fff;
+    border-bottom-color: #a8e898;
+    background: rgba(255, 255, 255, 0.08);
+}
+
+/* ── Grouped dropdown item ───────────────────────────────────────── */
+._navGroup_w3i26_48 {
+    position: relative;
+    list-style: none;
+}
+
+/* The group button */
+._groupBtn_w3i26_54 {
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+    padding: 0.75rem 1.1rem;
+    background: none;
+    border: none;
+    border-bottom: 3px solid transparent;
+    margin-bottom: -3px;
+    color: #d4edcd;
+    font-size: 0.875rem;
+    font-weight: 500;
+    font-family: inherit;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: color 0.15s, border-color 0.15s, background 0.15s;
+    line-height: 1;
+}
+
+._navGroup_w3i26_48:hover ._groupBtn_w3i26_54,
+._navGroup_w3i26_48:focus-within ._groupBtn_w3i26_54 {
+    color: #fff;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+._groupBtnActive_w3i26_79 {
+    color: #fff;
+    border-bottom-color: #a8e898;
+    background: rgba(255, 255, 255, 0.08);
+}
+
+._caret_w3i26_85 {
+    font-size: 0.7rem;
+    opacity: 0.75;
+    transition: transform 0.15s;
+    display: inline-block;
+}
+
+._navGroup_w3i26_48:hover ._caret_w3i26_85,
+._navGroup_w3i26_48:focus-within ._caret_w3i26_85 {
+    transform: rotate(180deg);
+}
+
+/* ── Dropdown panel ──────────────────────────────────────────────── */
+._dropdown_w3i26_98 {
+    display: none;
+    position: absolute;
+    top: calc(100% + 3px);
+    left: 0;
+    min-width: 210px;
+    background: var(--green-dark);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 0 0 8px 8px;
+    list-style: none;
+    padding: 0.35rem 0;
+    z-index: 100;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+._navGroup_w3i26_48:hover ._dropdown_w3i26_98,
+._navGroup_w3i26_48:focus-within ._dropdown_w3i26_98 {
+    display: block;
+}
+
+._dropdownLink_w3i26_118 {
+    display: block;
+    padding: 0.5rem 1.1rem;
+    color: #c5e0be;
+    text-decoration: none;
+    font-size: 0.85rem;
+    white-space: nowrap;
+    transition: background 0.1s, color 0.1s;
+}
+
+._dropdownLink_w3i26_118:hover {
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+}
+
+._dropdownLinkActive_w3i26_133 {
+    color: #a8e898;
+    font-weight: 600;
+    background: rgba(168, 232, 152, 0.08);
+}
+</style><style type="text/css" data-vite-dev-id="/Users/johnlennon/Documents/web_site/hackriculture-print/src/components/TroubleNav.module.css">._nav_1vnr3_1 {
+    background: var(--green-mid);
+    border-bottom: 3px solid var(--green-dark);
+    overflow-x: auto;
+    scrollbar-width: thin;
+    scrollbar-color: rgba(255, 255, 255, 0.3) transparent;
+}
+
+._navInner_1vnr3_9 {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 0.5rem;
+}
+
+._navList_1vnr3_15 {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    gap: 0;
+}
+
+._navLink_1vnr3_22 {
+    display: block;
+    padding: 0.75rem 1rem;
+    color: #d4edcd;
+    text-decoration: none;
+    font-size: 0.875rem;
+    font-weight: 500;
+    border-bottom: 3px solid transparent;
+    margin-bottom: -3px;
+    white-space: nowrap;
+    transition:
+        color 0.15s,
+        border-color 0.15s,
+        background 0.15s;
+}
+
+._navLink_1vnr3_22:hover {
+    color: #fff;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+._navLinkActive_1vnr3_43 {
+    color: #fff;
+    border-bottom-color: #a8e898;
+    background: rgba(255, 255, 255, 0.08);
+}
+</style><style type="text/css" data-vite-dev-id="/Users/johnlennon/Documents/web_site/hackriculture-print/src/components/SectionNav.module.css">._bar_aep0a_1 {
+    background: var(--green-dark);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.15);
+}
+
+._inner_aep0a_6 {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    display: flex;
+    gap: 0;
+}
+
+._tab_aep0a_14 {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.6rem 1.4rem;
+    color: rgba(200, 230, 195, 0.75);
+    text-decoration: none;
+    font-size: 0.875rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    border-bottom: 3px solid transparent;
+    margin-bottom: -2px;
+    transition:
+        color 0.15s,
+        border-color 0.15s;
+}
+
+._tab_aep0a_14:hover {
+    color: #e8f5e3;
+}
+
+._tabActive_aep0a_35 {
+    color: #fff;
+    border-bottom-color: #a8e898;
+}
+</style><style type="text/css" data-vite-dev-id="/Users/johnlennon/Documents/web_site/hackriculture-print/src/components/UnitToggle.module.css">._toggle_1yrle_1 {
+    display: inline-flex;
+    border: 1px solid var(--border, #cbd5c0);
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+._btn_1yrle_8,
+._active_1yrle_9 {
+    border: none;
+    background: transparent;
+    padding: 4px 10px;
+    font-size: 0.8rem;
+    cursor: pointer;
+    color: inherit;
+    line-height: 1.4;
+}
+
+._active_1yrle_9 {
+    background: var(--accent, #2f6b3a);
+    color: #fff;
+}
+
+._btn_1yrle_8:hover {
+    background: rgba(0, 0, 0, 0.06);
+}
+</style><style type="text/css" data-vite-dev-id="/Users/johnlennon/Documents/web_site/hackriculture-print/src/components/CalendarCard.module.css">._card_1vxeh_1 {
+    background: var(--cream);
+    border-radius: var(--radius);
+    padding: 1.5rem;
+    box-shadow: var(--shadow-sm);
+    border: 1px solid var(--border);
+    height: 100%;
+    box-sizing: border-box;
+}
+
+._cardHeader_1vxeh_11 {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    margin-bottom: 0.5rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid var(--green-pale);
+}
+
+._cardIcon_1vxeh_20 {
+    font-size: 1.25rem;
+    line-height: 1;
+}
+
+._cardTitle_1vxeh_25 {
+    font-family: "Playfair Display", Georgia, serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--green-dark);
+}
+
+._hint_1vxeh_32 {
+    font-size: 0.78rem;
+    color: var(--text-muted);
+    margin-bottom: 1.25rem;
+    font-style: italic;
+}
+
+._calendarWrap_1vxeh_39 {
+    overflow-x: auto;
+}
+
+._table_1vxeh_43 {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 480px;
+}
+
+._rowLabel_1vxeh_49 {
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+    text-align: left;
+    padding: 0.35rem 0.75rem 0.35rem 0;
+    white-space: nowrap;
+    width: 5rem;
+}
+
+._monthHead_1vxeh_59 {
+    font-size: 0.72rem;
+    font-weight: 700;
+    color: var(--text-muted);
+    text-align: center;
+    padding: 0 0.25rem 0.5rem;
+    letter-spacing: 0.03em;
+    width: calc((100% - 5rem) / 12);
+}
+
+._cell_1vxeh_69 {
+    height: 1.5rem;
+    border-radius: 3px;
+    margin: 1px;
+}
+
+/* Sow — green shades */
+._sow_1vxeh_76._primary_1vxeh_76 {
+    background: #22c55e;
+}
+._sow_1vxeh_76._secondary_1vxeh_79 {
+    background: #86efac;
+}
+
+/* Plant — teal shades */
+._plant_1vxeh_84._primary_1vxeh_76 {
+    background: #0891b2;
+}
+._plant_1vxeh_84._secondary_1vxeh_79 {
+    background: #67e8f9;
+}
+
+/* Sow/Plant combined */
+._sowplant_1vxeh_92._primary_1vxeh_76 {
+    background: #16a34a;
+}
+._sowplant_1vxeh_92._secondary_1vxeh_79 {
+    background: #86efac;
+}
+
+/* Harvest — amber/orange */
+._harvest_1vxeh_100._primary_1vxeh_76 {
+    background: #f97316;
+}
+._harvest_1vxeh_100._secondary_1vxeh_79 {
+    background: #fdba74;
+}
+
+/* ── Legend ───────────────────────────────────────────────────────── */
+._legend_1vxeh_108 {
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+}
+
+._legendItem_1vxeh_115 {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.78rem;
+    color: var(--text-secondary);
+}
+
+._legendSwatch_1vxeh_123 {
+    display: inline-block;
+    width: 1.2rem;
+    height: 0.85rem;
+    border-radius: 3px;
+}
+
+._legendPrimary_1vxeh_130 {
+    background: #22c55e;
+}
+._legendSecondary_1vxeh_133 {
+    background: #86efac;
+}
+</style><style type="text/css" data-vite-dev-id="/Users/johnlennon/Documents/web_site/hackriculture-print/src/components/SowingPanel.module.css">._panel_dh6jp_1 {
+    background: #fff;
+    border-radius: 14px;
+    padding: 1.4rem 1.4rem 1.2rem;
+    box-shadow:
+        0 2px 8px rgba(0, 0, 0, 0.06),
+        0 1px 2px rgba(0, 0, 0, 0.04);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    border-top: 3px solid var(--green-mid);
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+/* ── Header ──────────────────────────────────────────────────────── */
+._header_dh6jp_18 {
+    display: flex;
+    align-items: center;
+    gap: 0.55rem;
+}
+
+._icon_dh6jp_24 {
+    font-size: 1.05rem;
+    line-height: 1;
+    opacity: 0.75;
+}
+
+._title_dh6jp_30 {
+    font-family: "Playfair Display", Georgia, serif;
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin: 0;
+}
+
+/* ── Method text ─────────────────────────────────────────────────── */
+._method_dh6jp_39 {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    line-height: 1.65;
+    margin: 0;
+}
+
+/* ── Stats area: diagram + metrics side by side ──────────────────── */
+._statsArea_dh6jp_47 {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background: var(--green-pale);
+    border-radius: 10px;
+    padding: 0.85rem 1rem;
+}
+
+._sowingSchematic_dh6jp_56 {
+    flex-shrink: 0;
+    border-radius: 6px;
+    overflow: visible;
+}
+
+._metricList_dh6jp_62 {
+    display: flex;
+    flex-direction: column;
+    gap: 0.55rem;
+    flex: 1;
+    min-width: 0;
+}
+
+._metric_dh6jp_62 {
+    display: flex;
+    align-items: baseline;
+    gap: 0.4rem;
+}
+
+._metricIcon_dh6jp_76 {
+    font-size: 0.7rem;
+    color: var(--green-dark);
+    opacity: 0.7;
+    flex-shrink: 0;
+    width: 0.85rem;
+    text-align: center;
+}
+
+._metricLabel_dh6jp_85 {
+    font-size: 0.68rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--text-muted, #777);
+    flex: 1;
+    min-width: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+._metricValue_dh6jp_98 {
+    font-size: 0.82rem;
+    font-weight: 700;
+    color: var(--green-dark);
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+
+/* ── Notes list ──────────────────────────────────────────────────── */
+._notes_dh6jp_107 {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+}
+
+._notes_dh6jp_107 li {
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    line-height: 1.55;
+    padding-left: 1.1rem;
+    position: relative;
+}
+
+._notes_dh6jp_107 li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: var(--green-mid);
+    font-size: 0.9rem;
+    line-height: 1.4;
+}
+
+/* ── Star highlighting ──────────────────────────────────── */
+
+._noteStarred_dh6jp_135 {
+    background: rgba(251, 191, 36, 0.1);
+    border-left: 3px solid #f59e0b;
+    border-radius: 0 4px 4px 0;
+    padding-left: 0.7rem;
+    margin-left: -0.5rem;
+}
+
+._starBadge_dh6jp_143 {
+    display: inline-flex;
+    align-items: center;
+    font-size: 0.62rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #92400e;
+    background: #fef3c7;
+    border: 1px solid #f59e0b;
+    border-radius: 3px;
+    padding: 0.08rem 0.32rem;
+    margin-right: 0.45rem;
+    vertical-align: middle;
+    white-space: nowrap;
+    line-height: 1.4;
+}
+</style><style type="text/css" data-vite-dev-id="/Users/johnlennon/Documents/web_site/hackriculture-print/src/components/VegetablePage.module.css">/* ── Page layout ─────────────────────────────────────────────────── */
+._page_1pmsv_2 {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/* ── Hero ─────────────────────────────────────────────────────────── */
+._hero_1pmsv_8 {
+    /* Fallback colour shown while image loads or when no image */
+    background-color: #162d1f;
+    /* The JS inline style adds the image + directional gradient overlay.
+       This CSS gradient is the no-image fallback. */
+    background: linear-gradient(
+        155deg,
+        #162d1f 0%,
+        #1e4029 45%,
+        #2a5538 72%,
+        #1a3526 100%
+    );
+    border-radius: 20px;
+    /* Single column — image is in the CSS background */
+    display: flex;
+    align-items: stretch;
+    min-height: 340px;
+    margin-bottom: 2rem;
+    box-shadow:
+        0 24px 64px rgba(0, 0, 0, 0.28),
+        0 4px 16px rgba(0, 0, 0, 0.18),
+        inset 0 1px 0 rgba(255, 255, 255, 0.07);
+    position: relative;
+    overflow: hidden;
+}
+
+._hero_1pmsv_8::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(
+        ellipse 70% 80% at 20% 15%,
+        rgba(255, 255, 255, 0.055) 0%,
+        transparent 60%
+    );
+    pointer-events: none;
+}
+
+._hero_1pmsv_8::after {
+    content: "";
+    position: absolute;
+    top: -80px;
+    right: -50px;
+    width: 280px;
+    height: 280px;
+    border: 1px solid rgba(255, 255, 255, 0.055);
+    border-radius: 50%;
+    pointer-events: none;
+}
+
+._heroContent_1pmsv_58 {
+    padding: 3rem 2.5rem 2.75rem 3rem;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    /* Cap width so text stays in the readable left area,
+       leaving the right side clear for the background image */
+    max-width: 60%;
+    flex: 1;
+}
+
+._heroSubtitle_1pmsv_71 {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.67rem;
+    font-weight: 700;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: #7dcca0;
+    margin-bottom: 0.6rem;
+}
+
+._heroSubtitle_1pmsv_71::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 2px;
+    background: currentColor;
+    border-radius: 2px;
+    opacity: 0.6;
+}
+
+._heroTitle_1pmsv_93 {
+    font-family: "Playfair Display", Georgia, serif;
+    font-size: clamp(2.4rem, 5vw, 3.8rem);
+    font-weight: 700;
+    color: #fff;
+    line-height: 1.05;
+    margin-bottom: 1.1rem;
+    letter-spacing: -0.02em;
+}
+
+._heroIntro_1pmsv_103 {
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.68);
+    line-height: 1.8;
+    max-width: 58ch;
+    margin-bottom: 1.5rem;
+}
+
+._difficultyWrapper_1pmsv_111 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.35rem;
+    padding-bottom: 0.45rem;
+}
+
+._difficultyBadge_1pmsv_119 {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.65rem;
+    background: rgba(255, 255, 255, 0.22);
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    border-radius: 100px;
+    padding: 0.42rem 1rem;
+    backdrop-filter: blur(8px);
+    width: fit-content;
+}
+
+._difficultyLabel_1pmsv_132 {
+    font-size: 0.6rem;
+    font-weight: 700;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: #7dcca0;
+}
+
+._difficultyValue_1pmsv_140 {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.92);
+}
+
+/* heroImageCol and heroImage removed — image is now a CSS background */
+
+/* ── Calendar + Sowing row ───────────────────────────────────────── */
+._calendarSowingRow_1pmsv_149 {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 1.25rem;
+    margin-bottom: 1.75rem;
+    align-items: stretch;
+}
+
+._calendarCol_1pmsv_157,
+._sowingCol_1pmsv_158 {
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Ensure both cards fill the full column height */
+._calendarCol_1pmsv_157 > *,
+._sowingCol_1pmsv_158 > * {
+    flex: 1;
+}
+
+@media (max-width: 800px) {
+    ._calendarSowingRow_1pmsv_149 {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* ── Hero quick-fact chips ───────────────────────────────────────── */
+._heroStats_1pmsv_177 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45rem;
+    margin-top: 1rem;
+}
+
+._heroStat_1pmsv_177 {
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+    background: rgba(255, 255, 255, 0.14);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    padding: 0.32rem 0.7rem;
+    backdrop-filter: blur(6px);
+    min-width: 72px;
+}
+
+._heroStatLabel_1pmsv_196 {
+    font-size: 0.57rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #7dcca0;
+    line-height: 1.2;
+}
+
+._heroStatValue_1pmsv_205 {
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.92);
+    line-height: 1.3;
+}
+
+._heroNote_1pmsv_212 {
+    font-size: 0.78rem;
+    font-style: italic;
+    color: rgba(255, 255, 255, 0.6);
+    line-height: 1.55;
+    margin-top: 0.55rem;
+    max-width: 55ch;
+}
+
+._pdfBtn_1pmsv_221 {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    margin-top: 1rem;
+    padding: 0.4rem 0.85rem;
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.85);
+    background: rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(255, 255, 255, 0.28);
+    border-radius: 6px;
+    cursor: pointer;
+    transition:
+        background 0.15s,
+        border-color 0.15s;
+    text-decoration: none;
+}
+
+._pdfBtn_1pmsv_221:hover {
+    background: rgba(255, 255, 255, 0.2);
+    border-color: rgba(255, 255, 255, 0.5);
+    color: white;
+}
+
+/* ── Card grid ───────────────────────────────────────────────────── */
+._grid_1pmsv_247 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.25rem;
+    align-items: stretch;
+}
+
+._fullWidthSection_1pmsv_254 {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    margin-top: 1.25rem;
+}
+
+/* ── Card base ────────────────────────────────────────────────────── */
+._card_1pmsv_262 {
+    background: #fff;
+    border-radius: 14px;
+    padding: 1.6rem;
+    box-shadow:
+        0 2px 8px rgba(0, 0, 0, 0.06),
+        0 1px 2px rgba(0, 0, 0, 0.04);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    border-top: 3px solid var(--green-mid);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+._cardHeader_1pmsv_277 {
+    display: flex;
+    align-items: center;
+    gap: 0.55rem;
+    margin-bottom: 1.1rem;
+}
+
+._cardIcon_1pmsv_284 {
+    font-size: 1.05rem;
+    line-height: 1;
+    opacity: 0.75;
+}
+
+._cardTitle_1pmsv_290 {
+    font-family: "Playfair Display", Georgia, serif;
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: var(--green-dark);
+    letter-spacing: -0.01em;
+}
+
+._cardText_1pmsv_298 {
+    font-size: 0.88rem;
+    color: var(--text-secondary);
+    line-height: 1.7;
+    margin-bottom: 1rem;
+}
+
+._cardNote_1pmsv_305 {
+    font-size: 0.855rem;
+    color: var(--text-secondary);
+    background: var(--green-pale);
+    border-left: 3px solid var(--green-light);
+    border-radius: 0 8px 8px 0;
+    padding: 0.65rem 0.9rem;
+    margin-bottom: 1rem;
+    line-height: 1.65;
+}
+
+/* ── Spec grid ───────────────────────────────────────────────────── */
+._specGrid_1pmsv_317 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+    gap: 0.55rem;
+    margin-top: 0.8rem;
+}
+
+._spec_1pmsv_317 {
+    background: var(--green-pale);
+    border-radius: 8px;
+    padding: 0.65rem 0.8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    border: 1px solid var(--border);
+}
+
+._specLabel_1pmsv_334 {
+    font-size: 0.64rem;
+    font-weight: 700;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+}
+
+._specValue_1pmsv_342 {
+    font-size: 0.88rem;
+    font-weight: 600;
+    color: var(--green-dark);
+    line-height: 1.3;
+}
+
+/* ── Lists ───────────────────────────────────────────────────────── */
+._tipList_1pmsv_350 {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.65rem;
+}
+
+._tipItem_1pmsv_357 {
+    font-size: 0.88rem;
+    color: var(--text-secondary);
+    line-height: 1.7;
+    padding-left: 1.35rem;
+    position: relative;
+}
+
+._tipItem_1pmsv_357::before {
+    content: "";
+    position: absolute;
+    left: 0.05rem;
+    top: 0.52em;
+    width: 7px;
+    height: 7px;
+    background: var(--green-light);
+    border-radius: 50% 0 50% 0;
+    transform: rotate(45deg);
+    opacity: 0.85;
+}
+
+._orderedList_1pmsv_378 {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.85rem;
+    counter-reset: steps;
+}
+
+._orderedItem_1pmsv_386 {
+    font-size: 0.88rem;
+    color: var(--text-secondary);
+    line-height: 1.7;
+    padding-left: 2.25rem;
+    position: relative;
+    counter-increment: steps;
+}
+
+._orderedItem_1pmsv_386::before {
+    content: counter(steps);
+    position: absolute;
+    left: 0;
+    top: 0.1em;
+    width: 1.5rem;
+    height: 1.5rem;
+    background: linear-gradient(135deg, var(--green-mid), var(--green-light));
+    color: #fff;
+    border-radius: 50%;
+    font-size: 0.68rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    box-shadow: 0 2px 6px rgba(74, 124, 63, 0.4);
+}
+
+/* ── Varieties ───────────────────────────────────────────────────── */
+._varietiesCard_1pmsv_415 {
+    /* fullWidthSection */
+}
+
+._varietyList_1pmsv_419 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+    gap: 0.85rem;
+}
+
+._varietySubList_1pmsv_425 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+    gap: 0.65rem;
+    margin-top: 0.5rem;
+}
+
+._varietyItem_1pmsv_432 {
+    background: var(--green-pale);
+    border-radius: 10px;
+    padding: 0.9rem 1rem;
+    border: 1px solid var(--border);
+    transition: box-shadow 0.15s;
+}
+
+._varietyItem_1pmsv_432:hover {
+    box-shadow: 0 4px 12px rgba(45, 90, 39, 0.12);
+}
+
+._varietyName_1pmsv_444 {
+    display: block;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: var(--green-dark);
+    margin-bottom: 0.4rem;
+}
+
+._varietyDesc_1pmsv_454 {
+    font-size: 0.84rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+}
+
+._varietyGroup_1pmsv_460 {
+    grid-column: 1 / -1;
+    background: var(--sand);
+    border-radius: 10px;
+    padding: 1.1rem 1.25rem;
+    border: 1px solid var(--border);
+    border-left: 4px solid var(--green-mid);
+}
+
+._varietyGroupName_1pmsv_469 {
+    font-family: "Playfair Display", Georgia, serif;
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--green-dark);
+    margin-bottom: 0.5rem;
+}
+
+._varietyGroupOverview_1pmsv_477 {
+    font-size: 0.84rem;
+    color: var(--text-secondary);
+    line-height: 1.65;
+    margin-bottom: 0.65rem;
+}
+
+._varietyOtherNames_1pmsv_484 {
+    font-size: 0.78rem;
+    font-style: italic;
+    color: var(--text-muted);
+    margin-bottom: 0.4rem;
+}
+
+._varietyMaturityMonths_1pmsv_491 {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--green-dark);
+    margin-bottom: 0.6rem;
+    letter-spacing: 0.01em;
+}
+
+/* ── Kitchen card ────────────────────────────────────────────────── */
+._kitchenCard_1pmsv_500 {
+    background: #fffbf0;
+    border-color: rgba(0, 0, 0, 0.06);
+    border-top-color: #d97706;
+}
+
+._kitchenCard_1pmsv_500 ._cardTitle_1pmsv_290 {
+    color: #92400e;
+}
+
+._kitchenGrid_1pmsv_510 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 0.85rem;
+    margin-top: 0.5rem;
+}
+
+._kitchenItem_1pmsv_517 {
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 8px;
+    padding: 0.85rem 1rem;
+    border: 1px solid #fde68a;
+}
+
+._kitchenItemLabel_1pmsv_524 {
+    display: block;
+    font-size: 0.64rem;
+    font-weight: 700;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: #b45309;
+    margin-bottom: 0.35rem;
+}
+
+._kitchenItemText_1pmsv_534 {
+    font-size: 0.86rem;
+    color: #78350f;
+    line-height: 1.65;
+}
+
+/* ── Troubles card ───────────────────────────────────────────────── */
+._troublesCard_1pmsv_541 {
+    background: #fff8f8;
+    border-color: rgba(0, 0, 0, 0.06);
+    border-top-color: #dc2626;
+}
+
+._troublesCard_1pmsv_541 ._cardTitle_1pmsv_290 {
+    color: var(--red-dark);
+}
+
+._troublesNote_1pmsv_551 {
+    font-size: 0.85rem;
+    font-style: italic;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin-bottom: 0.5rem;
+}
+
+._troublesList_1pmsv_559 {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+._troubleItem_1pmsv_565 {
+    border-left: 3px solid #ef4444;
+    padding: 0.55rem 0.8rem;
+    background: rgba(239, 68, 68, 0.04);
+    border-radius: 0 8px 8px 0;
+}
+
+._troubleName_1pmsv_572 {
+    display: block;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--red-dark);
+    margin-bottom: 0.25rem;
+}
+
+._troubleDesc_1pmsv_582 {
+    font-size: 0.86rem;
+    color: #7f1d1d;
+    line-height: 1.65;
+}
+
+/* ── Trouble guide links ─────────────────────────────────────────── */
+._troubleLinks_1pmsv_589 {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+._troubleLink_1pmsv_589 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.8rem 1.1rem;
+    background: #fff8f8;
+    border: 1.5px solid #fca5a5;
+    border-radius: 10px;
+    color: var(--red-dark);
+    text-decoration: none;
+    font-size: 0.88rem;
+    font-weight: 600;
+    transition:
+        background 0.15s,
+        border-color 0.15s,
+        transform 0.1s;
+}
+
+._troubleLink_1pmsv_589:hover {
+    background: #fee2e2;
+    border-color: #f87171;
+    transform: translateX(2px);
+}
+
+._troubleLinkArrow_1pmsv_619 {
+    font-size: 1rem;
+    opacity: 0.55;
+    transition: opacity 0.15s;
+}
+
+._troubleLink_1pmsv_589:hover ._troubleLinkArrow_1pmsv_619 {
+    opacity: 1;
+}
+
+/* ── Responsive ──────────────────────────────────────────────────── */
+@media (max-width: 800px) {
+    ._hero_1pmsv_8 {
+        min-height: 280px;
+        /* On small screens shift the gradient so text area widens */
+        background-position:
+            left,
+            right -30px bottom !important;
+    }
+
+    ._heroContent_1pmsv_58 {
+        padding: 2.25rem 1.75rem 2rem;
+        max-width: 80%;
+    }
+
+    ._grid_1pmsv_247 {
+        columns: 1;
+    }
+}
+
+@media (max-width: 500px) {
+    ._hero_1pmsv_8 {
+        /* Hide image on very small screens — gradient only */
+        background-image: linear-gradient(
+            155deg,
+            #162d1f 0%,
+            #1e4029 45%,
+            #2a5538 72%,
+            #1a3526 100%
+        ) !important;
+    }
+
+    ._heroContent_1pmsv_58 {
+        padding: 2rem 1.5rem;
+        max-width: 100%;
+    }
+}
+
+/* ── Star highlighting ───────────────────────────────────────────── */
+
+._starBadge_1pmsv_669 {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.15rem;
+    font-size: 0.62rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #92400e;
+    background: #fef3c7;
+    border: 1px solid #f59e0b;
+    border-radius: 3px;
+    padding: 0.08rem 0.32rem;
+    margin-right: 0.45rem;
+    vertical-align: middle;
+    white-space: nowrap;
+    line-height: 1.4;
+}
+
+/* List items (soil, looking-after, harvesting) */
+._tipItemStarred_1pmsv_689 {
+    background: rgba(251, 191, 36, 0.1);
+    border-left: 3px solid #f59e0b;
+    border-radius: 0 6px 6px 0;
+    margin-left: -0.1rem;
+    padding-left: 1.7rem !important;
+}
+
+/* Ordered list items (looking-after) */
+._orderedItemStarred_1pmsv_698 {
+    background: rgba(251, 191, 36, 0.1);
+    border-left: 3px solid #f59e0b;
+    border-radius: 0 6px 6px 0;
+    margin-left: -0.1rem;
+    padding-left: 2.6rem !important;
+}
+
+/* In the Kitchen sections */
+._kitchenItemStarred_1pmsv_707 {
+    border-color: #f59e0b !important;
+    background: rgba(251, 191, 36, 0.08) !important;
+}
+
+/* Inline trouble entries */
+._troubleItemStarred_1pmsv_713 {
+    border-left-color: #f59e0b !important;
+    background: rgba(251, 191, 36, 0.08) !important;
+}
+
+/* Variety cards */
+._varietyItemStarred_1pmsv_719 {
+    border-color: #f59e0b !important;
+    background: rgba(251, 191, 36, 0.1) !important;
+}
+</style><style type="text/css" data-vite-dev-id="/Users/johnlennon/Documents/web_site/hackriculture-print/src/App.css">/* ── App shell ─────────────────────────────────────────────────── */
+.app {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* ── Header ─────────────────────────────────────────────────────── */
+.app-header {
+    background: var(--green-dark);
+    color: #fff;
+    padding: 0 1.5rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.app-header-inner {
+    max-width: 1280px;
+    margin: 0 auto;
+    min-height: 60px;
+    padding: 0.5rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+/* Keep the batch report in the header's flow, below the controls. */
+.batch-print-controls {
+    display: contents;
+}
+
+.batch-print-report {
+    flex-basis: 100%;
+    min-width: 0;
+    max-height: min(320px, 50vh);
+    overflow-y: auto;
+    overflow-wrap: anywhere;
+    background: #fff;
+    color: #222;
+    padding: 12px;
+    border-radius: 6px;
+}
+
+.batch-print-report summary {
+    cursor: pointer;
+}
+
+.batch-print-report ul {
+    padding-left: 1.25rem;
+    margin-top: 0.5rem;
+}
+
+.batch-print-report p {
+    margin-top: 0.5rem;
+}
+
+.app-logo {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+}
+
+.app-logo-icon {
+    font-size: 1.6rem;
+    line-height: 1;
+}
+
+.app-logo-text {
+    font-family: "Playfair Display", Georgia, serif;
+    font-size: 1.35rem;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+    color: #e8f5e3;
+}
+
+/* ── Main ────────────────────────────────────────────────────────── */
+.app-main {
+    flex: 1;
+    padding: 2rem 1rem 3rem;
+}
+
+/* ── Footer ──────────────────────────────────────────────────────── */
+.app-footer {
+    background: var(--green-dark);
+    color: #a8c9a0;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.8rem;
+}
+</style><style type="text/css" data-vite-dev-id="/Users/johnlennon/Documents/web_site/hackriculture-print/src/index.css">*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --green-dark: #2d5a27;
+    --green-mid: #4a7c3f;
+    --green-light: #6fa35a;
+    --green-pale: #e8f5e3;
+    --green-bg: #f4faf1;
+    --amber: #d97706;
+    --amber-light: #fef3c7;
+    --red-dark: #991b1b;
+    --red-pale: #fef2f2;
+    --cream: #fdfbf6;
+    --sand: #f5efe4;
+    --text-primary: #1a2e15;
+    --text-secondary: #4a5568;
+    --text-muted: #718096;
+    --border: #d1e7c8;
+    --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.08);
+    --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.1);
+    --radius: 12px;
+    --radius-sm: 8px;
+    font-size: 16px;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family:
+        "Inter",
+        system-ui,
+        -apple-system,
+        sans-serif;
+    background-color: var(--green-bg);
+    color: var(--text-primary);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+}
+
+#root {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+</style><style type="text/css" data-vite-dev-id="/Users/johnlennon/Documents/web_site/hackriculture-print/src/print/richVegetable.css">/* latin-ext */
+@font-face {
+  font-family: 'Lilita One';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/Users/johnlennon/Documents/web_site/hackriculture-print/public/fonts/richer-a-0.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Lilita One';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/Users/johnlennon/Documents/web_site/hackriculture-print/public/fonts/richer-a-1.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(/Users/johnlennon/Documents/web_site/hackriculture-print/public/fonts/richer-a-2.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(/Users/johnlennon/Documents/web_site/hackriculture-print/public/fonts/richer-a-3.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(/Users/johnlennon/Documents/web_site/hackriculture-print/public/fonts/richer-a-4.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(/Users/johnlennon/Documents/web_site/hackriculture-print/public/fonts/richer-a-5.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(/Users/johnlennon/Documents/web_site/hackriculture-print/public/fonts/richer-a-6.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(/Users/johnlennon/Documents/web_site/hackriculture-print/public/fonts/richer-a-2.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(/Users/johnlennon/Documents/web_site/hackriculture-print/public/fonts/richer-a-3.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(/Users/johnlennon/Documents/web_site/hackriculture-print/public/fonts/richer-a-4.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(/Users/johnlennon/Documents/web_site/hackriculture-print/public/fonts/richer-a-5.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(/Users/johnlennon/Documents/web_site/hackriculture-print/public/fonts/richer-a-6.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(/Users/johnlennon/Documents/web_site/hackriculture-print/public/fonts/richer-a-2.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(/Users/johnlennon/Documents/web_site/hackriculture-print/public/fonts/richer-a-3.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(/Users/johnlennon/Documents/web_site/hackriculture-print/public/fonts/richer-a-4.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(/Users/johnlennon/Documents/web_site/hackriculture-print/public/fonts/richer-a-5.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(/Users/johnlennon/Documents/web_site/hackriculture-print/public/fonts/richer-a-6.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 800;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(/Users/johnlennon/Documents/web_site/hackriculture-print/public/fonts/richer-a-2.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 800;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(/Users/johnlennon/Documents/web_site/hackriculture-print/public/fonts/richer-a-3.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 800;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(/Users/johnlennon/Documents/web_site/hackriculture-print/public/fonts/richer-a-4.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 800;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(/Users/johnlennon/Documents/web_site/hackriculture-print/public/fonts/richer-a-5.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 800;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(/Users/johnlennon/Documents/web_site/hackriculture-print/public/fonts/richer-a-6.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 900;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(/Users/johnlennon/Documents/web_site/hackriculture-print/public/fonts/richer-a-2.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 900;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(/Users/johnlennon/Documents/web_site/hackriculture-print/public/fonts/richer-a-3.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 900;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(/Users/johnlennon/Documents/web_site/hackriculture-print/public/fonts/richer-a-4.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 900;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(/Users/johnlennon/Documents/web_site/hackriculture-print/public/fonts/richer-a-5.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 900;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(/Users/johnlennon/Documents/web_site/hackriculture-print/public/fonts/richer-a-6.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+.rich-print {
+&{--cream:#fff8e9;--green:#064d32;--orange:#ff781f;--peach:#ffe1b7;--lime:#d6ea9b;--ink:#173e2c}*{box-sizing:border-box}&{margin:0;background:#e1e7dc;font-family:'Nunito Sans',sans-serif;color:var(--ink);font-size:13px;line-height:1.35}.sheet{position:relative;isolation:isolate;overflow:hidden;width:794px;height:1123px;margin:28px auto;background:var(--cream)}h1,h2,h3,p{margin:0}h1,h2,h3{font-family:'Lilita One',sans-serif;font-weight:400}h2{font-size:25px;line-height:1.08}h3{font-size:18px;line-height:1.12}.eyebrow{font-size:10px;letter-spacing:1.6px;font-weight:900}.sheet>footer{position:absolute;bottom:17px;left:32px;right:32px;display:flex;justify-content:space-between;font-size:9px;font-weight:800;letter-spacing:1px}.sheet>footer b{margin-left:8px}.front>header{position:relative;height:277px}.front header>.eyebrow{position:absolute;left:32px;top:25px;z-index:3}.peach{position:absolute;right:-130px;top:-105px;width:480px;height:420px;background:var(--peach);border-radius:48% 52% 43% 65%;transform:rotate(18deg)}.hero-art{position:absolute;width:269px;height:414px;right:-13px;top:-95px;transform:rotate(22deg);z-index:1}.front h1{position:absolute;left:26px;top:49px;font-size:130px;line-height:.95;letter-spacing:-4px;transform:rotate(-4deg);z-index:2;text-shadow:-4px 0 var(--cream),0 4px var(--cream),4px 0 var(--cream),0 -4px var(--cream)}h1 span{color:var(--orange)}.ribbon{position:absolute;top:176px;left:32px;transform:rotate(-4deg);padding:8px 19px 11px;background:var(--orange);color:white;border-radius:12px 22px 14px 23px;font-family:'Lilita One';font-size:23px;z-index:3}.front .lead{position:absolute;left:32px;top:233px;width:457px;font-size:23px;line-height:1.05;z-index:3}.seasons{position:absolute;right:28px;top:19px;background:var(--green);color:var(--cream);border-radius:18px;padding:8px 13px;display:flex;gap:6px;align-items:center;z-index:3}.seasons img{width:22px;height:22px;object-fit:contain}.seasons b{font-size:10px;max-width:87px;line-height:1.1}.difficulty{position:absolute;right:29px;top:208px;z-index:3;background:var(--lime);padding:11px 19px 12px;transform:rotate(6deg);border-radius:40% 44% 42% 46%;text-align:center;box-shadow:2px 3px 0 var(--green);min-width:159px}.difficulty small{font-size:8px;font-weight:900;letter-spacing:1px;display:block}.difficulty strong{font-family:'Lilita One';font-size:22px;display:block;line-height:1.1;margin:2px 0 6px}.difficulty>span:last-child{font-size:10px;margin-left:5px}.scale{display:inline-flex;gap:4px;vertical-align:middle}.scale i{display:block;width:9px;height:9px;background:#064d3225;border-radius:50%}.scale i.on{background:var(--green)}.intro{margin:14px 32px 0;font-size:13px;line-height:1.4}.quick{margin:14px 32px 0}.quick h2{margin-bottom:10px}.fact-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px 16px}.fact-grid article{display:grid;grid-template-columns:29px 1fr;gap:8px;border-top:1.5px solid #e2d7bf;padding-top:10px;align-items:start}.fact-grid img{width:28px;height:31px;object-fit:contain}.fact-grid h3{font-family:'Nunito Sans';font-weight:900;font-size:10px;letter-spacing:.35px;line-height:1.2}.fact-grid p{font-size:13px;margin-top:4px;line-height:1.3}.year-needs{margin:16px 32px 0;display:grid;grid-template-columns:1.36fr 1fr;gap:26px}.calendar{background:var(--green);color:var(--cream);padding:15px 17px;border-radius:18px 30px 15px 21px}.calendar h2{font-size:25px;margin-bottom:10px}.month-row{display:grid;grid-template-columns:44px repeat(12,1fr);gap:4px;align-items:center;margin-top:5px}.month-row b{font-size:9px}.month-row span{height:12px;border-radius:6px;background:#ffffff15;text-align:center;font-size:9px;font-weight:800}.month-row:first-of-type span{background:none}.sowing_time .usual{background:var(--lime)}.sowing_time .extra{background:#6b9069}.harvest_time .usual{background:#ff781f}.harvest_time .extra{background:#ae7950}.calendar p{font-size:9px;margin-top:8px}.needs{padding-top:3px}.needs h2{display:inline-block;font-size:24px}.needs>small{font-size:9px;float:right;margin-top:8px}.needs>div{display:grid;grid-template-columns:29px 1fr 75px 26px;gap:8px;align-items:center;margin-top:9px}.needs img{width:27px;height:27px;object-fit:contain}.needs b{font-size:11px}.needs strong{font-size:12px}.needs .scale i{border-radius:3px;width:12px;height:12px}.needs .sun .on{background:#e7a823}.needs .water .on{background:#4a88bb}.needs .nutrition .on{background:#94632e}.varieties{margin:16px 0 0;background:#f1e9d7;padding:14px 32px 16px}.varieties>div{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:11px}.varieties small{font-size:9px;font-weight:900;letter-spacing:.6px;text-transform:uppercase}.varieties h3{font-size:19px;margin-top:4px}.varieties p{font-size:11.5px;margin-top:5px;line-height:1.3}.key-risks{margin:15px 32px 0}.key-risks h2{color:#c6500b;font-size:25px}.key-risks>div{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:8px}.key-risks article{position:relative;padding-top:3px}.key-risks img{width:35px;height:35px;object-fit:contain;float:left;margin:0 7px 6px 0}.key-risks h3{font-size:16px;min-height:38px;display:flex;align-items:center}.key-risks p{clear:both;font-size:11px;line-height:1.3;margin-top:5px}
+/* Practical second page: one illustrated sowing sequence, full advice and trouble table. */
+.back>header{height:117px;position:relative;padding:23px 32px 0}.back h1{font-size:63px;letter-spacing:-1.4px;line-height:1.1;margin-top:14px;position:relative;z-index:2}.back .hero-art{width:172px;height:265px;top:-147px;right:8px;transform:rotate(30deg)}.remember{margin:0 32px 0;padding:13px 17px;background:var(--peach);display:grid;grid-template-columns:repeat(3,1fr);gap:20px;border-radius:16px 28px 15px 23px}.remember h3{font-size:18px}.remember p{font-size:11px;line-height:1.3;margin-top:5px}.growing-columns{margin:18px 32px 0;display:grid;grid-template-columns:1fr 1fr;gap:28px}.growing-columns h2{font-size:25px}.growing-columns ol{margin:10px 0 0;padding-left:20px}.growing-columns li{padding-left:3px;margin:0 0 9px;font-size:12px;line-height:1.38}.growing-columns li::marker{font-weight:900;color:#ca550e}.planting{margin-top:17px;background:#ffe9c9;padding:12px 13px 13px;border-radius:18px 30px 15px 18px}.planting h2{font-size:26px}.stages{display:grid;grid-template-columns:repeat(3,1fr);gap:9px;margin-top:11px}.stages h3{font-size:14px;line-height:1.1}.stages h3 span{color:#c6500b}.stages img{width:100%;height:63px;object-fit:contain;mix-blend-mode:multiply}.stages p{font-size:10px;line-height:1.28}.measurements{margin-top:10px;border-top:1px solid #dbb789;padding-top:8px;display:grid;gap:4px;font-size:10.5px}.measurements b{margin-right:5px}.planting>p{font-size:11px;margin-top:9px}.tips{margin-top:17px}.tips>div{display:grid;grid-template-columns:27px 1fr;gap:9px;align-items:center;margin-top:9px}.tips img{width:26px;height:26px;object-fit:contain}.tips p{font-size:11.5px;line-height:1.3}.harvest{margin-top:18px}.harvest ol{list-style-type:disc}.pests{margin:18px 32px 0}.pests h2{margin-bottom:9px;color:#c6500b}.pests table{width:100%;border-collapse:collapse;table-layout:fixed;font-size:10.5px;line-height:1.25}.pests thead{background:var(--green);color:var(--cream);text-align:left;font-weight:800}.pests th,.pests td{padding:6px 8px;vertical-align:top}.pests th:first-child{width:22%}.pests th:nth-child(2){width:27%}.pests tbody th{text-align:left;font-weight:900}.pests tbody tr{border-bottom:1px solid #dbd5c6}.pests tbody tr:nth-child(even){background:#f2eddf}
+.front>header{height:283px;overflow:hidden}
+.difficulty{top:191px}
+.seasons img{filter:invert(1);mix-blend-mode:screen}
+.hero-art{object-fit:contain}
+.back>.tips{margin:13px 32px 0;padding:11px 15px;background:var(--lime);border-radius:13px 24px 12px 18px;display:grid;grid-template-columns:93px repeat(3,1fr);gap:13px;align-items:center}
+.back>.tips>div{margin:0;grid-template-columns:24px 1fr;gap:7px}
+.back>.tips h2{font-size:24px}
+.back>.tips p{font-size:10.5px}
+.pests{margin-top:14px}
+.pests th,.pests td{padding-top:5px;padding-bottom:5px}
+.remember{padding-top:11px;padding-bottom:11px}
+.growing-columns{margin-top:14px}
+
+}
+body:has(.rich-print){margin:0;padding:0;background:white}
+.rich-print{--cream:var(--paper);--green:var(--dark);--orange:var(--accent);--peach:var(--soft);color:var(--ink);background:white;print-color-adjust:exact;-webkit-print-color-adjust:exact}
+.rich-print .sheet{width:688px;height:979px;margin:0 auto;overflow:visible;break-after:page}
+.rich-print .sheet:last-child{break-after:auto}
+.rich-print .sheet>footer{bottom:0;left:0;right:0;font-size:8px}
+.rich-print .front>header{height:238px;overflow:hidden}
+.rich-print .front header>.eyebrow{left:0;top:10px;font-size:9px}
+.rich-print .front h1{left:0;top:39px;font-size:112px;max-width:455px}
+.rich-print .front h1[data-length=medium]{font-size:65px;max-width:440px;line-height:1}
+.rich-print .front h1[data-length=long]{font-size:51px;max-width:435px;line-height:1}
+.rich-print .front .hero-art{width:230px;height:350px;top:-78px;right:-8px}
+.rich-print .peach{width:370px;height:340px;top:-110px;right:-128px}
+.rich-print .ribbon{left:0;top:154px;font-size:21px;background:var(--deep)}
+.rich-print .front .lead{left:0;top:202px;font-size:20px;width:450px}
+.rich-print .difficulty{right:8px;top:162px;background:var(--soft);min-width:140px;padding:9px 15px}
+.rich-print .difficulty strong{font-size:20px}
+.rich-print .seasons{right:5px;top:6px;padding:6px 9px}
+.rich-print .seasons b{max-width:110px}
+.rich-print .intro,.rich-print .quick,.rich-print .year-needs,.rich-print .key-risks{margin-left:0;margin-right:0}
+.rich-print .intro{margin-top:10px}
+.rich-print .quick,.rich-print .year-needs{margin-top:12px}
+.rich-print .varieties{padding:12px 14px;margin-top:12px;background:var(--wash)}
+.rich-print .varieties>div{grid-template-columns:repeat(3,1fr);gap:12px 20px}
+.rich-print .key-risks{margin-top:12px}
+.rich-print .key-risks h2,.rich-print .pests h2{color:var(--deep)}
+.rich-print .key-risks>div{gap:14px}
+.rich-print .back>header{height:98px;padding:12px 0 0;overflow:hidden}
+.rich-print .back h1{font-size:49px;margin-top:11px}
+.rich-print .back .hero-art{right:0}
+.rich-print .remember{margin:0;padding:10px 14px;background:var(--soft)}
+.rich-print .growing-columns{margin:12px 0 0;gap:24px}
+.rich-print .growing-columns li::marker{color:var(--deep)}
+.rich-print .planting{background:var(--wash);margin-top:12px}
+.rich-print .stages{gap:7px}
+.rich-print .stages h3 span{color:var(--deep)}
+.rich-print .measurements{border-color:var(--accent)}
+.rich-print .pests{margin:12px 0 0}
+.rich-print .pests thead{background:var(--deep)}
+.rich-print .pests tbody tr:nth-child(even){background:var(--wash)}
+.rich-print .back>.tips{margin:12px 0 0;background:var(--soft);grid-template-columns:85px repeat(3,1fr);padding:10px 13px;gap:10px}
+.rich-print .back>.tips:has(>div:nth-of-type(4)){grid-template-columns:85px repeat(2,1fr)}
+.rich-print .content-end{height:0}
+@media print{.rich-print .sheet{margin:0}}
+/* A4 composition: 210 × 297 mm; inset text, edge-to-edge Family Tint paper. */
+@page { size:A4; margin:0 }
+.rich-print .sheet{width:210mm;height:297mm;padding:0 32px}
+.rich-print .sheet>footer{bottom:17px;left:32px;right:32px}
+.rich-print .front>header{height:277px;margin:0 -32px}
+.rich-print .front header>.eyebrow{left:32px;top:25px}
+.rich-print .front h1{left:26px;top:49px;font-size:130px}
+.rich-print .front h1[data-length=medium]{font-size:78px}
+.rich-print .front h1[data-length=long]{font-size:60px}
+.rich-print .front .hero-art{width:269px;height:414px;right:-13px;top:-95px}
+.rich-print .peach{width:480px;height:420px;right:-130px;top:-105px}
+.rich-print .ribbon{left:32px;top:176px;font-size:23px}
+.rich-print .front .lead{left:32px;top:233px;font-size:23px;width:457px}
+.rich-print .difficulty{right:29px;top:191px}
+.rich-print .seasons{right:28px;top:19px}
+.rich-print .varieties{margin-left:-32px;margin-right:-32px;padding-left:32px;padding-right:32px}
+.rich-print .back>header{height:117px;padding-top:23px}
+.rich-print .back h1{font-size:52px}
+.rich-print .back .hero-art{top:-147px}
+/* Dense crops retain every selected item; compact only decorative space/gaps. */
+.rich-print .front.compact>header{height:222px}
+.rich-print .front.compact h1{font-size:98px;top:36px}
+.rich-print .front.compact h1[data-length=medium]{font-size:59px;line-height:.95;max-width:475px}
+.rich-print .front.compact h1[data-length=long]{font-size:49px;line-height:.98;max-width:475px}
+.rich-print .front.compact .ribbon{top:133px;font-size:20px;padding:7px 15px}
+.rich-print .front.compact .lead{top:184px;font-size:19px;max-width:450px}
+.rich-print .front.compact .difficulty{top:143px}
+.rich-print .front.compact .quick,.rich-print .front.compact .year-needs,.rich-print .front.compact .varieties,.rich-print .front.compact .key-risks{margin-top:9px}
+.rich-print .front.compact .fact-grid article{padding-top:7px}
+.rich-print .front.compact .fact-grid{gap:8px 16px}
+.rich-print .front.compact .varieties>div{margin-top:8px}
+.rich-print .front.compact .varieties{padding-top:10px;padding-bottom:10px}
+.rich-print .back.compact>header{height:90px;padding-top:15px}
+.rich-print .back.compact h1{font-size:45px;margin-top:9px}
+.rich-print .back.compact .growing-columns li{margin-bottom:6px}
+.rich-print .back.compact .growing-columns ol{margin-top:7px}
+.rich-print .back.compact .pests th,.rich-print .back.compact .pests td{padding-top:3px;padding-bottom:3px}
+.rich-print .back.compact .remember{padding-top:8px;padding-bottom:8px}
+.rich-print .back.compact .harvest{margin-top:12px}
+.rich-print .back.compact .tips{margin-top:9px;padding-top:8px;padding-bottom:8px}
+.rich-print .back .growing-columns .planting:first-child{margin-top:0}
+.rich-print .back .growing-columns .care:not(:first-child){margin-top:12px}
+.rich-print .back>.tips:has(>div:nth-of-type(4)){grid-template-columns:repeat(3,1fr)}
+.rich-print .back>.tips:has(>div:nth-of-type(4)) h2{grid-column:1/-1}
+.rich-print .front h1[data-length=medium]{font-size:65px;line-height:.98;max-width:465px}
+.rich-print .front h1[data-length=long]{font-size:55px;line-height:.98;max-width:465px}
+.rich-print .front h1[data-length=medium],.rich-print .front h1[data-length=long]{letter-spacing:-1.5px}
+.rich-print .fact-grid.detailed article:nth-child(n+5){grid-column:span 2}
+.rich-print .varieties.many>div{grid-template-columns:repeat(4,1fr)}
+.rich-print .front.compact .calendar{padding:10px 14px}
+.rich-print .front.compact .calendar h2{margin-bottom:7px}
+.rich-print .front.compact .year-needs{align-items:start}
+.rich-print .front.compact .needs>div{margin-top:6px}
+.rich-print .back>.tips:has(>div:nth-of-type(4)){grid-template-columns:repeat(3,1fr);gap:7px 14px}
+.rich-print .back>.tips:has(>div:nth-of-type(4)) h2{grid-column:auto}
+/* Exception for information-rich front pages: omit only the generic strapline. */
+.rich-print .front.dense>header{height:172px}
+.rich-print .front.dense .lead{display:none}
+.rich-print .front.dense h1{font-size:86px;top:32px}
+.rich-print .front.dense h1[data-length=medium]{font-size:49px;top:32px}
+.rich-print .front.dense h1[data-length=long]{font-size:46px;top:32px}
+.rich-print .front.dense .ribbon{top:130px;font-size:18px;padding:6px 14px}
+.rich-print .front.dense .difficulty{top:94px;padding:7px 13px}
+.rich-print .front.dense .difficulty strong{font-size:18px}
+
+/* Full-height hero; difficulty and seasons occupy the clear left-hand area. */
+.rich-print .front>header{--header-details-height:60px}
+.rich-print .header-art{position:absolute;inset:0;overflow:hidden}
+.rich-print .header-details{position:absolute;bottom:0;left:32px;width:440px;height:var(--header-details-height);display:grid;grid-template-columns:190px 1fr;gap:20px;align-items:center}
+.rich-print .header-details small{display:block;font-family:'Nunito Sans',sans-serif;font-size:9px;font-weight:900;letter-spacing:.8px;line-height:1.2;margin-bottom:3px}
+.rich-print .header-difficulty{position:relative;z-index:3;width:165px;height:58px;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:2px;background:var(--soft);color:var(--ink);border:1px solid var(--ink);border-radius:50%;box-shadow:3px 4px 0 var(--ink);transform:translateY(-12px) rotate(-3deg)}
+.rich-print .header-difficulty>small{margin:0;font-size:8px}
+.rich-print .header-difficulty strong{font-family:"Lilita One",sans-serif;font-weight:400;font-size:20px;line-height:1.05}
+.rich-print .difficulty-rating{display:flex;align-items:center;gap:6px;flex:none}
+.rich-print .difficulty-rating b{font:800 9px 'Nunito Sans',sans-serif}
+.rich-print .header-difficulty .scale{gap:3px}
+.rich-print .header-difficulty .scale i{width:7px;height:7px;background:color-mix(in srgb,var(--deep) 20%,transparent)}
+.rich-print .header-difficulty .scale i.on{background:var(--deep)}
+.rich-print .header-seasons{display:flex;align-items:center;gap:10px;min-width:0;width:max-content;background:transparent;color:var(--ink);padding:6px 10px;position:relative;z-index:3;mix-blend-mode:multiply}
+.rich-print .header-seasons b{display:block;font-size:18px;font-weight:900;line-height:1.25;white-space:nowrap}
+.rich-print .season-symbols{display:flex;flex-wrap:nowrap;gap:3px;flex:none}
+.rich-print .season-symbols img{width:35px;height:35px;object-fit:contain;mix-blend-mode:multiply}
+
+
+.rich-print .front:not(.dense) .header-difficulty{transform:translateY(-24px) rotate(-3deg)}
+
+.rich-print .header-seasons small{font-size:13.5px;font-weight:900}
+</style></head>
+    <body data-print-revision="richer-a-v2-editorial-fill" data-print-warnings="[]" data-print-ready="true">
+        <div id="root"><div class="rich-print" data-editorial-report="{&quot;soil_facts&quot;:{&quot;mode&quot;:&quot;reviewed&quot;,&quot;source_items&quot;:7,&quot;printed_items&quot;:2,&quot;editorial_note&quot;:&quot;Ten distinct greenhouse priorities: blight, splitting, separate whitefly/aphids, leaf mould, botrytis, blossom-end rot, blossom drop, magnesium and virus. Combined aphid/whitefly source row retained at low priority rather than printed twice. Lesser root/stem rots, leaf-roll physiology, sun/greenback/blotchy ripening and rare pests remain in full shared guide; heat/moisture/feeding prevention covered. Soil/care remove repeated growbag advice, replace artificial feed with organic feeding and avoid blanket misting. Cordon/bush distinctions, stopping, gentle leaf removal, pollination and late ripening retained. Source planting pairless old measurements are not injected into new extracts. Normalisation 02: reviewed against corrected master; useful unchanged selected advice retained.&quot;},&quot;looking_after_the_crop&quot;:{&quot;mode&quot;:&quot;reviewed&quot;,&quot;source_items&quot;:10,&quot;printed_items&quot;:2,&quot;editorial_note&quot;:&quot;Ten distinct greenhouse priorities: blight, splitting, separate whitefly/aphids, leaf mould, botrytis, blossom-end rot, blossom drop, magnesium and virus. Combined aphid/whitefly source row retained at low priority rather than printed twice. Lesser root/stem rots, leaf-roll physiology, sun/greenback/blotchy ripening and rare pests remain in full shared guide; heat/moisture/feeding prevention covered. Soil/care remove repeated growbag advice, replace artificial feed with organic feeding and avoid blanket misting. Cordon/bush distinctions, stopping, gentle leaf removal, pollination and late ripening retained. Source planting pairless old measurements are not injected into new extracts. Page two is 13 mm over. Combine overlapping training/seasonal-care and harvesting actions, keeping all ten problems and the complete sowing note. Normalisation 02: reviewed against corrected master; useful unchanged selected advice retained. Richer A content review, 30 September: restored source-supported detail while retaining the previous selected text. Added source paths: looking_after_the_crop.1, looking_after_the_crop.5, looking_after_the_crop.2, looking_after_the_crop.3, looking_after_the_crop.7. Draft for John’s review.&quot;},&quot;harvesting&quot;:{&quot;mode&quot;:&quot;reviewed&quot;,&quot;source_items&quot;:4,&quot;printed_items&quot;:1,&quot;editorial_note&quot;:&quot;Ten distinct greenhouse priorities: blight, splitting, separate whitefly/aphids, leaf mould, botrytis, blossom-end rot, blossom drop, magnesium and virus. Combined aphid/whitefly source row retained at low priority rather than printed twice. Lesser root/stem rots, leaf-roll physiology, sun/greenback/blotchy ripening and rare pests remain in full shared guide; heat/moisture/feeding prevention covered. Soil/care remove repeated growbag advice, replace artificial feed with organic feeding and avoid blanket misting. Cordon/bush distinctions, stopping, gentle leaf removal, pollination and late ripening retained. Source planting pairless old measurements are not injected into new extracts. Page two is 13 mm over. Combine overlapping training/seasonal-care and harvesting actions, keeping all ten problems and the complete sowing note. Normalisation 02: reviewed against corrected master; useful unchanged selected advice retained. Richer A content review, 30 September: restored source-supported detail while retaining the previous selected text. Added source paths: harvesting.2. Draft for John’s review.&quot;},&quot;sowing_notes&quot;:{&quot;mode&quot;:&quot;reviewed&quot;,&quot;source_items&quot;:0,&quot;printed_items&quot;:1,&quot;editorial_note&quot;:&quot;Ten distinct greenhouse priorities: blight, splitting, separate whitefly/aphids, leaf mould, botrytis, blossom-end rot, blossom drop, magnesium and virus. Combined aphid/whitefly source row retained at low priority rather than printed twice. Lesser root/stem rots, leaf-roll physiology, sun/greenback/blotchy ripening and rare pests remain in full shared guide; heat/moisture/feeding prevention covered. Soil/care remove repeated growbag advice, replace artificial feed with organic feeding and avoid blanket misting. Cordon/bush distinctions, stopping, gentle leaf removal, pollination and late ripening retained. Source planting pairless old measurements are not injected into new extracts. Normalisation 02: reviewed against corrected master; useful unchanged selected advice retained. Normalisation 02: reviewed against corrected master; useful unchanged selected advice retained.&quot;},&quot;final_tips&quot;:{&quot;mode&quot;:&quot;reviewed&quot;,&quot;source_items&quot;:0,&quot;printed_items&quot;:2,&quot;editorial_note&quot;:&quot;Ten distinct greenhouse priorities: blight, splitting, separate whitefly/aphids, leaf mould, botrytis, blossom-end rot, blossom drop, magnesium and virus. Combined aphid/whitefly source row retained at low priority rather than printed twice. Lesser root/stem rots, leaf-roll physiology, sun/greenback/blotchy ripening and rare pests remain in full shared guide; heat/moisture/feeding prevention covered. Soil/care remove repeated growbag advice, replace artificial feed with organic feeding and avoid blanket misting. Cordon/bush distinctions, stopping, gentle leaf removal, pollination and late ripening retained. Source planting pairless old measurements are not injected into new extracts. Normalisation 02: reviewed against corrected master; useful unchanged selected advice retained. Normalisation 02: reviewed against corrected master; useful unchanged selected advice retained.&quot;}}" style="--ink: #482f28; --dark: #61382d; --deep: #a34332; --accent: #cb6147; --soft: #f2dacc; --wash: #faede2; --paper: #fff8e9;"><section id="page1" class="sheet front compact"><header><div class="header-art"><div class="peach"></div><img class="hero-art" alt="" src="/Users/johnlennon/Documents/web_site/hackriculture-print/public/images/heroes/richer-a/tomato-greenhouse.png"></div><div class="eyebrow">Fruiting Crops</div><h1 data-length="medium" style="font-size: 56px;">Tomato, Greenhouse<span>.</span></h1><div class="header-details"><aside class="header-difficulty"><small>DIFFICULTY</small><strong>Not Easy</strong><span class="difficulty-rating"><span class="scale " aria-label="3 out of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i></span><b>3/5</b></span></aside><div class="header-seasons" data-placement="below-title" style="transform: translateY(-49.601px);"><div class="season-symbols"><img alt="" src="/Users/johnlennon/Documents/web_site/hackriculture-print/public/images/header_chars/season_summer.png"><img alt="" src="/Users/johnlennon/Documents/web_site/hackriculture-print/public/images/header_chars/season_autumn.png"></div><div><small>HARVEST SEASONS</small><b>Summer / Autumn</b></div></div></div></header><p class="intro">Tomato plants are found in the majority of greenhouses during summer, producing a succession of fruit from early summer into autumn. They need constant care: water growing bags or pots regularly in summer and watch for pests and diseases. Home growers can choose flavours and varieties that are rarely sold commercially. Tall or cordon plants are trained with one central stem and their side-shoots removed throughout the season. They need warmth, light, steady root moisture, good ventilation and balanced fertility more than sheer feeding.</p><section class="quick" style="margin-top: 21px;"><h2>Quick facts</h2><div class="fact-grid "><article><img class="" alt="" src="/Users/johnlennon/Documents/web_site/hackriculture-print/public/images/coloured-icons/style-a-v1/sow.svg"><div><h3>Sow</h3><p>Feb – Mar</p></div></article><article><img class="" alt="" src="/Users/johnlennon/Documents/web_site/hackriculture-print/public/images/coloured-icons/style-a-v1/harvest.svg"><div><h3>Harvest</h3><p>Jul – Oct</p></div></article><article><img class="" alt="" src="/Users/johnlennon/Documents/web_site/hackriculture-print/public/images/coloured-icons/style-a-v1/germination.svg"><div><h3>Germination</h3><p>8–11 days</p></div></article><article><img class="" alt="" src="/Users/johnlennon/Documents/web_site/hackriculture-print/public/images/coloured-icons/style-a-v1/yield.svg"><div><h3>Yield per plant</h3><p>3.6 kg</p></div></article><article><img class="" alt="" src="/Users/johnlennon/Documents/web_site/hackriculture-print/public/images/coloured-icons/style-a-v1/ready_in.svg"><div><h3>Ready in</h3><p>About 16 weeks from sowing</p></div></article></div></section><div class="year-needs" style="margin-top: 21px;"><section class="calendar"><h2>Growing calendar</h2><div class="month-row"><b></b><span>J</span><span>F</span><span>M</span><span>A</span><span>M</span><span>J</span><span>J</span><span>A</span><span>S</span><span>O</span><span>N</span><span>D</span></div><div class="month-row sowing_time"><b>SOW</b><span class=""></span><span class="usual"></span><span class="usual"></span><span class=""></span><span class=""></span><span class=""></span><span class=""></span><span class=""></span><span class=""></span><span class=""></span><span class=""></span><span class=""></span></div><div class="month-row harvest_time"><b>HARVEST</b><span class=""></span><span class=""></span><span class=""></span><span class=""></span><span class=""></span><span class=""></span><span class="usual"></span><span class="usual"></span><span class="usual"></span><span class="usual"></span><span class=""></span><span class=""></span></div><p>Bright: usual months · Muted: less usual</p></section><section class="needs"><h2>Core needs</h2><small>1 = low · 5 = high</small><div><img class="" alt="" src="/Users/johnlennon/Documents/web_site/hackriculture-print/public/images/coloured-icons/style-a-v1/sun.svg"><b>Sun</b><span class="scale sun" aria-label="4 out of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i></span><strong>4/5</strong></div><div><img class="" alt="" src="/Users/johnlennon/Documents/web_site/hackriculture-print/public/images/coloured-icons/style-a-v1/water.svg"><b>Water</b><span class="scale water" aria-label="4 out of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i></span><strong>4/5</strong></div><div><img class="" alt="" src="/Users/johnlennon/Documents/web_site/hackriculture-print/public/images/coloured-icons/style-a-v1/feeding.svg"><b>Nutrition</b><span class="scale nutrition" aria-label="4 out of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i></span><strong>4/5</strong></div></section></div><section class="varieties " style="margin-top: 21px;"><h2>Recommended varieties</h2><div><article><small>Ordinary</small><h3>Alicante</h3><p>A reliable red salad cordon with fleshy, medium-sized fruit and good flavour.</p></article><article><small>F1 Hybrid</small><h3>Estrella</h3><p>A greenhouse hybrid retained as a distinct selection.</p></article><article><small>F1 Hybrid</small><h3>Cherry Belle</h3><p>A productive cherry hybrid with small red fruits and good flavour.</p></article><article><small>Beefsteak</small><h3>Dombito</h3><p>A distinct beefsteak hybrid with thick, fleshy fruit, around 350 g in favourable conditions.</p></article><article><small>Ordinary</small><h3>Ailsa Craig</h3><p>Another popular variety, producing brightly coloured, medium-sized tomatoes.</p></article><article><small>Ordinary</small><h3>Moneycross</h3><p>A red salad tomato related to Moneymaker.</p></article></div></section><section class="key-risks" style="margin-top: 21px;"><h2>Key risks</h2><div style="grid-template-columns: repeat(4, 1fr);"><article><img class="" alt="" src="/Users/johnlennon/Documents/web_site/hackriculture-print/public/images/key-risk-icons/naturalistic-v3/blight.png"><h3>BLIGHT</h3><p>Tomato blight causes brown lesions on leaves and stems, followed by fruit decay and plant collapse in favourable damp conditions.</p></article><article><img class="" alt="" src="/Users/johnlennon/Documents/web_site/hackriculture-print/public/images/key-risk-icons/naturalistic-v3/whitefly.png"><h3>Greenhouse Whitefly</h3><p>Whitefly adults and immature stages suck sap; sticky honeydew can support black sooty mould.</p></article><article><img class="" alt="" src="/Users/johnlennon/Documents/web_site/hackriculture-print/public/images/key-risk-icons/naturalistic-v3/blossom_end_rot.png"><h3>Blossom End Rot</h3><p>A dark, leathery patch at the flower end of the fruit results from insufficient calcium reaching developing tissue, often because root moisture fluctuates.</p></article><article><img class="" alt="" src="/Users/johnlennon/Documents/web_site/hackriculture-print/public/images/key-risk-icons/silhouette-v5/split_tomato.png"><h3>SPLIT FRUIT</h3><p>Irregular watering, particularly soaking after severe drying, can split ripe fruit.</p></article></div></section><div class="content-end"></div><footer><span>VEGETABLE GROWING <b>CHEAT SHEETS</b></span><span>TOMATO, GREENHOUSE <b data-page-number="true">73</b></span></footer></section><section id="page2" class="sheet back compact" data-balanced="planting-aside"><header><div class="eyebrow">Tomato, Greenhouse / GROWING GUIDE</div><h1>Growing <span>&amp; harvesting</span></h1><img class="hero-art" alt="" src="/Users/johnlennon/Documents/web_site/hackriculture-print/public/images/heroes/richer-a/tomato-greenhouse.png"></header><div class="remember" style="grid-template-columns: repeat(2, 1fr); margin-top: 4.41016px;"><div><h3>Water steadily and ventilate.</h3><p>Even root moisture and moving air help fruit develop without splits or mould.</p></div><div><h3>Train to the variety’s habit.</h3><p>Remove side shoots from cordons; bush types need a different routine.</p></div></div><div class="growing-columns" style="margin-top: 16.4102px;"><div><section class="soil"><h2>Soil &amp; preparation</h2><ol><li>Use fertile, well-drained border soil enriched with compost, or suitable pots and growing bags with fresh peat-free compost.</li><li>Avoid waterlogging and stale humid air. Containers need closer watering and feeding attention than a well-prepared border.</li></ol></section><section class="care"><h2>Looking after the crop</h2><ol><li>Tie cordons loosely, remove young side shoots and take off yellow lower leaves sparingly. Stop two leaves above the final truss at the chosen height or near season’s end. Retain healthy foliage to feed and shade fruit. Follow separate pruning instructions for bush and semi-determinate varieties.</li><li>Water roots steadily and feed organically at the product’s rate as fruit develops. Ventilate in heat, tap flowering trusses gently and adjust autumn watering to growth. Dry-to-wet swings encourage splitting and blossom-end rot.</li></ol></section><section class="harvest"><h2>Harvesting &amp; storage</h2><ol><li>Pick fully coloured fruit gently and use promptly. Bring sound unripe fruit indoors before cold ends the crop; check ripening trays and discard decay. Ripen at room temperature; a ripe apple or banana nearby can help.</li></ol></section></div><div><section class="planting"><h2>Sowing &amp; planting</h2><div class="stages" style="grid-template-columns: repeat(2, 1fr);"><article><h3><span>1</span> Grow on in a pot</h3><img class="" alt="" src="/Users/johnlennon/Documents/web_site/hackriculture-print/public/images/planting/tomato_greenhouse/grow-on-in-pot-v1.png"><p>Sow in trays or small pots, keeping compost moist but not wet. Prick out and pot on as needed; keep seedlings bright for stout stems.</p></article><article><h3><span>2</span> Plant and support</h3><img class="" alt="" src="/Users/johnlennon/Documents/web_site/hackriculture-print/public/images/planting/tomato_greenhouse/plant-and-support-v1.png"><p>Plant well-rooted plants into pots, growbags or a soil bed once the greenhouse is warm. Water first, set slightly deeper and support cordons with a cane or string.</p></article></div><div class="measurements"><span><b>Pots / growbags</b> One plant per 30–45 cm diameter pot; two per standard growbag. Use peat-free potting compost.</span><span><b>Pot spacing</b> For upright cordons, allow about 60 cm between pot centres so foliage has room.</span><span><b>Soil beds</b> 45–60 cm between plants in compost-enriched soil; use the wider spacing for vigorous cordons and airflow.</span></div><p>For unheated cover, sow around March in gentle warmth near 20°C. Earlier heated-house crops need reliable warmth and bright light through winter.</p></section></div></div><section class="pests" style="margin-top: 16.4102px;"><h2>Pests &amp; diseases</h2><table><thead><tr><th>Problem</th><th>What to look for</th><th>What to do</th></tr></thead><tbody><tr><th>BLIGHT</th><td>Brown leaf lesions; fruit may rot.</td><td>Remove infected plants; keep leaves dry and ventilate.</td></tr><tr><th>Greenhouse Whitefly</th><td>White flies, sticky leaves and sooty mould.</td><td>Identify early; use suitable biological control.</td></tr><tr><th>Blossom End Rot</th><td>Dark leathery patch at fruit base.</td><td>Keep root moisture even, especially as fruit swells.</td></tr><tr><th>SPLIT FRUIT</th><td>Skins crack after uneven watering.</td><td>Keep moisture steady; avoid drying then flooding.</td></tr><tr><th>Tomato Leaf Mould</th><td>Yellow patches above; brown mould below.</td><td>Remove infected leaves; ventilate and avoid wet foliage.</td></tr><tr><th>Aphids</th><td>Colonies gather on young growth.</td><td>Tolerate light colonies; squash damaging ones and favour predators.</td></tr><tr><th>Grey Mould (Botrytis)</th><td>Grey mould on damaged stems or fruit.</td><td>Remove infected tissue; ventilate and clear dead material.</td></tr><tr><th>Blossom Drop</th><td>Flowers wither and fall without setting.</td><td>Water steadily, ventilate in heat and gently tap trusses.</td></tr><tr><th>Virus</th><td>Mottled, distorted leaves; stunted plants.</td><td>Remove affected plants; clean hands/tools and monitor aphids.</td></tr><tr><th>Magnesium Deficiency</th><td>Lower leaves yellow between green veins.</td><td>Check watering, pH and feed; avoid excess potash.</td></tr></tbody></table></section><section class="tips" style="grid-template-columns: 85px repeat(2, 1fr); margin-top: 13.4102px;"><h2>Final tips</h2><div><img class="" alt="" src="/Users/johnlennon/Documents/web_site/hackriculture-print/public/images/coloured-icons/style-a-v1/protection.svg"><p>Check leaf undersides often so whitefly can be managed while numbers are still low.</p></div><div><img class="" alt="" src="/Users/johnlennon/Documents/web_site/hackriculture-print/public/images/coloured-icons/style-a-v1/feeding.svg"><p>Avoid high-potash overfeeding: balanced nutrition matters as much as the amount supplied.</p></div></section><div class="content-end"></div><footer><span>VEGETABLE GROWING <b>CHEAT SHEETS</b></span><span>TOMATO, GREENHOUSE <b data-page-number="true">74</b></span></footer></section></div></div>
+        
+    
+
+</body></html>

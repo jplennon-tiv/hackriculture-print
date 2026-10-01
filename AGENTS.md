@@ -26,15 +26,22 @@ percentage rule to temperatures, pH, treatment quantities or biological limits.
 
 Read README.md and SHARED-DATA.md first, then only the DEVELOPMENT.md sections relevant to the requested work. Read SETUP.md when working on startup or dependencies.
 
+For guide fit, whitespace, overflow, proof review or assisted guide export, use
+[guide-layout-review](.agents/skills/guide-layout-review/SKILL.md). It is a
+repository-local skill with automatic selection enabled. Its workflow links to
+the maintained contracts below; it does not replace them.
+
 For vegetable print/editorial/layout work, also read `docs/VEGETABLE-PRINT-STYLE.md`.
 It is John's approved style contract: fit first, column-bottom alignment second,
 useful whitespace filling third; full-width Final Tips remains the default.
+
+- Forward Troubles design (John, 28 September): **Open Editorial v1** is approved and locked. Read `docs/TROUBLES-PRINT-STYLE.md`. Use open columns, natural entry heights and larger uncropped diagnostic illustrations; six entries per page is demonstrated density, not a quota. Do not revive padded fixed-height cards for new design work. Preserve the hashed references under `docs/troubles-style-pilot/editorial/`; the live template is installed and representative A4 PDFs have been validated.
 
 - Preferred PDF workflow (John, 19 September): requests here to "generate the troubles pages" or "generate the vegetables pages" mean assisted preparation and export, not merely pressing batch. Follow `docs/ASSISTED-PRINT.md`: measure, edit source-linked print companions where needed, render/review and save a resume point. Preserve full master advice. Existing browser exports remain deterministic; no external AI API integration requested.
 
 - Keep work focused and replies concise; the user wants to conserve credits. Inspect the owning implementation and nearby tests. Avoid repeated broad scans, unrelated improvements and full-catalogue renders. Do not spawn agents unless explicitly requested.
 - Preserve existing user edits. This project now has Git history. Keep local pre-edit backups for shared JSON under `../hackriculture-data/backups/`; use Git for code and documentation history. Do not create whole-project checkpoints or copy artwork, output PDFs, dist or dependencies into data backups. John authorises pruning superseded backups; keep the latest rollback and unresolved transactions.
-- Preserve the accepted staggered print layout, borders/dark headings, 19 Quick Facts icons, 1–5 Core Needs scale and lossless hero crops unless the user requests changes to them. Do not revive rejected layout experiments.
+- Forward vegetable design (John, 28 September): **Richer A v1** is approved and locked. Follow `docs/VEGETABLE-PRINT-STYLE.md` and its hashed reference proofs. Preserve its full information richness, cover-C typography/art direction, facts/icons and 1–5 needs scales. Earlier staggered layout/dark-heading rules apply only to retained legacy code; do not revive superseded experiments. Richer A is installed; all 44 heroes, refined headers and the 30 September content-refinement batch are approved. See the current handover for evidence and remaining limits.
 - Gardening JSON lives only in `../hackriculture-data/`. Never recreate source/root mirrors. Every admin data mutation must preserve the previous bytes in `../hackriculture-data/backups/admin/` using the existing dated version scheme.
 - Preserve keyed objects, unknown fields, ranked text, measurement pairs and cyclic `--MM` month values. Keep `src/types.ts`, Zod schemas and admin validation aligned. Reuse `src/lib/` helpers.
 - Admin saves and PDF generation require the Vite dev server. Use `start.command` and loopback only. Never put credentials in chat or project files.

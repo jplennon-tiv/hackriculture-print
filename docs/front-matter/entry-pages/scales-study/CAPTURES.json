@@ -1,0 +1,20 @@
+{
+  "date": "2026-09-30",
+  "scaleFactor": 3,
+  "captures": [
+    {
+      "file": "assets/difficulty-capture.png",
+      "selector": ".header-difficulty",
+      "changes": "None; includes padding for the offset shadow.",
+      "source": "/print/vegetable/broccoli?units=metric",
+      "value": "Not Easy, 3/5"
+    },
+    {
+      "file": "assets/core-needs-capture.png",
+      "selector": ".needs",
+      "changes": "Sun and Nutrition rows at 18% opacity for emphasis; Water unchanged.",
+      "presentation": "The mock-up clips the captured title line in CSS, replacing it with a live Core needs heading and John\u2019s explanation. Source capture bytes are unchanged.",
+      "source": "/print/vegetable/radish?units=metric"
+    }
+  ]
+}

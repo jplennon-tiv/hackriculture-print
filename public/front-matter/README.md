@@ -1,9 +1,29 @@
-# Approved front matter
+# Official batch front matter
 
-`cover-A4.pdf` is the approved fan-v3 cover, with the review/study label removed. Batch Print All copies this file to `output/00_cover_A4.pdf` first and includes it in progress/error counts. It remains A4 regardless of the crop paper/unit selectors. No AI, image generation or font download is required to copy the cover during batch printing.
+Installed for John's A4 print run, 30 September 2026:
 
-Artwork: `public/images/front-matter/hands-sheet-fan.png`. Editable layout snapshot: `docs/front-matter/templates/approved-cover.html`. To rebuild after an approved change, run `node scripts/build-front-cover.mjs`; this needs installed Chromium and access to Google Fonts. The template embeds its historical preview image, but the builder replaces that with the canonical public artwork. Keep the approved PDF and artwork in Git; do not create duplicate local backups.
+1. `cover-A4.pdf` → `output/00_cover_A4.pdf`: selected cover C, both count badges,
+   and current Courgettes and Marrows / Broad Bean thumbnails.
+2. `contents-A4.pdf` → `output/01_contents_A4.pdf`: signed off 29 September.
+3. `how-to-use-A4.pdf` → `output/02_how-to-use_A4.pdf`: illustrated one-page design,
+   signed off 30 September.
 
-`how-to-use-A4.pdf` contains the two native A4 how-to pages installed on 18 September. Batch copies it next as `output/01_how-to-use_A4.pdf`, counting the document as one job. Missing front matter is reported without stopping subsequent jobs. Both front-matter documents stay A4 regardless of crop selectors.
+These three opening pages are unnumbered. Vegetables follow at 1–88 and Troubles
+at 89–132. `output/collection-order.json` records the exact assembly order and
+completion of each fresh batch. Use that list, not every PDF left in output.
+The opening pages stay A4 regardless of the paper selector; use A4 for this run.
 
-Rebuild the how-to pages using Node 24: `node scripts/build-how-to.mjs`. Review `output/pdf/how-to-final/how-to-use-A4.pdf`, then copy it to `public/front-matter/how-to-use-A4.pdf`. The builder needs Chromium and Google Fonts; normal batch copying does not. Source sheet reference PNGs live under `docs/front-matter/references/`; these are retained examples, not live crop renders. All connector arrows run from the example sheet out to an explanation. No generated image-model gardening text is used. No crop guide or shared data changes accompany this installation.
+Cover builder: `node scripts/build-front-cover.mjs`. It uses the editable C
+composition and local assets in `docs/front-matter/cover-studies/`. Its main title
+remains part of the existing raster artwork. All images load; the installed
+single-page PDF was visually checked.
+
+Contents/how-to builder: `node docs/front-matter/entry-pages/build.mjs`.
+Use `--how-to-only` to preserve approved contents during how-to revisions.
+Approval hashes: `docs/redesign-rollout/APPROVAL.json`. Preserve approved output
+until an authorised change; rebuilding PDFs can change their file hashes.
+
+The live guide templates already contain the approved headers and continuous
+pagination. For source/length changes, run `node scripts/measure-book-pagination.mjs`
+with start.command running, then rebuild and check contents. Batch rejects stale
+references. Legacy cover/how-to templates no longer control official output.

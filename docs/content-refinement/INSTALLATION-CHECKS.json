@@ -1,0 +1,54 @@
+{
+  "date": "2026-09-30T13:42:41.216Z",
+  "recordsVerified": 44,
+  "masterAndNonPrintFieldsPreserved": true,
+  "installedProposalValuesMatch": true,
+  "exactPriorBytesVerified": true,
+  "focusedTestsPassed": 10,
+  "liveSmoke": {
+    "seconds": 4.18,
+    "pdf": true,
+    "results": [
+      {
+        "crop": "tomato_greenhouse",
+        "units": "metric",
+        "physical_pages": 2,
+        "error": "",
+        "ready": "true",
+        "fonts": "loaded",
+        "missing": [],
+        "warnings": [],
+        "pages": [
+          {
+            "height_px": 1122.515625,
+            "content_end_px": 1054.015625
+          },
+          {
+            "height_px": 1122.515625,
+            "content_end_px": 1071.703125
+          }
+        ]
+      },
+      {
+        "crop": "tomato_greenhouse",
+        "units": "imperial",
+        "physical_pages": 2,
+        "error": "",
+        "ready": "true",
+        "fonts": "loaded",
+        "missing": [],
+        "warnings": [],
+        "pages": [
+          {
+            "height_px": 1122.515625,
+            "content_end_px": 1054.015625
+          },
+          {
+            "height_px": 1122.515625,
+            "content_end_px": 1071.703125
+          }
+        ]
+      }
+    ]
+  }
+}

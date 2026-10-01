@@ -1,0 +1,5 @@
+import themes from './familyThemes.json';
+export function familyPalette(category:unknown){return themes.find(p=>p.group===category)??themes.find(p=>p.id==='other')!}
+// Explicit guide identity, including groups spanning botanical/navigation families.
+export const troubleFamilies:Record<string,string>={bean_and_pea_troubles:'Peas & Beans',beetroot_troubles:'Root Crops',brassica_troubles:'Brassicas',carrot_and_parsnip_troubles:'Root Crops',celery_troubles:'Stalks & Shoots',florence_fennel_troubles:'Stalks & Shoots',cucurbit_troubles:'Fruiting Crops',lettuce_troubles:'Salads & Leaves',oriental_leaves_troubles:'Salads & Leaves',onion_and_leek_troubles:'Onion Family',potato_troubles:'Root Crops',spinach_troubles:'Salads & Leaves',tomato_troubles:'Fruiting Crops',turnip_swede_radish_troubles:'Root Crops'};
+export function themeStyle(category:unknown){const p=familyPalette(category);return Object.fromEntries(['ink','dark','deep','accent','soft','wash','paper'].map(k=>['--'+k,p[k as keyof typeof p]]))}

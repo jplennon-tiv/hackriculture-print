@@ -1,0 +1,13 @@
+/* B: low-ink pale panels with chunky dark-green titles. Geometry unchanged. */
+[class*="cheatPage_"]{--bg:#fefbf7;--hl:#d85b00;}
+[class*="cheatHeader_"]{background:#edf3df!important;border-bottom-color:#f78324!important;}
+[class*="cheatName_"],[class*="cheatHeaderCharLabel_"],[class*="cheatHeaderCharTitle_"],[class*="cheatDiffTitle_"]{color:#16462f!important;}
+[class*="cheatCategory_"]{color:#9b4400!important;}
+[class*="cheatHeader_"] img{filter:none!important;mix-blend-mode:multiply!important;opacity:.8;}
+[class*="cheatHeaderCenter_"],[class*="cheatHeaderMeta_"]{border-color:#bac9b0!important;}
+[class*="cheatQfHd_"],[class*="cheatCardHd_"]{background:#e1edcf!important;color:#16462f!important;box-shadow:inset 0 -1px #bdcca9;}
+[class*="cheatCard_"]:has([class*="cheatKeyRisksGrid_"])>[class*="cheatCardHd_"]{background:#ffe4bf!important;color:#713604!important;box-shadow:inset 0 -1px #e0bd8c;}
+[class*="cheatQfCard_"],[class*="cheatReqCard_"],[class*="cheatCard_"]{border-color:#bdccb3!important;}
+[class*="cheatQfLbl_"],[class*="cheatNeedLbl_"]{color:#214e36!important;}
+
+[class*="cheatHeaderChar_"]{border-right-color:#adc1a0!important;}

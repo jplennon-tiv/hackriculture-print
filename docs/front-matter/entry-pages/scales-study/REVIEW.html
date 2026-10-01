@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>How-to · illustrated scales study</title>
+<style>
+@font-face{font-family:Lilita;src:url('../../../../public/fonts/richer-a-1.woff2')}
+@font-face{font-family:Nunito;src:url('../../../../public/fonts/richer-a-6.woff2');font-weight:200 1000}
+*{box-sizing:border-box}body{margin:0;background:#e8ece1;color:#173e2c;font:16px/1.4 Nunito,system-ui,sans-serif}
+.review-note{max-width:900px;margin:26px auto 16px;padding:0 28px;font-size:14px}.review-note b{font-weight:900}.review-note p{margin:5px 0}
+.study{width:860px;max-width:calc(100% - 32px);margin:0 auto 30px;padding:36px 38px 30px;background:#fff8e9;box-shadow:0 5px 24px #173e2c12}
+h1,h2{font:42px/1.05 Lilita,sans-serif;margin:0 0 14px;letter-spacing:-.5px}
+.explanation{font-size:16px;line-height:1.5;margin:0 0 20px}
+.core-window{width:365px;max-width:100%;overflow:hidden}.core-window .core{margin-top:-10%}
+.eyebrow{font-size:10px;font-weight:900;letter-spacing:1.6px;margin:0 0 9px}
+.study-row{display:grid;grid-template-columns:1fr 1fr;column-gap:40px;align-items:center;min-height:200px}
+.difficulty-row{padding-bottom:26px;border-bottom:2px solid #e7deca;margin-bottom:26px}
+.specimen{display:flex;align-items:center;justify-content:center;margin:0;min-width:0}
+.specimen img{display:block;height:auto;max-width:100%}
+.difficulty-row .ends{grid-template-columns:120px 1fr 120px;column-gap:6px}
+.difficulty-row .endpoint img{width:120px;height:96px}
+.difficulty-row .track{gap:5px}
+.badge{width:235px}.core{width:365px}
+.interpretation{min-width:0}.ends{display:grid;grid-template-columns:96px 1fr 96px;align-items:center;column-gap:10px}
+.endpoint{margin:0;text-align:center}.endpoint img{width:92px;height:92px;display:block;object-fit:contain}
+.endpoint figcaption{font-weight:900;font-size:17px;margin-top:5px}.endpoint figcaption span{font-size:13px;font-weight:800;display:block}
+.track{display:flex;gap:7px;justify-content:space-between;align-items:center;margin-top:-30px}
+.track i{display:block;width:12px;height:12px;border-radius:50%;background:#a44007;flex:none}
+.track i:nth-child(1){opacity:.2}.track i:nth-child(2){opacity:.4}.track i:nth-child(3){opacity:.6}.track i:nth-child(4){opacity:.8}
+.water-track i{background:#4a88bb;border-radius:3px}
+.water .endpoint:last-child img{width:100px;height:100px;margin-left:-4px}
+.water-note{font-size:15px;line-height:1.45;margin:22px 0 0;padding-left:12px;border-left:3px solid #669bac}
+.water-note strong{font-weight:900}.study-footer{font-size:9px;letter-spacing:1px;font-weight:800;margin-top:24px}
+@media(max-width:700px){.study{padding:26px 22px}h1,h2{font-size:34px}.study-row{grid-template-columns:1fr;gap:24px}.specimen{min-height:100px}.interpretation{max-width:360px;margin:auto;width:100%}.difficulty-row{padding-bottom:24px}.review-note{padding:0 20px}}
+@media print{body{background:white}.review-note{display:none}.study{box-shadow:none;margin:0}}
+</style>
+<div class="review-note"><b>How-to section mock-up · for review</b><p>Broccoli difficulty (3/5) and Radish Core Needs captures. Water is emphasised; Sun and Nutrition are faded. Four new coloured SVG icons follow the existing icon palette and line style.</p></div>
+<main class="study">
+<p class="eyebrow">HOW TO USE THESE SHEETS</p>
+<h1>Difficulty rating</h1>
+<p class="explanation">Some vegetables, such as radishes, are great for beginners, whereas crops like celery and cauliflower will defeat even experienced gardeners in a bad season. The scale will give you an idea of how easy a crop is to grow, and how tolerant it is of adverse growing conditions.</p>
+<section class="study-row difficulty-row" aria-label="Difficulty: from one to five">
+<figure class="specimen"><img class="badge" src="assets/difficulty-capture.png" alt="Difficulty badge captured from the Broccoli guide: Not Easy, 3 out of 5"></figure>
+<div class="interpretation"><div class="ends">
+<figure class="endpoint"><img src="assets/baby.svg" alt="Baby looking at a healthy growing plant"><figcaption>1</figcaption></figure>
+<div class="track" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
+<figure class="endpoint"><img src="assets/einstein.svg" alt="Einstein contemplating a withered plant"><figcaption>5</figcaption></figure>
+</div></div>
+</section>
+<h2>Core needs</h2>
+<p class="explanation">An under-supply of sun, water or manure can damage some plants, while too much can harm others. Use this as a guide to core vegetable requirements.</p>
+<section class="study-row water" aria-label="Core Needs: water demand">
+<figure class="specimen"><div class="core-window"><img class="core" src="assets/core-needs-capture.png" alt="Core Needs captured from Radish: Sun and Nutrition faded, Water highlighted at 4 out of 5"></div></figure>
+<div class="interpretation"><div class="ends">
+<figure class="endpoint"><img src="assets/dropper.svg" alt="An eyedropper releasing a single drop"><figcaption>1<span>Low demand</span></figcaption></figure>
+<div class="track water-track" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
+<figure class="endpoint"><img src="assets/wave.svg" alt="A large curling tsunami wave"><figcaption>5<span>High demand</span></figcaption></figure>
+</div></div>
+</section>
+</main>
+</html>

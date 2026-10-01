@@ -1,0 +1,149 @@
+@import './local-fonts.css';
+.rich-print {
+&{--cream:#fff8e9;--green:#064d32;--orange:#ff781f;--peach:#ffe1b7;--lime:#d6ea9b;--ink:#173e2c}*{box-sizing:border-box}&{margin:0;background:#e1e7dc;font-family:'Nunito Sans',sans-serif;color:var(--ink);font-size:13px;line-height:1.35}.sheet{position:relative;isolation:isolate;overflow:hidden;width:794px;height:1123px;margin:28px auto;background:var(--cream)}h1,h2,h3,p{margin:0}h1,h2,h3{font-family:'Lilita One',sans-serif;font-weight:400}h2{font-size:25px;line-height:1.08}h3{font-size:18px;line-height:1.12}.eyebrow{font-size:10px;letter-spacing:1.6px;font-weight:900}.sheet>footer{position:absolute;bottom:17px;left:32px;right:32px;display:flex;justify-content:space-between;font-size:9px;font-weight:800;letter-spacing:1px}.sheet>footer b{margin-left:8px}.front>header{position:relative;height:277px}.front header>.eyebrow{position:absolute;left:32px;top:25px;z-index:3}.peach{position:absolute;right:-130px;top:-105px;width:480px;height:420px;background:var(--peach);border-radius:48% 52% 43% 65%;transform:rotate(18deg)}.hero-art{position:absolute;width:269px;height:414px;right:-13px;top:-95px;transform:rotate(22deg);z-index:1}.front h1{position:absolute;left:26px;top:49px;font-size:130px;line-height:.95;letter-spacing:-4px;transform:rotate(-4deg);z-index:2;text-shadow:-4px 0 var(--cream),0 4px var(--cream),4px 0 var(--cream),0 -4px var(--cream)}h1 span{color:var(--orange)}.ribbon{position:absolute;top:176px;left:32px;transform:rotate(-4deg);padding:8px 19px 11px;background:var(--orange);color:white;border-radius:12px 22px 14px 23px;font-family:'Lilita One';font-size:23px;z-index:3}.front .lead{position:absolute;left:32px;top:233px;width:457px;font-size:23px;line-height:1.05;z-index:3}.seasons{position:absolute;right:28px;top:19px;background:var(--green);color:var(--cream);border-radius:18px;padding:8px 13px;display:flex;gap:6px;align-items:center;z-index:3}.seasons img{width:22px;height:22px;object-fit:contain}.seasons b{font-size:10px;max-width:87px;line-height:1.1}.difficulty{position:absolute;right:29px;top:208px;z-index:3;background:var(--lime);padding:11px 19px 12px;transform:rotate(6deg);border-radius:40% 44% 42% 46%;text-align:center;box-shadow:2px 3px 0 var(--green);min-width:159px}.difficulty small{font-size:8px;font-weight:900;letter-spacing:1px;display:block}.difficulty strong{font-family:'Lilita One';font-size:22px;display:block;line-height:1.1;margin:2px 0 6px}.difficulty>span:last-child{font-size:10px;margin-left:5px}.scale{display:inline-flex;gap:4px;vertical-align:middle}.scale i{display:block;width:9px;height:9px;background:#064d3225;border-radius:50%}.scale i.on{background:var(--green)}.intro{margin:14px 32px 0;font-size:13px;line-height:1.4}.quick{margin:14px 32px 0}.quick h2{margin-bottom:10px}.fact-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px 16px}.fact-grid article{display:grid;grid-template-columns:29px 1fr;gap:8px;border-top:1.5px solid #e2d7bf;padding-top:10px;align-items:start}.fact-grid img{width:28px;height:31px;object-fit:contain}.fact-grid h3{font-family:'Nunito Sans';font-weight:900;font-size:10px;letter-spacing:.35px;line-height:1.2}.fact-grid p{font-size:13px;margin-top:4px;line-height:1.3}.year-needs{margin:16px 32px 0;display:grid;grid-template-columns:1.36fr 1fr;gap:26px}.calendar{background:var(--green);color:var(--cream);padding:15px 17px;border-radius:18px 30px 15px 21px}.calendar h2{font-size:25px;margin-bottom:10px}.month-row{display:grid;grid-template-columns:44px repeat(12,1fr);gap:4px;align-items:center;margin-top:5px}.month-row b{font-size:9px}.month-row span{height:12px;border-radius:6px;background:#ffffff15;text-align:center;font-size:9px;font-weight:800}.month-row:first-of-type span{background:none}.sowing_time .usual{background:var(--lime)}.sowing_time .extra{background:#6b9069}.harvest_time .usual{background:#ff781f}.harvest_time .extra{background:#ae7950}.calendar p{font-size:9px;margin-top:8px}.needs{padding-top:3px}.needs h2{display:inline-block;font-size:24px}.needs>small{font-size:9px;float:right;margin-top:8px}.needs>div{display:grid;grid-template-columns:29px 1fr 75px 26px;gap:8px;align-items:center;margin-top:9px}.needs img{width:27px;height:27px;object-fit:contain}.needs b{font-size:11px}.needs strong{font-size:12px}.needs .scale i{border-radius:3px;width:12px;height:12px}.needs .sun .on{background:#e7a823}.needs .water .on{background:#4a88bb}.needs .nutrition .on{background:#94632e}.varieties{margin:16px 0 0;background:#f1e9d7;padding:14px 32px 16px}.varieties>div{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:11px}.varieties small{font-size:9px;font-weight:900;letter-spacing:.6px;text-transform:uppercase}.varieties h3{font-size:19px;margin-top:4px}.varieties p{font-size:11.5px;margin-top:5px;line-height:1.3}.key-risks{margin:15px 32px 0}.key-risks h2{color:#c6500b;font-size:25px}.key-risks>div{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:8px}.key-risks article{position:relative;padding-top:3px}.key-risks img{width:35px;height:35px;object-fit:contain;float:left;margin:0 7px 6px 0}.key-risks h3{font-size:16px;min-height:38px;display:flex;align-items:center}.key-risks p{clear:both;font-size:11px;line-height:1.3;margin-top:5px}
+/* Practical second page: one illustrated sowing sequence, full advice and trouble table. */
+.back>header{height:117px;position:relative;padding:23px 32px 0}.back h1{font-size:63px;letter-spacing:-1.4px;line-height:1.1;margin-top:14px;position:relative;z-index:2}.back .hero-art{width:172px;height:265px;top:-147px;right:8px;transform:rotate(30deg)}.remember{margin:0 32px 0;padding:13px 17px;background:var(--peach);display:grid;grid-template-columns:repeat(3,1fr);gap:20px;border-radius:16px 28px 15px 23px}.remember h3{font-size:18px}.remember p{font-size:11px;line-height:1.3;margin-top:5px}.growing-columns{margin:18px 32px 0;display:grid;grid-template-columns:1fr 1fr;gap:28px}.growing-columns h2{font-size:25px}.growing-columns ol{margin:10px 0 0;padding-left:20px}.growing-columns li{padding-left:3px;margin:0 0 9px;font-size:12px;line-height:1.38}.growing-columns li::marker{font-weight:900;color:#ca550e}.planting{margin-top:17px;background:#ffe9c9;padding:12px 13px 13px;border-radius:18px 30px 15px 18px}.planting h2{font-size:26px}.stages{display:grid;grid-template-columns:repeat(3,1fr);gap:9px;margin-top:11px}.stages h3{font-size:14px;line-height:1.1}.stages h3 span{color:#c6500b}.stages img{width:100%;height:63px;object-fit:contain;mix-blend-mode:multiply}.stages p{font-size:10px;line-height:1.28}.measurements{margin-top:10px;border-top:1px solid #dbb789;padding-top:8px;display:grid;gap:4px;font-size:10.5px}.measurements b{margin-right:5px}.planting>p{font-size:11px;margin-top:9px}.tips{margin-top:17px}.tips>div{display:grid;grid-template-columns:27px 1fr;gap:9px;align-items:center;margin-top:9px}.tips img{width:26px;height:26px;object-fit:contain}.tips p{font-size:11.5px;line-height:1.3}.harvest{margin-top:18px}.harvest ol{list-style-type:disc}.pests{margin:18px 32px 0}.pests h2{margin-bottom:9px;color:#c6500b}.pests table{width:100%;border-collapse:collapse;table-layout:fixed;font-size:10.5px;line-height:1.25}.pests thead{background:var(--green);color:var(--cream);text-align:left;font-weight:800}.pests th,.pests td{padding:6px 8px;vertical-align:top}.pests th:first-child{width:22%}.pests th:nth-child(2){width:27%}.pests tbody th{text-align:left;font-weight:900}.pests tbody tr{border-bottom:1px solid #dbd5c6}.pests tbody tr:nth-child(even){background:#f2eddf}
+.front>header{height:283px;overflow:hidden}
+.difficulty{top:191px}
+.seasons img{filter:invert(1);mix-blend-mode:screen}
+.hero-art{object-fit:contain}
+.back>.tips{margin:13px 32px 0;padding:11px 15px;background:var(--lime);border-radius:13px 24px 12px 18px;display:grid;grid-template-columns:93px repeat(3,1fr);gap:13px;align-items:center}
+.back>.tips>div{margin:0;grid-template-columns:24px 1fr;gap:7px}
+.back>.tips h2{font-size:24px}
+.back>.tips p{font-size:10.5px}
+.pests{margin-top:14px}
+.pests th,.pests td{padding-top:5px;padding-bottom:5px}
+.remember{padding-top:11px;padding-bottom:11px}
+.growing-columns{margin-top:14px}
+
+}
+body:has(.rich-print){margin:0;padding:0;background:white}
+.rich-print{--cream:var(--paper);--green:var(--dark);--orange:var(--accent);--peach:var(--soft);color:var(--ink);background:white;print-color-adjust:exact;-webkit-print-color-adjust:exact}
+.rich-print .sheet{width:688px;height:979px;margin:0 auto;overflow:visible;break-after:page}
+.rich-print .sheet:last-child{break-after:auto}
+.rich-print .sheet>footer{bottom:0;left:0;right:0;font-size:8px}
+.rich-print .front>header{height:238px;overflow:hidden}
+.rich-print .front header>.eyebrow{left:0;top:10px;font-size:9px}
+.rich-print .front h1{left:0;top:39px;font-size:112px;max-width:455px}
+.rich-print .front h1[data-length=medium]{font-size:65px;max-width:440px;line-height:1}
+.rich-print .front h1[data-length=long]{font-size:51px;max-width:435px;line-height:1}
+.rich-print .front .hero-art{width:230px;height:350px;top:-78px;right:-8px}
+.rich-print .peach{width:370px;height:340px;top:-110px;right:-128px}
+.rich-print .ribbon{left:0;top:154px;font-size:21px;background:var(--deep)}
+.rich-print .front .lead{left:0;top:202px;font-size:20px;width:450px}
+.rich-print .difficulty{right:8px;top:162px;background:var(--soft);min-width:140px;padding:9px 15px}
+.rich-print .difficulty strong{font-size:20px}
+.rich-print .seasons{right:5px;top:6px;padding:6px 9px}
+.rich-print .seasons b{max-width:110px}
+.rich-print .intro,.rich-print .quick,.rich-print .year-needs,.rich-print .key-risks{margin-left:0;margin-right:0}
+.rich-print .intro{margin-top:10px}
+.rich-print .quick,.rich-print .year-needs{margin-top:12px}
+.rich-print .varieties{padding:12px 14px;margin-top:12px;background:var(--wash)}
+.rich-print .varieties>div{grid-template-columns:repeat(3,1fr);gap:12px 20px}
+.rich-print .key-risks{margin-top:12px}
+.rich-print .key-risks h2,.rich-print .pests h2{color:var(--deep)}
+.rich-print .key-risks>div{gap:14px}
+.rich-print .back>header{height:98px;padding:12px 0 0;overflow:hidden}
+.rich-print .back h1{font-size:49px;margin-top:11px}
+.rich-print .back .hero-art{right:0}
+.rich-print .remember{margin:0;padding:10px 14px;background:var(--soft)}
+.rich-print .growing-columns{margin:12px 0 0;gap:24px}
+.rich-print .growing-columns li::marker{color:var(--deep)}
+.rich-print .planting{background:var(--wash);margin-top:12px}
+.rich-print .stages{gap:7px}
+.rich-print .stages h3 span{color:var(--deep)}
+.rich-print .measurements{border-color:var(--accent)}
+.rich-print .pests{margin:12px 0 0}
+.rich-print .pests thead{background:var(--deep)}
+.rich-print .pests tbody tr:nth-child(even){background:var(--wash)}
+.rich-print .back>.tips{margin:12px 0 0;background:var(--soft);grid-template-columns:85px repeat(3,1fr);padding:10px 13px;gap:10px}
+.rich-print .back>.tips:has(>div:nth-of-type(4)){grid-template-columns:85px repeat(2,1fr)}
+.rich-print .content-end{height:0}
+@media print{.rich-print .sheet{margin:0}}
+/* A4 composition: 210 × 297 mm; inset text, edge-to-edge Family Tint paper. */
+@page { size:A4; margin:0 }
+.rich-print .sheet{width:210mm;height:297mm;padding:0 32px}
+.rich-print .sheet>footer{bottom:17px;left:32px;right:32px}
+.rich-print .front>header{height:277px;margin:0 -32px}
+.rich-print .front header>.eyebrow{left:32px;top:25px}
+.rich-print .front h1{left:26px;top:49px;font-size:130px}
+.rich-print .front h1[data-length=medium]{font-size:78px}
+.rich-print .front h1[data-length=long]{font-size:60px}
+.rich-print .front .hero-art{width:269px;height:414px;right:-13px;top:-95px}
+.rich-print .peach{width:480px;height:420px;right:-130px;top:-105px}
+.rich-print .ribbon{left:32px;top:176px;font-size:23px}
+.rich-print .front .lead{left:32px;top:233px;font-size:23px;width:457px}
+.rich-print .difficulty{right:29px;top:191px}
+.rich-print .seasons{right:28px;top:19px}
+.rich-print .varieties{margin-left:-32px;margin-right:-32px;padding-left:32px;padding-right:32px}
+.rich-print .back>header{height:117px;padding-top:23px}
+.rich-print .back h1{font-size:52px}
+.rich-print .back .hero-art{top:-147px}
+/* Dense crops retain every selected item; compact only decorative space/gaps. */
+.rich-print .front.compact>header{height:222px}
+.rich-print .front.compact h1{font-size:98px;top:36px}
+.rich-print .front.compact h1[data-length=medium]{font-size:59px;line-height:.95;max-width:475px}
+.rich-print .front.compact h1[data-length=long]{font-size:49px;line-height:.98;max-width:475px}
+.rich-print .front.compact .ribbon{top:133px;font-size:20px;padding:7px 15px}
+.rich-print .front.compact .lead{top:184px;font-size:19px;max-width:450px}
+.rich-print .front.compact .difficulty{top:143px}
+.rich-print .front.compact .quick,.rich-print .front.compact .year-needs,.rich-print .front.compact .varieties,.rich-print .front.compact .key-risks{margin-top:9px}
+.rich-print .front.compact .fact-grid article{padding-top:7px}
+.rich-print .front.compact .fact-grid{gap:8px 16px}
+.rich-print .front.compact .varieties>div{margin-top:8px}
+.rich-print .front.compact .varieties{padding-top:10px;padding-bottom:10px}
+.rich-print .back.compact>header{height:90px;padding-top:15px}
+.rich-print .back.compact h1{font-size:45px;margin-top:9px}
+.rich-print .back.compact .growing-columns li{margin-bottom:6px}
+.rich-print .back.compact .growing-columns ol{margin-top:7px}
+.rich-print .back.compact .pests th,.rich-print .back.compact .pests td{padding-top:3px;padding-bottom:3px}
+.rich-print .back.compact .remember{padding-top:8px;padding-bottom:8px}
+.rich-print .back.compact .harvest{margin-top:12px}
+.rich-print .back.compact .tips{margin-top:9px;padding-top:8px;padding-bottom:8px}
+.rich-print .back .growing-columns .planting:first-child{margin-top:0}
+.rich-print .back .growing-columns .care:not(:first-child){margin-top:12px}
+.rich-print .back>.tips:has(>div:nth-of-type(4)){grid-template-columns:repeat(3,1fr)}
+.rich-print .back>.tips:has(>div:nth-of-type(4)) h2{grid-column:1/-1}
+.rich-print .front h1[data-length=medium]{font-size:65px;line-height:.98;max-width:465px}
+.rich-print .front h1[data-length=long]{font-size:55px;line-height:.98;max-width:465px}
+.rich-print .front h1[data-length=medium],.rich-print .front h1[data-length=long]{letter-spacing:-1.5px}
+.rich-print .fact-grid.detailed article:nth-child(n+5){grid-column:span 2}
+.rich-print .varieties.many>div{grid-template-columns:repeat(4,1fr)}
+.rich-print .front.compact .calendar{padding:10px 14px}
+.rich-print .front.compact .calendar h2{margin-bottom:7px}
+.rich-print .front.compact .year-needs{align-items:start}
+.rich-print .front.compact .needs>div{margin-top:6px}
+.rich-print .back>.tips:has(>div:nth-of-type(4)){grid-template-columns:repeat(3,1fr);gap:7px 14px}
+.rich-print .back>.tips:has(>div:nth-of-type(4)) h2{grid-column:auto}
+/* Exception for information-rich front pages: omit only the generic strapline. */
+.rich-print .front.dense>header{height:172px}
+.rich-print .front.dense .lead{display:none}
+.rich-print .front.dense h1{font-size:86px;top:32px}
+.rich-print .front.dense h1[data-length=medium]{font-size:49px;top:32px}
+.rich-print .front.dense h1[data-length=long]{font-size:46px;top:32px}
+.rich-print .front.dense .ribbon{top:130px;font-size:18px;padding:6px 14px}
+.rich-print .front.dense .difficulty{top:94px;padding:7px 13px}
+.rich-print .front.dense .difficulty strong{font-size:18px}
+
+/* Full-height hero; difficulty and seasons occupy the clear left-hand area. */
+.rich-print .front>header{--header-details-height:60px}
+.rich-print .header-art{position:absolute;inset:0;overflow:hidden}
+.rich-print .header-details{position:absolute;bottom:0;left:32px;width:440px;height:var(--header-details-height);display:grid;grid-template-columns:190px 1fr;gap:20px;align-items:center}
+.rich-print .header-details small{display:block;font-family:'Nunito Sans',sans-serif;font-size:9px;font-weight:900;letter-spacing:.8px;line-height:1.2;margin-bottom:3px}
+.rich-print .header-difficulty{position:relative;z-index:3;width:165px;height:58px;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:2px;background:var(--soft);color:var(--ink);border:1px solid var(--ink);border-radius:50%;box-shadow:3px 4px 0 var(--ink);transform:translateY(-12px) rotate(-3deg)}
+.rich-print .header-difficulty>small{margin:0;font-size:8px}
+.rich-print .header-difficulty strong{font-family:"Lilita One",sans-serif;font-weight:400;font-size:20px;line-height:1.05}
+.rich-print .difficulty-rating{display:flex;align-items:center;gap:6px;flex:none}
+.rich-print .difficulty-rating b{font:800 9px 'Nunito Sans',sans-serif}
+.rich-print .header-difficulty .scale{gap:3px}
+.rich-print .header-difficulty .scale i{width:7px;height:7px;background:color-mix(in srgb,var(--deep) 20%,transparent)}
+.rich-print .header-difficulty .scale i.on{background:var(--deep)}
+.rich-print .header-seasons{display:flex;align-items:center;gap:10px;min-width:0;width:max-content;background:transparent;color:var(--ink);padding:6px 10px;position:relative;z-index:3;mix-blend-mode:multiply}
+.rich-print .header-seasons b{display:block;font-size:18px;font-weight:900;line-height:1.25;white-space:nowrap}
+.rich-print .season-symbols{display:flex;flex-wrap:nowrap;gap:3px;flex:none}
+.rich-print .season-symbols img{width:35px;height:35px;object-fit:contain;mix-blend-mode:multiply}
+
+
+.rich-print .front:not(.dense) .header-difficulty{transform:translateY(-24px) rotate(-3deg)}
+
+.rich-print .header-seasons small{font-size:13.5px;font-weight:900}

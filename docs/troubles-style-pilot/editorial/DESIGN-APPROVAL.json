@@ -1,0 +1,236 @@
+{
+  "designId": "troubles-open-editorial-v1",
+  "status": "approved-forward-design",
+  "approvedBy": "John",
+  "approvedOn": "2026-09-28",
+  "recordedBy": "AI assistant, recording explicit user approval",
+  "approvalText": "These are fine - no other input needed. Fix this as the design and document it well.",
+  "contract": "docs/TROUBLES-PRINT-STYLE.md",
+  "reference": "docs/troubles-style-pilot/editorial/REVIEW.html",
+  "scope": "Forward Troubles visual design; opening and continuation pages for carrot/parsnip and onion/leek, first twelve conditions per group. Six is demonstrated density, not a quota.",
+  "supersedes": [
+    "Boxed four-condition Troubles pilot",
+    "Legacy fixed-height card design for forward work"
+  ],
+  "protection": "Preserve these approved references and their hashes. Authoring/check scripts refuse to overwrite a directory containing this manifest. Use separate paths for intentional variants.",
+  "validation": {
+    "browserPages": 4,
+    "conditions": 24,
+    "introductions": 2,
+    "sourceCopyPreserved": true,
+    "fontsAndImagesLoaded": true,
+    "boundsPassed": true,
+    "visualPagesReviewed": 4,
+    "browserDimensionsPx": [
+      794,
+      1123
+    ],
+    "physicalPDFValidated": false
+  },
+  "production": {
+    "sharedTemplateMigrated": false,
+    "canonicalDataChanged": false,
+    "editorialLocksChanged": false,
+    "remaining": "Measured shared renderer migration, revision/plan updates, complete-guide coverage, physical A4/font validation, longer entries and mixed-family palettes."
+  },
+  "externalDependencies": [
+    "Google Fonts: Lilita One and Nunito Sans"
+  ],
+  "sourceRecords": [
+    {
+      "path": "../hackriculture-data/troubles/carrot_and_parsnip_troubles/carrot_and_parsnip_troubles.json",
+      "sha256": "40c5f6c8d11679a6d7f7859b277ada8fe1311f02bb0881bd8cf40860df3ecc5d"
+    },
+    {
+      "path": "../hackriculture-data/troubles/onion_and_leek_troubles/onion_and_leek_troubles.json",
+      "sha256": "7b22ddf042fc055c1ea9805bc4e9831fd7f6390d826d1ed7b77e63791573da97"
+    }
+  ],
+  "files": [
+    {
+      "path": "docs/troubles-style-pilot/editorial/CHECKS.json",
+      "sha256": "746037e15e4ba47abd65f560417b09563245267c14ce7887fed7e39bb366b9d7",
+      "bytes": 2803
+    },
+    {
+      "path": "docs/troubles-style-pilot/editorial/CONTENT.json",
+      "sha256": "08ad405a0be419c8994b2e773b24101ca38d5eeef8dbaf7bffff8a90222342c5",
+      "bytes": 17610
+    },
+    {
+      "path": "docs/troubles-style-pilot/editorial/REVIEW.html",
+      "sha256": "314bf09ba9b34ae43261b48448290823abb33a8805e933f83dc49ee6d398c425",
+      "bytes": 2351
+    },
+    {
+      "path": "docs/troubles-style-pilot/editorial/build.mjs",
+      "sha256": "91936b7db6e200bf74bd6545397ca03b59f2ab306eee19eeed315281c6f38ce2",
+      "bytes": 6092
+    },
+    {
+      "path": "docs/troubles-style-pilot/editorial/carrot_and_parsnip_troubles-1.png",
+      "sha256": "a375cb37b4e9c74cb572f359a0dab7c9fa806f88acf83f072cafb4f939127d0a",
+      "bytes": 442722
+    },
+    {
+      "path": "docs/troubles-style-pilot/editorial/carrot_and_parsnip_troubles-2.png",
+      "sha256": "8d1a92a5247ed1a8b81b622cb678ad394e6db4350ce1c2452c9423f5a5cfd878",
+      "bytes": 415282
+    },
+    {
+      "path": "docs/troubles-style-pilot/editorial/carrot_and_parsnip_troubles.html",
+      "sha256": "dd3f59d21327d169f7c14879444bfed128453605f4e601ab578b242514e6fb85",
+      "bytes": 10679
+    },
+    {
+      "path": "docs/troubles-style-pilot/editorial/check.mjs",
+      "sha256": "0ffffcacd411d72db5c6430e3f82e7aa28c5bf4794736cc7e91f0e791d596509",
+      "bytes": 2610
+    },
+    {
+      "path": "docs/troubles-style-pilot/editorial/onion_and_leek_troubles-1.png",
+      "sha256": "d26c63a460729e2ea7cab7ed96ec42c1bfc9b4d82fdeb68b6c00759c970d1d8e",
+      "bytes": 491520
+    },
+    {
+      "path": "docs/troubles-style-pilot/editorial/onion_and_leek_troubles-2.png",
+      "sha256": "bd48a034bd2d376b149bd1515ad1affd9ea92c169391e6e48286f16ee0a9abe1",
+      "bytes": 426902
+    },
+    {
+      "path": "docs/troubles-style-pilot/editorial/onion_and_leek_troubles.html",
+      "sha256": "5d3c62e64fea3b443bccdcf38d8a914c3d2e212a3ee13f0daca11664db79bdca",
+      "bytes": 10304
+    },
+    {
+      "path": "docs/troubles-style-pilot/editorial/style.css",
+      "sha256": "f286df511f7f11328017cb2856154e6f8ce78f9fa1b81b51015f8bb548a0d3b6",
+      "bytes": 2673
+    },
+    {
+      "path": "docs/vegetable-style-pilot/group-colours/palettes.json",
+      "sha256": "e4c1dbb5d9d77a0060d518d4c751ec23f7282e6b89ea2d05ebe2c451812bc4df",
+      "bytes": 2746
+    },
+    {
+      "path": "public/images/troubles/carrot_and_parsnip_troubles/old_seed_poor_germination-backfill-v1.png",
+      "sha256": "da4bfef58965445f7003b86ce712c6bce4ad8dd106364b006900d18d614a4074",
+      "bytes": 1819749
+    },
+    {
+      "path": "public/images/troubles/carrot_and_parsnip_troubles/parsnip_rust_fungus-backfill-v1.png",
+      "sha256": "3ef84cf396aecfcbc80fe6685aa6d42e272b79b40eff99adfa8d57dacbd3a15a",
+      "bytes": 1327814
+    },
+    {
+      "path": "public/images/troubles/cleaned/carrot_and_parsnip_troubles/black_rot-v1.png",
+      "sha256": "1fcd2204946f08a8d51d47443b2aaa6e145b94c0b800ab0d0727c1cf9e6ed5fd",
+      "bytes": 693843
+    },
+    {
+      "path": "public/images/troubles/cleaned/carrot_and_parsnip_troubles/carrot_fly-v1.png",
+      "sha256": "b801656c5205c642f5afb4db2091f69a752f3ac288622922de6cb4867d7cb839",
+      "bytes": 660036
+    },
+    {
+      "path": "public/images/troubles/cleaned/carrot_and_parsnip_troubles/carrot_willow_aphid-v1.png",
+      "sha256": "83edbe9684dc9d0ae8a9bb76d91be1727887909f8fc9c397c178969fa2930b66",
+      "bytes": 933310
+    },
+    {
+      "path": "public/images/troubles/cleaned/carrot_and_parsnip_troubles/clayburn-v1.png",
+      "sha256": "abcf34c567c892ab20a04935b3a6bedfd092aa8ed0a01be731d75b955eb7ac9c",
+      "bytes": 564787
+    },
+    {
+      "path": "public/images/troubles/cleaned/carrot_and_parsnip_troubles/fanging-v1.png",
+      "sha256": "e052b3ed0a8aec2406a30265bd2618da6e05653e7d1a161433684ea94f9f44ee",
+      "bytes": 578701
+    },
+    {
+      "path": "public/images/troubles/cleaned/carrot_and_parsnip_troubles/green_top-v1.png",
+      "sha256": "aa659d6ae3a1c8c6fb5fbb17c232c3f96eac00631d65fd9d37eaf21c4107c9c6",
+      "bytes": 1091454
+    },
+    {
+      "path": "public/images/troubles/cleaned/carrot_and_parsnip_troubles/motley_dwarf_virus-v1.png",
+      "sha256": "329739c18a4cf6aeeda70fb072a551b842fcb81276cc9bb99e33a57af3361510",
+      "bytes": 1057623
+    },
+    {
+      "path": "public/images/troubles/cleaned/carrot_and_parsnip_troubles/sclerotinia_rot-v1.png",
+      "sha256": "0b6486e499f0abdc10dad44806c9bddd5eb24988c43e6e8fe32aea929ecdf4b2",
+      "bytes": 793128
+    },
+    {
+      "path": "public/images/troubles/cleaned/carrot_and_parsnip_troubles/small_roots-v1.png",
+      "sha256": "3f55cb2f31c7665d1ebc987678966d4406bde8d2b43397917eab9ee090c6dbd7",
+      "bytes": 533026
+    },
+    {
+      "path": "public/images/troubles/cleaned/carrot_and_parsnip_troubles/splitting-v1.png",
+      "sha256": "ba5dd24ab4788a876f49beef172646cc613bd519ff080e41511e8a97d431a11b",
+      "bytes": 666088
+    },
+    {
+      "path": "public/images/troubles/cleaned/onion_and_leek_troubles/bolting-v1.png",
+      "sha256": "ebf75753093cdd19482aeae6b5c66b5de845ee3ed3ab29dd1512f770a3b74a9c",
+      "bytes": 544799
+    },
+    {
+      "path": "public/images/troubles/cleaned/onion_and_leek_troubles/bull_neck_thick_neck-v1.png",
+      "sha256": "eaf48f0004789a06ce0dec551c408a10e6362a1bef4b3419114baf7805ebfa68",
+      "bytes": 946112
+    },
+    {
+      "path": "public/images/troubles/cleaned/onion_and_leek_troubles/downy_mildew-v1.png",
+      "sha256": "e2a1c11f0880c7be55123ae54acbec122cf0e2830d9d4f17318f415d76ca625d",
+      "bytes": 1024998
+    },
+    {
+      "path": "public/images/troubles/cleaned/onion_and_leek_troubles/drooping_leaves-v1.png",
+      "sha256": "dda095c28f873d602abba9fcc91190d1460b9738d8f4c3e4ac29c86b48e5a9fe",
+      "bytes": 1357224
+    },
+    {
+      "path": "public/images/troubles/cleaned/onion_and_leek_troubles/onion_fly-v1.png",
+      "sha256": "3a7195c2116f705ccce7702520f3e3db86dbe3e2a8723a6b87b9d8f1d9b5ca1b",
+      "bytes": 1013261
+    },
+    {
+      "path": "public/images/troubles/cleaned/onion_and_leek_troubles/rust-v1.png",
+      "sha256": "987affb16d5eaf635da4539af431f3ccdd7007bf9f3d4791eeedce0f814f6e45",
+      "bytes": 1259296
+    },
+    {
+      "path": "public/images/troubles/cleaned/onion_and_leek_troubles/saddleback-v1.png",
+      "sha256": "5d17f36affdaf2a60f0b6594e0e96aefa595beee803ae86ab4e9fe5ddf48e183",
+      "bytes": 1695789
+    },
+    {
+      "path": "public/images/troubles/cleaned/onion_and_leek_troubles/set_division-v1.png",
+      "sha256": "ef66a1d85fdf25ebcca82f3290b4e9715fa5892449025fa1ccd564b8e4cae297",
+      "bytes": 828574
+    },
+    {
+      "path": "public/images/troubles/cleaned/onion_and_leek_troubles/smut-v1.png",
+      "sha256": "52eec11995ecd270842e3fee9eb0d2d59c59950c6cbe7d8767e56e36bc967cd9",
+      "bytes": 1106318
+    },
+    {
+      "path": "public/images/troubles/cleaned/onion_and_leek_troubles/stem_bulb_eelworm-v1.png",
+      "sha256": "f0d15f0ecefda4d7f0d64cbe64f090bdd84a4f335001e117032c73fc42d76229",
+      "bytes": 1277081
+    },
+    {
+      "path": "public/images/troubles/cleaned/onion_and_leek_troubles/white_tip-v1.png",
+      "sha256": "96ffb1ea2da7381b4cf0561e059786a288d77b5b20af3bcba81ab3aaf6d82872",
+      "bytes": 589200
+    },
+    {
+      "path": "public/images/troubles/onion_and_leek_troubles/birds_pulling_sets-batch04-v1.png",
+      "sha256": "bdd3064b4b2f5dc58d7e819cd62411bca545acb6971ba7a0f851b44dd4b17c20",
+      "bytes": 1845293
+    }
+  ]
+}

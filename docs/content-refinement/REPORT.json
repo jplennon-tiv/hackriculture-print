@@ -1,0 +1,122 @@
+{
+  "status": "approved-installed",
+  "sourceRevision": "87fb37549f94e40ffa5d50d640cf94b357588ced6c5805f6183a6221d027249d",
+  "proposalSHA256": "f7e47d0626d903710714bdcc633eed3fa136a2edc38ce109715bd0032bd83527",
+  "crops": 44,
+  "unitChecks": 88,
+  "failedChecks": 0,
+  "sourceLinkedTextRevisions": 42,
+  "fullerIntroductions": 13,
+  "meanPageTwoBottomGapMm": {
+    "before": 13.2,
+    "after": 6.1
+  },
+  "pageTwoWithin10mm": 43,
+  "exceptions": [
+    {
+      "key": "artichoke_jerusalem",
+      "pageGapsMm": [
+        13.7,
+        6.2
+      ],
+      "reason": "Useful source selection retained; modest spacing capped rather than stretching sections."
+    },
+    {
+      "key": "beet_leaf",
+      "pageGapsMm": [
+        5.6,
+        13.1
+      ],
+      "reason": "Useful source advice already represented. Short trouble table and naturally brief crop; spacing capped."
+    },
+    {
+      "key": "mushroom",
+      "pageGapsMm": [
+        47.3,
+        6.1
+      ],
+      "reason": "Kit-growing route retained; no invented varieties or filler."
+    },
+    {
+      "key": "tomato_greenhouse",
+      "pageGapsMm": [
+        10.8,
+        6.1
+      ],
+      "reason": "Useful source selection retained; modest spacing capped rather than stretching sections."
+    }
+  ],
+  "internalColumnGapsOver25mm": [
+    "beet_leaf",
+    "cabbage",
+    "celery",
+    "chicory",
+    "oriental_leaves",
+    "potato",
+    "radish",
+    "salsify_scorzonera",
+    "spinach",
+    "swede",
+    "turnip"
+  ],
+  "tests": {
+    "focusedPassed": 10,
+    "appTypes": "passed"
+  },
+  "physicalPDFs": [
+    {
+      "key": "capsicum",
+      "unit": "metric",
+      "pages": 2,
+      "fonts": true,
+      "missing": 0,
+      "gaps": [
+        23.046875,
+        22.921875
+      ]
+    },
+    {
+      "key": "tomato_greenhouse",
+      "unit": "metric",
+      "pages": 2,
+      "fonts": true,
+      "missing": 0,
+      "gaps": [
+        40.703125,
+        23.015625
+      ]
+    },
+    {
+      "key": "tomato_greenhouse",
+      "unit": "imperial",
+      "pages": 2,
+      "fonts": true,
+      "missing": 0,
+      "gaps": [
+        40.703125,
+        23.015625
+      ]
+    }
+  ],
+  "visualPDFReview": "all six pages inspected",
+  "canonicalRecordsChanged": 44,
+  "officialExportsChanged": true,
+  "rendererFiles": {
+    "src/lib/vegetablePrint.ts": "e440c30ac75fdcbebf19bf03d2a8fb9ea242b6dbccdeca7df1e5c5ff66405831",
+    "src/print/vegetableModel.ts": "de6506726b4b623a8f7a0b70beeb321f2434155376c5710ff2e7a3053c630ee8",
+    "src/print/RichVegetablePage.tsx": "43186f28d9f942734e0272d7304237f17f6da6abc5671ab9ca7f301111a64a78",
+    "src/print/richPageFill.ts": "b3a2bc5fb858ad838e40ffafcce6552f6ce51a5198c44e907f6784d827dac6ef"
+  },
+  "approval": {
+    "status": "approved-installed",
+    "by": "John",
+    "date": "2026-09-30",
+    "statement": "Batch output looks good - approved.",
+    "proposalSHA256": "f7e47d0626d903710714bdcc633eed3fa136a2edc38ce109715bd0032bd83527",
+    "installedRevision": "d1e4b8218bf80c92d595dbc43eb4d58faac8e131a081313d86368ed605497abf",
+    "records": 44,
+    "receipt": "docs/content-refinement/SAVE-RECEIPT.json",
+    "checks": "docs/content-refinement/INSTALLATION-CHECKS.json"
+  },
+  "fullBatchRegenerated": false
+}

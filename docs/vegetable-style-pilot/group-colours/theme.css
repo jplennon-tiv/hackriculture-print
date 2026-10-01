@@ -1,0 +1,26 @@
+/* Colour-only study. Never override geometry or the approved reference file. */
+.front header>.eyebrow{color:var(--group-deep)}
+.peach,.remember{background:var(--group-soft)}
+.difficulty{background:var(--group-soft)}
+.varieties,.planting{background:var(--group-wash)}
+.key-risks h2,.pests h2,.stages h3 span{color:var(--group-deep)}
+.growing-columns li::marker{color:var(--group-deep)}
+.measurements{border-top-color:var(--group-accent)}
+.pests thead{background:var(--group-deep)}
+.pests tbody tr:nth-child(even){background:var(--group-wash)}
+.back>.tips{background:var(--group-soft)}
+/* Group colour is the chosen direction. All structural darks now coordinate;
+   sow/harvest signals and coloured Core Needs bars retain their meanings. */
+body{color:var(--group-ink)}
+.ribbon{background:var(--group-deep);color:var(--cream)}
+h1 span{color:var(--group-accent)}
+.calendar,.seasons{background:var(--group-dark)}
+.difficulty{box-shadow:2px 3px 0 var(--group-dark)}
+.difficulty .scale i.on{background:var(--group-dark)}
+.difficulty .scale i:not(.on){background:color-mix(in srgb,var(--group-dark) 16%,transparent)}
+/* The isolated colour viewer shows each unchanged reference page in its own frame. */
+body[data-page="1"] .back,body[data-page="2"] .front{display:none}
+body[data-page="1"] .sheet,body[data-page="2"] .sheet{margin:0}
+
+/* Family paper also follows the title knockout and reversed lettering. */
+body[data-paper="tinted"]{--cream:var(--group-paper)}

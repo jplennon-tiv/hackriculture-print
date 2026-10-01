@@ -36,13 +36,13 @@ const AdminApp = lazy(() =>
     import("./admin/AdminApp").then((m) => ({ default: m.AdminApp })),
 );
 const PrintVegetablePage = lazy(() =>
-    import("./print/PrintVegetablePage").then((m) => ({
-        default: m.PrintVegetablePage,
+    import("./print/RichVegetablePage").then((m) => ({
+        default: m.RichVegetablePage,
     })),
 );
 const PrintTroublePage = lazy(() =>
-    import("./print/PrintTroublePage").then((m) => ({
-        default: m.PrintTroublePage,
+    import("./print/EditorialTroublePage").then((m) => ({
+        default: m.EditorialTroublePage,
     })),
 );
 

@@ -1,0 +1,73 @@
+{
+  "designId": "richer-a-title-v1",
+  "status": "approved-forward-design",
+  "approvedBy": "John",
+  "approvedOn": "2026-09-30",
+  "recordedBy": "AI assistant, recording explicit user approval",
+  "approvalText": "Great, this design is now good. Please record it as the title design going forwards.",
+  "scope": "Vegetable guide first-page title/header design; the rest of Richer A and the Family Tint contract remain in force.",
+  "contract": "docs/VEGETABLE-PRINT-STYLE.md",
+  "reference": "docs/vegetable-style-pilot/header-refinement/REVIEW.html",
+  "protection": "Do not overwrite or prune these approved reference files. Put subsequent experiments at separate paths. Live implementation may evolve under the approved design contract.",
+  "files": [
+    {
+      "path": "docs/vegetable-style-pilot/header-refinement/REVIEW.html",
+      "sha256": "6adbcad2784779a58055f5b63c0bffd0e473c1563fbf780889ecf998ef079c4e"
+    },
+    {
+      "path": "docs/vegetable-style-pilot/header-refinement/CHECKS.json",
+      "sha256": "dfc0836f65ddd56aee9fdd50a6cfc734eaff35e290286826319bbcdb7d174829"
+    },
+    {
+      "path": "docs/vegetable-style-pilot/header-refinement/radish-header.png",
+      "sha256": "c88df89b0c7e0d218dc5dc3cdd69d09680a0793a854a088fdf23920c9bb94b34"
+    },
+    {
+      "path": "docs/vegetable-style-pilot/header-refinement/onion_shallot-header.png",
+      "sha256": "c1e1f629b7bf2e1d8405f2b8e5a8a11b8db3650cfb74fd298c3c4297ede8ce4e"
+    },
+    {
+      "path": "docs/vegetable-style-pilot/header-refinement/radish-page-1.png",
+      "sha256": "2e2ae9eb699886ad535c62661de925e664a4737822d316c82e33d0f0abebb55f"
+    },
+    {
+      "path": "docs/vegetable-style-pilot/header-refinement/onion_shallot-page-1.png",
+      "sha256": "05f3de705dcc93b5a51dc098cbb8848399d655d85d5f5ccf5d9b271975fbc412"
+    },
+    {
+      "path": "docs/vegetable-style-pilot/header-refinement/radish-metric.pdf",
+      "sha256": "9fcae3606f13857aa95e049b3a1ec80cf2812113702793a746ce82f60262df98"
+    },
+    {
+      "path": "docs/vegetable-style-pilot/header-refinement/radish-imperial.pdf",
+      "sha256": "a8eaecef20afa8e0c2b969fcb2b5fbf29ca581b5bb21bdad3aa9ef95e064023f"
+    },
+    {
+      "path": "docs/vegetable-style-pilot/header-refinement/onion_shallot-metric.pdf",
+      "sha256": "0196620a8547160bcb48ff1c4851b256b53324a9232233a7be26843c6f956c5f"
+    }
+  ],
+  "implementationAtApproval": [
+    {
+      "path": "src/print/RichVegetablePage.tsx",
+      "sha256": "37e0c3f302bc0f530bcaf445f903f4fce2c1c3c65729269f3d9d56ec6dec27fe"
+    },
+    {
+      "path": "src/print/richVegetable.css",
+      "sha256": "f1d27530bd9aacd43cd66aad180ed857bf085b55fa894bb49ac884042d032fec"
+    }
+  ],
+  "validation": {
+    "physicalPDFs": 3,
+    "pagesPerPDF": 2,
+    "crops": [
+      "radish",
+      "onion_shallot"
+    ],
+    "bothUnitsCrop": "radish",
+    "additionalDOMCheck": "cabbage (four season icons)",
+    "fontsImagesAndHeaderBounds": "passed",
+    "fullCatalogueRechecked": false,
+    "smallPaperFormatsValidated": false
+  }
+}

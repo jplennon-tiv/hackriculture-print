@@ -39,6 +39,6 @@ Cleanup policy (John, 24 September): Git holds historical source, scripts and
 artwork. Old local backups may be pruned after successful transactions; retain the
 latest rollback and any unresolved/prepared transaction. Do not accumulate whole
 project, media or PDF backups. Future writes must still make exact-byte backups.
-The latest [page-fit save receipt](docs/page-fit/SAVE-RECEIPT.json) and its rollback
-are retained. Historical record metadata is provenance, not an instruction to
+The latest [content-refinement save receipt](docs/content-refinement/SAVE-RECEIPT.json)
+identifies the 30 September 44-record transaction and exact-byte rollback. Historical record metadata is provenance, not an instruction to
 recreate removed review files.
