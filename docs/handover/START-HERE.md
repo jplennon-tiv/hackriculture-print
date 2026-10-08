@@ -13,6 +13,77 @@ screen derivative, not an upload file or new approval. No guide re-export or
 new artwork generation was performed; [checks](../publication/bookvault-progress-preview/CHECKS.json)
 record its sources and coverage.
 
+**Editable book copy:** John authorised the move into shared
+[book-layout JSON](../../../hackriculture-data/book-layout/README.md) on 8 October.
+The seven files now own opening copy, common metadata and future cover copy.
+`npm run book:check` validates edits; `npm run book:build` creates separate
+working opening proofs. The [migration receipt](../publication/book-layout-working/MIGRATION.json)
+records unchanged text and pixel-identical 90 dpi renders for all 14 pages
+(seven per edition), plus 58 contents references per edition. Approved originals,
+canonical gardening records, full-book previews and guide PDFs are unchanged.
+Current JSON uses the source-proof artwork; the rough preview's stock allocation
+remains separate and proposed. Existing G2/B5 lettering is raster; cover-copy edits
+will take effect when the selected covers are rebuilt as editable compositions.
+
+## Data maintenance skill — use before JSON work
+
+John requires [hackriculture-data](../../../hackriculture-data/.agents/skills/hackriculture-data/SKILL.md)
+for shared-data reads, edits, schema changes and recovery in this and future
+sessions. Read the skill before the work, following its data map and safe-write
+reference as needed. Its maintained source is in `hackriculture-data`; local
+skill-folder links make it available to print, website and video. Automatic
+selection is enabled; use the direct link when it is not shown in the session.
+Keep its references aligned with live schemas/writers. It adds no authority to
+change approved copy or resume completed work.
+
+The admin editor now saves just changed records through `/api/admin/save-records`
+and the shared `saveRecords` writer. Omitted records remain untouched; complete
+supplied records replace their predecessors. Revision guards, schema/semantic
+validation, AI protections, attribution and exact-byte backups remain in place.
+The revision still covers both collections. `saveCollections` and `/save` are
+compatibility adapters for retained batch tools; use record saves for new work.
+See [safe writes](../../../hackriculture-data/.agents/skills/hackriculture-data/references/safe-writes.md).
+This implementation/skill work changed no gardening JSON or layouts.
+
+The data-maintenance checks pass: 10 shared-writer tests, 3 admin HTTP/client tests,
+8 book-copy tests, skill metadata and all three discovery links.
+
+**Mushroom schema mismatch resolved (8 October):** saved introduction counts now
+accept positive integers above twelve. The retained legacy fitter honours saved
+counts, while automatic fitting keeps its twelve-sentence limit. Active Richer A
+and compact renderers already included all thirteen approved Mushroom sentences;
+the correction changes no gardening JSON, approval signatures or current layout.
+All 43 routine tests, 9 focused print tests and TypeScript pass. Mushroom proofs
+in both units remain two A4 pages and three ordinary compact pages, with all ten
+PDF pages visually checked. Compact text and page counts match saved proofs.
+[Checks and proof paths](../publication/mushroom-schema-fix/CHECKS.json) record
+the bounded coverage; supplier books and full collections were not rebuilt.
+
+## Design skills — use before design work
+
+John explicitly requires future sessions to use the saved project skills and
+source designs. Read the relevant `SKILL.md` before designing, changing layout
+or generating artwork; do not rely only on its name or on memory from a chat.
+
+| Work | Required project skill |
+| --- | --- |
+| Overall book style, cross-section consistency, or a new/revised cover or opening-page design | [vegetable-guru-book-design](../../.agents/skills/vegetable-guru-book-design/SKILL.md) |
+| Book page fit, vegetable/Troubles layouts, facing spreads, pagination and PDF assembly | [book-layout-review](../../.agents/skills/book-layout-review/SKILL.md) |
+| Decorative vegetable illustration generation, restyling or style comparison | [vegetable-guru-artwork](../../.agents/skills/vegetable-guru-artwork/SKILL.md) |
+| Individual A4 sheets and loose-leaf guides | [guide-layout-review](../../.agents/skills/guide-layout-review/SKILL.md), retained under its original identifier |
+
+The overall skill uses layout and artwork skills only when the task needs them.
+All four allow automatic selection; if a skill is not shown in the session's
+catalogue, read its linked project file directly. This does not authorise subagents.
+
+The [book design system](../BOOK-DESIGN-SYSTEM.md) owns shared colours, typography,
+geometry and section treatments; [Compact Book v1](../BOOK-PRINT-STYLE.md) owns
+detailed guide composition. Inspect the actual sources in the
+[asset registry](../assets/README.md) before adapting them. Reuse established
+rules and approved assets. Where a choice is unresolved, identify the gap and
+prepare a clearly labelled proposal within the task's scope; do not present an
+invented choice as an existing rule or approval. Keep A4 and book rules separate.
+
 ## Current brief and decisions
 
 Prepare a **non-waterproof, conventionally bound, full-colour POD book** for UK
@@ -168,12 +239,13 @@ The current decision sequence, including John’s 7 October title and cover rese
 2. **POD service — working choice made:** Bookvault, with YouTube as the main
    source of buyers. Direct Great British Bookshop links are the selected launch route;
    final stock/process choice still needs physical proof evaluation.
-3. **Morning review — current focus:** leaf through the
+3. **Opening copy and image review — current focus:** leaf through the
    [rough Bookvault progress preview](../publication/bookvault-progress-preview/REVIEW.html),
    including pages 1–7 with H1/H2 contents, H5/H6 how-to, H3 welcome and S1 author
    artwork. H4/S2 remain alternatives. Review the opening sequence, image allocation,
    four blank interior pages and blank inside covers. Then agree introduction,
-   author, publication and back-cover copy. Lipsum remains in place. The approved
+   author, publication and back-cover copy in the shared `book-layout` JSON.
+   Lipsum remains in place. The approved
    contents/how-to files remain byte-identical; all 58 references still match the
    existing interior. Only imperial was assembled, as John requested one edition
    and a rough review. Make affected production proofs after these decisions;
@@ -210,14 +282,6 @@ Leave existing KDP titles untouched. If access or missing publishing decisions
 block account work, continue independent local preparation without inventing facts.
 
 ## Runtime and retained work
-
-The layout workflow is split into two project skills as of 8 October:
-[Layout — book pages](../../.agents/skills/book-layout-review/SKILL.md) for compact
-guides, openings, facing spreads and assemblies; and
-[Layout — single sheets](../../.agents/skills/guide-layout-review/SKILL.md) for
-the retained A4 workflow under its original `guide-layout-review` identifier.
-Both allow automatic selection. Their respective style contracts remain the
-design authorities; this documentation change does not alter proofs or approvals.
 
 The ordinary compact web batch exports individual **guide proofs**, with local
 numbers and no openings. The separately prepared book assemblies contain actual

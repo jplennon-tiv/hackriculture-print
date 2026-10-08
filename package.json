@@ -13,7 +13,12 @@
         "test:focused": "vitest run",
         "check:fit": "node scripts/check-smoke.mjs --no-pdf",
         "check:smoke": "node scripts/check-smoke.mjs",
-        "check:types": "tsc -b"
+        "check:types": "tsc -b",
+        "book:check": "node scripts/check-book-content.mjs",
+        "book:openings": "node scripts/build-guru-opening-pages.mjs",
+        "book:entries": "node scripts/build-guru-entry-pages.mjs",
+        "book:build": "npm run book:check && npm run book:openings && npm run book:entries",
+        "test:book-content": "node --test scripts/book-content.test.mjs"
     },
     "dependencies": {
         "dayjs": "^1.11.23",

@@ -17,38 +17,26 @@ The installed A4 exports retain their [vegetable](VEGETABLE-PRINT-STYLE.md) and
 image sizes and treatment of uneven column endings do not override this book
 design. Conversely, do not change live A4 exports as a side effect of book work.
 
+The [book design system](BOOK-DESIGN-SYSTEM.md) owns shared colour, typography,
+page geometry and relationships between covers, openings and guides. This
+contract owns the detailed vegetable/Troubles composition and fit behaviour.
+
 ## Cover and opening-page inheritance
 
-John’s latest direction on **7 October** is to redraw the compact front/back
-covers from scratch for **The Vegetable Guru** / **Your at-a-glance growing
-companion**, using Cover C for colour/illustration style only and also referring
-to the approved hero artwork and inner pages. Both Cover C adaptations, C1/C2, were rejected. The earlier instruction
-to adapt Cover C is superseded for the compact cover; preserve its approved A4
-originals. John selected **G2 Cream centre** as the front-cover direction later
-on 7 October; see the [asset registry](assets/README.md) for its exact source.
-B5 Off-centre collage is the preferred back-cover direction. These choices are not production-wrap approval.
-
-The **6 October** direction to adapt the approved Harvest corner A contents and
-illustrated how-to remains current. Use their existing compositions and supporting
-assets under `docs/front-matter/`; see the [asset registry](assets/README.md).
-Retain the illustrated calendar keys and difficulty/needs explanations. Compact
-reflow, book wording and fresh contents references on pages 4–7 were approved
-by John on 7 October; `compactEntryPages` in the central approval manifest binds
-the exact files. Separate title/publication/welcome proofs on pages 1–3 use lipsum
-text at John's request and await approval. Preserve the installed A4 PDFs and
-all approved compact files; see the handover for integration status.
+Use the [section treatments and sources](BOOK-DESIGN-SYSTEM.md#section-treatments-and-sources)
+for the selected covers and opening-page inheritance. The
+[asset registry](assets/README.md) retains exact sources and approvals, including
+the approved compact contents/how-to. Preserve those files and the A4 originals;
+Cover C is a book colour/style reference, not its required composition. The
+handover distinguishes current proposals and preview placements from approvals.
 
 ## Page and typography
 
-- Trim: 185 × 240 mm; mirrored 15 mm inner / 10 mm outer **body** margins.
-  Decorative header art can reach the page edge. Footers sit 8 mm from the bottom.
-  Supplier bleed, safe areas, binding and final folios still need production setup.
-- Keep Family Tint, Lilita One headings, Nunito Sans text, approved coloured
-  fact/tip icons, calendar and 1–5 needs scales.
-- Main advice, introduction and fact values: **9 pt**, about 11.2–11.7 pt leading.
-  Variety descriptions: 8.6 pt; pest table/risk descriptions: 8.25 pt; planting
-  captions/measurements: about 7.9 pt and explanatory notes 8.25 pt.
-  Do not shrink the main body further to force a page count.
+- Use the [shared geometry](BOOK-DESIGN-SYSTEM.md#page-geometry-and-spacing) and
+  [approved type hierarchy](BOOK-DESIGN-SYSTEM.md#approved-guide-and-entry-page-hierarchy),
+  selecting the ordinary guide or supplier profile explicitly. Keep the approved
+  Family Tint roles, coloured fact/tip icons, calendar and 1–5 needs scales.
+- Preserve the approved main-body size; do not shrink it to force a page count.
 - Kale demonstrates two pages. Other crops may use **three or four pages** to
   retain useful information. Counts of varieties, facts or conditions are not quotas.
 
@@ -67,7 +55,7 @@ label, rating, five dots and numeric score. Preserve readable text and separatio
 from the introduction. Cropping the decorative hero is intentional; do not
 confuse that with permission to crop instructional or diagnostic drawings.
 
-Kale's reference uses a 124 CSS px header, 57 pt title tilted −4°, a 300 px
+Kale's reference uses a 124 CSS px header, the crop-title type role tilted −4°, a 300 px
 circular backdrop, 16° hero tilt, and a 138 × 49 px difficulty oval tilted −3°.
 Keep the image's visual prominence when adapting other crops; do not reduce it
 to a small thumbnail or crowd all metadata against the left edge.
@@ -81,7 +69,7 @@ varieties and Key Risks. Retain the approved information richness.
 Retain the clear **Growing & harvesting** title and three-part reminder banner.
 Omit the redundant “crop / Growing Guide” line. Use two practical-advice columns,
 illustrated planting instructions, the useful pest table and **full-width Final
-Tips**. The reference uses a 28.5 pt page-two title and 15.75 pt section headings.
+Tips**. Use the practical-title and section-heading roles in the shared type hierarchy.
 
 The displayed Kale summaries and measurement consolidations are part of the
 approved specimen. [Source-matched copy](publication/book-pilot/page-two-copy.mjs)
@@ -96,7 +84,8 @@ companions, attribution and exact-byte backups for any future shared data writes
 Use two open columns, fine separating rules, compact crop labels, condition
 headings and Recognise / Act / Prevent advice. Natural entry heights and text
 wrapping beside illustrations provide density; no padded equal-height cards.
-The reference has 15 pt condition headings and 9 pt advice with 11.25 pt leading.
+Use the condition-heading and guide-advice roles in the shared type hierarchy;
+the Troubles reference retains 11.25 pt advice leading.
 Diagnostic image boxes are 108 × 126 CSS px (about 29 × 33 mm), preserving aspect
 ratio and the complete drawing. Check diagnostic clarity; allow a larger drawing
 or another page for entries whose detail requires it.
@@ -127,8 +116,8 @@ trim and bleed. Current file/preflight status is in the handover.
 For new book work, measure the book format itself, export the affected pages,
 and visually inspect actual PDFs. Check both units when wrapping/units change;
 add another crop only when the shared change warrants it. A4 `check:fit` or
-`check:smoke` is not evidence of compact-book fit. Retain at least 3 mm measured
-content-to-footer clearance as the current pilot check, pending supplier specs.
+`check:smoke` is not evidence of compact-book fit. Measure content-to-footer
+clearance against the shared geometry rule and relevant supplier profile.
 
 The reference builder and raster checker are frozen against overwriting this
 approval. They document the experiment; they are not a live book-export service.
@@ -184,8 +173,7 @@ evidence, not changes to the frozen approval or a collection-wide approval.
 Read the [preparation state](publication/BOOK-PREPARATION-STATE.json) for exact
 coverage; production geometry does not establish full visual or supplier approval.
 
-Bookvault's working adaptation uses 17 mm inner / 8 mm outer body margins,
-retaining the approved 160 mm text width and full type/art sizes while meeting
-the downloaded template's 17 mm binding / 5 mm other-edge safety. This lives in
-`bookvault.css` and applies only to that supplier's working output. The approved
-ordinary trim profile and saved KDP proofs retain their existing margins.
+Bookvault's working adaptation uses the distinct binding allocation and safety
+checks recorded in the shared geometry table, retaining body width and full
+type/art sizes. This lives in `bookvault.css` and applies only to that supplier's
+working output. Ordinary trim and saved KDP proofs retain their existing margins.

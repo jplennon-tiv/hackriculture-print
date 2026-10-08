@@ -1,6 +1,9 @@
 # Shared data
 
 The [shared contract](../hackriculture-data/SHARED-DATA.md) is authoritative.
+Use the [hackriculture-data skill](../hackriculture-data/.agents/skills/hackriculture-data/SKILL.md)
+before data reads, edits, structural changes or recovery in current and future
+sessions. Read the linked source directly if automatic discovery is unavailable.
 
 | Resource | Location |
 | --- | --- |
@@ -12,8 +15,15 @@ The [shared contract](../hackriculture-data/SHARED-DATA.md) is authoritative.
 | Disposable browser projections | `../hackriculture-data/generated/master/` |
 | Exact prior-byte transaction backups | `../hackriculture-data/backups/admin/` |
 | Website's separate editorial layer | `../hackriculture-data/website/` |
+| Editable book opening/cover copy | `../hackriculture-data/book-layout/` |
+| Book copy reader / guarded writer | `../hackriculture-data/lib/book-layout.mjs` |
 
-Read with `readCollection`; write with `saveCollections` and `expectedRevision`.
+Read with `readRecord` or `readCollection`; use `saveRecords` with required
+`expectedRevision` and `actor` to save only complete changed records. Omitted keys
+stay untouched; each supplied record replaces its previous contents. The editor
+uses `/api/admin/save-records`, validating just submitted records. The old
+`saveCollections` and `/api/admin/save` interfaces remain compatibility adapters
+for existing complete-collection tools; new editing code must use record saves.
 Preserve keyed objects, unknown fields, source prose, ranks, unit pairs, month
 fragments, locks and manual edits. Every changed record gets exact preceding-byte
 backup and leaf-level attribution. A stale revision rejects the save. Never edit
@@ -26,8 +36,13 @@ self-approved. Print dependency signatures detect source/manual changes; refresh
 affected companions only after reviewing their meaning, not just their checksums.
 
 The current book-preparation task does not change canonical gardening records.
-New book copy lives in separate exact-source-checked working drafts under
-`src/print/book/`; the handover and preparation checkpoint identify their status.
+Book-specific guide rewrites live in separate exact-source-checked working drafts
+under `src/print/book/`. Opening and cover copy lives in the shared
+[book-layout JSON folder](../hackriculture-data/book-layout/README.md), read by
+`scripts/lib/book-content.mjs`. Use its dedicated revision-guarded writer for
+AI/app changes; John may edit this folder directly and validate with
+`npm run book:check`. Direct editor saves bypass automatic transaction backups.
+The handover and preparation checkpoint identify approval status.
 Standing authority for researched source corrections applies when that editorial
 work is in scope, not automatically during layout or publication preparation.
 

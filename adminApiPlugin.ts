@@ -1,4 +1,4 @@
-import {readCollection,saveCollections,revision} from "../hackriculture-data/lib/records.mjs";
+import {readCollection,saveCollections,saveRecords,recordPath,revision} from "../hackriculture-data/lib/records.mjs";
 import type { Plugin } from "vite";
 import fs from "node:fs";
 import path from "node:path";
@@ -273,57 +273,45 @@ export function adminApiPlugin(): Plugin {
                         if (body.password !== PASSWORD)
                             return send(401, { error: "Unauthorized" });
 
-                        // POST /save
-                        if (endpoint === "/save" && req.method === "POST") {
-                            const { vegetables, troubles } = body as {
-                                vegetables: Record<string, unknown>;
-                                troubles?: Record<string, unknown>;
+                        // /save remains a complete-collection compatibility route.
+                        // Normal editors send only complete changed records to /save-records.
+                        if ((endpoint === "/save" || endpoint === "/save-records") && req.method === "POST") {
+                            const partial = endpoint === "/save-records";
+                            const updates = partial ? body.records : {
+                                vegetables: body.vegetables,
+                                ...(body.troubles !== undefined ? {troubles: body.troubles} : {}),
                             };
+                            if (!updates || typeof updates !== "object" || Array.isArray(updates))
+                                return send(400, {error: "Records must be a keyed object"});
 
-                            // ── Integrity checks before touching disk ────────
-                            const vegErrors = validateVegetables(vegetables);
-                            const trErrors = troubles
-                                ? validateTroubles(troubles)
-                                : [];
-
-                            // ── Schema validation (belt-and-braces) ─────────
-                            const vegSchema =
-                                GardeningDataSchema.safeParse(vegetables);
-                            if (!vegSchema.success) {
-                                for (const issue of vegSchema.error.issues.slice(
-                                    0,
-                                    20,
-                                )) {
-                                    vegErrors.push(
-                                        `schema: ${issue.path.join(".")} — ${issue.message}`,
-                                    );
+                            const allErrors: string[] = [];
+                            for (const [collection, records] of Object.entries(updates)) {
+                                if (collection !== "vegetables" && collection !== "troubles") {
+                                    allErrors.push(`Unknown collection: ${collection}`);
+                                    continue;
                                 }
-                            }
-                            if (troubles) {
-                                const trSchema =
-                                    TroublesDataSchema.safeParse(troubles);
-                                if (!trSchema.success) {
-                                    for (const issue of trSchema.error.issues.slice(
-                                        0,
-                                        20,
-                                    )) {
-                                        trErrors.push(
-                                            `schema: ${issue.path.join(".")} — ${issue.message}`,
-                                        );
+                                allErrors.push(...(collection === "vegetables" ? validateVegetables(records) : validateTroubles(records)));
+                                const schema = collection === "vegetables" ? GardeningDataSchema : TroublesDataSchema;
+                                const parsed = schema.safeParse(records);
+                                if (!parsed.success) {
+                                    for (const issue of parsed.error.issues.slice(0, 20))
+                                        allErrors.push(`schema: ${collection}.${issue.path.join(".")} — ${issue.message}`);
+                                }
+                                if (records && typeof records === "object" && !Array.isArray(records)) {
+                                    for (const key of Object.keys(records)) {
+                                        try { recordPath(DATA, collection, key); }
+                                        catch { allErrors.push(`Invalid record key: ${collection}.${key}`); }
                                     }
                                 }
                             }
-
-                            const allErrors = [...vegErrors, ...trErrors];
-                            if (allErrors.length > 0) {
-                                return send(400, {
-                                    error: `Save rejected — ${allErrors.length} integrity error${allErrors.length > 1 ? "s" : ""}`,
-                                    details: allErrors,
-                                });
-                            }
-
+                            if (allErrors.length) return send(400, {
+                                error: `Save rejected — ${allErrors.length} integrity error${allErrors.length > 1 ? "s" : ""}`,
+                                details: allErrors,
+                            });
                             if(typeof body.revision!=="string")return send(409,{error:"Reload the editor before saving (missing data revision)."});
-                            const result=saveCollections({vegetables,...(troubles?{troubles}:{})},{root:DATA,actor:"admin",expectedRevision:body.revision});
+                            // Persist the original raw records, preserving unknown fields.
+                            const writer = partial ? saveRecords : saveCollections;
+                            const result=writer(updates as Record<string, Record<string, Record<string, unknown>>>,{root:DATA,actor:"admin",expectedRevision:body.revision});
                             return send(200,{ok:true,...result});
                         }
 
@@ -349,6 +337,7 @@ export function adminApiPlugin(): Plugin {
                             if (!type || !key || !fileData || !fileName)
                                 return send(400, { error: "Missing fields" });
 
+                            const expectedRevision = revision(DATA);
                             const PUBLIC = path.join(ROOT, "public");
                             const ext =
                                 path.extname(fileName).toLowerCase() || ".png";
@@ -420,7 +409,7 @@ export function adminApiPlugin(): Plugin {
                                 const vegData = readCollection("vegetables",DATA) as Record<string, Record<string, unknown>>;
                                 vegData[key].image = jsonRelPath;
                                 vegData[key].image_revision=createHash('sha256').update(imgBuf).digest('hex');
-                                saveCollections({vegetables:vegData},{root:DATA,actor:"admin"});
+                                saveRecords({vegetables:{[key]:vegData[key]}},{root:DATA,actor:"admin",expectedRevision});
                             } else {
                                 const trData = readCollection("troubles",DATA) as Record<
                                     string,
@@ -436,7 +425,7 @@ export function adminApiPlugin(): Plugin {
                                     conds[conditionKey!].image = jsonRelPath;
                                     conds[conditionKey!].image_revision=createHash('sha256').update(imgBuf).digest('hex');
                                 }
-                                saveCollections({troubles:trData},{root:DATA,actor:"admin"});
+                                saveRecords({troubles:{[key]:trData[key]}},{root:DATA,actor:"admin",expectedRevision});
                             }
 
                             return send(200, {
@@ -459,6 +448,7 @@ export function adminApiPlugin(): Plugin {
                             if (!type || !key)
                                 return send(400, { error: "Missing fields" });
 
+                            const expectedRevision = revision(DATA);
                             const PUBLIC = path.join(ROOT, "public");
 
                             if (type === "vegetable") {
@@ -472,7 +462,7 @@ export function adminApiPlugin(): Plugin {
                                         fs.unlinkSync(full);
                                     vegData[key].image = null;
                                 }
-                                saveCollections({vegetables:vegData},{root:DATA,actor:"admin"});
+                                saveRecords({vegetables:{[key]:vegData[key]}},{root:DATA,actor:"admin",expectedRevision});
                             } else {
                                 if (!conditionKey)
                                     return send(400, {
@@ -499,7 +489,7 @@ export function adminApiPlugin(): Plugin {
                                         conds[conditionKey].image = null;
                                     }
                                 }
-                                saveCollections({troubles:trData},{root:DATA,actor:"admin"});
+                                saveRecords({troubles:{[key]:trData[key]}},{root:DATA,actor:"admin",expectedRevision});
                             }
 
                             return send(200, { ok: true });

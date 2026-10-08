@@ -2,6 +2,7 @@ import { describe, expect, it } from "vitest";
 import {
     introContentBudget,
     introFitAction,
+    introSentenceLimit,
     nextPage2Trim,
     pageFitAction,
 } from "./vegetableLayout";
@@ -55,6 +56,19 @@ describe("optional intro fitting", () => {
         totalSentences: 2,
         sentenceCap: 12,
     };
+
+    it("honours saved counts above twelve, bounded by available text", () => {
+        expect(introSentenceLimit(13, 13)).toBe(13);
+        expect(introSentenceLimit(20, 13)).toBe(13);
+        expect(introSentenceLimit(8, 13)).toBe(8);
+        expect(introSentenceLimit(20, 5)).toBe(5);
+        expect(introSentenceLimit(0, 13)).toBe(0);
+    });
+
+    it("keeps the twelve-sentence cap for automatic fitting", () => {
+        expect(introSentenceLimit(20)).toBe(12);
+        expect(introSentenceLimit(8)).toBe(8);
+    });
 
     it("adds a sentence only with room and remaining content", () => {
         expect(introFitAction(fit)).toBe("grow");

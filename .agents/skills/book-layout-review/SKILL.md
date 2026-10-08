@@ -19,8 +19,11 @@ Read [AGENTS](../../../AGENTS.md), [README](../../../README.md),
 material already read. The handover owns current selections, approval status
 and next work; historical automation briefs do not restart completed work.
 
-Use [Compact Book v1](../../../docs/BOOK-PRINT-STYLE.md) as the design contract,
-[assisted printing](../../../docs/ASSISTED-PRINT.md) for shared review principles,
+Use the [book design system](../../../docs/BOOK-DESIGN-SYSTEM.md) for shared colour,
+type and geometry, and [Compact Book v1](../../../docs/BOOK-PRINT-STYLE.md) for
+detailed guide composition. For book-wide art direction or a new section treatment,
+apply [vegetable-guru-book-design](../vegetable-guru-book-design/SKILL.md).
+Use [assisted printing](../../../docs/ASSISTED-PRINT.md) for shared review principles,
 and [Compact book exports](../../../DEVELOPMENT.md#compact-book-exports) for
 renderer, supplier profiles and pagination procedures. Read
 [SETUP](../../../SETUP.md) only for runtime/command details as needed.
@@ -41,11 +44,11 @@ inside this skill. Artwork creation/restyling belongs to
 | Supplier working interior | Selected supplier's bleed, trim, binding safety, mirrored margins and physical folios; separate production output |
 | Rough progress preview | Reuse saved PDFs/art where possible; reduced screen images and cover leaves are acceptable when labelled; not a print upload |
 
-The approved trim profile has 15 mm inside / 10 mm outside body margins;
-Bookvault's working profile uses 17 mm / 8 mm, retaining the same body width.
-These are different profiles, not interchangeable measurements. Read the current
-contract and supplier evidence before production work; do not treat a preview's
-trim box, reduced artwork, blank cover leaves or page total as print-ready data.
+The ordinary trim and Bookvault working profiles have different binding margins;
+use the [shared geometry table](../../../docs/BOOK-DESIGN-SYSTEM.md#page-geometry-and-spacing).
+Read the current contract and supplier evidence before production work; do not
+treat a preview's trim box, reduced artwork, blank cover leaves or page total
+as print-ready data.
 
 ## Review content and composition
 

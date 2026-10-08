@@ -8,7 +8,8 @@ import { AddVegetablePage } from "./AddVegetablePage";
 import { useAdminAuth } from "./useAdminAuth";
 import {
     fetchAdminData,
-    saveData,
+    saveRecords,
+    changedRecords,
     uploadImage,
     deleteImage,
     type ImageTarget,
@@ -90,19 +91,15 @@ function AdminShell() {
             .finally(() => setLoading(false));
     }, [logout, navigate]);
 
-    const handleSave = async (
-        newVeg: GardeningData,
-        newTroubles?: TroublesData,
-    ) => {
+    const handleSave = async (newVeg: GardeningData) => {
         const pw = getPassword();
-        await saveData(pw, newVeg, newTroubles);
+        await saveRecords(pw, {vegetables: changedRecords(vegetables!, newVeg)});
         setVegetables(newVeg);
-        if (newTroubles) setTroubles(newTroubles);
     };
 
     const handleSaveTroubles = async (newTroubles: TroublesData) => {
         const pw = getPassword();
-        await saveData(pw, vegetables!, newTroubles);
+        await saveRecords(pw, {troubles: changedRecords(troubles!, newTroubles)});
         setTroubles(newTroubles);
     };
 

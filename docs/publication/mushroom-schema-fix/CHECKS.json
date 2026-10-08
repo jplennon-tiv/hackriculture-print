@@ -1,0 +1,222 @@
+{
+  "date": "2026-10-08",
+  "scope": "Mushroom only; ordinary A4 and 185 x 240 mm guide profiles; metric and imperial; no supplier assembly",
+  "checks": [
+    {
+      "paper": "A4",
+      "units": "metric",
+      "file": "output/pdf/mushroom-schema-fix/mushroom-A4-metric.pdf",
+      "physicalPages": 2,
+      "sha256": "6fe760d16a97efba1002fb86fac7f0bb953327168bbbe45fcee2198ad20adfa0",
+      "warnings": [],
+      "fonts": "loaded",
+      "missingImages": [],
+      "printError": null,
+      "sheets": [
+        {
+          "widthMm": 209.996484375,
+          "heightMm": 296.99892578124997,
+          "footerClearanceMm": 47.26946614583333
+        },
+        {
+          "widthMm": 209.996484375,
+          "heightMm": 296.99892578124997,
+          "footerClearanceMm": 6.08955078125
+        }
+      ],
+      "pdfPageSizesMm": [
+        [
+          210.23,
+          297.35
+        ],
+        [
+          210.23,
+          297.35
+        ]
+      ],
+      "pdfContainsAll13IntroSentences": true,
+      "introductorySentences": 13
+    },
+    {
+      "paper": "A4",
+      "units": "imperial",
+      "file": "output/pdf/mushroom-schema-fix/mushroom-A4-imperial.pdf",
+      "physicalPages": 2,
+      "sha256": "79e1ac757f30cc01c5d0e82c329408f267d5ea829dfc333f4c8df201530f1d95",
+      "warnings": [],
+      "fonts": "loaded",
+      "missingImages": [],
+      "printError": null,
+      "sheets": [
+        {
+          "widthMm": 209.996484375,
+          "heightMm": 296.99892578124997,
+          "footerClearanceMm": 47.26946614583333
+        },
+        {
+          "widthMm": 209.996484375,
+          "heightMm": 296.99892578124997,
+          "footerClearanceMm": 6.08955078125
+        }
+      ],
+      "pdfPageSizesMm": [
+        [
+          210.23,
+          297.35
+        ],
+        [
+          210.23,
+          297.35
+        ]
+      ],
+      "pdfContainsAll13IntroSentences": true,
+      "introductorySentences": 13
+    },
+    {
+      "paper": "185x240",
+      "units": "metric",
+      "file": "output/pdf/mushroom-schema-fix/mushroom-185x240-metric.pdf",
+      "physicalPages": 3,
+      "sha256": "e2b3d99981cffd8fce4e718fd01672a6e8a3272f44674dd8b8db959b84bc69bb",
+      "warnings": [],
+      "fonts": "loaded",
+      "missingImages": [],
+      "printError": null,
+      "sheets": [
+        {
+          "widthMm": 184.99749348958332,
+          "heightMm": 239.99775390624998,
+          "footerClearanceMm": null
+        },
+        {
+          "widthMm": 184.99749348958332,
+          "heightMm": 239.99775390624998,
+          "footerClearanceMm": null
+        },
+        {
+          "widthMm": 184.99749348958332,
+          "heightMm": 239.99775390624998,
+          "footerClearanceMm": null
+        }
+      ],
+      "pdfPageSizesMm": [
+        [
+          184.83,
+          239.86
+        ],
+        [
+          184.83,
+          239.86
+        ],
+        [
+          184.83,
+          239.86
+        ]
+      ],
+      "pdfContainsAll13IntroSentences": true,
+      "savedProofComparison": {
+        "file": "output/pdf/book-preparation/metric/vegetable_mushroom.pdf",
+        "pages": 3,
+        "textIdentical": true
+      },
+      "introductorySentences": 13
+    },
+    {
+      "paper": "185x240",
+      "units": "imperial",
+      "file": "output/pdf/mushroom-schema-fix/mushroom-185x240-imperial.pdf",
+      "physicalPages": 3,
+      "sha256": "dca12d1882b9a871dca8aa1472bcca788ca523431cad04089a599936428e5816",
+      "warnings": [],
+      "fonts": "loaded",
+      "missingImages": [],
+      "printError": null,
+      "sheets": [
+        {
+          "widthMm": 184.99749348958332,
+          "heightMm": 239.99775390624998,
+          "footerClearanceMm": null
+        },
+        {
+          "widthMm": 184.99749348958332,
+          "heightMm": 239.99775390624998,
+          "footerClearanceMm": null
+        },
+        {
+          "widthMm": 184.99749348958332,
+          "heightMm": 239.99775390624998,
+          "footerClearanceMm": null
+        }
+      ],
+      "pdfPageSizesMm": [
+        [
+          184.83,
+          239.86
+        ],
+        [
+          184.83,
+          239.86
+        ],
+        [
+          184.83,
+          239.86
+        ]
+      ],
+      "pdfContainsAll13IntroSentences": true,
+      "savedProofComparison": {
+        "file": "output/pdf/book-preparation/imperial/vegetable_mushroom.pdf",
+        "pages": 3,
+        "textIdentical": true
+      },
+      "introductorySentences": 13
+    }
+  ],
+  "retainedA4PdfSizesMm": [
+    [
+      209.89,
+      297.01
+    ],
+    [
+      209.89,
+      297.01
+    ]
+  ],
+  "textComparison": "NFKC and whitespace-insensitive comparison; pypdf inserts spaces between positioned glyphs.",
+  "change": {
+    "schema": "Saved intro_sentences accepts a positive integer, without the automatic fitter ceiling.",
+    "legacyFitter": "Uses the saved count bounded by available sentences; automatic selection stays capped at twelve.",
+    "activeRenderers": "Richer A and compact already honour the stored thirteen-sentence selection; their code is unchanged."
+  },
+  "tests": {
+    "routine": {
+      "command": "npm test",
+      "passed": 43,
+      "failed": 0
+    },
+    "focused": {
+      "command": "npm run test:focused -- src/lib/vegetablePrint.test.ts",
+      "passed": 9,
+      "failed": 0
+    },
+    "types": {
+      "command": "npm run check:types",
+      "passed": true
+    }
+  },
+  "visualReview": {
+    "pages": 10,
+    "resolutionDpi": 90,
+    "status": "All current proof pages inspected in metric/imperial pairs; no clipping, missing illustrations or footer collisions seen. Existing sparse first/continuation pages retained.",
+    "a4Reference": "docs/content-refinement/proofs/mushroom-after.png",
+    "compactReference": "output/pdf/book-preparation/{metric,imperial}/vegetable_mushroom.pdf",
+    "approval": "Technical verification only; no new editorial, layout or supplier approval."
+  },
+  "geometryNote": "Chromium guide-export MediaBoxes: A4 210.23 x 297.35 mm, compact 184.83 x 239.86 mm; DOM sheets measure nominal sizes. The earlier pagination A4 PDF has a different rounded MediaBox. Export geometry code is unchanged; this check does not certify supplier trim/bleed.",
+  "mushroomRecordSha256": "5ddd7f2e31912666ec473fba5e36ac5cbdb559c46c15da19319bf4cf7620a30f",
+  "mushroomRecordEqualsGitHead": true,
+  "implementationSha256": {
+    "src/schema.ts": "249de937c13d218edfd6fd2ff8ad87a062b67317dee9e86f8974e8aed3528d8c",
+    "src/print/vegetableLayout.ts": "eafe6c1de8d05f64f43fe839848ae07ab723932285bea99acb0775d70ce9b0a6",
+    "src/print/useVegetableLayout.ts": "045a8d5c9f7086c53c131fcf7b02ecf84af3a54e1a2774627335711da2de3805"
+  }
+}

@@ -1,7 +1,7 @@
 import {migrateRecords,readCollection,recordPath} from "../../hackriculture-data/lib/records.mjs";
 import { it, expect, vi } from "vitest";
 import { createServer } from "vite";
-import { mkdtempSync, mkdirSync, copyFileSync, readFileSync, writeFileSync, readdirSync, existsSync, rmSync } from "node:fs";
+import { mkdtempSync, mkdirSync, readFileSync, writeFileSync, readdirSync, existsSync, rmSync } from "node:fs";
 import { join } from "node:path";
 import { tmpdir } from "node:os";
 import { randomBytes } from "node:crypto";
@@ -15,7 +15,12 @@ it("admin saves and image mutations use shared data and preserve each previous v
     mkdirSync(root);
     mkdirSync(shared);
     for (const name of ["vegetables.json", "troubles.json"]) {
-        copyFileSync(join(import.meta.dirname, "../../hackriculture-data/generated/master", name), join(shared, name));
+        const source=JSON.parse(readFileSync(join(import.meta.dirname, "../../hackriculture-data/generated/master", name),'utf8'));
+        // Keep writer tests independent of unrelated catalogue/schema drift.
+        const fixture=name==='vegetables.json'
+            ? {carrot:source.carrot, other_fixture:{...source.carrot,name:'Other fixture'}}
+            : Object.fromEntries(Object.entries(source).slice(0,1));
+        writeFileSync(join(shared,name),JSON.stringify(fixture));
     }
     migrateRecords(shared);
     const carrotPath=recordPath(shared,"vegetables","carrot");
@@ -43,17 +48,31 @@ it("admin saves and image mutations use shared data and preserve each previous v
         const invalidPrint=structuredClone(data);
         invalidPrint.vegetables.carrot.print_planting.steps[0].text='';
         expect((await post('/save',invalidPrint)).status).toBe(400);
+        expect((await post('/save-records',{records:{vegetables:{carrot:invalidPrint.vegetables.carrot}},revision:data.revision})).status).toBe(400);
+        for (const records of [[], {unknown:{}}, {vegetables:null}, {vegetables:{carrot:null}}, {vegetables:{'../bad':data.vegetables.carrot}}]) {
+            expect((await post('/save-records',{records,revision:data.revision})).status).toBe(400);
+        }
+        expect((await post('/save-records',{records:{vegetables:{carrot:data.vegetables.carrot}}})).status).toBe(409);
+        expect((await post('/save-records',{records:{},revision:data.revision,password:'wrong'})).status).toBe(401);
         expect(readFileSync(carrotPath, "utf8")).toBe(original);
         expect(existsSync(join(shared, "backups/admin"))).toBe(false);
+        const otherKey=Object.keys(data.vegetables).find(key=>key!=='carrot')!;
+        const otherPath=recordPath(shared,'vegetables',otherKey),otherBefore=readFileSync(otherPath,'utf8');
         data.vegetables.carrot.metadata.shared_data_test = "round one";
+        data.vegetables.carrot.custom_extension = {preserve:['unknown',null]};
         data.vegetables.carrot.sowing_and_planting.notes[0].text = {metric:'Allow 10 cm.',imperial:'Allow 4 in.'};
         data.vegetables.carrot.sowing_and_planting.notes[0].short_text = {metric:'10 cm apart.',imperial:'4 in. apart.'};
         data.vegetables.carrot.sowing_and_planting.method = {metric:'Sow 1 cm deep.',imperial:'Sow ½ in. deep.'};
-        expect((await post("/save", data)).status).toBe(200);
+        const recordEdit={records:{vegetables:{carrot:data.vegetables.carrot}},revision:data.revision};
+        expect((await post("/save-records", recordEdit)).status).toBe(200);
         const first = readFileSync(carrotPath, "utf8");
+        expect(readFileSync(otherPath,'utf8')).toBe(otherBefore);
+        expect(JSON.parse(first).custom_extension).toEqual(data.vegetables.carrot.custom_extension);
         expect(JSON.parse(first).print_planting).toEqual(data.vegetables.carrot.print_planting);
         expect(JSON.parse(first).sowing_and_planting).toEqual(data.vegetables.carrot.sowing_and_planting);
-        expect((await post("/save",data)).status).toBe(409);
+        const staleLegacy=await post("/save",data);
+        expect(staleLegacy.status, JSON.stringify(await staleLegacy.json())).toBe(409);
+        expect((await post("/save-records",recordEdit)).status).toBe(409);
         data=await(await fetch(base+"/data")).json();
         data.vegetables.carrot.metadata.shared_data_test = "round two";
         expect((await post("/save", data)).status).toBe(200);
@@ -63,6 +82,14 @@ it("admin saves and image mutations use shared data and preserve each previous v
         expect(readFileSync(join(backups, versions[0],"0.json"), "utf8")).toBe(original);
         expect(readFileSync(join(backups, versions[1],"0.json"), "utf8")).toBe(first);
         expect(JSON.parse(first)._field_metadata["/metadata/shared_data_test"].updated_by).toBe("admin");
+        data=await(await fetch(base+"/data")).json();
+        const troubleKey = Object.keys(data.troubles).find(key => Object.keys(data.troubles[key].conditions ?? {}).length > 0)!;
+        const conditionKey = Object.keys(data.troubles[troubleKey].conditions)[0];
+        const beforeTroubleEdit=readFileSync(carrotPath,'utf8');
+        data.troubles[troubleKey].custom_extension={note:'Troubles-only edit'};
+        expect((await post('/save-records',{records:{troubles:{[troubleKey]:data.troubles[troubleKey]}},revision:data.revision})).status).toBe(200);
+        expect(readFileSync(carrotPath,'utf8')).toBe(beforeTroubleEdit);
+        expect(readCollection('troubles',shared)[troubleKey].custom_extension).toEqual({note:'Troubles-only edit'});
         const upload = await post("/upload-image", {
             type: "vegetable", key: "carrot", fileName: "carrot.png",
             fileData: Buffer.from("test image bytes").toString("base64"),
@@ -71,16 +98,14 @@ it("admin saves and image mutations use shared data and preserve each previous v
         expect(existsSync(join(root, "public/images/vegetables/carrot.png"))).toBe(true);
         expect((await post("/delete-image", {type:"vegetable", key:"carrot"})).status).toBe(200);
         expect(JSON.parse(readFileSync(carrotPath, "utf8")).image).toBe(null);
-        expect(readdirSync(backups)).toHaveLength(4);
-        const troubleKey = Object.keys(data.troubles).find(key => Object.keys(data.troubles[key].conditions ?? {}).length > 0)!;
-        const conditionKey = Object.keys(data.troubles[troubleKey].conditions)[0];
+        expect(readdirSync(backups)).toHaveLength(5);
         expect((await post("/upload-image", {
             type:"trouble", key:troubleKey, conditionKey, fileName:"condition.png",
             fileData:Buffer.from("test trouble image bytes").toString("base64"),
         })).status).toBe(200);
         expect((await post("/delete-image", {type:"trouble", key:troubleKey, conditionKey})).status).toBe(200);
         expect(readCollection("troubles",shared)[troubleKey].conditions[conditionKey].image).toBe(null);
-        expect(readdirSync(backups)).toHaveLength(6);
+        expect(readdirSync(backups)).toHaveLength(7);
         const manual=JSON.parse(readFileSync(carrotPath,'utf8'));manual.hero_header='External edit fixture';
         writeFileSync(carrotPath,JSON.stringify(manual));
         await vi.waitFor(()=>expect(JSON.parse(readFileSync(join(shared,'generated/master/vegetables.json'),'utf8')).carrot.hero_header).toBe('External edit fixture'),{timeout:5000});

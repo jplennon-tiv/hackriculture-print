@@ -14,11 +14,19 @@ Dated approvals, completed proposals and old automation prompts are historical
 evidence, not instructions to restart work or grant approval to new work.
 Replace superseded guidance in place rather than appending contradictory updates.
 
+Before design, layout or illustration work, read the applicable project `SKILL.md`
+from the [handover's skill map](docs/handover/START-HERE.md#design-skills--use-before-design-work).
+Use its linked file even if automatic skill discovery has not surfaced it.
+Apply the saved design rules and inspect their actual sources; an unresolved
+choice must be labelled as a proposal, never invented as an established approval.
+
 ## Publication and design
 
 The current project is the UK-focused, non-waterproof POD book at **185 × 240 mm**,
-with the full collection. This is the web generator default. Follow
-[Compact Book v1](docs/BOOK-PRINT-STYLE.md); preserve its frozen references,
+with the full collection. This is the web generator default. Follow the
+[book design system](docs/BOOK-DESIGN-SYSTEM.md) for shared colour, type, geometry
+and section relationships, and [Compact Book v1](docs/BOOK-PRINT-STYLE.md) for
+detailed guide composition; preserve its frozen references,
 enlarged hero, coloured circle, top-right difficulty sticker, reminder banner
 and aligned Troubles text edges. Three/four-page crops are allowed to preserve
 useful content. Guide design approval is not full-book or supplier approval.
@@ -38,6 +46,11 @@ and [Open Editorial Troubles contract](docs/TROUBLES-PRINT-STYLE.md) govern A4 o
 Do not revive retired dark widget bars, fixed-height cards or legacy margins.
 Keep format-specific changes separate. A5/A6 remain selectable, not validated.
 
+For overall book design, cross-section consistency or a new book component, use
+[vegetable-guru-book-design](.agents/skills/vegetable-guru-book-design/SKILL.md).
+It applies the shared design system and uses the relevant layout/artwork skills
+only as needed; it does not authorise subagents or full-book regeneration.
+
 For fit, whitespace, overflow, proof review or assisted guide export, use
 [book-layout-review](.agents/skills/book-layout-review/SKILL.md) for bound book
 pages, or the retained [guide-layout-review](.agents/skills/guide-layout-review/SKILL.md)
@@ -51,6 +64,13 @@ Use approved vegetable heroes as direct style references and compare representat
 samples before expanding a batch; matching colours alone is insufficient.
 
 ## Gardening content and shared data
+
+Use [hackriculture-data](../hackriculture-data/.agents/skills/hackriculture-data/SKILL.md)
+for shared JSON reads, edits, schema maintenance and recovery in this and future
+sessions. Read its actual instructions before the work, using the direct link
+if it is not listed automatically. Its single source is in the shared project;
+the local skill folder links there. Keep that skill's references current when
+changing a data structure or write route.
 
 - Use practical UK gardening language and organic control methods only. State
   the useful control directly; do not mention chemical alternatives merely to
@@ -78,8 +98,9 @@ samples before expanding a batch; matching colours alone is insufficient.
 - John has authorised researched organic replacements in the master when doing
   that editorial work, with exact backups, attribution, dependency updates and
   changed proofs for review. This does not expand the current book-preparation
-  scope: keep its new copy in separate source-linked working print drafts and
-  leave canonical gardening records unchanged. Preserve full variety catalogues
+  scope: keep guide rewrites in separate source-linked working print drafts;
+  opening/cover copy uses `../hackriculture-data/book-layout/` and its documented
+  guarded writer. Leave canonical gardening records unchanged. Preserve full variety catalogues
   and the ranking/description policy in SHARED-DATA.md.
 - Never self-approve new copy or redesigns, unlock manual edits, or rerun consumed
   review/install proposals. Earlier bounded advance approvals are complete.

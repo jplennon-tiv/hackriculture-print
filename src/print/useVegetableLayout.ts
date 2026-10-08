@@ -4,6 +4,7 @@ import {pageFillGrowth} from './pageFill';
 import {
     introContentBudget,
     introFitAction,
+    introSentenceLimit,
     LAYOUT_LIMITS,
     nextPage2Trim,
     pageFitAction,
@@ -29,7 +30,7 @@ export function useVegetableLayout(
     savedVarieties?:number,
     fillBottoms=false,
 ) {
-    const sentenceCap = Math.min(totalSentences, LAYOUT_LIMITS.introSentences);
+    const sentenceCap = introSentenceLimit(totalSentences, savedIntroSentences);
     const [phase, setPhase] = useState<LayoutPhase>("intro");
     const [introSentences, setIntroSentences] = useState(Math.min(savedIntroSentences??2,sentenceCap));
     const [introRefinements, setIntroRefinements] = useState(0);

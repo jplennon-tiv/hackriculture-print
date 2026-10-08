@@ -1,0 +1,64 @@
+{
+  "date": "2026-10-08T10:04:17.275Z",
+  "status": "Migration complete; existing approval status preserved",
+  "scope": "Editable common metadata, opening copy and future cover copy; no gardening edits, guide exports or full-book reassembly",
+  "bookContent": {
+    "revision": "5122618c68c12085f41c6c0e788533ded2b050cff137af385b0807527e4394b6",
+    "inputs": {
+      "../hackriculture-data/book-layout/book.json": "541bc02b0807b1ece2d6b16ab7ac9c85e2368a2e959aa6eb7d103ff11b72c8e0",
+      "../hackriculture-data/book-layout/covers.json": "3d346adc88d48aa954580e11e85a7d6e92d8959714f7e63729ab7323a44cc8bf",
+      "../hackriculture-data/book-layout/publication.json": "666bde7b034d90719b301a1cb3f5aa5c4a96520575a63dfbfa707ea811e1a2a2",
+      "../hackriculture-data/book-layout/introduction.json": "e9a954daf8c51916c9d1bf38418cd898d3fa5308ad07c544250c5e3d0f33358f",
+      "../hackriculture-data/book-layout/author.json": "87d2265294c04ba2556a90613d6e0d58aefeb44c65071cb31408d04151339b17",
+      "../hackriculture-data/book-layout/contents.json": "2a8568bd7ff37e54c295eb85df4a381924eec875131a90bb9c100f5e97200327",
+      "../hackriculture-data/book-layout/how-to.json": "7f503f112a3eb227ef460252ea9efdac1179e913bc08d2a85420eb5b270aef84"
+    }
+  },
+  "extractionSourcesBeforeMigration": {
+    "docs/publication/vegetable-guru-entry-pages/imperial.html": "27b14cf84d1957fa542648975218696e0d8243012b7898fba16b57eb4c913b96",
+    "docs/publication/vegetable-guru-entry-pages/metric.html": "cb08ab308567359111afa5f6a68a4fea07bb2c8d2f9c523958e1d14c1e13421c",
+    "docs/publication/vegetable-guru-entry-pages/entry-pages.css": "9796fac872f5e80f95799912f2da7dd690734dffa2b7af7336f0b8bcd8c39d43",
+    "output/pdf/vegetable-guru-entry-pages/contents-how-to-imperial.pdf": "5ba9f43d00c326bab9e4705a320089ac261ca800abd7fe8992589bae980e2a4d",
+    "output/pdf/vegetable-guru-entry-pages/contents-how-to-metric.pdf": "0e393c159c3e702e4ca7ecb39bd62a3fe25699df0317d345aec1d411100fab20",
+    "docs/publication/vegetable-guru-opening-pages/imperial.html": "190602e1e7f971c5dab8f73a40321b43dbc4c3cfd0065b5cdb3b8e080f07f8fc",
+    "scripts/build-guru-opening-pages.mjs": "d709b5ded2bd9714ef43a64d5e741a364bce86fd4a3786d6116ba8ea7b13e507",
+    "scripts/build-guru-entry-pages.mjs": "936496b70272d5d0521e838fe2f25c5e6b5d87692ec656f76106f10df7de8fc4",
+    "docs/front-matter/entry-pages/contents.html": "9c3e358ea52d7f68fa43c0b431b66afaed56036ee67d241602619311782c50c5",
+    "docs/front-matter/entry-pages/how-to.html": "8c4d4aec6e2726b3475bd1f8aa91886d5c51bf14e63ed80a8bb5a30246de9757",
+    "docs/publication/book-preparation/ASSEMBLY-PLAN-BOOKVAULT.json": "6bf7eb471bda81a1f4c402b7e3cdd3b81c3449697bd9ea358e8b863586e70e2d"
+  },
+  "coverBrief": {
+    "path": "docs/publication/vegetable-guru-back-collage/ARTWORK.json",
+    "sha256": "b507ca82f64f3430c43545daebd2744b0a893716272118344530d8c680559a20",
+    "note": "Back blurb copied from the saved brief; cover raster lettering is not dynamically editable."
+  },
+  "initialSave": {
+    "changed": 7,
+    "revision": "5122618c68c12085f41c6c0e788533ded2b050cff137af385b0807527e4394b6",
+    "backup": "backups/admin/2026-10-08T09-50-09.733Z-9c217b16-5777-44d0-800b-3f2c71f45f2e"
+  },
+  "gardeningRevisionBefore": "f15430f54b6011a7c68ea5b9448a091277f368a362a1df006172addc6d8bde64",
+  "gardeningRevisionAfter": "f15430f54b6011a7c68ea5b9448a091277f368a362a1df006172addc6d8bde64",
+  "verification": {
+    "focusedTests": 8,
+    "dataIntegrity": "44 vegetables, 14 Troubles groups, 8 navigation groups",
+    "pdfReceipt": "docs/publication/book-layout-working/PDF-CHECKS.json",
+    "pages": 14,
+    "editions": [
+      "imperial",
+      "metric"
+    ],
+    "contentsReferencesPerEdition": 58,
+    "extractedTextIdenticalToSource": true,
+    "rendersPixelIdenticalAtDpi": 90,
+    "originalSourceHtmlAndApprovedFilesUnchanged": true,
+    "visualReview": "Inspected all seven imperial PDF pages in a rendered contact sheet; all 14 per-page renders match their own saved source pixel for pixel at 90 dpi. Existing design and raster limits remain.",
+    "documentationLinksChecked": 219,
+    "documentationAnchorsChecked": 15
+  },
+  "limits": [
+    "The source-proof images are preserved; the rough progress preview retains its separate proposed stock allocation.",
+    "No copy or design self-approval; publication and author details remain placeholders.",
+    "The complete progress-preview PDF was not rebuilt; its builder now requires current JSON-driven opening HTML."
+  ]
+}

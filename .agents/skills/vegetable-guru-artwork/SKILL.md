@@ -17,6 +17,12 @@ the repository root, three directories above this skill. Read the current
 [handover](../../../docs/handover/START-HERE.md) and relevant
 [asset registry](../../../docs/assets/README.md) entries before artwork work.
 
+For book compositions, use the [book design system](../../../docs/BOOK-DESIGN-SYSTEM.md)
+for colour roles, intended image slots and section relationships. The
+[overall book-design skill](../vegetable-guru-book-design/SKILL.md) coordinates
+new section treatments; this skill remains the authority for matching illustration
+style. Reading the design system does not require changing any page layout.
+
 The style authority is the approved raster hero set in
 `public/images/heroes/richer-a/`, mapped by
 [heroArtwork.json](../../../src/print/heroArtwork.json) and recorded in the

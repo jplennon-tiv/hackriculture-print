@@ -1,5 +1,10 @@
 # Assisted printing
 
+For overall book design and new section treatments, start with
+[vegetable-guru-book-design](../.agents/skills/vegetable-guru-book-design/SKILL.md)
+and the [shared book design system](BOOK-DESIGN-SYSTEM.md). Its colours, type roles
+and geometry apply alongside the detailed compact guide contract.
+
 Use [book-layout-review](../.agents/skills/book-layout-review/SKILL.md) for bound
 book pages and [guide-layout-review](../.agents/skills/guide-layout-review/SKILL.md)
 for individual A4 sheets. Both cover vegetable/Troubles fit, proof review and

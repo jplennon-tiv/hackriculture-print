@@ -225,7 +225,9 @@ export const VegetablePrintExtractsSchema=z.object({version:z.literal(1),section
  soil_facts:extract(ExtractItemsSchema).optional(),looking_after_the_crop:extract(ExtractItemsSchema).optional(),
  harvesting:extract(ExtractItemsSchema).optional(),sowing_notes:extract(ExtractItemsSchema).optional(),final_tips:extract(ExtractItemsSchema).optional(),
 })});
-export const VegetablePrintLayoutSchema=z.object({...PrintExtractReviewSchema,renderer_revision:z.string(),value:z.object({pest_limit:z.number().int().min(3).max(10),target_pages:z.literal(2),tips_position:z.enum(['full-width','right-column','left-column']).optional(),tips_columns:z.literal(2).optional(),fill_bottoms:z.boolean().optional(),intro_sentences:z.number().int().min(1).max(12).optional(),variety_count:z.number().int().min(2).max(50).optional(),align_bottoms:z.boolean().optional()}),measurements:z.record(z.string(),z.unknown()).optional()});
+// Saved editorial counts may exceed the automatic fitter's twelve-sentence cap.
+// Renderers limit the selection to the sentences actually present in the text.
+export const VegetablePrintLayoutSchema=z.object({...PrintExtractReviewSchema,renderer_revision:z.string(),value:z.object({pest_limit:z.number().int().min(3).max(10),target_pages:z.literal(2),tips_position:z.enum(['full-width','right-column','left-column']).optional(),tips_columns:z.literal(2).optional(),fill_bottoms:z.boolean().optional(),intro_sentences:z.number().int().min(1).optional(),variety_count:z.number().int().min(2).max(50).optional(),align_bottoms:z.boolean().optional()}),measurements:z.record(z.string(),z.unknown()).optional()});
 export const VegetableSchema = z.looseObject({
     ai_print_extracts:VegetablePrintExtractsSchema.optional(),
     ai_print_layout:VegetablePrintLayoutSchema.optional(),

@@ -13,6 +13,11 @@ export const LAYOUT_LIMITS = {
     pdfSafety: 16,
 } as const;
 
+/** A reviewed selection owns its count; the cap of twelve is for automatic fitting. */
+export function introSentenceLimit(totalSentences: number, savedSentences?: number): number {
+    return Math.min(totalSentences, savedSentences ?? LAYOUT_LIMITS.introSentences);
+}
+
 export type PageFitAction =
     | "trim-variety"
     | "grow-variety"

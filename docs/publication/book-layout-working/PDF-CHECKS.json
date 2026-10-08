@@ -1,0 +1,155 @@
+{
+  "status": "Local PDF checks passed; visual inspection recorded separately",
+  "pagesChecked": 14,
+  "results": [
+    {
+      "component": "opening",
+      "units": "imperial",
+      "pdf": "output/pdf/book-layout-working/title-publication-welcome-imperial.pdf",
+      "sha256": "2088683c17a173c1ce4c5fae910dbc536daf03d81781fe46c4cfe69a115b9362",
+      "pages": [
+        {
+          "folio": 1,
+          "minimumNativeTextPt": 7.5,
+          "embeddedFonts": true
+        },
+        {
+          "folio": 2,
+          "minimumNativeTextPt": 7.35,
+          "embeddedFonts": true
+        },
+        {
+          "folio": 3,
+          "minimumNativeTextPt": 7.35,
+          "embeddedFonts": true
+        }
+      ],
+      "contentsReferences": 0,
+      "copyBlocksVerified": true,
+      "migrationSource": "output/pdf/vegetable-guru-opening-pages/title-publication-welcome-imperial.pdf",
+      "sourceSha256": "2088683c17a173c1ce4c5fae910dbc536daf03d81781fe46c4cfe69a115b9362",
+      "originalTextIdentical": true,
+      "pixelDifferenceBounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "component": "opening",
+      "units": "metric",
+      "pdf": "output/pdf/book-layout-working/title-publication-welcome-metric.pdf",
+      "sha256": "fe814359d6ea834a5f685d102e8f6d318ef084ce17da97441b8a796a62c8f96a",
+      "pages": [
+        {
+          "folio": 1,
+          "minimumNativeTextPt": 7.5,
+          "embeddedFonts": true
+        },
+        {
+          "folio": 2,
+          "minimumNativeTextPt": 7.35,
+          "embeddedFonts": true
+        },
+        {
+          "folio": 3,
+          "minimumNativeTextPt": 7.35,
+          "embeddedFonts": true
+        }
+      ],
+      "contentsReferences": 0,
+      "copyBlocksVerified": true,
+      "migrationSource": "output/pdf/vegetable-guru-opening-pages/title-publication-welcome-metric.pdf",
+      "sourceSha256": "fe814359d6ea834a5f685d102e8f6d318ef084ce17da97441b8a796a62c8f96a",
+      "originalTextIdentical": true,
+      "pixelDifferenceBounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "component": "entry",
+      "units": "imperial",
+      "pdf": "output/pdf/book-layout-working/contents-how-to-imperial.pdf",
+      "sha256": "5ba9f43d00c326bab9e4705a320089ac261ca800abd7fe8992589bae980e2a4d",
+      "pages": [
+        {
+          "folio": 4,
+          "minimumNativeTextPt": 7.35,
+          "embeddedFonts": true
+        },
+        {
+          "folio": 5,
+          "minimumNativeTextPt": 7.35,
+          "embeddedFonts": true
+        },
+        {
+          "folio": 6,
+          "minimumNativeTextPt": 7.35,
+          "embeddedFonts": true
+        },
+        {
+          "folio": 7,
+          "minimumNativeTextPt": 7.35,
+          "embeddedFonts": true
+        }
+      ],
+      "contentsReferences": 58,
+      "copyBlocksVerified": true,
+      "migrationSource": "output/pdf/vegetable-guru-entry-pages/contents-how-to-imperial.pdf",
+      "sourceSha256": "5ba9f43d00c326bab9e4705a320089ac261ca800abd7fe8992589bae980e2a4d",
+      "originalTextIdentical": true,
+      "pixelDifferenceBounds": [
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "component": "entry",
+      "units": "metric",
+      "pdf": "output/pdf/book-layout-working/contents-how-to-metric.pdf",
+      "sha256": "0e393c159c3e702e4ca7ecb39bd62a3fe25699df0317d345aec1d411100fab20",
+      "pages": [
+        {
+          "folio": 4,
+          "minimumNativeTextPt": 7.35,
+          "embeddedFonts": true
+        },
+        {
+          "folio": 5,
+          "minimumNativeTextPt": 7.35,
+          "embeddedFonts": true
+        },
+        {
+          "folio": 6,
+          "minimumNativeTextPt": 7.35,
+          "embeddedFonts": true
+        },
+        {
+          "folio": 7,
+          "minimumNativeTextPt": 7.35,
+          "embeddedFonts": true
+        }
+      ],
+      "contentsReferences": 58,
+      "copyBlocksVerified": true,
+      "migrationSource": "output/pdf/vegetable-guru-entry-pages/contents-how-to-metric.pdf",
+      "sourceSha256": "0e393c159c3e702e4ca7ecb39bd62a3fe25699df0317d345aec1d411100fab20",
+      "originalTextIdentical": true,
+      "pixelDifferenceBounds": [
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  ],
+  "approvedSourcesUnchanged": true,
+  "limits": [
+    "Working opening proofs only; no guide exports or full-book assembly.",
+    "Inherited raster captures and provisional designs retain their existing approval/preflight limits."
+  ]
+}

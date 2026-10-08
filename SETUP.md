@@ -43,6 +43,13 @@ npm run test:focused -- src/lib/months.test.ts
 node ../hackriculture-data/scripts/verify-data.mjs
 ```
 
+For editable opening/cover JSON in `../hackriculture-data/book-layout/`, use
+`npm run book:check` without a server. With `start.command` running,
+`npm run book:build` rebuilds only the seven opening pages in both editions into
+separate working proofs. See the [editing guide](../hackriculture-data/book-layout/README.md)
+and [PDF checks](DEVELOPMENT.md#editable-book-copy). It does not rebuild guides,
+reassemble a full book or change lettering inside the raster cover concepts.
+
 For retained A4, with start.command running, use the affected crop:
 
 ```sh

@@ -34,6 +34,12 @@ Live owners: `src/print/RichVegetablePage.tsx`, `vegetableModel.ts`,
 widget/layout helpers are retained legacy code, not the active page template.
 
 The model reuses approved source-linked extracts and saved content selections.
+Saved `ai_print_layout.value.intro_sentences` is an optional positive integer,
+bounded at rendering by the available text. It is an editorial selection, so the
+schema permits reviewed counts above twelve (Mushroom uses thirteen). The retained
+legacy fitter's twelve-sentence limit applies only when no saved count exists;
+`introSentenceLimit` keeps that distinction explicit. The active Richer A model
+already honours the saved count, and compact exports inherit its introduction.
 The measured renderer first reduces decorative space, then tries a second column
 arrangement, preserving body type and selected advice. It reports unresolved fit
 as `printError`, which stops export. Display titles shrink only within their
@@ -291,23 +297,53 @@ blank after an odd-length crop. Troubles continue naturally. The default
 invalid inputs. The current 148-page review proposal has four blanks at physical
 folios 15, 69, 87 and 91; John has not approved this book-pagination choice.
 
-`node scripts/build-guru-opening-pages.mjs` prepares only the separate proposed
-title/publication/welcome pages 1–3 for Bookvault, with lipsum prose. It needs
-Vite and preserves the approved contents/how-to hashes before and after export.
-Use `scripts/check-guru-opening-pages.py` with the bundled Python runtime for
-actual PDF checks and TrimBox renders. Files, CSS and receipts live under
-`docs/publication/vegetable-guru-opening-pages/`; no guide export or full-book
-assembly occurs. Final copy and new-page design approval remain separate.
+### Editable book copy
 
-`node scripts/build-guru-entry-pages.mjs` owns the separate four-page
-contents/how-to for Bookvault, occupying physical folios 4–7. These are approved;
-preserve them and rebuild only for a requested revision. The builder needs
-Vite and reads the approved A4 sources plus `ASSEMBLY-PLAN-BOOKVAULT.json`, but
-does not modify A4 assets, guides or full-book assemblies. Its CSS, previews and
-receipts are in `docs/publication/vegetable-guru-entry-pages/`. Run
-`scripts/check-guru-entry-pages.py` with the bundled Python runtime for actual
-PDF checks and TrimBox previews, then inspect those renders before recording
-visual review. Title/publication/introduction integration remains separate.
+The shared [book-layout folder](../hackriculture-data/book-layout/README.md) owns
+book identity, opening copy and the future cover copy. Its native Node validator
+and guarded writer are `../hackriculture-data/lib/book-layout.mjs`. AI/app writes
+require the loaded book revision and actor; backups use the shared transaction
+convention. Gardening revisions and projections are independent.
+
+`scripts/lib/book-content.mjs` reads the JSON, checks image paths and renders
+escaped plain text using the existing composition. Contents join stable shared
+keys to `ASSEMBLY-PLAN-BOOKVAULT.json`; labels are editable, folios calculated.
+Family colours use `src/print/familyThemes.json`. No runtime prose is extracted
+from the old HTML. Retained A4 and compact HTML/PDFs are source/approval evidence.
+
+```sh
+npm run book:check       # JSON, local images, identities and both-unit references
+npm run book:openings    # working pages 1–3, both units; needs start.command
+npm run book:entries     # working pages 4–7, both units; needs start.command
+npm run book:build       # validate and build both components
+npm run test:book-content
+```
+
+The two builders accept `--units=imperial|metric|both` (both by default; pass
+through npm with `-- --units=imperial`). `scripts/lib/build-book-pages.mjs` uses
+the existing Bookvault production finish and overflow checks. Output HTML and
+receipts live under `docs/publication/book-layout-working/{opening,entry}/`;
+PDFs under `output/pdf/book-layout-working/`. Original CSS remains in the
+`vegetable-guru-opening-pages` and `vegetable-guru-entry-pages` folders.
+The approved A4/compact files are hash-checked and never overwritten.
+`BASE_URL` and `BOOK_PYTHON` override the local server/Python runtime if needed.
+
+After building, run `scripts/check-book-layout-pdfs.py` with the bundled Python
+runtime, then inspect its actual PDF renders. It verifies input hashes, copy,
+folios, contents references, embedded fonts, page count and Bookvault boxes.
+`--compare-migration` is a one-time text/pixel comparison against the preserved
+7 October originals; omit it after intentional copy edits. The old
+`check-guru-*-pages.py` scripts check those historical source proofs only.
+
+The [migration receipt](docs/publication/book-layout-working/MIGRATION.json)
+records the original source hashes and exact check coverage. The initial JSON
+retains placeholders and original artwork; it grants no new approval. The rough
+progress-preview builder now consumes these working HTML files and refuses stale
+copy; it still applies its separately proposed stock allocation. Full-book
+reassembly remains a separate requested operation. G2/B5 cover lettering is
+baked into rasters: editing `covers.json` does not alter those existing images.
+
+### Retained earlier assembly workflow
 
 `node scripts/prepare-book-openings.mjs` produces two source-linked seven-page
 opening drafts from `ASSEMBLY-PLAN.json`; it needs Vite. **This builder currently

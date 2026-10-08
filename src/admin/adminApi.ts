@@ -21,20 +21,30 @@ export async function fetchAdminData(): Promise<{
     const data=await res.json();loadedRevision=data.revision;return data;
 }
 
-export async function saveData(
+export type RecordUpdates = {
+    vegetables?: GardeningData;
+    troubles?: TroublesData;
+};
+
+/** The editor holds collections for navigation; only changed records are saved.
+ * Omitting a key from editor state must never become an implicit deletion. */
+export function changedRecords<T>(previous: Record<string, T>, next: Record<string, T>): Record<string, T> {
+    for (const key of Object.keys(previous)) {
+        if (!Object.prototype.hasOwnProperty.call(next, key)) throw new Error(`Record deletion requires an explicit migration: ${key}`);
+    }
+    return Object.fromEntries(Object.entries(next).filter(([key, value]) =>
+        !Object.prototype.hasOwnProperty.call(previous, key) || JSON.stringify(previous[key]) !== JSON.stringify(value),
+    ));
+}
+
+export async function saveRecords(
     password: string,
-    vegetables: GardeningData,
-    troubles?: TroublesData,
+    records: RecordUpdates,
 ): Promise<void> {
-    const res = await fetch(`${BASE}/save`, {
+    const res = await fetch(`${BASE}/save-records`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-            password,
-            revision: loadedRevision,
-            vegetables,
-            ...(troubles ? { troubles } : {}),
-        }),
+        body: JSON.stringify({password, revision: loadedRevision, records}),
     });
     if (!res.ok) {
         const err = (await res.json()) as {

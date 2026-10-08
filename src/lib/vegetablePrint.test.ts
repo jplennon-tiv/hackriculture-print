@@ -1,13 +1,24 @@
 import {describe,it,expect} from 'vitest';
 import type {Vegetable} from '../types';
 import {printChecksum,extractDependencies,resolveVegetableExtracts,assertVegetableExtractWritable,layoutDependencies,resolveVegetablePrintLayout,VEGETABLE_PRINT_REVISION,printItems} from './vegetablePrint';
-import {VegetablePrintExtractsSchema} from '../schema';
+import {VegetablePrintExtractsSchema,VegetablePrintLayoutSchema} from '../schema';
 function fixture(){
  const v:Vegetable={name:'Radish',soil_facts:[{text:'Full source',rank:8}],harvesting:[{text:'Harvest',rank:8}]};
  const value=[{text:'Short source',rank:8}];
  v.ai_print_extracts={version:1,sections:{soil_facts:{value,dependencies:extractDependencies(v,['soil_facts']),output_checksum:printChecksum(value),status:'approved',locked:false,updated_at:'2026-09-21T12:00:00Z',updated_by:'AI:test',editorial_note:'test'}}};return v;
 }
 describe('vegetable print extracts',()=>{
+ it('accepts a reviewed thirteen-sentence introduction without invalidating its saved layout',()=>{
+  const v=fixture(),value={pest_limit:4,target_pages:2 as const,intro_sentences:13};
+  const layout={...v.ai_print_extracts!.sections.soil_facts!,value,renderer_revision:VEGETABLE_PRINT_REVISION,dependencies:layoutDependencies(v),output_checksum:printChecksum({...value,extracts:{soil_facts:v.ai_print_extracts!.sections.soil_facts!.value}})};
+  v.ai_print_layout=layout;
+  expect(VegetablePrintLayoutSchema.safeParse(layout).success).toBe(true);
+  expect(resolveVegetablePrintLayout(v)).toEqual({layout:value,warning:null});
+  for(const intro_sentences of [undefined,1,20])
+   expect(VegetablePrintLayoutSchema.safeParse({...layout,value:{...value,intro_sentences}}).success).toBe(true);
+  for(const intro_sentences of [0,-1,12.5,Infinity,NaN,'13'])
+   expect(VegetablePrintLayoutSchema.safeParse({...layout,value:{...value,intro_sentences}}).success).toBe(false);
+ });
  it('uses canonical, type-sensitive checksums',()=>{
   expect(printChecksum({a:1,b:2})).toBe(printChecksum({b:2,a:1}));
   expect(printChecksum(undefined)).not.toBe(printChecksum(null));expect(printChecksum([1,2])).not.toBe(printChecksum([2,1]));

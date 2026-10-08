@@ -6,6 +6,17 @@ Current status and next actions belong in the [handover](../handover/START-HERE.
 Approval manifests record decisions at their date; their historical pending
 items are not a current work queue. Do not overwrite hashed references.
 
+The [book design system](../BOOK-DESIGN-SYSTEM.md) consolidates shared colour,
+type, geometry and section treatments, linking back here for source provenance.
+It distinguishes approved components from selected directions and working proposals.
+
+Editable book opening/cover words now live in the shared
+[book-layout JSON folder](../../../hackriculture-data/book-layout/README.md).
+The [8 October migration receipt](../publication/book-layout-working/MIGRATION.json)
+records verbatim extraction and matching proofs. Frozen HTML/PDFs below remain
+references; edit the JSON and build separate working pages rather than overwriting
+them. Cover JSON stores copy for later reconstruction of the selected raster art.
+
 ## Compact guide design
 
 The publication format follows [Compact Book v1](../BOOK-PRINT-STYLE.md), with

@@ -1,0 +1,395 @@
+{
+  "date": "2026-10-08T09:54:25.663Z",
+  "status": "Working proof from editable JSON; not a new design or copy approval",
+  "supplier": "Bookvault",
+  "trimMm": [
+    185,
+    240
+  ],
+  "bleedMm": 3,
+  "physicalFolios": [
+    1,
+    2,
+    3
+  ],
+  "title": "The Vegetable Guru",
+  "subtitle": "Your at-a-glance growing companion",
+  "bookContent": {
+    "revision": "5122618c68c12085f41c6c0e788533ded2b050cff137af385b0807527e4394b6",
+    "inputs": {
+      "../hackriculture-data/book-layout/book.json": "541bc02b0807b1ece2d6b16ab7ac9c85e2368a2e959aa6eb7d103ff11b72c8e0",
+      "../hackriculture-data/book-layout/covers.json": "3d346adc88d48aa954580e11e85a7d6e92d8959714f7e63729ab7323a44cc8bf",
+      "../hackriculture-data/book-layout/publication.json": "666bde7b034d90719b301a1cb3f5aa5c4a96520575a63dfbfa707ea811e1a2a2",
+      "../hackriculture-data/book-layout/introduction.json": "e9a954daf8c51916c9d1bf38418cd898d3fa5308ad07c544250c5e3d0f33358f",
+      "../hackriculture-data/book-layout/author.json": "87d2265294c04ba2556a90613d6e0d58aefeb44c65071cb31408d04151339b17",
+      "../hackriculture-data/book-layout/contents.json": "2a8568bd7ff37e54c295eb85df4a381924eec875131a90bb9c100f5e97200327",
+      "../hackriculture-data/book-layout/how-to.json": "7f503f112a3eb227ef460252ea9efdac1179e913bc08d2a85420eb5b270aef84"
+    }
+  },
+  "assemblyPlan": {
+    "path": "docs/publication/book-preparation/ASSEMBLY-PLAN-BOOKVAULT.json",
+    "sha256": "6bf7eb471bda81a1f4c402b7e3cdd3b81c3449697bd9ea358e8b863586e70e2d"
+  },
+  "protectedApprovedFiles": [
+    {
+      "path": "docs/publication/vegetable-guru-entry-pages/imperial.html",
+      "sha256": "27b14cf84d1957fa542648975218696e0d8243012b7898fba16b57eb4c913b96"
+    },
+    {
+      "path": "docs/publication/vegetable-guru-entry-pages/metric.html",
+      "sha256": "cb08ab308567359111afa5f6a68a4fea07bb2c8d2f9c523958e1d14c1e13421c"
+    },
+    {
+      "path": "docs/publication/vegetable-guru-entry-pages/entry-pages.css",
+      "sha256": "9796fac872f5e80f95799912f2da7dd690734dffa2b7af7336f0b8bcd8c39d43"
+    },
+    {
+      "path": "output/pdf/vegetable-guru-entry-pages/contents-how-to-imperial.pdf",
+      "sha256": "5ba9f43d00c326bab9e4705a320089ac261ca800abd7fe8992589bae980e2a4d"
+    },
+    {
+      "path": "output/pdf/vegetable-guru-entry-pages/contents-how-to-metric.pdf",
+      "sha256": "0e393c159c3e702e4ca7ecb39bd62a3fe25699df0317d345aec1d411100fab20"
+    },
+    {
+      "path": "docs/front-matter/entry-pages/contents.html",
+      "sha256": "9c3e358ea52d7f68fa43c0b431b66afaed56036ee67d241602619311782c50c5"
+    },
+    {
+      "path": "docs/front-matter/entry-pages/contents.pdf",
+      "sha256": "47215a6d0e8e80362ca77b4979881202c474ba5f3d5f0741b0dcf7baa402b000"
+    },
+    {
+      "path": "public/front-matter/contents-A4.pdf",
+      "sha256": "47215a6d0e8e80362ca77b4979881202c474ba5f3d5f0741b0dcf7baa402b000"
+    },
+    {
+      "path": "docs/front-matter/entry-pages/how-to.html",
+      "sha256": "8c4d4aec6e2726b3475bd1f8aa91886d5c51bf14e63ed80a8bb5a30246de9757"
+    },
+    {
+      "path": "docs/front-matter/entry-pages/how-to.pdf",
+      "sha256": "a3011259d367b68d00e001287e454490c0436a7d23e695ea7fec1fe028c1f2a3"
+    },
+    {
+      "path": "public/front-matter/how-to-use-A4.pdf",
+      "sha256": "a3011259d367b68d00e001287e454490c0436a7d23e695ea7fec1fe028c1f2a3"
+    }
+  ],
+  "artwork": {
+    "public/images/heroes/richer-a/tomato-greenhouse.png": "5e3cd5a884582bd13d74cde606c69c2cd9513cd36fa6845833da469ff3a3c3d7",
+    "public/images/heroes/richer-a/onion-shallot.png": "176e9ab3ea2200bc1981978c822cee0ebeec37d499e621b158a73676277fa486",
+    "public/images/heroes/richer-a/pea.png": "72dacd9636ea428ca82761ab5231274b0a72f30f283f17af8c2a463c8be2c6df",
+    "public/images/heroes/richer-a/carrot.png": "733b775e5e9f87d78669551ca911e39ea3eb61bed6bc54815e64b10c8fbdbfe9",
+    "public/images/heroes/richer-a/kale.png": "e1122f1645dd3b947b96c74ef355e49d33c6cdea37154ef19e7b87f0f8c38f2f",
+    "docs/publication/vegetable-guru-grid-variations/assets/G2-centre-title.png": "38a3f3edf5be32e3077439d710036ae5a8d2b68dd27ea1ffccf1c9d05b2f0b24",
+    "docs/publication/vegetable-guru-back-collage/B5.png": "bf4ec765d570845865355956c22a9d2b78a59b717c4471f9c5aaba894621ffff",
+    "docs/front-matter/entry-pages/studies/assets/harvest-cluster.png": "aedba4cc6a729f618e930d6cee05694837e756d4c8bbd669f7689ab6eacd54c7",
+    "docs/front-matter/entry-pages/calendar-assets/radish-calendar.png": "6d706d495642ed80224a359739a8369889f442ee403e8b937114425aab7eeed1",
+    "docs/front-matter/entry-pages/calendar-assets/temperate-field.svg": "95774a8db9580af42048616e14362c203d99043b651789dbaaf7d4c47d9c8a2a",
+    "docs/front-matter/entry-pages/calendar-assets/tropical-island.svg": "d5d1edc613476358bae63ea8c0df310730d20e2dd260e3b42d25777987c002de",
+    "docs/front-matter/entry-pages/scales-study/assets/difficulty-capture.png": "77aab828d1274cb612a495d53e5d54a2214a917e84a37600d1a527660a98d5e3",
+    "docs/front-matter/entry-pages/scales-study/assets/baby.svg": "459c0b0d086e01139acc132e7ef55f4037295a7fcb79d67d41b0dd7d1904e759",
+    "docs/front-matter/entry-pages/scales-study/assets/einstein.svg": "ee99c8c68842d7c4812634394bd202da719b8ee57d906805b7027075480e6b54",
+    "docs/front-matter/entry-pages/scales-study/assets/core-needs-capture.png": "3f5c26757e2aed7338a81f5df7c904a829d745f669da9a477fad327cf49d535a",
+    "docs/front-matter/entry-pages/scales-study/assets/dropper.svg": "65ddeeee2ddb263ad6783bb965e88a230faa3f1e4703e78e8c9a1674cae93c65",
+    "docs/front-matter/entry-pages/scales-study/assets/wave.svg": "17af6bd7340b2d359db3ec88c20acfb2fcb81436916afa04302d9f39e1970723"
+  },
+  "results": [
+    {
+      "units": "imperial",
+      "html": "docs/publication/book-layout-working/opening/imperial.html",
+      "htmlSha256": "4b50852093223ad2becf1a935c833149570d10d237b822771d15ceb792f9a5de",
+      "pdf": "output/pdf/book-layout-working/title-publication-welcome-imperial.pdf",
+      "sha256": "2088683c17a173c1ce4c5fae910dbc536daf03d81781fe46c4cfe69a115b9362",
+      "copyBlocks": [
+        "Lipsum orum dolor sit amet, consectetur adipiscing elit. Integer vitae mauris at lorem consequat elementum. Curabitur aliquam, augue quis tempus posuere, neque nulla facilisis eros, vitae laoreet neque justo at nibh.",
+        "Lipsum orum dolor sit amet, consectetur adipiscing elit. Sed ut lectus eu mauris viverra fringilla. Donec posuere, urna non commodo sagittis, justo sapien volutpat felis, vitae aliquam nulla nibh quis metus. Aenean sit amet lacus eget neque varius interdum.",
+        "Lipsum orum dolor sit amet, consectetur adipiscing elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae. Nulla facilisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+        "Lipsum orum dolor sit amet, consectetur adipiscing elit.",
+        "Lipsum orum dolor sit amet, consectetur adipiscing elit. Integer vitae mauris at lorem consequat elementum. Nulla facilisi. Sed posuere neque non tellus viverra, vel malesuada arcu interdum.",
+        "Lipsum orum dolor sit amet, consectetur adipiscing elit. Integer vitae mauris at lorem consequat elementum. Nulla facilisi. Sed posuere neque non tellus viverra, vel malesuada arcu interdum.",
+        "Lipsum orum dolor sit amet, consectetur adipiscing elit. Curabitur aliquam augue quis tempus posuere.",
+        "Lipsum orum dolor sit amet, consectetur adipiscing elit. Integer vitae mauris at lorem consequat elementum. Nulla facilisi. Sed posuere neque non tellus viverra, vel malesuada arcu interdum.",
+        "Lipsum orum dolor sit amet, consectetur adipiscing elit. Curabitur aliquam augue quis tempus posuere."
+      ],
+      "dom": [
+        {
+          "folio": 1,
+          "footerClearanceMm": 16.34166666666668,
+          "overflow": [],
+          "images": [
+            {
+              "src": "/images/heroes/richer-a/tomato-greenhouse.png",
+              "loaded": true
+            },
+            {
+              "src": "/images/heroes/richer-a/onion-shallot.png",
+              "loaded": true
+            },
+            {
+              "src": "/images/heroes/richer-a/pea.png",
+              "loaded": true
+            },
+            {
+              "src": "/images/heroes/richer-a/carrot.png",
+              "loaded": true
+            },
+            {
+              "src": "/images/heroes/richer-a/kale.png",
+              "loaded": true
+            }
+          ]
+        },
+        {
+          "folio": 2,
+          "footerClearanceMm": 6.684863281249999,
+          "overflow": [],
+          "images": []
+        },
+        {
+          "folio": 3,
+          "footerClearanceMm": 5.932454427083333,
+          "overflow": [],
+          "images": [
+            {
+              "src": "/docs/front-matter/entry-pages/studies/assets/harvest-cluster.png",
+              "loaded": true
+            },
+            {
+              "src": "/images/heroes/richer-a/pea.png",
+              "loaded": true
+            }
+          ]
+        }
+      ],
+      "geometry": {
+        "width": 191,
+        "height": 246,
+        "pages": [
+          {
+            "folio": 1,
+            "verso": false,
+            "minTypePt": 7.5,
+            "safeInsetMm": {
+              "left": 17,
+              "right": 5,
+              "top": 5,
+              "bottom": 5
+            },
+            "trimMm": [
+              185,
+              240
+            ],
+            "mediaMm": [
+              191,
+              246
+            ],
+            "trimOffsetMm": [
+              3,
+              3
+            ]
+          },
+          {
+            "folio": 2,
+            "verso": true,
+            "minTypePt": 7.3500000000000005,
+            "safeInsetMm": {
+              "left": 5,
+              "right": 17,
+              "top": 5,
+              "bottom": 5
+            },
+            "trimMm": [
+              185,
+              240
+            ],
+            "mediaMm": [
+              191,
+              246
+            ],
+            "trimOffsetMm": [
+              3,
+              3
+            ]
+          },
+          {
+            "folio": 3,
+            "verso": false,
+            "minTypePt": 7.3500000000000005,
+            "safeInsetMm": {
+              "left": 17,
+              "right": 5,
+              "top": 5,
+              "bottom": 5
+            },
+            "trimMm": [
+              185,
+              240
+            ],
+            "mediaMm": [
+              191,
+              246
+            ],
+            "trimOffsetMm": [
+              3,
+              3
+            ]
+          }
+        ]
+      },
+      "visualReview": "pending"
+    },
+    {
+      "units": "metric",
+      "html": "docs/publication/book-layout-working/opening/metric.html",
+      "htmlSha256": "bb2b6c46cd26471e3c4eab33a30a65072cd392b7958ad97119a22ec11873e955",
+      "pdf": "output/pdf/book-layout-working/title-publication-welcome-metric.pdf",
+      "sha256": "fe814359d6ea834a5f685d102e8f6d318ef084ce17da97441b8a796a62c8f96a",
+      "copyBlocks": [
+        "Lipsum orum dolor sit amet, consectetur adipiscing elit. Integer vitae mauris at lorem consequat elementum. Curabitur aliquam, augue quis tempus posuere, neque nulla facilisis eros, vitae laoreet neque justo at nibh.",
+        "Lipsum orum dolor sit amet, consectetur adipiscing elit. Sed ut lectus eu mauris viverra fringilla. Donec posuere, urna non commodo sagittis, justo sapien volutpat felis, vitae aliquam nulla nibh quis metus. Aenean sit amet lacus eget neque varius interdum.",
+        "Lipsum orum dolor sit amet, consectetur adipiscing elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae. Nulla facilisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+        "Lipsum orum dolor sit amet, consectetur adipiscing elit.",
+        "Lipsum orum dolor sit amet, consectetur adipiscing elit. Integer vitae mauris at lorem consequat elementum. Nulla facilisi. Sed posuere neque non tellus viverra, vel malesuada arcu interdum.",
+        "Lipsum orum dolor sit amet, consectetur adipiscing elit. Integer vitae mauris at lorem consequat elementum. Nulla facilisi. Sed posuere neque non tellus viverra, vel malesuada arcu interdum.",
+        "Lipsum orum dolor sit amet, consectetur adipiscing elit. Curabitur aliquam augue quis tempus posuere.",
+        "Lipsum orum dolor sit amet, consectetur adipiscing elit. Integer vitae mauris at lorem consequat elementum. Nulla facilisi. Sed posuere neque non tellus viverra, vel malesuada arcu interdum.",
+        "Lipsum orum dolor sit amet, consectetur adipiscing elit. Curabitur aliquam augue quis tempus posuere."
+      ],
+      "dom": [
+        {
+          "folio": 1,
+          "footerClearanceMm": 16.34166666666668,
+          "overflow": [],
+          "images": [
+            {
+              "src": "/images/heroes/richer-a/tomato-greenhouse.png",
+              "loaded": true
+            },
+            {
+              "src": "/images/heroes/richer-a/onion-shallot.png",
+              "loaded": true
+            },
+            {
+              "src": "/images/heroes/richer-a/pea.png",
+              "loaded": true
+            },
+            {
+              "src": "/images/heroes/richer-a/carrot.png",
+              "loaded": true
+            },
+            {
+              "src": "/images/heroes/richer-a/kale.png",
+              "loaded": true
+            }
+          ]
+        },
+        {
+          "folio": 2,
+          "footerClearanceMm": 6.684863281249999,
+          "overflow": [],
+          "images": []
+        },
+        {
+          "folio": 3,
+          "footerClearanceMm": 5.932454427083333,
+          "overflow": [],
+          "images": [
+            {
+              "src": "/docs/front-matter/entry-pages/studies/assets/harvest-cluster.png",
+              "loaded": true
+            },
+            {
+              "src": "/images/heroes/richer-a/pea.png",
+              "loaded": true
+            }
+          ]
+        }
+      ],
+      "geometry": {
+        "width": 191,
+        "height": 246,
+        "pages": [
+          {
+            "folio": 1,
+            "verso": false,
+            "minTypePt": 7.5,
+            "safeInsetMm": {
+              "left": 17,
+              "right": 5,
+              "top": 5,
+              "bottom": 5
+            },
+            "trimMm": [
+              185,
+              240
+            ],
+            "mediaMm": [
+              191,
+              246
+            ],
+            "trimOffsetMm": [
+              3,
+              3
+            ]
+          },
+          {
+            "folio": 2,
+            "verso": true,
+            "minTypePt": 7.3500000000000005,
+            "safeInsetMm": {
+              "left": 5,
+              "right": 17,
+              "top": 5,
+              "bottom": 5
+            },
+            "trimMm": [
+              185,
+              240
+            ],
+            "mediaMm": [
+              191,
+              246
+            ],
+            "trimOffsetMm": [
+              3,
+              3
+            ]
+          },
+          {
+            "folio": 3,
+            "verso": false,
+            "minTypePt": 7.3500000000000005,
+            "safeInsetMm": {
+              "left": 17,
+              "right": 5,
+              "top": 5,
+              "bottom": 5
+            },
+            "trimMm": [
+              185,
+              240
+            ],
+            "mediaMm": [
+              191,
+              246
+            ],
+            "trimOffsetMm": [
+              3,
+              3
+            ]
+          }
+        ]
+      },
+      "visualReview": "pending"
+    }
+  ],
+  "approvedFilesUnchanged": true,
+  "implementation": {
+    "docs/publication/vegetable-guru-opening-pages/opening-pages.css": "d49606c938ed3581de14b69bd5f96154c39e54a831719525ab774eda65ceabc8",
+    "scripts/lib/build-book-pages.mjs": "6ea00be15e0d85ba6d8e29e969ac5013bcf9f28822719eedad75b2145c96e4d9",
+    "scripts/lib/book-content.mjs": "b308bd394fe0f4f24f72c48371c4aba2d6ac7a4b63ae65beb87691ee3b19932c",
+    "src/print/familyThemes.json": "e4c1dbb5d9d77a0060d518d4c751ec23f7282e6b89ea2d05ebe2c451812bc4df"
+  }
+}
