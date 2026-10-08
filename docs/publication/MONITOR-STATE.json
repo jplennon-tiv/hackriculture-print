@@ -1,0 +1,140 @@
+{
+  "version": 1,
+  "status": "PAUSED",
+  "documentRole": "Paused waterproof-enquiry ledger. Supplier/message fields and original monitoring rules are retained evidence, not an active schedule. Current book scope is maintained in docs/handover/START-HERE.md.",
+  "pauseReason": "John deferred waterproof folder and bound-book editions until a possible second run, after first-run sales establish demand and whether 500+ copies are realistic. First run will use a non-waterproof format.",
+  "pausedAtUtc": "2026-10-05T17:19:25Z",
+  "automationId": "progress-gardening-print-quotes",
+  "statusAtSetup": "ACTIVE",
+  "timezone": "Europe/London",
+  "dailyCheckTimes": [
+    "00:00",
+    "04:00",
+    "08:00",
+    "12:00",
+    "16:00",
+    "20:00"
+  ],
+  "lastSuccessfulCheckUtc": "2026-10-05T16:45:12Z",
+  "lastCheckSummary": "Project-scoped searches with a 24-hour overlap, including spam/trash, found no incoming messages or relevant delivery failures in the search window. All five known Gmail threads checked and unchanged; no new replies or quote attachments. No messages sent. B&D, PMT, Fast Print and Scribes await replies; Aura awaits the synthetic-cover/custom-size clarification. Smiths remains closed for the current brief, with reminders suppressed.",
+  "lastSearchQuery": "in:anywhere after:1791126036 -in:sent -in:drafts {from:bdprints.co.uk from:pmtdigital.co.uk from:fastprintuk.com from:aura-print.com from:scribesdigital.co.uk from:scribescolourprint.co.uk from:smiths1972.co.uk subject:\"waterproof gardening\"}",
+  "processedIncomingMessageIds": [
+    "1a0fc0f61b4d6a2a",
+    "1a0fc5b642b31ed7",
+    "1a0fceb7b1c5be27",
+    "1a1114e8606af15a"
+  ],
+  "outgoingReceiptFile": "evidence/email-enquiries.json",
+  "suppliers": [
+    {
+      "name": "B&D Print Services",
+      "domain": "bdprints.co.uk",
+      "contact": "hello@bdprints.co.uk",
+      "status": "Website enquiry and budget follow-up confirmed submitted on 1 October; awaiting reply",
+      "lastOutgoingDate": "2026-10-01",
+      "unansweredRemindersSent": 0,
+      "earliestReminderDate": "2026-10-06",
+      "threadId": null
+    },
+    {
+      "name": "PMT Digital",
+      "domain": "pmtdigital.co.uk",
+      "contact": "estimating@pmtdigital.co.uk",
+      "status": "Gmail enquiry confirmed SENT; awaiting reply",
+      "lastOutgoingDate": "2026-10-01",
+      "unansweredRemindersSent": 0,
+      "earliestReminderDate": "2026-10-06",
+      "threadId": "1a0f7c9faba9252c"
+    },
+    {
+      "name": "Fast Print UK",
+      "domain": "fastprintuk.com",
+      "contact": "info@fastprintuk.com",
+      "status": "Gmail enquiry confirmed SENT; awaiting reply",
+      "lastOutgoingDate": "2026-10-01",
+      "unansweredRemindersSent": 0,
+      "earliestReminderDate": "2026-10-06",
+      "threadId": "1a0f7ca171314bc5"
+    },
+    {
+      "name": "Aura Print",
+      "domain": "aura-print.com",
+      "contact": "infouk@aura-print.com",
+      "status": "Enquiry closed politely at John’s request on 7 October; conventional paperback first, waterproof edition deferred. A4 calculator comparison retained; synthetic back cover needs separate quote and custom trim remains unconfirmed.",
+      "lastOutgoingDate": "2026-10-07",
+      "unansweredRemindersSent": 0,
+      "earliestReminderDate": null,
+      "threadId": "1a0f7da3fe386abf",
+      "receiptFile": "evidence/additional-email-enquiries.json",
+      "sourceUrl": "https://aura-print.com/uk/waterproof-flyer-and-leaflet-printing",
+      "replyContact": "orders@aura-print.com",
+      "lastIncomingMessageId": "1a1114e8606af15a",
+      "lastIncomingUtc": "2026-10-06T13:01:54Z",
+      "lastOutgoingMessageId": "1a115e66594b04fb",
+      "lastOutgoingKind": "courtesy_closeout_reply",
+      "latestEvidenceFile": "evidence/aura-closeout-2026-10-07.json",
+      "followUpPolicy": "Closed for now; no reminders or further waterproof outreach without John’s direction."
+    },
+    {
+      "name": "Scribes Digital Print",
+      "domain": "scribesdigital.co.uk",
+      "contact": "sales@scribesdigital.co.uk",
+      "status": "Gmail enquiry confirmed SENT; awaiting reply",
+      "lastOutgoingDate": "2026-10-01",
+      "unansweredRemindersSent": 0,
+      "earliestReminderDate": "2026-10-06",
+      "threadId": "1a0f7da6a7bd439c",
+      "receiptFile": "evidence/additional-email-enquiries.json",
+      "sourceUrl": "https://www.scribescolourprint.co.uk/print/business_printing/flyers-and-leaflets/nevertear-leaflets/",
+      "alternateDomains": [
+        "scribescolourprint.co.uk"
+      ]
+    },
+    {
+      "name": "Smiths 1972",
+      "domain": "smiths1972.co.uk",
+      "contact": "sales@smiths1972.co.uk",
+      "status": "Declined to quote at £6–£8 manufacturing target for current scope/quantities; no numeric price. Active request closed; revisit only if budget/specification changes or supplier offers an alternative.",
+      "lastOutgoingDate": "2026-10-01",
+      "unansweredRemindersSent": 0,
+      "earliestReminderDate": null,
+      "threadId": "1a0f7da9b3d61d2c",
+      "receiptFile": "evidence/additional-email-enquiries.json",
+      "sourceUrl": "https://www.smiths1972.co.uk/printing/waterproof-printing/",
+      "lastIncomingMessageId": "1a0fceb7b1c5be27",
+      "lastIncomingUtc": "2026-10-02T14:01:15Z",
+      "followUpPolicy": "No automated reminders after supplier declined current brief.",
+      "latestEvidenceFile": "evidence/supplier-responses-2026-10-02.json"
+    }
+  ],
+  "nextActions": [
+    "Remain paused. Do not resume waterproof supplier outreach, inbox checks or reminders without a new instruction from John.",
+    "Retain UK/China research, receipts, thread IDs and the saved successful-check watermark for a possible future resumption. China suppliers remain uncontacted.",
+    "For current compact POD book work read docs/handover/START-HERE.md and the separate BOOK-PREPARATION-STATE.json. Its initial preparation automation is also paused; do not use this monitor to restart it."
+  ],
+  "additionalOutgoingReceiptFiles": [
+    "evidence/additional-email-enquiries.json",
+    "evidence/aura-clarification-2026-10-02.json",
+    "evidence/supplier-responses-2026-10-02.json",
+    "evidence/aura-closeout-2026-10-07.json"
+  ],
+  "nextSearchQuery": "in:anywhere after:1791132312 -in:sent -in:drafts {from:bdprints.co.uk from:pmtdigital.co.uk from:fastprintuk.com from:aura-print.com from:scribesdigital.co.uk from:scribescolourprint.co.uk from:smiths1972.co.uk subject:\"waterproof gardening\"}",
+  "lastDeliveryFailureSearchQuery": "in:anywhere after:1791126036 {from:mailer-daemon from:postmaster subject:\"Delivery Status Notification\" subject:Undeliverable} {\"estimating@pmtdigital.co.uk\" \"info@fastprintuk.com\" \"infouk@aura-print.com\" \"orders@aura-print.com\" \"sales@scribesdigital.co.uk\" \"sales@smiths1972.co.uk\" \"hello@bdprints.co.uk\"}",
+  "lastCheckedThreadIds": [
+    "1a0f7c9faba9252c",
+    "1a0f7ca171314bc5",
+    "1a0f7da3fe386abf",
+    "1a0f7da6a7bd439c",
+    "1a0f7da9b3d61d2c"
+  ],
+  "searchOverlapSeconds": 86400,
+  "nextDeliveryFailureSearchQuery": "in:anywhere after:1791132312 {from:mailer-daemon from:postmaster subject:\"Delivery Status Notification\" subject:Undeliverable} {\"estimating@pmtdigital.co.uk\" \"info@fastprintuk.com\" \"infouk@aura-print.com\" \"orders@aura-print.com\" \"sales@scribesdigital.co.uk\" \"sales@smiths1972.co.uk\" \"hello@bdprints.co.uk\"}",
+  "lastCheckCompletedUtc": "2026-10-05T16:45:58Z",
+  "lastTargetedManualAction": {
+    "date": "2026-10-07",
+    "supplier": "Aura Print",
+    "scope": "One-off authorised closeout, not a resumed all-supplier inbox check. Historical successful-check watermark unchanged.",
+    "evidenceFile": "evidence/aura-closeout-2026-10-07.json",
+    "outcome": "Latest reply read, calculator revisited for 50/100/250/500 A4 comparisons, courtesy closure sent and verified. Automation remains PAUSED."
+  }
+}

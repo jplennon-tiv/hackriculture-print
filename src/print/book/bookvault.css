@@ -1,0 +1,5 @@
+/* Working Bookvault adaptation only. The supplier's text template reserves a
+   17 mm binding margin. An 8 mm outer margin remains above its 5 mm safety
+   requirement and retains the approved 160 mm body width at full type/art size.
+   Mirror the allocation on facing pages; do not scale the KDP PDF. */
+body .sheet{--inside:17mm;--outside:8mm}

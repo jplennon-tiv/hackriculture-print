@@ -1,0 +1,239 @@
+{
+  "status": "Rejected by John on 7 October 2026. Historical Cover C proposals; technical checks retained, not design approval.",
+  "date": "2026-10-07",
+  "trimMm": [
+    185,
+    240
+  ],
+  "mediaMm": [
+    191,
+    246
+  ],
+  "bleedMm": 3,
+  "safeInsetMm": 5,
+  "workingPriceGBP": 17.5,
+  "sourceHashes": {
+    "docs/front-matter/cover-studies/assets/contemporary-c.png": "19a26913a53e20dc05adc1c38f7e30004021ffb6a455cbf467048b16a6258c9b",
+    "docs/front-matter/cover-studies/preview-c.html": "09452a485899767622f38c620deba456fb2e8a909d4bb64b581391a4d27b9dbb",
+    "public/front-matter/cover-A4.pdf": "095e6d5971f23d890c8ea84c2096f6ff6dc389cf3a994e94afece07dc2c38685",
+    "docs/publication/cover-c-compact/assets/cover-c-text-free-v1.png": "56e82179059948cbc9bad9e4721c83acb3120217e799834be964ccf292089b64",
+    "output/pdf/book-preparation/bookvault/imperial/vegetable_bean_broad.pdf": "63daf4316480ac81f83c448d4423172d7c64667c7b3d4493a624988e90130b8d"
+  },
+  "results": [
+    {
+      "id": "C1",
+      "html": "docs/publication/cover-c-compact/C1.html",
+      "pdf": "output/pdf/cover-c-compact/veg-sorted-C1-front-back.pdf",
+      "sha256": "5c414d4051c2d149cb22d15ebaa137ad246977b62b087cce4843e2b1ddd98060",
+      "dom": [
+        {
+          "panel": "panel front",
+          "minTextEdgeMm": 6.0316731770833325,
+          "minTypePt": 7.400002499999999,
+          "images": [
+            {
+              "src": "assets/cover-c-text-free-v1.png",
+              "pixels": [
+                1100,
+                1429
+              ],
+              "ppi": 146.25159914712154
+            }
+          ]
+        },
+        {
+          "panel": "panel back",
+          "minTextEdgeMm": 11.997200520833331,
+          "minTypePt": 6.9999975,
+          "images": [
+            {
+              "src": "assets/broad-bean-1.png",
+              "pixels": [
+                932,
+                1200
+              ],
+              "ppi": 463.58549222797933
+            },
+            {
+              "src": "assets/broad-bean-2.png",
+              "pixels": [
+                932,
+                1200
+              ],
+              "ppi": 463.58549222797933
+            }
+          ]
+        }
+      ],
+      "visualReview": {
+        "status": "Inspected for proposal review; not user approval",
+        "reviewer": "Codex",
+        "date": "2026-10-07",
+        "coverage": "Both complete panels of this final PDF, at 1600-pixel render height; compared with original Cover C.",
+        "findings": "Title, exact subtitle, footer, counts, back copy, price and preview legible; no unintended text clipping or overlap. C1 badge lettering and both barcode/preview clearances corrected. Lower decorative artwork crop is intentional. Working art reconstruction and low raster resolution remain explicitly flagged.",
+        "renders": [
+          "docs/publication/cover-c-compact/proof-C1-1.png",
+          "docs/publication/cover-c-compact/proof-C1-2.png"
+        ]
+      },
+      "physical": {
+        "geometry": "Exact 185 × 240 mm trim, 3 mm bleed; two independent panels",
+        "embeddedFonts": {
+          "/Type3": true,
+          "/CAAAAA+LilitaOne": true,
+          "/KAAAAA+LucidaGrande-Bold": true
+        },
+        "minimumVectorTextPt": 6.997,
+        "images": [
+          {
+            "panel": 1,
+            "resource": "/X4",
+            "pixels": [
+              1100,
+              1429
+            ],
+            "actualPpi": 146.25
+          },
+          {
+            "panel": 2,
+            "resource": "/X31",
+            "pixels": [
+              1351,
+              924
+            ],
+            "actualPpi": 300.0
+          }
+        ],
+        "requestedFrontCopyAfterExtractionNormalization": true,
+        "priceVerified": true
+      }
+    },
+    {
+      "id": "C2",
+      "html": "docs/publication/cover-c-compact/C2.html",
+      "pdf": "output/pdf/cover-c-compact/veg-sorted-C2-front-back.pdf",
+      "sha256": "8aab602c1d1a38e8005eab16961449f395895fc84c72b9dfae0e5d324b1874c9",
+      "dom": [
+        {
+          "panel": "panel front",
+          "minTextEdgeMm": 6.0316731770833325,
+          "minTypePt": 12,
+          "images": [
+            {
+              "src": "assets/cover-c-text-free-v1.png",
+              "pixels": [
+                1100,
+                1429
+              ],
+              "ppi": 146.25159914712154
+            }
+          ]
+        },
+        {
+          "panel": "panel back",
+          "minTextEdgeMm": 11.997200520833331,
+          "minTypePt": 6.9999975,
+          "images": [
+            {
+              "src": "assets/broad-bean-1.png",
+              "pixels": [
+                932,
+                1200
+              ],
+              "ppi": 463.58549222797933
+            },
+            {
+              "src": "assets/broad-bean-2.png",
+              "pixels": [
+                932,
+                1200
+              ],
+              "ppi": 463.58549222797933
+            }
+          ]
+        }
+      ],
+      "visualReview": {
+        "status": "Inspected for proposal review; not user approval",
+        "reviewer": "Codex",
+        "date": "2026-10-07",
+        "coverage": "Both complete panels of this final PDF, at 1600-pixel render height; compared with original Cover C.",
+        "findings": "Title, exact subtitle, footer, counts, back copy, price and preview legible; no unintended text clipping or overlap. C1 badge lettering and both barcode/preview clearances corrected. Lower decorative artwork crop is intentional. Working art reconstruction and low raster resolution remain explicitly flagged.",
+        "renders": [
+          "docs/publication/cover-c-compact/proof-C2-1.png",
+          "docs/publication/cover-c-compact/proof-C2-2.png"
+        ]
+      },
+      "physical": {
+        "geometry": "Exact 185 × 240 mm trim, 3 mm bleed; two independent panels",
+        "embeddedFonts": {
+          "/Type3": true,
+          "/AAAAAA+LilitaOne": true,
+          "/IAAAAA+LucidaGrande-Bold": true
+        },
+        "minimumVectorTextPt": 6.997,
+        "images": [
+          {
+            "panel": 1,
+            "resource": "/X4",
+            "pixels": [
+              1100,
+              1429
+            ],
+            "actualPpi": 146.25
+          },
+          {
+            "panel": 2,
+            "resource": "/X20",
+            "pixels": [
+              1351,
+              924
+            ],
+            "actualPpi": 300.0
+          }
+        ],
+        "requestedFrontCopyAfterExtractionNormalization": true,
+        "priceVerified": true
+      }
+    }
+  ],
+  "limitations": [
+    "AI-edited artwork is a working derivative, not pixel-identical original art; reconstructed hidden carrot and adjusted proportions need review.",
+    "Artwork below 300 ppi at cover size: resolve high-resolution reconstruction after concept selection.",
+    "Final spine, stock, pagination, colour conversion, ISBN and author/imprint metadata remain unconfirmed.",
+    "Back copy and both compositions need John’s review. Miniature pages are existing imperial Bookvault proofs, not newly exported interiors."
+  ],
+  "reviewPageCheck": {
+    "linksReturned200": 10,
+    "controls": [
+      "C1",
+      "C2",
+      "compare"
+    ],
+    "desktopViewport": [
+      1360,
+      1000
+    ],
+    "mobileWidth": 390,
+    "mobileHorizontalOverflow": false,
+    "browserErrors": [],
+    "visualReview": "Desktop review page inspected."
+  },
+  "buildInputHashes": {
+    "docs/publication/cover-c-compact/covers.css": "87e4cd9c9d31ab4a80c9bd5a9e76ce620747b378cffd06b68e6714b838e0b73a",
+    "docs/publication/cover-c-compact/C1.html": "dc5e360ece34dcc37e96a8e542739248acb7194f8b198189493ecdd22e93db55",
+    "docs/publication/cover-c-compact/C2.html": "f41fc44c16ab0bc6f6a150817395a8ba6a7104c096721776297151ad05326cf1",
+    "docs/publication/cover-c-compact/ARTWORK.json": "561ec2371d87eb939a78ef874721da8cca00f521de1d6465269159c396114c86",
+    "docs/publication/cover-c-compact/assets/broad-bean-1.png": "d76e489c73c05597a6532348d02a711bd61062473859fd188826d683a01f727a",
+    "docs/publication/cover-c-compact/assets/broad-bean-2.png": "56ea3e2968dea3034c90104b1494f6b648e7c9beb6d360cecf2a8ba98e5a0cef",
+    "scripts/build-compact-cover-c.mjs": "3eae42d92ccdac160e7bf28b97e9d2a6aea78d477ba2b9f1ea95caf27bbedd35",
+    "scripts/check-compact-cover-c.py": "a1dde3076aadaa42e5260be2d86dd53e82b6dd093fcb46261a0e56358e73e379"
+  },
+  "coverageBoundary": "Only cover panels, review UI and relevant documentation checked. No guide exports, app tests, interior layout changes or supplier/account actions.",
+  "userDecision": {
+    "date": "2026-10-07",
+    "decision": "Both C1 and C2 rejected. Redraw covers from scratch, using Cover C for colour and illustration style only.",
+    "newTitle": "The Vegetable Guru",
+    "newSubtitle": "Your at-a-glance growing companion"
+  }
+}

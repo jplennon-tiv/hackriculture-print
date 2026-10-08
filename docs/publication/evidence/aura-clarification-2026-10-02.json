@@ -1,0 +1,58 @@
+{
+  "supplier": "Aura Print",
+  "incoming": {
+    "messageId": "1a0fc0f61b4d6a2a",
+    "threadId": "1a0f7da3fe386abf",
+    "dateUtc": "2026-10-02T10:00:57Z",
+    "from": "orders@aura-print.com",
+    "subject": "Re: Budget feasibility: waterproof gardening guide, £25 delivered retail, 50–500 copies",
+    "bodyText": "Good morning John,\r\n\r\nThank you for your enquiry below.\r\n\r\nWe are an e-commerce business so all our orders have to go through the website.\r\n\r\nUnfortunately, there are not enough individual specifications below for me to do a quote on the online calculator.\r\n\r\n\r\nAll our prices are bespoke due to individual specifications and the best place to do this is via our online calculator where you can get an instant quote, link to the pages needed are below. You can input all your individual requirements and alter them to suit your needs/budgets/quantities. Print and set up costs are included in the price and shipping and VAT is added at checkout.\r\n\r\n\r\nhttps://aura-print.com/uk/wire-bound-booklet-and-brochure-printing\r\n\r\n\r\nhttps://aura-print.com/uk/custom-ring-binder-printing\r\n\r\n\r\nhttps://aura-print.com/uk/ring-binder-divider-printing\r\n\r\n\r\nPlease note if you require any foiling on your products we can only foil on our silk, gloss, uncoated and recycled paper and all foil products have to be soft laminated.\r\n\r\n\r\nI would recommend purchasing a business card sample pack so you can physically see all the paper types/weights and finishes we use, links below:\r\n\r\n\r\nhttps://aura-print.com/uk/business-card-sample-pack\r\n\r\n\r\nNone of our paper is waterproof including the laminate that we coat paper with. The laminate and the never tear paper surfaces are water resistant and wipeable but not waterproof as the edges will be exposed so if it does get wet it will soak through the page.\r\n\r\n\r\nHope this helps and let me know if you have anymore questions 😊\r\n\r\nMany thanks,\r\nBon\r\n",
+    "attachments": []
+  },
+  "websiteEvidence": {
+    "checkedDate": "2026-10-02",
+    "url": "https://aura-print.com/uk/waterproof-flyer-and-leaflet-printing",
+    "summary": "Page describes NeverTear as waterproof through the material itself and lists 120, 155, 195, 258, 368 and 510 gsm. This conflicts with the email's statement that exposed edges absorb water.",
+    "shortQuote": "waterproof through the material itself"
+  },
+  "decision": "Hold Aura's suitability as unconfirmed pending production clarification. No numeric quote received. Do not buy the suggested sample pack or assume the calculator covers synthetic bound interiors.",
+  "outgoing": {
+    "status": "sent_confirmed",
+    "threadId": "1a0f7da3fe386abf",
+    "sendArguments": {
+      "to": "orders@aura-print.com",
+      "subject": "Re: Budget feasibility: waterproof gardening guide, £25 delivered retail, 50–500 copies",
+      "reply_message_id": "1a0fc0f61b4d6a2a",
+      "payload": {
+        "mime_type": "text/html",
+        "charset": "UTF-8",
+        "body": {
+          "content": "<p>Hi Bon,</p>\n<p>Thank you. Before using the calculators, could your production team clarify one material point? Your waterproof leaflet page says NeverTear is “waterproof through the material itself”, whereas your email says water can soak through its exposed edges:</p>\n<p><a href=\"https://aura-print.com/uk/waterproof-flyer-and-leaflet-printing\">Waterproof flyer and leaflet printing</a></p>\n<p>Does the edge warning apply to laminated paper, or also to the synthetic NeverTear sold on that page? We need pages that survive rain, wet soil and repeated wiping, including at cut edges and punched holes. Please confirm the actual material/grade and any limitations of the printed surface.</p>\n<p>To make the costing request more specific, a provisional comparison specification is: 185 × 240 mm portrait, full-colour duplex, 134 interior pages / 67 leaves on your listed 155 gsm NeverTear, plus two 368 gsm NeverTear covers printed outside only; black wire on the left, square corners, no foil or lamination, print-ready PDFs supplied. That is 69 leaves and 136 printed sides, with two blank cover insides. Please advise if those grades or that combination are unavailable. This is for estimating only, not approval of a production specification.</p>\n<p>If this is suitable, which calculator/material selections should we use for 50, 100, 250 and 500 complete books? If synthetic interiors cannot be bound, could you instead price or explain how to configure 72 distinct loose leaves per set, full-colour, 135 printed sides and nine blank backs, collated and punched, with the binder priced separately?</p>\n<p>The approximately £25 retail ceiling includes customer postage, so the £6–£8 manufacturing target remains exploratory. We are seeking non-binding prices only; no order or sample purchase is requested.</p>\n<p>Many thanks,<br>John Lennon</p>"
+        }
+      },
+      "response_fields": [
+        "id",
+        "thread_id",
+        "label_ids"
+      ]
+    },
+    "receipt": {
+      "id": "1a0fc484bf200d43",
+      "thread_id": "1a0f7da3fe386abf",
+      "label_ids": [
+        "SENT"
+      ]
+    }
+  },
+  "preSendCheck": {
+    "threadRead": true,
+    "recentSentSearched": true,
+    "result": "Only the original Aura enquiry appears in recent project Sent mail; no reply or duplicate clarification found."
+  },
+  "resolution": {
+    "messageId": "1a0fc5b642b31ed7",
+    "dateUtc": "2026-10-02T11:23:56Z",
+    "summary": "Supplier corrected its error and confirms NeverTear is waterproof. See subsequent response record for outstanding calculator and finished-product questions.",
+    "evidenceFile": "evidence/supplier-responses-2026-10-02.json"
+  }
+}

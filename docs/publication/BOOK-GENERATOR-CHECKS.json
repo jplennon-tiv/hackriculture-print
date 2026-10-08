@@ -1,0 +1,289 @@
+{
+  "checkedAt": "2026-10-05T22:42:31.288416+00:00",
+  "scope": "New default size and representative compact exports only; not full collection approval.",
+  "sourceRevision": "f15430f54b6011a7c68ea5b9448a091277f368a362a1df006172addc6d8bde64",
+  "canonicalUnchanged": true,
+  "implementationSha256": {
+    "src/print/book/compact.css": "b82ec2e0b6aa33d587f0c8f9e451b0862248b969871faa99dce26b7cc9fb1796",
+    "src/print/book/renderCompact.ts": "1c85891d303661e8f03d2f39f82367e4727aef5d51181865a91a2f87f69ef675",
+    "src/print/book/kaleCopy.ts": "3964512bbdd55014c23b57c045a3697dfacf73ffe36c5a360a85ca6f343141d3",
+    "src/lib/paperSize.ts": "67014f158ae4bd890d1d812b6aba4963b752b3eec66d9543a6e28d123a1797a0",
+    "pdfPlugin.ts": "9d34b22314fc88560009695cf5f2610375f1a897f9c3c144ce04174af479fe0c"
+  },
+  "pdfDirectory": "../../output/pdf/compact-book-check",
+  "actualApiExports": [
+    {
+      "file": "kale-imperial.pdf",
+      "units": "imperial",
+      "pages": 2,
+      "sha256": "c8f3629a5969f628560b17a9b3254bfd231abf3710927a22b3e96812740cc6c0",
+      "sizesMm": [
+        [
+          184.83,
+          239.86
+        ],
+        [
+          184.83,
+          239.86
+        ]
+      ],
+      "fontsEmbedded": {
+        "/Type3": true,
+        "/BAAAAA+LilitaOne": true
+      }
+    },
+    {
+      "file": "carrot_and_parsnip_troubles-imperial.pdf",
+      "units": "imperial",
+      "pages": 3,
+      "sha256": "81b0661dd8694a5912e529a9b6168b0518af288fba0a9a6bd93b29483b9c5631",
+      "sizesMm": [
+        [
+          184.83,
+          239.86
+        ],
+        [
+          184.83,
+          239.86
+        ],
+        [
+          184.83,
+          239.86
+        ]
+      ],
+      "fontsEmbedded": {
+        "/Type3": true,
+        "/BAAAAA+LilitaOne": true,
+        "/GAAAAA+LucidaGrande-Bold": true
+      }
+    },
+    {
+      "file": "onions_and_shallots-imperial.pdf",
+      "units": "imperial",
+      "pages": 3,
+      "sha256": "7d2f3c4a5045a3318059d762b7ac5e19d263050653e5a2f503604d4e0608bf13",
+      "sizesMm": [
+        [
+          184.83,
+          239.86
+        ],
+        [
+          184.83,
+          239.86
+        ],
+        [
+          184.83,
+          239.86
+        ]
+      ],
+      "fontsEmbedded": {
+        "/Type3": true,
+        "/BAAAAA+LilitaOne": true
+      }
+    },
+    {
+      "file": "kale-metric.pdf",
+      "units": "metric",
+      "pages": 2,
+      "sha256": "0890f5443cf3d9c7d61f1acea5302f39955ab961acd09734c604318d1cbb2915",
+      "sizesMm": [
+        [
+          184.83,
+          239.86
+        ],
+        [
+          184.83,
+          239.86
+        ]
+      ],
+      "fontsEmbedded": {
+        "/Type3": true,
+        "/BAAAAA+LilitaOne": true
+      }
+    },
+    {
+      "file": "carrot_and_parsnip_troubles-metric.pdf",
+      "units": "metric",
+      "pages": 3,
+      "sha256": "0978b22b278504117b617c0ad0558bc86e19215e6b6663edae4c0d5041a0f656",
+      "sizesMm": [
+        [
+          184.83,
+          239.86
+        ],
+        [
+          184.83,
+          239.86
+        ],
+        [
+          184.83,
+          239.86
+        ]
+      ],
+      "fontsEmbedded": {
+        "/Type3": true,
+        "/BAAAAA+LilitaOne": true,
+        "/GAAAAA+LucidaGrande-Bold": true
+      }
+    },
+    {
+      "file": "onions_and_shallots-metric.pdf",
+      "units": "metric",
+      "pages": 3,
+      "sha256": "e830f28c27f89d0bdc6be83284fba40cf9cc938d96b98ad960796b71926fc0b5",
+      "sizesMm": [
+        [
+          184.83,
+          239.86
+        ],
+        [
+          184.83,
+          239.86
+        ],
+        [
+          184.83,
+          239.86
+        ]
+      ],
+      "fontsEmbedded": {
+        "/Type3": true,
+        "/BAAAAA+LilitaOne": true
+      }
+    }
+  ],
+  "troublesDom": [
+    {
+      "type": "trouble",
+      "slug": "carrot_and_parsnip_troubles",
+      "units": "imperial",
+      "pages": [
+        {
+          "page": 1,
+          "footerGapMm": 3.5098632803725343,
+          "columns": [
+            {
+              "entries": 3,
+              "top": 153.03125,
+              "bottom": 845.984375
+            },
+            {
+              "entries": 3,
+              "top": 153.03125,
+              "bottom": 845.984375
+            }
+          ]
+        },
+        {
+          "page": 2,
+          "footerGapMm": 12.249381507354322,
+          "columns": [
+            {
+              "entries": 3,
+              "top": 994.078125,
+              "bottom": 1720.03125
+            },
+            {
+              "entries": 3,
+              "top": 994.078125,
+              "bottom": 1720.03125
+            }
+          ]
+        },
+        {
+          "page": 3,
+          "footerGapMm": 65.6910807127439,
+          "columns": [
+            {
+              "entries": 2,
+              "top": 1901.15625,
+              "bottom": 2425.125
+            },
+            {
+              "entries": 1,
+              "top": 1901.15625,
+              "bottom": 2133.140625
+            }
+          ]
+        }
+      ],
+      "contentPreserved": true,
+      "warnings": []
+    },
+    {
+      "type": "trouble",
+      "slug": "carrot_and_parsnip_troubles",
+      "units": "metric",
+      "pages": [
+        {
+          "page": 1,
+          "footerGapMm": 3.5098632803725343,
+          "columns": [
+            {
+              "entries": 3,
+              "top": 153.03125,
+              "bottom": 845.984375
+            },
+            {
+              "entries": 3,
+              "top": 153.03125,
+              "bottom": 845.984375
+            }
+          ]
+        },
+        {
+          "page": 2,
+          "footerGapMm": 12.249381507354322,
+          "columns": [
+            {
+              "entries": 3,
+              "top": 994.078125,
+              "bottom": 1720.03125
+            },
+            {
+              "entries": 3,
+              "top": 994.078125,
+              "bottom": 1720.03125
+            }
+          ]
+        },
+        {
+          "page": 3,
+          "footerGapMm": 65.6910807127439,
+          "columns": [
+            {
+              "entries": 2,
+              "top": 1901.15625,
+              "bottom": 2425.125
+            },
+            {
+              "entries": 1,
+              "top": 1901.15625,
+              "bottom": 2133.140625
+            }
+          ]
+        }
+      ],
+      "contentPreserved": true,
+      "warnings": []
+    }
+  ],
+  "visualReview": "All 16 pages inspected from actual PDF rasterisation, both units. No clipping, missing artwork or header collisions found. Sparse final pages remain editorial refinement candidates.",
+  "uiChecks": [
+    "New default replaces old stored A4 default",
+    "Explicit A4 choice persists across reload",
+    "Troubles preview inherits size and units",
+    "Default-size API emits compact Kale; explicit A4 API emits 2 A4 pages"
+  ],
+  "codeChecks": {
+    "typescript": "npm run check:types passed",
+    "focusedTests": "13 tests passed across src/compactPdf.test.ts, src/pdfPlanting.test.ts, src/pdfPlugin.test.ts",
+    "gitDiffCheck": "passed",
+    "skill": "Frontmatter, metadata and local links checked directly. Bundled quick_validate.py could not run because PyYAML is absent."
+  },
+  "approvalFreeze": "18 reference files and 34 referenced assets verified against SHA256; both reference builders reject overwrite",
+  "remaining": [
+    "New smaller opening pages explicitly deferred to a later session",
+    "Review remaining crop/group layouts; no full batch was run",
+    "Book folios/contents, supplier-ready trim/bleed/cover/spine, costs and physical proof pending"
+  ]
+}

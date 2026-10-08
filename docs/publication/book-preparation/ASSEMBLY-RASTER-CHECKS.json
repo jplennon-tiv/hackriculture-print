@@ -1,0 +1,115 @@
+{
+  "checkedAtUtc": "2026-10-06T08:36:16.005989+00:00",
+  "method": "Poppler JPEG at identical 1150px geometry and quality90; decoded RGB samples compared to original individual-PDF raster",
+  "scope": "8 representative assembled pages; not whole-book visual sign-off",
+  "results": [
+    {
+      "units": "imperial",
+      "physicalPage": 1,
+      "sourceId": "imperial/opening",
+      "sourcePage": 1,
+      "sourceSha256": "3ac8dfde03091bdb159cad12f19bdd597874fe466ddcb1d34182a6b9778ef314",
+      "result": "pixel_identical_at_1150px_render",
+      "assembledSha256": "4442665d1ac0e9e2152de751d2fb5a8f4e008aa84ae0bf5ba5c5f19f3d03bb74",
+      "raster": "tmp/pdfs/book-preparation/assembly-review/imperial-1-assembled-001.jpg"
+    },
+    {
+      "units": "imperial",
+      "physicalPage": 40,
+      "sourceId": "imperial/vegetable/kale",
+      "sourcePage": 1,
+      "sourceSha256": "03a501c133b39f615fa3d1978ee5ea9f0ada9a3dd031eef655224faa31231306",
+      "result": "pixel_identical_at_1150px_render",
+      "assembledSha256": "4442665d1ac0e9e2152de751d2fb5a8f4e008aa84ae0bf5ba5c5f19f3d03bb74",
+      "raster": "tmp/pdfs/book-preparation/assembly-review/imperial-40-assembled-040.jpg"
+    },
+    {
+      "units": "imperial",
+      "physicalPage": 41,
+      "sourceId": "imperial/vegetable/kale",
+      "sourcePage": 2,
+      "sourceSha256": "03a501c133b39f615fa3d1978ee5ea9f0ada9a3dd031eef655224faa31231306",
+      "result": "pixel_identical_at_1150px_render",
+      "assembledSha256": "4442665d1ac0e9e2152de751d2fb5a8f4e008aa84ae0bf5ba5c5f19f3d03bb74",
+      "raster": "tmp/pdfs/book-preparation/assembly-review/imperial-41-assembled-041.jpg"
+    },
+    {
+      "units": "imperial",
+      "physicalPage": 119,
+      "sourceId": "imperial/trouble/celery_troubles",
+      "sourcePage": 1,
+      "sourceSha256": "7941a699ba8fb7d538c7f32f52a1af85e237ac17220e6bec3b7ec3ef0a5284d6",
+      "result": "pixel_identical_at_1150px_render",
+      "assembledSha256": "4442665d1ac0e9e2152de751d2fb5a8f4e008aa84ae0bf5ba5c5f19f3d03bb74",
+      "raster": "tmp/pdfs/book-preparation/assembly-review/imperial-119-assembled-119.jpg"
+    },
+    {
+      "units": "metric",
+      "physicalPage": 1,
+      "sourceId": "metric/opening",
+      "sourcePage": 1,
+      "sourceSha256": "2cb7b86ecc971b9fff3137c75af4450465f92afd88e893b1be4023a7e0b10d21",
+      "result": "pixel_identical_at_1150px_render",
+      "assembledSha256": "6f35393e2a2e98a24110381df9f3b1e9a82d909769e92ac0995e7c68d80738f0",
+      "raster": "tmp/pdfs/book-preparation/assembly-review/metric-1-assembled-001.jpg"
+    },
+    {
+      "units": "metric",
+      "physicalPage": 40,
+      "sourceId": "metric/vegetable/kale",
+      "sourcePage": 1,
+      "sourceSha256": "a73cafc528385aba221931b41fe53338f447e9989d6b387fdeb0977aa2307c81",
+      "result": "pixel_identical_at_1150px_render",
+      "assembledSha256": "6f35393e2a2e98a24110381df9f3b1e9a82d909769e92ac0995e7c68d80738f0",
+      "raster": "tmp/pdfs/book-preparation/assembly-review/metric-40-assembled-040.jpg"
+    },
+    {
+      "units": "metric",
+      "physicalPage": 41,
+      "sourceId": "metric/vegetable/kale",
+      "sourcePage": 2,
+      "sourceSha256": "a73cafc528385aba221931b41fe53338f447e9989d6b387fdeb0977aa2307c81",
+      "result": "pixel_identical_at_1150px_render",
+      "assembledSha256": "6f35393e2a2e98a24110381df9f3b1e9a82d909769e92ac0995e7c68d80738f0",
+      "raster": "tmp/pdfs/book-preparation/assembly-review/metric-41-assembled-041.jpg"
+    },
+    {
+      "units": "metric",
+      "physicalPage": 119,
+      "sourceId": "metric/trouble/celery_troubles",
+      "sourcePage": 1,
+      "sourceSha256": "853a8015ae6cb8a7acdbcf38ea38e6b630c5c623e99c82f10d62e14ec4de6609",
+      "result": "pixel_identical_at_1150px_render",
+      "assembledSha256": "6f35393e2a2e98a24110381df9f3b1e9a82d909769e92ac0995e7c68d80738f0",
+      "raster": "tmp/pdfs/book-preparation/assembly-review/metric-119-assembled-119.jpg"
+    }
+  ],
+  "visualReview": {
+    "reviewedAtUtc": "2026-10-06T08:38:50.877824+00:00",
+    "method": "Actual assembled PDF rasters; eight two-page spread images, no simulated page layout.",
+    "scope": "Physical pages 12\u201317 and 40\u201341 in both editions, 16 physical pages including two intentional blanks; not full-book visual approval.",
+    "result": "No visible clipping, overlap, missing art or misplaced folios. Carrot starts verso on 12, continues on 14, blank recto 15 is unprinted, Celeriac resumes verso on 16. Kale 40/41 faces correctly; larger hero, circle, sticker, practical-title banner and tips retained. Carrot third page remains sparse by design to preserve its complete table and tips.",
+    "assemblies": [
+      {
+        "units": "imperial",
+        "sha256": "4442665d1ac0e9e2152de751d2fb5a8f4e008aa84ae0bf5ba5c5f19f3d03bb74",
+        "rasters": [
+          "tmp/pdfs/book-preparation/assembly-review/imperial-spread-12-13.jpg",
+          "tmp/pdfs/book-preparation/assembly-review/imperial-spread-14-15.jpg",
+          "tmp/pdfs/book-preparation/assembly-review/imperial-spread-16-17.jpg",
+          "tmp/pdfs/book-preparation/assembly-review/imperial-kale-spread.jpg"
+        ]
+      },
+      {
+        "units": "metric",
+        "sha256": "6f35393e2a2e98a24110381df9f3b1e9a82d909769e92ac0995e7c68d80738f0",
+        "rasters": [
+          "tmp/pdfs/book-preparation/assembly-review/metric-spread-12-13.jpg",
+          "tmp/pdfs/book-preparation/assembly-review/metric-spread-14-15.jpg",
+          "tmp/pdfs/book-preparation/assembly-review/metric-spread-16-17.jpg",
+          "tmp/pdfs/book-preparation/assembly-review/metric-kale-spread.jpg"
+        ]
+      }
+    ]
+  }
+}

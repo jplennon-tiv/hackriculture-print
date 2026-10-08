@@ -1,0 +1,474 @@
+{
+  "date": "2026-10-07",
+  "status": "B1–B3 rejected by John on 7 October. B2 dark green retained as colour direction only.",
+  "selectedFront": "docs/publication/vegetable-guru-grid-variations/assets/G2-centre-title.png",
+  "title": "The Vegetable Guru",
+  "subtitle": "44 growing guides and 14 troubleshooting guides",
+  "priceGBP": 17.5,
+  "blurb": "Lorem ipsum placeholder, explicitly requested by John",
+  "method": "Native editable HTML/CSS with SVG viewBox windows onto unaltered full-page PDF renders; no imagegen, no fake page text, no interior re-export.",
+  "crops": {
+    "title": {
+      "file": "carrot-1.png",
+      "size": [
+        1553,
+        2000
+      ],
+      "box": [
+        65,
+        18,
+        1458,
+        275
+      ]
+    },
+    "calendar": {
+      "file": "carrot-1.png",
+      "size": [
+        1553,
+        2000
+      ],
+      "box": [
+        84,
+        831,
+        700,
+        248
+      ]
+    },
+    "needs": {
+      "file": "carrot-1.png",
+      "size": [
+        1553,
+        2000
+      ],
+      "box": [
+        802,
+        829,
+        600,
+        254
+      ]
+    },
+    "trouble": {
+      "file": "troubles-1.png",
+      "size": [
+        1243,
+        1600
+      ],
+      "box": [
+        602,
+        267,
+        516,
+        365
+      ]
+    },
+    "kaleCalendar": {
+      "file": "kale-1.png",
+      "size": [
+        1553,
+        2000
+      ],
+      "box": [
+        84,
+        831,
+        700,
+        248
+      ]
+    },
+    "titleWord": {
+      "file": "carrot-1.png",
+      "size": [
+        1553,
+        2000
+      ],
+      "box": [
+        63,
+        55,
+        515,
+        196
+      ]
+    },
+    "titleDetail": {
+      "file": "kale-1.png",
+      "size": [
+        1553,
+        2000
+      ],
+      "box": [
+        992,
+        0,
+        550,
+        292
+      ]
+    },
+    "kaleTitle": {
+      "file": "kale-1.png",
+      "size": [
+        1553,
+        2000
+      ],
+      "box": [
+        60,
+        15,
+        1468,
+        281
+      ]
+    }
+  },
+  "results": [
+    {
+      "id": "B1",
+      "html": "docs/publication/vegetable-guru-back-cover/B1.html",
+      "png": "docs/publication/vegetable-guru-back-cover/B1.png",
+      "sha256": "530aaf634c5359c87ad58f5f18d4a18a4c0b01405c7ed9a4bb984a026d4c13a1",
+      "checks": [
+        {
+          "element": "heading",
+          "text": "The Vegetable Guru",
+          "rect": [
+            44,
+            52,
+            652,
+            54.046875
+          ],
+          "edgeMm": 11,
+          "overflow": false
+        },
+        {
+          "element": "subtitle",
+          "text": "44 growing guides and\n14 troubleshooting guides",
+          "rect": [
+            44,
+            121,
+            652,
+            63.4375
+          ],
+          "edgeMm": 11,
+          "overflow": false
+        },
+        {
+          "element": "eyebrow",
+          "text": "INSIDE THE BOOK",
+          "rect": [
+            44,
+            197,
+            132.9375,
+            16
+          ],
+          "edgeMm": 11,
+          "overflow": false
+        },
+        {
+          "element": "blurb",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+          "rect": [
+            44,
+            661,
+            652,
+            75.5625
+          ],
+          "edgeMm": 11,
+          "overflow": false
+        },
+        {
+          "element": "price",
+          "text": "£17.50",
+          "rect": [
+            44,
+            875,
+            94.890625,
+            39
+          ],
+          "edgeMm": 11,
+          "overflow": false
+        },
+        {
+          "element": "barcode",
+          "text": "ISBN / BARCODE\nReserved panel",
+          "rect": [
+            485,
+            808,
+            211,
+            112
+          ],
+          "edgeMm": 10,
+          "overflow": false
+        }
+      ],
+      "visualReview": "Inspected complete PNG: exact requested copy, complete calendar/needs/Troubles crop text, no neighbouring text fragments, no overlap; compared with original page renders. Concept review only."
+    },
+    {
+      "id": "B2",
+      "html": "docs/publication/vegetable-guru-back-cover/B2.html",
+      "png": "docs/publication/vegetable-guru-back-cover/B2.png",
+      "sha256": "3e1c4d37724ab2759da56681002c625cac0dfb5cfbd74fdc8fd20e9c6112cb83",
+      "checks": [
+        {
+          "element": "heading",
+          "text": "The Vegetable Guru",
+          "rect": [
+            44,
+            47,
+            652,
+            54.046875
+          ],
+          "edgeMm": 11,
+          "overflow": false
+        },
+        {
+          "element": "subtitle",
+          "text": "44 growing guides and\n14 troubleshooting guides",
+          "rect": [
+            44,
+            118,
+            652,
+            63.4375
+          ],
+          "edgeMm": 11,
+          "overflow": false
+        },
+        {
+          "element": "eyebrow",
+          "text": "INSIDE THE BOOK",
+          "rect": [
+            44,
+            193,
+            132.9375,
+            16
+          ],
+          "edgeMm": 11,
+          "overflow": false
+        },
+        {
+          "element": "blurb",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+          "rect": [
+            44,
+            688,
+            652,
+            75.5625
+          ],
+          "edgeMm": 11,
+          "overflow": false
+        },
+        {
+          "element": "price",
+          "text": "£17.50",
+          "rect": [
+            44,
+            873,
+            94.890625,
+            39
+          ],
+          "edgeMm": 11,
+          "overflow": false
+        },
+        {
+          "element": "barcode",
+          "text": "ISBN / BARCODE\nReserved panel",
+          "rect": [
+            485,
+            808,
+            211,
+            112
+          ],
+          "edgeMm": 10,
+          "overflow": false
+        }
+      ],
+      "visualReview": "Inspected complete PNG: exact requested copy, complete calendar/needs/Troubles crop text, no neighbouring text fragments, no overlap; compared with original page renders. Concept review only."
+    },
+    {
+      "id": "B3",
+      "html": "docs/publication/vegetable-guru-back-cover/B3.html",
+      "png": "docs/publication/vegetable-guru-back-cover/B3.png",
+      "sha256": "36908b3267db1f7b1df9350763a4e4808af8781062278d33ec4c66d991e449d1",
+      "checks": [
+        {
+          "element": "heading",
+          "text": "The\nVegetable\nGuru",
+          "rect": [
+            38,
+            47,
+            334,
+            179.203125
+          ],
+          "edgeMm": 9.5,
+          "overflow": false
+        },
+        {
+          "element": "subtitle",
+          "text": "44 growing guides and\n14 troubleshooting guides",
+          "rect": [
+            38,
+            255,
+            322,
+            59.78125
+          ],
+          "edgeMm": 9.5,
+          "overflow": false
+        },
+        {
+          "element": "eyebrow",
+          "text": "INSIDE THE BOOK",
+          "rect": [
+            428,
+            34,
+            123.859375,
+            15
+          ],
+          "edgeMm": 8.5,
+          "overflow": false
+        },
+        {
+          "element": "blurb",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+          "rect": [
+            38,
+            409,
+            318,
+            189
+          ],
+          "edgeMm": 9.5,
+          "overflow": false
+        },
+        {
+          "element": "price",
+          "text": "£17.50",
+          "rect": [
+            38,
+            871,
+            94.890625,
+            39
+          ],
+          "edgeMm": 9.5,
+          "overflow": false
+        },
+        {
+          "element": "barcode",
+          "text": "ISBN / BARCODE\nReserved panel",
+          "rect": [
+            461,
+            805,
+            245,
+            113
+          ],
+          "edgeMm": 8.5,
+          "overflow": false
+        }
+      ],
+      "visualReview": "Inspected complete PNG: exact requested copy, complete calendar/needs/Troubles crop text, no neighbouring text fragments, no overlap; compared with original page renders. Concept review only."
+    }
+  ],
+  "frontSelection": {
+    "date": "2026-10-07",
+    "selected": "G2 Cream centre",
+    "file": "docs/publication/vegetable-guru-grid-variations/assets/G2-centre-title.png",
+    "sha256": "38a3f3edf5be32e3077439d710036ae5a8d2b68dd27ea1ffccf1c9d05b2f0b24",
+    "userInstruction": "G2 is the best - let's go with that.",
+    "scope": "Selected front-cover design direction; final production artwork and Bookvault wrap pending."
+  },
+  "sources": [
+    {
+      "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_carrot.pdf",
+      "sha256": "7fd0cdf422d34826459c8f7283a40bf10a4e5dc22fc6e94de0133ecaf08b5ba6",
+      "page": 1,
+      "folio": 12,
+      "render": "docs/publication/vegetable-guru-back-cover/assets/carrot-1.png",
+      "renderSha256": "4edfeeb1bb04bfc53028fa150a884317a5f9271f3eba91c62742939efc8fe491",
+      "method": "pdftoppm rasterisation of existing PDF, no guide generation or modification"
+    },
+    {
+      "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_kale.pdf",
+      "sha256": "1830b04169e32962899f32114bdac03a96642cae4ab481fab5829171481dace8",
+      "page": 1,
+      "folio": 40,
+      "render": "docs/publication/vegetable-guru-back-cover/assets/kale-1.png",
+      "renderSha256": "bb48a3d4b49b4a3b39ba7cc3f34ef91767e30752fc6a610b923ab51f5b509376",
+      "method": "pdftoppm rasterisation of existing PDF, no guide generation or modification"
+    },
+    {
+      "pdf": "output/pdf/book-preparation/bookvault/imperial/trouble_carrot_and_parsnip_troubles.pdf",
+      "sha256": "05560aadbf7212a727463c55b438dd7176aa029e5245fa298700fab94ac1d8be",
+      "page": 1,
+      "folio": 116,
+      "render": "docs/publication/vegetable-guru-back-cover/assets/troubles-1.png",
+      "renderSha256": "d9a37e1be9ef193c29d99cabd54bd662fac7466ad424a8aec5764068f0dacba6",
+      "method": "pdftoppm rasterisation of existing PDF, no guide generation or modification"
+    }
+  ],
+  "limitations": "1480 × 1920 px preview PNGs, with editable HTML/CSS sources. Not final 300 dpi cover art, not a print PDF or production wrap. Lorem ipsum and blank ISBN panel are placeholders.",
+  "galleryChecks": {
+    "desktopWidth": 1500,
+    "links": [
+      {
+        "path": "/docs/publication/vegetable-guru-grid-variations/assets/G2-centre-title.png",
+        "status": 200
+      },
+      {
+        "path": "/docs/publication/vegetable-guru-back-cover/B1.png",
+        "status": 200
+      },
+      {
+        "path": "/docs/publication/vegetable-guru-back-cover/B2.png",
+        "status": 200
+      },
+      {
+        "path": "/docs/publication/vegetable-guru-back-cover/B3.png",
+        "status": 200
+      },
+      {
+        "path": "/docs/publication/vegetable-guru-back-cover/CHECKS.json",
+        "status": 200
+      },
+      {
+        "path": "/docs/publication/vegetable-guru-back-cover/B1.html",
+        "status": 200
+      },
+      {
+        "path": "/docs/publication/vegetable-guru-back-cover/B2.html",
+        "status": 200
+      },
+      {
+        "path": "/docs/publication/vegetable-guru-back-cover/B3.html",
+        "status": 200
+      },
+      {
+        "path": "/docs/publication/vegetable-guru-grid-variations/REVIEW.html",
+        "status": 200
+      },
+      {
+        "path": "/docs/handover/START-HERE.md",
+        "status": 200
+      }
+    ],
+    "pairs": [
+      {
+        "id": "B1",
+        "dialog": true,
+        "file": "B1.png"
+      },
+      {
+        "id": "B2",
+        "dialog": true,
+        "file": "B2.png"
+      },
+      {
+        "id": "B3",
+        "dialog": true,
+        "file": "B3.png"
+      }
+    ],
+    "mobile": {
+      "scrollWidth": 390,
+      "viewport": 390,
+      "columns": "350px"
+    },
+    "modal": {
+      "width": 358,
+      "scrollWidth": 358,
+      "clientWidth": 358
+    },
+    "failures": [],
+    "visualReview": "Desktop three-idea comparison and B2/G2 paired view inspected. Mobile width/overflow, image loading, links and dialog behaviour checked separately."
+  },
+  "userFeedback": "Snippets should look torn from book pages and slightly angled, giving an impression of the contents. Explanations belong on the inside covers."
+}

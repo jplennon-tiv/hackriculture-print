@@ -1,0 +1,52 @@
+@import url('../../../src/print/local-fonts.css');
+@page { size:191mm 246mm; margin:0 }
+* { box-sizing:border-box }
+:root { --cream:#faf9ef; --ink:#064d32; --orange:#ff771d; --apricot:#ffe3bf }
+body { margin:0; background:#e9e7dd; color:var(--ink); font-family:'Nunito Sans',sans-serif }
+.canvas { width:191mm; height:246mm; position:relative; overflow:hidden; background:var(--cream); break-after:page }
+.canvas:last-child { break-after:auto }
+.panel { position:absolute; left:3mm; top:3mm; width:185mm; height:240mm }
+h1,h2,h3,p { margin:0 }
+.plate { position:absolute; width:191mm; height:auto; left:-3mm; top:-3mm }
+.badge-pair { position:absolute; display:flex; gap:4mm; left:12mm; top:11mm }
+.badge { width:29mm; height:30mm; background:#fff9e9; border:.25mm solid #cad2b6; border-radius:4mm; text-align:center; padding:2.5mm 1mm; transform:rotate(-7deg); box-shadow:0 1mm 2mm #163c3022 }
+.badge+.badge { transform:rotate(5deg); margin-top:-1mm }
+.badge strong { display:block; font-size:29pt; line-height:1; font-weight:900; letter-spacing:-1pt }
+.badge span { display:block; font-size:7.4pt; line-height:1.1; font-weight:900; letter-spacing:.2pt; margin-top:1.2mm }
+.badge:after { content:''; display:block; background:var(--orange); width:8mm; height:1mm; border-radius:2mm; margin:1.7mm auto 0 }
+.book-title { position:absolute; left:12mm; top:54mm; width:161mm; font-family:'Lilita One'; font-weight:400; line-height:.88; letter-spacing:-2pt; transform:rotate(-5deg); text-align:center; transform-origin:center }
+.book-title span { display:block; white-space:nowrap; width:max-content; margin:auto; paint-order:stroke fill; -webkit-text-stroke:1.5mm var(--cream) }
+.book-title .veg { font-size:150pt }
+.book-title .sorted { font-size:108pt; margin-top:1.5mm }
+.subtitle { position:absolute; left:15mm; top:149mm; width:154mm; background:var(--orange); border-radius:6mm; padding:4mm 3mm; transform:rotate(-5deg); text-align:center; color:white; font-size:20pt; font-weight:900; line-height:1.12; box-shadow:0 1.5mm 0 #e96117 }
+.coverline { position:absolute; left:-3mm; right:-3mm; bottom:-3mm; height:25mm; padding:5mm 12mm 4mm; background:var(--cream); font-size:12pt; line-height:1.28; font-weight:900; text-align:center }
+.coverline:before { content:''; position:absolute; top:0; left:78mm; width:35mm; height:1mm; background:var(--orange); border-radius:2mm }
+.C2 .badge-pair { display:none }
+.C2 .subtitle { top:17mm; left:22mm; width:141mm; color:var(--ink); background:#fff9e9; box-shadow:none; border:.25mm solid #cad2b6; font-size:18pt; transform:rotate(-4deg) }
+.C2 .book-title { top:65mm; transform:rotate(-5deg) }
+.C2 .book-title .veg { font-size:157pt }
+.C2 .book-title .sorted { background:var(--orange); color:white; -webkit-text-stroke:0; border-radius:6mm; padding:1mm 5mm 4mm; font-size:94pt; box-shadow:0 1.5mm 0 #e96117; margin-top:3mm }
+.back .back-heading { position:absolute; left:13mm; top:14mm; font:36pt/.98 'Lilita One'; letter-spacing:-.4pt }
+.back-heading span { color:#d85716 }
+.back-intro { position:absolute; left:13mm; top:47mm; width:158mm; font-size:12.5pt; line-height:1.42 }
+.features { position:absolute; left:13mm; right:13mm; top:84mm; display:grid; grid-template-columns:1fr 1fr; gap:9mm; border-top:.4mm solid #acc3a2; padding-top:5mm }
+.feature strong { font-family:'Lilita One'; font-weight:400; font-size:25pt; line-height:1 }
+.feature h3 { font-size:11.3pt; font-weight:900; margin:1mm 0 1.5mm; line-height:1.2 }
+.feature p { font-size:10.2pt; line-height:1.35 }
+.peek { position:absolute; top:125mm; left:13mm; font-size:9pt; font-weight:900; letter-spacing:.3pt }
+.spread { position:absolute; top:141mm; left:32mm; width:122mm; height:79mm; display:flex; transform:rotate(-3deg); filter:drop-shadow(0 1.6mm 2mm #002c222f) }
+.spread img { width:61mm; height:auto; align-self:flex-start }
+.back .price { position:absolute; left:13mm; bottom:12mm; font-size:13pt; font-weight:900 }
+.back .region { position:absolute; left:13mm; bottom:20mm; font-size:8.5pt; letter-spacing:.5pt; font-weight:800 }
+.barcode { position:absolute; width:43mm; height:25mm; right:12mm; bottom:9mm; background:white; color:#687468; border:.25mm dashed #809480; display:grid; place-content:center; text-align:center; font-size:7pt; line-height:1.35 }
+.barcode b { font-size:8pt }
+.back .spread { top:132mm; left:41.5mm; width:102mm; height:auto }
+.back .spread img { width:51mm }
+.C2.back { background:var(--ink); color:var(--cream) }
+.C2.back .back-heading span { color:#ff9549 }
+.C2.back .features { border-color:#75916d }
+.C2.back .feature strong { color:#ff9549 }
+.C2.back .region { color:#c3dcb0 }
+.C2.back .peek { color:#d7e7c6 }
+.C2.back .spread { transform:rotate(3deg); filter:drop-shadow(0 2mm 2mm #00221970) }
+@media screen { .canvas { margin:8mm auto; box-shadow:0 2mm 7mm #14392522 } }

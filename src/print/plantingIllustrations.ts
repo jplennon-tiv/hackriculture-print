@@ -2,9 +2,10 @@
 import type { Vegetable } from '../types';
 import { resolveMeasurement, type UnitSystem } from '../lib/measure';
 import { readPlantingSource, plantingReviewIssue } from '../lib/planting';
+import { rt } from '../lib/ranked';
 
 export interface PlantingLayout {
-    stages: { id: string; image: string; compact?: boolean }[];
+    stages: { id: string; image: string; alt?: string; compact?: boolean }[];
     paired: boolean;
     imageMm: number;
     minImageMm: number;
@@ -130,13 +131,11 @@ export const plantingLayouts: Record<string, PlantingLayout> = {
         {label:'Cloves',path:source('plant_spacing')},
     ]},
     onion_shallot: {...bounds,paired:true,imageMm:14,maxImageMm:14,stages:[
-        {id:'set',image:scene('onion_shallot','position-set-v1'),compact:true},
-        {id:'firm',image:scene('onion_shallot','firm-tip-showing-v1'),compact:true},
-    ],measurements:[
-        {label:'Seed depth (not sets)',path:source('sowing_depth')},
-        {label:'Rows by crop',path:source('row_spacing')},
-        {label:'Plants / clumps',path:source('plant_spacing')},
-    ]},
+        {id:'sow',image:scene('onion_shallot','seed-sow-v1'),alt:'Small seeds covered by a shallow layer of soil.'},
+        {id:'space',image:scene('onion_shallot','seed-space-v1'),alt:'Separate young seedlings at soil level, with roots growing downwards.'},
+        {id:'set',image:scene('onion_shallot','set-tip-v2'),alt:'Soil cutaway: only the pointed tip of the set is above the surface.'},
+        {id:'grow',image:scene('onion_shallot','set-growth-v1'),alt:'One onion bulb on the left; a cluster grown from one shallot set on the right.'},
+    ],measurements:[]},
     lettuce: {...bounds,paired:true,imageMm:14,maxImageMm:14,stages:[
         {id:'sow',image:scene('lettuce','sow-shallowly-v1'),compact:true},
         {id:'thin',image:scene('lettuce','thin-for-type-v1'),compact:true},
@@ -283,8 +282,24 @@ export function resolvePlanting(veg: Vegetable, key: string, units: UnitSystem, 
     const steps = layout.stages.map(stage => {
         const text = content.steps.find(s => s.id === stage.id);
         if (!text || (stage.compact && !text.compact_text)) issue = `Missing planting caption: ${stage.id}`;
-        return {...stage,title:text?.title ?? stage.id,text:(stage.compact ? text?.compact_text : text?.text) ?? ''};
+        return {...stage,title:text?.title ?? stage.id,text:rt(stage.compact ? text?.compact_text : text?.text,units)};
     });
+    const resolveText = (item:typeof content.supplementary[number]) => ({...item,text:rt(item,units)});
+    const routes = (content.routes ?? []).map(route => ({
+        ...route,
+        steps:route.step_ids.flatMap(id => {
+            const step=steps.find(s=>s.id===id);
+            if(!step)issue=`Missing planting route stage: ${id}`;
+            return step?[step]:[];
+        }),
+        notes:route.notes.map(resolveText),
+    }));
+    if(routes.length){
+        const ids=routes.flatMap(r=>r.steps.map(s=>s.id));
+        if(ids.length!==steps.length || new Set(ids).size!==steps.length)
+            issue='Planting routes must include every illustrated stage exactly once';
+    }
+    const supplementary=content.supplementary.map(resolveText);
     const measurements = layout.measurements.map(binding => {
         // Binding must select a single stage/variety; never choose the first dict entry.
         const field = readPlantingSource(veg,binding.path);
@@ -293,6 +308,6 @@ export function resolvePlanting(veg: Vegetable, key: string, units: UnitSystem, 
         if (!value) issue = `Missing ${units} planting measurement: ${binding.path}`;
         return {...binding,value:value ?? ''};
     });
-    return {layout,content,steps,measurements,issue,review};
+    return {layout,content,steps,routes,supplementary,measurements,issue,review};
 }
 export type ResolvedPlanting = NonNullable<ReturnType<typeof resolvePlanting>>;

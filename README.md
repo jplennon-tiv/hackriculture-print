@@ -1,58 +1,54 @@
 # hackriculture-print
 
-Local gardening editor and A4 growing-sheet generator. The canonical data lives
-beside this project in `hackriculture-data`; the website and video projects share it.
+Local gardening editor and print generator. The active publication is a
+UK-focused, non-waterproof POD book at **185 × 240 mm**. A4 sheets remain supported;
+A5/A6 are selectable but unreviewed. Canonical gardening data lives beside this
+repository in `hackriculture-data`, shared with the website and video projects.
 
-Start with `zsh start.command`, then open <http://127.0.0.1:5173>.
-The launcher selects Node 24 and asks privately for a session admin password.
-Keep its terminal open; Control-C stops it. Admin saves and PDF exports need this
-local dev server. No AI service runs during ordinary exports.
+## Start or resume
 
-All 44 vegetable guides, 14 shared Troubles groups, coloured icons, Key Risks
-artwork and all 44 heroes are approved. Richer A vegetables, Open Editorial
-Troubles, cover C, contents and the illustrated how-to are installed for batch
-output. The 30 September vegetable content refinement is approved and installed;
-John reports a successful batch export. See the [current handover](docs/handover/START-HERE.md)
-and [approved content proofs](docs/content-refinement/REVIEW.html). Crop bubbles
-remain on John's list.
+Read [AGENTS.md](AGENTS.md), [SHARED-DATA.md](SHARED-DATA.md) and
+[the current handover](docs/handover/START-HERE.md). The handover is the single
+entry point for current decisions, component status, outstanding work and
+publication/automation boundaries. It distinguishes approved designs from
+working book proofs and historical evidence. Follow John's latest instruction.
 
-**Forward vegetable design: Richer A v1, approved 28 September.** Use the
-[approved reference](docs/vegetable-style-pilot/fresh-c/RICH-A.html) and
-[style contract](docs/VEGETABLE-PRINT-STYLE.md). It combines cover C's visual
-language with the existing guides' full information richness. The [refined title/header design](docs/vegetable-style-pilot/header-refinement/REVIEW.html)
-is also approved and locked (30 September). The shared template is installed; both-unit sizing and representative physical
-A4 proofs are checked. John has accepted the 8.5 mm side text insets for now after test printing.
+The [book review pack](docs/publication/book-preparation/REVIEW.html) contains
+the prepared interiors and drafts. The current title is **The Vegetable Guru** /
+**Your at-a-glance growing companion**. John selected **G2 Cream centre** for the
+front, without the count footer, and now prefers **B5 Off-centre collage** for
+the back. [Cover ideas and preference](docs/publication/vegetable-guru-back-collage/REVIEW.html)
+retain the dark-green, angled-snippet direction. Cover C guides colour and illustration style only. The approved
+compact contents/how-to are now approved by John on 7 October, with book
+integration pending. Find source artwork
+and approvals in the [asset registry](docs/assets/README.md).
 
-**Forward Troubles design: Open Editorial v1, approved 28 September.** Use the
-[approved references](docs/troubles-style-pilot/editorial/REVIEW.html) and
-[Troubles style contract](docs/TROUBLES-PRINT-STYLE.md): open columns, larger
-diagnostic illustrations and content-led density. The live renderer now uses measured, lossless pagination; all 220 conditions
-are covered across 14 guides.
+For the local app, run `zsh start.command` and open <http://127.0.0.1:5173>.
+The launcher selects the pinned Node version and asks privately for a session
+admin password. Keep its terminal open; Control-C stops it. Admin saves and
+browser-rendered PDFs need this server. Normal exports use no AI service.
+Detailed startup and check commands are in [SETUP.md](SETUP.md).
 
-## Start a new session
+## Document ownership
 
-Open this project and ask Codex to read `docs/handover/START-HERE.md`, then describe
-the next task. The project-local [Guide layout review skill](.agents/skills/guide-layout-review/SKILL.md)
-is discoverable from `.agents/skills/` and can be selected automatically for guide
-fit/review work. You can also say “Use $guide-layout-review for these guides.”
-It reuses the project rules and tools; no plugin, new API or external service is
-needed. The handover links the approval evidence, latest rollback and known limits.
+| Document | Use it for |
+| --- | --- |
+| [AGENTS.md](AGENTS.md) | Standing work, editorial, data and verification rules |
+| [Current handover](docs/handover/START-HERE.md) | Current scope, decisions, next actions and exact resume links |
+| [Shared data](SHARED-DATA.md) | Canonical ownership, safe writes and retained catalogue policy |
+| [Book style](docs/BOOK-PRINT-STYLE.md) | Approved compact design and adaptation boundaries |
+| [A4 vegetables](docs/VEGETABLE-PRINT-STYLE.md), [A4 Troubles](docs/TROUBLES-PRINT-STYLE.md) | Retained sheet designs, only when working on A4 |
+| [Asset registry](docs/assets/README.md) | Approved source compositions, illustrations and provenance |
+| [Assisted printing](docs/ASSISTED-PRINT.md) | Preparation, source comparison and proof-review workflow |
+| [Development](DEVELOPMENT.md), [setup](SETUP.md) | Live implementation, export profiles and commands |
+| [Publication research](docs/publication/README.md) | Dated supplier/cost evidence and research limits |
+| [Preparation checkpoint](docs/publication/BOOK-PREPARATION-STATE.json) | Technical coverage, file evidence and incomplete batches |
 
-## Working documents
-
-- [AGENTS.md](AGENTS.md): editing rules and proportionate POC checks.
-- [SETUP.md](SETUP.md): startup, dependencies and quick commands.
-- [DEVELOPMENT.md](DEVELOPMENT.md): current implementation and contracts.
-- [SHARED-DATA.md](SHARED-DATA.md): data ownership and safe writes.
-- [Vegetable print style](docs/VEGETABLE-PRINT-STYLE.md): approved design rules.
-- [Troubles print style](docs/TROUBLES-PRINT-STYLE.md): approved diagnostic-guide design.
-- [Assisted printing](docs/ASSISTED-PRINT.md): preparation and review workflow.
-- [Asset registry](docs/assets/README.md): approved artwork and preserved hashes.
-
-Routine check: `npm test` (small data/layout suite). For a print change, with the
-server running, use `npm run check:smoke -- carrot` or substitute the affected crop.
-It checks readiness, fonts, images and one actual A4 PDF. See SETUP for options.
-Full tests and production builds remain available when the change warrants them.
-
-Historical handovers, completed pilots and disposable proofs were removed at
-John's request. Git holds source history; do not recreate session archives.
+Two repository-local layout skills cover fit, proof review and assisted export:
+[Layout — book pages](.agents/skills/book-layout-review/SKILL.md) for the bound book,
+and [Layout — single sheets](.agents/skills/guide-layout-review/SKILL.md) for
+retained A4 guides. Both allow automatic selection; the sheet skill keeps its
+original `guide-layout-review` identifier.
+Read only the format and implementation details needed for the current task.
+Frozen approvals record decisions at their date; old pending items are not a new
+work queue. Git retains superseded instructions; do not create handover archives.

@@ -93,7 +93,7 @@ describe('additive, source-bound planting content',()=>{
     it('retains nested swede instructions and separate species guidance',()=>{
         const swede=resolvePlanting(data.swede,'swede','metric')!;
         expect(swede.measurements[0].path).toBe('sowing_and_planting.seed_sowing.sowing_depth');
-        expect(swede.content.supplementary.some(t=>t.text.includes('pot-bound'))).toBe(true);
+        expect(swede.supplementary.some(t=>t.text.includes('pot-bound'))).toBe(true);
         const changed=copy('swede');
         (changed.sowing_and_planting!.seed_sowing as Record<string,unknown>).method='Changed sowing method';
         expect(plantingReviewIssue(changed)).toMatch(/changed/);
@@ -118,7 +118,7 @@ describe('additive, source-bound planting content',()=>{
     });
     it('preserves cultivar and conditional routes in the brassica companions',()=>{
         const cabbage=resolvePlanting(data.cabbage,'cabbage','metric')!;
-        expect(cabbage.content.supplementary[0].text).toContain('Chinese cabbage');
+        expect(cabbage.supplementary[0].text).toContain('Chinese cabbage');
         expect(cabbage.measurements.find(m=>m.label==='Final spacing')!.value).toContain('spring greens');
         const cauliflower=resolvePlanting(data.cauliflower,'cauliflower','metric')!;
         expect(cauliflower.measurements.find(m=>m.label==='Final plants')!.value).toContain('mini-cauliflowers');
@@ -128,7 +128,7 @@ describe('additive, source-bound planting content',()=>{
         expect(rt(data.kale.sowing_and_planting!.notes![5],'metric')).toContain('baby leaves');
         expect(kale.measurements.find(m=>m.label==='Transplant height')!.value).toBe('10-15 cm');
         expect(resolvePlanting(data.kale,'kale','imperial')!.measurements.find(m=>m.label==='Transplant height')!.value).toBe('4-6 in.');
-        expect(kale.content.supplementary[0].text).toContain('Rape kale');
+        expect(kale.supplementary[0].text).toContain('Rape kale');
     });
     it('keeps clove cover separate from seed depth and preserves onion routes',()=>{
         const garlic=resolvePlanting(data.garlic,'garlic','metric')!;
@@ -137,13 +137,39 @@ describe('additive, source-bound planting content',()=>{
         expect(garlic.measurements[0].value).toContain('2.5 cm');
         expect(garlic.steps[1].image).toContain('v2.png');
         const onions=resolvePlanting(data.onion_shallot,'onion_shallot','metric')!;
-        expect(onions.measurements[0].label).toBe('Seed depth (not sets)');
-        expect(onions.measurements[2].value).toContain('module clumps');
-        expect(onions.measurements[2].value).toContain('shallots 15–20 cm');
-        expect(onions.content.supplementary[0].text).toContain('Seed route');
+        expect(onions.routes.map(r=>r.id)).toEqual(['seed','sets']);
+        expect(onions.routes[0].steps.map(s=>s.id)).toEqual(['sow','space']);
+        expect(onions.routes[1].steps.map(s=>s.id)).toEqual(['set','grow']);
+        expect(onions.routes[0].steps[0].text).toContain('1.5 cm');
+        expect(onions.routes[0].notes[0].text).toContain('shallots 15–20 cm');
+        expect(onions.routes[1].steps[1].text).toContain('each set makes a cluster');
+        const imperial=resolvePlanting(data.onion_shallot,'onion_shallot','imperial')!;
+        expect(imperial.routes[0].steps[0].text).toContain('5/8 in.');
+        expect(imperial.routes[0].notes[0].text).toContain('shallots 6–8 in.');
+        expect(imperial.supplementary[0].text).toContain('12 in.');
+        expect(imperial.steps.every(s=>!s.text.includes('cm'))).toBe(true);
+        expect(resolvePlanting(data.carrot,'carrot','metric')!.routes).toEqual([]);
         const changed=copy('onion_shallot');
         (changed.sowing_and_planting!.planting as Record<string,unknown>).method='Changed set planting';
         expect(plantingReviewIssue(changed)).toMatch(/changed/);
+    });
+    it('rejects incomplete unit captions and duplicated or missing route stages',()=>{
+        const content=copy('onion_shallot').print_planting!;
+        expect(PlantingPrintContentSchema.safeParse({...content,steps:[{...content.steps[0],text:{metric:'1 cm',imperial:null}},...content.steps.slice(1)]}).success).toBe(false);
+        content.routes![0].step_ids=['sow','sow'];
+        expect(PlantingPrintContentSchema.safeParse(content).success).toBe(false);
+        content.routes![0].step_ids=['sow'];
+        expect(PlantingPrintContentSchema.safeParse(content).success).toBe(false);
+        content.routes![0].step_ids=['sow','missing'];
+        expect(PlantingPrintContentSchema.safeParse(content).success).toBe(false);
+        const veg=copy('onion_shallot');
+        veg.print_planting=content;
+        expect(resolvePlanting(veg,'onion_shallot','metric')!.issue).toMatch(/route/i);
+    });
+    it('detects route-note measurement changes before using stored unit captions',()=>{
+        const veg=copy('onion_shallot');
+        veg.sowing_and_planting!.seed_sowing!.module_spacing={metric:'Changed metric',imperial:'Changed imperial'};
+        expect(plantingReviewIssue(veg)).toMatch(/changed/);
     });
     it('retains leaf-crop variants, nested sowing advice and selected reuse',()=>{
         const oriental=resolvePlanting(data.oriental_leaves,'oriental_leaves','metric')!;
@@ -215,7 +241,7 @@ describe('bounded planting-only fitting',()=>{
         expect(greenhouse.measurements.find(m=>m.label==='Pots / bags / mounds')!.value).toContain('2 per growbag');
         const outdoor=resolvePlanting(data.cucumber_outdoor,'cucumber_outdoor','metric')!;
         expect(outdoor.measurements[0].label).toBe('Direct outdoor seed depth');
-        expect(outdoor.content.supplementary.find(s=>s.id==='direct')!.text).toContain('June');
+        expect(outdoor.supplementary.find(s=>s.id==='direct')!.text).toContain('June');
         const squash=resolvePlanting(data.squash_pumpkin,'squash_pumpkin','metric')!;
         expect(squash.measurements.find(m=>m.label==='Spacing by type')!.value).toContain('giant pumpkins');
     });

@@ -1,0 +1,58 @@
+@font-face{font-family:Lilita;src:url('/fonts/richer-a-1.woff2');font-weight:400}
+@font-face{font-family:Nunito;src:url('/fonts/richer-a-6.woff2');font-weight:100 1000}
+*{box-sizing:border-box}
+body{margin:0;color:#173e2c;background:#fff8e9;font-family:Nunito,sans-serif;font-size:14px;line-height:1.45}
+.sheet{position:relative;width:185mm;height:240mm;padding:12mm 8mm 18mm 17mm;background:#fff8e9;overflow:hidden;break-after:page}
+.sheet.verso{padding-left:8mm;padding-right:17mm}
+h1,h2,h3,p,figure{margin:0}h1,h2,h3{font-family:Lilita,sans-serif;font-weight:400}
+h1{font-size:43px;line-height:1.03;letter-spacing:-.5px;margin:10px 0 13px}
+h1 span{color:#a44007}h2{font-size:27px;line-height:1.08}h3{font-size:22px;line-height:1.12}
+.eyebrow,footer{font-size:10px;font-weight:900;letter-spacing:1.1px}
+.page-header{position:relative;min-height:51mm;padding-right:64mm;margin-bottom:6mm}
+.page-header .harvest{position:absolute;right:-3mm;top:-5mm;width:67mm;height:49mm;object-fit:contain;transform:rotate(-5deg)}
+.page-header p{font-size:13px;line-height:1.45;max-width:96mm}
+.ribbon{display:inline-block;background:#064d32;color:#fff8e9;border-radius:7px 14px 8px 12px;padding:6px 10px;font-size:11.5px;font-weight:900;transform:rotate(-1.5deg);margin:0 0 12px;white-space:nowrap}
+.contents-grid{display:grid;grid-template-columns:1fr 1fr;gap:9mm}
+.family{margin-bottom:5mm}.family:last-child{margin-bottom:0}
+.family h3{color:var(--deep);border-bottom:3px solid var(--soft);padding-bottom:6px;margin-bottom:6px}
+.family ul{list-style:none;padding:0;margin:0}.family li,.trouble-item{display:grid;grid-template-columns:minmax(0,1fr) auto;column-gap:7px;font-size:13px;line-height:1.45;padding:3.3px 0;border-bottom:1px dotted #d4d6bf}
+.page-ref{font-weight:900;font-variant-numeric:tabular-nums}
+.contents-note{font-size:12px;line-height:1.45;margin-top:6mm;max-width:157mm}
+.contents-second .page-header{min-height:44mm;margin-bottom:5mm}
+.contents-second .page-header h1{font-size:39px}.contents-second .page-header p{max-width:90mm}
+.troubles{align-self:start;background:#ffe1b7;padding:5mm 4mm 6mm;border-radius:0 16px 0 16px}
+.troubles h2{font-size:25px;margin:0 0 4mm}.trouble-item{font-size:12.5px;line-height:1.5;padding:4.6px 0;border-color:#cabb9e}
+.troubles .contents-note{font-size:12px;margin-top:5mm}
+.how-header{min-height:50mm;margin-bottom:5mm}
+.how-header h1{font-size:42px}
+.calendar-explainer h2{margin-bottom:3mm}
+.explanation{font-size:14px;line-height:1.5;margin-bottom:5mm}
+.calendar-capture{display:block;width:150mm;max-width:100%;height:auto;margin:5mm auto 6mm}
+.calendar-legend{display:grid;grid-template-columns:1fr 1fr;gap:9mm;margin-top:2mm}
+.climate-group{display:grid;grid-template-columns:27mm 1fr;column-gap:5mm;align-items:center;padding-top:5mm;border-top:1px solid #daceb7}
+.climate-group img{grid-column:1;grid-row:1/4;width:27mm;height:27mm;object-fit:contain}
+.climate-group h3{font-size:24px}.climate-name{font-size:13px;font-weight:900;margin:3px 0 8px}
+.climate-key{display:grid;grid-template-columns:auto 40px;gap:5px 9px;align-items:center;width:max-content;font-size:12px}
+.calendar-chip{width:40px;height:12px;border-radius:6px;box-shadow:inset 0 0 0 1px #173e2c15}
+.scales-header{min-height:43mm;margin-bottom:5mm;padding-right:51mm}
+.scales-header h1{font-size:41px}.scales-header .harvest{width:51mm;height:41mm;top:-1mm}
+.scale-section h2{margin-bottom:3mm}.scale-section .explanation{margin-bottom:4mm}
+.scale-section+.scale-section{border-top:1px solid #daceb7;margin-top:8mm;padding-top:7mm}
+.study-row{display:grid;grid-template-columns:62mm 1fr;gap:7mm;align-items:center;min-height:35mm}
+.specimen{display:flex;align-items:center;justify-content:center;min-width:0}
+.specimen img{display:block;max-width:100%;height:auto}.badge{width:58mm}
+.study-row.water{grid-template-columns:80mm 1fr;gap:8mm}
+.core-window{width:80mm;overflow:hidden}.core{width:80mm;margin-top:-10%}
+.interpretation{min-width:0}.ends{display:grid;grid-template-columns:29mm 1fr 29mm;gap:4px;align-items:center}
+.endpoint{text-align:center}.endpoint img{display:block;width:29mm;height:24mm;object-fit:contain;margin:auto}
+.endpoint figcaption{font-size:14px;font-weight:900;margin-top:3px}.endpoint figcaption span{display:block;font-size:11px;font-weight:900}
+.water .endpoint img{width:25mm;height:25mm}
+.water .ends{grid-template-columns:26mm 1fr 26mm}
+.track{display:flex;justify-content:space-between;gap:4px;align-items:center;margin-top:-24px}
+.track i{width:7px;height:7px;border-radius:50%;background:#a44007;flex:none}
+.track i:nth-child(1){opacity:.2}.track i:nth-child(2){opacity:.4}.track i:nth-child(3){opacity:.6}.track i:nth-child(4){opacity:.8}
+.water-track i{border-radius:2px;background:#4a88bb}
+footer{position:absolute;bottom:8mm;left:17mm;right:8mm;display:flex;justify-content:space-between;align-items:center;font-size:9.8px;line-height:1.4;letter-spacing:.7px}
+.verso footer{left:8mm;right:17mm}.footer-right{white-space:nowrap}
+@media screen{body{background:#e4e7da}.sheet{margin:16px auto;box-shadow:0 4px 20px #173e2c20}}
+@media print{.sheet{margin:0}.sheet:last-child{break-after:auto}}

@@ -1,20 +1,30 @@
 import type { Vegetable } from '../types';
+import type { PrintText } from './vegetablePrint';
 
 /** Editorial companion only: never replaces the detailed gardening record. */
 export interface PlantingPrintText {
     id: string;
-    text: string;
+    text: PrintText;
+    label?: string;
     source_paths: string[];
 }
 export interface PlantingPrintStep extends PlantingPrintText {
     title: string;
     /** An explicitly authored combined caption, not runtime truncation. */
-    compact_text?: string;
+    compact_text?: PrintText;
+}
+export interface PlantingPrintRoute {
+    id: string;
+    title: string;
+    step_ids: string[];
+    notes: PlantingPrintText[];
 }
 export interface PlantingPrintContent {
     version: 1;
     steps: PlantingPrintStep[];
     supplementary: PlantingPrintText[];
+    /** Optional named methods; ungrouped guides keep their original sequence. */
+    routes?: PlantingPrintRoute[];
     /** Only reviewed, existing source notes may be used for white-space top-up. */
     optional_note_paths: string[];
     reviewed_source: string;
@@ -37,7 +47,9 @@ function stable(value: unknown): string {
 }
 
 export function plantingSourcePaths(content: PlantingPrintContent): string[] {
-    return [...new Set([...content.steps, ...content.supplementary].flatMap(s => s.source_paths))].sort();
+    return [...new Set([...content.steps, ...content.supplementary,
+        ...(content.routes ?? []).flatMap(route => route.notes),
+    ].flatMap(s => s.source_paths))].sort();
 }
 
 /** Stable 64-bit change detector, not an authentication/security hash. */

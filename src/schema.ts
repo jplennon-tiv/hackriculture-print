@@ -54,6 +54,7 @@ export const SeedAndGrowingFactsSchema = z
 
 export const SowingAndPlantingSchema = z.looseObject({
     method: UnitTextSchema.nullable().optional(),
+    depth_label: z.enum(['Depth','Seed depth','Planting depth']).optional(),
     row_spacing: StringOrVarietyDict.optional(),
     row_spacing_summary: MeasurementPairSchema.optional(),
     plant_spacing_summary: MeasurementPairSchema.optional(),
@@ -67,18 +68,35 @@ export const SowingAndPlantingSchema = z.looseObject({
 });
 
 const PlantingSourcePath = z.string().regex(/^(sowing_and_planting|looking_after_the_crop)\.[a-zA-Z0-9_.]+$/);
+const PlantingTextSchema = z.union([z.string().trim().min(1), z.looseObject({
+    metric:z.string().trim().min(1), imperial:z.string().trim().min(1),
+})]);
 const PlantingPrintTextSchema = z.looseObject({
     id:z.string().regex(/^[a-z][a-z0-9_-]*$/),
-    text:z.string().trim().min(1),
+    text:PlantingTextSchema,
+    label:z.string().trim().min(1).optional(),
     source_paths:z.array(PlantingSourcePath).min(1),
 });
 export const PlantingPrintContentSchema = z.looseObject({
     version:z.literal(1),
-    steps:z.array(PlantingPrintTextSchema.extend({title:z.string().trim().min(1),compact_text:z.string().trim().min(1).optional()})).min(1).max(4),
+    steps:z.array(PlantingPrintTextSchema.extend({title:z.string().trim().min(1),compact_text:PlantingTextSchema.optional()})).min(1).max(4),
     supplementary:z.array(PlantingPrintTextSchema),
+    routes:z.array(z.looseObject({
+        id:z.string().regex(/^[a-z][a-z0-9_-]*$/),
+        title:z.string().trim().min(1),
+        step_ids:z.array(z.string()).min(1).max(4),
+        notes:z.array(PlantingPrintTextSchema),
+    })).min(1).max(4).optional(),
     optional_note_paths:z.array(PlantingSourcePath),
     reviewed_source:z.string().regex(/^fnv1a64:[0-9a-f]{16}$/),
-}).refine(c => new Set(c.steps.map(s=>s.id)).size === c.steps.length, {message:'Planting step IDs must be unique'});
+}).refine(c => new Set(c.steps.map(s=>s.id)).size === c.steps.length, {message:'Planting step IDs must be unique'})
+  .refine(c => {
+    if(!c.routes)return true;
+    const ids=c.routes.flatMap(r=>r.step_ids);
+    return new Set(c.routes.map(r=>r.id)).size===c.routes.length &&
+        ids.length===c.steps.length && new Set(ids).size===ids.length &&
+        ids.every(id=>c.steps.some(s=>s.id===id));
+  }, {message:'Planting routes must have unique IDs and assign each step exactly once'});
 
 export const InTheKitchenSchema = z.looseObject({
     overview: RankedTextSchema.nullable().optional(),

@@ -1,0 +1,369 @@
+{
+  "date": "2026-10-07",
+  "status": "Unapproved three-page design proposal with user-requested placeholder text",
+  "supplier": "Bookvault",
+  "trimMm": [
+    185,
+    240
+  ],
+  "bleedMm": 3,
+  "physicalFolios": [
+    1,
+    2,
+    3
+  ],
+  "title": "The Vegetable Guru",
+  "subtitle": "Your at-a-glance growing companion",
+  "sources": {
+    "docs/publication/vegetable-guru-grid-variations/assets/G2-centre-title.png": "38a3f3edf5be32e3077439d710036ae5a8d2b68dd27ea1ffccf1c9d05b2f0b24",
+    "docs/front-matter/entry-pages/studies/assets/harvest-cluster.png": "aedba4cc6a729f618e930d6cee05694837e756d4c8bbd669f7689ab6eacd54c7",
+    "public/images/heroes/richer-a/tomato-greenhouse.png": "5e3cd5a884582bd13d74cde606c69c2cd9513cd36fa6845833da469ff3a3c3d7",
+    "public/images/heroes/richer-a/onion-shallot.png": "176e9ab3ea2200bc1981978c822cee0ebeec37d499e621b158a73676277fa486",
+    "public/images/heroes/richer-a/pea.png": "72dacd9636ea428ca82761ab5231274b0a72f30f283f17af8c2a463c8be2c6df",
+    "public/images/heroes/richer-a/carrot.png": "733b775e5e9f87d78669551ca911e39ea3eb61bed6bc54815e64b10c8fbdbfe9",
+    "public/images/heroes/richer-a/kale.png": "e1122f1645dd3b947b96c74ef355e49d33c6cdea37154ef19e7b87f0f8c38f2f"
+  },
+  "protectedApprovedFiles": [
+    {
+      "path": "docs/publication/vegetable-guru-entry-pages/imperial.html",
+      "sha256": "27b14cf84d1957fa542648975218696e0d8243012b7898fba16b57eb4c913b96"
+    },
+    {
+      "path": "docs/publication/vegetable-guru-entry-pages/metric.html",
+      "sha256": "cb08ab308567359111afa5f6a68a4fea07bb2c8d2f9c523958e1d14c1e13421c"
+    },
+    {
+      "path": "docs/publication/vegetable-guru-entry-pages/entry-pages.css",
+      "sha256": "9796fac872f5e80f95799912f2da7dd690734dffa2b7af7336f0b8bcd8c39d43"
+    },
+    {
+      "path": "output/pdf/vegetable-guru-entry-pages/contents-how-to-imperial.pdf",
+      "sha256": "5ba9f43d00c326bab9e4705a320089ac261ca800abd7fe8992589bae980e2a4d"
+    },
+    {
+      "path": "output/pdf/vegetable-guru-entry-pages/contents-how-to-metric.pdf",
+      "sha256": "0e393c159c3e702e4ca7ecb39bd62a3fe25699df0317d345aec1d411100fab20"
+    }
+  ],
+  "placeholderBlocks": {
+    "lead": "Lipsum orum dolor sit amet, consectetur adipiscing elit. Integer vitae mauris at lorem consequat elementum. Curabitur aliquam, augue quis tempus posuere, neque nulla facilisis eros, vitae laoreet neque justo at nibh.",
+    "body1": "Lipsum orum dolor sit amet, consectetur adipiscing elit. Sed ut lectus eu mauris viverra fringilla. Donec posuere, urna non commodo sagittis, justo sapien volutpat felis, vitae aliquam nulla nibh quis metus. Aenean sit amet lacus eget neque varius interdum.",
+    "body2": "Lipsum orum dolor sit amet, consectetur adipiscing elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae. Nulla facilisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+    "short": "Lipsum orum dolor sit amet, consectetur adipiscing elit. Integer vitae mauris at lorem consequat elementum. Nulla facilisi. Sed posuere neque non tellus viverra, vel malesuada arcu interdum.",
+    "quote": "Lipsum orum dolor sit amet, consectetur adipiscing elit.",
+    "credit": "Lipsum orum dolor sit amet, consectetur adipiscing elit. Curabitur aliquam augue quis tempus posuere."
+  },
+  "decisions": [
+    "Title page echoes G2 cream centre, dark green hierarchy and vegetable tiles; native text and existing approved hero files replace the imagegen cover composition for this interior page.",
+    "The title page has no visible folio; it still occupies physical page 1. Pages 2–3 carry edition and physical folio footers.",
+    "All prose blocks use lipsum orum at John’s request. Author, imprint, ISBN and edition are explicit placeholders. No biographical, copyright, rights or publication claims are made.",
+    "Harvest artwork and typography connect the welcome page with approved contents/how-to on pages 4–7. The count footer is not introduced on the title page.",
+    "Separate three-page proofs only. Approved pages 4–7, full-book assemblies, cover art and guides are not regenerated or modified."
+  ],
+  "results": [
+    {
+      "units": "imperial",
+      "html": "docs/publication/vegetable-guru-opening-pages/imperial.html",
+      "pdf": "output/pdf/vegetable-guru-opening-pages/title-publication-welcome-imperial.pdf",
+      "sha256": "2088683c17a173c1ce4c5fae910dbc536daf03d81781fe46c4cfe69a115b9362",
+      "dom": [
+        {
+          "folio": 1,
+          "footerClearanceMm": 16.34166666666668,
+          "overflow": [],
+          "images": [
+            {
+              "src": "/images/heroes/richer-a/tomato-greenhouse.png",
+              "loaded": true,
+              "widthMm": 31.998046875,
+              "heightMm": 40.99801432291667
+            },
+            {
+              "src": "/images/heroes/richer-a/onion-shallot.png",
+              "loaded": true,
+              "widthMm": 31.998046875,
+              "heightMm": 40.99801432291667
+            },
+            {
+              "src": "/images/heroes/richer-a/pea.png",
+              "loaded": true,
+              "widthMm": 32.00218098958333,
+              "heightMm": 40.99801432291667
+            },
+            {
+              "src": "/images/heroes/richer-a/carrot.png",
+              "loaded": true,
+              "widthMm": 31.998046875,
+              "heightMm": 40.99801432291667
+            },
+            {
+              "src": "/images/heroes/richer-a/kale.png",
+              "loaded": true,
+              "widthMm": 31.998046875,
+              "heightMm": 40.99801432291667
+            }
+          ]
+        },
+        {
+          "folio": 2,
+          "footerClearanceMm": 6.684863281249999,
+          "overflow": [],
+          "images": []
+        },
+        {
+          "folio": 3,
+          "footerClearanceMm": 5.932454427083333,
+          "overflow": [],
+          "images": [
+            {
+              "src": "/docs/front-matter/entry-pages/studies/assets/harvest-cluster.png",
+              "loaded": true,
+              "widthMm": 71.01293773651123,
+              "heightMm": 54.650281778971355
+            },
+            {
+              "src": "/images/heroes/richer-a/pea.png",
+              "loaded": true,
+              "widthMm": 34.9994140625,
+              "heightMm": 42.998925781249994
+            }
+          ]
+        }
+      ],
+      "geometry": {
+        "width": 191,
+        "height": 246,
+        "pages": [
+          {
+            "folio": 1,
+            "verso": false,
+            "minTypePt": 7.5,
+            "safeInsetMm": {
+              "left": 17,
+              "right": 5,
+              "top": 5,
+              "bottom": 5
+            },
+            "trimMm": [
+              185,
+              240
+            ],
+            "mediaMm": [
+              191,
+              246
+            ],
+            "trimOffsetMm": [
+              3,
+              3
+            ]
+          },
+          {
+            "folio": 2,
+            "verso": true,
+            "minTypePt": 7.3500000000000005,
+            "safeInsetMm": {
+              "left": 5,
+              "right": 17,
+              "top": 5,
+              "bottom": 5
+            },
+            "trimMm": [
+              185,
+              240
+            ],
+            "mediaMm": [
+              191,
+              246
+            ],
+            "trimOffsetMm": [
+              3,
+              3
+            ]
+          },
+          {
+            "folio": 3,
+            "verso": false,
+            "minTypePt": 7.3500000000000005,
+            "safeInsetMm": {
+              "left": 17,
+              "right": 5,
+              "top": 5,
+              "bottom": 5
+            },
+            "trimMm": [
+              185,
+              240
+            ],
+            "mediaMm": [
+              191,
+              246
+            ],
+            "trimOffsetMm": [
+              3,
+              3
+            ]
+          }
+        ]
+      },
+      "visualReview": "All three page renders inspected; pending user approval"
+    },
+    {
+      "units": "metric",
+      "html": "docs/publication/vegetable-guru-opening-pages/metric.html",
+      "pdf": "output/pdf/vegetable-guru-opening-pages/title-publication-welcome-metric.pdf",
+      "sha256": "fe814359d6ea834a5f685d102e8f6d318ef084ce17da97441b8a796a62c8f96a",
+      "dom": [
+        {
+          "folio": 1,
+          "footerClearanceMm": 16.34166666666668,
+          "overflow": [],
+          "images": [
+            {
+              "src": "/images/heroes/richer-a/tomato-greenhouse.png",
+              "loaded": true,
+              "widthMm": 31.998046875,
+              "heightMm": 40.99801432291667
+            },
+            {
+              "src": "/images/heroes/richer-a/onion-shallot.png",
+              "loaded": true,
+              "widthMm": 31.998046875,
+              "heightMm": 40.99801432291667
+            },
+            {
+              "src": "/images/heroes/richer-a/pea.png",
+              "loaded": true,
+              "widthMm": 32.00218098958333,
+              "heightMm": 40.99801432291667
+            },
+            {
+              "src": "/images/heroes/richer-a/carrot.png",
+              "loaded": true,
+              "widthMm": 31.998046875,
+              "heightMm": 40.99801432291667
+            },
+            {
+              "src": "/images/heroes/richer-a/kale.png",
+              "loaded": true,
+              "widthMm": 31.998046875,
+              "heightMm": 40.99801432291667
+            }
+          ]
+        },
+        {
+          "folio": 2,
+          "footerClearanceMm": 6.684863281249999,
+          "overflow": [],
+          "images": []
+        },
+        {
+          "folio": 3,
+          "footerClearanceMm": 5.932454427083333,
+          "overflow": [],
+          "images": [
+            {
+              "src": "/docs/front-matter/entry-pages/studies/assets/harvest-cluster.png",
+              "loaded": true,
+              "widthMm": 71.01293773651123,
+              "heightMm": 54.650281778971355
+            },
+            {
+              "src": "/images/heroes/richer-a/pea.png",
+              "loaded": true,
+              "widthMm": 34.9994140625,
+              "heightMm": 42.998925781249994
+            }
+          ]
+        }
+      ],
+      "geometry": {
+        "width": 191,
+        "height": 246,
+        "pages": [
+          {
+            "folio": 1,
+            "verso": false,
+            "minTypePt": 7.5,
+            "safeInsetMm": {
+              "left": 17,
+              "right": 5,
+              "top": 5,
+              "bottom": 5
+            },
+            "trimMm": [
+              185,
+              240
+            ],
+            "mediaMm": [
+              191,
+              246
+            ],
+            "trimOffsetMm": [
+              3,
+              3
+            ]
+          },
+          {
+            "folio": 2,
+            "verso": true,
+            "minTypePt": 7.3500000000000005,
+            "safeInsetMm": {
+              "left": 5,
+              "right": 17,
+              "top": 5,
+              "bottom": 5
+            },
+            "trimMm": [
+              185,
+              240
+            ],
+            "mediaMm": [
+              191,
+              246
+            ],
+            "trimOffsetMm": [
+              3,
+              3
+            ]
+          },
+          {
+            "folio": 3,
+            "verso": false,
+            "minTypePt": 7.3500000000000005,
+            "safeInsetMm": {
+              "left": 17,
+              "right": 5,
+              "top": 5,
+              "bottom": 5
+            },
+            "trimMm": [
+              185,
+              240
+            ],
+            "mediaMm": [
+              191,
+              246
+            ],
+            "trimOffsetMm": [
+              3,
+              3
+            ]
+          }
+        ]
+      },
+      "visualReview": "All three page renders inspected; pending user approval"
+    }
+  ],
+  "approvedFilesUnchanged": true,
+  "implementation": {
+    "builderSha256": "d709b5ded2bd9714ef43a64d5e741a364bce86fd4a3786d6116ba8ea7b13e507",
+    "cssSha256": "d49606c938ed3581de14b69bd5f96154c39e54a831719525ab774eda65ceabc8",
+    "checkerSha256": "6ab51fb5df815fd2306c1a73375564d52a697a0afdd9da6342bc08aed03f9a98"
+  },
+  "visualReview": {
+    "status": "reviewed by Codex; awaiting John’s design review",
+    "date": "2026-10-07",
+    "coverage": "All six actual PDF page renders, both units; compared with G2 and approved entry pages. No missing images, text clipping or overlaps found. Gallery and facing-spread screenshot also checked.",
+    "galleryLinksChecked": 11
+  }
+}

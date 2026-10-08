@@ -86,8 +86,8 @@ function difficultyInfo(
     // 5-level scale — badge always uses the page's category colour
     const bg = categoryColour;
     if (!d || d <= 1) return { label: "Easy", bg };
-    if (d === 2) return { label: "Not Difficult", bg };
-    if (d === 3) return { label: "Not Easy", bg };
+    if (d === 2) return { label: "Fairly Easy", bg };
+    if (d === 3) return { label: "Medium", bg };
     if (d === 4) return { label: "Tricky", bg };
     return { label: "Difficult", bg };
 }

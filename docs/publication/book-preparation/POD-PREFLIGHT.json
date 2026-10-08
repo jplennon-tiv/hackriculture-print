@@ -1,0 +1,335 @@
+{
+  "checkedAtUtc": "2026-10-06T08:10:57.131988+00:00",
+  "status": "research_in_progress_not_upload_ready",
+  "sources": [
+    {
+      "url": "https://kdp.amazon.com/en_US/help/topic/G201834180",
+      "facts": "Paperback custom trim bounds accommodate 185 x 240 mm. Both dimensions put it in the large-trim price band. Premium colour uses nominal 88\u2013105 gsm white paper; standard colour nominal 74\u201390 gsm white paper, with location-dependent variation.",
+      "unresolved": "Official calculator now accepts custom 185 x 240 mm for both standard and premium colour. File acceptance still needs the project-specific unpublished title/Previewer, after metadata decisions."
+    },
+    {
+      "url": "https://kdp.amazon.com/en_US/help/topic/G201857950",
+      "facts": "KDP requires single pages, embedded fonts, at least 7 pt type and 300 dpi images. Full-bleed interior pages need 3.175 mm beyond top, bottom and outside trim edges; covers need bleed on every edge. Transparency requires flattening before submission. Draft placeholders must be removed before upload. Sequential folios must match left/right page parity."
+    },
+    {
+      "url": "https://help.bookvault.app/what-is-bleed-and-why-do-i-need-it",
+      "facts": "Bookvault normally requires 3 mm of real extended artwork at each trimmed edge, giving 191 x 246 mm full-bleed pages for 185 x 240 mm trim. No printer marks. Confirm against the generated specification template."
+    },
+    {
+      "url": "https://help.bookvault.app/guide-downloading-bookvault-templates",
+      "facts": "The anonymous quote tool can provide sizing templates before a title is created. Cover dimensions and spine must use the selected binding, trim and page count."
+    },
+    {
+      "url": "https://help.bookvault.app/what-does-the-bookvault-file-validation-check-for",
+      "facts": "Bookvault checks corruption, dimensions, page count, font embedding and indicated barcode presence. Passing validation does not check transparency or actual artwork extension into bleed. PDF/X-1a:2001 or PDF/X-3:2002 is recommended where possible."
+    },
+    {
+      "url": "https://kdp.amazon.com/en_US/help/topic/GVBQ3CMEQW3W2VL6/",
+      "facts": "KDP publishes 12.7 mm inside margin for 151\u2013300 pages and 9.6 mm top/bottom/outside margins for bleed manuscripts. Apply margins in the correct full-bleed file coordinate system; do not confuse bleed-edge and trim-edge distances."
+    },
+    {
+      "url": "https://kdp.amazon.com/en_US/help/topic/G201834340",
+      "facts": "UK large-trim colour tariff rechecked on 6 October: standard GBP0.85 + GBP0.027/page; premium GBP0.85 + GBP0.0598/page. Public rates agree with calculator scenario."
+    },
+    {
+      "url": "https://kdp.amazon.com/en_US/help/topic/G202145060",
+      "facts": "Paperback file conversion limit is 650 MB. Remove placeholders and non-printing objects, embed fonts/images, flatten transparency. Guidelines also specify minimum 0.75 pt lines; full line-weight and transparency preflight remain pending."
+    },
+    {
+      "url": "https://help.bookvault.app/what-format-do-my-files-need-to-be-in",
+      "facts": "Digital print-ready PDFs; PDF/X-1a:2001 or PDF/X-3:2002 recommended. Exact template supplied for specification."
+    }
+  ],
+  "projectImplications": [
+    "One coherent 116-guide KDP build is assembled into 148 pages per edition: 7 opening +92 vegetable +45 Troubles +4 explicit blanks. All 44 vegetable first-two-page pairs face. Every physical folio/box and saved content stream checked; 8 assembly raster comparisons are pixel-identical. All 288 current content pages visually reviewed in both units, with hash-matched receipts; no collection approval.",
+    "40 two-page crops and four three-page crops retain useful advice, 9 pt main type and artwork. New copy remains source-linked drafts; canonical records and frozen references unchanged.",
+    "Opening contents regenerated from the exact final assembly plan and hash-bound to it; all 14 opening pages visually inspected. The assembled review files still contain publishing placeholders.",
+    "Two cover concepts remain separate front/back panels. Published KDP spine factors are recorded for both colour stocks; neither stock nor final wrap is approved.",
+    "Fresh live 148-page KDP calculator confirms standard printing GBP4.85 /author royalty GBP10.15 and premium GBP9.70 /GBP5.30 at GBP25 list. Bookvault public calculator shows GBP5.69/5.52/5.41/5.12 at 1-99/100-249/250-499/500+ copies on 115 gsm coated stock. Delivery, applicable tax and setup treatment remain separate; historical 180-page scenarios are not current costs.",
+    "Bookvault 17 mm inner /8 mm outer adaptation now exported and physically checked for all 116 guides, with identical per-page text/count/start folios to KDP; 16 representative guide pages plus all 14 opening pages visually reviewed. 148-page plan in both units. Fresh cover template still has filename-versus-geometry spine mismatch (8.436 versus 8 mm); no final wrap.",
+    "Transparency remains in all 116 KDP guides. Corrected stroke audit reads ExtGState /LW and drawing transforms; candidate widths are 0.20089\u20130.71875 pt and lie in small icon-sized paths (largest extent 14.734 pt). Thin filled rectangles are <=11.321 pt long. No long layout separator was flagged by this scope, but icon line quality and broader filled-shape/PDF-standard validation remain. The earlier raw zero-width extraction was not a true hairline result.",
+    "Four separate flattened review books are now saved at about302MB each,148pages. Original source assemblies remain unchanged. Fine physical icon detail and final supplier/PDF requirements are unresolved; title/rights/ISBN decisions still precede an account trial."
+  ],
+  "accountActions": "None: no KDP title or existing draft changed, uploaded, approved or published; no Bookvault setup or payment.",
+  "calculatorEvidence": {
+    "source": "https://kdp.amazon.com/en_US/royalty-calculator",
+    "checkedAtUtc": "2026-10-06T01:32:50.111774+00:00",
+    "method": "Signed-in official calculator; visible inputs and returned Amazon.co.uk result; no title change or upload",
+    "trimMm": [
+      185,
+      240
+    ],
+    "binding": "Paperback",
+    "pages": 180,
+    "pageCountStatus": "Historical 180-page scenario, superseded by the measured 148-page review plan. Retained as evidence that the exact custom trim accepted both colour options.",
+    "listPriceGbp": 25,
+    "standardColour": {
+      "printCostGbp": 5.71,
+      "royaltyRate": 0.6,
+      "estimatedRoyaltyGbp": 9.29,
+      "minimumListPriceGbp": 9.52
+    },
+    "premiumColour": {
+      "printCostGbp": 11.61,
+      "royaltyRate": 0.6,
+      "estimatedRoyaltyGbp": 3.39,
+      "minimumListPriceGbp": 19.36
+    },
+    "qualification": "Author royalty is after Amazon retail share and printing, before any author tax/other costs. Customer delivery is governed by Amazon checkout and is not included in this calculator; GBP25 list is not a guaranteed GBP25 delivered price."
+  },
+  "bookvaultEvidence": {
+    "source": "https://quote.bookvault.app/",
+    "checkedAtUtc": "2026-10-06T01:32:50.111774+00:00",
+    "method": "Public anonymous quote UI; no uploaded file, account setup or order",
+    "trimMm": [
+      185,
+      240
+    ],
+    "pages": 180,
+    "binding": "Perfect Bound",
+    "cover": "Cover Board, matt lamination",
+    "textStock": "115gsm Coated",
+    "printing": "Full Colour; Enable Toner Printing unchecked",
+    "ukPerCopyGbp": {
+      "1-99": 6.69,
+      "100-249": 6.49,
+      "250-499": 6.36,
+      "500+": 6.02
+    },
+    "setupFeeShownGbpExTax": 16.63,
+    "listPriceGbp": 25,
+    "availableSalesDiscountPercent": 35,
+    "retailResults": {
+      "direct": {
+        "productionGbp": 6.69,
+        "shownProfitGbp": 18.31
+      },
+      "greatBritishBookshop": {
+        "distributionGbp": 1.25,
+        "retailerGbp": 1.25,
+        "productionGbp": 6.36,
+        "shownProfitGbp": 16.14
+      },
+      "amazonViaBookvault": {
+        "distributionGbp": 1.25,
+        "retailerGbp": 7.5,
+        "productionGbp": 6.69,
+        "shownProfitGbp": 9.56
+      }
+    },
+    "qualification": "Website estimates, not a firm quote or commitment. Shown profit excludes unverified customer delivery, author tax/advertising and allocation of setup costs; do not treat it as net profit at GBP25 delivered. Retail tool uses its own discounted Bookshop production cost. Print-tax treatment not independently confirmed. Pagination may change under Bookvault gutter guidance."
+  },
+  "bookvaultTemplates": {
+    "downloadedAtUtc": "2026-10-06T01:32:50.111774+00:00",
+    "specification": "185 x 240 mm; 180 full-colour interior pages, 115gsm Coated, Perfect Bound",
+    "files": [
+      {
+        "path": "docs/publication/book-preparation/supplier-templates/v4_Text_240_185.pdf",
+        "source": "https://bookvault-template.s3.eu-west-1.amazonaws.com/v4_Text_240_185.pdf",
+        "sha256": "3c2d58795c371d8ca5e20f2145d3e15b73ea22dfa30ac86203023eaf2fbf02ee"
+      },
+      {
+        "path": "docs/publication/book-preparation/supplier-templates/v4_PerfectBound_Cover_240_185_10.26.pdf",
+        "source": "https://bookvault-template.s3.eu-west-1.amazonaws.com/v4_PerfectBound_Cover_240_185_10.26.pdf",
+        "sha256": "0fc2195acefbddca7de706ff6b1097dd71cb54a68e922704a99c3db0d191a548"
+      }
+    ],
+    "interior": "PDF media 191 x 246 mm. Template states 3 mm bleed, 5 mm safety and 17 mm binding-edge safety. Current 116-guide Bookvault adaptation uses 17 mm inside/8 mm outside, preserving 160 mm body width and all KDP page text/counts. Both seven-page openings pass the separate 17 mm safety checks. See BOOKVAULT-ADAPTATION.json; no supplier approval.",
+    "cover": "Generated filename contains 10.26, but PDF text labels a 10 mm spine and physical media measures 386 x 246 mm. Record this discrepancy; do not treat filename-derived 386.26 mm as verified final artwork geometry. Final stock/pagination and supplier template need agreement before cover wrap."
+  },
+  "currentTariffCalculation": {
+    "checkedAtUtc": "2026-10-06T08:10:57.131988+00:00",
+    "source": "https://kdp.amazon.com/en_US/help/topic/G201834340",
+    "method": "Calculated from official UK large-trim tariff freshly read on 6 October; not a new live-calculator result or firm quote.",
+    "pages": 148,
+    "trimMm": [
+      185,
+      240
+    ],
+    "listPriceGbp": 25,
+    "currency": "GBP",
+    "standardColour": {
+      "fixed": 0.85,
+      "perPage": 0.027,
+      "printCost": 4.85,
+      "estimatedAuthorRoyaltyAt25": 10.15
+    },
+    "premiumColour": {
+      "fixed": 0.85,
+      "perPage": 0.0598,
+      "printCost": 9.7,
+      "estimatedAuthorRoyaltyAt25": 5.3
+    },
+    "facingBlankPageIncrement": {
+      "pages": 4,
+      "standardColour": 0.108,
+      "premiumColour": 0.2392
+    },
+    "qualification": "60% author royalty less printing, before author tax/advertising. Customer delivery is separate at Amazon checkout; GBP25 list is not a guaranteed GBP25 delivered price. This tariff calculation is now corroborated by kdp148PageCalculatorEvidence; Bookvault148PageEvidence separately costs its own 148-page adaptation."
+  },
+  "spinePlanning": {
+    "source": "https://kdp.amazon.com/en_US/help/topic/G201953020",
+    "checkedAtUtc": "2026-10-06T08:10:57.131988+00:00",
+    "pages": 148,
+    "standardColourMm": 8.4657184,
+    "premiumColourMm": 8.822842399999999,
+    "qualification": "Supplier published stock factors applied to the measured review count. Stock remains unchosen; no final cover wrap approved. Obtain the matching supplier template before final artwork."
+  },
+  "localAssemblyEvidence": {
+    "checkedAtUtc": "2026-10-06T08:38:50.877824+00:00",
+    "receipt": "ASSEMBLY-CHECKS.json",
+    "rasterReceipt": "ASSEMBLY-RASTER-CHECKS.json",
+    "pagesPerEdition": 148,
+    "bytes": {
+      "imperial": 565948234,
+      "metric": 565943774
+    },
+    "qualification": "Both below published KDP 650 MB limit; not upload-ready. Geometry success does not resolve transparency, line weights, publishing placeholders or cover stock."
+  },
+  "bookvault148PageEvidence": {
+    "source": "https://quote.bookvault.app/",
+    "checkedAtUtc": "2026-10-06T09:25:23.567232+00:00",
+    "method": "Public anonymous calculator; changed colour pages from 180 to measured 148 and reapplied GBP25 retail calculation. Observed final prices and selected specifications; no account/order/upload.",
+    "trimMm": [
+      185,
+      240
+    ],
+    "pages": 148,
+    "binding": "Perfect Bound",
+    "cover": "Cover Board, matt lamination",
+    "textStock": "115gsm Coated",
+    "printing": "Full Colour; Enable Toner Printing unchecked",
+    "ukPerCopyGbp": {
+      "1-99": 5.69,
+      "100-249": 5.52,
+      "250-499": 5.41,
+      "500+": 5.12
+    },
+    "myBookvaultSetupGbpExTax": 16.63,
+    "retailPriceGbp": 25,
+    "retailCalculatorDisplayed": {
+      "direct": {
+        "print": 5.69,
+        "displayedProfit": 19.31
+      },
+      "greatBritishBookshop": {
+        "print": 5.41,
+        "distributionFee": 1.25,
+        "retailerFee": 1.25,
+        "displayedProfit": 17.09
+      },
+      "amazon": {
+        "print": 5.69,
+        "distributionFee": 1.25,
+        "retailerFee": 7.5,
+        "displayedProfit": 10.56
+      }
+    },
+    "qualification": "Website estimates, not a firm quote or order. Direct displayed profit excludes customer postage, payment-processing, tax where applicable, setup allocation, returns and other selling costs. Delivery not quoted because no customer destination/postcode selected. No Amazon availability or delivered-price guarantee. Stock unapproved.",
+    "coverTemplateUrl": "https://bookvault-template.s3.eu-west-1.amazonaws.com/v4_PerfectBound_Cover_240_185_8.436.pdf",
+    "coverTemplateStatus": "Downloaded directly from the public UI-generated URL after the browser download-event timeout. Parsed PDF: 384 x 246 mm document, 185 x 240 mm panels, 3 mm bleed, printed spine 8 mm. Filename encodes 8.436 mm. Discrepancy persists at the new measured page count; do not invent a final spine or wrap.",
+    "coverTemplateLocal": "docs/publication/book-preparation/supplier-templates/v4_PerfectBound_Cover_240_185_8.436.pdf",
+    "coverTemplateSha256": "73576f2d28b5b7b9d4780fa2c5126f878cd8da0550aa4fb8ab04ca29a541a39c",
+    "coverTemplateMeasuredMm": {
+      "width": 384.0000222222222,
+      "height": 246.00005833333333,
+      "spine": 8,
+      "filenameSpine": 8.436
+    }
+  },
+  "kdp148PageCalculatorEvidence": {
+    "source": "https://kdp.amazon.com/en_US/royalty-calculator",
+    "checkedAtUtc": "2026-10-06T09:34:03.533425+00:00",
+    "method": "Live public calculator submitted separately for premium and standard colour. Both final Amazon.co.uk result rows read after submitting 148 pages, custom 185 x 240 mm, paperback and GBP25 list price. No title/account/upload action.",
+    "pages": 148,
+    "trimMm": [
+      185,
+      240
+    ],
+    "listPriceGbp": 25,
+    "royaltyPercent": 60,
+    "standardColour": {
+      "printingGbp": 4.85,
+      "authorRoyaltyGbp": 10.15,
+      "minimumListGbp": 8.08
+    },
+    "premiumColour": {
+      "printingGbp": 9.7,
+      "authorRoyaltyGbp": 5.3,
+      "minimumListGbp": 16.17
+    },
+    "qualification": "Calculator estimates, not a firm quote or acceptance of the manuscript. Author receipts exclude author tax/advertising; Amazon checkout delivery is separate and GBP25 list price is not guaranteed GBP25 delivered."
+  },
+  "browserLimitations": {
+    "atUtc": "2026-10-06T09:34:03.533425+00:00",
+    "description": "After successful public calculator reads, reselecting the earlier KDP bookshelf tab timed out during browser focus setup. No account mutation or upload attempted. Calculator handoff marks succeeded; do not assume the bookshelf session remains accessible. Reinspect in a later authorised turn without repeated attempts."
+  },
+  "prepressCheckpoint": {
+    "checkedAtUtc": "2026-10-06T10:54:50.956033+00:00",
+    "status": "Four local flattened148-page interior drafts complete; all source/assembly checks pass, representative PDFs visually inspected. Not supplier-approved or upload-ready.",
+    "requirementsSources": [
+      "https://kdp.amazon.com/en_US/help/topic/G201857950",
+      "https://kdp.amazon.com/en_US/help/topic/G202145060"
+    ],
+    "method": "Native opaque vector text retained; artwork composited to600dpi RGB, lossless encoded. Each page is tested for original text/fonts/colours/geometry, embedded fonts, absent transparency and bounded raster change. Not PDF/X or CMYK, not pixel-identical artwork.",
+    "fineLineLimit": "Corrected audit identifies icon-sized strokes down to0.20089pt. Flattening does not widen physical detail or demonstrate compliance with KDP0.75pt graphic-line guidance. Preserve original icons pending deliberate print-quality resolution.",
+    "receipts": [
+      "FLATTENED-KDP.json",
+      "FLATTENED-BOOKVAULT.json",
+      "FLATTENED-VISUAL.json",
+      "ASSEMBLY-FLATTENED-KDP.json",
+      "ASSEMBLY-FLATTENED-BOOKVAULT.json",
+      "FLATTENED-ASSEMBLY-CHECKS-KDP.json",
+      "FLATTENED-ASSEMBLY-CHECKS-BOOKVAULT.json",
+      "FLATTENED-ASSEMBLY-VISUAL.json"
+    ],
+    "accountActions": "None.",
+    "sourceDerivativePdfs": 236,
+    "sourceDerivativeContentPages": 576,
+    "assembledPhysicalPagesChecked": 592,
+    "sampledAssemblyPixelComparisons": 16,
+    "representativeSourceVisualPages": 24,
+    "representativeAssemblyVisualPages": 24,
+    "outputs": [
+      {
+        "supplier": "kdp",
+        "units": "imperial",
+        "pdf": "output/pdf/book-preparation/compact-book-imperial-flattened-review.pdf",
+        "sha256": "04ccc36c139fc191ec6489a36789fa4eec0ae1263d0f00268fc692d381480d01",
+        "bytes": 301719014,
+        "pages": 148
+      },
+      {
+        "supplier": "kdp",
+        "units": "metric",
+        "pdf": "output/pdf/book-preparation/compact-book-metric-flattened-review.pdf",
+        "sha256": "44d5b75812c1416ceb8eef8d96005a2236249ba1e66ce98854e9ccd25ecf4cba",
+        "bytes": 301733423,
+        "pages": 148
+      },
+      {
+        "supplier": "bookvault",
+        "units": "imperial",
+        "pdf": "output/pdf/book-preparation/compact-book-imperial-bookvault-flattened-review.pdf",
+        "sha256": "c612bf238e2661925dfef0a11c368075b2cc9f95481ded82017fdb262b2fa386",
+        "bytes": 301662793,
+        "pages": 148
+      },
+      {
+        "supplier": "bookvault",
+        "units": "metric",
+        "pdf": "output/pdf/book-preparation/compact-book-metric-bookvault-flattened-review.pdf",
+        "sha256": "fabe27496ad2d132d418a41858f80220d0e1429a9caa76d31b93d4a079dd8528",
+        "bytes": 301687081,
+        "pages": 148
+      }
+    ]
+  },
+  "aiDisclosurePreparation": {
+    "checkedAtUtc": "2026-10-06T10:29:23.965566+00:00",
+    "source": "https://kdp.amazon.com/en_US/help/topic/G200672390",
+    "officialRuleSummary": "KDP asks about AI-generated text, images and translations. Content initially created by AI remains generated under this definition after editing; AI assistance editing human-written content is treated differently.",
+    "projectApplication": "New opening copy and listing text were drafted by AI, and the book contains generated illustrations. John should confirm the actual accepted text/artwork scope and answer the account questions accurately. This is provenance preparation, not a declaration or rights determination.",
+    "accountAction": "None; do not answer declarations for John."
+  }
+}

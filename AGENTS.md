@@ -1,59 +1,113 @@
-# Coding rules
+# Project instructions
 
-John's editorial clarification (22 September): state the practical organic
-control directly and move on. Do not mention chemical alternatives merely to
-dismiss them or add ideological commentary. Preserve useful diagnostic or
-safety information; this is a rule about unnecessary reader-facing comparisons.
+## Read and resolve scope
 
-John’s normalisation rules (22 September): check meaning as well as schema—
-import headings are not crop types; inspect duplicate identities, misplaced
-crop advice, contradictory fields and suspicious keys/prose. Preserve uncertain
-material and record it for review. Round practical gardening dimensions to easy
-numbers where useful (approximately 10–15% either way is acceptable), retaining
-coherent metric/imperial pairs and growing context. Do not mechanically apply a
-percentage rule to temperatures, pH, treatment quantities or biological limits.
+Read [README.md](README.md), [SHARED-DATA.md](SHARED-DATA.md), then
+[the current handover](docs/handover/START-HERE.md). Read only relevant
+[DEVELOPMENT.md](DEVELOPMENT.md) sections; use [SETUP.md](SETUP.md) for startup
+and dependencies. John's latest instruction takes precedence over older records.
 
-- John's standing preference (21 September): organic control methods only.
-  He authorises researched replacements of chemical pest/disease prescriptions
-  in the canonical master, with exact prior-byte backups and honest AI attribution.
-  Update affected print dependencies and re-present changed proofs for review.
+The handover owns current scope, decisions and next actions. Style contracts own
+approved design rules; the asset registry identifies their source material.
+Publication reports and JSON checkpoints hold evidence and technical progress.
+Dated approvals, completed proposals and old automation prompts are historical
+evidence, not instructions to restart work or grant approval to new work.
+Replace superseded guidance in place rather than appending contradictory updates.
 
-- Pest tables: select distinct, useful, crop-applicable problems before measuring.
-  No blanket row count, and no first-overflow cutoff as the final decision.
-  Merge duplicate labels, condense table prose while preserving full master
-  advice, then remeasure after edits and inspect actual PDFs in both units.
-  Record why useful candidates were omitted; do not force differing counts.
+## Publication and design
 
-Read README.md and SHARED-DATA.md first, then only the DEVELOPMENT.md sections relevant to the requested work. Read SETUP.md when working on startup or dependencies.
+The current project is the UK-focused, non-waterproof POD book at **185 × 240 mm**,
+with the full collection. This is the web generator default. Follow
+[Compact Book v1](docs/BOOK-PRINT-STYLE.md); preserve its frozen references,
+enlarged hero, coloured circle, top-right difficulty sticker, reminder banner
+and aligned Troubles text edges. Three/four-page crops are allowed to preserve
+useful content. Guide design approval is not full-book or supplier approval.
 
-For guide fit, whitespace, overflow, proof review or assisted guide export, use
-[guide-layout-review](.agents/skills/guide-layout-review/SKILL.md). It is a
-repository-local skill with automatic selection enabled. Its workflow links to
-the maintained contracts below; it does not replace them.
+Before adapting any component, identify its approved source in the
+[asset registry](docs/assets/README.md), inspect it and carry forward its artwork,
+useful content and accepted choices. Compare the new proof with that source as
+well as checking fit. Record intentional omissions/replacements; do not silently
+substitute a new design because the trim or binding changed. John’s 7 October
+cover reset explicitly calls for a fresh compact cover after rejecting C1/C2;
+Cover C is no longer its required starting point. The approved contents/how-to
+remain the sources for compact adaptation. Keep all approved A4 originals intact. Excluding A4-sized PDFs and old folios from compact exports
+does not exclude reusing those designs and explanations.
 
-For vegetable print/editorial/layout work, also read `docs/VEGETABLE-PRINT-STYLE.md`.
-It is John's approved style contract: fit first, column-bottom alignment second,
-useful whitespace filling third; full-width Final Tips remains the default.
+A4 remains supported: its [Richer A vegetable contract](docs/VEGETABLE-PRINT-STYLE.md)
+and [Open Editorial Troubles contract](docs/TROUBLES-PRINT-STYLE.md) govern A4 only.
+Do not revive retired dark widget bars, fixed-height cards or legacy margins.
+Keep format-specific changes separate. A5/A6 remain selectable, not validated.
 
-- Forward Troubles design (John, 28 September): **Open Editorial v1** is approved and locked. Read `docs/TROUBLES-PRINT-STYLE.md`. Use open columns, natural entry heights and larger uncropped diagnostic illustrations; six entries per page is demonstrated density, not a quota. Do not revive padded fixed-height cards for new design work. Preserve the hashed references under `docs/troubles-style-pilot/editorial/`; the live template is installed and representative A4 PDFs have been validated.
+For fit, whitespace, overflow, proof review or assisted guide export, use
+[book-layout-review](.agents/skills/book-layout-review/SKILL.md) for bound book
+pages, or the retained [guide-layout-review](.agents/skills/guide-layout-review/SKILL.md)
+for individual A4 sheets, together with
+[ASSISTED-PRINT.md](docs/ASSISTED-PRINT.md). Prepare, measure and inspect actual
+PDFs; ordinary browser export remains deterministic without an external AI API.
 
-- Preferred PDF workflow (John, 19 September): requests here to "generate the troubles pages" or "generate the vegetables pages" mean assisted preparation and export, not merely pressing batch. Follow `docs/ASSISTED-PRINT.md`: measure, edit source-linked print companions where needed, render/review and save a resume point. Preserve full master advice. Existing browser exports remain deterministic; no external AI API integration requested.
+For The Vegetable Guru vegetable illustration generation, restyling or style
+comparison, use [vegetable-guru-artwork](.agents/skills/vegetable-guru-artwork/SKILL.md).
+Use approved vegetable heroes as direct style references and compare representative
+samples before expanding a batch; matching colours alone is insufficient.
 
-- Keep work focused and replies concise; the user wants to conserve credits. Inspect the owning implementation and nearby tests. Avoid repeated broad scans, unrelated improvements and full-catalogue renders. Do not spawn agents unless explicitly requested.
-- Preserve existing user edits. This project now has Git history. Keep local pre-edit backups for shared JSON under `../hackriculture-data/backups/`; use Git for code and documentation history. Do not create whole-project checkpoints or copy artwork, output PDFs, dist or dependencies into data backups. John authorises pruning superseded backups; keep the latest rollback and unresolved transactions.
-- Forward vegetable design (John, 28 September): **Richer A v1** is approved and locked. Follow `docs/VEGETABLE-PRINT-STYLE.md` and its hashed reference proofs. Preserve its full information richness, cover-C typography/art direction, facts/icons and 1–5 needs scales. Earlier staggered layout/dark-heading rules apply only to retained legacy code; do not revive superseded experiments. Richer A is installed; all 44 heroes, refined headers and the 30 September content-refinement batch are approved. See the current handover for evidence and remaining limits.
-- Gardening JSON lives only in `../hackriculture-data/`. Never recreate source/root mirrors. Every admin data mutation must preserve the previous bytes in `../hackriculture-data/backups/admin/` using the existing dated version scheme.
-- Preserve keyed objects, unknown fields, ranked text, measurement pairs and cyclic `--MM` month values. Keep `src/types.ts`, Zod schemas and admin validation aligned. Reuse `src/lib/` helpers.
-- Admin saves and PDF generation require the Vite dev server. Use `start.command` and loopback only. Never put credentials in chat or project files.
-- John's POC verification policy (24 September) supersedes earlier full-suite/batch requirements: use the smallest relevant unit test or quick sizing/smoke check. `npm test` is the small routine suite; `npm run check:smoke -- <crop>` checks one real A4 PDF, fonts/images and login; `check:fit` is DOM-only. Use both units for unit/wrapping changes and another crop only for a relevant shared-layout change. No automatic full tests, production builds, catalogue runs, raster packs or cross-project checks after a small edit. `test:all`, `check:types` and `build` remain available when the scope/failure warrants them. Documentation-only work needs link/content checks.
-- Cleanup policy (John, 24 September): remove superseded handovers, proofs, scripts and old backups. Keep current runtime/build inputs, live resources, unresolved editorial questions and the latest rollback. Never remove a prepared/unresolved transaction. Use Git for history; do not create replacement archives or long session transcripts. Future shared writes still require exact prior-byte backups.
-- Known overflow, missing images and mixed-unit prose are not permission to expand scope. Distinguish existing limitations from new regressions. Do not upgrade dependencies or resize artwork without a task-related reason.
-- Maintain current working docs when architecture, data contracts or accepted design changes. Record checks actually run and material limitations; do not accumulate session transcripts or claims about servers still running.
+## Gardening content and shared data
 
-John’s follow-up (22 September): resolve normalisation questions through RHS-first
-research, then primary seed-producer or horticultural sources. Correct likely
-name errors; record editorial inference separately from confirmed aliases, and
-retain genuinely distinct selections. Simplify conflicting spacing to mainstream
-advice. Remove unsupported claims rather than inventing replacements. Use a short
-decision summary; full diffs are optional. All normalised groups are now approved.
-Website/video work is excluded from this follow-up.
+- Use practical UK gardening language and organic control methods only. State
+  the useful control directly; do not mention chemical alternatives merely to
+  dismiss them or add ideological commentary. Preserve diagnostics and safety.
+- Check meaning as well as schema: import headings are not crop types. Inspect
+  duplicate identities, misplaced advice, contradictions and suspicious keys.
+  Preserve uncertain material and record it for review. Resolve factual questions
+  through RHS-first research, then primary seed-producer/horticultural sources.
+  Distinguish editorial inference from confirmed aliases; retain distinct
+  selections and remove unsupported claims rather than inventing replacements.
+- Round practical dimensions to easy numbers where useful (approximately
+  10–15% either way can be acceptable), retaining coherent metric/imperial pairs,
+  crop context and clear row/plant/clump meanings. Do not apply this tolerance to
+  temperatures, pH, treatment quantities or biological limits. Preserve timings,
+  alternative methods and qualifying advice when condensing.
+- Pest tables select distinct useful crop-applicable problems before measuring.
+  No fixed row quota or first-overflow cutoff as final curation. Merge duplicate
+  labels, condense table prose while preserving full advice, then remeasure and
+  inspect actual PDFs in both units. Record why useful candidates were omitted.
+- Gardening JSON lives only in `../hackriculture-data/`. Never recreate mirrors.
+  Preserve keyed objects, unknown fields, ranked text, unit pairs and cyclic
+  `--MM` values. Keep types, Zod schemas and admin validation aligned; reuse
+  `src/lib/` and the guarded shared reader/writer. Every shared/admin mutation
+  preserves exact previous bytes under `../hackriculture-data/backups/admin/`.
+- John has authorised researched organic replacements in the master when doing
+  that editorial work, with exact backups, attribution, dependency updates and
+  changed proofs for review. This does not expand the current book-preparation
+  scope: keep its new copy in separate source-linked working print drafts and
+  leave canonical gardening records unchanged. Preserve full variety catalogues
+  and the ranking/description policy in SHARED-DATA.md.
+- Never self-approve new copy or redesigns, unlock manual edits, or rerun consumed
+  review/install proposals. Earlier bounded advance approvals are complete.
+
+## Working and verification
+
+- Keep work focused and replies concise. Inspect owning code and nearby checks.
+  No subagents unless John explicitly requests them. No unrelated improvements,
+  dependency upgrades, broad scans or whole-catalogue exports after small edits.
+- Preserve all existing edits. Use Git for code/document history, not whole-project
+  checkpoints. Never reset, clean, commit or push unrelated changes incidentally.
+  Keep the latest shared-data rollback and unresolved transactions; never prune
+  approved references, runtime inputs or unresolved work as disposable proofs.
+- Admin saves and browser-rendered PDF generation need Vite via `start.command`
+  on loopback. Offline PDF checking/assembly does not. Inspect process ownership;
+  do not assume a server is running or stop a user-owned server. Never put
+  credentials or session tokens in chat, files or logs.
+- Use the smallest relevant check. `npm test` is the routine small suite;
+  `check:fit` is A4 DOM-only and `check:smoke -- <crop>` checks an A4 PDF plus
+  readiness/fonts/images/login. Compact work requires the actual compact route
+  and PDF. Check both units for wrapping/measurement changes; add another crop
+  only for relevant shared-layout changes. Broader tests/builds are available
+  when scope or failures warrant them. Documentation-only edits need link and
+  consistency checks, not app tests or regenerated artwork.
+- Known overflow, missing images or mixed-unit prose do not expand the task.
+  Distinguish pre-existing limitations from regressions. Record checks actually
+  run and exact coverage; a passing fit check is not visual or user approval.
+- Keep current guidance concise and update its owning document. Link evidence
+  instead of accumulating session transcripts, duplicate status summaries or
+  claims that a server/browser will remain available. See the handover for
+  paused automations and the boundaries on publishing/account actions.

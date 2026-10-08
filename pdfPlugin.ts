@@ -26,6 +26,9 @@ import type { IncomingMessage, ServerResponse } from "node:http";
 import type { Browser, Page } from "playwright";
 import { promises as fs } from "node:fs";
 import * as path from "node:path";
+import { DEFAULT_PAPER, parsePaper, type PaperSize } from './src/lib/paperSize';
+import { prepareCompactBook } from './src/print/book/renderCompact';
+import type {BookProductionOptions} from './src/print/book/production';
 
 // ── Shared render config ────────────────────────────────────────────────────
 // A4 = 210mm. Margins: 14mm + 14mm = 28mm. Content = 182mm.
@@ -33,23 +36,22 @@ import * as path from "node:path";
 // Height: (297 - 18 - 20)mm × 3.78 ≈ 979px (one content page).
 const VIEWPORT = { width: 688, height: 979 } as const;
 
-type PaperSize = "A4" | "A5" | "A6";
 export class PrintContentError extends Error {}
 
 // A-series sizes step down by 1/√2 per size, so the A4-designed layout maps
 // faithfully onto A5/A6 by scaling both the render and the margins by the same
 // factor (Chromium lays out at physicalContentWidth / scale ≈ the A4 width).
-const PAPER_SCALE: Record<PaperSize, number> = {
+const PAPER_SCALE = {
     A4: 1,
     A5: 1 / Math.SQRT2,
     A6: 0.5,
 };
 
-function parsePaper(value: string | null): PaperSize {
-    return value === "A5" || value === "A6" ? value : "A4";
-}
-
 function pdfOptions(paper: PaperSize) {
+    if (paper === '185x240') return {
+        width:'185mm', height:'240mm', preferCSSPageSize:true,
+        printBackground:true, scale:1, margin:{top:'0mm',bottom:'0mm',left:'0mm',right:'0mm'},
+    };
     const f = PAPER_SCALE[paper];
     const mm = (n: number) => `${+(n * f).toFixed(2)}mm`;
     return {
@@ -67,8 +69,10 @@ export async function renderPdf(
     type: "vegetable" | "trouble",
     slug: string,
     units: string = "imperial",
-    paper: PaperSize = "A4",
+    paper: PaperSize = DEFAULT_PAPER,
     onWarnings?: (warnings: string[]) => void,
+    root: string = process.cwd(),
+    bookProduction?: BookProductionOptions,
 ): Promise<Buffer> {
     const printUrl = `${baseUrl}/print/${type}/${encodeURIComponent(slug)}?units=${units === "metric" ? "metric" : "imperial"}`;
     await page.goto(printUrl, { waitUntil: "networkidle" });
@@ -79,11 +83,23 @@ export async function renderPdf(
     );
     const printError=await page.evaluate(()=>document.body.dataset.printError);
     if(printError)throw new PrintContentError(printError);
-    const warnings=await page.evaluate(()=>JSON.parse(document.body.dataset.printWarnings||'[]') as string[]);
-    const pdf=await page.pdf(pdfOptions(paper));
+    let warnings=await page.evaluate(()=>JSON.parse(document.body.dataset.printWarnings||'[]') as string[]);
+    let expectedPages: number | undefined;
+    let productionSize:{width:string;height:string}|undefined;
+    if (paper === '185x240') {
+        try {
+            const layout = bookProduction
+                ? await prepareCompactBook(page,baseUrl,type,slug,units,root,bookProduction)
+                : await prepareCompactBook(page,baseUrl,type,slug,units,root);
+            warnings = [...warnings, ...layout.warnings]; expectedPages = layout.pages;
+            if(layout.geometry)productionSize={width:`${layout.geometry.width}mm`,height:`${layout.geometry.height}mm`};
+        } catch (err) { throw new PrintContentError(String(err)); }
+    }
+    const pdf=await page.pdf({...pdfOptions(paper),...productionSize});
     // Chromium writes page dictionaries uncompressed; count actual output pages.
     const pages=(pdf.toString('latin1').match(/\/Type\s*\/Page\b/g)||[]).length;
-    if(type==='vegetable'&&pages>2)warnings.push(`Exported ${pages} PDF pages (usual target: 2).`);
+    if(expectedPages !== undefined && pages !== expectedPages) throw new PrintContentError(`Compact PDF has ${pages} pages; layout measured ${expectedPages}.`);
+    if(paper !== '185x240' && type==='vegetable'&&pages>2)warnings.push(`Exported ${pages} PDF pages (usual target: 2).`);
     onWarnings?.(warnings);
     return pdf;
 }
@@ -172,6 +188,8 @@ export function pdfPlugin(): Plugin {
                             slug,
                             units,
                             paper,
+                            undefined,
+                            server.config.root,
                         );
 
                         await browser.close();
@@ -232,7 +250,7 @@ async function handleBatch(
     baseUrl: string,
     root: string,
     units: string = "imperial",
-    paper: PaperSize = "A4",
+    paper: PaperSize = DEFAULT_PAPER,
 ): Promise<void> {
     res.setHeader("Content-Type", "application/x-ndjson");
     res.setHeader("Cache-Control", "no-store");
@@ -249,8 +267,10 @@ async function handleBatch(
         const {
             vegetables: vegPath,
             troubles: troublesPath,
-            output: outputDir,
+            output: legacyOutputDir,
         } = resolveBatchPaths(root);
+        const compact = paper === '185x240';
+        const outputDir = compact ? path.join(legacyOutputDir,'book-185x240',units) : legacyOutputDir;
         await fs.mkdir(outputDir, { recursive: true });
         await fs.writeFile(path.join(outputDir,'collection-order.json'),JSON.stringify({units,paper,complete:false,documents:[]},null,2)+'\n');
 
@@ -263,8 +283,10 @@ async function handleBatch(
 
         await requireCurrentPagination(bookPagination.sourceSignature,vegetables,troubles);
         const edition=bookPagination.editions[units==='metric'?'metric':'imperial'];
-        const contentsPlan=JSON.parse(await fs.readFile(path.join(root,'public/front-matter/pagination.json'),'utf8'));
-        if(contentsPlan.sourceSignature!==bookPagination.sourceSignature||JSON.stringify(contentsPlan.edition)!==JSON.stringify(edition))throw new PrintContentError('Contents pagination is stale. Run node docs/front-matter/entry-pages/build.mjs.');
+        if (!compact) {
+            const contentsPlan=JSON.parse(await fs.readFile(path.join(root,'public/front-matter/pagination.json'),'utf8'));
+            if(contentsPlan.sourceSignature!==bookPagination.sourceSignature||JSON.stringify(contentsPlan.edition)!==JSON.stringify(edition))throw new PrintContentError('Contents pagination is stale. Run node docs/front-matter/entry-pages/build.mjs.');
+        }
         const jobs: {
             type: "front-matter" | "vegetable" | "trouble";
             slug: string;
@@ -275,6 +297,7 @@ async function handleBatch(
             {type: "front-matter", slug: "contents", label: "Contents (A4)"},
             {type: "front-matter", slug: "how-to-use", label: "How to use these sheets (A4)"},
         ];
+        if (compact) jobs.length = 0; // A4 cover/contents are not compact-book artwork.
         for (const entry of edition.vegetables) {
             jobs.push({ type: "vegetable", key:entry.key, slug:slugify(entry.label), label:entry.label });
         }
@@ -287,7 +310,8 @@ async function handleBatch(
             total: jobs.length,
             vegetables: Object.keys(vegetables).length,
             troubles: Object.keys(troubles).length,
-            frontMatter: 3,
+            frontMatter: compact ? 0 : 3,
+            warnings: compact ? ['Guide proofs only. Book opening pages, final folios and contents are still to be prepared.'] : [],
             outputDir,
         });
 
@@ -305,7 +329,7 @@ async function handleBatch(
             const index = i + 1;
             try {
                 let warnings:string[]=[];
-                const entry=job.type==='front-matter'?null:bookEntry(edition,job.type,job.key!);
+                const entry=job.type==='front-matter'||compact?null:bookEntry(edition,job.type,job.key!);
                 // Approved, unit-independent A4 artwork; no AI/font/network work.
                 const pdf = job.type === "front-matter"
                     ? await fs.readFile(path.join(root, `public/front-matter/${job.slug}-A4.pdf`))
@@ -317,11 +341,13 @@ async function handleBatch(
                     units,
                     paper,
                     found=>{warnings=found;},
+                    root,
                 );
                 const filename = job.type === "front-matter"
                     ? (job.slug === "cover" ? "00_cover_A4.pdf" : job.slug === "contents" ? "01_contents_A4.pdf" : "02_how-to-use_A4.pdf") : `${job.type}_${job.slug}.pdf`;
                 await fs.writeFile(path.join(outputDir, filename), pdf);
-                collectionOrder.push({filename,start:entry?.start??null,pages:entry?.pages??1});
+                const pages = compact ? (pdf.toString('latin1').match(/\/Type\s*\/Page\b/g)||[]).length : entry?.pages??1;
+                collectionOrder.push({filename,start:entry?.start??null,pages});
                 okCount++;
                 report.push({label:job.label,filename,warnings});
                 write({
@@ -352,7 +378,7 @@ async function handleBatch(
             }
         }
 
-        await fs.writeFile(path.join(outputDir,'collection-order.json'),JSON.stringify({units,paper,complete:errCount===0,numberedPages:edition.totalPages,documents:collectionOrder},null,2)+'\n');
+        await fs.writeFile(path.join(outputDir,'collection-order.json'),JSON.stringify({units,paper,complete:!compact&&errCount===0,guidesComplete:errCount===0,scope:compact?'guide-proofs':'collection',numberedPages:compact?null:edition.totalPages,documents:collectionOrder},null,2)+'\n');
         await fs.writeFile(path.join(outputDir,'batch-report.json'),JSON.stringify({units,paper,generatedAt:new Date().toISOString(),results:report},null,2));
         await fs.writeFile(path.join(outputDir,'batch-report.txt'),report.map(item=>`${item.label}${item.filename?' - '+item.filename:''}\n${item.error?'ERROR: '+item.error:item.warnings?.length?item.warnings.join('\n'):'OK'}`).join('\n\n'));
         write({

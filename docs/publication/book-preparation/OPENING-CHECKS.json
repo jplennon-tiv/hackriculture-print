@@ -1,0 +1,339 @@
+{
+  "status": "Unapproved editorial and layout draft; contains deliberate publication placeholders; never upload this draft",
+  "sourceLinks": [
+    "docs/front-matter/entry-pages/build.mjs",
+    "docs/front-matter/entry-pages/scales-study/REVIEW.html",
+    "src/print/familyThemes.json",
+    "docs/publication/book-preparation/ASSEMBLY-PLAN.json",
+    "src/lib/vegetablePrint.ts",
+    "src/print/vegetableModel.ts"
+  ],
+  "editorialAttribution": "New AI-assisted introductory copy, pending John’s review. Existing guide labels, calendar and measured folios reused without canonical writes.",
+  "results": [
+    {
+      "units": "imperial",
+      "pdf": "output/pdf/book-preparation/kdp/imperial/opening-pages.pdf",
+      "sha256": "3ac8dfde03091bdb159cad12f19bdd597874fe466ddcb1d34182a6b9778ef314",
+      "pages": 7,
+      "geometry": {
+        "width": 188.175,
+        "height": 246.35,
+        "pages": [
+          {
+            "folio": 1,
+            "verso": false,
+            "minTypePt": 7.050000000000001,
+            "trimMm": [
+              185,
+              240
+            ],
+            "mediaMm": [
+              188.175,
+              246.35
+            ],
+            "trimOffsetMm": [
+              0,
+              3.175
+            ]
+          },
+          {
+            "folio": 2,
+            "verso": true,
+            "minTypePt": 7.050000000000001,
+            "trimMm": [
+              185,
+              240
+            ],
+            "mediaMm": [
+              188.175,
+              246.35
+            ],
+            "trimOffsetMm": [
+              3.175,
+              3.175
+            ]
+          },
+          {
+            "folio": 3,
+            "verso": false,
+            "minTypePt": 7.050000000000001,
+            "trimMm": [
+              185,
+              240
+            ],
+            "mediaMm": [
+              188.175,
+              246.35
+            ],
+            "trimOffsetMm": [
+              0,
+              3.175
+            ]
+          },
+          {
+            "folio": 4,
+            "verso": true,
+            "minTypePt": 7.050000000000001,
+            "trimMm": [
+              185,
+              240
+            ],
+            "mediaMm": [
+              188.175,
+              246.35
+            ],
+            "trimOffsetMm": [
+              3.175,
+              3.175
+            ]
+          },
+          {
+            "folio": 5,
+            "verso": false,
+            "minTypePt": 7.050000000000001,
+            "trimMm": [
+              185,
+              240
+            ],
+            "mediaMm": [
+              188.175,
+              246.35
+            ],
+            "trimOffsetMm": [
+              0,
+              3.175
+            ]
+          },
+          {
+            "folio": 6,
+            "verso": true,
+            "minTypePt": 7.050000000000001,
+            "trimMm": [
+              185,
+              240
+            ],
+            "mediaMm": [
+              188.175,
+              246.35
+            ],
+            "trimOffsetMm": [
+              3.175,
+              3.175
+            ]
+          },
+          {
+            "folio": 7,
+            "verso": false,
+            "minTypePt": 7.050000000000001,
+            "trimMm": [
+              185,
+              240
+            ],
+            "mediaMm": [
+              188.175,
+              246.35
+            ],
+            "trimOffsetMm": [
+              0,
+              3.175
+            ]
+          }
+        ]
+      },
+      "domChecks": [
+        {
+          "page": 1,
+          "footerGapPx": 20.421875
+        },
+        {
+          "page": 2,
+          "footerGapPx": 123.0625
+        },
+        {
+          "page": 3,
+          "footerGapPx": 147.5
+        },
+        {
+          "page": 4,
+          "footerGapPx": 30.265625
+        },
+        {
+          "page": 5,
+          "footerGapPx": 29.859375
+        },
+        {
+          "page": 6,
+          "footerGapPx": 22.46875
+        },
+        {
+          "page": 7,
+          "footerGapPx": 26.21875
+        }
+      ],
+      "visualReview": "pending"
+    },
+    {
+      "units": "metric",
+      "pdf": "output/pdf/book-preparation/kdp/metric/opening-pages.pdf",
+      "sha256": "2cb7b86ecc971b9fff3137c75af4450465f92afd88e893b1be4023a7e0b10d21",
+      "pages": 7,
+      "geometry": {
+        "width": 188.175,
+        "height": 246.35,
+        "pages": [
+          {
+            "folio": 1,
+            "verso": false,
+            "minTypePt": 7.050000000000001,
+            "trimMm": [
+              185,
+              240
+            ],
+            "mediaMm": [
+              188.175,
+              246.35
+            ],
+            "trimOffsetMm": [
+              0,
+              3.175
+            ]
+          },
+          {
+            "folio": 2,
+            "verso": true,
+            "minTypePt": 7.050000000000001,
+            "trimMm": [
+              185,
+              240
+            ],
+            "mediaMm": [
+              188.175,
+              246.35
+            ],
+            "trimOffsetMm": [
+              3.175,
+              3.175
+            ]
+          },
+          {
+            "folio": 3,
+            "verso": false,
+            "minTypePt": 7.050000000000001,
+            "trimMm": [
+              185,
+              240
+            ],
+            "mediaMm": [
+              188.175,
+              246.35
+            ],
+            "trimOffsetMm": [
+              0,
+              3.175
+            ]
+          },
+          {
+            "folio": 4,
+            "verso": true,
+            "minTypePt": 7.050000000000001,
+            "trimMm": [
+              185,
+              240
+            ],
+            "mediaMm": [
+              188.175,
+              246.35
+            ],
+            "trimOffsetMm": [
+              3.175,
+              3.175
+            ]
+          },
+          {
+            "folio": 5,
+            "verso": false,
+            "minTypePt": 7.050000000000001,
+            "trimMm": [
+              185,
+              240
+            ],
+            "mediaMm": [
+              188.175,
+              246.35
+            ],
+            "trimOffsetMm": [
+              0,
+              3.175
+            ]
+          },
+          {
+            "folio": 6,
+            "verso": true,
+            "minTypePt": 7.050000000000001,
+            "trimMm": [
+              185,
+              240
+            ],
+            "mediaMm": [
+              188.175,
+              246.35
+            ],
+            "trimOffsetMm": [
+              3.175,
+              3.175
+            ]
+          },
+          {
+            "folio": 7,
+            "verso": false,
+            "minTypePt": 7.050000000000001,
+            "trimMm": [
+              185,
+              240
+            ],
+            "mediaMm": [
+              188.175,
+              246.35
+            ],
+            "trimOffsetMm": [
+              0,
+              3.175
+            ]
+          }
+        ]
+      },
+      "domChecks": [
+        {
+          "page": 1,
+          "footerGapPx": 20.421875
+        },
+        {
+          "page": 2,
+          "footerGapPx": 123.0625
+        },
+        {
+          "page": 3,
+          "footerGapPx": 147.5
+        },
+        {
+          "page": 4,
+          "footerGapPx": 30.265625
+        },
+        {
+          "page": 5,
+          "footerGapPx": 29.859375
+        },
+        {
+          "page": 6,
+          "footerGapPx": 22.46875
+        },
+        {
+          "page": 7,
+          "footerGapPx": 26.21875
+        }
+      ],
+      "visualReview": "pending"
+    }
+  ],
+  "assemblyPlanSha256": "42d609ed912ccf4a8ce1b08bb63f22f1bb90b632bb3dfb4f380be5ab8f2c6ea2"
+}

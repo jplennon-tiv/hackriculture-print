@@ -1,17 +1,23 @@
 # Troubles guides — approved open editorial design
 
+**Format scope:** this contract governs retained A4 sheets. The approved
+185 × 240 mm publication layout follows [Compact Book v1](BOOK-PRINT-STYLE.md).
+
 ## Decision and authority
 
-**Open Editorial v1 is approved and locked as the forward Troubles design.**
+**Open Editorial v1 is approved and locked for retained A4 Troubles sheets.**
 John, 28 September 2026: “These are fine - no other input needed. Fix this as the
 design and document it well.” No further design-option review is needed.
+
+Current book status and next work are in the [handover](handover/START-HERE.md).
+Inspect these approved sources when adapting their content/artwork; changing the
+format does not discard the diagnostic illustrations or editorial decisions.
 
 The [four approved reference pages](troubles-style-pilot/editorial/REVIEW.html)
 and [SHA256 approval manifest](troubles-style-pilot/editorial/DESIGN-APPROVAL.json)
 identify the exact composition, wording, typography and artwork. Preserve these
 files; create separate paths for any intentional variants. The earlier boxed
-Troubles pilot and the installed four-card layout are superseded as the forward
-design. The live route now uses `EditorialTroublePage.tsx`.
+Troubles pilot and retired four-card layout are superseded for A4. The live route now uses `EditorialTroublePage.tsx`.
 
 ## Visual system
 

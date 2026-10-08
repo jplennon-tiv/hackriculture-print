@@ -1,0 +1,130 @@
+{
+  "checkedAtUtc": "2026-10-06T10:46:44.634313+00:00",
+  "supplier": "kdp",
+  "assemblyReceiptSha256": "a9ec1839ff1f3525ecbbdecf2c63d89818b7831087cf0c4990b492bc8344ddbd",
+  "scope": "Every assembled page: source text/boxes, fonts, transparency and folios; eight sampled non-blank rasters compared to flattened inputs, plus four sampled blank pages. Actual image viewing recorded separately. Not PDF/X or supplier approval.",
+  "results": [
+    {
+      "units": "imperial",
+      "pdf": "output/pdf/book-preparation/compact-book-imperial-flattened-review.pdf",
+      "sha256": "04ccc36c139fc191ec6489a36789fa4eec0ae1263d0f00268fc692d381480d01",
+      "pagesChecked": 148,
+      "fontNamesEmbedded": [
+        "/BAAAAA+LilitaOne",
+        "/CAAAAA+LilitaOne",
+        "/DAAAAA+LucidaGrande-Bold",
+        "/EAAAAA+LucidaGrande-Bold",
+        "/Type3"
+      ],
+      "transparencyIssues": [],
+      "metadata": null,
+      "bytes": 301719014,
+      "samples": [
+        {
+          "physicalPage": 4,
+          "sourceId": "imperial/opening",
+          "sourcePage": 4,
+          "sourceSha256": "a3ffcee7359b856ec4205da675d3bf2e8c407ef88c53aba13dae69552c527164",
+          "result": "pixel_identical_to_flattened_input_at_1150px",
+          "raster": "tmp/pdfs/book-preparation/flattened-assembly/kdp/imperial-4-assembled-004.png"
+        },
+        {
+          "physicalPage": 40,
+          "sourceId": "imperial/vegetable/kale",
+          "sourcePage": 1,
+          "sourceSha256": "5b1b95fa8e8d966868d2e6d25fb9865f2c53ab00262c8dc68eb9c5b2449260bb",
+          "result": "pixel_identical_to_flattened_input_at_1150px",
+          "raster": "tmp/pdfs/book-preparation/flattened-assembly/kdp/imperial-40-assembled-040.png"
+        },
+        {
+          "physicalPage": 41,
+          "sourceId": "imperial/vegetable/kale",
+          "sourcePage": 2,
+          "sourceSha256": "5b1b95fa8e8d966868d2e6d25fb9865f2c53ab00262c8dc68eb9c5b2449260bb",
+          "result": "pixel_identical_to_flattened_input_at_1150px",
+          "raster": "tmp/pdfs/book-preparation/flattened-assembly/kdp/imperial-41-assembled-041.png"
+        },
+        {
+          "physicalPage": 119,
+          "sourceId": "imperial/trouble/celery_troubles",
+          "sourcePage": 1,
+          "sourceSha256": "f877e89490ee8696dd3135203bc05fb34e855aab4435831c145786fcbd6db5b7",
+          "result": "pixel_identical_to_flattened_input_at_1150px",
+          "raster": "tmp/pdfs/book-preparation/flattened-assembly/kdp/imperial-119-assembled-119.png"
+        },
+        {
+          "physicalPage": 15,
+          "result": "uniform_unprinted_background_inset_one_pixel; exact_solid_fill_operations",
+          "raster": "tmp/pdfs/book-preparation/flattened-assembly/kdp/imperial-15-blank-015.png"
+        },
+        {
+          "physicalPage": 91,
+          "result": "uniform_unprinted_background_inset_one_pixel; exact_solid_fill_operations",
+          "raster": "tmp/pdfs/book-preparation/flattened-assembly/kdp/imperial-91-blank-091.png"
+        }
+      ],
+      "visualReview": "pending"
+    },
+    {
+      "units": "metric",
+      "pdf": "output/pdf/book-preparation/compact-book-metric-flattened-review.pdf",
+      "sha256": "44d5b75812c1416ceb8eef8d96005a2236249ba1e66ce98854e9ccd25ecf4cba",
+      "pagesChecked": 148,
+      "fontNamesEmbedded": [
+        "/BAAAAA+LilitaOne",
+        "/CAAAAA+LilitaOne",
+        "/DAAAAA+LucidaGrande-Bold",
+        "/EAAAAA+LucidaGrande-Bold",
+        "/Type3"
+      ],
+      "transparencyIssues": [],
+      "metadata": null,
+      "bytes": 301733423,
+      "samples": [
+        {
+          "physicalPage": 4,
+          "sourceId": "metric/opening",
+          "sourcePage": 4,
+          "sourceSha256": "eeb7ee7be3db383e1226f44d9789c239a495daed5b32148df84eb807eb16e537",
+          "result": "pixel_identical_to_flattened_input_at_1150px",
+          "raster": "tmp/pdfs/book-preparation/flattened-assembly/kdp/metric-4-assembled-004.png"
+        },
+        {
+          "physicalPage": 40,
+          "sourceId": "metric/vegetable/kale",
+          "sourcePage": 1,
+          "sourceSha256": "4c7cab4abea699ab5f24f37d8e64a8e8feac6cf93328432ae1626ef5181634b7",
+          "result": "pixel_identical_to_flattened_input_at_1150px",
+          "raster": "tmp/pdfs/book-preparation/flattened-assembly/kdp/metric-40-assembled-040.png"
+        },
+        {
+          "physicalPage": 41,
+          "sourceId": "metric/vegetable/kale",
+          "sourcePage": 2,
+          "sourceSha256": "4c7cab4abea699ab5f24f37d8e64a8e8feac6cf93328432ae1626ef5181634b7",
+          "result": "pixel_identical_to_flattened_input_at_1150px",
+          "raster": "tmp/pdfs/book-preparation/flattened-assembly/kdp/metric-41-assembled-041.png"
+        },
+        {
+          "physicalPage": 119,
+          "sourceId": "metric/trouble/celery_troubles",
+          "sourcePage": 1,
+          "sourceSha256": "b366c11ee5b99d6a3b29dca8a8d87bbdd064eece581f9779efce5c178438dd3c",
+          "result": "pixel_identical_to_flattened_input_at_1150px",
+          "raster": "tmp/pdfs/book-preparation/flattened-assembly/kdp/metric-119-assembled-119.png"
+        },
+        {
+          "physicalPage": 15,
+          "result": "uniform_unprinted_background_inset_one_pixel; exact_solid_fill_operations",
+          "raster": "tmp/pdfs/book-preparation/flattened-assembly/kdp/metric-15-blank-015.png"
+        },
+        {
+          "physicalPage": 91,
+          "result": "uniform_unprinted_background_inset_one_pixel; exact_solid_fill_operations",
+          "raster": "tmp/pdfs/book-preparation/flattened-assembly/kdp/metric-91-blank-091.png"
+        }
+      ],
+      "visualReview": "pending"
+    }
+  ]
+}

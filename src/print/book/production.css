@@ -1,0 +1,17 @@
+/* DRAFT supplier adaptation. Loaded only by the separate publication runner. */
+body .sheet footer{font-size:9.4px!important}
+.rich-print .front header>.eyebrow{top:26px}
+.rich-print .front h1{top:44px!important}
+.rich-print .header-difficulty{right:0;top:30px}
+.rich-print .back>header{padding-top:27px!important}
+.editorial-trouble .advice section{margin-top:4px}
+/* The isolated header's decorative blob must not paint over the first crop
+   label on short continuation headers. Raise the later content, not its size. */
+.editorial-trouble .columns{position:relative}
+/* Keep the approved enlarged drawing and circle; reveal true bleed artwork
+   above/outside the trim while retaining the header's original bottom crop. */
+.rich-print .header-art{overflow:visible;clip-path:inset(-3.175mm -3.175mm 0 -3.175mm)}
+
+/* Full applicability legend replaces only repeated complete crop lists. */
+.editorial-trouble .crop-legend{font-size:9.4px;line-height:1.2;margin:6px 0 0;max-width:100%}
+.editorial-trouble .continuation header.has-crop-legend{height:auto;min-height:0;padding-bottom:30px}

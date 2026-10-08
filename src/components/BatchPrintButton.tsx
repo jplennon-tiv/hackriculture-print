@@ -107,9 +107,9 @@ export function BatchPrintButton() {
                     borderRadius: 4,
                     cursor: running ? "wait" : "pointer",
                 }}
-                title="Export the approved A4 cover and every vegetable and trouble group to ./output/"
+                title={paper === '185x240' ? 'Export compact guide proofs. Book opening pages and final contents are still to be prepared.' : 'Export the approved A4 opening pages and all guides to ./output/'}
             >
-                {running ? `🖨 ${pct}%` : "🖨 Batch print all"}
+                {running ? `🖨 ${pct}%` : paper === '185x240' ? "🖨 Batch book proofs" : "🖨 Batch print all"}
             </button>
             {running && progress.current && (
                 <span style={{ fontSize: "0.75rem", color: "#d1d5db" }}>
@@ -132,7 +132,7 @@ export function BatchPrintButton() {
                 <summary>Batch report: {progress.warningList.length} guides need layout review; {progress.errorList.length} export errors</summary>
                 {progress.warningList.length>0&&<ul>{progress.warningList.map((item,i)=><li key={i}><strong>{item.label}</strong>: {item.detail}</li>)}</ul>}
                 {progress.errorList.length>0&&<ul>{progress.errorList.map((item,i)=><li key={i}><strong>{item.label}</strong>: {item.detail}</li>)}</ul>}
-                <p>Overflowing guides are exported. Reports are saved in output/batch-report.txt and output/batch-report.json.</p>
+                <p>{paper === '185x240' ? 'Compact guides that do not fit are reported for review without clipping their content. Opening pages and final book numbering are pending.' : 'Overflowing guides are exported.'} Reports are saved alongside the PDFs.</p>
             </details>}
         </div>
     );
@@ -148,6 +148,7 @@ function reducer(
             ...INITIAL,
             total: Number(msg.total ?? 0),
             outputDir: msg.outputDir as string | undefined,
+            warningList: Array.isArray(msg.warnings) ? msg.warnings.map(w=>({label:'Collection',detail:String(w)})) : [],
         };
     }
     if (event === "progress") {

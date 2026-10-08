@@ -25,7 +25,13 @@ use the admin-correction workflow with honest AI attribution. New copy cannot be
 self-approved. Print dependency signatures detect source/manual changes; refresh
 affected companions only after reviewing their meaning, not just their checksums.
 
-Current print companions: source-linked `ai_print_extracts`, `ai_print_layout`,
+The current book-preparation task does not change canonical gardening records.
+New book copy lives in separate exact-source-checked working drafts under
+`src/print/book/`; the handover and preparation checkpoint identify their status.
+Standing authority for researched source corrections applies when that editorial
+work is in scope, not automatically during layout or publication preparation.
+
+Current shared print companions: source-linked `ai_print_extracts`, `ai_print_layout`,
 `print_planting`, and Troubles `ai_print`/`ai_layout` or legacy `print_summary`.
 These supplement full master advice. Approved/current outputs are reused without
 AI; stale/draft outputs fall back or require explicit review mode. Measurements
@@ -39,6 +45,18 @@ Cleanup policy (John, 24 September): Git holds historical source, scripts and
 artwork. Old local backups may be pruned after successful transactions; retain the
 latest rollback and any unresolved/prepared transaction. Do not accumulate whole
 project, media or PDF backups. Future writes must still make exact-byte backups.
-The latest [content-refinement save receipt](docs/content-refinement/SAVE-RECEIPT.json)
-identifies the 30 September 44-record transaction and exact-byte rollback. Historical record metadata is provenance, not an instruction to
+The latest [variety save receipt](docs/variety-review/SAVE-RECEIPT.json) identifies
+the 43-list refresh and its exact-byte transactions. The
+[onion receipt](docs/onion-planting/SAVE-RECEIPT.json) records the earlier
+single-record correction. The earlier
+[content-refinement receipt](docs/content-refinement/SAVE-RECEIPT.json) records
+the 30 September 44-record transaction. Historical record metadata is provenance, not an instruction to
 recreate removed review files.
+
+John's 1 October variety policy retains the complete master catalogue, including
+lower-priority entries for possible extended sheets. Rank and concise print
+`short_text` do not replace full source advice. Print reads nested variety groups
+recursively and uses the existing per-guide `variety_count`; duplicate names may
+remain under different source groups but print once. See the
+[source-linked decision ledger](../hackriculture-data/planning/variety-refresh/DECISIONS.json)
+for revised ranks, evidence, provisional legacy entries and unresolved identities.

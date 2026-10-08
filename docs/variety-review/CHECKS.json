@@ -1,0 +1,196 @@
+{
+  "date": "2026-10-01T13:05:08.790Z",
+  "revision": "f15430f54b6011a7c68ea5b9448a091277f368a362a1df006172addc6d8bde64",
+  "retained": 626,
+  "added": 68,
+  "source_entries": 694,
+  "printed": 183,
+  "domChecks": 88,
+  "domWarnings": 0,
+  "physicalPdfDocuments": 6,
+  "physicalPdfPages": 12,
+  "visualReview": "All 12 pages of six representative A4 PDFs inspected.",
+  "focusedTests": {
+    "passed": 9,
+    "failed": 0
+  },
+  "typecheck": "passed",
+  "routineSuite": {
+    "passed": 40,
+    "failed": 1,
+    "preExistingFailure": "mushroom.ai_print_layout.value.intro_sentences is above the schema maximum of 12; identical before this task, Mushroom record SHA256 unchanged."
+  },
+  "schema": "All 43 changed records pass. No new whole-store schema errors.",
+  "pdfs": [
+    {
+      "crop": "bean_french",
+      "units": "metric",
+      "physical_pages": 2,
+      "error": "",
+      "ready": "true",
+      "fonts": "loaded",
+      "missing": [],
+      "warnings": [],
+      "pages": [
+        {
+          "height_px": 1122.515625,
+          "content_end_px": 1071.703125
+        },
+        {
+          "height_px": 1122.515625,
+          "content_end_px": 1073.53125
+        }
+      ]
+    },
+    {
+      "crop": "bean_french",
+      "units": "imperial",
+      "physical_pages": 2,
+      "error": "",
+      "ready": "true",
+      "fonts": "loaded",
+      "missing": [],
+      "warnings": [],
+      "pages": [
+        {
+          "height_px": 1122.515625,
+          "content_end_px": 1071.703125
+        },
+        {
+          "height_px": 1122.515625,
+          "content_end_px": 1073.53125
+        }
+      ]
+    },
+    {
+      "crop": "beetroot",
+      "units": "metric",
+      "physical_pages": 2,
+      "error": "",
+      "ready": "true",
+      "fonts": "loaded",
+      "missing": [],
+      "warnings": [],
+      "pages": [
+        {
+          "height_px": 1122.515625,
+          "content_end_px": 1071.6875
+        },
+        {
+          "height_px": 1122.515625,
+          "content_end_px": 1075.171875
+        }
+      ]
+    },
+    {
+      "crop": "beetroot",
+      "units": "imperial",
+      "physical_pages": 2,
+      "error": "",
+      "ready": "true",
+      "fonts": "loaded",
+      "missing": [],
+      "warnings": [],
+      "pages": [
+        {
+          "height_px": 1122.515625,
+          "content_end_px": 1071.6875
+        },
+        {
+          "height_px": 1122.515625,
+          "content_end_px": 1075.171875
+        }
+      ]
+    },
+    {
+      "crop": "celery",
+      "units": "metric",
+      "physical_pages": 2,
+      "error": "",
+      "ready": "true",
+      "fonts": "loaded",
+      "missing": [],
+      "warnings": [],
+      "pages": [
+        {
+          "height_px": 1122.515625,
+          "content_end_px": 1075.53125
+        },
+        {
+          "height_px": 1122.515625,
+          "content_end_px": 1071.6875
+        }
+      ]
+    },
+    {
+      "crop": "potato",
+      "units": "metric",
+      "physical_pages": 2,
+      "error": "",
+      "ready": "true",
+      "fonts": "loaded",
+      "missing": [],
+      "warnings": [],
+      "pages": [
+        {
+          "height_px": 1122.515625,
+          "content_end_px": 1077.484375
+        },
+        {
+          "height_px": 1122.515625,
+          "content_end_px": 1071.671875
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "No full-catalogue PDF batch was generated.",
+    "380 retained legacy entries have provisional rank 4 because current evidence was not established; this is not a finding of discontinuation.",
+    "Legacy reserve descriptions require targeted fact checking before extended sheets.",
+    "Mushroom species/kit suggestions remain deferred research, not ranked cultivars.",
+    "Parsnip and rhubarb first-page gaps just over 10 mm accepted as review exceptions; Mushroom sparse layout predates this task."
+  ],
+  "proofFiles": {
+    "output/pdf/variety-refresh/beetroot-imperial.pdf": {
+      "sha256": "0e112de5bb45e69cb37b0c21906dfa92694131e6c768244543022de0c3d886ac",
+      "bytes": 7266669
+    },
+    "output/pdf/variety-refresh/celery-metric.pdf": {
+      "sha256": "a403d58388e58e74a4847b8d4e78912e85286782198a7c5ad956acdafed0af87",
+      "bytes": 6681600
+    },
+    "output/pdf/variety-refresh/beetroot-metric.pdf": {
+      "sha256": "32c37c019c5f9626137f4974d7b16f23e7c9692a256199488cb827b938f9f739",
+      "bytes": 7270229
+    },
+    "output/pdf/variety-refresh/potato-metric.pdf": {
+      "sha256": "56b71082713bff40cc254ed8bc524aef7a19992062bebe644c66274bb926d47b",
+      "bytes": 7001266
+    },
+    "output/pdf/variety-refresh/bean_french-metric.pdf": {
+      "sha256": "1caacafdc4c57bbbd90caf23e5631e8eabde79678ab85f9367a6cfc00d878461",
+      "bytes": 6530750
+    },
+    "output/pdf/variety-refresh/bean_french-imperial.pdf": {
+      "sha256": "8446bd6af3b2f24102cbc803ae44dc1593f33b64c1d797acc204838b5d6fa3c3",
+      "bytes": 6529002
+    }
+  },
+  "finalFitCheck": {
+    "date": "2026-10-01T13:33:41.726Z",
+    "source_revision": "f15430f54b6011a7c68ea5b9448a091277f368a362a1df006172addc6d8bde64",
+    "renderer_revision": "richer-a-v5-variety-case",
+    "seconds": 38.84,
+    "source_unchanged": true,
+    "guideUnitChecks": 88,
+    "pageChecks": 176,
+    "errors": 0,
+    "warnings": 0,
+    "missingImages": 0,
+    "fontFailures": 0,
+    "layoutAdjustments": 0,
+    "gapChanges": [],
+    "physicalPdfsExported": 0,
+    "results": "DOM-CHECKS.json"
+  }
+}

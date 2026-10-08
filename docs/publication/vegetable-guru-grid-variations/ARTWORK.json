@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-07",
+  "status": "G2 Cream centre selected by John on 7 October; G1/G3 retained as alternatives. Production wrap pending.",
+  "brief": "John prefers the grid direction. Growing-bed concept rejected; harvest promising but layout boring. Remove the entire front-cover guide-count footer. Show more grid variations, including one with real inside pages.",
+  "title": "The Vegetable Guru",
+  "subtitle": "Your at-a-glance growing companion",
+  "frontCoverLine": "Omitted at John's direction",
+  "reference": "docs/publication/vegetable-guru-cover-sketches/assets/02-grid.png",
+  "mode": "G1 and G2: built-in image_gen edits. G3: native HTML cover composition using G1's upper grid and unaltered raster renders of real existing book pages.",
+  "concepts": [
+    {
+      "id": "G1-full-grid",
+      "file": "assets/G1-full-grid.png",
+      "prompt": "Use case: precise-object-edit / cover-layout variation. Input is the user's currently preferred front-cover GRID concept. Develop a polished new variation, portrait 185:240 ratio. Keep its vivid forest green, warm cream, orange, pale lime, purple onion, glossy tomato, orange carrots, curly kale and pea-pod illustration style. The title is exactly \"The Vegetable Guru\". Subtitle exactly \"Your at-a-glance growing companion\". These are the ONLY words to print anywhere.\nCRITICAL USER CHANGE: remove the entire bottom \"44 at-a-glance growing guides & 14 troubleshooting guides\" line AND its footer band. Do not leave a blank footer. No numbers, counts, badges, cover price, author, extra taglines, bottom title or repeated text. Replace the former footer with a purposeful continuation of the new grid composition right to the lower edge. Retain large clean readable chunky rounded typography suitable for adult gardening reference, not a children's book. No physical book mockup, white presentation margins, vintage textures, human guru or mascot. Crop only decorative artwork, never title/subtitle.\nVARIATION G1 — FULL GRID. Closest evolution of the supplied favourite. Keep the deep green title block at upper left ~64% width × 59% height and the two stacked large onion/tomato illustration tiles at upper right. Reduce \"The\" to a smaller supporting word so Vegetable and especially Guru dominate; keep title highly legible. Subtitle clearly below title in two lines. At the bottom make a taller bold three-column row of carrots / frilly purple-green kale / pea pod that fills the entire remaining height, all the way to the bottom edge without any footer. Increase illustration drama by cropping large vegetables confidently across their tile boundaries at canvas edges. Fine palette shifts and a little foliage breaking a single internal grid line make this feel alive. No detached leaves decorating the title block. All main grid lines align cleanly. It should look like a refined stronger version of the favourite, not a different visual genre."
+    },
+    {
+      "id": "G2-centre-title",
+      "file": "assets/G2-centre-title.png",
+      "prompt": "Use case: precise-object-edit / cover-layout variation. Input is the user's currently preferred front-cover GRID concept. Develop a polished new variation, portrait 185:240 ratio. Keep its vivid forest green, warm cream, orange, pale lime, purple onion, glossy tomato, orange carrots, curly kale and pea-pod illustration style. The title is exactly \"The Vegetable Guru\". Subtitle exactly \"Your at-a-glance growing companion\". These are the ONLY words to print anywhere.\nCRITICAL USER CHANGE: remove the entire bottom \"44 at-a-glance growing guides & 14 troubleshooting guides\" line AND its footer band. Do not leave a blank footer. No numbers, counts, badges, cover price, author, extra taglines, bottom title or repeated text. Replace the former footer with a purposeful continuation of the new grid composition right to the lower edge. Retain large clean readable chunky rounded typography suitable for adult gardening reference, not a children's book. No physical book mockup, white presentation margins, vintage textures, human guru or mascot. Crop only decorative artwork, never title/subtitle.\nVARIATION G2 — CREAM CENTRE. Redesign the grid geometry while keeping the same family. Top ~26% is an edge-to-edge three-tile illustration row with bold close crops: glossy red tomato on lime, purple onion on orange, green pea pod on deep forest green. The middle ~42% is one wide cream typographic panel across the full cover: a small \"The\" neatly above very large forest-green \"Vegetable\", and huge \"Guru\" below; subtitle below Guru in two clean lines. A tiny leaf may cross the edge from one illustration tile, without interfering with letters. The bottom ~32% is a dramatic TWO-tile illustration row: a bunch of large orange carrots on deep green at left, and frilled green/purple kale on pale apricot at right. Rectangles are flush with no gaps, borders or rounded cards. The title has enough room to be wide, spacious and confident, never squeezed between columns. Artwork fills the bottom right to the edge. No text whatsoever under the subtitle."
+    },
+    {
+      "id": "G3-page-preview",
+      "file": "assets/G3-page-preview.png",
+      "layout": "G3-page-preview.html",
+      "method": "Top 515 CSS pixels of G1 at 740 pixels wide; lower panel contains full-page 1300-pixel renders of the existing Kale Bookvault imperial proof, no regenerated or invented page content.",
+      "interiorSource": "output/pdf/book-preparation/bookvault/imperial/vegetable_kale.pdf",
+      "physicalSourcePages": [
+        1,
+        2
+      ],
+      "printedFolios": [
+        40,
+        41
+      ],
+      "previewFiles": [
+        "assets/kale-1.png",
+        "assets/kale-2.png"
+      ],
+      "unitSelection": "Imperial shown only as an existing example, not a decision on launch edition."
+    }
+  ],
+  "review": "All three final front images visually inspected. Correct title and subtitle; no guide-count footer. G3 actual complete page previews and header fit inspected. Concept artwork only; no PDF/wrap/bleed or print resolution approval. Original A4 and interior PDFs unchanged.",
+  "sha256": {
+    "docs/publication/vegetable-guru-grid-variations/assets/G1-full-grid.png": "8f5df7e96d468e3a3571d1389267608fe230583256dd3f0a7fb7a2b31e9f6440",
+    "docs/publication/vegetable-guru-grid-variations/assets/G2-centre-title.png": "38a3f3edf5be32e3077439d710036ae5a8d2b68dd27ea1ffccf1c9d05b2f0b24",
+    "docs/publication/vegetable-guru-grid-variations/assets/G3-page-preview.png": "483ed61e41e20518f2468c9b23df71ac0caf403458711234b78054b058ff3900",
+    "docs/publication/vegetable-guru-grid-variations/assets/kale-1.png": "d88792fbbb1bd4c28530afe4921495570e45cbb7aee7063488619fd44e8c3792",
+    "docs/publication/vegetable-guru-grid-variations/assets/kale-2.png": "c5421c21b964563c144fbaab83a981880f3f4d35f21c27b937f2703c17c757d5",
+    "docs/publication/vegetable-guru-grid-variations/G3-page-preview.html": "e6c7f05a1a7bb0c8dea9f7baae5000b512b6c54b1f7e67ecc9fb1a6ca5f1fe90",
+    "output/pdf/book-preparation/bookvault/imperial/vegetable_kale.pdf": "1830b04169e32962899f32114bdac03a96642cae4ab481fab5829171481dace8"
+  },
+  "userSelection": {
+    "date": "2026-10-07",
+    "selected": "G2 Cream centre",
+    "file": "docs/publication/vegetable-guru-grid-variations/assets/G2-centre-title.png",
+    "sha256": "38a3f3edf5be32e3077439d710036ae5a8d2b68dd27ea1ffccf1c9d05b2f0b24",
+    "userInstruction": "G2 is the best - let's go with that.",
+    "scope": "Selected front-cover design direction; final production artwork and Bookvault wrap pending."
+  }
+}

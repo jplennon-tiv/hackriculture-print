@@ -1,4 +1,11 @@
-# Entry pages — Harvest corner A
+# Entry pages — approved A4 sources for book adaptation
+
+These approved A4 contents/how-to pages are the sources for compact revision
+(John, 6 October). Preserve their artwork and useful explanations; reflow and
+update book wording and folios in separate working files. See the
+[current handover](../../handover/START-HERE.md) and
+[asset inventory](../../assets/README.md). The commands below rebuild installed
+A4 pages; they are not the compact production pipeline.
 
 John selected A on 29 September. [Current numbered contents and how-to](REVIEW.html)
 use its grouped artwork. **Contents signed off by John on 29 September**;
@@ -22,6 +29,10 @@ baby/healthy-plant, Einstein/withered-plant, dropper and wave illustrations.
 The study HTML supplies the scale content to the entry-page builder; its assets
 remain runtime inputs. Do not prune them as disposable proofs. The assembled
 how-to PDF is approved and installed for batch export. See `HOW-TO-CHECKS.json` for the one-page fit check.
+
+On 1 October John approved the labels Easy / Fairly Easy / Medium / Tricky /
+Difficult. The Broccoli 3/5 capture now says Medium. The how-to PDF and preview
+were refreshed and visually checked at one A4 page; contents is unchanged.
 
 - [Installed cover C](../../../public/front-matter/cover-A4.pdf): current guide thumbnails.
 - [Contents PDF](contents.pdf): approved, unchanged.

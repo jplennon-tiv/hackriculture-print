@@ -1,0 +1,1011 @@
+{
+  "status": "Local review drafts only \u2014 deliberate publication placeholders; cover and remaining visual/production checks pending",
+  "supplier": "kdp",
+  "createdAt": "2026-10-06T10:44:04.160599+00:00",
+  "sourceRevision": "f15430f54b6011a7c68ea5b9448a091277f368a362a1df006172addc6d8bde64",
+  "implementationSignature": "1f15489fc3a05b06d8aa85b236f602a0276d25419e8ed3a0c857b99783399d50",
+  "results": [
+    {
+      "units": "imperial",
+      "pdf": "output/pdf/book-preparation/compact-book-imperial-flattened-review.pdf",
+      "sha256": "04ccc36c139fc191ec6489a36789fa4eec0ae1263d0f00268fc692d381480d01",
+      "pages": 148,
+      "bytes": 301719014,
+      "guidePages": 137,
+      "openingPages": 7,
+      "blankEndPages": 0,
+      "folioAndGeometryChecks": "passed for every physical page",
+      "interstitialBlankPages": 4,
+      "blankFolios": [
+        15,
+        69,
+        87,
+        91
+      ],
+      "facingPagePolicy": "Review proposal: every vegetable starts verso, with its overview and practical advice facing. Explicit blank rectos after odd-length vegetable guides retain that arrangement and can be used for notes. Troubles read continuously. John has not approved this pagination choice.",
+      "optimisation": {
+        "reencodedImages": 0,
+        "streamBytesSaved": 0,
+        "pixelRoundTrip": "Every changed stream checked byte-for-byte; no resampling or colour conversion",
+        "objectDeduplication": "Skipped for full-page flattened artwork; encoded streams retained"
+      },
+      "sources": [
+        {
+          "id": "imperial/opening",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/imperial/opening-pages.pdf",
+          "sha256": "a3ffcee7359b856ec4205da675d3bf2e8c407ef88c53aba13dae69552c527164",
+          "startPage": 1,
+          "physicalPages": 7,
+          "originalPdfSha256": "3ac8dfde03091bdb159cad12f19bdd597874fe466ddcb1d34182a6b9778ef314"
+        },
+        {
+          "id": "imperial/vegetable/artichoke_jerusalem",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/imperial/vegetable_artichoke_jerusalem.pdf",
+          "sha256": "86a1db8716426fecfa7a01ffe4c5208b368276927b41f10443d1cd04a509011d",
+          "startPage": 8,
+          "physicalPages": 2,
+          "originalPdfSha256": "6b8fac61ad2dd0568aa77509a921573b639a50ece8b4eccbe00ce16a3034c434"
+        },
+        {
+          "id": "imperial/vegetable/beetroot",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/imperial/vegetable_beetroot.pdf",
+          "sha256": "38d90a60e8c5784b2d849976b461377e232e7c8443420db9c897ddbc571af9b7",
+          "startPage": 10,
+          "physicalPages": 2,
+          "originalPdfSha256": "f12c61a5d76b939653d4230547e9e0b1e68a04245088b74b2f620895a5ae7259"
+        },
+        {
+          "id": "imperial/vegetable/carrot",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/imperial/vegetable_carrot.pdf",
+          "sha256": "c677042c8be741607556d3954bfc9cc128d8f73f170793306fa6507d3bc21ea1",
+          "startPage": 12,
+          "physicalPages": 3,
+          "originalPdfSha256": "7a0541dfa1e465b6d1f8c9e8664da02786a5d15ebf311d3563175ae3c26d6052"
+        },
+        {
+          "id": "imperial/vegetable/celeriac",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/imperial/vegetable_celeriac.pdf",
+          "sha256": "c0003c58683fd765a5af0e60dfedcd473b3965dc19a7d3d5fb35285637d988eb",
+          "startPage": 16,
+          "physicalPages": 2,
+          "originalPdfSha256": "d153c2b60c96bf2d68624df0673585e8e4e8a24cb0373b9c4bffecdb3c5c780c"
+        },
+        {
+          "id": "imperial/vegetable/kohl_rabi",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/imperial/vegetable_kohl_rabi.pdf",
+          "sha256": "217b8d03c60ec937627d7f49c65552efd0b4f866a58542be49437853c0c81263",
+          "startPage": 18,
+          "physicalPages": 2,
+          "originalPdfSha256": "fbae2df2f081e8b20d1d0b9d74eb5d27b676df9ea29dcac6708a9d05e6ec56d5"
+        },
+        {
+          "id": "imperial/vegetable/parsnip",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/imperial/vegetable_parsnip.pdf",
+          "sha256": "174aceb767e04626a1d292255c6ce32841f3a6e3846e77ea6046453235c67003",
+          "startPage": 20,
+          "physicalPages": 2,
+          "originalPdfSha256": "1e1e379f78f15b7a282ccdae7dd84e71081d096b87082daec975b57c63b210f0"
+        },
+        {
+          "id": "imperial/vegetable/potato",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/imperial/vegetable_potato.pdf",
+          "sha256": "81f02f86fdb2a3911428a64221e753a833d554c46d1b4908b9ed36352b8057b1",
+          "startPage": 22,
+          "physicalPages": 2,
+          "originalPdfSha256": "906f5f2e5fd926028f0845187899bc87762bb9a5ba06edba2f652100f8c9ea58"
+        },
+        {
+          "id": "imperial/vegetable/radish",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/imperial/vegetable_radish.pdf",
+          "sha256": "2ebb75a884a55fa525e50d42d49582cc988c660e05e27badda19b6de51ec00de",
+          "startPage": 24,
+          "physicalPages": 2,
+          "originalPdfSha256": "8fbadc3e8b25b53bb83c04d4b37def9d31a691ef9429dd6c42f00fc5b07664b9"
+        },
+        {
+          "id": "imperial/vegetable/salsify_scorzonera",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/imperial/vegetable_salsify_scorzonera.pdf",
+          "sha256": "e0b86b71ab750860878a1d51ee8490f64061c1888f54ad2962f5def890ad79ae",
+          "startPage": 26,
+          "physicalPages": 2,
+          "originalPdfSha256": "06ee1d0d72e422e6c57a4595eca585f3016508a0784ca301855c34ccc547cf15"
+        },
+        {
+          "id": "imperial/vegetable/swede",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/imperial/vegetable_swede.pdf",
+          "sha256": "727061e6ea17d5f6885b7ec3ec38ed82a2a0c73684d20c044d8308c646b1d50d",
+          "startPage": 28,
+          "physicalPages": 2,
+          "originalPdfSha256": "ab7d7b8701e462143078e15a5e40b493c26482f77b36b82d3c9313dbb1711bd8"
+        },
+        {
+          "id": "imperial/vegetable/turnip",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/imperial/vegetable_turnip.pdf",
+          "sha256": "2888ec41ba3b7cad58286cb183aad2ba70c29b190aca6263773d5f914bdaa2e2",
+          "startPage": 30,
+          "physicalPages": 2,
+          "originalPdfSha256": "b47bbaa830f16a702e369f9a7a959613c39e218862d060060f971790bf59f9ae"
+        },
+        {
+          "id": "imperial/vegetable/broccoli",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/imperial/vegetable_broccoli.pdf",
+          "sha256": "3ee547cd8412a4d4b5b798fc18074b35ffca5a5f7c73474d08a686b6e3e5826f",
+          "startPage": 32,
+          "physicalPages": 2,
+          "originalPdfSha256": "2c77c0792b97566fce07493640effac60052d6a494b1292861ca6133717b6447"
+        },
+        {
+          "id": "imperial/vegetable/brussels_sprouts",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/imperial/vegetable_brussels_sprouts.pdf",
+          "sha256": "24522854f24b62f0f7abc3cf4d6351e0842d7a670072af932add297499948ff6",
+          "startPage": 34,
+          "physicalPages": 2,
+          "originalPdfSha256": "984750ef4bbef2d5b5656fe349031130411da386d158e71a4a33554ccaeb2b03"
+        },
+        {
+          "id": "imperial/vegetable/cabbage",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/imperial/vegetable_cabbage.pdf",
+          "sha256": "19c3f879c2f71c4dda9b59263ff9b0639671a928776bbcd944b62e084fb911d8",
+          "startPage": 36,
+          "physicalPages": 2,
+          "originalPdfSha256": "2d7163bb906d3305d0fbfbaa2d1d95eb8f6045ccb65379f4e7eb18547c1fcc69"
+        },
+        {
+          "id": "imperial/vegetable/cauliflower",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/imperial/vegetable_cauliflower.pdf",
+          "sha256": "ebf7663674f559b3e24dfc4a8207e17e443a9379510dff9b5b00f2ea5c8aee92",
+          "startPage": 38,
+          "physicalPages": 2,
+          "originalPdfSha256": "f185046e449c640d48fb1f03f92092221f5b731ad94ab3bcbaf47e6d6338c1b3"
+        },
+        {
+          "id": "imperial/vegetable/kale",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/imperial/vegetable_kale.pdf",
+          "sha256": "5b1b95fa8e8d966868d2e6d25fb9865f2c53ab00262c8dc68eb9c5b2449260bb",
+          "startPage": 40,
+          "physicalPages": 2,
+          "originalPdfSha256": "03a501c133b39f615fa3d1978ee5ea9f0ada9a3dd031eef655224faa31231306"
+        },
+        {
+          "id": "imperial/vegetable/bean_broad",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/imperial/vegetable_bean_broad.pdf",
+          "sha256": "14ac374daebeec71400e6f9cd4969b56ab7c0a42f9267479a342697c5de5c0ba",
+          "startPage": 42,
+          "physicalPages": 2,
+          "originalPdfSha256": "eb5f83e786d566295b47c0b78b03d7ea89f99b26539d02698ce1f826fd1ac285"
+        },
+        {
+          "id": "imperial/vegetable/bean_french",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/imperial/vegetable_bean_french.pdf",
+          "sha256": "ece4d55e86ace3c051ee78d636bc906e90fec926faabd3fcabc7eeaa528ca2c7",
+          "startPage": 44,
+          "physicalPages": 2,
+          "originalPdfSha256": "b51f74b7f7adea9ff0b4011381270c3dcd19b164a2d2647998474843b46e4e39"
+        },
+        {
+          "id": "imperial/vegetable/bean_runner",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/imperial/vegetable_bean_runner.pdf",
+          "sha256": "a93fc7ff1046423bb126935180a013458391f41144e723f3bc527188bec73787",
+          "startPage": 46,
+          "physicalPages": 2,
+          "originalPdfSha256": "b381627af3d87f1e673e84aba3c5c53422fb359e28608a2d9723de37fd1375a7"
+        },
+        {
+          "id": "imperial/vegetable/pea",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/imperial/vegetable_pea.pdf",
+          "sha256": "e11a79f53c91661f956f69a9d63708cdaa72c53245b175667eeaaeb3231639f7",
+          "startPage": 48,
+          "physicalPages": 2,
+          "originalPdfSha256": "039b132dd8d87814fc4db344512639b96e637f65c4c79137a2c873216027056b"
+        },
+        {
+          "id": "imperial/vegetable/beet_leaf",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/imperial/vegetable_beet_leaf.pdf",
+          "sha256": "6fc82398a38bfb48638fce8c396bacae56c4cc5716cb6a4388242c4a6a2d1270",
+          "startPage": 50,
+          "physicalPages": 2,
+          "originalPdfSha256": "3e64ca83e34d32b60597aea55e525e70c1e8b4ed5efed7ec2d2166f34f1d8551"
+        },
+        {
+          "id": "imperial/vegetable/chicory",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/imperial/vegetable_chicory.pdf",
+          "sha256": "e7b08016df20037625bc2c3ccf6f2fa2c0d74bd2d17726bb56c1edab9776ef11",
+          "startPage": 52,
+          "physicalPages": 2,
+          "originalPdfSha256": "bf19afab7efab18d99a56fb1576798f3766f0f3cfffd712c6a4eb7d831760160"
+        },
+        {
+          "id": "imperial/vegetable/endive",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/imperial/vegetable_endive.pdf",
+          "sha256": "fd3d7dc3b2e9f20c2417e6f135b84352f75b9ad4fdc705d77355804782ebb963",
+          "startPage": 54,
+          "physicalPages": 2,
+          "originalPdfSha256": "ab41e3cfa0bb5c06a706d4c23186c501fbaa080d8f92fa37f62777db27a1f2a4"
+        },
+        {
+          "id": "imperial/vegetable/lettuce",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/imperial/vegetable_lettuce.pdf",
+          "sha256": "5b2923b7e7c908a271c9034700f68b85bf371ecec428e7115767cdbf7474560f",
+          "startPage": 56,
+          "physicalPages": 2,
+          "originalPdfSha256": "933147c6fd449972f01deb94a009192c6e856b02ad9f489cc938ade7ff46a4e0"
+        },
+        {
+          "id": "imperial/vegetable/oriental_leaves",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/imperial/vegetable_oriental_leaves.pdf",
+          "sha256": "338f1091f0a7837065d16549dcf6eb6bd187b33fedf21f3c7420b6a02fb1a623",
+          "startPage": 58,
+          "physicalPages": 2,
+          "originalPdfSha256": "71018d2c70710967d27256d43161afb46a919aed510893241985a5dd69c7c47e"
+        },
+        {
+          "id": "imperial/vegetable/spinach",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/imperial/vegetable_spinach.pdf",
+          "sha256": "c8a059a5cbe1ef93e4fa5ab50c0f463154ea3767e1675e8f28c4306484f2aae1",
+          "startPage": 60,
+          "physicalPages": 2,
+          "originalPdfSha256": "172d9a833ba9146e9fcf0dff1a1729b86ab92b19de0dd72c0d84c891b4ebaf08"
+        },
+        {
+          "id": "imperial/vegetable/garlic",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/imperial/vegetable_garlic.pdf",
+          "sha256": "7372df6ab7e40da52cbd33887ea1d2f4b71367affa2d139e3c3086096951de40",
+          "startPage": 62,
+          "physicalPages": 2,
+          "originalPdfSha256": "140bf03b6ac9e0692153862db958928a360e812ef658e711e8784888f80f381a"
+        },
+        {
+          "id": "imperial/vegetable/leek",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/imperial/vegetable_leek.pdf",
+          "sha256": "f7fecc5197eff3bedbc0a45bbb37deef19a9032b24eb84254050782b11e656bb",
+          "startPage": 64,
+          "physicalPages": 2,
+          "originalPdfSha256": "b279988ca6c834f567e05f2e07348865fe91896297adfd0027c874fef2c445a4"
+        },
+        {
+          "id": "imperial/vegetable/onion_shallot",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/imperial/vegetable_onions_and_shallots.pdf",
+          "sha256": "6bee4d507af9d10fa3ca747245bb410c9d5c9792c9df64ac163487ce8398c9d4",
+          "startPage": 66,
+          "physicalPages": 3,
+          "originalPdfSha256": "768df4b4f5af6b2fa972fe017bdfa23193c29eb295c3501b016cfd3c88997621"
+        },
+        {
+          "id": "imperial/vegetable/aubergine",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/imperial/vegetable_aubergine.pdf",
+          "sha256": "c5f5468dbe32a4e870992ba9df97cfd338b9fdaf7f2696e2f2c262e8083c49fa",
+          "startPage": 70,
+          "physicalPages": 2,
+          "originalPdfSha256": "f1304fad6ad0a63df478964dcb0a5c4e659ac4ed817b90aeb053f5376439c7a9"
+        },
+        {
+          "id": "imperial/vegetable/capsicum",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/imperial/vegetable_capsicum.pdf",
+          "sha256": "199c30ab43fcb0aade300c294550c14253b706ace62050801e764a85375380b1",
+          "startPage": 72,
+          "physicalPages": 2,
+          "originalPdfSha256": "2d3bdbed996dddb5838cb92721c9f9c15d739d71548e52573c9079aae4a31a89"
+        },
+        {
+          "id": "imperial/vegetable/marrow_courgette",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/imperial/vegetable_courgettes_and_marrows.pdf",
+          "sha256": "62496e89c3ffd593e6c8474edcc0dc1ba46e2994797893acc39594de287a8af3",
+          "startPage": 74,
+          "physicalPages": 2,
+          "originalPdfSha256": "34f580b6bec9ab730dca5777c65c241b4b94d7496febc2c5e2acb53cf0f0f9ea"
+        },
+        {
+          "id": "imperial/vegetable/cucumber_greenhouse",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/imperial/vegetable_cucumber_greenhouse.pdf",
+          "sha256": "1adf68de0a1e409de03930d87ab399d451a7c48b00c38f77fe24c82f7cc742f5",
+          "startPage": 76,
+          "physicalPages": 2,
+          "originalPdfSha256": "f061e59cf76fe90f67b5bca611188678c7a09462e868ea6c6f179dc926dc0f49"
+        },
+        {
+          "id": "imperial/vegetable/cucumber_outdoor",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/imperial/vegetable_cucumber_outdoor.pdf",
+          "sha256": "5738a12cd138b1056ff05bc0ce3bdef0df192a1dd287b849d5abbd2a0e26d270",
+          "startPage": 78,
+          "physicalPages": 2,
+          "originalPdfSha256": "a17374d44f03c5480bb29b2ec5388ee9d6e4502433439df650991f5ce8c00775"
+        },
+        {
+          "id": "imperial/vegetable/squash_pumpkin",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/imperial/vegetable_squashes_and_pumpkins.pdf",
+          "sha256": "dc104faa204ae0a7edeb4c5375e73c82d83545286e066660ca29f3a18551209e",
+          "startPage": 80,
+          "physicalPages": 2,
+          "originalPdfSha256": "f7c193e8e704d2fc8d1e5cc4828bda8b181e1bca30176e1c3449aa07e051875d"
+        },
+        {
+          "id": "imperial/vegetable/sweet_corn",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/imperial/vegetable_sweet_corn.pdf",
+          "sha256": "9adae834f43371611ea4b7a430f2cba529166c692b4226872925a9f846a676e1",
+          "startPage": 82,
+          "physicalPages": 2,
+          "originalPdfSha256": "f8650d1edf243f2594a66e4265824455dbe57038b50b7d0ac43cd661bbd98ea7"
+        },
+        {
+          "id": "imperial/vegetable/tomato_greenhouse",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/imperial/vegetable_tomato_greenhouse.pdf",
+          "sha256": "8bbacae3dd22123a2e860867e68c4bc4943b5cf5c57ce8e4c66875afbb75bea3",
+          "startPage": 84,
+          "physicalPages": 3,
+          "originalPdfSha256": "027d892c63555632b250640dc4e770f5bead794c571f16f127be2c5043b0eb5a"
+        },
+        {
+          "id": "imperial/vegetable/tomato_outdoor",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/imperial/vegetable_tomato_outdoor.pdf",
+          "sha256": "9f669d3d6a9d4dfb7a2b2a49cd8b707929716944b5266f8f2efe68066fe524b0",
+          "startPage": 88,
+          "physicalPages": 3,
+          "originalPdfSha256": "8e974bfe26a3589d4a568c1722c1ff06e18ac280ffd0a24483ee78c1aa558589"
+        },
+        {
+          "id": "imperial/vegetable/artichoke_globe",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/imperial/vegetable_artichoke_globe.pdf",
+          "sha256": "6b11898d1392b383a1f66bd3501a844a49e225250b2b0296776e1a1680d0d9b8",
+          "startPage": 92,
+          "physicalPages": 2,
+          "originalPdfSha256": "5b2e119b9d7c483e1bfdf3b7e0875e60a386f834ff0f18170d18edd348d0ea08"
+        },
+        {
+          "id": "imperial/vegetable/asparagus",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/imperial/vegetable_asparagus.pdf",
+          "sha256": "5208c5fb1faa018aa60a35514ba2305a14e27cf198c01b5a6dc6b5e724d2834a",
+          "startPage": 94,
+          "physicalPages": 2,
+          "originalPdfSha256": "a041da9233065176cf65ca99030daed9a34a1b55e3abedb74a1fa6636966ba94"
+        },
+        {
+          "id": "imperial/vegetable/celery",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/imperial/vegetable_celery.pdf",
+          "sha256": "7647bfb13d42e96ef36299acba338a139849997195667d5e4b6eaf18e630382e",
+          "startPage": 96,
+          "physicalPages": 2,
+          "originalPdfSha256": "edb1ff6e0c5e17913d89ddba982e024f29667a4375fa297b78ea376fe6167852"
+        },
+        {
+          "id": "imperial/vegetable/florence_fennel",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/imperial/vegetable_florence_fennel.pdf",
+          "sha256": "68b357d02ae5d1c8d6431cf7054e2683532acc150541b1625b1b20c973cfee9e",
+          "startPage": 98,
+          "physicalPages": 2,
+          "originalPdfSha256": "e73a1e3553a65e53042262fe27eb8e2dbb263b59487b3fe27f7bc7de1774b9b5"
+        },
+        {
+          "id": "imperial/vegetable/rhubarb",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/imperial/vegetable_rhubarb.pdf",
+          "sha256": "28f1e9978498cbad351c3253abaea1758499719c6ba6f263cdc11f03ad86cdec",
+          "startPage": 100,
+          "physicalPages": 2,
+          "originalPdfSha256": "4f07297f582899d8551e778878bb72beb35b996e0930c02fbf343772b0d6cb8e"
+        },
+        {
+          "id": "imperial/vegetable/mushroom",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/imperial/vegetable_mushroom.pdf",
+          "sha256": "90440cd0f82b109f1d7f9b1f4555736caee54170b771a0f4e2956f179e47d06b",
+          "startPage": 102,
+          "physicalPages": 2,
+          "originalPdfSha256": "fee97ce805b055c4b9ac358cc5b938cd05add690743b8cf8c0493701c41caf0c"
+        },
+        {
+          "id": "imperial/trouble/bean_and_pea_troubles",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/imperial/trouble_bean_and_pea_troubles.pdf",
+          "sha256": "891b9f5890338c919ac6b52ca4aee99960b741f250c2c318700b303b0c36ea70",
+          "startPage": 104,
+          "physicalPages": 4,
+          "originalPdfSha256": "00413a0542a072b16aff7fc8a12e6ac2001d475eb546cdb6b98e6a07ba3d09d7"
+        },
+        {
+          "id": "imperial/trouble/beetroot_troubles",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/imperial/trouble_beetroot_troubles.pdf",
+          "sha256": "a5381aa910b261a6712ae6318fad974254f42a13fa0a6153305b14be50ceef9d",
+          "startPage": 108,
+          "physicalPages": 2,
+          "originalPdfSha256": "978b3486ae069874f7bc18c0967277a64ff0b52d7ad4d514657026d4b858d6af"
+        },
+        {
+          "id": "imperial/trouble/brassica_troubles",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/imperial/trouble_brassica_troubles.pdf",
+          "sha256": "28842fe6676d2116967dbcbaeb98c1f94461161a5f3a13a874fc2771f7c4453c",
+          "startPage": 110,
+          "physicalPages": 6,
+          "originalPdfSha256": "e190e90e1a75c5a3ca09dbe645e4b7637cf588c80800d694e747d84899b1e5d2"
+        },
+        {
+          "id": "imperial/trouble/carrot_and_parsnip_troubles",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/imperial/trouble_carrot_and_parsnip_troubles.pdf",
+          "sha256": "dfaf6efbcab43e3a3d4a14df2277f3db0fc3d4bcce476a51b942e159402b9772",
+          "startPage": 116,
+          "physicalPages": 3,
+          "originalPdfSha256": "83a41d4057fb7d34d8c423ffa38a1e4686109b6fcac8e639f8a16411f9bda889"
+        },
+        {
+          "id": "imperial/trouble/celery_troubles",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/imperial/trouble_celery_troubles.pdf",
+          "sha256": "f877e89490ee8696dd3135203bc05fb34e855aab4435831c145786fcbd6db5b7",
+          "startPage": 119,
+          "physicalPages": 2,
+          "originalPdfSha256": "7941a699ba8fb7d538c7f32f52a1af85e237ac17220e6bec3b7ec3ef0a5284d6"
+        },
+        {
+          "id": "imperial/trouble/cucurbit_troubles",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/imperial/trouble_cucurbit_troubles.pdf",
+          "sha256": "0a9d1446706ca78daed0ecd21710db4ad978f7a8a93c210b649f948ed302186e",
+          "startPage": 121,
+          "physicalPages": 5,
+          "originalPdfSha256": "e36dcfa3dcac3d8e12c4096ef634cf1c2c00a6ff536c5c43104e2771d4628bb5"
+        },
+        {
+          "id": "imperial/trouble/florence_fennel_troubles",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/imperial/trouble_florence_fennel_troubles.pdf",
+          "sha256": "3e58b957f45355063679685e097a644f8e734e2d6a9128c81bac1a3a6aecfbed",
+          "startPage": 126,
+          "physicalPages": 1,
+          "originalPdfSha256": "286b065e25d9958f1f4d4bce551ef11f0f8597d72d25c75a9c960261a9a2ea8c"
+        },
+        {
+          "id": "imperial/trouble/lettuce_troubles",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/imperial/trouble_lettuce_troubles.pdf",
+          "sha256": "8c2ecd3bf3c74c3234937cd20ea8c35aed7c81e73b346706368bf66d40b81002",
+          "startPage": 127,
+          "physicalPages": 3,
+          "originalPdfSha256": "a549322c3420cc5d92770552af5700b16e0a3ccacd01c7240f5a189cca0955fd"
+        },
+        {
+          "id": "imperial/trouble/onion_and_leek_troubles",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/imperial/trouble_onion_and_leek_troubles.pdf",
+          "sha256": "07c0f92a303404f27ef6357311ecdf32fb3c5e40366a20d5685fc9d7d8f3813c",
+          "startPage": 130,
+          "physicalPages": 3,
+          "originalPdfSha256": "28072161129c85d9323a3675d03d75ad60921ade70e9971074d1b8349e4a6391"
+        },
+        {
+          "id": "imperial/trouble/oriental_leaves_troubles",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/imperial/trouble_oriental_leaves_troubles.pdf",
+          "sha256": "e5ee822eea23f1c437abda674af137c724b098a172dfda218e0f0fbc8216a5c4",
+          "startPage": 133,
+          "physicalPages": 2,
+          "originalPdfSha256": "6172ce24b4be6ff5870be5efcbd03f575de519c9213053fa38df477657662c28"
+        },
+        {
+          "id": "imperial/trouble/potato_troubles",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/imperial/trouble_potato_troubles.pdf",
+          "sha256": "7d4091443f13eb553e1998414bd12f9129593130094d9213270a8bd2f1f3b174",
+          "startPage": 135,
+          "physicalPages": 5,
+          "originalPdfSha256": "b5dd9b1ba7a38858437584cdb631085efa92facb2111e3f9cbb40eb929188474"
+        },
+        {
+          "id": "imperial/trouble/spinach_troubles",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/imperial/trouble_spinach_troubles.pdf",
+          "sha256": "f66844a4eeb9de8a7bdd74ad7b71819399ff4777cda6044df45e90cb22079c31",
+          "startPage": 140,
+          "physicalPages": 2,
+          "originalPdfSha256": "8eeb4ba2ec4f2d2eae3ed22cc5012012e6e2c13dff9b5c392d881810ce815655"
+        },
+        {
+          "id": "imperial/trouble/tomato_troubles",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/imperial/trouble_tomato_troubles.pdf",
+          "sha256": "00f0801b2049fad706a611bf90dcee71e0208390cf05a0c27343edc7d3a55787",
+          "startPage": 142,
+          "physicalPages": 5,
+          "originalPdfSha256": "0fd5a365ae80695e53dd4cbee98af644110699e1c6dad5dd5ab7d785c0bfa3ce"
+        },
+        {
+          "id": "imperial/trouble/turnip_swede_radish_troubles",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/imperial/trouble_turnip_swede_radish_troubles.pdf",
+          "sha256": "4c24b6defe325db79fe189c95896b6b9e75e909eb9ace8ab9768cd282c494bcb",
+          "startPage": 147,
+          "physicalPages": 2,
+          "originalPdfSha256": "6c7789d56138ba9a8eb5636659093df8ac324d25b44e59b45d5bdab8151d9abe"
+        }
+      ],
+      "visualReview": "Representative derivative source pages in FLATTENED-VISUAL.json; assembled derivative review is separate."
+    },
+    {
+      "units": "metric",
+      "pdf": "output/pdf/book-preparation/compact-book-metric-flattened-review.pdf",
+      "sha256": "44d5b75812c1416ceb8eef8d96005a2236249ba1e66ce98854e9ccd25ecf4cba",
+      "pages": 148,
+      "bytes": 301733423,
+      "guidePages": 137,
+      "openingPages": 7,
+      "blankEndPages": 0,
+      "folioAndGeometryChecks": "passed for every physical page",
+      "interstitialBlankPages": 4,
+      "blankFolios": [
+        15,
+        69,
+        87,
+        91
+      ],
+      "facingPagePolicy": "Review proposal: every vegetable starts verso, with its overview and practical advice facing. Explicit blank rectos after odd-length vegetable guides retain that arrangement and can be used for notes. Troubles read continuously. John has not approved this pagination choice.",
+      "optimisation": {
+        "reencodedImages": 0,
+        "streamBytesSaved": 0,
+        "pixelRoundTrip": "Every changed stream checked byte-for-byte; no resampling or colour conversion",
+        "objectDeduplication": "Skipped for full-page flattened artwork; encoded streams retained"
+      },
+      "sources": [
+        {
+          "id": "metric/opening",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/metric/opening-pages.pdf",
+          "sha256": "eeb7ee7be3db383e1226f44d9789c239a495daed5b32148df84eb807eb16e537",
+          "startPage": 1,
+          "physicalPages": 7,
+          "originalPdfSha256": "2cb7b86ecc971b9fff3137c75af4450465f92afd88e893b1be4023a7e0b10d21"
+        },
+        {
+          "id": "metric/vegetable/artichoke_jerusalem",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/metric/vegetable_artichoke_jerusalem.pdf",
+          "sha256": "3acfca7547b90baa7df51ff7d361952b6258f92a1e2c6884fa857255742212b7",
+          "startPage": 8,
+          "physicalPages": 2,
+          "originalPdfSha256": "1fae8aa769225fec5cf3b4d2074936487160817b24708ce17d5b89da0aef437b"
+        },
+        {
+          "id": "metric/vegetable/beetroot",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/metric/vegetable_beetroot.pdf",
+          "sha256": "69a0d08f21d72635f1f502aaf2bfb1654b0e5a00adaace4a29e209c97c51d44a",
+          "startPage": 10,
+          "physicalPages": 2,
+          "originalPdfSha256": "a37ba4c482c4fcea99ba8a35938aa05bc57efcce46e1b8def2d98d6b13f8583e"
+        },
+        {
+          "id": "metric/vegetable/carrot",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/metric/vegetable_carrot.pdf",
+          "sha256": "4249a84e515cab116732db15545ac347a7718092ad1e6e654d624069f0057625",
+          "startPage": 12,
+          "physicalPages": 3,
+          "originalPdfSha256": "495db808ef0ccb705229fb0df8737ee13776b5d572335bb8064fa88fb40467a3"
+        },
+        {
+          "id": "metric/vegetable/celeriac",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/metric/vegetable_celeriac.pdf",
+          "sha256": "8ffa42bceb6852deb3ad1e9b72db6efad623095a97d2e6f70d277e470db64e91",
+          "startPage": 16,
+          "physicalPages": 2,
+          "originalPdfSha256": "a5e8ae87f1caff19598b7a8227d9c208bfd497dac68716a69453a895b652c114"
+        },
+        {
+          "id": "metric/vegetable/kohl_rabi",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/metric/vegetable_kohl_rabi.pdf",
+          "sha256": "4ef9f85d77a59eaa8f47690e594bb99132a0cf22ad141d7f36b099e915bde27d",
+          "startPage": 18,
+          "physicalPages": 2,
+          "originalPdfSha256": "4a2567247f020ba1c2e1d260368c1a3ec71598de817b8810f99c64d3df5e40c2"
+        },
+        {
+          "id": "metric/vegetable/parsnip",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/metric/vegetable_parsnip.pdf",
+          "sha256": "236417749c4356c33c109eee5bbaa8fdf544c7d52fbdbfb933326bb2a83b3842",
+          "startPage": 20,
+          "physicalPages": 2,
+          "originalPdfSha256": "744435448eed0fa9db227a0259b1a3c45485c14189662f45d9254742ad274271"
+        },
+        {
+          "id": "metric/vegetable/potato",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/metric/vegetable_potato.pdf",
+          "sha256": "428c4c03d254e8d65caed7db0bc1c72a585787555f3c398b7fb999f1c5c578ee",
+          "startPage": 22,
+          "physicalPages": 2,
+          "originalPdfSha256": "bbbdb77d2939a3d4115b36765748fa844ffe3ebed420b4ea5bea4179b01f7364"
+        },
+        {
+          "id": "metric/vegetable/radish",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/metric/vegetable_radish.pdf",
+          "sha256": "4b4647a4af4ba42bf3baef4c43c89ed29c5fb3cd0986649823769a715287536b",
+          "startPage": 24,
+          "physicalPages": 2,
+          "originalPdfSha256": "6669eb06fc644173b150b605ffd908263a508454640c2ca0b4c17df47abd428b"
+        },
+        {
+          "id": "metric/vegetable/salsify_scorzonera",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/metric/vegetable_salsify_scorzonera.pdf",
+          "sha256": "b90ba87d68a06c321edc998fdfef2017c322332dfe93089ed14f31047add41fc",
+          "startPage": 26,
+          "physicalPages": 2,
+          "originalPdfSha256": "81d5772e633775c3e61d35606fc2db4ed2174ec70ec8edb5b79b0ae670937763"
+        },
+        {
+          "id": "metric/vegetable/swede",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/metric/vegetable_swede.pdf",
+          "sha256": "e182b69206b146dfa127c93b628bb78cf1d139b48727b5c8fdc75039e424b813",
+          "startPage": 28,
+          "physicalPages": 2,
+          "originalPdfSha256": "4487c96565dee8727ed31f2d47e956e3aa95fbc91b881975dd01b45c542a1254"
+        },
+        {
+          "id": "metric/vegetable/turnip",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/metric/vegetable_turnip.pdf",
+          "sha256": "e21ab9715c23d83a1e890f18197b6080809a351e297b8f72d69d6cd3e7d8575f",
+          "startPage": 30,
+          "physicalPages": 2,
+          "originalPdfSha256": "c302a04ec26e1a93c1ef946279e821f5734ad07288c42738e11637a06888bf51"
+        },
+        {
+          "id": "metric/vegetable/broccoli",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/metric/vegetable_broccoli.pdf",
+          "sha256": "4ee4c895689db421d3e735fa43ca1c7360b50b795e2f9b1bb214594f403891ab",
+          "startPage": 32,
+          "physicalPages": 2,
+          "originalPdfSha256": "79f1e1b432c54d50b07822877da050a75b3dbb2ccaee8ea6ddd091b0b97e13df"
+        },
+        {
+          "id": "metric/vegetable/brussels_sprouts",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/metric/vegetable_brussels_sprouts.pdf",
+          "sha256": "dc59c859a40d7ce4bae244aebf0b6ee8b2aa345f3c4c656f80714e3e9e44419c",
+          "startPage": 34,
+          "physicalPages": 2,
+          "originalPdfSha256": "19aaa72f00e5c70f994cd36473ae4de9db709c86b7d901916de7afb7dc03914f"
+        },
+        {
+          "id": "metric/vegetable/cabbage",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/metric/vegetable_cabbage.pdf",
+          "sha256": "73b7b2530a3024e449b230d27088fe71e961adb5257293b03b6307eebceb4cd7",
+          "startPage": 36,
+          "physicalPages": 2,
+          "originalPdfSha256": "b475a3718e770d71a52338cb9ad4e38330b1cefd44a491aa90d2f1c8addec441"
+        },
+        {
+          "id": "metric/vegetable/cauliflower",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/metric/vegetable_cauliflower.pdf",
+          "sha256": "4923ec0c023f6c7f9cebc88f6c82c618d5fb8fce754301d94594815cba31a554",
+          "startPage": 38,
+          "physicalPages": 2,
+          "originalPdfSha256": "dcbc2fcfc2146a6cc48c2d91bb1ddb6aff3e24c1a5c8958adb0b72ff3e0f5e2d"
+        },
+        {
+          "id": "metric/vegetable/kale",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/metric/vegetable_kale.pdf",
+          "sha256": "4c7cab4abea699ab5f24f37d8e64a8e8feac6cf93328432ae1626ef5181634b7",
+          "startPage": 40,
+          "physicalPages": 2,
+          "originalPdfSha256": "a73cafc528385aba221931b41fe53338f447e9989d6b387fdeb0977aa2307c81"
+        },
+        {
+          "id": "metric/vegetable/bean_broad",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/metric/vegetable_bean_broad.pdf",
+          "sha256": "2dee130ec389621abc63d790046f6f38b5aa9147931ba376b15214ee15d7dfe4",
+          "startPage": 42,
+          "physicalPages": 2,
+          "originalPdfSha256": "f358b44aac4c2bbd3045432d1bb021558de86138436d7e77ca82c489359e6289"
+        },
+        {
+          "id": "metric/vegetable/bean_french",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/metric/vegetable_bean_french.pdf",
+          "sha256": "cc5049b631f78e9a40eaa02fd821d1f681ce97140b314be94b8deb1e8d13d40f",
+          "startPage": 44,
+          "physicalPages": 2,
+          "originalPdfSha256": "9c524fd3524a0edf7dcb3a37719b04bc69d67933a7422c656dee4e247eab60fe"
+        },
+        {
+          "id": "metric/vegetable/bean_runner",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/metric/vegetable_bean_runner.pdf",
+          "sha256": "d48e7c737cef08060e417c43bd8e1c7388116501ef0b063433fa54a4dcdd3a6f",
+          "startPage": 46,
+          "physicalPages": 2,
+          "originalPdfSha256": "8721e6299801460794b1bdd71637eefa012b4bd42d13c39d8353f252e03429a2"
+        },
+        {
+          "id": "metric/vegetable/pea",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/metric/vegetable_pea.pdf",
+          "sha256": "43e018217e7b195158ac48aa8ce0ac35cc2c98f5db5f30ea127c076151edc669",
+          "startPage": 48,
+          "physicalPages": 2,
+          "originalPdfSha256": "8e9f8ce6c1028681a7b405383c2ab38ee45c3e68f1049a2add33dd0ba21188d1"
+        },
+        {
+          "id": "metric/vegetable/beet_leaf",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/metric/vegetable_beet_leaf.pdf",
+          "sha256": "6c9ed1475d3dcba7e3c198bc6c8d3189da618d4eb0c57ebaabb03619fc3d02e8",
+          "startPage": 50,
+          "physicalPages": 2,
+          "originalPdfSha256": "8c2cb7a7b2b3893f493138ac1357651eb120d752b4dbdb49603b79f2532e020f"
+        },
+        {
+          "id": "metric/vegetable/chicory",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/metric/vegetable_chicory.pdf",
+          "sha256": "65b51e0ee3a21457c2172416c02dc2a27569338ccb6c7de9794786cce237d2e8",
+          "startPage": 52,
+          "physicalPages": 2,
+          "originalPdfSha256": "76c32de4783c6eac7f7cea1fb333d7c8d16cc91f1264fea6ae7993ce2e1065f7"
+        },
+        {
+          "id": "metric/vegetable/endive",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/metric/vegetable_endive.pdf",
+          "sha256": "2e44d400ad7fa15b70dffab03d8dad49450d814a9c2443a729807b3bcb533bb5",
+          "startPage": 54,
+          "physicalPages": 2,
+          "originalPdfSha256": "4e039df907469d3074c8ca720f47e36234014c884ba6af627eedd5074cf77c34"
+        },
+        {
+          "id": "metric/vegetable/lettuce",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/metric/vegetable_lettuce.pdf",
+          "sha256": "2d484888988f76d30094724ec212b519cee0daee46c7e140d7e84307f42684bd",
+          "startPage": 56,
+          "physicalPages": 2,
+          "originalPdfSha256": "25c13d0ba5f7a69c952ec6af8e127d0961222fe5be46b374a28fb1442ed8edf7"
+        },
+        {
+          "id": "metric/vegetable/oriental_leaves",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/metric/vegetable_oriental_leaves.pdf",
+          "sha256": "e547bc68fdfa7107d4239fbde97518c3eaf09fda63d02b02e4ec827399527b92",
+          "startPage": 58,
+          "physicalPages": 2,
+          "originalPdfSha256": "f2c82829ec8a0a0273a5d87c9c642182583b3b162cf0632b2b7b2b55721ffd16"
+        },
+        {
+          "id": "metric/vegetable/spinach",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/metric/vegetable_spinach.pdf",
+          "sha256": "2e6d981fefb0f45b701b3db616fd177709963e716efbc9eb8f2bfab9ba98e8a5",
+          "startPage": 60,
+          "physicalPages": 2,
+          "originalPdfSha256": "a1078a04f48f1b0c3eca8579f553c1a45f3373eac8d66456e7342fffcee3cd06"
+        },
+        {
+          "id": "metric/vegetable/garlic",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/metric/vegetable_garlic.pdf",
+          "sha256": "b4cba97cc0199ac0962f01a89b178f67c0934e40002508bb8c82b6c7edc69a11",
+          "startPage": 62,
+          "physicalPages": 2,
+          "originalPdfSha256": "65b3bcf7d319e7bcaa28832216dc18885ebbbe076936db145494e8f18996d10c"
+        },
+        {
+          "id": "metric/vegetable/leek",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/metric/vegetable_leek.pdf",
+          "sha256": "69365ccd03494bc74a188ff7050b397b580a60f27a3d54eb6b3ab3341d56fb80",
+          "startPage": 64,
+          "physicalPages": 2,
+          "originalPdfSha256": "16238f50088c0947e0302fb562d1b47efa825fa9075502ae1b2454c0f6fefbce"
+        },
+        {
+          "id": "metric/vegetable/onion_shallot",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/metric/vegetable_onions_and_shallots.pdf",
+          "sha256": "ea71c6a2de79ffe788d18bab2ef15e89f63fe89a8b0fe89245ca2b7ae8c4a71b",
+          "startPage": 66,
+          "physicalPages": 3,
+          "originalPdfSha256": "fc5e161864dd73fa630d316e03ff7607c0c371813e156039bbe68bc3ad8c7c68"
+        },
+        {
+          "id": "metric/vegetable/aubergine",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/metric/vegetable_aubergine.pdf",
+          "sha256": "d49b874d9b2315be6c30985bd408bc80da221e3ea7b4e7df39f925dd47282418",
+          "startPage": 70,
+          "physicalPages": 2,
+          "originalPdfSha256": "7faceb5409c8525b54c674f47a7f370380995dcfb9185274383cec63d456d9d0"
+        },
+        {
+          "id": "metric/vegetable/capsicum",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/metric/vegetable_capsicum.pdf",
+          "sha256": "a5e56a875baaf5a0da6aa79b72c8e3ca688e7a3c55ee4b684f199b351fc375e7",
+          "startPage": 72,
+          "physicalPages": 2,
+          "originalPdfSha256": "32e133151742e7ac83324ed4af875e7f4c60e68e4764b5e77515fe48f2f157c8"
+        },
+        {
+          "id": "metric/vegetable/marrow_courgette",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/metric/vegetable_courgettes_and_marrows.pdf",
+          "sha256": "981549c9291f4154f26de15f41a768adf6b15ed752112c69da89ea490c19b794",
+          "startPage": 74,
+          "physicalPages": 2,
+          "originalPdfSha256": "d1e6b144daa247b35c08a7915d42647842ceff926502b76c21225fc38d4ad051"
+        },
+        {
+          "id": "metric/vegetable/cucumber_greenhouse",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/metric/vegetable_cucumber_greenhouse.pdf",
+          "sha256": "48fa39e8215d14d4762b8a662dfd0f0bfcf3a692f0d60236d5c4533f5ececa38",
+          "startPage": 76,
+          "physicalPages": 2,
+          "originalPdfSha256": "de8ba393fe31924d8b5272557de6afb3238737eefe968e632c6a56aed8a7fc29"
+        },
+        {
+          "id": "metric/vegetable/cucumber_outdoor",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/metric/vegetable_cucumber_outdoor.pdf",
+          "sha256": "6c6a88d0fa0a6ca99264812ae596e274d0b9b5663640a75ac18d5152413da91a",
+          "startPage": 78,
+          "physicalPages": 2,
+          "originalPdfSha256": "feda3b8a08866f003a34d8f25f31ed3511e718c39d46feb4938b636f7d0b2591"
+        },
+        {
+          "id": "metric/vegetable/squash_pumpkin",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/metric/vegetable_squashes_and_pumpkins.pdf",
+          "sha256": "38b5212023abd96098e239d8bb23662e69d9c5894b0f06441a93c02c944d92cc",
+          "startPage": 80,
+          "physicalPages": 2,
+          "originalPdfSha256": "ae6d44ed65f8e5f6c671e956e7d2c5336bac1ffd5bd84f08a30603ceebe9406c"
+        },
+        {
+          "id": "metric/vegetable/sweet_corn",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/metric/vegetable_sweet_corn.pdf",
+          "sha256": "8d9b4d3184035a791f22165eb1679ad2d282e2a41dffec63724ccae3f7b00967",
+          "startPage": 82,
+          "physicalPages": 2,
+          "originalPdfSha256": "40f019a24ba1a9a9f0233ddb26113330bbce903ef03c7016fa773b9fd4bf7bb1"
+        },
+        {
+          "id": "metric/vegetable/tomato_greenhouse",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/metric/vegetable_tomato_greenhouse.pdf",
+          "sha256": "f0648bf41714217b970703e0b57e29a29848ebb099c1a7a3d8daab184252be29",
+          "startPage": 84,
+          "physicalPages": 3,
+          "originalPdfSha256": "bb7bc6ac1f17c48cb524b4f0386993eef9a786a9fabd5e00ec214f34c81571e6"
+        },
+        {
+          "id": "metric/vegetable/tomato_outdoor",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/metric/vegetable_tomato_outdoor.pdf",
+          "sha256": "e15860c28c40894dcc1f31d32644023e83ba6951a2eadf310ff2cf425019ddbc",
+          "startPage": 88,
+          "physicalPages": 3,
+          "originalPdfSha256": "f4f56fff8a8be090b42efad285e5cf72bc150a2e92b51c06098c14932555ee84"
+        },
+        {
+          "id": "metric/vegetable/artichoke_globe",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/metric/vegetable_artichoke_globe.pdf",
+          "sha256": "0e6207b57799b253e6d74fca7b3b2cbaf205d7f4690a5f458bf595cba7269cbb",
+          "startPage": 92,
+          "physicalPages": 2,
+          "originalPdfSha256": "767a4585a81c7c7ff8fd3d835bdaf940cdf8108ca637ff0506bad0e97d3422d8"
+        },
+        {
+          "id": "metric/vegetable/asparagus",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/metric/vegetable_asparagus.pdf",
+          "sha256": "fdc8d2b7e6238b8201d26d3bbeae9e10e5337a81d3d35727b157decfbb0f448d",
+          "startPage": 94,
+          "physicalPages": 2,
+          "originalPdfSha256": "f963576d9f356fde6265867a6cee32c8e75b58dd68ec279dc2f22420e718b458"
+        },
+        {
+          "id": "metric/vegetable/celery",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/metric/vegetable_celery.pdf",
+          "sha256": "967e0d01dbf65f18df3d25e564c28e2d48324751b5f046b8fef9f6d8e1e34b93",
+          "startPage": 96,
+          "physicalPages": 2,
+          "originalPdfSha256": "399736afd5b81de21560d3c3605dc16d51ddc0990f3c44ce5bd2eed5e6f5ab76"
+        },
+        {
+          "id": "metric/vegetable/florence_fennel",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/metric/vegetable_florence_fennel.pdf",
+          "sha256": "b43b9b83b5ab6e7f3b1711ea969b07f436a2042a100a2ee1a88aadb3c99730ac",
+          "startPage": 98,
+          "physicalPages": 2,
+          "originalPdfSha256": "c6c1ddbbcaf5d865b8e6d4e72db89d6855c9a060b43f976f3d2fa7f738574a94"
+        },
+        {
+          "id": "metric/vegetable/rhubarb",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/metric/vegetable_rhubarb.pdf",
+          "sha256": "f486ce4f79d7fef5dbf49efd5688cac9ca71c921ccf63b2d3f785347dc5c4565",
+          "startPage": 100,
+          "physicalPages": 2,
+          "originalPdfSha256": "d1a32fa9871cd9ec734c25537a8bac63b6f52981a5d48f82e97a326bd9f2d085"
+        },
+        {
+          "id": "metric/vegetable/mushroom",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/metric/vegetable_mushroom.pdf",
+          "sha256": "53eb79441b2c03d4b95ed96350eda37296853d239377f8a008c91360a1545295",
+          "startPage": 102,
+          "physicalPages": 2,
+          "originalPdfSha256": "b1d33ca41fe2dbb6e8503aa878a364b7ab41855c581ddf3a85959ac8789a8416"
+        },
+        {
+          "id": "metric/trouble/bean_and_pea_troubles",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/metric/trouble_bean_and_pea_troubles.pdf",
+          "sha256": "2423907f235ef74cb21343770e0a7c6837d00f5e9f2ac14c1de9c413a73046c1",
+          "startPage": 104,
+          "physicalPages": 4,
+          "originalPdfSha256": "a39de869adbf78bcda2aa60a7f477aa8c8a6cb0f4fc638846b7452736f696b26"
+        },
+        {
+          "id": "metric/trouble/beetroot_troubles",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/metric/trouble_beetroot_troubles.pdf",
+          "sha256": "2a932cb129d26e71e13a4e8c4b8e2bc4ba64b1e5d0b93bcfdd56c8686e26d479",
+          "startPage": 108,
+          "physicalPages": 2,
+          "originalPdfSha256": "a38e219201066f78859ad924164efc1ccb912ed940c643e6845946b4201a5962"
+        },
+        {
+          "id": "metric/trouble/brassica_troubles",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/metric/trouble_brassica_troubles.pdf",
+          "sha256": "4ff67def1f852dac05cda4043642410b2c5ae589b6db3bdd5d50fcc8fe798588",
+          "startPage": 110,
+          "physicalPages": 6,
+          "originalPdfSha256": "10ceed870475d546833518aa0dacfff1b3d1205099b743959a9ae0322c698a86"
+        },
+        {
+          "id": "metric/trouble/carrot_and_parsnip_troubles",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/metric/trouble_carrot_and_parsnip_troubles.pdf",
+          "sha256": "ff66bf612b5f240ca9054736e748b25ce5ef45e4e3c53ac581ab0c9e9684c669",
+          "startPage": 116,
+          "physicalPages": 3,
+          "originalPdfSha256": "fe864ebbe882f6bfae5a576f931f03aa874ea66656be0f61d13478ec7deb14e1"
+        },
+        {
+          "id": "metric/trouble/celery_troubles",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/metric/trouble_celery_troubles.pdf",
+          "sha256": "b366c11ee5b99d6a3b29dca8a8d87bbdd064eece581f9779efce5c178438dd3c",
+          "startPage": 119,
+          "physicalPages": 2,
+          "originalPdfSha256": "853a8015ae6cb8a7acdbcf38ea38e6b630c5c623e99c82f10d62e14ec4de6609"
+        },
+        {
+          "id": "metric/trouble/cucurbit_troubles",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/metric/trouble_cucurbit_troubles.pdf",
+          "sha256": "68774862e83d2b6168b5cc68c074fac1aacccf583c5a27125762bb5c869bab76",
+          "startPage": 121,
+          "physicalPages": 5,
+          "originalPdfSha256": "27a673332c52e256c886d7b95594e08748c3a795e13cab5d1fb16e69ed3e6184"
+        },
+        {
+          "id": "metric/trouble/florence_fennel_troubles",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/metric/trouble_florence_fennel_troubles.pdf",
+          "sha256": "a3ed4a46d4af5388c77d95856b4c7e38d0eb5fd33adfe19d80801f62c3290de1",
+          "startPage": 126,
+          "physicalPages": 1,
+          "originalPdfSha256": "d288254317f53080769d94ad99ac76483ba5e5bf6abfd32afb09cda58185a4a9"
+        },
+        {
+          "id": "metric/trouble/lettuce_troubles",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/metric/trouble_lettuce_troubles.pdf",
+          "sha256": "252f89d3e7515b5e309c4c5f076faf9efcb8437d372f37266d10f62f85f7c9fe",
+          "startPage": 127,
+          "physicalPages": 3,
+          "originalPdfSha256": "26b0b2e4087bbb134d30b381a90d4e77e7347075f639172c86aa9982b811c33a"
+        },
+        {
+          "id": "metric/trouble/onion_and_leek_troubles",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/metric/trouble_onion_and_leek_troubles.pdf",
+          "sha256": "e508e36fc5b747bec668c182d0dd25114b5ec06b0ca6eb7559b68b39439253ff",
+          "startPage": 130,
+          "physicalPages": 3,
+          "originalPdfSha256": "47d7d623a4de42f7be80abb8767642394e1113215dda6d9032b5c429b7a01afd"
+        },
+        {
+          "id": "metric/trouble/oriental_leaves_troubles",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/metric/trouble_oriental_leaves_troubles.pdf",
+          "sha256": "227f13040a94c9af04aad1f55462f06d700f9917724ba315d5b4db5556a6f83f",
+          "startPage": 133,
+          "physicalPages": 2,
+          "originalPdfSha256": "a8630241e92a02290cee1b7858d8c689dbdedf6ce27b353dc3d7023678d10715"
+        },
+        {
+          "id": "metric/trouble/potato_troubles",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/metric/trouble_potato_troubles.pdf",
+          "sha256": "f0d326ec3c7ecca67b7eddd0e95df6ad3da786f2ba1380b2a6f6fa27f4deb140",
+          "startPage": 135,
+          "physicalPages": 5,
+          "originalPdfSha256": "e41f6f73df309e766d807a49e1dfe8ea486046428dc4c5f64bad1639dc0bae4f"
+        },
+        {
+          "id": "metric/trouble/spinach_troubles",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/metric/trouble_spinach_troubles.pdf",
+          "sha256": "ab3d654e520b471235fd4dc4298500ca0f314e90afbb6358215507c5410ec83b",
+          "startPage": 140,
+          "physicalPages": 2,
+          "originalPdfSha256": "5b5bdd9430177bf5d5d997ad89b02d9c0798bd57d8e36902c6e6c9f124b00b62"
+        },
+        {
+          "id": "metric/trouble/tomato_troubles",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/metric/trouble_tomato_troubles.pdf",
+          "sha256": "7bc5973869ef502e956e6f05ca33621a4d2265be1e6f47fccf8c2d874c2c6616",
+          "startPage": 142,
+          "physicalPages": 5,
+          "originalPdfSha256": "a4d4bacb2ef7d8ebaf1c4398d6efbb2bb7fd51af0105479ab7c2d50e520bc053"
+        },
+        {
+          "id": "metric/trouble/turnip_swede_radish_troubles",
+          "pdf": "output/pdf/book-preparation/flattened/kdp/metric/trouble_turnip_swede_radish_troubles.pdf",
+          "sha256": "485138aa7b8698dc52a05c58a5e520b18665e43d324ff0095bcecb5c5fc72619",
+          "startPage": 147,
+          "physicalPages": 2,
+          "originalPdfSha256": "5f72d39e19dddf83c52e4741920cb56699dc19ace4b067b2a172a93ec87bd6d5"
+        }
+      ],
+      "visualReview": "Representative derivative source pages in FLATTENED-VISUAL.json; assembled derivative review is separate."
+    }
+  ],
+  "flatteningSignature": "29a6b1a4402e974953e43ceba05001d097ad2198b89ff371cf1a9fcfc9b418f5",
+  "derivativeQualification": "Artwork composited to opaque RGB at600dpi; native vector text retained. Not pixel-identical to original graphics, not PDF/X or supplier-approved. Publishing placeholders and fine-line decisions remain."
+}

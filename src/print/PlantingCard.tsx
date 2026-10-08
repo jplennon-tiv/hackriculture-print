@@ -32,7 +32,7 @@ export function PlantingCard({planting,fit,notes,onAssets}: {
             <dl className={art.measures}>{planting.measurements.map(m=><div key={m.path}>
                 <dt>{m.label}: </dt><dd>{m.value}</dd>
             </div>)}</dl>
-            {planting.content.supplementary.map(t=><p className={art.caption} key={t.id}>{t.text}</p>)}
+            {planting.supplementary.map(t=><p className={art.caption} key={t.id}>{t.text}</p>)}
             {notes.length>0&&<ul className={art.notes}>{notes.map((text,i)=><li key={i}>{text}</li>)}</ul>}
         </div>
     </div>;

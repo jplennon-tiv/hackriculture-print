@@ -43,7 +43,7 @@ npm run test:focused -- src/lib/months.test.ts
 node ../hackriculture-data/scripts/verify-data.mjs
 ```
 
-With start.command running, use the affected crop:
+For retained A4, with start.command running, use the affected crop:
 
 ```sh
 npm run check:fit -- carrot            # HTML sizing/readiness only
@@ -56,17 +56,28 @@ errors and actual two-page PDF output. They reuse `output/smoke/`; no screenshot
 combined packs or catalogue runs. Warnings are reported separately from errors.
 Use one crop/unit by default; add coverage only when the change requires it.
 
+For the compact book, use an affected real API PDF with `paper=185x240` and the
+book-profile checks in [DEVELOPMENT](DEVELOPMENT.md#compact-book-exports).
+`check:fit` / `check:smoke` above remain A4 checks even though the app default is
+compact. Check both units for wrapping/measurement changes. Ordinary compact
+batch exports individual guide proofs; the separate production/assembly scripts
+create review books. Read the handover before running those broader procedures.
+Offline PDF inspection/assembly does not need Vite.
+
 Optional broader checks: `npm run test:all`, `npm run check:types`, `npm run build`.
 They are not required after every small POC change. Do not automatically repeat
 full builds or multi-crop PDF exports. Documentation-only edits need link checks.
 
-PDF parameters are `units=imperial|metric` and case-sensitive `paper=A4|A5|A6`;
-`inline=1` opens a preview. Defaults are imperial/A4. A4 is the visually approved
-format. Single downloads go to the browser's download folder; batches use `output/`.
+PDF parameters are `units=imperial|metric` and case-sensitive
+`paper=185x240|A4|A5|A6`; `inline=1` opens a preview. Defaults are imperial and
+185 × 240 mm (Compact Book v1). A4 remains the approved sheet design. Single
+downloads go to the browser's download folder; A4 batches use `output/`, compact
+guide batches use `output/book-185x240/<units>/`, and working complete books live
+under `output/pdf/book-preparation/`. See the handover for exact current proofs.
 
 ## Troubleshooting
 
 - Missing shared JSON: restore the sibling folder arrangement; do not create local copies. See [SHARED-DATA.md](SHARED-DATA.md).
 - PDF errors: verify Chromium is installed and the launcher/dev server is running. The active Richer A and Open Editorial routes use packaged Lilita One and Nunito Sans under `public/fonts/`; check their loading before measuring. Some frozen references and legacy templates use online fonts.
 - Unknown crop routes: use the display-name slug helpers; keys and slugs are not always interchangeable.
-- Invalid data: stop the server before restoring a shared backup, then run the tests before restarting.
+- Invalid data: diagnose against the shared contract and current revision first. Restore a verified backup only within an authorised recovery, preserving newer edits; stop only the identified server involved and use focused validation before restarting.

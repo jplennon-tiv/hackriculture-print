@@ -1,0 +1,52 @@
+{
+  "sourcePhoto": "/Users/johnlennon/Desktop/DSC09933.JPG",
+  "originalPixels": [
+    4085,
+    2851
+  ],
+  "assumedPageHeightMm": 240,
+  "estimatedVisiblePageHeightAt1880px": 1270,
+  "method": "Horizontal dark-ink density (greyscale <120), autocorrelation across selected narrow text regions; strongest lag between 12 and 23 pixels at the 1880-pixel display scale. Original image is read without alteration. Convert using estimated visible page height / assumed 240 mm.",
+  "regionsAt1880px": {
+    "introduction": [
+      350,
+      115,
+      475,
+      365
+    ],
+    "practicalCare": [
+      490,
+      750,
+      700,
+      850
+    ],
+    "kitchenProse": [
+      985,
+      145,
+      1100,
+      305
+    ]
+  },
+  "measurements": [
+    {
+      "region": "introduction",
+      "pixelPitch": 18.9,
+      "approxLeadingPt": 10.1,
+      "correlation": 0.93
+    },
+    {
+      "region": "practicalCare",
+      "pixelPitch": 16.6,
+      "approxLeadingPt": 8.9,
+      "correlation": 0.61
+    },
+    {
+      "region": "kitchenProse",
+      "pixelPitch": 17.0,
+      "approxLeadingPt": 9.1,
+      "correlation": 0.88
+    }
+  ],
+  "limitations": "Photograph has perspective, curved pages and uncertain exact trim. Values are approximate baseline/line-spacing estimates, not recovered font sizes. Exact font size requires the typeface and a calibrated flat scan or physical measurement. Use ranges 8.5–9.5 pt for compact practical leading and 10–11 pt for introductory leading; do not design to decimal precision.",
+  "designApplication": "Use compact headings and spacing, avoid unused panel padding, place text beside artwork. Main pilot advice stays 9 pt with approximately 11.2–11.7 pt leading; retain distinct instructions and source images."
+}

@@ -1,0 +1,674 @@
+{
+  "date": "2026-10-07",
+  "method": "Built-in image_gen style-transfer from approved vegetable heroes; one output per asset, with two portrait framing refinements. Exact generated PNG bytes copied to the project.",
+  "status": "All eight subjects redrawn with direct approved-hero style references. John says the redraws are better; page allocation and installation remain pending.",
+  "assets": [
+    {
+      "id": "H1",
+      "name": "Roots & leaves — beetroot",
+      "role": "header",
+      "pair": "A",
+      "description": "A broad, low triangular harvest group of two rounded deep burgundy beetroots with reddish stalks and green leaves, three slender orange carrots, and three small red-and-white radishes. The beetroot anchors the left foreground; carrot leaves sweep gently upwards to the right. A loose lively grouping, 4:3 landscape composition. No cabbage, onion, tomato or pea. This is variation A1 of a ROOTS & LEAVES header pair.",
+      "file": "h1-roots-beetroot-hero-style-v2.png",
+      "prompt": "Use case: style-transfer.\nAsset type: transparent vegetable illustration for the same book as the approved hero references.\nPrimary request: redraw the target with EXACTLY the drawing language of the approved hero references. The user likes the subject and arrangement but rejects the target's increase in naturalistic detail.\nStyle: bold, simplified 2D vector-like editorial shapes, strong clean silhouettes, broad discrete overlapping colour/shadow shapes, saturated lime and forest greens. Match the references' large rhythmic tapered cream highlight slashes and occasional scalloped highlight strips. Use a few broad tones per form. Keep volume through graphic shapes, not realistic surface rendering.\nRemove the target's fine veins, root hairs, etched skin lines, tiny stippling, diffuse gradients, painted texture and intricate realistic foliage. Leaves use a bold midrib and just a few broad vein branches. Keep broad characteristic lobes. Avoid realistic gloss, photographic materials, 3D rendering, brush texture, black outlines, tiny repeated details.\nGenuinely transparent background; clean solid interior colour, no green glow or colour haze outside the silhouettes, no cast shadow or ground. Whole illustration inside canvas with clear space around every tip. One illustration only; no sheet, panels, text, labels, signature or border.\nInput roles: images 1–3 are the AUTHORITATIVE APPROVED STYLE, respectively carrot, beetroot and radish. Image 4 is the TARGET and gives only the subject mix and broad arrangement; do not inherit its drawing detail.\nKeep the target's broad landscape harvest group: two burgundy beetroots at left, three orange carrots sweeping diagonally through the middle, three small red-and-white radishes at right, with foliage rising behind. Use the exact bold simplified carrot foliage shapes and beetroot/radish shading language of images 1–3, as if that same illustrator drew this group. Simplify roots to clean tapered tips without hairs. Keep the target's distinct composition. 4:3 landscape.",
+      "references": [
+        "/Users/johnlennon/Documents/web_site/hackriculture-print/public/images/heroes/richer-a/carrot.png",
+        "/Users/johnlennon/Documents/web_site/hackriculture-print/public/images/heroes/richer-a/beetroot.png",
+        "/Users/johnlennon/Documents/web_site/hackriculture-print/public/images/heroes/richer-a/radish.png",
+        "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/assets/vegetable-guru-stock/assets/h1-roots-beetroot.png"
+      ],
+      "generatedSource": "/Users/johnlennon/.codex/generated_images/01a115eb-bd8f-7e00-b79b-4193018865b9/exec-09f41547-1474-48fe-b50c-e32f94bb5631.png",
+      "sha256": "c37f9ada30fa364ee9936c609f0634b367b43be71617c901bcecae393c69be0d",
+      "width": 1448,
+      "height": 1086,
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "transparentPixelFraction": 0.3211,
+      "alphaBounds": [
+        0,
+        23,
+        1444,
+        1070
+      ],
+      "previousVersions": [
+        {
+          "id": "H1",
+          "name": "Roots & leaves — beetroot",
+          "file": "h1-roots-beetroot.png",
+          "role": "header",
+          "pair": "A",
+          "description": "A broad, low triangular harvest group of two rounded deep burgundy beetroots with reddish stalks and green leaves, three slender orange carrots, and three small red-and-white radishes. The beetroot anchors the left foreground; carrot leaves sweep gently upwards to the right. A loose lively grouping, 4:3 landscape composition. No cabbage, onion, tomato or pea. This is variation A1 of a ROOTS & LEAVES header pair.",
+          "prompt": "Use case: stylized-concept. Asset type: a NEW companion illustration for The Vegetable Guru, an adult UK vegetable-growing paperback. Input image 1 is a STYLE REFERENCE ONLY: preserve its bright clean illustrated character, rich layered greens, orange/purple/red accents, crisp organic silhouettes, simplified dimensional shading and broad glossy highlight shapes. Create a genuinely new drawing and arrangement, not a recolour, mirror or rearrangement of existing pixels. Match the reference's lively, polished editorial vegetable art; no photorealism, pencil texture, paper texture, pastel wash, flat monochrome icon, heavy cartoon outline or anthropomorphic faces.\nOutput one standalone reusable illustration, NOT a page, book mockup, panel, sheet of variants or contact sheet. Genuinely transparent background, clean alpha edges, no tinted glow/halo, no background colour, no frame, no text, numbers, labels, signature or watermark. Keep complete silhouettes comfortably inside the frame with 5–8% transparent safety space. Simple readable shapes that hold up at 65 mm wide in print.\nSUBJECT AND COMPOSITION: A broad, low triangular harvest group of two rounded deep burgundy beetroots with reddish stalks and green leaves, three slender orange carrots, and three small red-and-white radishes. The beetroot anchors the left foreground; carrot leaves sweep gently upwards to the right. A loose lively grouping, 4:3 landscape composition. No cabbage, onion, tomato or pea. This is variation A1 of a ROOTS & LEAVES header pair.",
+          "references": [
+            "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/front-matter/entry-pages/studies/assets/harvest-cluster.png"
+          ],
+          "generatedSource": "/Users/johnlennon/.codex/generated_images/01a115eb-bd8f-7e00-b79b-4193018865b9/exec-99b6a153-f901-4488-9832-a055c34af8d4.png",
+          "sha256": "88e1b3d74f519c31a9b1637055c667bedf3975160ee0e32720cb39fed88b33d7",
+          "width": 1448,
+          "height": 1086,
+          "mode": "RGBA",
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "transparentPixelFraction": 0.374,
+          "alphaBounds": [
+            0,
+            2,
+            1448,
+            1050
+          ]
+        }
+      ]
+    },
+    {
+      "id": "H2",
+      "name": "Roots & leaves — turnips",
+      "role": "header",
+      "pair": "A",
+      "description": "A broad, low triangular harvest group of two cream turnips with subtle purple shoulders and leafy green tops, two tapered pale parsnips, and a small upright fan of rainbow chard with red and golden stems. Turnips anchor the right foreground, the parsnips lie diagonally leftwards and chard leaves rise at the left. 4:3 landscape composition. No beetroot, carrot, radish, cabbage, onion, tomato or pea. This is variation A2 of a ROOTS & LEAVES header pair: complementary to A1, clearly different vegetables and silhouette, not a mirror copy.",
+      "file": "h2-roots-turnips-hero-style-v2.png",
+      "prompt": "Use case: style-transfer.\nAsset type: transparent vegetable illustration for the same book as the approved hero references.\nPrimary request: redraw the target with EXACTLY the drawing language of the approved hero references. The user likes the subject and arrangement but rejects the target's increase in naturalistic detail.\nStyle: bold, simplified 2D vector-like editorial shapes, strong clean silhouettes, broad discrete overlapping colour/shadow shapes, saturated lime and forest greens. Match the references' large rhythmic tapered cream highlight slashes and occasional scalloped highlight strips. Use a few broad tones per form. Keep volume through graphic shapes, not realistic surface rendering.\nRemove the target's fine veins, root hairs, etched skin lines, tiny stippling, diffuse gradients, painted texture and intricate realistic foliage. Leaves use a bold midrib and just a few broad vein branches. Keep broad characteristic lobes. Avoid realistic gloss, photographic materials, 3D rendering, brush texture, black outlines, tiny repeated details.\nGenuinely transparent background; clean solid interior colour, no green glow or colour haze outside the silhouettes, no cast shadow or ground. Whole illustration inside canvas with clear space around every tip. One illustration only; no sheet, panels, text, labels, signature or border.\nInput roles: images 1–3 are the AUTHORITATIVE APPROVED HERO STYLE REFERENCES. Image 4 is the TARGET and supplies only the subject mix, object positions and broad arrangement; do not preserve its finely detailed rendering. Keep two white turnips with purple shoulders at the right, three pale parsnips sweeping diagonally across the foreground, and upright rainbow-chard leaves behind at the left. Preserve this landscape grouping and the subject selection. Match the parsnip and turnip hero's chunky stylised highlight/shadow patterns, simple tapered roots and broad graphic foliage. Chard should use the reference's broad curling planes and bold coloured ribs. 4:3 landscape.",
+      "references": [
+        "/Users/johnlennon/Documents/web_site/hackriculture-print/public/images/heroes/richer-a/parsnip.png",
+        "/Users/johnlennon/Documents/web_site/hackriculture-print/public/images/heroes/richer-a/turnip.png",
+        "/Users/johnlennon/Documents/web_site/hackriculture-print/public/images/heroes/richer-a/beet_leaf.png",
+        "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/assets/vegetable-guru-stock/assets/h2-roots-turnips.png"
+      ],
+      "generatedSource": "/Users/johnlennon/.codex/generated_images/01a115eb-bd8f-7e00-b79b-4193018865b9/exec-b3d74e8c-da50-4616-a50e-4a298c1099e1.png",
+      "sha256": "273fafe68e1222d1f55770277259c70738f0b18774db37435d3630e58bf64759",
+      "width": 1448,
+      "height": 1086,
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "transparentPixelFraction": 0.3519,
+      "alphaBounds": [
+        25,
+        0,
+        1421,
+        1074
+      ],
+      "previousVersions": [
+        {
+          "id": "H2",
+          "name": "Roots & leaves — turnips",
+          "file": "h2-roots-turnips.png",
+          "role": "header",
+          "pair": "A",
+          "description": "A broad, low triangular harvest group of two cream turnips with subtle purple shoulders and leafy green tops, two tapered pale parsnips, and a small upright fan of rainbow chard with red and golden stems. Turnips anchor the right foreground, the parsnips lie diagonally leftwards and chard leaves rise at the left. 4:3 landscape composition. No beetroot, carrot, radish, cabbage, onion, tomato or pea. This is variation A2 of a ROOTS & LEAVES header pair: complementary to A1, clearly different vegetables and silhouette, not a mirror copy.",
+          "prompt": "Use case: stylized-concept. Asset type: a NEW companion illustration for The Vegetable Guru, an adult UK vegetable-growing paperback. Input image 1 is a STYLE REFERENCE ONLY: preserve its bright clean illustrated character, rich layered greens, orange/purple/red accents, crisp organic silhouettes, simplified dimensional shading and broad glossy highlight shapes. Create a genuinely new drawing and arrangement, not a recolour, mirror or rearrangement of existing pixels. Match the reference's lively, polished editorial vegetable art; no photorealism, pencil texture, paper texture, pastel wash, flat monochrome icon, heavy cartoon outline or anthropomorphic faces.\nOutput one standalone reusable illustration, NOT a page, book mockup, panel, sheet of variants or contact sheet. Genuinely transparent background, clean alpha edges, no tinted glow/halo, no background colour, no frame, no text, numbers, labels, signature or watermark. Keep complete silhouettes comfortably inside the frame with 5–8% transparent safety space. Simple readable shapes that hold up at 65 mm wide in print.\nSUBJECT AND COMPOSITION: A broad, low triangular harvest group of two cream turnips with subtle purple shoulders and leafy green tops, two tapered pale parsnips, and a small upright fan of rainbow chard with red and golden stems. Turnips anchor the right foreground, the parsnips lie diagonally leftwards and chard leaves rise at the left. 4:3 landscape composition. No beetroot, carrot, radish, cabbage, onion, tomato or pea. This is variation A2 of a ROOTS & LEAVES header pair: complementary to A1, clearly different vegetables and silhouette, not a mirror copy.",
+          "references": [
+            "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/front-matter/entry-pages/studies/assets/harvest-cluster.png"
+          ],
+          "generatedSource": "/Users/johnlennon/.codex/generated_images/01a115eb-bd8f-7e00-b79b-4193018865b9/exec-2d47dd8d-3c36-416d-9f12-5974ad03c41a.png",
+          "sha256": "f5d35cfd2410d8dd6ca47991d19215a1fd6d193987d27f49fb5461c718a2faad",
+          "width": 1448,
+          "height": 1086,
+          "mode": "RGBA",
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "transparentPixelFraction": 0.3615,
+          "alphaBounds": [
+            0,
+            4,
+            1431,
+            1086
+          ]
+        }
+      ]
+    },
+    {
+      "id": "H3",
+      "name": "Summer harvest — courgettes",
+      "role": "header",
+      "pair": "B",
+      "description": "A compact generous summer-harvest group: one dark green ridged courgette with a small golden blossom attached at its flower end, one glossy red sweet pepper, three cherry tomatoes connected by a green truss, and two lush courgette leaves behind. Courgette lies gently diagonal across the foreground; pepper sits at rear right; cherry tomatoes left. 4:3 landscape composition. No basket, hands or soil. This is variation B1 of a SUMMER HARVEST header pair. Anatomically plausible distinguishable vegetables, tidy garden-fresh arrangement.",
+      "file": "h3-summer-courgettes-hero-style-v2.png",
+      "prompt": "Use case: style-transfer.\nAsset type: transparent vegetable illustration for the same book as the approved hero references.\nPrimary request: redraw the target with EXACTLY the drawing language of the approved hero references. The user likes the subject and arrangement but rejects the target's increase in naturalistic detail.\nStyle: bold, simplified 2D vector-like editorial shapes, strong clean silhouettes, broad discrete overlapping colour/shadow shapes, saturated lime and forest greens. Match the references' large rhythmic tapered cream highlight slashes and occasional scalloped highlight strips. Use a few broad tones per form. Keep volume through graphic shapes, not realistic surface rendering.\nRemove the target's fine veins, root hairs, etched skin lines, tiny stippling, diffuse gradients, painted texture and intricate realistic foliage. Leaves use a bold midrib and just a few broad vein branches. Keep broad characteristic lobes. Avoid realistic gloss, photographic materials, 3D rendering, brush texture, black outlines, tiny repeated details.\nGenuinely transparent background; clean solid interior colour, no green glow or colour haze outside the silhouettes, no cast shadow or ground. Whole illustration inside canvas with clear space around every tip. One illustration only; no sheet, panels, text, labels, signature or border.\nInput roles: images 1–3 are the AUTHORITATIVE APPROVED HERO STYLE REFERENCES. Image 4 is the TARGET and supplies only the subject mix, object positions and broad arrangement; do not preserve its finely detailed rendering. Keep the target's broad landscape group: two overlapping dark-green courgettes lying across the foreground, a golden courgette flower on the right, one red pepper behind at the right, small connected red tomatoes at the left and broad leaves behind. Match the courgette reference's discrete simple stripes and enlarged pattern marks; replace tiny stippling with sparse broad marks. Pepper and tomatoes must have the approved heroes' rhythmic graphic cream highlight strokes and clearly separated red shadow shapes. Keep the subject selection and arrangement. 4:3 landscape.",
+      "references": [
+        "/Users/johnlennon/Documents/web_site/hackriculture-print/public/images/heroes/richer-a/marrow_courgette.png",
+        "/Users/johnlennon/Documents/web_site/hackriculture-print/public/images/heroes/richer-a/capsicum.png",
+        "/Users/johnlennon/Documents/web_site/hackriculture-print/public/images/heroes/richer-a/tomato-greenhouse.png",
+        "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/assets/vegetable-guru-stock/assets/h3-summer-courgettes.png"
+      ],
+      "generatedSource": "/Users/johnlennon/.codex/generated_images/01a115eb-bd8f-7e00-b79b-4193018865b9/exec-c5ebf4b6-51eb-4121-8a5d-82f84d5d646e.png",
+      "sha256": "2c323438f823b9c6b8cde927160a6bc6fe37486d09fda3d20cb7a343a709e475",
+      "width": 1448,
+      "height": 1086,
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "transparentPixelFraction": 0.3473,
+      "alphaBounds": [
+        0,
+        16,
+        1435,
+        1070
+      ],
+      "previousVersions": [
+        {
+          "id": "H3",
+          "name": "Summer harvest — courgettes",
+          "file": "h3-summer-courgettes.png",
+          "role": "header",
+          "pair": "B",
+          "description": "A compact generous summer-harvest group: one dark green ridged courgette with a small golden blossom attached at its flower end, one glossy red sweet pepper, three cherry tomatoes connected by a green truss, and two lush courgette leaves behind. Courgette lies gently diagonal across the foreground; pepper sits at rear right; cherry tomatoes left. 4:3 landscape composition. No basket, hands or soil. This is variation B1 of a SUMMER HARVEST header pair. Anatomically plausible distinguishable vegetables, tidy garden-fresh arrangement.",
+          "prompt": "Use case: stylized-concept. Asset type: a NEW companion illustration for The Vegetable Guru, an adult UK vegetable-growing paperback. Input image 1 is a STYLE REFERENCE ONLY: preserve its bright clean illustrated character, rich layered greens, orange/purple/red accents, crisp organic silhouettes, simplified dimensional shading and broad glossy highlight shapes. Create a genuinely new drawing and arrangement, not a recolour, mirror or rearrangement of existing pixels. Match the reference's lively, polished editorial vegetable art; no photorealism, pencil texture, paper texture, pastel wash, flat monochrome icon, heavy cartoon outline or anthropomorphic faces.\nOutput one standalone reusable illustration, NOT a page, book mockup, panel, sheet of variants or contact sheet. Genuinely transparent background, clean alpha edges, no tinted glow/halo, no background colour, no frame, no text, numbers, labels, signature or watermark. Keep complete silhouettes comfortably inside the frame with 5–8% transparent safety space. Simple readable shapes that hold up at 65 mm wide in print.\nSUBJECT AND COMPOSITION: A compact generous summer-harvest group: one dark green ridged courgette with a small golden blossom attached at its flower end, one glossy red sweet pepper, three cherry tomatoes connected by a green truss, and two lush courgette leaves behind. Courgette lies gently diagonal across the foreground; pepper sits at rear right; cherry tomatoes left. 4:3 landscape composition. No basket, hands or soil. This is variation B1 of a SUMMER HARVEST header pair. Anatomically plausible distinguishable vegetables, tidy garden-fresh arrangement.",
+          "references": [
+            "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/front-matter/entry-pages/studies/assets/harvest-cluster.png"
+          ],
+          "generatedSource": "/Users/johnlennon/.codex/generated_images/01a115eb-bd8f-7e00-b79b-4193018865b9/exec-769acd12-57cc-4abe-a833-cf16b671b599.png",
+          "sha256": "4973edcb1a684e13ae88c22f6de127ca1208cef28ee8ae93188175c16a60260d",
+          "width": 1448,
+          "height": 1086,
+          "mode": "RGBA",
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "transparentPixelFraction": 0.4028,
+          "alphaBounds": [
+            0,
+            3,
+            1432,
+            1086
+          ]
+        }
+      ]
+    },
+    {
+      "id": "H4",
+      "name": "Summer harvest — aubergines",
+      "role": "header",
+      "pair": "B",
+      "description": "A compact summer-harvest group: one rich purple aubergine with crisp green calyx, one bumpy medium green cucumber, a small bundle of slender French beans and one squat golden-orange pattypan squash. Aubergine anchors foreground right, cucumber rises behind at left and beans curve loosely across the front. Two restrained green leaves behind. 4:3 landscape composition. No pepper, tomato, courgette or basket. This is variation B2 of a SUMMER HARVEST header pair: complementary but a distinctly new silhouette and produce selection.",
+      "file": "h4-summer-aubergines-hero-style-v2.png",
+      "prompt": "Use case: style-transfer.\nAsset type: transparent vegetable illustration for the same book as the approved hero references.\nPrimary request: redraw the target with EXACTLY the drawing language of the approved hero references. The user likes the subject and arrangement but rejects the target's increase in naturalistic detail.\nStyle: bold, simplified 2D vector-like editorial shapes, strong clean silhouettes, broad discrete overlapping colour/shadow shapes, saturated lime and forest greens. Match the references' large rhythmic tapered cream highlight slashes and occasional scalloped highlight strips. Use a few broad tones per form. Keep volume through graphic shapes, not realistic surface rendering.\nRemove the target's fine veins, root hairs, etched skin lines, tiny stippling, diffuse gradients, painted texture and intricate realistic foliage. Leaves use a bold midrib and just a few broad vein branches. Keep broad characteristic lobes. Avoid realistic gloss, photographic materials, 3D rendering, brush texture, black outlines, tiny repeated details.\nGenuinely transparent background; clean solid interior colour, no green glow or colour haze outside the silhouettes, no cast shadow or ground. Whole illustration inside canvas with clear space around every tip. One illustration only; no sheet, panels, text, labels, signature or border.\nInput roles: images 1–3 are the AUTHORITATIVE APPROVED HERO STYLE REFERENCES. Image 4 is the TARGET and supplies only the subject mix, object positions and broad arrangement; do not preserve its finely detailed rendering. Keep the target's landscape arrangement: a plump purple aubergine on the right, diagonal green cucumber behind at the left, yellow scalloped pattypan squash at front-left, and a few green French beans sweeping across the foreground. Restrained green leaves behind. Match each approved hero's bold colour shapes, strong contours and graphic highlight treatment. Give the cucumber a few large characteristic marks rather than dense minute bumps. Keep the subject mix and arrangement. Squash uses a few broad gold/lighter-yellow shapes and highlight slashes in the same style. 4:3 landscape.",
+      "references": [
+        "/Users/johnlennon/Documents/web_site/hackriculture-print/public/images/heroes/richer-a/aubergine.png",
+        "/Users/johnlennon/Documents/web_site/hackriculture-print/public/images/heroes/richer-a/cucumber_outdoor.png",
+        "/Users/johnlennon/Documents/web_site/hackriculture-print/public/images/heroes/richer-a/bean_french.png",
+        "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/assets/vegetable-guru-stock/assets/h4-summer-aubergines.png"
+      ],
+      "generatedSource": "/Users/johnlennon/.codex/generated_images/01a115eb-bd8f-7e00-b79b-4193018865b9/exec-a1520767-a7b1-49a4-8b5c-6df9b2baaf29.png",
+      "sha256": "c71da57861c121fd15a6395bbe801e0bd58994da051e4cfe375b8f6b428a3ac5",
+      "width": 1448,
+      "height": 1086,
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "transparentPixelFraction": 0.3092,
+      "alphaBounds": [
+        0,
+        14,
+        1434,
+        1086
+      ],
+      "previousVersions": [
+        {
+          "id": "H4",
+          "name": "Summer harvest — aubergines",
+          "file": "h4-summer-aubergines.png",
+          "role": "header",
+          "pair": "B",
+          "description": "A compact summer-harvest group: one rich purple aubergine with crisp green calyx, one bumpy medium green cucumber, a small bundle of slender French beans and one squat golden-orange pattypan squash. Aubergine anchors foreground right, cucumber rises behind at left and beans curve loosely across the front. Two restrained green leaves behind. 4:3 landscape composition. No pepper, tomato, courgette or basket. This is variation B2 of a SUMMER HARVEST header pair: complementary but a distinctly new silhouette and produce selection.",
+          "prompt": "Use case: stylized-concept. Asset type: a NEW companion illustration for The Vegetable Guru, an adult UK vegetable-growing paperback. Input image 1 is a STYLE REFERENCE ONLY: preserve its bright clean illustrated character, rich layered greens, orange/purple/red accents, crisp organic silhouettes, simplified dimensional shading and broad glossy highlight shapes. Create a genuinely new drawing and arrangement, not a recolour, mirror or rearrangement of existing pixels. Match the reference's lively, polished editorial vegetable art; no photorealism, pencil texture, paper texture, pastel wash, flat monochrome icon, heavy cartoon outline or anthropomorphic faces.\nOutput one standalone reusable illustration, NOT a page, book mockup, panel, sheet of variants or contact sheet. Genuinely transparent background, clean alpha edges, no tinted glow/halo, no background colour, no frame, no text, numbers, labels, signature or watermark. Keep complete silhouettes comfortably inside the frame with 5–8% transparent safety space. Simple readable shapes that hold up at 65 mm wide in print.\nSUBJECT AND COMPOSITION: A compact summer-harvest group: one rich purple aubergine with crisp green calyx, one bumpy medium green cucumber, a small bundle of slender French beans and one squat golden-orange pattypan squash. Aubergine anchors foreground right, cucumber rises behind at left and beans curve loosely across the front. Two restrained green leaves behind. 4:3 landscape composition. No pepper, tomato, courgette or basket. This is variation B2 of a SUMMER HARVEST header pair: complementary but a distinctly new silhouette and produce selection.",
+          "references": [
+            "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/front-matter/entry-pages/studies/assets/harvest-cluster.png"
+          ],
+          "generatedSource": "/Users/johnlennon/.codex/generated_images/01a115eb-bd8f-7e00-b79b-4193018865b9/exec-ae4497a6-3c8c-4efc-8195-6f2028aa821c.png",
+          "sha256": "8e246bd01d8f0d405329f70a3badb50e0aa11f2cbd10f6ba51a6c61d92a1bc83",
+          "width": 1448,
+          "height": 1086,
+          "mode": "RGBA",
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "transparentPixelFraction": 0.3691,
+          "alphaBounds": [
+            0,
+            1,
+            1430,
+            1086
+          ]
+        }
+      ]
+    },
+    {
+      "id": "H5",
+      "name": "Growing season — getting started",
+      "role": "header",
+      "pair": "C",
+      "description": "An inviting compact gardening vignette of two small warm terracotta pots holding healthy young vegetable seedlings with a few true leaves, a shallow six-cell seedling tray with visible dark compost and neat young shoots, and a small hand trowel with a warm wooden handle lying diagonally at the front. Use the reference's crisp rich dimensional illustration style for both leaves and objects, without becoming photorealistic. No seed packets, writing or hands. 4:3 landscape composition, low cluster with leaves rising slightly to the right. This is variation C1 of a GROWING SEASON header pair: starting plants.",
+      "file": "h5-growing-start-hero-style-v2.png",
+      "prompt": "Use case: style-transfer.\nAsset type: transparent vegetable illustration for the same book as the approved hero references.\nPrimary request: redraw the target with EXACTLY the drawing language of the approved hero references. The user likes the subject and arrangement but rejects the target's increase in naturalistic detail.\nStyle: bold, simplified 2D vector-like editorial shapes, strong clean silhouettes, broad discrete overlapping colour/shadow shapes, saturated lime and forest greens. Match the references' large rhythmic tapered cream highlight slashes and occasional scalloped highlight strips. Use a few broad tones per form. Keep volume through graphic shapes, not realistic surface rendering.\nRemove the target's fine veins, root hairs, etched skin lines, tiny stippling, diffuse gradients, painted texture and intricate realistic foliage. Leaves use a bold midrib and just a few broad vein branches. Keep broad characteristic lobes. Avoid realistic gloss, photographic materials, 3D rendering, brush texture, black outlines, tiny repeated details.\nGenuinely transparent background; clean solid interior colour, no green glow or colour haze outside the silhouettes, no cast shadow or ground. Whole illustration inside canvas with clear space around every tip. One illustration only; no sheet, panels, text, labels, signature or border.\nInput roles: images 1–3 are the AUTHORITATIVE APPROVED HERO STYLE REFERENCES. Image 4 is the TARGET and supplies only the subject mix, object positions and broad arrangement; do not preserve its finely detailed rendering. Keep the gardening vignette: two small terracotta pots with vegetable seedlings, a six-cell seed tray with young shoots in front-left, and a hand trowel with wooden handle diagonal across the foreground. Keep object positions and recognisable construction. Translate every object into the same bold simplified graphic drawing language as the approved plant references, so pots/tools do not retain realistic material rendering. Leaves need broad clean shape-based shading and simple major veins; tomato-type leaf lobes can stay but be bold. Compost is one dark shape with at most a few large marks, not granular texture. Trowel uses a few discrete grey highlight planes, handle a few amber shapes without wood grain. Pots and tray use simple flat colour planes and confident contours. No new props. 4:3 landscape.",
+      "references": [
+        "/Users/johnlennon/Documents/web_site/hackriculture-print/public/images/heroes/richer-a/carrot.png",
+        "/Users/johnlennon/Documents/web_site/hackriculture-print/public/images/heroes/richer-a/bean_french.png",
+        "/Users/johnlennon/Documents/web_site/hackriculture-print/public/images/heroes/richer-a/kale.png",
+        "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/assets/vegetable-guru-stock/assets/h5-growing-start.png"
+      ],
+      "generatedSource": "/Users/johnlennon/.codex/generated_images/01a115eb-bd8f-7e00-b79b-4193018865b9/exec-75b89578-c76a-4ba7-81c0-2c51759386d8.png",
+      "sha256": "c4c5e901ccbaa15e7e925d66bf6625e6489f8fe93f0a7d58a2e460645d7ea345",
+      "width": 1448,
+      "height": 1086,
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "transparentPixelFraction": 0.4223,
+      "alphaBounds": [
+        0,
+        7,
+        1433,
+        1066
+      ],
+      "previousVersions": [
+        {
+          "id": "H5",
+          "name": "Growing season — getting started",
+          "file": "h5-growing-start.png",
+          "role": "header",
+          "pair": "C",
+          "description": "An inviting compact gardening vignette of two small warm terracotta pots holding healthy young vegetable seedlings with a few true leaves, a shallow six-cell seedling tray with visible dark compost and neat young shoots, and a small hand trowel with a warm wooden handle lying diagonally at the front. Use the reference's crisp rich dimensional illustration style for both leaves and objects, without becoming photorealistic. No seed packets, writing or hands. 4:3 landscape composition, low cluster with leaves rising slightly to the right. This is variation C1 of a GROWING SEASON header pair: starting plants.",
+          "prompt": "Use case: stylized-concept. Asset type: a NEW companion illustration for The Vegetable Guru, an adult UK vegetable-growing paperback. Input image 1 is a STYLE REFERENCE ONLY: preserve its bright clean illustrated character, rich layered greens, orange/purple/red accents, crisp organic silhouettes, simplified dimensional shading and broad glossy highlight shapes. Create a genuinely new drawing and arrangement, not a recolour, mirror or rearrangement of existing pixels. Match the reference's lively, polished editorial vegetable art; no photorealism, pencil texture, paper texture, pastel wash, flat monochrome icon, heavy cartoon outline or anthropomorphic faces.\nOutput one standalone reusable illustration, NOT a page, book mockup, panel, sheet of variants or contact sheet. Genuinely transparent background, clean alpha edges, no tinted glow/halo, no background colour, no frame, no text, numbers, labels, signature or watermark. Keep complete silhouettes comfortably inside the frame with 5–8% transparent safety space. Simple readable shapes that hold up at 65 mm wide in print.\nSUBJECT AND COMPOSITION: An inviting compact gardening vignette of two small warm terracotta pots holding healthy young vegetable seedlings with a few true leaves, a shallow six-cell seedling tray with visible dark compost and neat young shoots, and a small hand trowel with a warm wooden handle lying diagonally at the front. Use the reference's crisp rich dimensional illustration style for both leaves and objects, without becoming photorealistic. No seed packets, writing or hands. 4:3 landscape composition, low cluster with leaves rising slightly to the right. This is variation C1 of a GROWING SEASON header pair: starting plants.",
+          "references": [
+            "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/front-matter/entry-pages/studies/assets/harvest-cluster.png"
+          ],
+          "generatedSource": "/Users/johnlennon/.codex/generated_images/01a115eb-bd8f-7e00-b79b-4193018865b9/exec-b198225d-4ad4-4a0d-9680-d05014edbb39.png",
+          "sha256": "63e24635eec4afb98e436493f456e0f6cd50456f473129412b9592db857e288c",
+          "width": 1448,
+          "height": 1086,
+          "mode": "RGBA",
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "transparentPixelFraction": 0.4787,
+          "alphaBounds": [
+            0,
+            28,
+            1432,
+            1060
+          ]
+        }
+      ]
+    },
+    {
+      "id": "H6",
+      "name": "Growing season — gathering in",
+      "role": "header",
+      "pair": "C",
+      "description": "An inviting compact gardening vignette of a low traditional honey-coloured wooden garden trug with its curved handle visible and a modest freshly picked selection: two short leeks with blue-green leaves, two golden onions, a small red tomato truss and a loose green lettuce. Produce partly extends above the trug, with all silhouettes comfortably inside the canvas. Reference's crisp rich dimensional vegetable illustration style, simple broad highlights on smooth wooden slats. No people, cloth, seed packets, writing or soil. 4:3 landscape composition with taller leaves on the left. This is variation C2 of a GROWING SEASON header pair: gathering the harvest.",
+      "file": "h6-growing-harvest-hero-style-v2.png",
+      "prompt": "Use case: style-transfer.\nAsset type: transparent vegetable illustration for the same book as the approved hero references.\nPrimary request: redraw the target with EXACTLY the drawing language of the approved hero references. The user likes the subject and arrangement but rejects the target's increase in naturalistic detail.\nStyle: bold, simplified 2D vector-like editorial shapes, strong clean silhouettes, broad discrete overlapping colour/shadow shapes, saturated lime and forest greens. Match the references' large rhythmic tapered cream highlight slashes and occasional scalloped highlight strips. Use a few broad tones per form. Keep volume through graphic shapes, not realistic surface rendering.\nRemove the target's fine veins, root hairs, etched skin lines, tiny stippling, diffuse gradients, painted texture and intricate realistic foliage. Leaves use a bold midrib and just a few broad vein branches. Keep broad characteristic lobes. Avoid realistic gloss, photographic materials, 3D rendering, brush texture, black outlines, tiny repeated details.\nGenuinely transparent background; clean solid interior colour, no green glow or colour haze outside the silhouettes, no cast shadow or ground. Whole illustration inside canvas with clear space around every tip. One illustration only; no sheet, panels, text, labels, signature or border.\nInput roles: images 1–3 are the AUTHORITATIVE APPROVED HERO STYLE REFERENCES. Image 4 is the TARGET and supplies only the subject mix, object positions and broad arrangement; do not preserve its finely detailed rendering. Keep the target's low wooden harvest trug with central curved handle containing two leeks at the left, golden onions, a red tomato truss in the foreground and a green lettuce at the right. Keep the subject mix and broad arrangement. Match the leek reference's long crisp green/cream planes, the onion reference's broad golden shape shading and cream highlight strokes, the lettuce reference's bold curling layers. Simplify the trug into broad golden bands and shadow planes with just the necessary construction lines; no naturalistic wood-grain marks. Tomatoes use red discrete shadow planes and simple cream highlight slashes. No new props. 4:3 landscape.",
+      "references": [
+        "/Users/johnlennon/Documents/web_site/hackriculture-print/public/images/heroes/richer-a/onion-shallot.png",
+        "/Users/johnlennon/Documents/web_site/hackriculture-print/public/images/heroes/richer-a/leek.png",
+        "/Users/johnlennon/Documents/web_site/hackriculture-print/public/images/heroes/richer-a/lettuce.png",
+        "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/assets/vegetable-guru-stock/assets/h6-growing-harvest.png"
+      ],
+      "generatedSource": "/Users/johnlennon/.codex/generated_images/01a115eb-bd8f-7e00-b79b-4193018865b9/exec-62caacdc-c448-439d-9161-f59296967446.png",
+      "sha256": "df49760957364ed5de7697eb5e9bef8907578bcca6f12625d1671fcd9bae6305",
+      "width": 1448,
+      "height": 1086,
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "transparentPixelFraction": 0.3102,
+      "alphaBounds": [
+        0,
+        8,
+        1434,
+        1086
+      ],
+      "previousVersions": [
+        {
+          "id": "H6",
+          "name": "Growing season — gathering in",
+          "file": "h6-growing-harvest.png",
+          "role": "header",
+          "pair": "C",
+          "description": "An inviting compact gardening vignette of a low traditional honey-coloured wooden garden trug with its curved handle visible and a modest freshly picked selection: two short leeks with blue-green leaves, two golden onions, a small red tomato truss and a loose green lettuce. Produce partly extends above the trug, with all silhouettes comfortably inside the canvas. Reference's crisp rich dimensional vegetable illustration style, simple broad highlights on smooth wooden slats. No people, cloth, seed packets, writing or soil. 4:3 landscape composition with taller leaves on the left. This is variation C2 of a GROWING SEASON header pair: gathering the harvest.",
+          "prompt": "Use case: stylized-concept. Asset type: a NEW companion illustration for The Vegetable Guru, an adult UK vegetable-growing paperback. Input image 1 is a STYLE REFERENCE ONLY: preserve its bright clean illustrated character, rich layered greens, orange/purple/red accents, crisp organic silhouettes, simplified dimensional shading and broad glossy highlight shapes. Create a genuinely new drawing and arrangement, not a recolour, mirror or rearrangement of existing pixels. Match the reference's lively, polished editorial vegetable art; no photorealism, pencil texture, paper texture, pastel wash, flat monochrome icon, heavy cartoon outline or anthropomorphic faces.\nOutput one standalone reusable illustration, NOT a page, book mockup, panel, sheet of variants or contact sheet. Genuinely transparent background, clean alpha edges, no tinted glow/halo, no background colour, no frame, no text, numbers, labels, signature or watermark. Keep complete silhouettes comfortably inside the frame with 5–8% transparent safety space. Simple readable shapes that hold up at 65 mm wide in print.\nSUBJECT AND COMPOSITION: An inviting compact gardening vignette of a low traditional honey-coloured wooden garden trug with its curved handle visible and a modest freshly picked selection: two short leeks with blue-green leaves, two golden onions, a small red tomato truss and a loose green lettuce. Produce partly extends above the trug, with all silhouettes comfortably inside the canvas. Reference's crisp rich dimensional vegetable illustration style, simple broad highlights on smooth wooden slats. No people, cloth, seed packets, writing or soil. 4:3 landscape composition with taller leaves on the left. This is variation C2 of a GROWING SEASON header pair: gathering the harvest.",
+          "references": [
+            "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/front-matter/entry-pages/studies/assets/harvest-cluster.png"
+          ],
+          "generatedSource": "/Users/johnlennon/.codex/generated_images/01a115eb-bd8f-7e00-b79b-4193018865b9/exec-1173d16d-f2fa-467b-a783-0f0a85196033.png",
+          "sha256": "e3b44e3462b956e078ba899b1d0aa8f8aca0279a954f3cb11068a18eea1cec80",
+          "width": 1448,
+          "height": 1086,
+          "mode": "RGBA",
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "transparentPixelFraction": 0.3481,
+          "alphaBounds": [
+            0,
+            9,
+            1434,
+            1058
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S1",
+      "name": "Climbing beans & blossom",
+      "role": "portrait spot",
+      "pair": null,
+      "description": "A portrait vignette of closed green climbing French bean pods, lavender flowers, trifoliate foliage and a gently winding main stem. Selected v2 replaces the initial pea-like tendrils. The original prompt and targeted revision are both retained below.",
+      "file": "s1-beans-blossom-hero-style-v4.png",
+      "prompt": "Use case: style-transfer.\nAsset type: transparent vegetable illustration for the same book as the approved hero references.\nPrimary request: redraw the target with EXACTLY the drawing language of the approved hero references. The user likes the subject and arrangement but rejects the target's increase in naturalistic detail.\nStyle: bold, simplified 2D vector-like editorial shapes, strong clean silhouettes, broad discrete overlapping colour/shadow shapes, saturated lime and forest greens. Match the references' large rhythmic tapered cream highlight slashes and occasional scalloped highlight strips. Use a few broad tones per form. Keep volume through graphic shapes, not realistic surface rendering.\nRemove the target's fine veins, root hairs, etched skin lines, tiny stippling, diffuse gradients, painted texture and intricate realistic foliage. Leaves use a bold midrib and just a few broad vein branches. Keep broad characteristic lobes. Avoid realistic gloss, photographic materials, 3D rendering, brush texture, black outlines, tiny repeated details.\nGenuinely transparent background; clean solid interior colour, no green glow or colour haze outside the silhouettes, no cast shadow or ground. Whole illustration inside canvas with clear space around every tip. One illustration only; no sheet, panels, text, labels, signature or border.\nInput roles: image 1 (approved French bean) is the PRIMARY STYLE AUTHORITY; image 2 (approved pea) reinforces the same graphic style. Image 3 is the TARGET and gives the composition/subject only.\nRetain a tall portrait cluster of three slender closed French bean pods, two small pale-lavender flowers on the left, and several pointed leaflets in simple trifoliate groups. Main stem gently winds. Keep the target's flowers and general flowing arrangement. Leaves must have the bold simple vein/shadow shapes of image 1, without networks of fine veins. Pods must have image 1's broad lime highlights, discrete dark-green shadow planes and confident simplified contours. Simplify the flowers to a few clean lavender shapes. French beans have a winding stem, no pea tendrils or exposed peas. Include the complete top and bottom of the plant with transparent clearance. 2:3 portrait.",
+      "references": [
+        "/Users/johnlennon/Documents/web_site/hackriculture-print/public/images/heroes/richer-a/bean_french.png",
+        "/Users/johnlennon/Documents/web_site/hackriculture-print/public/images/heroes/richer-a/pea.png",
+        "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/assets/vegetable-guru-stock/assets/s1-beans-blossom-v2.png"
+      ],
+      "generatedSource": "/Users/johnlennon/.codex/generated_images/01a115eb-bd8f-7e00-b79b-4193018865b9/exec-a6c9bc0c-cc3d-4332-a9b7-c529913780a3.png",
+      "sha256": "e281d75d2f64d797ed9eba60554d8d1f3655133bc3ed965a0d498e26176de3b0",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "transparentPixelFraction": 0.5868,
+      "alphaBounds": [
+        33,
+        16,
+        1006,
+        1536
+      ],
+      "previousVersions": [
+        {
+          "id": "S1",
+          "name": "Climbing beans & blossom",
+          "file": "s1-beans-blossom-v2.png",
+          "role": "portrait spot",
+          "pair": null,
+          "description": "A portrait vignette of closed green climbing French bean pods, lavender flowers, trifoliate foliage and a gently winding main stem. Selected v2 replaces the initial pea-like tendrils. The original prompt and targeted revision are both retained below.",
+          "prompt": "Use case: stylized-concept. Asset type: a NEW companion illustration for The Vegetable Guru, an adult UK vegetable-growing paperback. Input image 1 is a STYLE REFERENCE ONLY: preserve its bright clean illustrated character, rich layered greens, orange/purple/red accents, crisp organic silhouettes, simplified dimensional shading and broad glossy highlight shapes. Create a genuinely new drawing and arrangement, not a recolour, mirror or rearrangement of existing pixels. Match the reference's lively, polished editorial vegetable art; no photorealism, pencil texture, paper texture, pastel wash, flat monochrome icon, heavy cartoon outline or anthropomorphic faces.\nOutput one standalone reusable illustration, NOT a page, book mockup, panel, sheet of variants or contact sheet. Genuinely transparent background, clean alpha edges, no tinted glow/halo, no background colour, no frame, no text, numbers, labels, signature or watermark. Keep complete silhouettes comfortably inside the frame with 5–8% transparent safety space. Simple readable shapes that hold up at 65 mm wide in print.\nSUBJECT AND COMPOSITION: ONE elegant vertical botanical cluster of climbing French bean foliage, two long slender green pods, one shorter pod behind, two small pale lavender bean flowers and a curling tendril, attached coherently to the same stem. This is a replacement option for a small portrait illustration beside an author introduction: keep the lush botanical presence and green rhythm of input image 2 (additional STYLE AND PROPORTION reference of pea pods), but draw beans and blossoms with a clearly new branching arrangement. Not open pea pods, no rows of exposed peas. Rich forest and lime greens, restrained lavender petals. Portrait 2:3 composition, complete slender vertical silhouette, no pot or background.",
+          "references": [
+            "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/front-matter/entry-pages/studies/assets/harvest-cluster.png",
+            "/Users/johnlennon/Documents/web_site/hackriculture-print/public/images/heroes/richer-a/pea.png"
+          ],
+          "generatedSource": "/Users/johnlennon/.codex/generated_images/01a115eb-bd8f-7e00-b79b-4193018865b9/exec-fe3a7238-2beb-402a-ac35-63015eebf012.png",
+          "sha256": "432a6aa90b8034d9e7e74fb6f73bb3b5fe85af5b8c5bd0365adb8ce35a789ae9",
+          "width": 1024,
+          "height": 1536,
+          "mode": "RGBA",
+          "alphaExtrema": [
+            0,
+            254
+          ],
+          "transparentPixelFraction": 0.542,
+          "alphaBounds": [
+            25,
+            0,
+            1008,
+            1536
+          ],
+          "revisions": [
+            {
+              "prompt": "Use case: precise-object-edit. Image 1 is the edit target, a new companion illustration for an adult vegetable gardening book. Keep the same rich clean green palette, slender portrait composition, lavender bean flowers, closed glossy pods, broad highlights, and illustrated style.\nCorrect the botany so this is clearly a CLIMBING FRENCH BEAN (Phaseolus vulgaris): remove ALL the standalone spiral tendrils at the right and anywhere else; beans climb using a twining main stem, not pea tendrils. Show the main thin green stem as a gentle winding curve. Arrange the leaves into a few plausible trifoliate groups of pointed, smooth-edged leaflets attached by petioles. Keep two main long slender green bean pods and one shorter pod behind, all connected to short flower stalks, and two small lavender bean flowers. The bean calyx should be modest, not an oversized bell around the pod.\nEverything is a decorative botanical vignette, no labels. Use clean opaque interior colour and a genuinely transparent background with clean alpha edges: remove any background haze, coloured glow or soft halos around the silhouette. Keep the complete illustration within the canvas, with approximately 6% clear transparent space all round, especially at the bottom. Portrait 2:3. No text, border, pot, cane, hand, other crop, watermark, or new props.",
+              "generatedSource": "/Users/johnlennon/.codex/generated_images/01a115eb-bd8f-7e00-b79b-4193018865b9/exec-fe3a7238-2beb-402a-ac35-63015eebf012.png",
+              "reason": "Remove pea-like tendrils and use trifoliate bean foliage; preserve the portrait slot."
+            }
+          ],
+          "originalGeneratedSource": "/Users/johnlennon/.codex/generated_images/01a115eb-bd8f-7e00-b79b-4193018865b9/exec-bf77c453-e92f-4ce8-8544-74e67cb05aef.png"
+        }
+      ],
+      "initialStyleOutput": "/Users/johnlennon/.codex/generated_images/01a115eb-bd8f-7e00-b79b-4193018865b9/exec-0a38970c-3d89-4865-bd18-995bece80c01.png",
+      "revisions": [
+        {
+          "prompt": "Use case: precise-object-edit. Input image 1 is the sole edit target, already in the approved illustration style. Correct FRAMING ONLY. Preserve the exact bold 2D vector-like colour shapes, broad leaf vein shapes, rhythmic cream highlight strokes, saturated palette, subject matter and arrangement. Do not add texture, gradients, fine detail, props or change the illustration style.\nThe present top is cropped. Recompose the COMPLETE same plant/bunch smaller within the portrait canvas so the topmost leaf/stem tip and every side leaf and bottom root/pod are entirely visible, with approximately 8% clear transparent border on all four sides. Finish the top of the winding bean stem naturally with a small simple pointed growing tip inside the picture, no stem running through the top edge. Retain the three green bean pods, two lavender flowers and simple trifoliate foliage, with no pea tendrils.\nGenuinely transparent background with clean alpha edges. No coloured haze or halo, no ground, no new background, text, labels, frame or shadow. One 2:3 portrait illustration.",
+          "references": [
+            "/Users/johnlennon/.codex/generated_images/01a115eb-bd8f-7e00-b79b-4193018865b9/exec-0a38970c-3d89-4865-bd18-995bece80c01.png"
+          ],
+          "generatedSource": "/Users/johnlennon/.codex/generated_images/01a115eb-bd8f-7e00-b79b-4193018865b9/exec-a6c9bc0c-cc3d-4332-a9b7-c529913780a3.png",
+          "reason": "Complete the top of the portrait plant and keep the silhouette inside the canvas."
+        }
+      ]
+    },
+    {
+      "id": "S2",
+      "name": "Radishes & fresh leaves",
+      "role": "portrait spot",
+      "pair": null,
+      "description": "ONE compact vertical botanical bunch of three freshly lifted red radishes with white tips, fine tapering roots and long fresh green stems topped by softly lobed radish leaves. One round radish low left, one oval radish low right, a smaller one just behind; the foliage fans upward. Rich green leaves and vivid scarlet, clean cream-white tips, broad simplified dimensional highlights matching the reference. This is a second replacement option for the portrait slot beside an author introduction. Portrait 2:3 composition with complete roots and leaves, no ties, pot, soil, hand or backdrop. No other vegetables.",
+      "file": "s2-radishes-leaves-hero-style-v3.png",
+      "prompt": "Use case: style-transfer.\nAsset type: transparent vegetable illustration for the same book as the approved hero references.\nPrimary request: redraw the target with EXACTLY the drawing language of the approved hero references. The user likes the subject and arrangement but rejects the target's increase in naturalistic detail.\nStyle: bold, simplified 2D vector-like editorial shapes, strong clean silhouettes, broad discrete overlapping colour/shadow shapes, saturated lime and forest greens. Match the references' large rhythmic tapered cream highlight slashes and occasional scalloped highlight strips. Use a few broad tones per form. Keep volume through graphic shapes, not realistic surface rendering.\nRemove the target's fine veins, root hairs, etched skin lines, tiny stippling, diffuse gradients, painted texture and intricate realistic foliage. Leaves use a bold midrib and just a few broad vein branches. Keep broad characteristic lobes. Avoid realistic gloss, photographic materials, 3D rendering, brush texture, black outlines, tiny repeated details.\nGenuinely transparent background; clean solid interior colour, no green glow or colour haze outside the silhouettes, no cast shadow or ground. Whole illustration inside canvas with clear space around every tip. One illustration only; no sheet, panels, text, labels, signature or border.\nInput roles: images 1–3 are the AUTHORITATIVE APPROVED HERO STYLE REFERENCES. Image 4 is the TARGET and supplies only the subject mix, object positions and broad arrangement; do not preserve its finely detailed rendering. Keep the target's portrait bunch: three red-and-white radishes with fresh leaves fanning upward, one round bulb low-left, one oval low-right and a smaller one behind. Primary style authority is the approved radish reference: use its bold simple lobed leaves, lime midribs with only a few major branches, crisp broad red shadow shapes and distinctive highlight slashes. Simplify root hairs into a single clean tapered tip per radish. Retain the target arrangement so this is a new companion drawing, not a duplicate of the original hero. 2:3 portrait.",
+      "references": [
+        "/Users/johnlennon/Documents/web_site/hackriculture-print/public/images/heroes/richer-a/radish.png",
+        "/Users/johnlennon/Documents/web_site/hackriculture-print/public/images/heroes/richer-a/carrot.png",
+        "/Users/johnlennon/Documents/web_site/hackriculture-print/public/images/heroes/richer-a/beetroot.png",
+        "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/assets/vegetable-guru-stock/assets/s2-radishes-leaves.png"
+      ],
+      "generatedSource": "/Users/johnlennon/.codex/generated_images/01a115eb-bd8f-7e00-b79b-4193018865b9/exec-b870ab66-c2af-4ded-b01e-193b0ee46b4d.png",
+      "sha256": "dc2965cf06348608228c24ffb3dc99a93902f36ca6fec9be643bd66d539ec7c9",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "transparentPixelFraction": 0.5016,
+      "alphaBounds": [
+        31,
+        26,
+        990,
+        1513
+      ],
+      "previousVersions": [
+        {
+          "id": "S2",
+          "name": "Radishes & fresh leaves",
+          "file": "s2-radishes-leaves.png",
+          "role": "portrait spot",
+          "pair": null,
+          "description": "ONE compact vertical botanical bunch of three freshly lifted red radishes with white tips, fine tapering roots and long fresh green stems topped by softly lobed radish leaves. One round radish low left, one oval radish low right, a smaller one just behind; the foliage fans upward. Rich green leaves and vivid scarlet, clean cream-white tips, broad simplified dimensional highlights matching the reference. This is a second replacement option for the portrait slot beside an author introduction. Portrait 2:3 composition with complete roots and leaves, no ties, pot, soil, hand or backdrop. No other vegetables.",
+          "prompt": "Use case: stylized-concept. Asset type: a NEW companion illustration for The Vegetable Guru, an adult UK vegetable-growing paperback. Input image 1 is a STYLE REFERENCE ONLY: preserve its bright clean illustrated character, rich layered greens, orange/purple/red accents, crisp organic silhouettes, simplified dimensional shading and broad glossy highlight shapes. Create a genuinely new drawing and arrangement, not a recolour, mirror or rearrangement of existing pixels. Match the reference's lively, polished editorial vegetable art; no photorealism, pencil texture, paper texture, pastel wash, flat monochrome icon, heavy cartoon outline or anthropomorphic faces.\nOutput one standalone reusable illustration, NOT a page, book mockup, panel, sheet of variants or contact sheet. Genuinely transparent background, clean alpha edges, no tinted glow/halo, no background colour, no frame, no text, numbers, labels, signature or watermark. Keep complete silhouettes comfortably inside the frame with 5–8% transparent safety space. Simple readable shapes that hold up at 65 mm wide in print.\nSUBJECT AND COMPOSITION: ONE compact vertical botanical bunch of three freshly lifted red radishes with white tips, fine tapering roots and long fresh green stems topped by softly lobed radish leaves. One round radish low left, one oval radish low right, a smaller one just behind; the foliage fans upward. Rich green leaves and vivid scarlet, clean cream-white tips, broad simplified dimensional highlights matching the reference. This is a second replacement option for the portrait slot beside an author introduction. Portrait 2:3 composition with complete roots and leaves, no ties, pot, soil, hand or backdrop. No other vegetables.",
+          "references": [
+            "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/front-matter/entry-pages/studies/assets/harvest-cluster.png"
+          ],
+          "generatedSource": "/Users/johnlennon/.codex/generated_images/01a115eb-bd8f-7e00-b79b-4193018865b9/exec-a196017c-3774-4a48-abc5-3151060cefc4.png",
+          "sha256": "e55e39e4f9abee8f19c672c4f24fbfd487da0eca4839197feded47b399b485ec",
+          "width": 1024,
+          "height": 1536,
+          "mode": "RGBA",
+          "alphaExtrema": [
+            0,
+            254
+          ],
+          "transparentPixelFraction": 0.4788,
+          "alphaBounds": [
+            32,
+            17,
+            991,
+            1518
+          ]
+        }
+      ],
+      "initialStyleOutput": "/Users/johnlennon/.codex/generated_images/01a115eb-bd8f-7e00-b79b-4193018865b9/exec-4ea48152-24d4-4536-8bae-755da2e2e943.png",
+      "revisions": [
+        {
+          "prompt": "Use case: precise-object-edit. Input image 1 is the sole edit target, already in the approved illustration style. Correct FRAMING ONLY. Preserve the exact bold 2D vector-like colour shapes, broad leaf vein shapes, rhythmic cream highlight strokes, saturated palette, subject matter and arrangement. Do not add texture, gradients, fine detail, props or change the illustration style.\nThe present top is cropped. Recompose the COMPLETE same plant/bunch smaller within the portrait canvas so the topmost leaf/stem tip and every side leaf and bottom root/pod are entirely visible, with approximately 8% clear transparent border on all four sides. Finish the top of the radish foliage with complete rounded lobed leaves inside the picture; no leaf cut by the top or side edges. Keep three red-and-white radishes with clean tapered roots.\nGenuinely transparent background with clean alpha edges. No coloured haze or halo, no ground, no new background, text, labels, frame or shadow. One 2:3 portrait illustration.",
+          "references": [
+            "/Users/johnlennon/.codex/generated_images/01a115eb-bd8f-7e00-b79b-4193018865b9/exec-4ea48152-24d4-4536-8bae-755da2e2e943.png"
+          ],
+          "generatedSource": "/Users/johnlennon/.codex/generated_images/01a115eb-bd8f-7e00-b79b-4193018865b9/exec-b870ab66-c2af-4ded-b01e-193b0ee46b4d.png",
+          "reason": "Complete the top of the portrait plant and keep the silhouette inside the canvas."
+        }
+      ]
+    }
+  ],
+  "userDirection": "Keep the accepted subject matter, but make the styles match the existing approved vegetable hero illustrations. Retain unique paired headers and the author portrait slot.",
+  "proposedPlacements": {
+    "welcomeHeader": "H3",
+    "contentsSpread": [
+      "H1",
+      "H2"
+    ],
+    "howToSpread": [
+      "H5",
+      "H6"
+    ],
+    "authorPortrait": "S1",
+    "alternatives": [
+      "H4",
+      "S2"
+    ]
+  },
+  "referenceHashes": {
+    "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/front-matter/entry-pages/studies/assets/harvest-cluster.png": "aedba4cc6a729f618e930d6cee05694837e756d4c8bbd669f7689ab6eacd54c7",
+    "/Users/johnlennon/Documents/web_site/hackriculture-print/public/images/heroes/richer-a/pea.png": "72dacd9636ea428ca82761ab5231274b0a72f30f283f17af8c2a463c8be2c6df",
+    "/Users/johnlennon/Documents/web_site/hackriculture-print/public/images/heroes/richer-a/carrot.png": "733b775e5e9f87d78669551ca911e39ea3eb61bed6bc54815e64b10c8fbdbfe9",
+    "/Users/johnlennon/Documents/web_site/hackriculture-print/public/images/heroes/richer-a/beetroot.png": "fa7251e6ce9ff76219b147cdff873b6c070e3649ce104c3a3bf9020584529eae",
+    "/Users/johnlennon/Documents/web_site/hackriculture-print/public/images/heroes/richer-a/radish.png": "ec100382eb7b5752f822e75cc0ca8d46dcde8ac473dde6fb55ce9fbe66aa26e1",
+    "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/assets/vegetable-guru-stock/assets/h1-roots-beetroot.png": "88e1b3d74f519c31a9b1637055c667bedf3975160ee0e32720cb39fed88b33d7",
+    "/Users/johnlennon/Documents/web_site/hackriculture-print/public/images/heroes/richer-a/bean_french.png": "8f00499fd49d4931b805cef1b02e10f2fb3ded60dc02bbdad432c82037674d19",
+    "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/assets/vegetable-guru-stock/assets/s1-beans-blossom-v2.png": "432a6aa90b8034d9e7e74fb6f73bb3b5fe85af5b8c5bd0365adb8ce35a789ae9",
+    "/Users/johnlennon/Documents/web_site/hackriculture-print/public/images/heroes/richer-a/parsnip.png": "7b279b81b1b461ccdd6918f66af2a627b492803b03630974c2333d88654b7de0",
+    "/Users/johnlennon/Documents/web_site/hackriculture-print/public/images/heroes/richer-a/turnip.png": "db9e1a3b3b55f4dad72530f4e45d78b5adef0d58a1c852d68e39155bf1127128",
+    "/Users/johnlennon/Documents/web_site/hackriculture-print/public/images/heroes/richer-a/beet_leaf.png": "8dea29348b4bd311bd0057aad2bc795c857d0e9bbd688c08005998c2859c9e8e",
+    "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/assets/vegetable-guru-stock/assets/h2-roots-turnips.png": "f5d35cfd2410d8dd6ca47991d19215a1fd6d193987d27f49fb5461c718a2faad",
+    "/Users/johnlennon/Documents/web_site/hackriculture-print/public/images/heroes/richer-a/marrow_courgette.png": "0ee564ae042a1815ad2fc4a5aa7f875a0f005d59c02e6c8c9fbb4eceb4b969b0",
+    "/Users/johnlennon/Documents/web_site/hackriculture-print/public/images/heroes/richer-a/capsicum.png": "4c44da3ac94745def5e74b4a05f99b3a9ecd64b8e34f9cfd2d848602feca55d6",
+    "/Users/johnlennon/Documents/web_site/hackriculture-print/public/images/heroes/richer-a/tomato-greenhouse.png": "5e3cd5a884582bd13d74cde606c69c2cd9513cd36fa6845833da469ff3a3c3d7",
+    "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/assets/vegetable-guru-stock/assets/h3-summer-courgettes.png": "4973edcb1a684e13ae88c22f6de127ca1208cef28ee8ae93188175c16a60260d",
+    "/Users/johnlennon/Documents/web_site/hackriculture-print/public/images/heroes/richer-a/aubergine.png": "9083225c24ce8609633c6ebf3ada3045a1d694e8503d2f6d1d35247287375baf",
+    "/Users/johnlennon/Documents/web_site/hackriculture-print/public/images/heroes/richer-a/cucumber_outdoor.png": "e44d5e3357bfcd242b9c142d41f14ba559c86091abe7a24430a2f1e95bdfd35f",
+    "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/assets/vegetable-guru-stock/assets/h4-summer-aubergines.png": "8e246bd01d8f0d405329f70a3badb50e0aa11f2cbd10f6ba51a6c61d92a1bc83",
+    "/Users/johnlennon/Documents/web_site/hackriculture-print/public/images/heroes/richer-a/kale.png": "e1122f1645dd3b947b96c74ef355e49d33c6cdea37154ef19e7b87f0f8c38f2f",
+    "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/assets/vegetable-guru-stock/assets/h5-growing-start.png": "63e24635eec4afb98e436493f456e0f6cd50456f473129412b9592db857e288c",
+    "/Users/johnlennon/Documents/web_site/hackriculture-print/public/images/heroes/richer-a/onion-shallot.png": "176e9ab3ea2200bc1981978c822cee0ebeec37d499e621b158a73676277fa486",
+    "/Users/johnlennon/Documents/web_site/hackriculture-print/public/images/heroes/richer-a/leek.png": "6b3b9a4823d233d217ffffbb1ab2143ff9c2869cfa44d85c9fa1bea77b24d228",
+    "/Users/johnlennon/Documents/web_site/hackriculture-print/public/images/heroes/richer-a/lettuce.png": "8209a032a6042b448b4e6b56b7ee1cc66bad78f9855c21fb170a45e14b66880a",
+    "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/assets/vegetable-guru-stock/assets/h6-growing-harvest.png": "e3b44e3462b956e078ba899b1d0aa8f8aca0279a954f3cb11068a18eea1cec80",
+    "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/assets/vegetable-guru-stock/assets/s2-radishes-leaves.png": "e55e39e4f9abee8f19c672c4f24fbfd487da0eca4839197feded47b399b485ec"
+  },
+  "placementStudies": [
+    {
+      "name": "contents-headers",
+      "folios": [
+        4,
+        5
+      ],
+      "assets": [
+        "H1",
+        "H2"
+      ],
+      "kind": "Screen-only header placement study; unchanged source typography and text"
+    },
+    {
+      "name": "how-to-headers",
+      "folios": [
+        6,
+        7
+      ],
+      "assets": [
+        "H5",
+        "H6"
+      ],
+      "kind": "Screen-only header placement study; unchanged source typography and text"
+    },
+    {
+      "name": "welcome",
+      "folios": [
+        3
+      ],
+      "assets": [
+        "H3",
+        "S1"
+      ],
+      "kind": "Screen-only placement study; author image slot retained with contain fit"
+    }
+  ],
+  "approvedPageHashesUnchanged": true,
+  "galleryChecks": {
+    "imagesLoaded": true,
+    "linksChecked": 17,
+    "backgroundControlsChecked": 3,
+    "comparisonAssetRows": 8,
+    "comparisonLinksChecked": 34
+  },
+  "visualReview": {
+    "date": "2026-10-07",
+    "reviewer": "Codex",
+    "coverage": [
+      "All eight generated redraws at full output size",
+      "H1 and S1 compared with approved heroes before the remaining redraws",
+      "Both completed portrait framing refinements",
+      "Updated eight-image overview",
+      "H1 and S1 direct approved/earlier/current comparison boards",
+      "Updated contents and how-to paired headers",
+      "Updated welcome page with retained author portrait slot"
+    ],
+    "result": "The redraws restore broad graphic foliage, colour planes and highlight patterns while keeping the subject concepts. All eight outputs and updated overview inspected; representative direct comparison boards and all three placement studies inspected. Screen review only; no new PDF exports.",
+    "userApproval": false
+  },
+  "preservationChecks": {
+    "selectedAndPriorAssetHashesMatched": 16,
+    "referenceHashesMatched": 26,
+    "approvedPageFileHashesMatched": 5,
+    "localMarkdownLinksChecked": 121,
+    "openingQueueEvidenceLinksChecked": 8
+  },
+  "styleComparison": {
+    "date": "2026-10-07",
+    "userFeedback": "John likes the ideas but asks whether the illustrations have drifted towards greater detail.",
+    "reviewer": "Codex",
+    "comparedApprovedHeroes": [
+      "carrot",
+      "beetroot",
+      "pea",
+      "bean_french",
+      "radish",
+      "marrow_courgette",
+      "kale"
+    ],
+    "additionalReference": "Original approved harvest cluster",
+    "comparison": "STYLE-COMPARISON.html",
+    "image": "style-comparison.png",
+    "findings": [
+      "Approved heroes favour bold simplified silhouettes, broad colour and shadow shapes, and repeated stylised highlight marks. They include detail, particularly kale, but treat it graphically.",
+      "New assets retain the colour family but add finer leaf veins, root hairs, surface markings, softer gradients and more naturalistic proportions.",
+      "H1/H2 root groups and S1/S2 portrait spots show the clearest drift; H3/H4 retain more of the broad original shapes.",
+      "The generation prompts used the harvest cluster as the principal reference for every asset, with the pea additionally referenced for S1; they did not directly reference the broader approved hero set."
+    ],
+    "recommendation": "Keep subjects and compositions; test a simpler rendering against several approved heroes before redrawing the stock.",
+    "artworkChanged": false,
+    "userApproval": false,
+    "scope": "Assessment of the first stock generation, retained as evidence of the requested correction. Current files are the subsequent hero-referenced redraw."
+  },
+  "revision": 2,
+  "styleRedraw": {
+    "date": "2026-10-07",
+    "directHeroReferences": true,
+    "sequence": "H1 header and S1 portrait redrawn and inspected first; the same graphic treatment then applied to the other six assets. Portrait framing refined afterwards.",
+    "subjectChanges": "No intentional change of crop selection or scene concepts; foliage, shading, texture and roots simplified, with small spacing/framing adjustments.",
+    "userFeedback": "That’s better. The subject matter is fine but the styles must match. Save a project skill to prevent repeated drift.",
+    "userApproval": "Positive feedback on the revised style; no recorded page installation approval."
+  },
+  "styleSkill": ".agents/skills/vegetable-guru-artwork/SKILL.md"
+}

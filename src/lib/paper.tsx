@@ -1,8 +1,7 @@
 import { createContext, useContext, useState, type ReactNode } from "react";
 
-export type PaperSize = "A4" | "A5" | "A6";
-
-const STORAGE_KEY = "gg-paper";
+import { DEFAULT_PAPER, PAPER_STORAGE_KEY, parsePaper, type PaperSize } from "./paperSize";
+export type { PaperSize } from "./paperSize";
 
 interface PaperCtx {
     paper: PaperSize;
@@ -10,7 +9,7 @@ interface PaperCtx {
 }
 
 const PaperContext = createContext<PaperCtx>({
-    paper: "A4",
+    paper: DEFAULT_PAPER,
     setPaper: () => {},
 });
 
@@ -18,16 +17,15 @@ const PaperContext = createContext<PaperCtx>({
 export function PaperProvider({ children }: { children: ReactNode }) {
     const [paper, setPaperState] = useState<PaperSize>(() => {
         try {
-            const v = localStorage.getItem(STORAGE_KEY);
-            return v === "A5" || v === "A6" ? v : "A4";
+            return parsePaper(localStorage.getItem(PAPER_STORAGE_KEY));
         } catch {
-            return "A4";
+            return DEFAULT_PAPER;
         }
     });
     const setPaper = (p: PaperSize) => {
         setPaperState(p);
         try {
-            localStorage.setItem(STORAGE_KEY, p);
+            localStorage.setItem(PAPER_STORAGE_KEY, p);
         } catch {
             /* storage unavailable — session-only */
         }

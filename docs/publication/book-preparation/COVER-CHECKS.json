@@ -1,0 +1,195 @@
+{
+  "status": "Two unapproved front/back concept pairs; no spine and no upload-ready wrap",
+  "trimMm": [
+    185,
+    240
+  ],
+  "panelMediaMm": [
+    191.35,
+    246.35
+  ],
+  "bleedMm": 3.175,
+  "sourceLinks": [
+    "docs/BOOK-PRINT-STYLE.md",
+    "docs/publication/book-preparation/DRAFT-METADATA.json",
+    "public/images/heroes/richer-a/",
+    "public/images/coloured-icons/style-a-v1/"
+  ],
+  "editorialAttribution": "AI-assisted design and draft back-cover copy. Existing approved artwork reused; title, subtitle, author presentation and credits await John.",
+  "remaining": "Choose concept/title. Derive spine and wrap from final page count and verified supplier stock/template. Review physical colour and all metadata before upload.",
+  "results": [
+    {
+      "concept": "A",
+      "pdf": "output/pdf/book-preparation/covers/concept-A.pdf",
+      "html": "output/pdf/book-preparation/covers/concept-A.html",
+      "sha256": "2741a9924ed5cb86c3abe65b96a7f6d21c5835803d7150c98555736f375f1a8f",
+      "panels": 2,
+      "check": [
+        {
+          "panel": 1,
+          "minTypePt": 7.125,
+          "images": [
+            {
+              "src": "/images/heroes/richer-a/kale.png",
+              "unrotatedDpi": 317.10967741935485
+            },
+            {
+              "src": "/images/heroes/richer-a/carrot.png",
+              "unrotatedDpi": 351.0857142857143
+            },
+            {
+              "src": "/images/heroes/richer-a/beetroot.png",
+              "unrotatedDpi": 410.74094707520896
+            }
+          ]
+        },
+        {
+          "panel": 2,
+          "minTypePt": 7.125,
+          "images": [
+            {
+              "src": "/images/coloured-icons/style-a-v1/sow.svg",
+              "unrotatedDpi": 1189.1612903225805
+            },
+            {
+              "src": "/images/coloured-icons/style-a-v1/plant_spacing.svg",
+              "unrotatedDpi": 1189.1612903225805
+            },
+            {
+              "src": "/images/coloured-icons/style-a-v1/harvest.svg",
+              "unrotatedDpi": 1189.1612903225805
+            },
+            {
+              "src": "/images/heroes/richer-a/beetroot.png",
+              "unrotatedDpi": 1304.9203539823009
+            }
+          ]
+        }
+      ],
+      "visualReview": {
+        "reviewedAtUtc": "2026-10-06T01:18:16.748Z",
+        "panels": [
+          1,
+          2
+        ],
+        "pdfSha256": "2741a9924ed5cb86c3abe65b96a7f6d21c5835803d7150c98555736f375f1a8f",
+        "method": "Actual PDF page rasters inspected at 1400 px; generation after DPI-receipt correction changes no visual layout.",
+        "result": "No visible overlap, clipping or missing art after correcting back accent placement and dark-cover author contrast. Draft copy/identity and colour still require John and physical proof."
+      },
+      "physical": {
+        "checkedAtUtc": "2026-10-06T01:16:59.042911+00:00",
+        "geometry": "Exact 185x240 mm trim with 3.175mm all-round bleed; separate panels, not a cover wrap",
+        "embeddedFonts": {
+          "/Type3": true,
+          "/BAAAAA+LilitaOne": true
+        },
+        "minimumTextPt": 7.124999703125013,
+        "images": [
+          {
+            "panel": 1,
+            "resource": "/X8",
+            "actualDpi": 317.11
+          },
+          {
+            "panel": 1,
+            "resource": "/X11",
+            "actualDpi": 351.09
+          },
+          {
+            "panel": 1,
+            "resource": "/X13",
+            "actualDpi": 410.74
+          },
+          {
+            "panel": 2,
+            "resource": "/X13",
+            "actualDpi": 1293.47
+          }
+        ]
+      },
+      "rasterDirectory": "tmp/pdfs/book-preparation/covers"
+    },
+    {
+      "concept": "B",
+      "pdf": "output/pdf/book-preparation/covers/concept-B.pdf",
+      "html": "output/pdf/book-preparation/covers/concept-B.html",
+      "sha256": "b24abe39ebcf9be7afe7b5082cb589a5bfc85075c0805e46f32efe0c91a24d0a",
+      "panels": 2,
+      "check": [
+        {
+          "panel": 1,
+          "minTypePt": 7.125,
+          "images": [
+            {
+              "src": "/images/heroes/richer-a/kale.png",
+              "unrotatedDpi": 304.6611570247934
+            },
+            {
+              "src": "/images/heroes/richer-a/carrot.png",
+              "unrotatedDpi": 324.79295154185024
+            }
+          ]
+        },
+        {
+          "panel": 2,
+          "minTypePt": 7.125,
+          "images": [
+            {
+              "src": "/images/coloured-icons/style-a-v1/sow.svg",
+              "unrotatedDpi": 970.1052631578947
+            },
+            {
+              "src": "/images/coloured-icons/style-a-v1/plant_spacing.svg",
+              "unrotatedDpi": 970.1052631578947
+            },
+            {
+              "src": "/images/coloured-icons/style-a-v1/harvest.svg",
+              "unrotatedDpi": 970.1052631578947
+            },
+            {
+              "src": "/images/heroes/richer-a/kale.png",
+              "unrotatedDpi": 1304.9203539823009
+            }
+          ]
+        }
+      ],
+      "visualReview": {
+        "reviewedAtUtc": "2026-10-06T01:18:16.749Z",
+        "panels": [
+          1,
+          2
+        ],
+        "pdfSha256": "b24abe39ebcf9be7afe7b5082cb589a5bfc85075c0805e46f32efe0c91a24d0a",
+        "method": "Actual PDF page rasters inspected at 1400 px; generation after DPI-receipt correction changes no visual layout.",
+        "result": "No visible overlap, clipping or missing art after correcting back accent placement and dark-cover author contrast. Draft copy/identity and colour still require John and physical proof."
+      },
+      "physical": {
+        "checkedAtUtc": "2026-10-06T01:16:59.712209+00:00",
+        "geometry": "Exact 185x240 mm trim with 3.175mm all-round bleed; separate panels, not a cover wrap",
+        "embeddedFonts": {
+          "/Type3": true,
+          "/BAAAAA+LilitaOne": true
+        },
+        "minimumTextPt": 7.124999703125013,
+        "images": [
+          {
+            "panel": 1,
+            "resource": "/X8",
+            "actualDpi": 304.66
+          },
+          {
+            "panel": 1,
+            "resource": "/X11",
+            "actualDpi": 324.44
+          },
+          {
+            "panel": 2,
+            "resource": "/X8",
+            "actualDpi": 1293.47
+          }
+        ]
+      },
+      "rasterDirectory": "tmp/pdfs/book-preparation/covers"
+    }
+  ]
+}

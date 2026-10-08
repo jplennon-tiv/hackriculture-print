@@ -1,88 +1,97 @@
 ---
 name: guide-layout-review
-description: Review and improve hackriculture-print vegetable or Troubles cheat-sheet content fit, whitespace, overflow and print layout, including assisted preparation for guide exports. Use for guide sizing and proof review, not unrelated website work, artwork generation or a new visual design.
+description: Review and improve hackriculture-print individual A4 vegetable and Troubles sheets, including fit, whitespace, overflow and actual PDF proofs. Use for single-sheet or loose-leaf work; bound book pages use book-layout-review.
 ---
 
-# Guide layout review
+# Layout — single sheets
 
-Work within the requested crops/groups and existing approval boundaries. This is
-AI-assisted editorial preparation around deterministic rendering, not AI inside
-normal exports. Explicit user instructions and existing session authorisation
-control scope; do not request approval again for already authorised work.
+This is the retained single-sheet workflow, under its original skill identifier.
+Use it for individual A4 guides and loose-leaf collections. A guide may occupy
+more than one sheet; “single sheets” does not impose a one-page limit. For a
+bound book, use [book-layout-review](../book-layout-review/SKILL.md). An explicit
+request for sheets takes precedence over the project's current book default.
+A5/A6 are selectable but have no validated design contract.
 
-## Read the current contract
+## Sources and scope
 
-This skill belongs to the repository three directories above this folder. Resolve
-links from this file, not an assumed working directory. Read the current project
-[AGENTS.md](../../../AGENTS.md), [README](../../../README.md),
-[shared-data contract](../../../SHARED-DATA.md) and
-[current handover](../../../docs/handover/START-HERE.md); avoid rereading unchanged
-files already loaded in the conversation. Then use:
+Resolve repository links from this file. Read [AGENTS](../../../AGENTS.md),
+[README](../../../README.md), [shared-data rules](../../../SHARED-DATA.md) and
+[current handover](../../../docs/handover/START-HERE.md), skipping unchanged
+material already read. Then use:
 
-- [Assisted printing](../../../docs/ASSISTED-PRINT.md) for preparation and approval.
-- [Vegetable style](../../../docs/VEGETABLE-PRINT-STYLE.md) for vegetable work.
-- [Troubles style](../../../docs/TROUBLES-PRINT-STYLE.md) for diagnostic guides.
-- Relevant [implementation sections](../../../DEVELOPMENT.md) and
-  [setup commands](../../../SETUP.md) when needed.
+- [Richer A vegetable contract](../../../docs/VEGETABLE-PRINT-STYLE.md), including
+  the approved header refinement and Family Tint rules.
+- [Open Editorial Troubles contract](../../../docs/TROUBLES-PRINT-STYLE.md).
+- [Assisted printing](../../../docs/ASSISTED-PRINT.md) for the shared review workflow;
+  relevant [DEVELOPMENT](../../../DEVELOPMENT.md) / [SETUP](../../../SETUP.md)
+  sections for the current implementation and commands.
 
-Keep these documents authoritative. Do not copy their design rules into a new
-policy file or revive a frozen pilot's builder as a live maintenance tool.
+Locate and inspect the approved component through the
+[asset registry](../../../docs/assets/README.md). Preserve frozen references and
+compare changed proofs with them. Approved A4 Cover C, contents and how-to remain
+sheet sources; the book's later cover choices do not replace them.
 
-## Inspect, diagnose, adjust
+## Review the sheet
 
-Read live canonical records and current companions, including locks, source/output
-signatures and editorial notes. Determine whether the issue is missing useful
-content, unsuitable content selection, layout geometry, or a false review warning.
-An absent optional section is different from an unreviewed or stale companion.
+Read current records, source-linked print companions, locks and warnings before
+changing layout. Distinguish missing content, stale copy and real overflow from
+measurement/reporting errors. Keep work limited to the requested crops/groups.
 
-Measure the actual affected route after fonts/images load. Inspect print warnings
-and errors, overflow, bottom clearance and column endings. For visual changes,
-inspect the affected rendered pages: numerical fit alone cannot establish quality.
+For vegetables, fit first, align practical columns second, then use spare space
+for useful source detail. A bottom gap over 10 mm prompts review, not filler.
+Retain justified sparse cases, readable type and approved artwork. Preserve the
+expressive header, facts/calendar/needs/varieties/risks overview, practical advice,
+reminder callouts, planting drawings and full-width Final Tips. Do not revive
+dark widget bars, fixed-height cards, speech bubbles or retired margins.
 
-For vegetables, prioritise fit, then column alignment, then useful space filling.
-Restore relevant source detail before adding space; preserve readable type,
-measurement meaning and crop distinctions. A bottom gap over 10 mm prompts review,
-not automatic filler. Retain justified sparse cases. Use crop-applicable distinct
-trouble rows; no uniform row quota or first-overflow cutoff as final curation.
+For A4 Troubles, retain natural entry heights, complete diagnostic drawings and
+Recognise / Act / Prevent advice. **Staggered column endings are approved**;
+do not import the book's aligned-top-and-bottom requirement. Keep whole entries
+together where practicable and every applicable condition exactly once. Six
+conditions per reference page is an example, not a quota. Do not crop, stretch
+or simplify diagnostic artwork to fit.
 
-For Troubles, preserve complete diagnostic entries and images, natural entry
-heights and every condition exactly once. Uneven column endings are acceptable;
-do not apply vegetable column stretching or old card-height budgets.
+Select distinct useful crop-applicable pest rows before measuring. Merge duplicate
+labels and condense table prose without losing signs, organic controls, timings
+or qualifications; no fixed row quota or first-overflow cutoff. Keep full master
+advice and record reasons for useful omissions. Preserve unit pairs and the
+meaning of row/plant/clump spacing. Do not recurate accepted selections merely
+because layout work has resumed.
 
-Choose the smallest justified source-companion or template change. Research only
-when a substantive advice question needs resolving, using the project's RHS-first
-rules. Preserve full master advice. Do not infer permission to shrink artwork,
-change typography or redesign the pages from a request to improve fit.
+Use the smallest justified companion/template change. Follow the shared-data
+contract for any authorised editorial writes: guarded reader/writer, exact prior
+bytes, attribution, locks and source signatures. Never self-approve copy, unlock
+manual edits or rerun consumed proposals. A layout request does not itself
+authorise new source gardening advice.
 
-## Save and verify proportionately
+## Verify in A4
 
-Use the existing shared reader/writer and print helpers for companion changes.
-Respect revision guards, manual edits, locks and exact prior-byte backups. Keep
-new editorial copy draft until John approves it; existing approval is not lost
-merely because a reporting bug is corrected. Never stamp approval to clear a warning.
-Do not rerun consumed content-refinement proposals against expanded live records.
+The live owners are `RichVegetablePage.tsx` / `richVegetable.css` and
+`EditorialTroublePage.tsx` / `editorialTroubleLayout.ts`. Keep sheet changes
+separate from `src/print/book/`; do not reduce a compact PDF back into A4.
 
-From the project root, with start.command on loopback when needed:
+Browser PDF generation needs the loopback Vite workflow through `start.command`;
+inspect an existing process before starting or stopping anything. Pass
+`paper=A4` explicitly to `/api/pdf/vegetable/<slug>` or `/api/pdf/trouble/<key>`:
+the API default is the book size. Direct `/print/*` routes are A4 sources.
 
-- `npm run test:focused -- <owning-test-file>` for changed logic.
-- `npm run check:fit -- <crop>` for vegetable DOM sizing/readiness only.
-- `npm run check:smoke -- <crop>` for a vegetable A4 PDF; add `--units=both`
-  for unit/wrapping changes. Add another crop only for relevant shared geometry.
-- For Troubles, use the active `/print/trouble/<key>?units=metric` route and
-  `EditorialTroublePage.tsx` selectors. Inspect any existing checker before use:
-  older card-based scripts are not validators for Open Editorial. Check actual PDF
-  pages and condition coverage when layout changes; keep checks group-scoped.
+- For a vegetable, `npm run check:fit -- <crop>` measures A4 DOM fit only;
+  `npm run check:smoke -- <crop>` checks an actual A4 PDF plus readiness.
+  Add `--units=both` to smoke for unit/wrapping changes unless John scopes the
+  review to one edition. Do not mistake these checks for visual approval.
+- For Troubles, inspect the active `/print/trouble/<key>?units=<unit>` route
+  with editorial selectors and export actual A4 PDFs. Retired card-layout
+  checkers do not validate Open Editorial.
+- Inspect changed PDF pages after fonts/images load: actual page count, complete
+  text/images, header collisions, overflow, footer clearance and useful whitespace.
+  Keep the accepted native A4 geometry and 8.5 mm side insets from the contracts.
+  Do not restore legacy plugin margins or book binding gutters.
+- Run the smallest relevant logic checks for code changes; documentation-only
+  changes need link/consistency checks, not PDFs or app tests. Broaden crop/unit
+  coverage only for the change or a failure, not an automatic catalogue export.
 
-No automatic full catalogue export, build, raster pack or broad test suite after
-a small edit. Distinguish DOM fit from actual PDF pagination and warnings from
-export failures. For a changed page count/order, follow the pagination procedure
-in DEVELOPMENT before refreshing approved contents; don't rebuild it incidentally.
-
-## Leave a usable result
-
-Report what changed, checks actually run, and material remaining exceptions.
-Present changed proofs for review where needed; preserve approved references.
-Record accepted edits and their save receipt in the current working documents.
-Update START-HERE in place with outstanding work and exact resume paths rather
-than creating session transcripts or duplicate handover archives. Do not imply
-that a full batch was regenerated or a fresh print run approved unless it was.
+If an authorised sheet collection changes page count/order, refresh that
+collection's contents and folios against its actual PDFs. Old A4 manifests are
+historical evidence, not a current collection map. Report checks, omissions and
+retained exceptions; update the owning handover/checkpoint without changing
+approval status. Normal exports remain deterministic and need no external AI API.

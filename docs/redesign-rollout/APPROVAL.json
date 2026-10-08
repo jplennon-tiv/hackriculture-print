@@ -282,17 +282,24 @@
       "files": [
         {
           "path": "docs/front-matter/entry-pages/how-to.html",
-          "sha256": "973dcb51d43d9a5b020bc87daa1c2c7fcbc38b60f0492ac1edd38bfb20d0ed63"
+          "sha256": "8c4d4aec6e2726b3475bd1f8aa91886d5c51bf14e63ed80a8bb5a30246de9757"
         },
         {
           "path": "docs/front-matter/entry-pages/how-to.pdf",
-          "sha256": "edf37de393e25fe841d048d62bb78c52831fca65538b1ea6c7b8bb8c7fc1a1ed"
+          "sha256": "a3011259d367b68d00e001287e454490c0436a7d23e695ea7fec1fe028c1f2a3"
         },
         {
           "path": "public/front-matter/how-to-use-A4.pdf",
-          "sha256": "edf37de393e25fe841d048d62bb78c52831fca65538b1ea6c7b8bb8c7fc1a1ed"
+          "sha256": "a3011259d367b68d00e001287e454490c0436a7d23e695ea7fec1fe028c1f2a3"
         }
-      ]
+      ],
+      "difficultyWordingUpdate": {
+        "date": "2026-10-01",
+        "requestedBy": "John",
+        "statement": "That's a good scale. Please make the required changes.",
+        "scope": "Refreshed Broccoli badge capture and accessible label: 3/5 Medium.",
+        "verification": "One A4 page; fonts/images loaded; PDF rendered and visually inspected by Codex."
+      }
     }
   },
   "vegetableTitleDesign": {
@@ -322,7 +329,7 @@
       },
       {
         "path": "docs/front-matter/cover-studies/assets/marrow_courgette-preview.png",
-        "sha256": "ca764c20b86a29f6056f5e48120196d9a1a0eaacd86a808f91f146dcf80b4180"
+        "sha256": "e692e9f29693f7690f8253353941fbe43d4d695c66b1b88595f80961209f2c5e"
       },
       {
         "path": "docs/front-matter/cover-studies/assets/bean_broad-preview.png",
@@ -330,9 +337,16 @@
       },
       {
         "path": "public/front-matter/cover-A4.pdf",
-        "sha256": "99822d3ce2f68dbdc271d4897bf7de888f71852bc65db08b0e2eef47a7ae772a"
+        "sha256": "095e6d5971f23d890c8ea84c2096f6ff6dc389cf3a994e94afece07dc2c38685"
       }
-    ]
+    ],
+    "difficultyWordingUpdate": {
+      "date": "2026-10-01",
+      "requestedBy": "John",
+      "statement": "That's a good scale. Please make the required changes.",
+      "scope": "Refreshed Courgettes and Marrows thumbnail: 2/5 Fairly Easy.",
+      "verification": "One A4 page; fonts/images loaded; PDF rendered and visually inspected by Codex."
+    }
   },
   "vegetableContentRefinement": {
     "status": "approved-installed",
@@ -344,5 +358,101 @@
     "records": 44,
     "receipt": "docs/content-refinement/SAVE-RECEIPT.json",
     "checks": "docs/content-refinement/INSTALLATION-CHECKS.json"
+  },
+  "difficultyScale": {
+    "date": "2026-10-01",
+    "by": "John",
+    "status": "approved-wording-installed",
+    "labels": [
+      "Easy",
+      "Fairly Easy",
+      "Medium",
+      "Tricky",
+      "Difficult"
+    ],
+    "scope": "Display labels only; existing crop scores preserved.",
+    "checks": "Five focused adapter tests; Broccoli metric/imperial two-page PDF smoke with no warnings; Courgettes and Marrows both-unit DOM/font/image and label-bound checks; updated one-page cover/how-to PDFs visually inspected."
+  },
+  "onionPlantingRoutes": {
+    "status": "approved-installed",
+    "by": "John",
+    "date": "2026-10-01",
+    "statement": "That's good - I approve the changes.",
+    "scope": "Final Onions and Shallots seed/set routes, four illustrations and March–April set-planting caption; metric and imperial A4 proofs.",
+    "installedRevision": "8abc9aae2f7fbbbdc0d731971c108e07d72613760dbe8a1f46bbbcef8228873c",
+    "receipt": "docs/onion-planting/SAVE-RECEIPT.json",
+    "checks": "docs/onion-planting/PROOF-CHECKS.json",
+    "files": [
+      {
+        "path": "output/pdf/onion-planting/onions-and-shallots-metric-A4.pdf",
+        "sha256": "a0a870ab2388b91354a7e8c153e093a8a370cb6578cdd09f3970c4502a08e0fb"
+      },
+      {
+        "path": "output/pdf/onion-planting/onions-and-shallots-imperial-A4.pdf",
+        "sha256": "3a206103f82e17e3419fa0cc7fd28d85aa4b422c7d079433cc66a02457414696"
+      },
+      {
+        "path": "public/images/planting/onion_shallot/seed-sow-v1.png",
+        "sha256": "ead8d3a21131ea7cec4486317184c1b79cf0839714e9f6251e1b90efdcdae301"
+      },
+      {
+        "path": "public/images/planting/onion_shallot/seed-space-v1.png",
+        "sha256": "f7b820eef45d0f325dca62e2391bf7998a0879163590f61d3a0806cce42861a5"
+      },
+      {
+        "path": "public/images/planting/onion_shallot/set-tip-v2.png",
+        "sha256": "e58c4906ca0e279d32177f9c62061fbb2d1f4692569b71c7acac093962598ca7"
+      },
+      {
+        "path": "public/images/planting/onion_shallot/set-growth-v1.png",
+        "sha256": "277b33423b3d1014e0191dd2a22a4378ffa19672c6b9f1ee247cf70d3133be2a"
+      }
+    ]
+  },
+  "compactEntryPages": {
+    "status": "approved-awaiting-book-integration",
+    "by": "John",
+    "date": "2026-10-07",
+    "statement": "Ok that's worked well - we can approve these. What's next?",
+    "scope": "The Vegetable Guru compact contents and illustrated how-to: physical pages 4–7 at 185 × 240 mm, as presented in imperial and metric. Includes adapted design, retained artwork/explanations and current book references. Title/publication/introduction, full-book review and production release remain separate.",
+    "files": [
+      {
+        "path": "docs/publication/vegetable-guru-entry-pages/imperial.html",
+        "sha256": "27b14cf84d1957fa542648975218696e0d8243012b7898fba16b57eb4c913b96"
+      },
+      {
+        "path": "docs/publication/vegetable-guru-entry-pages/metric.html",
+        "sha256": "cb08ab308567359111afa5f6a68a4fea07bb2c8d2f9c523958e1d14c1e13421c"
+      },
+      {
+        "path": "docs/publication/vegetable-guru-entry-pages/entry-pages.css",
+        "sha256": "9796fac872f5e80f95799912f2da7dd690734dffa2b7af7336f0b8bcd8c39d43"
+      },
+      {
+        "path": "output/pdf/vegetable-guru-entry-pages/contents-how-to-imperial.pdf",
+        "sha256": "5ba9f43d00c326bab9e4705a320089ac261ca800abd7fe8992589bae980e2a4d"
+      },
+      {
+        "path": "output/pdf/vegetable-guru-entry-pages/contents-how-to-metric.pdf",
+        "sha256": "0e393c159c3e702e4ca7ecb39bd62a3fe25699df0317d345aec1d411100fab20"
+      }
+    ],
+    "artwork": {
+      "docs/front-matter/entry-pages/studies/assets/harvest-cluster.png": "aedba4cc6a729f618e930d6cee05694837e756d4c8bbd669f7689ab6eacd54c7",
+      "docs/front-matter/entry-pages/calendar-assets/radish-calendar.png": "6d706d495642ed80224a359739a8369889f442ee403e8b937114425aab7eeed1",
+      "docs/front-matter/entry-pages/calendar-assets/temperate-field.svg": "95774a8db9580af42048616e14362c203d99043b651789dbaaf7d4c47d9c8a2a",
+      "docs/front-matter/entry-pages/calendar-assets/tropical-island.svg": "d5d1edc613476358bae63ea8c0df310730d20e2dd260e3b42d25777987c002de",
+      "docs/front-matter/entry-pages/scales-study/assets/difficulty-capture.png": "77aab828d1274cb612a495d53e5d54a2214a917e84a37600d1a527660a98d5e3",
+      "docs/front-matter/entry-pages/scales-study/assets/baby.svg": "459c0b0d086e01139acc132e7ef55f4037295a7fcb79d67d41b0dd7d1904e759",
+      "docs/front-matter/entry-pages/scales-study/assets/einstein.svg": "ee99c8c68842d7c4812634394bd202da719b8ee57d906805b7027075480e6b54",
+      "docs/front-matter/entry-pages/scales-study/assets/core-needs-capture.png": "3f5c26757e2aed7338a81f5df7c904a829d745f669da9a477fad327cf49d535a",
+      "docs/front-matter/entry-pages/scales-study/assets/dropper.svg": "65ddeeee2ddb263ad6783bb965e88a230faa3f1e4703e78e8c9a1674cae93c65",
+      "docs/front-matter/entry-pages/scales-study/assets/wave.svg": "17af6bd7340b2d359db3ec88c20acfb2fcb81436916afa04302d9f39e1970723"
+    },
+    "evidence": [
+      "docs/publication/vegetable-guru-entry-pages/CHECKS.json",
+      "docs/publication/vegetable-guru-entry-pages/PDF-CHECKS.json"
+    ],
+    "integration": "Not yet inserted into the seven-page opening pack or 148-page full books. Recheck contents references if pagination changes."
   }
 }

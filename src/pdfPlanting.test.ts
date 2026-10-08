@@ -5,6 +5,8 @@ import {tmpdir} from 'node:os';
 import type {Page} from 'playwright';
 import {pdfPlugin,renderPdf,PrintContentError} from '../pdfPlugin';
 import book from './print/bookPagination.json';
+import {prepareCompactBook} from './print/book/renderCompact';
+vi.mock('./print/book/renderCompact',()=>({prepareCompactBook:vi.fn(async()=>({pages:2,warnings:[]}))}));
 vi.mock('../../hackriculture-data/lib/records.mjs',()=>({refreshGenerated:vi.fn()}));
 vi.mock('./print/bookPagination.json',async()=>{
  const {createHash}=await import('node:crypto');
@@ -75,6 +77,32 @@ describe('shared single and batch print guard',()=>{
             expect(mock.page.goto.mock.calls.every(([url])=>url.endsWith('?units=metric'))).toBe(true);
             expect(mock.browser.close).toHaveBeenCalled();
         }finally{log.mockRestore();rmSync(temporary,{recursive:true,force:true});}
+    });
+    it('compact batch exports guide proofs without requiring or copying A4 opening pages',async()=>{
+        const temporary=mkdtempSync(join(tmpdir(),'compact-batch-test-'));
+        const root=join(temporary,'hackriculture-print'),shared=join(temporary,'hackriculture-data');
+        mkdirSync(root);mkdirSync(join(shared,'generated/master'),{recursive:true});
+        writeFileSync(join(shared,'generated/master/vegetables.json'),JSON.stringify({carrot:{name:'Carrot'},bad:{name:'Bad'},leek:{name:'Leek'}}));
+        writeFileSync(join(shared,'generated/master/troubles.json'),'{}');
+        mock.page.pdf.mockResolvedValue(Buffer.from('%PDF /Type /Page /Type /Page'));
+        let handler: (...args:any[])=>Promise<void>;
+        (pdfPlugin().configureServer as Function)({config:{root},httpServer:{address:()=>({port:5173})},middlewares:{use:(h:typeof handler)=>{handler=h;}}});
+        const chunks:string[]=[];
+        const res={setHeader:vi.fn(),writeHead:vi.fn(),write:(s:string)=>chunks.push(s),end:vi.fn()};
+        const log=vi.spyOn(console,'error').mockImplementation(()=>{});
+        try {
+            await handler!({url:'/api/pdf/batch?units=metric',method:'POST'},res,vi.fn());
+            const events=chunks.map(s=>JSON.parse(s));
+            expect(events[0]).toMatchObject({total:3,frontMatter:0});
+            expect(events[0].warnings[0]).toContain('opening pages');
+            expect(events.at(-1)).toMatchObject({event:'done',ok:2,errors:1});
+            const output=join(root,'output/book-185x240/metric');
+            const order=JSON.parse(readFileSync(join(output,'collection-order.json'),'utf8'));
+            expect(order).toMatchObject({paper:'185x240',complete:false,scope:'guide-proofs',numberedPages:null});
+            expect(order.documents.every((d:any)=>d.start===null&&d.pages===2)).toBe(true);
+            expect(existsSync(join(root,'output/collection-order.json'))).toBe(false);
+            expect(prepareCompactBook).toHaveBeenCalled();
+        } finally {log.mockRestore();rmSync(temporary,{recursive:true,force:true});}
     });
     it('single export returns an actionable 422 error for a stale summary',async()=>{
         let handler: (...args:any[])=>Promise<void>;

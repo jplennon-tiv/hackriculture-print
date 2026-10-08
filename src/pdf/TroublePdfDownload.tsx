@@ -1,4 +1,6 @@
 import { useState } from "react";
+import { usePaper } from "../lib/paper";
+import { useUnits } from "../lib/units";
 
 interface Props {
     troubleKey: string;
@@ -8,15 +10,18 @@ interface Props {
 export default function TroublePdfDownload({ troubleKey, className }: Props) {
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState("");
+    const { paper } = usePaper();
+    const { system } = useUnits();
+    const downloadUrl = `/api/pdf/trouble/${encodeURIComponent(troubleKey)}?units=${system}&paper=${paper}`;
 
-    const previewUrl = `/api/pdf/trouble/${encodeURIComponent(troubleKey)}?inline=1`;
+    const previewUrl = `${downloadUrl}&inline=1`;
 
     const handleSave = async () => {
         setLoading(true);
         setError("");
         try {
             const res = await fetch(
-                `/api/pdf/trouble/${encodeURIComponent(troubleKey)}`,
+                downloadUrl,
             );
             if (!res.ok) {
                 const body = (await res.json().catch(() => ({}))) as {

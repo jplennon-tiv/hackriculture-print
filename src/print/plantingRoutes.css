@@ -1,0 +1,11 @@
+/* Optional named planting methods; ordinary Richer A stages keep their geometry. */
+.rich-print .planting-routes h2{margin-bottom:7px}
+.rich-print .planting-routes .route-heading{font:900 15px/1.2 'Nunito Sans',sans-serif;color:var(--deep);margin:0 0 6px}
+.rich-print .planting-routes .stages{gap:12px;margin-top:0}
+.rich-print .planting-routes .stages h3{font:900 12px/1.2 'Nunito Sans',sans-serif;margin:0}
+.rich-print .planting-routes .stages img{height:60px;margin:3px 0;display:block}
+.rich-print .planting-routes .stages p{font-size:10px;line-height:1.28;margin:0}
+.rich-print .planting-routes .route-note{font-size:11px;line-height:1.35;margin:6px 0 0}
+.rich-print .planting-routes .plant-route+.plant-route{border-top:1px solid var(--accent);margin-top:8px;padding-top:8px}
+.rich-print .planting-routes .route-shared-note{font-size:11px;line-height:1.35;border-top:1px solid var(--accent);padding-top:7px;margin:8px 0 0}
+.rich-print .planting-routes .route-shared-note+.route-shared-note{font-size:10px;line-height:1.28;border-top:0;padding-top:0;margin-top:5px}

@@ -1,0 +1,83 @@
+{
+  "createdAtUtc": "2026-10-07T20:52:28.143264+00:00",
+  "status": "Rough screen preview; artwork allocation and all new copy remain for review; not a production upload",
+  "pdf": "output/pdf/bookvault-progress-preview/the-vegetable-guru-bookvault-progress-preview.pdf",
+  "sha256": "ec7e000f8c59faf1ae9c54e813b54c406025ad8278443381bef81f8484225765",
+  "bytes": 53504640,
+  "units": "imperial",
+  "trimMm": [
+    185,
+    240
+  ],
+  "previewPages": 152,
+  "interiorPages": 148,
+  "vegetableGuides": 44,
+  "troublesGroups": 14,
+  "conditions": 220,
+  "structure": "Front cover, blank inside front, 148 numbered interior pages, blank inside back, back cover",
+  "folioMapping": "PDF page number = printed interior folio + 2. Cover leaves do not change interior pagination.",
+  "screenOptimisation": "Existing body artwork downsampled to approximately 150 dpi JPEG quality 82; native text retained. Existing bleed trimmed for screen. Cover concepts retained as supplied rasters.",
+  "resampledBodyArtImages": 137,
+  "source": {
+    "path": "output/pdf/book-preparation/compact-book-imperial-bookvault-flattened-review.pdf",
+    "sha256": "c612bf238e2661925dfef0a11c368075b2cc9f95481ded82017fdb262b2fa386"
+  },
+  "covers": [
+    {
+      "path": "docs/publication/vegetable-guru-grid-variations/assets/G2-centre-title.png",
+      "sha256": "38a3f3edf5be32e3077439d710036ae5a8d2b68dd27ea1ffccf1c9d05b2f0b24"
+    },
+    {
+      "path": "docs/publication/vegetable-guru-back-collage/B5.png",
+      "sha256": "bf4ec765d570845865355956c22a9d2b78a59b717c4471f9c5aaba894621ffff"
+    }
+  ],
+  "checks": {
+    "nativeBodyTextMatchesSourcePages": 141,
+    "contentsReferencesMatch": 58,
+    "blankFolios": [
+      15,
+      69,
+      87,
+      91
+    ],
+    "pageCountAndGeometry": true,
+    "approvedSourcesUnchanged": true,
+    "bookmarks": 67,
+    "pageLabelsAndFacingLayout": true
+  },
+  "visualReview": {
+    "status": "Representative assembled PDF review complete; not full-book visual or print approval",
+    "coverPages": [
+      "front G2",
+      "back B5"
+    ],
+    "interiorFolios": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      14,
+      15,
+      40,
+      41,
+      116,
+      117
+    ],
+    "samplePages": 15,
+    "findings": "All seven openings, covers, Kale spread, two Carrot/Parsnip Troubles pages, Carrot continuation and facing blank inspected. No new clipping or missing artwork observed. Existing sparse continuation and pending blank-page policy retained. New headers retain approved content/layout and source typography. B5 remains concept artwork with generated page fragments.",
+    "reviewIndex": "Desktop rendering inspected; all 15 images load offline and 20 links resolve; no horizontal overflow at 1280 or 390 px."
+  },
+  "scope": "Seven opening pages rendered. No guide re-export, new artwork generation, metric work, canonical-data change or Bookvault account action.",
+  "reviewIndexChecks": {
+    "offlineFileLoad": true,
+    "imagesLoaded": 15,
+    "localLinksChecked": 20,
+    "desktopWidth": 1280,
+    "mobileWidth": 390,
+    "horizontalOverflow": false
+  }
+}

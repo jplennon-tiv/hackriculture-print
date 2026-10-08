@@ -1,0 +1,112 @@
+{
+  "checkedDate": "2026-10-07",
+  "scope": "John explicitly requested a one-off Aura Print reply and calculator revisit. Waterproof research remains deferred; monitoring remains paused.",
+  "incoming": {
+    "messageId": "1a1114e8606af15a",
+    "threadId": "1a0f7da3fe386abf",
+    "dateUtc": "2026-10-06T13:01:54.000Z",
+    "from": "orders@aura-print.com",
+    "bodyText": "Hi John,\r\n\r\nAs never tear isn’t an option on the website for the back cover we would need to do a separate quote for you.\r\n\r\nCould you please have look at the online calculator and let me know the exact specifications you require and advise you want never tear for the back cover and we can work out a cost for you.\r\n\r\nPlease note set up costs are included in quote price and shipping and VAT is added at checkout so these won’t be added until you physically order on the website.\r\n\r\nMany thanks,\r\nBon",
+    "attachments": []
+  },
+  "findings": [
+    "NeverTear back cover requires a separate quote; supplier asks for calculator specifications and an explicit synthetic-back-cover request.",
+    "Supplier says setup is included and shipping/VAT are added at checkout. No final VAT amount/rate or delivery total established.",
+    "185 x 240 mm eligibility remains unanswered; this check used the A4 comparator from the earlier enquiry."
+  ],
+  "calculator": {
+    "url": "https://aura-print.com/uk/wire-bound-booklet-and-brochure-printing",
+    "source": "Live visible website calculator, 7 October 2026; selected summaries and settled prices read after recalculation.",
+    "classification": "Indicative online prices for the configured A4 product, NOT a complete waterproof-book quote or the current 148-page compact POD specification.",
+    "configuration": {
+      "orientation": "Portrait",
+      "sizeMm": [
+        210,
+        297
+      ],
+      "binding": "Wire bound",
+      "innerLeaves": 67,
+      "innerPages": 134,
+      "innerSides": "Double sided",
+      "innerPaper": "155gsm Nevertear (120 Micron)",
+      "frontCover": "Single sided, 368gsm Nevertear (270 Micron)",
+      "backCover": "Single sided, 300gsm Uncoated — ordinary paper placeholder, NOT waterproof",
+      "print": "Full Colour throughout",
+      "frontCoverLamination": "No Laminate",
+      "artwork": "Email Finished Artwork",
+      "designs": 1,
+      "digitalProof": "Yes",
+      "dispatch": "Standard - 4 Working Days from Proof Approval"
+    },
+    "prices": [
+      {
+        "quantity": 50,
+        "totalGbp": 1859.95,
+        "perCopyGbp": 37.199
+      },
+      {
+        "quantity": 100,
+        "totalGbp": 3689.95,
+        "perCopyGbp": 36.8995
+      },
+      {
+        "quantity": 250,
+        "totalGbp": 9179.95,
+        "perCopyGbp": 36.7198
+      },
+      {
+        "quantity": 500,
+        "totalGbp": 18330.95,
+        "perCopyGbp": 36.6619
+      }
+    ],
+    "exclusions": "VAT, shipping and any change to a synthetic back cover or custom trim. No full waterproof-product quote obtained.",
+    "decision": "Retain for a possible later edition. This configuration exceeds the historical GBP25 delivered retail target before extras; does not establish custom-size pricing.",
+    "basketChanged": false,
+    "orderPlaced": false,
+    "filesUploaded": false
+  },
+  "outgoing": {
+    "status": "sent_confirmed",
+    "sendArguments": {
+      "to": "orders@aura-print.com",
+      "subject": "Re: Budget feasibility: waterproof gardening guide, £25 delivered retail, 50–500 copies",
+      "reply_message_id": "1a1114e8606af15a",
+      "payload": {
+        "mime_type": "text/html",
+        "charset": "UTF-8",
+        "body": {
+          "content": "<p>Hi Bon,</p>\n<p>Thank you for getting back to me and explaining that a NeverTear back cover would need a separate quote. I have revisited the online calculator and kept the specification and indicative prices for future reference.</p>\n<p>We have decided to launch a conventional paperback first to establish demand, and defer the waterproof wire-bound edition to a possible later print run. Please close the current enquiry for now; there is no need to spend further time preparing a bespoke quote at this stage.</p>\n<p>If we revisit the waterproof edition, I will come back with an updated page count and exact specification, including the NeverTear back cover and preferred finished size.</p>\n<p>Thank you again for your time and help—it is much appreciated.</p>\n<p>Best wishes,<br>John Lennon</p>"
+        }
+      },
+      "response_fields": [
+        "id",
+        "thread_id",
+        "label_ids",
+        "internal_date"
+      ]
+    },
+    "receipt": {
+      "id": "1a115e66594b04fb",
+      "thread_id": "1a0f7da3fe386abf",
+      "label_ids": [
+        "SENT"
+      ],
+      "snippet": null,
+      "history_id": null,
+      "internal_date": null,
+      "payload": null,
+      "size_estimate": null,
+      "classification_label_values": null
+    },
+    "verifiedDateUtc": "2026-10-07T10:26:22.000Z",
+    "verification": "Re-read thread after send; exact message ID and SENT label confirmed."
+  },
+  "preSendCheck": {
+    "threadRead": true,
+    "recentSentQuery": "in:sent to:(aura-print.com) after:2026/10/01",
+    "lastPriorSentMessageId": "1a0fd25fc5a57b12",
+    "noDuplicate": true
+  },
+  "disposition": "Thanked Bon, explained conventional paperback launch and deferred waterproof edition, asked to close current enquiry with no bespoke estimate needed. No orders, fees, proof approvals, sample dispatches or commitments."
+}

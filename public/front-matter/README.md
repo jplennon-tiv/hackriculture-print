@@ -1,4 +1,11 @@
-# Official batch front matter
+# Official A4 batch front matter
+
+These files are the installed **A4** openings. Compact web batches omit them;
+book preparation adapts their designs into separate files. John selected these
+originals as the book cover/entry-page starting points on 6 October. See the
+[current handover](../../docs/handover/START-HERE.md) and
+[source inventory](../../docs/assets/README.md). Builders here overwrite installed
+A4 assets; do not use them as compact builders or rerun them incidentally.
 
 Installed for John's A4 print run, 30 September 2026:
 
@@ -11,7 +18,14 @@ Installed for John's A4 print run, 30 September 2026:
 These three opening pages are unnumbered. Vegetables follow at 1–88 and Troubles
 at 89–132. `output/collection-order.json` records the exact assembly order and
 completion of each fresh batch. Use that list, not every PDF left in output.
-The opening pages stay A4 regardless of the paper selector; use A4 for this run.
+These files belong to the retained A4 run. The compact guide-only batch excludes
+them; separate book assembly supplies revised compact opening pages.
+
+1 October wording update: the installed how-to badge now says Medium; the cover's
+Courgettes and Marrows thumbnail now says Fairly Easy. Both PDFs were rebuilt
+and visually checked at one A4 page following John's label approval. The three
+output copies were checked on 6 October and exactly match the current installed
+PDFs and approval hashes, including this wording update.
 
 Cover builder: `node scripts/build-front-cover.mjs`. It uses the editable C
 composition and local assets in `docs/front-matter/cover-studies/`. Its main title

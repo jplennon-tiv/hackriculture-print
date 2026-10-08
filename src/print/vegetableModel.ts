@@ -48,8 +48,8 @@ function difficultyInfo(
     // 5-level scale — badge always uses the page's category colour
     const bg = categoryColour;
     if (!d || d <= 1) return { label: "Easy", bg };
-    if (d === 2) return { label: "Not Difficult", bg };
-    if (d === 3) return { label: "Not Easy", bg };
+    if (d === 2) return { label: "Fairly Easy", bg };
+    if (d === 3) return { label: "Medium", bg };
     if (d === 4) return { label: "Tricky", bg };
     return { label: "Difficult", bg };
 }
@@ -119,7 +119,7 @@ const VARIETY_TYPE_LABELS: Record<string, string> = {
     additional_flavour_notes: "",
 };
 
-function flattenVarieties(varieties: Record<string, unknown>, system: UnitSystem): VarietyEntry[] {
+export function flattenVarieties(varieties: Record<string, unknown>, system: UnitSystem): VarietyEntry[] {
     const result: VarietyEntry[] = [];
     // Keys that indicate a garlic-style metadata group (outer key = variety name)
     const META_KEYS = new Set([
@@ -139,6 +139,10 @@ function flattenVarieties(varieties: Record<string, unknown>, system: UnitSystem
             key === "overview" ||
             key === "types" ||
             key === "general" ||
+            key === "other_names" ||
+            key === "description" ||
+            key === "maturity_months" ||
+            Array.isArray(val) ||
             typeof val !== "object" ||
             val === null
         )
@@ -167,17 +171,14 @@ function flattenVarieties(varieties: Record<string, unknown>, system: UnitSystem
                     | Record<string, unknown>
                     | undefined;
                 const typeObj = obj.type as Record<string, unknown> | undefined;
-                const desc =
-                    (charObj?.text as string) ||
-                    (typeObj?.text as string) ||
-                    "";
-                const typeName = (typeObj?.text as string) || "";
+                const desc = rt(charObj, system) || rt(typeObj, system);
+                const typeName = rt(typeObj, system);
                 if (desc) {
                     result.push({
                         type: typeName,
                         name: key,
                         text: desc,
-                        short_text: undefined,
+                        short_text: rt(charObj?.short_text, system) || undefined,
                         rank:
                             typeof charObj?.rank === "number"
                                 ? (charObj.rank as number)
@@ -192,27 +193,15 @@ function flattenVarieties(varieties: Record<string, unknown>, system: UnitSystem
                 key in VARIETY_TYPE_LABELS
                     ? VARIETY_TYPE_LABELS[key]
                     : key
+                          .replace(/_/g, " ")
                           .replace(/\s+varieties?\b/gi, "")
                           .replace(/\s+types?\b/gi, "")
                           .trim()
                           .toLowerCase()
                           .replace(/\b\w/g, (c) => c.toUpperCase());
 
-            for (const [varKey, varVal] of Object.entries(obj)) {
-                if (varKey === "overview" || varKey === "other_names") continue;
-                if (typeof varVal !== "object" || varVal === null) continue;
-                const varObj = varVal as Record<string, unknown>;
-
-                if (typeof varObj.text === 'string' || isMeasurementPair(varObj.text)) {
-                    result.push({
-                        type: displayType,
-                        name: varKey,
-                        text: rt(varObj, system),
-                        short_text:
-                            rt(varObj.short_text, system) || undefined,
-                        rank: typeof varObj.rank === "number" ? varObj.rank : 5,
-                    });
-                }
+            for (const entry of flattenVarieties(obj, system)) {
+                result.push({...entry, type: [displayType, entry.type].filter(Boolean).join(" · ")});
             }
         }
     }
@@ -238,7 +227,15 @@ export function vegetableModel(sourceVeg:Vegetable,key:string,system:UnitSystem,
             : [];
     const varietyPool = (() => {
         const sorted = [...allVarietyEntries].sort((a, b) => b.rank - a.rank);
-        return sorted;
+        // One cultivar can be filed under more than one growing season. Keep
+        // both source records, but use one place in the short printed list.
+        const seen = new Set<string>();
+        return sorted.filter(entry => {
+            const identity = entry.name.trim().toLocaleLowerCase('en-GB');
+            if (seen.has(identity)) return false;
+            seen.add(identity);
+            return true;
+        });
     })();
     const varCount=saved.layout?.variety_count??Math.min(4,varietyPool.length);
     const p2TrimLevel=0;
@@ -315,7 +312,7 @@ export function vegetableModel(sourceVeg:Vegetable,key:string,system:UnitSystem,
         durationFactSummary(facts, "time_between_planting_and_sprouting") ??
         sfStr("germination_period");
     if (germ) quickFacts.push({ label: "Germination", value: germ });
-    if (sowingDepth) quickFacts.push({ label: "Depth", value: sowingDepth });
+    if (sowingDepth) quickFacts.push({ label: typeof sowing?.depth_label === 'string' ? sowing.depth_label : 'Depth', value: sowingDepth, iconKey: 'Depth' });
     if (sowingRowSpacing)
         quickFacts.push({ label: "Row spacing", value: sowingRowSpacing });
     if (sowingPlantSpacing)

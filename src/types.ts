@@ -59,6 +59,7 @@ export interface SowingAndPlanting {
     row_spacing_summary?: MeasurementPair;
     plant_spacing_summary?: MeasurementPair;
     plant_spacing?: MeasurementValue;
+    depth_label?: 'Depth' | 'Seed depth' | 'Planting depth';
     sowing_depth?: MeasurementValue;
     planting_depth?: MeasurementValue;
     trench_or_ridge_depth?: MeasurementValue;

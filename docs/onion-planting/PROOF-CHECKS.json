@@ -1,0 +1,96 @@
+{
+  "checkedAt": "2026-10-01T10:36:09.777Z",
+  "unitTests": 81,
+  "typeCheck": "passed",
+  "visualReview": "All four actual PDF pages reviewed as PNGs: no clipping, overlap or missing art; coherent unit-specific captions; ten pest rows and full-width tips retained.",
+  "limits": "A4 only. No complete catalogue rerender; the 30 September batch predates these changes.",
+  "checks": [
+    {
+      "units": "metric",
+      "pdf": "output/pdf/onion-planting/onions-and-shallots-metric-A4.pdf",
+      "pdfSHA256": "a0a870ab2388b91354a7e8c153e093a8a370cb6578cdd09f3970c4502a08e0fb",
+      "revision": "richer-a-v3-planting-routes",
+      "error": null,
+      "warnings": [],
+      "routeTitles": [
+        "A · From seed",
+        "B · From sets (small bulbs)"
+      ],
+      "art": [
+        {
+          "src": "/images/planting/onion_shallot/seed-sow-v1.png",
+          "loaded": true
+        },
+        {
+          "src": "/images/planting/onion_shallot/seed-space-v1.png",
+          "loaded": true
+        },
+        {
+          "src": "/images/planting/onion_shallot/set-tip-v2.png",
+          "loaded": true
+        },
+        {
+          "src": "/images/planting/onion_shallot/set-growth-v1.png",
+          "loaded": true
+        }
+      ],
+      "pages": [
+        {
+          "footerClearanceMm": 1.7694010416924704,
+          "pestRows": 0,
+          "number": "VEGETABLE GROWING CHEAT SHEETSONIONS AND SHALLOTS 57"
+        },
+        {
+          "footerClearanceMm": 5.423958333412433,
+          "pestRows": 10,
+          "number": "VEGETABLE GROWING CHEAT SHEETSONIONS AND SHALLOTS 58"
+        }
+      ],
+      "setCaption": "Plant in March–April, roots down. Firm and water; protect from birds until rooted."
+    },
+    {
+      "units": "imperial",
+      "pdf": "output/pdf/onion-planting/onions-and-shallots-imperial-A4.pdf",
+      "pdfSHA256": "3a206103f82e17e3419fa0cc7fd28d85aa4b422c7d079433cc66a02457414696",
+      "revision": "richer-a-v3-planting-routes",
+      "error": null,
+      "warnings": [],
+      "routeTitles": [
+        "A · From seed",
+        "B · From sets (small bulbs)"
+      ],
+      "art": [
+        {
+          "src": "/images/planting/onion_shallot/seed-sow-v1.png",
+          "loaded": true
+        },
+        {
+          "src": "/images/planting/onion_shallot/seed-space-v1.png",
+          "loaded": true
+        },
+        {
+          "src": "/images/planting/onion_shallot/set-tip-v2.png",
+          "loaded": true
+        },
+        {
+          "src": "/images/planting/onion_shallot/set-growth-v1.png",
+          "loaded": true
+        }
+      ],
+      "pages": [
+        {
+          "footerClearanceMm": 1.7694010416924704,
+          "pestRows": 0,
+          "number": "VEGETABLE GROWING CHEAT SHEETSONIONS AND SHALLOTS 57"
+        },
+        {
+          "footerClearanceMm": 5.423958333412433,
+          "pestRows": 10,
+          "number": "VEGETABLE GROWING CHEAT SHEETSONIONS AND SHALLOTS 58"
+        }
+      ],
+      "setCaption": "Plant in March–April, roots down. Firm and water; protect from birds until rooted."
+    }
+  ],
+  "monthCorrection": "One caption changed to March–April; both-unit physical PDF smoke checks and affected page-two visual reviews repeated. Implementation tests/type check above refer to the earlier code change, not this text-only correction."
+}

@@ -4,10 +4,12 @@ import dataJson from '../../../hackriculture-data/generated/master/vegetables.js
 import type {GardeningData} from '../types';
 import {slugify} from '../lib/slug';
 import {firstSentence} from '../lib/sentences';
+import {formatVarietyName} from '../lib/varietyName';
 import {rt} from '../lib/ranked';
 import {getRiskIcon} from '../lib/keyRiskIcons';
 import {quickFactIconPath,pickFinalTipIcon} from '../lib/quickFactIcons';
 import {readPlantingSource} from '../lib/planting';
+import {PlantingSection} from './PlantingSection';
 import {vegetableModel} from './vegetableModel';
 import {themeStyle} from './familyTheme';
 import heroes from './heroArtwork.json';
@@ -17,7 +19,7 @@ import {applyBookNumbers,bookEntry,requireCurrentPagination} from './bookPaginat
 import './richVegetable.css';
 import {fillRichPages} from './richPageFill';
 const data=dataJson as unknown as GardeningData;
-export const RICH_VEGETABLE_REVISION='richer-a-v2-editorial-fill';
+export const RICH_VEGETABLE_REVISION='richer-a-v5-variety-case';
 const art=heroes as Record<string,{src:string;status:string}>;
 function Scale({value,kind=''}:{value:number;kind?:string}){return <span className={'scale '+kind} aria-label={`${value} out of 5`}>{Array.from({length:5},(_,i)=><i key={i} className={i<value?'on':''}/>)}</span>}
 export function RichVegetablePage(){
@@ -94,14 +96,13 @@ function Sheet({cropKey,units,review}:{cropKey:string;units:'metric'|'imperial';
  <section className="quick"><h2>Quick facts</h2><div className={"fact-grid "+(m.quickFacts.some(f=>f.value.length>110)?"detailed":"")}>{m.quickFacts.map((f,i)=><article key={i}>{image(f.icon)}<div><h3>{f.label}</h3><p>{f.value}</p></div></article>)}</div></section>
  <div className="year-needs">{m.hasCalendar&&<section className="calendar"><h2>Growing calendar</h2><div className="month-row"><b/>{['J','F','M','A','M','J','J','A','S','O','N','D'].map((v,i)=><span key={i}>{v}</span>)}</div>{m.calRows.map(row=><div key={row.label} className={'month-row '+(row.label==='SOW'?'sowing_time':'harvest_time')}><b>{row.label}</b>{Array.from({length:12},(_,i)=><span key={i} className={row.main.has(i)?'usual':row.less.has(i)?'extra':''}/>)}</div>)}<p>Bright: usual months · Muted: less usual</p></section>}
  <section className="needs"><h2>Core needs</h2><small>1 = low · 5 = high</small>{Object.entries(m.coreNeeds??{}).map(([k,v])=><div key={k}>{image(quickFactIconPath(k==='nutrition'?'feeding':k))}<b>{k[0].toUpperCase()+k.slice(1)}</b><Scale value={v} kind={k}/><strong>{v}/5</strong></div>)}</section></div>
- {m.topVarieties.length>0&&<section className={"varieties "+(m.topVarieties.length>6?"many":"")}><h2>Recommended varieties</h2><div>{m.topVarieties.map((v,i)=><article key={i}><small>{v.type}</small><h3>{v.name}</h3><p>{v.short_text||firstSentence(v.text)}</p></article>)}</div></section>}
+ {m.topVarieties.length>0&&<section className={"varieties "+(m.topVarieties.length>6?"many":"")}><h2>Recommended varieties</h2><div>{m.topVarieties.map((v,i)=><article key={i}><small>{v.type}</small><h3>{formatVarietyName(v.name)}</h3><p>{v.short_text||firstSentence(v.text)}</p></article>)}</div></section>}
  {m.keyRisks.length>0&&<section className="key-risks"><h2>Key risks</h2><div style={{gridTemplateColumns:`repeat(${m.keyRisks.length},1fr)`}}>{m.keyRisks.map((r,i)=><article key={i}>{image(getRiskIcon(r.name,cropKey))}<h3>{r.name}</h3><p>{firstSentence(r.text)}</p></article>)}</div></section>}<div className="content-end"/>{footer(1)}</section>
  <section className="sheet back"><header><div className="eyebrow">{m.name} / GROWING GUIDE</div><h1>Growing <span>&amp; harvesting</span></h1>{image(hero,'hero-art')}</header>
  {noteItems.length>0&&<div className="remember" style={m.richFill?{gridTemplateColumns:`repeat(${Math.min(3,noteItems.length)},1fr)`}:undefined}>{noteItems.slice(0,3).map((n,i)=><div key={i}><h3>{n.title}</h3><p>{n.body}</p></div>)}</div>}
  <div className="growing-columns"><div>{prose('Soil & preparation',m.soilItems,'soil')}
- <section className="planting"><h2>{cropKey==='mushroom'?'Establishing the crop':'Sowing & planting'}</h2>{m.planting&&!m.planting.issue?<><div className="stages" style={{gridTemplateColumns:`repeat(${m.planting.steps.length},1fr)`}}>{m.planting.steps.map((s,i)=><article key={s.id}><h3><span>{i+1}</span> {s.title}</h3>{image(s.image)}<p>{s.text}</p></article>)}</div><div className="measurements">{m.planting.measurements.map(v=><span key={v.path}><b>{v.label}</b> {v.value}</span>)}</div>{m.planting.content.supplementary.map(v=><p key={v.id}>{v.text}</p>)}</>:<><p>{m.sowingMethod}</p><div className="measurements">{[['Depth',m.sowingDepth],['Rows',m.sowingRowSpacing],['Final plants',m.sowingPlantSpacing]].filter(([,v])=>v).map(([k,v])=><span key={k}><b>{k}</b> {v}</span>)}</div></>}{sowingNotes.map((s,i)=><p key={i}>{s}</p>)}</section></div>
+ <PlantingSection title={cropKey==='mushroom'?'Establishing the crop':'Sowing & planting'} planting={m.planting} method={m.sowingMethod} fallbackMeasurements={[[m.veg.sowing_and_planting?.depth_label??'Depth',m.sowingDepth],['Rows',m.sowingRowSpacing],['Final plants',m.sowingPlantSpacing]]} notes={sowingNotes}/></div>
  <div>{prose('Looking after the crop',m.careItems,'care')}{prose('Harvesting & storage',m.harvestItems,'harvest')}</div></div>
  {m.troubleEntries.length>0&&<section className="pests"><h2>Pests & diseases</h2><table><thead><tr><th>Problem</th><th>What to look for</th><th>What to do</th></tr></thead><tbody>{m.troubleEntries.map(([k,v],i)=>{const t=v as {signs?:string;control?:string};return <tr key={i}><th>{k}</th><td>{t.signs||firstSentence(rt(v,units))}</td><td>{t.control||''}</td></tr>})}</tbody></table></section>}
  {m.tipItems.length>0&&<section className="tips" style={m.richFill&&m.tipItems.length<3?{gridTemplateColumns:`85px repeat(${m.tipItems.length},1fr)`}:undefined}><h2>Final tips</h2>{m.tipItems.map((t,i)=><div key={i}>{image(pickFinalTipIcon(t,m.itemText(t),i,m.curated.values.final_tips!==undefined))}<p>{m.itemText(t)}</p></div>)}</section>}<div className="content-end"/>{footer(2)}</section></div>;
 }
-

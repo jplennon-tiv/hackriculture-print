@@ -1,0 +1,121 @@
+{
+  "checkedDate": "2026-10-05",
+  "sourceUrl": "https://quote.bookvault.app/",
+  "evidenceType": "Anonymous public calculator read through browser UI; no account, upload or order",
+  "currency": "GBP",
+  "commonInputs": {
+    "binding": "Perfect Bound",
+    "lamination": "Matt",
+    "textStock": "115gsm Coated",
+    "coverStock": "Cover Board (weight not displayed)",
+    "interiorPages": 134,
+    "interiorColour": "Full Colour",
+    "destinationCountry": "United Kingdom",
+    "destinationPostcode": null,
+    "quantity": 1,
+    "retailAvailableDiscountPercent": 20
+  },
+  "quotes": [
+    {
+      "sizeMm": [
+        210,
+        297
+      ],
+      "toner": false,
+      "printCost": 5.25,
+      "royalMailSecondClass": {
+        "delivery": 5.05,
+        "total": 10.3
+      },
+      "lowestDisplayedDelivery": {
+        "service": "Delivery Group (variant unspecified)",
+        "delivery": 4.57,
+        "total": 9.82
+      },
+      "ukPrintTiers": {
+        "1-99": 5.25,
+        "100-249": 5.09,
+        "250-499": 4.99,
+        "500+": 4.73
+      },
+      "greatBritishBookshop": {
+        "rrp": 25.0,
+        "distributionFee": 1.25,
+        "retailerFee": 1.25,
+        "productionCharge": 4.99,
+        "displayedTotalProfit": 17.51
+      }
+    },
+    {
+      "sizeMm": [
+        185,
+        240
+      ],
+      "toner": false,
+      "printCost": 5.25,
+      "royalMailSecondClass": {
+        "delivery": 3.95,
+        "total": 9.2
+      },
+      "ukPrintTiers": {
+        "1-99": 5.25,
+        "100-249": 5.09,
+        "250-499": 4.99,
+        "500+": 4.73
+      },
+      "greatBritishBookshop": [
+        {
+          "rrp": 25.0,
+          "distributionFee": 1.25,
+          "retailerFee": 1.25,
+          "productionCharge": 4.99,
+          "displayedTotalProfit": 17.51
+        },
+        {
+          "rrp": 19.99,
+          "distributionFee": 1.0,
+          "retailerFee": 1.0,
+          "productionCharge": 4.99,
+          "displayedTotalProfit": 13.0
+        }
+      ]
+    },
+    {
+      "sizeMm": [
+        185,
+        240
+      ],
+      "toner": true,
+      "printCost": 6.84,
+      "royalMailSecondClass": {
+        "delivery": 3.95,
+        "total": 10.79
+      },
+      "ukPrintTiers": {
+        "1-99": 6.84,
+        "100-249": 6.63,
+        "250-499": 6.5,
+        "500+": 6.16
+      },
+      "greatBritishBookshop": {
+        "rrp": 19.99,
+        "distributionFee": 1.0,
+        "retailerFee": 1.0,
+        "productionCharge": 6.5,
+        "displayedTotalProfit": 11.49
+      }
+    }
+  ],
+  "freePlanSetupDisplayedExLocalTax": 16.63,
+  "limitations": [
+    "Website estimates, not accepted quotes. No printed proof has been inspected.",
+    "Delivery prices are direct Bookvault fulfilment estimates, not The Great British Bookshop retail checkout charges.",
+    "No postcode supplied. Service eligibility, tax treatment and final order totals require confirmation.",
+    "Retail calculator labels receipt Total Profit; it is not net profit after setup, advertising, tax, returns or other costs.",
+    "Retail production charge differs from direct print price; retain the displayed route-specific values.",
+    "20% available discount selected; displayed shop fees were 5% distribution plus 5% retailer. Promotions can change deductions.",
+    "Size-change initially raised a transient minimum-width validation notice while one dimension was blank; the valid 185 x 240 custom size was then selected, Summary refreshed and quote results reloaded. Shipping and retail results were separately refreshed.",
+    "Bookvault suggests a non-toner proof first unless very high ink coverage/dark solid backgrounds require toner. Quality equivalence to KDP colour tiers is unverified.",
+    "Actual shop postage and the full customer checkout total remain unverified."
+  ]
+}

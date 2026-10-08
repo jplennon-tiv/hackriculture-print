@@ -1,0 +1,73 @@
+/* Isolated publication study. Never imported by the production application. */
+body{margin:0;background:#dce2dc}
+body .sheet{--inside:15mm;--outside:10mm;--left:var(--inside);--right:var(--outside);width:var(--trim-width)!important;height:var(--trim-height)!important;padding:0 var(--right) 0 var(--left)!important;margin:0!important;overflow:hidden!important;break-after:page!important}
+body .sheet.verso{--left:var(--outside);--right:var(--inside)}
+body .sheet footer{left:var(--left)!important;right:var(--right)!important;bottom:10mm!important;font-size:8px!important}
+body .sheet footer span:last-child{text-align:right}
+body .sheet:last-child{break-after:auto!important}
+.rich-print .front>header{margin-left:calc(-1 * var(--left));margin-right:calc(-1 * var(--right));height:200px!important}
+.rich-print .front header>.eyebrow{left:var(--left);top:10mm}
+.rich-print .front h1{left:var(--left)!important;top:55px!important;font-size:86px!important;transform:none;letter-spacing:-2px}
+.rich-print .header-details{left:var(--left);width:calc(100% - var(--left) - var(--right));bottom:2px;grid-template-columns:175px 1fr;gap:8px}
+.rich-print .header-difficulty{transform:none!important;width:150px;height:54px}
+.rich-print .header-seasons{transform:none!important;padding:0}
+.rich-print .header-seasons b{font-size:15px}
+.rich-print .header-seasons small{font-size:10px}
+.rich-print .season-symbols img{width:26px;height:26px}
+.rich-print .header-art{left:0;right:0;width:auto;height:180px}
+.rich-print .peach{width:310px;height:260px;right:-100px;top:-110px}
+.rich-print .front .hero-art{width:170px;height:230px;top:-60px;right:-4px}
+.rich-print .intro,.rich-print .quick,.rich-print .year-needs,.rich-print .varieties,.rich-print .key-risks,.rich-print .pests{margin-top:10px!important}
+.rich-print .varieties{margin-left:0!important;margin-right:0!important;padding:10px 12px!important;border-radius:10px}
+.rich-print .back>header{height:108px!important;padding-top:10mm!important}
+.rich-print .back h1{font-size:38px!important;margin-top:8px!important;letter-spacing:-.7px}
+.rich-print .growing-columns{gap:20px;margin-top:12px!important}
+.rich-print .growing-columns li{margin-bottom:6px!important}
+.a4-study .rich-print .growing-columns li{margin-bottom:2.5px!important}
+.a4-study .rich-print .fact-grid article{padding-top:5px!important}
+.a4-study .rich-print .quick,.a4-study .rich-print .year-needs,.a4-study .rich-print .key-risks{margin-top:8px!important}
+.a4-study .rich-print .planting{padding:10px!important;margin-top:10px!important}
+.a4-study .rich-print .planting>p{margin-top:5px!important}
+.a4-study .rich-print .measurements{margin-top:8px;padding-top:6px;gap:3px}
+.a4-study .rich-print .harvest{margin-top:10px!important}
+.a4-study .rich-print .pests td,.a4-study .rich-print .pests th{padding-top:2.5px!important;padding-bottom:2.5px!important}
+.rich-print .fact-grid.detailed article:nth-child(n+5) h3{display:inline;margin-right:5px}
+.rich-print .fact-grid.detailed article:nth-child(n+5) p{display:inline;margin-top:0}
+.a4-study .rich-print .varieties>div{grid-template-columns:repeat(6,1fr);row-gap:8px}
+.a4-study .rich-print .varieties article{grid-column:span 2}
+.a4-study .rich-print .varieties article:nth-child(n+4){grid-column:span 3}
+.rich-print .pests tbody tr{height:auto!important}
+.rich-print .pests td,.rich-print .pests th{padding-top:3px!important;padding-bottom:3px!important}
+.rich-print .year-needs{gap:16px;grid-template-columns:1.28fr 1fr}
+.rich-print .needs>div{grid-template-columns:25px 1fr 67px 24px;gap:5px}
+.rich-print .needs .scale{gap:3px}
+.rich-print .needs .scale i{width:11px;height:11px}
+.rich-print .calendar{padding:10px 12px!important}
+.rich-print .calendar h2{font-size:23px}
+.rich-print .month-row{gap:3px;grid-template-columns:36px repeat(12,1fr)}
+.rich-print .needs h2{font-size:23px}
+.rich-print .back>.tips{margin-top:10px!important}
+.editorial-trouble header{padding-top:10mm;min-height:190px;padding-bottom:42px}
+.editorial-trouble h1{font-size:47px;margin-top:16px;max-width:85%}
+.editorial-trouble .ribbon{top:10mm;font-size:18px}
+.editorial-trouble .intro{margin-top:12px}
+.editorial-trouble .columns{gap:22px}
+.editorial-trouble .continuation header{height:140px;min-height:140px;padding-bottom:0}
+.editorial-trouble .continuation h1{font-size:31px;max-width:80%}
+.editorial-trouble .continuation .ribbon{top:10mm}
+.editorial-trouble .entry{margin-bottom:16px}
+.editorial-trouble .continuation .entry{margin-bottom:16px}
+/* Preserve original 160 x 180/190 px diagnostic slots and 12 px advice. */
+.compact-study .rich-print .fact-grid{grid-template-columns:repeat(4,1fr);gap:9px 12px}
+.compact-study .rich-print .fact-grid article{grid-template-columns:24px 1fr;gap:5px}
+.compact-study .rich-print .fact-grid img{width:24px}
+.compact-study .rich-print .year-needs{grid-template-columns:1fr 1fr;gap:12px}
+.compact-study .rich-print .needs>small{float:right;margin-top:8px}
+.compact-study .rich-print .needs>div{margin-top:7px}
+.compact-study .rich-print .calendar{align-self:start}
+.compact-study .rich-print .key-risks>div{grid-template-columns:repeat(4,1fr)!important;gap:12px}
+.compact-study .rich-print .key-risks h3{min-height:35px}
+.compact-study .rich-print .reference .varieties>div{grid-template-columns:repeat(3,1fr)}
+.compact-study .rich-print .reference .varieties{margin-top:0!important}
+.compact-study .rich-print .back>.tips{grid-template-columns:85px repeat(2,1fr)!important}
+@media print{body{background:white}.sheet{box-shadow:none}}

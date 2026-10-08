@@ -1,0 +1,129 @@
+/* Compact book proposal only. Never imported by the live A4 application. */
+body{margin:0;background:#e1e7dc}
+body .sheet{--inside:15mm;--outside:10mm;--left:var(--inside);--right:var(--outside);width:185mm!important;height:240mm!important;padding:0 var(--right) 0 var(--left)!important;margin:0!important;overflow:hidden!important;break-after:page!important}
+body .sheet.verso{--left:var(--outside);--right:var(--inside)}
+body .sheet footer{left:var(--left)!important;right:var(--right)!important;bottom:8mm!important;font-size:8px!important;line-height:1.2}
+body .sheet.verso footer{flex-direction:row-reverse}
+body .sheet:last-child{break-after:auto!important}
+.rich-print{font-size:12px;line-height:1.26}
+.rich-print h2{font-size:21px;line-height:1.08}
+.rich-print .peach{width:300px;height:300px;right:2px;top:-112px;border-radius:50%;transform:none}
+.rich-print .header-details{left:0;bottom:0;width:100%;height:100%;display:block;pointer-events:none}
+.rich-print .header-difficulty strong{font-size:17px}
+.rich-print .header-seasons{position:absolute;left:190px;top:12px;bottom:auto;transform:none!important;padding:0;display:block;width:220px}
+.rich-print .header-seasons small{font-size:8px;margin-bottom:1px;display:block}
+.rich-print .header-seasons b{font-size:12px;display:block}
+.rich-print .header-seasons>div:last-child{padding-top:28px}
+.rich-print .season-symbols{position:absolute;left:0;top:0;gap:6px}
+.rich-print .season-symbols img{width:22px;height:22px}
+.rich-print .quick h2{margin-bottom:6px}
+.rich-print .fact-grid article{grid-template-columns:23px 1fr;gap:5px;padding-top:5px!important;border-top:1px solid #d5dac4}
+.rich-print .fact-grid img{width:23px;height:25px}
+.rich-print .fact-grid h3{font-size:10px;line-height:1.15;letter-spacing:0}
+.rich-print .fact-grid p{font-size:12px;line-height:1.24;margin-top:2px}
+.rich-print .fact-grid.detailed article:nth-child(n+5){grid-column:span 2}
+.rich-print .fact-grid.detailed article:nth-child(n+5) h3{display:inline;margin-right:5px}
+.rich-print .fact-grid.detailed article:nth-child(n+5) p{display:inline;margin:0}
+.rich-print .calendar{padding:10px 11px!important;border-radius:12px 20px 12px 16px}
+.rich-print .calendar h2{font-size:21px;margin-bottom:5px!important}
+.rich-print .month-row{grid-template-columns:43px repeat(12,1fr);gap:2px;margin-top:4px}
+.rich-print .month-row span{height:11px}
+.rich-print .calendar p{margin-top:6px;font-size:9px}
+.rich-print .needs{padding-top:0}
+.rich-print .needs h2{font-size:21px}
+.rich-print .needs>small{font-size:9px;margin-top:5px}
+.rich-print .needs>div{margin-top:5px!important;grid-template-columns:25px 1fr 65px 22px;gap:5px}
+.rich-print .needs img{width:25px;height:25px}
+.rich-print .needs .scale{gap:3px}
+.rich-print .needs .scale i{width:10px;height:10px}
+.rich-print .needs b,.rich-print .needs strong{font-size:11px}
+.rich-print .varieties>div{grid-template-columns:repeat(6,1fr);gap:8px 16px;margin-top:6px!important}
+.rich-print .varieties article{grid-column:span 2}
+.rich-print .varieties article:nth-child(n+4){grid-column:span 3}
+.rich-print .varieties small{font-size:8.5px;line-height:1.1;letter-spacing:.1px}
+.rich-print .varieties h3{font-size:17px;margin-top:2px;line-height:1.05}
+.rich-print .varieties p{font-size:11.5px;line-height:1.23;margin-top:3px}
+.rich-print .key-risks h2{font-size:21px}
+.rich-print .key-risks>div{gap:12px;margin-top:6px}
+.rich-print .key-risks h3{font-size:14px;min-height:32px;line-height:1.08}
+.rich-print .key-risks img{width:28px;height:28px;margin:0 5px 2px 0}
+.rich-print .key-risks p{font-size:11px;line-height:1.23;margin-top:4px}
+.rich-print .back .eyebrow{font-size:9px}
+.rich-print .remember{padding:7px 10px!important;gap:12px;border-radius:10px 20px 12px 16px}
+.rich-print .remember h3{font-size:15px;line-height:1.1}
+.rich-print .remember p{font-size:11px;line-height:1.23;margin-top:3px}
+.rich-print .growing-columns h2{font-size:21px}
+.rich-print .growing-columns ol{margin-top:6px!important;padding-left:16px}
+.rich-print .planting{margin-top:8px!important;padding:6px 10px!important;border-radius:10px 20px 12px 16px}
+.rich-print .planting h2{font-size:21px}
+.rich-print .stages{margin-top:5px;gap:9px}
+.rich-print .stages h3{font-size:13px;line-height:1.08}
+.rich-print .stages img{height:62px}
+.rich-print .stages p{font-size:10.5px;line-height:1.22}
+.rich-print .measurements{margin-top:5px;padding-top:4px;gap:3px;font-size:10.5px;line-height:1.23}
+.rich-print .planting>p{font-size:11px;line-height:1.25;margin-top:4px!important}
+.rich-print .harvest{margin-top:10px!important}
+.rich-print .pests h2{font-size:21px;margin-bottom:6px}
+.rich-print .pests table{font-size:11px;line-height:1.23}
+.rich-print .pests tr{height:auto!important}
+.rich-print .pests th:first-child{width:24%}
+.rich-print .pests th:nth-child(2){width:26%}
+.rich-print .back>.tips h2{font-size:21px}
+.rich-print .back>.tips p{font-size:11px;line-height:1.23}
+.rich-print .back>.tips>div{grid-template-columns:23px 1fr;gap:6px}
+.rich-print .tips img{width:23px;height:23px}
+/* Book diagnostic study: natural two-column entries and wrapping artwork. */
+.editorial-trouble header{padding-top:26px;min-height:0;height:auto;padding-bottom:30px}
+.editorial-trouble header>.eyebrow{display:none}
+.editorial-trouble h1{font-size:34px;line-height:1.06;margin-top:0;max-width:80%;letter-spacing:-.5px}
+.editorial-trouble .ribbon{top:26px;font-size:16px;padding:6px 10px 8px}
+.editorial-trouble .intro{margin-top:9px;line-height:1.25;white-space:normal}
+.editorial-trouble .navigation{bottom:8px;font-size:9px}
+.editorial-trouble .columns{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.editorial-trouble .column{display:block;min-width:0}
+.editorial-trouble .entry{display:flow-root;padding-top:7px;margin-bottom:8px;line-height:1.25}
+/* After packing, share spare height between entries to level the column ends. */
+.editorial-trouble .columns.align-ends .column{display:flex;flex-direction:column;justify-content:space-between}
+.editorial-trouble .columns.align-ends .entry{flex-shrink:0}
+.editorial-trouble .diagnostic{float:right;width:108px;height:126px;object-fit:contain;margin:2px 0 5px 8px;shape-outside:margin-box}
+.editorial-trouble .crops{margin:0 0 2px;font-size:8.5px}
+.editorial-trouble h2{font-size:20px;margin-bottom:5px}
+.editorial-trouble .symptom{margin-bottom:5px;font-size:10px}
+.editorial-trouble .advice section{margin-top:5px}
+.editorial-trouble .advice p{font-size:12px;line-height:1.25}
+.editorial-trouble .advice h3{font-size:8px;letter-spacing:.2px;margin-right:4px}
+.editorial-trouble .continuation header{height:80px;min-height:80px;padding-bottom:0}
+.editorial-trouble .continuation h1{font-size:29px;margin-top:0}
+.editorial-trouble .continuation .ribbon{top:26px}
+.editorial-trouble .continuation .entry{margin-bottom:8px}
+.editorial-trouble .continuation .diagnostic{width:108px;height:126px}
+@media print{body{background:white}.sheet{box-shadow:none}}
+/* Compact-book typography. Source-checked summaries live in page-two-copy.mjs;
+   the top reminders return and three repeated measurements remain in Quick Facts. */
+.rich-print .front>header{height:124px!important;margin:0!important;overflow:visible}
+.rich-print .front header>.eyebrow{left:0;top:22px;font-size:9px}
+.rich-print .front h1{left:-2px!important;top:38px!important;font-size:76px!important;transform:rotate(-4deg);transform-origin:left center;letter-spacing:-2px}
+.rich-print .header-art{left:0;right:calc(-1 * var(--right));width:auto;height:124px}
+.rich-print .back h1{font-size:38px!important;line-height:1.05;margin-top:0!important;letter-spacing:-.5px}
+.rich-print .header-difficulty{position:absolute;left:auto;right:calc(14px - var(--right));top:12px;transform:rotate(-3deg)!important;width:138px;height:49px;box-shadow:2px 3px 0 var(--ink)}
+.rich-print .intro{margin:8px 0 0!important;font-size:12px;line-height:1.27;margin-top:6px!important}
+.rich-print .quick{margin:11px 0 0!important;margin-top:7px!important}
+.rich-print .year-needs{margin:10px 0 0!important;gap:18px;grid-template-columns:1.18fr 1fr;align-items:start;margin-top:7px!important}
+.rich-print .varieties{margin:11px 0 0!important;padding:10px 12px!important;border-radius:10px 20px 12px 16px;margin-top:7px!important;padding-top:8px!important;padding-bottom:8px!important}
+.rich-print .key-risks{margin:11px 0 0!important;margin-top:7px!important}
+.rich-print .fact-grid{grid-template-columns:1fr 1fr;gap:16px}
+.rich-print .fact-column{display:grid;grid-template-columns:1fr 1fr;gap:6px 12px;align-content:start}
+.rich-print .fact-column:last-child{grid-template-columns:1fr}
+.rich-print .fact-column article{grid-column:auto!important}
+.rich-print .fact-column article h3{display:block!important}
+.rich-print .fact-column article p{display:block!important;margin-top:2px!important}
+.rich-print .fact-column:last-child article p{display:inline!important;margin-top:0!important}
+.rich-print .back>header{height:72px!important;padding:30px 0 0!important;padding-top:24px!important}
+.rich-print .growing-columns{margin:6px 0 0!important;gap:18px}
+.rich-print .growing-columns li{font-size:12px;line-height:1.24;padding-left:1px;margin-bottom:3px!important}
+.rich-print .pests{margin:10px 0 0!important;margin-top:8px!important}
+.rich-print .back>.tips{margin:10px 0 0!important;padding:8px 10px!important;grid-template-columns:95px repeat(2,1fr)!important;gap:9px;border-radius:10px 20px 12px 16px;padding-top:6px!important;padding-bottom:6px!important;margin-top:8px!important}
+.rich-print .pests th,.rich-print .pests td{padding:3px 6px!important;padding-top:2px!important;padding-bottom:2px!important}
+.rich-print .fact-column:last-child article h3{display:inline!important;margin-right:5px}
+.rich-print .front .hero-art{width:285px;height:340px;top:-80px;right:-12px;transform:rotate(16deg)}
+.rich-print .back .hero-art{width:78px;height:66px;top:2px;right:2px;transform:none}

@@ -1,0 +1,567 @@
+{
+  "version": 1,
+  "status": "rough_bookvault_progress_preview_ready_for_john",
+  "documentRole": "Technical progress and evidence ledger. Current project scope, decisions and next actions are in docs/handover/START-HERE.md; historical checkpoints and the original automation brief are not a current work queue.",
+  "currentGuidance": "docs/handover/START-HERE.md",
+  "automationStatus": "PAUSED",
+  "historicalFieldScope": {
+    "fields": [
+      "authorisedAtUtc",
+      "deadlineUtc",
+      "deadlineLocal",
+      "schedule",
+      "knownStartingLimits",
+      "interiorCheckpoint",
+      "interiorBaseline",
+      "completionReport"
+    ],
+    "meaning": "Evidence of the completed 5\u20136 October unattended preparation. The original deadline remains because the old runner reads it; do not infer an active schedule or restart it. Later coverage supersedes initial limitations. Completion means the initial review pack, not publication or the revised cover/openings.",
+    "browserAccess": "Last observed access only. Reinspect before any authorised account operation; do not assume login persists."
+  },
+  "authorisedAtUtc": "2026-10-05T22:50:03Z",
+  "deadlineUtc": "2026-10-06T18:00:00Z",
+  "deadlineLocal": "6 October 2026, 19:00 Europe/London",
+  "automationId": "prepare-compact-book-proof",
+  "brief": "Current technical ledger for the compact non-waterproof POD book. Initial unattended preparation is complete and paused. Working price/service: GBP 17.50 and Bookvault. John selected direct Great British Bookshop links for launch on 7 October, with most buyers expected from hackriculture YouTube; Shopify deferred. Stock remains unconfirmed. Latest title/subtitle selected on 7 October: The Vegetable Guru / Your at-a-glance growing companion. John removed the 44/14 front-cover footer; guide counts remain unchanged. C1/C2 Cover C adaptations rejected. G2 Cream centre selected by John. B1\u2013B3 back-cover ideas rejected. Keep B2 dark green and replace explanatory widgets with angled torn-page fragments that suggest the contents. B5 Off-centre collage is now the preferred back-cover direction alongside selected G2. Exact page crops and editable cover text remain for production. Cover C is a colour/style reference only. Compact contents/how-to approved by John on 7 October; title/publication/introduction remain pending. See handover for current actions.",
+  "format": "Compact Book v1, 185 x 240 mm; preserve the approved design and frozen reference proofs",
+  "scope": {
+    "vegetables": 44,
+    "troubleGroups": 14,
+    "units": [
+      "imperial",
+      "metric"
+    ],
+    "retailTarget": "Working cover price GBP 17.50, customer shipping separate. Bookvault is the working service choice; final stock/page count and fees remain to be confirmed."
+  },
+  "queue": [
+    {
+      "id": "interior",
+      "status": "draft_ready",
+      "task": "Review the prepared both-unit collection against approved compact sources and recorded exceptions; make only justified requested changes. Preserve content, artwork and source-linked working copy.",
+      "remaining": "John\u2019s full-collection and four-blank facing-spread review; final production changes depend on chosen supplier/stock. Both unit editions and supplier geometries are prepared."
+    },
+    {
+      "id": "opening_pages",
+      "status": "rough_imperial_preview_ready",
+      "task": "Review pages 1\u20137 and the H1/H2, H5/H6, H3/S1 artwork allocation in the rough Bookvault progress preview. Agree final copy and metadata before affected production proofs.",
+      "evidence": [
+        "book-preparation/OPENING-CHECKS.json",
+        "book-preparation/PDF-OPENINGS.json",
+        "book-preparation/VISUAL-PRODUCTION.json",
+        "vegetable-guru-entry-pages/CHECKS.json",
+        "vegetable-guru-entry-pages/PDF-CHECKS.json",
+        "vegetable-guru-opening-pages/CHECKS.json",
+        "vegetable-guru-opening-pages/PDF-CHECKS.json",
+        "../assets/vegetable-guru-stock/ARTWORK.json",
+        "bookvault-progress-preview/CHECKS.json"
+      ],
+      "remaining": "Opening design/copy and artwork allocation await review. Approved compact pages and prior PDFs remain unchanged; a separate imperial screen preview now combines the latest openings and covers with the saved full interior. Metric integration and production wrap remain pending."
+    },
+    {
+      "id": "covers",
+      "status": "g2_selected_b5_preferred",
+      "task": "Refine preferred B5 Off-centre collage alongside selected G2 front: dark green ground, left-hand blurb and angled torn-page fragments on the right. Keep requested title/count subtitle, GBP 17.50 and reserved ISBN panel; explanation belongs inside.",
+      "evidence": [
+        "book-preparation/COVER-CHECKS.json",
+        "cover-c-compact/CHECKS.json",
+        "vegetable-guru-cover-sketches/ARTWORK.json",
+        "vegetable-guru-grid-variations/ARTWORK.json",
+        "vegetable-guru-back-cover/CHECKS.json",
+        "vegetable-guru-back-collage/ARTWORK.json"
+      ],
+      "remaining": "Rebuild B5 with exact page crops and editable cover typography. Final blurb, ISBN, stock-dependent wrap and Bookvault spine discrepancy remain unresolved."
+    },
+    {
+      "id": "pod_trial",
+      "status": "local_drafts_ready_awaiting_decisions",
+      "task": "Plan production preflight around Bookvault using dated evidence, refreshing costs when stock/pagination changes. Confirm metadata and suitable files before authorised account operations. The prior KDP trial remains a fallback, not a current instruction to create a parallel title.",
+      "evidence": [
+        "book-preparation/POD-PREFLIGHT.json",
+        "book-preparation/DRAFT-METADATA.json"
+      ],
+      "remaining": "Current custom-trim eligibility, requirements and148-page calculator estimates verified; four separate flattened interiors prepared and checked. Title/author/rights/ISBN/stock choices, fine icon detail, final colour/PDF preflight and cover wrap remain before account setup/upload. No Previewer or physical proof yet."
+    },
+    {
+      "id": "review_pack",
+      "status": "under_john_review",
+      "task": "Maintain the existing review index and technical evidence as John reviews and revisions are prepared; preserve the distinction between approved sources, current drafts and unselected studies.",
+      "evidence": [
+        "book-preparation/REVIEW.html"
+      ],
+      "remaining": "Review opening-page placements with the revised hero-style stock, then affected proofs. Settle final copy and metadata when requested. Later refine B5 beside G2 and review the collection and publishing decisions."
+    }
+  ],
+  "browserAccess": {
+    "checkedAtUtc": "2026-10-06T01:29:59.533Z",
+    "browser": "iab",
+    "observedTabId": "8",
+    "url": "https://kdp.amazon.com/en_US/bookshelf",
+    "status": "KDP bookshelf signed in on read-only check. Public KDP and Bookvault calculator inputs refreshed at 180 pages. Bookvault templates downloaded anonymously; no account/title/upload/order action.",
+    "existingGardeningDraft": "The Practical Gardener, Kindle eBook draft, last modified November 2024; not assumed to be this edition or an approved print title",
+    "changesMade": "No account/title changes. Read bookshelf and used public non-binding calculator only.",
+    "calculatorCheckAtUtc": "2026-10-06T09:37:16.875136+00:00",
+    "latestCalculatorStatus": "Public KDP and Bookvault estimates successfully refreshed to148 pages. No account mutation. Subsequent read-only KDP bookshelf tab reselection timed out; existing-title/login state not reverified this run.",
+    "reviewIndexPreview": "10:00 UTC run: built-in browser rejected file:// local review-index navigation by security policy. No alternate browser/HTTP workaround attempted; local links and actual PDF rasters checked independently. This does not indicate a KDP login failure."
+  },
+  "constraints": [
+    "Preserve existing user edits, canonical gardening data and frozen design references. Use separate working drafts. No source advice deletion to force a fixed page count.",
+    "No subagents. Follow repository instructions and relevant skills. Use start.command and loopback; never save credentials or session tokens in project files.",
+    "No purchases, fees, proof orders, final proof approval, publication, distribution activation, rights declarations on John's behalf or commitments. Do not allocate an ISBN or accept new contractual terms unattended.",
+    "Leave existing KDP titles and the earlier Kindle draft untouched. Verify project-specific drafts before creating one; record any new draft identity and uploaded-file hashes to avoid duplicate or uncertain retries.",
+    "If login/MFA/CAPTCHA or an unanswered publishing decision blocks KDP work, save the limitation and continue independent local work; do not claim the browser stayed accessible.",
+    "Waterproof quote automation remains paused. No supplier mail or renewed waterproof outreach under this task.",
+    "Update the technical checkpoint after each manageable authorised batch and keep current actions in the handover. The original unattended deadline/schedule is historical; both automations remain paused. Do not claim checks that did not occur or restart work from old pending items."
+  ],
+  "lastCompletedStep": "Recorded John\u2019s preference for B5 Off-centre collage alongside selected G2, verified its source hash and updated current guidance/gallery. No artwork generation, interior export or account changes.",
+  "reviewIndex": "book-preparation/REVIEW.html",
+  "evidence": [
+    "BOOK-GENERATOR-CHECKS.json",
+    "book-pilot/DESIGN-APPROVAL.json",
+    "book-preparation/INTERIOR-CHECKS.json",
+    "book-preparation/PDF-CHECKS.json",
+    "book-preparation/VISUAL-REVIEW.json",
+    "book-preparation/POD-PREFLIGHT.json",
+    "book-preparation/PRODUCTION-KDP.json",
+    "book-preparation/PDF-KDP.json",
+    "book-preparation/PRODUCTION-BOOKVAULT.json",
+    "book-preparation/PDF-BOOKVAULT.json",
+    "book-preparation/OPENING-CHECKS.json",
+    "book-preparation/PDF-OPENINGS.json",
+    "book-preparation/ASSEMBLY-PLAN.json",
+    "book-preparation/ASSEMBLY-CHECKS.json",
+    "book-preparation/ASSEMBLY-RASTER-CHECKS.json",
+    "book-preparation/VISUAL-PRODUCTION.json",
+    "book-preparation/DRAFT-METADATA.json",
+    "book-preparation/COVER-CHECKS.json",
+    "book-preparation/BOOKVAULT-ADAPTATION.json",
+    "book-preparation/ASSEMBLY-PLAN-BOOKVAULT.json",
+    "book-preparation/ASSEMBLY-CHECKS-BOOKVAULT.json",
+    "book-preparation/ASSEMBLY-RASTER-CHECKS-BOOKVAULT.json",
+    "book-preparation/OPENING-CHECKS-BOOKVAULT.json",
+    "book-preparation/PDF-OPENINGS-BOOKVAULT.json",
+    "book-preparation/STROKE-AUDIT-KDP.json",
+    "book-preparation/FLATTENED-KDP.json",
+    "book-preparation/FLATTENED-BOOKVAULT.json",
+    "book-preparation/FLATTENED-VISUAL.json",
+    "book-preparation/REVIEW.html",
+    "book-preparation/ASSEMBLY-FLATTENED-KDP.json",
+    "book-preparation/FLATTENED-ASSEMBLY-CHECKS-KDP.json",
+    "book-preparation/FLATTENED-ASSEMBLY-VISUAL.json",
+    "book-preparation/ASSEMBLY-FLATTENED-BOOKVAULT.json",
+    "book-preparation/FLATTENED-ASSEMBLY-CHECKS-BOOKVAULT.json"
+  ],
+  "knownStartingLimits": [
+    "Only Kale, Onions/Shallots and full Carrot/Parsnip Troubles currently have live compact PDF checks in both units.",
+    "Compact batch currently exports individual guide proofs without new opening pages or final book folios. Old 134-page cost examples are not a measured compact book count.",
+    "Current Chromium PDF MediaBoxes round slightly below the exact requested trim; supplier-ready geometry still needs verification.",
+    "No new paid proof, title setup or upload has occurred."
+  ],
+  "schedule": "Hourly resumptions at the hour; first due 6 October 2026 at 00:00 Europe/London; expires 6 October 2026 at 19:00 Europe/London; stop earlier if complete.",
+  "interiorCheckpoint": {
+    "updatedAt": "2026-10-06T09:19:46.595Z",
+    "receipt": "book-preparation/PRODUCTION-BOOKVAULT.json",
+    "signature": "3a81ceb9fe70d11a32cf536f988bcd2fc976cf38b4d055457b4e14d65639f137",
+    "ok": 116
+  },
+  "lastRunCompletedUtc": "2026-10-06T10:58:06.494148+00:00",
+  "interiorBaseline": {
+    "scope": "Guide proofs only, before opening pages, production typography, bleed and final parity/folios",
+    "savedSuccessfulPdfs": 116,
+    "exportErrors": 0,
+    "warnings": 0,
+    "editions": [
+      {
+        "units": "imperial",
+        "vegetableGuides": 44,
+        "troubleGroups": 14,
+        "vegetablePages": 129,
+        "troublePages": 45,
+        "troubleConditionCount": 220,
+        "guidePages": 174
+      },
+      {
+        "units": "metric",
+        "vegetableGuides": 44,
+        "troubleGroups": 14,
+        "vegetablePages": 131,
+        "troublePages": 45,
+        "troubleConditionCount": 220,
+        "guidePages": 176
+      }
+    ],
+    "partialVisualPages": 38,
+    "versionNote": "Vegetables were exported after variety/tip/section-flow fixes; the final subsequent renderer change affected Troubles alignment and footer checks only. Receipts retain per-file implementation signatures. Do not label all 116 as one final production build."
+  },
+  "nextRunPriorities": [
+    "Read docs/handover/START-HERE.md for current scope and ordered next actions. Both automations remain paused; there is no scheduled next run.",
+    "John\u2019s working price/service choices are GBP 17.50 and Bookvault. Follow the handover for title/cover and opening-copy decisions before a detailed design run; stock/process still need proof evaluation. No new render/design batch requested by this decision.",
+    "Use this ledger for exact coverage and evidence, not old completed tasks or historical pending items. Refresh contents, folios, costs and wrap calculations after page/order changes.",
+    "Preserve existing KDP titles. Account trials remain conditional on suitable files and confirmed metadata; publication, orders, fees, rights declarations, ISBN allocation and contractual acceptance are not authorised."
+  ],
+  "codeChecks": {
+    "typescript": "09:00 UTC run: npx tsc -b passed after Bookvault renderer/safety changes.",
+    "focusedTests": "09:00 UTC run: 13 focused compactPdf/pdfPlanting/pdfPlugin tests passed. Full current both-unit Bookvault PDFs verify supplier margin/safety changes.",
+    "gitDiffCheck": "10:00 UTC run completion: git diff --check passed. Four Python scripts parsed,11 current JSON documents parsed,34 state evidence paths and25 local review-index links checked. All52 frozen reference hashes and canonical revision reverified unchanged.",
+    "frozenReferences": "10:00 UTC run: all52 frozen compact reference file/asset hashes reverified unchanged.",
+    "canonicalData": "10:00 UTC run: shared revision recomputed and matches f15430f54b6011a7c68ea5b9448a091277f368a362a1df006172addc6d8bde64. No canonical write.",
+    "normalisation": "Recovered one local macOS stdin pipe stall without losing the prior PDF. Runner now supplies a regular-file stdin and a 60-second timeout; successful repeated both-unit exports verify recovery. No outstanding export error.",
+    "runnerSyntax": "09:00 UTC: node syntax checks for planning/opening scripts and Python AST checks for assembler/PDF checker/stroke auditor passed.",
+    "localExportRecovery": "One export met a routine Vite restart and failed before rendering; after restart completed, the guarded retry succeeded. All current 116 guide records are ok with no warnings. No unresolved export error.",
+    "receiptAudit": "Saved KDP 116-guide build and all 288 current content-page visual receipts remain intact. All 116 Bookvault guides and both openings passed physical checks and are hash-bound to their separate 148-page assemblies. Eight Bookvault assembly sample rasters are pixel-identical to source; all eight viewed.",
+    "focusedPaginationTests": "Three compact-pagination tests passed in 08:00 UTC run, covering 2/3/4-page vegetables, continuous Troubles and invalid page counts.",
+    "assemblyRecovery": "Blank-page stream serialisation fault caught by Poppler and fixed using indirect Contents; assembler now writes atomically, reopens and parses every page stream, rechecks folios and geometry before replacement. Current both-unit outputs pass; eight raster comparisons pass.",
+    "derivativeAssemblyRecovery": "Optional pypdf deduplication hit its decompression limit; flattened assembly retains verified encoded streams without disabling the guard. All four resulting assemblies pass. Blank-page check accounts for a single raster edge pixel and separately verifies exact solid-fill operations. No outstanding batch failure.",
+    "pythonDerivativePipeline": "Four maintained Python scripts parse. All236 derivative PDFs/576 content pages pass text/font/colour/geometry/transparency and raster-difference checks; four148-page assemblies pass all-page checks and16 sampled raster comparisons. Transparent/clipping-text guard tests preserved existing destinations. No TypeScript changes in this run.",
+    "cleanup": "Removed only two recovered failed-flattening scratch folders after verifying successful replacement PDF hashes. Original review PDFs and referenced diagnostics retained.",
+    "reviewIndex": "HTML parsed with valid internal anchors,25 existing local targets and alt text for all five displayed images. Built-in file:// preview was blocked; no workaround or rendered-index claim. Current actual PDF samples were viewed."
+  },
+  "localServer": "Owned temporary start.command session 11163 stopped after the 09:00 UTC batch. Start through start.command when exports are next required; do not assume a server persists.",
+  "currentProduction": {
+    "guidePdfCount": 116,
+    "guideExportErrors": 0,
+    "guideWarnings": 0,
+    "vegetablePagesPerEdition": 92,
+    "troublePagesPerEdition": 45,
+    "conditionsPerEdition": 220,
+    "openingPagesPerEdition": 7,
+    "terminalBlankPagesPerEdition": 0,
+    "assembledPagesPerEdition": 148,
+    "paginationStatus": "Coherent 148-page KDP review assembly in each unit: 92 vegetable +45 Troubles +7 current openings +4 unprinted facing-page blanks. All vegetable opening pairs face; John has not approved the blank-page policy.",
+    "minimumGuideTypePt": 7.0425,
+    "imageResolutionCandidates": 0,
+    "visualReviewPages": 288,
+    "assembly": [
+      {
+        "units": "imperial",
+        "pdf": "output/pdf/book-preparation/compact-book-imperial-review.pdf",
+        "sha256": "4442665d1ac0e9e2152de751d2fb5a8f4e008aa84ae0bf5ba5c5f19f3d03bb74",
+        "bytes": 565948234,
+        "pages": 148
+      },
+      {
+        "units": "metric",
+        "pdf": "output/pdf/book-preparation/compact-book-metric-review.pdf",
+        "sha256": "6f35393e2a2e98a24110381df9f3b1e9a82d909769e92ac0995e7c68d80738f0",
+        "bytes": 565943774,
+        "pages": 148
+      }
+    ],
+    "losslessOptimisation": "Every reencoded image stream round-tripped byte-for-byte. Eight current assembled sample rasters pixel-identical to source PDFs; no resampling or colour conversion.",
+    "editorialDrafts": "42 source-linked working crop drafts plus approved Kale and retained Onion/Shallots methods. Main advice remains 9 pt, approved artwork sizes retained; canonical records unchanged.",
+    "assemblyStatus": "assembled_review_drafts",
+    "visualGuidePages": 274,
+    "visualOpeningPages": 14,
+    "visualReviewBreakdown": {
+      "vegetables": 184,
+      "troubles": 90,
+      "openings": 14
+    },
+    "candidatePagesPerEdition": 148,
+    "facingPageProposal": "Review proposal: every vegetable starts verso, with its overview and practical advice facing. Explicit blank rectos after odd-length vegetable guides retain that arrangement and can be used for notes. Troubles read continuously. John has not approved this pagination choice.",
+    "interstitialBlankPagesPerEdition": 4,
+    "blankFolios": {
+      "imperial": [
+        15,
+        69,
+        87,
+        91
+      ],
+      "metric": [
+        15,
+        69,
+        87,
+        91
+      ]
+    },
+    "submissionPreflight": {
+      "transparencyGuidePdfs": 116,
+      "thinStrokeCandidateGuidePdfs": 88,
+      "status": "Transparency removed in separate derivatives; original source PDFs retained unchanged. Not upload-ready: publication placeholders, fine icon line detail, selected-stock colour/PDF requirements, final wrap and supplier acceptance remain.",
+      "strokeAudit": "book-preparation/STROKE-AUDIT-KDP.json",
+      "minimumActualStrokePt": 0.20089,
+      "finding": "All 236 separate source derivatives and four assemblies pass local checks. Native text retained; artwork composited at 600 dpi RGB. No PDF/X/CMYK or pixel-identical-artwork claim. Icon detail remains down to0.20089pt in the unchanged physical design."
+    },
+    "vegetableVisualKeysRemaining": [],
+    "bookvaultAdaptation": {
+      "status": "Both 148-page source and flattened review assemblies are complete. All physical checks pass; source visual coverage remains30 source/eight assembly pages, supplemented by12 derivative source and12 derivative assembly sample pages. Publishing choices and final supplier preflight remain.",
+      "marginsMm": {
+        "inside": 17,
+        "outside": 8
+      },
+      "bodyWidthMm": 160,
+      "mediaMm": [
+        191,
+        246
+      ],
+      "trimMm": [
+        185,
+        240
+      ],
+      "textSafetyMm": {
+        "binding": 17,
+        "other": 5
+      },
+      "implementationSignature": "3a81ceb9fe70d11a32cf536f988bcd2fc976cf38b4d055457b4e14d65639f137",
+      "guidePdfs": 116,
+      "guidePagesBothUnits": 274,
+      "plannedPagesPerEdition": 148,
+      "comparisonScope": "Every guide has identical per-page DOM text, order, physical page count and start folio to the fully visually reviewed saved KDP build. This does not assert pixel equivalence; positions shift to accommodate margins and bleed.",
+      "assembly": {
+        "checkedAtUtc": "2026-10-06T09:35:38.779516+00:00",
+        "receipt": "ASSEMBLY-CHECKS-BOOKVAULT.json",
+        "rasterReceipt": "ASSEMBLY-RASTER-CHECKS-BOOKVAULT.json",
+        "samplePixelComparisons": 8,
+        "sampleVisualPages": 8,
+        "results": [
+          {
+            "units": "imperial",
+            "pdf": "output/pdf/book-preparation/compact-book-imperial-bookvault-review.pdf",
+            "sha256": "15e433194407b53f5ce7f8829bfac727196fd9c51178da8e03f9110ac46b85e6",
+            "pages": 148,
+            "bytes": 565947164,
+            "blankFolios": [
+              15,
+              69,
+              87,
+              91
+            ]
+          },
+          {
+            "units": "metric",
+            "pdf": "output/pdf/book-preparation/compact-book-metric-bookvault-review.pdf",
+            "sha256": "6236baea994c73fe098f7051435069e6b0bce960a7839eb8ef8c8f10d46a5a23",
+            "pages": 148,
+            "bytes": 565942843,
+            "blankFolios": [
+              15,
+              69,
+              87,
+              91
+            ]
+          }
+        ]
+      },
+      "visualSourcePages": 30,
+      "visualAssemblySamplePages": 8,
+      "evidence": "book-preparation/BOOKVAULT-ADAPTATION.json"
+    },
+    "flattenedAssembly": [
+      {
+        "supplier": "kdp",
+        "units": "imperial",
+        "pdf": "output/pdf/book-preparation/compact-book-imperial-flattened-review.pdf",
+        "sha256": "04ccc36c139fc191ec6489a36789fa4eec0ae1263d0f00268fc692d381480d01",
+        "bytes": 301719014,
+        "pages": 148
+      },
+      {
+        "supplier": "kdp",
+        "units": "metric",
+        "pdf": "output/pdf/book-preparation/compact-book-metric-flattened-review.pdf",
+        "sha256": "44d5b75812c1416ceb8eef8d96005a2236249ba1e66ce98854e9ccd25ecf4cba",
+        "bytes": 301733423,
+        "pages": 148
+      },
+      {
+        "supplier": "bookvault",
+        "units": "imperial",
+        "pdf": "output/pdf/book-preparation/compact-book-imperial-bookvault-flattened-review.pdf",
+        "sha256": "c612bf238e2661925dfef0a11c368075b2cc9f95481ded82017fdb262b2fa386",
+        "bytes": 301662793,
+        "pages": 148
+      },
+      {
+        "supplier": "bookvault",
+        "units": "metric",
+        "pdf": "output/pdf/book-preparation/compact-book-metric-bookvault-flattened-review.pdf",
+        "sha256": "fabe27496ad2d132d418a41858f80220d0e1429a9caa76d31b93d4a079dd8528",
+        "bytes": 301687081,
+        "pages": 148
+      }
+    ]
+  },
+  "currentLimitations": [
+    "All 288 current KDP content pages have hash-matched screen visual review, not a physical proof or John\u2019s full-collection approval. Bookvault review remains representative, backed by complete text/count/folio/physical checks.",
+    "Forty crops have two-page drafts; Carrot, both Tomatoes and Onion/Shallots retain three. Carrot third page and Mushroom overview remain naturally open; no filler or shrinkage. Additional pages are authorised.",
+    "All final Troubles groups now reviewed in both units. Larger alignment gaps remain in Bean/Pea P3, Onion/Leek P1 and Turnip/Swede/Radish P1; Brassica P1\u20133 have open lower areas. Sparse final pages retain natural unequal lower edges. These are explicit aesthetic exceptions, not clipping or omission.",
+    "Both 148-page KDP assemblies are current, with current contents and four unprinted blanks. Folio/geometry/content-stream checks cover every physical page, while assembly visual review is representative. No final collection approval.",
+    "Bookvault 17 mm inner/8 mm outer adaptation and both 148-page assemblies are complete. Fresh 148-page costs are saved. Current cover-template filename8.436 versus printed/measured8mm spine remains unresolved; no final wrap.",
+    "G2 front selected and B5 back preferred; both are included in the rough imperial screen preview with the latest seven opening pages. Earlier production-sized assemblies retain their old opening drafts. Final opening design/copy, artwork allocation, exact cover page crops, editable cover text, metadata/rights/ISBN and stock decisions remain before upload. No account mutations or supplier messages.",
+    "Separate 600 dpi RGB artwork derivatives remove transparency while preserving native vector text. Every derivative page passes physical and raster-difference checks; visual inspection is representative. Fine icon lines are not thickened; PDF/X, final colour handling, supplier acceptance and physical proof quality remain unverified.",
+    "Review-index links and document structure were checked. Its browser rendering was not inspected because the built-in browser rejected file:// navigation; no workaround was attempted. Actual PDFs were rendered and reviewed independently."
+  ],
+  "visualCheckpointUtc": "2026-10-06T09:11:35.324955+00:00",
+  "flatteningCheckpoint": {
+    "atUtc": "2026-10-06T10:54:50.956033+00:00",
+    "status": "Complete local derivative preparation and representative assembly review",
+    "prototypeVisualPages": 4,
+    "prototypeQa": "tmp/pdfs/book-preparation/flattening/CHECKS.json",
+    "script": "scripts/flatten-book-pdf.py",
+    "runner": "scripts/prepare-flattened-book.py",
+    "importantQualification": "Artwork is resampled/composited at600dpi; this is not a lossless pixel-preserving copy of original illustration files. Original review PDFs retained. Thin icon detail remains unchanged in physical width; rasterisation does not establish compliance with KDP\u2019s0.75pt graphic-line guidance.",
+    "representativePdfsPassed": 12,
+    "representativePagesPassed": 44,
+    "receipt": "book-preparation/FLATTENED-KDP.json",
+    "representativeVisualPages": 24,
+    "visualReceipt": "book-preparation/FLATTENED-VISUAL.json",
+    "receipts": [
+      "book-preparation/FLATTENED-KDP.json",
+      "book-preparation/FLATTENED-BOOKVAULT.json"
+    ],
+    "fullBatchProgress": [
+      {
+        "supplier": "kdp",
+        "pdfsChecked": 118,
+        "contentPagesChecked": 288,
+        "imperialPdfsChecked": 59,
+        "metricPdfsChecked": 59,
+        "failures": [],
+        "maxMeanChannelErrorAt300Dpi": 0.7911514475088358,
+        "maxFractionPixelsOver32At300Dpi": 0.009769931039600057
+      },
+      {
+        "supplier": "bookvault",
+        "pdfsChecked": 118,
+        "contentPagesChecked": 288,
+        "imperialPdfsChecked": 59,
+        "metricPdfsChecked": 59,
+        "failures": [],
+        "maxMeanChannelErrorAt300Dpi": 0.6806000444991125,
+        "maxFractionPixelsOver32At300Dpi": 0.008417714877021374
+      }
+    ],
+    "kdpComplete": {
+      "pdfs": 118,
+      "contentPages": 288,
+      "receipt": "book-preparation/FLATTENED-KDP.json",
+      "maxMeanChannelErrorAt300Dpi": 0.7911514475088358,
+      "maxFractionPixelsOver32At300Dpi": 0.009769931039600057
+    },
+    "kdpAssembly": {
+      "receipt": "book-preparation/ASSEMBLY-FLATTENED-KDP.json",
+      "checks": "book-preparation/FLATTENED-ASSEMBLY-CHECKS-KDP.json",
+      "visual": "book-preparation/FLATTENED-ASSEMBLY-VISUAL.json",
+      "physicalPagesChecked": 296,
+      "samplePixelComparisons": 8,
+      "visualContentPages": 8,
+      "visualBlankPages": 4
+    },
+    "assembledPdfs": [
+      {
+        "supplier": "kdp",
+        "units": "imperial",
+        "pdf": "output/pdf/book-preparation/compact-book-imperial-flattened-review.pdf",
+        "sha256": "04ccc36c139fc191ec6489a36789fa4eec0ae1263d0f00268fc692d381480d01",
+        "bytes": 301719014,
+        "pages": 148
+      },
+      {
+        "supplier": "kdp",
+        "units": "metric",
+        "pdf": "output/pdf/book-preparation/compact-book-metric-flattened-review.pdf",
+        "sha256": "44d5b75812c1416ceb8eef8d96005a2236249ba1e66ce98854e9ccd25ecf4cba",
+        "bytes": 301733423,
+        "pages": 148
+      },
+      {
+        "supplier": "bookvault",
+        "units": "imperial",
+        "pdf": "output/pdf/book-preparation/compact-book-imperial-bookvault-flattened-review.pdf",
+        "sha256": "c612bf238e2661925dfef0a11c368075b2cc9f95481ded82017fdb262b2fa386",
+        "bytes": 301662793,
+        "pages": 148
+      },
+      {
+        "supplier": "bookvault",
+        "units": "metric",
+        "pdf": "output/pdf/book-preparation/compact-book-metric-bookvault-flattened-review.pdf",
+        "sha256": "fabe27496ad2d132d418a41858f80220d0e1429a9caa76d31b93d4a079dd8528",
+        "bytes": 301687081,
+        "pages": 148
+      }
+    ],
+    "assemblyPhysicalPagesChecked": 592,
+    "assemblyPixelComparisons": 16,
+    "assemblyVisualContentPages": 16,
+    "assemblyVisualBlankPages": 8,
+    "sourceDerivativeVisualPages": 24
+  },
+  "reviewReadyAtUtc": "2026-10-06T10:54:50.956033+00:00",
+  "completionReport": {
+    "readyAtUtc": "2026-10-06T10:54:50.956033+00:00",
+    "reviewIndex": "book-preparation/REVIEW.html",
+    "completed": [
+      "All44 vegetable guides and14 Troubles groups, both units, with148-page books and truthful contents/folios.",
+      "Seven opening-page drafts per edition and two front/back cover concepts.",
+      "Current KDP/Bookvault requirements and148-page calculator costs, draft metadata and publication decisions.",
+      "Four separate flattened interiors,592 physical assembly pages checked; originals, canonical records and52 frozen references preserved."
+    ],
+    "notCompleted": [
+      "Final title, author presentation, rights/ISBN, edition, pagination, cover and stock approval.",
+      "Fine icon detail, final supplier colour/PDF preflight, verified cover wrap and Bookvault spine discrepancy.",
+      "Account title creation, upload/Previewer, physical proof, purchases and publication."
+    ],
+    "automationPause": "Confirmed PAUSED by the Codex app tool and saved automation.toml; review pack completed before the 18:00 UTC deadline."
+  },
+  "automationPausedAtUtc": "2026-10-06T10:56:24.863992+00:00",
+  "frontMatterDirection": {
+    "date": "2026-10-06",
+    "requestedBy": "John",
+    "status": "originals_verified_compact_adaptation_pending",
+    "instruction": "Use original Cover C as the starting point for the book cover; adapt approved contents and illustrated how-to. Overnight cover A/B are unselected studies.",
+    "checkedAtUtc": "2026-10-06T18:37:11.080307+00:00",
+    "approvalManifest": "docs/redesign-rollout/APPROVAL.json",
+    "verification": "All three output PDFs match installed files and approval hashes; all 11 front-matter manifest files match. Three original single-page PDFs rendered and visually inspected. No PDFs, artwork, frozen references or canonical gardening data changed.",
+    "originals": [
+      {
+        "output": "output/00_cover_A4.pdf",
+        "installed": "public/front-matter/cover-A4.pdf",
+        "sha256": "095e6d5971f23d890c8ea84c2096f6ff6dc389cf3a994e94afece07dc2c38685",
+        "layout": "docs/front-matter/cover-studies/preview-c.html"
+      },
+      {
+        "output": "output/01_contents_A4.pdf",
+        "installed": "public/front-matter/contents-A4.pdf",
+        "sha256": "47215a6d0e8e80362ca77b4979881202c474ba5f3d5f0741b0dcf7baa402b000",
+        "layout": "docs/front-matter/entry-pages/contents.html"
+      },
+      {
+        "output": "output/02_how-to-use_A4.pdf",
+        "installed": "public/front-matter/how-to-use-A4.pdf",
+        "sha256": "a3011259d367b68d00e001287e454490c0436a7d23e695ea7fec1fe028c1f2a3",
+        "layout": "docs/front-matter/entry-pages/how-to.html"
+      }
+    ],
+    "preserve": [
+      "Interwoven bold cover lettering and vegetable composition; main artwork is a combined 1054 x 1492 px raster.",
+      "Harvest cluster and family-coloured contents groups.",
+      "Illustrated climate keys, difficulty characters and dropper/wave core-needs scale, with approved explanations."
+    ],
+    "next": "Prepare separate compact adaptations when design work resumes. Review book wording, cover title/back cover and source raster resolution; remeasure contents and pagination after changed openings. Preserve installed A4 sources. Current 148-page PDFs have not been revised.",
+    "automation": "Remains PAUSED; this investigation does not restart unattended work.",
+    "scopeQualification": "Historical 6 October instruction. Cover direction superseded by 7 October C1/C2 rejection and fresh-sketch brief; approved entry-page adaptation remains current."
+  },
+  "documentationChecks": {
+    "checkedAtUtc": "2026-10-06T18:59:18.951197+00:00",
+    "scope": "16 active Markdown instruction/research/source-owner documents and two maintained JSON state files reconciled; frozen evidence was not rewritten.",
+    "localMarkdownLinksChecked": 199,
+    "checkpointEvidenceLinksChecked": 41,
+    "protectedFileHashesUnchanged": 427,
+    "skillValidation": "guide-layout-review passes skill-creator quick_validate.py; automatic selection preserved.",
+    "consistencyReview": "Checked ordinary compact guide proofs versus full book assemblies, approved sources versus draft adaptations, retained A4 scope, canonical-data boundary, paused monitors and publishing limits. Retired instructions are not active next actions.",
+    "applicationTests": "Not run: documentation-only change. No app code, canonical data, artwork, PDFs, supplier messages, account operations or automation configuration changes.",
+    "whitespaceCheck": "git diff --check passed."
+  },
+  "roughProgressPreview": {
+    "createdAtUtc": "2026-10-07T20:52:28.143264+00:00",
+    "review": "bookvault-progress-preview/REVIEW.html",
+    "receipt": "bookvault-progress-preview/CHECKS.json",
+    "pdf": "output/pdf/bookvault-progress-preview/the-vegetable-guru-bookvault-progress-preview.pdf",
+    "sha256": "ec7e000f8c59faf1ae9c54e813b54c406025ad8278443381bef81f8484225765",
+    "units": "imperial",
+    "interiorPages": 148,
+    "previewPages": 152,
+    "description": "G2 front, B5 back, latest seven opening pages with six new stock illustrations, and the saved Bookvault body. Reduced artwork with native text. Separate screen derivative; approved originals and earlier production-sized assemblies unchanged.",
+    "approval": "Review requested; no new design, copy, artwork allocation or supplier approval implied."
+  }
+}

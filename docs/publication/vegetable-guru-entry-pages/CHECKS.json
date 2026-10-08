@@ -1,0 +1,1215 @@
+{
+  "date": "2026-10-07",
+  "status": "Compact contents/how-to approved by John on 7 October 2026; book integration pending",
+  "supplier": "Bookvault",
+  "trimMm": [
+    185,
+    240
+  ],
+  "bleedMm": 3,
+  "physicalFolios": [
+    4,
+    5,
+    6,
+    7
+  ],
+  "assemblyPlan": {
+    "path": "docs/publication/book-preparation/ASSEMBLY-PLAN-BOOKVAULT.json",
+    "sha256": "6bf7eb471bda81a1f4c402b7e3cdd3b81c3449697bd9ea358e8b863586e70e2d"
+  },
+  "approvedSources": {
+    "docs/front-matter/entry-pages/contents.html": "9c3e358ea52d7f68fa43c0b431b66afaed56036ee67d241602619311782c50c5",
+    "docs/front-matter/entry-pages/how-to.html": "8c4d4aec6e2726b3475bd1f8aa91886d5c51bf14e63ed80a8bb5a30246de9757",
+    "docs/front-matter/entry-pages/contents.pdf": "47215a6d0e8e80362ca77b4979881202c474ba5f3d5f0741b0dcf7baa402b000",
+    "docs/front-matter/entry-pages/how-to.pdf": "a3011259d367b68d00e001287e454490c0436a7d23e695ea7fec1fe028c1f2a3",
+    "public/front-matter/contents-A4.pdf": "47215a6d0e8e80362ca77b4979881202c474ba5f3d5f0741b0dcf7baa402b000",
+    "public/front-matter/how-to-use-A4.pdf": "a3011259d367b68d00e001287e454490c0436a7d23e695ea7fec1fe028c1f2a3"
+  },
+  "changes": [
+    "Approved Harvest corner contents reflowed over facing pages 4–5; original family order, colours, harvest illustration and all 44/14 entries retained.",
+    "Book folios replace A4 folios. Two-page-only wording replaced with two-or-more-pages wording. The old A4 unnumbered-opening/page-range note is removed; crop-applicability explanation is retained.",
+    "Approved illustrated how-to split over pages 6–7: calendar and climate keys, then difficulty and Core needs. Original explanation paragraphs and all ten how-to/harvest images retained.",
+    "These sheets becomes this book; footers use The Vegetable Guru. No new explanatory sections, title page, introduction or author copy added in this pass.",
+    "Separate proof only: original A4 assets, current seven-page opening packs, 148-page book assemblies, guide PDFs and canonical data remain untouched."
+  ],
+  "results": [
+    {
+      "units": "imperial",
+      "html": "docs/publication/vegetable-guru-entry-pages/imperial.html",
+      "pdf": "output/pdf/vegetable-guru-entry-pages/contents-how-to-imperial.pdf",
+      "sha256": "5ba9f43d00c326bab9e4705a320089ac261ca800abd7fe8992589bae980e2a4d",
+      "contents": [
+        {
+          "type": "vegetable",
+          "key": "artichoke_jerusalem",
+          "label": "Artichoke, Jerusalem",
+          "startPage": 8
+        },
+        {
+          "type": "vegetable",
+          "key": "beetroot",
+          "label": "Beetroot",
+          "startPage": 10
+        },
+        {
+          "type": "vegetable",
+          "key": "carrot",
+          "label": "Carrot",
+          "startPage": 12
+        },
+        {
+          "type": "vegetable",
+          "key": "celeriac",
+          "label": "Celeriac",
+          "startPage": 16
+        },
+        {
+          "type": "vegetable",
+          "key": "kohl_rabi",
+          "label": "Kohl Rabi",
+          "startPage": 18
+        },
+        {
+          "type": "vegetable",
+          "key": "parsnip",
+          "label": "Parsnip",
+          "startPage": 20
+        },
+        {
+          "type": "vegetable",
+          "key": "potato",
+          "label": "Potato",
+          "startPage": 22
+        },
+        {
+          "type": "vegetable",
+          "key": "radish",
+          "label": "Radish",
+          "startPage": 24
+        },
+        {
+          "type": "vegetable",
+          "key": "salsify_scorzonera",
+          "label": "Salsify & Scorzonera",
+          "startPage": 26
+        },
+        {
+          "type": "vegetable",
+          "key": "swede",
+          "label": "Swede",
+          "startPage": 28
+        },
+        {
+          "type": "vegetable",
+          "key": "turnip",
+          "label": "Turnip",
+          "startPage": 30
+        },
+        {
+          "type": "vegetable",
+          "key": "broccoli",
+          "label": "Broccoli",
+          "startPage": 32
+        },
+        {
+          "type": "vegetable",
+          "key": "brussels_sprouts",
+          "label": "Brussels Sprouts",
+          "startPage": 34
+        },
+        {
+          "type": "vegetable",
+          "key": "cabbage",
+          "label": "Cabbage",
+          "startPage": 36
+        },
+        {
+          "type": "vegetable",
+          "key": "cauliflower",
+          "label": "Cauliflower",
+          "startPage": 38
+        },
+        {
+          "type": "vegetable",
+          "key": "kale",
+          "label": "Kale",
+          "startPage": 40
+        },
+        {
+          "type": "vegetable",
+          "key": "bean_broad",
+          "label": "Bean, Broad",
+          "startPage": 42
+        },
+        {
+          "type": "vegetable",
+          "key": "bean_french",
+          "label": "Bean, French",
+          "startPage": 44
+        },
+        {
+          "type": "vegetable",
+          "key": "bean_runner",
+          "label": "Bean, Runner",
+          "startPage": 46
+        },
+        {
+          "type": "vegetable",
+          "key": "pea",
+          "label": "Pea",
+          "startPage": 48
+        },
+        {
+          "type": "vegetable",
+          "key": "beet_leaf",
+          "label": "Beet, Leaf",
+          "startPage": 50
+        },
+        {
+          "type": "vegetable",
+          "key": "chicory",
+          "label": "Chicory",
+          "startPage": 52
+        },
+        {
+          "type": "vegetable",
+          "key": "endive",
+          "label": "Endive",
+          "startPage": 54
+        },
+        {
+          "type": "vegetable",
+          "key": "lettuce",
+          "label": "Lettuce",
+          "startPage": 56
+        },
+        {
+          "type": "vegetable",
+          "key": "oriental_leaves",
+          "label": "Oriental Leaves",
+          "startPage": 58
+        },
+        {
+          "type": "vegetable",
+          "key": "spinach",
+          "label": "Spinach",
+          "startPage": 60
+        },
+        {
+          "type": "vegetable",
+          "key": "garlic",
+          "label": "Garlic",
+          "startPage": 62
+        },
+        {
+          "type": "vegetable",
+          "key": "leek",
+          "label": "Leek",
+          "startPage": 64
+        },
+        {
+          "type": "vegetable",
+          "key": "onion_shallot",
+          "label": "Onions and Shallots",
+          "startPage": 66
+        },
+        {
+          "type": "vegetable",
+          "key": "aubergine",
+          "label": "Aubergine",
+          "startPage": 70
+        },
+        {
+          "type": "vegetable",
+          "key": "capsicum",
+          "label": "Capsicum",
+          "startPage": 72
+        },
+        {
+          "type": "vegetable",
+          "key": "marrow_courgette",
+          "label": "Courgettes and Marrows",
+          "startPage": 74
+        },
+        {
+          "type": "vegetable",
+          "key": "cucumber_greenhouse",
+          "label": "Cucumber, Greenhouse",
+          "startPage": 76
+        },
+        {
+          "type": "vegetable",
+          "key": "cucumber_outdoor",
+          "label": "Cucumber, Outdoor",
+          "startPage": 78
+        },
+        {
+          "type": "vegetable",
+          "key": "squash_pumpkin",
+          "label": "Squashes and Pumpkins",
+          "startPage": 80
+        },
+        {
+          "type": "vegetable",
+          "key": "sweet_corn",
+          "label": "Sweet Corn",
+          "startPage": 82
+        },
+        {
+          "type": "vegetable",
+          "key": "tomato_greenhouse",
+          "label": "Tomato, Greenhouse",
+          "startPage": 84
+        },
+        {
+          "type": "vegetable",
+          "key": "tomato_outdoor",
+          "label": "Tomato, Outdoor",
+          "startPage": 88
+        },
+        {
+          "type": "vegetable",
+          "key": "artichoke_globe",
+          "label": "Artichoke, Globe",
+          "startPage": 92
+        },
+        {
+          "type": "vegetable",
+          "key": "asparagus",
+          "label": "Asparagus",
+          "startPage": 94
+        },
+        {
+          "type": "vegetable",
+          "key": "celery",
+          "label": "Celery",
+          "startPage": 96
+        },
+        {
+          "type": "vegetable",
+          "key": "florence_fennel",
+          "label": "Florence Fennel",
+          "startPage": 98
+        },
+        {
+          "type": "vegetable",
+          "key": "rhubarb",
+          "label": "Rhubarb",
+          "startPage": 100
+        },
+        {
+          "type": "vegetable",
+          "key": "mushroom",
+          "label": "Mushroom",
+          "startPage": 102
+        },
+        {
+          "type": "trouble",
+          "key": "bean_and_pea_troubles",
+          "label": "Bean and Pea",
+          "startPage": 104
+        },
+        {
+          "type": "trouble",
+          "key": "beetroot_troubles",
+          "label": "Beetroot",
+          "startPage": 108
+        },
+        {
+          "type": "trouble",
+          "key": "brassica_troubles",
+          "label": "Brassica",
+          "startPage": 110
+        },
+        {
+          "type": "trouble",
+          "key": "carrot_and_parsnip_troubles",
+          "label": "Carrot and Parsnip",
+          "startPage": 116
+        },
+        {
+          "type": "trouble",
+          "key": "celery_troubles",
+          "label": "Celery",
+          "startPage": 119
+        },
+        {
+          "type": "trouble",
+          "key": "cucurbit_troubles",
+          "label": "Cucurbit",
+          "startPage": 121
+        },
+        {
+          "type": "trouble",
+          "key": "florence_fennel_troubles",
+          "label": "Florence Fennel",
+          "startPage": 126
+        },
+        {
+          "type": "trouble",
+          "key": "lettuce_troubles",
+          "label": "Lettuce",
+          "startPage": 127
+        },
+        {
+          "type": "trouble",
+          "key": "onion_and_leek_troubles",
+          "label": "Onion & Leek",
+          "startPage": 130
+        },
+        {
+          "type": "trouble",
+          "key": "oriental_leaves_troubles",
+          "label": "Oriental Leaves",
+          "startPage": 133
+        },
+        {
+          "type": "trouble",
+          "key": "potato_troubles",
+          "label": "Potato",
+          "startPage": 135
+        },
+        {
+          "type": "trouble",
+          "key": "spinach_troubles",
+          "label": "Spinach",
+          "startPage": 140
+        },
+        {
+          "type": "trouble",
+          "key": "tomato_troubles",
+          "label": "Tomato",
+          "startPage": 142
+        },
+        {
+          "type": "trouble",
+          "key": "turnip_swede_radish_troubles",
+          "label": "Turnip, Swede & Radish",
+          "startPage": 147
+        }
+      ],
+      "dom": [
+        {
+          "folio": 4,
+          "footerClearanceMm": 10.893391927083334,
+          "images": [
+            {
+              "src": "/docs/front-matter/entry-pages/studies/assets/harvest-cluster.png",
+              "loaded": true,
+              "widthMm": 71.01293773651123,
+              "heightMm": 54.6502898534139
+            }
+          ],
+          "horizontalOverflow": []
+        },
+        {
+          "folio": 5,
+          "footerClearanceMm": 5.8042968749999995,
+          "images": [
+            {
+              "src": "/docs/front-matter/entry-pages/studies/assets/harvest-cluster.png",
+              "loaded": true,
+              "widthMm": 71.01293773651123,
+              "heightMm": 54.650281778971355
+            }
+          ],
+          "horizontalOverflow": []
+        },
+        {
+          "folio": 6,
+          "footerClearanceMm": 33.486328125,
+          "images": [
+            {
+              "src": "/docs/front-matter/entry-pages/studies/assets/harvest-cluster.png",
+              "loaded": true,
+              "widthMm": 71.01293773651123,
+              "heightMm": 54.650281778971355
+            },
+            {
+              "src": "/docs/front-matter/entry-pages/calendar-assets/radish-calendar.png",
+              "loaded": true,
+              "widthMm": 149.99807942708333,
+              "heightMm": 44.70218098958333
+            },
+            {
+              "src": "/docs/front-matter/entry-pages/calendar-assets/temperate-field.svg",
+              "loaded": true,
+              "widthMm": 26.999902343749998,
+              "heightMm": 26.999902343749998
+            },
+            {
+              "src": "/docs/front-matter/entry-pages/calendar-assets/tropical-island.svg",
+              "loaded": true,
+              "widthMm": 26.999902343749998,
+              "heightMm": 26.999902343749998
+            }
+          ],
+          "horizontalOverflow": []
+        },
+        {
+          "folio": 7,
+          "footerClearanceMm": 25.53642578125,
+          "images": [
+            {
+              "src": "/docs/front-matter/entry-pages/studies/assets/harvest-cluster.png",
+              "loaded": true,
+              "widthMm": 54.37759170532226,
+              "heightMm": 45.28677062988282
+            },
+            {
+              "src": "/docs/front-matter/entry-pages/scales-study/assets/difficulty-capture.png",
+              "loaded": true,
+              "widthMm": 57.99749348958333,
+              "heightMm": 26.049055989583334
+            },
+            {
+              "src": "/docs/front-matter/entry-pages/scales-study/assets/baby.svg",
+              "loaded": true,
+              "widthMm": 28.996679687499995,
+              "heightMm": 23.99853515625
+            },
+            {
+              "src": "/docs/front-matter/entry-pages/scales-study/assets/einstein.svg",
+              "loaded": true,
+              "widthMm": 28.996679687499995,
+              "heightMm": 23.99853515625
+            },
+            {
+              "src": "/docs/front-matter/entry-pages/scales-study/assets/core-needs-capture.png",
+              "loaded": true,
+              "widthMm": 79.99925130208332,
+              "heightMm": 34.51158854166666
+            },
+            {
+              "src": "/docs/front-matter/entry-pages/scales-study/assets/dropper.svg",
+              "loaded": true,
+              "widthMm": 24.998990885416664,
+              "heightMm": 24.998990885416664
+            },
+            {
+              "src": "/docs/front-matter/entry-pages/scales-study/assets/wave.svg",
+              "loaded": true,
+              "widthMm": 24.998990885416664,
+              "heightMm": 24.998990885416664
+            }
+          ],
+          "horizontalOverflow": []
+        }
+      ],
+      "geometry": {
+        "width": 191,
+        "height": 246,
+        "pages": [
+          {
+            "folio": 4,
+            "verso": true,
+            "minTypePt": 7.3500000000000005,
+            "safeInsetMm": {
+              "left": 5,
+              "right": 17,
+              "top": 5,
+              "bottom": 5
+            },
+            "trimMm": [
+              185,
+              240
+            ],
+            "mediaMm": [
+              191,
+              246
+            ],
+            "trimOffsetMm": [
+              3,
+              3
+            ]
+          },
+          {
+            "folio": 5,
+            "verso": false,
+            "minTypePt": 7.3500000000000005,
+            "safeInsetMm": {
+              "left": 17,
+              "right": 5,
+              "top": 5,
+              "bottom": 5
+            },
+            "trimMm": [
+              185,
+              240
+            ],
+            "mediaMm": [
+              191,
+              246
+            ],
+            "trimOffsetMm": [
+              3,
+              3
+            ]
+          },
+          {
+            "folio": 6,
+            "verso": true,
+            "minTypePt": 7.3500000000000005,
+            "safeInsetMm": {
+              "left": 5,
+              "right": 17,
+              "top": 5,
+              "bottom": 5
+            },
+            "trimMm": [
+              185,
+              240
+            ],
+            "mediaMm": [
+              191,
+              246
+            ],
+            "trimOffsetMm": [
+              3,
+              3
+            ]
+          },
+          {
+            "folio": 7,
+            "verso": false,
+            "minTypePt": 7.3500000000000005,
+            "safeInsetMm": {
+              "left": 17,
+              "right": 5,
+              "top": 5,
+              "bottom": 5
+            },
+            "trimMm": [
+              185,
+              240
+            ],
+            "mediaMm": [
+              191,
+              246
+            ],
+            "trimOffsetMm": [
+              3,
+              3
+            ]
+          }
+        ]
+      },
+      "pdfVisualReview": {
+        "status": "reviewed",
+        "reviewer": "Codex; not user approval",
+        "date": "2026-10-07",
+        "folios": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "render": "135 dpi TrimBox PNGs",
+        "findings": "All four pages inspected. No clipped text, overlaps or missing artwork found. Compared with approved A4 contents/how-to; all original explanation and images carried forward. Core-needs capture enlarged to 80 mm. Faded Sun/Nutrition is the approved source treatment."
+      }
+    },
+    {
+      "units": "metric",
+      "html": "docs/publication/vegetable-guru-entry-pages/metric.html",
+      "pdf": "output/pdf/vegetable-guru-entry-pages/contents-how-to-metric.pdf",
+      "sha256": "0e393c159c3e702e4ca7ecb39bd62a3fe25699df0317d345aec1d411100fab20",
+      "contents": [
+        {
+          "type": "vegetable",
+          "key": "artichoke_jerusalem",
+          "label": "Artichoke, Jerusalem",
+          "startPage": 8
+        },
+        {
+          "type": "vegetable",
+          "key": "beetroot",
+          "label": "Beetroot",
+          "startPage": 10
+        },
+        {
+          "type": "vegetable",
+          "key": "carrot",
+          "label": "Carrot",
+          "startPage": 12
+        },
+        {
+          "type": "vegetable",
+          "key": "celeriac",
+          "label": "Celeriac",
+          "startPage": 16
+        },
+        {
+          "type": "vegetable",
+          "key": "kohl_rabi",
+          "label": "Kohl Rabi",
+          "startPage": 18
+        },
+        {
+          "type": "vegetable",
+          "key": "parsnip",
+          "label": "Parsnip",
+          "startPage": 20
+        },
+        {
+          "type": "vegetable",
+          "key": "potato",
+          "label": "Potato",
+          "startPage": 22
+        },
+        {
+          "type": "vegetable",
+          "key": "radish",
+          "label": "Radish",
+          "startPage": 24
+        },
+        {
+          "type": "vegetable",
+          "key": "salsify_scorzonera",
+          "label": "Salsify & Scorzonera",
+          "startPage": 26
+        },
+        {
+          "type": "vegetable",
+          "key": "swede",
+          "label": "Swede",
+          "startPage": 28
+        },
+        {
+          "type": "vegetable",
+          "key": "turnip",
+          "label": "Turnip",
+          "startPage": 30
+        },
+        {
+          "type": "vegetable",
+          "key": "broccoli",
+          "label": "Broccoli",
+          "startPage": 32
+        },
+        {
+          "type": "vegetable",
+          "key": "brussels_sprouts",
+          "label": "Brussels Sprouts",
+          "startPage": 34
+        },
+        {
+          "type": "vegetable",
+          "key": "cabbage",
+          "label": "Cabbage",
+          "startPage": 36
+        },
+        {
+          "type": "vegetable",
+          "key": "cauliflower",
+          "label": "Cauliflower",
+          "startPage": 38
+        },
+        {
+          "type": "vegetable",
+          "key": "kale",
+          "label": "Kale",
+          "startPage": 40
+        },
+        {
+          "type": "vegetable",
+          "key": "bean_broad",
+          "label": "Bean, Broad",
+          "startPage": 42
+        },
+        {
+          "type": "vegetable",
+          "key": "bean_french",
+          "label": "Bean, French",
+          "startPage": 44
+        },
+        {
+          "type": "vegetable",
+          "key": "bean_runner",
+          "label": "Bean, Runner",
+          "startPage": 46
+        },
+        {
+          "type": "vegetable",
+          "key": "pea",
+          "label": "Pea",
+          "startPage": 48
+        },
+        {
+          "type": "vegetable",
+          "key": "beet_leaf",
+          "label": "Beet, Leaf",
+          "startPage": 50
+        },
+        {
+          "type": "vegetable",
+          "key": "chicory",
+          "label": "Chicory",
+          "startPage": 52
+        },
+        {
+          "type": "vegetable",
+          "key": "endive",
+          "label": "Endive",
+          "startPage": 54
+        },
+        {
+          "type": "vegetable",
+          "key": "lettuce",
+          "label": "Lettuce",
+          "startPage": 56
+        },
+        {
+          "type": "vegetable",
+          "key": "oriental_leaves",
+          "label": "Oriental Leaves",
+          "startPage": 58
+        },
+        {
+          "type": "vegetable",
+          "key": "spinach",
+          "label": "Spinach",
+          "startPage": 60
+        },
+        {
+          "type": "vegetable",
+          "key": "garlic",
+          "label": "Garlic",
+          "startPage": 62
+        },
+        {
+          "type": "vegetable",
+          "key": "leek",
+          "label": "Leek",
+          "startPage": 64
+        },
+        {
+          "type": "vegetable",
+          "key": "onion_shallot",
+          "label": "Onions and Shallots",
+          "startPage": 66
+        },
+        {
+          "type": "vegetable",
+          "key": "aubergine",
+          "label": "Aubergine",
+          "startPage": 70
+        },
+        {
+          "type": "vegetable",
+          "key": "capsicum",
+          "label": "Capsicum",
+          "startPage": 72
+        },
+        {
+          "type": "vegetable",
+          "key": "marrow_courgette",
+          "label": "Courgettes and Marrows",
+          "startPage": 74
+        },
+        {
+          "type": "vegetable",
+          "key": "cucumber_greenhouse",
+          "label": "Cucumber, Greenhouse",
+          "startPage": 76
+        },
+        {
+          "type": "vegetable",
+          "key": "cucumber_outdoor",
+          "label": "Cucumber, Outdoor",
+          "startPage": 78
+        },
+        {
+          "type": "vegetable",
+          "key": "squash_pumpkin",
+          "label": "Squashes and Pumpkins",
+          "startPage": 80
+        },
+        {
+          "type": "vegetable",
+          "key": "sweet_corn",
+          "label": "Sweet Corn",
+          "startPage": 82
+        },
+        {
+          "type": "vegetable",
+          "key": "tomato_greenhouse",
+          "label": "Tomato, Greenhouse",
+          "startPage": 84
+        },
+        {
+          "type": "vegetable",
+          "key": "tomato_outdoor",
+          "label": "Tomato, Outdoor",
+          "startPage": 88
+        },
+        {
+          "type": "vegetable",
+          "key": "artichoke_globe",
+          "label": "Artichoke, Globe",
+          "startPage": 92
+        },
+        {
+          "type": "vegetable",
+          "key": "asparagus",
+          "label": "Asparagus",
+          "startPage": 94
+        },
+        {
+          "type": "vegetable",
+          "key": "celery",
+          "label": "Celery",
+          "startPage": 96
+        },
+        {
+          "type": "vegetable",
+          "key": "florence_fennel",
+          "label": "Florence Fennel",
+          "startPage": 98
+        },
+        {
+          "type": "vegetable",
+          "key": "rhubarb",
+          "label": "Rhubarb",
+          "startPage": 100
+        },
+        {
+          "type": "vegetable",
+          "key": "mushroom",
+          "label": "Mushroom",
+          "startPage": 102
+        },
+        {
+          "type": "trouble",
+          "key": "bean_and_pea_troubles",
+          "label": "Bean and Pea",
+          "startPage": 104
+        },
+        {
+          "type": "trouble",
+          "key": "beetroot_troubles",
+          "label": "Beetroot",
+          "startPage": 108
+        },
+        {
+          "type": "trouble",
+          "key": "brassica_troubles",
+          "label": "Brassica",
+          "startPage": 110
+        },
+        {
+          "type": "trouble",
+          "key": "carrot_and_parsnip_troubles",
+          "label": "Carrot and Parsnip",
+          "startPage": 116
+        },
+        {
+          "type": "trouble",
+          "key": "celery_troubles",
+          "label": "Celery",
+          "startPage": 119
+        },
+        {
+          "type": "trouble",
+          "key": "cucurbit_troubles",
+          "label": "Cucurbit",
+          "startPage": 121
+        },
+        {
+          "type": "trouble",
+          "key": "florence_fennel_troubles",
+          "label": "Florence Fennel",
+          "startPage": 126
+        },
+        {
+          "type": "trouble",
+          "key": "lettuce_troubles",
+          "label": "Lettuce",
+          "startPage": 127
+        },
+        {
+          "type": "trouble",
+          "key": "onion_and_leek_troubles",
+          "label": "Onion & Leek",
+          "startPage": 130
+        },
+        {
+          "type": "trouble",
+          "key": "oriental_leaves_troubles",
+          "label": "Oriental Leaves",
+          "startPage": 133
+        },
+        {
+          "type": "trouble",
+          "key": "potato_troubles",
+          "label": "Potato",
+          "startPage": 135
+        },
+        {
+          "type": "trouble",
+          "key": "spinach_troubles",
+          "label": "Spinach",
+          "startPage": 140
+        },
+        {
+          "type": "trouble",
+          "key": "tomato_troubles",
+          "label": "Tomato",
+          "startPage": 142
+        },
+        {
+          "type": "trouble",
+          "key": "turnip_swede_radish_troubles",
+          "label": "Turnip, Swede & Radish",
+          "startPage": 147
+        }
+      ],
+      "dom": [
+        {
+          "folio": 4,
+          "footerClearanceMm": 10.893391927083334,
+          "images": [
+            {
+              "src": "/docs/front-matter/entry-pages/studies/assets/harvest-cluster.png",
+              "loaded": true,
+              "widthMm": 71.01293773651123,
+              "heightMm": 54.6502898534139
+            }
+          ],
+          "horizontalOverflow": []
+        },
+        {
+          "folio": 5,
+          "footerClearanceMm": 5.8042968749999995,
+          "images": [
+            {
+              "src": "/docs/front-matter/entry-pages/studies/assets/harvest-cluster.png",
+              "loaded": true,
+              "widthMm": 71.01293773651123,
+              "heightMm": 54.650281778971355
+            }
+          ],
+          "horizontalOverflow": []
+        },
+        {
+          "folio": 6,
+          "footerClearanceMm": 33.486328125,
+          "images": [
+            {
+              "src": "/docs/front-matter/entry-pages/studies/assets/harvest-cluster.png",
+              "loaded": true,
+              "widthMm": 71.01293773651123,
+              "heightMm": 54.650281778971355
+            },
+            {
+              "src": "/docs/front-matter/entry-pages/calendar-assets/radish-calendar.png",
+              "loaded": true,
+              "widthMm": 149.99807942708333,
+              "heightMm": 44.70218098958333
+            },
+            {
+              "src": "/docs/front-matter/entry-pages/calendar-assets/temperate-field.svg",
+              "loaded": true,
+              "widthMm": 26.999902343749998,
+              "heightMm": 26.999902343749998
+            },
+            {
+              "src": "/docs/front-matter/entry-pages/calendar-assets/tropical-island.svg",
+              "loaded": true,
+              "widthMm": 26.999902343749998,
+              "heightMm": 26.999902343749998
+            }
+          ],
+          "horizontalOverflow": []
+        },
+        {
+          "folio": 7,
+          "footerClearanceMm": 25.53642578125,
+          "images": [
+            {
+              "src": "/docs/front-matter/entry-pages/studies/assets/harvest-cluster.png",
+              "loaded": true,
+              "widthMm": 54.37759170532226,
+              "heightMm": 45.28677062988282
+            },
+            {
+              "src": "/docs/front-matter/entry-pages/scales-study/assets/difficulty-capture.png",
+              "loaded": true,
+              "widthMm": 57.99749348958333,
+              "heightMm": 26.049055989583334
+            },
+            {
+              "src": "/docs/front-matter/entry-pages/scales-study/assets/baby.svg",
+              "loaded": true,
+              "widthMm": 28.996679687499995,
+              "heightMm": 23.99853515625
+            },
+            {
+              "src": "/docs/front-matter/entry-pages/scales-study/assets/einstein.svg",
+              "loaded": true,
+              "widthMm": 28.996679687499995,
+              "heightMm": 23.99853515625
+            },
+            {
+              "src": "/docs/front-matter/entry-pages/scales-study/assets/core-needs-capture.png",
+              "loaded": true,
+              "widthMm": 79.99925130208332,
+              "heightMm": 34.51158854166666
+            },
+            {
+              "src": "/docs/front-matter/entry-pages/scales-study/assets/dropper.svg",
+              "loaded": true,
+              "widthMm": 24.998990885416664,
+              "heightMm": 24.998990885416664
+            },
+            {
+              "src": "/docs/front-matter/entry-pages/scales-study/assets/wave.svg",
+              "loaded": true,
+              "widthMm": 24.998990885416664,
+              "heightMm": 24.998990885416664
+            }
+          ],
+          "horizontalOverflow": []
+        }
+      ],
+      "geometry": {
+        "width": 191,
+        "height": 246,
+        "pages": [
+          {
+            "folio": 4,
+            "verso": true,
+            "minTypePt": 7.3500000000000005,
+            "safeInsetMm": {
+              "left": 5,
+              "right": 17,
+              "top": 5,
+              "bottom": 5
+            },
+            "trimMm": [
+              185,
+              240
+            ],
+            "mediaMm": [
+              191,
+              246
+            ],
+            "trimOffsetMm": [
+              3,
+              3
+            ]
+          },
+          {
+            "folio": 5,
+            "verso": false,
+            "minTypePt": 7.3500000000000005,
+            "safeInsetMm": {
+              "left": 17,
+              "right": 5,
+              "top": 5,
+              "bottom": 5
+            },
+            "trimMm": [
+              185,
+              240
+            ],
+            "mediaMm": [
+              191,
+              246
+            ],
+            "trimOffsetMm": [
+              3,
+              3
+            ]
+          },
+          {
+            "folio": 6,
+            "verso": true,
+            "minTypePt": 7.3500000000000005,
+            "safeInsetMm": {
+              "left": 5,
+              "right": 17,
+              "top": 5,
+              "bottom": 5
+            },
+            "trimMm": [
+              185,
+              240
+            ],
+            "mediaMm": [
+              191,
+              246
+            ],
+            "trimOffsetMm": [
+              3,
+              3
+            ]
+          },
+          {
+            "folio": 7,
+            "verso": false,
+            "minTypePt": 7.3500000000000005,
+            "safeInsetMm": {
+              "left": 17,
+              "right": 5,
+              "top": 5,
+              "bottom": 5
+            },
+            "trimMm": [
+              185,
+              240
+            ],
+            "mediaMm": [
+              191,
+              246
+            ],
+            "trimOffsetMm": [
+              3,
+              3
+            ]
+          }
+        ]
+      },
+      "pdfVisualReview": {
+        "status": "reviewed",
+        "reviewer": "Codex; not user approval",
+        "date": "2026-10-07",
+        "folios": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "render": "135 dpi TrimBox PNGs",
+        "findings": "All four pages inspected. No clipped text, overlaps or missing artwork found. Compared with approved A4 contents/how-to; all original explanation and images carried forward. Core-needs capture enlarged to 80 mm. Faded Sun/Nutrition is the approved source treatment."
+      }
+    }
+  ],
+  "howToExplanations": [
+    "Bright shades show the usual sowing and harvest months for temperate climates. For the purposes of this guide, a temperate climate is considered as being lowland England, US zones 8 to 9. Muted shades show less usual options for warmer climates. Use local conditions and the crop’s advice to choose your timing.",
+    "Some vegetables, such as radishes, are great for beginners, whereas crops like celery and cauliflower will defeat even experienced gardeners in a bad season. The scale will give you an idea of how easy a crop is to grow, and how tolerant it is of adverse growing conditions.",
+    "An under-supply of sun, water or manure can damage some plants, while too much can harm others. Use this as a guide to core vegetable requirements."
+  ],
+  "artwork": {
+    "docs/front-matter/entry-pages/studies/assets/harvest-cluster.png": "aedba4cc6a729f618e930d6cee05694837e756d4c8bbd669f7689ab6eacd54c7",
+    "docs/front-matter/entry-pages/calendar-assets/radish-calendar.png": "6d706d495642ed80224a359739a8369889f442ee403e8b937114425aab7eeed1",
+    "docs/front-matter/entry-pages/calendar-assets/temperate-field.svg": "95774a8db9580af42048616e14362c203d99043b651789dbaaf7d4c47d9c8a2a",
+    "docs/front-matter/entry-pages/calendar-assets/tropical-island.svg": "d5d1edc613476358bae63ea8c0df310730d20e2dd260e3b42d25777987c002de",
+    "docs/front-matter/entry-pages/scales-study/assets/difficulty-capture.png": "77aab828d1274cb612a495d53e5d54a2214a917e84a37600d1a527660a98d5e3",
+    "docs/front-matter/entry-pages/scales-study/assets/baby.svg": "459c0b0d086e01139acc132e7ef55f4037295a7fcb79d67d41b0dd7d1904e759",
+    "docs/front-matter/entry-pages/scales-study/assets/einstein.svg": "ee99c8c68842d7c4812634394bd202da719b8ee57d906805b7027075480e6b54",
+    "docs/front-matter/entry-pages/scales-study/assets/core-needs-capture.png": "3f5c26757e2aed7338a81f5df7c904a829d745f669da9a477fad327cf49d535a",
+    "docs/front-matter/entry-pages/scales-study/assets/dropper.svg": "65ddeeee2ddb263ad6783bb965e88a230faa3f1e4703e78e8c9a1674cae93c65",
+    "docs/front-matter/entry-pages/scales-study/assets/wave.svg": "17af6bd7340b2d359db3ec88c20acfb2fcb81436916afa04302d9f39e1970723"
+  },
+  "implementation": {
+    "builderSha256": "936496b70272d5d0521e838fe2f25c5e6b5d87692ec656f76106f10df7de8fc4",
+    "cssSha256": "9796fac872f5e80f95799912f2da7dd690734dffa2b7af7336f0b8bcd8c39d43",
+    "pdfCheckerSha256": "f061075602567ec863ca2c91cc3908cb1adf5ccf246bd28d35d9e409b9984cf7"
+  },
+  "userApproval": {
+    "manifest": "docs/redesign-rollout/APPROVAL.json",
+    "entry": "compactEntryPages",
+    "date": "2026-10-07",
+    "by": "John"
+  }
+}

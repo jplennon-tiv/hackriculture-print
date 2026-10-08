@@ -1,39 +1,50 @@
 # Assisted printing
 
-The project-local [Guide layout review skill](../.agents/skills/guide-layout-review/SKILL.md)
-provides the discoverable workflow for this process; this document and the style
-contracts remain authoritative.
+Use [book-layout-review](../.agents/skills/book-layout-review/SKILL.md) for bound
+book pages and [guide-layout-review](../.agents/skills/guide-layout-review/SKILL.md)
+for individual A4 sheets. Both cover vegetable/Troubles fit, proof review and
+assisted export; the book skill also covers opening pages and facing spreads. Read the
+[current handover](handover/START-HERE.md) for task scope and next work; the
+format contracts below own design rules. Ordinary exports remain deterministic.
 
-A request to generate guides means prepare useful source-linked print content,
-measure it and export it for review. Ordinary browser export stays deterministic;
-no separate AI API or purchase is required.
+1. Identify the approved source component in the [asset registry](assets/README.md).
+   Inspect its actual proof and owning source before editing. Carry forward the
+   approved artwork, useful content and editorial choices; record intentional
+   departures. A new trim or binding is not permission to discard prior design.
+2. Choose the requested format. Publication uses [Compact Book v1](BOOK-PRINT-STYLE.md),
+   185 × 240 mm, with extra pages when useful information needs them. A4 uses
+   [Richer A vegetables](VEGETABLE-PRINT-STYLE.md) and
+   [Open Editorial Troubles](TROUBLES-PRINT-STYLE.md). Keep profiles separate.
+   Adapt the approved entry-page designs for the book; do not insert A4-sized
+   opening PDFs or copy their folios into a compact assembly.
+3. Read live records and reviewed source-linked companions; preserve locks and
+   manual edits. Select distinct crop-applicable advice before measuring. Keep
+   complete diagnostic entries, meaningful unit pairs, methods and qualifications.
+   Resolve substantive facts through the repository's RHS-first organic-advice
+   rules, within the task's authorised scope.
+4. For book preparation, keep new editorial copy in separate source-linked working
+   drafts; canonical records are unchanged. If shared editorial work is separately
+   in scope, use its guarded writer and exact prior-byte backups. Never stamp
+   approval to silence a warning or apply a consumed proposal again.
+5. Measure the affected pages with fonts/images loaded. Fit, readability and
+   useful content take precedence over a fixed page/row count. Check both units
+   for unit/wrapping changes. Inspect actual PDFs and compare them with their
+   approved source: successful geometry does not establish design continuity.
+6. Present changed proofs with concise checks and any omissions, replacements or
+   justified whitespace exceptions. Use individual guide proofs for focused work;
+   assemble whole books when book review/production is the authorised scope.
+   Update the owning handover/checkpoint with exact coverage. Keep frozen approval
+   references unchanged and new work visibly draft until approved.
 
-1. Read live records, current approved companions and the relevant style rules.
-   Preserve manual edits and locks. Reuse current reviewed copy and artwork.
-2. Work on the requested crop/group. Fit vegetables to the accepted two-page A4
-   design; new Troubles work follows [Open Editorial v1](TROUBLES-PRINT-STYLE.md):
-   open columns, larger diagnostic images and natural entry heights. Six entries
-   fit the approved samples; use fewer when content requires it. The installed
-   renderer measures whole entries; old fixed card budgets are not reused.
-   Do not add filler or lose advice to force counts or even page totals.
-3. Resolve substantive advice conflicts with RHS-first research. State practical
-   organic actions directly. Keep crop distinctions, diagnoses, safety, timing,
-   useful detail and coherent measurements. Never invent personal observations.
-4. Condense print summaries where needed while retaining full master advice.
-   Save with source dependencies, honest attribution and revision-guarded exact
-   prior-byte backups. Assistant output is not automatically user-approved.
-5. Run a bounded sizing/smoke check and inspect the affected proof when visually
-   relevant. Use the other unit for unit or wrapping changes. Expand only when
-   an actual failure or shared change justifies it; do not automatically render
-   five crops, all units or the catalogue after a minor change.
-6. Deliver individual crop PDFs and a concise result. Avoid combined preview
-   packs unless requested. Update the single current status, not another handover.
+For retained A4, `npm run check:smoke -- <crop>` covers one actual A4 vegetable
+PDF. `check:fit` is A4 DOM-only. Compact work uses the actual API/profile and PDF
+checks in [DEVELOPMENT](../DEVELOPMENT.md#compact-book-exports); A4 checks do not
+establish compact fit. Troubles review uses the active editorial renderer, not
+retired card-layout checkers. Use [SETUP](../SETUP.md) for commands.
 
-Vegetables follow [the approved style contract](VEGETABLE-PRINT-STYLE.md): fit,
-column alignment, then useful space filling; preserve fonts, padding and artwork.
-Final Tips is full-width by default. Missing source/extract warnings remain visible;
-do not fabricate advice or silently grant approval to suppress them.
-
-Use `npm run check:smoke -- <crop>` with start.command running. Troubles authoring
-commands are documented in [DEVELOPMENT](../DEVELOPMENT.md). Full tests/builds and
-catalogue-wide proof generation are explicit broader checks, not routine defaults.
+Broaden checks only for the change, a failure or an explicit full-collection task.
+No automatic catalogue run, build or raster pack after a small edit. If opening
+lengths, guide counts or ordering change, refresh the corresponding edition's
+pagination and contents before assembly. Printed page references must describe
+that exact PDF, not an earlier proof. Documentation-only work needs link and
+consistency checks; it does not require regenerating approved artwork.

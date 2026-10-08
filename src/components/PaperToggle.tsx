@@ -2,6 +2,7 @@ import { usePaper, type PaperSize } from "../lib/paper";
 import styles from "./UnitToggle.module.css";
 
 const OPTIONS: { value: PaperSize; label: string }[] = [
+    { value: "185x240", label: "185 × 240 mm" },
     { value: "A6", label: "A6" },
     { value: "A5", label: "A5" },
     { value: "A4", label: "A4" },

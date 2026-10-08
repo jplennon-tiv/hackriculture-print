@@ -1,4 +1,10 @@
-# Cover C — official output
+# Cover C — approved A4 source
+
+The installed A4 original remains approved. John rejected both compact C1/C2
+adaptations on 7 October and requested fresh covers using Cover C for colour and
+illustration style only. Preserve these A4 sources. The
+[handover](../../handover/START-HERE.md) owns the current title and cover brief;
+this document explains the A4 source and builder.
 
 John selected the new cover for official output on 30 September 2026. Cover C
 is now installed at `public/front-matter/cover-A4.pdf`, retaining its chunky title,

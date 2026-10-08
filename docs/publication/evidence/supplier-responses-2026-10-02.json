@@ -1,0 +1,77 @@
+{
+  "checkedDate": "2026-10-02",
+  "aura": {
+    "incoming": {
+      "messageId": "1a0fc5b642b31ed7",
+      "threadId": "1a0f7da3fe386abf",
+      "from": "orders@aura-print.com",
+      "dateUtc": "2026-10-02T11:23:56Z",
+      "bodyText": "Hi John,\r\n\r\nApologies, my error the never tear paper is completely water proof.\r\n\r\nMany thanks,\r\nBon\r\n",
+      "attachments": []
+    },
+    "finding": "Supplier explicitly corrected its earlier email: NeverTear is waterproof. This resolves the contradictory substrate claim, but does not establish printed abrasion life or an affordable finished book.",
+    "calculator": {
+      "url": "https://aura-print.com/uk/wire-bound-booklet-and-brochure-printing",
+      "source": "Live visible calculator controls via in-app browser",
+      "innerNevertearChoices": [
+        "155gsm Nevertear (120 Micron)",
+        "195gsm Nevertear (145 Micron)"
+      ],
+      "backCoverPaperChoices": [
+        "SIlk",
+        "Gloss",
+        "Uncoated",
+        "Recycled"
+      ],
+      "portraitSizeChoices": [
+        "A6 - 105x148mm",
+        "DL - 99x210mm",
+        "A5 - 148x210mm",
+        "A4 - 210x297mm"
+      ],
+      "limitation": "Could not configure the requested custom size or a synthetic back cover from the displayed options. No complete-product price recorded; default/incomplete configuration price is not a quote.",
+      "basketChanged": false
+    },
+    "outgoing": {
+      "status": "sent_confirmed",
+      "sendArguments": {
+        "to": "orders@aura-print.com",
+        "subject": "Re: Budget feasibility: waterproof gardening guide, £25 delivered retail, 50–500 copies",
+        "reply_message_id": "1a0fc5b642b31ed7",
+        "payload": {
+          "mime_type": "text/html",
+          "charset": "UTF-8",
+          "body": {
+            "content": "<p>Hi Bon,</p>\n<p>Thank you for confirming that NeverTear is waterproof.</p>\n<p>I have now tried the wire-bound calculator. It offers 155 gsm NeverTear (120 micron) and 195 gsm NeverTear (145 micron) for the inner sheets, but the back-cover paper choices shown are Silk, Gloss, Uncoated and Recycled. The size choices shown are A6, DL, A5 and A4.</p>\n<p>Could your production team confirm how to obtain a waterproof NeverTear back cover as well, and whether 185 × 240 mm is possible? If those need a bespoke estimate, please could you provide one or the correct calculator route? A4 is also useful as our comparison size.</p>\n<p>The estimating example remains 67 double-sided inner leaves (134 pages) on 155 gsm NeverTear, plus two heavier NeverTear covers printed outside only, full colour throughout, for 50 / 100 / 250 / 500 complete books. Please include or identify setup, binding, VAT and delivery assumptions. No final specification is approved.</p>\n<p>If your wire-bound range cannot provide synthetic covers at both ends, please let me know so we can assess the loose-sheet option instead. This remains a non-binding enquiry only.</p>\n<p>Many thanks,<br>John Lennon</p>"
+          }
+        },
+        "response_fields": [
+          "id",
+          "thread_id",
+          "label_ids"
+        ]
+      },
+      "receipt": {
+        "id": "1a0fd25fc5a57b12",
+        "thread_id": "1a0f7da3fe386abf",
+        "label_ids": [
+          "SENT"
+        ]
+      }
+    },
+    "preSendCheck": "Read full Aura thread and searched recent Sent mail. Only original enquiry and the morning clarification were sent; no duplicate follow-up."
+  },
+  "smiths": {
+    "incoming": {
+      "messageId": "1a0fceb7b1c5be27",
+      "threadId": "1a0f7da9b3d61d2c",
+      "from": "sales@smiths1972.co.uk",
+      "dateUtc": "2026-10-02T14:01:15Z",
+      "bodyText": "Hi John,\r\nThanks for sending through the detailed specification.\r\nHaving reviewed the scope, I don’t believe we would be able to help within the target manufacturing cost of £6–£8 per complete product.\r\nWith the number of full-Colour synthetic pages, collation, binding and finishing involved, that budget is unfortunately not realistic for the type of product you’re describing, particularly at the quantities mentioned.\r\nRather than take up your time, or ours, preparing detailed pricing for something that is unlikely to meet your target, I think it’s best to be upfront at this stage.\r\nIf your budget or specification changes significantly, we’d be happy to take another look.\r\n",
+      "quoteAttachments": [],
+      "inlineImages": "Two signature/promotional images; no quotation attachment."
+    },
+    "finding": "Declined to prepare detailed prices at £6–£8 per complete product for the requested quantities because of synthetic full-colour page count, collation, binding and finishing. No numeric alternative price given.",
+    "decision": "Close active quote request for the current brief; suppress automatic reminders. Revisit only if John changes budget/specification or supplier volunteers a viable alternative. This is supplier-specific feasibility feedback, not a quantified market floor."
+  }
+}

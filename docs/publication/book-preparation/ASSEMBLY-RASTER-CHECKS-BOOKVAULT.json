@@ -1,0 +1,98 @@
+{
+  "checkedAtUtc": "2026-10-06T09:33:18.692742+00:00",
+  "method": "Poppler JPEG at identical 1150px geometry and quality90; decoded RGB samples compared to original individual-PDF raster",
+  "scope": "8 representative assembled pages; not whole-book visual sign-off",
+  "results": [
+    {
+      "units": "imperial",
+      "physicalPage": 4,
+      "sourceId": "imperial/opening",
+      "sourcePage": 4,
+      "sourceSha256": "bc681ea26cd0327b3dfee141ba800bcd5d03834b2780fe38354563ac6c3f108a",
+      "result": "pixel_identical_at_1150px_render",
+      "assembledSha256": "15e433194407b53f5ce7f8829bfac727196fd9c51178da8e03f9110ac46b85e6",
+      "raster": "tmp/pdfs/book-preparation/assembly-review/bookvault/imperial-4-assembled-004.jpg"
+    },
+    {
+      "units": "imperial",
+      "physicalPage": 40,
+      "sourceId": "imperial/vegetable/kale",
+      "sourcePage": 1,
+      "sourceSha256": "1830b04169e32962899f32114bdac03a96642cae4ab481fab5829171481dace8",
+      "result": "pixel_identical_at_1150px_render",
+      "assembledSha256": "15e433194407b53f5ce7f8829bfac727196fd9c51178da8e03f9110ac46b85e6",
+      "raster": "tmp/pdfs/book-preparation/assembly-review/bookvault/imperial-40-assembled-040.jpg"
+    },
+    {
+      "units": "imperial",
+      "physicalPage": 41,
+      "sourceId": "imperial/vegetable/kale",
+      "sourcePage": 2,
+      "sourceSha256": "1830b04169e32962899f32114bdac03a96642cae4ab481fab5829171481dace8",
+      "result": "pixel_identical_at_1150px_render",
+      "assembledSha256": "15e433194407b53f5ce7f8829bfac727196fd9c51178da8e03f9110ac46b85e6",
+      "raster": "tmp/pdfs/book-preparation/assembly-review/bookvault/imperial-41-assembled-041.jpg"
+    },
+    {
+      "units": "imperial",
+      "physicalPage": 119,
+      "sourceId": "imperial/trouble/celery_troubles",
+      "sourcePage": 1,
+      "sourceSha256": "4f5cba242e52c9322940c12b8c0ed0bdae0ecbb3043ffd1513fa5bd39a39a02e",
+      "result": "pixel_identical_at_1150px_render",
+      "assembledSha256": "15e433194407b53f5ce7f8829bfac727196fd9c51178da8e03f9110ac46b85e6",
+      "raster": "tmp/pdfs/book-preparation/assembly-review/bookvault/imperial-119-assembled-119.jpg"
+    },
+    {
+      "units": "metric",
+      "physicalPage": 4,
+      "sourceId": "metric/opening",
+      "sourcePage": 4,
+      "sourceSha256": "60ac0c1ae68626bd7ea08266a8d375df50f5ee7116842906e25884c89d0c29b4",
+      "result": "pixel_identical_at_1150px_render",
+      "assembledSha256": "6236baea994c73fe098f7051435069e6b0bce960a7839eb8ef8c8f10d46a5a23",
+      "raster": "tmp/pdfs/book-preparation/assembly-review/bookvault/metric-4-assembled-004.jpg"
+    },
+    {
+      "units": "metric",
+      "physicalPage": 40,
+      "sourceId": "metric/vegetable/kale",
+      "sourcePage": 1,
+      "sourceSha256": "993597db3acb005aa97f9b9073f74a3baed833d46a1dd004762087d2cbc67634",
+      "result": "pixel_identical_at_1150px_render",
+      "assembledSha256": "6236baea994c73fe098f7051435069e6b0bce960a7839eb8ef8c8f10d46a5a23",
+      "raster": "tmp/pdfs/book-preparation/assembly-review/bookvault/metric-40-assembled-040.jpg"
+    },
+    {
+      "units": "metric",
+      "physicalPage": 41,
+      "sourceId": "metric/vegetable/kale",
+      "sourcePage": 2,
+      "sourceSha256": "993597db3acb005aa97f9b9073f74a3baed833d46a1dd004762087d2cbc67634",
+      "result": "pixel_identical_at_1150px_render",
+      "assembledSha256": "6236baea994c73fe098f7051435069e6b0bce960a7839eb8ef8c8f10d46a5a23",
+      "raster": "tmp/pdfs/book-preparation/assembly-review/bookvault/metric-41-assembled-041.jpg"
+    },
+    {
+      "units": "metric",
+      "physicalPage": 119,
+      "sourceId": "metric/trouble/celery_troubles",
+      "sourcePage": 1,
+      "sourceSha256": "8e2e452e913df14abaa3ea6acc438d065658a8bc72a8f9b20e40031736e319ac",
+      "result": "pixel_identical_at_1150px_render",
+      "assembledSha256": "6236baea994c73fe098f7051435069e6b0bce960a7839eb8ef8c8f10d46a5a23",
+      "raster": "tmp/pdfs/book-preparation/assembly-review/bookvault/metric-119-assembled-119.jpg"
+    }
+  ],
+  "visualReview": {
+    "reviewedAtUtc": "2026-10-06T09:35:38.779516+00:00",
+    "scope": "Eight actual assembled pages: contents page 4, Kale facing spread 40/41 and Celery Troubles page119, both units. Representative review only.",
+    "result": "Contents and folios current; inside margin mirrored, approved Kale hero/circle/sticker and reminder/tips retained; Celery diagnostic illustrations and text clear. No clipping, missing artwork or assembly artefact seen.",
+    "rasters": [
+      "tmp/pdfs/book-preparation/assembly-review/bookvault/imperial-sample-0.jpg",
+      "tmp/pdfs/book-preparation/assembly-review/bookvault/imperial-sample-1.jpg",
+      "tmp/pdfs/book-preparation/assembly-review/bookvault/metric-sample-0.jpg",
+      "tmp/pdfs/book-preparation/assembly-review/bookvault/metric-sample-1.jpg"
+    ]
+  }
+}

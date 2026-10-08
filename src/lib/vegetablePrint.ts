@@ -16,9 +16,9 @@ export interface VegetablePrintLayout extends ExtractReview {
  value:{pest_limit:number;target_pages:2;tips_position?:'full-width'|'right-column'|'left-column';tips_columns?:2;fill_bottoms?:boolean;intro_sentences?:number;variety_count?:number;align_bottoms?:boolean};
  measurements?:Record<string,unknown>;
 }
-export const VEGETABLE_PRINT_REVISION='vegetable-extracts-v9';
+export const VEGETABLE_PRINT_REVISION='vegetable-extracts-v10';
 export const RICH_CONTENT_LAYOUT_REVISION='richer-a-v2-editorial-fill';
-/** v9 honours explicit inline crop scope and concise Key Risks summaries.
+/** v10 reads nested variety groups and avoids repeated cultivar names in print.
  * Prior saved content choices remain compatible; fitting remeasures them. */
 function hasPairedSourceProse(value:unknown):boolean {
  if(!value || typeof value!=='object')return false;
@@ -92,7 +92,7 @@ export function layoutDependencies(veg:Vegetable):Record<string,string>{
 export function resolveVegetablePrintLayout(veg:Vegetable,drafts=false){
  const layout=veg.ai_print_layout;if(!layout)return {layout:null,warning:null};
  const compatible=layout.renderer_revision===RICH_CONTENT_LAYOUT_REVISION || layout.renderer_revision===VEGETABLE_PRINT_REVISION ||
-  ['vegetable-extracts-v5','vegetable-extracts-v6','vegetable-extracts-v7','vegetable-extracts-v8'].includes(layout.renderer_revision) ||
+  ['vegetable-extracts-v5','vegetable-extracts-v6','vegetable-extracts-v7','vegetable-extracts-v8','vegetable-extracts-v9'].includes(layout.renderer_revision) ||
   (layout.renderer_revision==='vegetable-extracts-v4'&&!hasPairedSourceProse(veg));
  const reason=printChecksum(layout.dependencies)!==printChecksum(layoutDependencies(veg))?'layout source changed':
   !compatible?'renderer changed':
