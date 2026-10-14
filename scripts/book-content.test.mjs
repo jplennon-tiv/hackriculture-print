@@ -99,3 +99,10 @@ test('an unresolved rollback retains the lock and prepared journal for investiga
   const journal = JSON.parse(fs.readFileSync(path.join(dir, 'backups/admin', backup, 'transaction.json'), 'utf8'));
   assert.equal(journal.state, 'prepared');
 });
+
+test('section opener validation rejects duplicate identities and unsafe image paths',()=>{
+ const d=structuredClone(data); d.book.sectionOpeners[1].id='varieties';
+ assert.throws(()=>validateBookLayout(d),/keep varieties/);
+ d.book.sectionOpeners=structuredClone(data.book.sectionOpeners);d.book.sectionOpeners[0].illustrations[0].src='https://external.example/image.png';
+ assert.throws(()=>validateBookLayout(d),/local/);
+});

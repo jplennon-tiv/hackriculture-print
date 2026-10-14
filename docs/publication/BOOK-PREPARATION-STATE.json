@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "status": "whole_book_order_preview_ready_for_john",
-  "documentRole": "Technical progress and evidence ledger. Current project scope, decisions and next actions are in docs/handover/START-HERE.md; historical checkpoints and the original automation brief are not a current work queue.",
+  "status": "section_openers_and_revised_order_ready_for_review",
+  "documentRole": "Technical evidence ledger. wholeBookOrderPreview is the latest complete-book derivative; docs/handover/START-HERE.md owns current scope and next actions. Fields explicitly listed in historicalFieldScope retain earlier file evidence and must not be treated as the current book, fresh checks or a work queue.",
   "currentGuidance": "docs/handover/START-HERE.md",
   "automationStatus": "PAUSED",
   "historicalFieldScope": {
@@ -14,16 +14,23 @@
       "interiorCheckpoint",
       "interiorBaseline",
       "completionReport",
-      "frontMatterDirection"
+      "frontMatterDirection",
+      "lastRunCompletedUtc",
+      "codeChecks",
+      "currentProduction",
+      "flatteningCheckpoint",
+      "visualCheckpointUtc",
+      "reviewReadyAtUtc",
+      "roughProgressPreview"
     ],
-    "meaning": "Dated preparation and original-source verification evidence from 5–6 October. The original deadline remains because the old runner reads it; do not infer an active schedule or restart it. Later coverage and design decisions supersede those initial instructions. Completion means the initial review pack, not publication or revised cover/opening approval.",
+    "meaning": "Retained dated evidence from the original 5–6 October technical preparation and 7 October rough preview. The misleadingly named currentProduction field describes the saved 148-page supplier drafts, not the current 176-page order preview. Initial deadlines are retained for compatibility with the old runner, not an active schedule. Later derivative/check sections identify their own files and dates. Historical local no-rebuild booleans describe those bounded tasks only.",
     "browserAccess": "Last observed access only. Reinspect before any authorised account operation; do not assume login persists."
   },
   "authorisedAtUtc": "2026-10-05T22:50:03Z",
   "deadlineUtc": "2026-10-06T18:00:00Z",
   "deadlineLocal": "6 October 2026, 19:00 Europe/London",
   "automationId": "prepare-compact-book-proof",
-  "brief": "Current technical ledger for the compact non-waterproof POD book. Initial unattended preparation is complete and paused. Working price/service: GBP 17.50 and Bookvault. John selected direct Great British Bookshop links for launch on 7 October, with most buyers expected from hackriculture YouTube; Shopify deferred. Stock remains unconfirmed. Latest title/subtitle selected on 7 October: The Vegetable Guru / Your at-a-glance growing companion. John removed the 44/14 front-cover footer; guide counts remain unchanged. C1/C2 Cover C adaptations rejected. G2 Cream centre selected by John. B1–B3 back-cover ideas rejected. Keep B2 dark green and replace explanatory widgets with angled torn-page fragments that suggest the contents. B5 Off-centre collage is now the preferred back-cover direction alongside selected G2. Exact page crops and editable cover text remain for production. Cover C is a colour/style reference only. Compact contents/how-to approved by John on 7 October; title/publication/introduction remain pending. See handover for current actions.",
+  "brief": "Technical ledger for The Vegetable Guru: Your at-a-glance growing companion, 185 x 240 mm, full-colour paperback. Working service/price: Bookvault, GBP 17.50 with customer shipping separate; direct Great British Bookshop links selected for launch. G2 front selected, B5 back preferred, final stock/wrap/copy open. The latest imperial screen preview has 176 interior pages plus four cover leaves, approved additional content and numeric index, with three new section openers and expanded contents for review. Older supplier drafts and costs use 148 pages. See the handover for current actions; no automation restart.",
   "format": "Compact Book v1, 185 x 240 mm; preserve the approved design and frozen reference proofs",
   "scope": {
     "vegetables": 44,
@@ -39,12 +46,12 @@
       "id": "interior",
       "status": "draft_ready",
       "task": "Review the prepared both-unit collection against approved compact sources and recorded exceptions; make only justified requested changes. Preserve content, artwork and source-linked working copy.",
-      "remaining": "John’s full-collection and four-blank facing-spread review; final production changes depend on chosen supplier/stock. Both unit editions and supplier geometries are prepared."
+      "remaining": "John’s full-collection and final page-order/blank-policy review; the requested current sequence is implemented in the 176-page imperial screen preview. Earlier 148-page supplier drafts remain evidence; production integration and the complete metric edition remain pending."
     },
     {
       "id": "opening_pages",
       "status": "whole_book_order_preview_ready",
-      "task": "Settle opening order in the complete preview. Later review final copy and the H5/H6 how-to, H3/S1 welcome/author allocation; contents retain approved-source artwork.",
+      "task": "Review the new section openers and requested order in the 176-page imperial preview. Then refine contents; preserve approved source pages and existing wider opening-copy decisions.",
       "evidence": [
         "book-preparation/OPENING-CHECKS.json",
         "book-preparation/PDF-OPENINGS.json",
@@ -81,7 +88,7 @@
         "book-preparation/POD-PREFLIGHT.json",
         "book-preparation/DRAFT-METADATA.json"
       ],
-      "remaining": "Current custom-trim eligibility, requirements and148-page calculator estimates verified; four separate flattened interiors prepared and checked. Title/author/rights/ISBN/stock choices, fine icon detail, final colour/PDF preflight and cover wrap remain before account setup/upload. No Previewer or physical proof yet."
+      "remaining": "Supplier requirements and 148-page calculator estimates were checked on 6 October. Recheck them against confirmed stock and final pagination before production. Fine icon detail, colour/PDF preflight, cover wrap, metadata and ISBN/rights decisions remain. No Previewer or physical proof."
     },
     {
       "id": "review_pack",
@@ -114,8 +121,8 @@
     "Waterproof quote automation remains paused. No supplier mail or renewed waterproof outreach under this task.",
     "Update the technical checkpoint after each manageable authorised batch and keep current actions in the handover. The original unattended deadline/schedule is historical; both automations remain paused. Do not claim checks that did not occur or restart work from old pending items."
   ],
-  "lastCompletedStep": "Assembled the complete imperial page-order preview: 170 proposed interior pages plus four cover leaves, latest contents and a numeric clickable index. Reused all 137 guide pages without re-export; final order and contents await John’s review.",
-  "reviewIndex": "bookvault-progress-preview/REVIEW.html",
+  "lastCompletedStep": "14 October: saved 176-page imperial interior / 180-leaf complete preview, updated contents and numeric index, and verified requested facing spreads. Subsequently reconciled active documentation for the next session; no content, artwork, PDF, code or automation changes during the documentation refresh.",
+  "reviewIndex": "whole-book-order-preview/REVIEW.html",
   "evidence": [
     "BOOK-GENERATOR-CHECKS.json",
     "book-pilot/DESIGN-APPROVAL.json",
@@ -153,7 +160,11 @@
     "book-preparation/FLATTENED-ASSEMBLY-CHECKS-BOOKVAULT.json",
     "bookvault-progress-preview/CHECKS.json",
     "book-layout-working/MIGRATION.json",
-    "mushroom-schema-fix/CHECKS.json"
+    "mushroom-schema-fix/CHECKS.json",
+    "whole-book-order-preview/CHECKS.json",
+    "whole-book-order-preview/VISUAL-REVIEW.json",
+    "whole-book-order-preview/SECTION-OPENERS-SAVE.json",
+    "contents-update/VISUAL-REVIEW.json"
   ],
   "knownStartingLimits": [
     "Only Kale, Onions/Shallots and full Carrot/Parsnip Troubles currently have live compact PDF checks in both units.",
@@ -198,10 +209,10 @@
     "versionNote": "Vegetables were exported after variety/tip/section-flow fixes; the final subsequent renderer change affected Troubles alignment and footer checks only. Receipts retain per-file implementation signatures. Do not label all 116 as one final production build."
   },
   "nextRunPriorities": [
-    "Read docs/handover/START-HERE.md for current scope and ordered next actions. Both automations remain paused; there is no scheduled next run.",
-    "John’s working price/service choices are GBP 17.50 and Bookvault. Follow the handover for title/cover and opening-copy decisions before a detailed design run; stock/process still need proof evaluation. No new render/design batch requested by this decision.",
-    "Use this ledger for exact coverage and evidence, not old completed tasks or historical pending items. Refresh contents, folios, costs and wrap calculations after page/order changes.",
-    "Preserve existing KDP titles. Account trials remain conditional on suitable files and confirmed metadata; publication, orders, fees, rights declarations, ISBN allocation and contractual acceptance are not authorised."
+    "Read docs/handover/START-HERE.md and use the saved 176-page whole-book preview. No automatic next run is scheduled; both automations remain paused.",
+    "Review the three new opener designs/copy and assembled sequence, then refine the expanded contents. The requested order is already implemented.",
+    "Preserve approved source files, user edits and shared-copy backups. Wider opening/cover copy and production work resume only within John’s chosen scope. Rebuild only affected proofs and assemble only when required.",
+    "Refresh costs/stock/template from final pagination before production. Preserve existing KDP titles; no fees, proof purchases, rights/ISBN declarations, contractual acceptance or publication are authorised."
   ],
   "codeChecks": {
     "typescript": "09:00 UTC run: npx tsc -b passed after Bookvault renderer/safety changes.",
@@ -220,7 +231,7 @@
     "cleanup": "Removed only two recovered failed-flattening scratch folders after verifying successful replacement PDF hashes. Original review PDFs and referenced diagnostics retained.",
     "reviewIndex": "HTML parsed with valid internal anchors,25 existing local targets and alt text for all five displayed images. Built-in file:// preview was blocked; no workaround or rendered-index claim. Current actual PDF samples were viewed."
   },
-  "localServer": "Owned temporary start.command session 11163 stopped after the 09:00 UTC batch. Start through start.command when exports are next required; do not assume a server persists.",
+  "localServer": "No persistent server state is guaranteed. Inspect loopback process ownership; use start.command when needed for preview/exports. Offline PDF assembly/checking needs no app server. Do not stop a user-owned server or expose session credentials.",
   "currentProduction": {
     "guidePdfCount": 116,
     "guideExportErrors": 0,
@@ -383,17 +394,16 @@
         "bytes": 301687081,
         "pages": 148
       }
-    ]
+    ],
+    "scope": "Historical 6 October supplier-production evidence: saved 148-page drafts with older openings. Use wholeBookOrderPreview for the latest 176-page screen review; do not refresh these files merely to resume."
   },
   "currentLimitations": [
-    "All 288 current KDP content pages have hash-matched screen visual review, not a physical proof or John’s full-collection approval. Bookvault review remains representative, backed by complete text/count/folio/physical checks.",
-    "Forty crops have two-page drafts; Carrot, both Tomatoes and Onion/Shallots retain three. Carrot third page and Mushroom overview remain naturally open; no filler or shrinkage. Additional pages are authorised.",
-    "All final Troubles groups now reviewed in both units. Larger alignment gaps remain in Bean/Pea P3, Onion/Leek P1 and Turnip/Swede/Radish P1; Brassica P1–3 have open lower areas. Sparse final pages retain natural unequal lower edges. These are explicit aesthetic exceptions, not clipping or omission.",
-    "Both 148-page KDP assemblies are current, with current contents and four unprinted blanks. Folio/geometry/content-stream checks cover every physical page, while assembly visual review is representative. No final collection approval.",
-    "Bookvault 17 mm inner/8 mm outer adaptation and both 148-page assemblies are complete. Fresh 148-page costs are saved. Current cover-template filename8.436 versus printed/measured8mm spine remains unresolved; no final wrap.",
-    "G2 front selected and B5 back preferred; both are included in the rough imperial screen preview with the latest seven opening pages. Earlier production-sized assemblies retain their old opening drafts. Final opening design/copy, artwork allocation, exact cover page crops, editable cover text, metadata/rights/ISBN and stock decisions remain before upload. No account mutations or supplier messages.",
-    "Separate 600 dpi RGB artwork derivatives remove transparency while preserving native vector text. Every derivative page passes physical and raster-difference checks; visual inspection is representative. Fine icon lines are not thickened; PDF/X, final colour handling, supplier acceptance and physical proof quality remain unverified.",
-    "Review-index links and document structure were checked. Its browser rendering was not inspected because the built-in browser rejected file:// navigation; no workaround was attempted. Actual PDFs were rendered and reviewed independently."
+    "The latest complete preview is imperial, 176 interior pages plus four cover leaves, using reduced screen artwork. It is not a supplier upload file; print-resolution and complete metric integration remain separate.",
+    "John’s requested order is implemented. New section-opener designs/copy, expanded contents, final pagination and full-collection approval remain for review. Approved topic/index/source-page designs are preserved.",
+    "Title/publication/introduction placeholders and proposed H3/S1/H5/H6/H4 placements remain. Author biography is saved for John’s editing. G2/B5 need exact page crops, editable lettering, final blurb and a stock-dependent wrap.",
+    "Earlier 148-page production files retain complete numerical checks and the visual coverage recorded in their receipts. Their costs and spine template are not estimates for 176 pages; recheck at production. The old 8 mm / 8.436 mm template discrepancy is unresolved.",
+    "Known guide composition exceptions remain: Carrot continuation and Mushroom overview have open space; some Troubles columns have larger alignment gaps. Do not add filler or shrink type merely to eliminate these recorded exceptions.",
+    "Fine icon detail, final colour/PDF requirements, supplier acceptance and physical print quality remain unverified. No supplier messages, account changes, fees, proof orders or publication have been made for this preview."
   ],
   "visualCheckpointUtc": "2026-10-06T09:11:35.324955+00:00",
   "flatteningCheckpoint": {
@@ -547,27 +557,20 @@
     "scopeQualification": "The instruction and verification above record the 6 October source inspection. G2/B5 supersede Cover C as the book directions; compact entry-page adaptation was subsequently approved on 7 October. Preserve original A4 files and hashes. This historical object is not an active work queue."
   },
   "documentationChecks": {
-    "checkedAtUtc": "2026-10-08T10:52:32.613680+00:00",
-    "scope": "Fresh-session review of active handover, project instructions, design/data documentation, five skills and shared-skill discovery. Historical evidence retained; current cover/opening and resolved Mushroom guidance reconciled.",
-    "localMarkdownLinksChecked": 394,
-    "markdownAnchorsChecked": 22,
-    "checkpointEvidenceLinksChecked": 37,
-    "skillsValidated": [
-      "book-layout-review",
-      "guide-layout-review",
-      "hackriculture-data",
-      "vegetable-guru-artwork",
-      "vegetable-guru-book-design"
-    ],
-    "automaticSelection": true,
-    "sharedDataSkillLinksVerified": [
-      "hackriculture-print",
-      "hackriculture",
-      "hackriculture-video"
-    ],
-    "consistencyReview": "Confirmed G2/B5 directions, approved compact contents/how-to versus proposed openings/stock allocation, separate editable book-layout JSON, record-level writes, resolved Mushroom schema and retained A4 support. The next stage is opening copy/artwork review; completed maintenance and historical automation jobs are not a work queue.",
-    "applicationTests": "Not rerun for documentation-only review. Latest code/proof checks are recorded in mushroom-schema-fix/CHECKS.json.",
-    "publicationBoundary": "No app code, gardening JSON, artwork, PDFs, account actions, supplier messages or automation configuration changed in this documentation review."
+    "date": "2026-10-14",
+    "scope": "Current handover, root/readme/shared-data ownership, development rebuild guidance, publication overview, design/asset status, index/topic/contents/whole-book notes and technical-ledger historical scope.",
+    "status": "passed",
+    "applicationTests": "Not rerun; this task changes documentation only. Latest content/contents/index tests and proof coverage remain in whole-book-order-preview/VISUAL-REVIEW.json.",
+    "publicationBoundary": "No gardening/book-copy JSON, artwork, PDF, app code, account actions, supplier messages or automation configuration changed.",
+    "localMarkdownFilesChecked": 13,
+    "localMarkdownTargetsChecked": 347,
+    "markdownAnchorsChecked": 7,
+    "protectedSourceHashesVerified": 95,
+    "sharedBookCopyInputsVerified": 8,
+    "currentWholeBookPdfHashVerified": "9a1f59d4fd08ee4535a34110efc2b7b4b43fbaf543545487a8aeb73f6fb35361",
+    "currentPreviewEvidencePathsChecked": 9,
+    "consistencyReview": "Current 176-page order and facing pairs reconciled; new opener/contents designs remain unapproved; approved topic/index work is complete; old 148-page production/170-page order/T-C index information explicitly historical; correct current and retained builder routes distinguished.",
+    "whitespaceChecks": "git diff --check passed in print and shared-data projects."
   },
   "roughProgressPreview": {
     "createdAtUtc": "2026-10-07T20:52:28.143264+00:00",
@@ -578,7 +581,7 @@
     "units": "imperial",
     "interiorPages": 148,
     "previewPages": 152,
-    "description": "G2 front, B5 back, latest seven opening pages with six new stock illustrations, and the saved Bookvault body. Reduced artwork with native text. Separate screen derivative; approved originals and earlier production-sized assemblies unchanged.",
+    "description": "Historical 7 October screen derivative: G2/B5, seven proposed opening pages and the saved 148-page interior. Superseded as the latest combined review by wholeBookOrderPreview; retained unchanged as an assembly source.",
     "approval": "Review requested; no new design, copy, artwork allocation or supplier approval implied."
   },
   "bookLayoutData": {
@@ -588,9 +591,10 @@
     "editingGuide": "../hackriculture-data/book-layout/README.md",
     "receipt": "docs/publication/book-layout-working/MIGRATION.json",
     "workingProofs": "output/pdf/book-layout-working/",
-    "coverage": "Seven opening pages in both units; unchanged extracted text and pixel-identical 90 dpi renders against preserved originals; all 58 contents references per edition verified",
+    "coverage": "Historical 8 October migration check: seven opening pages in both units, verbatim extracted text and pixel-identical 90 dpi renders; 58 references per edition. Current expanded contents has separate checks and 81 destinations.",
     "fullBookReassembled": false,
-    "guidesReexported": false
+    "guidesReexported": false,
+    "currentEditingGuide": "../hackriculture-data/book-layout/README.md"
   },
   "authorBiographyDraft": {
     "date": "2026-10-08",
@@ -603,11 +607,11 @@
     "coverage": "One imperial PDF visually inspected; both-unit DOM fit. Screen folio 2/3 context reviewed.",
     "fullBookRegenerated": false,
     "approvedSourcesPreserved": true,
-    "otherOpeningCopy": "Still placeholders; general book work remains deferred beyond this focused author draft."
+    "otherOpeningCopy": "Other welcome/publication copy remains placeholder text. The saved author copy is included in the current whole-book preview; wider copy review awaits John’s direction."
   },
   "growingTechniquesCultivationDraft": {
     "date": "2026-10-08",
-    "status": "approved_by_john_integration_pending",
+    "status": "approved_included_in_screen_preview_production_pending",
     "planApproved": true,
     "startingCompostDepth": "About 10 cm / 4 inches, chosen directly by John",
     "pagesPerEdition": 4,
@@ -632,11 +636,18 @@
     "fullBookRegenerated": false,
     "contentsChanged": false,
     "approvedSourcesPreserved": true,
-    "next": "Preserve approved reference and John’s possible text tweaks. Later add supported topic-copy and contents/assembly integration.",
+    "next": "Preserve approved references and John’s later copy edits. Already integrated into the current screen preview, contents and index; final production remains pending.",
     "latestChange": "Leading Topic column and six row labels; page 152 headed Digging — continued; separate coloured Another option: Smothering panel explicitly suitable before either digging or no-dig.",
     "userFeedback": "John explicitly approved these pages; he may make later text tweaks in the editable JSON.",
     "approvalDate": "2026-10-08",
-    "approval": "docs/publication/topic-pages/cultivation-dig-no-dig/APPROVAL.json"
+    "approval": "docs/publication/topic-pages/cultivation-dig-no-dig/APPROVAL.json",
+    "sourceProofScope": "provisionalFolios, coverage and no-rebuild booleans describe the preserved 8 October focused proof, not current book placement.",
+    "currentPreviewFolios": [
+      160,
+      161,
+      162,
+      163
+    ]
   },
   "techniquesExpansionReview": {
     "date": "2026-10-12",
@@ -715,7 +726,8 @@
       "sowing"
     ],
     "approvalDate": "2026-10-12",
-    "collectionApproval": "docs/publication/topic-pages/techniques-expansion/COLLECTION-APPROVAL.json"
+    "collectionApproval": "docs/publication/topic-pages/techniques-expansion/COLLECTION-APPROVAL.json",
+    "coverageScope": "These checks and fullBookRegenerated=false describe the approved focused collection on 12 October. Its pages were later reused in wholeBookOrderPreview; current placement is recorded there."
   },
   "bookIndex": {
     "date": "2026-10-12",
@@ -732,40 +744,72 @@
       "path": "output/pdf/book-index/vegetable-guru-index-draft.pdf",
       "sha256": "5d3aad9ce673ca1d881a00821959d7cb02bb80077e9d9e969785579bd869116b"
     },
-    "temporaryReferences": "T = current techniques proof pages; C = cultivation proof pages. Replace from final assembly map.",
+    "temporaryReferences": "Historical standalone approved proof only: T = local techniques pages, C = cultivation pages. The current whole-book derivative has numeric references and integrated folios 172–175.",
     "fullBookRegenerated": false,
     "next": "Approved reference preserved. Numeric integrated derivative is in the whole-book order preview; refresh it again only after order changes.",
     "approval": "docs/publication/book-index/APPROVAL.json",
     "approvedDate": "2026-10-12",
-    "integratedPreview": "docs/publication/whole-book-order-preview/index/CHECKS.json"
+    "integratedPreview": "docs/publication/whole-book-order-preview/index/CHECKS.json",
+    "integratedFolios": [
+      172,
+      175
+    ]
   },
   "updatedContents": {
-    "status": "proposal_ready_for_review",
+    "status": "revised_order_contents_for_review",
     "review": "docs/publication/contents-update/REVIEW.html",
     "checks": "docs/publication/contents-update/CHECKS.json",
     "pdfChecks": "docs/publication/contents-update/PDF-CHECKS.json",
     "plan": "docs/publication/contents-update/ASSEMBLY-PROPOSAL.json",
-    "plannedInteriorPages": 170,
+    "plannedInteriorPages": 176,
     "contentsPages": 3,
-    "referencesPerEdition": 78,
+    "referencesPerEdition": 81,
     "fullBookRegenerated": false,
-    "wholeBookPreview": "docs/publication/whole-book-order-preview/REVIEW.html"
+    "wholeBookPreview": "docs/publication/whole-book-order-preview/REVIEW.html",
+    "scope": "This builder produces three contents pages per edition, not a whole book. Those pages are included in the separate wholeBookOrderPreview; final contents design remains for review.",
+    "visual": "docs/publication/contents-update/VISUAL-REVIEW.json"
   },
   "wholeBookOrderPreview": {
-    "date": "2026-10-12",
-    "status": "proposal_ready_for_page_order_review",
+    "date": "2026-10-14",
+    "status": "requested_order_applied_new_openers_for_review",
     "review": "docs/publication/whole-book-order-preview/REVIEW.html",
     "notes": "docs/publication/whole-book-order-preview/README.md",
     "pdf": "output/pdf/whole-book-order-preview/the-vegetable-guru-order-preview.pdf",
-    "sha256": "90cce4be6d3a1fe15d931db043d07855a76812257ecb2af5af68448081793acf",
-    "interiorPages": 170,
-    "pdfPages": 174,
+    "sha256": "9a1f59d4fd08ee4535a34110efc2b7b4b43fbaf543545487a8aeb73f6fb35361",
+    "interiorPages": 176,
+    "pdfPages": 180,
     "units": "imperial",
     "checks": "docs/publication/whole-book-order-preview/CHECKS.json",
     "visual": "docs/publication/whole-book-order-preview/VISUAL-REVIEW.json",
     "pageMap": "docs/publication/whole-book-order-preview/PAGE-MAP.json",
     "guidePagesReused": 137,
     "guidesReexported": 0,
-    "next": "Ratify opening and techniques order and facing-page/blank policy before refining contents. Existing order is preserved for review; proposed changes have not been applied."
+    "next": "Review the three opener designs and new facing sequence, then refine the contents.",
+    "sectionOpenerFolios": [
+      9,
+      109,
+      155
+    ],
+    "facingPairs": [
+      [
+        10,
+        11
+      ],
+      [
+        158,
+        159
+      ],
+      [
+        162,
+        163
+      ],
+      [
+        168,
+        169
+      ]
+    ],
+    "sectionOpeners": "docs/publication/whole-book-order-preview/SECTION-OPENERS.json",
+    "copySaveReceipt": "docs/publication/whole-book-order-preview/SECTION-OPENERS-SAVE.json",
+    "approval": "Requested order applied; John has not explicitly approved the new opener designs or expanded contents. Latest response requested documentation refresh for a fresh session."
   }
 }

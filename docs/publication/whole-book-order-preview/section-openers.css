@@ -1,0 +1,18 @@
+/* Proposed section-opening treatment; uses existing book type, colour and art. */
+@import url('/docs/publication/vegetable-guru-entry-pages/entry-pages.css');
+.section-opener{padding-top:19mm}
+.section-opener .section-number{font:900 12px/1.4 Nunito,sans-serif;letter-spacing:1.5px;margin-bottom:12mm;color:#173e2c}
+.section-opener .section-number span{display:inline-block;background:#173e2c;color:#fff8e9;padding:5px 10px;margin-right:12px;border-radius:50%;letter-spacing:0}
+.section-opener h1{font:400 69px/.98 Lilita,sans-serif;letter-spacing:-.6px;margin:0}
+.section-opener h1 span{display:block;color:#a44007}
+.section-opener .strapline{font:800 18px/1.4 Nunito,sans-serif;margin:6mm 0 0}
+.section-opener .section-art{height:96mm;margin:7mm 0 5mm;position:relative;display:flex;align-items:center;justify-content:center}
+.section-opener .section-art img{display:block;width:100%;height:100%;object-fit:contain}
+.section-opener .section-intro{max-width:138mm;font:400 17px/1.5 Nunito,sans-serif;margin:0}
+.section-opener .section-closing{font:800 13px/1.5 Nunito,sans-serif;border-top:1px solid #d4d6bf;padding-top:4mm;margin-top:6mm}
+.section-opener.section-troubles .section-art{display:block}
+.section-opener.section-troubles .section-art img{position:absolute;object-fit:contain;padding:4mm;border-radius:50%;background:#ffe1b7}
+.section-opener.section-troubles .section-art img:nth-child(1){width:50mm;height:50mm;left:0;top:9mm}
+.section-opener.section-troubles .section-art img:nth-child(2){width:75mm;height:75mm;left:43mm;top:0;background:#eaf0d7}
+.section-opener.section-troubles .section-art img:nth-child(3){width:60mm;height:60mm;right:0;bottom:0}
+.section-opener.section-techniques .section-art{height:96mm}

@@ -1,6 +1,6 @@
 # The Vegetable Guru — book design system
 
-Consolidated 8 October 2026 from the selected covers, approved Compact Book v1,
+Consolidated 8 October; status references updated 14 October 2026. Based on the selected covers, approved Compact Book v1,
 approved contents/how-to and current opening-page proposals. This is the shared
 design reference for the 185 × 240 mm paperback. It records existing choices;
 creating this document does not approve unfinished designs or change any artwork.
@@ -177,6 +177,7 @@ their page total is not the interior count used for print costing/spine calculat
 | Title/publication/welcome | Cover-related title strip, quieter publication page, illustrated welcome and retained author-image slot | [Pages 1–3 proposal](publication/vegetable-guru-opening-pages/REVIEW.html); lipsum/metadata placeholders remain |
 | Contents/how-to | Family-coloured navigation; illustrated calendar keys, difficulty and needs explanations; calculated page references | [Approved pages 4–7](publication/vegetable-guru-entry-pages/REVIEW.html); exact approval in the central manifest. [Three-page expanded contents](publication/contents-update/REVIEW.html) is a new proposal preserving that design. |
 | Index | Two open columns; 9.45 pt reading type, orange folios, ruled alphabet headings, continued labels, no decorative artwork | [Four-page index](publication/book-index/REVIEW.html), approved 12 October; [frozen sources](publication/book-index/APPROVAL.json); final folios pending |
+| Section openers | Recto title pages with a small section number, large green/orange title, existing illustration and short introductory copy; standard binding margins | [14 October proposals](publication/whole-book-order-preview/SECTION-OPENERS.json), requested order applied; designs/copy await review. Uses Lilita 51.75 pt titles and Nunito body, without changing approved page styles. |
 | Vegetables | Expressive hero/circle/sticker opening, useful information hierarchy, practical continuation and full-width Final Tips | Approved [guide contract](BOOK-PRINT-STYLE.md#vegetable-opening-page); collection review remains separate |
 | Troubles | Open two-column entries, complete diagnostics, Recognise / Act / Prevent hierarchy, aligned first/last text with sparse-page exceptions | Approved [guide contract](BOOK-PRINT-STYLE.md#troubles); no enclosing equal-height cards |
 
@@ -204,9 +205,12 @@ facing pages, use distinct compositions in the same style rather than duplicated
 or mirrored images. Record allocations against the stock registry to prevent
 accidental repetition. Repetition of functional symbols is intentional.
 
-The [rough progress preview](publication/bookvault-progress-preview/REVIEW.html)
-tests H1/H2 contents, H5/H6 how-to, H3 welcome and S1 author artwork. These are
-proposed placements; the approved original page files remain the references.
+The [current whole-book preview](publication/whole-book-order-preview/REVIEW.html)
+retains the original harvest contents illustration and proposes H5/H6 how-to,
+H3 welcome, S1 author and H4 varieties-opener placements. H1/H2 contents trials
+belong to the earlier rough preview, not the current allocation. The approved
+original page files remain the references; source-style acceptance does not
+approve a new placement.
 
 ## Changes and unresolved decisions
 

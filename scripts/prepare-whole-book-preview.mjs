@@ -4,6 +4,7 @@ import path from 'node:path';
 import {chromium} from 'playwright';
 import {readBookContent,renderOpeningPages,renderEntryPages,root,sha256} from './lib/book-content.mjs';
 import {bookLayoutRevision} from '../../hackriculture-data/lib/book-layout.mjs';
+import {renderSectionOpeners} from './lib/section-openers.mjs';
 const dir='docs/publication/whole-book-order-preview',scratch='tmp/pdfs/whole-book-order-preview';
 const base='http://127.0.0.1:5173';
 for(const d of [dir,scratch])fs.mkdirSync(path.join(root,d),{recursive:true});
@@ -23,7 +24,8 @@ const themes=json('src/print/familyThemes.json');
 const entry=renderEntryPages(book.data,'imperial',plan,themes);
 const groups=[
  {id:'opening',body:renderOpeningPages(book.data,'imperial').body,css:'docs/publication/vegetable-guru-opening-pages/opening-pages.css',folios:[1,2,3],base:base+'/'},
- {id:'how-to',body:entry.body,css:'docs/publication/vegetable-guru-entry-pages/entry-pages.css',folios:[7,8],keep:'.how-calendar,.how-scales',base:base+'/'},
+ {id:'how-to',body:entry.body,css:'docs/publication/vegetable-guru-entry-pages/entry-pages.css',folios:[10,11],keep:'.how-calendar,.how-scales',base:base+'/'},
+ {id:'section-openers',body:renderSectionOpeners(book.data,'imperial',edition),css:dir+'/section-openers.css',folios:edition.sectionOpeners.map(d=>d.startPage),base:base+'/'},
  {id:'techniques',html:read('docs/publication/topic-pages/techniques-expansion/imperial.html'),css:collection.frozenReference+'/draft.css',folios:collection.pageIds.map(id=>edition.additions.find(x=>x.source==='technique:'+id).startPage),base:base+'/docs/publication/topic-pages/techniques-expansion/'},
  {id:'cultivation',html:read('docs/publication/topic-pages/cultivation-dig-no-dig/imperial.html'),css:cultivation.frozenReference+'/draft.css',folios:edition.additions.filter(x=>x.source.startsWith('cultivation:')).map(x=>x.startPage),base:base+'/docs/publication/topic-pages/cultivation-dig-no-dig/'}
 ];

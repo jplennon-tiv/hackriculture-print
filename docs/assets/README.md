@@ -17,6 +17,15 @@ records verbatim extraction and matching proofs. Frozen HTML/PDFs below remain
 references; edit the JSON and build separate working pages rather than overwriting
 them. Cover JSON stores copy for later reconstruction of the selected raster art.
 
+## Section opener proposals
+
+The [14 October section openers](../publication/whole-book-order-preview/SECTION-OPENERS.json)
+are new composition proposals for Vegetable Varieties, Vegetable Troubles and
+Growing Techniques. They reuse H4 summer stock, the established aphid/mildew/slug
+risk drawings and the approved starter-plot illustration respectively. All
+source files remain unchanged; editable wording is in shared `book.sectionOpeners`.
+The requested section order is implemented separately from design approval.
+
 ## Compact guide design
 
 The publication format follows [Compact Book v1](../BOOK-PRINT-STYLE.md), with
@@ -34,8 +43,9 @@ hashes exact frozen PDFs in both units, text, layout sources and four placed
 illustration groups. Preserve its `references/approved-2026-10-08/` files.
 [Editable working text](../../../hackriculture-resources/summaries/cultivation-dig-no-dig/copy.json)
 remains in the resource library; John's later edits need updated proofs.
-Book integration and final folios remain pending; this is page approval,
-not supplier or physical-proof approval.
+The current imperial whole-book preview includes these pages at 160–163.
+Final production integration remains pending; this is page approval, not
+supplier or physical-proof approval.
 
 ## Book index
 
@@ -43,12 +53,16 @@ John approved the [four-page index](../publication/book-index/REVIEW.html) on
 12 October: design, 273 entries and 33 see references. The [approval record](../publication/book-index/APPROVAL.json) preserves exact copy, layout, resolver, PDF and renders.
 It reuses approved contents typography, palette and mirrored margins, with a
 text-only two-column composition. Editable words remain in shared
-`book-layout/index.json`. Final folios await integration; temporary T/C references
-do not establish final placement. No new artwork or existing asset replacement.
+`book-layout/index.json`. The current whole-book derivative has numeric folios
+at 172–175; historical T/C references remain only in the preserved standalone
+proof. Final pagination is still reviewable. No new artwork or existing asset replacement.
 
 ## Extra opening and Growing Techniques pages
 
 The entire [thirteen-page expansion](../publication/topic-pages/techniques-expansion/REVIEW.html) is approved as complete on 12 October, including its final copy and Organic-second order. The [collection approval](../publication/topic-pages/techniques-expansion/COLLECTION-APPROVAL.json) preserves the final sources and both-unit proofs.
+
+The page numbers below are local to that thirteen-page proof. Current book
+placement is recorded in the [handover](../handover/START-HERE.md).
 
 Individual approval history and original page sources:
 
@@ -202,14 +216,16 @@ navigation. Adapt the columns and references to measured book pagination;
 A4's two-page-crop wording and folios do not describe the new edition.
 
 The [compact adaptation approved on 7 October](../publication/vegetable-guru-entry-pages/REVIEW.html)
-reflows this design over book pages 4–5, with current Bookvault references in both
+reflows this design over book pages 4–5, with the then-current Bookvault references in both
 units. Approval hashes are under `compactEntryPages` in the central manifest.
-The rough imperial preview includes copies with proposed H1/H2 header artwork;
-the earlier production books retain older openings pending integration.
-The [12 October contents update](../publication/contents-update/REVIEW.html)
+The older rough imperial preview tried H1/H2 header artwork; those placements
+are not used in the current whole-book preview. The earlier production books
+retain their older openings.
+The [expanded contents, updated 14 October](../publication/contents-update/REVIEW.html)
 preserves this original harvest artwork and two-page composition, adds a third
 page for all new sections and updates references against a separate pagination
-proposal. Its new layout and order await review; the 7 October sources remain intact.
+plan. It is integrated into the 176-page screen preview in John's requested
+order. Its expanded design remains for review; the 7 October sources remain intact.
 
 ## Illustrated how-to
 

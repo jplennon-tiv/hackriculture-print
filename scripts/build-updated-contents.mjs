@@ -41,13 +41,13 @@ const counts=JSON.parse(execFileSync(python,['-c','import json,sys; from pypdf i
 for(const [p,item] of Object.entries(inputs))if(counts[p]!==item.pages)throw Error('Actual PDF count changed: '+p);
 const {plan,topicMap}=createContentsPlan(basePlan,sources);
 plan.basePlan={path:basePath,sha256:sha256(fs.readFileSync(path.join(root,basePath)))};
-plan.limits=['Proposed Why Grow placement at folio 9; cultivation follows plot layouts.','Preserves four interstitial blanks and verso crop openings from the earlier proposal.','Guide, topic, how-to and index source PDFs have not been renumbered or assembled.','170 pages is a working planning count, not a new production/cost/spine specification.'];
+plan.limits=['John requested the new section order on 14 October; opener designs and contents remain for review.','Preserves crop spreads, adds blank versos before the first two section openers and an end balancing page.','Original guide/topic/how-to/index PDFs remain unchanged; the separate screen assembly updates folios.','176 pages is a working preview count, not a final production/cost/spine specification.'];
 write(dir+'/ASSEMBLY-PROPOSAL.json',plan);write(dir+'/TOPIC-FOLIOS.json',topicMap);
 const themes=json('src/print/familyThemes.json');
 const bundle=await build({entryPoints:[path.join(root,'src/print/book/production.ts')],bundle:true,platform:'node',format:'esm',packages:'external',write:false});
 const modulePath=path.join(root,'tmp/pdfs/contents-update/production.mjs');fs.writeFileSync(modulePath,bundle.outputFiles[0].contents);
 const {finishProductionPages}=await import(modulePath);
-const checks={date:'2026-10-12',status:'Contents proposal: PDF/visual review pending',bookRevision:book.revision,copyInputs:book.inputs,sourcePdfs:inputs,protectedFiles,fullBookRegenerated:false,guidePdfsRegenerated:false,results:[]};
+const checks={date:'2026-10-14',status:'Contents proposal: PDF/visual review pending',bookRevision:book.revision,copyInputs:book.inputs,sourcePdfs:inputs,protectedFiles,fullBookRegenerated:false,guidePdfsRegenerated:false,results:[]};
 const browser=await chromium.launch();
 try{
  const page=await browser.newPage();await page.route('**/@vite/client',r=>r.abort());

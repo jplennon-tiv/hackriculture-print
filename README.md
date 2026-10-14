@@ -48,7 +48,7 @@ in this and future sessions. Its maintained source is shared across the data,
 print, website and video projects.
 
 The [whole-book order preview](docs/publication/whole-book-order-preview/REVIEW.html)
-is the latest combined review: 170 proposed interior pages plus G2/B5 covers,
+is the latest combined review: 176 interior pages in the requested section order plus G2/B5 covers,
 including all approved additional pages, current contents and updated index.
 Its imperial facing-page browser is for settling order before contents refinement;
 see the [preview notes](docs/publication/whole-book-order-preview/README.md).
@@ -60,8 +60,8 @@ front, without the count footer, and now prefers **B5 Off-centre collage** for
 the back. [Cover ideas and preference](docs/publication/vegetable-guru-back-collage/REVIEW.html)
 retain the dark-green, angled-snippet direction. Cover C guides colour and
 illustration style only. John approved the compact contents/how-to on 7 October;
-the rough preview tries replacement header artwork, while integration into the
-production books remains pending. Find exact sources and approvals in the
+the current whole-book preview preserves the original contents illustration and
+tries H5/H6 replacement how-to headers. Production integration remains pending. Find exact sources and approvals in the
 [asset registry](docs/assets/README.md).
 
 For the local app, run `zsh start.command` and open <http://127.0.0.1:5173>.
@@ -73,15 +73,18 @@ Detailed startup and check commands are in [SETUP.md](SETUP.md).
 The [four-page index](docs/publication/book-index/REVIEW.html) is approved by John
 on 12 October. Its terms remain editable and references refresh from content locations.
 The [updated three-page contents](docs/publication/contents-update/REVIEW.html) now
-include all latest pages, using a proposed 170-page order. See the
+include all latest pages, using the revised 176-page order. See the
 [contents notes](docs/publication/contents-update/README.md); the whole-book preview
-now uses this proposal, whose order and contents remain unapproved.
+now applies John’s 14 October order. The new section opener designs and contents
+remain for review.
 
 Book opening and cover copy is editable in the sibling
 [book-layout JSON folder](../hackriculture-data/book-layout/README.md).
-Run `npm run book:check` after editing, then `npm run book:build` with the app
-running to create separate opening proofs. Approved sources and full-book PDFs
-remain intact; cover concepts still require editable reconstruction.
+Run `npm run book:check` after editing. Use `npm run book:contents` for the
+expanded contents and the [whole-book workflow](docs/publication/whole-book-order-preview/README.md)
+for section openers and reassembly. `npm run book:build` retains the earlier
+seven-page opening composition; it does not refresh the current full preview.
+Approved sources remain intact; cover concepts still require editable reconstruction.
 
 ## Document ownership
 
@@ -97,7 +100,7 @@ remain intact; cover concepts still require editable reconstruction.
 | [Assisted printing](docs/ASSISTED-PRINT.md) | Preparation, source comparison and proof-review workflow |
 | [Development](DEVELOPMENT.md), [setup](SETUP.md) | Live implementation, export profiles and commands |
 | [Publication research](docs/publication/README.md) | Dated supplier/cost evidence and research limits |
-| [Preparation checkpoint](docs/publication/BOOK-PREPARATION-STATE.json) | Technical coverage, file evidence and incomplete batches |
+| [Preparation checkpoint](docs/publication/BOOK-PREPARATION-STATE.json) | Technical coverage, file evidence and explicitly dated earlier batches |
 
 The [Vegetable Guru book-design skill](.agents/skills/vegetable-guru-book-design/SKILL.md)
 coordinates the overall design, applying the shared system and using layout or

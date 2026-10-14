@@ -294,18 +294,26 @@ every vegetable on a verso so its first two pages face, and records an explicit
 blank after an odd-length crop. Troubles continue naturally. The default
 `continuous` policy adds no inter-guide blanks. Both use `compact-pagination.mjs`;
 `node --test scripts/compact-pagination.test.mjs` covers mixed guide lengths and
-invalid inputs. The current 148-page review proposal has four blanks at physical
-folios 15, 69, 87 and 91; John has not approved this book-pagination choice.
+invalid inputs. The earlier 148-page technical review has four crop blanks at physical
+folios 15, 69, 87 and 91. The current whole-book order preview uses 176 interior
+pages, including the later sections; its current page map and blank positions
+are in the [handover](docs/handover/START-HERE.md). The old runner/plan is not
+the current full-book assembly route.
 
 ### Editable book copy
 
 **Current expanded contents:** `npm run book:contents` builds the three-page
 proposal from `contents.json.expanded`, retaining the approved crop/Troubles
 composition and all newer sections. Its [workflow](docs/publication/contents-update/README.md)
-owns the measured 170-page placement proposal, stable topic-folio map and exact
+owns the 176-page placement plan, stable topic-folio map and exact
 PDF checks. Run `scripts/check-updated-contents.py` and review the actual renders.
 The commands below retain the earlier seven-page opening composition; they do
 not replace the expanded contents builder or integrate a complete book.
+The [whole-book workflow](docs/publication/whole-book-order-preview/README.md)
+owns the current complete imperial derivative and its three section openers;
+`book.json.sectionOpeners` supplies their editable copy and existing artwork.
+Its updated index uses real folios at 172–175; the approved standalone index
+retains its historical temporary labels.
 
 The shared [book-layout folder](../hackriculture-data/book-layout/README.md) owns
 book identity, opening copy and the future cover copy. Its native Node validator

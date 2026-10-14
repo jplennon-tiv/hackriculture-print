@@ -1,6 +1,6 @@
 # Publication research and production evidence
 
-Documentation updated 9 October 2026; supplier research retains its stated dates.
+Documentation updated 14 October 2026; supplier research retains its stated dates.
 This document owns dated supplier research and cost
 assumptions. **Current scope, decisions, component status and next actions are
 maintained in [the handover](../handover/START-HERE.md).** Do not treat older
@@ -8,92 +8,74 @@ recommendations or quote specifications as a current work queue.
 
 ## Review files and source designs
 
-Start with the [rough Bookvault progress preview](bookvault-progress-preview/REVIEW.html)
-for the latest combined view: G2/B5 covers, seven updated opening pages and the
-complete saved imperial interior. Its 152 PDF pages comprise 148 interior pages
-plus covers and blank inside covers; it is a screen review, not an upload file.
-The review page includes sample spreads and the next decisions.
+Start with the [whole-book order preview](whole-book-order-preview/REVIEW.html):
+**176 interior pages plus four cover leaves (180 PDF pages), imperial only**.
+It applies John's 14 October order and includes the latest copy, all approved
+additional pages, three new section openers, updated contents and numeric index.
+The new opener designs and expanded contents remain for review. The
+[preview notes](whole-book-order-preview/README.md) own its sources, page map and
+checks. This is a screen review, not an upload file.
 
-The separate [Cultivation: Dig or No-Dig pages](topic-pages/cultivation-dig-no-dig/REVIEW.html),
-[approved by John on 8 October](topic-pages/cultivation-dig-no-dig/APPROVAL.json),
-form the first Growing Techniques topic: four illustrated pages in
-both units, provisionally 149–152. John approved the 10 cm / 4 inch starting compost
-depth. At his request, digging now occupies
-two pages: annual single digging, initial/occasional double digging, and a final
-half-page on temporary smothering with a diagram. The latest revision adds matrix
-row headings, labels the final page “Digging — continued”, and separates smothering
-in a coloured panel as an option before either digging or no-dig. This
-focused draft is not yet included in the combined book or its contents.
-Its [checks](topic-pages/cultivation-dig-no-dig/CHECKS.json) and
-[source record](../../../hackriculture-resources/summaries/cultivation-dig-no-dig/research-notes.md)
-retain the evidence and editable-copy location.
+Approved components remain preserved separately:
 
-The current rolling review is the [restored one-page compost-bin overview](topic-pages/techniques-expansion/REVIEW.html#compost), revised on 11 October with John’s copy, corrected fittings, stage arrows and brick/timber examples. The construction pilot is superseded. Compost remains two pages total; the collection remains thirteen pages, with all other pages and approved references preserved.
+- [Four cultivation pages](topic-pages/cultivation-dig-no-dig/APPROVAL.json),
+  approved 8 October; current book folios 160–163, with Digging facing at 162–163.
+- [Thirteen-page expansion](topic-pages/techniques-expansion/COLLECTION-APPROVAL.json),
+  approved complete 12 October. Why Grow Your Own is now book page 7; the twelve
+  techniques pages join cultivation at the back. Rotation and later sections
+  are approved; no rolling section review remains. The compost construction
+  pilot is superseded and the crop-supports trial was discarded.
+- [Four-page index](book-index/APPROVAL.json), approved 12 October. Its original
+  proof keeps historical T/C labels; the separate integrated version uses real
+  folios at 172–175 and clickable internal references.
+- [Compact contents/how-to source](vegetable-guru-entry-pages/REVIEW.html),
+  approved 7 October. The current three-page contents is a separate proposal.
 
-The [9 October expansion preview](topic-pages/techniques-expansion/REVIEW.html)
-contains thirteen review pages across all eight commissioned sections: one
-opening candidate and twelve Growing Techniques pages. Both unit PDFs have actual
-page, text and visual checks. Thirteen placed illustrations and three editable diagrams
-support manuscript-led copy, with fifteen relevant video transcripts consulted.
-[Research and editable copy](../../../hackriculture-resources/summaries/techniques-expansion/research-notes.md),
-[checks](topic-pages/techniques-expansion/CHECKS.json) and
-[artwork provenance](topic-pages/techniques-expansion/ARTWORK.json) preserve the evidence.
-Why Grow Your Own has an approved baseline with a later impersonal-copy amendment; Start with the right spot and both Beds and paths pages are approved. All [three Greenhouse pages are approved](topic-pages/techniques-expansion/GREENHOUSE-APPROVAL.json), with frozen source references. Simple Crop Rotation is next in the rolling review; later sections remain drafts. No full-book integration. The former
-support-structures trial has been discarded at his request.
+The [asset registry](../assets/README.md) identifies exact approved sources.
+Editable opening/cover/index and section-opener copy lives in shared
+[book-layout JSON](../../../hackriculture-data/book-layout/README.md); topic copy
+stays in the resource library. Copy edits require affected proofs and explicit
+reassembly to update the full preview; they do not rewrite existing PDFs or
+raster cover lettering automatically. Use the [skill map](../handover/START-HERE.md#design-skills--use-before-design-work)
+and [shared-data skill](../../../hackriculture-data/.agents/skills/hackriculture-data/SKILL.md).
 
-Opening and future editable cover copy now live in the shared
-[book-layout JSON](../../../hackriculture-data/book-layout/README.md). The
-[handover's skill map](../handover/START-HERE.md#design-skills--use-before-design-work)
-identifies required design/layout/artwork skills; shared JSON work uses
-[hackriculture-data](../../../hackriculture-data/.agents/skills/hackriculture-data/SKILL.md).
-Copy edits rebuild separate working proofs; they do not automatically update
-the combined preview, production books or raster cover lettering.
+G2 Cream centre is selected for **The Vegetable Guru: Your at-a-glance growing
+companion**, without the count footer. B5 Off-centre collage is the preferred
+back: dark green, left blurb, angled torn-page snippets. Exact page crops,
+editable text and a production wrap remain pending. Cover C is an A4 approval
+and a colour/style reference only. The working price remains **£17.50**;
+Bookvault and direct Great British Bookshop links are the selected working route.
 
-The earlier [technical review pack](book-preparation/REVIEW.html) retains the
-148-page imperial/metric drafts for KDP and Bookvault, with the older seven-page
-opening pack. The approved compact contents/how-to and existing source PDFs
-remain intact. The [asset registry](../assets/README.md) locates editable designs,
-illustrations, PDFs and approval evidence.
+### Earlier technical evidence
 
-John rejected the [Cover C adaptations C1/C2](cover-c-compact/REVIEW.html) on
-7 October. John selected **G2 Cream centre** for **The Vegetable Guru** /
-**Your at-a-glance growing companion**, without the guide-count front footer.
-John rejected the first back-cover round, retaining B2's dark green only.
-John now prefers **B5 Off-centre collage** from the
-[torn-page ideas](vegetable-guru-back-collage/REVIEW.html): dark green, left-hand
-blurb and angled snippets to the right. Explanations belong inside. Final artwork
-and production wrap remain pending.
-Cover C is a colour/style reference only. The working price remains **£17.50**.
-The A4 originals and rejected studies remain intact.
+The [148-page technical review pack](book-preparation/REVIEW.html) contains
+imperial/metric KDP and Bookvault drafts with the older seven-page opening pack.
+The [152-leaf rough screen preview](bookvault-progress-preview/REVIEW.html)
+adds G2/B5 and proposed opening artwork to that earlier interior. These saved
+files remain inputs/evidence, **not the current book**. The preceding 170-page
+order preview is retained in the current preview's reference folder.
 
-[BOOK-PREPARATION-STATE.json](BOOK-PREPARATION-STATE.json) records exact completed
-coverage, files and remaining technical issues. Approval of Compact Book v1 is
-recorded in the [frozen reference manifest](book-pilot/DESIGN-APPROVAL.json);
-it is not approval of the assembled collection or a supplier-ready file.
-No project title creation, upload, rights/ISBN declaration, proof order or
-publication has occurred. The preparation automation remains paused.
-
-The review's 148 pages comprise 92 vegetable pages, 45 Troubles pages, seven
-opening drafts and four proposed blanks. Opening-page revision may change that
-count. Recost and recalculate contents/spine only against the resulting assembly.
-Current files are not labelled upload-ready. Fine icon detail, selected-stock
-colour/PDF preflight, final wrap and physical proof remain production limits.
+[BOOK-PREPARATION-STATE.json](BOOK-PREPARATION-STATE.json) records exact coverage,
+hashes and remaining technical limits. Earlier numerical checks and representative
+visual reviews do not establish physical print quality or supplier acceptance.
+Fine icon detail, stock/colour/PDF preflight, final wrap and physical proof remain.
 The [draft listing metadata](book-preparation/DRAFT-METADATA.json) contains
-unconfirmed publishing details and provenance preparation, not declarations.
+unconfirmed details and provenance, not rights or ISBN declarations.
 
-Evidence references:
+Retained production evidence:
 
 - [Source visual review](book-preparation/VISUAL-PRODUCTION.json).
 - [Bookvault geometry adaptation](book-preparation/BOOKVAULT-ADAPTATION.json).
 - [KDP flattened assembly checks](book-preparation/FLATTENED-ASSEMBLY-CHECKS-KDP.json),
   [Bookvault checks](book-preparation/FLATTENED-ASSEMBLY-CHECKS-BOOKVAULT.json) and
   [representative assembly viewing](book-preparation/FLATTENED-ASSEMBLY-VISUAL.json).
-- [Supplier requirements and calculator evidence](book-preparation/POD-PREFLIGHT.json).
+- [Dated requirements and calculator evidence](book-preparation/POD-PREFLIGHT.json).
 
-The local review index's links/structure have been checked. Its built-in-browser
-file:// preview was blocked; actual PDFs were rendered and inspected independently.
-Numerical checks and representative derivative viewing do not establish physical
-print quality, full derivative visual approval or supplier acceptance.
+**Costs below use older page counts and dated terms. They have not been refreshed
+for the current 176-page interior.** Recheck them, stock and the cover template
+when production work resumes. Both automations remain paused. No title creation,
+upload, rights/ISBN declaration, proof order, supplier message or publication
+is authorised by these records.
 
 ## Title research — 7 October 2026
 
@@ -244,7 +226,7 @@ retail route is The Great British Bookshop; no listing or account setup has been
 made. This replaces the earlier £25-delivered target for current planning.
 The alternative prices and old calculator results remain comparison evidence.
 
-Basis: current **148-page, 185 × 240 mm, full-colour paperback**, UK sales.
+Historical calculation basis (6 October): **148-page, 185 × 240 mm, full-colour paperback**, UK sales.
 Below, “author receipt” means cover price minus printing and the stated selling
 deductions, before setup recovery, advertising, proof/editorial costs, returns
 and author tax. It is contribution per sale, not net business profit. The saved
@@ -314,7 +296,7 @@ is below; current decisions and outstanding work are maintained in the handover.
 
 ### KDP: useful cost baseline
 
-The measured KDP review book is now **148 interior pages**, full-colour paperback,
+The KDP review used for the 6 October calculation had **148 interior pages**, full-colour paperback,
 **185 × 240 mm**. The [official calculator](https://kdp.amazon.com/en_US/royalty-calculator),
 submitted for both colour choices on 6 October, confirms:
 
@@ -379,7 +361,7 @@ those integrations transfer customer service/refund administration to the printe
 [Bookvault retail versus own-store payments](https://help.bookvault.app/how-do-i-work-out-my-royalty-/-publisher-compensation-per-book),
 [Lulu Direct transaction model](https://help.luludirect.lulu.com/en/support/solutions/articles/64000311814-how-does-lulu-direct-merchant-pricing-work-).
 
-### Bookvault estimate — 6 October 2026, current 148-page draft
+### Bookvault estimate — 6 October 2026, 148-page draft
 
 The [official calculator](https://quote.bookvault.app/) was refreshed after the
 Bookvault gutter adaptation kept the same **148-page** count. For **185 × 240 mm,
@@ -392,9 +374,11 @@ for direct sales before postage and other costs, **£17.09 through The Great
 British Bookshop**, or **£10.56 through Amazon**. These are website estimates,
 not net profit: delivery, applicable tax, payment processing, setup recovery,
 returns and other selling costs remain separate. No current delivery quote was
-requested without a customer postcode; £25 delivered is still a target.
+requested without a customer postcode. The former £25-delivered target is
+superseded by £17.50 with customer shipping separate; these figures retain their
+original inputs and are not a quote for the current book.
 
-The new [148-page cover template](book-preparation/supplier-templates/v4_PerfectBound_Cover_240_185_8.436.pdf)
+The saved [148-page cover template](book-preparation/supplier-templates/v4_PerfectBound_Cover_240_185_8.436.pdf)
 measures 384 × 246 mm and labels an 8 mm spine, while its filename says 8.436 mm.
 That discrepancy needs resolution after stock selection; no final wrap is ready.
 The interior uses the verified 17 mm binding safety and 3 mm bleed template.
@@ -404,8 +388,9 @@ The interior uses the verified 17 mm binding safety and 3 mm bleed template.
 The earlier 180- and 134-page calculations below are retained evidence from
 before the measured 148-page draft. Their proposed stocks, prices and next-step
 language are historical recommendations, not current specifications or tasks.
-The current review may change again after opening-page revision. Follow the
-handover for decisions and use the dated current calculator evidence above.
+The current review is 176 interior pages and may change after review. Follow the
+handover for decisions; the dated calculator evidence above requires refreshing
+against the eventual production specification.
 
 <details>
 <summary>Earlier page-count scenarios and calculations</summary>

@@ -3,13 +3,13 @@ import {renderEntryPages, escapeHtml as esc} from './book-content.mjs';
 // This is a proposed placement map. It never changes saved source PDF folios.
 export function createContentsPlan(base, sources) {
   const plan = structuredClone(base);
-  plan.status = 'Contents review pagination proposal; source PDFs retain their original folios. Not an assembled or upload-ready book.';
+  plan.status = 'John-requested section order, 14 October 2026; new opener designs and contents remain for review. Source PDFs retain original folios.';
   plan.openingPlan = [
     [1, 'Title'], [2, 'Publication details'], [3, 'Welcome and author'],
     [4, 'Contents: vegetables'], [5, 'Contents: vegetables and Troubles'],
     [6, 'Contents: openings, Growing Techniques and index'],
-    [7, 'How to use: calendar'], [8, 'How to use: difficulty and core needs'],
-    [9, 'Why Grow Your Own']
+    [7, 'Why Grow Your Own'], [8, 'Blank: faces Vegetable Varieties opener'],
+    [9, 'Vegetable Varieties'], [10, 'How to use: calendar'], [11, 'How to use: difficulty and core needs']
   ].map(([page, content]) => ({page, content}));
   const topicOrder = ['technique:organic', 'technique:plot-location', 'technique:plot-layout', 'technique:plot-layout-branching',
     'cultivation:overview', 'cultivation:no-dig', 'cultivation:digging', 'cultivation:digging-finish',
@@ -17,10 +17,18 @@ export function createContentsPlan(base, sources) {
     'technique:rotation', 'technique:compost-bins', 'technique:compost-use', 'technique:watering', 'technique:sowing'];
   const topicMap = {};
   for (const [unit, edition] of Object.entries(plan.editions)) {
-    const delta = plan.openingPlan.length - edition.openingPagesReserved;
+    let delta = plan.openingPlan.length - edition.openingPagesReserved;
     let cursor = plan.openingPlan.length + 1;
     edition.openingPagesReserved = plan.openingPlan.length;
+    edition.sectionOpeners = [{source:'opening:varieties',startPage:9,label:'Vegetable Varieties'}];
+    edition.extraBlanks = [{page:8,reason:'Faces Vegetable Varieties opener'}];
+    let troublesStarted = false;
     for (const doc of edition.documents) {
+      if (doc.type === 'trouble' && !troublesStarted) {
+        edition.extraBlanks.push({page:cursor,reason:'Faces Vegetable Troubles opener'});
+        edition.sectionOpeners.push({source:'opening:troubles',startPage:cursor+1,label:'Vegetable Troubles'});
+        cursor += 2; delta += 2; troublesStarted = true;
+      }
       doc.sourceStartPage = doc.startPage;
       doc.startPage += delta; doc.endPage += delta;
       doc.blankFoliosAfter = doc.blankFoliosAfter.map(p => p + delta);
@@ -34,11 +42,13 @@ export function createContentsPlan(base, sources) {
       if (!map[source]) throw Error('Missing approved source: ' + source);
       return {source, ...map[source], startPage: folio, physicalPages: 1};
     };
-    edition.additions = [locate('technique:why-grow', 9), ...topicOrder.map(s => locate(s, cursor++))];
+    edition.sectionOpeners.push({source:'opening:techniques',startPage:cursor++,label:'Growing Techniques'});
+    edition.additions = [locate('technique:why-grow', 7), ...topicOrder.map(s => locate(s, cursor++))];
     edition.index = {...map['back:index'], source: 'back:index', startPage: cursor, endPage: cursor + map['back:index'].physicalPages - 1};
     edition.lastContentPage = edition.index.endPage;
     edition.endBlankPages = edition.lastContentPage % 2;
     edition.plannedEvenTotal = edition.lastContentPage + edition.endBlankPages;
+    if (edition.endBlankPages) edition.extraBlanks.push({page:edition.plannedEvenTotal,reason:'End balancing page'});
     edition.techniquePages = topicOrder.length;
     topicMap[unit] = Object.fromEntries(edition.additions.map(d => [d.source, d.startPage]));
   }
@@ -54,7 +64,8 @@ export function renderUpdatedContents(data, units, plan, themes) {
   const original = renderEntryPages(copy, units, plan, themes);
   const edition = plan.editions[units];
   const sources = new Map(edition.additions.map(d => [d.source, d.startPage]));
-  sources.set('opening:welcome', 3); sources.set('opening:how-to', 7); sources.set('back:index', edition.index.startPage);
+  for (const d of edition.sectionOpeners) sources.set(d.source,d.startPage);
+  sources.set('opening:welcome', 3); sources.set('opening:how-to', 10); sources.set('back:index', edition.index.startPage);
   const seen = new Set(); const additionalReferences = [];
   const row = item => {
     const folio = sources.get(item.source);

@@ -1,114 +1,107 @@
 {
-  "date": "2026-10-12",
-  "status": "Reviewed for page-order discussion; user approval pending",
-  "pdfSha256": "90cce4be6d3a1fe15d931db043d07855a76812257ecb2af5af68448081793acf",
+  "date": "2026-10-14",
+  "status": "Representative visual review passed; new opener designs and final pagination await John’s review",
+  "pdfSha256": "9a1f59d4fd08ee4535a34110efc2b7b4b43fbaf543545487a8aeb73f6fb35361",
   "render": {
-    "pages": 174,
+    "pages": 180,
     "dpi": 110,
     "format": "JPEG",
     "nativeTextRetainedInPdf": true
   },
   "coverage": {
     "contactSheetInteriorFolios": [
-      1,
-      2,
-      3,
       4,
       5,
       6,
       7,
-      8,
       9,
-      151,
-      152,
-      153,
+      10,
+      11,
+      12,
+      13,
+      109,
+      110,
+      111,
       154,
       155,
       156,
-      157,
-      158,
-      159,
-      160,
-      161,
-      162,
-      163,
-      164,
-      165,
-      166,
-      167,
-      168,
-      169,
-      170,
-      10,
-      11,
-      17,
-      42,
-      43,
-      118,
-      119
+      172,
+      173,
+      174,
+      175,
+      176
     ],
-    "fullSizeInteriorFolios": [
-      3,
-      12,
-      159,
-      164,
-      167
+    "fullSizeComponentInteriorFolios": [
+      9,
+      109,
+      155
     ],
-    "covers": [
-      "G2 front",
-      "B5 back"
+    "contentsBothUnits": [
+      4,
+      5,
+      6
     ],
     "actualFacingPairs": [
-      [
-        6,
-        7
-      ],
       [
         8,
         9
       ],
       [
-        150,
-        151
+        10,
+        11
+      ],
+      [
+        108,
+        109
       ],
       [
         154,
         155
       ],
       [
+        158,
+        159
+      ],
+      [
         162,
         163
       ],
       [
-        164,
-        165
+        168,
+        169
       ],
       [
-        166,
-        167
+        172,
+        173
+      ],
+      [
+        174,
+        175
       ]
     ],
-    "allSavedGuidesVisuallyRereviewed": false
+    "allSavedGuidesVisuallyRereviewed": false,
+    "unchangedCoverReview": "G2/B5 source hashes preserved; earlier visual review retained under references/order-170-2026-10-12/VISUAL-REVIEW.json."
   },
   "findings": [
-    "No missing artwork, text clipping, footer collision or body-text loss observed in inspected pages.",
-    "Mirrored gutters and folios reflect the proposed physical positions.",
-    "How-to, Beds, Digging and Compost pairs currently cross page turns; decisions are flagged in the viewer, not applied.",
-    "Current contents watering label differs from approved page title; retained for later contents refinement.",
+    "All three new section openers fit inside the book’s mirrored safe margins and use the recorded source artwork.",
+    "The revised Why/Varieties/How-to order and all four requested facing relationships are present in the actual assembled PDF.",
+    "No missing artwork, clipped text or footer collisions observed in inspected pages.",
+    "All 137 reused guide body-text regions and seventeen approved additional-page texts passed preservation checks.",
+    "Contents and integrated index folios agree with the revised page map.",
     "Existing opening placeholders and proposed illustration allocations remain."
   ],
   "tests": {
-    "focusedNodeTests": 13,
+    "focusedNodeTests": 14,
     "failed": 0
   },
   "protectedSourcesRechecked": 95,
-  "sharedCopyInputsUnchanged": true,
-  "approval": "No new approval asserted.",
-  "linkChecks": "All local preview, page-image and edited Markdown file targets exist.",
+  "currentSharedCopyInputsVerified": 8,
+  "sharedCopyEdits": "Two authorised documents saved through guarded writer; see SECTION-OPENERS-SAVE.json. All other book-copy inputs preserved.",
+  "approval": "No new design or copy approval asserted.",
   "browserChecks": [
-    "Opened complete preview in the in-app browser.",
-    "Numeric page jump and section selection display the correct facing folios.",
-    "Next button advances a facing spread.",
-    "Expanded gallery visibly contains all 174 page leaves."
+    "Opened the revised preview in the in-app browser at the Vegetable Varieties opener.",
+    "Book-page jump displays Beds on facing pages 158–159.",
+    "Section selection returns to blank 8 / Vegetable Varieties 9.",
+    "Both page images visible in browser; all 180 rendered page files exist."
   ]
 }

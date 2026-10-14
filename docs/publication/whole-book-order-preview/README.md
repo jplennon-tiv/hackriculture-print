@@ -1,49 +1,56 @@
 # Whole-book order preview
 
-Prepared on 12 October 2026 for John to settle page order before refining the
+Updated on 14 October 2026 with John’s requested section order, before refining the
 contents. [Browse every facing spread](REVIEW.html) or
 [open the complete PDF](../../../output/pdf/whole-book-order-preview/the-vegetable-guru-order-preview.pdf).
 
-The imperial preview contains **170 interior pages plus four cover leaves**:
+The imperial preview contains **176 interior pages plus four cover leaves**:
 selected G2 front, blank inside covers and preferred B5 back. All 44 vegetable
 guides, 14 Troubles guides, seventeen approved additional pages and the approved
-four-page index are included. This is a proposed order, not a new content approval
+four-page index are included, together with three new section openers. The requested order is applied; the new designs and copy are proposals, not a new content approval
 or a Bookvault upload file.
 
-## Order to review
+## Current placement
 
 | Interior pages | Content |
 | --- | --- |
-| 1–3 | Title, publication details, welcome and current author biography |
-| 4–6 | Current three-page contents proposal |
-| 7–8 | How to use the book |
-| 9 | Why Grow Your Own |
-| 10–105 | Vegetable guides and four proposed blanks |
-| 106–150 | Troubles guides |
-| 151–154 | Organic growing, plot location, beds and paths |
-| 155–158 | Cultivation: comparison, no-dig, digging and smothering |
-| 159–161 | Greenhouses |
-| 162 | Rotation |
-| 163–164 | Compost |
-| 165–166 | Watering, sowing and planting |
-| 167–170 | Index |
+| 1–3 | Title, publication details, welcome and author biography |
+| 4–6 | Three-page contents proposal |
+| 7 | Why Grow Your Own |
+| 8–9 | Blank verso / Vegetable Varieties opener |
+| 10–11 | How to use the book, facing |
+| 12–107 | Vegetable guides and four retained crop-alignment blanks |
+| 108–109 | Blank verso / Vegetable Troubles opener |
+| 110–154 | Troubles guides |
+| 155 | Growing Techniques opener |
+| 156–159 | Organic growing, plot location, beds and paths |
+| 160–163 | Cultivation: comparison, no-dig, digging and smothering |
+| 164–166 | Greenhouses |
+| 167 | Rotation |
+| 168–169 | Compost |
+| 170–171 | Watering, sowing and planting |
+| 172–175 | Index |
+| 176 | End balancing blank |
 
-Even folios face the following odd folio. The present plan puts How to use 7–8,
-Beds 153–154, Digging 157–158 and Compost 163–164 across page turns. Two proposals
-are flagged in the browser, but **neither is applied**:
+How to use (10–11), Beds (158–159), Digging (162–163) and Compost (168–169)
+now form actual facing spreads. The four crop-alignment blanks move to 19, 73,
+91 and 95; every crop still opens verso. The two blank versos before the first
+two openers keep those section titles recto and preserve the established guide
+margins. The third opener already falls recto. End balancing makes an even interior.
 
-- Move Why Grow to 7, making How to use a facing spread at 8–9 without adding pages.
-- Add one page before Growing Techniques, potentially a section opener. This
-  would make the three technique pairs face; it would also move the index to
-  168–171 and require reconsidering the final balancing page and total count.
+The opener designs use the existing book fonts, cream paper, green/orange titles
+and existing illustrations. Their new copy is editable in
+[book.json](../../../../hackriculture-data/book-layout/book.json), under
+`sectionOpeners`; [save receipt](SECTION-OPENERS-SAVE.json) records exact prior-byte
+backups. [Artwork and composition record](SECTION-OPENERS.json) identifies all
+sources and distinguishes accepted source artwork from these new placements.
+No new images were generated. Contents now include all three openers and use
+the approved watering title, “Water the roots, read the soil”. Further contents
+refinement remains for John’s review.
 
-The four blank rectos at 17, 71, 89 and 93 preserve verso starts for every crop.
-Their retention remains a proposal. Agree order and blank policy before updating
-the assembly plan, contents and index again.
-
-The contents need further work. In particular their watering label still says
-“Water the roots, not the calendar”, while the approved page reads “Water the
-roots, read the soil”. The preview preserves both pending that focused edit.
+The preceding 170-page preview is retained as an
+[unchanged PDF](../../../output/pdf/whole-book-order-preview/references/order-170-2026-10-12.pdf),
+with its [receipt](references/order-170-2026-10-12/CHECKS.json).
 
 ## Sources and checks
 
@@ -56,18 +63,19 @@ maps every PDF leaf to its source and proposed folio. PDF page = interior folio 
   Every guide's body text matches its source through 228 mm from the top.
 - Relocated opening/how-to/topic derivatives have the current physical gutters
   and folios. The latest shared author text is included. All seventeen topic
-  pages retain the text of the frozen approved PDFs; 365 measured text blocks
+  pages retain the text of the frozen approved PDFs; the measured text blocks
   are checked in the assembled PDF. Fonts and illustrations are preserved.
-- The latest three contents pages are reused unchanged; 78 destinations agree
+- The latest three contents pages are reused unchanged; 81 destinations agree
   with the plan. The separate integrated index retains 273 entries and 33 see
   references, resolves 488 numeric references, and has 371 internal PDF links.
   Temporary T/C labels and their explanatory review legend are replaced by real
   folios in this derivative only. The approved index proof remains intact.
-- All 174 PDF pages are rendered. Visual inspection covers every new or relocated
-  interior page, both covers, representative guide pages and key actual facing
-  spreads. This is not a fresh visual review of every saved guide page.
-- Thirteen focused content/contents/index tests passed. All protected source
-  hashes and shared book-copy hashes remain unchanged.
+- All 180 PDF pages are rendered. Visual inspection covers the three new openers, both-unit contents,
+  representative relocated/guide pages, all four index pages and key actual facing
+  spreads. Earlier cover checks remain recorded; unchanged covers and approved
+  sources were hash-checked. This is not a fresh visual review of every saved page.
+- Fourteen focused content/contents/index tests passed. All protected source
+  hashes remain unchanged. The two authorised shared-copy documents have guarded save receipts.
 
 The contents carry their approved-source harvest illustration. H5/H6 how-to,
 H3 welcome and S1 author illustrations retain the earlier proposed allocation.
@@ -88,7 +96,7 @@ With the normal loopback app running and the pinned Node runtime selected:
 
 ```sh
 node scripts/prepare-whole-book-preview.mjs
-node scripts/build-book-index.mjs --plan=docs/publication/contents-update/ASSEMBLY-PROPOSAL.json --topic-map=docs/publication/contents-update/TOPIC-FOLIOS.json --review-dir=docs/publication/whole-book-order-preview/index --output-dir=tmp/pdfs/whole-book-order-preview --start-page=167 --integrated --book-pdf=/output/pdf/whole-book-order-preview/the-vegetable-guru-order-preview.pdf
+node scripts/build-book-index.mjs --plan=docs/publication/contents-update/ASSEMBLY-PROPOSAL.json --topic-map=docs/publication/contents-update/TOPIC-FOLIOS.json --review-dir=docs/publication/whole-book-order-preview/index --output-dir=tmp/pdfs/whole-book-order-preview --start-page=172 --integrated --book-pdf=/output/pdf/whole-book-order-preview/the-vegetable-guru-order-preview.pdf
 ```
 
 Then use the bundled Python runtime for `scripts/assemble-whole-book-preview.py`
