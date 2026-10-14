@@ -35,10 +35,12 @@ Before adapting any component, identify its approved source in the
 [asset registry](docs/assets/README.md), inspect it and carry forward its artwork,
 useful content and accepted choices. Compare the new proof with that source as
 well as checking fit. Record intentional omissions/replacements; do not silently
-substitute a new design because the trim or binding changed. John’s 7 October
-cover reset explicitly calls for a fresh compact cover after rejecting C1/C2;
-Cover C is no longer its required starting point. The approved contents/how-to
-remain the sources for compact adaptation. Keep all approved A4 originals intact. Excluding A4-sized PDFs and old folios from compact exports
+substitute a new design because the trim or binding changed. The compact cover
+redesign has reached selected G2 for the front and preferred B5 for the back;
+continue those directions from the handover. Cover C guides colour/style only.
+Preserve the approved compact contents/how-to and their A4 source designs;
+replacement artwork in the rough preview remains proposed. Keep all approved A4
+originals intact. Excluding A4-sized PDFs and old folios from compact exports
 does not exclude reusing those designs and explanations.
 
 A4 remains supported: its [Richer A vegetable contract](docs/VEGETABLE-PRINT-STYLE.md)
@@ -50,6 +52,10 @@ For overall book design, cross-section consistency or a new book component, use
 [vegetable-guru-book-design](.agents/skills/vegetable-guru-book-design/SKILL.md).
 It applies the shared design system and uses the relevant layout/artwork skills
 only as needed; it does not authorise subagents or full-book regeneration.
+For illustrated topic summaries, read its
+[composition workflow](.agents/skills/vegetable-guru-book-design/references/illustrated-topic-pages.md)
+before allocating text and image space. It covers headers, hierarchy, explanatory
+illustrations and actual visual revision; new compositions remain proposals.
 
 For fit, whitespace, overflow, proof review or assisted guide export, use
 [book-layout-review](.agents/skills/book-layout-review/SKILL.md) for bound book
@@ -63,7 +69,30 @@ comparison, use [vegetable-guru-artwork](.agents/skills/vegetable-guru-artwork/S
 Use approved vegetable heroes as direct style references and compare representative
 samples before expanding a batch; matching colours alone is insufficient.
 
+## Writing voice
+
+For drafting or rewriting book prose in John's voice, read
+[Write Like John](/Users/johnlennon/.codex/skills/write-like-john/SKILL.md).
+This personal skill supports notes/data-to-prose and existing-text rewrites,
+from sentences to chapters, in correct British English. Preserve facts,
+qualifications and attribution; do not invent personal experience. It supplies
+voice, not approval of new copy. Follow the shared-data skill for JSON work.
+
 ## Gardening content and shared data
+
+For researched gardening overviews or illustrated explainers, use
+[Gardening Research](/Users/johnlennon/.codex/skills/gardening-research/SKILL.md).
+Follow its order of truth: **exact canonical JSON first, John's local book and
+corrected video transcripts second, online sources third**. JSON measurements and
+simple techniques are definitive for exact matches. Online disagreements use a
+simple majority of independent comparable sources, widening beyond the remote
+list if needed. Only a clear simple error in a local source may be corrected by
+that consensus; substantive conflicts or unresolved votes require John's decision.
+*The Vegetable Expert* is removed from the active library and research workflow.
+The [resource library](../hackriculture-resources/README.md) owns the catalogue;
+Write Like John and the design/layout skills still govern the requested output.
+Preserve retained source transcriptions and keep research drafts separate from
+canonical JSON and approved pages.
 
 Use [hackriculture-data](../hackriculture-data/.agents/skills/hackriculture-data/SKILL.md)
 for shared JSON reads, edits, schema maintenance and recovery in this and future
@@ -77,11 +106,13 @@ changing a data structure or write route.
   dismiss them or add ideological commentary. Preserve diagnostics and safety.
 - Check meaning as well as schema: import headings are not crop types. Inspect
   duplicate identities, misplaced advice, contradictions and suspicious keys.
-  Preserve uncertain material and record it for review. Resolve factual questions
-  through RHS-first research, then primary seed-producer/horticultural sources.
+  Preserve uncertain material and record it for review. Resolve research questions
+  using the hierarchy above; RHS is a starting point within the online tier.
   Distinguish editorial inference from confirmed aliases; retain distinct
   selections and remove unsupported claims rather than inventing replacements.
-- Round practical dimensions to easy numbers where useful (approximately
+- Research summaries preserve exact authoritative JSON measurements. When a
+  separate dimension-editing task or lower-tier advice allows it, round practical
+  dimensions to easy numbers where useful (approximately
   10–15% either way can be acceptable), retaining coherent metric/imperial pairs,
   crop context and clear row/plant/clump meanings. Do not apply this tolerance to
   temperatures, pH, treatment quantities or biological limits. Preserve timings,

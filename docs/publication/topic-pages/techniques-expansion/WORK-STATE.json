@@ -1,0 +1,194 @@
+{
+  "status": "approved_complete",
+  "startedUtc": "2026-10-08T22:56:51Z",
+  "heartbeat": "build-growing-techniques-overnight",
+  "stopBy": "2026-10-09T09:00:00+01:00",
+  "brief": "Eight extra illustrated sections as 13 pages: 12 Growing Techniques pages + 1 front proposal. Four approved cultivation pages separate.",
+  "sourcePriority": "Exact canonical records, then deep reading of John’s manuscript and corrected video notes before outlining. Web only identified gaps.",
+  "usageAtStart": {
+    "mainUsedPercent": 54,
+    "availableFreeResets": 2,
+    "resetAuthorised": true,
+    "purchasesAuthorised": false
+  },
+  "sections": [
+    {
+      "id": "why-grow",
+      "title": "Why Grow Your Own?",
+      "pages": 1,
+      "placement": "front introduction",
+      "status": "approved",
+      "approvalDate": "2026-10-09",
+      "approval": "WHY-GROW-APPROVAL.json",
+      "copyRevision": "IMPERSONAL-COPY-REVISION.json",
+      "collectionApproval": "COLLECTION-APPROVAL.json",
+      "finalApprovalDate": "2026-10-12",
+      "finalApproval": "COLLECTION-APPROVAL.json"
+    },
+    {
+      "id": "organic",
+      "title": "Core Principles of Organic Growing",
+      "pages": 1,
+      "placement": "Growing Techniques",
+      "status": "approved",
+      "approvalDate": "2026-10-12",
+      "approval": "ORGANIC-APPROVAL.json",
+      "approvedPageIds": [
+        "organic"
+      ],
+      "reviewPages": [
+        2
+      ],
+      "collectionApproval": "COLLECTION-APPROVAL.json"
+    },
+    {
+      "id": "plot",
+      "title": "Planning a New Vegetable Plot",
+      "pages": 3,
+      "placement": "Growing Techniques",
+      "status": "approved",
+      "approvedPageIds": [
+        "plot-location",
+        "plot-layout",
+        "plot-layout-branching"
+      ],
+      "approvals": [
+        "PLOT-LOCATION-APPROVAL.json",
+        "BEDS-PATHS-APPROVAL.json"
+      ],
+      "collectionApproval": "COLLECTION-APPROVAL.json"
+    },
+    {
+      "id": "greenhouse",
+      "title": "Greenhouses: what, where and how to grow",
+      "pages": 3,
+      "placement": "Growing Techniques",
+      "status": "approved",
+      "approvalDate": "2026-10-09",
+      "approval": "GREENHOUSE-APPROVAL.json",
+      "approvedPageIds": [
+        "greenhouse-choose",
+        "greenhouse-beds",
+        "greenhouse-no-dig-seasons"
+      ],
+      "collectionApproval": "COLLECTION-APPROVAL.json"
+    },
+    {
+      "id": "rotation",
+      "title": "Simple Crop Rotation",
+      "pages": 1,
+      "placement": "Growing Techniques",
+      "status": "approved",
+      "collectionApproval": "COLLECTION-APPROVAL.json",
+      "finalApprovalDate": "2026-10-12",
+      "finalApproval": "COLLECTION-APPROVAL.json"
+    },
+    {
+      "id": "compost",
+      "title": "Making and Using Compost",
+      "pages": 2,
+      "placement": "Growing Techniques",
+      "status": "approved",
+      "revision": "COMPOST-USE-DAMP-REVISION.json",
+      "approvedPageIds": [
+        "compost-bins",
+        "compost-use"
+      ],
+      "approvals": [
+        "COMPOST-BINS-APPROVAL.json",
+        "COMPOST-USE-APPROVAL.json"
+      ],
+      "collectionApproval": "COLLECTION-APPROVAL.json"
+    },
+    {
+      "id": "watering",
+      "title": "Watering Well",
+      "pages": 1,
+      "placement": "Growing Techniques",
+      "status": "approved",
+      "revision": "WATERING-REVISION.json",
+      "approvalDate": "2026-10-12",
+      "approval": "WATERING-APPROVAL.json",
+      "approvedPageIds": [
+        "watering"
+      ],
+      "collectionApproval": "COLLECTION-APPROVAL.json"
+    },
+    {
+      "id": "sowing",
+      "title": "Sowing and Planting: The Basics",
+      "pages": 1,
+      "placement": "Growing Techniques",
+      "status": "approved",
+      "revision": "SOWING-REVISION.json",
+      "approvalDate": "2026-10-12",
+      "approval": "SOWING-APPROVAL.json",
+      "approvedPageIds": [
+        "sowing"
+      ],
+      "collectionApproval": "COLLECTION-APPROVAL.json"
+    }
+  ],
+  "skillUpdate": "Author-method-before-outline gate added to Gardening Research",
+  "next": "Content and focused page-order review complete. Preserve approved sources. Full-book integration, contents and final folios are a separate future task.",
+  "discardedSupportTest": [
+    {
+      "from": "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/topic-pages/crop-supports-draft-2026-10-08",
+      "to": "/Users/johnlennon/.Trash/vegetable-guru-supports-test-2026-10-09/crop-supports-draft-2026-10-08"
+    },
+    {
+      "from": "/Users/johnlennon/Documents/web_site/hackriculture-print/output/pdf/topic-pages/crop-supports-draft-2026-10-08.pdf",
+      "to": "/Users/johnlennon/.Trash/vegetable-guru-supports-test-2026-10-09/crop-supports-draft-2026-10-08.pdf"
+    },
+    {
+      "from": "/Users/johnlennon/Documents/web_site/hackriculture-resources/summaries/crop-supports-2026-10-08",
+      "to": "/Users/johnlennon/.Trash/vegetable-guru-supports-test-2026-10-09/crop-supports-2026-10-08"
+    }
+  ],
+  "sourceReadingComplete": true,
+  "authorApproachRecord": "/Users/johnlennon/Documents/web_site/hackriculture-resources/summaries/techniques-expansion/research-notes.md",
+  "completedUtc": "2026-10-08T23:38:44Z",
+  "heartbeatStatus": "deleted after completion on 9 October 2026",
+  "usageAtFinish": {
+    "mainUsedPercent": 58,
+    "availableFreeResets": 2,
+    "freeResetsUsed": 0
+  },
+  "copyPath": "/Users/johnlennon/Documents/web_site/hackriculture-resources/summaries/techniques-expansion/copy.json",
+  "review": "REVIEW.html",
+  "checks": "CHECKS.json",
+  "visual": "VISUAL-REVIEW.json",
+  "preservation": "PRESERVATION-AND-EDITION-CHECKS.json",
+  "sourceVideosRead": 15,
+  "newPlacedIllustrations": 13,
+  "editableDiagrams": 3,
+  "latestRevision": "ORGANIC-PAGE-ORDER.json",
+  "copyRule": "Impersonal advice throughout the expansion; retain authored methods, context, qualifications and source titles.",
+  "focusedGreenhouseVideosConsulted": 5,
+  "latestApproval": "COLLECTION-APPROVAL.json",
+  "currentPilot": {
+    "review": "../compost-bins-pilot/REVIEW.html",
+    "pagesPerEdition": 2,
+    "checks": "../compost-bins-pilot/CHECKS.json",
+    "visual": "../compost-bins-pilot/VISUAL-REVIEW.json",
+    "status": "superseded_by_single_page_on_2026-10-11",
+    "decisionDate": "2026-10-09"
+  },
+  "reviewPageOrder": [
+    "why-grow",
+    "organic",
+    "plot-location",
+    "plot-layout",
+    "plot-layout-branching",
+    "greenhouse-choose",
+    "greenhouse-beds",
+    "greenhouse-no-dig-seasons",
+    "rotation",
+    "compost-bins",
+    "compost-use",
+    "watering",
+    "sowing"
+  ],
+  "reviewCompletedDate": "2026-10-12",
+  "collectionApproval": "COLLECTION-APPROVAL.json"
+}

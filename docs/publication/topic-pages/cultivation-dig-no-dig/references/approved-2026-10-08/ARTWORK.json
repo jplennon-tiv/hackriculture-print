@@ -1,0 +1,177 @@
+{
+  "date": "2026-10-08",
+  "status": "New artwork proposals for John; no approval or stock-registry installation",
+  "tool": "Built-in image_gen; original comparison/no-dig groups retained, new double-digging and smothering groups",
+  "prompts": [
+    "PROMPTS.json",
+    "DIGGING-REVISION-PROMPTS.json"
+  ],
+  "references": [
+    {
+      "path": "public/images/heroes/richer-a/carrot.png",
+      "sha256": "733b775e5e9f87d78669551ca911e39ea3eb61bed6bc54815e64b10c8fbdbfe9",
+      "role": "Approved house-style reference, not horticultural evidence",
+      "approval": "docs/redesign-rollout/APPROVAL.json"
+    },
+    {
+      "path": "public/images/heroes/richer-a/beetroot.png",
+      "sha256": "fa7251e6ce9ff76219b147cdff873b6c070e3649ce104c3a3bf9020584529eae",
+      "role": "Approved house-style reference, not horticultural evidence",
+      "approval": "docs/redesign-rollout/APPROVAL.json"
+    }
+  ],
+  "assets": [
+    {
+      "path": "assets/comparison-v1.png",
+      "sha256": "e974d4669917675c5c9c19ade604b47f7d6991ab0866ae4d47b84d8c366c842f",
+      "sizePx": [
+        1774,
+        887
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "contentBoundsPx": [
+        0,
+        0,
+        1773,
+        887
+      ],
+      "panels": 2,
+      "promptKey": "comparisonV1",
+      "original": "/Users/johnlennon/.codex/generated_images/01a11b2c-8613-7d12-9755-a726a897df03/exec-0205f0f8-eb0e-4c3a-b51c-01be61deea38.png",
+      "review": "Superseded: roots only visible in right bed could suggest an unfair comparison."
+    },
+    {
+      "path": "assets/comparison-v2.png",
+      "sha256": "8506c1e420aa2970717021ab625f99807f9989dab819f5c0cc09eb8eb7010dcd",
+      "sizePx": [
+        1774,
+        887
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "contentBoundsPx": [
+        0,
+        8,
+        1759,
+        887
+      ],
+      "panels": 2,
+      "promptKey": "comparisonV2",
+      "original": "/Users/johnlennon/.codex/generated_images/01a11b2c-8613-7d12-9755-a726a897df03/exec-0f52001b-f484-4c42-afe8-8c4e3e79f857.png",
+      "review": "Selected for this draft: equal plants and roots; different compost placement."
+    },
+    {
+      "path": "assets/no-dig-sequence-v1.png",
+      "sha256": "a100d1d0c4c62f4c6c8600e735876a2335ccff20d714a023a364a7f03bc9e673",
+      "sizePx": [
+        2172,
+        724
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "contentBoundsPx": [
+        0,
+        7,
+        2172,
+        724
+      ],
+      "panels": 3,
+      "promptKey": "noDigSequenceV1",
+      "original": "/Users/johnlennon/.codex/generated_images/01a11b2c-8613-7d12-9755-a726a897df03/exec-de4a2552-b9e2-477e-bff0-3e969d2c1cfa.png",
+      "review": "Selected for this draft: overlap cardboard; add compost; plant. Thin cardboard remains below surface compost."
+    },
+    {
+      "path": "assets/digging-sequence-v1.png",
+      "sha256": "44426d53a9e9efc0826dd89b4c77b6b4651a7e99e597651f1298ead5920716a4",
+      "sizePx": [
+        2172,
+        724
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "contentBoundsPx": [
+        14,
+        30,
+        2152,
+        724
+      ],
+      "panels": 3,
+      "promptKey": "diggingSequenceV1",
+      "original": "/Users/johnlennon/.codex/generated_images/01a11b2c-8613-7d12-9755-a726a897df03/exec-0d9913cd-dcd3-4c6c-8485-4d1ad7800bfd.png",
+      "review": "Retained historical three-page draft: one-depth trench sequence, superseded by the double-digging sequence after John’s expansion request."
+    },
+    {
+      "path": "assets/double-dig-sequence-v1.png",
+      "sha256": "7330d64011436ee326e4ff6482af64a16ab84906c9e557c9cef1cecb9fcad31b",
+      "sizePx": [
+        2172,
+        724
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "contentBoundsPx": [
+        0,
+        17,
+        2158,
+        724
+      ],
+      "panels": 3,
+      "promptKey": "doubleDigSequenceV1",
+      "promptFile": "DIGGING-REVISION-PROMPTS.json",
+      "original": "/Users/johnlennon/.codex/generated_images/01a11b2c-8613-7d12-9755-a726a897df03/exec-4967a27e-5c71-475e-a810-36e2e778f386.png",
+      "inputRoles": [
+        "Approved carrot and beetroot: style authority",
+        "assets/digging-sequence-v1.png: composition and prop continuity only"
+      ],
+      "review": "Topsoil reserved; fork loosens lower layer in trench; next strip fills previous trench. Layer order and repeat action stated in adjacent editable text. Selected for this draft; John’s review pending."
+    },
+    {
+      "path": "assets/smother-sequence-v1.png",
+      "sha256": "11501fe4d115a62143b9d093051c5f397a5467270db251069c4cb5efa8bc8cd7",
+      "sizePx": [
+        2170,
+        725
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "contentBoundsPx": [
+        0,
+        0,
+        2170,
+        725
+      ],
+      "panels": 2,
+      "promptKey": "smotherSequenceV1",
+      "promptFile": "DIGGING-REVISION-PROMPTS.json",
+      "original": "/Users/johnlennon/.codex/generated_images/01a11b2c-8613-7d12-9755-a726a897df03/exec-9074c7a2-7ab1-495d-a713-9c176d028c6a.png",
+      "inputRoles": [
+        "Approved carrot and beetroot: style authority",
+        "assets/digging-sequence-v1.png: composition and prop continuity only"
+      ],
+      "review": "Opaque weighted tarp covers patch; later removed, rolled beside it, and dead growth raked away. No planting through cover. Selected for this draft; John’s review pending."
+    }
+  ],
+  "claimSource": "../../../../../hackriculture-resources/summaries/cultivation-dig-no-dig/research-notes.md",
+  "reviewScope": "Approved carrot/beetroot pixels and previous digging diagram inspected before generation. Double-digging result inspected before smothering generation. New diagrams checked in actual imperial page renders and metric consecutive-page pairing at 150 dpi, beside established no-dig page; broad dimensional colour planes, readable tools and process, no lettering, full silhouettes. Transparency also checked through review-page cream/dark-green presentations. Soil/grass details remain secondary at print size. New drawings remain proposals.",
+  "approvalPending": true,
+  "latestPlacementRevision": "Existing images reused unchanged: paired comparison at 40 mm contain-height; smothering at 33 mm contain-height inside the new peach option panel. Actual revised pages inspected in both unit PDFs. No new generation."
+}

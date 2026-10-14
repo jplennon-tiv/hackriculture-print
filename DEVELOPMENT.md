@@ -299,6 +299,14 @@ folios 15, 69, 87 and 91; John has not approved this book-pagination choice.
 
 ### Editable book copy
 
+**Current expanded contents:** `npm run book:contents` builds the three-page
+proposal from `contents.json.expanded`, retaining the approved crop/Troubles
+composition and all newer sections. Its [workflow](docs/publication/contents-update/README.md)
+owns the measured 170-page placement proposal, stable topic-folio map and exact
+PDF checks. Run `scripts/check-updated-contents.py` and review the actual renders.
+The commands below retain the earlier seven-page opening composition; they do
+not replace the expanded contents builder or integrate a complete book.
+
 The shared [book-layout folder](../hackriculture-data/book-layout/README.md) owns
 book identity, opening copy and the future cover copy. Its native Node validator
 and guarded writer are `../hackriculture-data/lib/book-layout.mjs`. AI/app writes

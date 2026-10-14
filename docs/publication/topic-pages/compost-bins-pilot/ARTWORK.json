@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-09",
+  "status": "New pilot artwork for John's review",
+  "tool": "image_gen.imagegen (built-in)",
+  "directStyleReferences": [
+    "public/images/heroes/richer-a/carrot.png",
+    "public/images/heroes/richer-a/beetroot.png"
+  ],
+  "assets": [
+    {
+      "file": "compost-bins-plank-lids-v1.png",
+      "generatedSource": "/Users/johnlennon/.codex/generated_images/01a11b2c-8613-7d12-9755-a726a897df03/exec-6e211525-d2ae-47a8-99d8-02b645a7382f.png",
+      "editTarget": "docs/publication/topic-pages/techniques-expansion/assets/compost-bins-v2.png",
+      "status": "placed pilot",
+      "prompt": "Use case: precise-object-edit. Image 1 is the edit target: three adjoining brick compost bins. Images 2 and 3 are authoritative house STYLE references only. Change ONLY the three lids. Replace all moulded green plastic lids with solid warm brown timber lids made from straight wooden planks fastened together, with two sturdy cross battens clearly visible on the UNDERSIDES of the raised left and right lids, and simple steel hinge hardware. Raised lids must visibly be plank construction with clean board seams; middle lid remains closed and is also timber, never plastic. Retain a thin dark green weatherproof felt layer only on the TOP outside faces where appropriate, with timber thickness and edges obvious; the closed middle lid should read as wooden boards, not a rounded plastic moulding. Keep all three bays, brick walls, front plank doors, hinges, contents, left/right open and middle closed arrangement, front-on wide composition and all other details identical. Match the approved heroes' broad discrete colour planes, simplified volume and crisp cream highlight slashes. No fine wood grain, soft painting, photorealism, heavy black outlines, labels, words or extra items. Full complete silhouette, genuinely transparent background, no halo. Wide ratio about 3:1.",
+      "sha256": "a0335a48b750bedd1210b60e3beb8ca0c0fb38693f41c4753598ae62722ba00e",
+      "pixels": [
+        2164,
+        726
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "file": "compost-construction-pair-v1.png",
+      "generatedSource": "/Users/johnlennon/.codex/generated_images/01a11b2c-8613-7d12-9755-a726a897df03/exec-d695e654-20f7-44ac-a4d6-291d444a0838.png",
+      "status": "superseded: door diagonal brace incorrectly inclined; preserved as generation evidence",
+      "prompt": "Use case: scientific-educational. Create one transparent landscape plate with TWO separate compost-bin construction illustrations side by side, evenly sized, lots of separation. Images 1 and 2 are authoritative approved STYLE ONLY: broad confident colour planes, bold simplified dimensional shapes, crisp cream tapered highlights, saturated terracotta and forest greens, no black outlines or photographic surface texture. Image 3 supplies brick colours, plank lid construction and the compost-bin character only. Do NOT repeat its three bays. LEFT HALF: one empty brick compost bin, seen in three-quarter view from front and slightly above. Solid mortared terracotta side and rear walls, a clear horizontal grey reinforced-concrete lintel spanning ABOVE the rectangular front doorway. Front timber plank door swung open towards the viewer-left to expose its inner two horizontal battens and a diagonal brace rising from LOWER HINGE side to the UPPER free/latch corner. Open timber plank lid hinged at rear with two underside battens, timber capping atop masonry, lid slopes downward towards front when closed. Show shallow below-ground cutaway: continuous concrete STRIP foundation under walls including front threshold, brown soil in the middle, grey metal mesh laid on soil overlapping foundation edges. The bin must have soil under mesh, NOT a solid concrete floor. Two small round air vents visible in side masonry. RIGHT HALF: one empty matching-sized timber compost bin built from stout square timber corner posts and close-set horizontal wooden boards on three sides. Its open front has two low removable horizontal planks sitting in vertical timber channels; a single additional front plank is lifted clearly above the channels to show removal, no arrows. Rear-hinged plank lid raised with two underside bracing battens and slim green weatherproof felt only on outside face. Corner posts extend modestly below ground into brown soil cutaway. Fine galvanised mesh base visible across soil inside, edges turned upward against inside walls. No compost filling either structure. Draw two educational bin arrangements, full silhouettes contained, no crop plants, no loose tools, no surrounding landscape. Timber warm ochre/terracotta, broad light planes without detailed grain. Mesh may have simple sparse crossing grey lines; schematic rather than calibrated mesh openings. No words, numbers, labels, lettering, dimension lines, border or arrows. Genuine transparent background. Approximately 2:1 landscape canvas, two equal-width subjects with clear space between, consistent size and perspective.",
+      "sha256": "f78a8aa977d1667745708403a75c8f77c5324a63b11233eb3f162f82fb2c1988",
+      "pixels": [
+        1774,
+        887
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "file": "compost-construction-pair-v2.png",
+      "generatedSource": "/Users/johnlennon/.codex/generated_images/01a11b2c-8613-7d12-9755-a726a897df03/exec-f053760f-c503-462a-8829-bbb9c66c50ba.png",
+      "editTarget": "assets/compost-construction-pair-v1.png",
+      "status": "placed pilot",
+      "prompt": "Precise correction to this instructional plate; preserve both compost bins, composition, every material, lighting, colours, transparent background and broad graphic style. On the LEFT brick bin's OPEN DOOR, hinges are on the RIGHT-HAND edge of that open door. Reverse the diagonal wooden brace: it must run from the LOWER RIGHT hinge-side corner to the UPPER LEFT free/latch-side corner. In image coordinates it must look like a backslash descending from upper-left to lower-right, NOT the current forward slash. Retain both horizontal door crossrails. This is essential carpentry support geometry. Also make the two thin capping strips on top of the brick side walls clearly wooden battens matching the lid timber, rather than brick caps. Change nothing else, no text, no new objects, full silhouette and genuine transparency.",
+      "sha256": "6466a2d943d1234ac50f1859e860a41dbd71d7544ce49136117dea7bd28da637",
+      "pixels": [
+        1774,
+        887
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ]
+    }
+  ],
+  "illustrationLimits": "Explanatory, not dimensioned plans. Mesh is schematic. Felt/wood layers simplified so plank construction can be seen. Door brace corrected to rise from lower hinge to opposite upper corner. Final page/artwork approval remains with John."
+}

@@ -1,0 +1,96 @@
+@font-face{font-family:Lilita;src:url('/fonts/richer-a-1.woff2');font-weight:400}
+@font-face{font-family:Nunito;src:url('/fonts/richer-a-6.woff2');font-weight:100 1000}
+*{box-sizing:border-box}:root{--paper:#fff8e9;--ink:#173e2c;--orange:#a44007;--green:#064d32;--rule:#d4d6bf;--leaf:#d6ea9b;--peach:#ffe1b7}
+body{margin:0;color:var(--ink);background:var(--paper);font:12.6px/1.36 Nunito,sans-serif}
+.sheet{position:relative;width:185mm;height:240mm;padding:12mm 8mm 18mm 17mm;background:var(--paper);break-after:page;--left:17mm;--right:8mm}
+.sheet.verso{padding-left:8mm;padding-right:17mm;--left:8mm;--right:17mm}.sheet:last-child{break-after:auto}
+h1,h2,h3,p,figure{margin:0}h1,h2,h3{font-family:Lilita,sans-serif;font-weight:400}
+h1{font-size:42px;line-height:1.04;letter-spacing:-.25px;margin:2.5mm 0 3mm}h1 span{display:block;color:var(--orange)}
+h2{font-size:22px;line-height:1.14;margin-bottom:1.8mm}h3{font-size:20px;line-height:1.15;margin-bottom:1.7mm}b,strong{font-weight:850}
+.eyebrow{font-size:10px;line-height:1.25;font-weight:900;letter-spacing:1.05px;text-transform:uppercase}.lead{font-size:13.5px;line-height:1.4}
+.hero{margin:3mm 0 0}.hero img{display:block;width:100%;height:45mm;object-fit:contain}.hero figcaption,.diagram figcaption{font-size:11.3px;line-height:1.3;text-align:center;margin-top:1mm;color:#53613d}
+.blocks{display:grid;grid-template-columns:repeat(3,1fr);gap:5.5mm;margin-top:5mm;align-items:start}.blocks.two{grid-template-columns:1fr 1fr;gap:7mm}.block p{font-size:12.6px;line-height:1.37}
+.closing{margin-top:5mm;padding:3.5mm 4mm;background:var(--leaf);border-radius:0 12px 0 12px}.closing h2{font-size:22px;margin-bottom:1.5mm}.closing p{font-size:12.6px;line-height:1.36}
+.footnote{margin-top:3mm;padding-top:2.5mm;border-top:1px solid var(--rule);font-size:12px;line-height:1.33}
+.source-note{position:absolute;bottom:14.8mm;left:var(--left);right:var(--right);font-size:9.4px;line-height:1.24;color:#586337}
+footer{position:absolute;bottom:8mm;left:var(--left);right:var(--right);display:flex;justify-content:space-between;font-size:9.8px;font-weight:900;line-height:1.25;letter-spacing:.45px}
+.steps-section{margin-top:4mm;border-top:1px solid var(--rule);padding-top:3mm}.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:5.5mm}.step h3{font-size:19px;min-height:13mm;margin-bottom:1.8mm}.number{display:block;font-family:Nunito;font-weight:950;font-size:11px;line-height:1.2;color:var(--orange);margin-bottom:1mm}.step p{font-size:12.6px;line-height:1.36}
+.diagram{margin-top:4mm}.diagram h2{font-size:21px}.diagram svg{display:block;width:100%;height:auto;overflow:visible}.diagram text{font-family:Nunito,sans-serif;font-size:14px;font-weight:800;fill:var(--ink)}.diagram .fine{font-size:12px;font-weight:700}.diagram .dark{fill:#fff8e9}
+.welcome .hero img{height:43mm}.welcome .closing{background:var(--peach)}
+.scene .hero img{height:44mm}.scene .closing{background:var(--peach)}
+.plot-plan .diagram svg{height:51mm}.plot-plan .diagram figcaption{max-width:146mm;margin:1mm auto 0}.plot-plan .blocks{margin-top:4mm}
+.greenhouse-choose h1{font-size:40px}.greenhouse-choose .blocks{margin-top:4mm}.base-row{display:grid;grid-template-columns:68mm 1fr;gap:7mm;margin-top:4mm;align-items:center}.base-row .diagram{margin:0}.base-row .diagram h2{font-size:20px}.base-row svg{height:54mm}.base-row .steps-section{margin:0;border:0;padding:0}.base-row .steps{display:block}.base-row .step{margin-top:2mm}.base-row .step h3{font-size:18px;min-height:0;margin-bottom:1mm}.base-row .number{display:inline;margin-right:1.4mm}.base-row .step p{font-size:12.6px;line-height:1.34}
+.greenhouse-beds .hero img{height:62mm}.greenhouse-beds .blocks{margin-top:4mm}.greenhouse-beds .closing{margin-top:4mm}
+.greenhouse-choose .base-row{grid-template-columns:62mm 1fr;gap:6mm}
+.greenhouse-options-list{display:grid;gap:5mm;margin-top:4mm}
+.greenhouse-option{display:grid;grid-template-columns:77mm 1fr;gap:6mm;align-items:center}
+.greenhouse-option img{display:block;width:100%;height:57mm;object-fit:contain}
+.greenhouse-option figcaption{font-size:11.3px;line-height:1.3;text-align:center;color:#53613d;margin-top:1mm}
+.greenhouse-option p+p{margin-top:2.4mm}
+.greenhouse-seasons .greenhouse-option img{height:42mm}
+.no-dig-method .greenhouse-option{margin-top:2mm}
+.greenhouse-options .closing{margin-top:4mm;padding:3mm 4mm;background:var(--peach)}
+.season-sequence{margin-top:5mm;background:var(--peach);padding:3mm 4mm;border-radius:12px 0 12px 0}
+.season-sequence>div{display:grid;grid-template-columns:1.18fr 1fr 1fr;gap:5.5mm;margin-top:2mm}
+.season-sequence h3{font-size:19px;min-height:12mm}
+.greenhouse-care{margin-top:3mm;padding:3mm 4mm;background:var(--leaf);border-radius:0 12px 0 12px}
+.greenhouse-care>div{display:grid;grid-template-columns:1fr 1fr;gap:7mm}
+.greenhouse-care h3{font-size:18px;margin:1mm 0}
+.greenhouse-seasons .footnote{margin-top:3mm;padding-top:2mm}
+.rotation .rotation-row{display:grid;grid-template-columns:1fr 10mm 1fr 10mm 1fr;align-items:center;text-align:center;padding:2mm 8mm 0}.rotation-row img{width:100%;height:32mm;object-fit:contain}.rotation-row .year{font-size:11px;font-weight:900;text-transform:uppercase;letter-spacing:.8px}.rotation-row h3{margin:1mm 0 0}.arrow{font-size:26px;color:var(--orange);font-weight:900}.rotation .blocks{margin-top:4mm}.families{margin-top:4mm}.families h2{font-size:21px}.families table{width:100%;border-collapse:collapse;font-size:12.6px}.families th,.families td{text-align:left;padding:1.3mm 2mm;border-bottom:1px solid var(--rule);vertical-align:top}.families th{width:30%;background:#e8ead6;font-weight:900}.rotation .closing{background:var(--peach);margin-top:4mm}
+.compost-bins h1{font-size:39px}.compost-bins .hero{margin-top:2mm}.compost-bins .hero img{height:36mm}.stages{display:grid;grid-template-columns:repeat(3,1fr);gap:6mm;text-align:center;margin-top:1mm}.stages h3{font-size:19px;margin-bottom:1mm}.stages p{font-size:11.5px;line-height:1.3}.compost-bins .blocks{margin-top:4mm}.compost-bins .steps-section{margin-top:4mm;padding-top:2.5mm}.compost-bins .steps-section>h2{font-size:21px}.compost-bins .step h3{min-height:12mm}
+.compost-use .hero img{height:38mm}.compost-use .blocks{margin-top:3mm}.compost-use .closing{margin-top:4mm}.compost-use .footnote{font-size:11.8px;line-height:1.32}
+.organic .diagram{background:#edf1d8;padding:3mm 4mm;border-radius:12px 0 12px 0}.organic .diagram svg{height:27mm}.organic .diagram figcaption{text-align:left}.organic .closing{background:var(--peach)}
+.watering .hero img{height:45mm}.watering .closing{background:var(--peach)}
+.sowing h1{font-size:38px}.sowing .hero{margin-top:5mm}.sowing .hero img{height:48mm}.sowing .steps-section{border:0;padding:0;margin-top:3mm}.sowing .step h3{min-height:14mm}.sowing .closing{margin-top:5mm}
+@page{size:185mm 240mm;margin:0}
+@media screen{body{background:#d9dfcf}main{display:flex;flex-wrap:wrap;gap:18px;justify-content:center;padding:24px}.sheet{box-shadow:0 3px 16px #173e2c25;flex-shrink:0}}
+@media print{main{display:block}.sheet{margin:0}}
+/* Focused fit adjustments preserve the 9.45 pt reading text. */
+.plot-plan .diagram svg{height:45mm}
+.greenhouse-beds .hero img{height:56mm}
+.rotation-row img{height:24mm}
+.families th,.families td{padding-top:.6mm;padding-bottom:.6mm}
+.rotation .closing{background:none;border-left:3px solid var(--orange);border-radius:0;padding:0 0 0 3mm}
+.compost-use .hero img{height:30mm}
+.compost-use .lead{text-wrap:pretty}
+.sowing .hero img{height:42mm}
+.sowing .closing{padding-top:3mm;padding-bottom:3mm;margin-top:4mm}
+.sowing .footnote{margin-top:2.5mm;padding-top:2mm}
+.rotation .families{margin-top:3mm}
+.compost-bins .hero img{height:42mm}
+.compost-bins .stage-flow>section{position:relative}
+.compost-bins .stage-arrow{position:absolute;top:-.1mm;right:-8mm;width:10mm;height:5mm;overflow:visible}
+.compost-bins .bin-options{margin-top:4mm;padding-top:2.5mm;border-top:1px solid var(--rule)}
+.compost-bins .bin-options h2{font-size:21px;margin-bottom:1.5mm}
+.compost-bins .bin-options>p{text-wrap:pretty}
+.compost-bins .bin-examples{display:grid;grid-template-columns:1fr 1fr;gap:7mm;margin-top:2mm}
+.compost-bins .bin-window{width:33.684mm;height:32mm;margin:auto;overflow:hidden}
+.compost-bins .bin-window img{display:block;width:64mm;height:32mm;max-width:none}
+.compost-bins .bin-examples figure:nth-child(2) .bin-window{width:30.316mm}
+.compost-bins .bin-examples figure:nth-child(2) img{transform:translateX(-33.684mm)}
+.compost-bins .bin-options figcaption{text-align:center;font-size:11.3px;line-height:1.3;color:#53613d;margin-top:1mm}
+.sowing .hero img{height:52mm}
+.sowing .step h3{min-height:0;margin-bottom:2mm}
+.sowing .hero{margin-top:3mm}
+.rotation .rotation-row{padding-top:1mm}
+.layout-options-list{margin-top:4mm;display:grid;gap:4mm}
+.layout-option{display:grid;grid-template-columns:79mm 1fr;gap:6mm;align-items:center}
+.layout-option img{display:block;width:100%;height:52mm;object-fit:contain}
+.layout-option figcaption{font-size:11.3px;line-height:1.3;text-align:center;color:#53613d;margin-top:1mm}
+.layout-option p,.branch-copy p{font-size:12.6px;line-height:1.37}
+.layout-options .closing{margin-top:4mm;padding:3mm 4mm}
+.branching-method{margin-top:4mm}
+.branching-method>h2{margin-bottom:2mm}
+.branching-method img{display:block;width:100%;height:56mm;object-fit:contain}
+.diagram-captions{display:grid;grid-template-columns:1fr 1fr;gap:7mm;text-align:center;margin-top:1mm}
+.diagram-captions p{font-size:11.3px;line-height:1.3;color:#53613d}
+.branch-copy{display:grid;grid-template-columns:1fr 1fr;gap:7mm;margin-top:2mm}
+.layout-branching .planning-note{margin-top:4mm;padding:3mm 4mm;background:var(--leaf);border-radius:0 12px 0 12px}
+.layout-branching .planning-note p{font-size:12.6px;line-height:1.37}
+.layout-branching .blocks{grid-template-columns:1fr 1fr;gap:5mm;margin-top:4mm}
+.layout-branching .block{padding:3mm 3.5mm;background:#edf1d8;border-radius:0 10px 0 10px}
+.layout-branching .block:nth-child(2){background:var(--peach)}
+.layout-branching .block h2{font-size:20px}
+.layout-branching .closing{padding:0 0 0 3mm;margin-top:4mm;border-left:3px solid var(--orange);background:none;border-radius:0}
+.layout-branching .closing h2{font-size:20px}

@@ -78,5 +78,5 @@ export function renderEntryPages(data, units, plan, themes) {
   }).join('');
   const calendar = sheet(book, units, 6, 'how-calendar', header(how.pages[0], how.illustration, 'how-header', '', true) + calendarBody, true);
   const scales = sheet(book, units, 7, 'how-scales', header(how.pages[1], how.illustration, 'scales-header', '', true) + scalesBody, true);
-  return {body: first + second + calendar + scales, contents: refs, copyBlocks: [...cal.paragraphs, ...how.scales.flatMap(s => s.paragraphs)]};
+  return {body: first + second + calendar + scales, contentsBody: first + second, contents: refs, copyBlocks: [...cal.paragraphs, ...how.scales.flatMap(s => s.paragraphs)]};
 }

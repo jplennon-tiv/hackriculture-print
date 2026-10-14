@@ -1,0 +1,19 @@
+@font-face{font-family:Lilita;src:url('/fonts/richer-a-1.woff2');font-weight:400}
+@font-face{font-family:Nunito;src:url('/fonts/richer-a-6.woff2');font-weight:100 1000}
+*{box-sizing:border-box}body{margin:0;color:#173e2c;background:#fff8e9;font-family:Nunito,sans-serif}
+.sheet{width:185mm;height:240mm;padding:12mm 8mm 18mm 17mm;position:relative;break-after:page;--left:17mm;--right:8mm}
+.sheet.verso{padding-left:8mm;padding-right:17mm;--left:8mm;--right:17mm}.sheet:last-child{break-after:auto}
+.eyebrow,footer{font-size:9.8px;letter-spacing:.8px;font-weight:900}
+h1,h2,p{margin:0}h1,h2{font-family:Lilita,sans-serif;font-weight:400}
+h1{font-size:40px;line-height:1.06;margin:0 0 2mm}h1 span{color:#a44007;margin-left:3mm}
+.introduction{font-size:12px;line-height:1.35}
+.legend{font-size:10.5px;line-height:1.35;background:#e8efd4;border-left:3px solid #a44007;padding:1.5mm 3mm;margin-top:2mm}
+.columns{display:grid;grid-template-columns:1fr 1fr;gap:9mm;margin-top:4mm}
+.column{min-width:0}.letter{font-size:20px;line-height:1.1;color:#a44007;border-bottom:1px solid #d4d6bf;padding-bottom:.6mm;margin-bottom:1mm;margin-top:1.8mm}
+.letter:first-child{margin-top:0}.continued{font-family:Nunito,sans-serif;font-size:10px;font-weight:700;color:#53613d;margin-left:2mm}
+.entry{font-size:12.6px;line-height:1.28;margin-bottom:.3px;padding-left:3mm;text-indent:-3mm;overflow-wrap:normal}
+.term{font-weight:780}.references{color:#a44007;font-weight:800;margin-left:1.2mm}.references a{color:inherit;text-decoration:none;white-space:nowrap}
+.crossref{font-weight:450;color:#53613d}.crossref em{font-style:italic}.crossref a{color:#173e2c;text-decoration:none}
+footer{position:absolute;bottom:8mm;left:var(--left);right:var(--right);display:flex;justify-content:space-between;line-height:1.4}
+@page{size:185mm 240mm;margin:0}@media screen{body{background:#d9dfcf}.sheet{background:#fff8e9;margin:16px auto;box-shadow:0 3px 15px #173e2c22}}
+@media print{.sheet{margin:0}}

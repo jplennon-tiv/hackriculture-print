@@ -1,21 +1,39 @@
 # Current project handover
 
-Updated 8 October 2026. This is the authoritative current scope and next-action
+Updated 12 October 2026. This is the authoritative current scope and next-action
 summary. Replace changed decisions here; keep detailed checks in their receipts.
 John's latest instruction overrides older documentation. Start with the root
 README, AGENTS and SHARED-DATA; then read the relevant style/implementation files.
 
-**Latest review:** the [rough Bookvault progress preview](../publication/bookvault-progress-preview/REVIEW.html)
-brings G2/B5, the latest opening-page artwork and the complete imperial interior
-together for John's morning review. It has 148 interior pages plus four cover
-leaves (152 PDF pages), sample spreads and a short next-decision list. This is a
-screen derivative, not an upload file or new approval. No guide re-export or
-new artwork generation was performed; [checks](../publication/bookvault-progress-preview/CHECKS.json)
-record its sources and coverage.
+**Latest complete-book review:** the [whole-book order preview](../publication/whole-book-order-preview/REVIEW.html)
+includes G2/B5, current opening copy and contents, all approved additional pages
+and the index with updated references. Its imperial PDF has **170 interior pages
+plus four cover leaves (174 PDF pages)**; the browser shows every facing spread.
+John wants to settle page order before refining the contents. This is a screen
+derivative, not an upload file or new approval. All 137 guide pages reuse saved
+content; no guide re-export or new artwork generation was performed.
+[Preview notes and checks](../publication/whole-book-order-preview/README.md)
+record source preservation, coverage and the proposed ordering choices.
+
+**Author biography draft (8 October):** John resumed copy work with the author
+bio. The [focused preview](../publication/author-bio-draft-2026-10-08/REVIEW.html)
+shows a 55-word, source-based draft in the existing welcome-page author panel,
+using Gardening Research and Write Like John. `author.paragraphs` and the shared
+`book.authorName` (John Lennon) were saved through the guarded writer with exact
+backups; [receipt](../publication/author-bio-draft-2026-10-08/SAVE-RECEIPT.json).
+The [source record](../../../hackriculture-resources/summaries/author-bio-2026-10-08/research-notes.md)
+uses his manuscript and corrected September transcript. The preview carries
+forward H3/S1 and the existing 9.75 pt author type, without new artwork or approval.
+[Checks](../publication/author-bio-draft-2026-10-08/CHECKS.json) cover both-unit DOM
+fit, 4.81 mm footer clearance, one actual imperial PDF and its visual review,
+plus screen context at folios 2–3. John confirmed he will refine the biography
+himself in editable JSON; the page and source copy are saved, not newly approved. Other
+welcome/publication copy remains placeholder text; existing full books and
+approved files are unchanged. Old opening proofs predate this author-copy edit.
 
 **Editable book copy:** John authorised the move into shared
 [book-layout JSON](../../../hackriculture-data/book-layout/README.md) on 8 October.
-The seven files now own opening copy, common metadata and future cover copy.
+The original seven files own opening copy, common metadata and future cover copy; `index.json` is now the eighth supported document.
 `npm run book:check` validates edits; `npm run book:build` creates separate
 working opening proofs. The [migration receipt](../publication/book-layout-working/MIGRATION.json)
 records unchanged text and pixel-identical 90 dpi renders for all 14 pages
@@ -59,6 +77,120 @@ PDF pages visually checked. Compact text and page counts match saved proofs.
 [Checks and proof paths](../publication/mushroom-schema-fix/CHECKS.json) record
 the bounded coverage; supplier books and full collections were not rebuilt.
 
+## Writing skill — Write Like John
+
+[Write Like John](/Users/johnlennon/.codex/skills/write-like-john/SKILL.md)
+is installed as a personal skill (`write-like-john`), available across projects.
+Read its actual instructions before drafting or rewriting in John's voice;
+use the direct link if it is absent from the session's skill list.
+
+It supports fresh prose from notes/data and rewrites of existing text, from a
+sentence to a chapter, using correct British English rather than reproducing
+spelling or grammatical errors. Preserve facts, qualifications, quotations and
+attribution; never invent John's experiences. Its
+[source record](/Users/johnlennon/.codex/skills/write-like-john/references/sources.md)
+identifies the three supplied books: *Attics & Lofts*, *External Wall Insulation*
+and *Walls, Windows, Floors & Ventilation*. The originals remain unchanged in
+`/Users/johnlennon/Documents/web_site/design ideas/johns_writing`.
+The skill includes a voice profile, writing workflows, annotated examples and
+calibration cases; ordinary use does not require re-reading the full books.
+
+The skill is complete. John was happy with the first supplied-text rewrite test
+(an AI-safety passage, 8 October). Use it for introduction, author and back-cover
+drafts when book-copy work resumes. This supplies writing style; it does not
+approve new book copy or change source-write rules. Shared `book-layout` reads
+and saves still require the data skill and its guarded writer.
+
+## Gardening Research and illustrated topic pages
+
+[Gardening Research](/Users/johnlennon/.codex/skills/gardening-research/SKILL.md)
+is installed as a personal skill (`gardening-research`), created at John's request
+on 8 October. Read its actual file before use. It researches practical gardening
+questions in the JSON → local references → online order below, records claim-level support
+and produces summaries through Write Like John. Illustrated-page requests also
+use the existing design, artwork and layout skills; text-only requests remain text.
+
+The book-design skill now includes an
+[illustrated topic-page composition workflow](../../.agents/skills/vegetable-guru-book-design/references/illustrated-topic-pages.md)
+for headers, hierarchy, reading order, text/image allocation, whitespace and
+render-and-revise review. Explanatory/diagnostic art receives factual checks as
+well as visual review. Explicit summary page limits are preserved through
+curation and composition, with scope/space conflicts raised rather than hidden
+by smaller type or extra pages. This creates a workflow, not a newly approved
+template. Book pages default to 185 × 240 mm; A4 retains its own contracts.
+
+The [resource library](../../../hackriculture-resources/README.md) owns the
+[local catalogue](../../../hackriculture-resources/local/README.md) and
+[remote sources](../../../hackriculture-resources/REMOTE-SOURCES.md), including
+RHS and Charles Dowding. Local references now contain only John's own work:
+about 43,000 words from his unfinished *Hackriculture* and the video transcripts
+described below. On 8 October John removed *The Vegetable Expert* from the
+library. Its four extracted text/source-note files were moved to Trash; its local
+catalogue entry, remote book entry and former presentation-reference role were
+removed. Original supplied screenshots remain untouched outside the library and
+are not active research sources. Retained source notes record coverage, provenance
+and extraction checks. These texts are not part of Write Like John's voice corpus.
+
+**John's order of truth (8 October) now controls Gardening Research:**
+
+1. **Exact canonical JSON matches are definitive**, including measurements and
+   simple techniques. Use the current per-record vegetable and Troubles store
+   through the data skill, preserving values, conditions and steps. The former
+   aggregate names `vegetables.json` and `troubles.json` mean these collections;
+   do not recreate old masters. No online vote or debate can displace an exact match.
+2. **John's book and corrected video transcripts fill JSON gaps.** Treat them as
+   correct without routine online corroboration. If multiple online sources
+   disagree, their majority may correct a clear simple error such as a spelling
+   or impossible depth. Substantive disagreements or uncertainty about a proposed
+   correction require John to clarify before the affected advice is finalised.
+3. **Online sources fill remaining gaps.** Start with the maintained list, widen
+   the search if it lacks consensus, and use a simple majority of independent
+   sources addressing the same claim/context. Ask John if still unclear. Add new
+   sources when actual use establishes their reliability under these rules.
+
+The [core skill](/Users/johnlennon/.codex/skills/gardening-research/SKILL.md)
+and [evidence workflow](/Users/johnlennon/.codex/skills/gardening-research/references/evidence.md)
+own the decision details. This replaces the earlier RHS-first research policy;
+it does not authorise changes to the underlying JSON, manuscript or transcripts.
+
+John also commissioned a [two-video YouTube pilot](../../../hackriculture-resources/local/hackriculture-youtube/README.md)
+on 8 October. The two newest public video uploads now have readable local
+transcripts, retained source media and three inspected stills each. The drying
+video uses original-English automatic captions; the allotment tour uses local
+audio recognition. John supplied seven corrections on 8 October, now applied,
+including Sarpo Mira, swede and the 48-hour chilli-drying duration. Remaining
+uncertain wording stays marked. Use the source notes and timestamps when researching.
+John then authorised continued gardening-video transcription, newest to oldest,
+stopping before the main account allowance falls below 10%. The
+[channel catalogue](../../../hackriculture-resources/local/hackriculture-youtube/CHANNEL-CATALOGUE.md)
+and [checkpoint](../../../hackriculture-resources/local/hackriculture-youtube/CHANNEL-IMPORT.json)
+own coverage and exclusions. The first pass is complete: 54 selected videos
+(52 added to the two-video pilot), with 16 unrelated uploads excluded. The new
+material covers just over 10 hours; extraction and source-integrity checks passed.
+These remain machine transcripts, with limited textual review and no full
+listening pass. John has also resolved five clarification points across four
+older videos (eleven occurrences), now applied and recorded in their source notes
+and author-correction records. Preserve raw sources and distinguish machine text
+from author-confirmed corrections. Voice-corpus expansion and book changes
+remain outside this work; no recurring monitoring was requested.
+
+Save future research copy and sources under the library's `summaries/`; link to
+separate editable topic layouts/artwork/proofs in the print project when requested.
+Canonical JSON and approved book pages are not automatically changed.
+The [calibration briefs](/Users/johnlennon/.codex/skills/gardening-research/references/calibration.md)
+include John's two-page no-dig overview and one-page watering comparison with one
+hero. These remain example briefs, not commissioned or visually tested proofs.
+The hierarchy update passed both changed skills' frontmatter validation,
+Gardening Research UI-metadata checks, 314 local links/anchors across fourteen
+Markdown files and Git whitespace checks. A desk review covered nineteen authority
+cases; it was not a live research or visual test. Catalogue regeneration changed
+only its source-use paragraph and preserved all 54 transcript entries. No new
+research pages, artwork or PDFs were generated for this policy update.
+The support-structures skill test was successful as a trial, but John explicitly
+discarded its pages on 9 October. Its working files, resource summary and PDF
+have been moved to the local Trash; original gardening sources are intact.
+It is not part of the book or an active design reference.
+
 ## Design skills — use before design work
 
 John explicitly requires future sessions to use the saved project skills and
@@ -67,7 +199,7 @@ or generating artwork; do not rely only on its name or on memory from a chat.
 
 | Work | Required project skill |
 | --- | --- |
-| Overall book style, cross-section consistency, or a new/revised cover or opening-page design | [vegetable-guru-book-design](../../.agents/skills/vegetable-guru-book-design/SKILL.md) |
+| Overall book style, illustrated topic-page composition, cross-section consistency, or a new/revised cover or opening-page design | [vegetable-guru-book-design](../../.agents/skills/vegetable-guru-book-design/SKILL.md) |
 | Book page fit, vegetable/Troubles layouts, facing spreads, pagination and PDF assembly | [book-layout-review](../../.agents/skills/book-layout-review/SKILL.md) |
 | Decorative vegetable illustration generation, restyling or style comparison | [vegetable-guru-artwork](../../.agents/skills/vegetable-guru-artwork/SKILL.md) |
 | Individual A4 sheets and loose-leaf guides | [guide-layout-review](../../.agents/skills/guide-layout-review/SKILL.md), retained under its original identifier |
@@ -106,28 +238,23 @@ grower’s cheat book*. John has removed the **44 at-a-glance…** line from the
 front cover. The book still contains 44 growing guides and 14 Troubles groups;
 the working price remains **£17.50**.
 
-John rejected both compact Cover C proposals, C1 and C2, on 7 October. The next
-cover design should be **redrawn from scratch**, rather than constrained to the
-Cover C composition. The [rejected proposals](../publication/cover-c-compact/REVIEW.html)
-remain historical evidence. Cover C remains approved for A4, but is no longer the
-required starting point for the compact book. John then requested fresh sketches,
-using Cover C for colour and illustration style only, alongside the approved
-heroes and inner pages. John rejected the growing-bed sketch, found harvest
-promising but its layout boring, and then **selected G2 Cream centre** from the
+John selected **G2 Cream centre** on 7 October from the
 [grid variations](../publication/vegetable-guru-grid-variations/REVIEW.html).
-Keep that front-cover direction, without the count footer. John requested several
-back-cover ideas using **The Vegetable Guru** and **44 growing guides and 14
-troubleshooting guides**, real book-element thumbnails, lorem ipsum, £17.50 and
-an ISBN/barcode panel. John rejected all [B1–B3 mock-ups](../publication/vegetable-guru-back-cover/REVIEW.html).
-Retain **B2’s dark green background**, but replace the neat explanatory widgets
-with **slightly angled, overlapping pieces that look torn from book pages**.
-They should give an impression of the contents; explanations belong on the
-inside covers. John now **prefers B5 Off-centre collage** from the
-[B4–B6 concepts](../publication/vegetable-guru-back-collage/REVIEW.html), alongside
-the selected G2 front. Carry B5's dark green, left-hand blurb and angled torn-page
-collage on the right into refinement. This is a preferred design direction;
-final artwork and production wrap remain pending. Both concepts are now included
-in the rough progress preview, without a production spine.
+Keep its front-cover grid composition, current title/subtitle and no count footer.
+For the back, John prefers **B5 Off-centre collage** from the
+[B4–B6 concepts](../publication/vegetable-guru-back-collage/REVIEW.html): dark green,
+left-hand blurb and slightly angled, overlapping torn-page snippets on the right.
+Use **The Vegetable Guru** and **44 growing guides and 14 troubleshooting guides**,
+with lipsum, £17.50 and reserved ISBN/barcode space until final copy is agreed.
+The snippets suggest what is inside; detailed explanations belong inside the
+covers. G2/B5 are included in the rough preview without a production spine.
+Exact page crops, editable typography and the final production wrap remain pending.
+
+Cover C remains the approved A4 cover and a colour/illustration-style reference
+for the book. Its compact [C1/C2 adaptations](../publication/cover-c-compact/REVIEW.html),
+the growing-bed sketch and [B1–B3 back covers](../publication/vegetable-guru-back-cover/REVIEW.html)
+were rejected. Those studies are historical evidence, not instructions to restart
+the selected cover directions.
 
 John **approved the compact contents and illustrated how-to on 7 October**:
 [four pages in both units](../publication/vegetable-guru-entry-pages/REVIEW.html)
@@ -195,7 +322,7 @@ adapting them. An approved specimen is not approval of every page in a new book.
 | Troubles | Same compact contract; frozen Carrot/Parsnip specimen | All 14 groups / 220 conditions prepared; some spacing exceptions remain |
 | Front cover | G2 Cream centre, selected by John on 7 October | Preserve selected grid composition and title/subtitle; final production artwork/wrap pending |
 | Back cover and spine | B5 Off-centre collage preferred by John on 7 October | Refine B5 with exact page crops; final wrap requires confirmed stock, pagination and template |
-| Contents | [Harvest corner A](../assets/README.md#contents) | Compact pages 4–5 approved; H1/H2 replacement headers tried in the rough imperial preview |
+| Contents | [Harvest corner A](../assets/README.md#contents) | Compact pages 4–5 approved; expanded three-page contents and 170-page order now proposed for review |
 | How-to | [Approved illustrated page](../assets/README.md#illustrated-how-to) | Compact pages 6–7 approved; H5/H6 replacement headers tried in the rough imperial preview |
 | Title, publication details, introduction | [Three-page design proposal](../publication/vegetable-guru-opening-pages/REVIEW.html) | Included in rough imperial preview, with H3/S1 welcome artwork; lipsum and metadata placeholders remain; design and final copy await approval |
 | Guide artwork and gardening data | [Source registry](../assets/README.md), [shared-data policy](../../SHARED-DATA.md) | Existing approvals remain; book copy changes stay in separate source-linked drafts |
@@ -229,8 +356,139 @@ unchanged by book preparation. Costs/specifications are dated evidence in
 
 ## Next work, in order
 
-The current decision sequence, including John’s 7 October title and cover reset:
+**Current focus: ratify page order before refining contents (12 October 2026).**
+John requested a whole-book preview. The [complete imperial browser and PDF](../publication/whole-book-order-preview/REVIEW.html)
+are ready, with all latest pages and revised physical folios. The
+[three-page contents proposal](../publication/contents-update/REVIEW.html) remains
+available in both editions. Its 78 destinations use the **170-page placement proposal**:
+contents 4–6, How to use 7–8, Why Grow Your Own 9, existing guides 10–150,
+Growing Techniques 151–166, index 167–170. Cultivation is proposed after plot
+layout; Organic leads the back section. Why Grow's front placement, the cultivation
+insertion, extra contents page and overall order still need review. Four existing
+proposed interstitial blanks and verso crop openings are preserved.
 
+The preview flags two decisions, neither applied: moving Why Grow to page 7
+would put How to use on facing pages 8–9; one page before Growing Techniques
+would turn Beds 153–154, Digging 157–158 and Compost 163–164 into facing pairs.
+A section opener is one possible use of that extra page. Agree order and blank
+policy before changing the plan or regenerating references. The current contents
+watering label also differs from the approved page title and needs reconciliation
+during contents refinement.
+
+The [contents notes](../publication/contents-update/README.md) own editing/build
+instructions and the exact assembly proposal. Shared `contents.json.expanded`
+owns the new copy and stable destinations; `npm run book:contents` builds only
+the three changed contents pages. Both-unit PDF checks cover six actual pages,
+113 text regions and 78 references per edition. The separate whole-book preview
+updates folios and resolves the index without altering original proofs. Its
+checks verify every reused guide's body text, all seventeen approved topic pages,
+365 measured component text regions and 488 numeric index references. All 174
+pages were rendered; visual coverage is recorded separately. Only imperial was
+assembled. Do not treat 170 pages as a confirmed print/spine
+specification or silently reuse the older contents builders for this preview.
+
+**Index approved (12 October 2026).** John said “Looks good - approved.” The
+[four-page index](../publication/book-index/REVIEW.html) has 273 entries covering
+44 crops, 220 individual Troubles conditions and practical topics, with 33 see
+references. The [approval record and frozen sources](../publication/book-index/APPROVAL.json)
+preserve the exact reviewed copy, layout, resolver, PDF and renders. Editable
+terms remain in [index.json](../../../hackriculture-data/book-layout/index.json).
+The frozen approved proof retains the old plan and local T/C references. The
+whole-book preview has a separate four-page version with ordinary folios and
+371 internal PDF links. The approved terms, layout and original proof remain
+preserved. [Index notes](../publication/book-index/README.md) own the workflow.
+
+**Techniques expansion complete and approved (12 October 2026).** John confirmed
+“That works - I think this section is done now” after the final move of Organic
+growing to second position. This closes review of all thirteen pages, including
+the revised Rotation copy and Why Grow impersonal wording amendment. The
+[collection approval and frozen sources](../publication/topic-pages/techniques-expansion/COLLECTION-APPROVAL.json)
+preserve the final editable copy, layout and both-unit proofs. Earlier individual
+approvals remain intact; their local numbering is historical.
+
+Approved focused order: Why Grow Your Own (1), Organic growing (2), Start with
+the right spot (3), Beds and paths (4–5), Greenhouses (6–8), Rotation (9), Compost
+(10–11), Watering (12), Sowing (13). [Open the approved preview](../publication/topic-pages/techniques-expansion/REVIEW.html).
+These are local review numbers, not final book folios. Why Grow Your Own remains
+a proposed opening placement; the twelve techniques pages plus the four already
+approved cultivation pages make sixteen pages at the back in the current preview.
+The combined order is under review above. Final pagination and production
+integration remain pending; do not restart
+exports or reopen approved content review merely to resume.
+
+[Editable JSON](../../../hackriculture-resources/summaries/techniques-expansion/copy.json)
+owns all headings, paragraphs, captions and diagram labels. Preserve future
+manual edits and the immutable approved snapshot separately. The
+[research record](../../../hackriculture-resources/summaries/techniques-expansion/research-notes.md)
+covers the manuscript, fifteen video accounts, reconciliations and online gaps.
+[Section notes](../publication/topic-pages/techniques-expansion/README.md) retain
+individual decisions, approved sources and superseded trials. Both compost pages
+are approved: the one-page bin overview has Compost bin basics left and Three
+bins is best right; the use page keeps the original stacked composition and
+accepted 30 mm illustration. The construction pilot and side-by-side image trial
+remain superseded/rejected. No further image enlargement or copy reduction is pending.
+
+[PDF checks](../publication/topic-pages/techniques-expansion/CHECKS.json) cover
+both thirteen-page proofs and 228 text regions each. The
+[visual receipt](../publication/topic-pages/techniques-expansion/VISUAL-REVIEW.json)
+and [page-order record](../publication/topic-pages/techniques-expansion/ORGANIC-PAGE-ORDER.json)
+record exact coverage and preservation; the [checkpoint](../publication/topic-pages/techniques-expansion/WORK-STATE.json)
+marks the focused work complete. The later whole-book order preview is a separate derivative.
+
+**Use impersonal advice throughout this expansion:** retain John's methods and
+qualifications, but remove autobiographical framing such as ‘I use’ and ‘my garden’.
+Source titles remain verbatim. The [earlier wording receipt](../publication/topic-pages/techniques-expansion/IMPERSONAL-COPY-REVISION.json)
+records the first 21 changes; the rule continues to apply to new pages.
+
+Gardening Research now requires a full relevant manuscript/video reading and a
+record of **John's approach before the outline**. The method, sequence, reasons
+and practical compromises must come from his work after the focused canonical
+check. Online authorities only fill named gaps; they do not decide the structure
+or routinely validate his advice. A later video may explicitly develop an earlier
+book method; record that development rather than losing it.
+
+**Approved cultivation baseline.** John **approved the
+four cultivation pages on 8 October 2026**, including the labelled comparison,
+digging continuation and separate smothering panel. The [approval record](../publication/topic-pages/cultivation-dig-no-dig/APPROVAL.json)
+hashes frozen proofs, editable text, layout sources and placed artwork. He may
+make further text tweaks in the linked working JSON; preserve those edits and
+rebuild only affected proofs when requested. John requested
+compact overview sections, developed one at a time, with balanced treatment of
+the first topic: cultivation by digging and no-dig. The current
+[four-page plan](../publication/topic-pages/cultivation-dig-no-dig/PLAN.md) follows
+John's requested expansion after he liked the first draft and four-column
+comparison. The [focused draft preview](../publication/topic-pages/cultivation-dig-no-dig/REVIEW.html)
+contains comparison/pros-and-cons, no-dig practice and **two digging pages**.
+These distinguish annual single digging from initial/occasional double digging,
+explain the trench sequence fully, and devote roughly the final half-page to
+temporary tarpaulin smothering from John's manuscript. Four illustration groups
+contain ten panels; the new fork diagram shows loosening below the trench.
+Both unit editions and the proposed 150–151 facing spread have actual PDF checks; see
+[checks](../publication/topic-pages/cultivation-dig-no-dig/CHECKS.json).
+John chose **about 10 cm / 4 inches** as the starting compost depth after reviewing
+Dowding's advice. [Editable working copy](../../../hackriculture-resources/summaries/cultivation-dig-no-dig/copy.json)
+and [claim/source notes](../../../hackriculture-resources/summaries/cultivation-dig-no-dig/research-notes.md)
+are saved in the resource library. John's latest corrections are now reflected:
+the matrix has a leading **Topic** column (Overview, Weeds, Compost, Tools, Soil,
+Later years), followed by **Dig pro / Dig con / No-dig pro / No-dig con**. Page 152
+is headed **Digging — continued**; **Another option: Smothering** is a separate
+coloured panel explicitly usable before digging or no-dig. Pages 150–151 and all
+artwork are unchanged. The preceding four-page proof is retained under
+`references/expanded-digging-reviewed/` in the topic folder; the approved baseline
+is under `references/approved-2026-10-08/`. The presentation review is complete.
+The whole-book order preview places cultivation at 155–158 with matching contents
+and index references; final order remains unapproved. Original folios 149–152
+are historical. The two digging pages still require a page turn in the current
+170-page proposal, as flagged above. Original proofs and canonical records remain
+unchanged. The earlier crop-supports skill test has been discarded.
+
+The author biography is saved for John's own edits. Wider opening-copy and
+artwork work remains deferred during this focused section. Write Like John
+is complete and its first rewrite test received positive feedback. Gardening
+Research and the illustrated topic-page composition workflow are installed.
+The book-copy migration, existing design/data skills, record-level saves and
+Mushroom schema correction are also complete.
+The sequence below remains the wider publication plan after this focused work.
 
 1. **Cover price — working choice made:** £17.50, customer shipping separate.
    The 148-page costing basis remains provisional. Retain the sensitivity
@@ -239,16 +497,18 @@ The current decision sequence, including John’s 7 October title and cover rese
 2. **POD service — working choice made:** Bookvault, with YouTube as the main
    source of buyers. Direct Great British Bookshop links are the selected launch route;
    final stock/process choice still needs physical proof evaluation.
-3. **Opening copy and image review — current focus:** leaf through the
-   [rough Bookvault progress preview](../publication/bookvault-progress-preview/REVIEW.html),
-   including pages 1–7 with H1/H2 contents, H5/H6 how-to, H3 welcome and S1 author
-   artwork. H4/S2 remain alternatives. Review the opening sequence, image allocation,
+3. **Opening copy and image review — deferred:** preserve John's author-bio edits.
+   When he resumes the wider opening review, leaf through the
+   [whole-book order preview](../publication/whole-book-order-preview/REVIEW.html),
+   including pages 1–9 with the approved-source contents illustration, H5/H6 how-to,
+   H3 welcome and S1 author artwork. H4/S2 remain alternatives. Review the opening sequence, image allocation,
    four blank interior pages and blank inside covers. Then agree introduction,
-   author, publication and back-cover copy in the shared `book-layout` JSON.
-   Lipsum remains in place. The approved
-   contents/how-to files remain byte-identical; all 58 references still match the
-   existing interior. Only imperial was assembled, as John requested one edition
-   and a rough review. Make affected production proofs after these decisions;
+   author, publication and back-cover copy in the shared `book-layout` JSON,
+   using Write Like John for prose and the data skill for safe reads/saves.
+   The latest author draft is included; introduction/publication lipsum remains
+   in place. The approved contents/how-to source files remain byte-identical.
+   The current three-page contents has 78 destinations; only imperial is assembled
+   in the whole-book order preview. Make affected production proofs after these decisions;
    do not repeat the full guide export merely to resume.
 4. **Later cover refinement — G2 selected; B5 preferred:** use **The Vegetable Guru** /
    **Your at-a-glance growing companion**, without the 44/14 front footer. Refine
@@ -307,9 +567,8 @@ Completed editorial work must not be restarted:
   [Central approvals](../redesign-rollout/APPROVAL.json) record current front-matter hashes.
 - [September content refinement](../content-refinement/README.md) is installed.
   Its proposal is consumed; do not rerun it over expanded live companions.
-- Historical test evidence records a Mushroom `intro_sentences` schema failure;
-  check its current relevance if touching that field. Its old missing-sowing
-  warning was fixed: do not invent seed instructions for the approved kit route.
+- The Mushroom `intro_sentences` schema mismatch is resolved, as recorded above.
+  Its old missing-sowing warning is also fixed: preserve the approved kit route.
 - Crop bubbles and [shared editorial questions](../../../hackriculture-data/planning/EDITORIAL-OPEN-QUESTIONS.json)
   remain outside this publication task; their existence does not reopen them.
 

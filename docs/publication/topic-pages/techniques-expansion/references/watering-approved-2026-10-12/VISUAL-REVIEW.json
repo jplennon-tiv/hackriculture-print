@@ -1,0 +1,57 @@
+{
+  "date": "2026-10-12",
+  "status": "Watering page approved by John on 12 October; technical and visual checks retained. Sowing and Planting remains for review.",
+  "actualPdfReview": {
+    "renderDpi": 150,
+    "imperial": "Final page 12 inspected at 150 dpi; both supplied wording changes fit with no collisions, missing text or image-size changes.",
+    "metric": "Final page 12 inspected at 150 dpi; reading area pixel-identical to imperial.",
+    "copyVerification": "228 text regions verified in each thirteen-page PDF; fonts embedded and trim exactly 185 × 240 mm.",
+    "bodyTypePt": 9.45,
+    "minimumFooterClearanceMm": 3.559,
+    "changedPageSourceGapMm": 2.253
+  },
+  "designComparison": {
+    "sources": [
+      "Previous watering page preserved by WATERING-REVISION.json / pdfBefore",
+      "docs/BOOK-DESIGN-SYSTEM.md",
+      "assets/watering-check-v1.png"
+    ],
+    "retained": "Original typography, illustration at 45 mm height, three-column composition and peach closing panel.",
+    "changes": [
+      "Established beds: add every few days.",
+      "Heatwave advice: Newly planted transplants replaces Newly planted brassicas."
+    ]
+  },
+  "limits": "Watering page and earlier recorded pages approved. Final book integration, folios and supplier/physical-proof approval remain pending.",
+  "latestRevision": {
+    "date": "2026-10-12",
+    "pages": [
+      "watering"
+    ],
+    "receipt": "WATERING-REVISION.json"
+  },
+  "approvals": [
+    "BEDS-PATHS-APPROVAL.json",
+    "COMPOST-BINS-APPROVAL.json",
+    "COMPOST-USE-APPROVAL.json",
+    "GREENHOUSE-APPROVAL.json",
+    "ORGANIC-APPROVAL.json",
+    "PLOT-LOCATION-APPROVAL.json",
+    "WHY-GROW-APPROVAL.json",
+    "WATERING-APPROVAL.json"
+  ],
+  "proofs": [
+    {
+      "units": "imperial",
+      "sha256": "37998075473f64beb27f1de20c899b2e8931fd1dc724dbd29fa22dd2fc988f48"
+    },
+    {
+      "units": "metric",
+      "sha256": "9381360ffd0622275cb86d0ae5bdeb67e453865f3bb1465a02983f5b8417538a"
+    }
+  ],
+  "preservation": {
+    "twelveOtherPageStreamsPerEditionUnchanged": true,
+    "frozenApprovedSourceFilesVerified": 89
+  }
+}

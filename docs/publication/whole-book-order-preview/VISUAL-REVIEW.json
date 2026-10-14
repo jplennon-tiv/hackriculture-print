@@ -1,0 +1,114 @@
+{
+  "date": "2026-10-12",
+  "status": "Reviewed for page-order discussion; user approval pending",
+  "pdfSha256": "90cce4be6d3a1fe15d931db043d07855a76812257ecb2af5af68448081793acf",
+  "render": {
+    "pages": 174,
+    "dpi": 110,
+    "format": "JPEG",
+    "nativeTextRetainedInPdf": true
+  },
+  "coverage": {
+    "contactSheetInteriorFolios": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156,
+      157,
+      158,
+      159,
+      160,
+      161,
+      162,
+      163,
+      164,
+      165,
+      166,
+      167,
+      168,
+      169,
+      170,
+      10,
+      11,
+      17,
+      42,
+      43,
+      118,
+      119
+    ],
+    "fullSizeInteriorFolios": [
+      3,
+      12,
+      159,
+      164,
+      167
+    ],
+    "covers": [
+      "G2 front",
+      "B5 back"
+    ],
+    "actualFacingPairs": [
+      [
+        6,
+        7
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        150,
+        151
+      ],
+      [
+        154,
+        155
+      ],
+      [
+        162,
+        163
+      ],
+      [
+        164,
+        165
+      ],
+      [
+        166,
+        167
+      ]
+    ],
+    "allSavedGuidesVisuallyRereviewed": false
+  },
+  "findings": [
+    "No missing artwork, text clipping, footer collision or body-text loss observed in inspected pages.",
+    "Mirrored gutters and folios reflect the proposed physical positions.",
+    "How-to, Beds, Digging and Compost pairs currently cross page turns; decisions are flagged in the viewer, not applied.",
+    "Current contents watering label differs from approved page title; retained for later contents refinement.",
+    "Existing opening placeholders and proposed illustration allocations remain."
+  ],
+  "tests": {
+    "focusedNodeTests": 13,
+    "failed": 0
+  },
+  "protectedSourcesRechecked": 95,
+  "sharedCopyInputsUnchanged": true,
+  "approval": "No new approval asserted.",
+  "linkChecks": "All local preview, page-image and edited Markdown file targets exist.",
+  "browserChecks": [
+    "Opened complete preview in the in-app browser.",
+    "Numeric page jump and section selection display the correct facing folios.",
+    "Next button advances a facing spread.",
+    "Expanded gallery visibly contains all 174 page leaves."
+  ]
+}

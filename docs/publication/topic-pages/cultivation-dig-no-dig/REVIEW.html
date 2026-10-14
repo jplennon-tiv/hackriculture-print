@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en-GB">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cultivation: Dig or No-Dig — draft review</title>
+<style>
+@font-face{font-family:Nunito;src:url('/fonts/richer-a-6.woff2');font-weight:100 1000}
+*{box-sizing:border-box}body{margin:0;background:#d9dfcf;color:#173e2c;font:17px/1.5 Nunito,system-ui,sans-serif}header,section{max-width:1500px;margin:0 auto;padding:26px 30px}header{padding-bottom:12px}h1{font-size:32px;line-height:1.15;margin:6px 0 14px}h2{font-size:24px;margin:0 0 10px}p{max-width:1000px;margin:8px 0}.eyebrow{text-transform:uppercase;letter-spacing:1.2px;font-size:13px;font-weight:900}nav{display:flex;gap:12px;flex-wrap:wrap;margin-top:18px}a,button{color:#064d32}nav a,button{font:inherit;padding:9px 17px;border:1px solid #064d32;border-radius:6px;background:#fff8e9;text-decoration:none;cursor:pointer}button[aria-pressed="true"]{background:#064d32;color:#fff8e9}.pages{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.pages img,.spread{width:100%;height:auto;display:block}.pages a{box-shadow:0 2px 12px #173e2c22}small{font-size:14px}.art{display:grid;grid-template-columns:1fr 1fr;gap:24px;background:#fff8e9;padding:20px}.refs{display:flex;gap:20px;justify-content:center}.refs img{height:190px;max-width:43%;object-fit:contain}.new-art img{display:block;object-fit:contain;width:100%;height:155px}.dark{background:#173e2c;padding:12px}.source-designs{display:grid;grid-template-columns:1fr 1fr;gap:20px}.source-designs img{width:100%}details{margin-top:18px}summary{cursor:pointer;font-weight:850}@media(max-width:850px){.pages{grid-template-columns:1fr}.art,.source-designs{grid-template-columns:1fr}header,section{padding:20px}.pages img{max-width:720px;margin:auto}}
+</style>
+<header>
+  <p class="eyebrow">The Vegetable Guru · Growing Techniques</p>
+  <h1>Cultivation: Dig or No-Dig</h1>
+  <p>Four pages: a comparison with labelled rows, no-dig, and two pages on digging. The final page is clearly marked “Digging — continued”. A separate coloured “Another option: Smothering” panel explains clearing overgrowth before either digging or no-dig.</p>
+  <p><small>Copy, artwork and layout approved by John on 8 October 2026; editable text remains available for later tweaks. Proposed folios 149–152. Pages 150–151 face; the two digging pages are consecutive and require a page turn. Contents integration and full-book assembly remain pending.</small></p>
+  <nav aria-label="Edition and downloads">
+    <button type="button" data-units="imperial" aria-pressed="true">Imperial preview</button>
+    <button type="button" data-units="metric" aria-pressed="false">Metric preview</button>
+    <a href="../../../../output/pdf/topic-pages/cultivation-dig-no-dig-imperial-draft.pdf">Imperial PDF</a>
+    <a href="../../../../output/pdf/topic-pages/cultivation-dig-no-dig-metric-draft.pdf">Metric PDF</a>
+  </nav>
+</header>
+<section><div class="pages">
+  <a data-page="1" href="imperial-1.png"><img data-page="1" src="imperial-1.png" alt="Page 149: Dig or No-Dig, choosing your approach"></a>
+  <a data-page="2" href="imperial-2.png"><img data-page="2" src="imperial-2.png" alt="Page 150: Getting started with No-Dig"></a>
+  <a data-page="3" href="imperial-3.png"><img data-page="3" src="imperial-3.png" alt="Page 151: Getting started with Digging"></a>
+  <a data-page="4" href="imperial-4.png"><img data-page="4" src="imperial-4.png" alt="Page 152: Digging continued; another option, smothering"></a>
+</div></section>
+<section><h2>The revised digging pages</h2><p><small>Shown together for review. These are consecutive pages, not a facing spread.</small></p><img class="spread" id="digging-pages" src="imperial-digging-pages.png" alt="The two revised digging pages, including smothering"></section>
+<section><h2>The facing spread: 150–151</h2><img class="spread" id="spread" src="imperial-spread.png" alt="No-dig and the first digging page facing at folios 150 and 151"></section>
+<section>
+<details><summary>Artwork and design references</summary>
+<p>Carrot and Beetroot are approved style sources. The soil and tool drawings are approved in these four pages. The paired comparison shows equally healthy roots in both methods. The double-digging sequence now shows a fork loosening the lower layer; the smothering diagram shows the opaque cover secured, then removed.</p>
+<div class="art"><div><h2>Approved style sources</h2><div class="refs"><img src="../../../../public/images/heroes/richer-a/carrot.png" alt="Approved carrot reference"><img src="../../../../public/images/heroes/richer-a/beetroot.png" alt="Approved beetroot reference"></div><p>Bold colour planes, dimensional shapes and clear highlights.</p></div><div class="new-art"><h2>New explanatory artwork</h2><img src="assets/comparison-v2.png" alt="Paired cultivation diagram on cream"><div class="dark"><img src="assets/no-dig-sequence-v1.png" alt="No-dig sequence on dark green for transparency review"></div><img src="assets/double-dig-sequence-v1.png" alt="Double-digging sequence on cream"><div class="dark"><img src="assets/smother-sequence-v1.png" alt="Smothering sequence on dark green for transparency review"></div></div></div>
+<h2>Page-design context</h2><div class="source-designs"><div><p>Approved compact how-to pages</p><img src="../../vegetable-guru-entry-pages/how-to-spread.png" alt="Approved compact how-to spread"></div></div>
+</details>
+</section>
+<script>
+for(const button of document.querySelectorAll('button[data-units]'))button.addEventListener('click',()=>{
+ const units=button.dataset.units;
+ for(const b of document.querySelectorAll('button[data-units]'))b.setAttribute('aria-pressed',String(b===button));
+ for(const e of document.querySelectorAll('[data-page]')){const p=units+'-'+e.dataset.page+'.png';if(e.tagName==='IMG')e.src=p;else e.href=p;}
+ document.getElementById('spread').src=units+'-spread.png';
+ document.getElementById('digging-pages').src=units+'-digging-pages.png';
+});
+</script>
+</html>

@@ -1,0 +1,150 @@
+{
+  "version": 1,
+  "status": "draft-for-John-review",
+  "book": "The Vegetable Guru",
+  "collection": "Extra opening and Growing Techniques pages",
+  "created": "2026-10-09",
+  "editionNote": "Review pagination only; no full-book integration or approval",
+  "measurements": {
+    "bedWidth": {
+      "metric": "1.2 m",
+      "imperial": "4 ft"
+    },
+    "tomatoPot": {
+      "metric": "30 cm",
+      "imperial": "12 inches"
+    }
+  },
+  "sourceRecord": "research-notes.md",
+  "pages": [
+    {
+      "id": "greenhouse-choose",
+      "section": "Growing Techniques · Greenhouses",
+      "title": "Greenhouses",
+      "subtitle": "what, where & how big?",
+      "lead": "A greenhouse buys you a longer growing season and a sheltered place for tender crops. Before choosing one, work out what will go inside it. Tomatoes have an unfortunate habit of being much larger in August than they were in April.",
+      "layout": "greenhouse-choose",
+      "diagramTitle": "Check the footprint before you build",
+      "labels": {
+        "diagonal": "Equal diagonals",
+        "base": "Level base",
+        "door": "Door and access",
+        "bed": "Bed",
+        "path": "Path"
+      },
+      "blocks": [
+        {
+          "title": "Choose useful growing room",
+          "text": "Allow for mature plants, working space, an open door and roof vents. A small greenhouse can soon become crowded. A larger second-hand frame may cost surprisingly little, but check that it is sound and complete, and allow for dismantling, transport and replacement glass. Photograph joints before taking it apart."
+        },
+        {
+          "title": "Find the sunny position",
+          "text": "Choose a bright, reasonably sheltered place, clear of overhanging branches, with water and a convenient path nearby. Leave space outside to clean and repair the glazing. Mark the footprint with string, then mark the beds or staging inside it; a building that fits the garden may still be awkward to work in."
+        },
+        {
+          "title": "Look at glazing and ventilation",
+          "text": "Ordinary horticultural glass breaks into sharp shards. Toughened glass breaks into smaller pieces; polycarbonate is another glazing option and diffuses the light. Check how panels are retained and what replacements cost. Opening roof vents and a usable door matter far more than decorative extras."
+        }
+      ],
+      "stepsTitle": "Install in this order",
+      "steps": [
+        {
+          "title": "Prepare the base",
+          "text": "Use the exact base dimensions and foundation arrangement for the model. Check levels in both directions and measure the diagonals to make the rectangle square."
+        },
+        {
+          "title": "Anchor and assemble",
+          "text": "Assemble the base, if the greenhouse comes with one, or make one up from wood. Fix the frame to the base using either supplied fixings or brass/stainless steel screws. Fit the frame bracing before glazing; do not rely on the weight of the glass to hold it down."
+        },
+        {
+          "title": "Glaze and check",
+          "text": "Work with a helper, gloves and eye protection. Fit panes and clips as directed, then check the door, vents, gutter and drainage. Recheck fixings before the first storm."
+        }
+      ],
+      "source": "John: greenhouse chapters; Money-Saving Tips, 12:00–18:20. Halls: glazing and assembly."
+    },
+    {
+      "id": "greenhouse-beds",
+      "section": "Growing Techniques · Greenhouses",
+      "title": "Greenhouse",
+      "subtitle": "growing options",
+      "lead": "Containers, raised soil beds and floor-level no-dig borders all have a place. The ground beneath your greenhouse and the crops you want to grow will help you choose.",
+      "layout": "greenhouse-options",
+      "source": "John: greenhouse chapter; January repairs; Money-Saving Tips. Tomato JSON; RHS and Hartley: containers/staging.",
+      "options": [
+        {
+          "title": "1. Pots and growbags",
+          "image": "greenhouse-containers-v2.png",
+          "imageAlt": "A greenhouse with a paved floor, sturdy wooden staging holding small pots, a large tomato pot and a flat growing bag on the floor, with clear access.",
+          "caption": "A solid floor with containers above it.",
+          "paragraphs": [
+            "A concrete or paving slab floor gives a firm surface for pots and growbags. Arrange them on the floor or on wooden staging, keeping the doorway and working space clear. Staging must be level and strong enough for the weight of wet compost; leave tall crops on the floor for headroom.",
+            "Use peat-free potting compost and containers with drainage holes. For tomatoes, choose pots at least {tomatoPot} across. Let surplus water drain away, and check pots and bags regularly: their small supply of water is soon used up."
+          ]
+        },
+        {
+          "title": "2. Raised brick beds",
+          "image": "greenhouse-beds-v1.png",
+          "imageAlt": "A greenhouse on a brick perimeter base, with raised brick-edged soil beds on either side of a clear paved path.",
+          "caption": "Raised beds open to the soil below.",
+          "paragraphs": [
+            "Brick beds give roots a larger supply of soil and moisture, with less need for pots and bought-in compost. Plan the beds and path before building the base. Set the frame on top of the bricks to preserve plant headroom inside. Fasten it to the bricks with masonry fittings.",
+            "Leave the beds open to the earth below. If building work has compacted it, loosen it with a fork before filling with topsoil and mature compost. Thereafter, dig compost in or add it at the surface for no-dig growing. Keep the path clear and the soil within reach."
+          ]
+        }
+      ],
+      "closing": {
+        "title": "If roots run into trouble",
+        "text": "If root disease develops, identify it before reusing the ground. Rotate where practical, or use containers with fresh compost; for raised beds, exchange the soil for fresh garden soil and compost."
+      }
+    },
+    {
+      "id": "greenhouse-no-dig-seasons",
+      "section": "Growing Techniques · Greenhouses · Continued",
+      "title": "Greenhouse",
+      "subtitle": "growing options",
+      "layout": "greenhouse-seasons",
+      "lead": "",
+      "options": [
+        {
+          "title": "3. No-dig at floor level",
+          "image": "greenhouse-floor-no-dig-v2.png",
+          "imageAlt": "A greenhouse supported on a low timber perimeter base, with compost-topped earth borders at floor level, a central woodchip path and no internal bed walls.",
+          "caption": "Compost on earth, with a woodchip path.",
+          "paragraphs": [
+            "A simpler soil arrangement needs no internal walls. Once the growing space is ready, plan how one crop will make way for the next.",
+            "On suitable, free-draining ground, mark a central path and leave the growing soil on either side. Clear weeds, spread mature compost over the soil and plant into it. Woodchip makes a useful path and keeps your feet off the growing areas.",
+            "Refresh the compost at the surface each year, without digging it in. A low brick or timber base is needed to give a little height for the compost layer; don’t just bank it up against the greenhouse glass."
+          ]
+        }
+      ],
+      "seasonsTitle": "Use your greenhouse through the seasons",
+      "seasons": [
+        {
+          "title": "Early crops",
+          "text": "Grow early lettuce or spinach while the summer plants are still small. Seed trays can occupy staging before the young plants move outdoors. When growing plants for later planting outdoors, use the earlier planting dates from the crop guides."
+        },
+        {
+          "title": "Make room for summer",
+          "text": "Harvest or clear the early crops before they crowd the tomatoes and other summer plants. A little spare ground in spring soon disappears under leaves. Keep access clear for watering and picking."
+        },
+        {
+          "title": "Keep autumn growing",
+          "text": "When summer crops finish, clear them and use the space for suitable autumn lettuces or other salad leaves. Choose varieties for the season; an unheated greenhouse still gets cold at night."
+        }
+      ],
+      "careTitle": "The regular jobs",
+      "care": [
+        {
+          "title": "Water and air",
+          "text": "Check moisture at root level and water the soil, not the leaves. Open doors and vents in warm weather and add shade when needed."
+        },
+        {
+          "title": "Light and upkeep",
+          "text": "Clean the glass before the new season so that more light reaches the plants. Check glazing clips and service the door and opening vents."
+        }
+      ],
+      "source": "John: greenhouse chapter; Winter Composting; May growing/abundance; January repairs. Tomato JSON; RHS."
+    }
+  ]
+}

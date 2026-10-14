@@ -18,26 +18,64 @@ Before design or artwork work, use the handover's
 and read the applicable skill files. They are the starting point for continued
 work, together with the saved design system and approved source assets.
 
+For drafting or rewriting prose in John's voice, use
+[Write Like John](/Users/johnlennon/.codex/skills/write-like-john/SKILL.md),
+the personal skill built from his three DIY Home Insulation books. It covers
+sentences through chapters, including composition from notes/data, using correct
+British English while preserving meaning. The handover records its use and
+the current opening-copy review; new book copy still needs John's review.
+
+[Gardening Research](/Users/johnlennon/.codex/skills/gardening-research/SKILL.md)
+is installed for practical summaries: exact canonical JSON first, John's own book
+and corrected transcripts in the sibling
+[hackriculture-resources library](../hackriculture-resources/README.md) next,
+online sources last. Online disagreements use a simple majority; substantive
+conflicts with John's local material require his clarification. The Vegetable
+Expert has been removed from the active library. The skill uses Write Like John
+and, when requested, the existing artwork
+and layout skills to produce illustrated pages. The book-design skill's
+[topic-page composition workflow](.agents/skills/vegetable-guru-book-design/references/illustrated-topic-pages.md)
+covers headers, text/image relationships and visual revision. Research drafts
+remain separate from structured JSON and approved book pages. For techniques,
+read the relevant manuscript and video accounts before outlining, and record
+John’s method and reasons; web research fills named gaps. The
+[thirteen-page expansion preview](docs/publication/topic-pages/techniques-expansion/REVIEW.html)
+is approved as a completed collection on 12 October, with Organic growing second. Its final sources are preserved and included in the whole-book order preview.
+
 For shared JSON work, use the
 [hackriculture-data skill](../hackriculture-data/.agents/skills/hackriculture-data/SKILL.md)
 in this and future sessions. Its maintained source is shared across the data,
 print, website and video projects.
 
-The [book review pack](docs/publication/book-preparation/REVIEW.html) contains
-the prepared interiors and drafts. The current title is **The Vegetable Guru** /
+The [whole-book order preview](docs/publication/whole-book-order-preview/REVIEW.html)
+is the latest combined review: 170 proposed interior pages plus G2/B5 covers,
+including all approved additional pages, current contents and updated index.
+Its imperial facing-page browser is for settling order before contents refinement;
+see the [preview notes](docs/publication/whole-book-order-preview/README.md).
+The earlier
+[technical review pack](docs/publication/book-preparation/REVIEW.html) retains
+both-unit production drafts with older openings. The current title is **The Vegetable Guru** /
 **Your at-a-glance growing companion**. John selected **G2 Cream centre** for the
 front, without the count footer, and now prefers **B5 Off-centre collage** for
 the back. [Cover ideas and preference](docs/publication/vegetable-guru-back-collage/REVIEW.html)
-retain the dark-green, angled-snippet direction. Cover C guides colour and illustration style only. The approved
-compact contents/how-to are now approved by John on 7 October, with book
-integration pending. Find source artwork
-and approvals in the [asset registry](docs/assets/README.md).
+retain the dark-green, angled-snippet direction. Cover C guides colour and
+illustration style only. John approved the compact contents/how-to on 7 October;
+the rough preview tries replacement header artwork, while integration into the
+production books remains pending. Find exact sources and approvals in the
+[asset registry](docs/assets/README.md).
 
 For the local app, run `zsh start.command` and open <http://127.0.0.1:5173>.
 The launcher selects the pinned Node version and asks privately for a session
 admin password. Keep its terminal open; Control-C stops it. Admin saves and
 browser-rendered PDFs need this server. Normal exports use no AI service.
 Detailed startup and check commands are in [SETUP.md](SETUP.md).
+
+The [four-page index](docs/publication/book-index/REVIEW.html) is approved by John
+on 12 October. Its terms remain editable and references refresh from content locations.
+The [updated three-page contents](docs/publication/contents-update/REVIEW.html) now
+include all latest pages, using a proposed 170-page order. See the
+[contents notes](docs/publication/contents-update/README.md); the whole-book preview
+now uses this proposal, whose order and contents remain unapproved.
 
 Book opening and cover copy is editable in the sibling
 [book-layout JSON folder](../hackriculture-data/book-layout/README.md).

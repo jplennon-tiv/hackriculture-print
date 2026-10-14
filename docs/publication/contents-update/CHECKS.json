@@ -1,0 +1,3657 @@
+{
+  "date": "2026-10-12",
+  "status": "Both-unit contents PDFs checked and visually reviewed; new third page and placement order await John’s approval",
+  "bookRevision": "91c64d5b24b0585631d900cdb718c050bef09047a276e7b62d0faeecabf028bd",
+  "copyInputs": {
+    "../hackriculture-data/book-layout/book.json": "d05b15d0879cd8376abe52298378b1a56ea95623041fbffa99d5e0a87f69d96c",
+    "../hackriculture-data/book-layout/covers.json": "3d346adc88d48aa954580e11e85a7d6e92d8959714f7e63729ab7323a44cc8bf",
+    "../hackriculture-data/book-layout/publication.json": "666bde7b034d90719b301a1cb3f5aa5c4a96520575a63dfbfa707ea811e1a2a2",
+    "../hackriculture-data/book-layout/introduction.json": "e9a954daf8c51916c9d1bf38418cd898d3fa5308ad07c544250c5e3d0f33358f",
+    "../hackriculture-data/book-layout/author.json": "244b1d0714c5b936f2ac5b8526c7f127996930609a0fc841b28a08edcd273176",
+    "../hackriculture-data/book-layout/contents.json": "3770b452c3d146e4031c5c91723872d424b9b6882789e8077d0d643855b11099",
+    "../hackriculture-data/book-layout/how-to.json": "7f503f112a3eb227ef460252ea9efdac1179e913bc08d2a85420eb5b270aef84",
+    "../hackriculture-data/book-layout/index.json": "644561af4403bc5f4327bdac2e023aba1564b09721b8db90f6ee652780ac2e83"
+  },
+  "sourcePdfs": {
+    "output/pdf/book-preparation/bookvault/imperial/vegetable_artichoke_jerusalem.pdf": {
+      "sha256": "d11a402762d095bf8e8983854ef4576bba10cfb311d3e79976e31a136713a706",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/imperial/vegetable_beetroot.pdf": {
+      "sha256": "95d154ef7506c10d329e70205065328172529805e737b18fbf0be8c2098e39f6",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/imperial/vegetable_carrot.pdf": {
+      "sha256": "7fd0cdf422d34826459c8f7283a40bf10a4e5dc22fc6e94de0133ecaf08b5ba6",
+      "pages": 3
+    },
+    "output/pdf/book-preparation/bookvault/imperial/vegetable_celeriac.pdf": {
+      "sha256": "372149fac18d8d61264e595b9514e3fd331b7ec97f1f59120337fb0a8453b6c6",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/imperial/vegetable_kohl_rabi.pdf": {
+      "sha256": "94f552318e37b8bfe34cbd8904533761135d8f68a1a37977c71ef1b9f9081b48",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/imperial/vegetable_parsnip.pdf": {
+      "sha256": "b06c8d740ae5107442fe0c1e65c7ea07857d1c95493f836cb7c9cb229ae8e399",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/imperial/vegetable_potato.pdf": {
+      "sha256": "81137ba555c27cc798a88d27cc5498c80eac6c545fc4444378ecdd8652155f73",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/imperial/vegetable_radish.pdf": {
+      "sha256": "227988c4f43a2d0e42f59bed0a22ea1a1501984ac5a9c4ac46998251d01ad99c",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/imperial/vegetable_salsify_scorzonera.pdf": {
+      "sha256": "cc7e3bfb387a94b4d5d93d6eed2b821dc2f5a810baad52e2ab2fcff815c87ab5",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/imperial/vegetable_swede.pdf": {
+      "sha256": "92b73d4fe586ac0176fadad749fa6ed0e0f949378eeb3c25e17cbff8bd14b006",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/imperial/vegetable_turnip.pdf": {
+      "sha256": "6d7d93a961bccadb48052cfe61392c96b256c5d97afd6064c6c4c59538c53662",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/imperial/vegetable_broccoli.pdf": {
+      "sha256": "74faa6079a518d161a7ab979930ce4f1b7801a504cbd9007503723ec3e4f003c",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/imperial/vegetable_brussels_sprouts.pdf": {
+      "sha256": "c846fd779297cd965e114670949f90acf5bdf800da969d5db9d33fbce8624821",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/imperial/vegetable_cabbage.pdf": {
+      "sha256": "790f3605a9f6781d18fb063ad12b415948a04167a543d46ce7d4e57b68a1956d",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/imperial/vegetable_cauliflower.pdf": {
+      "sha256": "e1f34d8253b7e37d0de4a5c5e7e671b09e1f1eedcdf4c294a8a14b177791165c",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/imperial/vegetable_kale.pdf": {
+      "sha256": "1830b04169e32962899f32114bdac03a96642cae4ab481fab5829171481dace8",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/imperial/vegetable_bean_broad.pdf": {
+      "sha256": "63daf4316480ac81f83c448d4423172d7c64667c7b3d4493a624988e90130b8d",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/imperial/vegetable_bean_french.pdf": {
+      "sha256": "96f95c2696c4a7b580cf06439e218a566b0ddb877080fa7fdaf0b1a06b7d097b",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/imperial/vegetable_bean_runner.pdf": {
+      "sha256": "3c4cfbde2864e1786ff4a94fc3eda0292352dab9c40a918475eea1d7a4cd28d5",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/imperial/vegetable_pea.pdf": {
+      "sha256": "e1d3a663df6aa28e29955ae017b9cb3bf3ba39f3cca6ee874fbdd9fbeb7c1441",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/imperial/vegetable_beet_leaf.pdf": {
+      "sha256": "b72fa841074d004dc06571ab0937dbda0442c3d4c880ba7ffd5ade001b199f12",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/imperial/vegetable_chicory.pdf": {
+      "sha256": "7b3a96198eb0f396de495307b84e1137aeac45c981d4d40aed33dc089513a6d3",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/imperial/vegetable_endive.pdf": {
+      "sha256": "507a1725c8089106d91604e23e24277043f09a73f4c4ce52a76a505c4afe8705",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/imperial/vegetable_lettuce.pdf": {
+      "sha256": "9a97173fe8ed21bb89895e80ccda015e5dc4c6cc18ba562ccea3c431e65073c1",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/imperial/vegetable_oriental_leaves.pdf": {
+      "sha256": "e5e219877aeab52e68df1bf33029283c9c7a40c1c8f3628fa6cd77e2dc3b256e",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/imperial/vegetable_spinach.pdf": {
+      "sha256": "b6191e4a46e7cb8ce51cc501a12e3b4bee4674078c82914307164d54ccfabb8b",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/imperial/vegetable_garlic.pdf": {
+      "sha256": "0a394b1ed5a2ea53112b4c250ac59d061747e7aa778579b19bfc86289518c954",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/imperial/vegetable_leek.pdf": {
+      "sha256": "25c6ab2963f33b8c2acf880d646c15531d1d3c6195975216e577a594df5f29c1",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/imperial/vegetable_onions_and_shallots.pdf": {
+      "sha256": "099238effcdeb510f29e7b13d69929c6bcc0befe2f8e8850019e26e56f1cccc5",
+      "pages": 3
+    },
+    "output/pdf/book-preparation/bookvault/imperial/vegetable_aubergine.pdf": {
+      "sha256": "a4b712b6616b4ac834796ae34aef53fda1069963323cf84f413f60385581bf0a",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/imperial/vegetable_capsicum.pdf": {
+      "sha256": "50e5b14edc4b0e20001c4008041498b1ab31243cbf991fccb975b86c1bfcda53",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/imperial/vegetable_courgettes_and_marrows.pdf": {
+      "sha256": "59946442949572b090a44265c17876ed51fb32bda09601970446615392f22b09",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/imperial/vegetable_cucumber_greenhouse.pdf": {
+      "sha256": "1826226d28a56e5795596a4d4764c10f545d4ce14902951e54a2f39e4b5c3727",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/imperial/vegetable_cucumber_outdoor.pdf": {
+      "sha256": "c09767cc7f9dd1bcfc6c2c41d2ec8271b025673211269b182eb2fce8585a3214",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/imperial/vegetable_squashes_and_pumpkins.pdf": {
+      "sha256": "1f2fe759b966a1b0fe1b3e37d3f3e4626976a637ff4f924d228da146e97ed176",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/imperial/vegetable_sweet_corn.pdf": {
+      "sha256": "60066057b88e5d51b9083fa115f99810e59083b00bc663a44cde3a94dc6471cf",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/imperial/vegetable_tomato_greenhouse.pdf": {
+      "sha256": "1485c872c29f6cc64b74eddd8fdc365e0e0ecc7f8733487bacb6acece0aa5760",
+      "pages": 3
+    },
+    "output/pdf/book-preparation/bookvault/imperial/vegetable_tomato_outdoor.pdf": {
+      "sha256": "33c82d4f8466060ff032ab8dd33563b7e75102c3f809f5a5c6e3800957193f5b",
+      "pages": 3
+    },
+    "output/pdf/book-preparation/bookvault/imperial/vegetable_artichoke_globe.pdf": {
+      "sha256": "e807849aa3a23d1863a81ade29b8c2e2ee599dc3795c8fe84ad5ce2a0ac4c8c8",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/imperial/vegetable_asparagus.pdf": {
+      "sha256": "6ac4bafe0a1fbe457904dd49458827e6adb5e8c79a45e371801fdc0f56fe5141",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/imperial/vegetable_celery.pdf": {
+      "sha256": "449215dc40d48a6b7fa3696bfeb72e5cbe6104f7881498e84d04f8c9b2b3068d",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/imperial/vegetable_florence_fennel.pdf": {
+      "sha256": "e82240c4c3704f3569f1d1e6e086c6cc4a1e42bc2564e4eae4a7c3e284633112",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/imperial/vegetable_rhubarb.pdf": {
+      "sha256": "e4424962caf0f1c3a3bcd4c2d0abd05ae414b3954aa81a7f668fe66155ed4c0e",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/imperial/vegetable_mushroom.pdf": {
+      "sha256": "d3afb61408bd008e7f9e4d7d257656d5545860abf9a197c6f731a50e3896f53c",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/imperial/trouble_bean_and_pea_troubles.pdf": {
+      "sha256": "c7b984ae5737a6c2bed772316d8f4d378fe5a4249e634bed0991ff9231860460",
+      "pages": 4
+    },
+    "output/pdf/book-preparation/bookvault/imperial/trouble_beetroot_troubles.pdf": {
+      "sha256": "f395bb762ce784b781802b7f08ab0ca363f12f19e147bf4129c87f577af56083",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/imperial/trouble_brassica_troubles.pdf": {
+      "sha256": "c2d0f99f5cd981fc4e6850a0164fe68952532e795344e2911f7e8f9ae4401d4a",
+      "pages": 6
+    },
+    "output/pdf/book-preparation/bookvault/imperial/trouble_carrot_and_parsnip_troubles.pdf": {
+      "sha256": "05560aadbf7212a727463c55b438dd7176aa029e5245fa298700fab94ac1d8be",
+      "pages": 3
+    },
+    "output/pdf/book-preparation/bookvault/imperial/trouble_celery_troubles.pdf": {
+      "sha256": "4f5cba242e52c9322940c12b8c0ed0bdae0ecbb3043ffd1513fa5bd39a39a02e",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/imperial/trouble_cucurbit_troubles.pdf": {
+      "sha256": "193148a1e5dbd6245e939de4ef17d098e470189fbca959bc52803f078227af29",
+      "pages": 5
+    },
+    "output/pdf/book-preparation/bookvault/imperial/trouble_florence_fennel_troubles.pdf": {
+      "sha256": "ba4694e2d9d8d2db3f148f1c287f7bd36f9f77221c38b6fd65dc245d7f786d92",
+      "pages": 1
+    },
+    "output/pdf/book-preparation/bookvault/imperial/trouble_lettuce_troubles.pdf": {
+      "sha256": "928ef3b9a238f217706b1d8b5159e76e46275461a9230460d61f1cbaf9357f8c",
+      "pages": 3
+    },
+    "output/pdf/book-preparation/bookvault/imperial/trouble_onion_and_leek_troubles.pdf": {
+      "sha256": "8bc94f54c983c31c0148238f41331bd131e77844ea27cd2294420a05260c9233",
+      "pages": 3
+    },
+    "output/pdf/book-preparation/bookvault/imperial/trouble_oriental_leaves_troubles.pdf": {
+      "sha256": "cd75c416c1cb95fc6afa9433705cf5e2948f90acf0a1abf699d040187c368803",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/imperial/trouble_potato_troubles.pdf": {
+      "sha256": "0c23164b51aeef400b2a46622aee2a239e043fd1649608f5fa0c47ce1c8bd956",
+      "pages": 5
+    },
+    "output/pdf/book-preparation/bookvault/imperial/trouble_spinach_troubles.pdf": {
+      "sha256": "96819ae78eb1917c8122a88370a3aa22e3739b6ef0ee1c84f28e41ba8b602a36",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/imperial/trouble_tomato_troubles.pdf": {
+      "sha256": "f8d95b52c82c5765ab968834f3e7a1a957168e6a557c9edc4872cc21137e0e58",
+      "pages": 5
+    },
+    "output/pdf/book-preparation/bookvault/imperial/trouble_turnip_swede_radish_troubles.pdf": {
+      "sha256": "88c5c14b28cff1ecac0793365519b9ee65c03ddb456dbf80f24abbcec8702e0a",
+      "pages": 2
+    },
+    "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/imperial.pdf": {
+      "sha256": "ee41c201663e2c5215f170b538a76c7b98b16092c124342f7fd0d6788f8a2f42",
+      "pages": 13
+    },
+    "docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/imperial.pdf": {
+      "sha256": "7f8bd21868140455895d7e2c72569652cf4aee719db21820e283a2fd2209ad2e",
+      "pages": 4
+    },
+    "docs/publication/book-index/references/approved-2026-10-12/index.pdf": {
+      "sha256": "5d3aad9ce673ca1d881a00821959d7cb02bb80077e9d9e969785579bd869116b",
+      "pages": 4
+    },
+    "output/pdf/book-preparation/bookvault/metric/vegetable_artichoke_jerusalem.pdf": {
+      "sha256": "455de2408cbcd5e68d96cdeb0148f3245bdaa87b960ba3659fdbbecec1021697",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/metric/vegetable_beetroot.pdf": {
+      "sha256": "faed83b50ce4389d0ce88037e27e249d9c8c7e4eb1de39b7a562c2cbc6529bce",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/metric/vegetable_carrot.pdf": {
+      "sha256": "528cac4b4a1cd15512ab97acf2b52984c22fa810085c392da8606e8b8c7ea0a0",
+      "pages": 3
+    },
+    "output/pdf/book-preparation/bookvault/metric/vegetable_celeriac.pdf": {
+      "sha256": "461508f68dfbf5adbca7b7efee46fddb6a961f72ca16450e006efecbc404c2e0",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/metric/vegetable_kohl_rabi.pdf": {
+      "sha256": "703802f33dd9a1560049cda1e47167ab90e669b1f8b6eb3b8e46b42ef5a60998",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/metric/vegetable_parsnip.pdf": {
+      "sha256": "bcf372d09b5c9ad347f04408d5be98939e95e0039035dc2dfdb65be14d885620",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/metric/vegetable_potato.pdf": {
+      "sha256": "25102b38571a0b2d1683d271d2213723c2979d04cc337d0033e92a7f8ef232f3",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/metric/vegetable_radish.pdf": {
+      "sha256": "f0d34fd493c1c5baa6b770b3d6e291eec6e07b68159dfeecfd8bc7c6826890b4",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/metric/vegetable_salsify_scorzonera.pdf": {
+      "sha256": "91d8ef178e489ddde846f0e9397a6716335f5b0ec125b717092be7999dc4993a",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/metric/vegetable_swede.pdf": {
+      "sha256": "752aa2573587345d08adb2604a9e74c9f489223fecc547608387584349ddb096",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/metric/vegetable_turnip.pdf": {
+      "sha256": "0e365077c078b91701afbfcc2df7842ca211741008790eab784fe8992e121ae2",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/metric/vegetable_broccoli.pdf": {
+      "sha256": "0594530cdb39c9565c96918798cd93c5d3fe418c4e883afa3db833d3c9120d51",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/metric/vegetable_brussels_sprouts.pdf": {
+      "sha256": "08207f283e98088568609990f2ad6f2266baac65fe6c4193c20fe2ffdfc4d230",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/metric/vegetable_cabbage.pdf": {
+      "sha256": "4b058567915feeea569ace7973d880f161c0e7f968ebb0734532c5bf6cb1bf14",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/metric/vegetable_cauliflower.pdf": {
+      "sha256": "f767d92fc0994bca6a1839d8e253d45668cea3c32d902b4aa269d78b70bfc6d8",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/metric/vegetable_kale.pdf": {
+      "sha256": "993597db3acb005aa97f9b9073f74a3baed833d46a1dd004762087d2cbc67634",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/metric/vegetable_bean_broad.pdf": {
+      "sha256": "06f0885257b6e77701fcbfbe86b903ff8feb887682c765c806bed800e65f2c1a",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/metric/vegetable_bean_french.pdf": {
+      "sha256": "7632e35a91e5bdca59c4d0dfeeb78f257fd16ec1e80af9e3a90b6d49a7a7f0fe",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/metric/vegetable_bean_runner.pdf": {
+      "sha256": "f94408ee7f4b1a18849defc449e34bc91803d147ab06565a6957d39cf67a6c18",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/metric/vegetable_pea.pdf": {
+      "sha256": "5cc693fd039a8872bb7b70c9c81a17d5ed88ba774b23dd58e6d0801b150d377e",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/metric/vegetable_beet_leaf.pdf": {
+      "sha256": "bfe5d7001a068889782b2280b3c356355e0aefbc2b6a4b4a23c4667ad2b60452",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/metric/vegetable_chicory.pdf": {
+      "sha256": "40a9f3bfe808404a238f4711eb0f78d7ec8997e38c56a5c3f5bbd9968d5aa954",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/metric/vegetable_endive.pdf": {
+      "sha256": "e00db0b91bc86cc6683ea8695b96aaea1da2c7eee8e245e4ea891529786ac883",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/metric/vegetable_lettuce.pdf": {
+      "sha256": "5b9ce3b6c5f2af95b51a30be94a59c813b9ab51f48903e4e391c5c22606ad3ac",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/metric/vegetable_oriental_leaves.pdf": {
+      "sha256": "2c4a3ca29c71cee3952064bc3dfc8a3ef924342bc8918acecf4d211706f5eee8",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/metric/vegetable_spinach.pdf": {
+      "sha256": "5030229aa5cdfc8e4dd4c552cb665d7bd0e6c3994827a9ca2216b7325d2dff05",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/metric/vegetable_garlic.pdf": {
+      "sha256": "f87917cb22101548c48e28c8ba63f25adddf4fb56e2412055fe259253a67dede",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/metric/vegetable_leek.pdf": {
+      "sha256": "7b755e619d3a97e530e4a8703105a331d147f82442c7cd441299d0311fe7b96c",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/metric/vegetable_onions_and_shallots.pdf": {
+      "sha256": "a303baa884d4a92847f1a78b10f782fad6db9695cc4b372441dbafaa47d5cafc",
+      "pages": 3
+    },
+    "output/pdf/book-preparation/bookvault/metric/vegetable_aubergine.pdf": {
+      "sha256": "3f0f6aa2c490d542fc0070691a4491f18da9f5e982165a49560193493f82bd65",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/metric/vegetable_capsicum.pdf": {
+      "sha256": "3e93aff5d71855eabf4042ac2c7d13f54d6e5e0b1be766d166907fddeae2f220",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/metric/vegetable_courgettes_and_marrows.pdf": {
+      "sha256": "78b212c10adf58d167edd7af38ec6b46012e77f67f07298186cf50f6b22e5f44",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/metric/vegetable_cucumber_greenhouse.pdf": {
+      "sha256": "b4cdec6f989c802a92276540374d9442829ae24d4f315ceafa4672c33171021a",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/metric/vegetable_cucumber_outdoor.pdf": {
+      "sha256": "9d89177482dae6c3abe99ed7da4c511011651a519f4425d376354be3c60792a4",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/metric/vegetable_squashes_and_pumpkins.pdf": {
+      "sha256": "81796e89e87a857e84cc74f4834de01d90effb6143221b3705eee0bf070d55d8",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/metric/vegetable_sweet_corn.pdf": {
+      "sha256": "b78fb34996e7a7d8ca42968f6a93b455f48f4413672e96298547c019582b069a",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/metric/vegetable_tomato_greenhouse.pdf": {
+      "sha256": "d4db52dc4164e482f7dc43655b8f57896ba50fa5e0f9dfaa74837f4845e16398",
+      "pages": 3
+    },
+    "output/pdf/book-preparation/bookvault/metric/vegetable_tomato_outdoor.pdf": {
+      "sha256": "bec7e4f2ec8cc2d1d43ca6f91da6e7b5786c976c2d4fca54a61ea9334539e8e1",
+      "pages": 3
+    },
+    "output/pdf/book-preparation/bookvault/metric/vegetable_artichoke_globe.pdf": {
+      "sha256": "db407b2dece9b88b591e27d4c8bbe641c1aaa7c16c53c4184b1fd315dd32bd62",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/metric/vegetable_asparagus.pdf": {
+      "sha256": "28252d6fe3992bbe8e17b5a0f15f673cc41eae84cff8fa995138f4355179cbeb",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/metric/vegetable_celery.pdf": {
+      "sha256": "d15111723e06d4ae657e46fd90c500c07ed2328f8fc974eeeaf7582701d7629f",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/metric/vegetable_florence_fennel.pdf": {
+      "sha256": "6c5a3946ddad5ba145003175732e708540f6600ad51daea4c2ccbaf69c73b27a",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/metric/vegetable_rhubarb.pdf": {
+      "sha256": "ca8d900ecc6025999aa2f3479d26c11c7b9035a5bb21e7d2ba81e1345040eabf",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/metric/vegetable_mushroom.pdf": {
+      "sha256": "938035ff7f461cad5aafb6320cb71d8632a9acdc34aa760a525898cf5b9289c9",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/metric/trouble_bean_and_pea_troubles.pdf": {
+      "sha256": "bb726f804a3cc3f9d2dc75e61b80a560fa0ff2cbc4ef7510ac3572a5e77e6e5d",
+      "pages": 4
+    },
+    "output/pdf/book-preparation/bookvault/metric/trouble_beetroot_troubles.pdf": {
+      "sha256": "35d95711f7c02fe02bac1655232f73bf96f1ad4d8949ec6c27f1c751288d8421",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/metric/trouble_brassica_troubles.pdf": {
+      "sha256": "d840ddbeca3ca198c18d3d839e76bd59f2a09ce07a61622f5b0568a0a8fe3d96",
+      "pages": 6
+    },
+    "output/pdf/book-preparation/bookvault/metric/trouble_carrot_and_parsnip_troubles.pdf": {
+      "sha256": "e0492cadbe527fc657b45b48e46758ca987199cdc6c05a1f767d083ff847a1b4",
+      "pages": 3
+    },
+    "output/pdf/book-preparation/bookvault/metric/trouble_celery_troubles.pdf": {
+      "sha256": "8e2e452e913df14abaa3ea6acc438d065658a8bc72a8f9b20e40031736e319ac",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/metric/trouble_cucurbit_troubles.pdf": {
+      "sha256": "ee25f66565774da1f6749ea99e1d4f79f294087960d26b896114cd83fa954c30",
+      "pages": 5
+    },
+    "output/pdf/book-preparation/bookvault/metric/trouble_florence_fennel_troubles.pdf": {
+      "sha256": "a915520a680ad972efedacf5aa067614fde256062a6b6901187b301b03464235",
+      "pages": 1
+    },
+    "output/pdf/book-preparation/bookvault/metric/trouble_lettuce_troubles.pdf": {
+      "sha256": "6cf33a441eaf4ba62c7669d4434375f6c64874c50dce5b6b56a18ecf213e9388",
+      "pages": 3
+    },
+    "output/pdf/book-preparation/bookvault/metric/trouble_onion_and_leek_troubles.pdf": {
+      "sha256": "01ea242b68fd65db12dacda34137cb3fd463eb0b52d178141b99fb79069ce92c",
+      "pages": 3
+    },
+    "output/pdf/book-preparation/bookvault/metric/trouble_oriental_leaves_troubles.pdf": {
+      "sha256": "be97b349f70f96d9445922b1db23f1eea2d20329e39ffb53215f2f7432a8b7d4",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/metric/trouble_potato_troubles.pdf": {
+      "sha256": "a57c4cf57e7f0c7597ebcd9c40d67bc0d7b54dda3f0ae4960d87e4885991adf2",
+      "pages": 5
+    },
+    "output/pdf/book-preparation/bookvault/metric/trouble_spinach_troubles.pdf": {
+      "sha256": "d8dc8b4d4169944eaeae7c1f9c843392a2bd3fdf13ba0410ee6d5b9e614d1da4",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/metric/trouble_tomato_troubles.pdf": {
+      "sha256": "8c941faf11052425c7d76e84dada68be7447bbde6231ed515b3e77ca1ce7a5e6",
+      "pages": 5
+    },
+    "output/pdf/book-preparation/bookvault/metric/trouble_turnip_swede_radish_troubles.pdf": {
+      "sha256": "45f98448083a44d11f32c8a091b4cfa354645842bda01795930a195bf34f996a",
+      "pages": 2
+    },
+    "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/metric.pdf": {
+      "sha256": "89bbc47865e06a36dcae1f22c91a0089aee22068346cae2aa712d37a12c2faf9",
+      "pages": 13
+    },
+    "docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/metric.pdf": {
+      "sha256": "f3b0607d14e84254eb2135763aa384f239377dfdafb7312aee170a76555a50d8",
+      "pages": 4
+    }
+  },
+  "protectedFiles": [
+    {
+      "path": "docs/publication/vegetable-guru-entry-pages/imperial.html",
+      "sha256": "27b14cf84d1957fa542648975218696e0d8243012b7898fba16b57eb4c913b96"
+    },
+    {
+      "path": "docs/publication/vegetable-guru-entry-pages/metric.html",
+      "sha256": "cb08ab308567359111afa5f6a68a4fea07bb2c8d2f9c523958e1d14c1e13421c"
+    },
+    {
+      "path": "docs/publication/vegetable-guru-entry-pages/entry-pages.css",
+      "sha256": "9796fac872f5e80f95799912f2da7dd690734dffa2b7af7336f0b8bcd8c39d43"
+    },
+    {
+      "path": "output/pdf/vegetable-guru-entry-pages/contents-how-to-imperial.pdf",
+      "sha256": "5ba9f43d00c326bab9e4705a320089ac261ca800abd7fe8992589bae980e2a4d"
+    },
+    {
+      "path": "output/pdf/vegetable-guru-entry-pages/contents-how-to-metric.pdf",
+      "sha256": "0e393c159c3e702e4ca7ecb39bd62a3fe25699df0317d345aec1d411100fab20"
+    },
+    {
+      "path": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/ARTWORK.json",
+      "sha256": "e60e9dfe3dac924f146101850e5b43eacf71619cb7eb213fbd13ae0c12e9f71d"
+    },
+    {
+      "path": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/CHECKS.json",
+      "sha256": "68141cb7f94950eb38b497aa5478227b663f96cc156b9cc5ac3e85e3342594e1"
+    },
+    {
+      "path": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/DOM-CHECKS.json",
+      "sha256": "72556473c8ad9ff476bae993cbb8628cadbcb0cf855c6ea615558ff656bb6dad"
+    },
+    {
+      "path": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/ORGANIC-PAGE-ORDER.json",
+      "sha256": "3d60a7e3492819596a9aa91d39cfaeae4c037168c5ae3f8036d9b137b53d4fc7"
+    },
+    {
+      "path": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/README.md",
+      "sha256": "4e6d04525382a4fc67fd942e1561e19eda59c86584e9904b67b4f0d01b5720f7"
+    },
+    {
+      "path": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/REVIEW.html",
+      "sha256": "2c13eb3cd4e62a026f81cac18d424dc9056da1c8bdda29f78b9cb7831d9badb2"
+    },
+    {
+      "path": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/VISUAL-REVIEW.json",
+      "sha256": "d36deda92306a82769137ad4b2fca3de1bccb56a55c55a9dbb84d48b528f700d"
+    },
+    {
+      "path": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/assets/beds-branching-v3.png",
+      "sha256": "0563e15e9c1f3f34ecf485b718a8bd7e8aadabcfe819b38fc35449ea3035c1ca"
+    },
+    {
+      "path": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/assets/beds-conventional-v1.png",
+      "sha256": "1f17ab567caa3b5fb717a13a46cd16fac449d2fbdd860758e671da38823e6365"
+    },
+    {
+      "path": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/assets/beds-keyhole-v1.png",
+      "sha256": "e8c6cf112aef8e2fc80e9574f30923302cbedd60b23d7ae9fd0393eff9a068d3"
+    },
+    {
+      "path": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/assets/compost-bin-options-v1.png",
+      "sha256": "6466a2d943d1234ac50f1859e860a41dbd71d7544ce49136117dea7bd28da637"
+    },
+    {
+      "path": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/assets/compost-bins-hasps-v3.png",
+      "sha256": "6b5cef88dd710da73c89aeb38e71ee98048c3b27de3c9e1a824dfa02469ed24a"
+    },
+    {
+      "path": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/assets/compost-mix-v1.png",
+      "sha256": "931038e107eb185fedfc3a469af0b1c6deafeb49209bd5950341df0367e2aff7"
+    },
+    {
+      "path": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/assets/greenhouse-beds-v1.png",
+      "sha256": "2d1c7f1f45c284032a18930fdbecf09fa7c154ce6eb5de812ac73ff53b4d46a6"
+    },
+    {
+      "path": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/assets/greenhouse-containers-v2.png",
+      "sha256": "697cd4f4ab5d98e9dc62e6a341090f913c71a1bd94b6b6a79dbcd5d6b5951fc6"
+    },
+    {
+      "path": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/assets/greenhouse-floor-no-dig-v2.png",
+      "sha256": "fbfb634b11023801458fbee817503387765d1bf295f5ed6e8be0f0a2b9889890"
+    },
+    {
+      "path": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/assets/harvest-bowl-v1.png",
+      "sha256": "ac1175cfabae1453f46cb7e5c26fbd5e6dafaa5c251c4ba0e828de1b238990f9"
+    },
+    {
+      "path": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/assets/sowing-sequence-v1.png",
+      "sha256": "32a74d04166a798a99387c87f1f240748d07841b74c6835e5f5d5fccbb55fc86"
+    },
+    {
+      "path": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/assets/starter-plot-v1.png",
+      "sha256": "bd4debd184b1590be6c3e08ca6915c047aa679532615d6f873b6496363f3693c"
+    },
+    {
+      "path": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/assets/watering-check-v1.png",
+      "sha256": "c012e3b795590bdc0d094c1429962e9d10b3b81f9bb39309a02f516634c9c646"
+    },
+    {
+      "path": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/build.mjs",
+      "sha256": "89a7c7b74acc2f0f48f7e8051f2aa5b362df2a1f88202d8d8a1052fa232a7de2"
+    },
+    {
+      "path": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/copy.json",
+      "sha256": "7d3933e59396b4fa902227b04f3f76a5bdfc4b3416fe59b671ca2aa200b45a19"
+    },
+    {
+      "path": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/draft.css",
+      "sha256": "00e9f3e5bccd270cea052e3a1b836d3e958850fb5f31aa58f5748a1acfd6af07"
+    },
+    {
+      "path": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/imperial-01.png",
+      "sha256": "8592bca15dca9103d3a382b370e3a596f18fab0caf83d2f825c3f3e12648de1b"
+    },
+    {
+      "path": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/imperial-02.png",
+      "sha256": "dfadc5f3ffc8efbc3040679185adc67e8eceda2cea656845c0937a574ce019bd"
+    },
+    {
+      "path": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/imperial-03.png",
+      "sha256": "0444a8a4d33a03961ef986dc42e812679db1ef1811925ef3a90497ad74b7ef89"
+    },
+    {
+      "path": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/imperial-04.png",
+      "sha256": "ece30093ec771f9878869f216c2a742cd89a2d4363ca6c7811ed2e86dece2015"
+    },
+    {
+      "path": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/imperial-05.png",
+      "sha256": "a7323bce445877918c04b60d3d6616ee1224ae359ba9686126172d9b724f0b5f"
+    },
+    {
+      "path": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/imperial-06.png",
+      "sha256": "1813637c27bb3780fc29deb048420d1b35184314b6a5a1fc32bcef839f51572a"
+    },
+    {
+      "path": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/imperial-07.png",
+      "sha256": "7a6ca010f917a12e5512047d850f8319477bd71b71e19ebb2adc2993a9f262bb"
+    },
+    {
+      "path": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/imperial-08.png",
+      "sha256": "74b7391a54a5fc2094f660c15c4b3e5fa1d05fd08f093c8972c823629814dce4"
+    },
+    {
+      "path": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/imperial-09.png",
+      "sha256": "4c824965734276558c2515803e3f3413142ae3b8cf2cac9bf9ab6d53c58c57e4"
+    },
+    {
+      "path": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/imperial-10.png",
+      "sha256": "e86515acdd21cf56fc55d9e31f5ed83557a8c33fbd8b6f65bc2ecedf261bf1a2"
+    },
+    {
+      "path": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/imperial-11.png",
+      "sha256": "40f908da3ad25d88ec09df94c5e7fcd32d4f86c8502d4abf9b2dfcb8cfd12987"
+    },
+    {
+      "path": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/imperial-12.png",
+      "sha256": "dd7a9cb12cf81e18383c1434754db90b54f5a58919729037cef4ee81ad853f77"
+    },
+    {
+      "path": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/imperial-13.png",
+      "sha256": "1a6097948442480a761a4c3f0594657334edb70626a28e0fd5369b440a8de768"
+    },
+    {
+      "path": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/imperial.pdf",
+      "sha256": "ee41c201663e2c5215f170b538a76c7b98b16092c124342f7fd0d6788f8a2f42"
+    },
+    {
+      "path": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/metric-01.png",
+      "sha256": "80bc0900eca832895cbc68aed2821360f5daaec4dd47c9375624a268a9fa0a00"
+    },
+    {
+      "path": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/metric-02.png",
+      "sha256": "93421b82e697b3c59af86717094efe972432709be1e83354749965f142584da4"
+    },
+    {
+      "path": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/metric-03.png",
+      "sha256": "1180e8d24a07e1e2e0e2d1238b34862554c76799fa971891a6a73a7ede468a1e"
+    },
+    {
+      "path": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/metric-04.png",
+      "sha256": "91813107f8ace1753500ac3e9740f0fa1ba7fb48c7ece7f736838054b504ae3c"
+    },
+    {
+      "path": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/metric-05.png",
+      "sha256": "e7a49161525ba98e187f6ed3f8abebdfe218112ad1965ed4d9a3d5da030a88af"
+    },
+    {
+      "path": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/metric-06.png",
+      "sha256": "f525a99a6425e90097dcc6870ed8e1b2d08d576ff826fec7c62bcce1686c1a3f"
+    },
+    {
+      "path": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/metric-07.png",
+      "sha256": "6b9d36bd9a9e3e886a301ae3fa775961dfda913d2346d0aa7ac554e169d07a98"
+    },
+    {
+      "path": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/metric-08.png",
+      "sha256": "6d2c50a0a145570a5a0182cde7573175e42464bff2099b3b816bfc1f9334988d"
+    },
+    {
+      "path": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/metric-09.png",
+      "sha256": "43f8659510b5b90ac11526ce398238c32a60f49cdf7dff9456c9aac8eb6cbc5a"
+    },
+    {
+      "path": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/metric-10.png",
+      "sha256": "92c429f0862db93e694391ad892653495797fda980822e5930cf0b326f626e6f"
+    },
+    {
+      "path": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/metric-11.png",
+      "sha256": "54044b7a398cdcdb0cb5cca8cb9eb24e93fd7789b4d8d1d3e418f1bee9415160"
+    },
+    {
+      "path": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/metric-12.png",
+      "sha256": "3dca360e5743c4d1f30af5807c23f943723f9f11a484c917c83bafa072d49924"
+    },
+    {
+      "path": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/metric-13.png",
+      "sha256": "afa833a81061f57d32ad697c05e973b4bf3304042c19add4d2f4ec199a882318"
+    },
+    {
+      "path": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/metric.pdf",
+      "sha256": "89bbc47865e06a36dcae1f22c91a0089aee22068346cae2aa712d37a12c2faf9"
+    },
+    {
+      "path": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/public/images/heroes/richer-a/cabbage.png",
+      "sha256": "99b901ebff5e1b4d1dba063cef707a8f791452fc4e5fdf14180a878aba27d7ff"
+    },
+    {
+      "path": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/public/images/heroes/richer-a/carrot.png",
+      "sha256": "733b775e5e9f87d78669551ca911e39ea3eb61bed6bc54815e64b10c8fbdbfe9"
+    },
+    {
+      "path": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/public/images/heroes/richer-a/pea.png",
+      "sha256": "72dacd9636ea428ca82761ab5231274b0a72f30f283f17af8c2a463c8be2c6df"
+    },
+    {
+      "role": "Approved editable text baseline",
+      "path": "docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/copy.json",
+      "sha256": "a7f3fc344dfbd3d6e1f8c4af377301b831ec7a7c50c2e5abd693fc082229ac7f"
+    },
+    {
+      "role": "Approved four-page imperial proof; original draft markings retained",
+      "path": "docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/imperial.pdf",
+      "sha256": "7f8bd21868140455895d7e2c72569652cf4aee719db21820e283a2fd2209ad2e"
+    },
+    {
+      "role": "Approved four-page metric proof; original draft markings retained",
+      "path": "docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/metric.pdf",
+      "sha256": "f3b0607d14e84254eb2135763aa384f239377dfdafb7312aee170a76555a50d8"
+    },
+    {
+      "role": "Source/provenance at approval; historical status strings retained in snapshot",
+      "path": "docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/build.mjs",
+      "sha256": "ac4f8bb69a81cd322427348fa693d35a4a4d7cc66d7aba3316d80a92c0e43d79"
+    },
+    {
+      "role": "Source/provenance at approval; historical status strings retained in snapshot",
+      "path": "docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/draft.css",
+      "sha256": "f47f75c1e0b078e71488c8a26aa10428a7448bb920486faa6a42e54cedfea7c3"
+    },
+    {
+      "role": "Source/provenance at approval; historical status strings retained in snapshot",
+      "path": "docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/CHECKS.json",
+      "sha256": "29f808823e08d6018b22a3afc89e640856afd8b84e3652aeb925d01033558377"
+    },
+    {
+      "role": "Source/provenance at approval; historical status strings retained in snapshot",
+      "path": "docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/ARTWORK.json",
+      "sha256": "3f537821c05124335daba3c356a65d5b994961bacb39328062ed7c0224312e36"
+    },
+    {
+      "role": "Source/provenance at approval; historical status strings retained in snapshot",
+      "path": "docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/PROMPTS.json",
+      "sha256": "755600872d4e6d2a06edfe4e2c7de128ffd5449541c637b426a30c748ffc21e0"
+    },
+    {
+      "role": "Source/provenance at approval; historical status strings retained in snapshot",
+      "path": "docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/DIGGING-REVISION-PROMPTS.json",
+      "sha256": "0e783b156cb31c390a4f44cde6a41bcfb69c98c26b7235abb4070c9bbcecf137"
+    },
+    {
+      "role": "Approved artwork in this four-page composition",
+      "path": "docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/assets/comparison-v2.png",
+      "sha256": "8506c1e420aa2970717021ab625f99807f9989dab819f5c0cc09eb8eb7010dcd"
+    },
+    {
+      "role": "Approved artwork in this four-page composition",
+      "path": "docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/assets/no-dig-sequence-v1.png",
+      "sha256": "a100d1d0c4c62f4c6c8600e735876a2335ccff20d714a023a364a7f03bc9e673"
+    },
+    {
+      "role": "Approved artwork in this four-page composition",
+      "path": "docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/assets/double-dig-sequence-v1.png",
+      "sha256": "7330d64011436ee326e4ff6482af64a16ab84906c9e557c9cef1cecb9fcad31b"
+    },
+    {
+      "role": "Approved artwork in this four-page composition",
+      "path": "docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/assets/smother-sequence-v1.png",
+      "sha256": "11501fe4d115a62143b9d093051c5f397a5467270db251069c4cb5efa8bc8cd7"
+    },
+    {
+      "role": "Approved proof page render",
+      "path": "docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/imperial-1.png",
+      "sha256": "71e780e895bc39390290c5ac38f80461a1f7a052adff56a5063362c01986e211"
+    },
+    {
+      "role": "Approved proof page render",
+      "path": "docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/imperial-2.png",
+      "sha256": "84a4c99956c1d813ccb3116b3e1b9b31962bde21cc3008673de091c072b4daab"
+    },
+    {
+      "role": "Approved proof page render",
+      "path": "docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/imperial-3.png",
+      "sha256": "89be4b54f674c6f3df37df4c85d159dbec26d51260ab2c44e084053c1a95fd33"
+    },
+    {
+      "role": "Approved proof page render",
+      "path": "docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/imperial-4.png",
+      "sha256": "90768f25348851d152d1cd49d0aca9a6048951523635e5ac07c82e11dfe3c8d5"
+    },
+    {
+      "role": "Approved proof page render",
+      "path": "docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/metric-1.png",
+      "sha256": "246885516487c673dc12e1ecc7cf8c55c089ada157b90c570ee512ec8e44c713"
+    },
+    {
+      "role": "Approved proof page render",
+      "path": "docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/metric-2.png",
+      "sha256": "f2da7dd2b54aa5234d28bb1e9583d03abf85449a9aeb8a10181f545a4b86a289"
+    },
+    {
+      "role": "Approved proof page render",
+      "path": "docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/metric-3.png",
+      "sha256": "cbceb1e8ee1ac33afa94a83be6c58d250bae5067fc56ff0c8c80a8ca5afd58d4"
+    },
+    {
+      "role": "Approved proof page render",
+      "path": "docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/metric-4.png",
+      "sha256": "1ff3e6ab205b0bc40c6761480a622e668588e05fbdf899d809f818f32b4035a4"
+    },
+    {
+      "originalPath": "output/pdf/book-index/vegetable-guru-index-draft.pdf",
+      "path": "docs/publication/book-index/references/approved-2026-10-12/index.pdf",
+      "sha256": "5d3aad9ce673ca1d881a00821959d7cb02bb80077e9d9e969785579bd869116b"
+    },
+    {
+      "originalPath": "../hackriculture-data/book-layout/index.json",
+      "path": "docs/publication/book-index/references/approved-2026-10-12/index-copy.json",
+      "sha256": "644561af4403bc5f4327bdac2e023aba1564b09721b8db90f6ee652780ac2e83"
+    },
+    {
+      "originalPath": "docs/publication/book-index/index.html",
+      "path": "docs/publication/book-index/references/approved-2026-10-12/index.html",
+      "sha256": "56866c85a1343966729e531bb615c34e6da0f51df4d421284fdf1b10a07c1d22"
+    },
+    {
+      "originalPath": "docs/publication/book-index/index.css",
+      "path": "docs/publication/book-index/references/approved-2026-10-12/index.css",
+      "sha256": "214667778307af5a3a7392b0ca2ee3e0c7d5cee92969e5ca8c691716050916d9"
+    },
+    {
+      "originalPath": "docs/publication/book-index/CHECKS.json",
+      "path": "docs/publication/book-index/references/approved-2026-10-12/CHECKS.json",
+      "sha256": "16119d49a3d16cac56efc90c085434c1c0e130730c0e90b36a703df4cf9e9a45"
+    },
+    {
+      "originalPath": "docs/publication/book-index/RESOLVED.json",
+      "path": "docs/publication/book-index/references/approved-2026-10-12/RESOLVED.json",
+      "sha256": "25675790890bc26d65f0e576586d6df9d96342a17f0fdbb1fed76b9a3e41e1de"
+    },
+    {
+      "originalPath": "docs/publication/book-index/REVIEW-CHECKS.json",
+      "path": "docs/publication/book-index/references/approved-2026-10-12/REVIEW-CHECKS.json",
+      "sha256": "dd5477300e4cf83fa2fcbf30d7150bc924ad085dee237abf8ed8f3e25857177d"
+    },
+    {
+      "originalPath": "docs/publication/book-index/REINDEX-CHECK.json",
+      "path": "docs/publication/book-index/references/approved-2026-10-12/REINDEX-CHECK.json",
+      "sha256": "7315b6e6b9b2294aa0a77e939f382fc06baf3b90aa26564c915d6791e3f2c481"
+    },
+    {
+      "originalPath": "docs/publication/book-index/index-1.png",
+      "path": "docs/publication/book-index/references/approved-2026-10-12/index-1.png",
+      "sha256": "cf0559b3fb18c132300f8ff222c94f355b0b718932426f39e5d1b2111b73ab85"
+    },
+    {
+      "originalPath": "docs/publication/book-index/index-2.png",
+      "path": "docs/publication/book-index/references/approved-2026-10-12/index-2.png",
+      "sha256": "d504630df51c0b6024aca032e66aab9ebfa5fb3f7d752353bde790bcbc47551b"
+    },
+    {
+      "originalPath": "docs/publication/book-index/index-3.png",
+      "path": "docs/publication/book-index/references/approved-2026-10-12/index-3.png",
+      "sha256": "0eb1f36394dd5b2b0e544ffe519908ef0d894fed037d6a18b104f03a05dc111b"
+    },
+    {
+      "originalPath": "docs/publication/book-index/index-4.png",
+      "path": "docs/publication/book-index/references/approved-2026-10-12/index-4.png",
+      "sha256": "c29b091a6f3447663e975324230f8f8902ea6dc4529d2d1ae6cdd72fce7ce95d"
+    },
+    {
+      "originalPath": "scripts/build-book-index.mjs",
+      "path": "docs/publication/book-index/references/approved-2026-10-12/build-book-index.mjs",
+      "sha256": "6e99219b4f7779826e7ff28117ae352b46beba14fd1448ba4ef22265f8458cf4"
+    },
+    {
+      "originalPath": "scripts/lib/book-index.mjs",
+      "path": "docs/publication/book-index/references/approved-2026-10-12/book-index.mjs",
+      "sha256": "137e2d2e8a80426c7f641b580b16b0802a445f78a745db91da3d171c9352600d"
+    },
+    {
+      "originalPath": "scripts/check-book-index.py",
+      "path": "docs/publication/book-index/references/approved-2026-10-12/check-book-index.py",
+      "sha256": "9f664b473f15c71ed015b6ebcaa23dee9ec5928ff3bfb1e0522dcf4d42c6f5cf"
+    }
+  ],
+  "fullBookRegenerated": false,
+  "guidePdfsRegenerated": false,
+  "results": [
+    {
+      "units": "imperial",
+      "pdf": "output/pdf/contents-update/contents-imperial.pdf",
+      "sha256": "a2e6ca3afa9c316964e49f775f7eec237b60b57a1eb5a6bb83fc6281762a521a",
+      "html": "docs/publication/contents-update/imperial.html",
+      "htmlSha256": "3ff60658a2dac63fae6a0e3e20d2749bf59763f80d6d06cb55403f13f68821af",
+      "references": [
+        {
+          "type": "vegetable",
+          "key": "artichoke_jerusalem",
+          "label": "Artichoke, Jerusalem",
+          "startPage": 10
+        },
+        {
+          "type": "vegetable",
+          "key": "beetroot",
+          "label": "Beetroot",
+          "startPage": 12
+        },
+        {
+          "type": "vegetable",
+          "key": "carrot",
+          "label": "Carrot",
+          "startPage": 14
+        },
+        {
+          "type": "vegetable",
+          "key": "celeriac",
+          "label": "Celeriac",
+          "startPage": 18
+        },
+        {
+          "type": "vegetable",
+          "key": "kohl_rabi",
+          "label": "Kohl Rabi",
+          "startPage": 20
+        },
+        {
+          "type": "vegetable",
+          "key": "parsnip",
+          "label": "Parsnip",
+          "startPage": 22
+        },
+        {
+          "type": "vegetable",
+          "key": "potato",
+          "label": "Potato",
+          "startPage": 24
+        },
+        {
+          "type": "vegetable",
+          "key": "radish",
+          "label": "Radish",
+          "startPage": 26
+        },
+        {
+          "type": "vegetable",
+          "key": "salsify_scorzonera",
+          "label": "Salsify & Scorzonera",
+          "startPage": 28
+        },
+        {
+          "type": "vegetable",
+          "key": "swede",
+          "label": "Swede",
+          "startPage": 30
+        },
+        {
+          "type": "vegetable",
+          "key": "turnip",
+          "label": "Turnip",
+          "startPage": 32
+        },
+        {
+          "type": "vegetable",
+          "key": "broccoli",
+          "label": "Broccoli",
+          "startPage": 34
+        },
+        {
+          "type": "vegetable",
+          "key": "brussels_sprouts",
+          "label": "Brussels Sprouts",
+          "startPage": 36
+        },
+        {
+          "type": "vegetable",
+          "key": "cabbage",
+          "label": "Cabbage",
+          "startPage": 38
+        },
+        {
+          "type": "vegetable",
+          "key": "cauliflower",
+          "label": "Cauliflower",
+          "startPage": 40
+        },
+        {
+          "type": "vegetable",
+          "key": "kale",
+          "label": "Kale",
+          "startPage": 42
+        },
+        {
+          "type": "vegetable",
+          "key": "bean_broad",
+          "label": "Bean, Broad",
+          "startPage": 44
+        },
+        {
+          "type": "vegetable",
+          "key": "bean_french",
+          "label": "Bean, French",
+          "startPage": 46
+        },
+        {
+          "type": "vegetable",
+          "key": "bean_runner",
+          "label": "Bean, Runner",
+          "startPage": 48
+        },
+        {
+          "type": "vegetable",
+          "key": "pea",
+          "label": "Pea",
+          "startPage": 50
+        },
+        {
+          "type": "vegetable",
+          "key": "beet_leaf",
+          "label": "Beet, Leaf",
+          "startPage": 52
+        },
+        {
+          "type": "vegetable",
+          "key": "chicory",
+          "label": "Chicory",
+          "startPage": 54
+        },
+        {
+          "type": "vegetable",
+          "key": "endive",
+          "label": "Endive",
+          "startPage": 56
+        },
+        {
+          "type": "vegetable",
+          "key": "lettuce",
+          "label": "Lettuce",
+          "startPage": 58
+        },
+        {
+          "type": "vegetable",
+          "key": "oriental_leaves",
+          "label": "Oriental Leaves",
+          "startPage": 60
+        },
+        {
+          "type": "vegetable",
+          "key": "spinach",
+          "label": "Spinach",
+          "startPage": 62
+        },
+        {
+          "type": "vegetable",
+          "key": "garlic",
+          "label": "Garlic",
+          "startPage": 64
+        },
+        {
+          "type": "vegetable",
+          "key": "leek",
+          "label": "Leek",
+          "startPage": 66
+        },
+        {
+          "type": "vegetable",
+          "key": "onion_shallot",
+          "label": "Onions and Shallots",
+          "startPage": 68
+        },
+        {
+          "type": "vegetable",
+          "key": "aubergine",
+          "label": "Aubergine",
+          "startPage": 72
+        },
+        {
+          "type": "vegetable",
+          "key": "capsicum",
+          "label": "Capsicum",
+          "startPage": 74
+        },
+        {
+          "type": "vegetable",
+          "key": "marrow_courgette",
+          "label": "Courgettes and Marrows",
+          "startPage": 76
+        },
+        {
+          "type": "vegetable",
+          "key": "cucumber_greenhouse",
+          "label": "Cucumber, Greenhouse",
+          "startPage": 78
+        },
+        {
+          "type": "vegetable",
+          "key": "cucumber_outdoor",
+          "label": "Cucumber, Outdoor",
+          "startPage": 80
+        },
+        {
+          "type": "vegetable",
+          "key": "squash_pumpkin",
+          "label": "Squashes and Pumpkins",
+          "startPage": 82
+        },
+        {
+          "type": "vegetable",
+          "key": "sweet_corn",
+          "label": "Sweet Corn",
+          "startPage": 84
+        },
+        {
+          "type": "vegetable",
+          "key": "tomato_greenhouse",
+          "label": "Tomato, Greenhouse",
+          "startPage": 86
+        },
+        {
+          "type": "vegetable",
+          "key": "tomato_outdoor",
+          "label": "Tomato, Outdoor",
+          "startPage": 90
+        },
+        {
+          "type": "vegetable",
+          "key": "artichoke_globe",
+          "label": "Artichoke, Globe",
+          "startPage": 94
+        },
+        {
+          "type": "vegetable",
+          "key": "asparagus",
+          "label": "Asparagus",
+          "startPage": 96
+        },
+        {
+          "type": "vegetable",
+          "key": "celery",
+          "label": "Celery",
+          "startPage": 98
+        },
+        {
+          "type": "vegetable",
+          "key": "florence_fennel",
+          "label": "Florence Fennel",
+          "startPage": 100
+        },
+        {
+          "type": "vegetable",
+          "key": "rhubarb",
+          "label": "Rhubarb",
+          "startPage": 102
+        },
+        {
+          "type": "vegetable",
+          "key": "mushroom",
+          "label": "Mushroom",
+          "startPage": 104
+        },
+        {
+          "type": "trouble",
+          "key": "bean_and_pea_troubles",
+          "label": "Bean and Pea",
+          "startPage": 106
+        },
+        {
+          "type": "trouble",
+          "key": "beetroot_troubles",
+          "label": "Beetroot",
+          "startPage": 110
+        },
+        {
+          "type": "trouble",
+          "key": "brassica_troubles",
+          "label": "Brassica",
+          "startPage": 112
+        },
+        {
+          "type": "trouble",
+          "key": "carrot_and_parsnip_troubles",
+          "label": "Carrot and Parsnip",
+          "startPage": 118
+        },
+        {
+          "type": "trouble",
+          "key": "celery_troubles",
+          "label": "Celery",
+          "startPage": 121
+        },
+        {
+          "type": "trouble",
+          "key": "cucurbit_troubles",
+          "label": "Cucurbit",
+          "startPage": 123
+        },
+        {
+          "type": "trouble",
+          "key": "florence_fennel_troubles",
+          "label": "Florence Fennel",
+          "startPage": 128
+        },
+        {
+          "type": "trouble",
+          "key": "lettuce_troubles",
+          "label": "Lettuce",
+          "startPage": 129
+        },
+        {
+          "type": "trouble",
+          "key": "onion_and_leek_troubles",
+          "label": "Onion & Leek",
+          "startPage": 132
+        },
+        {
+          "type": "trouble",
+          "key": "oriental_leaves_troubles",
+          "label": "Oriental Leaves",
+          "startPage": 135
+        },
+        {
+          "type": "trouble",
+          "key": "potato_troubles",
+          "label": "Potato",
+          "startPage": 137
+        },
+        {
+          "type": "trouble",
+          "key": "spinach_troubles",
+          "label": "Spinach",
+          "startPage": 142
+        },
+        {
+          "type": "trouble",
+          "key": "tomato_troubles",
+          "label": "Tomato",
+          "startPage": 144
+        },
+        {
+          "type": "trouble",
+          "key": "turnip_swede_radish_troubles",
+          "label": "Turnip, Swede & Radish",
+          "startPage": 149
+        },
+        {
+          "source": "opening:welcome",
+          "label": "Welcome and author",
+          "startPage": 3
+        },
+        {
+          "source": "opening:how-to",
+          "label": "How to use this book",
+          "startPage": 7
+        },
+        {
+          "source": "technique:why-grow",
+          "label": "Why Grow Your Own",
+          "startPage": 9
+        },
+        {
+          "source": "technique:organic",
+          "label": "The core ideas",
+          "startPage": 151
+        },
+        {
+          "source": "technique:plot-location",
+          "label": "Start with the right spot",
+          "startPage": 152
+        },
+        {
+          "source": "technique:plot-layout",
+          "label": "Beds and paths that work for you",
+          "startPage": 153
+        },
+        {
+          "source": "technique:plot-layout-branching",
+          "label": "Finger and leaf patterns",
+          "startPage": 154
+        },
+        {
+          "source": "cultivation:overview",
+          "label": "Compare the two methods",
+          "startPage": 155
+        },
+        {
+          "source": "cultivation:no-dig",
+          "label": "No-dig vegetable growing",
+          "startPage": 156
+        },
+        {
+          "source": "cultivation:digging",
+          "label": "Single and double digging",
+          "startPage": 157
+        },
+        {
+          "source": "cultivation:digging-finish",
+          "label": "Finishing the bed and smothering",
+          "startPage": 158
+        },
+        {
+          "source": "technique:greenhouse-choose",
+          "label": "What, where & how big?",
+          "startPage": 159
+        },
+        {
+          "source": "technique:greenhouse-beds",
+          "label": "Pots, grobags and raised beds",
+          "startPage": 160
+        },
+        {
+          "source": "technique:greenhouse-no-dig-seasons",
+          "label": "Floor-level no-dig and the seasons",
+          "startPage": 161
+        },
+        {
+          "source": "technique:rotation",
+          "label": "Simple crop rotation",
+          "startPage": 162
+        },
+        {
+          "source": "technique:compost-bins",
+          "label": "The secret’s in the bin",
+          "startPage": 163
+        },
+        {
+          "source": "technique:compost-use",
+          "label": "Feed it, leave it, use it",
+          "startPage": 164
+        },
+        {
+          "source": "technique:watering",
+          "label": "Water the roots, not the calendar",
+          "startPage": 165
+        },
+        {
+          "source": "technique:sowing",
+          "label": "Sowing and planting",
+          "startPage": 166
+        },
+        {
+          "source": "back:index",
+          "label": "Index",
+          "description": "Look up a crop, a problem or a technique by name.",
+          "startPage": 167
+        }
+      ],
+      "dom": [
+        {
+          "folio": 4,
+          "footerClearanceMm": 10.893391927083334,
+          "blocks": [
+            {
+              "text": "YOUR GUIDE TO THE COLLECTION",
+              "left": 7.99951171875,
+              "right": 104.00192057291666,
+              "top": 11.997200520833333,
+              "bottom": 15.833658854166666
+            },
+            {
+              "text": "What's inside.",
+              "left": 7.99951171875,
+              "right": 104.00192057291666,
+              "top": 18.4794921875,
+              "bottom": 30.195572916666663
+            },
+            {
+              "text": "44 vegetable guides · 14 Troubles guides",
+              "left": 7.911411980787913,
+              "right": 73.40248876810074,
+              "top": 32.78158472379048,
+              "bottom": 42.074830055236816
+            },
+            {
+              "text": "Each vegetable guide gives you two or more pages of practical growing advice, with separate Troubles guides for more detailed help.",
+              "left": 7.99951171875,
+              "right": 103.99778645833332,
+              "top": 44.39625651041666,
+              "bottom": 59.35348307291667
+            },
+            {
+              "text": "Root Crops",
+              "left": 7.99951171875,
+              "right": 83.49671223958333,
+              "top": 68.99423828124999,
+              "bottom": 77.89085286458332
+            },
+            {
+              "text": "Artichoke, Jerusalem10",
+              "left": 7.99951171875,
+              "right": 83.49671223958333,
+              "top": 79.47835286458333,
+              "bottom": 86.47327473958332
+            },
+            {
+              "text": "Beetroot12",
+              "left": 7.99951171875,
+              "right": 83.49671223958333,
+              "top": 86.47327473958332,
+              "bottom": 93.46819661458333
+            },
+            {
+              "text": "Carrot14",
+              "left": 7.99951171875,
+              "right": 83.49671223958333,
+              "top": 93.46819661458333,
+              "bottom": 100.46311848958334
+            },
+            {
+              "text": "Celeriac18",
+              "left": 7.99951171875,
+              "right": 83.49671223958333,
+              "top": 100.46311848958334,
+              "bottom": 107.45804036458333
+            },
+            {
+              "text": "Kohl Rabi20",
+              "left": 7.99951171875,
+              "right": 83.49671223958333,
+              "top": 107.45804036458333,
+              "bottom": 114.45296223958333
+            },
+            {
+              "text": "Parsnip22",
+              "left": 7.99951171875,
+              "right": 83.49671223958333,
+              "top": 114.45296223958333,
+              "bottom": 121.44788411458332
+            },
+            {
+              "text": "Potato24",
+              "left": 7.99951171875,
+              "right": 83.49671223958333,
+              "top": 121.44788411458332,
+              "bottom": 128.44280598958332
+            },
+            {
+              "text": "Radish26",
+              "left": 7.99951171875,
+              "right": 83.49671223958333,
+              "top": 128.44280598958332,
+              "bottom": 135.4377278645833
+            },
+            {
+              "text": "Salsify & Scorzonera28",
+              "left": 7.99951171875,
+              "right": 83.49671223958333,
+              "top": 135.4377278645833,
+              "bottom": 142.43264973958333
+            },
+            {
+              "text": "Swede30",
+              "left": 7.99951171875,
+              "right": 83.49671223958333,
+              "top": 142.43264973958333,
+              "bottom": 149.42757161458334
+            },
+            {
+              "text": "Turnip32",
+              "left": 7.99951171875,
+              "right": 83.49671223958333,
+              "top": 149.42757161458334,
+              "bottom": 156.42249348958333
+            },
+            {
+              "text": "Brassicas",
+              "left": 7.99951171875,
+              "right": 83.49671223958333,
+              "top": 161.4206380208333,
+              "bottom": 170.31725260416667
+            },
+            {
+              "text": "Broccoli34",
+              "left": 7.99951171875,
+              "right": 83.49671223958333,
+              "top": 171.90475260416667,
+              "bottom": 178.89967447916663
+            },
+            {
+              "text": "Brussels Sprouts36",
+              "left": 7.99951171875,
+              "right": 83.49671223958333,
+              "top": 178.89967447916663,
+              "bottom": 185.89459635416665
+            },
+            {
+              "text": "Cabbage38",
+              "left": 7.99951171875,
+              "right": 83.49671223958333,
+              "top": 185.89459635416665,
+              "bottom": 192.88951822916667
+            },
+            {
+              "text": "Cauliflower40",
+              "left": 7.99951171875,
+              "right": 83.49671223958333,
+              "top": 192.88951822916667,
+              "bottom": 199.88444010416666
+            },
+            {
+              "text": "Kale42",
+              "left": 7.99951171875,
+              "right": 83.49671223958333,
+              "top": 199.88444010416666,
+              "bottom": 206.87936197916665
+            },
+            {
+              "text": "Peas & Beans",
+              "left": 92.49667968749999,
+              "right": 167.99801432291665,
+              "top": 68.99423828124999,
+              "bottom": 77.89085286458332
+            },
+            {
+              "text": "Bean, Broad44",
+              "left": 92.49667968749999,
+              "right": 167.99801432291665,
+              "top": 79.47835286458333,
+              "bottom": 86.47327473958332
+            },
+            {
+              "text": "Bean, French46",
+              "left": 92.49667968749999,
+              "right": 167.99801432291665,
+              "top": 86.47327473958332,
+              "bottom": 93.46819661458333
+            },
+            {
+              "text": "Bean, Runner48",
+              "left": 92.49667968749999,
+              "right": 167.99801432291665,
+              "top": 93.46819661458333,
+              "bottom": 100.46311848958334
+            },
+            {
+              "text": "Pea50",
+              "left": 92.49667968749999,
+              "right": 167.99801432291665,
+              "top": 100.46311848958334,
+              "bottom": 107.45804036458333
+            },
+            {
+              "text": "Salads & Leaves",
+              "left": 92.49667968749999,
+              "right": 167.99801432291665,
+              "top": 112.45618489583332,
+              "bottom": 121.35279947916666
+            },
+            {
+              "text": "Beet, Leaf52",
+              "left": 92.49667968749999,
+              "right": 167.99801432291665,
+              "top": 122.94029947916665,
+              "bottom": 129.93522135416666
+            },
+            {
+              "text": "Chicory54",
+              "left": 92.49667968749999,
+              "right": 167.99801432291665,
+              "top": 129.93522135416666,
+              "bottom": 136.93014322916665
+            },
+            {
+              "text": "Endive56",
+              "left": 92.49667968749999,
+              "right": 167.99801432291665,
+              "top": 136.93014322916665,
+              "bottom": 143.92506510416666
+            },
+            {
+              "text": "Lettuce58",
+              "left": 92.49667968749999,
+              "right": 167.99801432291665,
+              "top": 143.92506510416666,
+              "bottom": 150.91998697916665
+            },
+            {
+              "text": "Oriental Leaves60",
+              "left": 92.49667968749999,
+              "right": 167.99801432291665,
+              "top": 150.91998697916665,
+              "bottom": 157.91490885416667
+            },
+            {
+              "text": "Spinach62",
+              "left": 92.49667968749999,
+              "right": 167.99801432291665,
+              "top": 157.91490885416667,
+              "bottom": 164.90983072916666
+            },
+            {
+              "text": "Onion Family",
+              "left": 92.49667968749999,
+              "right": 167.99801432291665,
+              "top": 169.90797526041666,
+              "bottom": 178.80458984375
+            },
+            {
+              "text": "Garlic64",
+              "left": 92.49667968749999,
+              "right": 167.99801432291665,
+              "top": 180.39208984375,
+              "bottom": 187.38701171875002
+            },
+            {
+              "text": "Leek66",
+              "left": 92.49667968749999,
+              "right": 167.99801432291665,
+              "top": 187.38701171875002,
+              "bottom": 194.38193359374998
+            },
+            {
+              "text": "Onions and Shallots68",
+              "left": 92.49667968749999,
+              "right": 167.99801432291665,
+              "top": 194.38193359374998,
+              "bottom": 201.37685546875
+            },
+            {
+              "text": "Vegetable and Troubles contents continue opposite. Other sections are on page 6.",
+              "left": 7.99951171875,
+              "right": 164.99664713541665,
+              "top": 212.87796223958333,
+              "bottom": 217.4792317708333
+            },
+            {
+              "text": "THE VEGETABLE GURUIMPERIAL · 4",
+              "left": 7.99951171875,
+              "right": 167.99801432291665,
+              "top": 228.37262369791665,
+              "bottom": 231.99824218749998
+            }
+          ],
+          "images": [
+            {
+              "src": "/docs/front-matter/entry-pages/studies/assets/harvest-cluster.png",
+              "loaded": true
+            }
+          ]
+        },
+        {
+          "folio": 5,
+          "footerClearanceMm": 5.8042968749999995,
+          "blocks": [
+            {
+              "text": "CONTENTS · CONTINUED",
+              "left": 16.999479166666664,
+              "right": 113.00188802083333,
+              "top": 11.997200520833333,
+              "bottom": 15.833658854166666
+            },
+            {
+              "text": "What's inside.",
+              "left": 16.999479166666664,
+              "right": 113.00188802083333,
+              "top": 18.4794921875,
+              "bottom": 29.104166666666668
+            },
+            {
+              "text": "More vegetable guides and the illustrated Troubles section.",
+              "left": 16.999479166666664,
+              "right": 106.99915364583332,
+              "top": 32.543749999999996,
+              "bottom": 42.515234375
+            },
+            {
+              "text": "Fruiting Crops",
+              "left": 16.999479166666664,
+              "right": 92.49667968749999,
+              "top": 60.9947265625,
+              "bottom": 69.89134114583332
+            },
+            {
+              "text": "Aubergine72",
+              "left": 16.999479166666664,
+              "right": 92.49667968749999,
+              "top": 71.47884114583333,
+              "bottom": 78.47376302083333
+            },
+            {
+              "text": "Capsicum74",
+              "left": 16.999479166666664,
+              "right": 92.49667968749999,
+              "top": 78.47376302083333,
+              "bottom": 85.46868489583333
+            },
+            {
+              "text": "Courgettes and Marrows76",
+              "left": 16.999479166666664,
+              "right": 92.49667968749999,
+              "top": 85.46868489583333,
+              "bottom": 92.46360677083334
+            },
+            {
+              "text": "Cucumber, Greenhouse78",
+              "left": 16.999479166666664,
+              "right": 92.49667968749999,
+              "top": 92.46360677083334,
+              "bottom": 99.45852864583333
+            },
+            {
+              "text": "Cucumber, Outdoor80",
+              "left": 16.999479166666664,
+              "right": 92.49667968749999,
+              "top": 99.45852864583333,
+              "bottom": 106.45345052083333
+            },
+            {
+              "text": "Squashes and Pumpkins82",
+              "left": 16.999479166666664,
+              "right": 92.49667968749999,
+              "top": 106.45345052083333,
+              "bottom": 113.44837239583332
+            },
+            {
+              "text": "Sweet Corn84",
+              "left": 16.999479166666664,
+              "right": 92.49667968749999,
+              "top": 113.44837239583332,
+              "bottom": 120.44329427083333
+            },
+            {
+              "text": "Tomato, Greenhouse86",
+              "left": 16.999479166666664,
+              "right": 92.49667968749999,
+              "top": 120.44329427083333,
+              "bottom": 127.43821614583332
+            },
+            {
+              "text": "Tomato, Outdoor90",
+              "left": 16.999479166666664,
+              "right": 92.49667968749999,
+              "top": 127.43821614583332,
+              "bottom": 134.43313802083333
+            },
+            {
+              "text": "Stalks & Shoots",
+              "left": 16.999479166666664,
+              "right": 92.49667968749999,
+              "top": 139.43128255208333,
+              "bottom": 148.32789713541666
+            },
+            {
+              "text": "Artichoke, Globe94",
+              "left": 16.999479166666664,
+              "right": 92.49667968749999,
+              "top": 149.91539713541667,
+              "bottom": 156.91031901041666
+            },
+            {
+              "text": "Asparagus96",
+              "left": 16.999479166666664,
+              "right": 92.49667968749999,
+              "top": 156.91031901041666,
+              "bottom": 163.90524088541665
+            },
+            {
+              "text": "Celery98",
+              "left": 16.999479166666664,
+              "right": 92.49667968749999,
+              "top": 163.90524088541665,
+              "bottom": 170.90016276041663
+            },
+            {
+              "text": "Florence Fennel100",
+              "left": 16.999479166666664,
+              "right": 92.49667968749999,
+              "top": 170.90016276041663,
+              "bottom": 177.89508463541665
+            },
+            {
+              "text": "Rhubarb102",
+              "left": 16.999479166666664,
+              "right": 92.49667968749999,
+              "top": 177.89508463541665,
+              "bottom": 184.89000651041667
+            },
+            {
+              "text": "Other",
+              "left": 16.999479166666664,
+              "right": 92.49667968749999,
+              "top": 189.88815104166667,
+              "bottom": 198.78476562499998
+            },
+            {
+              "text": "Mushroom104",
+              "left": 16.999479166666664,
+              "right": 92.49667968749999,
+              "top": 200.37226562499998,
+              "bottom": 207.3671875
+            },
+            {
+              "text": "Troubles guides",
+              "left": 105.4943359375,
+              "right": 173.00029296875002,
+              "top": 65.99287109375,
+              "bottom": 73.13662109375
+            },
+            {
+              "text": "Bean and Pea106",
+              "left": 105.4943359375,
+              "right": 173.00029296875002,
+              "top": 77.13430989583333,
+              "bottom": 84.79069010416666
+            },
+            {
+              "text": "Beetroot110",
+              "left": 105.4943359375,
+              "right": 173.00029296875002,
+              "top": 84.79069010416666,
+              "bottom": 92.44707031249999
+            },
+            {
+              "text": "Brassica112",
+              "left": 105.4943359375,
+              "right": 173.00029296875002,
+              "top": 92.44707031249999,
+              "bottom": 100.10345052083333
+            },
+            {
+              "text": "Carrot and Parsnip118",
+              "left": 105.4943359375,
+              "right": 173.00029296875002,
+              "top": 100.10345052083333,
+              "bottom": 107.75983072916665
+            },
+            {
+              "text": "Celery121",
+              "left": 105.4943359375,
+              "right": 173.00029296875002,
+              "top": 107.75983072916665,
+              "bottom": 115.4162109375
+            },
+            {
+              "text": "Cucurbit123",
+              "left": 105.4943359375,
+              "right": 173.00029296875002,
+              "top": 115.4162109375,
+              "bottom": 123.07259114583333
+            },
+            {
+              "text": "Florence Fennel128",
+              "left": 105.4943359375,
+              "right": 173.00029296875002,
+              "top": 123.07259114583333,
+              "bottom": 130.72897135416665
+            },
+            {
+              "text": "Lettuce129",
+              "left": 105.4943359375,
+              "right": 173.00029296875002,
+              "top": 130.72897135416665,
+              "bottom": 138.3853515625
+            },
+            {
+              "text": "Onion & Leek132",
+              "left": 105.4943359375,
+              "right": 173.00029296875002,
+              "top": 138.3853515625,
+              "bottom": 146.0417317708333
+            },
+            {
+              "text": "Oriental Leaves135",
+              "left": 105.4943359375,
+              "right": 173.00029296875002,
+              "top": 146.0417317708333,
+              "bottom": 153.69811197916667
+            },
+            {
+              "text": "Potato137",
+              "left": 105.4943359375,
+              "right": 173.00029296875002,
+              "top": 153.69811197916667,
+              "bottom": 161.3544921875
+            },
+            {
+              "text": "Spinach142",
+              "left": 105.4943359375,
+              "right": 173.00029296875002,
+              "top": 161.3544921875,
+              "bottom": 169.01087239583333
+            },
+            {
+              "text": "Tomato144",
+              "left": 105.4943359375,
+              "right": 173.00029296875002,
+              "top": 169.01087239583333,
+              "bottom": 176.66725260416663
+            },
+            {
+              "text": "Turnip, Swede & Radish149",
+              "left": 105.4943359375,
+              "right": 173.00029296875002,
+              "top": 176.66725260416663,
+              "bottom": 184.3236328125
+            },
+            {
+              "text": "Cucurbit Troubles covers cucumber, courgette, marrow, squash and pumpkin; Brassica Troubles includes several leafy and root crops. Check the crop labels beside each condition. More contents overleaf.",
+              "left": 16.999479166666664,
+              "right": 173.99661458333333,
+              "top": 213.36578776041665,
+              "bottom": 222.56832682291665
+            },
+            {
+              "text": "THE VEGETABLE GURUIMPERIAL · 5",
+              "left": 16.999479166666664,
+              "right": 176.99798177083332,
+              "top": 228.37262369791665,
+              "bottom": 231.99824218749998
+            }
+          ],
+          "images": [
+            {
+              "src": "/docs/front-matter/entry-pages/studies/assets/harvest-cluster.png",
+              "loaded": true
+            }
+          ]
+        },
+        {
+          "folio": 6,
+          "footerClearanceMm": 5.304069010416666,
+          "blocks": [
+            {
+              "text": "CONTENTS · CONTINUED",
+              "left": 7.99951171875,
+              "right": 104.00192057291666,
+              "top": 11.997200520833333,
+              "bottom": 15.833658854166666
+            },
+            {
+              "text": "More to grow on.",
+              "left": 7.99951171875,
+              "right": 104.00192057291666,
+              "top": 18.4794921875,
+              "bottom": 29.104166666666668
+            },
+            {
+              "text": "Practical ideas for getting started and looking after your plot.",
+              "left": 7.99951171875,
+              "right": 103.99778645833332,
+              "top": 32.543749999999996,
+              "bottom": 37.5294921875
+            },
+            {
+              "text": "Getting started",
+              "left": 11.997200520833333,
+              "right": 164.00032552083334,
+              "top": 52.99108072916666,
+              "bottom": 59.274934895833326
+            },
+            {
+              "text": "Welcome and author3",
+              "left": 11.997200520833333,
+              "right": 59.332812499999996,
+              "top": 61.27171223958333,
+              "bottom": 67.81188151041665
+            },
+            {
+              "text": "How to use this book7",
+              "left": 64.33095703125,
+              "right": 111.66656901041665,
+              "top": 61.27171223958333,
+              "bottom": 67.81188151041665
+            },
+            {
+              "text": "Why Grow Your Own9",
+              "left": 116.66471354166667,
+              "right": 164.00032552083334,
+              "top": 61.27171223958333,
+              "bottom": 67.81188151041665
+            },
+            {
+              "text": "Growing Techniques",
+              "left": 7.99951171875,
+              "right": 167.99801432291665,
+              "top": 76.80771484374999,
+              "bottom": 84.52197265625
+            },
+            {
+              "text": "Organic growing",
+              "left": 7.99951171875,
+              "right": 83.49671223958333,
+              "top": 88.51966145833332,
+              "bottom": 96.85817057291666
+            },
+            {
+              "text": "The core ideas151",
+              "left": 7.99951171875,
+              "right": 83.49671223958333,
+              "top": 97.91650390625,
+              "bottom": 104.91142578124999
+            },
+            {
+              "text": "Your vegetable plot",
+              "left": 7.99951171875,
+              "right": 83.49671223958333,
+              "top": 107.90865885416666,
+              "bottom": 116.24716796874999
+            },
+            {
+              "text": "Start with the right spot152",
+              "left": 7.99951171875,
+              "right": 83.49671223958333,
+              "top": 117.30550130208333,
+              "bottom": 124.30042317708332
+            },
+            {
+              "text": "Beds and paths that work for you153",
+              "left": 7.99951171875,
+              "right": 83.49671223958333,
+              "top": 124.30042317708332,
+              "bottom": 131.29534505208332
+            },
+            {
+              "text": "Finger and leaf patterns154",
+              "left": 7.99951171875,
+              "right": 83.49671223958333,
+              "top": 131.29534505208332,
+              "bottom": 138.2902669270833
+            },
+            {
+              "text": "Cultivation: Dig or No-Dig",
+              "left": 7.99951171875,
+              "right": 83.49671223958333,
+              "top": 141.2875,
+              "bottom": 149.62600911458333
+            },
+            {
+              "text": "Compare the two methods155",
+              "left": 7.99951171875,
+              "right": 83.49671223958333,
+              "top": 150.68434244791666,
+              "bottom": 157.67926432291665
+            },
+            {
+              "text": "No-dig vegetable growing156",
+              "left": 7.99951171875,
+              "right": 83.49671223958333,
+              "top": 157.67926432291665,
+              "bottom": 164.67418619791667
+            },
+            {
+              "text": "Single and double digging157",
+              "left": 7.99951171875,
+              "right": 83.49671223958333,
+              "top": 164.67418619791667,
+              "bottom": 171.66910807291666
+            },
+            {
+              "text": "Finishing the bed and smothering158",
+              "left": 7.99951171875,
+              "right": 83.49671223958333,
+              "top": 171.66910807291666,
+              "bottom": 178.66402994791667
+            },
+            {
+              "text": "Greenhouses",
+              "left": 92.49667968749999,
+              "right": 167.99801432291665,
+              "top": 88.51966145833332,
+              "bottom": 96.85817057291666
+            },
+            {
+              "text": "What, where & how big?159",
+              "left": 92.49667968749999,
+              "right": 167.99801432291665,
+              "top": 97.91650390625,
+              "bottom": 104.91142578124999
+            },
+            {
+              "text": "Pots, grobags and raised beds160",
+              "left": 92.49667968749999,
+              "right": 167.99801432291665,
+              "top": 104.91142578124999,
+              "bottom": 111.90634765624999
+            },
+            {
+              "text": "Floor-level no-dig and the seasons161",
+              "left": 92.49667968749999,
+              "right": 167.99801432291665,
+              "top": 111.90634765624999,
+              "bottom": 118.90126953124998
+            },
+            {
+              "text": "Crop rotation",
+              "left": 92.49667968749999,
+              "right": 167.99801432291665,
+              "top": 121.89850260416665,
+              "bottom": 130.23701171874998
+            },
+            {
+              "text": "Simple crop rotation162",
+              "left": 92.49667968749999,
+              "right": 167.99801432291665,
+              "top": 131.29534505208332,
+              "bottom": 138.2902669270833
+            },
+            {
+              "text": "Making compost",
+              "left": 92.49667968749999,
+              "right": 167.99801432291665,
+              "top": 141.2875,
+              "bottom": 149.62600911458333
+            },
+            {
+              "text": "The secret’s in the bin163",
+              "left": 92.49667968749999,
+              "right": 167.99801432291665,
+              "top": 150.68434244791666,
+              "bottom": 157.67926432291665
+            },
+            {
+              "text": "Feed it, leave it, use it164",
+              "left": 92.49667968749999,
+              "right": 167.99801432291665,
+              "top": 157.67926432291665,
+              "bottom": 164.67418619791667
+            },
+            {
+              "text": "Watering, sowing and planting",
+              "left": 92.49667968749999,
+              "right": 167.99801432291665,
+              "top": 167.67141927083333,
+              "bottom": 176.00992838541666
+            },
+            {
+              "text": "Water the roots, not the calendar165",
+              "left": 92.49667968749999,
+              "right": 167.99801432291665,
+              "top": 177.06826171875,
+              "bottom": 184.06318359374998
+            },
+            {
+              "text": "Sowing and planting166",
+              "left": 92.49667968749999,
+              "right": 167.99801432291665,
+              "top": 184.06318359374998,
+              "bottom": 191.05810546875
+            },
+            {
+              "text": "Index167",
+              "left": 11.997200520833333,
+              "right": 164.00032552083334,
+              "top": 198.05302734375002,
+              "bottom": 206.8752278645833
+            },
+            {
+              "text": "Look up a crop, a problem or a technique by name.",
+              "left": 11.997200520833333,
+              "right": 164.00032552083334,
+              "top": 207.87154947916665,
+              "bottom": 212.47281901041666
+            },
+            {
+              "text": "Numbers show the first page of each guide or topic.",
+              "left": 7.99951171875,
+              "right": 164.99664713541665,
+              "top": 218.46728515625,
+              "bottom": 223.06855468749998
+            },
+            {
+              "text": "THE VEGETABLE GURUIMPERIAL · 6",
+              "left": 7.99951171875,
+              "right": 167.99801432291665,
+              "top": 228.37262369791665,
+              "bottom": 231.99824218749998
+            }
+          ],
+          "images": [
+            {
+              "src": "/docs/front-matter/entry-pages/studies/assets/harvest-cluster.png",
+              "loaded": true
+            }
+          ]
+        }
+      ],
+      "geometry": {
+        "width": 191,
+        "height": 246,
+        "pages": [
+          {
+            "folio": 4,
+            "verso": true,
+            "minTypePt": 7.3500000000000005,
+            "safeInsetMm": {
+              "left": 5,
+              "right": 17,
+              "top": 5,
+              "bottom": 5
+            },
+            "trimMm": [
+              185,
+              240
+            ],
+            "mediaMm": [
+              191,
+              246
+            ],
+            "trimOffsetMm": [
+              3,
+              3
+            ]
+          },
+          {
+            "folio": 5,
+            "verso": false,
+            "minTypePt": 7.3500000000000005,
+            "safeInsetMm": {
+              "left": 17,
+              "right": 5,
+              "top": 5,
+              "bottom": 5
+            },
+            "trimMm": [
+              185,
+              240
+            ],
+            "mediaMm": [
+              191,
+              246
+            ],
+            "trimOffsetMm": [
+              3,
+              3
+            ]
+          },
+          {
+            "folio": 6,
+            "verso": true,
+            "minTypePt": 7.3500000000000005,
+            "safeInsetMm": {
+              "left": 5,
+              "right": 17,
+              "top": 5,
+              "bottom": 5
+            },
+            "trimMm": [
+              185,
+              240
+            ],
+            "mediaMm": [
+              191,
+              246
+            ],
+            "trimOffsetMm": [
+              3,
+              3
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "units": "metric",
+      "pdf": "output/pdf/contents-update/contents-metric.pdf",
+      "sha256": "5217327c3f4f08464fca6a0a5447b6b3a6515fcd5951c55b17b93998d4be0639",
+      "html": "docs/publication/contents-update/metric.html",
+      "htmlSha256": "3c2cfcb292cf988e6bd9452b0698bad65329c5c00e662e6eb2e592a438608982",
+      "references": [
+        {
+          "type": "vegetable",
+          "key": "artichoke_jerusalem",
+          "label": "Artichoke, Jerusalem",
+          "startPage": 10
+        },
+        {
+          "type": "vegetable",
+          "key": "beetroot",
+          "label": "Beetroot",
+          "startPage": 12
+        },
+        {
+          "type": "vegetable",
+          "key": "carrot",
+          "label": "Carrot",
+          "startPage": 14
+        },
+        {
+          "type": "vegetable",
+          "key": "celeriac",
+          "label": "Celeriac",
+          "startPage": 18
+        },
+        {
+          "type": "vegetable",
+          "key": "kohl_rabi",
+          "label": "Kohl Rabi",
+          "startPage": 20
+        },
+        {
+          "type": "vegetable",
+          "key": "parsnip",
+          "label": "Parsnip",
+          "startPage": 22
+        },
+        {
+          "type": "vegetable",
+          "key": "potato",
+          "label": "Potato",
+          "startPage": 24
+        },
+        {
+          "type": "vegetable",
+          "key": "radish",
+          "label": "Radish",
+          "startPage": 26
+        },
+        {
+          "type": "vegetable",
+          "key": "salsify_scorzonera",
+          "label": "Salsify & Scorzonera",
+          "startPage": 28
+        },
+        {
+          "type": "vegetable",
+          "key": "swede",
+          "label": "Swede",
+          "startPage": 30
+        },
+        {
+          "type": "vegetable",
+          "key": "turnip",
+          "label": "Turnip",
+          "startPage": 32
+        },
+        {
+          "type": "vegetable",
+          "key": "broccoli",
+          "label": "Broccoli",
+          "startPage": 34
+        },
+        {
+          "type": "vegetable",
+          "key": "brussels_sprouts",
+          "label": "Brussels Sprouts",
+          "startPage": 36
+        },
+        {
+          "type": "vegetable",
+          "key": "cabbage",
+          "label": "Cabbage",
+          "startPage": 38
+        },
+        {
+          "type": "vegetable",
+          "key": "cauliflower",
+          "label": "Cauliflower",
+          "startPage": 40
+        },
+        {
+          "type": "vegetable",
+          "key": "kale",
+          "label": "Kale",
+          "startPage": 42
+        },
+        {
+          "type": "vegetable",
+          "key": "bean_broad",
+          "label": "Bean, Broad",
+          "startPage": 44
+        },
+        {
+          "type": "vegetable",
+          "key": "bean_french",
+          "label": "Bean, French",
+          "startPage": 46
+        },
+        {
+          "type": "vegetable",
+          "key": "bean_runner",
+          "label": "Bean, Runner",
+          "startPage": 48
+        },
+        {
+          "type": "vegetable",
+          "key": "pea",
+          "label": "Pea",
+          "startPage": 50
+        },
+        {
+          "type": "vegetable",
+          "key": "beet_leaf",
+          "label": "Beet, Leaf",
+          "startPage": 52
+        },
+        {
+          "type": "vegetable",
+          "key": "chicory",
+          "label": "Chicory",
+          "startPage": 54
+        },
+        {
+          "type": "vegetable",
+          "key": "endive",
+          "label": "Endive",
+          "startPage": 56
+        },
+        {
+          "type": "vegetable",
+          "key": "lettuce",
+          "label": "Lettuce",
+          "startPage": 58
+        },
+        {
+          "type": "vegetable",
+          "key": "oriental_leaves",
+          "label": "Oriental Leaves",
+          "startPage": 60
+        },
+        {
+          "type": "vegetable",
+          "key": "spinach",
+          "label": "Spinach",
+          "startPage": 62
+        },
+        {
+          "type": "vegetable",
+          "key": "garlic",
+          "label": "Garlic",
+          "startPage": 64
+        },
+        {
+          "type": "vegetable",
+          "key": "leek",
+          "label": "Leek",
+          "startPage": 66
+        },
+        {
+          "type": "vegetable",
+          "key": "onion_shallot",
+          "label": "Onions and Shallots",
+          "startPage": 68
+        },
+        {
+          "type": "vegetable",
+          "key": "aubergine",
+          "label": "Aubergine",
+          "startPage": 72
+        },
+        {
+          "type": "vegetable",
+          "key": "capsicum",
+          "label": "Capsicum",
+          "startPage": 74
+        },
+        {
+          "type": "vegetable",
+          "key": "marrow_courgette",
+          "label": "Courgettes and Marrows",
+          "startPage": 76
+        },
+        {
+          "type": "vegetable",
+          "key": "cucumber_greenhouse",
+          "label": "Cucumber, Greenhouse",
+          "startPage": 78
+        },
+        {
+          "type": "vegetable",
+          "key": "cucumber_outdoor",
+          "label": "Cucumber, Outdoor",
+          "startPage": 80
+        },
+        {
+          "type": "vegetable",
+          "key": "squash_pumpkin",
+          "label": "Squashes and Pumpkins",
+          "startPage": 82
+        },
+        {
+          "type": "vegetable",
+          "key": "sweet_corn",
+          "label": "Sweet Corn",
+          "startPage": 84
+        },
+        {
+          "type": "vegetable",
+          "key": "tomato_greenhouse",
+          "label": "Tomato, Greenhouse",
+          "startPage": 86
+        },
+        {
+          "type": "vegetable",
+          "key": "tomato_outdoor",
+          "label": "Tomato, Outdoor",
+          "startPage": 90
+        },
+        {
+          "type": "vegetable",
+          "key": "artichoke_globe",
+          "label": "Artichoke, Globe",
+          "startPage": 94
+        },
+        {
+          "type": "vegetable",
+          "key": "asparagus",
+          "label": "Asparagus",
+          "startPage": 96
+        },
+        {
+          "type": "vegetable",
+          "key": "celery",
+          "label": "Celery",
+          "startPage": 98
+        },
+        {
+          "type": "vegetable",
+          "key": "florence_fennel",
+          "label": "Florence Fennel",
+          "startPage": 100
+        },
+        {
+          "type": "vegetable",
+          "key": "rhubarb",
+          "label": "Rhubarb",
+          "startPage": 102
+        },
+        {
+          "type": "vegetable",
+          "key": "mushroom",
+          "label": "Mushroom",
+          "startPage": 104
+        },
+        {
+          "type": "trouble",
+          "key": "bean_and_pea_troubles",
+          "label": "Bean and Pea",
+          "startPage": 106
+        },
+        {
+          "type": "trouble",
+          "key": "beetroot_troubles",
+          "label": "Beetroot",
+          "startPage": 110
+        },
+        {
+          "type": "trouble",
+          "key": "brassica_troubles",
+          "label": "Brassica",
+          "startPage": 112
+        },
+        {
+          "type": "trouble",
+          "key": "carrot_and_parsnip_troubles",
+          "label": "Carrot and Parsnip",
+          "startPage": 118
+        },
+        {
+          "type": "trouble",
+          "key": "celery_troubles",
+          "label": "Celery",
+          "startPage": 121
+        },
+        {
+          "type": "trouble",
+          "key": "cucurbit_troubles",
+          "label": "Cucurbit",
+          "startPage": 123
+        },
+        {
+          "type": "trouble",
+          "key": "florence_fennel_troubles",
+          "label": "Florence Fennel",
+          "startPage": 128
+        },
+        {
+          "type": "trouble",
+          "key": "lettuce_troubles",
+          "label": "Lettuce",
+          "startPage": 129
+        },
+        {
+          "type": "trouble",
+          "key": "onion_and_leek_troubles",
+          "label": "Onion & Leek",
+          "startPage": 132
+        },
+        {
+          "type": "trouble",
+          "key": "oriental_leaves_troubles",
+          "label": "Oriental Leaves",
+          "startPage": 135
+        },
+        {
+          "type": "trouble",
+          "key": "potato_troubles",
+          "label": "Potato",
+          "startPage": 137
+        },
+        {
+          "type": "trouble",
+          "key": "spinach_troubles",
+          "label": "Spinach",
+          "startPage": 142
+        },
+        {
+          "type": "trouble",
+          "key": "tomato_troubles",
+          "label": "Tomato",
+          "startPage": 144
+        },
+        {
+          "type": "trouble",
+          "key": "turnip_swede_radish_troubles",
+          "label": "Turnip, Swede & Radish",
+          "startPage": 149
+        },
+        {
+          "source": "opening:welcome",
+          "label": "Welcome and author",
+          "startPage": 3
+        },
+        {
+          "source": "opening:how-to",
+          "label": "How to use this book",
+          "startPage": 7
+        },
+        {
+          "source": "technique:why-grow",
+          "label": "Why Grow Your Own",
+          "startPage": 9
+        },
+        {
+          "source": "technique:organic",
+          "label": "The core ideas",
+          "startPage": 151
+        },
+        {
+          "source": "technique:plot-location",
+          "label": "Start with the right spot",
+          "startPage": 152
+        },
+        {
+          "source": "technique:plot-layout",
+          "label": "Beds and paths that work for you",
+          "startPage": 153
+        },
+        {
+          "source": "technique:plot-layout-branching",
+          "label": "Finger and leaf patterns",
+          "startPage": 154
+        },
+        {
+          "source": "cultivation:overview",
+          "label": "Compare the two methods",
+          "startPage": 155
+        },
+        {
+          "source": "cultivation:no-dig",
+          "label": "No-dig vegetable growing",
+          "startPage": 156
+        },
+        {
+          "source": "cultivation:digging",
+          "label": "Single and double digging",
+          "startPage": 157
+        },
+        {
+          "source": "cultivation:digging-finish",
+          "label": "Finishing the bed and smothering",
+          "startPage": 158
+        },
+        {
+          "source": "technique:greenhouse-choose",
+          "label": "What, where & how big?",
+          "startPage": 159
+        },
+        {
+          "source": "technique:greenhouse-beds",
+          "label": "Pots, grobags and raised beds",
+          "startPage": 160
+        },
+        {
+          "source": "technique:greenhouse-no-dig-seasons",
+          "label": "Floor-level no-dig and the seasons",
+          "startPage": 161
+        },
+        {
+          "source": "technique:rotation",
+          "label": "Simple crop rotation",
+          "startPage": 162
+        },
+        {
+          "source": "technique:compost-bins",
+          "label": "The secret’s in the bin",
+          "startPage": 163
+        },
+        {
+          "source": "technique:compost-use",
+          "label": "Feed it, leave it, use it",
+          "startPage": 164
+        },
+        {
+          "source": "technique:watering",
+          "label": "Water the roots, not the calendar",
+          "startPage": 165
+        },
+        {
+          "source": "technique:sowing",
+          "label": "Sowing and planting",
+          "startPage": 166
+        },
+        {
+          "source": "back:index",
+          "label": "Index",
+          "description": "Look up a crop, a problem or a technique by name.",
+          "startPage": 167
+        }
+      ],
+      "dom": [
+        {
+          "folio": 4,
+          "footerClearanceMm": 10.893391927083334,
+          "blocks": [
+            {
+              "text": "YOUR GUIDE TO THE COLLECTION",
+              "left": 7.99951171875,
+              "right": 104.00192057291666,
+              "top": 11.997200520833333,
+              "bottom": 15.833658854166666
+            },
+            {
+              "text": "What's inside.",
+              "left": 7.99951171875,
+              "right": 104.00192057291666,
+              "top": 18.4794921875,
+              "bottom": 30.195572916666663
+            },
+            {
+              "text": "44 vegetable guides · 14 Troubles guides",
+              "left": 7.911411980787913,
+              "right": 73.40248876810074,
+              "top": 32.78158472379048,
+              "bottom": 42.074830055236816
+            },
+            {
+              "text": "Each vegetable guide gives you two or more pages of practical growing advice, with separate Troubles guides for more detailed help.",
+              "left": 7.99951171875,
+              "right": 103.99778645833332,
+              "top": 44.39625651041666,
+              "bottom": 59.35348307291667
+            },
+            {
+              "text": "Root Crops",
+              "left": 7.99951171875,
+              "right": 83.49671223958333,
+              "top": 68.99423828124999,
+              "bottom": 77.89085286458332
+            },
+            {
+              "text": "Artichoke, Jerusalem10",
+              "left": 7.99951171875,
+              "right": 83.49671223958333,
+              "top": 79.47835286458333,
+              "bottom": 86.47327473958332
+            },
+            {
+              "text": "Beetroot12",
+              "left": 7.99951171875,
+              "right": 83.49671223958333,
+              "top": 86.47327473958332,
+              "bottom": 93.46819661458333
+            },
+            {
+              "text": "Carrot14",
+              "left": 7.99951171875,
+              "right": 83.49671223958333,
+              "top": 93.46819661458333,
+              "bottom": 100.46311848958334
+            },
+            {
+              "text": "Celeriac18",
+              "left": 7.99951171875,
+              "right": 83.49671223958333,
+              "top": 100.46311848958334,
+              "bottom": 107.45804036458333
+            },
+            {
+              "text": "Kohl Rabi20",
+              "left": 7.99951171875,
+              "right": 83.49671223958333,
+              "top": 107.45804036458333,
+              "bottom": 114.45296223958333
+            },
+            {
+              "text": "Parsnip22",
+              "left": 7.99951171875,
+              "right": 83.49671223958333,
+              "top": 114.45296223958333,
+              "bottom": 121.44788411458332
+            },
+            {
+              "text": "Potato24",
+              "left": 7.99951171875,
+              "right": 83.49671223958333,
+              "top": 121.44788411458332,
+              "bottom": 128.44280598958332
+            },
+            {
+              "text": "Radish26",
+              "left": 7.99951171875,
+              "right": 83.49671223958333,
+              "top": 128.44280598958332,
+              "bottom": 135.4377278645833
+            },
+            {
+              "text": "Salsify & Scorzonera28",
+              "left": 7.99951171875,
+              "right": 83.49671223958333,
+              "top": 135.4377278645833,
+              "bottom": 142.43264973958333
+            },
+            {
+              "text": "Swede30",
+              "left": 7.99951171875,
+              "right": 83.49671223958333,
+              "top": 142.43264973958333,
+              "bottom": 149.42757161458334
+            },
+            {
+              "text": "Turnip32",
+              "left": 7.99951171875,
+              "right": 83.49671223958333,
+              "top": 149.42757161458334,
+              "bottom": 156.42249348958333
+            },
+            {
+              "text": "Brassicas",
+              "left": 7.99951171875,
+              "right": 83.49671223958333,
+              "top": 161.4206380208333,
+              "bottom": 170.31725260416667
+            },
+            {
+              "text": "Broccoli34",
+              "left": 7.99951171875,
+              "right": 83.49671223958333,
+              "top": 171.90475260416667,
+              "bottom": 178.89967447916663
+            },
+            {
+              "text": "Brussels Sprouts36",
+              "left": 7.99951171875,
+              "right": 83.49671223958333,
+              "top": 178.89967447916663,
+              "bottom": 185.89459635416665
+            },
+            {
+              "text": "Cabbage38",
+              "left": 7.99951171875,
+              "right": 83.49671223958333,
+              "top": 185.89459635416665,
+              "bottom": 192.88951822916667
+            },
+            {
+              "text": "Cauliflower40",
+              "left": 7.99951171875,
+              "right": 83.49671223958333,
+              "top": 192.88951822916667,
+              "bottom": 199.88444010416666
+            },
+            {
+              "text": "Kale42",
+              "left": 7.99951171875,
+              "right": 83.49671223958333,
+              "top": 199.88444010416666,
+              "bottom": 206.87936197916665
+            },
+            {
+              "text": "Peas & Beans",
+              "left": 92.49667968749999,
+              "right": 167.99801432291665,
+              "top": 68.99423828124999,
+              "bottom": 77.89085286458332
+            },
+            {
+              "text": "Bean, Broad44",
+              "left": 92.49667968749999,
+              "right": 167.99801432291665,
+              "top": 79.47835286458333,
+              "bottom": 86.47327473958332
+            },
+            {
+              "text": "Bean, French46",
+              "left": 92.49667968749999,
+              "right": 167.99801432291665,
+              "top": 86.47327473958332,
+              "bottom": 93.46819661458333
+            },
+            {
+              "text": "Bean, Runner48",
+              "left": 92.49667968749999,
+              "right": 167.99801432291665,
+              "top": 93.46819661458333,
+              "bottom": 100.46311848958334
+            },
+            {
+              "text": "Pea50",
+              "left": 92.49667968749999,
+              "right": 167.99801432291665,
+              "top": 100.46311848958334,
+              "bottom": 107.45804036458333
+            },
+            {
+              "text": "Salads & Leaves",
+              "left": 92.49667968749999,
+              "right": 167.99801432291665,
+              "top": 112.45618489583332,
+              "bottom": 121.35279947916666
+            },
+            {
+              "text": "Beet, Leaf52",
+              "left": 92.49667968749999,
+              "right": 167.99801432291665,
+              "top": 122.94029947916665,
+              "bottom": 129.93522135416666
+            },
+            {
+              "text": "Chicory54",
+              "left": 92.49667968749999,
+              "right": 167.99801432291665,
+              "top": 129.93522135416666,
+              "bottom": 136.93014322916665
+            },
+            {
+              "text": "Endive56",
+              "left": 92.49667968749999,
+              "right": 167.99801432291665,
+              "top": 136.93014322916665,
+              "bottom": 143.92506510416666
+            },
+            {
+              "text": "Lettuce58",
+              "left": 92.49667968749999,
+              "right": 167.99801432291665,
+              "top": 143.92506510416666,
+              "bottom": 150.91998697916665
+            },
+            {
+              "text": "Oriental Leaves60",
+              "left": 92.49667968749999,
+              "right": 167.99801432291665,
+              "top": 150.91998697916665,
+              "bottom": 157.91490885416667
+            },
+            {
+              "text": "Spinach62",
+              "left": 92.49667968749999,
+              "right": 167.99801432291665,
+              "top": 157.91490885416667,
+              "bottom": 164.90983072916666
+            },
+            {
+              "text": "Onion Family",
+              "left": 92.49667968749999,
+              "right": 167.99801432291665,
+              "top": 169.90797526041666,
+              "bottom": 178.80458984375
+            },
+            {
+              "text": "Garlic64",
+              "left": 92.49667968749999,
+              "right": 167.99801432291665,
+              "top": 180.39208984375,
+              "bottom": 187.38701171875002
+            },
+            {
+              "text": "Leek66",
+              "left": 92.49667968749999,
+              "right": 167.99801432291665,
+              "top": 187.38701171875002,
+              "bottom": 194.38193359374998
+            },
+            {
+              "text": "Onions and Shallots68",
+              "left": 92.49667968749999,
+              "right": 167.99801432291665,
+              "top": 194.38193359374998,
+              "bottom": 201.37685546875
+            },
+            {
+              "text": "Vegetable and Troubles contents continue opposite. Other sections are on page 6.",
+              "left": 7.99951171875,
+              "right": 164.99664713541665,
+              "top": 212.87796223958333,
+              "bottom": 217.4792317708333
+            },
+            {
+              "text": "THE VEGETABLE GURUMETRIC · 4",
+              "left": 7.99951171875,
+              "right": 167.99801432291665,
+              "top": 228.37262369791665,
+              "bottom": 231.99824218749998
+            }
+          ],
+          "images": [
+            {
+              "src": "/docs/front-matter/entry-pages/studies/assets/harvest-cluster.png",
+              "loaded": true
+            }
+          ]
+        },
+        {
+          "folio": 5,
+          "footerClearanceMm": 5.8042968749999995,
+          "blocks": [
+            {
+              "text": "CONTENTS · CONTINUED",
+              "left": 16.999479166666664,
+              "right": 113.00188802083333,
+              "top": 11.997200520833333,
+              "bottom": 15.833658854166666
+            },
+            {
+              "text": "What's inside.",
+              "left": 16.999479166666664,
+              "right": 113.00188802083333,
+              "top": 18.4794921875,
+              "bottom": 29.104166666666668
+            },
+            {
+              "text": "More vegetable guides and the illustrated Troubles section.",
+              "left": 16.999479166666664,
+              "right": 106.99915364583332,
+              "top": 32.543749999999996,
+              "bottom": 42.515234375
+            },
+            {
+              "text": "Fruiting Crops",
+              "left": 16.999479166666664,
+              "right": 92.49667968749999,
+              "top": 60.9947265625,
+              "bottom": 69.89134114583332
+            },
+            {
+              "text": "Aubergine72",
+              "left": 16.999479166666664,
+              "right": 92.49667968749999,
+              "top": 71.47884114583333,
+              "bottom": 78.47376302083333
+            },
+            {
+              "text": "Capsicum74",
+              "left": 16.999479166666664,
+              "right": 92.49667968749999,
+              "top": 78.47376302083333,
+              "bottom": 85.46868489583333
+            },
+            {
+              "text": "Courgettes and Marrows76",
+              "left": 16.999479166666664,
+              "right": 92.49667968749999,
+              "top": 85.46868489583333,
+              "bottom": 92.46360677083334
+            },
+            {
+              "text": "Cucumber, Greenhouse78",
+              "left": 16.999479166666664,
+              "right": 92.49667968749999,
+              "top": 92.46360677083334,
+              "bottom": 99.45852864583333
+            },
+            {
+              "text": "Cucumber, Outdoor80",
+              "left": 16.999479166666664,
+              "right": 92.49667968749999,
+              "top": 99.45852864583333,
+              "bottom": 106.45345052083333
+            },
+            {
+              "text": "Squashes and Pumpkins82",
+              "left": 16.999479166666664,
+              "right": 92.49667968749999,
+              "top": 106.45345052083333,
+              "bottom": 113.44837239583332
+            },
+            {
+              "text": "Sweet Corn84",
+              "left": 16.999479166666664,
+              "right": 92.49667968749999,
+              "top": 113.44837239583332,
+              "bottom": 120.44329427083333
+            },
+            {
+              "text": "Tomato, Greenhouse86",
+              "left": 16.999479166666664,
+              "right": 92.49667968749999,
+              "top": 120.44329427083333,
+              "bottom": 127.43821614583332
+            },
+            {
+              "text": "Tomato, Outdoor90",
+              "left": 16.999479166666664,
+              "right": 92.49667968749999,
+              "top": 127.43821614583332,
+              "bottom": 134.43313802083333
+            },
+            {
+              "text": "Stalks & Shoots",
+              "left": 16.999479166666664,
+              "right": 92.49667968749999,
+              "top": 139.43128255208333,
+              "bottom": 148.32789713541666
+            },
+            {
+              "text": "Artichoke, Globe94",
+              "left": 16.999479166666664,
+              "right": 92.49667968749999,
+              "top": 149.91539713541667,
+              "bottom": 156.91031901041666
+            },
+            {
+              "text": "Asparagus96",
+              "left": 16.999479166666664,
+              "right": 92.49667968749999,
+              "top": 156.91031901041666,
+              "bottom": 163.90524088541665
+            },
+            {
+              "text": "Celery98",
+              "left": 16.999479166666664,
+              "right": 92.49667968749999,
+              "top": 163.90524088541665,
+              "bottom": 170.90016276041663
+            },
+            {
+              "text": "Florence Fennel100",
+              "left": 16.999479166666664,
+              "right": 92.49667968749999,
+              "top": 170.90016276041663,
+              "bottom": 177.89508463541665
+            },
+            {
+              "text": "Rhubarb102",
+              "left": 16.999479166666664,
+              "right": 92.49667968749999,
+              "top": 177.89508463541665,
+              "bottom": 184.89000651041667
+            },
+            {
+              "text": "Other",
+              "left": 16.999479166666664,
+              "right": 92.49667968749999,
+              "top": 189.88815104166667,
+              "bottom": 198.78476562499998
+            },
+            {
+              "text": "Mushroom104",
+              "left": 16.999479166666664,
+              "right": 92.49667968749999,
+              "top": 200.37226562499998,
+              "bottom": 207.3671875
+            },
+            {
+              "text": "Troubles guides",
+              "left": 105.4943359375,
+              "right": 173.00029296875002,
+              "top": 65.99287109375,
+              "bottom": 73.13662109375
+            },
+            {
+              "text": "Bean and Pea106",
+              "left": 105.4943359375,
+              "right": 173.00029296875002,
+              "top": 77.13430989583333,
+              "bottom": 84.79069010416666
+            },
+            {
+              "text": "Beetroot110",
+              "left": 105.4943359375,
+              "right": 173.00029296875002,
+              "top": 84.79069010416666,
+              "bottom": 92.44707031249999
+            },
+            {
+              "text": "Brassica112",
+              "left": 105.4943359375,
+              "right": 173.00029296875002,
+              "top": 92.44707031249999,
+              "bottom": 100.10345052083333
+            },
+            {
+              "text": "Carrot and Parsnip118",
+              "left": 105.4943359375,
+              "right": 173.00029296875002,
+              "top": 100.10345052083333,
+              "bottom": 107.75983072916665
+            },
+            {
+              "text": "Celery121",
+              "left": 105.4943359375,
+              "right": 173.00029296875002,
+              "top": 107.75983072916665,
+              "bottom": 115.4162109375
+            },
+            {
+              "text": "Cucurbit123",
+              "left": 105.4943359375,
+              "right": 173.00029296875002,
+              "top": 115.4162109375,
+              "bottom": 123.07259114583333
+            },
+            {
+              "text": "Florence Fennel128",
+              "left": 105.4943359375,
+              "right": 173.00029296875002,
+              "top": 123.07259114583333,
+              "bottom": 130.72897135416665
+            },
+            {
+              "text": "Lettuce129",
+              "left": 105.4943359375,
+              "right": 173.00029296875002,
+              "top": 130.72897135416665,
+              "bottom": 138.3853515625
+            },
+            {
+              "text": "Onion & Leek132",
+              "left": 105.4943359375,
+              "right": 173.00029296875002,
+              "top": 138.3853515625,
+              "bottom": 146.0417317708333
+            },
+            {
+              "text": "Oriental Leaves135",
+              "left": 105.4943359375,
+              "right": 173.00029296875002,
+              "top": 146.0417317708333,
+              "bottom": 153.69811197916667
+            },
+            {
+              "text": "Potato137",
+              "left": 105.4943359375,
+              "right": 173.00029296875002,
+              "top": 153.69811197916667,
+              "bottom": 161.3544921875
+            },
+            {
+              "text": "Spinach142",
+              "left": 105.4943359375,
+              "right": 173.00029296875002,
+              "top": 161.3544921875,
+              "bottom": 169.01087239583333
+            },
+            {
+              "text": "Tomato144",
+              "left": 105.4943359375,
+              "right": 173.00029296875002,
+              "top": 169.01087239583333,
+              "bottom": 176.66725260416663
+            },
+            {
+              "text": "Turnip, Swede & Radish149",
+              "left": 105.4943359375,
+              "right": 173.00029296875002,
+              "top": 176.66725260416663,
+              "bottom": 184.3236328125
+            },
+            {
+              "text": "Cucurbit Troubles covers cucumber, courgette, marrow, squash and pumpkin; Brassica Troubles includes several leafy and root crops. Check the crop labels beside each condition. More contents overleaf.",
+              "left": 16.999479166666664,
+              "right": 173.99661458333333,
+              "top": 213.36578776041665,
+              "bottom": 222.56832682291665
+            },
+            {
+              "text": "THE VEGETABLE GURUMETRIC · 5",
+              "left": 16.999479166666664,
+              "right": 176.99798177083332,
+              "top": 228.37262369791665,
+              "bottom": 231.99824218749998
+            }
+          ],
+          "images": [
+            {
+              "src": "/docs/front-matter/entry-pages/studies/assets/harvest-cluster.png",
+              "loaded": true
+            }
+          ]
+        },
+        {
+          "folio": 6,
+          "footerClearanceMm": 5.304069010416666,
+          "blocks": [
+            {
+              "text": "CONTENTS · CONTINUED",
+              "left": 7.99951171875,
+              "right": 104.00192057291666,
+              "top": 11.997200520833333,
+              "bottom": 15.833658854166666
+            },
+            {
+              "text": "More to grow on.",
+              "left": 7.99951171875,
+              "right": 104.00192057291666,
+              "top": 18.4794921875,
+              "bottom": 29.104166666666668
+            },
+            {
+              "text": "Practical ideas for getting started and looking after your plot.",
+              "left": 7.99951171875,
+              "right": 103.99778645833332,
+              "top": 32.543749999999996,
+              "bottom": 37.5294921875
+            },
+            {
+              "text": "Getting started",
+              "left": 11.997200520833333,
+              "right": 164.00032552083334,
+              "top": 52.99108072916666,
+              "bottom": 59.274934895833326
+            },
+            {
+              "text": "Welcome and author3",
+              "left": 11.997200520833333,
+              "right": 59.332812499999996,
+              "top": 61.27171223958333,
+              "bottom": 67.81188151041665
+            },
+            {
+              "text": "How to use this book7",
+              "left": 64.33095703125,
+              "right": 111.66656901041665,
+              "top": 61.27171223958333,
+              "bottom": 67.81188151041665
+            },
+            {
+              "text": "Why Grow Your Own9",
+              "left": 116.66471354166667,
+              "right": 164.00032552083334,
+              "top": 61.27171223958333,
+              "bottom": 67.81188151041665
+            },
+            {
+              "text": "Growing Techniques",
+              "left": 7.99951171875,
+              "right": 167.99801432291665,
+              "top": 76.80771484374999,
+              "bottom": 84.52197265625
+            },
+            {
+              "text": "Organic growing",
+              "left": 7.99951171875,
+              "right": 83.49671223958333,
+              "top": 88.51966145833332,
+              "bottom": 96.85817057291666
+            },
+            {
+              "text": "The core ideas151",
+              "left": 7.99951171875,
+              "right": 83.49671223958333,
+              "top": 97.91650390625,
+              "bottom": 104.91142578124999
+            },
+            {
+              "text": "Your vegetable plot",
+              "left": 7.99951171875,
+              "right": 83.49671223958333,
+              "top": 107.90865885416666,
+              "bottom": 116.24716796874999
+            },
+            {
+              "text": "Start with the right spot152",
+              "left": 7.99951171875,
+              "right": 83.49671223958333,
+              "top": 117.30550130208333,
+              "bottom": 124.30042317708332
+            },
+            {
+              "text": "Beds and paths that work for you153",
+              "left": 7.99951171875,
+              "right": 83.49671223958333,
+              "top": 124.30042317708332,
+              "bottom": 131.29534505208332
+            },
+            {
+              "text": "Finger and leaf patterns154",
+              "left": 7.99951171875,
+              "right": 83.49671223958333,
+              "top": 131.29534505208332,
+              "bottom": 138.2902669270833
+            },
+            {
+              "text": "Cultivation: Dig or No-Dig",
+              "left": 7.99951171875,
+              "right": 83.49671223958333,
+              "top": 141.2875,
+              "bottom": 149.62600911458333
+            },
+            {
+              "text": "Compare the two methods155",
+              "left": 7.99951171875,
+              "right": 83.49671223958333,
+              "top": 150.68434244791666,
+              "bottom": 157.67926432291665
+            },
+            {
+              "text": "No-dig vegetable growing156",
+              "left": 7.99951171875,
+              "right": 83.49671223958333,
+              "top": 157.67926432291665,
+              "bottom": 164.67418619791667
+            },
+            {
+              "text": "Single and double digging157",
+              "left": 7.99951171875,
+              "right": 83.49671223958333,
+              "top": 164.67418619791667,
+              "bottom": 171.66910807291666
+            },
+            {
+              "text": "Finishing the bed and smothering158",
+              "left": 7.99951171875,
+              "right": 83.49671223958333,
+              "top": 171.66910807291666,
+              "bottom": 178.66402994791667
+            },
+            {
+              "text": "Greenhouses",
+              "left": 92.49667968749999,
+              "right": 167.99801432291665,
+              "top": 88.51966145833332,
+              "bottom": 96.85817057291666
+            },
+            {
+              "text": "What, where & how big?159",
+              "left": 92.49667968749999,
+              "right": 167.99801432291665,
+              "top": 97.91650390625,
+              "bottom": 104.91142578124999
+            },
+            {
+              "text": "Pots, grobags and raised beds160",
+              "left": 92.49667968749999,
+              "right": 167.99801432291665,
+              "top": 104.91142578124999,
+              "bottom": 111.90634765624999
+            },
+            {
+              "text": "Floor-level no-dig and the seasons161",
+              "left": 92.49667968749999,
+              "right": 167.99801432291665,
+              "top": 111.90634765624999,
+              "bottom": 118.90126953124998
+            },
+            {
+              "text": "Crop rotation",
+              "left": 92.49667968749999,
+              "right": 167.99801432291665,
+              "top": 121.89850260416665,
+              "bottom": 130.23701171874998
+            },
+            {
+              "text": "Simple crop rotation162",
+              "left": 92.49667968749999,
+              "right": 167.99801432291665,
+              "top": 131.29534505208332,
+              "bottom": 138.2902669270833
+            },
+            {
+              "text": "Making compost",
+              "left": 92.49667968749999,
+              "right": 167.99801432291665,
+              "top": 141.2875,
+              "bottom": 149.62600911458333
+            },
+            {
+              "text": "The secret’s in the bin163",
+              "left": 92.49667968749999,
+              "right": 167.99801432291665,
+              "top": 150.68434244791666,
+              "bottom": 157.67926432291665
+            },
+            {
+              "text": "Feed it, leave it, use it164",
+              "left": 92.49667968749999,
+              "right": 167.99801432291665,
+              "top": 157.67926432291665,
+              "bottom": 164.67418619791667
+            },
+            {
+              "text": "Watering, sowing and planting",
+              "left": 92.49667968749999,
+              "right": 167.99801432291665,
+              "top": 167.67141927083333,
+              "bottom": 176.00992838541666
+            },
+            {
+              "text": "Water the roots, not the calendar165",
+              "left": 92.49667968749999,
+              "right": 167.99801432291665,
+              "top": 177.06826171875,
+              "bottom": 184.06318359374998
+            },
+            {
+              "text": "Sowing and planting166",
+              "left": 92.49667968749999,
+              "right": 167.99801432291665,
+              "top": 184.06318359374998,
+              "bottom": 191.05810546875
+            },
+            {
+              "text": "Index167",
+              "left": 11.997200520833333,
+              "right": 164.00032552083334,
+              "top": 198.05302734375002,
+              "bottom": 206.8752278645833
+            },
+            {
+              "text": "Look up a crop, a problem or a technique by name.",
+              "left": 11.997200520833333,
+              "right": 164.00032552083334,
+              "top": 207.87154947916665,
+              "bottom": 212.47281901041666
+            },
+            {
+              "text": "Numbers show the first page of each guide or topic.",
+              "left": 7.99951171875,
+              "right": 164.99664713541665,
+              "top": 218.46728515625,
+              "bottom": 223.06855468749998
+            },
+            {
+              "text": "THE VEGETABLE GURUMETRIC · 6",
+              "left": 7.99951171875,
+              "right": 167.99801432291665,
+              "top": 228.37262369791665,
+              "bottom": 231.99824218749998
+            }
+          ],
+          "images": [
+            {
+              "src": "/docs/front-matter/entry-pages/studies/assets/harvest-cluster.png",
+              "loaded": true
+            }
+          ]
+        }
+      ],
+      "geometry": {
+        "width": 191,
+        "height": 246,
+        "pages": [
+          {
+            "folio": 4,
+            "verso": true,
+            "minTypePt": 7.3500000000000005,
+            "safeInsetMm": {
+              "left": 5,
+              "right": 17,
+              "top": 5,
+              "bottom": 5
+            },
+            "trimMm": [
+              185,
+              240
+            ],
+            "mediaMm": [
+              191,
+              246
+            ],
+            "trimOffsetMm": [
+              3,
+              3
+            ]
+          },
+          {
+            "folio": 5,
+            "verso": false,
+            "minTypePt": 7.3500000000000005,
+            "safeInsetMm": {
+              "left": 17,
+              "right": 5,
+              "top": 5,
+              "bottom": 5
+            },
+            "trimMm": [
+              185,
+              240
+            ],
+            "mediaMm": [
+              191,
+              246
+            ],
+            "trimOffsetMm": [
+              3,
+              3
+            ]
+          },
+          {
+            "folio": 6,
+            "verso": true,
+            "minTypePt": 7.3500000000000005,
+            "safeInsetMm": {
+              "left": 5,
+              "right": 17,
+              "top": 5,
+              "bottom": 5
+            },
+            "trimMm": [
+              185,
+              240
+            ],
+            "mediaMm": [
+              191,
+              246
+            ],
+            "trimOffsetMm": [
+              3,
+              3
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "protectedFilesUnchanged": true,
+  "implementation": {
+    "scripts/build-updated-contents.mjs": "112090868b89d47c20252a126c1e322f5e4f7ec526ff065dea8baaccfc16ed9d",
+    "scripts/lib/book-contents.mjs": "b9dd198c64697ad5143fa7753db49a09a475a9462a4ed87e66c00973b46ba51f",
+    "scripts/lib/book-content.mjs": "4f6b2de01ee6ef51b1392ceb6a97f8dff3273e3b9870855d4d5cbdb738921c2e",
+    "docs/publication/contents-update/contents.css": "e81ff19378c3e1284143fed30869b36703a42ababcb526961a14f5706cf9e8d7",
+    "docs/publication/vegetable-guru-entry-pages/entry-pages.css": "9796fac872f5e80f95799912f2da7dd690734dffa2b7af7336f0b8bcd8c39d43",
+    "src/print/familyThemes.json": "e4c1dbb5d9d77a0060d518d4c751ec23f7282e6b89ea2d05ebe2c451812bc4df"
+  },
+  "assemblyProposalSha256": "ed87b14811b5050eaf55906654dda59eab54980a0f36ce67fb4d2820c1808e98"
+}

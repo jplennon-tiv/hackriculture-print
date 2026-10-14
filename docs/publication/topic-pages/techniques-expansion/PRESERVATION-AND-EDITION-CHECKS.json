@@ -1,0 +1,256 @@
+{
+  "date": "2026-10-09",
+  "latestRevision": "GREENHOUSE-HIERARCHY.json",
+  "approvedReferences": [
+    {
+      "receipt": "WHY-GROW-APPROVAL.json",
+      "filesVerified": 9
+    },
+    {
+      "receipt": "PLOT-LOCATION-APPROVAL.json",
+      "filesVerified": 9
+    },
+    {
+      "receipt": "BEDS-PATHS-APPROVAL.json",
+      "filesVerified": 14
+    }
+  ],
+  "firstFourPageContentStreams": [
+    {
+      "units": "imperial",
+      "pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unchanged": true
+    },
+    {
+      "units": "metric",
+      "pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unchanged": true
+    }
+  ],
+  "downstreamParityChecks": [
+    {
+      "units": "imperial",
+      "oldPage": 7,
+      "newPage": 8,
+      "bodyAndSourceTextTypeVerticalGeometryUnchanged": true,
+      "horizontalShiftMm": -9.0
+    },
+    {
+      "units": "imperial",
+      "oldPage": 8,
+      "newPage": 9,
+      "bodyAndSourceTextTypeVerticalGeometryUnchanged": true,
+      "horizontalShiftMm": 9.0
+    },
+    {
+      "units": "imperial",
+      "oldPage": 9,
+      "newPage": 10,
+      "bodyAndSourceTextTypeVerticalGeometryUnchanged": true,
+      "horizontalShiftMm": -9.0
+    },
+    {
+      "units": "imperial",
+      "oldPage": 10,
+      "newPage": 11,
+      "bodyAndSourceTextTypeVerticalGeometryUnchanged": true,
+      "horizontalShiftMm": 9.0
+    },
+    {
+      "units": "imperial",
+      "oldPage": 11,
+      "newPage": 12,
+      "bodyAndSourceTextTypeVerticalGeometryUnchanged": true,
+      "horizontalShiftMm": -9.0
+    },
+    {
+      "units": "imperial",
+      "oldPage": 12,
+      "newPage": 13,
+      "bodyAndSourceTextTypeVerticalGeometryUnchanged": true,
+      "horizontalShiftMm": 9.0
+    },
+    {
+      "units": "metric",
+      "oldPage": 7,
+      "newPage": 8,
+      "bodyAndSourceTextTypeVerticalGeometryUnchanged": true,
+      "horizontalShiftMm": -9.0
+    },
+    {
+      "units": "metric",
+      "oldPage": 8,
+      "newPage": 9,
+      "bodyAndSourceTextTypeVerticalGeometryUnchanged": true,
+      "horizontalShiftMm": 9.0
+    },
+    {
+      "units": "metric",
+      "oldPage": 9,
+      "newPage": 10,
+      "bodyAndSourceTextTypeVerticalGeometryUnchanged": true,
+      "horizontalShiftMm": -9.0
+    },
+    {
+      "units": "metric",
+      "oldPage": 10,
+      "newPage": 11,
+      "bodyAndSourceTextTypeVerticalGeometryUnchanged": true,
+      "horizontalShiftMm": 9.0
+    },
+    {
+      "units": "metric",
+      "oldPage": 11,
+      "newPage": 12,
+      "bodyAndSourceTextTypeVerticalGeometryUnchanged": true,
+      "horizontalShiftMm": -9.0
+    },
+    {
+      "units": "metric",
+      "oldPage": 12,
+      "newPage": 13,
+      "bodyAndSourceTextTypeVerticalGeometryUnchanged": true,
+      "horizontalShiftMm": 9.0
+    }
+  ],
+  "editionComparison": [
+    {
+      "reviewPage": 1,
+      "readingAreaExcludingEditionFooterPixelIdentical": true,
+      "differenceBoundsPx": null
+    },
+    {
+      "reviewPage": 2,
+      "readingAreaExcludingEditionFooterPixelIdentical": true,
+      "differenceBoundsPx": null
+    },
+    {
+      "reviewPage": 3,
+      "readingAreaExcludingEditionFooterPixelIdentical": false,
+      "differenceBoundsPx": [
+        123,
+        1132,
+        1022,
+        1178
+      ]
+    },
+    {
+      "reviewPage": 4,
+      "readingAreaExcludingEditionFooterPixelIdentical": true,
+      "differenceBoundsPx": null
+    },
+    {
+      "reviewPage": 5,
+      "readingAreaExcludingEditionFooterPixelIdentical": true,
+      "differenceBoundsPx": null
+    },
+    {
+      "reviewPage": 6,
+      "readingAreaExcludingEditionFooterPixelIdentical": false,
+      "differenceBoundsPx": [
+        538,
+        629,
+        989,
+        648
+      ]
+    },
+    {
+      "reviewPage": 7,
+      "readingAreaExcludingEditionFooterPixelIdentical": true,
+      "differenceBoundsPx": null
+    },
+    {
+      "reviewPage": 8,
+      "readingAreaExcludingEditionFooterPixelIdentical": true,
+      "differenceBoundsPx": null
+    },
+    {
+      "reviewPage": 9,
+      "readingAreaExcludingEditionFooterPixelIdentical": true,
+      "differenceBoundsPx": null
+    },
+    {
+      "reviewPage": 10,
+      "readingAreaExcludingEditionFooterPixelIdentical": true,
+      "differenceBoundsPx": null
+    },
+    {
+      "reviewPage": 11,
+      "readingAreaExcludingEditionFooterPixelIdentical": true,
+      "differenceBoundsPx": null
+    },
+    {
+      "reviewPage": 12,
+      "readingAreaExcludingEditionFooterPixelIdentical": true,
+      "differenceBoundsPx": null
+    },
+    {
+      "reviewPage": 13,
+      "readingAreaExcludingEditionFooterPixelIdentical": true,
+      "differenceBoundsPx": null
+    }
+  ],
+  "canonicalRecordsReadUnchanged": [
+    "/Users/johnlennon/Documents/web_site/hackriculture-data/vegetables/lettuce/lettuce.json",
+    "/Users/johnlennon/Documents/web_site/hackriculture-data/vegetables/carrot/carrot.json",
+    "/Users/johnlennon/Documents/web_site/hackriculture-data/vegetables/pea/pea.json",
+    "/Users/johnlennon/Documents/web_site/hackriculture-data/vegetables/cabbage/cabbage.json",
+    "/Users/johnlennon/Documents/web_site/hackriculture-data/vegetables/onion_shallot/onion_shallot.json",
+    "/Users/johnlennon/Documents/web_site/hackriculture-data/vegetables/tomato_greenhouse/tomato_greenhouse.json",
+    "/Users/johnlennon/Documents/web_site/hackriculture-data/troubles/brassica_troubles/brassica_troubles.json",
+    "/Users/johnlennon/Documents/web_site/hackriculture-data/troubles/onion_and_leek_troubles/onion_and_leek_troubles.json",
+    "/Users/johnlennon/Documents/web_site/hackriculture-data/troubles/tomato_troubles/tomato_troubles.json"
+  ],
+  "latestRefinement": {
+    "unchangedPdfPages": [
+      {
+        "units": "imperial",
+        "pages": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "contentStreamsUnchanged": true
+      },
+      {
+        "units": "metric",
+        "pages": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "contentStreamsUnchanged": true
+      }
+    ],
+    "approvedReferenceHashesRechecked": true,
+    "page7ReadingAreasPixelIdentical": true
+  }
+}

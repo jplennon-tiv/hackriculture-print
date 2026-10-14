@@ -1,0 +1,66 @@
+{
+  "date": "2026-10-09",
+  "scope": "Start with the right spot; replace Look below the surface with John’s supplied copy",
+  "status": "supplied copy applied and both editions checked; plot section remains for John’s review",
+  "beforeCopySha256": "9919a9c7d710f2adee2ba91a00927d96b697c81073ff1c19766bf429eb625ed6",
+  "afterCopySha256": "5b418a42456f638c042a94ddb29ff0ac88df265c67c890dc7826b693b5027538",
+  "changedField": "pages[1].blocks[1].text",
+  "before": "Visit after rain and notice where water stands. On unfamiliar ground, inspect a few small holes for rubble and compacted soil before choosing dig or no-dig. My advice in Sophia’s new garden was to clear the buried building debris first. A covering of compost would not make that debris disappear.",
+  "after": "Visit after rain and notice where water stands. On unfamiliar ground, dig a few small holes and inspect the soil for rubble and compacted soil before choosing dig or no-dig. In a new build home, for example, look first for buried building debris. A covering of compost would not make that debris disappear - it would have to be removed.",
+  "suppliedCopyPreserved": true,
+  "otherPagesSourceUnchanged": true,
+  "whyGrowApproval": "WHY-GROW-APPROVAL.json",
+  "proofs": [
+    {
+      "units": "imperial",
+      "beforePdfSha256": "fd9989ee3c95a94bddf78e95bf071bd5cb3fd6fe02a0f61d3fde682d73baf219",
+      "pagesReexported": [
+        2
+      ],
+      "reusedContentStreamSha256": {
+        "1": "538372d75d045403ce14344a77d6c5fc36b5dab1d1fe7bf3bbab0a864ea25ffc",
+        "3": "1bd3e84387233b330e711c1bb43526179071c589a0f52acf8fa4ca595bfa5a35",
+        "4": "4fdf2a1c6a60903df652c9b0d3f394828cae7ab98c8ae86113c0bf7111db77eb",
+        "5": "18a1dae7a5a5da1b04c887ac5c0fda575a9ea9620faa0171dac9d37e4d01b798",
+        "6": "cc343447e326c41d25b62ee2db195cd13ae472bf71da40c4a7dafcedf2903499",
+        "7": "cf7454a50eef757f64b6254939632580ac6e57cbd5c3d5ac9ae411bfe04b39eb",
+        "8": "59b4ac94f4d64714a1fc550705b82bd7e0cb2494a4980387db920f65d4e9778e",
+        "9": "c23a205614aa063482b27b9328b7dec1dbbfc3b7eee0785d047f840c74b6121c",
+        "10": "c4c136bb6355f20554de7cd071383584b2a4bb896b5819dfd00cb88ab263ba23",
+        "11": "23709676c8079bce44b79359aa2bf69bae7439aa7a637658a86fd58c06f0bdc4"
+      },
+      "reusedContentStreamsIdentical": true,
+      "afterPdfSha256": "06f93bf4d9249320785341aa52440963ec295c501ddebd30481d55f19e382cd1"
+    },
+    {
+      "units": "metric",
+      "beforePdfSha256": "4a06d1901eb9ec489154b6bf836104197c73b2d62fe9d340e049e3900b5983c0",
+      "pagesReexported": [
+        2
+      ],
+      "reusedContentStreamSha256": {
+        "1": "f8e9c4c1e5cef095a7f42dd6ef80ffe62f8492f2f498ffa04fdabfe95eb6b565",
+        "3": "0e39b55fed14f22a723c4a81bd4fd07634b1312be9a80e3f4c431847d7a19d45",
+        "4": "342e27998824c5d2feebbab4f0eb8e8b4d89c1a68bb8d135cfaa0711188270af",
+        "5": "785561443d0dc0d75c8abbca415bcd601525cf3af93cafd99a387bd1a0094bfc",
+        "6": "7212ed2af07cdc13a0f7e01febbdfe86f9d178c35832802d6634cde5814318a2",
+        "7": "c8e8d140912d54379b8e06c0cdb974c4a81aaf65e61a031cf17364690c6fc044",
+        "8": "e1804a243cf4ad76bc05a0115b91a15a3a682d7e31907f8abbd3057c09fb9d13",
+        "9": "c1c05ad7c82e722ba82f9037834a9b96e303d33398e60310e15557299191e745",
+        "10": "4990429e3a81c30ac68f72f5f0caa64845111b336842b8ec65e3687d3bd1b6f1",
+        "11": "ed07398e362de9410bb4f868eeb8062dd3b7125cd3d070c657464fc5de579417"
+      },
+      "reusedContentStreamsIdentical": true,
+      "afterPdfSha256": "af85385098dd531e7e1eee7cc0ab26658bd7fd8b00b1b04e684309b1956cf8aa"
+    }
+  ],
+  "checks": {
+    "bothChangedActualPdfPagesVisuallyInspected": true,
+    "imperialPlotPairVisuallyInspected": true,
+    "bothUnitsReadingAreaPixelIdentical": true,
+    "allPdfTextRegionsMatch": true,
+    "sourceGapMm": 7.818,
+    "layoutTypeAndArtworkUnchanged": true,
+    "approvedWhyGrowPagePreserved": true
+  }
+}

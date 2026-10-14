@@ -25,6 +25,56 @@ and [approval hashes](../publication/book-pilot/DESIGN-APPROVAL.json). These
 protect the compact geometry and art direction; the following A4 sources retain
 their content/artwork provenance and their separate sheet-format approvals.
 
+## Growing Techniques: cultivation
+
+John approved the four **Cultivation: Dig or No-Dig** pages on 8 October 2026,
+including the labelled pros/cons table, two digging pages and separate smothering
+option. The [approval record](../publication/topic-pages/cultivation-dig-no-dig/APPROVAL.json)
+hashes exact frozen PDFs in both units, text, layout sources and four placed
+illustration groups. Preserve its `references/approved-2026-10-08/` files.
+[Editable working text](../../../hackriculture-resources/summaries/cultivation-dig-no-dig/copy.json)
+remains in the resource library; John's later edits need updated proofs.
+Book integration and final folios remain pending; this is page approval,
+not supplier or physical-proof approval.
+
+## Book index
+
+John approved the [four-page index](../publication/book-index/REVIEW.html) on
+12 October: design, 273 entries and 33 see references. The [approval record](../publication/book-index/APPROVAL.json) preserves exact copy, layout, resolver, PDF and renders.
+It reuses approved contents typography, palette and mirrored margins, with a
+text-only two-column composition. Editable words remain in shared
+`book-layout/index.json`. Final folios await integration; temporary T/C references
+do not establish final placement. No new artwork or existing asset replacement.
+
+## Extra opening and Growing Techniques pages
+
+The entire [thirteen-page expansion](../publication/topic-pages/techniques-expansion/REVIEW.html) is approved as complete on 12 October, including its final copy and Organic-second order. The [collection approval](../publication/topic-pages/techniques-expansion/COLLECTION-APPROVAL.json) preserves the final sources and both-unit proofs.
+
+Individual approval history and original page sources:
+
+- [Why Grow Your Own](../publication/topic-pages/techniques-expansion/WHY-GROW-APPROVAL.json), approved 9 October, including the harvest bowl.
+- [Start with the right spot](../publication/topic-pages/techniques-expansion/PLOT-LOCATION-APPROVAL.json), approved 9 October, including the starter plot.
+
+Their frozen reference folders preserve copy, both-unit proofs, layout and artwork.
+Both [Beds and paths pages](../publication/topic-pages/techniques-expansion/BEDS-PATHS-APPROVAL.json) are now approved, including conventional/keyhole artwork and branching v3. Preserve their frozen references. All three [Greenhouse pages](../publication/topic-pages/techniques-expansion/GREENHOUSE-APPROVAL.json) are also approved (9 October), with copy, artwork, layout and both-unit proofs frozen. The compost-bin overview (now page 10) is approved on 11 October, and the compost-use and Organic growing pages (now 11 and 2) on 12 October. [Watering Well](../publication/topic-pages/techniques-expansion/WATERING-APPROVAL.json), page 12, is also approved on 12 October, including its watering-check illustration and final copy. Preserve its frozen references. [Sowing and Planting](../publication/topic-pages/techniques-expansion/SOWING-APPROVAL.json), page 13, is approved on 12 October, with its sowing-sequence illustration and final copy preserved. Organic growing now follows Why Grow Your Own as page 2; the [order record](../publication/topic-pages/techniques-expansion/ORGANIC-PAGE-ORDER.json) maps current pages to the unchanged frozen approvals. The [artwork record](../publication/topic-pages/techniques-expansion/ARTWORK.json)
+indexes the original scenes and retained superseded compost drawing; the linked Beds and paths and greenhouse records bring the current collection to twelve placed raster assets.
+The approved [Beds and paths artwork](../publication/topic-pages/techniques-expansion/BEDS-PATHS-ARTWORK.html)
+shows conventional, keyhole and branching layouts beside direct approved hero
+references; prompts and hashes remain in its linked record. It replaces the flat
+finger-path plan at John's request. Branching v2 introduced a rectangular outer
+leaf-pattern bed; current v3 adds perpendicular, evenly spaced branches. Both
+superseded versions are retained in the same record. Three remaining editable diagrams cover the
+greenhouse footprint, crop-family sequence and nutrient return.
+The [visual receipt](../publication/topic-pages/techniques-expansion/VISUAL-REVIEW.json)
+records comparisons and review coverage. Editable copy stays in the resource library;
+approved cultivation sources and hero originals are preserved.
+
+The current [greenhouse artwork record](../publication/topic-pages/techniques-expansion/GREENHOUSE-ARTWORK.html) retains the brick-bed illustration and adds container-on-paving v2 and floor-level no-dig v2 with a low timber perimeter base. Prompts, generated sources and hashes are saved; these three illustrations are approved in the greenhouse composition. Superseded versions remain preserved.
+
+The [revised compost-bin artwork](../publication/topic-pages/techniques-expansion/COMPOST-ARTWORK.html) (11 October) gives each hero door two hinges and a distinct hasp, retaining wooden plank lids. Its [record](../publication/topic-pages/techniques-expansion/COMPOST-ARTWORK.json) saves the built-in generation prompt, direct style references, source and hashes. The brick/timber pair is reused unchanged from the [superseded construction pilot](../publication/topic-pages/compost-bins-pilot/ARTWORK.json), placed as two examples on the restored single page. John approved the final page and these placed assets on 11 October, including the curved stage arrows and final column swap. The [approval record](../publication/topic-pages/techniques-expansion/COMPOST-BINS-APPROVAL.json) preserves the copy, layout, artwork and both-unit proofs. All earlier artwork remains intact.
+
+The [compost-use page](../publication/topic-pages/techniques-expansion/COMPOST-USE-APPROVAL.json) is approved on 12 October with its final copy, original stacked composition and 30 mm `compost-mix-v1.png` illustration. Its frozen sources settle the image size; no further enlargement is pending. [Organic growing: the core ideas](../publication/topic-pages/techniques-expansion/ORGANIC-APPROVAL.json) is approved as is the same day, including its editable nutrient-return diagram. Preserve both-unit proofs, copy and layout references.
+
 ## Guide illustrations and retained A4 references
 
 Retained A4 vegetable-page design: [Richer A v1](../vegetable-style-pilot/fresh-c/RICH-A.html),
@@ -124,7 +174,8 @@ idea, the approved tomato/onion/pea/carrot/kale heroes, and the original harvest
 cluster. [Source hashes and decisions](../publication/vegetable-guru-opening-pages/CHECKS.json)
 record that reuse and the deliberate title-page simplification. Pages 1–3 use
 lipsum orum at John's request and remain unapproved; author/publication fields
-are placeholders. These are separate proofs, not installed full-book openings.
+are placeholders. The rough imperial preview includes copies with proposed
+replacement artwork; the earlier production books retain their older openings.
 
 ## Additional compact-book illustration stock
 
@@ -152,8 +203,13 @@ A4's two-page-crop wording and folios do not describe the new edition.
 
 The [compact adaptation approved on 7 October](../publication/vegetable-guru-entry-pages/REVIEW.html)
 reflows this design over book pages 4–5, with current Bookvault references in both
-units. Approval hashes are under `compactEntryPages` in the central manifest;
-the full books still contain older openings pending integration.
+units. Approval hashes are under `compactEntryPages` in the central manifest.
+The rough imperial preview includes copies with proposed H1/H2 header artwork;
+the earlier production books retain older openings pending integration.
+The [12 October contents update](../publication/contents-update/REVIEW.html)
+preserves this original harvest artwork and two-page composition, adds a third
+page for all new sections and updates references against a separate pagination
+proposal. Its new layout and order await review; the 7 October sources remain intact.
 
 ## Illustrated how-to
 

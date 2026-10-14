@@ -1,0 +1,89 @@
+{
+  "date": "2026-10-12",
+  "approvedBy": "John Lennon",
+  "authority": "Direct user message: “That’ll do - approved!” following the damp-not-soaked preview.",
+  "scope": "Compost-use page, local page 10: final copy including Mixed ingredients, Damp, not soaked, fork turning and combined sowing/potting-on mix; original stacked composition and 30 mm illustration.",
+  "reviewPages": [
+    10
+  ],
+  "pageIds": [
+    "compost-use"
+  ],
+  "workingCopy": "/Users/johnlennon/Documents/web_site/hackriculture-resources/summaries/techniques-expansion/copy.json",
+  "workingCopySha256": "bc151f7bdb23b3b8b2688df7a87b47fba57300e4a0f786f603474a3ecd538ef5",
+  "frozenReference": "docs/publication/topic-pages/techniques-expansion/references/compost-use-approved-2026-10-12",
+  "sourceCollectionProofs": [
+    {
+      "units": "imperial",
+      "path": "output/pdf/topic-pages/techniques-expansion-imperial-draft.pdf",
+      "sha256": "275edeee7612e55be1f73ce3535ba32523a24e5f094c638f79797816e530eba8",
+      "reviewPage": 10
+    },
+    {
+      "units": "metric",
+      "path": "output/pdf/topic-pages/techniques-expansion-metric-draft.pdf",
+      "sha256": "2d34266d56cb824604d8ea4c005421759810acdbc5a433880acf6aa01df00346",
+      "reviewPage": 10
+    }
+  ],
+  "files": [
+    {
+      "path": "docs/publication/topic-pages/techniques-expansion/references/compost-use-approved-2026-10-12/ARTWORK.json",
+      "sha256": "e60e9dfe3dac924f146101850e5b43eacf71619cb7eb213fbd13ae0c12e9f71d"
+    },
+    {
+      "path": "docs/publication/topic-pages/techniques-expansion/references/compost-use-approved-2026-10-12/CHECKS.json",
+      "sha256": "d8702c35aaa95b12d9f97d56aa3ab7b4548868822fbfe9769be77853b48d1880"
+    },
+    {
+      "path": "docs/publication/topic-pages/techniques-expansion/references/compost-use-approved-2026-10-12/COMPOST-USE-DAMP-REVISION.json",
+      "sha256": "4a9ecddf78eb48bbfb1d1dbe47ee7cfe3436b3255c6e8e18d99715cd2b626304"
+    },
+    {
+      "path": "docs/publication/topic-pages/techniques-expansion/references/compost-use-approved-2026-10-12/COMPOST-USE-REVISION.json",
+      "sha256": "2dd15e922727017d4cec7ff593631573e1548ae150788e0d1c6eb13e3f8f885b"
+    },
+    {
+      "path": "docs/publication/topic-pages/techniques-expansion/references/compost-use-approved-2026-10-12/VISUAL-REVIEW.json",
+      "sha256": "f4ada9945026617725dc0bee9e80a5e99aab3c1e896ee2690b5f2a00192c55c3"
+    },
+    {
+      "path": "docs/publication/topic-pages/techniques-expansion/references/compost-use-approved-2026-10-12/assets/compost-mix-v1.png",
+      "sha256": "931038e107eb185fedfc3a469af0b1c6deafeb49209bd5950341df0367e2aff7"
+    },
+    {
+      "path": "docs/publication/topic-pages/techniques-expansion/references/compost-use-approved-2026-10-12/build.mjs",
+      "sha256": "89a7c7b74acc2f0f48f7e8051f2aa5b362df2a1f88202d8d8a1052fa232a7de2"
+    },
+    {
+      "path": "docs/publication/topic-pages/techniques-expansion/references/compost-use-approved-2026-10-12/copy.json",
+      "sha256": "2b86229a3a725e0c35c2e436e7f9620ee9ab9075b2ab9bb1b68cba7d2af7ea42"
+    },
+    {
+      "path": "docs/publication/topic-pages/techniques-expansion/references/compost-use-approved-2026-10-12/draft.css",
+      "sha256": "222d9079e7e064f3ca5d3232aa50938ad9a088ebf41a0ba81a8586563728229d"
+    },
+    {
+      "path": "docs/publication/topic-pages/techniques-expansion/references/compost-use-approved-2026-10-12/imperial-10.png",
+      "sha256": "d0d2bcd7619410319298cd152d4078b9f43d7059438951392bd99f34e3346beb"
+    },
+    {
+      "path": "docs/publication/topic-pages/techniques-expansion/references/compost-use-approved-2026-10-12/imperial.pdf",
+      "sha256": "567d90aa2ed2394f63d055fa40ba42ac3adc062d9ba35826352474ec0627c3d6"
+    },
+    {
+      "path": "docs/publication/topic-pages/techniques-expansion/references/compost-use-approved-2026-10-12/metric-10.png",
+      "sha256": "53c6114967c3912cf5d159f1afdce049a7a1db583e066687930608138cc53b18"
+    },
+    {
+      "path": "docs/publication/topic-pages/techniques-expansion/references/compost-use-approved-2026-10-12/metric.pdf",
+      "sha256": "6b0c5cd3ceb18a3cf607d289597c7dd8821fff48af0736d7978fb807300b4b6d"
+    }
+  ],
+  "decision": "The current 30 mm illustration is accepted. No further copy cuts or restoration to the former 36 mm height are pending. The side-by-side introduction/image trial remains rejected.",
+  "limits": [
+    "Approval applies to page 10; page 9 has its separate approval dated 11 October.",
+    "Later draft sections, final book integration, folios and supplier/physical-proof approval are outside this decision."
+  ],
+  "verification": "Both extracted single-page PDFs retain source page content streams, media boxes and text exactly; existing actual-page renders retained."
+}

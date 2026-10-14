@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-11",
+  "status": "Revised single-page draft; not approved",
+  "generationTool": "image_gen.imagegen (built-in)",
+  "directStyleReferences": [
+    "public/images/heroes/richer-a/carrot.png",
+    "public/images/heroes/richer-a/beetroot.png"
+  ],
+  "assets": [
+    {
+      "file": "assets/compost-bins-hasps-v3.png",
+      "generatedSource": "/Users/johnlennon/.codex/generated_images/01a11b2c-8613-7d12-9755-a726a897df03/exec-c2c1c432-8e16-4f4a-a332-71e5218ccebd.png",
+      "editSource": "../compost-bins-pilot/assets/compost-bins-plank-lids-v1.png",
+      "prompt": "Use case: precise-object-edit.\nAsset type: wide hero illustration for The Vegetable Guru compost page.\nInput image 1 is the edit target and must remain almost identical. Input images 2 and 3 are the authoritative house-style references (carrot and beetroot); do not put vegetables from those references into the composition.\nChange ONLY the FRONT DOOR fittings on all THREE wooden doors. Each door needs exactly TWO existing green strap hinges on its LEFT edge, one near the top and one near the bottom, and ONE clearly different HASP-AND-STAPLE fastening at the middle of its RIGHT/free edge. The current right-side fittings wrongly look like a third hinge. Replace those three right-side fittings with recognisable rectangular flat green hasp straps crossing the door/jamb seam, each with an oblong slot over a small protruding staple/loop. No padlocks. The resulting hardware should read immediately as two hinges plus a hasp, never three identical hinges.\nPreserve the three connected brick bins, the wooden plank lids with underside battens, left and right lids open and middle closed, green waterproof upper surfaces, left fresh scraps, right mature compost, front-on perspective, all bricks, colours, broad graphic highlights, and complete wide silhouette. No new text, labels, extra tools or background.\nGenuinely transparent background, preserve alpha and full silhouette. Make the hasps clear at printed size.",
+      "sha256": "6b5cef88dd710da73c89aeb38e71ee98048c3b27de3c9e1a824dfa02469ed24a",
+      "pixels": [
+        2164,
+        726
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "file": "assets/compost-bin-options-v1.png",
+      "source": "../compost-bins-pilot/assets/compost-construction-pair-v2.png",
+      "promptRecord": "../compost-bins-pilot/ARTWORK.json",
+      "operation": "Byte-identical reuse of two existing brick/timber examples; instructional step copy omitted at John’s request.",
+      "sha256": "6466a2d943d1234ac50f1859e860a41dbd71d7544ce49136117dea7bd28da637",
+      "pixels": [
+        1774,
+        887
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ]
+    }
+  ],
+  "layoutReuse": "The paired image is shown through two CSS windows divided at the transparent gap (about 52.6% across), preserving each complete bin and the source aspect ratio. Source pixels unchanged.",
+  "review": [
+    "Three full bins retained; each door visibly has two left hinges and a distinct right hasp.",
+    "Plank seams and underside battens retained; left/right lids open, middle closed.",
+    "Cream actual-PDF and dark-green gallery inspected alongside direct carrot/beetroot references.",
+    "Brick and timber examples remain complete and separately captioned."
+  ],
+  "stageArrows": {
+    "source": "build.mjs: compost-bins rendering branch",
+    "layout": "draft.css: .stage-arrow",
+    "method": "Editable SVG; no raster generation",
+    "status": "Revised proposal for John’s review",
+    "design": "Gently curved broad arrow in deep orange, tapered rounded tail and a pale-orange highlight. Each is 10 × 5 mm, centred between stage headings."
+  }
+}

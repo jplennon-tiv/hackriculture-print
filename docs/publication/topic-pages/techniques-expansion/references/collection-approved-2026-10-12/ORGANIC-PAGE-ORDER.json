@@ -1,0 +1,161 @@
+{
+  "date": "2026-10-12",
+  "status": "Complete: Organic growing is review page 2; both-unit pagination and preservation checks passed",
+  "authority": "John requested the organic gardening page move to the second page.",
+  "beforeOrder": [
+    "why-grow",
+    "plot-location",
+    "plot-layout",
+    "plot-layout-branching",
+    "greenhouse-choose",
+    "greenhouse-beds",
+    "greenhouse-no-dig-seasons",
+    "rotation",
+    "compost-bins",
+    "compost-use",
+    "organic",
+    "watering",
+    "sowing"
+  ],
+  "afterOrder": [
+    "why-grow",
+    "organic",
+    "plot-location",
+    "plot-layout",
+    "plot-layout-branching",
+    "greenhouse-choose",
+    "greenhouse-beds",
+    "greenhouse-no-dig-seasons",
+    "rotation",
+    "compost-bins",
+    "compost-use",
+    "watering",
+    "sowing"
+  ],
+  "copyPath": "/Users/johnlennon/Documents/web_site/hackriculture-resources/summaries/techniques-expansion/copy.json",
+  "beforeSha256": "413ff3c55bf8087621fe0e263f7cb4a0b030c1b8956b74ed4f1a4fb20dc156ff",
+  "afterSha256": "7d3933e59396b4fa902227b04f3f76a5bdfc4b3416fe59b671ca2aa200b45a19",
+  "backupTransaction": "/Users/johnlennon/Documents/web_site/hackriculture-data/backups/admin/2026-10-12-organic-page-order-9fa44bd5-1f2a-44f4-b84a-e35352a910be",
+  "previousReview": "/Users/johnlennon/Documents/web_site/hackriculture-print/tmp/pdfs/techniques-before-organic-move",
+  "allPageObjectsUnchanged": true,
+  "changedReviewPages": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "fullBookRegenerated": false,
+  "mapping": [
+    {
+      "pageId": "why-grow",
+      "before": 1,
+      "after": 1
+    },
+    {
+      "pageId": "organic",
+      "before": 11,
+      "after": 2
+    },
+    {
+      "pageId": "plot-location",
+      "before": 2,
+      "after": 3
+    },
+    {
+      "pageId": "plot-layout",
+      "before": 3,
+      "after": 4
+    },
+    {
+      "pageId": "plot-layout-branching",
+      "before": 4,
+      "after": 5
+    },
+    {
+      "pageId": "greenhouse-choose",
+      "before": 5,
+      "after": 6
+    },
+    {
+      "pageId": "greenhouse-beds",
+      "before": 6,
+      "after": 7
+    },
+    {
+      "pageId": "greenhouse-no-dig-seasons",
+      "before": 7,
+      "after": 8
+    },
+    {
+      "pageId": "rotation",
+      "before": 8,
+      "after": 9
+    },
+    {
+      "pageId": "compost-bins",
+      "before": 9,
+      "after": 10
+    },
+    {
+      "pageId": "compost-use",
+      "before": 10,
+      "after": 11
+    },
+    {
+      "pageId": "watering",
+      "before": 12,
+      "after": 12
+    },
+    {
+      "pageId": "sowing",
+      "before": 13,
+      "after": 13
+    }
+  ],
+  "proofs": [
+    {
+      "units": "imperial",
+      "path": "output/pdf/topic-pages/techniques-expansion-imperial-draft.pdf",
+      "sha256": "ee41c201663e2c5215f170b538a76c7b98b16092c124342f7fd0d6788f8a2f42"
+    },
+    {
+      "units": "metric",
+      "path": "output/pdf/topic-pages/techniques-expansion-metric-draft.pdf",
+      "sha256": "89bbc47865e06a36dcae1f22c91a0089aee22068346cae2aa712d37a12c2faf9"
+    }
+  ],
+  "verification": {
+    "allPageObjectsUnchanged": true,
+    "allBodyAndSourcePdfCharactersPreserved": true,
+    "allBodyTextSizesAndVerticalPositionsPreserved": true,
+    "allEmbeddedIllustrationsPreserved": true,
+    "unchangedPagesReused": [
+      1,
+      12,
+      13
+    ],
+    "changedPagesRendered": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "frozenApprovalFilesVerified": 113,
+    "layoutSourcesUnchanged": true,
+    "copyRegionsVerifiedPerEdition": 228,
+    "previewLinksChecked": 44
+  },
+  "visualCoverage": "Organic page inspected at full size in both units against its approved source; imperial collection overview inspected for sequence and composition. All moved pages have full PDF text/position/image preservation checks. Final bound-book facing relationships remain undecided."
+}

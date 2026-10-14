@@ -1,0 +1,63 @@
+{
+  "status": "Draft for John's review; structure approved, not yet installed in the book",
+  "date": "2026-10-08",
+  "section": "Growing Techniques",
+  "topic": "Cultivation: Dig or No-Dig",
+  "provisionalFolios": [149, 150, 151],
+  "measurements": {
+    "startingCompost": {"metric": "10 cm", "imperial": "4 inches"},
+    "annualCompost": {"metric": "2.5–5 cm", "imperial": "1–2 inches"}
+  },
+  "overview": {
+    "title": "Dig or No-Dig",
+    "subtitle": "Choosing your approach",
+    "lead": "Both methods can grow a good crop. The useful question is which suits your ground, your compost supply and the amount of work you can manage. You can change your mind as the garden develops.",
+    "diagramCaptions": [
+      {"title": "Digging", "text": "Turn soil and mix in compost."},
+      {"title": "No-dig", "text": "Leave soil intact; compost on top."}
+    ],
+    "matrixTitle": "What are the trade-offs?",
+    "columns": ["Dig pro", "Dig con", "No-dig pro", "No-dig con"],
+    "rows": [
+      {"label": "Starting work", "digPro": "Loosens soil; exposes buried debris.", "digCon": "Hard physical work.", "noDigPro": "No need to turn the ground.", "noDigCon": "Compost still needs shifting."},
+      {"label": "Weeding", "digPro": "Lets you remove weed roots.", "digCon": "Brings buried weed seeds up.", "noDigPro": "Mulch smothers many weeds.", "noDigCon": "Persistent weeds need follow-up."},
+      {"label": "Compost & cost", "digPro": "Can start with less compost.", "digCon": "Still needs organic matter over time.", "noDigPro": "Feeds soil from the surface.", "noDigCon": "New beds need plenty of compost."},
+      {"label": "Tools & materials", "digPro": "Uses familiar hand tools.", "digCon": "Requires a spade or fork.", "noDigPro": "Permanent bed sides are optional.", "noDigCon": "Cardboard for a new weedy bed."},
+      {"label": "Soil & drainage", "digPro": "Can relieve compaction.", "digCon": "Cannot fix every drainage problem.", "noDigPro": "Leaves soil structure intact.", "noDigCon": "Does not cure every wet site."},
+      {"label": "In later years", "digPro": "Can switch to no-dig later.", "digCon": "Repeated digging disturbs soil life.", "noDigPro": "No annual turning of the soil.", "noDigCon": "Still weed, water and top up compost."}
+    ],
+    "closingTitle": "You needn’t join a camp",
+    "closing": "My own beds have taken both routes: digging first and changing to no-dig, or starting over lawn. Choose for your plot. In either system, work from paths to avoid treading the beds."
+  },
+  "noDig": {
+    "title": "Getting started with",
+    "method": "No-Dig",
+    "lead": "Here we are starting a small bed over grass or ordinary weeds. On an existing weed-free bed, you can leave out the cardboard and add compost straight to the surface.",
+    "kit": "Plain brown cardboard, well-rotted compost, rake, watering can and a trowel. A barrow saves carrying.",
+    "steps": [
+      {"title": "Cover the ground", "text": "Mark out a bed you can reach from the paths. Remove tape and staples from plain cardboard, then overlap the sheets generously so light cannot get through the joins. Wet dry cardboard to help it lie flat. Clear woody growth and rubbish first."},
+      {"title": "Add the compost", "text": "Spread about {startingCompost} of well-rotted compost over the cardboard. Break up lumps, remove woody pieces and firm gently with the back of a rake. Leave the soil underneath alone. Timber sides are optional; sloping edges will do."},
+      {"title": "Start growing", "text": "You can plant straight into the finished layer when the season suits your crop. For small seeds, use a little finer compost in the drill. Follow the crop’s guide for depth and spacing, and water in. Keep an eye out for weeds pushing through."}
+    ],
+    "careTitle": "Keep it going",
+    "care": "Add roughly {annualCompost} of compost each year when the bed is free. Pull small weeds promptly, stop grass creeping in at the edges and water when needed. No-dig saves turning the soil; it doesn’t do the rest of the gardening for you.",
+    "cautionTitle": "Watch out for",
+    "caution": "Persistent weeds may need repeated clearing or longer under cover. Fresh plant waste shelters slugs; use well-rotted compost. Investigate persistent waterlogging before you start."
+  },
+  "digging": {
+    "title": "Getting started with",
+    "method": "Digging",
+    "lead": "Single digging turns the topsoil to one spade’s depth. Use it on a cleared, workable plot; badly compacted ground needs more preparation than this short method can provide.",
+    "kit": "A digging spade or fork, rake and well-rotted compost. A barrow or sheet holds the first soil you lift.",
+    "steps": [
+      {"title": "Clear and begin", "text": "Remove turf, rubbish and persistent weed roots. Spread well-rotted compost where the soil needs organic matter. Dig a trench across one end, one spade wide and deep. Put this first soil aside; you will need it to fill the final gap."},
+      {"title": "Work along the bed", "text": "Turn the next strip of topsoil into the open trench, mixing in the compost. Break large clods and pick out weed roots as you go. Repeat along the bed, keeping the lower subsoil underneath. Fill the last trench with the soil you saved."},
+      {"title": "Settle and plant", "text": "Allow loosened soil to settle, then rake the surface level. For small seeds, break the top into fine crumbs. Sow or plant at the depth, spacing and time given in the crop’s guide. Water in, then keep on top of the new weeds."}
+    ],
+    "careTitle": "Keep it going",
+    "care": "Keep feeding the soil with compost and cultivate only where needed. Permanent paths help prevent compaction. If the bed becomes easy to work, try leaving it alone and adding compost on top. There is no need to dig simply because it is autumn.",
+    "cautionTitle": "Watch out for",
+    "caution": "Wait if soil is wet and sticky or frozen. Take small bites and regular breaks. Deep compaction or persistent waterlogging needs separate attention; neither a quick dig nor a compost dressing is a guaranteed cure."
+  },
+  "sourceNote": "John’s Hackriculture manuscript and videos; RHS and Charles Dowding. Full sources accompany this draft. Diagrams are schematic."
+}

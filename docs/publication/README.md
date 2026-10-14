@@ -1,6 +1,7 @@
 # Publication research and production evidence
 
-Updated 7 October 2026. This document owns dated supplier research and cost
+Documentation updated 9 October 2026; supplier research retains its stated dates.
+This document owns dated supplier research and cost
 assumptions. **Current scope, decisions, component status and next actions are
 maintained in [the handover](../handover/START-HERE.md).** Do not treat older
 recommendations or quote specifications as a current work queue.
@@ -12,6 +13,41 @@ for the latest combined view: G2/B5 covers, seven updated opening pages and the
 complete saved imperial interior. Its 152 PDF pages comprise 148 interior pages
 plus covers and blank inside covers; it is a screen review, not an upload file.
 The review page includes sample spreads and the next decisions.
+
+The separate [Cultivation: Dig or No-Dig pages](topic-pages/cultivation-dig-no-dig/REVIEW.html),
+[approved by John on 8 October](topic-pages/cultivation-dig-no-dig/APPROVAL.json),
+form the first Growing Techniques topic: four illustrated pages in
+both units, provisionally 149–152. John approved the 10 cm / 4 inch starting compost
+depth. At his request, digging now occupies
+two pages: annual single digging, initial/occasional double digging, and a final
+half-page on temporary smothering with a diagram. The latest revision adds matrix
+row headings, labels the final page “Digging — continued”, and separates smothering
+in a coloured panel as an option before either digging or no-dig. This
+focused draft is not yet included in the combined book or its contents.
+Its [checks](topic-pages/cultivation-dig-no-dig/CHECKS.json) and
+[source record](../../../hackriculture-resources/summaries/cultivation-dig-no-dig/research-notes.md)
+retain the evidence and editable-copy location.
+
+The current rolling review is the [restored one-page compost-bin overview](topic-pages/techniques-expansion/REVIEW.html#compost), revised on 11 October with John’s copy, corrected fittings, stage arrows and brick/timber examples. The construction pilot is superseded. Compost remains two pages total; the collection remains thirteen pages, with all other pages and approved references preserved.
+
+The [9 October expansion preview](topic-pages/techniques-expansion/REVIEW.html)
+contains thirteen review pages across all eight commissioned sections: one
+opening candidate and twelve Growing Techniques pages. Both unit PDFs have actual
+page, text and visual checks. Thirteen placed illustrations and three editable diagrams
+support manuscript-led copy, with fifteen relevant video transcripts consulted.
+[Research and editable copy](../../../hackriculture-resources/summaries/techniques-expansion/research-notes.md),
+[checks](topic-pages/techniques-expansion/CHECKS.json) and
+[artwork provenance](topic-pages/techniques-expansion/ARTWORK.json) preserve the evidence.
+Why Grow Your Own has an approved baseline with a later impersonal-copy amendment; Start with the right spot and both Beds and paths pages are approved. All [three Greenhouse pages are approved](topic-pages/techniques-expansion/GREENHOUSE-APPROVAL.json), with frozen source references. Simple Crop Rotation is next in the rolling review; later sections remain drafts. No full-book integration. The former
+support-structures trial has been discarded at his request.
+
+Opening and future editable cover copy now live in the shared
+[book-layout JSON](../../../hackriculture-data/book-layout/README.md). The
+[handover's skill map](../handover/START-HERE.md#design-skills--use-before-design-work)
+identifies required design/layout/artwork skills; shared JSON work uses
+[hackriculture-data](../../../hackriculture-data/.agents/skills/hackriculture-data/SKILL.md).
+Copy edits rebuild separate working proofs; they do not automatically update
+the combined preview, production books or raster cover lettering.
 
 The earlier [technical review pack](book-preparation/REVIEW.html) retains the
 148-page imperial/metric drafts for KDP and Bookvault, with the older seven-page

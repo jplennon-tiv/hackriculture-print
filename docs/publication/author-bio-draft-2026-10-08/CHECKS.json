@@ -1,0 +1,157 @@
+{
+  "date": "2026-10-08T21:10:42.425Z",
+  "status": "Draft biography; existing welcome placeholders retained. Rough trim preview, not a production upload.",
+  "physicalFolio": 3,
+  "trimMm": [
+    185,
+    240
+  ],
+  "bookContent": {
+    "revision": "84d8d778d09371a7914f78b2603cf9ceb9639bea5b241a1de43d009ed676f751",
+    "inputs": {
+      "../hackriculture-data/book-layout/book.json": "d05b15d0879cd8376abe52298378b1a56ea95623041fbffa99d5e0a87f69d96c",
+      "../hackriculture-data/book-layout/covers.json": "3d346adc88d48aa954580e11e85a7d6e92d8959714f7e63729ab7323a44cc8bf",
+      "../hackriculture-data/book-layout/publication.json": "666bde7b034d90719b301a1cb3f5aa5c4a96520575a63dfbfa707ea811e1a2a2",
+      "../hackriculture-data/book-layout/introduction.json": "e9a954daf8c51916c9d1bf38418cd898d3fa5308ad07c544250c5e3d0f33358f",
+      "../hackriculture-data/book-layout/author.json": "244b1d0714c5b936f2ac5b8526c7f127996930609a0fc841b28a08edcd273176",
+      "../hackriculture-data/book-layout/contents.json": "2a8568bd7ff37e54c295eb85df4a381924eec875131a90bb9c100f5e97200327",
+      "../hackriculture-data/book-layout/how-to.json": "7f503f112a3eb227ef460252ea9efdac1179e913bc08d2a85420eb5b270aef84"
+    }
+  },
+  "artworkAllocation": {
+    "header": "H3",
+    "author": "S1",
+    "status": "Reused from current rough preview; placements remain proposed"
+  },
+  "sources": {
+    "docs/publication/vegetable-guru-opening-pages/opening-pages.css": "d49606c938ed3581de14b69bd5f96154c39e54a831719525ab774eda65ceabc8",
+    "docs/publication/bookvault-progress-preview/opening-imperial.html": "1c3d383d050fd415c126c0fbf611e33420be87633550270ae79dfb9e571dd480",
+    "docs/publication/vegetable-guru-opening-pages/imperial.html": "190602e1e7f971c5dab8f73a40321b43dbc4c3cfd0065b5cdb3b8e080f07f8fc",
+    "docs/assets/vegetable-guru-stock/assets/h3-summer-courgettes-hero-style-v2.png": "2c323438f823b9c6b8cde927160a6bc6fe37486d09fda3d20cb7a343a709e475",
+    "docs/assets/vegetable-guru-stock/assets/s1-beans-blossom-hero-style-v4.png": "e281d75d2f64d797ed9eba60554d8d1f3655133bc3ed965a0d498e26176de3b0"
+  },
+  "results": [
+    {
+      "units": "imperial",
+      "html": "docs/publication/author-bio-draft-2026-10-08/imperial.html",
+      "sheets": 1,
+      "widthMm": 184.99749348958332,
+      "heightMm": 239.99775390624998,
+      "footerClearanceMm": 4.8121093749999995,
+      "overflow": [],
+      "fonts": [
+        true,
+        true
+      ],
+      "bio": "John Lennon has been growing food organically since 1989. With a background in software design and engineering, he brings a tinkerer’s curiosity to his garden and allotment in Cornwall. Through his Hackriculture videos, he shares practical growing methods and the lessons learned along the way, including a few ideas that worked rather better on paper.",
+      "bioFontPx": "13px",
+      "authorPanelMm": {
+        "x": 16.999479166666664,
+        "y": 172.17760416666667,
+        "width": 159.99850260416665,
+        "height": 51.38291015625
+      },
+      "images": [
+        {
+          "src": "/docs/assets/vegetable-guru-stock/assets/h3-summer-courgettes-hero-style-v2.png",
+          "loaded": true
+        },
+        {
+          "src": "/docs/assets/vegetable-guru-stock/assets/s1-beans-blossom-hero-style-v4.png",
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "units": "metric",
+      "html": "docs/publication/author-bio-draft-2026-10-08/metric.html",
+      "sheets": 1,
+      "widthMm": 184.99749348958332,
+      "heightMm": 239.99775390624998,
+      "footerClearanceMm": 4.8121093749999995,
+      "overflow": [],
+      "fonts": [
+        true,
+        true
+      ],
+      "bio": "John Lennon has been growing food organically since 1989. With a background in software design and engineering, he brings a tinkerer’s curiosity to his garden and allotment in Cornwall. Through his Hackriculture videos, he shares practical growing methods and the lessons learned along the way, including a few ideas that worked rather better on paper.",
+      "bioFontPx": "13px",
+      "authorPanelMm": {
+        "x": 16.999479166666664,
+        "y": 172.17760416666667,
+        "width": 159.99850260416665,
+        "height": 51.38291015625
+      },
+      "images": [
+        {
+          "src": "/docs/assets/vegetable-guru-stock/assets/h3-summer-courgettes-hero-style-v2.png",
+          "loaded": true
+        },
+        {
+          "src": "/docs/assets/vegetable-guru-stock/assets/s1-beans-blossom-hero-style-v4.png",
+          "loaded": true
+        }
+      ]
+    }
+  ],
+  "protectedApprovedFiles": [
+    {
+      "path": "docs/publication/vegetable-guru-entry-pages/imperial.html",
+      "sha256": "27b14cf84d1957fa542648975218696e0d8243012b7898fba16b57eb4c913b96"
+    },
+    {
+      "path": "docs/publication/vegetable-guru-entry-pages/metric.html",
+      "sha256": "cb08ab308567359111afa5f6a68a4fea07bb2c8d2f9c523958e1d14c1e13421c"
+    },
+    {
+      "path": "docs/publication/vegetable-guru-entry-pages/entry-pages.css",
+      "sha256": "9796fac872f5e80f95799912f2da7dd690734dffa2b7af7336f0b8bcd8c39d43"
+    },
+    {
+      "path": "output/pdf/vegetable-guru-entry-pages/contents-how-to-imperial.pdf",
+      "sha256": "5ba9f43d00c326bab9e4705a320089ac261ca800abd7fe8992589bae980e2a4d"
+    },
+    {
+      "path": "output/pdf/vegetable-guru-entry-pages/contents-how-to-metric.pdf",
+      "sha256": "0e393c159c3e702e4ca7ecb39bd62a3fe25699df0317d345aec1d411100fab20"
+    }
+  ],
+  "pdf": {
+    "path": "output/pdf/author-bio-draft-2026-10-08/author-bio-preview.pdf",
+    "sha256": "6b1410f2f398a158997004e9d39e612ed4a24cf4fbb59717010432161847efed"
+  },
+  "sourcesUnchanged": true,
+  "visualReview": {
+    "status": "inspected",
+    "coverage": [
+      "Imperial actual PDF full page",
+      "Imperial author panel rendered from that PDF",
+      "Screen publication/welcome spread at physical folios 2–3"
+    ],
+    "findings": "Biography complete and readable, original 13px type retained, no overlaps or clipping; layout and stock art match the current rough preview. Surrounding copy remains placeholder text.",
+    "metricCoverage": "DOM fit, images, fonts and text only; no metric PDF generated",
+    "approval": "Pending John; no self-approval"
+  },
+  "pdfChecks": {
+    "pages": 1,
+    "trimMm": [
+      185,
+      240
+    ],
+    "browserPaperRoundingCorrectedWithoutScaling": true,
+    "completeBiography": true,
+    "authorNamePresent": true,
+    "fontsEmbedded": [
+      "None",
+      "None",
+      "/CAAAAA+LilitaOne",
+      "None",
+      "None",
+      "None",
+      "None",
+      "None"
+    ],
+    "minimumTextPt": 7.35,
+    "actualPdfRendered": true
+  }
+}

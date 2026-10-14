@@ -1,0 +1,73 @@
+{
+  "date": "2026-10-12",
+  "status": "Both-unit PDF and visual review complete; awaiting John’s review",
+  "priorRevision": "COMPOST-USE-REVISION.json",
+  "copyPath": "/Users/johnlennon/Documents/web_site/hackriculture-resources/summaries/techniques-expansion/copy.json",
+  "backupTransaction": "/Users/johnlennon/Documents/web_site/hackriculture-data/backups/admin/2026-10-12-compost-combined-mix-4593185a-b4a2-4355-bd54-4f69e7cc7c39",
+  "beforeSha256": "a45d6500787c3388c91a4fbfacdfdf888acbf3ac569be29e4c922e52ea9c64bc",
+  "afterSha256": "e7d96139cc98617f15b521561cf6940f3a4e436abf6d008c584033b1551892fc",
+  "changedPageId": "compost-use",
+  "reviewPage": 10,
+  "change": "For a sowing and potting-on mix → For a combined sowing and potting-on mix",
+  "beforeText": "Spread mature compost on no-dig beds, or incorporate it when preparing a dug bed. Keep it clear of established soft stems. For a sowing and potting-on mix, sieve equal volumes of good mature compost and garden topsoil and mix them thoroughly. Make in batches as needed; the mix does not store well. Try a small batch first: the ingredients vary from garden to garden.",
+  "afterText": "Spread mature compost on no-dig beds, or incorporate it when preparing a dug bed. Keep it clear of established soft stems. For a combined sowing and potting-on mix, sieve equal volumes of good mature compost and garden topsoil and mix them thoroughly. Make in batches as needed; the mix does not store well. Try a small batch first: the ingredients vary from garden to garden.",
+  "pdfBefore": [
+    {
+      "units": "imperial",
+      "sha256": "ebaeaf23364e619f447e88706808aa6989905d01acf621765c39568f4082da6f",
+      "backup": "/Users/johnlennon/Documents/web_site/hackriculture-print/tmp/pdfs/techniques-expansion-imperial-before-combined-mix.pdf",
+      "pageContentSha256": [
+        "2a5010e5ef5d28a72ecad871c08ad47180572239709e2c9fce166107a8f6409a",
+        "d0722839eda7cdfc82fb8d6ad8262a153f761977288d58b068c92e1ea247e460",
+        "b40b8f09a4a33841fa3a4765c0a777467d6a7e2c9a179f3f53463e8e10b97d7f",
+        "e7bd3af156018ae57c309ef91e1fe12d2113d4eee4691b531b21e99c99922c69",
+        "fda9a128eab80e4b97896efcf03b15d51270a5e528af4eb5c2823b98a30b7eae",
+        "9adf2181cc7faae92b2e90fb123fdbf13f7999eb54484b1f77fb1de7572dca9b",
+        "52bc6131c3ef45dacc06f7cdc260a853b209727bdcdefc23bbe536e65a307745",
+        "f131f8c86f48dfc712630e033e1498c9319a2f523454db81fbcda3e794d46811",
+        "a66914124a4f2022e966704e91ca28b0ec3a6e7b398025c30d06c3443c13f71b",
+        "aa1cb417efa58d1d96e52bab4aec9a1a1fbf05fab430143ad0e13ba33ba62a83",
+        "b14ce0be934664164ec4208067e9275bf17d75c53474ba61df55ae87c9c56793",
+        "7bcd3b902d4a77c059d7d76a91dc4c5978975c23ec126fa0ca31c18682dbd21a",
+        "baa2a46314a010e6d8617ac0dad73ecaba11678ae795fc1c55f39a369e76f450"
+      ]
+    },
+    {
+      "units": "metric",
+      "sha256": "750f3f552cee2bce60b033a09636d2ab8f58475c68c081e868bad03377132b7e",
+      "backup": "/Users/johnlennon/Documents/web_site/hackriculture-print/tmp/pdfs/techniques-expansion-metric-before-combined-mix.pdf",
+      "pageContentSha256": [
+        "7dc2a22c52ca7ca4842d911f055080a47ac8b68b4ea74a77786d7715edb7cc54",
+        "64879ea9c5e516c6354d68e01b37403f8fe47c4b152ae4c6448221eeb62e07fa",
+        "7f5a0455cfa2e9c7413481f87d443af85a237d15682c796c2ef656dcd2279a87",
+        "d4e510ddcf6a99db0911585b4c485cc2075b417fc3a31c94e2a0edd2c7151158",
+        "3d6c27e021a32521459ea1500568a3aa6158ebea13103f48dd69e256c525e89b",
+        "1aaf7d06a0d91e777527bc53e41338f2982c35e55ea6f9123c5365bcf8ef78f6",
+        "44ee35fe588605bebe3cca212f45fc203976ff01cf9d205b9e218c018d03fcfa",
+        "86c68c2380b8022067904ef21548a31842e4aeeb08e5a4a66bfceb4252fc9b49",
+        "f68dba4b1b4768570b8fee2afdf992656b4d62384b3a6536346f4826cca9e206",
+        "4c9ce038bca98c6cc5be4f3e2bdd8c30309c704ed54eb62eb956a791212b15c5",
+        "0089679e95cb70a0c7eb34431d4bab28b4f64a0d02251dd19b6c6c81aa0acb1a",
+        "73124035270a7a6e24d28a9d7487e84b9c964db811c55a84870f620cc5a35f54",
+        "23fbf7144f2158d439563d59ab24a2d34857022e42b657ad08045b601d71629c"
+      ]
+    }
+  ],
+  "proofs": [
+    {
+      "units": "imperial",
+      "sha256": "781bd431c374154d5ddc921ebd6ce676de1cfa418400356d35db0d7f4d2e31fc"
+    },
+    {
+      "units": "metric",
+      "sha256": "be6b46e05ba8e5fdae975c6792c9d2f60b50b8cfd1c690c19cd7ee11b273a1eb"
+    }
+  ],
+  "checks": "CHECKS.json",
+  "visual": "VISUAL-REVIEW.json",
+  "layout": "Unchanged layout and type; the additional word reflows within the existing closing panel.",
+  "sourceClearanceMm": 2.265,
+  "footerClearanceMm": 3.559,
+  "twelveOtherPageStreamsPerEditionUnchanged": true,
+  "page10ReadingAreasPixelIdentical": true
+}

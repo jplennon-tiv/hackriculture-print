@@ -1,0 +1,148 @@
+{
+  "status": "Draft; not installed or approved",
+  "date": "2026-10-08",
+  "results": [
+    {
+      "units": "imperial",
+      "path": "/Users/johnlennon/Documents/web_site/hackriculture-print/output/pdf/topic-pages/cultivation-dig-no-dig-imperial-draft.pdf",
+      "sha256": "765f1e0597fe3ee928b60e577e37c5eb3021ad082201d8042a781a6dbd57ddbd",
+      "pages": 4,
+      "trimMm": [
+        185,
+        240
+      ],
+      "originalBrowserPaperMm": [
+        [
+          184.82732627777776,
+          239.8606596111111
+        ],
+        [
+          184.82732627777776,
+          239.8606596111111
+        ],
+        [
+          184.82732627777776,
+          239.8606596111111
+        ],
+        [
+          184.82732627777776,
+          239.8606596111111
+        ]
+      ],
+      "paperBoxesNormalisedWithoutScaling": true,
+      "fontsEmbedded": [
+        "/BAAAAA+LilitaOne",
+        "Type3 embedded glyphs with Unicode mapping"
+      ],
+      "minimumTextPt": 7.042,
+      "copyBlocksVerifiedAgainstPdf": 88,
+      "pageFolios": [
+        149,
+        150,
+        151,
+        152
+      ],
+      "minimumDomFooterClearanceMm": 3.559,
+      "actualPdfRendered": true,
+      "visualReview": "Imperial changed pages inspected individually as actual PDF renders; both metric changed pages inspected in the actual-render pairing. Imperial 150–151 facing spread inspected. Pages 149–150 in both editions are pixel-identical to the previously reviewed proof.",
+      "mainInstructionTextPt": {
+        "digging": 9.3,
+        "finishing": 9.45,
+        "smothering": 9.0
+      },
+      "comparisonTablePt": 9
+    },
+    {
+      "units": "metric",
+      "path": "/Users/johnlennon/Documents/web_site/hackriculture-print/output/pdf/topic-pages/cultivation-dig-no-dig-metric-draft.pdf",
+      "sha256": "7c92459b2020f2dca68120f30cb2bf52692e8a85956fb277ea0acf356f901f7b",
+      "pages": 4,
+      "trimMm": [
+        185,
+        240
+      ],
+      "originalBrowserPaperMm": [
+        [
+          184.82732627777776,
+          239.8606596111111
+        ],
+        [
+          184.82732627777776,
+          239.8606596111111
+        ],
+        [
+          184.82732627777776,
+          239.8606596111111
+        ],
+        [
+          184.82732627777776,
+          239.8606596111111
+        ]
+      ],
+      "paperBoxesNormalisedWithoutScaling": true,
+      "fontsEmbedded": [
+        "/BAAAAA+LilitaOne",
+        "Type3 embedded glyphs with Unicode mapping"
+      ],
+      "minimumTextPt": 7.042,
+      "copyBlocksVerifiedAgainstPdf": 88,
+      "pageFolios": [
+        149,
+        150,
+        151,
+        152
+      ],
+      "minimumDomFooterClearanceMm": 3.559,
+      "actualPdfRendered": true,
+      "visualReview": "Imperial changed pages inspected individually as actual PDF renders; both metric changed pages inspected in the actual-render pairing. Imperial 150–151 facing spread inspected. Pages 149–150 in both editions are pixel-identical to the previously reviewed proof.",
+      "mainInstructionTextPt": {
+        "digging": 9.3,
+        "finishing": 9.45,
+        "smothering": 9.0
+      },
+      "comparisonTablePt": 9
+    }
+  ],
+  "revision": "Expanded digging and smothering, requested by John on 8 October 2026",
+  "printedContentWordsByEdition": {
+    "imperial": 1091,
+    "metric": 1091
+  },
+  "wordCountScope": "Whitespace-separated printed words including headings and step numbers; excludes footer/source note",
+  "illustrationGroups": 4,
+  "illustrationPanels": 10,
+  "provisionalPlacement": "Overview recto 149; no-dig verso 150; digging recto/verso 151–152. Only 150–151 is a facing spread; 151–152 pairing is consecutive-page review.",
+  "unchangedPagesPixelIdentity": {
+    "imperial-1.png": true,
+    "imperial-2.png": true,
+    "metric-1.png": true,
+    "metric-2.png": true
+  },
+  "priorReviewedReference": "references/four-column-reviewed/",
+  "canonicalRecordHashesStillMatchReadReceipt": true,
+  "reviewPageCheck": {
+    "allImagesLoaded": true,
+    "editionTogglePassed": true,
+    "pageErrors": [],
+    "smother": {
+      "startMm": 112.74143880208332,
+      "heightMm": 105.27522786458333
+    }
+  },
+  "limits": [
+    "Trim review PDFs, not bleed/upload files",
+    "No full-book contents, assembly, canonical data or author manuscript changed",
+    "No A4 or unrelated crop exports or app tests needed for this separate working layout",
+    "Final copy and new diagrams remain for John’s review"
+  ],
+  "referenceComparison": {
+    "approvedContext": "docs/publication/vegetable-guru-entry-pages/how-to-spread.png",
+    "retained": "Lilita/Nunito, cream/green/orange, open spacing, explanatory art; unchanged first two pages",
+    "newProposal": "Two digging pages with separate single-dig routine, five double-dig steps and lower-half smothering"
+  },
+  "documentationCheck": {
+    "localLinksChecked": 131,
+    "brokenLinks": [],
+    "gitWhitespaceCheckPassed": true
+  }
+}

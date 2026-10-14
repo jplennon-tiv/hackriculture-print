@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-12",
+  "status": "Sowing and Planting approved by John on 12 October; both-unit visual review complete.",
+  "actualPdfReview": {
+    "renderDpi": 150,
+    "imperial": "Final page 13 inspected at 150 dpi; full illustration, title, lead, three steps, salad panel and footnote fit without collisions or missing text.",
+    "metric": "Final page 13 inspected at 150 dpi; reading area pixel-identical to imperial.",
+    "copyVerification": "228 text regions verified in each thirteen-page PDF; fonts embedded and trim exactly 185 × 240 mm.",
+    "bodyTypePt": 9.45,
+    "minimumFooterClearanceMm": 3.559,
+    "changedPageSourceGapMm": 2.48
+  },
+  "designComparison": {
+    "sources": [
+      "Previous sowing page preserved by SOWING-REVISION.json / pdfBefore",
+      "docs/BOOK-DESIGN-SYSTEM.md",
+      "assets/sowing-sequence-v1.png"
+    ],
+    "retained": "Original illustration at 52 mm height, reading type size, three-step composition and green closing panel.",
+    "changes": [
+      "Added advice to delay planting in cold or wet weather, with initial In for grammatical British English.",
+      "Added greenhouse/windowsill setting for modules.",
+      "Reduced local vertical gaps to fit the expanded copy without reducing text or illustration size."
+    ]
+  },
+  "limits": "Final book integration and folios remain pending; separate rotation and Why Grow wording confirmations remain outstanding.",
+  "latestRevision": {
+    "date": "2026-10-12",
+    "pages": [
+      "sowing"
+    ],
+    "receipt": "SOWING-REVISION.json"
+  },
+  "approvals": [
+    "BEDS-PATHS-APPROVAL.json",
+    "COMPOST-BINS-APPROVAL.json",
+    "COMPOST-USE-APPROVAL.json",
+    "GREENHOUSE-APPROVAL.json",
+    "ORGANIC-APPROVAL.json",
+    "PLOT-LOCATION-APPROVAL.json",
+    "WATERING-APPROVAL.json",
+    "WHY-GROW-APPROVAL.json",
+    "SOWING-APPROVAL.json"
+  ],
+  "proofs": [
+    {
+      "units": "imperial",
+      "sha256": "779b038f087051baed88cada0aff8c98268b9321585969d372e35222a9bbe01e"
+    },
+    {
+      "units": "metric",
+      "sha256": "cc89dbdbf0ad889266fc7c41c07dd61844fe9adc47f91428e26a6d7daa4d7a13"
+    }
+  ],
+  "preservation": {
+    "twelveOtherPageStreamsPerEditionUnchanged": true,
+    "frozenApprovedSourceFilesVerified": 101
+  }
+}

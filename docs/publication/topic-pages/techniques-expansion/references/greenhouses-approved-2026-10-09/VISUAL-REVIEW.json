@@ -1,0 +1,67 @@
+{
+  "date": "2026-10-09",
+  "status": "Assistant proof review complete; Beds and paths approval recorded. Greenhouse revisions await John’s review.",
+  "actualPdfReview": {
+    "renderDpi": 150,
+    "imperial": "Latest page 7 inspected at 150 dpi and beside unchanged page 6. Twelve other pages reused with identical content streams.",
+    "metric": "Latest page 7 inspected at 150 dpi; reading area also verified pixel-identical to imperial. Twelve other pages reused unchanged.",
+    "pairedComposition": "Current options pairing 6–7 inspected in imperial. Seasonal peach panel reads separately from the no-dig method; final book placement remains undecided.",
+    "copyVerification": "231 text regions matched against each actual 13-page PDF; both editions have exact 185 × 240 mm boxes, embedded fonts and loaded artwork.",
+    "bodyTypePt": 9.45,
+    "smallestUprightSourceTypePt": 7.027,
+    "minimumFooterClearanceMm": 3.559,
+    "minimumSourceToBodyGapMm": 2.253,
+    "minimumPlacedRasterEffectiveDpi": 353
+  },
+  "designComparison": {
+    "sources": [
+      "docs/publication/vegetable-guru-entry-pages/how-to-spread.png",
+      "docs/BOOK-DESIGN-SYSTEM.md",
+      "docs/publication/topic-pages/cultivation-dig-no-dig/draft.css",
+      "public/images/heroes/richer-a/carrot.png",
+      "public/images/heroes/richer-a/beetroot.png"
+    ],
+    "retained": "185 × 240 mm trim, mirrored 17 mm inner and 8 mm outer margins, cream/forest/orange palette, Lilita headings and Nunito reading type, open sections, coloured emphasis and contained illustrations.",
+    "newProposals": "Three greenhouse pages: amended installation layout, two illustrated comparison rows, then one illustrated method with separate seasonal and care sections. Two new matching raster edits; retained raised-bed source.",
+    "artwork": "Existing raised-bed scene and actual approved carrot/beetroot heroes inspected directly. Container v1 corrected to a recognisable flat UK growbag. Final container v2 and no-dig v1 inspected in generated output and actual cream-paper PDFs. Whole objects remain contained, with distinguishable floor arrangements.",
+    "revisions": [
+      "Preserved the approved Beds and paths composition in a frozen reference before changes.",
+      "Used John’s exact requested assembly paragraph and title wording.",
+      "Separated three growing arrangements, using manuscript/video accounts for the two soil methods and online research for the container gap.",
+      "Moved root-disease advice into the page 6 coloured panel and separated seasonal crops from regular care on page 7.",
+      "Adjusted illustration/text allocation and spacing while preserving 9.45 pt main reading type.",
+      "Latest hierarchy: moved unchanged introductory paragraph below the no-dig heading, separated the renamed seasonal section in a peach panel, retained green care panel and all existing advice; reduced illustration allocation while keeping 9.45 pt main type."
+    ]
+  },
+  "factualDiagramChecks": [
+    "Container drawing: continuous paving, pots on braced wooden staging, tomato in a floor pot, flat growbag and accessible doorway; no plants through paving.",
+    "Raised-bed drawing: internal brick retaining edges, raised soil surface and central paving; explanatory view of soil-rooted beds, not a construction section.",
+    "Floor-level no-dig v2: shallow timber perimeter supports frame, compost below glazing, clear woodchip path and no internal bed walls.",
+    "All greenhouse scenes have open access and roof ventilation; comparison captions match the actual arrangements.",
+    "Existing footprint, rotation and compost diagrams preserved; later pages verified for unchanged copy and geometry apart from mirrored margin translation."
+  ],
+  "limits": "Focused trim-size review proofs only; greenhouse changes are supplied by John and remain for page review. No final pagination, supplier preflight or full-book assembly. No generic soil-renewal interval prescribed.",
+  "latestRevision": {
+    "date": "2026-10-09",
+    "pages": [
+      "greenhouse-no-dig-seasons"
+    ],
+    "scope": "No-dig introduction grouped with its method; seasonal section renamed and separated with peach panel.",
+    "receipt": "GREENHOUSE-HIERARCHY.json"
+  },
+  "approvals": [
+    "WHY-GROW-APPROVAL.json",
+    "PLOT-LOCATION-APPROVAL.json",
+    "BEDS-PATHS-APPROVAL.json"
+  ],
+  "proofs": [
+    {
+      "units": "imperial",
+      "sha256": "5554af35cf521b170142734917ee678790df758da6cec268c1e06fc8375a640d"
+    },
+    {
+      "units": "metric",
+      "sha256": "ae3e2afe3256fe278184280bba2478fad999d82ffcc49d997eec4bdfe5dcd793"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-09",
+  "status": "Assistant review complete; pilot not approved or integrated",
+  "pagesPerEdition": 2,
+  "actualPdfReview": {
+    "renderDpi": 150,
+    "individualPagesViewed": {
+      "imperial": [
+        1,
+        2
+      ],
+      "metric": [
+        1,
+        2
+      ]
+    },
+    "pairedComparisonsViewed": [
+      "imperial",
+      "metric"
+    ],
+    "bodyPt": 9.45,
+    "textRegionsVerifiedPerEdition": 41,
+    "minimumSourceGapMm": 2.216,
+    "minimumFooterGapMm": 3.559,
+    "fontsAndImagesLoaded": true,
+    "trimMm": [
+      185,
+      240
+    ]
+  },
+  "sourceComparison": "Original compost page, its three-bay illustration, approved carrot/beetroot heroes, and new cream-paper proofs examined. Original title changed as requested; both supplied paragraphs retained. Material/base/lid instructions occupy overview to make space for larger construction drawings. Existing cream/forest/orange palette, Lilita and Nunito hierarchy retained.",
+  "artworkReview": [
+    "Plank seams and underside battens replace moulded lids; complete silhouettes.",
+    "Brick shows strip foundation around mesh-covered soil, doorway, lintel and vents; no solid floor.",
+    "Timber shows close-boarded walls, posts and front boards with lift-out access.",
+    "Door-brace v1 corrected to lower hinge / opposite upper corner in v2.",
+    "Cream and dark-green gallery checked against direct hero references."
+  ],
+  "limits": [
+    "Drawings are schematic, not dimensioned cutting plans.",
+    "Felt layers simplified to show the plank construction; weatherproofing explained in text.",
+    "Local pilot pages 1–2 are compared side by side; final book folios/facing placement undecided.",
+    "This replaces the one bin-introduction page only if John adopts the pilot; compost-use page remains separate."
+  ],
+  "preservation": {
+    "originalWorkingCopyUnchanged": true,
+    "originalThirteenPageProofsUnchanged": true,
+    "allEarlierFrozenReferencesVerified": true
+  },
+  "proofs": [
+    {
+      "units": "imperial",
+      "sha256": "3b72767197f51ca479b6dcfc3d01e1134fd8b63eeafea86c23dc2a31aa13e9eb"
+    },
+    {
+      "units": "metric",
+      "sha256": "5a614055e116f9f70491b99bb60cfbd0ce7b9315127544f45964ac1937fecfa2"
+    }
+  ]
+}

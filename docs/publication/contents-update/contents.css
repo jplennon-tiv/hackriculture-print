@@ -1,0 +1,20 @@
+/* Extend the approved two-page contents without changing its original CSS. */
+@import url('/docs/publication/vegetable-guru-entry-pages/entry-pages.css');
+.contents-extra .page-header{min-height:34mm;margin-bottom:4mm}
+.contents-extra h1{font-size:39px}
+.contents-extra .page-header .harvest{width:57mm;height:38mm;top:-3mm}
+.getting-started{background:#eaf0d7;padding:3mm 4mm 4mm;border-radius:12px 0 12px 0;margin-bottom:5mm}
+.getting-started h2{font-size:22px;margin-bottom:2mm}
+.getting-started ul{display:grid;grid-template-columns:1fr 1fr 1fr;gap:5mm}
+.contents-extra ul{list-style:none;margin:0;padding:0}
+.contents-extra li{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:7px;font-size:13px;line-height:1.45;padding:3.3px 0;border-bottom:1px dotted #d4d6bf}
+.getting-started li{font-size:12.5px;border:0;align-items:start}
+.techniques-heading{font-size:27px;margin-bottom:4mm;color:#a44007}
+.topic-group{margin-bottom:3mm}
+.topic-group:last-child{margin-bottom:0}
+.topic-group h3{font-size:21px;line-height:1.12;border-bottom:3px solid #d6ea9b;margin-bottom:4px;padding-bottom:5px}
+.index-link{margin-top:4mm;padding:3mm 4mm;background:#ffe1b7;border-radius:0 12px 0 12px}
+.index-link li{font-family:Lilita,sans-serif;font-size:23px;border:0;padding:0}
+.index-link .page-ref{font-family:Nunito,sans-serif;font-size:16px;align-self:center}
+.index-link p{font-size:12px;margin-top:1mm}
+.contents-extra .contents-note{margin-top:3mm}

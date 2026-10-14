@@ -1,0 +1,31 @@
+@import url('../techniques-expansion/draft.css');
+.overview h1{font-size:39px}
+.overview .hero{margin-top:3mm}
+.overview .hero img{height:50mm}
+.overview .blocks{margin-top:5mm}
+.planning{margin-top:5mm;padding:3mm 4mm;background:var(--leaf);border-radius:0 12px 0 12px}
+.planning>div{display:grid;grid-template-columns:1fr 1fr;gap:6mm}
+.planning h3{font-size:19px;margin:1mm 0}
+.overview .closing{background:none;border-left:3px solid var(--orange);border-radius:0;padding:0 0 0 3mm;margin-top:4mm}
+.overview .closing h2{font-size:20px}
+.construction h1{font-size:37px;margin-bottom:2mm}
+.construction .lead{font-size:12.6px;line-height:1.36}
+.method-headings,.method-captions,.methods{display:grid;grid-template-columns:1fr 1fr;gap:7mm}
+.method-headings{margin-top:3mm}
+.method-headings h2{margin:0;font-size:22px}
+.construction .hero{margin:1mm 0 0}
+.construction .hero img{height:54mm}
+.method-captions{font-size:10.8px;color:#53613d;text-align:center;margin-top:1mm}
+.methods{margin-top:3mm;align-items:start}
+.materials{font-size:11.7px;line-height:1.32;margin-bottom:2.5mm}
+.method-step{margin-top:2.4mm}
+.method-step h3{font-size:18px;margin:0 0 .7mm}
+.method-step h3 .step-number{font-family:Nunito;font-size:11px;font-weight:950;color:var(--orange);margin-right:1.4mm}
+.method-step p{font-size:12.6px;line-height:1.34}
+.common-details{margin-top:3mm;display:grid;grid-template-columns:1fr 1fr;gap:5mm}
+.common-details aside{padding:2.7mm 3.2mm;background:var(--peach);border-radius:10px 0 10px 0}
+.common-details aside:last-child{background:var(--leaf)}
+.common-details h2{font-size:18.5px;margin-bottom:1.5mm}
+.common-details p{font-size:12.6px;line-height:1.34}
+
+.materials-line{margin-top:2mm;font-size:12.6px;line-height:1.34}

@@ -175,7 +175,8 @@ their page total is not the interior count used for print costing/spine calculat
 | Front cover | G2 cream title centre; flush vegetable tiles above/below; bold dark lettering; no count footer | Selected [G2 artwork](publication/vegetable-guru-grid-variations/assets/G2-centre-title.png); final editable artwork/wrap pending |
 | Back cover | B5 dark green; cream title/count subtitle; left blurb and slightly angled torn fragments at right; price and ISBN area | Preferred [B5 artwork](publication/vegetable-guru-back-collage/B5.png); generated snippets must become exact book crops for production |
 | Title/publication/welcome | Cover-related title strip, quieter publication page, illustrated welcome and retained author-image slot | [Pages 1–3 proposal](publication/vegetable-guru-opening-pages/REVIEW.html); lipsum/metadata placeholders remain |
-| Contents/how-to | Family-coloured navigation; illustrated calendar keys, difficulty and needs explanations; page references from the actual assembly | [Approved pages 4–7](publication/vegetable-guru-entry-pages/REVIEW.html); exact approval in the central manifest |
+| Contents/how-to | Family-coloured navigation; illustrated calendar keys, difficulty and needs explanations; calculated page references | [Approved pages 4–7](publication/vegetable-guru-entry-pages/REVIEW.html); exact approval in the central manifest. [Three-page expanded contents](publication/contents-update/REVIEW.html) is a new proposal preserving that design. |
+| Index | Two open columns; 9.45 pt reading type, orange folios, ruled alphabet headings, continued labels, no decorative artwork | [Four-page index](publication/book-index/REVIEW.html), approved 12 October; [frozen sources](publication/book-index/APPROVAL.json); final folios pending |
 | Vegetables | Expressive hero/circle/sticker opening, useful information hierarchy, practical continuation and full-width Final Tips | Approved [guide contract](BOOK-PRINT-STYLE.md#vegetable-opening-page); collection review remains separate |
 | Troubles | Open two-column entries, complete diagnostics, Recognise / Act / Prevent hierarchy, aligned first/last text with sparse-page exceptions | Approved [guide contract](BOOK-PRINT-STYLE.md#troubles); no enclosing equal-height cards |
 
@@ -213,6 +214,10 @@ For a new page or element, begin with the closest established role and section
 treatment. Any new font, colour role, type tier or structural treatment should
 be a visible proposal alongside the relevant existing page. Compare individual
 pages and facing spreads; maintain continuity without forcing identical layouts.
+For illustrated topic summaries, use the book-design skill's
+[composition workflow](../.agents/skills/vegetable-guru-book-design/references/illustrated-topic-pages.md)
+to plan headers, reading order, copy/image allocation and visual revision. It
+applies this system; it does not establish a new approved page template.
 After John's decision, update the owning rule here (or the detailed guide
 contract), the affected working implementation and its approval/source record.
 Do not create another competing style guide or overwrite a frozen proof.

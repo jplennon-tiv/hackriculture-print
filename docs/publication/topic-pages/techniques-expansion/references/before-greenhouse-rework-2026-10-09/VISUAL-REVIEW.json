@@ -1,0 +1,66 @@
+{
+  "date": "2026-10-09",
+  "status": "Assistant proof review complete; approved originals preserved, requested copy amendments and remaining sections await review.",
+  "actualPdfReview": {
+    "renderDpi": 150,
+    "imperial": "Latest pages 1, 4–12 inspected individually or in full-resolution greenhouse/compost pairs; pages 2–3 reused unchanged.",
+    "metric": "Latest pages 4, 8–9 inspected directly; all ten changed reading areas verified pixel-identical to imperial at 150 dpi. Pages 2–3 reused unchanged.",
+    "pairedComposition": "Greenhouse and compost pairs inspected in imperial; compost pair also inspected in metric. Pairings are review groupings, not final bound spreads.",
+    "copyVerification": "208 DOM text blocks matched against actual PDF regions in each twelve-page edition.",
+    "bodyTypePt": 9.45,
+    "smallestUprightSourceTypePt": 7.042,
+    "minimumFooterClearanceMm": 3.559,
+    "minimumSourceToBodyGapMm": 2.253,
+    "minimumPlacedRasterEffectiveDpi": 353
+  },
+  "designComparison": {
+    "sources": [
+      "docs/publication/vegetable-guru-entry-pages/how-to-spread.png",
+      "docs/BOOK-DESIGN-SYSTEM.md",
+      "docs/publication/topic-pages/cultivation-dig-no-dig/draft.css",
+      "public/images/heroes/richer-a/carrot.png",
+      "public/images/heroes/richer-a/beetroot.png"
+    ],
+    "retained": "185 × 240 mm trim, mirrored 17 mm inner and 8 mm outer margins, cream/forest/orange palette, Lilita headings and Nunito reading type, open sections, coloured emphasis and contained illustrations.",
+    "newProposals": "Seven topic-specific illustrations and four functional editable diagrams, with page arrangements suited to each overview. No frozen source component replaced.",
+    "artwork": "Reference heroes inspected directly; greenhouse and compost were representative style checks before expanding the set. Final assets inspected on cream in PDF. Greenhouse, bins and watering also inspected against dark green for transparency edges. All objects remain contained.",
+    "revisions": [
+      "Expanded compost illustration to a front-on wide group, aligning bays and stage labels.",
+      "Removed misleading sequence numbers from the alternative direct/module sowing routes; added explanatory caption.",
+      "Adjusted illustration allocation, compact table spacing and repeated prose to preserve reading type.",
+      "Added the carrot-family row so every family illustrated in the rotation example has a matching label.",
+      "Moved reach arrows to the path edges in the finger-bed plan.",
+      "Page 4 refinement: moved planning advice into its own green panel, used John’s supplied finger/leaf descriptions, and edited branching artwork v2 to show a rectangular outer leaf-pattern bed."
+    ]
+  },
+  "factualDiagramChecks": [
+    "Conventional through-paths connect to the perimeter; keyhole entrance opens to an empty standing pocket; finger and leaf branches connect to a main path and stop within the soil. All growing areas require reach checks; drawings are layout ideas, not measured plans.",
+    "Greenhouse equal diagonals are shown corner to corner; clear doorway, central path and two soil beds agree with the text. Exact foundations remain model-specific.",
+    "Compost bays show filling, closed resting and mature compost; no arrows imply routine transfer or turning.",
+    "Rotation example changes families without claiming a three-year cure or compulsory cycle.",
+    "Nutrient-return caption allows imported compost rather than claiming a perfectly closed system.",
+    "Water lands on soil beside the plant; exposed soil is a teaching cutaway. Sowing dots are schematic and crop-specific depths remain in the guides."
+  ],
+  "limits": "Focused trim-size review proofs only. No final pagination, physical-print judgement, supplier preflight, full-book assembly or user approval. Greenhouse soil-renewal interval and pet-waste guidance remain excluded pending future clarification if needed.",
+  "latestRevision": {
+    "date": "2026-10-09",
+    "pages": [
+      "why-grow",
+      "plot-layout-branching",
+      "greenhouse-choose",
+      "greenhouse-beds",
+      "rotation",
+      "compost-bins",
+      "compost-use",
+      "organic",
+      "watering",
+      "sowing"
+    ],
+    "scope": "Right-angle branching paths and impersonal advice across all twelve expansion pages",
+    "receipt": "IMPERSONAL-COPY-REVISION.json"
+  },
+  "approvals": [
+    "WHY-GROW-APPROVAL.json",
+    "PLOT-LOCATION-APPROVAL.json"
+  ]
+}

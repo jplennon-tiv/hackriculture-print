@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-11",
+  "status": "Assistant review complete; compost advice blocks swapped at John’s request. Earlier approvals preserved.",
+  "actualPdfReview": {
+    "renderDpi": 150,
+    "imperial": "Final page 9 inspected at 150 dpi, confirming Compost bin basics left and Three bins is best right. Composition and all other content unchanged.",
+    "metric": "Final page 9 inspected at 150 dpi; reading area pixel-identical to imperial.",
+    "pairedComposition": "Pages 9–10 shown as a comparison, not a confirmed facing spread. Final folios undecided.",
+    "copyVerification": "228 text regions in each saved thirteen-page PDF; embedded fonts, exact 185 × 240 mm boxes.",
+    "bodyTypePt": 9.45,
+    "minimumFooterClearanceMm": 3.559,
+    "changedPageSourceGapMm": 2.712
+  },
+  "designComparison": {
+    "sources": [
+      "Original compost overview: COMPOST-REVISION.json / pdfBefore",
+      "docs/publication/vegetable-guru-entry-pages/how-to-spread.png",
+      "docs/BOOK-DESIGN-SYSTEM.md",
+      "public/images/heroes/richer-a/carrot.png",
+      "public/images/heroes/richer-a/beetroot.png"
+    ],
+    "retained": "Cream/forest/orange, Lilita/Nunito, same 9.45 pt reading type, original title/hero/stages/two-column advice hierarchy and mirrored margins.",
+    "changes": [
+      "Swap the existing two blocks: Compost bin basics on the left, Three bins is best on the right. Wording, illustrations and styles unchanged."
+    ],
+    "artwork": "Hero fittings inspected in generated output, cream-paper PDF and dark-green gallery. Full lower bin silhouettes retained in separate layout windows at the transparent gap; no altered source pixels."
+  },
+  "limits": "One overview page plus unchanged compost-use page. Detailed building sequence intentionally omitted. Schematics are examples, not construction plans. No supplier upload or full-book export.",
+  "latestRevision": {
+    "date": "2026-10-11",
+    "pages": [
+      "compost-bins"
+    ],
+    "receipt": "COMPOST-COLUMN-SWAP.json"
+  },
+  "approvals": [
+    "WHY-GROW-APPROVAL.json",
+    "PLOT-LOCATION-APPROVAL.json",
+    "BEDS-PATHS-APPROVAL.json",
+    "GREENHOUSE-APPROVAL.json"
+  ],
+  "proofs": [
+    {
+      "units": "imperial",
+      "sha256": "878ab750d24d9aad9bf10b53a64afcb9185397eb4009440714941181ec203749"
+    },
+    {
+      "units": "metric",
+      "sha256": "398f5123a95fafaa65700892054234a34aacc5f80750a084b348649ffc67ea6d"
+    }
+  ],
+  "preservation": {
+    "twelveOtherPageStreamsPerEditionUnchanged": true,
+    "frozenApprovedSourceFilesVerified": 52
+  }
+}

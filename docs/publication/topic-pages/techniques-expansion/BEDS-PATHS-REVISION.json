@@ -1,0 +1,404 @@
+{
+  "date": "2026-10-09",
+  "scope": "Replace one beds/paths page with two pages comparing conventional, keyhole and branching layouts, with matching raster illustrations",
+  "beforeCopySha256": "5b418a42456f638c042a94ddb29ff0ac88df265c67c890dc7826b693b5027538",
+  "beforePage": {
+    "id": "plot-layout",
+    "section": "Growing Techniques · Planning a new plot",
+    "title": "Beds and paths",
+    "subtitle": "that work for you",
+    "lead": "A vegetable garden does not have to look like a little farm. Permanent paths let you work the crops without repeatedly walking over, compacting and then loosening the same soil.",
+    "layout": "plot-plan",
+    "diagramTitle": "A finger layout saves growing space",
+    "diagramCaption": "Paths stop short where every part of the remaining bed can still be reached. This is a layout idea, not a scale plan.",
+    "labels": {
+      "north": "N",
+      "sun": "Sun crosses the southern sky",
+      "mainPath": "Main access path",
+      "bed": "Growing bed",
+      "shortPath": "Stop short",
+      "reach": "Reach from paths",
+      "entry": "Entrance"
+    },
+    "blocks": [
+      {
+        "title": "Keep the middle within reach",
+        "text": "About {bedWidth} is a useful starting width for a bed reached from both sides, but your arms decide the final measurement. Make a bed against a wall narrower. Peg out paths wide enough to work from, move a barrow and turn comfortably; try the layout before committing yourself."
+      },
+      {
+        "title": "Borrow a leaf’s design",
+        "text": "Leaf veins branch off a main route instead of crossing the whole leaf. My allotment paths work much the same way: fingers of access stop before the far edge, leaving extra growing ground. The trade-off is an occasional longer walk round. Use through-paths wherever access matters more."
+      },
+      {
+        "title": "Work with sun and slope",
+        "text": "Where the site allows, I run long beds north to south so tall crops share their shade across the day. Existing buildings and drainage may matter more than compass neatness. Keep tall crops from shading the whole plot, and give rain a route away from low spots."
+      }
+    ],
+    "closing": {
+      "title": "Sides are optional",
+      "text": "Mounded beds need no timber and leave fewer crevices for slugs in my wet garden. Framed beds hold a flatter surface and can raise the working height. Choose what makes the plot easier to use, then keep your feet on the paths. Prepare the ground using the Cultivation pages."
+    },
+    "source": "John: Raised Beds, including leaf-vein layouts; Sun, Drainage & Access, 00:03–05:37."
+  },
+  "beforeProofs": [
+    {
+      "units": "imperial",
+      "sha256": "06f93bf4d9249320785341aa52440963ec295c501ddebd30481d55f19e382cd1",
+      "approvedPageContentSha256": [
+        "538372d75d045403ce14344a77d6c5fc36b5dab1d1fe7bf3bbab0a864ea25ffc",
+        "d0722839eda7cdfc82fb8d6ad8262a153f761977288d58b068c92e1ea247e460"
+      ]
+    },
+    {
+      "units": "metric",
+      "sha256": "af85385098dd531e7e1eee7cc0ab26658bd7fd8b00b1b04e684309b1956cf8aa",
+      "approvedPageContentSha256": [
+        "f8e9c4c1e5cef095a7f42dd6ef80ffe62f8492f2f498ffa04fdabfe95eb6b565",
+        "64879ea9c5e516c6354d68e01b37403f8fe47c4b152ae4c6448221eeb62e07fa"
+      ]
+    }
+  ],
+  "approval": "PLOT-LOCATION-APPROVAL.json",
+  "status": "Two-page draft complete; awaits John’s review",
+  "afterCopySha256": "353ab9e0c0d5b34f9efbe7d0d4b3d70fbcbf8bf16f4ccb3be6ff6289b5c3519b",
+  "changedPageIds": [
+    "plot-layout",
+    "plot-layout-branching"
+  ],
+  "otherPagesCopyUnchanged": true,
+  "pageCountChange": {
+    "before": 11,
+    "after": 12
+  },
+  "paginationEffect": "Old draft pages 4–11 shift to 5–12 and change parity; re-export those pages for mirrored margins and local review folios. Approved pages 1–2 reused.",
+  "downstreamPaginationChecks": [
+    {
+      "units": "imperial",
+      "id": "greenhouse-choose",
+      "fromFolio": 4,
+      "toFolio": 5,
+      "horizontalShiftMm": 9,
+      "textTypeAndVerticalGeometryUnchanged": true,
+      "maximumRoundingDifferenceMm": 0.001
+    },
+    {
+      "units": "imperial",
+      "id": "greenhouse-beds",
+      "fromFolio": 5,
+      "toFolio": 6,
+      "horizontalShiftMm": -9,
+      "textTypeAndVerticalGeometryUnchanged": true,
+      "maximumRoundingDifferenceMm": 0.001
+    },
+    {
+      "units": "imperial",
+      "id": "rotation",
+      "fromFolio": 6,
+      "toFolio": 7,
+      "horizontalShiftMm": 9,
+      "textTypeAndVerticalGeometryUnchanged": true,
+      "maximumRoundingDifferenceMm": 0.001
+    },
+    {
+      "units": "imperial",
+      "id": "compost-bins",
+      "fromFolio": 7,
+      "toFolio": 8,
+      "horizontalShiftMm": -9,
+      "textTypeAndVerticalGeometryUnchanged": true,
+      "maximumRoundingDifferenceMm": 0.001
+    },
+    {
+      "units": "imperial",
+      "id": "compost-use",
+      "fromFolio": 8,
+      "toFolio": 9,
+      "horizontalShiftMm": 9,
+      "textTypeAndVerticalGeometryUnchanged": true,
+      "maximumRoundingDifferenceMm": 0.001
+    },
+    {
+      "units": "imperial",
+      "id": "organic",
+      "fromFolio": 9,
+      "toFolio": 10,
+      "horizontalShiftMm": -9,
+      "textTypeAndVerticalGeometryUnchanged": true,
+      "maximumRoundingDifferenceMm": 0.001
+    },
+    {
+      "units": "imperial",
+      "id": "watering",
+      "fromFolio": 10,
+      "toFolio": 11,
+      "horizontalShiftMm": 9,
+      "textTypeAndVerticalGeometryUnchanged": true,
+      "maximumRoundingDifferenceMm": 0.001
+    },
+    {
+      "units": "imperial",
+      "id": "sowing",
+      "fromFolio": 11,
+      "toFolio": 12,
+      "horizontalShiftMm": -9,
+      "textTypeAndVerticalGeometryUnchanged": true,
+      "maximumRoundingDifferenceMm": 0.001
+    },
+    {
+      "units": "metric",
+      "id": "greenhouse-choose",
+      "fromFolio": 4,
+      "toFolio": 5,
+      "horizontalShiftMm": 9,
+      "textTypeAndVerticalGeometryUnchanged": true,
+      "maximumRoundingDifferenceMm": 0.001
+    },
+    {
+      "units": "metric",
+      "id": "greenhouse-beds",
+      "fromFolio": 5,
+      "toFolio": 6,
+      "horizontalShiftMm": -9,
+      "textTypeAndVerticalGeometryUnchanged": true,
+      "maximumRoundingDifferenceMm": 0.001
+    },
+    {
+      "units": "metric",
+      "id": "rotation",
+      "fromFolio": 6,
+      "toFolio": 7,
+      "horizontalShiftMm": 9,
+      "textTypeAndVerticalGeometryUnchanged": true,
+      "maximumRoundingDifferenceMm": 0.001
+    },
+    {
+      "units": "metric",
+      "id": "compost-bins",
+      "fromFolio": 7,
+      "toFolio": 8,
+      "horizontalShiftMm": -9,
+      "textTypeAndVerticalGeometryUnchanged": true,
+      "maximumRoundingDifferenceMm": 0.001
+    },
+    {
+      "units": "metric",
+      "id": "compost-use",
+      "fromFolio": 8,
+      "toFolio": 9,
+      "horizontalShiftMm": 9,
+      "textTypeAndVerticalGeometryUnchanged": true,
+      "maximumRoundingDifferenceMm": 0.001
+    },
+    {
+      "units": "metric",
+      "id": "organic",
+      "fromFolio": 9,
+      "toFolio": 10,
+      "horizontalShiftMm": -9,
+      "textTypeAndVerticalGeometryUnchanged": true,
+      "maximumRoundingDifferenceMm": 0.001
+    },
+    {
+      "units": "metric",
+      "id": "watering",
+      "fromFolio": 10,
+      "toFolio": 11,
+      "horizontalShiftMm": 9,
+      "textTypeAndVerticalGeometryUnchanged": true,
+      "maximumRoundingDifferenceMm": 0.001
+    },
+    {
+      "units": "metric",
+      "id": "sowing",
+      "fromFolio": 11,
+      "toFolio": 12,
+      "horizontalShiftMm": -9,
+      "textTypeAndVerticalGeometryUnchanged": true,
+      "maximumRoundingDifferenceMm": 0.001
+    }
+  ],
+  "approvedPagesPreserved": true,
+  "approvedReferencesHashVerified": true,
+  "visualCoverage": {
+    "actualPdfPages": [
+      3,
+      4
+    ],
+    "editions": [
+      "imperial",
+      "metric"
+    ],
+    "resolutionDpi": 150,
+    "pairedReview": "Imperial pages 3–4 inspected together for balance; consecutive review pages are not assumed to be a final facing spread.",
+    "wholeCollection": "Both twelve-page overviews inspected after re-pagination; pages 5–12 retain text, type and vertical geometry, with measured 9 mm gutter translation.",
+    "artworkComparison": "Direct Carrot/Beetroot comparison on cream and dark green inspected; no clipping, halos or obstructed paths. Both new pages inspected at reading size.",
+    "latestRefinement": "Page 4 re-exported and inspected in both units with imperial page pair; all other pages reused. Earlier page 3 and pagination coverage above remains applicable."
+  },
+  "checks": {
+    "pdfTextRegionsPerEdition": 208,
+    "fontsEmbedded": true,
+    "trimMm": [
+      185,
+      240
+    ],
+    "bodyTypePt": 9.45,
+    "sourceGapsMm": {
+      "plot-layout": 14.746,
+      "plot-layout-branching": 2.567
+    },
+    "minimumFooterGapMm": 3.559,
+    "approvedPagesReexported": false,
+    "readingAreasPixelIdenticalAcrossUnitsExceptPage3Measurement": true,
+    "previewLinksAndBothUnitSwitches": "passed",
+    "localDocumentationLinksChecked": 167
+  },
+  "proofs": [
+    {
+      "units": "imperial",
+      "path": "/Users/johnlennon/Documents/web_site/hackriculture-print/output/pdf/topic-pages/techniques-expansion-imperial-draft.pdf",
+      "sha256": "18569f0cc5acf6f1488deef90e7047f368eb99165f28e0b81991d11c2a724a4a",
+      "pages": 12
+    },
+    {
+      "units": "metric",
+      "path": "/Users/johnlennon/Documents/web_site/hackriculture-print/output/pdf/topic-pages/techniques-expansion-metric-draft.pdf",
+      "sha256": "142ce2e245f241805c03460877a04cc4c556b7d908178d82f86e2898ae7d30fc",
+      "pages": 12
+    }
+  ],
+  "illustrations": "BEDS-PATHS-ARTWORK.json",
+  "research": "../hackriculture-resources/summaries/techniques-expansion/research-notes.md",
+  "branchingRefinement": {
+    "date": "2026-10-09",
+    "scope": "Page 4 only: author-supplied descriptions, rectangular leaf-pattern bed and independent coloured planning panel",
+    "beforeCopySha256": "c0dd0c09344c23980f89532b3f0e5f6f336da79c6c90eda0f79bc2c754ad821f",
+    "beforePage": {
+      "id": "plot-layout-branching",
+      "section": "Growing Techniques · Beds and paths",
+      "title": "Beds and paths",
+      "subtitle": "continued",
+      "lead": "Give the paths a shape that suits the ground, then try it out with pegs and string. A clever drawing is only useful if you can work from it.",
+      "layout": "layout-branching",
+      "methodTitle": "Borrowing from nature",
+      "image": "beds-branching-v1.png",
+      "imageAlt": "Two garden layouts: finger paths stop before the back edge; leaf-like branches stop before the outside edge. Both leave continuous growing soil beyond the path ends.",
+      "imageCaptions": [
+        "Finger paths enter from one side.",
+        "A leaf pattern branches from a central path."
+      ],
+      "bodyParagraphs": [
+        "I use short paths that stop before the far edge, leaving an extra strip of growing ground. Fingers enter from one side; leaf-like branches spread from a central path, like veins in a leaf.",
+        "These shapes can save path space, provided all the soil remains within reach. The compromise is more walking round and less turning room. I like them on my plot; through-paths may suit you better."
+      ],
+      "blocks": [
+        {
+          "title": "Work with sun and slope",
+          "text": "Where the site allows, I run long beds north to south so tall crops share their shade across the day. Existing buildings and drainage may matter more than compass neatness. Watch where rain collects before settling the layout."
+        },
+        {
+          "title": "Try the paths for size",
+          "text": "Peg out the edges, then walk the routes with a loaded barrow. Allow room to park, turn and work beside it. Check with everyone who will use the plot; a path that suits you may be awkward for somebody else."
+        }
+      ],
+      "closing": {
+        "title": "Sides are optional",
+        "text": "Mounded beds need no timber and leave fewer crevices for slugs in my wet garden. Framed beds hold a flatter surface and can raise the working height. Choose what makes the plot easier to use, then prepare the ground using the Cultivation pages."
+      },
+      "source": "John: Raised Beds; Sun, Drainage & Access, 00:03–05:37. Layout ideas, not scale plans."
+    },
+    "otherElevenPagesCopyUnchanged": true,
+    "copyCorrection": "loose access → lose access; sentence-case Finger paths",
+    "status": "Refined draft checked in both editions; awaits John’s review",
+    "afterCopySha256": "353ab9e0c0d5b34f9efbe7d0d4b3d70fbcbf8bf16f4ccb3be6ff6289b5c3519b",
+    "proofs": [
+      {
+        "units": "imperial",
+        "beforeSha256": "4f9f9f5060ed54a1d3cfe7b0f69a111f6851ab27b104ca2b0a2407f0bef934e1",
+        "beforePageContentSha256": [
+          "538372d75d045403ce14344a77d6c5fc36b5dab1d1fe7bf3bbab0a864ea25ffc",
+          "d0722839eda7cdfc82fb8d6ad8262a153f761977288d58b068c92e1ea247e460",
+          "b40b8f09a4a33841fa3a4765c0a777467d6a7e2c9a179f3f53463e8e10b97d7f",
+          "ae89800e3dfd4d2a6585b484ab3b27c2906dbe63f24629022f0faa489357575f",
+          "a55743bba7426f81d39e66f7ca1055919e1b97e518b0c5952246bcd7dfe59e1b",
+          "9e2356f8f1a5f35dd54406458dadc40df601b893236d715ee29fcce2e37c6f8b",
+          "15a62819ccf5254e50b2f0750cffaaaec47b3d5333e4e4b5f6b95f71a03d8247",
+          "992842ee339e2969fe0750fcf06de73d52e1564af5468659e4e51bc3027f6564",
+          "b5e768579a1e9b730f767ae356e924c6ae9b373ee8348877e5a117a9ec023777",
+          "b38ac2cd1f7052f74e7f545db85749471a4a57417a0aa95718f4f3d1e5d1a6eb",
+          "31a91ddbc6c08041a8ed3a6217bf6349e685c45c6e963a14d53e84b6ae0e27c7",
+          "31e3a376b499a88a56f9ec6ec19057cdfba08cc645c5da4a1b3f1987288ba7cd"
+        ],
+        "elevenUnchangedPageStreamsReused": true,
+        "renderedPage": 4,
+        "afterSha256": "18569f0cc5acf6f1488deef90e7047f368eb99165f28e0b81991d11c2a724a4a",
+        "unchangedPageStreamsVerifiedAfterFinalCheck": [
+          1,
+          2,
+          3,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      {
+        "units": "metric",
+        "beforeSha256": "cb602bfa6b43d8dc9bbe6001ba8b6e99bffaeee02669076cadb9f7627fd6c0bd",
+        "beforePageContentSha256": [
+          "f8e9c4c1e5cef095a7f42dd6ef80ffe62f8492f2f498ffa04fdabfe95eb6b565",
+          "64879ea9c5e516c6354d68e01b37403f8fe47c4b152ae4c6448221eeb62e07fa",
+          "7f5a0455cfa2e9c7413481f87d443af85a237d15682c796c2ef656dcd2279a87",
+          "bf4dcfda3bf69cc4dd7ad4f961a28f2f211950f6038a7f0093a4753163b5ff18",
+          "abd1c98ade923c7076164c7b8e581ce11dc1ec579ed91c9376bde11b128dbee4",
+          "83d1eb4e649879204387191873b0e44c7b6edc6a63790fe0052ed130c24ca6d6",
+          "6abd10c1016a1d9018f3986ca82763ed64431b7412dbb8856200ed3c4c2ed9e6",
+          "9cccd59a721f8c906af940d6b897eaa42be61a3a12dbcb6ad8f3191d377ba7a6",
+          "6929b547f2372cd0bbbf2bc42438a3048be4d9b34024f801c2eb76e07cfaa918",
+          "8771e5ebdf0832a2eb3a6ecef4d17935e89be8718bcb77dae8bd1603be2b6e1a",
+          "f6156b29901ef119c49ea04205063072516de81debdaf2e66750b7c6243f3cc4",
+          "54844c8988abd50128f80d8dd2816027dd18a9c759410164997ec9d02811c5c6"
+        ],
+        "elevenUnchangedPageStreamsReused": true,
+        "renderedPage": 4,
+        "afterSha256": "142ce2e245f241805c03460877a04cc4c556b7d908178d82f86e2898ae7d30fc",
+        "unchangedPageStreamsVerifiedAfterFinalCheck": [
+          1,
+          2,
+          3,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    ],
+    "approvedReferenceHashesVerified": true,
+    "checks": {
+      "textRegionsPerEdition": 208,
+      "bodyTypePt": 9.45,
+      "sourceGapMm": 2.567,
+      "actualPdfPagesInspected": [
+        4
+      ],
+      "editions": [
+        "imperial",
+        "metric"
+      ],
+      "renderDpi": 150,
+      "pairedReview": "Imperial pages 3–4 together; review pairing, not final bound spread",
+      "artwork": "v2 compared with approved heroes on cream and dark green and in actual PDFs; rectangular bed, contained paths and clear silhouettes",
+      "readingAreaPixelIdenticalAcrossUnits": true,
+      "previewChecks": "Both unit switches, twelve images per edition, nineteen links and narrow viewport passed"
+    }
+  },
+  "latestRevision": "IMPERSONAL-COPY-REVISION.json",
+  "currentEvidenceNote": "This receipt preserves the earlier two-page expansion and rectangular-bed refinement. Current copy, v3 art and PDF hashes are owned by the linked later revision."
+}

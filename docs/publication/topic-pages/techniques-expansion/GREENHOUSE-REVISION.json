@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-09",
+  "status": "Original three-page rework receipt; current composition and proof hashes are in GREENHOUSE-HIERARCHY.json",
+  "copyPath": "/Users/johnlennon/Documents/web_site/hackriculture-resources/summaries/techniques-expansion/copy.json",
+  "backupTransaction": "/Users/johnlennon/Documents/web_site/hackriculture-data/backups/admin/2026-10-09-greenhouse-options-b128be1c-776a-4ba2-bcc2-ab267a3e06d5",
+  "beforeSha256": "0c0ec68dfe5c962c0dc6059acfe5a2e25fc70658dc9bc6b09a918d0c2c7a4a5f",
+  "afterSha256": "a411735261f8b267c4fdbe0b9158340a91749c6473d05aa27630e052a46d2500",
+  "changedPageIds": [
+    "greenhouse-choose",
+    "greenhouse-beds",
+    "greenhouse-no-dig-seasons"
+  ],
+  "pageCountBefore": 12,
+  "pageCountAfter": 13,
+  "unchangedCopyPageIds": [
+    "why-grow",
+    "plot-location",
+    "plot-layout",
+    "plot-layout-branching",
+    "rotation",
+    "compost-bins",
+    "compost-use",
+    "organic",
+    "watering",
+    "sowing"
+  ],
+  "research": "../../../../../hackriculture-resources/summaries/techniques-expansion/greenhouse-rework-research.md",
+  "priorCollection": "references/before-greenhouse-rework-2026-10-09",
+  "newApproval": "BEDS-PATHS-APPROVAL.json",
+  "limits": [
+    "Review folios only; no full-book integration or new greenhouse approval."
+  ],
+  "compositionBackupTransaction": "/Users/johnlennon/Documents/web_site/hackriculture-data/backups/admin/2026-10-09-greenhouse-fit-c1a149ff-ac2a-440c-8be2-e33a79867ca7",
+  "proofs": [
+    {
+      "units": "imperial",
+      "sha256": "17dbde2a9db5e4d6c6ef47a91990e800f2bb7a4ea8134aacfe9c17427b718ee7"
+    },
+    {
+      "units": "metric",
+      "sha256": "f8c433238c67361586a6cc9f27f487647ea2c549c8993da228a966a71044139b"
+    }
+  ],
+  "checks": "CHECKS.json",
+  "visual": "VISUAL-REVIEW.json",
+  "preservation": "PRESERVATION-AND-EDITION-CHECKS.json",
+  "previewChecks": "REVIEW-CHECKS.json",
+  "artwork": "GREENHOUSE-ARTWORK.json",
+  "verification": {
+    "pagesPerEdition": 13,
+    "pdfTextRegionsPerEdition": 231,
+    "reusedPages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "reexportedPages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "bodyPt": 9.45,
+    "greenhouseMinSourceClearanceMm": 2.551,
+    "allFontsAndImagesLoaded": true,
+    "mainTextNotReduced": true
+  },
+  "latestRefinement": "GREENHOUSE-HIERARCHY.json"
+}

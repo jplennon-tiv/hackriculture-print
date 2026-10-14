@@ -1,0 +1,81 @@
+{
+  "date": "2026-10-09",
+  "tool": "image_gen.imagegen (built-in)",
+  "status": "Approved by John on 9 October 2026 in the three-page greenhouse composition.",
+  "directStyleReferences": [
+    "public/images/heroes/richer-a/carrot.png",
+    "public/images/heroes/richer-a/beetroot.png"
+  ],
+  "editTarget": "assets/greenhouse-beds-v1.png",
+  "reusedAsset": "assets/greenhouse-beds-v1.png",
+  "assets": [
+    {
+      "file": "greenhouse-containers-v1.png",
+      "generatedSource": "/Users/johnlennon/.codex/generated_images/01a11b2c-8613-7d12-9755-a726a897df03/exec-63239565-31fb-4830-965d-469b82d03cf9.png",
+      "prompt": "Edit the supplied greenhouse scene into a matching illustration of CONTAINER GROWING ON A PAVED FLOOR. Image 1 is the edit target: preserve its three-quarter perspective, complete greenhouse silhouette, open door and open roof vent, simplified readable geometry, green frame, terracotta/lime/forest colour family. Images 2 and 3 are the approved style authority: broad discrete colour planes, crisp cream highlight strokes, no fine texture or black outline. Replace ALL internal brick raised beds and their soil with a continuous level floor of pale paving slabs; keep only a very LOW perimeter plinth supporting the greenhouse. Inside along the far side place a robust wooden slatted staging table on four sturdy legs with diagonal bracing, holding three modest terracotta pots of leafy seedlings. Along the nearer side on the FLOOR put one large terracotta pot holding a single tomato on a cane and one simple dark green growing bag with two short plants; no writing or logos on the bag. There must be a wide empty paved path leading from the open door, with pots and table completely clear of it. No plants growing directly through the paving. Depict pots at plausible scale, table not overloaded, growing bag clearly visible. Remove the rain barrel to keep the teaching image simple. No soil beds, no high internal brickwork, no people, no lettering, no labels, no arrows. Show full structure, comfortable margins, genuinely transparent background, no halo or vignette. This will print approximately 80mm wide as one of three equal growing options in a British gardening book; simplify foliage and glazing reflections so floor and staging remain obvious.",
+      "status": "superseded: upright fabric container corrected to flat growbag",
+      "sha256": "c8e28c991a14a1dc96483a32cf5c4595a1dc28d4fbe94a49a7ec34b642f005ec",
+      "pixels": [
+        1536,
+        1024
+      ],
+      "alphaExtrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "file": "greenhouse-containers-v2.png",
+      "generatedSource": "/Users/johnlennon/.codex/generated_images/01a11b2c-8613-7d12-9755-a726a897df03/exec-5c65571a-ef76-4076-934b-e7f90b5eeea5.png",
+      "prompt": "Make ONE precise edit to this greenhouse illustration. Replace the upright cylindrical dark green fabric planter in the foreground with a conventional LOW, FLAT, RECTANGULAR plastic growbag: a long pillow-shaped green bag of potting compost lying horizontally on the paving, approximately three times as long as wide, with two small circular planting openings on its TOP, each holding a small leafy seedling. No open bucket-shaped rim, no handles, no labels or letters. Keep its footprint within the same growing space clear of the doorway/path. Preserve everything else exactly: greenhouse geometry, tomato in its terracotta pot, wooden staging and its pots, clear paved floor, colours, illustration style and genuine background transparency. Do not change other objects. The purpose is to show the familiar UK flat growing bag beside a large pot.",
+      "status": "approved in greenhouse composition",
+      "editTarget": "greenhouse-containers-v1.png",
+      "sha256": "697cd4f4ab5d98e9dc62e6a341090f913c71a1bd94b6b6a79dbcd5d6b5951fc6",
+      "pixels": [
+        1536,
+        1024
+      ],
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "approval": "GREENHOUSE-APPROVAL.json"
+    },
+    {
+      "file": "greenhouse-floor-no-dig-v1.png",
+      "generatedSource": "/Users/johnlennon/.codex/generated_images/01a11b2c-8613-7d12-9755-a726a897df03/exec-ba85dc87-81c5-42f1-baf8-844e05677ac9.png",
+      "prompt": "Edit the supplied greenhouse illustration into its simpler FLOOR-LEVEL NO-DIG growing counterpart. Image 1 is the edit target. Images 2 and 3 are direct style references: use bold broad separate colour planes, clean cream tapered highlights, forest and lime foliage, warm terracotta, crisp dimensional graphic forms, no fine texture, no black outlines. Retain the complete aluminium greenhouse in three-quarter view, open door and one open roof vent. Retain a LOW one-course perimeter brick plinth only under the greenhouse frame, with an unobstructed doorway. Remove ALL raised internal brick beds and retaining walls. The greenhouse interior is natural ground at floor level: two soil borders along the sides have a thin dark mature-compost surface, and a clear tan WOODCHIP path runs centrally from the open door to the rear. Borders and path are nearly level, gently mounded by only a little compost, not deep raised banks. There are NO timber borders, NO containers, NO internal edging, NO paving, and NO black membrane covering the soil. Show a few small lettuces on one side and two spaced staked tomatoes on the other, planted directly into the dark compost-topped earth. Transparent or visually unobtrusive glass must let the entire floor arrangement be seen. Remove the rain barrel and unnecessary props. No people, words, measurements, arrows or labels. Full unclipped structure with margin, genuinely transparent background, no sky, no ground halo. Make the difference from the raised-bed original unmistakable: simple bare-ground borders with compost and a woodchip path, no bed walls. One practical explanatory scene for a British gardening book, readable at 80mm wide.",
+      "status": "superseded: John requested a low timber perimeter base",
+      "sha256": "4980f33e2c4fc50177743d5e083ee845a5f5c6d0d91bebdbe1a09d4bc9335c29",
+      "pixels": [
+        1536,
+        1024
+      ],
+      "alphaExtrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "file": "greenhouse-floor-no-dig-v2.png",
+      "editTarget": "assets/greenhouse-floor-no-dig-v1.png",
+      "generatedSource": "/Users/johnlennon/.codex/generated_images/01a11b2c-8613-7d12-9755-a726a897df03/exec-884fe422-a555-4825-9d3f-f558da8cbf27.png",
+      "prompt": "Make a precise material and height edit to image 1, the floor-level no-dig greenhouse illustration. REPLACE THE ENTIRE TERRACOTTA BRICK PERIMETER BASE with a single LOW TIMBER FRAME about 4 inches / 10 cm high. It is one shallow wooden board on edge around the perimeter beneath the metal greenhouse frame, in warm natural tan timber, with broad simplified colour planes and minimal grain. Relative to the greenhouse doorway (about 2 metres), this board is only about ONE TWENTIETH of the door height: markedly lower than the existing two-course brick plinth. There must be NO BRICKS left anywhere in the picture. The greenhouse metal frame sits on top of the timber; compost inside finishes below the top of the timber, so no compost banks against glass. Keep the doorway open and accessible, with the central woodchip path meeting it; avoid adding a tall threshold or blocking the door. Preserve the exact existing greenhouse perspective, proportions, full silhouette, glass, open vent and door, plants and canes, dark compost surface and central woodchip path. There are still NO internal bed walls or timber-edged individual beds: timber is only the outer greenhouse base. Images 2 and 3 are approved STYLE references only; keep the scene's bold simplified shapes, crisp highlights and broad colour planes, and do not insert carrots or beetroot. No text, arrows or dimension labels. Preserve genuine transparent background and whole unclipped silhouette. This is an edit of the pictured greenhouse, not a new composition.",
+      "tool": "image_gen.imagegen (built-in)",
+      "status": "approved in greenhouse composition",
+      "sha256": "fbfb634b11023801458fbee817503387765d1bf295f5ed6e8be0f0a2b9889890",
+      "pixels": [
+        1536,
+        1024
+      ],
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "visualChecks": "Inspected edit output, actual page 7 at 150 dpi, options pairing and dark-green gallery: shallow timber perimeter, no internal walls, compost below glazing, open doorway and complete transparent silhouette.",
+      "approval": "GREENHOUSE-APPROVAL.json"
+    }
+  ],
+  "latestRefinement": "GREENHOUSE-REFINEMENT.json",
+  "approval": "GREENHOUSE-APPROVAL.json"
+}

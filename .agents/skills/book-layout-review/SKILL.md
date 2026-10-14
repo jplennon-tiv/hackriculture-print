@@ -1,6 +1,6 @@
 ---
 name: book-layout-review
-description: Review and improve The Vegetable Guru 185 × 240 mm book guide and opening-page layouts, facing spreads, binding margins, pagination and PDF assemblies in hackriculture-print. Use for bound-book layout and proof work; individual A4 sheets use guide-layout-review.
+description: Review and improve The Vegetable Guru 185 × 240 mm book pages, including guides, illustrated topic summaries and openings, plus facing spreads, binding margins, pagination and PDF assemblies in hackriculture-print. Use for bound-book layout and proof work; individual A4 sheets use guide-layout-review.
 ---
 
 # Layout — book pages
@@ -52,9 +52,13 @@ as print-ready data.
 
 ## Review content and composition
 
-Preserve readable type and useful source-linked advice. Extra continuation pages
-are allowed; do not shrink main type or cut important information to force two
-pages. Keep new book copy in separate source-checked print drafts; canonical
+Preserve readable type and useful source-linked advice. Full crop guides may use
+extra continuation pages; do not shrink main type or cut important information
+to force two pages. For a newly commissioned topic summary with an explicit page
+limit, use the [topic composition workflow](../vegetable-guru-book-design/references/illustrated-topic-pages.md)
+to curate and compose within that limit. Do not silently add pages; raise a concrete
+scope/space trade-off if essential content cannot fit. Keep new book copy in
+separate source-checked print drafts; canonical
 gardening records stay unchanged under the current publication scope. Preserve
 methods, qualifying advice, units and diagnostic/safety information. Useful pest
 rows are selected before measurement; there is no fixed row quota. Record useful

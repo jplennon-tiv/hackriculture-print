@@ -1,0 +1,74 @@
+{
+  "date": "2026-10-12",
+  "status": "Both-unit PDF and visual review complete; further copy reduction pending to restore original image size",
+  "priorRevision": "COMPOST-USE-HEADING-REVISION.json",
+  "copyPath": "/Users/johnlennon/Documents/web_site/hackriculture-resources/summaries/techniques-expansion/copy.json",
+  "backupTransaction": "/Users/johnlennon/Documents/web_site/hackriculture-data/backups/admin/2026-10-12-compost-mixed-ingredients-ecbaa87a-7ad3-480c-8844-eb4aaca2f91d",
+  "beforeSha256": "1d349fc1cfd00e8ff02ad53a8d1a3fa342d528103bb23896ad9eac4ccd5260da",
+  "afterSha256": "eba4a70c2f8128c854f58ac0f95578cb943e9c1db53ea0812a9ecad1a5f99014",
+  "changedPageId": "compost-use",
+  "reviewPage": 10,
+  "change": "Use “Mixed ingredients” as the first column heading.",
+  "designDecision": "Original stacked composition retained. John is reducing copy towards restoring the 36 mm illustration; temporary side-by-side proposal rejected.",
+  "beforeText": "A mix of ingredients",
+  "afterText": "Mixed ingredients",
+  "pdfBefore": [
+    {
+      "units": "imperial",
+      "sha256": "73704c532e6ade6c78ebba0b566578c2ef07e1f6d4b51035d3631f74a05f4f2f",
+      "backup": "/Users/johnlennon/Documents/web_site/hackriculture-print/tmp/pdfs/techniques-expansion-imperial-before-mixed-heading.pdf",
+      "pageContentSha256": [
+        "2a5010e5ef5d28a72ecad871c08ad47180572239709e2c9fce166107a8f6409a",
+        "d0722839eda7cdfc82fb8d6ad8262a153f761977288d58b068c92e1ea247e460",
+        "b40b8f09a4a33841fa3a4765c0a777467d6a7e2c9a179f3f53463e8e10b97d7f",
+        "e7bd3af156018ae57c309ef91e1fe12d2113d4eee4691b531b21e99c99922c69",
+        "fda9a128eab80e4b97896efcf03b15d51270a5e528af4eb5c2823b98a30b7eae",
+        "9adf2181cc7faae92b2e90fb123fdbf13f7999eb54484b1f77fb1de7572dca9b",
+        "52bc6131c3ef45dacc06f7cdc260a853b209727bdcdefc23bbe536e65a307745",
+        "f131f8c86f48dfc712630e033e1498c9319a2f523454db81fbcda3e794d46811",
+        "a66914124a4f2022e966704e91ca28b0ec3a6e7b398025c30d06c3443c13f71b",
+        "e8a47d059ffba244cbd9fbd08b053d2a0ba6e6b14dc96acb8552abb4beccba1d",
+        "b14ce0be934664164ec4208067e9275bf17d75c53474ba61df55ae87c9c56793",
+        "7bcd3b902d4a77c059d7d76a91dc4c5978975c23ec126fa0ca31c18682dbd21a",
+        "baa2a46314a010e6d8617ac0dad73ecaba11678ae795fc1c55f39a369e76f450"
+      ]
+    },
+    {
+      "units": "metric",
+      "sha256": "f0754e670dc07bd15e0c9c571b4719851ae6f06cb848961a65e61be918606ac7",
+      "backup": "/Users/johnlennon/Documents/web_site/hackriculture-print/tmp/pdfs/techniques-expansion-metric-before-mixed-heading.pdf",
+      "pageContentSha256": [
+        "7dc2a22c52ca7ca4842d911f055080a47ac8b68b4ea74a77786d7715edb7cc54",
+        "64879ea9c5e516c6354d68e01b37403f8fe47c4b152ae4c6448221eeb62e07fa",
+        "7f5a0455cfa2e9c7413481f87d443af85a237d15682c796c2ef656dcd2279a87",
+        "d4e510ddcf6a99db0911585b4c485cc2075b417fc3a31c94e2a0edd2c7151158",
+        "3d6c27e021a32521459ea1500568a3aa6158ebea13103f48dd69e256c525e89b",
+        "1aaf7d06a0d91e777527bc53e41338f2982c35e55ea6f9123c5365bcf8ef78f6",
+        "44ee35fe588605bebe3cca212f45fc203976ff01cf9d205b9e218c018d03fcfa",
+        "86c68c2380b8022067904ef21548a31842e4aeeb08e5a4a66bfceb4252fc9b49",
+        "f68dba4b1b4768570b8fee2afdf992656b4d62384b3a6536346f4826cca9e206",
+        "15970559a7947badd18bfdbcc538eecec4bcc950d0e5933ad204a4ebf0e67174",
+        "0089679e95cb70a0c7eb34431d4bab28b4f64a0d02251dd19b6c6c81aa0acb1a",
+        "73124035270a7a6e24d28a9d7487e84b9c964db811c55a84870f620cc5a35f54",
+        "23fbf7144f2158d439563d59ab24a2d34857022e42b657ad08045b601d71629c"
+      ]
+    }
+  ],
+  "proofs": [
+    {
+      "units": "imperial",
+      "sha256": "67ae3dd1960bef1b71a557f24f35aa30ced288d60c7a9632ca158f6ace2addd9"
+    },
+    {
+      "units": "metric",
+      "sha256": "8b63f2d1f57ebde409c0efeebb326b2cf8a0dffc374c34ec66defda618fe50b4"
+    }
+  ],
+  "checks": "CHECKS.json",
+  "visual": "VISUAL-REVIEW.json",
+  "layout": "Mixed ingredients fits on one line. Middle column still sets the text-row height, so the illustration remains 24 mm until further copy reduction permits its original 36 mm height.",
+  "sourceClearanceMm": 2.265,
+  "footerClearanceMm": 3.559,
+  "twelveOtherPageStreamsPerEditionUnchanged": true,
+  "page10ReadingAreasPixelIdentical": true
+}

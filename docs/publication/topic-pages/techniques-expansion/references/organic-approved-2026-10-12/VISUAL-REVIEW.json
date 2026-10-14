@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-12",
+  "status": "Compost-use page approved by John on 12 October; prior technical checks and visual review retained. Later sections remain drafts.",
+  "actualPdfReview": {
+    "renderDpi": 150,
+    "imperial": "Final page 10 inspected at 150 dpi: first two headings fit one line, complete illustration enlarged to 30 mm, current type and original stacked composition retained.",
+    "metric": "Final page 10 inspected at 150 dpi; reading area pixel-identical to imperial.",
+    "pairedComposition": "Pages 9–10 compared as adjacent review pages; not a confirmed facing spread. Final folios remain undecided.",
+    "copyVerification": "228 text regions per thirteen-page PDF verified; fonts embedded and trim exactly 185 × 240 mm.",
+    "bodyTypePt": 9.45,
+    "minimumFooterClearanceMm": 3.559,
+    "changedPageSourceGapMm": 2.902
+  },
+  "designComparison": {
+    "sources": [
+      "Previous compost-use page preserved in COMPOST-USE-REVISION.json / pdfBefore",
+      "COMPOST-BINS-APPROVAL.json",
+      "docs/BOOK-DESIGN-SYSTEM.md"
+    ],
+    "retained": "Cream/forest/orange, Lilita/Nunito, same reading text size, existing full illustration and three-column guidance with green closing panel.",
+    "changes": [
+      "Middle heading changed to Damp, not soaked.",
+      "Illustration enlarged from 24 to 30 mm using the recovered text-row height; original size is 36 mm."
+    ]
+  },
+  "limits": "Both compost pages approved separately. Final placement, book integration and supplier/physical-proof approval remain pending.",
+  "latestRevision": {
+    "date": "2026-10-12",
+    "pages": [
+      "compost-use"
+    ],
+    "receipt": "COMPOST-USE-DAMP-REVISION.json"
+  },
+  "approvals": [
+    "BEDS-PATHS-APPROVAL.json",
+    "COMPOST-BINS-APPROVAL.json",
+    "GREENHOUSE-APPROVAL.json",
+    "PLOT-LOCATION-APPROVAL.json",
+    "WHY-GROW-APPROVAL.json",
+    "COMPOST-USE-APPROVAL.json"
+  ],
+  "proofs": [
+    {
+      "units": "imperial",
+      "sha256": "275edeee7612e55be1f73ce3535ba32523a24e5f094c638f79797816e530eba8"
+    },
+    {
+      "units": "metric",
+      "sha256": "2d34266d56cb824604d8ea4c005421759810acdbc5a433880acf6aa01df00346"
+    }
+  ],
+  "preservation": {
+    "twelveOtherPageStreamsPerEditionUnchanged": true,
+    "frozenApprovedSourceFilesVerified": 67
+  }
+}

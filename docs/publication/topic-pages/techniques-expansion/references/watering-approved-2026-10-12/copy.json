@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "status": "draft-for-John-review",
+  "book": "The Vegetable Guru",
+  "collection": "Extra opening and Growing Techniques pages",
+  "created": "2026-10-09",
+  "editionNote": "Review pagination only; no full-book integration or approval",
+  "measurements": {
+    "bedWidth": {
+      "metric": "1.2 m",
+      "imperial": "4 ft"
+    },
+    "tomatoPot": {
+      "metric": "30 cm",
+      "imperial": "12 inches"
+    }
+  },
+  "sourceRecord": "research-notes.md",
+  "pages": [
+    {
+      "id": "watering",
+      "section": "Growing Techniques",
+      "title": "Water the roots,",
+      "subtitle": "read the soil",
+      "lead": "A drooping plant is asking you to investigate. It may be dry, too wet or simply struggling with heat. Adding another can of water without checking can make the wrong problem worse.",
+      "layout": "watering",
+      "image": "watering-check-v1.png",
+      "imageAlt": "A watering can directing water onto soil around a plant, beside a trowel exposing the root-zone soil.",
+      "caption": "Aim at the soil. Check moisture beneath the surface rather than judging by the leaves alone.",
+      "blocks": [
+        {
+          "title": "Check before you pour",
+          "text": "Feel below the surface with a finger or trowel, taking care around roots. Dry, loose material needs water; wet, sticky soil needs a chance to drain. With pots, check the compost and learn the difference in weight between a watered pot and a dry one. A dry crust can hide damp ground underneath."
+        },
+        {
+          "title": "Water thoroughly when needed",
+          "text": "Apply water slowly around the rooting area so it soaks in rather than running away. Established beds generally benefit more from a proper watering every few days than a daily sprinkle on top. Newly sown seed, small seedlings and recent transplants are exceptions: their shallow roots need steady moisture, checked frequently."
+        },
+        {
+          "title": "Give surplus water an exit",
+          "text": "Keep container drainage holes clear and avoid leaving vegetable pots standing in water. Where rain collects in a bed, check for blocked surface outlets. Loosen compacted ground using the Cultivation method, or raise the growing surface as described in Planning a New Plot. Roots need air; wilting in sodden soil is a reason to investigate, not add water."
+        }
+      ],
+      "closing": {
+        "title": "Make the job manageable",
+        "text": "Collect rainwater from suitable roofs into covered butts on firm, stable stands. Keep the supply close enough to use easily. Soil beds hold more reserve than small pots, but check both in hot weather. Newly planted transplants can struggle in a heatwave despite daily watering; delaying planting and providing temporary shade may help more than another soaking."
+      },
+      "source": "John: Raised Beds, Water Collection and UK Heatwave. Crop JSON; RHS watering guidance."
+    }
+  ]
+}

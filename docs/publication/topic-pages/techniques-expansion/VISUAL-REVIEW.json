@@ -1,0 +1,92 @@
+{
+  "date": "2026-10-12",
+  "status": "Collection and final order approved by John on 12 October; existing visual and preservation checks retained.",
+  "actualPdfReview": {
+    "renderDpi": 150,
+    "imperial": "Page 2 inspected at full size against its approved source, plus thirteen-page overview for ordering and composition.",
+    "metric": "Page 2 inspected at full size against imperial and the approved source.",
+    "copyVerification": "228 regions per PDF checked; body/source characters, text sizes and vertical positions preserved on every page, with expected mirrored horizontal movement.",
+    "bodyTypePt": 9.45,
+    "minimumFooterClearanceMm": 3.559
+  },
+  "designComparison": {
+    "sources": [
+      "ORGANIC-APPROVAL.json",
+      "SOWING-APPROVAL.json",
+      "/Users/johnlennon/Documents/web_site/hackriculture-print/tmp/pdfs/techniques-before-organic-move"
+    ],
+    "retained": "All page copy, illustrations, composition and spacing. Build and style sources unchanged.",
+    "changes": [
+      "Organic page moved from 11 to 2.",
+      "Pages 2–10 shift one place later; mirrored margins and local footers updated."
+    ]
+  },
+  "limits": "Final book integration, folios, supplier acceptance and physical proof remain separate.",
+  "latestRevision": {
+    "date": "2026-10-12",
+    "pages": [
+      "organic",
+      "plot-location",
+      "plot-layout",
+      "plot-layout-branching",
+      "greenhouse-choose",
+      "greenhouse-beds",
+      "greenhouse-no-dig-seasons",
+      "rotation",
+      "compost-bins",
+      "compost-use"
+    ],
+    "receipt": "ORGANIC-PAGE-ORDER.json"
+  },
+  "approvals": [
+    "BEDS-PATHS-APPROVAL.json",
+    "COMPOST-BINS-APPROVAL.json",
+    "COMPOST-USE-APPROVAL.json",
+    "GREENHOUSE-APPROVAL.json",
+    "ORGANIC-APPROVAL.json",
+    "PLOT-LOCATION-APPROVAL.json",
+    "WATERING-APPROVAL.json",
+    "WHY-GROW-APPROVAL.json",
+    "SOWING-APPROVAL.json",
+    "COLLECTION-APPROVAL.json"
+  ],
+  "proofs": [
+    {
+      "units": "imperial",
+      "path": "output/pdf/topic-pages/techniques-expansion-imperial-draft.pdf",
+      "sha256": "ee41c201663e2c5215f170b538a76c7b98b16092c124342f7fd0d6788f8a2f42"
+    },
+    {
+      "units": "metric",
+      "path": "output/pdf/topic-pages/techniques-expansion-metric-draft.pdf",
+      "sha256": "89bbc47865e06a36dcae1f22c91a0089aee22068346cae2aa712d37a12c2faf9"
+    }
+  ],
+  "preservation": {
+    "allPageObjectsUnchanged": true,
+    "allBodyAndSourcePdfCharactersPreserved": true,
+    "allBodyTextSizesAndVerticalPositionsPreserved": true,
+    "allEmbeddedIllustrationsPreserved": true,
+    "unchangedPagesReused": [
+      1,
+      12,
+      13
+    ],
+    "changedPagesRendered": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "frozenApprovalFilesVerified": 113,
+    "layoutSourcesUnchanged": true,
+    "copyRegionsVerifiedPerEdition": 228,
+    "previewLinksChecked": 44
+  }
+}

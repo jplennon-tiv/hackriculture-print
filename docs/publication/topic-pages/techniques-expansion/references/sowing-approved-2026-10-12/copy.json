@@ -1,0 +1,52 @@
+{
+  "version": 1,
+  "status": "draft-for-John-review",
+  "book": "The Vegetable Guru",
+  "collection": "Extra opening and Growing Techniques pages",
+  "created": "2026-10-09",
+  "editionNote": "Review pagination only; no full-book integration or approval",
+  "measurements": {
+    "bedWidth": {
+      "metric": "1.2 m",
+      "imperial": "4 ft"
+    },
+    "tomatoPot": {
+      "metric": "30 cm",
+      "imperial": "12 inches"
+    }
+  },
+  "sourceRecord": "research-notes.md",
+  "pages": [
+    {
+      "id": "sowing",
+      "section": "Growing Techniques",
+      "title": "Sowing and planting:",
+      "subtitle": "a sound start",
+      "lead": "The crop guide gives you the season and method. Your weather and soil decide whether today is a sensible day to begin. In cold or wet weather, delay planting. A head start only helps if the plants keep growing.",
+      "layout": "sowing",
+      "image": "sowing-sequence-v1.png",
+      "imageAlt": "Three stages: a fine seed drill, seedlings in modules, and a rooted plug being settled into a planting hole.",
+      "steps": [
+        {
+          "title": "Direct into the bed",
+          "text": "Prepare a fine, firm surface and remove competing weeds. Make a drill at the depth given for the crop; water it first if dry. Sow, cover and firm gently, then keep the seed zone moist. On coarse no-dig compost, use a little sieved compost in the drill and over the seed."
+        },
+        {
+          "title": "Start under cover",
+          "text": "Modules in a greenhouse or on a windowsill give early crops a start while outside soil is still cold. Sow at the crop’s depth, label with variety and date, and give the seedlings light and steady moisture. Use modules early in the year; later, a small outdoor nursery bed is often easier than nursing young outdoor crops through a hot greenhouse."
+        },
+        {
+          "title": "Plant them out",
+          "text": "Harden indoor-raised plants gradually: put them outside in a sheltered spot by day and return them under cover at night, increasing exposure over two to three weeks. Keep tender crops from frost. Water before lifting, preserve the roots, and plant at the crop’s stated depth and spacing. Firm gently and water in."
+        }
+      ],
+      "closing": {
+        "title": "A small experiment: mixed salad leaves",
+        "text": "For an odd corner, try broadcasting mixed salad seed. Choose crops with compatible sowing times, covering depths and picking sizes. Scatter evenly, cover as required and water gently. Thin before the strongest swamp the rest, and keep a separate main sowing of any crop you are relying on."
+      },
+      "footnote": "Sow little and often where the crop allows it. Check the individual guide before treating all seeds, plugs or planting depths alike; carrots, lettuces and peas do not start in the same way.",
+      "source": "John: No-dig sowing, module notes and Chuck It Around. Crop JSON; RHS hardening off.",
+      "caption": "Sow directly, or raise plants separately. Harden indoor-raised plants before planting out."
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "version": 1,
+  "status": "draft-for-John-review",
+  "book": "The Vegetable Guru",
+  "collection": "Extra opening and Growing Techniques pages",
+  "created": "2026-10-09",
+  "editionNote": "Review pagination only; no full-book integration or approval",
+  "measurements": {
+    "bedWidth": {
+      "metric": "1.2 m",
+      "imperial": "4 ft"
+    },
+    "tomatoPot": {
+      "metric": "30 cm",
+      "imperial": "12 inches"
+    }
+  },
+  "sourceRecord": "research-notes.md",
+  "pages": [
+    {
+      "id": "compost-bins",
+      "section": "Growing Techniques · Making and using compost",
+      "title": "Making compost",
+      "subtitle": "the secret’s in the bin",
+      "lead": "Composting keeps useful material in the garden. Last year’s plant waste becomes part of next year’s growing medium. The important bit is giving it somewhere convenient to break down.",
+      "layout": "compost-bins",
+      "image": "compost-bins-hasps-v3.png",
+      "imageAlt": "Three brick compost bins with wooden plank lids, two hinges and a hasp on each front door: filling, rotting and ready to use.",
+      "stages": [
+        {
+          "title": "Filling",
+          "text": "Add new material here as it arrives."
+        },
+        {
+          "title": "Rotting",
+          "text": "Leave the full bin to break down."
+        },
+        {
+          "title": "Ready",
+          "text": "Keep finished compost until needed."
+        }
+      ],
+      "blocks": [
+        {
+          "title": "Compost bin basics",
+          "text": "A good compost bin should have a waterproof lid, sturdy sides, a rodent-resistant base and an opening you can actually empty through. Bigger bins are best; they retain heat and moisture better. You can buy PVC starter bins but beware of poorly fitting lids and front hatches - best is to make your own (see below)."
+        },
+        {
+          "title": "Three bins is best",
+          "text": "With one bin, you will always be in a mess. With two bins, you may need to bag up finished compost to make room. Three bins let each job have its own space. You do not have to shovel the contents along a row: the bins change jobs as they become empty."
+        }
+      ],
+      "source": "John: Compost Bins chapter; My Compost Method, 00:01–04:50; Why We Make Compost.",
+      "makeYourOwn": {
+        "title": "Make your own",
+        "text": "A purpose-built compost bin is best. You can recycle old materials such as pallets, or buy and build from new. Edges should fit together tightly to exclude rodents. Sides should penetrate the soil for the same reason.",
+        "image": "compost-bin-options-v1.png",
+        "imageAlt": "Two examples: a brick bin with an opening front door and a timber bin with removable front boards. Both have wooden plank lids.",
+        "captions": [
+          "Brick sides and a wooden lid",
+          "Timber sides and a wooden lid"
+        ]
+      }
+    }
+  ]
+}

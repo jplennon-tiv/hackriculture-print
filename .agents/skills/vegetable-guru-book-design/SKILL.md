@@ -1,6 +1,6 @@
 ---
 name: vegetable-guru-book-design
-description: Coordinate The Vegetable Guru book design across covers, introduction, contents, vegetable and Troubles pages. Use for book-wide visual consistency or designing a new or revised book component, applying shared colour, typography, margins and section treatments with the existing layout and artwork skills.
+description: Compose The Vegetable Guru book pages and coordinate design across covers, openings, illustrated topic summaries, vegetable and Troubles pages. Use for headers, text/image relationships, visual hierarchy, spreads or book-wide consistency, applying the shared design system with the layout and artwork skills.
 ---
 
 # The Vegetable Guru — book design
@@ -34,6 +34,8 @@ Keep current selections in the handover rather than hard-coding them in this ski
 
 | Requested work | Apply |
 | --- | --- |
+| Illustrated topic overview, practical sequence, comparison or explanation | [Illustrated topic-page composition](references/illustrated-topic-pages.md), read before allocating copy and image space |
+| New researched gardening copy for a topic page | [Gardening Research](/Users/johnlennon/.codex/skills/gardening-research/SKILL.md); supplied-copy layout alone does not initiate new research |
 | Reading or changing shared JSON, including book opening/cover copy | [hackriculture-data](../hackriculture-data/SKILL.md), before the data operation |
 | New/revised page composition, fit, opening sequence, facing spreads, pagination or assembly | [book-layout-review](../book-layout-review/SKILL.md), plus the relevant section treatment in the design system |
 | New/restyled decorative illustration or a style comparison | [vegetable-guru-artwork](../vegetable-guru-artwork/SKILL.md), which uses the available imagegen skill/tool |
@@ -46,6 +48,11 @@ Do not load or execute unrelated specialists. Artwork work does not implicitly
 rebuild guides, and a small layout edit does not require a catalogue export.
 
 ## Design and review coherently
+
+For new illustrated topic pages, the linked composition workflow covers headers,
+reading order, image/text relationships, whitespace, explanatory artwork and
+render-and-revise review. Use it within this skill; it is not another style
+authority or an approved template. Respect a requested summary page budget.
 
 Carry the existing visual language into the requested component: headline/body
 contrast, readable type, family colours, illustration character and deliberate
