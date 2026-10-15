@@ -1,55 +1,73 @@
 {
   "date": "2026-10-14",
-  "status": "passed; contents remain a design proposal",
-  "reviewedPages": {
-    "imperial": [
-      4,
-      5,
-      6
-    ],
-    "metric": [
-      4,
-      5,
-      6
-    ]
+  "status": "Facing contents with new Introduction title/references visually checked",
+  "pdfHashes": {
+    "imperial": "f5c3f28e69b3bdeffff5e3a85d59b95d1a12528d77f89a8ee63560aa7c246e64",
+    "metric": "4651e7f254170b0374b7e7a6be9c69310e58ac1162d11fbdcbe07258d1713f85"
   },
-  "facingSpreadsReviewed": {
-    "imperial": [
-      [
-        4,
-        5
-      ]
+  "coverage": {
+    "imperialFacingSpread": [
+      4,
+      5
     ],
-    "metric": [
-      [
-        4,
-        5
-      ]
-    ]
+    "metric": "Both bodies pixel-identical through 225 mm; both metric footers visually inspected."
   },
-  "sourceComparison": "Existing harvest illustration, guide/family labels, crop coverage, palette, type and first-two-page composition retained; folios updated for the requested 176-page order. Third-page navigation expanded for the new openers; spacing adjusted without reducing type.",
-  "intentionalNewDesign": "Expanded section navigation on page 6 remains for review; no new artwork.",
+  "baseline": "references/illustrated-4-5-2026-10-14/",
+  "baselineComparison": "Accepted simple headings, 10.5 pt rows, margins and four original artworks retained. Introduction label/folio now 7, Vegetable Guides 8 and how-to 9; all other current references unchanged.",
+  "artwork": [
+    {
+      "id": "H1",
+      "folio": 4,
+      "role": "header",
+      "file": "docs/assets/vegetable-guru-stock/assets/h1-roots-beetroot-hero-style-v2.png",
+      "sha256": "c37f9ada30fa364ee9936c609f0634b367b43be71617c901bcecae393c69be0d",
+      "sourceManifest": "docs/assets/vegetable-guru-stock/ARTWORK.json",
+      "placementStatus": "Accepted decoration retained; relocated for John’s requested opening sequence"
+    },
+    {
+      "id": "H2",
+      "folio": 5,
+      "role": "header",
+      "file": "docs/assets/vegetable-guru-stock/assets/h2-roots-turnips-hero-style-v2.png",
+      "sha256": "273fafe68e1222d1f55770277259c70738f0b18774db37435d3630e58bf64759",
+      "sourceManifest": "docs/assets/vegetable-guru-stock/ARTWORK.json",
+      "placementStatus": "Accepted decoration retained; relocated for John’s requested opening sequence"
+    },
+    {
+      "id": "H5",
+      "folio": 5,
+      "role": "lower",
+      "file": "docs/assets/vegetable-guru-stock/assets/h5-growing-start-hero-style-v2.png",
+      "sha256": "c4c5e901ccbaa15e7e925d66bf6625e6489f8fe93f0a7d58a2e460645d7ea345",
+      "sourceManifest": "docs/assets/vegetable-guru-stock/ARTWORK.json",
+      "placementStatus": "Accepted decoration retained; relocated for John’s requested opening sequence"
+    },
+    {
+      "id": "H6",
+      "folio": 5,
+      "role": "lower",
+      "file": "docs/assets/vegetable-guru-stock/assets/h6-growing-harvest-hero-style-v2.png",
+      "sha256": "df49760957364ed5de7697eb5e9bef8907578bcca6f12625d1671fcd9bae6305",
+      "sourceManifest": "docs/assets/vegetable-guru-stock/ARTWORK.json",
+      "placementStatus": "Accepted decoration retained; relocated for John’s requested opening sequence"
+    }
+  ],
+  "findings": [
+    "All 80 destinations retained",
+    "New Introduction label fits one row",
+    "No observed clipping, missing artwork, overlap or footer collision"
+  ],
   "footerClearanceMm": {
     "imperial": [
-      10.893,
-      5.804,
-      4.771
+      15.023,
+      6.577
     ],
     "metric": [
-      10.893,
-      5.804,
-      4.771
+      15.023,
+      6.577
     ]
   },
-  "pdfHashes": {
-    "imperial": "49c8f4776d2bed72e3ca4ada9bd4d56c1382068b94560d08bec71d7e8af66564",
-    "metric": "fe9bc0da88a0482b43bff44856d4a2af5c649eb27b1b620d0f3b5b485f166745"
-  },
-  "limits": [
-    "Both-unit contents checked; complete revised book assembled in imperial only.",
-    "Source guide and topic PDF folios remain unchanged; current positions are in the separate assembled derivative."
-  ],
   "protectedFilesVerified": 95,
-  "sourcePdfsCounted": 121,
-  "focusedLogicTestsPassed": 14
+  "copySave": "INTRODUCTION-TITLE-SAVE.json",
+  "approval": "John requested the Introduction title and facing guide pages; no final-book or supplier approval implied."
 }

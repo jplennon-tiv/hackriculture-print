@@ -1,27 +1,35 @@
-import {renderEntryPages, escapeHtml as esc} from './book-content.mjs';
+import {escapeHtml as esc} from './book-content.mjs';
+
+// Existing house-style stock, reused without changing the source images.
+export const contentsArtwork = [
+  {id:'H1',folio:4,role:'header',file:'docs/assets/vegetable-guru-stock/assets/h1-roots-beetroot-hero-style-v2.png'},
+  {id:'H2',folio:5,role:'header',file:'docs/assets/vegetable-guru-stock/assets/h2-roots-turnips-hero-style-v2.png'},
+  {id:'H5',folio:5,role:'lower',file:'docs/assets/vegetable-guru-stock/assets/h5-growing-start-hero-style-v2.png'},
+  {id:'H6',folio:5,role:'lower',file:'docs/assets/vegetable-guru-stock/assets/h6-growing-harvest-hero-style-v2.png'}
+];
 
 // This is a proposed placement map. It never changes saved source PDF folios.
 export function createContentsPlan(base, sources) {
   const plan = structuredClone(base);
-  plan.status = 'John-requested section order, 14 October 2026; new opener designs and contents remain for review. Source PDFs retain original folios.';
+  plan.status = 'John-authorised ordering and navigation refinement, 14 October 2026; revised copy/layout remains for review. Source PDFs retain original folios.';
   plan.openingPlan = [
-    [1, 'Title'], [2, 'Publication details'], [3, 'Welcome and author'],
-    [4, 'Contents: vegetables'], [5, 'Contents: vegetables and Troubles'],
-    [6, 'Contents: openings, Growing Techniques and index'],
-    [7, 'Why Grow Your Own'], [8, 'Blank: faces Vegetable Varieties opener'],
-    [9, 'Vegetable Varieties'], [10, 'How to use: calendar'], [11, 'How to use: difficulty and core needs']
+    [1, 'Title'], [2, 'Publication details'],
+    [3, 'Blank: places the contents on facing pages'],
+    [4, 'Contents: Vegetable Guides'], [5, 'Contents: Vegetable Troubles and Growing Techniques'],
+    [6, 'Blank: faces the Introduction'], [7, 'Introduction — why grow your own'],
+    [8, 'Vegetable Guides'], [9, 'Vegetable guides — how to use']
   ].map(([page, content]) => ({page, content}));
   const topicOrder = ['technique:organic', 'technique:plot-location', 'technique:plot-layout', 'technique:plot-layout-branching',
     'cultivation:overview', 'cultivation:no-dig', 'cultivation:digging', 'cultivation:digging-finish',
-    'technique:greenhouse-choose', 'technique:greenhouse-beds', 'technique:greenhouse-no-dig-seasons',
-    'technique:rotation', 'technique:compost-bins', 'technique:compost-use', 'technique:watering', 'technique:sowing'];
+    'technique:compost-bins', 'technique:compost-use', 'technique:rotation', 'technique:sowing', 'technique:watering',
+    'technique:greenhouse-choose', 'technique:greenhouse-beds', 'technique:greenhouse-no-dig-seasons'];
   const topicMap = {};
   for (const [unit, edition] of Object.entries(plan.editions)) {
     let delta = plan.openingPlan.length - edition.openingPagesReserved;
     let cursor = plan.openingPlan.length + 1;
     edition.openingPagesReserved = plan.openingPlan.length;
-    edition.sectionOpeners = [{source:'opening:varieties',startPage:9,label:'Vegetable Varieties'}];
-    edition.extraBlanks = [{page:8,reason:'Faces Vegetable Varieties opener'}];
+    edition.sectionOpeners = [{source:'opening:varieties',startPage:8,label:'Vegetable Guides'}];
+    edition.extraBlanks = [{page:3,reason:'Places the contents on facing pages'}, {page:6,reason:'Faces the Introduction'}];
     let troublesStarted = false;
     for (const doc of edition.documents) {
       if (doc.type === 'trouble' && !troublesStarted) {
@@ -55,33 +63,43 @@ export function createContentsPlan(base, sources) {
   return {plan, topicMap};
 }
 
-export function renderUpdatedContents(data, units, plan, themes) {
-  const extra = data.contents.expanded;
+export function renderUpdatedContents(data, units, plan) {
+  const toc = data.contents, extra = toc.expanded;
   if (!extra) throw Error('Missing expanded contents copy');
-  const copy = structuredClone(data);
-  copy.contents.pages[0].note = extra.firstPageNote;
-  copy.contents.pages[1].note = extra.secondPageNote;
-  const original = renderEntryPages(copy, units, plan, themes);
   const edition = plan.editions[units];
   const sources = new Map(edition.additions.map(d => [d.source, d.startPage]));
-  for (const d of edition.sectionOpeners) sources.set(d.source,d.startPage);
-  sources.set('opening:welcome', 3); sources.set('opening:how-to', 10); sources.set('back:index', edition.index.startPage);
-  const seen = new Set(); const additionalReferences = [];
-  const row = item => {
-    const folio = sources.get(item.source);
-    if (!Number.isInteger(folio) || seen.has(item.source)) throw Error('Missing or duplicate contents destination: ' + item.source);
-    seen.add(item.source); additionalReferences.push({...item, startPage: folio});
-    return `<li data-source="${esc(item.source)}"><span>${esc(item.label)}</span><span class="page-ref">${folio}</span></li>`;
+  for (const d of edition.sectionOpeners) sources.set(d.source, d.startPage);
+  sources.set('opening:how-to', 9); sources.set('back:index', edition.index.startPage);
+  const documents = new Map(edition.documents.map(d => [d.type + ':' + d.key, d]));
+  if (documents.size !== edition.documents.length) throw Error('Duplicate guide identity');
+  const seen = new Set(), references = [];
+  const links = new Map([...extra.gettingStarted.entries, ...extra.groups.flatMap(g => g.entries), extra.index].map(x => [x.source, x]));
+  if (links.size !== sources.size) throw Error('Missing or duplicate contents destination');
+  const destination = source => {
+    const item = links.get(source), folio = sources.get(source);
+    if (!item || !Number.isInteger(folio) || seen.has(source)) throw Error('Missing or duplicate contents destination: ' + source);
+    seen.add(source); references.push({...item, startPage:folio}); return {item, folio};
   };
-  const group = g => `<section class="topic-group"><h3>${esc(g.heading)}</h3><ul>${g.entries.map(row).join('')}</ul></section>`;
-  const p = extra.page;
-  const third = `<section class="sheet verso contents-extra" data-folio="6"><div class="content">
-    <header class="page-header"><div class="eyebrow">${esc(p.eyebrow)}</div><img class="harvest" src="${esc(data.contents.illustration.src)}" alt="${esc(data.contents.illustration.alt)}"><h1>${esc(p.heading.text)} <span>${esc(p.heading.emphasis)}</span></h1>${p.paragraphs.map(t=>`<p>${esc(t)}</p>`).join('')}</header>
-    <section class="getting-started"><h2>${esc(extra.gettingStarted.heading)}</h2><ul>${extra.gettingStarted.entries.map(row).join('')}</ul></section>
-    <h2 class="techniques-heading">${esc(extra.techniquesHeading)}</h2>
-    <div class="contents-grid techniques-grid"><div>${extra.groups.slice(0,3).map(group).join('')}</div><div>${extra.groups.slice(3).map(group).join('')}</div></div>
-    <section class="index-link"><ul>${row(extra.index)}</ul><p>${esc(extra.index.description)}</p></section>
-    <p class="contents-note">${esc(extra.note)}</p></div><footer><span>${esc(data.book.title.toUpperCase())}</span><span>${units.toUpperCase()} · 6</span></footer></section>`;
-  if (seen.size !== sources.size || [...sources.keys()].some(s => !seen.has(s))) throw Error('Contents do not cover all added pages');
-  return {body: original.contentsBody + third, references: [...original.contents, ...additionalReferences]};
+  const row = source => {
+    const {item, folio} = destination(source);
+    return `<li data-source="${esc(source)}"><span>${esc(item.label)}</span><span class="page-ref">${folio}</span></li>`;
+  };
+  const guideRow = (item, type) => {
+    const identity = type + ':' + item.key, doc = documents.get(identity);
+    if (!doc || seen.has(identity)) throw Error('Missing or duplicate guide: ' + identity);
+    seen.add(identity); references.push({type, key:item.key, label:item.label, startPage:doc.startPage});
+    return `<li data-toc="${esc(item.label)}"><span>${esc(item.label)}</span><span class="page-ref">${doc.startPage}</span></li>`;
+  };
+  const section = source => {
+    const {item, folio} = destination(source);
+    return `<h2 class="contents-section" data-source="${esc(source)}"><span>${esc(item.label)}</span><span class="page-ref">${folio}</span></h2>`;
+  };
+  const art = (folio,role) => contentsArtwork.filter(a=>a.folio===folio&&a.role===role).map(a=>`<img src="/${esc(a.file)}" alt="" aria-hidden="true" data-artwork="${a.id}">`).join('');
+  const sheet = (folio, body) => `<section class="sheet ${folio % 2 === 0 ? 'verso' : ''} contents-unified" data-folio="${folio}"><div class="content"><header class="contents-header"><h1>${esc(extra.page.heading.text)}</h1>${art(folio,'header')}</header>${body}${folio===5?`<div class="contents-lower-art" aria-hidden="true">${art(folio,'lower')}</div>`:''}</div><footer><span>${esc(data.book.title.toUpperCase())}</span><span>${units.toUpperCase()} · ${folio}</span></footer></section>`;
+  const crops = toc.families.flatMap(f => f.entries);
+  const first = sheet(4, `<ul class="opening-list">${['technique:why-grow'].map(row).join('')}</ul>${section('opening:varieties')}<div class="contents-grid"><ul>${row('opening:how-to')}${crops.slice(0,21).map(x => guideRow(x,'vegetable')).join('')}</ul><ul>${crops.slice(21).map(x => guideRow(x,'vegetable')).join('')}</ul></div>`);
+  const second = sheet(5, `<div class="contents-grid"><section>${section('opening:troubles')}<ul>${toc.troubles.map(x => guideRow(x,'trouble')).join('')}</ul></section><section>${section('opening:techniques')}<ul>${extra.groups.flatMap(g => g.entries).map(x => row(x.source)).join('')}</ul><ul class="index-link">${row(extra.index.source)}</ul></section></div>`);
+  if (seen.size !== sources.size + documents.size || [...sources.keys(),...documents.keys()].some(s => !seen.has(s))) throw Error('Contents do not cover every destination');
+  if (references.some((r,i) => i && r.startPage < references[i-1].startPage)) throw Error('Contents are not in manuscript order');
+  return {body:first + second, references};
 }

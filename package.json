@@ -22,7 +22,8 @@
     "book:index": "node scripts/build-book-index.mjs",
     "test:book-index": "node --test scripts/book-index.test.mjs",
     "book:contents": "node scripts/build-updated-contents.mjs",
-    "test:book-contents": "node --test scripts/book-contents.test.mjs"
+    "test:book-contents": "node --test scripts/book-contents.test.mjs",
+    "book:guide-key": "node scripts/build-book-guide-key.mjs"
   },
   "dependencies": {
     "dayjs": "^1.11.23",

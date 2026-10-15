@@ -66,10 +66,16 @@ varieties and Key Risks. Retain the approved information richness.
 
 ## Vegetable continuation
 
-Retain the clear **Growing & harvesting** title and three-part reminder banner.
-Omit the redundant “crop / Growing Guide” line. Use two practical-advice columns,
-illustrated planting instructions, the useful pest table and **full-width Final
-Tips**. Use the practical-title and section-heading roles in the shared type hierarchy.
+The frozen reference uses **Growing & harvesting** and the three-part reminder
+banner. John’s 15 October navigation correction replaces the practical-page title
+in the current whole-book review with **Growing guide · <crop>**, as one Lilita
+heading block. Fit the whole heading for longer names; preserve body type and
+the reminder banner. “See also” references must name the crop on every destination
+page; omit the line where none qualify. John approved this treatment on 15 October;
+the original guide proofs and ordinary exporter are unchanged. Omit the redundant
+“crop / Growing Guide” line. Keep two practical-advice columns, illustrated
+planting instructions, the useful pest table and **full-width Final Tips**.
+Use the practical-title and section-heading roles in the shared type hierarchy.
 
 The displayed Kale summaries and measurement consolidations are part of the
 approved specimen. [Source-matched copy](publication/book-pilot/page-two-copy.mjs)

@@ -58,11 +58,15 @@ before allocating text and image space. It covers headers, hierarchy, explanator
 illustrations and actual visual revision; new compositions remain proposals.
 
 For fit, whitespace, overflow, proof review or assisted guide export, use
-[book-layout-review](.agents/skills/book-layout-review/SKILL.md) for bound book
-pages, or the retained [guide-layout-review](.agents/skills/guide-layout-review/SKILL.md)
-for individual A4 sheets, together with
+[book-layout-review](.agents/skills/book-layout-review/SKILL.md) for simple content
+pages and their facing spreads in the bound book, or the retained
+[guide-layout-review](.agents/skills/guide-layout-review/SKILL.md) for individual
+A4 sheets, together with
 [ASSISTED-PRINT.md](docs/ASSISTED-PRINT.md). Prepare, measure and inspect actual
 PDFs; ordinary browser export remains deterministic without an external AI API.
+Contents and index pages are outside the layout skills' scope. Use their agreed
+structure and the book design system directly, with actual PDF checks. Covers,
+overall book ordering and full-book assembly use the book-design workflow.
 
 For The Vegetable Guru vegetable illustration generation, restyling or style
 comparison, use [vegetable-guru-artwork](.agents/skills/vegetable-guru-artwork/SKILL.md).

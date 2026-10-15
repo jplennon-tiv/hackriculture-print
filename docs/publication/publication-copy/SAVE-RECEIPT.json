@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-15",
+  "status": "Draft wording for John’s review",
+  "previousRevision": "10773e910c2b988d7ff6ed32a6de139b8c003d7a793998c941c3af559e59a812",
+  "changed": 2,
+  "revision": "ad0539eda57eb6469b5b3aa3dee25ee17d34240919b2904982db1cbb8e73d316",
+  "backup": "backups/admin/2026-10-15T12-59-04.433Z-db93d0fe-3a09-4644-b06b-8b059759706b",
+  "changedDocuments": [
+    "publication",
+    "covers"
+  ],
+  "exactPreviousBytesVerified": true,
+  "unchangedDocuments": [
+    "book",
+    "introduction",
+    "author",
+    "contents",
+    "how-to",
+    "index"
+  ],
+  "canonicalGardeningRecordsChanged": false,
+  "fullBookRegenerated": false,
+  "coverArtworkChanged": false,
+  "backCoverWords": 78,
+  "unresolved": [
+    "Copyright year",
+    "Imprint name",
+    "ISBN",
+    "Edition and publication year"
+  ],
+  "sourceReferences": [
+    "docs/handover/START-HERE.md",
+    "docs/publication/vegetable-guru-back-collage/ARTWORK.json",
+    "../hackriculture-data/book-layout/how-to.json",
+    "https://www.gov.uk/copyright",
+    "https://www.gov.uk/guidance/exceptions-to-copyright"
+  ],
+  "intentionalChanges": [
+    "Replace publication placeholder prose with copyright wording, factual AI-assisted artwork/design credit, source note and practical reader note.",
+    "Replace unnamed acknowledgements with a factual Sources section; no personal thanks or biographical claims invented.",
+    "Replace the back-cover lorem ipsum with three paragraphs covering the growing guides, Troubles and practical techniques. Preserve guide-count subtitle, price and B5 artwork."
+  ],
+  "approvalReference": "docs/publication/whole-book-order-preview/references/technique-headings-approved-2026-10-15/APPROVAL.json"
+}

@@ -1,0 +1,65 @@
+{
+  "date": "2026-10-15",
+  "status": "Combined headings and selective references visually checked; ready for John’s review",
+  "pdfSha256": "70a6a33c86496d2bf98340f0581523d86548d64ad8bc77449c59b229a2e86a96",
+  "render": {
+    "pages": 178,
+    "dpi": 110,
+    "format": "JPEG",
+    "nativeTextRetainedInPdf": true
+  },
+  "coverage": {
+    "all44CombinedHeaderRegions": true,
+    "actualFacingPairs": [
+      [
+        10,
+        11
+      ],
+      [
+        14,
+        15
+      ],
+      [
+        76,
+        77
+      ]
+    ],
+    "representativeCompletePages": [
+      10,
+      11,
+      14,
+      15,
+      76,
+      77
+    ],
+    "browserHighlightedCarrotSpread": [
+      14,
+      15
+    ],
+    "allSavedGuidesVisuallyRereviewed": false,
+    "previousBroaderReview": "references/order-174-before-welcome-removal-2026-10-14/VISUAL-REVIEW.json"
+  },
+  "findings": [
+    "All 44 practical second-page headings combine Growing guide and the crop name in the same display type; all header regions visually inspected with no observed collisions, duplicate old titles or clipping.",
+    "The whole heading fits at 22.25–28.5 pt; 11 longer names use smaller sizes. Original heading text is removed only in the measured header region.",
+    "Four existing named third-page headings are retained. There are 64 related-reading links on 40 continuation pages; eight crops have no See also line.",
+    "Complete facing spreads cover an ordinary crop with explicit references, the longest title, and a crop without references.",
+    "Original body text checked on all 137 reused guide pages, allowing only the 44 heading replacements and footer additions.",
+    "All 17 additional-page bodies retain the preceding Introduction heading adaptation.",
+    "All 64 navigation links and 371 existing index links reopen as actual internal page-object destinations. Literal crop mentions checked on 51 distinct final destination pages.",
+    "Minimum measured body-to-footer text clearance is 4.827 mm.",
+    "Gold highlight rectangles exist only in the browser and can be hidden; PDF has no review marks.",
+    "No page-order, gardening advice, shared JSON, source-artwork or guide-export changes."
+  ],
+  "tests": {
+    "focusedNavigationTests": 5,
+    "failed": 0
+  },
+  "protectedSourcesRechecked": 95,
+  "currentSharedCopyInputsVerified": 8,
+  "sharedCopyEdits": "None in this navigation revision.",
+  "browserChecks": "BROWSER-CHECKS.json",
+  "sequenceChecks": "SEQUENCE-CHECKS.json",
+  "navigationChecks": "NAVIGATION-PDF-CHECKS.json",
+  "approval": "Requested heading and reference revisions prepared for review; no self-approval or final production approval."
+}

@@ -20,7 +20,7 @@ them. Cover JSON stores copy for later reconstruction of the selected raster art
 ## Section opener proposals
 
 The [14 October section openers](../publication/whole-book-order-preview/SECTION-OPENERS.json)
-are new composition proposals for Vegetable Varieties, Vegetable Troubles and
+are new composition proposals for Vegetable Guides, Vegetable Troubles and
 Growing Techniques. They reuse H4 summer stock, the established aphid/mildew/slug
 risk drawings and the approved starter-plot illustration respectively. All
 source files remain unchanged; editable wording is in shared `book.sectionOpeners`.
@@ -43,7 +43,7 @@ hashes exact frozen PDFs in both units, text, layout sources and four placed
 illustration groups. Preserve its `references/approved-2026-10-08/` files.
 [Editable working text](../../../hackriculture-resources/summaries/cultivation-dig-no-dig/copy.json)
 remains in the resource library; John's later edits need updated proofs.
-The current imperial whole-book preview includes these pages at 160–163.
+The current imperial whole-book preview includes these pages at 158–161.
 Final production integration remains pending; this is page approval, not
 supplier or physical-proof approval.
 
@@ -54,7 +54,7 @@ John approved the [four-page index](../publication/book-index/REVIEW.html) on
 It reuses approved contents typography, palette and mirrored margins, with a
 text-only two-column composition. Editable words remain in shared
 `book-layout/index.json`. The current whole-book derivative has numeric folios
-at 172–175; historical T/C references remain only in the preserved standalone
+at 170–173; historical T/C references remain only in the preserved standalone
 proof. Final pagination is still reviewable. No new artwork or existing asset replacement.
 
 ## Extra opening and Growing Techniques pages
@@ -188,8 +188,13 @@ idea, the approved tomato/onion/pea/carrot/kale heroes, and the original harvest
 cluster. [Source hashes and decisions](../publication/vegetable-guru-opening-pages/CHECKS.json)
 record that reuse and the deliberate title-page simplification. Pages 1–3 use
 lipsum orum at John's request and remain unapproved; author/publication fields
-are placeholders. The rough imperial preview includes copies with proposed
-replacement artwork; the earlier production books retain their older openings.
+are placeholders. The current imperial preview includes title and publication
+only; John requested removal of the welcome/author page. New [publication and
+back-cover wording](../publication/publication-copy/REVIEW.html) was drafted on
+15 October in the shared copy layer; the full proof and B5 raster still show the
+previous wording pending placement. Its copy, H3/S1 trials
+and the original proposal are retained. Earlier production books keep their
+older openings.
 
 ## Additional compact-book illustration stock
 
@@ -218,14 +223,20 @@ A4's two-page-crop wording and folios do not describe the new edition.
 The [compact adaptation approved on 7 October](../publication/vegetable-guru-entry-pages/REVIEW.html)
 reflows this design over book pages 4–5, with the then-current Bookvault references in both
 units. Approval hashes are under `compactEntryPages` in the central manifest.
-The older rough imperial preview tried H1/H2 header artwork; those placements
-are not used in the current whole-book preview. The earlier production books
-retain their older openings.
-The [expanded contents, updated 14 October](../publication/contents-update/REVIEW.html)
-preserves this original harvest artwork and two-page composition, adds a third
-page for all new sections and updates references against a separate pagination
-plan. It is integrated into the 176-page screen preview in John's requested
-order. Its expanded design remains for review; the 7 October sources remain intact.
+The earlier production books retain their older openings. The current H1/H2
+allocation follows the later accepted two-page revision below.
+The [simple two-page contents, corrected 14 October](../publication/contents-update/REVIEW.html)
+replace the rejected numbered three-page hierarchy. John requested plain section
+titles and lists, and has since confirmed that structure and requested a little
+decoration. Contents/indexes are now outside the layout skills’ scope. H1/H2
+hero-style roots decorate the two headers; H5 seedlings and H6 harvest fill the
+second page’s lower space. These are existing stock, reused without modification;
+John accepted these placements for integration. Family/topic subheadings and
+explanatory notes remain omitted. The welcome entry is removed at John’s request;
+all 80 current destinations remain. Blank 3 puts the contents on facing pages
+4–5, followed by blank 6, Introduction 7 and Vegetable Guides/how-to facing at 8–9. Their current PDF is integrated into
+the complete imperial preview. The plain baseline and exact accepted illustrated
+4–5 proofs are retained under the contents reference folders. Original approved compact and A4 sources remain intact.
 
 ## Illustrated how-to
 
@@ -261,3 +272,12 @@ contents and how-to layouts/PDFs and cover assets. On 6 October all three output
 PDFs matched their installed copies and approval hashes, and all 11 recorded
 front-matter files matched. Preserve the originals; the A4 builders overwrite
 installed A4 assets and are not compact-book builders.
+
+The [one-page guide key](../publication/guide-key/REVIEW.html), at current folio 9,
+now faces the Vegetable Guides opener at 8 in the complete PDF. Its title
+is “Vegetable guides / how to use”; both-unit key PDFs and the complete imperial
+preview have been rebuilt. It condenses the same three explanations
+and retains all nine instructional assets, the 80 mm needs example and a smaller
+120 mm calendar. H5 supplies a small decorative header; H6 is omitted. This is a
+new review composition authorised by John’s 14 October plan, not a replacement
+of the frozen approved two-page source. [Adaptations and checks](../publication/guide-key/README.md).

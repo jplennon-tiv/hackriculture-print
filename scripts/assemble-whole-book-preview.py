@@ -1,7 +1,8 @@
 """Assemble the current requested section order without re-exporting any crop guide.
 
-Saved screen body pages retain their native text and artwork. Only their old
-footer text objects are removed, then replaced with measured current folios.
+Saved screen body pages retain their native text and artwork. Old footers are
+replaced with current folios/navigation; the practical-page heading becomes a
+source-recorded combined Growing guide / crop heading. Review highlights stay outside the PDF.
 """
 from pathlib import Path
 import hashlib, json, re, gc, logging
@@ -18,6 +19,9 @@ MM=72/25.4;W=185*MM;H=240*MM
 j=lambda p:json.loads((ROOT/p).read_text())
 sha=lambda p:hashlib.sha256((ROOT/p).read_bytes()).hexdigest()
 components=j('docs/publication/whole-book-order-preview/COMPONENT-CHECKS.json')
+navigation=components.get('navigation')
+assert navigation, 'Build the current navigation overlays before assembly'
+nav_pages={p['folio']:p for p in navigation['pages']}
 plan=j('docs/publication/contents-update/ASSEMBLY-PROPOSAL.json');edition=plan['editions']['imperial']
 toc=j('docs/publication/contents-update/CHECKS.json');toc_result=next(x for x in toc['results'] if x['units']=='imperial')
 idx=j('docs/publication/whole-book-order-preview/index/CHECKS.json')
@@ -26,7 +30,7 @@ old=j('docs/publication/bookvault-progress-preview/CHECKS.json')
 assert sha(old['pdf'])==old['sha256']
 assert sha(plan['basePlan']['path'])==plan['basePlan']['sha256']
 total=edition['plannedEvenTotal']; index_start=edition['index']['startPage']; index_end=edition['index']['endPage']
-assert len(edition['documents'])==58 and total==176 and idx['pages']==4
+assert len(edition['documents'])==58 and total==174 and idx['pages']==4
 assert not resolved['temporaryTopicReferences']
 def verify():
     for group in [components['copyInputs'],components['inputs'],components['assets']]:
@@ -34,12 +38,13 @@ def verify():
     for item in components['protectedFiles']:assert sha(item['path'])==item['sha256'],item['path']
     for item in components['components']+[components['footers'],toc_result]:assert sha(item['pdf'])==item['sha256'],item['pdf']
     assert sha(idx['pdf']['path'])==idx['pdf']['sha256']
+    for p,h in navigation['inputs'].items():assert sha(p)==h,p
 verify()
 
 def mult(a,b):
     return [a[0]*b[0]+a[1]*b[2],a[0]*b[1]+a[1]*b[3],a[2]*b[0]+a[3]*b[2],a[2]*b[1]+a[3]*b[3],a[4]*b[0]+a[5]*b[2]+b[4],a[4]*b[1]+a[5]*b[3]+b[5]]
 
-def remove_footer(obj,pdf,cm=None):
+def remove_footer(obj,pdf,cm=None,heading=False):
     """Remove complete BT/ET objects whose baselines lie wholly in the footer.
 
     Follow nested form matrices rather than guessing text encodings or covering
@@ -60,14 +65,15 @@ def remove_footer(obj,pdf,cm=None):
             assert block is not None
             ys.append(mult(tm,cm)[5])
         elif op==b'ET':
-            if ys and min(ys)>8.5*MM and max(ys)<9.5*MM:
+            lower,upper=(H-18*MM,H-4*MM) if heading else (0,12*MM)
+            if ys and min(ys)>lower and max(ys)<upper:
                 removed+=1
             else:
                 output.extend(block)
             block=None
         elif op==b'Do':
             form=res['/XObject'][args[0]].get_object()
-            if form.get('/Subtype')=='/Form':removed+=remove_footer(form,pdf,mult(list(map(float,form.get('/Matrix',[1,0,0,1,0,0]))),cm))
+            if form.get('/Subtype')=='/Form':removed+=remove_footer(form,pdf,mult(list(map(float,form.get('/Matrix',[1,0,0,1,0,0]))),cm),heading)
     assert block is None and not stack
     if removed:
         cs.operations=output
@@ -94,7 +100,10 @@ for c in components['components']:
     r=PdfReader(ROOT/c['pdf']);readers.append(r);assert len(r.pages)==len(c['folios'])
     for i,f in enumerate(c['folios']):component_pages[f]=(r.pages[i],c,i)
 toc_pdf=PdfReader(ROOT/toc_result['pdf']);index_pdf=PdfReader(ROOT/idx['pdf']['path']);footer_pdf=PdfReader(ROOT/components['footers']['pdf'])
+toc_pages={d['folio']:i for i,d in enumerate(toc_result['dom'])}
+assert len(toc_pdf.pages)==len(toc_pages)==2
 footers={d['folio']:footer_pdf.pages[i] for i,d in enumerate(components['footers']['pages'])}
+for p in footers.values():p.pop('/Annots',None) # replace browser URLs with real internal links below
 guides={};blanks={d['page'] for d in edition['extraBlanks']}
 blank_labels={d['page']:'Blank — '+d['reason'].lower() for d in edition['extraBlanks']}
 section_labels={d['startPage']:d['label'] for d in edition['sectionOpeners']}
@@ -103,6 +112,8 @@ for d in edition['documents']:
     for i in range(d['physicalPages']):guides[d['startPage']+i]=(d,i)
     blanks.update(d['blankFoliosAfter'])
 labels={x['source']:x['label'] for x in toc_result['references'] if 'source' in x}
+how_folio=next(x['startPage'] for x in toc_result['references'] if x.get('source')=='opening:how-to')
+why_folio=next(x['startPage'] for x in edition['additions'] if x['source']=='technique:why-grow')
 topic_by_folio={x['startPage']:x for x in edition['additions']}
 removed_counts=[]
 for folio in range(1,total+1):
@@ -110,21 +121,37 @@ for folio in range(1,total+1):
         d,offset=guides[folio];old_folio=d['sourceStartPage']+offset
         p=add(saved.pages[old_folio+1],folio,d['label']+(' — continued' if offset else ''),d['type'],d['pdf'],offset+1)
         removed=remove_footer(p,writer);assert removed==2,(folio,removed)
+        if nav_pages[folio]['heading']:
+            assert remove_footer(p,writer,heading=True)>0,('Original practical heading not removed',folio)
         removed_counts.append(removed);p.merge_page(footers[folio]);body_comparisons.append((folio,old_folio))
     elif folio in blanks:add(PageObject.create_blank_page(width=W,height=H),folio,blank_labels.get(folio,'Blank — preserves facing crop pages'),'blank',None,None)
     elif folio in component_pages:
         p,c,i=component_pages[folio]
-        label=labels.get(topic_by_folio.get(folio,{}).get('source'),{1:'Title',2:'Publication details',3:'Welcome and author',10:'How to use — calendar',11:'How to use — difficulty and needs',**section_labels}.get(folio,c['id']))
+        label=labels.get(topic_by_folio.get(folio,{}).get('source'),{1:'Title',2:'Publication details',how_folio:labels['opening:how-to'],**section_labels}.get(folio,c['id']))
         add(trim(p),folio,label,c['id'],c['pdf'],i+1)
-    elif 4<=folio<=6:add(trim(toc_pdf.pages[folio-4]),folio,'Contents'+(' — continued' if folio>4 else ''),'contents',toc_result['pdf'],folio-3)
+    elif folio in toc_pages:add(trim(toc_pdf.pages[toc_pages[folio]]),folio,'Contents'+(' — continued' if toc_pages[folio] else ''),'contents',toc_result['pdf'],toc_pages[folio]+1)
     elif index_start<=folio<=index_end:
         p=trim(index_pdf.pages[folio-index_start]);p.pop('/Annots',None)
         add(p,folio,'Index'+(' — continued' if folio>index_start else ''),'index',idx['pdf']['path'],folio-index_start+1)
     else:raise AssertionError(('Missing planned folio',folio))
+    if folio in footers and folio not in guides:
+        p=writer.pages[-1]
+        removed=remove_footer(p,writer);assert removed>0,('Missing original footer',folio)
+        removed_counts.append(removed);p.merge_page(footers[folio])
     if folio%25==0:print(f'Assembled folio {folio}/{total}',flush=True)
 add(PageObject.create_blank_page(width=W,height=H),None,'Inside back cover','blank',None,None)
 add(saved.pages[-1],None,'Back cover — B5','cover',old['pdf'],len(saved.pages))
 assert len(writer.pages)==total+4
+
+navigation_links=0
+for p in navigation['pages']:
+    for link in p['links']:
+        assert 1<=link['target']<=total
+        rect=(link['left']*MM,(240-link['bottom'])*MM,link['right']*MM,(240-link['top'])*MM)
+        annotation=writer.add_annotation(p['folio']+1,Link(rect=rect,target_page_index=link['target']+1))
+        annotation['/Dest'][0]=writer.pages[link['target']+1].indirect_reference
+        navigation_links+=1
+assert navigation_links==navigation['crossReferenceLinks']
 
 # All numeric index links and see references jump inside this assembled PDF.
 entry_folios={entry:index_start+i for i,p in enumerate(idx['dom']) for entry in p['entryIds']}
@@ -139,18 +166,20 @@ for i,page in enumerate(index_pdf.pages):
             dest=str(a['/Dest']);key=dest.removeprefix('/entry-')
             if key in entry_folios:target=entry_folios[key]+1
         assert target is not None and 2<=target<total+2,dict(a)
-        writer.add_annotation(index_start+1+i,Link(rect=tuple(a['/Rect']),target_page_index=target));index_links+=1
+        annotation=writer.add_annotation(index_start+1+i,Link(rect=tuple(a['/Rect']),target_page_index=target))
+        annotation['/Dest'][0]=writer.pages[target].indirect_reference
+        index_links+=1
 
 writer.add_outline_item('Front cover — G2',0)
 openings=writer.add_outline_item('Opening pages',2)
-for folio in [1,2,3,4,7]:writer.add_outline_item(records[folio+1]['label'],folio+1,parent=openings)
+for folio in [1,2,min(toc_pages),why_folio]:writer.add_outline_item(records[folio+1]['label'],folio+1,parent=openings)
 parents={}
 for d in edition['documents']:
-    kind=d['type'];label='Growing guides' if kind=='vegetable' else 'Troubleshooting guides'
+    kind=d['type']
     if kind not in parents:
         opener=next(x for x in edition['sectionOpeners'] if x['source']==('opening:varieties' if kind=='vegetable' else 'opening:troubles'))
         parents[kind]=writer.add_outline_item(opener['label'],opener['startPage']+1)
-        if kind=='vegetable':writer.add_outline_item('How to use this book',11,parent=parents[kind])
+        if kind=='vegetable':writer.add_outline_item(labels['opening:how-to'],how_folio+1,parent=parents[kind])
     writer.add_outline_item(d['label'],d['startPage']+1,parent=parents[kind])
 tech=writer.add_outline_item('Growing Techniques',next(x['startPage'] for x in edition['sectionOpeners'] if x['source']=='opening:techniques')+1)
 for d in sorted(edition['additions'],key=lambda x:x['startPage']):
@@ -160,31 +189,53 @@ writer.add_outline_item('Index',index_start+1);writer.add_outline_item('Back cov
 writer.set_page_label(0,0,prefix='Front cover');writer.set_page_label(1,1,prefix='Inside front cover')
 writer.set_page_label(2,total+1,style='/D',start=1);writer.set_page_label(total+2,total+2,prefix='Inside back cover');writer.set_page_label(total+3,total+3,prefix='Back cover')
 writer.page_layout='/TwoPageRight';writer.page_mode='/UseOutlines'
-writer.add_metadata({'/Title':'The Vegetable Guru — Whole-book order preview','/Author':'John Lennon','/Subject':f'Imperial review: {total} interior pages plus four cover leaves. New section openers for review; not a print upload.'})
+writer.add_metadata({'/Title':'The Vegetable Guru — Whole-book order preview','/Author':'John Lennon','/Subject':f'Imperial review: {total} interior pages plus four cover leaves. Revised navigation, guide key and order for review; not a print upload.'})
 OUT.parent.mkdir(parents=True,exist_ok=True);writer.write(OUT);del writer;gc.collect()
 
 # Verify visible body text as text at its actual page coordinates, including all
 # 137 reused guide pages. Only the removed footer lies outside this region.
 normal=lambda s:re.sub(r'\s+','',s)
-body_checked=0;footer_checked=0;component_blocks=0;topic_text_checks=0
+body_checked=0;footer_checked=0;component_blocks=0;topic_text_checks=0;navigation_checks=[]
+heading_changes={e['folio']:e['headingChange'] for c in components['components'] for e in c.get('evidence',[]) if e.get('headingChange')}
 with pdfplumber.open(OUT) as final,pdfplumber.open(ROOT/old['pdf']) as original:
     assert len(final.pages)==total+4
     for folio,old_folio in body_comparisons:
-        a=original.pages[old_folio+1].crop((0,0,W,228*MM)).extract_text() or ''
-        b=final.pages[folio+1].crop((0,0,W,228*MM)).extract_text() or ''
+        previous=original.pages[old_folio+1]
+        a=previous.crop((0,0,W,228*MM)).extract_text() or ''
+        current=final.pages[folio+1]
+        heading=nav_pages[folio]['heading']
+        if heading:
+            box=(heading['left']*MM,heading['top']*MM,heading['right']*MM,heading['bottom']*MM)
+            assert normal(previous.crop((0,0,W,18*MM)).extract_text() or '')==normal(heading['sourceHeading']),('Unexpected original heading content',folio)
+            assert normal(current.crop((0,0,W,18*MM)).extract_text() or '')==normal(heading['text']),('Missing combined heading',folio)
+            a=previous.crop((0,18*MM,W,228*MM)).extract_text() or ''
+            current=current.crop((0,18*MM,W,H))
+        b=current.crop((0,18*MM if heading else 0,W,228*MM)).extract_text() or ''
         assert a==b,('Body text differs',folio);body_checked+=1
+        if nav_pages[folio]['links']:
+            page=final.pages[folio+1];bottom=max(c['bottom'] for c in original.pages[old_folio+1].chars if c['top']<228*MM)
+            chars=[c for c in page.chars if c['top']>=228*MM]
+            gap=(min(c['top'] for c in chars)-bottom)/MM
+            assert gap>=3,('Navigation footer clearance',folio,gap)
+            for link in nav_pages[folio]['links']:
+                box=((link['left']-.3)*MM,(link['top']-.3)*MM,(link['right']+.3)*MM,(link['bottom']+.3)*MM)
+                assert normal(link['text']) in normal(page.crop(box).extract_text() or ''),('Missing navigation link',folio,link)
+            navigation_checks.append({'folio':folio,'bodyToFooterMm':gap,'links':len(nav_pages[folio]['links'])})
     for item in records:
         if item['folio'] is None:continue
         p=final.pages[item['pdfPage']-1]
         if item['kind']=='blank':assert not p.chars;continue
         if item['folio']==1:continue
         text=p.crop((0,225*MM,W,H)).extract_text() or ''
-        assert normal('IMPERIAL · '+str(item['folio'])) in normal(text),(item['folio'],text)
+        expected=nav_pages[item['folio']]
+        assert normal(expected['label']) in normal(text) and normal(text).endswith(str(item['folio'])),(item['folio'],text)
+        assert 'IMPERIAL' not in text,(item['folio'],text)
         footer_checked+=1
     for c in components['components']:
         for d in c['dom']:
             p=final.pages[d['folio']+1]
             for b in d['blocks']:
+                if b['top']>=225:continue # replaced by the common whole-book footer
                 box=(max(0,(b['left']-.4)*MM),max(0,(b['top']-.4)*MM),min(W,(b['right']+.4)*MM),min(H,(b['bottom']+.4)*MM))
                 actual=p.crop(box).extract_text(x_tolerance=1,y_tolerance=2) or ''
                 # Inline step numbers may be painted after the heading despite
@@ -196,21 +247,64 @@ with pdfplumber.open(OUT) as final,pdfplumber.open(ROOT/old['pdf']) as original:
         with pdfplumber.open(ROOT/d['pdf']) as source:
             a=Counter(c['text'] for c in source.pages[d['sourcePage']-1].chars if c['top']<225*MM and c['text'].strip())
         b=Counter(c['text'] for c in final.pages[d['startPage']+1].chars if c['top']<225*MM and c['text'].strip())
+        if d['startPage'] in heading_changes:
+            change=heading_changes[d['startPage']]
+            a.subtract(Counter(normal(change['sourceHeading'])))
+            assert all(n>=0 for n in a.values())
+            a.update(Counter(normal(change['replacementHeading'])))
+            if 'sourceEyebrow' in change:
+                a.subtract(Counter(normal(change['sourceEyebrow'])))
+                assert all(n>=0 for n in a.values())
+                a.update(Counter(normal(change['replacementEyebrow'])))
+            a=+a
         assert a==b,('Approved topic characters differ',d['source'],a-b,b-a);topic_text_checks+=1
     for i,d in enumerate(idx['dom']):
         p=final.pages[index_start+1+i]
         for b in d['blocks']:
+            if b['top']>=225:continue
             box=(max(0,(b['left']-.4)*MM),max(0,(b['top']-.4)*MM),min(W,(b['right']+.4)*MM),min(H,(b['bottom']+.4)*MM))
             actual=p.crop(box).extract_text(x_tolerance=1,y_tolerance=2) or ''
             assert normal(b['text']) in normal(actual),(index_start+i,b['text'],actual)
     for i,d in enumerate(toc_result['dom']):
-        text=normal(final.pages[5+i].extract_text() or '')
-        for b in d['blocks']:assert normal(b['text']) in text,('Contents text',b['text'])
+        p=final.pages[d['folio']+1]
+        for b in d['blocks']:
+            if b['top']>=225:continue
+            box=(max(0,(b['left']-.3)*MM),max(0,(b['top']-.3)*MM),min(W,(b['right']+.3)*MM),min(H,(b['bottom']+.3)*MM))
+            region=p.filter(lambda o: o.get('object_type')!='char' or (box[0]<=(o['x0']+o['x1'])/2<=box[2] and box[1]<=(o['top']+o['bottom'])/2<=box[3]))
+            actual=region.crop(box).extract_text(x_tolerance=1,y_tolerance=2) or ''
+            assert normal(b['text']) in normal(actual),('Contents text',b['text'],actual)
 result=PdfReader(OUT)
 for p in result.pages:assert abs(float(p.mediabox.width)-W)<.01 and abs(float(p.mediabox.height)-H)<.01
+page_ids={p.indirect_reference.idnum:i for i,p in enumerate(result.pages)}
+for p in navigation['pages']:
+    if not p['links']:continue
+    actual=[a.get_object() for a in result.pages[p['folio']+1].get('/Annots',[])]
+    assert len(actual)==len(p['links'])
+    for a,link in zip(actual,p['links']):
+        assert '/A' not in a and page_ids[a['/Dest'][0].idnum]==link['target']+1
+for p in navigation['existingNamedContinuations']:
+    assert normal(p['crop']) in normal(result.pages[p['folio']+1].extract_text() or '')
 # Independently match every index location to its assembled source page.
 registry={d['type']+':'+d['key']:d['startPage'] for d in edition['documents']}
 registry.update({d['source']:d['startPage'] for d in edition['additions']})
+registry.update({d['source']:d['startPage'] for d in edition['sectionOpeners']})
+registry.update({'opening:how-to':how_folio,'back:index':index_start})
+for p in navigation['pages']:
+    for link in p['links']:
+        assert registry[link['source']]+link['offset']==link['target'],('Navigation target',p['folio'],link)
+        assert [e['folio'] for e in link['evidence']]==list(range(link['start'],link['end']+1))
+        for e in link['evidence']:assert registry[e['source']]+e['offset']==e['folio'] and e['term'] in e['excerpt']
+for r in toc_result['references']:
+    source=r.get('source') or r['type']+':'+r['key']
+    assert r['startPage']==registry[source] and records[r['startPage']+1]['folio']==r['startPage'],('Contents target',source)
+assert registry['opening:varieties']==8 and how_folio==9
+assert all(d['startPage']%2==1 for d in edition['sectionOpeners'] if d['source']!='opening:varieties')
+assert list(toc_pages)==[4,5] and why_folio==7 and {3,6}.issubset(blanks) and 9 not in blanks
+assert min(toc_pages)%2==0 and max(toc_pages)==min(toc_pages)+1
+assert [p['kind'] for p in records[2:11]]==['opening','opening','blank','contents','contents','blank','techniques','section-openers','how-to']
+assert 'opening:welcome' not in registry
+assert registry['opening:varieties']+1==how_folio
+assert records[how_folio+1]['label']==labels['opening:how-to']
 numeric_refs=0
 for e in resolved['editions']['imperial']:
     for r in e['references']:
@@ -219,7 +313,8 @@ for e in resolved['editions']['imperial']:
         assert r['folio']==expected and records[expected+1]['folio']==expected
         numeric_refs+=1
 verify();assert sha(old['pdf'])==old['sha256']
-receipt={'date':'2026-10-14','status':'Assembled and text-checked; representative visual review pending','pdf':str(OUT.relative_to(ROOT)),'sha256':sha(OUT),'bytes':OUT.stat().st_size,'units':'imperial','interiorPages':total,'pdfPages':total+4,'trimMm':[185,240],'folioMapping':'PDF page = interior folio + 2','guidePagesReused':body_checked,'guidesReexported':0,'sourceScreenBook':{'path':old['pdf'],'sha256':old['sha256']},'componentBlocksVerified':component_blocks,'approvedTopicTextChecks':topic_text_checks,'updatedFootersVerified':footer_checked,'oldFooterTextObjectsRemoved':sum(removed_counts),'contentsReferences':len(toc_result['references']),'indexEntries':273,'indexNumericReferencesVerified':numeric_refs,'internalIndexLinks':index_links,'blankFolios':sorted(blanks),'sourceFilesUnchanged':True,'limits':['John-requested section order applied; opener designs, contents and final pagination remain for review.','Opening copy placeholders and proposed illustration allocations remain.','Saved guide artwork is the earlier screen derivative; not print-resolution production files.','No new artwork, guide export, canonical data changes, supplier submission or price/spine update.']}
+receipt={'date':'2026-10-14','status':'Assembled and text-checked; representative visual review pending','pdf':str(OUT.relative_to(ROOT)),'sha256':sha(OUT),'bytes':OUT.stat().st_size,'units':'imperial','interiorPages':total,'pdfPages':total+4,'trimMm':[185,240],'folioMapping':'PDF page = interior folio + 2','guidePagesReused':body_checked,'guidesReexported':0,'sourceScreenBook':{'path':old['pdf'],'sha256':old['sha256']},'componentBlocksVerified':component_blocks,'approvedTopicTextChecks':topic_text_checks,'topicHeadingChanges':heading_changes,'updatedFootersVerified':footer_checked,'oldFooterTextObjectsRemoved':sum(removed_counts),'contentsReferences':len(toc_result['references']),'indexEntries':273,'indexNumericReferencesVerified':numeric_refs,'internalIndexLinks':index_links,'blankFolios':sorted(blanks),'sourceFilesUnchanged':True,'limits':['Contents face at 4–5; blank 6 faces the retitled Introduction 7; Vegetable Guides and how-to face at 8–9. Other sections remain recto. Accepted contents design retained; other opening designs remain for review.','Opening copy placeholders and proposed illustration allocations remain.','Saved guide artwork is the earlier screen derivative; not print-resolution production files.','No new artwork, guide export, canonical data changes, supplier submission or price/spine update.']}
+receipt.update({'date':'2026-10-15','navigation':{'newCropLabels':navigation['newCropLabels'],'existingNamedContinuations':navigation['existingNamedContinuations'],'changedPages':len(navigation['changedFolios']),'pagesWithLinks':len(navigation_checks),'headingTreatment':'Combined Growing guide and crop name; original title replaced in its measured header region','internalLinks':navigation_links,'pageChecks':navigation_checks,'highlights':'Viewer-only; clean PDF has no highlight marks'}})
 (DOC/'CHECKS.json').write_text(json.dumps(receipt,ensure_ascii=False,indent=2)+'\n')
 (DOC/'PAGE-MAP.json').write_text(json.dumps(records,ensure_ascii=False,indent=2)+'\n')
 print(json.dumps({k:receipt[k] for k in ['pdfPages','interiorPages','bytes','guidePagesReused','updatedFootersVerified','indexNumericReferencesVerified','internalIndexLinks']}))

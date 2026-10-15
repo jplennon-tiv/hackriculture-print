@@ -1,0 +1,107 @@
+{
+  "date": "2026-10-14",
+  "status": "Representative visual review passed; new opener designs and final pagination await John’s review",
+  "pdfSha256": "9a1f59d4fd08ee4535a34110efc2b7b4b43fbaf543545487a8aeb73f6fb35361",
+  "render": {
+    "pages": 180,
+    "dpi": 110,
+    "format": "JPEG",
+    "nativeTextRetainedInPdf": true
+  },
+  "coverage": {
+    "contactSheetInteriorFolios": [
+      4,
+      5,
+      6,
+      7,
+      9,
+      10,
+      11,
+      12,
+      13,
+      109,
+      110,
+      111,
+      154,
+      155,
+      156,
+      172,
+      173,
+      174,
+      175,
+      176
+    ],
+    "fullSizeComponentInteriorFolios": [
+      9,
+      109,
+      155
+    ],
+    "contentsBothUnits": [
+      4,
+      5,
+      6
+    ],
+    "actualFacingPairs": [
+      [
+        8,
+        9
+      ],
+      [
+        10,
+        11
+      ],
+      [
+        108,
+        109
+      ],
+      [
+        154,
+        155
+      ],
+      [
+        158,
+        159
+      ],
+      [
+        162,
+        163
+      ],
+      [
+        168,
+        169
+      ],
+      [
+        172,
+        173
+      ],
+      [
+        174,
+        175
+      ]
+    ],
+    "allSavedGuidesVisuallyRereviewed": false,
+    "unchangedCoverReview": "G2/B5 source hashes preserved; earlier visual review retained under references/order-170-2026-10-12/VISUAL-REVIEW.json."
+  },
+  "findings": [
+    "All three new section openers fit inside the book’s mirrored safe margins and use the recorded source artwork.",
+    "The revised Why/Varieties/How-to order and all four requested facing relationships are present in the actual assembled PDF.",
+    "No missing artwork, clipped text or footer collisions observed in inspected pages.",
+    "All 137 reused guide body-text regions and seventeen approved additional-page texts passed preservation checks.",
+    "Contents and integrated index folios agree with the revised page map.",
+    "Existing opening placeholders and proposed illustration allocations remain."
+  ],
+  "tests": {
+    "focusedNodeTests": 14,
+    "failed": 0
+  },
+  "protectedSourcesRechecked": 95,
+  "currentSharedCopyInputsVerified": 8,
+  "sharedCopyEdits": "Two authorised documents saved through guarded writer; see SECTION-OPENERS-SAVE.json. All other book-copy inputs preserved.",
+  "approval": "No new design or copy approval asserted.",
+  "browserChecks": [
+    "Opened the revised preview in the in-app browser at the Vegetable Varieties opener.",
+    "Book-page jump displays Beds on facing pages 158–159.",
+    "Section selection returns to blank 8 / Vegetable Varieties 9.",
+    "Both page images visible in browser; all 180 rendered page files exist."
+  ]
+}

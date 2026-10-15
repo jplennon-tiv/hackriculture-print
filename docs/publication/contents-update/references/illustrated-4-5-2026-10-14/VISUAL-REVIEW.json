@@ -1,0 +1,82 @@
+{
+  "date": "2026-10-14",
+  "status": "Decorated two-page proof visually checked; new artwork placements for John\u2019s review",
+  "pdfHashes": {
+    "imperial": "c72896a889765c5f753082c15b609955c2b7e6f8fd21afddff0717fe2cf29225",
+    "metric": "67dcd2abd7bebfb768ab4cb7e857cf606bc78f194a5357ee6893500db0a79118"
+  },
+  "coverage": {
+    "imperialFullSizePages": [
+      4,
+      5
+    ],
+    "metric": "Both page bodies pixel-identical to imperial through 225 mm; both metric footers visually inspected."
+  },
+  "baseline": "references/simple-2026-10-14/",
+  "baselineComparison": "Same shared-copy revision, all 81 ordered destinations identical, all PDF text identical in positional extraction. Simple heading/list structure and 10.5 pt rows retained.",
+  "artwork": [
+    {
+      "id": "H1",
+      "folio": 4,
+      "role": "header",
+      "file": "docs/assets/vegetable-guru-stock/assets/h1-roots-beetroot-hero-style-v2.png",
+      "sha256": "c37f9ada30fa364ee9936c609f0634b367b43be71617c901bcecae393c69be0d",
+      "sourceManifest": "docs/assets/vegetable-guru-stock/ARTWORK.json",
+      "placementStatus": "John requested decoration; this placement remains for review"
+    },
+    {
+      "id": "H2",
+      "folio": 5,
+      "role": "header",
+      "file": "docs/assets/vegetable-guru-stock/assets/h2-roots-turnips-hero-style-v2.png",
+      "sha256": "273fafe68e1222d1f55770277259c70738f0b18774db37435d3630e58bf64759",
+      "sourceManifest": "docs/assets/vegetable-guru-stock/ARTWORK.json",
+      "placementStatus": "John requested decoration; this placement remains for review"
+    },
+    {
+      "id": "H5",
+      "folio": 5,
+      "role": "lower",
+      "file": "docs/assets/vegetable-guru-stock/assets/h5-growing-start-hero-style-v2.png",
+      "sha256": "c4c5e901ccbaa15e7e925d66bf6625e6489f8fe93f0a7d58a2e460645d7ea345",
+      "sourceManifest": "docs/assets/vegetable-guru-stock/ARTWORK.json",
+      "placementStatus": "John requested decoration; this placement remains for review"
+    },
+    {
+      "id": "H6",
+      "folio": 5,
+      "role": "lower",
+      "file": "docs/assets/vegetable-guru-stock/assets/h6-growing-harvest-hero-style-v2.png",
+      "sha256": "df49760957364ed5de7697eb5e9bef8907578bcca6f12625d1671fcd9bae6305",
+      "sourceManifest": "docs/assets/vegetable-guru-stock/ARTWORK.json",
+      "placementStatus": "John requested decoration; this placement remains for review"
+    }
+  ],
+  "intentionalAdaptations": [
+    "H1/H2 paired root-and-leaf header illustrations, reused verbatim",
+    "H5 seedling/pot and H6 harvest-trug images below second page lists",
+    "Short deep-orange header-rule accents; no new headings, labels or panels"
+  ],
+  "findings": [
+    "Single-line entries retained",
+    "No observed text clipping, image cropping or overlap",
+    "Artwork fills available space while preserving list readability and footer clearance"
+  ],
+  "footerClearanceMm": {
+    "imperial": [
+      8.516,
+      6.577
+    ],
+    "metric": [
+      8.516,
+      6.577
+    ]
+  },
+  "protectedFilesVerified": 95,
+  "focusedPaginationAndCoverageTestsPassed": 2,
+  "skillValidation": "quick_validate.py passed for book-layout-review, guide-layout-review and vegetable-guru-book-design; linked scopes and metadata checked.",
+  "skillScope": "Contents and indexes explicitly excluded from layout skills; book-layout-review limited to simple content pages and their facing spreads.",
+  "fullBookRegenerated": false,
+  "guideKeyPdfRegenerated": false,
+  "approval": "John confirmed the two-page simple-heading structure and requested decoration; new placements remain for review."
+}

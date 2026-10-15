@@ -1,6 +1,6 @@
 {
   "date": "2026-10-14",
-  "status": "New compositions and copy for review; order requested by John",
+  "status": "Vegetable Guides verso at 8 faces how-to 9; Troubles and Techniques remain recto; designs for review",
   "copy": "../hackriculture-data/book-layout/book.json#sectionOpeners",
   "sources": [
     "docs/assets/vegetable-guru-stock/ARTWORK.json",
@@ -13,7 +13,7 @@
   "pages": [
     {
       "id": "varieties",
-      "folio": 9,
+      "folio": 8,
       "purpose": "Introduce the crop guide collection with existing H4 stock.",
       "assets": [
         {
@@ -22,11 +22,12 @@
           "file": "docs/assets/vegetable-guru-stock/assets/h4-summer-aubergines-hero-style-v2.png",
           "sha256": "c71da57861c121fd15a6395bbe801e0bd58994da051e4cfe375b8f6b428a3ac5"
         }
-      ]
+      ],
+      "label": "Vegetable Guides"
     },
     {
       "id": "troubles",
-      "folio": 109,
+      "folio": 107,
       "purpose": "Signal the diagnostic section using the established aphid, mildew and slug risk drawings; not a new diagnosis.",
       "assets": [
         {
@@ -51,7 +52,7 @@
     },
     {
       "id": "techniques",
-      "folio": 155,
+      "folio": 153,
       "purpose": "Introduce practical plot techniques with the approved starter-plot illustration.",
       "assets": [
         {

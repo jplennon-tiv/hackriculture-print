@@ -1,0 +1,533 @@
+{
+  "date": "2026-10-14",
+  "status": "Right-hand page 9 checked in both units; wording and assets preserved",
+  "bookRevision": "10773e910c2b988d7ff6ed32a6de139b8c003d7a793998c941c3af559e59a812",
+  "copyInputs": {
+    "../hackriculture-data/book-layout/book.json": "7cf5470e4a29859fadddaf32fa6d29370c2d6258d09fe25e57af2cc90f8df78e",
+    "../hackriculture-data/book-layout/covers.json": "3d346adc88d48aa954580e11e85a7d6e92d8959714f7e63729ab7323a44cc8bf",
+    "../hackriculture-data/book-layout/publication.json": "666bde7b034d90719b301a1cb3f5aa5c4a96520575a63dfbfa707ea811e1a2a2",
+    "../hackriculture-data/book-layout/introduction.json": "7a54f281bf1b0ef07f656fcb9c4a252860e7dd2ba730225891777056b66b9e5d",
+    "../hackriculture-data/book-layout/author.json": "244b1d0714c5b936f2ac5b8526c7f127996930609a0fc841b28a08edcd273176",
+    "../hackriculture-data/book-layout/contents.json": "4fef365caf670734a0d79ce8324c56e54e64015892545be2fa1e39683c330ad2",
+    "../hackriculture-data/book-layout/how-to.json": "a4bdbb78c4436c7ce4df6658392ff0c492375d56bcfc6b83a114b28c07d1af25",
+    "../hackriculture-data/book-layout/index.json": "644561af4403bc5f4327bdac2e023aba1564b09721b8db90f6ee652780ac2e83"
+  },
+  "protectedFiles": [
+    {
+      "path": "docs/publication/vegetable-guru-entry-pages/imperial.html",
+      "sha256": "27b14cf84d1957fa542648975218696e0d8243012b7898fba16b57eb4c913b96"
+    },
+    {
+      "path": "docs/publication/vegetable-guru-entry-pages/metric.html",
+      "sha256": "cb08ab308567359111afa5f6a68a4fea07bb2c8d2f9c523958e1d14c1e13421c"
+    },
+    {
+      "path": "docs/publication/vegetable-guru-entry-pages/entry-pages.css",
+      "sha256": "9796fac872f5e80f95799912f2da7dd690734dffa2b7af7336f0b8bcd8c39d43"
+    },
+    {
+      "path": "output/pdf/vegetable-guru-entry-pages/contents-how-to-imperial.pdf",
+      "sha256": "5ba9f43d00c326bab9e4705a320089ac261ca800abd7fe8992589bae980e2a4d"
+    },
+    {
+      "path": "output/pdf/vegetable-guru-entry-pages/contents-how-to-metric.pdf",
+      "sha256": "0e393c159c3e702e4ca7ecb39bd62a3fe25699df0317d345aec1d411100fab20"
+    }
+  ],
+  "results": [
+    {
+      "units": "imperial",
+      "pdf": "output/pdf/guide-key/guide-key-imperial.pdf",
+      "sha256": "b4520a9bd3d29264c8124cf8f22efad8edb74822c892ca7e19d97f2b22cc97ee",
+      "html": "docs/publication/guide-key/imperial.html",
+      "htmlSha256": "3c5b8b51b909080f4e561546f402e3683ab6b176e3f91d01feab5c8ee68d71b7",
+      "dom": [
+        {
+          "folio": 9,
+          "footerClearanceMm": 4.497916666666666,
+          "blocks": [
+            {
+              "text": "YOUR GUIDE TO THE SYMBOLS",
+              "left": 16.999479166666664,
+              "right": 138.00087890625,
+              "top": 11.997200520833333,
+              "bottom": 15.833658854166666
+            },
+            {
+              "text": "Vegetable guides\nhow to use",
+              "left": 16.999479166666664,
+              "right": 138.00087890625,
+              "top": 17.830436197916665,
+              "bottom": 34.333821614583336
+            },
+            {
+              "text": "Use the calendar and scales to compare crops and plan their care.",
+              "left": 16.999479166666664,
+              "right": 138.00087890625,
+              "top": 36.33059895833333,
+              "bottom": 40.77477213541666
+            },
+            {
+              "text": "Reading the calendar",
+              "left": 16.999479166666664,
+              "right": 176.99798177083332,
+              "top": 43.77200520833333,
+              "bottom": 50.341113281249996
+            },
+            {
+              "text": "Bright shades show the usual sowing and harvest months for temperate climates: here, lowland England (US zones 8 to 9). Muted shades show less usual options for warmer climates. Use local conditions and the crop’s advice to choose your timing.",
+              "left": 16.999479166666664,
+              "right": 176.99798177083332,
+              "top": 52.337890625,
+              "bottom": 68.44853515625
+            },
+            {
+              "text": "Usual\nTemperate climates",
+              "left": 36.49596354166666,
+              "right": 92.49667968749999,
+              "top": 107.20172526041665,
+              "bottom": 117.21868489583333
+            },
+            {
+              "text": "Sow\nHarvest",
+              "left": 36.49596354166666,
+              "right": 92.49667968749999,
+              "top": 118.21500651041667,
+              "bottom": 122.24163411458333
+            },
+            {
+              "text": "Less usual\nWarmer climates",
+              "left": 120.99313151041666,
+              "right": 176.99798177083332,
+              "top": 107.20172526041665,
+              "bottom": 117.21868489583333
+            },
+            {
+              "text": "Sow\nHarvest",
+              "left": 120.99313151041666,
+              "right": 176.99798177083332,
+              "top": 118.21500651041667,
+              "bottom": 122.24163411458333
+            },
+            {
+              "text": "Difficulty rating",
+              "left": 16.999479166666664,
+              "right": 176.99798177083332,
+              "top": 127.50022786458332,
+              "bottom": 134.0693359375
+            },
+            {
+              "text": "Difficulty reflects ease of growing and tolerance of adverse conditions. Radishes suit beginners; celery and cauliflower can defeat even experienced gardeners in a bad season.",
+              "left": 16.999479166666664,
+              "right": 176.99798177083332,
+              "top": 136.06611328124998,
+              "bottom": 146.80654296875
+            },
+            {
+              "text": "1",
+              "left": 89.99554036458333,
+              "right": 111.9931640625,
+              "top": 166.32369791666665,
+              "bottom": 170.54049479166665
+            },
+            {
+              "text": "5",
+              "left": 155.00035807291667,
+              "right": 176.99798177083332,
+              "top": 166.32369791666665,
+              "bottom": 170.54049479166665
+            },
+            {
+              "text": "Core needs",
+              "left": 16.999479166666664,
+              "right": 176.99798177083332,
+              "top": 176.05953776041667,
+              "bottom": 182.6286458333333
+            },
+            {
+              "text": "Too little sun, water or manure can damage some plants, while too much can harm others. Use the scales as a guide to each crop’s needs.",
+              "left": 16.999479166666664,
+              "right": 176.99798177083332,
+              "top": 184.62542317708332,
+              "bottom": 195.36585286458333
+            },
+            {
+              "text": "1\nLow demand",
+              "left": 100.99641927083333,
+              "right": 122.99404296874998,
+              "top": 215.22200520833334,
+              "bottom": 223.27526041666667
+            },
+            {
+              "text": "5\nHigh demand",
+              "left": 155.00035807291667,
+              "right": 176.99798177083332,
+              "top": 215.22200520833334,
+              "bottom": 223.27526041666667
+            },
+            {
+              "text": "THE VEGETABLE GURU\nIMPERIAL · 9",
+              "left": 16.999479166666664,
+              "right": 176.99798177083332,
+              "top": 228.37262369791665,
+              "bottom": 231.99824218749998
+            }
+          ],
+          "images": [
+            {
+              "src": "/docs/assets/vegetable-guru-stock/assets/h5-growing-start-hero-style-v2.png",
+              "loaded": true,
+              "widthMm": 35.99986979166666,
+              "heightMm": 27.99622395833333
+            },
+            {
+              "src": "/docs/front-matter/entry-pages/calendar-assets/radish-calendar.png",
+              "loaded": true,
+              "widthMm": 119.99680989583332,
+              "heightMm": 35.760091145833336
+            },
+            {
+              "src": "/docs/front-matter/entry-pages/calendar-assets/temperate-field.svg",
+              "loaded": true,
+              "widthMm": 14.998567708333333,
+              "heightMm": 14.998567708333333
+            },
+            {
+              "src": "/docs/front-matter/entry-pages/calendar-assets/tropical-island.svg",
+              "loaded": true,
+              "widthMm": 14.998567708333333,
+              "heightMm": 14.998567708333333
+            },
+            {
+              "src": "/docs/front-matter/entry-pages/scales-study/assets/difficulty-capture.png",
+              "loaded": true,
+              "widthMm": 46.99661458333333,
+              "heightMm": 21.108789062499998
+            },
+            {
+              "src": "/docs/front-matter/entry-pages/scales-study/assets/baby.svg",
+              "loaded": true,
+              "widthMm": 21.997623697916666,
+              "heightMm": 16.999479166666664
+            },
+            {
+              "src": "/docs/front-matter/entry-pages/scales-study/assets/einstein.svg",
+              "loaded": true,
+              "widthMm": 21.997623697916666,
+              "heightMm": 16.999479166666664
+            },
+            {
+              "src": "/docs/front-matter/entry-pages/scales-study/assets/core-needs-capture.png",
+              "loaded": true,
+              "widthMm": 79.99925130208332,
+              "heightMm": 34.51158854166666
+            },
+            {
+              "src": "/docs/front-matter/entry-pages/scales-study/assets/dropper.svg",
+              "loaded": true,
+              "widthMm": 21.997623697916666,
+              "heightMm": 16.999479166666664
+            },
+            {
+              "src": "/docs/front-matter/entry-pages/scales-study/assets/wave.svg",
+              "loaded": true,
+              "widthMm": 21.997623697916666,
+              "heightMm": 16.999479166666664
+            }
+          ]
+        }
+      ],
+      "geometry": {
+        "width": 191,
+        "height": 246,
+        "pages": [
+          {
+            "folio": 9,
+            "verso": false,
+            "minTypePt": 7.3500000000000005,
+            "safeInsetMm": {
+              "left": 17,
+              "right": 5,
+              "top": 5,
+              "bottom": 5
+            },
+            "trimMm": [
+              185,
+              240
+            ],
+            "mediaMm": [
+              191,
+              246
+            ],
+            "trimOffsetMm": [
+              3,
+              3
+            ]
+          }
+        ]
+      },
+      "assets": {
+        "docs/assets/vegetable-guru-stock/assets/h5-growing-start-hero-style-v2.png": "c4c5e901ccbaa15e7e925d66bf6625e6489f8fe93f0a7d58a2e460645d7ea345",
+        "docs/front-matter/entry-pages/calendar-assets/radish-calendar.png": "6d706d495642ed80224a359739a8369889f442ee403e8b937114425aab7eeed1",
+        "docs/front-matter/entry-pages/calendar-assets/temperate-field.svg": "95774a8db9580af42048616e14362c203d99043b651789dbaaf7d4c47d9c8a2a",
+        "docs/front-matter/entry-pages/calendar-assets/tropical-island.svg": "d5d1edc613476358bae63ea8c0df310730d20e2dd260e3b42d25777987c002de",
+        "docs/front-matter/entry-pages/scales-study/assets/difficulty-capture.png": "77aab828d1274cb612a495d53e5d54a2214a917e84a37600d1a527660a98d5e3",
+        "docs/front-matter/entry-pages/scales-study/assets/baby.svg": "459c0b0d086e01139acc132e7ef55f4037295a7fcb79d67d41b0dd7d1904e759",
+        "docs/front-matter/entry-pages/scales-study/assets/einstein.svg": "ee99c8c68842d7c4812634394bd202da719b8ee57d906805b7027075480e6b54",
+        "docs/front-matter/entry-pages/scales-study/assets/core-needs-capture.png": "3f5c26757e2aed7338a81f5df7c904a829d745f669da9a477fad327cf49d535a",
+        "docs/front-matter/entry-pages/scales-study/assets/dropper.svg": "65ddeeee2ddb263ad6783bb965e88a230faa3f1e4703e78e8c9a1674cae93c65",
+        "docs/front-matter/entry-pages/scales-study/assets/wave.svg": "17af6bd7340b2d359db3ec88c20acfb2fcb81436916afa04302d9f39e1970723"
+      }
+    },
+    {
+      "units": "metric",
+      "pdf": "output/pdf/guide-key/guide-key-metric.pdf",
+      "sha256": "98a4bb58e3428245a65ea4771b8bf37e3084bf9c140aaa475e21bf91aa8e083e",
+      "html": "docs/publication/guide-key/metric.html",
+      "htmlSha256": "224456b988219911259090be2d2f59bf9b090d1083630e620ccf679bd27c9af1",
+      "dom": [
+        {
+          "folio": 9,
+          "footerClearanceMm": 4.497916666666666,
+          "blocks": [
+            {
+              "text": "YOUR GUIDE TO THE SYMBOLS",
+              "left": 16.999479166666664,
+              "right": 138.00087890625,
+              "top": 11.997200520833333,
+              "bottom": 15.833658854166666
+            },
+            {
+              "text": "Vegetable guides\nhow to use",
+              "left": 16.999479166666664,
+              "right": 138.00087890625,
+              "top": 17.830436197916665,
+              "bottom": 34.333821614583336
+            },
+            {
+              "text": "Use the calendar and scales to compare crops and plan their care.",
+              "left": 16.999479166666664,
+              "right": 138.00087890625,
+              "top": 36.33059895833333,
+              "bottom": 40.77477213541666
+            },
+            {
+              "text": "Reading the calendar",
+              "left": 16.999479166666664,
+              "right": 176.99798177083332,
+              "top": 43.77200520833333,
+              "bottom": 50.341113281249996
+            },
+            {
+              "text": "Bright shades show the usual sowing and harvest months for temperate climates: here, lowland England (US zones 8 to 9). Muted shades show less usual options for warmer climates. Use local conditions and the crop’s advice to choose your timing.",
+              "left": 16.999479166666664,
+              "right": 176.99798177083332,
+              "top": 52.337890625,
+              "bottom": 68.44853515625
+            },
+            {
+              "text": "Usual\nTemperate climates",
+              "left": 36.49596354166666,
+              "right": 92.49667968749999,
+              "top": 107.20172526041665,
+              "bottom": 117.21868489583333
+            },
+            {
+              "text": "Sow\nHarvest",
+              "left": 36.49596354166666,
+              "right": 92.49667968749999,
+              "top": 118.21500651041667,
+              "bottom": 122.24163411458333
+            },
+            {
+              "text": "Less usual\nWarmer climates",
+              "left": 120.99313151041666,
+              "right": 176.99798177083332,
+              "top": 107.20172526041665,
+              "bottom": 117.21868489583333
+            },
+            {
+              "text": "Sow\nHarvest",
+              "left": 120.99313151041666,
+              "right": 176.99798177083332,
+              "top": 118.21500651041667,
+              "bottom": 122.24163411458333
+            },
+            {
+              "text": "Difficulty rating",
+              "left": 16.999479166666664,
+              "right": 176.99798177083332,
+              "top": 127.50022786458332,
+              "bottom": 134.0693359375
+            },
+            {
+              "text": "Difficulty reflects ease of growing and tolerance of adverse conditions. Radishes suit beginners; celery and cauliflower can defeat even experienced gardeners in a bad season.",
+              "left": 16.999479166666664,
+              "right": 176.99798177083332,
+              "top": 136.06611328124998,
+              "bottom": 146.80654296875
+            },
+            {
+              "text": "1",
+              "left": 89.99554036458333,
+              "right": 111.9931640625,
+              "top": 166.32369791666665,
+              "bottom": 170.54049479166665
+            },
+            {
+              "text": "5",
+              "left": 155.00035807291667,
+              "right": 176.99798177083332,
+              "top": 166.32369791666665,
+              "bottom": 170.54049479166665
+            },
+            {
+              "text": "Core needs",
+              "left": 16.999479166666664,
+              "right": 176.99798177083332,
+              "top": 176.05953776041667,
+              "bottom": 182.6286458333333
+            },
+            {
+              "text": "Too little sun, water or manure can damage some plants, while too much can harm others. Use the scales as a guide to each crop’s needs.",
+              "left": 16.999479166666664,
+              "right": 176.99798177083332,
+              "top": 184.62542317708332,
+              "bottom": 195.36585286458333
+            },
+            {
+              "text": "1\nLow demand",
+              "left": 100.99641927083333,
+              "right": 122.99404296874998,
+              "top": 215.22200520833334,
+              "bottom": 223.27526041666667
+            },
+            {
+              "text": "5\nHigh demand",
+              "left": 155.00035807291667,
+              "right": 176.99798177083332,
+              "top": 215.22200520833334,
+              "bottom": 223.27526041666667
+            },
+            {
+              "text": "THE VEGETABLE GURU\nMETRIC · 9",
+              "left": 16.999479166666664,
+              "right": 176.99798177083332,
+              "top": 228.37262369791665,
+              "bottom": 231.99824218749998
+            }
+          ],
+          "images": [
+            {
+              "src": "/docs/assets/vegetable-guru-stock/assets/h5-growing-start-hero-style-v2.png",
+              "loaded": true,
+              "widthMm": 35.99986979166666,
+              "heightMm": 27.99622395833333
+            },
+            {
+              "src": "/docs/front-matter/entry-pages/calendar-assets/radish-calendar.png",
+              "loaded": true,
+              "widthMm": 119.99680989583332,
+              "heightMm": 35.760091145833336
+            },
+            {
+              "src": "/docs/front-matter/entry-pages/calendar-assets/temperate-field.svg",
+              "loaded": true,
+              "widthMm": 14.998567708333333,
+              "heightMm": 14.998567708333333
+            },
+            {
+              "src": "/docs/front-matter/entry-pages/calendar-assets/tropical-island.svg",
+              "loaded": true,
+              "widthMm": 14.998567708333333,
+              "heightMm": 14.998567708333333
+            },
+            {
+              "src": "/docs/front-matter/entry-pages/scales-study/assets/difficulty-capture.png",
+              "loaded": true,
+              "widthMm": 46.99661458333333,
+              "heightMm": 21.108789062499998
+            },
+            {
+              "src": "/docs/front-matter/entry-pages/scales-study/assets/baby.svg",
+              "loaded": true,
+              "widthMm": 21.997623697916666,
+              "heightMm": 16.999479166666664
+            },
+            {
+              "src": "/docs/front-matter/entry-pages/scales-study/assets/einstein.svg",
+              "loaded": true,
+              "widthMm": 21.997623697916666,
+              "heightMm": 16.999479166666664
+            },
+            {
+              "src": "/docs/front-matter/entry-pages/scales-study/assets/core-needs-capture.png",
+              "loaded": true,
+              "widthMm": 79.99925130208332,
+              "heightMm": 34.51158854166666
+            },
+            {
+              "src": "/docs/front-matter/entry-pages/scales-study/assets/dropper.svg",
+              "loaded": true,
+              "widthMm": 21.997623697916666,
+              "heightMm": 16.999479166666664
+            },
+            {
+              "src": "/docs/front-matter/entry-pages/scales-study/assets/wave.svg",
+              "loaded": true,
+              "widthMm": 21.997623697916666,
+              "heightMm": 16.999479166666664
+            }
+          ]
+        }
+      ],
+      "geometry": {
+        "width": 191,
+        "height": 246,
+        "pages": [
+          {
+            "folio": 9,
+            "verso": false,
+            "minTypePt": 7.3500000000000005,
+            "safeInsetMm": {
+              "left": 17,
+              "right": 5,
+              "top": 5,
+              "bottom": 5
+            },
+            "trimMm": [
+              185,
+              240
+            ],
+            "mediaMm": [
+              191,
+              246
+            ],
+            "trimOffsetMm": [
+              3,
+              3
+            ]
+          }
+        ]
+      },
+      "assets": {
+        "docs/assets/vegetable-guru-stock/assets/h5-growing-start-hero-style-v2.png": "c4c5e901ccbaa15e7e925d66bf6625e6489f8fe93f0a7d58a2e460645d7ea345",
+        "docs/front-matter/entry-pages/calendar-assets/radish-calendar.png": "6d706d495642ed80224a359739a8369889f442ee403e8b937114425aab7eeed1",
+        "docs/front-matter/entry-pages/calendar-assets/temperate-field.svg": "95774a8db9580af42048616e14362c203d99043b651789dbaaf7d4c47d9c8a2a",
+        "docs/front-matter/entry-pages/calendar-assets/tropical-island.svg": "d5d1edc613476358bae63ea8c0df310730d20e2dd260e3b42d25777987c002de",
+        "docs/front-matter/entry-pages/scales-study/assets/difficulty-capture.png": "77aab828d1274cb612a495d53e5d54a2214a917e84a37600d1a527660a98d5e3",
+        "docs/front-matter/entry-pages/scales-study/assets/baby.svg": "459c0b0d086e01139acc132e7ef55f4037295a7fcb79d67d41b0dd7d1904e759",
+        "docs/front-matter/entry-pages/scales-study/assets/einstein.svg": "ee99c8c68842d7c4812634394bd202da719b8ee57d906805b7027075480e6b54",
+        "docs/front-matter/entry-pages/scales-study/assets/core-needs-capture.png": "3f5c26757e2aed7338a81f5df7c904a829d745f669da9a477fad327cf49d535a",
+        "docs/front-matter/entry-pages/scales-study/assets/dropper.svg": "65ddeeee2ddb263ad6783bb965e88a230faa3f1e4703e78e8c9a1674cae93c65",
+        "docs/front-matter/entry-pages/scales-study/assets/wave.svg": "17af6bd7340b2d359db3ec88c20acfb2fcb81436916afa04302d9f39e1970723"
+      }
+    }
+  ],
+  "implementation": {
+    "scripts/build-book-guide-key.mjs": "431e9a1266a2905a204d2c4e7f5969c6bdf284f2f5ed608bb8a65c46384c2a32",
+    "scripts/lib/book-guide-key.mjs": "1283491f22721c694bfa1e3543970559dc96dd1ba343e121e078b170b6c9f39a",
+    "docs/publication/guide-key/guide-key.css": "66c61ccc781fdb033ad75e7cf3e37d232a389027bc8969dbf9eacb314b397461",
+    "docs/publication/vegetable-guru-entry-pages/entry-pages.css": "9796fac872f5e80f95799912f2da7dd690734dffa2b7af7336f0b8bcd8c39d43"
+  }
+}

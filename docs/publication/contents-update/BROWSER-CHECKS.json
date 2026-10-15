@@ -1,0 +1,35 @@
+{
+  "status": "passed",
+  "revision": "illustrated",
+  "onlyContentsPagesShown": true,
+  "results": [
+    {
+      "units": "imperial",
+      "visiblePages": [
+        {
+          "src": "imperial-1.png?revision=illustrated",
+          "loaded": true
+        },
+        {
+          "src": "imperial-2.png?revision=illustrated",
+          "loaded": true
+        }
+      ],
+      "pdf": "../../../output/pdf/contents-update/contents-imperial.pdf"
+    },
+    {
+      "units": "metric",
+      "visiblePages": [
+        {
+          "src": "metric-1.png?revision=illustrated",
+          "loaded": true
+        },
+        {
+          "src": "metric-2.png?revision=illustrated",
+          "loaded": true
+        }
+      ],
+      "pdf": "../../../output/pdf/contents-update/contents-metric.pdf"
+    }
+  ]
+}

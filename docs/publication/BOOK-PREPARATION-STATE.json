@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "status": "section_openers_and_revised_order_ready_for_review",
+  "status": "navigation_labels_and_topic_headings_ready_for_review",
   "documentRole": "Technical evidence ledger. wholeBookOrderPreview is the latest complete-book derivative; docs/handover/START-HERE.md owns current scope and next actions. Fields explicitly listed in historicalFieldScope retain earlier file evidence and must not be treated as the current book, fresh checks or a work queue.",
   "currentGuidance": "docs/handover/START-HERE.md",
   "automationStatus": "PAUSED",
@@ -23,14 +23,14 @@
       "reviewReadyAtUtc",
       "roughProgressPreview"
     ],
-    "meaning": "Retained dated evidence from the original 5–6 October technical preparation and 7 October rough preview. The misleadingly named currentProduction field describes the saved 148-page supplier drafts, not the current 176-page order preview. Initial deadlines are retained for compatibility with the old runner, not an active schedule. Later derivative/check sections identify their own files and dates. Historical local no-rebuild booleans describe those bounded tasks only.",
+    "meaning": "Retained dated evidence from the original 5–6 October technical preparation and 7 October rough preview. The misleadingly named currentProduction field describes the saved 148-page supplier drafts, not the current 174-page order preview. Initial deadlines are retained for compatibility with the old runner, not an active schedule. Later derivative/check sections identify their own files and dates. Historical local no-rebuild booleans describe those bounded tasks only.",
     "browserAccess": "Last observed access only. Reinspect before any authorised account operation; do not assume login persists."
   },
   "authorisedAtUtc": "2026-10-05T22:50:03Z",
   "deadlineUtc": "2026-10-06T18:00:00Z",
   "deadlineLocal": "6 October 2026, 19:00 Europe/London",
   "automationId": "prepare-compact-book-proof",
-  "brief": "Technical ledger for The Vegetable Guru: Your at-a-glance growing companion, 185 x 240 mm, full-colour paperback. Working service/price: Bookvault, GBP 17.50 with customer shipping separate; direct Great British Bookshop links selected for launch. G2 front selected, B5 back preferred, final stock/wrap/copy open. The latest imperial screen preview has 176 interior pages plus four cover leaves, approved additional content and numeric index, with three new section openers and expanded contents for review. Older supplier drafts and costs use 148 pages. See the handover for current actions; no automation restart.",
+  "brief": "Technical ledger for The Vegetable Guru: Your at-a-glance growing companion, 185 x 240 mm, full-colour paperback. Working service/price: Bookvault, GBP 17.50 with customer shipping separate; direct Great British Bookshop links selected for launch. G2 front selected, B5 back preferred, final stock/wrap/copy open. The latest imperial screen preview has 174 interior pages plus four cover leaves, approved additional content and numeric index, with unified contents, a one-page guide key and revised techniques order for review. Older supplier drafts and costs use 148 pages. See the handover for current actions; no automation restart.",
   "format": "Compact Book v1, 185 x 240 mm; preserve the approved design and frozen reference proofs",
   "scope": {
     "vegetables": 44,
@@ -46,12 +46,12 @@
       "id": "interior",
       "status": "draft_ready",
       "task": "Review the prepared both-unit collection against approved compact sources and recorded exceptions; make only justified requested changes. Preserve content, artwork and source-linked working copy.",
-      "remaining": "John’s full-collection and final page-order/blank-policy review; the requested current sequence is implemented in the 176-page imperial screen preview. Earlier 148-page supplier drafts remain evidence; production integration and the complete metric edition remain pending."
+      "remaining": "John’s full-collection and final page-order/blank-policy review; the requested current sequence is implemented in the 174-page imperial screen preview. Earlier 148-page supplier drafts remain evidence; production integration and the complete metric edition remain pending."
     },
     {
       "id": "opening_pages",
       "status": "whole_book_order_preview_ready",
-      "task": "Review the new section openers and requested order in the 176-page imperial preview. Then refine contents; preserve approved source pages and existing wider opening-copy decisions.",
+      "task": "Review the unified contents, one-page guide key, welcome navigation and revised sequence in the 174-page imperial proof. The authorised plan is implemented; remaining opening placeholders and wider design/copy await review.",
       "evidence": [
         "book-preparation/OPENING-CHECKS.json",
         "book-preparation/PDF-OPENINGS.json",
@@ -121,7 +121,7 @@
     "Waterproof quote automation remains paused. No supplier mail or renewed waterproof outreach under this task.",
     "Update the technical checkpoint after each manageable authorised batch and keep current actions in the handover. The original unattended deadline/schedule is historical; both automations remain paused. Do not claim checks that did not occur or restart work from old pending items."
   ],
-  "lastCompletedStep": "14 October: saved 176-page imperial interior / 180-leaf complete preview, updated contents and numeric index, and verified requested facing spreads. Subsequently reconciled active documentation for the next session; no content, artwork, PDF, code or automation changes during the documentation refresh.",
+  "lastCompletedStep": "14 October: implemented John’s authorised navigation/order refinement; 174 interior pages / 178 PDF leaves, unified three-page contents, one-page guide key, renamed Vegetable Guides, welcome routes and reordered techniques with greenhouse options facing. Contents, index, protected sources and actual representative spreads checked.",
   "reviewIndex": "whole-book-order-preview/REVIEW.html",
   "evidence": [
     "BOOK-GENERATOR-CHECKS.json",
@@ -209,8 +209,8 @@
     "versionNote": "Vegetables were exported after variety/tip/section-flow fixes; the final subsequent renderer change affected Troubles alignment and footer checks only. Receipts retain per-file implementation signatures. Do not label all 116 as one final production build."
   },
   "nextRunPriorities": [
-    "Read docs/handover/START-HERE.md and use the saved 176-page whole-book preview. No automatic next run is scheduled; both automations remain paused.",
-    "Review the three new opener designs/copy and assembled sequence, then refine the expanded contents. The requested order is already implemented.",
+    "Read docs/handover/START-HERE.md and use the saved 174-page whole-book preview. No automatic next run is scheduled; both automations remain paused.",
+    "Review the revised contents, guide key, welcome navigation and assembled sequence. The authorised ordering/navigation plan is implemented; new rendered copy/layout awaits John’s review.",
     "Preserve approved source files, user edits and shared-copy backups. Wider opening/cover copy and production work resume only within John’s chosen scope. Rebuild only affected proofs and assemble only when required.",
     "Refresh costs/stock/template from final pagination before production. Preserve existing KDP titles; no fees, proof purchases, rights/ISBN declarations, contractual acceptance or publication are authorised."
   ],
@@ -395,13 +395,13 @@
         "pages": 148
       }
     ],
-    "scope": "Historical 6 October supplier-production evidence: saved 148-page drafts with older openings. Use wholeBookOrderPreview for the latest 176-page screen review; do not refresh these files merely to resume."
+    "scope": "Historical 6 October supplier-production evidence: saved 148-page drafts with older openings. Use wholeBookOrderPreview for the latest 174-page screen review; do not refresh these files merely to resume."
   },
   "currentLimitations": [
-    "The latest complete preview is imperial, 176 interior pages plus four cover leaves, using reduced screen artwork. It is not a supplier upload file; print-resolution and complete metric integration remain separate.",
-    "John’s requested order is implemented. New section-opener designs/copy, expanded contents, final pagination and full-collection approval remain for review. Approved topic/index/source-page designs are preserved.",
-    "Title/publication/introduction placeholders and proposed H3/S1/H5/H6/H4 placements remain. Author biography is saved for John’s editing. G2/B5 need exact page crops, editable lettering, final blurb and a stock-dependent wrap.",
-    "Earlier 148-page production files retain complete numerical checks and the visual coverage recorded in their receipts. Their costs and spine template are not estimates for 176 pages; recheck at production. The old 8 mm / 8.436 mm template discrepancy is unresolved.",
+    "The latest complete preview is imperial, 174 interior pages plus four cover leaves, using reduced screen artwork. It is not a supplier upload file; print-resolution and complete metric integration remain separate.",
+    "Illustrated contents and requested guide-key title/order are integrated. Other opening copy/designs, final production pagination and full-collection approval remain for review.",
+    "Title/publication/introduction placeholders and proposed H3/S1/H5/H4 placements remain. Author biography is saved for John’s editing. G2/B5 need exact page crops, editable lettering, final blurb and a stock-dependent wrap.",
+    "Earlier 148-page production files retain complete numerical checks and the visual coverage recorded in their receipts. Their costs and spine template are not estimates for 174 pages; recheck at production. The old 8 mm / 8.436 mm template discrepancy is unresolved.",
     "Known guide composition exceptions remain: Carrot continuation and Mushroom overview have open space; some Troubles columns have larger alignment gaps. Do not add filler or shrink type merely to eliminate these recorded exceptions.",
     "Fine icon detail, final colour/PDF requirements, supplier acceptance and physical print quality remain unverified. No supplier messages, account changes, fees, proof orders or publication have been made for this preview."
   ],
@@ -569,8 +569,20 @@
     "sharedBookCopyInputsVerified": 8,
     "currentWholeBookPdfHashVerified": "9a1f59d4fd08ee4535a34110efc2b7b4b43fbaf543545487a8aeb73f6fb35361",
     "currentPreviewEvidencePathsChecked": 9,
-    "consistencyReview": "Current 176-page order and facing pairs reconciled; new opener/contents designs remain unapproved; approved topic/index work is complete; old 148-page production/170-page order/T-C index information explicitly historical; correct current and retained builder routes distinguished.",
-    "whitespaceChecks": "git diff --check passed in print and shared-data projects."
+    "consistencyReview": "Current 174-page order and facing pairs reconciled; new contents/guide-key/welcome copy and layout remain for review; approved topic/index sources preserved; prior 176/170-page previews and 148-page supplier files explicitly historical. Current builders and guarded saves documented.",
+    "whitespaceChecks": "git diff --check passed in print and shared-data projects.",
+    "navigationRefinement": {
+      "date": "2026-10-14",
+      "localLinksChecked": 269,
+      "missingLinks": 0,
+      "protectedSourceFilesVerified": 95,
+      "sharedCopyInputsVerified": 8,
+      "precedingWholeBookPdfsPreserved": [
+        170,
+        176
+      ],
+      "diffWhitespaceCheck": "passed"
+    }
   },
   "roughProgressPreview": {
     "createdAtUtc": "2026-10-07T20:52:28.143264+00:00",
@@ -607,7 +619,7 @@
     "coverage": "One imperial PDF visually inspected; both-unit DOM fit. Screen folio 2/3 context reviewed.",
     "fullBookRegenerated": false,
     "approvedSourcesPreserved": true,
-    "otherOpeningCopy": "Other welcome/publication copy remains placeholder text. The saved author copy is included in the current whole-book preview; wider copy review awaits John’s direction."
+    "otherOpeningCopy": "Welcome body now gives three reading routes. Its lead/quotation and publication copy remain placeholders; wider copy review awaits John."
   },
   "growingTechniquesCultivationDraft": {
     "date": "2026-10-08",
@@ -643,10 +655,10 @@
     "approval": "docs/publication/topic-pages/cultivation-dig-no-dig/APPROVAL.json",
     "sourceProofScope": "provisionalFolios, coverage and no-rebuild booleans describe the preserved 8 October focused proof, not current book placement.",
     "currentPreviewFolios": [
+      158,
+      159,
       160,
-      161,
-      162,
-      163
+      161
     ]
   },
   "techniquesExpansionReview": {
@@ -744,64 +756,112 @@
       "path": "output/pdf/book-index/vegetable-guru-index-draft.pdf",
       "sha256": "5d3aad9ce673ca1d881a00821959d7cb02bb80077e9d9e969785579bd869116b"
     },
-    "temporaryReferences": "Historical standalone approved proof only: T = local techniques pages, C = cultivation pages. The current whole-book derivative has numeric references and integrated folios 172–175.",
+    "temporaryReferences": "Historical standalone approved proof only: T = local techniques pages, C = cultivation pages. The current whole-book derivative has numeric references and integrated folios 170–173.",
     "fullBookRegenerated": false,
     "next": "Approved reference preserved. Numeric integrated derivative is in the whole-book order preview; refresh it again only after order changes.",
     "approval": "docs/publication/book-index/APPROVAL.json",
     "approvedDate": "2026-10-12",
     "integratedPreview": "docs/publication/whole-book-order-preview/index/CHECKS.json",
     "integratedFolios": [
-      172,
-      175
+      170,
+      173
     ]
   },
   "updatedContents": {
-    "status": "revised_order_contents_for_review",
+    "status": "introduction_and_facing_guide_references_integrated",
     "review": "docs/publication/contents-update/REVIEW.html",
     "checks": "docs/publication/contents-update/CHECKS.json",
     "pdfChecks": "docs/publication/contents-update/PDF-CHECKS.json",
     "plan": "docs/publication/contents-update/ASSEMBLY-PROPOSAL.json",
-    "plannedInteriorPages": 176,
-    "contentsPages": 3,
-    "referencesPerEdition": 81,
+    "plannedInteriorPages": 174,
+    "contentsPages": 2,
+    "referencesPerEdition": 80,
     "fullBookRegenerated": false,
     "wholeBookPreview": "docs/publication/whole-book-order-preview/REVIEW.html",
-    "scope": "This builder produces three contents pages per edition, not a whole book. Those pages are included in the separate wholeBookOrderPreview; final contents design remains for review.",
-    "visual": "docs/publication/contents-update/VISUAL-REVIEW.json"
+    "scope": "Accepted contents remain facing at 4–5. Introduction points to 7, Vegetable Guides to 8 and how-to to 9; all other current destinations unchanged.",
+    "visual": "docs/publication/contents-update/VISUAL-REVIEW.json",
+    "saveReceipt": "docs/publication/contents-update/SIMPLIFICATION-SAVE.json",
+    "fullBookIntegrationPending": false,
+    "plainBaseline": "docs/publication/contents-update/references/simple-2026-10-14/",
+    "layoutSkillScope": "Simple content pages only; contents and indexes excluded explicitly in both layout skills and routing.",
+    "integrationDecision": "docs/publication/contents-update/INTEGRATION-DECISION.json",
+    "contentsFolios": [
+      4,
+      5
+    ],
+    "sequenceSave": "docs/publication/contents-update/SEQUENCE-SAVE.json",
+    "contentsFacing": true,
+    "introductionTitleSave": "docs/publication/contents-update/INTRODUCTION-TITLE-SAVE.json"
   },
   "wholeBookOrderPreview": {
-    "date": "2026-10-14",
-    "status": "requested_order_applied_new_openers_for_review",
+    "date": "2026-10-15",
+    "status": "technique_headings_approved",
     "review": "docs/publication/whole-book-order-preview/REVIEW.html",
     "notes": "docs/publication/whole-book-order-preview/README.md",
     "pdf": "output/pdf/whole-book-order-preview/the-vegetable-guru-order-preview.pdf",
-    "sha256": "9a1f59d4fd08ee4535a34110efc2b7b4b43fbaf543545487a8aeb73f6fb35361",
-    "interiorPages": 176,
-    "pdfPages": 180,
+    "sha256": "fbba42a4a962c54c64db79be7f9a975175199c26d0b10b40c167992260a30e1b",
+    "interiorPages": 174,
+    "pdfPages": 178,
     "units": "imperial",
     "checks": "docs/publication/whole-book-order-preview/CHECKS.json",
     "visual": "docs/publication/whole-book-order-preview/VISUAL-REVIEW.json",
     "pageMap": "docs/publication/whole-book-order-preview/PAGE-MAP.json",
     "guidePagesReused": 137,
     "guidesReexported": 0,
-    "next": "Review the three opener designs and new facing sequence, then refine the contents.",
+    "next": "Review the new publication/back-cover copy, then integrate affected pages and remove the approved heading highlights.",
     "sectionOpenerFolios": [
-      9,
-      109,
-      155
+      8,
+      107,
+      153
     ],
     "facingPairs": [
       [
+        2,
+        3
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        8,
+        9
+      ],
+      [
         10,
         11
+      ],
+      [
+        154,
+        155
+      ],
+      [
+        156,
+        157
       ],
       [
         158,
         159
       ],
       [
+        160,
+        161
+      ],
+      [
         162,
         163
+      ],
+      [
+        164,
+        165
+      ],
+      [
+        166,
+        167
       ],
       [
         168,
@@ -809,7 +869,287 @@
       ]
     ],
     "sectionOpeners": "docs/publication/whole-book-order-preview/SECTION-OPENERS.json",
-    "copySaveReceipt": "docs/publication/whole-book-order-preview/SECTION-OPENERS-SAVE.json",
-    "approval": "Requested order applied; John has not explicitly approved the new opener designs or expanded contents. Latest response requested documentation refresh for a fresh session."
+    "copySaveReceipt": "docs/publication/whole-book-order-preview/REFINEMENT-SAVE.json",
+    "approval": "John approved the flowing technique headings on 15 October. The preceding crop headings and selective references are also approved. No unrelated copy or cover approval inferred.",
+    "integrationDecision": "docs/publication/contents-update/INTEGRATION-DECISION.json",
+    "blankFolios": [
+      3,
+      6,
+      17,
+      71,
+      89,
+      93,
+      106,
+      174
+    ],
+    "contentsFolios": [
+      4,
+      5
+    ],
+    "whyGrowFolio": 7,
+    "welcomeIncluded": false,
+    "allSectionsRecto": false,
+    "sequenceChecks": "docs/publication/whole-book-order-preview/SEQUENCE-CHECKS.json",
+    "sequenceSave": "docs/publication/contents-update/SEQUENCE-SAVE.json",
+    "contentsFacing": true,
+    "sharedCopyChanged": false,
+    "introductionTitle": "Introduction — why grow your own",
+    "sectionOpenerSides": [
+      "verso",
+      "recto",
+      "recto"
+    ],
+    "vegetableGuidesAndHowToFacing": [
+      8,
+      9
+    ],
+    "introductionTitleSave": "docs/publication/contents-update/INTRODUCTION-TITLE-SAVE.json",
+    "navigation": "docs/publication/whole-book-order-preview/NAVIGATION.json",
+    "navigationChecks": "docs/publication/whole-book-order-preview/NAVIGATION-PDF-CHECKS.json",
+    "newCropLabels": 44,
+    "relatedReadingLinks": 64,
+    "temporarilyHighlightedViewer": true,
+    "pagesWithRelatedReadingLinks": 40,
+    "cropsWithoutRelatedReadingLinks": [
+      "artichoke_jerusalem",
+      "salsify_scorzonera",
+      "chicory",
+      "aubergine",
+      "capsicum",
+      "sweet_corn",
+      "artichoke_globe",
+      "mushroom"
+    ],
+    "headingTreatment": "Growing guide · <crop>, as one Lilita heading fitted to the existing title region",
+    "referencePolicy": "Every referenced page must explicitly name the crop in compatible context; no generic technique or index fallback.",
+    "previousNavigationApproval": "docs/publication/whole-book-order-preview/references/navigation-approved-2026-10-15/APPROVAL.json",
+    "approvedHighlightsRemoved": true,
+    "standardisedFooters": 165,
+    "sectionLabels": [
+      "Vegetable Guides",
+      "Vegetable Troubles",
+      "Growing Techniques"
+    ],
+    "descriptiveTopicHeadingFolios": [
+      154,
+      155,
+      156,
+      157,
+      158,
+      159,
+      160,
+      161,
+      162,
+      163,
+      164,
+      165,
+      166,
+      167,
+      168,
+      169
+    ],
+    "editionStatementFolio": 2,
+    "sharedTopicHeadingHierarchy": {
+      "firstLinePt": 31.5,
+      "qualifierPt": 22.5,
+      "pages": [
+        {
+          "folio": 154,
+          "runningTitle": "GROWING TECHNIQUES - ORGANIC GROWING",
+          "firstLine": "Organic growing",
+          "qualifier": "The core ideas",
+          "lineCount": 1
+        },
+        {
+          "folio": 155,
+          "runningTitle": "GROWING TECHNIQUES - PLANNING A NEW PLOT",
+          "firstLine": "Planning your plot",
+          "qualifier": "Choosing the right spot",
+          "lineCount": 2
+        },
+        {
+          "folio": 156,
+          "runningTitle": "GROWING TECHNIQUES - BEDS AND PATHS",
+          "firstLine": "Beds and paths",
+          "qualifier": "Straight paths and keyholes",
+          "lineCount": 2
+        },
+        {
+          "folio": 157,
+          "runningTitle": "GROWING TECHNIQUES - BEDS AND PATHS",
+          "firstLine": "Beds and paths",
+          "qualifier": "Finger paths and leaf patterns",
+          "lineCount": 2
+        },
+        {
+          "folio": 158,
+          "runningTitle": "GROWING TECHNIQUES - CULTIVATION",
+          "firstLine": "Dig or No-Dig",
+          "qualifier": "Choosing your approach",
+          "lineCount": 1
+        },
+        {
+          "folio": 159,
+          "runningTitle": "GROWING TECHNIQUES - CULTIVATION",
+          "firstLine": "Dig or No-Dig",
+          "qualifier": "No dig",
+          "lineCount": 1
+        },
+        {
+          "folio": 160,
+          "runningTitle": "GROWING TECHNIQUES - CULTIVATION",
+          "firstLine": "Dig or No-Dig",
+          "qualifier": "Digging part 1",
+          "lineCount": 1
+        },
+        {
+          "folio": 161,
+          "runningTitle": "GROWING TECHNIQUES - CULTIVATION",
+          "firstLine": "Dig or No-Dig",
+          "qualifier": "Digging part 2",
+          "lineCount": 1
+        },
+        {
+          "folio": 162,
+          "runningTitle": "GROWING TECHNIQUES - MAKING AND USING COMPOST",
+          "firstLine": "Making compost",
+          "qualifier": "The secret’s in the bin",
+          "lineCount": 1
+        },
+        {
+          "folio": 163,
+          "runningTitle": "GROWING TECHNIQUES - MAKING AND USING COMPOST",
+          "firstLine": "Making compost",
+          "qualifier": "Feed it, leave it, use it",
+          "lineCount": 1
+        },
+        {
+          "folio": 164,
+          "runningTitle": "GROWING TECHNIQUES - CROP ROTATION",
+          "firstLine": "Crop rotation",
+          "qualifier": "A simple plan",
+          "lineCount": 1
+        },
+        {
+          "folio": 165,
+          "runningTitle": "GROWING TECHNIQUES - SOWING AND PLANTING",
+          "firstLine": "Sowing and planting",
+          "qualifier": "A sound start",
+          "lineCount": 1
+        },
+        {
+          "folio": 166,
+          "runningTitle": "GROWING TECHNIQUES - WATERING",
+          "firstLine": "Watering",
+          "qualifier": "Read the soil, water the roots",
+          "lineCount": 1
+        },
+        {
+          "folio": 167,
+          "runningTitle": "GROWING TECHNIQUES - GREENHOUSES",
+          "firstLine": "Greenhouses",
+          "qualifier": "What, where & how big?",
+          "lineCount": 1
+        },
+        {
+          "folio": 168,
+          "runningTitle": "GROWING TECHNIQUES - GREENHOUSES",
+          "firstLine": "Greenhouses",
+          "qualifier": "Pots and raised beds",
+          "lineCount": 1
+        },
+        {
+          "folio": 169,
+          "runningTitle": "GROWING TECHNIQUES - GREENHOUSES",
+          "firstLine": "Greenhouses",
+          "qualifier": "No-dig beds and seasons",
+          "lineCount": 1
+        }
+      ],
+      "forcedLineBreaks": false,
+      "singleLineFolios": [
+        154,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169
+      ],
+      "twoLineFolios": [
+        155,
+        156,
+        157
+      ]
+    },
+    "reviewHighlights": "Display headings on all sixteen technique pages only. Previous navigation labels and edition placement retained without marks; approval remains pending.",
+    "techniqueHeadingApproval": "docs/publication/whole-book-order-preview/references/technique-headings-approved-2026-10-15/APPROVAL.json",
+    "removeTechniqueHighlightsNextPass": true
+  },
+  "guideKey": {
+    "date": "2026-10-14",
+    "status": "facing_intro_integrated",
+    "review": "docs/publication/guide-key/REVIEW.html",
+    "checks": "docs/publication/guide-key/CHECKS.json",
+    "pdfChecks": "docs/publication/guide-key/PDF-CHECKS.json",
+    "visual": "docs/publication/guide-key/VISUAL-REVIEW.json",
+    "folio": 9,
+    "pagesPerEdition": 1,
+    "units": [
+      "imperial",
+      "metric"
+    ],
+    "retainedExplanatoryImages": 9,
+    "bodyTypePt": 10.5,
+    "title": "Vegetable guides — how to use",
+    "followsIntroFolio": 8,
+    "facesIntro": true
+  },
+  "publicationCopy": {
+    "date": "2026-10-15",
+    "status": "copy_approved_integration_pending",
+    "review": "docs/publication/publication-copy/REVIEW.html",
+    "checks": "docs/publication/publication-copy/CHECKS.json",
+    "saveReceipt": "docs/publication/publication-copy/SAVE-RECEIPT.json",
+    "bookRevision": "ad0539eda57eb6469b5b3aa3dee25ee17d34240919b2904982db1cbb8e73d316",
+    "changedDocuments": [
+      "publication",
+      "covers"
+    ],
+    "backCoverWords": 78,
+    "remainingDetails": [
+      "Copyright year",
+      "Imprint name",
+      "ISBN",
+      "Edition and publication year"
+    ],
+    "fullBookRegenerated": false,
+    "backCoverArtworkChanged": false,
+    "newCopyIntegrated": false,
+    "next": "Integrate approved text into publication page and B5 derivative; preserve missing-details placeholders. Remains authorised alongside the later vegetable-layout investigation.",
+    "approvalInstruction": "That's good, thanks. Please put this copy into the publication page and back cover and leave the missing details as placeholders."
+  },
+  "vegetableTwoPageReview": {
+    "date": "2026-10-15",
+    "status": "plan_ready_not_implemented",
+    "evidence": "docs/publication/vegetable-two-page-review/INVESTIGATION.json",
+    "affectedCrops": [
+      "carrot",
+      "onion_shallot",
+      "tomato_greenhouse",
+      "tomato_outdoor"
+    ],
+    "currentTwoPageGuides": 40,
+    "currentThreePageGuides": 4,
+    "liveDomCases": 8,
+    "guideEdits": 0,
+    "pdfsGenerated": 0,
+    "next": "Review recovery plan, then pilot carrot and onions/shallots before wider implementation."
   }
 }

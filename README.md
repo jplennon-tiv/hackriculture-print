@@ -48,9 +48,11 @@ in this and future sessions. Its maintained source is shared across the data,
 print, website and video projects.
 
 The [whole-book order preview](docs/publication/whole-book-order-preview/REVIEW.html)
-is the latest combined review: 176 interior pages in the requested section order plus G2/B5 covers,
+is the latest combined review: 174 interior pages in the revised section order plus G2/B5 covers,
 including all approved additional pages, current contents and updated index.
-Its imperial facing-page browser is for settling order before contents refinement;
+Its opening sequence is title, copyright, blank 3, facing contents 4–5,
+blank 6, Introduction 7, and Vegetable Guides/how-to facing at 8–9. The welcome
+page is omitted. Troubles and Growing Techniques retain right-hand starts;
 see the [preview notes](docs/publication/whole-book-order-preview/README.md).
 The earlier
 [technical review pack](docs/publication/book-preparation/REVIEW.html) retains
@@ -60,8 +62,8 @@ front, without the count footer, and now prefers **B5 Off-centre collage** for
 the back. [Cover ideas and preference](docs/publication/vegetable-guru-back-collage/REVIEW.html)
 retain the dark-green, angled-snippet direction. Cover C guides colour and
 illustration style only. John approved the compact contents/how-to on 7 October;
-the current whole-book preview preserves the original contents illustration and
-tries H5/H6 replacement how-to headers. Production integration remains pending. Find exact sources and approvals in the
+the current whole-book preview uses the accepted illustrated two-page contents
+at 4–5 and H5 on the one-page guide key at 9, facing Vegetable Guides at 8. Production integration remains pending. Find exact sources and approvals in the
 [asset registry](docs/assets/README.md).
 
 For the local app, run `zsh start.command` and open <http://127.0.0.1:5173>.
@@ -72,16 +74,17 @@ Detailed startup and check commands are in [SETUP.md](SETUP.md).
 
 The [four-page index](docs/publication/book-index/REVIEW.html) is approved by John
 on 12 October. Its terms remain editable and references refresh from content locations.
-The [updated three-page contents](docs/publication/contents-update/REVIEW.html) now
-include all latest pages, using the revised 176-page order. See the
-[contents notes](docs/publication/contents-update/README.md); the whole-book preview
-now applies John’s 14 October order. The new section opener designs and contents
-remain for review.
+The [simple two-page contents](docs/publication/contents-update/REVIEW.html) follow
+John’s latest correction: plain section titles and page lists, without section
+numbers or subheadings. Shared copy/plan place “Vegetable guides / how to use”
+after the Vegetable Guides intro. These corrections and the illustrated contents
+are now integrated into the rebuilt complete imperial preview. See the [contents notes](docs/publication/contents-update/README.md).
+New copy/layout remains for review.
 
 Book opening and cover copy is editable in the sibling
 [book-layout JSON folder](../hackriculture-data/book-layout/README.md).
-Run `npm run book:check` after editing. Use `npm run book:contents` for the
-expanded contents and the [whole-book workflow](docs/publication/whole-book-order-preview/README.md)
+Run `npm run book:check` after editing. Use `npm run book:contents` and
+`npm run book:guide-key` for the revised contents and guide key and the [whole-book workflow](docs/publication/whole-book-order-preview/README.md)
 for section openers and reassembly. `npm run book:build` retains the earlier
 seven-page opening composition; it does not refresh the current full preview.
 Approved sources remain intact; cover concepts still require editable reconstruction.

@@ -1,0 +1,843 @@
+{
+  "date": "2026-10-15",
+  "scope": "Investigation and proposed two-page recovery only. No guide source, shared gardening data, layout code or PDF edited.",
+  "status": "plan_ready_not_implemented",
+  "book": {
+    "pdf": "output/pdf/whole-book-order-preview/the-vegetable-guru-order-preview.pdf",
+    "sha256": "fbba42a4a962c54c64db79be7f9a975175199c26d0b10b40c167992260a30e1b",
+    "interiorPages": 174,
+    "pdfPages": 178
+  },
+  "inventory": {
+    "guides": 44,
+    "twoPageGuides": 40,
+    "threePageGuides": [
+      {
+        "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_carrot.pdf",
+        "pages": 3,
+        "folios": [
+          14,
+          15,
+          16
+        ]
+      },
+      {
+        "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_onions_and_shallots.pdf",
+        "pages": 3,
+        "folios": [
+          68,
+          69,
+          70
+        ]
+      },
+      {
+        "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_tomato_greenhouse.pdf",
+        "pages": 3,
+        "folios": [
+          86,
+          87,
+          88
+        ]
+      },
+      {
+        "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_tomato_outdoor.pdf",
+        "pages": 3,
+        "folios": [
+          90,
+          91,
+          92
+        ]
+      }
+    ],
+    "vegetableContentPages": 92,
+    "cropAlignmentBlankFolios": [
+      17,
+      71,
+      89,
+      93
+    ]
+  },
+  "history": {
+    "a4FittingPass": "docs/content-refinement/REPORT.json",
+    "a4FittingDate": "2026-09-30",
+    "a4Checks": 88,
+    "a4ActualPdf": "docs/content-refinement/proofs/tomato_greenhouse-imperial.pdf",
+    "a4ActualPdfPages": 2,
+    "a4ActualPdfSizeMm": [
+      209.9,
+      297
+    ],
+    "compactProductionReceipt": "docs/publication/book-preparation/PRODUCTION-BOOKVAULT.json",
+    "compactProductionDate": "2026-10-06T09:19:46.595Z",
+    "compactProductionBothUnitsSameFourThreePageGuides": true,
+    "implementationHashesUnchanged": {
+      "pdfPlugin.ts": true,
+      "src/print/book/renderCompact.ts": true,
+      "src/print/book/compact.css": true,
+      "src/print/book/kaleCopy.ts": true,
+      "src/print/book/production.ts": true,
+      "src/print/book/production.css": true,
+      "src/print/book/workingCopy.ts": true,
+      "scripts/normalise-book-pdf.py": true,
+      "scripts/compact-pagination.mjs": true,
+      "src/print/book/bookvault.css": true
+    }
+  },
+  "findings": [
+    "The last all-crop two-page fit review was A4. No all-44 two-page compact approval was found in the relevant records. The compact design permits three/four pages and uses a separate pagination routine.",
+    "Current book reuses the saved 6 October production body pages; recent navigation headings and book ordering did not cause the continuation pages. The four current three-page PDFs match their recorded production hashes.",
+    "Whole-block packing moves a complete pest table and all following blocks when it cannot fit. Carrot and both tomato page threes contain pest tables and Final tips; onions also spills Key risks.",
+    "Book production resets the A4 alternative column arrangement to Soil/Planting at left and Care/Harvest at right, without re-testing the alternative at book width.",
+    "The existing A4 column alternative saves 32 mm for onions and 12.6 mm for greenhouse tomato in a live compact DOM trial. It makes carrot and outdoor tomato taller, so selection must be measured per crop.",
+    "Onions and shallots has zero dedicated workingBookCopy edits and zero duplicate consolidations. Carrot has 9/3, greenhouse tomato 8/0 and outdoor tomato 5/1 respectively.",
+    "Ordinary compact export uses the approved Kale copy but omits the supplier-only working copy and several production packing adjustments. The saved 5 October ordinary proof receipt has 41 imperial / 43 metric guides over two pages. It is a separate route and should not be used to replace the better prepared production pages without reconciling that difference."
+  ],
+  "measurements": [
+    {
+      "slug": "carrot",
+      "units": "imperial",
+      "a4": {
+        "pages": 2,
+        "balanced": "standard"
+      },
+      "pages": 3,
+      "baseline": [
+        {
+          "blocks": [
+            {
+              "class": "intro",
+              "heightMm": 20.2,
+              "topMm": 34.4
+            },
+            {
+              "class": "quick",
+              "heightMm": 42,
+              "topMm": 56.4
+            },
+            {
+              "class": "year-needs",
+              "heightMm": 29.8,
+              "topMm": 100.2
+            },
+            {
+              "class": "varieties ",
+              "heightMm": 40.6,
+              "topMm": 131.9
+            },
+            {
+              "class": "key-risks",
+              "heightMm": 42.9,
+              "topMm": 174.3
+            }
+          ],
+          "gapMm": 11.8
+        },
+        {
+          "blocks": [
+            {
+              "class": "remember",
+              "heightMm": 16,
+              "topMm": 19
+            },
+            {
+              "class": "growing-columns",
+              "heightMm": 117,
+              "topMm": 36.7
+            }
+          ],
+          "gapMm": 75.3
+        },
+        {
+          "blocks": [
+            {
+              "class": "pests",
+              "heightMm": 71.9,
+              "topMm": 21.2
+            },
+            {
+              "class": "tips",
+              "heightMm": 19.9,
+              "topMm": 95.2
+            }
+          ],
+          "gapMm": 113.9
+        }
+      ],
+      "pestRows": 10,
+      "arrangements": [
+        {
+          "name": "standard",
+          "combinedEndExcessMm": 23.7,
+          "growingBlockHeightMm": 117
+        },
+        {
+          "name": "planting-aside",
+          "combinedEndExcessMm": 58.9,
+          "growingBlockHeightMm": 152.2
+        },
+        {
+          "name": "harvest-with-planting",
+          "combinedEndExcessMm": 21.5,
+          "growingBlockHeightMm": 114.8
+        }
+      ]
+    },
+    {
+      "slug": "onions_and_shallots",
+      "units": "imperial",
+      "a4": {
+        "pages": 2,
+        "balanced": "planting-aside"
+      },
+      "pages": 3,
+      "baseline": [
+        {
+          "blocks": [
+            {
+              "class": "intro",
+              "heightMm": 16.1,
+              "topMm": 34.4
+            },
+            {
+              "class": "quick",
+              "heightMm": 49.9,
+              "topMm": 52.4
+            },
+            {
+              "class": "year-needs",
+              "heightMm": 29.8,
+              "topMm": 104.1
+            },
+            {
+              "class": "varieties ",
+              "heightMm": 64,
+              "topMm": 135.7
+            }
+          ],
+          "gapMm": 29.3
+        },
+        {
+          "blocks": [
+            {
+              "class": "remember",
+              "heightMm": 16,
+              "topMm": 19
+            },
+            {
+              "class": "growing-columns",
+              "heightMm": 156.3,
+              "topMm": 36.7
+            }
+          ],
+          "gapMm": 36
+        },
+        {
+          "blocks": [
+            {
+              "class": "key-risks",
+              "heightMm": 35.8,
+              "topMm": 20.9
+            },
+            {
+              "class": "pests",
+              "heightMm": 97,
+              "topMm": 58.8
+            },
+            {
+              "class": "tips",
+              "heightMm": 10.3,
+              "topMm": 157.9
+            }
+          ],
+          "gapMm": 60.8
+        }
+      ],
+      "pestRows": 10,
+      "arrangements": [
+        {
+          "name": "standard",
+          "combinedEndExcessMm": 116.1,
+          "growingBlockHeightMm": 156.3
+        },
+        {
+          "name": "planting-aside",
+          "combinedEndExcessMm": 84.1,
+          "growingBlockHeightMm": 124.3
+        },
+        {
+          "name": "harvest-with-planting",
+          "combinedEndExcessMm": 127.5,
+          "growingBlockHeightMm": 167.6
+        }
+      ]
+    },
+    {
+      "slug": "tomato_greenhouse",
+      "units": "imperial",
+      "a4": {
+        "pages": 2,
+        "balanced": "planting-aside"
+      },
+      "pages": 3,
+      "baseline": [
+        {
+          "blocks": [
+            {
+              "class": "intro",
+              "heightMm": 20.2,
+              "topMm": 34.4
+            },
+            {
+              "class": "quick",
+              "heightMm": 27.4,
+              "topMm": 56.4
+            },
+            {
+              "class": "year-needs",
+              "heightMm": 29.8,
+              "topMm": 85.6
+            },
+            {
+              "class": "varieties ",
+              "heightMm": 60.2,
+              "topMm": 117.3
+            },
+            {
+              "class": "key-risks",
+              "heightMm": 39.4,
+              "topMm": 179.3
+            }
+          ],
+          "gapMm": 10.3
+        },
+        {
+          "blocks": [
+            {
+              "class": "remember",
+              "heightMm": 16,
+              "topMm": 19
+            },
+            {
+              "class": "growing-columns",
+              "heightMm": 126.2,
+              "topMm": 36.7
+            }
+          ],
+          "gapMm": 66.2
+        },
+        {
+          "blocks": [
+            {
+              "class": "pests",
+              "heightMm": 97,
+              "topMm": 21.2
+            },
+            {
+              "class": "tips",
+              "heightMm": 13.9,
+              "topMm": 120.3
+            }
+          ],
+          "gapMm": 94.9
+        }
+      ],
+      "pestRows": 10,
+      "arrangements": [
+        {
+          "name": "standard",
+          "combinedEndExcessMm": 52,
+          "growingBlockHeightMm": 126.2
+        },
+        {
+          "name": "planting-aside",
+          "combinedEndExcessMm": 39.4,
+          "growingBlockHeightMm": 113.6
+        },
+        {
+          "name": "harvest-with-planting",
+          "combinedEndExcessMm": 46.7,
+          "growingBlockHeightMm": 121
+        }
+      ]
+    },
+    {
+      "slug": "tomato_outdoor",
+      "units": "imperial",
+      "a4": {
+        "pages": 2,
+        "balanced": "standard"
+      },
+      "pages": 3,
+      "baseline": [
+        {
+          "blocks": [
+            {
+              "class": "intro",
+              "heightMm": 20.2,
+              "topMm": 34.4
+            },
+            {
+              "class": "quick",
+              "heightMm": 27.4,
+              "topMm": 56.4
+            },
+            {
+              "class": "year-needs",
+              "heightMm": 29.8,
+              "topMm": 85.6
+            },
+            {
+              "class": "varieties ",
+              "heightMm": 60.2,
+              "topMm": 117.3
+            },
+            {
+              "class": "key-risks",
+              "heightMm": 39.4,
+              "topMm": 179.3
+            }
+          ],
+          "gapMm": 10.3
+        },
+        {
+          "blocks": [
+            {
+              "class": "remember",
+              "heightMm": 16,
+              "topMm": 19
+            },
+            {
+              "class": "growing-columns",
+              "heightMm": 109.1,
+              "topMm": 36.7
+            }
+          ],
+          "gapMm": 83.3
+        },
+        {
+          "blocks": [
+            {
+              "class": "pests",
+              "heightMm": 88.5,
+              "topMm": 21.2
+            },
+            {
+              "class": "tips",
+              "heightMm": 13.9,
+              "topMm": 111.8
+            }
+          ],
+          "gapMm": 103.3
+        }
+      ],
+      "pestRows": 9,
+      "arrangements": [
+        {
+          "name": "standard",
+          "combinedEndExcessMm": 26.3,
+          "growingBlockHeightMm": 109.1
+        },
+        {
+          "name": "planting-aside",
+          "combinedEndExcessMm": 50.6,
+          "growingBlockHeightMm": 133.3
+        },
+        {
+          "name": "harvest-with-planting",
+          "combinedEndExcessMm": 36.9,
+          "growingBlockHeightMm": 119.6
+        }
+      ]
+    },
+    {
+      "slug": "carrot",
+      "units": "metric",
+      "a4": {
+        "pages": 2,
+        "balanced": "standard"
+      },
+      "pages": 3,
+      "baseline": [
+        {
+          "blocks": [
+            {
+              "class": "intro",
+              "heightMm": 20.2,
+              "topMm": 34.4
+            },
+            {
+              "class": "quick",
+              "heightMm": 42,
+              "topMm": 56.4
+            },
+            {
+              "class": "year-needs",
+              "heightMm": 29.8,
+              "topMm": 100.2
+            },
+            {
+              "class": "varieties ",
+              "heightMm": 40.6,
+              "topMm": 131.9
+            },
+            {
+              "class": "key-risks",
+              "heightMm": 42.9,
+              "topMm": 174.3
+            }
+          ],
+          "gapMm": 11.8
+        },
+        {
+          "blocks": [
+            {
+              "class": "remember",
+              "heightMm": 16,
+              "topMm": 19
+            },
+            {
+              "class": "growing-columns",
+              "heightMm": 117,
+              "topMm": 36.7
+            }
+          ],
+          "gapMm": 75.3
+        },
+        {
+          "blocks": [
+            {
+              "class": "pests",
+              "heightMm": 71.9,
+              "topMm": 21.2
+            },
+            {
+              "class": "tips",
+              "heightMm": 19.9,
+              "topMm": 95.2
+            }
+          ],
+          "gapMm": 113.9
+        }
+      ],
+      "pestRows": 10,
+      "arrangements": [
+        {
+          "name": "standard",
+          "combinedEndExcessMm": 23.7,
+          "growingBlockHeightMm": 117
+        },
+        {
+          "name": "planting-aside",
+          "combinedEndExcessMm": 58.9,
+          "growingBlockHeightMm": 152.2
+        },
+        {
+          "name": "harvest-with-planting",
+          "combinedEndExcessMm": 21.5,
+          "growingBlockHeightMm": 114.8
+        }
+      ]
+    },
+    {
+      "slug": "onions_and_shallots",
+      "units": "metric",
+      "a4": {
+        "pages": 2,
+        "balanced": "planting-aside"
+      },
+      "pages": 3,
+      "baseline": [
+        {
+          "blocks": [
+            {
+              "class": "intro",
+              "heightMm": 16.1,
+              "topMm": 34.4
+            },
+            {
+              "class": "quick",
+              "heightMm": 49.9,
+              "topMm": 52.4
+            },
+            {
+              "class": "year-needs",
+              "heightMm": 29.8,
+              "topMm": 104.1
+            },
+            {
+              "class": "varieties ",
+              "heightMm": 64,
+              "topMm": 135.7
+            }
+          ],
+          "gapMm": 29.3
+        },
+        {
+          "blocks": [
+            {
+              "class": "remember",
+              "heightMm": 16,
+              "topMm": 19
+            },
+            {
+              "class": "growing-columns",
+              "heightMm": 156.3,
+              "topMm": 36.7
+            }
+          ],
+          "gapMm": 36
+        },
+        {
+          "blocks": [
+            {
+              "class": "key-risks",
+              "heightMm": 35.8,
+              "topMm": 20.9
+            },
+            {
+              "class": "pests",
+              "heightMm": 97,
+              "topMm": 58.8
+            },
+            {
+              "class": "tips",
+              "heightMm": 10.3,
+              "topMm": 157.9
+            }
+          ],
+          "gapMm": 60.8
+        }
+      ],
+      "pestRows": 10,
+      "arrangements": [
+        {
+          "name": "standard",
+          "combinedEndExcessMm": 116.1,
+          "growingBlockHeightMm": 156.3
+        },
+        {
+          "name": "planting-aside",
+          "combinedEndExcessMm": 84.1,
+          "growingBlockHeightMm": 124.3
+        },
+        {
+          "name": "harvest-with-planting",
+          "combinedEndExcessMm": 127.5,
+          "growingBlockHeightMm": 167.6
+        }
+      ]
+    },
+    {
+      "slug": "tomato_greenhouse",
+      "units": "metric",
+      "a4": {
+        "pages": 2,
+        "balanced": "planting-aside"
+      },
+      "pages": 3,
+      "baseline": [
+        {
+          "blocks": [
+            {
+              "class": "intro",
+              "heightMm": 20.2,
+              "topMm": 34.4
+            },
+            {
+              "class": "quick",
+              "heightMm": 27.4,
+              "topMm": 56.4
+            },
+            {
+              "class": "year-needs",
+              "heightMm": 29.8,
+              "topMm": 85.6
+            },
+            {
+              "class": "varieties ",
+              "heightMm": 60.2,
+              "topMm": 117.3
+            },
+            {
+              "class": "key-risks",
+              "heightMm": 39.4,
+              "topMm": 179.3
+            }
+          ],
+          "gapMm": 10.3
+        },
+        {
+          "blocks": [
+            {
+              "class": "remember",
+              "heightMm": 16,
+              "topMm": 19
+            },
+            {
+              "class": "growing-columns",
+              "heightMm": 126.2,
+              "topMm": 36.7
+            }
+          ],
+          "gapMm": 66.2
+        },
+        {
+          "blocks": [
+            {
+              "class": "pests",
+              "heightMm": 97,
+              "topMm": 21.2
+            },
+            {
+              "class": "tips",
+              "heightMm": 13.9,
+              "topMm": 120.3
+            }
+          ],
+          "gapMm": 94.9
+        }
+      ],
+      "pestRows": 10,
+      "arrangements": [
+        {
+          "name": "standard",
+          "combinedEndExcessMm": 52,
+          "growingBlockHeightMm": 126.2
+        },
+        {
+          "name": "planting-aside",
+          "combinedEndExcessMm": 39.4,
+          "growingBlockHeightMm": 113.6
+        },
+        {
+          "name": "harvest-with-planting",
+          "combinedEndExcessMm": 46.7,
+          "growingBlockHeightMm": 121
+        }
+      ]
+    },
+    {
+      "slug": "tomato_outdoor",
+      "units": "metric",
+      "a4": {
+        "pages": 2,
+        "balanced": "standard"
+      },
+      "pages": 3,
+      "baseline": [
+        {
+          "blocks": [
+            {
+              "class": "intro",
+              "heightMm": 20.2,
+              "topMm": 34.4
+            },
+            {
+              "class": "quick",
+              "heightMm": 27.4,
+              "topMm": 56.4
+            },
+            {
+              "class": "year-needs",
+              "heightMm": 29.8,
+              "topMm": 85.6
+            },
+            {
+              "class": "varieties ",
+              "heightMm": 60.2,
+              "topMm": 117.3
+            },
+            {
+              "class": "key-risks",
+              "heightMm": 39.4,
+              "topMm": 179.3
+            }
+          ],
+          "gapMm": 10.3
+        },
+        {
+          "blocks": [
+            {
+              "class": "remember",
+              "heightMm": 16,
+              "topMm": 19
+            },
+            {
+              "class": "growing-columns",
+              "heightMm": 109.1,
+              "topMm": 36.7
+            }
+          ],
+          "gapMm": 83.3
+        },
+        {
+          "blocks": [
+            {
+              "class": "pests",
+              "heightMm": 88.5,
+              "topMm": 21.2
+            },
+            {
+              "class": "tips",
+              "heightMm": 13.9,
+              "topMm": 111.8
+            }
+          ],
+          "gapMm": 103.3
+        }
+      ],
+      "pestRows": 9,
+      "arrangements": [
+        {
+          "name": "standard",
+          "combinedEndExcessMm": 26.3,
+          "growingBlockHeightMm": 109.1
+        },
+        {
+          "name": "planting-aside",
+          "combinedEndExcessMm": 50.6,
+          "growingBlockHeightMm": 133.3
+        },
+        {
+          "name": "harvest-with-planting",
+          "combinedEndExcessMm": 36.9,
+          "growingBlockHeightMm": 119.6
+        }
+      ]
+    }
+  ],
+  "measurementLimits": [
+    "Eight read-only live DOM measurements: four affected crops in both units. No new PDF proofs generated.",
+    "Baseline compact geometry reproduced saved footer gaps. Trials moved existing DOM nodes only; no text or type changes.",
+    "combinedEndExcessMm measures the deficit if every page-three block follows the practical block on page two with a 3 mm footer gap. It is not a minimum achievable deficit across redesigned spreads.",
+    "The live source practical title precedes the approved assembled Growing guide · crop overlay; the current overlay does not reflow body content.",
+    "Actual saved book renders inspected for all twelve affected pages; four original source PDFs checked for page count/hash, plus the earlier A4 greenhouse tomato PDF."
+  ],
+  "plan": [
+    {
+      "step": 1,
+      "action": "Make two facing pages the working recovery target, preserving current body type, hero/circle/sticker, diagrams and approved Growing guide · crop navigation. Keep frozen originals and canonical records intact; do not silently publish a third page when the target fails."
+    },
+    {
+      "step": 2,
+      "action": "Pilot carrot and onions/shallots. Restore measured choice of logical practical-column arrangements at compact width; optimise spacing and block placement across the spread before changing prose."
+    },
+    {
+      "step": 3,
+      "action": "Prepare source-linked compact editorial drafts for residual shortages. Tighten repeated sentences and measurements and repeated Key risks/pest-table explanations. Keep seed and set routes, crop-specific timings, safety and useful controls. Any proposed transfer to the Troubles section must point to an existing page that names the vegetable and retains the actual advice; record any omissions for John. Do not enforce a fixed pest-row or variety quota."
+    },
+    {
+      "step": 4,
+      "action": "Show the two pilot spreads in actual metric and imperial PDFs with changes highlighted. Onions is the harder case: balancing alone leaves substantial excess. Do not promise every current sentence fits unchanged."
+    },
+    {
+      "step": 5,
+      "action": "Once the approach is accepted, apply it to both tomato guides, check all 44 page counts and test unaffected dense spreads for regressions. Keep normal book export and assembled production on an explicit consistent copy/layout profile."
+    },
+    {
+      "step": 6,
+      "action": "After all four fit and are accepted, remove their four continuation leaves and four crop-alignment blanks, refresh folios/contents/index/See also targets, and rebuild the book. This would reduce the present interior from 174 to 166 pages if no other page counts change."
+    }
+  ],
+  "pendingAuthorisedWork": "Approved publication and back-cover wording still requires actual page/B5 integration and full preview rebuild; retain missing-details placeholders."
+}

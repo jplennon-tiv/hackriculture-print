@@ -37,7 +37,9 @@ Keep current selections in the handover rather than hard-coding them in this ski
 | Illustrated topic overview, practical sequence, comparison or explanation | [Illustrated topic-page composition](references/illustrated-topic-pages.md), read before allocating copy and image space |
 | New researched gardening copy for a topic page | [Gardening Research](/Users/johnlennon/.codex/skills/gardening-research/SKILL.md); supplied-copy layout alone does not initiate new research |
 | Reading or changing shared JSON, including book opening/cover copy | [hackriculture-data](../hackriculture-data/SKILL.md), before the data operation |
-| New/revised page composition, fit, opening sequence, facing spreads, pagination or assembly | [book-layout-review](../book-layout-review/SKILL.md), plus the relevant section treatment in the design system |
+| Simple content-page composition/fit and its facing spread: guides, topics, simple openings/how-to | [book-layout-review](../book-layout-review/SKILL.md), plus the relevant section treatment in the design system |
+| Contents or index pages | Use the current agreed page structure and the design system directly. These are outside book-layout-review: do not import its grouping, hierarchy or page-packing rules. Preserve scanability and page budget; check the actual PDF. |
+| Covers, overall sequence, pagination or full-book assembly | This design workflow, current handover and relevant DEVELOPMENT procedures; do not route these tasks wholesale through book-layout-review |
 | New/restyled decorative illustration or a style comparison | [vegetable-guru-artwork](../vegetable-guru-artwork/SKILL.md), which uses the available imagegen skill/tool |
 | Reuse of existing artwork | Inspect the source, approval and placement inventory; do not generate a replacement merely to exercise an image tool |
 | PDF creation/editing or visual PDF inspection | The available PDF skill, with the book layout/profile rules; use saved proofs for a rough assembly when appropriate |
@@ -72,8 +74,9 @@ requested lipsum/metadata placeholders until real copy is supplied or authorised
 
 Match verification to the request. Rough previews reuse existing art/proofs and
 need clear scope plus representative inspection. Changed print layouts need the
-actual affected PDFs, font/image checks and source comparison from the layout
-skill. Respect an explicitly requested single edition; do not spend time on
+actual affected PDFs, font/image checks and source comparison. Apply the layout
+skill only to its simple content-page scope, never contents or indexes.
+Respect an explicitly requested single edition; do not spend time on
 unrequested polishing or production work. Documentation-only changes need skill,
 link and consistency checks, not regenerated artwork or book PDFs.
 

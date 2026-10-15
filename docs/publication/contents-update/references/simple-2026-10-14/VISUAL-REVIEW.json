@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-14",
+  "status": "Visual check complete; simple two-page revision for John\u2019s review",
+  "pdfHashes": {
+    "imperial": "2a544e425b7934fabec3d8c826dd5f85c97c8db0521ced3fc6a10e325f81bb2d",
+    "metric": "22f7f55cf7b0507acf4b64e0a0fe2e83a71d70c0af14216aaf94e34ad1243142"
+  },
+  "coverage": {
+    "imperialFullSizePages": [
+      4,
+      5
+    ],
+    "metric": "Both page bodies pixel-identical to imperial through 225 mm; both metric footers visually inspected."
+  },
+  "intentionalAdaptations": [
+    "Two pages with matching Contents title and three plain section titles",
+    "No section numbers, family/topic subheadings, decorative artwork, panels or explanatory notes",
+    "All 81 destinations retained in manuscript order; self-contained technique labels",
+    "Saved title Vegetable guides / how to use follows the Vegetable Guides opener in the plan; key PDF and full book not regenerated"
+  ],
+  "findings": [
+    "All entries fit on single lines after shortening one greenhouse label",
+    "No observed clipping or text collisions",
+    "Right-aligned page references; clear separation between columns"
+  ],
+  "footerClearanceMm": {
+    "imperial": [
+      19.36,
+      71.417
+    ],
+    "metric": [
+      19.36,
+      71.417
+    ]
+  },
+  "protectedFilesVerified": 95,
+  "focusedPaginationAndCoverageTestsPassed": 2,
+  "bookCopyValidation": "Eight documents valid, 81 contents destinations in each edition; 273 index entries retained",
+  "fullBookRegenerated": false,
+  "guideKeyPdfRegenerated": false,
+  "skillOverride": "John explicitly requested setting aside book-layout-review for this revision; applied.",
+  "approval": "Requested corrections implemented; resulting layout remains for review."
+}

@@ -1,6 +1,6 @@
 ---
 name: guide-layout-review
-description: Review and improve hackriculture-print individual A4 vegetable and Troubles sheets, including fit, whitespace, overflow and actual PDF proofs. Use for single-sheet or loose-leaf work; bound book pages use book-layout-review.
+description: Review and improve hackriculture-print individual A4 vegetable and Troubles sheets, including fit, whitespace, overflow and actual PDF proofs. Contents and index pages are outside scope. Use for single-sheet or loose-leaf guides; bound book content pages use book-layout-review.
 ---
 
 # Layout — single sheets
@@ -11,6 +11,9 @@ more than one sheet; “single sheets” does not impose a one-page limit. For a
 bound book, use [book-layout-review](../book-layout-review/SKILL.md). An explicit
 request for sheets takes precedence over the project's current book default.
 A5/A6 are selectable but have no validated design contract.
+Contents and index pages are outside this skill's scope, including when supplied
+with a guide collection. Follow their agreed design directly and verify the PDF;
+do not apply guide grouping or page-packing rules to them.
 
 ## Sources and scope
 

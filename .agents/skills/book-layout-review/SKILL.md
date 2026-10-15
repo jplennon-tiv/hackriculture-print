@@ -1,9 +1,9 @@
 ---
 name: book-layout-review
-description: Review and improve The Vegetable Guru 185 × 240 mm book pages, including guides, illustrated topic summaries and openings, plus facing spreads, binding margins, pagination and PDF assemblies in hackriculture-print. Use for bound-book layout and proof work; individual A4 sheets use guide-layout-review.
+description: Review simple content pages and their facing spreads for The Vegetable Guru 185 × 240 mm book, including vegetable and Troubles guides, illustrated topics and simple openings. Contents and index pages are outside scope, as are covers, book-wide ordering and full-book assembly. Individual A4 guides use guide-layout-review.
 ---
 
-# Layout — book pages
+# Layout — simple book pages
 
 Use the book's own layout and production profiles. Review the requested pages
 both individually and in their actual facing spreads. For standalone A4 sheets,
@@ -12,6 +12,18 @@ An explicit request for a rough or single-unit preview controls the level of
 work; do not turn it into final production or a both-unit catalogue run.
 
 ## Sources and scope
+
+This skill is limited to simple content-page composition and fit: vegetable and
+Troubles guides, illustrated topics, and simple opening/how-to pages. A guide may
+span several pages; “simple pages” is a scope boundary, not a one-page limit.
+**Contents and index pages are outside scope.** Do not apply this skill's content
+grouping, heading hierarchy, illustration-retention or page-packing rules to them,
+including when they are part of a broader book task. Their current agreed layout
+and the book design system govern them directly; PDF checks still apply.
+
+Covers, overall book ordering and full-book assembly also belong to the
+[book-design workflow](../vegetable-guru-book-design/SKILL.md), not this skill.
+Use physical folios here only to check the requested content pages and spreads.
 
 Read [AGENTS](../../../AGENTS.md), [README](../../../README.md),
 [shared-data rules](../../../SHARED-DATA.md) and the
@@ -41,8 +53,8 @@ inside this skill. Artwork creation/restyling belongs to
 | Output | Geometry and scope |
 | --- | --- |
 | Individual compact guide proof | 185 × 240 mm trim profile, local numbering, no opening pages; ordinary web/API export |
-| Supplier working interior | Selected supplier's bleed, trim, binding safety, mirrored margins and physical folios; separate production output |
-| Rough progress preview | Reuse saved PDFs/art where possible; reduced screen images and cover leaves are acceptable when labelled; not a print upload |
+| Content pages for a supplier working interior | Selected supplier's bleed, trim, binding safety, mirrored margins and physical folios; export only the affected pages |
+| Rough content-page preview | Reuse saved PDFs/art where possible; reduced screen images are acceptable when labelled; not a print upload |
 
 The ordinary trim and Bookvault working profiles have different binding margins;
 use the [shared geometry table](../../../docs/BOOK-DESIGN-SYSTEM.md#page-geometry-and-spacing).
@@ -79,27 +91,24 @@ advice. Sparse final pages can retain unequal bottoms when alignment would creat
 excessive gaps; record the actual exception. A4's naturally staggered-column
 rule does not replace this book rule, and six entries is not a universal quota.
 
-For opening pages, retain approved explanations, reference artwork and contents
-hierarchy. Evaluate the sequence and facing-page balance as well as individual
-fit. Use current stock allocations and copy status from the handover; a trial
-image placement does not overwrite its approved source. Keep placeholders when
-requested. For covers, use the currently selected design sources; a production
-wrap depends on confirmed stock, pagination and supplier template, not the
-ordinary interior page margins. Do not generate new cover art during a fit check.
+For simple opening/how-to pages, retain approved explanations and reference
+artwork. Evaluate facing-page balance as well as individual fit. Use current stock
+allocations and copy status from the handover; a trial image placement does not
+overwrite its approved source. Keep placeholders when requested. This guidance
+does not extend to contents, indexes or covers.
 
-## Pagination and assembly
+## Placement of the requested pages
 
 Confirm physical starting folios before checking mirrored gutters and spreads:
 even pages are left/verso, odd pages right/recto. Local proof page numbers cannot
 establish placement in a full book. Use actual PDF page counts and the current
 assembly plan; never reuse A4 folios or silently assume every crop has two pages.
 
-Preserve the current facing-page/blank-page proposal for a rough review unless
-John asks to change it; do not treat it as approved policy. If page count or order
-changes, recalculate subsequent starts, contents references and blank placement
-before assembly. Update costs/spine inputs when relevant; a new count alone
-does not settle a supplier spine/template discrepancy. Count cover leaves
-separately from the interior. A small edit is not permission to rebuild all guides.
+Preserve the current facing-page/blank-page proposal unless John asks to change
+it; do not treat it as approved policy. If an affected guide's page count changes,
+report the pagination dependency to the book-design workflow. That does not
+bring contents/index design or full-book reassembly into this skill's scope.
+A small edit is not permission to rebuild all guides.
 
 ## Verify the book output
 

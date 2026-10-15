@@ -1,0 +1,122 @@
+{
+  "date": "2026-10-15",
+  "status": "Technique headings flow on one line wherever they fit; all sixteen pages visually checked and ready for review",
+  "pdfSha256": "fbba42a4a962c54c64db79be7f9a975175199c26d0b10b40c167992260a30e1b",
+  "render": {
+    "pages": 178,
+    "dpi": 110,
+    "format": "JPEG",
+    "nativeTextRetainedInPdf": true
+  },
+  "coverage": {
+    "techniqueFolios": [
+      154,
+      155,
+      156,
+      157,
+      158,
+      159,
+      160,
+      161,
+      162,
+      163,
+      164,
+      165,
+      166,
+      167,
+      168,
+      169
+    ],
+    "actualFacingPairs": [
+      [
+        154,
+        155
+      ],
+      [
+        156,
+        157
+      ],
+      [
+        158,
+        159
+      ],
+      [
+        160,
+        161
+      ],
+      [
+        162,
+        163
+      ],
+      [
+        164,
+        165
+      ],
+      [
+        166,
+        167
+      ],
+      [
+        168,
+        169
+      ]
+    ],
+    "browserHighlightedSpread": [
+      158,
+      159
+    ],
+    "allSavedGuidesVisuallyRereviewed": false,
+    "approvedPriorNavigationReview": "references/navigation-approved-2026-10-15/VISUAL-REVIEW.json"
+  },
+  "findings": [
+    "All sixteen technique headings retain the 31.5 pt green topic name and 22.5 pt orange qualifier. Thirteen fit on one line; only folios 155, 156 and 157 require two. Qualifiers stay together as readable phrases, and measured widths confirm each wrap is necessary.",
+    "All four cultivation running titles and exact requested heading words retained. All four display headings now fit on one line.",
+    "All eight final technique spreads inspected. No observed clipped headings, missing artwork, body overlaps or footer collisions.",
+    "The previous 4 mm spacing reduction on page 161 has been removed: its one-line heading allows the original block spacing. Body type, complete text and artwork retained.",
+    "All 174 interior page bodies compared with the approved navigation PDF, allowing only the recorded topic heading/running-label changes and the retained edition statement. No gardening text changes detected.",
+    "All 64 related-reading destinations and their per-page crop-mention evidence match the approved version. The 64 navigation links and 371 index links reopen correctly.",
+    "All 44 approved combined crop headings and four named third-page headings retained, with their highlights removed. Earlier navigation labels and edition placement remain in place without highlights; this does not confer approval.",
+    "Viewer marks only the display heading on each technique page. Highlight toggle, next-change wrapping, page navigation and all 178 thumbnails checked.",
+    "Page count and order remain 174 interior pages plus four cover leaves. Current preview is imperial only; frozen sources, shared JSON and ordinary guide exporters remain unchanged."
+  ],
+  "headingMeasurements": {
+    "firstLinePt": 31.5,
+    "qualifierPt": 22.5,
+    "firstColour": "#173e2c",
+    "qualifierColour": "#a44007",
+    "minimumBodyToSourceNoteMm": 5.870442708333333,
+    "minimumBodyToComponentFooterMm": 3.5594726562499996,
+    "singleLineFolios": [
+      154,
+      158,
+      159,
+      160,
+      161,
+      162,
+      163,
+      164,
+      165,
+      166,
+      167,
+      168,
+      169
+    ],
+    "twoLineFolios": [
+      155,
+      156,
+      157
+    ],
+    "forcedLineBreaks": false
+  },
+  "tests": {
+    "focusedNavigationTests": 7,
+    "failed": 0
+  },
+  "protectedSourcesRechecked": 95,
+  "currentSharedCopyInputsVerified": 8,
+  "sharedCopyEdits": "None.",
+  "browserChecks": "BROWSER-CHECKS.json",
+  "sequenceChecks": "SEQUENCE-CHECKS.json",
+  "navigationChecks": "NAVIGATION-PDF-CHECKS.json",
+  "approval": "John welcomed the shared topic hierarchy and requested removal of unnecessary line breaks while retaining the colour change. The current compact heading flow implements that correction and awaits review. Earlier navigation labels and edition placement remain pending review."
+}

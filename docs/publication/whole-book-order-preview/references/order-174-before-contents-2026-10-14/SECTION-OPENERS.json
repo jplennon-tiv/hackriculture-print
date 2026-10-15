@@ -1,0 +1,67 @@
+{
+  "date": "2026-10-14",
+  "status": "John-authorised ordering/navigation plan implemented; resulting new copy and compositions remain for review",
+  "copy": "../hackriculture-data/book-layout/book.json#sectionOpeners",
+  "sources": [
+    "docs/assets/vegetable-guru-stock/ARTWORK.json",
+    "docs/assets/NATURALISTIC-SET-MANIFEST.json",
+    "docs/assets/README.md",
+    "docs/publication/topic-pages/techniques-expansion/COLLECTION-APPROVAL.json"
+  ],
+  "newArtworkGenerated": false,
+  "intentionalAdaptation": "Large section titles and short introductory copy, using the book fonts, cream paper, green/orange headings and existing illustrations. Existing approved pages are preserved.",
+  "pages": [
+    {
+      "id": "varieties",
+      "folio": 9,
+      "purpose": "Introduce the crop guide collection with existing H4 stock.",
+      "assets": [
+        {
+          "src": "/docs/assets/vegetable-guru-stock/assets/h4-summer-aubergines-hero-style-v2.png",
+          "alt": "Aubergine, cucumber, beans and squash",
+          "file": "docs/assets/vegetable-guru-stock/assets/h4-summer-aubergines-hero-style-v2.png",
+          "sha256": "c71da57861c121fd15a6395bbe801e0bd58994da051e4cfe375b8f6b428a3ac5"
+        }
+      ],
+      "label": "Vegetable Guides"
+    },
+    {
+      "id": "troubles",
+      "folio": 107,
+      "purpose": "Signal the diagnostic section using the established aphid, mildew and slug risk drawings; not a new diagnosis.",
+      "assets": [
+        {
+          "src": "/images/key-risk-icons/naturalistic-v3/aphid.png",
+          "alt": "Aphid",
+          "file": "public/images/key-risk-icons/naturalistic-v3/aphid.png",
+          "sha256": "093634f9ed92ea0dcf1c16f9d8bffd39e190846f9b737d5697800ab951c7fd01"
+        },
+        {
+          "src": "/images/key-risk-icons/naturalistic-v3/mildew.png",
+          "alt": "Leaf with mildew",
+          "file": "public/images/key-risk-icons/naturalistic-v3/mildew.png",
+          "sha256": "00cf518ef5456063cdd3268bd1773b502db4aec16cfc13e9089b955364170c42"
+        },
+        {
+          "src": "/images/key-risk-icons/naturalistic-v3/slug.png",
+          "alt": "Slug",
+          "file": "public/images/key-risk-icons/naturalistic-v3/slug.png",
+          "sha256": "0860a239c9aee58ed96f08a346bd1d7fa8b337240df3749aabd2e462fc466c87"
+        }
+      ]
+    },
+    {
+      "id": "techniques",
+      "folio": 153,
+      "purpose": "Introduce practical plot techniques with the approved starter-plot illustration.",
+      "assets": [
+        {
+          "src": "/docs/publication/topic-pages/techniques-expansion/assets/starter-plot-v1.png",
+          "alt": "Vegetable beds, a path, watering can and garden fork",
+          "file": "docs/publication/topic-pages/techniques-expansion/assets/starter-plot-v1.png",
+          "sha256": "bd4debd184b1590be6c3e08ca6915c047aa679532615d6f873b6496363f3693c"
+        }
+      ]
+    }
+  ]
+}

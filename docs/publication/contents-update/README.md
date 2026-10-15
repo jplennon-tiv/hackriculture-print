@@ -1,60 +1,54 @@
-# Updated contents: all current pages
+# Simple two-page contents
 
-Updated 14 October 2026 after John requested the new section order.
-[Preview both editions](REVIEW.html). This is a three-page contents proposal,
-with its design still for review. The
-[whole-book preview](../whole-book-order-preview/REVIEW.html) now assembles this
-requested order before further contents refinement.
+[Review just the contents](REVIEW.html). John requested this correction on
+14 October 2026 after rejecting the numbered, three-page contents hierarchy.
+John confirmed the two-page structure with simple headings, requested a little
+house-style decoration, then accepted the illustrated pages for book integration. Contents and indexes are now explicitly outside
+the layout skills’ scope. The [integration decision](INTEGRATION-DECISION.json) records that bounded acceptance.
 
-The first two pages preserve the approved 7 October composition, family colours,
-harvest illustration, guide labels and useful crop-coverage explanation. Only
-calculated references and continuation notes change. The third page uses the
-same fonts, readable row size, mirrored margins and existing illustration; it
-lists every new topic page, the openings and the approved index. Its green
-Getting started panel and peach index panel are proposed extensions of the
-established contents design. There is no new or replacement artwork.
+Both pages have one “Contents” title, plain section titles and page lists.
+Section numbers, crop-family and technique subheadings, introductory notes,
+and coloured panels are deliberately omitted. The welcome entry is removed at John’s request; all 80 current
+navigation destinations remain, in manuscript order. Technique labels now
+make sense without a parent heading. Rows remain 10.5 pt; all visible wording,
+ordering and design follow the accepted illustrated baseline; folios and the
+Why Grow reference follow the new opening sequence.
 
-## Current placement
+The paired H1/H2 root-and-leaf illustrations now sit beside the matching headers.
+H5 seedlings and H6 harvest trug fill the spare space below the second page’s
+lists. All four are the existing hero-style redraws, reused verbatim from the
+[stock inventory](../../assets/vegetable-guru-stock/README.md); no new artwork was
+generated. A short orange rule provides a small shared accent. No extra headings,
+text panels or explanatory copy have been introduced.
 
-- Title, publication and welcome: 1–3; contents: 4–6; Why Grow Your Own: 7.
-- Vegetable Varieties opener: 9; How to use: 10–11; vegetable guides: 12–107.
-- Vegetable Troubles opener: 109; Troubles guides: 110–154.
-- Growing Techniques opener: 155; the sixteen technique pages: 156–171.
-- Four-page index: 172–175; end balancing blank: 176.
+The [plain two-page reference](references/simple-2026-10-14/imperial-spread-4-5.png)
+and both baseline PDFs under `output/pdf/contents-update/references/` are retained.
+Artwork placement is maintained in `scripts/lib/book-contents.mjs` and the local
+CSS. Exact source paths/hashes and placement status are recorded in [CHECKS.json](CHECKS.json).
 
-Blank versos at 8 and 108 face the first two new openers. The existing crop blanks
-move to 19, 73, 91 and 95. How to use, Beds, Digging and Compost are now facing
-pairs. The 14 October order follows John’s instruction; new opener composition
-and copy remain proposals. Their three contents links join the Getting started
-panel without reducing the established reading type.
+The placement plan has blank 3, contents facing at 4–5, blank 6, and
+“Introduction — why grow your own” at 7. Vegetable Guides and its how-to
+face at 8–9, so the former blank after the key is removed. Troubles and
+Techniques retain right-hand starts; crop spreads still begin at 10. Remaining folios and the 174-page plan are
+unchanged. The renamed how-to PDF and the complete imperial preview have now
+been rebuilt with this sequence. The current illustrated contents PDF is reused; the accepted 4–5 proofs are
+preserved under `references/illustrated-4-5-2026-10-14/` in the PDF and review folders.
 
-[ASSEMBLY-PROPOSAL.json](ASSEMBLY-PROPOSAL.json) binds the calculation to measured,
-hash-verified PDFs in both editions. Each approved topic has its exact source PDF and local page identity; new
-section openers have separate stable identities and editable book copy. [TOPIC-FOLIOS.json](TOPIC-FOLIOS.json) supplies the same
-stable identities to the index resolver. Original source PDFs remain unchanged;
-the separate whole-book preview now has revised physical folios and a numeric,
-clickable index. The 176-page preview total is not a supplier specification,
-new cost calculation or resolved spine width.
+Editable copy is in shared [contents.json](../../../../hackriculture-data/book-layout/contents.json)
+and [how-to.json](../../../../hackriculture-data/book-layout/how-to.json).
+[The earlier guarded save](SIMPLIFICATION-SAVE.json) and [sequence save](SEQUENCE-SAVE.json)
+record exact backups. [Introduction title save](INTRODUCTION-TITLE-SAVE.json)
+records the label used by both these contents and the opening topic heading.
+The earlier sequence save removes only the welcome entry; welcome and
+author source documents remain intact.
+Stored family/group metadata and the original two-page how-to header remain
+for compatibility with earlier renderers. The current contents renderer
+flattens those groups. No approved compact or A4 source has been changed.
 
-## Editing and rebuilding
-
-Text is in shared [contents.json](../../../../hackriculture-data/book-layout/contents.json).
-The original `pages`, `families` and `troubles` remain compatible with the retained
-two-page layout. `expanded` owns the new header, notes, grouped labels and stable
-section destinations. Calculated numbers and page order stay in the print project.
-AI/app saves use the guarded shared writer; [save receipts](SAVE-RECEIPT.json)
-identify exact preceding-byte backups. The 14 October opener links and watering-title
-correction use the [new save receipt](../whole-book-order-preview/SECTION-OPENERS-SAVE.json).
-
-With the normal loopback app running, use `npm run book:contents` to rebuild only
-these three pages in both editions. Then run `scripts/check-updated-contents.py`
-with the bundled PDF Python runtime and inspect the actual PNGs. Do not run the
-older `book:entries` command for this expanded preview: it deliberately retains
-the prior four-page contents/how-to source composition.
-
-[Checks](CHECKS.json) bind sources, copy, implementation, fit and all 81 references
-per edition. [PDF checks](PDF-CHECKS.json) cover both actual three-page PDFs,
-116 text regions each, fonts, Bookvault trim and bleed. Visual inspection covers
-every contents page and the 4–5 facing spreads, compared with the approved source.
-No topic text, source illustrations, canonical gardening data or approved proofs
-were altered. Preserve the separate [index approval](../book-index/APPROVAL.json).
+`npm run book:contents` builds only these two pages per edition and the
+[placement plan](ASSEMBLY-PROPOSAL.json) / [topic map](TOPIC-FOLIOS.json).
+Run `scripts/check-updated-contents.py` with bundled Python and Poppler, then
+inspect the actual page renders. [Build checks](CHECKS.json),
+[PDF checks](PDF-CHECKS.json) and [visual review](VISUAL-REVIEW.json) record coverage.
+The [whole-book workflow](../whole-book-order-preview/README.md) owns later
+reassembly; the latest complete preview includes these contents.
