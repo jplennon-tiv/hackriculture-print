@@ -19,6 +19,10 @@ MM=72/25.4;W=185*MM;H=240*MM
 j=lambda p:json.loads((ROOT/p).read_text())
 sha=lambda p:hashlib.sha256((ROOT/p).read_bytes()).hexdigest()
 components=j('docs/publication/whole-book-order-preview/COMPONENT-CHECKS.json')
+headers=j('docs/publication/whole-book-order-preview/integration-headers-opening-2026-10-15/HEADERS.json')
+header_rows={r['folio']:r for r in headers['results'] if r['unit']=='imperial'}
+HEADER_CUT=33.8*MM
+assert len(header_rows)==44
 navigation=components.get('navigation')
 assert navigation, 'Build the current navigation overlays before assembly'
 nav_pages={p['folio']:p for p in navigation['pages']}
@@ -30,21 +34,23 @@ old=j('docs/publication/bookvault-progress-preview/CHECKS.json')
 assert sha(old['pdf'])==old['sha256']
 assert sha(plan['basePlan']['path'])==plan['basePlan']['sha256']
 total=edition['plannedEvenTotal']; index_start=edition['index']['startPage']; index_end=edition['index']['endPage']
-assert len(edition['documents'])==58 and total==174 and idx['pages']==4
+assert len(edition['documents'])==58 and total==166 and idx['pages']==4
 assert not resolved['temporaryTopicReferences']
 def verify():
     for group in [components['copyInputs'],components['inputs'],components['assets']]:
         for p,h in group.items():assert sha(p)==h,p
     for item in components['protectedFiles']:assert sha(item['path'])==item['sha256'],item['path']
-    for item in components['components']+[components['footers'],toc_result]:assert sha(item['pdf'])==item['sha256'],item['pdf']
+    for item in components['components']+[components['footers'],components['backCover'],toc_result]:assert sha(item['pdf'])==item['sha256'],item['pdf']
     assert sha(idx['pdf']['path'])==idx['pdf']['sha256']
     for p,h in navigation['inputs'].items():assert sha(p)==h,p
+    for p,h in headers['inputs'].items():assert sha(p)==h,p
+    for r in header_rows.values():assert sha(r['afterHeader'])==r['afterHeaderSha256'],r['afterHeader']
 verify()
 
 def mult(a,b):
     return [a[0]*b[0]+a[1]*b[2],a[0]*b[1]+a[1]*b[3],a[2]*b[0]+a[3]*b[2],a[2]*b[1]+a[3]*b[3],a[4]*b[0]+a[5]*b[2]+b[4],a[4]*b[1]+a[5]*b[3]+b[5]]
 
-def remove_footer(obj,pdf,cm=None,heading=False):
+def remove_footer(obj,pdf,cm=None,heading=False,header=False):
     """Remove complete BT/ET objects whose baselines lie wholly in the footer.
 
     Follow nested form matrices rather than guessing text encodings or covering
@@ -65,7 +71,7 @@ def remove_footer(obj,pdf,cm=None,heading=False):
             assert block is not None
             ys.append(mult(tm,cm)[5])
         elif op==b'ET':
-            lower,upper=(H-18*MM,H-4*MM) if heading else (0,12*MM)
+            lower,upper=(H-HEADER_CUT,H+1000) if header else ((H-18*MM,H-4*MM) if heading else (0,12*MM))
             if ys and min(ys)>lower and max(ys)<upper:
                 removed+=1
             else:
@@ -73,7 +79,7 @@ def remove_footer(obj,pdf,cm=None,heading=False):
             block=None
         elif op==b'Do':
             form=res['/XObject'][args[0]].get_object()
-            if form.get('/Subtype')=='/Form':removed+=remove_footer(form,pdf,mult(list(map(float,form.get('/Matrix',[1,0,0,1,0,0]))),cm),heading)
+            if form.get('/Subtype')=='/Form':removed+=remove_footer(form,pdf,mult(list(map(float,form.get('/Matrix',[1,0,0,1,0,0]))),cm),heading,header)
     assert block is None and not stack
     if removed:
         cs.operations=output
@@ -87,7 +93,17 @@ def trim(page):
     result.merge_transformed_page(page,Transformation().translate(-float(b.left),-float(b.bottom)))
     return result
 
-saved=PdfReader(ROOT/old['pdf']);writer=PdfWriter();records=[];readers=[];body_comparisons=[]
+saved=PdfReader(ROOT/old['pdf']);writer=PdfWriter();records=[];readers=[];body_comparisons=[];approved_readers={}
+def approved_header(page,folio):
+    # Independent clone protects shared original Forms; body graphics/text are reused.
+    clone=PdfWriter();body=clone.add_page(page)
+    assert remove_footer(body,clone,header=True)>0,('Missing old header',folio)
+    body.cropbox=RectangleObject([0,0,W,H-HEADER_CUT]);body.pop('/Annots',None)
+    result=PageObject.create_blank_page(width=W,height=H);result.merge_page(body)
+    reader=PdfReader(ROOT/header_rows[folio]['afterHeader']);readers.append(reader)
+    head=reader.pages[0];assert len(reader.pages)==1
+    head.cropbox=RectangleObject([0,H-HEADER_CUT,W,H]);result.merge_page(head)
+    return result
 def add(page,folio,label,kind,source,source_page):
     p=writer.add_page(page)
     for box in ['mediabox','cropbox','trimbox']:setattr(p,box,RectangleObject([0,0,W,H]))
@@ -119,15 +135,24 @@ removed_counts=[]
 for folio in range(1,total+1):
     if folio in guides:
         d,offset=guides[folio];old_folio=d['sourceStartPage']+offset
-        p=add(saved.pages[old_folio+1],folio,d['label']+(' — continued' if offset else ''),d['type'],d['pdf'],offset+1)
-        removed=remove_footer(p,writer);assert removed==2,(folio,removed)
+        if d.get('approvedReplacement'):
+            if d['pdf'] not in approved_readers:approved_readers[d['pdf']]=PdfReader(ROOT/d['pdf'])
+            source_page=trim(approved_readers[d['pdf']].pages[offset])
+            comparison=(folio,d['pdf'],offset)
+        else:
+            source_page=saved.pages[old_folio+1]
+            comparison=(folio,old['pdf'],old_folio+1)
+        if folio in header_rows:source_page=approved_header(source_page,folio)
+        p=add(source_page,folio,d['label']+(' — continued' if offset else ''),d['type'],d['pdf'],offset+1)
+        if folio in header_rows:records[-1]['headerSource']=header_rows[folio]['afterHeader']
+        removed=remove_footer(p,writer);assert removed>0,(folio,removed)
         if nav_pages[folio]['heading']:
             assert remove_footer(p,writer,heading=True)>0,('Original practical heading not removed',folio)
-        removed_counts.append(removed);p.merge_page(footers[folio]);body_comparisons.append((folio,old_folio))
+        removed_counts.append(removed);p.merge_page(footers[folio]);body_comparisons.append(comparison)
     elif folio in blanks:add(PageObject.create_blank_page(width=W,height=H),folio,blank_labels.get(folio,'Blank — preserves facing crop pages'),'blank',None,None)
     elif folio in component_pages:
         p,c,i=component_pages[folio]
-        label=labels.get(topic_by_folio.get(folio,{}).get('source'),{1:'Title',2:'Publication details',how_folio:labels['opening:how-to'],**section_labels}.get(folio,c['id']))
+        label='Vegetable Guides — how to use the guides' if c['id']=='combined-guides-opening' else labels.get(topic_by_folio.get(folio,{}).get('source'),{1:'Title',2:'Publication details',how_folio:labels['opening:how-to'],**section_labels}.get(folio,c['id']))
         add(trim(p),folio,label,c['id'],c['pdf'],i+1)
     elif folio in toc_pages:add(trim(toc_pdf.pages[toc_pages[folio]]),folio,'Contents'+(' — continued' if toc_pages[folio] else ''),'contents',toc_result['pdf'],toc_pages[folio]+1)
     elif index_start<=folio<=index_end:
@@ -140,7 +165,8 @@ for folio in range(1,total+1):
         removed_counts.append(removed);p.merge_page(footers[folio])
     if folio%25==0:print(f'Assembled folio {folio}/{total}',flush=True)
 add(PageObject.create_blank_page(width=W,height=H),None,'Inside back cover','blank',None,None)
-add(saved.pages[-1],None,'Back cover — B5','cover',old['pdf'],len(saved.pages))
+back=components['backCover'];back_pdf=PdfReader(ROOT/back['pdf']);assert len(back_pdf.pages)==1
+add(back_pdf.pages[0],None,'Back cover — B5','cover',back['pdf'],1)
 assert len(writer.pages)==total+4
 
 navigation_links=0
@@ -193,27 +219,36 @@ writer.add_metadata({'/Title':'The Vegetable Guru — Whole-book order preview',
 OUT.parent.mkdir(parents=True,exist_ok=True);writer.write(OUT);del writer;gc.collect()
 
 # Verify visible body text as text at its actual page coordinates, including all
-# 137 reused guide pages. Only the removed footer lies outside this region.
+# 133 reused guide pages, including eight approved replacement pages. Only the removed footer lies outside this region.
 normal=lambda s:re.sub(r'\s+','',s)
 body_checked=0;footer_checked=0;component_blocks=0;topic_text_checks=0;navigation_checks=[]
 heading_changes={e['folio']:e['headingChange'] for c in components['components'] for e in c.get('evidence',[]) if e.get('headingChange')}
-with pdfplumber.open(OUT) as final,pdfplumber.open(ROOT/old['pdf']) as original:
+with pdfplumber.open(OUT) as final:
     assert len(final.pages)==total+4
-    for folio,old_folio in body_comparisons:
-        previous=original.pages[old_folio+1]
+    source_books={p:pdfplumber.open(ROOT/p) for _,p,_ in body_comparisons}
+    for folio,source_file,source_index in body_comparisons:
+        previous=source_books[source_file].pages[source_index]
         a=previous.crop((0,0,W,228*MM)).extract_text() or ''
         current=final.pages[folio+1]
         heading=nav_pages[folio]['heading']
+        body_top=0
+        if folio in header_rows:
+            headerbox=(0,0,W,HEADER_CUT)
+            assert not [c for c in previous.chars if c['top']<HEADER_CUT<c['bottom']],('Header boundary cuts text',folio)
+            assert Counter(normal(previous.crop(headerbox).extract_text() or ''))==Counter(normal(current.crop(headerbox).extract_text() or '')),('Header words changed',folio)
+            body_top=HEADER_CUT
+            a=previous.crop((0,body_top,W,228*MM)).extract_text() or ''
         if heading:
             box=(heading['left']*MM,heading['top']*MM,heading['right']*MM,heading['bottom']*MM)
             assert normal(previous.crop((0,0,W,18*MM)).extract_text() or '')==normal(heading['sourceHeading']),('Unexpected original heading content',folio)
             assert normal(current.crop((0,0,W,18*MM)).extract_text() or '')==normal(heading['text']),('Missing combined heading',folio)
             a=previous.crop((0,18*MM,W,228*MM)).extract_text() or ''
             current=current.crop((0,18*MM,W,H))
-        b=current.crop((0,18*MM if heading else 0,W,228*MM)).extract_text() or ''
+            body_top=18*MM
+        b=current.crop((0,body_top,W,228*MM)).extract_text() or ''
         assert a==b,('Body text differs',folio);body_checked+=1
         if nav_pages[folio]['links']:
-            page=final.pages[folio+1];bottom=max(c['bottom'] for c in original.pages[old_folio+1].chars if c['top']<228*MM)
+            page=final.pages[folio+1];bottom=max(c['bottom'] for c in previous.chars if c['top']<228*MM)
             chars=[c for c in page.chars if c['top']>=228*MM]
             gap=(min(c['top'] for c in chars)-bottom)/MM
             assert gap>=3,('Navigation footer clearance',folio,gap)
@@ -221,6 +256,9 @@ with pdfplumber.open(OUT) as final,pdfplumber.open(ROOT/old['pdf']) as original:
                 box=((link['left']-.3)*MM,(link['top']-.3)*MM,(link['right']+.3)*MM,(link['bottom']+.3)*MM)
                 assert normal(link['text']) in normal(page.crop(box).extract_text() or ''),('Missing navigation link',folio,link)
             navigation_checks.append({'folio':folio,'bodyToFooterMm':gap,'links':len(nav_pages[folio]['links'])})
+    for source in source_books.values():source.close()
+    for paragraph in back['paragraphs']:
+        assert normal(paragraph) in normal(final.pages[-1].extract_text() or ''),('Back-cover paragraph missing',paragraph)
     for item in records:
         if item['folio'] is None:continue
         p=final.pages[item['pdfPage']-1]
@@ -297,14 +335,13 @@ for p in navigation['pages']:
 for r in toc_result['references']:
     source=r.get('source') or r['type']+':'+r['key']
     assert r['startPage']==registry[source] and records[r['startPage']+1]['folio']==r['startPage'],('Contents target',source)
-assert registry['opening:varieties']==8 and how_folio==9
+assert registry['opening:varieties']==how_folio==9
 assert all(d['startPage']%2==1 for d in edition['sectionOpeners'] if d['source']!='opening:varieties')
-assert list(toc_pages)==[4,5] and why_folio==7 and {3,6}.issubset(blanks) and 9 not in blanks
+assert list(toc_pages)==[4,5] and why_folio==7 and {3,6,8}.issubset(blanks) and 9 not in blanks
 assert min(toc_pages)%2==0 and max(toc_pages)==min(toc_pages)+1
-assert [p['kind'] for p in records[2:11]]==['opening','opening','blank','contents','contents','blank','techniques','section-openers','how-to']
+assert [p['kind'] for p in records[2:11]]==['opening','opening','blank','contents','contents','blank','techniques','blank','combined-guides-opening']
 assert 'opening:welcome' not in registry
-assert registry['opening:varieties']+1==how_folio
-assert records[how_folio+1]['label']==labels['opening:how-to']
+assert records[how_folio+1]['label']=='Vegetable Guides — how to use the guides'
 numeric_refs=0
 for e in resolved['editions']['imperial']:
     for r in e['references']:
@@ -313,8 +350,11 @@ for e in resolved['editions']['imperial']:
         assert r['folio']==expected and records[expected+1]['folio']==expected
         numeric_refs+=1
 verify();assert sha(old['pdf'])==old['sha256']
-receipt={'date':'2026-10-14','status':'Assembled and text-checked; representative visual review pending','pdf':str(OUT.relative_to(ROOT)),'sha256':sha(OUT),'bytes':OUT.stat().st_size,'units':'imperial','interiorPages':total,'pdfPages':total+4,'trimMm':[185,240],'folioMapping':'PDF page = interior folio + 2','guidePagesReused':body_checked,'guidesReexported':0,'sourceScreenBook':{'path':old['pdf'],'sha256':old['sha256']},'componentBlocksVerified':component_blocks,'approvedTopicTextChecks':topic_text_checks,'topicHeadingChanges':heading_changes,'updatedFootersVerified':footer_checked,'oldFooterTextObjectsRemoved':sum(removed_counts),'contentsReferences':len(toc_result['references']),'indexEntries':273,'indexNumericReferencesVerified':numeric_refs,'internalIndexLinks':index_links,'blankFolios':sorted(blanks),'sourceFilesUnchanged':True,'limits':['Contents face at 4–5; blank 6 faces the retitled Introduction 7; Vegetable Guides and how-to face at 8–9. Other sections remain recto. Accepted contents design retained; other opening designs remain for review.','Opening copy placeholders and proposed illustration allocations remain.','Saved guide artwork is the earlier screen derivative; not print-resolution production files.','No new artwork, guide export, canonical data changes, supplier submission or price/spine update.']}
-receipt.update({'date':'2026-10-15','navigation':{'newCropLabels':navigation['newCropLabels'],'existingNamedContinuations':navigation['existingNamedContinuations'],'changedPages':len(navigation['changedFolios']),'pagesWithLinks':len(navigation_checks),'headingTreatment':'Combined Growing guide and crop name; original title replaced in its measured header region','internalLinks':navigation_links,'pageChecks':navigation_checks,'highlights':'Viewer-only; clean PDF has no highlight marks'}})
+receipt={'date':'2026-10-14','status':'Assembled and text-checked; representative visual review pending','pdf':str(OUT.relative_to(ROOT)),'sha256':sha(OUT),'bytes':OUT.stat().st_size,'units':'imperial','interiorPages':total,'pdfPages':total+4,'trimMm':[185,240],'folioMapping':'PDF page = interior folio + 2','guidePagesReused':body_checked,'approvedTwoPageGuidePages':8,'approvedGuideSources':plan['approvedGuides'],'guidesReexported':0,'sourceScreenBook':{'path':old['pdf'],'sha256':old['sha256']},'componentBlocksVerified':component_blocks,'approvedTopicTextChecks':topic_text_checks,'topicHeadingChanges':heading_changes,'updatedFootersVerified':footer_checked,'oldFooterTextObjectsRemoved':sum(removed_counts),'contentsReferences':len(toc_result['references']),'indexEntries':273,'indexNumericReferencesVerified':numeric_refs,'internalIndexLinks':index_links,'blankFolios':sorted(blanks),'sourceFilesUnchanged':True,'limits':['Contents face at 4–5; blank 6 faces the retitled Introduction 7; Vegetable Guides and how-to face at 8–9. Other sections remain recto. Accepted contents design retained; other opening designs remain for review.','Approved publication and back-cover copy integrated; missing publication metadata remains as placeholders.','Saved guide artwork is the earlier screen derivative; not print-resolution production files.','Original B5 preserved; a separate background derivative clears its placeholder paragraph for editable approved copy. No guide regeneration, canonical data changes, supplier submission or price/spine update.']}
+receipt.update({'date':'2026-10-15','navigation':{'newCropLabels':navigation['newCropLabels'],'existingNamedContinuations':navigation['existingNamedContinuations'],'changedPages':len(navigation['changedFolios']),'pagesWithLinks':len(navigation_checks),'headingTreatment':'Combined Growing guide and crop name; original title replaced in its measured header region','internalLinks':navigation_links,'pageChecks':navigation_checks,'highlights':'All review highlights removed from PDF and viewer','retainedApprovedCropHeadings':navigation['retainedApprovedCropHeadings']}})
+receipt['limits'][0]='Contents face at 4–5; blank 6 faces Introduction 7; blank 8 faces the approved combined Guides/how-to page 9. All three sections open recto; crop folios unchanged.'
+receipt['approvedHeaderIntegration']={'headers':44,'headerBoundaryMm':33.8,'allHeaderWordsPreserved':True,'allGuideBodyTextPreserved':True,'bothUnitMeasurements':88,'receipt':'docs/publication/whole-book-order-preview/integration-headers-opening-2026-10-15/HEADERS.json'}
+receipt['approvedCombinedOpening']='docs/publication/combined-guides-opening/APPROVAL.json'
 (DOC/'CHECKS.json').write_text(json.dumps(receipt,ensure_ascii=False,indent=2)+'\n')
 (DOC/'PAGE-MAP.json').write_text(json.dumps(records,ensure_ascii=False,indent=2)+'\n')
 print(json.dumps({k:receipt[k] for k in ['pdfPages','interiorPages','bytes','guidePagesReused','updatedFootersVerified','indexNumericReferencesVerified','internalIndexLinks']}))

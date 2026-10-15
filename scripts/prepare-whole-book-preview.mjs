@@ -14,16 +14,20 @@ const json=p=>JSON.parse(fs.readFileSync(path.join(root,p),'utf8'));
 const book=readBookContent(),plan=json('docs/publication/contents-update/ASSEMBLY-PROPOSAL.json'),edition=plan.editions.imperial;
 const tocChecks=json('docs/publication/contents-update/CHECKS.json');
 if(tocChecks.bookRevision!==book.revision)throw Error('Contents copy changed: refresh the contents before assembly');
-const keyChecks=json('docs/publication/guide-key/CHECKS.json'),guideKey=keyChecks.results.find(x=>x.units==='imperial');
-if(keyChecks.bookRevision!==book.revision)throw Error('Guide-key copy changed: refresh its proof before assembly');
-for(const [file,hash] of Object.entries({...keyChecks.implementation,...guideKey.assets}))if(sha256(fs.readFileSync(path.join(root,file)))!==hash)throw Error('Guide-key input changed: '+file);
+const openingApproval=json('docs/publication/combined-guides-opening/APPROVAL.json');
+const openingReference='docs/publication/combined-guides-opening/references/approved-2026-10-15';
+for(const [file,hash] of Object.entries(openingApproval.frozen))if(sha256(fs.readFileSync(path.join(root,file)))!==hash)throw Error('Approved opener changed: '+file);
+const openingChecks=json(openingReference+'/CHECKS.json');
+if(openingChecks.bookRevision!==book.revision)throw Error('Book copy changed since opener approval');
+const backCover=json('docs/publication/publication-copy/integration/CHECKS.json');
+if(backCover.bookRevision!==book.revision)throw Error('Refresh back-cover copy before assembly');
 const protectedFiles=tocChecks.protectedFiles;
 const verify=()=>{for(const f of protectedFiles)if(sha256(fs.readFileSync(path.join(root,f.path)))!==f.sha256)throw Error('Approved source changed: '+f.path);};verify();
 const collection=json('docs/publication/topic-pages/techniques-expansion/COLLECTION-APPROVAL.json');
 const cultivation=json('docs/publication/topic-pages/cultivation-dig-no-dig/APPROVAL.json');
 const stock=json('docs/assets/vegetable-guru-stock/ARTWORK.json');
 const art=id=>'/docs/assets/vegetable-guru-stock/assets/'+stock.assets.find(x=>x.id===id).file;
-const inputs={},assets={};
+const inputs={...plan.approvedGuides.inputs,...backCover.inputs,...openingApproval.frozen},assets={};
 const read=p=>{const b=fs.readFileSync(path.join(root,p));inputs[p]=sha256(b);return b.toString();};
 // The shared contents label owns this requested book-only heading adaptation.
 const introductionLabel=book.data.contents.expanded.gettingStarted.entries.find(x=>x.source==='technique:why-grow')?.label;
@@ -31,15 +35,14 @@ const introductionHeading=introductionLabel?.split(' — ');
 if(introductionHeading?.length!==2)throw Error('Expected Introduction title and subtitle in the shared contents label');
 const groups=[
  {id:'opening',body:renderOpeningPages(book.data,'imperial').body,css:dir+'/opening-pages.css',folios:[1,2],keep:'.title-page,.publication',base:base+'/'},
- {id:'section-openers',body:renderSectionOpeners(book.data,'imperial',edition),css:dir+'/section-openers.css',folios:edition.sectionOpeners.map(d=>d.startPage),base:base+'/'},
+ {id:'section-openers',body:renderSectionOpeners(book.data,'imperial',edition,{omit:['varieties']}),css:dir+'/section-openers.css',folios:edition.sectionOpeners.filter(d=>d.source!=='opening:varieties').map(d=>d.startPage),base:base+'/'},
  {id:'techniques',headingOverrides:{...topicHeadings,'why-grow':{lines:introductionHeading}},html:read('docs/publication/topic-pages/techniques-expansion/imperial.html'),css:collection.frozenReference+'/draft.css',folios:collection.pageIds.map(id=>edition.additions.find(x=>x.source==='technique:'+id).startPage),base:base+'/docs/publication/topic-pages/techniques-expansion/'},
  {id:'cultivation',headingOverrides:topicHeadings,html:read('docs/publication/topic-pages/cultivation-dig-no-dig/imperial.html'),css:cultivation.frozenReference+'/draft.css',folios:edition.additions.filter(x=>x.source.startsWith('cultivation:')).map(x=>x.startPage),base:base+'/docs/publication/topic-pages/cultivation-dig-no-dig/'}
 ];
 for(const g of groups)if(g.headingOverrides)g.folioOverrides=Object.fromEntries(Object.values(topicHeadings).map(h=>[edition.additions.find(d=>d.source===h.source).startPage,h]));
-Object.assign(inputs,keyChecks.implementation);Object.assign(assets,guideKey.assets);
 read('docs/publication/vegetable-guru-opening-pages/opening-pages.css');
 read('scripts/prepare-whole-book-preview.mjs');read('scripts/lib/book-review-refinements.mjs');
-const checks={status:'Whole-book ordering preview components; imperial only',bookRevision:book.revision,copyInputs:book.inputs,protectedFiles,inputs,assets,components:[{id:'how-to',pdf:guideKey.pdf,sha256:guideKey.sha256,html:guideKey.html,folios:[9],dom:guideKey.dom}],guideReexports:0};
+const checks={status:'Whole-book ordering preview components; imperial only',bookRevision:book.revision,copyInputs:book.inputs,protectedFiles,inputs,assets,backCover,components:[{id:'combined-guides-opening',pdf:openingReference+'/opening.pdf',sha256:openingChecks.sha256,html:openingReference+'/opening.html',folios:[9],dom:[openingChecks.checks],approval:'docs/publication/combined-guides-opening/APPROVAL.json'}],guideReexports:0};
 const browser=await chromium.launch();
 try{
  const page=await browser.newPage();await page.route('**/@vite/client',r=>r.abort());

@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-15",
+  "approvedBy": "John Lennon",
+  "status": "approved_integration_pending",
+  "statement": "So I approve the new layouts for these two vegetables.",
+  "scope": "Reviewed two-page carrot and onions/shallots spreads, including their displayed wording and layout treatment, with body type unchanged. Does not approve other crops or rebuild the full book.",
+  "sourcePreservation": "Original canonical gardening JSON must remain unchanged throughout output iterations. Presentation changes stay in separate source-linked book files.",
+  "pdfs": {
+    "imperial": {
+      "path": "output/pdf/vegetable-two-page-trial/two-page-trials-imperial.pdf",
+      "sha256": "093f6e23f49a50e31c73af9990bfb5d5d70ec5d4de5cf96739223c01d67aacce"
+    },
+    "metric": {
+      "path": "output/pdf/vegetable-two-page-trial/two-page-trials-metric.pdf",
+      "sha256": "76bd97d00cf8e46636d1d6e2f5faa7f62b758cef88f2cb8ecf7e6e90b0e3510c"
+    }
+  },
+  "inputs": {
+    "src/print/book/renderCompact.ts": "a866e30cd1c52a6d4001a81f4b215d8b0262965469b13a8497f8a10e78e0c2fb",
+    "src/print/book/compact.css": "2ef16183fadf28bd4ec0e009bdd8cca1f304e23cec955a05206463a88dff488d",
+    "src/print/book/production.ts": "cf833a8f16ad9b3e3b866e3854b5b3743ba3d1eadd06b61a445e1a06e1e03087",
+    "src/print/book/production.css": "37104408aaa64738b6adc02ee71f10046b907bf569ca696166df5b7d0549a8c1",
+    "src/print/book/bookvault.css": "3dd00547266db33c5b458c7a1e4942513961d68773560677a47fe9a4b14d1960",
+    "src/print/book/workingCopy.ts": "d444420a669c29c10d5471430eb2a4e9fe16a37199702f17b2637925126994c4",
+    "src/print/book/two-page-trial/copy.json": "e63cd916aac588b5c86bbb2fdf342a4f0efe04c79ecea22a094ae6a5a2411d4f",
+    "src/print/book/two-page-trial/layout.mjs": "4a5f0109a377eb9619ec068a82564e63d83bc4ad03f8ea1ee3e994ee761da332",
+    "src/print/book/two-page-trial/trial.css": "cc1f7e9430ff95e00b32f3279f547f72e802b15a62cbd4c76e6ffd9c00dc3c27",
+    "../hackriculture-data/vegetables/carrot/carrot.json": "c5f076beb6cfe55cc90f80a6bc4a5f9690a4a25358c4bb74085a68798cd3500e",
+    "../hackriculture-data/vegetables/onion_shallot/onion_shallot.json": "7970e902671fc38c9c7eb0465dd3ddf04e3ca35f45426091a1e92c0cbbc82cb3"
+  },
+  "evidence": {
+    "review": "docs/publication/vegetable-two-page-review/REVIEW.html",
+    "checks": "docs/publication/vegetable-two-page-review/TRIAL-CHECKS.json",
+    "pdfChecks": "docs/publication/vegetable-two-page-review/PDF-CHECKS.json",
+    "visualReview": "docs/publication/vegetable-two-page-review/VISUAL-REVIEW.json"
+  },
+  "removeHighlightsOnIntegration": true,
+  "fullBookChanged": false
+}

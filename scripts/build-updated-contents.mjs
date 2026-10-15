@@ -6,6 +6,7 @@ import {build} from 'esbuild';
 import {bookLayoutRevision} from '../../hackriculture-data/lib/book-layout.mjs';
 import {root, sharedRoot, sha256, readBookContent} from './lib/book-content.mjs';
 import {createContentsPlan, renderUpdatedContents, contentsArtwork} from './lib/book-contents.mjs';
+import {loadApprovedTwoPageGuides, approvedGuideReceipt} from './lib/approved-two-page-guides.mjs';
 
 const dir='docs/publication/contents-update', out='output/pdf/contents-update';
 const base=process.env.BASE_URL||'http://127.0.0.1:5173';
@@ -45,15 +46,17 @@ for(const [units,edition] of Object.entries(basePlan.editions)){
 }
 const counts=JSON.parse(execFileSync(python,['-c','import json,sys; from pypdf import PdfReader; print(json.dumps({p:len(PdfReader(p).pages) for p in json.load(sys.stdin)}))'],{cwd:root,input:JSON.stringify(Object.keys(inputs)),encoding:'utf8',maxBuffer:1024*1024}));
 for(const [p,item] of Object.entries(inputs))if(counts[p]!==item.pages)throw Error('Actual PDF count changed: '+p);
-const {plan,topicMap}=createContentsPlan(basePlan,sources);
+const approvedGuides=loadApprovedTwoPageGuides();
+const {plan,topicMap}=createContentsPlan(basePlan,sources,approvedGuides.editions);
+plan.approvedGuides={path:approvedGuideReceipt,inputs:approvedGuides.inputs};
 plan.basePlan={path:basePath,sha256:sha256(fs.readFileSync(path.join(root,basePath)))};
-plan.limits=['John authorised the ordering/navigation refinement on 14 October; new layout/copy remains for review.','Contents face at 4–5; blank 6 faces Introduction 7; Vegetable Guides and the guide key face at 8–9. The first crop still starts at 10. This builder prepares components; full assembly is separate.','Original guide/topic/how-to/index PDFs remain unchanged; the separate screen assembly updates folios.','174 pages is a working preview count, not a final production/cost/spine specification.'];
+plan.limits=['John authorised the ordering/navigation refinement on 14 October; new layout/copy remains for review.','Contents face at 4–5; blank 6 faces Introduction 7; Blank 8 faces the approved combined Vegetable Guides/how-to at 9. The first crop still starts at 10. This builder prepares components; full assembly is separate.','Original guide/topic/how-to/index PDFs remain unchanged; the separate screen assembly updates folios.','166 pages is a working preview count, not a final production/cost/spine specification.'];
 write(dir+'/ASSEMBLY-PROPOSAL.json',plan);write(dir+'/TOPIC-FOLIOS.json',topicMap);
 const themes=json('src/print/familyThemes.json');
 const bundle=await build({entryPoints:[path.join(root,'src/print/book/production.ts')],bundle:true,platform:'node',format:'esm',packages:'external',write:false});
 const modulePath=path.join(root,'tmp/pdfs/contents-update/production.mjs');fs.writeFileSync(modulePath,bundle.outputFiles[0].contents);
 const {finishProductionPages}=await import(modulePath);
-const checks={date:'2026-10-14',status:'Two-page contents with existing artwork: PDF/visual review pending',bookRevision:book.revision,copyInputs:book.inputs,sourcePdfs:inputs,protectedFiles,artwork,fullBookRegenerated:false,guidePdfsRegenerated:false,results:[]};
+const checks={date:'2026-10-14',status:'Approved two-page contents with refreshed references: PDF/visual check pending',bookRevision:book.revision,copyInputs:book.inputs,sourcePdfs:inputs,approvedGuideInputs:approvedGuides.inputs,protectedFiles,artwork,fullBookRegenerated:false,guidePdfsRegenerated:false,results:[]};
 const browser=await chromium.launch();
 try{
  const page=await browser.newPage();await page.route('**/@vite/client',r=>r.abort());

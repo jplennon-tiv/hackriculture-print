@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-15",
+  "status": "Visually checked; subsequently approved by John",
+  "pdf": "output/pdf/vegetable-header-review/header-mockups.pdf",
+  "sha256": "660c6e5b087b5d5a46d45fc33c73a8307366709927146f267d6bca574caa0818",
+  "coverage": {
+    "units": "imperial",
+    "completePages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "headerCloseups": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "findings": [
+    "Carrot and Onions share the normal position: visible widget ends 20 CSS px before the shaded circle.",
+    "Oriental Leaves and Florence Fennel shift right to preserve 20 CSS px after the actual title text.",
+    "Difficulty fills match all four page colours; border, shadow and ratings retained.",
+    "All four final headers and complete pages inspected: no clipping, overlaps, header seam or displaced body content observed.",
+    "Body text and content sizes retained; all four content areas below 35 mm are pixel-identical excluding the outermost 2.2 mm trim edge."
+  ],
+  "fullBookChanged": false,
+  "canonicalJsonChanged": false,
+  "userApproved": true,
+  "approval": "docs/publication/vegetable-header-review/APPROVAL.json"
+}

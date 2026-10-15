@@ -12,7 +12,7 @@ and coloured panels are deliberately omitted. The welcome entry is removed at Jo
 navigation destinations remain, in manuscript order. Technique labels now
 make sense without a parent heading. Rows remain 10.5 pt; all visible wording,
 ordering and design follow the accepted illustrated baseline; folios and the
-Why Grow reference follow the new opening sequence.
+Why Grow reference follow the agreed opening sequence and new 166-page pagination.
 
 The paired H1/H2 root-and-leaf illustrations now sit beside the matching headers.
 H5 seedlings and H6 harvest trug fill the spare space below the second page’s
@@ -27,10 +27,9 @@ Artwork placement is maintained in `scripts/lib/book-contents.mjs` and the local
 CSS. Exact source paths/hashes and placement status are recorded in [CHECKS.json](CHECKS.json).
 
 The placement plan has blank 3, contents facing at 4–5, blank 6, and
-“Introduction — why grow your own” at 7. Vegetable Guides and its how-to
-face at 8–9, so the former blank after the key is removed. Troubles and
-Techniques retain right-hand starts; crop spreads still begin at 10. Remaining folios and the 174-page plan are
-unchanged. The renamed how-to PDF and the complete imperial preview have now
+“Introduction — why grow your own” at 7. Blank 8 now faces the approved combined
+Vegetable Guides/how-to at 9; both contents destinations point to 9. Troubles and
+Techniques retain right-hand starts; crop spreads still begin at 10. The four approved two-page crop layouts reduce the interior to 166 pages; all later references are refreshed. The renamed how-to PDF and the complete imperial preview have now
 been rebuilt with this sequence. The current illustrated contents PDF is reused; the accepted 4–5 proofs are
 preserved under `references/illustrated-4-5-2026-10-14/` in the PDF and review folders.
 

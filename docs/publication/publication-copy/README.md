@@ -1,6 +1,6 @@
 # Publication and back-cover copy
 
-Drafted at John's request on 15 October 2026. [Read the proposed wording](REVIEW.html).
+Approved by John on 15 October 2026 and now integrated in the [complete book](../whole-book-order-preview/REVIEW.html?revision=integrated-two-page). [Retained wording review](REVIEW.html).
 This is an editorial review, not a new cover design or a print-layout proof.
 
 The editable owners are `../hackriculture-data/book-layout/publication.json` and
@@ -19,15 +19,16 @@ third-party material have been invented. Copyright references:
 
 The 78-word back-cover draft introduces all three parts of the book. The approved
 count wording, £17.50 working price, reserved barcode panel and preferred B5 art
-are retained. The B5 reference still contains raster placeholder lettering;
-the new copy has not been overpainted into it. Final placement belongs with its
-editable cover reconstruction, retaining the left blurb/right torn-page collage.
+are retained. The original B5 reference remains intact. A [recorded image edit](integration/ARTWORK.json)
+clears its placeholder paragraph in a separate derivative; approved native text is
+placed over that background. [Integration checks](integration/CHECKS.json) record
+its source hashes and measured copy area. The title/count, collage, price and
+barcode reservation remain. Final exact page crops, remaining editable lettering
+and production wrap remain separate work.
 
-John approved the flowing technique headings before this work. The exact proof
-and its evidence are preserved in the [approval reference](../whole-book-order-preview/references/technique-headings-approved-2026-10-15/APPROVAL.json).
-Their highlights are marked for removal in the next book-preview pass.
-The full book PDF remains that reviewed version. It does not yet contain this
-new publication/back-cover wording.
+The publication page now includes all approved prose, preserving missing metadata.
+The current full viewer and PDF include this wording and all four approved two-page
+vegetable layouts, with the approved heading highlights removed.
 
 `node scripts/check-book-content.mjs` validates the current shared copy.
 `node scripts/review-publication-copy.mjs` refreshes this editorial viewer directly
@@ -37,4 +38,4 @@ build, the existing book-revision guards require refreshing the affected opening
 proofs and the contents/guide-key receipts. Do not bypass the guards or overwrite
 frozen references. No whole-book regeneration is needed merely to review wording.
 
-New wording remains for John's review; the heading approval does not approve it.
+The wording is approved; the combined rendered placement is available in the current full preview. This does not imply final production approval.

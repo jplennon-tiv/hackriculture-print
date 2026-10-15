@@ -24,29 +24,31 @@ for page in nav['pages']:
 normal=lambda s:re.sub(r'[^a-z0-9]+',' ',unicodedata.normalize('NFKC',s).lower()).strip()
 mentioned_pages={};body_comparisons=0;edition_mentions=[]
 approved=read(D/'references/navigation-approved-2026-10-15/NAVIGATION.json')
-targets=lambda decision:[{**{k:l[k] for k in ['source','offset','start','end']},'evidence':[{k:e[k] for k in ['source','offset','folio','term','excerpt']} for e in l['evidence']]} for l in decision['links']]
+targets=lambda decision:[{**{k:l[k] for k in ['source','offset']},'evidence':[{k:e[k] for k in ['source','offset','term','excerpt']} for e in l['evidence']]} for l in decision['links']]
 assert [(d['key'],targets(d)) for d in nav['decisions']]==[(d['key'],targets(d)) for d in approved['decisions']], 'Approved reference destinations changed'
 components=read(D/'COMPONENT-CHECKS.json')
 topic_changes={e['folio']:e['headingChange'] for c in components['components'] for e in c.get('evidence',[]) if e.get('headingChange',{}).get('copySource','').startswith('scripts/lib/book-review-refinements')}
 assert len(topic_changes)==16
 with pdfplumber.open(ROOT/checks['pdf']) as actual:
-    approval=read(D/'references/navigation-approved-2026-10-15/APPROVAL.json')
-    with pdfplumber.open(ROOT/approval['pdf']) as before:
+    previous_map=read(D/'integration-headers-opening-2026-10-15/PREVIOUS-PAGE-MAP.json')
+    previous_checks=read(D/'integration-headers-opening-2026-10-15/PREVIOUS-CHECKS.json')
+    baseline=ROOT/'output/pdf/whole-book-order-preview/references/before-headers-opening-2026-10-15.pdf'
+    import hashlib
+    assert hashlib.sha256(baseline.read_bytes()).hexdigest()==previous_checks['sha256']
+    mapping=read(D/'PAGE-MAP.json')
+    identity=lambda p:(p['kind'],p['source'],p['sourcePage'])
+    previous_by_source={identity(p):p for p in previous_map if p['source']}
+    with pdfplumber.open(baseline) as before:
         nonspace=lambda text:Counter(c for c in text if not c.isspace())
         for index,page in enumerate(actual.pages):
             text=page.extract_text(x_tolerance=1,y_tolerance=2) or ''
             if re.search(r'\bimperial\s+edition\b',text,re.I):edition_mentions.append(index-1)
-            if not 2<=index<checks['interiorPages']+2:continue
-            folio=index-1;box=(0,0,page.width,225*72/25.4)
-            a=nonspace(before.pages[index].crop(box).extract_text(x_tolerance=1,y_tolerance=2) or '')
+            record=mapping[index];old=previous_map[index] if record['folio'] not in [8,9] else None
+            if not old or record['kind'] in ['contents','index','cover'] or record['folio']==2:continue
+            box=(0,0,page.width,225*72/25.4)
+            a=nonspace(before.pages[old['pdfPage']-1].crop(box).extract_text(x_tolerance=1,y_tolerance=2) or '')
             b=nonspace(page.crop(box).extract_text(x_tolerance=1,y_tolerance=2) or '')
-            if folio==2:a.update(nonspace('Imperial edition ·'))
-            if folio in topic_changes:
-                change=topic_changes[folio]
-                for source,replacement in [('sourceHeading','replacementHeading'),('sourceEyebrow','replacementEyebrow')]:
-                    a.subtract(nonspace(change[source]));assert all(n>=0 for n in a.values())
-                    a.update(nonspace(change[replacement]));a=+a
-            assert a==b,('Unrequested body text change against approved baseline',folio,a-b,b-a)
+            assert a==b,('Unrequested body text change against approved baseline',record['folio'],a-b,b-a)
             body_comparisons+=1
     assert edition_mentions==[2],('Edition not confined to publication details',edition_mentions)
     for decision in nav['decisions']:
@@ -80,11 +82,23 @@ receipt={'date':'2026-10-15','status':'passed','pdfSha256':checks['sha256'],
          'actualDestinationPagesMentionChecked':len(mentioned_pages),'cropsWithoutLinks':[d['key'] for d in nav['decisions'] if not d['links']],
          'pdfPages':len(reader.pages),'overlayFonts':fonts,
          'approvedBaselineBodyPagesCompared':body_comparisons,'descriptiveTopicHeadings':sorted(topic_changes),
-         'editionMentionFolios':edition_mentions,'approvedReferenceDestinationsUnchanged':True,
+         'editionMentionFolios':edition_mentions,'approvedReferenceDestinationsUnchanged':True,'destinationFoliosUpdated':True,
          'minimumBodyToFooterMm':min(p['bodyToFooterMm'] for p in checks['navigation']['pageChecks'])}
 (D/'NAVIGATION-PDF-CHECKS.json').write_text(json.dumps(receipt,indent=2)+'\n')
 sequence=read(D/'SEQUENCE-CHECKS.json')
-assert sequence['firstLeaves']==[{key:page[key] for key in previous} for previous,page in zip(sequence['firstLeaves'],mapping[:11])]
-sequence.update({'pdfSha256':checks['sha256'],'navigationPass':'Page order unchanged; first leaves match preceding sequence receipt.'})
+assert [p['kind'] for p in mapping[2:11]]==['opening','opening','blank','contents','contents','blank','techniques','blank','combined-guides-opening']
+sequence['firstLeaves']=mapping[:11]
+plan=read(ROOT/'docs/publication/contents-update/ASSEMBLY-PROPOSAL.json')['editions']['imperial']
+sequence.pop('pageMapUnchangedFromFolio',None)
+bookmarks={}
+def visit(items):
+    for item in items:
+        if isinstance(item,list):visit(item)
+        elif item.title in sequence['bookmarksVerified']:bookmarks[item.title]=reader.get_destination_page_number(item)+1
+visit(reader.outline)
+assert bookmarks['Vegetable Troubles']==101 and bookmarks['Growing Techniques']==147
+assert bookmarks['Vegetable Guides']==bookmarks['Vegetable guides — how to use']==11
+sequence.pop('vegetableGuidesAndHowToFacing',None)
+sequence.update({'pdfSha256':checks['sha256'],'sectionStartFolios':[d['startPage'] for d in plan['sectionOpeners']],'sectionStartSides':['recto']*3,'combinedGuidesAndHowToFolio':9,'blankBeforeCombinedGuides':8,'bookmarksVerified':bookmarks,'navigationPass':'Approved headers and combined right-hand Guides/how-to integrated; first crop and all subsequent folios unchanged.'})
 (D/'SEQUENCE-CHECKS.json').write_text(json.dumps(sequence,ensure_ascii=False,indent=2)+'\n')
 print(json.dumps(receipt))

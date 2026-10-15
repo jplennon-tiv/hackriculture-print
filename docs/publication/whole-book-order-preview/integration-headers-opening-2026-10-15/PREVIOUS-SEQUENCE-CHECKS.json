@@ -1,0 +1,127 @@
+{
+  "status": "passed",
+  "pdfSha256": "fc1da9dc30e5c0a36a72cc5d42d68c261ece38de57c14cc939feeb5e046e1baf",
+  "firstLeaves": [
+    {
+      "pdfPage": 1,
+      "folio": null,
+      "label": "Front cover — G2",
+      "kind": "cover",
+      "source": "output/pdf/bookvault-progress-preview/the-vegetable-guru-bookvault-progress-preview.pdf",
+      "sourcePage": 1
+    },
+    {
+      "pdfPage": 2,
+      "folio": null,
+      "label": "Inside front cover",
+      "kind": "blank",
+      "source": null,
+      "sourcePage": null
+    },
+    {
+      "pdfPage": 3,
+      "folio": 1,
+      "label": "Title",
+      "kind": "opening",
+      "source": "tmp/pdfs/whole-book-order-preview/opening.pdf",
+      "sourcePage": 1
+    },
+    {
+      "pdfPage": 4,
+      "folio": 2,
+      "label": "Publication details",
+      "kind": "opening",
+      "source": "tmp/pdfs/whole-book-order-preview/opening.pdf",
+      "sourcePage": 2
+    },
+    {
+      "pdfPage": 5,
+      "folio": 3,
+      "label": "Blank — places the contents on facing pages",
+      "kind": "blank",
+      "source": null,
+      "sourcePage": null
+    },
+    {
+      "pdfPage": 6,
+      "folio": 4,
+      "label": "Contents",
+      "kind": "contents",
+      "source": "output/pdf/contents-update/contents-imperial.pdf",
+      "sourcePage": 1
+    },
+    {
+      "pdfPage": 7,
+      "folio": 5,
+      "label": "Contents — continued",
+      "kind": "contents",
+      "source": "output/pdf/contents-update/contents-imperial.pdf",
+      "sourcePage": 2
+    },
+    {
+      "pdfPage": 8,
+      "folio": 6,
+      "label": "Blank — faces the introduction",
+      "kind": "blank",
+      "source": null,
+      "sourcePage": null
+    },
+    {
+      "pdfPage": 9,
+      "folio": 7,
+      "label": "Introduction — why grow your own",
+      "kind": "techniques",
+      "source": "tmp/pdfs/whole-book-order-preview/techniques.pdf",
+      "sourcePage": 1
+    },
+    {
+      "pdfPage": 10,
+      "folio": 8,
+      "label": "Vegetable Guides",
+      "kind": "section-openers",
+      "source": "tmp/pdfs/whole-book-order-preview/section-openers.pdf",
+      "sourcePage": 1
+    },
+    {
+      "pdfPage": 11,
+      "folio": 9,
+      "label": "Vegetable guides — how to use",
+      "kind": "how-to",
+      "source": "output/pdf/guide-key/guide-key-imperial.pdf",
+      "sourcePage": 1
+    }
+  ],
+  "sectionStartFolios": [
+    8,
+    99,
+    145
+  ],
+  "sectionStartSides": [
+    "verso",
+    "recto",
+    "recto"
+  ],
+  "contentsFolios": [
+    4,
+    5
+  ],
+  "contentsFacing": true,
+  "introductionFolio": 7,
+  "introductionTitle": "Introduction — why grow your own",
+  "blankBeforeIntroduction": 6,
+  "vegetableGuidesAndHowToFacing": [
+    8,
+    9
+  ],
+  "welcomeInBook": false,
+  "copySave": "docs/publication/contents-update/INTRODUCTION-TITLE-SAVE.json",
+  "bookmarksVerified": {
+    "Contents": 6,
+    "Introduction — why grow your own": 9,
+    "Vegetable Guides": 10,
+    "Vegetable guides — how to use": 11,
+    "Vegetable Troubles": 101,
+    "Growing Techniques": 147
+  },
+  "navigationPass": "Four approved two-page crops integrated; first leaves match preceding sequence receipt."
+}

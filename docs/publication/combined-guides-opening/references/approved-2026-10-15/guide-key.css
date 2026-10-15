@@ -1,0 +1,32 @@
+@import url('/docs/publication/vegetable-guru-entry-pages/entry-pages.css');
+.guide-key .key-header{position:relative;padding-right:39mm;margin-bottom:3mm;min-height:27mm}
+.key-header h1{font-size:30px;line-height:1.04;margin:2mm 0}
+.key-header p{font-size:12px;line-height:1.4}
+.key-header>img{position:absolute;right:0;top:0;width:36mm;height:28mm;object-fit:contain}
+.guide-key h2{font-size:23px;line-height:1.08;margin-bottom:2mm}
+.guide-key .key-calendar>p,.guide-key .key-scale>p{font-size:14px;line-height:1.45}
+.key-calendar-example{margin:2mm 0 1mm;text-align:center}
+.key-calendar-example img{display:block;width:120mm;max-width:100%;height:auto;margin:auto}
+.key-climates{display:grid;grid-template-columns:1fr 1fr;gap:9mm}
+.key-climate{display:grid;grid-template-columns:17mm 1fr;gap:2.5mm;align-items:center}
+.key-climate>img{width:15mm;height:15mm;object-fit:contain}
+.key-climate h3{font-size:18px;line-height:1.1}
+.key-climate h3 span{display:block;font:800 11px/1.3 Nunito;margin-top:1mm}
+.key-swatches{display:grid;grid-template-columns:auto 7mm auto 7mm;gap:2mm;align-items:center;font-size:10.5px;margin-top:1mm}
+.key-swatches i{height:2.5mm;border-radius:2mm;box-shadow:inset 0 0 0 1px #173e2c15}
+.key-scale{border-top:1px solid #d4d6bf;margin-top:3mm;padding-top:2mm}
+.scale-art{display:grid;grid-template-columns:67mm 1fr;gap:6mm;align-items:center;margin-top:2mm;min-height:22mm}
+.scale-specimen{display:flex;align-items:center;justify-content:center}
+.scale-specimen img{max-width:100%;height:auto;display:block}
+.difficulty .scale-specimen img{width:47mm}
+.water .scale-art{grid-template-columns:80mm 1fr;gap:4mm}
+.water .scale-specimen img{width:80mm}
+.guide-key .ends{grid-template-columns:22mm 1fr 22mm;gap:2px}
+.guide-key .endpoint img{width:22mm;height:17mm;object-fit:contain}
+.guide-key .endpoint figcaption{font-size:11px;margin-top:1px}
+.guide-key .endpoint figcaption span{font-size:10px}
+.guide-key .track{gap:3px;margin-top:-10px}
+.guide-key .track i{width:4px;height:4px}
+.guide-key .water .track i{background:#4a88bb;border-radius:1px}
+
+.guide-key .core-window{width:80mm;overflow:hidden}.guide-key .core-window img{margin-top:-10%;width:80mm}

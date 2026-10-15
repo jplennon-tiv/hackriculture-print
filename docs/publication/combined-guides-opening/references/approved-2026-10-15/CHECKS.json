@@ -1,0 +1,407 @@
+{
+  "date": "2026-10-15",
+  "status": "Combined opener proposal; full book unchanged",
+  "bookRevision": "ad0539eda57eb6469b5b3aa3dee25ee17d34240919b2904982db1cbb8e73d316",
+  "inputs": {
+    "../hackriculture-data/book-layout/book.json": "7cf5470e4a29859fadddaf32fa6d29370c2d6258d09fe25e57af2cc90f8df78e",
+    "../hackriculture-data/book-layout/covers.json": "414327b71e1989f406412cf7f76f526b5c4b231df66348443ab5217847d74552",
+    "../hackriculture-data/book-layout/publication.json": "1b9d3c3b8a6880de6fe5cf802b0c40ac25895ec6ba2a85b4c6cd8f70901256f1",
+    "../hackriculture-data/book-layout/introduction.json": "7a54f281bf1b0ef07f656fcb9c4a252860e7dd2ba730225891777056b66b9e5d",
+    "../hackriculture-data/book-layout/author.json": "244b1d0714c5b936f2ac5b8526c7f127996930609a0fc841b28a08edcd273176",
+    "../hackriculture-data/book-layout/contents.json": "4fef365caf670734a0d79ce8324c56e54e64015892545be2fa1e39683c330ad2",
+    "../hackriculture-data/book-layout/how-to.json": "a4bdbb78c4436c7ce4df6658392ff0c492375d56bcfc6b83a114b28c07d1af25",
+    "../hackriculture-data/book-layout/index.json": "644561af4403bc5f4327bdac2e023aba1564b09721b8db90f6ee652780ac2e83",
+    "public/images/heroes/richer-a/tomato-greenhouse.png": "5e3cd5a884582bd13d74cde606c69c2cd9513cd36fa6845833da469ff3a3c3d7",
+    "public/images/heroes/richer-a/onion-shallot.png": "176e9ab3ea2200bc1981978c822cee0ebeec37d499e621b158a73676277fa486",
+    "public/images/heroes/richer-a/pea.png": "72dacd9636ea428ca82761ab5231274b0a72f30f283f17af8c2a463c8be2c6df",
+    "public/images/heroes/richer-a/carrot.png": "733b775e5e9f87d78669551ca911e39ea3eb61bed6bc54815e64b10c8fbdbfe9",
+    "public/images/heroes/richer-a/kale.png": "e1122f1645dd3b947b96c74ef355e49d33c6cdea37154ef19e7b87f0f8c38f2f",
+    "docs/assets/vegetable-guru-stock/assets/h4-summer-aubergines-hero-style-v2.png": "c71da57861c121fd15a6395bbe801e0bd58994da051e4cfe375b8f6b428a3ac5",
+    "public/images/key-risk-icons/naturalistic-v3/aphid.png": "093634f9ed92ea0dcf1c16f9d8bffd39e190846f9b737d5697800ab951c7fd01",
+    "public/images/key-risk-icons/naturalistic-v3/mildew.png": "00cf518ef5456063cdd3268bd1773b502db4aec16cfc13e9089b955364170c42",
+    "public/images/key-risk-icons/naturalistic-v3/slug.png": "0860a239c9aee58ed96f08a346bd1d7fa8b337240df3749aabd2e462fc466c87",
+    "docs/publication/topic-pages/techniques-expansion/assets/starter-plot-v1.png": "bd4debd184b1590be6c3e08ca6915c047aa679532615d6f873b6496363f3693c",
+    "docs/publication/vegetable-guru-grid-variations/assets/G2-centre-title.png": "38a3f3edf5be32e3077439d710036ae5a8d2b68dd27ea1ffccf1c9d05b2f0b24",
+    "docs/publication/vegetable-guru-back-collage/B5.png": "bf4ec765d570845865355956c22a9d2b78a59b717c4471f9c5aaba894621ffff",
+    "docs/front-matter/entry-pages/studies/assets/harvest-cluster.png": "aedba4cc6a729f618e930d6cee05694837e756d4c8bbd669f7689ab6eacd54c7",
+    "docs/front-matter/entry-pages/calendar-assets/radish-calendar.png": "6d706d495642ed80224a359739a8369889f442ee403e8b937114425aab7eeed1",
+    "docs/front-matter/entry-pages/calendar-assets/temperate-field.svg": "95774a8db9580af42048616e14362c203d99043b651789dbaaf7d4c47d9c8a2a",
+    "docs/front-matter/entry-pages/calendar-assets/tropical-island.svg": "d5d1edc613476358bae63ea8c0df310730d20e2dd260e3b42d25777987c002de",
+    "docs/front-matter/entry-pages/scales-study/assets/difficulty-capture.png": "77aab828d1274cb612a495d53e5d54a2214a917e84a37600d1a527660a98d5e3",
+    "docs/front-matter/entry-pages/scales-study/assets/baby.svg": "459c0b0d086e01139acc132e7ef55f4037295a7fcb79d67d41b0dd7d1904e759",
+    "docs/front-matter/entry-pages/scales-study/assets/einstein.svg": "ee99c8c68842d7c4812634394bd202da719b8ee57d906805b7027075480e6b54",
+    "docs/front-matter/entry-pages/scales-study/assets/core-needs-capture.png": "3f5c26757e2aed7338a81f5df7c904a829d745f669da9a477fad327cf49d535a",
+    "docs/front-matter/entry-pages/scales-study/assets/dropper.svg": "65ddeeee2ddb263ad6783bb965e88a230faa3f1e4703e78e8c9a1674cae93c65",
+    "docs/front-matter/entry-pages/scales-study/assets/wave.svg": "17af6bd7340b2d359db3ec88c20acfb2fcb81436916afa04302d9f39e1970723",
+    "output/pdf/whole-book-order-preview/the-vegetable-guru-order-preview.pdf": "fc1da9dc30e5c0a36a72cc5d42d68c261ece38de57c14cc939feeb5e046e1baf",
+    "../hackriculture-data/vegetables/radish/radish.json": "59e6af73342336440cdc859fa0942c53fe29442124090d6093d358050ece79c5",
+    "../hackriculture-data/vegetables/broccoli/broccoli.json": "23e1aa3ffa68398d663d38be03f9de9942cf2d028d132cad54f45f613dda6bef",
+    "public/images/coloured-icons/style-a-v1/sun.svg": "e90866bce6f2f468a8751456055a6b0d61a5d2c36365d9de7b8a1149b920e590",
+    "public/images/coloured-icons/style-a-v1/water.svg": "7724cb9ac4f56548c19202a76f62c34570f516121d3dbd1db53e524b2b6bff52",
+    "public/images/coloured-icons/style-a-v1/feeding.svg": "3e608d406e7215df408c2479e1f2cb93614341de4dd86bb1a6e6c3417375acf0"
+  },
+  "implementation": {
+    "scripts/build-combined-guides-opening.mjs": "e1eeef3c8b5ed8a2c030aede4ca0f6e6260d8776746a315b1c8d2dd9d7ff0897",
+    "scripts/lib/guide-example-widgets.mjs": "0e983752b451efc6eb738d3c0ad4517566dbbd996e4e150efb5068a0f3a1feae",
+    "docs/publication/combined-guides-opening/opening.css": "613284092f4f7994e5ff6aab2e4b75f8578b8e810b365e1947cf30cece055095",
+    "scripts/lib/book-guide-key.mjs": "1283491f22721c694bfa1e3543970559dc96dd1ba343e121e078b170b6c9f39a",
+    "docs/publication/guide-key/guide-key.css": "66c61ccc781fdb033ad75e7cf3e37d232a389027bc8969dbf9eacb314b397461",
+    "docs/publication/vegetable-guru-entry-pages/entry-pages.css": "9796fac872f5e80f95799912f2da7dd690734dffa2b7af7336f0b8bcd8c39d43"
+  },
+  "widgetSources": {
+    "radish": {
+      "url": "http://127.0.0.1:5173/print/vegetable/radish?units=metric",
+      "calendar": "<section class=\"calendar\"><h2>Growing calendar</h2><div class=\"month-row\"><b></b><span>J</span><span>F</span><span>M</span><span>A</span><span>M</span><span>J</span><span>J</span><span>A</span><span>S</span><span>O</span><span>N</span><span>D</span></div><div class=\"month-row sowing_time\"><b>SOW</b><span class=\"extra\"></span><span class=\"extra\"></span><span class=\"usual\"></span><span class=\"usual\"></span><span class=\"usual\"></span><span class=\"usual\"></span><span class=\"usual\"></span><span class=\"usual\"></span><span class=\"extra\"></span><span class=\"\"></span><span class=\"\"></span><span class=\"\"></span></div><div class=\"month-row harvest_time\"><b>HARVEST</b><span class=\"extra\"></span><span class=\"extra\"></span><span class=\"extra\"></span><span class=\"usual\"></span><span class=\"usual\"></span><span class=\"usual\"></span><span class=\"usual\"></span><span class=\"usual\"></span><span class=\"usual\"></span><span class=\"usual\"></span><span class=\"usual\"></span><span class=\"extra\"></span></div><p>Bright: usual months · Muted: less usual</p></section>",
+      "needs": "<section class=\"needs\"><h2>Core needs</h2><small>1 = low · 5 = high</small><div><img class=\"\" alt=\"\" src=\"/images/coloured-icons/style-a-v1/sun.svg\"><b>Sun</b><span class=\"scale sun\" aria-label=\"3 out of 5\"><i class=\"on\"></i><i class=\"on\"></i><i class=\"on\"></i><i class=\"\"></i><i class=\"\"></i></span><strong>3/5</strong></div><div><img class=\"\" alt=\"\" src=\"/images/coloured-icons/style-a-v1/water.svg\"><b>Water</b><span class=\"scale water\" aria-label=\"4 out of 5\"><i class=\"on\"></i><i class=\"on\"></i><i class=\"on\"></i><i class=\"on\"></i><i class=\"\"></i></span><strong>4/5</strong></div><div><img class=\"\" alt=\"\" src=\"/images/coloured-icons/style-a-v1/feeding.svg\"><b>Nutrition</b><span class=\"scale nutrition\" aria-label=\"2 out of 5\"><i class=\"on\"></i><i class=\"on\"></i><i class=\"\"></i><i class=\"\"></i><i class=\"\"></i></span><strong>2/5</strong></div></section>",
+      "difficulty": null
+    },
+    "broccoli": {
+      "url": "http://127.0.0.1:5173/print/vegetable/broccoli?units=metric",
+      "calendar": null,
+      "needs": null,
+      "difficulty": "<aside class=\"header-difficulty\"><small>DIFFICULTY</small><strong>Medium</strong><span class=\"difficulty-rating\"><span class=\"scale \" aria-label=\"3 out of 5\"><i class=\"on\"></i><i class=\"on\"></i><i class=\"on\"></i><i class=\"\"></i><i class=\"\"></i></span><b>3/5</b></span></aside>"
+    }
+  },
+  "widgetExamples": {
+    "dates": [
+      [
+        "extra",
+        "extra",
+        "usual",
+        "usual",
+        "usual",
+        "usual",
+        "usual",
+        "usual",
+        "extra",
+        "",
+        "",
+        ""
+      ],
+      [
+        "extra",
+        "extra",
+        "extra",
+        "usual",
+        "usual",
+        "usual",
+        "usual",
+        "usual",
+        "usual",
+        "usual",
+        "usual",
+        "extra"
+      ]
+    ],
+    "ratings": [
+      {
+        "label": "Sun",
+        "value": "3/5",
+        "on": 3
+      },
+      {
+        "label": "Water",
+        "value": "4/5",
+        "on": 4
+      },
+      {
+        "label": "Nutrition",
+        "value": "2/5",
+        "on": 2
+      }
+    ],
+    "difficulty": "Medium, 3/5",
+    "replacements": [
+      "Calendar PNG → original calendar DOM",
+      "Difficulty PNG → original difficulty DOM",
+      "Faded Core Needs PNG → original needs DOM; all rows fully visible on the same peach background"
+    ],
+    "retainedOriginalIllustrations": 6,
+    "additionalOriginalGuideIcons": 3
+  },
+  "pdf": "tmp/pdfs/combined-guides-opening/opening.pdf",
+  "sha256": "65c6ebacac5d725bae9b7f242d161a4770b7f319cd100c4718606a317f200f77",
+  "checks": {
+    "folio": 9,
+    "side": "right",
+    "panel": {
+      "left": 16.999479166666664,
+      "top": 60.99472656249999,
+      "right": 176.99798177083332,
+      "bottom": 223.86230468749997
+    },
+    "panelHeading": {
+      "fontPx": 30,
+      "colour": "rgb(164, 64, 7)",
+      "textAlign": "center"
+    },
+    "removedPanelIntro": true,
+    "footer": {
+      "left": 16.999479166666664,
+      "top": 228.37262369791665,
+      "right": 176.99798177083332,
+      "bottom": 231.99824218749998
+    },
+    "footerGapMm": 4.51031901041668,
+    "blocks": [
+      {
+        "text": "VegetableGuides",
+        "left": 16.999479166666664,
+        "top": 11.997200520833331,
+        "right": 113.00188802083332,
+        "bottom": 45.8638671875,
+        "fontPx": 64,
+        "overflow": false
+      },
+      {
+        "text": "How to use the guides",
+        "left": 20.496940104166665,
+        "top": 64.4921875,
+        "right": 173.50052083333333,
+        "bottom": 73.06220703125,
+        "fontPx": 30,
+        "overflow": false
+      },
+      {
+        "text": "Reading the calendar",
+        "left": 20.496940104166665,
+        "top": 76.05944010416665,
+        "right": 173.50052083333333,
+        "bottom": 82.34329427083333,
+        "fontPx": 22,
+        "overflow": false
+      },
+      {
+        "text": "Bright shades show the usual sowing and harvest months for temperate climates: here, lowland England (US zones 8 to 9). Muted shades show less usual options for warmer climates. Use local conditions and the crop’s advice to choose your timing.",
+        "left": 20.496940104166665,
+        "top": 83.83984374999999,
+        "right": 173.50052083333333,
+        "bottom": 98.27617187499999,
+        "fontPx": 14,
+        "overflow": false
+      },
+      {
+        "text": "Growing calendar",
+        "left": 23.40735677083333,
+        "top": 103.24537760416666,
+        "right": 117.58248697916666,
+        "bottom": 109.81448567708333,
+        "fontPx": 23,
+        "overflow": false
+      },
+      {
+        "text": "Bright: usual months · Muted: less usual",
+        "left": 23.40735677083333,
+        "top": 125.68948567708333,
+        "right": 117.58248697916666,
+        "bottom": 128.8644856770833,
+        "fontPx": 10,
+        "overflow": false
+      },
+      {
+        "text": "Usual Temperate climates",
+        "left": 136.98388671875,
+        "top": 100.27294921874999,
+        "right": 173.50052083333333,
+        "bottom": 109.95917968749998,
+        "fontPx": 18,
+        "overflow": false
+      },
+      {
+        "text": "SowHarvest",
+        "left": 136.98388671875,
+        "top": 110.45527343749998,
+        "right": 173.50052083333333,
+        "bottom": 115.05654296875,
+        "fontPx": 12,
+        "overflow": false
+      },
+      {
+        "text": "Less usual Warmer climates",
+        "left": 136.98388671875,
+        "top": 117.05332031249999,
+        "right": 173.50052083333333,
+        "bottom": 126.73955078124999,
+        "fontPx": 18,
+        "overflow": false
+      },
+      {
+        "text": "SowHarvest",
+        "left": 136.98388671875,
+        "top": 127.23564453124999,
+        "right": 173.50052083333333,
+        "bottom": 131.8369140625,
+        "fontPx": 12,
+        "overflow": false
+      },
+      {
+        "text": "Difficulty rating",
+        "left": 20.496940104166665,
+        "top": 137.0955078125,
+        "right": 90.49576822916666,
+        "bottom": 143.37936197916665,
+        "fontPx": 22,
+        "overflow": false
+      },
+      {
+        "text": "Difficulty reflects ease of growing and tolerance of adverse conditions. Radishes suit beginners; celery and cauliflower can defeat even experienced gardeners in a bad season.",
+        "left": 20.496940104166665,
+        "top": 144.87591145833332,
+        "right": 90.49576822916666,
+        "bottom": 168.93645833333332,
+        "fontPx": 14,
+        "overflow": false
+      },
+      {
+        "text": "1",
+        "left": 131.99401041666664,
+        "top": 150.35774739583331,
+        "right": 145.99212239583332,
+        "bottom": 154.76884765625,
+        "fontPx": 11.5,
+        "overflow": false
+      },
+      {
+        "text": "5",
+        "left": 157.99345703125,
+        "top": 150.35774739583331,
+        "right": 171.99156901041664,
+        "bottom": 154.76884765625,
+        "fontPx": 11.5,
+        "overflow": false
+      },
+      {
+        "text": "Core needs",
+        "left": 20.496940104166665,
+        "top": 174.1950520833333,
+        "right": 90.49576822916666,
+        "bottom": 180.47890625,
+        "fontPx": 22,
+        "overflow": false
+      },
+      {
+        "text": "Too little sun, water or manure can damage some plants, while too much can harm others. Use the scales as a guide to each crop’s needs.",
+        "left": 20.496940104166665,
+        "top": 181.97545572916664,
+        "right": 90.49576822916666,
+        "bottom": 201.22389322916663,
+        "fontPx": 14,
+        "overflow": false
+      },
+      {
+        "text": "1Low demand",
+        "left": 104.49801432291666,
+        "top": 211.7369466145833,
+        "right": 123.49427083333332,
+        "bottom": 220.36484374999998,
+        "fontPx": 11.5,
+        "overflow": false
+      },
+      {
+        "text": "5High demand",
+        "left": 146.50061848958333,
+        "top": 211.7369466145833,
+        "right": 165.496875,
+        "bottom": 220.36484374999998,
+        "fontPx": 11.5,
+        "overflow": false
+      }
+    ],
+    "images": [
+      {
+        "src": "/docs/assets/vegetable-guru-stock/assets/h4-summer-aubergines-hero-style-v2.png",
+        "left": 113.99820963541666,
+        "top": 10.000423177083333,
+        "right": 176.99798177083332,
+        "bottom": 53.999804687499996,
+        "loaded": true
+      },
+      {
+        "src": "/docs/front-matter/entry-pages/calendar-assets/temperate-field.svg",
+        "left": 124.49059244791665,
+        "top": 102.16637369791665,
+        "right": 135.48733723958333,
+        "bottom": 113.16311848958333,
+        "loaded": true
+      },
+      {
+        "src": "/docs/front-matter/entry-pages/calendar-assets/tropical-island.svg",
+        "left": 124.49059244791665,
+        "top": 118.94674479166666,
+        "right": 135.48733723958333,
+        "bottom": 129.94348958333333,
+        "loaded": true
+      },
+      {
+        "src": "/docs/front-matter/entry-pages/scales-study/assets/baby.svg",
+        "left": 131.99401041666664,
+        "top": 137.0955078125,
+        "right": 145.99212239583332,
+        "bottom": 150.0931640625,
+        "loaded": true
+      },
+      {
+        "src": "/docs/front-matter/entry-pages/scales-study/assets/einstein.svg",
+        "left": 157.99345703125,
+        "top": 137.0955078125,
+        "right": 171.99156901041664,
+        "bottom": 150.0931640625,
+        "loaded": true
+      },
+      {
+        "src": "/images/coloured-icons/style-a-v1/sun.svg",
+        "left": 100.31842447916665,
+        "top": 174.98880208333333,
+        "right": 106.66842447916666,
+        "bottom": 181.33880208333332,
+        "loaded": true
+      },
+      {
+        "src": "/images/coloured-icons/style-a-v1/water.svg",
+        "left": 100.31842447916665,
+        "top": 182.66171874999998,
+        "right": 106.66842447916666,
+        "bottom": 189.01171874999997,
+        "loaded": true
+      },
+      {
+        "src": "/images/coloured-icons/style-a-v1/feeding.svg",
+        "left": 100.31842447916665,
+        "top": 190.33463541666666,
+        "right": 106.66842447916666,
+        "bottom": 196.68463541666665,
+        "loaded": true
+      },
+      {
+        "src": "/docs/front-matter/entry-pages/scales-study/assets/dropper.svg",
+        "left": 105.99456380208332,
+        "top": 198.47470703124998,
+        "right": 121.99358723958332,
+        "bottom": 211.47236328124998,
+        "loaded": true
+      },
+      {
+        "src": "/docs/front-matter/entry-pages/scales-study/assets/wave.svg",
+        "left": 147.99716796874998,
+        "top": 198.47470703124998,
+        "right": 163.99619140624998,
+        "bottom": 211.47236328124998,
+        "loaded": true
+      }
+    ],
+    "bodyParagraphs": [
+      "Bright shades show the usual sowing and harvest months for temperate climates: here, lowland England (US zones 8 to 9). Muted shades show less usual options for warmer climates. Use local conditions and the crop’s advice to choose your timing.",
+      "Difficulty reflects ease of growing and tolerance of adverse conditions. Radishes suit beginners; celery and cauliflower can defeat even experienced gardeners in a bad season.",
+      "Too little sun, water or manure can damage some plants, while too much can harm others. Use the scales as a guide to each crop’s needs."
+    ]
+  },
+  "omissions": [
+    "Section number/eyebrow",
+    "Choose it. Grow it. Enjoy it. strapline",
+    "Opener introduction and closing guide-count sentence",
+    "H5 how-to decorative header",
+    "Use the calendar and scales to compare crops and plan their care."
+  ],
+  "preserved": "All three how-to explanations, six original instructional illustrations and three original guide icons; three screenshot examples rebuilt from the original guide DOM, retaining dates and ratings; 10.5 pt body retained.",
+  "placement": "Blank 8 / combined opener 9, then first vegetable 10–11; requested by John to match Troubles."
+}

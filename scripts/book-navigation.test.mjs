@@ -7,17 +7,19 @@ import {sectionNames,sectionLabel,topicHeadings} from './lib/book-review-refinem
 const edition=JSON.parse(fs.readFileSync('docs/publication/contents-update/ASSEMBLY-PROPOSAL.json','utf8')).editions.imperial;
 const crops=readCollection('vegetables'),troubles=readCollection('troubles');
 const texts=Object.fromEntries([...edition.documents.filter(d=>d.type==='trouble').map(d=>['trouble:'+d.key,Array(d.physicalPages).fill(troubles[d.key].applies_to.map(k=>crops[k].name).join(' / '))]),...edition.additions.map(d=>[d.source,['General growing advice.']])]);
-test('Every second page has one combined title; named third pages are retained',()=>{
+test('Every second page has one combined title, including the four approved replacements',()=>{
   const n=resolveNavigation(edition,crops,troubles,texts);
-  assert.equal(n.decisions.length,44);assert.equal(n.pages.filter(p=>p.newHeading).length,44);
-  assert.equal(n.pages.filter(p=>p.existingNamedContinuation).length,4);
-  assert.equal(n.pages.find(p=>p.key==='carrot'&&p.offset===1).newHeading,'Growing guide · Carrot');
+  assert.equal(n.decisions.length,44);assert.equal(n.pages.filter(p=>p.newHeading).length,40);
+  assert.equal(n.pages.filter(p=>p.approvedHeading).length,4);
+  assert.equal(n.pages.filter(p=>p.existingNamedContinuation).length,0);
+  assert.ok(n.pages.find(p=>p.key==='carrot'&&p.offset===1).approvedHeading);
+  assert.equal(n.pages.find(p=>p.key==='beetroot'&&p.offset===1).newHeading,'Growing guide · Beetroot');
   assert.ok(n.pages.filter(p=>p.offset===0).every(p=>!p.links.length));
 });
 test('Membership alone is insufficient; each page in a range must name the crop',()=>{
   const explicit=structuredClone(texts);explicit['trouble:carrot_and_parsnip_troubles']=['Carrot fly.','Parsnip only.','Carrots with root damage.'];
   const carrot=resolveNavigation(edition,crops,troubles,explicit).decisions.find(d=>d.key==='carrot');
-  assert.deepEqual(carrot.links.map(l=>[l.start,l.end,l.offset]),[[120,120,0],[122,122,2]]);
+  assert.deepEqual(carrot.links.map(l=>[l.start,l.end,l.offset]),[[112,112,0],[114,114,2]]);
 });
 test('No generic technique or index fallback for crops without explicit mentions',()=>{
   const n=resolveNavigation(edition,crops,troubles,texts);
@@ -44,12 +46,12 @@ test('Specific technique mentions qualify and destinations follow a relocated pl
 
 test('Section labels follow the section boundaries; blanks and title have no footer',()=>{
   const n=resolveNavigation(edition,crops,troubles,texts);
-  for(const [folio,label] of [[2,'THE VEGETABLE GURU'],[7,'THE VEGETABLE GURU'],[8,'VEGETABLE GUIDES'],[105,'VEGETABLE GUIDES'],[107,'VEGETABLE TROUBLES'],[152,'VEGETABLE TROUBLES'],[153,'GROWING TECHNIQUES'],[169,'GROWING TECHNIQUES'],[170,'INDEX']]) {
+  for(const [folio,label] of [[2,'THE VEGETABLE GURU'],[7,'THE VEGETABLE GURU'],[9,'VEGETABLE GUIDES'],[97,'VEGETABLE GUIDES'],[99,'VEGETABLE TROUBLES'],[144,'VEGETABLE TROUBLES'],[145,'GROWING TECHNIQUES'],[161,'GROWING TECHNIQUES'],[162,'INDEX']]) {
     assert.equal(sectionLabel(folio,edition),label);
     assert.equal(n.pages.find(p=>p.folio===folio).label,label);
   }
-  for(const blank of [1,3,6,17,71,89,93,106,174])assert.ok(!n.pages.some(p=>p.folio===blank));
-  assert.equal(n.pages.length,165);
+  for(const blank of [1,3,6,8,98,166])assert.ok(!n.pages.some(p=>p.folio===blank));
+  assert.equal(n.pages.length,160);
   assert.ok(n.decisions.flatMap(d=>d.links).every(l=>[sectionNames.trouble,sectionNames.technique].includes(l.label)));
   assert.equal(Object.keys(topicHeadings).length,16);
   for(const heading of Object.values(topicHeadings))assert.ok(edition.additions.some(d=>d.source===heading.source));

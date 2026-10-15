@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-15",
+  "status": "passed; visual review separate",
+  "pdf": "output/pdf/vegetable-header-review/header-mockups.pdf",
+  "sha256": "660c6e5b087b5d5a46d45fc33c73a8307366709927146f267d6bca574caa0818",
+  "pages": 4,
+  "headerBoundaryMm": 33.5,
+  "checks": [
+    {
+      "key": "carrot",
+      "folio": 14,
+      "bodyTextIdentical": true,
+      "headerWordsIdentical": true,
+      "pageMm": [
+        185,
+        240
+      ]
+    },
+    {
+      "key": "onion_shallot",
+      "folio": 66,
+      "bodyTextIdentical": true,
+      "headerWordsIdentical": true,
+      "pageMm": [
+        185,
+        240
+      ]
+    },
+    {
+      "key": "oriental_leaves",
+      "folio": 58,
+      "bodyTextIdentical": true,
+      "headerWordsIdentical": true,
+      "pageMm": [
+        185,
+        240
+      ]
+    },
+    {
+      "key": "florence_fennel",
+      "folio": 92,
+      "bodyTextIdentical": true,
+      "headerWordsIdentical": true,
+      "pageMm": [
+        185,
+        240
+      ]
+    }
+  ],
+  "bookUnchanged": true,
+  "sourceInputsUnchanged": true
+}

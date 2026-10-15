@@ -1,10 +1,11 @@
 import {escapeHtml as esc} from './book-content.mjs';
 
-export function renderSectionOpeners(data, units, edition) {
+export function renderSectionOpeners(data, units, edition, {omit=[]}={}) {
   if (!data.book.sectionOpeners) throw Error('Missing editable section-openers copy');
   return data.book.sectionOpeners.map((s,i)=>{
+    if(omit.includes(s.id))return '';
     const folio=edition.sectionOpeners.find(p=>p.source==='opening:'+s.id)?.startPage;
-    if (!folio || (s.id==='varieties' ? folio%2!==0 : folio%2!==1)) throw Error('Unexpected section-opening side: '+s.id);
+    if (!folio || folio%2!==1) throw Error('Unexpected section-opening side: '+s.id);
     return `<section class="sheet ${folio % 2 === 0 ? 'verso' : ''} section-opener section-${esc(s.id)}" data-folio="${folio}"><div class="content">
       <p class="section-number"><span>${String(i+1).padStart(2,'0')}</span> ${esc(data.book.title.toUpperCase())}</p>
       <h1>${esc(s.heading.text)}<span>${esc(s.heading.emphasis)}</span></h1>

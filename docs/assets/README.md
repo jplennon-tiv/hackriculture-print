@@ -34,6 +34,12 @@ and [approval hashes](../publication/book-pilot/DESIGN-APPROVAL.json). These
 protect the compact geometry and art direction; the following A4 sources retain
 their content/artwork provenance and their separate sheet-format approvals.
 
+The [15 October header approval](../publication/vegetable-header-review/APPROVAL.json)
+adds circle-anchored seasons placement with 20 px clearance and page-coloured
+difficulty badges. Its frozen four-page proof and layout source are recorded
+in the manifest. All 44 headers are integrated into the full preview; the normal
+individual-guide exporter remains pending.
+
 ## Growing Techniques: cultivation
 
 John approved the four **Cultivation: Dig or No-Dig** pages on 8 October 2026,
@@ -234,7 +240,7 @@ second page’s lower space. These are existing stock, reused without modificati
 John accepted these placements for integration. Family/topic subheadings and
 explanatory notes remain omitted. The welcome entry is removed at John’s request;
 all 80 current destinations remain. Blank 3 puts the contents on facing pages
-4–5, followed by blank 6, Introduction 7 and Vegetable Guides/how-to facing at 8–9. Their current PDF is integrated into
+4–5, followed by blank 6, Introduction 7, blank 8 and the combined Vegetable Guides/how-to at right-hand page 9. Their current PDF is integrated into
 the complete imperial preview. The plain baseline and exact accepted illustrated
 4–5 proofs are retained under the contents reference folders. Original approved compact and A4 sources remain intact.
 
@@ -273,11 +279,24 @@ PDFs matched their installed copies and approval hashes, and all 11 recorded
 front-matter files matched. Preserve the originals; the A4 builders overwrite
 installed A4 assets and are not compact-book builders.
 
-The [one-page guide key](../publication/guide-key/REVIEW.html), at current folio 9,
-now faces the Vegetable Guides opener at 8 in the complete PDF. Its title
+The previous [one-page guide key](../publication/guide-key/REVIEW.html), at folio 9,
+faced the Vegetable Guides opener at 8 before the combined page below was approved. Its title
 is “Vegetable guides / how to use”; both-unit key PDFs and the complete imperial
 preview have been rebuilt. It condenses the same three explanations
 and retains all nine instructional assets, the 80 mm needs example and a smaller
 120 mm calendar. H5 supplies a small decorative header; H6 is omitted. This is a
 new review composition authorised by John’s 14 October plan, not a replacement
 of the frozen approved two-page source. [Adaptations and checks](../publication/guide-key/README.md).
+
+The [approved combined Guides opener/how-to](../publication/combined-guides-opening/REVIEW.html)
+of 15 October places the title and smaller H4 artwork above a lower how-to panel.
+John clarified right-hand placement, matching Troubles: blank 8 / combined 9,
+with the first vegetable still 10–11. All three explanations remain; extra opener
+copy and H5 are omitted as requested. Its peach-panel revision replaces the three
+flattened calendar/rating examples with their original guide DOM components to
+fix corners and visibility, retaining six instructional illustrations and the
+original captures as references. John approved the final composition on 15 October,
+with all needs rows on the same peach background and no Water stripe.
+The [approval record](../publication/combined-guides-opening/APPROVAL.json) preserves
+the exact PDF, rendered page and layout sources. It is now integrated at right-hand
+page 9, facing blank 8. Shared source copy and all frozen originals remain unchanged.

@@ -4,6 +4,7 @@ import {createHash} from 'node:crypto';
 import {execFileSync} from 'node:child_process';
 import {readBookContent, root, sharedRoot} from './book-content.mjs';
 import {readCollection} from '../../../hackriculture-data/lib/records.mjs';
+import {loadApprovedTwoPageGuides} from './approved-two-page-guides.mjs';
 
 export const hash = bytes => createHash('sha256').update(bytes).digest('hex');
 export const normal = s => s.normalize('NFKC').replace(/\u00ad/g, '').replace(/\s+/g, '').toLowerCase();
@@ -49,6 +50,7 @@ export function resolveIndex({planPath='docs/publication/book-preparation/ASSEMB
   // No editing of index entries or guessed full-book numbering is required.
   const topicMap=topicMapPath?json(topicMapPath):null;
   const inputs={},cache=new Map();
+  const approvedGuides=plan.approvedGuides?loadApprovedTwoPageGuides().editions:{};
   const pdfPaths=[...new Set([
     ...Object.values(plan.editions).flatMap(e=>e.documents.map(d=>path.resolve(root,d.pdf))),
     ...topicChecks.results.map(e=>path.resolve(root,e.path)),
@@ -71,11 +73,13 @@ export function resolveIndex({planPath='docs/publication/book-preparation/ASSEMB
   for (const units of ['imperial','metric']) {
     const registry=new Map();
     for (const d of plan.editions[units].documents) {
-      const receipt=production.results.find(p=>p.id===d.id);
+      const replacement=approvedGuides[units]?.[d.key];
+      const receipt=d.approvedReplacement?replacement:production.results.find(p=>p.id===d.id);
       if (!receipt || receipt.sha256!==d.sha256) throw Error('Production/assembly source mismatch: '+d.id);
       const texts=readPdf(d.pdf,d.sha256,d.physicalPages);
-      if (receipt.dom.texts.length!==texts.length) throw Error('Missing source text: '+d.id);
-      registry.set(d.type+':'+d.key,{pdf:d.pdf,texts,dom:receipt.dom.texts,start:d.startPage,prefix:''});
+      const dom=d.approvedReplacement?texts:receipt.dom.texts;
+      if (dom.length!==texts.length) throw Error('Missing source text: '+d.id);
+      registry.set(d.type+':'+d.key,{pdf:d.pdf,texts,dom,start:d.startPage,prefix:''});
     }
     const tc=topicChecks.results.find(x=>x.units===units),td=topicDom.results.find(x=>x.units===units);
     const topicPdf=path.relative(root,path.resolve(root,tc.path));

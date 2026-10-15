@@ -9,15 +9,15 @@ export const contentsArtwork = [
 ];
 
 // This is a proposed placement map. It never changes saved source PDF folios.
-export function createContentsPlan(base, sources) {
+export function createContentsPlan(base, sources, approvedGuides = {}) {
   const plan = structuredClone(base);
-  plan.status = 'John-authorised ordering and navigation refinement, 14 October 2026; revised copy/layout remains for review. Source PDFs retain original folios.';
+  plan.status = 'Approved combined Guides opener at right-hand page 9, 15 October 2026. Source PDFs retain original folios.';
   plan.openingPlan = [
     [1, 'Title'], [2, 'Publication details'],
     [3, 'Blank: places the contents on facing pages'],
     [4, 'Contents: Vegetable Guides'], [5, 'Contents: Vegetable Troubles and Growing Techniques'],
     [6, 'Blank: faces the Introduction'], [7, 'Introduction — why grow your own'],
-    [8, 'Vegetable Guides'], [9, 'Vegetable guides — how to use']
+    [8, 'Blank: faces the combined Vegetable Guides opener'], [9, 'Vegetable Guides — how to use the guides']
   ].map(([page, content]) => ({page, content}));
   const topicOrder = ['technique:organic', 'technique:plot-location', 'technique:plot-layout', 'technique:plot-layout-branching',
     'cultivation:overview', 'cultivation:no-dig', 'cultivation:digging', 'cultivation:digging-finish',
@@ -25,21 +25,27 @@ export function createContentsPlan(base, sources) {
     'technique:greenhouse-choose', 'technique:greenhouse-beds', 'technique:greenhouse-no-dig-seasons'];
   const topicMap = {};
   for (const [unit, edition] of Object.entries(plan.editions)) {
-    let delta = plan.openingPlan.length - edition.openingPagesReserved;
     let cursor = plan.openingPlan.length + 1;
     edition.openingPagesReserved = plan.openingPlan.length;
-    edition.sectionOpeners = [{source:'opening:varieties',startPage:8,label:'Vegetable Guides'}];
-    edition.extraBlanks = [{page:3,reason:'Places the contents on facing pages'}, {page:6,reason:'Faces the Introduction'}];
+    edition.sectionOpeners = [{source:'opening:varieties',startPage:9,label:'Vegetable Guides'}];
+    edition.extraBlanks = [{page:3,reason:'Places the contents on facing pages'}, {page:6,reason:'Faces the Introduction'}, {page:8,reason:'Faces the combined Vegetable Guides opener'}];
     let troublesStarted = false;
     for (const doc of edition.documents) {
       if (doc.type === 'trouble' && !troublesStarted) {
         edition.extraBlanks.push({page:cursor,reason:'Faces Vegetable Troubles opener'});
         edition.sectionOpeners.push({source:'opening:troubles',startPage:cursor+1,label:'Vegetable Troubles'});
-        cursor += 2; delta += 2; troublesStarted = true;
+        cursor += 2; troublesStarted = true;
       }
       doc.sourceStartPage = doc.startPage;
-      doc.startPage += delta; doc.endPage += delta;
-      doc.blankFoliosAfter = doc.blankFoliosAfter.map(p => p + delta);
+      const replacement = doc.type === 'vegetable' && approvedGuides[unit]?.[doc.key];
+      if (replacement) {
+        if (replacement.physicalPages !== 2) throw Error('Approved replacement must be two pages');
+        doc.approvedReplacement = {...replacement, previousPdf:doc.pdf, previousSha256:doc.sha256};
+        doc.pdf = replacement.pdf; doc.sha256 = replacement.sha256; doc.physicalPages = 2;
+      }
+      doc.startPage = cursor; doc.endPage = cursor + doc.physicalPages - 1;
+      doc.blankAfterPages = doc.type === 'vegetable' ? doc.physicalPages % 2 : 0;
+      doc.blankFoliosAfter = Array.from({length:doc.blankAfterPages}, (_, i) => doc.endPage + i + 1);
       if (doc.startPage !== cursor || doc.endPage !== doc.startPage + doc.physicalPages - 1) throw Error('Non-contiguous source plan: ' + doc.id);
       if (doc.type === 'vegetable' && doc.startPage % 2) throw Error('Crop opening no longer faces its second page');
       doc.startSide = doc.startPage % 2 ? 'recto' : 'verso';

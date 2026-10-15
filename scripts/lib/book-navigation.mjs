@@ -74,7 +74,7 @@ export function resolveNavigation(edition, vegetables, troubles, texts) {
       }
     }
     decisions.push({key:d.key,crop:crop.name,troubleMembership:groups,links,omission:links.length?null:'No destination page explicitly names this crop in a relevant context.'});
-    for(let i=0;i<d.physicalPages;i++)pages.push({folio:d.startPage+i,label:sectionNames.vegetable.toUpperCase(),crop:crop.name,category:crop.category,key:d.key,offset:i,links:i?links:[],newHeading:i===1?`Growing guide · ${crop.name}`:null,existingNamedContinuation:i>1});
+    for(let i=0;i<d.physicalPages;i++)pages.push({folio:d.startPage+i,label:sectionNames.vegetable.toUpperCase(),crop:crop.name,category:crop.category,key:d.key,offset:i,links:i?links:[],approvedHeading:i===1&&Boolean(d.approvedReplacement),newHeading:i===1&&!d.approvedReplacement?`Growing guide · ${crop.name}`:null,existingNamedContinuation:i>1});
   }
   const blanks=new Set([...edition.extraBlanks.map(b=>b.page),...edition.documents.flatMap(d=>d.blankFoliosAfter)]);
   for(let folio=2;folio<=edition.plannedEvenTotal;folio++) {
@@ -116,7 +116,7 @@ export async function buildNavigationOverlays() {
     await page.pdf({path:path.join(root,pdf),preferCSSPageSize:true,printBackground:true});
   } finally {await browser.close();}
   for(const [p,h] of Object.entries(inputs))if(sha256(fs.readFileSync(path.resolve(root,p)))!==h)throw Error('Navigation input changed: '+p);
-  const receipt={date:'2026-10-15',status:'Section labels and edition placement for review; approved crop-title highlights removed',inputs,decisions:navigation.decisions,pages:dom,newCropLabels:dom.filter(x=>x.heading).length,existingNamedContinuations:navigation.pages.filter(x=>x.existingNamedContinuation).map(x=>({folio:x.folio,crop:x.crop})),crossReferenceLinks:dom.reduce((n,x)=>n+x.links.length,0),changedFolios:dom.filter(x=>x.changes.length).map(x=>x.folio),priorApproval:'references/navigation-approved-2026-10-15/APPROVAL.json',approvedHighlightsRemoved:true,referencePolicy:'Only destination pages explicitly naming the crop; no generic recommendations or index fallback.',scope:'Current imperial whole-book preview only. No source guide export or shared-data mutation.'};
+  const receipt={date:'2026-10-15',status:'Approved navigation retained with refreshed folios; all review highlights removed',inputs,decisions:navigation.decisions,pages:dom,newCropLabels:dom.filter(x=>x.heading).length,retainedApprovedCropHeadings:navigation.pages.filter(x=>x.approvedHeading).length,existingNamedContinuations:navigation.pages.filter(x=>x.existingNamedContinuation).map(x=>({folio:x.folio,crop:x.crop})),crossReferenceLinks:dom.reduce((n,x)=>n+x.links.length,0),changedFolios:dom.filter(x=>x.changes.length).map(x=>x.folio),priorApproval:'references/navigation-approved-2026-10-15/APPROVAL.json',approvedHighlightsRemoved:true,referencePolicy:'Only destination pages explicitly naming the crop; no generic recommendations or index fallback.',scope:'Current imperial whole-book preview only. No source guide export or shared-data mutation.'};
   fs.writeFileSync(path.join(root,dir,'NAVIGATION.json'),JSON.stringify(receipt,null,2)+'\n');
   return {pdf,sha256:sha256(fs.readFileSync(path.join(root,pdf))),pages:navigation.pages,navigation:receipt};
 }

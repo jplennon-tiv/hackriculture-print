@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-15",
+  "status": "Approved copy integrated; B5 and publication page visually checked in the complete PDF",
+  "pdf": "output/pdf/whole-book-order-preview/back-cover-approved-copy.pdf",
+  "sha256": "1dfa391874071b36cc08242a2ef6471a954444861edec7f7171ea01ccca53cab",
+  "bookRevision": "ad0539eda57eb6469b5b3aa3dee25ee17d34240919b2904982db1cbb8e73d316",
+  "copyInputs": {
+    "../hackriculture-data/book-layout/book.json": "7cf5470e4a29859fadddaf32fa6d29370c2d6258d09fe25e57af2cc90f8df78e",
+    "../hackriculture-data/book-layout/covers.json": "414327b71e1989f406412cf7f76f526b5c4b231df66348443ab5217847d74552",
+    "../hackriculture-data/book-layout/publication.json": "1b9d3c3b8a6880de6fe5cf802b0c40ac25895ec6ba2a85b4c6cd8f70901256f1",
+    "../hackriculture-data/book-layout/introduction.json": "7a54f281bf1b0ef07f656fcb9c4a252860e7dd2ba730225891777056b66b9e5d",
+    "../hackriculture-data/book-layout/author.json": "244b1d0714c5b936f2ac5b8526c7f127996930609a0fc841b28a08edcd273176",
+    "../hackriculture-data/book-layout/contents.json": "4fef365caf670734a0d79ce8324c56e54e64015892545be2fa1e39683c330ad2",
+    "../hackriculture-data/book-layout/how-to.json": "a4bdbb78c4436c7ce4df6658392ff0c492375d56bcfc6b83a114b28c07d1af25",
+    "../hackriculture-data/book-layout/index.json": "644561af4403bc5f4327bdac2e023aba1564b09721b8db90f6ee652780ac2e83"
+  },
+  "artwork": {
+    "date": "2026-10-15",
+    "operation": "Built-in image editing tool: erase only the placeholder paragraph; original B5 preserved.",
+    "source": {
+      "path": "docs/publication/vegetable-guru-back-collage/B5.png",
+      "sha256": "bf4ec765d570845865355956c22a9d2b78a59b717c4471f9c5aaba894621ffff"
+    },
+    "derivative": {
+      "path": "docs/publication/publication-copy/integration/B5-clear-blurb.png",
+      "sha256": "34486168f719d0e5f650609e8addf53cb6e5bc782d396f216467bb0ed40ce386"
+    },
+    "prompt": "Remove the cream Lorem ipsum paragraph in the left-hand middle area (approximately x 50–405, y 525–910 in the 1100 × 1429 source), replacing the letters with the surrounding dark forest-green background. Preserve the title, count subtitle, all three angled page collages, price, barcode placeholder, aspect ratio and full edges. Leave the area blank for editable typesetting."
+  },
+  "inputs": {
+    "scripts/build-book-back-cover.mjs": "6efb6e3510ae0da4cb830aef46143f3c49fea0b4ebcae7dc5356da6ca7242c3d",
+    "docs/publication/publication-copy/integration/back-cover.html": "765dfd8a93131a04ce2c2f193d0dd430657bc6b75f958431c970cb4dcb35d171",
+    "docs/publication/publication-copy/integration/ARTWORK.json": "49e3e1444d0966a1dc58b4e8935f265a86cc360dd36db2a381ba2252ad59aea0",
+    "public/fonts/richer-a-6.woff2": "29e3890496844a9ea81975c52771c587c872b4eb317026422d1995b88d21b57d",
+    "docs/publication/vegetable-guru-back-collage/B5.png": "bf4ec765d570845865355956c22a9d2b78a59b717c4471f9c5aaba894621ffff",
+    "docs/publication/publication-copy/integration/B5-clear-blurb.png": "34486168f719d0e5f650609e8addf53cb6e5bc782d396f216467bb0ed40ce386"
+  },
+  "dom": {
+    "left": 8.999967447916667,
+    "top": 87.99876302083334,
+    "right": 63.99609375,
+    "bottom": 174.70354817708335,
+    "fontSizePt": 10.5,
+    "text": "Growing vegetables raises plenty of questions: when to sow, how much space to leave, when to harvest, and what to do when something starts eating the crop before you do.\n\nThese illustrated guides bring the useful details together, with clear calendars, planting advice and organic ways to tackle common troubles.\n\nThere’s practical help with soil, compost, watering and greenhouses too. Use it to plan your plot, then turn to the guide you need as each job comes along."
+  },
+  "paragraphs": [
+    "Growing vegetables raises plenty of questions: when to sow, how much space to leave, when to harvest, and what to do when something starts eating the crop before you do.",
+    "These illustrated guides bring the useful details together, with clear calendars, planting advice and organic ways to tackle common troubles.",
+    "There’s practical help with soil, compost, watering and greenhouses too. Use it to plan your plot, then turn to the guide you need as each job comes along."
+  ],
+  "visualReview": "docs/publication/whole-book-order-preview/VISUAL-REVIEW.json"
+}

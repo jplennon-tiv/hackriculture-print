@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-15",
+  "status": "review_ready_not_user_approved",
+  "pdfs": {
+    "imperial": {
+      "path": "output/pdf/vegetable-two-page-trial/two-page-trials-imperial.pdf",
+      "sha256": "093f6e23f49a50e31c73af9990bfb5d5d70ec5d4de5cf96739223c01d67aacce"
+    },
+    "metric": {
+      "path": "output/pdf/vegetable-two-page-trial/two-page-trials-metric.pdf",
+      "sha256": "76bd97d00cf8e46636d1d6e2f5faa7f62b758cef88f2cb8ecf7e6e90b0e3510c"
+    }
+  },
+  "coverage": "All eight actual PDF pages inspected as four facing spreads; compared with the current imperial book pages 14–16 and 68–70 and the frozen compact Kale practical-page reference. Highlighted review screenshot also inspected.",
+  "findings": [
+    "Carrot opening content unchanged; practical page, complete ten-row table and three Final tips fit without clipping.",
+    "Onion Key risks restored to opening; six varieties remain. Both seed/set drawings, module route, overwintering dates and complete ten-entry table retained.",
+    "New two-column onion table remains a design proposal; names are bold beside symptoms, controls retain their separate column.",
+    "Body type and leading unchanged in every retained audited node; no unexpected body-text edits.",
+    "Footer clearances: carrot 11.26/9.20 mm; onions 6.28/4.16 mm in both unit editions.",
+    "All artwork reused; no generated/replacement illustrations.",
+    "Temporary amber copy highlights and blue layout outlines can be toggled off; previous-layout comparison and metric/imperial controls tested."
+  ],
+  "scopeLimits": [
+    "Full book not rebuilt; current folios and existing See also targets retained for comparison.",
+    "Normal export code and canonical gardening records unchanged.",
+    "Only these two vegetables are proposed; other crops are not newly reviewed."
+  ],
+  "bookUnchanged": {
+    "path": "output/pdf/whole-book-order-preview/the-vegetable-guru-order-preview.pdf",
+    "sha256": "fbba42a4a962c54c64db79be7f9a975175199c26d0b10b40c167992260a30e1b"
+  }
+}

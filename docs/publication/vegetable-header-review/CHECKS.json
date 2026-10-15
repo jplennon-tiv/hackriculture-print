@@ -1,0 +1,594 @@
+{
+  "date": "2026-10-15",
+  "status": "Header-only mockups; proposed and not installed",
+  "fullBook": {
+    "path": "output/pdf/whole-book-order-preview/the-vegetable-guru-order-preview.pdf",
+    "sha256": "fc1da9dc30e5c0a36a72cc5d42d68c261ece38de57c14cc939feeb5e046e1baf"
+  },
+  "inputs": {
+    "src/print/book/header-widget-trial/layout.mjs": "2bd1fab34d22b4ff1ad6626e1035aaefc6d8009a8613eb74d3929f55259ef3fe",
+    "src/print/book/renderCompact.ts": "a866e30cd1c52a6d4001a81f4b215d8b0262965469b13a8497f8a10e78e0c2fb",
+    "src/print/book/production.ts": "cf833a8f16ad9b3e3b866e3854b5b3743ba3d1eadd06b61a445e1a06e1e03087",
+    "src/print/book/compact.css": "2ef16183fadf28bd4ec0e009bdd8cca1f304e23cec955a05206463a88dff488d",
+    "src/print/book/production.css": "37104408aaa64738b6adc02ee71f10046b907bf569ca696166df5b7d0549a8c1",
+    "src/print/book/bookvault.css": "3dd00547266db33c5b458c7a1e4942513961d68773560677a47fe9a4b14d1960",
+    "src/print/richVegetable.css": "f1d27530bd9aacd43cd66aad180ed857bf085b55fa894bb49ac884042d032fec",
+    "src/print/familyThemes.json": "e4c1dbb5d9d77a0060d518d4c751ec23f7282e6b89ea2d05ebe2c451812bc4df",
+    "output/pdf/whole-book-order-preview/the-vegetable-guru-order-preview.pdf": "fc1da9dc30e5c0a36a72cc5d42d68c261ece38de57c14cc939feeb5e046e1baf",
+    "../hackriculture-data/vegetables/carrot/carrot.json": "c5f076beb6cfe55cc90f80a6bc4a5f9690a4a25358c4bb74085a68798cd3500e",
+    "../hackriculture-data/vegetables/onion_shallot/onion_shallot.json": "7970e902671fc38c9c7eb0465dd3ddf04e3ca35f45426091a1e92c0cbbc82cb3",
+    "../hackriculture-data/vegetables/oriental_leaves/oriental_leaves.json": "3f660087e2cbf7dcae70216bb44f17db5c3cd05cfd35265bb83f87069da13ed8",
+    "../hackriculture-data/vegetables/florence_fennel/florence_fennel.json": "e29705c338ab2e2fe87ef507889c64b3e523f57b8c541d51841a6c76fd093278",
+    "public/images/heroes/richer-a/carrot.png": "733b775e5e9f87d78669551ca911e39ea3eb61bed6bc54815e64b10c8fbdbfe9",
+    "public/images/header_chars/season_summer.png": "ee56d04397fe879f6355ce31840a771f6003722723b998a0b0ddf5dd16361e9e",
+    "public/images/header_chars/season_autumn.png": "4ca52bce40f7ed4d202ea4b534c95f4b1452885db344c9e9a86087bc882bff6e",
+    "public/images/heroes/richer-a/onion-shallot.png": "176e9ab3ea2200bc1981978c822cee0ebeec37d499e621b158a73676277fa486",
+    "public/images/heroes/richer-a/oriental_leaves.png": "537278cbb96b9eca94d6ab2667e8c0e05d479950195f2c6f656a1b40cdcee983",
+    "public/images/heroes/richer-a/florence_fennel.png": "87af2c9a5acea79680816132860d22195a544c0f2c6dee6ca5e3791909c2a132"
+  },
+  "results": [
+    {
+      "key": "carrot",
+      "slug": "carrot",
+      "unit": "imperial",
+      "folio": 14,
+      "sourcePdf": "output/pdf/approved-two-page-guides/imperial/carrot.pdf",
+      "sourceSha256": "6a682ae9671480e452cc3e9eeff0d7e8ece27c5803c17c4fc3bf63bfbbd67c7b",
+      "beforeHeader": "tmp/pdfs/vegetable-header-review/carrot-imperial-before-header.pdf",
+      "afterHeader": "tmp/pdfs/vegetable-header-review/carrot-imperial-after-header.pdf",
+      "html": "docs/publication/vegetable-header-review/carrot-imperial.html",
+      "title": "Carrot.",
+      "headerText": "Root Crops\nCarrot.\nDIFFICULTY\nFairly Easy\n2/5\nHARVEST SEASONS\nSummer / Autumn",
+      "paper": "rgb(255, 248, 233)",
+      "before": {
+        "title": {
+          "left": 6.922276620070138,
+          "top": 7.735825153191883,
+          "right": 45.22245365778605,
+          "bottom": 25.910278526941934
+        },
+        "seasons": {
+          "left": 90.02034505208333,
+          "top": 3.175,
+          "right": 129.70784505208331,
+          "bottom": 17.80149739583333
+        },
+        "badge": {
+          "left": 131.17127316792804,
+          "top": 6.9909255305926,
+          "right": 168.31225547790527,
+          "bottom": 21.84865881204605
+        },
+        "badgeColour": "rgb(255, 225, 183)"
+      },
+      "after": {
+        "title": {
+          "left": 6.922276620070138,
+          "top": 7.735825153191883,
+          "right": 45.22245365778605,
+          "bottom": 25.910278526941934
+        },
+        "seasons": {
+          "left": 71.65660807291665,
+          "top": 3.175,
+          "right": 111.34410807291665,
+          "bottom": 17.80149739583333
+        },
+        "badge": {
+          "left": 131.17127316792804,
+          "top": 6.9909255305926,
+          "right": 168.31225547790527,
+          "bottom": 21.84865881204605
+        },
+        "badgeColour": "rgb(255, 248, 233)"
+      },
+      "circle": {
+        "left": 105.09332682291665,
+        "top": -29.63333333333333,
+        "right": 184.46832682291665,
+        "bottom": 49.74166666666666
+      },
+      "circleGapPx": 19.999999999999968,
+      "preferredCircleGapPx": 20,
+      "minimumTitleGapPx": 20,
+      "collisionShiftPx": 0,
+      "titleGapMm": 26.434154415130607,
+      "shiftLeftMm": 18.363736979166674,
+      "seasonToBadgeGapMm": 31.36961301167804,
+      "headerBottomMm": 32.80833333333333
+    },
+    {
+      "key": "onion_shallot",
+      "slug": "onions_and_shallots",
+      "unit": "imperial",
+      "folio": 66,
+      "sourcePdf": "output/pdf/approved-two-page-guides/imperial/onions_and_shallots.pdf",
+      "sourceSha256": "449953590230c359cf2a5d1218670e54142797d68495d4a6d9099c7763b7a40a",
+      "beforeHeader": "tmp/pdfs/vegetable-header-review/onions_and_shallots-imperial-before-header.pdf",
+      "afterHeader": "tmp/pdfs/vegetable-header-review/onions_and_shallots-imperial-after-header.pdf",
+      "html": "docs/publication/vegetable-header-review/onions_and_shallots-imperial.html",
+      "title": "Onions and Shallots.",
+      "headerText": "Onion Family\nOnions and Shallots.\nDIFFICULTY\nFairly Easy\n2/5\nHARVEST SEASONS\nSummer / Autumn",
+      "paper": "rgb(250, 243, 246)",
+      "before": {
+        "title": {
+          "left": 6.727763299147287,
+          "top": 7.745488242308298,
+          "right": 52.2590199748675,
+          "bottom": 32.05081537564595
+        },
+        "seasons": {
+          "left": 90.02034505208333,
+          "top": 3.175,
+          "right": 129.70784505208331,
+          "bottom": 17.80149739583333
+        },
+        "badge": {
+          "left": 131.17127316792804,
+          "top": 6.9909255305926,
+          "right": 168.31225547790527,
+          "bottom": 21.84865881204605
+        },
+        "badgeColour": "rgb(232, 220, 227)"
+      },
+      "after": {
+        "title": {
+          "left": 6.727763299147287,
+          "top": 7.745488242308298,
+          "right": 52.2590199748675,
+          "bottom": 32.05081537564595
+        },
+        "seasons": {
+          "left": 71.65660807291665,
+          "top": 3.175,
+          "right": 111.34410807291665,
+          "bottom": 17.80149739583333
+        },
+        "badge": {
+          "left": 131.17127316792804,
+          "top": 6.9909255305926,
+          "right": 168.31225547790527,
+          "bottom": 21.84865881204605
+        },
+        "badgeColour": "rgb(250, 243, 246)"
+      },
+      "circle": {
+        "left": 105.09332682291665,
+        "top": -29.63333333333333,
+        "right": 184.46832682291665,
+        "bottom": 49.74166666666666
+      },
+      "circleGapPx": 19.999999999999968,
+      "preferredCircleGapPx": 20,
+      "minimumTitleGapPx": 20,
+      "collisionShiftPx": 0,
+      "titleGapMm": 19.397588098049155,
+      "shiftLeftMm": 18.363736979166674,
+      "seasonToBadgeGapMm": 31.36961301167804,
+      "headerBottomMm": 32.80833333333333
+    },
+    {
+      "key": "oriental_leaves",
+      "slug": "oriental_leaves",
+      "unit": "imperial",
+      "folio": 58,
+      "sourcePdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_oriental_leaves.pdf",
+      "sourceSha256": "e5e219877aeab52e68df1bf33029283c9c7a40c1c8f3628fa6cd77e2dc3b256e",
+      "beforeHeader": "tmp/pdfs/vegetable-header-review/oriental_leaves-imperial-before-header.pdf",
+      "afterHeader": "tmp/pdfs/vegetable-header-review/oriental_leaves-imperial-after-header.pdf",
+      "html": "docs/publication/vegetable-header-review/oriental_leaves-imperial.html",
+      "title": "Oriental Leaves.",
+      "headerText": "Salads & Leaves\nOriental Leaves.\nDIFFICULTY\nEasy\n1/5\nHARVEST SEASONS\nSummer / Autumn",
+      "paper": "rgb(244, 247, 237)",
+      "before": {
+        "title": {
+          "left": 6.971589763959249,
+          "top": 6.596237695217132,
+          "right": 86.85511512756347,
+          "bottom": 26.10259459018707
+        },
+        "seasons": {
+          "left": 90.02034505208333,
+          "top": 3.175,
+          "right": 129.70784505208331,
+          "bottom": 17.80149739583333
+        },
+        "badge": {
+          "left": 131.17127316792804,
+          "top": 6.9909255305926,
+          "right": 168.31225547790527,
+          "bottom": 21.84865881204605
+        },
+        "badgeColour": "rgb(217, 231, 213)"
+      },
+      "after": {
+        "title": {
+          "left": 6.971589763959249,
+          "top": 6.596237695217132,
+          "right": 86.85511512756347,
+          "bottom": 26.10259459018707
+        },
+        "seasons": {
+          "left": 92.14527994791666,
+          "top": 3.175,
+          "right": 131.83277994791666,
+          "bottom": 17.80149739583333
+        },
+        "badge": {
+          "left": 131.17127316792804,
+          "top": 6.9909255305926,
+          "right": 168.31225547790527,
+          "bottom": 21.84865881204605
+        },
+        "badgeColour": "rgb(244, 247, 237)"
+      },
+      "circle": {
+        "left": 105.09332682291665,
+        "top": -29.63333333333333,
+        "right": 184.46832682291665,
+        "bottom": 49.74166666666666
+      },
+      "circleGapPx": -57.43750000000002,
+      "preferredCircleGapPx": 20,
+      "minimumTitleGapPx": 20,
+      "collisionShiftPx": 77.44317626953128,
+      "titleGapMm": 5.290164820353198,
+      "shiftLeftMm": -2.1249348958333343,
+      "seasonToBadgeGapMm": 10.880941136678047,
+      "headerBottomMm": 32.80833333333333
+    },
+    {
+      "key": "florence_fennel",
+      "slug": "florence_fennel",
+      "unit": "imperial",
+      "folio": 92,
+      "sourcePdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_florence_fennel.pdf",
+      "sourceSha256": "e82240c4c3704f3569f1d1e6e086c6cc4a1e42bc2564e4eae4a7c3e284633112",
+      "beforeHeader": "tmp/pdfs/vegetable-header-review/florence_fennel-imperial-before-header.pdf",
+      "afterHeader": "tmp/pdfs/vegetable-header-review/florence_fennel-imperial-after-header.pdf",
+      "html": "docs/publication/vegetable-header-review/florence_fennel-imperial.html",
+      "title": "Florence Fennel.",
+      "headerText": "Stalks & Shoots\nFlorence Fennel.\nDIFFICULTY\nMedium\n3/5\nHARVEST SEASONS\nSummer / Autumn",
+      "paper": "rgb(241, 246, 242)",
+      "before": {
+        "title": {
+          "left": 6.971589763959249,
+          "top": 6.595939445495604,
+          "right": 85.97257048288981,
+          "bottom": 26.04058135747909
+        },
+        "seasons": {
+          "left": 90.02034505208333,
+          "top": 3.175,
+          "right": 129.70784505208331,
+          "bottom": 17.80149739583333
+        },
+        "badge": {
+          "left": 131.17127316792804,
+          "top": 6.9909255305926,
+          "right": 168.31225547790527,
+          "bottom": 21.84865881204605
+        },
+        "badgeColour": "rgb(217, 232, 223)"
+      },
+      "after": {
+        "title": {
+          "left": 6.971589763959249,
+          "top": 6.595939445495604,
+          "right": 85.97257048288981,
+          "bottom": 26.04058135747909
+        },
+        "seasons": {
+          "left": 91.26057942708333,
+          "top": 3.175,
+          "right": 130.94807942708331,
+          "bottom": 17.80149739583333
+        },
+        "badge": {
+          "left": 131.17127316792804,
+          "top": 6.9909255305926,
+          "right": 168.31225547790527,
+          "bottom": 21.84865881204605
+        },
+        "badgeColour": "rgb(241, 246, 242)"
+      },
+      "circle": {
+        "left": 105.09332682291665,
+        "top": -29.63333333333333,
+        "right": 184.46832682291665,
+        "bottom": 49.74166666666666
+      },
+      "circleGapPx": -54.093750000000014,
+      "preferredCircleGapPx": 20,
+      "minimumTitleGapPx": 20,
+      "collisionShiftPx": 74.10757446289068,
+      "titleGapMm": 5.288008944193521,
+      "shiftLeftMm": -1.240234375,
+      "seasonToBadgeGapMm": 11.765641657511381,
+      "headerBottomMm": 32.80833333333333
+    },
+    {
+      "key": "carrot",
+      "slug": "carrot",
+      "unit": "metric",
+      "folio": 14,
+      "sourcePdf": "output/pdf/approved-two-page-guides/metric/carrot.pdf",
+      "sourceSha256": "70d99deb6dd090f71f6ede6064b92f75a46bf94b25d670aef1998fecd415a3b4",
+      "beforeHeader": null,
+      "afterHeader": null,
+      "html": "docs/publication/vegetable-header-review/carrot-metric.html",
+      "title": "Carrot.",
+      "headerText": "Root Crops\nCarrot.\nDIFFICULTY\nFairly Easy\n2/5\nHARVEST SEASONS\nSummer / Autumn",
+      "paper": "rgb(255, 248, 233)",
+      "before": {
+        "title": {
+          "left": 6.922276620070138,
+          "top": 7.735825153191883,
+          "right": 45.22245365778605,
+          "bottom": 25.910278526941934
+        },
+        "seasons": {
+          "left": 90.02034505208333,
+          "top": 3.175,
+          "right": 129.70784505208331,
+          "bottom": 17.80149739583333
+        },
+        "badge": {
+          "left": 131.17127316792804,
+          "top": 6.9909255305926,
+          "right": 168.31225547790527,
+          "bottom": 21.84865881204605
+        },
+        "badgeColour": "rgb(255, 225, 183)"
+      },
+      "after": {
+        "title": {
+          "left": 6.922276620070138,
+          "top": 7.735825153191883,
+          "right": 45.22245365778605,
+          "bottom": 25.910278526941934
+        },
+        "seasons": {
+          "left": 71.65660807291665,
+          "top": 3.175,
+          "right": 111.34410807291665,
+          "bottom": 17.80149739583333
+        },
+        "badge": {
+          "left": 131.17127316792804,
+          "top": 6.9909255305926,
+          "right": 168.31225547790527,
+          "bottom": 21.84865881204605
+        },
+        "badgeColour": "rgb(255, 248, 233)"
+      },
+      "circle": {
+        "left": 105.09332682291665,
+        "top": -29.63333333333333,
+        "right": 184.46832682291665,
+        "bottom": 49.74166666666666
+      },
+      "circleGapPx": 19.999999999999968,
+      "preferredCircleGapPx": 20,
+      "minimumTitleGapPx": 20,
+      "collisionShiftPx": 0,
+      "titleGapMm": 26.434154415130607,
+      "shiftLeftMm": 18.363736979166674,
+      "seasonToBadgeGapMm": 31.36961301167804,
+      "headerBottomMm": 32.80833333333333
+    },
+    {
+      "key": "onion_shallot",
+      "slug": "onions_and_shallots",
+      "unit": "metric",
+      "folio": 66,
+      "sourcePdf": "output/pdf/approved-two-page-guides/metric/onions_and_shallots.pdf",
+      "sourceSha256": "ed52ffeefd6edc6d0874cb8f586055e2fed403ca7ec4b15c199017ee97a22aa9",
+      "beforeHeader": null,
+      "afterHeader": null,
+      "html": "docs/publication/vegetable-header-review/onions_and_shallots-metric.html",
+      "title": "Onions and Shallots.",
+      "headerText": "Onion Family\nOnions and Shallots.\nDIFFICULTY\nFairly Easy\n2/5\nHARVEST SEASONS\nSummer / Autumn",
+      "paper": "rgb(250, 243, 246)",
+      "before": {
+        "title": {
+          "left": 6.727763299147287,
+          "top": 7.745488242308298,
+          "right": 52.2590199748675,
+          "bottom": 32.05081537564595
+        },
+        "seasons": {
+          "left": 90.02034505208333,
+          "top": 3.175,
+          "right": 129.70784505208331,
+          "bottom": 17.80149739583333
+        },
+        "badge": {
+          "left": 131.17127316792804,
+          "top": 6.9909255305926,
+          "right": 168.31225547790527,
+          "bottom": 21.84865881204605
+        },
+        "badgeColour": "rgb(232, 220, 227)"
+      },
+      "after": {
+        "title": {
+          "left": 6.727763299147287,
+          "top": 7.745488242308298,
+          "right": 52.2590199748675,
+          "bottom": 32.05081537564595
+        },
+        "seasons": {
+          "left": 71.65660807291665,
+          "top": 3.175,
+          "right": 111.34410807291665,
+          "bottom": 17.80149739583333
+        },
+        "badge": {
+          "left": 131.17127316792804,
+          "top": 6.9909255305926,
+          "right": 168.31225547790527,
+          "bottom": 21.84865881204605
+        },
+        "badgeColour": "rgb(250, 243, 246)"
+      },
+      "circle": {
+        "left": 105.09332682291665,
+        "top": -29.63333333333333,
+        "right": 184.46832682291665,
+        "bottom": 49.74166666666666
+      },
+      "circleGapPx": 19.999999999999968,
+      "preferredCircleGapPx": 20,
+      "minimumTitleGapPx": 20,
+      "collisionShiftPx": 0,
+      "titleGapMm": 19.397588098049155,
+      "shiftLeftMm": 18.363736979166674,
+      "seasonToBadgeGapMm": 31.36961301167804,
+      "headerBottomMm": 32.80833333333333
+    },
+    {
+      "key": "oriental_leaves",
+      "slug": "oriental_leaves",
+      "unit": "metric",
+      "folio": 58,
+      "sourcePdf": "output/pdf/book-preparation/bookvault/metric/vegetable_oriental_leaves.pdf",
+      "sourceSha256": "2c4a3ca29c71cee3952064bc3dfc8a3ef924342bc8918acecf4d211706f5eee8",
+      "beforeHeader": null,
+      "afterHeader": null,
+      "html": "docs/publication/vegetable-header-review/oriental_leaves-metric.html",
+      "title": "Oriental Leaves.",
+      "headerText": "Salads & Leaves\nOriental Leaves.\nDIFFICULTY\nEasy\n1/5\nHARVEST SEASONS\nSummer / Autumn",
+      "paper": "rgb(244, 247, 237)",
+      "before": {
+        "title": {
+          "left": 6.971589763959249,
+          "top": 6.596237695217132,
+          "right": 86.85511512756347,
+          "bottom": 26.10259459018707
+        },
+        "seasons": {
+          "left": 90.02034505208333,
+          "top": 3.175,
+          "right": 129.70784505208331,
+          "bottom": 17.80149739583333
+        },
+        "badge": {
+          "left": 131.17127316792804,
+          "top": 6.9909255305926,
+          "right": 168.31225547790527,
+          "bottom": 21.84865881204605
+        },
+        "badgeColour": "rgb(217, 231, 213)"
+      },
+      "after": {
+        "title": {
+          "left": 6.971589763959249,
+          "top": 6.596237695217132,
+          "right": 86.85511512756347,
+          "bottom": 26.10259459018707
+        },
+        "seasons": {
+          "left": 92.14527994791666,
+          "top": 3.175,
+          "right": 131.83277994791666,
+          "bottom": 17.80149739583333
+        },
+        "badge": {
+          "left": 131.17127316792804,
+          "top": 6.9909255305926,
+          "right": 168.31225547790527,
+          "bottom": 21.84865881204605
+        },
+        "badgeColour": "rgb(244, 247, 237)"
+      },
+      "circle": {
+        "left": 105.09332682291665,
+        "top": -29.63333333333333,
+        "right": 184.46832682291665,
+        "bottom": 49.74166666666666
+      },
+      "circleGapPx": -57.43750000000002,
+      "preferredCircleGapPx": 20,
+      "minimumTitleGapPx": 20,
+      "collisionShiftPx": 77.44317626953128,
+      "titleGapMm": 5.290164820353198,
+      "shiftLeftMm": -2.1249348958333343,
+      "seasonToBadgeGapMm": 10.880941136678047,
+      "headerBottomMm": 32.80833333333333
+    },
+    {
+      "key": "florence_fennel",
+      "slug": "florence_fennel",
+      "unit": "metric",
+      "folio": 92,
+      "sourcePdf": "output/pdf/book-preparation/bookvault/metric/vegetable_florence_fennel.pdf",
+      "sourceSha256": "6c5a3946ddad5ba145003175732e708540f6600ad51daea4c2ccbaf69c73b27a",
+      "beforeHeader": null,
+      "afterHeader": null,
+      "html": "docs/publication/vegetable-header-review/florence_fennel-metric.html",
+      "title": "Florence Fennel.",
+      "headerText": "Stalks & Shoots\nFlorence Fennel.\nDIFFICULTY\nMedium\n3/5\nHARVEST SEASONS\nSummer / Autumn",
+      "paper": "rgb(241, 246, 242)",
+      "before": {
+        "title": {
+          "left": 6.971589763959249,
+          "top": 6.595939445495604,
+          "right": 85.97257048288981,
+          "bottom": 26.04058135747909
+        },
+        "seasons": {
+          "left": 90.02034505208333,
+          "top": 3.175,
+          "right": 129.70784505208331,
+          "bottom": 17.80149739583333
+        },
+        "badge": {
+          "left": 131.17127316792804,
+          "top": 6.9909255305926,
+          "right": 168.31225547790527,
+          "bottom": 21.84865881204605
+        },
+        "badgeColour": "rgb(217, 232, 223)"
+      },
+      "after": {
+        "title": {
+          "left": 6.971589763959249,
+          "top": 6.595939445495604,
+          "right": 85.97257048288981,
+          "bottom": 26.04058135747909
+        },
+        "seasons": {
+          "left": 91.26057942708333,
+          "top": 3.175,
+          "right": 130.94807942708331,
+          "bottom": 17.80149739583333
+        },
+        "badge": {
+          "left": 131.17127316792804,
+          "top": 6.9909255305926,
+          "right": 168.31225547790527,
+          "bottom": 21.84865881204605
+        },
+        "badgeColour": "rgb(241, 246, 242)"
+      },
+      "circle": {
+        "left": 105.09332682291665,
+        "top": -29.63333333333333,
+        "right": 184.46832682291665,
+        "bottom": 49.74166666666666
+      },
+      "circleGapPx": -54.093750000000014,
+      "preferredCircleGapPx": 20,
+      "minimumTitleGapPx": 20,
+      "collisionShiftPx": 74.10757446289068,
+      "titleGapMm": 5.288008944193521,
+      "shiftLeftMm": -1.240234375,
+      "seasonToBadgeGapMm": 11.765641657511381,
+      "headerBottomMm": 32.80833333333333
+    }
+  ],
+  "bodyReflowed": false,
+  "canonicalJsonChanged": false,
+  "productionRendererChanged": false
+}

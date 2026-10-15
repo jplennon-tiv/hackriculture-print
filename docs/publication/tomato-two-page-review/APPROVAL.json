@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-15",
+  "approvedBy": "John Lennon",
+  "status": "approved_for_full_book_integration",
+  "statement": "These look good - approved. Please put all four two-page layouts into the full book, remove the highlights and show me a full preview with all the other recent changes included as well. Thanks.",
+  "scope": "Greenhouse and outdoor tomato two-page layouts and displayed wording in both units. Also authorises integration of all four approved two-page layouts and recent approved publication/back-cover copy into the full preview, with highlights removed and references refreshed.",
+  "pdfs": {
+    "imperial": {
+      "path": "output/pdf/tomato-two-page-trial/two-page-trials-imperial.pdf",
+      "sha256": "37351db6129af4819db0a393bc10e866c6a40faf9c407bba1f1c4f92b59db646"
+    },
+    "metric": {
+      "path": "output/pdf/tomato-two-page-trial/two-page-trials-metric.pdf",
+      "sha256": "b7b442076e3c9879552ac1a415d9b3f93230dda31025afbeb471aa128417f4b0"
+    }
+  },
+  "inputs": {
+    "src/print/book/renderCompact.ts": "a866e30cd1c52a6d4001a81f4b215d8b0262965469b13a8497f8a10e78e0c2fb",
+    "src/print/book/compact.css": "2ef16183fadf28bd4ec0e009bdd8cca1f304e23cec955a05206463a88dff488d",
+    "src/print/book/production.ts": "cf833a8f16ad9b3e3b866e3854b5b3743ba3d1eadd06b61a445e1a06e1e03087",
+    "src/print/book/production.css": "37104408aaa64738b6adc02ee71f10046b907bf569ca696166df5b7d0549a8c1",
+    "src/print/book/bookvault.css": "3dd00547266db33c5b458c7a1e4942513961d68773560677a47fe9a4b14d1960",
+    "src/print/book/workingCopy.ts": "d444420a669c29c10d5471430eb2a4e9fe16a37199702f17b2637925126994c4",
+    "src/print/book/tomato-two-page-trial/copy.json": "aae96bb7674e1c4f2e94a616df7e159235123eb03455aa373092591ab00b0645",
+    "src/print/book/tomato-two-page-trial/layout.mjs": "a40270e23a8cf8305fce24e2e5501e8c7443336f7185b7af085a671fd0b082ab",
+    "src/print/book/tomato-two-page-trial/trial.css": "377a685273b23c34ad1324765a7222b9f966668e3d6fa3bd6f93dca9ac919a5a",
+    "../hackriculture-data/vegetables/tomato_greenhouse/tomato_greenhouse.json": "4db2f7e1fc25d9a115ad47e82b1af03ca4eccb17d9d390e89f391b22f1a76670",
+    "../hackriculture-data/vegetables/tomato_outdoor/tomato_outdoor.json": "bd4444fba94162621ac0d9303a6d594867993850cca990b6427a6440c9abfe94"
+  },
+  "sourcePreservation": "Canonical gardening JSON remains unchanged.",
+  "removeHighlightsOnIntegration": true
+}

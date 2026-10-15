@@ -1,144 +1,125 @@
 # Current project handover
 
-Updated 15 October 2026 after John approved the publication/back-cover copy and requested a vegetable two-page layout investigation.
+Updated 15 October 2026 after integrating the approved vegetable headers and combined Guides/how-to page into the full preview.
 This document owns current scope, decisions and next actions. Read the root
 README, AGENTS and SHARED-DATA first. John’s latest instruction takes precedence.
 Approvals and dated reports are evidence, not instructions to restart work.
 
 ## Resume here
 
-John's latest request is to investigate the vegetable guides and propose a return
-to two facing pages. The [investigation](../publication/vegetable-two-page-review/INVESTIGATION.json)
-is complete; layout/copy changes have not been implemented. **40 guides have two
-pages; carrot, onions/shallots and both tomatoes have three**, in both saved unit
-editions. These are the same four exceptions in the 6 October compact production
-proofs, not a result of the recent navigation changes. The earlier all-crop
-two-page fitting pass was A4. The compact skill/contract subsequently allowed
-extra pages; John's new two-page recovery target now guides the proposed work.
+The [latest complete preview](../publication/whole-book-order-preview/REVIEW.html?revision=headers-opening#spread=5)
+now includes both newly approved changes. All 44 vegetable headers use the
+circle-anchored Harvest Seasons placement with 20 px clearance, moving right
+when the title needs space; Difficulty ovals match the page paper. The
+[header approval](../publication/vegetable-header-review/APPROVAL.json) retains
+its exact four-page references. Only headers were rendered; guide bodies and
+all two-page spreads remain intact. Both-unit measurements cover all 44 headers.
+Normal individual-guide exporter integration is still pending.
 
-Eight read-only live measurements reproduced the four exceptions in both units.
-The book renderer moves whole overflowing blocks and resets A4's alternative
-practical-column arrangement. Restoring measured arrangement choice saves about
-32 mm for onions and 13 mm for greenhouse tomato, but is insufficient alone.
-Onions has no dedicated compact text adjustments. Proposed first trials are
-carrot and onions: improve packing, then tighten repetition in source-linked
-book drafts while retaining useful advice, body type and instructional artwork.
-Show actual two-page PDFs before extending the approach. The ordinary compact
-export omits production-only copy adjustments; reconcile that route before using
-it to regenerate the collection. No guide/PDF/data changes were made in this investigation.
+The [approved combined Vegetable Guides/how-to](../publication/combined-guides-opening/APPROVAL.json)
+is installed at **right-hand page 9**, matching Troubles, facing blank 8.
+The first crop remains 10–11. The title and smaller H4 illustration sit above
+the stronger peach panel, with its centred orange heading, original explanations
+at 10.5 pt, clear native examples, and no Water stripe. Original JSON, artwork and
+frozen proofs are preserved. Contents and bookmarks now point to 9; every crop
+and later section keeps its existing folio. See the
+[integration evidence](../publication/whole-book-order-preview/integration-headers-opening-2026-10-15/README.md).
 
-John approved the combined **Growing guide · <crop>** headings and the
-crop-specific “See also” references on 15 October. The exact PDF and evidence
-are retained in [the approval reference](../publication/whole-book-order-preview/references/navigation-approved-2026-10-15/APPROVAL.json).
-The approved title/reference highlights are removed in this next pass.
+John approved **carrot, onions/shallots, greenhouse tomato and outdoor tomato**
+and requested all four in the full book, with review highlights removed and all
+other recent changes included. The [clean complete preview](../publication/whole-book-order-preview/REVIEW.html?revision=integrated-two-page)
+now contains **166 interior pages plus four cover leaves (170 PDF pages), imperial only**.
+All 44 vegetable guides occupy two facing pages. The original three-page versions
+and their four alignment blanks have been replaced; no full-catalogue export was run.
 
-John has now approved the technique heading treatment: shared green topic names
-and orange page qualifiers, on one line wherever they fit. Thirteen headings
-fit one line; plot location and both Beds and paths pages wrap. The four
-cultivation titles remain exactly as requested. The exact PDF and checks are
-preserved in [the heading approval](../publication/whole-book-order-preview/references/technique-headings-approved-2026-10-15/APPROVAL.json).
-Remove their temporary highlights on the next book-preview pass.
+The [carrot/onion approval](../publication/vegetable-two-page-review/APPROVAL.json)
+and [tomato approval](../publication/tomato-two-page-review/APPROVAL.json) bind the
+exact both-unit proofs and sources. Their native PDF pages are reused through the
+[approved-guide receipt](../publication/whole-book-order-preview/integration-2026-10-15/APPROVED-GUIDES.json).
+Body text sizes and leading, all pest/variety rows, drawings and measurements are
+retained. Trial reviews keep their historical highlights for comparison; the
+current full viewer and PDF have none. New folios are carrot **14–15**, onions
+**66–67**, greenhouse tomato **82–83**, outdoor tomato **84–85**.
 
-John approved the [publication and back-cover copy](../publication/publication-copy/REVIEW.html)
-and authorised its integration, keeping missing details as placeholders. This
-earlier integration request remains outstanding alongside the layout investigation.
-The wording is saved in the shared `publication.json` and `covers.json`,
-with [exact-byte backups and a receipt](../publication/publication-copy/SAVE-RECEIPT.json).
-It replaces placeholder prose with copyright wording, an AI-assisted artwork/design
-credit, a factual source note, a UK reader note and a 78-word blurb covering all
-three sections. Copyright year, imprint, ISBN, edition and publication year remain
-unresolved and must stay as placeholders. No new publication-page layout, B5 image edit
-or full-book assembly has been made. The complete book below is still the approved
-heading proof, without this new wording. Its old copy revision is intentional;
-refresh affected components/receipts through the normal guards before integration.
+John requires **original source JSON to remain preserved throughout output
+iterations**. Presentation edits remain in separate source-linked book files.
+He permits removing entries from the bottom of a table only if other adjustments
+cannot achieve a fit; that fallback was not needed. Canonical gardening records,
+shared book-copy JSON and approved trial sources remain unchanged during integration.
+Ordinary compact exports still need reconciliation with the approved print drafts
+before any future collection regeneration; do not silently replace this assembled proof.
 
-Consistent section labels and the edition statement on page 2 remain in place.
-They are not freshly approved by the heading decision. All 64 crop-specific
-destinations remain; eight crops have no links. Canonical gardening advice,
-artwork and page order are unchanged. Publication/back-cover wording is approved;
-its placement has not yet been checked.
+The approved **Growing guide · <crop>** titles, crop-specific “See also” references,
+consistent section labels, and flowing green/orange technique headings are retained.
+Their [navigation approval](../publication/whole-book-order-preview/references/navigation-approved-2026-10-15/APPROVAL.json)
+and [heading approval](../publication/whole-book-order-preview/references/technique-headings-approved-2026-10-15/APPROVAL.json)
+remain intact. Reference destinations retain their identities and literal crop
+mentions; folios are refreshed. Crops without relevant mentions retain no links.
 
-The latest [complete book preview](../publication/whole-book-order-preview/REVIEW.html?revision=flowing-headings#spread=80)
-now follows John’s requested sequence: cover, blank inside cover, title, copyright,
-blank, contents 1, contents 2, blank, Introduction — why grow your own, then
-Vegetable Guides and “Vegetable guides — how to use” facing at 8–9. The welcome
-page stays omitted. The full preview is **174 interior pages plus four
-cover leaves (178 PDF pages), imperial only**. It includes G2/B5, all 44 vegetable
-guides, 14 Troubles groups, seventeen approved additional pages and the index.
+The approved [publication and back-cover copy](../publication/publication-copy/README.md)
+is now integrated. Copyright year, imprint, ISBN, edition and publication year
+remain placeholders. The B5 original is intact; a separately recorded image edit
+clears its placeholder paragraph, with approved editable text placed above it.
+G2 front, B5 composition, price and barcode reservation remain. Production-grade
+editable cover reconstruction and exact page crops remain separate work.
 
-The contents preserve the agreed simple headings/lists, H1/H2 headers and H5/H6
-lower-page art. Their current PDF is reused in the assembly. Blank 3 restores
-the contents to a facing spread at 4–5. Blank 6 faces the retitled Introduction
-at 7; the Vegetable Guides opener is now on the left at 8, facing the key at 9. The welcome entry remains removed. The layout skills
-explicitly exclude contents and indexes; the book layout skill covers simple
-content pages and their facing spreads only. Other opening copy and section-opener
-designs remain for review. Do not regenerate merely to resume.
+The current opening sequence is cover, blank inside cover, title, copyright,
+blank, facing contents, blank, Introduction, blank, then the combined Vegetable
+Guides/how-to on the right. The welcome page stays omitted.
+The simple illustrated contents retain H1/H2 headers and H5/H6 lower artwork,
+with 80 refreshed destinations. The index retains 273 entries and 33 see references.
+[Preview notes and checks](../publication/whole-book-order-preview/README.md)
+record the exact assembly and visual coverage.
 
-The [preview notes](../publication/whole-book-order-preview/README.md) own the
-workflow and evidence. The preceding 174-page proofs (before welcome removal and before contents integration) and earlier
-176- and 170-page PDFs are retained for comparison.
-
-| Interior folios | Current placement |
+| Interior pages | Content |
 | --- | --- |
 | 1–2 | Title, publication details |
-| 3 | Blank placing the contents on a facing spread |
-| 4–5 | Illustrated two-page contents, facing |
-| 6 | Blank facing the Introduction |
-| 7 | Introduction — why grow your own |
-| 8–9 | Vegetable Guides intro / how to use, facing |
-| 10–105 | Vegetable guides; crop-alignment blanks at 17, 71, 89 and 93 |
-| 106–107 | Blank verso / Vegetable Troubles opener |
-| 108–152 | Troubles guides |
-| 153 | Growing Techniques opener |
-| 154–155 | Organic growing; plot location |
-| 156–157 | Beds and paths, facing |
-| 158–159 | Cultivation comparison; no-dig |
-| 160–161 | Digging and smothering, facing |
-| 162–163 | Compost, facing |
-| 164–166 | Rotation; sowing and planting; watering |
-| 167–169 | Greenhouses; growing options face at 168–169 |
-| 170–173 | Index |
-| 174 | End balancing blank |
+| 3 | Blank placing the contents on facing pages |
+| 4–5 | Illustrated contents, facing |
+| 6–7 | Blank / Introduction — why grow your own |
+| 8–9 | Blank / combined Vegetable Guides and how-to |
+| 10–97 | All 44 vegetable guides, two pages each |
+| 98–99 | Blank / Vegetable Troubles opener |
+| 100–144 | Troubles guides |
+| 145 | Growing Techniques opener |
+| 146–149 | Organic growing, plot location, Beds and paths |
+| 150–153 | Dig or No-Dig cultivation pages |
+| 154–155 | Compost spread |
+| 156–158 | Rotation; sowing and planting; watering |
+| 159–161 | Greenhouses |
+| 162–165 | Index |
+| 166 | End balancing blank |
 
-The latest request supersedes the earlier all-sections-recto preference for
-Vegetable Guides: it now opens verso at **8**, facing its how-to at **9**.
-Introduction **7**, Troubles **107** and Techniques **153** are recto. Crops
-still open verso. Blank interior folios are **3, 6, 17, 71, 89, 93, 106 and 174**;
-inside covers are also blank. PDF page = interior folio + 2. Moving the former
-page-9 blank to 6 preserves the first crop at 10–11 and the full guide collection.
+The combined Vegetable Guides/how-to is recto at 9, facing blank 8.
+Introduction 7, Troubles 99 and Techniques 145 are recto; all crops open verso.
+Interior blanks are **3, 6, 8, 98 and 166**. PDF page = interior folio + 2.
 
 ## Next work, in order
 
-1. Present the two-page recovery plan above. Implementation is proposed: pilot
-   carrot and onions, then both tomatoes, checking actual PDFs in both units.
-   If all four return to two pages, removing their four alignment blanks as well
-   saves eight interior pages (174 → 166), requiring fresh references and assembly.
-2. Complete the already-authorised placement of the approved copy into the publication page and an editable B5 back-cover
-   derivative, then update the complete preview and remove approved heading
-   highlights. Retain the selected G2 front and B5 composition. Welcome/author
-   source copy stays omitted from this book sequence. Keep copyright year,
-   imprint, ISBN and edition/publication details as placeholders, as requested.
-3. After decisions, prepare affected production proofs, settle the unit edition
-   and stock, refresh costs and derive the final cover wrap from verified
-   pagination and the supplier template. Do not repeat a full guide export
-   unless a required production change warrants it.
+1. John reviews the refreshed full-book preview. Both approved treatments are
+   integrated; retain all current pagination and the frozen approval references.
+2. Supply missing publication metadata when available. Keep placeholders until then.
+3. When production work is requested, reconcile approved print drafts with the
+   exporter, settle the unit edition and stock, refresh costs and derive the
+   final cover wrap from verified pagination and the supplier template.
+   Do not repeat a full guide export without a required production change.
 
 ## Components and approval status
 
 | Component | Current position |
 | --- | --- |
 | Format and guides | 185 × 240 mm Compact Book v1 approved through [frozen specimens and contract](../BOOK-PRINT-STYLE.md). All 44 crops and 14 Troubles groups / 220 conditions prepared in both units; full-collection approval remains separate. |
-| Covers | G2 selected; B5 preferred. New [78-word blurb](../publication/publication-copy/REVIEW.html) approved for integration; B5 raster unchanged. Editable lettering, exact page crops and production wrap pending. |
+| Covers | G2 selected; B5 preferred. Approved [78-word blurb](../publication/publication-copy/README.md) integrated as editable text in a separate B5 derivative; original intact. Remaining cover lettering, exact page crops and production wrap pending. |
 | Contents | Original compact source approved 7 October. [Simple two-page revision](../publication/contents-update/REVIEW.html) at 4–5 follows John’s latest correction: plain section titles/lists, no section numbers or subheadings; 80 destinations. H1/H2 headers and H5/H6 lower-page art now added at John’s request; notes/panels remain omitted. Plain baseline retained; both-unit PDFs checked; accepted for integration and now included in the full imperial preview. |
-| Guide key | [One page at 9](../publication/guide-key/REVIEW.html), titled “Vegetable guides / how to use”, facing the opener at 8. Both-unit PDFs refreshed; integrated into the imperial preview. All three explanations and nine instructional assets retained; H5 reduced, H6 omitted. Original approved two-page compact and A4 sources preserved. New copy/layout awaits review. |
-| Title and publication | Original [three-page proposal](../publication/vegetable-guru-opening-pages/REVIEW.html) preserved. Only title and publication are assembled now. New [publication prose](../publication/publication-copy/REVIEW.html) is approved, not yet integrated; metadata placeholders remain by request. Welcome/author page and H3/S1 placements are omitted at John’s request; their source copy and artwork remain intact. |
-| Section openers | Existing compositions now at 8, 107, 153; the first is verso to face its how-to, as requested. Opener designs remain for review. First now says Vegetable Guides; stable `opening:varieties` identity retained. No new artwork. |
+| Guide key | [Combined opener/how-to approved 15 October](../publication/combined-guides-opening/APPROVAL.json): right-hand page 9 facing blank 8, peach panel, original explanations and native examples; now integrated. The previous separate [one-page key](../publication/guide-key/REVIEW.html) remains as a source reference. Original compact and A4 sources preserved. |
+| Title and publication | Original [three-page proposal](../publication/vegetable-guru-opening-pages/REVIEW.html) preserved. Only title and publication are assembled now. New [publication prose](../publication/publication-copy/REVIEW.html) is approved and integrated; metadata placeholders remain by request. Welcome/author page and H3/S1 placements are omitted at John’s request; their source copy and artwork remain intact. |
+| Section openers | Full preview uses recto openers at 9, 99, 145. The approved combined Vegetable Guides/how-to page is integrated at 9; stable `opening:varieties` identity retained. Troubles and Techniques opener designs remain for review. No new artwork. |
 | Why Grow and twelve further techniques pages | [Thirteen-page collection](../publication/topic-pages/techniques-expansion/COLLECTION-APPROVAL.json) approved complete 12 October. Body text unchanged; the current book retitles Why Grow as Introduction — why grow your own, from the shared contents label. Frozen collection unchanged. |
-| Cultivation | [Four approved pages](../publication/topic-pages/cultivation-dig-no-dig/APPROVAL.json), now 158–161. Text and artwork unchanged. |
-| Index | [Four-page index approved 12 October](../publication/book-index/APPROVAL.json), with 273 entries and 33 see references. Numeric derivative now 170–173; frozen source retains historical T/C labels. |
+| Cultivation | [Four approved pages](../publication/topic-pages/cultivation-dig-no-dig/APPROVAL.json), now 150–153. Text and artwork unchanged. |
+| Index | [Four-page index approved 12 October](../publication/book-index/APPROVAL.json), with 273 entries and 33 see references. Numeric derivative now 162–165; frozen source retains historical T/C labels. |
 
 Focused collection numbers are not current book folios. Organic remains local
-page 2 in its approved collection and now starts technique content at 154.
+page 2 in its approved collection and now starts technique content at 146.
 Technique content totals sixteen pages plus its divider; Why Grow is the
 seventeenth approved additional page. The two-page compost construction pilot
 and side-by-side compost-image trial remain superseded/rejected. The crop-supports
@@ -181,8 +162,9 @@ PDF text or generated HTML as source copy. G2/B5 lettering remains raster.
 **The Vegetable Guru: Your at-a-glance growing companion** is a UK-focused,
 non-waterproof, full-colour paperback at **185 × 240 mm**, with the full collection.
 The existing compact design allows three/four-page crops to preserve useful
-content; John's latest request is a plan to recover two pages per vegetable,
-with any remaining content/space trade-offs made explicit. The working service
+content. John's approved carrot/onion and tomato two-page proofs are integrated, with unchanged body type and original source JSON.
+He permits dropping bottom table entries only when other adjustments cannot fit;
+no entries have been dropped in these four trials. The working service
 is **Bookvault** and cover price **£17.50**, customer shipping separate. Direct
 links to **The Great British Bookshop** are the selected launch route, with most
 buyers expected from John's Hackriculture YouTube channel. Shopify/native YouTube
@@ -201,6 +183,7 @@ The eight hero-style stock redraws and their [comparisons](../assets/vegetable-g
 remain saved. Current allocations: H1/H2 contents headers and H5/H6 lower-page
 art; H5 one-page guide key and H4 Vegetable Guides opener. H3 welcome and S1 author
 remain in retained source proposals, omitted from the current assembly.
+The integrated combined opener retains H4 and omits H5.
 John accepted the illustrated contents for integration. Other proposed placements
 are not approved merely because their source style is accepted. S2 remains an
 alternative.
@@ -260,36 +243,21 @@ new no-dig bed's starting compost layer.
 
 ## Prepared evidence and remaining limits
 
-The [publication copy checks](../publication/publication-copy/CHECKS.json) record
-validation of all eight shared documents, all eight new prose paragraphs in the
-editorial viewer, desktop/mobile overflow checks and the unchanged full-book PDF.
-Two documents were saved with verified exact-byte backups. This is copy-only
-evidence; fit in the final publication page and B5 cover remains to be checked
-when the reviewed wording is placed.
+The [current assembly checks](../publication/whole-book-order-preview/CHECKS.json),
+[navigation checks](../publication/whole-book-order-preview/NAVIGATION-PDF-CHECKS.json)
+and [visual receipt](../publication/whole-book-order-preview/VISUAL-REVIEW.json)
+bind the exact current PDF and check coverage. The 133 guide pages include eight
+pages from the four approved trials; all guide body text is compared with its
+actual source PDF. The remaining approved topic bodies are checked with only the
+previously approved heading substitutions. Contents and guide key were refreshed
+and checked in both units. Current page references, PDF links, typography and
+source preservation checks are recorded in the receipts; full assembly is imperial only.
 
-The [current checks](../publication/whole-book-order-preview/CHECKS.json) and
-[visual receipt](../publication/whole-book-order-preview/VISUAL-REVIEW.json)
-record 137 reused guide pages, 165 common footers, 64 related-reading links and
-sixteen shared-topic heading revisions at 154–169. Each has a 31.5 pt green topic
-name and 22.5 pt orange qualifier, sharing a line wherever space permits, with
-a common running title within its set.
-The edition is stated once on publication page 2. All 174 interior bodies were
-compared with the approved navigation PDF, allowing only the recorded topic
-headings/running labels and edition statement. The 80 contents destinations, 273 index entries, 488
-numeric references and 371 index links retain their positions. All 178 leaves
-were rendered. This pass visually checks all sixteen technique pages in their
-eight facing spreads and the highlighted cultivation spread in the browser.
-The former 4 mm spacing reduction on page 161 is no longer needed and has
-been removed; body type and artwork are unchanged. The approved preceding
-crop-header review is retained; this is not a fresh visual review of every guide.
-
-Both-unit contents passed text/fit/font/image checks. Their body renders are
-pixel-identical between units; metric footers were inspected. The guide-key PDFs were refreshed for right-hand page 9 and checked in both units.
-Seven navigation tests passed; 95 protected source files and all eight current
-copy inputs were verified during assembly. The heading pass added no shared JSON or
-artwork changes; original gardening text is preserved. The earlier Introduction
-label change remains recorded in its own save receipt.
-No guide re-export or canonical gardening edit was performed. New copy/layout is not self-approved.
+[Publication integration](../publication/publication-copy/integration/CHECKS.json)
+records B5 copy placement and the preserved original artwork. The initial
+[copy transaction](../publication/publication-copy/SAVE-RECEIPT.json) retains its
+exact-byte backups. The integration adds no shared JSON edits or new guide exports.
+Fit checks and visual inspection are evidence, not fresh user approval.
 
 The [technical review pack](../publication/book-preparation/REVIEW.html) retains
 **earlier 148-page** imperial/metric KDP and Bookvault production drafts, plus
@@ -302,7 +270,7 @@ coverage; dated fields are not a work queue.
 The current complete PDF is a screen derivative. Final print-resolution output,
 metric integration, small icon detail, stock/colour/PDF preflight, final cover
 wrap and physical proof remain outstanding. The saved 148-page costs and spine
-template are **historical inputs**, not estimates for 174 pages. Its 8 mm label
+template are **historical inputs**, not estimates for 166 pages. Its 8 mm label
 versus 8.436 mm filename discrepancy remains unresolved; derive a fresh final
 wrap after stock/pagination decisions. [Publication research](../publication/README.md)
 is dated evidence and needs rechecking when that production work is requested.
@@ -313,7 +281,8 @@ Use [SETUP](../../SETUP.md) and relevant [DEVELOPMENT](../../DEVELOPMENT.md) sec
 Admin saves and browser PDF generation need `start.command` on loopback; offline
 assembly/checking does not. Check process ownership and availability instead of
 assuming a server or browser tab survives this session. Do not expose credentials
-or stop a user-owned server. The requested sequence is retained: Vegetable Guides at verso 8 faces its key at 9; Troubles 107 and Techniques 153 remain recto.
+or stop a user-owned server. The full preview uses blank 8 / combined Vegetable
+Guides and how-to at recto 9. Troubles 99 and Techniques 145 remain recto.
 
 Write Like John, Gardening Research, the topic-composition workflow, JSON copy
 migration, record-level saves and the [Mushroom schema fix](../publication/mushroom-schema-fix/CHECKS.json)

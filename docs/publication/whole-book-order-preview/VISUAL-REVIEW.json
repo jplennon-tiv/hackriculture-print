@@ -1,122 +1,96 @@
 {
   "date": "2026-10-15",
-  "status": "Technique headings flow on one line wherever they fit; all sixteen pages visually checked and ready for review",
-  "pdfSha256": "fbba42a4a962c54c64db79be7f9a975175199c26d0b10b40c167992260a30e1b",
+  "status": "Changed pages visually inspected; complete assembly ready for John, not self-approved",
+  "pdfSha256": "39d437e8571d92aca177c31a2da4e2f371dada19a5f66465e4826678ac747cd6",
   "render": {
-    "pages": 178,
+    "pages": 170,
     "dpi": 110,
     "format": "JPEG",
     "nativeTextRetainedInPdf": true
   },
   "coverage": {
-    "techniqueFolios": [
-      154,
-      155,
-      156,
-      157,
-      158,
-      159,
-      160,
-      161,
-      162,
-      163,
-      164,
-      165,
-      166,
-      167,
-      168,
-      169
+    "headerFolios": [
+      10,
+      12,
+      14,
+      16,
+      18,
+      20,
+      22,
+      24,
+      26,
+      28,
+      30,
+      32,
+      34,
+      36,
+      38,
+      40,
+      42,
+      44,
+      46,
+      48,
+      50,
+      52,
+      54,
+      56,
+      58,
+      60,
+      62,
+      64,
+      66,
+      68,
+      70,
+      72,
+      74,
+      76,
+      78,
+      80,
+      82,
+      84,
+      86,
+      88,
+      90,
+      92,
+      94,
+      96
     ],
-    "actualFacingPairs": [
+    "headerSheets": [
+      "docs/publication/whole-book-order-preview/integration-headers-opening-2026-10-15/headers-1.jpg",
+      "docs/publication/whole-book-order-preview/integration-headers-opening-2026-10-15/headers-2.jpg",
+      "docs/publication/whole-book-order-preview/integration-headers-opening-2026-10-15/headers-3.jpg",
+      "docs/publication/whole-book-order-preview/integration-headers-opening-2026-10-15/headers-4.jpg"
+    ],
+    "fullSpreadInspection": [
       [
-        154,
-        155
+        4,
+        5
       ],
       [
-        156,
-        157
+        8,
+        9
       ],
       [
-        158,
-        159
+        40,
+        41
       ],
       [
-        160,
-        161
-      ],
-      [
-        162,
-        163
-      ],
-      [
-        164,
-        165
-      ],
-      [
-        166,
-        167
-      ],
-      [
-        168,
-        169
+        66,
+        67
       ]
     ],
-    "browserHighlightedSpread": [
-      158,
-      159
-    ],
-    "allSavedGuidesVisuallyRereviewed": false,
-    "approvedPriorNavigationReview": "references/navigation-approved-2026-10-15/VISUAL-REVIEW.json"
+    "approvedComparisons": [
+      "docs/publication/vegetable-header-review/APPROVAL.json",
+      "docs/publication/combined-guides-opening/APPROVAL.json"
+    ]
   },
   "findings": [
-    "All sixteen technique headings retain the 31.5 pt green topic name and 22.5 pt orange qualifier. Thirteen fit on one line; only folios 155, 156 and 157 require two. Qualifiers stay together as readable phrases, and measured widths confirm each wrap is necessary.",
-    "All four cultivation running titles and exact requested heading words retained. All four display headings now fit on one line.",
-    "All eight final technique spreads inspected. No observed clipped headings, missing artwork, body overlaps or footer collisions.",
-    "The previous 4 mm spacing reduction on page 161 has been removed: its one-line heading allows the original block spacing. Body type, complete text and artwork retained.",
-    "All 174 interior page bodies compared with the approved navigation PDF, allowing only the recorded topic heading/running-label changes and the retained edition statement. No gardening text changes detected.",
-    "All 64 related-reading destinations and their per-page crop-mention evidence match the approved version. The 64 navigation links and 371 index links reopen correctly.",
-    "All 44 approved combined crop headings and four named third-page headings retained, with their highlights removed. Earlier navigation labels and edition placement remain in place without highlights; this does not confer approval.",
-    "Viewer marks only the display heading on each technique page. Highlight toggle, next-change wrapping, page navigation and all 178 thumbnails checked.",
-    "Page count and order remain 174 interior pages plus four cover leaves. Current preview is imperial only; frozen sources, shared JSON and ordinary guide exporters remain unchanged."
+    "All 44 headers keep readable season/title spacing and page-paper difficulty ovals, including long and two-line crop names.",
+    "No header clipping or visible join at the retained introduction; Kale title and introduction inspected at full spread size.",
+    "Combined Guides/how-to matches the approved peach panel with clear examples and no Water stripe; right-hand page 9 faces blank 8.",
+    "Contents remain a matching facing pair at 4\u20135; both Guides destinations now show 9.",
+    "Onions/shallots and Kale retain complete two-page layouts; every other guide body is source/text checked, not claimed as newly reviewed in full."
   ],
-  "headingMeasurements": {
-    "firstLinePt": 31.5,
-    "qualifierPt": 22.5,
-    "firstColour": "#173e2c",
-    "qualifierColour": "#a44007",
-    "minimumBodyToSourceNoteMm": 5.870442708333333,
-    "minimumBodyToComponentFooterMm": 3.5594726562499996,
-    "singleLineFolios": [
-      154,
-      158,
-      159,
-      160,
-      161,
-      162,
-      163,
-      164,
-      165,
-      166,
-      167,
-      168,
-      169
-    ],
-    "twoLineFolios": [
-      155,
-      156,
-      157
-    ],
-    "forcedLineBreaks": false
-  },
-  "tests": {
-    "focusedNavigationTests": 7,
-    "failed": 0
-  },
-  "protectedSourcesRechecked": 95,
-  "currentSharedCopyInputsVerified": 8,
-  "sharedCopyEdits": "None.",
-  "browserChecks": "BROWSER-CHECKS.json",
-  "sequenceChecks": "SEQUENCE-CHECKS.json",
-  "navigationChecks": "NAVIGATION-PDF-CHECKS.json",
-  "approval": "John welcomed the shared topic hierarchy and requested removal of unnecessary line breaks while retaining the colour change. The current compact heading flow implements that correction and awaits review. Earlier navigation labels and edition placement remain pending review."
+  "sourceJsonUnchanged": true,
+  "highlights": false
 }

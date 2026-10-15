@@ -23,7 +23,7 @@ For drafting or rewriting prose in John's voice, use
 the personal skill built from his three DIY Home Insulation books. It covers
 sentences through chapters, including composition from notes/data, using correct
 British English while preserving meaning. The handover records its use and
-the current opening-copy review; new book copy still needs John's review.
+the current copy approvals; new book copy still needs John's review.
 
 [Gardening Research](/Users/johnlennon/.codex/skills/gardening-research/SKILL.md)
 is installed for practical summaries: exact canonical JSON first, John's own book
@@ -48,12 +48,17 @@ in this and future sessions. Its maintained source is shared across the data,
 print, website and video projects.
 
 The [whole-book order preview](docs/publication/whole-book-order-preview/REVIEW.html)
-is the latest combined review: 174 interior pages in the revised section order plus G2/B5 covers,
-including all approved additional pages, current contents and updated index.
+is the latest combined review: 166 interior pages in the revised section order plus G2/B5 covers,
+including all four approved two-page vegetable layouts, all recent heading/navigation
+changes, approved publication and back-cover copy, current contents and updated index.
+All review highlights are removed; the original gardening JSON is unchanged.
 Its opening sequence is title, copyright, blank 3, facing contents 4–5,
-blank 6, Introduction 7, and Vegetable Guides/how-to facing at 8–9. The welcome
+blank 6, Introduction 7, blank 8 and the combined Vegetable Guides/how-to at right-hand page 9. The welcome
 page is omitted. Troubles and Growing Techniques retain right-hand starts;
 see the [preview notes](docs/publication/whole-book-order-preview/README.md).
+The [approved combined Vegetable Guides/how-to page](docs/publication/combined-guides-opening/APPROVAL.json):
+blank 8 / combined right-hand page 9. It and the approved vegetable-header
+treatment are now integrated into the full preview.
 The earlier
 [technical review pack](docs/publication/book-preparation/REVIEW.html) retains
 both-unit production drafts with older openings. The current title is **The Vegetable Guru** /
@@ -63,7 +68,7 @@ the back. [Cover ideas and preference](docs/publication/vegetable-guru-back-coll
 retain the dark-green, angled-snippet direction. Cover C guides colour and
 illustration style only. John approved the compact contents/how-to on 7 October;
 the current whole-book preview uses the accepted illustrated two-page contents
-at 4–5 and H5 on the one-page guide key at 9, facing Vegetable Guides at 8. Production integration remains pending. Find exact sources and approvals in the
+at 4–5 and the approved combined H4 Guides/how-to page at 9. Production preparation remains pending. Find exact sources and approvals in the
 [asset registry](docs/assets/README.md).
 
 For the local app, run `zsh start.command` and open <http://127.0.0.1:5173>.

@@ -1,0 +1,522 @@
+{
+  "status": "unapproved tomato two-page trial",
+  "copyBasis": "Exact compact production text. Original canonical JSON is preserved. Repeated care warnings stay in the facing Key risks and the complete pest table.",
+  "crops": {
+    "tomato_greenhouse": {
+      "imperial": [
+        {
+          "selector": ".soil li",
+          "index": 0,
+          "expected": "Use fertile, well-drained border soil enriched with compost, or suitable pots and growing bags with fresh peat-free compost.",
+          "proposed": "Use fertile, well-drained border soil with compost, or suitable pots/growbags of fresh peat-free compost.",
+          "reason": "Tighter wording retains the original practical advice and qualifications."
+        },
+        {
+          "selector": ".soil li",
+          "index": 1,
+          "expected": "Avoid waterlogging and stale humid air. Containers need closer watering and feeding attention than a well-prepared border.",
+          "proposed": "Avoid waterlogging and stale, humid air. Containers need closer watering and feeding than a well-prepared border.",
+          "reason": "Tighter wording retains the original practical advice and qualifications."
+        },
+        {
+          "selector": ".planting p",
+          "index": 0,
+          "expected": "Sow in trays or small pots. Keep compost moist, not wet; prick out and pot on as needed. Bright light gives stout seedlings.",
+          "proposed": "Sow in trays or small pots; keep compost moist, not wet. Prick out and pot on as needed. Bright light gives stout seedlings.",
+          "reason": "Tighter wording retains the original practical advice and qualifications."
+        },
+        {
+          "selector": ".planting p",
+          "index": 1,
+          "expected": "Once the greenhouse is warm, plant well-rooted plants in pots, growbags or beds. Water first, set slightly deeper and support cordons with canes or string.",
+          "proposed": "In a warm greenhouse, water well-rooted plants before setting slightly deeper in pots, growbags or beds. Support cordons with canes or string.",
+          "reason": "Tighter wording retains the original practical advice and qualifications."
+        },
+        {
+          "selector": ".planting p",
+          "index": 2,
+          "expected": "For unheated cover, sow around March in gentle warmth near 68°F. Earlier heated-house crops need reliable warmth and bright light through winter.",
+          "proposed": "For unheated cover, sow around March in gentle warmth near 68°F. Earlier heated crops need reliable warmth and bright winter light.",
+          "reason": "Tighter wording retains the original practical advice and qualifications."
+        },
+        {
+          "selector": ".care li",
+          "index": 0,
+          "expected": "Tie cordons loosely and remove young side shoots; take yellow lower leaves sparingly. Stop two leaves above the final truss at the chosen height or near season’s end. Keep healthy leaves to feed and shade fruit. Bush and semi-determinate types need their own pruning regime.",
+          "proposed": "Tie cordons loosely; remove young side shoots. Take yellow lower leaves sparingly; keep healthy leaves to feed and shade fruit. Stop two leaves above the final truss at the chosen height or near season’s end. Bush and semi-determinate pruning differs.",
+          "reason": "Tighter wording retains the original practical advice and qualifications."
+        },
+        {
+          "selector": ".care li",
+          "index": 1,
+          "expected": "Water roots steadily; feed organically at the product rate as fruit develops. Ventilate in heat and tap flowering trusses gently. Adjust autumn watering to growth; dry-to-wet swings encourage splitting and blossom-end rot.",
+          "proposed": "Water roots steadily; feed organically at the product rate as fruit develops. Ventilate in heat and gently tap flowering trusses. Match autumn watering to growth.",
+          "reason": "Steady watering and autumn adjustment retained; splitting and blossom-end-rot warnings remain in Key risks and the pest table."
+        },
+        {
+          "selector": ".tips p",
+          "index": 0,
+          "expected": "Check leaf undersides often so whitefly can be managed while numbers are still low.",
+          "proposed": "Check leaf undersides often; manage whitefly while numbers are low.",
+          "reason": "Tighter wording retains the original practical advice and qualifications."
+        },
+        {
+          "selector": ".tips p",
+          "index": 1,
+          "expected": "Avoid high-potash overfeeding: balanced nutrition matters as much as the amount supplied.",
+          "proposed": "Avoid excess high-potash feed: nutrient balance matters as much as quantity.",
+          "reason": "Tighter wording retains the original practical advice and qualifications."
+        },
+        {
+          "selector": ".pests tbody td",
+          "index": 2,
+          "expected": "White flies, sticky leaves and sooty mould.",
+          "proposed": "White flies; sticky leaves and sooty mould.",
+          "reason": "Shorter table wording; the diagnostic signs and complete organic control remain."
+        },
+        {
+          "selector": ".pests tbody td",
+          "index": 5,
+          "expected": "Keep root moisture even, especially as fruit swells.",
+          "proposed": "Keep roots evenly moist, especially as fruit swells.",
+          "reason": "Shorter table wording; the diagnostic signs and complete organic control remain."
+        },
+        {
+          "selector": ".pests tbody td",
+          "index": 9,
+          "expected": "Remove infected leaves; ventilate and avoid wet foliage.",
+          "proposed": "Remove infected leaves; ventilate; keep foliage dry.",
+          "reason": "Shorter table wording; the diagnostic signs and complete organic control remain."
+        },
+        {
+          "selector": ".pests tbody td",
+          "index": 10,
+          "expected": "Colonies gather on young growth.",
+          "proposed": "Colonies on young growth.",
+          "reason": "Shorter table wording; the diagnostic signs and complete organic control remain."
+        },
+        {
+          "selector": ".pests tbody td",
+          "index": 11,
+          "expected": "Tolerate light colonies; squash damaging ones and favour predators.",
+          "proposed": "Tolerate light colonies; squash damaging ones; encourage predators.",
+          "reason": "Shorter table wording; the diagnostic signs and complete organic control remain."
+        },
+        {
+          "selector": ".pests tbody td",
+          "index": 13,
+          "expected": "Remove infected tissue; ventilate and clear dead material.",
+          "proposed": "Remove infected tissue and dead material; ventilate.",
+          "reason": "Shorter table wording; the diagnostic signs and complete organic control remain."
+        },
+        {
+          "selector": ".pests tbody td",
+          "index": 15,
+          "expected": "Water steadily, ventilate in heat and gently tap trusses.",
+          "proposed": "Water steadily; ventilate in heat; gently tap trusses.",
+          "reason": "Shorter table wording; the diagnostic signs and complete organic control remain."
+        },
+        {
+          "selector": ".pests tbody td",
+          "index": 16,
+          "expected": "Mottled, distorted leaves; stunted plants.",
+          "proposed": "Leaves mottled and distorted; plants stunted.",
+          "reason": "Shorter table wording; the diagnostic signs and complete organic control remain."
+        },
+        {
+          "selector": ".pests tbody td",
+          "index": 17,
+          "expected": "Remove affected plants; clean hands/tools and monitor aphids.",
+          "proposed": "Remove affected plants; clean hands/tools; monitor aphids.",
+          "reason": "Shorter table wording; the diagnostic signs and complete organic control remain."
+        }
+      ],
+      "metric": [
+        {
+          "selector": ".soil li",
+          "index": 0,
+          "expected": "Use fertile, well-drained border soil enriched with compost, or suitable pots and growing bags with fresh peat-free compost.",
+          "proposed": "Use fertile, well-drained border soil with compost, or suitable pots/growbags of fresh peat-free compost.",
+          "reason": "Tighter wording retains the original practical advice and qualifications."
+        },
+        {
+          "selector": ".soil li",
+          "index": 1,
+          "expected": "Avoid waterlogging and stale humid air. Containers need closer watering and feeding attention than a well-prepared border.",
+          "proposed": "Avoid waterlogging and stale, humid air. Containers need closer watering and feeding than a well-prepared border.",
+          "reason": "Tighter wording retains the original practical advice and qualifications."
+        },
+        {
+          "selector": ".planting p",
+          "index": 0,
+          "expected": "Sow in trays or small pots. Keep compost moist, not wet; prick out and pot on as needed. Bright light gives stout seedlings.",
+          "proposed": "Sow in trays or small pots; keep compost moist, not wet. Prick out and pot on as needed. Bright light gives stout seedlings.",
+          "reason": "Tighter wording retains the original practical advice and qualifications."
+        },
+        {
+          "selector": ".planting p",
+          "index": 1,
+          "expected": "Once the greenhouse is warm, plant well-rooted plants in pots, growbags or beds. Water first, set slightly deeper and support cordons with canes or string.",
+          "proposed": "In a warm greenhouse, water well-rooted plants before setting slightly deeper in pots, growbags or beds. Support cordons with canes or string.",
+          "reason": "Tighter wording retains the original practical advice and qualifications."
+        },
+        {
+          "selector": ".planting p",
+          "index": 2,
+          "expected": "For unheated cover, sow around March in gentle warmth near 20°C. Earlier heated-house crops need reliable warmth and bright light through winter.",
+          "proposed": "For unheated cover, sow around March in gentle warmth near 20°C. Earlier heated crops need reliable warmth and bright winter light.",
+          "reason": "Tighter wording retains the original practical advice and qualifications."
+        },
+        {
+          "selector": ".care li",
+          "index": 0,
+          "expected": "Tie cordons loosely and remove young side shoots; take yellow lower leaves sparingly. Stop two leaves above the final truss at the chosen height or near season’s end. Keep healthy leaves to feed and shade fruit. Bush and semi-determinate types need their own pruning regime.",
+          "proposed": "Tie cordons loosely; remove young side shoots. Take yellow lower leaves sparingly; keep healthy leaves to feed and shade fruit. Stop two leaves above the final truss at the chosen height or near season’s end. Bush and semi-determinate pruning differs.",
+          "reason": "Tighter wording retains the original practical advice and qualifications."
+        },
+        {
+          "selector": ".care li",
+          "index": 1,
+          "expected": "Water roots steadily; feed organically at the product rate as fruit develops. Ventilate in heat and tap flowering trusses gently. Adjust autumn watering to growth; dry-to-wet swings encourage splitting and blossom-end rot.",
+          "proposed": "Water roots steadily; feed organically at the product rate as fruit develops. Ventilate in heat and gently tap flowering trusses. Match autumn watering to growth.",
+          "reason": "Steady watering and autumn adjustment retained; splitting and blossom-end-rot warnings remain in Key risks and the pest table."
+        },
+        {
+          "selector": ".tips p",
+          "index": 0,
+          "expected": "Check leaf undersides often so whitefly can be managed while numbers are still low.",
+          "proposed": "Check leaf undersides often; manage whitefly while numbers are low.",
+          "reason": "Tighter wording retains the original practical advice and qualifications."
+        },
+        {
+          "selector": ".tips p",
+          "index": 1,
+          "expected": "Avoid high-potash overfeeding: balanced nutrition matters as much as the amount supplied.",
+          "proposed": "Avoid excess high-potash feed: nutrient balance matters as much as quantity.",
+          "reason": "Tighter wording retains the original practical advice and qualifications."
+        },
+        {
+          "selector": ".pests tbody td",
+          "index": 2,
+          "expected": "White flies, sticky leaves and sooty mould.",
+          "proposed": "White flies; sticky leaves and sooty mould.",
+          "reason": "Shorter table wording; the diagnostic signs and complete organic control remain."
+        },
+        {
+          "selector": ".pests tbody td",
+          "index": 5,
+          "expected": "Keep root moisture even, especially as fruit swells.",
+          "proposed": "Keep roots evenly moist, especially as fruit swells.",
+          "reason": "Shorter table wording; the diagnostic signs and complete organic control remain."
+        },
+        {
+          "selector": ".pests tbody td",
+          "index": 9,
+          "expected": "Remove infected leaves; ventilate and avoid wet foliage.",
+          "proposed": "Remove infected leaves; ventilate; keep foliage dry.",
+          "reason": "Shorter table wording; the diagnostic signs and complete organic control remain."
+        },
+        {
+          "selector": ".pests tbody td",
+          "index": 10,
+          "expected": "Colonies gather on young growth.",
+          "proposed": "Colonies on young growth.",
+          "reason": "Shorter table wording; the diagnostic signs and complete organic control remain."
+        },
+        {
+          "selector": ".pests tbody td",
+          "index": 11,
+          "expected": "Tolerate light colonies; squash damaging ones and favour predators.",
+          "proposed": "Tolerate light colonies; squash damaging ones; encourage predators.",
+          "reason": "Shorter table wording; the diagnostic signs and complete organic control remain."
+        },
+        {
+          "selector": ".pests tbody td",
+          "index": 13,
+          "expected": "Remove infected tissue; ventilate and clear dead material.",
+          "proposed": "Remove infected tissue and dead material; ventilate.",
+          "reason": "Shorter table wording; the diagnostic signs and complete organic control remain."
+        },
+        {
+          "selector": ".pests tbody td",
+          "index": 15,
+          "expected": "Water steadily, ventilate in heat and gently tap trusses.",
+          "proposed": "Water steadily; ventilate in heat; gently tap trusses.",
+          "reason": "Shorter table wording; the diagnostic signs and complete organic control remain."
+        },
+        {
+          "selector": ".pests tbody td",
+          "index": 16,
+          "expected": "Mottled, distorted leaves; stunted plants.",
+          "proposed": "Leaves mottled and distorted; plants stunted.",
+          "reason": "Shorter table wording; the diagnostic signs and complete organic control remain."
+        },
+        {
+          "selector": ".pests tbody td",
+          "index": 17,
+          "expected": "Remove affected plants; clean hands/tools and monitor aphids.",
+          "proposed": "Remove affected plants; clean hands/tools; monitor aphids.",
+          "reason": "Shorter table wording; the diagnostic signs and complete organic control remain."
+        }
+      ]
+    },
+    "tomato_outdoor": {
+      "imperial": [
+        {
+          "selector": ".soil li",
+          "index": 0,
+          "expected": "Use fertile, well-drained soil enriched with mature compost in a sunny, sheltered spot. Improve heavy clay well before planting.",
+          "proposed": "Use fertile, well-drained soil with mature compost in a sunny, sheltered spot. Improve heavy clay well before planting.",
+          "reason": "Tighter wording retains the original practical advice and qualifications."
+        },
+        {
+          "selector": ".soil li",
+          "index": 1,
+          "expected": "Pots and growing bags suit patios or limited space, but need frequent watering and regular organic feeding.",
+          "proposed": "Pots/growbags suit patios or small spaces; water frequently and feed organically regularly.",
+          "reason": "Tighter wording retains the original practical advice and qualifications."
+        },
+        {
+          "selector": ".planting p",
+          "index": 0,
+          "expected": "Raise seedlings under cover in spring or buy sturdy pot-grown plants. Harden them off gradually before outdoor planting.",
+          "proposed": "Raise seedlings under cover in spring or buy sturdy pot-grown plants. Harden off gradually before planting outside.",
+          "reason": "Tighter wording retains the original practical advice and qualifications."
+        },
+        {
+          "selector": ".planting p",
+          "index": 1,
+          "expected": "Plant after frost risk in settled warm weather. Water first, preserve the rootball and set slightly deeper. Support tall types and tie in regularly.",
+          "proposed": "After frost risk, plant in settled warmth. Water first; keep the rootball intact and set slightly deeper. Support tall types; tie in regularly.",
+          "reason": "Tighter wording retains the original practical advice and qualifications."
+        },
+        {
+          "selector": ".planting p",
+          "index": 2,
+          "expected": "Bush and basket types: follow packet spacing and support heavy stems; no routine side-shooting.",
+          "proposed": "Bush/basket types: use packet spacing; support heavy stems. No routine side-shooting.",
+          "reason": "Tighter wording retains the original practical advice and qualifications."
+        },
+        {
+          "selector": ".planting p",
+          "index": 3,
+          "expected": "Sow under cover in March–early April. Harden off gradually and plant outside after frost risk in settled, warm late-spring weather.",
+          "proposed": "Sow under cover in March–early April; plant outside in settled, warm late-spring weather after frost risk.",
+          "reason": "Sowing and planting windows retained; gradual hardening-off remains beside the first planting drawing."
+        },
+        {
+          "selector": ".care li",
+          "index": 0,
+          "expected": "Support cordons; add ties about every 12 in. and remove side shoots around 1 in. long. Stop above the final useful truss by late summer. Remove yellow leaves sparingly; retain healthy foliage. Bush types normally need no side-shooting or stopping.",
+          "proposed": "Support cordons; tie about every 12 in. and remove side shoots around 1 in. long. Stop above the last useful truss by late summer. Remove yellow leaves sparingly; keep healthy foliage. Bushes normally need no side-shooting or stopping.",
+          "reason": "Tighter wording retains the original practical advice and qualifications."
+        },
+        {
+          "selector": ".care li",
+          "index": 1,
+          "expected": "Water roots steadily; feed organically as fruit develops. Keep low fruit off wet soil. Cloches reduce rain on leaves but need ventilation in warmth; fleece does not prevent blight. Check for blight and search beneath bush foliage for ripe or slug-damaged fruit.",
+          "proposed": "Water roots steadily; feed organically as fruit develops. Keep low fruit off wet soil. Ventilate cloches in warmth: they reduce rain on leaves; fleece does not prevent blight. Check for blight.",
+          "reason": "Bush-fruit searches are retained in Final tips; watering, feeding, cloche ventilation and the fleece/blight distinction remain here."
+        },
+        {
+          "selector": ".harvest li",
+          "index": 0,
+          "expected": "Pick fully coloured fruit gently, keeping stalks where possible and avoiding skin damage; use promptly. Tall types often crop August–October, bushes July–September. Bring sound unripe fruit indoors at season’s end. Ripen in shallow trays at room temperature, checking for rot; a nearby ripe apple or banana helps. Use a tested recipe for bottling or green-tomato chutney.",
+          "proposed": "Pick fully coloured fruit gently; keep stalks where possible, avoid skin damage and use promptly. Tall types often crop August–October; bushes July–September. Bring sound unripe fruit indoors at season’s end. Ripen in shallow trays at room temperature; check for rot. A ripe apple or banana nearby helps. Use tested bottling or green-tomato chutney recipes.",
+          "reason": "Tighter wording retains the original practical advice and qualifications."
+        },
+        {
+          "selector": ".tips p",
+          "index": 0,
+          "expected": "Check hidden fruit on bush plants regularly: ripe tomatoes and slug damage are easily missed.",
+          "proposed": "Check beneath bush foliage often: ripe fruit and slug damage are easily missed.",
+          "reason": "Tighter wording retains the original practical advice and qualifications."
+        },
+        {
+          "selector": ".pests tbody td",
+          "index": 3,
+          "expected": "Keep root moisture even, especially as fruit swells.",
+          "proposed": "Keep roots evenly moist, especially as fruit swells.",
+          "reason": "Shorter table wording; the diagnostic signs and complete organic control remain."
+        },
+        {
+          "selector": ".pests tbody td",
+          "index": 5,
+          "expected": "Keep fruit off soil; check and hand-pick around vulnerable plants.",
+          "proposed": "Keep fruit off soil; check and hand-pick near vulnerable plants.",
+          "reason": "Shorter table wording; the diagnostic signs and complete organic control remain."
+        },
+        {
+          "selector": ".pests tbody td",
+          "index": 8,
+          "expected": "Colonies gather on young growth.",
+          "proposed": "Colonies on young growth.",
+          "reason": "Shorter table wording; the diagnostic signs and complete organic control remain."
+        },
+        {
+          "selector": ".pests tbody td",
+          "index": 9,
+          "expected": "Tolerate light colonies; squash damaging ones and favour predators.",
+          "proposed": "Tolerate light colonies; squash damaging ones; encourage predators.",
+          "reason": "Shorter table wording; the diagnostic signs and complete organic control remain."
+        },
+        {
+          "selector": ".pests tbody td",
+          "index": 11,
+          "expected": "Remove infected tissue; ventilate and clear dead material.",
+          "proposed": "Remove infected tissue and dead material; ventilate.",
+          "reason": "Shorter table wording; the diagnostic signs and complete organic control remain."
+        },
+        {
+          "selector": ".pests tbody td",
+          "index": 12,
+          "expected": "Mottled, distorted leaves; stunted plants.",
+          "proposed": "Leaves mottled and distorted; plants stunted.",
+          "reason": "Shorter table wording; the diagnostic signs and complete organic control remain."
+        },
+        {
+          "selector": ".pests tbody td",
+          "index": 13,
+          "expected": "Remove affected plants; clean hands/tools and monitor aphids.",
+          "proposed": "Remove affected plants; clean hands/tools; monitor aphids.",
+          "reason": "Shorter table wording; the diagnostic signs and complete organic control remain."
+        },
+        {
+          "selector": ".pests tbody td",
+          "index": 15,
+          "expected": "Water steadily, ventilate in heat and gently tap trusses.",
+          "proposed": "Water steadily; ventilate in heat; gently tap trusses.",
+          "reason": "Shorter table wording; the diagnostic signs and complete organic control remain."
+        }
+      ],
+      "metric": [
+        {
+          "selector": ".soil li",
+          "index": 0,
+          "expected": "Use fertile, well-drained soil enriched with mature compost in a sunny, sheltered spot. Improve heavy clay well before planting.",
+          "proposed": "Use fertile, well-drained soil with mature compost in a sunny, sheltered spot. Improve heavy clay well before planting.",
+          "reason": "Tighter wording retains the original practical advice and qualifications."
+        },
+        {
+          "selector": ".soil li",
+          "index": 1,
+          "expected": "Pots and growing bags suit patios or limited space, but need frequent watering and regular organic feeding.",
+          "proposed": "Pots/growbags suit patios or small spaces; water frequently and feed organically regularly.",
+          "reason": "Tighter wording retains the original practical advice and qualifications."
+        },
+        {
+          "selector": ".planting p",
+          "index": 0,
+          "expected": "Raise seedlings under cover in spring or buy sturdy pot-grown plants. Harden them off gradually before outdoor planting.",
+          "proposed": "Raise seedlings under cover in spring or buy sturdy pot-grown plants. Harden off gradually before planting outside.",
+          "reason": "Tighter wording retains the original practical advice and qualifications."
+        },
+        {
+          "selector": ".planting p",
+          "index": 1,
+          "expected": "Plant after frost risk in settled warm weather. Water first, preserve the rootball and set slightly deeper. Support tall types and tie in regularly.",
+          "proposed": "After frost risk, plant in settled warmth. Water first; keep the rootball intact and set slightly deeper. Support tall types; tie in regularly.",
+          "reason": "Tighter wording retains the original practical advice and qualifications."
+        },
+        {
+          "selector": ".planting p",
+          "index": 2,
+          "expected": "Bush and basket types: follow packet spacing and support heavy stems; no routine side-shooting.",
+          "proposed": "Bush/basket types: use packet spacing; support heavy stems. No routine side-shooting.",
+          "reason": "Tighter wording retains the original practical advice and qualifications."
+        },
+        {
+          "selector": ".planting p",
+          "index": 3,
+          "expected": "Sow under cover in March–early April. Harden off gradually and plant outside after frost risk in settled, warm late-spring weather.",
+          "proposed": "Sow under cover in March–early April; plant outside in settled, warm late-spring weather after frost risk.",
+          "reason": "Sowing and planting windows retained; gradual hardening-off remains beside the first planting drawing."
+        },
+        {
+          "selector": ".care li",
+          "index": 0,
+          "expected": "Support cordons; add ties about every 30 cm and remove side shoots around 2.5 cm long. Stop above the final useful truss by late summer. Remove yellow leaves sparingly; retain healthy foliage. Bush types normally need no side-shooting or stopping.",
+          "proposed": "Support cordons; tie about every 30 cm and remove side shoots around 2.5 cm long. Stop above the last useful truss by late summer. Remove yellow leaves sparingly; keep healthy foliage. Bushes normally need no side-shooting or stopping.",
+          "reason": "Tighter wording retains the original practical advice and qualifications."
+        },
+        {
+          "selector": ".care li",
+          "index": 1,
+          "expected": "Water roots steadily; feed organically as fruit develops. Keep low fruit off wet soil. Cloches reduce rain on leaves but need ventilation in warmth; fleece does not prevent blight. Check for blight and search beneath bush foliage for ripe or slug-damaged fruit.",
+          "proposed": "Water roots steadily; feed organically as fruit develops. Keep low fruit off wet soil. Ventilate cloches in warmth: they reduce rain on leaves; fleece does not prevent blight. Check for blight.",
+          "reason": "Bush-fruit searches are retained in Final tips; watering, feeding, cloche ventilation and the fleece/blight distinction remain here."
+        },
+        {
+          "selector": ".harvest li",
+          "index": 0,
+          "expected": "Pick fully coloured fruit gently, keeping stalks where possible and avoiding skin damage; use promptly. Tall types often crop August–October, bushes July–September. Bring sound unripe fruit indoors at season’s end. Ripen in shallow trays at room temperature, checking for rot; a nearby ripe apple or banana helps. Use a tested recipe for bottling or green-tomato chutney.",
+          "proposed": "Pick fully coloured fruit gently; keep stalks where possible, avoid skin damage and use promptly. Tall types often crop August–October; bushes July–September. Bring sound unripe fruit indoors at season’s end. Ripen in shallow trays at room temperature; check for rot. A ripe apple or banana nearby helps. Use tested bottling or green-tomato chutney recipes.",
+          "reason": "Tighter wording retains the original practical advice and qualifications."
+        },
+        {
+          "selector": ".tips p",
+          "index": 0,
+          "expected": "Check hidden fruit on bush plants regularly: ripe tomatoes and slug damage are easily missed.",
+          "proposed": "Check beneath bush foliage often: ripe fruit and slug damage are easily missed.",
+          "reason": "Tighter wording retains the original practical advice and qualifications."
+        },
+        {
+          "selector": ".pests tbody td",
+          "index": 3,
+          "expected": "Keep root moisture even, especially as fruit swells.",
+          "proposed": "Keep roots evenly moist, especially as fruit swells.",
+          "reason": "Shorter table wording; the diagnostic signs and complete organic control remain."
+        },
+        {
+          "selector": ".pests tbody td",
+          "index": 5,
+          "expected": "Keep fruit off soil; check and hand-pick around vulnerable plants.",
+          "proposed": "Keep fruit off soil; check and hand-pick near vulnerable plants.",
+          "reason": "Shorter table wording; the diagnostic signs and complete organic control remain."
+        },
+        {
+          "selector": ".pests tbody td",
+          "index": 8,
+          "expected": "Colonies gather on young growth.",
+          "proposed": "Colonies on young growth.",
+          "reason": "Shorter table wording; the diagnostic signs and complete organic control remain."
+        },
+        {
+          "selector": ".pests tbody td",
+          "index": 9,
+          "expected": "Tolerate light colonies; squash damaging ones and favour predators.",
+          "proposed": "Tolerate light colonies; squash damaging ones; encourage predators.",
+          "reason": "Shorter table wording; the diagnostic signs and complete organic control remain."
+        },
+        {
+          "selector": ".pests tbody td",
+          "index": 11,
+          "expected": "Remove infected tissue; ventilate and clear dead material.",
+          "proposed": "Remove infected tissue and dead material; ventilate.",
+          "reason": "Shorter table wording; the diagnostic signs and complete organic control remain."
+        },
+        {
+          "selector": ".pests tbody td",
+          "index": 12,
+          "expected": "Mottled, distorted leaves; stunted plants.",
+          "proposed": "Leaves mottled and distorted; plants stunted.",
+          "reason": "Shorter table wording; the diagnostic signs and complete organic control remain."
+        },
+        {
+          "selector": ".pests tbody td",
+          "index": 13,
+          "expected": "Remove affected plants; clean hands/tools and monitor aphids.",
+          "proposed": "Remove affected plants; clean hands/tools; monitor aphids.",
+          "reason": "Shorter table wording; the diagnostic signs and complete organic control remain."
+        },
+        {
+          "selector": ".pests tbody td",
+          "index": 15,
+          "expected": "Water steadily, ventilate in heat and gently tap trusses.",
+          "proposed": "Water steadily; ventilate in heat; gently tap trusses.",
+          "reason": "Shorter table wording; the diagnostic signs and complete organic control remain."
+        }
+      ]
+    }
+  }
+}

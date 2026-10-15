@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-15",
+  "status": "review_ready_not_user_approved",
+  "pdfs": {
+    "imperial": {
+      "path": "output/pdf/tomato-two-page-trial/two-page-trials-imperial.pdf",
+      "sha256": "37351db6129af4819db0a393bc10e866c6a40faf9c407bba1f1c4f92b59db646"
+    },
+    "metric": {
+      "path": "output/pdf/tomato-two-page-trial/two-page-trials-metric.pdf",
+      "sha256": "b7b442076e3c9879552ac1a415d9b3f93230dda31025afbeb471aa128417f4b0"
+    }
+  },
+  "coverage": "All eight actual PDF pages inspected as four facing spreads in imperial and metric, with the current three-page book views and the Compact Book v1 practical-page reference. Highlighted browser view inspected.",
+  "findings": [
+    "Both opening-page bodies are unchanged; all five varieties per crop, Quick facts and Key risks retained.",
+    "All ten greenhouse and nine outdoor pest entries remain; problem names and symptoms now share a column, with organic controls in the second column.",
+    "Greenhouse practical text uses a wider left column beside planting; outdoor practical sections retain their order and equal columns.",
+    "No advice moved to another guide. Repeated greenhouse watering warnings remain in Key risks and the pest table; outdoor hardening-off remains beside the first drawing, and checks beneath bush foliage remain in Final tips.",
+    "Every numeric value in edited text, all planting measurements, images and crop-specific See also destinations retained.",
+    "Body font sizes and line spacing unchanged in every audited retained node. Both-unit footer clearances: greenhouse 9.81/3.26 mm; outdoor 9.81/11.22 mm.",
+    "No clipping, missing drawings, title collisions or footer overlaps observed. Highlights, four crop/unit views, both previous-layout comparisons and mobile horizontal scrolling checked."
+  ],
+  "tableRemovalFallback": {
+    "authorisation": "We can remove entries from the bottom of a table if we can't get a fit by other adjustments.",
+    "used": false,
+    "entriesRemoved": 0
+  },
+  "protectedInputs": {
+    "src/print/book/renderCompact.ts": "a866e30cd1c52a6d4001a81f4b215d8b0262965469b13a8497f8a10e78e0c2fb",
+    "src/print/book/compact.css": "2ef16183fadf28bd4ec0e009bdd8cca1f304e23cec955a05206463a88dff488d",
+    "src/print/book/production.ts": "cf833a8f16ad9b3e3b866e3854b5b3743ba3d1eadd06b61a445e1a06e1e03087",
+    "src/print/book/production.css": "37104408aaa64738b6adc02ee71f10046b907bf569ca696166df5b7d0549a8c1",
+    "src/print/book/bookvault.css": "3dd00547266db33c5b458c7a1e4942513961d68773560677a47fe9a4b14d1960",
+    "src/print/book/workingCopy.ts": "d444420a669c29c10d5471430eb2a4e9fe16a37199702f17b2637925126994c4",
+    "../hackriculture-data/vegetables/tomato_greenhouse/tomato_greenhouse.json": "4db2f7e1fc25d9a115ad47e82b1af03ca4eccb17d9d390e89f391b22f1a76670",
+    "../hackriculture-data/vegetables/tomato_outdoor/tomato_outdoor.json": "bd4444fba94162621ac0d9303a6d594867993850cca990b6427a6440c9abfe94",
+    "src/print/book/two-page-trial/copy.json": "e63cd916aac588b5c86bbb2fdf342a4f0efe04c79ecea22a094ae6a5a2411d4f",
+    "src/print/book/two-page-trial/layout.mjs": "4a5f0109a377eb9619ec068a82564e63d83bc4ad03f8ea1ee3e994ee761da332",
+    "src/print/book/two-page-trial/trial.css": "cc1f7e9430ff95e00b32f3279f547f72e802b15a62cbd4c76e6ffd9c00dc3c27",
+    "../hackriculture-data/vegetables/carrot/carrot.json": "c5f076beb6cfe55cc90f80a6bc4a5f9690a4a25358c4bb74085a68798cd3500e",
+    "../hackriculture-data/vegetables/onion_shallot/onion_shallot.json": "7970e902671fc38c9c7eb0465dd3ddf04e3ca35f45426091a1e92c0cbbc82cb3",
+    "output/pdf/vegetable-two-page-trial/two-page-trials-imperial.pdf": "093f6e23f49a50e31c73af9990bfb5d5d70ec5d4de5cf96739223c01d67aacce",
+    "output/pdf/vegetable-two-page-trial/two-page-trials-metric.pdf": "76bd97d00cf8e46636d1d6e2f5faa7f62b758cef88f2cb8ecf7e6e90b0e3510c",
+    "output/pdf/whole-book-order-preview/the-vegetable-guru-order-preview.pdf": "fbba42a4a962c54c64db79be7f9a975175199c26d0b10b40c167992260a30e1b"
+  },
+  "scopeLimits": [
+    "Full book not rebuilt; existing folios 86–87 and 90–91 and See also targets retained for this isolated review.",
+    "Canonical gardening JSON, normal export code, approved carrot/onion trial sources and frozen references unchanged.",
+    "Tomato layouts/copy remain proposals pending John’s review."
+  ]
+}

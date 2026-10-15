@@ -17,9 +17,10 @@ test('proposed pagination covers every page once and preserves crop spreads and 
   occupied.push(...e.additions.filter(d=>d.source!=='technique:why-grow').map(d=>d.startPage),...Array.from({length:e.index.physicalPages},(_,i)=>e.index.startPage+i));
   assert.deepEqual(occupied.sort((a,b)=>a-b),Array.from({length:174},(_,i)=>i+1));
   assert.equal(e.documents[0].startPage,10);assert.equal(e.index.startPage,170);assert.equal(e.techniquePages,16);
-  assert.deepEqual(e.sectionOpeners.map(x=>x.startPage),[8,107,153]);
+  assert.deepEqual(e.sectionOpeners.map(x=>x.startPage),[9,107,153]);
   assert.ok(e.sectionOpeners.filter(x=>x.source!=='opening:varieties').every(x=>x.startPage%2===1));
-  assert.equal(e.sectionOpeners[0].startPage%2,0);
+  assert.equal(e.sectionOpeners[0].startPage%2,1);
+  assert.ok(e.extraBlanks.some(x=>x.page===8));
   assert.ok(e.extraBlanks.some(x=>x.page===3));
   assert.ok(e.extraBlanks.some(x=>x.page===6));
   assert.ok(!e.extraBlanks.some(x=>x.page===9));
@@ -35,4 +36,23 @@ test('contents include every added destination once, and reject unresolved or du
  assert.throws(()=>renderUpdatedContents(bad,'imperial',plan,themes),/Missing or duplicate/);
  bad.contents.expanded.groups[0].entries[0].source=bad.contents.expanded.gettingStarted.entries[0].source;
  assert.throws(()=>validateBookLayout(bad),/unique stable/);
+});
+test('four approved two-page guides remove overflow and alignment leaves, preserving facing spreads',()=>{
+ const keys=['carrot','onion_shallot','tomato_greenhouse','tomato_outdoor'];
+ const replacements=Object.fromEntries(['imperial','metric'].map(u=>[u,Object.fromEntries(keys.map(key=>[key,{key,pdf:`${u}/${key}.pdf`,sha256:'fixture',physicalPages:2}]))]));
+ const before=structuredClone(base),{plan}=createContentsPlan(base,sources,replacements);
+ assert.deepEqual(base,before);
+ for(const [u,e] of Object.entries(plan.editions)){
+  assert.equal(e.plannedEvenTotal,166);assert.equal(e.index.startPage,162);
+  assert.deepEqual(e.sectionOpeners.map(d=>d.startPage),[9,99,145]);
+  const crops=e.documents.filter(d=>d.type==='vegetable');
+  assert.equal(crops.length,44);assert.ok(crops.every(d=>d.physicalPages===2&&d.startPage%2===0&&d.blankAfterPages===0));
+  assert.deepEqual(crops.filter(d=>keys.includes(d.key)).map(d=>d.startPage),[14,66,82,84]);
+  const occupied=new Set(plan.openingPlan.map(p=>p.page));
+  const put=p=>{assert.ok(!occupied.has(p),'Duplicate folio '+p);occupied.add(p);};
+  for(const d of e.documents){assert.equal(d.sourceStartPage,base.editions[u].documents.find(o=>o.id===d.id).startPage);for(let f=d.startPage;f<=d.endPage;f++)put(f);}
+  e.sectionOpeners.filter(d=>d.startPage>9).forEach(d=>put(d.startPage));e.extraBlanks.filter(d=>d.page>9).forEach(d=>put(d.page));
+  e.additions.filter(d=>d.startPage>9).forEach(d=>put(d.startPage));for(let f=e.index.startPage;f<=e.index.endPage;f++)put(f);
+  assert.deepEqual([...occupied].sort((a,b)=>a-b),Array.from({length:166},(_,i)=>i+1));
+ }
 });

@@ -92,19 +92,19 @@
   {
     "pdfPage": 10,
     "folio": 8,
-    "label": "Vegetable Guides",
-    "kind": "section-openers",
-    "source": "tmp/pdfs/whole-book-order-preview/section-openers.pdf",
-    "sourcePage": 1,
+    "label": "Blank — faces the combined vegetable guides opener",
+    "kind": "blank",
+    "source": null,
+    "sourcePage": null,
     "changes": [],
     "image": "pages/page-010.jpg"
   },
   {
     "pdfPage": 11,
     "folio": 9,
-    "label": "Vegetable guides — how to use",
-    "kind": "how-to",
-    "source": "output/pdf/guide-key/guide-key-imperial.pdf",
+    "label": "Vegetable Guides — how to use the guides",
+    "kind": "combined-guides-opening",
+    "source": "docs/publication/combined-guides-opening/references/approved-2026-10-15/opening.pdf",
     "sourcePage": 1,
     "changes": [],
     "image": "pages/page-011.jpg"
@@ -116,6 +116,7 @@
     "kind": "vegetable",
     "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_artichoke_jerusalem.pdf",
     "sourcePage": 1,
+    "headerSource": "tmp/pdfs/approved-book-headers/artichoke_jerusalem-imperial-after-header.pdf",
     "changes": [],
     "image": "pages/page-012.jpg"
   },
@@ -136,6 +137,7 @@
     "kind": "vegetable",
     "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_beetroot.pdf",
     "sourcePage": 1,
+    "headerSource": "tmp/pdfs/approved-book-headers/beetroot-imperial-after-header.pdf",
     "changes": [],
     "image": "pages/page-014.jpg"
   },
@@ -154,8 +156,9 @@
     "folio": 14,
     "label": "Carrot",
     "kind": "vegetable",
-    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_carrot.pdf",
+    "source": "output/pdf/approved-two-page-guides/imperial/carrot.pdf",
     "sourcePage": 1,
+    "headerSource": "tmp/pdfs/approved-book-headers/carrot-imperial-after-header.pdf",
     "changes": [],
     "image": "pages/page-016.jpg"
   },
@@ -164,7 +167,7 @@
     "folio": 15,
     "label": "Carrot — continued",
     "kind": "vegetable",
-    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_carrot.pdf",
+    "source": "output/pdf/approved-two-page-guides/imperial/carrot.pdf",
     "sourcePage": 2,
     "changes": [],
     "image": "pages/page-017.jpg"
@@ -172,39 +175,41 @@
   {
     "pdfPage": 18,
     "folio": 16,
-    "label": "Carrot — continued",
+    "label": "Celeriac",
     "kind": "vegetable",
-    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_carrot.pdf",
-    "sourcePage": 3,
+    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_celeriac.pdf",
+    "sourcePage": 1,
+    "headerSource": "tmp/pdfs/approved-book-headers/celeriac-imperial-after-header.pdf",
     "changes": [],
     "image": "pages/page-018.jpg"
   },
   {
     "pdfPage": 19,
     "folio": 17,
-    "label": "Blank — preserves facing crop pages",
-    "kind": "blank",
-    "source": null,
-    "sourcePage": null,
+    "label": "Celeriac — continued",
+    "kind": "vegetable",
+    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_celeriac.pdf",
+    "sourcePage": 2,
     "changes": [],
     "image": "pages/page-019.jpg"
   },
   {
     "pdfPage": 20,
     "folio": 18,
-    "label": "Celeriac",
+    "label": "Kohl Rabi",
     "kind": "vegetable",
-    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_celeriac.pdf",
+    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_kohl_rabi.pdf",
     "sourcePage": 1,
+    "headerSource": "tmp/pdfs/approved-book-headers/kohl_rabi-imperial-after-header.pdf",
     "changes": [],
     "image": "pages/page-020.jpg"
   },
   {
     "pdfPage": 21,
     "folio": 19,
-    "label": "Celeriac — continued",
+    "label": "Kohl Rabi — continued",
     "kind": "vegetable",
-    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_celeriac.pdf",
+    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_kohl_rabi.pdf",
     "sourcePage": 2,
     "changes": [],
     "image": "pages/page-021.jpg"
@@ -212,19 +217,20 @@
   {
     "pdfPage": 22,
     "folio": 20,
-    "label": "Kohl Rabi",
+    "label": "Parsnip",
     "kind": "vegetable",
-    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_kohl_rabi.pdf",
+    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_parsnip.pdf",
     "sourcePage": 1,
+    "headerSource": "tmp/pdfs/approved-book-headers/parsnip-imperial-after-header.pdf",
     "changes": [],
     "image": "pages/page-022.jpg"
   },
   {
     "pdfPage": 23,
     "folio": 21,
-    "label": "Kohl Rabi — continued",
+    "label": "Parsnip — continued",
     "kind": "vegetable",
-    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_kohl_rabi.pdf",
+    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_parsnip.pdf",
     "sourcePage": 2,
     "changes": [],
     "image": "pages/page-023.jpg"
@@ -232,19 +238,20 @@
   {
     "pdfPage": 24,
     "folio": 22,
-    "label": "Parsnip",
+    "label": "Potato",
     "kind": "vegetable",
-    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_parsnip.pdf",
+    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_potato.pdf",
     "sourcePage": 1,
+    "headerSource": "tmp/pdfs/approved-book-headers/potato-imperial-after-header.pdf",
     "changes": [],
     "image": "pages/page-024.jpg"
   },
   {
     "pdfPage": 25,
     "folio": 23,
-    "label": "Parsnip — continued",
+    "label": "Potato — continued",
     "kind": "vegetable",
-    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_parsnip.pdf",
+    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_potato.pdf",
     "sourcePage": 2,
     "changes": [],
     "image": "pages/page-025.jpg"
@@ -252,19 +259,20 @@
   {
     "pdfPage": 26,
     "folio": 24,
-    "label": "Potato",
+    "label": "Radish",
     "kind": "vegetable",
-    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_potato.pdf",
+    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_radish.pdf",
     "sourcePage": 1,
+    "headerSource": "tmp/pdfs/approved-book-headers/radish-imperial-after-header.pdf",
     "changes": [],
     "image": "pages/page-026.jpg"
   },
   {
     "pdfPage": 27,
     "folio": 25,
-    "label": "Potato — continued",
+    "label": "Radish — continued",
     "kind": "vegetable",
-    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_potato.pdf",
+    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_radish.pdf",
     "sourcePage": 2,
     "changes": [],
     "image": "pages/page-027.jpg"
@@ -272,19 +280,20 @@
   {
     "pdfPage": 28,
     "folio": 26,
-    "label": "Radish",
+    "label": "Salsify & Scorzonera",
     "kind": "vegetable",
-    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_radish.pdf",
+    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_salsify_scorzonera.pdf",
     "sourcePage": 1,
+    "headerSource": "tmp/pdfs/approved-book-headers/salsify_scorzonera-imperial-after-header.pdf",
     "changes": [],
     "image": "pages/page-028.jpg"
   },
   {
     "pdfPage": 29,
     "folio": 27,
-    "label": "Radish — continued",
+    "label": "Salsify & Scorzonera — continued",
     "kind": "vegetable",
-    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_radish.pdf",
+    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_salsify_scorzonera.pdf",
     "sourcePage": 2,
     "changes": [],
     "image": "pages/page-029.jpg"
@@ -292,19 +301,20 @@
   {
     "pdfPage": 30,
     "folio": 28,
-    "label": "Salsify & Scorzonera",
+    "label": "Swede",
     "kind": "vegetable",
-    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_salsify_scorzonera.pdf",
+    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_swede.pdf",
     "sourcePage": 1,
+    "headerSource": "tmp/pdfs/approved-book-headers/swede-imperial-after-header.pdf",
     "changes": [],
     "image": "pages/page-030.jpg"
   },
   {
     "pdfPage": 31,
     "folio": 29,
-    "label": "Salsify & Scorzonera — continued",
+    "label": "Swede — continued",
     "kind": "vegetable",
-    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_salsify_scorzonera.pdf",
+    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_swede.pdf",
     "sourcePage": 2,
     "changes": [],
     "image": "pages/page-031.jpg"
@@ -312,19 +322,20 @@
   {
     "pdfPage": 32,
     "folio": 30,
-    "label": "Swede",
+    "label": "Turnip",
     "kind": "vegetable",
-    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_swede.pdf",
+    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_turnip.pdf",
     "sourcePage": 1,
+    "headerSource": "tmp/pdfs/approved-book-headers/turnip-imperial-after-header.pdf",
     "changes": [],
     "image": "pages/page-032.jpg"
   },
   {
     "pdfPage": 33,
     "folio": 31,
-    "label": "Swede — continued",
+    "label": "Turnip — continued",
     "kind": "vegetable",
-    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_swede.pdf",
+    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_turnip.pdf",
     "sourcePage": 2,
     "changes": [],
     "image": "pages/page-033.jpg"
@@ -332,19 +343,20 @@
   {
     "pdfPage": 34,
     "folio": 32,
-    "label": "Turnip",
+    "label": "Broccoli",
     "kind": "vegetable",
-    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_turnip.pdf",
+    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_broccoli.pdf",
     "sourcePage": 1,
+    "headerSource": "tmp/pdfs/approved-book-headers/broccoli-imperial-after-header.pdf",
     "changes": [],
     "image": "pages/page-034.jpg"
   },
   {
     "pdfPage": 35,
     "folio": 33,
-    "label": "Turnip — continued",
+    "label": "Broccoli — continued",
     "kind": "vegetable",
-    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_turnip.pdf",
+    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_broccoli.pdf",
     "sourcePage": 2,
     "changes": [],
     "image": "pages/page-035.jpg"
@@ -352,19 +364,20 @@
   {
     "pdfPage": 36,
     "folio": 34,
-    "label": "Broccoli",
+    "label": "Brussels Sprouts",
     "kind": "vegetable",
-    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_broccoli.pdf",
+    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_brussels_sprouts.pdf",
     "sourcePage": 1,
+    "headerSource": "tmp/pdfs/approved-book-headers/brussels_sprouts-imperial-after-header.pdf",
     "changes": [],
     "image": "pages/page-036.jpg"
   },
   {
     "pdfPage": 37,
     "folio": 35,
-    "label": "Broccoli — continued",
+    "label": "Brussels Sprouts — continued",
     "kind": "vegetable",
-    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_broccoli.pdf",
+    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_brussels_sprouts.pdf",
     "sourcePage": 2,
     "changes": [],
     "image": "pages/page-037.jpg"
@@ -372,19 +385,20 @@
   {
     "pdfPage": 38,
     "folio": 36,
-    "label": "Brussels Sprouts",
+    "label": "Cabbage",
     "kind": "vegetable",
-    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_brussels_sprouts.pdf",
+    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_cabbage.pdf",
     "sourcePage": 1,
+    "headerSource": "tmp/pdfs/approved-book-headers/cabbage-imperial-after-header.pdf",
     "changes": [],
     "image": "pages/page-038.jpg"
   },
   {
     "pdfPage": 39,
     "folio": 37,
-    "label": "Brussels Sprouts — continued",
+    "label": "Cabbage — continued",
     "kind": "vegetable",
-    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_brussels_sprouts.pdf",
+    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_cabbage.pdf",
     "sourcePage": 2,
     "changes": [],
     "image": "pages/page-039.jpg"
@@ -392,19 +406,20 @@
   {
     "pdfPage": 40,
     "folio": 38,
-    "label": "Cabbage",
+    "label": "Cauliflower",
     "kind": "vegetable",
-    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_cabbage.pdf",
+    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_cauliflower.pdf",
     "sourcePage": 1,
+    "headerSource": "tmp/pdfs/approved-book-headers/cauliflower-imperial-after-header.pdf",
     "changes": [],
     "image": "pages/page-040.jpg"
   },
   {
     "pdfPage": 41,
     "folio": 39,
-    "label": "Cabbage — continued",
+    "label": "Cauliflower — continued",
     "kind": "vegetable",
-    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_cabbage.pdf",
+    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_cauliflower.pdf",
     "sourcePage": 2,
     "changes": [],
     "image": "pages/page-041.jpg"
@@ -412,19 +427,20 @@
   {
     "pdfPage": 42,
     "folio": 40,
-    "label": "Cauliflower",
+    "label": "Kale",
     "kind": "vegetable",
-    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_cauliflower.pdf",
+    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_kale.pdf",
     "sourcePage": 1,
+    "headerSource": "tmp/pdfs/approved-book-headers/kale-imperial-after-header.pdf",
     "changes": [],
     "image": "pages/page-042.jpg"
   },
   {
     "pdfPage": 43,
     "folio": 41,
-    "label": "Cauliflower — continued",
+    "label": "Kale — continued",
     "kind": "vegetable",
-    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_cauliflower.pdf",
+    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_kale.pdf",
     "sourcePage": 2,
     "changes": [],
     "image": "pages/page-043.jpg"
@@ -432,19 +448,20 @@
   {
     "pdfPage": 44,
     "folio": 42,
-    "label": "Kale",
+    "label": "Bean, Broad",
     "kind": "vegetable",
-    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_kale.pdf",
+    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_bean_broad.pdf",
     "sourcePage": 1,
+    "headerSource": "tmp/pdfs/approved-book-headers/bean_broad-imperial-after-header.pdf",
     "changes": [],
     "image": "pages/page-044.jpg"
   },
   {
     "pdfPage": 45,
     "folio": 43,
-    "label": "Kale — continued",
+    "label": "Bean, Broad — continued",
     "kind": "vegetable",
-    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_kale.pdf",
+    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_bean_broad.pdf",
     "sourcePage": 2,
     "changes": [],
     "image": "pages/page-045.jpg"
@@ -452,19 +469,20 @@
   {
     "pdfPage": 46,
     "folio": 44,
-    "label": "Bean, Broad",
+    "label": "Bean, French",
     "kind": "vegetable",
-    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_bean_broad.pdf",
+    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_bean_french.pdf",
     "sourcePage": 1,
+    "headerSource": "tmp/pdfs/approved-book-headers/bean_french-imperial-after-header.pdf",
     "changes": [],
     "image": "pages/page-046.jpg"
   },
   {
     "pdfPage": 47,
     "folio": 45,
-    "label": "Bean, Broad — continued",
+    "label": "Bean, French — continued",
     "kind": "vegetable",
-    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_bean_broad.pdf",
+    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_bean_french.pdf",
     "sourcePage": 2,
     "changes": [],
     "image": "pages/page-047.jpg"
@@ -472,19 +490,20 @@
   {
     "pdfPage": 48,
     "folio": 46,
-    "label": "Bean, French",
+    "label": "Bean, Runner",
     "kind": "vegetable",
-    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_bean_french.pdf",
+    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_bean_runner.pdf",
     "sourcePage": 1,
+    "headerSource": "tmp/pdfs/approved-book-headers/bean_runner-imperial-after-header.pdf",
     "changes": [],
     "image": "pages/page-048.jpg"
   },
   {
     "pdfPage": 49,
     "folio": 47,
-    "label": "Bean, French — continued",
+    "label": "Bean, Runner — continued",
     "kind": "vegetable",
-    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_bean_french.pdf",
+    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_bean_runner.pdf",
     "sourcePage": 2,
     "changes": [],
     "image": "pages/page-049.jpg"
@@ -492,19 +511,20 @@
   {
     "pdfPage": 50,
     "folio": 48,
-    "label": "Bean, Runner",
+    "label": "Pea",
     "kind": "vegetable",
-    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_bean_runner.pdf",
+    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_pea.pdf",
     "sourcePage": 1,
+    "headerSource": "tmp/pdfs/approved-book-headers/pea-imperial-after-header.pdf",
     "changes": [],
     "image": "pages/page-050.jpg"
   },
   {
     "pdfPage": 51,
     "folio": 49,
-    "label": "Bean, Runner — continued",
+    "label": "Pea — continued",
     "kind": "vegetable",
-    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_bean_runner.pdf",
+    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_pea.pdf",
     "sourcePage": 2,
     "changes": [],
     "image": "pages/page-051.jpg"
@@ -512,19 +532,20 @@
   {
     "pdfPage": 52,
     "folio": 50,
-    "label": "Pea",
+    "label": "Beet, Leaf",
     "kind": "vegetable",
-    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_pea.pdf",
+    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_beet_leaf.pdf",
     "sourcePage": 1,
+    "headerSource": "tmp/pdfs/approved-book-headers/beet_leaf-imperial-after-header.pdf",
     "changes": [],
     "image": "pages/page-052.jpg"
   },
   {
     "pdfPage": 53,
     "folio": 51,
-    "label": "Pea — continued",
+    "label": "Beet, Leaf — continued",
     "kind": "vegetable",
-    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_pea.pdf",
+    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_beet_leaf.pdf",
     "sourcePage": 2,
     "changes": [],
     "image": "pages/page-053.jpg"
@@ -532,19 +553,20 @@
   {
     "pdfPage": 54,
     "folio": 52,
-    "label": "Beet, Leaf",
+    "label": "Chicory",
     "kind": "vegetable",
-    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_beet_leaf.pdf",
+    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_chicory.pdf",
     "sourcePage": 1,
+    "headerSource": "tmp/pdfs/approved-book-headers/chicory-imperial-after-header.pdf",
     "changes": [],
     "image": "pages/page-054.jpg"
   },
   {
     "pdfPage": 55,
     "folio": 53,
-    "label": "Beet, Leaf — continued",
+    "label": "Chicory — continued",
     "kind": "vegetable",
-    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_beet_leaf.pdf",
+    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_chicory.pdf",
     "sourcePage": 2,
     "changes": [],
     "image": "pages/page-055.jpg"
@@ -552,19 +574,20 @@
   {
     "pdfPage": 56,
     "folio": 54,
-    "label": "Chicory",
+    "label": "Endive",
     "kind": "vegetable",
-    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_chicory.pdf",
+    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_endive.pdf",
     "sourcePage": 1,
+    "headerSource": "tmp/pdfs/approved-book-headers/endive-imperial-after-header.pdf",
     "changes": [],
     "image": "pages/page-056.jpg"
   },
   {
     "pdfPage": 57,
     "folio": 55,
-    "label": "Chicory — continued",
+    "label": "Endive — continued",
     "kind": "vegetable",
-    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_chicory.pdf",
+    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_endive.pdf",
     "sourcePage": 2,
     "changes": [],
     "image": "pages/page-057.jpg"
@@ -572,19 +595,20 @@
   {
     "pdfPage": 58,
     "folio": 56,
-    "label": "Endive",
+    "label": "Lettuce",
     "kind": "vegetable",
-    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_endive.pdf",
+    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_lettuce.pdf",
     "sourcePage": 1,
+    "headerSource": "tmp/pdfs/approved-book-headers/lettuce-imperial-after-header.pdf",
     "changes": [],
     "image": "pages/page-058.jpg"
   },
   {
     "pdfPage": 59,
     "folio": 57,
-    "label": "Endive — continued",
+    "label": "Lettuce — continued",
     "kind": "vegetable",
-    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_endive.pdf",
+    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_lettuce.pdf",
     "sourcePage": 2,
     "changes": [],
     "image": "pages/page-059.jpg"
@@ -592,19 +616,20 @@
   {
     "pdfPage": 60,
     "folio": 58,
-    "label": "Lettuce",
+    "label": "Oriental Leaves",
     "kind": "vegetable",
-    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_lettuce.pdf",
+    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_oriental_leaves.pdf",
     "sourcePage": 1,
+    "headerSource": "tmp/pdfs/approved-book-headers/oriental_leaves-imperial-after-header.pdf",
     "changes": [],
     "image": "pages/page-060.jpg"
   },
   {
     "pdfPage": 61,
     "folio": 59,
-    "label": "Lettuce — continued",
+    "label": "Oriental Leaves — continued",
     "kind": "vegetable",
-    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_lettuce.pdf",
+    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_oriental_leaves.pdf",
     "sourcePage": 2,
     "changes": [],
     "image": "pages/page-061.jpg"
@@ -612,19 +637,20 @@
   {
     "pdfPage": 62,
     "folio": 60,
-    "label": "Oriental Leaves",
+    "label": "Spinach",
     "kind": "vegetable",
-    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_oriental_leaves.pdf",
+    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_spinach.pdf",
     "sourcePage": 1,
+    "headerSource": "tmp/pdfs/approved-book-headers/spinach-imperial-after-header.pdf",
     "changes": [],
     "image": "pages/page-062.jpg"
   },
   {
     "pdfPage": 63,
     "folio": 61,
-    "label": "Oriental Leaves — continued",
+    "label": "Spinach — continued",
     "kind": "vegetable",
-    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_oriental_leaves.pdf",
+    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_spinach.pdf",
     "sourcePage": 2,
     "changes": [],
     "image": "pages/page-063.jpg"
@@ -632,19 +658,20 @@
   {
     "pdfPage": 64,
     "folio": 62,
-    "label": "Spinach",
+    "label": "Garlic",
     "kind": "vegetable",
-    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_spinach.pdf",
+    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_garlic.pdf",
     "sourcePage": 1,
+    "headerSource": "tmp/pdfs/approved-book-headers/garlic-imperial-after-header.pdf",
     "changes": [],
     "image": "pages/page-064.jpg"
   },
   {
     "pdfPage": 65,
     "folio": 63,
-    "label": "Spinach — continued",
+    "label": "Garlic — continued",
     "kind": "vegetable",
-    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_spinach.pdf",
+    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_garlic.pdf",
     "sourcePage": 2,
     "changes": [],
     "image": "pages/page-065.jpg"
@@ -652,19 +679,20 @@
   {
     "pdfPage": 66,
     "folio": 64,
-    "label": "Garlic",
+    "label": "Leek",
     "kind": "vegetable",
-    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_garlic.pdf",
+    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_leek.pdf",
     "sourcePage": 1,
+    "headerSource": "tmp/pdfs/approved-book-headers/leek-imperial-after-header.pdf",
     "changes": [],
     "image": "pages/page-066.jpg"
   },
   {
     "pdfPage": 67,
     "folio": 65,
-    "label": "Garlic — continued",
+    "label": "Leek — continued",
     "kind": "vegetable",
-    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_garlic.pdf",
+    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_leek.pdf",
     "sourcePage": 2,
     "changes": [],
     "image": "pages/page-067.jpg"
@@ -672,19 +700,20 @@
   {
     "pdfPage": 68,
     "folio": 66,
-    "label": "Leek",
+    "label": "Onions and Shallots",
     "kind": "vegetable",
-    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_leek.pdf",
+    "source": "output/pdf/approved-two-page-guides/imperial/onions_and_shallots.pdf",
     "sourcePage": 1,
+    "headerSource": "tmp/pdfs/approved-book-headers/onions_and_shallots-imperial-after-header.pdf",
     "changes": [],
     "image": "pages/page-068.jpg"
   },
   {
     "pdfPage": 69,
     "folio": 67,
-    "label": "Leek — continued",
+    "label": "Onions and Shallots — continued",
     "kind": "vegetable",
-    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_leek.pdf",
+    "source": "output/pdf/approved-two-page-guides/imperial/onions_and_shallots.pdf",
     "sourcePage": 2,
     "changes": [],
     "image": "pages/page-069.jpg"
@@ -692,19 +721,20 @@
   {
     "pdfPage": 70,
     "folio": 68,
-    "label": "Onions and Shallots",
+    "label": "Aubergine",
     "kind": "vegetable",
-    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_onions_and_shallots.pdf",
+    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_aubergine.pdf",
     "sourcePage": 1,
+    "headerSource": "tmp/pdfs/approved-book-headers/aubergine-imperial-after-header.pdf",
     "changes": [],
     "image": "pages/page-070.jpg"
   },
   {
     "pdfPage": 71,
     "folio": 69,
-    "label": "Onions and Shallots — continued",
+    "label": "Aubergine — continued",
     "kind": "vegetable",
-    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_onions_and_shallots.pdf",
+    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_aubergine.pdf",
     "sourcePage": 2,
     "changes": [],
     "image": "pages/page-071.jpg"
@@ -712,39 +742,41 @@
   {
     "pdfPage": 72,
     "folio": 70,
-    "label": "Onions and Shallots — continued",
+    "label": "Capsicum",
     "kind": "vegetable",
-    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_onions_and_shallots.pdf",
-    "sourcePage": 3,
+    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_capsicum.pdf",
+    "sourcePage": 1,
+    "headerSource": "tmp/pdfs/approved-book-headers/capsicum-imperial-after-header.pdf",
     "changes": [],
     "image": "pages/page-072.jpg"
   },
   {
     "pdfPage": 73,
     "folio": 71,
-    "label": "Blank — preserves facing crop pages",
-    "kind": "blank",
-    "source": null,
-    "sourcePage": null,
+    "label": "Capsicum — continued",
+    "kind": "vegetable",
+    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_capsicum.pdf",
+    "sourcePage": 2,
     "changes": [],
     "image": "pages/page-073.jpg"
   },
   {
     "pdfPage": 74,
     "folio": 72,
-    "label": "Aubergine",
+    "label": "Courgettes and Marrows",
     "kind": "vegetable",
-    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_aubergine.pdf",
+    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_courgettes_and_marrows.pdf",
     "sourcePage": 1,
+    "headerSource": "tmp/pdfs/approved-book-headers/courgettes_and_marrows-imperial-after-header.pdf",
     "changes": [],
     "image": "pages/page-074.jpg"
   },
   {
     "pdfPage": 75,
     "folio": 73,
-    "label": "Aubergine — continued",
+    "label": "Courgettes and Marrows — continued",
     "kind": "vegetable",
-    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_aubergine.pdf",
+    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_courgettes_and_marrows.pdf",
     "sourcePage": 2,
     "changes": [],
     "image": "pages/page-075.jpg"
@@ -752,19 +784,20 @@
   {
     "pdfPage": 76,
     "folio": 74,
-    "label": "Capsicum",
+    "label": "Cucumber, Greenhouse",
     "kind": "vegetable",
-    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_capsicum.pdf",
+    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_cucumber_greenhouse.pdf",
     "sourcePage": 1,
+    "headerSource": "tmp/pdfs/approved-book-headers/cucumber_greenhouse-imperial-after-header.pdf",
     "changes": [],
     "image": "pages/page-076.jpg"
   },
   {
     "pdfPage": 77,
     "folio": 75,
-    "label": "Capsicum — continued",
+    "label": "Cucumber, Greenhouse — continued",
     "kind": "vegetable",
-    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_capsicum.pdf",
+    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_cucumber_greenhouse.pdf",
     "sourcePage": 2,
     "changes": [],
     "image": "pages/page-077.jpg"
@@ -772,19 +805,20 @@
   {
     "pdfPage": 78,
     "folio": 76,
-    "label": "Courgettes and Marrows",
+    "label": "Cucumber, Outdoor",
     "kind": "vegetable",
-    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_courgettes_and_marrows.pdf",
+    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_cucumber_outdoor.pdf",
     "sourcePage": 1,
+    "headerSource": "tmp/pdfs/approved-book-headers/cucumber_outdoor-imperial-after-header.pdf",
     "changes": [],
     "image": "pages/page-078.jpg"
   },
   {
     "pdfPage": 79,
     "folio": 77,
-    "label": "Courgettes and Marrows — continued",
+    "label": "Cucumber, Outdoor — continued",
     "kind": "vegetable",
-    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_courgettes_and_marrows.pdf",
+    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_cucumber_outdoor.pdf",
     "sourcePage": 2,
     "changes": [],
     "image": "pages/page-079.jpg"
@@ -792,19 +826,20 @@
   {
     "pdfPage": 80,
     "folio": 78,
-    "label": "Cucumber, Greenhouse",
+    "label": "Squashes and Pumpkins",
     "kind": "vegetable",
-    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_cucumber_greenhouse.pdf",
+    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_squashes_and_pumpkins.pdf",
     "sourcePage": 1,
+    "headerSource": "tmp/pdfs/approved-book-headers/squashes_and_pumpkins-imperial-after-header.pdf",
     "changes": [],
     "image": "pages/page-080.jpg"
   },
   {
     "pdfPage": 81,
     "folio": 79,
-    "label": "Cucumber, Greenhouse — continued",
+    "label": "Squashes and Pumpkins — continued",
     "kind": "vegetable",
-    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_cucumber_greenhouse.pdf",
+    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_squashes_and_pumpkins.pdf",
     "sourcePage": 2,
     "changes": [],
     "image": "pages/page-081.jpg"
@@ -812,19 +847,20 @@
   {
     "pdfPage": 82,
     "folio": 80,
-    "label": "Cucumber, Outdoor",
+    "label": "Sweet Corn",
     "kind": "vegetable",
-    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_cucumber_outdoor.pdf",
+    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_sweet_corn.pdf",
     "sourcePage": 1,
+    "headerSource": "tmp/pdfs/approved-book-headers/sweet_corn-imperial-after-header.pdf",
     "changes": [],
     "image": "pages/page-082.jpg"
   },
   {
     "pdfPage": 83,
     "folio": 81,
-    "label": "Cucumber, Outdoor — continued",
+    "label": "Sweet Corn — continued",
     "kind": "vegetable",
-    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_cucumber_outdoor.pdf",
+    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_sweet_corn.pdf",
     "sourcePage": 2,
     "changes": [],
     "image": "pages/page-083.jpg"
@@ -832,19 +868,20 @@
   {
     "pdfPage": 84,
     "folio": 82,
-    "label": "Squashes and Pumpkins",
+    "label": "Tomato, Greenhouse",
     "kind": "vegetable",
-    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_squashes_and_pumpkins.pdf",
+    "source": "output/pdf/approved-two-page-guides/imperial/tomato_greenhouse.pdf",
     "sourcePage": 1,
+    "headerSource": "tmp/pdfs/approved-book-headers/tomato_greenhouse-imperial-after-header.pdf",
     "changes": [],
     "image": "pages/page-084.jpg"
   },
   {
     "pdfPage": 85,
     "folio": 83,
-    "label": "Squashes and Pumpkins — continued",
+    "label": "Tomato, Greenhouse — continued",
     "kind": "vegetable",
-    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_squashes_and_pumpkins.pdf",
+    "source": "output/pdf/approved-two-page-guides/imperial/tomato_greenhouse.pdf",
     "sourcePage": 2,
     "changes": [],
     "image": "pages/page-085.jpg"
@@ -852,19 +889,20 @@
   {
     "pdfPage": 86,
     "folio": 84,
-    "label": "Sweet Corn",
+    "label": "Tomato, Outdoor",
     "kind": "vegetable",
-    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_sweet_corn.pdf",
+    "source": "output/pdf/approved-two-page-guides/imperial/tomato_outdoor.pdf",
     "sourcePage": 1,
+    "headerSource": "tmp/pdfs/approved-book-headers/tomato_outdoor-imperial-after-header.pdf",
     "changes": [],
     "image": "pages/page-086.jpg"
   },
   {
     "pdfPage": 87,
     "folio": 85,
-    "label": "Sweet Corn — continued",
+    "label": "Tomato, Outdoor — continued",
     "kind": "vegetable",
-    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_sweet_corn.pdf",
+    "source": "output/pdf/approved-two-page-guides/imperial/tomato_outdoor.pdf",
     "sourcePage": 2,
     "changes": [],
     "image": "pages/page-087.jpg"
@@ -872,19 +910,20 @@
   {
     "pdfPage": 88,
     "folio": 86,
-    "label": "Tomato, Greenhouse",
+    "label": "Artichoke, Globe",
     "kind": "vegetable",
-    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_tomato_greenhouse.pdf",
+    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_artichoke_globe.pdf",
     "sourcePage": 1,
+    "headerSource": "tmp/pdfs/approved-book-headers/artichoke_globe-imperial-after-header.pdf",
     "changes": [],
     "image": "pages/page-088.jpg"
   },
   {
     "pdfPage": 89,
     "folio": 87,
-    "label": "Tomato, Greenhouse — continued",
+    "label": "Artichoke, Globe — continued",
     "kind": "vegetable",
-    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_tomato_greenhouse.pdf",
+    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_artichoke_globe.pdf",
     "sourcePage": 2,
     "changes": [],
     "image": "pages/page-089.jpg"
@@ -892,39 +931,41 @@
   {
     "pdfPage": 90,
     "folio": 88,
-    "label": "Tomato, Greenhouse — continued",
+    "label": "Asparagus",
     "kind": "vegetable",
-    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_tomato_greenhouse.pdf",
-    "sourcePage": 3,
+    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_asparagus.pdf",
+    "sourcePage": 1,
+    "headerSource": "tmp/pdfs/approved-book-headers/asparagus-imperial-after-header.pdf",
     "changes": [],
     "image": "pages/page-090.jpg"
   },
   {
     "pdfPage": 91,
     "folio": 89,
-    "label": "Blank — preserves facing crop pages",
-    "kind": "blank",
-    "source": null,
-    "sourcePage": null,
+    "label": "Asparagus — continued",
+    "kind": "vegetable",
+    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_asparagus.pdf",
+    "sourcePage": 2,
     "changes": [],
     "image": "pages/page-091.jpg"
   },
   {
     "pdfPage": 92,
     "folio": 90,
-    "label": "Tomato, Outdoor",
+    "label": "Celery",
     "kind": "vegetable",
-    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_tomato_outdoor.pdf",
+    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_celery.pdf",
     "sourcePage": 1,
+    "headerSource": "tmp/pdfs/approved-book-headers/celery-imperial-after-header.pdf",
     "changes": [],
     "image": "pages/page-092.jpg"
   },
   {
     "pdfPage": 93,
     "folio": 91,
-    "label": "Tomato, Outdoor — continued",
+    "label": "Celery — continued",
     "kind": "vegetable",
-    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_tomato_outdoor.pdf",
+    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_celery.pdf",
     "sourcePage": 2,
     "changes": [],
     "image": "pages/page-093.jpg"
@@ -932,39 +973,41 @@
   {
     "pdfPage": 94,
     "folio": 92,
-    "label": "Tomato, Outdoor — continued",
+    "label": "Florence Fennel",
     "kind": "vegetable",
-    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_tomato_outdoor.pdf",
-    "sourcePage": 3,
+    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_florence_fennel.pdf",
+    "sourcePage": 1,
+    "headerSource": "tmp/pdfs/approved-book-headers/florence_fennel-imperial-after-header.pdf",
     "changes": [],
     "image": "pages/page-094.jpg"
   },
   {
     "pdfPage": 95,
     "folio": 93,
-    "label": "Blank — preserves facing crop pages",
-    "kind": "blank",
-    "source": null,
-    "sourcePage": null,
+    "label": "Florence Fennel — continued",
+    "kind": "vegetable",
+    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_florence_fennel.pdf",
+    "sourcePage": 2,
     "changes": [],
     "image": "pages/page-095.jpg"
   },
   {
     "pdfPage": 96,
     "folio": 94,
-    "label": "Artichoke, Globe",
+    "label": "Rhubarb",
     "kind": "vegetable",
-    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_artichoke_globe.pdf",
+    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_rhubarb.pdf",
     "sourcePage": 1,
+    "headerSource": "tmp/pdfs/approved-book-headers/rhubarb-imperial-after-header.pdf",
     "changes": [],
     "image": "pages/page-096.jpg"
   },
   {
     "pdfPage": 97,
     "folio": 95,
-    "label": "Artichoke, Globe — continued",
+    "label": "Rhubarb — continued",
     "kind": "vegetable",
-    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_artichoke_globe.pdf",
+    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_rhubarb.pdf",
     "sourcePage": 2,
     "changes": [],
     "image": "pages/page-097.jpg"
@@ -972,19 +1015,20 @@
   {
     "pdfPage": 98,
     "folio": 96,
-    "label": "Asparagus",
+    "label": "Mushroom",
     "kind": "vegetable",
-    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_asparagus.pdf",
+    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_mushroom.pdf",
     "sourcePage": 1,
+    "headerSource": "tmp/pdfs/approved-book-headers/mushroom-imperial-after-header.pdf",
     "changes": [],
     "image": "pages/page-098.jpg"
   },
   {
     "pdfPage": 99,
     "folio": 97,
-    "label": "Asparagus — continued",
+    "label": "Mushroom — continued",
     "kind": "vegetable",
-    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_asparagus.pdf",
+    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_mushroom.pdf",
     "sourcePage": 2,
     "changes": [],
     "image": "pages/page-099.jpg"
@@ -992,29 +1036,29 @@
   {
     "pdfPage": 100,
     "folio": 98,
-    "label": "Celery",
-    "kind": "vegetable",
-    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_celery.pdf",
-    "sourcePage": 1,
+    "label": "Blank — faces vegetable troubles opener",
+    "kind": "blank",
+    "source": null,
+    "sourcePage": null,
     "changes": [],
     "image": "pages/page-100.jpg"
   },
   {
     "pdfPage": 101,
     "folio": 99,
-    "label": "Celery — continued",
-    "kind": "vegetable",
-    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_celery.pdf",
-    "sourcePage": 2,
+    "label": "Vegetable Troubles",
+    "kind": "section-openers",
+    "source": "tmp/pdfs/whole-book-order-preview/section-openers.pdf",
+    "sourcePage": 1,
     "changes": [],
     "image": "pages/page-101.jpg"
   },
   {
     "pdfPage": 102,
     "folio": 100,
-    "label": "Florence Fennel",
-    "kind": "vegetable",
-    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_florence_fennel.pdf",
+    "label": "Bean and Pea Troubles",
+    "kind": "trouble",
+    "source": "output/pdf/book-preparation/bookvault/imperial/trouble_bean_and_pea_troubles.pdf",
     "sourcePage": 1,
     "changes": [],
     "image": "pages/page-102.jpg"
@@ -1022,9 +1066,9 @@
   {
     "pdfPage": 103,
     "folio": 101,
-    "label": "Florence Fennel — continued",
-    "kind": "vegetable",
-    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_florence_fennel.pdf",
+    "label": "Bean and Pea Troubles — continued",
+    "kind": "trouble",
+    "source": "output/pdf/book-preparation/bookvault/imperial/trouble_bean_and_pea_troubles.pdf",
     "sourcePage": 2,
     "changes": [],
     "image": "pages/page-103.jpg"
@@ -1032,29 +1076,29 @@
   {
     "pdfPage": 104,
     "folio": 102,
-    "label": "Rhubarb",
-    "kind": "vegetable",
-    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_rhubarb.pdf",
-    "sourcePage": 1,
+    "label": "Bean and Pea Troubles — continued",
+    "kind": "trouble",
+    "source": "output/pdf/book-preparation/bookvault/imperial/trouble_bean_and_pea_troubles.pdf",
+    "sourcePage": 3,
     "changes": [],
     "image": "pages/page-104.jpg"
   },
   {
     "pdfPage": 105,
     "folio": 103,
-    "label": "Rhubarb — continued",
-    "kind": "vegetable",
-    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_rhubarb.pdf",
-    "sourcePage": 2,
+    "label": "Bean and Pea Troubles — continued",
+    "kind": "trouble",
+    "source": "output/pdf/book-preparation/bookvault/imperial/trouble_bean_and_pea_troubles.pdf",
+    "sourcePage": 4,
     "changes": [],
     "image": "pages/page-105.jpg"
   },
   {
     "pdfPage": 106,
     "folio": 104,
-    "label": "Mushroom",
-    "kind": "vegetable",
-    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_mushroom.pdf",
+    "label": "Beetroot Troubles",
+    "kind": "trouble",
+    "source": "output/pdf/book-preparation/bookvault/imperial/trouble_beetroot_troubles.pdf",
     "sourcePage": 1,
     "changes": [],
     "image": "pages/page-106.jpg"
@@ -1062,9 +1106,9 @@
   {
     "pdfPage": 107,
     "folio": 105,
-    "label": "Mushroom — continued",
-    "kind": "vegetable",
-    "source": "output/pdf/book-preparation/bookvault/imperial/vegetable_mushroom.pdf",
+    "label": "Beetroot Troubles — continued",
+    "kind": "trouble",
+    "source": "output/pdf/book-preparation/bookvault/imperial/trouble_beetroot_troubles.pdf",
     "sourcePage": 2,
     "changes": [],
     "image": "pages/page-107.jpg"
@@ -1072,19 +1116,19 @@
   {
     "pdfPage": 108,
     "folio": 106,
-    "label": "Blank — faces vegetable troubles opener",
-    "kind": "blank",
-    "source": null,
-    "sourcePage": null,
+    "label": "Brassica Troubles",
+    "kind": "trouble",
+    "source": "output/pdf/book-preparation/bookvault/imperial/trouble_brassica_troubles.pdf",
+    "sourcePage": 1,
     "changes": [],
     "image": "pages/page-108.jpg"
   },
   {
     "pdfPage": 109,
     "folio": 107,
-    "label": "Vegetable Troubles",
-    "kind": "section-openers",
-    "source": "tmp/pdfs/whole-book-order-preview/section-openers.pdf",
+    "label": "Brassica Troubles — continued",
+    "kind": "trouble",
+    "source": "output/pdf/book-preparation/bookvault/imperial/trouble_brassica_troubles.pdf",
     "sourcePage": 2,
     "changes": [],
     "image": "pages/page-109.jpg"
@@ -1092,49 +1136,49 @@
   {
     "pdfPage": 110,
     "folio": 108,
-    "label": "Bean and Pea Troubles",
+    "label": "Brassica Troubles — continued",
     "kind": "trouble",
-    "source": "output/pdf/book-preparation/bookvault/imperial/trouble_bean_and_pea_troubles.pdf",
-    "sourcePage": 1,
+    "source": "output/pdf/book-preparation/bookvault/imperial/trouble_brassica_troubles.pdf",
+    "sourcePage": 3,
     "changes": [],
     "image": "pages/page-110.jpg"
   },
   {
     "pdfPage": 111,
     "folio": 109,
-    "label": "Bean and Pea Troubles — continued",
+    "label": "Brassica Troubles — continued",
     "kind": "trouble",
-    "source": "output/pdf/book-preparation/bookvault/imperial/trouble_bean_and_pea_troubles.pdf",
-    "sourcePage": 2,
+    "source": "output/pdf/book-preparation/bookvault/imperial/trouble_brassica_troubles.pdf",
+    "sourcePage": 4,
     "changes": [],
     "image": "pages/page-111.jpg"
   },
   {
     "pdfPage": 112,
     "folio": 110,
-    "label": "Bean and Pea Troubles — continued",
+    "label": "Brassica Troubles — continued",
     "kind": "trouble",
-    "source": "output/pdf/book-preparation/bookvault/imperial/trouble_bean_and_pea_troubles.pdf",
-    "sourcePage": 3,
+    "source": "output/pdf/book-preparation/bookvault/imperial/trouble_brassica_troubles.pdf",
+    "sourcePage": 5,
     "changes": [],
     "image": "pages/page-112.jpg"
   },
   {
     "pdfPage": 113,
     "folio": 111,
-    "label": "Bean and Pea Troubles — continued",
+    "label": "Brassica Troubles — continued",
     "kind": "trouble",
-    "source": "output/pdf/book-preparation/bookvault/imperial/trouble_bean_and_pea_troubles.pdf",
-    "sourcePage": 4,
+    "source": "output/pdf/book-preparation/bookvault/imperial/trouble_brassica_troubles.pdf",
+    "sourcePage": 6,
     "changes": [],
     "image": "pages/page-113.jpg"
   },
   {
     "pdfPage": 114,
     "folio": 112,
-    "label": "Beetroot Troubles",
+    "label": "Carrot and Parsnip Troubles",
     "kind": "trouble",
-    "source": "output/pdf/book-preparation/bookvault/imperial/trouble_beetroot_troubles.pdf",
+    "source": "output/pdf/book-preparation/bookvault/imperial/trouble_carrot_and_parsnip_troubles.pdf",
     "sourcePage": 1,
     "changes": [],
     "image": "pages/page-114.jpg"
@@ -1142,9 +1186,9 @@
   {
     "pdfPage": 115,
     "folio": 113,
-    "label": "Beetroot Troubles — continued",
+    "label": "Carrot and Parsnip Troubles — continued",
     "kind": "trouble",
-    "source": "output/pdf/book-preparation/bookvault/imperial/trouble_beetroot_troubles.pdf",
+    "source": "output/pdf/book-preparation/bookvault/imperial/trouble_carrot_and_parsnip_troubles.pdf",
     "sourcePage": 2,
     "changes": [],
     "image": "pages/page-115.jpg"
@@ -1152,99 +1196,99 @@
   {
     "pdfPage": 116,
     "folio": 114,
-    "label": "Brassica Troubles",
+    "label": "Carrot and Parsnip Troubles — continued",
     "kind": "trouble",
-    "source": "output/pdf/book-preparation/bookvault/imperial/trouble_brassica_troubles.pdf",
-    "sourcePage": 1,
+    "source": "output/pdf/book-preparation/bookvault/imperial/trouble_carrot_and_parsnip_troubles.pdf",
+    "sourcePage": 3,
     "changes": [],
     "image": "pages/page-116.jpg"
   },
   {
     "pdfPage": 117,
     "folio": 115,
-    "label": "Brassica Troubles — continued",
+    "label": "Celery Troubles",
     "kind": "trouble",
-    "source": "output/pdf/book-preparation/bookvault/imperial/trouble_brassica_troubles.pdf",
-    "sourcePage": 2,
+    "source": "output/pdf/book-preparation/bookvault/imperial/trouble_celery_troubles.pdf",
+    "sourcePage": 1,
     "changes": [],
     "image": "pages/page-117.jpg"
   },
   {
     "pdfPage": 118,
     "folio": 116,
-    "label": "Brassica Troubles — continued",
+    "label": "Celery Troubles — continued",
     "kind": "trouble",
-    "source": "output/pdf/book-preparation/bookvault/imperial/trouble_brassica_troubles.pdf",
-    "sourcePage": 3,
+    "source": "output/pdf/book-preparation/bookvault/imperial/trouble_celery_troubles.pdf",
+    "sourcePage": 2,
     "changes": [],
     "image": "pages/page-118.jpg"
   },
   {
     "pdfPage": 119,
     "folio": 117,
-    "label": "Brassica Troubles — continued",
+    "label": "Cucurbit Troubles",
     "kind": "trouble",
-    "source": "output/pdf/book-preparation/bookvault/imperial/trouble_brassica_troubles.pdf",
-    "sourcePage": 4,
+    "source": "output/pdf/book-preparation/bookvault/imperial/trouble_cucurbit_troubles.pdf",
+    "sourcePage": 1,
     "changes": [],
     "image": "pages/page-119.jpg"
   },
   {
     "pdfPage": 120,
     "folio": 118,
-    "label": "Brassica Troubles — continued",
+    "label": "Cucurbit Troubles — continued",
     "kind": "trouble",
-    "source": "output/pdf/book-preparation/bookvault/imperial/trouble_brassica_troubles.pdf",
-    "sourcePage": 5,
+    "source": "output/pdf/book-preparation/bookvault/imperial/trouble_cucurbit_troubles.pdf",
+    "sourcePage": 2,
     "changes": [],
     "image": "pages/page-120.jpg"
   },
   {
     "pdfPage": 121,
     "folio": 119,
-    "label": "Brassica Troubles — continued",
+    "label": "Cucurbit Troubles — continued",
     "kind": "trouble",
-    "source": "output/pdf/book-preparation/bookvault/imperial/trouble_brassica_troubles.pdf",
-    "sourcePage": 6,
+    "source": "output/pdf/book-preparation/bookvault/imperial/trouble_cucurbit_troubles.pdf",
+    "sourcePage": 3,
     "changes": [],
     "image": "pages/page-121.jpg"
   },
   {
     "pdfPage": 122,
     "folio": 120,
-    "label": "Carrot and Parsnip Troubles",
+    "label": "Cucurbit Troubles — continued",
     "kind": "trouble",
-    "source": "output/pdf/book-preparation/bookvault/imperial/trouble_carrot_and_parsnip_troubles.pdf",
-    "sourcePage": 1,
+    "source": "output/pdf/book-preparation/bookvault/imperial/trouble_cucurbit_troubles.pdf",
+    "sourcePage": 4,
     "changes": [],
     "image": "pages/page-122.jpg"
   },
   {
     "pdfPage": 123,
     "folio": 121,
-    "label": "Carrot and Parsnip Troubles — continued",
+    "label": "Cucurbit Troubles — continued",
     "kind": "trouble",
-    "source": "output/pdf/book-preparation/bookvault/imperial/trouble_carrot_and_parsnip_troubles.pdf",
-    "sourcePage": 2,
+    "source": "output/pdf/book-preparation/bookvault/imperial/trouble_cucurbit_troubles.pdf",
+    "sourcePage": 5,
     "changes": [],
     "image": "pages/page-123.jpg"
   },
   {
     "pdfPage": 124,
     "folio": 122,
-    "label": "Carrot and Parsnip Troubles — continued",
+    "label": "Florence Fennel Troubles",
     "kind": "trouble",
-    "source": "output/pdf/book-preparation/bookvault/imperial/trouble_carrot_and_parsnip_troubles.pdf",
-    "sourcePage": 3,
+    "source": "output/pdf/book-preparation/bookvault/imperial/trouble_florence_fennel_troubles.pdf",
+    "sourcePage": 1,
     "changes": [],
     "image": "pages/page-124.jpg"
   },
   {
     "pdfPage": 125,
     "folio": 123,
-    "label": "Celery Troubles",
+    "label": "Lettuce Troubles",
     "kind": "trouble",
-    "source": "output/pdf/book-preparation/bookvault/imperial/trouble_celery_troubles.pdf",
+    "source": "output/pdf/book-preparation/bookvault/imperial/trouble_lettuce_troubles.pdf",
     "sourcePage": 1,
     "changes": [],
     "image": "pages/page-125.jpg"
@@ -1252,9 +1296,9 @@
   {
     "pdfPage": 126,
     "folio": 124,
-    "label": "Celery Troubles — continued",
+    "label": "Lettuce Troubles — continued",
     "kind": "trouble",
-    "source": "output/pdf/book-preparation/bookvault/imperial/trouble_celery_troubles.pdf",
+    "source": "output/pdf/book-preparation/bookvault/imperial/trouble_lettuce_troubles.pdf",
     "sourcePage": 2,
     "changes": [],
     "image": "pages/page-126.jpg"
@@ -1262,69 +1306,69 @@
   {
     "pdfPage": 127,
     "folio": 125,
-    "label": "Cucurbit Troubles",
+    "label": "Lettuce Troubles — continued",
     "kind": "trouble",
-    "source": "output/pdf/book-preparation/bookvault/imperial/trouble_cucurbit_troubles.pdf",
-    "sourcePage": 1,
+    "source": "output/pdf/book-preparation/bookvault/imperial/trouble_lettuce_troubles.pdf",
+    "sourcePage": 3,
     "changes": [],
     "image": "pages/page-127.jpg"
   },
   {
     "pdfPage": 128,
     "folio": 126,
-    "label": "Cucurbit Troubles — continued",
+    "label": "Onion & Leek Troubles",
     "kind": "trouble",
-    "source": "output/pdf/book-preparation/bookvault/imperial/trouble_cucurbit_troubles.pdf",
-    "sourcePage": 2,
+    "source": "output/pdf/book-preparation/bookvault/imperial/trouble_onion_and_leek_troubles.pdf",
+    "sourcePage": 1,
     "changes": [],
     "image": "pages/page-128.jpg"
   },
   {
     "pdfPage": 129,
     "folio": 127,
-    "label": "Cucurbit Troubles — continued",
+    "label": "Onion & Leek Troubles — continued",
     "kind": "trouble",
-    "source": "output/pdf/book-preparation/bookvault/imperial/trouble_cucurbit_troubles.pdf",
-    "sourcePage": 3,
+    "source": "output/pdf/book-preparation/bookvault/imperial/trouble_onion_and_leek_troubles.pdf",
+    "sourcePage": 2,
     "changes": [],
     "image": "pages/page-129.jpg"
   },
   {
     "pdfPage": 130,
     "folio": 128,
-    "label": "Cucurbit Troubles — continued",
+    "label": "Onion & Leek Troubles — continued",
     "kind": "trouble",
-    "source": "output/pdf/book-preparation/bookvault/imperial/trouble_cucurbit_troubles.pdf",
-    "sourcePage": 4,
+    "source": "output/pdf/book-preparation/bookvault/imperial/trouble_onion_and_leek_troubles.pdf",
+    "sourcePage": 3,
     "changes": [],
     "image": "pages/page-130.jpg"
   },
   {
     "pdfPage": 131,
     "folio": 129,
-    "label": "Cucurbit Troubles — continued",
+    "label": "Oriental Leaves Troubles",
     "kind": "trouble",
-    "source": "output/pdf/book-preparation/bookvault/imperial/trouble_cucurbit_troubles.pdf",
-    "sourcePage": 5,
+    "source": "output/pdf/book-preparation/bookvault/imperial/trouble_oriental_leaves_troubles.pdf",
+    "sourcePage": 1,
     "changes": [],
     "image": "pages/page-131.jpg"
   },
   {
     "pdfPage": 132,
     "folio": 130,
-    "label": "Florence Fennel Troubles",
+    "label": "Oriental Leaves Troubles — continued",
     "kind": "trouble",
-    "source": "output/pdf/book-preparation/bookvault/imperial/trouble_florence_fennel_troubles.pdf",
-    "sourcePage": 1,
+    "source": "output/pdf/book-preparation/bookvault/imperial/trouble_oriental_leaves_troubles.pdf",
+    "sourcePage": 2,
     "changes": [],
     "image": "pages/page-132.jpg"
   },
   {
     "pdfPage": 133,
     "folio": 131,
-    "label": "Lettuce Troubles",
+    "label": "Potato Troubles",
     "kind": "trouble",
-    "source": "output/pdf/book-preparation/bookvault/imperial/trouble_lettuce_troubles.pdf",
+    "source": "output/pdf/book-preparation/bookvault/imperial/trouble_potato_troubles.pdf",
     "sourcePage": 1,
     "changes": [],
     "image": "pages/page-133.jpg"
@@ -1332,9 +1376,9 @@
   {
     "pdfPage": 134,
     "folio": 132,
-    "label": "Lettuce Troubles — continued",
+    "label": "Potato Troubles — continued",
     "kind": "trouble",
-    "source": "output/pdf/book-preparation/bookvault/imperial/trouble_lettuce_troubles.pdf",
+    "source": "output/pdf/book-preparation/bookvault/imperial/trouble_potato_troubles.pdf",
     "sourcePage": 2,
     "changes": [],
     "image": "pages/page-134.jpg"
@@ -1342,9 +1386,9 @@
   {
     "pdfPage": 135,
     "folio": 133,
-    "label": "Lettuce Troubles — continued",
+    "label": "Potato Troubles — continued",
     "kind": "trouble",
-    "source": "output/pdf/book-preparation/bookvault/imperial/trouble_lettuce_troubles.pdf",
+    "source": "output/pdf/book-preparation/bookvault/imperial/trouble_potato_troubles.pdf",
     "sourcePage": 3,
     "changes": [],
     "image": "pages/page-135.jpg"
@@ -1352,119 +1396,119 @@
   {
     "pdfPage": 136,
     "folio": 134,
-    "label": "Onion & Leek Troubles",
+    "label": "Potato Troubles — continued",
     "kind": "trouble",
-    "source": "output/pdf/book-preparation/bookvault/imperial/trouble_onion_and_leek_troubles.pdf",
-    "sourcePage": 1,
+    "source": "output/pdf/book-preparation/bookvault/imperial/trouble_potato_troubles.pdf",
+    "sourcePage": 4,
     "changes": [],
     "image": "pages/page-136.jpg"
   },
   {
     "pdfPage": 137,
     "folio": 135,
-    "label": "Onion & Leek Troubles — continued",
+    "label": "Potato Troubles — continued",
     "kind": "trouble",
-    "source": "output/pdf/book-preparation/bookvault/imperial/trouble_onion_and_leek_troubles.pdf",
-    "sourcePage": 2,
+    "source": "output/pdf/book-preparation/bookvault/imperial/trouble_potato_troubles.pdf",
+    "sourcePage": 5,
     "changes": [],
     "image": "pages/page-137.jpg"
   },
   {
     "pdfPage": 138,
     "folio": 136,
-    "label": "Onion & Leek Troubles — continued",
+    "label": "Spinach Troubles",
     "kind": "trouble",
-    "source": "output/pdf/book-preparation/bookvault/imperial/trouble_onion_and_leek_troubles.pdf",
-    "sourcePage": 3,
+    "source": "output/pdf/book-preparation/bookvault/imperial/trouble_spinach_troubles.pdf",
+    "sourcePage": 1,
     "changes": [],
     "image": "pages/page-138.jpg"
   },
   {
     "pdfPage": 139,
     "folio": 137,
-    "label": "Oriental Leaves Troubles",
+    "label": "Spinach Troubles — continued",
     "kind": "trouble",
-    "source": "output/pdf/book-preparation/bookvault/imperial/trouble_oriental_leaves_troubles.pdf",
-    "sourcePage": 1,
+    "source": "output/pdf/book-preparation/bookvault/imperial/trouble_spinach_troubles.pdf",
+    "sourcePage": 2,
     "changes": [],
     "image": "pages/page-139.jpg"
   },
   {
     "pdfPage": 140,
     "folio": 138,
-    "label": "Oriental Leaves Troubles — continued",
+    "label": "Tomato Troubles",
     "kind": "trouble",
-    "source": "output/pdf/book-preparation/bookvault/imperial/trouble_oriental_leaves_troubles.pdf",
-    "sourcePage": 2,
+    "source": "output/pdf/book-preparation/bookvault/imperial/trouble_tomato_troubles.pdf",
+    "sourcePage": 1,
     "changes": [],
     "image": "pages/page-140.jpg"
   },
   {
     "pdfPage": 141,
     "folio": 139,
-    "label": "Potato Troubles",
+    "label": "Tomato Troubles — continued",
     "kind": "trouble",
-    "source": "output/pdf/book-preparation/bookvault/imperial/trouble_potato_troubles.pdf",
-    "sourcePage": 1,
+    "source": "output/pdf/book-preparation/bookvault/imperial/trouble_tomato_troubles.pdf",
+    "sourcePage": 2,
     "changes": [],
     "image": "pages/page-141.jpg"
   },
   {
     "pdfPage": 142,
     "folio": 140,
-    "label": "Potato Troubles — continued",
+    "label": "Tomato Troubles — continued",
     "kind": "trouble",
-    "source": "output/pdf/book-preparation/bookvault/imperial/trouble_potato_troubles.pdf",
-    "sourcePage": 2,
+    "source": "output/pdf/book-preparation/bookvault/imperial/trouble_tomato_troubles.pdf",
+    "sourcePage": 3,
     "changes": [],
     "image": "pages/page-142.jpg"
   },
   {
     "pdfPage": 143,
     "folio": 141,
-    "label": "Potato Troubles — continued",
+    "label": "Tomato Troubles — continued",
     "kind": "trouble",
-    "source": "output/pdf/book-preparation/bookvault/imperial/trouble_potato_troubles.pdf",
-    "sourcePage": 3,
+    "source": "output/pdf/book-preparation/bookvault/imperial/trouble_tomato_troubles.pdf",
+    "sourcePage": 4,
     "changes": [],
     "image": "pages/page-143.jpg"
   },
   {
     "pdfPage": 144,
     "folio": 142,
-    "label": "Potato Troubles — continued",
+    "label": "Tomato Troubles — continued",
     "kind": "trouble",
-    "source": "output/pdf/book-preparation/bookvault/imperial/trouble_potato_troubles.pdf",
-    "sourcePage": 4,
+    "source": "output/pdf/book-preparation/bookvault/imperial/trouble_tomato_troubles.pdf",
+    "sourcePage": 5,
     "changes": [],
     "image": "pages/page-144.jpg"
   },
   {
     "pdfPage": 145,
     "folio": 143,
-    "label": "Potato Troubles — continued",
+    "label": "Turnip, Swede & Radish Troubles",
     "kind": "trouble",
-    "source": "output/pdf/book-preparation/bookvault/imperial/trouble_potato_troubles.pdf",
-    "sourcePage": 5,
+    "source": "output/pdf/book-preparation/bookvault/imperial/trouble_turnip_swede_radish_troubles.pdf",
+    "sourcePage": 1,
     "changes": [],
     "image": "pages/page-145.jpg"
   },
   {
     "pdfPage": 146,
     "folio": 144,
-    "label": "Spinach Troubles",
+    "label": "Turnip, Swede & Radish Troubles — continued",
     "kind": "trouble",
-    "source": "output/pdf/book-preparation/bookvault/imperial/trouble_spinach_troubles.pdf",
-    "sourcePage": 1,
+    "source": "output/pdf/book-preparation/bookvault/imperial/trouble_turnip_swede_radish_troubles.pdf",
+    "sourcePage": 2,
     "changes": [],
     "image": "pages/page-146.jpg"
   },
   {
     "pdfPage": 147,
     "folio": 145,
-    "label": "Spinach Troubles — continued",
-    "kind": "trouble",
-    "source": "output/pdf/book-preparation/bookvault/imperial/trouble_spinach_troubles.pdf",
+    "label": "Growing Techniques",
+    "kind": "section-openers",
+    "source": "tmp/pdfs/whole-book-order-preview/section-openers.pdf",
     "sourcePage": 2,
     "changes": [],
     "image": "pages/page-147.jpg"
@@ -1472,455 +1516,231 @@
   {
     "pdfPage": 148,
     "folio": 146,
-    "label": "Tomato Troubles",
-    "kind": "trouble",
-    "source": "output/pdf/book-preparation/bookvault/imperial/trouble_tomato_troubles.pdf",
-    "sourcePage": 1,
+    "label": "Organic growing",
+    "kind": "techniques",
+    "source": "tmp/pdfs/whole-book-order-preview/techniques.pdf",
+    "sourcePage": 2,
     "changes": [],
     "image": "pages/page-148.jpg"
   },
   {
     "pdfPage": 149,
     "folio": 147,
-    "label": "Tomato Troubles — continued",
-    "kind": "trouble",
-    "source": "output/pdf/book-preparation/bookvault/imperial/trouble_tomato_troubles.pdf",
-    "sourcePage": 2,
+    "label": "Choosing your plot",
+    "kind": "techniques",
+    "source": "tmp/pdfs/whole-book-order-preview/techniques.pdf",
+    "sourcePage": 3,
     "changes": [],
     "image": "pages/page-149.jpg"
   },
   {
     "pdfPage": 150,
     "folio": 148,
-    "label": "Tomato Troubles — continued",
-    "kind": "trouble",
-    "source": "output/pdf/book-preparation/bookvault/imperial/trouble_tomato_troubles.pdf",
-    "sourcePage": 3,
+    "label": "Beds and paths",
+    "kind": "techniques",
+    "source": "tmp/pdfs/whole-book-order-preview/techniques.pdf",
+    "sourcePage": 4,
     "changes": [],
     "image": "pages/page-150.jpg"
   },
   {
     "pdfPage": 151,
     "folio": 149,
-    "label": "Tomato Troubles — continued",
-    "kind": "trouble",
-    "source": "output/pdf/book-preparation/bookvault/imperial/trouble_tomato_troubles.pdf",
-    "sourcePage": 4,
+    "label": "Finger and leaf bed patterns",
+    "kind": "techniques",
+    "source": "tmp/pdfs/whole-book-order-preview/techniques.pdf",
+    "sourcePage": 5,
     "changes": [],
     "image": "pages/page-151.jpg"
   },
   {
     "pdfPage": 152,
     "folio": 150,
-    "label": "Tomato Troubles — continued",
-    "kind": "trouble",
-    "source": "output/pdf/book-preparation/bookvault/imperial/trouble_tomato_troubles.pdf",
-    "sourcePage": 5,
+    "label": "Cultivation: dig or no-dig",
+    "kind": "cultivation",
+    "source": "tmp/pdfs/whole-book-order-preview/cultivation.pdf",
+    "sourcePage": 1,
     "changes": [],
     "image": "pages/page-152.jpg"
   },
   {
     "pdfPage": 153,
     "folio": 151,
-    "label": "Turnip, Swede & Radish Troubles",
-    "kind": "trouble",
-    "source": "output/pdf/book-preparation/bookvault/imperial/trouble_turnip_swede_radish_troubles.pdf",
-    "sourcePage": 1,
+    "label": "No-dig vegetable growing",
+    "kind": "cultivation",
+    "source": "tmp/pdfs/whole-book-order-preview/cultivation.pdf",
+    "sourcePage": 2,
     "changes": [],
     "image": "pages/page-153.jpg"
   },
   {
     "pdfPage": 154,
     "folio": 152,
-    "label": "Turnip, Swede & Radish Troubles — continued",
-    "kind": "trouble",
-    "source": "output/pdf/book-preparation/bookvault/imperial/trouble_turnip_swede_radish_troubles.pdf",
-    "sourcePage": 2,
+    "label": "Single and double digging",
+    "kind": "cultivation",
+    "source": "tmp/pdfs/whole-book-order-preview/cultivation.pdf",
+    "sourcePage": 3,
     "changes": [],
     "image": "pages/page-154.jpg"
   },
   {
     "pdfPage": 155,
     "folio": 153,
-    "label": "Growing Techniques",
-    "kind": "section-openers",
-    "source": "tmp/pdfs/whole-book-order-preview/section-openers.pdf",
-    "sourcePage": 3,
+    "label": "Finishing the bed and smothering",
+    "kind": "cultivation",
+    "source": "tmp/pdfs/whole-book-order-preview/cultivation.pdf",
+    "sourcePage": 4,
     "changes": [],
     "image": "pages/page-155.jpg"
   },
   {
     "pdfPage": 156,
     "folio": 154,
-    "label": "Organic growing",
+    "label": "Making compost",
     "kind": "techniques",
     "source": "tmp/pdfs/whole-book-order-preview/techniques.pdf",
-    "sourcePage": 2,
-    "changes": [
-      {
-        "description": "Topic and coloured qualifier share a line wherever they fit",
-        "text": "Organic growing\nThe core ideas",
-        "left": 7.99951171875,
-        "top": 17.801497395833334,
-        "right": 167.99801432291665,
-        "bottom": 29.356347656249998
-      }
-    ],
+    "sourcePage": 10,
+    "changes": [],
     "image": "pages/page-156.jpg"
   },
   {
     "pdfPage": 157,
     "folio": 155,
-    "label": "Choosing your plot",
+    "label": "Feeding and using your compost bin",
     "kind": "techniques",
     "source": "tmp/pdfs/whole-book-order-preview/techniques.pdf",
-    "sourcePage": 3,
-    "changes": [
-      {
-        "description": "Topic and coloured qualifier share a line wherever they fit",
-        "text": "Planning your plot\nChoosing the right spot",
-        "left": 16.999479166666664,
-        "top": 17.801497395833334,
-        "right": 176.99798177083332,
-        "bottom": 37.60804036458333
-      }
-    ],
+    "sourcePage": 11,
+    "changes": [],
     "image": "pages/page-157.jpg"
   },
   {
     "pdfPage": 158,
     "folio": 156,
-    "label": "Beds and paths",
+    "label": "Crop rotation",
     "kind": "techniques",
     "source": "tmp/pdfs/whole-book-order-preview/techniques.pdf",
-    "sourcePage": 4,
-    "changes": [
-      {
-        "description": "Topic and coloured qualifier share a line wherever they fit",
-        "text": "Beds and paths\nStraight paths and keyholes",
-        "left": 7.99951171875,
-        "top": 17.801497395833334,
-        "right": 167.99801432291665,
-        "bottom": 37.60804036458333
-      }
-    ],
+    "sourcePage": 9,
+    "changes": [],
     "image": "pages/page-158.jpg"
   },
   {
     "pdfPage": 159,
     "folio": 157,
-    "label": "Finger and leaf bed patterns",
+    "label": "Sowing and planting",
     "kind": "techniques",
     "source": "tmp/pdfs/whole-book-order-preview/techniques.pdf",
-    "sourcePage": 5,
-    "changes": [
-      {
-        "description": "Topic and coloured qualifier share a line wherever they fit",
-        "text": "Beds and paths\nFinger paths and leaf patterns",
-        "left": 16.999479166666664,
-        "top": 17.801497395833334,
-        "right": 176.99798177083332,
-        "bottom": 37.60804036458333
-      }
-    ],
+    "sourcePage": 13,
+    "changes": [],
     "image": "pages/page-159.jpg"
   },
   {
     "pdfPage": 160,
     "folio": 158,
-    "label": "Cultivation: dig or no-dig",
-    "kind": "cultivation",
-    "source": "tmp/pdfs/whole-book-order-preview/cultivation.pdf",
-    "sourcePage": 1,
-    "changes": [
-      {
-        "description": "Topic and coloured qualifier share a line wherever they fit",
-        "text": "Dig or No-Dig\nChoosing your approach",
-        "left": 7.99951171875,
-        "top": 17.801497395833334,
-        "right": 167.99801432291665,
-        "bottom": 29.356347656249998
-      }
-    ],
+    "label": "Watering",
+    "kind": "techniques",
+    "source": "tmp/pdfs/whole-book-order-preview/techniques.pdf",
+    "sourcePage": 12,
+    "changes": [],
     "image": "pages/page-160.jpg"
   },
   {
     "pdfPage": 161,
     "folio": 159,
-    "label": "No-dig vegetable growing",
-    "kind": "cultivation",
-    "source": "tmp/pdfs/whole-book-order-preview/cultivation.pdf",
-    "sourcePage": 2,
-    "changes": [
-      {
-        "description": "Topic and coloured qualifier share a line wherever they fit",
-        "text": "Dig or No-Dig\nNo dig",
-        "left": 16.999479166666664,
-        "top": 17.801497395833334,
-        "right": 176.99798177083332,
-        "bottom": 29.356347656249998
-      }
-    ],
+    "label": "Choosing and siting a greenhouse",
+    "kind": "techniques",
+    "source": "tmp/pdfs/whole-book-order-preview/techniques.pdf",
+    "sourcePage": 6,
+    "changes": [],
     "image": "pages/page-161.jpg"
   },
   {
     "pdfPage": 162,
     "folio": 160,
-    "label": "Single and double digging",
-    "kind": "cultivation",
-    "source": "tmp/pdfs/whole-book-order-preview/cultivation.pdf",
-    "sourcePage": 3,
-    "changes": [
-      {
-        "description": "Topic and coloured qualifier share a line wherever they fit",
-        "text": "Dig or No-Dig\nDigging part 1",
-        "left": 7.99951171875,
-        "top": 17.801497395833334,
-        "right": 167.99801432291665,
-        "bottom": 29.356347656249998
-      }
-    ],
+    "label": "Greenhouse pots, bags & raised beds",
+    "kind": "techniques",
+    "source": "tmp/pdfs/whole-book-order-preview/techniques.pdf",
+    "sourcePage": 7,
+    "changes": [],
     "image": "pages/page-162.jpg"
   },
   {
     "pdfPage": 163,
     "folio": 161,
-    "label": "Finishing the bed and smothering",
-    "kind": "cultivation",
-    "source": "tmp/pdfs/whole-book-order-preview/cultivation.pdf",
-    "sourcePage": 4,
-    "changes": [
-      {
-        "description": "Topic and coloured qualifier share a line wherever they fit",
-        "text": "Dig or No-Dig\nDigging part 2",
-        "left": 16.999479166666664,
-        "top": 17.801497395833334,
-        "right": 176.99798177083332,
-        "bottom": 29.356347656249998
-      }
-    ],
+    "label": "Greenhouses: no-dig beds and seasons",
+    "kind": "techniques",
+    "source": "tmp/pdfs/whole-book-order-preview/techniques.pdf",
+    "sourcePage": 8,
+    "changes": [],
     "image": "pages/page-163.jpg"
   },
   {
     "pdfPage": 164,
     "folio": 162,
-    "label": "Making compost",
-    "kind": "techniques",
-    "source": "tmp/pdfs/whole-book-order-preview/techniques.pdf",
-    "sourcePage": 10,
-    "changes": [
-      {
-        "description": "Topic and coloured qualifier share a line wherever they fit",
-        "text": "Making compost\nThe secret’s in the bin",
-        "left": 7.99951171875,
-        "top": 17.801497395833334,
-        "right": 167.99801432291665,
-        "bottom": 29.356347656249998
-      }
-    ],
-    "image": "pages/page-164.jpg"
-  },
-  {
-    "pdfPage": 165,
-    "folio": 163,
-    "label": "Feeding and using your compost bin",
-    "kind": "techniques",
-    "source": "tmp/pdfs/whole-book-order-preview/techniques.pdf",
-    "sourcePage": 11,
-    "changes": [
-      {
-        "description": "Topic and coloured qualifier share a line wherever they fit",
-        "text": "Making compost\nFeed it, leave it, use it",
-        "left": 16.999479166666664,
-        "top": 17.801497395833334,
-        "right": 176.99798177083332,
-        "bottom": 29.356347656249998
-      }
-    ],
-    "image": "pages/page-165.jpg"
-  },
-  {
-    "pdfPage": 166,
-    "folio": 164,
-    "label": "Crop rotation",
-    "kind": "techniques",
-    "source": "tmp/pdfs/whole-book-order-preview/techniques.pdf",
-    "sourcePage": 9,
-    "changes": [
-      {
-        "description": "Topic and coloured qualifier share a line wherever they fit",
-        "text": "Crop rotation\nA simple plan",
-        "left": 7.99951171875,
-        "top": 17.801497395833334,
-        "right": 167.99801432291665,
-        "bottom": 29.356347656249998
-      }
-    ],
-    "image": "pages/page-166.jpg"
-  },
-  {
-    "pdfPage": 167,
-    "folio": 165,
-    "label": "Sowing and planting",
-    "kind": "techniques",
-    "source": "tmp/pdfs/whole-book-order-preview/techniques.pdf",
-    "sourcePage": 13,
-    "changes": [
-      {
-        "description": "Topic and coloured qualifier share a line wherever they fit",
-        "text": "Sowing and planting\nA sound start",
-        "left": 16.999479166666664,
-        "top": 17.801497395833334,
-        "right": 176.99798177083332,
-        "bottom": 29.356347656249998
-      }
-    ],
-    "image": "pages/page-167.jpg"
-  },
-  {
-    "pdfPage": 168,
-    "folio": 166,
-    "label": "Watering",
-    "kind": "techniques",
-    "source": "tmp/pdfs/whole-book-order-preview/techniques.pdf",
-    "sourcePage": 12,
-    "changes": [
-      {
-        "description": "Topic and coloured qualifier share a line wherever they fit",
-        "text": "Watering\nRead the soil, water the roots",
-        "left": 7.99951171875,
-        "top": 17.801497395833334,
-        "right": 167.99801432291665,
-        "bottom": 29.356347656249998
-      }
-    ],
-    "image": "pages/page-168.jpg"
-  },
-  {
-    "pdfPage": 169,
-    "folio": 167,
-    "label": "Choosing and siting a greenhouse",
-    "kind": "techniques",
-    "source": "tmp/pdfs/whole-book-order-preview/techniques.pdf",
-    "sourcePage": 6,
-    "changes": [
-      {
-        "description": "Topic and coloured qualifier share a line wherever they fit",
-        "text": "Greenhouses\nWhat, where & how big?",
-        "left": 16.999479166666664,
-        "top": 17.801497395833334,
-        "right": 176.99798177083332,
-        "bottom": 29.356347656249998
-      }
-    ],
-    "image": "pages/page-169.jpg"
-  },
-  {
-    "pdfPage": 170,
-    "folio": 168,
-    "label": "Greenhouse pots, bags & raised beds",
-    "kind": "techniques",
-    "source": "tmp/pdfs/whole-book-order-preview/techniques.pdf",
-    "sourcePage": 7,
-    "changes": [
-      {
-        "description": "Topic and coloured qualifier share a line wherever they fit",
-        "text": "Greenhouses\nPots and raised beds",
-        "left": 7.99951171875,
-        "top": 17.801497395833334,
-        "right": 167.99801432291665,
-        "bottom": 29.356347656249998
-      }
-    ],
-    "image": "pages/page-170.jpg"
-  },
-  {
-    "pdfPage": 171,
-    "folio": 169,
-    "label": "Greenhouses: no-dig beds and seasons",
-    "kind": "techniques",
-    "source": "tmp/pdfs/whole-book-order-preview/techniques.pdf",
-    "sourcePage": 8,
-    "changes": [
-      {
-        "description": "Topic and coloured qualifier share a line wherever they fit",
-        "text": "Greenhouses\nNo-dig beds and seasons",
-        "left": 16.999479166666664,
-        "top": 17.801497395833334,
-        "right": 176.99798177083332,
-        "bottom": 29.356347656249998
-      }
-    ],
-    "image": "pages/page-171.jpg"
-  },
-  {
-    "pdfPage": 172,
-    "folio": 170,
     "label": "Index",
     "kind": "index",
     "source": "tmp/pdfs/whole-book-order-preview/vegetable-guru-index-draft.pdf",
     "sourcePage": 1,
     "changes": [],
-    "image": "pages/page-172.jpg"
+    "image": "pages/page-164.jpg"
   },
   {
-    "pdfPage": 173,
-    "folio": 171,
+    "pdfPage": 165,
+    "folio": 163,
     "label": "Index — continued",
     "kind": "index",
     "source": "tmp/pdfs/whole-book-order-preview/vegetable-guru-index-draft.pdf",
     "sourcePage": 2,
     "changes": [],
-    "image": "pages/page-173.jpg"
+    "image": "pages/page-165.jpg"
   },
   {
-    "pdfPage": 174,
-    "folio": 172,
+    "pdfPage": 166,
+    "folio": 164,
     "label": "Index — continued",
     "kind": "index",
     "source": "tmp/pdfs/whole-book-order-preview/vegetable-guru-index-draft.pdf",
     "sourcePage": 3,
     "changes": [],
-    "image": "pages/page-174.jpg"
+    "image": "pages/page-166.jpg"
   },
   {
-    "pdfPage": 175,
-    "folio": 173,
+    "pdfPage": 167,
+    "folio": 165,
     "label": "Index — continued",
     "kind": "index",
     "source": "tmp/pdfs/whole-book-order-preview/vegetable-guru-index-draft.pdf",
     "sourcePage": 4,
     "changes": [],
-    "image": "pages/page-175.jpg"
+    "image": "pages/page-167.jpg"
   },
   {
-    "pdfPage": 176,
-    "folio": 174,
+    "pdfPage": 168,
+    "folio": 166,
     "label": "Blank — end balancing page",
     "kind": "blank",
     "source": null,
     "sourcePage": null,
     "changes": [],
-    "image": "pages/page-176.jpg"
+    "image": "pages/page-168.jpg"
   },
   {
-    "pdfPage": 177,
+    "pdfPage": 169,
     "folio": null,
     "label": "Inside back cover",
     "kind": "blank",
     "source": null,
     "sourcePage": null,
     "changes": [],
-    "image": "pages/page-177.jpg"
+    "image": "pages/page-169.jpg"
   },
   {
-    "pdfPage": 178,
+    "pdfPage": 170,
     "folio": null,
     "label": "Back cover — B5",
     "kind": "cover",
-    "source": "output/pdf/bookvault-progress-preview/the-vegetable-guru-bookvault-progress-preview.pdf",
-    "sourcePage": 152,
+    "source": "output/pdf/whole-book-order-preview/back-cover-approved-copy.pdf",
+    "sourcePage": 1,
     "changes": [],
-    "image": "pages/page-178.jpg"
+    "image": "pages/page-170.jpg"
   }
 ]

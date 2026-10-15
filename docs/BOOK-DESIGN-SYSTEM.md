@@ -206,9 +206,9 @@ their page total is not the interior count used for print costing/spine calculat
 | Front cover | G2 cream title centre; flush vegetable tiles above/below; bold dark lettering; no count footer | Selected [G2 artwork](publication/vegetable-guru-grid-variations/assets/G2-centre-title.png); final editable artwork/wrap pending |
 | Back cover | B5 dark green; cream title/count subtitle; left blurb and slightly angled torn fragments at right; price and ISBN area | Preferred [B5 artwork](publication/vegetable-guru-back-collage/B5.png); generated snippets must become exact book crops for production |
 | Title/publication | Cover-related title strip and quieter publication page | [Original pages 1–3 proposal](publication/vegetable-guru-opening-pages/REVIEW.html) retained; current assembly omits the welcome/author page. Metadata placeholders remain. |
-| Contents/how-to | Family-coloured navigation; illustrated calendar keys, difficulty and needs explanations; calculated page references | [Approved source pages 4–7](publication/vegetable-guru-entry-pages/REVIEW.html) remain frozen. The [simple two-page contents](publication/contents-update/REVIEW.html) and [one-page guide key](publication/guide-key/REVIEW.html) implement John’s 14 October plan as new review layouts. |
+| Contents/how-to | Simple illustrated contents with calculated page references; original calendar, difficulty and needs explanations in the combined Guides panel | [Approved source pages 4–7](publication/vegetable-guru-entry-pages/REVIEW.html) remain frozen. The accepted [two-page contents](publication/contents-update/REVIEW.html) and [approved combined Guides/how-to](publication/combined-guides-opening/APPROVAL.json) are integrated in the full preview. |
 | Index | Two open columns; 9.45 pt reading type, orange folios, ruled alphabet headings, continued labels, no decorative artwork | [Four-page index](publication/book-index/REVIEW.html), approved 12 October; [frozen sources](publication/book-index/APPROVAL.json); final folios pending |
-| Section openers | Title pages with a small section number (Vegetable Guides verso, facing its key; other sections recto), large green/orange title, existing illustration and short introductory copy; standard binding margins | [14 October proposals](publication/whole-book-order-preview/SECTION-OPENERS.json), requested order applied; designs/copy await review. Uses Lilita 51.75 pt titles and Nunito body, without changing approved page styles. |
+| Section openers | Vegetable Guides: right-hand title/H4 artwork above a lower peach how-to panel, centred orange panel heading, original explanations and clear native examples. Troubles/Techniques retain their existing recto title-page proposals. | [Combined Guides page approved 15 October](publication/combined-guides-opening/APPROVAL.json); blank 8 / combined 9, integrated into the full preview. Other [14 October opener proposals](publication/whole-book-order-preview/SECTION-OPENERS.json) remain for review. |
 | Vegetables | Expressive hero/circle/sticker opening, useful information hierarchy, practical continuation and full-width Final Tips | Approved [guide contract](BOOK-PRINT-STYLE.md#vegetable-opening-page); collection review remains separate |
 | Troubles | Open two-column entries, complete diagnostics, Recognise / Act / Prevent hierarchy, aligned first/last text with sparse-page exceptions | Approved [guide contract](BOOK-PRINT-STYLE.md#troubles); no enclosing equal-height cards |
 
@@ -258,15 +258,21 @@ These reuse the current house-style stock verbatim; John accepted the illustrate
 contents for integration into the full preview. The plain baseline and accepted
 illustrated 4–5 proofs are retained. The current sequence puts a blank at 3,
 contents facing at 4–5, blank 6 and Introduction — why grow your own at 7.
-Vegetable Guides is now verso at 8 to face the how-to at 9; this supersedes
-its earlier recto placement. Troubles 107 and Techniques 153 remain recto.
+The current complete preview follows John's 15 October approval with
+blank 8 / combined right-hand Vegetable Guides opener and how-to at 9;
+Troubles 99 and Techniques 145 remain recto.
 
-The saved guide-key title is now “Vegetable guides / how to use”. The corrected
-plan puts the Vegetable Guides opener at 8 and the key facing it at 9,
-with crop spreads still starting at 10. The guide-key PDF and complete imperial preview
-now use this title/order. All nine
-instructional assets and the existing one-page composition remain. Do not
-back-port these changes to approved A4 or frozen compact sources.
+The shared guide-key title remains “Vegetable guides / how to use”. The approved
+combined page instead uses “Vegetable Guides” above a lower pale-peach (`#ffe1b7`)
+panel headed “How to use the guides”, centred in deep orange. It retains the
+three explanations at 10.5 pt and six original instructional illustrations;
+native calendar/rating examples and three original guide icons replace flattened
+captures. All needs rows share the peach background. Extra opener copy, section
+number, H5 and the sentence immediately below the panel heading are omitted;
+original JSON and source artwork remain intact. Crop spreads still begin at 10.
+The [approval manifest](publication/combined-guides-opening/APPROVAL.json) binds
+the final proof and sources. Do not back-port these changes to approved A4 or
+frozen compact sources.
 
 ## Changes and unresolved decisions
 

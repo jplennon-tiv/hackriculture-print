@@ -1,0 +1,395 @@
+{
+  "date": "2026-10-15",
+  "status": "Assembled, text-checked and visually reviewed across all sixteen technique pages; compact heading flow ready for review",
+  "pdf": "output/pdf/whole-book-order-preview/the-vegetable-guru-order-preview.pdf",
+  "sha256": "fbba42a4a962c54c64db79be7f9a975175199c26d0b10b40c167992260a30e1b",
+  "bytes": 103191412,
+  "units": "imperial",
+  "interiorPages": 174,
+  "pdfPages": 178,
+  "trimMm": [
+    185,
+    240
+  ],
+  "folioMapping": "PDF page = interior folio + 2",
+  "guidePagesReused": 137,
+  "guidesReexported": 0,
+  "sourceScreenBook": {
+    "path": "output/pdf/bookvault-progress-preview/the-vegetable-guru-bookvault-progress-preview.pdf",
+    "sha256": "ec7e000f8c59faf1ae9c54e813b54c406025ad8278443381bef81f8484225765"
+  },
+  "componentBlocksVerified": 351,
+  "approvedTopicTextChecks": 17,
+  "topicHeadingChanges": {
+    "7": {
+      "sourceHeading": "Why grow\nyour own?",
+      "replacementHeading": "Introduction\nwhy grow your own",
+      "copySource": "contents.expanded.gettingStarted.entries[technique:why-grow].label"
+    },
+    "154": {
+      "sourceHeading": "Organic growing:\nthe core ideas",
+      "replacementHeading": "Organic growing\nThe core ideas",
+      "copySource": "scripts/lib/book-review-refinements.mjs#technique:organic",
+      "sourceEyebrow": "GROWING TECHNIQUES",
+      "replacementEyebrow": "GROWING TECHNIQUES - ORGANIC GROWING"
+    },
+    "155": {
+      "sourceHeading": "Start with\nthe right spot",
+      "replacementHeading": "Planning your plot\nChoosing the right spot",
+      "copySource": "scripts/lib/book-review-refinements.mjs#technique:plot-location",
+      "sourceEyebrow": "GROWING TECHNIQUES · PLANNING A NEW PLOT",
+      "replacementEyebrow": "GROWING TECHNIQUES - PLANNING A NEW PLOT"
+    },
+    "156": {
+      "sourceHeading": "Beds and paths\nthat work for you",
+      "replacementHeading": "Beds and paths\nStraight paths and keyholes",
+      "copySource": "scripts/lib/book-review-refinements.mjs#technique:plot-layout",
+      "sourceEyebrow": "GROWING TECHNIQUES · BEDS AND PATHS",
+      "replacementEyebrow": "GROWING TECHNIQUES - BEDS AND PATHS"
+    },
+    "157": {
+      "sourceHeading": "Beds and paths\ncontinued",
+      "replacementHeading": "Beds and paths\nFinger paths and leaf patterns",
+      "copySource": "scripts/lib/book-review-refinements.mjs#technique:plot-layout-branching",
+      "sourceEyebrow": "GROWING TECHNIQUES · BEDS AND PATHS",
+      "replacementEyebrow": "GROWING TECHNIQUES - BEDS AND PATHS"
+    },
+    "167": {
+      "sourceHeading": "Greenhouses\nwhat, where & how big?",
+      "replacementHeading": "Greenhouses\nWhat, where & how big?",
+      "copySource": "scripts/lib/book-review-refinements.mjs#technique:greenhouse-choose",
+      "sourceEyebrow": "GROWING TECHNIQUES · GREENHOUSES",
+      "replacementEyebrow": "GROWING TECHNIQUES - GREENHOUSES"
+    },
+    "168": {
+      "sourceHeading": "Greenhouse\ngrowing options",
+      "replacementHeading": "Greenhouses\nPots and raised beds",
+      "copySource": "scripts/lib/book-review-refinements.mjs#technique:greenhouse-beds",
+      "sourceEyebrow": "GROWING TECHNIQUES · GREENHOUSES",
+      "replacementEyebrow": "GROWING TECHNIQUES - GREENHOUSES"
+    },
+    "169": {
+      "sourceHeading": "Greenhouse\ngrowing options",
+      "replacementHeading": "Greenhouses\nNo-dig beds and seasons",
+      "copySource": "scripts/lib/book-review-refinements.mjs#technique:greenhouse-no-dig-seasons",
+      "sourceEyebrow": "GROWING TECHNIQUES · GREENHOUSES · CONTINUED",
+      "replacementEyebrow": "GROWING TECHNIQUES - GREENHOUSES"
+    },
+    "164": {
+      "sourceHeading": "Simple crop\nrotation",
+      "replacementHeading": "Crop rotation\nA simple plan",
+      "copySource": "scripts/lib/book-review-refinements.mjs#technique:rotation",
+      "sourceEyebrow": "GROWING TECHNIQUES",
+      "replacementEyebrow": "GROWING TECHNIQUES - CROP ROTATION"
+    },
+    "162": {
+      "sourceHeading": "Making compost\nthe secret’s in the bin",
+      "replacementHeading": "Making compost\nThe secret’s in the bin",
+      "copySource": "scripts/lib/book-review-refinements.mjs#technique:compost-bins",
+      "sourceEyebrow": "GROWING TECHNIQUES · MAKING AND USING COMPOST",
+      "replacementEyebrow": "GROWING TECHNIQUES - MAKING AND USING COMPOST"
+    },
+    "163": {
+      "sourceHeading": "Making compost\nfeed it, leave it, use it",
+      "replacementHeading": "Making compost\nFeed it, leave it, use it",
+      "copySource": "scripts/lib/book-review-refinements.mjs#technique:compost-use",
+      "sourceEyebrow": "GROWING TECHNIQUES · MAKING AND USING COMPOST",
+      "replacementEyebrow": "GROWING TECHNIQUES - MAKING AND USING COMPOST"
+    },
+    "166": {
+      "sourceHeading": "Water the roots,\nread the soil",
+      "replacementHeading": "Watering\nRead the soil, water the roots",
+      "copySource": "scripts/lib/book-review-refinements.mjs#technique:watering",
+      "sourceEyebrow": "GROWING TECHNIQUES",
+      "replacementEyebrow": "GROWING TECHNIQUES - WATERING"
+    },
+    "165": {
+      "sourceHeading": "Sowing and planting:\na sound start",
+      "replacementHeading": "Sowing and planting\nA sound start",
+      "copySource": "scripts/lib/book-review-refinements.mjs#technique:sowing",
+      "sourceEyebrow": "GROWING TECHNIQUES",
+      "replacementEyebrow": "GROWING TECHNIQUES - SOWING AND PLANTING"
+    },
+    "158": {
+      "sourceHeading": "Dig or No-Dig\nChoosing your approach",
+      "replacementHeading": "Dig or No-Dig\nChoosing your approach",
+      "copySource": "scripts/lib/book-review-refinements.mjs#cultivation:overview",
+      "sourceEyebrow": "GROWING TECHNIQUES · CULTIVATION",
+      "replacementEyebrow": "GROWING TECHNIQUES - CULTIVATION"
+    },
+    "159": {
+      "sourceHeading": "Getting started with\nNo-Dig",
+      "replacementHeading": "Dig or No-Dig\nNo dig",
+      "copySource": "scripts/lib/book-review-refinements.mjs#cultivation:no-dig",
+      "sourceEyebrow": "GROWING TECHNIQUES · CULTIVATION",
+      "replacementEyebrow": "GROWING TECHNIQUES - CULTIVATION"
+    },
+    "160": {
+      "sourceHeading": "Getting started with\nDigging",
+      "replacementHeading": "Dig or No-Dig\nDigging part 1",
+      "copySource": "scripts/lib/book-review-refinements.mjs#cultivation:digging",
+      "sourceEyebrow": "GROWING TECHNIQUES · CULTIVATION",
+      "replacementEyebrow": "GROWING TECHNIQUES - CULTIVATION"
+    },
+    "161": {
+      "sourceHeading": "Digging\ncontinued",
+      "replacementHeading": "Dig or No-Dig\nDigging part 2",
+      "copySource": "scripts/lib/book-review-refinements.mjs#cultivation:digging-finish",
+      "sourceEyebrow": "GROWING TECHNIQUES · CULTIVATION",
+      "replacementEyebrow": "GROWING TECHNIQUES - CULTIVATION"
+    }
+  },
+  "updatedFootersVerified": 165,
+  "oldFooterTextObjectsRemoved": 330,
+  "contentsReferences": 80,
+  "indexEntries": 273,
+  "indexNumericReferencesVerified": 488,
+  "internalIndexLinks": 371,
+  "blankFolios": [
+    3,
+    6,
+    17,
+    71,
+    89,
+    93,
+    106,
+    174
+  ],
+  "sourceFilesUnchanged": true,
+  "limits": [
+    "Contents face at 4–5; blank 6 faces the retitled Introduction 7; Vegetable Guides and how-to face at 8–9. Other sections remain recto. Accepted contents design retained; other opening designs remain for review.",
+    "Opening copy placeholders and proposed illustration allocations remain.",
+    "Saved guide artwork is the earlier screen derivative; not print-resolution production files.",
+    "No new artwork, guide export, canonical data changes, supplier submission or price/spine update."
+  ],
+  "navigation": {
+    "newCropLabels": 44,
+    "existingNamedContinuations": [
+      {
+        "folio": 16,
+        "crop": "Carrot"
+      },
+      {
+        "folio": 70,
+        "crop": "Onions and Shallots"
+      },
+      {
+        "folio": 88,
+        "crop": "Tomato, Greenhouse"
+      },
+      {
+        "folio": 92,
+        "crop": "Tomato, Outdoor"
+      }
+    ],
+    "changedPages": 165,
+    "pagesWithLinks": 40,
+    "headingTreatment": "Combined Growing guide and crop name; original title replaced in its measured header region",
+    "internalLinks": 64,
+    "pageChecks": [
+      {
+        "folio": 13,
+        "bodyToFooterMm": 4.991423645829807,
+        "links": 1
+      },
+      {
+        "folio": 15,
+        "bodyToFooterMm": 76.69350399157636,
+        "links": 2
+      },
+      {
+        "folio": 16,
+        "bodyToFooterMm": 115.85183569331215,
+        "links": 2
+      },
+      {
+        "folio": 19,
+        "bodyToFooterMm": 4.991423645829486,
+        "links": 1
+      },
+      {
+        "folio": 21,
+        "bodyToFooterMm": 9.753923447392,
+        "links": 1
+      },
+      {
+        "folio": 23,
+        "bodyToFooterMm": 6.049756935065583,
+        "links": 2
+      },
+      {
+        "folio": 25,
+        "bodyToFooterMm": 5.091965308306248,
+        "links": 3
+      },
+      {
+        "folio": 27,
+        "bodyToFooterMm": 6.679465242161114,
+        "links": 2
+      },
+      {
+        "folio": 31,
+        "bodyToFooterMm": 11.177381721415165,
+        "links": 1
+      },
+      {
+        "folio": 33,
+        "bodyToFooterMm": 7.473215209088828,
+        "links": 2
+      },
+      {
+        "folio": 35,
+        "bodyToFooterMm": 24.67113115917563,
+        "links": 2
+      },
+      {
+        "folio": 37,
+        "bodyToFooterMm": 6.578923579684272,
+        "links": 1
+      },
+      {
+        "folio": 39,
+        "bodyToFooterMm": 6.843506901993296,
+        "links": 2
+      },
+      {
+        "folio": 41,
+        "bodyToFooterMm": 6.314340257375248,
+        "links": 1
+      },
+      {
+        "folio": 43,
+        "bodyToFooterMm": 10.91279839910614,
+        "links": 2
+      },
+      {
+        "folio": 45,
+        "bodyToFooterMm": 4.827381985997224,
+        "links": 1
+      },
+      {
+        "folio": 47,
+        "bodyToFooterMm": 8.796131820633947,
+        "links": 1
+      },
+      {
+        "folio": 49,
+        "bodyToFooterMm": 8.695590158156545,
+        "links": 1
+      },
+      {
+        "folio": 51,
+        "bodyToFooterMm": 7.637256868920448,
+        "links": 2
+      },
+      {
+        "folio": 53,
+        "bodyToFooterMm": 13.98725660433582,
+        "links": 1
+      },
+      {
+        "folio": 57,
+        "bodyToFooterMm": 10.54767341431843,
+        "links": 1
+      },
+      {
+        "folio": 59,
+        "bodyToFooterMm": 4.991423645831412,
+        "links": 3
+      },
+      {
+        "folio": 61,
+        "bodyToFooterMm": 7.737798531396568,
+        "links": 1
+      },
+      {
+        "folio": 63,
+        "bodyToFooterMm": 7.372673546612708,
+        "links": 2
+      },
+      {
+        "folio": 65,
+        "bodyToFooterMm": 16.897673149735084,
+        "links": 2
+      },
+      {
+        "folio": 67,
+        "bodyToFooterMm": 4.827381985997224,
+        "links": 2
+      },
+      {
+        "folio": 69,
+        "bodyToFooterMm": 38.0643389344599,
+        "links": 2
+      },
+      {
+        "folio": 70,
+        "bodyToFooterMm": 62.50654624936534,
+        "links": 2
+      },
+      {
+        "folio": 77,
+        "bodyToFooterMm": 7.637256868921732,
+        "links": 1
+      },
+      {
+        "folio": 79,
+        "bodyToFooterMm": 5.091965308306248,
+        "links": 1
+      },
+      {
+        "folio": 81,
+        "bodyToFooterMm": 5.8857152752334,
+        "links": 1
+      },
+      {
+        "folio": 83,
+        "bodyToFooterMm": 4.827381985999791,
+        "links": 1
+      },
+      {
+        "folio": 87,
+        "bodyToFooterMm": 68.22683767768903,
+        "links": 3
+      },
+      {
+        "folio": 88,
+        "bodyToFooterMm": 96.80183648706154,
+        "links": 3
+      },
+      {
+        "folio": 91,
+        "bodyToFooterMm": 85.42475362777584,
+        "links": 2
+      },
+      {
+        "folio": 92,
+        "bodyToFooterMm": 105.26850280095047,
+        "links": 2
+      },
+      {
+        "folio": 97,
+        "bodyToFooterMm": 9.589881787559737,
+        "links": 1
+      },
+      {
+        "folio": 99,
+        "bodyToFooterMm": 5.356548630615272,
+        "links": 1
+      },
+      {
+        "folio": 101,
+        "bodyToFooterMm": 12.135173348172573,
+        "links": 1
+      },
+      {
+        "folio": 103,
+        "bodyToFooterMm": 4.991423645828845,
+        "links": 1
+      }
+    ],
+    "highlights": "Viewer-only; clean PDF has no highlight marks"
+  },
+  "visualReview": "VISUAL-REVIEW.json",
+  "browserChecks": "BROWSER-CHECKS.json"
+}

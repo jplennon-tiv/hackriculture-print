@@ -1,11 +1,11 @@
 {
   "date": "2026-10-14",
-  "status": "Facing contents checked with updated Introduction and guide-page references",
-  "bookRevision": "10773e910c2b988d7ff6ed32a6de139b8c003d7a793998c941c3af559e59a812",
+  "status": "Approved two-page contents with refreshed references: PDF/visual check pending",
+  "bookRevision": "ad0539eda57eb6469b5b3aa3dee25ee17d34240919b2904982db1cbb8e73d316",
   "copyInputs": {
     "../hackriculture-data/book-layout/book.json": "7cf5470e4a29859fadddaf32fa6d29370c2d6258d09fe25e57af2cc90f8df78e",
-    "../hackriculture-data/book-layout/covers.json": "3d346adc88d48aa954580e11e85a7d6e92d8959714f7e63729ab7323a44cc8bf",
-    "../hackriculture-data/book-layout/publication.json": "666bde7b034d90719b301a1cb3f5aa5c4a96520575a63dfbfa707ea811e1a2a2",
+    "../hackriculture-data/book-layout/covers.json": "414327b71e1989f406412cf7f76f526b5c4b231df66348443ab5217847d74552",
+    "../hackriculture-data/book-layout/publication.json": "1b9d3c3b8a6880de6fe5cf802b0c40ac25895ec6ba2a85b4c6cd8f70901256f1",
     "../hackriculture-data/book-layout/introduction.json": "7a54f281bf1b0ef07f656fcb9c4a252860e7dd2ba730225891777056b66b9e5d",
     "../hackriculture-data/book-layout/author.json": "244b1d0714c5b936f2ac5b8526c7f127996930609a0fc841b28a08edcd273176",
     "../hackriculture-data/book-layout/contents.json": "4fef365caf670734a0d79ce8324c56e54e64015892545be2fa1e39683c330ad2",
@@ -498,6 +498,23 @@
       "pages": 4
     }
   },
+  "approvedGuideInputs": {
+    "docs/publication/whole-book-order-preview/integration-2026-10-15/APPROVED-GUIDES.json": "e7af10d90c5188cc30c4a8003c70eaa1d5a8e7c5294264ef68328cec91fe7993",
+    "docs/publication/vegetable-two-page-review/APPROVAL.json": "04d56679b8d468daaa970d7bce5bd00676be1e9c7049a4697e6b885dfddda33d",
+    "output/pdf/vegetable-two-page-trial/two-page-trials-imperial.pdf": "093f6e23f49a50e31c73af9990bfb5d5d70ec5d4de5cf96739223c01d67aacce",
+    "output/pdf/vegetable-two-page-trial/two-page-trials-metric.pdf": "76bd97d00cf8e46636d1d6e2f5faa7f62b758cef88f2cb8ecf7e6e90b0e3510c",
+    "docs/publication/tomato-two-page-review/APPROVAL.json": "23a188cacdb3f1f272fad7ef72b39a334790c0c5137fbd87d7bced67b5f29aa8",
+    "output/pdf/tomato-two-page-trial/two-page-trials-imperial.pdf": "37351db6129af4819db0a393bc10e866c6a40faf9c407bba1f1c4f92b59db646",
+    "output/pdf/tomato-two-page-trial/two-page-trials-metric.pdf": "b7b442076e3c9879552ac1a415d9b3f93230dda31025afbeb471aa128417f4b0",
+    "output/pdf/approved-two-page-guides/imperial/carrot.pdf": "6a682ae9671480e452cc3e9eeff0d7e8ece27c5803c17c4fc3bf63bfbbd67c7b",
+    "output/pdf/approved-two-page-guides/imperial/onions_and_shallots.pdf": "449953590230c359cf2a5d1218670e54142797d68495d4a6d9099c7763b7a40a",
+    "output/pdf/approved-two-page-guides/metric/carrot.pdf": "70d99deb6dd090f71f6ede6064b92f75a46bf94b25d670aef1998fecd415a3b4",
+    "output/pdf/approved-two-page-guides/metric/onions_and_shallots.pdf": "ed52ffeefd6edc6d0874cb8f586055e2fed403ca7ec4b15c199017ee97a22aa9",
+    "output/pdf/approved-two-page-guides/imperial/tomato_greenhouse.pdf": "83a89b2607e5268390cb5b107ecf246d03cf3c01f15a0ebed3e544dc5d1360a1",
+    "output/pdf/approved-two-page-guides/imperial/tomato_outdoor.pdf": "ee4b3a78b6b4e73ed1d46b29a363fc8d410dd143c707ba347ce827f0d03c901d",
+    "output/pdf/approved-two-page-guides/metric/tomato_greenhouse.pdf": "a6d8620843b3ac74fb7e53404cbe06aed3159da6e56f83d7208e6ddeb195c99d",
+    "output/pdf/approved-two-page-guides/metric/tomato_outdoor.pdf": "00c896ff60d7b6c2775e3b44a33b7459e6fd8d0a27efe0145e3fcc8274f620c6"
+  },
   "protectedFiles": [
     {
       "path": "docs/publication/vegetable-guru-entry-pages/imperial.html",
@@ -960,9 +977,9 @@
     {
       "units": "imperial",
       "pdf": "output/pdf/contents-update/contents-imperial.pdf",
-      "sha256": "f5c3f28e69b3bdeffff5e3a85d59b95d1a12528d77f89a8ee63560aa7c246e64",
+      "sha256": "cb90a18c0d534b201998a8630e599d4b63d97fcb3d53796021227d9ea88063dd",
       "html": "docs/publication/contents-update/imperial.html",
-      "htmlSha256": "ab490233ce343ef023d4c9848ac5c83c55066ac4c5f0bc7c5948210ceebbc955",
+      "htmlSha256": "2f1d82ee5a5fdf9083bf2070ded76320627b15767862acad5b28390a6840eae4",
       "references": [
         {
           "source": "technique:why-grow",
@@ -972,7 +989,7 @@
         {
           "source": "opening:varieties",
           "label": "Vegetable Guides",
-          "startPage": 8
+          "startPage": 9
         },
         {
           "source": "opening:how-to",
@@ -1001,427 +1018,427 @@
           "type": "vegetable",
           "key": "celeriac",
           "label": "Celeriac",
-          "startPage": 18
+          "startPage": 16
         },
         {
           "type": "vegetable",
           "key": "kohl_rabi",
           "label": "Kohl Rabi",
-          "startPage": 20
+          "startPage": 18
         },
         {
           "type": "vegetable",
           "key": "parsnip",
           "label": "Parsnip",
-          "startPage": 22
+          "startPage": 20
         },
         {
           "type": "vegetable",
           "key": "potato",
           "label": "Potato",
-          "startPage": 24
+          "startPage": 22
         },
         {
           "type": "vegetable",
           "key": "radish",
           "label": "Radish",
-          "startPage": 26
+          "startPage": 24
         },
         {
           "type": "vegetable",
           "key": "salsify_scorzonera",
           "label": "Salsify & Scorzonera",
-          "startPage": 28
+          "startPage": 26
         },
         {
           "type": "vegetable",
           "key": "swede",
           "label": "Swede",
-          "startPage": 30
+          "startPage": 28
         },
         {
           "type": "vegetable",
           "key": "turnip",
           "label": "Turnip",
-          "startPage": 32
+          "startPage": 30
         },
         {
           "type": "vegetable",
           "key": "broccoli",
           "label": "Broccoli",
-          "startPage": 34
+          "startPage": 32
         },
         {
           "type": "vegetable",
           "key": "brussels_sprouts",
           "label": "Brussels Sprouts",
-          "startPage": 36
+          "startPage": 34
         },
         {
           "type": "vegetable",
           "key": "cabbage",
           "label": "Cabbage",
-          "startPage": 38
+          "startPage": 36
         },
         {
           "type": "vegetable",
           "key": "cauliflower",
           "label": "Cauliflower",
-          "startPage": 40
+          "startPage": 38
         },
         {
           "type": "vegetable",
           "key": "kale",
           "label": "Kale",
-          "startPage": 42
+          "startPage": 40
         },
         {
           "type": "vegetable",
           "key": "bean_broad",
           "label": "Bean, Broad",
-          "startPage": 44
+          "startPage": 42
         },
         {
           "type": "vegetable",
           "key": "bean_french",
           "label": "Bean, French",
-          "startPage": 46
+          "startPage": 44
         },
         {
           "type": "vegetable",
           "key": "bean_runner",
           "label": "Bean, Runner",
-          "startPage": 48
+          "startPage": 46
         },
         {
           "type": "vegetable",
           "key": "pea",
           "label": "Pea",
-          "startPage": 50
+          "startPage": 48
         },
         {
           "type": "vegetable",
           "key": "beet_leaf",
           "label": "Beet, Leaf",
-          "startPage": 52
+          "startPage": 50
         },
         {
           "type": "vegetable",
           "key": "chicory",
           "label": "Chicory",
-          "startPage": 54
+          "startPage": 52
         },
         {
           "type": "vegetable",
           "key": "endive",
           "label": "Endive",
-          "startPage": 56
+          "startPage": 54
         },
         {
           "type": "vegetable",
           "key": "lettuce",
           "label": "Lettuce",
-          "startPage": 58
+          "startPage": 56
         },
         {
           "type": "vegetable",
           "key": "oriental_leaves",
           "label": "Oriental Leaves",
-          "startPage": 60
+          "startPage": 58
         },
         {
           "type": "vegetable",
           "key": "spinach",
           "label": "Spinach",
-          "startPage": 62
+          "startPage": 60
         },
         {
           "type": "vegetable",
           "key": "garlic",
           "label": "Garlic",
-          "startPage": 64
+          "startPage": 62
         },
         {
           "type": "vegetable",
           "key": "leek",
           "label": "Leek",
-          "startPage": 66
+          "startPage": 64
         },
         {
           "type": "vegetable",
           "key": "onion_shallot",
           "label": "Onions and Shallots",
-          "startPage": 68
+          "startPage": 66
         },
         {
           "type": "vegetable",
           "key": "aubergine",
           "label": "Aubergine",
-          "startPage": 72
+          "startPage": 68
         },
         {
           "type": "vegetable",
           "key": "capsicum",
           "label": "Capsicum",
-          "startPage": 74
+          "startPage": 70
         },
         {
           "type": "vegetable",
           "key": "marrow_courgette",
           "label": "Courgettes and Marrows",
-          "startPage": 76
+          "startPage": 72
         },
         {
           "type": "vegetable",
           "key": "cucumber_greenhouse",
           "label": "Cucumber, Greenhouse",
-          "startPage": 78
+          "startPage": 74
         },
         {
           "type": "vegetable",
           "key": "cucumber_outdoor",
           "label": "Cucumber, Outdoor",
-          "startPage": 80
+          "startPage": 76
         },
         {
           "type": "vegetable",
           "key": "squash_pumpkin",
           "label": "Squashes and Pumpkins",
-          "startPage": 82
+          "startPage": 78
         },
         {
           "type": "vegetable",
           "key": "sweet_corn",
           "label": "Sweet Corn",
-          "startPage": 84
+          "startPage": 80
         },
         {
           "type": "vegetable",
           "key": "tomato_greenhouse",
           "label": "Tomato, Greenhouse",
-          "startPage": 86
+          "startPage": 82
         },
         {
           "type": "vegetable",
           "key": "tomato_outdoor",
           "label": "Tomato, Outdoor",
-          "startPage": 90
+          "startPage": 84
         },
         {
           "type": "vegetable",
           "key": "artichoke_globe",
           "label": "Artichoke, Globe",
-          "startPage": 94
+          "startPage": 86
         },
         {
           "type": "vegetable",
           "key": "asparagus",
           "label": "Asparagus",
-          "startPage": 96
+          "startPage": 88
         },
         {
           "type": "vegetable",
           "key": "celery",
           "label": "Celery",
-          "startPage": 98
+          "startPage": 90
         },
         {
           "type": "vegetable",
           "key": "florence_fennel",
           "label": "Florence Fennel",
-          "startPage": 100
+          "startPage": 92
         },
         {
           "type": "vegetable",
           "key": "rhubarb",
           "label": "Rhubarb",
-          "startPage": 102
+          "startPage": 94
         },
         {
           "type": "vegetable",
           "key": "mushroom",
           "label": "Mushroom",
-          "startPage": 104
+          "startPage": 96
         },
         {
           "source": "opening:troubles",
           "label": "Vegetable Troubles",
-          "startPage": 107
+          "startPage": 99
         },
         {
           "type": "trouble",
           "key": "bean_and_pea_troubles",
           "label": "Bean and Pea",
-          "startPage": 108
+          "startPage": 100
         },
         {
           "type": "trouble",
           "key": "beetroot_troubles",
           "label": "Beetroot",
-          "startPage": 112
+          "startPage": 104
         },
         {
           "type": "trouble",
           "key": "brassica_troubles",
           "label": "Brassica",
-          "startPage": 114
+          "startPage": 106
         },
         {
           "type": "trouble",
           "key": "carrot_and_parsnip_troubles",
           "label": "Carrot and Parsnip",
-          "startPage": 120
+          "startPage": 112
         },
         {
           "type": "trouble",
           "key": "celery_troubles",
           "label": "Celery",
-          "startPage": 123
+          "startPage": 115
         },
         {
           "type": "trouble",
           "key": "cucurbit_troubles",
           "label": "Cucurbit",
-          "startPage": 125
+          "startPage": 117
         },
         {
           "type": "trouble",
           "key": "florence_fennel_troubles",
           "label": "Florence Fennel",
-          "startPage": 130
+          "startPage": 122
         },
         {
           "type": "trouble",
           "key": "lettuce_troubles",
           "label": "Lettuce",
-          "startPage": 131
+          "startPage": 123
         },
         {
           "type": "trouble",
           "key": "onion_and_leek_troubles",
           "label": "Onion & Leek",
-          "startPage": 134
+          "startPage": 126
         },
         {
           "type": "trouble",
           "key": "oriental_leaves_troubles",
           "label": "Oriental Leaves",
-          "startPage": 137
+          "startPage": 129
         },
         {
           "type": "trouble",
           "key": "potato_troubles",
           "label": "Potato",
-          "startPage": 139
+          "startPage": 131
         },
         {
           "type": "trouble",
           "key": "spinach_troubles",
           "label": "Spinach",
-          "startPage": 144
+          "startPage": 136
         },
         {
           "type": "trouble",
           "key": "tomato_troubles",
           "label": "Tomato",
-          "startPage": 146
+          "startPage": 138
         },
         {
           "type": "trouble",
           "key": "turnip_swede_radish_troubles",
           "label": "Turnip, Swede & Radish",
-          "startPage": 151
+          "startPage": 143
         },
         {
           "source": "opening:techniques",
           "label": "Growing Techniques",
-          "startPage": 153
+          "startPage": 145
         },
         {
           "source": "technique:organic",
           "label": "Organic growing",
-          "startPage": 154
+          "startPage": 146
         },
         {
           "source": "technique:plot-location",
           "label": "Choosing your plot",
-          "startPage": 155
+          "startPage": 147
         },
         {
           "source": "technique:plot-layout",
           "label": "Beds and paths",
-          "startPage": 156
+          "startPage": 148
         },
         {
           "source": "technique:plot-layout-branching",
           "label": "Finger and leaf bed patterns",
-          "startPage": 157
+          "startPage": 149
         },
         {
           "source": "cultivation:overview",
           "label": "Cultivation: dig or no-dig",
-          "startPage": 158
+          "startPage": 150
         },
         {
           "source": "cultivation:no-dig",
           "label": "No-dig vegetable growing",
-          "startPage": 159
+          "startPage": 151
         },
         {
           "source": "cultivation:digging",
           "label": "Single and double digging",
-          "startPage": 160
+          "startPage": 152
         },
         {
           "source": "cultivation:digging-finish",
           "label": "Finishing the bed and smothering",
-          "startPage": 161
+          "startPage": 153
         },
         {
           "source": "technique:compost-bins",
           "label": "Making compost",
-          "startPage": 162
+          "startPage": 154
         },
         {
           "source": "technique:compost-use",
           "label": "Feeding and using your compost bin",
-          "startPage": 163
+          "startPage": 155
         },
         {
           "source": "technique:rotation",
           "label": "Crop rotation",
-          "startPage": 164
+          "startPage": 156
         },
         {
           "source": "technique:sowing",
           "label": "Sowing and planting",
-          "startPage": 165
+          "startPage": 157
         },
         {
           "source": "technique:watering",
           "label": "Watering",
-          "startPage": 166
+          "startPage": 158
         },
         {
           "source": "technique:greenhouse-choose",
           "label": "Choosing and siting a greenhouse",
-          "startPage": 167
+          "startPage": 159
         },
         {
           "source": "technique:greenhouse-beds",
           "label": "Greenhouse pots, bags & raised beds",
-          "startPage": 168
+          "startPage": 160
         },
         {
           "source": "technique:greenhouse-no-dig-seasons",
           "label": "Greenhouses: no-dig beds and seasons",
-          "startPage": 169
+          "startPage": 161
         },
         {
           "source": "back:index",
           "label": "Index",
           "description": "Look up a crop, a problem or a technique by name.",
-          "startPage": 170
+          "startPage": 162
         }
       ],
       "dom": [
@@ -1458,7 +1475,7 @@
               "bottom": 60.688802083333336
             },
             {
-              "text": "8",
+              "text": "9",
               "left": 165.77386067708332,
               "right": 167.99801432291665,
               "top": 55.55836588541666,
@@ -1528,7 +1545,7 @@
               "bottom": 95.42776692708333
             },
             {
-              "text": "18",
+              "text": "16",
               "left": 79.04840494791667,
               "right": 83.49671223958333,
               "top": 90.24358723958333,
@@ -1542,7 +1559,7 @@
               "bottom": 101.93486328124999
             },
             {
-              "text": "20",
+              "text": "18",
               "left": 79.04840494791667,
               "right": 83.49671223958333,
               "top": 96.75068359375,
@@ -1556,7 +1573,7 @@
               "bottom": 108.44195963541665
             },
             {
-              "text": "22",
+              "text": "20",
               "left": 79.04840494791667,
               "right": 83.49671223958333,
               "top": 103.25777994791666,
@@ -1570,7 +1587,7 @@
               "bottom": 114.94905598958333
             },
             {
-              "text": "24",
+              "text": "22",
               "left": 79.04840494791667,
               "right": 83.49671223958333,
               "top": 109.76487630208332,
@@ -1584,7 +1601,7 @@
               "bottom": 121.45615234374999
             },
             {
-              "text": "26",
+              "text": "24",
               "left": 79.04840494791667,
               "right": 83.49671223958333,
               "top": 116.27197265625,
@@ -1598,7 +1615,7 @@
               "bottom": 127.96324869791665
             },
             {
-              "text": "28",
+              "text": "26",
               "left": 79.04840494791667,
               "right": 83.49671223958333,
               "top": 122.77906901041666,
@@ -1612,7 +1629,7 @@
               "bottom": 134.47034505208333
             },
             {
-              "text": "30",
+              "text": "28",
               "left": 79.04840494791667,
               "right": 83.49671223958333,
               "top": 129.28616536458333,
@@ -1626,7 +1643,7 @@
               "bottom": 140.97744140625
             },
             {
-              "text": "32",
+              "text": "30",
               "left": 79.04840494791667,
               "right": 83.49671223958333,
               "top": 135.79326171875,
@@ -1640,7 +1657,7 @@
               "bottom": 147.48453776041666
             },
             {
-              "text": "34",
+              "text": "32",
               "left": 79.04840494791667,
               "right": 83.49671223958333,
               "top": 142.30035807291665,
@@ -1654,7 +1671,7 @@
               "bottom": 153.99163411458332
             },
             {
-              "text": "36",
+              "text": "34",
               "left": 79.04840494791667,
               "right": 83.49671223958333,
               "top": 148.80745442708334,
@@ -1668,7 +1685,7 @@
               "bottom": 160.49873046874998
             },
             {
-              "text": "38",
+              "text": "36",
               "left": 79.04840494791667,
               "right": 83.49671223958333,
               "top": 155.31455078125,
@@ -1682,7 +1699,7 @@
               "bottom": 167.00582682291665
             },
             {
-              "text": "40",
+              "text": "38",
               "left": 79.04840494791667,
               "right": 83.49671223958333,
               "top": 161.82164713541667,
@@ -1696,7 +1713,7 @@
               "bottom": 173.5129231770833
             },
             {
-              "text": "42",
+              "text": "40",
               "left": 79.04840494791667,
               "right": 83.49671223958333,
               "top": 168.32874348958333,
@@ -1710,7 +1727,7 @@
               "bottom": 180.02001953125
             },
             {
-              "text": "44",
+              "text": "42",
               "left": 79.04840494791667,
               "right": 83.49671223958333,
               "top": 174.83583984375,
@@ -1724,7 +1741,7 @@
               "bottom": 186.52711588541663
             },
             {
-              "text": "46",
+              "text": "44",
               "left": 79.04840494791667,
               "right": 83.49671223958333,
               "top": 181.34293619791666,
@@ -1738,7 +1755,7 @@
               "bottom": 193.03421223958333
             },
             {
-              "text": "48",
+              "text": "46",
               "left": 79.04840494791667,
               "right": 83.49671223958333,
               "top": 187.85003255208332,
@@ -1752,7 +1769,7 @@
               "bottom": 199.54130859375002
             },
             {
-              "text": "50",
+              "text": "48",
               "left": 79.04840494791667,
               "right": 83.49671223958333,
               "top": 194.35712890624998,
@@ -1766,7 +1783,7 @@
               "bottom": 206.04840494791665
             },
             {
-              "text": "52",
+              "text": "50",
               "left": 79.04840494791667,
               "right": 83.49671223958333,
               "top": 200.86422526041667,
@@ -1780,7 +1797,7 @@
               "bottom": 69.39938151041666
             },
             {
-              "text": "54",
+              "text": "52",
               "left": 163.54970703125,
               "right": 167.99801432291665,
               "top": 64.21520182291665,
@@ -1794,7 +1811,7 @@
               "bottom": 75.90647786458332
             },
             {
-              "text": "56",
+              "text": "54",
               "left": 163.54970703125,
               "right": 167.99801432291665,
               "top": 70.72229817708333,
@@ -1808,7 +1825,7 @@
               "bottom": 82.41357421875
             },
             {
-              "text": "58",
+              "text": "56",
               "left": 163.54970703125,
               "right": 167.99801432291665,
               "top": 77.22939453125,
@@ -1822,7 +1839,7 @@
               "bottom": 88.92067057291666
             },
             {
-              "text": "60",
+              "text": "58",
               "left": 163.54970703125,
               "right": 167.99801432291665,
               "top": 83.73649088541667,
@@ -1836,7 +1853,7 @@
               "bottom": 95.42776692708333
             },
             {
-              "text": "62",
+              "text": "60",
               "left": 163.54970703125,
               "right": 167.99801432291665,
               "top": 90.24358723958333,
@@ -1850,7 +1867,7 @@
               "bottom": 101.93486328124999
             },
             {
-              "text": "64",
+              "text": "62",
               "left": 163.54970703125,
               "right": 167.99801432291665,
               "top": 96.75068359375,
@@ -1864,7 +1881,7 @@
               "bottom": 108.44195963541665
             },
             {
-              "text": "66",
+              "text": "64",
               "left": 163.54970703125,
               "right": 167.99801432291665,
               "top": 103.25777994791666,
@@ -1878,7 +1895,7 @@
               "bottom": 114.94905598958333
             },
             {
-              "text": "68",
+              "text": "66",
               "left": 163.54970703125,
               "right": 167.99801432291665,
               "top": 109.76487630208332,
@@ -1892,7 +1909,7 @@
               "bottom": 121.45615234374999
             },
             {
-              "text": "72",
+              "text": "68",
               "left": 163.54970703125,
               "right": 167.99801432291665,
               "top": 116.27197265625,
@@ -1906,7 +1923,7 @@
               "bottom": 127.96324869791665
             },
             {
-              "text": "74",
+              "text": "70",
               "left": 163.54970703125,
               "right": 167.99801432291665,
               "top": 122.77906901041666,
@@ -1920,7 +1937,7 @@
               "bottom": 134.47034505208333
             },
             {
-              "text": "76",
+              "text": "72",
               "left": 163.54970703125,
               "right": 167.99801432291665,
               "top": 129.28616536458333,
@@ -1934,7 +1951,7 @@
               "bottom": 140.97744140625
             },
             {
-              "text": "78",
+              "text": "74",
               "left": 163.54970703125,
               "right": 167.99801432291665,
               "top": 135.79326171875,
@@ -1948,7 +1965,7 @@
               "bottom": 147.48453776041666
             },
             {
-              "text": "80",
+              "text": "76",
               "left": 163.54970703125,
               "right": 167.99801432291665,
               "top": 142.30035807291665,
@@ -1962,7 +1979,7 @@
               "bottom": 153.99163411458332
             },
             {
-              "text": "82",
+              "text": "78",
               "left": 163.54970703125,
               "right": 167.99801432291665,
               "top": 148.80745442708334,
@@ -1976,7 +1993,7 @@
               "bottom": 160.49873046874998
             },
             {
-              "text": "84",
+              "text": "80",
               "left": 163.54970703125,
               "right": 167.99801432291665,
               "top": 155.31455078125,
@@ -1990,7 +2007,7 @@
               "bottom": 167.00582682291665
             },
             {
-              "text": "86",
+              "text": "82",
               "left": 163.54970703125,
               "right": 167.99801432291665,
               "top": 161.82164713541667,
@@ -2004,7 +2021,7 @@
               "bottom": 173.5129231770833
             },
             {
-              "text": "90",
+              "text": "84",
               "left": 163.54970703125,
               "right": 167.99801432291665,
               "top": 168.32874348958333,
@@ -2018,7 +2035,7 @@
               "bottom": 180.02001953125
             },
             {
-              "text": "94",
+              "text": "86",
               "left": 163.54970703125,
               "right": 167.99801432291665,
               "top": 174.83583984375,
@@ -2032,7 +2049,7 @@
               "bottom": 186.52711588541663
             },
             {
-              "text": "96",
+              "text": "88",
               "left": 163.54970703125,
               "right": 167.99801432291665,
               "top": 181.34293619791666,
@@ -2046,7 +2063,7 @@
               "bottom": 193.03421223958333
             },
             {
-              "text": "98",
+              "text": "90",
               "left": 163.54970703125,
               "right": 167.99801432291665,
               "top": 187.85003255208332,
@@ -2055,13 +2072,13 @@
             {
               "text": "Florence Fennel",
               "left": 92.49667968749999,
-              "right": 159.47760416666665,
+              "right": 161.69762369791667,
               "top": 194.35712890624998,
               "bottom": 199.54130859375002
             },
             {
-              "text": "100",
-              "left": 161.3296875,
+              "text": "92",
+              "left": 163.54970703125,
               "right": 167.99801432291665,
               "top": 194.35712890624998,
               "bottom": 199.54130859375002
@@ -2069,13 +2086,13 @@
             {
               "text": "Rhubarb",
               "left": 92.49667968749999,
-              "right": 159.47760416666665,
+              "right": 161.69762369791667,
               "top": 200.86422526041667,
               "bottom": 206.04840494791665
             },
             {
-              "text": "102",
-              "left": 161.3296875,
+              "text": "94",
+              "left": 163.54970703125,
               "right": 167.99801432291665,
               "top": 200.86422526041667,
               "bottom": 206.04840494791665
@@ -2083,13 +2100,13 @@
             {
               "text": "Mushroom",
               "left": 92.49667968749999,
-              "right": 159.47760416666665,
+              "right": 161.69762369791667,
               "top": 207.3713216145833,
               "bottom": 212.55550130208334
             },
             {
-              "text": "104",
-              "left": 161.3296875,
+              "text": "96",
+              "left": 163.54970703125,
               "right": 167.99801432291665,
               "top": 207.3713216145833,
               "bottom": 212.55550130208334
@@ -2127,13 +2144,13 @@
             {
               "text": "Vegetable Troubles",
               "left": 16.999479166666664,
-              "right": 83.83157552083333,
+              "right": 86.05159505208333,
               "top": 41.9943359375,
               "bottom": 48.18310546875
             },
             {
-              "text": "107",
-              "left": 85.82835286458334,
+              "text": "99",
+              "left": 88.04837239583333,
               "right": 92.49667968749999,
               "top": 43.05266927083333,
               "bottom": 47.86477864583333
@@ -2146,7 +2163,7 @@
               "bottom": 56.89368489583333
             },
             {
-              "text": "108",
+              "text": "100",
               "left": 85.82835286458334,
               "right": 92.49667968749999,
               "top": 51.709505208333326,
@@ -2160,7 +2177,7 @@
               "bottom": 63.400781249999994
             },
             {
-              "text": "112",
+              "text": "104",
               "left": 85.82835286458334,
               "right": 92.49667968749999,
               "top": 58.216601562499996,
@@ -2174,7 +2191,7 @@
               "bottom": 69.90787760416667
             },
             {
-              "text": "114",
+              "text": "106",
               "left": 85.82835286458334,
               "right": 92.49667968749999,
               "top": 64.72369791666667,
@@ -2188,7 +2205,7 @@
               "bottom": 76.41497395833333
             },
             {
-              "text": "120",
+              "text": "112",
               "left": 85.82835286458334,
               "right": 92.49667968749999,
               "top": 71.23079427083333,
@@ -2202,7 +2219,7 @@
               "bottom": 82.9220703125
             },
             {
-              "text": "123",
+              "text": "115",
               "left": 85.82835286458334,
               "right": 92.49667968749999,
               "top": 77.73789062499999,
@@ -2216,7 +2233,7 @@
               "bottom": 89.42916666666666
             },
             {
-              "text": "125",
+              "text": "117",
               "left": 85.82835286458334,
               "right": 92.49667968749999,
               "top": 84.24498697916665,
@@ -2230,7 +2247,7 @@
               "bottom": 95.93626302083334
             },
             {
-              "text": "130",
+              "text": "122",
               "left": 85.82835286458334,
               "right": 92.49667968749999,
               "top": 90.75208333333332,
@@ -2244,7 +2261,7 @@
               "bottom": 102.443359375
             },
             {
-              "text": "131",
+              "text": "123",
               "left": 85.82835286458334,
               "right": 92.49667968749999,
               "top": 97.25917968750001,
@@ -2258,7 +2275,7 @@
               "bottom": 108.95045572916666
             },
             {
-              "text": "134",
+              "text": "126",
               "left": 85.82835286458334,
               "right": 92.49667968749999,
               "top": 103.76627604166667,
@@ -2272,7 +2289,7 @@
               "bottom": 115.45755208333333
             },
             {
-              "text": "137",
+              "text": "129",
               "left": 85.82835286458334,
               "right": 92.49667968749999,
               "top": 110.27337239583333,
@@ -2286,7 +2303,7 @@
               "bottom": 121.96464843749999
             },
             {
-              "text": "139",
+              "text": "131",
               "left": 85.82835286458334,
               "right": 92.49667968749999,
               "top": 116.78046875,
@@ -2300,7 +2317,7 @@
               "bottom": 128.47174479166665
             },
             {
-              "text": "144",
+              "text": "136",
               "left": 85.82835286458334,
               "right": 92.49667968749999,
               "top": 123.28756510416666,
@@ -2314,7 +2331,7 @@
               "bottom": 134.97884114583334
             },
             {
-              "text": "146",
+              "text": "138",
               "left": 85.82835286458334,
               "right": 92.49667968749999,
               "top": 129.7946614583333,
@@ -2328,7 +2345,7 @@
               "bottom": 141.4859375
             },
             {
-              "text": "151",
+              "text": "143",
               "left": 85.82835286458334,
               "right": 92.49667968749999,
               "top": 136.3017578125,
@@ -2342,7 +2359,7 @@
               "bottom": 48.18310546875
             },
             {
-              "text": "153",
+              "text": "145",
               "left": 170.32965494791665,
               "right": 176.99798177083332,
               "top": 43.05266927083333,
@@ -2356,7 +2373,7 @@
               "bottom": 56.89368489583333
             },
             {
-              "text": "154",
+              "text": "146",
               "left": 170.32965494791665,
               "right": 176.99798177083332,
               "top": 51.709505208333326,
@@ -2370,7 +2387,7 @@
               "bottom": 63.400781249999994
             },
             {
-              "text": "155",
+              "text": "147",
               "left": 170.32965494791665,
               "right": 176.99798177083332,
               "top": 58.216601562499996,
@@ -2384,7 +2401,7 @@
               "bottom": 69.90787760416667
             },
             {
-              "text": "156",
+              "text": "148",
               "left": 170.32965494791665,
               "right": 176.99798177083332,
               "top": 64.72369791666667,
@@ -2398,7 +2415,7 @@
               "bottom": 76.41497395833333
             },
             {
-              "text": "157",
+              "text": "149",
               "left": 170.32965494791665,
               "right": 176.99798177083332,
               "top": 71.23079427083333,
@@ -2412,7 +2429,7 @@
               "bottom": 82.9220703125
             },
             {
-              "text": "158",
+              "text": "150",
               "left": 170.32965494791665,
               "right": 176.99798177083332,
               "top": 77.73789062499999,
@@ -2426,7 +2443,7 @@
               "bottom": 89.42916666666666
             },
             {
-              "text": "159",
+              "text": "151",
               "left": 170.32965494791665,
               "right": 176.99798177083332,
               "top": 84.24498697916665,
@@ -2440,7 +2457,7 @@
               "bottom": 95.93626302083334
             },
             {
-              "text": "160",
+              "text": "152",
               "left": 170.32965494791665,
               "right": 176.99798177083332,
               "top": 90.75208333333332,
@@ -2454,7 +2471,7 @@
               "bottom": 102.443359375
             },
             {
-              "text": "161",
+              "text": "153",
               "left": 170.32965494791665,
               "right": 176.99798177083332,
               "top": 97.25917968750001,
@@ -2468,7 +2485,7 @@
               "bottom": 108.95045572916666
             },
             {
-              "text": "162",
+              "text": "154",
               "left": 170.32965494791665,
               "right": 176.99798177083332,
               "top": 103.76627604166667,
@@ -2482,7 +2499,7 @@
               "bottom": 115.45755208333333
             },
             {
-              "text": "163",
+              "text": "155",
               "left": 170.32965494791665,
               "right": 176.99798177083332,
               "top": 110.27337239583333,
@@ -2496,7 +2513,7 @@
               "bottom": 121.96464843749999
             },
             {
-              "text": "164",
+              "text": "156",
               "left": 170.32965494791665,
               "right": 176.99798177083332,
               "top": 116.78046875,
@@ -2510,7 +2527,7 @@
               "bottom": 128.47174479166665
             },
             {
-              "text": "165",
+              "text": "157",
               "left": 170.32965494791665,
               "right": 176.99798177083332,
               "top": 123.28756510416666,
@@ -2524,7 +2541,7 @@
               "bottom": 134.97884114583334
             },
             {
-              "text": "166",
+              "text": "158",
               "left": 170.32965494791665,
               "right": 176.99798177083332,
               "top": 129.7946614583333,
@@ -2538,7 +2555,7 @@
               "bottom": 141.4859375
             },
             {
-              "text": "167",
+              "text": "159",
               "left": 170.32965494791665,
               "right": 176.99798177083332,
               "top": 136.3017578125,
@@ -2552,7 +2569,7 @@
               "bottom": 147.99303385416667
             },
             {
-              "text": "168",
+              "text": "160",
               "left": 170.32965494791665,
               "right": 176.99798177083332,
               "top": 142.80885416666666,
@@ -2566,7 +2583,7 @@
               "bottom": 154.50013020833333
             },
             {
-              "text": "169",
+              "text": "161",
               "left": 170.32965494791665,
               "right": 176.99798177083332,
               "top": 149.31595052083333,
@@ -2580,7 +2597,7 @@
               "bottom": 167.00582682291665
             },
             {
-              "text": "170",
+              "text": "162",
               "left": 170.32965494791665,
               "right": 176.99798177083332,
               "top": 161.82164713541667,
@@ -2678,9 +2695,9 @@
     {
       "units": "metric",
       "pdf": "output/pdf/contents-update/contents-metric.pdf",
-      "sha256": "4651e7f254170b0374b7e7a6be9c69310e58ac1162d11fbdcbe07258d1713f85",
+      "sha256": "1798b6afe53875684002e6c178d87d1ab3e52f2c85793aebb2c6bb5db94ad5d6",
       "html": "docs/publication/contents-update/metric.html",
-      "htmlSha256": "f789eb3ed7528d3f30e8c8f5a61fbb326d120d8bfc7114adfce6fd4571c0c84b",
+      "htmlSha256": "a84d511a273e362aa5fb3e01b257b5a73f8994e9f1da4c535280d147e3661320",
       "references": [
         {
           "source": "technique:why-grow",
@@ -2690,7 +2707,7 @@
         {
           "source": "opening:varieties",
           "label": "Vegetable Guides",
-          "startPage": 8
+          "startPage": 9
         },
         {
           "source": "opening:how-to",
@@ -2719,427 +2736,427 @@
           "type": "vegetable",
           "key": "celeriac",
           "label": "Celeriac",
-          "startPage": 18
+          "startPage": 16
         },
         {
           "type": "vegetable",
           "key": "kohl_rabi",
           "label": "Kohl Rabi",
-          "startPage": 20
+          "startPage": 18
         },
         {
           "type": "vegetable",
           "key": "parsnip",
           "label": "Parsnip",
-          "startPage": 22
+          "startPage": 20
         },
         {
           "type": "vegetable",
           "key": "potato",
           "label": "Potato",
-          "startPage": 24
+          "startPage": 22
         },
         {
           "type": "vegetable",
           "key": "radish",
           "label": "Radish",
-          "startPage": 26
+          "startPage": 24
         },
         {
           "type": "vegetable",
           "key": "salsify_scorzonera",
           "label": "Salsify & Scorzonera",
-          "startPage": 28
+          "startPage": 26
         },
         {
           "type": "vegetable",
           "key": "swede",
           "label": "Swede",
-          "startPage": 30
+          "startPage": 28
         },
         {
           "type": "vegetable",
           "key": "turnip",
           "label": "Turnip",
-          "startPage": 32
+          "startPage": 30
         },
         {
           "type": "vegetable",
           "key": "broccoli",
           "label": "Broccoli",
-          "startPage": 34
+          "startPage": 32
         },
         {
           "type": "vegetable",
           "key": "brussels_sprouts",
           "label": "Brussels Sprouts",
-          "startPage": 36
+          "startPage": 34
         },
         {
           "type": "vegetable",
           "key": "cabbage",
           "label": "Cabbage",
-          "startPage": 38
+          "startPage": 36
         },
         {
           "type": "vegetable",
           "key": "cauliflower",
           "label": "Cauliflower",
-          "startPage": 40
+          "startPage": 38
         },
         {
           "type": "vegetable",
           "key": "kale",
           "label": "Kale",
-          "startPage": 42
+          "startPage": 40
         },
         {
           "type": "vegetable",
           "key": "bean_broad",
           "label": "Bean, Broad",
-          "startPage": 44
+          "startPage": 42
         },
         {
           "type": "vegetable",
           "key": "bean_french",
           "label": "Bean, French",
-          "startPage": 46
+          "startPage": 44
         },
         {
           "type": "vegetable",
           "key": "bean_runner",
           "label": "Bean, Runner",
-          "startPage": 48
+          "startPage": 46
         },
         {
           "type": "vegetable",
           "key": "pea",
           "label": "Pea",
-          "startPage": 50
+          "startPage": 48
         },
         {
           "type": "vegetable",
           "key": "beet_leaf",
           "label": "Beet, Leaf",
-          "startPage": 52
+          "startPage": 50
         },
         {
           "type": "vegetable",
           "key": "chicory",
           "label": "Chicory",
-          "startPage": 54
+          "startPage": 52
         },
         {
           "type": "vegetable",
           "key": "endive",
           "label": "Endive",
-          "startPage": 56
+          "startPage": 54
         },
         {
           "type": "vegetable",
           "key": "lettuce",
           "label": "Lettuce",
-          "startPage": 58
+          "startPage": 56
         },
         {
           "type": "vegetable",
           "key": "oriental_leaves",
           "label": "Oriental Leaves",
-          "startPage": 60
+          "startPage": 58
         },
         {
           "type": "vegetable",
           "key": "spinach",
           "label": "Spinach",
-          "startPage": 62
+          "startPage": 60
         },
         {
           "type": "vegetable",
           "key": "garlic",
           "label": "Garlic",
-          "startPage": 64
+          "startPage": 62
         },
         {
           "type": "vegetable",
           "key": "leek",
           "label": "Leek",
-          "startPage": 66
+          "startPage": 64
         },
         {
           "type": "vegetable",
           "key": "onion_shallot",
           "label": "Onions and Shallots",
-          "startPage": 68
+          "startPage": 66
         },
         {
           "type": "vegetable",
           "key": "aubergine",
           "label": "Aubergine",
-          "startPage": 72
+          "startPage": 68
         },
         {
           "type": "vegetable",
           "key": "capsicum",
           "label": "Capsicum",
-          "startPage": 74
+          "startPage": 70
         },
         {
           "type": "vegetable",
           "key": "marrow_courgette",
           "label": "Courgettes and Marrows",
-          "startPage": 76
+          "startPage": 72
         },
         {
           "type": "vegetable",
           "key": "cucumber_greenhouse",
           "label": "Cucumber, Greenhouse",
-          "startPage": 78
+          "startPage": 74
         },
         {
           "type": "vegetable",
           "key": "cucumber_outdoor",
           "label": "Cucumber, Outdoor",
-          "startPage": 80
+          "startPage": 76
         },
         {
           "type": "vegetable",
           "key": "squash_pumpkin",
           "label": "Squashes and Pumpkins",
-          "startPage": 82
+          "startPage": 78
         },
         {
           "type": "vegetable",
           "key": "sweet_corn",
           "label": "Sweet Corn",
-          "startPage": 84
+          "startPage": 80
         },
         {
           "type": "vegetable",
           "key": "tomato_greenhouse",
           "label": "Tomato, Greenhouse",
-          "startPage": 86
+          "startPage": 82
         },
         {
           "type": "vegetable",
           "key": "tomato_outdoor",
           "label": "Tomato, Outdoor",
-          "startPage": 90
+          "startPage": 84
         },
         {
           "type": "vegetable",
           "key": "artichoke_globe",
           "label": "Artichoke, Globe",
-          "startPage": 94
+          "startPage": 86
         },
         {
           "type": "vegetable",
           "key": "asparagus",
           "label": "Asparagus",
-          "startPage": 96
+          "startPage": 88
         },
         {
           "type": "vegetable",
           "key": "celery",
           "label": "Celery",
-          "startPage": 98
+          "startPage": 90
         },
         {
           "type": "vegetable",
           "key": "florence_fennel",
           "label": "Florence Fennel",
-          "startPage": 100
+          "startPage": 92
         },
         {
           "type": "vegetable",
           "key": "rhubarb",
           "label": "Rhubarb",
-          "startPage": 102
+          "startPage": 94
         },
         {
           "type": "vegetable",
           "key": "mushroom",
           "label": "Mushroom",
-          "startPage": 104
+          "startPage": 96
         },
         {
           "source": "opening:troubles",
           "label": "Vegetable Troubles",
-          "startPage": 107
+          "startPage": 99
         },
         {
           "type": "trouble",
           "key": "bean_and_pea_troubles",
           "label": "Bean and Pea",
-          "startPage": 108
+          "startPage": 100
         },
         {
           "type": "trouble",
           "key": "beetroot_troubles",
           "label": "Beetroot",
-          "startPage": 112
+          "startPage": 104
         },
         {
           "type": "trouble",
           "key": "brassica_troubles",
           "label": "Brassica",
-          "startPage": 114
+          "startPage": 106
         },
         {
           "type": "trouble",
           "key": "carrot_and_parsnip_troubles",
           "label": "Carrot and Parsnip",
-          "startPage": 120
+          "startPage": 112
         },
         {
           "type": "trouble",
           "key": "celery_troubles",
           "label": "Celery",
-          "startPage": 123
+          "startPage": 115
         },
         {
           "type": "trouble",
           "key": "cucurbit_troubles",
           "label": "Cucurbit",
-          "startPage": 125
+          "startPage": 117
         },
         {
           "type": "trouble",
           "key": "florence_fennel_troubles",
           "label": "Florence Fennel",
-          "startPage": 130
+          "startPage": 122
         },
         {
           "type": "trouble",
           "key": "lettuce_troubles",
           "label": "Lettuce",
-          "startPage": 131
+          "startPage": 123
         },
         {
           "type": "trouble",
           "key": "onion_and_leek_troubles",
           "label": "Onion & Leek",
-          "startPage": 134
+          "startPage": 126
         },
         {
           "type": "trouble",
           "key": "oriental_leaves_troubles",
           "label": "Oriental Leaves",
-          "startPage": 137
+          "startPage": 129
         },
         {
           "type": "trouble",
           "key": "potato_troubles",
           "label": "Potato",
-          "startPage": 139
+          "startPage": 131
         },
         {
           "type": "trouble",
           "key": "spinach_troubles",
           "label": "Spinach",
-          "startPage": 144
+          "startPage": 136
         },
         {
           "type": "trouble",
           "key": "tomato_troubles",
           "label": "Tomato",
-          "startPage": 146
+          "startPage": 138
         },
         {
           "type": "trouble",
           "key": "turnip_swede_radish_troubles",
           "label": "Turnip, Swede & Radish",
-          "startPage": 151
+          "startPage": 143
         },
         {
           "source": "opening:techniques",
           "label": "Growing Techniques",
-          "startPage": 153
+          "startPage": 145
         },
         {
           "source": "technique:organic",
           "label": "Organic growing",
-          "startPage": 154
+          "startPage": 146
         },
         {
           "source": "technique:plot-location",
           "label": "Choosing your plot",
-          "startPage": 155
+          "startPage": 147
         },
         {
           "source": "technique:plot-layout",
           "label": "Beds and paths",
-          "startPage": 156
+          "startPage": 148
         },
         {
           "source": "technique:plot-layout-branching",
           "label": "Finger and leaf bed patterns",
-          "startPage": 157
+          "startPage": 149
         },
         {
           "source": "cultivation:overview",
           "label": "Cultivation: dig or no-dig",
-          "startPage": 158
+          "startPage": 150
         },
         {
           "source": "cultivation:no-dig",
           "label": "No-dig vegetable growing",
-          "startPage": 159
+          "startPage": 151
         },
         {
           "source": "cultivation:digging",
           "label": "Single and double digging",
-          "startPage": 160
+          "startPage": 152
         },
         {
           "source": "cultivation:digging-finish",
           "label": "Finishing the bed and smothering",
-          "startPage": 161
+          "startPage": 153
         },
         {
           "source": "technique:compost-bins",
           "label": "Making compost",
-          "startPage": 162
+          "startPage": 154
         },
         {
           "source": "technique:compost-use",
           "label": "Feeding and using your compost bin",
-          "startPage": 163
+          "startPage": 155
         },
         {
           "source": "technique:rotation",
           "label": "Crop rotation",
-          "startPage": 164
+          "startPage": 156
         },
         {
           "source": "technique:sowing",
           "label": "Sowing and planting",
-          "startPage": 165
+          "startPage": 157
         },
         {
           "source": "technique:watering",
           "label": "Watering",
-          "startPage": 166
+          "startPage": 158
         },
         {
           "source": "technique:greenhouse-choose",
           "label": "Choosing and siting a greenhouse",
-          "startPage": 167
+          "startPage": 159
         },
         {
           "source": "technique:greenhouse-beds",
           "label": "Greenhouse pots, bags & raised beds",
-          "startPage": 168
+          "startPage": 160
         },
         {
           "source": "technique:greenhouse-no-dig-seasons",
           "label": "Greenhouses: no-dig beds and seasons",
-          "startPage": 169
+          "startPage": 161
         },
         {
           "source": "back:index",
           "label": "Index",
           "description": "Look up a crop, a problem or a technique by name.",
-          "startPage": 170
+          "startPage": 162
         }
       ],
       "dom": [
@@ -3176,7 +3193,7 @@
               "bottom": 60.688802083333336
             },
             {
-              "text": "8",
+              "text": "9",
               "left": 165.77386067708332,
               "right": 167.99801432291665,
               "top": 55.55836588541666,
@@ -3246,7 +3263,7 @@
               "bottom": 95.42776692708333
             },
             {
-              "text": "18",
+              "text": "16",
               "left": 79.04840494791667,
               "right": 83.49671223958333,
               "top": 90.24358723958333,
@@ -3260,7 +3277,7 @@
               "bottom": 101.93486328124999
             },
             {
-              "text": "20",
+              "text": "18",
               "left": 79.04840494791667,
               "right": 83.49671223958333,
               "top": 96.75068359375,
@@ -3274,7 +3291,7 @@
               "bottom": 108.44195963541665
             },
             {
-              "text": "22",
+              "text": "20",
               "left": 79.04840494791667,
               "right": 83.49671223958333,
               "top": 103.25777994791666,
@@ -3288,7 +3305,7 @@
               "bottom": 114.94905598958333
             },
             {
-              "text": "24",
+              "text": "22",
               "left": 79.04840494791667,
               "right": 83.49671223958333,
               "top": 109.76487630208332,
@@ -3302,7 +3319,7 @@
               "bottom": 121.45615234374999
             },
             {
-              "text": "26",
+              "text": "24",
               "left": 79.04840494791667,
               "right": 83.49671223958333,
               "top": 116.27197265625,
@@ -3316,7 +3333,7 @@
               "bottom": 127.96324869791665
             },
             {
-              "text": "28",
+              "text": "26",
               "left": 79.04840494791667,
               "right": 83.49671223958333,
               "top": 122.77906901041666,
@@ -3330,7 +3347,7 @@
               "bottom": 134.47034505208333
             },
             {
-              "text": "30",
+              "text": "28",
               "left": 79.04840494791667,
               "right": 83.49671223958333,
               "top": 129.28616536458333,
@@ -3344,7 +3361,7 @@
               "bottom": 140.97744140625
             },
             {
-              "text": "32",
+              "text": "30",
               "left": 79.04840494791667,
               "right": 83.49671223958333,
               "top": 135.79326171875,
@@ -3358,7 +3375,7 @@
               "bottom": 147.48453776041666
             },
             {
-              "text": "34",
+              "text": "32",
               "left": 79.04840494791667,
               "right": 83.49671223958333,
               "top": 142.30035807291665,
@@ -3372,7 +3389,7 @@
               "bottom": 153.99163411458332
             },
             {
-              "text": "36",
+              "text": "34",
               "left": 79.04840494791667,
               "right": 83.49671223958333,
               "top": 148.80745442708334,
@@ -3386,7 +3403,7 @@
               "bottom": 160.49873046874998
             },
             {
-              "text": "38",
+              "text": "36",
               "left": 79.04840494791667,
               "right": 83.49671223958333,
               "top": 155.31455078125,
@@ -3400,7 +3417,7 @@
               "bottom": 167.00582682291665
             },
             {
-              "text": "40",
+              "text": "38",
               "left": 79.04840494791667,
               "right": 83.49671223958333,
               "top": 161.82164713541667,
@@ -3414,7 +3431,7 @@
               "bottom": 173.5129231770833
             },
             {
-              "text": "42",
+              "text": "40",
               "left": 79.04840494791667,
               "right": 83.49671223958333,
               "top": 168.32874348958333,
@@ -3428,7 +3445,7 @@
               "bottom": 180.02001953125
             },
             {
-              "text": "44",
+              "text": "42",
               "left": 79.04840494791667,
               "right": 83.49671223958333,
               "top": 174.83583984375,
@@ -3442,7 +3459,7 @@
               "bottom": 186.52711588541663
             },
             {
-              "text": "46",
+              "text": "44",
               "left": 79.04840494791667,
               "right": 83.49671223958333,
               "top": 181.34293619791666,
@@ -3456,7 +3473,7 @@
               "bottom": 193.03421223958333
             },
             {
-              "text": "48",
+              "text": "46",
               "left": 79.04840494791667,
               "right": 83.49671223958333,
               "top": 187.85003255208332,
@@ -3470,7 +3487,7 @@
               "bottom": 199.54130859375002
             },
             {
-              "text": "50",
+              "text": "48",
               "left": 79.04840494791667,
               "right": 83.49671223958333,
               "top": 194.35712890624998,
@@ -3484,7 +3501,7 @@
               "bottom": 206.04840494791665
             },
             {
-              "text": "52",
+              "text": "50",
               "left": 79.04840494791667,
               "right": 83.49671223958333,
               "top": 200.86422526041667,
@@ -3498,7 +3515,7 @@
               "bottom": 69.39938151041666
             },
             {
-              "text": "54",
+              "text": "52",
               "left": 163.54970703125,
               "right": 167.99801432291665,
               "top": 64.21520182291665,
@@ -3512,7 +3529,7 @@
               "bottom": 75.90647786458332
             },
             {
-              "text": "56",
+              "text": "54",
               "left": 163.54970703125,
               "right": 167.99801432291665,
               "top": 70.72229817708333,
@@ -3526,7 +3543,7 @@
               "bottom": 82.41357421875
             },
             {
-              "text": "58",
+              "text": "56",
               "left": 163.54970703125,
               "right": 167.99801432291665,
               "top": 77.22939453125,
@@ -3540,7 +3557,7 @@
               "bottom": 88.92067057291666
             },
             {
-              "text": "60",
+              "text": "58",
               "left": 163.54970703125,
               "right": 167.99801432291665,
               "top": 83.73649088541667,
@@ -3554,7 +3571,7 @@
               "bottom": 95.42776692708333
             },
             {
-              "text": "62",
+              "text": "60",
               "left": 163.54970703125,
               "right": 167.99801432291665,
               "top": 90.24358723958333,
@@ -3568,7 +3585,7 @@
               "bottom": 101.93486328124999
             },
             {
-              "text": "64",
+              "text": "62",
               "left": 163.54970703125,
               "right": 167.99801432291665,
               "top": 96.75068359375,
@@ -3582,7 +3599,7 @@
               "bottom": 108.44195963541665
             },
             {
-              "text": "66",
+              "text": "64",
               "left": 163.54970703125,
               "right": 167.99801432291665,
               "top": 103.25777994791666,
@@ -3596,7 +3613,7 @@
               "bottom": 114.94905598958333
             },
             {
-              "text": "68",
+              "text": "66",
               "left": 163.54970703125,
               "right": 167.99801432291665,
               "top": 109.76487630208332,
@@ -3610,7 +3627,7 @@
               "bottom": 121.45615234374999
             },
             {
-              "text": "72",
+              "text": "68",
               "left": 163.54970703125,
               "right": 167.99801432291665,
               "top": 116.27197265625,
@@ -3624,7 +3641,7 @@
               "bottom": 127.96324869791665
             },
             {
-              "text": "74",
+              "text": "70",
               "left": 163.54970703125,
               "right": 167.99801432291665,
               "top": 122.77906901041666,
@@ -3638,7 +3655,7 @@
               "bottom": 134.47034505208333
             },
             {
-              "text": "76",
+              "text": "72",
               "left": 163.54970703125,
               "right": 167.99801432291665,
               "top": 129.28616536458333,
@@ -3652,7 +3669,7 @@
               "bottom": 140.97744140625
             },
             {
-              "text": "78",
+              "text": "74",
               "left": 163.54970703125,
               "right": 167.99801432291665,
               "top": 135.79326171875,
@@ -3666,7 +3683,7 @@
               "bottom": 147.48453776041666
             },
             {
-              "text": "80",
+              "text": "76",
               "left": 163.54970703125,
               "right": 167.99801432291665,
               "top": 142.30035807291665,
@@ -3680,7 +3697,7 @@
               "bottom": 153.99163411458332
             },
             {
-              "text": "82",
+              "text": "78",
               "left": 163.54970703125,
               "right": 167.99801432291665,
               "top": 148.80745442708334,
@@ -3694,7 +3711,7 @@
               "bottom": 160.49873046874998
             },
             {
-              "text": "84",
+              "text": "80",
               "left": 163.54970703125,
               "right": 167.99801432291665,
               "top": 155.31455078125,
@@ -3708,7 +3725,7 @@
               "bottom": 167.00582682291665
             },
             {
-              "text": "86",
+              "text": "82",
               "left": 163.54970703125,
               "right": 167.99801432291665,
               "top": 161.82164713541667,
@@ -3722,7 +3739,7 @@
               "bottom": 173.5129231770833
             },
             {
-              "text": "90",
+              "text": "84",
               "left": 163.54970703125,
               "right": 167.99801432291665,
               "top": 168.32874348958333,
@@ -3736,7 +3753,7 @@
               "bottom": 180.02001953125
             },
             {
-              "text": "94",
+              "text": "86",
               "left": 163.54970703125,
               "right": 167.99801432291665,
               "top": 174.83583984375,
@@ -3750,7 +3767,7 @@
               "bottom": 186.52711588541663
             },
             {
-              "text": "96",
+              "text": "88",
               "left": 163.54970703125,
               "right": 167.99801432291665,
               "top": 181.34293619791666,
@@ -3764,7 +3781,7 @@
               "bottom": 193.03421223958333
             },
             {
-              "text": "98",
+              "text": "90",
               "left": 163.54970703125,
               "right": 167.99801432291665,
               "top": 187.85003255208332,
@@ -3773,13 +3790,13 @@
             {
               "text": "Florence Fennel",
               "left": 92.49667968749999,
-              "right": 159.47760416666665,
+              "right": 161.69762369791667,
               "top": 194.35712890624998,
               "bottom": 199.54130859375002
             },
             {
-              "text": "100",
-              "left": 161.3296875,
+              "text": "92",
+              "left": 163.54970703125,
               "right": 167.99801432291665,
               "top": 194.35712890624998,
               "bottom": 199.54130859375002
@@ -3787,13 +3804,13 @@
             {
               "text": "Rhubarb",
               "left": 92.49667968749999,
-              "right": 159.47760416666665,
+              "right": 161.69762369791667,
               "top": 200.86422526041667,
               "bottom": 206.04840494791665
             },
             {
-              "text": "102",
-              "left": 161.3296875,
+              "text": "94",
+              "left": 163.54970703125,
               "right": 167.99801432291665,
               "top": 200.86422526041667,
               "bottom": 206.04840494791665
@@ -3801,13 +3818,13 @@
             {
               "text": "Mushroom",
               "left": 92.49667968749999,
-              "right": 159.47760416666665,
+              "right": 161.69762369791667,
               "top": 207.3713216145833,
               "bottom": 212.55550130208334
             },
             {
-              "text": "104",
-              "left": 161.3296875,
+              "text": "96",
+              "left": 163.54970703125,
               "right": 167.99801432291665,
               "top": 207.3713216145833,
               "bottom": 212.55550130208334
@@ -3845,13 +3862,13 @@
             {
               "text": "Vegetable Troubles",
               "left": 16.999479166666664,
-              "right": 83.83157552083333,
+              "right": 86.05159505208333,
               "top": 41.9943359375,
               "bottom": 48.18310546875
             },
             {
-              "text": "107",
-              "left": 85.82835286458334,
+              "text": "99",
+              "left": 88.04837239583333,
               "right": 92.49667968749999,
               "top": 43.05266927083333,
               "bottom": 47.86477864583333
@@ -3864,7 +3881,7 @@
               "bottom": 56.89368489583333
             },
             {
-              "text": "108",
+              "text": "100",
               "left": 85.82835286458334,
               "right": 92.49667968749999,
               "top": 51.709505208333326,
@@ -3878,7 +3895,7 @@
               "bottom": 63.400781249999994
             },
             {
-              "text": "112",
+              "text": "104",
               "left": 85.82835286458334,
               "right": 92.49667968749999,
               "top": 58.216601562499996,
@@ -3892,7 +3909,7 @@
               "bottom": 69.90787760416667
             },
             {
-              "text": "114",
+              "text": "106",
               "left": 85.82835286458334,
               "right": 92.49667968749999,
               "top": 64.72369791666667,
@@ -3906,7 +3923,7 @@
               "bottom": 76.41497395833333
             },
             {
-              "text": "120",
+              "text": "112",
               "left": 85.82835286458334,
               "right": 92.49667968749999,
               "top": 71.23079427083333,
@@ -3920,7 +3937,7 @@
               "bottom": 82.9220703125
             },
             {
-              "text": "123",
+              "text": "115",
               "left": 85.82835286458334,
               "right": 92.49667968749999,
               "top": 77.73789062499999,
@@ -3934,7 +3951,7 @@
               "bottom": 89.42916666666666
             },
             {
-              "text": "125",
+              "text": "117",
               "left": 85.82835286458334,
               "right": 92.49667968749999,
               "top": 84.24498697916665,
@@ -3948,7 +3965,7 @@
               "bottom": 95.93626302083334
             },
             {
-              "text": "130",
+              "text": "122",
               "left": 85.82835286458334,
               "right": 92.49667968749999,
               "top": 90.75208333333332,
@@ -3962,7 +3979,7 @@
               "bottom": 102.443359375
             },
             {
-              "text": "131",
+              "text": "123",
               "left": 85.82835286458334,
               "right": 92.49667968749999,
               "top": 97.25917968750001,
@@ -3976,7 +3993,7 @@
               "bottom": 108.95045572916666
             },
             {
-              "text": "134",
+              "text": "126",
               "left": 85.82835286458334,
               "right": 92.49667968749999,
               "top": 103.76627604166667,
@@ -3990,7 +4007,7 @@
               "bottom": 115.45755208333333
             },
             {
-              "text": "137",
+              "text": "129",
               "left": 85.82835286458334,
               "right": 92.49667968749999,
               "top": 110.27337239583333,
@@ -4004,7 +4021,7 @@
               "bottom": 121.96464843749999
             },
             {
-              "text": "139",
+              "text": "131",
               "left": 85.82835286458334,
               "right": 92.49667968749999,
               "top": 116.78046875,
@@ -4018,7 +4035,7 @@
               "bottom": 128.47174479166665
             },
             {
-              "text": "144",
+              "text": "136",
               "left": 85.82835286458334,
               "right": 92.49667968749999,
               "top": 123.28756510416666,
@@ -4032,7 +4049,7 @@
               "bottom": 134.97884114583334
             },
             {
-              "text": "146",
+              "text": "138",
               "left": 85.82835286458334,
               "right": 92.49667968749999,
               "top": 129.7946614583333,
@@ -4046,7 +4063,7 @@
               "bottom": 141.4859375
             },
             {
-              "text": "151",
+              "text": "143",
               "left": 85.82835286458334,
               "right": 92.49667968749999,
               "top": 136.3017578125,
@@ -4060,7 +4077,7 @@
               "bottom": 48.18310546875
             },
             {
-              "text": "153",
+              "text": "145",
               "left": 170.32965494791665,
               "right": 176.99798177083332,
               "top": 43.05266927083333,
@@ -4074,7 +4091,7 @@
               "bottom": 56.89368489583333
             },
             {
-              "text": "154",
+              "text": "146",
               "left": 170.32965494791665,
               "right": 176.99798177083332,
               "top": 51.709505208333326,
@@ -4088,7 +4105,7 @@
               "bottom": 63.400781249999994
             },
             {
-              "text": "155",
+              "text": "147",
               "left": 170.32965494791665,
               "right": 176.99798177083332,
               "top": 58.216601562499996,
@@ -4102,7 +4119,7 @@
               "bottom": 69.90787760416667
             },
             {
-              "text": "156",
+              "text": "148",
               "left": 170.32965494791665,
               "right": 176.99798177083332,
               "top": 64.72369791666667,
@@ -4116,7 +4133,7 @@
               "bottom": 76.41497395833333
             },
             {
-              "text": "157",
+              "text": "149",
               "left": 170.32965494791665,
               "right": 176.99798177083332,
               "top": 71.23079427083333,
@@ -4130,7 +4147,7 @@
               "bottom": 82.9220703125
             },
             {
-              "text": "158",
+              "text": "150",
               "left": 170.32965494791665,
               "right": 176.99798177083332,
               "top": 77.73789062499999,
@@ -4144,7 +4161,7 @@
               "bottom": 89.42916666666666
             },
             {
-              "text": "159",
+              "text": "151",
               "left": 170.32965494791665,
               "right": 176.99798177083332,
               "top": 84.24498697916665,
@@ -4158,7 +4175,7 @@
               "bottom": 95.93626302083334
             },
             {
-              "text": "160",
+              "text": "152",
               "left": 170.32965494791665,
               "right": 176.99798177083332,
               "top": 90.75208333333332,
@@ -4172,7 +4189,7 @@
               "bottom": 102.443359375
             },
             {
-              "text": "161",
+              "text": "153",
               "left": 170.32965494791665,
               "right": 176.99798177083332,
               "top": 97.25917968750001,
@@ -4186,7 +4203,7 @@
               "bottom": 108.95045572916666
             },
             {
-              "text": "162",
+              "text": "154",
               "left": 170.32965494791665,
               "right": 176.99798177083332,
               "top": 103.76627604166667,
@@ -4200,7 +4217,7 @@
               "bottom": 115.45755208333333
             },
             {
-              "text": "163",
+              "text": "155",
               "left": 170.32965494791665,
               "right": 176.99798177083332,
               "top": 110.27337239583333,
@@ -4214,7 +4231,7 @@
               "bottom": 121.96464843749999
             },
             {
-              "text": "164",
+              "text": "156",
               "left": 170.32965494791665,
               "right": 176.99798177083332,
               "top": 116.78046875,
@@ -4228,7 +4245,7 @@
               "bottom": 128.47174479166665
             },
             {
-              "text": "165",
+              "text": "157",
               "left": 170.32965494791665,
               "right": 176.99798177083332,
               "top": 123.28756510416666,
@@ -4242,7 +4259,7 @@
               "bottom": 134.97884114583334
             },
             {
-              "text": "166",
+              "text": "158",
               "left": 170.32965494791665,
               "right": 176.99798177083332,
               "top": 129.7946614583333,
@@ -4256,7 +4273,7 @@
               "bottom": 141.4859375
             },
             {
-              "text": "167",
+              "text": "159",
               "left": 170.32965494791665,
               "right": 176.99798177083332,
               "top": 136.3017578125,
@@ -4270,7 +4287,7 @@
               "bottom": 147.99303385416667
             },
             {
-              "text": "168",
+              "text": "160",
               "left": 170.32965494791665,
               "right": 176.99798177083332,
               "top": 142.80885416666666,
@@ -4284,7 +4301,7 @@
               "bottom": 154.50013020833333
             },
             {
-              "text": "169",
+              "text": "161",
               "left": 170.32965494791665,
               "right": 176.99798177083332,
               "top": 149.31595052083333,
@@ -4298,7 +4315,7 @@
               "bottom": 167.00582682291665
             },
             {
-              "text": "170",
+              "text": "162",
               "left": 170.32965494791665,
               "right": 176.99798177083332,
               "top": 161.82164713541667,
@@ -4396,12 +4413,12 @@
   ],
   "protectedFilesUnchanged": true,
   "implementation": {
-    "scripts/build-updated-contents.mjs": "1efd4377b51bebb801faa53b833372a4d54be10a46555b1d0dda64602dee43d4",
-    "scripts/lib/book-contents.mjs": "a6d8c3a7092e7cd398a487279f11dd213a7292dd94e098588282f5ca7d907f1e",
+    "scripts/build-updated-contents.mjs": "1802d6615d8d36a35531ec164be00872183bfdeb339b5e511e147c3748603da3",
+    "scripts/lib/book-contents.mjs": "78f1b57ce5a8067ff023e62a874e242062f1c949b75c07da8699f7b14b1a575c",
     "scripts/lib/book-content.mjs": "4f6b2de01ee6ef51b1392ceb6a97f8dff3273e3b9870855d4d5cbdb738921c2e",
     "docs/publication/contents-update/contents.css": "17f54795efc6617328d066033135d82fd5f1be706f9b6f7c1af72ad35988a058",
     "docs/publication/vegetable-guru-entry-pages/entry-pages.css": "9796fac872f5e80f95799912f2da7dd690734dffa2b7af7336f0b8bcd8c39d43",
     "src/print/familyThemes.json": "e4c1dbb5d9d77a0060d518d4c751ec23f7282e6b89ea2d05ebe2c451812bc4df"
   },
-  "assemblyProposalSha256": "1906a3527e540d94f36543dd272aed980a49b2f3e3c27ad821eba556da94e134"
+  "assemblyProposalSha256": "e986090ff9d7b5a871be5b2759ec7ba95377d795a1e14d0a727f5a6b53f87086"
 }

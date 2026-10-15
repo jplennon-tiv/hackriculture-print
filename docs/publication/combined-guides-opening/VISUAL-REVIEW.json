@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-15",
+  "status": "Visually checked; corrections awaiting user review",
+  "pdf": "output/pdf/combined-guides-opening/guides-opening-preview.pdf",
+  "sha256": "29befc103d106a328b61817b746ecfaf03876a4e1421cf6175b9e8873493fdb6",
+  "userReference": "/Users/johnlennon/Desktop/Screenshot 2026-10-15 at 19.52.31.png",
+  "coverage": {
+    "newPage": 9,
+    "fullPageProofDpi": 150,
+    "contextSpreads": [
+      [
+        8,
+        9
+      ],
+      [
+        10,
+        11
+      ]
+    ],
+    "edition": "Unit-neutral opener with saved imperial first crop spread"
+  },
+  "findings": [
+    "Peach panel retained; calendar corners now reveal the same peach, with no cream screenshot rectangle.",
+    "Calendar month markers and all three ratings match the original live guide examples.",
+    "Difficulty label and score are native readable text; its oval uses page-paper fill.",
+    "All Sun, Water and Nutrition labels, icons and values are visible at full opacity; all three rows share the peach panel background, with the Water stripe removed.",
+    "Small climate/endpoint labels, connector dots, scale outlines and section rules strengthened.",
+    "Three explanatory paragraphs retain 10.5 pt type; all six original instructional illustrations retained.",
+    "Original coloured guide icons reused; no raster source image edited.",
+    "No clipping or collisions observed; panel-to-footer gap 4.51 mm."
+  ],
+  "panelBackground": "#ffe1b7",
+  "replacements": [
+    "Calendar PNG \u2192 original calendar DOM",
+    "Difficulty PNG \u2192 original difficulty DOM",
+    "Faded Core Needs PNG \u2192 original needs DOM; all rows fully visible on the same peach background"
+  ],
+  "intentionalOmissions": [
+    "Section number/eyebrow",
+    "Choose it. Grow it. Enjoy it. strapline",
+    "Opener introduction and closing guide-count sentence",
+    "H5 how-to decorative header",
+    "Use the calendar and scales to compare crops and plan their care."
+  ],
+  "fullBookChanged": false,
+  "sharedJsonChanged": false,
+  "userApproved": false
+}

@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-15",
+  "status": "passed",
+  "pdf": "output/pdf/whole-book-order-preview/the-vegetable-guru-order-preview.pdf",
+  "sha256": "39d437e8571d92aca177c31a2da4e2f371dada19a5f66465e4826678ac747cd6",
+  "baseline": {
+    "path": "output/pdf/whole-book-order-preview/references/before-headers-opening-2026-10-15.pdf",
+    "sha256": "fc1da9dc30e5c0a36a72cc5d42d68c261ece38de57c14cc939feeb5e046e1baf",
+    "approvedHeaders": "docs/publication/vegetable-header-review/APPROVAL.json",
+    "approvedOpening": "docs/publication/combined-guides-opening/APPROVAL.json"
+  },
+  "headers": 44,
+  "bothUnitHeaderMeasurements": 88,
+  "allHeaderWordsPreserved": true,
+  "guideBodyPagesVerified": 133,
+  "bodySizeAndLayout": "Existing PDF bodies reused without reflow; original text size, tables and artwork retained.",
+  "headerFontResourcesEmbedded": 220,
+  "headerBoundaryMm": 33.8,
+  "combinedOpeningFolio": 9,
+  "newBlankFolio": 8,
+  "cropFoliosUnchanged": true,
+  "interiorPages": 166,
+  "pdfPages": 170,
+  "protectedFileHashesVerified": 188,
+  "canonicalAndBookJsonUnchanged": true,
+  "frozenApprovalsUnchanged": true,
+  "normalExporterChanged": false,
+  "navigationChecks": "docs/publication/whole-book-order-preview/NAVIGATION-PDF-CHECKS.json",
+  "checksRun": [
+    "13 contents, navigation and index logic tests",
+    "Both-unit contents PDFs",
+    "Actual complete PDF text, folio and destination checks",
+    "Header PDF fonts",
+    "Frozen-reference and source hashes"
+  ],
+  "implementation": {
+    "scripts/build-approved-book-headers.mjs": "44928c8cb81760f6c15c0ace2d0de3190e31e5e64a6278b151ba7452706b3e96",
+    "scripts/lib/book-contents.mjs": "78f1b57ce5a8067ff023e62a874e242062f1c949b75c07da8699f7b14b1a575c",
+    "scripts/lib/section-openers.mjs": "dc914eccdd4285d8ab1bf6bf1da1f5afc527d6c6ab13a5726b0bade9dd6b64c9",
+    "scripts/prepare-whole-book-preview.mjs": "a34e44ae787820e4f8bbd7bbed0340e81282f23b2f5ad8f204c730e0e7a37852",
+    "scripts/assemble-whole-book-preview.py": "96fbc47b92d02f03cc4fb88c9969b2ec21fc51545fe6be6b8ef01f59d9bf078d",
+    "scripts/check-book-navigation.py": "bd961db8b311b743b310334f814cb66864d749c0b076630ec77b3869befdeb04",
+    "scripts/review-whole-book-preview.py": "bfb7bb7d355e10f881a53b3d835e2adcfe26bf64bc29c7ee44bfab22602c69b0"
+  }
+}

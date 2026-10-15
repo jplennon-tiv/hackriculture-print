@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-15",
+  "operation": "Built-in image editing tool: erase only the placeholder paragraph; original B5 preserved.",
+  "source": {
+    "path": "docs/publication/vegetable-guru-back-collage/B5.png",
+    "sha256": "bf4ec765d570845865355956c22a9d2b78a59b717c4471f9c5aaba894621ffff"
+  },
+  "derivative": {
+    "path": "docs/publication/publication-copy/integration/B5-clear-blurb.png",
+    "sha256": "34486168f719d0e5f650609e8addf53cb6e5bc782d396f216467bb0ed40ce386"
+  },
+  "prompt": "Remove the cream Lorem ipsum paragraph in the left-hand middle area (approximately x 50\u2013405, y 525\u2013910 in the 1100 \u00d7 1429 source), replacing the letters with the surrounding dark forest-green background. Preserve the title, count subtitle, all three angled page collages, price, barcode placeholder, aspect ratio and full edges. Leave the area blank for editable typesetting."
+}

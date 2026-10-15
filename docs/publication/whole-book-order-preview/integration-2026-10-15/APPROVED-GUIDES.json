@@ -1,0 +1,126 @@
+{
+  "date": "2026-10-15",
+  "status": "Exact approved PDF pages split for full-book integration; no layout or copy changes",
+  "inputs": {
+    "docs/publication/vegetable-two-page-review/APPROVAL.json": "04d56679b8d468daaa970d7bce5bd00676be1e9c7049a4697e6b885dfddda33d",
+    "output/pdf/vegetable-two-page-trial/two-page-trials-imperial.pdf": "093f6e23f49a50e31c73af9990bfb5d5d70ec5d4de5cf96739223c01d67aacce",
+    "output/pdf/vegetable-two-page-trial/two-page-trials-metric.pdf": "76bd97d00cf8e46636d1d6e2f5faa7f62b758cef88f2cb8ecf7e6e90b0e3510c",
+    "docs/publication/tomato-two-page-review/APPROVAL.json": "23a188cacdb3f1f272fad7ef72b39a334790c0c5137fbd87d7bced67b5f29aa8",
+    "output/pdf/tomato-two-page-trial/two-page-trials-imperial.pdf": "37351db6129af4819db0a393bc10e866c6a40faf9c407bba1f1c4f92b59db646",
+    "output/pdf/tomato-two-page-trial/two-page-trials-metric.pdf": "b7b442076e3c9879552ac1a415d9b3f93230dda31025afbeb471aa128417f4b0"
+  },
+  "records": [
+    {
+      "units": "imperial",
+      "key": "carrot",
+      "slug": "carrot",
+      "pdf": "output/pdf/approved-two-page-guides/imperial/carrot.pdf",
+      "sha256": "6a682ae9671480e452cc3e9eeff0d7e8ece27c5803c17c4fc3bf63bfbbd67c7b",
+      "physicalPages": 2,
+      "approval": "docs/publication/vegetable-two-page-review/APPROVAL.json",
+      "approvedSource": "output/pdf/vegetable-two-page-trial/two-page-trials-imperial.pdf",
+      "sourcePages": [
+        1,
+        2
+      ]
+    },
+    {
+      "units": "imperial",
+      "key": "onion_shallot",
+      "slug": "onions_and_shallots",
+      "pdf": "output/pdf/approved-two-page-guides/imperial/onions_and_shallots.pdf",
+      "sha256": "449953590230c359cf2a5d1218670e54142797d68495d4a6d9099c7763b7a40a",
+      "physicalPages": 2,
+      "approval": "docs/publication/vegetable-two-page-review/APPROVAL.json",
+      "approvedSource": "output/pdf/vegetable-two-page-trial/two-page-trials-imperial.pdf",
+      "sourcePages": [
+        3,
+        4
+      ]
+    },
+    {
+      "units": "metric",
+      "key": "carrot",
+      "slug": "carrot",
+      "pdf": "output/pdf/approved-two-page-guides/metric/carrot.pdf",
+      "sha256": "70d99deb6dd090f71f6ede6064b92f75a46bf94b25d670aef1998fecd415a3b4",
+      "physicalPages": 2,
+      "approval": "docs/publication/vegetable-two-page-review/APPROVAL.json",
+      "approvedSource": "output/pdf/vegetable-two-page-trial/two-page-trials-metric.pdf",
+      "sourcePages": [
+        1,
+        2
+      ]
+    },
+    {
+      "units": "metric",
+      "key": "onion_shallot",
+      "slug": "onions_and_shallots",
+      "pdf": "output/pdf/approved-two-page-guides/metric/onions_and_shallots.pdf",
+      "sha256": "ed52ffeefd6edc6d0874cb8f586055e2fed403ca7ec4b15c199017ee97a22aa9",
+      "physicalPages": 2,
+      "approval": "docs/publication/vegetable-two-page-review/APPROVAL.json",
+      "approvedSource": "output/pdf/vegetable-two-page-trial/two-page-trials-metric.pdf",
+      "sourcePages": [
+        3,
+        4
+      ]
+    },
+    {
+      "units": "imperial",
+      "key": "tomato_greenhouse",
+      "slug": "tomato_greenhouse",
+      "pdf": "output/pdf/approved-two-page-guides/imperial/tomato_greenhouse.pdf",
+      "sha256": "83a89b2607e5268390cb5b107ecf246d03cf3c01f15a0ebed3e544dc5d1360a1",
+      "physicalPages": 2,
+      "approval": "docs/publication/tomato-two-page-review/APPROVAL.json",
+      "approvedSource": "output/pdf/tomato-two-page-trial/two-page-trials-imperial.pdf",
+      "sourcePages": [
+        1,
+        2
+      ]
+    },
+    {
+      "units": "imperial",
+      "key": "tomato_outdoor",
+      "slug": "tomato_outdoor",
+      "pdf": "output/pdf/approved-two-page-guides/imperial/tomato_outdoor.pdf",
+      "sha256": "ee4b3a78b6b4e73ed1d46b29a363fc8d410dd143c707ba347ce827f0d03c901d",
+      "physicalPages": 2,
+      "approval": "docs/publication/tomato-two-page-review/APPROVAL.json",
+      "approvedSource": "output/pdf/tomato-two-page-trial/two-page-trials-imperial.pdf",
+      "sourcePages": [
+        3,
+        4
+      ]
+    },
+    {
+      "units": "metric",
+      "key": "tomato_greenhouse",
+      "slug": "tomato_greenhouse",
+      "pdf": "output/pdf/approved-two-page-guides/metric/tomato_greenhouse.pdf",
+      "sha256": "a6d8620843b3ac74fb7e53404cbe06aed3159da6e56f83d7208e6ddeb195c99d",
+      "physicalPages": 2,
+      "approval": "docs/publication/tomato-two-page-review/APPROVAL.json",
+      "approvedSource": "output/pdf/tomato-two-page-trial/two-page-trials-metric.pdf",
+      "sourcePages": [
+        1,
+        2
+      ]
+    },
+    {
+      "units": "metric",
+      "key": "tomato_outdoor",
+      "slug": "tomato_outdoor",
+      "pdf": "output/pdf/approved-two-page-guides/metric/tomato_outdoor.pdf",
+      "sha256": "00c896ff60d7b6c2775e3b44a33b7459e6fd8d0a27efe0145e3fcc8274f620c6",
+      "physicalPages": 2,
+      "approval": "docs/publication/tomato-two-page-review/APPROVAL.json",
+      "approvedSource": "output/pdf/tomato-two-page-trial/two-page-trials-metric.pdf",
+      "sourcePages": [
+        3,
+        4
+      ]
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "date": "2026-10-15",
+  "status": "Clean integrated preview visually inspected; ready for combined review, not self-approved",
+  "pdfSha256": "fc1da9dc30e5c0a36a72cc5d42d68c261ece38de57c14cc939feeb5e046e1baf",
+  "render": {
+    "pages": 170,
+    "dpi": 110,
+    "format": "JPEG",
+    "nativeTextRetainedInPdf": true
+  },
+  "coverage": {
+    "fullSpreadInspection": [
+      [
+        14,
+        15
+      ],
+      [
+        66,
+        67
+      ],
+      [
+        82,
+        83
+      ],
+      [
+        84,
+        85
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        98,
+        99
+      ],
+      [
+        144,
+        145
+      ],
+      [
+        150,
+        151
+      ],
+      [
+        152,
+        153
+      ],
+      [
+        162,
+        163
+      ],
+      [
+        164,
+        165
+      ]
+    ],
+    "individualFolios": [
+      2
+    ],
+    "coverPdfPages": [
+      170
+    ],
+    "techniqueContactSheets": [
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156,
+      157,
+      158,
+      159,
+      160,
+      161
+    ],
+    "highResolutionCheck": "B5 cover at 1200 px and folio 99 footer at 180 dpi",
+    "allUnchangedGuidesVisuallyRereviewed": false
+  },
+  "findings": [
+    "All four approved two-page spreads fit with unchanged body sizes and leading, intact tables and drawings.",
+    "Updated footers fit; no review highlights, clipped body text or overlaps observed on inspected pages.",
+    "Publication copy and its metadata placeholders fit the existing page.",
+    "Approved back-cover copy fits the preserved B5 left-hand area; collage, title/count, price and barcode reservation retained.",
+    "Contents remain facing at 4–5; guide intro and key remain facing at 8–9; Troubles/Techniques open on the right.",
+    "Index has four complete pages with refreshed references; flowing two-colour technique hierarchy is retained."
+  ],
+  "tests": {
+    "focusedContentsIndexNavigationTests": 13,
+    "bookCopyValidation": "8 shared documents, 80 contents destinations per edition, 273 index entries",
+    "guideSourceBodyComparisons": 133,
+    "previousApprovedBaselineBodyComparisons": 147,
+    "relatedLinks": 55,
+    "indexLinks": 371,
+    "contentsAndGuideKeyPdfUnits": [
+      "imperial",
+      "metric"
+    ]
+  },
+  "reviewHighlights": 0,
+  "browserChecks": "BROWSER-CHECKS.json",
+  "navigationChecks": "NAVIGATION-PDF-CHECKS.json",
+  "sourcePreservation": "integration-2026-10-15/INTEGRATION-CHECKS.json",
+  "limits": "Imperial screen preview only; metric full assembly and production preparation remain separate. Historical highlighted trial reviews are preserved."
+}

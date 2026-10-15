@@ -48,12 +48,23 @@ the Kale offsets are reference geometry, not universal crop-specific branches.
 ## Vegetable opening page
 
 Keep the expressive header: large tilted crop title, category above it, seasons
-and symbols in the centre, and an enlarged decorative hero on the right. Its
+and symbols towards the shaded circle, and an enlarged decorative hero on the right. Its
 **pale family-coloured circle must remain visible around the artwork**. Put the
 **opaque oval difficulty sticker at top right, over the hero**, retaining the
-label, rating, five dots and numeric score. Preserve readable text and separation
+label, rating, five dots and numeric score. The sticker fill matches the page's
+paper colour. Preserve readable text and separation
 from the introduction. Cropping the decorative hero is intentional; do not
 confuse that with permission to crop instructional or diagnostic drawings.
+
+John approved the [revised header treatment](publication/vegetable-header-review/APPROVAL.json)
+on 15 October 2026. Normally the visible seasons widget ends 20 CSS px before
+the circle's left edge. If the actual title text (including its full stop)
+would crowd it, move the widget right to leave 20 px after the title. Retain
+left-aligned widget text, existing type sizes and badge geometry. The four
+approved examples cover different title lengths and family colours. This
+supersedes the original centred seasons and family-tint sticker fill; frozen
+originals remain intact. All 44 headers are integrated into the complete preview;
+normal individual-guide exporter integration is pending.
 
 Kale's reference uses a 124 CSS px header, the crop-title type role tilted −4°, a 300 px
 circular backdrop, 16° hero tilt, and a 138 × 49 px difficulty oval tilted −3°.
