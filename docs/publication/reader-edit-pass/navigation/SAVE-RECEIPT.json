@@ -1,0 +1,96 @@
+{
+  "date": "2026-10-15T21:06:08.617Z",
+  "actor": "AI — John-authorised reader-journey A1 and A6 presentation copy, 2026-10-15",
+  "authorisation": "John approved A1–A7 and O1, rejected O2; parent delegated A1 and A6. Book-copy changes only; frozen approvals preserved.",
+  "changed": 2,
+  "revision": "02f0ffe1a32d525b7d73979486092eb249656e17356c14dc903100e1ed8c3e01",
+  "backup": "backups/admin/2026-10-15T21-06-08.592Z-9d5dc543-ae04-4957-8e15-16b43654a1f1",
+  "backupAbsolute": "/Users/johnlennon/Documents/web_site/hackriculture-data/backups/admin/2026-10-15T21-06-08.592Z-9d5dc543-ae04-4957-8e15-16b43654a1f1",
+  "previousRevision": "ad0539eda57eb6469b5b3aa3dee25ee17d34240919b2904982db1cbb8e73d316",
+  "files": {
+    "how-to": {
+      "path": "/Users/johnlennon/Documents/web_site/hackriculture-data/book-layout/how-to.json",
+      "beforeSha256": "a4bdbb78c4436c7ce4df6658392ff0c492375d56bcfc6b83a114b28c07d1af25",
+      "afterSha256": "003eb4e88e0fc08793de7fe1d9e4c38633bad61b8bc5e2471768cc0327236d61",
+      "backup": "docs/publication/reader-edit-pass/navigation/previous/how-to.json"
+    },
+    "index": {
+      "path": "/Users/johnlennon/Documents/web_site/hackriculture-data/book-layout/index.json",
+      "beforeSha256": "644561af4403bc5f4327bdac2e023aba1564b09721b8db90f6ee652780ac2e83",
+      "afterSha256": "4ad5214cd07e567dcaffa3a9d4e35989d6494ec6b359d71dd304a54faf6d6069",
+      "backup": "docs/publication/reader-edit-pass/navigation/previous/index.json"
+    }
+  },
+  "calendar": {
+    "before": [
+      "Bright shades show the usual sowing and harvest months for temperate climates: here, lowland England (US zones 8 to 9). Muted shades show less usual options for warmer climates. Use local conditions and the crop’s advice to choose your timing."
+    ],
+    "after": [
+      "Bright: usual months for lowland England (US zones 8 to 9). Muted: options that may need suitable varieties, protection or milder conditions. Sowing may include indoor starts. For planting out, read Sowing & planting and check local conditions."
+    ],
+    "sublabelBefore": "Warmer climates",
+    "sublabelAfter": "Check crop advice"
+  },
+  "indexAdded": [
+    {
+      "id": "chillies",
+      "term": "Chillies",
+      "see": "peppers-capsicums"
+    },
+    {
+      "id": "follow-on-crops",
+      "term": "Follow-on crops",
+      "refs": [
+        {
+          "source": "vegetable:kale"
+        },
+        {
+          "source": "vegetable:oriental_leaves"
+        },
+        {
+          "source": "vegetable:garlic"
+        }
+      ]
+    },
+    {
+      "id": "succession-cropping",
+      "term": "Succession cropping",
+      "see": "follow-on-crops"
+    },
+    {
+      "id": "winter-harvesting",
+      "term": "Winter harvesting",
+      "refs": [
+        {
+          "source": "vegetable:parsnip"
+        },
+        {
+          "source": "vegetable:kale"
+        },
+        {
+          "source": "vegetable:leek"
+        }
+      ]
+    },
+    {
+      "id": "storage",
+      "term": "Storage",
+      "refs": [
+        {
+          "source": "vegetable:carrot"
+        },
+        {
+          "source": "vegetable:onion_shallot"
+        },
+        {
+          "source": "vegetable:squash_pumpkin"
+        }
+      ]
+    }
+  ],
+  "oldEntries": 273,
+  "newEntries": 278,
+  "existingEntriesUnchanged": true,
+  "manualLocksChanged": false,
+  "gardeningRecordsChanged": false
+}

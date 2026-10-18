@@ -6,7 +6,7 @@ import {resolveNavigation,cropMention} from './lib/book-navigation.mjs';
 import {sectionNames,sectionLabel,topicHeadings} from './lib/book-review-refinements.mjs';
 const edition=JSON.parse(fs.readFileSync('docs/publication/contents-update/ASSEMBLY-PROPOSAL.json','utf8')).editions.imperial;
 const crops=readCollection('vegetables'),troubles=readCollection('troubles');
-const texts=Object.fromEntries([...edition.documents.filter(d=>d.type==='trouble').map(d=>['trouble:'+d.key,Array(d.physicalPages).fill(troubles[d.key].applies_to.map(k=>crops[k].name).join(' / '))]),...edition.additions.map(d=>[d.source,['General growing advice.']])]);
+const texts=Object.fromEntries([...edition.documents.filter(d=>d.type==='trouble').map(d=>['trouble:'+d.key,Array(d.physicalPages).fill(troubles[d.key].applies_to.map(k=>crops[k].name).join(' / '))]),...edition.additions.map(d=>[d.source,Array(d.physicalPages).fill('General growing advice.')])]);
 test('Every second page has one combined title, including the four approved replacements',()=>{
   const n=resolveNavigation(edition,crops,troubles,texts);
   assert.equal(n.decisions.length,44);assert.equal(n.pages.filter(p=>p.newHeading).length,40);
@@ -34,7 +34,7 @@ test('Mention matching respects word boundaries, source notes and growing contex
   assert.ok(cropMention('Grow tomatoes.', 'tomato_greenhouse',crops.tomato_greenhouse,'technique:greenhouse-beds'));
 });
 test('Specific technique mentions qualify and destinations follow a relocated plan',()=>{
-  const explicit=structuredClone(texts);explicit['technique:rotation']=['Peas and carrots.'];
+  const explicit=structuredClone(texts);explicit['technique:rotation']=['Peas and carrots.','Other families.'];
   const before=resolveNavigation(edition,crops,troubles,explicit);
   assert.ok(before.decisions.find(d=>d.key==='carrot').links.some(l=>l.source==='technique:rotation'));
   assert.ok(!before.decisions.find(d=>d.key==='beetroot').links.some(l=>l.source==='technique:rotation'));
@@ -46,12 +46,12 @@ test('Specific technique mentions qualify and destinations follow a relocated pl
 
 test('Section labels follow the section boundaries; blanks and title have no footer',()=>{
   const n=resolveNavigation(edition,crops,troubles,texts);
-  for(const [folio,label] of [[2,'THE VEGETABLE GURU'],[7,'THE VEGETABLE GURU'],[9,'VEGETABLE GUIDES'],[97,'VEGETABLE GUIDES'],[99,'VEGETABLE TROUBLES'],[144,'VEGETABLE TROUBLES'],[145,'GROWING TECHNIQUES'],[161,'GROWING TECHNIQUES'],[162,'INDEX']]) {
+  for(const [folio,label] of [[2,'THE VEGETABLE GURU'],[7,'THE VEGETABLE GURU'],[9,'VEGETABLE GUIDES'],[97,'VEGETABLE GUIDES'],[99,'VEGETABLE TROUBLES'],[144,'VEGETABLE TROUBLES'],[145,'GROWING TECHNIQUES'],[161,'GROWING TECHNIQUES'],[166,'INDEX']]) {
     assert.equal(sectionLabel(folio,edition),label);
     assert.equal(n.pages.find(p=>p.folio===folio).label,label);
   }
-  for(const blank of [1,3,6,8,98,166])assert.ok(!n.pages.some(p=>p.folio===blank));
-  assert.equal(n.pages.length,160);
+  for(const blank of [1,3,6,8,98,150,162,170])assert.ok(!n.pages.some(p=>p.folio===blank));
+  assert.equal(n.pages.length,162);
   assert.ok(n.decisions.flatMap(d=>d.links).every(l=>[sectionNames.trouble,sectionNames.technique].includes(l.label)));
   assert.equal(Object.keys(topicHeadings).length,16);
   for(const heading of Object.values(topicHeadings))assert.ok(edition.additions.some(d=>d.source===heading.source));
@@ -72,5 +72,5 @@ test('Technique topic families keep a common first line and distinct page qualif
     assert.equal(new Set(pages.map(h=>h.lines[1])).size,pages.length,group);
     assert.ok(pages.every(h=>h.lines.length===2&&h.lines.every(Boolean)));
   }
-  assert.deepEqual(new Set(headings.map(h=>h.source)),new Set(edition.additions.filter(d=>d.source!=='technique:why-grow').map(d=>d.source)));
+  assert.deepEqual(new Set(headings.map(h=>h.source)),new Set(edition.additions.filter(d=>!['technique:why-grow','technique:nutrient-cycles'].includes(d.source)).map(d=>d.source)));
 });

@@ -1,145 +1,121 @@
-# Whole-book preview
+# Current complete book preview
 
-Updated 15 October 2026 with the approved vegetable headers and combined
-Vegetable Guides/how-to page, retaining all earlier approved changes.
-[Browse the complete book](REVIEW.html?revision=headers-opening#spread=5) or
-[open the PDF](../../../output/pdf/whole-book-order-preview/the-vegetable-guru-order-preview.pdf).
+Updated 18 October 2026. [Browse the full book](REVIEW.html?revision=organic-copy-2026-10-18#spread=74)
+or [open the PDF](../../../output/pdf/whole-book-order-preview/the-vegetable-guru-order-preview.pdf).
+The imperial preview contains **170 interior pages plus four cover leaves: 174 PDF pages**.
+All approved reader edits and the approved Growing Techniques order are integrated;
+review highlights are removed. This is the current screen proof, not a supplier upload.
 
-The imperial preview has **166 interior pages plus four cover leaves: 170 PDF
-pages**. All 44 vegetable guides now occupy facing two-page spreads. The approved
-publication and back-cover wording is included, retaining missing metadata as
-placeholders. Contents, index and crop-specific links have refreshed page numbers.
-The selected G2 front, preferred B5 composition, simple illustrated contents,
-combined Guides/how-to page, section labels and approved flowing technique headings remain.
-All review highlights and their viewer controls are removed.
+John's final copy replacements for **Organic growing — The core ideas**, page 146,
+are included for review. The introduction is shortened and all three advice
+paragraphs replaced; diagram, closing box, type sizes and pagination remain.
+[Focused copy and both-unit checks](../final-text-edits/README.md). Earlier approved
+source pages remain intact.
 
 ## Current placement
 
 | Interior pages | Content |
 | --- | --- |
-| 1–2 | Title, publication details |
-| 3 | Blank placing the contents on facing pages |
+| 1–2 | Title and publication details |
+| 3 | Blank |
 | 4–5 | Illustrated contents, facing |
 | 6–7 | Blank / Introduction — why grow your own |
 | 8–9 | Blank / combined Vegetable Guides and how-to |
-| 10–97 | All 44 vegetable guides, two pages each |
+| 10–97 | All 44 vegetables, two facing pages each |
 | 98–99 | Blank / Vegetable Troubles opener |
-| 100–144 | Troubles guides |
+| 100–144 | Fourteen Troubles guides |
 | 145 | Growing Techniques opener |
-| 146–149 | Organic growing, plot location, Beds and paths |
-| 150–153 | Dig or No-Dig cultivation pages |
-| 154–155 | Compost spread |
-| 156–158 | Rotation; sowing and planting; watering |
-| 159–161 | Greenhouses |
-| 162–165 | Index |
-| 166 | End balancing blank |
+| 146–147 | Organic growing / Nutrient cycles |
+| 148–149 | Crop rotation & planning |
+| 150–151 | Approved blank / Planning your plot |
+| 152–153 | Beds and paths |
+| 154–155 | Making compost |
+| 156–157 | Dig or No-Dig: choosing / no dig |
+| 158–159 | Digging parts 1 and 2 |
+| 160–161 | Sowing and planting / Watering |
+| 162–163 | Approved blank / Greenhouses introduction |
+| 164–165 | Greenhouse growing options and seasons |
+| 166–169 | Index |
+| 170 | End balancing blank |
 
-Vegetable Guides and its how-to share recto page 9, facing blank 8.
-Introduction 7, Troubles 99 and Techniques 145 are also recto.
-Crops open verso. Interior blanks are 3, 6, 8, 98 and 166; cover leaves are counted
-separately. PDF page = interior folio + 2. The welcome page remains omitted.
+PDF page = interior folio + 2. Section openers remain recto at 9, 99 and 145.
+The contents face at 4–5. Blanks 150 and 162 were explicitly approved with the
+[section sequence](../techniques-sequence/APPROVAL-2026-10-18.json).
 
-## Approved material integrated
+## Included approvals
 
-The [approved header treatment](../vegetable-header-review/APPROVAL.json) is
-applied to all 44 vegetable openings. Harvest Seasons normally ends 20 CSS px
-before the shaded circle, moving right when the title needs clearance; Difficulty
-ovals match their page paper. Only the header regions are newly rendered. Every
-guide body, continuation page, table and body text size is preserved.
+- All [reader edits approved 16 October](../reader-edit-pass/APPROVAL-2026-10-16.json):
+  the calendar key, eight vegetable guides, Onion & Leek Troubles, compost,
+  sowing and greenhouse explanations, and five index routes. Their original
+  one-page rotation is superseded by the approved expanded spread.
+- The [two-page rotation](../topic-pages/crop-rotation-planning/APPROVAL-2026-10-18.json)
+  and [one-page nutrients](../topic-pages/nutrient-cycles/APPROVAL-2026-10-18.json),
+  placed in the [approved section order](../techniques-sequence/APPROVAL-2026-10-18.json).
+- All earlier approved headers, two-page carrot/onion/tomato layouts,
+  combined opener, navigation labels, flowing technique headings,
+  publication page and back-cover wording. G2 front and B5 back remain.
+  Missing copyright year, imprint, ISBN, edition and publication year remain placeholders.
 
-The [approved combined opener](../combined-guides-opening/APPROVAL.json) is reused
-from its frozen PDF at page 9, facing blank page 8. It includes the stronger peach
-panel, centred orange heading, native readable examples and the final removal of
-the Water stripe. Both Guides contents destinations and bookmarks now lead to 9;
-all crop and subsequent folios remain unchanged. The preceding full book is
-preserved as the [integration baseline](integration-headers-opening-2026-10-15/BASELINE.json).
+Contents retain their simple two-page structure, illustrations and 10.5 pt rows,
+with **81 destinations**. The gap above the lower illustrations is reduced from
+8 to 3 mm to accommodate the new entry. The four-page index retains 9.45 pt type
+and now has **286 entries and 35 see references**: all previous entries plus eight
+useful nutrient-page terms. Both units resolve to the same folios.
 
-The [carrot/onion approval](../vegetable-two-page-review/APPROVAL.json) and
-[tomato approval](../tomato-two-page-review/APPROVAL.json) bind the exact both-unit
-PDFs and sources. Their approved pages are split without reflow and reused through
-[APPROVED-GUIDES.json](integration-2026-10-15/APPROVED-GUIDES.json). New folios are
-carrot 14–15, onions/shallots 66–67, greenhouse tomato 82–83 and outdoor tomato
-84–85. Body font size and leading are unchanged. All pest and variety rows,
-planting drawings and measurements remain; the permitted table-removal fallback
-was not needed. The eight new pages replace twelve old guide pages and four
-alignment blanks. Historical highlighted trial reviews remain intact.
+The 74 crop-specific links still lead only to pages explicitly naming that crop.
+Repeated section names are printed once within each footer to keep the extra
+references readable. Contents, index, crop links and the three explicit topic
+cross-references are clickable inside the PDF.
 
-The [navigation approval](references/navigation-approved-2026-10-15/APPROVAL.json)
-and [technique-heading approval](references/technique-headings-approved-2026-10-15/APPROVAL.json)
-remain the source decisions. The combined Growing guide/crop heading is retained
-on each second page; the four replacement headings are reused directly. Every
-“See also” destination still explicitly names the crop in a compatible context.
-There are 55 links on 36 second pages, with eight crops having no qualifying link.
-The edition statement appears once on publication page 2. All 160 eligible
-footers carry the common section label and folio.
+## Sources, checks and limits
 
-The sixteen technique pages retain green 31.5 pt topic names and orange 22.5 pt
-qualifiers, with a common running title within each set. Thirteen headings fit
-one line; plot location and both Beds and paths pages need two. Approved topic
-body text and illustrations are preserved.
-
-The [approved publication/back-cover prose](../publication-copy/README.md) is
-placed in the publication page and B5 cover. Copyright year, imprint, ISBN,
-edition and publication year remain placeholders. B5's original image is intact;
-a [recorded image edit](../publication-copy/integration/ARTWORK.json) clears the
-placeholder paragraph in a separate derivative, with native editable text on top.
-Its title, guide count, collage, £17.50 and barcode reservation are retained.
-Production-grade exact page crops and editable remaining cover lettering are
-still separate work.
-
-## Evidence and limits
-
-[CHECKS.json](CHECKS.json), [COMPONENT-CHECKS.json](COMPONENT-CHECKS.json),
+[CHECKS.json](CHECKS.json), [PAGE-MAP.json](PAGE-MAP.json),
 [NAVIGATION-PDF-CHECKS.json](NAVIGATION-PDF-CHECKS.json),
-[VISUAL-REVIEW.json](VISUAL-REVIEW.json) and [PAGE-MAP.json](PAGE-MAP.json)
-identify the exact outputs and coverage. The latest [integration checks](integration-headers-opening-2026-10-15/INTEGRATION-CHECKS.json)
-verify 188 source/reference hashes and embedded fonts in all 44 headers.
-The preceding [two-page integration checks](integration-2026-10-15/INTEGRATION-CHECKS.json)
-remain as historical evidence.
+[SEQUENCE-CHECKS.json](SEQUENCE-CHECKS.json) and
+[VISUAL-REVIEW.json](VISUAL-REVIEW.json) describe the current output and coverage.
+The [integration receipt](integration-2026-10-18/INTEGRATION-CHECKS.json) checks every
+reused page body against its exact source, including glyph coordinates, type sizes
+and image counts, plus embedded fonts and actual link destinations. The previous
+166-page interior is preserved in [baseline.pdf](integration-2026-10-18/baseline.pdf).
 
-The assembly checks all 133 reused guide body pages against their actual source
-PDFs, including the eight approved replacement pages; only original footer and
-recorded heading replacements are excluded. All seventeen additional topic bodies,
-component text blocks, 80 contents destinations, 484 numeric index references and
-371 internal index links are checked. The index has 273 entries and 33 see references.
-Contents PDFs and all 44 header measurements are checked in both units. The approved
-combined opener is unit-neutral. The full book remains
-imperial only. The current visual receipt lists the actual pages inspected;
-rendering every page is not a claim of fresh visual review of every unchanged guide.
+No guide export or canonical gardening JSON change was made. The
+[book-copy transaction](integration-2026-10-18/BOOK-COPY-UPDATE.json) records the
+contents/index updates and exact-byte backup. Approved source PDFs, manuscripts,
+A4 originals and previous approvals remain intact. Old dates and folios in frozen
+proofs identify those historical sources; they are not current instructions.
 
-Canonical gardening JSON and shared book-copy JSON remain unchanged during this
-integration. Original approved A4/compact sources and the preceding 174-page
-[heading proof](../../../output/pdf/whole-book-order-preview/references/technique-headings-approved-2026-10-15.pdf)
-are preserved. No full-catalogue export was made. Ordinary individual-guide exports
-still need reconciliation with the approved presentation drafts before future
-collection regeneration. This screen derivative is not a supplier upload;
-production resolution, metric integration, stock, preflight and cover wrap remain
-separate work. Design approvals do not imply final full-book or supplier approval.
+Full assembly remains imperial. Metric contents/index references are checked;
+metric full-book integration, print-resolution output, stock, supplier preflight,
+final cover wrap and physical proof remain future production work. Current page
+count does not validate the old cost or spine calculations.
 
 ## Rebuilding after an authorised change
 
-Use the loopback app via `start.command` and the pinned Node runtime. Approved
-trial inputs are hash-bound; do not edit or regenerate them casually.
+Start the app through `start.command` on loopback, using the pinned Node runtime.
+Then run:
 
 ```sh
-python scripts/prepare-approved-two-page-guides.py
-npm run book:check
-npm run book:contents
-node scripts/build-approved-book-headers.mjs
-node scripts/build-book-back-cover.mjs
-node scripts/prepare-whole-book-preview.mjs
-node scripts/build-book-index.mjs --plan=docs/publication/contents-update/ASSEMBLY-PROPOSAL.json --topic-map=docs/publication/contents-update/TOPIC-FOLIOS.json --review-dir=docs/publication/whole-book-order-preview/index --output-dir=tmp/pdfs/whole-book-order-preview --start-page=162 --integrated --book-pdf=/output/pdf/whole-book-order-preview/the-vegetable-guru-order-preview.pdf
+npm run book:preview
 ```
 
-The combined opener is reused from its frozen approved PDF; do not rebuild it
-as the earlier standalone guide key. The header builder preserves the current
-guide bodies and applies only the approved header rule. Keep its saved inputs
-and the integration baseline available.
+This validates book copy, builds both contents proofs and the current four-page
+index, refreshes reference footers, assembles approved bodies and renders the
+complete facing-page viewer. It never exports the vegetable catalogue.
+Inspect changed pages and update the visual receipt after a rebuild.
 
-Use bundled Python/Poppler for `check-updated-contents.py`,
-`assemble-whole-book-preview.py`,
-`check-book-navigation.py` and `review-whole-book-preview.py`, in that dependency
-order. Inspect changed pages and viewer controls before updating visual evidence.
-Run the focused contents/index/navigation tests when changing their logic.
-The contents plan owns folios; stable source identities drive index and links.
-Do not patch generated PDFs as source copy or regenerate all guides for assembly.
+For changes to the final Organic growing draft, first run
+`node scripts/build-final-topic-edits.mjs`, then `npm run book:preview`.
+The final-copy manifest binds the working copy and both-unit PDFs to their exact
+sources. Stale or changed inputs fail rather than silently restoring older text.
+
+The component commands are `npm run book:contents` and `npm run book:index`.
+`integrate-approved-book.py` performs native PDF assembly and verification;
+`check-book-navigation.py` independently reopens its links;
+`review-whole-book-preview.py` builds page images and the viewer.
+Use the bundled Python/Poppler runtimes documented in SETUP.
+
+The old `prepare-whole-book-preview.mjs` and `assemble-whole-book-preview.py`
+execution paths are retired and stop with a redirect. `book:build`,
+`book:entries` and `book:guide-key` retain earlier standalone compositions;
+they do not rebuild the current combined opener or full book. Future content
+changes need new approved component inputs, not edits to frozen references.

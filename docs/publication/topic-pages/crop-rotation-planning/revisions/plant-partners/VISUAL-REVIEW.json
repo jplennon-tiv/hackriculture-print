@@ -1,0 +1,34 @@
+{
+  "status": "Copy refinement visually checked; pending John’s review",
+  "revision": "plant-partners",
+  "process": "Focused copy and PDF checks only; exact canonical pea/broad-bean root-retention advice consulted. No agents, persona tests, web research or full-book assembly.",
+  "pdfs": [
+    {
+      "unit": "imperial",
+      "sha256": "4519ffcef60377dcc3f685d5d6526cc5bed96997ec42c885bfd4cae611a6fe1c"
+    },
+    {
+      "unit": "metric",
+      "sha256": "2b88d64a80eae772eb23516703ae3e31607d39f1dfc6dc80111d05d2cf84f788"
+    }
+  ],
+  "viewed": [
+    "Actual imperial PDF pages 156–157 rendered as a facing spread, including all text, panels, illustrations and tables.",
+    "Metric page images are byte-identical to imperial; no alternate wrapping or unit content.",
+    "Final browser viewer with the revised imperial spread."
+  ],
+  "comparison": "Same two-page composition, artwork and type sizes as panels-and-muddle. Only the requested caption, replacement plant-feeding paragraph and four-block qualifier changed.",
+  "checks": [
+    "Requested three-year caption is present.",
+    "Appetite note replaced in full by Let plants help each other, explicitly retaining nitrogen-rich roots.",
+    "Crop-group note specifies the four-block system.",
+    "Both PDFs retain two 185 × 240 mm pages and unchanged 9.45 pt body type.",
+    "Source/footer clearances unchanged; no collisions or cropped text/images.",
+    "Metric rendered page images are byte-identical to imperial."
+  ],
+  "renderedEditionsIdentical": true,
+  "screenshot": "preview.jpg",
+  "screenshotSha256": "a8c6d210c47225ffab4f1cf746b0baf9fa633201e54f9a779cb8b4c52b70d646",
+  "limits": "Focused proposal only. Adding one page requires later parity/navigation review at full-book integration.",
+  "date": "2026-10-17"
+}

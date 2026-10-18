@@ -1,58 +1,38 @@
 {
-  "date": "2026-10-15",
+  "date": "2026-10-18",
   "status": "passed",
-  "pdfSha256": "39d437e8571d92aca177c31a2da4e2f371dada19a5f66465e4826678ac747cd6",
-  "reopenedNavigationLinks": 55,
-  "reopenedIndexLinks": 371,
-  "actualDestinationPagesMentionChecked": 51,
+  "pdfSha256": "0f9426f6bbe7deccc1f3a5f07c883c35ff1b226b668dac7771ecedc898299439",
+  "linksByKind": {
+    "see-also": 74,
+    "index": 391,
+    "contents": 81,
+    "body-reference": 3
+  },
+  "actualDestinationPagesMentionChecked": 53,
   "cropsWithoutLinks": [
     "artichoke_jerusalem",
     "salsify_scorzonera",
-    "chicory",
-    "aubergine",
     "capsicum",
     "sweet_corn",
     "artichoke_globe",
+    "asparagus",
+    "rhubarb",
     "mushroom"
   ],
-  "pdfPages": 170,
-  "overlayFonts": {
-    "/AAAAAA+NunitoSans12ptExtraLight12pt-Regular_Black": {
-      "type": "Type3",
-      "embedded": true
+  "minimumBodyToFooterMm": 3.565319459208259,
+  "fontsEmbedded": true,
+  "numericBodyReferences": [
+    {
+      "folio": 147,
+      "text": "pages 148–149"
     },
-    "/BAAAAA+LilitaOne": {
-      "type": "/Type0",
-      "embedded": true
+    {
+      "folio": 149,
+      "text": "pages 40–41"
     },
-    "/CAAAAA+NunitoSans12ptExtraLight12pt-Regular_ExtraBold": {
-      "type": "Type3",
-      "embedded": true
+    {
+      "folio": 165,
+      "text": "pages 56–59"
     }
-  },
-  "approvedBaselineBodyPagesCompared": 159,
-  "descriptiveTopicHeadings": [
-    146,
-    147,
-    148,
-    149,
-    150,
-    151,
-    152,
-    153,
-    154,
-    155,
-    156,
-    157,
-    158,
-    159,
-    160,
-    161
-  ],
-  "editionMentionFolios": [
-    2
-  ],
-  "approvedReferenceDestinationsUnchanged": true,
-  "destinationFoliosUpdated": true,
-  "minimumBodyToFooterMm": 4.827381985997224
+  ]
 }

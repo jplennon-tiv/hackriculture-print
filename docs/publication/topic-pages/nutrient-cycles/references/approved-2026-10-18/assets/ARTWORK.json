@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-18",
+  "status": "proposed",
+  "asset": "seaweed-trug.png",
+  "tool": "image_gen.imagegen",
+  "source": "/Users/johnlennon/.codex/generated_images/01a13b07-9d5d-7203-884f-5dab769cb870/exec-1c64c5b4-b00c-4a12-bfd0-b9fb11ee10ac.png",
+  "prompt": "Create a derived illustration for The Vegetable Guru by replacing the vegetables in the supplied style-reference images with a practical seaweed-gathering vignette. The references specify illustration style only; no carrots or peas should remain. Show a small plain tan wooden garden trug filled with loose olive-green and warm brown seaweed fronds, with two or three broad fronds spilling naturally beside it. The seaweed should look like freshly gathered storm-washed British kelp and wrack, NOT a terrestrial plant with leaves and stems. Strong simple recognisable silhouette, broad graphic colour planes, warm cream highlight shapes, restrained dimensional shading, crisp carefully cut edges, lively hand-painted editorial character matching the reference vegetables. No black outline, no photographic texture, no soft glowing halo, no scene background, no beach, no people, no text, no lettering, no border. Horizontal compact composition suitable for printing about 37mm wide. True transparent background, generous transparent margin; all seaweed and basket fully in frame.",
+  "references": [
+    "public/images/heroes/richer-a/pea.png",
+    "public/images/heroes/richer-a/carrot.png"
+  ],
+  "transparentBackground": true,
+  "review": "Inspected the two style references and generated image, then the actual PDF. Broad seaweed fronds and wrack bladders remain recognisable at final size; warm highlights and shaped colour planes match the existing stock. No lettering, clipping or visible background rectangle.",
+  "use": "31 mm image column in the winter seaweed panel; object-fit contain preserves full image. Original generated output retained.",
+  "sha256": "9d198d07fe43a782d907d3dae867a74bebb58a122e62bb63b7ddfca0f5f1adae",
+  "referenceHashes": {
+    "public/images/heroes/richer-a/pea.png": "72dacd9636ea428ca82761ab5231274b0a72f30f283f17af8c2a463c8be2c6df",
+    "public/images/heroes/richer-a/carrot.png": "733b775e5e9f87d78669551ca911e39ea3eb61bed6bc54815e64b10c8fbdbfe9"
+  }
+}

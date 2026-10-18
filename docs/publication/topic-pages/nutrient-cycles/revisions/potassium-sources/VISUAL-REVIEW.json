@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-18",
+  "revision": "potassium-sources",
+  "status": "Visually checked; John’s review pending",
+  "pdfSha256": "2c6510e2154e0e28864a4d43b65bbcdfbbdbb1d6e849fd09d18e100fc3429ea5",
+  "views": [
+    "Actual PDF pages 158 and 159 rendered at 150 dpi and inspected individually as facing pages",
+    "Previous one-page proof and original artwork compared for retained content and style"
+  ],
+  "findings": [
+    "Expanded nutrient table fits on the left; long phosphorus and potassium entries are readable with clear cell boundaries.",
+    "Three complete illustrations and their text panels face the table; green/orange family headings and paper/panel colours remain consistent.",
+    "Body and table text stay 9.45 pt. Table leading restored to 1.36; panel spacing and image size increased.",
+    "Mirrored inner margins are retained; no overflow, missing characters, images or clipped text.",
+    "Seaweed cross-references point opposite and rotation reference remains pages 156–157.",
+    "Two earlier author-supplied nutrient claims remain flagged in accompanying notes, as requested."
+  ],
+  "scope": "Two proposed facing pages, same dual-unit copy in both editions; full-book integration/parity review pending.",
+  "browserRefresh": "Blocked by browser URL access policy; actual local PDF proof inspected successfully.",
+  "pageChecks": [
+    {
+      "folio": 158,
+      "fontSizesPt": [
+        7.042,
+        7.35,
+        7.5,
+        9.45,
+        10.125,
+        16.5,
+        22.5,
+        31.5
+      ],
+      "sourceClearanceMm": 21.729,
+      "footerClearanceMm": 3.559,
+      "render": "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/topic-pages/nutrient-cycles/images/page-158.png"
+    },
+    {
+      "folio": 159,
+      "fontSizesPt": [
+        7.042,
+        7.35,
+        7.5,
+        9.45,
+        15.75,
+        22.5,
+        31.5
+      ],
+      "sourceClearanceMm": 23.784,
+      "footerClearanceMm": 3.559,
+      "render": "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/topic-pages/nutrient-cycles/images/page-159.png"
+    }
+  ]
+}

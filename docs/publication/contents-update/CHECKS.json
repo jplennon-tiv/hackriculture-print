@@ -1,16 +1,16 @@
 {
-  "date": "2026-10-14",
+  "date": "2026-10-18",
   "status": "Approved two-page contents with refreshed references: PDF/visual check pending",
-  "bookRevision": "ad0539eda57eb6469b5b3aa3dee25ee17d34240919b2904982db1cbb8e73d316",
+  "bookRevision": "47979654c8f0cd1324493533185bf05623cff8c368d214659698ee488278bf05",
   "copyInputs": {
     "../hackriculture-data/book-layout/book.json": "7cf5470e4a29859fadddaf32fa6d29370c2d6258d09fe25e57af2cc90f8df78e",
     "../hackriculture-data/book-layout/covers.json": "414327b71e1989f406412cf7f76f526b5c4b231df66348443ab5217847d74552",
     "../hackriculture-data/book-layout/publication.json": "1b9d3c3b8a6880de6fe5cf802b0c40ac25895ec6ba2a85b4c6cd8f70901256f1",
     "../hackriculture-data/book-layout/introduction.json": "7a54f281bf1b0ef07f656fcb9c4a252860e7dd2ba730225891777056b66b9e5d",
     "../hackriculture-data/book-layout/author.json": "244b1d0714c5b936f2ac5b8526c7f127996930609a0fc841b28a08edcd273176",
-    "../hackriculture-data/book-layout/contents.json": "4fef365caf670734a0d79ce8324c56e54e64015892545be2fa1e39683c330ad2",
-    "../hackriculture-data/book-layout/how-to.json": "a4bdbb78c4436c7ce4df6658392ff0c492375d56bcfc6b83a114b28c07d1af25",
-    "../hackriculture-data/book-layout/index.json": "644561af4403bc5f4327bdac2e023aba1564b09721b8db90f6ee652780ac2e83"
+    "../hackriculture-data/book-layout/contents.json": "848d74ec3b9f57e2eda37ec29a40d36c27b2fc67e33abedc1c85467b631347d2",
+    "../hackriculture-data/book-layout/how-to.json": "003eb4e88e0fc08793de7fe1d9e4c38633bad61b8bc5e2471768cc0327236d61",
+    "../hackriculture-data/book-layout/index.json": "6ae7667ef67da526220ced7ba44455b08bc261f5369cb81e0854585f13e65969"
   },
   "sourcePdfs": {
     "output/pdf/book-preparation/bookvault/imperial/vegetable_artichoke_jerusalem.pdf": {
@@ -977,9 +977,9 @@
     {
       "units": "imperial",
       "pdf": "output/pdf/contents-update/contents-imperial.pdf",
-      "sha256": "cb90a18c0d534b201998a8630e599d4b63d97fcb3d53796021227d9ea88063dd",
+      "sha256": "60fe5a2699c24f15579af156c89edbd4af369886fa43c6a545357feb1a525a42",
       "html": "docs/publication/contents-update/imperial.html",
-      "htmlSha256": "2f1d82ee5a5fdf9083bf2070ded76320627b15767862acad5b28390a6840eae4",
+      "htmlSha256": "5042a509d071f057f3db2a9ada304c3d0e064d3889b8b7eb30be10cd504b8560",
       "references": [
         {
           "source": "technique:why-grow",
@@ -1360,38 +1360,28 @@
           "startPage": 146
         },
         {
+          "source": "technique:nutrient-cycles",
+          "label": "Nutrient cycles",
+          "startPage": 147
+        },
+        {
+          "source": "technique:rotation",
+          "label": "Crop rotation & planning",
+          "startPage": 148
+        },
+        {
           "source": "technique:plot-location",
           "label": "Choosing your plot",
-          "startPage": 147
+          "startPage": 151
         },
         {
           "source": "technique:plot-layout",
           "label": "Beds and paths",
-          "startPage": 148
+          "startPage": 152
         },
         {
           "source": "technique:plot-layout-branching",
           "label": "Finger and leaf bed patterns",
-          "startPage": 149
-        },
-        {
-          "source": "cultivation:overview",
-          "label": "Cultivation: dig or no-dig",
-          "startPage": 150
-        },
-        {
-          "source": "cultivation:no-dig",
-          "label": "No-dig vegetable growing",
-          "startPage": 151
-        },
-        {
-          "source": "cultivation:digging",
-          "label": "Single and double digging",
-          "startPage": 152
-        },
-        {
-          "source": "cultivation:digging-finish",
-          "label": "Finishing the bed and smothering",
           "startPage": 153
         },
         {
@@ -1405,40 +1395,55 @@
           "startPage": 155
         },
         {
-          "source": "technique:rotation",
-          "label": "Crop rotation",
+          "source": "cultivation:overview",
+          "label": "Cultivation: dig or no-dig",
           "startPage": 156
+        },
+        {
+          "source": "cultivation:no-dig",
+          "label": "No-dig vegetable growing",
+          "startPage": 157
+        },
+        {
+          "source": "cultivation:digging",
+          "label": "Single and double digging",
+          "startPage": 158
+        },
+        {
+          "source": "cultivation:digging-finish",
+          "label": "Finishing the bed and smothering",
+          "startPage": 159
         },
         {
           "source": "technique:sowing",
           "label": "Sowing and planting",
-          "startPage": 157
+          "startPage": 160
         },
         {
           "source": "technique:watering",
           "label": "Watering",
-          "startPage": 158
+          "startPage": 161
         },
         {
           "source": "technique:greenhouse-choose",
           "label": "Choosing and siting a greenhouse",
-          "startPage": 159
+          "startPage": 163
         },
         {
           "source": "technique:greenhouse-beds",
           "label": "Greenhouse pots, bags & raised beds",
-          "startPage": 160
+          "startPage": 164
         },
         {
           "source": "technique:greenhouse-no-dig-seasons",
           "label": "Greenhouses: no-dig beds and seasons",
-          "startPage": 161
+          "startPage": 165
         },
         {
           "source": "back:index",
           "label": "Index",
           "description": "Look up a crop, a problem or a technique by name.",
-          "startPage": 162
+          "startPage": 166
         }
       ],
       "dom": [
@@ -2132,7 +2137,7 @@
         },
         {
           "folio": 5,
-          "footerClearanceMm": 6.577376302083333,
+          "footerClearanceMm": 5.07255859375,
           "blocks": [
             {
               "text": "Contents",
@@ -2380,7 +2385,7 @@
               "bottom": 56.89368489583333
             },
             {
-              "text": "Choosing your plot",
+              "text": "Nutrient cycles",
               "left": 101.49664713541667,
               "right": 168.47757161458333,
               "top": 58.216601562499996,
@@ -2394,7 +2399,7 @@
               "bottom": 63.400781249999994
             },
             {
-              "text": "Beds and paths",
+              "text": "Crop rotation & planning",
               "left": 101.49664713541667,
               "right": 168.47757161458333,
               "top": 64.72369791666667,
@@ -2408,200 +2413,214 @@
               "bottom": 69.90787760416667
             },
             {
-              "text": "Finger and leaf bed patterns",
+              "text": "Choosing your plot",
               "left": 101.49664713541667,
               "right": 168.47757161458333,
               "top": 71.23079427083333,
               "bottom": 76.41497395833333
-            },
-            {
-              "text": "149",
-              "left": 170.32965494791665,
-              "right": 176.99798177083332,
-              "top": 71.23079427083333,
-              "bottom": 76.41497395833333
-            },
-            {
-              "text": "Cultivation: dig or no-dig",
-              "left": 101.49664713541667,
-              "right": 168.47757161458333,
-              "top": 77.73789062499999,
-              "bottom": 82.9220703125
-            },
-            {
-              "text": "150",
-              "left": 170.32965494791665,
-              "right": 176.99798177083332,
-              "top": 77.73789062499999,
-              "bottom": 82.9220703125
-            },
-            {
-              "text": "No-dig vegetable growing",
-              "left": 101.49664713541667,
-              "right": 168.47757161458333,
-              "top": 84.24498697916665,
-              "bottom": 89.42916666666666
             },
             {
               "text": "151",
               "left": 170.32965494791665,
               "right": 176.99798177083332,
-              "top": 84.24498697916665,
-              "bottom": 89.42916666666666
+              "top": 71.23079427083333,
+              "bottom": 76.41497395833333
             },
             {
-              "text": "Single and double digging",
+              "text": "Beds and paths",
               "left": 101.49664713541667,
               "right": 168.47757161458333,
-              "top": 90.75208333333332,
-              "bottom": 95.93626302083334
+              "top": 77.73789062499999,
+              "bottom": 82.9220703125
             },
             {
               "text": "152",
               "left": 170.32965494791665,
               "right": 176.99798177083332,
-              "top": 90.75208333333332,
-              "bottom": 95.93626302083334
+              "top": 77.73789062499999,
+              "bottom": 82.9220703125
             },
             {
-              "text": "Finishing the bed and smothering",
+              "text": "Finger and leaf bed patterns",
               "left": 101.49664713541667,
               "right": 168.47757161458333,
-              "top": 97.25917968750001,
-              "bottom": 102.443359375
+              "top": 84.24498697916665,
+              "bottom": 89.42916666666666
             },
             {
               "text": "153",
               "left": 170.32965494791665,
               "right": 176.99798177083332,
-              "top": 97.25917968750001,
-              "bottom": 102.443359375
+              "top": 84.24498697916665,
+              "bottom": 89.42916666666666
             },
             {
               "text": "Making compost",
               "left": 101.49664713541667,
               "right": 168.47757161458333,
-              "top": 103.76627604166667,
-              "bottom": 108.95045572916666
+              "top": 90.75208333333332,
+              "bottom": 95.93626302083334
             },
             {
               "text": "154",
               "left": 170.32965494791665,
               "right": 176.99798177083332,
-              "top": 103.76627604166667,
-              "bottom": 108.95045572916666
+              "top": 90.75208333333332,
+              "bottom": 95.93626302083334
             },
             {
               "text": "Feeding and using your compost bin",
               "left": 101.49664713541667,
               "right": 168.47757161458333,
-              "top": 110.27337239583333,
-              "bottom": 115.45755208333333
+              "top": 97.25917968750001,
+              "bottom": 102.443359375
             },
             {
               "text": "155",
               "left": 170.32965494791665,
               "right": 176.99798177083332,
-              "top": 110.27337239583333,
-              "bottom": 115.45755208333333
+              "top": 97.25917968750001,
+              "bottom": 102.443359375
             },
             {
-              "text": "Crop rotation",
+              "text": "Cultivation: dig or no-dig",
               "left": 101.49664713541667,
               "right": 168.47757161458333,
-              "top": 116.78046875,
-              "bottom": 121.96464843749999
+              "top": 103.76627604166667,
+              "bottom": 108.95045572916666
             },
             {
               "text": "156",
               "left": 170.32965494791665,
               "right": 176.99798177083332,
-              "top": 116.78046875,
-              "bottom": 121.96464843749999
+              "top": 103.76627604166667,
+              "bottom": 108.95045572916666
             },
             {
-              "text": "Sowing and planting",
+              "text": "No-dig vegetable growing",
               "left": 101.49664713541667,
               "right": 168.47757161458333,
-              "top": 123.28756510416666,
-              "bottom": 128.47174479166665
+              "top": 110.27337239583333,
+              "bottom": 115.45755208333333
             },
             {
               "text": "157",
               "left": 170.32965494791665,
               "right": 176.99798177083332,
-              "top": 123.28756510416666,
-              "bottom": 128.47174479166665
+              "top": 110.27337239583333,
+              "bottom": 115.45755208333333
             },
             {
-              "text": "Watering",
+              "text": "Single and double digging",
               "left": 101.49664713541667,
               "right": 168.47757161458333,
-              "top": 129.7946614583333,
-              "bottom": 134.97884114583334
+              "top": 116.78046875,
+              "bottom": 121.96464843749999
             },
             {
               "text": "158",
               "left": 170.32965494791665,
               "right": 176.99798177083332,
-              "top": 129.7946614583333,
-              "bottom": 134.97884114583334
+              "top": 116.78046875,
+              "bottom": 121.96464843749999
             },
             {
-              "text": "Choosing and siting a greenhouse",
+              "text": "Finishing the bed and smothering",
               "left": 101.49664713541667,
               "right": 168.47757161458333,
-              "top": 136.3017578125,
-              "bottom": 141.4859375
+              "top": 123.28756510416666,
+              "bottom": 128.47174479166665
             },
             {
               "text": "159",
               "left": 170.32965494791665,
               "right": 176.99798177083332,
-              "top": 136.3017578125,
-              "bottom": 141.4859375
+              "top": 123.28756510416666,
+              "bottom": 128.47174479166665
             },
             {
-              "text": "Greenhouse pots, bags & raised beds",
+              "text": "Sowing and planting",
               "left": 101.49664713541667,
               "right": 168.47757161458333,
-              "top": 142.80885416666666,
-              "bottom": 147.99303385416667
+              "top": 129.7946614583333,
+              "bottom": 134.97884114583334
             },
             {
               "text": "160",
               "left": 170.32965494791665,
               "right": 176.99798177083332,
-              "top": 142.80885416666666,
-              "bottom": 147.99303385416667
+              "top": 129.7946614583333,
+              "bottom": 134.97884114583334
             },
             {
-              "text": "Greenhouses: no-dig beds and seasons",
+              "text": "Watering",
               "left": 101.49664713541667,
               "right": 168.47757161458333,
-              "top": 149.31595052083333,
-              "bottom": 154.50013020833333
+              "top": 136.3017578125,
+              "bottom": 141.4859375
             },
             {
               "text": "161",
               "left": 170.32965494791665,
               "right": 176.99798177083332,
+              "top": 136.3017578125,
+              "bottom": 141.4859375
+            },
+            {
+              "text": "Choosing and siting a greenhouse",
+              "left": 101.49664713541667,
+              "right": 168.47757161458333,
+              "top": 142.80885416666666,
+              "bottom": 147.99303385416667
+            },
+            {
+              "text": "163",
+              "left": 170.32965494791665,
+              "right": 176.99798177083332,
+              "top": 142.80885416666666,
+              "bottom": 147.99303385416667
+            },
+            {
+              "text": "Greenhouse pots, bags & raised beds",
+              "left": 101.49664713541667,
+              "right": 168.47757161458333,
               "top": 149.31595052083333,
               "bottom": 154.50013020833333
+            },
+            {
+              "text": "164",
+              "left": 170.32965494791665,
+              "right": 176.99798177083332,
+              "top": 149.31595052083333,
+              "bottom": 154.50013020833333
+            },
+            {
+              "text": "Greenhouses: no-dig beds and seasons",
+              "left": 101.49664713541667,
+              "right": 168.47757161458333,
+              "top": 155.823046875,
+              "bottom": 161.0072265625
+            },
+            {
+              "text": "165",
+              "left": 170.32965494791665,
+              "right": 176.99798177083332,
+              "top": 155.823046875,
+              "bottom": 161.0072265625
             },
             {
               "text": "Index",
               "left": 101.49664713541667,
               "right": 168.47757161458333,
-              "top": 161.82164713541667,
-              "bottom": 167.00582682291665
+              "top": 168.32874348958333,
+              "bottom": 173.5129231770833
             },
             {
-              "text": "162",
+              "text": "166",
               "left": 170.32965494791665,
               "right": 176.99798177083332,
-              "top": 161.82164713541667,
-              "bottom": 167.00582682291665
+              "top": 168.32874348958333,
+              "bottom": 173.5129231770833
             },
             {
               "text": "THE VEGETABLE GURUIMPERIAL · 5",
@@ -2624,7 +2643,7 @@
               "src": "/docs/assets/vegetable-guru-stock/assets/h5-growing-start-hero-style-v2.png",
               "loaded": true,
               "left": 26.499674479166668,
-              "top": 175.92311197916663,
+              "top": 177.42792968749998,
               "width": 60.998860677083336,
               "height": 45.74811197916666
             },
@@ -2632,7 +2651,7 @@
               "src": "/docs/assets/vegetable-guru-stock/assets/h6-growing-harvest-hero-style-v2.png",
               "loaded": true,
               "left": 106.49892578124998,
-              "top": 175.92311197916663,
+              "top": 177.42792968749998,
               "width": 60.998860677083336,
               "height": 45.74811197916666
             }
@@ -2695,9 +2714,9 @@
     {
       "units": "metric",
       "pdf": "output/pdf/contents-update/contents-metric.pdf",
-      "sha256": "1798b6afe53875684002e6c178d87d1ab3e52f2c85793aebb2c6bb5db94ad5d6",
+      "sha256": "289a9302a57d943a2aac9c8e4fdbb74f8441e8a7536416de694bcbc45fabea0e",
       "html": "docs/publication/contents-update/metric.html",
-      "htmlSha256": "a84d511a273e362aa5fb3e01b257b5a73f8994e9f1da4c535280d147e3661320",
+      "htmlSha256": "145c6f97e80633296029c009ec31039d51220fb58da2dbadeaae8379faf54c9a",
       "references": [
         {
           "source": "technique:why-grow",
@@ -3078,38 +3097,28 @@
           "startPage": 146
         },
         {
+          "source": "technique:nutrient-cycles",
+          "label": "Nutrient cycles",
+          "startPage": 147
+        },
+        {
+          "source": "technique:rotation",
+          "label": "Crop rotation & planning",
+          "startPage": 148
+        },
+        {
           "source": "technique:plot-location",
           "label": "Choosing your plot",
-          "startPage": 147
+          "startPage": 151
         },
         {
           "source": "technique:plot-layout",
           "label": "Beds and paths",
-          "startPage": 148
+          "startPage": 152
         },
         {
           "source": "technique:plot-layout-branching",
           "label": "Finger and leaf bed patterns",
-          "startPage": 149
-        },
-        {
-          "source": "cultivation:overview",
-          "label": "Cultivation: dig or no-dig",
-          "startPage": 150
-        },
-        {
-          "source": "cultivation:no-dig",
-          "label": "No-dig vegetable growing",
-          "startPage": 151
-        },
-        {
-          "source": "cultivation:digging",
-          "label": "Single and double digging",
-          "startPage": 152
-        },
-        {
-          "source": "cultivation:digging-finish",
-          "label": "Finishing the bed and smothering",
           "startPage": 153
         },
         {
@@ -3123,40 +3132,55 @@
           "startPage": 155
         },
         {
-          "source": "technique:rotation",
-          "label": "Crop rotation",
+          "source": "cultivation:overview",
+          "label": "Cultivation: dig or no-dig",
           "startPage": 156
+        },
+        {
+          "source": "cultivation:no-dig",
+          "label": "No-dig vegetable growing",
+          "startPage": 157
+        },
+        {
+          "source": "cultivation:digging",
+          "label": "Single and double digging",
+          "startPage": 158
+        },
+        {
+          "source": "cultivation:digging-finish",
+          "label": "Finishing the bed and smothering",
+          "startPage": 159
         },
         {
           "source": "technique:sowing",
           "label": "Sowing and planting",
-          "startPage": 157
+          "startPage": 160
         },
         {
           "source": "technique:watering",
           "label": "Watering",
-          "startPage": 158
+          "startPage": 161
         },
         {
           "source": "technique:greenhouse-choose",
           "label": "Choosing and siting a greenhouse",
-          "startPage": 159
+          "startPage": 163
         },
         {
           "source": "technique:greenhouse-beds",
           "label": "Greenhouse pots, bags & raised beds",
-          "startPage": 160
+          "startPage": 164
         },
         {
           "source": "technique:greenhouse-no-dig-seasons",
           "label": "Greenhouses: no-dig beds and seasons",
-          "startPage": 161
+          "startPage": 165
         },
         {
           "source": "back:index",
           "label": "Index",
           "description": "Look up a crop, a problem or a technique by name.",
-          "startPage": 162
+          "startPage": 166
         }
       ],
       "dom": [
@@ -3850,7 +3874,7 @@
         },
         {
           "folio": 5,
-          "footerClearanceMm": 6.577376302083333,
+          "footerClearanceMm": 5.07255859375,
           "blocks": [
             {
               "text": "Contents",
@@ -4098,7 +4122,7 @@
               "bottom": 56.89368489583333
             },
             {
-              "text": "Choosing your plot",
+              "text": "Nutrient cycles",
               "left": 101.49664713541667,
               "right": 168.47757161458333,
               "top": 58.216601562499996,
@@ -4112,7 +4136,7 @@
               "bottom": 63.400781249999994
             },
             {
-              "text": "Beds and paths",
+              "text": "Crop rotation & planning",
               "left": 101.49664713541667,
               "right": 168.47757161458333,
               "top": 64.72369791666667,
@@ -4126,200 +4150,214 @@
               "bottom": 69.90787760416667
             },
             {
-              "text": "Finger and leaf bed patterns",
+              "text": "Choosing your plot",
               "left": 101.49664713541667,
               "right": 168.47757161458333,
               "top": 71.23079427083333,
               "bottom": 76.41497395833333
-            },
-            {
-              "text": "149",
-              "left": 170.32965494791665,
-              "right": 176.99798177083332,
-              "top": 71.23079427083333,
-              "bottom": 76.41497395833333
-            },
-            {
-              "text": "Cultivation: dig or no-dig",
-              "left": 101.49664713541667,
-              "right": 168.47757161458333,
-              "top": 77.73789062499999,
-              "bottom": 82.9220703125
-            },
-            {
-              "text": "150",
-              "left": 170.32965494791665,
-              "right": 176.99798177083332,
-              "top": 77.73789062499999,
-              "bottom": 82.9220703125
-            },
-            {
-              "text": "No-dig vegetable growing",
-              "left": 101.49664713541667,
-              "right": 168.47757161458333,
-              "top": 84.24498697916665,
-              "bottom": 89.42916666666666
             },
             {
               "text": "151",
               "left": 170.32965494791665,
               "right": 176.99798177083332,
-              "top": 84.24498697916665,
-              "bottom": 89.42916666666666
+              "top": 71.23079427083333,
+              "bottom": 76.41497395833333
             },
             {
-              "text": "Single and double digging",
+              "text": "Beds and paths",
               "left": 101.49664713541667,
               "right": 168.47757161458333,
-              "top": 90.75208333333332,
-              "bottom": 95.93626302083334
+              "top": 77.73789062499999,
+              "bottom": 82.9220703125
             },
             {
               "text": "152",
               "left": 170.32965494791665,
               "right": 176.99798177083332,
-              "top": 90.75208333333332,
-              "bottom": 95.93626302083334
+              "top": 77.73789062499999,
+              "bottom": 82.9220703125
             },
             {
-              "text": "Finishing the bed and smothering",
+              "text": "Finger and leaf bed patterns",
               "left": 101.49664713541667,
               "right": 168.47757161458333,
-              "top": 97.25917968750001,
-              "bottom": 102.443359375
+              "top": 84.24498697916665,
+              "bottom": 89.42916666666666
             },
             {
               "text": "153",
               "left": 170.32965494791665,
               "right": 176.99798177083332,
-              "top": 97.25917968750001,
-              "bottom": 102.443359375
+              "top": 84.24498697916665,
+              "bottom": 89.42916666666666
             },
             {
               "text": "Making compost",
               "left": 101.49664713541667,
               "right": 168.47757161458333,
-              "top": 103.76627604166667,
-              "bottom": 108.95045572916666
+              "top": 90.75208333333332,
+              "bottom": 95.93626302083334
             },
             {
               "text": "154",
               "left": 170.32965494791665,
               "right": 176.99798177083332,
-              "top": 103.76627604166667,
-              "bottom": 108.95045572916666
+              "top": 90.75208333333332,
+              "bottom": 95.93626302083334
             },
             {
               "text": "Feeding and using your compost bin",
               "left": 101.49664713541667,
               "right": 168.47757161458333,
-              "top": 110.27337239583333,
-              "bottom": 115.45755208333333
+              "top": 97.25917968750001,
+              "bottom": 102.443359375
             },
             {
               "text": "155",
               "left": 170.32965494791665,
               "right": 176.99798177083332,
-              "top": 110.27337239583333,
-              "bottom": 115.45755208333333
+              "top": 97.25917968750001,
+              "bottom": 102.443359375
             },
             {
-              "text": "Crop rotation",
+              "text": "Cultivation: dig or no-dig",
               "left": 101.49664713541667,
               "right": 168.47757161458333,
-              "top": 116.78046875,
-              "bottom": 121.96464843749999
+              "top": 103.76627604166667,
+              "bottom": 108.95045572916666
             },
             {
               "text": "156",
               "left": 170.32965494791665,
               "right": 176.99798177083332,
-              "top": 116.78046875,
-              "bottom": 121.96464843749999
+              "top": 103.76627604166667,
+              "bottom": 108.95045572916666
             },
             {
-              "text": "Sowing and planting",
+              "text": "No-dig vegetable growing",
               "left": 101.49664713541667,
               "right": 168.47757161458333,
-              "top": 123.28756510416666,
-              "bottom": 128.47174479166665
+              "top": 110.27337239583333,
+              "bottom": 115.45755208333333
             },
             {
               "text": "157",
               "left": 170.32965494791665,
               "right": 176.99798177083332,
-              "top": 123.28756510416666,
-              "bottom": 128.47174479166665
+              "top": 110.27337239583333,
+              "bottom": 115.45755208333333
             },
             {
-              "text": "Watering",
+              "text": "Single and double digging",
               "left": 101.49664713541667,
               "right": 168.47757161458333,
-              "top": 129.7946614583333,
-              "bottom": 134.97884114583334
+              "top": 116.78046875,
+              "bottom": 121.96464843749999
             },
             {
               "text": "158",
               "left": 170.32965494791665,
               "right": 176.99798177083332,
-              "top": 129.7946614583333,
-              "bottom": 134.97884114583334
+              "top": 116.78046875,
+              "bottom": 121.96464843749999
             },
             {
-              "text": "Choosing and siting a greenhouse",
+              "text": "Finishing the bed and smothering",
               "left": 101.49664713541667,
               "right": 168.47757161458333,
-              "top": 136.3017578125,
-              "bottom": 141.4859375
+              "top": 123.28756510416666,
+              "bottom": 128.47174479166665
             },
             {
               "text": "159",
               "left": 170.32965494791665,
               "right": 176.99798177083332,
-              "top": 136.3017578125,
-              "bottom": 141.4859375
+              "top": 123.28756510416666,
+              "bottom": 128.47174479166665
             },
             {
-              "text": "Greenhouse pots, bags & raised beds",
+              "text": "Sowing and planting",
               "left": 101.49664713541667,
               "right": 168.47757161458333,
-              "top": 142.80885416666666,
-              "bottom": 147.99303385416667
+              "top": 129.7946614583333,
+              "bottom": 134.97884114583334
             },
             {
               "text": "160",
               "left": 170.32965494791665,
               "right": 176.99798177083332,
-              "top": 142.80885416666666,
-              "bottom": 147.99303385416667
+              "top": 129.7946614583333,
+              "bottom": 134.97884114583334
             },
             {
-              "text": "Greenhouses: no-dig beds and seasons",
+              "text": "Watering",
               "left": 101.49664713541667,
               "right": 168.47757161458333,
-              "top": 149.31595052083333,
-              "bottom": 154.50013020833333
+              "top": 136.3017578125,
+              "bottom": 141.4859375
             },
             {
               "text": "161",
               "left": 170.32965494791665,
               "right": 176.99798177083332,
+              "top": 136.3017578125,
+              "bottom": 141.4859375
+            },
+            {
+              "text": "Choosing and siting a greenhouse",
+              "left": 101.49664713541667,
+              "right": 168.47757161458333,
+              "top": 142.80885416666666,
+              "bottom": 147.99303385416667
+            },
+            {
+              "text": "163",
+              "left": 170.32965494791665,
+              "right": 176.99798177083332,
+              "top": 142.80885416666666,
+              "bottom": 147.99303385416667
+            },
+            {
+              "text": "Greenhouse pots, bags & raised beds",
+              "left": 101.49664713541667,
+              "right": 168.47757161458333,
               "top": 149.31595052083333,
               "bottom": 154.50013020833333
+            },
+            {
+              "text": "164",
+              "left": 170.32965494791665,
+              "right": 176.99798177083332,
+              "top": 149.31595052083333,
+              "bottom": 154.50013020833333
+            },
+            {
+              "text": "Greenhouses: no-dig beds and seasons",
+              "left": 101.49664713541667,
+              "right": 168.47757161458333,
+              "top": 155.823046875,
+              "bottom": 161.0072265625
+            },
+            {
+              "text": "165",
+              "left": 170.32965494791665,
+              "right": 176.99798177083332,
+              "top": 155.823046875,
+              "bottom": 161.0072265625
             },
             {
               "text": "Index",
               "left": 101.49664713541667,
               "right": 168.47757161458333,
-              "top": 161.82164713541667,
-              "bottom": 167.00582682291665
+              "top": 168.32874348958333,
+              "bottom": 173.5129231770833
             },
             {
-              "text": "162",
+              "text": "166",
               "left": 170.32965494791665,
               "right": 176.99798177083332,
-              "top": 161.82164713541667,
-              "bottom": 167.00582682291665
+              "top": 168.32874348958333,
+              "bottom": 173.5129231770833
             },
             {
               "text": "THE VEGETABLE GURUMETRIC · 5",
@@ -4342,7 +4380,7 @@
               "src": "/docs/assets/vegetable-guru-stock/assets/h5-growing-start-hero-style-v2.png",
               "loaded": true,
               "left": 26.499674479166668,
-              "top": 175.92311197916663,
+              "top": 177.42792968749998,
               "width": 60.998860677083336,
               "height": 45.74811197916666
             },
@@ -4350,7 +4388,7 @@
               "src": "/docs/assets/vegetable-guru-stock/assets/h6-growing-harvest-hero-style-v2.png",
               "loaded": true,
               "left": 106.49892578124998,
-              "top": 175.92311197916663,
+              "top": 177.42792968749998,
               "width": 60.998860677083336,
               "height": 45.74811197916666
             }
@@ -4413,12 +4451,12 @@
   ],
   "protectedFilesUnchanged": true,
   "implementation": {
-    "scripts/build-updated-contents.mjs": "1802d6615d8d36a35531ec164be00872183bfdeb339b5e511e147c3748603da3",
-    "scripts/lib/book-contents.mjs": "78f1b57ce5a8067ff023e62a874e242062f1c949b75c07da8699f7b14b1a575c",
+    "scripts/build-updated-contents.mjs": "c8893faa3aa5aec1536668322db2c01034a647627981c705bd543b62b5fa5fa1",
+    "scripts/lib/book-contents.mjs": "c17fdfac5f2e7271ded4b415989da4c49bc3f7977ad71f5e37ce127e87c4620a",
     "scripts/lib/book-content.mjs": "4f6b2de01ee6ef51b1392ceb6a97f8dff3273e3b9870855d4d5cbdb738921c2e",
-    "docs/publication/contents-update/contents.css": "17f54795efc6617328d066033135d82fd5f1be706f9b6f7c1af72ad35988a058",
+    "docs/publication/contents-update/contents.css": "0c86c170486294faeffdf96d2acc19f6037d5f6327ef015e70de3cf9c964a382",
     "docs/publication/vegetable-guru-entry-pages/entry-pages.css": "9796fac872f5e80f95799912f2da7dd690734dffa2b7af7336f0b8bcd8c39d43",
     "src/print/familyThemes.json": "e4c1dbb5d9d77a0060d518d4c751ec23f7282e6b89ea2d05ebe2c451812bc4df"
   },
-  "assemblyProposalSha256": "e986090ff9d7b5a871be5b2759ec7ba95377d795a1e14d0a727f5a6b53f87086"
+  "assemblyProposalSha256": "8aad9e34a4f41bc02e215919879b2c2d10946f8365d338fbd66dffe237f99c0d"
 }

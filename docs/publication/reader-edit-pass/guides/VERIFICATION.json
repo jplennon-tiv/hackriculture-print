@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-15",
+  "status": "complete_for_parent_review_assembly",
+  "originalInputsUnchanged": 22,
+  "approvedSourcePdfsUnchanged": 18,
+  "guideEditions": 18,
+  "pagesChecked": 38,
+  "listedEditionSpecificEdits": 28,
+  "actualPdfFolioPngs": 76,
+  "canonicalRecordsChanged": false,
+  "approvedTrialsChanged": false,
+  "frozenPdfsChanged": false,
+  "visualReview": {
+    "units": [
+      "imperial",
+      "metric"
+    ],
+    "coverage": "All affected pages and guide spreads; final corrected asparagus fact checked against its value and retained Row spacing.",
+    "observations": "No clipped body text, hidden rows, missing art, header collisions or footer overlap. Current header placement and combined heading/navigation retained."
+  },
+  "sourceConditionsFile": "src/print/book/reader-edit-pass/guide-copy.json",
+  "manifestSha256": "d452e0e8e059bdca9359c26064fb483874e449a9582793ad73dc9f179d5659b0",
+  "checksSha256": "eeb9880904e38a9d3afc432eb3d7da3fbc7e3fbc7508c459c04afcb7628f54cf",
+  "workingFiles": {
+    "scripts/build-reader-guides.mjs": "704e2331494c2b46953d33275fa410dfa2a15fdacb3e2ebd5d89281471d9aca6",
+    "scripts/build-reader-guides.py": "1122bc3a694a2bf59a1a8c0345f2bf4bee1ca59f90dd0a43f6b62b185751ce18",
+    "src/print/book/reader-edit-pass/guide-copy.json": "8f4503582cbe39a9713651639d38cd68c3b264d3094db063fbc2b7ea6266e103",
+    "src/print/book/reader-edit-pass/guide-layout.mjs": "cf666360e4556525a3eec3a8fef2242de53f019ad59e6d66f2958022e2f389b8"
+  }
+}

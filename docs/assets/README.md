@@ -49,7 +49,7 @@ hashes exact frozen PDFs in both units, text, layout sources and four placed
 illustration groups. Preserve its `references/approved-2026-10-08/` files.
 [Editable working text](../../../hackriculture-resources/summaries/cultivation-dig-no-dig/copy.json)
 remains in the resource library; John's later edits need updated proofs.
-The current imperial whole-book preview includes these pages at 158–161.
+The current imperial whole-book preview includes these pages at 156–159.
 Final production integration remains pending; this is page approval, not
 supplier or physical-proof approval.
 
@@ -60,8 +60,18 @@ John approved the [four-page index](../publication/book-index/REVIEW.html) on
 It reuses approved contents typography, palette and mirrored margins, with a
 text-only two-column composition. Editable words remain in shared
 `book-layout/index.json`. The current whole-book derivative has numeric folios
-at 170–173; historical T/C references remain only in the preserved standalone
-proof. Final pagination is still reviewable. No new artwork or existing asset replacement.
+at 166–169; historical T/C references remain only in the preserved standalone
+proof. It includes the five approved reader-edit entries plus eight nutrient-page terms: 286 entries and 35 see references. Source artwork and frozen proofs remain unchanged.
+
+## Current section and reader-edit integration
+
+The [18 October section-order approval](../publication/techniques-sequence/APPROVAL-2026-10-18.json)
+freezes Growing Techniques at 145–165, including blanks 150 and 162. It is now
+integrated with all [approved reader edits](../publication/reader-edit-pass/APPROVAL-2026-10-16.json).
+The [expanded rotation approval](../publication/topic-pages/crop-rotation-planning/APPROVAL-2026-10-18.json)
+replaces the earlier one-page rotation; current folios are 148–149. All older
+source pages remain protected. The [current integration receipt](../publication/whole-book-order-preview/integration-2026-10-18/INTEGRATION-CHECKS.json)
+identifies every reused PDF and verifies preserved bodies and artwork.
 
 ## Extra opening and Growing Techniques pages
 
@@ -78,6 +88,14 @@ Individual approval history and original page sources:
 Their frozen reference folders preserve copy, both-unit proofs, layout and artwork.
 Both [Beds and paths pages](../publication/topic-pages/techniques-expansion/BEDS-PATHS-APPROVAL.json) are now approved, including conventional/keyhole artwork and branching v3. Preserve their frozen references. All three [Greenhouse pages](../publication/topic-pages/techniques-expansion/GREENHOUSE-APPROVAL.json) are also approved (9 October), with copy, artwork, layout and both-unit proofs frozen. The compost-bin overview (now page 10) is approved on 11 October, and the compost-use and Organic growing pages (now 11 and 2) on 12 October. [Watering Well](../publication/topic-pages/techniques-expansion/WATERING-APPROVAL.json), page 12, is also approved on 12 October, including its watering-check illustration and final copy. Preserve its frozen references. [Sowing and Planting](../publication/topic-pages/techniques-expansion/SOWING-APPROVAL.json), page 13, is approved on 12 October, with its sowing-sequence illustration and final copy preserved. Organic growing now follows Why Grow Your Own as page 2; the [order record](../publication/topic-pages/techniques-expansion/ORGANIC-PAGE-ORDER.json) maps current pages to the unchanged frozen approvals. The [artwork record](../publication/topic-pages/techniques-expansion/ARTWORK.json)
 indexes the original scenes and retained superseded compost drawing; the linked Beds and paths and greenhouse records bring the current collection to twelve placed raster assets.
+The [Nutrient cycles follow-on page](../publication/topic-pages/nutrient-cycles/REVIEW.html)
+was restored to one page and approved by John on 18 October after his shorter copy: a practical nutrient table and three examples. It retains the
+unchanged broad-bean hero and approved compost-use illustration, plus a new
+[seaweed trug](../publication/topic-pages/nutrient-cycles/assets/ARTWORK.json) derived
+from the approved pea/carrot style.
+Its [composition/asset record](../publication/topic-pages/nutrient-cycles/COMPOSITION.json)
+records exact sources and hashes; the [approval record](../publication/topic-pages/nutrient-cycles/APPROVAL-2026-10-18.json) freezes the accepted page and seaweed art. It is integrated at page 147, before the approved Crop rotation & planning spread at 148–149.
+
 The approved [Beds and paths artwork](../publication/topic-pages/techniques-expansion/BEDS-PATHS-ARTWORK.html)
 shows conventional, keyhole and branching layouts beside direct approved hero
 references; prompts and hashes remain in its linked record. It replaces the flat
@@ -192,14 +210,9 @@ The [7 October three-page compact proposal](../publication/vegetable-guru-openin
 uses selected G2 for title hierarchy, cream/green palette and the vegetable-tile
 idea, the approved tomato/onion/pea/carrot/kale heroes, and the original harvest
 cluster. [Source hashes and decisions](../publication/vegetable-guru-opening-pages/CHECKS.json)
-record that reuse and the deliberate title-page simplification. Pages 1–3 use
-lipsum orum at John's request and remain unapproved; author/publication fields
-are placeholders. The current imperial preview includes title and publication
+record that reuse and the deliberate title-page simplification. The original proposal contains the then-current placeholder text; it is retained as historical source evidence. The current imperial preview includes title and publication
 only; John requested removal of the welcome/author page. New [publication and
-back-cover wording](../publication/publication-copy/REVIEW.html) was drafted on
-15 October in the shared copy layer; the full proof and B5 raster still show the
-previous wording pending placement. Its copy, H3/S1 trials
-and the original proposal are retained. Earlier production books keep their
+back-cover wording](../publication/publication-copy/REVIEW.html) was approved and integrated on 15 October. Metadata placeholders remain by request. B5 uses a separate background derivative with native blurb text; its original raster is preserved. H3/S1 trials and the original proposal remain retained sources. Earlier production books keep their
 older openings.
 
 ## Additional compact-book illustration stock
@@ -239,7 +252,7 @@ hero-style roots decorate the two headers; H5 seedlings and H6 harvest fill the
 second page’s lower space. These are existing stock, reused without modification;
 John accepted these placements for integration. Family/topic subheadings and
 explanatory notes remain omitted. The welcome entry is removed at John’s request;
-all 80 current destinations remain. Blank 3 puts the contents on facing pages
+all 81 current destinations are included. Blank 3 puts the contents on facing pages
 4–5, followed by blank 6, Introduction 7, blank 8 and the combined Vegetable Guides/how-to at right-hand page 9. Their current PDF is integrated into
 the complete imperial preview. The plain baseline and exact accepted illustrated
 4–5 proofs are retained under the contents reference folders. Original approved compact and A4 sources remain intact.

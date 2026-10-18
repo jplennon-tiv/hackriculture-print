@@ -1,0 +1,187 @@
+{
+  "status": "Researched nitrogen explanation added at John’s request; two-page working proof for review.",
+  "title": "Crop rotation & planning",
+  "research": "RESEARCH-BRIEF.json",
+  "sources": {
+    "oldRotation": {
+      "path": "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/copy.json",
+      "sha256": "7d3933e59396b4fa902227b04f3f76a5bdfc4b3416fe59b671ca2aa200b45a19"
+    },
+    "readerRotation": {
+      "path": "/Users/johnlennon/Documents/web_site/hackriculture-print/src/print/book/reader-edit-pass/techniques-copy.json",
+      "sha256": "91be0be7a7527512616b2a437e38f0b7feedcb1f77981ae1e6f3dba816b442fa"
+    }
+  },
+  "pages": [
+    {
+      "id": "rotation-basics",
+      "folio": 156,
+      "qualifier": "Start with one bed",
+      "lead": "Rotation means moving plant families to different ground instead of growing the same or similar crops in one place year after year. It has two useful jobs: reducing shared pests and diseases, and helping leafy crops use nitrogen left by peas and beans.",
+      "familiesTitle": "Crop families: useful examples",
+      "families": [
+        [
+          "Brassicas",
+          "Cabbage, kale, broccoli, Brussels sprouts, cauliflower, kohlrabi, radish, swede and turnip"
+        ],
+        [
+          "Alliums",
+          "Onion, shallot, leek and garlic"
+        ],
+        [
+          "Legumes",
+          "Peas and beans"
+        ],
+        [
+          "Potato family",
+          "Potatoes, tomatoes, aubergines, peppers and chillies"
+        ],
+        [
+          "Carrot family",
+          "Carrot, parsnip, celery, celeriac, Florence fennel, coriander and dill"
+        ],
+        [
+          "Beet family",
+          "Beetroot, spinach and leaf beet (chard)"
+        ],
+        [
+          "Cucumber family",
+          "Cucumber, courgette, marrow, pumpkin and squash"
+        ],
+        [
+          "Lettuce family",
+          "Lettuce, chicory and endive"
+        ]
+      ],
+      "record": {
+        "title": "Keep a simple record",
+        "text": "Sketch your beds and write down what grew where, including a second crop in the same year. Next season, move the main crop to ground that held an unrelated family. Changing cabbage for broccoli does not count: they share too many problems."
+      },
+      "closing": {
+        "title": "A rotation is not a disease cure",
+        "text": "Clubroot and onion white rot, to take the two worst examples, can remain in soil for many years. A short circuit round the beds does not make infected ground clean. Keep contaminated soil off clean beds, and do not put infected allium debris into good compost."
+      },
+      "source": "John: Raised Beds and rotation notes; crop and Troubles JSON. Families: Garden Organic, Saskatchewan. Nitrogen: UConn, AHDB.",
+      "threeYear": {
+        "title": "One bed, three different families",
+        "crops": [
+          {
+            "year": "Year 1",
+            "crop": "Peas",
+            "asset": "pea.png"
+          },
+          {
+            "year": "Year 2",
+            "crop": "Cabbages",
+            "asset": "cabbage.png"
+          },
+          {
+            "year": "Year 3",
+            "crop": "Carrots",
+            "asset": "carrot.png"
+          }
+        ],
+        "caption": "Peas, cabbages and carrots belong to different families. Changing families helps break pest cycles; peas can also leave nitrogen for the cabbages."
+      },
+      "cooperation": {
+        "title": "Let plants help each other",
+        "text": "Bacteria in pea and bean root nodules fix nitrogen from the air. Leave healthy roots to decay for following leafy greens; add mature compost where needed. Manure or compost suits heavy eaters like potatoes and cucumbers; follow these with light feeders such as carrots."
+      }
+    },
+    {
+      "id": "rotation-plans",
+      "folio": 157,
+      "qualifier": "Plan across the years",
+      "fourBlock": {
+        "title": "Four beds, four years",
+        "intro": "The acme of rotation is the traditional four-block rotation system, as seen in many an old gardening manual. It’s prescriptive, but it gives you a clear plan for the whole plot. Divide the growing area into four beds or groups of beds, then move each crop group on one place each year.",
+        "headers": [
+          "Year",
+          "Bed A",
+          "Bed B",
+          "Bed C",
+          "Bed D"
+        ],
+        "rows": [
+          [
+            "1",
+            "Peas & beans",
+            "Brassicas",
+            "Potatoes",
+            "Onions & roots"
+          ],
+          [
+            "2",
+            "Brassicas",
+            "Potatoes",
+            "Onions & roots",
+            "Peas & beans"
+          ],
+          [
+            "3",
+            "Potatoes",
+            "Onions & roots",
+            "Peas & beans",
+            "Brassicas"
+          ],
+          [
+            "4",
+            "Onions & roots",
+            "Peas & beans",
+            "Brassicas",
+            "Potatoes"
+          ]
+        ],
+        "reading": "Brassicas follow peas and beans to use nitrogen released from their decaying roots. Read across for one year, down for one bed. Year 5 repeats Year 1."
+      },
+      "source": "John: rotation notes and June allotment video; crop JSON. Rotation: RHS. Nitrogen: UConn, AHDB, Garden Organic.",
+      "notes": [
+        {
+          "title": "Put each crop in its group",
+          "text": "Crop rotation groups are not always obvious. In the four-block system, radishes, swedes and turnips belong with the brassicas. Onions and other roots share a block even though they include different families."
+        },
+        {
+          "title": "Plan the changeover",
+          "text": "Keep recording every crop, including a second crop in the same year. A bed may still be occupied when the new year starts. Make the changeover after harvesting, in time for the next crop’s sowing or planting window."
+        }
+      ],
+      "successionTitle": "One bed, two complementary crops in the same year",
+      "succession": {
+        "crops": [
+          {
+            "name": "Broad beans",
+            "family": "Legumes",
+            "asset": "bean_broad.png"
+          },
+          {
+            "name": "Kale",
+            "family": "Brassicas",
+            "asset": "kale.png"
+          }
+        ],
+        "text": "After early broad beans, use the bed for kale. Sow kale separately in June or early July; plant promptly when ready, often July or early August. Leave the bean roots in the soil by cutting the plants off at the base. As the roots decay, some of the nitrogen fixed while the beans grew becomes available to help feed the kale. See Kale, pages 40–41."
+      },
+      "alternative": {
+        "title": "Alternative strategy: A right British muddle",
+        "text": "If you only have a small plot, or you have many different-sized beds, you can just mix plants up in small groups and let randomness and Nature do the rotation for you. It will still work; just keep things moving, and every year, do something different in each bed."
+      }
+    }
+  ],
+  "heading": {
+    "main": "Crop rotation",
+    "accent": "& planning"
+  },
+  "revision": {
+    "basis": "John’s latest instruction",
+    "removed": "Entire household-planning page, including quantity, limited-space, dry-bean and cooking material",
+    "p1": "Two useful jobs in introduction; peas-to-cabbages caption; root-nodule bacteria and practical feeding note",
+    "p2": "Complementary broad beans → kale example, cutting roots and decomposition; nitrogen connection in four-block explanation",
+    "process": "Focused canonical/local/online nitrogen research; no persona simulations or subagents",
+    "copyEdits": "Complementary spelling; mechanism made precise with root-nodule bacteria and gradual release during decomposition. Canonical timings retained; mature-compost qualification included.",
+    "successionAuthority": {
+      "date": "2026-10-18",
+      "basis": "John explicitly requested replacement of the previously verbatim O1 title and paragraph. Original approved source remains unchanged.",
+      "research": "NITROGEN-RESEARCH-2026-10-18.json"
+    }
+  }
+}

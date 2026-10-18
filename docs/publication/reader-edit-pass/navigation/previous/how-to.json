@@ -1,0 +1,116 @@
+{
+  "pages": [
+    {
+      "eyebrow": "YOUR GUIDE TO THE SYMBOLS",
+      "heading": {
+        "text": "Vegetable guides",
+        "emphasis": "how to use"
+      },
+      "paragraphs": [
+        "Use the calendar and scales to compare crops and plan their care."
+      ]
+    },
+    {
+      "eyebrow": "HOW TO USE THIS BOOK · CONTINUED",
+      "heading": {
+        "text": "Difficulty &",
+        "emphasis": "core needs."
+      },
+      "paragraphs": []
+    }
+  ],
+  "illustration": {
+    "src": "/docs/front-matter/entry-pages/studies/assets/harvest-cluster.png",
+    "alt": "Approved harvest cluster of vegetables"
+  },
+  "calendar": {
+    "heading": "Reading the calendar",
+    "paragraphs": [
+      "Bright shades show the usual sowing and harvest months for temperate climates: here, lowland England (US zones 8 to 9). Muted shades show less usual options for warmer climates. Use local conditions and the crop’s advice to choose your timing."
+    ],
+    "image": {
+      "src": "/docs/front-matter/entry-pages/calendar-assets/radish-calendar.png",
+      "alt": "Growing calendar captured from the Radish guide, showing bright usual months and muted less usual months"
+    },
+    "climates": [
+      {
+        "heading": "Usual",
+        "name": "Temperate climates",
+        "image": {
+          "src": "/docs/front-matter/entry-pages/calendar-assets/temperate-field.svg",
+          "alt": "English ploughed field with a sun"
+        },
+        "sowLabel": "Sow",
+        "harvestLabel": "Harvest"
+      },
+      {
+        "heading": "Less usual",
+        "name": "Warmer climates",
+        "image": {
+          "src": "/docs/front-matter/entry-pages/calendar-assets/tropical-island.svg",
+          "alt": "Tropical island"
+        },
+        "sowLabel": "Sow",
+        "harvestLabel": "Harvest"
+      }
+    ]
+  },
+  "scales": [
+    {
+      "id": "difficulty",
+      "heading": "Difficulty rating",
+      "paragraphs": [
+        "Difficulty reflects ease of growing and tolerance of adverse conditions. Radishes suit beginners; celery and cauliflower can defeat even experienced gardeners in a bad season."
+      ],
+      "ariaLabel": "Difficulty: from one to five",
+      "image": {
+        "src": "/docs/front-matter/entry-pages/scales-study/assets/difficulty-capture.png",
+        "alt": "Difficulty badge captured from the Broccoli guide: Medium, 3 out of 5"
+      },
+      "left": {
+        "image": {
+          "src": "/docs/front-matter/entry-pages/scales-study/assets/baby.svg",
+          "alt": "Baby looking at a healthy growing plant"
+        },
+        "rating": "1",
+        "caption": ""
+      },
+      "right": {
+        "image": {
+          "src": "/docs/front-matter/entry-pages/scales-study/assets/einstein.svg",
+          "alt": "Einstein contemplating a withered plant"
+        },
+        "rating": "5",
+        "caption": ""
+      }
+    },
+    {
+      "id": "water",
+      "heading": "Core needs",
+      "paragraphs": [
+        "Too little sun, water or manure can damage some plants, while too much can harm others. Use the scales as a guide to each crop’s needs."
+      ],
+      "ariaLabel": "Core Needs: water demand",
+      "image": {
+        "src": "/docs/front-matter/entry-pages/scales-study/assets/core-needs-capture.png",
+        "alt": "Core Needs captured from Radish: Sun and Nutrition faded, Water highlighted at 4 out of 5"
+      },
+      "left": {
+        "image": {
+          "src": "/docs/front-matter/entry-pages/scales-study/assets/dropper.svg",
+          "alt": "An eyedropper releasing a single drop"
+        },
+        "rating": "1",
+        "caption": "Low demand"
+      },
+      "right": {
+        "image": {
+          "src": "/docs/front-matter/entry-pages/scales-study/assets/wave.svg",
+          "alt": "A large curling tsunami wave"
+        },
+        "rating": "5",
+        "caption": "High demand"
+      }
+    }
+  ]
+}

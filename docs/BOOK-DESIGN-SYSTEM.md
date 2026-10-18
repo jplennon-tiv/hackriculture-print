@@ -1,6 +1,6 @@
 # The Vegetable Guru — book design system
 
-Consolidated 8 October; status references updated 14 October 2026. Based on the selected covers, approved Compact Book v1,
+Consolidated 8 October; status references updated 18 October 2026. Based on the selected covers, approved Compact Book v1,
 approved contents/how-to and current opening-page proposals. This is the shared
 design reference for the 185 × 240 mm paperback. It records existing choices;
 creating this document does not approve unfinished designs or change any artwork.
@@ -29,9 +29,9 @@ consistency does not require the same title size or grid on every page.
 John approved the combined **Growing guide · <crop>** practical-page headings
 and references limited to pages explicitly naming the crop on 15 October. See
 [the exact approval](publication/whole-book-order-preview/references/navigation-approved-2026-10-15/APPROVAL.json).
-Those additions are retained, with their review highlights removed from the current pass.
+Those additions are retained, with review highlights removed from the current book.
 
-The following requested refinements are now ready for review:
+The approved navigation and heading treatment is:
 - Use **Vegetable Guides**, **Vegetable Troubles** and **Growing Techniques**
   consistently in section navigation and related-reading labels.
 - State **Imperial edition** once in the publication details; show only the
@@ -41,7 +41,7 @@ The following requested refinements are now ready for review:
   Related pages repeat the exact topic name and the same small running title
   “Growing Techniques - <topic>”. This is John’s latest correction and replaces
   the independently named continuation headings from the preceding proof.
-  The current working sizes are 31.5 pt for the shared name and 22.5 pt for the
+  The established heading sizes are 31.5 pt for the shared name and 22.5 pt for the
   qualifier, both Lilita. Keep both parts on one line wherever they fit; wrap the
   qualifier only when needed, retaining it as a readable phrase. Do not force
   line breaks or shrink the type to avoid necessary wrapping. Keep body type,
@@ -49,8 +49,8 @@ The following requested refinements are now ready for review:
 
 Cultivation uses “Growing Techniques - Cultivation” on all four pages, with
 “Dig or No-Dig” followed by “Choosing your approach”, “No dig”, “Digging part 1” and
-“Digging part 2”. The same treatment covers all sixteen technique pages;
-Introduction 7 and the section divider 153 retain their established roles.
+“Digging part 2”. The same treatment covers the current technique pages;
+Introduction 7 and the section divider 145 retain their established roles.
 
 These changes apply to the whole-book screen preview. The individual guide
 exporter, frozen references and A4 outputs retain their existing treatments.
@@ -71,7 +71,7 @@ The established interior colour vocabulary is:
 | Forest green | `#064d32` | Strong panels and cream-on-green contrast |
 | Harvest orange | `#ff781f` | Bright accents; preserve calendar harvest meaning |
 | Deep orange | `#a44007` | Warm display emphasis and root-family headings |
-| Pale peach | `#ffe1b7` | Supporting fields, including the contents Troubles panel |
+| Pale peach | `#ffe1b7` | Supporting fields, including the combined Guides/how-to panel |
 | Light green | `#d6ea9b` | Supporting fields and established calendar keys |
 | Quiet rule | `#d4d6bf` | Opening-page dividers and dotted navigation rules |
 
@@ -147,7 +147,7 @@ must not shrink to force two pages; use sensible reflow and extra pages instead.
 ### Working title, publication and welcome hierarchy
 
 These values are recorded from [opening-pages.css](publication/vegetable-guru-opening-pages/opening-pages.css)
-for consistent continuation of the current proposal; pages 1–3 await approval.
+for the retained original opening proposal. Current title/publication placement and approved copy are recorded in the handover; its omitted welcome page is not pending work.
 
 | Role | Current proposed size |
 | --- | --- |
@@ -207,7 +207,7 @@ their page total is not the interior count used for print costing/spine calculat
 | Back cover | B5 dark green; cream title/count subtitle; left blurb and slightly angled torn fragments at right; price and ISBN area | Preferred [B5 artwork](publication/vegetable-guru-back-collage/B5.png); generated snippets must become exact book crops for production |
 | Title/publication | Cover-related title strip and quieter publication page | [Original pages 1–3 proposal](publication/vegetable-guru-opening-pages/REVIEW.html) retained; current assembly omits the welcome/author page. Metadata placeholders remain. |
 | Contents/how-to | Simple illustrated contents with calculated page references; original calendar, difficulty and needs explanations in the combined Guides panel | [Approved source pages 4–7](publication/vegetable-guru-entry-pages/REVIEW.html) remain frozen. The accepted [two-page contents](publication/contents-update/REVIEW.html) and [approved combined Guides/how-to](publication/combined-guides-opening/APPROVAL.json) are integrated in the full preview. |
-| Index | Two open columns; 9.45 pt reading type, orange folios, ruled alphabet headings, continued labels, no decorative artwork | [Four-page index](publication/book-index/REVIEW.html), approved 12 October; [frozen sources](publication/book-index/APPROVAL.json); final folios pending |
+| Index | Two open columns; 9.45 pt reading type, orange folios, ruled alphabet headings, continued labels, no decorative artwork | [Four-page index](publication/book-index/REVIEW.html), approved 12 October; [frozen sources](publication/book-index/APPROVAL.json); current integrated folios 166–169 |
 | Section openers | Vegetable Guides: right-hand title/H4 artwork above a lower peach how-to panel, centred orange panel heading, original explanations and clear native examples. Troubles/Techniques retain their existing recto title-page proposals. | [Combined Guides page approved 15 October](publication/combined-guides-opening/APPROVAL.json); blank 8 / combined 9, integrated into the full preview. Other [14 October opener proposals](publication/whole-book-order-preview/SECTION-OPENERS.json) remain for review. |
 | Vegetables | Expressive hero/circle/sticker opening, useful information hierarchy, practical continuation and full-width Final Tips | Approved [guide contract](BOOK-PRINT-STYLE.md#vegetable-opening-page); collection review remains separate |
 | Troubles | Open two-column entries, complete diagnostics, Recognise / Act / Prevent hierarchy, aligned first/last text with sparse-page exceptions | Approved [guide contract](BOOK-PRINT-STYLE.md#troubles); no enclosing equal-height cards |
@@ -242,7 +242,7 @@ remains on the one-page guide key and H4 on the Vegetable Guides opener. H3
 welcome and S1 author remain in retained proposals; that page is now omitted.
 Approved original page files remain the references.
 
-### Working navigation refinement — 14 October
+### Approved navigation and combined opener
 
 John’s latest correction replaces the numbered three-page contents with two
 simple pages. John has confirmed this structure. Contents and index pages are
@@ -250,15 +250,15 @@ now explicitly outside the layout skills’ scope; use the agreed component desi
 and PDF checks directly.
 Each page uses one Contents title (25.5 pt), plain section titles and 10.5 pt
 reading rows. Section numbers, family/topic subheadings, coloured panels and
-explanatory notes remain omitted. After removing the welcome entry, all 80
-current destinations remain. At John’s
+explanatory notes remain omitted. After removing the welcome entry, all 81
+current destinations are included. At John’s
 request, H1/H2 decorate the matching headers, with H5 seedlings and H6 harvest
 below the second page’s lists. A short deep-orange rule accents each header.
 These reuse the current house-style stock verbatim; John accepted the illustrated
 contents for integration into the full preview. The plain baseline and accepted
 illustrated 4–5 proofs are retained. The current sequence puts a blank at 3,
 contents facing at 4–5, blank 6 and Introduction — why grow your own at 7.
-The current complete preview follows John's 15 October approval with
+The current complete preview retains John's approved opening sequence with
 blank 8 / combined right-hand Vegetable Guides opener and how-to at 9;
 Troubles 99 and Techniques 145 remain recto.
 

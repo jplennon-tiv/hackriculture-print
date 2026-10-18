@@ -1,0 +1,315 @@
+{
+  "status": "Authorised reader-edit working copy for review; not a new frozen approval",
+  "sourceCopy": "../hackriculture-resources/summaries/techniques-expansion/copy.json",
+  "sourceCopySha256": "7d3933e59396b4fa902227b04f3f76a5bdfc4b3416fe59b671ca2aa200b45a19",
+  "frozenCss": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/draft.css",
+  "currentHeadings": "scripts/lib/book-review-refinements.mjs#topicHeadings",
+  "scope": [
+    "D1 p155 lead only",
+    "A5 p156 family examples",
+    "O1 p156 worked succession example",
+    "A7 p157 short terms glosses",
+    "A2/A4 p161 protected sowing and autumn handover"
+  ],
+  "contextFolios": [
+    154,
+    160
+  ],
+  "intentionalReplacement": "The p156 three-year example strip is replaced by a compact within-year broad-beans-to-kale example using existing original crop art. The unchanged prose retains year-to-year family movement, record keeping, flexible beds, permanent crops and disease cautions. Page149 stays intact.",
+  "pages": [
+    {
+      "id": "compost-bins",
+      "section": "Growing Techniques · Making and using compost",
+      "title": "Making compost",
+      "subtitle": "the secret’s in the bin",
+      "lead": "Composting keeps useful material in the garden. Last year’s plant waste becomes part of next year’s growing medium. The important bit is giving it somewhere convenient to break down.",
+      "layout": "compost-bins",
+      "image": "compost-bins-hasps-v3.png",
+      "imageAlt": "Three brick compost bins with wooden plank lids, two hinges and a hasp on each front door: filling, rotting and ready to use.",
+      "stages": [
+        {
+          "title": "Filling",
+          "text": "Add new material here as it arrives."
+        },
+        {
+          "title": "Rotting",
+          "text": "Leave the full bin to break down."
+        },
+        {
+          "title": "Ready",
+          "text": "Keep finished compost until needed."
+        }
+      ],
+      "blocks": [
+        {
+          "title": "Compost bin basics",
+          "text": "A good compost bin should have a waterproof lid, sturdy sides, a rodent-resistant base and an opening you can actually empty through. Bigger bins are best; they retain heat and moisture better. You can buy PVC starter bins but beware of poorly fitting lids and front hatches - best is to make your own (see below)."
+        },
+        {
+          "title": "Three bins is best",
+          "text": "With one bin, you will always be in a mess. With two bins, you may need to bag up finished compost to make room. Three bins let each job have its own space. You do not have to shovel the contents along a row: the bins change jobs as they become empty."
+        }
+      ],
+      "source": "John: Compost Bins chapter; My Compost Method, 00:01–04:50; Why We Make Compost.",
+      "makeYourOwn": {
+        "title": "Make your own",
+        "text": "A purpose-built compost bin is best. You can recycle old materials such as pallets, or buy and build from new. Edges should fit together tightly to exclude rodents. Sides should penetrate the soil for the same reason.",
+        "image": "compost-bin-options-v1.png",
+        "imageAlt": "Two examples: a brick bin with an opening front door and a timber bin with removable front boards. Both have wooden plank lids.",
+        "captions": [
+          "Brick sides and a wooden lid",
+          "Timber sides and a wooden lid"
+        ]
+      },
+      "printedFolio": 154,
+      "changed": false
+    },
+    {
+      "id": "compost-use",
+      "section": "Growing Techniques · Making and using compost",
+      "title": "Making compost",
+      "subtitle": "feed it, leave it, use it",
+      "lead": "Good compost making turns suitable garden and kitchen waste into something useful. Vegetable peelings, hedge trimmings and torn plain cardboard all have a place in the bin. Good compost will reward you with an abundance of lush, tasty and, above all, cheap food.",
+      "layout": "compost-use",
+      "image": "compost-mix-v1.png",
+      "imageAlt": "Green plant trimmings and torn plain cardboard beside a sieve and a bowl of mature dark compost.",
+      "caption": "A mixture going in; dark, crumbly compost coming out. Return coarse pieces to the active bin.",
+      "blocks": [
+        {
+          "title": "Mixed ingredients",
+          "text": "A good rule of thumb is “half greens, half browns”. Combine soft green material, such as vegetable peelings and fresh leaves, with browns such as torn plain cardboard and chopped stalks. Mix grass clippings through other material rather than adding a thick wet lump. Compost autumn leaves in a heap on their own; they are slow to rot."
+        },
+        {
+          "title": "Damp, not soaked",
+          "text": "Dampen dry cardboard and other dry additions as they go in. Close the lid to keep heavy rain out and moisture in, then check below the fresh top layer during dry weather. A large bin kept moist may not need turning. If yours stalls, check for dry corners or wet clumps; break these up, adding water to dry material or dry browns to a soggy mix. Then turn with a fork."
+        },
+        {
+          "title": "Judge the compost, not the calendar",
+          "text": "Finished compost is dark, crumbly and earthy, with little recognisable soft plant material. Pick out remaining coarse stalks and return them to the filling bin. Give slow material more time. A resting bin may spend many months getting ready; the plants will not thank you for impatience."
+        }
+      ],
+      "closing": {
+        "title": "Put it back to work",
+        "text": "Spread mature compost on no-dig beds, or incorporate it when preparing a dug bed. Keep it clear of established soft stems. For a combined sowing and potting-on mix, sieve equal volumes of good mature compost and garden topsoil and mix them thoroughly. Make in batches as needed; the mix does not store well. Try a small batch first: the ingredients vary from garden to garden."
+      },
+      "footnote": "Keep plastic-coated card and doubtful “compostable” packaging out. Unless you have a suitable system that excludes rodents, send cooked food, meat, fish and dairy to your council’s food-waste collection where available.",
+      "source": "John: Compost and Potting Mixtures; Compost Method; Five Things; Winter Composting; Why We Make Compost.",
+      "printedFolio": 155,
+      "changed": true
+    },
+    {
+      "id": "rotation",
+      "section": "Growing Techniques",
+      "title": "Simple crop",
+      "subtitle": "rotation",
+      "lead": "Rotation means moving a crop to different ground instead of planting it in the same place year after year. Its most useful job in a small garden is to reduce the build-up of problems shared by related plants.",
+      "layout": "rotation",
+      "diagramTitle": "One bed, two crops in the same year",
+      "rotation": [
+        {
+          "year": "Year 1",
+          "crop": "Peas",
+          "asset": "pea.png"
+        },
+        {
+          "year": "Year 2",
+          "crop": "Cabbages",
+          "asset": "cabbage.png"
+        },
+        {
+          "year": "Year 3",
+          "crop": "Carrots",
+          "asset": "carrot.png"
+        }
+      ],
+      "diagramCaption": "An example of changing families, not a compulsory three-year prescription.",
+      "blocks": [
+        {
+          "title": "Keep a simple record",
+          "text": "Sketch your beds and write down what grew where, including a second crop in the same year. Next season, move the main crop to ground that held an unrelated family. Changing cabbage for broccoli does not count: they share too many problems."
+        },
+        {
+          "title": "Fit the plan to your appetite",
+          "text": "A flexible core rotation need not use the standard four blocks seen in old gardening manuals. A larger number of small beds or areas inside beds gives you flexibility. Keep permanent crops, such as asparagus and rhubarb, outside the annual shuffle."
+        }
+      ],
+      "familiesTitle": "Crop families: useful examples",
+      "families": [
+        [
+          "Brassicas",
+          "Cabbage, kale, broccoli, Brussels sprouts, cauliflower, kohlrabi, radish, swede and turnip"
+        ],
+        [
+          "Alliums",
+          "Onion, shallot, leek and garlic"
+        ],
+        [
+          "Legumes",
+          "Peas and beans"
+        ],
+        [
+          "Potato family",
+          "Potatoes, tomatoes, aubergines, peppers and chillies"
+        ],
+        [
+          "Carrot family",
+          "Carrot, parsnip, celery, celeriac, Florence fennel, coriander and dill"
+        ],
+        [
+          "Beet family",
+          "Beetroot, spinach and leaf beet (chard)"
+        ],
+        [
+          "Cucumber family",
+          "Cucumber, courgette, marrow, pumpkin and squash"
+        ],
+        [
+          "Lettuce family",
+          "Lettuce, chicory and endive"
+        ]
+      ],
+      "closing": {
+        "title": "A rotation is not a disease cure",
+        "text": "Clubroot and onion white rot can remain in soil for many years. A short circuit round the beds does not make infected ground clean. Use the Troubles guides for the diagnosed problem, keep contaminated soil off clean beds, and do not put infected allium debris into good compost."
+      },
+      "source": "John: Raised Beds and rotation notes. Crop and Troubles JSON; Garden Organic and University of Saskatchewan family tables.",
+      "printedFolio": 156,
+      "changed": true,
+      "succession": {
+        "crops": [
+          {
+            "name": "Broad beans",
+            "family": "Legumes",
+            "asset": "bean_broad.png"
+          },
+          {
+            "name": "Kale",
+            "family": "Brassicas",
+            "asset": "kale.png"
+          }
+        ],
+        "text": "After early broad beans, use the bed for kale. Sow kale separately in June or early July; plant promptly when ready, often July or early August. Choose a suitable variety, allow time before winter and protect seedlings from pests. Record both families. See Kale, pages 40–41."
+      }
+    },
+    {
+      "id": "sowing",
+      "section": "Growing Techniques",
+      "title": "Sowing and planting:",
+      "subtitle": "a sound start",
+      "lead": "The crop guide gives you the season and method. Your weather and soil decide whether today is a sensible day to begin. In cold or wet weather, delay planting. A head start only helps if the plants keep growing.",
+      "layout": "sowing",
+      "image": "sowing-sequence-v1.png",
+      "imageAlt": "Three stages: a fine seed drill, seedlings in modules, and a rooted plug being settled into a planting hole.",
+      "steps": [
+        {
+          "title": "Direct into the bed",
+          "text": "Prepare a fine, firm surface and remove competing weeds. Make a drill (a shallow groove) at the depth given for the crop; water it first if dry. Sow, cover and firm gently, then keep the seed zone moist. On coarse no-dig compost, use a little sieved compost in the drill and over the seed."
+        },
+        {
+          "title": "Start under cover",
+          "text": "Modules are the separate cells in a seed tray. In a greenhouse or on a windowsill, they give early crops a start while outside soil is still cold. Sow at the crop’s depth, label with variety and date, and give the seedlings light and steady moisture. Use modules early in the year; later, a small outdoor nursery bed is often easier than nursing young outdoor crops through a hot greenhouse."
+        },
+        {
+          "title": "Plant them out",
+          "text": "Harden indoor-raised plants gradually: put them outside in a sheltered spot by day and return them under cover at night, increasing exposure over two to three weeks. Keep tender crops from frost. Water before lifting, preserve the roots, and plant at the crop’s stated depth and spacing. Firm gently and water in."
+        }
+      ],
+      "closing": {
+        "title": "A small experiment: mixed salad leaves",
+        "text": "For an odd corner, try broadcasting mixed salad seed. Choose crops with compatible sowing times, covering depths and picking sizes. Scatter evenly, cover as required and water gently. Thin before the strongest swamp the rest, and keep a separate main sowing of any crop you are relying on."
+      },
+      "footnote": "A station is one sowing or planting position. Sow little and often where the crop allows it. Check each guide’s method and depth; carrots, lettuces and peas do not start in the same way.",
+      "source": "John: No-dig sowing, module notes and Chuck It Around. Crop JSON; RHS hardening off.",
+      "caption": "Sow directly, or raise plants separately. Harden indoor-raised plants before planting out.",
+      "printedFolio": 157,
+      "changed": true
+    },
+    {
+      "id": "greenhouse-beds",
+      "section": "Growing Techniques · Greenhouses",
+      "title": "Greenhouse",
+      "subtitle": "growing options",
+      "lead": "Containers, raised soil beds and floor-level no-dig borders all have a place. The ground beneath your greenhouse and the crops you want to grow will help you choose.",
+      "layout": "greenhouse-options",
+      "source": "John: greenhouse chapter; January repairs; Money-Saving Tips. Tomato JSON; RHS and Hartley: containers/staging.",
+      "options": [
+        {
+          "title": "1. Pots and growbags",
+          "image": "greenhouse-containers-v2.png",
+          "imageAlt": "A greenhouse with a paved floor, sturdy wooden staging holding small pots, a large tomato pot and a flat growing bag on the floor, with clear access.",
+          "caption": "A solid floor with containers above it.",
+          "paragraphs": [
+            "A concrete or paving slab floor gives a firm surface for pots and growbags. Arrange them on the floor or on wooden staging, keeping the doorway and working space clear. Staging must be level and strong enough for the weight of wet compost; leave tall crops on the floor for headroom.",
+            "Use peat-free potting compost and containers with drainage holes. For tomatoes, choose pots at least {tomatoPot} across. Let surplus water drain away, and check pots and bags regularly: their small supply of water is soon used up."
+          ]
+        },
+        {
+          "title": "2. Raised brick beds",
+          "image": "greenhouse-beds-v1.png",
+          "imageAlt": "A greenhouse on a brick perimeter base, with raised brick-edged soil beds on either side of a clear paved path.",
+          "caption": "Raised beds open to the soil below.",
+          "paragraphs": [
+            "Brick beds give roots a larger supply of soil and moisture, with less need for pots and bought-in compost. Plan the beds and path before building the base. Set the frame on top of the bricks to preserve plant headroom inside. Fasten it to the bricks with masonry fittings.",
+            "Leave the beds open to the earth below. If building work has compacted it, loosen it with a fork before filling with topsoil and mature compost. Thereafter, dig compost in or add it at the surface for no-dig growing. Keep the path clear and the soil within reach."
+          ]
+        }
+      ],
+      "closing": {
+        "title": "If roots run into trouble",
+        "text": "If root disease develops, identify it before reusing the ground. Rotate where practical, or use containers with fresh compost; for raised beds, exchange the soil for fresh garden soil and compost."
+      },
+      "printedFolio": 160,
+      "changed": false
+    },
+    {
+      "id": "greenhouse-no-dig-seasons",
+      "section": "Growing Techniques · Greenhouses · Continued",
+      "title": "Greenhouse",
+      "subtitle": "growing options",
+      "layout": "greenhouse-seasons",
+      "lead": "",
+      "options": [
+        {
+          "title": "3. No-dig at floor level",
+          "image": "greenhouse-floor-no-dig-v2.png",
+          "imageAlt": "A greenhouse supported on a low timber perimeter base, with compost-topped earth borders at floor level, a central woodchip path and no internal bed walls.",
+          "caption": "Compost on earth, with a woodchip path.",
+          "paragraphs": [
+            "A simpler soil arrangement needs no internal walls. Once the growing space is ready, plan how one crop will make way for the next.",
+            "On suitable, free-draining ground, mark a central path and leave the growing soil on either side. Clear weeds, spread mature compost over the soil and plant into it. Woodchip makes a useful path and keeps your feet off the growing areas.",
+            "Refresh the compost at the surface each year, without digging it in. A low brick or timber base is needed to give a little height for the compost layer; don’t just bank it up against the greenhouse glass."
+          ]
+        }
+      ],
+      "seasonsTitle": "Use your greenhouse through the seasons",
+      "seasons": [
+        {
+          "title": "Early crops",
+          "text": "Grow early lettuce or spinach while summer plants are small. Seed trays can occupy staging. Use the crop guide’s protected sowing dates for raising plants; harden them off and plant outdoors when the weather and soil suit the crop."
+        },
+        {
+          "title": "Make room for summer",
+          "text": "Harvest or clear the early crops before they crowd the tomatoes and other summer plants. A little spare ground in spring soon disappears under leaves. Keep access clear for watering and picking."
+        },
+        {
+          "title": "Keep autumn growing",
+          "text": "Raise suitable autumn lettuces or Oriental leaves before the summer crops finish, within their sowing windows (pages 56–59). Clear spent crops and plant the replacements. Choose varieties for the season; an unheated greenhouse still gets cold at night."
+        }
+      ],
+      "careTitle": "The regular jobs",
+      "care": [
+        {
+          "title": "Water and air",
+          "text": "Check moisture at root level and water the soil, not the leaves. Open doors and vents in warm weather and add shade when needed."
+        },
+        {
+          "title": "Light and upkeep",
+          "text": "Clean the glass before the new season so that more light reaches the plants. Check glazing clips and service the door and opening vents."
+        }
+      ],
+      "source": "John: greenhouse chapter; Winter Composting; May growing/abundance; January repairs. Tomato JSON; RHS.",
+      "printedFolio": 161,
+      "changed": true
+    }
+  ]
+}

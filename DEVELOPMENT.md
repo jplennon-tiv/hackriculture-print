@@ -295,28 +295,36 @@ blank after an odd-length crop. Troubles continue naturally. The default
 `continuous` policy adds no inter-guide blanks. Both use `compact-pagination.mjs`;
 `node --test scripts/compact-pagination.test.mjs` covers mixed guide lengths and
 invalid inputs. The earlier 148-page technical review has four crop blanks at physical
-folios 15, 69, 87 and 91. The current whole-book order preview uses 174 interior
+folios 15, 69, 87 and 91. The current whole-book order preview uses 170 interior
 pages, including the later sections; its current page map and blank positions
 are in the [handover](docs/handover/START-HERE.md). The old runner/plan is not
 the current full-book assembly route.
 
 ### Editable book copy
 
-**Current expanded contents:** `npm run book:contents` builds the three-page
-proposal from `contents.json.expanded`, using a common header and chronological
-section hierarchy while retaining source artwork and family colours. Its [workflow](docs/publication/contents-update/README.md)
-owns the 174-page placement plan, stable topic-folio map and exact
-PDF checks. Run `scripts/check-updated-contents.py` and review the actual renders.
-The commands below retain the earlier seven-page opening composition; they do
-not replace the expanded contents builder or integrate a complete book.
+**Current book assembly:** `npm run book:preview` is the single current full-book
+route. It reuses the approved baseline and component PDFs, builds two illustrated
+contents pages (81 destinations) and the four-page index (286 entries / 35 see
+references), refreshes reference footers, verifies native bodies and PDF links,
+and renders the facing-page viewer. No guide catalogue export is performed.
 The [whole-book workflow](docs/publication/whole-book-order-preview/README.md)
-owns the current complete imperial derivative and its three section openers;
-`book.json.sectionOpeners` supplies their editable copy and existing artwork.
-`npm run book:guide-key` builds the one-page key at 8 in both units; run
-`scripts/check-book-guide-key.py` and inspect the renders. The current welcome
-uses a working CSS extension, preserving the original opening proposal.
-Its updated index uses real folios at 170–173; the approved standalone index
-retains its historical temporary labels.
+records its exact inputs and checks. The current interior is 170 pages; the
+complete screen PDF has 174 pages including covers. Techniques occupy 145–165,
+with approved blanks 150/162, and the index occupies 166–169.
+
+`book:contents` builds both-unit contents and the placement plan;
+`book:index` builds the current integrated index. `scripts/lib/approved-reader-integration.mjs`
+verifies approved section/reader sources; `scripts/integrate-approved-book.py`
+assembles and checks the current PDF. The original `prepare-whole-book-preview.mjs`
+and `assemble-whole-book-preview.py` execution paths are retired and stop with
+an explicit redirect, preventing loss of later approved edits.
+
+The current combined Guides/how-to is reused at page 9; blank 8 faces it.
+The welcome page is omitted. `book:guide-key` retains the previous standalone
+one-page key, while `book:build`/`book:entries` retain the original seven-page
+opening composition. The following implementation notes describe those retained
+component tools, not the current complete-book route. Frozen sources retain their
+historical folios and index T/C labels.
 
 The shared [book-layout folder](../hackriculture-data/book-layout/README.md) owns
 book identity, opening copy and the future cover copy. Its native Node validator

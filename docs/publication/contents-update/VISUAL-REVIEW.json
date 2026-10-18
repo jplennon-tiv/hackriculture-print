@@ -1,73 +1,21 @@
 {
-  "date": "2026-10-14",
-  "status": "Facing contents with new Introduction title/references visually checked",
-  "pdfHashes": {
-    "imperial": "f5c3f28e69b3bdeffff5e3a85d59b95d1a12528d77f89a8ee63560aa7c246e64",
-    "metric": "4651e7f254170b0374b7e7a6be9c69310e58ac1162d11fbdcbe07258d1713f85"
-  },
-  "coverage": {
-    "imperialFacingSpread": [
-      4,
-      5
-    ],
-    "metric": "Both bodies pixel-identical through 225 mm; both metric footers visually inspected."
-  },
-  "baseline": "references/illustrated-4-5-2026-10-14/",
-  "baselineComparison": "Accepted simple headings, 10.5 pt rows, margins and four original artworks retained. Introduction label/folio now 7, Vegetable Guides 8 and how-to 9; all other current references unchanged.",
-  "artwork": [
+  "date": "2026-10-18",
+  "status": "passed",
+  "pdfs": [
     {
-      "id": "H1",
-      "folio": 4,
-      "role": "header",
-      "file": "docs/assets/vegetable-guru-stock/assets/h1-roots-beetroot-hero-style-v2.png",
-      "sha256": "c37f9ada30fa364ee9936c609f0634b367b43be71617c901bcecae393c69be0d",
-      "sourceManifest": "docs/assets/vegetable-guru-stock/ARTWORK.json",
-      "placementStatus": "Accepted decoration retained; relocated for John’s requested opening sequence"
+      "unit": "imperial",
+      "sha256": "60fe5a2699c24f15579af156c89edbd4af369886fa43c6a545357feb1a525a42"
     },
     {
-      "id": "H2",
-      "folio": 5,
-      "role": "header",
-      "file": "docs/assets/vegetable-guru-stock/assets/h2-roots-turnips-hero-style-v2.png",
-      "sha256": "273fafe68e1222d1f55770277259c70738f0b18774db37435d3630e58bf64759",
-      "sourceManifest": "docs/assets/vegetable-guru-stock/ARTWORK.json",
-      "placementStatus": "Accepted decoration retained; relocated for John’s requested opening sequence"
-    },
-    {
-      "id": "H5",
-      "folio": 5,
-      "role": "lower",
-      "file": "docs/assets/vegetable-guru-stock/assets/h5-growing-start-hero-style-v2.png",
-      "sha256": "c4c5e901ccbaa15e7e925d66bf6625e6489f8fe93f0a7d58a2e460645d7ea345",
-      "sourceManifest": "docs/assets/vegetable-guru-stock/ARTWORK.json",
-      "placementStatus": "Accepted decoration retained; relocated for John’s requested opening sequence"
-    },
-    {
-      "id": "H6",
-      "folio": 5,
-      "role": "lower",
-      "file": "docs/assets/vegetable-guru-stock/assets/h6-growing-harvest-hero-style-v2.png",
-      "sha256": "df49760957364ed5de7697eb5e9bef8907578bcca6f12625d1671fcd9bae6305",
-      "sourceManifest": "docs/assets/vegetable-guru-stock/ARTWORK.json",
-      "placementStatus": "Accepted decoration retained; relocated for John’s requested opening sequence"
+      "unit": "metric",
+      "sha256": "289a9302a57d943a2aac9c8e4fdbb74f8441e8a7536416de694bcbc45fabea0e"
     }
   ],
+  "inspected": "Current imperial facing pair in the actual assembled PDF; both-unit DOM/PDF checks and same-unit-neutral composition",
   "findings": [
-    "All 80 destinations retained",
-    "New Introduction label fits one row",
-    "No observed clipping, missing artwork, overlap or footer collision"
+    "All 81 destinations fit across two pages.",
+    "Header artwork, plain section headings and list structure retained.",
+    "Lower illustrations and footer do not collide; row type remains 10.5 pt."
   ],
-  "footerClearanceMm": {
-    "imperial": [
-      15.023,
-      6.577
-    ],
-    "metric": [
-      15.023,
-      6.577
-    ]
-  },
-  "protectedFilesVerified": 95,
-  "copySave": "INTRODUCTION-TITLE-SAVE.json",
-  "approval": "John requested the Introduction title and facing guide pages; no final-book or supplier approval implied."
+  "fullBookPdfSha256": "d8aac1e898aa26cb86ab8099ed0c5090d86c3798d0a11c050b1d48fd868799a6"
 }

@@ -1,0 +1,177 @@
+{
+  "status": "Two-page revision requested by John: simple to complex; household page removed; positive introduction to traditional rotation.",
+  "title": "Crop rotation & planning",
+  "research": "RESEARCH-BRIEF.json",
+  "sources": {
+    "oldRotation": {
+      "path": "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/copy.json",
+      "sha256": "7d3933e59396b4fa902227b04f3f76a5bdfc4b3416fe59b671ca2aa200b45a19"
+    },
+    "readerRotation": {
+      "path": "/Users/johnlennon/Documents/web_site/hackriculture-print/src/print/book/reader-edit-pass/techniques-copy.json",
+      "sha256": "91be0be7a7527512616b2a437e38f0b7feedcb1f77981ae1e6f3dba816b442fa"
+    }
+  },
+  "pages": [
+    {
+      "id": "rotation-season",
+      "folio": 156,
+      "qualifier": "Start with one bed",
+      "lead": "Rotation means moving a crop to different ground instead of planting it in the same place year after year. Its most useful job in a small garden is to reduce the build-up of problems shared by related plants.",
+      "successionTitle": "One bed, two crops in the same year",
+      "succession": {
+        "crops": [
+          {
+            "name": "Broad beans",
+            "family": "Legumes",
+            "asset": "bean_broad.png"
+          },
+          {
+            "name": "Kale",
+            "family": "Brassicas",
+            "asset": "kale.png"
+          }
+        ],
+        "text": "After early broad beans, use the bed for kale. Sow kale separately in June or early July; plant promptly when ready, often July or early August. Choose a suitable variety, allow time before winter and protect seedlings from pests. Record both families. See Kale, pages 40–41."
+      },
+      "familiesTitle": "Crop families: useful examples",
+      "families": [
+        [
+          "Brassicas",
+          "Cabbage, kale, broccoli, Brussels sprouts, cauliflower, kohlrabi, radish, swede and turnip"
+        ],
+        [
+          "Alliums",
+          "Onion, shallot, leek and garlic"
+        ],
+        [
+          "Legumes",
+          "Peas and beans"
+        ],
+        [
+          "Potato family",
+          "Potatoes, tomatoes, aubergines, peppers and chillies"
+        ],
+        [
+          "Carrot family",
+          "Carrot, parsnip, celery, celeriac, Florence fennel, coriander and dill"
+        ],
+        [
+          "Beet family",
+          "Beetroot, spinach and leaf beet (chard)"
+        ],
+        [
+          "Cucumber family",
+          "Cucumber, courgette, marrow, pumpkin and squash"
+        ],
+        [
+          "Lettuce family",
+          "Lettuce, chicory and endive"
+        ]
+      ],
+      "record": {
+        "title": "Keep a simple record",
+        "text": "Sketch your beds and write down what grew where, including a second crop in the same year. Next season, move the main crop to ground that held an unrelated family. Changing cabbage for broccoli does not count: they share too many problems."
+      },
+      "closing": {
+        "title": "A rotation is not a disease cure",
+        "text": "Clubroot and onion white rot can remain in soil for many years. A short circuit round the beds does not make infected ground clean. Use the Troubles guides for the diagnosed problem, keep contaminated soil off clean beds, and do not put infected allium debris into good compost."
+      },
+      "source": "John: Raised Beds and rotation notes. Crop and Troubles JSON; Garden Organic and University of Saskatchewan family tables.",
+      "appetite": {
+        "title": "Fit the plan to your appetite",
+        "text": "Start with the vegetables you want to grow and give each crop enough room. You can plan with whole beds or smaller areas within them. Keep permanent crops, such as asparagus and rhubarb, outside the annual rotation."
+      }
+    },
+    {
+      "id": "rotation-years",
+      "folio": 157,
+      "qualifier": "Plan across the years",
+      "threeYear": {
+        "title": "One bed, three different families",
+        "crops": [
+          {
+            "year": "Year 1",
+            "crop": "Peas",
+            "asset": "pea.png"
+          },
+          {
+            "year": "Year 2",
+            "crop": "Cabbages",
+            "asset": "cabbage.png"
+          },
+          {
+            "year": "Year 3",
+            "crop": "Carrots",
+            "asset": "carrot.png"
+          }
+        ],
+        "caption": "Follow the same bed through three years. Peas, cabbages and carrots each belong to a different family."
+      },
+      "fourBlock": {
+        "title": "Four beds, four years",
+        "intro": "Once you are comfortable moving crop families around one bed, the traditional four-block rotation gives you a clear plan for the whole plot. Divide the growing area into four beds or groups of beds, then move each crop group on one place each year.",
+        "headers": [
+          "Year",
+          "Bed A",
+          "Bed B",
+          "Bed C",
+          "Bed D"
+        ],
+        "rows": [
+          [
+            "1",
+            "Peas & beans",
+            "Brassicas",
+            "Potatoes",
+            "Onions & roots"
+          ],
+          [
+            "2",
+            "Brassicas",
+            "Potatoes",
+            "Onions & roots",
+            "Peas & beans"
+          ],
+          [
+            "3",
+            "Potatoes",
+            "Onions & roots",
+            "Peas & beans",
+            "Brassicas"
+          ],
+          [
+            "4",
+            "Onions & roots",
+            "Peas & beans",
+            "Brassicas",
+            "Potatoes"
+          ]
+        ],
+        "reading": "Read across a row to see the whole plot in one year; read down a column to follow one bed through time. In Year 5, the sequence returns to the Year 1 arrangement."
+      },
+      "source": "John: Raised Beds and rotation notes. Crop and Troubles records; RHS four-year rotation example.",
+      "notes": [
+        {
+          "title": "Put each crop in its group",
+          "text": "Use the family table opposite when adding crops. Radishes, swedes and turnips belong with the brassicas. Onions and other roots share a block even though they include different families."
+        },
+        {
+          "title": "Plan the changeover",
+          "text": "Keep recording every crop, including a second crop in the same year. A bed may still be occupied when the new year starts. Make the changeover after harvesting, in time for the next crop’s sowing or planting window."
+        }
+      ]
+    }
+  ],
+  "heading": {
+    "main": "Crop rotation",
+    "accent": "& planning"
+  },
+  "revision": {
+    "basis": "John’s latest instruction",
+    "removed": "Entire household-planning page, including quantity, limited-space, dry-bean and cooking material",
+    "p1": "Earlier reader-edit page arrangement, with a positive appetite/bed-allocation note",
+    "p2": "Three-year illustration first, then four-bed rotation",
+    "process": "No persona simulations, reader-test agents or fresh research reruns"
+  }
+}

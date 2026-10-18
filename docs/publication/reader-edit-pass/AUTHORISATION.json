@@ -1,0 +1,45 @@
+{
+  "recorded_at": "2026-10-15T21:03:27.515087+00:00",
+  "authority": "John’s current message",
+  "instruction": "You have my go-ahead to do the seven editing tasks 'as is'. For the optional changes, do the 'One small worked succession example', don't bother with the holiday one. Let's work on the three copy decisions now.",
+  "plan": "docs/publication/reader-journey-review/ACTION-PLAN.json",
+  "plan_sha256": "46e449ee80aee7f773ad07c33bd7ac4b5cfd102d4c5778b4d44be4cd3d22bd5a",
+  "approved_for_implementation": [
+    "A1",
+    "A2",
+    "A3",
+    "A4",
+    "A5",
+    "A6",
+    "A7",
+    "O1",
+    "D1",
+    "D2",
+    "D3"
+  ],
+  "excluded": [
+    "O2"
+  ],
+  "pending_copy_decisions": [],
+  "scope": [
+    "Preserve original canonical gardening records and frozen approved references",
+    "Preserve body text size, two-page crop spreads and current folios",
+    "Prepare focused highlighted proofs in both units",
+    "New proofs remain for review; this receipt is approval of the editing brief, not self-approval of its eventual results"
+  ],
+  "copy_decisions": {
+    "D1": {
+      "answer": "Remove the broad pet-litter example",
+      "implementation": "Narrow the sweeping compost-input lead and remove that example; retain existing exceptions."
+    },
+    "D2": {
+      "answer": "Yes — make that distinction",
+      "implementation": "Distinguish stones, compaction and fresh/unfinished additions from appropriately used mature compost in no-dig beds."
+    },
+    "D3": {
+      "answer": "Use Summer cabbages for Greyhound",
+      "implementation": "Change only the selected printed label; preserve both original canonical entries and the early-cropping description."
+    }
+  },
+  "decisions_recorded_at": "2026-10-15T21:04:03.773663+00:00"
+}

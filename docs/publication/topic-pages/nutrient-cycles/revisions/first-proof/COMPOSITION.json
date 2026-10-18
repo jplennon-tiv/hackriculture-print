@@ -1,0 +1,64 @@
+{
+  "date": "2026-10-18",
+  "status": "Proposed one-page composition",
+  "brief": "Follow-on to approved Crop rotation & planning, focusing on carbon, humus and nitrogen with a smaller phosphorus/potassium panel.",
+  "folio": 158,
+  "dimensionsMm": [
+    185,
+    240
+  ],
+  "units": "Unit-neutral; no measurements or unit-dependent copy",
+  "sourceStyles": [
+    "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/draft.css",
+    "docs/publication/topic-pages/crop-rotation-planning/references/approved-2026-10-18/draft.css"
+  ],
+  "sourceComparison": [
+    "Organic growing approved 12 October: editable nutrient-return diagram, cream paper, sage/peach panels and 9.45 pt body.",
+    "Crop rotation & planning approved 18 October: flowing green/orange headings, body size, mirrored margins and quiet footer."
+  ],
+  "composition": [
+    "Header with short lead, about 30 mm.",
+    "Carbon explanation, labelled editable air/plant/decomposition loop and humus note: main upper page.",
+    "Nitrogen explanation and practical root-retention advice, with a compact process strip.",
+    "Smaller peach two-column phosphorus/potassium panel."
+  ],
+  "illustrations": [
+    {
+      "role": "Growing plant node in carbon loop",
+      "source": "public/images/heroes/richer-a/cabbage.png",
+      "sizeMm": [
+        25,
+        22
+      ],
+      "note": "Approved vegetable hero reused unchanged as a crop symbol, not an anatomical root diagram."
+    },
+    {
+      "role": "Plant remains/compost node",
+      "source": "docs/publication/topic-pages/techniques-expansion/references/compost-use-approved-2026-10-12/assets/compost-mix-v1.png",
+      "sizeMm": [
+        48,
+        24
+      ],
+      "note": "Entire approved illustration retained; input and finished-material groups remain visible."
+    },
+    {
+      "role": "Explanatory carbon loop and nitrogen sequence",
+      "source": "New editable HTML/SVG in build-nutrient-cycles.mjs",
+      "note": "Arrow directions and labels derive from the research record. Carbon loop is a selected pathway; text explicitly retains some carbon in humus. Nitrogen release is tied to decomposition, not live roots directly feeding neighbours."
+    }
+  ],
+  "assets": {
+    "public/images/heroes/richer-a/cabbage.png": "99b901ebff5e1b4d1dba063cef707a8f791452fc4e5fdf14180a878aba27d7ff",
+    "docs/publication/topic-pages/techniques-expansion/references/compost-use-approved-2026-10-12/assets/compost-mix-v1.png": "931038e107eb185fedfc3a469af0b1c6deafeb49209bd5950341df0367e2aff7"
+  },
+  "research": "/Users/johnlennon/Documents/web_site/hackriculture-resources/summaries/nutrient-cycles/RESEARCH-2026-10-18.json",
+  "sourceDataChanged": false,
+  "existingApprovedPagesChanged": false,
+  "notIncluded": [
+    "Separate water or micronutrient cycles",
+    "Application rates",
+    "Full soil nutrient budgets",
+    "Full-book assembly"
+  ],
+  "next": "Render and visually review actual PDF; present for John’s review."
+}

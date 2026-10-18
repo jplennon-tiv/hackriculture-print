@@ -18,6 +18,7 @@ OUT=ROOT/'output/pdf/whole-book-order-preview/the-vegetable-guru-order-preview.p
 MM=72/25.4;W=185*MM;H=240*MM
 j=lambda p:json.loads((ROOT/p).read_text())
 sha=lambda p:hashlib.sha256((ROOT/p).read_bytes()).hexdigest()
+raise SystemExit('Retired assembly route. Use npm run book:preview; approved reader edits and the 18 October section order must be preserved.')
 components=j('docs/publication/whole-book-order-preview/COMPONENT-CHECKS.json')
 headers=j('docs/publication/whole-book-order-preview/integration-headers-opening-2026-10-15/HEADERS.json')
 header_rows={r['folio']:r for r in headers['results'] if r['unit']=='imperial'}

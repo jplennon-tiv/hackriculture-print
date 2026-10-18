@@ -1,0 +1,74 @@
+{
+  "scope": "Read-only source receipt; no canonical records copied or changed",
+  "records": [
+    {
+      "key": "kale",
+      "path": "../hackriculture-data/vegetables/kale/kale.json",
+      "sha256": "2127e8502c9852cbd118e743f90cc6db61ad060f9dd12df5acf873ed109350b7",
+      "fieldsRead": [
+        "calendar",
+        "sowing_and_planting"
+      ],
+      "authoritativeFor": "Worked succession timing, crop predecessors, readiness and protection"
+    },
+    {
+      "key": "lettuce",
+      "path": "../hackriculture-data/vegetables/lettuce/lettuce.json",
+      "sha256": "498782e48dc1496a943725a9ad723db8d63cacacb12e9a3adbcdec9418b16a91",
+      "fieldsRead": [
+        "calendar",
+        "sowing_and_planting"
+      ],
+      "authoritativeFor": "Protected sowing / autumn crop route"
+    },
+    {
+      "key": "oriental_leaves",
+      "path": "../hackriculture-data/vegetables/oriental_leaves/oriental_leaves.json",
+      "sha256": "3f660087e2cbf7dcae70216bb44f17db5c3cd05cfd35265bb83f87069da13ed8",
+      "fieldsRead": [
+        "calendar",
+        "sowing_and_planting"
+      ],
+      "authoritativeFor": "Protected sowing / autumn crop route"
+    },
+    {
+      "key": "spinach",
+      "path": "../hackriculture-data/vegetables/spinach/spinach.json",
+      "sha256": "6cb3234a7c1d03445f2e6d1dad62436050400e724420ef62a1fd00a5869ffb39",
+      "fieldsRead": [
+        "calendar",
+        "sowing_and_planting"
+      ],
+      "authoritativeFor": "Protected sowing / autumn crop route"
+    },
+    {
+      "key": "bean_broad",
+      "path": "../hackriculture-data/vegetables/bean_broad/bean_broad.json",
+      "sha256": "b446a18b1ee992cd7f6b2c171278946f8f7357eb8d96d4ff7cc2f7cd9ce5a8f5",
+      "fieldsRead": [
+        "calendar.harvest_time",
+        "harvesting",
+        "sowing_and_planting"
+      ],
+      "authoritativeFor": "Early broad-bean harvest context; no new sowing measurements adopted"
+    }
+  ],
+  "taxonomyChecks": {
+    "records": [
+      "beetroot",
+      "spinach",
+      "lettuce",
+      "chicory",
+      "endive",
+      "celery",
+      "celeriac",
+      "aubergine"
+    ],
+    "fieldsRead": [
+      "category",
+      "introduction",
+      "top-level family/botanical/scientific field names"
+    ],
+    "result": "No direct family fields or relevant family statement; category fields are culinary/book groups. Online family tables used only for this gap."
+  }
+}

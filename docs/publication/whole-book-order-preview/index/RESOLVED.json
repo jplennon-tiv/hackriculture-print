@@ -1,11 +1,11 @@
 {
-  "status": "Index proposal; page selection and design await review",
-  "sourceRevision": "ad0539eda57eb6469b5b3aa3dee25ee17d34240919b2904982db1cbb8e73d316",
+  "status": "Current integrated references from approved sources",
+  "sourceRevision": "47979654c8f0cd1324493533185bf05623cff8c368d214659698ee488278bf05",
   "copyPath": "/Users/johnlennon/Documents/web_site/hackriculture-data/book-layout/index.json",
-  "copySha256": "644561af4403bc5f4327bdac2e023aba1564b09721b8db90f6ee652780ac2e83",
+  "copySha256": "6ae7667ef67da526220ced7ba44455b08bc261f5369cb81e0854585f13e65969",
   "assemblyPlan": {
     "path": "docs/publication/contents-update/ASSEMBLY-PROPOSAL.json",
-    "sha256": "e986090ff9d7b5a871be5b2759ec7ba95377d795a1e14d0a727f5a6b53f87086"
+    "sha256": "8aad9e34a4f41bc02e215919879b2c2d10946f8365d338fbd66dffe237f99c0d"
   },
   "temporaryTopicReferences": false,
   "identicalEditionReferences": true,
@@ -20,12 +20,12 @@
       "sha256": "95d154ef7506c10d329e70205065328172529805e737b18fbf0be8c2098e39f6",
       "pages": 2
     },
-    "output/pdf/approved-two-page-guides/imperial/carrot.pdf": {
-      "sha256": "6a682ae9671480e452cc3e9eeff0d7e8ece27c5803c17c4fc3bf63bfbbd67c7b",
+    "output/pdf/reader-edit-pass/guides/carrot-imperial-clean.pdf": {
+      "sha256": "ea76ab3642d2e626c1029cc656b6ecb71386b6e5f2cf0e377f2ed45cda8c81b0",
       "pages": 2
     },
-    "output/pdf/book-preparation/bookvault/imperial/vegetable_celeriac.pdf": {
-      "sha256": "372149fac18d8d61264e595b9514e3fd331b7ec97f1f59120337fb0a8453b6c6",
+    "output/pdf/reader-edit-pass/guides/celeriac-imperial-clean.pdf": {
+      "sha256": "4f82918e59b9890f56e5425cee9166964027c8faec4aa999426be2fda72ead4b",
       "pages": 2
     },
     "output/pdf/book-preparation/bookvault/imperial/vegetable_kohl_rabi.pdf": {
@@ -64,8 +64,8 @@
       "sha256": "c846fd779297cd965e114670949f90acf5bdf800da969d5db9d33fbce8624821",
       "pages": 2
     },
-    "output/pdf/book-preparation/bookvault/imperial/vegetable_cabbage.pdf": {
-      "sha256": "790f3605a9f6781d18fb063ad12b415948a04167a543d46ce7d4e57b68a1956d",
+    "output/pdf/reader-edit-pass/guides/cabbage-imperial-clean.pdf": {
+      "sha256": "60cd9ffe1a08b761bc5f2c6d6b48b47e23b46c7172df32af57faf1a23eee40a1",
       "pages": 2
     },
     "output/pdf/book-preparation/bookvault/imperial/vegetable_cauliflower.pdf": {
@@ -104,8 +104,8 @@
       "sha256": "507a1725c8089106d91604e23e24277043f09a73f4c4ce52a76a505c4afe8705",
       "pages": 2
     },
-    "output/pdf/book-preparation/bookvault/imperial/vegetable_lettuce.pdf": {
-      "sha256": "9a97173fe8ed21bb89895e80ccda015e5dc4c6cc18ba562ccea3c431e65073c1",
+    "output/pdf/reader-edit-pass/guides/lettuce-imperial-clean.pdf": {
+      "sha256": "74ca827d14bcc3efd90cd9a066d918b868cbd0396b18eae6cbc95645cd67e8ff",
       "pages": 2
     },
     "output/pdf/book-preparation/bookvault/imperial/vegetable_oriental_leaves.pdf": {
@@ -120,8 +120,8 @@
       "sha256": "0a394b1ed5a2ea53112b4c250ac59d061747e7aa778579b19bfc86289518c954",
       "pages": 2
     },
-    "output/pdf/book-preparation/bookvault/imperial/vegetable_leek.pdf": {
-      "sha256": "25c6ab2963f33b8c2acf880d646c15531d1d3c6195975216e577a594df5f29c1",
+    "output/pdf/reader-edit-pass/guides/leek-imperial-clean.pdf": {
+      "sha256": "ccd2438879f2c7591fd0324a906000b84db534ba13cff8583dd848711ddee6c0",
       "pages": 2
     },
     "output/pdf/approved-two-page-guides/imperial/onions_and_shallots.pdf": {
@@ -136,8 +136,8 @@
       "sha256": "50e5b14edc4b0e20001c4008041498b1ab31243cbf991fccb975b86c1bfcda53",
       "pages": 2
     },
-    "output/pdf/book-preparation/bookvault/imperial/vegetable_courgettes_and_marrows.pdf": {
-      "sha256": "59946442949572b090a44265c17876ed51fb32bda09601970446615392f22b09",
+    "output/pdf/reader-edit-pass/guides/marrow_courgette-imperial-clean.pdf": {
+      "sha256": "04edee4c10ee296e90b9a2c949d2e45b21ac574c4a6e66130a38e0cf02504d4c",
       "pages": 2
     },
     "output/pdf/book-preparation/bookvault/imperial/vegetable_cucumber_greenhouse.pdf": {
@@ -156,8 +156,8 @@
       "sha256": "60066057b88e5d51b9083fa115f99810e59083b00bc663a44cde3a94dc6471cf",
       "pages": 2
     },
-    "output/pdf/approved-two-page-guides/imperial/tomato_greenhouse.pdf": {
-      "sha256": "83a89b2607e5268390cb5b107ecf246d03cf3c01f15a0ebed3e544dc5d1360a1",
+    "output/pdf/reader-edit-pass/guides/tomato_greenhouse-imperial-clean.pdf": {
+      "sha256": "3160ded1c04d9c3b96f9db89400fb9d71d8ac1033f53d792fe9f7fc8d442a4fb",
       "pages": 2
     },
     "output/pdf/approved-two-page-guides/imperial/tomato_outdoor.pdf": {
@@ -168,8 +168,8 @@
       "sha256": "e807849aa3a23d1863a81ade29b8c2e2ee599dc3795c8fe84ad5ce2a0ac4c8c8",
       "pages": 2
     },
-    "output/pdf/book-preparation/bookvault/imperial/vegetable_asparagus.pdf": {
-      "sha256": "6ac4bafe0a1fbe457904dd49458827e6adb5e8c79a45e371801fdc0f56fe5141",
+    "output/pdf/reader-edit-pass/guides/asparagus-imperial-clean.pdf": {
+      "sha256": "1eca6b391ae99dee15eb8dcafcedc3a2c6148f2df5d4611e651bc837ca971815",
       "pages": 2
     },
     "output/pdf/book-preparation/bookvault/imperial/vegetable_celery.pdf": {
@@ -220,8 +220,8 @@
       "sha256": "928ef3b9a238f217706b1d8b5159e76e46275461a9230460d61f1cbaf9357f8c",
       "pages": 3
     },
-    "output/pdf/book-preparation/bookvault/imperial/trouble_onion_and_leek_troubles.pdf": {
-      "sha256": "8bc94f54c983c31c0148238f41331bd131e77844ea27cd2294420a05260c9233",
+    "output/pdf/reader-edit-pass/guides/onion_and_leek_troubles-imperial-clean.pdf": {
+      "sha256": "7778a8f552fe41e16b79f8db3b53f7e00ec6bd3c1f41dce10d3dd055808bd9fd",
       "pages": 3
     },
     "output/pdf/book-preparation/bookvault/imperial/trouble_oriental_leaves_troubles.pdf": {
@@ -252,6 +252,18 @@
       "sha256": "7f8bd21868140455895d7e2c72569652cf4aee719db21820e283a2fd2209ad2e",
       "pages": 4
     },
+    "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/imperial.pdf": {
+      "sha256": "ee41c201663e2c5215f170b538a76c7b98b16092c124342f7fd0d6788f8a2f42",
+      "pages": 13
+    },
+    "output/pdf/final-text-edits/organic-imperial.pdf": {
+      "sha256": "b90bb800bdd5466ac030d17230ce8fd7b54da46ea5c047a44563ca30c751ba42",
+      "pages": 1
+    },
+    "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf": {
+      "sha256": "31f6607ad253ba30eb4d9819c833fbfd4085d2d0253bcbc6296018332a5db1a6",
+      "pages": 21
+    },
     "output/pdf/book-preparation/bookvault/metric/vegetable_artichoke_jerusalem.pdf": {
       "sha256": "455de2408cbcd5e68d96cdeb0148f3245bdaa87b960ba3659fdbbecec1021697",
       "pages": 2
@@ -260,12 +272,12 @@
       "sha256": "faed83b50ce4389d0ce88037e27e249d9c8c7e4eb1de39b7a562c2cbc6529bce",
       "pages": 2
     },
-    "output/pdf/approved-two-page-guides/metric/carrot.pdf": {
-      "sha256": "70d99deb6dd090f71f6ede6064b92f75a46bf94b25d670aef1998fecd415a3b4",
+    "output/pdf/reader-edit-pass/guides/carrot-metric-clean.pdf": {
+      "sha256": "392b1087b4b5aa49940e5687b9b26959465bed1d87fffffdfe42ffb30a3de6d3",
       "pages": 2
     },
-    "output/pdf/book-preparation/bookvault/metric/vegetable_celeriac.pdf": {
-      "sha256": "461508f68dfbf5adbca7b7efee46fddb6a961f72ca16450e006efecbc404c2e0",
+    "output/pdf/reader-edit-pass/guides/celeriac-metric-clean.pdf": {
+      "sha256": "76d0f6deccb2542ccc9fec5fb27124bbe71d024abbbe829a5c19b84dc6b01b79",
       "pages": 2
     },
     "output/pdf/book-preparation/bookvault/metric/vegetable_kohl_rabi.pdf": {
@@ -304,8 +316,8 @@
       "sha256": "08207f283e98088568609990f2ad6f2266baac65fe6c4193c20fe2ffdfc4d230",
       "pages": 2
     },
-    "output/pdf/book-preparation/bookvault/metric/vegetable_cabbage.pdf": {
-      "sha256": "4b058567915feeea569ace7973d880f161c0e7f968ebb0734532c5bf6cb1bf14",
+    "output/pdf/reader-edit-pass/guides/cabbage-metric-clean.pdf": {
+      "sha256": "df1599d9164ed6c4b50f8782e1f633bc58deb3e27840cf986db3e55a1815f608",
       "pages": 2
     },
     "output/pdf/book-preparation/bookvault/metric/vegetable_cauliflower.pdf": {
@@ -344,8 +356,8 @@
       "sha256": "e00db0b91bc86cc6683ea8695b96aaea1da2c7eee8e245e4ea891529786ac883",
       "pages": 2
     },
-    "output/pdf/book-preparation/bookvault/metric/vegetable_lettuce.pdf": {
-      "sha256": "5b9ce3b6c5f2af95b51a30be94a59c813b9ab51f48903e4e391c5c22606ad3ac",
+    "output/pdf/reader-edit-pass/guides/lettuce-metric-clean.pdf": {
+      "sha256": "eb9e88fc155d1152c00309f24e891cbe5439b09519ba9bed3bed5c8b5a373f1b",
       "pages": 2
     },
     "output/pdf/book-preparation/bookvault/metric/vegetable_oriental_leaves.pdf": {
@@ -360,8 +372,8 @@
       "sha256": "f87917cb22101548c48e28c8ba63f25adddf4fb56e2412055fe259253a67dede",
       "pages": 2
     },
-    "output/pdf/book-preparation/bookvault/metric/vegetable_leek.pdf": {
-      "sha256": "7b755e619d3a97e530e4a8703105a331d147f82442c7cd441299d0311fe7b96c",
+    "output/pdf/reader-edit-pass/guides/leek-metric-clean.pdf": {
+      "sha256": "a77db0e8f2596ca2a9fc6b7e20bc4ca43cd7b97fd39da1077cacfd4e346d3f0c",
       "pages": 2
     },
     "output/pdf/approved-two-page-guides/metric/onions_and_shallots.pdf": {
@@ -376,8 +388,8 @@
       "sha256": "3e93aff5d71855eabf4042ac2c7d13f54d6e5e0b1be766d166907fddeae2f220",
       "pages": 2
     },
-    "output/pdf/book-preparation/bookvault/metric/vegetable_courgettes_and_marrows.pdf": {
-      "sha256": "78b212c10adf58d167edd7af38ec6b46012e77f67f07298186cf50f6b22e5f44",
+    "output/pdf/reader-edit-pass/guides/marrow_courgette-metric-clean.pdf": {
+      "sha256": "34be0c9536e45e2520f6476020f01078d3414dd88705376685ba6ca919770376",
       "pages": 2
     },
     "output/pdf/book-preparation/bookvault/metric/vegetable_cucumber_greenhouse.pdf": {
@@ -396,8 +408,8 @@
       "sha256": "b78fb34996e7a7d8ca42968f6a93b455f48f4413672e96298547c019582b069a",
       "pages": 2
     },
-    "output/pdf/approved-two-page-guides/metric/tomato_greenhouse.pdf": {
-      "sha256": "a6d8620843b3ac74fb7e53404cbe06aed3159da6e56f83d7208e6ddeb195c99d",
+    "output/pdf/reader-edit-pass/guides/tomato_greenhouse-metric-clean.pdf": {
+      "sha256": "405ee1c712cc8fa326d826b4b3c59ee8041e2733d1df3a6fe6c1873b7ddbcc6e",
       "pages": 2
     },
     "output/pdf/approved-two-page-guides/metric/tomato_outdoor.pdf": {
@@ -408,8 +420,8 @@
       "sha256": "db407b2dece9b88b591e27d4c8bbe641c1aaa7c16c53c4184b1fd315dd32bd62",
       "pages": 2
     },
-    "output/pdf/book-preparation/bookvault/metric/vegetable_asparagus.pdf": {
-      "sha256": "28252d6fe3992bbe8e17b5a0f15f673cc41eae84cff8fa995138f4355179cbeb",
+    "output/pdf/reader-edit-pass/guides/asparagus-metric-clean.pdf": {
+      "sha256": "10b519080d5d219a922cd1aaada76c14106c8beab13098a72f77e2d05656a335",
       "pages": 2
     },
     "output/pdf/book-preparation/bookvault/metric/vegetable_celery.pdf": {
@@ -460,8 +472,8 @@
       "sha256": "6cf33a441eaf4ba62c7669d4434375f6c64874c50dce5b6b56a18ecf213e9388",
       "pages": 3
     },
-    "output/pdf/book-preparation/bookvault/metric/trouble_onion_and_leek_troubles.pdf": {
-      "sha256": "01ea242b68fd65db12dacda34137cb3fd463eb0b52d178141b99fb79069ce92c",
+    "output/pdf/reader-edit-pass/guides/onion_and_leek_troubles-metric-clean.pdf": {
+      "sha256": "fe523938989155e99c337c4adef2d719aeebc5f011511243c32877d01869e631",
       "pages": 3
     },
     "output/pdf/book-preparation/bookvault/metric/trouble_oriental_leaves_troubles.pdf": {
@@ -491,6 +503,22 @@
     "docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/metric.pdf": {
       "sha256": "f3b0607d14e84254eb2135763aa384f239377dfdafb7312aee170a76555a50d8",
       "pages": 4
+    },
+    "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/metric.pdf": {
+      "sha256": "89bbc47865e06a36dcae1f22c91a0089aee22068346cae2aa712d37a12c2faf9",
+      "pages": 13
+    },
+    "output/pdf/final-text-edits/organic-metric.pdf": {
+      "sha256": "71fc916dd7fe6806dfd0d7705be1f88e3df7454d12cf2add1df4fa454d3318b6",
+      "pages": 1
+    },
+    "docs/publication/topic-pages/crop-rotation-planning/references/approved-2026-10-18/crop-rotation-planning-metric.pdf": {
+      "sha256": "c7cba0f3dd0999ee1643fe51b187ff672fe0cc5fabc8fe9c415e54b39023eb01",
+      "pages": 2
+    },
+    "output/pdf/reader-edit-pass/techniques/techniques-metric-clean.pdf": {
+      "sha256": "6acfaf301badc377baa57553b7bfd9680414a9e43e45dc3178a547ebb63082be",
+      "pages": 6
     }
   },
   "editions": {
@@ -511,14 +539,14 @@
             "heading": "Allium Leaf Miner",
             "prefix": "",
             "folio": 128,
-            "pdf": "output/pdf/book-preparation/bookvault/imperial/trouble_onion_and_leek_troubles.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/onion_and_leek_troubles-imperial-clean.pdf",
             "page": 3
           }
         ],
         "displayReferences": [
           {
             "label": "128",
-            "pdf": "output/pdf/book-preparation/bookvault/imperial/trouble_onion_and_leek_troubles.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/onion_and_leek_troubles-imperial-clean.pdf",
             "page": 3
           }
         ]
@@ -868,21 +896,21 @@
             "source": "vegetable:asparagus",
             "prefix": "",
             "folio": 88,
-            "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_asparagus.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/asparagus-imperial-clean.pdf",
             "page": 1
           },
           {
             "source": "vegetable:asparagus",
             "prefix": "",
             "folio": 89,
-            "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_asparagus.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/asparagus-imperial-clean.pdf",
             "page": 2
           }
         ],
         "displayReferences": [
           {
             "label": "88–89",
-            "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_asparagus.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/asparagus-imperial-clean.pdf",
             "page": 1
           }
         ]
@@ -1222,23 +1250,23 @@
           {
             "source": "technique:plot-layout",
             "prefix": "",
-            "folio": 148,
-            "pdf": "output/pdf/topic-pages/techniques-expansion-imperial-draft.pdf",
-            "page": 4
+            "folio": 152,
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 8
           },
           {
             "source": "technique:plot-layout-branching",
             "prefix": "",
-            "folio": 149,
-            "pdf": "output/pdf/topic-pages/techniques-expansion-imperial-draft.pdf",
-            "page": 5
+            "folio": 153,
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 9
           }
         ],
         "displayReferences": [
           {
-            "label": "148–149",
-            "pdf": "output/pdf/topic-pages/techniques-expansion-imperial-draft.pdf",
-            "page": 4
+            "label": "152–153",
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 8
           }
         ]
       },
@@ -1254,16 +1282,16 @@
           {
             "source": "technique:greenhouse-beds",
             "prefix": "",
-            "folio": 160,
-            "pdf": "output/pdf/topic-pages/techniques-expansion-imperial-draft.pdf",
-            "page": 7
+            "folio": 164,
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 20
           }
         ],
         "displayReferences": [
           {
-            "label": "160",
-            "pdf": "output/pdf/topic-pages/techniques-expansion-imperial-draft.pdf",
-            "page": 7
+            "label": "164",
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 20
           }
         ]
       },
@@ -1483,14 +1511,14 @@
             "heading": "Birds Pulling Sets",
             "prefix": "",
             "folio": 126,
-            "pdf": "output/pdf/book-preparation/bookvault/imperial/trouble_onion_and_leek_troubles.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/onion_and_leek_troubles-imperial-clean.pdf",
             "page": 1
           }
         ],
         "displayReferences": [
           {
             "label": "126",
-            "pdf": "output/pdf/book-preparation/bookvault/imperial/trouble_onion_and_leek_troubles.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/onion_and_leek_troubles-imperial-clean.pdf",
             "page": 1
           }
         ]
@@ -1969,7 +1997,7 @@
             "heading": "Bolting",
             "prefix": "",
             "folio": 126,
-            "pdf": "output/pdf/book-preparation/bookvault/imperial/trouble_onion_and_leek_troubles.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/onion_and_leek_troubles-imperial-clean.pdf",
             "page": 1
           },
           {
@@ -2009,7 +2037,7 @@
           },
           {
             "label": "126",
-            "pdf": "output/pdf/book-preparation/bookvault/imperial/trouble_onion_and_leek_troubles.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/onion_and_leek_troubles-imperial-clean.pdf",
             "page": 1
           },
           {
@@ -2332,14 +2360,14 @@
             "source": "vegetable:cabbage",
             "prefix": "",
             "folio": 36,
-            "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_cabbage.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/cabbage-imperial-clean.pdf",
             "page": 1
           },
           {
             "source": "vegetable:cabbage",
             "prefix": "",
             "folio": 37,
-            "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_cabbage.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/cabbage-imperial-clean.pdf",
             "page": 2
           },
           {
@@ -2388,7 +2416,7 @@
         "displayReferences": [
           {
             "label": "36–37",
-            "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_cabbage.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/cabbage-imperial-clean.pdf",
             "page": 1
           },
           {
@@ -2565,16 +2593,16 @@
           {
             "source": "cultivation:no-dig",
             "prefix": "",
-            "folio": 151,
-            "pdf": "docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/imperial.pdf",
-            "page": 2
+            "folio": 157,
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 13
           }
         ],
         "displayReferences": [
           {
-            "label": "151",
-            "pdf": "docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/imperial.pdf",
-            "page": 2
+            "label": "157",
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 13
           }
         ]
       },
@@ -2650,14 +2678,14 @@
             "source": "vegetable:carrot",
             "prefix": "",
             "folio": 14,
-            "pdf": "output/pdf/approved-two-page-guides/imperial/carrot.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/carrot-imperial-clean.pdf",
             "page": 1
           },
           {
             "source": "vegetable:carrot",
             "prefix": "",
             "folio": 15,
-            "pdf": "output/pdf/approved-two-page-guides/imperial/carrot.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/carrot-imperial-clean.pdf",
             "page": 2
           },
           {
@@ -2685,7 +2713,7 @@
         "displayReferences": [
           {
             "label": "14–15",
-            "pdf": "output/pdf/approved-two-page-guides/imperial/carrot.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/carrot-imperial-clean.pdf",
             "page": 1
           },
           {
@@ -2867,14 +2895,14 @@
             "source": "vegetable:celeriac",
             "prefix": "",
             "folio": 16,
-            "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_celeriac.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/celeriac-imperial-clean.pdf",
             "page": 1
           },
           {
             "source": "vegetable:celeriac",
             "prefix": "",
             "folio": 17,
-            "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_celeriac.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/celeriac-imperial-clean.pdf",
             "page": 2
           },
           {
@@ -2895,7 +2923,7 @@
         "displayReferences": [
           {
             "label": "16–17",
-            "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_celeriac.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/celeriac-imperial-clean.pdf",
             "page": 1
           },
           {
@@ -3111,6 +3139,13 @@
         ]
       },
       {
+        "id": "chillies",
+        "term": "Chillies",
+        "see": "peppers-capsicums",
+        "references": [],
+        "displayReferences": []
+      },
+      {
         "id": "chocolate-spot",
         "term": "Chocolate spot",
         "refs": [
@@ -3223,6 +3258,31 @@
         ]
       },
       {
+        "id": "comfrey",
+        "term": "Comfrey",
+        "refs": [
+          {
+            "source": "technique:nutrient-cycles"
+          }
+        ],
+        "references": [
+          {
+            "source": "technique:nutrient-cycles",
+            "prefix": "",
+            "folio": 147,
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 3
+          }
+        ],
+        "displayReferences": [
+          {
+            "label": "147",
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 3
+          }
+        ]
+      },
+      {
         "id": "common-scab",
         "term": "Common scab",
         "refs": [
@@ -3263,14 +3323,14 @@
             "source": "technique:compost-bins",
             "prefix": "",
             "folio": 154,
-            "pdf": "output/pdf/topic-pages/techniques-expansion-imperial-draft.pdf",
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
             "page": 10
           }
         ],
         "displayReferences": [
           {
             "label": "154",
-            "pdf": "output/pdf/topic-pages/techniques-expansion-imperial-draft.pdf",
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
             "page": 10
           }
         ]
@@ -3288,14 +3348,14 @@
             "source": "technique:compost-use",
             "prefix": "",
             "folio": 155,
-            "pdf": "output/pdf/topic-pages/techniques-expansion-imperial-draft.pdf",
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
             "page": 11
           }
         ],
         "displayReferences": [
           {
             "label": "155",
-            "pdf": "output/pdf/topic-pages/techniques-expansion-imperial-draft.pdf",
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
             "page": 11
           }
         ]
@@ -3316,21 +3376,21 @@
             "source": "technique:compost-bins",
             "prefix": "",
             "folio": 154,
-            "pdf": "output/pdf/topic-pages/techniques-expansion-imperial-draft.pdf",
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
             "page": 10
           },
           {
             "source": "technique:compost-use",
             "prefix": "",
             "folio": 155,
-            "pdf": "output/pdf/topic-pages/techniques-expansion-imperial-draft.pdf",
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
             "page": 11
           }
         ],
         "displayReferences": [
           {
             "label": "154–155",
-            "pdf": "output/pdf/topic-pages/techniques-expansion-imperial-draft.pdf",
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
             "page": 10
           }
         ]
@@ -3348,14 +3408,14 @@
             "source": "technique:compost-use",
             "prefix": "",
             "folio": 155,
-            "pdf": "output/pdf/topic-pages/techniques-expansion-imperial-draft.pdf",
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
             "page": 11
           }
         ],
         "displayReferences": [
           {
             "label": "155",
-            "pdf": "output/pdf/topic-pages/techniques-expansion-imperial-draft.pdf",
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
             "page": 11
           }
         ]
@@ -3372,16 +3432,16 @@
           {
             "source": "technique:greenhouse-beds",
             "prefix": "",
-            "folio": 160,
-            "pdf": "output/pdf/topic-pages/techniques-expansion-imperial-draft.pdf",
-            "page": 7
+            "folio": 164,
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 20
           }
         ],
         "displayReferences": [
           {
-            "label": "160",
-            "pdf": "output/pdf/topic-pages/techniques-expansion-imperial-draft.pdf",
-            "page": 7
+            "label": "164",
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 20
           }
         ]
       },
@@ -3401,14 +3461,14 @@
             "source": "vegetable:marrow_courgette",
             "prefix": "",
             "folio": 72,
-            "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_courgettes_and_marrows.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/marrow_courgette-imperial-clean.pdf",
             "page": 1
           },
           {
             "source": "vegetable:marrow_courgette",
             "prefix": "",
             "folio": 73,
-            "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_courgettes_and_marrows.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/marrow_courgette-imperial-clean.pdf",
             "page": 2
           },
           {
@@ -3450,7 +3510,7 @@
         "displayReferences": [
           {
             "label": "72–73",
-            "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_courgettes_and_marrows.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/marrow_courgette-imperial-clean.pdf",
             "page": 1
           },
           {
@@ -3472,16 +3532,23 @@
           {
             "source": "technique:rotation",
             "prefix": "",
-            "folio": 156,
-            "pdf": "output/pdf/topic-pages/techniques-expansion-imperial-draft.pdf",
-            "page": 9
+            "folio": 148,
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 4
+          },
+          {
+            "source": "technique:rotation",
+            "prefix": "",
+            "folio": 149,
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 5
           }
         ],
         "displayReferences": [
           {
-            "label": "156",
-            "pdf": "output/pdf/topic-pages/techniques-expansion-imperial-draft.pdf",
-            "page": 9
+            "label": "148–149",
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 4
           }
         ]
       },
@@ -3716,16 +3783,16 @@
           {
             "source": "cultivation:overview",
             "prefix": "",
-            "folio": 150,
-            "pdf": "docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/imperial.pdf",
-            "page": 1
+            "folio": 156,
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 12
           }
         ],
         "displayReferences": [
           {
-            "label": "150",
-            "pdf": "docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/imperial.pdf",
-            "page": 1
+            "label": "156",
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 12
           }
         ]
       },
@@ -3864,23 +3931,23 @@
           {
             "source": "cultivation:digging",
             "prefix": "",
-            "folio": 152,
-            "pdf": "docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/imperial.pdf",
-            "page": 3
+            "folio": 158,
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 14
           },
           {
             "source": "cultivation:digging-finish",
             "prefix": "",
-            "folio": 153,
-            "pdf": "docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/imperial.pdf",
-            "page": 4
+            "folio": 159,
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 15
           }
         ],
         "displayReferences": [
           {
-            "label": "152–153",
-            "pdf": "docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/imperial.pdf",
-            "page": 3
+            "label": "158–159",
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 14
           }
         ]
       },
@@ -3896,16 +3963,16 @@
           {
             "source": "cultivation:digging",
             "prefix": "",
-            "folio": 152,
-            "pdf": "docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/imperial.pdf",
-            "page": 3
+            "folio": 158,
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 14
           }
         ],
         "displayReferences": [
           {
-            "label": "152",
-            "pdf": "docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/imperial.pdf",
-            "page": 3
+            "label": "158",
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 14
           }
         ]
       },
@@ -3968,7 +4035,7 @@
             "heading": "Downy Mildew",
             "prefix": "",
             "folio": 128,
-            "pdf": "output/pdf/book-preparation/bookvault/imperial/trouble_onion_and_leek_troubles.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/onion_and_leek_troubles-imperial-clean.pdf",
             "page": 3
           },
           {
@@ -3999,7 +4066,7 @@
           },
           {
             "label": "128",
-            "pdf": "output/pdf/book-preparation/bookvault/imperial/trouble_onion_and_leek_troubles.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/onion_and_leek_troubles-imperial-clean.pdf",
             "page": 3
           },
           {
@@ -4024,28 +4091,28 @@
           {
             "source": "technique:plot-location",
             "prefix": "",
-            "folio": 147,
-            "pdf": "output/pdf/topic-pages/techniques-expansion-imperial-draft.pdf",
-            "page": 3
+            "folio": 151,
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 7
           },
           {
             "source": "technique:watering",
             "prefix": "",
-            "folio": 158,
-            "pdf": "output/pdf/topic-pages/techniques-expansion-imperial-draft.pdf",
-            "page": 12
+            "folio": 161,
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 17
           }
         ],
         "displayReferences": [
           {
-            "label": "147",
-            "pdf": "output/pdf/topic-pages/techniques-expansion-imperial-draft.pdf",
-            "page": 3
+            "label": "151",
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 7
           },
           {
-            "label": "158",
-            "pdf": "output/pdf/topic-pages/techniques-expansion-imperial-draft.pdf",
-            "page": 12
+            "label": "161",
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 17
           }
         ]
       },
@@ -4065,14 +4132,14 @@
             "heading": "Drooping Leaves",
             "prefix": "",
             "folio": 127,
-            "pdf": "output/pdf/book-preparation/bookvault/imperial/trouble_onion_and_leek_troubles.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/onion_and_leek_troubles-imperial-clean.pdf",
             "page": 2
           }
         ],
         "displayReferences": [
           {
             "label": "127",
-            "pdf": "output/pdf/book-preparation/bookvault/imperial/trouble_onion_and_leek_troubles.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/onion_and_leek_troubles-imperial-clean.pdf",
             "page": 2
           }
         ]
@@ -4303,16 +4370,16 @@
           {
             "source": "technique:plot-layout-branching",
             "prefix": "",
-            "folio": 149,
-            "pdf": "output/pdf/topic-pages/techniques-expansion-imperial-draft.pdf",
-            "page": 5
+            "folio": 153,
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 9
           }
         ],
         "displayReferences": [
           {
-            "label": "149",
-            "pdf": "output/pdf/topic-pages/techniques-expansion-imperial-draft.pdf",
-            "page": 5
+            "label": "153",
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 9
           }
         ]
       },
@@ -4412,6 +4479,104 @@
             "label": "100",
             "pdf": "output/pdf/book-preparation/bookvault/imperial/trouble_bean_and_pea_troubles.pdf",
             "page": 1
+          }
+        ]
+      },
+      {
+        "id": "follow-on-crops",
+        "term": "Follow-on crops",
+        "refs": [
+          {
+            "source": "vegetable:kale"
+          },
+          {
+            "source": "vegetable:oriental_leaves"
+          },
+          {
+            "source": "vegetable:garlic"
+          },
+          {
+            "source": "technique:rotation"
+          }
+        ],
+        "references": [
+          {
+            "source": "vegetable:kale",
+            "prefix": "",
+            "folio": 40,
+            "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_kale.pdf",
+            "page": 1
+          },
+          {
+            "source": "vegetable:kale",
+            "prefix": "",
+            "folio": 41,
+            "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_kale.pdf",
+            "page": 2
+          },
+          {
+            "source": "vegetable:oriental_leaves",
+            "prefix": "",
+            "folio": 58,
+            "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_oriental_leaves.pdf",
+            "page": 1
+          },
+          {
+            "source": "vegetable:oriental_leaves",
+            "prefix": "",
+            "folio": 59,
+            "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_oriental_leaves.pdf",
+            "page": 2
+          },
+          {
+            "source": "vegetable:garlic",
+            "prefix": "",
+            "folio": 62,
+            "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_garlic.pdf",
+            "page": 1
+          },
+          {
+            "source": "vegetable:garlic",
+            "prefix": "",
+            "folio": 63,
+            "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_garlic.pdf",
+            "page": 2
+          },
+          {
+            "source": "technique:rotation",
+            "prefix": "",
+            "folio": 148,
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 4
+          },
+          {
+            "source": "technique:rotation",
+            "prefix": "",
+            "folio": 149,
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 5
+          }
+        ],
+        "displayReferences": [
+          {
+            "label": "40–41",
+            "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_kale.pdf",
+            "page": 1
+          },
+          {
+            "label": "58–59",
+            "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_oriental_leaves.pdf",
+            "page": 1
+          },
+          {
+            "label": "62–63",
+            "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_garlic.pdf",
+            "page": 1
+          },
+          {
+            "label": "148–149",
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 4
           }
         ]
       },
@@ -4799,21 +4964,21 @@
             "source": "trouble:onion_and_leek_troubles",
             "prefix": "",
             "folio": 126,
-            "pdf": "output/pdf/book-preparation/bookvault/imperial/trouble_onion_and_leek_troubles.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/onion_and_leek_troubles-imperial-clean.pdf",
             "page": 1
           },
           {
             "source": "trouble:onion_and_leek_troubles",
             "prefix": "",
             "folio": 127,
-            "pdf": "output/pdf/book-preparation/bookvault/imperial/trouble_onion_and_leek_troubles.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/onion_and_leek_troubles-imperial-clean.pdf",
             "page": 2
           },
           {
             "source": "trouble:onion_and_leek_troubles",
             "prefix": "",
             "folio": 128,
-            "pdf": "output/pdf/book-preparation/bookvault/imperial/trouble_onion_and_leek_troubles.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/onion_and_leek_troubles-imperial-clean.pdf",
             "page": 3
           }
         ],
@@ -4825,7 +4990,7 @@
           },
           {
             "label": "126–128",
-            "pdf": "output/pdf/book-preparation/bookvault/imperial/trouble_onion_and_leek_troubles.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/onion_and_leek_troubles-imperial-clean.pdf",
             "page": 1
           }
         ]
@@ -4940,16 +5105,16 @@
           {
             "source": "technique:greenhouse-choose",
             "prefix": "",
-            "folio": 159,
-            "pdf": "output/pdf/topic-pages/techniques-expansion-imperial-draft.pdf",
-            "page": 6
+            "folio": 163,
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 19
           }
         ],
         "displayReferences": [
           {
-            "label": "159",
-            "pdf": "output/pdf/topic-pages/techniques-expansion-imperial-draft.pdf",
-            "page": 6
+            "label": "163",
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 19
           }
         ]
       },
@@ -4968,23 +5133,23 @@
           {
             "source": "technique:greenhouse-beds",
             "prefix": "",
-            "folio": 160,
-            "pdf": "output/pdf/topic-pages/techniques-expansion-imperial-draft.pdf",
-            "page": 7
+            "folio": 164,
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 20
           },
           {
             "source": "technique:greenhouse-no-dig-seasons",
             "prefix": "",
-            "folio": 161,
-            "pdf": "output/pdf/topic-pages/techniques-expansion-imperial-draft.pdf",
-            "page": 8
+            "folio": 165,
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 21
           }
         ],
         "displayReferences": [
           {
-            "label": "160–161",
-            "pdf": "output/pdf/topic-pages/techniques-expansion-imperial-draft.pdf",
-            "page": 7
+            "label": "164–165",
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 20
           }
         ]
       },
@@ -5000,16 +5165,16 @@
           {
             "source": "technique:greenhouse-no-dig-seasons",
             "prefix": "",
-            "folio": 161,
-            "pdf": "output/pdf/topic-pages/techniques-expansion-imperial-draft.pdf",
-            "page": 8
+            "folio": 165,
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 21
           }
         ],
         "displayReferences": [
           {
-            "label": "161",
-            "pdf": "output/pdf/topic-pages/techniques-expansion-imperial-draft.pdf",
-            "page": 8
+            "label": "165",
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 21
           }
         ]
       },
@@ -5254,16 +5419,16 @@
           {
             "source": "technique:sowing",
             "prefix": "",
-            "folio": 157,
-            "pdf": "output/pdf/topic-pages/techniques-expansion-imperial-draft.pdf",
-            "page": 13
+            "folio": 160,
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 16
           }
         ],
         "displayReferences": [
           {
-            "label": "157",
-            "pdf": "output/pdf/topic-pages/techniques-expansion-imperial-draft.pdf",
-            "page": 13
+            "label": "160",
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 16
           }
         ]
       },
@@ -5564,16 +5729,16 @@
           {
             "source": "technique:plot-layout",
             "prefix": "",
-            "folio": 148,
-            "pdf": "output/pdf/topic-pages/techniques-expansion-imperial-draft.pdf",
-            "page": 4
+            "folio": 152,
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 8
           }
         ],
         "displayReferences": [
           {
-            "label": "148",
-            "pdf": "output/pdf/topic-pages/techniques-expansion-imperial-draft.pdf",
-            "page": 4
+            "label": "152",
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 8
           }
         ]
       },
@@ -5706,16 +5871,16 @@
           {
             "source": "technique:plot-layout-branching",
             "prefix": "",
-            "folio": 149,
-            "pdf": "output/pdf/topic-pages/techniques-expansion-imperial-draft.pdf",
-            "page": 5
+            "folio": 153,
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 9
           }
         ],
         "displayReferences": [
           {
-            "label": "149",
-            "pdf": "output/pdf/topic-pages/techniques-expansion-imperial-draft.pdf",
-            "page": 5
+            "label": "153",
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 9
           }
         ]
       },
@@ -5865,14 +6030,14 @@
             "heading": "Leek Moth",
             "prefix": "",
             "folio": 128,
-            "pdf": "output/pdf/book-preparation/bookvault/imperial/trouble_onion_and_leek_troubles.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/onion_and_leek_troubles-imperial-clean.pdf",
             "page": 3
           }
         ],
         "displayReferences": [
           {
             "label": "128",
-            "pdf": "output/pdf/book-preparation/bookvault/imperial/trouble_onion_and_leek_troubles.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/onion_and_leek_troubles-imperial-clean.pdf",
             "page": 3
           }
         ]
@@ -5893,47 +6058,47 @@
             "source": "vegetable:leek",
             "prefix": "",
             "folio": 64,
-            "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_leek.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/leek-imperial-clean.pdf",
             "page": 1
           },
           {
             "source": "vegetable:leek",
             "prefix": "",
             "folio": 65,
-            "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_leek.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/leek-imperial-clean.pdf",
             "page": 2
           },
           {
             "source": "trouble:onion_and_leek_troubles",
             "prefix": "",
             "folio": 126,
-            "pdf": "output/pdf/book-preparation/bookvault/imperial/trouble_onion_and_leek_troubles.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/onion_and_leek_troubles-imperial-clean.pdf",
             "page": 1
           },
           {
             "source": "trouble:onion_and_leek_troubles",
             "prefix": "",
             "folio": 127,
-            "pdf": "output/pdf/book-preparation/bookvault/imperial/trouble_onion_and_leek_troubles.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/onion_and_leek_troubles-imperial-clean.pdf",
             "page": 2
           },
           {
             "source": "trouble:onion_and_leek_troubles",
             "prefix": "",
             "folio": 128,
-            "pdf": "output/pdf/book-preparation/bookvault/imperial/trouble_onion_and_leek_troubles.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/onion_and_leek_troubles-imperial-clean.pdf",
             "page": 3
           }
         ],
         "displayReferences": [
           {
             "label": "64–65",
-            "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_leek.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/leek-imperial-clean.pdf",
             "page": 1
           },
           {
             "label": "126–128",
-            "pdf": "output/pdf/book-preparation/bookvault/imperial/trouble_onion_and_leek_troubles.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/onion_and_leek_troubles-imperial-clean.pdf",
             "page": 1
           }
         ]
@@ -5954,14 +6119,14 @@
             "source": "vegetable:lettuce",
             "prefix": "",
             "folio": 56,
-            "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_lettuce.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/lettuce-imperial-clean.pdf",
             "page": 1
           },
           {
             "source": "vegetable:lettuce",
             "prefix": "",
             "folio": 57,
-            "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_lettuce.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/lettuce-imperial-clean.pdf",
             "page": 2
           },
           {
@@ -5989,7 +6154,7 @@
         "displayReferences": [
           {
             "label": "56–57",
-            "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_lettuce.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/lettuce-imperial-clean.pdf",
             "page": 1
           },
           {
@@ -6254,6 +6419,31 @@
         ]
       },
       {
+        "id": "micronutrients",
+        "term": "Micronutrients",
+        "refs": [
+          {
+            "source": "technique:nutrient-cycles"
+          }
+        ],
+        "references": [
+          {
+            "source": "technique:nutrient-cycles",
+            "prefix": "",
+            "folio": 147,
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 3
+          }
+        ],
+        "displayReferences": [
+          {
+            "label": "147",
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 3
+          }
+        ]
+      },
+      {
         "id": "mildew-downy",
         "term": "Mildew, downy",
         "see": "downy-mildew",
@@ -6279,16 +6469,16 @@
           {
             "source": "technique:sowing",
             "prefix": "",
-            "folio": 157,
-            "pdf": "output/pdf/topic-pages/techniques-expansion-imperial-draft.pdf",
-            "page": 13
+            "folio": 160,
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 16
           }
         ],
         "displayReferences": [
           {
-            "label": "157",
-            "pdf": "output/pdf/topic-pages/techniques-expansion-imperial-draft.pdf",
-            "page": 13
+            "label": "160",
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 16
           }
         ]
       },
@@ -6350,16 +6540,16 @@
           {
             "source": "cultivation:no-dig",
             "prefix": "",
-            "folio": 151,
-            "pdf": "docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/imperial.pdf",
-            "page": 2
+            "folio": 157,
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 13
           }
         ],
         "displayReferences": [
           {
-            "label": "151",
-            "pdf": "docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/imperial.pdf",
-            "page": 2
+            "label": "157",
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 13
           }
         ]
       },
@@ -6411,14 +6601,39 @@
             "heading": "Neck Rot",
             "prefix": "",
             "folio": 128,
-            "pdf": "output/pdf/book-preparation/bookvault/imperial/trouble_onion_and_leek_troubles.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/onion_and_leek_troubles-imperial-clean.pdf",
             "page": 3
           }
         ],
         "displayReferences": [
           {
             "label": "128",
-            "pdf": "output/pdf/book-preparation/bookvault/imperial/trouble_onion_and_leek_troubles.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/onion_and_leek_troubles-imperial-clean.pdf",
+            "page": 3
+          }
+        ]
+      },
+      {
+        "id": "nitrogen",
+        "term": "Nitrogen",
+        "refs": [
+          {
+            "source": "technique:nutrient-cycles"
+          }
+        ],
+        "references": [
+          {
+            "source": "technique:nutrient-cycles",
+            "prefix": "",
+            "folio": 147,
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 3
+          }
+        ],
+        "displayReferences": [
+          {
+            "label": "147",
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
             "page": 3
           }
         ]
@@ -6435,16 +6650,16 @@
           {
             "source": "technique:greenhouse-no-dig-seasons",
             "prefix": "",
-            "folio": 161,
-            "pdf": "output/pdf/topic-pages/techniques-expansion-imperial-draft.pdf",
-            "page": 8
+            "folio": 165,
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 21
           }
         ],
         "displayReferences": [
           {
-            "label": "161",
-            "pdf": "output/pdf/topic-pages/techniques-expansion-imperial-draft.pdf",
-            "page": 8
+            "label": "165",
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 21
           }
         ]
       },
@@ -6460,16 +6675,41 @@
           {
             "source": "cultivation:no-dig",
             "prefix": "",
-            "folio": 151,
-            "pdf": "docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/imperial.pdf",
-            "page": 2
+            "folio": 157,
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 13
           }
         ],
         "displayReferences": [
           {
-            "label": "151",
-            "pdf": "docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/imperial.pdf",
-            "page": 2
+            "label": "157",
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 13
+          }
+        ]
+      },
+      {
+        "id": "nutrient-cycles",
+        "term": "Nutrient cycles",
+        "refs": [
+          {
+            "source": "technique:nutrient-cycles"
+          }
+        ],
+        "references": [
+          {
+            "source": "technique:nutrient-cycles",
+            "prefix": "",
+            "folio": 147,
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 3
+          }
+        ],
+        "displayReferences": [
+          {
+            "label": "147",
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 3
           }
         ]
       },
@@ -6489,14 +6729,14 @@
             "heading": "Onion Fly",
             "prefix": "",
             "folio": 126,
-            "pdf": "output/pdf/book-preparation/bookvault/imperial/trouble_onion_and_leek_troubles.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/onion_and_leek_troubles-imperial-clean.pdf",
             "page": 1
           }
         ],
         "displayReferences": [
           {
             "label": "126",
-            "pdf": "output/pdf/book-preparation/bookvault/imperial/trouble_onion_and_leek_troubles.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/onion_and_leek_troubles-imperial-clean.pdf",
             "page": 1
           }
         ]
@@ -6531,21 +6771,21 @@
             "source": "trouble:onion_and_leek_troubles",
             "prefix": "",
             "folio": 126,
-            "pdf": "output/pdf/book-preparation/bookvault/imperial/trouble_onion_and_leek_troubles.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/onion_and_leek_troubles-imperial-clean.pdf",
             "page": 1
           },
           {
             "source": "trouble:onion_and_leek_troubles",
             "prefix": "",
             "folio": 127,
-            "pdf": "output/pdf/book-preparation/bookvault/imperial/trouble_onion_and_leek_troubles.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/onion_and_leek_troubles-imperial-clean.pdf",
             "page": 2
           },
           {
             "source": "trouble:onion_and_leek_troubles",
             "prefix": "",
             "folio": 128,
-            "pdf": "output/pdf/book-preparation/bookvault/imperial/trouble_onion_and_leek_troubles.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/onion_and_leek_troubles-imperial-clean.pdf",
             "page": 3
           }
         ],
@@ -6557,7 +6797,7 @@
           },
           {
             "label": "126–128",
-            "pdf": "output/pdf/book-preparation/bookvault/imperial/trouble_onion_and_leek_troubles.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/onion_and_leek_troubles-imperial-clean.pdf",
             "page": 1
           }
         ]
@@ -6575,15 +6815,15 @@
             "source": "technique:organic",
             "prefix": "",
             "folio": 146,
-            "pdf": "output/pdf/topic-pages/techniques-expansion-imperial-draft.pdf",
-            "page": 2
+            "pdf": "output/pdf/final-text-edits/organic-imperial.pdf",
+            "page": 1
           }
         ],
         "displayReferences": [
           {
             "label": "146",
-            "pdf": "output/pdf/topic-pages/techniques-expansion-imperial-draft.pdf",
-            "page": 2
+            "pdf": "output/pdf/final-text-edits/organic-imperial.pdf",
+            "page": 1
           }
         ]
       },
@@ -6808,23 +7048,23 @@
           {
             "source": "technique:plot-layout",
             "prefix": "",
-            "folio": 148,
-            "pdf": "output/pdf/topic-pages/techniques-expansion-imperial-draft.pdf",
-            "page": 4
+            "folio": 152,
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 8
           },
           {
             "source": "technique:plot-layout-branching",
             "prefix": "",
-            "folio": 149,
-            "pdf": "output/pdf/topic-pages/techniques-expansion-imperial-draft.pdf",
-            "page": 5
+            "folio": 153,
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 9
           }
         ],
         "displayReferences": [
           {
-            "label": "148–149",
-            "pdf": "output/pdf/topic-pages/techniques-expansion-imperial-draft.pdf",
-            "page": 4
+            "label": "152–153",
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 8
           }
         ]
       },
@@ -7013,6 +7253,31 @@
         ]
       },
       {
+        "id": "phosphorus",
+        "term": "Phosphorus",
+        "refs": [
+          {
+            "source": "technique:nutrient-cycles"
+          }
+        ],
+        "references": [
+          {
+            "source": "technique:nutrient-cycles",
+            "prefix": "",
+            "folio": 147,
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 3
+          }
+        ],
+        "displayReferences": [
+          {
+            "label": "147",
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 3
+          }
+        ]
+      },
+      {
         "id": "pigeons",
         "term": "Pigeons",
         "see": "bird-damage",
@@ -7031,16 +7296,16 @@
           {
             "source": "technique:sowing",
             "prefix": "",
-            "folio": 157,
-            "pdf": "output/pdf/topic-pages/techniques-expansion-imperial-draft.pdf",
-            "page": 13
+            "folio": 160,
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 16
           }
         ],
         "displayReferences": [
           {
-            "label": "157",
-            "pdf": "output/pdf/topic-pages/techniques-expansion-imperial-draft.pdf",
-            "page": 13
+            "label": "160",
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 16
           }
         ]
       },
@@ -7056,16 +7321,16 @@
           {
             "source": "technique:plot-location",
             "prefix": "",
-            "folio": 147,
-            "pdf": "output/pdf/topic-pages/techniques-expansion-imperial-draft.pdf",
-            "page": 3
+            "folio": 151,
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 7
           }
         ],
         "displayReferences": [
           {
-            "label": "147",
-            "pdf": "output/pdf/topic-pages/techniques-expansion-imperial-draft.pdf",
-            "page": 3
+            "label": "151",
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 7
           }
         ]
       },
@@ -7087,30 +7352,30 @@
           {
             "source": "technique:plot-location",
             "prefix": "",
-            "folio": 147,
-            "pdf": "output/pdf/topic-pages/techniques-expansion-imperial-draft.pdf",
-            "page": 3
+            "folio": 151,
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 7
           },
           {
             "source": "technique:plot-layout",
             "prefix": "",
-            "folio": 148,
-            "pdf": "output/pdf/topic-pages/techniques-expansion-imperial-draft.pdf",
-            "page": 4
+            "folio": 152,
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 8
           },
           {
             "source": "technique:plot-layout-branching",
             "prefix": "",
-            "folio": 149,
-            "pdf": "output/pdf/topic-pages/techniques-expansion-imperial-draft.pdf",
-            "page": 5
+            "folio": 153,
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 9
           }
         ],
         "displayReferences": [
           {
-            "label": "147–149",
-            "pdf": "output/pdf/topic-pages/techniques-expansion-imperial-draft.pdf",
-            "page": 3
+            "label": "151–153",
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 7
           }
         ]
       },
@@ -7138,6 +7403,31 @@
           {
             "label": "102",
             "pdf": "output/pdf/book-preparation/bookvault/imperial/trouble_bean_and_pea_troubles.pdf",
+            "page": 3
+          }
+        ]
+      },
+      {
+        "id": "potassium",
+        "term": "Potassium",
+        "refs": [
+          {
+            "source": "technique:nutrient-cycles"
+          }
+        ],
+        "references": [
+          {
+            "source": "technique:nutrient-cycles",
+            "prefix": "",
+            "folio": 147,
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 3
+          }
+        ],
+        "displayReferences": [
+          {
+            "label": "147",
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
             "page": 3
           }
         ]
@@ -7670,14 +7960,14 @@
             "heading": "Rust",
             "prefix": "",
             "folio": 127,
-            "pdf": "output/pdf/book-preparation/bookvault/imperial/trouble_onion_and_leek_troubles.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/onion_and_leek_troubles-imperial-clean.pdf",
             "page": 2
           }
         ],
         "displayReferences": [
           {
             "label": "127",
-            "pdf": "output/pdf/book-preparation/bookvault/imperial/trouble_onion_and_leek_troubles.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/onion_and_leek_troubles-imperial-clean.pdf",
             "page": 2
           }
         ]
@@ -7698,14 +7988,14 @@
             "heading": "Saddleback",
             "prefix": "",
             "folio": 126,
-            "pdf": "output/pdf/book-preparation/bookvault/imperial/trouble_onion_and_leek_troubles.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/onion_and_leek_troubles-imperial-clean.pdf",
             "page": 1
           }
         ],
         "displayReferences": [
           {
             "label": "126",
-            "pdf": "output/pdf/book-preparation/bookvault/imperial/trouble_onion_and_leek_troubles.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/onion_and_leek_troubles-imperial-clean.pdf",
             "page": 1
           }
         ]
@@ -7796,6 +8086,31 @@
         "displayReferences": []
       },
       {
+        "id": "seaweed",
+        "term": "Seaweed",
+        "refs": [
+          {
+            "source": "technique:nutrient-cycles"
+          }
+        ],
+        "references": [
+          {
+            "source": "technique:nutrient-cycles",
+            "prefix": "",
+            "folio": 147,
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 3
+          }
+        ],
+        "displayReferences": [
+          {
+            "label": "147",
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 3
+          }
+        ]
+      },
+      {
         "id": "seed-beetle",
         "term": "Seed beetle",
         "refs": [
@@ -7835,16 +8150,16 @@
           {
             "source": "technique:sowing",
             "prefix": "",
-            "folio": 157,
-            "pdf": "output/pdf/topic-pages/techniques-expansion-imperial-draft.pdf",
-            "page": 13
+            "folio": 160,
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 16
           }
         ],
         "displayReferences": [
           {
-            "label": "157",
-            "pdf": "output/pdf/topic-pages/techniques-expansion-imperial-draft.pdf",
-            "page": 13
+            "label": "160",
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 16
           }
         ]
       },
@@ -7864,14 +8179,14 @@
             "heading": "Set Division",
             "prefix": "",
             "folio": 126,
-            "pdf": "output/pdf/book-preparation/bookvault/imperial/trouble_onion_and_leek_troubles.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/onion_and_leek_troubles-imperial-clean.pdf",
             "page": 1
           }
         ],
         "displayReferences": [
           {
             "label": "126",
-            "pdf": "output/pdf/book-preparation/bookvault/imperial/trouble_onion_and_leek_troubles.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/onion_and_leek_troubles-imperial-clean.pdf",
             "page": 1
           }
         ]
@@ -7891,28 +8206,28 @@
           {
             "source": "technique:plot-location",
             "prefix": "",
-            "folio": 147,
-            "pdf": "output/pdf/topic-pages/techniques-expansion-imperial-draft.pdf",
-            "page": 3
+            "folio": 151,
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 7
           },
           {
             "source": "technique:plot-layout-branching",
             "prefix": "",
-            "folio": 149,
-            "pdf": "output/pdf/topic-pages/techniques-expansion-imperial-draft.pdf",
-            "page": 5
+            "folio": 153,
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 9
           }
         ],
         "displayReferences": [
           {
-            "label": "147",
-            "pdf": "output/pdf/topic-pages/techniques-expansion-imperial-draft.pdf",
-            "page": 3
+            "label": "151",
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 7
           },
           {
-            "label": "149",
-            "pdf": "output/pdf/topic-pages/techniques-expansion-imperial-draft.pdf",
-            "page": 5
+            "label": "153",
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 9
           }
         ]
       },
@@ -7939,14 +8254,14 @@
             "heading": "Shanking",
             "prefix": "",
             "folio": 128,
-            "pdf": "output/pdf/book-preparation/bookvault/imperial/trouble_onion_and_leek_troubles.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/onion_and_leek_troubles-imperial-clean.pdf",
             "page": 3
           }
         ],
         "displayReferences": [
           {
             "label": "128",
-            "pdf": "output/pdf/book-preparation/bookvault/imperial/trouble_onion_and_leek_troubles.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/onion_and_leek_troubles-imperial-clean.pdf",
             "page": 3
           }
         ]
@@ -7963,16 +8278,16 @@
           {
             "source": "technique:plot-layout-branching",
             "prefix": "",
-            "folio": 149,
-            "pdf": "output/pdf/topic-pages/techniques-expansion-imperial-draft.pdf",
-            "page": 5
+            "folio": 153,
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 9
           }
         ],
         "displayReferences": [
           {
-            "label": "149",
-            "pdf": "output/pdf/topic-pages/techniques-expansion-imperial-draft.pdf",
-            "page": 5
+            "label": "153",
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 9
           }
         ]
       },
@@ -8152,16 +8467,16 @@
           {
             "source": "cultivation:digging-finish",
             "prefix": "",
-            "folio": 153,
-            "pdf": "docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/imperial.pdf",
-            "page": 4
+            "folio": 159,
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 15
           }
         ],
         "displayReferences": [
           {
-            "label": "153",
-            "pdf": "docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/imperial.pdf",
-            "page": 4
+            "label": "159",
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 15
           }
         ]
       },
@@ -8181,14 +8496,14 @@
             "heading": "Smut",
             "prefix": "",
             "folio": 127,
-            "pdf": "output/pdf/book-preparation/bookvault/imperial/trouble_onion_and_leek_troubles.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/onion_and_leek_troubles-imperial-clean.pdf",
             "page": 2
           }
         ],
         "displayReferences": [
           {
             "label": "127",
-            "pdf": "output/pdf/book-preparation/bookvault/imperial/trouble_onion_and_leek_troubles.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/onion_and_leek_troubles-imperial-clean.pdf",
             "page": 2
           }
         ]
@@ -8286,16 +8601,16 @@
           {
             "source": "cultivation:digging",
             "prefix": "",
-            "folio": 152,
-            "pdf": "docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/imperial.pdf",
-            "page": 3
+            "folio": 158,
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 14
           }
         ],
         "displayReferences": [
           {
-            "label": "152",
-            "pdf": "docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/imperial.pdf",
-            "page": 3
+            "label": "158",
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 14
           }
         ]
       },
@@ -8739,14 +9054,14 @@
             "heading": "Stem & Bulb Eelworm",
             "prefix": "",
             "folio": 127,
-            "pdf": "output/pdf/book-preparation/bookvault/imperial/trouble_onion_and_leek_troubles.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/onion_and_leek_troubles-imperial-clean.pdf",
             "page": 2
           }
         ],
         "displayReferences": [
           {
             "label": "127",
-            "pdf": "output/pdf/book-preparation/bookvault/imperial/trouble_onion_and_leek_troubles.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/onion_and_leek_troubles-imperial-clean.pdf",
             "page": 2
           }
         ]
@@ -8808,6 +9123,82 @@
         ]
       },
       {
+        "id": "storage",
+        "term": "Storage",
+        "refs": [
+          {
+            "source": "vegetable:carrot"
+          },
+          {
+            "source": "vegetable:onion_shallot"
+          },
+          {
+            "source": "vegetable:squash_pumpkin"
+          }
+        ],
+        "references": [
+          {
+            "source": "vegetable:carrot",
+            "prefix": "",
+            "folio": 14,
+            "pdf": "output/pdf/reader-edit-pass/guides/carrot-imperial-clean.pdf",
+            "page": 1
+          },
+          {
+            "source": "vegetable:carrot",
+            "prefix": "",
+            "folio": 15,
+            "pdf": "output/pdf/reader-edit-pass/guides/carrot-imperial-clean.pdf",
+            "page": 2
+          },
+          {
+            "source": "vegetable:onion_shallot",
+            "prefix": "",
+            "folio": 66,
+            "pdf": "output/pdf/approved-two-page-guides/imperial/onions_and_shallots.pdf",
+            "page": 1
+          },
+          {
+            "source": "vegetable:onion_shallot",
+            "prefix": "",
+            "folio": 67,
+            "pdf": "output/pdf/approved-two-page-guides/imperial/onions_and_shallots.pdf",
+            "page": 2
+          },
+          {
+            "source": "vegetable:squash_pumpkin",
+            "prefix": "",
+            "folio": 78,
+            "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_squashes_and_pumpkins.pdf",
+            "page": 1
+          },
+          {
+            "source": "vegetable:squash_pumpkin",
+            "prefix": "",
+            "folio": 79,
+            "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_squashes_and_pumpkins.pdf",
+            "page": 2
+          }
+        ],
+        "displayReferences": [
+          {
+            "label": "14–15",
+            "pdf": "output/pdf/reader-edit-pass/guides/carrot-imperial-clean.pdf",
+            "page": 1
+          },
+          {
+            "label": "66–67",
+            "pdf": "output/pdf/approved-two-page-guides/imperial/onions_and_shallots.pdf",
+            "page": 1
+          },
+          {
+            "label": "78–79",
+            "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_squashes_and_pumpkins.pdf",
+            "page": 1
+          }
+        ]
+      },
+      {
         "id": "storage-rot-stem-damage",
         "term": "Storage rot, stem damage",
         "refs": [
@@ -8834,6 +9225,13 @@
             "page": 4
           }
         ]
+      },
+      {
+        "id": "succession-cropping",
+        "term": "Succession cropping",
+        "see": "follow-on-crops",
+        "references": [],
+        "displayReferences": []
       },
       {
         "id": "sunlight",
@@ -9046,14 +9444,14 @@
             "heading": "Bull Neck (Thick Neck)",
             "prefix": "",
             "folio": 127,
-            "pdf": "output/pdf/book-preparation/bookvault/imperial/trouble_onion_and_leek_troubles.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/onion_and_leek_troubles-imperial-clean.pdf",
             "page": 2
           }
         ],
         "displayReferences": [
           {
             "label": "127",
-            "pdf": "output/pdf/book-preparation/bookvault/imperial/trouble_onion_and_leek_troubles.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/onion_and_leek_troubles-imperial-clean.pdf",
             "page": 2
           }
         ]
@@ -9102,14 +9500,14 @@
             "source": "vegetable:tomato_greenhouse",
             "prefix": "",
             "folio": 82,
-            "pdf": "output/pdf/approved-two-page-guides/imperial/tomato_greenhouse.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/tomato_greenhouse-imperial-clean.pdf",
             "page": 1
           },
           {
             "source": "vegetable:tomato_greenhouse",
             "prefix": "",
             "folio": 83,
-            "pdf": "output/pdf/approved-two-page-guides/imperial/tomato_greenhouse.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/tomato_greenhouse-imperial-clean.pdf",
             "page": 2
           },
           {
@@ -9151,7 +9549,7 @@
         "displayReferences": [
           {
             "label": "82–83",
-            "pdf": "output/pdf/approved-two-page-guides/imperial/tomato_greenhouse.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/tomato_greenhouse-imperial-clean.pdf",
             "page": 1
           },
           {
@@ -9551,16 +9949,16 @@
           {
             "source": "technique:watering",
             "prefix": "",
-            "folio": 158,
-            "pdf": "output/pdf/topic-pages/techniques-expansion-imperial-draft.pdf",
-            "page": 12
+            "folio": 161,
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 17
           }
         ],
         "displayReferences": [
           {
-            "label": "158",
-            "pdf": "output/pdf/topic-pages/techniques-expansion-imperial-draft.pdf",
-            "page": 12
+            "label": "161",
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 17
           }
         ]
       },
@@ -9576,16 +9974,16 @@
           {
             "source": "technique:watering",
             "prefix": "",
-            "folio": 158,
-            "pdf": "output/pdf/topic-pages/techniques-expansion-imperial-draft.pdf",
-            "page": 12
+            "folio": 161,
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 17
           }
         ],
         "displayReferences": [
           {
-            "label": "158",
-            "pdf": "output/pdf/topic-pages/techniques-expansion-imperial-draft.pdf",
-            "page": 12
+            "label": "161",
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 17
           }
         ]
       },
@@ -9607,40 +10005,40 @@
           {
             "source": "technique:plot-location",
             "prefix": "",
-            "folio": 147,
-            "pdf": "output/pdf/topic-pages/techniques-expansion-imperial-draft.pdf",
-            "page": 3
+            "folio": 151,
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 7
           },
           {
             "source": "cultivation:no-dig",
             "prefix": "",
-            "folio": 151,
-            "pdf": "docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/imperial.pdf",
-            "page": 2
+            "folio": 157,
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 13
           },
           {
             "source": "cultivation:digging-finish",
             "prefix": "",
-            "folio": 153,
-            "pdf": "docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/imperial.pdf",
-            "page": 4
+            "folio": 159,
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 15
           }
         ],
         "displayReferences": [
           {
-            "label": "147",
-            "pdf": "output/pdf/topic-pages/techniques-expansion-imperial-draft.pdf",
-            "page": 3
-          },
-          {
             "label": "151",
-            "pdf": "docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/imperial.pdf",
-            "page": 2
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 7
           },
           {
-            "label": "153",
-            "pdf": "docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/imperial.pdf",
-            "page": 4
+            "label": "157",
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 13
+          },
+          {
+            "label": "159",
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 15
           }
         ]
       },
@@ -9716,14 +10114,14 @@
             "heading": "White Rot (Mouldy Nose)",
             "prefix": "",
             "folio": 128,
-            "pdf": "output/pdf/book-preparation/bookvault/imperial/trouble_onion_and_leek_troubles.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/onion_and_leek_troubles-imperial-clean.pdf",
             "page": 3
           }
         ],
         "displayReferences": [
           {
             "label": "128",
-            "pdf": "output/pdf/book-preparation/bookvault/imperial/trouble_onion_and_leek_troubles.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/onion_and_leek_troubles-imperial-clean.pdf",
             "page": 3
           }
         ]
@@ -9751,14 +10149,14 @@
             "heading": "White Tip",
             "prefix": "",
             "folio": 127,
-            "pdf": "output/pdf/book-preparation/bookvault/imperial/trouble_onion_and_leek_troubles.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/onion_and_leek_troubles-imperial-clean.pdf",
             "page": 2
           }
         ],
         "displayReferences": [
           {
             "label": "127",
-            "pdf": "output/pdf/book-preparation/bookvault/imperial/trouble_onion_and_leek_troubles.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/onion_and_leek_troubles-imperial-clean.pdf",
             "page": 2
           }
         ]
@@ -9775,16 +10173,92 @@
           {
             "source": "technique:sowing",
             "prefix": "",
-            "folio": 157,
-            "pdf": "output/pdf/topic-pages/techniques-expansion-imperial-draft.pdf",
-            "page": 13
+            "folio": 160,
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 16
           }
         ],
         "displayReferences": [
           {
-            "label": "157",
-            "pdf": "output/pdf/topic-pages/techniques-expansion-imperial-draft.pdf",
-            "page": 13
+            "label": "160",
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 16
+          }
+        ]
+      },
+      {
+        "id": "winter-harvesting",
+        "term": "Winter harvesting",
+        "refs": [
+          {
+            "source": "vegetable:parsnip"
+          },
+          {
+            "source": "vegetable:kale"
+          },
+          {
+            "source": "vegetable:leek"
+          }
+        ],
+        "references": [
+          {
+            "source": "vegetable:parsnip",
+            "prefix": "",
+            "folio": 20,
+            "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_parsnip.pdf",
+            "page": 1
+          },
+          {
+            "source": "vegetable:parsnip",
+            "prefix": "",
+            "folio": 21,
+            "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_parsnip.pdf",
+            "page": 2
+          },
+          {
+            "source": "vegetable:kale",
+            "prefix": "",
+            "folio": 40,
+            "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_kale.pdf",
+            "page": 1
+          },
+          {
+            "source": "vegetable:kale",
+            "prefix": "",
+            "folio": 41,
+            "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_kale.pdf",
+            "page": 2
+          },
+          {
+            "source": "vegetable:leek",
+            "prefix": "",
+            "folio": 64,
+            "pdf": "output/pdf/reader-edit-pass/guides/leek-imperial-clean.pdf",
+            "page": 1
+          },
+          {
+            "source": "vegetable:leek",
+            "prefix": "",
+            "folio": 65,
+            "pdf": "output/pdf/reader-edit-pass/guides/leek-imperial-clean.pdf",
+            "page": 2
+          }
+        ],
+        "displayReferences": [
+          {
+            "label": "20–21",
+            "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_parsnip.pdf",
+            "page": 1
+          },
+          {
+            "label": "40–41",
+            "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_kale.pdf",
+            "page": 1
+          },
+          {
+            "label": "64–65",
+            "pdf": "output/pdf/reader-edit-pass/guides/leek-imperial-clean.pdf",
+            "page": 1
           }
         ]
       },
@@ -9869,6 +10343,31 @@
             "label": "117",
             "pdf": "output/pdf/book-preparation/bookvault/imperial/trouble_cucurbit_troubles.pdf",
             "page": 1
+          }
+        ]
+      },
+      {
+        "id": "wood-ash",
+        "term": "Wood ash",
+        "refs": [
+          {
+            "source": "technique:nutrient-cycles"
+          }
+        ],
+        "references": [
+          {
+            "source": "technique:nutrient-cycles",
+            "prefix": "",
+            "folio": 147,
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 3
+          }
+        ],
+        "displayReferences": [
+          {
+            "label": "147",
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 3
           }
         ]
       },
@@ -9918,14 +10417,14 @@
             "heading": "Allium Leaf Miner",
             "prefix": "",
             "folio": 128,
-            "pdf": "output/pdf/book-preparation/bookvault/metric/trouble_onion_and_leek_troubles.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/onion_and_leek_troubles-metric-clean.pdf",
             "page": 3
           }
         ],
         "displayReferences": [
           {
             "label": "128",
-            "pdf": "output/pdf/book-preparation/bookvault/metric/trouble_onion_and_leek_troubles.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/onion_and_leek_troubles-metric-clean.pdf",
             "page": 3
           }
         ]
@@ -10275,21 +10774,21 @@
             "source": "vegetable:asparagus",
             "prefix": "",
             "folio": 88,
-            "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_asparagus.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/asparagus-metric-clean.pdf",
             "page": 1
           },
           {
             "source": "vegetable:asparagus",
             "prefix": "",
             "folio": 89,
-            "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_asparagus.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/asparagus-metric-clean.pdf",
             "page": 2
           }
         ],
         "displayReferences": [
           {
             "label": "88–89",
-            "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_asparagus.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/asparagus-metric-clean.pdf",
             "page": 1
           }
         ]
@@ -10629,22 +11128,22 @@
           {
             "source": "technique:plot-layout",
             "prefix": "",
-            "folio": 148,
-            "pdf": "output/pdf/topic-pages/techniques-expansion-metric-draft.pdf",
+            "folio": 152,
+            "pdf": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/metric.pdf",
             "page": 4
           },
           {
             "source": "technique:plot-layout-branching",
             "prefix": "",
-            "folio": 149,
-            "pdf": "output/pdf/topic-pages/techniques-expansion-metric-draft.pdf",
+            "folio": 153,
+            "pdf": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/metric.pdf",
             "page": 5
           }
         ],
         "displayReferences": [
           {
-            "label": "148–149",
-            "pdf": "output/pdf/topic-pages/techniques-expansion-metric-draft.pdf",
+            "label": "152–153",
+            "pdf": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/metric.pdf",
             "page": 4
           }
         ]
@@ -10661,16 +11160,16 @@
           {
             "source": "technique:greenhouse-beds",
             "prefix": "",
-            "folio": 160,
-            "pdf": "output/pdf/topic-pages/techniques-expansion-metric-draft.pdf",
-            "page": 7
+            "folio": 164,
+            "pdf": "output/pdf/reader-edit-pass/techniques/techniques-metric-clean.pdf",
+            "page": 5
           }
         ],
         "displayReferences": [
           {
-            "label": "160",
-            "pdf": "output/pdf/topic-pages/techniques-expansion-metric-draft.pdf",
-            "page": 7
+            "label": "164",
+            "pdf": "output/pdf/reader-edit-pass/techniques/techniques-metric-clean.pdf",
+            "page": 5
           }
         ]
       },
@@ -10890,14 +11389,14 @@
             "heading": "Birds Pulling Sets",
             "prefix": "",
             "folio": 126,
-            "pdf": "output/pdf/book-preparation/bookvault/metric/trouble_onion_and_leek_troubles.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/onion_and_leek_troubles-metric-clean.pdf",
             "page": 1
           }
         ],
         "displayReferences": [
           {
             "label": "126",
-            "pdf": "output/pdf/book-preparation/bookvault/metric/trouble_onion_and_leek_troubles.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/onion_and_leek_troubles-metric-clean.pdf",
             "page": 1
           }
         ]
@@ -11376,7 +11875,7 @@
             "heading": "Bolting",
             "prefix": "",
             "folio": 126,
-            "pdf": "output/pdf/book-preparation/bookvault/metric/trouble_onion_and_leek_troubles.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/onion_and_leek_troubles-metric-clean.pdf",
             "page": 1
           },
           {
@@ -11416,7 +11915,7 @@
           },
           {
             "label": "126",
-            "pdf": "output/pdf/book-preparation/bookvault/metric/trouble_onion_and_leek_troubles.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/onion_and_leek_troubles-metric-clean.pdf",
             "page": 1
           },
           {
@@ -11739,14 +12238,14 @@
             "source": "vegetable:cabbage",
             "prefix": "",
             "folio": 36,
-            "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_cabbage.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/cabbage-metric-clean.pdf",
             "page": 1
           },
           {
             "source": "vegetable:cabbage",
             "prefix": "",
             "folio": 37,
-            "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_cabbage.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/cabbage-metric-clean.pdf",
             "page": 2
           },
           {
@@ -11795,7 +12294,7 @@
         "displayReferences": [
           {
             "label": "36–37",
-            "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_cabbage.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/cabbage-metric-clean.pdf",
             "page": 1
           },
           {
@@ -11972,14 +12471,14 @@
           {
             "source": "cultivation:no-dig",
             "prefix": "",
-            "folio": 151,
+            "folio": 157,
             "pdf": "docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/metric.pdf",
             "page": 2
           }
         ],
         "displayReferences": [
           {
-            "label": "151",
+            "label": "157",
             "pdf": "docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/metric.pdf",
             "page": 2
           }
@@ -12057,14 +12556,14 @@
             "source": "vegetable:carrot",
             "prefix": "",
             "folio": 14,
-            "pdf": "output/pdf/approved-two-page-guides/metric/carrot.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/carrot-metric-clean.pdf",
             "page": 1
           },
           {
             "source": "vegetable:carrot",
             "prefix": "",
             "folio": 15,
-            "pdf": "output/pdf/approved-two-page-guides/metric/carrot.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/carrot-metric-clean.pdf",
             "page": 2
           },
           {
@@ -12092,7 +12591,7 @@
         "displayReferences": [
           {
             "label": "14–15",
-            "pdf": "output/pdf/approved-two-page-guides/metric/carrot.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/carrot-metric-clean.pdf",
             "page": 1
           },
           {
@@ -12274,14 +12773,14 @@
             "source": "vegetable:celeriac",
             "prefix": "",
             "folio": 16,
-            "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_celeriac.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/celeriac-metric-clean.pdf",
             "page": 1
           },
           {
             "source": "vegetable:celeriac",
             "prefix": "",
             "folio": 17,
-            "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_celeriac.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/celeriac-metric-clean.pdf",
             "page": 2
           },
           {
@@ -12302,7 +12801,7 @@
         "displayReferences": [
           {
             "label": "16–17",
-            "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_celeriac.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/celeriac-metric-clean.pdf",
             "page": 1
           },
           {
@@ -12518,6 +13017,13 @@
         ]
       },
       {
+        "id": "chillies",
+        "term": "Chillies",
+        "see": "peppers-capsicums",
+        "references": [],
+        "displayReferences": []
+      },
+      {
         "id": "chocolate-spot",
         "term": "Chocolate spot",
         "refs": [
@@ -12630,6 +13136,31 @@
         ]
       },
       {
+        "id": "comfrey",
+        "term": "Comfrey",
+        "refs": [
+          {
+            "source": "technique:nutrient-cycles"
+          }
+        ],
+        "references": [
+          {
+            "source": "technique:nutrient-cycles",
+            "prefix": "",
+            "folio": 147,
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 3
+          }
+        ],
+        "displayReferences": [
+          {
+            "label": "147",
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 3
+          }
+        ]
+      },
+      {
         "id": "common-scab",
         "term": "Common scab",
         "refs": [
@@ -12670,15 +13201,15 @@
             "source": "technique:compost-bins",
             "prefix": "",
             "folio": 154,
-            "pdf": "output/pdf/topic-pages/techniques-expansion-metric-draft.pdf",
-            "page": 10
+            "pdf": "output/pdf/reader-edit-pass/techniques/techniques-metric-clean.pdf",
+            "page": 1
           }
         ],
         "displayReferences": [
           {
             "label": "154",
-            "pdf": "output/pdf/topic-pages/techniques-expansion-metric-draft.pdf",
-            "page": 10
+            "pdf": "output/pdf/reader-edit-pass/techniques/techniques-metric-clean.pdf",
+            "page": 1
           }
         ]
       },
@@ -12695,15 +13226,15 @@
             "source": "technique:compost-use",
             "prefix": "",
             "folio": 155,
-            "pdf": "output/pdf/topic-pages/techniques-expansion-metric-draft.pdf",
-            "page": 11
+            "pdf": "output/pdf/reader-edit-pass/techniques/techniques-metric-clean.pdf",
+            "page": 2
           }
         ],
         "displayReferences": [
           {
             "label": "155",
-            "pdf": "output/pdf/topic-pages/techniques-expansion-metric-draft.pdf",
-            "page": 11
+            "pdf": "output/pdf/reader-edit-pass/techniques/techniques-metric-clean.pdf",
+            "page": 2
           }
         ]
       },
@@ -12723,22 +13254,22 @@
             "source": "technique:compost-bins",
             "prefix": "",
             "folio": 154,
-            "pdf": "output/pdf/topic-pages/techniques-expansion-metric-draft.pdf",
-            "page": 10
+            "pdf": "output/pdf/reader-edit-pass/techniques/techniques-metric-clean.pdf",
+            "page": 1
           },
           {
             "source": "technique:compost-use",
             "prefix": "",
             "folio": 155,
-            "pdf": "output/pdf/topic-pages/techniques-expansion-metric-draft.pdf",
-            "page": 11
+            "pdf": "output/pdf/reader-edit-pass/techniques/techniques-metric-clean.pdf",
+            "page": 2
           }
         ],
         "displayReferences": [
           {
             "label": "154–155",
-            "pdf": "output/pdf/topic-pages/techniques-expansion-metric-draft.pdf",
-            "page": 10
+            "pdf": "output/pdf/reader-edit-pass/techniques/techniques-metric-clean.pdf",
+            "page": 1
           }
         ]
       },
@@ -12755,15 +13286,15 @@
             "source": "technique:compost-use",
             "prefix": "",
             "folio": 155,
-            "pdf": "output/pdf/topic-pages/techniques-expansion-metric-draft.pdf",
-            "page": 11
+            "pdf": "output/pdf/reader-edit-pass/techniques/techniques-metric-clean.pdf",
+            "page": 2
           }
         ],
         "displayReferences": [
           {
             "label": "155",
-            "pdf": "output/pdf/topic-pages/techniques-expansion-metric-draft.pdf",
-            "page": 11
+            "pdf": "output/pdf/reader-edit-pass/techniques/techniques-metric-clean.pdf",
+            "page": 2
           }
         ]
       },
@@ -12779,16 +13310,16 @@
           {
             "source": "technique:greenhouse-beds",
             "prefix": "",
-            "folio": 160,
-            "pdf": "output/pdf/topic-pages/techniques-expansion-metric-draft.pdf",
-            "page": 7
+            "folio": 164,
+            "pdf": "output/pdf/reader-edit-pass/techniques/techniques-metric-clean.pdf",
+            "page": 5
           }
         ],
         "displayReferences": [
           {
-            "label": "160",
-            "pdf": "output/pdf/topic-pages/techniques-expansion-metric-draft.pdf",
-            "page": 7
+            "label": "164",
+            "pdf": "output/pdf/reader-edit-pass/techniques/techniques-metric-clean.pdf",
+            "page": 5
           }
         ]
       },
@@ -12808,14 +13339,14 @@
             "source": "vegetable:marrow_courgette",
             "prefix": "",
             "folio": 72,
-            "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_courgettes_and_marrows.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/marrow_courgette-metric-clean.pdf",
             "page": 1
           },
           {
             "source": "vegetable:marrow_courgette",
             "prefix": "",
             "folio": 73,
-            "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_courgettes_and_marrows.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/marrow_courgette-metric-clean.pdf",
             "page": 2
           },
           {
@@ -12857,7 +13388,7 @@
         "displayReferences": [
           {
             "label": "72–73",
-            "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_courgettes_and_marrows.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/marrow_courgette-metric-clean.pdf",
             "page": 1
           },
           {
@@ -12879,16 +13410,23 @@
           {
             "source": "technique:rotation",
             "prefix": "",
-            "folio": 156,
-            "pdf": "output/pdf/topic-pages/techniques-expansion-metric-draft.pdf",
-            "page": 9
+            "folio": 148,
+            "pdf": "docs/publication/topic-pages/crop-rotation-planning/references/approved-2026-10-18/crop-rotation-planning-metric.pdf",
+            "page": 1
+          },
+          {
+            "source": "technique:rotation",
+            "prefix": "",
+            "folio": 149,
+            "pdf": "docs/publication/topic-pages/crop-rotation-planning/references/approved-2026-10-18/crop-rotation-planning-metric.pdf",
+            "page": 2
           }
         ],
         "displayReferences": [
           {
-            "label": "156",
-            "pdf": "output/pdf/topic-pages/techniques-expansion-metric-draft.pdf",
-            "page": 9
+            "label": "148–149",
+            "pdf": "docs/publication/topic-pages/crop-rotation-planning/references/approved-2026-10-18/crop-rotation-planning-metric.pdf",
+            "page": 1
           }
         ]
       },
@@ -13123,14 +13661,14 @@
           {
             "source": "cultivation:overview",
             "prefix": "",
-            "folio": 150,
+            "folio": 156,
             "pdf": "docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/metric.pdf",
             "page": 1
           }
         ],
         "displayReferences": [
           {
-            "label": "150",
+            "label": "156",
             "pdf": "docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/metric.pdf",
             "page": 1
           }
@@ -13271,21 +13809,21 @@
           {
             "source": "cultivation:digging",
             "prefix": "",
-            "folio": 152,
+            "folio": 158,
             "pdf": "docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/metric.pdf",
             "page": 3
           },
           {
             "source": "cultivation:digging-finish",
             "prefix": "",
-            "folio": 153,
+            "folio": 159,
             "pdf": "docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/metric.pdf",
             "page": 4
           }
         ],
         "displayReferences": [
           {
-            "label": "152–153",
+            "label": "158–159",
             "pdf": "docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/metric.pdf",
             "page": 3
           }
@@ -13303,14 +13841,14 @@
           {
             "source": "cultivation:digging",
             "prefix": "",
-            "folio": 152,
+            "folio": 158,
             "pdf": "docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/metric.pdf",
             "page": 3
           }
         ],
         "displayReferences": [
           {
-            "label": "152",
+            "label": "158",
             "pdf": "docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/metric.pdf",
             "page": 3
           }
@@ -13375,7 +13913,7 @@
             "heading": "Downy Mildew",
             "prefix": "",
             "folio": 128,
-            "pdf": "output/pdf/book-preparation/bookvault/metric/trouble_onion_and_leek_troubles.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/onion_and_leek_troubles-metric-clean.pdf",
             "page": 3
           },
           {
@@ -13406,7 +13944,7 @@
           },
           {
             "label": "128",
-            "pdf": "output/pdf/book-preparation/bookvault/metric/trouble_onion_and_leek_troubles.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/onion_and_leek_troubles-metric-clean.pdf",
             "page": 3
           },
           {
@@ -13431,27 +13969,27 @@
           {
             "source": "technique:plot-location",
             "prefix": "",
-            "folio": 147,
-            "pdf": "output/pdf/topic-pages/techniques-expansion-metric-draft.pdf",
+            "folio": 151,
+            "pdf": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/metric.pdf",
             "page": 3
           },
           {
             "source": "technique:watering",
             "prefix": "",
-            "folio": 158,
-            "pdf": "output/pdf/topic-pages/techniques-expansion-metric-draft.pdf",
+            "folio": 161,
+            "pdf": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/metric.pdf",
             "page": 12
           }
         ],
         "displayReferences": [
           {
-            "label": "147",
-            "pdf": "output/pdf/topic-pages/techniques-expansion-metric-draft.pdf",
+            "label": "151",
+            "pdf": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/metric.pdf",
             "page": 3
           },
           {
-            "label": "158",
-            "pdf": "output/pdf/topic-pages/techniques-expansion-metric-draft.pdf",
+            "label": "161",
+            "pdf": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/metric.pdf",
             "page": 12
           }
         ]
@@ -13472,14 +14010,14 @@
             "heading": "Drooping Leaves",
             "prefix": "",
             "folio": 127,
-            "pdf": "output/pdf/book-preparation/bookvault/metric/trouble_onion_and_leek_troubles.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/onion_and_leek_troubles-metric-clean.pdf",
             "page": 2
           }
         ],
         "displayReferences": [
           {
             "label": "127",
-            "pdf": "output/pdf/book-preparation/bookvault/metric/trouble_onion_and_leek_troubles.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/onion_and_leek_troubles-metric-clean.pdf",
             "page": 2
           }
         ]
@@ -13710,15 +14248,15 @@
           {
             "source": "technique:plot-layout-branching",
             "prefix": "",
-            "folio": 149,
-            "pdf": "output/pdf/topic-pages/techniques-expansion-metric-draft.pdf",
+            "folio": 153,
+            "pdf": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/metric.pdf",
             "page": 5
           }
         ],
         "displayReferences": [
           {
-            "label": "149",
-            "pdf": "output/pdf/topic-pages/techniques-expansion-metric-draft.pdf",
+            "label": "153",
+            "pdf": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/metric.pdf",
             "page": 5
           }
         ]
@@ -13818,6 +14356,104 @@
           {
             "label": "100",
             "pdf": "output/pdf/book-preparation/bookvault/metric/trouble_bean_and_pea_troubles.pdf",
+            "page": 1
+          }
+        ]
+      },
+      {
+        "id": "follow-on-crops",
+        "term": "Follow-on crops",
+        "refs": [
+          {
+            "source": "vegetable:kale"
+          },
+          {
+            "source": "vegetable:oriental_leaves"
+          },
+          {
+            "source": "vegetable:garlic"
+          },
+          {
+            "source": "technique:rotation"
+          }
+        ],
+        "references": [
+          {
+            "source": "vegetable:kale",
+            "prefix": "",
+            "folio": 40,
+            "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_kale.pdf",
+            "page": 1
+          },
+          {
+            "source": "vegetable:kale",
+            "prefix": "",
+            "folio": 41,
+            "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_kale.pdf",
+            "page": 2
+          },
+          {
+            "source": "vegetable:oriental_leaves",
+            "prefix": "",
+            "folio": 58,
+            "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_oriental_leaves.pdf",
+            "page": 1
+          },
+          {
+            "source": "vegetable:oriental_leaves",
+            "prefix": "",
+            "folio": 59,
+            "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_oriental_leaves.pdf",
+            "page": 2
+          },
+          {
+            "source": "vegetable:garlic",
+            "prefix": "",
+            "folio": 62,
+            "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_garlic.pdf",
+            "page": 1
+          },
+          {
+            "source": "vegetable:garlic",
+            "prefix": "",
+            "folio": 63,
+            "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_garlic.pdf",
+            "page": 2
+          },
+          {
+            "source": "technique:rotation",
+            "prefix": "",
+            "folio": 148,
+            "pdf": "docs/publication/topic-pages/crop-rotation-planning/references/approved-2026-10-18/crop-rotation-planning-metric.pdf",
+            "page": 1
+          },
+          {
+            "source": "technique:rotation",
+            "prefix": "",
+            "folio": 149,
+            "pdf": "docs/publication/topic-pages/crop-rotation-planning/references/approved-2026-10-18/crop-rotation-planning-metric.pdf",
+            "page": 2
+          }
+        ],
+        "displayReferences": [
+          {
+            "label": "40–41",
+            "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_kale.pdf",
+            "page": 1
+          },
+          {
+            "label": "58–59",
+            "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_oriental_leaves.pdf",
+            "page": 1
+          },
+          {
+            "label": "62–63",
+            "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_garlic.pdf",
+            "page": 1
+          },
+          {
+            "label": "148–149",
+            "pdf": "docs/publication/topic-pages/crop-rotation-planning/references/approved-2026-10-18/crop-rotation-planning-metric.pdf",
             "page": 1
           }
         ]
@@ -14206,21 +14842,21 @@
             "source": "trouble:onion_and_leek_troubles",
             "prefix": "",
             "folio": 126,
-            "pdf": "output/pdf/book-preparation/bookvault/metric/trouble_onion_and_leek_troubles.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/onion_and_leek_troubles-metric-clean.pdf",
             "page": 1
           },
           {
             "source": "trouble:onion_and_leek_troubles",
             "prefix": "",
             "folio": 127,
-            "pdf": "output/pdf/book-preparation/bookvault/metric/trouble_onion_and_leek_troubles.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/onion_and_leek_troubles-metric-clean.pdf",
             "page": 2
           },
           {
             "source": "trouble:onion_and_leek_troubles",
             "prefix": "",
             "folio": 128,
-            "pdf": "output/pdf/book-preparation/bookvault/metric/trouble_onion_and_leek_troubles.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/onion_and_leek_troubles-metric-clean.pdf",
             "page": 3
           }
         ],
@@ -14232,7 +14868,7 @@
           },
           {
             "label": "126–128",
-            "pdf": "output/pdf/book-preparation/bookvault/metric/trouble_onion_and_leek_troubles.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/onion_and_leek_troubles-metric-clean.pdf",
             "page": 1
           }
         ]
@@ -14347,15 +14983,15 @@
           {
             "source": "technique:greenhouse-choose",
             "prefix": "",
-            "folio": 159,
-            "pdf": "output/pdf/topic-pages/techniques-expansion-metric-draft.pdf",
+            "folio": 163,
+            "pdf": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/metric.pdf",
             "page": 6
           }
         ],
         "displayReferences": [
           {
-            "label": "159",
-            "pdf": "output/pdf/topic-pages/techniques-expansion-metric-draft.pdf",
+            "label": "163",
+            "pdf": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/metric.pdf",
             "page": 6
           }
         ]
@@ -14375,23 +15011,23 @@
           {
             "source": "technique:greenhouse-beds",
             "prefix": "",
-            "folio": 160,
-            "pdf": "output/pdf/topic-pages/techniques-expansion-metric-draft.pdf",
-            "page": 7
+            "folio": 164,
+            "pdf": "output/pdf/reader-edit-pass/techniques/techniques-metric-clean.pdf",
+            "page": 5
           },
           {
             "source": "technique:greenhouse-no-dig-seasons",
             "prefix": "",
-            "folio": 161,
-            "pdf": "output/pdf/topic-pages/techniques-expansion-metric-draft.pdf",
-            "page": 8
+            "folio": 165,
+            "pdf": "output/pdf/reader-edit-pass/techniques/techniques-metric-clean.pdf",
+            "page": 6
           }
         ],
         "displayReferences": [
           {
-            "label": "160–161",
-            "pdf": "output/pdf/topic-pages/techniques-expansion-metric-draft.pdf",
-            "page": 7
+            "label": "164–165",
+            "pdf": "output/pdf/reader-edit-pass/techniques/techniques-metric-clean.pdf",
+            "page": 5
           }
         ]
       },
@@ -14407,16 +15043,16 @@
           {
             "source": "technique:greenhouse-no-dig-seasons",
             "prefix": "",
-            "folio": 161,
-            "pdf": "output/pdf/topic-pages/techniques-expansion-metric-draft.pdf",
-            "page": 8
+            "folio": 165,
+            "pdf": "output/pdf/reader-edit-pass/techniques/techniques-metric-clean.pdf",
+            "page": 6
           }
         ],
         "displayReferences": [
           {
-            "label": "161",
-            "pdf": "output/pdf/topic-pages/techniques-expansion-metric-draft.pdf",
-            "page": 8
+            "label": "165",
+            "pdf": "output/pdf/reader-edit-pass/techniques/techniques-metric-clean.pdf",
+            "page": 6
           }
         ]
       },
@@ -14661,16 +15297,16 @@
           {
             "source": "technique:sowing",
             "prefix": "",
-            "folio": 157,
-            "pdf": "output/pdf/topic-pages/techniques-expansion-metric-draft.pdf",
-            "page": 13
+            "folio": 160,
+            "pdf": "output/pdf/reader-edit-pass/techniques/techniques-metric-clean.pdf",
+            "page": 4
           }
         ],
         "displayReferences": [
           {
-            "label": "157",
-            "pdf": "output/pdf/topic-pages/techniques-expansion-metric-draft.pdf",
-            "page": 13
+            "label": "160",
+            "pdf": "output/pdf/reader-edit-pass/techniques/techniques-metric-clean.pdf",
+            "page": 4
           }
         ]
       },
@@ -14971,15 +15607,15 @@
           {
             "source": "technique:plot-layout",
             "prefix": "",
-            "folio": 148,
-            "pdf": "output/pdf/topic-pages/techniques-expansion-metric-draft.pdf",
+            "folio": 152,
+            "pdf": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/metric.pdf",
             "page": 4
           }
         ],
         "displayReferences": [
           {
-            "label": "148",
-            "pdf": "output/pdf/topic-pages/techniques-expansion-metric-draft.pdf",
+            "label": "152",
+            "pdf": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/metric.pdf",
             "page": 4
           }
         ]
@@ -15113,15 +15749,15 @@
           {
             "source": "technique:plot-layout-branching",
             "prefix": "",
-            "folio": 149,
-            "pdf": "output/pdf/topic-pages/techniques-expansion-metric-draft.pdf",
+            "folio": 153,
+            "pdf": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/metric.pdf",
             "page": 5
           }
         ],
         "displayReferences": [
           {
-            "label": "149",
-            "pdf": "output/pdf/topic-pages/techniques-expansion-metric-draft.pdf",
+            "label": "153",
+            "pdf": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/metric.pdf",
             "page": 5
           }
         ]
@@ -15272,14 +15908,14 @@
             "heading": "Leek Moth",
             "prefix": "",
             "folio": 128,
-            "pdf": "output/pdf/book-preparation/bookvault/metric/trouble_onion_and_leek_troubles.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/onion_and_leek_troubles-metric-clean.pdf",
             "page": 3
           }
         ],
         "displayReferences": [
           {
             "label": "128",
-            "pdf": "output/pdf/book-preparation/bookvault/metric/trouble_onion_and_leek_troubles.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/onion_and_leek_troubles-metric-clean.pdf",
             "page": 3
           }
         ]
@@ -15300,47 +15936,47 @@
             "source": "vegetable:leek",
             "prefix": "",
             "folio": 64,
-            "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_leek.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/leek-metric-clean.pdf",
             "page": 1
           },
           {
             "source": "vegetable:leek",
             "prefix": "",
             "folio": 65,
-            "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_leek.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/leek-metric-clean.pdf",
             "page": 2
           },
           {
             "source": "trouble:onion_and_leek_troubles",
             "prefix": "",
             "folio": 126,
-            "pdf": "output/pdf/book-preparation/bookvault/metric/trouble_onion_and_leek_troubles.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/onion_and_leek_troubles-metric-clean.pdf",
             "page": 1
           },
           {
             "source": "trouble:onion_and_leek_troubles",
             "prefix": "",
             "folio": 127,
-            "pdf": "output/pdf/book-preparation/bookvault/metric/trouble_onion_and_leek_troubles.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/onion_and_leek_troubles-metric-clean.pdf",
             "page": 2
           },
           {
             "source": "trouble:onion_and_leek_troubles",
             "prefix": "",
             "folio": 128,
-            "pdf": "output/pdf/book-preparation/bookvault/metric/trouble_onion_and_leek_troubles.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/onion_and_leek_troubles-metric-clean.pdf",
             "page": 3
           }
         ],
         "displayReferences": [
           {
             "label": "64–65",
-            "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_leek.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/leek-metric-clean.pdf",
             "page": 1
           },
           {
             "label": "126–128",
-            "pdf": "output/pdf/book-preparation/bookvault/metric/trouble_onion_and_leek_troubles.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/onion_and_leek_troubles-metric-clean.pdf",
             "page": 1
           }
         ]
@@ -15361,14 +15997,14 @@
             "source": "vegetable:lettuce",
             "prefix": "",
             "folio": 56,
-            "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_lettuce.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/lettuce-metric-clean.pdf",
             "page": 1
           },
           {
             "source": "vegetable:lettuce",
             "prefix": "",
             "folio": 57,
-            "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_lettuce.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/lettuce-metric-clean.pdf",
             "page": 2
           },
           {
@@ -15396,7 +16032,7 @@
         "displayReferences": [
           {
             "label": "56–57",
-            "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_lettuce.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/lettuce-metric-clean.pdf",
             "page": 1
           },
           {
@@ -15661,6 +16297,31 @@
         ]
       },
       {
+        "id": "micronutrients",
+        "term": "Micronutrients",
+        "refs": [
+          {
+            "source": "technique:nutrient-cycles"
+          }
+        ],
+        "references": [
+          {
+            "source": "technique:nutrient-cycles",
+            "prefix": "",
+            "folio": 147,
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 3
+          }
+        ],
+        "displayReferences": [
+          {
+            "label": "147",
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 3
+          }
+        ]
+      },
+      {
         "id": "mildew-downy",
         "term": "Mildew, downy",
         "see": "downy-mildew",
@@ -15686,16 +16347,16 @@
           {
             "source": "technique:sowing",
             "prefix": "",
-            "folio": 157,
-            "pdf": "output/pdf/topic-pages/techniques-expansion-metric-draft.pdf",
-            "page": 13
+            "folio": 160,
+            "pdf": "output/pdf/reader-edit-pass/techniques/techniques-metric-clean.pdf",
+            "page": 4
           }
         ],
         "displayReferences": [
           {
-            "label": "157",
-            "pdf": "output/pdf/topic-pages/techniques-expansion-metric-draft.pdf",
-            "page": 13
+            "label": "160",
+            "pdf": "output/pdf/reader-edit-pass/techniques/techniques-metric-clean.pdf",
+            "page": 4
           }
         ]
       },
@@ -15757,14 +16418,14 @@
           {
             "source": "cultivation:no-dig",
             "prefix": "",
-            "folio": 151,
+            "folio": 157,
             "pdf": "docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/metric.pdf",
             "page": 2
           }
         ],
         "displayReferences": [
           {
-            "label": "151",
+            "label": "157",
             "pdf": "docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/metric.pdf",
             "page": 2
           }
@@ -15818,14 +16479,39 @@
             "heading": "Neck Rot",
             "prefix": "",
             "folio": 128,
-            "pdf": "output/pdf/book-preparation/bookvault/metric/trouble_onion_and_leek_troubles.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/onion_and_leek_troubles-metric-clean.pdf",
             "page": 3
           }
         ],
         "displayReferences": [
           {
             "label": "128",
-            "pdf": "output/pdf/book-preparation/bookvault/metric/trouble_onion_and_leek_troubles.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/onion_and_leek_troubles-metric-clean.pdf",
+            "page": 3
+          }
+        ]
+      },
+      {
+        "id": "nitrogen",
+        "term": "Nitrogen",
+        "refs": [
+          {
+            "source": "technique:nutrient-cycles"
+          }
+        ],
+        "references": [
+          {
+            "source": "technique:nutrient-cycles",
+            "prefix": "",
+            "folio": 147,
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 3
+          }
+        ],
+        "displayReferences": [
+          {
+            "label": "147",
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
             "page": 3
           }
         ]
@@ -15842,16 +16528,16 @@
           {
             "source": "technique:greenhouse-no-dig-seasons",
             "prefix": "",
-            "folio": 161,
-            "pdf": "output/pdf/topic-pages/techniques-expansion-metric-draft.pdf",
-            "page": 8
+            "folio": 165,
+            "pdf": "output/pdf/reader-edit-pass/techniques/techniques-metric-clean.pdf",
+            "page": 6
           }
         ],
         "displayReferences": [
           {
-            "label": "161",
-            "pdf": "output/pdf/topic-pages/techniques-expansion-metric-draft.pdf",
-            "page": 8
+            "label": "165",
+            "pdf": "output/pdf/reader-edit-pass/techniques/techniques-metric-clean.pdf",
+            "page": 6
           }
         ]
       },
@@ -15867,16 +16553,41 @@
           {
             "source": "cultivation:no-dig",
             "prefix": "",
-            "folio": 151,
+            "folio": 157,
             "pdf": "docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/metric.pdf",
             "page": 2
           }
         ],
         "displayReferences": [
           {
-            "label": "151",
+            "label": "157",
             "pdf": "docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/metric.pdf",
             "page": 2
+          }
+        ]
+      },
+      {
+        "id": "nutrient-cycles",
+        "term": "Nutrient cycles",
+        "refs": [
+          {
+            "source": "technique:nutrient-cycles"
+          }
+        ],
+        "references": [
+          {
+            "source": "technique:nutrient-cycles",
+            "prefix": "",
+            "folio": 147,
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 3
+          }
+        ],
+        "displayReferences": [
+          {
+            "label": "147",
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 3
           }
         ]
       },
@@ -15896,14 +16607,14 @@
             "heading": "Onion Fly",
             "prefix": "",
             "folio": 126,
-            "pdf": "output/pdf/book-preparation/bookvault/metric/trouble_onion_and_leek_troubles.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/onion_and_leek_troubles-metric-clean.pdf",
             "page": 1
           }
         ],
         "displayReferences": [
           {
             "label": "126",
-            "pdf": "output/pdf/book-preparation/bookvault/metric/trouble_onion_and_leek_troubles.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/onion_and_leek_troubles-metric-clean.pdf",
             "page": 1
           }
         ]
@@ -15938,21 +16649,21 @@
             "source": "trouble:onion_and_leek_troubles",
             "prefix": "",
             "folio": 126,
-            "pdf": "output/pdf/book-preparation/bookvault/metric/trouble_onion_and_leek_troubles.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/onion_and_leek_troubles-metric-clean.pdf",
             "page": 1
           },
           {
             "source": "trouble:onion_and_leek_troubles",
             "prefix": "",
             "folio": 127,
-            "pdf": "output/pdf/book-preparation/bookvault/metric/trouble_onion_and_leek_troubles.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/onion_and_leek_troubles-metric-clean.pdf",
             "page": 2
           },
           {
             "source": "trouble:onion_and_leek_troubles",
             "prefix": "",
             "folio": 128,
-            "pdf": "output/pdf/book-preparation/bookvault/metric/trouble_onion_and_leek_troubles.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/onion_and_leek_troubles-metric-clean.pdf",
             "page": 3
           }
         ],
@@ -15964,7 +16675,7 @@
           },
           {
             "label": "126–128",
-            "pdf": "output/pdf/book-preparation/bookvault/metric/trouble_onion_and_leek_troubles.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/onion_and_leek_troubles-metric-clean.pdf",
             "page": 1
           }
         ]
@@ -15982,15 +16693,15 @@
             "source": "technique:organic",
             "prefix": "",
             "folio": 146,
-            "pdf": "output/pdf/topic-pages/techniques-expansion-metric-draft.pdf",
-            "page": 2
+            "pdf": "output/pdf/final-text-edits/organic-metric.pdf",
+            "page": 1
           }
         ],
         "displayReferences": [
           {
             "label": "146",
-            "pdf": "output/pdf/topic-pages/techniques-expansion-metric-draft.pdf",
-            "page": 2
+            "pdf": "output/pdf/final-text-edits/organic-metric.pdf",
+            "page": 1
           }
         ]
       },
@@ -16215,22 +16926,22 @@
           {
             "source": "technique:plot-layout",
             "prefix": "",
-            "folio": 148,
-            "pdf": "output/pdf/topic-pages/techniques-expansion-metric-draft.pdf",
+            "folio": 152,
+            "pdf": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/metric.pdf",
             "page": 4
           },
           {
             "source": "technique:plot-layout-branching",
             "prefix": "",
-            "folio": 149,
-            "pdf": "output/pdf/topic-pages/techniques-expansion-metric-draft.pdf",
+            "folio": 153,
+            "pdf": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/metric.pdf",
             "page": 5
           }
         ],
         "displayReferences": [
           {
-            "label": "148–149",
-            "pdf": "output/pdf/topic-pages/techniques-expansion-metric-draft.pdf",
+            "label": "152–153",
+            "pdf": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/metric.pdf",
             "page": 4
           }
         ]
@@ -16420,6 +17131,31 @@
         ]
       },
       {
+        "id": "phosphorus",
+        "term": "Phosphorus",
+        "refs": [
+          {
+            "source": "technique:nutrient-cycles"
+          }
+        ],
+        "references": [
+          {
+            "source": "technique:nutrient-cycles",
+            "prefix": "",
+            "folio": 147,
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 3
+          }
+        ],
+        "displayReferences": [
+          {
+            "label": "147",
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 3
+          }
+        ]
+      },
+      {
         "id": "pigeons",
         "term": "Pigeons",
         "see": "bird-damage",
@@ -16438,16 +17174,16 @@
           {
             "source": "technique:sowing",
             "prefix": "",
-            "folio": 157,
-            "pdf": "output/pdf/topic-pages/techniques-expansion-metric-draft.pdf",
-            "page": 13
+            "folio": 160,
+            "pdf": "output/pdf/reader-edit-pass/techniques/techniques-metric-clean.pdf",
+            "page": 4
           }
         ],
         "displayReferences": [
           {
-            "label": "157",
-            "pdf": "output/pdf/topic-pages/techniques-expansion-metric-draft.pdf",
-            "page": 13
+            "label": "160",
+            "pdf": "output/pdf/reader-edit-pass/techniques/techniques-metric-clean.pdf",
+            "page": 4
           }
         ]
       },
@@ -16463,15 +17199,15 @@
           {
             "source": "technique:plot-location",
             "prefix": "",
-            "folio": 147,
-            "pdf": "output/pdf/topic-pages/techniques-expansion-metric-draft.pdf",
+            "folio": 151,
+            "pdf": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/metric.pdf",
             "page": 3
           }
         ],
         "displayReferences": [
           {
-            "label": "147",
-            "pdf": "output/pdf/topic-pages/techniques-expansion-metric-draft.pdf",
+            "label": "151",
+            "pdf": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/metric.pdf",
             "page": 3
           }
         ]
@@ -16494,29 +17230,29 @@
           {
             "source": "technique:plot-location",
             "prefix": "",
-            "folio": 147,
-            "pdf": "output/pdf/topic-pages/techniques-expansion-metric-draft.pdf",
+            "folio": 151,
+            "pdf": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/metric.pdf",
             "page": 3
           },
           {
             "source": "technique:plot-layout",
             "prefix": "",
-            "folio": 148,
-            "pdf": "output/pdf/topic-pages/techniques-expansion-metric-draft.pdf",
+            "folio": 152,
+            "pdf": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/metric.pdf",
             "page": 4
           },
           {
             "source": "technique:plot-layout-branching",
             "prefix": "",
-            "folio": 149,
-            "pdf": "output/pdf/topic-pages/techniques-expansion-metric-draft.pdf",
+            "folio": 153,
+            "pdf": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/metric.pdf",
             "page": 5
           }
         ],
         "displayReferences": [
           {
-            "label": "147–149",
-            "pdf": "output/pdf/topic-pages/techniques-expansion-metric-draft.pdf",
+            "label": "151–153",
+            "pdf": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/metric.pdf",
             "page": 3
           }
         ]
@@ -16545,6 +17281,31 @@
           {
             "label": "102",
             "pdf": "output/pdf/book-preparation/bookvault/metric/trouble_bean_and_pea_troubles.pdf",
+            "page": 3
+          }
+        ]
+      },
+      {
+        "id": "potassium",
+        "term": "Potassium",
+        "refs": [
+          {
+            "source": "technique:nutrient-cycles"
+          }
+        ],
+        "references": [
+          {
+            "source": "technique:nutrient-cycles",
+            "prefix": "",
+            "folio": 147,
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 3
+          }
+        ],
+        "displayReferences": [
+          {
+            "label": "147",
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
             "page": 3
           }
         ]
@@ -17077,14 +17838,14 @@
             "heading": "Rust",
             "prefix": "",
             "folio": 127,
-            "pdf": "output/pdf/book-preparation/bookvault/metric/trouble_onion_and_leek_troubles.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/onion_and_leek_troubles-metric-clean.pdf",
             "page": 2
           }
         ],
         "displayReferences": [
           {
             "label": "127",
-            "pdf": "output/pdf/book-preparation/bookvault/metric/trouble_onion_and_leek_troubles.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/onion_and_leek_troubles-metric-clean.pdf",
             "page": 2
           }
         ]
@@ -17105,14 +17866,14 @@
             "heading": "Saddleback",
             "prefix": "",
             "folio": 126,
-            "pdf": "output/pdf/book-preparation/bookvault/metric/trouble_onion_and_leek_troubles.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/onion_and_leek_troubles-metric-clean.pdf",
             "page": 1
           }
         ],
         "displayReferences": [
           {
             "label": "126",
-            "pdf": "output/pdf/book-preparation/bookvault/metric/trouble_onion_and_leek_troubles.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/onion_and_leek_troubles-metric-clean.pdf",
             "page": 1
           }
         ]
@@ -17203,6 +17964,31 @@
         "displayReferences": []
       },
       {
+        "id": "seaweed",
+        "term": "Seaweed",
+        "refs": [
+          {
+            "source": "technique:nutrient-cycles"
+          }
+        ],
+        "references": [
+          {
+            "source": "technique:nutrient-cycles",
+            "prefix": "",
+            "folio": 147,
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 3
+          }
+        ],
+        "displayReferences": [
+          {
+            "label": "147",
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 3
+          }
+        ]
+      },
+      {
         "id": "seed-beetle",
         "term": "Seed beetle",
         "refs": [
@@ -17242,16 +18028,16 @@
           {
             "source": "technique:sowing",
             "prefix": "",
-            "folio": 157,
-            "pdf": "output/pdf/topic-pages/techniques-expansion-metric-draft.pdf",
-            "page": 13
+            "folio": 160,
+            "pdf": "output/pdf/reader-edit-pass/techniques/techniques-metric-clean.pdf",
+            "page": 4
           }
         ],
         "displayReferences": [
           {
-            "label": "157",
-            "pdf": "output/pdf/topic-pages/techniques-expansion-metric-draft.pdf",
-            "page": 13
+            "label": "160",
+            "pdf": "output/pdf/reader-edit-pass/techniques/techniques-metric-clean.pdf",
+            "page": 4
           }
         ]
       },
@@ -17271,14 +18057,14 @@
             "heading": "Set Division",
             "prefix": "",
             "folio": 126,
-            "pdf": "output/pdf/book-preparation/bookvault/metric/trouble_onion_and_leek_troubles.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/onion_and_leek_troubles-metric-clean.pdf",
             "page": 1
           }
         ],
         "displayReferences": [
           {
             "label": "126",
-            "pdf": "output/pdf/book-preparation/bookvault/metric/trouble_onion_and_leek_troubles.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/onion_and_leek_troubles-metric-clean.pdf",
             "page": 1
           }
         ]
@@ -17298,27 +18084,27 @@
           {
             "source": "technique:plot-location",
             "prefix": "",
-            "folio": 147,
-            "pdf": "output/pdf/topic-pages/techniques-expansion-metric-draft.pdf",
+            "folio": 151,
+            "pdf": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/metric.pdf",
             "page": 3
           },
           {
             "source": "technique:plot-layout-branching",
             "prefix": "",
-            "folio": 149,
-            "pdf": "output/pdf/topic-pages/techniques-expansion-metric-draft.pdf",
+            "folio": 153,
+            "pdf": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/metric.pdf",
             "page": 5
           }
         ],
         "displayReferences": [
           {
-            "label": "147",
-            "pdf": "output/pdf/topic-pages/techniques-expansion-metric-draft.pdf",
+            "label": "151",
+            "pdf": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/metric.pdf",
             "page": 3
           },
           {
-            "label": "149",
-            "pdf": "output/pdf/topic-pages/techniques-expansion-metric-draft.pdf",
+            "label": "153",
+            "pdf": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/metric.pdf",
             "page": 5
           }
         ]
@@ -17346,14 +18132,14 @@
             "heading": "Shanking",
             "prefix": "",
             "folio": 128,
-            "pdf": "output/pdf/book-preparation/bookvault/metric/trouble_onion_and_leek_troubles.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/onion_and_leek_troubles-metric-clean.pdf",
             "page": 3
           }
         ],
         "displayReferences": [
           {
             "label": "128",
-            "pdf": "output/pdf/book-preparation/bookvault/metric/trouble_onion_and_leek_troubles.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/onion_and_leek_troubles-metric-clean.pdf",
             "page": 3
           }
         ]
@@ -17370,15 +18156,15 @@
           {
             "source": "technique:plot-layout-branching",
             "prefix": "",
-            "folio": 149,
-            "pdf": "output/pdf/topic-pages/techniques-expansion-metric-draft.pdf",
+            "folio": 153,
+            "pdf": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/metric.pdf",
             "page": 5
           }
         ],
         "displayReferences": [
           {
-            "label": "149",
-            "pdf": "output/pdf/topic-pages/techniques-expansion-metric-draft.pdf",
+            "label": "153",
+            "pdf": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/metric.pdf",
             "page": 5
           }
         ]
@@ -17559,14 +18345,14 @@
           {
             "source": "cultivation:digging-finish",
             "prefix": "",
-            "folio": 153,
+            "folio": 159,
             "pdf": "docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/metric.pdf",
             "page": 4
           }
         ],
         "displayReferences": [
           {
-            "label": "153",
+            "label": "159",
             "pdf": "docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/metric.pdf",
             "page": 4
           }
@@ -17588,14 +18374,14 @@
             "heading": "Smut",
             "prefix": "",
             "folio": 127,
-            "pdf": "output/pdf/book-preparation/bookvault/metric/trouble_onion_and_leek_troubles.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/onion_and_leek_troubles-metric-clean.pdf",
             "page": 2
           }
         ],
         "displayReferences": [
           {
             "label": "127",
-            "pdf": "output/pdf/book-preparation/bookvault/metric/trouble_onion_and_leek_troubles.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/onion_and_leek_troubles-metric-clean.pdf",
             "page": 2
           }
         ]
@@ -17693,14 +18479,14 @@
           {
             "source": "cultivation:digging",
             "prefix": "",
-            "folio": 152,
+            "folio": 158,
             "pdf": "docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/metric.pdf",
             "page": 3
           }
         ],
         "displayReferences": [
           {
-            "label": "152",
+            "label": "158",
             "pdf": "docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/metric.pdf",
             "page": 3
           }
@@ -18146,14 +18932,14 @@
             "heading": "Stem & Bulb Eelworm",
             "prefix": "",
             "folio": 127,
-            "pdf": "output/pdf/book-preparation/bookvault/metric/trouble_onion_and_leek_troubles.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/onion_and_leek_troubles-metric-clean.pdf",
             "page": 2
           }
         ],
         "displayReferences": [
           {
             "label": "127",
-            "pdf": "output/pdf/book-preparation/bookvault/metric/trouble_onion_and_leek_troubles.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/onion_and_leek_troubles-metric-clean.pdf",
             "page": 2
           }
         ]
@@ -18215,6 +19001,82 @@
         ]
       },
       {
+        "id": "storage",
+        "term": "Storage",
+        "refs": [
+          {
+            "source": "vegetable:carrot"
+          },
+          {
+            "source": "vegetable:onion_shallot"
+          },
+          {
+            "source": "vegetable:squash_pumpkin"
+          }
+        ],
+        "references": [
+          {
+            "source": "vegetable:carrot",
+            "prefix": "",
+            "folio": 14,
+            "pdf": "output/pdf/reader-edit-pass/guides/carrot-metric-clean.pdf",
+            "page": 1
+          },
+          {
+            "source": "vegetable:carrot",
+            "prefix": "",
+            "folio": 15,
+            "pdf": "output/pdf/reader-edit-pass/guides/carrot-metric-clean.pdf",
+            "page": 2
+          },
+          {
+            "source": "vegetable:onion_shallot",
+            "prefix": "",
+            "folio": 66,
+            "pdf": "output/pdf/approved-two-page-guides/metric/onions_and_shallots.pdf",
+            "page": 1
+          },
+          {
+            "source": "vegetable:onion_shallot",
+            "prefix": "",
+            "folio": 67,
+            "pdf": "output/pdf/approved-two-page-guides/metric/onions_and_shallots.pdf",
+            "page": 2
+          },
+          {
+            "source": "vegetable:squash_pumpkin",
+            "prefix": "",
+            "folio": 78,
+            "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_squashes_and_pumpkins.pdf",
+            "page": 1
+          },
+          {
+            "source": "vegetable:squash_pumpkin",
+            "prefix": "",
+            "folio": 79,
+            "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_squashes_and_pumpkins.pdf",
+            "page": 2
+          }
+        ],
+        "displayReferences": [
+          {
+            "label": "14–15",
+            "pdf": "output/pdf/reader-edit-pass/guides/carrot-metric-clean.pdf",
+            "page": 1
+          },
+          {
+            "label": "66–67",
+            "pdf": "output/pdf/approved-two-page-guides/metric/onions_and_shallots.pdf",
+            "page": 1
+          },
+          {
+            "label": "78–79",
+            "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_squashes_and_pumpkins.pdf",
+            "page": 1
+          }
+        ]
+      },
+      {
         "id": "storage-rot-stem-damage",
         "term": "Storage rot, stem damage",
         "refs": [
@@ -18241,6 +19103,13 @@
             "page": 4
           }
         ]
+      },
+      {
+        "id": "succession-cropping",
+        "term": "Succession cropping",
+        "see": "follow-on-crops",
+        "references": [],
+        "displayReferences": []
       },
       {
         "id": "sunlight",
@@ -18453,14 +19322,14 @@
             "heading": "Bull Neck (Thick Neck)",
             "prefix": "",
             "folio": 127,
-            "pdf": "output/pdf/book-preparation/bookvault/metric/trouble_onion_and_leek_troubles.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/onion_and_leek_troubles-metric-clean.pdf",
             "page": 2
           }
         ],
         "displayReferences": [
           {
             "label": "127",
-            "pdf": "output/pdf/book-preparation/bookvault/metric/trouble_onion_and_leek_troubles.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/onion_and_leek_troubles-metric-clean.pdf",
             "page": 2
           }
         ]
@@ -18509,14 +19378,14 @@
             "source": "vegetable:tomato_greenhouse",
             "prefix": "",
             "folio": 82,
-            "pdf": "output/pdf/approved-two-page-guides/metric/tomato_greenhouse.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/tomato_greenhouse-metric-clean.pdf",
             "page": 1
           },
           {
             "source": "vegetable:tomato_greenhouse",
             "prefix": "",
             "folio": 83,
-            "pdf": "output/pdf/approved-two-page-guides/metric/tomato_greenhouse.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/tomato_greenhouse-metric-clean.pdf",
             "page": 2
           },
           {
@@ -18558,7 +19427,7 @@
         "displayReferences": [
           {
             "label": "82–83",
-            "pdf": "output/pdf/approved-two-page-guides/metric/tomato_greenhouse.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/tomato_greenhouse-metric-clean.pdf",
             "page": 1
           },
           {
@@ -18958,15 +19827,15 @@
           {
             "source": "technique:watering",
             "prefix": "",
-            "folio": 158,
-            "pdf": "output/pdf/topic-pages/techniques-expansion-metric-draft.pdf",
+            "folio": 161,
+            "pdf": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/metric.pdf",
             "page": 12
           }
         ],
         "displayReferences": [
           {
-            "label": "158",
-            "pdf": "output/pdf/topic-pages/techniques-expansion-metric-draft.pdf",
+            "label": "161",
+            "pdf": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/metric.pdf",
             "page": 12
           }
         ]
@@ -18983,15 +19852,15 @@
           {
             "source": "technique:watering",
             "prefix": "",
-            "folio": 158,
-            "pdf": "output/pdf/topic-pages/techniques-expansion-metric-draft.pdf",
+            "folio": 161,
+            "pdf": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/metric.pdf",
             "page": 12
           }
         ],
         "displayReferences": [
           {
-            "label": "158",
-            "pdf": "output/pdf/topic-pages/techniques-expansion-metric-draft.pdf",
+            "label": "161",
+            "pdf": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/metric.pdf",
             "page": 12
           }
         ]
@@ -19014,38 +19883,38 @@
           {
             "source": "technique:plot-location",
             "prefix": "",
-            "folio": 147,
-            "pdf": "output/pdf/topic-pages/techniques-expansion-metric-draft.pdf",
+            "folio": 151,
+            "pdf": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/metric.pdf",
             "page": 3
           },
           {
             "source": "cultivation:no-dig",
             "prefix": "",
-            "folio": 151,
+            "folio": 157,
             "pdf": "docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/metric.pdf",
             "page": 2
           },
           {
             "source": "cultivation:digging-finish",
             "prefix": "",
-            "folio": 153,
+            "folio": 159,
             "pdf": "docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/metric.pdf",
             "page": 4
           }
         ],
         "displayReferences": [
           {
-            "label": "147",
-            "pdf": "output/pdf/topic-pages/techniques-expansion-metric-draft.pdf",
+            "label": "151",
+            "pdf": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/metric.pdf",
             "page": 3
           },
           {
-            "label": "151",
+            "label": "157",
             "pdf": "docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/metric.pdf",
             "page": 2
           },
           {
-            "label": "153",
+            "label": "159",
             "pdf": "docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/metric.pdf",
             "page": 4
           }
@@ -19123,14 +19992,14 @@
             "heading": "White Rot (Mouldy Nose)",
             "prefix": "",
             "folio": 128,
-            "pdf": "output/pdf/book-preparation/bookvault/metric/trouble_onion_and_leek_troubles.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/onion_and_leek_troubles-metric-clean.pdf",
             "page": 3
           }
         ],
         "displayReferences": [
           {
             "label": "128",
-            "pdf": "output/pdf/book-preparation/bookvault/metric/trouble_onion_and_leek_troubles.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/onion_and_leek_troubles-metric-clean.pdf",
             "page": 3
           }
         ]
@@ -19158,14 +20027,14 @@
             "heading": "White Tip",
             "prefix": "",
             "folio": 127,
-            "pdf": "output/pdf/book-preparation/bookvault/metric/trouble_onion_and_leek_troubles.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/onion_and_leek_troubles-metric-clean.pdf",
             "page": 2
           }
         ],
         "displayReferences": [
           {
             "label": "127",
-            "pdf": "output/pdf/book-preparation/bookvault/metric/trouble_onion_and_leek_troubles.pdf",
+            "pdf": "output/pdf/reader-edit-pass/guides/onion_and_leek_troubles-metric-clean.pdf",
             "page": 2
           }
         ]
@@ -19182,16 +20051,92 @@
           {
             "source": "technique:sowing",
             "prefix": "",
-            "folio": 157,
-            "pdf": "output/pdf/topic-pages/techniques-expansion-metric-draft.pdf",
-            "page": 13
+            "folio": 160,
+            "pdf": "output/pdf/reader-edit-pass/techniques/techniques-metric-clean.pdf",
+            "page": 4
           }
         ],
         "displayReferences": [
           {
-            "label": "157",
-            "pdf": "output/pdf/topic-pages/techniques-expansion-metric-draft.pdf",
-            "page": 13
+            "label": "160",
+            "pdf": "output/pdf/reader-edit-pass/techniques/techniques-metric-clean.pdf",
+            "page": 4
+          }
+        ]
+      },
+      {
+        "id": "winter-harvesting",
+        "term": "Winter harvesting",
+        "refs": [
+          {
+            "source": "vegetable:parsnip"
+          },
+          {
+            "source": "vegetable:kale"
+          },
+          {
+            "source": "vegetable:leek"
+          }
+        ],
+        "references": [
+          {
+            "source": "vegetable:parsnip",
+            "prefix": "",
+            "folio": 20,
+            "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_parsnip.pdf",
+            "page": 1
+          },
+          {
+            "source": "vegetable:parsnip",
+            "prefix": "",
+            "folio": 21,
+            "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_parsnip.pdf",
+            "page": 2
+          },
+          {
+            "source": "vegetable:kale",
+            "prefix": "",
+            "folio": 40,
+            "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_kale.pdf",
+            "page": 1
+          },
+          {
+            "source": "vegetable:kale",
+            "prefix": "",
+            "folio": 41,
+            "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_kale.pdf",
+            "page": 2
+          },
+          {
+            "source": "vegetable:leek",
+            "prefix": "",
+            "folio": 64,
+            "pdf": "output/pdf/reader-edit-pass/guides/leek-metric-clean.pdf",
+            "page": 1
+          },
+          {
+            "source": "vegetable:leek",
+            "prefix": "",
+            "folio": 65,
+            "pdf": "output/pdf/reader-edit-pass/guides/leek-metric-clean.pdf",
+            "page": 2
+          }
+        ],
+        "displayReferences": [
+          {
+            "label": "20–21",
+            "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_parsnip.pdf",
+            "page": 1
+          },
+          {
+            "label": "40–41",
+            "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_kale.pdf",
+            "page": 1
+          },
+          {
+            "label": "64–65",
+            "pdf": "output/pdf/reader-edit-pass/guides/leek-metric-clean.pdf",
+            "page": 1
           }
         ]
       },
@@ -19276,6 +20221,31 @@
             "label": "117",
             "pdf": "output/pdf/book-preparation/bookvault/metric/trouble_cucurbit_troubles.pdf",
             "page": 1
+          }
+        ]
+      },
+      {
+        "id": "wood-ash",
+        "term": "Wood ash",
+        "refs": [
+          {
+            "source": "technique:nutrient-cycles"
+          }
+        ],
+        "references": [
+          {
+            "source": "technique:nutrient-cycles",
+            "prefix": "",
+            "folio": 147,
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 3
+          }
+        ],
+        "displayReferences": [
+          {
+            "label": "147",
+            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "page": 3
           }
         ]
       },

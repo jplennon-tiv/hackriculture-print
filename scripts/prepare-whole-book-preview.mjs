@@ -1,3 +1,4 @@
+throw new Error('Retired preparation route. Use npm run book:preview to preserve all approved changes.');
 // Reflow only relocated openings/topic pages. Saved crop/Troubles PDFs are reused.
 import fs from 'node:fs';
 import path from 'node:path';

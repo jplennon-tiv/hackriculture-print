@@ -1,0 +1,87 @@
+{
+  "date": "2026-10-15",
+  "status": "passed_for_review",
+  "scope": "A1\u2013A7, O1 and D1\u2013D3; O2 excluded",
+  "review": "REVIEW.html",
+  "authorisation": "AUTHORISATION.json",
+  "reviewPages": 30,
+  "groups": 14,
+  "pdfPacks": [
+    {
+      "unit": "imperial",
+      "pdf": "output/pdf/reader-edit-pass/reader-edits-imperial-highlighted.pdf",
+      "sha256": "46f676d99f8cdea0b1675602859c43b9b2f3c696bf0d7cfc614f300ed0a992cb",
+      "pages": 31
+    },
+    {
+      "unit": "metric",
+      "pdf": "output/pdf/reader-edit-pass/reader-edits-metric-highlighted.pdf",
+      "sha256": "32dd3709afa5e1aa092259472cd075b9f850388b4dc904db0f77952bea4320a6",
+      "pages": 31
+    }
+  ],
+  "assembly": {
+    "trimMm": [
+      185,
+      240
+    ],
+    "printedFoliosVerified": 60,
+    "parity": "original left/right relationships retained",
+    "reviewOnlyBlanksPerPack": 1,
+    "scaleChange": false
+  },
+  "gardeningRecords": {
+    "count": 58,
+    "unchanged": true
+  },
+  "presentationRecords": {
+    "unchanged": 6,
+    "authorisedChanges": [
+      "how-to.json",
+      "index.json"
+    ],
+    "exactPreviousBytesPreserved": true
+  },
+  "fullBookUnchanged": true,
+  "frozenSourcesUnchanged": true,
+  "workstreamEvidence": [
+    "guides/VERIFICATION.json",
+    "guides/MANIFEST.json",
+    "navigation/VISUAL-REVIEW.json",
+    "navigation/PRESERVATION-CHECK.json",
+    "techniques/REPORT.json",
+    "techniques/TEXT-PRESERVATION.json"
+  ],
+  "rootVisualInspection": [
+    "Imperial clean carrot p14 and highlighted p15; approved header and two-page composition retained",
+    "Imperial clean greenhouse tomato p83 and metric clean lettuce p57; added cues fit without smaller body type",
+    "Imperial highlighted Onion & Leek Troubles p128; qualified treatment fits and column ends remain aligned",
+    "Final corrected imperial asparagus p88: Seed depth labels 1 in.; Row spacing remains present",
+    "Imperial clean guide key p9, highlighted index p163 and clean index p165; native widgets, entries and pagination readable",
+    "Imperial/metric rotation p156 and final greenhouse p161; table/example and weather/soil wording fit",
+    "Final normalised PDF-pack renders: imperial tomato p83 and metric rotation p156; no clipping or missing content"
+  ],
+  "viewer": {
+    "beforeAfter": "passed",
+    "unitSwitch": "passed",
+    "highlightToggle": "passed",
+    "indexSpreadSwitch": "passed",
+    "visibleImagesLoaded": true,
+    "browserWarningsOrErrors": [],
+    "localImageLinks": "all present",
+    "screenshot": "evidence/REVIEW-SCREENSHOT.png"
+  },
+  "routineChecks": [
+    "Book-copy validation passed (8 documents; navigation workstream)",
+    "Index logic tests: 3 passed (navigation workstream)",
+    "All new JSON parses",
+    "Builder syntax checks passed",
+    "git diff --check passed"
+  ],
+  "limitations": [
+    "Current full book is imperial only; the metric proof is a focused edition, not an assembled metric book.",
+    "Pre-existing 2.68 mm footer clearances on guide folios 17, 57 and 65 are unchanged.",
+    "Supplier production/export approval and full-book integration are outside this focused review."
+  ],
+  "approval": "John approved the editing scope and D1\u2013D3 choices; the new proofs are ready for his review, with no new design approval claimed."
+}

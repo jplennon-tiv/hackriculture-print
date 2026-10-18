@@ -49,7 +49,7 @@ out={}
 for file in json.load(sys.stdin):
  with pdfplumber.open(file) as pdf:out[file]=[p.extract_text(x_tolerance=1,y_tolerance=2) or '' for p in pdf.pages]
 print(json.dumps(out))`],{input:JSON.stringify(paths),encoding:'utf8',cwd:root,maxBuffer:8*1024*1024}));
-  return {texts:Object.fromEntries(sources.map(d=>[d.source,d.sourcePage?[extracted[d.pdf][d.sourcePage-1]]:extracted[d.pdf]])),inputs:Object.fromEntries(sources.map(d=>[d.pdf,d.sha256]))};
+  return {texts:Object.fromEntries(sources.map(d=>[d.source,d.sourcePage?extracted[d.pdf].slice(d.sourcePage-1,d.sourcePage-1+d.physicalPages):extracted[d.pdf]])),inputs:Object.fromEntries(sources.map(d=>[d.pdf,d.sha256]))};
 }
 
 export function resolveNavigation(edition, vegetables, troubles, texts) {
@@ -70,7 +70,10 @@ export function resolveNavigation(edition, vegetables, troubles, texts) {
       const selected=matches.filter(m=>m.kind===kind).sort((a,b)=>a.folio-b.folio);
       for(let i=0;i<selected.length;i++){
         const evidence=[selected[i]];while(i+1<selected.length&&selected[i+1].folio===selected[i].folio+1)evidence.push(selected[++i]);
-        const first=evidence[0],last=evidence.at(-1);links.push({source:first.source,offset:first.offset,label:kind,start:first.folio,end:last.folio,text:`${kind} ${range(first.folio,last.folio)}`,evidence});
+        const first=evidence[0],last=evidence.at(-1);
+        // Print the section label once per kind, retaining a separate link for each range.
+        const prefix=links.some(l=>l.label===kind)?'':kind+' ';
+        links.push({source:first.source,offset:first.offset,label:kind,start:first.folio,end:last.folio,text:`${prefix}${range(first.folio,last.folio)}`,evidence});
       }
     }
     decisions.push({key:d.key,crop:crop.name,troubleMembership:groups,links,omission:links.length?null:'No destination page explicitly names this crop in a relevant context.'});
@@ -85,7 +88,7 @@ export function resolveNavigation(edition, vegetables, troubles, texts) {
   return {pages,decisions};
 }
 
-export async function buildNavigationOverlays() {
+export async function buildNavigationOverlays({includeHeadings=true}={}) {
   const dir='docs/publication/whole-book-order-preview',scratch='tmp/pdfs/whole-book-order-preview';
   const planPath='docs/publication/contents-update/ASSEMBLY-PROPOSAL.json';
   const plan=JSON.parse(fs.readFileSync(path.join(root,planPath),'utf8'));
@@ -96,7 +99,7 @@ export async function buildNavigationOverlays() {
   const inputs={...source.inputs,...Object.fromEntries(inputPaths.map(p=>[p,sha256(fs.readFileSync(path.resolve(root,p)))]))};
   const themes=JSON.parse(fs.readFileSync(path.join(root,'src/print/familyThemes.json'),'utf8'));
   for(const p of navigation.pages)p.theme=themes.find(t=>t.group===p.category)||themes.find(t=>t.id==='other');
-  const body=navigation.pages.map(p=>`<section class="sheet" data-folio="${p.folio}">${p.newHeading?`<div class="crop-name" style="color:${p.theme.ink}" data-change="Combined growing-guide and crop heading"><span class="heading-text">Growing guide · <span style="color:${p.theme.deep}">${escape(p.crop)}</span></span></div>`:''}<footer style="left:${p.folio%2?17:8}mm;right:${p.folio%2?8:17}mm"><span class="section-label ${p.label!=='THE VEGETABLE GURU'?'change':''}" data-change="Section name matches contents and openers">${p.label}</span>${p.links.length?`<nav class="change" data-change="Reference labels match section names; destinations unchanged"><span>See also: </span>${p.links.map(l=>`<a href="#folio-${l.start}" data-source="${escape(l.source)}" data-target="${l.start}">${escape(l.text)}</a>`).join('<span class="separator"> · </span>')}</nav>`:''}<span class="folio change" data-change="Edition label moved to publication page">${p.folio}</span></footer></section>`).join('');
+  const body=navigation.pages.map(p=>`<section class="sheet" data-folio="${p.folio}">${includeHeadings&&p.newHeading?`<div class="crop-name" style="color:${p.theme.ink}" data-change="Combined growing-guide and crop heading"><span class="heading-text">Growing guide · <span style="color:${p.theme.deep}">${escape(p.crop)}</span></span></div>`:''}<footer style="left:${p.folio%2?17:8}mm;right:${p.folio%2?8:17}mm"><span class="section-label ${p.label!=='THE VEGETABLE GURU'?'change':''}" data-change="Section name matches contents and openers">${p.label}</span>${p.links.length?`<nav class="change" data-change="Reference labels match section names; destinations unchanged"><span>See also: </span>${p.links.map(l=>`<a href="#folio-${l.start}" data-source="${escape(l.source)}" data-target="${l.start}">${escape(l.text)}</a>`).join('<span class="separator"> · </span>')}</nav>`:''}<span class="folio change" data-change="Edition label moved to publication page">${p.folio}</span></footer></section>`).join('');
   const html=`<!doctype html><html lang="en-GB"><head><meta charset="utf-8"><style>@font-face{font-family:Lilita;src:url('/fonts/richer-a-1.woff2');font-weight:400}@font-face{font-family:Nunito;src:url('/fonts/richer-a-6.woff2');font-weight:100 1000}*{box-sizing:border-box}body{margin:0;background:transparent}.sheet{position:relative;width:185mm;height:240mm;break-after:page;background:transparent}.sheet:last-child{break-after:auto}.crop-name{position:absolute;left:17mm;top:6.5mm;width:135mm;white-space:nowrap;font:400 28.5pt/1.05 Lilita;letter-spacing:-.35px}.heading-text{display:inline-block}footer{position:absolute;bottom:8mm;display:flex;align-items:baseline;gap:3mm;color:#173e2c;font:900 9.4px/1.4 Nunito;letter-spacing:.7px}.section-label,.folio{white-space:nowrap}.folio{margin-left:auto}nav{white-space:nowrap;font:800 7.5pt/1.3 Nunito;letter-spacing:0}nav a{color:#a44007;text-decoration:none}.separator{color:#173e2c}@page{size:185mm 240mm;margin:0}</style></head><body>${body}</body></html>`;
   const htmlPath=dir+'/footers.html',pdf=scratch+'/footers.pdf';
   fs.mkdirSync(path.join(root,scratch),{recursive:true});fs.writeFileSync(path.join(root,htmlPath),html);
@@ -116,7 +119,7 @@ export async function buildNavigationOverlays() {
     await page.pdf({path:path.join(root,pdf),preferCSSPageSize:true,printBackground:true});
   } finally {await browser.close();}
   for(const [p,h] of Object.entries(inputs))if(sha256(fs.readFileSync(path.resolve(root,p)))!==h)throw Error('Navigation input changed: '+p);
-  const receipt={date:'2026-10-15',status:'Approved navigation retained with refreshed folios; all review highlights removed',inputs,decisions:navigation.decisions,pages:dom,newCropLabels:dom.filter(x=>x.heading).length,retainedApprovedCropHeadings:navigation.pages.filter(x=>x.approvedHeading).length,existingNamedContinuations:navigation.pages.filter(x=>x.existingNamedContinuation).map(x=>({folio:x.folio,crop:x.crop})),crossReferenceLinks:dom.reduce((n,x)=>n+x.links.length,0),changedFolios:dom.filter(x=>x.changes.length).map(x=>x.folio),priorApproval:'references/navigation-approved-2026-10-15/APPROVAL.json',approvedHighlightsRemoved:true,referencePolicy:'Only destination pages explicitly naming the crop; no generic recommendations or index fallback.',scope:'Current imperial whole-book preview only. No source guide export or shared-data mutation.'};
+  const receipt={date:'2026-10-18',status:'Approved navigation retained with refreshed folios; all review highlights removed',inputs,decisions:navigation.decisions,pages:dom,newCropLabels:dom.filter(x=>x.heading).length,retainedApprovedCropHeadings:navigation.pages.filter(x=>x.approvedHeading).length,existingNamedContinuations:navigation.pages.filter(x=>x.existingNamedContinuation).map(x=>({folio:x.folio,crop:x.crop})),crossReferenceLinks:dom.reduce((n,x)=>n+x.links.length,0),changedFolios:dom.filter(x=>x.changes.length).map(x=>x.folio),priorApproval:'references/navigation-approved-2026-10-15/APPROVAL.json',approvedHighlightsRemoved:true,referencePolicy:'Only destination pages explicitly naming the crop; no generic recommendations or index fallback.',scope:'Current imperial whole-book preview only. No source guide export or shared-data mutation.'};
   fs.writeFileSync(path.join(root,dir,'NAVIGATION.json'),JSON.stringify(receipt,null,2)+'\n');
   return {pdf,sha256:sha256(fs.readFileSync(path.join(root,pdf))),pages:navigation.pages,navigation:receipt};
 }

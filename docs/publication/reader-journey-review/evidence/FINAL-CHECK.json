@@ -1,0 +1,66 @@
+{
+  "review_type": "Independent final critical read of the consolidated plan; evidence and scope review, not user approval",
+  "date": "2026-10-15",
+  "verdict": "PASS — no material correction required before presenting the plan for John's review",
+  "material_corrections": [],
+  "reviewed_files": {
+    "ACTION-PLAN.json": {
+      "sha256": "46e449ee80aee7f773ad07c33bd7ac4b5cfd102d4c5778b4d44be4cd3d22bd5a",
+      "coverage": "All seven actions, three decisions, two optional ideas, scope, exclusions, batches, acceptance criteria and source uses read."
+    },
+    "REVIEW.html": {
+      "sha256": "a519a716b3c13cfe6f4d6aaed16e2d828d656675ba20c79076ffa91b42661d82",
+      "coverage": "Visible text extracted independently of scripts/styles and checked against every action title, problem, change, evidence, space and check; every decision title, problem, evidence, recommendation and space; both optional titles/texts. No mismatches found. This was not a fresh visual browser review."
+    },
+    "evidence/CHALLENGE.json": "Read as challenge context, including its recorded limits.",
+    "evidence/ROOT-FINDINGS.json": "Read for the additional root findings and their proposed scope."
+  },
+  "assessment": [
+    {
+      "topic": "Fairness of missing-content claims",
+      "result": "Pass",
+      "detail": "The plan explicitly recognises existing succession, winter storage, unheated growing, direct sowing, harvest cues and feeding advice. It separates short omissions and navigation friction from a missing chapter. It does not use the novice journey to demand a year planner."
+    },
+    {
+      "topic": "Source hierarchy",
+      "result": "Pass",
+      "detail": "Exact canonical fields govern temperature, depth meaning, transplant months and the leek-moth qualification. The carrot conflict remains decision-only. The pet-litter conflict explicitly retains John's local authority and asks for a decision instead of silently adopting the online position. Historical research notes are not treated as authority to revert current approved copy."
+    },
+    {
+      "topic": "Bounded changes and design scope",
+      "result": "Pass",
+      "detail": "The existing book structure, page count, body type and crop spreads are retained. The p156 reallocation is clearly proposed, not claimed approved. The p149 replacement is explicitly rejected as a default action. Additional seasonal examples and holiday care stay optional or conditional on space."
+    },
+    {
+      "topic": "Strength of factual wording",
+      "result": "Pass",
+      "detail": "The tomato change is framed as exact-source fidelity, not a newly established harm claim. Greyhound remains a display-group/season decision, not a claim that a cultivar categorically cannot follow an early protected route. The rotation list is selective, not described as botanically wrong for omitting crops."
+    },
+    {
+      "topic": "Presentation and authority",
+      "result": "Pass",
+      "detail": "The report states that journeys are simulations rather than observed user tests or growing trials, and the plan is for review rather than implementation authority. The HTML presents the same substantive proposals as the JSON."
+    }
+  ],
+  "targeted_rechecks": [
+    "Read canonical celeriac and asparagus sowing/planting fields through readRecord: the two proposed depth labels describe their actual field meanings without changing a quantity.",
+    "Read canonical greenhouse tomato temperature and potting_on plus looking_after_the_crop[4] and [8]: 18°C/64°F, true-leaf/root-fill cues, about 10°C/50°F cold-night condition and often-August unheated stopping context match the plan.",
+    "Read canonical leek planting_time and onion/leek leek_moth.treatment: May–July and sufficient remaining growing season are present. Read the current p65 and p83 text to confirm the stated omissions/mismatch.",
+    "Read canonical capsicum name/introduction: the combined guide explicitly covers sweet peppers and chillies, supporting the index alias.",
+    "Re-read the local manuscript's compost-starter passage around lines 1990–2040: it explicitly includes cat/dog litter and faeces. Opened the cited Garden Organic and EPA pages; their ordinary-home-compost exclusions support identifying a substantive disagreement, without resolving it on John's behalf.",
+    "Opened the University of Saskatchewan family table and compared it with the previously read Garden Organic table: the proposed common family groupings are supported. Neither source's fixed rotation interval or feeding prescription is imported."
+  ],
+  "implementation_guardrails_to_retain": [
+    "A4 has priorities within it. Do not convert every conditional example into a compulsory insertion on the already dense tomato page.",
+    "A5 should remain a compact map for common tested crops. Do not expand it into an exhaustive taxonomy or import historical scientific family labels from the cited tables.",
+    "D1, D2 and D3 remain unresolved decisions. Passing this review does not approve replacement copy or resolve the canonical/local-source conflicts.",
+    "Actual proof checks and fit remain future implementation work. Text equivalence between the report files is not a layout approval."
+  ],
+  "web_sources_rechecked": [
+    "https://gardening.usask.ca/articles-and-lists/articles-how-to/rotating-your-vegetables.php",
+    "https://www.gardenorganic.org.uk/expert-advice/garden-management/composting/what-can-i-compost",
+    "https://www.epa.gov/recycle/composting-home"
+  ],
+  "limitations": "This was a final challenge of the plan, informed by the earlier novice audit and recorded independent challenge. It was not a fresh audit of all 44 crops, all sources, every image or either unit edition's future modified proofs. Source framing references and the anecdotal Reddit item were not independently re-researched because no horticultural correction relies on them.",
+  "changes": "Only evidence/FINAL-CHECK.json authored. No plan, report HTML, book, canonical data, layout, artwork, source transcript or approval state changed."
+}

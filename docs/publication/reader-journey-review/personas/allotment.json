@@ -1,0 +1,793 @@
+{
+  "review_type": "Simulated reader journey; desk review of the actual preview, not an observed user study or a growing trial",
+  "review_date": "2026-10-15",
+  "persona": {
+    "name": "Experienced but busy allotment grower",
+    "experience": "Eight seasons growing vegetables; knows basic sowing, netting and harvesting, but wants a reliable reference rather than having to remember every crop detail.",
+    "setting": "Established lowland Midlands allotment; about 60 square metres of cropped ground divided into six beds and smaller areas; ordinary UK weather, no heated greenhouse.",
+    "resources": "Four to six hours most weeks, a bright windowsill and cold frame for starts, insect mesh, shared water supply, and a cool frost-free storage space. Help with watering during prolonged dry weather.",
+    "aim": "Some home-grown vegetables in every month, with modest successive sowings and winter crops; supplementary household food, not complete self-sufficiency.",
+    "starting_state": "January begins with leeks, kale, parsnips and sprouting broccoli established during the previous year, and sound onions, carrots and squash already in store. Those crops are not imagined to arise from a January start.",
+    "working_crop_sequence": [
+      "A: previous-year winter brassicas finish in spring, followed by a small winter-squash crop after frost.",
+      "B: first-early potatoes, with a July handover to separately raised winter leeks if the earlies and seedlings are ready.",
+      "C: spring peas and broad beans in separate areas, followed by separately raised kale and a few sprouting broccoli plants for the following winter/spring.",
+      "D: carrots, beetroot and parsnips in separate short rows; a cleared early-carrot area can take autumn garlic if the family record permits.",
+      "E: existing autumn garlic and spring onions in separate areas; later spinach or oriental leaves in cleared areas, not another allium crop.",
+      "F: short rows or modules of lettuce and spinach, with suitable late-summer leaves for autumn and protected winter picking."
+    ],
+    "planning_limit": "This is a plausible test scenario, not a prescriptive six-bed plan or a claim that one sowing supplies a household all year. Crop family, readiness, weather and available space can alter each handover."
+  },
+  "book": {
+    "path": "output/pdf/whole-book-order-preview/the-vegetable-guru-order-preview.pdf",
+    "sha256": "39d437e8571d92aca177c31a2da4e2f371dada19a5f66465e4826678ac747cd6",
+    "pdf_pages": 170,
+    "interior_pages": 166,
+    "edition": "Imperial screen preview",
+    "pagination_rule": "Printed folio + 2 = PDF page. All references below are printed folios.",
+    "overall_outcome": "Useful as a crop-led reference throughout the year. The existing spreads usually answer the immediate action, and the Troubles section provides meaningful diagnosis and controls. Joining several crops into a year needs a notebook and cross-checking, which is reasonable for this format. The strongest improvements are small timing/qualification repairs and task-oriented index routes, not an annual planner or a new chapter."
+  },
+  "monthly_tasks": [
+    {
+      "month": "January",
+      "question": "What can I keep picking now, and which beds can I release without sacrificing the spring harvest?",
+      "route": [
+        "Contents 4 to Leek 64–65, Kale 40–41, Parsnip 20–21 and Broccoli 32–33",
+        "Contents 5 or Index 163 to Crop rotation 156"
+      ],
+      "printed_folios": [
+        4,
+        5,
+        20,
+        21,
+        32,
+        33,
+        40,
+        41,
+        64,
+        65,
+        156,
+        163
+      ],
+      "concrete_tasks": [
+        "Pick outer kale leaves while preserving the growing centre; keep plants for late-winter/spring shoots.",
+        "Lift leeks and parsnips as needed, lifting a batch before frozen soil prevents access.",
+        "Keep sprouting broccoli in place for late winter/spring rather than clearing it simply because summer cropping has ended.",
+        "Sketch beds and record both the main and second crop family."
+      ],
+      "outcome": "Successful. Kale explains continued spring use, parsnips explain in-ground holding and the end point before regrowth, and leeks explain heeling in to free a bed. Broccoli names overwintering types and gives approximately 44 weeks from sowing, so its next-year harvest is not an unsupported assumption.",
+      "friction": "There is no winter-harvest or space-reuse index entry; the grower must start from known crop names. This is a navigation opportunity, not missing winter guidance."
+    },
+    {
+      "month": "February",
+      "question": "What should I start now without filling the cold frame with crops that cannot go out yet?",
+      "route": [
+        "Contents 4 to Potato 22–23 and Lettuce 56–57",
+        "Potato footer 23 to Potato Troubles 131–135; inspect Spindly Sprouts 131",
+        "Lettuce footer 57 to Sowing and planting 157; return to calendar key 9"
+      ],
+      "printed_folios": [
+        4,
+        9,
+        22,
+        23,
+        56,
+        57,
+        131,
+        157
+      ],
+      "concrete_tasks": [
+        "Choose a first-early potato for the later leek handover, rather than a maincrop that occupies the bed longer.",
+        "Keep seed potatoes bright, cool and frost-free if sprouting them.",
+        "Raise only a small protected lettuce batch; wait for sensible soil/weather before outdoor work."
+      ],
+      "outcome": "Mostly successful. Potato timing distinguishes earlies from maincrop and the Troubles entry gives the practical sprouting conditions. General sowing guidance says to delay in cold or wet weather.",
+      "friction": "The lettuce calendar shows a muted February option, while the key calls muted dates options for warmer climates. Method and protection matter as well as climate. The crop text and general technique page must be combined to interpret the option; see AL01."
+    },
+    {
+      "month": "March",
+      "question": "How do I start winter leeks while their final bed is still reserved for potatoes, and which direct sowings are worth doing?",
+      "route": [
+        "Contents 4 to Leek 64–65, Parsnip 20–21, Pea 48–49, Broad Bean 42–43 and Onions 66–67",
+        "Relevant crop footers to Rotation 156 and Sowing and planting 157"
+      ],
+      "printed_folios": [
+        4,
+        20,
+        21,
+        42,
+        43,
+        48,
+        49,
+        64,
+        65,
+        66,
+        67,
+        156,
+        157
+      ],
+      "concrete_tasks": [
+        "Sow leeks separately in a seedbed or modules, using the ordinary late-March/April route.",
+        "Direct-sow fresh parsnip seed in suitable soil and mark slow rows if useful.",
+        "Sow manageable pea/broad-bean batches and prepare supports and protection.",
+        "Plant spring onion sets when conditions suit."
+      ],
+      "outcome": "Successful for immediate sowing and planting. Onions clearly separate seed and sets. Leek diagrams explain the later transplant operation, and the mature-size cue is useful.",
+      "friction": "Leek gives no transplant month/season in the printed spread, so the grower cannot confirm from it whether the planned July potato-to-leek handover fits. Canonical May–July planting information exists; see AL02."
+    },
+    {
+      "month": "April",
+      "question": "Can I plant earlies, sow roots into the prepared bed, and get storage squash started without conflicting soil instructions?",
+      "route": [
+        "Contents 4 to Potato 22–23, Carrot 14–15, Beetroot 12–13 and Squashes 78–79",
+        "Carrot footer 15 to Carrot and Parsnip Troubles 112 and Sowing and planting 157",
+        "Contents 5 to No-dig 151"
+      ],
+      "printed_folios": [
+        4,
+        5,
+        12,
+        13,
+        14,
+        15,
+        22,
+        23,
+        78,
+        79,
+        112,
+        151,
+        157
+      ],
+      "concrete_tasks": [
+        "Plant first-earlies, protect emerging shoots from frost and note the approximate 13-week readiness.",
+        "Sow short carrot rows and a small beetroot batch, keeping seed moisture steady.",
+        "Start a small number of winter squash indoors in April so that they have a full season.",
+        "Check the distinction between mature compost and fresh manure when preparing the root bed."
+      ],
+      "outcome": "Mostly successful. Potato explains both the planting method and why tubers must remain covered; squash explicitly supplies an April indoor route despite its general May quick fact.",
+      "friction": "Carrot’s key-risk text says manure or compost shortly before sowing usually causes fanging, while other carrot text permits fine compost and the no-dig page permits immediate planting into mature compost. The reader cannot confidently reconcile the scope; see AL04. The broad wording also exists in canonical data, so it is not proven to be a print-only error."
+    },
+    {
+      "month": "May",
+      "question": "How do I bridge the spring gap and avoid a flush of salad heads that all mature together?",
+      "route": [
+        "Contents 4 to Kale 40–41, Lettuce 56–57, Spinach 60–61, Pea 48–49 and Squashes 78–79",
+        "Lettuce footer 57 to Sowing and planting 157"
+      ],
+      "printed_folios": [
+        4,
+        40,
+        41,
+        48,
+        49,
+        56,
+        57,
+        60,
+        61,
+        78,
+        79,
+        157
+      ],
+      "concrete_tasks": [
+        "Continue useful young kale shoots while checking when old crops need clearing.",
+        "Pick outer lettuce leaves and keep a small replacement batch moving; harvest hearts promptly when firm.",
+        "Pick spinach lightly across several plants and prepare replacement short rows for appropriate cool conditions.",
+        "Harden squash and plant out only once frost risk and soil conditions permit."
+      ],
+      "outcome": "Successful. Repeated leaf picking and successive head crops are differentiated. The book does not pretend every crop is available continuously; using the previous year’s crops and stores remains necessary.",
+      "friction": "The phrase hungry gap is absent, but the useful crop-specific actions are present. A separate hungry-gap chapter would add more than this reference format needs. A small index route would help the grower find those existing actions; see AL05."
+    },
+    {
+      "month": "June",
+      "question": "Which seedlings must be ready before the first harvest clears space, and what does damage to my beans require?",
+      "route": [
+        "Contents 4 to Kale 40–41 and Broccoli 32–33",
+        "Broad Bean 42–43 for pinching, water, harvesting and blackfly actions; footer to Bean and Pea Troubles 100–103 if diagnosis is uncertain",
+        "Contents 5 to Watering 158"
+      ],
+      "printed_folios": [
+        4,
+        5,
+        32,
+        33,
+        40,
+        41,
+        42,
+        43,
+        100,
+        101,
+        102,
+        103,
+        158
+      ],
+      "concrete_tasks": [
+        "Start the late kale/sprouting-broccoli seedlings in advance of the bed becoming vacant.",
+        "Water peas and beans during flowering and pod swelling rather than merely sprinkling the soil daily.",
+        "Inspect black colonies on bean tips; use the crop’s direct action and retain predators.",
+        "Check under the soil surface before treating wilt as drought."
+      ],
+      "outcome": "Strong. Kale specifies sowing June–early July and transplanting when ready, often July–early August. Broccoli says it can follow early crops and distinguishes the smaller June-sown sprouting route. Watering begins with diagnosis rather than assuming every drooping plant needs more water.",
+      "friction": "A reader who begins at a general task such as succession has to discover these particularly useful crop passages individually. The passages themselves should be retained, not rewritten as missing coverage."
+    },
+    {
+      "month": "July",
+      "question": "The earlies, garlic and peas are coming out: what can go into each space, and how do I move the plants?",
+      "route": [
+        "Potato 22–23 for readiness and lifting; Leek 64–65 for transplanting",
+        "Garlic 62–63 for harvest and next crops",
+        "Kale 40–41, Broccoli 32–33 and Rotation 156 for the brassica handover"
+      ],
+      "printed_folios": [
+        22,
+        23,
+        32,
+        33,
+        40,
+        41,
+        62,
+        63,
+        64,
+        65,
+        156
+      ],
+      "concrete_tasks": [
+        "Test-lift earlies at useful size; use that harvest fresh rather than treating it as a storage maincrop.",
+        "Move strong, pencil-thick leeks into watered dibbed holes when ready; let holes fill naturally.",
+        "Clear finished legumes, retain healthy roots and establish prepared brassica plants with protection.",
+        "Lift garlic as foliage yellows, cure it under dry airy shelter and use its cleared area for a suitable later crop."
+      ],
+      "outcome": "Useful and largely actionable. Potato, garlic and kale give concrete harvest/clearance cues; leek pictures make the unusual watering-in method easy to recall. Garlic explicitly names French beans, late brassicas and autumn salads as successors.",
+      "friction": "The leek handover still depends on the grower’s previous knowledge of the transplant season. The book gives a physical readiness cue but not the canonical May–July window; AL02."
+    },
+    {
+      "month": "August",
+      "question": "Which late sowings will keep food coming, and what should I do with a cleared onion patch?",
+      "route": [
+        "Contents 4 to Oriental Leaves 58–59, Spinach 60–61, Turnip 30–31 and Lettuce 56–57",
+        "Onions 66–67 for harvest/storage; Rotation 156 to record the change of family",
+        "Carrot 14–15 and calendar key 9 if considering a final small carrot row"
+      ],
+      "printed_folios": [
+        4,
+        9,
+        14,
+        15,
+        30,
+        31,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        66,
+        67,
+        156
+      ],
+      "concrete_tasks": [
+        "Sow small late-July/August oriental-leaf batches and a suitable winter spinach in the freed area.",
+        "Use the explicit August turnip catch-crop route if wanted, without treating brassica leaves as rotation-neutral salads.",
+        "Dry mature onions thoroughly and reserve only sound bulbs for storage.",
+        "Consider the protected late carrot route only if its method and cover needs can be established."
+      ],
+      "outcome": "Strong for oriental leaves, spinach, turnips and onion drying. Crop families are stated or linked sufficiently for an experienced grower to avoid assuming all salads are interchangeable.",
+      "friction": "Carrot has a muted August sowing and November/December harvest but no printed explanation of that route. The canonical note specifies short-rooted August sowing and cloches from October. Under the current key, a reader can mistake it for a warmer-climate option alone; AL01."
+    },
+    {
+      "month": "September",
+      "question": "Are my winter crops established, and are the marks on leeks an active problem requiring protection now?",
+      "route": [
+        "Leek 64–65 footer to Onion & Leek Troubles 126–128",
+        "Index 162 Allium leaf miner to 128, or the crop-group route from Contents 5",
+        "Spinach 60–61 and Oriental Leaves 58–59 for winter picking/protection; Squash 78–79 for maturity"
+      ],
+      "printed_folios": [
+        5,
+        58,
+        59,
+        60,
+        61,
+        64,
+        65,
+        78,
+        79,
+        126,
+        127,
+        128,
+        162
+      ],
+      "concrete_tasks": [
+        "Inspect rows of white punctures and internal larvae/pupae rather than calling all damaged allium leaves leek moth.",
+        "Use the Troubles entry’s March–April and September–November adult-activity windows for mesh.",
+        "Keep young late sowings moist and protected while allowing enough growth before winter.",
+        "Watch squash skins and stems for ripeness and keep fruits off wet soil."
+      ],
+      "outcome": "Strong troubleshooting journey. The brief crop table leads to a page that differentiates legless fly maggots from headed caterpillars and supplies seasonal prevention. This information is present and should not be labelled absent just because the crop table is short.",
+      "friction": "The crop footer sends the reader to a three-page group rather than one condition, but the index offers a direct page. For a busy experienced grower that is a reasonable, small lookup cost."
+    },
+    {
+      "month": "October",
+      "question": "What can stay outside, what must be lifted, and what actually keeps well?",
+      "route": [
+        "Carrot 14–15, Parsnip 20–21, Potato 22–23, Leek 64–65 and Squash 78–79",
+        "Garlic 62–63 and Rotation 156 for planting into a clean cleared area",
+        "If potato foliage has blighted: crop footer 23 to Potato Blight 131 and Blight (Tubers) 134"
+      ],
+      "printed_folios": [
+        14,
+        15,
+        20,
+        21,
+        22,
+        23,
+        62,
+        63,
+        64,
+        65,
+        78,
+        79,
+        131,
+        134,
+        156
+      ],
+      "concrete_tasks": [
+        "Lift storage carrots before damaging conditions; store sound roots separately in sand and inspect them.",
+        "Keep parsnips and hardy leeks in the ground while lifting remains practical.",
+        "Cut ripe squash before frost with a sound stalk, cure it and store dry and airy at the stated temperature.",
+        "Exclude diseased potatoes from storage and use sound tubers from a blighted crop promptly.",
+        "Plant appropriate garlic stock in a different suitable area, recording the allium family."
+      ],
+      "outcome": "Strong. The existing Harvesting & storage sections distinguish in-ground holding, curing and storage rather than treating every autumn crop alike. Squash also states what to do with sound unripe fruit.",
+      "friction": "A task-led storage lookup has no general index entry: the only similarly named one is Storage rot, stem damage. Crop-first lookup works well; AL05 is a convenience improvement."
+    },
+    {
+      "month": "November",
+      "question": "Can damaged leeks still be saved, and should I sow autumn beans on the newly cleared squash bed?",
+      "route": [
+        "Leek 64–65 to Leek Moth/Allium Leaf Miner on 128",
+        "Broad Bean 42–43 for autumn versus spring sowing",
+        "Kale 40–41 and Parsnip 20–21 for ongoing harvest and weather precautions"
+      ],
+      "printed_folios": [
+        20,
+        21,
+        40,
+        41,
+        42,
+        43,
+        64,
+        65,
+        128
+      ],
+      "concrete_tasks": [
+        "Distinguish larval type and follow removal/prevention advice for the identified pest.",
+        "Check whether any leek cutback-for-regrowth advice is appropriate so late in the season.",
+        "Choose autumn broad beans only in the mild, suitable conditions specified; wait until spring on cold or wet ground.",
+        "Keep winter brassica netting secure and lift roots before access is lost to frozen soil."
+      ],
+      "outcome": "Mixed. Broad-bean advice clearly permits waiting until spring, so the reader need not turn a muted calendar option into a compulsory November task. Allium identification is useful.",
+      "friction": "Leek-moth action says badly damaged leeks may regrow after cutting to about 5 cm / 2 in, but omits the canonical qualification that enough growing season must remain. This is a materially relevant omission for this late-season lookup; AL03. The simulation does not claim a particular November cutting outcome."
+    },
+    {
+      "month": "December",
+      "question": "How do I keep the stores usable and make next year’s rotation reflect the second crops as well as the first?",
+      "route": [
+        "Onions 66–67, Squash 78–79 and Carrot 14–15 for regular store checks",
+        "Onion Neck Rot 128 and Potato storage rots 134 for a suspect stored crop",
+        "Crop rotation 156, with White Rot 128 and Clubroot 107 if a bed has a diagnosed problem"
+      ],
+      "printed_folios": [
+        14,
+        15,
+        66,
+        67,
+        78,
+        79,
+        107,
+        128,
+        134,
+        156
+      ],
+      "concrete_tasks": [
+        "Remove rotting produce promptly and inspect neighbouring stored crops.",
+        "Continue modest winter harvesting rather than stripping slow-growing leaves.",
+        "Record the summer and winter crops in every bed or sub-area.",
+        "Keep a diagnosed long-lived soil disease marked separately from the routine family rotation."
+      ],
+      "outcome": "Strong. Rotation explicitly asks for second crops to be recorded and says a short rotation is not a disease cure. The Troubles pages reinforce that distinction. The year can be reviewed without assuming all beds fit four equal blocks.",
+      "friction": "Compiling the record is work the reader must do, but the book gives the correct prompts. No ready-made annual wall chart is necessary to make this reference useful."
+    }
+  ],
+  "strengths": [
+    {
+      "point": "The consistent two-page crop format supports repeat use: quick seasonal facts on the left, operations and immediate problems on the right.",
+      "printed_folios": [
+        14,
+        15,
+        22,
+        23,
+        40,
+        41,
+        64,
+        65,
+        78,
+        79
+      ]
+    },
+    {
+      "point": "Kale, garlic, turnip and oriental leaves already explain useful follow-on crops or sowings; a generic claim that succession is missing would be wrong.",
+      "printed_folios": [
+        31,
+        41,
+        59,
+        62
+      ]
+    },
+    {
+      "point": "Winter carrying capacity is explained through crop behaviour: hardy leeks can stand, parsnips have a spring end point, kale can give shoots, and sprouting broccoli has a long overwintering route.",
+      "printed_folios": [
+        21,
+        32,
+        33,
+        41,
+        65
+      ]
+    },
+    {
+      "point": "The storage guidance preserves useful distinctions, including sound versus damaged roots, curing, ventilation, frost protection and squash stalk handling.",
+      "printed_folios": [
+        13,
+        15,
+        21,
+        23,
+        63,
+        67,
+        79
+      ]
+    },
+    {
+      "point": "The crop-to-Troubles route supports recognition, immediate action and prevention, and allium leaf miner versus leek moth is especially well differentiated.",
+      "printed_folios": [
+        65,
+        107,
+        128,
+        131,
+        134
+      ]
+    },
+    {
+      "point": "Rotation is flexible and practical, records second crops, groups related families and warns that rotation is not a cure for persistent soil diseases.",
+      "printed_folios": [
+        107,
+        128,
+        156
+      ]
+    },
+    {
+      "point": "General sowing and watering guidance asks the grower to use actual soil, weather and plant condition rather than blindly following dates or wilting leaves.",
+      "printed_folios": [
+        157,
+        158
+      ]
+    }
+  ],
+  "prioritised_findings": [
+    {
+      "id": "AL01",
+      "priority": "P2",
+      "title": "The calendar key makes alternative dates sound exclusively climatic, leaving some protected or variety-specific routes unclear",
+      "classification": "Confirmed mismatch between the general explanation and the range of canonical calendar contexts; reader impact is an editorial inference.",
+      "evidence": [
+        {
+          "folio": 9,
+          "detail": "Muted shades are described as less usual options for warmer climates; the legend repeats Warmer climates."
+        },
+        {
+          "folio": 14,
+          "detail": "Visual check: August sowing and November/December harvest are muted. Quick facts list April–June sowing; page 15 does not explain the August route."
+        },
+        {
+          "folio": 64,
+          "detail": "Visual check: May/June sowing is muted, while the canonical June route is for a late spring crop, not merely a warmer climate."
+        }
+      ],
+      "canonical_evidence": [
+        {
+          "record": "vegetables/carrot",
+          "path": "calendar.sowing_time.notes[3]",
+          "detail": "For a tender crop in November and December, sow a short-rooted variety in August and cover with cloches from October."
+        },
+        {
+          "record": "vegetables/leek",
+          "path": "calendar.sowing_time.notes[3]",
+          "detail": "For late spring crops, sow a late variety in June and transplant in July, with protection if leek moth is a problem."
+        },
+        {
+          "record": "vegetables/lettuce",
+          "path": "calendar.sowing_time.notes[1–2]",
+          "detail": "Protected February/March starts and late August/early September overwintering depend on method, variety and conditions."
+        }
+      ],
+      "reader_consequence": "A busy grower may dismiss a viable protected late crop or treat a muted date as a complete method. Colour alone cannot indicate whether a date needs cover, an early/late variety or a different crop type.",
+      "minimal_fix": "Propose revising the existing calendar explanation and legend so alternative dates are conditioned on the crop, variety, protection and local weather. As the bounded crop example, consider restoring the source-linked August carrot/cloche instruction beside the existing sowing note.",
+      "space_or_replacement": "Replace the present warmer-climates wording within the existing key; retain the calendar design. On carrot 15, replace a duplicated general sowing reminder with the short late-route qualification if that route is retained.",
+      "source_level": "1 — exact canonical calendar notes, plus actual printed calendar/key comparison",
+      "unresolved_points": [
+        "John’s approval is required for changed key copy.",
+        "This does not establish that every muted month is wrong or that all protected crops will succeed at the persona’s site.",
+        "Do not alter the underlying calendar values solely to solve the explanation problem."
+      ]
+    },
+    {
+      "id": "AL02",
+      "priority": "P2",
+      "title": "Leek transplant timing has been lost from the printed handover instructions",
+      "classification": "Confirmed source-to-book omission; practical importance judged in the July potato-to-leek scenario.",
+      "evidence": [
+        {
+          "folio": 64,
+          "detail": "Quick facts and calendar give March–April sowing and October–April harvest; there is no transplant row."
+        },
+        {
+          "folio": 65,
+          "detail": "The planting illustration says to lower a pencil-thick plant into the hole, but the spread does not state a transplant month or season."
+        }
+      ],
+      "canonical_evidence": [
+        {
+          "record": "vegetables/leek",
+          "path": "calendar.planting_time.most_popular",
+          "detail": "--05/--07, inclusive: May–July."
+        },
+        {
+          "record": "vegetables/leek",
+          "path": "calendar.planting_time.notes[0] and sowing_and_planting.notes[2]",
+          "detail": "Transplant in late spring or summer when seedlings are pencil-thick; the fuller note also gives height and watering/lifting advice."
+        }
+      ],
+      "reader_consequence": "The operation is clear, but the grower cannot confirm from the book whether early-potato ground released in July is timely for leeks.",
+      "minimal_fix": "Add the canonical May–July planting window to the existing pencil-thick transplant instruction while retaining readiness and suitable-condition qualifications.",
+      "space_or_replacement": "Use the existing illustration caption or planting-box note. It needs a short phrase, not a third page or another calendar row.",
+      "source_level": "1 — exact canonical planting calendar and method",
+      "unresolved_points": [
+        "Any approved wording must keep the distinction between single pencil-thick transplants and young module clumps.",
+        "A calendar window is not a guarantee that a delayed potato crop and leek plants will be ready together."
+      ]
+    },
+    {
+      "id": "AL03",
+      "priority": "P2",
+      "title": "Leek-moth recovery advice omits the remaining-season qualification",
+      "classification": "Confirmed loss of a consequential canonical condition during condensation.",
+      "evidence": [
+        {
+          "folio": 128,
+          "detail": "The ACT text says badly damaged leeks may regrow if cut about 5 cm / 2 in above soil, then tells the reader to remove debris. No remaining-season condition is printed."
+        }
+      ],
+      "canonical_evidence": [
+        {
+          "record": "troubles/onion_and_leek_troubles",
+          "path": "conditions.leek_moth.treatment",
+          "detail": "Severely damaged leeks may recover if cut back to about 5 cm / 2 in above soil level while enough growing season remains; remove the cut material."
+        },
+        {
+          "record": "vegetables/leek",
+          "path": "troubles[Leek Moth].text",
+          "detail": "The full crop advice preserves the same enough-growing-season condition."
+        }
+      ],
+      "reader_consequence": "A November lookup may encourage a salvage cutback without the condition that makes regrowth plausible. The review does not assert a particular date after which recovery is impossible.",
+      "minimal_fix": "Restore the remaining-growing-season qualification in the current ACT sentence, retaining possible rather than guaranteed recovery and disposal of infested cut material.",
+      "space_or_replacement": "Replace the existing sentence with a slightly tighter one that includes the qualification; remeasure this entry only when an edit is authorised.",
+      "source_level": "1 — exact canonical treatment and crop advice agree",
+      "unresolved_points": [
+        "Do not invent a fixed monthly cutoff; the authoritative source is conditional.",
+        "Mixed-unit presentation on this page is pre-existing and is not expanded into a separate unit-edition task here."
+      ]
+    },
+    {
+      "id": "AL04",
+      "priority": "P2 — resolve meaning before editing",
+      "title": "Carrot compost wording leaves the no-dig grower uncertain about what is being discouraged",
+      "classification": "Confirmed internal scope ambiguity, also present across canonical source fields; not a proven horticultural error or an authorised correction.",
+      "evidence": [
+        {
+          "folio": 14,
+          "detail": "Fanging key risk: usually caused by adding manure or compost shortly before seed sowing. The introduction also permits compost-filled no-dig beds."
+        },
+        {
+          "folio": 15,
+          "detail": "The diagram permits covering with fine compost; the prevention language specifies avoiding fresh manure."
+        },
+        {
+          "folio": 112,
+          "detail": "Fanging prevention specifies stones, compaction and fresh manure, rather than a blanket compost prohibition."
+        },
+        {
+          "folio": 151,
+          "detail": "The no-dig method uses well-rotted compost and permits starting to grow straight into the finished layer when the season suits."
+        }
+      ],
+      "canonical_evidence": [
+        {
+          "record": "vegetables/carrot",
+          "path": "troubles.Fanging.text",
+          "detail": "Contains the broad manure-or-compost shortly-before-sowing wording."
+        },
+        {
+          "record": "vegetables/carrot",
+          "path": "soil_facts[0–1] and sowing_and_planting.method",
+          "detail": "Heavy-soil improvement is advised well before sowing; fresh manure is excluded; fine soil or compost can cover direct seed."
+        },
+        {
+          "record": "troubles/carrot_and_parsnip_troubles",
+          "path": "conditions.fanging.prevention",
+          "detail": "Improve soil with mature compost in advance; avoid fresh manure immediately before sowing."
+        }
+      ],
+      "reader_consequence": "Before a new root sowing or follow-on crop, the reader may think mature no-dig compost itself is forbidden, or disregard the carrot-specific warning as contradictory.",
+      "minimal_fix": "Ask John to settle the intended scope: material maturity, incorporation into the rooting layer, soil improvement, versus fine sowing cover/top-dressing. Then harmonise the short key-risk wording with the agreed distinction.",
+      "space_or_replacement": "Replace the current fanging key-risk sentence in place. Retain the approved no-dig process and useful carrot precautions; no new diagram or technique page is needed.",
+      "source_level": "1 — canonical sources contain differing scopes; the book comparison confirms reader-facing ambiguity",
+      "unresolved_points": [
+        "An online majority must not be used to override these exact canonical fields.",
+        "No claim has been selected as the correct replacement in this audit.",
+        "Keep original JSON unchanged and use the source-linked print-draft workflow if an editorial change is later authorised."
+      ]
+    },
+    {
+      "id": "AL05",
+      "priority": "P3",
+      "title": "A few task-oriented index entries would expose useful year-round advice already in the book",
+      "classification": "Navigation improvement proposed from the simulation; no claim that the underlying guidance is absent.",
+      "evidence": [
+        {
+          "folio": 163,
+          "detail": "Crop rotation is indexed, but there is no succession entry anywhere in the four-page index."
+        },
+        {
+          "folio": 165,
+          "detail": "Storage rot, stem damage is indexed, but no general storage, overwintering or winter-harvesting route is present."
+        },
+        {
+          "folios": [
+            31,
+            41,
+            49,
+            51,
+            59,
+            61,
+            62,
+            156,
+            157
+          ],
+          "detail": "Existing text already covers catch crops, follow-on crops, repeat sowing, overwintering and recording second crops."
+        }
+      ],
+      "reader_consequence": "The grower can find a known crop quickly but must scan several guides to answer What can follow this crop? or What can I keep over winter?",
+      "minimal_fix": "Propose a small number of additional index routes, such as Succession/follow-on crops and Winter harvesting, pointing to selected existing pages. Include storage through the crop Harvesting & storage headings only if there is room and the term remains useful.",
+      "space_or_replacement": "A few short lines within the existing index structure; select a small set of strongest destinations rather than listing every crop. Do not add an annual planner, new chapter or a general monthly table.",
+      "source_level": "Actual book/index coverage plus editorial navigation inference; no new horticultural claim",
+      "unresolved_points": [
+        "The exact index terms and destination count are proposals for John.",
+        "Check index fit and current computed folios only after a permitted edit; no layout modification is part of this audit."
+      ]
+    }
+  ],
+  "not_gaps_or_not_recommended": [
+    "Do not report succession, winter harvesting, storage or crop rotation as absent: all are substantively covered.",
+    "Do not describe the broccoli calendar as claiming a single crop harvests all year: the adjacent prose, varieties and elapsed times separate calabrese from overwintering sprouting broccoli.",
+    "Do not demand a greenhouse from this persona: outdoor hardy crops, a cold frame, storage and modest expectations can support the scenario.",
+    "No recommendation for a wholesale rewrite, new month-by-month chapter, redesigned guide spread or additional crop catalogue.",
+    "No timed findability measurements, real user behaviour or actual harvest outcomes are claimed."
+  ],
+  "sources_and_coverage": {
+    "corpus": "docs/publication/reader-journey-review/evidence/book-pages.json and book-text.txt, corrected native extraction supplied by the parent reviewer",
+    "whole_book_search": "Searched all 170 page records before declaring the specific route/qualifier omissions. Terms included succession, follow-on, overwinter, hungry gap, August, transplant, May–July, late spring or summer, pencil, storage, warmer climates and enough growing season; inspected the full four-page index.",
+    "text_inspected_folios": [
+      2,
+      4,
+      5,
+      9,
+      12,
+      13,
+      14,
+      15,
+      20,
+      21,
+      22,
+      23,
+      31,
+      32,
+      33,
+      40,
+      41,
+      42,
+      43,
+      48,
+      49,
+      51,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      78,
+      79,
+      99,
+      107,
+      108,
+      112,
+      128,
+      131,
+      134,
+      136,
+      151,
+      156,
+      157,
+      158,
+      161,
+      162,
+      163,
+      164,
+      165
+    ],
+    "visual_inspected_folios": [
+      9,
+      14,
+      21,
+      22,
+      23,
+      32,
+      33,
+      40,
+      41,
+      42,
+      43,
+      56,
+      60,
+      64,
+      65,
+      78,
+      79,
+      128,
+      156
+    ],
+    "visual_source": "docs/publication/whole-book-order-preview/pages/page-NNN.jpg, corresponding to the current preview; actual calendars, layouts and diagnostic text inspected. Screen review, not physical-size print proof approval.",
+    "canonical_reader": "../hackriculture-data/lib/records.mjs readRecord; read-only",
+    "canonical_records_consulted": [
+      "vegetables/leek",
+      "vegetables/kale",
+      "vegetables/broccoli",
+      "vegetables/lettuce",
+      "vegetables/carrot",
+      "vegetables/spinach",
+      "vegetables/squash_pumpkin",
+      "troubles/carrot_and_parsnip_troubles",
+      "troubles/onion_and_leek_troubles"
+    ],
+    "source_hierarchy": "Important suspected omissions were resolved or bounded at exact canonical JSON level. The local catalogue, manuscript source notes and channel catalogue were inspected for orientation; no local passage was needed to override or complete an exact source claim. No web horticultural research was needed or used.",
+    "skills_read": [
+      "/Users/johnlennon/.codex/skills/gardening-research/SKILL.md",
+      "../hackriculture-data/.agents/skills/hackriculture-data/SKILL.md",
+      ".agents/skills/book-layout-review/SKILL.md"
+    ],
+    "checks": "Verified the current PDF SHA-256, parsed this JSON successfully, checked January–December exactly once, required task/finding fields, unique finding IDs and valid printed folios. No application tests or new PDF export were needed for this read-only report.",
+    "limits": [
+      "Only the current imperial preview was reviewed.",
+      "This was a bounded reader-journey audit, not an independent validation of every horticultural claim or the complete 44-crop catalogue.",
+      "The crop sequence is hypothetical and deliberately conditional on readiness, weather and local disease history.",
+      "Findings remain proposals; nothing is installed or approved."
+    ],
+    "write_scope": "Only docs/publication/reader-journey-review/personas/allotment.json created; canonical data, book sources, layout and PDFs unchanged."
+  }
+}

@@ -1,0 +1,600 @@
+{
+  "version": 1,
+  "date": "2026-10-15",
+  "status": "approved_scope_derivative_copy_for_proof_review",
+  "scope": "Eight vegetables and one three-page Troubles group only. Canonical records and approved trials remain unchanged.",
+  "sourceHierarchy": "Exact canonical JSON; D2 and D3 additionally resolved explicitly by John. No online substitutions.",
+  "optionalPolicy": "Include only when both-unit proof fits without body type or table changes.",
+  "guides": {
+    "carrot": {
+      "imperial": [
+        {
+          "id": "D2-carrot-forking",
+          "selector": ".key-risks p",
+          "index": 1,
+          "expected": "Fanging is usually caused by adding manure or compost to the soil shortly before seed sowing.",
+          "proposed": "Stones, compaction, fresh manure or unfinished compost can fork roots. Properly used mature compost is suitable for no-dig carrots.",
+          "optional": false,
+          "source": [
+            {
+              "record": "vegetables/carrot/carrot.json",
+              "path": "troubles.Fanging",
+              "value": {
+                "text": "Fanging is usually caused by adding manure or compost to the soil shortly before seed sowing. Fresh manure can also make carrots tough and watery. Other causes are growing carrots in stony soil or in heavy ground which has not been properly dug.",
+                "rank": 9,
+                "signs": "Forked roots",
+                "control": "Remove stones, improve soil deeply and avoid fresh manure."
+              }
+            },
+            {
+              "record": "vegetables/carrot/carrot.json",
+              "path": "introduction",
+              "value": "Carrots are one of the tastiest vegetables to pull fresh from the garden, with a sweetness and earthy flavour that is hard to match from shop-bought roots. They are also one of the more awkward crops to establish well: germination can be slow, seedlings are vulnerable to slugs, and the roots need deep, fine, stone-free soil if they are to grow straight and tender. Once growing, however, carrots are very rewarding, especially if sown in short successions so that roots can be lifted from early summer into autumn. Good moisture, careful thinning, and protection from carrot fly make a big difference. In lighter soils or compost-filled no-dig beds they can be excellent, but fresh manure, compacted ground, stones, drought and rough handling all tend to produce forked, tough or damaged roots."
+            }
+          ],
+          "authority": "John explicit resolution on 15 October 2026"
+        },
+        {
+          "id": "A4-carrot-late-protected",
+          "selector": ".planting p",
+          "index": 3,
+          "expected": "Mix seed with sand, sow into warmed soil and keep the seedbed moist.",
+          "proposed": "Mix seed with sand, sow into warmed soil and keep the seedbed moist. For November–December roots, sow a short-rooted variety in August; cover with cloches from October.",
+          "optional": true,
+          "source": [
+            {
+              "record": "vegetables/carrot/carrot.json",
+              "path": "calendar.sowing_time.notes.3",
+              "value": "For a tender crop in November and December, sow a short-rooted variety in August and cover with cloches from October."
+            }
+          ],
+          "authority": "John approved A1–A7 as-is on 15 October 2026"
+        }
+      ],
+      "metric": [
+        {
+          "id": "D2-carrot-forking",
+          "selector": ".key-risks p",
+          "index": 1,
+          "expected": "Fanging is usually caused by adding manure or compost to the soil shortly before seed sowing.",
+          "proposed": "Stones, compaction, fresh manure or unfinished compost can fork roots. Properly used mature compost is suitable for no-dig carrots.",
+          "optional": false,
+          "source": [
+            {
+              "record": "vegetables/carrot/carrot.json",
+              "path": "troubles.Fanging",
+              "value": {
+                "text": "Fanging is usually caused by adding manure or compost to the soil shortly before seed sowing. Fresh manure can also make carrots tough and watery. Other causes are growing carrots in stony soil or in heavy ground which has not been properly dug.",
+                "rank": 9,
+                "signs": "Forked roots",
+                "control": "Remove stones, improve soil deeply and avoid fresh manure."
+              }
+            },
+            {
+              "record": "vegetables/carrot/carrot.json",
+              "path": "introduction",
+              "value": "Carrots are one of the tastiest vegetables to pull fresh from the garden, with a sweetness and earthy flavour that is hard to match from shop-bought roots. They are also one of the more awkward crops to establish well: germination can be slow, seedlings are vulnerable to slugs, and the roots need deep, fine, stone-free soil if they are to grow straight and tender. Once growing, however, carrots are very rewarding, especially if sown in short successions so that roots can be lifted from early summer into autumn. Good moisture, careful thinning, and protection from carrot fly make a big difference. In lighter soils or compost-filled no-dig beds they can be excellent, but fresh manure, compacted ground, stones, drought and rough handling all tend to produce forked, tough or damaged roots."
+            }
+          ],
+          "authority": "John explicit resolution on 15 October 2026"
+        },
+        {
+          "id": "A4-carrot-late-protected",
+          "selector": ".planting p",
+          "index": 3,
+          "expected": "Mix seed with sand, sow into warmed soil and keep the seedbed moist.",
+          "proposed": "Mix seed with sand, sow into warmed soil and keep the seedbed moist. For November–December roots, sow a short-rooted variety in August; cover with cloches from October.",
+          "optional": true,
+          "source": [
+            {
+              "record": "vegetables/carrot/carrot.json",
+              "path": "calendar.sowing_time.notes.3",
+              "value": "For a tender crop in November and December, sow a short-rooted variety in August and cover with cloches from October."
+            }
+          ],
+          "authority": "John approved A1–A7 as-is on 15 October 2026"
+        }
+      ]
+    },
+    "celeriac": {
+      "imperial": [
+        {
+          "id": "A2-celeriac-planting-depth",
+          "selector": ".fact-grid h3",
+          "index": 3,
+          "expected": "Depth",
+          "proposed": "Planting depth",
+          "optional": false,
+          "source": [
+            {
+              "record": "vegetables/celeriac/celeriac.json",
+              "path": "sowing_and_planting.planting_depth",
+              "value": "plant with the swollen stem-base at soil level; do not bury the crown or earth up like celery"
+            }
+          ],
+          "authority": "John approved A1–A7 as-is on 15 October 2026"
+        }
+      ],
+      "metric": [
+        {
+          "id": "A2-celeriac-planting-depth",
+          "selector": ".fact-grid h3",
+          "index": 3,
+          "expected": "Depth",
+          "proposed": "Planting depth",
+          "optional": false,
+          "source": [
+            {
+              "record": "vegetables/celeriac/celeriac.json",
+              "path": "sowing_and_planting.planting_depth",
+              "value": "plant with the swollen stem-base at soil level; do not bury the crown or earth up like celery"
+            }
+          ],
+          "authority": "John approved A1–A7 as-is on 15 October 2026"
+        }
+      ]
+    },
+    "cabbage": {
+      "imperial": [
+        {
+          "id": "D3-greyhound-summer",
+          "selector": ".varieties small",
+          "index": 0,
+          "expected": "Spring Cabbages",
+          "proposed": "Summer Cabbages",
+          "optional": false,
+          "source": [
+            {
+              "record": "vegetables/cabbage/cabbage.json",
+              "path": "varieties.SPRING cabbages.GREYHOUND",
+              "value": {
+                "text": "Fast-growing, pointed heads. Can be raised under glass in late winter or early spring for planting out in April and cutting in June.",
+                "rank": 9,
+                "short_text": "A traditional pointed summer cabbage. Keep it as an accessible alternative for gardeners who prefer an open-pollinated variety."
+              }
+            },
+            {
+              "record": "vegetables/cabbage/cabbage.json",
+              "path": "varieties.SUMMER cabbages.GREYHOUND",
+              "value": {
+                "text": "The compact, pointed heads mature quickly. Greyhound is an excellent variety for early sowing.",
+                "rank": 9,
+                "short_text": "A traditional pointed summer cabbage. Keep it as an accessible alternative for gardeners who prefer an open-pollinated variety."
+              }
+            }
+          ],
+          "authority": "John explicit resolution on 15 October 2026"
+        }
+      ],
+      "metric": [
+        {
+          "id": "D3-greyhound-summer",
+          "selector": ".varieties small",
+          "index": 0,
+          "expected": "Spring Cabbages",
+          "proposed": "Summer Cabbages",
+          "optional": false,
+          "source": [
+            {
+              "record": "vegetables/cabbage/cabbage.json",
+              "path": "varieties.SPRING cabbages.GREYHOUND",
+              "value": {
+                "text": "Fast-growing, pointed heads. Can be raised under glass in late winter or early spring for planting out in April and cutting in June.",
+                "rank": 9,
+                "short_text": "A traditional pointed summer cabbage. Keep it as an accessible alternative for gardeners who prefer an open-pollinated variety."
+              }
+            },
+            {
+              "record": "vegetables/cabbage/cabbage.json",
+              "path": "varieties.SUMMER cabbages.GREYHOUND",
+              "value": {
+                "text": "The compact, pointed heads mature quickly. Greyhound is an excellent variety for early sowing.",
+                "rank": 9,
+                "short_text": "A traditional pointed summer cabbage. Keep it as an accessible alternative for gardeners who prefer an open-pollinated variety."
+              }
+            }
+          ],
+          "authority": "John explicit resolution on 15 October 2026"
+        }
+      ]
+    },
+    "lettuce": {
+      "imperial": [
+        {
+          "id": "A7-lettuce-slug-signs",
+          "selector": ".key-risks p",
+          "index": 0,
+          "expected": "Keep soil clean of weeds, start with strong plants, patrol at dusk or dawn, and avoid sowing or planting when soil is bare for too short a time for slugs to disperse.",
+          "proposed": "Ragged leaves and slime trails are signs of slugs.",
+          "optional": false,
+          "source": [
+            {
+              "record": "vegetables/lettuce/lettuce.json",
+              "path": "troubles.SLUGS.signs",
+              "value": "Ragged leaves; slime trails."
+            }
+          ],
+          "authority": "John approved A1–A7 as-is on 15 October 2026"
+        },
+        {
+          "id": "A4-lettuce-protected-sowing",
+          "selector": ".planting p",
+          "index": 3,
+          "expected": "Sow small leaf-lettuce batches March–August. Modules suit early crops or sluggy weather; a few strong plants give repeat leaves.",
+          "proposed": "Sow batches March–August; modules suit early or sluggy starts. Suitable varieties sown August–early September may overwinter in mild conditions or under cover.",
+          "optional": false,
+          "source": [
+            {
+              "record": "vegetables/lettuce/lettuce.json",
+              "path": "calendar.sowing_time.notes.2",
+              "value": "Late sowings in August or early September may overwinter in mild conditions or under cover, depending on variety."
+            }
+          ],
+          "authority": "John approved A1–A7 as-is on 15 October 2026",
+          "spaceTradeoff": "The repeat-leaf sentence is consolidated into the retained Harvesting advice explaining outside-leaf picking and regrowth. Both routes and their conditions remain."
+        }
+      ],
+      "metric": [
+        {
+          "id": "A7-lettuce-slug-signs",
+          "selector": ".key-risks p",
+          "index": 0,
+          "expected": "Keep soil clean of weeds, start with strong plants, patrol at dusk or dawn, and avoid sowing or planting when soil is bare for too short a time for slugs to disperse.",
+          "proposed": "Ragged leaves and slime trails are signs of slugs.",
+          "optional": false,
+          "source": [
+            {
+              "record": "vegetables/lettuce/lettuce.json",
+              "path": "troubles.SLUGS.signs",
+              "value": "Ragged leaves; slime trails."
+            }
+          ],
+          "authority": "John approved A1–A7 as-is on 15 October 2026"
+        },
+        {
+          "id": "A4-lettuce-protected-sowing",
+          "selector": ".planting p",
+          "index": 3,
+          "expected": "Sow small leaf-lettuce batches March–August. Modules suit early crops or sluggy weather; a few strong plants give repeat leaves.",
+          "proposed": "Sow batches March–August; modules suit early or sluggy starts. Suitable varieties sown August–early September may overwinter in mild conditions or under cover.",
+          "optional": false,
+          "source": [
+            {
+              "record": "vegetables/lettuce/lettuce.json",
+              "path": "calendar.sowing_time.notes.2",
+              "value": "Late sowings in August or early September may overwinter in mild conditions or under cover, depending on variety."
+            }
+          ],
+          "authority": "John approved A1–A7 as-is on 15 October 2026",
+          "spaceTradeoff": "The repeat-leaf sentence is consolidated into the retained Harvesting advice explaining outside-leaf picking and regrowth. Both routes and their conditions remain."
+        }
+      ]
+    },
+    "leek": {
+      "imperial": [
+        {
+          "id": "A4-leek-transplant-window",
+          "selector": ".planting p",
+          "index": 0,
+          "expected": "Lower one pencil-thick plant into the hole.",
+          "proposed": "Plant May–July: one pencil-thick leek per hole.",
+          "optional": false,
+          "source": [
+            {
+              "record": "vegetables/leek/leek.json",
+              "path": "calendar.planting_time.most_popular",
+              "value": [
+                "--05/--07"
+              ]
+            },
+            {
+              "record": "vegetables/leek/leek.json",
+              "path": "calendar.planting_time.notes.0",
+              "value": "Transplant in late spring or summer when seedlings are pencil-thick."
+            }
+          ],
+          "authority": "John approved A1–A7 as-is on 15 October 2026"
+        }
+      ],
+      "metric": [
+        {
+          "id": "A4-leek-transplant-window",
+          "selector": ".planting p",
+          "index": 0,
+          "expected": "Lower one pencil-thick plant into the hole.",
+          "proposed": "Plant May–July: one pencil-thick leek per hole.",
+          "optional": false,
+          "source": [
+            {
+              "record": "vegetables/leek/leek.json",
+              "path": "calendar.planting_time.most_popular",
+              "value": [
+                "--05/--07"
+              ]
+            },
+            {
+              "record": "vegetables/leek/leek.json",
+              "path": "calendar.planting_time.notes.0",
+              "value": "Transplant in late spring or summer when seedlings are pencil-thick."
+            }
+          ],
+          "authority": "John approved A1–A7 as-is on 15 October 2026"
+        }
+      ]
+    },
+    "marrow_courgette": {
+      "imperial": [
+        {
+          "id": "A7-courgette-clearance",
+          "selector": ".tips p",
+          "index": 1,
+          "expected": "Remove misshapen first fruits and keep picking young courgettes to encourage the next crop.",
+          "proposed": "After frost, compost healthy plants; remove virus-infected or badly rotted remains without spreading them.",
+          "optional": false,
+          "source": [
+            {
+              "record": "vegetables/marrow_courgette/marrow_courgette.json",
+              "path": "harvesting.5.text",
+              "value": "Clear plants after frost. Compost healthy remains; remove virus-infected or badly rotted material without spreading it around the bed. Weed the bed and add mature compost as needed."
+            }
+          ],
+          "authority": "John approved A1–A7 as-is on 15 October 2026"
+        }
+      ],
+      "metric": [
+        {
+          "id": "A7-courgette-clearance",
+          "selector": ".tips p",
+          "index": 1,
+          "expected": "Remove misshapen first fruits and keep picking young courgettes to encourage the next crop.",
+          "proposed": "After frost, compost healthy plants; remove virus-infected or badly rotted remains without spreading them.",
+          "optional": false,
+          "source": [
+            {
+              "record": "vegetables/marrow_courgette/marrow_courgette.json",
+              "path": "harvesting.5.text",
+              "value": "Clear plants after frost. Compost healthy remains; remove virus-infected or badly rotted material without spreading it around the bed. Weed the bed and add mature compost as needed."
+            }
+          ],
+          "authority": "John approved A1–A7 as-is on 15 October 2026"
+        }
+      ]
+    },
+    "tomato_greenhouse": {
+      "imperial": [
+        {
+          "id": "A4-tomato-potting-stage",
+          "selector": ".planting p",
+          "index": 0,
+          "expected": "Sow in trays or small pots; keep compost moist, not wet. Prick out and pot on as needed. Bright light gives stout seedlings.",
+          "proposed": "Sow in trays or small pots; keep compost moist, not wet. Prick out at the first true-leaf pair; pot on when roots fill the pot. Give bright light.",
+          "optional": false,
+          "source": [
+            {
+              "record": "vegetables/tomato_greenhouse/tomato_greenhouse.json",
+              "path": "sowing_and_planting.potting_on",
+              "value": {
+                "metric": "When the first pair of true leaves has formed, prick out into 8 cm pots of peat-free potting compost. Pot on as roots fill the container.",
+                "imperial": "When the first pair of true leaves has formed, prick out into 3 in. pots of peat-free potting compost. Pot on as roots fill the container."
+              }
+            }
+          ],
+          "authority": "John approved A1–A7 as-is on 15 October 2026"
+        },
+        {
+          "id": "A4-tomato-night-temperature",
+          "selector": ".planting p",
+          "index": 1,
+          "expected": "In a warm greenhouse, water well-rooted plants before setting slightly deeper in pots, growbags or beds. Support cordons with canes or string.",
+          "proposed": "Avoid nights below about 50°F. Water well-rooted plants before setting slightly deeper in pots, growbags or beds. Support cordons with canes or string.",
+          "optional": false,
+          "source": [
+            {
+              "record": "vegetables/tomato_greenhouse/tomato_greenhouse.json",
+              "path": "looking_after_the_crop.4.text",
+              "value": {
+                "metric": "Keep plants warm and protect them from cold nights. Around 19–23°C is a useful daytime range; ventilate before the greenhouse overheats and avoid nights below about 10°C. Light and airflow remain important.",
+                "imperial": "Keep plants warm and protect them from cold nights. Around 66–73°F is a useful daytime range; ventilate before the greenhouse overheats and avoid nights below about 50°F. Light and airflow remain important."
+              }
+            }
+          ],
+          "authority": "John approved A1–A7 as-is on 15 October 2026"
+        },
+        {
+          "id": "A3-tomato-germination-temperature",
+          "selector": ".planting p",
+          "index": 2,
+          "expected": "For unheated cover, sow around March in gentle warmth near 68°F. Earlier heated crops need reliable warmth and bright winter light.",
+          "proposed": "For unheated cover, sow around March in gentle warmth near 64°F. Earlier heated crops need reliable warmth and bright winter light.",
+          "optional": false,
+          "source": [
+            {
+              "record": "vegetables/tomato_greenhouse/tomato_greenhouse.json",
+              "path": "sowing_and_planting.temperature",
+              "value": {
+                "metric": "Keep moist but not wet, around 18°C for germination.",
+                "imperial": "Keep moist but not wet, around 64°F for germination."
+              }
+            }
+          ],
+          "authority": "John approved A1–A7 as-is on 15 October 2026"
+        },
+        {
+          "id": "A4-tomato-stopping-time",
+          "selector": ".care li",
+          "index": 0,
+          "expected": "Tie cordons loosely; remove young side shoots. Take yellow lower leaves sparingly; keep healthy leaves to feed and shade fruit. Stop two leaves above the final truss at the chosen height or near season’s end. Bush and semi-determinate pruning differs.",
+          "proposed": "Tie cordons loosely; remove young side shoots. Take yellow lower leaves sparingly; keep healthy leaves to feed and shade fruit. Stop two leaves above the last useful truss, often in August under unheated cover. Bush and semi-determinate pruning differs.",
+          "optional": true,
+          "source": [
+            {
+              "record": "vegetables/tomato_greenhouse/tomato_greenhouse.json",
+              "path": "looking_after_the_crop.8.text",
+              "value": "Stop cordons in time for the final fruit to ripen, often in August in an unheated greenhouse. Leave two leaves above the last useful truss. As autumn growth slows, reduce watering to match demand without letting roots dry out; remove finished trusses and yellow leaves."
+            }
+          ],
+          "authority": "John approved A1–A7 as-is on 15 October 2026"
+        }
+      ],
+      "metric": [
+        {
+          "id": "A4-tomato-potting-stage",
+          "selector": ".planting p",
+          "index": 0,
+          "expected": "Sow in trays or small pots; keep compost moist, not wet. Prick out and pot on as needed. Bright light gives stout seedlings.",
+          "proposed": "Sow in trays or small pots; keep compost moist, not wet. Prick out at the first true-leaf pair; pot on when roots fill the pot. Give bright light.",
+          "optional": false,
+          "source": [
+            {
+              "record": "vegetables/tomato_greenhouse/tomato_greenhouse.json",
+              "path": "sowing_and_planting.potting_on",
+              "value": {
+                "metric": "When the first pair of true leaves has formed, prick out into 8 cm pots of peat-free potting compost. Pot on as roots fill the container.",
+                "imperial": "When the first pair of true leaves has formed, prick out into 3 in. pots of peat-free potting compost. Pot on as roots fill the container."
+              }
+            }
+          ],
+          "authority": "John approved A1–A7 as-is on 15 October 2026"
+        },
+        {
+          "id": "A4-tomato-night-temperature",
+          "selector": ".planting p",
+          "index": 1,
+          "expected": "In a warm greenhouse, water well-rooted plants before setting slightly deeper in pots, growbags or beds. Support cordons with canes or string.",
+          "proposed": "Avoid nights below about 10°C. Water well-rooted plants before setting slightly deeper in pots, growbags or beds. Support cordons with canes or string.",
+          "optional": false,
+          "source": [
+            {
+              "record": "vegetables/tomato_greenhouse/tomato_greenhouse.json",
+              "path": "looking_after_the_crop.4.text",
+              "value": {
+                "metric": "Keep plants warm and protect them from cold nights. Around 19–23°C is a useful daytime range; ventilate before the greenhouse overheats and avoid nights below about 10°C. Light and airflow remain important.",
+                "imperial": "Keep plants warm and protect them from cold nights. Around 66–73°F is a useful daytime range; ventilate before the greenhouse overheats and avoid nights below about 50°F. Light and airflow remain important."
+              }
+            }
+          ],
+          "authority": "John approved A1–A7 as-is on 15 October 2026"
+        },
+        {
+          "id": "A3-tomato-germination-temperature",
+          "selector": ".planting p",
+          "index": 2,
+          "expected": "For unheated cover, sow around March in gentle warmth near 20°C. Earlier heated crops need reliable warmth and bright winter light.",
+          "proposed": "For unheated cover, sow around March in gentle warmth near 18°C. Earlier heated crops need reliable warmth and bright winter light.",
+          "optional": false,
+          "source": [
+            {
+              "record": "vegetables/tomato_greenhouse/tomato_greenhouse.json",
+              "path": "sowing_and_planting.temperature",
+              "value": {
+                "metric": "Keep moist but not wet, around 18°C for germination.",
+                "imperial": "Keep moist but not wet, around 64°F for germination."
+              }
+            }
+          ],
+          "authority": "John approved A1–A7 as-is on 15 October 2026"
+        },
+        {
+          "id": "A4-tomato-stopping-time",
+          "selector": ".care li",
+          "index": 0,
+          "expected": "Tie cordons loosely; remove young side shoots. Take yellow lower leaves sparingly; keep healthy leaves to feed and shade fruit. Stop two leaves above the final truss at the chosen height or near season’s end. Bush and semi-determinate pruning differs.",
+          "proposed": "Tie cordons loosely; remove young side shoots. Take yellow lower leaves sparingly; keep healthy leaves to feed and shade fruit. Stop two leaves above the last useful truss, often in August under unheated cover. Bush and semi-determinate pruning differs.",
+          "optional": true,
+          "source": [
+            {
+              "record": "vegetables/tomato_greenhouse/tomato_greenhouse.json",
+              "path": "looking_after_the_crop.8.text",
+              "value": "Stop cordons in time for the final fruit to ripen, often in August in an unheated greenhouse. Leave two leaves above the last useful truss. As autumn growth slows, reduce watering to match demand without letting roots dry out; remove finished trusses and yellow leaves."
+            }
+          ],
+          "authority": "John approved A1–A7 as-is on 15 October 2026"
+        }
+      ]
+    },
+    "asparagus": {
+      "imperial": [
+        {
+          "id": "A2-asparagus-seed-depth",
+          "selector": ".fact-grid h3",
+          "index": 2,
+          "expected": "Depth",
+          "proposed": "Seed depth",
+          "optional": false,
+          "source": [
+            {
+              "record": "vegetables/asparagus/asparagus.json",
+              "path": "sowing_and_planting.seed_sowing.sowing_depth",
+              "value": {
+                "imperial": "1 in.",
+                "metric": "2.5 cm"
+              }
+            }
+          ],
+          "authority": "John approved A1–A7 as-is on 15 October 2026",
+          "expectedFactValue": "1 in."
+        }
+      ],
+      "metric": [
+        {
+          "id": "A2-asparagus-seed-depth",
+          "selector": ".fact-grid h3",
+          "index": 2,
+          "expected": "Depth",
+          "proposed": "Seed depth",
+          "optional": false,
+          "source": [
+            {
+              "record": "vegetables/asparagus/asparagus.json",
+              "path": "sowing_and_planting.seed_sowing.sowing_depth",
+              "value": {
+                "imperial": "1 in.",
+                "metric": "2.5 cm"
+              }
+            }
+          ],
+          "authority": "John approved A1–A7 as-is on 15 October 2026",
+          "expectedFactValue": "2.5 cm"
+        }
+      ]
+    },
+    "onion_and_leek_troubles": {
+      "imperial": [
+        {
+          "id": "A3-leek-moth-season",
+          "selector": ".entry[data-key=\"leek_moth\"] .act p",
+          "index": 0,
+          "expected": "Remove infested leaves. Badly damaged leeks may regrow if cut about 5 cm / 2 in above soil; remove the debris.",
+          "proposed": "Remove infested leaves. If enough growing season remains, badly damaged leeks may regrow when cut about 5 cm / 2 in above soil; remove the debris.",
+          "optional": false,
+          "source": [
+            {
+              "record": "troubles/onion_and_leek_troubles/onion_and_leek_troubles.json",
+              "path": "conditions.leek_moth.treatment",
+              "value": "Remove badly affected leaves and infested debris. Severely damaged leeks may recover if cut back to about 5 cm / 2 in above soil level while enough growing season remains; remove the cut material so larvae do not continue developing."
+            }
+          ],
+          "authority": "John approved A1–A7 as-is on 15 October 2026"
+        }
+      ],
+      "metric": [
+        {
+          "id": "A3-leek-moth-season",
+          "selector": ".entry[data-key=\"leek_moth\"] .act p",
+          "index": 0,
+          "expected": "Remove infested leaves. Badly damaged leeks may regrow if cut about 5 cm / 2 in above soil; remove the debris.",
+          "proposed": "Remove infested leaves. If enough growing season remains, badly damaged leeks may regrow when cut about 5 cm / 2 in above soil; remove the debris.",
+          "optional": false,
+          "source": [
+            {
+              "record": "troubles/onion_and_leek_troubles/onion_and_leek_troubles.json",
+              "path": "conditions.leek_moth.treatment",
+              "value": "Remove badly affected leaves and infested debris. Severely damaged leeks may recover if cut back to about 5 cm / 2 in above soil level while enough growing season remains; remove the cut material so larvae do not continue developing."
+            }
+          ],
+          "authority": "John approved A1–A7 as-is on 15 October 2026"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "date": "2026-10-15T21:11:13.657538+00:00",
+  "status": "Focused technical and visual review passed; final wording/proofs remain for John’s review",
+  "scope": [
+    "A1: page 9 calendar explanation and less-usual sublabel",
+    "A6: five index navigation entries, within current four-page index"
+  ],
+  "actualPdfVisualCoverage": [
+    "Clean page 9 (imperial)",
+    "Highlighted page 9 (metric)",
+    "Highlighted index pages 162–164 (imperial)",
+    "Highlighted index page 165 (metric)",
+    "Final reflow rechecked on pages 164 and 165"
+  ],
+  "crossEditionEvidence": "All clean/highlight imperial and metric PDF character positions match. Corresponding imperial/metric PNGs have identical SHA-256 hashes; this comparison covers every page of both editions.",
+  "observations": [
+    "Calendar explanation remains three lines, at the original 10.5 pt size; peach panel, 10 original images/icons and native calendar/rating widgets are unchanged.",
+    "New less-usual sublabel fits beside the diagram and preserves the usual/less-usual colours.",
+    "Index retains 9.45 pt body type, two columns, mirrored gutters, four pages and folios 162–165. Five additions remain short, with direct see references.",
+    "The isolated S heading and Saddleback entry now begin page 165 together; alphabetical order and all 273 existing destination lists remain unchanged.",
+    "Highlights identify only changed text/new entries; PDF character geometry is identical to clean proofs."
+  ],
+  "footerGapMm": {
+    "imperial": {
+      "guide-key": [
+        4.51
+      ],
+      "index": [
+        19.207,
+        17.049,
+        26.45,
+        15.664
+      ]
+    },
+    "metric": {
+      "guide-key": [
+        4.51
+      ],
+      "index": [
+        19.207,
+        17.049,
+        26.45,
+        15.664
+      ]
+    }
+  },
+  "checks": {
+    "bookCopy": "npm run book:check — pass; 8 documents, 278 index entries",
+    "indexLogic": "npm run test:book-index — 3 passed",
+    "actualPdf": "20 pages across 8 PDFs checked; all expected text blocks, footer numbers and bounds passed",
+    "entryOrder": "All four index HTML derivatives preserve exact resolved alphabetical order",
+    "fonts": "Representative clean guide-key and index PDFs contain embedded Lilita and embedded Type3 glyph fonts; extraction warnings about Type3 FontBBox did not prevent per-block text or visual checks.",
+    "sources": "All recorded source guards and frozen references rehashed unchanged after generation; both exact previous-byte copies match the guarded-save receipt.",
+    "actualApprovedPageComparison": "At 120 dpi, the approved frozen page-9 PDF and new clean page-9 PDF have zero differing pixels outside the changed paragraph/sublabel bounds (plus 3 pixels for antialiasing). See PRESERVATION-CHECK.json."
+  },
+  "geometryNote": "Actual MediaBoxes retain the approved standalone component’s Chromium rounding (184.827326 × 239.860660 mm). Whole-book assembly normalises its reused component pages to exact 185 × 240 mm; this focused derivative does not modify that assembly.",
+  "rebuild": [
+    "node scripts/build-reader-navigation.mjs",
+    "python3 scripts/build-reader-navigation-review.py"
+  ],
+  "implementation": {
+    "scripts/build-reader-navigation.mjs": "d694dec324dd8cbc836b1094a4f9981298e3a5391f24f496ea57c6319e542057",
+    "scripts/build-reader-navigation-review.py": "993b1680b4fd49445d0b6befb9f548329e89d86dcaadf2b2da4e8876c0b32b6f"
+  },
+  "fullBookChanged": false,
+  "gardeningRecordsChanged": false,
+  "manualLocksChanged": false,
+  "newApprovalClaimed": false
+}

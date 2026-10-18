@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-18",
+  "status": "Proposed page copy",
+  "request": "One follow-on page, carbon/humus/nitrogen dominant; phosphorus and potassium smaller; usual house style and preview.",
+  "research": "RESEARCH-2026-10-18.json",
+  "copy": "copy.json",
+  "claimMap": [
+    {
+      "copy": "lead",
+      "sources": [
+        "John manuscript compost introduction",
+        "John video _Ub8nJdM6ZY, 02:31–08:51"
+      ],
+      "limit": "Practical recycling theme, no claim of a completely closed system."
+    },
+    {
+      "copy": "carbon and diagram",
+      "sources": [
+        "RHS organic matter, carbon-cycle explanation"
+      ],
+      "limit": "A simplified selected carbon pathway; not every route is drawn. Text says much, not all, carbon returns to air."
+    },
+    {
+      "copy": "humus",
+      "sources": [
+        "RHS organic matter, longer-lasting forms and water/nutrient holding",
+        "Canonical pea soil_facts"
+      ],
+      "limit": "Humus is not a separate element or permanent store; whole compost is not equated with humus."
+    },
+    {
+      "copy": "nitrogen and sequence",
+      "sources": [
+        "Canonical pea /looking_after_the_crop/6/text",
+        "Canonical bean_broad /looking_after_the_crop/4/text",
+        "AHDB rhizobia explanation",
+        "Approved rotation nitrogen research"
+      ],
+      "limit": "Healthy roots decay before nitrogen benefits later crops; compost where needed; no guaranteed complete feed."
+    },
+    {
+      "copy": "phosphorus and potassium",
+      "sources": [
+        "Garden Organic Function of plant nutrients, pp2–4"
+      ],
+      "limit": "No rates or universal extra-feeding instruction; comfrey recycles existing potassium."
+    }
+  ],
+  "copySha256": "6c16ede080565f946a010b8956a85a8abf9aad41eb1130ca3ab68731b4931e1f",
+  "intentionalOmissions": [
+    "Separate water-cycle explanation",
+    "Secondary/micronutrient panels",
+    "Full nitrogen gaseous-loss pathways",
+    "Nutrient application rates",
+    "Repeated compost-making instructions"
+  ],
+  "reason": "One-page practical follow-on; existing compost and rotation methods remain in their owning pages."
+}

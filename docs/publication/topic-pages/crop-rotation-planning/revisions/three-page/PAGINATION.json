@@ -1,0 +1,67 @@
+{
+  "status": "Proposed, not integrated",
+  "sourceFolio": 156,
+  "replacementFolios": [
+    156,
+    157,
+    158
+  ],
+  "pagesAdded": 2,
+  "currentInteriorPages": 166,
+  "proposedInteriorPages": 168,
+  "currentFullPdfPages": 170,
+  "proposedFullPdfPages": 172,
+  "parity": "All later left/right relationships retained by adding two pages",
+  "unchangedBefore": 156,
+  "laterShift": {
+    "oldRange": [
+      157,
+      166
+    ],
+    "delta": 2
+  },
+  "laterDestinations": {
+    "Sowing and planting": {
+      "old": 157,
+      "proposed": 159
+    },
+    "Watering": {
+      "old": 158,
+      "proposed": 160
+    },
+    "Greenhouses": {
+      "old": [
+        159,
+        160,
+        161
+      ],
+      "proposed": [
+        161,
+        162,
+        163
+      ]
+    },
+    "Index": {
+      "old": [
+        162,
+        163,
+        164,
+        165
+      ],
+      "proposed": [
+        164,
+        165,
+        166,
+        167
+      ]
+    }
+  },
+  "integrationWork": [
+    "Use the other approved clean reader-edit component PDFs; exclude the superseded one-page rotation.",
+    "Replace folio 156 with the three approved expanded pages if John accepts them.",
+    "Refresh contents title to Crop rotation & planning and later destination folios.",
+    "Refresh index references, PDF links, bookmarks, navigation mappings and following folios from the new page map.",
+    "Retain all approved guide bodies, two-page crop spreads and blank-page policy.",
+    "Review the final assembly; do not treat these focused proofs as a complete-book rebuild."
+  ]
+}

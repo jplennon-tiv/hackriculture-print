@@ -1,0 +1,142 @@
+{
+  "review_type": "Read-only source and editorial audit",
+  "findings": [
+    {
+      "id": "A2",
+      "priority": "First pass",
+      "title": "Separate sowing, planting and planting depth",
+      "folios": [
+        16,
+        88,
+        161
+      ],
+      "problem": "The greenhouse page says to use “earlier planting dates” for plants raised for later outdoor planting. Celeriac’s “Depth” is a crown planting position, while asparagus’s “Depth” is seed depth beside a crop primarily described from crowns.",
+      "change": "On p161, distinguish an earlier protected sowing/raising window from the later outdoor planting conditions. On p16 use “Planting depth”; on p88 use “Seed depth”. Preserve the existing methods, measurements and condition checks.",
+      "evidence": "P157 already says to delay in cold or wet weather. Outdoor cucumber and tomato have their own frost/warmth conditions. Canonical celeriac has no numeric sowing depth; its printed depth comes from planting_depth. Asparagus has separate seed and crown instructions.",
+      "source_refs": [
+        "CY01",
+        "ROOT-STAGES"
+      ],
+      "locators": [
+        "vegetables/celeriac → sowing_and_planting.sowing_depth / planting_depth",
+        "vegetables/asparagus → sowing_and_planting.seed_sowing.sowing_depth / planting",
+        "vegetables/tomato_outdoor → sowing_and_planting.seed_raising"
+      ],
+      "space": "One sentence replacement and two short label changes. No extra calendar row or altered planting method.",
+      "check": "Check label wrapping in both units and consistency with the facing practical pages. Do not globally relabel all 44 guides without checking their field meanings."
+    },
+    {
+      "id": "A5",
+      "priority": "Second pass",
+      "title": "Make the rotation family list useful for an ordinary small crop selection",
+      "folios": [
+        156
+      ],
+      "problem": "The five-row list helps with brassicas, alliums, peas/beans, potatoes/tomatoes and carrots/parsnips. It does not tell a beginner where lettuce or courgettes belong; beetroot, leaf beet and spinach are another common omission.",
+      "change": "Add compact examples for the beet/spinach/leaf-beet, cucumber/squash/courgette and lettuce/chicory/endive families. Extend existing rows with useful book crops such as peppers/aubergines and celery/celeriac/fennel. Keep the flexible small-area approach, permanent-crop exception and persistent-disease warning.",
+      "evidence": "Two of the novice’s five chosen crops are absent from the table. The family relationships are supported by the existing research trail, Garden Organic’s family table and the University of Saskatchewan table. The foreign source is used for membership, not UK planting dates or a fixed rotation interval.",
+      "source_refs": [
+        "NOV-04",
+        "ROOT-ROTATION"
+      ],
+      "locators": [
+        "Current p156 family table",
+        "../hackriculture-resources/summaries/techniques-expansion/research-notes.md → crop rotation",
+        "Sources S3 and S4"
+      ],
+      "space": "Reallocate space within p156, preferably reducing the large three-crop example before reducing text size. This is a proposed local layout adjustment, not an approved replacement.",
+      "check": "Validate every added family member, include the useful common annual crops, and check the actual one-page proof. Do not imply the table is exhaustive unless it is."
+    },
+    {
+      "id": "A7",
+      "priority": "Second pass",
+      "title": "Replace a little weak or repeated text with more useful information",
+      "folios": [
+        56,
+        73,
+        157
+      ],
+      "problem": "Lettuce’s first-page slug risk card is a long, opaque prevention paragraph rather than recognition signs. The courgette final tips repeat picking advice but omit ordinary crop clearance. The sowing page assumes a novice knows “drill” and “module”.",
+      "change": "Use the existing lettuce signs, “Ragged leaves; slime trails”, for its recognition card; keep control on the practical/Troubles pages. Replace the repeated courgette tip with its source-backed healthy-crop clearance instruction, retaining the diseased-material distinction. Add very short plain-language glosses for a drill and module cells at first use; explain a station where it occurs.",
+      "evidence": "The lettuce record already separates signs and control; no efficacy claim needs inventing. Courgette harvesting[5] already supplies the close-down advice. Existing sowing illustrations help, so only a few explanatory words are needed.",
+      "source_refs": [
+        "ROOT-LETTUCE",
+        "NOV-03",
+        "NOV-05"
+      ],
+      "locators": [
+        "vegetables/lettuce → troubles.SLUGS.signs / control / text",
+        "vegetables/marrow_courgette → harvesting[5]",
+        "Current p157 Direct into the bed / Start under cover"
+      ],
+      "space": "Lettuce becomes shorter. Courgette is a substitution. Use small glosses within p157; only shorten the optional mixed-salad experiment if genuinely necessary.",
+      "check": "Retain pictures, conditions and body text size. Inspect the changed crop spreads in both units. Do not turn this into a glossary chapter."
+    },
+    {
+      "id": "D1",
+      "title": "Narrow the compost-input claim and settle what “pet litter” means",
+      "folios": [
+        155
+      ],
+      "problem": "The lead accepts anything of organic origin, names pet litter and says the bin takes all you throw at it. The same page excludes some materials, and the Troubles pages exclude specific infected debris from home compost. The absolute wording is already inconsistent within the book.",
+      "evidence": "John’s local manuscript explicitly includes cat/dog litter with faeces (lines 2011–2025). Garden Organic and EPA exclude cat litter/pet waste from ordinary home composting. Earlier research notes flagged the issue, but the current approved copy contains the phrase; the old note is not authority to silently revert approved text.",
+      "recommendation": "Replace the sweeping claim with suitable garden and kitchen materials and a clear exceptions cue. For this beginner food-growing guide, my recommendation is to omit the broad pet-litter example unless John wants a separately qualified treatment. Agree that narrow scope before editing; do not present a general home bin as a specialist pet-waste process.",
+      "space": "A shorter replacement lead, not a new compost chapter.",
+      "locators": [
+        "Current pp113,155,156",
+        "../hackriculture-resources/local/john-hackriculture-draft/hackriculture-draft.txt:2011",
+        "../hackriculture-resources/summaries/techniques-expansion/research-notes.md:33",
+        "troubles/carrot_and_parsnip_troubles → conditions.sclerotinia_rot.treatment",
+        "troubles/onion_and_leek_troubles → conditions.white_rot_mouldy_nose.prevention"
+      ],
+      "sources": [
+        "S5",
+        "S6"
+      ],
+      "confidence": "Confirmed scope conflict; author decision needed for the local-source disagreement."
+    },
+    {
+      "id": "D2",
+      "title": "Clarify the carrot compost warning",
+      "folios": [
+        14,
+        15,
+        112,
+        151
+      ],
+      "problem": "The key-risk card warns about manure or compost shortly before sowing, while the introduction permits compost-filled no-dig beds and the techniques permit planting into mature compost. The reader cannot tell whether the warning concerns fresh material, incorporation, maturity or a fine sowing cover.",
+      "evidence": "The broad wording is in the canonical carrot record as well as print. The shared Troubles record distinguishes fresh manure and stones/compaction; it is not evidence that the recent layout work invented the conflict.",
+      "recommendation": "Settle the intended distinction, then harmonise only the short printed warning and necessary related phrasing. The likely useful distinction is fresh/unfinished additions versus suitably mature compost, with location and use made clear. This remains a proposal until the source conflict is resolved.",
+      "space": "One focused risk-card clarification; no new no-dig debate or revised crop method.",
+      "locators": [
+        "vegetables/carrot → troubles.Fanging; introduction; sowing_and_planting",
+        "troubles/carrot_and_parsnip_troubles → conditions.fanging",
+        "Current pp14–15,112,151"
+      ],
+      "sources": [],
+      "confidence": "Confirmed internal ambiguity; source meaning requires John’s decision."
+    },
+    {
+      "id": "D3",
+      "title": "Make Greyhound’s printed group agree with its description",
+      "folios": [
+        36
+      ],
+      "problem": "Greyhound appears under “Spring cabbages”, immediately described as a traditional pointed summer cabbage. That is confusing when the reader chooses a variety for a season.",
+      "evidence": "The master has Greyhound in both SPRING and SUMMER groups at rank 9 with the same summer short description. The current renderer sorts by rank and deduplicates names; this tie retains the first group. The spring entry’s longer text describes late-winter/early-spring raising for a June cut.",
+      "recommendation": "For this selected printed row, use a group and description that agree on the intended early/summer crop. Preserve both canonical entries and resolve their scope separately if requested. This is not evidence for a global variety-deduplication change.",
+      "space": "Short label change, subject to agreeing which seasonal route the row represents.",
+      "locators": [
+        "vegetables/cabbage → varieties[SPRING cabbages].GREYHOUND / varieties[SUMMER cabbages].GREYHOUND",
+        "src/print/vegetableModel.ts:228"
+      ],
+      "sources": [],
+      "confidence": "Confirmed reader-facing label mismatch; classification choice remains for review."
+    }
+  ],
+  "notes": [
+    "Web sources supplemented the canonical/local hierarchy; no source was silently overruled.",
+    "Full page text and selected current JPEGs were read; not every page was visually inspected.",
+    "p149 replacement idea was challenged and deferred; p156 example remains optional."
+  ]
+}

@@ -1,0 +1,351 @@
+{
+  "date": "2026-10-18",
+  "status": "John-supplied copy; revised page for review",
+  "inputs": {
+    "src/print/book/final-text-edits/organic.json": "0573c8aa99ff1f8090341429918dc48a3ec3d0a90a204178387616f1168c03d4",
+    "docs/publication/topic-pages/techniques-expansion/references/organic-approved-2026-10-12/copy.json": "db0a92348bc56b9ead81b9c86509733f6b497470318da41ae6bc5ae5aa8d1e0f",
+    "docs/publication/topic-pages/techniques-expansion/references/organic-approved-2026-10-12/draft.css": "222d9079e7e064f3ca5d3232aa50938ad9a088ebf41a0ba81a8586563728229d",
+    "docs/publication/topic-pages/techniques-expansion/imperial.html": "f07c455ae5e290dc904653df601fb93deefa0812e957ee2114b6c7f0fedac051",
+    "docs/publication/topic-pages/techniques-expansion/metric.html": "5db992673dcecbc1f81034dd2bb68e9a3859f9bb4e6d2bebc282269fbd286392"
+  },
+  "edits": [
+    {
+      "source": "technique:organic",
+      "folio": 146,
+      "id": "organic",
+      "copy": "src/print/book/final-text-edits/organic.json",
+      "proofs": [
+        {
+          "units": "imperial",
+          "pdf": "output/pdf/final-text-edits/organic-imperial.pdf",
+          "sha256": "b90bb800bdd5466ac030d17230ce8fd7b54da46ea5c047a44563ca30c751ba42",
+          "sourcePage": 1,
+          "physicalPages": 1,
+          "sourcePdfPages": 1,
+          "html": "docs/publication/final-text-edits/organic-imperial.html",
+          "htmlSha256": "39f2e10c277d30693ed37debe6cd720650dc552cd41e01fa73a552e59d506a60",
+          "preserved": {
+            "diagram": "<figure class=\"diagram\"><h2>Keep useful material in the garden</h2><svg viewBox=\"0 0 570 100\" role=\"img\" aria-label=\"Grow, harvest, compost, return to soil, then grow again\">\n <rect x=\"0\" y=\"10\" width=\"133\" height=\"43\" rx=\"21\" fill=\"#d6ea9b\"></rect><text x=\"66\" y=\"37\" text-anchor=\"middle\">Grow</text><path d=\"M136 31h7l-4 -4m4 4l-4 4\" stroke=\"#a44007\" stroke-width=\"2\" fill=\"none\"></path><rect x=\"145\" y=\"10\" width=\"133\" height=\"43\" rx=\"21\" fill=\"#ffe1b7\"></rect><text x=\"211\" y=\"37\" text-anchor=\"middle\">Harvest</text><path d=\"M281 31h7l-4 -4m4 4l-4 4\" stroke=\"#a44007\" stroke-width=\"2\" fill=\"none\"></path><rect x=\"290\" y=\"10\" width=\"133\" height=\"43\" rx=\"21\" fill=\"#d6ea9b\"></rect><text x=\"356\" y=\"37\" text-anchor=\"middle\">Compost</text><path d=\"M426 31h7l-4 -4m4 4l-4 4\" stroke=\"#a44007\" stroke-width=\"2\" fill=\"none\"></path><rect x=\"435\" y=\"10\" width=\"133\" height=\"43\" rx=\"21\" fill=\"#ffe1b7\"></rect><text x=\"501\" y=\"37\" text-anchor=\"middle\">Return to soil</text>\n <path d=\"M504 58V81H66V59m0 0l-5 6m5 -6l5 6\" fill=\"none\" stroke=\"#a44007\" stroke-width=\"2\"></path>\n </svg><figcaption>Return suitable scraps and plant waste. Add outside compost when the garden cannot make enough.</figcaption></figure>",
+            "closing": "<aside class=\"closing\"><h2>Experiment on a small patch</h2><p>A thick hay-and-straw mulch that works well in a drier climate can shelter slugs on cold, wet ground. Try new ideas on a manageable area before changing the whole garden. Keep what works, understand why it works, and feel free to adapt it.</p></aside>"
+          },
+          "check": {
+            "text": "GROWING TECHNIQUES - ORGANIC GROWING\n\nOrganic growing\nThe core ideas\n\nOrganic growing begins with a useful bit of housekeeping: keep as much plant material as possible in the garden, turn it into compost and return it to the soil.\n\nKeep useful material in the garden\nGrow\nHarvest\nCompost\nReturn to soil\nReturn suitable scraps and plant waste. Add outside compost when the garden cannot make enough.\nLook after the ground\n\nUse mature compost to improve the soil and replenish what crops take from it. Organic soil needs to breathe, so avoid compaction: keep feet and barrow wheels on the paths. Respect the life under your feet: don't light fires on the soil, and don't poison the ground with chemicals that you wouldn't be prepared to eat yourself.\n\nWork with the place you have\n\nA plant in the right soil, with correct levels of sunshine and water, will almost always succeed. Grow the crops and varieties that suit your ground - you will find this out with time and experience; every site and every plot is different. Keep a record of successes as well as failures; work with Nature to grow what is right for your garden and your garden will ultimately flourish.\n\nDeal with the cause\n\nLook closely before reaching for a remedy. Check moisture, roots and recent weather. Hand-pick damaging pests where practical and fit suitable crop protection: know the likely arrival times of pests in your area and net vulnerable plants before the pests arrive.\n\nExperiment on a small patch\n\nA thick hay-and-straw mulch that works well in a drier climate can shelter slugs on cold, wet ground. Try new ideas on a manageable area before changing the whole garden. Keep what works, understand why it works, and feel free to adapt it.\n\nJohn: Into the Zone; both 35 Years videos; Why We Make Compost. Canonical organic controls.\n\nGROWING TECHNIQUES\n146",
+            "fonts": [
+              {
+                "family": "Lilita",
+                "status": "loaded"
+              },
+              {
+                "family": "Nunito",
+                "status": "loaded"
+              }
+            ],
+            "sourceGapMm": 16.64807942708333,
+            "footerGapMm": 3.5594726562499996,
+            "bodyFontPt": 9.45,
+            "headingFontPt": 31.5,
+            "qualifierFontPt": 22.5,
+            "blocks": [
+              {
+                "text": "Growing Techniques - Organic growing",
+                "leftMm": 7.999511718749999,
+                "rightMm": 167.99801432291665,
+                "topMm": 11.997200520833331,
+                "bottomMm": 15.3044921875,
+                "overflow": false
+              },
+              {
+                "text": "Organic growing The core ideas",
+                "leftMm": 7.999511718749999,
+                "rightMm": 167.99801432291665,
+                "topMm": 17.80149739583333,
+                "bottomMm": 29.356347656249998,
+                "overflow": false
+              },
+              {
+                "text": "Organic growing begins with a useful bit of housekeeping: keep as much plant material as possible in the garden, turn it into compost and return it to the soil.",
+                "leftMm": 7.999511718749999,
+                "rightMm": 167.99801432291665,
+                "topMm": 32.353580729166666,
+                "bottomMm": 42.34986979166666,
+                "overflow": false
+              },
+              {
+                "text": "Keep useful material in the garden",
+                "leftMm": 11.997200520833331,
+                "rightMm": 164.00032552083331,
+                "topMm": 49.34479166666666,
+                "bottomMm": 55.678255208333326,
+                "overflow": false
+              },
+              {
+                "text": "\n GrowHarvestCompostReturn to soil\n \n ",
+                "leftMm": 11.997200520833331,
+                "rightMm": 164.00032552083331,
+                "topMm": 57.476595052083326,
+                "bottomMm": 84.47649739583332,
+                "overflow": false
+              },
+              {
+                "text": "Return suitable scraps and plant waste. Add outside compost when the garden cannot make enough.",
+                "leftMm": 11.997200520833331,
+                "rightMm": 164.00032552083331,
+                "topMm": 85.47281901041666,
+                "bottomMm": 89.35475260416666,
+                "overflow": false
+              },
+              {
+                "text": "Look after the ground",
+                "leftMm": 7.999511718749999,
+                "rightMm": 57.66676432291666,
+                "topMm": 97.35013020833333,
+                "bottomMm": 110.62063802083333,
+                "overflow": false
+              },
+              {
+                "text": "Use mature compost to improve the soil and replenish what crops take from it. Organic soil needs to breathe, so avoid compaction: keep feet and barrow wheels on the paths. Respect the life under your feet: don't light fires on the soil, and don't poison the ground with chemicals that you wouldn't be prepared to eat yourself.",
+                "leftMm": 7.999511718749999,
+                "rightMm": 57.66676432291666,
+                "topMm": 112.41897786458333,
+                "bottomMm": 158.05960286458333,
+                "overflow": false
+              },
+              {
+                "text": "Work with the place you have",
+                "leftMm": 63.16513671874999,
+                "rightMm": 112.83238932291665,
+                "topMm": 97.35013020833333,
+                "bottomMm": 110.62063802083333,
+                "overflow": false
+              },
+              {
+                "text": "A plant in the right soil, with correct levels of sunshine and water, will almost always succeed. Grow the crops and varieties that suit your ground - you will find this out with time and experience; every site and every plot is different. Keep a record of successes as well as failures; work with Nature to grow what is right for your garden and your garden will ultimately flourish.",
+                "leftMm": 63.16513671874999,
+                "rightMm": 112.83238932291665,
+                "topMm": 112.41897786458333,
+                "bottomMm": 171.75179036458331,
+                "overflow": false
+              },
+              {
+                "text": "Deal with the cause",
+                "leftMm": 118.33076171874998,
+                "rightMm": 167.99801432291665,
+                "topMm": 97.35013020833333,
+                "bottomMm": 103.98538411458333,
+                "overflow": false
+              },
+              {
+                "text": "Look closely before reaching for a remedy. Check moisture, roots and recent weather. Hand-pick damaging pests where practical and fit suitable crop protection: know the likely arrival times of pests in your area and net vulnerable plants before the pests arrive.",
+                "leftMm": 118.33076171874998,
+                "rightMm": 167.99801432291665,
+                "topMm": 105.78372395833333,
+                "bottomMm": 146.86028645833332,
+                "overflow": false
+              },
+              {
+                "text": "Experiment on a small patch",
+                "leftMm": 11.997200520833331,
+                "rightMm": 164.00032552083331,
+                "topMm": 180.24739583333331,
+                "bottomMm": 186.88264973958331,
+                "overflow": false
+              },
+              {
+                "text": "A thick hay-and-straw mulch that works well in a drier climate can shelter slugs on cold, wet ground. Try new ideas on a manageable area before changing the whole garden. Keep what works, understand why it works, and feel free to adapt it.",
+                "leftMm": 11.997200520833331,
+                "rightMm": 164.00032552083331,
+                "topMm": 188.37919921875,
+                "bottomMm": 201.97216796874997,
+                "overflow": false
+              },
+              {
+                "text": "John: Into the Zone; both 35 Years videos; Why We Make Compost. Canonical organic controls.",
+                "leftMm": 7.999511718749999,
+                "rightMm": 167.99801432291665,
+                "topMm": 222.1177083333333,
+                "bottomMm": 225.20175781249998,
+                "overflow": false
+              },
+              {
+                "text": "GROWING TECHNIQUES146",
+                "leftMm": 7.999511718749999,
+                "rightMm": 167.99801432291665,
+                "topMm": 228.76123046874997,
+                "bottomMm": 231.99824218749998,
+                "overflow": false
+              }
+            ]
+          },
+          "errors": [],
+          "violations": []
+        },
+        {
+          "units": "metric",
+          "pdf": "output/pdf/final-text-edits/organic-metric.pdf",
+          "sha256": "71fc916dd7fe6806dfd0d7705be1f88e3df7454d12cf2add1df4fa454d3318b6",
+          "sourcePage": 1,
+          "physicalPages": 1,
+          "sourcePdfPages": 1,
+          "html": "docs/publication/final-text-edits/organic-metric.html",
+          "htmlSha256": "8fec1526eb1f317573272b9ff72c476e0602c06b49af5f54a9a75ebd5c711e53",
+          "preserved": {
+            "diagram": "<figure class=\"diagram\"><h2>Keep useful material in the garden</h2><svg viewBox=\"0 0 570 100\" role=\"img\" aria-label=\"Grow, harvest, compost, return to soil, then grow again\">\n <rect x=\"0\" y=\"10\" width=\"133\" height=\"43\" rx=\"21\" fill=\"#d6ea9b\"></rect><text x=\"66\" y=\"37\" text-anchor=\"middle\">Grow</text><path d=\"M136 31h7l-4 -4m4 4l-4 4\" stroke=\"#a44007\" stroke-width=\"2\" fill=\"none\"></path><rect x=\"145\" y=\"10\" width=\"133\" height=\"43\" rx=\"21\" fill=\"#ffe1b7\"></rect><text x=\"211\" y=\"37\" text-anchor=\"middle\">Harvest</text><path d=\"M281 31h7l-4 -4m4 4l-4 4\" stroke=\"#a44007\" stroke-width=\"2\" fill=\"none\"></path><rect x=\"290\" y=\"10\" width=\"133\" height=\"43\" rx=\"21\" fill=\"#d6ea9b\"></rect><text x=\"356\" y=\"37\" text-anchor=\"middle\">Compost</text><path d=\"M426 31h7l-4 -4m4 4l-4 4\" stroke=\"#a44007\" stroke-width=\"2\" fill=\"none\"></path><rect x=\"435\" y=\"10\" width=\"133\" height=\"43\" rx=\"21\" fill=\"#ffe1b7\"></rect><text x=\"501\" y=\"37\" text-anchor=\"middle\">Return to soil</text>\n <path d=\"M504 58V81H66V59m0 0l-5 6m5 -6l5 6\" fill=\"none\" stroke=\"#a44007\" stroke-width=\"2\"></path>\n </svg><figcaption>Return suitable scraps and plant waste. Add outside compost when the garden cannot make enough.</figcaption></figure>",
+            "closing": "<aside class=\"closing\"><h2>Experiment on a small patch</h2><p>A thick hay-and-straw mulch that works well in a drier climate can shelter slugs on cold, wet ground. Try new ideas on a manageable area before changing the whole garden. Keep what works, understand why it works, and feel free to adapt it.</p></aside>"
+          },
+          "check": {
+            "text": "GROWING TECHNIQUES - ORGANIC GROWING\n\nOrganic growing\nThe core ideas\n\nOrganic growing begins with a useful bit of housekeeping: keep as much plant material as possible in the garden, turn it into compost and return it to the soil.\n\nKeep useful material in the garden\nGrow\nHarvest\nCompost\nReturn to soil\nReturn suitable scraps and plant waste. Add outside compost when the garden cannot make enough.\nLook after the ground\n\nUse mature compost to improve the soil and replenish what crops take from it. Organic soil needs to breathe, so avoid compaction: keep feet and barrow wheels on the paths. Respect the life under your feet: don't light fires on the soil, and don't poison the ground with chemicals that you wouldn't be prepared to eat yourself.\n\nWork with the place you have\n\nA plant in the right soil, with correct levels of sunshine and water, will almost always succeed. Grow the crops and varieties that suit your ground - you will find this out with time and experience; every site and every plot is different. Keep a record of successes as well as failures; work with Nature to grow what is right for your garden and your garden will ultimately flourish.\n\nDeal with the cause\n\nLook closely before reaching for a remedy. Check moisture, roots and recent weather. Hand-pick damaging pests where practical and fit suitable crop protection: know the likely arrival times of pests in your area and net vulnerable plants before the pests arrive.\n\nExperiment on a small patch\n\nA thick hay-and-straw mulch that works well in a drier climate can shelter slugs on cold, wet ground. Try new ideas on a manageable area before changing the whole garden. Keep what works, understand why it works, and feel free to adapt it.\n\nJohn: Into the Zone; both 35 Years videos; Why We Make Compost. Canonical organic controls.\n\nGROWING TECHNIQUES\n146",
+            "fonts": [
+              {
+                "family": "Lilita",
+                "status": "loaded"
+              },
+              {
+                "family": "Nunito",
+                "status": "loaded"
+              }
+            ],
+            "sourceGapMm": 16.64807942708333,
+            "footerGapMm": 3.5594726562499996,
+            "bodyFontPt": 9.45,
+            "headingFontPt": 31.5,
+            "qualifierFontPt": 22.5,
+            "blocks": [
+              {
+                "text": "Growing Techniques - Organic growing",
+                "leftMm": 7.999511718749999,
+                "rightMm": 167.99801432291665,
+                "topMm": 11.997200520833331,
+                "bottomMm": 15.3044921875,
+                "overflow": false
+              },
+              {
+                "text": "Organic growing The core ideas",
+                "leftMm": 7.999511718749999,
+                "rightMm": 167.99801432291665,
+                "topMm": 17.80149739583333,
+                "bottomMm": 29.356347656249998,
+                "overflow": false
+              },
+              {
+                "text": "Organic growing begins with a useful bit of housekeeping: keep as much plant material as possible in the garden, turn it into compost and return it to the soil.",
+                "leftMm": 7.999511718749999,
+                "rightMm": 167.99801432291665,
+                "topMm": 32.353580729166666,
+                "bottomMm": 42.34986979166666,
+                "overflow": false
+              },
+              {
+                "text": "Keep useful material in the garden",
+                "leftMm": 11.997200520833331,
+                "rightMm": 164.00032552083331,
+                "topMm": 49.34479166666666,
+                "bottomMm": 55.678255208333326,
+                "overflow": false
+              },
+              {
+                "text": "\n GrowHarvestCompostReturn to soil\n \n ",
+                "leftMm": 11.997200520833331,
+                "rightMm": 164.00032552083331,
+                "topMm": 57.476595052083326,
+                "bottomMm": 84.47649739583332,
+                "overflow": false
+              },
+              {
+                "text": "Return suitable scraps and plant waste. Add outside compost when the garden cannot make enough.",
+                "leftMm": 11.997200520833331,
+                "rightMm": 164.00032552083331,
+                "topMm": 85.47281901041666,
+                "bottomMm": 89.35475260416666,
+                "overflow": false
+              },
+              {
+                "text": "Look after the ground",
+                "leftMm": 7.999511718749999,
+                "rightMm": 57.66676432291666,
+                "topMm": 97.35013020833333,
+                "bottomMm": 110.62063802083333,
+                "overflow": false
+              },
+              {
+                "text": "Use mature compost to improve the soil and replenish what crops take from it. Organic soil needs to breathe, so avoid compaction: keep feet and barrow wheels on the paths. Respect the life under your feet: don't light fires on the soil, and don't poison the ground with chemicals that you wouldn't be prepared to eat yourself.",
+                "leftMm": 7.999511718749999,
+                "rightMm": 57.66676432291666,
+                "topMm": 112.41897786458333,
+                "bottomMm": 158.05960286458333,
+                "overflow": false
+              },
+              {
+                "text": "Work with the place you have",
+                "leftMm": 63.16513671874999,
+                "rightMm": 112.83238932291665,
+                "topMm": 97.35013020833333,
+                "bottomMm": 110.62063802083333,
+                "overflow": false
+              },
+              {
+                "text": "A plant in the right soil, with correct levels of sunshine and water, will almost always succeed. Grow the crops and varieties that suit your ground - you will find this out with time and experience; every site and every plot is different. Keep a record of successes as well as failures; work with Nature to grow what is right for your garden and your garden will ultimately flourish.",
+                "leftMm": 63.16513671874999,
+                "rightMm": 112.83238932291665,
+                "topMm": 112.41897786458333,
+                "bottomMm": 171.75179036458331,
+                "overflow": false
+              },
+              {
+                "text": "Deal with the cause",
+                "leftMm": 118.33076171874998,
+                "rightMm": 167.99801432291665,
+                "topMm": 97.35013020833333,
+                "bottomMm": 103.98538411458333,
+                "overflow": false
+              },
+              {
+                "text": "Look closely before reaching for a remedy. Check moisture, roots and recent weather. Hand-pick damaging pests where practical and fit suitable crop protection: know the likely arrival times of pests in your area and net vulnerable plants before the pests arrive.",
+                "leftMm": 118.33076171874998,
+                "rightMm": 167.99801432291665,
+                "topMm": 105.78372395833333,
+                "bottomMm": 146.86028645833332,
+                "overflow": false
+              },
+              {
+                "text": "Experiment on a small patch",
+                "leftMm": 11.997200520833331,
+                "rightMm": 164.00032552083331,
+                "topMm": 180.24739583333331,
+                "bottomMm": 186.88264973958331,
+                "overflow": false
+              },
+              {
+                "text": "A thick hay-and-straw mulch that works well in a drier climate can shelter slugs on cold, wet ground. Try new ideas on a manageable area before changing the whole garden. Keep what works, understand why it works, and feel free to adapt it.",
+                "leftMm": 11.997200520833331,
+                "rightMm": 164.00032552083331,
+                "topMm": 188.37919921875,
+                "bottomMm": 201.97216796874997,
+                "overflow": false
+              },
+              {
+                "text": "John: Into the Zone; both 35 Years videos; Why We Make Compost. Canonical organic controls.",
+                "leftMm": 7.999511718749999,
+                "rightMm": 167.99801432291665,
+                "topMm": 222.1177083333333,
+                "bottomMm": 225.20175781249998,
+                "overflow": false
+              },
+              {
+                "text": "GROWING TECHNIQUES146",
+                "leftMm": 7.999511718749999,
+                "rightMm": 167.99801432291665,
+                "topMm": 228.76123046874997,
+                "bottomMm": 231.99824218749998,
+                "overflow": false
+              }
+            ]
+          },
+          "errors": [],
+          "violations": []
+        }
+      ]
+    }
+  ],
+  "canonicalDataChanged": false,
+  "unitTextIdentical": true
+}

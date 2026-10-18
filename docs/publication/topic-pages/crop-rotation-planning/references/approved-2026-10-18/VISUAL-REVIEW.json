@@ -1,0 +1,37 @@
+{
+  "status": "Researched nitrogen revision visually checked; pending John’s review",
+  "revision": "nitrogen-cycle",
+  "process": "Canonical/local/online nitrogen research, focused source and PDF checks. No agents, persona tests or full-book assembly.",
+  "pdfs": [
+    {
+      "unit": "imperial",
+      "sha256": "f5aa925b9905dd9b895d445f9ef86c39b077dcd32a412dca399542e35b857b7b"
+    },
+    {
+      "unit": "metric",
+      "sha256": "c7cba0f3dd0999ee1643fe51b187ff672fe0cc5fabc8fe9c415e54b39023eb01"
+    }
+  ],
+  "viewed": [
+    "Actual imperial PDF pages 156–157 rendered as a facing spread, including all text, panels, illustrations and tables.",
+    "Metric page images are byte-identical to imperial; no alternate wrapping or unit content.",
+    "Final browser viewer with the revised imperial spread."
+  ],
+  "comparison": "Same two-page composition, artwork, type and spacing as plant-partners. Introduction, three-year caption, plant-helping paragraph, succession title/paragraph, four-block explanation and source keys revised.",
+  "checks": [
+    "Introduction gives two useful jobs.",
+    "Bacteria in root nodules and nitrogen release during decomposition explained.",
+    "Complementary title and requested cut-at-base instruction fit fully.",
+    "Original crop identities, sowing/planting timing and Kale reference retained; full O1 wording changed under John’s explicit request.",
+    "Four-block explanation connects legumes with following brassicas.",
+    "All eight family rows, disease warning and British muddle panel retained.",
+    "Both PDFs retain two 185 × 240 mm pages and unchanged 9.45 pt body type.",
+    "Source gaps 2.497/3.518 mm and footer gap 3.559 mm; no text/image collisions or clipping.",
+    "Metric rendered page images are byte-identical to imperial."
+  ],
+  "renderedEditionsIdentical": true,
+  "screenshot": "preview.jpg",
+  "screenshotSha256": "13af25f6cdd2b855a218b5c6b4976fc7e8cb68ffaac0b7d2315f912eb7719ff5",
+  "limits": "Focused proposal only. Adding one page requires later parity/navigation review at full-book integration.",
+  "date": "2026-10-18"
+}

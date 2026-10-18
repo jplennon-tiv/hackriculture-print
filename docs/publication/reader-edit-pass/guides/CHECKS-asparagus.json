@@ -1,0 +1,758 @@
+{
+  "date": "2026-10-15",
+  "status": "reader_changes_proofed_for_review",
+  "inputs": {
+    "src/print/book/renderCompact.ts": "a866e30cd1c52a6d4001a81f4b215d8b0262965469b13a8497f8a10e78e0c2fb",
+    "src/print/book/compact.css": "2ef16183fadf28bd4ec0e009bdd8cca1f304e23cec955a05206463a88dff488d",
+    "src/print/book/production.ts": "cf833a8f16ad9b3e3b866e3854b5b3743ba3d1eadd06b61a445e1a06e1e03087",
+    "src/print/book/production.css": "37104408aaa64738b6adc02ee71f10046b907bf569ca696166df5b7d0549a8c1",
+    "src/print/book/bookvault.css": "3dd00547266db33c5b458c7a1e4942513961d68773560677a47fe9a4b14d1960",
+    "src/print/book/workingCopy.ts": "d444420a669c29c10d5471430eb2a4e9fe16a37199702f17b2637925126994c4",
+    "src/print/book/header-widget-trial/layout.mjs": "2bd1fab34d22b4ff1ad6626e1035aaefc6d8009a8613eb74d3929f55259ef3fe",
+    "src/print/book/tomato-two-page-trial/copy.json": "aae96bb7674e1c4f2e94a616df7e159235123eb03455aa373092591ab00b0645",
+    "src/print/book/tomato-two-page-trial/layout.mjs": "a40270e23a8cf8305fce24e2e5501e8c7443336f7185b7af085a671fd0b082ab",
+    "src/print/book/tomato-two-page-trial/trial.css": "377a685273b23c34ad1324765a7222b9f966668e3d6fa3bd6f93dca9ac919a5a",
+    "src/print/book/two-page-trial/copy.json": "e63cd916aac588b5c86bbb2fdf342a4f0efe04c79ecea22a094ae6a5a2411d4f",
+    "src/print/book/two-page-trial/layout.mjs": "4a5f0109a377eb9619ec068a82564e63d83bc4ad03f8ea1ee3e994ee761da332",
+    "src/print/book/two-page-trial/trial.css": "cc1f7e9430ff95e00b32f3279f547f72e802b15a62cbd4c76e6ffd9c00dc3c27",
+    "../hackriculture-data/vegetables/asparagus/asparagus.json": "7c254427bcbb1186c168f0bf484202151c24a27fdbac03c08d3ec85514ac4b17"
+  },
+  "canonicalRecordsChanged": false,
+  "frozenSourcesChanged": false,
+  "results": [
+    {
+      "key": "asparagus",
+      "slug": "asparagus",
+      "unit": "imperial",
+      "type": "vegetable",
+      "start": 88,
+      "folios": [
+        88,
+        89
+      ],
+      "sourcePdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_asparagus.pdf",
+      "sourceSha256": "6ac4bafe0a1fbe457904dd49458827e6adb5e8c79a45e371801fdc0f56fe5141",
+      "pdf": "output/pdf/reader-edit-pass/guides/asparagus-imperial-clean.pdf",
+      "sha256": "504f495bc15aced41a51a9d95292014b47178cb41a322ec4d8e9ca6830fcb370",
+      "highlighted": "output/pdf/reader-edit-pass/guides/asparagus-imperial-highlighted.pdf",
+      "highlightedSha256": "fc9b763d4b613599ea4a47227291c1e562d831e561e31593e0eeeec6bb9a55dd",
+      "baselinePdf": "output/pdf/reader-edit-pass/guides/asparagus-imperial-baseline.pdf",
+      "header": {
+        "title": "Asparagus.",
+        "headerText": "Stalks & Shoots\nAsparagus.\nDIFFICULTY\nTricky\n4/5\nHARVEST SEASONS\nSpring / Summer",
+        "paper": "rgb(241, 246, 242)",
+        "before": {
+          "title": {
+            "left": 6.922276620070138,
+            "top": 6.5971859375635775,
+            "right": 69.01406911214193,
+            "bottom": 26.435310069719947
+          },
+          "seasons": {
+            "left": 90.02034505208333,
+            "top": 3.175,
+            "right": 129.70784505208331,
+            "bottom": 17.80149739583333
+          },
+          "badge": {
+            "left": 131.17127316792804,
+            "top": 6.9909255305926,
+            "right": 168.31225547790527,
+            "bottom": 21.84865881204605
+          },
+          "badgeColour": "rgb(217, 232, 223)"
+        },
+        "after": {
+          "title": {
+            "left": 6.922276620070138,
+            "top": 6.5971859375635775,
+            "right": 69.01406911214193,
+            "bottom": 26.435310069719947
+          },
+          "seasons": {
+            "left": 74.30244140625,
+            "top": 3.175,
+            "right": 113.98994140624998,
+            "bottom": 17.80149739583333
+          },
+          "badge": {
+            "left": 131.17127316792804,
+            "top": 6.9909255305926,
+            "right": 168.31225547790527,
+            "bottom": 21.84865881204605
+          },
+          "badgeColour": "rgb(241, 246, 242)"
+        },
+        "circle": {
+          "left": 105.09332682291665,
+          "top": -29.63333333333333,
+          "right": 184.46832682291665,
+          "bottom": 49.74166666666666
+        },
+        "circleGapPx": 10.187499999999995,
+        "preferredCircleGapPx": 20,
+        "minimumTitleGapPx": 20,
+        "collisionShiftPx": 9.824951171875048,
+        "titleGapMm": 5.288372294108072,
+        "shiftLeftMm": 15.717903645833331,
+        "seasonToBadgeGapMm": 28.773389053344715,
+        "headerBottomMm": 32.80833333333333
+      },
+      "safety": {
+        "width": 191,
+        "height": 246,
+        "pages": [
+          {
+            "folio": 88,
+            "verso": true,
+            "minTypePt": 7.050000000000001,
+            "safeInsetMm": {
+              "left": 5,
+              "right": 17,
+              "top": 5,
+              "bottom": 5
+            },
+            "trimMm": [
+              185,
+              240
+            ],
+            "mediaMm": [
+              191,
+              246
+            ],
+            "trimOffsetMm": [
+              3,
+              3
+            ]
+          },
+          {
+            "folio": 89,
+            "verso": false,
+            "minTypePt": 7.050000000000001,
+            "safeInsetMm": {
+              "left": 17,
+              "right": 5,
+              "top": 5,
+              "bottom": 5
+            },
+            "trimMm": [
+              185,
+              240
+            ],
+            "mediaMm": [
+              191,
+              246
+            ],
+            "trimOffsetMm": [
+              3,
+              3
+            ]
+          }
+        ]
+      },
+      "pages": [
+        {
+          "folio": 88,
+          "footerGapMm": 26.29,
+          "baselineFooterGapMm": 26.29,
+          "changed": [
+            {
+              "id": "A2-asparagus-seed-depth",
+              "leftMm": 15.41,
+              "topMm": 76.26,
+              "widthMm": 29.94,
+              "heightMm": 3.04
+            }
+          ],
+          "columns": [],
+          "alignmentException": null
+        },
+        {
+          "folio": 89,
+          "footerGapMm": 7.6,
+          "baselineFooterGapMm": 7.6,
+          "changed": [],
+          "columns": [],
+          "alignmentException": null
+        }
+      ],
+      "changes": [
+        {
+          "id": "A2-asparagus-seed-depth",
+          "selector": ".fact-grid h3",
+          "index": 2,
+          "expected": "Depth",
+          "proposed": "Seed depth",
+          "optional": false,
+          "source": [
+            {
+              "record": "vegetables/asparagus/asparagus.json",
+              "path": "sowing_and_planting.seed_sowing.sowing_depth",
+              "value": {
+                "imperial": "1 in.",
+                "metric": "2.5 cm"
+              }
+            }
+          ],
+          "authority": "John approved A1–A7 as-is on 15 October 2026",
+          "expectedFactValue": "1 in.",
+          "folio": 88
+        }
+      ],
+      "layoutAdjustments": [],
+      "bodyTypeUnchanged": true,
+      "pestRowsUnchanged": true,
+      "varietyNamesAndDescriptionsUnchanged": true,
+      "imagesUnchanged": true,
+      "diagnosticCoverageUnchanged": true,
+      "bodyFonts": [
+        "\"Nunito Sans\", sans-serif;9.4px/11.844px;900",
+        "\"Lilita One\", sans-serif;52px/49.4px;400",
+        "\"Nunito Sans\", sans-serif;9.4px/11.28px;900",
+        "\"Lilita One\", sans-serif;17px/17.85px;400",
+        "\"Nunito Sans\", sans-serif;9.4px/normal;800",
+        "\"Nunito Sans\", sans-serif;12px/15px;900",
+        "\"Nunito Sans\", sans-serif;12px/15.24px;400",
+        "\"Lilita One\", sans-serif;21px/22.68px;400",
+        "\"Nunito Sans\";10px/11.5px;900",
+        "\"Nunito Sans\", sans-serif;12px/14.88px;400",
+        "\"Nunito Sans\", sans-serif;9.4px/11.844px;800",
+        "\"Nunito Sans\", sans-serif;9.4px/11.844px;700",
+        "\"Nunito Sans\", sans-serif;9.4px/11.844px;400",
+        "\"Nunito Sans\", sans-serif;11px/13.86px;700",
+        "\"Nunito Sans\", sans-serif;11.5px/14.145px;400",
+        "\"Lilita One\", sans-serif;14px/15.12px;400",
+        "\"Nunito Sans\", sans-serif;11px/13.53px;400",
+        "\"Nunito Sans\", sans-serif;9.4px/11.28px;800",
+        "\"Lilita One\", sans-serif;38px/39.9px;400",
+        "\"Lilita One\", sans-serif;15px/16.5px;400",
+        "\"Lilita One\", sans-serif;13px/14.04px;400",
+        "\"Nunito Sans\", sans-serif;10.5px/12.81px;400",
+        "\"Nunito Sans\", sans-serif;10.5px/12.915px;700",
+        "\"Nunito Sans\", sans-serif;10.5px/12.915px;400",
+        "\"Nunito Sans\", sans-serif;11px/13.75px;400",
+        "\"Nunito Sans\", sans-serif;11px/13.53px;700",
+        "\"Nunito Sans\", sans-serif;11px/13.53px;900",
+        "\"Nunito Sans\";10px/13px;800"
+      ],
+      "images": [
+        {
+          "src": "/images/heroes/richer-a/asparagus.png",
+          "alt": "",
+          "complete": true,
+          "naturalWidth": 1024
+        },
+        {
+          "src": "/images/header_chars/season_spring.png",
+          "alt": "",
+          "complete": true,
+          "naturalWidth": 200
+        },
+        {
+          "src": "/images/header_chars/season_summer.png",
+          "alt": "",
+          "complete": true,
+          "naturalWidth": 200
+        },
+        {
+          "src": "/images/coloured-icons/style-a-v1/sow.svg",
+          "alt": "",
+          "complete": true,
+          "naturalWidth": 384
+        },
+        {
+          "src": "/images/coloured-icons/style-a-v1/harvest.svg",
+          "alt": "",
+          "complete": true,
+          "naturalWidth": 384
+        },
+        {
+          "src": "/images/coloured-icons/style-a-v1/depth.svg",
+          "alt": "",
+          "complete": true,
+          "naturalWidth": 384
+        },
+        {
+          "src": "/images/coloured-icons/style-a-v1/row_spacing.svg",
+          "alt": "",
+          "complete": true,
+          "naturalWidth": 384
+        },
+        {
+          "src": "/images/coloured-icons/style-a-v1/yield.svg",
+          "alt": "",
+          "complete": true,
+          "naturalWidth": 384
+        },
+        {
+          "src": "/images/coloured-icons/style-a-v1/plant_spacing.svg",
+          "alt": "",
+          "complete": true,
+          "naturalWidth": 384
+        },
+        {
+          "src": "/images/coloured-icons/style-a-v1/ready_in.svg",
+          "alt": "",
+          "complete": true,
+          "naturalWidth": 384
+        },
+        {
+          "src": "/images/coloured-icons/style-a-v1/sun.svg",
+          "alt": "",
+          "complete": true,
+          "naturalWidth": 384
+        },
+        {
+          "src": "/images/coloured-icons/style-a-v1/water.svg",
+          "alt": "",
+          "complete": true,
+          "naturalWidth": 384
+        },
+        {
+          "src": "/images/coloured-icons/style-a-v1/feeding.svg",
+          "alt": "",
+          "complete": true,
+          "naturalWidth": 384
+        },
+        {
+          "src": "/images/key-risk-icons/silhouette-v5/perennial_root_decay.png",
+          "alt": "",
+          "complete": true,
+          "naturalWidth": 1254
+        },
+        {
+          "src": "/images/key-risk-icons/naturalistic-v3/frost.png",
+          "alt": "",
+          "complete": true,
+          "naturalWidth": 1254
+        },
+        {
+          "src": "/images/key-risk-icons/naturalistic-v3/weed.png",
+          "alt": "",
+          "complete": true,
+          "naturalWidth": 1254
+        },
+        {
+          "src": "/images/key-risk-icons/naturalistic-v3/slug.png",
+          "alt": "",
+          "complete": true,
+          "naturalWidth": 1254
+        },
+        {
+          "src": "/images/heroes/richer-a/asparagus.png",
+          "alt": "",
+          "complete": true,
+          "naturalWidth": 1024
+        },
+        {
+          "src": "/images/planting/asparagus/prepare-mound-v1.png",
+          "alt": "",
+          "complete": true,
+          "naturalWidth": 1774
+        },
+        {
+          "src": "/images/planting/asparagus/spread-roots-v1.png",
+          "alt": "",
+          "complete": true,
+          "naturalWidth": 1774
+        },
+        {
+          "src": "/images/planting/asparagus/initial-cover-v1.png",
+          "alt": "",
+          "complete": true,
+          "naturalWidth": 1774
+        },
+        {
+          "src": "/images/coloured-icons/style-a-v1/soil.svg",
+          "alt": "",
+          "complete": true,
+          "naturalWidth": 384
+        },
+        {
+          "src": "/images/coloured-icons/style-a-v1/feeding.svg",
+          "alt": "",
+          "complete": true,
+          "naturalWidth": 384
+        }
+      ],
+      "pestRowCount": 4,
+      "varietyCount": 3,
+      "diagnosticCount": 0,
+      "textBefore": [
+        "Stalks & Shoots\nAsparagus.\nDIFFICULTY\nTricky\n4/5\nHARVEST SEASONS\nSpring / Summer\n\nAsparagus is one of the finest spring vegetables: a long-lived perennial which gives a fresh, delicate crop just when the garden is short of new green shoots. It is not difficult once established, but it asks for space, clean ground and patience. Treat the bed as a permanent feature: clear perennial weeds thoroughly, improve the soil before planting and do not crop hard while the crowns are young. In return, a good bed can produce spears for many years, followed by tall ferny summer growth which feeds the roots for the next season.\n\nQuick facts\nSow\n\nApr\n\nHarvest\n\nMay – Jun\n\nDepth\n\n1 in.\n\nRow spacing\n\n18 in. between rows; stagger plants in adjacent rows\n\nYield per mature plant\n\nAbout 10 spears\n\nPlant spacing\n\n18 in. between plants\n\nReady in\n\nFirst cutting 2 years after planting crowns; 3 years from seed\n\nGrowing calendar\nJ\nF\nM\nA\nM\nJ\nJ\nA\nS\nO\nN\nD\nSOW\nHARVEST\n\nBright: usual months · Muted: less usual\n\nCore needs\n1 = low · 5 = high\nSun\n4/5\nWater\n3/5\nNutrition\n4/5\nRecommended varieties\nGijnlim\n\nAn early, all-male hybrid producing green spears. A strong first choice for a productive, permanent asparagus bed.\n\nConnover's Colossal\n\nA long-established asparagus with substantial green spears. Keep as the traditional alternative to modern all-male hybrids.\n\nBacklim\n\nAn all-male hybrid cropping later than early selections. Plant alongside an earlier variety to spread the asparagus harvest.\n\nKey risks\nVIOLET ROOT ROT\n\nPurple fungal growth on roots, with yellowing and dying fern, can indicate violet root rot.\n\nFROST\n\nYoung shoots may turn black and die if a severe frost occurs in late spring.\n\nPERENNIAL WEEDS\n\nCouch grass, bindweed and other perennial weeds are a serious long-term problem in asparagus beds.\n\nSLUGS\n\nSpears are gnawed, making them unfit for table use.\n\nVEGETABLE GUIDES\n88",
+        "Growing guide · Asparagus\nGood drainage is essential.\n\nChoose a sunny, sheltered site and enrich the soil with compost or well-rotted manure.\n\nClear perennial weeds before planting.\n\nA light-excluding mulch for a whole season is worthwhile on badly infested ground.\n\nPlant crowns in early spring.\n\nDelay if the soil is cold and wet; keep bought crowns moist.\n\nSoil & preparation\nChoose sunny, sheltered, well-drained soil. Add compost or rotted manure; lime very acid ground if needed. Improve heavy-ground drainage or use a raised bed.\nClear perennial weeds first: their roots are hard to remove once tangled with crowns.\nSowing & planting\n1 Prepare a mound\n\nKeep crowns moist. Mound fine soil in the clean, well-drained trench.\n\n2 Spread the roots\n\nSpread roots over the mound, with the crown above the root ends.\n\n3 Cover the roots\n\nCover roots; leave bud tips visible. Water to settle; keep mulch off growth points.\n\nTrench Dig 12 in. wide and 8 in. deep; centres 18 in. apart. Stagger plants in adjacent trenches.\nInitial cover Cover roots; leave bud tips visible\n\nFrom seed: sow thinly in spring, thin and grow on. Plant into the final bed next spring; cropping starts later than with crowns.\n\nLooking after the crop\nHand-weed or hoe shallowly to protect roots. Water in dry spells, especially while plants establish. Mulch mature beds against weeds, keeping growth points clear. Strong summer ferns build next spring’s reserves.\nEach year, mulch established beds with 1–2 in. of compost or well-rotted manure. Tidy and lightly feed with compost before spears appear.\nSupport tall ferns if needed. Remove berries before they fall and seed into the bed. Let ferns yellow before cutting down; remove diseased growth.\nHarvesting & storage\nWait two years after planting crowns, or three years from seed. Let uncut spears form fern to build strong roots.\nCut finger-thick spears by 7 in. tall, about 1 in. below soil, before they turn woody. Use a sharp knife, avoiding nearby shoots. Check every few days in cool weather, daily in warmth.\nCut for six weeks in the first harvest year, then up to eight weeks. Stop by mid-June, sooner if weak, and let later spears form fern.\nPests & diseases\nProblem\tWhat to look for\tWhat to do\nVIOLET ROOT ROT\tRoots develop purple mould; foliage yellows and dies.\tConfirm diagnosis; remove affected crowns and replant on clean ground.\nFROST\tYoung shoots turn black and die after late spring frost.\tRemove damaged shoots and cover the bed if hard frost is forecast.\nPERENNIAL WEEDS\tCouch, bindweed and other perennial weeds invade the crowns.\tClear them before planting; later removal risks crop damage.\nSLUGS\tSpears are gnawed and become unfit to eat.\tCheck shoots on damp evenings, hand-pick slugs and encourage natural predators.\nFinal tips\n\nTreat the bed as a permanent feature: clean ground and patience pay off.\n\nStrong summer fern growth feeds the crowns for next spring.\n\nVEGETABLE GUIDES\nSee also: Growing Techniques 156\n89"
+      ],
+      "textAfter": [
+        "Stalks & Shoots\nAsparagus.\nDIFFICULTY\nTricky\n4/5\nHARVEST SEASONS\nSpring / Summer\n\nAsparagus is one of the finest spring vegetables: a long-lived perennial which gives a fresh, delicate crop just when the garden is short of new green shoots. It is not difficult once established, but it asks for space, clean ground and patience. Treat the bed as a permanent feature: clear perennial weeds thoroughly, improve the soil before planting and do not crop hard while the crowns are young. In return, a good bed can produce spears for many years, followed by tall ferny summer growth which feeds the roots for the next season.\n\nQuick facts\nSow\n\nApr\n\nHarvest\n\nMay – Jun\n\nSeed depth\n\n1 in.\n\nRow spacing\n\n18 in. between rows; stagger plants in adjacent rows\n\nYield per mature plant\n\nAbout 10 spears\n\nPlant spacing\n\n18 in. between plants\n\nReady in\n\nFirst cutting 2 years after planting crowns; 3 years from seed\n\nGrowing calendar\nJ\nF\nM\nA\nM\nJ\nJ\nA\nS\nO\nN\nD\nSOW\nHARVEST\n\nBright: usual months · Muted: less usual\n\nCore needs\n1 = low · 5 = high\nSun\n4/5\nWater\n3/5\nNutrition\n4/5\nRecommended varieties\nGijnlim\n\nAn early, all-male hybrid producing green spears. A strong first choice for a productive, permanent asparagus bed.\n\nConnover's Colossal\n\nA long-established asparagus with substantial green spears. Keep as the traditional alternative to modern all-male hybrids.\n\nBacklim\n\nAn all-male hybrid cropping later than early selections. Plant alongside an earlier variety to spread the asparagus harvest.\n\nKey risks\nVIOLET ROOT ROT\n\nPurple fungal growth on roots, with yellowing and dying fern, can indicate violet root rot.\n\nFROST\n\nYoung shoots may turn black and die if a severe frost occurs in late spring.\n\nPERENNIAL WEEDS\n\nCouch grass, bindweed and other perennial weeds are a serious long-term problem in asparagus beds.\n\nSLUGS\n\nSpears are gnawed, making them unfit for table use.\n\nVEGETABLE GUIDES\n88",
+        "Growing guide · Asparagus\nGood drainage is essential.\n\nChoose a sunny, sheltered site and enrich the soil with compost or well-rotted manure.\n\nClear perennial weeds before planting.\n\nA light-excluding mulch for a whole season is worthwhile on badly infested ground.\n\nPlant crowns in early spring.\n\nDelay if the soil is cold and wet; keep bought crowns moist.\n\nSoil & preparation\nChoose sunny, sheltered, well-drained soil. Add compost or rotted manure; lime very acid ground if needed. Improve heavy-ground drainage or use a raised bed.\nClear perennial weeds first: their roots are hard to remove once tangled with crowns.\nSowing & planting\n1 Prepare a mound\n\nKeep crowns moist. Mound fine soil in the clean, well-drained trench.\n\n2 Spread the roots\n\nSpread roots over the mound, with the crown above the root ends.\n\n3 Cover the roots\n\nCover roots; leave bud tips visible. Water to settle; keep mulch off growth points.\n\nTrench Dig 12 in. wide and 8 in. deep; centres 18 in. apart. Stagger plants in adjacent trenches.\nInitial cover Cover roots; leave bud tips visible\n\nFrom seed: sow thinly in spring, thin and grow on. Plant into the final bed next spring; cropping starts later than with crowns.\n\nLooking after the crop\nHand-weed or hoe shallowly to protect roots. Water in dry spells, especially while plants establish. Mulch mature beds against weeds, keeping growth points clear. Strong summer ferns build next spring’s reserves.\nEach year, mulch established beds with 1–2 in. of compost or well-rotted manure. Tidy and lightly feed with compost before spears appear.\nSupport tall ferns if needed. Remove berries before they fall and seed into the bed. Let ferns yellow before cutting down; remove diseased growth.\nHarvesting & storage\nWait two years after planting crowns, or three years from seed. Let uncut spears form fern to build strong roots.\nCut finger-thick spears by 7 in. tall, about 1 in. below soil, before they turn woody. Use a sharp knife, avoiding nearby shoots. Check every few days in cool weather, daily in warmth.\nCut for six weeks in the first harvest year, then up to eight weeks. Stop by mid-June, sooner if weak, and let later spears form fern.\nPests & diseases\nProblem\tWhat to look for\tWhat to do\nVIOLET ROOT ROT\tRoots develop purple mould; foliage yellows and dies.\tConfirm diagnosis; remove affected crowns and replant on clean ground.\nFROST\tYoung shoots turn black and die after late spring frost.\tRemove damaged shoots and cover the bed if hard frost is forecast.\nPERENNIAL WEEDS\tCouch, bindweed and other perennial weeds invade the crowns.\tClear them before planting; later removal risks crop damage.\nSLUGS\tSpears are gnawed and become unfit to eat.\tCheck shoots on damp evenings, hand-pick slugs and encourage natural predators.\nFinal tips\n\nTreat the bed as a permanent feature: clean ground and patience pay off.\n\nStrong summer fern growth feeds the crowns for next spring.\n\nVEGETABLE GUIDES\nSee also: Growing Techniques 156\n89"
+      ]
+    },
+    {
+      "key": "asparagus",
+      "slug": "asparagus",
+      "unit": "metric",
+      "type": "vegetable",
+      "start": 88,
+      "folios": [
+        88,
+        89
+      ],
+      "sourcePdf": "output/pdf/book-preparation/bookvault/metric/vegetable_asparagus.pdf",
+      "sourceSha256": "28252d6fe3992bbe8e17b5a0f15f673cc41eae84cff8fa995138f4355179cbeb",
+      "pdf": "output/pdf/reader-edit-pass/guides/asparagus-metric-clean.pdf",
+      "sha256": "9dccc9378ec4d32457a42b9bdbf2d3f2015cf5632cc488e51483e2102e534ada",
+      "highlighted": "output/pdf/reader-edit-pass/guides/asparagus-metric-highlighted.pdf",
+      "highlightedSha256": "7315a7be81d2b35748d54e0e546d60f43f38df80ecfaf1a07c3ed092b5f53b06",
+      "baselinePdf": "output/pdf/reader-edit-pass/guides/asparagus-metric-baseline.pdf",
+      "header": {
+        "title": "Asparagus.",
+        "headerText": "Stalks & Shoots\nAsparagus.\nDIFFICULTY\nTricky\n4/5\nHARVEST SEASONS\nSpring / Summer",
+        "paper": "rgb(241, 246, 242)",
+        "before": {
+          "title": {
+            "left": 6.922276620070138,
+            "top": 6.5971859375635775,
+            "right": 69.01406911214193,
+            "bottom": 26.435310069719947
+          },
+          "seasons": {
+            "left": 90.02034505208333,
+            "top": 3.175,
+            "right": 129.70784505208331,
+            "bottom": 17.80149739583333
+          },
+          "badge": {
+            "left": 131.17127316792804,
+            "top": 6.9909255305926,
+            "right": 168.31225547790527,
+            "bottom": 21.84865881204605
+          },
+          "badgeColour": "rgb(217, 232, 223)"
+        },
+        "after": {
+          "title": {
+            "left": 6.922276620070138,
+            "top": 6.5971859375635775,
+            "right": 69.01406911214193,
+            "bottom": 26.435310069719947
+          },
+          "seasons": {
+            "left": 74.30244140625,
+            "top": 3.175,
+            "right": 113.98994140624998,
+            "bottom": 17.80149739583333
+          },
+          "badge": {
+            "left": 131.17127316792804,
+            "top": 6.9909255305926,
+            "right": 168.31225547790527,
+            "bottom": 21.84865881204605
+          },
+          "badgeColour": "rgb(241, 246, 242)"
+        },
+        "circle": {
+          "left": 105.09332682291665,
+          "top": -29.63333333333333,
+          "right": 184.46832682291665,
+          "bottom": 49.74166666666666
+        },
+        "circleGapPx": 10.187499999999995,
+        "preferredCircleGapPx": 20,
+        "minimumTitleGapPx": 20,
+        "collisionShiftPx": 9.824951171875048,
+        "titleGapMm": 5.288372294108072,
+        "shiftLeftMm": 15.717903645833331,
+        "seasonToBadgeGapMm": 28.773389053344715,
+        "headerBottomMm": 32.80833333333333
+      },
+      "safety": {
+        "width": 191,
+        "height": 246,
+        "pages": [
+          {
+            "folio": 88,
+            "verso": true,
+            "minTypePt": 7.050000000000001,
+            "safeInsetMm": {
+              "left": 5,
+              "right": 17,
+              "top": 5,
+              "bottom": 5
+            },
+            "trimMm": [
+              185,
+              240
+            ],
+            "mediaMm": [
+              191,
+              246
+            ],
+            "trimOffsetMm": [
+              3,
+              3
+            ]
+          },
+          {
+            "folio": 89,
+            "verso": false,
+            "minTypePt": 7.050000000000001,
+            "safeInsetMm": {
+              "left": 17,
+              "right": 5,
+              "top": 5,
+              "bottom": 5
+            },
+            "trimMm": [
+              185,
+              240
+            ],
+            "mediaMm": [
+              191,
+              246
+            ],
+            "trimOffsetMm": [
+              3,
+              3
+            ]
+          }
+        ]
+      },
+      "pages": [
+        {
+          "folio": 88,
+          "footerGapMm": 26.29,
+          "baselineFooterGapMm": 26.29,
+          "changed": [
+            {
+              "id": "A2-asparagus-seed-depth",
+              "leftMm": 15.41,
+              "topMm": 76.26,
+              "widthMm": 29.94,
+              "heightMm": 3.04
+            }
+          ],
+          "columns": [],
+          "alignmentException": null
+        },
+        {
+          "folio": 89,
+          "footerGapMm": 7.6,
+          "baselineFooterGapMm": 7.6,
+          "changed": [],
+          "columns": [],
+          "alignmentException": null
+        }
+      ],
+      "changes": [
+        {
+          "id": "A2-asparagus-seed-depth",
+          "selector": ".fact-grid h3",
+          "index": 2,
+          "expected": "Depth",
+          "proposed": "Seed depth",
+          "optional": false,
+          "source": [
+            {
+              "record": "vegetables/asparagus/asparagus.json",
+              "path": "sowing_and_planting.seed_sowing.sowing_depth",
+              "value": {
+                "imperial": "1 in.",
+                "metric": "2.5 cm"
+              }
+            }
+          ],
+          "authority": "John approved A1–A7 as-is on 15 October 2026",
+          "expectedFactValue": "2.5 cm",
+          "folio": 88
+        }
+      ],
+      "layoutAdjustments": [],
+      "bodyTypeUnchanged": true,
+      "pestRowsUnchanged": true,
+      "varietyNamesAndDescriptionsUnchanged": true,
+      "imagesUnchanged": true,
+      "diagnosticCoverageUnchanged": true,
+      "bodyFonts": [
+        "\"Nunito Sans\", sans-serif;9.4px/11.844px;900",
+        "\"Lilita One\", sans-serif;52px/49.4px;400",
+        "\"Nunito Sans\", sans-serif;9.4px/11.28px;900",
+        "\"Lilita One\", sans-serif;17px/17.85px;400",
+        "\"Nunito Sans\", sans-serif;9.4px/normal;800",
+        "\"Nunito Sans\", sans-serif;12px/15px;900",
+        "\"Nunito Sans\", sans-serif;12px/15.24px;400",
+        "\"Lilita One\", sans-serif;21px/22.68px;400",
+        "\"Nunito Sans\";10px/11.5px;900",
+        "\"Nunito Sans\", sans-serif;12px/14.88px;400",
+        "\"Nunito Sans\", sans-serif;9.4px/11.844px;800",
+        "\"Nunito Sans\", sans-serif;9.4px/11.844px;700",
+        "\"Nunito Sans\", sans-serif;9.4px/11.844px;400",
+        "\"Nunito Sans\", sans-serif;11px/13.86px;700",
+        "\"Nunito Sans\", sans-serif;11.5px/14.145px;400",
+        "\"Lilita One\", sans-serif;14px/15.12px;400",
+        "\"Nunito Sans\", sans-serif;11px/13.53px;400",
+        "\"Nunito Sans\", sans-serif;9.4px/11.28px;800",
+        "\"Lilita One\", sans-serif;38px/39.9px;400",
+        "\"Lilita One\", sans-serif;15px/16.5px;400",
+        "\"Lilita One\", sans-serif;13px/14.04px;400",
+        "\"Nunito Sans\", sans-serif;10.5px/12.81px;400",
+        "\"Nunito Sans\", sans-serif;10.5px/12.915px;700",
+        "\"Nunito Sans\", sans-serif;10.5px/12.915px;400",
+        "\"Nunito Sans\", sans-serif;11px/13.75px;400",
+        "\"Nunito Sans\", sans-serif;11px/13.53px;700",
+        "\"Nunito Sans\", sans-serif;11px/13.53px;900",
+        "\"Nunito Sans\";10px/13px;800"
+      ],
+      "images": [
+        {
+          "src": "/images/heroes/richer-a/asparagus.png",
+          "alt": "",
+          "complete": true,
+          "naturalWidth": 1024
+        },
+        {
+          "src": "/images/header_chars/season_spring.png",
+          "alt": "",
+          "complete": true,
+          "naturalWidth": 200
+        },
+        {
+          "src": "/images/header_chars/season_summer.png",
+          "alt": "",
+          "complete": true,
+          "naturalWidth": 200
+        },
+        {
+          "src": "/images/coloured-icons/style-a-v1/sow.svg",
+          "alt": "",
+          "complete": true,
+          "naturalWidth": 384
+        },
+        {
+          "src": "/images/coloured-icons/style-a-v1/harvest.svg",
+          "alt": "",
+          "complete": true,
+          "naturalWidth": 384
+        },
+        {
+          "src": "/images/coloured-icons/style-a-v1/depth.svg",
+          "alt": "",
+          "complete": true,
+          "naturalWidth": 384
+        },
+        {
+          "src": "/images/coloured-icons/style-a-v1/row_spacing.svg",
+          "alt": "",
+          "complete": true,
+          "naturalWidth": 384
+        },
+        {
+          "src": "/images/coloured-icons/style-a-v1/yield.svg",
+          "alt": "",
+          "complete": true,
+          "naturalWidth": 384
+        },
+        {
+          "src": "/images/coloured-icons/style-a-v1/plant_spacing.svg",
+          "alt": "",
+          "complete": true,
+          "naturalWidth": 384
+        },
+        {
+          "src": "/images/coloured-icons/style-a-v1/ready_in.svg",
+          "alt": "",
+          "complete": true,
+          "naturalWidth": 384
+        },
+        {
+          "src": "/images/coloured-icons/style-a-v1/sun.svg",
+          "alt": "",
+          "complete": true,
+          "naturalWidth": 384
+        },
+        {
+          "src": "/images/coloured-icons/style-a-v1/water.svg",
+          "alt": "",
+          "complete": true,
+          "naturalWidth": 384
+        },
+        {
+          "src": "/images/coloured-icons/style-a-v1/feeding.svg",
+          "alt": "",
+          "complete": true,
+          "naturalWidth": 384
+        },
+        {
+          "src": "/images/key-risk-icons/silhouette-v5/perennial_root_decay.png",
+          "alt": "",
+          "complete": true,
+          "naturalWidth": 1254
+        },
+        {
+          "src": "/images/key-risk-icons/naturalistic-v3/frost.png",
+          "alt": "",
+          "complete": true,
+          "naturalWidth": 1254
+        },
+        {
+          "src": "/images/key-risk-icons/naturalistic-v3/weed.png",
+          "alt": "",
+          "complete": true,
+          "naturalWidth": 1254
+        },
+        {
+          "src": "/images/key-risk-icons/naturalistic-v3/slug.png",
+          "alt": "",
+          "complete": true,
+          "naturalWidth": 1254
+        },
+        {
+          "src": "/images/heroes/richer-a/asparagus.png",
+          "alt": "",
+          "complete": true,
+          "naturalWidth": 1024
+        },
+        {
+          "src": "/images/planting/asparagus/prepare-mound-v1.png",
+          "alt": "",
+          "complete": true,
+          "naturalWidth": 1774
+        },
+        {
+          "src": "/images/planting/asparagus/spread-roots-v1.png",
+          "alt": "",
+          "complete": true,
+          "naturalWidth": 1774
+        },
+        {
+          "src": "/images/planting/asparagus/initial-cover-v1.png",
+          "alt": "",
+          "complete": true,
+          "naturalWidth": 1774
+        },
+        {
+          "src": "/images/coloured-icons/style-a-v1/soil.svg",
+          "alt": "",
+          "complete": true,
+          "naturalWidth": 384
+        },
+        {
+          "src": "/images/coloured-icons/style-a-v1/feeding.svg",
+          "alt": "",
+          "complete": true,
+          "naturalWidth": 384
+        }
+      ],
+      "pestRowCount": 4,
+      "varietyCount": 3,
+      "diagnosticCount": 0,
+      "textBefore": [
+        "Stalks & Shoots\nAsparagus.\nDIFFICULTY\nTricky\n4/5\nHARVEST SEASONS\nSpring / Summer\n\nAsparagus is one of the finest spring vegetables: a long-lived perennial which gives a fresh, delicate crop just when the garden is short of new green shoots. It is not difficult once established, but it asks for space, clean ground and patience. Treat the bed as a permanent feature: clear perennial weeds thoroughly, improve the soil before planting and do not crop hard while the crowns are young. In return, a good bed can produce spears for many years, followed by tall ferny summer growth which feeds the roots for the next season.\n\nQuick facts\nSow\n\nApr\n\nHarvest\n\nMay – Jun\n\nDepth\n\n2.5 cm\n\nRow spacing\n\n45 cm between rows; stagger plants in adjacent rows\n\nYield per mature plant\n\nAbout 10 spears\n\nPlant spacing\n\n45 cm between plants\n\nReady in\n\nFirst cutting 2 years after planting crowns; 3 years from seed\n\nGrowing calendar\nJ\nF\nM\nA\nM\nJ\nJ\nA\nS\nO\nN\nD\nSOW\nHARVEST\n\nBright: usual months · Muted: less usual\n\nCore needs\n1 = low · 5 = high\nSun\n4/5\nWater\n3/5\nNutrition\n4/5\nRecommended varieties\nGijnlim\n\nAn early, all-male hybrid producing green spears. A strong first choice for a productive, permanent asparagus bed.\n\nConnover's Colossal\n\nA long-established asparagus with substantial green spears. Keep as the traditional alternative to modern all-male hybrids.\n\nBacklim\n\nAn all-male hybrid cropping later than early selections. Plant alongside an earlier variety to spread the asparagus harvest.\n\nKey risks\nVIOLET ROOT ROT\n\nPurple fungal growth on roots, with yellowing and dying fern, can indicate violet root rot.\n\nFROST\n\nYoung shoots may turn black and die if a severe frost occurs in late spring.\n\nPERENNIAL WEEDS\n\nCouch grass, bindweed and other perennial weeds are a serious long-term problem in asparagus beds.\n\nSLUGS\n\nSpears are gnawed, making them unfit for table use.\n\nVEGETABLE GUIDES\n88",
+        "Growing guide · Asparagus\nGood drainage is essential.\n\nChoose a sunny, sheltered site and enrich the soil with compost or well-rotted manure.\n\nClear perennial weeds before planting.\n\nA light-excluding mulch for a whole season is worthwhile on badly infested ground.\n\nPlant crowns in early spring.\n\nDelay if the soil is cold and wet; keep bought crowns moist.\n\nSoil & preparation\nChoose sunny, sheltered, well-drained soil. Add compost or rotted manure; lime very acid ground if needed. Improve heavy-ground drainage or use a raised bed.\nClear perennial weeds first: their roots are hard to remove once tangled with crowns.\nSowing & planting\n1 Prepare a mound\n\nKeep crowns moist. Mound fine soil in the clean, well-drained trench.\n\n2 Spread the roots\n\nSpread roots over the mound, with the crown above the root ends.\n\n3 Cover the roots\n\nCover roots; leave bud tips visible. Water to settle; keep mulch off growth points.\n\nTrench Dig 30 cm wide and 20 cm deep; centres 45 cm apart. Stagger plants in adjacent trenches.\nInitial cover Cover roots; leave bud tips visible\n\nFrom seed: sow thinly in spring, thin and grow on. Plant into the final bed next spring; cropping starts later than with crowns.\n\nLooking after the crop\nHand-weed or hoe shallowly to protect roots. Water in dry spells, especially while plants establish. Mulch mature beds against weeds, keeping growth points clear. Strong summer ferns build next spring’s reserves.\nEach year, mulch established beds with 2.5–5 cm of compost or well-rotted manure. Tidy and lightly feed with compost before spears appear.\nSupport tall ferns if needed. Remove berries before they fall and seed into the bed. Let ferns yellow before cutting down; remove diseased growth.\nHarvesting & storage\nWait two years after planting crowns, or three years from seed. Let uncut spears form fern to build strong roots.\nCut finger-thick spears by 18 cm tall, about 2.5 cm below soil, before they turn woody. Use a sharp knife, avoiding nearby shoots. Check every few days in cool weather, daily in warmth.\nCut for six weeks in the first harvest year, then up to eight weeks. Stop by mid-June, sooner if weak, and let later spears form fern.\nPests & diseases\nProblem\tWhat to look for\tWhat to do\nVIOLET ROOT ROT\tRoots develop purple mould; foliage yellows and dies.\tConfirm diagnosis; remove affected crowns and replant on clean ground.\nFROST\tYoung shoots turn black and die after late spring frost.\tRemove damaged shoots and cover the bed if hard frost is forecast.\nPERENNIAL WEEDS\tCouch, bindweed and other perennial weeds invade the crowns.\tClear them before planting; later removal risks crop damage.\nSLUGS\tSpears are gnawed and become unfit to eat.\tCheck shoots on damp evenings, hand-pick slugs and encourage natural predators.\nFinal tips\n\nTreat the bed as a permanent feature: clean ground and patience pay off.\n\nStrong summer fern growth feeds the crowns for next spring.\n\nVEGETABLE GUIDES\nSee also: Growing Techniques 156\n89"
+      ],
+      "textAfter": [
+        "Stalks & Shoots\nAsparagus.\nDIFFICULTY\nTricky\n4/5\nHARVEST SEASONS\nSpring / Summer\n\nAsparagus is one of the finest spring vegetables: a long-lived perennial which gives a fresh, delicate crop just when the garden is short of new green shoots. It is not difficult once established, but it asks for space, clean ground and patience. Treat the bed as a permanent feature: clear perennial weeds thoroughly, improve the soil before planting and do not crop hard while the crowns are young. In return, a good bed can produce spears for many years, followed by tall ferny summer growth which feeds the roots for the next season.\n\nQuick facts\nSow\n\nApr\n\nHarvest\n\nMay – Jun\n\nSeed depth\n\n2.5 cm\n\nRow spacing\n\n45 cm between rows; stagger plants in adjacent rows\n\nYield per mature plant\n\nAbout 10 spears\n\nPlant spacing\n\n45 cm between plants\n\nReady in\n\nFirst cutting 2 years after planting crowns; 3 years from seed\n\nGrowing calendar\nJ\nF\nM\nA\nM\nJ\nJ\nA\nS\nO\nN\nD\nSOW\nHARVEST\n\nBright: usual months · Muted: less usual\n\nCore needs\n1 = low · 5 = high\nSun\n4/5\nWater\n3/5\nNutrition\n4/5\nRecommended varieties\nGijnlim\n\nAn early, all-male hybrid producing green spears. A strong first choice for a productive, permanent asparagus bed.\n\nConnover's Colossal\n\nA long-established asparagus with substantial green spears. Keep as the traditional alternative to modern all-male hybrids.\n\nBacklim\n\nAn all-male hybrid cropping later than early selections. Plant alongside an earlier variety to spread the asparagus harvest.\n\nKey risks\nVIOLET ROOT ROT\n\nPurple fungal growth on roots, with yellowing and dying fern, can indicate violet root rot.\n\nFROST\n\nYoung shoots may turn black and die if a severe frost occurs in late spring.\n\nPERENNIAL WEEDS\n\nCouch grass, bindweed and other perennial weeds are a serious long-term problem in asparagus beds.\n\nSLUGS\n\nSpears are gnawed, making them unfit for table use.\n\nVEGETABLE GUIDES\n88",
+        "Growing guide · Asparagus\nGood drainage is essential.\n\nChoose a sunny, sheltered site and enrich the soil with compost or well-rotted manure.\n\nClear perennial weeds before planting.\n\nA light-excluding mulch for a whole season is worthwhile on badly infested ground.\n\nPlant crowns in early spring.\n\nDelay if the soil is cold and wet; keep bought crowns moist.\n\nSoil & preparation\nChoose sunny, sheltered, well-drained soil. Add compost or rotted manure; lime very acid ground if needed. Improve heavy-ground drainage or use a raised bed.\nClear perennial weeds first: their roots are hard to remove once tangled with crowns.\nSowing & planting\n1 Prepare a mound\n\nKeep crowns moist. Mound fine soil in the clean, well-drained trench.\n\n2 Spread the roots\n\nSpread roots over the mound, with the crown above the root ends.\n\n3 Cover the roots\n\nCover roots; leave bud tips visible. Water to settle; keep mulch off growth points.\n\nTrench Dig 30 cm wide and 20 cm deep; centres 45 cm apart. Stagger plants in adjacent trenches.\nInitial cover Cover roots; leave bud tips visible\n\nFrom seed: sow thinly in spring, thin and grow on. Plant into the final bed next spring; cropping starts later than with crowns.\n\nLooking after the crop\nHand-weed or hoe shallowly to protect roots. Water in dry spells, especially while plants establish. Mulch mature beds against weeds, keeping growth points clear. Strong summer ferns build next spring’s reserves.\nEach year, mulch established beds with 2.5–5 cm of compost or well-rotted manure. Tidy and lightly feed with compost before spears appear.\nSupport tall ferns if needed. Remove berries before they fall and seed into the bed. Let ferns yellow before cutting down; remove diseased growth.\nHarvesting & storage\nWait two years after planting crowns, or three years from seed. Let uncut spears form fern to build strong roots.\nCut finger-thick spears by 18 cm tall, about 2.5 cm below soil, before they turn woody. Use a sharp knife, avoiding nearby shoots. Check every few days in cool weather, daily in warmth.\nCut for six weeks in the first harvest year, then up to eight weeks. Stop by mid-June, sooner if weak, and let later spears form fern.\nPests & diseases\nProblem\tWhat to look for\tWhat to do\nVIOLET ROOT ROT\tRoots develop purple mould; foliage yellows and dies.\tConfirm diagnosis; remove affected crowns and replant on clean ground.\nFROST\tYoung shoots turn black and die after late spring frost.\tRemove damaged shoots and cover the bed if hard frost is forecast.\nPERENNIAL WEEDS\tCouch, bindweed and other perennial weeds invade the crowns.\tClear them before planting; later removal risks crop damage.\nSLUGS\tSpears are gnawed and become unfit to eat.\tCheck shoots on damp evenings, hand-pick slugs and encourage natural predators.\nFinal tips\n\nTreat the bed as a permanent feature: clean ground and patience pay off.\n\nStrong summer fern growth feeds the crowns for next spring.\n\nVEGETABLE GUIDES\nSee also: Growing Techniques 156\n89"
+      ]
+    }
+  ]
+}

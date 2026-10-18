@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-18",
+  "status": "Approved one-page composition; integration pending",
+  "brief": "John’s shorter nutrient table and three illustrated examples restored to one page.",
+  "dimensionsMm": [
+    185,
+    240
+  ],
+  "units": "Identical dual-unit copy for both editions; seaweed depth is 6 inches / 15 cm.",
+  "sourceStyles": [
+    "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/draft.css",
+    "docs/publication/topic-pages/crop-rotation-planning/references/approved-2026-10-18/draft.css"
+  ],
+  "sourceComparison": [
+    "Organic growing approved 12 October: editable nutrient-return diagram, cream paper, sage/peach panels and 9.45 pt body.",
+    "Crop rotation & planning approved 18 October: flowing green/orange headings, body size, mirrored margins and quiet footer."
+  ],
+  "composition": [
+    "Page 158: flowing family title, overview, four-row nutrient table and three stacked illustrated examples."
+  ],
+  "illustrations": [
+    {
+      "role": "legumes",
+      "source": "public/images/heroes/richer-a/bean_broad.png",
+      "note": "Approved illustration reused unchanged"
+    },
+    {
+      "role": "compost",
+      "source": "docs/publication/topic-pages/techniques-expansion/references/compost-use-approved-2026-10-12/assets/compost-mix-v1.png",
+      "note": "Approved illustration reused unchanged"
+    },
+    {
+      "role": "seaweed",
+      "source": "docs/publication/topic-pages/nutrient-cycles/assets/seaweed-trug.png",
+      "note": "New derived house-style seaweed illustration; proposed for review."
+    }
+  ],
+  "assets": {
+    "public/images/heroes/richer-a/bean_broad.png": "469e9165971629c2ddabe248ca67100c7ffa58d95520492f84646fa0cb43e26c",
+    "docs/publication/topic-pages/techniques-expansion/references/compost-use-approved-2026-10-12/assets/compost-mix-v1.png": "931038e107eb185fedfc3a469af0b1c6deafeb49209bd5950341df0367e2aff7",
+    "docs/publication/topic-pages/nutrient-cycles/assets/seaweed-trug.png": "9d198d07fe43a782d907d3dae867a74bebb58a122e62bb63b7ddfca0f5f1adae"
+  },
+  "research": "/Users/johnlennon/Documents/web_site/hackriculture-resources/summaries/nutrient-cycles/PRACTICAL-RESEARCH-2026-10-18.json",
+  "sourceDataChanged": false,
+  "existingApprovedPagesChanged": false,
+  "notIncluded": [
+    "Theoretical carbon-loop diagram, replaced at John’s request by practical compost explanation",
+    "Full-book assembly",
+    "Full comfrey-growing guide",
+    "Printed source footer omitted for fit; attribution retained in RESEARCH.html and the working copy source field."
+  ],
+  "next": "Review the Growing Techniques sequence. Reordering, refreshed references and full-book integration remain pending.",
+  "supersedes": "revisions/potassium-sources/",
+  "spacingRevision": "9.45 pt body/table text retained; table columns 28/50/82 mm, table leading 1.28. Illustration column 31 mm with 24 mm maximum image height, matching the earlier one-page composition.",
+  "folios": [
+    158
+  ]
+}

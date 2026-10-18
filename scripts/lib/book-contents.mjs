@@ -1,3 +1,4 @@
+import {approvedTopicOrder} from './approved-reader-integration.mjs';
 import {escapeHtml as esc} from './book-content.mjs';
 
 // Existing house-style stock, reused without changing the source images.
@@ -8,10 +9,10 @@ export const contentsArtwork = [
   {id:'H6',folio:5,role:'lower',file:'docs/assets/vegetable-guru-stock/assets/h6-growing-harvest-hero-style-v2.png'}
 ];
 
-// This is a proposed placement map. It never changes saved source PDF folios.
-export function createContentsPlan(base, sources, approvedGuides = {}) {
+// Approved placement map; saved reference PDFs retain their original folios.
+export function createContentsPlan(base, sources, approvedGuides = {}, readerGuides = {}) {
   const plan = structuredClone(base);
-  plan.status = 'Approved combined Guides opener at right-hand page 9, 15 October 2026. Source PDFs retain original folios.';
+  plan.status = 'John-approved full-book integration, 18 October 2026, including the two Techniques blanks and all earlier approved reader edits.';
   plan.openingPlan = [
     [1, 'Title'], [2, 'Publication details'],
     [3, 'Blank: places the contents on facing pages'],
@@ -19,10 +20,7 @@ export function createContentsPlan(base, sources, approvedGuides = {}) {
     [6, 'Blank: faces the Introduction'], [7, 'Introduction — why grow your own'],
     [8, 'Blank: faces the combined Vegetable Guides opener'], [9, 'Vegetable Guides — how to use the guides']
   ].map(([page, content]) => ({page, content}));
-  const topicOrder = ['technique:organic', 'technique:plot-location', 'technique:plot-layout', 'technique:plot-layout-branching',
-    'cultivation:overview', 'cultivation:no-dig', 'cultivation:digging', 'cultivation:digging-finish',
-    'technique:compost-bins', 'technique:compost-use', 'technique:rotation', 'technique:sowing', 'technique:watering',
-    'technique:greenhouse-choose', 'technique:greenhouse-beds', 'technique:greenhouse-no-dig-seasons'];
+  const topicOrder = approvedTopicOrder;
   const topicMap = {};
   for (const [unit, edition] of Object.entries(plan.editions)) {
     let cursor = plan.openingPlan.length + 1;
@@ -43,6 +41,8 @@ export function createContentsPlan(base, sources, approvedGuides = {}) {
         doc.approvedReplacement = {...replacement, previousPdf:doc.pdf, previousSha256:doc.sha256};
         doc.pdf = replacement.pdf; doc.sha256 = replacement.sha256; doc.physicalPages = 2;
       }
+      const reader = readerGuides[unit]?.[doc.key];
+      if(reader){if(reader.physicalPages!==doc.physicalPages)throw Error('Reader edit changed page count: '+doc.key);doc.readerApprovedReplacement=reader;doc.pdf=reader.pdf;doc.sha256=reader.sha256;}
       doc.startPage = cursor; doc.endPage = cursor + doc.physicalPages - 1;
       doc.blankAfterPages = doc.type === 'vegetable' ? doc.physicalPages % 2 : 0;
       doc.blankFoliosAfter = Array.from({length:doc.blankAfterPages}, (_, i) => doc.endPage + i + 1);
@@ -54,16 +54,22 @@ export function createContentsPlan(base, sources, approvedGuides = {}) {
     const map = sources[unit];
     const locate = (source, folio) => {
       if (!map[source]) throw Error('Missing approved source: ' + source);
-      return {source, ...map[source], startPage: folio, physicalPages: 1};
+      return {source, ...map[source], physicalPages: 1, ...map[source], startPage: folio};
     };
     edition.sectionOpeners.push({source:'opening:techniques',startPage:cursor++,label:'Growing Techniques'});
-    edition.additions = [locate('technique:why-grow', 7), ...topicOrder.map(s => locate(s, cursor++))];
+    edition.additions = [locate('technique:why-grow', 7)];
+    for(const [source,folio,count=1] of topicOrder){
+      if(source==='technique:plot-location'||source==='technique:greenhouse-choose'){edition.extraBlanks.push({page:cursor++,reason:'Approved spacing preserves facing Techniques topics'});}
+      const item=locate(source,cursor);
+      if(item.physicalPages!==count)throw Error('Topic page count changed: '+source);
+      edition.additions.push(item);cursor+=count;
+    }
     edition.index = {...map['back:index'], source: 'back:index', startPage: cursor, endPage: cursor + map['back:index'].physicalPages - 1};
     edition.lastContentPage = edition.index.endPage;
     edition.endBlankPages = edition.lastContentPage % 2;
     edition.plannedEvenTotal = edition.lastContentPage + edition.endBlankPages;
     if (edition.endBlankPages) edition.extraBlanks.push({page:edition.plannedEvenTotal,reason:'End balancing page'});
-    edition.techniquePages = topicOrder.length;
+    edition.techniquePages = topicOrder.reduce((n,t)=>n+(t[2]||1),0);
     topicMap[unit] = Object.fromEntries(edition.additions.map(d => [d.source, d.startPage]));
   }
   return {plan, topicMap};

@@ -1,26 +1,41 @@
 {
-  "status": "in_progress",
-  "updated": "2026-10-15T19:35:00Z",
+  "status": "complete",
+  "updated": "2026-10-15T19:47:17.451093+00:00",
   "automation_id": "review-vegetable-guru-reader-journeys",
-  "phase": "Starting independent personas",
+  "phase": "Completed one-off review; authorised follow-up edits approved and integrated on 18 October",
   "book_source": "BASELINE.json",
   "completed": [
-    "Read project, data and research instructions",
-    "Preserved source hashes",
-    "Extracted current PDF into page-labelled corpus"
+    "Three independent January–December journeys (36 monthly tasks)",
+    "Seven cooler northern-site checkpoints",
+    "Native-text search of current 170-page imperial PDF",
+    "53 distinct printed folios visually inspected across the team",
+    "Canonical/local source comparison and focused external reader-needs research",
+    "Independent challenge of proposed improvements",
+    "Structured action plan and browser-viewable report",
+    "All 66 recorded source hashes and current PDF match baseline",
+    "Final independent plan check passed with no material corrections",
+    "Report tabs and expanded evidence verified in browser; no horizontal overflow in the current view",
+    "407 local links and all report JSON files checked",
+    "Current handover updated; completed-review heartbeat paused"
   ],
-  "remaining": [
-    "Independent 12-month personas",
-    "Verify gaps against book, canonical data and local sources",
-    "Focused external reader-needs evidence",
-    "Consolidate and challenge findings",
-    "Write and check review/action plan",
-    "Verify original hashes unchanged",
-    "Pause heartbeat"
-  ],
+  "remaining": [],
   "constraints": [
-    "Read-only book/data audit",
-    "Keep existing format",
-    "One reset authorised if necessary; redemption not yet attempted"
-  ]
+    "Review proposals only; no book or data edits",
+    "Keep current format, body type and two-page crop spreads",
+    "Exactly one authorised reset used successfully; do not redeem another"
+  ],
+  "corpus": "evidence/book-pages.json uses pdfplumber native extraction; initial pypdf layout extraction omitted forms and was replaced",
+  "pending_decisions": [],
+  "report": "REVIEW.html",
+  "action_plan": "ACTION-PLAN.json",
+  "usage_reset": {
+    "status": "used_and_confirmed",
+    "receipt": "evidence/usage-reset.json",
+    "further_resets_authorised": false
+  },
+  "checks": "evidence/INTEGRITY.json",
+  "automation_status": "PAUSED",
+  "final_independent_check": "evidence/FINAL-CHECK.json",
+  "futureUse": "Completed one-off exercise. John explicitly requested that trial-reader characters, agents and simulations not be reused for regular edits. Do not resume without a fresh request.",
+  "editingOutcome": "../whole-book-order-preview/README.md"
 }

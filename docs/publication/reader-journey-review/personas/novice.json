@@ -1,0 +1,323 @@
+{
+  "review_type": "Simulated reader journey; not observed user testing or a growing trial",
+  "reviewed_on": "2026-10-15",
+  "book": {
+    "path": "output/pdf/whole-book-order-preview/the-vegetable-guru-order-preview.pdf",
+    "sha256": "39d437e8571d92aca177c31a2da4e2f371dada19a5f66465e4826678ac747cd6",
+    "edition": "Current imperial screen preview, 170 PDF pages / 166 interior pages",
+    "page_reference_rule": "All page references below are printed folios. PDF page = folio + 2."
+  },
+  "persona": {
+    "name": "First year with two small beds",
+    "experience": "Has never grown vegetables and does not initially know terms such as drill, module, station or succession. Can read a seed packet, measure distances and keep a notebook.",
+    "place": "A lowland English back garden, approximately the book's stated climate baseline; no specific year's weather or last-frost date is invented.",
+    "space": "Two existing, empty, open-bottom raised beds, each 4 ft by 8 ft, reachable from both long sides; soil is workable and there is no known soil-borne disease. The previous crop history is unknown, which is recorded rather than treated as clean-ground proof.",
+    "resources": "At least half a day of sun, a nearby hose, hand tools, room to obtain mature compost, no greenhouse or heated propagator. Direct sowing is preferred. Fleece or mesh can be obtained if the book makes its purpose clear.",
+    "time": "About an hour at the weekend plus short checks near the kitchen on most days in the growing season. A weekend-only visitor would be a different and less suitable courgette persona.",
+    "goal": "Some fresh vegetables for two adults and useful first-year experience, not year-round self-sufficiency or a promised yield.",
+    "crop_selection": [
+      {"crop": "Carrot", "choice": "Early Nantes 2", "reason": "The printed short-rooted label and successive-sowing description offer an understandable starting choice.", "pages": [14, 15]},
+      {"crop": "Lettuce", "choice": "Salad Bowl", "reason": "Repeated picking from a few plants suits a small household and the limited space.", "pages": [56, 57]},
+      {"crop": "French bean", "choice": "Tendergreen", "reason": "The guide explicitly distinguishes a dwarf option needing no tall support.", "pages": [44, 45]},
+      {"crop": "Onion", "choice": "Sturon sets", "reason": "The introduction and variety description identify spring sets as the simpler route; the second page keeps sets separate from seed.", "pages": [66, 67]},
+      {"crop": "Courgette", "choice": "One Astia F1 plant", "reason": "The variety description names smaller beds, but the reader still reserves at least the guide's 3 ft spacing in both directions and accepts frequent picking.", "pages": [72, 73]}
+    ],
+    "working_space_plan": "Sketch separate small crop areas within the two beds, reserving a 4 ft by 4 ft end for one courgette. Use the printed row/plant distances for the remaining short carrot and onion rows, a short dwarf-bean row and a few loose-leaf lettuces. This is a simulated allocation decision, not a verified maximum-density plan or a yield calculation.",
+    "important_assumptions": [
+      "Month names are decision windows; sowing proceeds only when the crop's stated weather and soil conditions are met.",
+      "The simulation does not invent successful harvests. Later tasks describe how a reader would decide whether an assumed growing crop is ready or troubled.",
+      "The reader can choose a winter pause. The first-year five-crop selection is not required to fill every month with a fresh harvest.",
+      "A source conflict about compost and carrot fanging is left unresolved. The simulated cautious response is to avoid adding new material to the carrot area while continuing the rest of the plan, not to endorse that response as corrected gardening advice."
+    ]
+  },
+  "overall_assessment": {
+    "result": "A workable first year can be assembled from the existing book without a greenhouse. Most practical answers are already present, often on the second page of each crop spread. The largest avoidable risks are interpreting the calendar as a complete sowing instruction and encountering conflicting carrot compost wording.",
+    "what_requires_inference": "The reader must assemble a small plan from several crop spreads and techniques pages, interpret a few undefined sowing terms, and work out how the rotation examples apply to lettuce and courgettes.",
+    "scope_of_recommendation": "Prefer small edits in the existing key, carrot risk text, sowing page, rotation page and courgette final tips. This audit does not justify a new beginner chapter, a monthly chapter sequence, wholesale rewrites or additional book pages."
+  },
+  "monthly_tasks": [
+    {
+      "month": "January",
+      "question": "What is a sensible first selection, and can it fit in my two beds and available time?",
+      "route": ["Introduction p7: begin with a useful patch and household favourites", "Contents pp4–5: find five crop spreads and planning pages", "How-to p9: interpret difficulty and core needs", "Planning pp147–148: sun, water, access and reachable bed width", "Crop first pages pp14, 44, 56, 66, 72: compare varieties and spacing; second pages for workload"],
+      "printed_pages": [4, 5, 7, 9, 14, 44, 45, 56, 57, 66, 67, 72, 73, 147, 148],
+      "concrete_decision": "Choose the five crops listed in the persona; choose dwarf beans, loose-leaf lettuce and onion sets. Reserve generous space for one courgette and plan short rows rather than planting every seed in a packet.",
+      "outcome": "Answered with several page visits. The book positively supports starting small and choosing useful crops. Courgette spacing and frequent harvesting prevent the tempting but unsuitable decision to plant several in one small bed.",
+      "friction": "Difficulty measures growing ease, not time commitment. The courgette's daily/every-other-day picking obligation is clear on p73 but not visible in its difficulty score. This is a selection-stage discovery issue, not absent advice. A beginner route would reduce page hunting, but the contents already expose the relevant planning pages."
+    },
+    {
+      "month": "February",
+      "question": "How do I prepare the existing beds, and should the carrot area receive the same compost as everything else?",
+      "route": ["Contents p5 to Organic growing p146 and Cultivation p150", "No-dig p151: existing weed-free beds need no cardboard; use mature compost and keep off the bed", "Carrot pp14–15: compare its soil advice and fanging warning", "Carrot footer to Troubles p112: forked-root causes"],
+      "printed_pages": [5, 14, 15, 112, 146, 150, 151],
+      "concrete_decision": "Prepare access and remove weeds when the soil is workable. Plan the bed areas. Continue preparation for the other crops, but hold the decision to add new compost to the carrot area because the printed guidance appears inconsistent.",
+      "outcome": "Most of the preparation route works; the carrot compost sub-decision stalls. The no-dig page gives a real sequence, materials, maturity requirements and ongoing maintenance, rather than merely advocating a method.",
+      "friction": "P14 says compost added shortly before sowing usually causes fanging, while its introduction says compost-filled no-dig beds can work; p151 permits planting into finished mature compost and p112 names fresh manure rather than compost in general. The discrepancy also exists across canonical records. See NOV-02."
+    },
+    {
+      "month": "March",
+      "question": "Can I start my onions without growing seedlings indoors, and can I start a few lettuces?",
+      "route": ["Onions pp66–67: spring sets, seed depth label and separate A/B methods", "Lettuce pp56–57: small batches March–August and different leaf/heart spacing", "Sowing p157: wait in cold or wet conditions; direct sowing sequence"],
+      "printed_pages": [56, 57, 66, 67, 157],
+      "concrete_decision": "When conditions suit, plant Sturon sets root-end down with the tip showing, 4–6 in. apart in 12 in. rows. Start a small direct-sown lettuce batch, using its outdoor depth and eventually the loose-leaf spacing. If conditions do not suit, delay instead of following the month mechanically.",
+      "outcome": "Answered. The labelled seed-depth fact and the illustrated sets method successfully prevent applying the 5/8 in. seed depth to an onion bulb. Delayed sets also have explicit storage advice in the final tips.",
+      "friction": "The onion calendar aggregates several onion uses and sowing routes, so February–April in Quick facts cannot alone tell this reader when to plant spring sets. P67 resolves it clearly as March–April. This is a reason to strengthen the calendar's read-the-method instruction, not evidence that set timing is missing."
+    },
+    {
+      "month": "April",
+      "question": "How do I sow carrots, and why does the harvest panel say August when the text mentions June?",
+      "route": ["Carrot p14: sow April–June, germination 17 days, depth 1/2 in. and final 2–3 in. spacing", "Carrot p15: sow thinly, keep the seedbed moist, thin only as needed", "Footer to Sowing p157 for direct-drill preparation", "Return to p9 calendar key and p15 harvest notes"],
+      "printed_pages": [9, 14, 15, 157],
+      "concrete_decision": "Sow a short row directly when the soil is workable and warm enough, keep the germinating seed moist and record the date. Treat baby roots and an early harvest as different from the main August–October harvest window rather than waiting automatically until August.",
+      "outcome": "The physical sowing and thinning job is answerable after reading both crop pages. The 17-day germination fact reduces the chance of declaring failure after a few days.",
+      "friction": "Early harvesting is present, but the page-wide calendar key describes muted June/July harvest options as warmer-climate options. Canonical notes also describe early short-rooted crops and protected starts. A reader has to reconcile scope rather than just read a colour. Drills and thinning are illustrated but not plainly defined; see NOV-01 and NOV-03."
+    },
+    {
+      "month": "May",
+      "question": "The courgette calendar starts in April. Have I missed it without a greenhouse, and when can I sow beans outside?",
+      "route": ["Courgette p72 calendar and separate indoor/direct depths", "Courgette p73: direct sowing is safer in warm late-May–June soil; two or three seeds per station, keep one", "French bean p45: sow outdoors from late May after frost danger and with warm soil; two beans, keep the stronger", "Sowing p157 for condition checks"],
+      "printed_pages": [44, 45, 72, 73, 157],
+      "concrete_decision": "Wait for a suitable late-May/June outdoor window. Direct-sow the dwarf bean row at the printed 2 in. depth and the courgette station at the printed 1 in. outdoor depth; retain the strongest seedling at each position. No indoor equipment is needed for this chosen route.",
+      "outcome": "Answered. Both second pages explicitly rescue the no-greenhouse reader from an unnecessary early start and give a practical alternative.",
+      "friction": "The bright April–June courgette sowing bar includes an indoor start, but the graphic does not distinguish indoor from direct sowing. P9 currently distinguishes climate and usualness only. 'Station' and 'prepared pocket' also assume some knowledge; the canonical courgette record contains pocket preparation detail that the print summary omits. NOV-01 is the main fix; NOV-03 addresses terms without adding a new tutorial."
+    },
+    {
+      "month": "June",
+      "question": "Something has eaten the young lettuce. What should I check tonight, and can I replace lost plants?",
+      "route": ["Lettuce p56 key risks", "P57 pest table: ragged leaves/slime trails versus stems severed at soil level", "The crop footer leads to Troubles pp123–125; Slugs and Snails on p124, Cutworm on p125", "P57 sowing window and module option for sluggy weather"],
+      "printed_pages": [56, 57, 123, 124, 125],
+      "concrete_decision": "Compare the actual damage before naming a pest, inspect after dark or in damp weather for slugs and remove those found. Keep damp debris away from vulnerable plants. Replace losses with a small sowing still within the stated lettuce window; modules are an available alternative, not a greenhouse requirement.",
+      "outcome": "Answered with a short crop-to-trouble route. The diagnostic separation and an action that can be taken the same evening work well.",
+      "friction": "Using the general Slugs and Snails index entry produces many crop page references; following the crop footer is more efficient. This is not a missing slug-control section. 'Protect seedlings' is broad, but the same route gives hand-removal and debris management, so the reader is not left with that phrase alone."
+    },
+    {
+      "month": "July",
+      "question": "How do I pick the three repeat crops without ending their harvest, and can my short daily visits keep up?",
+      "route": ["Lettuce p57 Harvesting & storage", "French bean p45 Harvesting & storage", "Courgette p73 Harvesting & storage", "For a trial of yellow/shrivelling courgette fruit, p73 footer to p117 No Fruit and Withering of Young Fruit"],
+      "printed_pages": [45, 57, 73, 117],
+      "concrete_decision": "Pick larger outer lettuce leaves while retaining the centre and at least four young leaves; pick bean pods every few days before seeds swell; cut young courgettes, often 4–6 in., daily or every other day in warmth. Keep the one-plant limit and record whether that frequency is manageable.",
+      "outcome": "Answered. The descriptions connect an action to keeping the plant productive. Courgette pollination guidance also distinguishes the female flower by the small fruit behind it, and the Troubles page warns that shrivelling can have more than one cause.",
+      "friction": "Success depends on visits between weekends. That limit becomes visible in the crop text and should affect next year's choice; it does not support calling the book's Easy/Fairly Easy ratings wrong. No additional harvesting chapter is needed for these crops."
+    },
+    {
+      "month": "August",
+      "question": "Leaves droop in hot weather. Should I water everything more, including onions whose tops are falling?",
+      "route": ["Index p165 Watering to p158", "P158 check beneath the surface, water the rooting area and distinguish young seedlings", "P67 reduce onion watering as bulbs mature and let foliage yellow naturally", "P15 carrot steady moisture; p73 courgette root watering"],
+      "printed_pages": [15, 67, 73, 158, 165],
+      "concrete_decision": "Check moisture before watering, apply water at the relevant rooting area and distinguish the still-growing crops from ripening onions. Lift onions when the described foliage condition is reached; dry on airy trays under cover in wet weather until necks and skins are dry.",
+      "outcome": "Answered. The watering page is a strong diagnostic and workload guide, and prevents interpreting all drooping leaves as a demand for another can. The onion harvest cue is observable and more useful than a calendar date alone.",
+      "friction": "Mixed crops in one bed mean different watering stages. The book gives the necessary crop distinctions and root-directed method, but the reader must combine them. A fixed universal watering amount would be less helpful than the existing conditional advice."
+    },
+    {
+      "month": "September",
+      "question": "How should I finish the onions and beans, and do I need to fill every gap with a winter crop?",
+      "route": ["Onion p67 drying, sorting and storage", "French bean p45 explains dwarf harvest duration and later sowings", "Introduction p7 accepts seasonal abundance and gaps", "Onion p67 gives overwintering as a separate variety/season route; lettuce pp56–57 gives ordinary main sowing window"],
+      "printed_pages": [7, 45, 56, 57, 67],
+      "concrete_decision": "Store sound, well-dried onions; use sound damaged or thick-necked bulbs first and discard rot. Keep picking useful beans while tender. Choose a winter pause after the chosen crops, rather than assuming a new late bean sowing or unspecified winter lettuce will work.",
+      "outcome": "Answered for the limited first-year goal. The book permits a small useful garden instead of implying that empty winter space is failure. It offers optional overwintering routes without making them compulsory.",
+      "friction": "A reader seeking an uninterrupted winter salad crop would need a more specific variety/protection timetable than the generic lettuce text. That is outside this persona's modest first-year target and is not used to demand a new winter-growing chapter."
+    },
+    {
+      "month": "October",
+      "question": "Which carrots can be stored, and what do I do when the courgette is finished after frost?",
+      "route": ["Carrot p15: lift storage roots around October or before damaging conditions; store sound trimmed roots separately in sand", "Carrot Troubles pp113–114 if roots are split or rotten", "Courgette p73 has harvesting and disease removal but no normal end-of-crop instruction", "Compost pp154–155 and no-dig p151 provide general reuse and bed-maintenance principles"],
+      "printed_pages": [15, 73, 113, 114, 151, 154, 155],
+      "concrete_decision": "Separate sound storage carrots from damaged or rotten roots, trim as specified, keep cool and ventilated and inspect them. For normal courgette clearance, combine the general compost principle with the crop condition, but flag that the crop-specific frost/healthy-remains instruction is not available on its own spread.",
+      "outcome": "Carrot storage is answered; normal courgette closure is only indirectly answered. The current canonical courgette record supplies the omitted close-down instruction, so there is no research need to invent one.",
+      "friction": "This is a narrow missing crop instruction, not absence of all end-of-season advice: runner beans p47 explicitly mentions removing supports and composting stems after frost, and other crops also describe clearing. A novice following the courgette route has no reason to consult those unrelated crop pages. See NOV-05."
+    },
+    {
+      "month": "November",
+      "question": "With just two beds, where should these five crops go next year? Do I need four new beds?",
+      "route": ["Contents p5 or index p163 to Crop rotation p156", "P156 explicitly allows areas within beds and rejects a compulsory equal four-block plan", "Family table identifies beans, onions and carrots", "Search the rest of the book for lettuce/courgette family guidance; Cucurbit Troubles p117 identifies its crop group but supplies no rotation plan"],
+      "printed_pages": [5, 117, 123, 156, 163],
+      "concrete_decision": "Sketch what occupied each small area, including repeat sowings. Move the main crops to different appropriate areas without building extra beds. Record that the book does not explicitly finish the family/placement decision for lettuce and courgettes.",
+      "outcome": "The small-bed method is mostly answered and is encouragingly flexible. Three of the selected crop families are directly mapped. Application to the other two remains a small but genuine information gap.",
+      "friction": "The page tells readers to move to ground that held an unrelated family, but the list does not include two of this very ordinary five-crop selection. This is not solved by merely giving the reader a larger rotation diagram. A short omitted-crops sentence or compact extra family rows would be more proportionate. See NOV-04."
+    },
+    {
+      "month": "December",
+      "question": "What should I retain from this first year while the beds are quiet?",
+      "route": ["Introduction p7: keep a note and build on what works", "Organic growing p146: record successes, failures and varieties", "Rotation p156: keep the bed sketch and second-crop history", "Carrot p15 and onion Troubles p128 for checking stored produce"],
+      "printed_pages": [7, 15, 128, 146, 156],
+      "concrete_decision": "Record varieties, actual sowing and picking dates, pest episodes and which repeated picking jobs fitted the household. Inspect stored crops, removing rot as instructed. Use that evidence to keep the successful choices and reconsider the most demanding one next spring.",
+      "outcome": "Answered. This closes a realistic first year without inventing a winter workload or promising food every month. The book's repeated encouragement to learn from a small plot supports a sensible second year.",
+      "friction": "The record-keeping advice is distributed rather than a single worksheet. A blank planner could be convenient, but this persona can use a notebook; that convenience alone does not justify extra pages."
+    }
+  ],
+  "strengths": [
+    {"pages": [7, 147], "finding": "The explicit small-start message sets achievable expectations and accepts seasonal gaps."},
+    {"pages": [66, 67], "finding": "The onion spread makes the potentially confusing seed/set distinction usable: labelled seed depth, separate methods, spring timing, tip showing, spacing and storage."},
+    {"pages": [45, 73, 157], "finding": "The chosen tender crops have clear direct-sowing routes; a novice does not need to buy a greenhouse to follow this selection."},
+    {"pages": [57, 73, 117, 124, 125], "finding": "Crop tables and crop-specific footer links get the reader from a visible symptom to a useful action; broader diagnoses are available when a one-line answer is insufficient."},
+    {"pages": [45, 57, 67, 73], "finding": "Harvest readiness is expressed through size, firmness, foliage and repeat-picking behaviour, not just months."},
+    {"pages": [150, 151, 157, 158], "finding": "The technique pages contain practical sequences and condition checks that let the reader delay or adapt a job sensibly."},
+    {"pages": [156], "finding": "Rotation is already adapted to small areas within beds and warns that a short rotation does not cure persistent disease. Preserve that flexibility."}
+  ],
+  "findings": [
+    {
+      "id": "NOV-01",
+      "priority": "high",
+      "category": "Calendar interpretation / information present but easy to misapply",
+      "finding": "The calendar key makes climate carry too much meaning. Muted dates can denote protection, variety or an early/late crop route, and bright sowing months can combine indoor and outdoor methods.",
+      "evidence": [
+        {"pages": [9], "detail": "The approved key explicitly says muted shades are less usual options for warmer climates. Visual inspection confirms this is actual printed wording and key labelling, not an extraction artefact."},
+        {"pages": [14, 15], "detail": "Carrot March/August sowing and June/July/November/December harvest cells are muted. Canonical carrot calendar notes describe March under cloches, a late-March/April sheltered sowing for July, and an August sowing covered from October for November/December."},
+        {"pages": [72, 73], "detail": "Courgette April–June is bright, but p73 distinguishes warm indoor sowing in late April from direct sowing in warm late-May–June soil."},
+        {"pages": [44, 45], "detail": "French bean p45 gives late-May outdoor sowing and later repetitions, alongside a protected April route. The two-row graphic cannot carry those method conditions by itself."}
+      ],
+      "minimal_fix": "Revise the existing p9 explanation and less-usual sublabel so they describe conditional options rather than warmer climates alone. Explicitly state that sowing dates can include indoor/protected starts and that the Sowing & planting method decides the usable outdoor date. Retain the calendar design and authoritative date values.",
+      "replacement_or_space": "Replace the current two explanatory sentences and the short 'Warmer climates' sublabel in place; no new page or additional calendar row is needed for the first improvement.",
+      "source_level": "Exact canonical calendars and sowing methods, checked through readRecord, compared with printed text and actual calendar images.",
+      "source_paths": ["vegetables.carrot.calendar.sowing_time.notes", "vegetables.carrot.calendar.harvest_time", "vegetables.bean_french.calendar.sowing_time.notes", "vegetables.bean_french.sowing_and_planting.method", "vegetables.marrow_courgette.calendar", "vegetables.marrow_courgette.sowing_and_planting.notes"],
+      "uncertainty": "No date correction is proposed. A careful reader already reaches the right answer by reading the second page; the simulated failure is treating the colour/date as sufficient instruction."
+    },
+    {
+      "id": "NOV-02",
+      "priority": "high",
+      "category": "Internal canonical ambiguity reproduced in reader-facing advice",
+      "finding": "A novice starting or topping up a no-dig bed receives inconsistent signals about whether compost causes forked carrots.",
+      "evidence": [
+        {"pages": [14], "detail": "The fanging key-risk text says adding manure or compost shortly before sowing is usually the cause. The introduction on that same page says compost-filled no-dig beds can work well."},
+        {"pages": [15, 112], "detail": "The main guide control and Troubles prevention focus on stones/compaction and fresh manure, not compost in general."},
+        {"pages": [151], "detail": "The no-dig instructions permit planting into a finished layer of well-rotted compost when the crop's season suits."},
+        {"canonical": "vegetables.carrot.troubles.Fanging.text", "detail": "This still contains the broad manure-or-compost warning, so p14 is not simply using an obsolete print extract."},
+        {"canonical": "troubles.carrot_and_parsnip_troubles.conditions.fanging.prevention", "detail": "The linked canonical condition instead says to improve with mature compost in advance and avoid fresh manure immediately before sowing."}
+      ],
+      "minimal_fix": "Ask John to settle the narrow distinction between fresh/unfinished additions and mature compost before finalising the warning. The least disruptive presentation proposal is to use the shared uncontested stones, compaction and fresh-manure wording in the p14 risk card, subject to that decision. Preserve both canonical records during this review.",
+      "replacement_or_space": "Replace the existing short fanging risk-card paragraph at the same length; retain its title, icon and location. No layout expansion is indicated.",
+      "source_level": "Two exact canonical records disagree in emphasis/scope; the crop's own introduction and linked Troubles page expose the same reader ambiguity. Lower-tier sources were not used to choose a winner.",
+      "source_paths": ["vegetables.carrot.introduction", "vegetables.carrot.soil_facts", "vegetables.carrot.troubles.Fanging", "troubles.carrot_and_parsnip_troubles.conditions.fanging"],
+      "uncertainty": "The audit cannot decide whether John intended compost in the older warning to mean unfinished or freshly incorporated material. This is a substantive clarification, not authority to rewrite canonical advice."
+    },
+    {
+      "id": "NOV-03",
+      "priority": "medium",
+      "category": "Beginner terminology / partial explanation",
+      "finding": "The standard sowing page assumes the beginner can translate drill, module and station into a physical action. The pictures help, but the text and index do not give plain definitions.",
+      "evidence": [
+        {"pages": [157], "detail": "The illustrated direct-sowing and module sections are useful, yet the prose begins 'Make a drill' and 'Modules in a greenhouse or on a windowsill' without naming a groove or individual tray cells."},
+        {"pages": [15, 45, 72, 73], "detail": "The selected crop routes use drills, stations and prepared pockets. Courgette pocket dimensions and preparation exist in canonical soil_facts and sowing_and_planting but are not given on the spread."},
+        {"pages": [164], "detail": "The Modules index entry sends the reader to p157, where the visual is present but the noun remains unexplained."},
+        {"coverage": "Whole book", "detail": "Searches for these terms and definition patterns found use throughout the crop pages, but no explicit plain-language definition. This is not a claim that sowing or modules lack illustrations."}
+      ],
+      "minimal_fix": "At first use on p157, add very short plain-language glosses for a drill and modules, and identify a station as one planting position. The priority is labelling the existing actions, not adding a glossary chapter. Any longer courgette pocket instruction should use the exact existing canonical dimensions and be considered separately for fit.",
+      "replacement_or_space": "Use parenthetical glosses or replace a little of the existing caption. Preserve the three pictures, readable type and sequence. If a dedicated terms line is preferred, shorten the mixed-salad experiment before adding a page.",
+      "source_level": "Reader-language assessment based on all-book searches and visual inspection. The exact courgette pocket method is available in canonical data; the proposed everyday glosses are editorial explanations, not changed measurements.",
+      "source_paths": ["vegetables.carrot.sowing_and_planting.method", "vegetables.bean_french.sowing_and_planting.method", "vegetables.marrow_courgette.sowing_and_planting.pocket_depth", "vegetables.marrow_courgette.sowing_and_planting.pocket_width", "vegetables.marrow_courgette.soil_facts.2"],
+      "uncertainty": "The illustrations may be sufficient for some novices. This is a simulated comprehension risk, not a measured failure rate. Do not expand it into a demand to define every horticultural term."
+    },
+    {
+      "id": "NOV-04",
+      "priority": "medium",
+      "category": "Small-plot rotation / missing application to common crops",
+      "finding": "The flexible rotation page works for three of this persona's crops but does not say where lettuce and courgettes fit.",
+      "evidence": [
+        {"pages": [156], "detail": "The page tells the reader to use unrelated families and supplies brassica, allium, legume, potato and carrot examples; lettuce and cucurbits are absent."},
+        {"pages": [117, 123], "detail": "Troubles pages identify useful crop groupings but do not finish the small-bed rotation decision."},
+        {"coverage": "Whole book", "detail": "Normalised searches for family, related crops, rotation, lettuce/cucumber family, Asteraceae and Cucurbitaceae found no alternative whole-book explanation that maps these two crops to the rotation page."}
+      ],
+      "minimal_fix": "Add a short explanation of how the omitted annual crops can fit around a flexible core rotation, or add compact cucumber-family and lettuce-family examples. Keep the existing permission to use areas within beds and the disease warning; do not impose a new fixed cycle.",
+      "replacement_or_space": "Prefer one concise sentence in 'Fit the plan to your appetite' instead of expanding the diagram. If family rows are chosen, recover space by shortening the same explanatory paragraph; actual fit should be checked before implementation.",
+      "source_level": "Book gap confirmed; canonical crop/trouble records checked for relevant context. John's manuscript supplies flexible rotation as the governing approach. Garden Organic's existing cited family table supplies botanical examples; RHS gives an omitted-crop placement option. These sources are not treated as agreement on a compulsory cycle.",
+      "source_paths": ["local/john-hackriculture-draft/hackriculture-draft.txt:880–893", "https://gardenorganic-assets.s3.eu-west-2.amazonaws.com/documents/SilverGoldS3.pdf (printed p13)", "https://www.rhs.org.uk/vegetables/crop-rotation (Suitable for...)"],
+      "uncertainty": "Garden Organic presents a more prescribed rotation while RHS permits flexible placement of salads/cucurbits. No online vote is used to override John's flexible method. The proposed addition is a small application aid, with final wording for John's review; no universal disease-free interval is proposed."
+    },
+    {
+      "id": "NOV-05",
+      "priority": "low",
+      "category": "Crop-specific end-of-season omission",
+      "finding": "The courgette spread does not close the normal crop cycle after frost, although its canonical harvest advice does.",
+      "evidence": [
+        {"pages": [73], "detail": "Harvesting, fruit quality, pollination, disease removal and frequent picking are present. There is no instruction for ordinary healthy crop clearance after frost."},
+        {"pages": [47, 146, 151, 154, 155], "detail": "Other parts of the book discuss after-frost clearance for runner beans, composting plant material and maintenance when beds are free. Those are partial workarounds, not an absent general compost topic."},
+        {"canonical": "vegetables.marrow_courgette.harvesting.5", "detail": "The source explicitly says to clear plants after frost, compost healthy remains, avoid spreading virus-infected or badly rotted material, weed and add mature compost as needed."}
+      ],
+      "minimal_fix": "Restore one concise source-linked end-of-crop instruction to the courgette spread, retaining the healthy/diseased material distinction.",
+      "replacement_or_space": "Replace the final tip that repeats removal of misshapen fruit and continued picking, since both already appear in Harvesting & storage. This can close the crop cycle without adding a page or shrinking the text.",
+      "source_level": "Exact canonical harvest instruction; no additional research needed.",
+      "source_paths": ["vegetables.marrow_courgette.harvesting.5"],
+      "uncertainty": "Experienced readers may infer this readily. It is lower priority than the calendar key and carrot ambiguity. The exact compressed sentence and fit remain a proposal."
+    }
+  ],
+  "not_findings": [
+    "No greenhouse requirement: explicit outdoor routes exist for the selected beans and courgette.",
+    "No missing onion-set instructions: p67 is unusually clear and complete for this task.",
+    "No need for a four-bed rotation prescription: p156 already permits smaller areas within beds.",
+    "No need for a universal litres-per-plant rule: p158 gives useful conditional checks and p67 distinguishes ripening onions.",
+    "No unsupported correction to Chantenay Red Cored or Autumn King grouping: both are canonical INTERMEDIATE-ROOTED varieties; the comparative word 'shorter' does not establish a taxonomy error.",
+    "No demonstrated need for a monthly chapter or a new beginner chapter. The remaining gaps can be addressed within existing pages.",
+    "No assertion that all end-of-season care is missing: the all-book search found explicit clearance on other crop pages and general compost/bed maintenance."
+  ],
+  "sources": [
+    {
+      "id": "BOOK",
+      "type": "Actual current book",
+      "path": "output/pdf/whole-book-order-preview/the-vegetable-guru-order-preview.pdf",
+      "sha256": "39d437e8571d92aca177c31a2da4e2f371dada19a5f66465e4826678ac747cd6",
+      "text_evidence": "docs/publication/reader-journey-review/evidence/book-pages.json, refreshed pdfplumber body-text extraction",
+      "visual_evidence": "docs/publication/whole-book-order-preview/pages/page-NNN.jpg, NNN = printed folio + 2"
+    },
+    {
+      "id": "CANONICAL",
+      "type": "Authoritative gardening records, read-only",
+      "reader": "../hackriculture-data/lib/records.mjs:readRecord",
+      "read_on": "2026-10-15",
+      "records": ["vegetables/carrot", "vegetables/bean_french", "vegetables/lettuce", "vegetables/onion_shallot", "vegetables/marrow_courgette", "troubles/carrot_and_parsnip_troubles", "troubles/cucurbit_troubles", "troubles/lettuce_troubles"],
+      "fields_checked": ["calendar", "sowing_and_planting", "seed_and_growing_facts", "soil_facts", "harvesting", "time_to_harvest", "print_planting", "selected varieties", "carrot introduction and troubles.Fanging", "relevant fanging, slug, pollination and withering conditions"],
+      "handling": "Read live records through the shared reader. No record, projection, companion, lock or approval field was written; no local master mirror was created."
+    },
+    {
+      "id": "JOHN-MANUSCRIPT",
+      "type": "John's local source; unfinished manuscript",
+      "title": "Hackriculture: Disruptive food growing for everyone",
+      "path": "../hackriculture-resources/local/john-hackriculture-draft/hackriculture-draft.txt",
+      "source_notes": "../hackriculture-resources/local/john-hackriculture-draft/SOURCE-NOTES.txt",
+      "locations_read": ["Raised Beds, lines 850–905, especially 880–893 on flexible rotations", "Loose later draft material and Module growing around lines 4000–4090"],
+      "use": "Preserve the small-garden, flexible-rotation approach; later loose fragments are not treated as finished approved copy or numerical advice."
+    },
+    {
+      "id": "JOHN-VIDEO",
+      "type": "John's local transcript; machine text awaiting author review",
+      "title": "What I've Learned From 35 Years Of Gardening - In 5 Simple Tips (Part 2)",
+      "url": "https://www.youtube.com/watch?v=50VrGJNTsvE",
+      "path": "../hackriculture-resources/local/hackriculture-youtube/50VrGJNTsvE/transcript.txt",
+      "published": "2026-03-13",
+      "sections_read": "00:00–11:48, with source notes; 04:00–09:07 discusses suitable crops and recording varieties",
+      "use": "Context for keeping the first selection manageable and learning from records. No uncertain transcript quantity or claim was imported as a new instruction."
+    },
+    {
+      "id": "GO-FAMILIES",
+      "type": "Online gap check, Garden Organic primary guidance already cited by the rotation page",
+      "title": "Growing plants, S3.2 Planning crop rotation",
+      "url": "https://gardenorganic-assets.s3.eu-west-2.amazonaws.com/documents/SilverGoldS3.pdf",
+      "accessed": "2026-10-15",
+      "location": "Printed pp11–13, specifically family diagram on p13",
+      "use": "Confirms a cucumber family containing courgette/cucumber/marrow/pumpkin/squash and a lettuce family including lettuce/chicory. Its compulsory four-year scheme and historical family names are not adopted."
+    },
+    {
+      "id": "RHS-ROTATION",
+      "type": "Online gap check, RHS primary guidance",
+      "title": "Crop rotation",
+      "url": "https://www.rhs.org.uk/vegetables/crop-rotation",
+      "accessed": "2026-10-15",
+      "location": "Suitable for...",
+      "use": "Explains flexible placement of cucurbits and salads while avoiding repeated use of the same place. Used to inform a small omitted-crop clarification, not to override exact JSON or John's approach."
+    }
+  ],
+  "checked_coverage": {
+    "full_text_search": "All 170 PDF pages in the refreshed native-text corpus were searched before absence claims. Repeated layout text is treated as extraction noise; whitespace was normalised for phrase searches.",
+    "full_pages_read": [2, 4, 5, 7, 9, 14, 15, 44, 45, 56, 57, 66, 67, 72, 73, 99, 112, 113, 114, 117, 118, 119, 120, 121, 123, 124, 125, 128, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165],
+    "visually_inspected_folios": [9, 14, 15, 44, 45, 56, 57, 66, 67, 72, 73, 147, 151, 156, 157, 158],
+    "calendar_widgets_visually_checked": [9, 14, 44, 56, 66, 72],
+    "whole_book_search_topics": ["calendar, less usual, warmer climates, protection/cloches and indoor/direct sowing", "frost timing and end-of-season clearance, spent/healthy remains and free beds", "rotation, related families, lettuce/cucumber families and botanical labels", "drill, station, pocket, module, thinning and definition synonyms", "succession, little and often, intervals and repeat picking", "daily/every-other-day/every-few-days workload and beginner/start routes"],
+    "limitations": [
+      "This is one deliberately modest lowland-English persona, not all UK climates or all beginner goals.",
+      "The five selected crop spreads were visually read in full. Other pages were inspected as stated; searching all text is not a visual review of every page.",
+      "No real novice was timed, interviewed or observed. Friction is an evidence-backed simulation.",
+      "No outdoor growing trial, crop yield guarantee, paper proof or colour-accessibility test was performed.",
+      "Only the current imperial combined preview was audited; no metric assembly or new PDF was generated.",
+      "No book copy, data, layout, artwork, source transcript or publication state was changed. The only authored deliverable is this report."
+    ]
+  }
+}

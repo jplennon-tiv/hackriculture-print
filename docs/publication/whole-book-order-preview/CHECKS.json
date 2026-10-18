@@ -1,207 +1,129 @@
 {
-  "date": "2026-10-15",
-  "status": "Approved headers and combined opener integrated; text, links and representative spreads checked; ready for John",
+  "date": "2026-10-18",
+  "status": "Approved baseline plus John-requested final copy edits; actual PDF checks passed; revised pages for review",
   "pdf": "output/pdf/whole-book-order-preview/the-vegetable-guru-order-preview.pdf",
-  "sha256": "39d437e8571d92aca177c31a2da4e2f371dada19a5f66465e4826678ac747cd6",
-  "bytes": 225861675,
+  "sha256": "0f9426f6bbe7deccc1f3a5f07c883c35ff1b226b668dac7771ecedc898299439",
+  "bytes": 306439588,
   "units": "imperial",
-  "interiorPages": 166,
-  "pdfPages": 170,
+  "interiorPages": 170,
+  "pdfPages": 174,
   "trimMm": [
     185,
     240
   ],
   "folioMapping": "PDF page = interior folio + 2",
-  "guidePagesReused": 133,
-  "approvedTwoPageGuidePages": 8,
-  "approvedGuideSources": {
-    "path": "docs/publication/whole-book-order-preview/integration-2026-10-15/APPROVED-GUIDES.json",
-    "inputs": {
-      "docs/publication/whole-book-order-preview/integration-2026-10-15/APPROVED-GUIDES.json": "e7af10d90c5188cc30c4a8003c70eaa1d5a8e7c5294264ef68328cec91fe7993",
-      "docs/publication/vegetable-two-page-review/APPROVAL.json": "04d56679b8d468daaa970d7bce5bd00676be1e9c7049a4697e6b885dfddda33d",
-      "output/pdf/vegetable-two-page-trial/two-page-trials-imperial.pdf": "093f6e23f49a50e31c73af9990bfb5d5d70ec5d4de5cf96739223c01d67aacce",
-      "output/pdf/vegetable-two-page-trial/two-page-trials-metric.pdf": "76bd97d00cf8e46636d1d6e2f5faa7f62b758cef88f2cb8ecf7e6e90b0e3510c",
-      "docs/publication/tomato-two-page-review/APPROVAL.json": "23a188cacdb3f1f272fad7ef72b39a334790c0c5137fbd87d7bced67b5f29aa8",
-      "output/pdf/tomato-two-page-trial/two-page-trials-imperial.pdf": "37351db6129af4819db0a393bc10e866c6a40faf9c407bba1f1c4f92b59db646",
-      "output/pdf/tomato-two-page-trial/two-page-trials-metric.pdf": "b7b442076e3c9879552ac1a415d9b3f93230dda31025afbeb471aa128417f4b0",
-      "output/pdf/approved-two-page-guides/imperial/carrot.pdf": "6a682ae9671480e452cc3e9eeff0d7e8ece27c5803c17c4fc3bf63bfbbd67c7b",
-      "output/pdf/approved-two-page-guides/imperial/onions_and_shallots.pdf": "449953590230c359cf2a5d1218670e54142797d68495d4a6d9099c7763b7a40a",
-      "output/pdf/approved-two-page-guides/metric/carrot.pdf": "70d99deb6dd090f71f6ede6064b92f75a46bf94b25d670aef1998fecd415a3b4",
-      "output/pdf/approved-two-page-guides/metric/onions_and_shallots.pdf": "ed52ffeefd6edc6d0874cb8f586055e2fed403ca7ec4b15c199017ee97a22aa9",
-      "output/pdf/approved-two-page-guides/imperial/tomato_greenhouse.pdf": "83a89b2607e5268390cb5b107ecf246d03cf3c01f15a0ebed3e544dc5d1360a1",
-      "output/pdf/approved-two-page-guides/imperial/tomato_outdoor.pdf": "ee4b3a78b6b4e73ed1d46b29a363fc8d410dd143c707ba347ce827f0d03c901d",
-      "output/pdf/approved-two-page-guides/metric/tomato_greenhouse.pdf": "a6d8620843b3ac74fb7e53404cbe06aed3159da6e56f83d7208e6ddeb195c99d",
-      "output/pdf/approved-two-page-guides/metric/tomato_outdoor.pdf": "00c896ff60d7b6c2775e3b44a33b7459e6fd8d0a27efe0145e3fcc8274f620c6"
-    }
-  },
   "guidesReexported": 0,
-  "sourceScreenBook": {
-    "path": "output/pdf/bookvault-progress-preview/the-vegetable-guru-bookvault-progress-preview.pdf",
-    "sha256": "ec7e000f8c59faf1ae9c54e813b54c406025ad8278443381bef81f8484225765"
-  },
-  "componentBlocksVerified": 348,
-  "approvedTopicTextChecks": 17,
-  "topicHeadingChanges": {
-    "7": {
-      "sourceHeading": "Why grow\nyour own?",
-      "replacementHeading": "Introduction\nwhy grow your own",
-      "copySource": "contents.expanded.gettingStarted.entries[technique:why-grow].label"
+  "guidePagesReused": 133,
+  "readerEditedGuidePages": 19,
+  "bodyPagesVerified": 174,
+  "updatedFootersVerified": 162,
+  "contentsReferences": 81,
+  "indexEntries": 286,
+  "indexSeeReferences": 35,
+  "indexNumericReferencesVerified": 513,
+  "internalIndexLinks": 391,
+  "internalContentsLinks": 81,
+  "bodyReferences": [
+    {
+      "folio": 147,
+      "text": "pages 148–149",
+      "target": 148
     },
-    "146": {
-      "sourceHeading": "Organic growing:\nthe core ideas",
-      "replacementHeading": "Organic growing\nThe core ideas",
-      "copySource": "scripts/lib/book-review-refinements.mjs#technique:organic",
-      "sourceEyebrow": "GROWING TECHNIQUES",
-      "replacementEyebrow": "GROWING TECHNIQUES - ORGANIC GROWING"
+    {
+      "folio": 149,
+      "text": "pages 40–41",
+      "target": 40
     },
-    "147": {
-      "sourceHeading": "Start with\nthe right spot",
-      "replacementHeading": "Planning your plot\nChoosing the right spot",
-      "copySource": "scripts/lib/book-review-refinements.mjs#technique:plot-location",
-      "sourceEyebrow": "GROWING TECHNIQUES · PLANNING A NEW PLOT",
-      "replacementEyebrow": "GROWING TECHNIQUES - PLANNING A NEW PLOT"
-    },
-    "148": {
-      "sourceHeading": "Beds and paths\nthat work for you",
-      "replacementHeading": "Beds and paths\nStraight paths and keyholes",
-      "copySource": "scripts/lib/book-review-refinements.mjs#technique:plot-layout",
-      "sourceEyebrow": "GROWING TECHNIQUES · BEDS AND PATHS",
-      "replacementEyebrow": "GROWING TECHNIQUES - BEDS AND PATHS"
-    },
-    "149": {
-      "sourceHeading": "Beds and paths\ncontinued",
-      "replacementHeading": "Beds and paths\nFinger paths and leaf patterns",
-      "copySource": "scripts/lib/book-review-refinements.mjs#technique:plot-layout-branching",
-      "sourceEyebrow": "GROWING TECHNIQUES · BEDS AND PATHS",
-      "replacementEyebrow": "GROWING TECHNIQUES - BEDS AND PATHS"
-    },
-    "159": {
-      "sourceHeading": "Greenhouses\nwhat, where & how big?",
-      "replacementHeading": "Greenhouses\nWhat, where & how big?",
-      "copySource": "scripts/lib/book-review-refinements.mjs#technique:greenhouse-choose",
-      "sourceEyebrow": "GROWING TECHNIQUES · GREENHOUSES",
-      "replacementEyebrow": "GROWING TECHNIQUES - GREENHOUSES"
-    },
-    "160": {
-      "sourceHeading": "Greenhouse\ngrowing options",
-      "replacementHeading": "Greenhouses\nPots and raised beds",
-      "copySource": "scripts/lib/book-review-refinements.mjs#technique:greenhouse-beds",
-      "sourceEyebrow": "GROWING TECHNIQUES · GREENHOUSES",
-      "replacementEyebrow": "GROWING TECHNIQUES - GREENHOUSES"
-    },
-    "161": {
-      "sourceHeading": "Greenhouse\ngrowing options",
-      "replacementHeading": "Greenhouses\nNo-dig beds and seasons",
-      "copySource": "scripts/lib/book-review-refinements.mjs#technique:greenhouse-no-dig-seasons",
-      "sourceEyebrow": "GROWING TECHNIQUES · GREENHOUSES · CONTINUED",
-      "replacementEyebrow": "GROWING TECHNIQUES - GREENHOUSES"
-    },
-    "156": {
-      "sourceHeading": "Simple crop\nrotation",
-      "replacementHeading": "Crop rotation\nA simple plan",
-      "copySource": "scripts/lib/book-review-refinements.mjs#technique:rotation",
-      "sourceEyebrow": "GROWING TECHNIQUES",
-      "replacementEyebrow": "GROWING TECHNIQUES - CROP ROTATION"
-    },
-    "154": {
-      "sourceHeading": "Making compost\nthe secret’s in the bin",
-      "replacementHeading": "Making compost\nThe secret’s in the bin",
-      "copySource": "scripts/lib/book-review-refinements.mjs#technique:compost-bins",
-      "sourceEyebrow": "GROWING TECHNIQUES · MAKING AND USING COMPOST",
-      "replacementEyebrow": "GROWING TECHNIQUES - MAKING AND USING COMPOST"
-    },
-    "155": {
-      "sourceHeading": "Making compost\nfeed it, leave it, use it",
-      "replacementHeading": "Making compost\nFeed it, leave it, use it",
-      "copySource": "scripts/lib/book-review-refinements.mjs#technique:compost-use",
-      "sourceEyebrow": "GROWING TECHNIQUES · MAKING AND USING COMPOST",
-      "replacementEyebrow": "GROWING TECHNIQUES - MAKING AND USING COMPOST"
-    },
-    "158": {
-      "sourceHeading": "Water the roots,\nread the soil",
-      "replacementHeading": "Watering\nRead the soil, water the roots",
-      "copySource": "scripts/lib/book-review-refinements.mjs#technique:watering",
-      "sourceEyebrow": "GROWING TECHNIQUES",
-      "replacementEyebrow": "GROWING TECHNIQUES - WATERING"
-    },
-    "157": {
-      "sourceHeading": "Sowing and planting:\na sound start",
-      "replacementHeading": "Sowing and planting\nA sound start",
-      "copySource": "scripts/lib/book-review-refinements.mjs#technique:sowing",
-      "sourceEyebrow": "GROWING TECHNIQUES",
-      "replacementEyebrow": "GROWING TECHNIQUES - SOWING AND PLANTING"
-    },
-    "150": {
-      "sourceHeading": "Dig or No-Dig\nChoosing your approach",
-      "replacementHeading": "Dig or No-Dig\nChoosing your approach",
-      "copySource": "scripts/lib/book-review-refinements.mjs#cultivation:overview",
-      "sourceEyebrow": "GROWING TECHNIQUES · CULTIVATION",
-      "replacementEyebrow": "GROWING TECHNIQUES - CULTIVATION"
-    },
-    "151": {
-      "sourceHeading": "Getting started with\nNo-Dig",
-      "replacementHeading": "Dig or No-Dig\nNo dig",
-      "copySource": "scripts/lib/book-review-refinements.mjs#cultivation:no-dig",
-      "sourceEyebrow": "GROWING TECHNIQUES · CULTIVATION",
-      "replacementEyebrow": "GROWING TECHNIQUES - CULTIVATION"
-    },
-    "152": {
-      "sourceHeading": "Getting started with\nDigging",
-      "replacementHeading": "Dig or No-Dig\nDigging part 1",
-      "copySource": "scripts/lib/book-review-refinements.mjs#cultivation:digging",
-      "sourceEyebrow": "GROWING TECHNIQUES · CULTIVATION",
-      "replacementEyebrow": "GROWING TECHNIQUES - CULTIVATION"
-    },
-    "153": {
-      "sourceHeading": "Digging\ncontinued",
-      "replacementHeading": "Dig or No-Dig\nDigging part 2",
-      "copySource": "scripts/lib/book-review-refinements.mjs#cultivation:digging-finish",
-      "sourceEyebrow": "GROWING TECHNIQUES · CULTIVATION",
-      "replacementEyebrow": "GROWING TECHNIQUES - CULTIVATION"
+    {
+      "folio": 165,
+      "text": "pages 56–59",
+      "target": 56
     }
-  },
-  "updatedFootersVerified": 160,
-  "oldFooterTextObjectsRemoved": 338,
-  "contentsReferences": 80,
-  "indexEntries": 273,
-  "indexNumericReferencesVerified": 484,
-  "internalIndexLinks": 371,
+  ],
   "blankFolios": [
     3,
     6,
     8,
     98,
-    166
+    150,
+    162,
+    170
   ],
   "sourceFilesUnchanged": true,
-  "limits": [
-    "Contents face at 4–5; blank 6 faces Introduction 7; blank 8 faces the approved combined Guides/how-to page 9. All three sections open recto; crop folios unchanged.",
-    "Approved publication and back-cover copy integrated; missing publication metadata remains as placeholders.",
-    "Saved guide artwork is the earlier screen derivative; not print-resolution production files.",
-    "Original B5 preserved; a separate background derivative clears its placeholder paragraph for editable approved copy. No guide regeneration, canonical data changes, supplier submission or price/spine update."
-  ],
+  "canonicalGardeningRecordsUnchanged": 58,
   "navigation": {
-    "newCropLabels": 40,
-    "existingNamedContinuations": [],
-    "changedPages": 160,
+    "internalLinks": 74,
     "pagesWithLinks": 36,
-    "headingTreatment": "Combined Growing guide and crop name; original title replaced in its measured header region",
-    "internalLinks": 55,
     "pageChecks": [
+      {
+        "folio": 2,
+        "bodyToFooterMm": 13.39056186268492,
+        "links": 0
+      },
+      {
+        "folio": 4,
+        "bodyToFooterMm": 17.588235541587697,
+        "links": 0
+      },
+      {
+        "folio": 5,
+        "bodyToFooterMm": 56.48198392101471,
+        "links": 0
+      },
+      {
+        "folio": 7,
+        "bodyToFooterMm": 4.130145581868919,
+        "links": 0
+      },
+      {
+        "folio": 9,
+        "bodyToFooterMm": 9.42181202804948,
+        "links": 0
+      },
+      {
+        "folio": 10,
+        "bodyToFooterMm": 30.55281833472987,
+        "links": 0
+      },
+      {
+        "folio": 11,
+        "bodyToFooterMm": 8.327819260771694,
+        "links": 0
+      },
+      {
+        "folio": 12,
+        "bodyToFooterMm": 3.565319459209222,
+        "links": 0
+      },
       {
         "folio": 13,
         "bodyToFooterMm": 4.991423645830128,
-        "links": 1
+        "links": 2
+      },
+      {
+        "folio": 14,
+        "bodyToFooterMm": 12.06764525113976,
+        "links": 0
       },
       {
         "folio": 15,
         "bodyToFooterMm": 14.022916082378474,
-        "links": 2
+        "links": 3
+      },
+      {
+        "folio": 16,
+        "bodyToFooterMm": 11.009311961903665,
+        "links": 0
       },
       {
         "folio": 17,
-        "bodyToFooterMm": 4.991423645829486,
-        "links": 1
+        "bodyToFooterMm": 5.027083123871256,
+        "links": 2
+      },
+      {
+        "folio": 18,
+        "bodyToFooterMm": 30.55281833472971,
+        "links": 0
       },
       {
         "folio": 19,
@@ -209,9 +131,19 @@
         "links": 1
       },
       {
+        "folio": 20,
+        "bodyToFooterMm": 27.642401789330407,
+        "links": 0
+      },
+      {
         "folio": 21,
         "bodyToFooterMm": 6.049756935065583,
         "links": 2
+      },
+      {
+        "folio": 22,
+        "bodyToFooterMm": 3.565319459208901,
+        "links": 0
       },
       {
         "folio": 23,
@@ -219,14 +151,39 @@
         "links": 3
       },
       {
+        "folio": 24,
+        "bodyToFooterMm": 3.565319459208901,
+        "links": 0
+      },
+      {
         "folio": 25,
         "bodyToFooterMm": 6.6794652421604725,
         "links": 2
       },
       {
+        "folio": 26,
+        "bodyToFooterMm": 22.61531866545891,
+        "links": 0
+      },
+      {
+        "folio": 27,
+        "bodyToFooterMm": 5.152819393063005,
+        "links": 0
+      },
+      {
+        "folio": 28,
+        "bodyToFooterMm": 34.786151491674175,
+        "links": 0
+      },
+      {
         "folio": 29,
         "bodyToFooterMm": 11.17738172141388,
-        "links": 1
+        "links": 2
+      },
+      {
+        "folio": 30,
+        "bodyToFooterMm": 7.004902649226895,
+        "links": 0
       },
       {
         "folio": 31,
@@ -234,24 +191,49 @@
         "links": 2
       },
       {
+        "folio": 32,
+        "bodyToFooterMm": 7.269485971535919,
+        "links": 0
+      },
+      {
         "folio": 33,
         "bodyToFooterMm": 24.67113115917563,
         "links": 2
       },
       {
+        "folio": 34,
+        "bodyToFooterMm": 7.269485971535919,
+        "links": 0
+      },
+      {
         "folio": 35,
         "bodyToFooterMm": 6.578923579684272,
-        "links": 1
+        "links": 2
+      },
+      {
+        "folio": 36,
+        "bodyToFooterMm": 3.600978937251192,
+        "links": 0
       },
       {
         "folio": 37,
-        "bodyToFooterMm": 6.843506901993296,
+        "bodyToFooterMm": 6.614583057726041,
         "links": 2
+      },
+      {
+        "folio": 38,
+        "bodyToFooterMm": 3.8299027815185664,
+        "links": 0
       },
       {
         "folio": 39,
         "bodyToFooterMm": 6.314340257375248,
-        "links": 1
+        "links": 2
+      },
+      {
+        "folio": 40,
+        "bodyToFooterMm": 3.565319459208259,
+        "links": 0
       },
       {
         "folio": 41,
@@ -259,9 +241,19 @@
         "links": 2
       },
       {
+        "folio": 42,
+        "bodyToFooterMm": 3.5653194592095425,
+        "links": 0
+      },
+      {
         "folio": 43,
         "bodyToFooterMm": 4.827381985998508,
-        "links": 1
+        "links": 2
+      },
+      {
+        "folio": 44,
+        "bodyToFooterMm": 3.5653194592095425,
+        "links": 0
       },
       {
         "folio": 45,
@@ -269,39 +261,89 @@
         "links": 1
       },
       {
+        "folio": 46,
+        "bodyToFooterMm": 7.534069293844943,
+        "links": 0
+      },
+      {
         "folio": 47,
         "bodyToFooterMm": 8.695590158156545,
         "links": 1
       },
       {
+        "folio": 48,
+        "bodyToFooterMm": 7.534069293844943,
+        "links": 0
+      },
+      {
         "folio": 49,
         "bodyToFooterMm": 7.637256868920448,
-        "links": 2
+        "links": 3
+      },
+      {
+        "folio": 50,
+        "bodyToFooterMm": 14.942402318497736,
+        "links": 0
       },
       {
         "folio": 51,
         "bodyToFooterMm": 13.987256604337105,
+        "links": 2
+      },
+      {
+        "folio": 52,
+        "bodyToFooterMm": 14.942402318497736,
+        "links": 0
+      },
+      {
+        "folio": 53,
+        "bodyToFooterMm": 7.372673546610141,
         "links": 1
+      },
+      {
+        "folio": 54,
+        "bodyToFooterMm": 22.61531866545827,
+        "links": 0
       },
       {
         "folio": 55,
         "bodyToFooterMm": 10.54767341431843,
-        "links": 1
+        "links": 2
+      },
+      {
+        "folio": 56,
+        "bodyToFooterMm": 14.978061796540668,
+        "links": 0
       },
       {
         "folio": 57,
-        "bodyToFooterMm": 4.991423645828845,
-        "links": 3
+        "bodyToFooterMm": 5.027083123870614,
+        "links": 4
+      },
+      {
+        "folio": 58,
+        "bodyToFooterMm": 21.821568698531156,
+        "links": 0
       },
       {
         "folio": 59,
         "bodyToFooterMm": 7.737798531399135,
-        "links": 1
+        "links": 2
+      },
+      {
+        "folio": 60,
+        "bodyToFooterMm": 14.942402318499019,
+        "links": 0
       },
       {
         "folio": 61,
         "bodyToFooterMm": 7.372673546610141,
-        "links": 2
+        "links": 3
+      },
+      {
+        "folio": 62,
+        "bodyToFooterMm": 13.619485706951332,
+        "links": 0
       },
       {
         "folio": 63,
@@ -309,9 +351,19 @@
         "links": 2
       },
       {
+        "folio": 64,
+        "bodyToFooterMm": 8.098895416503398,
+        "links": 0
+      },
+      {
         "folio": 65,
-        "bodyToFooterMm": 4.827381985997224,
+        "bodyToFooterMm": 4.59845814172997,
         "links": 2
+      },
+      {
+        "folio": 66,
+        "bodyToFooterMm": 7.305145449578852,
+        "links": 0
       },
       {
         "folio": 67,
@@ -319,24 +371,79 @@
         "links": 2
       },
       {
-        "folio": 73,
-        "bodyToFooterMm": 7.637256868921732,
+        "folio": 68,
+        "bodyToFooterMm": 18.64656883082283,
+        "links": 0
+      },
+      {
+        "folio": 69,
+        "bodyToFooterMm": 6.944048564472063,
         "links": 1
+      },
+      {
+        "folio": 70,
+        "bodyToFooterMm": 18.91115215313185,
+        "links": 0
+      },
+      {
+        "folio": 71,
+        "bodyToFooterMm": 4.988777733230743,
+        "links": 0
+      },
+      {
+        "folio": 72,
+        "bodyToFooterMm": 10.48014531728722,
+        "links": 0
+      },
+      {
+        "folio": 73,
+        "bodyToFooterMm": 7.672916346963421,
+        "links": 2
+      },
+      {
+        "folio": 74,
+        "bodyToFooterMm": 11.5028191284791,
+        "links": 0
       },
       {
         "folio": 75,
         "bodyToFooterMm": 5.091965308306248,
-        "links": 1
+        "links": 2
+      },
+      {
+        "folio": 76,
+        "bodyToFooterMm": 4.094486103828874,
+        "links": 0
       },
       {
         "folio": 77,
         "bodyToFooterMm": 5.8857152752334,
-        "links": 1
+        "links": 2
+      },
+      {
+        "folio": 78,
+        "bodyToFooterMm": 7.534069293843659,
+        "links": 0
       },
       {
         "folio": 79,
         "bodyToFooterMm": 4.827381985999791,
-        "links": 1
+        "links": 2
+      },
+      {
+        "folio": 80,
+        "bodyToFooterMm": 15.206985640805476,
+        "links": 0
+      },
+      {
+        "folio": 81,
+        "bodyToFooterMm": 6.211152682298459,
+        "links": 0
+      },
+      {
+        "folio": 82,
+        "bodyToFooterMm": 10.744728639596245,
+        "links": 0
       },
       {
         "folio": 83,
@@ -344,41 +451,429 @@
         "links": 3
       },
       {
+        "folio": 84,
+        "bodyToFooterMm": 10.744728639593678,
+        "links": 0
+      },
+      {
         "folio": 85,
         "bodyToFooterMm": 13.493749437759464,
         "links": 2
       },
       {
+        "folio": 86,
+        "bodyToFooterMm": 14.942402318499019,
+        "links": 0
+      },
+      {
+        "folio": 87,
+        "bodyToFooterMm": 6.475736004607484,
+        "links": 0
+      },
+      {
+        "folio": 88,
+        "bodyToFooterMm": 26.61972797813532,
+        "links": 0
+      },
+      {
         "folio": 89,
-        "bodyToFooterMm": 9.589881787562303,
-        "links": 1
+        "bodyToFooterMm": 9.786937012837592,
+        "links": 0
+      },
+      {
+        "folio": 90,
+        "bodyToFooterMm": 3.565319459208259,
+        "links": 0
       },
       {
         "folio": 91,
         "bodyToFooterMm": 5.356548630615272,
-        "links": 1
+        "links": 2
+      },
+      {
+        "folio": 92,
+        "bodyToFooterMm": 36.902818070148335,
+        "links": 0
       },
       {
         "folio": 93,
         "bodyToFooterMm": 12.135173348172573,
-        "links": 1
+        "links": 2
+      },
+      {
+        "folio": 94,
+        "bodyToFooterMm": 25.790318533166598,
+        "links": 0
       },
       {
         "folio": 95,
-        "bodyToFooterMm": 4.991423645831412,
-        "links": 1
+        "bodyToFooterMm": 5.15281939306493,
+        "links": 0
+      },
+      {
+        "folio": 96,
+        "bodyToFooterMm": 89.81948253195131,
+        "links": 0
+      },
+      {
+        "folio": 97,
+        "bodyToFooterMm": 6.740319326916508,
+        "links": 0
+      },
+      {
+        "folio": 99,
+        "bodyToFooterMm": 6.775978804958237,
+        "links": 0
+      },
+      {
+        "folio": 100,
+        "bodyToFooterMm": 10.179902516936506,
+        "links": 0
+      },
+      {
+        "folio": 101,
+        "bodyToFooterMm": 72.35698325955542,
+        "links": 0
+      },
+      {
+        "folio": 102,
+        "bodyToFooterMm": 10.973652483861052,
+        "links": 0
+      },
+      {
+        "folio": 103,
+        "bodyToFooterMm": 26.848651822402733,
+        "links": 0
+      },
+      {
+        "folio": 104,
+        "bodyToFooterMm": 68.38823342492006,
+        "links": 0
+      },
+      {
+        "folio": 105,
+        "bodyToFooterMm": 68.38823342491486,
+        "links": 0
+      },
+      {
+        "folio": 106,
+        "bodyToFooterMm": 75.53198312725868,
+        "links": 0
+      },
+      {
+        "folio": 107,
+        "bodyToFooterMm": 62.0382336894982,
+        "links": 0
+      },
+      {
+        "folio": 108,
+        "bodyToFooterMm": 66.00698352413885,
+        "links": 0
+      },
+      {
+        "folio": 109,
+        "bodyToFooterMm": 6.2111526822986995,
+        "links": 0
+      },
+      {
+        "folio": 110,
+        "bodyToFooterMm": 10.17990251693398,
+        "links": 0
+      },
+      {
+        "folio": 111,
+        "bodyToFooterMm": 13.354902384642429,
+        "links": 0
+      },
+      {
+        "folio": 112,
+        "bodyToFooterMm": 6.211152682293406,
+        "links": 0
+      },
+      {
+        "folio": 113,
+        "bodyToFooterMm": 14.942402318491279,
+        "links": 0
+      },
+      {
+        "folio": 114,
+        "bodyToFooterMm": 76.32573309419087,
+        "links": 0
+      },
+      {
+        "folio": 115,
+        "bodyToFooterMm": 67.59448345799298,
+        "links": 0
+      },
+      {
+        "folio": 116,
+        "bodyToFooterMm": 81.0882328957533,
+        "links": 0
+      },
+      {
+        "folio": 117,
+        "bodyToFooterMm": 67.59448345799298,
+        "links": 0
+      },
+      {
+        "folio": 118,
+        "bodyToFooterMm": 62.831983656425265,
+        "links": 0
+      },
+      {
+        "folio": 119,
+        "bodyToFooterMm": 16.529902252345504,
+        "links": 0
+      },
+      {
+        "folio": 120,
+        "bodyToFooterMm": 9.650735872310799,
+        "links": 0
+      },
+      {
+        "folio": 121,
+        "bodyToFooterMm": 19.175735475440955,
+        "links": 0
+      },
+      {
+        "folio": 122,
+        "bodyToFooterMm": 76.32573309419088,
+        "links": 0
+      },
+      {
+        "folio": 123,
+        "bodyToFooterMm": 67.59448345799298,
+        "links": 0
+      },
+      {
+        "folio": 124,
+        "bodyToFooterMm": 18.91115215313185,
+        "links": 0
+      },
+      {
+        "folio": 125,
+        "bodyToFooterMm": 84.26323276345661,
+        "links": 0
+      },
+      {
+        "folio": 126,
+        "bodyToFooterMm": 25.56139468889409,
+        "links": 0
+      },
+      {
+        "folio": 127,
+        "bodyToFooterMm": 32.1759777466249,
+        "links": 0
+      },
+      {
+        "folio": 128,
+        "bodyToFooterMm": 21.063478209645734,
+        "links": 0
+      },
+      {
+        "folio": 129,
+        "bodyToFooterMm": 15.736152285423524,
+        "links": 0
+      },
+      {
+        "folio": 130,
+        "bodyToFooterMm": 154.113229853045,
+        "links": 0
+      },
+      {
+        "folio": 131,
+        "bodyToFooterMm": 12.031985773092014,
+        "links": 0
+      },
+      {
+        "folio": 132,
+        "bodyToFooterMm": 26.84865182239752,
+        "links": 0
+      },
+      {
+        "folio": 133,
+        "bodyToFooterMm": 26.8486518223976,
+        "links": 0
+      },
+      {
+        "folio": 134,
+        "bodyToFooterMm": 18.91115215313201,
+        "links": 0
+      },
+      {
+        "folio": 135,
+        "bodyToFooterMm": 85.05698273038882,
+        "links": 0
+      },
+      {
+        "folio": 136,
+        "bodyToFooterMm": 62.038233689503386,
+        "links": 0
+      },
+      {
+        "folio": 137,
+        "bodyToFooterMm": 137.44448054757626,
+        "links": 0
+      },
+      {
+        "folio": 138,
+        "bodyToFooterMm": 67.59448345798783,
+        "links": 0
+      },
+      {
+        "folio": 139,
+        "bodyToFooterMm": 18.911152153126718,
+        "links": 0
+      },
+      {
+        "folio": 140,
+        "bodyToFooterMm": 31.611151623965245,
+        "links": 0
+      },
+      {
+        "folio": 141,
+        "bodyToFooterMm": 33.198651557819474,
+        "links": 0
+      },
+      {
+        "folio": 142,
+        "bodyToFooterMm": 22.879901987767294,
+        "links": 0
+      },
+      {
+        "folio": 143,
+        "bodyToFooterMm": 23.673651954694364,
+        "links": 0
+      },
+      {
+        "folio": 144,
+        "bodyToFooterMm": 22.87990198776208,
+        "links": 0
+      },
+      {
+        "folio": 145,
+        "bodyToFooterMm": 6.7759788049531435,
+        "links": 0
+      },
+      {
+        "folio": 146,
+        "bodyToFooterMm": 4.1301455818628225,
+        "links": 0
+      },
+      {
+        "folio": 147,
+        "bodyToFooterMm": 5.982228838031165,
+        "links": 0
+      },
+      {
+        "folio": 148,
+        "bodyToFooterMm": 4.130145581867956,
+        "links": 0
+      },
+      {
+        "folio": 149,
+        "bodyToFooterMm": 4.130145581868037,
+        "links": 0
+      },
+      {
+        "folio": 151,
+        "bodyToFooterMm": 4.130145581867956,
+        "links": 0
+      },
+      {
+        "folio": 152,
+        "bodyToFooterMm": 4.1301455818628225,
+        "links": 0
+      },
+      {
+        "folio": 153,
+        "bodyToFooterMm": 4.1301455818628225,
+        "links": 0
+      },
+      {
+        "folio": 154,
+        "bodyToFooterMm": 4.130145581867956,
+        "links": 0
+      },
+      {
+        "folio": 155,
+        "bodyToFooterMm": 4.130145581868037,
+        "links": 0
+      },
+      {
+        "folio": 156,
+        "bodyToFooterMm": 17.62389501962838,
+        "links": 0
+      },
+      {
+        "folio": 157,
+        "bodyToFooterMm": 27.148894622753446,
+        "links": 0
+      },
+      {
+        "folio": 158,
+        "bodyToFooterMm": 24.767644721967017,
+        "links": 0
+      },
+      {
+        "folio": 159,
+        "bodyToFooterMm": 4.1301455818628225,
+        "links": 0
+      },
+      {
+        "folio": 160,
+        "bodyToFooterMm": 4.1301455818628225,
+        "links": 0
+      },
+      {
+        "folio": 161,
+        "bodyToFooterMm": 4.130145581867796,
+        "links": 0
+      },
+      {
+        "folio": 163,
+        "bodyToFooterMm": 4.130145581868117,
+        "links": 0
+      },
+      {
+        "folio": 164,
+        "bodyToFooterMm": 4.130145581867956,
+        "links": 0
+      },
+      {
+        "folio": 165,
+        "bodyToFooterMm": 4.130145581868117,
+        "links": 0
+      },
+      {
+        "folio": 166,
+        "bodyToFooterMm": 16.036395085769104,
+        "links": 0
+      },
+      {
+        "folio": 167,
+        "bodyToFooterMm": 18.153061664241335,
+        "links": 0
+      },
+      {
+        "folio": 168,
+        "bodyToFooterMm": 18.94681163116841,
+        "links": 0
+      },
+      {
+        "folio": 169,
+        "bodyToFooterMm": 16.83014505270127,
+        "links": 0
       }
     ],
-    "highlights": "All review highlights removed from PDF and viewer",
-    "retainedApprovedCropHeadings": 4
+    "highlights": "None"
   },
-  "approvedHeaderIntegration": {
-    "headers": 44,
-    "headerBoundaryMm": 33.8,
-    "allHeaderWordsPreserved": true,
-    "allGuideBodyTextPreserved": true,
-    "bothUnitMeasurements": 88,
-    "receipt": "docs/publication/whole-book-order-preview/integration-headers-opening-2026-10-15/HEADERS.json"
-  },
-  "approvedCombinedOpening": "docs/publication/combined-guides-opening/APPROVAL.json"
+  "limits": [
+    "Screen preview; not a supplier upload.",
+    "Full assembled edition is imperial; contents and index references checked in both units.",
+    "Publication metadata placeholders retained. Final stock, print-resolution export, preflight, cover wrap and physical proof remain separate work."
+  ],
+  "finalCopyEditFolios": [
+    146
+  ]
 }

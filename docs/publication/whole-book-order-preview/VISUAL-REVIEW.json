@@ -1,96 +1,119 @@
 {
-  "date": "2026-10-15",
-  "status": "Changed pages visually inspected; complete assembly ready for John, not self-approved",
-  "pdfSha256": "39d437e8571d92aca177c31a2da4e2f371dada19a5f66465e4826678ac747cd6",
-  "render": {
-    "pages": 170,
-    "dpi": 110,
-    "format": "JPEG",
-    "nativeTextRetainedInPdf": true
-  },
-  "coverage": {
-    "headerFolios": [
-      10,
-      12,
-      14,
-      16,
-      18,
-      20,
-      22,
-      24,
-      26,
-      28,
-      30,
-      32,
-      34,
-      36,
-      38,
-      40,
-      42,
-      44,
-      46,
-      48,
-      50,
-      52,
-      54,
-      56,
-      58,
-      60,
-      62,
-      64,
-      66,
-      68,
-      70,
-      72,
-      74,
-      76,
-      78,
-      80,
-      82,
-      84,
-      86,
-      88,
-      90,
-      92,
-      94,
-      96
+  "date": "2026-10-18",
+  "status": "passed for inspected pages",
+  "pdfSha256": "0f9426f6bbe7deccc1f3a5f07c883c35ff1b226b668dac7771ecedc898299439",
+  "method": "Actual PDF renders viewed locally. Page 146 checked in both standalone units and in final imperial spread 146–147; earlier unchanged-page visual coverage retained through exact reused-body checks.",
+  "spreadFoliosInspected": [
+    [
+      4,
+      5
     ],
-    "headerSheets": [
-      "docs/publication/whole-book-order-preview/integration-headers-opening-2026-10-15/headers-1.jpg",
-      "docs/publication/whole-book-order-preview/integration-headers-opening-2026-10-15/headers-2.jpg",
-      "docs/publication/whole-book-order-preview/integration-headers-opening-2026-10-15/headers-3.jpg",
-      "docs/publication/whole-book-order-preview/integration-headers-opening-2026-10-15/headers-4.jpg"
+    [
+      8,
+      9
     ],
-    "fullSpreadInspection": [
+    [
+      146,
+      147
+    ],
+    [
+      148,
+      149
+    ],
+    [
+      150,
+      151
+    ],
+    [
+      164,
+      165
+    ],
+    [
+      166,
+      167
+    ],
+    [
+      168,
+      169
+    ]
+  ],
+  "detailFoliosInspected": [
+    57,
+    165
+  ],
+  "contactOverviewFolios": [
+    154,
+    155,
+    156,
+    157,
+    158,
+    159,
+    160,
+    161,
+    162,
+    163,
+    164,
+    165,
+    14,
+    15,
+    16,
+    17,
+    36,
+    37,
+    56,
+    57,
+    64,
+    65,
+    72,
+    73,
+    82,
+    83,
+    88,
+    89,
+    126,
+    127,
+    128
+  ],
+  "findings": [
+    "Contents retain two clear illustrated pages at unchanged type size; new order/entry fit after a 5 mm reduction in the lower-art gap.",
+    "Organic growing now carries John’s final copy changes; diagram, closing box and type sizes remain. Nutrients and rotation retain their approved content.",
+    "Approved blanks and right-hand introductions preserve the later facing pairs.",
+    "Index remains four readable pages with new terms and unclipped references.",
+    "Combined guide key and representative edited guides retain accepted colour, typography and two-page fit.",
+    "Longest multi-destination Lettuce footer is readable and clear of the body."
+  ],
+  "limits": [
+    "Contact sheets check overall composition; detailed copy and all bodies verified separately against exact PDF sources.",
+    "Unchanged pages were not all re-read visually.",
+    "Screen proof, not print-resolution or supplier preflight approval."
+  ],
+  "previousPdfSha256": "f7bfe1dba8de39c4c2ecf0a0468c9b67d35ca36703e41d7cbc1bdfe452875f92",
+  "currentRevision": {
+    "date": "2026-10-18",
+    "copy": "src/print/book/final-text-edits/organic.json",
+    "detailFoliosInspected": [
+      146
+    ],
+    "spreadFoliosInspected": [
       [
-        4,
-        5
-      ],
-      [
-        8,
-        9
-      ],
-      [
-        40,
-        41
-      ],
-      [
-        66,
-        67
+        146,
+        147
       ]
     ],
-    "approvedComparisons": [
-      "docs/publication/vegetable-header-review/APPROVAL.json",
-      "docs/publication/combined-guides-opening/APPROVAL.json"
-    ]
-  },
-  "findings": [
-    "All 44 headers keep readable season/title spacing and page-paper difficulty ovals, including long and two-line crop names.",
-    "No header clipping or visible join at the retained introduction; Kale title and introduction inspected at full spread size.",
-    "Combined Guides/how-to matches the approved peach panel with clear examples and no Water stripe; right-hand page 9 faces blank 8.",
-    "Contents remain a matching facing pair at 4\u20135; both Guides destinations now show 9.",
-    "Onions/shallots and Kale retain complete two-page layouts; every other guide body is source/text checked, not claimed as newly reviewed in full."
-  ],
-  "sourceJsonUnchanged": true,
-  "highlights": false
+    "standaloneUnitsInspected": [
+      "imperial",
+      "metric"
+    ],
+    "unitRendersPixelIdentical": true,
+    "bodyFontPt": 9.45,
+    "pdfChecks": "docs/publication/final-text-edits/PDF-CHECKS.json",
+    "findings": [
+      "All four author-requested replacements are present, with spelling and colon-continuation corrections.",
+      "Three-column composition, diagram/caption and closing box are retained; no text collision or clipping.",
+      "The shortened middle paragraph fits above the closing box at the original type size.",
+      "Facing nutrient page, pagination and navigation remain intact."
+    ],
+    "approval": "Revised page for John’s review; no new design approval recorded.",
+    "latestCorrection": "Middle paragraph ends: your garden will ultimately flourish."
+  }
 }

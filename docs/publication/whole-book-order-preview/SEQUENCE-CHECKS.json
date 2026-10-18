@@ -1,116 +1,95 @@
 {
-  "status": "passed",
-  "pdfSha256": "39d437e8571d92aca177c31a2da4e2f371dada19a5f66465e4826678ac747cd6",
+  "date": "2026-10-18",
+  "pdfSha256": "0f9426f6bbe7deccc1f3a5f07c883c35ff1b226b668dac7771ecedc898299439",
+  "interiorPages": 170,
   "firstLeaves": [
     {
-      "pdfPage": 1,
       "folio": null,
       "label": "Front cover — G2",
       "kind": "cover",
-      "source": "output/pdf/bookvault-progress-preview/the-vegetable-guru-bookvault-progress-preview.pdf",
+      "source": "docs/publication/whole-book-order-preview/integration-2026-10-18/baseline.pdf",
       "sourcePage": 1,
-      "changes": [],
-      "image": "pages/page-001.jpg"
+      "pdfPage": 1
     },
     {
-      "pdfPage": 2,
       "folio": null,
       "label": "Inside front cover",
       "kind": "blank",
-      "source": null,
-      "sourcePage": null,
-      "changes": [],
-      "image": "pages/page-002.jpg"
+      "source": "docs/publication/whole-book-order-preview/integration-2026-10-18/baseline.pdf",
+      "sourcePage": 2,
+      "pdfPage": 2
     },
     {
-      "pdfPage": 3,
       "folio": 1,
       "label": "Title",
       "kind": "opening",
-      "source": "tmp/pdfs/whole-book-order-preview/opening.pdf",
-      "sourcePage": 1,
-      "changes": [],
-      "image": "pages/page-003.jpg"
+      "source": "docs/publication/whole-book-order-preview/integration-2026-10-18/baseline.pdf",
+      "sourcePage": 3,
+      "pdfPage": 3
     },
     {
-      "pdfPage": 4,
       "folio": 2,
       "label": "Publication details",
       "kind": "opening",
-      "source": "tmp/pdfs/whole-book-order-preview/opening.pdf",
-      "sourcePage": 2,
-      "changes": [],
-      "image": "pages/page-004.jpg"
+      "source": "docs/publication/whole-book-order-preview/integration-2026-10-18/baseline.pdf",
+      "sourcePage": 4,
+      "pdfPage": 4
     },
     {
-      "pdfPage": 5,
       "folio": 3,
       "label": "Blank — places the contents on facing pages",
       "kind": "blank",
-      "source": null,
-      "sourcePage": null,
-      "changes": [],
-      "image": "pages/page-005.jpg"
+      "source": "docs/publication/whole-book-order-preview/integration-2026-10-18/baseline.pdf",
+      "sourcePage": 5,
+      "pdfPage": 5
     },
     {
-      "pdfPage": 6,
       "folio": 4,
       "label": "Contents",
       "kind": "contents",
       "source": "output/pdf/contents-update/contents-imperial.pdf",
       "sourcePage": 1,
-      "changes": [],
-      "image": "pages/page-006.jpg"
+      "pdfPage": 6
     },
     {
-      "pdfPage": 7,
       "folio": 5,
       "label": "Contents — continued",
       "kind": "contents",
       "source": "output/pdf/contents-update/contents-imperial.pdf",
       "sourcePage": 2,
-      "changes": [],
-      "image": "pages/page-007.jpg"
+      "pdfPage": 7
     },
     {
-      "pdfPage": 8,
       "folio": 6,
       "label": "Blank — faces the introduction",
       "kind": "blank",
-      "source": null,
-      "sourcePage": null,
-      "changes": [],
-      "image": "pages/page-008.jpg"
+      "source": "docs/publication/whole-book-order-preview/integration-2026-10-18/baseline.pdf",
+      "sourcePage": 8,
+      "pdfPage": 8
     },
     {
-      "pdfPage": 9,
       "folio": 7,
       "label": "Introduction — why grow your own",
       "kind": "techniques",
-      "source": "tmp/pdfs/whole-book-order-preview/techniques.pdf",
-      "sourcePage": 1,
-      "changes": [],
-      "image": "pages/page-009.jpg"
+      "source": "docs/publication/whole-book-order-preview/integration-2026-10-18/baseline.pdf",
+      "sourcePage": 9,
+      "pdfPage": 9
     },
     {
-      "pdfPage": 10,
       "folio": 8,
       "label": "Blank — faces the combined vegetable guides opener",
       "kind": "blank",
-      "source": null,
-      "sourcePage": null,
-      "changes": [],
-      "image": "pages/page-010.jpg"
+      "source": "docs/publication/whole-book-order-preview/integration-2026-10-18/baseline.pdf",
+      "sourcePage": 10,
+      "pdfPage": 10
     },
     {
-      "pdfPage": 11,
       "folio": 9,
       "label": "Vegetable Guides — how to use the guides",
       "kind": "combined-guides-opening",
-      "source": "docs/publication/combined-guides-opening/references/approved-2026-10-15/opening.pdf",
+      "source": "output/pdf/reader-edit-pass/navigation/guide-key-imperial-clean.pdf",
       "sourcePage": 1,
-      "changes": [],
-      "image": "pages/page-011.jpg"
+      "pdfPage": 11
     }
   ],
   "sectionStartFolios": [
@@ -123,25 +102,52 @@
     "recto",
     "recto"
   ],
-  "contentsFolios": [
-    4,
-    5
+  "vegetableFacingPairs": 44,
+  "techniqueFacingPairs": [
+    [
+      146,
+      147
+    ],
+    [
+      148,
+      149
+    ],
+    [
+      152,
+      153
+    ],
+    [
+      154,
+      155
+    ],
+    [
+      156,
+      157
+    ],
+    [
+      158,
+      159
+    ],
+    [
+      160,
+      161
+    ],
+    [
+      164,
+      165
+    ]
   ],
-  "contentsFacing": true,
-  "introductionFolio": 7,
-  "introductionTitle": "Introduction — why grow your own",
-  "blankBeforeIntroduction": 6,
-  "welcomeInBook": false,
-  "copySave": "docs/publication/contents-update/INTRODUCTION-TITLE-SAVE.json",
-  "bookmarksVerified": {
-    "Contents": 6,
-    "Introduction — why grow your own": 9,
-    "Vegetable Guides": 11,
-    "Vegetable guides — how to use": 11,
-    "Vegetable Troubles": 101,
-    "Growing Techniques": 147
-  },
-  "navigationPass": "Approved headers and combined right-hand Guides/how-to integrated; first crop and all subsequent folios unchanged.",
-  "combinedGuidesAndHowToFolio": 9,
-  "blankBeforeCombinedGuides": 8
+  "blankFolios": [
+    3,
+    6,
+    8,
+    98,
+    150,
+    162,
+    170
+  ],
+  "indexFolios": [
+    166,
+    169
+  ]
 }

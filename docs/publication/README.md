@@ -1,6 +1,6 @@
 # Publication research and production evidence
 
-Documentation updated 14 October 2026; supplier research retains its stated dates.
+Documentation updated 18 October 2026; supplier research retains its stated dates.
 This document owns dated supplier research and cost
 assumptions. **Current scope, decisions, component status and next actions are
 maintained in [the handover](../handover/START-HERE.md).** Do not treat older
@@ -8,28 +8,27 @@ recommendations or quote specifications as a current work queue.
 
 ## Review files and source designs
 
-Start with the [whole-book order preview](whole-book-order-preview/REVIEW.html):
-**176 interior pages plus four cover leaves (180 PDF pages), imperial only**.
-It applies John's 14 October order and includes the latest copy, all approved
-additional pages, three new section openers, updated contents and numeric index.
-The new opener designs and expanded contents remain for review. The
-[preview notes](whole-book-order-preview/README.md) own its sources, page map and
-checks. This is a screen review, not an upload file.
+Start with the [current full preview](whole-book-order-preview/REVIEW.html):
+**170 interior pages plus four cover leaves (174 PDF pages), imperial**.
+All approved reader edits, the expanded rotation spread, nutrient page and
+Growing Techniques order are integrated, including approved blanks 150 and 162.
+Contents remain two simple illustrated pages; the numeric index is four pages
+at 166–169. All 44 vegetable guides remain two-page facing spreads.
+[Preview notes](whole-book-order-preview/README.md) own the current sources,
+page map and checks. This is a screen review, not a supplier upload.
 
-Approved components remain preserved separately:
+Approved components and historical proofs remain preserved separately:
 
-- [Four cultivation pages](topic-pages/cultivation-dig-no-dig/APPROVAL.json),
-  approved 8 October; current book folios 160–163, with Digging facing at 162–163.
-- [Thirteen-page expansion](topic-pages/techniques-expansion/COLLECTION-APPROVAL.json),
-  approved complete 12 October. Why Grow Your Own is now book page 7; the twelve
-  techniques pages join cultivation at the back. Rotation and later sections
-  are approved; no rolling section review remains. The compost construction
-  pilot is superseded and the crop-supports trial was discarded.
-- [Four-page index](book-index/APPROVAL.json), approved 12 October. Its original
-  proof keeps historical T/C labels; the separate integrated version uses real
-  folios at 172–175 and clickable internal references.
-- [Compact contents/how-to source](vegetable-guru-entry-pages/REVIEW.html),
-  approved 7 October. The current three-page contents is a separate proposal.
+- [Four cultivation pages](topic-pages/cultivation-dig-no-dig/APPROVAL.json), now 156–159.
+- [Original thirteen-page expansion](topic-pages/techniques-expansion/COLLECTION-APPROVAL.json),
+  with later approved reader edits layered into the current book. Its original
+  one-page rotation is superseded by [Crop rotation & planning](topic-pages/crop-rotation-planning/APPROVAL-2026-10-18.json), now 148–149.
+- [Nutrient cycles](topic-pages/nutrient-cycles/APPROVAL-2026-10-18.json), now 147,
+  and [approved section order](techniques-sequence/APPROVAL-2026-10-18.json).
+- [Original index approval](book-index/APPROVAL.json); its historical T/C labels
+  remain only in the frozen standalone proof. Current index has 286 entries.
+- [Original compact contents/how-to](vegetable-guru-entry-pages/REVIEW.html),
+  retained alongside the accepted two-page contents and combined opener at 9.
 
 The [asset registry](../assets/README.md) identifies exact approved sources.
 Editable opening/cover/index and section-opener copy lives in shared
@@ -52,8 +51,8 @@ The [148-page technical review pack](book-preparation/REVIEW.html) contains
 imperial/metric KDP and Bookvault drafts with the older seven-page opening pack.
 The [152-leaf rough screen preview](bookvault-progress-preview/REVIEW.html)
 adds G2/B5 and proposed opening artwork to that earlier interior. These saved
-files remain inputs/evidence, **not the current book**. The preceding 170-page
-order preview is retained in the current preview's reference folder.
+files remain inputs/evidence, **not the current book**. The preceding 170-PDF-page preview (166 interior pages) is preserved as
+[the integration baseline](whole-book-order-preview/integration-2026-10-18/baseline.pdf).
 
 [BOOK-PREPARATION-STATE.json](BOOK-PREPARATION-STATE.json) records exact coverage,
 hashes and remaining technical limits. Earlier numerical checks and representative
@@ -72,7 +71,7 @@ Retained production evidence:
 - [Dated requirements and calculator evidence](book-preparation/POD-PREFLIGHT.json).
 
 **Costs below use older page counts and dated terms. They have not been refreshed
-for the current 176-page interior.** Recheck them, stock and the cover template
+for the current 170-page interior.** Recheck them, stock and the cover template
 when production work resumes. Both automations remain paused. No title creation,
 upload, rights/ISBN declaration, proof order, supplier message or publication
 is authorised by these records.
@@ -388,7 +387,7 @@ The interior uses the verified 17 mm binding safety and 3 mm bleed template.
 The earlier 180- and 134-page calculations below are retained evidence from
 before the measured 148-page draft. Their proposed stocks, prices and next-step
 language are historical recommendations, not current specifications or tasks.
-The current review is 176 interior pages and may change after review. Follow the
+The current review is 170 interior pages; final production pagination remains subject to any later authorised changes. Follow the
 handover for decisions; the dated calculator evidence above requires refreshing
 against the eventual production specification.
 

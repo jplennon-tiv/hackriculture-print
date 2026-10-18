@@ -1,0 +1,1539 @@
+{
+  "journeys": [
+    {
+      "id": "novice",
+      "name": "First season · two small beds",
+      "profile": {
+        "name": "First year with two small beds",
+        "experience": "Has never grown vegetables and does not initially know terms such as drill, module, station or succession. Can read a seed packet, measure distances and keep a notebook.",
+        "place": "A lowland English back garden, approximately the book's stated climate baseline; no specific year's weather or last-frost date is invented.",
+        "space": "Two existing, empty, open-bottom raised beds, each 4 ft by 8 ft, reachable from both long sides; soil is workable and there is no known soil-borne disease. The previous crop history is unknown, which is recorded rather than treated as clean-ground proof.",
+        "resources": "At least half a day of sun, a nearby hose, hand tools, room to obtain mature compost, no greenhouse or heated propagator. Direct sowing is preferred. Fleece or mesh can be obtained if the book makes its purpose clear.",
+        "time": "About an hour at the weekend plus short checks near the kitchen on most days in the growing season. A weekend-only visitor would be a different and less suitable courgette persona.",
+        "goal": "Some fresh vegetables for two adults and useful first-year experience, not year-round self-sufficiency or a promised yield.",
+        "crop_selection": [
+          {
+            "crop": "Carrot",
+            "choice": "Early Nantes 2",
+            "reason": "The printed short-rooted label and successive-sowing description offer an understandable starting choice.",
+            "pages": [
+              14,
+              15
+            ]
+          },
+          {
+            "crop": "Lettuce",
+            "choice": "Salad Bowl",
+            "reason": "Repeated picking from a few plants suits a small household and the limited space.",
+            "pages": [
+              56,
+              57
+            ]
+          },
+          {
+            "crop": "French bean",
+            "choice": "Tendergreen",
+            "reason": "The guide explicitly distinguishes a dwarf option needing no tall support.",
+            "pages": [
+              44,
+              45
+            ]
+          },
+          {
+            "crop": "Onion",
+            "choice": "Sturon sets",
+            "reason": "The introduction and variety description identify spring sets as the simpler route; the second page keeps sets separate from seed.",
+            "pages": [
+              66,
+              67
+            ]
+          },
+          {
+            "crop": "Courgette",
+            "choice": "One Astia F1 plant",
+            "reason": "The variety description names smaller beds, but the reader still reserves at least the guide's 3 ft spacing in both directions and accepts frequent picking.",
+            "pages": [
+              72,
+              73
+            ]
+          }
+        ],
+        "working_space_plan": "Sketch separate small crop areas within the two beds, reserving a 4 ft by 4 ft end for one courgette. Use the printed row/plant distances for the remaining short carrot and onion rows, a short dwarf-bean row and a few loose-leaf lettuces. This is a simulated allocation decision, not a verified maximum-density plan or a yield calculation.",
+        "important_assumptions": [
+          "Month names are decision windows; sowing proceeds only when the crop's stated weather and soil conditions are met.",
+          "The simulation does not invent successful harvests. Later tasks describe how a reader would decide whether an assumed growing crop is ready or troubled.",
+          "The reader can choose a winter pause. The first-year five-crop selection is not required to fill every month with a fresh harvest.",
+          "A source conflict about compost and carrot fanging is left unresolved. The simulated cautious response is to avoid adding new material to the carrot area while continuing the rest of the plan, not to endorse that response as corrected gardening advice."
+        ]
+      },
+      "months": [
+        {
+          "month": "January",
+          "question": "What is a sensible first selection, and can it fit in my two beds and available time?",
+          "decision": "Choose the five crops listed in the persona; choose dwarf beans, loose-leaf lettuce and onion sets. Reserve generous space for one courgette and plan short rows rather than planting every seed in a packet.",
+          "answer": "Answered with several page visits. The book positively supports starting small and choosing useful crops. Courgette spacing and frequent harvesting prevent the tempting but unsuitable decision to plant several in one small bed.",
+          "friction": "Difficulty measures growing ease, not time commitment. The courgette's daily/every-other-day picking obligation is clear on p73 but not visible in its difficulty score. This is a selection-stage discovery issue, not absent advice. A beginner route would reduce page hunting, but the contents already expose the relevant planning pages.",
+          "folios": [
+            4,
+            5,
+            7,
+            9,
+            14,
+            44,
+            45,
+            56,
+            57,
+            66,
+            67,
+            72,
+            73,
+            147,
+            148
+          ]
+        },
+        {
+          "month": "February",
+          "question": "How do I prepare the existing beds, and should the carrot area receive the same compost as everything else?",
+          "decision": "Prepare access and remove weeds when the soil is workable. Plan the bed areas. Continue preparation for the other crops, but hold the decision to add new compost to the carrot area because the printed guidance appears inconsistent.",
+          "answer": "Most of the preparation route works; the carrot compost sub-decision stalls. The no-dig page gives a real sequence, materials, maturity requirements and ongoing maintenance, rather than merely advocating a method.",
+          "friction": "P14 says compost added shortly before sowing usually causes fanging, while its introduction says compost-filled no-dig beds can work; p151 permits planting into finished mature compost and p112 names fresh manure rather than compost in general. The discrepancy also exists across canonical records. See NOV-02.",
+          "folios": [
+            5,
+            14,
+            15,
+            112,
+            146,
+            150,
+            151
+          ]
+        },
+        {
+          "month": "March",
+          "question": "Can I start my onions without growing seedlings indoors, and can I start a few lettuces?",
+          "decision": "When conditions suit, plant Sturon sets root-end down with the tip showing, 4–6 in. apart in 12 in. rows. Start a small direct-sown lettuce batch, using its outdoor depth and eventually the loose-leaf spacing. If conditions do not suit, delay instead of following the month mechanically.",
+          "answer": "Answered. The labelled seed-depth fact and the illustrated sets method successfully prevent applying the 5/8 in. seed depth to an onion bulb. Delayed sets also have explicit storage advice in the final tips.",
+          "friction": "The onion calendar aggregates several onion uses and sowing routes, so February–April in Quick facts cannot alone tell this reader when to plant spring sets. P67 resolves it clearly as March–April. This is a reason to strengthen the calendar's read-the-method instruction, not evidence that set timing is missing.",
+          "folios": [
+            56,
+            57,
+            66,
+            67,
+            157
+          ]
+        },
+        {
+          "month": "April",
+          "question": "How do I sow carrots, and why does the harvest panel say August when the text mentions June?",
+          "decision": "Sow a short row directly when the soil is workable and warm enough, keep the germinating seed moist and record the date. Treat baby roots and an early harvest as different from the main August–October harvest window rather than waiting automatically until August.",
+          "answer": "The physical sowing and thinning job is answerable after reading both crop pages. The 17-day germination fact reduces the chance of declaring failure after a few days.",
+          "friction": "Early harvesting is present, but the page-wide calendar key describes muted June/July harvest options as warmer-climate options. Canonical notes also describe early short-rooted crops and protected starts. A reader has to reconcile scope rather than just read a colour. Drills and thinning are illustrated but not plainly defined; see NOV-01 and NOV-03.",
+          "folios": [
+            9,
+            14,
+            15,
+            157
+          ]
+        },
+        {
+          "month": "May",
+          "question": "The courgette calendar starts in April. Have I missed it without a greenhouse, and when can I sow beans outside?",
+          "decision": "Wait for a suitable late-May/June outdoor window. Direct-sow the dwarf bean row at the printed 2 in. depth and the courgette station at the printed 1 in. outdoor depth; retain the strongest seedling at each position. No indoor equipment is needed for this chosen route.",
+          "answer": "Answered. Both second pages explicitly rescue the no-greenhouse reader from an unnecessary early start and give a practical alternative.",
+          "friction": "The bright April–June courgette sowing bar includes an indoor start, but the graphic does not distinguish indoor from direct sowing. P9 currently distinguishes climate and usualness only. 'Station' and 'prepared pocket' also assume some knowledge; the canonical courgette record contains pocket preparation detail that the print summary omits. NOV-01 is the main fix; NOV-03 addresses terms without adding a new tutorial.",
+          "folios": [
+            44,
+            45,
+            72,
+            73,
+            157
+          ]
+        },
+        {
+          "month": "June",
+          "question": "Something has eaten the young lettuce. What should I check tonight, and can I replace lost plants?",
+          "decision": "Compare the actual damage before naming a pest, inspect after dark or in damp weather for slugs and remove those found. Keep damp debris away from vulnerable plants. Replace losses with a small sowing still within the stated lettuce window; modules are an available alternative, not a greenhouse requirement.",
+          "answer": "Answered with a short crop-to-trouble route. The diagnostic separation and an action that can be taken the same evening work well.",
+          "friction": "Using the general Slugs and Snails index entry produces many crop page references; following the crop footer is more efficient. This is not a missing slug-control section. 'Protect seedlings' is broad, but the same route gives hand-removal and debris management, so the reader is not left with that phrase alone.",
+          "folios": [
+            56,
+            57,
+            123,
+            124,
+            125
+          ]
+        },
+        {
+          "month": "July",
+          "question": "How do I pick the three repeat crops without ending their harvest, and can my short daily visits keep up?",
+          "decision": "Pick larger outer lettuce leaves while retaining the centre and at least four young leaves; pick bean pods every few days before seeds swell; cut young courgettes, often 4–6 in., daily or every other day in warmth. Keep the one-plant limit and record whether that frequency is manageable.",
+          "answer": "Answered. The descriptions connect an action to keeping the plant productive. Courgette pollination guidance also distinguishes the female flower by the small fruit behind it, and the Troubles page warns that shrivelling can have more than one cause.",
+          "friction": "Success depends on visits between weekends. That limit becomes visible in the crop text and should affect next year's choice; it does not support calling the book's Easy/Fairly Easy ratings wrong. No additional harvesting chapter is needed for these crops.",
+          "folios": [
+            45,
+            57,
+            73,
+            117
+          ]
+        },
+        {
+          "month": "August",
+          "question": "Leaves droop in hot weather. Should I water everything more, including onions whose tops are falling?",
+          "decision": "Check moisture before watering, apply water at the relevant rooting area and distinguish the still-growing crops from ripening onions. Lift onions when the described foliage condition is reached; dry on airy trays under cover in wet weather until necks and skins are dry.",
+          "answer": "Answered. The watering page is a strong diagnostic and workload guide, and prevents interpreting all drooping leaves as a demand for another can. The onion harvest cue is observable and more useful than a calendar date alone.",
+          "friction": "Mixed crops in one bed mean different watering stages. The book gives the necessary crop distinctions and root-directed method, but the reader must combine them. A fixed universal watering amount would be less helpful than the existing conditional advice.",
+          "folios": [
+            15,
+            67,
+            73,
+            158,
+            165
+          ]
+        },
+        {
+          "month": "September",
+          "question": "How should I finish the onions and beans, and do I need to fill every gap with a winter crop?",
+          "decision": "Store sound, well-dried onions; use sound damaged or thick-necked bulbs first and discard rot. Keep picking useful beans while tender. Choose a winter pause after the chosen crops, rather than assuming a new late bean sowing or unspecified winter lettuce will work.",
+          "answer": "Answered for the limited first-year goal. The book permits a small useful garden instead of implying that empty winter space is failure. It offers optional overwintering routes without making them compulsory.",
+          "friction": "A reader seeking an uninterrupted winter salad crop would need a more specific variety/protection timetable than the generic lettuce text. That is outside this persona's modest first-year target and is not used to demand a new winter-growing chapter.",
+          "folios": [
+            7,
+            45,
+            56,
+            57,
+            67
+          ]
+        },
+        {
+          "month": "October",
+          "question": "Which carrots can be stored, and what do I do when the courgette is finished after frost?",
+          "decision": "Separate sound storage carrots from damaged or rotten roots, trim as specified, keep cool and ventilated and inspect them. For normal courgette clearance, combine the general compost principle with the crop condition, but flag that the crop-specific frost/healthy-remains instruction is not available on its own spread.",
+          "answer": "Carrot storage is answered; normal courgette closure is only indirectly answered. The current canonical courgette record supplies the omitted close-down instruction, so there is no research need to invent one.",
+          "friction": "This is a narrow missing crop instruction, not absence of all end-of-season advice: runner beans p47 explicitly mentions removing supports and composting stems after frost, and other crops also describe clearing. A novice following the courgette route has no reason to consult those unrelated crop pages. See NOV-05.",
+          "folios": [
+            15,
+            73,
+            113,
+            114,
+            151,
+            154,
+            155
+          ]
+        },
+        {
+          "month": "November",
+          "question": "With just two beds, where should these five crops go next year? Do I need four new beds?",
+          "decision": "Sketch what occupied each small area, including repeat sowings. Move the main crops to different appropriate areas without building extra beds. Record that the book does not explicitly finish the family/placement decision for lettuce and courgettes.",
+          "answer": "The small-bed method is mostly answered and is encouragingly flexible. Three of the selected crop families are directly mapped. Application to the other two remains a small but genuine information gap.",
+          "friction": "The page tells readers to move to ground that held an unrelated family, but the list does not include two of this very ordinary five-crop selection. This is not solved by merely giving the reader a larger rotation diagram. A short omitted-crops sentence or compact extra family rows would be more proportionate. See NOV-04.",
+          "folios": [
+            5,
+            117,
+            123,
+            156,
+            163
+          ]
+        },
+        {
+          "month": "December",
+          "question": "What should I retain from this first year while the beds are quiet?",
+          "decision": "Record varieties, actual sowing and picking dates, pest episodes and which repeated picking jobs fitted the household. Inspect stored crops, removing rot as instructed. Use that evidence to keep the successful choices and reconsider the most demanding one next spring.",
+          "answer": "Answered. This closes a realistic first year without inventing a winter workload or promising food every month. The book's repeated encouragement to learn from a small plot supports a sensible second year.",
+          "friction": "The record-keeping advice is distributed rather than a single worksheet. A blank planner could be convenient, but this persona can use a notebook; that convenience alone does not justify extra pages.",
+          "folios": [
+            7,
+            15,
+            128,
+            146,
+            156
+          ]
+        }
+      ],
+      "file": "personas/novice.json"
+    },
+    {
+      "id": "allotment",
+      "name": "Experienced · busy allotment",
+      "profile": {
+        "name": "Experienced but busy allotment grower",
+        "experience": "Eight seasons growing vegetables; knows basic sowing, netting and harvesting, but wants a reliable reference rather than having to remember every crop detail.",
+        "setting": "Established lowland Midlands allotment; about 60 square metres of cropped ground divided into six beds and smaller areas; ordinary UK weather, no heated greenhouse.",
+        "resources": "Four to six hours most weeks, a bright windowsill and cold frame for starts, insect mesh, shared water supply, and a cool frost-free storage space. Help with watering during prolonged dry weather.",
+        "aim": "Some home-grown vegetables in every month, with modest successive sowings and winter crops; supplementary household food, not complete self-sufficiency.",
+        "starting_state": "January begins with leeks, kale, parsnips and sprouting broccoli established during the previous year, and sound onions, carrots and squash already in store. Those crops are not imagined to arise from a January start.",
+        "working_crop_sequence": [
+          "A: previous-year winter brassicas finish in spring, followed by a small winter-squash crop after frost.",
+          "B: first-early potatoes, with a July handover to separately raised winter leeks if the earlies and seedlings are ready.",
+          "C: spring peas and broad beans in separate areas, followed by separately raised kale and a few sprouting broccoli plants for the following winter/spring.",
+          "D: carrots, beetroot and parsnips in separate short rows; a cleared early-carrot area can take autumn garlic if the family record permits.",
+          "E: existing autumn garlic and spring onions in separate areas; later spinach or oriental leaves in cleared areas, not another allium crop.",
+          "F: short rows or modules of lettuce and spinach, with suitable late-summer leaves for autumn and protected winter picking."
+        ],
+        "planning_limit": "This is a plausible test scenario, not a prescriptive six-bed plan or a claim that one sowing supplies a household all year. Crop family, readiness, weather and available space can alter each handover."
+      },
+      "months": [
+        {
+          "month": "January",
+          "question": "What can I keep picking now, and which beds can I release without sacrificing the spring harvest?",
+          "decision": "Pick outer kale leaves while preserving the growing centre; keep plants for late-winter/spring shoots. Lift leeks and parsnips as needed, lifting a batch before frozen soil prevents access. Keep sprouting broccoli in place for late winter/spring rather than clearing it simply because summer cropping has ended. Sketch beds and record both the main and second crop family.",
+          "answer": "Successful. Kale explains continued spring use, parsnips explain in-ground holding and the end point before regrowth, and leeks explain heeling in to free a bed. Broccoli names overwintering types and gives approximately 44 weeks from sowing, so its next-year harvest is not an unsupported assumption.",
+          "friction": "There is no winter-harvest or space-reuse index entry; the grower must start from known crop names. This is a navigation opportunity, not missing winter guidance.",
+          "folios": [
+            4,
+            5,
+            20,
+            21,
+            32,
+            33,
+            40,
+            41,
+            64,
+            65,
+            156,
+            163
+          ]
+        },
+        {
+          "month": "February",
+          "question": "What should I start now without filling the cold frame with crops that cannot go out yet?",
+          "decision": "Choose a first-early potato for the later leek handover, rather than a maincrop that occupies the bed longer. Keep seed potatoes bright, cool and frost-free if sprouting them. Raise only a small protected lettuce batch; wait for sensible soil/weather before outdoor work.",
+          "answer": "Mostly successful. Potato timing distinguishes earlies from maincrop and the Troubles entry gives the practical sprouting conditions. General sowing guidance says to delay in cold or wet weather.",
+          "friction": "The lettuce calendar shows a muted February option, while the key calls muted dates options for warmer climates. Method and protection matter as well as climate. The crop text and general technique page must be combined to interpret the option; see AL01.",
+          "folios": [
+            4,
+            9,
+            22,
+            23,
+            56,
+            57,
+            131,
+            157
+          ]
+        },
+        {
+          "month": "March",
+          "question": "How do I start winter leeks while their final bed is still reserved for potatoes, and which direct sowings are worth doing?",
+          "decision": "Sow leeks separately in a seedbed or modules, using the ordinary late-March/April route. Direct-sow fresh parsnip seed in suitable soil and mark slow rows if useful. Sow manageable pea/broad-bean batches and prepare supports and protection. Plant spring onion sets when conditions suit.",
+          "answer": "Successful for immediate sowing and planting. Onions clearly separate seed and sets. Leek diagrams explain the later transplant operation, and the mature-size cue is useful.",
+          "friction": "Leek gives no transplant month/season in the printed spread, so the grower cannot confirm from it whether the planned July potato-to-leek handover fits. Canonical May–July planting information exists; see AL02.",
+          "folios": [
+            4,
+            20,
+            21,
+            42,
+            43,
+            48,
+            49,
+            64,
+            65,
+            66,
+            67,
+            156,
+            157
+          ]
+        },
+        {
+          "month": "April",
+          "question": "Can I plant earlies, sow roots into the prepared bed, and get storage squash started without conflicting soil instructions?",
+          "decision": "Plant first-earlies, protect emerging shoots from frost and note the approximate 13-week readiness. Sow short carrot rows and a small beetroot batch, keeping seed moisture steady. Start a small number of winter squash indoors in April so that they have a full season. Check the distinction between mature compost and fresh manure when preparing the root bed.",
+          "answer": "Mostly successful. Potato explains both the planting method and why tubers must remain covered; squash explicitly supplies an April indoor route despite its general May quick fact.",
+          "friction": "Carrot’s key-risk text says manure or compost shortly before sowing usually causes fanging, while other carrot text permits fine compost and the no-dig page permits immediate planting into mature compost. The reader cannot confidently reconcile the scope; see AL04. The broad wording also exists in canonical data, so it is not proven to be a print-only error.",
+          "folios": [
+            4,
+            5,
+            12,
+            13,
+            14,
+            15,
+            22,
+            23,
+            78,
+            79,
+            112,
+            151,
+            157
+          ]
+        },
+        {
+          "month": "May",
+          "question": "How do I bridge the spring gap and avoid a flush of salad heads that all mature together?",
+          "decision": "Continue useful young kale shoots while checking when old crops need clearing. Pick outer lettuce leaves and keep a small replacement batch moving; harvest hearts promptly when firm. Pick spinach lightly across several plants and prepare replacement short rows for appropriate cool conditions. Harden squash and plant out only once frost risk and soil conditions permit.",
+          "answer": "Successful. Repeated leaf picking and successive head crops are differentiated. The book does not pretend every crop is available continuously; using the previous year’s crops and stores remains necessary.",
+          "friction": "The phrase hungry gap is absent, but the useful crop-specific actions are present. A separate hungry-gap chapter would add more than this reference format needs. A small index route would help the grower find those existing actions; see AL05.",
+          "folios": [
+            4,
+            40,
+            41,
+            48,
+            49,
+            56,
+            57,
+            60,
+            61,
+            78,
+            79,
+            157
+          ]
+        },
+        {
+          "month": "June",
+          "question": "Which seedlings must be ready before the first harvest clears space, and what does damage to my beans require?",
+          "decision": "Start the late kale/sprouting-broccoli seedlings in advance of the bed becoming vacant. Water peas and beans during flowering and pod swelling rather than merely sprinkling the soil daily. Inspect black colonies on bean tips; use the crop’s direct action and retain predators. Check under the soil surface before treating wilt as drought.",
+          "answer": "Strong. Kale specifies sowing June–early July and transplanting when ready, often July–early August. Broccoli says it can follow early crops and distinguishes the smaller June-sown sprouting route. Watering begins with diagnosis rather than assuming every drooping plant needs more water.",
+          "friction": "A reader who begins at a general task such as succession has to discover these particularly useful crop passages individually. The passages themselves should be retained, not rewritten as missing coverage.",
+          "folios": [
+            4,
+            5,
+            32,
+            33,
+            40,
+            41,
+            42,
+            43,
+            100,
+            101,
+            102,
+            103,
+            158
+          ]
+        },
+        {
+          "month": "July",
+          "question": "The earlies, garlic and peas are coming out: what can go into each space, and how do I move the plants?",
+          "decision": "Test-lift earlies at useful size; use that harvest fresh rather than treating it as a storage maincrop. Move strong, pencil-thick leeks into watered dibbed holes when ready; let holes fill naturally. Clear finished legumes, retain healthy roots and establish prepared brassica plants with protection. Lift garlic as foliage yellows, cure it under dry airy shelter and use its cleared area for a suitable later crop.",
+          "answer": "Useful and largely actionable. Potato, garlic and kale give concrete harvest/clearance cues; leek pictures make the unusual watering-in method easy to recall. Garlic explicitly names French beans, late brassicas and autumn salads as successors.",
+          "friction": "The leek handover still depends on the grower’s previous knowledge of the transplant season. The book gives a physical readiness cue but not the canonical May–July window; AL02.",
+          "folios": [
+            22,
+            23,
+            32,
+            33,
+            40,
+            41,
+            62,
+            63,
+            64,
+            65,
+            156
+          ]
+        },
+        {
+          "month": "August",
+          "question": "Which late sowings will keep food coming, and what should I do with a cleared onion patch?",
+          "decision": "Sow small late-July/August oriental-leaf batches and a suitable winter spinach in the freed area. Use the explicit August turnip catch-crop route if wanted, without treating brassica leaves as rotation-neutral salads. Dry mature onions thoroughly and reserve only sound bulbs for storage. Consider the protected late carrot route only if its method and cover needs can be established.",
+          "answer": "Strong for oriental leaves, spinach, turnips and onion drying. Crop families are stated or linked sufficiently for an experienced grower to avoid assuming all salads are interchangeable.",
+          "friction": "Carrot has a muted August sowing and November/December harvest but no printed explanation of that route. The canonical note specifies short-rooted August sowing and cloches from October. Under the current key, a reader can mistake it for a warmer-climate option alone; AL01.",
+          "folios": [
+            4,
+            9,
+            14,
+            15,
+            30,
+            31,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            66,
+            67,
+            156
+          ]
+        },
+        {
+          "month": "September",
+          "question": "Are my winter crops established, and are the marks on leeks an active problem requiring protection now?",
+          "decision": "Inspect rows of white punctures and internal larvae/pupae rather than calling all damaged allium leaves leek moth. Use the Troubles entry’s March–April and September–November adult-activity windows for mesh. Keep young late sowings moist and protected while allowing enough growth before winter. Watch squash skins and stems for ripeness and keep fruits off wet soil.",
+          "answer": "Strong troubleshooting journey. The brief crop table leads to a page that differentiates legless fly maggots from headed caterpillars and supplies seasonal prevention. This information is present and should not be labelled absent just because the crop table is short.",
+          "friction": "The crop footer sends the reader to a three-page group rather than one condition, but the index offers a direct page. For a busy experienced grower that is a reasonable, small lookup cost.",
+          "folios": [
+            5,
+            58,
+            59,
+            60,
+            61,
+            64,
+            65,
+            78,
+            79,
+            126,
+            127,
+            128,
+            162
+          ]
+        },
+        {
+          "month": "October",
+          "question": "What can stay outside, what must be lifted, and what actually keeps well?",
+          "decision": "Lift storage carrots before damaging conditions; store sound roots separately in sand and inspect them. Keep parsnips and hardy leeks in the ground while lifting remains practical. Cut ripe squash before frost with a sound stalk, cure it and store dry and airy at the stated temperature. Exclude diseased potatoes from storage and use sound tubers from a blighted crop promptly. Plant appropriate garlic stock in a different suitable area, recording the allium family.",
+          "answer": "Strong. The existing Harvesting & storage sections distinguish in-ground holding, curing and storage rather than treating every autumn crop alike. Squash also states what to do with sound unripe fruit.",
+          "friction": "A task-led storage lookup has no general index entry: the only similarly named one is Storage rot, stem damage. Crop-first lookup works well; AL05 is a convenience improvement.",
+          "folios": [
+            14,
+            15,
+            20,
+            21,
+            22,
+            23,
+            62,
+            63,
+            64,
+            65,
+            78,
+            79,
+            131,
+            134,
+            156
+          ]
+        },
+        {
+          "month": "November",
+          "question": "Can damaged leeks still be saved, and should I sow autumn beans on the newly cleared squash bed?",
+          "decision": "Distinguish larval type and follow removal/prevention advice for the identified pest. Check whether any leek cutback-for-regrowth advice is appropriate so late in the season. Choose autumn broad beans only in the mild, suitable conditions specified; wait until spring on cold or wet ground. Keep winter brassica netting secure and lift roots before access is lost to frozen soil.",
+          "answer": "Mixed. Broad-bean advice clearly permits waiting until spring, so the reader need not turn a muted calendar option into a compulsory November task. Allium identification is useful.",
+          "friction": "Leek-moth action says badly damaged leeks may regrow after cutting to about 5 cm / 2 in, but omits the canonical qualification that enough growing season must remain. This is a materially relevant omission for this late-season lookup; AL03. The simulation does not claim a particular November cutting outcome.",
+          "folios": [
+            20,
+            21,
+            40,
+            41,
+            42,
+            43,
+            64,
+            65,
+            128
+          ]
+        },
+        {
+          "month": "December",
+          "question": "How do I keep the stores usable and make next year’s rotation reflect the second crops as well as the first?",
+          "decision": "Remove rotting produce promptly and inspect neighbouring stored crops. Continue modest winter harvesting rather than stripping slow-growing leaves. Record the summer and winter crops in every bed or sub-area. Keep a diagnosed long-lived soil disease marked separately from the routine family rotation.",
+          "answer": "Strong. Rotation explicitly asks for second crops to be recorded and says a short rotation is not a disease cure. The Troubles pages reinforce that distinction. The year can be reviewed without assuming all beds fit four equal blocks.",
+          "friction": "Compiling the record is work the reader must do, but the book gives the correct prompts. No ready-made annual wall chart is necessary to make this reference useful.",
+          "folios": [
+            14,
+            15,
+            66,
+            67,
+            78,
+            79,
+            107,
+            128,
+            134,
+            156
+          ]
+        }
+      ],
+      "file": "personas/allotment.json"
+    },
+    {
+      "id": "constrained",
+      "name": "Intermediate · unheated greenhouse and patio",
+      "profile": {
+        "id": "A",
+        "name": "Intermediate grower with a compact unheated greenhouse and patio pots",
+        "assumptions": [
+          "Hypothetical 6 × 8 ft unheated greenhouse, paved floor, a bright indoor seed-raising space but no heated greenhouse, and a small sunny patio.",
+          "Has grown vegetables before and recognises basic sowing/transplanting; needs decisions specific to a crowded protected space. Can normally check daily, but plans a week away in July.",
+          "Shortlist: two cordon tomatoes (Shirley F1 and Sungold F1), one Mini Munch F1 greenhouse cucumber, one Demon Red chilli, and a Red Alert bush tomato on the patio. Salad Bowl lettuce and Cherry Belle radish occupy smaller containers. Bonica aubergine is assessed as an alternative to another fruiting plant, not an automatic extra plant.",
+          "The crop count is a reader scenario, not a verified greenhouse capacity plan. Actual mature spacing, doorway, ventilation and access still govern selection.",
+          "Autumn options are suitable lettuce, mizuna and Giant Winter spinach. The journey does not promise winter growth or a specific yield."
+        ],
+        "monthByMonth": [
+          {
+            "month": "January",
+            "task": "Choose a manageable crop list and prepare the greenhouse.",
+            "readerQuestions": [
+              "Can this space hold all the summer plants?",
+              "Which crop suits a pot, and what can fill the space before summer?",
+              "Can an unheated house justify starting tender seed now?"
+            ],
+            "lookupRoute": [
+              {
+                "entry": "Contents",
+                "folios": [
+                  4,
+                  5
+                ]
+              },
+              {
+                "entry": "Greenhouses, choosing and siting / growing options / seasonal use in index",
+                "folios": [
+                  163,
+                  159,
+                  160,
+                  161
+                ]
+              },
+              {
+                "entry": "Crop comparisons",
+                "folios": [
+                  68,
+                  69,
+                  70,
+                  71,
+                  74,
+                  75,
+                  82,
+                  83,
+                  84,
+                  85
+                ]
+              }
+            ],
+            "helps": [
+              "p.159 explicitly asks the reader to allow for mature plants, access, an open door and vents. p.160 puts tall crops on the floor, gives tomato pots at least 12 inches across, drainage and wet-staging-load cautions.",
+              "Shirley is described as a practical unheated-greenhouse choice; Demon Red is compact for pots; Red Alert is a bush tomato; Bonica needs warmth. pp.68–69 make aubergine a considered choice rather than an easy extra crop.",
+              "p.83 restricts earlier heated crops to reliable warmth and bright winter light; p.161 gives glass cleaning and vent upkeep."
+            ],
+            "stalls": [
+              "The list requires several crop spreads to compare mature habit; this is reasonable in an at-a-glance book and does not justify a new planning chapter. Searching the index under Chillies fails."
+            ],
+            "simulatedDecision": "Retain the four greenhouse fruiting plants provisionally, defer aubergine unless one is replaced, measure the working space, clean glazing and service vents. Do not infer permission for a January tender sowing from the presence of a greenhouse.",
+            "findingRefs": [
+              "CY04"
+            ]
+          },
+          {
+            "month": "February",
+            "task": "Decide which seed can actually be raised with available heat and light.",
+            "readerQuestions": [
+              "Does February on the cucumber calendar mean my unheated greenhouse?",
+              "Can I raise chilli or aubergine seed on this windowsill, or should I buy plants?"
+            ],
+            "lookupRoute": [
+              {
+                "entry": "Calendar key",
+                "folios": [
+                  9
+                ]
+              },
+              {
+                "entry": "Capsicum and aubergine",
+                "folios": [
+                  68,
+                  69,
+                  70,
+                  71
+                ]
+              },
+              {
+                "entry": "Greenhouse cucumber: calendar then planting notes",
+                "folios": [
+                  74,
+                  75
+                ]
+              },
+              {
+                "entry": "Seed sowing / Windowsill, raising seedlings",
+                "folios": [
+                  165,
+                  157
+                ]
+              }
+            ],
+            "helps": [
+              "p.71 specifies sweet-pepper/chilli germination warmth and permits buying plants. p.69 specifies at least 70°F for aubergine and explicitly recommends buying sturdy plants if warm, bright propagation is unavailable.",
+              "p.75 separates heated February/early-March cucumber sowing from late-April sowing for unheated cover. The answer is present on the facing page."
+            ],
+            "stalls": [
+              "The bright Feb–Apr cucumber band is easy to take as a personal sow-now instruction until the reader reads p.75. The key says usual lowland-English months but does not itself distinguish heated propagation.",
+              "The seedling needs after germination are described qualitatively; there is no permission to put newly emerged tender plants straight into an unheated house."
+            ],
+            "simulatedDecision": "Raise chilli only if the stated warmth and continuing bright conditions can be provided; otherwise buy plants later. Defer greenhouse cucumber to the unheated route.",
+            "findingRefs": [
+              "CY05"
+            ]
+          },
+          {
+            "month": "March",
+            "task": "Raise tomatoes and start small salad crops.",
+            "readerQuestions": [
+              "What is a suitable tomato germination temperature?",
+              "When do I move seedlings into individual pots or larger pots?",
+              "How do I avoid a one-off glut of lettuce and radishes?"
+            ],
+            "lookupRoute": [
+              {
+                "entry": "Greenhouse tomato practical page",
+                "folios": [
+                  82,
+                  83
+                ]
+              },
+              {
+                "entry": "Lettuce and radish guides",
+                "folios": [
+                  56,
+                  57,
+                  24,
+                  25
+                ]
+              },
+              {
+                "entry": "Sowing and planting",
+                "folios": [
+                  157
+                ]
+              }
+            ],
+            "helps": [
+              "p.83 requires bright light, moist-not-wet compost and potting on. p.57 offers small successive batches or fewer strong lettuce plants for repeat picking; p.25 makes small fortnightly radish sowings explicit.",
+              "Crop depths, final spacings and hearting versus loose-leaf choices are printed. p.157 separates direct sowing, raising under cover and planting out."
+            ],
+            "stalls": [
+              "p.83 says prick out and pot on as needed without the true-leaf/root-fill triggers retained in canonical tomato advice. p.157 does not define these operations.",
+              "The printed temperature is near 68°F, while the exact canonical germination field says around 64°F; this is a source-fidelity discrepancy, not evidence that 68°F is dangerous."
+            ],
+            "simulatedDecision": "Use small successive salad batches. For tomatoes the book is adequate for this intermediate reader but a less experienced reader must supply seedling-stage knowledge. Flag the temperature for editorial reconciliation.",
+            "findingRefs": [
+              "CY06",
+              "CY08"
+            ]
+          },
+          {
+            "month": "April",
+            "task": "Manage young plants and begin the unheated cucumber route without filling summer space too soon.",
+            "readerQuestions": [
+              "Can tomatoes remain in the greenhouse overnight?",
+              "When can seedlings or bought plants go into their final containers?",
+              "Can I put salad plants outside sooner because they started under glass?"
+            ],
+            "lookupRoute": [
+              {
+                "entry": "Tomato planting, cucumber planting, warm-crop alternatives",
+                "folios": [
+                  83,
+                  75,
+                  69,
+                  71
+                ]
+              },
+              {
+                "entry": "Hardening off index route",
+                "folios": [
+                  163,
+                  157
+                ]
+              },
+              {
+                "entry": "Early crops seasonal paragraph",
+                "folios": [
+                  161
+                ]
+              }
+            ],
+            "helps": [
+              "p.75 gives late-April cucumber sowing for unheated cover and cautions against cold/wet roots. p.83 asks for a warm greenhouse and well-rooted plants. p.157 describes two to three weeks of increasing outdoor exposure and frost protection.",
+              "Lettuce p.57 and spinach p.61 distinguish protected early growth and their own tolerances; they do not imply every crop follows the same dates."
+            ],
+            "stalls": [
+              "For the practical decision about a cold overnight forecast, p.83 has no numerical lower-night guide, although canonical tomato advice does.",
+              "p.161 tells readers raising plants for later outdoor planting to use earlier planting dates. That wording blurs an earlier protected start with the later outdoor transplanting decision."
+            ],
+            "simulatedDecision": "Use the crop-specific sowing route; do not treat glass as reliable heat. Keep the outdoor planting decision tied to hardening, weather and each crop.",
+            "findingRefs": [
+              "CY01",
+              "CY02",
+              "CY08"
+            ]
+          },
+          {
+            "month": "May",
+            "task": "Fill the final greenhouse positions and clear competing early salads.",
+            "readerQuestions": [
+              "How many plants per pot or growbag?",
+              "How much room between pots?",
+              "When should supports be installed?",
+              "What must be moved or harvested before tomato foliage fills the house?"
+            ],
+            "lookupRoute": [
+              {
+                "entry": "Greenhouse tomato",
+                "folios": [
+                  83
+                ]
+              },
+              {
+                "entry": "Greenhouse cucumber",
+                "folios": [
+                  74,
+                  75
+                ]
+              },
+              {
+                "entry": "Capsicum / optional aubergine",
+                "folios": [
+                  69,
+                  71
+                ]
+              },
+              {
+                "entry": "Containers and seasonal handover",
+                "folios": [
+                  160,
+                  161
+                ]
+              }
+            ],
+            "helps": [
+              "p.83 distinguishes 12–18 inch tomato pots, two plants per standard growbag, about 24 inches between upright-cordon pot centres and 18–24 inches in soil. p.74 specifies one cucumber per pot at least 12 inches wide/deep.",
+              "The planting illustrations show supporting tomatoes and gentle cucumber handling; p.75 asks for supports before growth gets heavy. p.161 explicitly says to clear early crops before they crowd summer plants.",
+              "p.69 supplies aubergine pot/growbag arrangements and p.71 gives pepper support and fruiting-stage feeding."
+            ],
+            "stalls": [
+              "Capsicum has plant spacings and named compact pot choices, but no final container dimension in the printed guide. The inspected canonical record likewise does not settle that size; it is a possible supplier-guidance question, not a reason to invent a number."
+            ],
+            "simulatedDecision": "Select pot positions with access preserved; follow the late-May unheated cucumber option only when conditions remain warm. Remove early salads as space is needed and use patio salad containers for continuity.",
+            "findingRefs": [
+              "CY02"
+            ]
+          },
+          {
+            "month": "June",
+            "task": "Train growth, manage flowering and begin feeding at the appropriate stage.",
+            "readerQuestions": [
+              "Do I remove side shoots from every tomato?",
+              "Should cucumber flowers be pollinated or removed?",
+              "Do I feed before flowers, when flowers open or when fruit swells?",
+              "Can tomatoes and cucumber share the same small house?"
+            ],
+            "lookupRoute": [
+              {
+                "entry": "Cordon and bush distinctions",
+                "folios": [
+                  82,
+                  83,
+                  84,
+                  85
+                ]
+              },
+              {
+                "entry": "Cucumber flower/training advice",
+                "folios": [
+                  74,
+                  75,
+                  117,
+                  118
+                ]
+              },
+              {
+                "entry": "Fruiting crop feeding and greenhouse air",
+                "folios": [
+                  69,
+                  71,
+                  75,
+                  83,
+                  161
+                ]
+              }
+            ],
+            "helps": [
+              "p.82 explains the cordon as one central stem with side-shoot removal; p.85 exempts bushes from routine side-shooting/stopping.",
+              "p.75 clearly distinguishes unpollinated greenhouse fruit from varieties needing pollination and tells the reader to keep/check the packet. pp.117–118 explicitly exclude unpollinated greenhouse cucumbers from routine hand pollination.",
+              "Feed is linked to developing/swelling fruit; the tomato and cucumber instructions defer rate/frequency to the product. p.75 balances humid air with ventilation and avoiding sodden roots, while p.83 stresses ventilation and steady root moisture."
+            ],
+            "stalls": [
+              "Truss, lateral and stopping still demand some experience. Male/female flower recognition is not labelled on the cucumber page; p.73 explains the female-flower fruit swelling for courgettes, but there is no direct route there from p.75.",
+              "The book does not prescribe a shared-house climate set point; that is not itself a defect, because each crop already asks for ventilation and healthy root conditions."
+            ],
+            "simulatedDecision": "Keep variety labels/packets, train the two cordons while leaving the Red Alert bush routine intact, follow cucumber variety-specific flower guidance, and begin feeding as fruit develops.",
+            "findingRefs": [
+              "CY08"
+            ]
+          },
+          {
+            "month": "July",
+            "task": "Keep water and ventilation steady during peak growth and arrange the week away.",
+            "readerQuestions": [
+              "Are drooping leaves always asking for water?",
+              "What do I tell the person checking the pots?",
+              "What can be left for a week, including harvesting?"
+            ],
+            "lookupRoute": [
+              {
+                "entry": "Watering / Waterlogging index route",
+                "folios": [
+                  165,
+                  158
+                ]
+              },
+              {
+                "entry": "Container reserves and air",
+                "folios": [
+                  160,
+                  161
+                ]
+              },
+              {
+                "entry": "Cucumber daily picking and tomato/pepper care",
+                "folios": [
+                  75,
+                  83,
+                  71
+                ]
+              },
+              {
+                "entry": "Troubles for leaf speckling, whitefly or split fruit",
+                "folios": [
+                  119,
+                  140
+                ]
+              }
+            ],
+            "helps": [
+              "p.158 is especially useful: inspect below the surface or learn pot weight, recognise waterlogging, and treat seedlings/transplants differently from established beds. p.160 explains why pots and bags use their reserves quickly.",
+              "p.75 says inspect daily in hot weather and pick useful fruit before it becomes over-mature; pp.119 and 140 provide recognisable pest signs, early control and supplier guidance."
+            ],
+            "stalls": [
+              "There is no holiday/absence route or short handover reminder anywhere in the text or index. The reader must combine water checks, vent operation and picking into a cover plan. This is a convenience gap, not missing ordinary crop care."
+            ],
+            "simulatedDecision": "Arrange someone to check the greenhouse rather than read the bed-watering interval as permission to leave small pots unchecked; show them moisture checks and crop-specific picking. Any timed watering system would need its own checking, not an invented guarantee.",
+            "findingRefs": [
+              "CY07"
+            ]
+          },
+          {
+            "month": "August",
+            "task": "Keep cropping, distinguish disorders from pests and prepare the next planting.",
+            "readerQuestions": [
+              "Are dark tomato fruit bases a feeding shortage?",
+              "Which tomato growth should stop now?",
+              "When do I start autumn leaves while summer plants still occupy the space?"
+            ],
+            "lookupRoute": [
+              {
+                "entry": "Tomato key risks and care",
+                "folios": [
+                  82,
+                  83
+                ]
+              },
+              {
+                "entry": "Blossom end rot / split fruit",
+                "folios": [
+                  140
+                ]
+              },
+              {
+                "entry": "Lettuce, Oriental leaves and spinach",
+                "folios": [
+                  56,
+                  57,
+                  58,
+                  59,
+                  60,
+                  61
+                ]
+              },
+              {
+                "entry": "Seasonal greenhouse use",
+                "folios": [
+                  161
+                ]
+              }
+            ],
+            "helps": [
+              "p.140 links blossom-end damage to irregular moisture, explains spoiled tissue will not recover and cautions against overfeeding. p.83 says preserve healthy shading leaves.",
+              "pp.58–59 provide late-July/August Oriental-leaf sowing and explain why this window is useful; p.60 explicitly includes August–September for spinach.",
+              "p.83 describes stopping above the final truss and matching autumn watering to slower growth; p.85 gives a late-summer stopping cue for outdoor cordons."
+            ],
+            "stalls": [
+              "The greenhouse tomato instruction gives no concrete seasonal example for choosing the final truss; canonical advice says often August in an unheated house.",
+              "For lettuce there is no explicit protected late-August/early-September overwintering route in p.57, even though p.56 names Winter Density and p.161 encourages autumn lettuce."
+            ],
+            "simulatedDecision": "Prepare suitable autumn plants while space is still occupied, use the actual crop sowing windows and harvest expectations, and reduce the summer list if access/airflow are becoming difficult.",
+            "findingRefs": [
+              "CY03",
+              "CY08"
+            ]
+          },
+          {
+            "month": "September",
+            "task": "Hand over greenhouse space and bring sound late fruit to ripeness.",
+            "readerQuestions": [
+              "Must I wait for the last tomato before starting winter salads?",
+              "Which leaves can actually crop through colder weather?",
+              "Can I dry any chilli, including partly coloured fruit?"
+            ],
+            "lookupRoute": [
+              {
+                "entry": "End-season tomato and capsicum harvest",
+                "folios": [
+                  83,
+                  85,
+                  71
+                ]
+              },
+              {
+                "entry": "Autumn/winter salads",
+                "folios": [
+                  56,
+                  57,
+                  58,
+                  59,
+                  60,
+                  61,
+                  130
+                ]
+              },
+              {
+                "entry": "Greenhouse seasonal use",
+                "folios": [
+                  161
+                ]
+              }
+            ],
+            "helps": [
+              "pp.83 and 85 explain bringing sound unripe tomatoes indoors, checking for decay and avoiding a blanket promise of ripening everything. p.71 restricts drying to sound fully ripe chillies and warns about mould.",
+              "p.61 names hardy winter spinach, protection in cold areas and light picking during slow winter growth; pp.59 and 130 distinguish hardier leaves from heads/leaf radish vulnerable to winter decline."
+            ],
+            "stalls": [
+              "The phrase when summer crops finish on p.161 can be read as the point to begin the entire autumn crop. No explicit sow/raise-before-clear bridge or folio reference is supplied there.",
+              "p.56 has a muted September lettuce sowing mark, but p.9 labels muted marks warmer-climate options. This does not clearly communicate the canonical protected autumn route to a northern or unheated-house reader."
+            ],
+            "simulatedDecision": "Use already prepared season-suitable plants or act within the crop-specific sowing windows. Do not infer that clearing in October permits all autumn salads to be started from seed then.",
+            "findingRefs": [
+              "CY03",
+              "CY05"
+            ]
+          },
+          {
+            "month": "October",
+            "task": "Finish tender crops and clean up while keeping suitable leaves.",
+            "readerQuestions": [
+              "Which remaining fruit is useful?",
+              "How do I dispose of sick plants?",
+              "What does an unheated greenhouse protect from in late autumn?"
+            ],
+            "lookupRoute": [
+              {
+                "entry": "Harvest/end of crop",
+                "folios": [
+                  69,
+                  71,
+                  75,
+                  83,
+                  85
+                ]
+              },
+              {
+                "entry": "Tomato and cucumber rot/blight diagnostics",
+                "folios": [
+                  118,
+                  119,
+                  120,
+                  138,
+                  139,
+                  142
+                ]
+              },
+              {
+                "entry": "Autumn greenhouse, frost and winter leaves",
+                "folios": [
+                  161,
+                  61,
+                  130
+                ]
+              }
+            ],
+            "helps": [
+              "The guides distinguish sound unripe tomatoes, fully ripe drying chillies, glossy aubergines and unusually bitter cucumbers to discard. Diseases are not treated as automatically recoverable.",
+              "p.69 permits chopping/shredding healthy woody stems for compost; disease entries call for appropriate removal. p.161 explicitly says an unheated greenhouse still gets cold at night."
+            ],
+            "stalls": [
+              "No fixed final date is supplied for this particular greenhouse; that is appropriate given the book’s weather/variety caveat. The unresolved issue is the earlier preparation for winter crops, not a lack of an October deadline."
+            ],
+            "simulatedDecision": "Finish or remove tender crops according to condition and weather, inspect late fruit indoors, maintain air and drainage around surviving suitable leaves.",
+            "findingRefs": [
+              "CY03"
+            ]
+          },
+          {
+            "month": "November",
+            "task": "Pick sparingly, watch winter decline and maintain drainage and light.",
+            "readerQuestions": [
+              "Does a harvest band mean the plants will keep growing quickly?",
+              "Which yellow/damaged leaves are winter decline rather than a new pest?",
+              "Should I water as often as in summer?"
+            ],
+            "lookupRoute": [
+              {
+                "entry": "Spinach harvesting and winter care",
+                "folios": [
+                  60,
+                  61
+                ]
+              },
+              {
+                "entry": "Oriental-leaf winter decline",
+                "folios": [
+                  59,
+                  130
+                ]
+              },
+              {
+                "entry": "Watering and greenhouse routine",
+                "folios": [
+                  158,
+                  161
+                ]
+              }
+            ],
+            "helps": [
+              "p.60 qualifies time to harvest as longer in cold weather; p.61 explicitly says pick lightly in slow winter growth and never strip a plant bare.",
+              "p.130 advises harvesting sound material before hard frost, discarding rot, using protection and choosing hardier leaves; p.158 requires checking actual moisture rather than following a fixed volume."
+            ],
+            "stalls": [
+              "The greenhouse page promises an extended season, not uninterrupted winter yield. No additional winter-production schedule is required to make these particular instructions usable."
+            ],
+            "simulatedDecision": "Keep expectations modest, leave growing centres and sufficient foliage, check moisture and drainage, and protect only crops suited to the season.",
+            "findingRefs": []
+          },
+          {
+            "month": "December",
+            "task": "Review the season and prepare the next manageable cycle.",
+            "readerQuestions": [
+              "Which crop was worth the space and daily work?",
+              "What maintenance can be done now?",
+              "What should I change before ordering seed?"
+            ],
+            "lookupRoute": [
+              {
+                "entry": "Records of successes/failures and site planning",
+                "folios": [
+                  146,
+                  147,
+                  159
+                ]
+              },
+              {
+                "entry": "Greenhouse upkeep and seasonal use",
+                "folios": [
+                  161
+                ]
+              },
+              {
+                "entry": "Variety comparison",
+                "folios": [
+                  68,
+                  70,
+                  74,
+                  82,
+                  84
+                ]
+              }
+            ],
+            "helps": [
+              "p.146 asks the reader to record successes as well as failures; p.159 ties choices to useful growing room. p.161 gives cleaning, clips, doors and vents as concrete upkeep.",
+              "The varietal descriptions let the reader retain a compact chilli, change the tomato habit or substitute aubergine deliberately, without needing to grow the whole catalogue."
+            ],
+            "stalls": [
+              "No monthly diary or worksheet exists, but the selected tasks do not require one. Adding an annual planner would be a larger optional product feature, not a final-book necessity."
+            ],
+            "simulatedDecision": "Use personal crop and workload notes to reduce or replace one crop next year; reserve seed-raising space and July care before expanding the list.",
+            "findingRefs": [
+              "CY07"
+            ]
+          }
+        ]
+      },
+      "months": [
+        {
+          "month": "January",
+          "question": "Choose a manageable crop list and prepare the greenhouse.",
+          "decision": "Retain the four greenhouse fruiting plants provisionally, defer aubergine unless one is replaced, measure the working space, clean glazing and service vents. Do not infer permission for a January tender sowing from the presence of a greenhouse.",
+          "answer": "p.159 explicitly asks the reader to allow for mature plants, access, an open door and vents. p.160 puts tall crops on the floor, gives tomato pots at least 12 inches across, drainage and wet-staging-load cautions. Shirley is described as a practical unheated-greenhouse choice; Demon Red is compact for pots; Red Alert is a bush tomato; Bonica needs warmth. pp.68–69 make aubergine a considered choice rather than an easy extra crop. p.83 restricts earlier heated crops to reliable warmth and bright winter light; p.161 gives glass cleaning and vent upkeep.",
+          "friction": "The list requires several crop spreads to compare mature habit; this is reasonable in an at-a-glance book and does not justify a new planning chapter. Searching the index under Chillies fails.",
+          "folios": [
+            4,
+            5,
+            68,
+            69,
+            70,
+            71,
+            74,
+            75,
+            82,
+            83,
+            84,
+            85,
+            159,
+            160,
+            161,
+            163
+          ]
+        },
+        {
+          "month": "February",
+          "question": "Decide which seed can actually be raised with available heat and light.",
+          "decision": "Raise chilli only if the stated warmth and continuing bright conditions can be provided; otherwise buy plants later. Defer greenhouse cucumber to the unheated route.",
+          "answer": "p.71 specifies sweet-pepper/chilli germination warmth and permits buying plants. p.69 specifies at least 70°F for aubergine and explicitly recommends buying sturdy plants if warm, bright propagation is unavailable. p.75 separates heated February/early-March cucumber sowing from late-April sowing for unheated cover. The answer is present on the facing page.",
+          "friction": "The bright Feb–Apr cucumber band is easy to take as a personal sow-now instruction until the reader reads p.75. The key says usual lowland-English months but does not itself distinguish heated propagation. The seedling needs after germination are described qualitatively; there is no permission to put newly emerged tender plants straight into an unheated house.",
+          "folios": [
+            9,
+            68,
+            69,
+            70,
+            71,
+            74,
+            75,
+            157,
+            165
+          ]
+        },
+        {
+          "month": "March",
+          "question": "Raise tomatoes and start small salad crops.",
+          "decision": "Use small successive salad batches. For tomatoes the book is adequate for this intermediate reader but a less experienced reader must supply seedling-stage knowledge. Flag the temperature for editorial reconciliation.",
+          "answer": "p.83 requires bright light, moist-not-wet compost and potting on. p.57 offers small successive batches or fewer strong lettuce plants for repeat picking; p.25 makes small fortnightly radish sowings explicit. Crop depths, final spacings and hearting versus loose-leaf choices are printed. p.157 separates direct sowing, raising under cover and planting out.",
+          "friction": "p.83 says prick out and pot on as needed without the true-leaf/root-fill triggers retained in canonical tomato advice. p.157 does not define these operations. The printed temperature is near 68°F, while the exact canonical germination field says around 64°F; this is a source-fidelity discrepancy, not evidence that 68°F is dangerous.",
+          "folios": [
+            24,
+            25,
+            56,
+            57,
+            82,
+            83,
+            157
+          ]
+        },
+        {
+          "month": "April",
+          "question": "Manage young plants and begin the unheated cucumber route without filling summer space too soon.",
+          "decision": "Use the crop-specific sowing route; do not treat glass as reliable heat. Keep the outdoor planting decision tied to hardening, weather and each crop.",
+          "answer": "p.75 gives late-April cucumber sowing for unheated cover and cautions against cold/wet roots. p.83 asks for a warm greenhouse and well-rooted plants. p.157 describes two to three weeks of increasing outdoor exposure and frost protection. Lettuce p.57 and spinach p.61 distinguish protected early growth and their own tolerances; they do not imply every crop follows the same dates.",
+          "friction": "For the practical decision about a cold overnight forecast, p.83 has no numerical lower-night guide, although canonical tomato advice does. p.161 tells readers raising plants for later outdoor planting to use earlier planting dates. That wording blurs an earlier protected start with the later outdoor transplanting decision.",
+          "folios": [
+            69,
+            71,
+            75,
+            83,
+            157,
+            161,
+            163
+          ]
+        },
+        {
+          "month": "May",
+          "question": "Fill the final greenhouse positions and clear competing early salads.",
+          "decision": "Select pot positions with access preserved; follow the late-May unheated cucumber option only when conditions remain warm. Remove early salads as space is needed and use patio salad containers for continuity.",
+          "answer": "p.83 distinguishes 12–18 inch tomato pots, two plants per standard growbag, about 24 inches between upright-cordon pot centres and 18–24 inches in soil. p.74 specifies one cucumber per pot at least 12 inches wide/deep. The planting illustrations show supporting tomatoes and gentle cucumber handling; p.75 asks for supports before growth gets heavy. p.161 explicitly says to clear early crops before they crowd summer plants. p.69 supplies aubergine pot/growbag arrangements and p.71 gives pepper support and fruiting-stage feeding.",
+          "friction": "Capsicum has plant spacings and named compact pot choices, but no final container dimension in the printed guide. The inspected canonical record likewise does not settle that size; it is a possible supplier-guidance question, not a reason to invent a number.",
+          "folios": [
+            69,
+            71,
+            74,
+            75,
+            83,
+            160,
+            161
+          ]
+        },
+        {
+          "month": "June",
+          "question": "Train growth, manage flowering and begin feeding at the appropriate stage.",
+          "decision": "Keep variety labels/packets, train the two cordons while leaving the Red Alert bush routine intact, follow cucumber variety-specific flower guidance, and begin feeding as fruit develops.",
+          "answer": "p.82 explains the cordon as one central stem with side-shoot removal; p.85 exempts bushes from routine side-shooting/stopping. p.75 clearly distinguishes unpollinated greenhouse fruit from varieties needing pollination and tells the reader to keep/check the packet. pp.117–118 explicitly exclude unpollinated greenhouse cucumbers from routine hand pollination. Feed is linked to developing/swelling fruit; the tomato and cucumber instructions defer rate/frequency to the product. p.75 balances humid air with ventilation and avoiding sodden roots, while p.83 stresses ventilation and steady root moisture.",
+          "friction": "Truss, lateral and stopping still demand some experience. Male/female flower recognition is not labelled on the cucumber page; p.73 explains the female-flower fruit swelling for courgettes, but there is no direct route there from p.75. The book does not prescribe a shared-house climate set point; that is not itself a defect, because each crop already asks for ventilation and healthy root conditions.",
+          "folios": [
+            69,
+            71,
+            74,
+            75,
+            82,
+            83,
+            84,
+            85,
+            117,
+            118,
+            161
+          ]
+        },
+        {
+          "month": "July",
+          "question": "Keep water and ventilation steady during peak growth and arrange the week away.",
+          "decision": "Arrange someone to check the greenhouse rather than read the bed-watering interval as permission to leave small pots unchecked; show them moisture checks and crop-specific picking. Any timed watering system would need its own checking, not an invented guarantee.",
+          "answer": "p.158 is especially useful: inspect below the surface or learn pot weight, recognise waterlogging, and treat seedlings/transplants differently from established beds. p.160 explains why pots and bags use their reserves quickly. p.75 says inspect daily in hot weather and pick useful fruit before it becomes over-mature; pp.119 and 140 provide recognisable pest signs, early control and supplier guidance.",
+          "friction": "There is no holiday/absence route or short handover reminder anywhere in the text or index. The reader must combine water checks, vent operation and picking into a cover plan. This is a convenience gap, not missing ordinary crop care.",
+          "folios": [
+            71,
+            75,
+            83,
+            119,
+            140,
+            158,
+            160,
+            161,
+            165
+          ]
+        },
+        {
+          "month": "August",
+          "question": "Keep cropping, distinguish disorders from pests and prepare the next planting.",
+          "decision": "Prepare suitable autumn plants while space is still occupied, use the actual crop sowing windows and harvest expectations, and reduce the summer list if access/airflow are becoming difficult.",
+          "answer": "p.140 links blossom-end damage to irregular moisture, explains spoiled tissue will not recover and cautions against overfeeding. p.83 says preserve healthy shading leaves. pp.58–59 provide late-July/August Oriental-leaf sowing and explain why this window is useful; p.60 explicitly includes August–September for spinach. p.83 describes stopping above the final truss and matching autumn watering to slower growth; p.85 gives a late-summer stopping cue for outdoor cordons.",
+          "friction": "The greenhouse tomato instruction gives no concrete seasonal example for choosing the final truss; canonical advice says often August in an unheated house. For lettuce there is no explicit protected late-August/early-September overwintering route in p.57, even though p.56 names Winter Density and p.161 encourages autumn lettuce.",
+          "folios": [
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            82,
+            83,
+            140,
+            161
+          ]
+        },
+        {
+          "month": "September",
+          "question": "Hand over greenhouse space and bring sound late fruit to ripeness.",
+          "decision": "Use already prepared season-suitable plants or act within the crop-specific sowing windows. Do not infer that clearing in October permits all autumn salads to be started from seed then.",
+          "answer": "pp.83 and 85 explain bringing sound unripe tomatoes indoors, checking for decay and avoiding a blanket promise of ripening everything. p.71 restricts drying to sound fully ripe chillies and warns about mould. p.61 names hardy winter spinach, protection in cold areas and light picking during slow winter growth; pp.59 and 130 distinguish hardier leaves from heads/leaf radish vulnerable to winter decline.",
+          "friction": "The phrase when summer crops finish on p.161 can be read as the point to begin the entire autumn crop. No explicit sow/raise-before-clear bridge or folio reference is supplied there. p.56 has a muted September lettuce sowing mark, but p.9 labels muted marks warmer-climate options. This does not clearly communicate the canonical protected autumn route to a northern or unheated-house reader.",
+          "folios": [
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            71,
+            83,
+            85,
+            130,
+            161
+          ]
+        },
+        {
+          "month": "October",
+          "question": "Finish tender crops and clean up while keeping suitable leaves.",
+          "decision": "Finish or remove tender crops according to condition and weather, inspect late fruit indoors, maintain air and drainage around surviving suitable leaves.",
+          "answer": "The guides distinguish sound unripe tomatoes, fully ripe drying chillies, glossy aubergines and unusually bitter cucumbers to discard. Diseases are not treated as automatically recoverable. p.69 permits chopping/shredding healthy woody stems for compost; disease entries call for appropriate removal. p.161 explicitly says an unheated greenhouse still gets cold at night.",
+          "friction": "No fixed final date is supplied for this particular greenhouse; that is appropriate given the book’s weather/variety caveat. The unresolved issue is the earlier preparation for winter crops, not a lack of an October deadline.",
+          "folios": [
+            61,
+            69,
+            71,
+            75,
+            83,
+            85,
+            118,
+            119,
+            120,
+            130,
+            138,
+            139,
+            142,
+            161
+          ]
+        },
+        {
+          "month": "November",
+          "question": "Pick sparingly, watch winter decline and maintain drainage and light.",
+          "decision": "Keep expectations modest, leave growing centres and sufficient foliage, check moisture and drainage, and protect only crops suited to the season.",
+          "answer": "p.60 qualifies time to harvest as longer in cold weather; p.61 explicitly says pick lightly in slow winter growth and never strip a plant bare. p.130 advises harvesting sound material before hard frost, discarding rot, using protection and choosing hardier leaves; p.158 requires checking actual moisture rather than following a fixed volume.",
+          "friction": "The greenhouse page promises an extended season, not uninterrupted winter yield. No additional winter-production schedule is required to make these particular instructions usable.",
+          "folios": [
+            59,
+            60,
+            61,
+            130,
+            158,
+            161
+          ]
+        },
+        {
+          "month": "December",
+          "question": "Review the season and prepare the next manageable cycle.",
+          "decision": "Use personal crop and workload notes to reduce or replace one crop next year; reserve seed-raising space and July care before expanding the list.",
+          "answer": "p.146 asks the reader to record successes as well as failures; p.159 ties choices to useful growing room. p.161 gives cleaning, clips, doors and vents as concrete upkeep. The varietal descriptions let the reader retain a compact chilli, change the tomato habit or substitute aubergine deliberately, without needing to grow the whole catalogue.",
+          "friction": "No monthly diary or worksheet exists, but the selected tasks do not require one. Adding an annual planner would be a larger optional product feature, not a final-book necessity.",
+          "folios": [
+            68,
+            70,
+            74,
+            82,
+            84,
+            146,
+            147,
+            159,
+            161
+          ]
+        }
+      ],
+      "file": "personas/constrained.json"
+    }
+  ],
+  "northern_stress_test": {
+    "id": "B",
+    "name": "Novice-to-intermediate grower at a cooler northern UK site, without heated propagation",
+    "assumptions": [
+      "Hypothetical inland/northern site with an unheated compact greenhouse, outdoor patio containers and limited bright windowsill space; no propagator, grow lights or dependable heated seed-raising area.",
+      "The stress test stipulates cold nights persisting into the intended planting period. It does not invent a regional last-frost date or apply a uniform delay to every crop.",
+      "Prioritises lettuce, radish and hardy spinach; considers bought young tomatoes/chillies and treats aubergine as an optional trial."
+    ],
+    "stressTestMonths": [
+      {
+        "month": "January",
+        "decision": "Choose crops that fit the available season and propagation resources.",
+        "questions": [
+          "Does UK-focused mean these early sowing months apply to my site?",
+          "Is aubergine a sensible first crop?"
+        ],
+        "routeFolios": [
+          2,
+          9,
+          68,
+          69,
+          71,
+          84,
+          159
+        ],
+        "helps": "p.2 says weather, soil and variety alter dates; p.9 names lowland England and local conditions. Aubergine is explicitly risky outside warm shelter, and capsicum favours cover especially in cooler areas. Outdoor tomato advises an early suited variety and protection in cooler areas.",
+        "stall": "These are useful qualifications. The book does not need a universal north/south date-offset table. The reader needs the conditional planting decision carried consistently into p.161.",
+        "findingRefs": [
+          "CY01"
+        ]
+      },
+      {
+        "month": "February",
+        "decision": "Defer or buy tender plants rather than sow because a bright month is marked.",
+        "questions": [
+          "Can the unheated house supply chilli or cucumber germination warmth?"
+        ],
+        "routeFolios": [
+          9,
+          69,
+          71,
+          74,
+          75,
+          157
+        ],
+        "helps": "Aubergine and capsicum explicitly allow buying young plants; cucumber has a later unheated route. This is a successful accommodation of the equipment constraint.",
+        "stall": "At-a-glance cucumber Feb–Apr needs the opposite-page heated/unheated interpretation. p.157’s modules on a windowsill are a general method, not a claim that any sill is sufficient for all early tender crops.",
+        "findingRefs": [
+          "CY05"
+        ]
+      },
+      {
+        "month": "March",
+        "decision": "Start suitable salad crops and identify how to recognise ready seedlings.",
+        "questions": [
+          "What do prick out and pot on mean?",
+          "What indicates readiness besides elapsed days?"
+        ],
+        "routeFolios": [
+          24,
+          25,
+          56,
+          57,
+          60,
+          61,
+          83,
+          157
+        ],
+        "helps": "Depth, thinning and transplant illustrations are useful. p.157 gives a clear hardening sequence and says a head start only helps if growth continues.",
+        "stall": "The tomato stage cues remain compressed to as needed. A crop-specific true-leaf/root-fill phrase would close this narrow gap without a glossary chapter.",
+        "findingRefs": [
+          "CY08"
+        ]
+      },
+      {
+        "month": "April–May",
+        "decision": "Hold bought tender plants until the greenhouse and outdoor positions are suitable.",
+        "questions": [
+          "The forecast is cold overnight: is no frost enough?",
+          "Does p.161 tell me to use an earlier planting date outdoors?"
+        ],
+        "routeFolios": [
+          69,
+          71,
+          75,
+          77,
+          83,
+          85,
+          157,
+          161
+        ],
+        "helps": "Warmth, settled weather and frost cautions occur repeatedly. Unheated cucumber late-May timing is expressly conditional; p.77 gives outdoor June as usual, not guaranteed.",
+        "stall": "p.83 omits the source’s below-about-50°F night caution. The phrase earlier planting dates in p.161 is the single most confusing cross-page instruction for this lens.",
+        "findingRefs": [
+          "CY01",
+          "CY02"
+        ]
+      },
+      {
+        "month": "June",
+        "decision": "Make final plantings once actual conditions permit, keep supports manageable and retain a small crop list.",
+        "questions": [
+          "Can I use a bush tomato rather than learn cordon pruning immediately?",
+          "Can I put all listed warm crops into the small house?"
+        ],
+        "routeFolios": [
+          70,
+          74,
+          76,
+          82,
+          83,
+          84,
+          85,
+          159,
+          160
+        ],
+        "helps": "Red Alert is labelled bush and pp.84–85 explain the easier pruning routine; Bush Champion cucumber is described as compact for smaller spaces/containers. p.159 warns that summer plants outgrow their April footprint.",
+        "stall": "This comparison takes several pages but the information is present; no new crop ranking is needed. Cold-sensitive crops remain an elective risk rather than an implied guarantee.",
+        "findingRefs": []
+      },
+      {
+        "month": "August–September",
+        "decision": "Plan the last useful fruit and autumn salads before declining light and warmth become limiting.",
+        "questions": [
+          "How late can I keep making tomato trusses?",
+          "Which autumn crop must already be growing when I clear the summer plants?"
+        ],
+        "routeFolios": [
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          83,
+          85,
+          161
+        ],
+        "helps": "Outdoor tomato says stop in time for the local season; spinach has an explicit late-summer/early-autumn sowing window and winter variety. The book does not simply use its lowland calendar as an absolute instruction.",
+        "stall": "Greenhouse tomato lacks the canonical often-August unheated example; protected autumn lettuce timing is not carried into the printed sowing text. The autumn handover is therefore less self-contained than spring.",
+        "findingRefs": [
+          "CY03",
+          "CY08"
+        ]
+      },
+      {
+        "month": "October–December",
+        "decision": "Finish tender crops, use sound late fruit and maintain hardy leaves without expecting summer growth.",
+        "questions": [
+          "Does glass make winter salad leaves safe from all cold?",
+          "How much should I harvest from slow plants?"
+        ],
+        "routeFolios": [
+          61,
+          71,
+          83,
+          85,
+          130,
+          158,
+          161
+        ],
+        "helps": "p.161 explicitly warns that the unheated greenhouse gets cold at night; p.61 says protect in cold areas and pick lightly in winter; p.130 distinguishes hardier leaves from winter decline.",
+        "stall": "No new universal northern winter guarantee or heating recommendation should be inserted. The book already gives a useful cautious approach once autumn crops exist.",
+        "findingRefs": [
+          "CY03"
+        ]
+      }
+    ]
+  }
+}

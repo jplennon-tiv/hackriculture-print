@@ -4,6 +4,7 @@ import {createHash} from 'node:crypto';
 import {execFileSync} from 'node:child_process';
 import {readBookContent, root, sharedRoot} from './book-content.mjs';
 import {readCollection} from '../../../hackriculture-data/lib/records.mjs';
+import {loadReaderGuides} from './approved-reader-integration.mjs';
 import {loadApprovedTwoPageGuides} from './approved-two-page-guides.mjs';
 
 export const hash = bytes => createHash('sha256').update(bytes).digest('hex');
@@ -51,8 +52,9 @@ export function resolveIndex({planPath='docs/publication/book-preparation/ASSEMB
   const topicMap=topicMapPath?json(topicMapPath):null;
   const inputs={},cache=new Map();
   const approvedGuides=plan.approvedGuides?loadApprovedTwoPageGuides().editions:{};
+  const readerGuides=plan.currentApprovals?loadReaderGuides():{};
   const pdfPaths=[...new Set([
-    ...Object.values(plan.editions).flatMap(e=>e.documents.map(d=>path.resolve(root,d.pdf))),
+    ...Object.values(plan.editions).flatMap(e=>[...e.documents,...(e.additions||[])].map(d=>path.resolve(root,d.pdf))),
     ...topicChecks.results.map(e=>path.resolve(root,e.path)),
     ...cultivationApproval.files.filter(e=>/\/(imperial|metric)\.pdf$/.test(e.path)).map(e=>path.resolve(root,e.path))
   ])];
@@ -74,10 +76,10 @@ export function resolveIndex({planPath='docs/publication/book-preparation/ASSEMB
     const registry=new Map();
     for (const d of plan.editions[units].documents) {
       const replacement=approvedGuides[units]?.[d.key];
-      const receipt=d.approvedReplacement?replacement:production.results.find(p=>p.id===d.id);
+      const receipt=d.readerApprovedReplacement?readerGuides[units]?.[d.key]:d.approvedReplacement?replacement:production.results.find(p=>p.id===d.id);
       if (!receipt || receipt.sha256!==d.sha256) throw Error('Production/assembly source mismatch: '+d.id);
       const texts=readPdf(d.pdf,d.sha256,d.physicalPages);
-      const dom=d.approvedReplacement?texts:receipt.dom.texts;
+      const dom=d.readerApprovedReplacement&&d.type==='trouble'?production.results.find(p=>p.id===d.id).dom.texts:(d.approvedReplacement||d.readerApprovedReplacement)?texts:receipt.dom.texts;
       if (dom.length!==texts.length) throw Error('Missing source text: '+d.id);
       registry.set(d.type+':'+d.key,{pdf:d.pdf,texts,dom,start:d.startPage,prefix:''});
     }
@@ -92,6 +94,12 @@ export function resolveIndex({planPath='docs/publication/book-preparation/ASSEMB
     const cultivationText=readPdf(cf.path,cf.sha256,4);
     const cd=cultivationDom.results.find(x=>x.units===units);
     for(const [i,id] of ['overview','no-dig','digging','digging-finish'].entries()) registry.set('cultivation:'+id,{pdf:cf.path,texts:[cultivationText[i]],dom:[cd.pages[i].text],start:i+1,sourceOffset:i,prefix:'C'});
+    for(const d of plan.editions[units].additions||[]){
+      const all=readPdf(d.pdf,d.sha256,d.sourcePdfPages||extracted[path.resolve(root,d.pdf)].length);
+      const offset=(d.sourcePage||1)-1,texts=all.slice(offset,offset+d.physicalPages);
+      if(texts.length!==d.physicalPages)throw Error('Missing current topic page: '+d.source);
+      registry.set(d.source,{pdf:d.pdf,texts,dom:texts,start:d.startPage,sourceOffset:offset,prefix:'T'});
+    }
     const resolved=book.data.index.entries.map(entry=>{
       const references=[];
       for(const ref of entry.refs||[]) {
@@ -116,5 +124,5 @@ export function resolveIndex({planPath='docs/publication/book-preparation/ASSEMB
     editions[units]=resolved;
   }
   const labels=unit=>editions[unit].map(e=>({id:e.id,labels:e.displayReferences.map(r=>r.label)}));
-  return {status:'Index proposal; page selection and design await review',sourceRevision:book.revision,copyPath:path.join(sharedRoot,'book-layout/index.json'),copySha256:hash(fs.readFileSync(path.join(sharedRoot,'book-layout/index.json'))),assemblyPlan:{path:planPath,sha256:hash(fs.readFileSync(path.resolve(root,planPath)))},temporaryTopicReferences:!topicMap,identicalEditionReferences:JSON.stringify(labels('imperial'))===JSON.stringify(labels('metric')),heading:book.data.index.heading,introduction:book.data.index.introduction,inputs,editions};
+  return {status:topicMap?'Current integrated references from approved sources':'Standalone index reference proof',sourceRevision:book.revision,copyPath:path.join(sharedRoot,'book-layout/index.json'),copySha256:hash(fs.readFileSync(path.join(sharedRoot,'book-layout/index.json'))),assemblyPlan:{path:planPath,sha256:hash(fs.readFileSync(path.resolve(root,planPath)))},temporaryTopicReferences:!topicMap,identicalEditionReferences:JSON.stringify(labels('imperial'))===JSON.stringify(labels('metric')),heading:book.data.index.heading,introduction:book.data.index.introduction,inputs,editions};
 }

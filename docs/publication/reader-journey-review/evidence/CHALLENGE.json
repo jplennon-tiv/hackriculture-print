@@ -1,0 +1,205 @@
+{
+  "review_type": "Independent challenge of the consolidated reader-journey action plan; desk review, not user testing",
+  "date": "2026-10-15",
+  "baseline_sha256": "39d437e8571d92aca177c31a2da4e2f371dada19a5f66465e4826678ac747cd6",
+  "verdict": "The bounded correction list is well supported. Preserve its distinction between source-fidelity repairs, clarity improvements, optional navigation aids and unresolved source decisions. The worked succession example is optional and does not justify displacing the approved bed-pattern illustrations. The family map is selective rather than incorrect.",
+  "verified_new_items": [
+    {
+      "id": "CH01",
+      "item": "Celeriac 16 and asparagus 88 Depth labels",
+      "verdict": "Confirmed ambiguity; targeted label changes supported, no measurement change.",
+      "book_evidence": [
+        {
+          "folio": 16,
+          "actual_visual": "Quick facts says Depth, followed by Stem-base level with soil; keep crown clear. This is a transplant/crown position, not seed depth."
+        },
+        {
+          "folio": 88,
+          "actual_visual": "Quick facts says Depth 1 in. The facing practical page 89 separately gives crown placement, initial cover and an 8 in. trench."
+        }
+      ],
+      "canonical_evidence": [
+        {
+          "record": "vegetables/celeriac",
+          "paths": [
+            "sowing_and_planting.sowing_depth",
+            "sowing_and_planting.planting_depth",
+            "sowing_and_planting.method"
+          ],
+          "detail": "Sowing depth is null; method says cover seed only very lightly. Planting depth explicitly keeps the swollen stem-base at soil level and prohibits burying/earthing the crown."
+        },
+        {
+          "record": "vegetables/asparagus",
+          "paths": [
+            "sowing_and_planting.sowing_depth",
+            "sowing_and_planting.seed_sowing.sowing_depth",
+            "sowing_and_planting.planting.planting_depth"
+          ],
+          "detail": "Both seed-depth fields are 1 in./2.5 cm. Crown placement says cover roots and leave bud tips visible."
+        }
+      ],
+      "minimal_action": "Relabel these two existing facts to distinguish planting/crown position from seed depth. Keep exact source values and the existing method diagrams.",
+      "challenge": "Do not call the displayed quantities wrong or the planting method absent. Do not generalise these two checked examples into a claim that all 44 guides have incorrect depth fields. Priority is clarity at a glance."
+    },
+    {
+      "id": "CH02",
+      "item": "Lettuce 56 slug key-risk card",
+      "verdict": "Confirmed unclear and misplaced prevention text; a source-backed symptom description is a proportionate replacement.",
+      "book_evidence": [
+        {
+          "folio": 56,
+          "actual_visual": "The key-risk card begins with control actions and ends with the opaque condition about soil being bare for too short a time for slugs to disperse."
+        },
+        {
+          "folio": 57,
+          "detail": "The existing pest table already says Ragged leaves; slime trails and Hand-pick after dark; protect seedlings. The diagnosis/action route exists."
+        }
+      ],
+      "canonical_evidence": [
+        {
+          "record": "vegetables/lettuce",
+          "path": "troubles.SLUGS.text",
+          "detail": "Contains the same opaque bare-soil sentence, followed later by clearer ragged-chewing symptoms and controls."
+        },
+        {
+          "record": "vegetables/lettuce",
+          "path": "troubles.SLUGS.signs",
+          "exact": "Ragged leaves; slime trails."
+        }
+      ],
+      "minimal_action": "Use the existing canonical symptom material for the key-risk paragraph; keep practical controls on page 57 and the linked Troubles page.",
+      "challenge": "Frame this as clarity and the purpose of the risk card. No efficacy claim about bare-soil timing was independently researched here. Do not describe slug controls as absent or use this to reopen the whole pest catalogue."
+    },
+    {
+      "id": "CH03",
+      "item": "Greyhound 36 spring group versus summer description",
+      "verdict": "Confirmed printed label/description mismatch with a duplicated canonical grouping; decision/reconciliation item, not a demonstrated cultivar taxonomy error.",
+      "book_evidence": [
+        {
+          "folio": 36,
+          "actual_visual": "Greyhound appears under SPRING CABBAGES, directly above Traditional pointed summer cabbage; open-pollinated."
+        }
+      ],
+      "canonical_evidence": [
+        {
+          "record": "vegetables/cabbage",
+          "path": "varieties.SPRING cabbages.GREYHOUND",
+          "detail": "Rank 9. Full text describes raising under glass in late winter/early spring, planting April, cutting June. Short text calls it a traditional pointed summer cabbage."
+        },
+        {
+          "record": "vegetables/cabbage",
+          "path": "varieties.SUMMER cabbages.GREYHOUND",
+          "detail": "Also rank 9. Full text describes compact fast-maturing pointed heads and early sowing. Short text again calls it a traditional pointed summer cabbage."
+        }
+      ],
+      "implementation_evidence": {
+        "file": "src/print/vegetableModel.ts",
+        "lines": "228–238",
+        "detail": "Print sorts entries by descending rank, then deduplicates cultivar names. It does not always choose the first group; equal Greyhound ranks preserve current source order, so the spring entry wins this tie. The existing varieties test demonstrates a higher-ranked summer duplicate winning when ranks differ."
+      },
+      "minimal_action": "Ask John to settle the intended display grouping/seasonal route; harmonise the one printed card accordingly while preserving both full source entries unless separate data editing is authorised.",
+      "challenge": "Do not delete one canonical record, alter the global deduplication rule, or report that Greyhound categorically cannot have an early protected route. The exact label choice is not settled merely by two identical short descriptions."
+    }
+  ],
+  "plan_challenges": [
+    {
+      "item": "Worked bed succession example replacing/condensing a finger or leaf illustration on 149",
+      "recommendation": "Defer, or offer only as a clearly optional proposal. Do not make it part of the required correction pass.",
+      "reason": "All three persona reports find existing crop handovers useful and reject a new annual planner. Kale 41, garlic 62, oriental leaves 59 and turnip 31 already supply actionable successions. Page 149’s finger and leaf patterns explain distinct access alternatives and carry approved content; they are not demonstrably redundant.",
+      "smaller_option": "If John wants one worked reminder, consider a short source-linked same-year example or cross-reference in the existing record-keeping paragraph on 156. Keep it distinct from the YEAR 1/YEAR 2/YEAR 3 diagram, and conditional on crop readiness. Do not remove artwork to create space before measuring a text-only alternative."
+    },
+    {
+      "item": "Expanded crop-family map on 156",
+      "recommendation": "Support a small completion focused on common omitted groups; avoid an exhaustive catalogue.",
+      "reason": "A novice’s ordinary lettuce/courgette selection and the allotment grower’s spinach/chard/beetroot are not mapped. This is a useful application gap. The present examples are not botanically wrong merely because they omit members.",
+      "bounds": [
+        "Prioritise the beet/spinach/chard, cucurbit and lettuce-related groupings needed by the tested selections, using sourced taxonomy.",
+        "The carrot-family row currently names coriander/dill, which are outside the guide catalogue; consider replacing those examples with relevant covered crops rather than continually lengthening rows.",
+        "Missing members within a named family are lower priority than an entirely omitted common group. Preserve the flexible approach, second-crop record and persistent-disease caveat.",
+        "Do not convert the table into a universal fixed rotation interval or promise that related plants share every pest."
+      ]
+    },
+    {
+      "item": "Task index additions",
+      "recommendation": "Support Chillies as a direct synonym route. Limit succession/winter/storage to a few useful destinations.",
+      "reason": "Chillies is a familiar crop term with an existing combined capsicum guide. Succession and storage already have substantive coverage but are harder to enter as tasks. A long list of every crop under Storage would be less useful and could consume the current index.",
+      "bounds": "Treat these as navigation improvements, not missing chapters. Deduplicate the same proposed routes across persona reports."
+    },
+    {
+      "item": "Calendar key, 161 earlier planting wording, leek timing and leek-moth qualification",
+      "recommendation": "Retain as the strongest bounded clarity/qualification repairs.",
+      "reason": "Multiple persona routes expose the distinction between protected sowing and outdoor transplanting. The leek transplant window and remaining-season qualifier are exact canonical facts omitted from the printed route.",
+      "bounds": "Keep exact dates/conditions, the calendar design and the existing page structure. Do not imply every muted date is an error, or invent a fixed last date for leek regrowth. A condition such as warm enough remains necessary even when a month is given."
+    },
+    {
+      "item": "Tomato 83 68°F versus canonical 64°F",
+      "recommendation": "Retain as source-fidelity reconciliation, not a newly established plant-harm claim.",
+      "reason": "The constrained report provides exact canonical germination fields and locates the discrepancy in the earlier approved print copy. There is no reason to blame the latest two-page layout or header integration.",
+      "bounds": "This challenge reviewed that evidence report but did not independently reread the tomato canonical record. Preserve its exact metric/imperial pair and approved-source history in any later authorised fix."
+    },
+    {
+      "item": "Compost 155 absolute lead and pet litter",
+      "recommendation": "Separate a wording inconsistency from the substantive pet-litter decision.",
+      "book_evidence": "Page 155 says anything of organic origin/all you throw, but already excludes plastic-coated/doubtful packaging and conditionally routes cooked food, meat, fish and dairy to council collection. Other book pages exclude particular diseased remains.",
+      "bounds": "Do not say the compost page provides no exclusions. Tightening the absolute lead can acknowledge existing exceptions without silently deciding the pet-litter source conflict. The independent local-versus-online pet-litter evidence was not rechecked in this challenge; it remains decision-only as assigned."
+    },
+    {
+      "item": "Carrot compost ambiguity",
+      "recommendation": "Keep decision-only.",
+      "reason": "The exact crop and shared Troubles fields differ in scope, and the book reproduces the ambiguity. Allotment and novice findings agree on this. A source hierarchy does not authorise quietly selecting one exact canonical field over the other.",
+      "bounds": "Do not describe the old wording as merely a stale renderer extract. Preserve source records and ask for the intended distinction before drafting final replacement copy."
+    }
+  ],
+  "recommended_order": [
+    "First: exact-value/qualification reconciliation and misleading labels — calendar key, 161 sowing versus planting, tomato temperature, leek timing/season condition, two depth labels.",
+    "Second: replace the opaque lettuce risk text and add the small direct navigation fixes, including Chillies.",
+    "Third: consider a compact family-map completion and selected task-index destinations after fit/benefit review.",
+    "Separate decisions: Greyhound display grouping, carrot compost scope and pet-litter advice.",
+    "Optional only: a worked same-year succession example. Do not displace 149 artwork as a default action."
+  ],
+  "coverage": {
+    "persona_reports_read": [
+      "personas/novice.json",
+      "personas/allotment.json",
+      "personas/constrained.json"
+    ],
+    "book_text_rechecked_folios": [
+      16,
+      17,
+      36,
+      37,
+      56,
+      57,
+      88,
+      89,
+      149,
+      155,
+      156,
+      161
+    ],
+    "new_actual_page_images_inspected": [
+      16,
+      36,
+      88
+    ],
+    "previous_actual_page_images_reused": [
+      9,
+      14,
+      56,
+      64,
+      65,
+      128,
+      156
+    ],
+    "canonical_reader": "../hackriculture-data/lib/records.mjs readRecord, read-only",
+    "new_canonical_records": [
+      "vegetables/celeriac",
+      "vegetables/asparagus",
+      "vegetables/lettuce",
+      "vegetables/cabbage"
+    ],
+    "source_hierarchy": "Exact records settled the three new verifications. No online source was needed to choose a value or override canonical advice.",
+    "limitations": "No new layout, metric proof, usability timing or gardening trial. No independent reassessment of the root pet-litter source conflict. Root tomato evidence was challenged as framed, not independently re-fetched.",
+    "changes": "Only evidence/CHALLENGE.json written. No book, source data or layout changed."
+  }
+}

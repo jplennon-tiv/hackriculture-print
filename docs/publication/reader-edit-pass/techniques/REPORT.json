@@ -1,0 +1,295 @@
+{
+  "date": "2026-10-15",
+  "status": "Authorised reader edits implemented in separate working derivatives and visually checked; not a new frozen approval or full-book assembly",
+  "changedFolios": [
+    155,
+    156,
+    157,
+    161
+  ],
+  "unchangedContextFolios": [
+    154,
+    160
+  ],
+  "pdfPageToPrintedFolio": {
+    "1": 154,
+    "2": 155,
+    "3": 156,
+    "4": 157,
+    "5": 160,
+    "6": 161
+  },
+  "builder": "scripts/build-reader-techniques.mjs",
+  "workingCopy": "src/print/book/reader-edit-pass/techniques-copy.json",
+  "outputs": [
+    {
+      "units": "imperial",
+      "mode": "clean",
+      "pdf": "/Users/johnlennon/Documents/web_site/hackriculture-print/output/pdf/reader-edit-pass/techniques/techniques-imperial-clean.pdf",
+      "sha256": "1a2ca8bccbfe3cba180dd748aa724fa9525753044bdbecf4b88b5de410752d95",
+      "pageCount": 6,
+      "folios": [
+        154,
+        155,
+        156,
+        157,
+        160,
+        161
+      ],
+      "images": [
+        "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/reader-edit-pass/techniques/images/imperial-clean/folio-154.png",
+        "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/reader-edit-pass/techniques/images/imperial-clean/folio-155.png",
+        "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/reader-edit-pass/techniques/images/imperial-clean/folio-156.png",
+        "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/reader-edit-pass/techniques/images/imperial-clean/folio-157.png",
+        "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/reader-edit-pass/techniques/images/imperial-clean/folio-160.png",
+        "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/reader-edit-pass/techniques/images/imperial-clean/folio-161.png"
+      ],
+      "mediaBoxMm": [
+        184.83,
+        239.86
+      ],
+      "cssTrimMm": [
+        185,
+        240
+      ]
+    },
+    {
+      "units": "imperial",
+      "mode": "highlighted",
+      "pdf": "/Users/johnlennon/Documents/web_site/hackriculture-print/output/pdf/reader-edit-pass/techniques/techniques-imperial-highlighted.pdf",
+      "sha256": "661fb40f5c001d77030f462f12684330c90cf8800b43ea07ac236b96d8d102cd",
+      "pageCount": 6,
+      "folios": [
+        154,
+        155,
+        156,
+        157,
+        160,
+        161
+      ],
+      "images": [
+        "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/reader-edit-pass/techniques/images/imperial-highlighted/folio-154.png",
+        "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/reader-edit-pass/techniques/images/imperial-highlighted/folio-155.png",
+        "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/reader-edit-pass/techniques/images/imperial-highlighted/folio-156.png",
+        "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/reader-edit-pass/techniques/images/imperial-highlighted/folio-157.png",
+        "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/reader-edit-pass/techniques/images/imperial-highlighted/folio-160.png",
+        "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/reader-edit-pass/techniques/images/imperial-highlighted/folio-161.png"
+      ],
+      "mediaBoxMm": [
+        184.83,
+        239.86
+      ],
+      "cssTrimMm": [
+        185,
+        240
+      ]
+    },
+    {
+      "units": "metric",
+      "mode": "clean",
+      "pdf": "/Users/johnlennon/Documents/web_site/hackriculture-print/output/pdf/reader-edit-pass/techniques/techniques-metric-clean.pdf",
+      "sha256": "6acfaf301badc377baa57553b7bfd9680414a9e43e45dc3178a547ebb63082be",
+      "pageCount": 6,
+      "folios": [
+        154,
+        155,
+        156,
+        157,
+        160,
+        161
+      ],
+      "images": [
+        "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/reader-edit-pass/techniques/images/metric-clean/folio-154.png",
+        "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/reader-edit-pass/techniques/images/metric-clean/folio-155.png",
+        "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/reader-edit-pass/techniques/images/metric-clean/folio-156.png",
+        "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/reader-edit-pass/techniques/images/metric-clean/folio-157.png",
+        "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/reader-edit-pass/techniques/images/metric-clean/folio-160.png",
+        "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/reader-edit-pass/techniques/images/metric-clean/folio-161.png"
+      ],
+      "mediaBoxMm": [
+        184.83,
+        239.86
+      ],
+      "cssTrimMm": [
+        185,
+        240
+      ]
+    },
+    {
+      "units": "metric",
+      "mode": "highlighted",
+      "pdf": "/Users/johnlennon/Documents/web_site/hackriculture-print/output/pdf/reader-edit-pass/techniques/techniques-metric-highlighted.pdf",
+      "sha256": "30c070100b99c236c4e048f55ff7422f4b9164644f1a37f2bf3eb6db7ec63f26",
+      "pageCount": 6,
+      "folios": [
+        154,
+        155,
+        156,
+        157,
+        160,
+        161
+      ],
+      "images": [
+        "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/reader-edit-pass/techniques/images/metric-highlighted/folio-154.png",
+        "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/reader-edit-pass/techniques/images/metric-highlighted/folio-155.png",
+        "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/reader-edit-pass/techniques/images/metric-highlighted/folio-156.png",
+        "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/reader-edit-pass/techniques/images/metric-highlighted/folio-157.png",
+        "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/reader-edit-pass/techniques/images/metric-highlighted/folio-160.png",
+        "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/reader-edit-pass/techniques/images/metric-highlighted/folio-161.png"
+      ],
+      "mediaBoxMm": [
+        184.83,
+        239.86
+      ],
+      "cssTrimMm": [
+        185,
+        240
+      ]
+    }
+  ],
+  "imagesPattern": "docs/publication/reader-edit-pass/techniques/images/{imperial|metric}-{clean|highlighted}/folio-{folio}.png",
+  "spreadsPattern": "docs/publication/reader-edit-pass/techniques/images/{unit}-{mode}/spread-{154-155|156-157|160-161}.jpg",
+  "changesAndSources": [
+    {
+      "change": "D1",
+      "folio": 155,
+      "authority": "John’s explicit 15 October decision to omit broad pet litter and overbroad claims; existing page supplies retained practical advice",
+      "source": "Original compost-use lead in source copy; exact old/new comparison in TEXT-PRESERVATION.json",
+      "qualification": "Only the lead changes. Equal-volume compost/topsoil method, small-trial qualification, greens/browns, moisture, finishing advice and exclusions are unchanged."
+    },
+    {
+      "change": "O1",
+      "folio": 156,
+      "authority": "Exact canonical JSON",
+      "source": "vegetables/kale: calendar.sowing_time.notes[4], calendar.planting_time.notes, sowing_and_planting.notes[4]; vegetables/bean_broad: harvesting[0] and calendar.harvest_time.notes",
+      "qualification": "An example after early broad beans, not a universal guarantee. June to early July sowing; prompt planting when ready, often July or early August; suitable variety, establishment time before winter and pest protection retained. Both families explicitly recorded. Kale reference pages40–41 checked."
+    },
+    {
+      "change": "A5",
+      "folio": 156,
+      "authority": "Online fills botanical-family gaps after canonical/local checks",
+      "source": "Garden Organic, Growing plants, printed p13; University of Saskatchewan, Rotating Your Vegetables, family table",
+      "qualification": "Canonical category fields are culinary/book groups rather than botanical families. Local Raised Beds passage controls flexible small-area rotation. Only the botanical examples are adopted; no fixed four-year, equal-block or nutrient sequence imposed. Permanent crops and persistent-disease cautions remain word-for-word."
+    },
+    {
+      "change": "A7",
+      "folio": 157,
+      "authority": "Existing local/canonical method retained; RHS fills short terminology definitions",
+      "source": "John manuscript module notes lines4069–4090; RHS Seed sowing glossary, Direct seed sowing, How to prick out seedlings into modules",
+      "qualification": "Drill is a shallow groove; modules are separate cells; station is one sowing/planting position. No universal seed depth or one-plant-per-module instruction added. Footnote compressed while retaining crop-specific method/depth and little-and-often qualification."
+    },
+    {
+      "change": "A2/A4",
+      "folio": 161,
+      "authority": "Exact lettuce and Oriental-leaves JSON plus retained local greenhouse method",
+      "source": "lettuce calendar.sowing_time.notes and sowing_and_planting; oriental_leaves calendar.sowing_time and sowing_and_planting.method; existing p157 hardening text; local greenhouse/module notes",
+      "qualification": "Protected sowing is distinguished from outdoor readiness. Planting depends on hardening, weather and soil. Autumn replacements are raised within their crop sowing windows before summer crops finish. Only lettuce/Oriental-leaves routes are linked (56–59); direct-sown spinach is not silently converted to a universal transplant route. Seasonal variety and unheated-night caution retained."
+    }
+  ],
+  "sourceUrls": [
+    {
+      "title": "Garden Organic: Growing plants, botanical family table p13",
+      "url": "https://gardenorganic-assets.s3.eu-west-2.amazonaws.com/documents/SilverGoldS3.pdf",
+      "usedFor": "Botanical family examples only"
+    },
+    {
+      "title": "University of Saskatchewan: Rotating Your Vegetables",
+      "date": "2024-02-12",
+      "url": "https://gardening.usask.ca/articles-and-lists/articles-how-to/rotating-your-vegetables.php",
+      "usedFor": "Celery/celeriac/fennel and endive family membership; corroborating examples"
+    },
+    {
+      "title": "RHS: Seed sowing glossary",
+      "url": "https://www.rhs.org.uk/education-learning/school-gardening/resources/getting-started/seed-sowing-glossary",
+      "usedFor": "Drill and station terminology only"
+    },
+    {
+      "title": "RHS: How to prick out seedlings into modules",
+      "url": "https://www.rhs.org.uk/education-learning/school-gardening/resources/getting-started/how-to-prick-out-seedlings-into-modules",
+      "usedFor": "Module definition only"
+    },
+    {
+      "title": "RHS: Direct seed sowing",
+      "url": "https://www.rhs.org.uk/education-learning/school-gardening/resources/getting-started/direct-seed-sowing",
+      "usedFor": "Drill and station terminology only"
+    }
+  ],
+  "sourceAccessDate": "2026-10-15",
+  "intentionalReplacement": "The p156 three-year example strip is replaced by a compact within-year broad-beans-to-kale example using existing original crop art. The unchanged prose retains year-to-year family movement, record keeping, flexible beds, permanent crops and disease cautions. Page149 stays intact.",
+  "preserved": [
+    "p149 untouched",
+    "Current flowing headings and running titles",
+    "9.45pt main body, 31.5pt main title and 22.5pt qualifier",
+    "Original crop/source artwork retained; broad-bean and kale heroes reused without editing",
+    "One page per current folio, mirrored gutters and running section/folio footer",
+    "Compost practical method and exclusions",
+    "Year-to-year family movement, permanent crops and persistent-disease cautions",
+    "Approved resource copy, frozen CSS, original HTML/proofs, canonical records and local manuscript unchanged"
+  ],
+  "checks": {
+    "builder": "passed for both units; source-text guards, source-copy hash before/after, fonts/images loaded, no HTTP/page errors, no overflow or unsafe bounds",
+    "syntax": "node --check scripts/build-reader-techniques.mjs passed",
+    "actualPdfs": "4 PDFs, each 6 pages, CSS185×240mm; Chromium media boxes184.83×239.86mm recorded, within0.25mm browser rounding",
+    "textPreservation": {
+      "receipt": "TEXT-PRESERVATION.json",
+      "sourceBookSha256": "39d437e8571d92aca177c31a2da4e2f371dada19a5f66465e4826678ac747cd6",
+      "actualPdfBlockChecks": 222,
+      "unchangedTextBlocks": 90,
+      "unexplainedTextChanges": 0,
+      "comparison": "Actual assembled imperial book and actual clean derivative. All text blocks matched after Unicode/whitespace normalisation; only the declared before/after blocks differ. Current running footers verified separately."
+    },
+    "changedPageImageIdentity": "All four changed-page PNGs are byte-identical across units, for both clean and highlighted renders; p160 retains its unit-specific measurement.",
+    "minimumSourceClearanceMm": 2.712,
+    "minimumFooterClearanceMm": 3.559,
+    "visualCoverage": [
+      "Original assembled155/156/157/161 inspected before editing",
+      "Actual imperial clean changed pages155/156/157/161 individually",
+      "Actual metric highlighted changed pages155/156/157/161 individually",
+      "Actual clean facing spreads154–155,156–157,160–161 in both units",
+      "All changed pages cross-unit pixel identity verified"
+    ],
+    "visualResult": "No clipping, overlap, missing art, heading regression or awkward orphan noted. p156 is the fullest page but remains legible, with2.712mm content-to-source clearance. Highlights mark changes only and do not alter geometry."
+  },
+  "sourceHashes": [
+    {
+      "path": "/Users/johnlennon/Documents/web_site/hackriculture-resources/summaries/techniques-expansion/copy.json",
+      "sha256": "7d3933e59396b4fa902227b04f3f76a5bdfc4b3416fe59b671ca2aa200b45a19"
+    },
+    {
+      "path": "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/draft.css",
+      "sha256": "00e9f3e5bccd270cea052e3a1b836d3e958850fb5f31aa58f5748a1acfd6af07"
+    },
+    {
+      "path": "/Users/johnlennon/Documents/web_site/hackriculture-print/scripts/lib/book-review-refinements.mjs",
+      "sha256": "ac5a6c12e18de5ab3c47427ee9be7319d564610459454db9fb465aff79bb74bd"
+    },
+    {
+      "path": "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/whole-book-order-preview/COMPONENT-CHECKS.json",
+      "sha256": "500371ae8bf4811ac85a302eed5d4c06a26a24d4e5733691305f82698acdecd2"
+    },
+    {
+      "path": "/Users/johnlennon/Documents/web_site/hackriculture-print/public/images/heroes/richer-a/bean_broad.png",
+      "sha256": "469e9165971629c2ddabe248ca67100c7ffa58d95520492f84646fa0cb43e26c"
+    },
+    {
+      "path": "/Users/johnlennon/Documents/web_site/hackriculture-print/public/images/heroes/richer-a/kale.png",
+      "sha256": "e1122f1645dd3b947b96c74ef355e49d33c6cdea37154ef19e7b87f0f8c38f2f"
+    },
+    {
+      "path": "/Users/johnlennon/Documents/web_site/hackriculture-print/src/print/book/reader-edit-pass/techniques-copy.json",
+      "sha256": "91be0be7a7527512616b2a437e38f0b7feedcb1f77981ae1e6f3dba816b442fa"
+    },
+    {
+      "path": "/Users/johnlennon/Documents/web_site/hackriculture-print/scripts/build-reader-techniques.mjs",
+      "sha256": "43442e0c2cb71dd8c6040d9c3b766b8eba301afa2866139ae210f2f58c57d5cc"
+    }
+  ],
+  "unresolved": [],
+  "outOfScopeNotPerformed": [
+    "No full-book assembly",
+    "No canonical/shared-source mutations",
+    "No D2 carrot or D3 Greyhound edit",
+    "No holiday plan",
+    "No handover edit"
+  ]
+}

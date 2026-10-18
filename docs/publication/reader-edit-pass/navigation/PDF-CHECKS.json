@@ -1,0 +1,169 @@
+{
+  "status": "PDF checks passed; visual review recorded separately",
+  "proofs": [
+    {
+      "pdf": "output/pdf/reader-edit-pass/navigation/guide-key-imperial-clean.pdf",
+      "pages": 1,
+      "folios": [
+        9
+      ],
+      "cssTrimMm": [
+        185,
+        240
+      ],
+      "actualMediaBoxMm": [
+        184.827326,
+        239.86066
+      ],
+      "matchesFrozenComponentSize": true,
+      "textAndBounds": "pass",
+      "characters": 860
+    },
+    {
+      "pdf": "output/pdf/reader-edit-pass/navigation/guide-key-imperial-highlight.pdf",
+      "pages": 1,
+      "folios": [
+        9
+      ],
+      "cssTrimMm": [
+        185,
+        240
+      ],
+      "actualMediaBoxMm": [
+        184.827326,
+        239.86066
+      ],
+      "matchesFrozenComponentSize": true,
+      "textAndBounds": "pass",
+      "characters": 860
+    },
+    {
+      "pdf": "output/pdf/reader-edit-pass/navigation/index-imperial-clean.pdf",
+      "pages": 4,
+      "folios": [
+        162,
+        163,
+        164,
+        165
+      ],
+      "cssTrimMm": [
+        185,
+        240
+      ],
+      "actualMediaBoxMm": [
+        184.827326,
+        239.86066
+      ],
+      "matchesFrozenComponentSize": true,
+      "textAndBounds": "pass",
+      "characters": 6281
+    },
+    {
+      "pdf": "output/pdf/reader-edit-pass/navigation/index-imperial-highlight.pdf",
+      "pages": 4,
+      "folios": [
+        162,
+        163,
+        164,
+        165
+      ],
+      "cssTrimMm": [
+        185,
+        240
+      ],
+      "actualMediaBoxMm": [
+        184.827326,
+        239.86066
+      ],
+      "matchesFrozenComponentSize": true,
+      "textAndBounds": "pass",
+      "characters": 6281
+    },
+    {
+      "pdf": "output/pdf/reader-edit-pass/navigation/guide-key-metric-clean.pdf",
+      "pages": 1,
+      "folios": [
+        9
+      ],
+      "cssTrimMm": [
+        185,
+        240
+      ],
+      "actualMediaBoxMm": [
+        184.827326,
+        239.86066
+      ],
+      "matchesFrozenComponentSize": true,
+      "textAndBounds": "pass",
+      "characters": 860
+    },
+    {
+      "pdf": "output/pdf/reader-edit-pass/navigation/guide-key-metric-highlight.pdf",
+      "pages": 1,
+      "folios": [
+        9
+      ],
+      "cssTrimMm": [
+        185,
+        240
+      ],
+      "actualMediaBoxMm": [
+        184.827326,
+        239.86066
+      ],
+      "matchesFrozenComponentSize": true,
+      "textAndBounds": "pass",
+      "characters": 860
+    },
+    {
+      "pdf": "output/pdf/reader-edit-pass/navigation/index-metric-clean.pdf",
+      "pages": 4,
+      "folios": [
+        162,
+        163,
+        164,
+        165
+      ],
+      "cssTrimMm": [
+        185,
+        240
+      ],
+      "actualMediaBoxMm": [
+        184.827326,
+        239.86066
+      ],
+      "matchesFrozenComponentSize": true,
+      "textAndBounds": "pass",
+      "characters": 6281
+    },
+    {
+      "pdf": "output/pdf/reader-edit-pass/navigation/index-metric-highlight.pdf",
+      "pages": 4,
+      "folios": [
+        162,
+        163,
+        164,
+        165
+      ],
+      "cssTrimMm": [
+        185,
+        240
+      ],
+      "actualMediaBoxMm": [
+        184.827326,
+        239.86066
+      ],
+      "matchesFrozenComponentSize": true,
+      "textAndBounds": "pass",
+      "characters": 6281
+    }
+  ],
+  "sameCharacterGeometryAcrossUnitsAndHighlightVariants": true,
+  "sameRasterBytesBetweenUnits": true,
+  "contactSheets": [
+    "docs/publication/reader-edit-pass/navigation/clean-contact.png",
+    "docs/publication/reader-edit-pass/navigation/highlight-contact.png"
+  ],
+  "coverage": "All 20 PDF pages: page 9 plus four index pages, clean/highlight, imperial/metric. All expected DOM text blocks found in actual PDFs. Entire both-unit renders compared exactly.",
+  "geometryNote": "Actual MediaBoxes retain the approved standalone component\u2019s Chromium rounding (184.827326 \u00d7 239.860660 mm). Whole-book assembly normalises its reused component pages to exact 185 \u00d7 240 mm; this focused derivative does not modify that assembly."
+}

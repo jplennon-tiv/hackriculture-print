@@ -1,0 +1,195 @@
+{
+  "date": "2026-10-18",
+  "status": "Research for practical replacement page; copy and layout awaiting John",
+  "brief": "Four-row nutrient/action table and three illustrated examples: legumes, compost and winter seaweed.",
+  "orderOfTruth": "Focused canonical records first, John’s manuscript and relevant transcripts second, online explanations for gaps third.",
+  "canonical": [
+    {
+      "key": "pea",
+      "source": "/Users/johnlennon/Documents/web_site/hackriculture-data/vegetables/pea/pea.json",
+      "sha256": "d45019ba61a7873dbac94a7c28f7c39fdfa7a554581e1c5e4d2f9f5d10ddab51",
+      "fields": [
+        {
+          "pointer": "/soil_facts/0/text",
+          "text": "Peas grow best in cool, moist conditions on a rich, well-structured loam with plenty of humus. Light soil can give an early crop and heavier soil a later one, but very poor soil gives disappointing yields."
+        },
+        {
+          "pointer": "/soil_facts/1/text",
+          "text": "Deeply cultivate the ground and prepare it well in autumn or winter. Incorporate plenty of compost or well-rotted manure where the soil lacks humus, but avoid heavy nitrogen dressings, which encourage leaf at the expense of pods."
+        },
+        {
+          "pointer": "/soil_facts/3/text",
+          "text": "Moisture is critical once plants are growing and especially while pods are filling. Soil rich in humus holds water better, and watering in dry spells usually pays back in extra peas."
+        },
+        {
+          "pointer": "/looking_after_the_crop/6/text",
+          "text": "After cropping, cut the plants at ground level and leave the roots in the soil so the nitrogen-rich nodules remain available to following crops."
+        }
+      ]
+    },
+    {
+      "key": "bean_broad",
+      "source": "/Users/johnlennon/Documents/web_site/hackriculture-data/vegetables/bean_broad/bean_broad.json",
+      "sha256": "b446a18b1ee992cd7f6b2c171278946f8f7357eb8d96d4ff7cc2f7cd9ce5a8f5",
+      "fields": [
+        {
+          "pointer": "/soil_facts/2/text",
+          "text": "For a spring sowing, dig in autumn and incorporate compost, well-rotted manure or other organic matter if the soil is poor. Potash is useful, so wood ash or comfrey leaves can be added where available. Apply a general-purpose fertilizer about a week before sowing."
+        },
+        {
+          "pointer": "/looking_after_the_crop/4/text",
+          "text": "After cropping, cut the stems at the base rather than pulling the whole plant if possible. This leaves the nitrogen-rich roots and nodules in the soil for the following crop, while the chopped stems can be composted."
+        }
+      ]
+    },
+    {
+      "key": "tomato_outdoor",
+      "source": "/Users/johnlennon/Documents/web_site/hackriculture-data/vegetables/tomato_outdoor/tomato_outdoor.json",
+      "sha256": "bd4444fba94162621ac0d9303a6d594867993850cca990b6427a6440c9abfe94",
+      "fields": [
+        {
+          "pointer": "/soil_facts/0/text",
+          "text": "Choose a warm, sunny, sheltered spot, such as a south-facing wall. Improve the bed with mature compost before planting. Use organic fertiliser only where soil fertility needs it."
+        },
+        {
+          "pointer": "/looking_after_the_crop/2/text",
+          "text": "Keep soil or compost evenly moist. Feed organically at the label rate once fruit starts to form. When the fourth truss on a cordon has set fruit, pinch out the main tip two leaves above it."
+        },
+        {
+          "pointer": "/troubles/Blossom End Rot/text",
+          "text": "A dark, leathery patch at the flower end of the fruit results from insufficient calcium reaching developing tissue, often because root moisture fluctuates. Keep soil or compost evenly moist, especially as fruit swells; avoid root damage and excessive feeding. Diagnose soil conditions before adding lime or nutrients."
+        }
+      ]
+    },
+    {
+      "key": "potato",
+      "source": "/Users/johnlennon/Documents/web_site/hackriculture-data/vegetables/potato/potato.json",
+      "sha256": "7f2d0445e3d4915ad8e3ea4f2c519882edceb0fea1ef1fb93e439500d6c10c70",
+      "fields": [
+        {
+          "pointer": "/soil_facts/2/text",
+          "text": "Potatoes prefer slightly acid conditions and should not be limed. Scab is encouraged by alkaline, dry soil; acidity reduces it. Potash is important for good crops, while nitrogen is useful but less critical where compost or manure has been added."
+        }
+      ]
+    }
+  ],
+  "local": [
+    {
+      "source": "/Users/johnlennon/Documents/web_site/hackriculture-resources/local/john-hackriculture-draft/hackriculture-draft.txt",
+      "sha256": "1149101bb0a9858086aa8cde12137d019d45c0269f2a80e7e531facc27b2a1f7",
+      "location": "Compost introduction, lines 1962–1990; compost organisms and decomposition, 2115–2162; seasonal composting, 2375–2425",
+      "use": "Recycle plant material through compost to support future crops; retain the practical compost-centred emphasis."
+    },
+    {
+      "source": "/Users/johnlennon/Documents/web_site/hackriculture-resources/local/hackriculture-youtube/_Ub8nJdM6ZY/transcript.txt",
+      "sha256": "ddb4c6205960f149b63cb384d926cfb4b5afea49a46b3038e88f8a98e3ac1526",
+      "location": "Full transcript, especially 02:31, 04:45 and 08:51 sections",
+      "use": "Kitchen/garden residues → compost → soil mix → new plants; microbial decomposition and humus; use of supplementary soil, bought compost and seaweed."
+    },
+    {
+      "source": "/Users/johnlennon/Documents/web_site/hackriculture-resources/local/hackriculture-youtube/_Ub8nJdM6ZY/SOURCE-NOTES.txt",
+      "sha256": "bf340b90c988af885ae13eac92ef0c3db3a2a7cf8aa0a6f6573d8a2b52dedc76",
+      "location": "Review status",
+      "use": "Machine captions, not author-corrected or fully audio-verified; avoid treating informal mechanism descriptions as exact scientific definitions."
+    },
+    {
+      "source": "/Users/johnlennon/Documents/web_site/hackriculture-resources/local/hackriculture-youtube/hIH1uCrs21c/transcript.txt",
+      "sha256": "9e7c11f4b2ad8af7826e9cb727dd6c963176410852870392d29b528dc3c871c9",
+      "location": "Full transcript, especially 01:58–03:57 sections",
+      "use": "Full seaweed transcript reread: winter storm-washed material, remove plastic, spread on soil surface, let decay, move treated beds in subsequent winters. Locations 00:00, 01:58 and 03:57."
+    },
+    {
+      "source": "/Users/johnlennon/Documents/web_site/hackriculture-resources/local/hackriculture-youtube/hIH1uCrs21c/SOURCE-NOTES.txt",
+      "sha256": "76506a886f099668bbf56e493cca1f50e5e38d9e50c688899001caddcb26c2ed",
+      "location": "Review status",
+      "use": "Machine captions; uncertain names and technical words not quoted."
+    }
+  ],
+  "additionalLocal": {
+    "source": "/Users/johnlennon/Documents/web_site/hackriculture-resources/local/john-hackriculture-draft/hackriculture-draft.txt",
+    "locations": "Manuscript lines 798–822 (seaweed); 1990–2070 (green/brown mix and moisture)",
+    "use": "Practical surface application and compost ingredients; no application quantities needed in overview."
+  },
+  "online": [
+    {
+      "id": "N",
+      "title": "AHDB — Biological fixation of nitrogen by rhizobia",
+      "url": "https://ahdb.org.uk/knowledge-library/biological-fixation-of-nitrogen-by-rhizobia",
+      "use": "Root-nodule bacteria fix atmospheric nitrogen; residues release nitrogen through mineralisation; contribution varies.",
+      "accessed": "2026-10-18",
+      "publicationDate": "Not established from consulted material"
+    },
+    {
+      "id": "C",
+      "title": "RHS — Organic matter: how to use in the garden",
+      "url": "https://www.rhs.org.uk/soil-composts-mulches/organic-matter-how-to-use-in-garden",
+      "use": "Photosynthesis, plant residues, decomposition and carbon dioxide; organic matter binds soil particles, retains nutrients and moisture; some forms last longer.",
+      "accessed": "2026-10-18",
+      "publicationDate": "Not established from consulted material"
+    },
+    {
+      "id": "PK",
+      "title": "Garden Organic — The function of plant nutrients",
+      "url": "https://garden-organic.files.svdcdn.com/production/documents/Function-of-plant-nutrients.pdf?dm=1726651542",
+      "use": "Pages 2–4: organic and mineral phosphorus pools, availability and root function; potassium pools, water balance, fruit development, compost/comfrey recycling; other nutrients and uptake conditions.",
+      "accessed": "2026-10-18",
+      "publicationDate": "Not established from consulted material"
+    },
+    {
+      "title": "RHS — How plants absorb nutrients",
+      "url": "https://www.rhs.org.uk/advice/understanding-plants/how-plants-absorb-nutrients",
+      "use": "All plants need nutrients; nitrogen supports leafy growth, phosphorus roots, potassium fruiting; carbon comes from air.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "title": "RHS — Seaweed products",
+      "url": "https://www.rhs.org.uk/soil-composts-mulches/seaweed-products",
+      "use": "Seaweed provides potassium and trace elements; most soils have adequate micronutrients. Collection needs permission. Amounts are variable, so no complete-feed guarantee.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "title": "Garden Organic — Growing comfrey",
+      "url": "https://www.gardenorganic.org.uk/expert-advice/all-about-comfrey/growing-comfrey",
+      "use": "Permanent undisturbed patch; let plants establish before regular cutting.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "title": "Garden Organic — Comfrey harvesting and use",
+      "url": "https://www.gardenorganic.org.uk/expert-advice/all-about-comfrey/comfrey",
+      "use": "Leaves can be mixed into compost to recycle their nutrients.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "title": "RHS — Three ways to use comfrey",
+      "url": "https://www.rhs.org.uk/advice/grow-your-own/features/making-comfrey-feed",
+      "use": "Bocking 14 and composting cut leaves: a compact useful method without a liquid-feed recipe.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "title": "RHS — Leafmould",
+      "url": "https://www.rhs.org.uk/soil-composts-mulches/leaf-mould",
+      "use": "Leafmould is chiefly a soil conditioner; do not assume nutritional equivalence to mixed compost or manure.",
+      "accessed": "2026-10-18"
+    }
+  ],
+  "editorialDecisions": [
+    "Use N/P/K plus one micronutrient row, as requested; crop examples are benefits, not exclusive requirements.",
+    "Keep nitrogen fixation distinct from recycling: some residue nitrogen becomes available on decay. No yield or complete-feed promise.",
+    "Replace theoretical carbon loop with the practical carbon/organic-matter/humus relationship in the compost example.",
+    "Comfrey appears as a usable short method in the table, without pointing to a nonexistent guide.",
+    "John’s surface seaweed method takes precedence over RHS digging instructions. Do not repeat broad universal-fertiliser claims."
+  ],
+  "sourceDataChanged": false,
+  "latestAuthorEdit": {
+    "date": "2026-10-18",
+    "revision": "copy-refinements",
+    "authority": "John’s direct requested wording; current copy replaces the previous practical draft.",
+    "newMeasurements": "Up to 6 inches / 15 cm of winter seaweed, superseding the manuscript’s older larger depth.",
+    "corrections": "Spelling, punctuation, place→plus, nix→mix, a part→as part, and page xxx→pages 156–157.",
+    "openWording": [
+      "NPK plus only trace amounts of everything else omits secondary macronutrients.",
+      "Varied compost does not guarantee all micronutrients or a specified NPK balance."
+    ],
+    "treatment": "Requested copy retained as author-proposed, with concrete alternative wording in preview source notes for review."
+  }
+}

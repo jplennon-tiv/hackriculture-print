@@ -47,29 +47,21 @@ For shared JSON work, use the
 in this and future sessions. Its maintained source is shared across the data,
 print, website and video projects.
 
-The [whole-book order preview](docs/publication/whole-book-order-preview/REVIEW.html)
-is the latest combined review: 166 interior pages in the revised section order plus G2/B5 covers,
-including all four approved two-page vegetable layouts, all recent heading/navigation
-changes, approved publication and back-cover copy, current contents and updated index.
-All review highlights are removed; the original gardening JSON is unchanged.
-Its opening sequence is title, copyright, blank 3, facing contents 4–5,
-blank 6, Introduction 7, blank 8 and the combined Vegetable Guides/how-to at right-hand page 9. The welcome
-page is omitted. Troubles and Growing Techniques retain right-hand starts;
-see the [preview notes](docs/publication/whole-book-order-preview/README.md).
-The [approved combined Vegetable Guides/how-to page](docs/publication/combined-guides-opening/APPROVAL.json):
-blank 8 / combined right-hand page 9. It and the approved vegetable-header
-treatment are now integrated into the full preview.
-The earlier
-[technical review pack](docs/publication/book-preparation/REVIEW.html) retains
-both-unit production drafts with older openings. The current title is **The Vegetable Guru** /
-**Your at-a-glance growing companion**. John selected **G2 Cream centre** for the
-front, without the count footer, and now prefers **B5 Off-centre collage** for
-the back. [Cover ideas and preference](docs/publication/vegetable-guru-back-collage/REVIEW.html)
-retain the dark-green, angled-snippet direction. Cover C guides colour and
-illustration style only. John approved the compact contents/how-to on 7 October;
-the current whole-book preview uses the accepted illustrated two-page contents
-at 4–5 and the approved combined H4 Guides/how-to page at 9. Production preparation remains pending. Find exact sources and approvals in the
-[asset registry](docs/assets/README.md).
+The [current full preview](docs/publication/whole-book-order-preview/REVIEW.html)
+contains **170 interior pages plus four cover leaves: 174 PDF pages**, imperial.
+All approved reader edits, expanded Crop rotation & planning, the nutrient page
+and the approved Growing Techniques order (including blanks 150 and 162) are
+integrated. All 44 vegetables remain two-page facing guides. Contents, index and
+page references are refreshed; highlights are removed and original gardening
+JSON remains unchanged. [Current page map and evidence](docs/publication/whole-book-order-preview/README.md).
+
+The opening sequence is title, publication, blank 3, facing contents 4–5,
+blank 6, Introduction 7, blank 8 and combined Guides/how-to at 9. Troubles and
+Techniques start on right-hand pages 99 and 145. G2 front, B5 back and approved
+publication/back-cover copy are retained, with missing metadata left as placeholders.
+Exact component sources are in the [asset registry](docs/assets/README.md).
+The older [technical pack](docs/publication/book-preparation/REVIEW.html) is
+historical evidence, not the current complete book or a current production specification.
 
 For the local app, run `zsh start.command` and open <http://127.0.0.1:5173>.
 The launcher selects the pinned Node version and asks privately for a session
@@ -77,22 +69,20 @@ admin password. Keep its terminal open; Control-C stops it. Admin saves and
 browser-rendered PDFs need this server. Normal exports use no AI service.
 Detailed startup and check commands are in [SETUP.md](SETUP.md).
 
-The [four-page index](docs/publication/book-index/REVIEW.html) is approved by John
-on 12 October. Its terms remain editable and references refresh from content locations.
-The [simple two-page contents](docs/publication/contents-update/REVIEW.html) follow
-John’s latest correction: plain section titles and page lists, without section
-numbers or subheadings. Shared copy/plan place “Vegetable guides / how to use”
-after the Vegetable Guides intro. These corrections and the illustrated contents
-are now integrated into the rebuilt complete imperial preview. See the [contents notes](docs/publication/contents-update/README.md).
-New copy/layout remains for review.
+The current index has 286 entries and 35 see references on pages 166–169.
+Contents retain two simple illustrated pages with 81 destinations and no extra
+subheadings. [Contents notes](docs/publication/contents-update/README.md) and
+[index notes](docs/publication/book-index/README.md) distinguish current derivatives
+from frozen approvals.
 
-Book opening and cover copy is editable in the sibling
-[book-layout JSON folder](../hackriculture-data/book-layout/README.md).
-Run `npm run book:check` after editing. Use `npm run book:contents` and
-`npm run book:guide-key` for the revised contents and guide key and the [whole-book workflow](docs/publication/whole-book-order-preview/README.md)
-for section openers and reassembly. `npm run book:build` retains the earlier
-seven-page opening composition; it does not refresh the current full preview.
-Approved sources remain intact; cover concepts still require editable reconstruction.
+Book opening/cover copy, contents and index terms are editable in the sibling
+[book-layout folder](../hackriculture-data/book-layout/README.md). Use its guarded
+writer for AI/app edits. `npm run book:check` validates copy; `npm run book:preview`
+is the current full-book rebuild route. See the
+[workflow](docs/publication/whole-book-order-preview/README.md).
+It reuses approved bodies and never exports the guide catalogue. Earlier
+`book:build`, `book:entries` and `book:guide-key` commands retain standalone source
+compositions; they do not build the current full preview.
 
 ## Document ownership
 
