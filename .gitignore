@@ -34,5 +34,8 @@ pnpm-debug.log*
 *.sw?
 
 
-#special cases
+# Local full-book review output (retain required reference files on disk)
 docs/publication/whole-book-order-preview/*
+
+# Large generated sequence PDFs; approval records and source files stay tracked
+/docs/publication/techniques-sequence/references/**/growing-techniques.pdf

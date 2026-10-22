@@ -13,6 +13,14 @@ Start with the website handover below. The first physical proof is ordered;
 preserve its exact PDFs while awaiting review. No print regeneration is needed
 to start the website work.
 
+Git storage update, 22 October: the large `integration-2026-10-18/baseline.pdf`
+under `docs/publication/whole-book-order-preview/` and
+`docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf`
+are retained locally but excluded from Git, including the unpublished commits
+that caused GitHub's size rejection. They remain required reference inputs;
+preserve them with the other local book files. A fresh clone alone does not
+contain these PDFs. Their existing approval/hash records remain tracked.
+
 ### Next session — website sales channel
 
 The website source is **`/Users/johnlennon/Documents/web_site/hackriculture`**,
