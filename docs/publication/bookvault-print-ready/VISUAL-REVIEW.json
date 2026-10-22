@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-19",
+  "status": "Agent visual check completed; John has not approved this production adaptation and Bookvault has not validated the files",
+  "outputHashes": {
+    "interior": "90bb9bb70ab6b5efac3574048c465fb738cc1dfbb4fa229dc515f20926b91bd4",
+    "cover": "8554f9bcb536e05b05a8bd6f3a92b8221fcb7ec57cbb0834e2e99db82a20cad1"
+  },
+  "contactSheetsViewed": [
+    1,
+    17,
+    33,
+    49,
+    65,
+    81,
+    97,
+    113,
+    129,
+    145,
+    161
+  ],
+  "coverage": "Baseline: all 168 interior pages viewed in contact sheets, with the additional full-page checks below. Latest author/cream update: actual cover wrap and blank-6/introduction-7 spread viewed; all five updated blanks checked for uniform matching rendered colour. Content/art fingerprints prove the remaining 163 pages unchanged, so their earlier visual coverage is retained. This is not a new line-by-line reread.",
+  "fullPageChecks": [
+    139,
+    157,
+    164
+  ],
+  "additionalChecks": [
+    "Actual cover-wrap PDF rendered and inspected at 150 dpi",
+    "Current selected G2 and B5 sources inspected alongside production adaptation",
+    "Restoration sample Artichoke Jerusalem page 10 compared to current reading proof",
+    "Worst dark-ink threshold alert, Mushroom page 97, inspected at full-page size; brown panel colour crosses threshold, with no newly exposed text",
+    "Initial eight-page flattening sample preserves every glyph/font/size/position; final all-page audit repeats this independently",
+    "Final all-page preflight preserves 326982 glyphs with exact 3 mm bleed translation and no safety violations",
+    "1598 interior Type 3 font dictionaries and three cover dictionaries inspected; no RGB/non-device colour operators in their character programmes",
+    "Review navigation checked to page 168; no JavaScript or HTTP errors"
+  ],
+  "coverStatus": "Proposed native production adaptation, distinct from selected concept artwork; source originals remain unchanged",
+  "limitations": [
+    "Colour fidelity, paper and binding comfort require a physical proof",
+    "Metadata/barcode placeholders and provisional cover treatment need John\u2019s review",
+    "No supplier validation, upload, order or publishing action"
+  ],
+  "baselineOutputHashes": {
+    "interior": "c5638233500f72b4017e966f2f0ccb9dee13dc52b1164fc23baaca10161b7ce5",
+    "cover": "8271e63f5ef8259598896ece2a201ca20b2813e4273a48f74c044a5aa5e496fc"
+  },
+  "latestUpdate": {
+    "request": "John Lennon on front and spine; matching cream on intentional blanks",
+    "blankFolios": [
+      3,
+      6,
+      8,
+      98,
+      168
+    ],
+    "coverWrapViewed": true,
+    "openingSpreadViewed": "cream-opening-spread.jpg",
+    "blankAndAuthorChecks": "AUTHOR-AND-CREAM-CHECKS.json",
+    "unchangedInteriorPages": 163,
+    "contentArtIdentityEvidence": "BLANK-COLOUR-UPDATE.json"
+  }
+}

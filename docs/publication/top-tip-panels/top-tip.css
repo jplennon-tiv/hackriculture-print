@@ -1,0 +1,10 @@
+/* Working proposal: existing light-green advice panels only. */
+.top-tip-panel{position:relative}
+.top-tip-panel>h2{margin-right:31mm}
+.top-tip-panel.planning-note>p{margin-right:31mm}
+.top-tip-badge{position:absolute;right:3mm;top:1.1mm;width:27mm;height:8mm;display:grid;place-items:center;transform:rotate(-3deg);color:#fff8e9;font:400 17px/1 Lilita,sans-serif;isolation:isolate;white-space:nowrap}
+.top-tip-badge svg{position:absolute;inset:0;width:100%;height:100%;z-index:-1;overflow:visible}
+.top-tip-badge .main{fill:#a44007}
+.top-tip-badge .fold{fill:#173e2c}
+.sowing .top-tip-badge{top:.45mm}
+.tip-splash .top-tip-badge{height:8.4mm;transform:rotate(-3deg)}

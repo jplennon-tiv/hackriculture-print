@@ -1,6 +1,6 @@
 # The Vegetable Guru — book design system
 
-Consolidated 8 October; status references updated 18 October 2026. Based on the selected covers, approved Compact Book v1,
+Consolidated 8 October; status references updated 19 October 2026. Based on the selected covers, approved Compact Book v1,
 approved contents/how-to and current opening-page proposals. This is the shared
 design reference for the 185 × 240 mm paperback. It records existing choices;
 creating this document does not approve unfinished designs or change any artwork.
@@ -38,19 +38,36 @@ The approved navigation and heading treatment is:
   folio on the right of the footer. Retain section identification at left.
 - Every Growing Techniques content page uses a flowing display heading:
   a shared topic name in green, then a page-specific qualifier in deep orange.
-  Related pages repeat the exact topic name and the same small running title
-  “Growing Techniques - <topic>”. This is John’s latest correction and replaces
-  the independently named continuation headings from the preceding proof.
+  Related pages repeat the topic name. The small running title groups pages into
+  the subsections below; a subsection can contain several related topic names.
   The established heading sizes are 31.5 pt for the shared name and 22.5 pt for the
   qualifier, both Lilita. Keep both parts on one line wherever they fit; wrap the
   qualifier only when needed, retaining it as a readable phrase. Do not force
   line breaks or shrink the type to avoid necessary wrapping. Keep body type,
   artwork and page count.
 
-Cultivation uses “Growing Techniques - Cultivation” on all four pages, with
-“Dig or No-Dig” followed by “Choosing your approach”, “No dig”, “Digging part 1” and
-“Digging part 2”. The same treatment covers the current technique pages;
+Cultivation uses “Growing Techniques - Cultivation” on all four pages. John's
+18 October correction uses green “Cultivation” followed by orange “Dig or No-Dig?”,
+“No-Dig”, “Digging” and “Digging continued”, respectively. The same treatment covers the current technique pages;
 Introduction 7 and the section divider 145 retain their established roles.
+
+John's 19 October subsection correction uses these running titles and current
+folios. The [working heading definition](../src/print/book/techniques-subsections.json)
+and [native-page derivative](publication/techniques-subsections/README.md) own the
+current presentation; earlier frozen proofs retain their dated titles.
+
+| Folios | Running title after “GROWING TECHNIQUES -” | Display headings |
+| --- | --- | --- |
+| 146–149 | ORGANIC GROWING | Organic growing / The core ideas; Nutrient cycles; Rotation & planning (both rotation pages) |
+| 150–152 | PLANNING A NEW PLOT | Planning your plot / Choosing the right spot; Beds and paths; Beds and paths continued |
+| 153–154 | COMPOST | Existing Making compost headings |
+| 155–158 | CULTIVATION | Existing Cultivation headings |
+| 159–160 | PLANT CARE | Existing Sowing and planting and Watering headings |
+| 161–163 | GREENHOUSES | Existing Greenhouses headings |
+
+The two internal Techniques blanks are removed by John's request. The section
+is continuous, with margins mirrored to the new physical pages; some related
+pages now span a page turn. Keep all body type sizes and artwork.
 
 These changes apply to the whole-book screen preview. The individual guide
 exporter, frozen references and A4 outputs retain their existing treatments.
@@ -203,11 +220,11 @@ their page total is not the interior count used for print costing/spine calculat
 
 | Area | Carry forward | Status/source |
 | --- | --- | --- |
-| Front cover | G2 cream title centre; flush vegetable tiles above/below; bold dark lettering; no count footer | Selected [G2 artwork](publication/vegetable-guru-grid-variations/assets/G2-centre-title.png); final editable artwork/wrap pending |
-| Back cover | B5 dark green; cream title/count subtitle; left blurb and slightly angled torn fragments at right; price and ISBN area | Preferred [B5 artwork](publication/vegetable-guru-back-collage/B5.png); generated snippets must become exact book crops for production |
+| Front cover | G2 cream title centre; flush vegetable tiles above/below; bold dark lettering; author name below subtitle; no count footer | Selected [G2 artwork](publication/vegetable-guru-grid-variations/assets/G2-centre-title.png); [native production adaptation and wrap](publication/bookvault-print-ready/REVIEW.html) prepared for review |
+| Back cover | B5 dark green; cream title/count subtitle; left blurb and slightly angled torn fragments at right; price and ISBN area | Preferred [B5 artwork](publication/vegetable-guru-back-collage/B5.png); production adaptation uses exact book crops in place of generated snippets |
 | Title/publication | Cover-related title strip and quieter publication page | [Original pages 1–3 proposal](publication/vegetable-guru-opening-pages/REVIEW.html) retained; current assembly omits the welcome/author page. Metadata placeholders remain. |
 | Contents/how-to | Simple illustrated contents with calculated page references; original calendar, difficulty and needs explanations in the combined Guides panel | [Approved source pages 4–7](publication/vegetable-guru-entry-pages/REVIEW.html) remain frozen. The accepted [two-page contents](publication/contents-update/REVIEW.html) and [approved combined Guides/how-to](publication/combined-guides-opening/APPROVAL.json) are integrated in the full preview. |
-| Index | Two open columns; 9.45 pt reading type, orange folios, ruled alphabet headings, continued labels, no decorative artwork | [Four-page index](publication/book-index/REVIEW.html), approved 12 October; [frozen sources](publication/book-index/APPROVAL.json); current integrated folios 166–169 |
+| Index | Two open columns; 9.45 pt reading type, orange folios, ruled alphabet headings, continued labels, no decorative artwork | [Four-page index](publication/book-index/REVIEW.html), approved 12 October; [frozen sources](publication/book-index/APPROVAL.json); current integrated folios 164–167 |
 | Section openers | Vegetable Guides: right-hand title/H4 artwork above a lower peach how-to panel, centred orange panel heading, original explanations and clear native examples. Troubles/Techniques retain their existing recto title-page proposals. | [Combined Guides page approved 15 October](publication/combined-guides-opening/APPROVAL.json); blank 8 / combined 9, integrated into the full preview. Other [14 October opener proposals](publication/whole-book-order-preview/SECTION-OPENERS.json) remain for review. |
 | Vegetables | Expressive hero/circle/sticker opening, useful information hierarchy, practical continuation and full-width Final Tips | Approved [guide contract](BOOK-PRINT-STYLE.md#vegetable-opening-page); collection review remains separate |
 | Troubles | Open two-column entries, complete diagnostics, Recognise / Act / Prevent hierarchy, aligned first/last text with sparse-page exceptions | Approved [guide contract](BOOK-PRINT-STYLE.md#troubles); no enclosing equal-height cards |
@@ -221,6 +238,12 @@ entry stays open even when a contents panel has a coloured background.
 Cover C remains an A4 approval and a book colour/style reference only. Preserve
 its original files and the approved A4 entry pages. The compact entry adaptation
 retains their useful explanations; this system does not reopen discarded sections.
+
+John's 19 October production-review direction adds **John Lennon** to the front
+and spine and gives the five intentional interior blanks (3, 6, 8, 98, 168) the
+same warm cream as surrounding pages. On the selected white coated stock this
+is a printed tint, continued through bleed. The current production adaptation
+implements this; its native cover lettering/composition still needs visual review.
 
 ## Illustration and reuse
 
@@ -275,6 +298,10 @@ the final proof and sources. Do not back-port these changes to approved A4 or
 frozen compact sources.
 
 ## Changes and unresolved decisions
+
+Retain the original light-green advice panels without a Top tip badge. John
+[discarded the ribbon/splash proposals](publication/top-tip-panels/DECISION.json)
+on 18 October; these are not a selected direction or a pending design task.
 
 For a new page or element, begin with the closest established role and section
 treatment. Any new font, colour role, type tier or structural treatment should

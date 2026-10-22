@@ -1,0 +1,9 @@
+/* Author-requested order: all double digging on 158; single digging on 159. */
+.sheet.unified-topic-heading h1{display:flex;flex-wrap:wrap;align-items:baseline;column-gap:.22em;row-gap:0;font-size:42px;line-height:1.04;margin:2.5mm 0 3mm;color:#173e2c}
+.sheet.unified-topic-heading h1 span{display:inline-block;white-space:nowrap;font-size:30px;line-height:1.04;margin:0;color:#a44007}
+.digging-start .double-dig{border-top:1px solid var(--rule);padding-top:3mm}
+.digging-start .finish-steps{grid-template-columns:1fr 1fr;gap:7mm;margin-top:4mm}
+/* Preserve the moved steps' original reading size and heading treatment. */
+.digging-start .finish-steps .step h3{font-size:20px;min-height:0;margin-bottom:1.5mm}
+.digging-start .finish-steps .step p{font-size:12.6px;line-height:1.37}
+.digging-finish .single-dig{border-top:0;padding-top:0}

@@ -1,0 +1,43 @@
+{
+  "status": "passed",
+  "baselineMatchesCurrentBookText": true,
+  "baselineCurrentBookSha256": "0f9426f6bbe7deccc1f3a5f07c883c35ff1b226b668dac7771ecedc898299439",
+  "proofs": [
+    {
+      "variant": "baseline",
+      "units": "imperial",
+      "pdf": "output/pdf/top-tip-panels/overlap/baseline-imperial.pdf",
+      "sha256": "0662dee0327b995f67585f9dfa84654c587fcab378b8dce2aad51861d8ac9e82",
+      "pages": 5,
+      "bodyCopyAndTypePreserved": true
+    },
+    {
+      "variant": "ribbon",
+      "units": "imperial",
+      "pdf": "output/pdf/top-tip-panels/overlap/ribbon-imperial.pdf",
+      "sha256": "86955f400f2d36255ec1a41c726edc29ac42edd3c4939cf65b4327d689e36a92",
+      "pages": 5,
+      "bodyCopyAndTypePreserved": true
+    },
+    {
+      "variant": "baseline",
+      "units": "metric",
+      "pdf": "output/pdf/top-tip-panels/overlap/baseline-metric.pdf",
+      "sha256": "7e7f367ea51457f65c9f791838d222191e68fe3aa9e47269399ef3fdfdab1358",
+      "pages": 5,
+      "bodyCopyAndTypePreserved": true
+    },
+    {
+      "variant": "ribbon",
+      "units": "metric",
+      "pdf": "output/pdf/top-tip-panels/overlap/ribbon-metric.pdf",
+      "sha256": "6127bc352bcdd4899ac3c569fecae04de35c0be0bfe90e23009954c31c152b6f",
+      "pages": 5,
+      "bodyCopyAndTypePreserved": true
+    }
+  ],
+  "embeddedFonts": [
+    "/BAAAAA+LilitaOne",
+    "Type3"
+  ]
+}

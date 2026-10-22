@@ -53,13 +53,13 @@ const {plan,topicMap}=createContentsPlan(basePlan,sources,approvedGuides.edition
 plan.currentApprovals={sectionReceipt,readerReceipt};
 plan.approvedGuides={path:approvedGuideReceipt,inputs:approvedGuides.inputs};
 plan.basePlan={path:basePath,sha256:sha256(fs.readFileSync(path.join(root,basePath)))};
-plan.limits=['John approved the section order and blanks on 18 October 2026.','170 interior pages; imperial full-book preview, not a final production/cost/spine specification.','Both-unit reference mapping is checked; no full metric book is assembled.','Frozen source PDFs remain unchanged.'];
+plan.limits=['John requested subsection headings and removal of both internal Techniques blanks on 19 October 2026.','168 interior pages; imperial full-book preview, not a final production/cost/spine specification.','Both-unit reference mapping is checked; no full metric book is assembled.','Frozen source PDFs remain unchanged.'];
 write(dir+'/ASSEMBLY-PROPOSAL.json',plan);write(dir+'/TOPIC-FOLIOS.json',topicMap);
 const themes=json('src/print/familyThemes.json');
 const bundle=await build({entryPoints:[path.join(root,'src/print/book/production.ts')],bundle:true,platform:'node',format:'esm',packages:'external',write:false});
 const modulePath=path.join(root,'tmp/pdfs/contents-update/production.mjs');fs.writeFileSync(modulePath,bundle.outputFiles[0].contents);
 const {finishProductionPages}=await import(modulePath);
-const checks={date:'2026-10-18',status:'Approved two-page contents with refreshed references: PDF/visual check pending',bookRevision:book.revision,copyInputs:book.inputs,sourcePdfs:inputs,approvedGuideInputs:approvedGuides.inputs,protectedFiles,artwork,fullBookRegenerated:false,guidePdfsRegenerated:false,results:[]};
+const checks={date:'2026-10-19',status:'Approved two-page contents with refreshed references: PDF/visual check pending',bookRevision:book.revision,copyInputs:book.inputs,sourcePdfs:inputs,approvedGuideInputs:approvedGuides.inputs,protectedFiles,artwork,fullBookRegenerated:false,guidePdfsRegenerated:false,results:[]};
 const browser=await chromium.launch();
 try{
  const page=await browser.newPage();await page.route('**/@vite/client',r=>r.abort());
@@ -87,7 +87,12 @@ try{
   await page.evaluate(dom=>document.body.dataset.bookChecks=JSON.stringify({type:'updated-contents',pages:dom}),dom);
   const geometry=await finishProductionPages(page,{supplier:'bookvault',startPage:4});
   const raw=await page.pdf({width:geometry.width+'mm',height:geometry.height+'mm',preferCSSPageSize:true,printBackground:true,scale:1});
-  const normal=execFileSync(python,[path.join(root,'scripts/normalise-book-pdf.py'),'--supplier','bookvault','--start-page','4'],{input:raw,maxBuffer:25*1024*1024});
+  // A regular input file supplies an unambiguous EOF for the native PDF reader.
+  const rawPath=path.join(root,'tmp/pdfs/contents-'+units+'-raw.pdf');
+  fs.mkdirSync(path.dirname(rawPath),{recursive:true});fs.writeFileSync(rawPath,raw);
+  const rawFd=fs.openSync(rawPath,'r');let normal;
+  try{normal=execFileSync(python,[path.join(root,'scripts/normalise-book-pdf.py'),'--supplier','bookvault','--start-page','4'],{stdio:[rawFd,'pipe','pipe'],maxBuffer:25*1024*1024});}
+  finally{fs.closeSync(rawFd);fs.rmSync(rawPath,{force:true});}
   const file=out+'/contents-'+units+'.pdf';fs.writeFileSync(path.join(root,file),normal);
   checks.results.push({units,pdf:file,sha256:sha256(normal),html:dir+'/'+units+'.html',htmlSha256:sha256(html),references:rendered.references,dom,geometry});
   console.log(units+': two contents pages, '+rendered.references.length+' references; planned book '+plan.editions[units].plannedEvenTotal+' pages');

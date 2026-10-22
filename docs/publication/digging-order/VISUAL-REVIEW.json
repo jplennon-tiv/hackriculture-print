@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-18",
+  "status": "author_requested_layout_checked_for_review",
+  "folios": [
+    158,
+    159
+  ],
+  "unitsChecked": [
+    "imperial",
+    "metric"
+  ],
+  "actualPdfPagesChecked": 4,
+  "viewed": [
+    "Imperial two-page spread at reading scale",
+    "Imperial page 158 at detail scale",
+    "Final assembled imperial spread 158–159"
+  ],
+  "metricRendersPixelIdentical": true,
+  "sourceComparison": "Compared with the original complete-book spread and frozen 8 October source. All body glyphs and type sizes verified against the current book.",
+  "changes": [
+    "All five double-digging steps on page 158, in rows of three and two below the existing illustration.",
+    "Single digging starts page 159; path care and the complete smothering section follow.",
+    "Spacing around the moved sections adjusted; existing artwork and text sizes retained."
+  ],
+  "omitted": "Only the obsolete navigation line: Finish the bed on the next page.",
+  "findings": [
+    "All five double-digging steps fit clearly on the first page.",
+    "No text collision, missing artwork or clipping in either edition.",
+    "Page 158 has 21.06 mm to the footer; page 159 has 14.08 mm to the source note and 3.56 mm from source note to footer."
+  ],
+  "fullBookIntegration": {
+    "status": "passed",
+    "sha256": "22c521089ba184768588ac6bbffa17619280d5c69794c5ddcfdd3128bcea3c48",
+    "pdfPages": 174,
+    "interiorPages": 170,
+    "sourceBodyPagesVerified": 174
+  }
+}

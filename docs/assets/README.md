@@ -49,7 +49,14 @@ hashes exact frozen PDFs in both units, text, layout sources and four placed
 illustration groups. Preserve its `references/approved-2026-10-08/` files.
 [Editable working text](../../../hackriculture-resources/summaries/cultivation-dig-no-dig/copy.json)
 remains in the resource library; John's later edits need updated proofs.
-The current imperial whole-book preview includes these pages at 156–159.
+The current imperial whole-book preview includes these pages at 155–158.
+The [author-requested digging derivative](../publication/digging-order/README.md)
+reorders the source-proof pages 158–159 (now 157–158): all double-digging steps first, single digging second. The
+frozen approval remains the source; this changed layout is for review.
+The [earlier four-page derivative](../publication/cultivation-headings/README.md)
+also carries John's requested green “Cultivation” titles and orange page qualifiers.
+The [current subsection derivative](../publication/techniques-subsections/README.md)
+retains it, removes the two internal section blanks and mirrors the new folios.
 Final production integration remains pending; this is page approval, not
 supplier or physical-proof approval.
 
@@ -60,14 +67,16 @@ John approved the [four-page index](../publication/book-index/REVIEW.html) on
 It reuses approved contents typography, palette and mirrored margins, with a
 text-only two-column composition. Editable words remain in shared
 `book-layout/index.json`. The current whole-book derivative has numeric folios
-at 166–169; historical T/C references remain only in the preserved standalone
+at 164–167; historical T/C references remain only in the preserved standalone
 proof. It includes the five approved reader-edit entries plus eight nutrient-page terms: 286 entries and 35 see references. Source artwork and frozen proofs remain unchanged.
 
 ## Current section and reader-edit integration
 
 The [18 October section-order approval](../publication/techniques-sequence/APPROVAL-2026-10-18.json)
-freezes Growing Techniques at 145–165, including blanks 150 and 162. It is now
-integrated with all [approved reader edits](../publication/reader-edit-pass/APPROVAL-2026-10-16.json).
+freezes the earlier Growing Techniques source at 145–165, including blanks 150 and 162.
+John’s 19 October [subsection revision](../publication/techniques-subsections/README.md)
+removes those blanks and groups the headings, placing the section at 145–163.
+It includes all [approved reader edits](../publication/reader-edit-pass/APPROVAL-2026-10-16.json).
 The [expanded rotation approval](../publication/topic-pages/crop-rotation-planning/APPROVAL-2026-10-18.json)
 replaces the earlier one-page rotation; current folios are 148–149. All older
 source pages remain protected. The [current integration receipt](../publication/whole-book-order-preview/integration-2026-10-18/INTEGRATION-CHECKS.json)
@@ -313,3 +322,16 @@ with all needs rows on the same peach background and no Water stripe.
 The [approval record](../publication/combined-guides-opening/APPROVAL.json) preserves
 the exact PDF, rendered page and layout sources. It is now integrated at right-hand
 page 9, facing blank 8. Shared source copy and all frozen originals remain unchanged.
+
+### Bookvault production adaptation — 19 October 2026
+
+The [production review and provenance](../publication/bookvault-print-ready/README.md)
+identify the separate 168-page imperial print interior and proposed G2/B5 native
+cover wrap, with 12 mm spine and current Bookvault bleed. Current copy and native
+text geometry are preserved. Original 600 dpi page-art streams restore the
+screen derivative's detail. The cover intentionally uses native type, approved
+vegetable heroes and exact current-page crops; those differences need John's
+review and do not supersede the selected concept originals. The production
+manifest records hashes, crop recipes and colour preparation. No upload or
+supplier/design approval is implied.
+

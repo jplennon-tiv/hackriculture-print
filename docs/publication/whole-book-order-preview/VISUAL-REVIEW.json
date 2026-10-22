@@ -1,16 +1,13 @@
 {
-  "date": "2026-10-18",
-  "status": "passed for inspected pages",
-  "pdfSha256": "0f9426f6bbe7deccc1f3a5f07c883c35ff1b226b668dac7771ecedc898299439",
-  "method": "Actual PDF renders viewed locally. Page 146 checked in both standalone units and in final imperial spread 146–147; earlier unchanged-page visual coverage retained through exact reused-body checks.",
+  "date": "2026-10-19",
+  "status": "passed for inspected changed pages",
+  "pdfSha256": "93c5be45e8a790cb3a4f91aeac8b7910035cfa37a142dbf41b8444644f88f5bf",
+  "previousPdfSha256": "ef916318893d500ed9ed55ad98ce63cba4409b2169361f03b2a7f8f2fa858b1a",
+  "method": "Actual PDF renders viewed locally: all nine current Techniques facing pairs, contents 4–5 and index 164–167. After the single-digging index destination correction, the final index spread 164–165 and Techniques 146–147 were reinspected; all other bodies retained the identical hash-bound component inputs and passed native-body comparison. Both-unit Techniques proofs were also inspected in full.",
   "spreadFoliosInspected": [
     [
       4,
       5
-    ],
-    [
-      8,
-      9
     ],
     [
       146,
@@ -25,95 +22,56 @@
       151
     ],
     [
+      152,
+      153
+    ],
+    [
+      154,
+      155
+    ],
+    [
+      156,
+      157
+    ],
+    [
+      158,
+      159
+    ],
+    [
+      160,
+      161
+    ],
+    [
+      162,
+      163
+    ],
+    [
       164,
       165
     ],
     [
       166,
       167
-    ],
-    [
-      168,
-      169
     ]
   ],
-  "detailFoliosInspected": [
-    57,
-    165
+  "standaloneUnitsChecked": [
+    "imperial",
+    "metric"
   ],
-  "contactOverviewFolios": [
-    154,
-    155,
-    156,
-    157,
-    158,
-    159,
-    160,
-    161,
-    162,
-    163,
-    164,
-    165,
-    14,
-    15,
-    16,
-    17,
-    36,
-    37,
-    56,
-    57,
-    64,
-    65,
-    72,
-    73,
-    82,
-    83,
-    88,
-    89,
-    126,
-    127,
-    128
+  "metricContentsSpreadInspected": [
+    4,
+    5
   ],
+  "subsectionEvidence": "docs/publication/techniques-subsections/VISUAL-REVIEW.json",
   "findings": [
-    "Contents retain two clear illustrated pages at unchanged type size; new order/entry fit after a 5 mm reduction in the lower-art gap.",
-    "Organic growing now carries John’s final copy changes; diagram, closing box and type sizes remain. Nutrients and rotation retain their approved content.",
-    "Approved blanks and right-hand introductions preserve the later facing pairs.",
-    "Index remains four readable pages with new terms and unclipped references.",
-    "Combined guide key and representative edited guides retain accepted colour, typography and two-page fit.",
-    "Longest multi-destination Lettuce footer is readable and clear of the body."
+    "Requested subsection running titles and large headline replacements are clear and unclipped, with original reading sizes.",
+    "Techniques runs continuously from 145–163 with no internal blanks; inner margins follow the new physical page sides and cream edges remain intact.",
+    "Earlier author copy, original green panels and artwork remain; double digging is complete on 157 and single digging starts 158.",
+    "Contents still fit two pages and the index four, with current folios; single digging correctly indexes page 158."
   ],
   "limits": [
-    "Contact sheets check overall composition; detailed copy and all bodies verified separately against exact PDF sources.",
-    "Unchanged pages were not all re-read visually.",
-    "Screen proof, not print-resolution or supplier preflight approval."
-  ],
-  "previousPdfSha256": "f7bfe1dba8de39c4c2ecf0a0468c9b67d35ca36703e41d7cbc1bdfe452875f92",
-  "currentRevision": {
-    "date": "2026-10-18",
-    "copy": "src/print/book/final-text-edits/organic.json",
-    "detailFoliosInspected": [
-      146
-    ],
-    "spreadFoliosInspected": [
-      [
-        146,
-        147
-      ]
-    ],
-    "standaloneUnitsInspected": [
-      "imperial",
-      "metric"
-    ],
-    "unitRendersPixelIdentical": true,
-    "bodyFontPt": 9.45,
-    "pdfChecks": "docs/publication/final-text-edits/PDF-CHECKS.json",
-    "findings": [
-      "All four author-requested replacements are present, with spelling and colon-continuation corrections.",
-      "Three-column composition, diagram/caption and closing box are retained; no text collision or clipping.",
-      "The shortened middle paragraph fits above the closing box at the original type size.",
-      "Facing nutrient page, pagination and navigation remain intact."
-    ],
-    "approval": "Revised page for John’s review; no new design approval recorded.",
-    "latestCorrection": "Middle paragraph ends: your garden will ultimately flourish."
-  }
+    "Unchanged earlier guide pages were verified against native sources but not all re-read visually this turn.",
+    "Full assembled edition is imperial. Metric coverage is the Techniques derivative, contents proof and index reference validation.",
+    "Screen proof, not supplier or final print approval."
+  ]
 }

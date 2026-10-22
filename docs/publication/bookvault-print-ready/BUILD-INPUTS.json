@@ -1,0 +1,77 @@
+{
+  "date": "2026-10-19",
+  "inputs": {
+    "scripts/prepare-bookvault-interior.py": "347f7be42ca72e979f96f360a363288fc94a64c8a84b6b154bc7de1a9c2af236",
+    "scripts/build-bookvault-cover.mjs": "18366ccdfd60c14eeab323ff86a5e60bfb4c0588009805b989e689f5e29b71fc",
+    "scripts/finish-bookvault-pdf.py": "98dde54a7cf40bbf539964cf358a9a4a087b04415d3ff50a6d2109047a247403",
+    "scripts/check-bookvault-production.py": "16f03d66f0a12acff41836ba4f05e65b18b850f5fb138724662fb5ac07b93b05",
+    "scripts/review-bookvault-production.py": "5410996284807a6c727dbd594b7d728a49d87f28b54d3ead0b3710f3651f3d8f",
+    "public/fonts/richer-a-1.woff2": "d2575d4fa3632580aafcbcdf6978b3b57e144b90cf5bd9c2c98194f28b869704",
+    "public/fonts/richer-a-6.woff2": "29e3890496844a9ea81975c52771c587c872b4eb317026422d1995b88d21b57d",
+    "public/images/heroes/richer-a/tomato-greenhouse.png": "5e3cd5a884582bd13d74cde606c69c2cd9513cd36fa6845833da469ff3a3c3d7",
+    "public/images/heroes/richer-a/onion-shallot.png": "176e9ab3ea2200bc1981978c822cee0ebeec37d499e621b158a73676277fa486",
+    "public/images/heroes/richer-a/pea.png": "72dacd9636ea428ca82761ab5231274b0a72f30f283f17af8c2a463c8be2c6df",
+    "public/images/heroes/richer-a/carrot.png": "733b775e5e9f87d78669551ca911e39ea3eb61bed6bc54815e64b10c8fbdbfe9",
+    "public/images/heroes/richer-a/kale.png": "e1122f1645dd3b947b96c74ef355e49d33c6cdea37154ef19e7b87f0f8c38f2f",
+    "docs/publication/bookvault-print-ready/assets/carrot-fragment.png": "78ff1323b9191bb66832a411650e04ab87cde969b66b04681d7a131f38015108",
+    "docs/publication/bookvault-print-ready/assets/kale-fragment.png": "30fad910907045d60266178b2aac07717129f6135fdda287afed1ff74b355a41",
+    "docs/publication/bookvault-print-ready/assets/troubles-fragment.png": "2f5d54b35dcbb871e50f49d8c7526f024f93f0bcf16441ce4e8f3195297cb36e",
+    "docs/publication/bookvault-print-ready/assets/ISOcoated_v2_300_eci.icc": "c6b4b62f0726243742eced8b9669476a6be89e581f50a7600ed8b6fcbb9cdab8",
+    "docs/publication/vegetable-guru-grid-variations/assets/G2-centre-title.png": "38a3f3edf5be32e3077439d710036ae5a8d2b68dd27ea1ffccf1c9d05b2f0b24",
+    "docs/publication/vegetable-guru-back-collage/B5.png": "bf4ec765d570845865355956c22a9d2b78a59b717c4471f9c5aaba894621ffff",
+    "scripts/update-bookvault-blank-pages.py": "44a0803d2d2c8451f26bb8ab8ddd47cd7614eaa00a8cccc1fb08f924c39bdd3e"
+  },
+  "coverFragments": {
+    "source": "tmp/pdfs/bookvault-print-ready/interior-rgb.pdf",
+    "sourceSha256": "e789ab83f11562b98b01d69a028b65cfaee58978e0d89c738cdddc1715f76b8f",
+    "renderDpi": 400,
+    "removeBleed": "Crop 3 mm from each edge, calculated as round(image.width * 3 / 191).",
+    "relativeTrimCropRectangles": {
+      "carrot": {
+        "folio": 14,
+        "rectangle": [
+          0,
+          0,
+          1,
+          0.5
+        ]
+      },
+      "kale": {
+        "folio": 40,
+        "rectangle": [
+          0,
+          0.28,
+          1,
+          0.69
+        ]
+      },
+      "troubles": {
+        "folio": 112,
+        "rectangle": [
+          0,
+          0.16,
+          1,
+          0.66
+        ]
+      }
+    },
+    "output": "docs/publication/bookvault-print-ready/assets/<name>-fragment.png",
+    "sourceNote": "Fragments retained from the initial restored RGB interior. Later cream changes affect only blank pages; fragment source pages 14, 40 and 112 are unchanged."
+  },
+  "coverNormalisation": {
+    "source": "tmp/pdfs/bookvault-print-ready/cover-rgb-raw.pdf",
+    "target": "tmp/pdfs/bookvault-print-ready/cover-rgb.pdf",
+    "method": "pypdf: retain all page content unscaled, set MediaBox/CropBox/BleedBox to [0,0,388,246] mm and TrimBox [3,3,385,243] mm; remove annotations. No crop/registration marks."
+  },
+  "runtime": {
+    "python": "Codex bundled Python 3.12",
+    "node": "24.20.0",
+    "rasterisation": "Poppler pdftoppm",
+    "colour": "Pillow LittleCMS, relative colorimetric intent",
+    "ghostscript": "Installed during exploration; not used for final delivered PDFs."
+  },
+  "preservedReadingPdfSha256": "93c5be45e8a790cb3a4f91aeac8b7910035cfa37a142dbf41b8444644f88f5bf",
+  "currentInteriorRgbSha256": "10100ccc7a7ab3f2f37305fc80e5597b1bf816e0f64685963fb84c0b553c477d",
+  "currentCoverRgbSha256": "ae42e267ac71a7e1b4477ab6640cf81e4df0f699054e85ab97a1209fe14d5aea",
+  "latestFocusedUpdate": "BLANK-COLOUR-UPDATE.json"
+}

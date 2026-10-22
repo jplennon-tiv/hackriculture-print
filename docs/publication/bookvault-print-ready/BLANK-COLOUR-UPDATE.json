@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-19",
+  "request": "John requested cream interior blanks to match surrounding pages",
+  "rgbHex": "#fff8e9",
+  "cmykByteValues": [
+    0,
+    7,
+    29,
+    0
+  ],
+  "cmykPercent": [
+    0.0,
+    2.745,
+    11.373,
+    0.0
+  ],
+  "method": "Full-media cream on the five intentionally blank pages: native RGB rectangle in the intermediate; opaque lossless 600 dpi CMYK image in production, matching neighbouring artwork and its preview rendering. No reflow or changes to the other 163 pages. CMYK colour sampled and verified against existing opening-page artwork. Output intent and page boxes retained.",
+  "files": [
+    {
+      "kind": "rgb",
+      "file": "tmp/pdfs/bookvault-print-ready/interior-rgb.pdf",
+      "previousSha256": "10100ccc7a7ab3f2f37305fc80e5597b1bf816e0f64685963fb84c0b553c477d",
+      "sha256": "10100ccc7a7ab3f2f37305fc80e5597b1bf816e0f64685963fb84c0b553c477d",
+      "bytes": 535533962,
+      "unchangedContentAndArtPages": 163,
+      "changedFolios": [
+        3,
+        6,
+        8,
+        98,
+        168
+      ]
+    },
+    {
+      "kind": "cmyk",
+      "file": "output/pdf/bookvault-print-ready/the-vegetable-guru-interior.pdf",
+      "previousSha256": "39968c480b62e65e50827fb82493df6fd9a79aa9cdcfdce7bdbbefc4b33f6102",
+      "sha256": "90bb9bb70ab6b5efac3574048c465fb738cc1dfbb4fa229dc515f20926b91bd4",
+      "bytes": 463945557,
+      "unchangedContentAndArtPages": 163,
+      "changedFolios": [
+        3,
+        6,
+        8,
+        98,
+        168
+      ]
+    }
+  ]
+}

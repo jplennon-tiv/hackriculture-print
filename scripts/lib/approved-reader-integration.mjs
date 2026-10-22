@@ -14,6 +14,8 @@ export const approvedTopicOrder=[
  ['technique:sowing',160],['technique:watering',161],['technique:greenhouse-choose',163],
  ['technique:greenhouse-beds',164],['technique:greenhouse-no-dig-seasons',165]
 ];
+// Saved 18 October sources keep their folios; the current section omits its two blanks.
+export const currentTopicOrder=approvedTopicOrder.map(([id,folio,count=1])=>[id,folio-(folio>150?1:0)-(folio>162?1:0),count]);
 function verify(pdf,expected){const hash=sha256(fs.readFileSync(path.resolve(root,pdf)));if(hash!==expected)throw Error('Approved input changed: '+pdf);return hash;}
 export function loadReaderGuides(){
  const approval=json(readerReceipt),file='docs/publication/reader-edit-pass/guides/MANIFEST.json';
@@ -47,6 +49,17 @@ export function applyApprovedTopics(sources){
     if(proof.physicalPages!==(placement[2]||1))throw Error('Final edit changed pagination: '+edit.source);
     sources[proof.units][edit.source]={pdf:proof.pdf,sha256:proof.sha256,sourcePage:proof.sourcePage,physicalPages:proof.physicalPages,sourcePdfPages:proof.sourcePdfPages,finalCopyEdit:editsPath};
    }
+  }
+ }
+ const currentPath='docs/publication/techniques-subsections/MANIFEST.json';
+ const current=json(currentPath);
+ for(const [p,h] of Object.entries(current.inputs))verify(p,h);
+ for(const entry of current.entries){
+  const placement=currentTopicOrder.find(([id])=>id===entry.source);
+  if(!placement||placement[1]!==entry.folio||placement[2]!==entry.physicalPages)throw Error('Subsection placement changed: '+entry.source);
+  for(const proof of entry.proofs){
+   verify(proof.pdf,proof.sha256);
+   sources[proof.units][entry.source]={...proof,subsectionRevision:currentPath};
   }
  }
  return sources;

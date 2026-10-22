@@ -1,25 +1,45 @@
 # Publication research and production evidence
 
-Documentation updated 18 October 2026; supplier research retains its stated dates.
+Documentation updated 19 October 2026; supplier research retains its stated dates.
 This document owns dated supplier research and cost
 assumptions. **Current scope, decisions, component status and next actions are
 maintained in [the handover](../handover/START-HERE.md).** Do not treat older
 recommendations or quote specifications as a current work queue.
 
+## Current proof and next session
+
+The [19 October production files](bookvault-print-ready/README.md) are uploaded and
+validated in Bookvault. John confirmed proof approval, then ordered and reported
+payment for **BV3012332**: one copy, **£12.58** including Royal Mail First Class.
+[Supplier checks and order evidence](bookvault-print-ready/SUPPLIER-CHECKS.json)
+identify the exact PDFs and review coverage. The order was last observed as
+**Created**; checkout estimated dispatch 28 October and delivery 29–30 October.
+
+Print design is on hold while John starts a new session in the sibling
+[`hackriculture` website project](../../../hackriculture/README.md), to make
+hackriculture.com a sales channel for the book. Use the [website handover](../handover/START-HERE.md#next-session--website-sales-channel)
+for source locations, assets and launch boundaries. The intended first route is
+an external Bookvault purchase link; no public listing or live buy link is active.
+The [19 October setup notes](bookvault-setup-2026-10-19/README.md) supersede older
+cost assumptions for this proof. Final price, metadata and publication approval
+remain open; ISBN purchase is deferred until after the physical proof.
+
 ## Review files and source designs
 
 Start with the [current full preview](whole-book-order-preview/REVIEW.html):
-**170 interior pages plus four cover leaves (174 PDF pages), imperial**.
+**168 interior pages plus four cover leaves (172 PDF pages), imperial**.
 All approved reader edits, the expanded rotation spread, nutrient page and
-Growing Techniques order are integrated, including approved blanks 150 and 162.
+Growing Techniques order are integrated. John's 19 October update adds subsection
+headings and removes its two internal blank pages.
 Contents remain two simple illustrated pages; the numeric index is four pages
-at 166–169. All 44 vegetable guides remain two-page facing spreads.
+at 164–167. All 44 vegetable guides remain two-page facing spreads.
 [Preview notes](whole-book-order-preview/README.md) own the current sources,
 page map and checks. This is a screen review, not a supplier upload.
 
 Approved components and historical proofs remain preserved separately:
 
-- [Four cultivation pages](topic-pages/cultivation-dig-no-dig/APPROVAL.json), now 156–159.
+- [Four cultivation pages](topic-pages/cultivation-dig-no-dig/APPROVAL.json), now 155–158,
+  with later reordered digging instructions and headings retained.
 - [Original thirteen-page expansion](topic-pages/techniques-expansion/COLLECTION-APPROVAL.json),
   with later approved reader edits layered into the current book. Its original
   one-page rotation is superseded by [Crop rotation & planning](topic-pages/crop-rotation-planning/APPROVAL-2026-10-18.json), now 148–149.
@@ -40,8 +60,9 @@ and [shared-data skill](../../../hackriculture-data/.agents/skills/hackriculture
 
 G2 Cream centre is selected for **The Vegetable Guru: Your at-a-glance growing
 companion**, without the count footer. B5 Off-centre collage is the preferred
-back: dark green, left blurb, angled torn-page snippets. Exact page crops,
-editable text and a production wrap remain pending. Cover C is an A4 approval
+back: dark green, left blurb, angled torn-page snippets. The [production adaptation](bookvault-print-ready/README.md#cover-adaptation-to-review)
+now uses exact page crops, editable text and a 12 mm-spine wrap with John Lennon
+on the front and spine. It is being tested in the first proof. Cover C is an A4 approval
 and a colour/style reference only. The working price remains **£17.50**;
 Bookvault and direct Great British Bookshop links are the selected working route.
 
@@ -57,7 +78,8 @@ files remain inputs/evidence, **not the current book**. The preceding 170-PDF-pa
 [BOOK-PREPARATION-STATE.json](BOOK-PREPARATION-STATE.json) records exact coverage,
 hashes and remaining technical limits. Earlier numerical checks and representative
 visual reviews do not establish physical print quality or supplier acceptance.
-Fine icon detail, stock/colour/PDF preflight, final wrap and physical proof remain.
+The current files passed local preflight and supplier validation; physical review
+of colour, fine detail, stock and binding remains. Final publication is not approved.
 The [draft listing metadata](book-preparation/DRAFT-METADATA.json) contains
 unconfirmed details and provenance, not rights or ISBN declarations.
 
@@ -70,11 +92,10 @@ Retained production evidence:
   [representative assembly viewing](book-preparation/FLATTENED-ASSEMBLY-VISUAL.json).
 - [Dated requirements and calculator evidence](book-preparation/POD-PREFLIGHT.json).
 
-**Costs below use older page counts and dated terms. They have not been refreshed
-for the current 170-page interior.** Recheck them, stock and the cover template
-when production work resumes. Both automations remain paused. No title creation,
-upload, rights/ISBN declaration, proof order, supplier message or publication
-is authorised by these records.
+**Costs below use older page counts and dated terms.** Use the linked 19 October
+evidence for the current 168-page proof; recheck retail selling costs before launch.
+Both automations remain paused. These historical records do not authorise further
+account actions, orders, supplier messages or publication.
 
 ## Title research — 7 October 2026
 
@@ -379,7 +400,8 @@ original inputs and are not a quote for the current book.
 
 The saved [148-page cover template](book-preparation/supplier-templates/v4_PerfectBound_Cover_240_185_8.436.pdf)
 measures 384 × 246 mm and labels an 8 mm spine, while its filename says 8.436 mm.
-That discrepancy needs resolution after stock selection; no final wrap is ready.
+That is a historical discrepancy; the 19 October 168-page/150 gsm template and
+ordered wrap use a verified 12 mm spine. Do not use this older cover template.
 The interior uses the verified 17 mm binding safety and 3 mm bleed template.
 
 ## Historical POD comparisons
@@ -387,9 +409,9 @@ The interior uses the verified 17 mm binding safety and 3 mm bleed template.
 The earlier 180- and 134-page calculations below are retained evidence from
 before the measured 148-page draft. Their proposed stocks, prices and next-step
 language are historical recommendations, not current specifications or tasks.
-The current review is 170 interior pages; final production pagination remains subject to any later authorised changes. Follow the
-handover for decisions; the dated calculator evidence above requires refreshing
-against the eventual production specification.
+The ordered first proof has 168 interior pages. Follow the handover and 19 October
+production evidence for the current specification; the older calculator results
+below remain historical comparisons.
 
 <details>
 <summary>Earlier page-count scenarios and calculations</summary>

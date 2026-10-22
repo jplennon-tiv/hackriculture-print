@@ -1,0 +1,164 @@
+{
+  "date": "2026-10-19",
+  "status": "Production adaptation for John to review; not design approval",
+  "bookRevision": "2ca0dc0cb0d52ff2ca61a931dada1ca9f4ed00ca37838728370c4edbfbc118fb",
+  "copyInputs": {
+    "../hackriculture-data/book-layout/book.json": "7cf5470e4a29859fadddaf32fa6d29370c2d6258d09fe25e57af2cc90f8df78e",
+    "../hackriculture-data/book-layout/covers.json": "414327b71e1989f406412cf7f76f526b5c4b231df66348443ab5217847d74552",
+    "../hackriculture-data/book-layout/publication.json": "1b9d3c3b8a6880de6fe5cf802b0c40ac25895ec6ba2a85b4c6cd8f70901256f1",
+    "../hackriculture-data/book-layout/introduction.json": "7a54f281bf1b0ef07f656fcb9c4a252860e7dd2ba730225891777056b66b9e5d",
+    "../hackriculture-data/book-layout/author.json": "244b1d0714c5b936f2ac5b8526c7f127996930609a0fc841b28a08edcd273176",
+    "../hackriculture-data/book-layout/contents.json": "848d74ec3b9f57e2eda37ec29a40d36c27b2fc67e33abedc1c85467b631347d2",
+    "../hackriculture-data/book-layout/how-to.json": "003eb4e88e0fc08793de7fe1d9e4c38633bad61b8bc5e2471768cc0327236d61",
+    "../hackriculture-data/book-layout/index.json": "bd46f866272a7ede4bb8e15c1c0cabbdc684095a0bc018c2064f27a245cba35f"
+  },
+  "frontSource": "docs/publication/vegetable-guru-grid-variations/assets/G2-centre-title.png",
+  "backSource": "docs/publication/vegetable-guru-back-collage/B5.png",
+  "intentionalChanges": [
+    "Native Lilita One lettering replaces raster concept lettering",
+    "Approved original vegetable heroes replace lower-resolution concept tile art; exact vegetable drawing/crops differ",
+    "Actual Carrot (14), Kale (40), and Carrot and Parsnip Troubles (112) fragments replace generated sample text",
+    "12 mm green spine carries native cream title and John Lennon; front byline follows the subtitle as requested on 19 October",
+    "Original concept textures simplified to flat print colours; torn snippet edges constructed as vector masks"
+  ],
+  "dom": {
+    "text": [
+      {
+        "text": "44 growing guides and\n14 troubleshooting guides",
+        "box": {
+          "x": 8.995833333333334,
+          "y": 71.99560546875,
+          "width": 93.99736328125,
+          "height": 13.196093750000001
+        },
+        "fontSizePt": 17.000025
+      },
+      {
+        "text": "Growing vegetables raises plenty of questions: when to sow, how much space to leave, when to harvest, and what to do when something starts eating the crop before you do.\n\nThese illustrated guides bring the useful details together, with clear calendars, planting advice and organic ways to tackle common troubles.\n\nThere’s practical help with soil, compost, watering and greenhouses too. Use it to plan your plot, then turn to the guide you need as each job comes along.",
+        "box": {
+          "x": 11.997200520833333,
+          "y": 90.99599609375,
+          "width": 54.99612630208333,
+          "height": 86.70478515625
+        },
+        "fontSizePt": 10.5
+      },
+      {
+        "text": "£17.50",
+        "box": {
+          "x": 11.997200520833333,
+          "y": 223.88297526041666,
+          "width": 27.537337239583334,
+          "height": 11.1125
+        },
+        "fontSizePt": 27.999975
+      },
+      {
+        "text": "ISBN / BARCODE",
+        "box": {
+          "x": 129.99723307291666,
+          "y": 212.99785156250002,
+          "width": 51.99889322916667,
+          "height": 21.997623697916666
+        },
+        "fontSizePt": 9
+      },
+      {
+        "text": "The Vegetable Guru",
+        "box": {
+          "x": 190.16100260416667,
+          "y": 72.559912109375,
+          "width": 7.672916666666667,
+          "height": 58.87392578125
+        },
+        "fontSizePt": 18.999975
+      },
+      {
+        "text": "John Lennon",
+        "box": {
+          "x": 191.35162760416668,
+          "y": 187.16170247395834,
+          "width": 5.291666666666667,
+          "height": 25.668717447916666
+        },
+        "fontSizePt": 11.499975
+      },
+      {
+        "text": "John Lennon",
+        "box": {
+          "x": 199.99606119791667,
+          "y": 166.99342447916666,
+          "width": 187.99886067708334,
+          "height": 6.98251953125
+        },
+        "fontSizePt": 18
+      }
+    ],
+    "images": [
+      {
+        "src": "/docs/publication/bookvault-print-ready/assets/carrot-fragment.png",
+        "pixels": [
+          2914,
+          1890
+        ],
+        "widthMm": 112.40867487589519
+      },
+      {
+        "src": "/docs/publication/bookvault-print-ready/assets/kale-fragment.png",
+        "pixels": [
+          2914,
+          1550
+        ],
+        "widthMm": 118.8660649617513
+      },
+      {
+        "src": "/docs/publication/bookvault-print-ready/assets/troubles-fragment.png",
+        "pixels": [
+          2914,
+          1890
+        ],
+        "widthMm": 83.5822125116984
+      },
+      {
+        "src": "/images/heroes/richer-a/tomato-greenhouse.png",
+        "pixels": [
+          1024,
+          1536
+        ],
+        "widthMm": 74.99697265625
+      },
+      {
+        "src": "/images/heroes/richer-a/onion-shallot.png",
+        "pixels": [
+          1024,
+          1536
+        ],
+        "widthMm": 80.99970703125
+      },
+      {
+        "src": "/images/heroes/richer-a/pea.png",
+        "pixels": [
+          1024,
+          1536
+        ],
+        "widthMm": 77.99833984375
+      },
+      {
+        "src": "/images/heroes/richer-a/carrot.png",
+        "pixels": [
+          1024,
+          1536
+        ],
+        "widthMm": 99.99596354166667
+      },
+      {
+        "src": "/images/heroes/richer-a/kale.png",
+        "pixels": [
+          1024,
+          1536
+        ],
+        "widthMm": 101.996875
+      }
+    ]
+  }
+}

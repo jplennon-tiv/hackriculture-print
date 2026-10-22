@@ -1,0 +1,65 @@
+{
+  "date": "2026-10-18",
+  "status": "discarded_by_john_original_panels_retained",
+  "authority": "I like the ribbon too - but it would look more professional if it overflowed the panel boundries a bit. See what you can do.",
+  "revision": "Same selected ribbon, moved across the top and right panel edges.",
+  "topOverhangMm": 2.3,
+  "rightOverhangMm": 1.69,
+  "labelTextWithinBindingAndTrimSafety": true,
+  "folios": [
+    152,
+    153,
+    155,
+    160,
+    165
+  ],
+  "unitsChecked": [
+    "imperial",
+    "metric"
+  ],
+  "actualPdfPagesChecked": 20,
+  "panelDetailsViewedImperial": [
+    152,
+    153,
+    155,
+    160,
+    165
+  ],
+  "fullPagesViewedImperial": [
+    152,
+    160
+  ],
+  "facingSpreadsViewedImperial": [
+    [
+      152,
+      153
+    ],
+    [
+      154,
+      155
+    ],
+    [
+      160,
+      161
+    ],
+    [
+      164,
+      165
+    ]
+  ],
+  "facingSources": "Changed actual PDF renders with current-book unchanged neighbours; saved whole-book image numbering is 1-based PDF page = folio + 2.",
+  "findings": [
+    "Both edges visibly overlap; the existing tilt and lettering are retained.",
+    "No text collision or clipping. Body copy, type sizes, panel heights, pagination and source/footer gaps are unchanged.",
+    "Decorative ribbon extends into the margin by 1.69 mm. Its words remain within the existing body text margins; decoration stays at least 6.31 mm from outer trim."
+  ],
+  "fullBookChanged": false,
+  "originalProposalsPreserved": true,
+  "checks": "CHECKS.json",
+  "pdfChecks": "PDF-CHECKS.json",
+  "reviewPageValidation": "Inline script syntax and asset references checked; interactive browser controls not tested.",
+  "fullPagesViewedMetric": [
+    152
+  ],
+  "decision": "../DECISION.json"
+}

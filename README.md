@@ -13,6 +13,13 @@ entry point for current decisions, component status, outstanding work and
 publication/automation boundaries. It distinguishes approved designs from
 working book proofs and historical evidence. Follow John's latest instruction.
 
+**Next session:** John is moving to the **Hackriculture Web Site** project at
+[`../hackriculture`](../hackriculture/README.md) to make hackriculture.com a sales
+channel for The Vegetable Guru. The [website handover](docs/handover/START-HERE.md#next-session--website-sales-channel)
+links source folders, book assets and the intended Bookvault purchase-link route.
+The first physical proof is ordered: **BV3012332**, £12.58 including First Class.
+Print design is on hold while awaiting the copy; preserve the ordered files.
+
 Before design or artwork work, use the handover's
 [project skill map](docs/handover/START-HERE.md#design-skills--use-before-design-work)
 and read the applicable skill files. They are the starting point for continued
@@ -48,10 +55,10 @@ in this and future sessions. Its maintained source is shared across the data,
 print, website and video projects.
 
 The [current full preview](docs/publication/whole-book-order-preview/REVIEW.html)
-contains **170 interior pages plus four cover leaves: 174 PDF pages**, imperial.
+contains **168 interior pages plus four cover leaves: 172 PDF pages**, imperial.
 All approved reader edits, expanded Crop rotation & planning, the nutrient page
-and the approved Growing Techniques order (including blanks 150 and 162) are
-integrated. All 44 vegetables remain two-page facing guides. Contents, index and
+and John's 19 October Growing Techniques headings are integrated. Its two internal
+blank pages have been removed. All 44 vegetables remain two-page facing guides. Contents, index and
 page references are refreshed; highlights are removed and original gardening
 JSON remains unchanged. [Current page map and evidence](docs/publication/whole-book-order-preview/README.md).
 
@@ -69,7 +76,7 @@ admin password. Keep its terminal open; Control-C stops it. Admin saves and
 browser-rendered PDFs need this server. Normal exports use no AI service.
 Detailed startup and check commands are in [SETUP.md](SETUP.md).
 
-The current index has 286 entries and 35 see references on pages 166–169.
+The current index has 286 entries and 35 see references on pages 164–167.
 Contents retain two simple illustrated pages with 81 destinations and no extra
 subheadings. [Contents notes](docs/publication/contents-update/README.md) and
 [index notes](docs/publication/book-index/README.md) distinguish current derivatives

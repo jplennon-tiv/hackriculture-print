@@ -1,0 +1,103 @@
+{
+  "date": "2026-10-19",
+  "titleId": "3822688",
+  "internalSku": "9669932000017",
+  "status": "first_proof_order_created_payment_reported_by_john",
+  "scope": "Upload current checked files, complete supplier checks, prepare one proof with Royal Mail 1st Class; stop before payment/order placement",
+  "files": [
+    {
+      "pdf": "output/pdf/bookvault-print-ready/the-vegetable-guru-interior.pdf",
+      "sha256": "90bb9bb70ab6b5efac3574048c465fb738cc1dfbb4fa229dc515f20926b91bd4",
+      "bytes": 463945557,
+      "supplierFilename": "9669932000017-t.pdf",
+      "uploadSaved": true,
+      "supplierProcessingStatus": "Approved"
+    },
+    {
+      "pdf": "output/pdf/bookvault-print-ready/the-vegetable-guru-cover.pdf",
+      "sha256": "8554f9bcb536e05b05a8bd6f3a92b8221fcb7ec57cbb0834e2e99db82a20cad1",
+      "bytes": 31107263,
+      "supplierFilename": "9669932000017-c.pdf",
+      "uploadSaved": true,
+      "supplierProcessingStatus": "Approved"
+    }
+  ],
+  "localHashesVerifiedBeforeUpload": true,
+  "barcodeInsertion": false,
+  "isbnDeferredUntilAfterProof": true,
+  "deliveryAddressAvailable": "John confirmed delivery address matches existing Bookvault billing address; postcode TR1 1BQ.",
+  "fileSelectionMethod": "Normal Chrome/macOS file picker; extension file-URL permissions unchanged",
+  "ordered": true,
+  "paid": true,
+  "supplierValidation": "Both files passed size, page-count, file-health and embedded-font checks in Bookvault processing log.",
+  "evidence": [
+    "supplier-file-approval.png",
+    "supplier-cover-proof.png",
+    "supplier-opening-proof.png",
+    "supplier-cream-proof.png",
+    "supplier-carrot-proof.png",
+    "supplier-trim-simulation.png",
+    "supplier-organic-proof.png",
+    "supplier-digging-proof.png",
+    "supplier-approval-declaration.png",
+    "supplier-proof-checkout-ready.png",
+    "supplier-proof-order-confirmed.png"
+  ],
+  "visualProof": {
+    "url": "https://portal.bookvault.app/files/VirtualProof/3822688",
+    "supplierViewsInspected": [
+      "cover",
+      "1",
+      "6–7",
+      "14–15",
+      "146–147",
+      "156–157"
+    ],
+    "findings": "Author name visible on front/spine; cream blank matches; guide artwork, native text and revised technique layouts render as expected. Carrot spread trim-movement simulation showed no white edge or lost text.",
+    "coverageLimit": "Supplier review sampled these spreads; not a new page-by-page reread of all 168 pages. Prior local all-page visual and technical checks are linked separately.",
+    "approvalSubmitted": true,
+    "confirmationRequired": "John confirmed acceptance of Bookvault artwork responsibility declaration on 19 October 2026; Approve proof clicked and title became available to add to cart.",
+    "declarationScreenshot": "supplier-approval-declaration.png",
+    "approvalAuthorisation": "Yes, approve the files for the first proof"
+  },
+  "checkout": {
+    "url": "https://portal.bookvault.app/neworder/onepage",
+    "state": "Checkout completed by John; resulting order BV3012332 verified in portal",
+    "quantity": 1,
+    "title": "The Vegetable Guru",
+    "reference": "69932-#00001",
+    "printLocation": "Bookvault UK",
+    "productionSpeed": "Standard",
+    "productionGBP": 6.31,
+    "shippingService": "Royal Mail 1st Class",
+    "shippingGBP": 6.27,
+    "totalGBP": 12.58,
+    "dispatchEstimate": "2026-10-28",
+    "deliveryEstimate": [
+      "2026-10-29",
+      "2026-10-30"
+    ],
+    "destination": "John-confirmed Truro delivery address, postcode TR1 1BQ",
+    "paymentSelection": "John completed payment himself",
+    "nextUserAction": "Await physical proof, then review colour, cream backgrounds, detail, stock and binding before final publication.",
+    "screenshot": "supplier-proof-checkout-ready.png",
+    "termsAcceptedBy": "John during checkout; agent did not submit order terms or payment",
+    "estimateSource": "19 October pre-order checkout; estimates not repeated on order detail page"
+  },
+  "paymentEvidence": "John reported payment completed on 19 October 2026. Portal order page independently confirms order Created and total £12.58; it does not display a separate payment status.",
+  "order": {
+    "id": "BV3012332",
+    "numericId": 3012332,
+    "reference": "69932-#00001",
+    "url": "https://portal.bookvault.app/order?ID=3012332",
+    "createdLocal": "2026-10-19 15:09 Europe/London",
+    "observedStatus": "Created",
+    "quantity": 1,
+    "totalGBP": 12.58,
+    "shipping": "Royal Mail 1st Class",
+    "productionSpeed": "Standard",
+    "deliveryAddressMatchesConfirmedAddress": true,
+    "orderedAndPaidBy": "John",
+    "screenshot": "supplier-proof-order-confirmed.png"
+  }
+}

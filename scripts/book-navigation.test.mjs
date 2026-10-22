@@ -50,7 +50,7 @@ test('Section labels follow the section boundaries; blanks and title have no foo
     assert.equal(sectionLabel(folio,edition),label);
     assert.equal(n.pages.find(p=>p.folio===folio).label,label);
   }
-  for(const blank of [1,3,6,8,98,150,162,170])assert.ok(!n.pages.some(p=>p.folio===blank));
+  for(const blank of [1,3,6,8,98,168])assert.ok(!n.pages.some(p=>p.folio===blank));
   assert.equal(n.pages.length,162);
   assert.ok(n.decisions.flatMap(d=>d.links).every(l=>[sectionNames.trouble,sectionNames.technique].includes(l.label)));
   assert.equal(Object.keys(topicHeadings).length,16);
@@ -60,10 +60,10 @@ test('Section labels follow the section boundaries; blanks and title have no foo
 test('Technique topic families keep a common first line and distinct page qualifiers',()=>{
   const headings=Object.values(topicHeadings);
   assert.deepEqual(headings.filter(h=>h.group==='Cultivation').map(h=>[h.eyebrow,...h.lines]),[
-    ['Growing Techniques - Cultivation','Dig or No-Dig','Choosing your approach'],
-    ['Growing Techniques - Cultivation','Dig or No-Dig','No dig'],
-    ['Growing Techniques - Cultivation','Dig or No-Dig','Digging part 1'],
-    ['Growing Techniques - Cultivation','Dig or No-Dig','Digging part 2'],
+    ['Growing Techniques - Cultivation','Cultivation','Dig or No-Dig?'],
+    ['Growing Techniques - Cultivation','Cultivation','No-Dig'],
+    ['Growing Techniques - Cultivation','Cultivation','Digging'],
+    ['Growing Techniques - Cultivation','Cultivation','Digging continued'],
   ]);
   for(const group of new Set(headings.map(h=>h.group))){
     const pages=headings.filter(h=>h.group===group);

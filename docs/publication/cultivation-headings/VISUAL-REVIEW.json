@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-18",
+  "status": "author_requested_copy_and_headings_checked_for_review",
+  "folios": [
+    156,
+    157,
+    158,
+    159
+  ],
+  "unitsChecked": [
+    "imperial",
+    "metric"
+  ],
+  "actualPdfPagesChecked": 8,
+  "viewed": [
+    "Latest imperial digging spread 158–159",
+    "Latest metric page 158 at detail scale; digging spread renders pixel-identical",
+    "Earlier unchanged 156–157 composition retained; all four actual PDF pages in each unit checked for exact remaining text/type",
+    "Final assembled imperial spread 158–159"
+  ],
+  "sourceComparison": "Exact introduction and double-digging title replacements checked separately; all remaining body glyphs and sizes compared with retained sources in both units.",
+  "headings": {
+    "main": "Cultivation",
+    "mainColour": "#173e2c",
+    "qualifiers": [
+      "Dig or No-Dig?",
+      "No-Dig",
+      "Digging",
+      "Digging continued"
+    ],
+    "qualifierColour": "#a44007",
+    "mainTypePt": 31.5,
+    "qualifierTypePt": 22.5
+  },
+  "findings": [
+    "The new introduction carries both requested bold phrases.",
+    "The longer double-digging heading fits on one line at its existing size.",
+    "All five double-digging steps remain on 158, with 16.28 mm to the source-proof footer.",
+    "Remaining copy, artwork, type sizes and page count are unchanged."
+  ],
+  "pdfs": [
+    {
+      "units": "imperial",
+      "path": "output/pdf/cultivation-headings/digging-imperial.pdf",
+      "sha256": "f7ab8554ef22f24d97bee371e6b18ba270a81b77ec486a722d7f116d88429cc1"
+    },
+    {
+      "units": "metric",
+      "path": "output/pdf/cultivation-headings/digging-metric.pdf",
+      "sha256": "addd211eacdca8e60b83e4d216f83af6dcab5bc226b555c85fe0dff91ef694a5"
+    }
+  ],
+  "copyEdits": "src/print/book/final-text-edits/digging.json",
+  "diggingUnitRendersPixelIdentical": true,
+  "fullBookIntegration": {
+    "status": "passed",
+    "sha256": "ef916318893d500ed9ed55ad98ce63cba4409b2169361f03b2a7f8f2fa858b1a",
+    "pdfPages": 174,
+    "interiorPages": 170,
+    "sourceBodyPagesVerified": 174
+  }
+}

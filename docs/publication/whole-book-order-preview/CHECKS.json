@@ -1,12 +1,12 @@
 {
-  "date": "2026-10-18",
-  "status": "Approved baseline plus John-requested final copy edits; actual PDF checks passed; revised pages for review",
+  "date": "2026-10-19",
+  "status": "Approved baseline plus John-requested subsection grouping and internal blank removal; actual PDF checks passed; revised pages for review",
   "pdf": "output/pdf/whole-book-order-preview/the-vegetable-guru-order-preview.pdf",
-  "sha256": "0f9426f6bbe7deccc1f3a5f07c883c35ff1b226b668dac7771ecedc898299439",
-  "bytes": 306439588,
+  "sha256": "93c5be45e8a790cb3a4f91aeac8b7910035cfa37a142dbf41b8444644f88f5bf",
+  "bytes": 306636958,
   "units": "imperial",
-  "interiorPages": 170,
-  "pdfPages": 174,
+  "interiorPages": 168,
+  "pdfPages": 172,
   "trimMm": [
     185,
     240
@@ -15,7 +15,7 @@
   "guidesReexported": 0,
   "guidePagesReused": 133,
   "readerEditedGuidePages": 19,
-  "bodyPagesVerified": 174,
+  "bodyPagesVerified": 172,
   "updatedFootersVerified": 162,
   "contentsReferences": 81,
   "indexEntries": 286,
@@ -35,7 +35,7 @@
       "target": 40
     },
     {
-      "folio": 165,
+      "folio": 163,
       "text": "pages 56–59",
       "target": 56
     }
@@ -45,14 +45,12 @@
     6,
     8,
     98,
-    150,
-    162,
-    170
+    168
   ],
   "sourceFilesUnchanged": true,
   "canonicalGardeningRecordsUnchanged": 58,
   "navigation": {
-    "internalLinks": 74,
+    "internalLinks": 73,
     "pagesWithLinks": 36,
     "pageChecks": [
       {
@@ -148,7 +146,7 @@
       {
         "folio": 23,
         "bodyToFooterMm": 5.091965308306889,
-        "links": 3
+        "links": 2
       },
       {
         "folio": 24,
@@ -776,8 +774,13 @@
         "links": 0
       },
       {
-        "folio": 151,
+        "folio": 150,
         "bodyToFooterMm": 4.130145581867956,
+        "links": 0
+      },
+      {
+        "folio": 151,
+        "bodyToFooterMm": 4.1301455818628225,
         "links": 0
       },
       {
@@ -787,32 +790,32 @@
       },
       {
         "folio": 153,
-        "bodyToFooterMm": 4.1301455818628225,
-        "links": 0
-      },
-      {
-        "folio": 154,
         "bodyToFooterMm": 4.130145581867956,
         "links": 0
       },
       {
-        "folio": 155,
+        "folio": 154,
         "bodyToFooterMm": 4.130145581868037,
         "links": 0
       },
       {
-        "folio": 156,
+        "folio": 155,
         "bodyToFooterMm": 17.62389501962838,
         "links": 0
       },
       {
-        "folio": 157,
+        "folio": 156,
         "bodyToFooterMm": 27.148894622753446,
         "links": 0
       },
       {
+        "folio": 157,
+        "bodyToFooterMm": 17.09472837500524,
+        "links": 0
+      },
+      {
         "folio": 158,
-        "bodyToFooterMm": 24.767644721967017,
+        "bodyToFooterMm": 4.1301455818628225,
         "links": 0
       },
       {
@@ -822,12 +825,17 @@
       },
       {
         "folio": 160,
-        "bodyToFooterMm": 4.1301455818628225,
+        "bodyToFooterMm": 4.130145581867796,
         "links": 0
       },
       {
         "folio": 161,
-        "bodyToFooterMm": 4.130145581867796,
+        "bodyToFooterMm": 4.130145581868117,
+        "links": 0
+      },
+      {
+        "folio": 162,
+        "bodyToFooterMm": 4.130145581867956,
         "links": 0
       },
       {
@@ -837,31 +845,21 @@
       },
       {
         "folio": 164,
-        "bodyToFooterMm": 4.130145581867956,
-        "links": 0
-      },
-      {
-        "folio": 165,
-        "bodyToFooterMm": 4.130145581868117,
-        "links": 0
-      },
-      {
-        "folio": 166,
         "bodyToFooterMm": 16.036395085769104,
         "links": 0
       },
       {
-        "folio": 167,
+        "folio": 165,
         "bodyToFooterMm": 18.153061664241335,
         "links": 0
       },
       {
-        "folio": 168,
+        "folio": 166,
         "bodyToFooterMm": 18.94681163116841,
         "links": 0
       },
       {
-        "folio": 169,
+        "folio": 167,
         "bodyToFooterMm": 16.83014505270127,
         "links": 0
       }
@@ -874,6 +872,30 @@
     "Publication metadata placeholders retained. Final stock, print-resolution export, preflight, cover wrap and physical proof remain separate work."
   ],
   "finalCopyEditFolios": [
-    146
-  ]
+    146,
+    152,
+    157,
+    158
+  ],
+  "subsectionRevisionFolios": [
+    146,
+    147,
+    148,
+    149,
+    150,
+    151,
+    152,
+    153,
+    154,
+    155,
+    156,
+    157,
+    158,
+    159,
+    160,
+    161,
+    162,
+    163
+  ],
+  "subsectionManifest": "docs/publication/techniques-subsections/MANIFEST.json"
 }

@@ -1,0 +1,841 @@
+{
+  "date": "2026-10-18",
+  "status": "Author-requested reordered spread for review",
+  "authority": "Swap double and single digging so all double-digging instructions fit on the first page.",
+  "inputs": {
+    "docs/publication/topic-pages/cultivation-dig-no-dig/APPROVAL.json": "e3ae319229b2ac85dac71d9d81eb65e40f405e8e3b130eb0041e845464f4b3ab",
+    "docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/copy.json": "a7f3fc344dfbd3d6e1f8c4af377301b831ec7a7c50c2e5abd693fc082229ac7f",
+    "docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/draft.css": "f47f75c1e0b078e71488c8a26aa10428a7448bb920486faa6a42e54cedfea7c3",
+    "docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/assets/double-dig-sequence-v1.png": "7330d64011436ee326e4ff6482af64a16ab84906c9e557c9cef1cecb9fcad31b",
+    "docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/assets/smother-sequence-v1.png": "11501fe4d115a62143b9d093051c5f397a5467270db251069c4cb5efa8bc8cd7",
+    "src/print/book/digging-order/layout.css": "6bf0307fbde0dba894576cb836149ea517f8b443ceb9be7c4a005091c180ffa5",
+    "docs/publication/topic-pages/cultivation-dig-no-dig/imperial.html": "b523a2a75135cc2d03a0a5ca00b7b1caa6524131645991e55c4dd90493f7f36f",
+    "docs/publication/topic-pages/cultivation-dig-no-dig/metric.html": "a9fe26b81914a1ff9cf22e4fc64eb1b0a1bd8474e796416fa03fabef694362b9"
+  },
+  "results": [
+    {
+      "units": "imperial",
+      "pdf": "output/pdf/digging-order/digging-imperial.pdf",
+      "sha256": "04c144be55555bedb650a43aae0f442b50e096aef4697d0ad27101e3dbcfbb98",
+      "html": "docs/publication/digging-order/imperial.html",
+      "htmlSha256": "d488a16dcd66d5ae314529ef2ad4a4f7921a4f8ef11ad043be67275ceaf924e9",
+      "checks": {
+        "removed": "Finish the bed on the next page.",
+        "fonts": [
+          {
+            "family": "Lilita",
+            "status": "loaded"
+          },
+          {
+            "family": "Nunito",
+            "status": "loaded"
+          }
+        ],
+        "images": [
+          {
+            "src": "http://127.0.0.1:5173/docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/assets/double-dig-sequence-v1.png",
+            "loaded": true
+          },
+          {
+            "src": "http://127.0.0.1:5173/docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/assets/smother-sequence-v1.png",
+            "loaded": true
+          }
+        ],
+        "pages": [
+          {
+            "folio": 158,
+            "text": "GROWING TECHNIQUES - CULTIVATION\n\nDig or No-Dig\nDigging part 1\n\nSingle digging turns the topsoil. Double digging also loosens the layer underneath: a bigger job for a new or compacted bed, done at the start or occasionally, rather than every year.\n\nDouble digging: work in trenches\n\nYou need: A strong fork, digging spade, rake, barrow and well-rotted compost or manure.\n\n1\nOpen the first trench\n\nClear weeds and mark out the bed. Spread half your compost over it; keep the rest beside you. Dig across one end, one spade wide and deep. Save this topsoil in a barrow or at the far end for the final trench.\n\n2\nLoosen underneath\n\nAdd a couple of spadefuls of compost to the trench bottom. Fork the lower soil another full fork-depth, mixing it in and removing rubble. Take small bites; use a mattock on hard patches. Loosen the subsoil in place, keeping it beneath the topsoil.\n\n3\nMove along the bed\n\nDig the next trench alongside, turning its topsoil into the first and mixing in the surface compost. Break clods and remove weed roots. Now add compost and fork the bottom of this new trench, just as before. Repeat along the bed.\n\n4\nFill the final gap\n\nLoosen the bottom of the last trench with compost, then fill it with the topsoil you saved at the start. Fork any remaining compost into the surface. Rake the top level and slope the sides; timber edging is optional.\n\n5\nSettle and plant\n\nLet the loosened soil settle. For small seeds, rake the surface into fine crumbs. Follow the crop’s guide for planting time, depth and spacing, then water in. If the bed must wait, cover it with a tarp; remove the cover and any slugs before planting.\n\nWork when soil crumbles. If it is wet and sticky or frozen, wait. Take small bites and regular breaks.\n\nGROWING TECHNIQUES\n158",
+            "bodyToFooterMm": 21.063313802083332,
+            "footerGapMm": 21.063313802083332,
+            "sourceGapMm": null,
+            "stepNumbers": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5"
+            ],
+            "blocks": [
+              {
+                "tag": "P",
+                "text": "GROWING TECHNIQUES - CULTIVATION",
+                "left": 7.999511718749999,
+                "right": 167.99801432291665,
+                "top": 11.997200520833331,
+                "bottom": 15.3044921875,
+                "fontPt": 7.5,
+                "overflow": false
+              },
+              {
+                "tag": "H1",
+                "text": "Dig or No-Dig\nDigging part 1",
+                "left": 7.999511718749999,
+                "right": 167.99801432291665,
+                "top": 17.80149739583333,
+                "bottom": 29.356347656249998,
+                "fontPt": 31.5,
+                "overflow": false
+              },
+              {
+                "tag": "P",
+                "text": "Single digging turns the topsoil. Double digging also loosens the layer underneath: a bigger job for a new or compacted bed, done at the start or occasionally, rather than every year.",
+                "left": 7.999511718749999,
+                "right": 167.99801432291665,
+                "top": 32.353580729166666,
+                "bottom": 41.91992187499999,
+                "fontPt": 9.975000000000001,
+                "overflow": false
+              },
+              {
+                "tag": "H2",
+                "text": "Double digging: work in trenches",
+                "left": 7.999511718749999,
+                "right": 167.99801432291665,
+                "top": 49.17942708333333,
+                "bottom": 56.05445963541666,
+                "fontPt": 17.25,
+                "overflow": false
+              },
+              {
+                "tag": "P",
+                "text": "You need: A strong fork, digging spade, rake, barrow and well-rotted compost or manure.",
+                "left": 7.999511718749999,
+                "right": 167.99801432291665,
+                "top": 57.55100911458333,
+                "bottom": 61.606575520833324,
+                "fontPt": 8.850000000000001,
+                "overflow": false
+              },
+              {
+                "tag": "IMG",
+                "text": "Save the first topsoil; fork the lower layer beneath the trench; turn the next strip into the first, then repeat the deep loosening.",
+                "left": 7.999511718749999,
+                "right": 167.99801432291665,
+                "top": 63.60335286458333,
+                "bottom": 106.60227864583332,
+                "fontPt": 9.75,
+                "overflow": false
+              },
+              {
+                "tag": "H3",
+                "text": "1\nOpen the first trench",
+                "left": 7.999511718749999,
+                "right": 57.99749348958333,
+                "top": 108.09882812499998,
+                "bottom": 118.59534505208332,
+                "fontPt": 14.25,
+                "overflow": false
+              },
+              {
+                "tag": "P",
+                "text": "Clear weeds and mark out the bed. Spread half your compost over it; keep the rest beside you. Dig across one end, one spade wide and deep. Save this topsoil in a barrow or at the far end for the final trench.",
+                "left": 7.999511718749999,
+                "right": 57.99749348958333,
+                "top": 120.09189453124999,
+                "bottom": 150.85384114583331,
+                "fontPt": 9.3,
+                "overflow": false
+              },
+              {
+                "tag": "H3",
+                "text": "2\nLoosen underneath",
+                "left": 62.995638020833326,
+                "right": 112.99775390624998,
+                "top": 108.09882812499998,
+                "bottom": 118.59534505208332,
+                "fontPt": 14.25,
+                "overflow": false
+              },
+              {
+                "tag": "P",
+                "text": "Add a couple of spadefuls of compost to the trench bottom. Fork the lower soil another full fork-depth, mixing it in and removing rubble. Take small bites; use a mattock on hard patches. Loosen the subsoil in place, keeping it beneath the topsoil.",
+                "left": 62.995638020833326,
+                "right": 112.99775390624998,
+                "top": 120.09189453124999,
+                "bottom": 159.64296875,
+                "fontPt": 9.3,
+                "overflow": false
+              },
+              {
+                "tag": "H3",
+                "text": "3\nMove along the bed",
+                "left": 117.99589843749999,
+                "right": 167.99801432291665,
+                "top": 108.09882812499998,
+                "bottom": 118.59534505208332,
+                "fontPt": 14.25,
+                "overflow": false
+              },
+              {
+                "tag": "P",
+                "text": "Dig the next trench alongside, turning its topsoil into the first and mixing in the surface compost. Break clods and remove weed roots. Now add compost and fork the bottom of this new trench, just as before. Repeat along the bed.",
+                "left": 117.99589843749999,
+                "right": 167.99801432291665,
+                "top": 120.09189453124999,
+                "bottom": 155.24840494791664,
+                "fontPt": 9.3,
+                "overflow": false
+              },
+              {
+                "tag": "H3",
+                "text": "4\nFill the final gap",
+                "left": 7.999511718749999,
+                "right": 84.49716796874999,
+                "top": 163.64065755208333,
+                "bottom": 174.06689453124997,
+                "fontPt": 15,
+                "overflow": false
+              },
+              {
+                "tag": "P",
+                "text": "Loosen the bottom of the last trench with compost, then fill it with the topsoil you saved at the start. Fork any remaining compost into the surface. Rake the top level and slope the sides; timber edging is optional.",
+                "left": 7.999511718749999,
+                "right": 84.49716796874999,
+                "top": 175.56344401041665,
+                "bottom": 198.38375651041665,
+                "fontPt": 9.45,
+                "overflow": false
+              },
+              {
+                "tag": "H3",
+                "text": "5\nSettle and plant",
+                "left": 91.49622395833332,
+                "right": 167.99801432291665,
+                "top": 163.64065755208333,
+                "bottom": 174.06689453124997,
+                "fontPt": 15,
+                "overflow": false
+              },
+              {
+                "tag": "P",
+                "text": "Let the loosened soil settle. For small seeds, rake the surface into fine crumbs. Follow the crop’s guide for planting time, depth and spacing, then water in. If the bed must wait, cover it with a tarp; remove the cover and any slugs before planting.",
+                "left": 91.49622395833332,
+                "right": 167.99801432291665,
+                "top": 175.56344401041665,
+                "bottom": 198.38375651041665,
+                "fontPt": 9.45,
+                "overflow": false
+              },
+              {
+                "tag": "P",
+                "text": "Work when soil crumbles. If it is wet and sticky or frozen, wait. Take small bites and regular breaks.",
+                "left": 7.999511718749999,
+                "right": 167.99801432291665,
+                "top": 201.3809895833333,
+                "bottom": 207.69791666666666,
+                "fontPt": 8.850000000000001,
+                "overflow": false
+              },
+              {
+                "tag": "FOOTER",
+                "text": "GROWING TECHNIQUES\n158",
+                "left": 7.999511718749999,
+                "right": 167.99801432291665,
+                "top": 228.76123046874997,
+                "bottom": 231.99824218749998,
+                "fontPt": 7.3500000000000005,
+                "overflow": false
+              }
+            ]
+          },
+          {
+            "folio": 159,
+            "text": "GROWING TECHNIQUES - CULTIVATION\n\nDig or No-Dig\nDigging part 2\nSingle digging: the annual job\n\nOn an established dug bed, spread well-rotted compost or manure where needed. Start at one edge and turn the ground over with a spade or fork, working backwards so you don’t tread on what you have loosened. Work to one spade’s depth, bury the compost, break large clods and remove stones and weed roots. There is no need to organise this into trenches.\n\nKeep your feet on the paths\n\nPermanent paths help prevent the bed being compacted again. Single digging is the usual yearly routine in a dug garden; reserve double digging for when the deeper soil needs loosening. You can switch to surface compost and no-dig as the bed improves.\n\nAnother option: Smothering\n\nDig or no-dig, your life becomes easier on overgrown ground if you kill the overgrowth first. Smothering does this by excluding light: cover the patch with an opaque tarpaulin, let the growth die back, then remove the cover and clear the remains.\n\n1\nCut back and cover\n\nCut tall growth and rake away the cuttings. Lever out bramble crowns and woody roots. Lay an opaque tarpaulin close to the ground, covering the whole patch. Weight its edges with bricks or stones so wind cannot lift it.\n\n2\nGive it time\n\nAllow around eight weeks in late spring or summer, or five months or more from late autumn or winter. Check underneath: if growth is still alive, leave it covered longer. Persistent weeds can take more time.\n\n3\nLift and clear\n\nRemove the tarp. Rake or fork out dead growth, shake off the soil and compost the debris. Lift surviving perennial weeds with their roots intact; don’t chop them up. Then dig the bed or add compost for no-dig.\n\nJohn’s Hackriculture manuscript and videos; RHS and Charles Dowding. Full sources accompany this draft. Diagrams are schematic.\n\nGROWING TECHNIQUES\n159",
+            "bodyToFooterMm": 20.72845052083333,
+            "footerGapMm": 3.5594726562499996,
+            "sourceGapMm": 14.084928385416665,
+            "stepNumbers": [],
+            "blocks": [
+              {
+                "tag": "P",
+                "text": "GROWING TECHNIQUES - CULTIVATION",
+                "left": 16.999479166666664,
+                "right": 176.99798177083332,
+                "top": 11.997200520833331,
+                "bottom": 15.3044921875,
+                "fontPt": 7.5,
+                "overflow": false
+              },
+              {
+                "tag": "H1",
+                "text": "Dig or No-Dig\nDigging part 2",
+                "left": 16.999479166666664,
+                "right": 176.99798177083332,
+                "top": 17.80149739583333,
+                "bottom": 29.356347656249998,
+                "fontPt": 31.5,
+                "overflow": false
+              },
+              {
+                "tag": "H2",
+                "text": "Single digging: the annual job",
+                "left": 16.999479166666664,
+                "right": 176.99798177083332,
+                "top": 33.35403645833333,
+                "bottom": 40.229069010416666,
+                "fontPt": 17.25,
+                "overflow": false
+              },
+              {
+                "tag": "P",
+                "text": "On an established dug bed, spread well-rotted compost or manure where needed. Start at one edge and turn the ground over with a spade or fork, working backwards so you don’t tread on what you have loosened. Work to one spade’s depth, bury the compost, break large clods and remove stones and weed roots. There is no need to organise this into trenches.",
+                "left": 16.999479166666664,
+                "right": 176.99798177083332,
+                "top": 41.725618489583326,
+                "bottom": 59.98186848958333,
+                "fontPt": 9.45,
+                "overflow": false
+              },
+              {
+                "tag": "H2",
+                "text": "Keep your feet on the paths",
+                "left": 16.999479166666664,
+                "right": 176.99798177083332,
+                "top": 67.24137369791666,
+                "bottom": 73.81875,
+                "fontPt": 16.5,
+                "overflow": false
+              },
+              {
+                "tag": "P",
+                "text": "Permanent paths help prevent the bed being compacted again. Single digging is the usual yearly routine in a dug garden; reserve double digging for when the deeper soil needs loosening. You can switch to surface compost and no-dig as the bed improves.",
+                "left": 16.999479166666664,
+                "right": 176.99798177083332,
+                "top": 75.31529947916665,
+                "bottom": 89.00748697916666,
+                "fontPt": 9.45,
+                "overflow": false
+              },
+              {
+                "tag": "H2",
+                "text": "Another option: Smothering",
+                "left": 20.99716796875,
+                "right": 173.00029296875,
+                "top": 98.0033203125,
+                "bottom": 106.37076822916666,
+                "fontPt": 21,
+                "overflow": false
+              },
+              {
+                "tag": "P",
+                "text": "Dig or no-dig, your life becomes easier on overgrown ground if you kill the overgrowth first. Smothering does this by excluding light: cover the patch with an opaque tarpaulin, let the growth die back, then remove the cover and clear the remains.",
+                "left": 20.99716796875,
+                "right": 173.00029296875,
+                "top": 108.16910807291666,
+                "bottom": 121.66285807291665,
+                "fontPt": 9.45,
+                "overflow": false
+              },
+              {
+                "tag": "IMG",
+                "text": "An opaque tarp covers the whole patch, held down with stones; later the tarp is removed and dead growth raked away.",
+                "left": 26.999902343749998,
+                "right": 166.99755859374997,
+                "top": 123.15940755208332,
+                "bottom": 156.15791015624998,
+                "fontPt": 9.75,
+                "overflow": false
+              },
+              {
+                "tag": "H3",
+                "text": "1\nCut back and cover",
+                "left": 20.99716796875,
+                "right": 68.33277994791666,
+                "top": 158.1546875,
+                "bottom": 168.27499999999998,
+                "fontPt": 14.25,
+                "overflow": false
+              },
+              {
+                "tag": "P",
+                "text": "Cut tall growth and rake away the cuttings. Lever out bramble crowns and woody roots. Lay an opaque tarpaulin close to the ground, covering the whole patch. Weight its edges with bricks or stones so wind cannot lift it.",
+                "left": 20.99716796875,
+                "right": 68.33277994791666,
+                "top": 169.77154947916665,
+                "bottom": 204.03509114583332,
+                "fontPt": 9,
+                "overflow": false
+              },
+              {
+                "tag": "H3",
+                "text": "2\nGive it time",
+                "left": 73.33092447916665,
+                "right": 120.66653645833333,
+                "top": 158.1546875,
+                "bottom": 168.27499999999998,
+                "fontPt": 14.25,
+                "overflow": false
+              },
+              {
+                "tag": "P",
+                "text": "Allow around eight weeks in late spring or summer, or five months or more from late autumn or winter. Check underneath: if growth is still alive, leave it covered longer. Persistent weeds can take more time.",
+                "left": 73.33092447916665,
+                "right": 120.66653645833333,
+                "top": 169.77154947916665,
+                "bottom": 199.75214843749998,
+                "fontPt": 9,
+                "overflow": false
+              },
+              {
+                "tag": "H3",
+                "text": "3\nLift and clear",
+                "left": 125.66468098958332,
+                "right": 173.00029296875,
+                "top": 158.1546875,
+                "bottom": 168.27499999999998,
+                "fontPt": 14.25,
+                "overflow": false
+              },
+              {
+                "tag": "P",
+                "text": "Remove the tarp. Rake or fork out dead growth, shake off the soil and compost the debris. Lift surviving perennial weeds with their roots intact; don’t chop them up. Then dig the bed or add compost for no-dig.",
+                "left": 125.66468098958332,
+                "right": 173.00029296875,
+                "top": 169.77154947916665,
+                "bottom": 199.75214843749998,
+                "fontPt": 9,
+                "overflow": false
+              },
+              {
+                "tag": "P",
+                "text": "John’s Hackriculture manuscript and videos; RHS and Charles Dowding. Full sources accompany this draft. Diagrams are schematic.",
+                "left": 16.999479166666664,
+                "right": 176.99798177083332,
+                "top": 222.1177083333333,
+                "bottom": 225.20175781249998,
+                "fontPt": 7.050000000000001,
+                "overflow": false
+              },
+              {
+                "tag": "FOOTER",
+                "text": "GROWING TECHNIQUES\n159",
+                "left": 16.999479166666664,
+                "right": 176.99798177083332,
+                "top": 228.76123046874997,
+                "bottom": 231.99824218749998,
+                "fontPt": 7.3500000000000005,
+                "overflow": false
+              }
+            ]
+          }
+        ]
+      },
+      "errors": [],
+      "violations": []
+    },
+    {
+      "units": "metric",
+      "pdf": "output/pdf/digging-order/digging-metric.pdf",
+      "sha256": "d3279b471b2fc95086d3aa8ff7459bea1187893545487667247e6b352c87cecf",
+      "html": "docs/publication/digging-order/metric.html",
+      "htmlSha256": "481b98024cf7c33cd59e40d44b80854b68c37bcfc76cedc0c7c2505f297b6946",
+      "checks": {
+        "removed": "Finish the bed on the next page.",
+        "fonts": [
+          {
+            "family": "Lilita",
+            "status": "loaded"
+          },
+          {
+            "family": "Nunito",
+            "status": "loaded"
+          }
+        ],
+        "images": [
+          {
+            "src": "http://127.0.0.1:5173/docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/assets/double-dig-sequence-v1.png",
+            "loaded": true
+          },
+          {
+            "src": "http://127.0.0.1:5173/docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/assets/smother-sequence-v1.png",
+            "loaded": true
+          }
+        ],
+        "pages": [
+          {
+            "folio": 158,
+            "text": "GROWING TECHNIQUES - CULTIVATION\n\nDig or No-Dig\nDigging part 1\n\nSingle digging turns the topsoil. Double digging also loosens the layer underneath: a bigger job for a new or compacted bed, done at the start or occasionally, rather than every year.\n\nDouble digging: work in trenches\n\nYou need: A strong fork, digging spade, rake, barrow and well-rotted compost or manure.\n\n1\nOpen the first trench\n\nClear weeds and mark out the bed. Spread half your compost over it; keep the rest beside you. Dig across one end, one spade wide and deep. Save this topsoil in a barrow or at the far end for the final trench.\n\n2\nLoosen underneath\n\nAdd a couple of spadefuls of compost to the trench bottom. Fork the lower soil another full fork-depth, mixing it in and removing rubble. Take small bites; use a mattock on hard patches. Loosen the subsoil in place, keeping it beneath the topsoil.\n\n3\nMove along the bed\n\nDig the next trench alongside, turning its topsoil into the first and mixing in the surface compost. Break clods and remove weed roots. Now add compost and fork the bottom of this new trench, just as before. Repeat along the bed.\n\n4\nFill the final gap\n\nLoosen the bottom of the last trench with compost, then fill it with the topsoil you saved at the start. Fork any remaining compost into the surface. Rake the top level and slope the sides; timber edging is optional.\n\n5\nSettle and plant\n\nLet the loosened soil settle. For small seeds, rake the surface into fine crumbs. Follow the crop’s guide for planting time, depth and spacing, then water in. If the bed must wait, cover it with a tarp; remove the cover and any slugs before planting.\n\nWork when soil crumbles. If it is wet and sticky or frozen, wait. Take small bites and regular breaks.\n\nGROWING TECHNIQUES\n158",
+            "bodyToFooterMm": 21.063313802083332,
+            "footerGapMm": 21.063313802083332,
+            "sourceGapMm": null,
+            "stepNumbers": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5"
+            ],
+            "blocks": [
+              {
+                "tag": "P",
+                "text": "GROWING TECHNIQUES - CULTIVATION",
+                "left": 7.999511718749999,
+                "right": 167.99801432291665,
+                "top": 11.997200520833331,
+                "bottom": 15.3044921875,
+                "fontPt": 7.5,
+                "overflow": false
+              },
+              {
+                "tag": "H1",
+                "text": "Dig or No-Dig\nDigging part 1",
+                "left": 7.999511718749999,
+                "right": 167.99801432291665,
+                "top": 17.80149739583333,
+                "bottom": 29.356347656249998,
+                "fontPt": 31.5,
+                "overflow": false
+              },
+              {
+                "tag": "P",
+                "text": "Single digging turns the topsoil. Double digging also loosens the layer underneath: a bigger job for a new or compacted bed, done at the start or occasionally, rather than every year.",
+                "left": 7.999511718749999,
+                "right": 167.99801432291665,
+                "top": 32.353580729166666,
+                "bottom": 41.91992187499999,
+                "fontPt": 9.975000000000001,
+                "overflow": false
+              },
+              {
+                "tag": "H2",
+                "text": "Double digging: work in trenches",
+                "left": 7.999511718749999,
+                "right": 167.99801432291665,
+                "top": 49.17942708333333,
+                "bottom": 56.05445963541666,
+                "fontPt": 17.25,
+                "overflow": false
+              },
+              {
+                "tag": "P",
+                "text": "You need: A strong fork, digging spade, rake, barrow and well-rotted compost or manure.",
+                "left": 7.999511718749999,
+                "right": 167.99801432291665,
+                "top": 57.55100911458333,
+                "bottom": 61.606575520833324,
+                "fontPt": 8.850000000000001,
+                "overflow": false
+              },
+              {
+                "tag": "IMG",
+                "text": "Save the first topsoil; fork the lower layer beneath the trench; turn the next strip into the first, then repeat the deep loosening.",
+                "left": 7.999511718749999,
+                "right": 167.99801432291665,
+                "top": 63.60335286458333,
+                "bottom": 106.60227864583332,
+                "fontPt": 9.75,
+                "overflow": false
+              },
+              {
+                "tag": "H3",
+                "text": "1\nOpen the first trench",
+                "left": 7.999511718749999,
+                "right": 57.99749348958333,
+                "top": 108.09882812499998,
+                "bottom": 118.59534505208332,
+                "fontPt": 14.25,
+                "overflow": false
+              },
+              {
+                "tag": "P",
+                "text": "Clear weeds and mark out the bed. Spread half your compost over it; keep the rest beside you. Dig across one end, one spade wide and deep. Save this topsoil in a barrow or at the far end for the final trench.",
+                "left": 7.999511718749999,
+                "right": 57.99749348958333,
+                "top": 120.09189453124999,
+                "bottom": 150.85384114583331,
+                "fontPt": 9.3,
+                "overflow": false
+              },
+              {
+                "tag": "H3",
+                "text": "2\nLoosen underneath",
+                "left": 62.995638020833326,
+                "right": 112.99775390624998,
+                "top": 108.09882812499998,
+                "bottom": 118.59534505208332,
+                "fontPt": 14.25,
+                "overflow": false
+              },
+              {
+                "tag": "P",
+                "text": "Add a couple of spadefuls of compost to the trench bottom. Fork the lower soil another full fork-depth, mixing it in and removing rubble. Take small bites; use a mattock on hard patches. Loosen the subsoil in place, keeping it beneath the topsoil.",
+                "left": 62.995638020833326,
+                "right": 112.99775390624998,
+                "top": 120.09189453124999,
+                "bottom": 159.64296875,
+                "fontPt": 9.3,
+                "overflow": false
+              },
+              {
+                "tag": "H3",
+                "text": "3\nMove along the bed",
+                "left": 117.99589843749999,
+                "right": 167.99801432291665,
+                "top": 108.09882812499998,
+                "bottom": 118.59534505208332,
+                "fontPt": 14.25,
+                "overflow": false
+              },
+              {
+                "tag": "P",
+                "text": "Dig the next trench alongside, turning its topsoil into the first and mixing in the surface compost. Break clods and remove weed roots. Now add compost and fork the bottom of this new trench, just as before. Repeat along the bed.",
+                "left": 117.99589843749999,
+                "right": 167.99801432291665,
+                "top": 120.09189453124999,
+                "bottom": 155.24840494791664,
+                "fontPt": 9.3,
+                "overflow": false
+              },
+              {
+                "tag": "H3",
+                "text": "4\nFill the final gap",
+                "left": 7.999511718749999,
+                "right": 84.49716796874999,
+                "top": 163.64065755208333,
+                "bottom": 174.06689453124997,
+                "fontPt": 15,
+                "overflow": false
+              },
+              {
+                "tag": "P",
+                "text": "Loosen the bottom of the last trench with compost, then fill it with the topsoil you saved at the start. Fork any remaining compost into the surface. Rake the top level and slope the sides; timber edging is optional.",
+                "left": 7.999511718749999,
+                "right": 84.49716796874999,
+                "top": 175.56344401041665,
+                "bottom": 198.38375651041665,
+                "fontPt": 9.45,
+                "overflow": false
+              },
+              {
+                "tag": "H3",
+                "text": "5\nSettle and plant",
+                "left": 91.49622395833332,
+                "right": 167.99801432291665,
+                "top": 163.64065755208333,
+                "bottom": 174.06689453124997,
+                "fontPt": 15,
+                "overflow": false
+              },
+              {
+                "tag": "P",
+                "text": "Let the loosened soil settle. For small seeds, rake the surface into fine crumbs. Follow the crop’s guide for planting time, depth and spacing, then water in. If the bed must wait, cover it with a tarp; remove the cover and any slugs before planting.",
+                "left": 91.49622395833332,
+                "right": 167.99801432291665,
+                "top": 175.56344401041665,
+                "bottom": 198.38375651041665,
+                "fontPt": 9.45,
+                "overflow": false
+              },
+              {
+                "tag": "P",
+                "text": "Work when soil crumbles. If it is wet and sticky or frozen, wait. Take small bites and regular breaks.",
+                "left": 7.999511718749999,
+                "right": 167.99801432291665,
+                "top": 201.3809895833333,
+                "bottom": 207.69791666666666,
+                "fontPt": 8.850000000000001,
+                "overflow": false
+              },
+              {
+                "tag": "FOOTER",
+                "text": "GROWING TECHNIQUES\n158",
+                "left": 7.999511718749999,
+                "right": 167.99801432291665,
+                "top": 228.76123046874997,
+                "bottom": 231.99824218749998,
+                "fontPt": 7.3500000000000005,
+                "overflow": false
+              }
+            ]
+          },
+          {
+            "folio": 159,
+            "text": "GROWING TECHNIQUES - CULTIVATION\n\nDig or No-Dig\nDigging part 2\nSingle digging: the annual job\n\nOn an established dug bed, spread well-rotted compost or manure where needed. Start at one edge and turn the ground over with a spade or fork, working backwards so you don’t tread on what you have loosened. Work to one spade’s depth, bury the compost, break large clods and remove stones and weed roots. There is no need to organise this into trenches.\n\nKeep your feet on the paths\n\nPermanent paths help prevent the bed being compacted again. Single digging is the usual yearly routine in a dug garden; reserve double digging for when the deeper soil needs loosening. You can switch to surface compost and no-dig as the bed improves.\n\nAnother option: Smothering\n\nDig or no-dig, your life becomes easier on overgrown ground if you kill the overgrowth first. Smothering does this by excluding light: cover the patch with an opaque tarpaulin, let the growth die back, then remove the cover and clear the remains.\n\n1\nCut back and cover\n\nCut tall growth and rake away the cuttings. Lever out bramble crowns and woody roots. Lay an opaque tarpaulin close to the ground, covering the whole patch. Weight its edges with bricks or stones so wind cannot lift it.\n\n2\nGive it time\n\nAllow around eight weeks in late spring or summer, or five months or more from late autumn or winter. Check underneath: if growth is still alive, leave it covered longer. Persistent weeds can take more time.\n\n3\nLift and clear\n\nRemove the tarp. Rake or fork out dead growth, shake off the soil and compost the debris. Lift surviving perennial weeds with their roots intact; don’t chop them up. Then dig the bed or add compost for no-dig.\n\nJohn’s Hackriculture manuscript and videos; RHS and Charles Dowding. Full sources accompany this draft. Diagrams are schematic.\n\nGROWING TECHNIQUES\n159",
+            "bodyToFooterMm": 20.72845052083333,
+            "footerGapMm": 3.5594726562499996,
+            "sourceGapMm": 14.084928385416665,
+            "stepNumbers": [],
+            "blocks": [
+              {
+                "tag": "P",
+                "text": "GROWING TECHNIQUES - CULTIVATION",
+                "left": 16.999479166666664,
+                "right": 176.99798177083332,
+                "top": 11.997200520833331,
+                "bottom": 15.3044921875,
+                "fontPt": 7.5,
+                "overflow": false
+              },
+              {
+                "tag": "H1",
+                "text": "Dig or No-Dig\nDigging part 2",
+                "left": 16.999479166666664,
+                "right": 176.99798177083332,
+                "top": 17.80149739583333,
+                "bottom": 29.356347656249998,
+                "fontPt": 31.5,
+                "overflow": false
+              },
+              {
+                "tag": "H2",
+                "text": "Single digging: the annual job",
+                "left": 16.999479166666664,
+                "right": 176.99798177083332,
+                "top": 33.35403645833333,
+                "bottom": 40.229069010416666,
+                "fontPt": 17.25,
+                "overflow": false
+              },
+              {
+                "tag": "P",
+                "text": "On an established dug bed, spread well-rotted compost or manure where needed. Start at one edge and turn the ground over with a spade or fork, working backwards so you don’t tread on what you have loosened. Work to one spade’s depth, bury the compost, break large clods and remove stones and weed roots. There is no need to organise this into trenches.",
+                "left": 16.999479166666664,
+                "right": 176.99798177083332,
+                "top": 41.725618489583326,
+                "bottom": 59.98186848958333,
+                "fontPt": 9.45,
+                "overflow": false
+              },
+              {
+                "tag": "H2",
+                "text": "Keep your feet on the paths",
+                "left": 16.999479166666664,
+                "right": 176.99798177083332,
+                "top": 67.24137369791666,
+                "bottom": 73.81875,
+                "fontPt": 16.5,
+                "overflow": false
+              },
+              {
+                "tag": "P",
+                "text": "Permanent paths help prevent the bed being compacted again. Single digging is the usual yearly routine in a dug garden; reserve double digging for when the deeper soil needs loosening. You can switch to surface compost and no-dig as the bed improves.",
+                "left": 16.999479166666664,
+                "right": 176.99798177083332,
+                "top": 75.31529947916665,
+                "bottom": 89.00748697916666,
+                "fontPt": 9.45,
+                "overflow": false
+              },
+              {
+                "tag": "H2",
+                "text": "Another option: Smothering",
+                "left": 20.99716796875,
+                "right": 173.00029296875,
+                "top": 98.0033203125,
+                "bottom": 106.37076822916666,
+                "fontPt": 21,
+                "overflow": false
+              },
+              {
+                "tag": "P",
+                "text": "Dig or no-dig, your life becomes easier on overgrown ground if you kill the overgrowth first. Smothering does this by excluding light: cover the patch with an opaque tarpaulin, let the growth die back, then remove the cover and clear the remains.",
+                "left": 20.99716796875,
+                "right": 173.00029296875,
+                "top": 108.16910807291666,
+                "bottom": 121.66285807291665,
+                "fontPt": 9.45,
+                "overflow": false
+              },
+              {
+                "tag": "IMG",
+                "text": "An opaque tarp covers the whole patch, held down with stones; later the tarp is removed and dead growth raked away.",
+                "left": 26.999902343749998,
+                "right": 166.99755859374997,
+                "top": 123.15940755208332,
+                "bottom": 156.15791015624998,
+                "fontPt": 9.75,
+                "overflow": false
+              },
+              {
+                "tag": "H3",
+                "text": "1\nCut back and cover",
+                "left": 20.99716796875,
+                "right": 68.33277994791666,
+                "top": 158.1546875,
+                "bottom": 168.27499999999998,
+                "fontPt": 14.25,
+                "overflow": false
+              },
+              {
+                "tag": "P",
+                "text": "Cut tall growth and rake away the cuttings. Lever out bramble crowns and woody roots. Lay an opaque tarpaulin close to the ground, covering the whole patch. Weight its edges with bricks or stones so wind cannot lift it.",
+                "left": 20.99716796875,
+                "right": 68.33277994791666,
+                "top": 169.77154947916665,
+                "bottom": 204.03509114583332,
+                "fontPt": 9,
+                "overflow": false
+              },
+              {
+                "tag": "H3",
+                "text": "2\nGive it time",
+                "left": 73.33092447916665,
+                "right": 120.66653645833333,
+                "top": 158.1546875,
+                "bottom": 168.27499999999998,
+                "fontPt": 14.25,
+                "overflow": false
+              },
+              {
+                "tag": "P",
+                "text": "Allow around eight weeks in late spring or summer, or five months or more from late autumn or winter. Check underneath: if growth is still alive, leave it covered longer. Persistent weeds can take more time.",
+                "left": 73.33092447916665,
+                "right": 120.66653645833333,
+                "top": 169.77154947916665,
+                "bottom": 199.75214843749998,
+                "fontPt": 9,
+                "overflow": false
+              },
+              {
+                "tag": "H3",
+                "text": "3\nLift and clear",
+                "left": 125.66468098958332,
+                "right": 173.00029296875,
+                "top": 158.1546875,
+                "bottom": 168.27499999999998,
+                "fontPt": 14.25,
+                "overflow": false
+              },
+              {
+                "tag": "P",
+                "text": "Remove the tarp. Rake or fork out dead growth, shake off the soil and compost the debris. Lift surviving perennial weeds with their roots intact; don’t chop them up. Then dig the bed or add compost for no-dig.",
+                "left": 125.66468098958332,
+                "right": 173.00029296875,
+                "top": 169.77154947916665,
+                "bottom": 199.75214843749998,
+                "fontPt": 9,
+                "overflow": false
+              },
+              {
+                "tag": "P",
+                "text": "John’s Hackriculture manuscript and videos; RHS and Charles Dowding. Full sources accompany this draft. Diagrams are schematic.",
+                "left": 16.999479166666664,
+                "right": 176.99798177083332,
+                "top": 222.1177083333333,
+                "bottom": 225.20175781249998,
+                "fontPt": 7.050000000000001,
+                "overflow": false
+              },
+              {
+                "tag": "FOOTER",
+                "text": "GROWING TECHNIQUES\n159",
+                "left": 16.999479166666664,
+                "right": 176.99798177083332,
+                "top": 228.76123046874997,
+                "bottom": 231.99824218749998,
+                "fontPt": 7.3500000000000005,
+                "overflow": false
+              }
+            ]
+          }
+        ]
+      },
+      "errors": [],
+      "violations": []
+    }
+  ],
+  "bodyCopyAndTypePreserved": true,
+  "omitted": "Obsolete navigation sentence: Finish the bed on the next page.",
+  "fullBookChanged": true,
+  "integrationChecks": "docs/publication/whole-book-order-preview/CHECKS.json"
+}

@@ -1,0 +1,59 @@
+{
+  "status": "passed",
+  "baselineMatchesCurrentBookText": true,
+  "baselineCurrentBookSha256": "0f9426f6bbe7deccc1f3a5f07c883c35ff1b226b668dac7771ecedc898299439",
+  "proofs": [
+    {
+      "variant": "baseline",
+      "units": "imperial",
+      "pdf": "output/pdf/top-tip-panels/baseline-imperial.pdf",
+      "sha256": "809537349b3f0a78d326a24ace26cbc058d47ee0847fadcb2c6492304cfddd51",
+      "pages": 5,
+      "bodyCopyAndTypePreserved": true
+    },
+    {
+      "variant": "ribbon",
+      "units": "imperial",
+      "pdf": "output/pdf/top-tip-panels/ribbon-imperial.pdf",
+      "sha256": "fe9d3a30387ff7d14ae57caf924a67f8a5d69425b1a24dc04b2c77070e93269b",
+      "pages": 5,
+      "bodyCopyAndTypePreserved": true
+    },
+    {
+      "variant": "splash",
+      "units": "imperial",
+      "pdf": "output/pdf/top-tip-panels/splash-imperial.pdf",
+      "sha256": "5c3e87eb81e242b5a52adc26f2506e030abb197ab8d1dbd8953e3b3ca5642ac2",
+      "pages": 5,
+      "bodyCopyAndTypePreserved": true
+    },
+    {
+      "variant": "baseline",
+      "units": "metric",
+      "pdf": "output/pdf/top-tip-panels/baseline-metric.pdf",
+      "sha256": "2441f7f9e169d084417f3c947ffce0380cfa0112b4bf870771353d85f7bb59bc",
+      "pages": 5,
+      "bodyCopyAndTypePreserved": true
+    },
+    {
+      "variant": "ribbon",
+      "units": "metric",
+      "pdf": "output/pdf/top-tip-panels/ribbon-metric.pdf",
+      "sha256": "f97bcf36d7908032f48cabf5d89c232e3f367ce1365f2dd5ab7e2fb968fee4f9",
+      "pages": 5,
+      "bodyCopyAndTypePreserved": true
+    },
+    {
+      "variant": "splash",
+      "units": "metric",
+      "pdf": "output/pdf/top-tip-panels/splash-metric.pdf",
+      "sha256": "896e588c90a15e6c0f0a3f0dee775c70e82002defefa3229acc602f134487b36",
+      "pages": 5,
+      "bodyCopyAndTypePreserved": true
+    }
+  ],
+  "embeddedFonts": [
+    "/BAAAAA+LilitaOne",
+    "Type3"
+  ]
+}

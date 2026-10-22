@@ -1,5 +1,5 @@
 {
-  "status": "John-approved full-book integration, 18 October 2026, including the two Techniques blanks and all earlier approved reader edits.",
+  "status": "John-requested subsection headings and internal Techniques blank removal, 19 October 2026; earlier approved reader edits retained.",
   "supplier": "bookvault",
   "updatedAt": "2026-10-06T09:20:32.692Z",
   "sourceRevision": "f15430f54b6011a7c68ea5b9448a091277f368a362a1df006172addc6d8bde64",
@@ -48,9 +48,9 @@
       "vegetablePages": 92,
       "troublePages": 45,
       "interstitialBlankPages": 4,
-      "lastContentPage": 169,
+      "lastContentPage": 167,
       "endBlankPages": 1,
-      "plannedEvenTotal": 170,
+      "plannedEvenTotal": 168,
       "documents": [
         {
           "id": "imperial/vegetable/artichoke_jerusalem",
@@ -1177,15 +1177,7 @@
           "reason": "Faces Vegetable Troubles opener"
         },
         {
-          "page": 150,
-          "reason": "Approved spacing preserves facing Techniques topics"
-        },
-        {
-          "page": 162,
-          "reason": "Approved spacing preserves facing Techniques topics"
-        },
-        {
-          "page": 170,
+          "page": 168,
           "reason": "End balancing page"
         }
       ],
@@ -1200,157 +1192,190 @@
         },
         {
           "source": "technique:organic",
-          "pdf": "output/pdf/final-text-edits/organic-imperial.pdf",
-          "sha256": "b90bb800bdd5466ac030d17230ce8fd7b54da46ea5c047a44563ca30c751ba42",
+          "units": "imperial",
+          "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+          "sha256": "fe072b70b68703cc80d484f06968e52bd14dbb74a9c67a8a6f30dea0b26546a4",
           "sourcePage": 1,
+          "sourcePdfPages": 18,
           "physicalPages": 1,
-          "sourcePdfPages": 1,
-          "finalCopyEdit": "docs/publication/final-text-edits/MANIFEST.json",
+          "subsectionRevision": "docs/publication/techniques-subsections/MANIFEST.json",
           "startPage": 146
         },
         {
           "source": "technique:nutrient-cycles",
-          "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-          "sha256": "31f6607ad253ba30eb4d9819c833fbfd4085d2d0253bcbc6296018332a5db1a6",
-          "sourcePage": 3,
+          "units": "imperial",
+          "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+          "sha256": "fe072b70b68703cc80d484f06968e52bd14dbb74a9c67a8a6f30dea0b26546a4",
+          "sourcePage": 2,
+          "sourcePdfPages": 18,
           "physicalPages": 1,
-          "sourcePdfPages": 21,
+          "subsectionRevision": "docs/publication/techniques-subsections/MANIFEST.json",
           "startPage": 147
         },
         {
           "source": "technique:rotation",
-          "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-          "sha256": "31f6607ad253ba30eb4d9819c833fbfd4085d2d0253bcbc6296018332a5db1a6",
-          "sourcePage": 4,
+          "units": "imperial",
+          "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+          "sha256": "fe072b70b68703cc80d484f06968e52bd14dbb74a9c67a8a6f30dea0b26546a4",
+          "sourcePage": 3,
+          "sourcePdfPages": 18,
           "physicalPages": 2,
-          "sourcePdfPages": 21,
+          "subsectionRevision": "docs/publication/techniques-subsections/MANIFEST.json",
           "startPage": 148
         },
         {
           "source": "technique:plot-location",
-          "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-          "sha256": "31f6607ad253ba30eb4d9819c833fbfd4085d2d0253bcbc6296018332a5db1a6",
-          "sourcePage": 7,
+          "units": "imperial",
+          "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+          "sha256": "fe072b70b68703cc80d484f06968e52bd14dbb74a9c67a8a6f30dea0b26546a4",
+          "sourcePage": 5,
+          "sourcePdfPages": 18,
           "physicalPages": 1,
-          "sourcePdfPages": 21,
-          "startPage": 151
+          "subsectionRevision": "docs/publication/techniques-subsections/MANIFEST.json",
+          "startPage": 150
         },
         {
           "source": "technique:plot-layout",
-          "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-          "sha256": "31f6607ad253ba30eb4d9819c833fbfd4085d2d0253bcbc6296018332a5db1a6",
-          "sourcePage": 8,
+          "units": "imperial",
+          "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+          "sha256": "fe072b70b68703cc80d484f06968e52bd14dbb74a9c67a8a6f30dea0b26546a4",
+          "sourcePage": 6,
+          "sourcePdfPages": 18,
           "physicalPages": 1,
-          "sourcePdfPages": 21,
-          "startPage": 152
+          "subsectionRevision": "docs/publication/techniques-subsections/MANIFEST.json",
+          "startPage": 151
         },
         {
           "source": "technique:plot-layout-branching",
-          "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-          "sha256": "31f6607ad253ba30eb4d9819c833fbfd4085d2d0253bcbc6296018332a5db1a6",
-          "sourcePage": 9,
+          "units": "imperial",
+          "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+          "sha256": "fe072b70b68703cc80d484f06968e52bd14dbb74a9c67a8a6f30dea0b26546a4",
+          "sourcePage": 7,
+          "sourcePdfPages": 18,
           "physicalPages": 1,
-          "sourcePdfPages": 21,
-          "startPage": 153
+          "subsectionRevision": "docs/publication/techniques-subsections/MANIFEST.json",
+          "startPage": 152
         },
         {
           "source": "technique:compost-bins",
-          "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-          "sha256": "31f6607ad253ba30eb4d9819c833fbfd4085d2d0253bcbc6296018332a5db1a6",
-          "sourcePage": 10,
+          "units": "imperial",
+          "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+          "sha256": "fe072b70b68703cc80d484f06968e52bd14dbb74a9c67a8a6f30dea0b26546a4",
+          "sourcePage": 8,
+          "sourcePdfPages": 18,
           "physicalPages": 1,
-          "sourcePdfPages": 21,
-          "startPage": 154
+          "subsectionRevision": "docs/publication/techniques-subsections/MANIFEST.json",
+          "startPage": 153
         },
         {
           "source": "technique:compost-use",
-          "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-          "sha256": "31f6607ad253ba30eb4d9819c833fbfd4085d2d0253bcbc6296018332a5db1a6",
-          "sourcePage": 11,
+          "units": "imperial",
+          "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+          "sha256": "fe072b70b68703cc80d484f06968e52bd14dbb74a9c67a8a6f30dea0b26546a4",
+          "sourcePage": 9,
+          "sourcePdfPages": 18,
           "physicalPages": 1,
-          "sourcePdfPages": 21,
-          "startPage": 155
+          "subsectionRevision": "docs/publication/techniques-subsections/MANIFEST.json",
+          "startPage": 154
         },
         {
           "source": "cultivation:overview",
-          "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-          "sha256": "31f6607ad253ba30eb4d9819c833fbfd4085d2d0253bcbc6296018332a5db1a6",
-          "sourcePage": 12,
+          "units": "imperial",
+          "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+          "sha256": "fe072b70b68703cc80d484f06968e52bd14dbb74a9c67a8a6f30dea0b26546a4",
+          "sourcePage": 10,
+          "sourcePdfPages": 18,
           "physicalPages": 1,
-          "sourcePdfPages": 21,
-          "startPage": 156
+          "subsectionRevision": "docs/publication/techniques-subsections/MANIFEST.json",
+          "startPage": 155
         },
         {
           "source": "cultivation:no-dig",
-          "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-          "sha256": "31f6607ad253ba30eb4d9819c833fbfd4085d2d0253bcbc6296018332a5db1a6",
-          "sourcePage": 13,
+          "units": "imperial",
+          "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+          "sha256": "fe072b70b68703cc80d484f06968e52bd14dbb74a9c67a8a6f30dea0b26546a4",
+          "sourcePage": 11,
+          "sourcePdfPages": 18,
           "physicalPages": 1,
-          "sourcePdfPages": 21,
-          "startPage": 157
+          "subsectionRevision": "docs/publication/techniques-subsections/MANIFEST.json",
+          "startPage": 156
         },
         {
           "source": "cultivation:digging",
-          "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-          "sha256": "31f6607ad253ba30eb4d9819c833fbfd4085d2d0253bcbc6296018332a5db1a6",
-          "sourcePage": 14,
+          "units": "imperial",
+          "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+          "sha256": "fe072b70b68703cc80d484f06968e52bd14dbb74a9c67a8a6f30dea0b26546a4",
+          "sourcePage": 12,
+          "sourcePdfPages": 18,
           "physicalPages": 1,
-          "sourcePdfPages": 21,
-          "startPage": 158
+          "subsectionRevision": "docs/publication/techniques-subsections/MANIFEST.json",
+          "startPage": 157
         },
         {
           "source": "cultivation:digging-finish",
-          "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-          "sha256": "31f6607ad253ba30eb4d9819c833fbfd4085d2d0253bcbc6296018332a5db1a6",
-          "sourcePage": 15,
+          "units": "imperial",
+          "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+          "sha256": "fe072b70b68703cc80d484f06968e52bd14dbb74a9c67a8a6f30dea0b26546a4",
+          "sourcePage": 13,
+          "sourcePdfPages": 18,
           "physicalPages": 1,
-          "sourcePdfPages": 21,
-          "startPage": 159
+          "subsectionRevision": "docs/publication/techniques-subsections/MANIFEST.json",
+          "startPage": 158
         },
         {
           "source": "technique:sowing",
-          "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-          "sha256": "31f6607ad253ba30eb4d9819c833fbfd4085d2d0253bcbc6296018332a5db1a6",
-          "sourcePage": 16,
+          "units": "imperial",
+          "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+          "sha256": "fe072b70b68703cc80d484f06968e52bd14dbb74a9c67a8a6f30dea0b26546a4",
+          "sourcePage": 14,
+          "sourcePdfPages": 18,
           "physicalPages": 1,
-          "sourcePdfPages": 21,
-          "startPage": 160
+          "subsectionRevision": "docs/publication/techniques-subsections/MANIFEST.json",
+          "startPage": 159
         },
         {
           "source": "technique:watering",
-          "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-          "sha256": "31f6607ad253ba30eb4d9819c833fbfd4085d2d0253bcbc6296018332a5db1a6",
-          "sourcePage": 17,
+          "units": "imperial",
+          "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+          "sha256": "fe072b70b68703cc80d484f06968e52bd14dbb74a9c67a8a6f30dea0b26546a4",
+          "sourcePage": 15,
+          "sourcePdfPages": 18,
           "physicalPages": 1,
-          "sourcePdfPages": 21,
-          "startPage": 161
+          "subsectionRevision": "docs/publication/techniques-subsections/MANIFEST.json",
+          "startPage": 160
         },
         {
           "source": "technique:greenhouse-choose",
-          "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-          "sha256": "31f6607ad253ba30eb4d9819c833fbfd4085d2d0253bcbc6296018332a5db1a6",
-          "sourcePage": 19,
+          "units": "imperial",
+          "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+          "sha256": "fe072b70b68703cc80d484f06968e52bd14dbb74a9c67a8a6f30dea0b26546a4",
+          "sourcePage": 16,
+          "sourcePdfPages": 18,
           "physicalPages": 1,
-          "sourcePdfPages": 21,
-          "startPage": 163
+          "subsectionRevision": "docs/publication/techniques-subsections/MANIFEST.json",
+          "startPage": 161
         },
         {
           "source": "technique:greenhouse-beds",
-          "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-          "sha256": "31f6607ad253ba30eb4d9819c833fbfd4085d2d0253bcbc6296018332a5db1a6",
-          "sourcePage": 20,
+          "units": "imperial",
+          "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+          "sha256": "fe072b70b68703cc80d484f06968e52bd14dbb74a9c67a8a6f30dea0b26546a4",
+          "sourcePage": 17,
+          "sourcePdfPages": 18,
           "physicalPages": 1,
-          "sourcePdfPages": 21,
-          "startPage": 164
+          "subsectionRevision": "docs/publication/techniques-subsections/MANIFEST.json",
+          "startPage": 162
         },
         {
           "source": "technique:greenhouse-no-dig-seasons",
-          "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-          "sha256": "31f6607ad253ba30eb4d9819c833fbfd4085d2d0253bcbc6296018332a5db1a6",
-          "sourcePage": 21,
+          "units": "imperial",
+          "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+          "sha256": "fe072b70b68703cc80d484f06968e52bd14dbb74a9c67a8a6f30dea0b26546a4",
+          "sourcePage": 18,
+          "sourcePdfPages": 18,
           "physicalPages": 1,
-          "sourcePdfPages": 21,
-          "startPage": 165
+          "subsectionRevision": "docs/publication/techniques-subsections/MANIFEST.json",
+          "startPage": 163
         }
       ],
       "index": {
@@ -1359,8 +1384,8 @@
         "sourcePage": 1,
         "physicalPages": 4,
         "source": "back:index",
-        "startPage": 166,
-        "endPage": 169
+        "startPage": 164,
+        "endPage": 167
       },
       "techniquePages": 18
     },
@@ -1369,9 +1394,9 @@
       "vegetablePages": 92,
       "troublePages": 45,
       "interstitialBlankPages": 4,
-      "lastContentPage": 169,
+      "lastContentPage": 167,
       "endBlankPages": 1,
-      "plannedEvenTotal": 170,
+      "plannedEvenTotal": 168,
       "documents": [
         {
           "id": "metric/vegetable/artichoke_jerusalem",
@@ -2498,15 +2523,7 @@
           "reason": "Faces Vegetable Troubles opener"
         },
         {
-          "page": 150,
-          "reason": "Approved spacing preserves facing Techniques topics"
-        },
-        {
-          "page": 162,
-          "reason": "Approved spacing preserves facing Techniques topics"
-        },
-        {
-          "page": 170,
+          "page": 168,
           "reason": "End balancing page"
         }
       ],
@@ -2521,148 +2538,190 @@
         },
         {
           "source": "technique:organic",
-          "pdf": "output/pdf/final-text-edits/organic-metric.pdf",
-          "sha256": "71fc916dd7fe6806dfd0d7705be1f88e3df7454d12cf2add1df4fa454d3318b6",
+          "units": "metric",
+          "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+          "sha256": "14e72cfb5297eef1ca5e7ea345b416f9325865ddb5b3944876d36e2745a6a884",
           "sourcePage": 1,
+          "sourcePdfPages": 18,
           "physicalPages": 1,
-          "sourcePdfPages": 1,
-          "finalCopyEdit": "docs/publication/final-text-edits/MANIFEST.json",
+          "subsectionRevision": "docs/publication/techniques-subsections/MANIFEST.json",
           "startPage": 146
         },
         {
           "source": "technique:nutrient-cycles",
-          "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-          "sha256": "31f6607ad253ba30eb4d9819c833fbfd4085d2d0253bcbc6296018332a5db1a6",
-          "sourcePage": 3,
+          "units": "metric",
+          "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+          "sha256": "14e72cfb5297eef1ca5e7ea345b416f9325865ddb5b3944876d36e2745a6a884",
+          "sourcePage": 2,
+          "sourcePdfPages": 18,
           "physicalPages": 1,
-          "sourcePdfPages": 21,
+          "subsectionRevision": "docs/publication/techniques-subsections/MANIFEST.json",
           "startPage": 147
         },
         {
           "source": "technique:rotation",
-          "pdf": "docs/publication/topic-pages/crop-rotation-planning/references/approved-2026-10-18/crop-rotation-planning-metric.pdf",
-          "sha256": "c7cba0f3dd0999ee1643fe51b187ff672fe0cc5fabc8fe9c415e54b39023eb01",
-          "sourcePage": 1,
+          "units": "metric",
+          "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+          "sha256": "14e72cfb5297eef1ca5e7ea345b416f9325865ddb5b3944876d36e2745a6a884",
+          "sourcePage": 3,
+          "sourcePdfPages": 18,
           "physicalPages": 2,
-          "sourcePdfPages": 2,
+          "subsectionRevision": "docs/publication/techniques-subsections/MANIFEST.json",
           "startPage": 148
         },
         {
           "source": "technique:plot-location",
-          "pdf": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/metric.pdf",
-          "sha256": "89bbc47865e06a36dcae1f22c91a0089aee22068346cae2aa712d37a12c2faf9",
-          "sourcePage": 3,
+          "units": "metric",
+          "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+          "sha256": "14e72cfb5297eef1ca5e7ea345b416f9325865ddb5b3944876d36e2745a6a884",
+          "sourcePage": 5,
+          "sourcePdfPages": 18,
           "physicalPages": 1,
-          "startPage": 151
+          "subsectionRevision": "docs/publication/techniques-subsections/MANIFEST.json",
+          "startPage": 150
         },
         {
           "source": "technique:plot-layout",
-          "pdf": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/metric.pdf",
-          "sha256": "89bbc47865e06a36dcae1f22c91a0089aee22068346cae2aa712d37a12c2faf9",
-          "sourcePage": 4,
+          "units": "metric",
+          "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+          "sha256": "14e72cfb5297eef1ca5e7ea345b416f9325865ddb5b3944876d36e2745a6a884",
+          "sourcePage": 6,
+          "sourcePdfPages": 18,
           "physicalPages": 1,
-          "startPage": 152
+          "subsectionRevision": "docs/publication/techniques-subsections/MANIFEST.json",
+          "startPage": 151
         },
         {
           "source": "technique:plot-layout-branching",
-          "pdf": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/metric.pdf",
-          "sha256": "89bbc47865e06a36dcae1f22c91a0089aee22068346cae2aa712d37a12c2faf9",
-          "sourcePage": 5,
+          "units": "metric",
+          "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+          "sha256": "14e72cfb5297eef1ca5e7ea345b416f9325865ddb5b3944876d36e2745a6a884",
+          "sourcePage": 7,
+          "sourcePdfPages": 18,
           "physicalPages": 1,
-          "startPage": 153
+          "subsectionRevision": "docs/publication/techniques-subsections/MANIFEST.json",
+          "startPage": 152
         },
         {
           "source": "technique:compost-bins",
-          "pdf": "output/pdf/reader-edit-pass/techniques/techniques-metric-clean.pdf",
-          "sha256": "6acfaf301badc377baa57553b7bfd9680414a9e43e45dc3178a547ebb63082be",
-          "sourcePage": 1,
+          "units": "metric",
+          "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+          "sha256": "14e72cfb5297eef1ca5e7ea345b416f9325865ddb5b3944876d36e2745a6a884",
+          "sourcePage": 8,
+          "sourcePdfPages": 18,
           "physicalPages": 1,
-          "sourcePdfPages": 6,
-          "startPage": 154
+          "subsectionRevision": "docs/publication/techniques-subsections/MANIFEST.json",
+          "startPage": 153
         },
         {
           "source": "technique:compost-use",
-          "pdf": "output/pdf/reader-edit-pass/techniques/techniques-metric-clean.pdf",
-          "sha256": "6acfaf301badc377baa57553b7bfd9680414a9e43e45dc3178a547ebb63082be",
-          "sourcePage": 2,
+          "units": "metric",
+          "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+          "sha256": "14e72cfb5297eef1ca5e7ea345b416f9325865ddb5b3944876d36e2745a6a884",
+          "sourcePage": 9,
+          "sourcePdfPages": 18,
           "physicalPages": 1,
-          "sourcePdfPages": 6,
-          "startPage": 155
+          "subsectionRevision": "docs/publication/techniques-subsections/MANIFEST.json",
+          "startPage": 154
         },
         {
           "source": "cultivation:overview",
-          "pdf": "docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/metric.pdf",
-          "sha256": "f3b0607d14e84254eb2135763aa384f239377dfdafb7312aee170a76555a50d8",
-          "sourcePage": 1,
+          "units": "metric",
+          "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+          "sha256": "14e72cfb5297eef1ca5e7ea345b416f9325865ddb5b3944876d36e2745a6a884",
+          "sourcePage": 10,
+          "sourcePdfPages": 18,
           "physicalPages": 1,
-          "startPage": 156
+          "subsectionRevision": "docs/publication/techniques-subsections/MANIFEST.json",
+          "startPage": 155
         },
         {
           "source": "cultivation:no-dig",
-          "pdf": "docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/metric.pdf",
-          "sha256": "f3b0607d14e84254eb2135763aa384f239377dfdafb7312aee170a76555a50d8",
-          "sourcePage": 2,
+          "units": "metric",
+          "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+          "sha256": "14e72cfb5297eef1ca5e7ea345b416f9325865ddb5b3944876d36e2745a6a884",
+          "sourcePage": 11,
+          "sourcePdfPages": 18,
           "physicalPages": 1,
-          "startPage": 157
+          "subsectionRevision": "docs/publication/techniques-subsections/MANIFEST.json",
+          "startPage": 156
         },
         {
           "source": "cultivation:digging",
-          "pdf": "docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/metric.pdf",
-          "sha256": "f3b0607d14e84254eb2135763aa384f239377dfdafb7312aee170a76555a50d8",
-          "sourcePage": 3,
+          "units": "metric",
+          "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+          "sha256": "14e72cfb5297eef1ca5e7ea345b416f9325865ddb5b3944876d36e2745a6a884",
+          "sourcePage": 12,
+          "sourcePdfPages": 18,
           "physicalPages": 1,
-          "startPage": 158
+          "subsectionRevision": "docs/publication/techniques-subsections/MANIFEST.json",
+          "startPage": 157
         },
         {
           "source": "cultivation:digging-finish",
-          "pdf": "docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/metric.pdf",
-          "sha256": "f3b0607d14e84254eb2135763aa384f239377dfdafb7312aee170a76555a50d8",
-          "sourcePage": 4,
+          "units": "metric",
+          "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+          "sha256": "14e72cfb5297eef1ca5e7ea345b416f9325865ddb5b3944876d36e2745a6a884",
+          "sourcePage": 13,
+          "sourcePdfPages": 18,
           "physicalPages": 1,
-          "startPage": 159
+          "subsectionRevision": "docs/publication/techniques-subsections/MANIFEST.json",
+          "startPage": 158
         },
         {
           "source": "technique:sowing",
-          "pdf": "output/pdf/reader-edit-pass/techniques/techniques-metric-clean.pdf",
-          "sha256": "6acfaf301badc377baa57553b7bfd9680414a9e43e45dc3178a547ebb63082be",
-          "sourcePage": 4,
+          "units": "metric",
+          "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+          "sha256": "14e72cfb5297eef1ca5e7ea345b416f9325865ddb5b3944876d36e2745a6a884",
+          "sourcePage": 14,
+          "sourcePdfPages": 18,
           "physicalPages": 1,
-          "sourcePdfPages": 6,
-          "startPage": 160
+          "subsectionRevision": "docs/publication/techniques-subsections/MANIFEST.json",
+          "startPage": 159
         },
         {
           "source": "technique:watering",
-          "pdf": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/metric.pdf",
-          "sha256": "89bbc47865e06a36dcae1f22c91a0089aee22068346cae2aa712d37a12c2faf9",
-          "sourcePage": 12,
+          "units": "metric",
+          "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+          "sha256": "14e72cfb5297eef1ca5e7ea345b416f9325865ddb5b3944876d36e2745a6a884",
+          "sourcePage": 15,
+          "sourcePdfPages": 18,
           "physicalPages": 1,
-          "startPage": 161
+          "subsectionRevision": "docs/publication/techniques-subsections/MANIFEST.json",
+          "startPage": 160
         },
         {
           "source": "technique:greenhouse-choose",
-          "pdf": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/metric.pdf",
-          "sha256": "89bbc47865e06a36dcae1f22c91a0089aee22068346cae2aa712d37a12c2faf9",
-          "sourcePage": 6,
+          "units": "metric",
+          "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+          "sha256": "14e72cfb5297eef1ca5e7ea345b416f9325865ddb5b3944876d36e2745a6a884",
+          "sourcePage": 16,
+          "sourcePdfPages": 18,
           "physicalPages": 1,
-          "startPage": 163
+          "subsectionRevision": "docs/publication/techniques-subsections/MANIFEST.json",
+          "startPage": 161
         },
         {
           "source": "technique:greenhouse-beds",
-          "pdf": "output/pdf/reader-edit-pass/techniques/techniques-metric-clean.pdf",
-          "sha256": "6acfaf301badc377baa57553b7bfd9680414a9e43e45dc3178a547ebb63082be",
-          "sourcePage": 5,
+          "units": "metric",
+          "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+          "sha256": "14e72cfb5297eef1ca5e7ea345b416f9325865ddb5b3944876d36e2745a6a884",
+          "sourcePage": 17,
+          "sourcePdfPages": 18,
           "physicalPages": 1,
-          "sourcePdfPages": 6,
-          "startPage": 164
+          "subsectionRevision": "docs/publication/techniques-subsections/MANIFEST.json",
+          "startPage": 162
         },
         {
           "source": "technique:greenhouse-no-dig-seasons",
-          "pdf": "output/pdf/reader-edit-pass/techniques/techniques-metric-clean.pdf",
-          "sha256": "6acfaf301badc377baa57553b7bfd9680414a9e43e45dc3178a547ebb63082be",
-          "sourcePage": 6,
+          "units": "metric",
+          "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+          "sha256": "14e72cfb5297eef1ca5e7ea345b416f9325865ddb5b3944876d36e2745a6a884",
+          "sourcePage": 18,
+          "sourcePdfPages": 18,
           "physicalPages": 1,
-          "sourcePdfPages": 6,
-          "startPage": 165
+          "subsectionRevision": "docs/publication/techniques-subsections/MANIFEST.json",
+          "startPage": 163
         }
       ],
       "index": {
@@ -2671,8 +2730,8 @@
         "sourcePage": 1,
         "physicalPages": 4,
         "source": "back:index",
-        "startPage": 166,
-        "endPage": 169
+        "startPage": 164,
+        "endPage": 167
       },
       "techniquePages": 18
     }
@@ -2706,8 +2765,8 @@
     "sha256": "6bf7eb471bda81a1f4c402b7e3cdd3b81c3449697bd9ea358e8b863586e70e2d"
   },
   "limits": [
-    "John approved the section order and blanks on 18 October 2026.",
-    "170 interior pages; imperial full-book preview, not a final production/cost/spine specification.",
+    "John requested subsection headings and removal of both internal Techniques blanks on 19 October 2026.",
+    "168 interior pages; imperial full-book preview, not a final production/cost/spine specification.",
     "Both-unit reference mapping is checked; no full metric book is assembled.",
     "Frozen source PDFs remain unchanged."
   ]

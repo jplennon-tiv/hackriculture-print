@@ -1,0 +1,72 @@
+{
+  "date": "2026-10-18",
+  "status": "discarded_by_john_original_panels_retained",
+  "method": "Actual PDF rasters inspected, including panel crops and facing contexts. Static review-page script and asset references checked; interactive browser controls not tested.",
+  "folios": [
+    152,
+    153,
+    155,
+    160,
+    165
+  ],
+  "allPanelDetailsViewed": {
+    "ribbon": "imperial",
+    "splash": "imperial"
+  },
+  "fullPagesViewed": [
+    {
+      "variant": "ribbon",
+      "units": "imperial",
+      "folios": [
+        152,
+        153
+      ]
+    },
+    {
+      "variant": "splash",
+      "units": "imperial",
+      "folios": [
+        152
+      ]
+    },
+    {
+      "variant": "ribbon",
+      "units": "metric",
+      "folios": [
+        152,
+        165
+      ]
+    }
+  ],
+  "facingSpreadsViewed": [
+    {
+      "variant": "ribbon",
+      "units": "imperial",
+      "folios": [
+        152,
+        153
+      ]
+    },
+    {
+      "variant": "splash",
+      "units": "imperial",
+      "folios": [
+        164,
+        165
+      ]
+    }
+  ],
+  "automatedPdfCoverage": "All five pages in both units for baseline, ribbon and splash: 30 actual PDF pages.",
+  "findings": [
+    "The deep orange and cream labels are legible against all five green panels.",
+    "Both designs fit without collisions; body copy, type sizes and panel heights are preserved.",
+    "The unheaded note rewraps to reserve room for the label within its existing panel height.",
+    "The ribbon is recommended for its compact shape and slight tilt, consistent with the established labels.",
+    "The irregular splash remains an alternative for a more playful accent."
+  ],
+  "intentionalReplacementsOrOmissions": "None: only the proposed badge and space beside the headings/unheaded paragraph are added.",
+  "smallestSourceGapMm": 5.2793,
+  "sourceToFooterGapMm": 3.55947,
+  "fullBookChanged": false,
+  "decision": "DECISION.json"
+}

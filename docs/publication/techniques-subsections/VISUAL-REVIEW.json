@@ -1,0 +1,74 @@
+{
+  "date": "2026-10-19",
+  "status": "passed for inspected requested changes",
+  "method": "Actual PDF renders viewed as all nine facing pairs in each unit; compared with retained source content and current imperial full-book spreads.",
+  "proofs": [
+    {
+      "units": "imperial",
+      "sha256": "fe072b70b68703cc80d484f06968e52bd14dbb74a9c67a8a6f30dea0b26546a4",
+      "actualPdfPages": 18,
+      "paperEdgesChecked": true,
+      "bodyAndHeaderChecks": "MANIFEST.json"
+    },
+    {
+      "units": "metric",
+      "sha256": "14e72cfb5297eef1ca5e7ea345b416f9325865ddb5b3944876d36e2745a6a884",
+      "actualPdfPages": 18,
+      "paperEdgesChecked": true,
+      "bodyAndHeaderChecks": "MANIFEST.json"
+    }
+  ],
+  "spreadFoliosInspected": [
+    [
+      146,
+      147
+    ],
+    [
+      148,
+      149
+    ],
+    [
+      150,
+      151
+    ],
+    [
+      152,
+      153
+    ],
+    [
+      154,
+      155
+    ],
+    [
+      156,
+      157
+    ],
+    [
+      158,
+      159
+    ],
+    [
+      160,
+      161
+    ],
+    [
+      162,
+      163
+    ]
+  ],
+  "unitsInspected": [
+    "imperial",
+    "metric"
+  ],
+  "findings": [
+    "Requested large headings and running-title groups fit without reducing type or obscuring body copy.",
+    "Native body copy, illustration placement and reading sizes are preserved; new page sides have correct inner margins and cream edges.",
+    "Old internal blanks 150 and 162 are omitted; some topics now cross page turns as requested.",
+    "All five double-digging steps remain on 157; single digging starts 158.",
+    "Unchanged headings outside the requested replacements retain pre-existing differences between metric source proofs and the imperial preview."
+  ],
+  "limits": [
+    "Full-book assembly is imperial; metric coverage is the 18-page Techniques derivative plus contents/index reference validation.",
+    "Technical and visual checks do not establish new author or supplier approval."
+  ]
+}

@@ -1,0 +1,3752 @@
+{
+  "status": "Unapproved design comparisons; full book unchanged",
+  "panels": [
+    {
+      "id": "plot-layout",
+      "folio": 152,
+      "selector": ".closing",
+      "title": "Keep the middle within reach",
+      "source": "expansion"
+    },
+    {
+      "id": "plot-layout-branching",
+      "folio": 153,
+      "selector": ".planning-note",
+      "title": "Give the paths a shape that suits the ground…",
+      "source": "expansion"
+    },
+    {
+      "id": "compost-use",
+      "folio": 155,
+      "selector": ".closing",
+      "title": "Put it back to work",
+      "source": "reader"
+    },
+    {
+      "id": "sowing",
+      "folio": 160,
+      "selector": ".closing",
+      "title": "A small experiment: mixed salad leaves",
+      "source": "reader"
+    },
+    {
+      "id": "greenhouse-no-dig-seasons",
+      "folio": 165,
+      "selector": ".greenhouse-care",
+      "title": "The regular jobs",
+      "source": "reader"
+    }
+  ],
+  "inputs": {
+    "docs/publication/top-tip-panels/top-tip.css": "b85bfa94e138d9c1b608bb3c9e78f5a6635c53232d4d82c51fa77acfffbdabc6",
+    "docs/publication/top-tip-panels/overlap/overlap.css": "f6fd783e3ba3ceaf3a289230379ea5f39e086c99a46ea44bc093d13fc49582b1",
+    "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/draft.css": "00e9f3e5bccd270cea052e3a1b836d3e958850fb5f31aa58f5748a1acfd6af07",
+    "scripts/lib/book-review-refinements.mjs": "ac5a6c12e18de5ab3c47427ee9be7319d564610459454db9fb465aff79bb74bd",
+    "docs/publication/topic-pages/techniques-expansion/imperial.html": "f07c455ae5e290dc904653df601fb93deefa0812e957ee2114b6c7f0fedac051",
+    "docs/publication/reader-edit-pass/techniques/imperial.html": "3f6bbf596b3aa204e0de568bb87ed3e5d63190870159dd8d107c0df09da59de0",
+    "docs/publication/topic-pages/techniques-expansion/metric.html": "5db992673dcecbc1f81034dd2bb68e9a3859f9bb4e6d2bebc282269fbd286392",
+    "docs/publication/reader-edit-pass/techniques/metric.html": "61d22ec13e2db885072a5f9935aa180157cf1271334fdcfc4712074c75aed9d0"
+  },
+  "results": [
+    {
+      "variant": "baseline",
+      "units": "imperial",
+      "html": "docs/publication/top-tip-panels/overlap/baseline-imperial.html",
+      "pdf": "output/pdf/top-tip-panels/overlap/baseline-imperial.pdf",
+      "sha256": "0662dee0327b995f67585f9dfa84654c587fcab378b8dce2aad51861d8ac9e82",
+      "checks": [
+        {
+          "folio": 152,
+          "id": "plot-layout",
+          "title": "Keep the middle within reach",
+          "textUnchanged": true,
+          "bodyFontPt": 9.45,
+          "sourceGapMm": 18.04954427083333,
+          "footerGapMm": 3.5594726562499996,
+          "panelMm": {
+            "left": 7.999511718749999,
+            "top": 176.34892578125,
+            "width": 159.99850260416665,
+            "height": 27.719238281249996
+          },
+          "badgeMm": null,
+          "collisions": [],
+          "textBoxes": [
+            {
+              "tag": "P",
+              "text": "GROWING TECHNIQUES - BEDS AND PATHS",
+              "left": 7.999511718749999,
+              "right": 167.99801432291665,
+              "top": 11.997200520833331,
+              "bottom": 15.3044921875,
+              "overflow": false
+            },
+            {
+              "tag": "H1",
+              "text": "Beds and paths\nStraight paths and keyholes",
+              "left": 7.999511718749999,
+              "right": 167.99801432291665,
+              "top": 17.80149739583333,
+              "bottom": 37.60804036458333,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "Beds and paths can take several shapes. The useful question is whether you can reach the crops and move around comfortably. These three arrangements can work with digging or no-dig.",
+              "left": 7.999511718749999,
+              "right": 167.99801432291665,
+              "top": 40.605273437499996,
+              "bottom": 50.60156249999999,
+              "overflow": false
+            },
+            {
+              "tag": "IMG",
+              "text": "Four rectangular soil beds with straight through-paths and a path around the outside.",
+              "left": 7.999511718749999,
+              "right": 86.99830729166666,
+              "top": 54.599251302083324,
+              "bottom": 106.59814453124999,
+              "overflow": false
+            },
+            {
+              "tag": "FIGCAPTION",
+              "text": "Straight paths connect across the plot.",
+              "left": 7.999511718749999,
+              "right": 86.99830729166666,
+              "top": 107.59446614583332,
+              "bottom": 111.47639973958333,
+              "overflow": false
+            },
+            {
+              "tag": "H2",
+              "text": "Conventional paths",
+              "left": 92.99690755208333,
+              "right": 167.99801432291665,
+              "top": 60.56477864583333,
+              "bottom": 67.20003255208333,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "Straight paths divide the plot into rectangular beds. They make a straightforward route for carrying tools or pushing a barrow, and regular beds are convenient to cover with nets. Cross-paths save a long walk round, but use growing space. Keep them where they earn their keep, and make each bed narrow enough to tend from its edges.",
+              "left": 92.99690755208333,
+              "right": 167.99801432291665,
+              "top": 68.99837239583333,
+              "bottom": 105.51087239583332,
+              "overflow": false
+            },
+            {
+              "tag": "IMG",
+              "text": "A horseshoe-shaped bed around a circular standing space, reached by a short entrance path, with access around the outside.",
+              "left": 7.999511718749999,
+              "right": 86.99830729166666,
+              "top": 115.47408854166666,
+              "bottom": 167.47298177083331,
+              "overflow": false
+            },
+            {
+              "tag": "FIGCAPTION",
+              "text": "A short path opens into a working space.",
+              "left": 7.999511718749999,
+              "right": 86.99830729166666,
+              "top": 168.46930338541665,
+              "bottom": 172.35123697916666,
+              "overflow": false
+            },
+            {
+              "tag": "H2",
+              "text": "Keyhole beds",
+              "left": 92.99690755208333,
+              "right": 167.99801432291665,
+              "top": 123.72164713541666,
+              "bottom": 130.35690104166665,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "A short entrance opens into a standing space, with the bed wrapped around it. You can reach into the bed from this pocket as well as the outer edge, saving a path across the whole bed. It is useful where space is tight, but curved edges and the narrow entrance need careful setting out. Check your reach before planting.",
+              "left": 92.99690755208333,
+              "right": 167.99801432291665,
+              "top": 132.15524088541665,
+              "bottom": 164.10367838541666,
+              "overflow": false
+            },
+            {
+              "tag": "H2",
+              "text": "Keep the middle within reach",
+              "left": 11.997200520833331,
+              "right": 164.00032552083331,
+              "top": 179.34615885416665,
+              "bottom": 185.98141276041665,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "About 4 ft is a useful starting width for a bed reached from both sides, but your arms decide the final measurement. Make a bed against a wall narrower. You should be able to sow, weed and harvest every part without standing on the growing soil.",
+              "left": 11.997200520833331,
+              "right": 164.00032552083331,
+              "top": 187.47796223958332,
+              "bottom": 201.0709309895833,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "John: Raised Beds. RHS: raised beds. Garden Organic: Making Full Use of Space.",
+              "left": 7.999511718749999,
+              "right": 167.99801432291665,
+              "top": 222.1177083333333,
+              "bottom": 225.20175781249998,
+              "overflow": false
+            },
+            {
+              "tag": "FOOTER",
+              "text": "GROWING TECHNIQUES\n152",
+              "left": 7.999511718749999,
+              "right": 167.99801432291665,
+              "top": 228.76123046874997,
+              "bottom": 231.99824218749998,
+              "overflow": false
+            }
+          ]
+        },
+        {
+          "folio": 153,
+          "id": "plot-layout-branching",
+          "title": "Give the paths a shape that suits the ground…",
+          "textUnchanged": true,
+          "bodyFontPt": 9.45,
+          "sourceGapMm": 5.870442708333333,
+          "footerGapMm": 3.5594726562499996,
+          "panelMm": {
+            "left": 16.999479166666664,
+            "top": 135.36331380208333,
+            "width": 159.99850260416665,
+            "height": 15.122591145833331
+          },
+          "badgeMm": null,
+          "collisions": [],
+          "textBoxes": [
+            {
+              "tag": "P",
+              "text": "GROWING TECHNIQUES - BEDS AND PATHS",
+              "left": 16.999479166666664,
+              "right": 176.99798177083332,
+              "top": 11.997200520833331,
+              "bottom": 15.3044921875,
+              "overflow": false
+            },
+            {
+              "tag": "H1",
+              "text": "Beds and paths\nFinger paths and leaf patterns",
+              "left": 16.999479166666664,
+              "right": 176.99798177083332,
+              "top": 17.80149739583333,
+              "bottom": 37.60804036458333,
+              "overflow": false
+            },
+            {
+              "tag": "H2",
+              "text": "Borrowing from nature",
+              "left": 16.999479166666664,
+              "right": 176.99798177083332,
+              "top": 41.60572916666666,
+              "bottom": 48.24098307291666,
+              "overflow": false
+            },
+            {
+              "tag": "IMG",
+              "text": "Two rectangular garden layouts: finger paths enter from one edge; evenly spaced paths branch at right angles from a central spine inside a rectangular bed. Both leave growing soil beyond the path ends.",
+              "left": 16.999479166666664,
+              "right": 176.99798177083332,
+              "top": 50.23776041666666,
+              "bottom": 106.23434244791666,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "Finger paths enter from one side.",
+              "left": 16.999479166666664,
+              "right": 93.49713541666665,
+              "top": 107.23066406249998,
+              "bottom": 111.11259765624999,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "A leaf pattern branches from a central path.",
+              "left": 100.49619140624999,
+              "right": 176.99798177083332,
+              "top": 107.23066406249998,
+              "bottom": 111.11259765624999,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "Finger paths are short paths that stop before the far edge, making a shape like the fingers in a hand. You gain extra growing space this way, but lose access from one edge.",
+              "left": 16.999479166666664,
+              "right": 93.49713541666665,
+              "top": 113.10937499999999,
+              "bottom": 131.365625,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "A plant leaf maximises photosynthesis area with veins spreading out from a central spine. You can mimic this pattern with your paths, to maximise your growing area.",
+              "left": 100.49619140624999,
+              "right": 176.99798177083332,
+              "top": 113.10937499999999,
+              "bottom": 131.365625,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "Give the paths a shape that suits the ground, then try it out with pegs and string. A clever drawing is only useful if you can work from it.",
+              "left": 20.99716796875,
+              "right": 173.00029296875,
+              "top": 138.36054687499998,
+              "bottom": 147.488671875,
+              "overflow": false
+            },
+            {
+              "tag": "H2",
+              "text": "Work with sun and slope",
+              "left": 20.496940104166665,
+              "right": 91.00013020833332,
+              "top": 157.48082682291664,
+              "bottom": 163.5125,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "Where the site allows, run long beds north to south so tall crops share their shade across the day. Existing buildings and drainage may matter more than compass neatness. Watch where rain collects before settling the layout.",
+              "left": 20.496940104166665,
+              "right": 91.00013020833332,
+              "top": 165.31083984375,
+              "bottom": 188.13115234375,
+              "overflow": false
+            },
+            {
+              "tag": "H2",
+              "text": "Try the paths for size",
+              "left": 102.99319661458333,
+              "right": 173.50052083333333,
+              "top": 157.48082682291664,
+              "bottom": 163.5125,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "Peg out the edges, then walk the routes with a loaded barrow. Allow room to park, turn and work beside it. Check with everyone who will use the plot; a path that suits you may be awkward for somebody else.",
+              "left": 102.99319661458333,
+              "right": 173.50052083333333,
+              "top": 165.31083984375,
+              "bottom": 188.13115234375,
+              "overflow": false
+            },
+            {
+              "tag": "H2",
+              "text": "Sides are optional",
+              "left": 20.79046223958333,
+              "right": 176.99798177083332,
+              "top": 195.12607421874998,
+              "bottom": 201.15774739583333,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "Mounded beds need no timber and leave fewer crevices for slugs in a wet garden. Framed beds hold a flatter surface and can raise the working height. Choose what makes the plot easier to use, then prepare the ground using the Cultivation pages.",
+              "left": 20.79046223958333,
+              "right": 176.99798177083332,
+              "top": 202.65429687499997,
+              "bottom": 216.24726562499998,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "John: Raised Beds; Sun, Drainage & Access, 00:03–05:37. Layout ideas, not scale plans.",
+              "left": 16.999479166666664,
+              "right": 176.99798177083332,
+              "top": 222.1177083333333,
+              "bottom": 225.20175781249998,
+              "overflow": false
+            },
+            {
+              "tag": "FOOTER",
+              "text": "GROWING TECHNIQUES\n153",
+              "left": 16.999479166666664,
+              "right": 176.99798177083332,
+              "top": 228.76123046874997,
+              "bottom": 231.99824218749998,
+              "overflow": false
+            }
+          ]
+        },
+        {
+          "folio": 155,
+          "id": "compost-use",
+          "title": "Put it back to work",
+          "textUnchanged": true,
+          "bodyFontPt": 9.45,
+          "sourceGapMm": 19.455143229166666,
+          "footerGapMm": 3.5594726562499996,
+          "panelMm": {
+            "left": 16.999479166666664,
+            "top": 155.41790364583332,
+            "width": 159.99850260416665,
+            "height": 33.25068359375
+          },
+          "badgeMm": null,
+          "collisions": [],
+          "textBoxes": [
+            {
+              "tag": "P",
+              "text": "GROWING TECHNIQUES - MAKING AND USING COMPOST",
+              "left": 16.999479166666664,
+              "right": 176.99798177083332,
+              "top": 11.997200520833331,
+              "bottom": 15.3044921875,
+              "overflow": false
+            },
+            {
+              "tag": "H1",
+              "text": "Making compost\nFeed it, leave it, use it",
+              "left": 16.999479166666664,
+              "right": 176.99798177083332,
+              "top": 17.80149739583333,
+              "bottom": 29.356347656249998,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "Good compost making turns suitable garden and kitchen waste into something useful. Vegetable peelings, hedge trimmings and torn plain cardboard all have a place in the bin. Good compost will reward you with an abundance of lush, tasty and, above all, cheap food.",
+              "left": 16.999479166666664,
+              "right": 176.99798177083332,
+              "top": 32.353580729166666,
+              "bottom": 47.34801432291666,
+              "overflow": false
+            },
+            {
+              "tag": "IMG",
+              "text": "Green plant trimmings and torn plain cardboard beside a sieve and a bowl of mature dark compost.",
+              "left": 16.999479166666664,
+              "right": 176.99798177083332,
+              "top": 50.345247395833326,
+              "bottom": 80.34238281249999,
+              "overflow": false
+            },
+            {
+              "tag": "FIGCAPTION",
+              "text": "A mixture going in; dark, crumbly compost coming out. Return coarse pieces to the active bin.",
+              "left": 16.999479166666664,
+              "right": 176.99798177083332,
+              "top": 81.33870442708333,
+              "bottom": 85.22063802083332,
+              "overflow": false
+            },
+            {
+              "tag": "H2",
+              "text": "Mixed ingredients",
+              "left": 16.999479166666664,
+              "right": 66.66673177083332,
+              "top": 88.21787109374999,
+              "bottom": 94.85312499999999,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "A good rule of thumb is “half greens, half browns”. Combine soft green material, such as vegetable peelings and fresh leaves, with browns such as torn plain cardboard and chopped stalks. Mix grass clippings through other material rather than adding a thick wet lump. Compost autumn leaves in a heap on their own; they are slow to rot.",
+              "left": 16.999479166666664,
+              "right": 66.66673177083332,
+              "top": 96.65146484374999,
+              "bottom": 151.42021484375,
+              "overflow": false
+            },
+            {
+              "tag": "H2",
+              "text": "Damp, not soaked",
+              "left": 72.16510416666667,
+              "right": 121.83235677083331,
+              "top": 88.21787109374999,
+              "bottom": 94.85312499999999,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "Dampen dry cardboard and other dry additions as they go in. Close the lid to keep heavy rain out and moisture in, then check below the fresh top layer during dry weather. A large bin kept moist may not need turning. If yours stalls, check for dry corners or wet clumps; break these up, adding water to dry material or dry browns to a soggy mix. Then turn with a fork.",
+              "left": 72.16510416666667,
+              "right": 121.83235677083331,
+              "top": 96.65146484374999,
+              "bottom": 151.42021484375,
+              "overflow": false
+            },
+            {
+              "tag": "H2",
+              "text": "Judge the compost, not the calendar",
+              "left": 127.33072916666666,
+              "right": 176.99798177083332,
+              "top": 88.21787109374999,
+              "bottom": 101.48837890624999,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "Finished compost is dark, crumbly and earthy, with little recognisable soft plant material. Pick out remaining coarse stalks and return them to the filling bin. Give slow material more time. A resting bin may spend many months getting ready; the plants will not thank you for impatience.",
+              "left": 127.33072916666666,
+              "right": 176.99798177083332,
+              "top": 103.28671874999999,
+              "bottom": 144.36328124999997,
+              "overflow": false
+            },
+            {
+              "tag": "H2",
+              "text": "Put it back to work",
+              "left": 20.99716796875,
+              "right": 173.00029296875,
+              "top": 158.91536458333331,
+              "bottom": 165.55061848958331,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "Spread mature compost on no-dig beds, or incorporate it when preparing a dug bed. Keep it clear of established soft stems. For a combined sowing and potting-on mix, sieve equal volumes of good mature compost and garden topsoil and mix them thoroughly. Make in batches as needed; the mix does not store well. Try a small batch first: the ingredients vary from garden to garden.",
+              "left": 20.99716796875,
+              "right": 173.00029296875,
+              "top": 167.04716796875,
+              "bottom": 185.1711263020833,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "Keep plastic-coated card and doubtful “compostable” packaging out. Unless you have a suitable system that excludes rodents, send cooked food, meat, fish and dairy to your council’s food-waste collection where available.",
+              "left": 16.999479166666664,
+              "right": 176.99798177083332,
+              "top": 191.6658203125,
+              "bottom": 202.66256510416665,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "John: Compost and Potting Mixtures; Compost Method; Five Things; Winter Composting; Why We Make Compost.",
+              "left": 16.999479166666664,
+              "right": 176.99798177083332,
+              "top": 222.1177083333333,
+              "bottom": 225.20175781249998,
+              "overflow": false
+            },
+            {
+              "tag": "FOOTER",
+              "text": "GROWING TECHNIQUES\n155",
+              "left": 16.999479166666664,
+              "right": 176.99798177083332,
+              "top": 228.76123046874997,
+              "bottom": 231.99824218749998,
+              "overflow": false
+            }
+          ]
+        },
+        {
+          "folio": 160,
+          "id": "sowing",
+          "title": "A small experiment: mixed salad leaves",
+          "textUnchanged": true,
+          "bodyFontPt": 9.45,
+          "sourceGapMm": 6.304524739583333,
+          "footerGapMm": 3.5594726562499996,
+          "panelMm": {
+            "left": 7.999511718749999,
+            "top": 177.39485677083331,
+            "width": 159.99850260416665,
+            "height": 25.718326822916666
+          },
+          "badgeMm": null,
+          "collisions": [],
+          "textBoxes": [
+            {
+              "tag": "P",
+              "text": "GROWING TECHNIQUES - SOWING AND PLANTING",
+              "left": 7.999511718749999,
+              "right": 167.99801432291665,
+              "top": 11.997200520833331,
+              "bottom": 15.3044921875,
+              "overflow": false
+            },
+            {
+              "tag": "H1",
+              "text": "Sowing and planting\nA sound start",
+              "left": 7.999511718749999,
+              "right": 167.99801432291665,
+              "top": 17.80149739583333,
+              "bottom": 29.356347656249998,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "The crop guide gives you the season and method. Your weather and soil decide whether today is a sensible day to begin. In cold or wet weather, delay planting. A head start only helps if the plants keep growing.",
+              "left": 7.999511718749999,
+              "right": 167.99801432291665,
+              "top": 32.353580729166666,
+              "bottom": 47.34801432291666,
+              "overflow": false
+            },
+            {
+              "tag": "IMG",
+              "text": "Three stages: a fine seed drill, seedlings in modules, and a rooted plug being settled into a planting hole.",
+              "left": 7.999511718749999,
+              "right": 167.99801432291665,
+              "top": 49.34479166666666,
+              "bottom": 101.34368489583332,
+              "overflow": false
+            },
+            {
+              "tag": "FIGCAPTION",
+              "text": "Sow directly, or raise plants separately. Harden indoor-raised plants before planting out.",
+              "left": 7.999511718749999,
+              "right": 167.99801432291665,
+              "top": 102.34000651041666,
+              "bottom": 106.22194010416665,
+              "overflow": false
+            },
+            {
+              "tag": "H3",
+              "text": "Direct into the bed",
+              "left": 7.999511718749999,
+              "right": 57.66676432291666,
+              "top": 108.21871744791666,
+              "bottom": 113.99820963541666,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "Prepare a fine, firm surface and remove competing weeds. Make a drill (a shallow groove) at the depth given for the crop; water it first if dry. Sow, cover and firm gently, then keep the seed zone moist. On coarse no-dig compost, use a little sieved compost in the drill and over the seed.",
+              "left": 7.999511718749999,
+              "right": 57.66676432291666,
+              "top": 115.49475911458332,
+              "bottom": 160.80465494791665,
+              "overflow": false
+            },
+            {
+              "tag": "H3",
+              "text": "Start under cover",
+              "left": 63.16513671874999,
+              "right": 112.83238932291665,
+              "top": 108.21871744791666,
+              "bottom": 113.99820963541666,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "Modules are the separate cells in a seed tray. In a greenhouse or on a windowsill, they give early crops a start while outside soil is still cold. Sow at the crop’s depth, label with variety and date, and give the seedlings light and steady moisture. Use modules early in the year; later, a small outdoor nursery bed is often easier than nursing young outdoor crops through a hot greenhouse.",
+              "left": 63.16513671874999,
+              "right": 112.83238932291665,
+              "top": 115.49475911458332,
+              "bottom": 174.39762369791666,
+              "overflow": false
+            },
+            {
+              "tag": "H3",
+              "text": "Plant them out",
+              "left": 118.33076171874998,
+              "right": 167.99801432291665,
+              "top": 108.21871744791666,
+              "bottom": 113.99820963541666,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "Harden indoor-raised plants gradually: put them outside in a sheltered spot by day and return them under cover at night, increasing exposure over two to three weeks. Keep tender crops from frost. Water before lifting, preserve the roots, and plant at the crop’s stated depth and spacing. Firm gently and water in.",
+              "left": 118.33076171874998,
+              "right": 167.99801432291665,
+              "top": 115.49475911458332,
+              "bottom": 165.33564453124998,
+              "overflow": false
+            },
+            {
+              "tag": "H2",
+              "text": "A small experiment: mixed salad leaves",
+              "left": 11.997200520833331,
+              "right": 164.00032552083331,
+              "top": 179.39163411458333,
+              "bottom": 186.02688802083333,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "For an odd corner, try broadcasting mixed salad seed. Choose crops with compatible sowing times, covering depths and picking sizes. Scatter evenly, cover as required and water gently. Thin before the strongest swamp the rest, and keep a separate main sowing of any crop you are relying on.",
+              "left": 11.997200520833331,
+              "right": 164.00032552083331,
+              "top": 187.52343749999997,
+              "bottom": 201.11640624999998,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "A station is one sowing or planting position. Sow little and often where the crop allows it. Check each guide’s method and depth; carrots, lettuces and peas do not start in the same way.",
+              "left": 7.999511718749999,
+              "right": 167.99801432291665,
+              "top": 205.10996093749998,
+              "bottom": 215.81318359374998,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "John: No-dig sowing, module notes and Chuck It Around. Crop JSON; RHS hardening off.",
+              "left": 7.999511718749999,
+              "right": 167.99801432291665,
+              "top": 222.1177083333333,
+              "bottom": 225.20175781249998,
+              "overflow": false
+            },
+            {
+              "tag": "FOOTER",
+              "text": "GROWING TECHNIQUES\n160",
+              "left": 7.999511718749999,
+              "right": 167.99801432291665,
+              "top": 228.76123046874997,
+              "bottom": 231.99824218749998,
+              "overflow": false
+            }
+          ]
+        },
+        {
+          "folio": 165,
+          "id": "greenhouse-no-dig-seasons",
+          "title": "The regular jobs",
+          "textUnchanged": true,
+          "bodyFontPt": 9.45,
+          "sourceGapMm": 5.279264322916666,
+          "footerGapMm": 3.5594726562499996,
+          "panelMm": {
+            "left": 16.999479166666664,
+            "top": 181.3512044270833,
+            "width": 159.99850260416665,
+            "height": 35.48723958333333
+          },
+          "badgeMm": null,
+          "collisions": [],
+          "textBoxes": [
+            {
+              "tag": "P",
+              "text": "GROWING TECHNIQUES - GREENHOUSES",
+              "left": 16.999479166666664,
+              "right": 176.99798177083332,
+              "top": 11.997200520833331,
+              "bottom": 15.3044921875,
+              "overflow": false
+            },
+            {
+              "tag": "H1",
+              "text": "Greenhouses\nNo-dig beds and seasons",
+              "left": 16.999479166666664,
+              "right": 176.99798177083332,
+              "top": 17.80149739583333,
+              "bottom": 29.356347656249998,
+              "overflow": false
+            },
+            {
+              "tag": "H2",
+              "text": "3. No-dig at floor level",
+              "left": 16.999479166666664,
+              "right": 176.99798177083332,
+              "top": 33.35403645833333,
+              "bottom": 39.989290364583326,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "A simpler soil arrangement needs no internal walls. Once the growing space is ready, plan how one crop will make way for the next.",
+              "left": 16.999479166666664,
+              "right": 176.99798177083332,
+              "top": 41.787630208333326,
+              "bottom": 50.84960937499999,
+              "overflow": false
+            },
+            {
+              "tag": "IMG",
+              "text": "A greenhouse supported on a low timber perimeter base, with compost-topped earth borders at floor level, a central woodchip path and no internal bed walls.",
+              "left": 16.999479166666664,
+              "right": 93.99736328124999,
+              "top": 52.84638671875,
+              "bottom": 94.84485677083332,
+              "overflow": false
+            },
+            {
+              "tag": "FIGCAPTION",
+              "text": "Compost on earth, with a woodchip path.",
+              "left": 16.999479166666664,
+              "right": 93.99736328124999,
+              "top": 95.84117838541665,
+              "bottom": 99.72311197916666,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "On suitable, free-draining ground, mark a central path and leave the growing soil on either side. Clear weeds, spread mature compost over the soil and plant into it. Woodchip makes a useful path and keeps your feet off the growing areas.",
+              "left": 99.99596354166665,
+              "right": 176.99798177083332,
+              "top": 54.69433593749999,
+              "bottom": 77.34928385416666,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "Refresh the compost at the surface each year, without digging it in. A low brick or timber base is needed to give a little height for the compost layer; don’t just bank it up against the greenhouse glass.",
+              "left": 99.99596354166665,
+              "right": 176.99798177083332,
+              "top": 79.74707031249999,
+              "bottom": 97.87102864583332,
+              "overflow": false
+            },
+            {
+              "tag": "H2",
+              "text": "Use your greenhouse through the seasons",
+              "left": 20.99716796875,
+              "right": 173.00029296875,
+              "top": 107.71848958333332,
+              "bottom": 114.35374348958332,
+              "overflow": false
+            },
+            {
+              "tag": "H3",
+              "text": "Early crops",
+              "left": 20.99716796875,
+              "right": 73.31852213541666,
+              "top": 116.35052083333332,
+              "bottom": 128.34772135416665,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "Grow early lettuce or spinach while summer plants are small. Seed trays can occupy staging. Use the crop guide’s protected sowing dates for raising plants; harden them off and plant outdoors when the weather and soil suit the crop.",
+              "left": 20.99716796875,
+              "right": 73.31852213541666,
+              "top": 130.04684244791665,
+              "bottom": 166.29475911458331,
+              "overflow": false
+            },
+            {
+              "tag": "H3",
+              "text": "Make room for summer",
+              "left": 78.81689453124999,
+              "right": 123.15940755208332,
+              "top": 116.35052083333332,
+              "bottom": 128.34772135416665,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "Harvest or clear the early crops before they crowd the tomatoes and other summer plants. A little spare ground in spring soon disappears under leaves. Keep access clear for watering and picking.",
+              "left": 78.81689453124999,
+              "right": 123.15940755208332,
+              "top": 130.04684244791665,
+              "bottom": 166.29475911458331,
+              "overflow": false
+            },
+            {
+              "tag": "H3",
+              "text": "Keep autumn growing",
+              "left": 128.65777994791665,
+              "right": 173.00029296875,
+              "top": 116.35052083333332,
+              "bottom": 128.34772135416665,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "Raise suitable autumn lettuces or Oriental leaves before the summer crops finish, within their sowing windows (pages 56–59). Clear spent crops and plant the replacements. Choose varieties for the season; an unheated greenhouse still gets cold at night.",
+              "left": 128.65777994791665,
+              "right": 173.00029296875,
+              "top": 130.04684244791665,
+              "bottom": 175.35673828125,
+              "overflow": false
+            },
+            {
+              "tag": "H2",
+              "text": "The regular jobs",
+              "left": 20.99716796875,
+              "right": 173.00029296875,
+              "top": 184.3484375,
+              "bottom": 190.98369140625,
+              "overflow": false
+            },
+            {
+              "tag": "H3",
+              "text": "Water and air",
+              "left": 20.99716796875,
+              "right": 93.49713541666665,
+              "top": 193.77835286458333,
+              "bottom": 199.25192057291665,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "Check moisture at root level and water the soil, not the leaves. Open doors and vents in warm weather and add shade when needed.",
+              "left": 20.99716796875,
+              "right": 93.49713541666665,
+              "top": 200.24824218749998,
+              "bottom": 213.84121093749997,
+              "overflow": false
+            },
+            {
+              "tag": "H3",
+              "text": "Light and upkeep",
+              "left": 100.49619140624999,
+              "right": 173.00029296875,
+              "top": 193.77835286458333,
+              "bottom": 199.25192057291665,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "Clean the glass before the new season so that more light reaches the plants. Check glazing clips and service the door and opening vents.",
+              "left": 100.49619140624999,
+              "right": 173.00029296875,
+              "top": 200.24824218749998,
+              "bottom": 213.84121093749997,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "John: greenhouse chapter; Winter Composting; May growing/abundance; January repairs. Tomato JSON; RHS.",
+              "left": 16.999479166666664,
+              "right": 176.99798177083332,
+              "top": 222.1177083333333,
+              "bottom": 225.20175781249998,
+              "overflow": false
+            },
+            {
+              "tag": "FOOTER",
+              "text": "GROWING TECHNIQUES\n165",
+              "left": 16.999479166666664,
+              "right": 176.99798177083332,
+              "top": 228.76123046874997,
+              "bottom": 231.99824218749998,
+              "overflow": false
+            }
+          ]
+        }
+      ],
+      "fonts": [
+        {
+          "family": "Lilita",
+          "status": "loaded"
+        },
+        {
+          "family": "Nunito",
+          "status": "loaded"
+        }
+      ],
+      "errors": [],
+      "violations": []
+    },
+    {
+      "variant": "ribbon",
+      "units": "imperial",
+      "html": "docs/publication/top-tip-panels/overlap/ribbon-imperial.html",
+      "pdf": "output/pdf/top-tip-panels/overlap/ribbon-imperial.pdf",
+      "sha256": "86955f400f2d36255ec1a41c726edc29ac42edd3c4939cf65b4327d689e36a92",
+      "checks": [
+        {
+          "folio": 152,
+          "id": "plot-layout",
+          "title": "Keep the middle within reach",
+          "textUnchanged": true,
+          "bodyFontPt": 9.45,
+          "sourceGapMm": 18.04954427083333,
+          "footerGapMm": 3.5594726562499996,
+          "panelMm": {
+            "left": 7.999511718749999,
+            "top": 176.34892578125,
+            "width": 159.99850260416665,
+            "height": 27.719238281249996
+          },
+          "badgeMm": {
+            "left": 142.30383008321124,
+            "top": 174.04796803792317,
+            "width": 27.381565093994137,
+            "height": 9.401622517903645
+          },
+          "collisions": [],
+          "textBoxes": [
+            {
+              "tag": "P",
+              "text": "GROWING TECHNIQUES - BEDS AND PATHS",
+              "left": 7.999511718749999,
+              "right": 167.99801432291665,
+              "top": 11.997200520833331,
+              "bottom": 15.3044921875,
+              "overflow": false
+            },
+            {
+              "tag": "H1",
+              "text": "Beds and paths\nStraight paths and keyholes",
+              "left": 7.999511718749999,
+              "right": 167.99801432291665,
+              "top": 17.80149739583333,
+              "bottom": 37.60804036458333,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "Beds and paths can take several shapes. The useful question is whether you can reach the crops and move around comfortably. These three arrangements can work with digging or no-dig.",
+              "left": 7.999511718749999,
+              "right": 167.99801432291665,
+              "top": 40.605273437499996,
+              "bottom": 50.60156249999999,
+              "overflow": false
+            },
+            {
+              "tag": "IMG",
+              "text": "Four rectangular soil beds with straight through-paths and a path around the outside.",
+              "left": 7.999511718749999,
+              "right": 86.99830729166666,
+              "top": 54.599251302083324,
+              "bottom": 106.59814453124999,
+              "overflow": false
+            },
+            {
+              "tag": "FIGCAPTION",
+              "text": "Straight paths connect across the plot.",
+              "left": 7.999511718749999,
+              "right": 86.99830729166666,
+              "top": 107.59446614583332,
+              "bottom": 111.47639973958333,
+              "overflow": false
+            },
+            {
+              "tag": "H2",
+              "text": "Conventional paths",
+              "left": 92.99690755208333,
+              "right": 167.99801432291665,
+              "top": 60.56477864583333,
+              "bottom": 67.20003255208333,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "Straight paths divide the plot into rectangular beds. They make a straightforward route for carrying tools or pushing a barrow, and regular beds are convenient to cover with nets. Cross-paths save a long walk round, but use growing space. Keep them where they earn their keep, and make each bed narrow enough to tend from its edges.",
+              "left": 92.99690755208333,
+              "right": 167.99801432291665,
+              "top": 68.99837239583333,
+              "bottom": 105.51087239583332,
+              "overflow": false
+            },
+            {
+              "tag": "IMG",
+              "text": "A horseshoe-shaped bed around a circular standing space, reached by a short entrance path, with access around the outside.",
+              "left": 7.999511718749999,
+              "right": 86.99830729166666,
+              "top": 115.47408854166666,
+              "bottom": 167.47298177083331,
+              "overflow": false
+            },
+            {
+              "tag": "FIGCAPTION",
+              "text": "A short path opens into a working space.",
+              "left": 7.999511718749999,
+              "right": 86.99830729166666,
+              "top": 168.46930338541665,
+              "bottom": 172.35123697916666,
+              "overflow": false
+            },
+            {
+              "tag": "H2",
+              "text": "Keyhole beds",
+              "left": 92.99690755208333,
+              "right": 167.99801432291665,
+              "top": 123.72164713541666,
+              "bottom": 130.35690104166665,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "A short entrance opens into a standing space, with the bed wrapped around it. You can reach into the bed from this pocket as well as the outer edge, saving a path across the whole bed. It is useful where space is tight, but curved edges and the narrow entrance need careful setting out. Check your reach before planting.",
+              "left": 92.99690755208333,
+              "right": 167.99801432291665,
+              "top": 132.15524088541665,
+              "bottom": 164.10367838541666,
+              "overflow": false
+            },
+            {
+              "tag": "SPAN",
+              "text": "Top tip",
+              "left": 149.3187604268392,
+              "right": 162.66612078348794,
+              "top": 176.1573677062988,
+              "bottom": 181.3362828572591,
+              "overflow": false
+            },
+            {
+              "tag": "H2",
+              "text": "Keep the middle within reach",
+              "left": 11.997200520833331,
+              "right": 133.002734375,
+              "top": 179.34615885416665,
+              "bottom": 185.98141276041665,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "About 4 ft is a useful starting width for a bed reached from both sides, but your arms decide the final measurement. Make a bed against a wall narrower. You should be able to sow, weed and harvest every part without standing on the growing soil.",
+              "left": 11.997200520833331,
+              "right": 164.00032552083331,
+              "top": 187.47796223958332,
+              "bottom": 201.0709309895833,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "John: Raised Beds. RHS: raised beds. Garden Organic: Making Full Use of Space.",
+              "left": 7.999511718749999,
+              "right": 167.99801432291665,
+              "top": 222.1177083333333,
+              "bottom": 225.20175781249998,
+              "overflow": false
+            },
+            {
+              "tag": "FOOTER",
+              "text": "GROWING TECHNIQUES\n152",
+              "left": 7.999511718749999,
+              "right": 167.99801432291665,
+              "top": 228.76123046874997,
+              "bottom": 231.99824218749998,
+              "overflow": false
+            }
+          ]
+        },
+        {
+          "folio": 153,
+          "id": "plot-layout-branching",
+          "title": "Give the paths a shape that suits the ground…",
+          "textUnchanged": true,
+          "bodyFontPt": 9.45,
+          "sourceGapMm": 5.870442708333333,
+          "footerGapMm": 3.5594726562499996,
+          "panelMm": {
+            "left": 16.999479166666664,
+            "top": 135.36331380208333,
+            "width": 159.99850260416665,
+            "height": 15.122591145833331
+          },
+          "badgeMm": {
+            "left": 151.3037975311279,
+            "top": 133.0623560587565,
+            "width": 27.381565093994137,
+            "height": 9.401622517903645
+          },
+          "collisions": [],
+          "textBoxes": [
+            {
+              "tag": "P",
+              "text": "GROWING TECHNIQUES - BEDS AND PATHS",
+              "left": 16.999479166666664,
+              "right": 176.99798177083332,
+              "top": 11.997200520833331,
+              "bottom": 15.3044921875,
+              "overflow": false
+            },
+            {
+              "tag": "H1",
+              "text": "Beds and paths\nFinger paths and leaf patterns",
+              "left": 16.999479166666664,
+              "right": 176.99798177083332,
+              "top": 17.80149739583333,
+              "bottom": 37.60804036458333,
+              "overflow": false
+            },
+            {
+              "tag": "H2",
+              "text": "Borrowing from nature",
+              "left": 16.999479166666664,
+              "right": 176.99798177083332,
+              "top": 41.60572916666666,
+              "bottom": 48.24098307291666,
+              "overflow": false
+            },
+            {
+              "tag": "IMG",
+              "text": "Two rectangular garden layouts: finger paths enter from one edge; evenly spaced paths branch at right angles from a central spine inside a rectangular bed. Both leave growing soil beyond the path ends.",
+              "left": 16.999479166666664,
+              "right": 176.99798177083332,
+              "top": 50.23776041666666,
+              "bottom": 106.23434244791666,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "Finger paths enter from one side.",
+              "left": 16.999479166666664,
+              "right": 93.49713541666665,
+              "top": 107.23066406249998,
+              "bottom": 111.11259765624999,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "A leaf pattern branches from a central path.",
+              "left": 100.49619140624999,
+              "right": 176.99798177083332,
+              "top": 107.23066406249998,
+              "bottom": 111.11259765624999,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "Finger paths are short paths that stop before the far edge, making a shape like the fingers in a hand. You gain extra growing space this way, but lose access from one edge.",
+              "left": 16.999479166666664,
+              "right": 93.49713541666665,
+              "top": 113.10937499999999,
+              "bottom": 131.365625,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "A plant leaf maximises photosynthesis area with veins spreading out from a central spine. You can mimic this pattern with your paths, to maximise your growing area.",
+              "left": 100.49619140624999,
+              "right": 176.99798177083332,
+              "top": 113.10937499999999,
+              "bottom": 131.365625,
+              "overflow": false
+            },
+            {
+              "tag": "SPAN",
+              "text": "Top tip",
+              "left": 158.31872787475584,
+              "right": 171.66608823140461,
+              "top": 135.17175572713214,
+              "bottom": 140.35067087809244,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "Give the paths a shape that suits the ground, then try it out with pegs and string. A clever drawing is only useful if you can work from it.",
+              "left": 20.99716796875,
+              "right": 142.00270182291666,
+              "top": 138.36054687499998,
+              "bottom": 147.488671875,
+              "overflow": false
+            },
+            {
+              "tag": "H2",
+              "text": "Work with sun and slope",
+              "left": 20.496940104166665,
+              "right": 91.00013020833332,
+              "top": 157.48082682291664,
+              "bottom": 163.5125,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "Where the site allows, run long beds north to south so tall crops share their shade across the day. Existing buildings and drainage may matter more than compass neatness. Watch where rain collects before settling the layout.",
+              "left": 20.496940104166665,
+              "right": 91.00013020833332,
+              "top": 165.31083984375,
+              "bottom": 188.13115234375,
+              "overflow": false
+            },
+            {
+              "tag": "H2",
+              "text": "Try the paths for size",
+              "left": 102.99319661458333,
+              "right": 173.50052083333333,
+              "top": 157.48082682291664,
+              "bottom": 163.5125,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "Peg out the edges, then walk the routes with a loaded barrow. Allow room to park, turn and work beside it. Check with everyone who will use the plot; a path that suits you may be awkward for somebody else.",
+              "left": 102.99319661458333,
+              "right": 173.50052083333333,
+              "top": 165.31083984375,
+              "bottom": 188.13115234375,
+              "overflow": false
+            },
+            {
+              "tag": "H2",
+              "text": "Sides are optional",
+              "left": 20.79046223958333,
+              "right": 176.99798177083332,
+              "top": 195.12607421874998,
+              "bottom": 201.15774739583333,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "Mounded beds need no timber and leave fewer crevices for slugs in a wet garden. Framed beds hold a flatter surface and can raise the working height. Choose what makes the plot easier to use, then prepare the ground using the Cultivation pages.",
+              "left": 20.79046223958333,
+              "right": 176.99798177083332,
+              "top": 202.65429687499997,
+              "bottom": 216.24726562499998,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "John: Raised Beds; Sun, Drainage & Access, 00:03–05:37. Layout ideas, not scale plans.",
+              "left": 16.999479166666664,
+              "right": 176.99798177083332,
+              "top": 222.1177083333333,
+              "bottom": 225.20175781249998,
+              "overflow": false
+            },
+            {
+              "tag": "FOOTER",
+              "text": "GROWING TECHNIQUES\n153",
+              "left": 16.999479166666664,
+              "right": 176.99798177083332,
+              "top": 228.76123046874997,
+              "bottom": 231.99824218749998,
+              "overflow": false
+            }
+          ]
+        },
+        {
+          "folio": 155,
+          "id": "compost-use",
+          "title": "Put it back to work",
+          "textUnchanged": true,
+          "bodyFontPt": 9.45,
+          "sourceGapMm": 19.455143229166666,
+          "footerGapMm": 3.5594726562499996,
+          "panelMm": {
+            "left": 16.999479166666664,
+            "top": 155.41790364583332,
+            "width": 159.99850260416665,
+            "height": 33.25068359375
+          },
+          "badgeMm": {
+            "left": 151.3037975311279,
+            "top": 153.1169459025065,
+            "width": 27.381565093994137,
+            "height": 9.401622517903645
+          },
+          "collisions": [],
+          "textBoxes": [
+            {
+              "tag": "P",
+              "text": "GROWING TECHNIQUES - MAKING AND USING COMPOST",
+              "left": 16.999479166666664,
+              "right": 176.99798177083332,
+              "top": 11.997200520833331,
+              "bottom": 15.3044921875,
+              "overflow": false
+            },
+            {
+              "tag": "H1",
+              "text": "Making compost\nFeed it, leave it, use it",
+              "left": 16.999479166666664,
+              "right": 176.99798177083332,
+              "top": 17.80149739583333,
+              "bottom": 29.356347656249998,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "Good compost making turns suitable garden and kitchen waste into something useful. Vegetable peelings, hedge trimmings and torn plain cardboard all have a place in the bin. Good compost will reward you with an abundance of lush, tasty and, above all, cheap food.",
+              "left": 16.999479166666664,
+              "right": 176.99798177083332,
+              "top": 32.353580729166666,
+              "bottom": 47.34801432291666,
+              "overflow": false
+            },
+            {
+              "tag": "IMG",
+              "text": "Green plant trimmings and torn plain cardboard beside a sieve and a bowl of mature dark compost.",
+              "left": 16.999479166666664,
+              "right": 176.99798177083332,
+              "top": 50.345247395833326,
+              "bottom": 80.34238281249999,
+              "overflow": false
+            },
+            {
+              "tag": "FIGCAPTION",
+              "text": "A mixture going in; dark, crumbly compost coming out. Return coarse pieces to the active bin.",
+              "left": 16.999479166666664,
+              "right": 176.99798177083332,
+              "top": 81.33870442708333,
+              "bottom": 85.22063802083332,
+              "overflow": false
+            },
+            {
+              "tag": "H2",
+              "text": "Mixed ingredients",
+              "left": 16.999479166666664,
+              "right": 66.66673177083332,
+              "top": 88.21787109374999,
+              "bottom": 94.85312499999999,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "A good rule of thumb is “half greens, half browns”. Combine soft green material, such as vegetable peelings and fresh leaves, with browns such as torn plain cardboard and chopped stalks. Mix grass clippings through other material rather than adding a thick wet lump. Compost autumn leaves in a heap on their own; they are slow to rot.",
+              "left": 16.999479166666664,
+              "right": 66.66673177083332,
+              "top": 96.65146484374999,
+              "bottom": 151.42021484375,
+              "overflow": false
+            },
+            {
+              "tag": "H2",
+              "text": "Damp, not soaked",
+              "left": 72.16510416666667,
+              "right": 121.83235677083331,
+              "top": 88.21787109374999,
+              "bottom": 94.85312499999999,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "Dampen dry cardboard and other dry additions as they go in. Close the lid to keep heavy rain out and moisture in, then check below the fresh top layer during dry weather. A large bin kept moist may not need turning. If yours stalls, check for dry corners or wet clumps; break these up, adding water to dry material or dry browns to a soggy mix. Then turn with a fork.",
+              "left": 72.16510416666667,
+              "right": 121.83235677083331,
+              "top": 96.65146484374999,
+              "bottom": 151.42021484375,
+              "overflow": false
+            },
+            {
+              "tag": "H2",
+              "text": "Judge the compost, not the calendar",
+              "left": 127.33072916666666,
+              "right": 176.99798177083332,
+              "top": 88.21787109374999,
+              "bottom": 101.48837890624999,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "Finished compost is dark, crumbly and earthy, with little recognisable soft plant material. Pick out remaining coarse stalks and return them to the filling bin. Give slow material more time. A resting bin may spend many months getting ready; the plants will not thank you for impatience.",
+              "left": 127.33072916666666,
+              "right": 176.99798177083332,
+              "top": 103.28671874999999,
+              "bottom": 144.36328124999997,
+              "overflow": false
+            },
+            {
+              "tag": "SPAN",
+              "text": "Top tip",
+              "left": 158.31872787475584,
+              "right": 171.66608823140461,
+              "top": 155.22631327311197,
+              "bottom": 160.40526072184244,
+              "overflow": false
+            },
+            {
+              "tag": "H2",
+              "text": "Put it back to work",
+              "left": 20.99716796875,
+              "right": 142.00270182291666,
+              "top": 158.91536458333331,
+              "bottom": 165.55061848958331,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "Spread mature compost on no-dig beds, or incorporate it when preparing a dug bed. Keep it clear of established soft stems. For a combined sowing and potting-on mix, sieve equal volumes of good mature compost and garden topsoil and mix them thoroughly. Make in batches as needed; the mix does not store well. Try a small batch first: the ingredients vary from garden to garden.",
+              "left": 20.99716796875,
+              "right": 173.00029296875,
+              "top": 167.04716796875,
+              "bottom": 185.1711263020833,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "Keep plastic-coated card and doubtful “compostable” packaging out. Unless you have a suitable system that excludes rodents, send cooked food, meat, fish and dairy to your council’s food-waste collection where available.",
+              "left": 16.999479166666664,
+              "right": 176.99798177083332,
+              "top": 191.6658203125,
+              "bottom": 202.66256510416665,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "John: Compost and Potting Mixtures; Compost Method; Five Things; Winter Composting; Why We Make Compost.",
+              "left": 16.999479166666664,
+              "right": 176.99798177083332,
+              "top": 222.1177083333333,
+              "bottom": 225.20175781249998,
+              "overflow": false
+            },
+            {
+              "tag": "FOOTER",
+              "text": "GROWING TECHNIQUES\n155",
+              "left": 16.999479166666664,
+              "right": 176.99798177083332,
+              "top": 228.76123046874997,
+              "bottom": 231.99824218749998,
+              "overflow": false
+            }
+          ]
+        },
+        {
+          "folio": 160,
+          "id": "sowing",
+          "title": "A small experiment: mixed salad leaves",
+          "textUnchanged": true,
+          "bodyFontPt": 9.45,
+          "sourceGapMm": 6.304524739583333,
+          "footerGapMm": 3.5594726562499996,
+          "panelMm": {
+            "left": 7.999511718749999,
+            "top": 177.39485677083331,
+            "width": 159.99850260416665,
+            "height": 25.718326822916666
+          },
+          "badgeMm": {
+            "left": 142.30383008321124,
+            "top": 175.0938990275065,
+            "width": 27.381565093994137,
+            "height": 9.401622517903645
+          },
+          "collisions": [],
+          "textBoxes": [
+            {
+              "tag": "P",
+              "text": "GROWING TECHNIQUES - SOWING AND PLANTING",
+              "left": 7.999511718749999,
+              "right": 167.99801432291665,
+              "top": 11.997200520833331,
+              "bottom": 15.3044921875,
+              "overflow": false
+            },
+            {
+              "tag": "H1",
+              "text": "Sowing and planting\nA sound start",
+              "left": 7.999511718749999,
+              "right": 167.99801432291665,
+              "top": 17.80149739583333,
+              "bottom": 29.356347656249998,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "The crop guide gives you the season and method. Your weather and soil decide whether today is a sensible day to begin. In cold or wet weather, delay planting. A head start only helps if the plants keep growing.",
+              "left": 7.999511718749999,
+              "right": 167.99801432291665,
+              "top": 32.353580729166666,
+              "bottom": 47.34801432291666,
+              "overflow": false
+            },
+            {
+              "tag": "IMG",
+              "text": "Three stages: a fine seed drill, seedlings in modules, and a rooted plug being settled into a planting hole.",
+              "left": 7.999511718749999,
+              "right": 167.99801432291665,
+              "top": 49.34479166666666,
+              "bottom": 101.34368489583332,
+              "overflow": false
+            },
+            {
+              "tag": "FIGCAPTION",
+              "text": "Sow directly, or raise plants separately. Harden indoor-raised plants before planting out.",
+              "left": 7.999511718749999,
+              "right": 167.99801432291665,
+              "top": 102.34000651041666,
+              "bottom": 106.22194010416665,
+              "overflow": false
+            },
+            {
+              "tag": "H3",
+              "text": "Direct into the bed",
+              "left": 7.999511718749999,
+              "right": 57.66676432291666,
+              "top": 108.21871744791666,
+              "bottom": 113.99820963541666,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "Prepare a fine, firm surface and remove competing weeds. Make a drill (a shallow groove) at the depth given for the crop; water it first if dry. Sow, cover and firm gently, then keep the seed zone moist. On coarse no-dig compost, use a little sieved compost in the drill and over the seed.",
+              "left": 7.999511718749999,
+              "right": 57.66676432291666,
+              "top": 115.49475911458332,
+              "bottom": 160.80465494791665,
+              "overflow": false
+            },
+            {
+              "tag": "H3",
+              "text": "Start under cover",
+              "left": 63.16513671874999,
+              "right": 112.83238932291665,
+              "top": 108.21871744791666,
+              "bottom": 113.99820963541666,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "Modules are the separate cells in a seed tray. In a greenhouse or on a windowsill, they give early crops a start while outside soil is still cold. Sow at the crop’s depth, label with variety and date, and give the seedlings light and steady moisture. Use modules early in the year; later, a small outdoor nursery bed is often easier than nursing young outdoor crops through a hot greenhouse.",
+              "left": 63.16513671874999,
+              "right": 112.83238932291665,
+              "top": 115.49475911458332,
+              "bottom": 174.39762369791666,
+              "overflow": false
+            },
+            {
+              "tag": "H3",
+              "text": "Plant them out",
+              "left": 118.33076171874998,
+              "right": 167.99801432291665,
+              "top": 108.21871744791666,
+              "bottom": 113.99820963541666,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "Harden indoor-raised plants gradually: put them outside in a sheltered spot by day and return them under cover at night, increasing exposure over two to three weeks. Keep tender crops from frost. Water before lifting, preserve the roots, and plant at the crop’s stated depth and spacing. Firm gently and water in.",
+              "left": 118.33076171874998,
+              "right": 167.99801432291665,
+              "top": 115.49475911458332,
+              "bottom": 165.33564453124998,
+              "overflow": false
+            },
+            {
+              "tag": "SPAN",
+              "text": "Top tip",
+              "left": 149.3187604268392,
+              "right": 162.66612078348794,
+              "top": 177.20326639811196,
+              "bottom": 182.38221384684243,
+              "overflow": false
+            },
+            {
+              "tag": "H2",
+              "text": "A small experiment: mixed salad leaves",
+              "left": 11.997200520833331,
+              "right": 133.002734375,
+              "top": 179.39163411458333,
+              "bottom": 186.02688802083333,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "For an odd corner, try broadcasting mixed salad seed. Choose crops with compatible sowing times, covering depths and picking sizes. Scatter evenly, cover as required and water gently. Thin before the strongest swamp the rest, and keep a separate main sowing of any crop you are relying on.",
+              "left": 11.997200520833331,
+              "right": 164.00032552083331,
+              "top": 187.52343749999997,
+              "bottom": 201.11640624999998,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "A station is one sowing or planting position. Sow little and often where the crop allows it. Check each guide’s method and depth; carrots, lettuces and peas do not start in the same way.",
+              "left": 7.999511718749999,
+              "right": 167.99801432291665,
+              "top": 205.10996093749998,
+              "bottom": 215.81318359374998,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "John: No-dig sowing, module notes and Chuck It Around. Crop JSON; RHS hardening off.",
+              "left": 7.999511718749999,
+              "right": 167.99801432291665,
+              "top": 222.1177083333333,
+              "bottom": 225.20175781249998,
+              "overflow": false
+            },
+            {
+              "tag": "FOOTER",
+              "text": "GROWING TECHNIQUES\n160",
+              "left": 7.999511718749999,
+              "right": 167.99801432291665,
+              "top": 228.76123046874997,
+              "bottom": 231.99824218749998,
+              "overflow": false
+            }
+          ]
+        },
+        {
+          "folio": 165,
+          "id": "greenhouse-no-dig-seasons",
+          "title": "The regular jobs",
+          "textUnchanged": true,
+          "bodyFontPt": 9.45,
+          "sourceGapMm": 5.279264322916666,
+          "footerGapMm": 3.5594726562499996,
+          "panelMm": {
+            "left": 16.999479166666664,
+            "top": 181.3512044270833,
+            "width": 159.99850260416665,
+            "height": 35.48723958333333
+          },
+          "badgeMm": {
+            "left": 151.3037975311279,
+            "top": 179.05031127929686,
+            "width": 27.381565093994137,
+            "height": 9.401493326822916
+          },
+          "collisions": [],
+          "textBoxes": [
+            {
+              "tag": "P",
+              "text": "GROWING TECHNIQUES - GREENHOUSES",
+              "left": 16.999479166666664,
+              "right": 176.99798177083332,
+              "top": 11.997200520833331,
+              "bottom": 15.3044921875,
+              "overflow": false
+            },
+            {
+              "tag": "H1",
+              "text": "Greenhouses\nNo-dig beds and seasons",
+              "left": 16.999479166666664,
+              "right": 176.99798177083332,
+              "top": 17.80149739583333,
+              "bottom": 29.356347656249998,
+              "overflow": false
+            },
+            {
+              "tag": "H2",
+              "text": "3. No-dig at floor level",
+              "left": 16.999479166666664,
+              "right": 176.99798177083332,
+              "top": 33.35403645833333,
+              "bottom": 39.989290364583326,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "A simpler soil arrangement needs no internal walls. Once the growing space is ready, plan how one crop will make way for the next.",
+              "left": 16.999479166666664,
+              "right": 176.99798177083332,
+              "top": 41.787630208333326,
+              "bottom": 50.84960937499999,
+              "overflow": false
+            },
+            {
+              "tag": "IMG",
+              "text": "A greenhouse supported on a low timber perimeter base, with compost-topped earth borders at floor level, a central woodchip path and no internal bed walls.",
+              "left": 16.999479166666664,
+              "right": 93.99736328124999,
+              "top": 52.84638671875,
+              "bottom": 94.84485677083332,
+              "overflow": false
+            },
+            {
+              "tag": "FIGCAPTION",
+              "text": "Compost on earth, with a woodchip path.",
+              "left": 16.999479166666664,
+              "right": 93.99736328124999,
+              "top": 95.84117838541665,
+              "bottom": 99.72311197916666,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "On suitable, free-draining ground, mark a central path and leave the growing soil on either side. Clear weeds, spread mature compost over the soil and plant into it. Woodchip makes a useful path and keeps your feet off the growing areas.",
+              "left": 99.99596354166665,
+              "right": 176.99798177083332,
+              "top": 54.69433593749999,
+              "bottom": 77.34928385416666,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "Refresh the compost at the surface each year, without digging it in. A low brick or timber base is needed to give a little height for the compost layer; don’t just bank it up against the greenhouse glass.",
+              "left": 99.99596354166665,
+              "right": 176.99798177083332,
+              "top": 79.74707031249999,
+              "bottom": 97.87102864583332,
+              "overflow": false
+            },
+            {
+              "tag": "H2",
+              "text": "Use your greenhouse through the seasons",
+              "left": 20.99716796875,
+              "right": 173.00029296875,
+              "top": 107.71848958333332,
+              "bottom": 114.35374348958332,
+              "overflow": false
+            },
+            {
+              "tag": "H3",
+              "text": "Early crops",
+              "left": 20.99716796875,
+              "right": 73.31852213541666,
+              "top": 116.35052083333332,
+              "bottom": 128.34772135416665,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "Grow early lettuce or spinach while summer plants are small. Seed trays can occupy staging. Use the crop guide’s protected sowing dates for raising plants; harden them off and plant outdoors when the weather and soil suit the crop.",
+              "left": 20.99716796875,
+              "right": 73.31852213541666,
+              "top": 130.04684244791665,
+              "bottom": 166.29475911458331,
+              "overflow": false
+            },
+            {
+              "tag": "H3",
+              "text": "Make room for summer",
+              "left": 78.81689453124999,
+              "right": 123.15940755208332,
+              "top": 116.35052083333332,
+              "bottom": 128.34772135416665,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "Harvest or clear the early crops before they crowd the tomatoes and other summer plants. A little spare ground in spring soon disappears under leaves. Keep access clear for watering and picking.",
+              "left": 78.81689453124999,
+              "right": 123.15940755208332,
+              "top": 130.04684244791665,
+              "bottom": 166.29475911458331,
+              "overflow": false
+            },
+            {
+              "tag": "H3",
+              "text": "Keep autumn growing",
+              "left": 128.65777994791665,
+              "right": 173.00029296875,
+              "top": 116.35052083333332,
+              "bottom": 128.34772135416665,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "Raise suitable autumn lettuces or Oriental leaves before the summer crops finish, within their sowing windows (pages 56–59). Clear spent crops and plant the replacements. Choose varieties for the season; an unheated greenhouse still gets cold at night.",
+              "left": 128.65777994791665,
+              "right": 173.00029296875,
+              "top": 130.04684244791665,
+              "bottom": 175.35673828125,
+              "overflow": false
+            },
+            {
+              "tag": "SPAN",
+              "text": "Top tip",
+              "left": 158.31872787475584,
+              "right": 171.66608823140461,
+              "top": 181.15961405436195,
+              "bottom": 186.3386260986328,
+              "overflow": false
+            },
+            {
+              "tag": "H2",
+              "text": "The regular jobs",
+              "left": 20.99716796875,
+              "right": 142.00270182291666,
+              "top": 184.3484375,
+              "bottom": 190.98369140625,
+              "overflow": false
+            },
+            {
+              "tag": "H3",
+              "text": "Water and air",
+              "left": 20.99716796875,
+              "right": 93.49713541666665,
+              "top": 193.77835286458333,
+              "bottom": 199.25192057291665,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "Check moisture at root level and water the soil, not the leaves. Open doors and vents in warm weather and add shade when needed.",
+              "left": 20.99716796875,
+              "right": 93.49713541666665,
+              "top": 200.24824218749998,
+              "bottom": 213.84121093749997,
+              "overflow": false
+            },
+            {
+              "tag": "H3",
+              "text": "Light and upkeep",
+              "left": 100.49619140624999,
+              "right": 173.00029296875,
+              "top": 193.77835286458333,
+              "bottom": 199.25192057291665,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "Clean the glass before the new season so that more light reaches the plants. Check glazing clips and service the door and opening vents.",
+              "left": 100.49619140624999,
+              "right": 173.00029296875,
+              "top": 200.24824218749998,
+              "bottom": 213.84121093749997,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "John: greenhouse chapter; Winter Composting; May growing/abundance; January repairs. Tomato JSON; RHS.",
+              "left": 16.999479166666664,
+              "right": 176.99798177083332,
+              "top": 222.1177083333333,
+              "bottom": 225.20175781249998,
+              "overflow": false
+            },
+            {
+              "tag": "FOOTER",
+              "text": "GROWING TECHNIQUES\n165",
+              "left": 16.999479166666664,
+              "right": 176.99798177083332,
+              "top": 228.76123046874997,
+              "bottom": 231.99824218749998,
+              "overflow": false
+            }
+          ]
+        }
+      ],
+      "fonts": [
+        {
+          "family": "Lilita",
+          "status": "loaded"
+        },
+        {
+          "family": "Nunito",
+          "status": "loaded"
+        }
+      ],
+      "errors": [],
+      "violations": []
+    },
+    {
+      "variant": "baseline",
+      "units": "metric",
+      "html": "docs/publication/top-tip-panels/overlap/baseline-metric.html",
+      "pdf": "output/pdf/top-tip-panels/overlap/baseline-metric.pdf",
+      "sha256": "7e7f367ea51457f65c9f791838d222191e68fe3aa9e47269399ef3fdfdab1358",
+      "checks": [
+        {
+          "folio": 152,
+          "id": "plot-layout",
+          "title": "Keep the middle within reach",
+          "textUnchanged": true,
+          "bodyFontPt": 9.45,
+          "sourceGapMm": 18.04954427083333,
+          "footerGapMm": 3.5594726562499996,
+          "panelMm": {
+            "left": 7.999511718749999,
+            "top": 176.34892578125,
+            "width": 159.99850260416665,
+            "height": 27.719238281249996
+          },
+          "badgeMm": null,
+          "collisions": [],
+          "textBoxes": [
+            {
+              "tag": "P",
+              "text": "GROWING TECHNIQUES - BEDS AND PATHS",
+              "left": 7.999511718749999,
+              "right": 167.99801432291665,
+              "top": 11.997200520833331,
+              "bottom": 15.3044921875,
+              "overflow": false
+            },
+            {
+              "tag": "H1",
+              "text": "Beds and paths\nStraight paths and keyholes",
+              "left": 7.999511718749999,
+              "right": 167.99801432291665,
+              "top": 17.80149739583333,
+              "bottom": 37.60804036458333,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "Beds and paths can take several shapes. The useful question is whether you can reach the crops and move around comfortably. These three arrangements can work with digging or no-dig.",
+              "left": 7.999511718749999,
+              "right": 167.99801432291665,
+              "top": 40.605273437499996,
+              "bottom": 50.60156249999999,
+              "overflow": false
+            },
+            {
+              "tag": "IMG",
+              "text": "Four rectangular soil beds with straight through-paths and a path around the outside.",
+              "left": 7.999511718749999,
+              "right": 86.99830729166666,
+              "top": 54.599251302083324,
+              "bottom": 106.59814453124999,
+              "overflow": false
+            },
+            {
+              "tag": "FIGCAPTION",
+              "text": "Straight paths connect across the plot.",
+              "left": 7.999511718749999,
+              "right": 86.99830729166666,
+              "top": 107.59446614583332,
+              "bottom": 111.47639973958333,
+              "overflow": false
+            },
+            {
+              "tag": "H2",
+              "text": "Conventional paths",
+              "left": 92.99690755208333,
+              "right": 167.99801432291665,
+              "top": 60.56477864583333,
+              "bottom": 67.20003255208333,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "Straight paths divide the plot into rectangular beds. They make a straightforward route for carrying tools or pushing a barrow, and regular beds are convenient to cover with nets. Cross-paths save a long walk round, but use growing space. Keep them where they earn their keep, and make each bed narrow enough to tend from its edges.",
+              "left": 92.99690755208333,
+              "right": 167.99801432291665,
+              "top": 68.99837239583333,
+              "bottom": 105.51087239583332,
+              "overflow": false
+            },
+            {
+              "tag": "IMG",
+              "text": "A horseshoe-shaped bed around a circular standing space, reached by a short entrance path, with access around the outside.",
+              "left": 7.999511718749999,
+              "right": 86.99830729166666,
+              "top": 115.47408854166666,
+              "bottom": 167.47298177083331,
+              "overflow": false
+            },
+            {
+              "tag": "FIGCAPTION",
+              "text": "A short path opens into a working space.",
+              "left": 7.999511718749999,
+              "right": 86.99830729166666,
+              "top": 168.46930338541665,
+              "bottom": 172.35123697916666,
+              "overflow": false
+            },
+            {
+              "tag": "H2",
+              "text": "Keyhole beds",
+              "left": 92.99690755208333,
+              "right": 167.99801432291665,
+              "top": 123.72164713541666,
+              "bottom": 130.35690104166665,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "A short entrance opens into a standing space, with the bed wrapped around it. You can reach into the bed from this pocket as well as the outer edge, saving a path across the whole bed. It is useful where space is tight, but curved edges and the narrow entrance need careful setting out. Check your reach before planting.",
+              "left": 92.99690755208333,
+              "right": 167.99801432291665,
+              "top": 132.15524088541665,
+              "bottom": 164.10367838541666,
+              "overflow": false
+            },
+            {
+              "tag": "H2",
+              "text": "Keep the middle within reach",
+              "left": 11.997200520833331,
+              "right": 164.00032552083331,
+              "top": 179.34615885416665,
+              "bottom": 185.98141276041665,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "About 1.2 m is a useful starting width for a bed reached from both sides, but your arms decide the final measurement. Make a bed against a wall narrower. You should be able to sow, weed and harvest every part without standing on the growing soil.",
+              "left": 11.997200520833331,
+              "right": 164.00032552083331,
+              "top": 187.47796223958332,
+              "bottom": 201.0709309895833,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "John: Raised Beds. RHS: raised beds. Garden Organic: Making Full Use of Space.",
+              "left": 7.999511718749999,
+              "right": 167.99801432291665,
+              "top": 222.1177083333333,
+              "bottom": 225.20175781249998,
+              "overflow": false
+            },
+            {
+              "tag": "FOOTER",
+              "text": "GROWING TECHNIQUES\n152",
+              "left": 7.999511718749999,
+              "right": 167.99801432291665,
+              "top": 228.76123046874997,
+              "bottom": 231.99824218749998,
+              "overflow": false
+            }
+          ]
+        },
+        {
+          "folio": 153,
+          "id": "plot-layout-branching",
+          "title": "Give the paths a shape that suits the ground…",
+          "textUnchanged": true,
+          "bodyFontPt": 9.45,
+          "sourceGapMm": 5.870442708333333,
+          "footerGapMm": 3.5594726562499996,
+          "panelMm": {
+            "left": 16.999479166666664,
+            "top": 135.36331380208333,
+            "width": 159.99850260416665,
+            "height": 15.122591145833331
+          },
+          "badgeMm": null,
+          "collisions": [],
+          "textBoxes": [
+            {
+              "tag": "P",
+              "text": "GROWING TECHNIQUES - BEDS AND PATHS",
+              "left": 16.999479166666664,
+              "right": 176.99798177083332,
+              "top": 11.997200520833331,
+              "bottom": 15.3044921875,
+              "overflow": false
+            },
+            {
+              "tag": "H1",
+              "text": "Beds and paths\nFinger paths and leaf patterns",
+              "left": 16.999479166666664,
+              "right": 176.99798177083332,
+              "top": 17.80149739583333,
+              "bottom": 37.60804036458333,
+              "overflow": false
+            },
+            {
+              "tag": "H2",
+              "text": "Borrowing from nature",
+              "left": 16.999479166666664,
+              "right": 176.99798177083332,
+              "top": 41.60572916666666,
+              "bottom": 48.24098307291666,
+              "overflow": false
+            },
+            {
+              "tag": "IMG",
+              "text": "Two rectangular garden layouts: finger paths enter from one edge; evenly spaced paths branch at right angles from a central spine inside a rectangular bed. Both leave growing soil beyond the path ends.",
+              "left": 16.999479166666664,
+              "right": 176.99798177083332,
+              "top": 50.23776041666666,
+              "bottom": 106.23434244791666,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "Finger paths enter from one side.",
+              "left": 16.999479166666664,
+              "right": 93.49713541666665,
+              "top": 107.23066406249998,
+              "bottom": 111.11259765624999,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "A leaf pattern branches from a central path.",
+              "left": 100.49619140624999,
+              "right": 176.99798177083332,
+              "top": 107.23066406249998,
+              "bottom": 111.11259765624999,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "Finger paths are short paths that stop before the far edge, making a shape like the fingers in a hand. You gain extra growing space this way, but lose access from one edge.",
+              "left": 16.999479166666664,
+              "right": 93.49713541666665,
+              "top": 113.10937499999999,
+              "bottom": 131.365625,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "A plant leaf maximises photosynthesis area with veins spreading out from a central spine. You can mimic this pattern with your paths, to maximise your growing area.",
+              "left": 100.49619140624999,
+              "right": 176.99798177083332,
+              "top": 113.10937499999999,
+              "bottom": 131.365625,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "Give the paths a shape that suits the ground, then try it out with pegs and string. A clever drawing is only useful if you can work from it.",
+              "left": 20.99716796875,
+              "right": 173.00029296875,
+              "top": 138.36054687499998,
+              "bottom": 147.488671875,
+              "overflow": false
+            },
+            {
+              "tag": "H2",
+              "text": "Work with sun and slope",
+              "left": 20.496940104166665,
+              "right": 91.00013020833332,
+              "top": 157.48082682291664,
+              "bottom": 163.5125,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "Where the site allows, run long beds north to south so tall crops share their shade across the day. Existing buildings and drainage may matter more than compass neatness. Watch where rain collects before settling the layout.",
+              "left": 20.496940104166665,
+              "right": 91.00013020833332,
+              "top": 165.31083984375,
+              "bottom": 188.13115234375,
+              "overflow": false
+            },
+            {
+              "tag": "H2",
+              "text": "Try the paths for size",
+              "left": 102.99319661458333,
+              "right": 173.50052083333333,
+              "top": 157.48082682291664,
+              "bottom": 163.5125,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "Peg out the edges, then walk the routes with a loaded barrow. Allow room to park, turn and work beside it. Check with everyone who will use the plot; a path that suits you may be awkward for somebody else.",
+              "left": 102.99319661458333,
+              "right": 173.50052083333333,
+              "top": 165.31083984375,
+              "bottom": 188.13115234375,
+              "overflow": false
+            },
+            {
+              "tag": "H2",
+              "text": "Sides are optional",
+              "left": 20.79046223958333,
+              "right": 176.99798177083332,
+              "top": 195.12607421874998,
+              "bottom": 201.15774739583333,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "Mounded beds need no timber and leave fewer crevices for slugs in a wet garden. Framed beds hold a flatter surface and can raise the working height. Choose what makes the plot easier to use, then prepare the ground using the Cultivation pages.",
+              "left": 20.79046223958333,
+              "right": 176.99798177083332,
+              "top": 202.65429687499997,
+              "bottom": 216.24726562499998,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "John: Raised Beds; Sun, Drainage & Access, 00:03–05:37. Layout ideas, not scale plans.",
+              "left": 16.999479166666664,
+              "right": 176.99798177083332,
+              "top": 222.1177083333333,
+              "bottom": 225.20175781249998,
+              "overflow": false
+            },
+            {
+              "tag": "FOOTER",
+              "text": "GROWING TECHNIQUES\n153",
+              "left": 16.999479166666664,
+              "right": 176.99798177083332,
+              "top": 228.76123046874997,
+              "bottom": 231.99824218749998,
+              "overflow": false
+            }
+          ]
+        },
+        {
+          "folio": 155,
+          "id": "compost-use",
+          "title": "Put it back to work",
+          "textUnchanged": true,
+          "bodyFontPt": 9.45,
+          "sourceGapMm": 19.455143229166666,
+          "footerGapMm": 3.5594726562499996,
+          "panelMm": {
+            "left": 16.999479166666664,
+            "top": 155.41790364583332,
+            "width": 159.99850260416665,
+            "height": 33.25068359375
+          },
+          "badgeMm": null,
+          "collisions": [],
+          "textBoxes": [
+            {
+              "tag": "P",
+              "text": "GROWING TECHNIQUES - MAKING AND USING COMPOST",
+              "left": 16.999479166666664,
+              "right": 176.99798177083332,
+              "top": 11.997200520833331,
+              "bottom": 15.3044921875,
+              "overflow": false
+            },
+            {
+              "tag": "H1",
+              "text": "Making compost\nFeed it, leave it, use it",
+              "left": 16.999479166666664,
+              "right": 176.99798177083332,
+              "top": 17.80149739583333,
+              "bottom": 29.356347656249998,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "Good compost making turns suitable garden and kitchen waste into something useful. Vegetable peelings, hedge trimmings and torn plain cardboard all have a place in the bin. Good compost will reward you with an abundance of lush, tasty and, above all, cheap food.",
+              "left": 16.999479166666664,
+              "right": 176.99798177083332,
+              "top": 32.353580729166666,
+              "bottom": 47.34801432291666,
+              "overflow": false
+            },
+            {
+              "tag": "IMG",
+              "text": "Green plant trimmings and torn plain cardboard beside a sieve and a bowl of mature dark compost.",
+              "left": 16.999479166666664,
+              "right": 176.99798177083332,
+              "top": 50.345247395833326,
+              "bottom": 80.34238281249999,
+              "overflow": false
+            },
+            {
+              "tag": "FIGCAPTION",
+              "text": "A mixture going in; dark, crumbly compost coming out. Return coarse pieces to the active bin.",
+              "left": 16.999479166666664,
+              "right": 176.99798177083332,
+              "top": 81.33870442708333,
+              "bottom": 85.22063802083332,
+              "overflow": false
+            },
+            {
+              "tag": "H2",
+              "text": "Mixed ingredients",
+              "left": 16.999479166666664,
+              "right": 66.66673177083332,
+              "top": 88.21787109374999,
+              "bottom": 94.85312499999999,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "A good rule of thumb is “half greens, half browns”. Combine soft green material, such as vegetable peelings and fresh leaves, with browns such as torn plain cardboard and chopped stalks. Mix grass clippings through other material rather than adding a thick wet lump. Compost autumn leaves in a heap on their own; they are slow to rot.",
+              "left": 16.999479166666664,
+              "right": 66.66673177083332,
+              "top": 96.65146484374999,
+              "bottom": 151.42021484375,
+              "overflow": false
+            },
+            {
+              "tag": "H2",
+              "text": "Damp, not soaked",
+              "left": 72.16510416666667,
+              "right": 121.83235677083331,
+              "top": 88.21787109374999,
+              "bottom": 94.85312499999999,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "Dampen dry cardboard and other dry additions as they go in. Close the lid to keep heavy rain out and moisture in, then check below the fresh top layer during dry weather. A large bin kept moist may not need turning. If yours stalls, check for dry corners or wet clumps; break these up, adding water to dry material or dry browns to a soggy mix. Then turn with a fork.",
+              "left": 72.16510416666667,
+              "right": 121.83235677083331,
+              "top": 96.65146484374999,
+              "bottom": 151.42021484375,
+              "overflow": false
+            },
+            {
+              "tag": "H2",
+              "text": "Judge the compost, not the calendar",
+              "left": 127.33072916666666,
+              "right": 176.99798177083332,
+              "top": 88.21787109374999,
+              "bottom": 101.48837890624999,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "Finished compost is dark, crumbly and earthy, with little recognisable soft plant material. Pick out remaining coarse stalks and return them to the filling bin. Give slow material more time. A resting bin may spend many months getting ready; the plants will not thank you for impatience.",
+              "left": 127.33072916666666,
+              "right": 176.99798177083332,
+              "top": 103.28671874999999,
+              "bottom": 144.36328124999997,
+              "overflow": false
+            },
+            {
+              "tag": "H2",
+              "text": "Put it back to work",
+              "left": 20.99716796875,
+              "right": 173.00029296875,
+              "top": 158.91536458333331,
+              "bottom": 165.55061848958331,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "Spread mature compost on no-dig beds, or incorporate it when preparing a dug bed. Keep it clear of established soft stems. For a combined sowing and potting-on mix, sieve equal volumes of good mature compost and garden topsoil and mix them thoroughly. Make in batches as needed; the mix does not store well. Try a small batch first: the ingredients vary from garden to garden.",
+              "left": 20.99716796875,
+              "right": 173.00029296875,
+              "top": 167.04716796875,
+              "bottom": 185.1711263020833,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "Keep plastic-coated card and doubtful “compostable” packaging out. Unless you have a suitable system that excludes rodents, send cooked food, meat, fish and dairy to your council’s food-waste collection where available.",
+              "left": 16.999479166666664,
+              "right": 176.99798177083332,
+              "top": 191.6658203125,
+              "bottom": 202.66256510416665,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "John: Compost and Potting Mixtures; Compost Method; Five Things; Winter Composting; Why We Make Compost.",
+              "left": 16.999479166666664,
+              "right": 176.99798177083332,
+              "top": 222.1177083333333,
+              "bottom": 225.20175781249998,
+              "overflow": false
+            },
+            {
+              "tag": "FOOTER",
+              "text": "GROWING TECHNIQUES\n155",
+              "left": 16.999479166666664,
+              "right": 176.99798177083332,
+              "top": 228.76123046874997,
+              "bottom": 231.99824218749998,
+              "overflow": false
+            }
+          ]
+        },
+        {
+          "folio": 160,
+          "id": "sowing",
+          "title": "A small experiment: mixed salad leaves",
+          "textUnchanged": true,
+          "bodyFontPt": 9.45,
+          "sourceGapMm": 6.304524739583333,
+          "footerGapMm": 3.5594726562499996,
+          "panelMm": {
+            "left": 7.999511718749999,
+            "top": 177.39485677083331,
+            "width": 159.99850260416665,
+            "height": 25.718326822916666
+          },
+          "badgeMm": null,
+          "collisions": [],
+          "textBoxes": [
+            {
+              "tag": "P",
+              "text": "GROWING TECHNIQUES - SOWING AND PLANTING",
+              "left": 7.999511718749999,
+              "right": 167.99801432291665,
+              "top": 11.997200520833331,
+              "bottom": 15.3044921875,
+              "overflow": false
+            },
+            {
+              "tag": "H1",
+              "text": "Sowing and planting\nA sound start",
+              "left": 7.999511718749999,
+              "right": 167.99801432291665,
+              "top": 17.80149739583333,
+              "bottom": 29.356347656249998,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "The crop guide gives you the season and method. Your weather and soil decide whether today is a sensible day to begin. In cold or wet weather, delay planting. A head start only helps if the plants keep growing.",
+              "left": 7.999511718749999,
+              "right": 167.99801432291665,
+              "top": 32.353580729166666,
+              "bottom": 47.34801432291666,
+              "overflow": false
+            },
+            {
+              "tag": "IMG",
+              "text": "Three stages: a fine seed drill, seedlings in modules, and a rooted plug being settled into a planting hole.",
+              "left": 7.999511718749999,
+              "right": 167.99801432291665,
+              "top": 49.34479166666666,
+              "bottom": 101.34368489583332,
+              "overflow": false
+            },
+            {
+              "tag": "FIGCAPTION",
+              "text": "Sow directly, or raise plants separately. Harden indoor-raised plants before planting out.",
+              "left": 7.999511718749999,
+              "right": 167.99801432291665,
+              "top": 102.34000651041666,
+              "bottom": 106.22194010416665,
+              "overflow": false
+            },
+            {
+              "tag": "H3",
+              "text": "Direct into the bed",
+              "left": 7.999511718749999,
+              "right": 57.66676432291666,
+              "top": 108.21871744791666,
+              "bottom": 113.99820963541666,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "Prepare a fine, firm surface and remove competing weeds. Make a drill (a shallow groove) at the depth given for the crop; water it first if dry. Sow, cover and firm gently, then keep the seed zone moist. On coarse no-dig compost, use a little sieved compost in the drill and over the seed.",
+              "left": 7.999511718749999,
+              "right": 57.66676432291666,
+              "top": 115.49475911458332,
+              "bottom": 160.80465494791665,
+              "overflow": false
+            },
+            {
+              "tag": "H3",
+              "text": "Start under cover",
+              "left": 63.16513671874999,
+              "right": 112.83238932291665,
+              "top": 108.21871744791666,
+              "bottom": 113.99820963541666,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "Modules are the separate cells in a seed tray. In a greenhouse or on a windowsill, they give early crops a start while outside soil is still cold. Sow at the crop’s depth, label with variety and date, and give the seedlings light and steady moisture. Use modules early in the year; later, a small outdoor nursery bed is often easier than nursing young outdoor crops through a hot greenhouse.",
+              "left": 63.16513671874999,
+              "right": 112.83238932291665,
+              "top": 115.49475911458332,
+              "bottom": 174.39762369791666,
+              "overflow": false
+            },
+            {
+              "tag": "H3",
+              "text": "Plant them out",
+              "left": 118.33076171874998,
+              "right": 167.99801432291665,
+              "top": 108.21871744791666,
+              "bottom": 113.99820963541666,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "Harden indoor-raised plants gradually: put them outside in a sheltered spot by day and return them under cover at night, increasing exposure over two to three weeks. Keep tender crops from frost. Water before lifting, preserve the roots, and plant at the crop’s stated depth and spacing. Firm gently and water in.",
+              "left": 118.33076171874998,
+              "right": 167.99801432291665,
+              "top": 115.49475911458332,
+              "bottom": 165.33564453124998,
+              "overflow": false
+            },
+            {
+              "tag": "H2",
+              "text": "A small experiment: mixed salad leaves",
+              "left": 11.997200520833331,
+              "right": 164.00032552083331,
+              "top": 179.39163411458333,
+              "bottom": 186.02688802083333,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "For an odd corner, try broadcasting mixed salad seed. Choose crops with compatible sowing times, covering depths and picking sizes. Scatter evenly, cover as required and water gently. Thin before the strongest swamp the rest, and keep a separate main sowing of any crop you are relying on.",
+              "left": 11.997200520833331,
+              "right": 164.00032552083331,
+              "top": 187.52343749999997,
+              "bottom": 201.11640624999998,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "A station is one sowing or planting position. Sow little and often where the crop allows it. Check each guide’s method and depth; carrots, lettuces and peas do not start in the same way.",
+              "left": 7.999511718749999,
+              "right": 167.99801432291665,
+              "top": 205.10996093749998,
+              "bottom": 215.81318359374998,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "John: No-dig sowing, module notes and Chuck It Around. Crop JSON; RHS hardening off.",
+              "left": 7.999511718749999,
+              "right": 167.99801432291665,
+              "top": 222.1177083333333,
+              "bottom": 225.20175781249998,
+              "overflow": false
+            },
+            {
+              "tag": "FOOTER",
+              "text": "GROWING TECHNIQUES\n160",
+              "left": 7.999511718749999,
+              "right": 167.99801432291665,
+              "top": 228.76123046874997,
+              "bottom": 231.99824218749998,
+              "overflow": false
+            }
+          ]
+        },
+        {
+          "folio": 165,
+          "id": "greenhouse-no-dig-seasons",
+          "title": "The regular jobs",
+          "textUnchanged": true,
+          "bodyFontPt": 9.45,
+          "sourceGapMm": 5.279264322916666,
+          "footerGapMm": 3.5594726562499996,
+          "panelMm": {
+            "left": 16.999479166666664,
+            "top": 181.3512044270833,
+            "width": 159.99850260416665,
+            "height": 35.48723958333333
+          },
+          "badgeMm": null,
+          "collisions": [],
+          "textBoxes": [
+            {
+              "tag": "P",
+              "text": "GROWING TECHNIQUES - GREENHOUSES",
+              "left": 16.999479166666664,
+              "right": 176.99798177083332,
+              "top": 11.997200520833331,
+              "bottom": 15.3044921875,
+              "overflow": false
+            },
+            {
+              "tag": "H1",
+              "text": "Greenhouses\nNo-dig beds and seasons",
+              "left": 16.999479166666664,
+              "right": 176.99798177083332,
+              "top": 17.80149739583333,
+              "bottom": 29.356347656249998,
+              "overflow": false
+            },
+            {
+              "tag": "H2",
+              "text": "3. No-dig at floor level",
+              "left": 16.999479166666664,
+              "right": 176.99798177083332,
+              "top": 33.35403645833333,
+              "bottom": 39.989290364583326,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "A simpler soil arrangement needs no internal walls. Once the growing space is ready, plan how one crop will make way for the next.",
+              "left": 16.999479166666664,
+              "right": 176.99798177083332,
+              "top": 41.787630208333326,
+              "bottom": 50.84960937499999,
+              "overflow": false
+            },
+            {
+              "tag": "IMG",
+              "text": "A greenhouse supported on a low timber perimeter base, with compost-topped earth borders at floor level, a central woodchip path and no internal bed walls.",
+              "left": 16.999479166666664,
+              "right": 93.99736328124999,
+              "top": 52.84638671875,
+              "bottom": 94.84485677083332,
+              "overflow": false
+            },
+            {
+              "tag": "FIGCAPTION",
+              "text": "Compost on earth, with a woodchip path.",
+              "left": 16.999479166666664,
+              "right": 93.99736328124999,
+              "top": 95.84117838541665,
+              "bottom": 99.72311197916666,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "On suitable, free-draining ground, mark a central path and leave the growing soil on either side. Clear weeds, spread mature compost over the soil and plant into it. Woodchip makes a useful path and keeps your feet off the growing areas.",
+              "left": 99.99596354166665,
+              "right": 176.99798177083332,
+              "top": 54.69433593749999,
+              "bottom": 77.34928385416666,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "Refresh the compost at the surface each year, without digging it in. A low brick or timber base is needed to give a little height for the compost layer; don’t just bank it up against the greenhouse glass.",
+              "left": 99.99596354166665,
+              "right": 176.99798177083332,
+              "top": 79.74707031249999,
+              "bottom": 97.87102864583332,
+              "overflow": false
+            },
+            {
+              "tag": "H2",
+              "text": "Use your greenhouse through the seasons",
+              "left": 20.99716796875,
+              "right": 173.00029296875,
+              "top": 107.71848958333332,
+              "bottom": 114.35374348958332,
+              "overflow": false
+            },
+            {
+              "tag": "H3",
+              "text": "Early crops",
+              "left": 20.99716796875,
+              "right": 73.31852213541666,
+              "top": 116.35052083333332,
+              "bottom": 128.34772135416665,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "Grow early lettuce or spinach while summer plants are small. Seed trays can occupy staging. Use the crop guide’s protected sowing dates for raising plants; harden them off and plant outdoors when the weather and soil suit the crop.",
+              "left": 20.99716796875,
+              "right": 73.31852213541666,
+              "top": 130.04684244791665,
+              "bottom": 166.29475911458331,
+              "overflow": false
+            },
+            {
+              "tag": "H3",
+              "text": "Make room for summer",
+              "left": 78.81689453124999,
+              "right": 123.15940755208332,
+              "top": 116.35052083333332,
+              "bottom": 128.34772135416665,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "Harvest or clear the early crops before they crowd the tomatoes and other summer plants. A little spare ground in spring soon disappears under leaves. Keep access clear for watering and picking.",
+              "left": 78.81689453124999,
+              "right": 123.15940755208332,
+              "top": 130.04684244791665,
+              "bottom": 166.29475911458331,
+              "overflow": false
+            },
+            {
+              "tag": "H3",
+              "text": "Keep autumn growing",
+              "left": 128.65777994791665,
+              "right": 173.00029296875,
+              "top": 116.35052083333332,
+              "bottom": 128.34772135416665,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "Raise suitable autumn lettuces or Oriental leaves before the summer crops finish, within their sowing windows (pages 56–59). Clear spent crops and plant the replacements. Choose varieties for the season; an unheated greenhouse still gets cold at night.",
+              "left": 128.65777994791665,
+              "right": 173.00029296875,
+              "top": 130.04684244791665,
+              "bottom": 175.35673828125,
+              "overflow": false
+            },
+            {
+              "tag": "H2",
+              "text": "The regular jobs",
+              "left": 20.99716796875,
+              "right": 173.00029296875,
+              "top": 184.3484375,
+              "bottom": 190.98369140625,
+              "overflow": false
+            },
+            {
+              "tag": "H3",
+              "text": "Water and air",
+              "left": 20.99716796875,
+              "right": 93.49713541666665,
+              "top": 193.77835286458333,
+              "bottom": 199.25192057291665,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "Check moisture at root level and water the soil, not the leaves. Open doors and vents in warm weather and add shade when needed.",
+              "left": 20.99716796875,
+              "right": 93.49713541666665,
+              "top": 200.24824218749998,
+              "bottom": 213.84121093749997,
+              "overflow": false
+            },
+            {
+              "tag": "H3",
+              "text": "Light and upkeep",
+              "left": 100.49619140624999,
+              "right": 173.00029296875,
+              "top": 193.77835286458333,
+              "bottom": 199.25192057291665,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "Clean the glass before the new season so that more light reaches the plants. Check glazing clips and service the door and opening vents.",
+              "left": 100.49619140624999,
+              "right": 173.00029296875,
+              "top": 200.24824218749998,
+              "bottom": 213.84121093749997,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "John: greenhouse chapter; Winter Composting; May growing/abundance; January repairs. Tomato JSON; RHS.",
+              "left": 16.999479166666664,
+              "right": 176.99798177083332,
+              "top": 222.1177083333333,
+              "bottom": 225.20175781249998,
+              "overflow": false
+            },
+            {
+              "tag": "FOOTER",
+              "text": "GROWING TECHNIQUES\n165",
+              "left": 16.999479166666664,
+              "right": 176.99798177083332,
+              "top": 228.76123046874997,
+              "bottom": 231.99824218749998,
+              "overflow": false
+            }
+          ]
+        }
+      ],
+      "fonts": [
+        {
+          "family": "Lilita",
+          "status": "loaded"
+        },
+        {
+          "family": "Nunito",
+          "status": "loaded"
+        }
+      ],
+      "errors": [],
+      "violations": []
+    },
+    {
+      "variant": "ribbon",
+      "units": "metric",
+      "html": "docs/publication/top-tip-panels/overlap/ribbon-metric.html",
+      "pdf": "output/pdf/top-tip-panels/overlap/ribbon-metric.pdf",
+      "sha256": "6127bc352bcdd4899ac3c569fecae04de35c0be0bfe90e23009954c31c152b6f",
+      "checks": [
+        {
+          "folio": 152,
+          "id": "plot-layout",
+          "title": "Keep the middle within reach",
+          "textUnchanged": true,
+          "bodyFontPt": 9.45,
+          "sourceGapMm": 18.04954427083333,
+          "footerGapMm": 3.5594726562499996,
+          "panelMm": {
+            "left": 7.999511718749999,
+            "top": 176.34892578125,
+            "width": 159.99850260416665,
+            "height": 27.719238281249996
+          },
+          "badgeMm": {
+            "left": 142.30383008321124,
+            "top": 174.04796803792317,
+            "width": 27.381565093994137,
+            "height": 9.401622517903645
+          },
+          "collisions": [],
+          "textBoxes": [
+            {
+              "tag": "P",
+              "text": "GROWING TECHNIQUES - BEDS AND PATHS",
+              "left": 7.999511718749999,
+              "right": 167.99801432291665,
+              "top": 11.997200520833331,
+              "bottom": 15.3044921875,
+              "overflow": false
+            },
+            {
+              "tag": "H1",
+              "text": "Beds and paths\nStraight paths and keyholes",
+              "left": 7.999511718749999,
+              "right": 167.99801432291665,
+              "top": 17.80149739583333,
+              "bottom": 37.60804036458333,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "Beds and paths can take several shapes. The useful question is whether you can reach the crops and move around comfortably. These three arrangements can work with digging or no-dig.",
+              "left": 7.999511718749999,
+              "right": 167.99801432291665,
+              "top": 40.605273437499996,
+              "bottom": 50.60156249999999,
+              "overflow": false
+            },
+            {
+              "tag": "IMG",
+              "text": "Four rectangular soil beds with straight through-paths and a path around the outside.",
+              "left": 7.999511718749999,
+              "right": 86.99830729166666,
+              "top": 54.599251302083324,
+              "bottom": 106.59814453124999,
+              "overflow": false
+            },
+            {
+              "tag": "FIGCAPTION",
+              "text": "Straight paths connect across the plot.",
+              "left": 7.999511718749999,
+              "right": 86.99830729166666,
+              "top": 107.59446614583332,
+              "bottom": 111.47639973958333,
+              "overflow": false
+            },
+            {
+              "tag": "H2",
+              "text": "Conventional paths",
+              "left": 92.99690755208333,
+              "right": 167.99801432291665,
+              "top": 60.56477864583333,
+              "bottom": 67.20003255208333,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "Straight paths divide the plot into rectangular beds. They make a straightforward route for carrying tools or pushing a barrow, and regular beds are convenient to cover with nets. Cross-paths save a long walk round, but use growing space. Keep them where they earn their keep, and make each bed narrow enough to tend from its edges.",
+              "left": 92.99690755208333,
+              "right": 167.99801432291665,
+              "top": 68.99837239583333,
+              "bottom": 105.51087239583332,
+              "overflow": false
+            },
+            {
+              "tag": "IMG",
+              "text": "A horseshoe-shaped bed around a circular standing space, reached by a short entrance path, with access around the outside.",
+              "left": 7.999511718749999,
+              "right": 86.99830729166666,
+              "top": 115.47408854166666,
+              "bottom": 167.47298177083331,
+              "overflow": false
+            },
+            {
+              "tag": "FIGCAPTION",
+              "text": "A short path opens into a working space.",
+              "left": 7.999511718749999,
+              "right": 86.99830729166666,
+              "top": 168.46930338541665,
+              "bottom": 172.35123697916666,
+              "overflow": false
+            },
+            {
+              "tag": "H2",
+              "text": "Keyhole beds",
+              "left": 92.99690755208333,
+              "right": 167.99801432291665,
+              "top": 123.72164713541666,
+              "bottom": 130.35690104166665,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "A short entrance opens into a standing space, with the bed wrapped around it. You can reach into the bed from this pocket as well as the outer edge, saving a path across the whole bed. It is useful where space is tight, but curved edges and the narrow entrance need careful setting out. Check your reach before planting.",
+              "left": 92.99690755208333,
+              "right": 167.99801432291665,
+              "top": 132.15524088541665,
+              "bottom": 164.10367838541666,
+              "overflow": false
+            },
+            {
+              "tag": "SPAN",
+              "text": "Top tip",
+              "left": 149.3187604268392,
+              "right": 162.66612078348794,
+              "top": 176.1573677062988,
+              "bottom": 181.3362828572591,
+              "overflow": false
+            },
+            {
+              "tag": "H2",
+              "text": "Keep the middle within reach",
+              "left": 11.997200520833331,
+              "right": 133.002734375,
+              "top": 179.34615885416665,
+              "bottom": 185.98141276041665,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "About 1.2 m is a useful starting width for a bed reached from both sides, but your arms decide the final measurement. Make a bed against a wall narrower. You should be able to sow, weed and harvest every part without standing on the growing soil.",
+              "left": 11.997200520833331,
+              "right": 164.00032552083331,
+              "top": 187.47796223958332,
+              "bottom": 201.0709309895833,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "John: Raised Beds. RHS: raised beds. Garden Organic: Making Full Use of Space.",
+              "left": 7.999511718749999,
+              "right": 167.99801432291665,
+              "top": 222.1177083333333,
+              "bottom": 225.20175781249998,
+              "overflow": false
+            },
+            {
+              "tag": "FOOTER",
+              "text": "GROWING TECHNIQUES\n152",
+              "left": 7.999511718749999,
+              "right": 167.99801432291665,
+              "top": 228.76123046874997,
+              "bottom": 231.99824218749998,
+              "overflow": false
+            }
+          ]
+        },
+        {
+          "folio": 153,
+          "id": "plot-layout-branching",
+          "title": "Give the paths a shape that suits the ground…",
+          "textUnchanged": true,
+          "bodyFontPt": 9.45,
+          "sourceGapMm": 5.870442708333333,
+          "footerGapMm": 3.5594726562499996,
+          "panelMm": {
+            "left": 16.999479166666664,
+            "top": 135.36331380208333,
+            "width": 159.99850260416665,
+            "height": 15.122591145833331
+          },
+          "badgeMm": {
+            "left": 151.3037975311279,
+            "top": 133.0623560587565,
+            "width": 27.381565093994137,
+            "height": 9.401622517903645
+          },
+          "collisions": [],
+          "textBoxes": [
+            {
+              "tag": "P",
+              "text": "GROWING TECHNIQUES - BEDS AND PATHS",
+              "left": 16.999479166666664,
+              "right": 176.99798177083332,
+              "top": 11.997200520833331,
+              "bottom": 15.3044921875,
+              "overflow": false
+            },
+            {
+              "tag": "H1",
+              "text": "Beds and paths\nFinger paths and leaf patterns",
+              "left": 16.999479166666664,
+              "right": 176.99798177083332,
+              "top": 17.80149739583333,
+              "bottom": 37.60804036458333,
+              "overflow": false
+            },
+            {
+              "tag": "H2",
+              "text": "Borrowing from nature",
+              "left": 16.999479166666664,
+              "right": 176.99798177083332,
+              "top": 41.60572916666666,
+              "bottom": 48.24098307291666,
+              "overflow": false
+            },
+            {
+              "tag": "IMG",
+              "text": "Two rectangular garden layouts: finger paths enter from one edge; evenly spaced paths branch at right angles from a central spine inside a rectangular bed. Both leave growing soil beyond the path ends.",
+              "left": 16.999479166666664,
+              "right": 176.99798177083332,
+              "top": 50.23776041666666,
+              "bottom": 106.23434244791666,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "Finger paths enter from one side.",
+              "left": 16.999479166666664,
+              "right": 93.49713541666665,
+              "top": 107.23066406249998,
+              "bottom": 111.11259765624999,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "A leaf pattern branches from a central path.",
+              "left": 100.49619140624999,
+              "right": 176.99798177083332,
+              "top": 107.23066406249998,
+              "bottom": 111.11259765624999,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "Finger paths are short paths that stop before the far edge, making a shape like the fingers in a hand. You gain extra growing space this way, but lose access from one edge.",
+              "left": 16.999479166666664,
+              "right": 93.49713541666665,
+              "top": 113.10937499999999,
+              "bottom": 131.365625,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "A plant leaf maximises photosynthesis area with veins spreading out from a central spine. You can mimic this pattern with your paths, to maximise your growing area.",
+              "left": 100.49619140624999,
+              "right": 176.99798177083332,
+              "top": 113.10937499999999,
+              "bottom": 131.365625,
+              "overflow": false
+            },
+            {
+              "tag": "SPAN",
+              "text": "Top tip",
+              "left": 158.31872787475584,
+              "right": 171.66608823140461,
+              "top": 135.17175572713214,
+              "bottom": 140.35067087809244,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "Give the paths a shape that suits the ground, then try it out with pegs and string. A clever drawing is only useful if you can work from it.",
+              "left": 20.99716796875,
+              "right": 142.00270182291666,
+              "top": 138.36054687499998,
+              "bottom": 147.488671875,
+              "overflow": false
+            },
+            {
+              "tag": "H2",
+              "text": "Work with sun and slope",
+              "left": 20.496940104166665,
+              "right": 91.00013020833332,
+              "top": 157.48082682291664,
+              "bottom": 163.5125,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "Where the site allows, run long beds north to south so tall crops share their shade across the day. Existing buildings and drainage may matter more than compass neatness. Watch where rain collects before settling the layout.",
+              "left": 20.496940104166665,
+              "right": 91.00013020833332,
+              "top": 165.31083984375,
+              "bottom": 188.13115234375,
+              "overflow": false
+            },
+            {
+              "tag": "H2",
+              "text": "Try the paths for size",
+              "left": 102.99319661458333,
+              "right": 173.50052083333333,
+              "top": 157.48082682291664,
+              "bottom": 163.5125,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "Peg out the edges, then walk the routes with a loaded barrow. Allow room to park, turn and work beside it. Check with everyone who will use the plot; a path that suits you may be awkward for somebody else.",
+              "left": 102.99319661458333,
+              "right": 173.50052083333333,
+              "top": 165.31083984375,
+              "bottom": 188.13115234375,
+              "overflow": false
+            },
+            {
+              "tag": "H2",
+              "text": "Sides are optional",
+              "left": 20.79046223958333,
+              "right": 176.99798177083332,
+              "top": 195.12607421874998,
+              "bottom": 201.15774739583333,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "Mounded beds need no timber and leave fewer crevices for slugs in a wet garden. Framed beds hold a flatter surface and can raise the working height. Choose what makes the plot easier to use, then prepare the ground using the Cultivation pages.",
+              "left": 20.79046223958333,
+              "right": 176.99798177083332,
+              "top": 202.65429687499997,
+              "bottom": 216.24726562499998,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "John: Raised Beds; Sun, Drainage & Access, 00:03–05:37. Layout ideas, not scale plans.",
+              "left": 16.999479166666664,
+              "right": 176.99798177083332,
+              "top": 222.1177083333333,
+              "bottom": 225.20175781249998,
+              "overflow": false
+            },
+            {
+              "tag": "FOOTER",
+              "text": "GROWING TECHNIQUES\n153",
+              "left": 16.999479166666664,
+              "right": 176.99798177083332,
+              "top": 228.76123046874997,
+              "bottom": 231.99824218749998,
+              "overflow": false
+            }
+          ]
+        },
+        {
+          "folio": 155,
+          "id": "compost-use",
+          "title": "Put it back to work",
+          "textUnchanged": true,
+          "bodyFontPt": 9.45,
+          "sourceGapMm": 19.455143229166666,
+          "footerGapMm": 3.5594726562499996,
+          "panelMm": {
+            "left": 16.999479166666664,
+            "top": 155.41790364583332,
+            "width": 159.99850260416665,
+            "height": 33.25068359375
+          },
+          "badgeMm": {
+            "left": 151.3037975311279,
+            "top": 153.1169459025065,
+            "width": 27.381565093994137,
+            "height": 9.401622517903645
+          },
+          "collisions": [],
+          "textBoxes": [
+            {
+              "tag": "P",
+              "text": "GROWING TECHNIQUES - MAKING AND USING COMPOST",
+              "left": 16.999479166666664,
+              "right": 176.99798177083332,
+              "top": 11.997200520833331,
+              "bottom": 15.3044921875,
+              "overflow": false
+            },
+            {
+              "tag": "H1",
+              "text": "Making compost\nFeed it, leave it, use it",
+              "left": 16.999479166666664,
+              "right": 176.99798177083332,
+              "top": 17.80149739583333,
+              "bottom": 29.356347656249998,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "Good compost making turns suitable garden and kitchen waste into something useful. Vegetable peelings, hedge trimmings and torn plain cardboard all have a place in the bin. Good compost will reward you with an abundance of lush, tasty and, above all, cheap food.",
+              "left": 16.999479166666664,
+              "right": 176.99798177083332,
+              "top": 32.353580729166666,
+              "bottom": 47.34801432291666,
+              "overflow": false
+            },
+            {
+              "tag": "IMG",
+              "text": "Green plant trimmings and torn plain cardboard beside a sieve and a bowl of mature dark compost.",
+              "left": 16.999479166666664,
+              "right": 176.99798177083332,
+              "top": 50.345247395833326,
+              "bottom": 80.34238281249999,
+              "overflow": false
+            },
+            {
+              "tag": "FIGCAPTION",
+              "text": "A mixture going in; dark, crumbly compost coming out. Return coarse pieces to the active bin.",
+              "left": 16.999479166666664,
+              "right": 176.99798177083332,
+              "top": 81.33870442708333,
+              "bottom": 85.22063802083332,
+              "overflow": false
+            },
+            {
+              "tag": "H2",
+              "text": "Mixed ingredients",
+              "left": 16.999479166666664,
+              "right": 66.66673177083332,
+              "top": 88.21787109374999,
+              "bottom": 94.85312499999999,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "A good rule of thumb is “half greens, half browns”. Combine soft green material, such as vegetable peelings and fresh leaves, with browns such as torn plain cardboard and chopped stalks. Mix grass clippings through other material rather than adding a thick wet lump. Compost autumn leaves in a heap on their own; they are slow to rot.",
+              "left": 16.999479166666664,
+              "right": 66.66673177083332,
+              "top": 96.65146484374999,
+              "bottom": 151.42021484375,
+              "overflow": false
+            },
+            {
+              "tag": "H2",
+              "text": "Damp, not soaked",
+              "left": 72.16510416666667,
+              "right": 121.83235677083331,
+              "top": 88.21787109374999,
+              "bottom": 94.85312499999999,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "Dampen dry cardboard and other dry additions as they go in. Close the lid to keep heavy rain out and moisture in, then check below the fresh top layer during dry weather. A large bin kept moist may not need turning. If yours stalls, check for dry corners or wet clumps; break these up, adding water to dry material or dry browns to a soggy mix. Then turn with a fork.",
+              "left": 72.16510416666667,
+              "right": 121.83235677083331,
+              "top": 96.65146484374999,
+              "bottom": 151.42021484375,
+              "overflow": false
+            },
+            {
+              "tag": "H2",
+              "text": "Judge the compost, not the calendar",
+              "left": 127.33072916666666,
+              "right": 176.99798177083332,
+              "top": 88.21787109374999,
+              "bottom": 101.48837890624999,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "Finished compost is dark, crumbly and earthy, with little recognisable soft plant material. Pick out remaining coarse stalks and return them to the filling bin. Give slow material more time. A resting bin may spend many months getting ready; the plants will not thank you for impatience.",
+              "left": 127.33072916666666,
+              "right": 176.99798177083332,
+              "top": 103.28671874999999,
+              "bottom": 144.36328124999997,
+              "overflow": false
+            },
+            {
+              "tag": "SPAN",
+              "text": "Top tip",
+              "left": 158.31872787475584,
+              "right": 171.66608823140461,
+              "top": 155.22631327311197,
+              "bottom": 160.40526072184244,
+              "overflow": false
+            },
+            {
+              "tag": "H2",
+              "text": "Put it back to work",
+              "left": 20.99716796875,
+              "right": 142.00270182291666,
+              "top": 158.91536458333331,
+              "bottom": 165.55061848958331,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "Spread mature compost on no-dig beds, or incorporate it when preparing a dug bed. Keep it clear of established soft stems. For a combined sowing and potting-on mix, sieve equal volumes of good mature compost and garden topsoil and mix them thoroughly. Make in batches as needed; the mix does not store well. Try a small batch first: the ingredients vary from garden to garden.",
+              "left": 20.99716796875,
+              "right": 173.00029296875,
+              "top": 167.04716796875,
+              "bottom": 185.1711263020833,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "Keep plastic-coated card and doubtful “compostable” packaging out. Unless you have a suitable system that excludes rodents, send cooked food, meat, fish and dairy to your council’s food-waste collection where available.",
+              "left": 16.999479166666664,
+              "right": 176.99798177083332,
+              "top": 191.6658203125,
+              "bottom": 202.66256510416665,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "John: Compost and Potting Mixtures; Compost Method; Five Things; Winter Composting; Why We Make Compost.",
+              "left": 16.999479166666664,
+              "right": 176.99798177083332,
+              "top": 222.1177083333333,
+              "bottom": 225.20175781249998,
+              "overflow": false
+            },
+            {
+              "tag": "FOOTER",
+              "text": "GROWING TECHNIQUES\n155",
+              "left": 16.999479166666664,
+              "right": 176.99798177083332,
+              "top": 228.76123046874997,
+              "bottom": 231.99824218749998,
+              "overflow": false
+            }
+          ]
+        },
+        {
+          "folio": 160,
+          "id": "sowing",
+          "title": "A small experiment: mixed salad leaves",
+          "textUnchanged": true,
+          "bodyFontPt": 9.45,
+          "sourceGapMm": 6.304524739583333,
+          "footerGapMm": 3.5594726562499996,
+          "panelMm": {
+            "left": 7.999511718749999,
+            "top": 177.39485677083331,
+            "width": 159.99850260416665,
+            "height": 25.718326822916666
+          },
+          "badgeMm": {
+            "left": 142.30383008321124,
+            "top": 175.0938990275065,
+            "width": 27.381565093994137,
+            "height": 9.401622517903645
+          },
+          "collisions": [],
+          "textBoxes": [
+            {
+              "tag": "P",
+              "text": "GROWING TECHNIQUES - SOWING AND PLANTING",
+              "left": 7.999511718749999,
+              "right": 167.99801432291665,
+              "top": 11.997200520833331,
+              "bottom": 15.3044921875,
+              "overflow": false
+            },
+            {
+              "tag": "H1",
+              "text": "Sowing and planting\nA sound start",
+              "left": 7.999511718749999,
+              "right": 167.99801432291665,
+              "top": 17.80149739583333,
+              "bottom": 29.356347656249998,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "The crop guide gives you the season and method. Your weather and soil decide whether today is a sensible day to begin. In cold or wet weather, delay planting. A head start only helps if the plants keep growing.",
+              "left": 7.999511718749999,
+              "right": 167.99801432291665,
+              "top": 32.353580729166666,
+              "bottom": 47.34801432291666,
+              "overflow": false
+            },
+            {
+              "tag": "IMG",
+              "text": "Three stages: a fine seed drill, seedlings in modules, and a rooted plug being settled into a planting hole.",
+              "left": 7.999511718749999,
+              "right": 167.99801432291665,
+              "top": 49.34479166666666,
+              "bottom": 101.34368489583332,
+              "overflow": false
+            },
+            {
+              "tag": "FIGCAPTION",
+              "text": "Sow directly, or raise plants separately. Harden indoor-raised plants before planting out.",
+              "left": 7.999511718749999,
+              "right": 167.99801432291665,
+              "top": 102.34000651041666,
+              "bottom": 106.22194010416665,
+              "overflow": false
+            },
+            {
+              "tag": "H3",
+              "text": "Direct into the bed",
+              "left": 7.999511718749999,
+              "right": 57.66676432291666,
+              "top": 108.21871744791666,
+              "bottom": 113.99820963541666,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "Prepare a fine, firm surface and remove competing weeds. Make a drill (a shallow groove) at the depth given for the crop; water it first if dry. Sow, cover and firm gently, then keep the seed zone moist. On coarse no-dig compost, use a little sieved compost in the drill and over the seed.",
+              "left": 7.999511718749999,
+              "right": 57.66676432291666,
+              "top": 115.49475911458332,
+              "bottom": 160.80465494791665,
+              "overflow": false
+            },
+            {
+              "tag": "H3",
+              "text": "Start under cover",
+              "left": 63.16513671874999,
+              "right": 112.83238932291665,
+              "top": 108.21871744791666,
+              "bottom": 113.99820963541666,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "Modules are the separate cells in a seed tray. In a greenhouse or on a windowsill, they give early crops a start while outside soil is still cold. Sow at the crop’s depth, label with variety and date, and give the seedlings light and steady moisture. Use modules early in the year; later, a small outdoor nursery bed is often easier than nursing young outdoor crops through a hot greenhouse.",
+              "left": 63.16513671874999,
+              "right": 112.83238932291665,
+              "top": 115.49475911458332,
+              "bottom": 174.39762369791666,
+              "overflow": false
+            },
+            {
+              "tag": "H3",
+              "text": "Plant them out",
+              "left": 118.33076171874998,
+              "right": 167.99801432291665,
+              "top": 108.21871744791666,
+              "bottom": 113.99820963541666,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "Harden indoor-raised plants gradually: put them outside in a sheltered spot by day and return them under cover at night, increasing exposure over two to three weeks. Keep tender crops from frost. Water before lifting, preserve the roots, and plant at the crop’s stated depth and spacing. Firm gently and water in.",
+              "left": 118.33076171874998,
+              "right": 167.99801432291665,
+              "top": 115.49475911458332,
+              "bottom": 165.33564453124998,
+              "overflow": false
+            },
+            {
+              "tag": "SPAN",
+              "text": "Top tip",
+              "left": 149.3187604268392,
+              "right": 162.66612078348794,
+              "top": 177.20326639811196,
+              "bottom": 182.38221384684243,
+              "overflow": false
+            },
+            {
+              "tag": "H2",
+              "text": "A small experiment: mixed salad leaves",
+              "left": 11.997200520833331,
+              "right": 133.002734375,
+              "top": 179.39163411458333,
+              "bottom": 186.02688802083333,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "For an odd corner, try broadcasting mixed salad seed. Choose crops with compatible sowing times, covering depths and picking sizes. Scatter evenly, cover as required and water gently. Thin before the strongest swamp the rest, and keep a separate main sowing of any crop you are relying on.",
+              "left": 11.997200520833331,
+              "right": 164.00032552083331,
+              "top": 187.52343749999997,
+              "bottom": 201.11640624999998,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "A station is one sowing or planting position. Sow little and often where the crop allows it. Check each guide’s method and depth; carrots, lettuces and peas do not start in the same way.",
+              "left": 7.999511718749999,
+              "right": 167.99801432291665,
+              "top": 205.10996093749998,
+              "bottom": 215.81318359374998,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "John: No-dig sowing, module notes and Chuck It Around. Crop JSON; RHS hardening off.",
+              "left": 7.999511718749999,
+              "right": 167.99801432291665,
+              "top": 222.1177083333333,
+              "bottom": 225.20175781249998,
+              "overflow": false
+            },
+            {
+              "tag": "FOOTER",
+              "text": "GROWING TECHNIQUES\n160",
+              "left": 7.999511718749999,
+              "right": 167.99801432291665,
+              "top": 228.76123046874997,
+              "bottom": 231.99824218749998,
+              "overflow": false
+            }
+          ]
+        },
+        {
+          "folio": 165,
+          "id": "greenhouse-no-dig-seasons",
+          "title": "The regular jobs",
+          "textUnchanged": true,
+          "bodyFontPt": 9.45,
+          "sourceGapMm": 5.279264322916666,
+          "footerGapMm": 3.5594726562499996,
+          "panelMm": {
+            "left": 16.999479166666664,
+            "top": 181.3512044270833,
+            "width": 159.99850260416665,
+            "height": 35.48723958333333
+          },
+          "badgeMm": {
+            "left": 151.3037975311279,
+            "top": 179.05031127929686,
+            "width": 27.381565093994137,
+            "height": 9.401493326822916
+          },
+          "collisions": [],
+          "textBoxes": [
+            {
+              "tag": "P",
+              "text": "GROWING TECHNIQUES - GREENHOUSES",
+              "left": 16.999479166666664,
+              "right": 176.99798177083332,
+              "top": 11.997200520833331,
+              "bottom": 15.3044921875,
+              "overflow": false
+            },
+            {
+              "tag": "H1",
+              "text": "Greenhouses\nNo-dig beds and seasons",
+              "left": 16.999479166666664,
+              "right": 176.99798177083332,
+              "top": 17.80149739583333,
+              "bottom": 29.356347656249998,
+              "overflow": false
+            },
+            {
+              "tag": "H2",
+              "text": "3. No-dig at floor level",
+              "left": 16.999479166666664,
+              "right": 176.99798177083332,
+              "top": 33.35403645833333,
+              "bottom": 39.989290364583326,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "A simpler soil arrangement needs no internal walls. Once the growing space is ready, plan how one crop will make way for the next.",
+              "left": 16.999479166666664,
+              "right": 176.99798177083332,
+              "top": 41.787630208333326,
+              "bottom": 50.84960937499999,
+              "overflow": false
+            },
+            {
+              "tag": "IMG",
+              "text": "A greenhouse supported on a low timber perimeter base, with compost-topped earth borders at floor level, a central woodchip path and no internal bed walls.",
+              "left": 16.999479166666664,
+              "right": 93.99736328124999,
+              "top": 52.84638671875,
+              "bottom": 94.84485677083332,
+              "overflow": false
+            },
+            {
+              "tag": "FIGCAPTION",
+              "text": "Compost on earth, with a woodchip path.",
+              "left": 16.999479166666664,
+              "right": 93.99736328124999,
+              "top": 95.84117838541665,
+              "bottom": 99.72311197916666,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "On suitable, free-draining ground, mark a central path and leave the growing soil on either side. Clear weeds, spread mature compost over the soil and plant into it. Woodchip makes a useful path and keeps your feet off the growing areas.",
+              "left": 99.99596354166665,
+              "right": 176.99798177083332,
+              "top": 54.69433593749999,
+              "bottom": 77.34928385416666,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "Refresh the compost at the surface each year, without digging it in. A low brick or timber base is needed to give a little height for the compost layer; don’t just bank it up against the greenhouse glass.",
+              "left": 99.99596354166665,
+              "right": 176.99798177083332,
+              "top": 79.74707031249999,
+              "bottom": 97.87102864583332,
+              "overflow": false
+            },
+            {
+              "tag": "H2",
+              "text": "Use your greenhouse through the seasons",
+              "left": 20.99716796875,
+              "right": 173.00029296875,
+              "top": 107.71848958333332,
+              "bottom": 114.35374348958332,
+              "overflow": false
+            },
+            {
+              "tag": "H3",
+              "text": "Early crops",
+              "left": 20.99716796875,
+              "right": 73.31852213541666,
+              "top": 116.35052083333332,
+              "bottom": 128.34772135416665,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "Grow early lettuce or spinach while summer plants are small. Seed trays can occupy staging. Use the crop guide’s protected sowing dates for raising plants; harden them off and plant outdoors when the weather and soil suit the crop.",
+              "left": 20.99716796875,
+              "right": 73.31852213541666,
+              "top": 130.04684244791665,
+              "bottom": 166.29475911458331,
+              "overflow": false
+            },
+            {
+              "tag": "H3",
+              "text": "Make room for summer",
+              "left": 78.81689453124999,
+              "right": 123.15940755208332,
+              "top": 116.35052083333332,
+              "bottom": 128.34772135416665,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "Harvest or clear the early crops before they crowd the tomatoes and other summer plants. A little spare ground in spring soon disappears under leaves. Keep access clear for watering and picking.",
+              "left": 78.81689453124999,
+              "right": 123.15940755208332,
+              "top": 130.04684244791665,
+              "bottom": 166.29475911458331,
+              "overflow": false
+            },
+            {
+              "tag": "H3",
+              "text": "Keep autumn growing",
+              "left": 128.65777994791665,
+              "right": 173.00029296875,
+              "top": 116.35052083333332,
+              "bottom": 128.34772135416665,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "Raise suitable autumn lettuces or Oriental leaves before the summer crops finish, within their sowing windows (pages 56–59). Clear spent crops and plant the replacements. Choose varieties for the season; an unheated greenhouse still gets cold at night.",
+              "left": 128.65777994791665,
+              "right": 173.00029296875,
+              "top": 130.04684244791665,
+              "bottom": 175.35673828125,
+              "overflow": false
+            },
+            {
+              "tag": "SPAN",
+              "text": "Top tip",
+              "left": 158.31872787475584,
+              "right": 171.66608823140461,
+              "top": 181.15961405436195,
+              "bottom": 186.3386260986328,
+              "overflow": false
+            },
+            {
+              "tag": "H2",
+              "text": "The regular jobs",
+              "left": 20.99716796875,
+              "right": 142.00270182291666,
+              "top": 184.3484375,
+              "bottom": 190.98369140625,
+              "overflow": false
+            },
+            {
+              "tag": "H3",
+              "text": "Water and air",
+              "left": 20.99716796875,
+              "right": 93.49713541666665,
+              "top": 193.77835286458333,
+              "bottom": 199.25192057291665,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "Check moisture at root level and water the soil, not the leaves. Open doors and vents in warm weather and add shade when needed.",
+              "left": 20.99716796875,
+              "right": 93.49713541666665,
+              "top": 200.24824218749998,
+              "bottom": 213.84121093749997,
+              "overflow": false
+            },
+            {
+              "tag": "H3",
+              "text": "Light and upkeep",
+              "left": 100.49619140624999,
+              "right": 173.00029296875,
+              "top": 193.77835286458333,
+              "bottom": 199.25192057291665,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "Clean the glass before the new season so that more light reaches the plants. Check glazing clips and service the door and opening vents.",
+              "left": 100.49619140624999,
+              "right": 173.00029296875,
+              "top": 200.24824218749998,
+              "bottom": 213.84121093749997,
+              "overflow": false
+            },
+            {
+              "tag": "P",
+              "text": "John: greenhouse chapter; Winter Composting; May growing/abundance; January repairs. Tomato JSON; RHS.",
+              "left": 16.999479166666664,
+              "right": 176.99798177083332,
+              "top": 222.1177083333333,
+              "bottom": 225.20175781249998,
+              "overflow": false
+            },
+            {
+              "tag": "FOOTER",
+              "text": "GROWING TECHNIQUES\n165",
+              "left": 16.999479166666664,
+              "right": 176.99798177083332,
+              "top": 228.76123046874997,
+              "bottom": 231.99824218749998,
+              "overflow": false
+            }
+          ]
+        }
+      ],
+      "fonts": [
+        {
+          "family": "Lilita",
+          "status": "loaded"
+        },
+        {
+          "family": "Nunito",
+          "status": "loaded"
+        }
+      ],
+      "errors": [],
+      "violations": []
+    }
+  ]
+}

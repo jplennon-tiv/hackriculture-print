@@ -1,4 +1,4 @@
-"""Assemble the approved 18 October order using exact, preserved PDF bodies.
+"""Assemble the current requested order using exact, preserved PDF bodies.
 
 This replaces the legacy full-preview route. No guide or topic is regenerated.
 The current contents plan owns every final folio, including later focused copy proofs.
@@ -21,7 +21,7 @@ write=lambda p,v:(ROOT/p).write_text(json.dumps(v,indent=2,ensure_ascii=False)+'
 relative=lambda p:str(p.relative_to(ROOT))
 base=relative(I/'baseline.pdf');assert sha(base)=='39d437e8571d92aca177c31a2da4e2f371dada19a5f66465e4826678ac747cd6'
 oldmap=j(relative(I/'baseline-PAGE-MAP.json'))
-plan=j('docs/publication/contents-update/ASSEMBLY-PROPOSAL.json');e=plan['editions']['imperial'];assert e['plannedEvenTotal']==170
+plan=j('docs/publication/contents-update/ASSEMBLY-PROPOSAL.json');e=plan['editions']['imperial'];total=e['plannedEvenTotal'];index_start=e['index']['startPage'];index_end=e['index']['endPage'];assert total==168 and index_start==164
 section='docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf'
 section_map=j('docs/publication/techniques-sequence/references/approved-2026-10-18/PAGE-MAP.json')
 assert sha(section)=='31f6607ad253ba30eb4d9819c833fbfd4085d2d0253bcbc6296018332a5db1a6'
@@ -35,14 +35,17 @@ inputs.update(nav['inputs'])
 for d in e['documents']:
  if d.get('readerApprovedReplacement'):inputs[d['pdf']]=d['sha256']
 topic_edits={}
+subsection_path='docs/publication/techniques-subsections/MANIFEST.json'
+subsection=j(subsection_path);inputs[subsection_path]=sha(subsection_path);inputs.update(subsection['inputs'])
+subproof=next(r for r in subsection['results'] if r['units']=='imperial')
+inputs[subproof['pdf']]=subproof['sha256']
+for i,r in enumerate(subproof['pages']):
+ topic_edits[r['folio']]={'folio':r['folio'],'label':r['label'],'kind':'technique','source':subproof['pdf'],'sourcePage':i+1}
+assert sorted(topic_edits)==list(range(146,index_start))
 for d in e['additions']:
- if d.get('finalCopyEdit'):
-  manifest=j(d['finalCopyEdit']);inputs[d['finalCopyEdit']]=sha(d['finalCopyEdit']);inputs.update(manifest['inputs'])
-  edit=next(x for x in manifest['edits'] if x['source']==d['source'])
-  proof=next(x for x in edit['proofs'] if x['units']=='imperial')
-  assert edit['folio']==d['startPage'] and proof['pdf']==d['pdf'] and proof['sha256']==d['sha256']
-  inputs[d['pdf']]=d['sha256'];inputs[proof['html']]=proof['htmlSha256']
-  for i in range(d['physicalPages']):topic_edits[d['startPage']+i]=(d['pdf'],d['sourcePage']+i)
+ if d['source']=='technique:why-grow':continue
+ entry=next(x for x in subsection['entries'] if x['source']==d['source'])
+ assert entry['folio']==d['startPage'] and d['pdf']==subproof['pdf'] and d['sha256']==subproof['sha256']
 canonical={p:h for p,h in nav['inputs'].items() if p.startswith('../hackriculture-data/vegetables/') or p.startswith('../hackriculture-data/troubles/')}
 assert len(canonical)==58
 for p,h in inputs.items():assert sha(p)==h,p
@@ -58,17 +61,17 @@ for d in e['documents']:
  if d.get('readerApprovedReplacement'):
   for i in range(d['physicalPages']):replacements[d['startPage']+i]=(d['pdf'],i+1)
 specs=[dict(oldmap[0],source=base,sourcePage=1),dict(oldmap[1],source=base,sourcePage=2)]
-for f in range(1,171):
+for f in range(1,total+1):
  if f<=144:
   r=dict(oldmap[f+1],source=base,sourcePage=f+2)
   if f in replacements:r.update(source=replacements[f][0],sourcePage=replacements[f][1])
   if f==9:r.update(source=key['pdf'],sourcePage=1)
   if f in [4,5]:r.update(source=toc['pdf'],sourcePage=f-3)
- elif f<=165:
-  s=section_map[f-145];r={'folio':f,'label':s['label'],'kind':s['kind'],'source':section,'sourcePage':f-144}
- elif f<=169:r={'folio':f,'label':'Index'+(' — continued' if f>166 else ''),'kind':'index','source':idx['pdf']['path'],'sourcePage':f-165}
+ elif f==145:
+  s=section_map[0];r={'folio':f,'label':s['label'],'kind':s['kind'],'source':section,'sourcePage':1}
+ elif f in topic_edits:r=topic_edits[f]
+ elif index_start<=f<=index_end:r={'folio':f,'label':'Index'+(' — continued' if f>index_start else ''),'kind':'index','source':idx['pdf']['path'],'sourcePage':f-index_start+1}
  else:r={'folio':f,'label':'Blank — end balancing page','kind':'blank','source':base,'sourcePage':168}
- if f in topic_edits:r.update(source=topic_edits[f][0],sourcePage=topic_edits[f][1])
  specs.append(r)
 specs.extend([dict(oldmap[-2],source=base,sourcePage=169),dict(oldmap[-1],source=base,sourcePage=170)])
 for spec in specs:
@@ -86,15 +89,15 @@ for spec in specs:
  r={k:spec[k] for k in ['folio','label','kind','source','sourcePage']};r['pdfPage']=len(records)+1;records.append(r)
  comparisons.append(dict(r,dx=dx,dy=dy))
  if f and f%30==0:print('Assembled page',f,flush=True)
-assert len(writer.pages)==174
+assert len(writer.pages)==total+4
 links=[]
 def link(f,target,rect,kind):
- assert 1<=target<=170
+ assert 1<=target<=total
  a=writer.add_annotation(f+1,Link(rect=rect,target_page_index=target+1));a['/Dest'][0]=writer.pages[target+1].indirect_reference
  links.append({'folio':f,'target':target,'kind':kind})
 for p in nav['pages']:
  for l in p['links']:link(p['folio'],l['target'],(l['left']*MM,H-l['bottom']*MM,l['right']*MM,H-l['top']*MM),'see-also')
-entry_folios={entry:166+i for i,p in enumerate(idx['dom']) for entry in p['entryIds']}
+entry_folios={entry:index_start+i for i,p in enumerate(idx['dom']) for entry in p['entryIds']}
 for i,p in enumerate(reader(idx['pdf']['path']).pages):
  for ref in p.get('/Annots',[]):
   a=ref.get_object();target=None
@@ -103,7 +106,7 @@ for i,p in enumerate(reader(idx['pdf']['path']).pages):
    if m:target=int(m[1])-2
   elif '/Dest' in a:target=entry_folios.get(str(a['/Dest']).removeprefix('/entry-'))
   assert target is not None,dict(a)
-  link(166+i,target,tuple(a['/Rect']),'index')
+  link(index_start+i,target,tuple(a['/Rect']),'index')
 normal=lambda s:re.sub(r'\s+','',s).replace('\u00ad','')
 for ref in toc['references']:
  matches=[]
@@ -116,7 +119,7 @@ for ref in toc['references']:
  f,b,n=matches[0];link(f,ref['startPage'],(b['left']*MM,H-max(b['bottom'],n['bottom'])*MM,n['right']*MM,H-min(b['top'],n['top'])*MM),'contents')
 # Three explicit cross-references in approved topic bodies; preserve their wording.
 body_refs=[]
-for f,pattern,target in [(147,r'pages 148[–-]149',148),(149,r'pages 40[–-]41',40),(165,r'pages 56[–-]59',56)]:
+for f,pattern,target in [(147,r'pages 148[–-]149',148),(149,r'pages 40[–-]41',40),(163,r'pages 56[–-]59',56)]:
  spec=records[f+1]
  with pdfplumber.open(ROOT/spec['source']) as doc:
   hits=doc.pages[spec['sourcePage']-1].search(pattern);assert len(hits)==1,(f,hits)
@@ -131,10 +134,10 @@ for d in e['documents']:writer.add_outline_item(d['label'],d['startPage']+1,pare
 labels={r['source']:r['label'] for r in toc['references'] if 'source' in r}
 for d in e['additions']:
  if d['source']!='technique:why-grow':writer.add_outline_item(labels[d['source']],d['startPage']+1,parent=parents['opening:techniques'])
-writer.add_outline_item('Index',167);writer.add_outline_item('Back cover — B5',173)
-writer.set_page_label(0,0,prefix='Front cover');writer.set_page_label(1,1,prefix='Inside front cover');writer.set_page_label(2,171,style='/D',start=1);writer.set_page_label(172,172,prefix='Inside back cover');writer.set_page_label(173,173,prefix='Back cover')
+writer.add_outline_item('Index',index_start+1);writer.add_outline_item('Back cover — B5',total+3)
+writer.set_page_label(0,0,prefix='Front cover');writer.set_page_label(1,1,prefix='Inside front cover');writer.set_page_label(2,total+1,style='/D',start=1);writer.set_page_label(total+2,total+2,prefix='Inside back cover');writer.set_page_label(total+3,total+3,prefix='Back cover')
 writer.page_layout='/TwoPageRight';writer.page_mode='/UseOutlines'
-writer.add_metadata({'/Title':'The Vegetable Guru — Complete book preview','/Author':'John Lennon','/Subject':'Approved changes integrated 18 October 2026; 170 interior pages plus four cover leaves. Imperial screen review.'})
+writer.add_metadata({'/Title':'The Vegetable Guru — Complete book preview','/Author':'John Lennon','/Subject':'Author-requested changes integrated 19 October 2026; 168 interior pages plus four cover leaves. Imperial screen review.'})
 writer.write(CANDIDATE);del writer;clones.clear();gc.collect()
 # Verify every reused body against its exact PDF source, including coordinates and type size.
 body_checks=[];footer_checks=[];numeric_body_refs=[];sources={}
@@ -209,16 +212,18 @@ for i,p in enumerate(result.pages):
 assert Counter(actual)==Counter((l['folio'],l['target']) for l in links)
 assert all(d['physicalPages']==2 and d['startPage']%2==0 for d in e['documents'] if d['type']=='vegetable')
 assert [d['startPage'] for d in e['sectionOpeners']]==[9,99,145]
-assert sorted(b['page'] for b in e['extraBlanks'])==[3,6,8,98,150,162,170]
+assert sorted(b['page'] for b in e['extraBlanks'])==[3,6,8,98,168]
 for p,h in inputs.items():assert sha(p)==h,p
 CANDIDATE.replace(OUT)
-receipt={'date':'2026-10-18','status':'Approved changes integrated; actual PDF checks passed','pdf':relative(OUT),'sha256':sha(relative(OUT)),'bytes':OUT.stat().st_size,'units':'imperial','interiorPages':170,'pdfPages':174,'trimMm':[185,240],'folioMapping':'PDF page = interior folio + 2','guidesReexported':0,'guidePagesReused':133,'readerEditedGuidePages':len(replacements),'bodyPagesVerified':len(body_checks),'updatedFootersVerified':len(footer_checks),'contentsReferences':len(toc['references']),'indexEntries':idx['entries'],'indexSeeReferences':idx['crossReferences'],'indexNumericReferencesVerified':numeric,'internalIndexLinks':sum(l['kind']=='index' for l in links),'internalContentsLinks':sum(l['kind']=='contents' for l in links),'bodyReferences':body_refs,'blankFolios':[3,6,8,98,150,162,170],'sourceFilesUnchanged':True,'canonicalGardeningRecordsUnchanged':len(canonical),'navigation':{'internalLinks':sum(l['kind']=='see-also' for l in links),'pagesWithLinks':sum(bool(p['links']) for p in nav['pages']),'pageChecks':footer_checks,'highlights':'None'},'limits':['Screen preview; not a supplier upload.','Full assembled edition is imperial; contents and index references checked in both units.','Publication metadata placeholders retained. Final stock, print-resolution export, preflight, cover wrap and physical proof remain separate work.']}
+receipt={'date':'2026-10-19','status':'Approved changes integrated; actual PDF checks passed','pdf':relative(OUT),'sha256':sha(relative(OUT)),'bytes':OUT.stat().st_size,'units':'imperial','interiorPages':total,'pdfPages':total+4,'trimMm':[185,240],'folioMapping':'PDF page = interior folio + 2','guidesReexported':0,'guidePagesReused':133,'readerEditedGuidePages':len(replacements),'bodyPagesVerified':len(body_checks),'updatedFootersVerified':len(footer_checks),'contentsReferences':len(toc['references']),'indexEntries':idx['entries'],'indexSeeReferences':idx['crossReferences'],'indexNumericReferencesVerified':numeric,'internalIndexLinks':sum(l['kind']=='index' for l in links),'internalContentsLinks':sum(l['kind']=='contents' for l in links),'bodyReferences':body_refs,'blankFolios':[3,6,8,98,168],'sourceFilesUnchanged':True,'canonicalGardeningRecordsUnchanged':len(canonical),'navigation':{'internalLinks':sum(l['kind']=='see-also' for l in links),'pagesWithLinks':sum(bool(p['links']) for p in nav['pages']),'pageChecks':footer_checks,'highlights':'None'},'limits':['Screen preview; not a supplier upload.','Full assembled edition is imperial; contents and index references checked in both units.','Publication metadata placeholders retained. Final stock, print-resolution export, preflight, cover wrap and physical proof remain separate work.']}
 if topic_edits:
- receipt['status']='Approved baseline plus John-requested final copy edits; actual PDF checks passed; revised pages for review'
- receipt['finalCopyEditFolios']=sorted(topic_edits)
+ receipt['status']='Approved baseline plus John-requested subsection grouping and internal blank removal; actual PDF checks passed; revised pages for review'
+ receipt['finalCopyEditFolios']=[146,152,157,158]
+ receipt['subsectionRevisionFolios']=sorted(topic_edits)
+ receipt['subsectionManifest']=subsection_path
 write(relative(D/'CHECKS.json'),receipt);write(relative(D/'PAGE-MAP.json'),records)
 write(relative(I/'INTEGRATION-CHECKS.json'),{'pdfSha256':receipt['sha256'],'inputs':inputs,'bodyChecks':body_checks,'bodyReferencesFound':numeric_body_refs,'fontsEmbedded':list(fonts),'oldFooterTextObjectsRemoved':removed,'allLinks':links,'canonicalRecords':canonical,'priorSourcesPreserved':True})
-write(relative(D/'NAVIGATION-PDF-CHECKS.json'),{'date':'2026-10-18','status':'passed','pdfSha256':receipt['sha256'],'linksByKind':dict(Counter(l['kind'] for l in links)),'actualDestinationPagesMentionChecked':len(mentioned),'cropsWithoutLinks':[d['key'] for d in nav['decisions'] if not d['links']],'minimumBodyToFooterMm':min(p['bodyToFooterMm'] for p in footer_checks),'fontsEmbedded':True,'numericBodyReferences':numeric_body_refs})
-write(relative(D/'SEQUENCE-CHECKS.json'),{'date':'2026-10-18','pdfSha256':receipt['sha256'],'interiorPages':170,'firstLeaves':records[:11],'sectionStartFolios':[9,99,145],'sectionStartSides':['recto']*3,'vegetableFacingPairs':44,'techniqueFacingPairs':[[146,147],[148,149],[152,153],[154,155],[156,157],[158,159],[160,161],[164,165]],'blankFolios':receipt['blankFolios'],'indexFolios':[166,169]})
-write(relative(D/'COMPONENT-CHECKS.json'),{'date':'2026-10-18','status':'Current integration; supersedes earlier component regeneration route','pdfSha256':receipt['sha256'],'integrationReceipt':relative(I/'INTEGRATION-CHECKS.json'),'sourcePlan':'docs/publication/contents-update/ASSEMBLY-PROPOSAL.json','approvedTechniques':'docs/publication/techniques-sequence/APPROVAL-2026-10-18.json','approvedReaderEdits':'docs/publication/reader-edit-pass/APPROVAL-2026-10-16.json','baseline':base,'copyUpdate':relative(I/'BOOK-COPY-UPDATE.json')})
+write(relative(D/'NAVIGATION-PDF-CHECKS.json'),{'date':'2026-10-19','status':'passed','pdfSha256':receipt['sha256'],'linksByKind':dict(Counter(l['kind'] for l in links)),'actualDestinationPagesMentionChecked':len(mentioned),'cropsWithoutLinks':[d['key'] for d in nav['decisions'] if not d['links']],'minimumBodyToFooterMm':min(p['bodyToFooterMm'] for p in footer_checks),'fontsEmbedded':True,'numericBodyReferences':numeric_body_refs})
+write(relative(D/'SEQUENCE-CHECKS.json'),{'date':'2026-10-19','pdfSha256':receipt['sha256'],'interiorPages':total,'firstLeaves':records[:11],'sectionStartFolios':[9,99,145],'sectionStartSides':['recto']*3,'vegetableFacingPairs':44,'techniqueFacingPairs':[[f,f+1] for f in range(146,index_start,2)],'blankFolios':receipt['blankFolios'],'indexFolios':[index_start,index_end]})
+write(relative(D/'COMPONENT-CHECKS.json'),{'date':'2026-10-19','status':'Current integration; supersedes earlier component regeneration route','pdfSha256':receipt['sha256'],'integrationReceipt':relative(I/'INTEGRATION-CHECKS.json'),'sourcePlan':'docs/publication/contents-update/ASSEMBLY-PROPOSAL.json','approvedTechniques':'docs/publication/techniques-sequence/APPROVAL-2026-10-18.json','approvedReaderEdits':'docs/publication/reader-edit-pass/APPROVAL-2026-10-16.json','baseline':base,'copyUpdate':relative(I/'BOOK-COPY-UPDATE.json')})
 print(json.dumps({k:receipt[k] for k in ['pdfPages','interiorPages','bytes','readerEditedGuidePages','contentsReferences','indexEntries','indexNumericReferencesVerified']}))

@@ -1,11 +1,11 @@
 {
   "status": "Current integrated references from approved sources",
-  "sourceRevision": "47979654c8f0cd1324493533185bf05623cff8c368d214659698ee488278bf05",
+  "sourceRevision": "2ca0dc0cb0d52ff2ca61a931dada1ca9f4ed00ca37838728370c4edbfbc118fb",
   "copyPath": "/Users/johnlennon/Documents/web_site/hackriculture-data/book-layout/index.json",
-  "copySha256": "6ae7667ef67da526220ced7ba44455b08bc261f5369cb81e0854585f13e65969",
+  "copySha256": "bd46f866272a7ede4bb8e15c1c0cabbdc684095a0bc018c2064f27a245cba35f",
   "assemblyPlan": {
     "path": "docs/publication/contents-update/ASSEMBLY-PROPOSAL.json",
-    "sha256": "8aad9e34a4f41bc02e215919879b2c2d10946f8365d338fbd66dffe237f99c0d"
+    "sha256": "d8677f7fa8276b1906aa283e9abdb4d4532015fb76d1e581bb31ea6880006204"
   },
   "temporaryTopicReferences": false,
   "identicalEditionReferences": true,
@@ -256,13 +256,9 @@
       "sha256": "ee41c201663e2c5215f170b538a76c7b98b16092c124342f7fd0d6788f8a2f42",
       "pages": 13
     },
-    "output/pdf/final-text-edits/organic-imperial.pdf": {
-      "sha256": "b90bb800bdd5466ac030d17230ce8fd7b54da46ea5c047a44563ca30c751ba42",
-      "pages": 1
-    },
-    "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf": {
-      "sha256": "31f6607ad253ba30eb4d9819c833fbfd4085d2d0253bcbc6296018332a5db1a6",
-      "pages": 21
+    "output/pdf/techniques-subsections/techniques-imperial.pdf": {
+      "sha256": "fe072b70b68703cc80d484f06968e52bd14dbb74a9c67a8a6f30dea0b26546a4",
+      "pages": 18
     },
     "output/pdf/book-preparation/bookvault/metric/vegetable_artichoke_jerusalem.pdf": {
       "sha256": "455de2408cbcd5e68d96cdeb0148f3245bdaa87b960ba3659fdbbecec1021697",
@@ -508,17 +504,9 @@
       "sha256": "89bbc47865e06a36dcae1f22c91a0089aee22068346cae2aa712d37a12c2faf9",
       "pages": 13
     },
-    "output/pdf/final-text-edits/organic-metric.pdf": {
-      "sha256": "71fc916dd7fe6806dfd0d7705be1f88e3df7454d12cf2add1df4fa454d3318b6",
-      "pages": 1
-    },
-    "docs/publication/topic-pages/crop-rotation-planning/references/approved-2026-10-18/crop-rotation-planning-metric.pdf": {
-      "sha256": "c7cba0f3dd0999ee1643fe51b187ff672fe0cc5fabc8fe9c415e54b39023eb01",
-      "pages": 2
-    },
-    "output/pdf/reader-edit-pass/techniques/techniques-metric-clean.pdf": {
-      "sha256": "6acfaf301badc377baa57553b7bfd9680414a9e43e45dc3178a547ebb63082be",
-      "pages": 6
+    "output/pdf/techniques-subsections/techniques-metric.pdf": {
+      "sha256": "14e72cfb5297eef1ca5e7ea345b416f9325865ddb5b3944876d36e2745a6a884",
+      "pages": 18
     }
   },
   "editions": {
@@ -1250,23 +1238,23 @@
           {
             "source": "technique:plot-layout",
             "prefix": "",
-            "folio": 152,
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 8
+            "folio": 151,
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 6
           },
           {
             "source": "technique:plot-layout-branching",
             "prefix": "",
-            "folio": 153,
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 9
+            "folio": 152,
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 7
           }
         ],
         "displayReferences": [
           {
-            "label": "152–153",
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 8
+            "label": "151–152",
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 6
           }
         ]
       },
@@ -1282,16 +1270,16 @@
           {
             "source": "technique:greenhouse-beds",
             "prefix": "",
-            "folio": 164,
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 20
+            "folio": 162,
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 17
           }
         ],
         "displayReferences": [
           {
-            "label": "164",
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 20
+            "label": "162",
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 17
           }
         ]
       },
@@ -2593,16 +2581,16 @@
           {
             "source": "cultivation:no-dig",
             "prefix": "",
-            "folio": 157,
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 13
+            "folio": 156,
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 11
           }
         ],
         "displayReferences": [
           {
-            "label": "157",
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 13
+            "label": "156",
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 11
           }
         ]
       },
@@ -3270,15 +3258,15 @@
             "source": "technique:nutrient-cycles",
             "prefix": "",
             "folio": 147,
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 3
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 2
           }
         ],
         "displayReferences": [
           {
             "label": "147",
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 3
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 2
           }
         ]
       },
@@ -3322,16 +3310,16 @@
           {
             "source": "technique:compost-bins",
             "prefix": "",
-            "folio": 154,
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 10
+            "folio": 153,
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 8
           }
         ],
         "displayReferences": [
           {
-            "label": "154",
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 10
+            "label": "153",
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 8
           }
         ]
       },
@@ -3347,16 +3335,16 @@
           {
             "source": "technique:compost-use",
             "prefix": "",
-            "folio": 155,
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 11
+            "folio": 154,
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 9
           }
         ],
         "displayReferences": [
           {
-            "label": "155",
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 11
+            "label": "154",
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 9
           }
         ]
       },
@@ -3375,23 +3363,23 @@
           {
             "source": "technique:compost-bins",
             "prefix": "",
-            "folio": 154,
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 10
+            "folio": 153,
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 8
           },
           {
             "source": "technique:compost-use",
             "prefix": "",
-            "folio": 155,
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 11
+            "folio": 154,
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 9
           }
         ],
         "displayReferences": [
           {
-            "label": "154–155",
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 10
+            "label": "153–154",
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 8
           }
         ]
       },
@@ -3407,16 +3395,16 @@
           {
             "source": "technique:compost-use",
             "prefix": "",
-            "folio": 155,
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 11
+            "folio": 154,
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 9
           }
         ],
         "displayReferences": [
           {
-            "label": "155",
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 11
+            "label": "154",
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 9
           }
         ]
       },
@@ -3432,16 +3420,16 @@
           {
             "source": "technique:greenhouse-beds",
             "prefix": "",
-            "folio": 164,
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 20
+            "folio": 162,
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 17
           }
         ],
         "displayReferences": [
           {
-            "label": "164",
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 20
+            "label": "162",
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 17
           }
         ]
       },
@@ -3533,22 +3521,22 @@
             "source": "technique:rotation",
             "prefix": "",
             "folio": 148,
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 4
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 3
           },
           {
             "source": "technique:rotation",
             "prefix": "",
             "folio": 149,
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 5
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 4
           }
         ],
         "displayReferences": [
           {
             "label": "148–149",
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 4
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 3
           }
         ]
       },
@@ -3783,16 +3771,16 @@
           {
             "source": "cultivation:overview",
             "prefix": "",
-            "folio": 156,
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 12
+            "folio": 155,
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 10
           }
         ],
         "displayReferences": [
           {
-            "label": "156",
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 12
+            "label": "155",
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 10
           }
         ]
       },
@@ -3931,23 +3919,23 @@
           {
             "source": "cultivation:digging",
             "prefix": "",
-            "folio": 158,
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 14
+            "folio": 157,
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 12
           },
           {
             "source": "cultivation:digging-finish",
             "prefix": "",
-            "folio": 159,
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 15
+            "folio": 158,
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 13
           }
         ],
         "displayReferences": [
           {
-            "label": "158–159",
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 14
+            "label": "157–158",
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 12
           }
         ]
       },
@@ -3956,23 +3944,23 @@
         "term": "Digging, single",
         "refs": [
           {
-            "source": "cultivation:digging"
+            "source": "cultivation:digging-finish"
           }
         ],
         "references": [
           {
-            "source": "cultivation:digging",
+            "source": "cultivation:digging-finish",
             "prefix": "",
             "folio": 158,
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 14
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 13
           }
         ],
         "displayReferences": [
           {
             "label": "158",
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 14
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 13
           }
         ]
       },
@@ -4091,28 +4079,28 @@
           {
             "source": "technique:plot-location",
             "prefix": "",
-            "folio": 151,
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 7
+            "folio": 150,
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 5
           },
           {
             "source": "technique:watering",
             "prefix": "",
-            "folio": 161,
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 17
+            "folio": 160,
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 15
           }
         ],
         "displayReferences": [
           {
-            "label": "151",
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 7
+            "label": "150",
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 5
           },
           {
-            "label": "161",
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 17
+            "label": "160",
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 15
           }
         ]
       },
@@ -4370,16 +4358,16 @@
           {
             "source": "technique:plot-layout-branching",
             "prefix": "",
-            "folio": 153,
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 9
+            "folio": 152,
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 7
           }
         ],
         "displayReferences": [
           {
-            "label": "153",
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 9
+            "label": "152",
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 7
           }
         ]
       },
@@ -4546,15 +4534,15 @@
             "source": "technique:rotation",
             "prefix": "",
             "folio": 148,
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 4
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 3
           },
           {
             "source": "technique:rotation",
             "prefix": "",
             "folio": 149,
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 5
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 4
           }
         ],
         "displayReferences": [
@@ -4575,8 +4563,8 @@
           },
           {
             "label": "148–149",
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 4
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 3
           }
         ]
       },
@@ -5105,16 +5093,16 @@
           {
             "source": "technique:greenhouse-choose",
             "prefix": "",
-            "folio": 163,
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 19
+            "folio": 161,
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 16
           }
         ],
         "displayReferences": [
           {
-            "label": "163",
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 19
+            "label": "161",
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 16
           }
         ]
       },
@@ -5133,23 +5121,23 @@
           {
             "source": "technique:greenhouse-beds",
             "prefix": "",
-            "folio": 164,
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 20
+            "folio": 162,
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 17
           },
           {
             "source": "technique:greenhouse-no-dig-seasons",
             "prefix": "",
-            "folio": 165,
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 21
+            "folio": 163,
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 18
           }
         ],
         "displayReferences": [
           {
-            "label": "164–165",
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 20
+            "label": "162–163",
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 17
           }
         ]
       },
@@ -5165,16 +5153,16 @@
           {
             "source": "technique:greenhouse-no-dig-seasons",
             "prefix": "",
-            "folio": 165,
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 21
+            "folio": 163,
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 18
           }
         ],
         "displayReferences": [
           {
-            "label": "165",
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 21
+            "label": "163",
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 18
           }
         ]
       },
@@ -5419,16 +5407,16 @@
           {
             "source": "technique:sowing",
             "prefix": "",
-            "folio": 160,
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 16
+            "folio": 159,
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 14
           }
         ],
         "displayReferences": [
           {
-            "label": "160",
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 16
+            "label": "159",
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 14
           }
         ]
       },
@@ -5729,16 +5717,16 @@
           {
             "source": "technique:plot-layout",
             "prefix": "",
-            "folio": 152,
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 8
+            "folio": 151,
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 6
           }
         ],
         "displayReferences": [
           {
-            "label": "152",
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 8
+            "label": "151",
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 6
           }
         ]
       },
@@ -5871,16 +5859,16 @@
           {
             "source": "technique:plot-layout-branching",
             "prefix": "",
-            "folio": 153,
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 9
+            "folio": 152,
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 7
           }
         ],
         "displayReferences": [
           {
-            "label": "153",
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 9
+            "label": "152",
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 7
           }
         ]
       },
@@ -6431,15 +6419,15 @@
             "source": "technique:nutrient-cycles",
             "prefix": "",
             "folio": 147,
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 3
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 2
           }
         ],
         "displayReferences": [
           {
             "label": "147",
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 3
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 2
           }
         ]
       },
@@ -6469,16 +6457,16 @@
           {
             "source": "technique:sowing",
             "prefix": "",
-            "folio": 160,
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 16
+            "folio": 159,
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 14
           }
         ],
         "displayReferences": [
           {
-            "label": "160",
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 16
+            "label": "159",
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 14
           }
         ]
       },
@@ -6540,16 +6528,16 @@
           {
             "source": "cultivation:no-dig",
             "prefix": "",
-            "folio": 157,
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 13
+            "folio": 156,
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 11
           }
         ],
         "displayReferences": [
           {
-            "label": "157",
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 13
+            "label": "156",
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 11
           }
         ]
       },
@@ -6626,15 +6614,15 @@
             "source": "technique:nutrient-cycles",
             "prefix": "",
             "folio": 147,
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 3
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 2
           }
         ],
         "displayReferences": [
           {
             "label": "147",
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 3
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 2
           }
         ]
       },
@@ -6650,16 +6638,16 @@
           {
             "source": "technique:greenhouse-no-dig-seasons",
             "prefix": "",
-            "folio": 165,
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 21
+            "folio": 163,
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 18
           }
         ],
         "displayReferences": [
           {
-            "label": "165",
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 21
+            "label": "163",
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 18
           }
         ]
       },
@@ -6675,16 +6663,16 @@
           {
             "source": "cultivation:no-dig",
             "prefix": "",
-            "folio": 157,
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 13
+            "folio": 156,
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 11
           }
         ],
         "displayReferences": [
           {
-            "label": "157",
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 13
+            "label": "156",
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 11
           }
         ]
       },
@@ -6701,15 +6689,15 @@
             "source": "technique:nutrient-cycles",
             "prefix": "",
             "folio": 147,
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 3
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 2
           }
         ],
         "displayReferences": [
           {
             "label": "147",
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 3
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 2
           }
         ]
       },
@@ -6815,14 +6803,14 @@
             "source": "technique:organic",
             "prefix": "",
             "folio": 146,
-            "pdf": "output/pdf/final-text-edits/organic-imperial.pdf",
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 1
           }
         ],
         "displayReferences": [
           {
             "label": "146",
-            "pdf": "output/pdf/final-text-edits/organic-imperial.pdf",
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 1
           }
         ]
@@ -7048,23 +7036,23 @@
           {
             "source": "technique:plot-layout",
             "prefix": "",
-            "folio": 152,
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 8
+            "folio": 151,
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 6
           },
           {
             "source": "technique:plot-layout-branching",
             "prefix": "",
-            "folio": 153,
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 9
+            "folio": 152,
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 7
           }
         ],
         "displayReferences": [
           {
-            "label": "152–153",
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 8
+            "label": "151–152",
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 6
           }
         ]
       },
@@ -7265,15 +7253,15 @@
             "source": "technique:nutrient-cycles",
             "prefix": "",
             "folio": 147,
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 3
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 2
           }
         ],
         "displayReferences": [
           {
             "label": "147",
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 3
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 2
           }
         ]
       },
@@ -7296,16 +7284,16 @@
           {
             "source": "technique:sowing",
             "prefix": "",
-            "folio": 160,
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 16
+            "folio": 159,
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 14
           }
         ],
         "displayReferences": [
           {
-            "label": "160",
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 16
+            "label": "159",
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 14
           }
         ]
       },
@@ -7321,16 +7309,16 @@
           {
             "source": "technique:plot-location",
             "prefix": "",
-            "folio": 151,
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 7
+            "folio": 150,
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 5
           }
         ],
         "displayReferences": [
           {
-            "label": "151",
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 7
+            "label": "150",
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 5
           }
         ]
       },
@@ -7352,30 +7340,30 @@
           {
             "source": "technique:plot-location",
             "prefix": "",
-            "folio": 151,
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 7
+            "folio": 150,
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 5
           },
           {
             "source": "technique:plot-layout",
             "prefix": "",
-            "folio": 152,
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 8
+            "folio": 151,
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 6
           },
           {
             "source": "technique:plot-layout-branching",
             "prefix": "",
-            "folio": 153,
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 9
+            "folio": 152,
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 7
           }
         ],
         "displayReferences": [
           {
-            "label": "151–153",
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 7
+            "label": "150–152",
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 5
           }
         ]
       },
@@ -7420,15 +7408,15 @@
             "source": "technique:nutrient-cycles",
             "prefix": "",
             "folio": 147,
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 3
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 2
           }
         ],
         "displayReferences": [
           {
             "label": "147",
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 3
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 2
           }
         ]
       },
@@ -8098,15 +8086,15 @@
             "source": "technique:nutrient-cycles",
             "prefix": "",
             "folio": 147,
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 3
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 2
           }
         ],
         "displayReferences": [
           {
             "label": "147",
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 3
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 2
           }
         ]
       },
@@ -8150,16 +8138,16 @@
           {
             "source": "technique:sowing",
             "prefix": "",
-            "folio": 160,
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 16
+            "folio": 159,
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 14
           }
         ],
         "displayReferences": [
           {
-            "label": "160",
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 16
+            "label": "159",
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 14
           }
         ]
       },
@@ -8206,28 +8194,28 @@
           {
             "source": "technique:plot-location",
             "prefix": "",
-            "folio": 151,
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 7
+            "folio": 150,
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 5
           },
           {
             "source": "technique:plot-layout-branching",
             "prefix": "",
-            "folio": 153,
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 9
+            "folio": 152,
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 7
           }
         ],
         "displayReferences": [
           {
-            "label": "151",
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 7
+            "label": "150",
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 5
           },
           {
-            "label": "153",
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 9
+            "label": "152",
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 7
           }
         ]
       },
@@ -8278,16 +8266,16 @@
           {
             "source": "technique:plot-layout-branching",
             "prefix": "",
-            "folio": 153,
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 9
+            "folio": 152,
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 7
           }
         ],
         "displayReferences": [
           {
-            "label": "153",
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 9
+            "label": "152",
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 7
           }
         ]
       },
@@ -8467,16 +8455,16 @@
           {
             "source": "cultivation:digging-finish",
             "prefix": "",
-            "folio": 159,
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 15
+            "folio": 158,
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 13
           }
         ],
         "displayReferences": [
           {
-            "label": "159",
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 15
+            "label": "158",
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 13
           }
         ]
       },
@@ -8601,16 +8589,16 @@
           {
             "source": "cultivation:digging",
             "prefix": "",
-            "folio": 158,
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 14
+            "folio": 157,
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 12
           }
         ],
         "displayReferences": [
           {
-            "label": "158",
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 14
+            "label": "157",
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 12
           }
         ]
       },
@@ -9949,16 +9937,16 @@
           {
             "source": "technique:watering",
             "prefix": "",
-            "folio": 161,
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 17
+            "folio": 160,
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 15
           }
         ],
         "displayReferences": [
           {
-            "label": "161",
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 17
+            "label": "160",
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 15
           }
         ]
       },
@@ -9974,16 +9962,16 @@
           {
             "source": "technique:watering",
             "prefix": "",
-            "folio": 161,
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 17
+            "folio": 160,
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 15
           }
         ],
         "displayReferences": [
           {
-            "label": "161",
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 17
+            "label": "160",
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 15
           }
         ]
       },
@@ -10005,40 +9993,40 @@
           {
             "source": "technique:plot-location",
             "prefix": "",
-            "folio": 151,
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 7
+            "folio": 150,
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 5
           },
           {
             "source": "cultivation:no-dig",
             "prefix": "",
-            "folio": 157,
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 13
+            "folio": 156,
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 11
           },
           {
             "source": "cultivation:digging-finish",
             "prefix": "",
-            "folio": 159,
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 15
+            "folio": 158,
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 13
           }
         ],
         "displayReferences": [
           {
-            "label": "151",
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 7
+            "label": "150",
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 5
           },
           {
-            "label": "157",
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
+            "label": "156",
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 11
+          },
+          {
+            "label": "158",
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 13
-          },
-          {
-            "label": "159",
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 15
           }
         ]
       },
@@ -10173,16 +10161,16 @@
           {
             "source": "technique:sowing",
             "prefix": "",
-            "folio": 160,
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 16
+            "folio": 159,
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 14
           }
         ],
         "displayReferences": [
           {
-            "label": "160",
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 16
+            "label": "159",
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 14
           }
         ]
       },
@@ -10359,15 +10347,15 @@
             "source": "technique:nutrient-cycles",
             "prefix": "",
             "folio": 147,
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 3
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 2
           }
         ],
         "displayReferences": [
           {
             "label": "147",
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 3
+            "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+            "page": 2
           }
         ]
       },
@@ -11128,23 +11116,23 @@
           {
             "source": "technique:plot-layout",
             "prefix": "",
-            "folio": 152,
-            "pdf": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/metric.pdf",
-            "page": 4
+            "folio": 151,
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 6
           },
           {
             "source": "technique:plot-layout-branching",
             "prefix": "",
-            "folio": 153,
-            "pdf": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/metric.pdf",
-            "page": 5
+            "folio": 152,
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 7
           }
         ],
         "displayReferences": [
           {
-            "label": "152–153",
-            "pdf": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/metric.pdf",
-            "page": 4
+            "label": "151–152",
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 6
           }
         ]
       },
@@ -11160,16 +11148,16 @@
           {
             "source": "technique:greenhouse-beds",
             "prefix": "",
-            "folio": 164,
-            "pdf": "output/pdf/reader-edit-pass/techniques/techniques-metric-clean.pdf",
-            "page": 5
+            "folio": 162,
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 17
           }
         ],
         "displayReferences": [
           {
-            "label": "164",
-            "pdf": "output/pdf/reader-edit-pass/techniques/techniques-metric-clean.pdf",
-            "page": 5
+            "label": "162",
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 17
           }
         ]
       },
@@ -12471,16 +12459,16 @@
           {
             "source": "cultivation:no-dig",
             "prefix": "",
-            "folio": 157,
-            "pdf": "docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/metric.pdf",
-            "page": 2
+            "folio": 156,
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 11
           }
         ],
         "displayReferences": [
           {
-            "label": "157",
-            "pdf": "docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/metric.pdf",
-            "page": 2
+            "label": "156",
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 11
           }
         ]
       },
@@ -13148,15 +13136,15 @@
             "source": "technique:nutrient-cycles",
             "prefix": "",
             "folio": 147,
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 3
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 2
           }
         ],
         "displayReferences": [
           {
             "label": "147",
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 3
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 2
           }
         ]
       },
@@ -13200,16 +13188,16 @@
           {
             "source": "technique:compost-bins",
             "prefix": "",
-            "folio": 154,
-            "pdf": "output/pdf/reader-edit-pass/techniques/techniques-metric-clean.pdf",
-            "page": 1
+            "folio": 153,
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 8
           }
         ],
         "displayReferences": [
           {
-            "label": "154",
-            "pdf": "output/pdf/reader-edit-pass/techniques/techniques-metric-clean.pdf",
-            "page": 1
+            "label": "153",
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 8
           }
         ]
       },
@@ -13225,16 +13213,16 @@
           {
             "source": "technique:compost-use",
             "prefix": "",
-            "folio": 155,
-            "pdf": "output/pdf/reader-edit-pass/techniques/techniques-metric-clean.pdf",
-            "page": 2
+            "folio": 154,
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 9
           }
         ],
         "displayReferences": [
           {
-            "label": "155",
-            "pdf": "output/pdf/reader-edit-pass/techniques/techniques-metric-clean.pdf",
-            "page": 2
+            "label": "154",
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 9
           }
         ]
       },
@@ -13253,23 +13241,23 @@
           {
             "source": "technique:compost-bins",
             "prefix": "",
-            "folio": 154,
-            "pdf": "output/pdf/reader-edit-pass/techniques/techniques-metric-clean.pdf",
-            "page": 1
+            "folio": 153,
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 8
           },
           {
             "source": "technique:compost-use",
             "prefix": "",
-            "folio": 155,
-            "pdf": "output/pdf/reader-edit-pass/techniques/techniques-metric-clean.pdf",
-            "page": 2
+            "folio": 154,
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 9
           }
         ],
         "displayReferences": [
           {
-            "label": "154–155",
-            "pdf": "output/pdf/reader-edit-pass/techniques/techniques-metric-clean.pdf",
-            "page": 1
+            "label": "153–154",
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 8
           }
         ]
       },
@@ -13285,16 +13273,16 @@
           {
             "source": "technique:compost-use",
             "prefix": "",
-            "folio": 155,
-            "pdf": "output/pdf/reader-edit-pass/techniques/techniques-metric-clean.pdf",
-            "page": 2
+            "folio": 154,
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 9
           }
         ],
         "displayReferences": [
           {
-            "label": "155",
-            "pdf": "output/pdf/reader-edit-pass/techniques/techniques-metric-clean.pdf",
-            "page": 2
+            "label": "154",
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 9
           }
         ]
       },
@@ -13310,16 +13298,16 @@
           {
             "source": "technique:greenhouse-beds",
             "prefix": "",
-            "folio": 164,
-            "pdf": "output/pdf/reader-edit-pass/techniques/techniques-metric-clean.pdf",
-            "page": 5
+            "folio": 162,
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 17
           }
         ],
         "displayReferences": [
           {
-            "label": "164",
-            "pdf": "output/pdf/reader-edit-pass/techniques/techniques-metric-clean.pdf",
-            "page": 5
+            "label": "162",
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 17
           }
         ]
       },
@@ -13411,22 +13399,22 @@
             "source": "technique:rotation",
             "prefix": "",
             "folio": 148,
-            "pdf": "docs/publication/topic-pages/crop-rotation-planning/references/approved-2026-10-18/crop-rotation-planning-metric.pdf",
-            "page": 1
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 3
           },
           {
             "source": "technique:rotation",
             "prefix": "",
             "folio": 149,
-            "pdf": "docs/publication/topic-pages/crop-rotation-planning/references/approved-2026-10-18/crop-rotation-planning-metric.pdf",
-            "page": 2
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 4
           }
         ],
         "displayReferences": [
           {
             "label": "148–149",
-            "pdf": "docs/publication/topic-pages/crop-rotation-planning/references/approved-2026-10-18/crop-rotation-planning-metric.pdf",
-            "page": 1
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 3
           }
         ]
       },
@@ -13661,16 +13649,16 @@
           {
             "source": "cultivation:overview",
             "prefix": "",
-            "folio": 156,
-            "pdf": "docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/metric.pdf",
-            "page": 1
+            "folio": 155,
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 10
           }
         ],
         "displayReferences": [
           {
-            "label": "156",
-            "pdf": "docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/metric.pdf",
-            "page": 1
+            "label": "155",
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 10
           }
         ]
       },
@@ -13809,23 +13797,23 @@
           {
             "source": "cultivation:digging",
             "prefix": "",
-            "folio": 158,
-            "pdf": "docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/metric.pdf",
-            "page": 3
+            "folio": 157,
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 12
           },
           {
             "source": "cultivation:digging-finish",
             "prefix": "",
-            "folio": 159,
-            "pdf": "docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/metric.pdf",
-            "page": 4
+            "folio": 158,
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 13
           }
         ],
         "displayReferences": [
           {
-            "label": "158–159",
-            "pdf": "docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/metric.pdf",
-            "page": 3
+            "label": "157–158",
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 12
           }
         ]
       },
@@ -13834,23 +13822,23 @@
         "term": "Digging, single",
         "refs": [
           {
-            "source": "cultivation:digging"
+            "source": "cultivation:digging-finish"
           }
         ],
         "references": [
           {
-            "source": "cultivation:digging",
+            "source": "cultivation:digging-finish",
             "prefix": "",
             "folio": 158,
-            "pdf": "docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/metric.pdf",
-            "page": 3
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 13
           }
         ],
         "displayReferences": [
           {
             "label": "158",
-            "pdf": "docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/metric.pdf",
-            "page": 3
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 13
           }
         ]
       },
@@ -13969,28 +13957,28 @@
           {
             "source": "technique:plot-location",
             "prefix": "",
-            "folio": 151,
-            "pdf": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/metric.pdf",
-            "page": 3
+            "folio": 150,
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 5
           },
           {
             "source": "technique:watering",
             "prefix": "",
-            "folio": 161,
-            "pdf": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/metric.pdf",
-            "page": 12
+            "folio": 160,
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 15
           }
         ],
         "displayReferences": [
           {
-            "label": "151",
-            "pdf": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/metric.pdf",
-            "page": 3
+            "label": "150",
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 5
           },
           {
-            "label": "161",
-            "pdf": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/metric.pdf",
-            "page": 12
+            "label": "160",
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 15
           }
         ]
       },
@@ -14248,16 +14236,16 @@
           {
             "source": "technique:plot-layout-branching",
             "prefix": "",
-            "folio": 153,
-            "pdf": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/metric.pdf",
-            "page": 5
+            "folio": 152,
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 7
           }
         ],
         "displayReferences": [
           {
-            "label": "153",
-            "pdf": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/metric.pdf",
-            "page": 5
+            "label": "152",
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 7
           }
         ]
       },
@@ -14424,15 +14412,15 @@
             "source": "technique:rotation",
             "prefix": "",
             "folio": 148,
-            "pdf": "docs/publication/topic-pages/crop-rotation-planning/references/approved-2026-10-18/crop-rotation-planning-metric.pdf",
-            "page": 1
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 3
           },
           {
             "source": "technique:rotation",
             "prefix": "",
             "folio": 149,
-            "pdf": "docs/publication/topic-pages/crop-rotation-planning/references/approved-2026-10-18/crop-rotation-planning-metric.pdf",
-            "page": 2
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 4
           }
         ],
         "displayReferences": [
@@ -14453,8 +14441,8 @@
           },
           {
             "label": "148–149",
-            "pdf": "docs/publication/topic-pages/crop-rotation-planning/references/approved-2026-10-18/crop-rotation-planning-metric.pdf",
-            "page": 1
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 3
           }
         ]
       },
@@ -14983,16 +14971,16 @@
           {
             "source": "technique:greenhouse-choose",
             "prefix": "",
-            "folio": 163,
-            "pdf": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/metric.pdf",
-            "page": 6
+            "folio": 161,
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 16
           }
         ],
         "displayReferences": [
           {
-            "label": "163",
-            "pdf": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/metric.pdf",
-            "page": 6
+            "label": "161",
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 16
           }
         ]
       },
@@ -15011,23 +14999,23 @@
           {
             "source": "technique:greenhouse-beds",
             "prefix": "",
-            "folio": 164,
-            "pdf": "output/pdf/reader-edit-pass/techniques/techniques-metric-clean.pdf",
-            "page": 5
+            "folio": 162,
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 17
           },
           {
             "source": "technique:greenhouse-no-dig-seasons",
             "prefix": "",
-            "folio": 165,
-            "pdf": "output/pdf/reader-edit-pass/techniques/techniques-metric-clean.pdf",
-            "page": 6
+            "folio": 163,
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 18
           }
         ],
         "displayReferences": [
           {
-            "label": "164–165",
-            "pdf": "output/pdf/reader-edit-pass/techniques/techniques-metric-clean.pdf",
-            "page": 5
+            "label": "162–163",
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 17
           }
         ]
       },
@@ -15043,16 +15031,16 @@
           {
             "source": "technique:greenhouse-no-dig-seasons",
             "prefix": "",
-            "folio": 165,
-            "pdf": "output/pdf/reader-edit-pass/techniques/techniques-metric-clean.pdf",
-            "page": 6
+            "folio": 163,
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 18
           }
         ],
         "displayReferences": [
           {
-            "label": "165",
-            "pdf": "output/pdf/reader-edit-pass/techniques/techniques-metric-clean.pdf",
-            "page": 6
+            "label": "163",
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 18
           }
         ]
       },
@@ -15297,16 +15285,16 @@
           {
             "source": "technique:sowing",
             "prefix": "",
-            "folio": 160,
-            "pdf": "output/pdf/reader-edit-pass/techniques/techniques-metric-clean.pdf",
-            "page": 4
+            "folio": 159,
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 14
           }
         ],
         "displayReferences": [
           {
-            "label": "160",
-            "pdf": "output/pdf/reader-edit-pass/techniques/techniques-metric-clean.pdf",
-            "page": 4
+            "label": "159",
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 14
           }
         ]
       },
@@ -15607,16 +15595,16 @@
           {
             "source": "technique:plot-layout",
             "prefix": "",
-            "folio": 152,
-            "pdf": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/metric.pdf",
-            "page": 4
+            "folio": 151,
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 6
           }
         ],
         "displayReferences": [
           {
-            "label": "152",
-            "pdf": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/metric.pdf",
-            "page": 4
+            "label": "151",
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 6
           }
         ]
       },
@@ -15749,16 +15737,16 @@
           {
             "source": "technique:plot-layout-branching",
             "prefix": "",
-            "folio": 153,
-            "pdf": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/metric.pdf",
-            "page": 5
+            "folio": 152,
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 7
           }
         ],
         "displayReferences": [
           {
-            "label": "153",
-            "pdf": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/metric.pdf",
-            "page": 5
+            "label": "152",
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 7
           }
         ]
       },
@@ -16309,15 +16297,15 @@
             "source": "technique:nutrient-cycles",
             "prefix": "",
             "folio": 147,
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 3
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 2
           }
         ],
         "displayReferences": [
           {
             "label": "147",
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 3
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 2
           }
         ]
       },
@@ -16347,16 +16335,16 @@
           {
             "source": "technique:sowing",
             "prefix": "",
-            "folio": 160,
-            "pdf": "output/pdf/reader-edit-pass/techniques/techniques-metric-clean.pdf",
-            "page": 4
+            "folio": 159,
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 14
           }
         ],
         "displayReferences": [
           {
-            "label": "160",
-            "pdf": "output/pdf/reader-edit-pass/techniques/techniques-metric-clean.pdf",
-            "page": 4
+            "label": "159",
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 14
           }
         ]
       },
@@ -16418,16 +16406,16 @@
           {
             "source": "cultivation:no-dig",
             "prefix": "",
-            "folio": 157,
-            "pdf": "docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/metric.pdf",
-            "page": 2
+            "folio": 156,
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 11
           }
         ],
         "displayReferences": [
           {
-            "label": "157",
-            "pdf": "docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/metric.pdf",
-            "page": 2
+            "label": "156",
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 11
           }
         ]
       },
@@ -16504,15 +16492,15 @@
             "source": "technique:nutrient-cycles",
             "prefix": "",
             "folio": 147,
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 3
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 2
           }
         ],
         "displayReferences": [
           {
             "label": "147",
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 3
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 2
           }
         ]
       },
@@ -16528,16 +16516,16 @@
           {
             "source": "technique:greenhouse-no-dig-seasons",
             "prefix": "",
-            "folio": 165,
-            "pdf": "output/pdf/reader-edit-pass/techniques/techniques-metric-clean.pdf",
-            "page": 6
+            "folio": 163,
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 18
           }
         ],
         "displayReferences": [
           {
-            "label": "165",
-            "pdf": "output/pdf/reader-edit-pass/techniques/techniques-metric-clean.pdf",
-            "page": 6
+            "label": "163",
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 18
           }
         ]
       },
@@ -16553,16 +16541,16 @@
           {
             "source": "cultivation:no-dig",
             "prefix": "",
-            "folio": 157,
-            "pdf": "docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/metric.pdf",
-            "page": 2
+            "folio": 156,
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 11
           }
         ],
         "displayReferences": [
           {
-            "label": "157",
-            "pdf": "docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/metric.pdf",
-            "page": 2
+            "label": "156",
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 11
           }
         ]
       },
@@ -16579,15 +16567,15 @@
             "source": "technique:nutrient-cycles",
             "prefix": "",
             "folio": 147,
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 3
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 2
           }
         ],
         "displayReferences": [
           {
             "label": "147",
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 3
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 2
           }
         ]
       },
@@ -16693,14 +16681,14 @@
             "source": "technique:organic",
             "prefix": "",
             "folio": 146,
-            "pdf": "output/pdf/final-text-edits/organic-metric.pdf",
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 1
           }
         ],
         "displayReferences": [
           {
             "label": "146",
-            "pdf": "output/pdf/final-text-edits/organic-metric.pdf",
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 1
           }
         ]
@@ -16926,23 +16914,23 @@
           {
             "source": "technique:plot-layout",
             "prefix": "",
-            "folio": 152,
-            "pdf": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/metric.pdf",
-            "page": 4
+            "folio": 151,
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 6
           },
           {
             "source": "technique:plot-layout-branching",
             "prefix": "",
-            "folio": 153,
-            "pdf": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/metric.pdf",
-            "page": 5
+            "folio": 152,
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 7
           }
         ],
         "displayReferences": [
           {
-            "label": "152–153",
-            "pdf": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/metric.pdf",
-            "page": 4
+            "label": "151–152",
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 6
           }
         ]
       },
@@ -17143,15 +17131,15 @@
             "source": "technique:nutrient-cycles",
             "prefix": "",
             "folio": 147,
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 3
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 2
           }
         ],
         "displayReferences": [
           {
             "label": "147",
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 3
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 2
           }
         ]
       },
@@ -17174,16 +17162,16 @@
           {
             "source": "technique:sowing",
             "prefix": "",
-            "folio": 160,
-            "pdf": "output/pdf/reader-edit-pass/techniques/techniques-metric-clean.pdf",
-            "page": 4
+            "folio": 159,
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 14
           }
         ],
         "displayReferences": [
           {
-            "label": "160",
-            "pdf": "output/pdf/reader-edit-pass/techniques/techniques-metric-clean.pdf",
-            "page": 4
+            "label": "159",
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 14
           }
         ]
       },
@@ -17199,16 +17187,16 @@
           {
             "source": "technique:plot-location",
             "prefix": "",
-            "folio": 151,
-            "pdf": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/metric.pdf",
-            "page": 3
+            "folio": 150,
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 5
           }
         ],
         "displayReferences": [
           {
-            "label": "151",
-            "pdf": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/metric.pdf",
-            "page": 3
+            "label": "150",
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 5
           }
         ]
       },
@@ -17230,30 +17218,30 @@
           {
             "source": "technique:plot-location",
             "prefix": "",
-            "folio": 151,
-            "pdf": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/metric.pdf",
-            "page": 3
+            "folio": 150,
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 5
           },
           {
             "source": "technique:plot-layout",
             "prefix": "",
-            "folio": 152,
-            "pdf": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/metric.pdf",
-            "page": 4
+            "folio": 151,
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 6
           },
           {
             "source": "technique:plot-layout-branching",
             "prefix": "",
-            "folio": 153,
-            "pdf": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/metric.pdf",
-            "page": 5
+            "folio": 152,
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 7
           }
         ],
         "displayReferences": [
           {
-            "label": "151–153",
-            "pdf": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/metric.pdf",
-            "page": 3
+            "label": "150–152",
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 5
           }
         ]
       },
@@ -17298,15 +17286,15 @@
             "source": "technique:nutrient-cycles",
             "prefix": "",
             "folio": 147,
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 3
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 2
           }
         ],
         "displayReferences": [
           {
             "label": "147",
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 3
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 2
           }
         ]
       },
@@ -17976,15 +17964,15 @@
             "source": "technique:nutrient-cycles",
             "prefix": "",
             "folio": 147,
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 3
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 2
           }
         ],
         "displayReferences": [
           {
             "label": "147",
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 3
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 2
           }
         ]
       },
@@ -18028,16 +18016,16 @@
           {
             "source": "technique:sowing",
             "prefix": "",
-            "folio": 160,
-            "pdf": "output/pdf/reader-edit-pass/techniques/techniques-metric-clean.pdf",
-            "page": 4
+            "folio": 159,
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 14
           }
         ],
         "displayReferences": [
           {
-            "label": "160",
-            "pdf": "output/pdf/reader-edit-pass/techniques/techniques-metric-clean.pdf",
-            "page": 4
+            "label": "159",
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 14
           }
         ]
       },
@@ -18084,28 +18072,28 @@
           {
             "source": "technique:plot-location",
             "prefix": "",
-            "folio": 151,
-            "pdf": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/metric.pdf",
-            "page": 3
+            "folio": 150,
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 5
           },
           {
             "source": "technique:plot-layout-branching",
             "prefix": "",
-            "folio": 153,
-            "pdf": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/metric.pdf",
-            "page": 5
+            "folio": 152,
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 7
           }
         ],
         "displayReferences": [
           {
-            "label": "151",
-            "pdf": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/metric.pdf",
-            "page": 3
+            "label": "150",
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 5
           },
           {
-            "label": "153",
-            "pdf": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/metric.pdf",
-            "page": 5
+            "label": "152",
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 7
           }
         ]
       },
@@ -18156,16 +18144,16 @@
           {
             "source": "technique:plot-layout-branching",
             "prefix": "",
-            "folio": 153,
-            "pdf": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/metric.pdf",
-            "page": 5
+            "folio": 152,
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 7
           }
         ],
         "displayReferences": [
           {
-            "label": "153",
-            "pdf": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/metric.pdf",
-            "page": 5
+            "label": "152",
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 7
           }
         ]
       },
@@ -18345,16 +18333,16 @@
           {
             "source": "cultivation:digging-finish",
             "prefix": "",
-            "folio": 159,
-            "pdf": "docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/metric.pdf",
-            "page": 4
+            "folio": 158,
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 13
           }
         ],
         "displayReferences": [
           {
-            "label": "159",
-            "pdf": "docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/metric.pdf",
-            "page": 4
+            "label": "158",
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 13
           }
         ]
       },
@@ -18479,16 +18467,16 @@
           {
             "source": "cultivation:digging",
             "prefix": "",
-            "folio": 158,
-            "pdf": "docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/metric.pdf",
-            "page": 3
+            "folio": 157,
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 12
           }
         ],
         "displayReferences": [
           {
-            "label": "158",
-            "pdf": "docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/metric.pdf",
-            "page": 3
+            "label": "157",
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 12
           }
         ]
       },
@@ -19827,16 +19815,16 @@
           {
             "source": "technique:watering",
             "prefix": "",
-            "folio": 161,
-            "pdf": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/metric.pdf",
-            "page": 12
+            "folio": 160,
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 15
           }
         ],
         "displayReferences": [
           {
-            "label": "161",
-            "pdf": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/metric.pdf",
-            "page": 12
+            "label": "160",
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 15
           }
         ]
       },
@@ -19852,16 +19840,16 @@
           {
             "source": "technique:watering",
             "prefix": "",
-            "folio": 161,
-            "pdf": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/metric.pdf",
-            "page": 12
+            "folio": 160,
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 15
           }
         ],
         "displayReferences": [
           {
-            "label": "161",
-            "pdf": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/metric.pdf",
-            "page": 12
+            "label": "160",
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 15
           }
         ]
       },
@@ -19883,40 +19871,40 @@
           {
             "source": "technique:plot-location",
             "prefix": "",
-            "folio": 151,
-            "pdf": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/metric.pdf",
-            "page": 3
+            "folio": 150,
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 5
           },
           {
             "source": "cultivation:no-dig",
             "prefix": "",
-            "folio": 157,
-            "pdf": "docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/metric.pdf",
-            "page": 2
+            "folio": 156,
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 11
           },
           {
             "source": "cultivation:digging-finish",
             "prefix": "",
-            "folio": 159,
-            "pdf": "docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/metric.pdf",
-            "page": 4
+            "folio": 158,
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 13
           }
         ],
         "displayReferences": [
           {
-            "label": "151",
-            "pdf": "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/metric.pdf",
-            "page": 3
+            "label": "150",
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 5
           },
           {
-            "label": "157",
-            "pdf": "docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/metric.pdf",
-            "page": 2
+            "label": "156",
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 11
           },
           {
-            "label": "159",
-            "pdf": "docs/publication/topic-pages/cultivation-dig-no-dig/references/approved-2026-10-08/metric.pdf",
-            "page": 4
+            "label": "158",
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 13
           }
         ]
       },
@@ -20051,16 +20039,16 @@
           {
             "source": "technique:sowing",
             "prefix": "",
-            "folio": 160,
-            "pdf": "output/pdf/reader-edit-pass/techniques/techniques-metric-clean.pdf",
-            "page": 4
+            "folio": 159,
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 14
           }
         ],
         "displayReferences": [
           {
-            "label": "160",
-            "pdf": "output/pdf/reader-edit-pass/techniques/techniques-metric-clean.pdf",
-            "page": 4
+            "label": "159",
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 14
           }
         ]
       },
@@ -20237,15 +20225,15 @@
             "source": "technique:nutrient-cycles",
             "prefix": "",
             "folio": 147,
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 3
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 2
           }
         ],
         "displayReferences": [
           {
             "label": "147",
-            "pdf": "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf",
-            "page": 3
+            "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+            "page": 2
           }
         ]
       },

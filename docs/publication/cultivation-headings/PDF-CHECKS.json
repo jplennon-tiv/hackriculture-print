@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-18",
+  "status": "passed",
+  "results": [
+    {
+      "units": "imperial",
+      "pdf": "output/pdf/cultivation-headings/digging-imperial.pdf",
+      "sha256": "f7ab8554ef22f24d97bee371e6b18ba270a81b77ec486a722d7f116d88429cc1",
+      "pages": 4,
+      "unchangedBodyGlyphsAndFontSizesPreserved": true,
+      "exactHeadingsAndColours": true,
+      "diggingOrderPreserved": true,
+      "exactIntroductionAndDoubleDiggingHeading": true,
+      "boldEmphasis": [
+        {
+          "text": "Single digging",
+          "fonts": [
+            "OAAAAA+NunitoSans12ptExtraLight12pt-Regular_wght3520000"
+          ]
+        },
+        {
+          "text": "Double digging",
+          "fonts": [
+            "OAAAAA+NunitoSans12ptExtraLight12pt-Regular_wght3520000"
+          ]
+        }
+      ]
+    },
+    {
+      "units": "metric",
+      "pdf": "output/pdf/cultivation-headings/digging-metric.pdf",
+      "sha256": "addd211eacdca8e60b83e4d216f83af6dcab5bc226b555c85fe0dff91ef694a5",
+      "pages": 4,
+      "unchangedBodyGlyphsAndFontSizesPreserved": true,
+      "exactHeadingsAndColours": true,
+      "diggingOrderPreserved": true,
+      "exactIntroductionAndDoubleDiggingHeading": true,
+      "boldEmphasis": [
+        {
+          "text": "Single digging",
+          "fonts": [
+            "OAAAAA+NunitoSans12ptExtraLight12pt-Regular_wght3520000"
+          ]
+        },
+        {
+          "text": "Double digging",
+          "fonts": [
+            "OAAAAA+NunitoSans12ptExtraLight12pt-Regular_wght3520000"
+          ]
+        }
+      ]
+    }
+  ],
+  "copyEdits": "src/print/book/final-text-edits/digging.json",
+  "scope": "All four actual pages in both units; unchanged body glyph/type comparison against current imperial book, approved metric cultivation source and previous reordered metric digging proof. Requested introduction and double-digging title checked separately, including distinct bold PDF fonts. Header text/colour checked in PDF; source footers excluded from body comparison."
+}

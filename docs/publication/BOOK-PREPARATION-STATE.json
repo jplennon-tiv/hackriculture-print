@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "status": "final_copy_pass_in_progress",
-  "documentRole": "Technical evidence ledger. wholeBookOrderPreview is the latest complete-book derivative; docs/handover/START-HERE.md owns current scope and next actions. Fields explicitly listed in historicalFieldScope retain earlier file evidence and must not be treated as the current book, fresh checks or a work queue.",
+  "status": "print_design_on_hold_first_proof_ordered_website_session_next",
+  "documentRole": "Technical evidence ledger. wholeBookOrderPreview is the current reading derivative; bookvaultLocalProduction identifies the separate 19 October production PDFs for review. docs/handover/START-HERE.md owns current scope and next actions. Historical fields are retained evidence, not current work instructions.",
   "currentGuidance": "docs/handover/START-HERE.md",
   "automationStatus": "PAUSED",
   "historicalFieldScope": {
@@ -23,14 +23,14 @@
       "reviewReadyAtUtc",
       "roughProgressPreview"
     ],
-    "meaning": "Retained dated evidence from the original 5–6 October technical preparation and 7 October rough preview. The misleadingly named currentProduction field describes the saved 148-page supplier drafts, not the current 170-page interior preview. Initial deadlines are retained for compatibility with the old runner, not an active schedule. Later derivative/check sections identify their own files and dates. Historical local no-rebuild booleans describe those bounded tasks only.",
+    "meaning": "Retained dated evidence from the original 5–6 October technical preparation and 7 October rough preview. The misleadingly named currentProduction field describes the saved 148-page supplier drafts, not the current 168-page interior preview. Initial deadlines are retained for compatibility with the old runner, not an active schedule. Later derivative/check sections identify their own files and dates. Historical local no-rebuild booleans describe those bounded tasks only.",
     "browserAccess": "Last observed access only. Reinspect before any authorised account operation; do not assume login persists."
   },
   "authorisedAtUtc": "2026-10-05T22:50:03Z",
   "deadlineUtc": "2026-10-06T18:00:00Z",
   "deadlineLocal": "6 October 2026, 19:00 Europe/London",
   "automationId": "prepare-compact-book-proof",
-  "brief": "The Vegetable Guru, 185 × 240 mm, UK full-colour paperback. The current imperial screen preview has 170 interior pages plus four cover leaves (174 PDF pages), including all approved reader edits, expanded rotation, nutrients and the approved Techniques order and blanks. All 44 vegetables occupy two facing pages. Original gardening records and frozen sources are unchanged. See the handover for current actions; both automations remain paused.",
+  "brief": "The Vegetable Guru, 185 × 240 mm, UK full-colour paperback. The current imperial screen preview has 168 interior pages plus four cover leaves (172 PDF pages), with approved reader edits and John’s 19 October Techniques subsection headings and removal of its two internal blanks. All 44 vegetables occupy two facing pages. Canonical gardening records and frozen sources are unchanged. See the handover for current actions; both automations remain paused.",
   "format": "Compact Book v1, 185 x 240 mm; preserve the approved design and frozen reference proofs",
   "scope": {
     "vegetables": 44,
@@ -39,14 +39,14 @@
       "imperial",
       "metric"
     ],
-    "retailTarget": "Working cover price GBP 17.50, customer shipping separate. Bookvault is the working service choice; final stock/page count and fees remain to be confirmed."
+    "retailTarget": "Working cover price GBP 17.50, customer shipping separate; not yet saved as a retail listing. Bookvault private title created 19 October: 168 pages, 150 gsm coated chosen for initial proof, observed UK production GBP 6.31."
   },
   "queue": [
     {
       "id": "interior",
-      "status": "current_screen_preview_ready",
+      "status": "imperial_production_prepared_for_review",
       "task": "Review the prepared both-unit collection against approved compact sources and recorded exceptions; make only justified requested changes. Preserve content, artwork and source-linked working copy.",
-      "remaining": "Use the current clean 170-page imperial interior, including John’s Organic growing copy replacements on page 146. Continue final text/design review; supplier production and full metric assembly remain separate."
+      "remaining": "Print design on hold while awaiting the first proof and next website session. Preserve exact ordered imperial PDFs; further copy/design changes only as John directs. Full metric assembly remains separate."
     },
     {
       "id": "opening_pages",
@@ -64,11 +64,11 @@
         "bookvault-progress-preview/CHECKS.json",
         "whole-book-order-preview/CHECKS.json"
       ],
-      "remaining": "Missing publication metadata remains as placeholders. Wider opening design review and production integration remain separate."
+      "remaining": "Publication metadata placeholders remain by request; native opening pages are included unchanged in the new print derivative."
     },
     {
       "id": "covers",
-      "status": "g2_selected_b5_preferred",
+      "status": "native_g2_b5_production_adaptation_for_review",
       "task": "Refine preferred B5 Off-centre collage alongside selected G2 front: dark green ground, left-hand blurb and angled torn-page fragments on the right. Keep requested title/count subtitle, GBP 17.50 and reserved ISBN panel; explanation belongs inside.",
       "evidence": [
         "book-preparation/COVER-CHECKS.json",
@@ -76,19 +76,23 @@
         "vegetable-guru-cover-sketches/ARTWORK.json",
         "vegetable-guru-grid-variations/ARTWORK.json",
         "vegetable-guru-back-cover/CHECKS.json",
-        "vegetable-guru-back-collage/ARTWORK.json"
+        "vegetable-guru-back-collage/ARTWORK.json",
+        "bookvault-print-ready/COVER-PREPARATION.json"
       ],
-      "remaining": "Approved blurb is integrated in a separate B5 derivative with editable text; original preserved. Exact page crops, remaining editable typography, ISBN, stock-dependent wrap and spine discrepancy remain unresolved."
+      "remaining": "Current native G2/B5 wrap is included in the first ordered proof. Final cover/metadata/barcode/price decisions remain after review; no redesign work is active during the website handover."
     },
     {
       "id": "pod_trial",
-      "status": "local_drafts_ready_awaiting_decisions",
-      "task": "Plan production preflight around Bookvault using dated evidence, refreshing costs when stock/pagination changes. Confirm metadata and suitable files before authorised account operations. The prior KDP trial remains a fallback, not a current instruction to create a parallel title.",
+      "status": "proof_order_created_awaiting_physical_copy",
+      "task": "Review the first physical proof when it arrives, then prepare only agreed revisions.",
       "evidence": [
         "book-preparation/POD-PREFLIGHT.json",
-        "book-preparation/DRAFT-METADATA.json"
+        "book-preparation/DRAFT-METADATA.json",
+        "bookvault-setup-2026-10-19/README.md",
+        "bookvault-print-ready/README.md",
+        "bookvault-print-ready/SUPPLIER-CHECKS.json"
       ],
-      "remaining": "Supplier requirements and 148-page calculator estimates were checked on 6 October. Recheck them against confirmed stock and final pagination before production. Fine icon detail, colour/PDF preflight, cover wrap, metadata and ISBN/rights decisions remain. No Previewer or physical proof."
+      "remaining": "John placed and paid for one copy; portal order BV3012332 is Created, total £12.58, Royal Mail 1st Class. Checkout estimated dispatch 28 October and delivery 29–30 October. Review colour, cream consistency, detail, stock weight and opening comfort; ISBN remains deferred until after proof review. No further order or distribution authorised."
     },
     {
       "id": "review_pack",
@@ -97,7 +101,7 @@
       "evidence": [
         "book-preparation/REVIEW.html"
       ],
-      "remaining": "Review opening-page placements with the revised hero-style stock, then affected proofs. Settle final copy and metadata when requested. Later refine B5 beside G2 and review the collection and publishing decisions."
+      "remaining": "Current full reading preview and production viewer are linked from the handover. Preserve source approvals and exact ordered PDFs while website work proceeds."
     }
   ],
   "browserAccess": {
@@ -115,13 +119,13 @@
   "constraints": [
     "Preserve existing user edits, canonical gardening data and frozen design references. Use separate working drafts. No source advice deletion to force a fixed page count.",
     "No subagents. Follow repository instructions and relevant skills. Use start.command and loopback; never save credentials or session tokens in project files.",
-    "No purchases, fees, proof orders, final proof approval, publication, distribution activation, rights declarations on John's behalf or commitments. Do not allocate an ISBN or accept new contractual terms unattended.",
+    "Completed 19 October actions are recorded in bookvaultSetup and supplier evidence: uploads/checks and John-confirmed proof approval, then order/payment by John. Further purchases, orders, publication, distribution, rights declarations or contractual acceptance need applicable user authorisation; no standing authority is inferred.",
     "Leave existing KDP titles and the earlier Kindle draft untouched. Verify project-specific drafts before creating one; record any new draft identity and uploaded-file hashes to avoid duplicate or uncertain retries.",
     "If login/MFA/CAPTCHA or an unanswered publishing decision blocks KDP work, save the limitation and continue independent local work; do not claim the browser stayed accessible.",
     "Waterproof quote automation remains paused. No supplier mail or renewed waterproof outreach under this task.",
     "Update the technical checkpoint after each manageable authorised batch and keep current actions in the handover. The original unattended deadline/schedule is historical; both automations remain paused. Do not claim checks that did not occur or restart work from old pending items."
   ],
-  "lastCompletedStep": "18 October: integrated all approved reader edits and Techniques order, refreshed contents/index/references, preserved two-page crop spreads and updated current guidance.",
+  "lastCompletedStep": "19 October: current 168-page production PDFs uploaded and validated; supplier preview sampled and proof approved after John confirmed the artwork responsibility declaration. John placed order BV3012332 and reported payment, £12.58 including Royal Mail 1st Class. Print design is on hold; next session will develop hackriculture.com as the book sales channel.",
   "reviewIndex": "whole-book-order-preview/REVIEW.html",
   "evidence": [
     "BOOK-GENERATOR-CHECKS.json",
@@ -164,7 +168,9 @@
     "whole-book-order-preview/CHECKS.json",
     "whole-book-order-preview/VISUAL-REVIEW.json",
     "whole-book-order-preview/SECTION-OPENERS-SAVE.json",
-    "contents-update/VISUAL-REVIEW.json"
+    "contents-update/VISUAL-REVIEW.json",
+    "bookvault-setup-2026-10-19/README.md",
+    "bookvault-setup-2026-10-19/SCREEN-PROOF-AUDIT.json"
   ],
   "knownStartingLimits": [
     "Only Kale, Onions/Shallots and full Carrot/Parsnip Troubles currently have live compact PDF checks in both units.",
@@ -209,9 +215,9 @@
     "versionNote": "Vegetables were exported after variety/tip/section-flow fixes; the final subsequent renderer change affected Troubles alignment and footer checks only. Receipts retain per-file implementation signatures. Do not label all 116 as one final production build."
   },
   "nextRunPriorities": [
-    "No pending integration or automated work. Await John’s next brief.",
-    "Keep publication metadata placeholders until John supplies details.",
-    "Production work, metric assembly, stock/costs, final wrap and physical proof remain separate future work."
+    "Continue John’s final text/design pass and print preparation; reuse Bookvault title 3822688 rather than creating a duplicate.",
+    "Prepare source-resolution 168-page interior with real bleed and mirrored binding margins; make G2/B5 wrap against current 12 mm spine template, preserving approved text and design.",
+    "Review metadata, colour and barcode handling before upload; physical proof purchase and public distribution require John’s decision. Both automations remain paused."
   ],
   "codeChecks": {
     "typescript": "09:00 UTC run: npx tsc -b passed after Bookvault renderer/safety changes.",
@@ -394,14 +400,14 @@
         "pages": 148
       }
     ],
-    "scope": "Historical 6 October supplier-production evidence: 148-page drafts with older openings. See wholeBookOrderPreview for the current 170-page interior / 174-page screen PDF. Do not refresh old production files merely to resume."
+    "scope": "Historical 6 October supplier-production evidence: 148-page drafts with older openings. See wholeBookOrderPreview for the current 168-page interior / 172-page reading PDF and bookvaultLocalProduction for the new separate production files. Do not refresh old production files to resume."
   },
   "currentLimitations": [
-    "The latest complete preview is imperial, 170 interior pages plus four cover leaves. It is a screen derivative; production resolution and complete metric integration remain separate.",
+    "The current reading preview has 168 imperial interior pages plus four cover leaves. The separate Bookvault production interior contains 168 pages with bleed; complete metric assembly remains separate.",
     "All 44 vegetable guides use two-page layouts. Original JSON and approved source proofs are intact; ordinary exports need reconciliation before future full-collection regeneration.",
-    "Approved publication/back-cover copy is integrated. Copyright year, imprint, ISBN, edition and publication year remain placeholders. The B5 original is preserved; the derivative blurb is editable. Exact page crops, remaining editable cover lettering and final wrap are still pending.",
-    "Earlier 148-page production files and costs are historical evidence, not estimates for 170 pages. Refresh supplier details and resolve the old spine discrepancy during requested production work.",
-    "Unchanged Mushroom whitespace and some Troubles column gaps remain outside this integration. Full-collection design approval and supplier/physical proof remain separate."
+    "Copyright year, imprint, ISBN, edition and publication year remain placeholders. The 12 mm-spine G2/B5 cover is a native production adaptation awaiting John’s review; drawings, lettering and crops differ from concepts. No working barcode is present.",
+    "Earlier 148-page production files and costs are historical. Current title 3822688 uses 168 pages and 150 gsm coated; its downloaded cover template resolves the spine to 12 mm. No files uploaded or supplier validation obtained.",
+    "Unchanged Mushroom whitespace and some Troubles column gaps remain outside this preparation. Physical colour, small detail, paper feel and binding comfort require a proof. No final publication or supplier approval is implied."
   ],
   "visualCheckpointUtc": "2026-10-06T09:11:35.324955+00:00",
   "flatteningCheckpoint": {
@@ -625,16 +631,16 @@
     "approval": "docs/publication/topic-pages/cultivation-dig-no-dig/APPROVAL.json",
     "sourceProofScope": "provisionalFolios, coverage and no-rebuild booleans describe the preserved 8 October focused proof, not current book placement.",
     "currentPreviewFolios": [
-      158,
-      159,
-      160,
-      161
-    ],
-    "currentFolios": [
+      155,
       156,
       157,
-      158,
-      159
+      158
+    ],
+    "currentFolios": [
+      155,
+      156,
+      157,
+      158
     ]
   },
   "techniquesExpansionReview": {
@@ -685,7 +691,7 @@
         "approval": "docs/publication/topic-pages/techniques-expansion/COLLECTION-APPROVAL.json"
       }
     ],
-    "currentSection": "Approved original collection is retained as source evidence. The current full book integrates later reader edits, the expanded rotation and nutrient page in the 18 October approved order, 145–165.",
+    "currentSection": "Approved original collection retained as source evidence. The current full book integrates later reader edits, expanded rotation and nutrients, with the 19 October subsection grouping and internal blank removal at 145–163.",
     "latestRevision": "docs/publication/topic-pages/techniques-expansion/ORGANIC-PAGE-ORDER.json",
     "coverage": "Both thirteen-page topic proofs checked: 228 text regions each, all copy/artwork/text sizes and vertical spacing preserved; pages 1, 12 and 13 reused exactly. Organic page visually reviewed in both units and imperial sequence overview inspected. No full-book export.",
     "fullBookRegenerated": false,
@@ -718,9 +724,9 @@
     "coverageScope": "These checks and fullBookRegenerated=false describe the approved focused collection on 12 October. Its pages were later reused in wholeBookOrderPreview; current placement is recorded there."
   },
   "bookIndex": {
-    "date": "2026-10-18",
+    "date": "2026-10-19",
     "status": "current_numeric_derivative_integrated",
-    "review": "docs/publication/whole-book-order-preview/REVIEW.html#spread=84",
+    "review": "docs/publication/whole-book-order-preview/REVIEW.html#spread=83",
     "copy": "../hackriculture-data/book-layout/index.json",
     "pages": 4,
     "entries": 286,
@@ -732,35 +738,36 @@
       "path": "output/pdf/book-index/vegetable-guru-index-draft.pdf",
       "sha256": "5d3aad9ce673ca1d881a00821959d7cb02bb80077e9d9e969785579bd869116b"
     },
-    "temporaryReferences": "Historical standalone approved proof only: T = local techniques pages, C = cultivation pages. The current whole-book derivative has numeric references and integrated folios 162–165.",
+    "temporaryReferences": "Historical standalone proof only: T = local techniques pages, C = cultivation pages. Current integrated derivative has numeric references and folios 164–167.",
     "fullBookRegenerated": false,
     "next": "Approved reference preserved. Numeric integrated derivative is in the whole-book order preview; refresh it again only after order changes.",
     "approval": "docs/publication/book-index/APPROVAL.json",
     "approvedDate": "2026-10-12",
     "integratedPreview": "docs/publication/whole-book-order-preview/index/CHECKS.json",
     "integratedFolios": [
-      162,
-      165
+      164,
+      167
     ],
     "folios": [
+      164,
+      165,
       166,
-      167,
-      168,
-      169
-    ]
+      167
+    ],
+    "latestReferenceSave": "docs/publication/techniques-subsections/INDEX-REFERENCE-SAVE.json"
   },
   "updatedContents": {
-    "status": "approved_order_integrated",
+    "status": "author_requested_repagination_integrated",
     "review": "docs/publication/contents-update/REVIEW.html",
     "checks": "docs/publication/contents-update/CHECKS.json",
     "pdfChecks": "docs/publication/contents-update/PDF-CHECKS.json",
     "plan": "docs/publication/contents-update/ASSEMBLY-PROPOSAL.json",
-    "plannedInteriorPages": 170,
+    "plannedInteriorPages": 168,
     "contentsPages": 2,
-    "referencesPerEdition": 80,
+    "referencesPerEdition": 81,
     "fullBookRegenerated": true,
     "wholeBookPreview": "docs/publication/whole-book-order-preview/REVIEW.html",
-    "scope": "Accepted contents at 4–5; both Guides destinations at 9, all later folios unchanged.",
+    "scope": "Accepted contents at 4–5; all 81 destinations recalculated after removal of the two internal Techniques blanks. No wording or artwork change.",
     "visual": "docs/publication/contents-update/VISUAL-REVIEW.json",
     "saveReceipt": "docs/publication/contents-update/SIMPLIFICATION-SAVE.json",
     "fullBookIntegrationPending": false,
@@ -775,15 +782,15 @@
     "contentsFacing": true,
     "introductionTitleSave": "docs/publication/contents-update/INTRODUCTION-TITLE-SAVE.json",
     "referenceCount": 81,
-    "date": "2026-10-18"
+    "date": "2026-10-19"
   },
   "wholeBookOrderPreview": {
-    "date": "2026-10-18",
-    "status": "Approved baseline plus John-requested final copy edits; actual PDF checks passed; revised pages for review",
+    "date": "2026-10-19",
+    "status": "Author-requested Techniques subsections and internal blank removal integrated; actual PDF checks passed",
     "pdf": "output/pdf/whole-book-order-preview/the-vegetable-guru-order-preview.pdf",
-    "sha256": "0f9426f6bbe7deccc1f3a5f07c883c35ff1b226b668dac7771ecedc898299439",
-    "interiorPages": 170,
-    "pdfPages": 174,
+    "sha256": "93c5be45e8a790cb3a4f91aeac8b7910035cfa37a142dbf41b8444644f88f5bf",
+    "interiorPages": 168,
+    "pdfPages": 172,
     "units": "imperial",
     "guidePagesReused": 133,
     "guidesReexported": 0,
@@ -792,9 +799,7 @@
       6,
       8,
       98,
-      150,
-      162,
-      170
+      168
     ],
     "contentsReferences": 81,
     "indexEntries": 286,
@@ -820,14 +825,14 @@
       5
     ],
     "indexFolios": [
-      166,
-      169
+      164,
+      167
     ],
     "techniquesFolios": [
       145,
-      165
+      163
     ],
-    "relatedReadingLinks": 74,
+    "relatedReadingLinks": 73,
     "allApprovedReaderEditsIntegrated": true,
     "highlights": false,
     "canonicalGardeningRecordsChanged": false,
@@ -835,19 +840,31 @@
       "contents",
       "index"
     ],
-    "next": "John is reviewing final text/design changes, starting with Organic growing page 146; continue with his next requested edit.",
+    "next": "Continue the final text/design pass with John’s next edit.",
     "normalExporterIntegrationPending": true,
     "finalCopyEdits": {
       "folios": [
-        146
+        146,
+        152,
+        155,
+        156,
+        157,
+        158
       ],
       "manifest": "docs/publication/final-text-edits/MANIFEST.json",
       "checks": "docs/publication/final-text-edits/PDF-CHECKS.json",
       "bothUnitPageProofsChecked": true,
-      "designApproval": "Revised page for review",
+      "designApproval": "Organic growing page 146 approved on 18 October. Subsequent exact copy, heading and layout requests are integrated for review; current folios reflect the removal of two internal blanks.",
       "canonicalDataChanged": false,
-      "sharedBookCopyChanged": false
-    }
+      "sharedBookCopyChanged": false,
+      "approval": "docs/publication/final-text-edits/ORGANIC-APPROVAL-2026-10-18.json",
+      "bedsChecks": "docs/publication/final-text-edits/BEDS-PDF-CHECKS.json",
+      "diggingChecks": "docs/publication/cultivation-headings/PDF-CHECKS.json",
+      "cultivationChecks": "docs/publication/cultivation-headings/PDF-CHECKS.json",
+      "diggingCopy": "src/print/book/final-text-edits/digging.json",
+      "currentPlacementManifest": "docs/publication/techniques-subsections/MANIFEST.json"
+    },
+    "latestBookCopySave": "docs/publication/techniques-subsections/INDEX-REFERENCE-SAVE.json"
   },
   "guideKey": {
     "date": "2026-10-14",
@@ -974,5 +991,324 @@
       "fullBookChanged": true,
       "approval": "docs/publication/tomato-two-page-review/APPROVAL.json"
     }
+  },
+  "topTipPanels": {
+    "date": "2026-10-18",
+    "status": "discarded_original_panels_retained",
+    "folios": [
+      152,
+      153,
+      155,
+      160,
+      165
+    ],
+    "review": "docs/publication/whole-book-order-preview/REVIEW.html#spread=77",
+    "checks": "docs/publication/top-tip-panels/overlap/CHECKS.json",
+    "pdfChecks": "docs/publication/top-tip-panels/overlap/PDF-CHECKS.json",
+    "visual": "docs/publication/top-tip-panels/overlap/VISUAL-REVIEW.json",
+    "units": [
+      "imperial",
+      "metric"
+    ],
+    "fullBookChanged": false,
+    "copyAndBodyTypePreserved": true,
+    "decision": "docs/publication/top-tip-panels/DECISION.json",
+    "next": "No further work on the discarded badge idea.",
+    "currentFolios": [
+      151,
+      152,
+      154,
+      159,
+      163
+    ],
+    "folioScope": "folios and dated checks retain 18 October source-proof positions; currentFolios records the current 19 October placement."
+  },
+  "diggingOrder": {
+    "date": "2026-10-18",
+    "status": "author_requested_layout_integrated_for_review",
+    "folios": [
+      158,
+      159
+    ],
+    "doubleDiggingStepsOn158": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "singleDiggingOn159": true,
+    "copyAndTypePreserved": true,
+    "omitted": "Obsolete next-page continuation sentence only",
+    "checks": "docs/publication/digging-order/CHECKS.json",
+    "pdfChecks": "docs/publication/digging-order/PDF-CHECKS.json",
+    "visual": "docs/publication/digging-order/VISUAL-REVIEW.json",
+    "fullBookIntegrated": true,
+    "currentFolios": [
+      157,
+      158
+    ],
+    "folioScope": "folios and dated checks retain 18 October source-proof positions; currentFolios records the current 19 October placement."
+  },
+  "cultivationHeadings": {
+    "date": "2026-10-18",
+    "status": "author_requested_headings_integrated_for_review",
+    "folios": [
+      156,
+      157,
+      158,
+      159
+    ],
+    "mainTitle": "Cultivation",
+    "qualifiers": [
+      "Dig or No-Dig?",
+      "No-Dig",
+      "Digging",
+      "Digging continued"
+    ],
+    "colours": [
+      "#173e2c",
+      "#a44007"
+    ],
+    "bodyCopyAndTypePreserved": false,
+    "diggingOrderPreserved": true,
+    "checks": "docs/publication/cultivation-headings/CHECKS.json",
+    "pdfChecks": "docs/publication/cultivation-headings/PDF-CHECKS.json",
+    "visual": "docs/publication/cultivation-headings/VISUAL-REVIEW.json",
+    "fullBookIntegrated": true,
+    "copyChanges": "Page 158 introduction, two bold phrases and double-digging heading replaced as requested; remaining body copy and type sizes preserved.",
+    "unchangedBodyCopyAndTypePreserved": true,
+    "currentFolios": [
+      155,
+      156,
+      157,
+      158
+    ],
+    "folioScope": "folios and dated checks retain 18 October source-proof positions; currentFolios records the current 19 October placement."
+  },
+  "techniquesSubsections": {
+    "date": "2026-10-19",
+    "status": "author_requested_changes_integrated_for_review",
+    "folios": [
+      146,
+      163
+    ],
+    "pagesPerEdition": 18,
+    "units": [
+      "imperial",
+      "metric"
+    ],
+    "removedOriginalBlankFolios": [
+      150,
+      162
+    ],
+    "headings": "src/print/book/techniques-subsections.json",
+    "sources": "docs/publication/techniques-subsections/SOURCES.json",
+    "manifest": "docs/publication/techniques-subsections/MANIFEST.json",
+    "pdfChecks": "docs/publication/techniques-subsections/PDF-CHECKS.json",
+    "visual": "docs/publication/techniques-subsections/VISUAL-REVIEW.json",
+    "indexReferenceSave": "docs/publication/techniques-subsections/INDEX-REFERENCE-SAVE.json",
+    "bodyCopyTypeAndArtworkPreserved": true,
+    "fullBookIntegrated": true,
+    "canonicalGardeningDataChanged": false,
+    "validation": {
+      "nativePdfPagesPerEdition": 18,
+      "fullPdfPages": 172,
+      "internalLinks": 548,
+      "contentsReferencesPerEdition": 81,
+      "indexNumericReferencesPerEdition": 513,
+      "tests": "book-contents, book-navigation and book-index: 13 focused tests passed; index tests rerun after locator correction; syntax and diff checks passed",
+      "localDocumentationLinksChecked": 258
+    }
+  },
+  "bookvaultSetup": {
+    "date": "2026-10-19",
+    "status": "proof_order_created",
+    "titleId": "3822688",
+    "internalSku": "9669932000017",
+    "registeredIsbn": null,
+    "filesUrl": "https://portal.bookvault.app/files/Upload/3822688",
+    "title": "The Vegetable Guru",
+    "trimMm": [
+      185,
+      240
+    ],
+    "interiorPages": 168,
+    "colour": "Full Colour",
+    "binding": "Perfect Bound",
+    "paper": "150gsm Coated",
+    "paperDecision": "John selected 150 gsm coated as the initial proof specification on 19 October.",
+    "lamination": "Matt",
+    "laminationDecision": "Provisional working choice, not separately approved.",
+    "coverStock": "Cover Board",
+    "printMethod": "Standard inkjet",
+    "setup": {
+      "currency": "GBP",
+      "displayedFeeBeforePromo": 16.63,
+      "promo": "Sample",
+      "displayedFeeAfterPromo": 0,
+      "paidTransactionSubmitted": false
+    },
+    "productionQuotes": {
+      "UK": {
+        "currency": "GBP",
+        "amount": 6.31
+      },
+      "US": {
+        "currency": "USD",
+        "amount": 13.13
+      },
+      "AU": {
+        "currency": "AUD",
+        "amount": 23.21
+      },
+      "CA": "unavailable",
+      "shippingIncluded": false
+    },
+    "templates": {
+      "spineMm": 12,
+      "coverMediaMm": [
+        388,
+        246
+      ],
+      "interiorMediaMm": [
+        191,
+        246
+      ],
+      "bleedMm": 3,
+      "bindingSafetyMm": 17,
+      "otherTrimSafetyMm": 5
+    },
+    "uploads": [
+      {
+        "pdf": "output/pdf/bookvault-print-ready/the-vegetable-guru-interior.pdf",
+        "sha256": "90bb9bb70ab6b5efac3574048c465fb738cc1dfbb4fa229dc515f20926b91bd4",
+        "bytes": 463945557,
+        "supplierFilename": "9669932000017-t.pdf",
+        "uploadSaved": true,
+        "supplierProcessingStatus": "Approved"
+      },
+      {
+        "pdf": "output/pdf/bookvault-print-ready/the-vegetable-guru-cover.pdf",
+        "sha256": "8554f9bcb536e05b05a8bd6f3a92b8221fcb7ec57cbb0834e2e99db82a20cad1",
+        "bytes": 31107263,
+        "supplierFilename": "9669932000017-c.pdf",
+        "uploadSaved": true,
+        "supplierProcessingStatus": "Approved"
+      }
+    ],
+    "distributionActivated": false,
+    "proofOrdered": true,
+    "readme": "docs/publication/bookvault-setup-2026-10-19/README.md",
+    "audit": "docs/publication/bookvault-setup-2026-10-19/SCREEN-PROOF-AUDIT.json",
+    "evidence": [
+      {
+        "path": "docs/publication/bookvault-setup-2026-10-19/interior-template.pdf",
+        "sha256": "3c2d58795c371d8ca5e20f2145d3e15b73ea22dfa30ac86203023eaf2fbf02ee"
+      },
+      {
+        "path": "docs/publication/bookvault-setup-2026-10-19/cover-template.pdf",
+        "sha256": "eea179f8767f28404d6b412478f29cb5f56933144f9e46a3d04b3a5f067c48c0"
+      },
+      {
+        "path": "docs/publication/bookvault-setup-2026-10-19/library-title.png",
+        "sha256": "1f7906c9bb8cfec3d831b7ab09e6d46b498e73b219a4b419bc58d79cce30823a"
+      },
+      {
+        "path": "docs/publication/bookvault-setup-2026-10-19/title-created.png",
+        "sha256": "b8c8819551800f75bd173cdc4e24df70ecbce40f3c0360c7fe5025496db4cefb"
+      },
+      {
+        "path": "docs/publication/bookvault-setup-2026-10-19/setup-summary.png",
+        "sha256": "0ffb77d395291892c201acecc93414c5f6da4f1cd9bc3d5a3496ab47e9ff3c29"
+      }
+    ],
+    "latestProofCostResearch": "docs/publication/bookvault-setup-2026-10-19/PROOF-COST-ISBN-CHECK.json",
+    "singleProofDeliveredEstimateGBP": 12.58,
+    "estimateStatus": "Confirmed order total £12.58: £6.31 standard UK production + £6.27 Royal Mail 1st Class",
+    "isbnDecision": "John deferred registered ISBN until after the first proof, 19 October 2026",
+    "requestedProofShipping": "Royal Mail 1st Class",
+    "orderPreparationAuthorised": true,
+    "paymentAuthorised": false,
+    "supplierChecks": "docs/publication/bookvault-print-ready/SUPPLIER-CHECKS.json",
+    "proofApprovalSubmitted": true,
+    "proofApprovalAuthorisedByJohn": "2026-10-19",
+    "checkoutUrl": "https://portal.bookvault.app/neworder/onepage",
+    "checkoutReference": "69932-#00001",
+    "checkoutSubmitted": true,
+    "proofOrderId": "BV3012332",
+    "proofOrderUrl": "https://portal.bookvault.app/order?ID=3012332",
+    "proofOrderStatus": "Created",
+    "proofPaid": true,
+    "paymentEvidence": "John reported payment completed; portal order and £12.58 total verified",
+    "checkoutSubmittedBy": "John"
+  },
+  "bookvaultLocalProduction": {
+    "date": "2026-10-19",
+    "status": "first_physical_proof_ordered",
+    "bookvaultTitleId": "3822688",
+    "units": "imperial",
+    "interiorPages": 168,
+    "paper": "150 gsm coated",
+    "spineMm": 12,
+    "review": "docs/publication/bookvault-print-ready/REVIEW.html",
+    "readme": "docs/publication/bookvault-print-ready/README.md",
+    "preflight": "docs/publication/bookvault-print-ready/PREFLIGHT.json",
+    "visualReview": "docs/publication/bookvault-print-ready/VISUAL-REVIEW.json",
+    "outputs": [
+      {
+        "pdf": "output/pdf/bookvault-print-ready/the-vegetable-guru-interior.pdf",
+        "sha256": "90bb9bb70ab6b5efac3574048c465fb738cc1dfbb4fa229dc515f20926b91bd4",
+        "bytes": 463945557
+      },
+      {
+        "pdf": "output/pdf/bookvault-print-ready/the-vegetable-guru-cover.pdf",
+        "sha256": "8554f9bcb536e05b05a8bd6f3a92b8221fcb7ec57cbb0834e2e99db82a20cad1",
+        "bytes": 31107263
+      }
+    ],
+    "nativeInteriorGlyphsPreserved": 326982,
+    "originalPageArtImagesRestored": 110,
+    "coverDesignApproval": false,
+    "metadataPlaceholdersRetained": true,
+    "uploaded": true,
+    "proofOrdered": true,
+    "blankFolios": [
+      3,
+      6,
+      8,
+      98,
+      168
+    ],
+    "intentionalBlankBackground": "Printed warm cream, matching surrounding pages and continuing through bleed",
+    "coverAuthor": {
+      "name": "John Lennon",
+      "placements": [
+        "front below subtitle",
+        "spine"
+      ]
+    },
+    "latestFocusedCheck": "docs/publication/bookvault-print-ready/AUTHOR-AND-CREAM-CHECKS.json",
+    "creamForFirstProofConfirmedByJohn": "2026-10-19",
+    "supplierChecks": "docs/publication/bookvault-print-ready/SUPPLIER-CHECKS.json"
+  },
+  "nextSession": {
+    "date": "2026-10-19",
+    "requestedBy": "John",
+    "objective": "Develop the existing hackriculture.com website into a sales channel for The Vegetable Guru",
+    "projectLabel": "Hackriculture Web Site",
+    "projectDirectory": "/Users/johnlennon/Documents/web_site/hackriculture",
+    "projectReadme": "../hackriculture/README.md",
+    "owningHandover": "docs/handover/START-HERE.md#next-session--website-sales-channel",
+    "websiteEditorialData": "../hackriculture-data/website/",
+    "generatedUploadDirectory": "../hackriculture/dist/client/",
+    "initialRoute": "Website book presentation linking to a Bookvault-hosted purchase page or Buy Now link; exact storefront and buyer flow to verify before activation",
+    "implementationStarted": false,
+    "newSessionCreatedByAgent": false,
+    "deploymentPerformed": false,
+    "livePurchaseUrl": null,
+    "workingRetailPriceGBP": 17.5,
+    "isbnDecision": "Deferred until after first physical proof",
+    "printWork": "On hold pending John’s return and physical proof review; preserve exact ordered PDFs"
   }
 }

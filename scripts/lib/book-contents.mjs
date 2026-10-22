@@ -1,4 +1,4 @@
-import {approvedTopicOrder} from './approved-reader-integration.mjs';
+import {currentTopicOrder} from './approved-reader-integration.mjs';
 import {escapeHtml as esc} from './book-content.mjs';
 
 // Existing house-style stock, reused without changing the source images.
@@ -12,7 +12,7 @@ export const contentsArtwork = [
 // Approved placement map; saved reference PDFs retain their original folios.
 export function createContentsPlan(base, sources, approvedGuides = {}, readerGuides = {}) {
   const plan = structuredClone(base);
-  plan.status = 'John-approved full-book integration, 18 October 2026, including the two Techniques blanks and all earlier approved reader edits.';
+  plan.status = 'John-requested subsection headings and internal Techniques blank removal, 19 October 2026; earlier approved reader edits retained.';
   plan.openingPlan = [
     [1, 'Title'], [2, 'Publication details'],
     [3, 'Blank: places the contents on facing pages'],
@@ -20,7 +20,7 @@ export function createContentsPlan(base, sources, approvedGuides = {}, readerGui
     [6, 'Blank: faces the Introduction'], [7, 'Introduction — why grow your own'],
     [8, 'Blank: faces the combined Vegetable Guides opener'], [9, 'Vegetable Guides — how to use the guides']
   ].map(([page, content]) => ({page, content}));
-  const topicOrder = approvedTopicOrder;
+  const topicOrder = currentTopicOrder;
   const topicMap = {};
   for (const [unit, edition] of Object.entries(plan.editions)) {
     let cursor = plan.openingPlan.length + 1;
@@ -59,7 +59,6 @@ export function createContentsPlan(base, sources, approvedGuides = {}, readerGui
     edition.sectionOpeners.push({source:'opening:techniques',startPage:cursor++,label:'Growing Techniques'});
     edition.additions = [locate('technique:why-grow', 7)];
     for(const [source,folio,count=1] of topicOrder){
-      if(source==='technique:plot-location'||source==='technique:greenhouse-choose'){edition.extraBlanks.push({page:cursor++,reason:'Approved spacing preserves facing Techniques topics'});}
       const item=locate(source,cursor);
       if(item.physicalPages!==count)throw Error('Topic page count changed: '+source);
       edition.additions.push(item);cursor+=count;

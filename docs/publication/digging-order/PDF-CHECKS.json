@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-18",
+  "status": "passed",
+  "results": [
+    {
+      "units": "imperial",
+      "pdf": "output/pdf/digging-order/digging-imperial.pdf",
+      "sha256": "04c144be55555bedb650a43aae0f442b50e096aef4697d0ad27101e3dbcfbb98",
+      "pages": 2,
+      "allBodyGlyphsAndFontSizesPreserved": true,
+      "allFiveDoubleDiggingStepsOn158": true,
+      "singleDiggingAndSmotheringOn159": true
+    },
+    {
+      "units": "metric",
+      "pdf": "output/pdf/digging-order/digging-metric.pdf",
+      "sha256": "d3279b471b2fc95086d3aa8ff7459bea1187893545487667247e6b352c87cecf",
+      "pages": 2,
+      "allBodyGlyphsAndFontSizesPreserved": true,
+      "allFiveDoubleDiggingStepsOn158": true,
+      "singleDiggingAndSmotheringOn159": true
+    }
+  ],
+  "unitRendersPixelIdentical": true,
+  "omitted": "Only the obsolete Finish the bed on the next page navigation sentence.",
+  "footerScope": "Source-proof footers use the retained CSS; final assembly replaces them with current book navigation footers."
+}

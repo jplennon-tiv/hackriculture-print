@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-18",
+  "status": "passed",
+  "folio": 153,
+  "proofs": [
+    {
+      "units": "imperial",
+      "pdf": "output/pdf/final-text-edits/plot-layout-branching-imperial.pdf",
+      "sha256": "1e5ef1f1dc9568987230eefe0cd42e5921fda178353418b5692b7d3b16cd7fcb",
+      "pages": 1,
+      "onlyRequestedParagraphChanged": true,
+      "originalPanelsRetained": true
+    },
+    {
+      "units": "metric",
+      "pdf": "output/pdf/final-text-edits/plot-layout-branching-metric.pdf",
+      "sha256": "66ffafdab2edaf37e7a653213c355ee9136dce3c605765a1f13785e44286d484",
+      "pages": 1,
+      "onlyRequestedParagraphChanged": true,
+      "originalPanelsRetained": true
+    }
+  ],
+  "unitTextIdentical": true,
+  "unitRendersPixelIdentical": true,
+  "visualReview": {
+    "inspected": "Actual imperial PDF raster; metric raster verified pixel-identical.",
+    "finding": "Exact replacement fits cleanly under Sides are optional; original panels, illustration and 9.45 pt body text are retained.",
+    "sourceGapMm": 10.40143,
+    "footerGapMm": 3.55947
+  }
+}

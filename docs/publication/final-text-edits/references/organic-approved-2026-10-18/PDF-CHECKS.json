@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "bothUnitsTextIdentical": true,
+  "bothUnitRendersPixelIdentical": true,
+  "latestCorrection": "Work with Nature paragraph now ends: your garden will ultimately flourish.",
+  "proofs": [
+    {
+      "units": "imperial",
+      "pdf": "output/pdf/final-text-edits/organic-imperial.pdf",
+      "sha256": "b90bb800bdd5466ac030d17230ce8fd7b54da46ea5c047a44563ca30c751ba42",
+      "pages": 1,
+      "exactChangedParagraphs": 4,
+      "bodyFontPt": 9.45,
+      "sourceClearanceMm": 16.64807942708333,
+      "footerClearanceMm": 3.5594726562499996,
+      "sourceDiagramAndClosingUnchanged": true
+    },
+    {
+      "units": "metric",
+      "pdf": "output/pdf/final-text-edits/organic-metric.pdf",
+      "sha256": "71fc916dd7fe6806dfd0d7705be1f88e3df7454d12cf2add1df4fa454d3318b6",
+      "pages": 1,
+      "exactChangedParagraphs": 4,
+      "bodyFontPt": 9.45,
+      "sourceClearanceMm": 16.64807942708333,
+      "footerClearanceMm": 3.5594726562499996,
+      "sourceDiagramAndClosingUnchanged": true
+    }
+  ]
+}
