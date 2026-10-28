@@ -13,12 +13,13 @@ entry point for current decisions, component status, outstanding work and
 publication/automation boundaries. It distinguishes approved designs from
 working book proofs and historical evidence. Follow John's latest instruction.
 
-**Next session:** John is moving to the **Hackriculture Web Site** project at
-[`../hackriculture`](../hackriculture/README.md) to make hackriculture.com a sales
-channel for The Vegetable Guru. The [website handover](docs/handover/START-HERE.md#next-session--website-sales-channel)
-links source folders, book assets and the intended Bookvault purchase-link route.
+**Next session, 26 October:** John is returning to the printed book. The
+[website is live](https://hackriculture.com/) and he confirms the SSL issue has
+resolved. The [current handover](docs/handover/START-HERE.md#resume-here) records
+where to resume, the website/print boundary and outstanding publication decisions.
 The first physical proof is ordered: **BV3012332**, £12.58 including First Class.
-Print design is on hold while awaiting the copy; preserve the ordered files.
+Arrival and physical review have not been confirmed here; preserve the ordered
+files and follow John's next print brief. Book sales have not been activated.
 
 Before design or artwork work, use the handover's
 [project skill map](docs/handover/START-HERE.md#design-skills--use-before-design-work)

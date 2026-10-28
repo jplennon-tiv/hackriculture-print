@@ -1,17 +1,23 @@
 # Current project handover
 
-Updated 19 October 2026 after the first proof order and handover to website work.
+Updated 26 October 2026 after the website launch and return to printed-book work.
 This document owns current scope, decisions and next actions. Read README,
 AGENTS and SHARED-DATA first. John's latest instruction takes precedence;
 dated reports and approvals are evidence, not instructions to resume old work.
 
 ## Resume here
 
-**John is taking a break from print design. His next session will work in the
-website project to make hackriculture.com a sales channel for The Vegetable Guru.**
-Start with the website handover below. The first physical proof is ordered;
-preserve its exact PDFs while awaiting review. No print regeneration is needed
-to start the website work.
+**John is returning to the printed book in a new session. The prelaunch website
+is live at <https://hackriculture.com/> and he confirms it is looking good.**
+The SSL incident is resolved by his 26 October report; do not resume that
+investigation or restart the website-design phase. John will start the new session.
+
+Begin with his next print brief and establish whether the physical proof has
+arrived and what he wants to change. Arrival and physical review have not been
+confirmed in this website session. Preserve the exact ordered PDFs; do not
+regenerate the whole book merely to resume. The first proof order and approved
+production checkpoint are below. Final metadata, proof review and publication
+approval remain open; the website launch is not the book's sales launch.
 
 Git storage update, 22 October: the large `integration-2026-10-18/baseline.pdf`
 under `docs/publication/whole-book-order-preview/` and
@@ -21,43 +27,61 @@ that caused GitHub's size rejection. They remain required reference inputs;
 preserve them with the other local book files. A fresh clone alone does not
 contain these PDFs. Their existing approval/hash records remain tracked.
 
-### Next session — website sales channel
+<a id="next-session--website-sales-channel"></a>
 
-The website source is **`/Users/johnlennon/Documents/web_site/hackriculture`**,
-saved in Codex as **Hackriculture Web Site**. John will start the new session
-himself. This is the existing local website project; its current deployed contents
-have not been compared with this checkout during this session.
+### Website — live prelaunch
+
+John uploaded the rebuilt website on 23 October after running `npm run build`.
+On 26 October he confirmed that the SSL problem had resolved itself and the site
+was live and looking good. The agent did not deploy or change hosting settings.
+The source remains **`/Users/johnlennon/Documents/web_site/hackriculture`**,
+saved in Codex as **Hackriculture Web Site**. Its
+[live-site handover](../../../hackriculture/docs/book-launch-planning/10-live-site-handover.md)
+owns current website details; the [prelaunch review](../../../hackriculture/docs/book-launch-planning/09-prelaunch-review.md)
+records checks and corrections. Earlier local-only proposals are historical.
+
+The accepted site uses Harvest & Ink and a compact newspaper layout, with
+prominent paperback promotion, videos, all 44 retained guides and an illustrated
+self-sufficiency calendar. The book page's chosen story is “A companion to the
+videos”, with two unlinked photographs of John. Its sample sections and the
+homepage images enlarge as images; a separate clean reader contains 23 selected
+pages, including five complete vegetable guides. The launch-only EmailOctopus
+form has a previously confirmed double opt-in test. A fresh live-domain
+subscription test and sender-domain authentication verification are not recorded.
+
+**Website-only proof cleanup:** John requested removal of “[Imprint name]” from
+the public title-page preview. Shared `website/book-preview.json` records
+`webTextOmissions`; only the website's folio-1 images/text changed. The exact
+168-page imperial production PDF, shared book copy and supplier uploads remain
+unchanged. Resolve actual imprint/publication metadata during print preparation;
+do not assume the print placeholder was removed. Website imagery and its
+occasional spiral-page decoration do not change the perfect-bound paperback spec.
 
 | Resource | Where to start |
 | --- | --- |
-| Website instructions and overview | [AGENTS.md](../../../hackriculture/AGENTS.md), [README.md](../../../hackriculture/README.md), [shared-data rules](../../../hackriculture/SHARED-DATA.md), [guide editing](../../../hackriculture/docs/GUIDE-EDITING.md) |
-| Website pages and shared styling | [Homepage](../../../hackriculture/app/page.tsx), [header/footer](../../../hackriculture/components/site/chrome.tsx), [styles](../../../hackriculture/app/globals.css) |
-| Editable website content | `../../../hackriculture-data/website/`; use the [shared-data skill](../../../hackriculture-data/.agents/skills/hackriculture-data/SKILL.md) before JSON work |
-| Book description, cover and samples | [Production review](../publication/bookvault-print-ready/REVIEW.html), [cover preparation/source record](../publication/bookvault-print-ready/COVER-PREPARATION.json), [asset registry](../assets/README.md), [shared book copy](../../../hackriculture-data/book-layout/README.md) |
-| Selling route and Bookvault account evidence | [19 October setup and selling notes](../publication/bookvault-setup-2026-10-19/README.md#simplest-selling-route), [supplier/order record](../publication/bookvault-print-ready/SUPPLIER-CHECKS.json) |
-| Website build for upload | `hackriculture/dist/client/`; source edits belong outside this generated folder |
+| Website status, source and upload | [Live handover](../../../hackriculture/docs/book-launch-planning/10-live-site-handover.md), [README](../../../hackriculture/README.md), [build/upload steps](../../../hackriculture/START_HERE.md) |
+| Website instructions and shared content | [AGENTS](../../../hackriculture/AGENTS.md), [shared-data rules](../../../hackriculture/SHARED-DATA.md), `../../../hackriculture-data/website/` and its [skill](../../../hackriculture-data/.agents/skills/hackriculture-data/SKILL.md) |
+| Public preview selection and provenance | [Reader handover](../../../hackriculture/docs/book-launch-planning/06-book-preview.md) |
+| Email account and confirmed test | [EmailOctopus handover](../../../hackriculture/docs/book-launch-planning/05-prelaunch-implementation.md#emailoctopus) |
+| Book files, artwork and copy | [Production review](../publication/bookvault-print-ready/REVIEW.html), [asset registry](../assets/README.md), [shared book copy](../../../hackriculture-data/book-layout/README.md) |
+| Bookvault selling route and order | [Setup/selling notes](../publication/bookvault-setup-2026-10-19/README.md#simplest-selling-route), [supplier/order evidence](../publication/bookvault-print-ready/SUPPLIER-CHECKS.json) |
 
-The intended first integration remains a book presentation on John's website
-linking to a Bookvault-hosted purchase page or Buy Now link. Shopify and native
-YouTube Shopping remain deferred. A book page, homepage promotion and selected
-sample pages are sensible starting proposals; no web layout, copy or samples
-have yet been selected. Review the existing site and agree the presentation with
-John while preserving its growing guides, videos, identity and existing edits.
+No public purchase link or sales activation has been recorded. Reuse Bookvault
+**3822688** / internal SKU **9669932000017**. Verify the actual chosen storefront,
+current costs and buyer journey before adding its live purchase link; Shopify and
+native YouTube Shopping remain deferred. **£17.50 is only a working price.**
+The public FAQ says the price is undecided but should be well under £20, and aims
+to ship first copies in time for Christmas. These are intentions, not guarantees.
+It describes Imperial and Metric editions; a complete metric production assembly
+is still outstanding. Confirm edition readiness, ISBN/imprint and other metadata,
+price, purchase URL and publication approval before enabling sales.
 
-No public book listing or working purchase URL exists yet. Reuse Bookvault title
-**3822688** / internal SKU **9669932000017**; do not create a duplicate title.
-The saved notes distinguish Bookvault Shop from The Great British Bookshop:
-verify the actual chosen storefront, current selling costs and buyer journey
-before wiring a live link. **£17.50 is a working price**, and the ISBN is deferred
-until after the first proof. Final metadata, publication approval and public
-availability remain to be settled; do not present the book as already on sale.
-
-Website work can be developed and reviewed locally while the proof is pending.
-Its documented preview command is `npm run dev -- --host 127.0.0.1 --port 5175 --strictPort`,
-leaving port 5173 for print if in use. Inspect process ownership first; neither
-server is guaranteed to be running. John handles deployment unless he instructs
-otherwise. This handover requests documentation only: no website implementation,
-deployment, distribution activation or new session has been performed here.
+Website builds export to `hackriculture/dist/client/`; upload its contents to the
+domain root, not the parent folder or `dist/server`. John handles later uploads.
+Local preview uses `npm run dev -- --host 127.0.0.1 --port 5175 --strictPort`, leaving
+5173 for print. Check process ownership before starting either server; this
+handover does not assert that either remains running. No new session, order,
+email campaign, automation or publication action is part of this documentation update.
 
 ### Print checkpoint — first proof ordered
 
@@ -75,12 +99,13 @@ the cover and sampled interior spreads were checked in its visual proof. John th
 confirmed Bookvault’s artwork responsibility declaration, and “Approve proof” was
 submitted successfully. [Supplier checks and exact review coverage](../publication/bookvault-print-ready/SUPPLIER-CHECKS.json).
 **The first physical proof has been ordered by John.** He confirmed payment on
-19 October; the portal independently shows [order BV3012332](https://portal.bookvault.app/order?ID=3012332),
+19 October; the portal check on 19 October showed [order BV3012332](https://portal.bookvault.app/order?ID=3012332),
 reference 69932-#00001, created at 15:09, status **Created**. One copy totals
 **£12.58**: £6.31 standard UK production + £6.27 Royal Mail 1st Class, to the
 confirmed Truro address, postcode TR1 1BQ. [Order confirmation](../publication/bookvault-print-ready/supplier-proof-order-confirmed.png).
-Checkout estimated dispatch 28 October and delivery 29–30 October; the order page
-does not repeat those estimates. Await the copy, then assess cream consistency,
+The 19 October checkout estimated dispatch 28 October and delivery 29–30 October;
+these were estimates, and order progress has not been rechecked in this website
+session. Await the copy, then assess cream consistency,
 colour/detail, paper weight and opening comfort before final publication decisions.
 The agent did not place the order or pay. No additional order is authorised.
 Metadata/barcode placeholders remain; automatic barcode insertion was off at upload.
@@ -324,8 +349,9 @@ Both the waterproof quote monitor and compact preparation automation remain
 **paused**. No restart or new schedule is requested. The authorised upload, supplier
 checks and proof-order preparation are complete. John separately confirmed the
 artwork responsibility declaration, then placed and paid for the order himself.
-The next session is website sales-channel preparation, as described above. ISBN
-purchase is deferred until after the first proof. Further purchases, supplier
+The next session returns to printed-book preparation, as described above. The
+website is live, while book sales remain inactive. ISBN purchase is deferred
+until after the first proof. Further purchases, supplier
 messages, rights declarations, contract acceptance, distribution activation and
 deployment need applicable authorisation; completed actions are not standing
 approval for new ones. Preserve existing KDP titles; the old Practical Gardener
