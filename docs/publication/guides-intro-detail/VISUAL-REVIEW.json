@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-31",
+  "status": "Technical visual review passed; John approved this exact page on 31 October 2026",
+  "pdfSha256": "ba4afde9179f08b611a3f1ac05fed66b5cb61a2ca1015bac4a08243e4869bd65",
+  "folio": 9,
+  "unitScope": "Unit-neutral; identical imperial/metric source text verified",
+  "actualPdfRendersInspected": [
+    "page-9.png",
+    "spread-8-9.jpg"
+  ],
+  "sourceComparison": "Final actual PDF page and facing context inspected against the source page and preceding proposal; unchanged source/native widgets verified by the builder.",
+  "findings": [
+    "Three separate panels and the heading above them remain. The title, H4 artwork, calendar paragraph and labels are retained.",
+    "Only the first two difficulty examples remain: radish 1/5 and outdoor tomato 3/5. Both match canonical ratings.",
+    "Difficulty explanation column widened to 70 mm; crop images are 18 mm high, with 1 mm below each badge. Body type remains 10.5 pt.",
+    "Low demand and High demand are restored below 1 and 5. Core Needs values and scale squares remain intact.",
+    "No clipped text, missing images or collisions observed in the final page and facing spread. Footer clearance is 3.31 mm."
+  ],
+  "intentionalReplacements": [
+    "Original single containing panel and dividers remain replaced by three panels.",
+    "Original baby/Einstein art remains replaced by the radish and tomato examples; the third trial example has been removed.",
+    "The previous removal of Low demand / High demand has been reversed."
+  ],
+  "retainedSources": "Approved source HTML, styles, artwork, canonical ratings, shared copy and complete book remain unchanged; input hashes verified.",
+  "implementation": {
+    "scripts/build-guides-intro-detail.mjs": "310dd272cd6058e3f63a11ced6aa9be46a1ebfb94577b471fc2cf4c88c236475",
+    "scripts/review-guides-intro-detail.py": "fa16fd208c3725f2e109b62a035131e307ab155f9848ea94c1975672b0936088",
+    "docs/publication/guides-intro-detail/proposal.css": "f7f6cf59025d3a5d74132370c1ec0d8b2097c39bd24179ce9c8443604ed31f56",
+    "docs/publication/guides-intro-detail/opening.html": "169e13311bad0dd0a330858275312d52a206f26ca18218a165383c13d013d0c6"
+  },
+  "checks": "Focused builder fit checks and actual PDF text, image and embedded-font checks passed. Both source editions remain text-identical. Builder syntax and documentation links checked; no full book regeneration.",
+  "approval": "APPROVAL.json",
+  "approvalGuard": "Review-script freeze guard added after the final proof; PDF, render and layout unchanged."
+}

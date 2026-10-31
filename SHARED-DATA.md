@@ -35,7 +35,11 @@ use the admin-correction workflow with honest AI attribution. New copy cannot be
 self-approved. Print dependency signatures detect source/manual changes; refresh
 affected companions only after reviewing their meaning, not just their checksums.
 
-The current book-preparation task does not change canonical gardening records.
+The current book-preparation task does not rewrite canonical gardening advice.
+The completed 31 October exception saves exactly John’s 24 selected Troubles star
+flags (two earlier Brassica flags plus 22 additions); potato slugs remain unstarred.
+[Receipt and exact backup](docs/publication/troubles-rollout/STAR-SAVE-RECEIPT.json).
+Ranks, advice and unknown fields are preserved. This is not wider editing authority.
 Book-specific guide rewrites live in separate exact-source-checked working drafts
 under `src/print/book/`. Opening and cover copy lives in the shared
 [book-layout JSON folder](../hackriculture-data/book-layout/README.md), read by

@@ -1,0 +1,48 @@
+{
+  "approvedOn": "2026-10-31",
+  "approvedBy": "John",
+  "approvalText": "We're looking really good now - I'd like to roll all these changes out to the rest of the troubles pages.",
+  "scope": "The recommended Brassica composition and rollout of its image wrapping, enlarged diagnostic proportions, natural trailing space, importance-based ordering with bounded page-fit adjustments, separated pale feature panels and top-right ribbon styling. Does not approve unrendered guide compositions, proposed additional stars, final pagination or supplier output.",
+  "settings": {
+    "shapeMarginMm": 4,
+    "imageBoxCssPx": [
+      135,
+      157.5
+    ],
+    "importanceDescending": true,
+    "alphabeticalTieBreak": false,
+    "maxFitMovePages": 1,
+    "featuredEntriesSeparated": true,
+    "panelBackground": "retained",
+    "panelBorder": "none",
+    "ribbonPosition": "top right"
+  },
+  "followup": "John requested a disease/pest distinction and research into further stars before rebuilding. The 25-entry shortlist and proposed Common Problem label are recorded in the resource library; no new stars saved by that research pass.",
+  "sourceMasks": "docs/publication/brassica-flow-preview/MASKS.json",
+  "files": [
+    {
+      "path": "output/pdf/brassica-priority-study/brassica-fit-imperial.pdf",
+      "sha256": "ea5375e9acc6ced072953b43f8ff1915fac9ae0f21801b1d4f3fbe58fe060f3a"
+    },
+    {
+      "path": "output/pdf/brassica-priority-study/brassica-fit-metric.pdf",
+      "sha256": "d9b1916142e331a87314e986c7a00f36f1e623202cccd5ae1526759be6059536"
+    },
+    {
+      "path": "docs/publication/brassica-priority-study/imperial-fit.html",
+      "sha256": "23ed73696f6de55f194ba4f22eae5327fe2ab453a342a4e93e3214f8874c9634"
+    },
+    {
+      "path": "docs/publication/brassica-priority-study/metric-fit.html",
+      "sha256": "229ee5e3fbc3a5f3c609ce014d3438a7f3bbd83665806ef873649d24f65e45ec"
+    },
+    {
+      "path": "docs/publication/brassica-priority-study/CHECKS.json",
+      "sha256": "a63c3d80a8effc47bf52605939f589410aea7ed24112919efc32b4704b7f659a"
+    },
+    {
+      "path": "docs/publication/brassica-priority-study/PDF-CHECKS.json",
+      "sha256": "82de7e7b33f5c52e8714dabd858c9add40bf1906efb651bcc7f1070409d6432e"
+    }
+  ]
+}

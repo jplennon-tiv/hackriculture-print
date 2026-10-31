@@ -10,7 +10,7 @@ export type TroubleMask = {
 };
 export type TroubleFlowOptions = {
     masks:TroubleMask[];
-    priority?:{key:string;rank:number;star:boolean}[];
+    priority?:{key:string;rank:number;star:boolean;kind?:'pest'|'disease'|'problem'}[];
     /** Explicit reviewed experiment order. All source identities must remain. */
     order?:string[];
 };
@@ -22,8 +22,9 @@ export async function prepareTroubleFlow(page:Page, root:string, options:Trouble
     await page.addStyleTag({content:'.editorial-trouble header,.editorial-trouble .continuation header.has-crop-legend{padding-bottom:14px}'});
     if(options.priority) {
         await page.addStyleTag({content:`
-            .editorial-trouble .entry.featured{background:var(--wash);border-top:2px solid var(--accent);border-radius:9px 17px 12px 16px;padding:10px 11px 11px}
-            .editorial-trouble .feature-label{font:900 10px/1.2 'Nunito Sans',sans-serif;letter-spacing:.6px;color:var(--deep);text-transform:uppercase;margin:0 0 6px}
+            .editorial-trouble .entry.featured{background:var(--wash);border-top:0;border-radius:9px 17px 12px 16px;padding:10px 11px 11px}
+            .editorial-trouble .feature-label{display:flex;justify-content:flex-end;margin:0 0 7px;line-height:1}
+            .editorial-trouble .feature-label>span{display:block;background:var(--deep);color:var(--paper);font:400 13px/1 'Lilita One',sans-serif;padding:5px 8px 6px;border-radius:3px 8px 4px 6px;transform:rotate(2deg)}
         `});
         await page.evaluate(({priority,order})=>{
             const source=document.querySelector('.measure')!;
@@ -42,9 +43,12 @@ export async function prepareTroubleFlow(page:Page, root:string, options:Trouble
                 entry.dataset.importance=String(meta.rank);
                 if(meta.star) {
                     entry.classList.add('featured');
-                    // The shared star becomes a book panel label; avoid duplicating it in the title.
+                    // The shared star selects a ribbon panel; no duplicate glyph in the title.
                     const title=entry.querySelector('h2')!;title.textContent=title.textContent!.replace(/\s*★\s*$/,'');
-                    const label=document.createElement('p');label.className='feature-label';label.textContent='★ Most common';entry.prepend(label);
+                    const label=document.createElement('p');label.className='feature-label';
+                    const ribbon=document.createElement('span');
+                    ribbon.textContent=meta.kind==='disease'?'Common Disease':meta.kind==='problem'?'Common Problem':'Common Pest';
+                    label.append(ribbon);entry.prepend(label);
                 }
                 source.append(entry);
             }

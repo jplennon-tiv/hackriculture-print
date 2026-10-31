@@ -1,11 +1,11 @@
 import {currentTopicOrder} from './approved-reader-integration.mjs';
 import {escapeHtml as esc} from './book-content.mjs';
+import {troubleFamilies as defaultTroubleFamilies} from './book-family.mjs';
 
 // Existing house-style stock, reused without changing the source images.
 export const contentsArtwork = [
   {id:'H1',folio:4,role:'header',file:'docs/assets/vegetable-guru-stock/assets/h1-roots-beetroot-hero-style-v2.png'},
   {id:'H2',folio:5,role:'header',file:'docs/assets/vegetable-guru-stock/assets/h2-roots-turnips-hero-style-v2.png'},
-  {id:'H5',folio:5,role:'lower',file:'docs/assets/vegetable-guru-stock/assets/h5-growing-start-hero-style-v2.png'},
   {id:'H6',folio:5,role:'lower',file:'docs/assets/vegetable-guru-stock/assets/h6-growing-harvest-hero-style-v2.png'}
 ];
 
@@ -13,9 +13,9 @@ export const contentsArtwork = [
 export const compareGuideTitles=(a,b)=>a.label.localeCompare(b.label,'en-GB',{sensitivity:'base',ignorePunctuation:true});
 
 // Approved placement map; saved reference PDFs retain their original folios.
-export function createContentsPlan(base, sources, approvedGuides = {}, readerGuides = {}) {
+export function createContentsPlan(base, sources, approvedGuides = {}, readerGuides = {}, approvedTroubles = {}) {
   const plan = structuredClone(base);
-  plan.status = 'John-requested alphabetical vegetable order, 30 October 2026; approved bodies, family colours and all later sections retained.';
+  plan.status = 'Approved Troubles, category names and coloured contents integrated, 31 October 2026; alphabetical vegetables and approved bodies retained.';
   plan.vegetableOrder = 'Alphabetical by displayed guide title (en-GB); complete facing pairs, original family colours.';
   plan.openingPlan = [
     [1, 'Title'], [2, 'Publication details'],
@@ -48,6 +48,8 @@ export function createContentsPlan(base, sources, approvedGuides = {}, readerGui
       }
       const reader = readerGuides[unit]?.[doc.key];
       if(reader){if(reader.physicalPages!==doc.physicalPages)throw Error('Reader edit changed page count: '+doc.key);doc.readerApprovedReplacement=reader;doc.pdf=reader.pdf;doc.sha256=reader.sha256;}
+      const revised=doc.type==='trouble'&&approvedTroubles[unit]?.[doc.key];
+      if(revised){doc.troublesApprovedReplacement=revised;doc.pdf=revised.pdf;doc.sha256=revised.sha256;doc.physicalPages=revised.physicalPages;delete doc.readerApprovedReplacement;}
       doc.startPage = cursor; doc.endPage = cursor + doc.physicalPages - 1;
       doc.blankAfterPages = doc.type === 'vegetable' ? doc.physicalPages % 2 : 0;
       doc.blankFoliosAfter = Array.from({length:doc.blankAfterPages}, (_, i) => doc.endPage + i + 1);
@@ -79,7 +81,7 @@ export function createContentsPlan(base, sources, approvedGuides = {}, readerGui
   return {plan, topicMap};
 }
 
-export function renderUpdatedContents(data, units, plan) {
+export function renderUpdatedContents(data, units, plan, themes, troubleFamilies=defaultTroubleFamilies) {
   const toc = data.contents, extra = toc.expanded;
   if (!extra) throw Error('Missing expanded contents copy');
   const edition = plan.editions[units];
@@ -104,14 +106,18 @@ export function renderUpdatedContents(data, units, plan) {
     const identity = type + ':' + item.key, doc = documents.get(identity);
     if (!doc || seen.has(identity)) throw Error('Missing or duplicate guide: ' + identity);
     seen.add(identity); references.push({type, key:item.key, label:item.label, startPage:doc.startPage});
-    return `<li data-toc="${esc(item.label)}"><span>${esc(item.label)}</span><span class="page-ref">${doc.startPage}</span></li>`;
+    const family=type==='vegetable'?toc.families.find(f=>f.entries.some(e=>e.key===item.key))?.heading:troubleFamilies[item.key];
+    const theme=themes.find(t=>t.group===family);
+    if(!theme)throw Error('Missing contents family: '+identity);
+    return `<li class="${type==='vegetable'?'crop':'trouble'}-row" data-category="${esc(theme.group)}" style="--deep:${theme.deep}" data-toc="${esc(item.label)}"><span class="${type==='vegetable'?'crop':'trouble'}-name">${esc(item.label)}</span><span class="page-ref">${doc.startPage}</span></li>`;
   };
   const section = source => {
     const {item, folio} = destination(source);
     return `<h2 class="contents-section" data-source="${esc(source)}"><span>${esc(item.label)}</span><span class="page-ref">${folio}</span></h2>`;
   };
   const art = (folio,role) => contentsArtwork.filter(a=>a.folio===folio&&a.role===role).map(a=>`<img src="/${esc(a.file)}" alt="" aria-hidden="true" data-artwork="${a.id}">`).join('');
-  const sheet = (folio, body) => `<section class="sheet ${folio % 2 === 0 ? 'verso' : ''} contents-unified" data-folio="${folio}"><div class="content"><header class="contents-header"><h1>${esc(extra.page.heading.text)}</h1>${art(folio,'header')}</header>${body}${folio===5?`<div class="contents-lower-art" aria-hidden="true">${art(folio,'lower')}</div>`:''}</div><footer><span>${esc(data.book.title.toUpperCase())}</span><span>${units.toUpperCase()} · ${folio}</span></footer></section>`;
+  const key=`<aside class="category-key-panel" style="--key-fill:${themes.find(t=>t.id==='roots').wash}"><h3 class="category-key-title">Category colours</h3><div class="category-key" aria-label="Vegetable category colours">${themes.map(t=>`<div class="category-key-item" style="--deep:${t.deep}"><span class="category-key-swatch" aria-hidden="true"></span><span class="category-key-label">${esc(t.group)}</span></div>`).join('')}</div></aside>`;
+  const sheet = (folio, body) => `<section class="sheet ${folio % 2 === 0 ? 'verso' : ''} contents-unified coloured-text" data-folio="${folio}"><div class="content"><header class="contents-header"><h1>${esc(extra.page.heading.text)}</h1>${art(folio,'header')}</header>${body}${folio===5?`<div class="contents-lower-art">${key}${art(folio,'lower')}</div>`:''}</div><footer><span>${esc(data.book.title.toUpperCase())}</span><span>${units.toUpperCase()} · ${folio}</span></footer></section>`;
   const cropLabels=new Map(toc.families.flatMap(f=>f.entries).map(item=>[item.key,item]));
   const crops=edition.documents.filter(d=>d.type==='vegetable').map(d=>cropLabels.get(d.key));
   const first = sheet(4, `<ul class="opening-list">${['technique:why-grow'].map(row).join('')}</ul>${section('opening:varieties')}<div class="contents-grid"><ul>${row('opening:how-to')}${crops.slice(0,21).map(x => guideRow(x,'vegetable')).join('')}</ul><ul>${crops.slice(21).map(x => guideRow(x,'vegetable')).join('')}</ul></div>`);

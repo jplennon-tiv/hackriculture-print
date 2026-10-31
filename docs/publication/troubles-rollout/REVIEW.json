@@ -1,0 +1,154 @@
+{
+  "date": "2026-10-31",
+  "status": "Agent checks complete; John approved the complete proofs on 31 October 2026 (APPROVAL.json). Main-book integration is recorded separately; no supplier approval implied.",
+  "scope": {
+    "guides": 14,
+    "conditions": 220,
+    "highlights": 24,
+    "units": [
+      "imperial",
+      "metric"
+    ],
+    "pagesPerSection": 48,
+    "folios": [
+      99,
+      146
+    ]
+  },
+  "visualReview": {
+    "imperialFacingSpreadsInspected": [
+      "spread-100-101.jpg",
+      "spread-102-103.jpg",
+      "spread-104-105.jpg",
+      "spread-106-107.jpg",
+      "spread-108-109.jpg",
+      "spread-110-111.jpg",
+      "spread-112-113.jpg",
+      "spread-114-115.jpg",
+      "spread-116-117.jpg",
+      "spread-118-119.jpg",
+      "spread-120-121.jpg",
+      "spread-122-123.jpg",
+      "spread-124-125.jpg",
+      "spread-126-127.jpg",
+      "spread-128-129.jpg",
+      "spread-130-131.jpg",
+      "spread-132-133.jpg",
+      "spread-134-135.jpg",
+      "spread-136-137.jpg",
+      "spread-138-139.jpg",
+      "spread-140-141.jpg",
+      "spread-142-143.jpg",
+      "spread-144-145.jpg"
+    ],
+    "individualPagesInspected": [
+      "opener-99.png",
+      "turnip_swede_radish_troubles-imperial-3.png"
+    ],
+    "finalChangedSpreadsRechecked": [
+      "spread-112-113.jpg",
+      "spread-114-115.jpg",
+      "spread-116-117.jpg",
+      "spread-122-123.jpg",
+      "spread-124-125.jpg",
+      "spread-130-131.jpg"
+    ],
+    "metricComparison": "All guide renders are pixel-identical to imperial except Onion/Leek page 2 (folio 127); that metric page was separately inspected. Its Onion Fly caption is the expected unit change.",
+    "metricPagesSeparatelyInspected": [
+      "onion_and_leek_troubles-metric-2.png"
+    ],
+    "maskOverlayReview": "All 14 group contact sheets covering 220 image/mask pairs inspected; 29 frozen Brassica masks reused, 191 new masks. Visible source PNGs unchanged.",
+    "findings": [
+      "No observed clipping, image/text collisions or missing diagnostics on the inspected pages and spreads.",
+      "Pale borderless highlights and top-right classified ribbons are readable, with all advice retained.",
+      "Natural gaps and whole-entry boundaries are preserved; final pages deliberately retain trailing space.",
+      "Every substantial nonfinal column gap was checked against its next whole entry; none of those entries fits (see WHITESPACE.json).",
+      "Four guides use the documented two-rank-point search; every entry remains within one page of its fixed strict-priority baseline. All highlights occur in the first two pages of their group.",
+      "No consecutive features or feature overlap in adjacent columns or across facing gutters."
+    ],
+    "preExistingSourceDetailsRetained": [
+      "The Florence Fennel mulch and Leek Moth advice retain their existing paired metric/imperial dimensions; this layout task did not rewrite that advice.",
+      "The original diagnostic PNG backgrounds remain; SVG masks affect wrapping only."
+    ],
+    "maskContactsInspected": [
+      "bean_and_pea_troubles-masks.png",
+      "beetroot_troubles-masks.png",
+      "brassica_troubles-masks.png",
+      "carrot_and_parsnip_troubles-masks.png",
+      "celery_troubles-masks.png",
+      "cucurbit_troubles-masks.png",
+      "florence_fennel_troubles-masks.png",
+      "lettuce_troubles-masks.png",
+      "onion_and_leek_troubles-masks.png",
+      "oriental_leaves_troubles-masks.png",
+      "potato_troubles-masks.png",
+      "spinach_troubles-masks.png",
+      "tomato_troubles-masks.png",
+      "turnip_swede_radish_troubles-masks.png"
+    ]
+  },
+  "sourceComparison": {
+    "legacyCompactBodies": "All 28 editions match captured source advice, body glyph/type-size inventories and decoded embedded original images; see CHECKS.json and PDF-CHECKS.json.",
+    "brassicaFrozenReference": "All six pages in both units are pixel-identical at 1600 px to the accepted frozen fit specimen.",
+    "protectedFileHashes": {
+      "output/pdf/whole-book-order-preview/the-vegetable-guru-order-preview.pdf": "6432e2ff68f9f4c11b041ff6fec443843b59944d8b77482218db1a7273f42689",
+      "output/pdf/brassica-priority-study/brassica-fit-imperial.pdf": "ea5375e9acc6ced072953b43f8ff1915fac9ae0f21801b1d4f3fbe58fe060f3a",
+      "output/pdf/brassica-priority-study/brassica-fit-metric.pdf": "d9b1916142e331a87314e986c7a00f36f1e623202cccd5ae1526759be6059536"
+    },
+    "mainBookUnchanged": true
+  },
+  "whitespaceEvidence": "WHITESPACE.json",
+  "normalExportEvidence": "NORMAL-ROUTE-CHECKS.json",
+  "dataAndA4Evidence": "DATA-DEPENDENCIES.json",
+  "tests": [
+    {
+      "command": "npm test",
+      "passed": 43
+    },
+    {
+      "command": "npm run test:focused -- src/compactPdf.test.ts",
+      "passed": 5
+    },
+    {
+      "command": "node --test scripts/trouble-rollout-fit.test.mjs scripts/trouble-priority-fit.test.mjs",
+      "passed": 8,
+      "afterFinalFitChange": true
+    },
+    {
+      "command": "npm run check:types",
+      "status": "passed"
+    }
+  ],
+  "codeHashesVerifiedCurrent": {
+    "src/print/book/renderCompact.ts": "3f7e0d926110c1c3c219800340b9760ebb7d3467e27d5ca78eca927fe583ac46",
+    "src/print/book/troubleFlow.ts": "763d68ea387c57e0468098ff9649e72f57df0e58db1a7483a6078fb2b4a44c6a",
+    "src/print/book/troubleFeatures.json": "a629c5821fd9a5d157894c79fdac785e3a10eac0e79edc174a881c077e77ffe5",
+    "src/print/book/troubleMasks.json": "1919137cd18bf27332f92fb1c52f21ddd20736690f9d464e8fdb0a2bac0178af",
+    "scripts/lib/trouble-rollout-fit.mjs": "a85d2befacda34b9a23cb8f283dd096299c67991a07bdc685b6285c4fa38ea28",
+    "scripts/lib/trouble-priority-fit.mjs": "08d5c2d7382e481072608786fd77e4be7815e0010cf1e04c5052426e96c5a205",
+    "scripts/lib/troubles-rollout-io.mjs": "2e90c507d06ac5bde7d1b5d274515c646597a0f901aba0ed20f42f90280ba687",
+    "src/print/book/compact.css": "2ef16183fadf28bd4ec0e009bdd8cca1f304e23cec955a05206463a88dff488d",
+    "src/print/book/production.css": "37104408aaa64738b6adc02ee71f10046b907bf569ca696166df5b7d0549a8c1",
+    "src/print/book/bookvault.css": "3dd00547266db33c5b458c7a1e4942513961d68773560677a47fe9a4b14d1960"
+  },
+  "combinedOutputs": [
+    {
+      "units": "imperial",
+      "pages": 48,
+      "firstFolio": 99,
+      "lastFolio": 146,
+      "output": "output/pdf/troubles-rollout/vegetable-troubles-imperial.pdf",
+      "sha256": "15a5ffccd56d5b58a8ca78cda1af7157d5f1b0dfdb0816c18c47cef13c65359a"
+    },
+    {
+      "units": "metric",
+      "pages": 48,
+      "firstFolio": 99,
+      "lastFolio": 146,
+      "output": "output/pdf/troubles-rollout/vegetable-troubles-metric.pdf",
+      "sha256": "77f89ff84b8e77d18429e56fd2fd1cf435e4cfdb95fb562bfe6ebe74818c898d"
+    }
+  ],
+  "integration": "Exact approved pages integrated at 99–146 in the main book; see ../whole-book-order-preview/integration-2026-10-31/INTEGRATION-CHECKS.json. The protected main-book hash in sourceComparison records the preceding rollout comparison, not the later integrated output.",
+  "documentationEvidence": "DOC-CHECKS.json"
+}

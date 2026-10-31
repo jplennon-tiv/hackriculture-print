@@ -7,7 +7,9 @@ and returns the key to its lower panel beside the harvest basket. John preferred
 this position after trying the key beneath Troubles, and requested a paler fill.
 **John approved this complete composition on 30 October.** The
 [approval record](APPROVAL.json) binds the exact PDF, both HTML editions and styles.
-Integration into the main book remains pending; do not request approval again.
+The composition was integrated on 31 October in the
+[main book](../../whole-book-order-preview/README.md), with updated folios.
+This folder and its approval remain the frozen design source.
 
 [Review PDF](../../../../output/pdf/contents-colour-study/contents-with-key.pdf)
 · [Facing spread](spread.jpg) · [Revised second page](page-2.png)
@@ -35,12 +37,12 @@ loaded images, no label overflow, and 4.06 mm clearance above the footer on page
 All contents row boxes and text are unchanged; the first-page render is
 pixel-identical to approved A. Actual PDF colours for all 14 Troubles rows are
 verified against the existing mapping, and unchanged glyph positions, sizes and
-colours are preserved. The main book, how-to and shared JSON are unchanged.
+colours are preserved. That focused proof left the then-current main book,
+how-to and shared JSON unchanged. Current integration preserves the how-to.
 [Visual review](VISUAL-REVIEW.json) records final page and spread inspection.
 
-With Vite started through `start.command`, build using
-`node scripts/build-contents-key-preview.mjs`, then run
-`scripts/review-contents-key-preview.py` with bundled PDF Python. Sources are the
+The focused proof used `scripts/build-contents-key-preview.mjs` and
+`scripts/review-contents-key-preview.py`. Sources are the
 saved approved A HTML, guarded by approval hashes; `key.css` applies the revised
 Troubles colours, pale key panel and lower artwork layout. These files are now
 approved sources: preserve them and use separate paths for any further experiments.

@@ -1,8 +1,10 @@
+import {troubleFamilies} from './lib/book-family.mjs';
 import fs from 'node:fs';
 import path from 'node:path';
 import {execFileSync} from 'node:child_process';
 import {chromium} from 'playwright';
 import {build} from 'esbuild';
+import {loadApprovedTroubles} from './lib/approved-troubles.mjs';
 import {bookLayoutRevision} from '../../hackriculture-data/lib/book-layout.mjs';
 import {root, sharedRoot, sha256, readBookContent} from './lib/book-content.mjs';
 import {createContentsPlan, renderUpdatedContents, contentsArtwork} from './lib/book-contents.mjs';
@@ -49,29 +51,30 @@ const counts=JSON.parse(execFileSync(python,['-c','import json,sys; from pypdf i
 for(const [p,item] of Object.entries(inputs))if(counts[p]!==item.pages)throw Error('Actual PDF count changed: '+p);
 const approvedGuides=loadApprovedTwoPageGuides();
 applyApprovedTopics(sources);
-const {plan,topicMap}=createContentsPlan(basePlan,sources,approvedGuides.editions,loadReaderGuides());
-plan.currentApprovals={sectionReceipt,readerReceipt,plantCareApprovals};
+const {plan,topicMap}=createContentsPlan(basePlan,sources,approvedGuides.editions,loadReaderGuides(),loadApprovedTroubles().editions);
+plan.currentApprovals={sectionReceipt,readerReceipt,plantCareApprovals,troubles:loadApprovedTroubles().approval};
+plan.troublesOpener=loadApprovedTroubles().opener;
 plan.approvedGuides={path:approvedGuideReceipt,inputs:approvedGuides.inputs};
 plan.basePlan={path:basePath,sha256:sha256(fs.readFileSync(path.join(root,basePath)))};
-plan.limits=['John approved Netting and Supports and requested book integration on 30 October 2026.','172 interior pages; imperial full-book preview, not a final production/cost/spine specification.','Both-unit reference mapping is checked; no full metric book is assembled.','Frozen source PDFs and ordered Bookvault proof files remain unchanged.'];
+plan.limits=['John approved revised Troubles and requested integration with category names and coloured contents on 31 October 2026.','174 interior pages; imperial full-book preview, not a final production/cost/spine specification.','Both-unit reference mapping is checked; no full metric book is assembled.','Frozen source PDFs and ordered Bookvault proof files remain unchanged.'];
 write(dir+'/ASSEMBLY-PROPOSAL.json',plan);write(dir+'/TOPIC-FOLIOS.json',topicMap);
 const themes=json('src/print/familyThemes.json');
 const bundle=await build({entryPoints:[path.join(root,'src/print/book/production.ts')],bundle:true,platform:'node',format:'esm',packages:'external',write:false});
 const modulePath=path.join(root,'tmp/pdfs/contents-update/production.mjs');fs.writeFileSync(modulePath,bundle.outputFiles[0].contents);
 const {finishProductionPages}=await import(modulePath);
-const checks={date:'2026-10-30',status:'Two-page contents including approved Netting and Supports: PDF/visual check pending',bookRevision:book.revision,copyInputs:book.inputs,sourcePdfs:inputs,approvedGuideInputs:approvedGuides.inputs,protectedFiles,artwork,fullBookRegenerated:false,guidePdfsRegenerated:false,results:[]};
+const checks={date:'2026-10-31',status:'Approved coloured contents and key with current folios: PDF/visual check pending',bookRevision:book.revision,copyInputs:book.inputs,sourcePdfs:inputs,approvedGuideInputs:approvedGuides.inputs,protectedFiles,artwork,fullBookRegenerated:false,guidePdfsRegenerated:false,results:[]};
 const browser=await chromium.launch();
 try{
  const page=await browser.newPage();await page.route('**/@vite/client',r=>r.abort());
  for(const units of ['imperial','metric']){
-  const rendered=renderUpdatedContents(book.data,units,plan,themes);
-  const html=`<!doctype html><html lang="en"><head><meta charset="utf-8"><title>The Vegetable Guru · Updated contents · ${units}</title><link rel="stylesheet" href="/${dir}/contents.css"></head><body>${rendered.body}</body></html>`;
+  const rendered=renderUpdatedContents(book.data,units,plan,themes,troubleFamilies);
+  const html=`<!doctype html><html lang="en"><head><meta charset="utf-8"><title>The Vegetable Guru · Updated contents · ${units}</title><link rel="stylesheet" href="/docs/publication/contents-colour-study/key-preview/key.css"></head><body>${rendered.body}</body></html>`;
   fs.writeFileSync(path.join(root,dir,units+'.html'),html);
   await page.goto(base+'/'+dir+'/'+units+'.html');await page.emulateMedia({media:'print'});
   await page.evaluate(async()=>{await document.fonts.ready;await Promise.all([...document.images].map(i=>i.decode()));});
   const dom=await page.evaluate(()=>[...document.querySelectorAll('.sheet')].map(s=>{
     const b=s.getBoundingClientRect(),c=s.querySelector('.content').getBoundingClientRect(),f=s.querySelector('footer').getBoundingClientRect();
-    const blocks=[...s.querySelectorAll('li>span,h1,.contents-section>span,footer')].map(el=>{const r=el.getBoundingClientRect();if(el.scrollWidth>el.clientWidth+1)throw Error('Horizontal overflow: '+el.textContent);return {text:el.textContent.trim(),left:(r.left-b.left)*25.4/96,right:(r.right-b.left)*25.4/96,top:(r.top-b.top)*25.4/96,bottom:(r.bottom-b.top)*25.4/96};});
+    const blocks=[...s.querySelectorAll('li>span,h1,.contents-section>span,footer,.category-key-title,.category-key-label')].map(el=>{const r=el.getBoundingClientRect();if(el.scrollWidth>el.clientWidth+1)throw Error('Horizontal overflow: '+el.textContent);return {text:el.textContent.trim(),left:(r.left-b.left)*25.4/96,right:(r.right-b.left)*25.4/96,top:(r.top-b.top)*25.4/96,bottom:(r.bottom-b.top)*25.4/96};});
     const gap=(f.top-c.bottom)*25.4/96;if(gap<3)throw Error('Footer collision folio '+s.dataset.folio+': '+gap);
     const images=[...s.querySelectorAll('img')].map(i=>{
       const r=i.getBoundingClientRect();
@@ -101,7 +104,7 @@ try{
  if(bookLayoutRevision(sharedRoot)!==book.revision)throw Error('Copy changed during export');
  for(const [p,item] of Object.entries(inputs))if(sha256(fs.readFileSync(path.resolve(root,p)))!==item.sha256)throw Error('PDF source changed during export: '+p);
  checks.protectedFilesUnchanged=true;
- checks.implementation=Object.fromEntries(['scripts/build-updated-contents.mjs','scripts/lib/book-contents.mjs','scripts/lib/book-content.mjs',dir+'/contents.css','docs/publication/vegetable-guru-entry-pages/entry-pages.css','src/print/familyThemes.json'].map(p=>[p,sha256(fs.readFileSync(path.join(root,p)))]));
+ checks.implementation=Object.fromEntries(['scripts/build-updated-contents.mjs','scripts/lib/book-contents.mjs','scripts/lib/book-content.mjs',dir+'/contents.css','docs/publication/contents-colour-study/key-preview/key.css','docs/publication/contents-colour-study/study.css','docs/publication/vegetable-guru-entry-pages/entry-pages.css','src/print/familyThemes.json'].map(p=>[p,sha256(fs.readFileSync(path.join(root,p)))]));
  checks.assemblyProposalSha256=sha256(fs.readFileSync(path.join(root,dir,'ASSEMBLY-PROPOSAL.json')));
  write(dir+'/CHECKS.json',checks);
 }finally{await browser.close();fs.rmSync(modulePath,{force:true});}

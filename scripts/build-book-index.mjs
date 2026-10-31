@@ -10,7 +10,7 @@ if(args.some(a=>!['--topic-map=','--plan=','--review-dir=','--output-dir=','--st
 const option=name=>args.find(a=>a.startsWith(name+'='))?.slice(name.length+1);
 const resolved=resolveIndex({planPath:option('--plan'),topicMapPath:option('--topic-map')});
 if(!resolved.identicalEditionReferences)throw Error('Edition pagination differs: separate unit indexes are required before export. No existing proof overwritten.');
-const integrated=args.includes('--integrated'),startPage=Number(option('--start-page')||1),bookPdf=option('--book-pdf');
+const integrated=args.includes('--integrated'),startPage=Number(option('--start-page')||(integrated?JSON.parse(await fs.readFile(path.join(root,resolved.assemblyPlan.path),'utf8')).editions.imperial.index.startPage:1)),bookPdf=option('--book-pdf');
 if(!Number.isInteger(startPage)||startPage<1)throw Error('Invalid index start folio');
 if(integrated&&(!option('--review-dir')||!option('--output-dir')||!option('--topic-map')||!bookPdf))throw Error('Integrated index needs separate output directories and a topic map');
 const relative=option('--review-dir')||'docs/publication/book-index';

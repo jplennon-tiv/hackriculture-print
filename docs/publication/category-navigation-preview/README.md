@@ -3,7 +3,9 @@
 30 October 2026. John approved the larger category names on both guide pages
 and rejected the how-to colour key as clutter. The [scoped approval](APPROVAL.json)
 covers PDF pages 2–5 only. Page 1 is retained as rejected evidence and must not be
-integrated. Guide-wide application is pending. The main book is unchanged.
+integrated. On 31 October the approved names were applied to all 88 vegetable
+pages in the [main book](../whole-book-order-preview/README.md). The original
+how-to remains intact. This folder preserves the earlier scoped proof.
 
 [Review the pages](REVIEW.html) · [Five-page PDF](../../../output/pdf/category-navigation-preview/category-navigation-preview.pdf)
 
@@ -20,9 +22,9 @@ Its decorative title reduces from 48 to 34.5 pt and its H4 illustration from
 the 10.5 pt explanatory copy, native calendar/rating/needs examples or instructional
 illustrations. No advice is cut or rewritten.
 
-Sources are the current alphabetical main PDF and the clean approved reader-edit
+Sources were the 30 October alphabetical main PDF and the clean approved reader-edit
 how-to HTML, which retains the combined-opening composition and final calendar
-wording. All frozen sources and the main book remain byte-for-byte unchanged.
+wording. That preview left all frozen sources and the then-current main book unchanged.
 The guide examples reuse their native saved pages; only category text and the
 practical heading are replaced. No gardening or book-copy JSON changed.
 
@@ -37,8 +39,8 @@ Scope: saved imperial Carrot/Kale examples with a unit-neutral opening and label
 treatment. This is not a full catalogue fit test, a metric assembly or a supplier
 file. No full-book pagination, contents, index or production file was rebuilt.
 
-To revise, with loopback Vite running through `start.command`, run
-`node scripts/build-category-navigation-preview.mjs`, followed by
-`scripts/review-category-navigation-preview.py` with the bundled PDF Python.
-The editable proposal stylesheet and generated opening/label HTML stay here.
-The two focused scripts leave approved styles and runtime guide renderers intact.
+The original preview used `scripts/build-category-navigation-preview.mjs` and
+`scripts/review-category-navigation-preview.py`. Preserve this accepted proof;
+do not rebuild it in place. Current integration uses
+`scripts/lib/book-category-labels.mjs`, with all 88 headers measured and inspected.
+Any later design trial needs separate paths.

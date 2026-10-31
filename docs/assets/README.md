@@ -42,7 +42,7 @@ individual-guide exporter remains pending.
 
 The [30 October category-name approval](../publication/category-navigation-preview/APPROVAL.json)
 covers the larger coloured names on both pages of the Carrot and Kale examples.
-Guide-wide integration is pending. The how-to colour key in the same five-page
+The treatment is integrated on all 88 vegetable pages. The how-to colour key in the same five-page
 proof was rejected; do not treat the complete proof as approved.
 
 ## Growing Techniques: cultivation
@@ -54,9 +54,9 @@ hashes exact frozen PDFs in both units, text, layout sources and four placed
 illustration groups. Preserve its `references/approved-2026-10-08/` files.
 [Editable working text](../../../hackriculture-resources/summaries/cultivation-dig-no-dig/copy.json)
 remains in the resource library; John's later edits need updated proofs.
-The current imperial whole-book preview includes these pages at 155–158.
+The current imperial whole-book preview includes these pages at 157–160.
 The [author-requested digging derivative](../publication/digging-order/README.md)
-reorders the source-proof pages 158–159 (now 157–158): all double-digging steps first, single digging second. The
+reorders the source-proof pages 158–159 (now 159–160): all double-digging steps first, single digging second. The
 frozen approval remains the source; this changed layout is for review.
 The [earlier four-page derivative](../publication/cultivation-headings/README.md)
 also carries John's requested green “Cultivation” titles and orange page qualifiers.
@@ -72,7 +72,7 @@ John approved the [four-page index](../publication/book-index/REVIEW.html) on
 It reuses approved contents typography, palette and mirrored margins, with a
 text-only two-column composition. Editable words remain in shared
 `book-layout/index.json`. The current whole-book derivative has numeric folios
-at 168–171; historical T/C references remain only in the preserved standalone
+at 170–173; historical T/C references remain only in the preserved standalone
 proof. It includes the reader-edit and nutrient terms plus 11 Netting/Supports
 entries: 297 entries and 35 see references. Source artwork and frozen proofs remain unchanged.
 
@@ -151,13 +151,20 @@ artwork remains part of the design. All 44 hero files are now installed under
 `src/print/heroArtwork.json` is the active mapping. [Gallery](../redesign-rollout/REVIEW.html)
 and [AI provenance](../redesign-rollout/ARTWORK.json). Old hero artwork is preserved.
 
-Current book Troubles wrapping resources: the [full Brassica proof](../publication/brassica-flow-preview/README.md)
-uses source-bound [SVG masks](../publication/brassica-flow-preview/MASKS.json) alongside
-unchanged diagnostic PNGs. Its image settings are [approved](../publication/troubles-image-size-study/APPROVAL.json);
-its complete-guide composition is for review. The four approved specimen masks
-are reused byte for byte; 25 further masks have overlay and full-PDF checks.
-These are invisible layout resources, not replacement artwork or new transparency
-versions. The maintained report owns reuse/validation instructions and source hashes.
+Current book Troubles resources: the [complete 14-guide rollout](../publication/troubles-rollout/README.md)
+reuses the accepted [Brassica composition](../publication/brassica-priority-study/APPROVAL.json)
+and all 29 of its source-bound [masks](../publication/brassica-flow-preview/MASKS.json).
+The additional 191 invisible SVG masks live under
+`docs/publication/troubles-rollout/masks/`. The runtime manifest
+[`troubleMasks.json`](../../src/print/book/troubleMasks.json) binds all 220 original
+PNG hashes, mask hashes, geometry and URLs. Keep these resources available to the
+renderer; they are not disposable previews or replacement transparent artwork.
+All 14 overlay contact sheets and actual PDFs are reviewed in the rollout evidence.
+[`troubleFeatures.json`](../../src/print/book/troubleFeatures.json) holds the 24
+approved identities/classifications and links their selection receipt. Canonical
+stars are backed up and saved; original advice, ranks and drawings are retained.
+The frozen Brassica and A4 references remain intact. The new proofs are review
+outputs, not an approval of every new page or a supplier interior.
 
 Retained A4 Troubles design: [Open Editorial v1](../troubles-style-pilot/editorial/REVIEW.html),
 approved by John on 28 September. Its [manifest](../troubles-style-pilot/editorial/DESIGN-APPROVAL.json)
@@ -286,7 +293,7 @@ hero-style roots decorate the two headers; H5 seedlings and H6 harvest fill the
 second page’s lower space. These are existing stock, reused without modification;
 John accepted these placements for integration. Family/topic subheadings and
 explanatory notes remain omitted. The welcome entry is removed at John’s request;
-all 81 current destinations are included. Blank 3 puts the contents on facing pages
+all 83 current destinations are included. Blank 3 puts the contents on facing pages
 4–5, followed by blank 6, Introduction 7, blank 8 and the combined Vegetable Guides/how-to at right-hand page 9. Their current PDF is integrated into
 the complete imperial preview. The plain baseline and exact accepted illustrated
 4–5 proofs are retained under the contents reference folders. Original approved compact and A4 sources remain intact.
@@ -298,7 +305,7 @@ selected. The [complete contents approval](../publication/contents-colour-study/
 restores page 4 to A and colours the Troubles entries on page 5, with a paler
 key panel beside H6 harvest. H5 seedlings remains omitted, as John allowed;
 both headers are retained.
-The complete composition is approved but not yet integrated.
+The complete composition is approved and integrated at 4–5, with current folios.
 
 ## Illustrated how-to
 
@@ -356,6 +363,15 @@ with all needs rows on the same peach background and no Water stripe.
 The [approval record](../publication/combined-guides-opening/APPROVAL.json) preserves
 the exact PDF, rendered page and layout sources. It is now integrated at right-hand
 page 9, facing blank 8. Shared source copy and all frozen originals remain unchanged.
+
+The [approved 31 October page-9 revision](../publication/guides-intro-detail/README.md)
+uses three separate peach panels and native difficulty badges above the existing
+approved radish and outdoor tomato heroes (ratings 1 and 3). The latest revision
+removes the third example and restores Low demand / High demand. It retains
+H4 and the calendar/needs illustrations, replacing only the old difficulty
+endpoint art as requested. [Approval](../publication/guides-intro-detail/APPROVAL.json)
+locks its exact PDF, editable layout and asset hashes. Main-book replacement is
+pending the next requested update; the earlier approved source remains intact.
 
 ### Bookvault production adaptation — 19 October 2026
 

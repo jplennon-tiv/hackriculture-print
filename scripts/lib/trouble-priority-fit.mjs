@@ -30,7 +30,7 @@ export function explorePriorityFit(order,heights,capacities,metadata){
   const pages=packPriority(candidate,heights,capacities);if(!pages)return null;
   const pageByKey=Object.fromEntries(pages.flatMap((p,i)=>p.keys.map(k=>[k,i])));
   if(candidate.some(k=>Math.abs(pageByKey[k]-basePage[k])>1))return null;
-  // Protect the highest priority entries from being deferred beyond the opening.
+  // Protect rank-10 entries from deferral beyond their strict-order page.
   if(candidate.some(k=>ranks[k]===10&&pageByKey[k]>basePage[k]))return null;
   let inversions=0;
   for(let i=0;i<candidate.length;i++){

@@ -18,27 +18,23 @@ satisfied with its print quality, accurate colours, coated-paper feel and weight
 and book size. The post-proof layout pass has started: all 44 vegetable guides
 now run in alphabetical order by their displayed titles, retaining their original
 category colours and complete facing pairs. Contents, index and internal page
-references follow that order. The larger category names are approved, awaiting integration; the how-to key
-was rejected. John has selected [contents option A](docs/publication/contents-colour-study/APPROVAL.json),
-with category-coloured crop names. The [revised contents proof](docs/publication/contents-colour-study/key-preview/README.md)
-colours the Troubles entries and restores the lower key panel beside the harvest
-basket with a paler background. John has approved it; navigation changes
-await integration into the main book. A separate proof removes the repeated
-“Recognise → Act → Prevent” page headers from Troubles and explains the sequence
-on its opener. The [revised section proof](docs/publication/troubles-header-refinement/README.md)
-retains the small labels within each problem's advice.
-John's 31 October request explores separate masks for text flowing around Troubles
-illustrations. He has approved the 4 mm gap and 25% larger proportions in the
-[Brassica size comparison](docs/publication/troubles-image-size-study/README.md)
-for all book Troubles guides, preserving source artwork and advice. He now wants
-unused space to trail on each guide's final page. The
-[complete Brassica proof](docs/publication/brassica-flow-preview/README.md) now combines
-both changes: six pages, all 29 problems, checked in both units, for review before
-rollout to other guides. An opt-in profile preserves ordinary exports and the main
-book. The maintained contract, skill and handover replace the old balancing rules.
-Netting and Supports are approved and integrated at **160–163** in the
-[main book](docs/publication/whole-book-order-preview/REVIEW.html#spread=81),
-with updated contents, page numbering, crop links and index. The introduction
+references follow that order. The approved larger category names now appear on both pages of all 44 guides. The
+[coloured contents and pale category key](docs/publication/contents-colour-study/key-preview/APPROVAL.json)
+are integrated at 4–5; the existing how-to page is unchanged.
+The subsequent [page-9 revision](docs/publication/guides-intro-detail/README.md)
+is now approved: three how-to panels, revised calendar copy, two difficulty
+examples and restored needs captions. Its exact proof is locked for the next
+requested book update; the complete book still contains the earlier page.
+John approved the [complete revised Troubles set](docs/publication/troubles-rollout/APPROVAL.json)
+on 31 October and requested main-book integration. The exact approved pages are
+now at **99–146**, retaining 220 conditions, 24 classified highlights, separate
+wrapping masks, 4 mm clearance, enlarged illustrations, importance order and
+natural trailing space. Potato slugs remain unstarred. Contents, index,
+bookmarks, crop links and numeric cross-references follow the revised locations.
+The [main-book evidence](docs/publication/whole-book-order-preview/README.md)
+records source preservation and actual PDF checks. Netting is now **162–163**,
+Supports **164–165**, and the index **170–173**.
+The introduction
 rewrite remains planned. The
 [website is live](https://hackriculture.com/) and he confirms the SSL issue has
 resolved. The [current handover](docs/handover/START-HERE.md#resume-here) records
@@ -82,16 +78,15 @@ in this and future sessions. Its maintained source is shared across the data,
 print, website and video projects.
 
 The [current full preview](docs/publication/whole-book-order-preview/REVIEW.html)
-contains **172 interior pages plus four cover leaves: 176 PDF pages**, imperial.
+contains **174 interior pages plus four cover leaves: 178 PDF pages**, imperial.
 All approved reader edits, expanded Crop rotation & planning, the nutrient page
 and John's Growing Techniques headings, Netting and Supports are integrated. Its two internal
 blank pages have been removed. All 44 vegetables remain two-page facing guides. Contents, index and
-page references are refreshed; highlights are removed and original gardening
-JSON remains unchanged. [Current page map and evidence](docs/publication/whole-book-order-preview/README.md).
+page references are refreshed; editing annotations are absent. The approved Troubles highlights remain intentional. Canonical advice is unchanged; the previously approved 24 star flags are retained. [Current page map and evidence](docs/publication/whole-book-order-preview/README.md).
 
 The opening sequence is title, publication, blank 3, facing contents 4–5,
 blank 6, Introduction 7, blank 8 and combined Guides/how-to at 9. Troubles and
-Techniques start on right-hand pages 99 and 145. G2 front, B5 back and approved
+Techniques start on right-hand pages 99 and 147. G2 front, B5 back and approved
 publication/back-cover copy are retained, with missing metadata left as placeholders.
 Exact component sources are in the [asset registry](docs/assets/README.md).
 The older [technical pack](docs/publication/book-preparation/REVIEW.html) is
@@ -103,7 +98,7 @@ admin password. Keep its terminal open; Control-C stops it. Admin saves and
 browser-rendered PDFs need this server. Normal exports use no AI service.
 Detailed startup and check commands are in [SETUP.md](SETUP.md).
 
-The current index has 297 entries and 35 see references on pages 168–171.
+The current index has 297 entries and 35 see references on pages 170–173.
 Contents retain two simple illustrated pages with 83 destinations and no extra
 subheadings. [Contents notes](docs/publication/contents-update/README.md) and
 [index notes](docs/publication/book-index/README.md) distinguish current derivatives

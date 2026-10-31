@@ -1,7 +1,9 @@
 # Brassica Troubles: complete-guide flow proof
 
-31 October 2026. **For John's review: six pages, folios 106–111, 29 complete
-problems.** The 25% larger diagnostic boxes, separate wrapping masks and 4 mm gap
+31 October 2026. **Retained comparison source: six pages, folios 106–111,
+29 complete problems.** Continuing work is the [importance/feature/fit study](../brassica-priority-study/README.md).
+This older sequence is superseded; the masks and PDF content baseline remain required.
+The [reference lock](REFERENCE-LOCK.json) preserves these files without implying user approval. The 25% larger diagnostic boxes, separate wrapping masks and 4 mm gap
 are already approved. This proof tests their complete-guide composition together
 with the requested natural flow and trailing final-page space. It is not a new
 approval, a main-book replacement or a supplier upload.
@@ -109,23 +111,14 @@ final argument `prepareCompactBook(..., production, {masks})`. The ordinary API,
 A4, other guides and main-book assembly do **not** opt in. The old default planner
 is retained for compatibility until rollout, not as a design instruction.
 
-Start Vite through `start.command` on loopback, following [SETUP](../../../SETUP.md).
-Then run these sequentially from the project root:
-
-```sh
-node scripts/build-brassica-flow-preview.mjs
-/Users/johnlennon/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 scripts/review-brassica-flow-preview.py
-```
-
-The [bounded builder](../../../scripts/build-brassica-flow-preview.mjs) captures both
-baselines, makes/verifies masks, renders both new editions, writes HTML/measurements
-and checks protected files. The [PDF checker](../../../scripts/review-brassica-flow-preview.py)
-compares actual body glyphs/type sizes and decoded embedded images, verifies fonts,
-proves the packing constraints, writes trim-only PDFs and renders every page/spread.
-It also compares the imperial baseline body with the existing main book. No full-book
-builder or historical collection-preparation runner is needed. Both scripts refuse
-to overwrite this proof once an `APPROVAL.json` is present. Temporary component PDFs
-are in `tmp/pdfs/brassica-flow-preview/`; final outputs are linked above.
+The original [builder](../../../scripts/build-brassica-flow-preview.mjs) and
+[PDF checker](../../../scripts/review-brassica-flow-preview.py) are retained as
+method evidence and refuse to overwrite this reference. Continue with the
+[current priority-study commands](../brassica-priority-study/README.md#fit-weighting-limits-and-reproducibility).
+This supersedes the previous live rebuild instructions; do not remove the lock
+to resume the old sequence. Temporary component PDFs are under
+`tmp/pdfs/brassica-flow-preview/`; the mask files, saved HTML and final PDFs are
+required inputs to the new comparison and must not be pruned.
 
 ## Verification and status
 

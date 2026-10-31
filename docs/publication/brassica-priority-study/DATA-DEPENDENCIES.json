@@ -1,0 +1,25 @@
+{
+  "previousSignature": "c955e02718fc39c44dfc34b92ad77b3b78e0d04b70ca92df6c888e5dc17d08ba",
+  "sourceSignature": "cd1a9bd31d1ffb3524e70a14b1614c71e27526e0ff244a01421bf8dc271ab297",
+  "onlySourceDeltaIsTheTwoStars": true,
+  "changedLocalFiles": [
+    "src/print/bookPagination.json",
+    "public/front-matter/pagination.json"
+  ],
+  "allPageCountsAndFoliosPreserved": true,
+  "a4": [
+    {
+      "units": "imperial",
+      "pages": 6,
+      "warnings": "[]"
+    },
+    {
+      "units": "metric",
+      "pages": 6,
+      "warnings": "[]"
+    }
+  ],
+  "reason": "Both-unit focused Brassica measurements remain six A4 pages. Exact signature reconstruction excludes unrelated changes. Refresh metadata only; retained A4 contents PDFs need no numerical changes.",
+  "layoutAndAdviceCompanions": "Star is outside layoutSourceSignature and no advice fields changed. Source routes report no companion warnings.",
+  "mainBookUnchanged": true
+}

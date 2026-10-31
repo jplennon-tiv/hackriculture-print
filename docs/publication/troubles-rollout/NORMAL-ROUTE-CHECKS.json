@@ -1,0 +1,259 @@
+{
+  "a4": [
+    {
+      "key": "bean_and_pea_troubles",
+      "units": "imperial",
+      "ready": "true",
+      "warnings": []
+    },
+    {
+      "key": "bean_and_pea_troubles",
+      "units": "metric",
+      "ready": "true",
+      "warnings": []
+    },
+    {
+      "key": "beetroot_troubles",
+      "units": "imperial",
+      "ready": "true",
+      "warnings": []
+    },
+    {
+      "key": "beetroot_troubles",
+      "units": "metric",
+      "ready": "true",
+      "warnings": []
+    },
+    {
+      "key": "brassica_troubles",
+      "units": "imperial",
+      "ready": "true",
+      "warnings": []
+    },
+    {
+      "key": "brassica_troubles",
+      "units": "metric",
+      "ready": "true",
+      "warnings": []
+    },
+    {
+      "key": "carrot_and_parsnip_troubles",
+      "units": "imperial",
+      "ready": "true",
+      "warnings": []
+    },
+    {
+      "key": "carrot_and_parsnip_troubles",
+      "units": "metric",
+      "ready": "true",
+      "warnings": []
+    },
+    {
+      "key": "celery_troubles",
+      "units": "imperial",
+      "ready": "true",
+      "warnings": []
+    },
+    {
+      "key": "celery_troubles",
+      "units": "metric",
+      "ready": "true",
+      "warnings": []
+    },
+    {
+      "key": "cucurbit_troubles",
+      "units": "imperial",
+      "ready": "true",
+      "warnings": []
+    },
+    {
+      "key": "cucurbit_troubles",
+      "units": "metric",
+      "ready": "true",
+      "warnings": []
+    },
+    {
+      "key": "florence_fennel_troubles",
+      "units": "imperial",
+      "ready": "true",
+      "warnings": []
+    },
+    {
+      "key": "florence_fennel_troubles",
+      "units": "metric",
+      "ready": "true",
+      "warnings": []
+    },
+    {
+      "key": "lettuce_troubles",
+      "units": "imperial",
+      "ready": "true",
+      "warnings": []
+    },
+    {
+      "key": "lettuce_troubles",
+      "units": "metric",
+      "ready": "true",
+      "warnings": []
+    },
+    {
+      "key": "onion_and_leek_troubles",
+      "units": "imperial",
+      "ready": "true",
+      "warnings": []
+    },
+    {
+      "key": "onion_and_leek_troubles",
+      "units": "metric",
+      "ready": "true",
+      "warnings": []
+    },
+    {
+      "key": "oriental_leaves_troubles",
+      "units": "imperial",
+      "ready": "true",
+      "warnings": []
+    },
+    {
+      "key": "oriental_leaves_troubles",
+      "units": "metric",
+      "ready": "true",
+      "warnings": []
+    },
+    {
+      "key": "potato_troubles",
+      "units": "imperial",
+      "ready": "true",
+      "warnings": []
+    },
+    {
+      "key": "potato_troubles",
+      "units": "metric",
+      "ready": "true",
+      "warnings": []
+    },
+    {
+      "key": "spinach_troubles",
+      "units": "imperial",
+      "ready": "true",
+      "warnings": []
+    },
+    {
+      "key": "spinach_troubles",
+      "units": "metric",
+      "ready": "true",
+      "warnings": []
+    },
+    {
+      "key": "tomato_troubles",
+      "units": "imperial",
+      "ready": "true",
+      "warnings": []
+    },
+    {
+      "key": "tomato_troubles",
+      "units": "metric",
+      "ready": "true",
+      "warnings": []
+    },
+    {
+      "key": "turnip_swede_radish_troubles",
+      "units": "imperial",
+      "ready": "true",
+      "warnings": []
+    },
+    {
+      "key": "turnip_swede_radish_troubles",
+      "units": "metric",
+      "ready": "true",
+      "warnings": []
+    }
+  ],
+  "compact": [
+    {
+      "key": "brassica_troubles",
+      "units": "imperial",
+      "status": 200,
+      "bytes": 51174071,
+      "pages": 6,
+      "expectedRibbonLabels": [
+        "Common Pest",
+        "Common Pest"
+      ],
+      "ribbonsVerified": true,
+      "sha256": "00825b69aef17d409edaf69b0b0041ef4be9b56f8d400271c721245877df662b",
+      "output": "tmp/pdfs/troubles-rollout/api-brassica_troubles-imperial.pdf"
+    },
+    {
+      "key": "tomato_troubles",
+      "units": "metric",
+      "status": 200,
+      "bytes": 49213585,
+      "pages": 5,
+      "expectedRibbonLabels": [
+        "Common Disease",
+        "Common Pest",
+        "Common Problem"
+      ],
+      "ribbonsVerified": true,
+      "sha256": "06ab489d1bc297a438a4d682ded66c79ce3fb9f4dadb64a18f43808afcca6bdf",
+      "output": "tmp/pdfs/troubles-rollout/api-tomato_troubles-metric.pdf"
+    },
+    {
+      "key": "carrot_and_parsnip_troubles",
+      "units": "imperial",
+      "status": 200,
+      "bytes": 14937626,
+      "output": "tmp/pdfs/troubles-rollout/api-carrot_and_parsnip_troubles-imperial.pdf",
+      "pages": 4,
+      "expectedRibbonLabels": [
+        "Common Pest",
+        "Common Disease"
+      ],
+      "ribbonsVerified": true,
+      "sha256": "6bcbc6ee222a50df2d3e244304ae812ecc988fefa1ad7143d726d53edba1230d"
+    },
+    {
+      "key": "carrot_and_parsnip_troubles",
+      "units": "metric",
+      "status": 200,
+      "bytes": 14937400,
+      "output": "tmp/pdfs/troubles-rollout/api-carrot_and_parsnip_troubles-metric.pdf",
+      "pages": 4,
+      "expectedRibbonLabels": [
+        "Common Pest",
+        "Common Disease"
+      ],
+      "ribbonsVerified": true,
+      "sha256": "d022d48430316a14e0bdec3c58efc2b5b2074e46f212d273ce766075b127cb1d"
+    },
+    {
+      "key": "lettuce_troubles",
+      "units": "imperial",
+      "status": 200,
+      "bytes": 29668202,
+      "output": "tmp/pdfs/troubles-rollout/api-lettuce_troubles-imperial.pdf",
+      "pages": 3,
+      "expectedRibbonLabels": [
+        "Common Pest",
+        "Common Problem"
+      ],
+      "ribbonsVerified": true,
+      "sha256": "5fe7046d9133953d13d851cf23c6d3540270a975fa931321b11019cf5148ef2f"
+    },
+    {
+      "key": "oriental_leaves_troubles",
+      "units": "metric",
+      "status": 200,
+      "bytes": 19373359,
+      "output": "tmp/pdfs/troubles-rollout/api-oriental_leaves_troubles-metric.pdf",
+      "pages": 2,
+      "expectedRibbonLabels": [
+        "Common Pest",
+        "Common Problem"
+      ],
+      "ribbonsVerified": true,
+      "sha256": "c86c70084c73322388171a0803f3759073835c9ba7deb1feb6be12402c26ceaf"
+    }
+  ]
+}

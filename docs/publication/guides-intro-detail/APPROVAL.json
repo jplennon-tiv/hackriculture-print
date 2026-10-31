@@ -1,0 +1,63 @@
+{
+  "date": "2026-10-31",
+  "approvedBy": "John Lennon",
+  "statement": "That's good - changes approved.",
+  "status": "approved; main-book integration pending next requested update",
+  "scope": "Final three-panel Vegetable Guides intro, with only radish and tomato difficulty examples and restored Low demand / High demand captions.",
+  "proof": {
+    "path": "output/pdf/guides-intro-detail/vegetable-guides-intro.pdf",
+    "sha256": "ba4afde9179f08b611a3f1ac05fed66b5cb61a2ca1015bac4a08243e4869bd65",
+    "pages": 1,
+    "interiorFolio": 9,
+    "edition": "Unit-neutral; identical source editions verified"
+  },
+  "decisions": [
+    "Three separate pale-peach panels; How to use the guides above them.",
+    "John’s exact UK calendar paragraph; Normal planting / Extended season headers.",
+    "Only radish 1/5 and outdoor tomato 3/5 badges and approved crop images.",
+    "Low demand and High demand restored beneath 1 and 5.",
+    "Existing title/H4 artwork, 10.5 pt body text, native calendar dates and needs values retained."
+  ],
+  "frozen": {
+    "output/pdf/guides-intro-detail/vegetable-guides-intro.pdf": "ba4afde9179f08b611a3f1ac05fed66b5cb61a2ca1015bac4a08243e4869bd65",
+    "docs/publication/guides-intro-detail/opening.html": "169e13311bad0dd0a330858275312d52a206f26ca18218a165383c13d013d0c6",
+    "docs/publication/guides-intro-detail/proposal.css": "f7f6cf59025d3a5d74132370c1ec0d8b2097c39bd24179ce9c8443604ed31f56",
+    "docs/publication/guides-intro-detail/page-9.png": "0099f059a7f448896ab85a1adc786b75155d2646d6342a6f856e5206d3629a5a",
+    "docs/publication/guides-intro-detail/comparison.jpg": "a76331dec449ed74fe48ee4534a3a96e783bc3c5ccece7c063d67e0a01248811",
+    "docs/publication/guides-intro-detail/spread-8-9.jpg": "91fb7fdb501f0bab9a8eda7c511f307d5cfcf7661239761e3a07e55ce0c6fc6b",
+    "docs/publication/guides-intro-detail/CHECKS.json": "d4290df65ded9fb7a21a8d2db111ee6edae9fe5d05fe252f245e5f94ad1b15f6",
+    "docs/publication/guides-intro-detail/PDF-CHECKS.json": "75d5eb4ea9f4e290c8df3a471342d6eac1d9519f822826a91eaad521a6a846b6",
+    "docs/publication/guides-intro-detail/VISUAL-REVIEW.json": "614edb4a8e7cc8697c48cb776747e58a79286c35f52744b315a581d6d9cd3ac2",
+    "scripts/build-guides-intro-detail.mjs": "310dd272cd6058e3f63a11ced6aa9be46a1ebfb94577b471fc2cf4c88c236475",
+    "scripts/review-guides-intro-detail.py": "fa16fd208c3725f2e109b62a035131e307ab155f9848ea94c1975672b0936088"
+  },
+  "inheritedStyles": {
+    "docs/publication/combined-guides-opening/opening.css": "613284092f4f7994e5ff6aab2e4b75f8578b8e810b365e1947cf30cece055095",
+    "docs/publication/guide-key/guide-key.css": "66c61ccc781fdb033ad75e7cf3e37d232a389027bc8969dbf9eacb314b397461",
+    "docs/publication/vegetable-guru-entry-pages/entry-pages.css": "9796fac872f5e80f95799912f2da7dd690734dffa2b7af7336f0b8bcd8c39d43"
+  },
+  "artwork": {
+    "docs/assets/vegetable-guru-stock/assets/h4-summer-aubergines-hero-style-v2.png": "c71da57861c121fd15a6395bbe801e0bd58994da051e4cfe375b8f6b428a3ac5",
+    "docs/front-matter/entry-pages/calendar-assets/temperate-field.svg": "95774a8db9580af42048616e14362c203d99043b651789dbaaf7d4c47d9c8a2a",
+    "docs/front-matter/entry-pages/calendar-assets/tropical-island.svg": "d5d1edc613476358bae63ea8c0df310730d20e2dd260e3b42d25777987c002de",
+    "public/images/heroes/richer-a/radish.png": "ec100382eb7b5752f822e75cc0ca8d46dcde8ac473dde6fb55ce9fbe66aa26e1",
+    "public/images/heroes/richer-a/tomato_outdoor.png": "88e24053a50f28518934aa2df026bd685c7e330718cc0485945e86359a024f15",
+    "public/images/coloured-icons/style-a-v1/sun.svg": "e90866bce6f2f468a8751456055a6b0d61a5d2c36365d9de7b8a1149b920e590",
+    "public/images/coloured-icons/style-a-v1/water.svg": "7724cb9ac4f56548c19202a76f62c34570f516121d3dbd1db53e524b2b6bff52",
+    "public/images/coloured-icons/style-a-v1/feeding.svg": "3e608d406e7215df408c2479e1f2cb93614341de4dd86bb1a6e6c3417375acf0",
+    "docs/front-matter/entry-pages/scales-study/assets/dropper.svg": "65ddeeee2ddb263ad6783bb965e88a230faa3f1e4703e78e8c9a1674cae93c65",
+    "docs/front-matter/entry-pages/scales-study/assets/wave.svg": "17af6bd7340b2d359db3ec88c20acfb2fcb81436916afa04302d9f39e1970723"
+  },
+  "fonts": {
+    "public/fonts/richer-a-1.woff2": "d2575d4fa3632580aafcbcdf6978b3b57e144b90cf5bd9c2c98194f28b869704",
+    "public/fonts/richer-a-6.woff2": "29e3890496844a9ea81975c52771c587c872b4eb317026422d1995b88d21b57d"
+  },
+  "mainBookAtApproval": {
+    "path": "output/pdf/whole-book-order-preview/the-vegetable-guru-order-preview.pdf",
+    "sha256": "2fdba2be30bfdb278dbc97f6e9b7346d039328ce10b54a4e9f1a206c1d22ae4d",
+    "interiorPages": 174,
+    "changedByApproval": false
+  },
+  "sharedCopyStatus": "Approved wording remains bound in the accepted HTML and builder. Synchronise through the guarded writer during the next requested book integration; no JSON mutation in this approval step.",
+  "preservation": "Earlier approved compact/A4 sources and all canonical ratings remain unchanged. Further revisions use separate paths; both focused scripts refuse to overwrite this approved set."
+}

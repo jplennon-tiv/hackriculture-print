@@ -1,0 +1,21 @@
+@import url('/docs/publication/combined-guides-opening/opening.css');
+
+/* Focused page-9 proposal. The approved source remains untouched. */
+.opening-title{height:42mm}
+.how-panel{background:none;border-radius:0;padding:0;margin-top:4mm}
+.how-panel .panel-heading{margin:0 0 3mm}
+.how-panel>.guide-panel{background:#ffe1b7;border:0;border-radius:3mm 7mm 3mm 5mm;padding:3mm;margin:0}
+.how-panel>.guide-panel+.guide-panel{margin-top:3mm}
+.how-panel .key-calendar>p,.how-panel .scale-copy>p{font-size:14px;line-height:1.3}
+.key-climate h3{font-size:16px;line-height:1.15;white-space:nowrap}
+.how-panel .difficulty{grid-template-columns:70mm 1fr;column-gap:5mm}
+.difficulty .scale-art{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:3mm;align-items:start}
+.difficulty-example{display:flex;flex-direction:column;align-items:center;gap:1mm;min-width:0}
+.difficulty-example .native-difficulty{width:26mm;height:13.5mm;flex:none}
+.difficulty-example .native-difficulty>small{font-size:9.4px}
+.difficulty-example .native-difficulty>strong{font-size:16px}
+.difficulty-example .native-difficulty .difficulty-rating>b{font-size:9.4px}
+.difficulty-example>img{display:block;width:22mm;height:18mm;object-fit:contain}
+.how-panel>.water{grid-template-columns:70mm 1fr;column-gap:6mm}
+.how-panel .water .endpoint figcaption{margin-top:0}
+.how-panel .water .endpoint img{height:11mm}

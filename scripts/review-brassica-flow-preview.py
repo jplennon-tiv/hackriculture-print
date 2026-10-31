@@ -15,8 +15,8 @@ ROOT = Path(__file__).resolve().parents[1]
 EV = ROOT / 'docs/publication/brassica-flow-preview'
 TMP = ROOT / 'tmp/pdfs/brassica-flow-preview'
 OUT = ROOT / 'output/pdf/brassica-flow-preview'
-if (EV/'APPROVAL.json').exists():
-    raise SystemExit('Approved full-guide proof is frozen; use a new working path')
+if (EV/'APPROVAL.json').exists() or (EV/'REFERENCE-LOCK.json').exists():
+    raise SystemExit('Retained full-guide source is frozen; continue in the priority study')
 OUT.mkdir(parents=True, exist_ok=True)
 DOM = json.loads((EV / 'CHECKS.json').read_text())
 

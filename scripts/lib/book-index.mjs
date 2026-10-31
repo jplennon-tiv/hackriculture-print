@@ -4,6 +4,7 @@ import {createHash} from 'node:crypto';
 import {execFileSync} from 'node:child_process';
 import {readBookContent, root, sharedRoot} from './book-content.mjs';
 import {readCollection} from '../../../hackriculture-data/lib/records.mjs';
+import {loadApprovedTroubles} from './approved-troubles.mjs';
 import {loadReaderGuides} from './approved-reader-integration.mjs';
 import {loadApprovedTwoPageGuides} from './approved-two-page-guides.mjs';
 
@@ -59,6 +60,7 @@ export function resolveIndex({planPath='docs/publication/book-preparation/ASSEMB
   const inputs={},cache=new Map();
   const approvedGuides=plan.approvedGuides?loadApprovedTwoPageGuides().editions:{};
   const readerGuides=plan.currentApprovals?loadReaderGuides():{};
+  const approvedTroubles=plan.currentApprovals?.troubles?loadApprovedTroubles().editions:{};
   const pdfPaths=[...new Set([
     ...Object.values(plan.editions).flatMap(e=>[...e.documents,...(e.additions||[])].map(d=>path.resolve(root,d.pdf))),
     ...topicChecks.results.map(e=>path.resolve(root,e.path)),
@@ -82,12 +84,12 @@ export function resolveIndex({planPath='docs/publication/book-preparation/ASSEMB
     const registry=new Map();
     for (const d of plan.editions[units].documents) {
       const replacement=approvedGuides[units]?.[d.key];
-      const receipt=d.readerApprovedReplacement?readerGuides[units]?.[d.key]:d.approvedReplacement?replacement:production.results.find(p=>p.id===d.id);
+      const receipt=d.troublesApprovedReplacement?approvedTroubles[units]?.[d.key]:d.readerApprovedReplacement?readerGuides[units]?.[d.key]:d.approvedReplacement?replacement:production.results.find(p=>p.id===d.id);
       if (!receipt || receipt.sha256!==d.sha256) throw Error('Production/assembly source mismatch: '+d.id);
       const texts=readPdf(d.pdf,d.sha256,d.physicalPages);
-      const dom=d.readerApprovedReplacement&&d.type==='trouble'?production.results.find(p=>p.id===d.id).dom.texts:(d.approvedReplacement||d.readerApprovedReplacement)?texts:receipt.dom.texts;
+      const dom=d.troublesApprovedReplacement?texts:d.readerApprovedReplacement&&d.type==='trouble'?production.results.find(p=>p.id===d.id).dom.texts:(d.approvedReplacement||d.readerApprovedReplacement)?texts:receipt.dom.texts;
       if (dom.length!==texts.length) throw Error('Missing source text: '+d.id);
-      registry.set(d.type+':'+d.key,{pdf:d.pdf,texts,dom,start:d.startPage,prefix:''});
+      registry.set(d.type+':'+d.key,{pdf:d.pdf,texts,dom,start:d.startPage,prefix:'',conditionPages:d.troublesApprovedReplacement?.conditionPages});
     }
     const tc=topicChecks.results.find(x=>x.units===units),td=topicDom.results.find(x=>x.units===units);
     const topicPdf=path.relative(root,path.resolve(root,tc.path));
@@ -116,7 +118,8 @@ export function resolveIndex({planPath='docs/publication/book-preparation/ASSEMB
           const key=ref.source.split(':')[1];
           const condition=troubles[key]?.conditions[ref.condition];
           if(!condition) throw Error('Unknown indexed condition: '+ref.condition);
-          heading=condition.name; offsets=[headingPage(source.dom,heading)];
+          heading=condition.name; offsets=[source.conditionPages?source.conditionPages[ref.condition]:headingPage(source.dom,heading)];
+          if(!Number.isInteger(offsets[0]))throw Error('Missing approved condition location: '+ref.condition);
         }
         for(const offset of offsets) {
           if(heading && !normal(source.texts[offset]).includes(normal(heading))) throw Error('Heading missing from actual PDF: '+heading);

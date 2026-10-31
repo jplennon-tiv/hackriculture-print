@@ -61,8 +61,7 @@ on 30 October: 10 pt bold Nunito Sans 900, uppercase, in the existing family dee
 colour on both pages. First-page names replace the previous small category label;
 the practical-page heading moves slightly down while retaining its wording and
 size. The approved Carrot and Kale examples preserve their entire guide bodies.
-Guide-wide integration is pending; retain the approved sources and check long
-titles when applying it. The how-to colour-key proposal was explicitly rejected.
+All 88 guide labels are integrated in the current main book. Existing practical-title sizes, including smaller long-title sizes, are retained. Keep the frozen examples as references. The how-to colour-key proposal was explicitly rejected.
 
 John approved the [revised header treatment](publication/vegetable-header-review/APPROVAL.json)
 on 15 October 2026. Normally the visible seasons widget ends 20 CSS px before
@@ -121,28 +120,45 @@ John's approved 31 October treatment uses separate wrapping masks, a 4 mm
 25% larger in each dimension than the retained 108 × 126 px references. Preserve
 aspect ratio, complete drawings and original image files. The
 [scoped approval](publication/troubles-image-size-study/APPROVAL.json) binds the
-Brassica specimen. The [full Brassica flow proof](publication/brassica-flow-preview/README.md)
-implements it for review; other guides and main-book integration remain pending. A4 stays unchanged.
+Brassica specimen. The [complete rollout](publication/troubles-rollout/README.md)
+applies this treatment to all 14 guides. A4 retains its original image geometry
+and wrapping; the approved source stars add its ordinary heading glyphs.
 
-John's 31 October pagination request supersedes distributing spare space across
-a whole Troubles guide: let complete entries progress naturally through earlier
-pages, with unused space trailing after the content on the final page. Keep
-coherent reading order and each diagnostic entry together. Do not spread entries
-backwards across the guide merely to equalise page fullness. Retain readable,
-consistent gaps and natural spacing inside advice; do not stretch text, drawings
-or card heights. Fill columns left to right; keep their first text edges aligned without forcing
-matching last lines. Check actual text and image edges. The full Brassica proof
-uses an opt-in renderer profile: minimum page count, earliest feasible page end,
-then earliest feasible left-column fill. It retains the normal 8 px inter-entry
-gap and 7 px entry top padding, with no added stretch. Header bottom space is
-14 px instead of the obsolete 30 px reserved for the removed arrowed line.
-This composition is for review; the approved image settings are not reopened.
+Order by **importance rank, highest first**, without alphabetical tie-breaking.
+Use measured fit adjustments within **one page** of a strict-importance control;
+keep that control fixed while exploring moves. Retain existing order within ties
+unless fit or feature separation warrants a move. Record every page move and rank
+reversal. The accepted Brassica result has no rank reversals. Every condition stays
+whole and appears once. Column breaks may change to separate featured panels.
 
-Whole entries can still leave space on earlier pages. In the Brassica proof,
-folio 110 cannot accept a third ordered entry in either column at the approved
-type/image size; that measured space is not distributed padding. Never reorder,
-cut advice or shrink artwork merely to eliminate such a gap. The final page
-also keeps natural gaps, with its remaining space below the content.
+Exactly **24 identities** are [approved](publication/troubles-rollout/SELECTION-APPROVAL.json),
+including the two Brassica stars; potato slugs are excluded from highlighting,
+not from the book. Stars are an editorial choice, not a rank threshold. Use pale
+panels with no outline and a small top-right ribbon: **Common Pest** for pests,
+**Common Disease** for infections, **Common Problem** for growing/physiological
+problems. Classification is explicit in `src/print/book/troubleFeatures.json`;
+never infer it from heading keywords or silently default an unclassified new star
+to Pest. Keep separate tuber/fruit blight diagnoses complete and ordinary.
+Featured entries must not be consecutive, directly opposite in neighbouring
+columns, or overlapping beside the facing gutter. Sharing a page is allowed.
+
+The trailing-space policy replaces guide-wide spreading. Keep natural 8 px gaps,
+7 px ordinary entry top padding and 14 px below the opening header, reclaiming the
+obsolete navigation reserve. Fill earlier pages with complete entries; the final
+page divides its entries naturally between columns with space below. Do not stretch
+advice, drawings or gaps to align bottom edges. Unequal lower edges are expected.
+
+Whole entries and feature separation can leave earlier-page space. Verify and
+record why the following entry cannot occupy it. The fit search normally allows
+reversal of adjacent rank values; if separation fails, adds an extra page or leaves
+an earlier column less than half full, it may test a two-point gap, retaining the
+same one-page movement bound. Carrot/Parsnip uses this to avoid an extra page;
+Lettuce and Oriental Leaves use it to fill earlier columns; Tomato uses it to
+separate three rank-10 stars. This search detail is
+not an alteration to canonical ranks or a relaxation of John's page limit.
+Additional pages are preferable to clipping, shrinking or discarding advice.
+The new treatment is the default for ordinary compact exports as well as the
+book-profile proof. Frozen specimens and A4 originals remain intact.
 
 The approved Carrot/Parsnip page contains the first six of fifteen conditions;
 all six preserve their complete source wording and drawings. Six per page is a
@@ -207,7 +223,9 @@ The badge stays top right over the enlarged hero and visible circle. A tilted
 title is positioned from its measured text bounds so long names stay safe too.
 Troubles uses a 1 px reduction in section spacing to accommodate larger
 production labels. Its current flow policy is owned by [Troubles](#troubles) above;
-the earlier first/last-edge balancing is retained only in legacy exports pending rollout. Exact-source
+the earlier first/last-edge balancing is retained only by the explicit legacy
+comparison path and frozen references. The complete Troubles rollout is now the
+normal compact export. Exact-source
 crop summaries are separate AI drafts for John's review, not amendments to the
 approved source or frozen specimens. Measured Quick Facts grouping can move a
 long qualification into the wider column when it saves a full body line,

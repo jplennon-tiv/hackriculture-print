@@ -1,0 +1,348 @@
+{
+  "date": "2026-10-31",
+  "status": "proposal for John’s review",
+  "pdf": "output/pdf/guides-intro-detail/vegetable-guides-intro.pdf",
+  "pdfSha256": "ba4afde9179f08b611a3f1ac05fed66b5cb61a2ca1015bac4a08243e4869bd65",
+  "inputs": {
+    "docs/publication/reader-edit-pass/navigation/guide-key-imperial-clean.html": "f0d0ad13162524faf3dabbd6c5a7be109fc37e41ef3c8acaf3864657036c72f4",
+    "docs/publication/reader-edit-pass/navigation/guide-key-metric-clean.html": "f0d0ad13162524faf3dabbd6c5a7be109fc37e41ef3c8acaf3864657036c72f4",
+    "output/pdf/whole-book-order-preview/the-vegetable-guru-order-preview.pdf": "2fdba2be30bfdb278dbc97f6e9b7346d039328ce10b54a4e9f1a206c1d22ae4d",
+    "src/print/heroArtwork.json": "6bd3ebdaf1dd1c116391422e6991162c38c71bec3f742ed8781c96932fd80a23",
+    "docs/publication/combined-guides-opening/opening.css": "613284092f4f7994e5ff6aab2e4b75f8578b8e810b365e1947cf30cece055095",
+    "docs/publication/guide-key/guide-key.css": "66c61ccc781fdb033ad75e7cf3e37d232a389027bc8969dbf9eacb314b397461",
+    "docs/publication/vegetable-guru-entry-pages/entry-pages.css": "9796fac872f5e80f95799912f2da7dd690734dffa2b7af7336f0b8bcd8c39d43",
+    "public/images/heroes/richer-a/radish.png": "ec100382eb7b5752f822e75cc0ca8d46dcde8ac473dde6fb55ce9fbe66aa26e1",
+    "../hackriculture-data/vegetables/radish/radish.json": "59e6af73342336440cdc859fa0942c53fe29442124090d6093d358050ece79c5",
+    "public/images/heroes/richer-a/tomato_outdoor.png": "88e24053a50f28518934aa2df026bd685c7e330718cc0485945e86359a024f15",
+    "../hackriculture-data/vegetables/tomato_outdoor/tomato_outdoor.json": "bd4444fba94162621ac0d9303a6d594867993850cca990b6427a6440c9abfe94"
+  },
+  "assets": {
+    "docs/assets/vegetable-guru-stock/assets/h4-summer-aubergines-hero-style-v2.png": "c71da57861c121fd15a6395bbe801e0bd58994da051e4cfe375b8f6b428a3ac5",
+    "docs/front-matter/entry-pages/calendar-assets/temperate-field.svg": "95774a8db9580af42048616e14362c203d99043b651789dbaaf7d4c47d9c8a2a",
+    "docs/front-matter/entry-pages/calendar-assets/tropical-island.svg": "d5d1edc613476358bae63ea8c0df310730d20e2dd260e3b42d25777987c002de",
+    "public/images/heroes/richer-a/radish.png": "ec100382eb7b5752f822e75cc0ca8d46dcde8ac473dde6fb55ce9fbe66aa26e1",
+    "public/images/heroes/richer-a/tomato_outdoor.png": "88e24053a50f28518934aa2df026bd685c7e330718cc0485945e86359a024f15",
+    "public/images/coloured-icons/style-a-v1/sun.svg": "e90866bce6f2f468a8751456055a6b0d61a5d2c36365d9de7b8a1149b920e590",
+    "public/images/coloured-icons/style-a-v1/water.svg": "7724cb9ac4f56548c19202a76f62c34570f516121d3dbd1db53e524b2b6bff52",
+    "public/images/coloured-icons/style-a-v1/feeding.svg": "3e608d406e7215df408c2479e1f2cb93614341de4dd86bb1a6e6c3417375acf0",
+    "docs/front-matter/entry-pages/scales-study/assets/dropper.svg": "65ddeeee2ddb263ad6783bb965e88a230faa3f1e4703e78e8c9a1674cae93c65",
+    "docs/front-matter/entry-pages/scales-study/assets/wave.svg": "17af6bd7340b2d359db3ec88c20acfb2fcb81436916afa04302d9f39e1970723"
+  },
+  "examples": [
+    {
+      "key": "radish",
+      "label": "Radish",
+      "rating": 1,
+      "name": "Easy",
+      "src": "/images/heroes/richer-a/radish.png",
+      "canonicalRating": 1
+    },
+    {
+      "key": "tomato_outdoor",
+      "label": "Tomato",
+      "rating": 3,
+      "name": "Medium",
+      "src": "/images/heroes/richer-a/tomato_outdoor.png",
+      "canonicalRating": 3
+    }
+  ],
+  "sourceEditionsIdentical": true,
+  "unitScope": "Unit-neutral page; both source editions have identical visible content. No dimensions or unit-specific advice.",
+  "mainBookUnchanged": true,
+  "sharedCopyUnchanged": true,
+  "checks": {
+    "blocks": [
+      {
+        "text": "VegetableGuides",
+        "left": 16.999479166666664,
+        "top": 11.997200520833331,
+        "right": 113.00188802083332,
+        "bottom": 45.8638671875,
+        "overflow": false
+      },
+      {
+        "text": "How to use the guides",
+        "left": 16.999479166666664,
+        "top": 57.993359375,
+        "right": 176.99798177083332,
+        "bottom": 66.56337890625,
+        "overflow": false
+      },
+      {
+        "text": "Reading the calendar",
+        "left": 19.99671223958333,
+        "top": 72.55784505208332,
+        "right": 174.00074869791663,
+        "bottom": 78.84169921875,
+        "overflow": false
+      },
+      {
+        "text": "Bright: usual months for the UK; the US equivalent is zones 8 to 9. Muted: options that may need suitable varieties, protection, milder conditions or indoor starts. For planting out, read Sowing & planting and adjust for local conditions.",
+        "left": 19.99671223958333,
+        "top": 80.33824869791665,
+        "right": 174.00074869791663,
+        "bottom": 94.77457682291666,
+        "overflow": false
+      },
+      {
+        "text": "Growing calendar",
+        "left": 22.907128906249998,
+        "top": 99.41718749999998,
+        "right": 117.08225911458332,
+        "bottom": 105.98629557291666,
+        "overflow": false
+      },
+      {
+        "text": "Bright: usual months · Muted: less usual",
+        "left": 22.907128906249998,
+        "top": 121.86129557291666,
+        "right": 117.08225911458332,
+        "bottom": 125.03629557291666,
+        "overflow": false
+      },
+      {
+        "text": "Normal planting",
+        "left": 136.48365885416666,
+        "top": 100.74837239583333,
+        "right": 174.00074869791663,
+        "bottom": 105.61422526041666,
+        "overflow": false
+      },
+      {
+        "text": "Extended season",
+        "left": 136.48365885416666,
+        "top": 113.74189453124998,
+        "right": 174.00074869791663,
+        "bottom": 118.60774739583331,
+        "overflow": false
+      },
+      {
+        "text": "Difficulty rating",
+        "left": 19.99671223958333,
+        "top": 136.673828125,
+        "right": 89.99554036458332,
+        "bottom": 142.95768229166666,
+        "overflow": false
+      },
+      {
+        "text": "Difficulty reflects ease of growing and tolerance of adverse conditions. Radishes suit beginners; celery and cauliflower can defeat even experienced gardeners in a bad season.",
+        "left": 19.99671223958333,
+        "top": 144.45423177083333,
+        "right": 89.99554036458332,
+        "bottom": 168.5147786458333,
+        "overflow": false
+      },
+      {
+        "text": "DIFFICULTYEasy1/5",
+        "left": 94.99368489583333,
+        "top": 136.673828125,
+        "right": 132.99860026041665,
+        "bottom": 169.16796874999997,
+        "overflow": false
+      },
+      {
+        "text": "DIFFICULTYEasy1/5",
+        "left": 100.66102307637532,
+        "top": 136.00272890726723,
+        "right": 127.33126207987466,
+        "bottom": 150.84281145731606,
+        "overflow": false
+      },
+      {
+        "text": "DIFFICULTYMedium3/5",
+        "left": 135.9958333333333,
+        "top": 136.673828125,
+        "right": 174.00074869791663,
+        "bottom": 169.16796874999997,
+        "overflow": false
+      },
+      {
+        "text": "DIFFICULTYMedium3/5",
+        "left": 141.6631715138753,
+        "top": 136.00272890726723,
+        "right": 168.33341051737466,
+        "bottom": 150.84281145731606,
+        "overflow": false
+      },
+      {
+        "text": "Core needs",
+        "left": 19.99671223958333,
+        "top": 178.15966796874997,
+        "right": 89.99554036458332,
+        "bottom": 184.44352213541666,
+        "overflow": false
+      },
+      {
+        "text": "Too little sun, water or manure can damage some plants, while too much can harm others. Use the scales as a guide to each crop’s needs.",
+        "left": 19.99671223958333,
+        "top": 185.9400716145833,
+        "right": 89.99554036458332,
+        "bottom": 205.18850911458333,
+        "overflow": false
+      },
+      {
+        "text": "1Low demand",
+        "left": 104.49801432291666,
+        "top": 213.4360677083333,
+        "right": 123.49427083333332,
+        "bottom": 222.06396484374997,
+        "overflow": false
+      },
+      {
+        "text": "5High demand",
+        "left": 146.50061848958333,
+        "top": 213.4360677083333,
+        "right": 165.496875,
+        "bottom": 222.06396484374997,
+        "overflow": false
+      }
+    ],
+    "panels": [
+      {
+        "left": 16.999479166666664,
+        "top": 69.56061197916667,
+        "right": 176.99798177083332,
+        "bottom": 130.67936197916666
+      },
+      {
+        "left": 16.999479166666664,
+        "top": 133.67659505208331,
+        "right": 176.99798177083332,
+        "bottom": 172.16520182291666
+      },
+      {
+        "left": 16.999479166666664,
+        "top": 175.16243489583331,
+        "right": 176.99798177083332,
+        "bottom": 225.06119791666666
+      }
+    ],
+    "footerGapMm": 3.3114257812499943,
+    "bodyPt": [
+      10.5,
+      10.5,
+      10.5
+    ],
+    "preserved": {
+      "calendar": true,
+      "needs": true,
+      "otherCopy": true,
+      "header": true
+    },
+    "images": [
+      {
+        "src": "/docs/assets/vegetable-guru-stock/assets/h4-summer-aubergines-hero-style-v2.png",
+        "alt": "Aubergine, cucumber, beans and squash",
+        "loaded": true,
+        "left": 113.99820963541666,
+        "top": 10.000423177083333,
+        "right": 176.99798177083332,
+        "bottom": 53.999804687499996
+      },
+      {
+        "src": "/docs/front-matter/entry-pages/calendar-assets/temperate-field.svg",
+        "alt": "English ploughed field with a sun",
+        "loaded": true,
+        "left": 123.99036458333332,
+        "top": 100.23160807291666,
+        "right": 134.987109375,
+        "bottom": 111.22835286458333
+      },
+      {
+        "src": "/docs/front-matter/entry-pages/calendar-assets/tropical-island.svg",
+        "alt": "Tropical island",
+        "loaded": true,
+        "left": 123.99036458333332,
+        "top": 113.22513020833333,
+        "right": 134.987109375,
+        "bottom": 124.22187499999998
+      },
+      {
+        "src": "/images/heroes/richer-a/radish.png",
+        "alt": "Radish",
+        "loaded": true,
+        "left": 102.99733072916666,
+        "top": 151.16803385416665,
+        "right": 124.99495442708331,
+        "bottom": 169.16796874999997
+      },
+      {
+        "src": "/images/heroes/richer-a/tomato_outdoor.png",
+        "alt": "Tomato",
+        "loaded": true,
+        "left": 143.99947916666665,
+        "top": 151.16803385416665,
+        "right": 165.99710286458333,
+        "bottom": 169.16796874999997
+      },
+      {
+        "src": "/images/coloured-icons/style-a-v1/sun.svg",
+        "alt": "",
+        "loaded": true,
+        "left": 100.31842447916665,
+        "top": 178.95341796875,
+        "right": 106.66842447916666,
+        "bottom": 185.30341796874998
+      },
+      {
+        "src": "/images/coloured-icons/style-a-v1/water.svg",
+        "alt": "",
+        "loaded": true,
+        "left": 100.31842447916665,
+        "top": 186.62633463541664,
+        "right": 106.66842447916666,
+        "bottom": 192.97633463541663
+      },
+      {
+        "src": "/images/coloured-icons/style-a-v1/feeding.svg",
+        "alt": "",
+        "loaded": true,
+        "left": 100.31842447916665,
+        "top": 194.29925130208332,
+        "right": 106.66842447916666,
+        "bottom": 200.64925130208331
+      },
+      {
+        "src": "/docs/front-matter/entry-pages/scales-study/assets/dropper.svg",
+        "alt": "An eyedropper releasing a single drop",
+        "loaded": true,
+        "left": 105.99456380208332,
+        "top": 202.43932291666664,
+        "right": 121.99358723958332,
+        "bottom": 213.4360677083333
+      },
+      {
+        "src": "/docs/front-matter/entry-pages/scales-study/assets/wave.svg",
+        "alt": "A large curling tsunami wave",
+        "loaded": true,
+        "left": 147.99716796874998,
+        "top": 202.43932291666664,
+        "right": 163.99619140624998,
+        "bottom": 213.4360677083333
+      }
+    ],
+    "difficulty": [
+      {
+        "key": "radish",
+        "rating": "1/5",
+        "on": 1
+      },
+      {
+        "key": "tomato_outdoor",
+        "rating": "3/5",
+        "on": 3
+      }
+    ],
+    "calendarHeaders": [
+      "Normal planting",
+      "Extended season"
+    ],
+    "coreEndpointLabels": [
+      "1Low demand",
+      "5High demand"
+    ],
+    "pageText": "Vegetable\nGuides\nHow to use the guides\nReading the calendar\n\nBright: usual months for the UK; the US equivalent is zones 8 to 9. Muted: options that may need suitable varieties, protection, milder conditions or indoor starts. For planting out, read Sowing & planting and adjust for local conditions.\n\nGrowing calendar\nJ\nF\nM\nA\nM\nJ\nJ\nA\nS\nO\nN\nD\nSOW\nHARVEST\n\nBright: usual months · Muted: less usual\n\nNormal planting\nSow\nHarvest\nExtended season\nSow\nHarvest\nDifficulty rating\n\nDifficulty reflects ease of growing and tolerance of adverse conditions. Radishes suit beginners; celery and cauliflower can defeat even experienced gardeners in a bad season.\n\nDIFFICULTY\nEasy\n1/5\nDIFFICULTY\nMedium\n3/5\nCore needs\n\nToo little sun, water or manure can damage some plants, while too much can harm others. Use the scales as a guide to each crop’s needs.\n\nSun\n3/5\nWater\n4/5\nNutrition\n2/5\n1\nLow demand\n5\nHigh demand\nVEGETABLE GUIDES\n9",
+    "fitPassed": true,
+    "overflow": []
+  }
+}

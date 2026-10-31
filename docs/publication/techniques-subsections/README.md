@@ -2,11 +2,7 @@
 
 John requested the heading groups and removal of the two internal blank pages
 on **19 October 2026**. This retained derivative contains 18 content pages with source folios
-**146–163**. The 30 October main-book integration inserts approved Netting and
-Supports at **160–163**, placing Watering at **164** and Greenhouses at **165–167**.
-The current book has **172 interior pages** plus four cover leaves; the index is
-**168–171**. The derivative stays unchanged: final assembly remaps its last four
-pages and replaces their footers. See the [main-book workflow](../whole-book-order-preview/README.md).
+**146–163**. The current 31 October main-book integration places Netting at **162–163**, Supports at **164–165**, Watering at **166** and Greenhouses at **167–169**. The book has **174 interior pages** plus four cover leaves; the index is **170–173**. This retained derivative stays unchanged: final assembly remaps its historical folios and replaces footers. See the [main-book workflow](../whole-book-order-preview/README.md).
 
 [Heading definitions](../../../src/print/book/techniques-subsections.json) contain
 the exact requested replacements. Both rotation pages retain the same heading,
@@ -22,8 +18,8 @@ The cream paper is restored at any edge exposed by that horizontal movement.
 
 Removing old blank folios 150 and 162 makes some two-page topics cross a page
 turn. No new blanks are inserted. The entire two-page rotation still faces at
-148–149; the greenhouse continuation pages now face at 166–167. All five double-
-digging steps remain together, now on **157**, followed by single digging on **158**.
+150–151; the greenhouse continuation pages now face at 168–169. All five double-
+digging steps remain together, now on **159**, followed by single digging on **160**.
 
 With `start.command` serving the project on loopback:
 

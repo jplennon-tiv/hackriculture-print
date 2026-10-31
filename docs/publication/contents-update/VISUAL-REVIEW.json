@@ -1,20 +1,24 @@
 {
-  "date": "2026-10-30",
-  "status": "passed for inspected both-unit PDF spreads",
+  "date": "2026-10-31",
+  "status": "passed for inspected both-unit PDF spreads and final assembled imperial contents",
   "pdfs": [
     {
       "unit": "imperial",
-      "sha256": "5cbcfec5d0391fddc8fd552ad4e93b7084b2edc2fcfdfcf2265cd8ee8d3f5118"
+      "sha256": "a22609b83d383cae548b9524fca8cd7abf8cab4cc9f005f606155ffbcd547b23"
     },
     {
       "unit": "metric",
-      "sha256": "cacf001d856f2f11778de4fac6de8a12544ffcd5081d9d9becb580cc0ab61f31"
+      "sha256": "4ba0dcf4e6d8c25f02aff47f6cc7dcb238f0515f7ce742ceaec4eeba52dd9a8b"
     }
   ],
-  "inspected": "Imperial and metric actual PDF facing spreads, plus contents 4–5 in the assembled imperial PDF.",
+  "assembledPdfSha256": "2fdba2be30bfdb278dbc97f6e9b7346d039328ce10b54a4e9f1a206c1d22ae4d",
+  "inspected": "Imperial and metric actual PDF facing spreads, plus final contents 4–5 in the assembled imperial PDF.",
   "findings": [
-    "All 83 destinations fit; the 44 vegetables run alphabetically by displayed title and match the assembled facing pairs. Netting remains 160 and Supports 162.",
-    "Header artwork, plain section headings and list structure retained.",
-    "Lower illustrations fit at 45 × 33.75 mm; rows stay 10.5 pt and no text/image or footer collision was observed."
-  ]
+    "All 83 destinations fit; all 44 vegetables remain alphabetical and use their approved family colours. The 14 Troubles entries use the approved matching colours.",
+    "Pale roots.wash key panel sits low on page 5 beside H6 harvest; H5 seedlings is intentionally omitted. Both header illustrations remain.",
+    "The approved 10.5 pt rows and 8 pt category key remain readable, with no text/image or footer collision observed.",
+    "Troubles guides now span 100–146; Techniques begins 147, Netting 162, Supports 164 and index 170.",
+    "Non-numeric body glyphs, sizes and colours match the frozen composition; native positions differ by at most 0.23 mm in the bleed/trim route."
+  ],
+  "compositionEvidence": "../whole-book-order-preview/integration-2026-10-31/APPROVED-COMPARISONS.json"
 }

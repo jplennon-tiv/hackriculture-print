@@ -1,6 +1,7 @@
 import type { Page } from 'playwright';
 import { readFile } from 'node:fs/promises';
-import { join } from 'node:path';
+import { join,resolve } from 'node:path';
+import {pathToFileURL} from 'node:url';
 import { kaleBookCopy } from './kaleCopy';
 import {workingBookCopy,workingBookConsolidations} from './workingCopy';
 import {prepareProductionType,finishProductionPages,type BookProductionOptions} from './production';
@@ -9,7 +10,22 @@ import {prepareTroubleFlow,type TroubleFlowOptions} from './troubleFlow';
 /** Reuse approved source-linked markup, then lay it out in a separate document.
  * React's A4 measurement effects cannot interfere with the book's geometry.
  * No canonical data, A4 styles or frozen reference files are modified here. */
-export async function prepareCompactBook(page: Page, baseUrl: string, type: 'vegetable'|'trouble', slug: string, units: string, root: string, production?:BookProductionOptions, troubleFlow?:TroubleFlowOptions) {
+export async function prepareCompactBook(page: Page, baseUrl: string, type: 'vegetable'|'trouble', slug: string, units: string, root: string, production?:BookProductionOptions, troubleFlow?:TroubleFlowOptions|false) {
+    const automaticTroubles=type==='trouble'&&troubleFlow===undefined;
+    if(automaticTroubles){
+        const masks=JSON.parse(await readFile(join(root,'src/print/book/troubleMasks.json'),'utf8')).groups[slug];
+        const features=JSON.parse(await readFile(join(root,'src/print/book/troubleFeatures.json'),'utf8')).features.filter((f:{group:string})=>f.group===slug);
+        const {readRecord}=await import(pathToFileURL(resolve(root,'../hackriculture-data/lib/records.mjs')).href);
+        const group=readRecord('troubles',slug);
+        const priority=Object.entries(group.conditions).map(([key,value])=>{
+            const c=value as {rank:number;star?:boolean},feature=features.find((f:{key:string})=>f.key===key);
+            if((c.star===true)!==!!feature)throw Error(`Review changed ${slug} star selection: ${key}`);
+            if(feature&&!['pest','disease','problem'].includes(feature.kind))throw Error('Unclassified book feature');
+            return {key,rank:c.rank,star:c.star===true,kind:feature?.kind};
+        });
+        if(!masks||features.some((f:{key:string})=>!group.conditions[f.key]))throw Error('Missing source-bound Troubles resources');
+        troubleFlow={masks,priority};
+    }
     if(troubleFlow&&type!=='trouble')throw Error('Troubles flow is only valid for diagnostic guides');
     let css = await readFile(join(root, 'src/print/book/compact.css'), 'utf8');
     if(production) {
@@ -29,15 +45,27 @@ export async function prepareCompactBook(page: Page, baseUrl: string, type: 'veg
     if(troubleFlow)await prepareTroubleFlow(page,root,troubleFlow);
     const edits=type==='vegetable'?(slug==='kale'?kaleBookCopy(units):production?workingBookCopy(slug,units):[]):[];
     const consolidations=production&&type==='vegetable'?workingBookConsolidations(slug):[];
-    const result=await page.evaluate(layoutCompactBook, { type, slug, units, edits, consolidations, startPage:production?.startPage, trailingTroubles:!!troubleFlow, balanceFinalTroubles:!!troubleFlow?.priority });
+    const layoutInput={ type, slug, units, edits, consolidations, startPage:production?.startPage, trailingTroubles:!!troubleFlow, balanceFinalTroubles:!!troubleFlow&&!!troubleFlow.priority };
+    const beforeLayout=automaticTroubles?await page.content():undefined;
+    let result=await page.evaluate(layoutCompactBook,layoutInput),fit;
+    if(automaticTroubles&&troubleFlow&&result.troubleMetrics){
+        const {exploreRolloutFit}=await import(pathToFileURL(join(root,'scripts/lib/trouble-rollout-fit.mjs')).href);
+        const m=result.troubleMetrics;
+        fit=exploreRolloutFit(m.order,m.heights,m.capacities,troubleFlow.priority,{startPage:production?.startPage??0,bodyTops:m.bodyTops});
+        await page.setContent(beforeLayout!);await page.evaluate(async()=>{await document.fonts.ready;await Promise.all(Array.from(document.images,i=>i.decode()));});
+        await page.evaluate(order=>{const source=document.querySelector('.measure')!;const entries=new Map(Array.from(source.querySelectorAll<HTMLElement>('[data-source-entry]'),e=>[e.dataset.key!,e]));for(const key of order)source.append(entries.get(key)!);},fit.selected.order as string[]);
+        result=await page.evaluate(layoutCompactBook,{...layoutInput,troublePlan:fit.selected.pages.map((p:{columns:string[][]})=>p.columns)});
+        const actual=await page.evaluate(()=>Array.from(document.querySelectorAll('.sheet:not([data-template])')).filter(s=>!s.closest('.measure')).map(s=>Array.from(s.querySelectorAll('.column'),c=>Array.from(c.children,e=>(e as HTMLElement).dataset.key))));
+        if(JSON.stringify(actual)!==JSON.stringify(fit.selected.pages.map((p:{columns:string[][]})=>p.columns)))throw Error('Measured Troubles layout differs from fit model');
+    }
     const geometry=production?await finishProductionPages(page,production):undefined;
-    return {...result,geometry,adjustedType};
+    return {...result,geometry,adjustedType,fit};
 }
 
-type LayoutInput = {type:'vegetable'|'trouble';slug:string;units:string;edits:{selector:string;expected:string;proposed:string;label?:string}[];consolidations?:{selector:string;duplicateOf:string}[];startPage?:number;trailingTroubles?:boolean;balanceFinalTroubles?:boolean};
+type LayoutInput = {type:'vegetable'|'trouble';slug:string;units:string;edits:{selector:string;expected:string;proposed:string;label?:string}[];consolidations?:{selector:string;duplicateOf:string}[];startPage?:number;trailingTroubles?:boolean;balanceFinalTroubles?:boolean;troublePlan?:string[][][]};
 
 /** Browser-only DOM layout. Move whole content blocks; never truncate a page. */
-export function layoutCompactBook({type, slug, units, edits,consolidations=[],startPage,trailingTroubles=false,balanceFinalTroubles=false}: LayoutInput) {
+export function layoutCompactBook({type, slug, units, edits,consolidations=[],startPage,trailingTroubles=false,balanceFinalTroubles=false,troublePlan}: LayoutInput) {
     const root = document.querySelector<HTMLElement>(type === 'vegetable' ? '.rich-print' : '.editorial-trouble')!;
     const warnings: string[] = [];
     let cropLabelLegend:{label:string;crops:string[];entries:string[]}|undefined;
@@ -68,6 +96,7 @@ export function layoutCompactBook({type, slug, units, edits,consolidations=[],st
 
     let originalNodes: HTMLElement[];
     let originalImages: HTMLImageElement[];
+    let troubleMetrics:{order:string[];heights:Record<string,number>;capacities:number[];bodyTops:number[]}|undefined;
     if (type === 'vegetable') {
         root.querySelectorAll<HTMLElement>('[style]').forEach(e => {
             e.style.removeProperty('margin-top'); e.style.removeProperty('margin-bottom');
@@ -261,6 +290,7 @@ export function layoutCompactBook({type, slug, units, edits,consolidations=[],st
         const span=(from:number,to:number)=>to===from?0:prefix[to]-prefix[from]-tails[to-1];
         const continuation=addPage();
         const capacities=[first,continuation].map(s=>limit(s)-need(s,'[data-column]').getBoundingClientRect().top);
+        troubleMetrics={order:keys as string[],heights:Object.fromEntries(entries.map((e,i)=>[e.dataset.key!,heights[i]-tails[i]])),capacities,bodyTops:[first,continuation].map(s=>need(s,'[data-column]').getBoundingClientRect().top-s.getBoundingClientRect().top)};
         type Plan={pages:number;sparse:number;maxStretch:number;cost:number;breaks:[number,number][]};
         const cache=new Map<string,Plan|null>();
         const plan=(from:number,opening:boolean):Plan|null=>{
@@ -299,7 +329,17 @@ export function layoutCompactBook({type, slug, units, edits,consolidations=[],st
             }
             cache.set(key,best);return best;
         };
-        const chosen=plan(0,true);
+        let chosen=plan(0,true);
+        if(troublePlan){
+            if(JSON.stringify(troublePlan.flat(2))!==JSON.stringify(keys))throw Error('Troubles fit plan changes source coverage/order');
+            let from=0;const breaks=troublePlan.map((columns,i)=>{
+                if(columns.length!==2||!columns[0].length)throw Error('Invalid Troubles column plan');
+                const middle=from+columns[0].length,end=middle+columns[1].length,cap=capacities[i===0?0:1];
+                if(span(from,middle)>cap+.1||span(middle,end)>cap+.1)throw Error('Troubles fit plan exceeds measured capacity');
+                from=end;return [middle,end] as [number,number];
+            });
+            chosen={pages:breaks.length,sparse:0,maxStretch:0,cost:0,breaks};
+        }
         if(!chosen)throw Error('Compact diagnostic entries need editorial layout review; content was not clipped');
         entries.forEach(e=>e.remove());continuation.remove();
         let from=0;
@@ -399,5 +439,5 @@ export function layoutCompactBook({type, slug, units, edits,consolidations=[],st
     });
     if (Array.from(document.images).some(i=>!i.complete||!i.naturalWidth)) throw Error('Compact book missing artwork');
     document.body.dataset.bookChecks = JSON.stringify({type,slug,units,pages:checks,contentPreserved:true,consolidations,cropLabelLegend,troubleFlow:trailingTroubles?'trailing-space-with-masks':'legacy'});
-    return {pages:checks.length,warnings};
+    return {pages:checks.length,warnings,troubleMetrics};
 }

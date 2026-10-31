@@ -1,11 +1,23 @@
 # Current project handover
 
-Updated 31 October 2026 after the complete Brassica wrapping and natural-flow proof.
+Updated 31 October 2026 after approval of the revised Vegetable Guides intro.
 This document owns current scope, decisions and next actions. Read README,
 AGENTS and SHARED-DATA first. John's latest instruction takes precedence;
 dated reports and approvals are evidence, not instructions to resume old work.
 
 ## Resume here
+
+**Approved detail correction: Vegetable Guides intro, page 9.** John approved
+[the final three-panel page](../publication/guides-intro-detail/APPROVAL.json) on
+31 October. It has the heading above three peach panels, his revised UK calendar
+paragraph and Normal planting / Extended season headers, only radish 1/5 and
+tomato 3/5 difficulty examples, and restored Low demand / High demand captions.
+The exact PDF, editable layout, artwork references and checks are locked; do not
+rebuild them in place or ask for design approval again. Include this accepted page
+in the next requested book update, synchronising its approved copy through the
+guarded writer then. The current complete book still contains the earlier page 9;
+no shared JSON or canonical ratings changed. This is separate from the planned
+page-7 Introduction rewrite.
 
 **John has received the printed proof and is satisfied with its physical quality.**
 On 28 October he reported a luxurious coated-paper feel, suitable paper weight,
@@ -21,13 +33,13 @@ and [Supports approval](../publication/topic-pages/plant-protection-supports/sup
 freeze the exact accepted copy, artwork, layouts and PDFs.
 
 The [main book](../publication/whole-book-order-preview/REVIEW.html#spread=81)
-now has **172 interior pages plus four cover leaves: 176 PDF pages**, imperial.
-Netting is **160–161**, Supports **162–163**, Watering **164**, Greenhouses **165–167**,
-and the four-page index **168–171**, followed by blank 172. Contents remain at 4–5,
+now has **174 interior pages plus four cover leaves: 178 PDF pages**, imperial.
+Netting is **162–163**, Supports **164–165**, Watering **166**, Greenhouses **167–169**,
+and the four-page index **170–173**, followed by blank 174. Contents remain at 4–5,
 with 83 destinations; the index has 297 entries and 35 see references. Both-unit
 navigation is checked; approved page bodies and all 44 facing crop guides remain.
 The [integration evidence](../publication/whole-book-order-preview/README.md)
-records actual PDF checks, exact source comparisons and the guarded book-copy save.
+records actual PDF checks, exact source comparisons and the earlier guarded book-copy save. The 31 October integration required no shared JSON mutation; existing stable locators resolve against the new page map.
 The accepted 168-page ordered production interior and 12 mm cover are preserved;
 this new screen revision has not been prepared or uploaded to Bookvault.
 
@@ -41,9 +53,8 @@ records the change. No canonical gardening records or shared book-copy JSON chan
 **Larger category names are approved; the how-to colour key is rejected.**
 On 30 October John approved the 10 pt bold coloured category names on both guide
 pages, as shown in Carrot 36–37 and Kale 58–59. [Scoped approval](../publication/category-navigation-preview/APPROVAL.json)
-freezes those exact examples and excludes the colour-key page. Apply the approved
-name treatment without asking for approval again at the next navigation integration;
-guide-wide application remains pending. The existing main-book how-to stays intact,
+freezes those exact examples and excludes the colour-key page. The approved
+name treatment is now integrated across all 88 vegetable pages; practical titles retain their existing sizes, including long titles. The existing main-book how-to stays intact,
 including its original title and illustration size. Do not revive the rejected key.
 
 **The complete coloured contents and pale key panel are approved.** The
@@ -52,51 +63,63 @@ binds the exact two-page proof, both HTML editions and styles: A on page 4,
 matching Troubles colours on page 5, and the 8 pt key in a pale `roots.wash`
 panel beside H6 harvest. H5 seedlings is omitted. The earlier how-to key,
 first-page key and below-Troubles key are superseded/rejected. These contents
-and the larger guide names await the next integration; do not ask again.
+and the larger guide names are now integrated; the accepted sources stay frozen.
 
-**Quieter Troubles headers.** John requested removing the repeated
-“Recognise → Act → Prevent” page headers and explaining the idea on the section
-opener. The [revised section proof](../publication/troubles-header-refinement/README.md)
-contains folios 99–144. All 45 page-level lines are removed from saved native
-pages; every remaining glyph and diagnostic image is verified unchanged.
-The small Recognise / Act / Prevent labels within each problem remain: the
-request was interpreted as the arrowed page header, as stated to John.
-The opener retains its strapline and illustrations, with a short new explanation
-for review. The live compact renderer also removes the line; A4 remains unchanged.
-The complete imperial book has not been reassembled. Introduction and collected
-copy corrections remain later work.
+**Quieter Troubles headers are integrated.** The repeated arrowed page header is
+removed; the opener explains “Recognise. Act. Prevent.” Small labels within each
+problem remain. The [earlier focused proof](../publication/troubles-header-refinement/README.md)
+records the header change before the complete layout rollout. Its older folios
+are historical; the approved full set below is the current source. A4 is unchanged.
 
-**Current review: complete Brassica Troubles guide.** John approved separate
-wrapping masks, a **4 mm gap** and **25% larger diagnostic boxes** (135 × 157.5 CSS px)
-for all book Troubles: [image-treatment approval](../publication/troubles-image-size-study/APPROVAL.json).
-He then requested natural page progression, with spare space at the guide's end,
-and authorised Brassica first with complete documentation and removal of superseded
-instructions. The [full six-page proof and maintained workflow](../publication/brassica-flow-preview/README.md)
-now cover folios **106–111**, all **29 problems**, in both units. Advice, order,
-applicability, type sizes and original artwork are preserved. All six pages, three
-spreads and 29 mask overlays were inspected; actual PDF text/image checks pass.
+**Complete revised Troubles set — approved and integrated.** John approved
+all 25 shortlisted highlights except potato slugs, leaving exactly **24**, with no
+other additions. The [rollout report](../publication/troubles-rollout/README.md)
+links the imperial and metric PDFs, all individual guides, the source checks and
+condition-level page map. Each section proof has **48 pages**: the retained revised
+opener at 99 and **47 guide pages at 100–146**, covering all 14 groups / 220 conditions.
+Onion/Leek and Turnip/Swede/Radish each gain one page over the preceding book. The source advice, ranks, type sizes and original diagnostic art are retained. The exact approved section is now part of the main book.
 
-The proof uses normal inter-entry gaps, fills earlier pages left to right and
-reclaims the unused space formerly reserved for the arrowed header line. The
-final page's space trails below its three entries. Folio 110 retains a larger
-measured gap because no next complete entry fits; this is documented rather than
-hidden by stretching or reordering. The guide stays at six pages. An opt-in renderer
-profile keeps ordinary exports, other guides and the main book unchanged.
-**Next: John's review of this complete composition, then extend it to the other
-Troubles guides within the agreed rollout.** Do not ask again about the image settings.
-Refresh condition-level index references when integrating; final book-wide pagination
-waits for the remaining guide layouts. This proof is not a supplier file or publication approval.
+The book renderer now defaults to the accepted treatment: source-bound invisible
+masks, **135 × 157.5 CSS px** diagnostics, **4 mm** shape clearance, natural **8 px**
+entry gaps, and unused final-page space below the content. Importance is the primary
+order; there is no alphabetical tie-break. Every fit move stays within one page
+of the strict-ranked control. Features are separated in reading order, across
+columns and across facing gutters. The numerical fit score and column-break choices
+are implementation details, recorded for review. Four guides use a two-rank-point
+exception to the search's usual one-point limit: Carrot/Parsnip avoids an extra
+page; Lettuce and Oriental Leaves fill earlier columns; Tomato separates its
+three rank-10 stars. All featured problems remain on each guide's first two pages.
+John's fixed one-page limit still holds.
 
-The [guide contract](../BOOK-PRINT-STYLE.md#troubles) now owns the new flow rule.
-The layout skill, standing rules and technical docs have had the superseded
-fullness/last-edge instructions replaced. Earlier
-[polygon](../publication/troubles-wrap-study/README.md),
-[mask](../publication/troubles-mask-study/README.md) and
-[size](../publication/troubles-image-size-study/README.md) proofs remain evidence;
-the approved specimens are frozen and their builders now refuse overwrites.
-The transparency query is resolved for the four original sample assets: they are
-opaque PNGs displayed with multiply blending. Invisible SVG masks control wrapping;
-none of the visible diagnostic art has been converted or redrawn.
+The pale, borderless featured panels use top-right **Common Pest**, **Common Disease**
+or **Common Problem** ribbons from explicit condition classifications. The
+[selection approval](../publication/troubles-rollout/SELECTION-APPROVAL.json) and
+[transaction receipt](../publication/troubles-rollout/STAR-SAVE-RECEIPT.json)
+record 22 added flags across 13 records, retaining the two existing Brassica stars.
+Potato slugs remain complete but unstarred. This completed star-only exception does
+not authorise other canonical editing. A4 advice/layout are retained; all 28 A4
+page counts remain unchanged and pagination signature metadata is refreshed.
+
+The accepted six-page [Brassica specimen](../publication/brassica-priority-study/APPROVAL.json)
+and the earlier [flow/mask source](../publication/brassica-flow-preview/REFERENCE-LOCK.json)
+remain frozen. Their builders must not be rerun to extend the collection. The new
+[rollout workflow](../publication/troubles-rollout/README.md#reproduction-and-resume)
+owns continuation. Keep its masks and source bindings as runtime inputs, not
+throwaway proof assets. Diagnostic PNGs remain unchanged; the SVGs affect wrapping
+only. See the [guide contract](../BOOK-PRINT-STYLE.md#troubles) for the current rules.
+
+**The 31 October integration is complete.** John approved the complete Troubles
+proofs and requested them in the main book with the approved category names and
+coloured contents. [Exact approval](../publication/troubles-rollout/APPROVAL.json)
+freezes the accepted set. The main interior now has 174 pages: Troubles 99–146,
+Techniques 147–169 and index 170–173, followed by blank 174. Contents, index,
+crop links, three numeric body references and bookmarks are refreshed together.
+All 44 vegetable pairs and approved source bodies remain. The how-to is unchanged.
+[Current integration evidence](../publication/whole-book-order-preview/integration-2026-10-31/INTEGRATION-CHECKS.json)
+records glyph/art preservation and actual links. No guide catalogue was exported,
+and no canonical or book-layout JSON changed in this integration. The ordered
+supplier files remain unchanged. Introduction and collected copy corrections
+remain later work; do not reopen the approved choices.
 
 The prelaunch website is live at <https://hackriculture.com/> and John confirms
 it is looking good.
@@ -201,9 +224,9 @@ The agent did not place the order or pay. No additional order is authorised.
 Metadata/barcode placeholders remain; automatic barcode insertion was off at upload.
 The reading preview below is preserved for continued copy/design work.
 
-The approved integration is complete; John's final copy changes update Organic growing, page 146, and Beds and paths, page 152. The current
-[full preview](../publication/whole-book-order-preview/REVIEW.html?revision=alphabetical-2026-10-30#spread=6)
-has **172 interior pages plus four cover leaves: 176 PDF pages**, imperial,
+The approved integration is complete; John's final copy changes update Organic growing, page 148, and Beds and paths, page 154. The current
+[full preview](../publication/whole-book-order-preview/REVIEW.html?revision=integrated-2026-10-31#spread=6)
+has **174 interior pages plus four cover leaves: 178 PDF pages**, imperial,
 185 × 240 mm. [PDF](../../output/pdf/whole-book-order-preview/the-vegetable-guru-order-preview.pdf),
 [page map](../publication/whole-book-order-preview/PAGE-MAP.json),
 [checks](../publication/whole-book-order-preview/CHECKS.json) and
@@ -214,21 +237,21 @@ follow-up shortens the middle paragraph to end “your garden will ultimately fl
 diagram, closing box and existing type sizes remain. John approved this revised
 page on 18 October; [the approval](../publication/final-text-edits/ORGANIC-APPROVAL-2026-10-18.json)
 freezes its copy and both-unit proofs. [Copy, sources and checks](../publication/final-text-edits/README.md).
-The latest exact replacement shortens “Sides are optional” on page 152 to end
+The latest exact replacement shortens “Sides are optional” on page 154 to end
 “Choose what makes the plot easier to use for you.” [Both-unit checks](../publication/final-text-edits/BEDS-PDF-CHECKS.json)
 confirm that all other page text and the existing type are preserved.
 John discarded the Top tip ribbon/splash idea on 18 October. The original green
-panels now at 151, 152, 154, 159 and 167 remain in the full preview; the proposals
+panels now at 153, 154, 156, 161 and 169 remain in the full preview; the proposals
 were never integrated. [Decision and verification](../publication/top-tip-panels/DECISION.json).
-The latest layout request moves all five double-digging steps onto page 157,
-with single digging first on 158, followed by path care and smothering.
+The latest layout request moves all five double-digging steps onto page 159,
+with single digging first on 160, followed by path care and smothering.
 [The changed spread](../publication/digging-order/README.md) retains the original
 copy and type; only the obsolete next-page instruction is removed.
-The four headings at 155–158 now share green “Cultivation”, followed in orange
+The four headings at 157–160 now share green “Cultivation”, followed in orange
 by “Dig or No-Dig?”, “No-Dig”, “Digging” and “Digging continued”.
 [Earlier four-page source proofs and checks](../publication/cultivation-headings/README.md)
 retain the reordered digging instructions and original reading sizes.
-Page 157 now opens “There are two ways of digging:” with “Single digging” and
+Page 159 now opens “There are two ways of digging:” with “Single digging” and
 “Double digging” in bold. Its heading reads “Double digging: start a new plot,
 or revive a tired one”; all five steps still fit at the existing type sizes.
 Resume the final text/design pass only when John returns to it; do not restart the completed
@@ -247,36 +270,31 @@ expanded spread. The optional holiday item remains excluded.
 
 | Interior pages | Content |
 | --- | --- |
-| 1–2 | Title, publication details |
-| 3 | Blank placing contents on facing pages |
-| 4–5 | Simple illustrated contents |
+| 1–2 | Title and publication details |
+| 3 | Blank |
+| 4–5 | Approved coloured contents, facing; pale category key beside H6 harvest |
 | 6–7 | Blank / Introduction — why grow your own |
-| 8–9 | Blank / combined Vegetable Guides and how-to |
-| 10–97 | All 44 vegetable guides, alphabetical by title, two facing pages each |
-| 98–99 | Blank / Vegetable Troubles opener |
-| 100–144 | Fourteen Troubles guides |
-| 145 | Growing Techniques opener |
-| 146–147 | Organic growing / Nutrient cycles |
-| 148–149 | Crop rotation & planning |
-| 150 | Planning your plot: Choosing the right spot |
-| 151–152 | Planning your plot: Beds and paths / continued |
-| 153–154 | Compost |
-| 155–156 | Cultivation: Dig or No-Dig? / No-Dig |
-| 157–158 | Cultivation: Digging / Digging continued |
-| 159 | Plant care: Sowing and planting |
-| 160–161 | Netting |
-| 162–163 | Supports |
-| 164 | Watering |
-| 165 | Greenhouses introduction |
-| 166–167 | Greenhouse growing options and seasons |
-| 168–171 | Index |
-| 172 | End balancing blank |
+| 8–9 | Blank / existing combined Vegetable Guides and how-to |
+| 10–97 | All 44 vegetables, alphabetical by title, two facing pages each |
+| 98–99 | Blank / revised Vegetable Troubles opener |
+| 100–146 | Fourteen approved Troubles guides, 220 conditions and 24 highlights |
+| 147 | Growing Techniques opener |
+| 148–149 | Organic growing / Nutrient cycles |
+| 150–151 | Crop rotation & planning |
+| 152 | Planning your plot: Choosing the right spot |
+| 153–154 | Planning your plot: Beds and paths / continued |
+| 155–156 | Compost |
+| 157–158 | Cultivation: Dig or No-Dig? / No-Dig |
+| 159–160 | Cultivation: Digging / Digging continued |
+| 161 | Plant care: Sowing and planting |
+| 162–163 | Netting |
+| 164–165 | Supports |
+| 166 | Watering |
+| 167–169 | Greenhouses |
+| 170–173 | Index |
+| 174 | End balancing blank |
 
-PDF page = printed folio + 2. All three section openers are right-hand pages;
-all crops open on the left. Growing Techniques is continuous; some two-page
-technique topics now cross a page turn. Their margins follow the new physical
-folios. Interior blanks are 3, 6, 8, 98 and 172. The welcome/author page stays omitted.
-
+PDF page = interior folio + 2. Section openers remain right-hand pages at 9, 99 and 147. Growing Techniques runs continuously; no new internal blank is needed. The two additional Troubles pages shift all later content by two pages, preserving its page sides and facing arrangements.
 
 ## Accepted content and design
 
@@ -287,14 +305,14 @@ folios. Interior blanks are 3, 6, 8, 98 and 172. The welcome/author page stays o
   mature compost; Greyhound is Summer cabbages; broad pet litter is omitted.
   Eight affected crops remain two pages; Lettuce uses a 52:48 column split.
 - [Rotation approval](../publication/topic-pages/crop-rotation-planning/APPROVAL-2026-10-18.json)
-  covers the two-page spread now at 148–149: three-year families, record keeping,
+  covers the two-page spread now at 150–151: three-year families, record keeping,
   plant nutrition, eight family rows and disease warning; then broad beans → kale,
   four-bed rotation and the British-muddle alternative. Household planning and
   the appetite note remain removed. Nitrogen wording retains the researched
   qualifications; do not revive the original one-page trial.
 - [Nutrients approval](../publication/topic-pages/nutrient-cycles/APPROVAL-2026-10-18.json)
-  covers the single practical page now at 147, with N/P/K/micronutrients table and
-  rotation, compost and seaweed examples. Its rotation reference is now 148–149.
+  covers the single practical page now at 149, with N/P/K/micronutrients table and
+  rotation, compost and seaweed examples. Its rotation reference is now 150–151.
 - [Section-order approval](../publication/techniques-sequence/APPROVAL-2026-10-18.json)
   preserves the earlier accepted source. The current 19 October derivative removes
   its two internal blanks and applies the new subsection headings.
@@ -303,13 +321,13 @@ folios. Interior blanks are 3, 6, 8, 98 and 172. The welcome/author page stays o
   publication copy and B5 blurb remain integrated. Exact provenance is in the
   [asset registry](../assets/README.md) and [full-preview notes](../publication/whole-book-order-preview/README.md).
 
-Contents remain two pages with simple headings/list rows and existing H1/H2/H5/H6
-artwork: **83 destinations**, 10.5 pt rows. No numbers, family subheadings or panels.
-The index stays four pages, 9.45 pt, **297 entries / 35 see references**. All
-previous terms remain, including the nutrient and rotation succession references;
-11 Netting/Supports terms and seven precise crop/problem references are added. Crop-specific links require literal relevant crop mentions;
-79 links are present, with repeated section labels omitted within a footer.
-All highlights are removed from the current PDF and viewer.
+Contents retain two pages, simple headings and **83 destinations** at 10.5 pt.
+The approved category colours and pale key beside H6 are integrated; H1/H2 remain,
+H5 is intentionally omitted. The index stays four pages at 9.45 pt, with **297
+entries / 35 see references**. Its condition locations and all crop links are
+recalculated from the accepted Troubles pages; the integration receipt records
+the actual link count. Editing annotations are absent; the 24 Troubles highlights
+are part of the approved design.
 
 ## Sources and current rebuild route
 
@@ -444,8 +462,7 @@ Both the waterproof quote monitor and compact preparation automation remain
 checks and proof-order preparation are complete. John separately confirmed the
 artwork responsibility declaration, then placed and paid for the order himself.
 Current work and pending approvals are owned by [Resume here](#resume-here),
-including the complete Brassica proof and approved navigation changes awaiting
-integration. The how-to key remains rejected.
+The complete Troubles set and approved navigation changes are integrated. The how-to key remains rejected.
 The alphabetical book remains current; the introduction and further collected
 corrections/layout changes await John's instructions. The website is live,
 while book sales remain inactive. ISBN purchase remains to be decided following

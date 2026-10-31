@@ -1,0 +1,176 @@
+{
+  "date": "2026-10-31T13:57:00.844Z",
+  "actor": "admin: John approved the 24 Troubles stars, excluding potato slugs; implemented by AI:Codex",
+  "expectedRevision": "269fd2096a300c849d16aa36169af18658c282ab649ada576f77fd546540fb5d",
+  "changed": 13,
+  "revision": "15f89400c303d15e95dd0f4b82224bdfe26da362742175e147419794816e4492",
+  "backup": "/Users/johnlennon/Documents/web_site/hackriculture-data/backups/admin/2026-10-31T13-57-00.492Z-ef3190a3-9016-40f3-9b5e-3a2edaabb379",
+  "exactPriorBytesVerified": true,
+  "allOtherSourceFieldsPreserved": true,
+  "changedFields": [
+    {
+      "group": "bean_and_pea_troubles",
+      "path": "conditions.black_bean_aphid.star",
+      "previouslyAbsent": true,
+      "value": true
+    },
+    {
+      "group": "bean_and_pea_troubles",
+      "path": "conditions.chocolate_spot.star",
+      "previouslyAbsent": true,
+      "value": true
+    },
+    {
+      "group": "beetroot_troubles",
+      "path": "conditions.bolting.star",
+      "previouslyAbsent": true,
+      "value": true
+    },
+    {
+      "group": "carrot_and_parsnip_troubles",
+      "path": "conditions.carrot_fly.star",
+      "previouslyAbsent": true,
+      "value": true
+    },
+    {
+      "group": "carrot_and_parsnip_troubles",
+      "path": "conditions.parsnip_canker.star",
+      "previouslyAbsent": true,
+      "value": true
+    },
+    {
+      "group": "celery_troubles",
+      "path": "conditions.slugs_and_snails.star",
+      "previouslyAbsent": true,
+      "value": true
+    },
+    {
+      "group": "florence_fennel_troubles",
+      "path": "conditions.bolting_stemmy_bulbs.star",
+      "previouslyAbsent": true,
+      "value": true
+    },
+    {
+      "group": "cucurbit_troubles",
+      "path": "conditions.powdery_mildew.star",
+      "previouslyAbsent": true,
+      "value": true
+    },
+    {
+      "group": "cucurbit_troubles",
+      "path": "conditions.no_fruit.star",
+      "previouslyAbsent": true,
+      "value": true
+    },
+    {
+      "group": "lettuce_troubles",
+      "path": "conditions.slugs_and_snails.star",
+      "previouslyAbsent": true,
+      "value": true
+    },
+    {
+      "group": "lettuce_troubles",
+      "path": "conditions.bolting.star",
+      "previouslyAbsent": true,
+      "value": true
+    },
+    {
+      "group": "oriental_leaves_troubles",
+      "path": "conditions.flea_beetle.star",
+      "previouslyAbsent": true,
+      "value": true
+    },
+    {
+      "group": "oriental_leaves_troubles",
+      "path": "conditions.bolting_premature_flowering.star",
+      "previouslyAbsent": true,
+      "value": true
+    },
+    {
+      "group": "onion_and_leek_troubles",
+      "path": "conditions.white_rot_mouldy_nose.star",
+      "previouslyAbsent": true,
+      "value": true
+    },
+    {
+      "group": "onion_and_leek_troubles",
+      "path": "conditions.allium_leaf_miner.star",
+      "previouslyAbsent": true,
+      "value": true
+    },
+    {
+      "group": "potato_troubles",
+      "path": "conditions.potato_blight.star",
+      "previouslyAbsent": true,
+      "value": true
+    },
+    {
+      "group": "spinach_troubles",
+      "path": "conditions.bolting.star",
+      "previouslyAbsent": true,
+      "value": true
+    },
+    {
+      "group": "tomato_troubles",
+      "path": "conditions.potato_blight.star",
+      "previouslyAbsent": true,
+      "value": true
+    },
+    {
+      "group": "tomato_troubles",
+      "path": "conditions.greenhouse_whitefly.star",
+      "previouslyAbsent": true,
+      "value": true
+    },
+    {
+      "group": "tomato_troubles",
+      "path": "conditions.blossom_end_rot.star",
+      "previouslyAbsent": true,
+      "value": true
+    },
+    {
+      "group": "turnip_swede_radish_troubles",
+      "path": "conditions.flea_beetle.star",
+      "previouslyAbsent": true,
+      "value": true
+    },
+    {
+      "group": "turnip_swede_radish_troubles",
+      "path": "conditions.cabbage_root_fly.star",
+      "previouslyAbsent": true,
+      "value": true
+    }
+  ],
+  "sourceBeforeHashes": {
+    "bean_and_pea_troubles": "26ee1d6d8d0e05d8eefe9281335aa45a40f260df0a06c8987f1aec42a210cb54",
+    "beetroot_troubles": "f159d816bffda0f2b409a6aec62df37b2be197ad0d02305c7b4ee4ef0920e3da",
+    "carrot_and_parsnip_troubles": "40c5f6c8d11679a6d7f7859b277ada8fe1311f02bb0881bd8cf40860df3ecc5d",
+    "celery_troubles": "b9eeba3fc6fbc192240cc87f863c4f33a3c21dc6d46f027563dd0bcb148a973a",
+    "florence_fennel_troubles": "a5002881230588a811e5274bed5abd06b48c214b9c4771b8deff0146a2451745",
+    "cucurbit_troubles": "333b5eb7a54003aeb7b4337f06cdfc277ceec90ed77a1356524a6bd8a16a1313",
+    "lettuce_troubles": "b0846cf399eafd3bd003c8fec4d42f01e1bb1c3f6f356f90618a1609d4a8308d",
+    "oriental_leaves_troubles": "4531ff1a4cf956189f17bd70ddd6199cffdf99105086749e86bebedae4827502",
+    "onion_and_leek_troubles": "7b22ddf042fc055c1ea9805bc4e9831fd7f6390d826d1ed7b77e63791573da97",
+    "potato_troubles": "350f121f42919071c4ffd4820a6ce65528db9c85e00e7fbcad41e8dac8d48404",
+    "spinach_troubles": "d459d8995be0d6be1a95e852b1a45bb4f92df1d0ad97f3cc4bd70175253a4cb9",
+    "tomato_troubles": "138387ef29c9c7707f7ae85666a447567b6025073c788cf2317920bd1cd75901",
+    "turnip_swede_radish_troubles": "e213153240a1db59435cf987cb609776dabfac1eadd944192ea8331284ceaa3f"
+  },
+  "sourceAfterHashes": {
+    "bean_and_pea_troubles": "6cffc5b12f2bf15bff725603f7b6ad93a7a504c85c97ec57f5a1412e351243dd",
+    "beetroot_troubles": "7bb8a2f1e658b49984dc9cd569124a4d0bf9e5d9d36665007a02c453ccab4924",
+    "carrot_and_parsnip_troubles": "add7ddf0a427047b4792783889998decf7c784fbbe7d3600e3d319030dff1ecc",
+    "celery_troubles": "4ecfa7d1611da6116de333bb9688b233e9f32d3385d5a094eb4c507cc6f5d392",
+    "florence_fennel_troubles": "381aca45cb049b2534eaf24f764525b6c3c1406cb6cc895675eefd8171f9eddb",
+    "cucurbit_troubles": "77cb035c96d1d954c371b3772383d8d3994cb70f1f64a768bf6435673aa2c432",
+    "lettuce_troubles": "c77a1b89c64019f62461a240247071994056372ac6396cada6bd526dfc405b24",
+    "oriental_leaves_troubles": "dffcc8cb818597d274e781cd0cc853121b5208aac83e85f0c8aeff6efbd4837c",
+    "onion_and_leek_troubles": "ba537e1084cfa019f2f4bdd9cc29d0843948adb87c794589407685be0805f89a",
+    "potato_troubles": "70e0c9913803f714d68e63991d9422aff318b9fe485d97b892f15ed7798a7078",
+    "spinach_troubles": "fee50b03b5087e0112a2ea7cd6308482a87662ff141c50c8c85f01b41f20c733",
+    "tomato_troubles": "b93b1093163a2f7936f2218a6e671a3cfbcf73b059231cd302cf27a0a29c218e",
+    "turnip_swede_radish_troubles": "eaf6d648401007d4ae27e0ecea86246b9544ea70c313a57ce4e00ef133d9632d"
+  },
+  "totalStars": 24,
+  "potatoSlugsStarred": false
+}

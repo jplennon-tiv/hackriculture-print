@@ -1,32 +1,8 @@
 # Current complete book preview
 
-Updated 30 October 2026. [Browse the full book](REVIEW.html?revision=alphabetical-2026-10-30#spread=6)
-or [open the PDF](../../../output/pdf/whole-book-order-preview/the-vegetable-guru-order-preview.pdf).
-The imperial preview contains **172 interior pages plus four cover leaves: 176 PDF pages**.
-Vegetables now run in alphabetical order by their displayed titles. Each complete
-facing pair retains its accepted layout and original category colours. All approved
-reader edits, Growing Techniques grouping, Netting and Supports are integrated;
-review highlights are removed. This is the current screen proof, not a supplier upload.
-
-John's final copy replacements for **Organic growing — The core ideas**, page 146,
-were approved on 18 October and are included. The introduction is shortened and all three advice
-paragraphs replaced; diagram, closing box, type sizes and pagination remain.
-[Focused copy and both-unit checks](../final-text-edits/README.md). Earlier approved
-source pages remain intact.
-
-The latest requested replacement on **Beds and paths**, page 152, ends the
-“**Sides are optional**” paragraph with “Choose what makes the plot easier to
-use for you.” Its original panels, illustration and type sizes are retained.
-[Both-unit page checks](../final-text-edits/BEDS-PDF-CHECKS.json).
-
-The requested **Digging** reordering puts all five double-digging steps on
-**157**, then single digging, path care and smothering on **158**. Original
-text sizes and artwork are retained. The four headings at **155–158** now use
-green **Cultivation** with orange **Dig or No-Dig?**, **No-Dig**, **Digging** and
-**Digging continued**. [Current pages and both-unit checks](../techniques-subsections/README.md).
-Page **157** includes John's revised introduction with **Single digging** and
-**Double digging** in bold, and the heading **Double digging: start a new plot,
-or revive a tired one**. All five steps still fit at the existing type sizes.
+Updated 31 October 2026. [Browse the full book](REVIEW.html) or [open the PDF](../../../output/pdf/whole-book-order-preview/the-vegetable-guru-order-preview.pdf).
+The imperial book contains **174 interior pages plus four cover leaves: 178 PDF pages**.
+John approved the revised Troubles set and requested its integration with the approved category names and coloured contents. All three changes are now included, with refreshed contents, index, folios, bookmarks and internal links. This is the current screen proof; the ordered Bookvault files remain unchanged.
 
 ## Current placement
 
@@ -34,135 +10,59 @@ or revive a tired one**. All five steps still fit at the existing type sizes.
 | --- | --- |
 | 1–2 | Title and publication details |
 | 3 | Blank |
-| 4–5 | Illustrated contents, facing |
+| 4–5 | Approved coloured contents, facing; pale category key beside H6 harvest |
 | 6–7 | Blank / Introduction — why grow your own |
-| 8–9 | Blank / combined Vegetable Guides and how-to |
+| 8–9 | Blank / existing combined Vegetable Guides and how-to |
 | 10–97 | All 44 vegetables, alphabetical by title, two facing pages each |
-| 98–99 | Blank / Vegetable Troubles opener |
-| 100–144 | Fourteen Troubles guides |
-| 145 | Growing Techniques opener |
-| 146–147 | Organic growing / Nutrient cycles |
-| 148–149 | Crop rotation & planning |
-| 150 | Planning your plot: Choosing the right spot |
-| 151–152 | Planning your plot: Beds and paths / continued |
-| 153–154 | Compost |
-| 155–156 | Cultivation: Dig or No-Dig? / No-Dig |
-| 157–158 | Cultivation: Digging / Digging continued |
-| 159 | Plant care: Sowing and planting |
-| 160–161 | Netting |
-| 162–163 | Supports |
-| 164 | Watering |
-| 165 | Greenhouses introduction |
-| 166–167 | Greenhouse growing options and seasons |
-| 168–171 | Index |
-| 172 | End balancing blank |
+| 98–99 | Blank / revised Vegetable Troubles opener |
+| 100–146 | Fourteen approved Troubles guides, 220 conditions and 24 highlights |
+| 147 | Growing Techniques opener |
+| 148–149 | Organic growing / Nutrient cycles |
+| 150–151 | Crop rotation & planning |
+| 152 | Planning your plot: Choosing the right spot |
+| 153–154 | Planning your plot: Beds and paths / continued |
+| 155–156 | Compost |
+| 157–158 | Cultivation: Dig or No-Dig? / No-Dig |
+| 159–160 | Cultivation: Digging / Digging continued |
+| 161 | Plant care: Sowing and planting |
+| 162–163 | Netting |
+| 164–165 | Supports |
+| 166 | Watering |
+| 167–169 | Greenhouses |
+| 170–173 | Index |
+| 174 | End balancing blank |
 
-PDF page = interior folio + 2. Section openers remain recto at 9, 99 and 145.
-The contents face at 4–5. John’s 19 October request supersedes the earlier two
-internal alignment blanks. Growing Techniques runs continuously at 145–167;
-some two-page topics cross a page turn, with margins mirrored to their new sides.
+PDF page = interior folio + 2. Section openers remain right-hand pages at 9, 99 and 147. Growing Techniques runs continuously; no new internal blank is needed. The two additional Troubles pages shift all later content by two pages, preserving its page sides and facing arrangements.
 
-The [current subsection derivative](../techniques-subsections/README.md) groups
-running titles under Organic growing, Planning a new plot, Compost, Cultivation,
-Plant care and Greenhouses. Requested large headings use the existing green/orange
-style. All earlier body copy and artwork are retained.
+## Integrated approvals
 
-## Included approvals
+- [Complete Troubles approval](../troubles-rollout/APPROVAL.json): exact both-unit PDFs and condition map. Source pages are reused directly. All 220 conditions and original drawings remain, with 25% larger image boxes, 4 mm shape clearance, natural 8 px gaps and trailing final-page space. Importance leads; fit moves are bounded to one page, with no alphabetical tie-break. Exactly 24 separated panels carry Common Pest / Common Disease / Common Problem ribbons; potato slugs remain ordinary.
+- [Category-name approval](../category-navigation-preview/APPROVAL.json): 10 pt bold family-coloured names on both pages of all 44 guides. Practical titles move to the accepted 9 mm top position and retain their existing sizes, including smaller long-title sizes. Native bodies and artwork are unchanged. The rejected how-to colour key is not included.
+- [Coloured contents and key approval](../contents-colour-study/key-preview/APPROVAL.json): 10.5 pt category-coloured vegetable and Troubles entries, and an 8 pt eight-category key in the pale roots.wash panel beside H6. H5 seedlings is intentionally omitted; both header illustrations remain. All 83 destinations appear once.
+- [Netting](../topic-pages/plant-protection-supports/netting/APPROVAL.json) and [Supports](../topic-pages/plant-protection-supports/supports/APPROVAL.json), now 162–165, retain their approved bodies.
+- The earlier [reader edits](../reader-edit-pass/APPROVAL-2026-10-16.json), [rotation spread](../topic-pages/crop-rotation-planning/APPROVAL-2026-10-18.json), [nutrient page](../topic-pages/nutrient-cycles/APPROVAL-2026-10-18.json), [final Organic growing and Beds copy](../final-text-edits/README.md), and [Cultivation headings/digging order](../techniques-subsections/README.md) remain included.
+- Selected G2 front, preferred B5 back, approved publication/back-cover copy and all existing opening pages remain. Missing copyright year, imprint, ISBN and edition/year remain placeholders.
 
-- [Netting, approved 29 October](../topic-pages/plant-protection-supports/netting/APPROVAL.json)
-  and [Supports, approved 30 October](../topic-pages/plant-protection-supports/supports/APPROVAL.json).
-  Both facing spreads retain every approved body glyph, position, image and type size.
+## Navigation and verification
 
-- All [reader edits approved 16 October](../reader-edit-pass/APPROVAL-2026-10-16.json):
-  the calendar key, eight vegetable guides, Onion & Leek Troubles, compost,
-  sowing and greenhouse explanations, and five index routes. Their original
-  one-page rotation is superseded by the approved expanded spread.
-- The [two-page rotation](../topic-pages/crop-rotation-planning/APPROVAL-2026-10-18.json)
-  and [one-page nutrients](../topic-pages/nutrient-cycles/APPROVAL-2026-10-18.json),
-  placed in the [approved section order](../techniques-sequence/APPROVAL-2026-10-18.json).
-- All earlier approved headers, two-page carrot/onion/tomato layouts,
-  combined opener, navigation labels, flowing technique headings,
-  publication page and back-cover wording. G2 front and B5 back remain.
-  Missing copyright year, imprint, ISBN, edition and publication year remain placeholders.
+The four-page index retains **297 entries, 35 see references and 9.45 pt type**. Its stable condition locators now use the approved Troubles condition-page map and confirm the exact heading in the actual PDF. Both editions resolve independently to the same folios. Crop “See also” links are recalculated from explicit mentions on destination pages. The nutrient-to-rotation reference now reads 150–151; Kale and Lettuce/Oriental Leaves references retain their alphabetical crop destinations.
 
-Contents retain their simple two-page structure, all four illustrations and 10.5 pt
-rows, with **83 destinations**. The two lower decorations are scaled to 45 × 33.75 mm
-within a 34 mm band, preserving the 3 mm upper gap, to fit the added Netting and
-Supports rows. The four-page index retains 9.45 pt type and its 1.28 line spacing,
-with **297 entries and 35 see references**. Eleven new terms cover the approved
-material; seven crop/problem entries gain precise references. Both units resolve
-to the same folios. A current-only stylesheet uses a 7 mm column gap and smaller
-spaces around letter headings; the original index stylesheet remains frozen.
+[CHECKS.json](CHECKS.json), [PAGE-MAP.json](PAGE-MAP.json), [NAVIGATION-PDF-CHECKS.json](NAVIGATION-PDF-CHECKS.json), [SEQUENCE-CHECKS.json](SEQUENCE-CHECKS.json) and [VISUAL-REVIEW.json](VISUAL-REVIEW.json) describe the current book. The [integration receipt](integration-2026-10-31/INTEGRATION-CHECKS.json) compares every reused body with its exact source, including glyph coordinates, type sizes, text colours and image counts. Intentional exceptions are the approved category/title header bands and three bounded numeric-reference replacements. Fonts and every internal link are checked in the actual assembled PDF.
 
-Crop-specific footer links continue to use explicit destination-page mentions.
-Contents, index, crop links and the explicit topic cross-references are
-clickable inside the PDF. There are 79 crop links, 83 contents links, 409 index links and four explicit
-body links; all 575 internal destinations were reopened and verified.
+[Category overlay measurements](integration-2026-10-31/CATEGORY-LABELS.json) cover all 88 pages. The complete Troubles sources, category examples and contents composition remain frozen. No guide catalogue export, gardening-record change or shared book-copy mutation was needed: existing stable IDs resolve against the updated plan. Earlier transaction receipts remain historical evidence and must not be rerun.
 
-## Sources, checks and limits
-
-[CHECKS.json](CHECKS.json), [PAGE-MAP.json](PAGE-MAP.json),
-[NAVIGATION-PDF-CHECKS.json](NAVIGATION-PDF-CHECKS.json),
-[SEQUENCE-CHECKS.json](SEQUENCE-CHECKS.json) and
-[VISUAL-REVIEW.json](VISUAL-REVIEW.json) describe the current output and coverage.
-The [integration receipt](integration-2026-10-30/INTEGRATION-CHECKS.json) checks every
-reused page body against its exact source, including glyph coordinates, type sizes,
-text colours and image counts, plus embedded fonts and actual link destinations.
-The only body-text exceptions are two numeric references: Kale now 58–59, and
-Lettuce/Oriental Leaves now 64–65 and 70–71. These use the same native font, with
-missing digits copied from matching embedded subsets after exact common-glyph
-comparison. All text outside those bounded references is checked unchanged.
-[Alphabetical-order checks](alphabetical-order-2026-10-30/CHECKS.json) record every
-guide’s old and new position. Category markers and colour keys remain discussion
-proposals; none has been added. The previous
-166-page interior is preserved in [baseline.pdf](integration-2026-10-18/baseline.pdf).
-
-No guide export or canonical gardening JSON change was made. The
-[book-copy transaction](integration-2026-10-30/BOOK-COPY-UPDATE.json) records the
-new contents/index entries and exact-byte backup. The earlier
-[single-digging index correction](../techniques-subsections/INDEX-REFERENCE-SAVE.json)
-points to its new instruction page, 158, with a separate exact-byte backup. Approved source PDFs, manuscripts,
-A4 originals and previous approvals remain intact. Old dates and folios in frozen
-proofs identify those historical sources; they are not current instructions.
-
-Full assembly remains imperial; metric contents/index references are checked.
-John accepted the physical quality of the ordered 168-page proof on 28 October.
-Those exact production PDFs remain unchanged. This 172-page screen revision has
-not replaced the supplier files: production artwork restoration, preflight and
-revised cover/spine geometry remain part of final publication preparation.
+Full assembly is imperial; both-unit contents and condition/index references are checked. John's physical-quality acceptance applies to the ordered 168-page proof. This 174-page screen revision does not replace supplier files or establish final cover/spine geometry.
 
 ## Rebuilding after an authorised change
 
-Start the app through `start.command` on loopback, using the pinned Node runtime.
-Then run:
+Start Vite through `start.command` on loopback, then run:
 
 ```sh
 npm run book:preview
 ```
 
-This builds both contents proofs and the placement map, validates book copy,
-then builds the current four-page index, refreshes reference footers, assembles approved bodies and renders the
-complete facing-page viewer. It never exports the vegetable catalogue.
-Inspect changed pages and update the visual receipt after a rebuild.
+The route builds both contents editions and the placement map, validates book copy, builds the current index and category/footer overlays, assembles saved native bodies, verifies links, then renders the full facing-page viewer. It never exports the guide catalogue. Inspect affected pages after a rebuild and refresh the visual receipt.
 
-For a change to the retained pre-Netting Techniques bodies, follow the [subsection rebuild route](../techniques-subsections/README.md).
-It binds the earlier approved and author-edited source proofs, then applies the
-current headers and folios. After changing a body-copy source, rebuild that proof,
-update its exact source binding, and regenerate the subsection derivative before
-running `book:preview`. The retained subsection derivative keeps its 19 October source folios; integration
-maps its Watering and Greenhouses pages four pages later and inserts the two
-new approved PDFs directly. Earlier builders retain their dated folios; stale
-hashes fail rather than silently restoring older copy. New Netting/Supports
-revisions must use separate reviewed outputs and reconcile their approval binding.
+`npm run book:contents` and `npm run book:index` build individual navigation components. `scripts/lib/approved-troubles.mjs` verifies the accepted 31 October PDFs and condition map; the old rollout builders now refuse to overwrite that approved set. Later revisions require separate reviewed inputs. Frozen category/contents study builders are not integration commands.
 
-The component commands are `npm run book:contents` and `npm run book:index`.
-`integrate-approved-book.py` performs native PDF assembly and verification;
-`check-book-navigation.py` independently reopens its links;
-`review-whole-book-preview.py` builds page images and the viewer.
-Use the bundled Python/Poppler runtimes documented in SETUP.
-
-The old `prepare-whole-book-preview.mjs` and `assemble-whole-book-preview.py`
-execution paths are retired and stop with a redirect. `book:build`,
-`book:entries` and `book:guide-key` retain earlier standalone compositions;
-they do not rebuild the current combined opener or full book. Future content
-changes need new approved component inputs, not edits to frozen references.
+For retained Techniques body changes, follow the [subsection source workflow](../techniques-subsections/README.md). Its source folios are historical; current placement comes from the contents plan. `integrate-approved-book.py` performs native assembly, `check-book-navigation.py` independently reopens destinations, and `review-whole-book-preview.py` refreshes the viewer. The retired original whole-book builders remain redirects. Production preparation and account actions remain separate.

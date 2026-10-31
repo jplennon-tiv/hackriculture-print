@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-30",
+  "date": "2026-10-31",
   "status": "Current numeric index component; fit passed; actual PDF and visual checks recorded with full-book integration",
   "entries": 297,
   "crossReferences": 35,
@@ -12,7 +12,7 @@
   "copySha256": "a2022a1b4b1c23a9823ffd403289c00b3fd66f6f302eecbbbe089889b1e43c26",
   "pdf": {
     "path": "tmp/pdfs/whole-book-order-preview/vegetable-guru-index-draft.pdf",
-    "sha256": "e30333ef4e5b1077ec6633ae0124518533ba75396a62dd9a723b7af057ab003f"
+    "sha256": "8320f0b474ba435fc6a208708b12582a3ec2a2eaee46036689bf8a5410133d1f"
   },
   "dom": [
     {
@@ -96,11 +96,12 @@
         "compost-making-and-using",
         "compost-sowing-and-potting-mix",
         "containers-greenhouse-growing",
-        "courgettes-and-marrows"
+        "courgettes-and-marrows",
+        "crop-rotation"
       ],
       "columnBottoms": [
-        769.765625,
-        770.0625
+        815.0625,
+        815.0625
       ],
       "footerGapMm": 12.720670572916665,
       "blocks": [
@@ -121,7 +122,7 @@
           "fontPt": 15
         },
         {
-          "text": "Allium leaf miner128",
+          "text": "Allium leaf miner126",
           "left": 7.99951171875,
           "top": 33.593815104166666,
           "right": 84.49716796874999,
@@ -129,7 +130,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Anthracnose103, 119, 121",
+          "text": "Anthracnose102, 120–121",
           "left": 7.99951171875,
           "top": 37.934635416666666,
           "right": 84.49716796874999,
@@ -137,7 +138,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Aphids124, 132, 140",
+          "text": "Aphids123, 133, 139",
           "left": 7.99951171875,
           "top": 42.275455729166666,
           "right": 84.49716796874999,
@@ -145,7 +146,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Aphids, black bean101",
+          "text": "Aphids, black bean100",
           "left": 7.99951171875,
           "top": 46.61627604166666,
           "right": 84.49716796874999,
@@ -161,7 +162,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Aphids, mealy108",
+          "text": "Aphids, mealy107",
           "left": 7.99951171875,
           "top": 55.29791666666666,
           "right": 84.49716796874999,
@@ -169,7 +170,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Aphids, pea101",
+          "text": "Aphids, pea103",
           "left": 7.99951171875,
           "top": 59.63873697916666,
           "right": 84.49716796874999,
@@ -233,7 +234,7 @@
           "fontPt": 15
         },
         {
-          "text": "Basal stem rot120",
+          "text": "Basal stem rot119",
           "left": 7.99951171875,
           "top": 98.52835286458333,
           "right": 84.49716796874999,
@@ -241,7 +242,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Beans, broad18–19, 100–103, 162",
+          "text": "Beans, broad18–19, 100–103, 164",
           "left": 7.99951171875,
           "top": 102.86917317708333,
           "right": 84.49716796874999,
@@ -249,7 +250,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Bean seed fly100",
+          "text": "Bean seed fly102",
           "left": 7.99951171875,
           "top": 107.20999348958333,
           "right": 84.49716796874999,
@@ -257,7 +258,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Beans, French20–21, 100–103, 162",
+          "text": "Beans, French20–21, 100–103, 164",
           "left": 7.99951171875,
           "top": 111.55081380208333,
           "right": 84.49716796874999,
@@ -265,7 +266,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Beans, runner22–23, 100–103, 162",
+          "text": "Beans, runner22–23, 100–103, 164",
           "left": 7.99951171875,
           "top": 115.89163411458333,
           "right": 84.49716796874999,
@@ -273,7 +274,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Bed layout151–152",
+          "text": "Bed layout153–154",
           "left": 7.99951171875,
           "top": 120.23245442708333,
           "right": 84.49716796874999,
@@ -281,7 +282,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Beds, raised greenhouse166",
+          "text": "Beds, raised greenhouse168",
           "left": 7.99951171875,
           "top": 124.57327473958333,
           "right": 84.49716796874999,
@@ -289,7 +290,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Beet, leaf24–25, 136–137",
+          "text": "Beet, leaf24–25, 137–138",
           "left": 7.99951171875,
           "top": 128.91409505208333,
           "right": 84.49716796874999,
@@ -297,7 +298,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Beet leaf miner (mangold fly)105",
+          "text": "Beet leaf miner (mangold fly)104",
           "left": 7.99951171875,
           "top": 133.25491536458333,
           "right": 84.49716796874999,
@@ -313,7 +314,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Bird damage100, 106, 143, 160",
+          "text": "Bird damage100, 106, 145, 162",
           "left": 7.99951171875,
           "top": 141.93655598958333,
           "right": 84.49716796874999,
@@ -321,7 +322,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Birds pulling sets126",
+          "text": "Birds pulling sets127",
           "left": 7.99951171875,
           "top": 146.27737630208333,
           "right": 84.49716796874999,
@@ -345,7 +346,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Blackleg104, 132",
+          "text": "Blackleg105, 133",
           "left": 7.99951171875,
           "top": 159.29983723958333,
           "right": 84.49716796874999,
@@ -353,7 +354,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Black rot109, 113, 120, 144",
+          "text": "Black rot110, 113, 120, 146",
           "left": 7.99951171875,
           "top": 163.64065755208333,
           "right": 84.49716796874999,
@@ -361,83 +362,91 @@
           "fontPt": 9.45
         },
         {
-          "text": "Blight, potatoes and tomatoes131, 134, 139, 142",
+          "text": "Blight, potatoes and tomatoes132, 139–140",
           "left": 7.99951171875,
           "top": 167.98147786458333,
           "right": 84.49716796874999,
-          "bottom": 176.50602213541666,
+          "bottom": 172.24374999999998,
           "fontPt": 9.45
         },
         {
-          "text": "Blossom drop141",
+          "text": "Blossom drop140",
           "left": 7.99951171875,
-          "top": 176.58457031249998,
+          "top": 172.32229817708333,
           "right": 84.49716796874999,
-          "bottom": 180.84684244791666,
+          "bottom": 176.58457031249998,
           "fontPt": 9.45
         },
         {
           "text": "Blossom end rot140",
           "left": 7.99951171875,
-          "top": 180.92539062499998,
+          "top": 176.66311848958333,
           "right": 84.49716796874999,
-          "bottom": 185.18766276041666,
+          "bottom": 180.92539062499998,
           "fontPt": 9.45
         },
         {
-          "text": "Blotch119",
+          "text": "Blotch121",
           "left": 7.99951171875,
-          "top": 185.26621093749998,
+          "top": 181.00393880208333,
           "right": 84.49716796874999,
-          "bottom": 189.52848307291666,
+          "bottom": 185.26621093749998,
           "fontPt": 9.45
         },
         {
           "text": "Blotchy ripening141",
           "left": 7.99951171875,
-          "top": 189.60703124999998,
+          "top": 185.34475911458333,
           "right": 84.49716796874999,
-          "bottom": 193.86930338541666,
+          "bottom": 189.60703124999998,
           "fontPt": 9.45
         },
         {
-          "text": "Blown Brussels sprouts110",
+          "text": "Blown Brussels sprouts107",
           "left": 7.99951171875,
-          "top": 193.94785156249998,
+          "top": 189.68557942708333,
           "right": 84.49716796874999,
-          "bottom": 198.21012369791666,
+          "bottom": 193.94785156249998,
           "fontPt": 9.45
         },
         {
-          "text": "Bolting104, 115, 122–123, 126, 129, 136, 143",
+          "text": "Bolting104, 115, 122, 124, 126, 130, 137, 145",
           "left": 7.99951171875,
-          "top": 198.28867187499998,
+          "top": 194.02639973958333,
           "right": 84.49716796874999,
-          "bottom": 202.55094401041666,
+          "bottom": 198.28867187499998,
           "fontPt": 9.45
         },
         {
-          "text": "Boron deficiency111, 144",
+          "text": "Boron deficiency108, 144",
           "left": 7.99951171875,
-          "top": 202.62949218749998,
+          "top": 198.36722005208333,
           "right": 84.49716796874999,
-          "bottom": 206.89176432291666,
+          "bottom": 202.62949218749998,
           "fontPt": 9.45
         },
         {
           "text": "Botrytis see Grey mould (Botrytis)",
           "left": 7.99951171875,
-          "top": 206.97031249999998,
+          "top": 202.70804036458333,
           "right": 84.49716796874999,
-          "bottom": 211.23258463541666,
+          "bottom": 206.97031249999998,
           "fontPt": 9.45
         },
         {
-          "text": "Bracing163",
+          "text": "Bracing165",
           "left": 7.99951171875,
-          "top": 211.31113281249998,
+          "top": 207.04886067708333,
           "right": 84.49716796874999,
-          "bottom": 215.57340494791666,
+          "bottom": 211.31113281249998,
+          "fontPt": 9.45
+        },
+        {
+          "text": "Broad beans see Beans, broad",
+          "left": 7.99951171875,
+          "top": 211.38968098958333,
+          "right": 84.49716796874999,
+          "bottom": 215.65195312499998,
           "fontPt": 9.45
         },
         {
@@ -449,7 +458,7 @@
           "fontPt": 15
         },
         {
-          "text": "Broad beans see Beans, broad",
+          "text": "Broccoli28–29, 106–111",
           "left": 91.49622395833332,
           "top": 33.593815104166666,
           "right": 167.99801432291665,
@@ -457,7 +466,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Broccoli28–29, 106–111",
+          "text": "Brown heart see Boron deficiency",
           "left": 91.49622395833332,
           "top": 37.934635416666666,
           "right": 167.99801432291665,
@@ -465,7 +474,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Brown heart see Boron deficiency",
+          "text": "Brussels sprouts30–31, 106–111, 165",
           "left": 91.49622395833332,
           "top": 42.275455729166666,
           "right": 167.99801432291665,
@@ -473,7 +482,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Brussels sprouts30–31, 106–111, 163",
+          "text": "Buckeye rot143",
           "left": 91.49622395833332,
           "top": 46.61627604166666,
           "right": 167.99801432291665,
@@ -481,7 +490,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Buckeye rot142",
+          "text": "Button cauliflowers108",
           "left": 91.49622395833332,
           "top": 50.95709635416666,
           "right": 167.99801432291665,
@@ -489,23 +498,23 @@
           "fontPt": 9.45
         },
         {
-          "text": "Button cauliflowers110",
-          "left": 91.49622395833332,
-          "top": 55.29791666666666,
-          "right": 167.99801432291665,
-          "bottom": 59.56018880208333,
-          "fontPt": 9.45
-        },
-        {
           "text": "C",
           "left": 91.49622395833332,
-          "top": 60.759082031249996,
+          "top": 56.418261718749996,
           "right": 167.99801432291665,
-          "bottom": 67.44394531249999,
+          "bottom": 63.103125,
           "fontPt": 15
         },
         {
           "text": "Cabbage32–33, 106–111",
+          "left": 91.49622395833332,
+          "top": 63.801790364583326,
+          "right": 167.99801432291665,
+          "bottom": 68.06406249999999,
+          "fontPt": 9.45
+        },
+        {
+          "text": "Cabbage root fly107, 131, 145",
           "left": 91.49622395833332,
           "top": 68.14261067708333,
           "right": 167.99801432291665,
@@ -513,7 +522,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Cabbage root fly109, 130, 144",
+          "text": "Cabbage stem flea beetle111",
           "left": 91.49622395833332,
           "top": 72.48343098958333,
           "right": 167.99801432291665,
@@ -521,7 +530,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Cabbage stem flea beetle111",
+          "text": "Cabbage whitefly108",
           "left": 91.49622395833332,
           "top": 76.82425130208333,
           "right": 167.99801432291665,
@@ -529,7 +538,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Cabbage whitefly108",
+          "text": "Capsicums see Peppers (capsicums)",
           "left": 91.49622395833332,
           "top": 81.16507161458333,
           "right": 167.99801432291665,
@@ -537,7 +546,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Capsicums see Peppers (capsicums)",
+          "text": "Capsid bug136",
           "left": 91.49622395833332,
           "top": 85.50589192708333,
           "right": 167.99801432291665,
@@ -545,7 +554,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Capsid bug132",
+          "text": "Cardboard, starting a bed158",
           "left": 91.49622395833332,
           "top": 89.84671223958333,
           "right": 167.99801432291665,
@@ -553,7 +562,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Cardboard, starting a bed156",
+          "text": "Carrot fly113",
           "left": 91.49622395833332,
           "top": 94.18753255208333,
           "right": 167.99801432291665,
@@ -561,7 +570,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Carrot fly112",
+          "text": "Carrot motley dwarf113",
           "left": 91.49622395833332,
           "top": 98.52835286458333,
           "right": 167.99801432291665,
@@ -569,7 +578,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Carrot motley dwarf113",
+          "text": "Carrots36–37, 112–114",
           "left": 91.49622395833332,
           "top": 102.86917317708333,
           "right": 167.99801432291665,
@@ -577,7 +586,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Carrots36–37, 112–114",
+          "text": "Caterpillars145",
           "left": 91.49622395833332,
           "top": 107.20999348958333,
           "right": 167.99801432291665,
@@ -585,7 +594,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Caterpillars143",
+          "text": "Caterpillars, cabbage106, 130",
           "left": 91.49622395833332,
           "top": 111.55081380208333,
           "right": 167.99801432291665,
@@ -593,7 +602,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Caterpillars, cabbage107, 129",
+          "text": "Cauliflower38–39, 106–111",
           "left": 91.49622395833332,
           "top": 115.89163411458333,
           "right": 167.99801432291665,
@@ -601,7 +610,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Cauliflower38–39, 106–111",
+          "text": "Celeriac40–41, 115–116",
           "left": 91.49622395833332,
           "top": 120.23245442708333,
           "right": 167.99801432291665,
@@ -609,7 +618,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Celeriac40–41, 115–116",
+          "text": "Celery42–43, 115–116",
           "left": 91.49622395833332,
           "top": 124.57327473958333,
           "right": 167.99801432291665,
@@ -617,7 +626,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Celery42–43, 115–116",
+          "text": "Celery fly (leaf miner)115",
           "left": 91.49622395833332,
           "top": 128.91409505208333,
           "right": 167.99801432291665,
@@ -625,7 +634,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Celery fly (leaf miner)116",
+          "text": "Celery heart rot116",
           "left": 91.49622395833332,
           "top": 133.25491536458333,
           "right": 167.99801432291665,
@@ -633,7 +642,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Celery heart rot116",
+          "text": "Celery leaf spot (blight)115",
           "left": 91.49622395833332,
           "top": 137.59573567708333,
           "right": 167.99801432291665,
@@ -641,7 +650,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Celery leaf spot (blight)115",
+          "text": "Chafer grubs110",
           "left": 91.49622395833332,
           "top": 141.93655598958333,
           "right": 167.99801432291665,
@@ -649,7 +658,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Chafer grubs109",
+          "text": "Chard see Beet, leaf",
           "left": 91.49622395833332,
           "top": 146.27737630208333,
           "right": 167.99801432291665,
@@ -657,7 +666,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Chard see Beet, leaf",
+          "text": "Chicory44–45",
           "left": 91.49622395833332,
           "top": 150.61819661458333,
           "right": 167.99801432291665,
@@ -665,7 +674,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Chicory44–45",
+          "text": "Chillies see Peppers (capsicums)",
           "left": 91.49622395833332,
           "top": 154.95901692708333,
           "right": 167.99801432291665,
@@ -673,7 +682,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Chillies see Peppers (capsicums)",
+          "text": "Chocolate spot101",
           "left": 91.49622395833332,
           "top": 159.29983723958333,
           "right": 167.99801432291665,
@@ -681,7 +690,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Chocolate spot102",
+          "text": "Clayburn114",
           "left": 91.49622395833332,
           "top": 163.64065755208333,
           "right": 167.99801432291665,
@@ -689,7 +698,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Clayburn112",
+          "text": "Clubroot106",
           "left": 91.49622395833332,
           "top": 167.98147786458333,
           "right": 167.99801432291665,
@@ -697,7 +706,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Clubroot107",
+          "text": "Colorado beetle136",
           "left": 91.49622395833332,
           "top": 172.32229817708333,
           "right": 167.99801432291665,
@@ -705,7 +714,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Colorado beetle135",
+          "text": "Comfrey149",
           "left": 91.49622395833332,
           "top": 176.66311848958333,
           "right": 167.99801432291665,
@@ -713,7 +722,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Comfrey147",
+          "text": "Common scab134",
           "left": 91.49622395833332,
           "top": 181.00393880208333,
           "right": 167.99801432291665,
@@ -721,7 +730,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Common scab133",
+          "text": "Compost, bins155",
           "left": 91.49622395833332,
           "top": 185.34475911458333,
           "right": 167.99801432291665,
@@ -729,7 +738,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Compost, bins153",
+          "text": "Compost, ingredients and moisture156",
           "left": 91.49622395833332,
           "top": 189.68557942708333,
           "right": 167.99801432291665,
@@ -737,7 +746,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Compost, ingredients and moisture154",
+          "text": "Compost, making and using155–156",
           "left": 91.49622395833332,
           "top": 194.02639973958333,
           "right": 167.99801432291665,
@@ -745,7 +754,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Compost, making and using153–154",
+          "text": "Compost, sowing and potting mix156",
           "left": 91.49622395833332,
           "top": 198.36722005208333,
           "right": 167.99801432291665,
@@ -753,7 +762,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Compost, sowing and potting mix154",
+          "text": "Containers, greenhouse growing168",
           "left": 91.49622395833332,
           "top": 202.70804036458333,
           "right": 167.99801432291665,
@@ -761,7 +770,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Containers, greenhouse growing166",
+          "text": "Courgettes and marrows46–47, 117–121",
           "left": 91.49622395833332,
           "top": 207.04886067708333,
           "right": 167.99801432291665,
@@ -769,7 +778,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Courgettes and marrows46–47, 117–121",
+          "text": "Crop rotation150–151",
           "left": 91.49622395833332,
           "top": 211.38968098958333,
           "right": 167.99801432291665,
@@ -777,7 +786,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "THE VEGETABLE GURU\nIMPERIAL · 168",
+          "text": "THE VEGETABLE GURU\nIMPERIAL · 170",
           "left": 7.99951171875,
           "top": 228.37262369791665,
           "right": 167.99801432291665,
@@ -789,7 +798,6 @@
     {
       "page": 2,
       "entryIds": [
-        "crop-rotation",
         "cucumber-mosaic-virus",
         "cucumbers-greenhouse",
         "cucumbers-outdoor",
@@ -859,8 +867,8 @@
         "leaf-and-pod-spot"
       ],
       "columnBottoms": [
-        1659.390625,
-        1690.859375
+        1687.984375,
+        1735.859375
       ],
       "footerGapMm": 9.09091796875,
       "blocks": [
@@ -881,7 +889,7 @@
           "fontPt": 15
         },
         {
-          "text": "Crop rotation148–149",
+          "text": "Cucumber mosaic virus117, 119",
           "left": 16.999479166666664,
           "top": 33.593815104166666,
           "right": 93.49713541666667,
@@ -889,7 +897,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Cucumber mosaic virus118",
+          "text": "Cucumbers, greenhouse48–49, 117–121",
           "left": 16.999479166666664,
           "top": 37.934635416666666,
           "right": 93.49713541666667,
@@ -897,7 +905,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Cucumbers, greenhouse48–49, 117–121",
+          "text": "Cucumbers, outdoor50–51, 117–121",
           "left": 16.999479166666664,
           "top": 42.275455729166666,
           "right": 93.49713541666667,
@@ -905,7 +913,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Cucumbers, outdoor50–51, 117–121",
+          "text": "Cucurbits, poor yield118",
           "left": 16.999479166666664,
           "top": 46.61627604166666,
           "right": 93.49713541666667,
@@ -913,7 +921,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Cucurbits, poor yield117",
+          "text": "Cultivation, choosing a method157",
           "left": 16.999479166666664,
           "top": 50.95709635416666,
           "right": 93.49713541666667,
@@ -921,7 +929,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Cultivation, choosing a method155",
+          "text": "Cutworm109, 124, 142",
           "left": 16.999479166666664,
           "top": 55.29791666666666,
           "right": 93.49713541666667,
@@ -929,23 +937,23 @@
           "fontPt": 9.45
         },
         {
-          "text": "Cutworm110, 125, 140",
-          "left": 16.999479166666664,
-          "top": 59.63873697916666,
-          "right": 93.49713541666667,
-          "bottom": 63.90100911458333,
-          "fontPt": 9.45
-        },
-        {
           "text": "D",
           "left": 16.999479166666664,
-          "top": 65.09990234375,
+          "top": 60.759082031249996,
           "right": 93.49713541666667,
-          "bottom": 71.78476562499999,
+          "bottom": 67.44394531249999,
           "fontPt": 15
         },
         {
           "text": "Damping off115",
+          "left": 16.999479166666664,
+          "top": 68.14261067708333,
+          "right": 93.49713541666667,
+          "bottom": 72.40488281249999,
+          "fontPt": 9.45
+        },
+        {
+          "text": "Diamond-back moth109",
           "left": 16.999479166666664,
           "top": 72.48343098958333,
           "right": 93.49713541666667,
@@ -953,7 +961,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Diamond-back moth108",
+          "text": "Digging, double159–160",
           "left": 16.999479166666664,
           "top": 76.82425130208333,
           "right": 93.49713541666667,
@@ -961,7 +969,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Digging, double157–158",
+          "text": "Digging, single160",
           "left": 16.999479166666664,
           "top": 81.16507161458333,
           "right": 93.49713541666667,
@@ -969,7 +977,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Digging, single158",
+          "text": "Downy mildew102, 108, 123, 126, 137",
           "left": 16.999479166666664,
           "top": 85.50589192708333,
           "right": 93.49713541666667,
@@ -977,7 +985,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Downy mildew103, 109, 124, 128, 136",
+          "text": "Drainage152, 166",
           "left": 16.999479166666664,
           "top": 89.84671223958333,
           "right": 93.49713541666667,
@@ -985,7 +993,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Drainage150, 164",
+          "text": "Drooping leaves128",
           "left": 16.999479166666664,
           "top": 94.18753255208333,
           "right": 93.49713541666667,
@@ -993,7 +1001,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Drooping leaves127",
+          "text": "Dry rot133",
           "left": 16.999479166666664,
           "top": 98.52835286458333,
           "right": 93.49713541666667,
@@ -1001,23 +1009,23 @@
           "fontPt": 9.45
         },
         {
-          "text": "Dry rot134",
-          "left": 16.999479166666664,
-          "top": 102.86917317708333,
-          "right": 93.49713541666667,
-          "bottom": 107.13144531249999,
-          "fontPt": 9.45
-        },
-        {
           "text": "E",
           "left": 16.999479166666664,
-          "top": 108.33033854166666,
+          "top": 103.98951822916666,
           "right": 93.49713541666667,
-          "bottom": 115.01520182291665,
+          "bottom": 110.67438151041665,
           "fontPt": 15
         },
         {
-          "text": "Eelworm121, 124, 139",
+          "text": "Eelworm121, 125, 143",
+          "left": 16.999479166666664,
+          "top": 111.373046875,
+          "right": 93.49713541666667,
+          "bottom": 115.63531901041665,
+          "fontPt": 9.45
+        },
+        {
+          "text": "Endive52–53, 123–125",
           "left": 16.999479166666664,
           "top": 115.7138671875,
           "right": 93.49713541666667,
@@ -1025,23 +1033,23 @@
           "fontPt": 9.45
         },
         {
-          "text": "Endive52–53, 123–125",
-          "left": 16.999479166666664,
-          "top": 120.0546875,
-          "right": 93.49713541666667,
-          "bottom": 124.31695963541665,
-          "fontPt": 9.45
-        },
-        {
           "text": "F",
           "left": 16.999479166666664,
-          "top": 125.51585286458332,
+          "top": 121.17503255208332,
           "right": 93.49713541666667,
-          "bottom": 132.20071614583333,
+          "bottom": 127.85989583333333,
           "fontPt": 15
         },
         {
           "text": "Fanging see Forked roots (fanging)",
+          "left": 16.999479166666664,
+          "top": 128.55856119791665,
+          "right": 93.49713541666667,
+          "bottom": 132.82083333333333,
+          "fontPt": 9.45
+        },
+        {
+          "text": "Fennel, Florence54–55, 122",
           "left": 16.999479166666664,
           "top": 132.89938151041665,
           "right": 93.49713541666667,
@@ -1049,7 +1057,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Fennel, Florence54–55, 122",
+          "text": "Finger and toe see Clubroot",
           "left": 16.999479166666664,
           "top": 137.24020182291665,
           "right": 93.49713541666667,
@@ -1057,7 +1065,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Finger and toe see Clubroot",
+          "text": "Finger paths154",
           "left": 16.999479166666664,
           "top": 141.58102213541665,
           "right": 93.49713541666667,
@@ -1065,7 +1073,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Finger paths152",
+          "text": "Flea beetle107, 131, 144",
           "left": 16.999479166666664,
           "top": 145.92184244791665,
           "right": 93.49713541666667,
@@ -1073,7 +1081,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Flea beetle107, 129, 143",
+          "text": "Fleece, horticultural162, 165",
           "left": 16.999479166666664,
           "top": 150.26266276041665,
           "right": 93.49713541666667,
@@ -1081,7 +1089,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Fleece, horticultural160, 163",
+          "text": "Florence fennel see Fennel, Florence",
           "left": 16.999479166666664,
           "top": 154.60348307291665,
           "right": 93.49713541666667,
@@ -1089,7 +1097,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Florence fennel see Fennel, Florence",
+          "text": "Flowering, absent103",
           "left": 16.999479166666664,
           "top": 158.94430338541665,
           "right": 93.49713541666667,
@@ -1097,7 +1105,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Flowering, absent100",
+          "text": "Follow-on crops56–59, 70–71, 150–151",
           "left": 16.999479166666664,
           "top": 163.28512369791665,
           "right": 93.49713541666667,
@@ -1105,7 +1113,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Follow-on crops56–59, 70–71, 148–149",
+          "text": "Foot rot142",
           "left": 16.999479166666664,
           "top": 167.62594401041665,
           "right": 93.49713541666667,
@@ -1113,7 +1121,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Foot rot139",
+          "text": "Foot rot and root rot102",
           "left": 16.999479166666664,
           "top": 171.96676432291667,
           "right": 93.49713541666667,
@@ -1121,7 +1129,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Foot rot and root rot103",
+          "text": "Forked roots (fanging)104, 112",
           "left": 16.999479166666664,
           "top": 176.30758463541667,
           "right": 93.49713541666667,
@@ -1129,7 +1137,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Forked roots (fanging)104, 112",
+          "text": "French beans see Beans, French",
           "left": 16.999479166666664,
           "top": 180.64840494791667,
           "right": 93.49713541666667,
@@ -1137,7 +1145,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "French beans see Beans, French",
+          "text": "Frost damage109, 122, 131–132",
           "left": 16.999479166666664,
           "top": 184.98922526041667,
           "right": 93.49713541666667,
@@ -1145,7 +1153,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Frost damage111, 122, 130–131",
+          "text": "Fruit cages162",
           "left": 16.999479166666664,
           "top": 189.33004557291667,
           "right": 93.49713541666667,
@@ -1153,7 +1161,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Fruit cages160",
+          "text": "Fruit set, cucurbits118",
           "left": 16.999479166666664,
           "top": 193.67086588541667,
           "right": 93.49713541666667,
@@ -1161,7 +1169,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Fruit set, cucurbits117",
+          "text": "Fruit set, tomatoes (dry set)142",
           "left": 16.999479166666664,
           "top": 198.01168619791667,
           "right": 93.49713541666667,
@@ -1169,19 +1177,11 @@
           "fontPt": 9.45
         },
         {
-          "text": "Fruit set, tomatoes (dry set)141",
+          "text": "Fusarium wilt103",
           "left": 16.999479166666664,
           "top": 202.35250651041667,
           "right": 93.49713541666667,
           "bottom": 206.61477864583333,
-          "fontPt": 9.45
-        },
-        {
-          "text": "Fusarium wilt103",
-          "left": 16.999479166666664,
-          "top": 206.69332682291665,
-          "right": 93.49713541666667,
-          "bottom": 210.95559895833333,
           "fontPt": 9.45
         },
         {
@@ -1193,7 +1193,7 @@
           "fontPt": 15
         },
         {
-          "text": "Gall weevil109",
+          "text": "Gall weevil111",
           "left": 100.49619140624999,
           "top": 33.593815104166666,
           "right": 176.99798177083332,
@@ -1201,7 +1201,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Gangrene134",
+          "text": "Gangrene135",
           "left": 100.49619140624999,
           "top": 37.934635416666666,
           "right": 176.99798177083332,
@@ -1209,7 +1209,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Gapping131",
+          "text": "Gapping134",
           "left": 100.49619140624999,
           "top": 42.275455729166666,
           "right": 176.99798177083332,
@@ -1217,7 +1217,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Garlic56–57, 126–128",
+          "text": "Garlic56–57, 126–129",
           "left": 100.49619140624999,
           "top": 46.61627604166666,
           "right": 176.99798177083332,
@@ -1233,7 +1233,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Ghost spot142",
+          "text": "Ghost spot143",
           "left": 100.49619140624999,
           "top": 55.29791666666666,
           "right": 176.99798177083332,
@@ -1265,7 +1265,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Greenhouses, choosing and siting165",
+          "text": "Greenhouses, choosing and siting167",
           "left": 100.49619140624999,
           "top": 72.66119791666667,
           "right": 176.99798177083332,
@@ -1273,7 +1273,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Greenhouses, growing options166–167",
+          "text": "Greenhouses, growing options168–169",
           "left": 100.49619140624999,
           "top": 77.00201822916667,
           "right": 176.99798177083332,
@@ -1281,7 +1281,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Greenhouses, seasonal use167",
+          "text": "Greenhouses, seasonal use169",
           "left": 100.49619140624999,
           "top": 81.34283854166667,
           "right": 176.99798177083332,
@@ -1297,7 +1297,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Green top112",
+          "text": "Green top114",
           "left": 100.49619140624999,
           "top": 90.02447916666667,
           "right": 176.99798177083332,
@@ -1305,7 +1305,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Grey mould (Botrytis)103, 119, 124, 139",
+          "text": "Grey mould (Botrytis)102, 119, 123, 139",
           "left": 100.49619140624999,
           "top": 94.36529947916667,
           "right": 176.99798177083332,
@@ -1329,7 +1329,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Gummosis119",
+          "text": "Gummosis120",
           "left": 100.49619140624999,
           "top": 107.38776041666665,
           "right": 176.99798177083332,
@@ -1345,7 +1345,7 @@
           "fontPt": 15
         },
         {
-          "text": "Halo blight102",
+          "text": "Halo blight101",
           "left": 100.49619140624999,
           "top": 120.23245442708333,
           "right": 176.99798177083332,
@@ -1353,7 +1353,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Hardening off159",
+          "text": "Hardening off161",
           "left": 100.49619140624999,
           "top": 124.57327473958333,
           "right": 176.99798177083332,
@@ -1361,7 +1361,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Hearting, cabbages110",
+          "text": "Hearting, cabbages108",
           "left": 100.49619140624999,
           "top": 128.91409505208333,
           "right": 176.99798177083332,
@@ -1369,7 +1369,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Hearting, dry soil129",
+          "text": "Hearting, dry soil130",
           "left": 100.49619140624999,
           "top": 133.25491536458333,
           "right": 176.99798177083332,
@@ -1377,7 +1377,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Hearting, lettuce123",
+          "text": "Hearting, lettuce124",
           "left": 100.49619140624999,
           "top": 137.59573567708333,
           "right": 176.99798177083332,
@@ -1385,7 +1385,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Heart rot105",
+          "text": "Heart rot104",
           "left": 100.49619140624999,
           "top": 141.93655598958333,
           "right": 176.99798177083332,
@@ -1393,7 +1393,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Hollow fruit141",
+          "text": "Hollow fruit143",
           "left": 100.49619140624999,
           "top": 146.27737630208333,
           "right": 176.99798177083332,
@@ -1401,7 +1401,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Hollow heart134",
+          "text": "Hollow heart135",
           "left": 100.49619140624999,
           "top": 150.61819661458333,
           "right": 176.99798177083332,
@@ -1409,7 +1409,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Hormone damage142",
+          "text": "Hormone damage143",
           "left": 100.49619140624999,
           "top": 154.95901692708333,
           "right": 176.99798177083332,
@@ -1425,7 +1425,7 @@
           "fontPt": 15
         },
         {
-          "text": "Insect-proof mesh160",
+          "text": "Insect-proof mesh162",
           "left": 100.49619140624999,
           "top": 167.8037109375,
           "right": 176.99798177083332,
@@ -1465,7 +1465,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Keyhole beds151",
+          "text": "Keyhole beds153",
           "left": 100.49619140624999,
           "top": 197.83391927083332,
           "right": 176.99798177083332,
@@ -1489,7 +1489,7 @@
           "fontPt": 15
         },
         {
-          "text": "Leaf and pod spot100",
+          "text": "Leaf and pod spot103",
           "left": 100.49619140624999,
           "top": 215.01943359375,
           "right": 176.99798177083332,
@@ -1497,7 +1497,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "THE VEGETABLE GURU\nIMPERIAL · 169",
+          "text": "THE VEGETABLE GURU\nIMPERIAL · 171",
           "left": 16.999479166666664,
           "top": 228.37262369791665,
           "right": 176.99798177083332,
@@ -1584,8 +1584,8 @@
         "rust"
       ],
       "columnBottoms": [
-        2582.875,
-        2551.109375
+        2627.875,
+        2596.109375
       ],
       "footerGapMm": 13.076204427083333,
       "blocks": [
@@ -1614,7 +1614,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Leaf-pattern paths152",
+          "text": "Leaf-pattern paths154",
           "left": 7.99951171875,
           "top": 37.934635416666666,
           "right": 84.49716796874999,
@@ -1622,7 +1622,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Leaf roll138",
+          "text": "Leaf roll141",
           "left": 7.99951171875,
           "top": 42.275455729166666,
           "right": 84.49716796874999,
@@ -1630,7 +1630,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Leaf roll virus132",
+          "text": "Leaf roll virus134",
           "left": 7.99951171875,
           "top": 46.61627604166666,
           "right": 84.49716796874999,
@@ -1638,7 +1638,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Leaf spot104, 136",
+          "text": "Leaf spot105, 138",
           "left": 7.99951171875,
           "top": 50.95709635416666,
           "right": 84.49716796874999,
@@ -1646,7 +1646,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Leaf spot (ring spot)106",
+          "text": "Leaf spot (ring spot)110",
           "left": 7.99951171875,
           "top": 55.29791666666666,
           "right": 84.49716796874999,
@@ -1654,7 +1654,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Leek moth128",
+          "text": "Leek moth126",
           "left": 7.99951171875,
           "top": 59.63873697916666,
           "right": 84.49716796874999,
@@ -1662,7 +1662,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Leeks62–63, 126–128",
+          "text": "Leeks62–63, 126–129",
           "left": 7.99951171875,
           "top": 63.97955729166666,
           "right": 84.49716796874999,
@@ -1702,7 +1702,7 @@
           "fontPt": 15
         },
         {
-          "text": "Magnesium deficiency111, 132, 142",
+          "text": "Magnesium deficiency109, 134, 141",
           "left": 7.99951171875,
           "top": 89.84671223958333,
           "right": 84.49716796874999,
@@ -1710,7 +1710,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Manganese deficiency111, 137",
+          "text": "Manganese deficiency110, 138",
           "left": 7.99951171875,
           "top": 94.18753255208333,
           "right": 84.49716796874999,
@@ -1734,7 +1734,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Marsh spot102",
+          "text": "Marsh spot103",
           "left": 7.99951171875,
           "top": 107.20999348958333,
           "right": 84.49716796874999,
@@ -1742,7 +1742,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Mice100, 121",
+          "text": "Mice101, 121",
           "left": 7.99951171875,
           "top": 111.55081380208333,
           "right": 84.49716796874999,
@@ -1750,7 +1750,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Micronutrients147",
+          "text": "Micronutrients149",
           "left": 7.99951171875,
           "top": 115.89163411458333,
           "right": 84.49716796874999,
@@ -1774,7 +1774,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Modules159",
+          "text": "Modules161",
           "left": 7.99951171875,
           "top": 128.91409505208333,
           "right": 84.49716796874999,
@@ -1782,7 +1782,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Mosaic virus125, 132",
+          "text": "Mosaic virus124, 134",
           "left": 7.99951171875,
           "top": 133.25491536458333,
           "right": 84.49716796874999,
@@ -1790,7 +1790,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Mulching with compost156",
+          "text": "Mulching with compost158",
           "left": 7.99951171875,
           "top": 137.59573567708333,
           "right": 84.49716796874999,
@@ -1814,7 +1814,7 @@
           "fontPt": 15
         },
         {
-          "text": "Neck rot128",
+          "text": "Neck rot127",
           "left": 7.99951171875,
           "top": 154.78125,
           "right": 84.49716796874999,
@@ -1822,7 +1822,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Netting160–161",
+          "text": "Netting162–163",
           "left": 7.99951171875,
           "top": 159.1220703125,
           "right": 84.49716796874999,
@@ -1830,7 +1830,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Netting frames161",
+          "text": "Netting frames163",
           "left": 7.99951171875,
           "top": 163.462890625,
           "right": 84.49716796874999,
@@ -1838,7 +1838,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Nitrogen147",
+          "text": "Nitrogen149",
           "left": 7.99951171875,
           "top": 167.8037109375,
           "right": 84.49716796874999,
@@ -1846,7 +1846,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "No-dig, greenhouse167",
+          "text": "No-dig, greenhouse169",
           "left": 7.99951171875,
           "top": 172.14453125,
           "right": 84.49716796874999,
@@ -1854,7 +1854,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "No-dig, starting a bed156",
+          "text": "No-dig, starting a bed158",
           "left": 7.99951171875,
           "top": 176.4853515625,
           "right": 84.49716796874999,
@@ -1862,7 +1862,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Nutrient cycles147",
+          "text": "Nutrient cycles149",
           "left": 7.99951171875,
           "top": 180.826171875,
           "right": 84.49716796874999,
@@ -1878,7 +1878,7 @@
           "fontPt": 15
         },
         {
-          "text": "Onion fly126",
+          "text": "Onion fly127",
           "left": 7.99951171875,
           "top": 193.67086588541667,
           "right": 84.49716796874999,
@@ -1886,7 +1886,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Onions and shallots68–69, 126–128",
+          "text": "Onions and shallots68–69, 126–129",
           "left": 7.99951171875,
           "top": 198.01168619791667,
           "right": 84.49716796874999,
@@ -1894,7 +1894,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Organic growing146",
+          "text": "Organic growing148",
           "left": 7.99951171875,
           "top": 202.35250651041667,
           "right": 84.49716796874999,
@@ -1902,7 +1902,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Oriental leaves70–71, 129–130",
+          "text": "Oriental leaves70–71, 130–131",
           "left": 7.99951171875,
           "top": 206.69332682291665,
           "right": 84.49716796874999,
@@ -1926,7 +1926,7 @@
           "fontPt": 15
         },
         {
-          "text": "Pak choi, root disturbance129",
+          "text": "Pak choi, root disturbance131",
           "left": 91.49622395833332,
           "top": 33.593815104166666,
           "right": 167.99801432291665,
@@ -1942,7 +1942,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Parsnip canker114",
+          "text": "Parsnip canker112",
           "left": 91.49622395833332,
           "top": 42.275455729166666,
           "right": 167.99801432291665,
@@ -1950,7 +1950,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Parsnip rust fungus112",
+          "text": "Parsnip rust fungus114",
           "left": 91.49622395833332,
           "top": 46.61627604166666,
           "right": 167.99801432291665,
@@ -1958,7 +1958,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Paths151–152",
+          "text": "Paths153–154",
           "left": 91.49622395833332,
           "top": 50.95709635416666,
           "right": 167.99801432291665,
@@ -1966,7 +1966,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Pea and bean weevil101",
+          "text": "Pea and bean weevil100",
           "left": 91.49622395833332,
           "top": 55.29791666666666,
           "right": 167.99801432291665,
@@ -1974,7 +1974,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Pea moth102",
+          "text": "Pea moth101",
           "left": 91.49622395833332,
           "top": 59.63873697916666,
           "right": 167.99801432291665,
@@ -1982,7 +1982,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Peas74–75, 100–103, 162",
+          "text": "Peas74–75, 100–103, 164",
           "left": 91.49622395833332,
           "top": 63.97955729166666,
           "right": 167.99801432291665,
@@ -1990,7 +1990,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Pea thrips101",
+          "text": "Pea thrips102",
           "left": 91.49622395833332,
           "top": 68.32037760416667,
           "right": 167.99801432291665,
@@ -2006,7 +2006,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Phosphorus147",
+          "text": "Phosphorus149",
           "left": 91.49622395833332,
           "top": 77.00201822916667,
           "right": 167.99801432291665,
@@ -2022,7 +2022,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Planting out159",
+          "text": "Planting out161",
           "left": 91.49622395833332,
           "top": 85.68365885416667,
           "right": 167.99801432291665,
@@ -2030,7 +2030,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Plant supports162–163",
+          "text": "Plant supports164–165",
           "left": 91.49622395833332,
           "top": 90.02447916666667,
           "right": 167.99801432291665,
@@ -2038,7 +2038,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Plot, choosing a site150",
+          "text": "Plot, choosing a site152",
           "left": 91.49622395833332,
           "top": 94.36529947916667,
           "right": 167.99801432291665,
@@ -2046,7 +2046,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Plot, size and layout150–152",
+          "text": "Plot, size and layout152–154",
           "left": 91.49622395833332,
           "top": 98.70611979166667,
           "right": 167.99801432291665,
@@ -2054,7 +2054,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Pods, failure to set102",
+          "text": "Pods, failure to set100",
           "left": 91.49622395833332,
           "top": 103.04694010416665,
           "right": 167.99801432291665,
@@ -2062,7 +2062,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Potassium147",
+          "text": "Potassium149",
           "left": 91.49622395833332,
           "top": 107.38776041666665,
           "right": 167.99801432291665,
@@ -2070,7 +2070,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Potato cyst eelworm133",
+          "text": "Potato cyst eelworm132",
           "left": 91.49622395833332,
           "top": 111.72858072916665,
           "right": 167.99801432291665,
@@ -2078,7 +2078,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Potatoes76–77, 131–135",
+          "text": "Potatoes76–77, 132–136",
           "left": 91.49622395833332,
           "top": 116.06940104166665,
           "right": 167.99801432291665,
@@ -2102,7 +2102,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Powdery mildew103, 118",
+          "text": "Powdery mildew101, 117",
           "left": 91.49622395833332,
           "top": 129.09186197916665,
           "right": 167.99801432291665,
@@ -2110,7 +2110,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Powdery scab133",
+          "text": "Powdery scab135",
           "left": 91.49622395833332,
           "top": 133.43268229166665,
           "right": 167.99801432291665,
@@ -2134,7 +2134,7 @@
           "fontPt": 15
         },
         {
-          "text": "Radishes78–79, 143–144",
+          "text": "Radishes78–79, 144–146",
           "left": 91.49622395833332,
           "top": 150.61819661458333,
           "right": 167.99801432291665,
@@ -2142,7 +2142,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Radishes, poor root quality143",
+          "text": "Radishes, poor root quality144",
           "left": 91.49622395833332,
           "top": 154.95901692708333,
           "right": 167.99801432291665,
@@ -2158,7 +2158,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Red spider mite119",
+          "text": "Red spider mite117",
           "left": 91.49622395833332,
           "top": 167.9029296875,
           "right": 167.99801432291665,
@@ -2174,7 +2174,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Ring spot123",
+          "text": "Ring spot125",
           "left": 91.49622395833332,
           "top": 176.58457031249998,
           "right": 167.99801432291665,
@@ -2182,7 +2182,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Root rot120, 138",
+          "text": "Root rot119, 141",
           "left": 91.49622395833332,
           "top": 180.92539062499998,
           "right": 167.99801432291665,
@@ -2198,7 +2198,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Rosy rustic moth133",
+          "text": "Rosy rustic moth136",
           "left": 91.49622395833332,
           "top": 189.60703124999998,
           "right": 167.99801432291665,
@@ -2230,7 +2230,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "THE VEGETABLE GURU\nIMPERIAL · 170",
+          "text": "THE VEGETABLE GURU\nIMPERIAL · 172",
           "left": 7.99951171875,
           "top": 228.37262369791665,
           "right": 167.99801432291665,
@@ -2321,8 +2321,8 @@
         "woody-kohl-rabi"
       ],
       "columnBottoms": [
-        3491.671875,
-        3489.953125
+        3536.671875,
+        3534.953125
       ],
       "footerGapMm": 12.621451822916667,
       "blocks": [
@@ -2343,7 +2343,7 @@
           "fontPt": 15
         },
         {
-          "text": "Saddleback126",
+          "text": "Saddleback128",
           "left": 16.999479166666664,
           "top": 33.593815104166666,
           "right": 93.49713541666667,
@@ -2359,7 +2359,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Sclerotinia rot113, 119",
+          "text": "Sclerotinia rot113, 120",
           "left": 16.999479166666664,
           "top": 42.275455729166666,
           "right": 93.49713541666667,
@@ -2375,7 +2375,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Seaweed147",
+          "text": "Seaweed149",
           "left": 16.999479166666664,
           "top": 50.95709635416666,
           "right": 93.49713541666667,
@@ -2383,7 +2383,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Seed beetle100",
+          "text": "Seed beetle103",
           "left": 16.999479166666664,
           "top": 55.29791666666666,
           "right": 93.49713541666667,
@@ -2391,7 +2391,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Seed sowing159",
+          "text": "Seed sowing161",
           "left": 16.999479166666664,
           "top": 59.63873697916666,
           "right": 93.49713541666667,
@@ -2399,7 +2399,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Set division126",
+          "text": "Set division128",
           "left": 16.999479166666664,
           "top": 63.97955729166666,
           "right": 93.49713541666667,
@@ -2407,7 +2407,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Shade and sunlight150, 152",
+          "text": "Shade and sunlight152, 154",
           "left": 16.999479166666664,
           "top": 68.32037760416667,
           "right": 93.49713541666667,
@@ -2423,7 +2423,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Shanking128",
+          "text": "Shanking129",
           "left": 16.999479166666664,
           "top": 77.00201822916667,
           "right": 93.49713541666667,
@@ -2431,7 +2431,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Slopes152",
+          "text": "Slopes154",
           "left": 16.999479166666664,
           "top": 81.34283854166667,
           "right": 93.49713541666667,
@@ -2439,7 +2439,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Slugs and snails107, 116, 121, 124, 129, 133, 142",
+          "text": "Slugs and snails107, 115, 118, 123, 130, 132, 141",
           "left": 16.999479166666664,
           "top": 85.68365885416667,
           "right": 93.49713541666667,
@@ -2447,7 +2447,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Small roots113",
+          "text": "Small roots112",
           "left": 16.999479166666664,
           "top": 94.28675130208332,
           "right": 93.49713541666667,
@@ -2455,7 +2455,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Smothering weeds158",
+          "text": "Smothering weeds160",
           "left": 16.999479166666664,
           "top": 98.62757161458332,
           "right": 93.49713541666667,
@@ -2463,7 +2463,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Smut127",
+          "text": "Smut128",
           "left": 16.999479166666664,
           "top": 102.96839192708332,
           "right": 93.49713541666667,
@@ -2479,7 +2479,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Soft rot134, 144",
+          "text": "Soft rot133, 145",
           "left": 16.999479166666664,
           "top": 111.65003255208332,
           "right": 93.49713541666667,
@@ -2487,7 +2487,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Soft tubers131",
+          "text": "Soft tubers135",
           "left": 16.999479166666664,
           "top": 115.99085286458332,
           "right": 93.49713541666667,
@@ -2495,7 +2495,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Soil compaction157",
+          "text": "Soil compaction159",
           "left": 16.999479166666664,
           "top": 120.33167317708332,
           "right": 93.49713541666667,
@@ -2519,7 +2519,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Spinach84–85, 136–137",
+          "text": "Spinach84–85, 137–138",
           "left": 16.999479166666664,
           "top": 133.35413411458333,
           "right": 93.49713541666667,
@@ -2535,7 +2535,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Spinach, New Zealand (frost damage)136",
+          "text": "Spinach, New Zealand (frost damage)137",
           "left": 16.999479166666664,
           "top": 142.03577473958333,
           "right": 93.49713541666667,
@@ -2543,7 +2543,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Spindly sprouts131",
+          "text": "Spindly sprouts133",
           "left": 16.999479166666664,
           "top": 146.37659505208333,
           "right": 93.49713541666667,
@@ -2551,7 +2551,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Splitting, cabbage hearts110",
+          "text": "Splitting, cabbage hearts109",
           "left": 16.999479166666664,
           "top": 150.71741536458333,
           "right": 93.49713541666667,
@@ -2559,7 +2559,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Splitting, roots and stems113, 115, 131",
+          "text": "Splitting, roots and stems112, 116, 133",
           "left": 16.999479166666664,
           "top": 155.05823567708333,
           "right": 93.49713541666667,
@@ -2567,7 +2567,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Splitting, tomato fruit140",
+          "text": "Splitting, tomato fruit139",
           "left": 16.999479166666664,
           "top": 159.39905598958333,
           "right": 93.49713541666667,
@@ -2575,7 +2575,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Spraing134",
+          "text": "Spraing135",
           "left": 16.999479166666664,
           "top": 163.73987630208333,
           "right": 93.49713541666667,
@@ -2591,7 +2591,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Squashes and pumpkins, ripening121",
+          "text": "Squashes and pumpkins, ripening118",
           "left": 16.999479166666664,
           "top": 172.42151692708333,
           "right": 93.49713541666667,
@@ -2599,7 +2599,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Staking163",
+          "text": "Staking165",
           "left": 16.999479166666664,
           "top": 176.76233723958333,
           "right": 93.49713541666667,
@@ -2607,7 +2607,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Stem & bulb eelworm127",
+          "text": "Stem & bulb eelworm128",
           "left": 16.999479166666664,
           "top": 181.10315755208333,
           "right": 93.49713541666667,
@@ -2615,7 +2615,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Stem rot120",
+          "text": "Stem rot119",
           "left": 16.999479166666664,
           "top": 185.44397786458333,
           "right": 93.49713541666667,
@@ -2623,7 +2623,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Stem rot (Didymella)139",
+          "text": "Stem rot (Didymella)142",
           "left": 16.999479166666664,
           "top": 189.78479817708333,
           "right": 93.49713541666667,
@@ -2639,7 +2639,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Storage rot, stem damage120",
+          "text": "Storage rot, stem damage117",
           "left": 16.999479166666664,
           "top": 198.46643880208333,
           "right": 93.49713541666667,
@@ -2663,7 +2663,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Sunscald117, 141",
+          "text": "Sunscald120, 142",
           "left": 16.999479166666664,
           "top": 211.4888997395833,
           "right": 93.49713541666667,
@@ -2679,7 +2679,7 @@
           "fontPt": 15
         },
         {
-          "text": "Swede88–89, 143–144",
+          "text": "Swede88–89, 144–146",
           "left": 100.49619140624999,
           "top": 33.593815104166666,
           "right": 176.99798177083332,
@@ -2687,7 +2687,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Swede midge108",
+          "text": "Swede midge110",
           "left": 100.49619140624999,
           "top": 37.934635416666666,
           "right": 176.99798177083332,
@@ -2727,7 +2727,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Tipburn123",
+          "text": "Tipburn124",
           "left": 100.49619140624999,
           "top": 63.801790364583326,
           "right": 176.99798177083332,
@@ -2735,7 +2735,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Tomato cages163",
+          "text": "Tomato cages165",
           "left": 100.49619140624999,
           "top": 68.14261067708333,
           "right": 176.99798177083332,
@@ -2743,7 +2743,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Tomatoes, greenhouse92–93, 138–142",
+          "text": "Tomatoes, greenhouse92–93, 139–143",
           "left": 100.49619140624999,
           "top": 72.48343098958333,
           "right": 176.99798177083332,
@@ -2751,7 +2751,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Tomatoes, outdoor94–95, 138–142, 163",
+          "text": "Tomatoes, outdoor94–95, 139–143, 165",
           "left": 100.49619140624999,
           "top": 76.82425130208333,
           "right": 176.99798177083332,
@@ -2759,7 +2759,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Tomato leaf mould138",
+          "text": "Tomato leaf mould139",
           "left": 100.49619140624999,
           "top": 81.16507161458333,
           "right": 176.99798177083332,
@@ -2767,7 +2767,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Tomato moth140",
+          "text": "Tomato moth143",
           "left": 100.49619140624999,
           "top": 85.50589192708333,
           "right": 176.99798177083332,
@@ -2783,7 +2783,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Turnip96–97, 143–144",
+          "text": "Turnip96–97, 144–146",
           "left": 100.49619140624999,
           "top": 94.18753255208333,
           "right": 176.99798177083332,
@@ -2791,7 +2791,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Turnip mosaic virus144",
+          "text": "Turnip mosaic virus146",
           "left": 100.49619140624999,
           "top": 98.52835286458333,
           "right": 176.99798177083332,
@@ -2807,7 +2807,7 @@
           "fontPt": 15
         },
         {
-          "text": "Verticillium wilt120, 139",
+          "text": "Verticillium wilt120, 142",
           "left": 100.49619140624999,
           "top": 111.373046875,
           "right": 176.99798177083332,
@@ -2831,7 +2831,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Virus, tomatoes138",
+          "text": "Virus, tomatoes140",
           "left": 100.49619140624999,
           "top": 124.3955078125,
           "right": 176.99798177083332,
@@ -2847,7 +2847,7 @@
           "fontPt": 15
         },
         {
-          "text": "Wart disease135",
+          "text": "Wart disease136",
           "left": 100.49619140624999,
           "top": 137.24020182291665,
           "right": 176.99798177083332,
@@ -2855,7 +2855,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Watering164",
+          "text": "Watering166",
           "left": 100.49619140624999,
           "top": 141.58102213541665,
           "right": 176.99798177083332,
@@ -2863,7 +2863,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Waterlogging164",
+          "text": "Waterlogging166",
           "left": 100.49619140624999,
           "top": 145.92184244791665,
           "right": 176.99798177083332,
@@ -2871,7 +2871,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Weeds, clearing a new plot150, 156, 158",
+          "text": "Weeds, clearing a new plot152, 158, 160",
           "left": 100.49619140624999,
           "top": 150.26266276041665,
           "right": 176.99798177083332,
@@ -2879,7 +2879,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Whiptail110",
+          "text": "Whiptail108",
           "left": 100.49619140624999,
           "top": 154.60348307291665,
           "right": 176.99798177083332,
@@ -2887,7 +2887,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "White blister (white rust)106",
+          "text": "White blister (white rust)110",
           "left": 100.49619140624999,
           "top": 158.94430338541665,
           "right": 176.99798177083332,
@@ -2895,7 +2895,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "White rot (onions and leeks)128",
+          "text": "White rot (onions and leeks)127",
           "left": 100.49619140624999,
           "top": 163.28512369791665,
           "right": 176.99798177083332,
@@ -2911,7 +2911,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "White tip127",
+          "text": "White tip128",
           "left": 100.49619140624999,
           "top": 171.96676432291667,
           "right": 176.99798177083332,
@@ -2919,7 +2919,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Wigwams162",
+          "text": "Wigwams164",
           "left": 100.49619140624999,
           "top": 176.30758463541667,
           "right": 176.99798177083332,
@@ -2927,7 +2927,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Windbreaks163",
+          "text": "Windbreaks165",
           "left": 100.49619140624999,
           "top": 180.64840494791667,
           "right": 176.99798177083332,
@@ -2935,7 +2935,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Windowsill, raising seedlings159",
+          "text": "Windowsill, raising seedlings161",
           "left": 100.49619140624999,
           "top": 184.98922526041667,
           "right": 176.99798177083332,
@@ -2959,7 +2959,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Wireworm133",
+          "text": "Wireworm134",
           "left": 100.49619140624999,
           "top": 198.01168619791667,
           "right": 176.99798177083332,
@@ -2967,7 +2967,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Withering of young fruit117",
+          "text": "Withering of young fruit119",
           "left": 100.49619140624999,
           "top": 202.35250651041667,
           "right": 176.99798177083332,
@@ -2975,7 +2975,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "Wood ash147",
+          "text": "Wood ash149",
           "left": 100.49619140624999,
           "top": 206.69332682291665,
           "right": 176.99798177083332,
@@ -2991,7 +2991,7 @@
           "fontPt": 9.45
         },
         {
-          "text": "THE VEGETABLE GURU\nIMPERIAL · 171",
+          "text": "THE VEGETABLE GURU\nIMPERIAL · 173",
           "left": 16.999479166666664,
           "top": 228.37262369791665,
           "right": 176.99798177083332,

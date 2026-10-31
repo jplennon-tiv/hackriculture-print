@@ -84,8 +84,9 @@ three-part reminder banner, planting drawings and full-width Final Tips. The
 approved Kale specimen is a reference, not a content quota for other crops.
 
 For Troubles, follow the current [book flow and wrapping rules](../../../docs/BOOK-PRINT-STYLE.md#troubles).
-Pack complete entries in coherent reading order, with every applicable condition
-exactly once. Fill earlier pages naturally and leave unused space after the final
+Use the current importance order and bounded fit rules, with every applicable
+condition exactly once. Record departures from the strict-priority control and
+check that featured entries remain separated on pages and facing spreads. Fill earlier pages naturally and leave unused space after the final
 page's content. Preserve normal gaps and natural advice heights; do not stretch
 entries to align their last text edges or distribute emptiness through a guide.
 Unequal lower edges are expected when whole entries do not fit the remaining

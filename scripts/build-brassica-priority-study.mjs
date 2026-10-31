@@ -36,7 +36,9 @@ async function measure(page){return page.evaluate(()=>[...document.querySelector
  const box=s.getBoundingClientRect(),footer=s.querySelector('footer').getBoundingClientRect();
  const entries=[...s.querySelectorAll('.entry')].map(e=>{
   const r=e.getBoundingClientRect(),img=e.querySelector('.diagnostic'),style=getComputedStyle(img),copy=e.cloneNode(true);copy.querySelector('.feature-label')?.remove();
-  return {key:e.dataset.key,rank:+e.dataset.importance,featured:e.classList.contains('featured'),text:copy.textContent,topPx:r.top-box.top,bottomPx:r.bottom-box.top,leftPx:r.left-box.left,rightPx:r.right-box.left,heightPx:r.height,image:{src:img.getAttribute('src'),width:parseFloat(style.width),height:parseFloat(style.height),shape:style.shapeOutside,shapeMargin:style.shapeMargin,loaded:img.complete&&img.naturalWidth>0}};
+  const label=e.querySelector('.feature-label>span'),lb=label?.getBoundingClientRect();
+  const featureLabel=label&&{text:label.textContent,bounds:{left:lb.left-box.left,right:lb.right-box.left,top:lb.top-box.top,bottom:lb.bottom-box.top}};
+  return {key:e.dataset.key,rank:+e.dataset.importance,featured:e.classList.contains('featured'),featureLabel,text:copy.textContent,topPx:r.top-box.top,bottomPx:r.bottom-box.top,leftPx:r.left-box.left,rightPx:r.right-box.left,heightPx:r.height,image:{src:img.getAttribute('src'),width:parseFloat(style.width),height:parseFloat(style.height),shape:style.shapeOutside,shapeMargin:style.shapeMargin,loaded:img.complete&&img.naturalWidth>0}};
  });
  const columns=[...s.querySelectorAll('.column')].map(c=>{const es=[...c.children];return {keys:es.map(e=>e.dataset.key),gapsPx:es.slice(1).map((e,i)=>e.getBoundingClientRect().top-es[i].getBoundingClientRect().bottom)};});
  const featured=entries.filter(e=>e.featured);

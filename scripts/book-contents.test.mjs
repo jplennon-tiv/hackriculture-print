@@ -1,3 +1,4 @@
+import {troubleFamilies} from './lib/book-family.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
@@ -31,9 +32,9 @@ test('proposed pagination covers every page once and preserves crop spreads and 
 });
 test('contents include every added destination once, and reject unresolved or duplicate destinations',()=>{
  const {data}=readBookContent(),{plan}=createContentsPlan(base,sources),themes=JSON.parse(fs.readFileSync('src/print/familyThemes.json'));
- for(const unit of ['imperial','metric'])assert.equal(renderUpdatedContents(data,unit,plan,themes).references.length,83);
+ for(const unit of ['imperial','metric'])assert.equal(renderUpdatedContents(data,unit,plan,themes,troubleFamilies).references.length,83);
  const bad=structuredClone(data);bad.contents.expanded.groups[0].entries[0].source='technique:missing';
- assert.throws(()=>renderUpdatedContents(bad,'imperial',plan,themes),/Missing or duplicate/);
+ assert.throws(()=>renderUpdatedContents(bad,'imperial',plan,themes,troubleFamilies),/Missing or duplicate/);
  bad.contents.expanded.groups[0].entries[0].source=bad.contents.expanded.gettingStarted.entries[0].source;
  assert.throws(()=>validateBookLayout(bad),/unique stable/);
 });
@@ -58,5 +59,21 @@ test('four approved two-page guides remove overflow and alignment leaves, preser
   e.sectionOpeners.filter(d=>d.startPage>9).forEach(d=>put(d.startPage));e.extraBlanks.filter(d=>d.page>9).forEach(d=>put(d.page));
   e.additions.filter(d=>d.startPage>9).forEach(d=>{for(let i=0;i<d.physicalPages;i++)put(d.startPage+i);});for(let f=e.index.startPage;f<=e.index.endPage;f++)put(f);
   assert.deepEqual([...occupied].sort((a,b)=>a-b),Array.from({length:172},(_,i)=>i+1));
+ }
+});
+
+test('approved revised Troubles drive downstream folios without changing vegetable pairs',async()=>{
+ const {loadApprovedTroubles}=await import('./lib/approved-troubles.mjs');
+ const {loadApprovedTwoPageGuides}=await import('./lib/approved-two-page-guides.mjs');
+ const {loadReaderGuides}=await import('./lib/approved-reader-integration.mjs');
+ const revised=loadApprovedTroubles(),{plan}=createContentsPlan(base,sources,loadApprovedTwoPageGuides().editions,loadReaderGuides(),revised.editions);
+ for(const e of Object.values(plan.editions)){
+  assert.equal(e.plannedEvenTotal,174);assert.equal(e.index.startPage,170);assert.equal(e.index.endPage,173);
+  assert.deepEqual(e.sectionOpeners.map(d=>d.startPage),[9,99,147]);
+  assert.equal(e.documents.filter(d=>d.type==='trouble').reduce((n,d)=>n+d.physicalPages,0),47);
+  assert.ok(e.documents.filter(d=>d.type==='vegetable').every(d=>d.physicalPages===2&&d.startPage%2===0));
+  assert.equal(e.documents.filter(d=>d.type==='trouble').reduce((n,d)=>n+Object.keys(d.troublesApprovedReplacement.conditionPages).length,0),220);
+  assert.equal(e.additions.find(d=>d.source==='technique:netting').startPage,162);
+  assert.equal(e.additions.find(d=>d.source==='technique:supports').startPage,164);
  }
 });

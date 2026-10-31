@@ -12,6 +12,7 @@ const tmp=path.join(root,'tmp/pdfs/brassica-flow-preview');
 const hash=b=>createHash('sha256').update(b).digest('hex');
 await fs.mkdir(path.join(ev,'masks'),{recursive:true});await fs.mkdir(tmp,{recursive:true});
 try{await fs.access(path.join(ev,'APPROVAL.json'));throw Error('Approved proof is frozen; use a new working path');}catch(e){if(e.code!=='ENOENT')throw e;}
+try{await fs.access(path.join(ev,'REFERENCE-LOCK.json'));throw Error('Retained comparison source: continue in the priority study');}catch(e){if(e.code!=='ENOENT')throw e;}
 const frozen=JSON.parse(await fs.readFile(path.join(root,'docs/publication/troubles-mask-study/CHECKS.json'),'utf8')).results[0].masks;
 const protectedFiles=['output/pdf/whole-book-order-preview/the-vegetable-guru-order-preview.pdf','output/pdf/troubles-image-size-study/brassica-larger-images-comparison.pdf','src/print/editorialTrouble.css'];
 const protectedHashes={};for(const p of protectedFiles)protectedHashes[p]=hash(await fs.readFile(path.join(root,p)));

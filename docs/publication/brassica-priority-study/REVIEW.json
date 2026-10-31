@@ -1,0 +1,246 @@
+{
+  "date": "2026-10-31",
+  "status": "agent-checked Brassica composition accepted by John for rollout; see APPROVAL.json",
+  "scope": {
+    "guide": "brassica_troubles",
+    "entries": 29,
+    "units": [
+      "imperial",
+      "metric"
+    ],
+    "variants": [
+      "strict",
+      "fit"
+    ],
+    "recommended": "fit",
+    "physicalFolios": [
+      106,
+      107,
+      108,
+      109,
+      110,
+      111
+    ]
+  },
+  "sourceStarsSaved": true,
+  "canonicalAdviceAndRanksPreserved": true,
+  "alphabeticalTieBreak": false,
+  "fitSummary": {
+    "rankReversals": 0,
+    "changedReadingOrder": [
+      "downy_mildew",
+      "diamond_back_moth"
+    ],
+    "pageMoves": [
+      {
+        "key": "downy_mildew",
+        "rank": 6,
+        "star": false,
+        "oldFlowFolio": 108,
+        "strictFolio": 109,
+        "fitFolio": 108,
+        "position": 15
+      },
+      {
+        "key": "frost",
+        "rank": 6,
+        "star": false,
+        "oldFlowFolio": 111,
+        "strictFolio": 110,
+        "fitFolio": 109,
+        "position": 21
+      },
+      {
+        "key": "swede_midge",
+        "rank": 3,
+        "star": false,
+        "oldFlowFolio": 108,
+        "strictFolio": 111,
+        "fitFolio": 110,
+        "position": 27
+      }
+    ],
+    "maxPageDisplacement": 1
+  },
+  "visualReview": {
+    "recommendedPages": [
+      106,
+      107,
+      108,
+      109,
+      110,
+      111
+    ],
+    "recommendedSpreads": [
+      [
+        106,
+        107
+      ],
+      [
+        108,
+        109
+      ],
+      [
+        110,
+        111
+      ]
+    ],
+    "featurePagesViewedIndividually": [
+      106,
+      107
+    ],
+    "controlReview": "same opening spread and whole-guide comparison at overview scale; all pages checked numerically",
+    "metricReview": "pixel-identical to imperial for both variants",
+    "findings": [
+      "Pale feature panels readable, retaining complete source advice and illustration.",
+      "The two starred entries are neither consecutive nor directly adjacent on pages or across the facing gutter.",
+      "No observed clipping, image/text collisions or lost diagnostics.",
+      "Final two entries use natural heights, one per column, leaving intentional trailing space."
+    ],
+    "ribbonRefinement": {
+      "spreadViewed": [
+        106,
+        107
+      ],
+      "findings": [
+        "Both top-right ribbons are legible and clear of headings; pale backgrounds retained without the curved top rule.",
+        "No clipping or collisions observed on the affected spread."
+      ],
+      "otherPages": "Initial visual review retained; all current PDFs checked numerically and page/column membership compared with the pre-refinement proof."
+    }
+  },
+  "checks": {
+    "routineTests": 43,
+    "compactExportTests": 5,
+    "priorityPackingTests": 4,
+    "typeCheck": "passed",
+    "bothUnitsPixelIdentical": {
+      "strict": true,
+      "fit": true
+    },
+    "a4ActualPdfPages": {
+      "imperial": 6,
+      "metric": 6
+    },
+    "normalRoutes": "both ready, six pages and two starred headings each, no warnings",
+    "localLinksChecked": 391,
+    "missingLinks": [],
+    "frozenReferencesVerified": true,
+    "referenceGuards": [
+      {
+        "script": "scripts/build-brassica-flow-preview.mjs",
+        "retainedReferenceOverwriteRefused": true
+      },
+      {
+        "script": "scripts/review-brassica-flow-preview.py",
+        "retainedReferenceOverwriteRefused": true
+      }
+    ],
+    "codeChecksTiming": "Routine, compact-export, priority-packing and type checks passed before the ribbon-only refinement; not rerun for this style/label change.",
+    "localLinksTiming": "391 local links checked before the ribbon refinement; current changed documents checked separately."
+  },
+  "outputs": [
+    {
+      "units": "imperial",
+      "mode": "strict",
+      "pages": 6,
+      "entries": 29,
+      "rankOrderPreserved": true,
+      "starsSeparated": true,
+      "featureLabelsAdded": 2,
+      "allOtherBodyGlyphsAndTypePreserved": true,
+      "originalEmbeddedImagesIdentical": 29,
+      "fontsEmbedded": [
+        "/CAAAAA+LilitaOne",
+        "Embedded Type3 glyphs"
+      ],
+      "minimumFooterGapMm": 5.002278645833333,
+      "output": "output/pdf/brassica-priority-study/brassica-strict-imperial.pdf",
+      "sha256": "e52327b870af206db261b13d2d0db3f1dd0b2ffce3a1eff17ab24b2d9ab258d1"
+    },
+    {
+      "units": "imperial",
+      "mode": "fit",
+      "pages": 6,
+      "entries": 29,
+      "rankOrderPreserved": true,
+      "starsSeparated": true,
+      "featureLabelsAdded": 2,
+      "allOtherBodyGlyphsAndTypePreserved": true,
+      "originalEmbeddedImagesIdentical": 29,
+      "fontsEmbedded": [
+        "/CAAAAA+LilitaOne",
+        "Embedded Type3 glyphs"
+      ],
+      "minimumFooterGapMm": 5.002278645833333,
+      "output": "output/pdf/brassica-priority-study/brassica-fit-imperial.pdf",
+      "sha256": "ea5375e9acc6ced072953b43f8ff1915fac9ae0f21801b1d4f3fbe58fe060f3a"
+    },
+    {
+      "units": "metric",
+      "mode": "strict",
+      "pages": 6,
+      "entries": 29,
+      "rankOrderPreserved": true,
+      "starsSeparated": true,
+      "featureLabelsAdded": 2,
+      "allOtherBodyGlyphsAndTypePreserved": true,
+      "originalEmbeddedImagesIdentical": 29,
+      "fontsEmbedded": [
+        "/CAAAAA+LilitaOne",
+        "Embedded Type3 glyphs"
+      ],
+      "minimumFooterGapMm": 5.002278645833333,
+      "output": "output/pdf/brassica-priority-study/brassica-strict-metric.pdf",
+      "sha256": "bac5b91a0ae0e64679681386242ae95cb277fd003253756d17404a018d21ccf7"
+    },
+    {
+      "units": "metric",
+      "mode": "fit",
+      "pages": 6,
+      "entries": 29,
+      "rankOrderPreserved": true,
+      "starsSeparated": true,
+      "featureLabelsAdded": 2,
+      "allOtherBodyGlyphsAndTypePreserved": true,
+      "originalEmbeddedImagesIdentical": 29,
+      "fontsEmbedded": [
+        "/CAAAAA+LilitaOne",
+        "Embedded Type3 glyphs"
+      ],
+      "minimumFooterGapMm": 5.002278645833333,
+      "output": "output/pdf/brassica-priority-study/brassica-fit-metric.pdf",
+      "sha256": "d9b1916142e331a87314e986c7a00f36f1e623202cccd5ae1526759be6059536"
+    }
+  ],
+  "sourceHashes": {
+    "src/print/book/renderCompact.ts": "b2101bb9cbf2b91459d03c40549683dc27ca276a65e43aa03dc26351e80fa37c",
+    "src/print/book/troubleFlow.ts": "ac4eb5814e3033af87f0532b03c80d217d95865d35b94c68e036dae945340a35",
+    "scripts/build-brassica-priority-study.mjs": "30bd77f4c801c963c91d2aed113ac667bf34d40fbadf35432032a57fbfa8c918",
+    "scripts/review-brassica-priority-study.py": "de88a7c1fde57c1b92a99a20a5d88bbbaf7a7761d6484ff704e38b283bf2afa8",
+    "scripts/lib/trouble-priority-fit.mjs": "08d5c2d7382e481072608786fd77e4be7815e0010cf1e04c5052426e96c5a205",
+    "scripts/trouble-priority-fit.test.mjs": "b05e8dc932fc4061b7f490ee253f59982e1e63d01b6047f4cfc6666320433659"
+  },
+  "boundaries": {
+    "mainBookChanged": false,
+    "otherTroublesRebuilt": false,
+    "sourceChanges": "two expressly requested canonical star flags only, plus writer audit",
+    "ordinaryOrderChanged": false,
+    "featuredPanelDesignApproved": true,
+    "supplierUpload": false
+  },
+  "panelRefinement": {
+    "requestedBy": "John",
+    "label": "Common Pest",
+    "position": "top right of each featured panel, reserved row",
+    "backgroundHighlight": "retained",
+    "panelBorder": "removed",
+    "designSource": "Existing book ribbon styling: dark green, cream Lilita One lettering, slight tilt",
+    "pageAndColumnMembershipUnchanged": true,
+    "pageCount": 6,
+    "currentVerification": "Both variants in both units regenerated and checked for fit, all advice glyphs/type sizes, 29 decoded source images, embedded fonts and exact unit-render equality. Revised recommended spread 106–107 visually inspected.",
+    "sharedDataWrittenAgain": false,
+    "changedDocumentLinksChecked": 203
+  },
+  "approval": "APPROVAL.json"
+}
