@@ -83,13 +83,16 @@ or diagnostic images. Keep the practical page's Growing & harvesting title,
 three-part reminder banner, planting drawings and full-width Final Tips. The
 approved Kale specimen is a reference, not a content quota for other crops.
 
-For Troubles, pack complete entries in coherent reading order, with every
-applicable condition exactly once. Then align the **first and last text edges**
-across columns by adjusting space **between entries**. Preserve natural entry
-heights and complete drawings. Do not use equal-height cards or stretch internal
-advice. Sparse final pages can retain unequal bottoms when alignment would create
-excessive gaps; record the actual exception. A4's naturally staggered-column
-rule does not replace this book rule, and six entries is not a universal quota.
+For Troubles, follow the current [book flow and wrapping rules](../../../docs/BOOK-PRINT-STYLE.md#troubles).
+Pack complete entries in coherent reading order, with every applicable condition
+exactly once. Fill earlier pages naturally and leave unused space after the final
+page's content. Preserve normal gaps and natural advice heights; do not stretch
+entries to align their last text edges or distribute emptiness through a guide.
+Unequal lower edges are expected when whole entries do not fit the remaining
+space. Record substantial unavoidable gaps and verify the next entry really
+cannot fit. Keep complete source drawings and load their source-bound wrapping
+masks before measuring. A4 retains its own contract. Neither the frozen six-entry
+specimen nor a reviewed guide's page count is a universal quota.
 
 For simple opening/how-to pages, retain approved explanations and reference
 artwork. Evaluate facing-page balance as well as individual fit. Use current stock

@@ -1,23 +1,111 @@
 # Current project handover
 
-Updated 26 October 2026 after the website launch and return to printed-book work.
+Updated 31 October 2026 after the complete Brassica wrapping and natural-flow proof.
 This document owns current scope, decisions and next actions. Read README,
 AGENTS and SHARED-DATA first. John's latest instruction takes precedence;
 dated reports and approvals are evidence, not instructions to resume old work.
 
 ## Resume here
 
-**John is returning to the printed book in a new session. The prelaunch website
-is live at <https://hackriculture.com/> and he confirms it is looking good.**
-The SSL incident is resolved by his 26 October report; do not resume that
-investigation or restart the website-design phase. John will start the new session.
+**John has received the printed proof and is satisfied with its physical quality.**
+On 28 October he reported a luxurious coated-paper feel, suitable paper weight,
+good printing, accurate colours and a comfortable book size. He wants to proceed
+with final preparation. The post-proof layout pass has now started. His collected
+minor-copy corrections remain a later session.
 
-Begin with his next print brief and establish whether the physical proof has
-arrived and what he wants to change. Arrival and physical review have not been
-confirmed in this website session. Preserve the exact ordered PDFs; do not
-regenerate the whole book merely to resume. The first proof order and approved
-production checkpoint are below. Final metadata, proof review and publication
-approval remain open; the website launch is not the book's sales launch.
+**Netting and Supports are approved and integrated.** John approved Netting on
+29 October and the final Supports pages on 30 October, then explicitly requested
+both sections in the main book with updated contents, numbering and index.
+[Netting approval](../publication/topic-pages/plant-protection-supports/netting/APPROVAL.json)
+and [Supports approval](../publication/topic-pages/plant-protection-supports/supports/APPROVAL.json)
+freeze the exact accepted copy, artwork, layouts and PDFs.
+
+The [main book](../publication/whole-book-order-preview/REVIEW.html#spread=81)
+now has **172 interior pages plus four cover leaves: 176 PDF pages**, imperial.
+Netting is **160–161**, Supports **162–163**, Watering **164**, Greenhouses **165–167**,
+and the four-page index **168–171**, followed by blank 172. Contents remain at 4–5,
+with 83 destinations; the index has 297 entries and 35 see references. Both-unit
+navigation is checked; approved page bodies and all 44 facing crop guides remain.
+The [integration evidence](../publication/whole-book-order-preview/README.md)
+records actual PDF checks, exact source comparisons and the guarded book-copy save.
+The accepted 168-page ordered production interior and 12 mm cover are preserved;
+this new screen revision has not been prepared or uploaded to Bookvault.
+
+**The 44 vegetable guides now follow title alphabetical order**, as John requested
+on 30 October: Artichoke, Globe first (10–11), Turnip last (96–97). Whole facing
+pairs and their existing category colours are retained. Contents, index, bookmarks,
+folios and the Kale/Lettuce/Oriental Leaves references in Techniques are updated.
+[The order and source-check evidence](../publication/whole-book-order-preview/alphabetical-order-2026-10-30/CHECKS.json)
+records the change. No canonical gardening records or shared book-copy JSON changed.
+
+**Larger category names are approved; the how-to colour key is rejected.**
+On 30 October John approved the 10 pt bold coloured category names on both guide
+pages, as shown in Carrot 36–37 and Kale 58–59. [Scoped approval](../publication/category-navigation-preview/APPROVAL.json)
+freezes those exact examples and excludes the colour-key page. Apply the approved
+name treatment without asking for approval again at the next navigation integration;
+guide-wide application remains pending. The existing main-book how-to stays intact,
+including its original title and illustration size. Do not revive the rejected key.
+
+**The complete coloured contents and pale key panel are approved.** The
+[30 October approval](../publication/contents-colour-study/key-preview/APPROVAL.json)
+binds the exact two-page proof, both HTML editions and styles: A on page 4,
+matching Troubles colours on page 5, and the 8 pt key in a pale `roots.wash`
+panel beside H6 harvest. H5 seedlings is omitted. The earlier how-to key,
+first-page key and below-Troubles key are superseded/rejected. These contents
+and the larger guide names await the next integration; do not ask again.
+
+**Quieter Troubles headers.** John requested removing the repeated
+“Recognise → Act → Prevent” page headers and explaining the idea on the section
+opener. The [revised section proof](../publication/troubles-header-refinement/README.md)
+contains folios 99–144. All 45 page-level lines are removed from saved native
+pages; every remaining glyph and diagnostic image is verified unchanged.
+The small Recognise / Act / Prevent labels within each problem remain: the
+request was interpreted as the arrowed page header, as stated to John.
+The opener retains its strapline and illustrations, with a short new explanation
+for review. The live compact renderer also removes the line; A4 remains unchanged.
+The complete imperial book has not been reassembled. Introduction and collected
+copy corrections remain later work.
+
+**Current review: complete Brassica Troubles guide.** John approved separate
+wrapping masks, a **4 mm gap** and **25% larger diagnostic boxes** (135 × 157.5 CSS px)
+for all book Troubles: [image-treatment approval](../publication/troubles-image-size-study/APPROVAL.json).
+He then requested natural page progression, with spare space at the guide's end,
+and authorised Brassica first with complete documentation and removal of superseded
+instructions. The [full six-page proof and maintained workflow](../publication/brassica-flow-preview/README.md)
+now cover folios **106–111**, all **29 problems**, in both units. Advice, order,
+applicability, type sizes and original artwork are preserved. All six pages, three
+spreads and 29 mask overlays were inspected; actual PDF text/image checks pass.
+
+The proof uses normal inter-entry gaps, fills earlier pages left to right and
+reclaims the unused space formerly reserved for the arrowed header line. The
+final page's space trails below its three entries. Folio 110 retains a larger
+measured gap because no next complete entry fits; this is documented rather than
+hidden by stretching or reordering. The guide stays at six pages. An opt-in renderer
+profile keeps ordinary exports, other guides and the main book unchanged.
+**Next: John's review of this complete composition, then extend it to the other
+Troubles guides within the agreed rollout.** Do not ask again about the image settings.
+Refresh condition-level index references when integrating; final book-wide pagination
+waits for the remaining guide layouts. This proof is not a supplier file or publication approval.
+
+The [guide contract](../BOOK-PRINT-STYLE.md#troubles) now owns the new flow rule.
+The layout skill, standing rules and technical docs have had the superseded
+fullness/last-edge instructions replaced. Earlier
+[polygon](../publication/troubles-wrap-study/README.md),
+[mask](../publication/troubles-mask-study/README.md) and
+[size](../publication/troubles-image-size-study/README.md) proofs remain evidence;
+the approved specimens are frozen and their builders now refuse overwrites.
+The transparency query is resolved for the four original sample assets: they are
+opaque PNGs displayed with multiply blending. Invisible SVG masks control wrapping;
+none of the visible diagnostic art has been converted or redrawn.
+
+The prelaunch website is live at <https://hackriculture.com/> and John confirms
+it is looking good.
+The SSL incident is resolved by his 26 October report; do not resume that
+investigation or restart the website-design phase.
+
+Preserve the exact ordered PDFs as the physically reviewed baseline. Final text,
+new pages, metadata, revised production files and publication approval remain
+open; the website launch is not the book's sales launch.
 
 Git storage update, 22 October: the large `integration-2026-10-18/baseline.pdf`
 under `docs/publication/whole-book-order-preview/` and
@@ -83,13 +171,14 @@ Local preview uses `npm run dev -- --host 127.0.0.1 --port 5175 --strictPort`, l
 handover does not assert that either remains running. No new session, order,
 email campaign, automation or publication action is part of this documentation update.
 
-### Print checkpoint — first proof ordered
+### Print checkpoint — physical quality accepted; final edits pending
 
 **Both Bookvault production files are uploaded and have passed supplier checks.** Open the
 [production viewer](../publication/bookvault-print-ready/REVIEW.html) for the exact
 168-page imperial interior and 12 mm-spine cover wrap. [Production notes and checks](../publication/bookvault-print-ready/README.md)
 record restoration of original artwork, bleed, CMYK conversion, native-text
-preservation and the cover adaptation. The G2/B5 production cover is a proposal:
+preservation and the cover adaptation. The physically reviewed G2/B5 adaptation
+retains its differences from the concepts:
 native lettering and original vegetable/page crops differ from the concepts.
 John Lennon now appears on the front and spine; all five intentional interior
 blanks use matching printed cream, following John's latest request.
@@ -98,22 +187,23 @@ after it. Both PDFs are saved and marked **Approved** in Bookvault’s processin
 the cover and sampled interior spreads were checked in its visual proof. John then
 confirmed Bookvault’s artwork responsibility declaration, and “Approve proof” was
 submitted successfully. [Supplier checks and exact review coverage](../publication/bookvault-print-ready/SUPPLIER-CHECKS.json).
-**The first physical proof has been ordered by John.** He confirmed payment on
+**The first physical proof has arrived; John accepted its physical quality on
+28 October.** He confirmed payment on
 19 October; the portal check on 19 October showed [order BV3012332](https://portal.bookvault.app/order?ID=3012332),
 reference 69932-#00001, created at 15:09, status **Created**. One copy totals
 **£12.58**: £6.31 standard UK production + £6.27 Royal Mail 1st Class, to the
 confirmed Truro address, postcode TR1 1BQ. [Order confirmation](../publication/bookvault-print-ready/supplier-proof-order-confirmed.png).
-The 19 October checkout estimated dispatch 28 October and delivery 29–30 October;
-these were estimates, and order progress has not been rechecked in this website
-session. Await the copy, then assess cream consistency,
-colour/detail, paper weight and opening comfort before final publication decisions.
+The 19 October dispatch/delivery estimates are historical. John's 28 October
+report confirms receipt and satisfaction with coated-paper feel and weight,
+printing, colour accuracy and size. Corrections and new content remain before
+final publication; this is acceptance of physical quality, not of revised files.
 The agent did not place the order or pay. No additional order is authorised.
 Metadata/barcode placeholders remain; automatic barcode insertion was off at upload.
 The reading preview below is preserved for continued copy/design work.
 
 The approved integration is complete; John's final copy changes update Organic growing, page 146, and Beds and paths, page 152. The current
-[full preview](../publication/whole-book-order-preview/REVIEW.html?revision=techniques-subsections-2026-10-19#spread=74)
-has **168 interior pages plus four cover leaves: 172 PDF pages**, imperial,
+[full preview](../publication/whole-book-order-preview/REVIEW.html?revision=alphabetical-2026-10-30#spread=6)
+has **172 interior pages plus four cover leaves: 176 PDF pages**, imperial,
 185 × 240 mm. [PDF](../../output/pdf/whole-book-order-preview/the-vegetable-guru-order-preview.pdf),
 [page map](../publication/whole-book-order-preview/PAGE-MAP.json),
 [checks](../publication/whole-book-order-preview/CHECKS.json) and
@@ -128,7 +218,7 @@ The latest exact replacement shortens “Sides are optional” on page 152 to en
 “Choose what makes the plot easier to use for you.” [Both-unit checks](../publication/final-text-edits/BEDS-PDF-CHECKS.json)
 confirm that all other page text and the existing type are preserved.
 John discarded the Top tip ribbon/splash idea on 18 October. The original green
-panels now at 151, 152, 154, 159 and 163 remain in the full preview; the proposals
+panels now at 151, 152, 154, 159 and 167 remain in the full preview; the proposals
 were never integrated. [Decision and verification](../publication/top-tip-panels/DECISION.json).
 The latest layout request moves all five double-digging steps onto page 157,
 with single digging first on 158, followed by path care and smothering.
@@ -162,7 +252,7 @@ expanded spread. The optional holiday item remains excluded.
 | 4–5 | Simple illustrated contents |
 | 6–7 | Blank / Introduction — why grow your own |
 | 8–9 | Blank / combined Vegetable Guides and how-to |
-| 10–97 | All 44 vegetable guides, two facing pages each |
+| 10–97 | All 44 vegetable guides, alphabetical by title, two facing pages each |
 | 98–99 | Blank / Vegetable Troubles opener |
 | 100–144 | Fourteen Troubles guides |
 | 145 | Growing Techniques opener |
@@ -173,16 +263,19 @@ expanded spread. The optional holiday item remains excluded.
 | 153–154 | Compost |
 | 155–156 | Cultivation: Dig or No-Dig? / No-Dig |
 | 157–158 | Cultivation: Digging / Digging continued |
-| 159–160 | Plant care: Sowing and planting / Watering |
-| 161 | Greenhouses introduction |
-| 162–163 | Greenhouse growing options and seasons |
-| 164–167 | Index |
-| 168 | End balancing blank |
+| 159 | Plant care: Sowing and planting |
+| 160–161 | Netting |
+| 162–163 | Supports |
+| 164 | Watering |
+| 165 | Greenhouses introduction |
+| 166–167 | Greenhouse growing options and seasons |
+| 168–171 | Index |
+| 172 | End balancing blank |
 
 PDF page = printed folio + 2. All three section openers are right-hand pages;
 all crops open on the left. Growing Techniques is continuous; some two-page
 technique topics now cross a page turn. Their margins follow the new physical
-folios. Interior blanks are 3, 6, 8, 98 and 168. The welcome/author page stays omitted.
+folios. Interior blanks are 3, 6, 8, 98 and 172. The welcome/author page stays omitted.
 
 
 ## Accepted content and design
@@ -211,11 +304,11 @@ folios. Interior blanks are 3, 6, 8, 98 and 168. The welcome/author page stays o
   [asset registry](../assets/README.md) and [full-preview notes](../publication/whole-book-order-preview/README.md).
 
 Contents remain two pages with simple headings/list rows and existing H1/H2/H5/H6
-artwork: **81 destinations**, 10.5 pt rows. No numbers, family subheadings or panels.
-The index stays four pages, 9.45 pt, **286 entries / 35 see references**. All
-previous terms remain; eight nutrient-page terms and the rotation succession
-reference are added. Crop-specific links require literal relevant crop mentions;
-73 links are present, with repeated section labels omitted within a footer.
+artwork: **83 destinations**, 10.5 pt rows. No numbers, family subheadings or panels.
+The index stays four pages, 9.45 pt, **297 entries / 35 see references**. All
+previous terms remain, including the nutrient and rotation succession references;
+11 Netting/Supports terms and seven precise crop/problem references are added. Crop-specific links require literal relevant crop mentions;
+79 links are present, with repeated section labels omitted within a footer.
 All highlights are removed from the current PDF and viewer.
 
 ## Sources and current rebuild route
@@ -280,15 +373,16 @@ G2 Cream centre is selected for the front; B5 Off-centre collage is preferred fo
 the back. Preserve the cream/grid front without a count footer and the dark-green
 back with 44 growing / 14 Troubles wording. Approved blurb is native text above a
 separate B5 derivative; original raster art is intact. A separate native production adaptation now supplies editable lettering, exact
-current-page snippets and the 12 mm wrap. This adaptation is being tested in the
-first physical proof; final publication design approval remains open. Cover C is
+current-page snippets and the 12 mm wrap. John accepted the first proof's physical
+quality on 28 October; final revised publication files remain open. Cover C is
 a style/A4 reference only. Rejected cover studies are not alternatives to resume.
 
 Missing copyright year, imprint, ISBN, edition and publication year remain
 placeholders by request. The imperial print-resolution interior, proposed cover wrap and local colour/font/geometry
-preflight and Bookvault file validation are complete. Physical proof review, full
-metric assembly if requested, final metadata and publication cover approval remain
-outstanding.
+preflight and Bookvault file validation are complete. Physical quality is accepted.
+Final copy corrections, the new Techniques spread and introduction, later layout
+tidying, full metric assembly if requested, final metadata and approval of the
+revised publication files remain outstanding.
 The fresh 168-page/150 gsm template specifies a **12 mm spine**, **388 × 246 mm
 cover wrap**, and **191 × 246 mm interior** including 3 mm all-round bleed;
 interior safety is 17 mm at the binding and 5 mm elsewhere. Regenerate templates
@@ -349,9 +443,13 @@ Both the waterproof quote monitor and compact preparation automation remain
 **paused**. No restart or new schedule is requested. The authorised upload, supplier
 checks and proof-order preparation are complete. John separately confirmed the
 artwork responsibility declaration, then placed and paid for the order himself.
-The next session returns to printed-book preparation, as described above. The
-website is live, while book sales remain inactive. ISBN purchase is deferred
-until after the first proof. Further purchases, supplier
+Current work and pending approvals are owned by [Resume here](#resume-here),
+including the complete Brassica proof and approved navigation changes awaiting
+integration. The how-to key remains rejected.
+The alphabetical book remains current; the introduction and further collected
+corrections/layout changes await John's instructions. The website is live,
+while book sales remain inactive. ISBN purchase remains to be decided following
+acceptance of the physical proof. Further purchases, supplier
 messages, rights declarations, contract acceptance, distribution activation and
 deployment need applicable authorisation; completed actions are not standing
 approval for new ones. Preserve existing KDP titles; the old Practical Gardener

@@ -1,37 +1,20 @@
 {
-  "date": "2026-10-18",
-  "status": "passed",
+  "date": "2026-10-30",
+  "status": "passed for inspected both-unit PDF spreads",
   "pdfs": [
     {
       "unit": "imperial",
-      "sha256": "60fe5a2699c24f15579af156c89edbd4af369886fa43c6a545357feb1a525a42"
+      "sha256": "5cbcfec5d0391fddc8fd552ad4e93b7084b2edc2fcfdfcf2265cd8ee8d3f5118"
     },
     {
       "unit": "metric",
-      "sha256": "289a9302a57d943a2aac9c8e4fdbb74f8441e8a7536416de694bcbc45fabea0e"
+      "sha256": "cacf001d856f2f11778de4fac6de8a12544ffcd5081d9d9becb580cc0ab61f31"
     }
   ],
-  "inspected": "Current imperial facing pair in the actual assembled PDF; both-unit DOM/PDF checks and same-unit-neutral composition",
+  "inspected": "Imperial and metric actual PDF facing spreads, plus contents 4–5 in the assembled imperial PDF.",
   "findings": [
-    "All 81 destinations fit across two pages.",
+    "All 83 destinations fit; the 44 vegetables run alphabetically by displayed title and match the assembled facing pairs. Netting remains 160 and Supports 162.",
     "Header artwork, plain section headings and list structure retained.",
-    "Lower illustrations and footer do not collide; row type remains 10.5 pt."
-  ],
-  "fullBookPdfSha256": "d8aac1e898aa26cb86ab8099ed0c5090d86c3798d0a11c050b1d48fd868799a6",
-  "currentRevision": {
-    "date": "2026-10-19",
-    "scope": "Requested Techniques blank removal; numeric folios refreshed, existing contents words, artwork and type retained.",
-    "unitsInspected": [
-      "imperial",
-      "metric"
-    ],
-    "spreads": [
-      [
-        4,
-        5
-      ]
-    ],
-    "pdfChecks": "PDF-CHECKS.json",
-    "fullBookVisual": "../whole-book-order-preview/VISUAL-REVIEW.json"
-  }
+    "Lower illustrations fit at 45 × 33.75 mm; rows stay 10.5 pt and no text/image or footer collision was observed."
+  ]
 }

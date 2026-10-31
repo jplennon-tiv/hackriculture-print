@@ -6,7 +6,7 @@ import {readBookContent} from './lib/book-content.mjs';
 import {validateBookLayout} from '../../hackriculture-data/lib/book-layout.mjs';
 const base=JSON.parse(fs.readFileSync('docs/publication/book-preparation/ASSEMBLY-PLAN-BOOKVAULT.json'));
 const topics=JSON.parse(fs.readFileSync('docs/publication/topic-pages/techniques-expansion/COLLECTION-APPROVAL.json')).pageIds;
-const sources=Object.fromEntries(['imperial','metric'].map(u=>[u,Object.fromEntries([...topics.map(s=>'technique:'+s),...['overview','no-dig','digging','digging-finish'].map(s=>'cultivation:'+s),'technique:nutrient-cycles','back:index'].map(s=>[s,{pdf:'fixture.pdf',sourcePage:1,physicalPages:s==='back:index'?4:s==='technique:rotation'?2:1}]))]));
+const sources=Object.fromEntries(['imperial','metric'].map(u=>[u,Object.fromEntries([...topics.map(s=>'technique:'+s),...['overview','no-dig','digging','digging-finish'].map(s=>'cultivation:'+s),'technique:nutrient-cycles','technique:netting','technique:supports','back:index'].map(s=>[s,{pdf:'fixture.pdf',sourcePage:1,physicalPages:s==='back:index'?4:['technique:rotation','technique:netting','technique:supports'].includes(s)?2:1}]))]));
 test('proposed pagination covers every page once and preserves crop spreads and blanks',()=>{
  const before=structuredClone(base),{plan,topicMap}=createContentsPlan(base,sources);
  assert.deepEqual(base,before);
@@ -15,8 +15,8 @@ test('proposed pagination covers every page once and preserves crop spreads and 
   for(const d of e.documents){occupied.push(...Array.from({length:d.physicalPages},(_,i)=>d.startPage+i),...d.blankFoliosAfter);if(d.type==='vegetable')assert.equal(d.startPage%2,0);}
   occupied.push(...e.sectionOpeners.filter(d=>d.startPage>9).map(d=>d.startPage),...e.extraBlanks.filter(d=>d.page>9).map(d=>d.page));
   occupied.push(...e.additions.filter(d=>d.source!=='technique:why-grow').flatMap(d=>Array.from({length:d.physicalPages},(_,i)=>d.startPage+i)),...Array.from({length:e.index.physicalPages},(_,i)=>e.index.startPage+i));
-  assert.deepEqual(occupied.sort((a,b)=>a-b),Array.from({length:176},(_,i)=>i+1));
-  assert.equal(e.documents[0].startPage,10);assert.equal(e.index.startPage,172);assert.equal(e.techniquePages,18);
+  assert.deepEqual(occupied.sort((a,b)=>a-b),Array.from({length:180},(_,i)=>i+1));
+  assert.equal(e.documents[0].startPage,10);assert.equal(e.index.startPage,176);assert.equal(e.techniquePages,22);
   assert.deepEqual(e.sectionOpeners.map(x=>x.startPage),[9,107,153]);
   assert.ok(e.sectionOpeners.filter(x=>x.source!=='opening:varieties').every(x=>x.startPage%2===1));
   assert.equal(e.sectionOpeners[0].startPage%2,1);
@@ -31,7 +31,7 @@ test('proposed pagination covers every page once and preserves crop spreads and 
 });
 test('contents include every added destination once, and reject unresolved or duplicate destinations',()=>{
  const {data}=readBookContent(),{plan}=createContentsPlan(base,sources),themes=JSON.parse(fs.readFileSync('src/print/familyThemes.json'));
- for(const unit of ['imperial','metric'])assert.equal(renderUpdatedContents(data,unit,plan,themes).references.length,81);
+ for(const unit of ['imperial','metric'])assert.equal(renderUpdatedContents(data,unit,plan,themes).references.length,83);
  const bad=structuredClone(data);bad.contents.expanded.groups[0].entries[0].source='technique:missing';
  assert.throws(()=>renderUpdatedContents(bad,'imperial',plan,themes),/Missing or duplicate/);
  bad.contents.expanded.groups[0].entries[0].source=bad.contents.expanded.gettingStarted.entries[0].source;
@@ -43,17 +43,20 @@ test('four approved two-page guides remove overflow and alignment leaves, preser
  const before=structuredClone(base),{plan}=createContentsPlan(base,sources,replacements);
  assert.deepEqual(base,before);
  for(const [u,e] of Object.entries(plan.editions)){
-  assert.equal(e.plannedEvenTotal,168);assert.equal(e.index.startPage,164);
-  assert.ok(!e.extraBlanks.some(b=>b.page>=145&&b.page<164));
+  assert.equal(e.plannedEvenTotal,172);assert.equal(e.index.startPage,168);
+  assert.ok(!e.extraBlanks.some(b=>b.page>=145&&b.page<168));
   assert.deepEqual(e.sectionOpeners.map(d=>d.startPage),[9,99,145]);
   const crops=e.documents.filter(d=>d.type==='vegetable');
   assert.equal(crops.length,44);assert.ok(crops.every(d=>d.physicalPages===2&&d.startPage%2===0&&d.blankAfterPages===0));
-  assert.deepEqual(crops.filter(d=>keys.includes(d.key)).map(d=>d.startPage),[14,66,82,84]);
+  assert.deepEqual(crops.filter(d=>keys.includes(d.key)).map(d=>d.startPage),[36,68,92,94]);
+  assert.deepEqual(crops.slice(0,4).map(d=>d.label),['Artichoke, Globe','Artichoke, Jerusalem','Asparagus','Aubergine']);
+  assert.equal(crops.at(-1).label,'Turnip');
+  assert.deepEqual(crops.map(d=>d.label),crops.map(d=>d.label).sort((a,b)=>a.localeCompare(b,'en-GB',{sensitivity:'base',ignorePunctuation:true})));
   const occupied=new Set(plan.openingPlan.map(p=>p.page));
   const put=p=>{assert.ok(!occupied.has(p),'Duplicate folio '+p);occupied.add(p);};
   for(const d of e.documents){assert.equal(d.sourceStartPage,base.editions[u].documents.find(o=>o.id===d.id).startPage);for(let f=d.startPage;f<=d.endPage;f++)put(f);}
   e.sectionOpeners.filter(d=>d.startPage>9).forEach(d=>put(d.startPage));e.extraBlanks.filter(d=>d.page>9).forEach(d=>put(d.page));
   e.additions.filter(d=>d.startPage>9).forEach(d=>{for(let i=0;i<d.physicalPages;i++)put(d.startPage+i);});for(let f=e.index.startPage;f<=e.index.endPage;f++)put(f);
-  assert.deepEqual([...occupied].sort((a,b)=>a-b),Array.from({length:168},(_,i)=>i+1));
+  assert.deepEqual([...occupied].sort((a,b)=>a-b),Array.from({length:172},(_,i)=>i+1));
  }
 });

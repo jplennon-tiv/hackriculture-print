@@ -1,0 +1,52 @@
+{
+  "scope": "Actual two-page comparison PDF; both-unit component checks",
+  "checks": [
+    {
+      "units": "imperial",
+      "pagesPerVariant": 1,
+      "nonWhitespaceGlyphsPreserved": true,
+      "fontSizesPreserved": [
+        7.04,
+        9.0,
+        12.2,
+        12.3,
+        12.35,
+        12.38,
+        12.39,
+        12.4,
+        12.41,
+        12.43,
+        15.0,
+        25.5
+      ],
+      "imagesPreserved": 4
+    },
+    {
+      "units": "metric",
+      "pagesPerVariant": 1,
+      "nonWhitespaceGlyphsPreserved": true,
+      "fontSizesPreserved": [
+        7.04,
+        9.0,
+        12.2,
+        12.3,
+        12.35,
+        12.38,
+        12.39,
+        12.4,
+        12.41,
+        12.43,
+        15.0,
+        25.5
+      ],
+      "imagesPreserved": 4
+    }
+  ],
+  "trimMm": [
+    185,
+    240
+  ],
+  "output": "output/pdf/troubles-wrap-study/troubles-image-wrap-comparison.pdf",
+  "sha256": "78a53de9d5b8b8c37916f4c121cab6024ab52eb9105f7dff92372eee014098cb",
+  "mainBookUnchanged": true
+}

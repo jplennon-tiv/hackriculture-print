@@ -1,0 +1,512 @@
+{
+  "date": "2026-10-31",
+  "status": "proposal, not installed",
+  "shapeMarginMm": 4,
+  "scope": "Brassica opening, folio 106, four entries; same geometry and artwork as the rectangular baseline",
+  "method": "Separate transparent SVG silhouettes used as shape-outside image URLs, with 0.5 alpha threshold and 4 mm margin. Outer float margins are enlarged only as needed to avoid clipping the gap on the text-facing, top and bottom edges. The displayed PNGs and multiply blending are unchanged. SVG geometry encloses the outermost source marks in each short band and fills internal gaps; isolated components smaller than 16 source pixels, and edge flecks smaller than 256 pixels, are excluded from the layout mask only.",
+  "protectedHashes": {
+    "src/print/book/compact.css": "2ef16183fadf28bd4ec0e009bdd8cca1f304e23cec955a05206463a88dff488d",
+    "src/print/book/renderCompact.ts": "390e94bab40fb93b5dff1a1b9905f3e214a7918131d130c3e81cae3f0db08a48",
+    "src/print/editorialTrouble.css": "be65d106ce73c6e15ee79123ef423a63ae6d4d911a98cf07a9355153b6d51577",
+    "output/pdf/whole-book-order-preview/the-vegetable-guru-order-preview.pdf": "6432e2ff68f9f4c11b041ff6fec443843b59944d8b77482218db1a7273f42689"
+  },
+  "results": [
+    {
+      "units": "imperial",
+      "sourceHtmlSha256": "51c3606489ff0fd1ba7b89b6ed6fb049970257876e4c5f8d931c379e11667e4b",
+      "current": {
+        "text": "Brassica\nTroubles\n\nAll listed crops: Broccoli · Brussels Sprouts · Cabbage · Cauliflower · Kale · Kohl Rabi\n\nCheck roots as well as leaves when brassicas wilt or stop growing. Mesh, sound transplants and steady growth prevent many losses; disease and nutrient problems need different responses. Test soil before liming or adding trace elements. Cabbage, cauliflower, sprouts and kohl rabi also have distinct quality problems.\n\nKOHL RABI\n\nWoody Kohl Rabi\nRECOGNISE\n\nThe swollen stem becomes hard and fibrous after drought, crowding, slow growth or late harvest.\n\nACT\n\nThere is no cure once woody. Use only parts that remain tender.\n\nPREVENT\n\nGrow steadily in fertile, moisture-retentive soil. Space correctly, water in dry spells and harvest young unless using a variety bred for large tender stems.\n\nALL LISTED CROPS\n\nWhite Blister (White Rust)\nRECOGNISE\n\nRaised white blisters, mainly beneath leaves, may also affect stems or flowers and distort growth.\n\nACT\n\nRemove affected leaves and reduce crowding.\n\nPREVENT\n\nAvoid repeating brassicas on the affected ground the following season.\n\nALL LISTED CROPS\n\nPigeons\nRECOGNISE\n\nSoft leaf tissue is stripped away, often leaving stalks and veins. Winter and early spring damage can be severe.\n\nACT\n\nCover vulnerable crops promptly; stripped leaves will not repair themselves.\n\nPREVENT\n\nKeep taut netting well clear of foliage and secure the edges. Check frequently for trapped wildlife.\n\nALL LISTED CROPS\n\nLeaf Spot (Ring Spot)\nRECOGNISE\n\nRinged leaf spots can yellow foliage and cause leaf fall; wet weather favours spread.\n\nACT\n\nRemove badly affected leaves and improve airflow.\n\nPREVENT\n\nRotate brassicas; avoid the affected site next season.\n\nVEGETABLE TROUBLES\n106",
+        "entries": [
+          {
+            "key": "woody_kohl_rabi",
+            "text": "KOHL RABI\n\nWoody Kohl Rabi\nRECOGNISE\n\nThe swollen stem becomes hard and fibrous after drought, crowding, slow growth or late harvest.\n\nACT\n\nThere is no cure once woody. Use only parts that remain tender.\n\nPREVENT\n\nGrow steadily in fertile, moisture-retentive soil. Space correctly, water in dry spells and harvest young unless using a variety bred for large tender stems.",
+            "heightPx": 220.546875,
+            "bottomPx": 383.859375,
+            "textEndPx": 383.859375,
+            "image": {
+              "src": "/images/troubles/brassica_troubles/woody_kohl_rabi-backfill-v1.png",
+              "width": 108,
+              "height": 126,
+              "blend": "multiply",
+              "shape": "margin-box",
+              "shapeMargin": "0px",
+              "floatMargins": {
+                "top": "2px",
+                "bottom": "5px",
+                "left": "8px"
+              },
+              "loaded": true
+            }
+          },
+          {
+            "key": "white_blister_white_rust",
+            "text": "ALL LISTED CROPS\n\nWhite Blister (White Rust)\nRECOGNISE\n\nRaised white blisters, mainly beneath leaves, may also affect stems or flowers and distort growth.\n\nACT\n\nRemove affected leaves and reduce crowding.\n\nPREVENT\n\nAvoid repeating brassicas on the affected ground the following season.",
+            "heightPx": 190.546875,
+            "bottomPx": 582.40625,
+            "textEndPx": 582.40625,
+            "image": {
+              "src": "/images/troubles/cleaned/brassica_troubles/white_blister_white_rust-v1.png",
+              "width": 108,
+              "height": 126,
+              "blend": "multiply",
+              "shape": "margin-box",
+              "shapeMargin": "0px",
+              "floatMargins": {
+                "top": "2px",
+                "bottom": "5px",
+                "left": "8px"
+              },
+              "loaded": true
+            }
+          },
+          {
+            "key": "pigeons",
+            "text": "ALL LISTED CROPS\n\nPigeons\nRECOGNISE\n\nSoft leaf tissue is stripped away, often leaving stalks and veins. Winter and early spring damage can be severe.\n\nACT\n\nCover vulnerable crops promptly; stripped leaves will not repair themselves.\n\nPREVENT\n\nKeep taut netting well clear of foliage and secure the edges. Check frequently for trapped wildlife.",
+            "heightPx": 220.546875,
+            "bottomPx": 383.859375,
+            "textEndPx": 383.859375,
+            "image": {
+              "src": "/images/troubles/cleaned/brassica_troubles/pigeons-v1.png",
+              "width": 108,
+              "height": 126,
+              "blend": "multiply",
+              "shape": "margin-box",
+              "shapeMargin": "0px",
+              "floatMargins": {
+                "top": "2px",
+                "bottom": "5px",
+                "left": "8px"
+              },
+              "loaded": true
+            }
+          },
+          {
+            "key": "leaf_spot_ring_spot",
+            "text": "ALL LISTED CROPS\n\nLeaf Spot (Ring Spot)\nRECOGNISE\n\nRinged leaf spots can yellow foliage and cause leaf fall; wet weather favours spread.\n\nACT\n\nRemove badly affected leaves and improve airflow.\n\nPREVENT\n\nRotate brassicas; avoid the affected site next season.",
+            "heightPx": 180.078125,
+            "bottomPx": 586.9375,
+            "textEndPx": 582.40625,
+            "image": {
+              "src": "/images/troubles/cleaned/brassica_troubles/leaf_spot_ring_spot-v1.png",
+              "width": 108,
+              "height": 126,
+              "blend": "multiply",
+              "shape": "margin-box",
+              "shapeMargin": "0px",
+              "floatMargins": {
+                "top": "2px",
+                "bottom": "5px",
+                "left": "8px"
+              },
+              "loaded": true
+            }
+          }
+        ],
+        "fonts": "loaded",
+        "footerClearanceMm": 73.71953125,
+        "columnTextEndDifferencePx": 0
+      },
+      "masked": {
+        "text": "Brassica\nTroubles\n\nAll listed crops: Broccoli · Brussels Sprouts · Cabbage · Cauliflower · Kale · Kohl Rabi\n\nCheck roots as well as leaves when brassicas wilt or stop growing. Mesh, sound transplants and steady growth prevent many losses; disease and nutrient problems need different responses. Test soil before liming or adding trace elements. Cabbage, cauliflower, sprouts and kohl rabi also have distinct quality problems.\n\nKOHL RABI\n\nWoody Kohl Rabi\nRECOGNISE\n\nThe swollen stem becomes hard and fibrous after drought, crowding, slow growth or late harvest.\n\nACT\n\nThere is no cure once woody. Use only parts that remain tender.\n\nPREVENT\n\nGrow steadily in fertile, moisture-retentive soil. Space correctly, water in dry spells and harvest young unless using a variety bred for large tender stems.\n\nALL LISTED CROPS\n\nWhite Blister (White Rust)\nRECOGNISE\n\nRaised white blisters, mainly beneath leaves, may also affect stems or flowers and distort growth.\n\nACT\n\nRemove affected leaves and reduce crowding.\n\nPREVENT\n\nAvoid repeating brassicas on the affected ground the following season.\n\nALL LISTED CROPS\n\nPigeons\nRECOGNISE\n\nSoft leaf tissue is stripped away, often leaving stalks and veins. Winter and early spring damage can be severe.\n\nACT\n\nCover vulnerable crops promptly; stripped leaves will not repair themselves.\n\nPREVENT\n\nKeep taut netting well clear of foliage and secure the edges. Check frequently for trapped wildlife.\n\nALL LISTED CROPS\n\nLeaf Spot (Ring Spot)\nRECOGNISE\n\nRinged leaf spots can yellow foliage and cause leaf fall; wet weather favours spread.\n\nACT\n\nRemove badly affected leaves and improve airflow.\n\nPREVENT\n\nRotate brassicas; avoid the affected site next season.\n\nVEGETABLE TROUBLES\n106",
+        "entries": [
+          {
+            "key": "woody_kohl_rabi",
+            "text": "KOHL RABI\n\nWoody Kohl Rabi\nRECOGNISE\n\nThe swollen stem becomes hard and fibrous after drought, crowding, slow growth or late harvest.\n\nACT\n\nThere is no cure once woody. Use only parts that remain tender.\n\nPREVENT\n\nGrow steadily in fertile, moisture-retentive soil. Space correctly, water in dry spells and harvest young unless using a variety bred for large tender stems.",
+            "heightPx": 220.546875,
+            "bottomPx": 383.859375,
+            "textEndPx": 383.859375,
+            "image": {
+              "src": "/images/troubles/brassica_troubles/woody_kohl_rabi-backfill-v1.png",
+              "width": 108,
+              "height": 126,
+              "blend": "multiply",
+              "shape": "url(\"http://127.0.0.1:5173/docs/publication/troubles-mask-study/masks/woody_kohl_rabi.svg\")",
+              "shapeMargin": "15.1181px",
+              "floatMargins": {
+                "top": "4.13725px",
+                "bottom": "5px",
+                "left": "13.3956px"
+              },
+              "loaded": true
+            }
+          },
+          {
+            "key": "white_blister_white_rust",
+            "text": "ALL LISTED CROPS\n\nWhite Blister (White Rust)\nRECOGNISE\n\nRaised white blisters, mainly beneath leaves, may also affect stems or flowers and distort growth.\n\nACT\n\nRemove affected leaves and reduce crowding.\n\nPREVENT\n\nAvoid repeating brassicas on the affected ground the following season.",
+            "heightPx": 190.546875,
+            "bottomPx": 582.40625,
+            "textEndPx": 582.40625,
+            "image": {
+              "src": "/images/troubles/cleaned/brassica_troubles/white_blister_white_rust-v1.png",
+              "width": 108,
+              "height": 126,
+              "blend": "multiply",
+              "shape": "url(\"http://127.0.0.1:5173/docs/publication/troubles-mask-study/masks/white_blister_white_rust.svg\")",
+              "shapeMargin": "15.1181px",
+              "floatMargins": {
+                "top": "2.15639px",
+                "bottom": "5px",
+                "left": "8px"
+              },
+              "loaded": true
+            }
+          },
+          {
+            "key": "pigeons",
+            "text": "ALL LISTED CROPS\n\nPigeons\nRECOGNISE\n\nSoft leaf tissue is stripped away, often leaving stalks and veins. Winter and early spring damage can be severe.\n\nACT\n\nCover vulnerable crops promptly; stripped leaves will not repair themselves.\n\nPREVENT\n\nKeep taut netting well clear of foliage and secure the edges. Check frequently for trapped wildlife.",
+            "heightPx": 205.546875,
+            "bottomPx": 368.859375,
+            "textEndPx": 368.859375,
+            "image": {
+              "src": "/images/troubles/cleaned/brassica_troubles/pigeons-v1.png",
+              "width": 108,
+              "height": 126,
+              "blend": "multiply",
+              "shape": "url(\"http://127.0.0.1:5173/docs/publication/troubles-mask-study/masks/pigeons.svg\")",
+              "shapeMargin": "15.1181px",
+              "floatMargins": {
+                "top": "2px",
+                "bottom": "5px",
+                "left": "8px"
+              },
+              "loaded": true
+            }
+          },
+          {
+            "key": "leaf_spot_ring_spot",
+            "text": "ALL LISTED CROPS\n\nLeaf Spot (Ring Spot)\nRECOGNISE\n\nRinged leaf spots can yellow foliage and cause leaf fall; wet weather favours spread.\n\nACT\n\nRemove badly affected leaves and improve airflow.\n\nPREVENT\n\nRotate brassicas; avoid the affected site next season.",
+            "heightPx": 180.078125,
+            "bottomPx": 601.9375,
+            "textEndPx": 582.40625,
+            "image": {
+              "src": "/images/troubles/cleaned/brassica_troubles/leaf_spot_ring_spot-v1.png",
+              "width": 108,
+              "height": 126,
+              "blend": "multiply",
+              "shape": "url(\"http://127.0.0.1:5173/docs/publication/troubles-mask-study/masks/leaf_spot_ring_spot.svg\")",
+              "shapeMargin": "15.1181px",
+              "floatMargins": {
+                "top": "2px",
+                "bottom": "5px",
+                "left": "8px"
+              },
+              "loaded": true
+            }
+          }
+        ],
+        "fonts": "loaded",
+        "footerClearanceMm": 69.75078125,
+        "columnTextEndDifferencePx": 0
+      },
+      "masks": [
+        {
+          "key": "woody_kohl_rabi",
+          "src": "/images/troubles/brassica_troubles/woody_kohl_rabi-backfill-v1.png",
+          "width": 108,
+          "height": 126,
+          "bounds": {
+            "left": 1.722488038277512,
+            "top": 10.980861244019138,
+            "bottom": 113.98564593301435
+          },
+          "discardedPixels": 1808,
+          "url": "http://127.0.0.1:5173/docs/publication/troubles-mask-study/masks/woody_kohl_rabi.svg",
+          "sha256": "6dc8ff0b0f3416bbd979dafb7519c71fdacf974b02ee397773bbbaf275b53791"
+        },
+        {
+          "key": "white_blister_white_rust",
+          "src": "/images/troubles/cleaned/brassica_troubles/white_blister_white_rust-v1.png",
+          "width": 108,
+          "height": 126,
+          "bounds": {
+            "left": 8.267942583732058,
+            "top": 12.961722488038278,
+            "bottom": 112.00478468899522
+          },
+          "discardedPixels": 216,
+          "url": "http://127.0.0.1:5173/docs/publication/troubles-mask-study/masks/white_blister_white_rust.svg",
+          "sha256": "88148231693fed4b8b8abbd78328e97f3c53d11928564d4610c999b59db04ac4"
+        },
+        {
+          "key": "pigeons",
+          "src": "/images/troubles/cleaned/brassica_troubles/pigeons-v1.png",
+          "width": 108,
+          "height": 126,
+          "bounds": {
+            "left": 7.83732057416268,
+            "top": 18.904306220095695,
+            "bottom": 108.04306220095694
+          },
+          "discardedPixels": 530,
+          "url": "http://127.0.0.1:5173/docs/publication/troubles-mask-study/masks/pigeons.svg",
+          "sha256": "46f9ba6e487d9b13e8d506520a0a5921f24961ebbca2025ac025f65a4c6b2659"
+        },
+        {
+          "key": "leaf_spot_ring_spot",
+          "src": "/images/troubles/cleaned/brassica_troubles/leaf_spot_ring_spot-v1.png",
+          "width": 108,
+          "height": 126,
+          "bounds": {
+            "left": 13.866028708133973,
+            "top": 14.942583732057416,
+            "bottom": 112.00478468899522
+          },
+          "discardedPixels": 4,
+          "url": "http://127.0.0.1:5173/docs/publication/troubles-mask-study/masks/leaf_spot_ring_spot.svg",
+          "sha256": "797d06c618832bfb472e9aa048d038e2c5ad610e3bb047c120a2c066aa529156"
+        }
+      ],
+      "wordingUnchanged": true,
+      "displayedArtworkUnchanged": true
+    },
+    {
+      "units": "metric",
+      "sourceHtmlSha256": "7a5e5361f53a45a5be5dd45d7685a9c89af0054738949e881263655c711913b5",
+      "current": {
+        "text": "Brassica\nTroubles\n\nAll listed crops: Broccoli · Brussels Sprouts · Cabbage · Cauliflower · Kale · Kohl Rabi\n\nCheck roots as well as leaves when brassicas wilt or stop growing. Mesh, sound transplants and steady growth prevent many losses; disease and nutrient problems need different responses. Test soil before liming or adding trace elements. Cabbage, cauliflower, sprouts and kohl rabi also have distinct quality problems.\n\nKOHL RABI\n\nWoody Kohl Rabi\nRECOGNISE\n\nThe swollen stem becomes hard and fibrous after drought, crowding, slow growth or late harvest.\n\nACT\n\nThere is no cure once woody. Use only parts that remain tender.\n\nPREVENT\n\nGrow steadily in fertile, moisture-retentive soil. Space correctly, water in dry spells and harvest young unless using a variety bred for large tender stems.\n\nALL LISTED CROPS\n\nWhite Blister (White Rust)\nRECOGNISE\n\nRaised white blisters, mainly beneath leaves, may also affect stems or flowers and distort growth.\n\nACT\n\nRemove affected leaves and reduce crowding.\n\nPREVENT\n\nAvoid repeating brassicas on the affected ground the following season.\n\nALL LISTED CROPS\n\nPigeons\nRECOGNISE\n\nSoft leaf tissue is stripped away, often leaving stalks and veins. Winter and early spring damage can be severe.\n\nACT\n\nCover vulnerable crops promptly; stripped leaves will not repair themselves.\n\nPREVENT\n\nKeep taut netting well clear of foliage and secure the edges. Check frequently for trapped wildlife.\n\nALL LISTED CROPS\n\nLeaf Spot (Ring Spot)\nRECOGNISE\n\nRinged leaf spots can yellow foliage and cause leaf fall; wet weather favours spread.\n\nACT\n\nRemove badly affected leaves and improve airflow.\n\nPREVENT\n\nRotate brassicas; avoid the affected site next season.\n\nVEGETABLE TROUBLES\n106",
+        "entries": [
+          {
+            "key": "woody_kohl_rabi",
+            "text": "KOHL RABI\n\nWoody Kohl Rabi\nRECOGNISE\n\nThe swollen stem becomes hard and fibrous after drought, crowding, slow growth or late harvest.\n\nACT\n\nThere is no cure once woody. Use only parts that remain tender.\n\nPREVENT\n\nGrow steadily in fertile, moisture-retentive soil. Space correctly, water in dry spells and harvest young unless using a variety bred for large tender stems.",
+            "heightPx": 220.546875,
+            "bottomPx": 383.859375,
+            "textEndPx": 383.859375,
+            "image": {
+              "src": "/images/troubles/brassica_troubles/woody_kohl_rabi-backfill-v1.png",
+              "width": 108,
+              "height": 126,
+              "blend": "multiply",
+              "shape": "margin-box",
+              "shapeMargin": "0px",
+              "floatMargins": {
+                "top": "2px",
+                "bottom": "5px",
+                "left": "8px"
+              },
+              "loaded": true
+            }
+          },
+          {
+            "key": "white_blister_white_rust",
+            "text": "ALL LISTED CROPS\n\nWhite Blister (White Rust)\nRECOGNISE\n\nRaised white blisters, mainly beneath leaves, may also affect stems or flowers and distort growth.\n\nACT\n\nRemove affected leaves and reduce crowding.\n\nPREVENT\n\nAvoid repeating brassicas on the affected ground the following season.",
+            "heightPx": 190.546875,
+            "bottomPx": 582.40625,
+            "textEndPx": 582.40625,
+            "image": {
+              "src": "/images/troubles/cleaned/brassica_troubles/white_blister_white_rust-v1.png",
+              "width": 108,
+              "height": 126,
+              "blend": "multiply",
+              "shape": "margin-box",
+              "shapeMargin": "0px",
+              "floatMargins": {
+                "top": "2px",
+                "bottom": "5px",
+                "left": "8px"
+              },
+              "loaded": true
+            }
+          },
+          {
+            "key": "pigeons",
+            "text": "ALL LISTED CROPS\n\nPigeons\nRECOGNISE\n\nSoft leaf tissue is stripped away, often leaving stalks and veins. Winter and early spring damage can be severe.\n\nACT\n\nCover vulnerable crops promptly; stripped leaves will not repair themselves.\n\nPREVENT\n\nKeep taut netting well clear of foliage and secure the edges. Check frequently for trapped wildlife.",
+            "heightPx": 220.546875,
+            "bottomPx": 383.859375,
+            "textEndPx": 383.859375,
+            "image": {
+              "src": "/images/troubles/cleaned/brassica_troubles/pigeons-v1.png",
+              "width": 108,
+              "height": 126,
+              "blend": "multiply",
+              "shape": "margin-box",
+              "shapeMargin": "0px",
+              "floatMargins": {
+                "top": "2px",
+                "bottom": "5px",
+                "left": "8px"
+              },
+              "loaded": true
+            }
+          },
+          {
+            "key": "leaf_spot_ring_spot",
+            "text": "ALL LISTED CROPS\n\nLeaf Spot (Ring Spot)\nRECOGNISE\n\nRinged leaf spots can yellow foliage and cause leaf fall; wet weather favours spread.\n\nACT\n\nRemove badly affected leaves and improve airflow.\n\nPREVENT\n\nRotate brassicas; avoid the affected site next season.",
+            "heightPx": 180.078125,
+            "bottomPx": 586.9375,
+            "textEndPx": 582.40625,
+            "image": {
+              "src": "/images/troubles/cleaned/brassica_troubles/leaf_spot_ring_spot-v1.png",
+              "width": 108,
+              "height": 126,
+              "blend": "multiply",
+              "shape": "margin-box",
+              "shapeMargin": "0px",
+              "floatMargins": {
+                "top": "2px",
+                "bottom": "5px",
+                "left": "8px"
+              },
+              "loaded": true
+            }
+          }
+        ],
+        "fonts": "loaded",
+        "footerClearanceMm": 73.71953125,
+        "columnTextEndDifferencePx": 0
+      },
+      "masked": {
+        "text": "Brassica\nTroubles\n\nAll listed crops: Broccoli · Brussels Sprouts · Cabbage · Cauliflower · Kale · Kohl Rabi\n\nCheck roots as well as leaves when brassicas wilt or stop growing. Mesh, sound transplants and steady growth prevent many losses; disease and nutrient problems need different responses. Test soil before liming or adding trace elements. Cabbage, cauliflower, sprouts and kohl rabi also have distinct quality problems.\n\nKOHL RABI\n\nWoody Kohl Rabi\nRECOGNISE\n\nThe swollen stem becomes hard and fibrous after drought, crowding, slow growth or late harvest.\n\nACT\n\nThere is no cure once woody. Use only parts that remain tender.\n\nPREVENT\n\nGrow steadily in fertile, moisture-retentive soil. Space correctly, water in dry spells and harvest young unless using a variety bred for large tender stems.\n\nALL LISTED CROPS\n\nWhite Blister (White Rust)\nRECOGNISE\n\nRaised white blisters, mainly beneath leaves, may also affect stems or flowers and distort growth.\n\nACT\n\nRemove affected leaves and reduce crowding.\n\nPREVENT\n\nAvoid repeating brassicas on the affected ground the following season.\n\nALL LISTED CROPS\n\nPigeons\nRECOGNISE\n\nSoft leaf tissue is stripped away, often leaving stalks and veins. Winter and early spring damage can be severe.\n\nACT\n\nCover vulnerable crops promptly; stripped leaves will not repair themselves.\n\nPREVENT\n\nKeep taut netting well clear of foliage and secure the edges. Check frequently for trapped wildlife.\n\nALL LISTED CROPS\n\nLeaf Spot (Ring Spot)\nRECOGNISE\n\nRinged leaf spots can yellow foliage and cause leaf fall; wet weather favours spread.\n\nACT\n\nRemove badly affected leaves and improve airflow.\n\nPREVENT\n\nRotate brassicas; avoid the affected site next season.\n\nVEGETABLE TROUBLES\n106",
+        "entries": [
+          {
+            "key": "woody_kohl_rabi",
+            "text": "KOHL RABI\n\nWoody Kohl Rabi\nRECOGNISE\n\nThe swollen stem becomes hard and fibrous after drought, crowding, slow growth or late harvest.\n\nACT\n\nThere is no cure once woody. Use only parts that remain tender.\n\nPREVENT\n\nGrow steadily in fertile, moisture-retentive soil. Space correctly, water in dry spells and harvest young unless using a variety bred for large tender stems.",
+            "heightPx": 220.546875,
+            "bottomPx": 383.859375,
+            "textEndPx": 383.859375,
+            "image": {
+              "src": "/images/troubles/brassica_troubles/woody_kohl_rabi-backfill-v1.png",
+              "width": 108,
+              "height": 126,
+              "blend": "multiply",
+              "shape": "url(\"http://127.0.0.1:5173/docs/publication/troubles-mask-study/masks/woody_kohl_rabi.svg\")",
+              "shapeMargin": "15.1181px",
+              "floatMargins": {
+                "top": "4.13725px",
+                "bottom": "5px",
+                "left": "13.3956px"
+              },
+              "loaded": true
+            }
+          },
+          {
+            "key": "white_blister_white_rust",
+            "text": "ALL LISTED CROPS\n\nWhite Blister (White Rust)\nRECOGNISE\n\nRaised white blisters, mainly beneath leaves, may also affect stems or flowers and distort growth.\n\nACT\n\nRemove affected leaves and reduce crowding.\n\nPREVENT\n\nAvoid repeating brassicas on the affected ground the following season.",
+            "heightPx": 190.546875,
+            "bottomPx": 582.40625,
+            "textEndPx": 582.40625,
+            "image": {
+              "src": "/images/troubles/cleaned/brassica_troubles/white_blister_white_rust-v1.png",
+              "width": 108,
+              "height": 126,
+              "blend": "multiply",
+              "shape": "url(\"http://127.0.0.1:5173/docs/publication/troubles-mask-study/masks/white_blister_white_rust.svg\")",
+              "shapeMargin": "15.1181px",
+              "floatMargins": {
+                "top": "2.15639px",
+                "bottom": "5px",
+                "left": "8px"
+              },
+              "loaded": true
+            }
+          },
+          {
+            "key": "pigeons",
+            "text": "ALL LISTED CROPS\n\nPigeons\nRECOGNISE\n\nSoft leaf tissue is stripped away, often leaving stalks and veins. Winter and early spring damage can be severe.\n\nACT\n\nCover vulnerable crops promptly; stripped leaves will not repair themselves.\n\nPREVENT\n\nKeep taut netting well clear of foliage and secure the edges. Check frequently for trapped wildlife.",
+            "heightPx": 205.546875,
+            "bottomPx": 368.859375,
+            "textEndPx": 368.859375,
+            "image": {
+              "src": "/images/troubles/cleaned/brassica_troubles/pigeons-v1.png",
+              "width": 108,
+              "height": 126,
+              "blend": "multiply",
+              "shape": "url(\"http://127.0.0.1:5173/docs/publication/troubles-mask-study/masks/pigeons.svg\")",
+              "shapeMargin": "15.1181px",
+              "floatMargins": {
+                "top": "2px",
+                "bottom": "5px",
+                "left": "8px"
+              },
+              "loaded": true
+            }
+          },
+          {
+            "key": "leaf_spot_ring_spot",
+            "text": "ALL LISTED CROPS\n\nLeaf Spot (Ring Spot)\nRECOGNISE\n\nRinged leaf spots can yellow foliage and cause leaf fall; wet weather favours spread.\n\nACT\n\nRemove badly affected leaves and improve airflow.\n\nPREVENT\n\nRotate brassicas; avoid the affected site next season.",
+            "heightPx": 180.078125,
+            "bottomPx": 601.9375,
+            "textEndPx": 582.40625,
+            "image": {
+              "src": "/images/troubles/cleaned/brassica_troubles/leaf_spot_ring_spot-v1.png",
+              "width": 108,
+              "height": 126,
+              "blend": "multiply",
+              "shape": "url(\"http://127.0.0.1:5173/docs/publication/troubles-mask-study/masks/leaf_spot_ring_spot.svg\")",
+              "shapeMargin": "15.1181px",
+              "floatMargins": {
+                "top": "2px",
+                "bottom": "5px",
+                "left": "8px"
+              },
+              "loaded": true
+            }
+          }
+        ],
+        "fonts": "loaded",
+        "footerClearanceMm": 69.75078125,
+        "columnTextEndDifferencePx": 0
+      },
+      "masks": [
+        {
+          "key": "woody_kohl_rabi",
+          "src": "/images/troubles/brassica_troubles/woody_kohl_rabi-backfill-v1.png",
+          "width": 108,
+          "height": 126,
+          "bounds": {
+            "left": 1.722488038277512,
+            "top": 10.980861244019138,
+            "bottom": 113.98564593301435
+          },
+          "discardedPixels": 1808,
+          "url": "http://127.0.0.1:5173/docs/publication/troubles-mask-study/masks/woody_kohl_rabi.svg",
+          "sha256": "6dc8ff0b0f3416bbd979dafb7519c71fdacf974b02ee397773bbbaf275b53791"
+        },
+        {
+          "key": "white_blister_white_rust",
+          "src": "/images/troubles/cleaned/brassica_troubles/white_blister_white_rust-v1.png",
+          "width": 108,
+          "height": 126,
+          "bounds": {
+            "left": 8.267942583732058,
+            "top": 12.961722488038278,
+            "bottom": 112.00478468899522
+          },
+          "discardedPixels": 216,
+          "url": "http://127.0.0.1:5173/docs/publication/troubles-mask-study/masks/white_blister_white_rust.svg",
+          "sha256": "88148231693fed4b8b8abbd78328e97f3c53d11928564d4610c999b59db04ac4"
+        },
+        {
+          "key": "pigeons",
+          "src": "/images/troubles/cleaned/brassica_troubles/pigeons-v1.png",
+          "width": 108,
+          "height": 126,
+          "bounds": {
+            "left": 7.83732057416268,
+            "top": 18.904306220095695,
+            "bottom": 108.04306220095694
+          },
+          "discardedPixels": 530,
+          "url": "http://127.0.0.1:5173/docs/publication/troubles-mask-study/masks/pigeons.svg",
+          "sha256": "46f9ba6e487d9b13e8d506520a0a5921f24961ebbca2025ac025f65a4c6b2659"
+        },
+        {
+          "key": "leaf_spot_ring_spot",
+          "src": "/images/troubles/cleaned/brassica_troubles/leaf_spot_ring_spot-v1.png",
+          "width": 108,
+          "height": 126,
+          "bounds": {
+            "left": 13.866028708133973,
+            "top": 14.942583732057416,
+            "bottom": 112.00478468899522
+          },
+          "discardedPixels": 4,
+          "url": "http://127.0.0.1:5173/docs/publication/troubles-mask-study/masks/leaf_spot_ring_spot.svg",
+          "sha256": "797d06c618832bfb472e9aa048d038e2c5ad610e3bb047c120a2c066aa529156"
+        }
+      ],
+      "wordingUnchanged": true,
+      "displayedArtworkUnchanged": true
+    }
+  ],
+  "protectedFilesUnchanged": true
+}

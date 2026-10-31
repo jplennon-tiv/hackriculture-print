@@ -1,0 +1,21 @@
+@import url('../draft.css');
+.cover-panel{margin-top:4mm;padding:4mm;background:var(--peach);border-radius:0 12px 0 12px}
+.cover-panel>h2{margin-bottom:3mm}
+.cover-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:4mm}
+.cover-grid .cover-art{height:23mm;margin-bottom:2.5mm}
+.cover-grid h3{margin-bottom:1.5mm}
+.comparison-caption{font-size:10.3px;line-height:1.3;color:#53613d;margin-top:3mm}
+.fruit-cage{margin-top:4mm}
+.fruit-cage>h2{margin-bottom:2.5mm}
+.cage-layout{display:grid;grid-template-columns:79mm 75mm;gap:6mm;align-items:center}
+.cage-art{height:52mm}
+.cage-layout figcaption{font-size:10.6px}
+.wildlife{background:var(--leaf);margin-top:4mm}
+.frame-rows{display:grid;gap:3mm;margin-top:3mm}
+.frame-row{display:grid;grid-template-columns:68mm 86mm;gap:6mm;align-items:center;padding-bottom:2mm;border-bottom:1px solid var(--rule)}
+.frame-row:last-child{padding-bottom:0;border-bottom:0}
+.frame-row .art{height:38mm}
+.frame-row:first-child .art{height:31mm}
+.frame-row figcaption{padding:0 1mm}
+.closing{background:var(--peach);margin-top:3mm}
+.sheet.frames h1{white-space:normal}

@@ -1,9 +1,12 @@
 # Growing Techniques subsections
 
 John requested the heading groups and removal of the two internal blank pages
-on **19 October 2026**. The current section runs from **145–163**; its 18 content
-pages run continuously from **146–163**. The book has **168 interior pages** plus
-four cover leaves, with the four-page index at **164–167**.
+on **19 October 2026**. This retained derivative contains 18 content pages with source folios
+**146–163**. The 30 October main-book integration inserts approved Netting and
+Supports at **160–163**, placing Watering at **164** and Greenhouses at **165–167**.
+The current book has **172 interior pages** plus four cover leaves; the index is
+**168–171**. The derivative stays unchanged: final assembly remaps its last four
+pages and replaces their footers. See the [main-book workflow](../whole-book-order-preview/README.md).
 
 [Heading definitions](../../../src/print/book/techniques-subsections.json) contain
 the exact requested replacements. Both rotation pages retain the same heading,
@@ -19,7 +22,7 @@ The cream paper is restored at any edge exposed by that horizontal movement.
 
 Removing old blank folios 150 and 162 makes some two-page topics cross a page
 turn. No new blanks are inserted. The entire two-page rotation still faces at
-148–149; the greenhouse continuation pages face at 162–163. All five double-
+148–149; the greenhouse continuation pages now face at 166–167. All five double-
 digging steps remain together, now on **157**, followed by single digging on **158**.
 
 With `start.command` serving the project on loopback:

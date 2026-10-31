@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-30",
+  "status": "Requested header removal checked; opener explanation for author review",
+  "pdfSha256": "6d0c21ba6626f41db7c199fece7edc43c9ae5e9b9337dce9ad2a4a1a8ad2fcd4",
+  "inspectedFolios": [
+    99,
+    100,
+    101,
+    106,
+    107,
+    126,
+    144
+  ],
+  "inspectedSpreads": [
+    "bean-and-pea-spread.jpg",
+    "brassica-spread.jpg"
+  ],
+  "liveExportInspected": "tmp/pdfs/troubles-header-refinement/live-carrot.png",
+  "findings": [
+    "Page-level sequence absent on opening, continuation and crop-legend examples",
+    "Small inline advice labels retained and clearly readable",
+    "Diagnostic artwork complete and body positions unchanged",
+    "Existing sparse-page spacing remains; no repacking performed",
+    "Opener explanation fits in two lines at its original 12.75 pt reading size; original title, strapline and artwork retained"
+  ],
+  "mainBookChanged": false,
+  "tests": {
+    "routineSuite": {
+      "passed": 43
+    },
+    "compactPdfSuite": {
+      "passed": 5
+    }
+  },
+  "limits": [
+    "Full section proof is imperial; live compact checks cover Carrot/Parsnip both units and Brassica imperial",
+    "Section opener wording remains proposed; contents and category-name approvals are separate"
+  ]
+}

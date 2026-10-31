@@ -1,0 +1,11 @@
+/* Separate review proposal; the approved book styles remain unchanged. */
+@import url('/docs/publication/combined-guides-opening/opening.css');
+.opening-title{height:26mm;padding-right:56mm}
+.opening-title h1{font-size:46px;line-height:1}
+.opening-title>img{top:-4mm;width:51mm;height:33mm}
+.category-key{margin-top:2mm}
+.category-key h2{font:400 19px/1.1 Lilita;margin:0 0 1.5mm}
+.category-colours{display:grid;grid-template-columns:repeat(4,1fr);gap:1.5mm 3mm}
+.category-colours div{display:flex;align-items:center;gap:1.7mm;font:900 12.7px/1.2 Nunito;white-space:nowrap;color:var(--deep)}
+.category-colours i{display:block;flex:none;width:5mm;height:3.5mm;border-radius:.8mm;background:var(--deep)}
+.how-panel{margin-top:3mm}

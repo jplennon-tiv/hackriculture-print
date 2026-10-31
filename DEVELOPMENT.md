@@ -209,29 +209,39 @@ The working book renderer handles natural variety rows and multi-row Final Tips.
 Overflowing overview blocks follow practical advice, preserving the page-two
 title/reminder relationship. A terminal gap can reduce by up to 6 px, with at
 least 2 px separation, to avoid an orphaned whole block; text size is unchanged.
-Troubles measures each complete entry at the real column width, then chooses
-ordered page/column breaks together. A memoised search minimises page count
-first; the production profile next avoids unnecessary singleton columns,
-minimises the largest estimated inter-entry gap required for aligned column
-text, then balances spare space. This avoids
-repeated 3+2 splits chosen merely to equalise page totals, and avoids a greedy
-3+0 or 2+0 final page. There is no entry quota. Some odd splits still have large
-gaps when source order and the minimum page count leave no better arrangement.
-All entry identities, wording and images remain in order. It then aligns measured final text lines,
-allowing for the float's tail. Sparse pages with a single-entry column keep
-natural heights and record an explicit alignment exception; their contents are
-not padded to force matching lower edges. Footer checks measure visible entries
-rather than an invisible trailing margin.
-Production final pages also retain natural lower edges when forced inter-entry
-spacing would exceed the height of a diagnostic illustration; that exception is
-explicit in the receipt. Long repeated full-group crop lists may use an
-"All listed crops" label only when the complete membership is printed in a
-legend on every page. Partial applicability remains literal. Legend-bearing
-continuation headers grow naturally, and a collision check keeps the legend
-above Recognise / Act / Prevent. These rules have now been applied and visually checked on all 14 groups in
-both units in the coherent production build. Current hash-bound findings,
-including retained spacing exceptions, are in `VISUAL-PRODUCTION.json`.
-All these changes are confined to the book profile.
+Troubles measures whole entries at their actual column width. The current book
+policy is [natural flow with trailing space](docs/BOOK-PRINT-STYLE.md#troubles).
+The bounded [Brassica runner](scripts/build-brassica-flow-preview.mjs) opts into
+`prepareCompactBook(..., production, {masks})` for this review only. It verifies
+source-image and mask SHA256 values, requires one mask per illustrated entry,
+preloads every SVG, applies the approved 135 × 157.5 px / 4 mm treatment, then
+measures. `troubleFlow.ts` also reclaims the obsolete header navigation space.
+The planner minimises page count, maximises the earliest feasible page's ordered
+entry prefix, then fills its left column first. Natural 8 px gaps replace forced
+last-line alignment on every page, including the final one. No entries are split,
+reordered or removed. A large gap is acceptable only when the next complete entry
+cannot fit; the proof report records the actual case. Footer checks measure the
+visible entries enclosing both text and floated art.
+
+This explicit opt-in keeps ordinary exports and other guides unchanged while
+John reviews the complete Brassica composition. The existing default planner's
+whole-guide balancing is compatibility behaviour, **not the rule for new book
+work**. Replace that default at the authorised rollout; do not copy its stretch
+objectives into another guide. The [Brassica report](docs/publication/brassica-flow-preview/README.md)
+owns reproducible commands, source bindings, both-unit checks and review status.
+Do not run the completed collection-preparation batch for this focused preview.
+
+Long repeated full-group crop lists may use an "All listed crops" label only
+when the complete membership is printed in a legend on every page. Partial
+applicability stays literal. John's 30 October request removes the repeated
+Recognise / Act / Prevent arrowed line from compact page headers; inline advice
+labels remain. Historical collection checks in `VISUAL-PRODUCTION.json` describe
+the older layouts, not visual approval of this new flow.
+
+The [30 October focused proof](docs/publication/troubles-header-refinement/README.md)
+removes that line from all 45 saved imperial Troubles pages without reflow.
+Live API checks cover Carrot/Parsnip in both units, Brassica imperial and an
+unchanged A4 control; no catalogue export was used.
 
 The **unapproved production draft** adds `--supplier=kdp|bookvault` to that runner,
 with an explicit physical `--start=8` (default: reserve seven opening pages).
@@ -304,13 +314,16 @@ the current full-book assembly route.
 
 **Current book assembly:** `npm run book:preview` is the single current full-book
 route. It reuses the approved baseline and component PDFs, builds two illustrated
-contents pages (81 destinations) and the four-page index (286 entries / 35 see
+contents pages (83 destinations) and the four-page index (297 entries / 35 see
 references), refreshes reference footers, verifies native bodies and PDF links,
 and renders the facing-page viewer. No guide catalogue export is performed.
 The [whole-book workflow](docs/publication/whole-book-order-preview/README.md)
-records its exact inputs and checks. The current interior is 170 pages; the
-complete screen PDF has 174 pages including covers. Techniques occupy 145–165,
-with approved blanks 150/162, and the index occupies 166–169.
+records its exact inputs and checks. The current interior is 172 pages; the
+complete screen PDF has 176 pages including covers. Techniques occupy 145–167,
+without internal blanks, and the index occupies 168–171. Vegetables at 10–97
+are alphabetised by displayed title; family metadata and page colours remain.
+The assembler moves intact native facing pairs, refreshes footers and patches
+the two crop-reference ranges in Techniques using their embedded fonts.
 
 `book:contents` builds both-unit contents and the placement plan;
 `book:index` builds the current integrated index. `scripts/lib/approved-reader-integration.mjs`

@@ -28,7 +28,7 @@ with the full collection. This is the web generator default. Follow the
 and section relationships, and [Compact Book v1](docs/BOOK-PRINT-STYLE.md) for
 detailed guide composition; preserve its frozen references,
 enlarged hero, coloured circle, top-right difficulty sticker, reminder banner
-and aligned Troubles text edges. Three/four-page crops are allowed to preserve
+and the current Troubles wrapping/flow rules. Three/four-page crops are allowed to preserve
 useful content. Guide design approval is not full-book or supplier approval.
 
 Before adapting any component, identify its approved source in the

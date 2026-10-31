@@ -6,7 +6,7 @@ import {build} from 'esbuild';
 import {bookLayoutRevision} from '../../hackriculture-data/lib/book-layout.mjs';
 import {root, sharedRoot, sha256, readBookContent} from './lib/book-content.mjs';
 import {createContentsPlan, renderUpdatedContents, contentsArtwork} from './lib/book-contents.mjs';
-import {applyApprovedTopics, loadReaderGuides, sectionReceipt, readerReceipt} from './lib/approved-reader-integration.mjs';
+import {applyApprovedTopics, loadReaderGuides, sectionReceipt, readerReceipt, plantCareApprovals} from './lib/approved-reader-integration.mjs';
 import {loadApprovedTwoPageGuides, approvedGuideReceipt} from './lib/approved-two-page-guides.mjs';
 
 const dir='docs/publication/contents-update', out='output/pdf/contents-update';
@@ -26,7 +26,7 @@ const collection=json('docs/publication/topic-pages/techniques-expansion/COLLECT
 const cultivation=json('docs/publication/topic-pages/cultivation-dig-no-dig/APPROVAL.json');
 const index=json('docs/publication/book-index/APPROVAL.json');
 const approvals=json('docs/redesign-rollout/APPROVAL.json');
-const protectedFiles=[...approvals.compactEntryPages.files,...collection.files,...cultivation.files,...index.files];
+const protectedFiles=[...approvals.compactEntryPages.files,...collection.files,...cultivation.files,...index.files,...plantCareApprovals.flatMap(p=>json(p).files)];
 const verifyProtected=()=>{for(const f of protectedFiles)if(sha256(fs.readFileSync(path.resolve(root,f.path)))!==f.sha256)throw Error('Approved reference changed: '+f.path);};
 verifyProtected();
 const sources={}, inputs={};
@@ -50,16 +50,16 @@ for(const [p,item] of Object.entries(inputs))if(counts[p]!==item.pages)throw Err
 const approvedGuides=loadApprovedTwoPageGuides();
 applyApprovedTopics(sources);
 const {plan,topicMap}=createContentsPlan(basePlan,sources,approvedGuides.editions,loadReaderGuides());
-plan.currentApprovals={sectionReceipt,readerReceipt};
+plan.currentApprovals={sectionReceipt,readerReceipt,plantCareApprovals};
 plan.approvedGuides={path:approvedGuideReceipt,inputs:approvedGuides.inputs};
 plan.basePlan={path:basePath,sha256:sha256(fs.readFileSync(path.join(root,basePath)))};
-plan.limits=['John requested subsection headings and removal of both internal Techniques blanks on 19 October 2026.','168 interior pages; imperial full-book preview, not a final production/cost/spine specification.','Both-unit reference mapping is checked; no full metric book is assembled.','Frozen source PDFs remain unchanged.'];
+plan.limits=['John approved Netting and Supports and requested book integration on 30 October 2026.','172 interior pages; imperial full-book preview, not a final production/cost/spine specification.','Both-unit reference mapping is checked; no full metric book is assembled.','Frozen source PDFs and ordered Bookvault proof files remain unchanged.'];
 write(dir+'/ASSEMBLY-PROPOSAL.json',plan);write(dir+'/TOPIC-FOLIOS.json',topicMap);
 const themes=json('src/print/familyThemes.json');
 const bundle=await build({entryPoints:[path.join(root,'src/print/book/production.ts')],bundle:true,platform:'node',format:'esm',packages:'external',write:false});
 const modulePath=path.join(root,'tmp/pdfs/contents-update/production.mjs');fs.writeFileSync(modulePath,bundle.outputFiles[0].contents);
 const {finishProductionPages}=await import(modulePath);
-const checks={date:'2026-10-19',status:'Approved two-page contents with refreshed references: PDF/visual check pending',bookRevision:book.revision,copyInputs:book.inputs,sourcePdfs:inputs,approvedGuideInputs:approvedGuides.inputs,protectedFiles,artwork,fullBookRegenerated:false,guidePdfsRegenerated:false,results:[]};
+const checks={date:'2026-10-30',status:'Two-page contents including approved Netting and Supports: PDF/visual check pending',bookRevision:book.revision,copyInputs:book.inputs,sourcePdfs:inputs,approvedGuideInputs:approvedGuides.inputs,protectedFiles,artwork,fullBookRegenerated:false,guidePdfsRegenerated:false,results:[]};
 const browser=await chromium.launch();
 try{
  const page=await browser.newPage();await page.route('**/@vite/client',r=>r.abort());

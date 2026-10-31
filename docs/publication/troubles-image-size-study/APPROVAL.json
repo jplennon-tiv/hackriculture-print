@@ -1,0 +1,46 @@
+{
+  "approvedOn": "2026-10-31",
+  "approvedBy": "John",
+  "approvalText": "This system works well. I think we can use it in these proportions on all the troubles pages.",
+  "scope": "Separate wrapping masks, 4 mm shape-margin and 25% larger diagnostic illustration boxes for the book Troubles guides. Does not approve unrendered pages, final pagination or supplier output.",
+  "settings": {
+    "shapeMarginMm": 4,
+    "imageBoxCssPx": [
+      135,
+      157.5
+    ],
+    "imageScaleFromPrior": 1.25,
+    "sourceArtworkPreserved": true
+  },
+  "implementation": "Image treatment approved. The full Brassica implementation and trailing-space proof are documented in docs/publication/brassica-flow-preview/README.md. Other guides and main-book integration remain pending; this approval does not approve those compositions.",
+  "files": [
+    {
+      "path": "output/pdf/troubles-image-size-study/brassica-larger-images-comparison.pdf",
+      "sha256": "6c7c917c5210d5d763b6364cc9ea5af162c16f5c2f1517a0b61bf4cd36522fea"
+    },
+    {
+      "path": "docs/publication/troubles-image-size-study/imperial-larger.html",
+      "sha256": "410eaee828ca437bcfd6cdbc659fd58ee7ae43ea8fe62426b6a3bcfa1e2733b4"
+    },
+    {
+      "path": "docs/publication/troubles-image-size-study/metric-larger.html",
+      "sha256": "051b05e9469f7b18ad68e12c5485c81312b69bb9e3a6dcc7810c7ee6daeda27a"
+    },
+    {
+      "path": "docs/publication/troubles-mask-study/masks/leaf_spot_ring_spot.svg",
+      "sha256": "797d06c618832bfb472e9aa048d038e2c5ad610e3bb047c120a2c066aa529156"
+    },
+    {
+      "path": "docs/publication/troubles-mask-study/masks/pigeons.svg",
+      "sha256": "46f9ba6e487d9b13e8d506520a0a5921f24961ebbca2025ac025f65a4c6b2659"
+    },
+    {
+      "path": "docs/publication/troubles-mask-study/masks/white_blister_white_rust.svg",
+      "sha256": "88148231693fed4b8b8abbd78328e97f3c53d11928564d4610c999b59db04ac4"
+    },
+    {
+      "path": "docs/publication/troubles-mask-study/masks/woody_kohl_rabi.svg",
+      "sha256": "6dc8ff0b0f3416bbd979dafb7519c71fdacf974b02ee397773bbbaf275b53791"
+    }
+  ]
+}

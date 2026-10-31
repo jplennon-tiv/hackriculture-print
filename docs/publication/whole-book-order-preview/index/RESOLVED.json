@@ -1,79 +1,31 @@
 {
   "status": "Current integrated references from approved sources",
-  "sourceRevision": "2ca0dc0cb0d52ff2ca61a931dada1ca9f4ed00ca37838728370c4edbfbc118fb",
+  "sourceRevision": "7ebeb1335ce429d09fce1ed0c545b783fe54cf465b9825bd0ec64a5fb1e5a148",
   "copyPath": "/Users/johnlennon/Documents/web_site/hackriculture-data/book-layout/index.json",
-  "copySha256": "bd46f866272a7ede4bb8e15c1c0cabbdc684095a0bc018c2064f27a245cba35f",
+  "copySha256": "a2022a1b4b1c23a9823ffd403289c00b3fd66f6f302eecbbbe089889b1e43c26",
   "assemblyPlan": {
     "path": "docs/publication/contents-update/ASSEMBLY-PROPOSAL.json",
-    "sha256": "d8677f7fa8276b1906aa283e9abdb4d4532015fb76d1e581bb31ea6880006204"
+    "sha256": "5fd26a9fc3f440aa6870d95cf5825ac77e1b3c43edfd71538dd1bd48880e5a54"
   },
   "temporaryTopicReferences": false,
   "identicalEditionReferences": true,
   "heading": "Index",
   "introduction": "Find a crop, a problem or a practical technique.",
   "inputs": {
+    "output/pdf/book-preparation/bookvault/imperial/vegetable_artichoke_globe.pdf": {
+      "sha256": "e807849aa3a23d1863a81ade29b8c2e2ee599dc3795c8fe84ad5ce2a0ac4c8c8",
+      "pages": 2
+    },
     "output/pdf/book-preparation/bookvault/imperial/vegetable_artichoke_jerusalem.pdf": {
       "sha256": "d11a402762d095bf8e8983854ef4576bba10cfb311d3e79976e31a136713a706",
       "pages": 2
     },
-    "output/pdf/book-preparation/bookvault/imperial/vegetable_beetroot.pdf": {
-      "sha256": "95d154ef7506c10d329e70205065328172529805e737b18fbf0be8c2098e39f6",
+    "output/pdf/reader-edit-pass/guides/asparagus-imperial-clean.pdf": {
+      "sha256": "1eca6b391ae99dee15eb8dcafcedc3a2c6148f2df5d4611e651bc837ca971815",
       "pages": 2
     },
-    "output/pdf/reader-edit-pass/guides/carrot-imperial-clean.pdf": {
-      "sha256": "ea76ab3642d2e626c1029cc656b6ecb71386b6e5f2cf0e377f2ed45cda8c81b0",
-      "pages": 2
-    },
-    "output/pdf/reader-edit-pass/guides/celeriac-imperial-clean.pdf": {
-      "sha256": "4f82918e59b9890f56e5425cee9166964027c8faec4aa999426be2fda72ead4b",
-      "pages": 2
-    },
-    "output/pdf/book-preparation/bookvault/imperial/vegetable_kohl_rabi.pdf": {
-      "sha256": "94f552318e37b8bfe34cbd8904533761135d8f68a1a37977c71ef1b9f9081b48",
-      "pages": 2
-    },
-    "output/pdf/book-preparation/bookvault/imperial/vegetable_parsnip.pdf": {
-      "sha256": "b06c8d740ae5107442fe0c1e65c7ea07857d1c95493f836cb7c9cb229ae8e399",
-      "pages": 2
-    },
-    "output/pdf/book-preparation/bookvault/imperial/vegetable_potato.pdf": {
-      "sha256": "81137ba555c27cc798a88d27cc5498c80eac6c545fc4444378ecdd8652155f73",
-      "pages": 2
-    },
-    "output/pdf/book-preparation/bookvault/imperial/vegetable_radish.pdf": {
-      "sha256": "227988c4f43a2d0e42f59bed0a22ea1a1501984ac5a9c4ac46998251d01ad99c",
-      "pages": 2
-    },
-    "output/pdf/book-preparation/bookvault/imperial/vegetable_salsify_scorzonera.pdf": {
-      "sha256": "cc7e3bfb387a94b4d5d93d6eed2b821dc2f5a810baad52e2ab2fcff815c87ab5",
-      "pages": 2
-    },
-    "output/pdf/book-preparation/bookvault/imperial/vegetable_swede.pdf": {
-      "sha256": "92b73d4fe586ac0176fadad749fa6ed0e0f949378eeb3c25e17cbff8bd14b006",
-      "pages": 2
-    },
-    "output/pdf/book-preparation/bookvault/imperial/vegetable_turnip.pdf": {
-      "sha256": "6d7d93a961bccadb48052cfe61392c96b256c5d97afd6064c6c4c59538c53662",
-      "pages": 2
-    },
-    "output/pdf/book-preparation/bookvault/imperial/vegetable_broccoli.pdf": {
-      "sha256": "74faa6079a518d161a7ab979930ce4f1b7801a504cbd9007503723ec3e4f003c",
-      "pages": 2
-    },
-    "output/pdf/book-preparation/bookvault/imperial/vegetable_brussels_sprouts.pdf": {
-      "sha256": "c846fd779297cd965e114670949f90acf5bdf800da969d5db9d33fbce8624821",
-      "pages": 2
-    },
-    "output/pdf/reader-edit-pass/guides/cabbage-imperial-clean.pdf": {
-      "sha256": "60cd9ffe1a08b761bc5f2c6d6b48b47e23b46c7172df32af57faf1a23eee40a1",
-      "pages": 2
-    },
-    "output/pdf/book-preparation/bookvault/imperial/vegetable_cauliflower.pdf": {
-      "sha256": "e1f34d8253b7e37d0de4a5c5e7e671b09e1f1eedcdf4c294a8a14b177791165c",
-      "pages": 2
-    },
-    "output/pdf/book-preparation/bookvault/imperial/vegetable_kale.pdf": {
-      "sha256": "1830b04169e32962899f32114bdac03a96642cae4ab481fab5829171481dace8",
+    "output/pdf/book-preparation/bookvault/imperial/vegetable_aubergine.pdf": {
+      "sha256": "a4b712b6616b4ac834796ae34aef53fda1069963323cf84f413f60385581bf0a",
       "pages": 2
     },
     "output/pdf/book-preparation/bookvault/imperial/vegetable_bean_broad.pdf": {
@@ -88,52 +40,48 @@
       "sha256": "3c4cfbde2864e1786ff4a94fc3eda0292352dab9c40a918475eea1d7a4cd28d5",
       "pages": 2
     },
-    "output/pdf/book-preparation/bookvault/imperial/vegetable_pea.pdf": {
-      "sha256": "e1d3a663df6aa28e29955ae017b9cb3bf3ba39f3cca6ee874fbdd9fbeb7c1441",
-      "pages": 2
-    },
     "output/pdf/book-preparation/bookvault/imperial/vegetable_beet_leaf.pdf": {
       "sha256": "b72fa841074d004dc06571ab0937dbda0442c3d4c880ba7ffd5ade001b199f12",
       "pages": 2
     },
-    "output/pdf/book-preparation/bookvault/imperial/vegetable_chicory.pdf": {
-      "sha256": "7b3a96198eb0f396de495307b84e1137aeac45c981d4d40aed33dc089513a6d3",
+    "output/pdf/book-preparation/bookvault/imperial/vegetable_beetroot.pdf": {
+      "sha256": "95d154ef7506c10d329e70205065328172529805e737b18fbf0be8c2098e39f6",
       "pages": 2
     },
-    "output/pdf/book-preparation/bookvault/imperial/vegetable_endive.pdf": {
-      "sha256": "507a1725c8089106d91604e23e24277043f09a73f4c4ce52a76a505c4afe8705",
+    "output/pdf/book-preparation/bookvault/imperial/vegetable_broccoli.pdf": {
+      "sha256": "74faa6079a518d161a7ab979930ce4f1b7801a504cbd9007503723ec3e4f003c",
       "pages": 2
     },
-    "output/pdf/reader-edit-pass/guides/lettuce-imperial-clean.pdf": {
-      "sha256": "74ca827d14bcc3efd90cd9a066d918b868cbd0396b18eae6cbc95645cd67e8ff",
+    "output/pdf/book-preparation/bookvault/imperial/vegetable_brussels_sprouts.pdf": {
+      "sha256": "c846fd779297cd965e114670949f90acf5bdf800da969d5db9d33fbce8624821",
       "pages": 2
     },
-    "output/pdf/book-preparation/bookvault/imperial/vegetable_oriental_leaves.pdf": {
-      "sha256": "e5e219877aeab52e68df1bf33029283c9c7a40c1c8f3628fa6cd77e2dc3b256e",
-      "pages": 2
-    },
-    "output/pdf/book-preparation/bookvault/imperial/vegetable_spinach.pdf": {
-      "sha256": "b6191e4a46e7cb8ce51cc501a12e3b4bee4674078c82914307164d54ccfabb8b",
-      "pages": 2
-    },
-    "output/pdf/book-preparation/bookvault/imperial/vegetable_garlic.pdf": {
-      "sha256": "0a394b1ed5a2ea53112b4c250ac59d061747e7aa778579b19bfc86289518c954",
-      "pages": 2
-    },
-    "output/pdf/reader-edit-pass/guides/leek-imperial-clean.pdf": {
-      "sha256": "ccd2438879f2c7591fd0324a906000b84db534ba13cff8583dd848711ddee6c0",
-      "pages": 2
-    },
-    "output/pdf/approved-two-page-guides/imperial/onions_and_shallots.pdf": {
-      "sha256": "449953590230c359cf2a5d1218670e54142797d68495d4a6d9099c7763b7a40a",
-      "pages": 2
-    },
-    "output/pdf/book-preparation/bookvault/imperial/vegetable_aubergine.pdf": {
-      "sha256": "a4b712b6616b4ac834796ae34aef53fda1069963323cf84f413f60385581bf0a",
+    "output/pdf/reader-edit-pass/guides/cabbage-imperial-clean.pdf": {
+      "sha256": "60cd9ffe1a08b761bc5f2c6d6b48b47e23b46c7172df32af57faf1a23eee40a1",
       "pages": 2
     },
     "output/pdf/book-preparation/bookvault/imperial/vegetable_capsicum.pdf": {
       "sha256": "50e5b14edc4b0e20001c4008041498b1ab31243cbf991fccb975b86c1bfcda53",
+      "pages": 2
+    },
+    "output/pdf/reader-edit-pass/guides/carrot-imperial-clean.pdf": {
+      "sha256": "ea76ab3642d2e626c1029cc656b6ecb71386b6e5f2cf0e377f2ed45cda8c81b0",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/imperial/vegetable_cauliflower.pdf": {
+      "sha256": "e1f34d8253b7e37d0de4a5c5e7e671b09e1f1eedcdf4c294a8a14b177791165c",
+      "pages": 2
+    },
+    "output/pdf/reader-edit-pass/guides/celeriac-imperial-clean.pdf": {
+      "sha256": "4f82918e59b9890f56e5425cee9166964027c8faec4aa999426be2fda72ead4b",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/imperial/vegetable_celery.pdf": {
+      "sha256": "449215dc40d48a6b7fa3696bfeb72e5cbe6104f7881498e84d04f8c9b2b3068d",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/imperial/vegetable_chicory.pdf": {
+      "sha256": "7b3a96198eb0f396de495307b84e1137aeac45c981d4d40aed33dc089513a6d3",
       "pages": 2
     },
     "output/pdf/reader-edit-pass/guides/marrow_courgette-imperial-clean.pdf": {
@@ -148,8 +96,80 @@
       "sha256": "c09767cc7f9dd1bcfc6c2c41d2ec8271b025673211269b182eb2fce8585a3214",
       "pages": 2
     },
+    "output/pdf/book-preparation/bookvault/imperial/vegetable_endive.pdf": {
+      "sha256": "507a1725c8089106d91604e23e24277043f09a73f4c4ce52a76a505c4afe8705",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/imperial/vegetable_florence_fennel.pdf": {
+      "sha256": "e82240c4c3704f3569f1d1e6e086c6cc4a1e42bc2564e4eae4a7c3e284633112",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/imperial/vegetable_garlic.pdf": {
+      "sha256": "0a394b1ed5a2ea53112b4c250ac59d061747e7aa778579b19bfc86289518c954",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/imperial/vegetable_kale.pdf": {
+      "sha256": "1830b04169e32962899f32114bdac03a96642cae4ab481fab5829171481dace8",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/imperial/vegetable_kohl_rabi.pdf": {
+      "sha256": "94f552318e37b8bfe34cbd8904533761135d8f68a1a37977c71ef1b9f9081b48",
+      "pages": 2
+    },
+    "output/pdf/reader-edit-pass/guides/leek-imperial-clean.pdf": {
+      "sha256": "ccd2438879f2c7591fd0324a906000b84db534ba13cff8583dd848711ddee6c0",
+      "pages": 2
+    },
+    "output/pdf/reader-edit-pass/guides/lettuce-imperial-clean.pdf": {
+      "sha256": "74ca827d14bcc3efd90cd9a066d918b868cbd0396b18eae6cbc95645cd67e8ff",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/imperial/vegetable_mushroom.pdf": {
+      "sha256": "d3afb61408bd008e7f9e4d7d257656d5545860abf9a197c6f731a50e3896f53c",
+      "pages": 2
+    },
+    "output/pdf/approved-two-page-guides/imperial/onions_and_shallots.pdf": {
+      "sha256": "449953590230c359cf2a5d1218670e54142797d68495d4a6d9099c7763b7a40a",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/imperial/vegetable_oriental_leaves.pdf": {
+      "sha256": "e5e219877aeab52e68df1bf33029283c9c7a40c1c8f3628fa6cd77e2dc3b256e",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/imperial/vegetable_parsnip.pdf": {
+      "sha256": "b06c8d740ae5107442fe0c1e65c7ea07857d1c95493f836cb7c9cb229ae8e399",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/imperial/vegetable_pea.pdf": {
+      "sha256": "e1d3a663df6aa28e29955ae017b9cb3bf3ba39f3cca6ee874fbdd9fbeb7c1441",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/imperial/vegetable_potato.pdf": {
+      "sha256": "81137ba555c27cc798a88d27cc5498c80eac6c545fc4444378ecdd8652155f73",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/imperial/vegetable_radish.pdf": {
+      "sha256": "227988c4f43a2d0e42f59bed0a22ea1a1501984ac5a9c4ac46998251d01ad99c",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/imperial/vegetable_rhubarb.pdf": {
+      "sha256": "e4424962caf0f1c3a3bcd4c2d0abd05ae414b3954aa81a7f668fe66155ed4c0e",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/imperial/vegetable_salsify_scorzonera.pdf": {
+      "sha256": "cc7e3bfb387a94b4d5d93d6eed2b821dc2f5a810baad52e2ab2fcff815c87ab5",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/imperial/vegetable_spinach.pdf": {
+      "sha256": "b6191e4a46e7cb8ce51cc501a12e3b4bee4674078c82914307164d54ccfabb8b",
+      "pages": 2
+    },
     "output/pdf/book-preparation/bookvault/imperial/vegetable_squashes_and_pumpkins.pdf": {
       "sha256": "1f2fe759b966a1b0fe1b3e37d3f3e4626976a637ff4f924d228da146e97ed176",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/imperial/vegetable_swede.pdf": {
+      "sha256": "92b73d4fe586ac0176fadad749fa6ed0e0f949378eeb3c25e17cbff8bd14b006",
       "pages": 2
     },
     "output/pdf/book-preparation/bookvault/imperial/vegetable_sweet_corn.pdf": {
@@ -164,28 +184,8 @@
       "sha256": "ee4b3a78b6b4e73ed1d46b29a363fc8d410dd143c707ba347ce827f0d03c901d",
       "pages": 2
     },
-    "output/pdf/book-preparation/bookvault/imperial/vegetable_artichoke_globe.pdf": {
-      "sha256": "e807849aa3a23d1863a81ade29b8c2e2ee599dc3795c8fe84ad5ce2a0ac4c8c8",
-      "pages": 2
-    },
-    "output/pdf/reader-edit-pass/guides/asparagus-imperial-clean.pdf": {
-      "sha256": "1eca6b391ae99dee15eb8dcafcedc3a2c6148f2df5d4611e651bc837ca971815",
-      "pages": 2
-    },
-    "output/pdf/book-preparation/bookvault/imperial/vegetable_celery.pdf": {
-      "sha256": "449215dc40d48a6b7fa3696bfeb72e5cbe6104f7881498e84d04f8c9b2b3068d",
-      "pages": 2
-    },
-    "output/pdf/book-preparation/bookvault/imperial/vegetable_florence_fennel.pdf": {
-      "sha256": "e82240c4c3704f3569f1d1e6e086c6cc4a1e42bc2564e4eae4a7c3e284633112",
-      "pages": 2
-    },
-    "output/pdf/book-preparation/bookvault/imperial/vegetable_rhubarb.pdf": {
-      "sha256": "e4424962caf0f1c3a3bcd4c2d0abd05ae414b3954aa81a7f668fe66155ed4c0e",
-      "pages": 2
-    },
-    "output/pdf/book-preparation/bookvault/imperial/vegetable_mushroom.pdf": {
-      "sha256": "d3afb61408bd008e7f9e4d7d257656d5545860abf9a197c6f731a50e3896f53c",
+    "output/pdf/book-preparation/bookvault/imperial/vegetable_turnip.pdf": {
+      "sha256": "6d7d93a961bccadb48052cfe61392c96b256c5d97afd6064c6c4c59538c53662",
       "pages": 2
     },
     "output/pdf/book-preparation/bookvault/imperial/trouble_bean_and_pea_troubles.pdf": {
@@ -260,68 +260,28 @@
       "sha256": "fe072b70b68703cc80d484f06968e52bd14dbb74a9c67a8a6f30dea0b26546a4",
       "pages": 18
     },
+    "output/pdf/topic-pages/netting-revised-draft.pdf": {
+      "sha256": "f059d4b961f8e597975546044deff9342079d2993c9ad3387e78aacdeb5f8032",
+      "pages": 2
+    },
+    "output/pdf/topic-pages/supports-revised-draft.pdf": {
+      "sha256": "aff9299b7f067b39fbe4c44a1e0922a5ba4d5f8929ba747e61bf3a86411f5ebc",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/metric/vegetable_artichoke_globe.pdf": {
+      "sha256": "db407b2dece9b88b591e27d4c8bbe641c1aaa7c16c53c4184b1fd315dd32bd62",
+      "pages": 2
+    },
     "output/pdf/book-preparation/bookvault/metric/vegetable_artichoke_jerusalem.pdf": {
       "sha256": "455de2408cbcd5e68d96cdeb0148f3245bdaa87b960ba3659fdbbecec1021697",
       "pages": 2
     },
-    "output/pdf/book-preparation/bookvault/metric/vegetable_beetroot.pdf": {
-      "sha256": "faed83b50ce4389d0ce88037e27e249d9c8c7e4eb1de39b7a562c2cbc6529bce",
+    "output/pdf/reader-edit-pass/guides/asparagus-metric-clean.pdf": {
+      "sha256": "10b519080d5d219a922cd1aaada76c14106c8beab13098a72f77e2d05656a335",
       "pages": 2
     },
-    "output/pdf/reader-edit-pass/guides/carrot-metric-clean.pdf": {
-      "sha256": "392b1087b4b5aa49940e5687b9b26959465bed1d87fffffdfe42ffb30a3de6d3",
-      "pages": 2
-    },
-    "output/pdf/reader-edit-pass/guides/celeriac-metric-clean.pdf": {
-      "sha256": "76d0f6deccb2542ccc9fec5fb27124bbe71d024abbbe829a5c19b84dc6b01b79",
-      "pages": 2
-    },
-    "output/pdf/book-preparation/bookvault/metric/vegetable_kohl_rabi.pdf": {
-      "sha256": "703802f33dd9a1560049cda1e47167ab90e669b1f8b6eb3b8e46b42ef5a60998",
-      "pages": 2
-    },
-    "output/pdf/book-preparation/bookvault/metric/vegetable_parsnip.pdf": {
-      "sha256": "bcf372d09b5c9ad347f04408d5be98939e95e0039035dc2dfdb65be14d885620",
-      "pages": 2
-    },
-    "output/pdf/book-preparation/bookvault/metric/vegetable_potato.pdf": {
-      "sha256": "25102b38571a0b2d1683d271d2213723c2979d04cc337d0033e92a7f8ef232f3",
-      "pages": 2
-    },
-    "output/pdf/book-preparation/bookvault/metric/vegetable_radish.pdf": {
-      "sha256": "f0d34fd493c1c5baa6b770b3d6e291eec6e07b68159dfeecfd8bc7c6826890b4",
-      "pages": 2
-    },
-    "output/pdf/book-preparation/bookvault/metric/vegetable_salsify_scorzonera.pdf": {
-      "sha256": "91d8ef178e489ddde846f0e9397a6716335f5b0ec125b717092be7999dc4993a",
-      "pages": 2
-    },
-    "output/pdf/book-preparation/bookvault/metric/vegetable_swede.pdf": {
-      "sha256": "752aa2573587345d08adb2604a9e74c9f489223fecc547608387584349ddb096",
-      "pages": 2
-    },
-    "output/pdf/book-preparation/bookvault/metric/vegetable_turnip.pdf": {
-      "sha256": "0e365077c078b91701afbfcc2df7842ca211741008790eab784fe8992e121ae2",
-      "pages": 2
-    },
-    "output/pdf/book-preparation/bookvault/metric/vegetable_broccoli.pdf": {
-      "sha256": "0594530cdb39c9565c96918798cd93c5d3fe418c4e883afa3db833d3c9120d51",
-      "pages": 2
-    },
-    "output/pdf/book-preparation/bookvault/metric/vegetable_brussels_sprouts.pdf": {
-      "sha256": "08207f283e98088568609990f2ad6f2266baac65fe6c4193c20fe2ffdfc4d230",
-      "pages": 2
-    },
-    "output/pdf/reader-edit-pass/guides/cabbage-metric-clean.pdf": {
-      "sha256": "df1599d9164ed6c4b50f8782e1f633bc58deb3e27840cf986db3e55a1815f608",
-      "pages": 2
-    },
-    "output/pdf/book-preparation/bookvault/metric/vegetable_cauliflower.pdf": {
-      "sha256": "f767d92fc0994bca6a1839d8e253d45668cea3c32d902b4aa269d78b70bfc6d8",
-      "pages": 2
-    },
-    "output/pdf/book-preparation/bookvault/metric/vegetable_kale.pdf": {
-      "sha256": "993597db3acb005aa97f9b9073f74a3baed833d46a1dd004762087d2cbc67634",
+    "output/pdf/book-preparation/bookvault/metric/vegetable_aubergine.pdf": {
+      "sha256": "3f0f6aa2c490d542fc0070691a4491f18da9f5e982165a49560193493f82bd65",
       "pages": 2
     },
     "output/pdf/book-preparation/bookvault/metric/vegetable_bean_broad.pdf": {
@@ -336,52 +296,48 @@
       "sha256": "f94408ee7f4b1a18849defc449e34bc91803d147ab06565a6957d39cf67a6c18",
       "pages": 2
     },
-    "output/pdf/book-preparation/bookvault/metric/vegetable_pea.pdf": {
-      "sha256": "5cc693fd039a8872bb7b70c9c81a17d5ed88ba774b23dd58e6d0801b150d377e",
-      "pages": 2
-    },
     "output/pdf/book-preparation/bookvault/metric/vegetable_beet_leaf.pdf": {
       "sha256": "bfe5d7001a068889782b2280b3c356355e0aefbc2b6a4b4a23c4667ad2b60452",
       "pages": 2
     },
-    "output/pdf/book-preparation/bookvault/metric/vegetable_chicory.pdf": {
-      "sha256": "40a9f3bfe808404a238f4711eb0f78d7ec8997e38c56a5c3f5bbd9968d5aa954",
+    "output/pdf/book-preparation/bookvault/metric/vegetable_beetroot.pdf": {
+      "sha256": "faed83b50ce4389d0ce88037e27e249d9c8c7e4eb1de39b7a562c2cbc6529bce",
       "pages": 2
     },
-    "output/pdf/book-preparation/bookvault/metric/vegetable_endive.pdf": {
-      "sha256": "e00db0b91bc86cc6683ea8695b96aaea1da2c7eee8e245e4ea891529786ac883",
+    "output/pdf/book-preparation/bookvault/metric/vegetable_broccoli.pdf": {
+      "sha256": "0594530cdb39c9565c96918798cd93c5d3fe418c4e883afa3db833d3c9120d51",
       "pages": 2
     },
-    "output/pdf/reader-edit-pass/guides/lettuce-metric-clean.pdf": {
-      "sha256": "eb9e88fc155d1152c00309f24e891cbe5439b09519ba9bed3bed5c8b5a373f1b",
+    "output/pdf/book-preparation/bookvault/metric/vegetable_brussels_sprouts.pdf": {
+      "sha256": "08207f283e98088568609990f2ad6f2266baac65fe6c4193c20fe2ffdfc4d230",
       "pages": 2
     },
-    "output/pdf/book-preparation/bookvault/metric/vegetable_oriental_leaves.pdf": {
-      "sha256": "2c4a3ca29c71cee3952064bc3dfc8a3ef924342bc8918acecf4d211706f5eee8",
-      "pages": 2
-    },
-    "output/pdf/book-preparation/bookvault/metric/vegetable_spinach.pdf": {
-      "sha256": "5030229aa5cdfc8e4dd4c552cb665d7bd0e6c3994827a9ca2216b7325d2dff05",
-      "pages": 2
-    },
-    "output/pdf/book-preparation/bookvault/metric/vegetable_garlic.pdf": {
-      "sha256": "f87917cb22101548c48e28c8ba63f25adddf4fb56e2412055fe259253a67dede",
-      "pages": 2
-    },
-    "output/pdf/reader-edit-pass/guides/leek-metric-clean.pdf": {
-      "sha256": "a77db0e8f2596ca2a9fc6b7e20bc4ca43cd7b97fd39da1077cacfd4e346d3f0c",
-      "pages": 2
-    },
-    "output/pdf/approved-two-page-guides/metric/onions_and_shallots.pdf": {
-      "sha256": "ed52ffeefd6edc6d0874cb8f586055e2fed403ca7ec4b15c199017ee97a22aa9",
-      "pages": 2
-    },
-    "output/pdf/book-preparation/bookvault/metric/vegetable_aubergine.pdf": {
-      "sha256": "3f0f6aa2c490d542fc0070691a4491f18da9f5e982165a49560193493f82bd65",
+    "output/pdf/reader-edit-pass/guides/cabbage-metric-clean.pdf": {
+      "sha256": "df1599d9164ed6c4b50f8782e1f633bc58deb3e27840cf986db3e55a1815f608",
       "pages": 2
     },
     "output/pdf/book-preparation/bookvault/metric/vegetable_capsicum.pdf": {
       "sha256": "3e93aff5d71855eabf4042ac2c7d13f54d6e5e0b1be766d166907fddeae2f220",
+      "pages": 2
+    },
+    "output/pdf/reader-edit-pass/guides/carrot-metric-clean.pdf": {
+      "sha256": "392b1087b4b5aa49940e5687b9b26959465bed1d87fffffdfe42ffb30a3de6d3",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/metric/vegetable_cauliflower.pdf": {
+      "sha256": "f767d92fc0994bca6a1839d8e253d45668cea3c32d902b4aa269d78b70bfc6d8",
+      "pages": 2
+    },
+    "output/pdf/reader-edit-pass/guides/celeriac-metric-clean.pdf": {
+      "sha256": "76d0f6deccb2542ccc9fec5fb27124bbe71d024abbbe829a5c19b84dc6b01b79",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/metric/vegetable_celery.pdf": {
+      "sha256": "d15111723e06d4ae657e46fd90c500c07ed2328f8fc974eeeaf7582701d7629f",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/metric/vegetable_chicory.pdf": {
+      "sha256": "40a9f3bfe808404a238f4711eb0f78d7ec8997e38c56a5c3f5bbd9968d5aa954",
       "pages": 2
     },
     "output/pdf/reader-edit-pass/guides/marrow_courgette-metric-clean.pdf": {
@@ -396,8 +352,80 @@
       "sha256": "9d89177482dae6c3abe99ed7da4c511011651a519f4425d376354be3c60792a4",
       "pages": 2
     },
+    "output/pdf/book-preparation/bookvault/metric/vegetable_endive.pdf": {
+      "sha256": "e00db0b91bc86cc6683ea8695b96aaea1da2c7eee8e245e4ea891529786ac883",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/metric/vegetable_florence_fennel.pdf": {
+      "sha256": "6c5a3946ddad5ba145003175732e708540f6600ad51daea4c2ccbaf69c73b27a",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/metric/vegetable_garlic.pdf": {
+      "sha256": "f87917cb22101548c48e28c8ba63f25adddf4fb56e2412055fe259253a67dede",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/metric/vegetable_kale.pdf": {
+      "sha256": "993597db3acb005aa97f9b9073f74a3baed833d46a1dd004762087d2cbc67634",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/metric/vegetable_kohl_rabi.pdf": {
+      "sha256": "703802f33dd9a1560049cda1e47167ab90e669b1f8b6eb3b8e46b42ef5a60998",
+      "pages": 2
+    },
+    "output/pdf/reader-edit-pass/guides/leek-metric-clean.pdf": {
+      "sha256": "a77db0e8f2596ca2a9fc6b7e20bc4ca43cd7b97fd39da1077cacfd4e346d3f0c",
+      "pages": 2
+    },
+    "output/pdf/reader-edit-pass/guides/lettuce-metric-clean.pdf": {
+      "sha256": "eb9e88fc155d1152c00309f24e891cbe5439b09519ba9bed3bed5c8b5a373f1b",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/metric/vegetable_mushroom.pdf": {
+      "sha256": "938035ff7f461cad5aafb6320cb71d8632a9acdc34aa760a525898cf5b9289c9",
+      "pages": 2
+    },
+    "output/pdf/approved-two-page-guides/metric/onions_and_shallots.pdf": {
+      "sha256": "ed52ffeefd6edc6d0874cb8f586055e2fed403ca7ec4b15c199017ee97a22aa9",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/metric/vegetable_oriental_leaves.pdf": {
+      "sha256": "2c4a3ca29c71cee3952064bc3dfc8a3ef924342bc8918acecf4d211706f5eee8",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/metric/vegetable_parsnip.pdf": {
+      "sha256": "bcf372d09b5c9ad347f04408d5be98939e95e0039035dc2dfdb65be14d885620",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/metric/vegetable_pea.pdf": {
+      "sha256": "5cc693fd039a8872bb7b70c9c81a17d5ed88ba774b23dd58e6d0801b150d377e",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/metric/vegetable_potato.pdf": {
+      "sha256": "25102b38571a0b2d1683d271d2213723c2979d04cc337d0033e92a7f8ef232f3",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/metric/vegetable_radish.pdf": {
+      "sha256": "f0d34fd493c1c5baa6b770b3d6e291eec6e07b68159dfeecfd8bc7c6826890b4",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/metric/vegetable_rhubarb.pdf": {
+      "sha256": "ca8d900ecc6025999aa2f3479d26c11c7b9035a5bb21e7d2ba81e1345040eabf",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/metric/vegetable_salsify_scorzonera.pdf": {
+      "sha256": "91d8ef178e489ddde846f0e9397a6716335f5b0ec125b717092be7999dc4993a",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/metric/vegetable_spinach.pdf": {
+      "sha256": "5030229aa5cdfc8e4dd4c552cb665d7bd0e6c3994827a9ca2216b7325d2dff05",
+      "pages": 2
+    },
     "output/pdf/book-preparation/bookvault/metric/vegetable_squashes_and_pumpkins.pdf": {
       "sha256": "81796e89e87a857e84cc74f4834de01d90effb6143221b3705eee0bf070d55d8",
+      "pages": 2
+    },
+    "output/pdf/book-preparation/bookvault/metric/vegetable_swede.pdf": {
+      "sha256": "752aa2573587345d08adb2604a9e74c9f489223fecc547608387584349ddb096",
       "pages": 2
     },
     "output/pdf/book-preparation/bookvault/metric/vegetable_sweet_corn.pdf": {
@@ -412,28 +440,8 @@
       "sha256": "00c896ff60d7b6c2775e3b44a33b7459e6fd8d0a27efe0145e3fcc8274f620c6",
       "pages": 2
     },
-    "output/pdf/book-preparation/bookvault/metric/vegetable_artichoke_globe.pdf": {
-      "sha256": "db407b2dece9b88b591e27d4c8bbe641c1aaa7c16c53c4184b1fd315dd32bd62",
-      "pages": 2
-    },
-    "output/pdf/reader-edit-pass/guides/asparagus-metric-clean.pdf": {
-      "sha256": "10b519080d5d219a922cd1aaada76c14106c8beab13098a72f77e2d05656a335",
-      "pages": 2
-    },
-    "output/pdf/book-preparation/bookvault/metric/vegetable_celery.pdf": {
-      "sha256": "d15111723e06d4ae657e46fd90c500c07ed2328f8fc974eeeaf7582701d7629f",
-      "pages": 2
-    },
-    "output/pdf/book-preparation/bookvault/metric/vegetable_florence_fennel.pdf": {
-      "sha256": "6c5a3946ddad5ba145003175732e708540f6600ad51daea4c2ccbaf69c73b27a",
-      "pages": 2
-    },
-    "output/pdf/book-preparation/bookvault/metric/vegetable_rhubarb.pdf": {
-      "sha256": "ca8d900ecc6025999aa2f3479d26c11c7b9035a5bb21e7d2ba81e1345040eabf",
-      "pages": 2
-    },
-    "output/pdf/book-preparation/bookvault/metric/vegetable_mushroom.pdf": {
-      "sha256": "938035ff7f461cad5aafb6320cb71d8632a9acdc34aa760a525898cf5b9289c9",
+    "output/pdf/book-preparation/bookvault/metric/vegetable_turnip.pdf": {
+      "sha256": "0e365077c078b91701afbfcc2df7842ca211741008790eab784fe8992e121ae2",
       "pages": 2
     },
     "output/pdf/book-preparation/bookvault/metric/trouble_bean_and_pea_troubles.pdf": {
@@ -819,21 +827,21 @@
           {
             "source": "vegetable:artichoke_globe",
             "prefix": "",
-            "folio": 86,
+            "folio": 10,
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_artichoke_globe.pdf",
             "page": 1
           },
           {
             "source": "vegetable:artichoke_globe",
             "prefix": "",
-            "folio": 87,
+            "folio": 11,
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_artichoke_globe.pdf",
             "page": 2
           }
         ],
         "displayReferences": [
           {
-            "label": "86–87",
+            "label": "10–11",
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_artichoke_globe.pdf",
             "page": 1
           }
@@ -851,21 +859,21 @@
           {
             "source": "vegetable:artichoke_jerusalem",
             "prefix": "",
-            "folio": 10,
+            "folio": 12,
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_artichoke_jerusalem.pdf",
             "page": 1
           },
           {
             "source": "vegetable:artichoke_jerusalem",
             "prefix": "",
-            "folio": 11,
+            "folio": 13,
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_artichoke_jerusalem.pdf",
             "page": 2
           }
         ],
         "displayReferences": [
           {
-            "label": "10–11",
+            "label": "12–13",
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_artichoke_jerusalem.pdf",
             "page": 1
           }
@@ -883,21 +891,21 @@
           {
             "source": "vegetable:asparagus",
             "prefix": "",
-            "folio": 88,
+            "folio": 14,
             "pdf": "output/pdf/reader-edit-pass/guides/asparagus-imperial-clean.pdf",
             "page": 1
           },
           {
             "source": "vegetable:asparagus",
             "prefix": "",
-            "folio": 89,
+            "folio": 15,
             "pdf": "output/pdf/reader-edit-pass/guides/asparagus-imperial-clean.pdf",
             "page": 2
           }
         ],
         "displayReferences": [
           {
-            "label": "88–89",
+            "label": "14–15",
             "pdf": "output/pdf/reader-edit-pass/guides/asparagus-imperial-clean.pdf",
             "page": 1
           }
@@ -915,21 +923,21 @@
           {
             "source": "vegetable:aubergine",
             "prefix": "",
-            "folio": 68,
+            "folio": 16,
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_aubergine.pdf",
             "page": 1
           },
           {
             "source": "vegetable:aubergine",
             "prefix": "",
-            "folio": 69,
+            "folio": 17,
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_aubergine.pdf",
             "page": 2
           }
         ],
         "displayReferences": [
           {
-            "label": "68–69",
+            "label": "16–17",
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_aubergine.pdf",
             "page": 1
           }
@@ -1000,20 +1008,24 @@
           },
           {
             "source": "trouble:bean_and_pea_troubles"
+          },
+          {
+            "source": "technique:supports",
+            "pageOffset": 0
           }
         ],
         "references": [
           {
             "source": "vegetable:bean_broad",
             "prefix": "",
-            "folio": 42,
+            "folio": 18,
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_bean_broad.pdf",
             "page": 1
           },
           {
             "source": "vegetable:bean_broad",
             "prefix": "",
-            "folio": 43,
+            "folio": 19,
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_bean_broad.pdf",
             "page": 2
           },
@@ -1044,17 +1056,29 @@
             "folio": 103,
             "pdf": "output/pdf/book-preparation/bookvault/imperial/trouble_bean_and_pea_troubles.pdf",
             "page": 4
+          },
+          {
+            "source": "technique:supports",
+            "prefix": "",
+            "folio": 162,
+            "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
+            "page": 1
           }
         ],
         "displayReferences": [
           {
-            "label": "42–43",
+            "label": "18–19",
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_bean_broad.pdf",
             "page": 1
           },
           {
             "label": "100–103",
             "pdf": "output/pdf/book-preparation/bookvault/imperial/trouble_bean_and_pea_troubles.pdf",
+            "page": 1
+          },
+          {
+            "label": "162",
+            "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
             "page": 1
           }
         ]
@@ -1096,20 +1120,24 @@
           },
           {
             "source": "trouble:bean_and_pea_troubles"
+          },
+          {
+            "source": "technique:supports",
+            "pageOffset": 0
           }
         ],
         "references": [
           {
             "source": "vegetable:bean_french",
             "prefix": "",
-            "folio": 44,
+            "folio": 20,
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_bean_french.pdf",
             "page": 1
           },
           {
             "source": "vegetable:bean_french",
             "prefix": "",
-            "folio": 45,
+            "folio": 21,
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_bean_french.pdf",
             "page": 2
           },
@@ -1140,17 +1168,29 @@
             "folio": 103,
             "pdf": "output/pdf/book-preparation/bookvault/imperial/trouble_bean_and_pea_troubles.pdf",
             "page": 4
+          },
+          {
+            "source": "technique:supports",
+            "prefix": "",
+            "folio": 162,
+            "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
+            "page": 1
           }
         ],
         "displayReferences": [
           {
-            "label": "44–45",
+            "label": "20–21",
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_bean_french.pdf",
             "page": 1
           },
           {
             "label": "100–103",
             "pdf": "output/pdf/book-preparation/bookvault/imperial/trouble_bean_and_pea_troubles.pdf",
+            "page": 1
+          },
+          {
+            "label": "162",
+            "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
             "page": 1
           }
         ]
@@ -1164,20 +1204,24 @@
           },
           {
             "source": "trouble:bean_and_pea_troubles"
+          },
+          {
+            "source": "technique:supports",
+            "pageOffset": 0
           }
         ],
         "references": [
           {
             "source": "vegetable:bean_runner",
             "prefix": "",
-            "folio": 46,
+            "folio": 22,
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_bean_runner.pdf",
             "page": 1
           },
           {
             "source": "vegetable:bean_runner",
             "prefix": "",
-            "folio": 47,
+            "folio": 23,
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_bean_runner.pdf",
             "page": 2
           },
@@ -1208,17 +1252,29 @@
             "folio": 103,
             "pdf": "output/pdf/book-preparation/bookvault/imperial/trouble_bean_and_pea_troubles.pdf",
             "page": 4
+          },
+          {
+            "source": "technique:supports",
+            "prefix": "",
+            "folio": 162,
+            "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
+            "page": 1
           }
         ],
         "displayReferences": [
           {
-            "label": "46–47",
+            "label": "22–23",
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_bean_runner.pdf",
             "page": 1
           },
           {
             "label": "100–103",
             "pdf": "output/pdf/book-preparation/bookvault/imperial/trouble_bean_and_pea_troubles.pdf",
+            "page": 1
+          },
+          {
+            "label": "162",
+            "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
             "page": 1
           }
         ]
@@ -1270,14 +1326,14 @@
           {
             "source": "technique:greenhouse-beds",
             "prefix": "",
-            "folio": 162,
+            "folio": 166,
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 17
           }
         ],
         "displayReferences": [
           {
-            "label": "162",
+            "label": "166",
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 17
           }
@@ -1298,14 +1354,14 @@
           {
             "source": "vegetable:beet_leaf",
             "prefix": "",
-            "folio": 50,
+            "folio": 24,
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_beet_leaf.pdf",
             "page": 1
           },
           {
             "source": "vegetable:beet_leaf",
             "prefix": "",
-            "folio": 51,
+            "folio": 25,
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_beet_leaf.pdf",
             "page": 2
           },
@@ -1326,7 +1382,7 @@
         ],
         "displayReferences": [
           {
-            "label": "50–51",
+            "label": "24–25",
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_beet_leaf.pdf",
             "page": 1
           },
@@ -1380,14 +1436,14 @@
           {
             "source": "vegetable:beetroot",
             "prefix": "",
-            "folio": 12,
+            "folio": 26,
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_beetroot.pdf",
             "page": 1
           },
           {
             "source": "vegetable:beetroot",
             "prefix": "",
-            "folio": 13,
+            "folio": 27,
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_beetroot.pdf",
             "page": 2
           },
@@ -1408,7 +1464,7 @@
         ],
         "displayReferences": [
           {
-            "label": "12–13",
+            "label": "26–27",
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_beetroot.pdf",
             "page": 1
           },
@@ -1434,6 +1490,10 @@
           {
             "source": "trouble:turnip_swede_radish_troubles",
             "condition": "bird_damage"
+          },
+          {
+            "source": "technique:netting",
+            "pageOffset": 0
           }
         ],
         "references": [
@@ -1463,6 +1523,13 @@
             "folio": 143,
             "pdf": "output/pdf/book-preparation/bookvault/imperial/trouble_turnip_swede_radish_troubles.pdf",
             "page": 1
+          },
+          {
+            "source": "technique:netting",
+            "prefix": "",
+            "folio": 160,
+            "pdf": "output/pdf/topic-pages/netting-revised-draft.pdf",
+            "page": 1
           }
         ],
         "displayReferences": [
@@ -1479,6 +1546,11 @@
           {
             "label": "143",
             "pdf": "output/pdf/book-preparation/bookvault/imperial/trouble_turnip_swede_radish_troubles.pdf",
+            "page": 1
+          },
+          {
+            "label": "160",
+            "pdf": "output/pdf/topic-pages/netting-revised-draft.pdf",
             "page": 1
           }
         ]
@@ -2099,6 +2171,32 @@
         "displayReferences": []
       },
       {
+        "id": "bracing",
+        "term": "Bracing",
+        "refs": [
+          {
+            "source": "technique:supports",
+            "pageOffset": 1
+          }
+        ],
+        "references": [
+          {
+            "source": "technique:supports",
+            "prefix": "",
+            "folio": 163,
+            "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
+            "page": 2
+          }
+        ],
+        "displayReferences": [
+          {
+            "label": "163",
+            "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
+            "page": 2
+          }
+        ]
+      },
+      {
         "id": "broad-beans",
         "term": "Broad beans",
         "see": "beans-broad",
@@ -2120,14 +2218,14 @@
           {
             "source": "vegetable:broccoli",
             "prefix": "",
-            "folio": 32,
+            "folio": 28,
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_broccoli.pdf",
             "page": 1
           },
           {
             "source": "vegetable:broccoli",
             "prefix": "",
-            "folio": 33,
+            "folio": 29,
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_broccoli.pdf",
             "page": 2
           },
@@ -2176,7 +2274,7 @@
         ],
         "displayReferences": [
           {
-            "label": "32–33",
+            "label": "28–29",
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_broccoli.pdf",
             "page": 1
           },
@@ -2203,20 +2301,24 @@
           },
           {
             "source": "trouble:brassica_troubles"
+          },
+          {
+            "source": "technique:supports",
+            "pageOffset": 1
           }
         ],
         "references": [
           {
             "source": "vegetable:brussels_sprouts",
             "prefix": "",
-            "folio": 34,
+            "folio": 30,
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_brussels_sprouts.pdf",
             "page": 1
           },
           {
             "source": "vegetable:brussels_sprouts",
             "prefix": "",
-            "folio": 35,
+            "folio": 31,
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_brussels_sprouts.pdf",
             "page": 2
           },
@@ -2261,11 +2363,18 @@
             "folio": 111,
             "pdf": "output/pdf/book-preparation/bookvault/imperial/trouble_brassica_troubles.pdf",
             "page": 6
+          },
+          {
+            "source": "technique:supports",
+            "prefix": "",
+            "folio": 163,
+            "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
+            "page": 2
           }
         ],
         "displayReferences": [
           {
-            "label": "34–35",
+            "label": "30–31",
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_brussels_sprouts.pdf",
             "page": 1
           },
@@ -2273,6 +2382,11 @@
             "label": "106–111",
             "pdf": "output/pdf/book-preparation/bookvault/imperial/trouble_brassica_troubles.pdf",
             "page": 1
+          },
+          {
+            "label": "163",
+            "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
+            "page": 2
           }
         ]
       },
@@ -2347,14 +2461,14 @@
           {
             "source": "vegetable:cabbage",
             "prefix": "",
-            "folio": 36,
+            "folio": 32,
             "pdf": "output/pdf/reader-edit-pass/guides/cabbage-imperial-clean.pdf",
             "page": 1
           },
           {
             "source": "vegetable:cabbage",
             "prefix": "",
-            "folio": 37,
+            "folio": 33,
             "pdf": "output/pdf/reader-edit-pass/guides/cabbage-imperial-clean.pdf",
             "page": 2
           },
@@ -2403,7 +2517,7 @@
         ],
         "displayReferences": [
           {
-            "label": "36–37",
+            "label": "32–33",
             "pdf": "output/pdf/reader-edit-pass/guides/cabbage-imperial-clean.pdf",
             "page": 1
           },
@@ -2665,14 +2779,14 @@
           {
             "source": "vegetable:carrot",
             "prefix": "",
-            "folio": 14,
+            "folio": 36,
             "pdf": "output/pdf/reader-edit-pass/guides/carrot-imperial-clean.pdf",
             "page": 1
           },
           {
             "source": "vegetable:carrot",
             "prefix": "",
-            "folio": 15,
+            "folio": 37,
             "pdf": "output/pdf/reader-edit-pass/guides/carrot-imperial-clean.pdf",
             "page": 2
           },
@@ -2700,7 +2814,7 @@
         ],
         "displayReferences": [
           {
-            "label": "14–15",
+            "label": "36–37",
             "pdf": "output/pdf/reader-edit-pass/guides/carrot-imperial-clean.pdf",
             "page": 1
           },
@@ -2882,14 +2996,14 @@
           {
             "source": "vegetable:celeriac",
             "prefix": "",
-            "folio": 16,
+            "folio": 40,
             "pdf": "output/pdf/reader-edit-pass/guides/celeriac-imperial-clean.pdf",
             "page": 1
           },
           {
             "source": "vegetable:celeriac",
             "prefix": "",
-            "folio": 17,
+            "folio": 41,
             "pdf": "output/pdf/reader-edit-pass/guides/celeriac-imperial-clean.pdf",
             "page": 2
           },
@@ -2910,7 +3024,7 @@
         ],
         "displayReferences": [
           {
-            "label": "16–17",
+            "label": "40–41",
             "pdf": "output/pdf/reader-edit-pass/guides/celeriac-imperial-clean.pdf",
             "page": 1
           },
@@ -2936,14 +3050,14 @@
           {
             "source": "vegetable:celery",
             "prefix": "",
-            "folio": 90,
+            "folio": 42,
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_celery.pdf",
             "page": 1
           },
           {
             "source": "vegetable:celery",
             "prefix": "",
-            "folio": 91,
+            "folio": 43,
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_celery.pdf",
             "page": 2
           },
@@ -2964,7 +3078,7 @@
         ],
         "displayReferences": [
           {
-            "label": "90–91",
+            "label": "42–43",
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_celery.pdf",
             "page": 1
           },
@@ -3106,21 +3220,21 @@
           {
             "source": "vegetable:chicory",
             "prefix": "",
-            "folio": 52,
+            "folio": 44,
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_chicory.pdf",
             "page": 1
           },
           {
             "source": "vegetable:chicory",
             "prefix": "",
-            "folio": 53,
+            "folio": 45,
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_chicory.pdf",
             "page": 2
           }
         ],
         "displayReferences": [
           {
-            "label": "52–53",
+            "label": "44–45",
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_chicory.pdf",
             "page": 1
           }
@@ -3420,14 +3534,14 @@
           {
             "source": "technique:greenhouse-beds",
             "prefix": "",
-            "folio": 162,
+            "folio": 166,
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 17
           }
         ],
         "displayReferences": [
           {
-            "label": "162",
+            "label": "166",
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 17
           }
@@ -3448,14 +3562,14 @@
           {
             "source": "vegetable:marrow_courgette",
             "prefix": "",
-            "folio": 72,
+            "folio": 46,
             "pdf": "output/pdf/reader-edit-pass/guides/marrow_courgette-imperial-clean.pdf",
             "page": 1
           },
           {
             "source": "vegetable:marrow_courgette",
             "prefix": "",
-            "folio": 73,
+            "folio": 47,
             "pdf": "output/pdf/reader-edit-pass/guides/marrow_courgette-imperial-clean.pdf",
             "page": 2
           },
@@ -3497,7 +3611,7 @@
         ],
         "displayReferences": [
           {
-            "label": "72–73",
+            "label": "46–47",
             "pdf": "output/pdf/reader-edit-pass/guides/marrow_courgette-imperial-clean.pdf",
             "page": 1
           },
@@ -3596,14 +3710,14 @@
           {
             "source": "vegetable:cucumber_greenhouse",
             "prefix": "",
-            "folio": 74,
+            "folio": 48,
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_cucumber_greenhouse.pdf",
             "page": 1
           },
           {
             "source": "vegetable:cucumber_greenhouse",
             "prefix": "",
-            "folio": 75,
+            "folio": 49,
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_cucumber_greenhouse.pdf",
             "page": 2
           },
@@ -3645,7 +3759,7 @@
         ],
         "displayReferences": [
           {
-            "label": "74–75",
+            "label": "48–49",
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_cucumber_greenhouse.pdf",
             "page": 1
           },
@@ -3671,14 +3785,14 @@
           {
             "source": "vegetable:cucumber_outdoor",
             "prefix": "",
-            "folio": 76,
+            "folio": 50,
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_cucumber_outdoor.pdf",
             "page": 1
           },
           {
             "source": "vegetable:cucumber_outdoor",
             "prefix": "",
-            "folio": 77,
+            "folio": 51,
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_cucumber_outdoor.pdf",
             "page": 2
           },
@@ -3720,7 +3834,7 @@
         ],
         "displayReferences": [
           {
-            "label": "76–77",
+            "label": "50–51",
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_cucumber_outdoor.pdf",
             "page": 1
           },
@@ -4086,7 +4200,7 @@
           {
             "source": "technique:watering",
             "prefix": "",
-            "folio": 160,
+            "folio": 164,
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 15
           }
@@ -4098,7 +4212,7 @@
             "page": 5
           },
           {
-            "label": "160",
+            "label": "164",
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 15
           }
@@ -4239,14 +4353,14 @@
           {
             "source": "vegetable:endive",
             "prefix": "",
-            "folio": 54,
+            "folio": 52,
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_endive.pdf",
             "page": 1
           },
           {
             "source": "vegetable:endive",
             "prefix": "",
-            "folio": 55,
+            "folio": 53,
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_endive.pdf",
             "page": 2
           },
@@ -4274,7 +4388,7 @@
         ],
         "displayReferences": [
           {
-            "label": "54–55",
+            "label": "52–53",
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_endive.pdf",
             "page": 1
           },
@@ -4307,14 +4421,14 @@
           {
             "source": "vegetable:florence_fennel",
             "prefix": "",
-            "folio": 92,
+            "folio": 54,
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_florence_fennel.pdf",
             "page": 1
           },
           {
             "source": "vegetable:florence_fennel",
             "prefix": "",
-            "folio": 93,
+            "folio": 55,
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_florence_fennel.pdf",
             "page": 2
           },
@@ -4328,7 +4442,7 @@
         ],
         "displayReferences": [
           {
-            "label": "92–93",
+            "label": "54–55",
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_florence_fennel.pdf",
             "page": 1
           },
@@ -4436,6 +4550,48 @@
         ]
       },
       {
+        "id": "horticultural-fleece",
+        "term": "Fleece, horticultural",
+        "refs": [
+          {
+            "source": "technique:netting",
+            "pageOffset": 0
+          },
+          {
+            "source": "technique:supports",
+            "pageOffset": 1
+          }
+        ],
+        "references": [
+          {
+            "source": "technique:netting",
+            "prefix": "",
+            "folio": 160,
+            "pdf": "output/pdf/topic-pages/netting-revised-draft.pdf",
+            "page": 1
+          },
+          {
+            "source": "technique:supports",
+            "prefix": "",
+            "folio": 163,
+            "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
+            "page": 2
+          }
+        ],
+        "displayReferences": [
+          {
+            "label": "160",
+            "pdf": "output/pdf/topic-pages/netting-revised-draft.pdf",
+            "page": 1
+          },
+          {
+            "label": "163",
+            "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
+            "page": 2
+          }
+        ]
+      },
+      {
         "id": "florence-fennel",
         "term": "Florence fennel",
         "see": "fennel-florence",
@@ -4491,42 +4647,42 @@
           {
             "source": "vegetable:kale",
             "prefix": "",
-            "folio": 40,
+            "folio": 58,
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_kale.pdf",
             "page": 1
           },
           {
             "source": "vegetable:kale",
             "prefix": "",
-            "folio": 41,
+            "folio": 59,
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_kale.pdf",
             "page": 2
           },
           {
             "source": "vegetable:oriental_leaves",
             "prefix": "",
-            "folio": 58,
+            "folio": 70,
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_oriental_leaves.pdf",
             "page": 1
           },
           {
             "source": "vegetable:oriental_leaves",
             "prefix": "",
-            "folio": 59,
+            "folio": 71,
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_oriental_leaves.pdf",
             "page": 2
           },
           {
             "source": "vegetable:garlic",
             "prefix": "",
-            "folio": 62,
+            "folio": 56,
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_garlic.pdf",
             "page": 1
           },
           {
             "source": "vegetable:garlic",
             "prefix": "",
-            "folio": 63,
+            "folio": 57,
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_garlic.pdf",
             "page": 2
           },
@@ -4547,18 +4703,13 @@
         ],
         "displayReferences": [
           {
-            "label": "40–41",
-            "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_kale.pdf",
-            "page": 1
-          },
-          {
-            "label": "58–59",
-            "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_oriental_leaves.pdf",
-            "page": 1
-          },
-          {
-            "label": "62–63",
+            "label": "56–59",
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_garlic.pdf",
+            "page": 1
+          },
+          {
+            "label": "70–71",
+            "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_oriental_leaves.pdf",
             "page": 1
           },
           {
@@ -4755,6 +4906,32 @@
         ]
       },
       {
+        "id": "fruit-cages",
+        "term": "Fruit cages",
+        "refs": [
+          {
+            "source": "technique:netting",
+            "pageOffset": 0
+          }
+        ],
+        "references": [
+          {
+            "source": "technique:netting",
+            "prefix": "",
+            "folio": 160,
+            "pdf": "output/pdf/topic-pages/netting-revised-draft.pdf",
+            "page": 1
+          }
+        ],
+        "displayReferences": [
+          {
+            "label": "160",
+            "pdf": "output/pdf/topic-pages/netting-revised-draft.pdf",
+            "page": 1
+          }
+        ]
+      },
+      {
         "id": "fruit-set-cucurbits",
         "term": "Fruit set, cucurbits",
         "refs": [
@@ -4937,14 +5114,14 @@
           {
             "source": "vegetable:garlic",
             "prefix": "",
-            "folio": 62,
+            "folio": 56,
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_garlic.pdf",
             "page": 1
           },
           {
             "source": "vegetable:garlic",
             "prefix": "",
-            "folio": 63,
+            "folio": 57,
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_garlic.pdf",
             "page": 2
           },
@@ -4972,7 +5149,7 @@
         ],
         "displayReferences": [
           {
-            "label": "62–63",
+            "label": "56–57",
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_garlic.pdf",
             "page": 1
           },
@@ -5093,14 +5270,14 @@
           {
             "source": "technique:greenhouse-choose",
             "prefix": "",
-            "folio": 161,
+            "folio": 165,
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 16
           }
         ],
         "displayReferences": [
           {
-            "label": "161",
+            "label": "165",
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 16
           }
@@ -5121,21 +5298,21 @@
           {
             "source": "technique:greenhouse-beds",
             "prefix": "",
-            "folio": 162,
+            "folio": 166,
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 17
           },
           {
             "source": "technique:greenhouse-no-dig-seasons",
             "prefix": "",
-            "folio": 163,
+            "folio": 167,
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 18
           }
         ],
         "displayReferences": [
           {
-            "label": "162–163",
+            "label": "166–167",
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 17
           }
@@ -5153,14 +5330,14 @@
           {
             "source": "technique:greenhouse-no-dig-seasons",
             "prefix": "",
-            "folio": 163,
+            "folio": 167,
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 18
           }
         ],
         "displayReferences": [
           {
-            "label": "163",
+            "label": "167",
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 18
           }
@@ -5617,6 +5794,32 @@
         ]
       },
       {
+        "id": "insect-proof-mesh",
+        "term": "Insect-proof mesh",
+        "refs": [
+          {
+            "source": "technique:netting",
+            "pageOffset": 0
+          }
+        ],
+        "references": [
+          {
+            "source": "technique:netting",
+            "prefix": "",
+            "folio": 160,
+            "pdf": "output/pdf/topic-pages/netting-revised-draft.pdf",
+            "page": 1
+          }
+        ],
+        "displayReferences": [
+          {
+            "label": "160",
+            "pdf": "output/pdf/topic-pages/netting-revised-draft.pdf",
+            "page": 1
+          }
+        ]
+      },
+      {
         "id": "jerusalem-artichokes",
         "term": "Jerusalem artichokes",
         "see": "artichokes-jerusalem",
@@ -5638,14 +5841,14 @@
           {
             "source": "vegetable:kale",
             "prefix": "",
-            "folio": 40,
+            "folio": 58,
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_kale.pdf",
             "page": 1
           },
           {
             "source": "vegetable:kale",
             "prefix": "",
-            "folio": 41,
+            "folio": 59,
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_kale.pdf",
             "page": 2
           },
@@ -5694,7 +5897,7 @@
         ],
         "displayReferences": [
           {
-            "label": "40–41",
+            "label": "58–59",
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_kale.pdf",
             "page": 1
           },
@@ -5745,14 +5948,14 @@
           {
             "source": "vegetable:kohl_rabi",
             "prefix": "",
-            "folio": 18,
+            "folio": 60,
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_kohl_rabi.pdf",
             "page": 1
           },
           {
             "source": "vegetable:kohl_rabi",
             "prefix": "",
-            "folio": 19,
+            "folio": 61,
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_kohl_rabi.pdf",
             "page": 2
           },
@@ -5801,7 +6004,7 @@
         ],
         "displayReferences": [
           {
-            "label": "18–19",
+            "label": "60–61",
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_kohl_rabi.pdf",
             "page": 1
           },
@@ -6045,14 +6248,14 @@
           {
             "source": "vegetable:leek",
             "prefix": "",
-            "folio": 64,
+            "folio": 62,
             "pdf": "output/pdf/reader-edit-pass/guides/leek-imperial-clean.pdf",
             "page": 1
           },
           {
             "source": "vegetable:leek",
             "prefix": "",
-            "folio": 65,
+            "folio": 63,
             "pdf": "output/pdf/reader-edit-pass/guides/leek-imperial-clean.pdf",
             "page": 2
           },
@@ -6080,7 +6283,7 @@
         ],
         "displayReferences": [
           {
-            "label": "64–65",
+            "label": "62–63",
             "pdf": "output/pdf/reader-edit-pass/guides/leek-imperial-clean.pdf",
             "page": 1
           },
@@ -6106,14 +6309,14 @@
           {
             "source": "vegetable:lettuce",
             "prefix": "",
-            "folio": 56,
+            "folio": 64,
             "pdf": "output/pdf/reader-edit-pass/guides/lettuce-imperial-clean.pdf",
             "page": 1
           },
           {
             "source": "vegetable:lettuce",
             "prefix": "",
-            "folio": 57,
+            "folio": 65,
             "pdf": "output/pdf/reader-edit-pass/guides/lettuce-imperial-clean.pdf",
             "page": 2
           },
@@ -6141,7 +6344,7 @@
         ],
         "displayReferences": [
           {
-            "label": "56–57",
+            "label": "64–65",
             "pdf": "output/pdf/reader-edit-pass/guides/lettuce-imperial-clean.pdf",
             "page": 1
           },
@@ -6553,21 +6756,21 @@
           {
             "source": "vegetable:mushroom",
             "prefix": "",
-            "folio": 96,
+            "folio": 66,
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_mushroom.pdf",
             "page": 1
           },
           {
             "source": "vegetable:mushroom",
             "prefix": "",
-            "folio": 97,
+            "folio": 67,
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_mushroom.pdf",
             "page": 2
           }
         ],
         "displayReferences": [
           {
-            "label": "96–97",
+            "label": "66–67",
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_mushroom.pdf",
             "page": 1
           }
@@ -6598,6 +6801,64 @@
             "label": "128",
             "pdf": "output/pdf/reader-edit-pass/guides/onion_and_leek_troubles-imperial-clean.pdf",
             "page": 3
+          }
+        ]
+      },
+      {
+        "id": "netting",
+        "term": "Netting",
+        "refs": [
+          {
+            "source": "technique:netting"
+          }
+        ],
+        "references": [
+          {
+            "source": "technique:netting",
+            "prefix": "",
+            "folio": 160,
+            "pdf": "output/pdf/topic-pages/netting-revised-draft.pdf",
+            "page": 1
+          },
+          {
+            "source": "technique:netting",
+            "prefix": "",
+            "folio": 161,
+            "pdf": "output/pdf/topic-pages/netting-revised-draft.pdf",
+            "page": 2
+          }
+        ],
+        "displayReferences": [
+          {
+            "label": "160–161",
+            "pdf": "output/pdf/topic-pages/netting-revised-draft.pdf",
+            "page": 1
+          }
+        ]
+      },
+      {
+        "id": "netting-frames",
+        "term": "Netting frames",
+        "refs": [
+          {
+            "source": "technique:netting",
+            "pageOffset": 1
+          }
+        ],
+        "references": [
+          {
+            "source": "technique:netting",
+            "prefix": "",
+            "folio": 161,
+            "pdf": "output/pdf/topic-pages/netting-revised-draft.pdf",
+            "page": 2
+          }
+        ],
+        "displayReferences": [
+          {
+            "label": "161",
+            "pdf": "output/pdf/topic-pages/netting-revised-draft.pdf",
+            "page": 2
           }
         ]
       },
@@ -6638,14 +6899,14 @@
           {
             "source": "technique:greenhouse-no-dig-seasons",
             "prefix": "",
-            "folio": 163,
+            "folio": 167,
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 18
           }
         ],
         "displayReferences": [
           {
-            "label": "163",
+            "label": "167",
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 18
           }
@@ -6744,14 +7005,14 @@
           {
             "source": "vegetable:onion_shallot",
             "prefix": "",
-            "folio": 66,
+            "folio": 68,
             "pdf": "output/pdf/approved-two-page-guides/imperial/onions_and_shallots.pdf",
             "page": 1
           },
           {
             "source": "vegetable:onion_shallot",
             "prefix": "",
-            "folio": 67,
+            "folio": 69,
             "pdf": "output/pdf/approved-two-page-guides/imperial/onions_and_shallots.pdf",
             "page": 2
           },
@@ -6779,7 +7040,7 @@
         ],
         "displayReferences": [
           {
-            "label": "66–67",
+            "label": "68–69",
             "pdf": "output/pdf/approved-two-page-guides/imperial/onions_and_shallots.pdf",
             "page": 1
           },
@@ -6830,14 +7091,14 @@
           {
             "source": "vegetable:oriental_leaves",
             "prefix": "",
-            "folio": 58,
+            "folio": 70,
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_oriental_leaves.pdf",
             "page": 1
           },
           {
             "source": "vegetable:oriental_leaves",
             "prefix": "",
-            "folio": 59,
+            "folio": 71,
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_oriental_leaves.pdf",
             "page": 2
           },
@@ -6858,7 +7119,7 @@
         ],
         "displayReferences": [
           {
-            "label": "58–59",
+            "label": "70–71",
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_oriental_leaves.pdf",
             "page": 1
           },
@@ -6919,14 +7180,14 @@
           {
             "source": "vegetable:parsnip",
             "prefix": "",
-            "folio": 20,
+            "folio": 72,
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_parsnip.pdf",
             "page": 1
           },
           {
             "source": "vegetable:parsnip",
             "prefix": "",
-            "folio": 21,
+            "folio": 73,
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_parsnip.pdf",
             "page": 2
           },
@@ -6954,7 +7215,7 @@
         ],
         "displayReferences": [
           {
-            "label": "20–21",
+            "label": "72–73",
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_parsnip.pdf",
             "page": 1
           },
@@ -7121,20 +7382,24 @@
           },
           {
             "source": "trouble:bean_and_pea_troubles"
+          },
+          {
+            "source": "technique:supports",
+            "pageOffset": 0
           }
         ],
         "references": [
           {
             "source": "vegetable:pea",
             "prefix": "",
-            "folio": 48,
+            "folio": 74,
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_pea.pdf",
             "page": 1
           },
           {
             "source": "vegetable:pea",
             "prefix": "",
-            "folio": 49,
+            "folio": 75,
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_pea.pdf",
             "page": 2
           },
@@ -7165,17 +7430,29 @@
             "folio": 103,
             "pdf": "output/pdf/book-preparation/bookvault/imperial/trouble_bean_and_pea_troubles.pdf",
             "page": 4
+          },
+          {
+            "source": "technique:supports",
+            "prefix": "",
+            "folio": 162,
+            "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
+            "page": 1
           }
         ],
         "displayReferences": [
           {
-            "label": "48–49",
+            "label": "74–75",
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_pea.pdf",
             "page": 1
           },
           {
             "label": "100–103",
             "pdf": "output/pdf/book-preparation/bookvault/imperial/trouble_bean_and_pea_troubles.pdf",
+            "page": 1
+          },
+          {
+            "label": "162",
+            "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
             "page": 1
           }
         ]
@@ -7220,21 +7497,21 @@
           {
             "source": "vegetable:capsicum",
             "prefix": "",
-            "folio": 70,
+            "folio": 34,
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_capsicum.pdf",
             "page": 1
           },
           {
             "source": "vegetable:capsicum",
             "prefix": "",
-            "folio": 71,
+            "folio": 35,
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_capsicum.pdf",
             "page": 2
           }
         ],
         "displayReferences": [
           {
-            "label": "70–71",
+            "label": "34–35",
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_capsicum.pdf",
             "page": 1
           }
@@ -7294,6 +7571,38 @@
             "label": "159",
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 14
+          }
+        ]
+      },
+      {
+        "id": "plant-supports",
+        "term": "Plant supports",
+        "refs": [
+          {
+            "source": "technique:supports"
+          }
+        ],
+        "references": [
+          {
+            "source": "technique:supports",
+            "prefix": "",
+            "folio": 162,
+            "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
+            "page": 1
+          },
+          {
+            "source": "technique:supports",
+            "prefix": "",
+            "folio": 163,
+            "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
+            "page": 2
+          }
+        ],
+        "displayReferences": [
+          {
+            "label": "162–163",
+            "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
+            "page": 1
           }
         ]
       },
@@ -7463,14 +7772,14 @@
           {
             "source": "vegetable:potato",
             "prefix": "",
-            "folio": 22,
+            "folio": 76,
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_potato.pdf",
             "page": 1
           },
           {
             "source": "vegetable:potato",
             "prefix": "",
-            "folio": 23,
+            "folio": 77,
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_potato.pdf",
             "page": 2
           },
@@ -7512,7 +7821,7 @@
         ],
         "displayReferences": [
           {
-            "label": "22–23",
+            "label": "76–77",
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_potato.pdf",
             "page": 1
           },
@@ -7654,14 +7963,14 @@
           {
             "source": "vegetable:radish",
             "prefix": "",
-            "folio": 24,
+            "folio": 78,
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_radish.pdf",
             "page": 1
           },
           {
             "source": "vegetable:radish",
             "prefix": "",
-            "folio": 25,
+            "folio": 79,
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_radish.pdf",
             "page": 2
           },
@@ -7682,7 +7991,7 @@
         ],
         "displayReferences": [
           {
-            "label": "24–25",
+            "label": "78–79",
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_radish.pdf",
             "page": 1
           },
@@ -7768,21 +8077,21 @@
           {
             "source": "vegetable:rhubarb",
             "prefix": "",
-            "folio": 94,
+            "folio": 80,
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_rhubarb.pdf",
             "page": 1
           },
           {
             "source": "vegetable:rhubarb",
             "prefix": "",
-            "folio": 95,
+            "folio": 81,
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_rhubarb.pdf",
             "page": 2
           }
         ],
         "displayReferences": [
           {
-            "label": "94–95",
+            "label": "80–81",
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_rhubarb.pdf",
             "page": 1
           }
@@ -8000,21 +8309,21 @@
           {
             "source": "vegetable:salsify_scorzonera",
             "prefix": "",
-            "folio": 26,
+            "folio": 82,
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_salsify_scorzonera.pdf",
             "page": 1
           },
           {
             "source": "vegetable:salsify_scorzonera",
             "prefix": "",
-            "folio": 27,
+            "folio": 83,
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_salsify_scorzonera.pdf",
             "page": 2
           }
         ],
         "displayReferences": [
           {
-            "label": "26–27",
+            "label": "82–83",
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_salsify_scorzonera.pdf",
             "page": 1
           }
@@ -8652,14 +8961,14 @@
           {
             "source": "vegetable:spinach",
             "prefix": "",
-            "folio": 60,
+            "folio": 84,
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_spinach.pdf",
             "page": 1
           },
           {
             "source": "vegetable:spinach",
             "prefix": "",
-            "folio": 61,
+            "folio": 85,
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_spinach.pdf",
             "page": 2
           },
@@ -8680,7 +8989,7 @@
         ],
         "displayReferences": [
           {
-            "label": "60–61",
+            "label": "84–85",
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_spinach.pdf",
             "page": 1
           },
@@ -8938,14 +9247,14 @@
           {
             "source": "vegetable:squash_pumpkin",
             "prefix": "",
-            "folio": 78,
+            "folio": 86,
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_squashes_and_pumpkins.pdf",
             "page": 1
           },
           {
             "source": "vegetable:squash_pumpkin",
             "prefix": "",
-            "folio": 79,
+            "folio": 87,
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_squashes_and_pumpkins.pdf",
             "page": 2
           },
@@ -8987,7 +9296,7 @@
         ],
         "displayReferences": [
           {
-            "label": "78–79",
+            "label": "86–87",
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_squashes_and_pumpkins.pdf",
             "page": 1
           },
@@ -9023,6 +9332,32 @@
             "label": "121",
             "pdf": "output/pdf/book-preparation/bookvault/imperial/trouble_cucurbit_troubles.pdf",
             "page": 5
+          }
+        ]
+      },
+      {
+        "id": "staking",
+        "term": "Staking",
+        "refs": [
+          {
+            "source": "technique:supports",
+            "pageOffset": 1
+          }
+        ],
+        "references": [
+          {
+            "source": "technique:supports",
+            "prefix": "",
+            "folio": 163,
+            "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
+            "page": 2
+          }
+        ],
+        "displayReferences": [
+          {
+            "label": "163",
+            "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
+            "page": 2
           }
         ]
       },
@@ -9128,59 +9463,59 @@
           {
             "source": "vegetable:carrot",
             "prefix": "",
-            "folio": 14,
+            "folio": 36,
             "pdf": "output/pdf/reader-edit-pass/guides/carrot-imperial-clean.pdf",
             "page": 1
           },
           {
             "source": "vegetable:carrot",
             "prefix": "",
-            "folio": 15,
+            "folio": 37,
             "pdf": "output/pdf/reader-edit-pass/guides/carrot-imperial-clean.pdf",
             "page": 2
           },
           {
             "source": "vegetable:onion_shallot",
             "prefix": "",
-            "folio": 66,
+            "folio": 68,
             "pdf": "output/pdf/approved-two-page-guides/imperial/onions_and_shallots.pdf",
             "page": 1
           },
           {
             "source": "vegetable:onion_shallot",
             "prefix": "",
-            "folio": 67,
+            "folio": 69,
             "pdf": "output/pdf/approved-two-page-guides/imperial/onions_and_shallots.pdf",
             "page": 2
           },
           {
             "source": "vegetable:squash_pumpkin",
             "prefix": "",
-            "folio": 78,
+            "folio": 86,
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_squashes_and_pumpkins.pdf",
             "page": 1
           },
           {
             "source": "vegetable:squash_pumpkin",
             "prefix": "",
-            "folio": 79,
+            "folio": 87,
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_squashes_and_pumpkins.pdf",
             "page": 2
           }
         ],
         "displayReferences": [
           {
-            "label": "14–15",
+            "label": "36–37",
             "pdf": "output/pdf/reader-edit-pass/guides/carrot-imperial-clean.pdf",
             "page": 1
           },
           {
-            "label": "66–67",
+            "label": "68–69",
             "pdf": "output/pdf/approved-two-page-guides/imperial/onions_and_shallots.pdf",
             "page": 1
           },
           {
-            "label": "78–79",
+            "label": "86–87",
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_squashes_and_pumpkins.pdf",
             "page": 1
           }
@@ -9289,14 +9624,14 @@
           {
             "source": "vegetable:swede",
             "prefix": "",
-            "folio": 28,
+            "folio": 88,
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_swede.pdf",
             "page": 1
           },
           {
             "source": "vegetable:swede",
             "prefix": "",
-            "folio": 29,
+            "folio": 89,
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_swede.pdf",
             "page": 2
           },
@@ -9317,7 +9652,7 @@
         ],
         "displayReferences": [
           {
-            "label": "28–29",
+            "label": "88–89",
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_swede.pdf",
             "page": 1
           },
@@ -9368,21 +9703,21 @@
           {
             "source": "vegetable:sweet_corn",
             "prefix": "",
-            "folio": 80,
+            "folio": 90,
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_sweet_corn.pdf",
             "page": 1
           },
           {
             "source": "vegetable:sweet_corn",
             "prefix": "",
-            "folio": 81,
+            "folio": 91,
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_sweet_corn.pdf",
             "page": 2
           }
         ],
         "displayReferences": [
           {
-            "label": "80–81",
+            "label": "90–91",
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_sweet_corn.pdf",
             "page": 1
           }
@@ -9473,6 +9808,32 @@
         ]
       },
       {
+        "id": "tomato-cages",
+        "term": "Tomato cages",
+        "refs": [
+          {
+            "source": "technique:supports",
+            "pageOffset": 1
+          }
+        ],
+        "references": [
+          {
+            "source": "technique:supports",
+            "prefix": "",
+            "folio": 163,
+            "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
+            "page": 2
+          }
+        ],
+        "displayReferences": [
+          {
+            "label": "163",
+            "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
+            "page": 2
+          }
+        ]
+      },
+      {
         "id": "tomatoes-greenhouse",
         "term": "Tomatoes, greenhouse",
         "refs": [
@@ -9487,14 +9848,14 @@
           {
             "source": "vegetable:tomato_greenhouse",
             "prefix": "",
-            "folio": 82,
+            "folio": 92,
             "pdf": "output/pdf/reader-edit-pass/guides/tomato_greenhouse-imperial-clean.pdf",
             "page": 1
           },
           {
             "source": "vegetable:tomato_greenhouse",
             "prefix": "",
-            "folio": 83,
+            "folio": 93,
             "pdf": "output/pdf/reader-edit-pass/guides/tomato_greenhouse-imperial-clean.pdf",
             "page": 2
           },
@@ -9536,7 +9897,7 @@
         ],
         "displayReferences": [
           {
-            "label": "82–83",
+            "label": "92–93",
             "pdf": "output/pdf/reader-edit-pass/guides/tomato_greenhouse-imperial-clean.pdf",
             "page": 1
           },
@@ -9556,20 +9917,24 @@
           },
           {
             "source": "trouble:tomato_troubles"
+          },
+          {
+            "source": "technique:supports",
+            "pageOffset": 1
           }
         ],
         "references": [
           {
             "source": "vegetable:tomato_outdoor",
             "prefix": "",
-            "folio": 84,
+            "folio": 94,
             "pdf": "output/pdf/approved-two-page-guides/imperial/tomato_outdoor.pdf",
             "page": 1
           },
           {
             "source": "vegetable:tomato_outdoor",
             "prefix": "",
-            "folio": 85,
+            "folio": 95,
             "pdf": "output/pdf/approved-two-page-guides/imperial/tomato_outdoor.pdf",
             "page": 2
           },
@@ -9607,11 +9972,18 @@
             "folio": 142,
             "pdf": "output/pdf/book-preparation/bookvault/imperial/trouble_tomato_troubles.pdf",
             "page": 5
+          },
+          {
+            "source": "technique:supports",
+            "prefix": "",
+            "folio": 163,
+            "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
+            "page": 2
           }
         ],
         "displayReferences": [
           {
-            "label": "84–85",
+            "label": "94–95",
             "pdf": "output/pdf/approved-two-page-guides/imperial/tomato_outdoor.pdf",
             "page": 1
           },
@@ -9619,6 +9991,11 @@
             "label": "138–142",
             "pdf": "output/pdf/book-preparation/bookvault/imperial/trouble_tomato_troubles.pdf",
             "page": 1
+          },
+          {
+            "label": "163",
+            "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
+            "page": 2
           }
         ]
       },
@@ -9700,14 +10077,14 @@
           {
             "source": "vegetable:turnip",
             "prefix": "",
-            "folio": 30,
+            "folio": 96,
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_turnip.pdf",
             "page": 1
           },
           {
             "source": "vegetable:turnip",
             "prefix": "",
-            "folio": 31,
+            "folio": 97,
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_turnip.pdf",
             "page": 2
           },
@@ -9728,7 +10105,7 @@
         ],
         "displayReferences": [
           {
-            "label": "30–31",
+            "label": "96–97",
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_turnip.pdf",
             "page": 1
           },
@@ -9937,14 +10314,14 @@
           {
             "source": "technique:watering",
             "prefix": "",
-            "folio": 160,
+            "folio": 164,
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 15
           }
         ],
         "displayReferences": [
           {
-            "label": "160",
+            "label": "164",
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 15
           }
@@ -9962,14 +10339,14 @@
           {
             "source": "technique:watering",
             "prefix": "",
-            "folio": 160,
+            "folio": 164,
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 15
           }
         ],
         "displayReferences": [
           {
-            "label": "160",
+            "label": "164",
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 15
           }
@@ -10150,6 +10527,58 @@
         ]
       },
       {
+        "id": "wigwams",
+        "term": "Wigwams",
+        "refs": [
+          {
+            "source": "technique:supports",
+            "pageOffset": 0
+          }
+        ],
+        "references": [
+          {
+            "source": "technique:supports",
+            "prefix": "",
+            "folio": 162,
+            "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
+            "page": 1
+          }
+        ],
+        "displayReferences": [
+          {
+            "label": "162",
+            "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
+            "page": 1
+          }
+        ]
+      },
+      {
+        "id": "windbreaks",
+        "term": "Windbreaks",
+        "refs": [
+          {
+            "source": "technique:supports",
+            "pageOffset": 1
+          }
+        ],
+        "references": [
+          {
+            "source": "technique:supports",
+            "prefix": "",
+            "folio": 163,
+            "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
+            "page": 2
+          }
+        ],
+        "displayReferences": [
+          {
+            "label": "163",
+            "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
+            "page": 2
+          }
+        ]
+      },
+      {
         "id": "windowsill-raising-seedlings",
         "term": "Windowsill, raising seedlings",
         "refs": [
@@ -10192,60 +10621,60 @@
           {
             "source": "vegetable:parsnip",
             "prefix": "",
-            "folio": 20,
+            "folio": 72,
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_parsnip.pdf",
             "page": 1
           },
           {
             "source": "vegetable:parsnip",
             "prefix": "",
-            "folio": 21,
+            "folio": 73,
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_parsnip.pdf",
             "page": 2
           },
           {
             "source": "vegetable:kale",
             "prefix": "",
-            "folio": 40,
+            "folio": 58,
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_kale.pdf",
             "page": 1
           },
           {
             "source": "vegetable:kale",
             "prefix": "",
-            "folio": 41,
+            "folio": 59,
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_kale.pdf",
             "page": 2
           },
           {
             "source": "vegetable:leek",
             "prefix": "",
-            "folio": 64,
+            "folio": 62,
             "pdf": "output/pdf/reader-edit-pass/guides/leek-imperial-clean.pdf",
             "page": 1
           },
           {
             "source": "vegetable:leek",
             "prefix": "",
-            "folio": 65,
+            "folio": 63,
             "pdf": "output/pdf/reader-edit-pass/guides/leek-imperial-clean.pdf",
             "page": 2
           }
         ],
         "displayReferences": [
           {
-            "label": "20–21",
-            "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_parsnip.pdf",
-            "page": 1
-          },
-          {
-            "label": "40–41",
+            "label": "58–59",
             "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_kale.pdf",
             "page": 1
           },
           {
-            "label": "64–65",
+            "label": "62–63",
             "pdf": "output/pdf/reader-edit-pass/guides/leek-imperial-clean.pdf",
+            "page": 1
+          },
+          {
+            "label": "72–73",
+            "pdf": "output/pdf/book-preparation/bookvault/imperial/vegetable_parsnip.pdf",
             "page": 1
           }
         ]
@@ -10697,21 +11126,21 @@
           {
             "source": "vegetable:artichoke_globe",
             "prefix": "",
-            "folio": 86,
+            "folio": 10,
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_artichoke_globe.pdf",
             "page": 1
           },
           {
             "source": "vegetable:artichoke_globe",
             "prefix": "",
-            "folio": 87,
+            "folio": 11,
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_artichoke_globe.pdf",
             "page": 2
           }
         ],
         "displayReferences": [
           {
-            "label": "86–87",
+            "label": "10–11",
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_artichoke_globe.pdf",
             "page": 1
           }
@@ -10729,21 +11158,21 @@
           {
             "source": "vegetable:artichoke_jerusalem",
             "prefix": "",
-            "folio": 10,
+            "folio": 12,
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_artichoke_jerusalem.pdf",
             "page": 1
           },
           {
             "source": "vegetable:artichoke_jerusalem",
             "prefix": "",
-            "folio": 11,
+            "folio": 13,
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_artichoke_jerusalem.pdf",
             "page": 2
           }
         ],
         "displayReferences": [
           {
-            "label": "10–11",
+            "label": "12–13",
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_artichoke_jerusalem.pdf",
             "page": 1
           }
@@ -10761,21 +11190,21 @@
           {
             "source": "vegetable:asparagus",
             "prefix": "",
-            "folio": 88,
+            "folio": 14,
             "pdf": "output/pdf/reader-edit-pass/guides/asparagus-metric-clean.pdf",
             "page": 1
           },
           {
             "source": "vegetable:asparagus",
             "prefix": "",
-            "folio": 89,
+            "folio": 15,
             "pdf": "output/pdf/reader-edit-pass/guides/asparagus-metric-clean.pdf",
             "page": 2
           }
         ],
         "displayReferences": [
           {
-            "label": "88–89",
+            "label": "14–15",
             "pdf": "output/pdf/reader-edit-pass/guides/asparagus-metric-clean.pdf",
             "page": 1
           }
@@ -10793,21 +11222,21 @@
           {
             "source": "vegetable:aubergine",
             "prefix": "",
-            "folio": 68,
+            "folio": 16,
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_aubergine.pdf",
             "page": 1
           },
           {
             "source": "vegetable:aubergine",
             "prefix": "",
-            "folio": 69,
+            "folio": 17,
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_aubergine.pdf",
             "page": 2
           }
         ],
         "displayReferences": [
           {
-            "label": "68–69",
+            "label": "16–17",
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_aubergine.pdf",
             "page": 1
           }
@@ -10878,20 +11307,24 @@
           },
           {
             "source": "trouble:bean_and_pea_troubles"
+          },
+          {
+            "source": "technique:supports",
+            "pageOffset": 0
           }
         ],
         "references": [
           {
             "source": "vegetable:bean_broad",
             "prefix": "",
-            "folio": 42,
+            "folio": 18,
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_bean_broad.pdf",
             "page": 1
           },
           {
             "source": "vegetable:bean_broad",
             "prefix": "",
-            "folio": 43,
+            "folio": 19,
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_bean_broad.pdf",
             "page": 2
           },
@@ -10922,17 +11355,29 @@
             "folio": 103,
             "pdf": "output/pdf/book-preparation/bookvault/metric/trouble_bean_and_pea_troubles.pdf",
             "page": 4
+          },
+          {
+            "source": "technique:supports",
+            "prefix": "",
+            "folio": 162,
+            "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
+            "page": 1
           }
         ],
         "displayReferences": [
           {
-            "label": "42–43",
+            "label": "18–19",
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_bean_broad.pdf",
             "page": 1
           },
           {
             "label": "100–103",
             "pdf": "output/pdf/book-preparation/bookvault/metric/trouble_bean_and_pea_troubles.pdf",
+            "page": 1
+          },
+          {
+            "label": "162",
+            "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
             "page": 1
           }
         ]
@@ -10974,20 +11419,24 @@
           },
           {
             "source": "trouble:bean_and_pea_troubles"
+          },
+          {
+            "source": "technique:supports",
+            "pageOffset": 0
           }
         ],
         "references": [
           {
             "source": "vegetable:bean_french",
             "prefix": "",
-            "folio": 44,
+            "folio": 20,
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_bean_french.pdf",
             "page": 1
           },
           {
             "source": "vegetable:bean_french",
             "prefix": "",
-            "folio": 45,
+            "folio": 21,
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_bean_french.pdf",
             "page": 2
           },
@@ -11018,17 +11467,29 @@
             "folio": 103,
             "pdf": "output/pdf/book-preparation/bookvault/metric/trouble_bean_and_pea_troubles.pdf",
             "page": 4
+          },
+          {
+            "source": "technique:supports",
+            "prefix": "",
+            "folio": 162,
+            "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
+            "page": 1
           }
         ],
         "displayReferences": [
           {
-            "label": "44–45",
+            "label": "20–21",
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_bean_french.pdf",
             "page": 1
           },
           {
             "label": "100–103",
             "pdf": "output/pdf/book-preparation/bookvault/metric/trouble_bean_and_pea_troubles.pdf",
+            "page": 1
+          },
+          {
+            "label": "162",
+            "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
             "page": 1
           }
         ]
@@ -11042,20 +11503,24 @@
           },
           {
             "source": "trouble:bean_and_pea_troubles"
+          },
+          {
+            "source": "technique:supports",
+            "pageOffset": 0
           }
         ],
         "references": [
           {
             "source": "vegetable:bean_runner",
             "prefix": "",
-            "folio": 46,
+            "folio": 22,
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_bean_runner.pdf",
             "page": 1
           },
           {
             "source": "vegetable:bean_runner",
             "prefix": "",
-            "folio": 47,
+            "folio": 23,
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_bean_runner.pdf",
             "page": 2
           },
@@ -11086,17 +11551,29 @@
             "folio": 103,
             "pdf": "output/pdf/book-preparation/bookvault/metric/trouble_bean_and_pea_troubles.pdf",
             "page": 4
+          },
+          {
+            "source": "technique:supports",
+            "prefix": "",
+            "folio": 162,
+            "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
+            "page": 1
           }
         ],
         "displayReferences": [
           {
-            "label": "46–47",
+            "label": "22–23",
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_bean_runner.pdf",
             "page": 1
           },
           {
             "label": "100–103",
             "pdf": "output/pdf/book-preparation/bookvault/metric/trouble_bean_and_pea_troubles.pdf",
+            "page": 1
+          },
+          {
+            "label": "162",
+            "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
             "page": 1
           }
         ]
@@ -11148,14 +11625,14 @@
           {
             "source": "technique:greenhouse-beds",
             "prefix": "",
-            "folio": 162,
+            "folio": 166,
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 17
           }
         ],
         "displayReferences": [
           {
-            "label": "162",
+            "label": "166",
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 17
           }
@@ -11176,14 +11653,14 @@
           {
             "source": "vegetable:beet_leaf",
             "prefix": "",
-            "folio": 50,
+            "folio": 24,
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_beet_leaf.pdf",
             "page": 1
           },
           {
             "source": "vegetable:beet_leaf",
             "prefix": "",
-            "folio": 51,
+            "folio": 25,
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_beet_leaf.pdf",
             "page": 2
           },
@@ -11204,7 +11681,7 @@
         ],
         "displayReferences": [
           {
-            "label": "50–51",
+            "label": "24–25",
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_beet_leaf.pdf",
             "page": 1
           },
@@ -11258,14 +11735,14 @@
           {
             "source": "vegetable:beetroot",
             "prefix": "",
-            "folio": 12,
+            "folio": 26,
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_beetroot.pdf",
             "page": 1
           },
           {
             "source": "vegetable:beetroot",
             "prefix": "",
-            "folio": 13,
+            "folio": 27,
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_beetroot.pdf",
             "page": 2
           },
@@ -11286,7 +11763,7 @@
         ],
         "displayReferences": [
           {
-            "label": "12–13",
+            "label": "26–27",
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_beetroot.pdf",
             "page": 1
           },
@@ -11312,6 +11789,10 @@
           {
             "source": "trouble:turnip_swede_radish_troubles",
             "condition": "bird_damage"
+          },
+          {
+            "source": "technique:netting",
+            "pageOffset": 0
           }
         ],
         "references": [
@@ -11341,6 +11822,13 @@
             "folio": 143,
             "pdf": "output/pdf/book-preparation/bookvault/metric/trouble_turnip_swede_radish_troubles.pdf",
             "page": 1
+          },
+          {
+            "source": "technique:netting",
+            "prefix": "",
+            "folio": 160,
+            "pdf": "output/pdf/topic-pages/netting-revised-draft.pdf",
+            "page": 1
           }
         ],
         "displayReferences": [
@@ -11357,6 +11845,11 @@
           {
             "label": "143",
             "pdf": "output/pdf/book-preparation/bookvault/metric/trouble_turnip_swede_radish_troubles.pdf",
+            "page": 1
+          },
+          {
+            "label": "160",
+            "pdf": "output/pdf/topic-pages/netting-revised-draft.pdf",
             "page": 1
           }
         ]
@@ -11977,6 +12470,32 @@
         "displayReferences": []
       },
       {
+        "id": "bracing",
+        "term": "Bracing",
+        "refs": [
+          {
+            "source": "technique:supports",
+            "pageOffset": 1
+          }
+        ],
+        "references": [
+          {
+            "source": "technique:supports",
+            "prefix": "",
+            "folio": 163,
+            "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
+            "page": 2
+          }
+        ],
+        "displayReferences": [
+          {
+            "label": "163",
+            "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
+            "page": 2
+          }
+        ]
+      },
+      {
         "id": "broad-beans",
         "term": "Broad beans",
         "see": "beans-broad",
@@ -11998,14 +12517,14 @@
           {
             "source": "vegetable:broccoli",
             "prefix": "",
-            "folio": 32,
+            "folio": 28,
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_broccoli.pdf",
             "page": 1
           },
           {
             "source": "vegetable:broccoli",
             "prefix": "",
-            "folio": 33,
+            "folio": 29,
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_broccoli.pdf",
             "page": 2
           },
@@ -12054,7 +12573,7 @@
         ],
         "displayReferences": [
           {
-            "label": "32–33",
+            "label": "28–29",
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_broccoli.pdf",
             "page": 1
           },
@@ -12081,20 +12600,24 @@
           },
           {
             "source": "trouble:brassica_troubles"
+          },
+          {
+            "source": "technique:supports",
+            "pageOffset": 1
           }
         ],
         "references": [
           {
             "source": "vegetable:brussels_sprouts",
             "prefix": "",
-            "folio": 34,
+            "folio": 30,
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_brussels_sprouts.pdf",
             "page": 1
           },
           {
             "source": "vegetable:brussels_sprouts",
             "prefix": "",
-            "folio": 35,
+            "folio": 31,
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_brussels_sprouts.pdf",
             "page": 2
           },
@@ -12139,11 +12662,18 @@
             "folio": 111,
             "pdf": "output/pdf/book-preparation/bookvault/metric/trouble_brassica_troubles.pdf",
             "page": 6
+          },
+          {
+            "source": "technique:supports",
+            "prefix": "",
+            "folio": 163,
+            "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
+            "page": 2
           }
         ],
         "displayReferences": [
           {
-            "label": "34–35",
+            "label": "30–31",
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_brussels_sprouts.pdf",
             "page": 1
           },
@@ -12151,6 +12681,11 @@
             "label": "106–111",
             "pdf": "output/pdf/book-preparation/bookvault/metric/trouble_brassica_troubles.pdf",
             "page": 1
+          },
+          {
+            "label": "163",
+            "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
+            "page": 2
           }
         ]
       },
@@ -12225,14 +12760,14 @@
           {
             "source": "vegetable:cabbage",
             "prefix": "",
-            "folio": 36,
+            "folio": 32,
             "pdf": "output/pdf/reader-edit-pass/guides/cabbage-metric-clean.pdf",
             "page": 1
           },
           {
             "source": "vegetable:cabbage",
             "prefix": "",
-            "folio": 37,
+            "folio": 33,
             "pdf": "output/pdf/reader-edit-pass/guides/cabbage-metric-clean.pdf",
             "page": 2
           },
@@ -12281,7 +12816,7 @@
         ],
         "displayReferences": [
           {
-            "label": "36–37",
+            "label": "32–33",
             "pdf": "output/pdf/reader-edit-pass/guides/cabbage-metric-clean.pdf",
             "page": 1
           },
@@ -12543,14 +13078,14 @@
           {
             "source": "vegetable:carrot",
             "prefix": "",
-            "folio": 14,
+            "folio": 36,
             "pdf": "output/pdf/reader-edit-pass/guides/carrot-metric-clean.pdf",
             "page": 1
           },
           {
             "source": "vegetable:carrot",
             "prefix": "",
-            "folio": 15,
+            "folio": 37,
             "pdf": "output/pdf/reader-edit-pass/guides/carrot-metric-clean.pdf",
             "page": 2
           },
@@ -12578,7 +13113,7 @@
         ],
         "displayReferences": [
           {
-            "label": "14–15",
+            "label": "36–37",
             "pdf": "output/pdf/reader-edit-pass/guides/carrot-metric-clean.pdf",
             "page": 1
           },
@@ -12760,14 +13295,14 @@
           {
             "source": "vegetable:celeriac",
             "prefix": "",
-            "folio": 16,
+            "folio": 40,
             "pdf": "output/pdf/reader-edit-pass/guides/celeriac-metric-clean.pdf",
             "page": 1
           },
           {
             "source": "vegetable:celeriac",
             "prefix": "",
-            "folio": 17,
+            "folio": 41,
             "pdf": "output/pdf/reader-edit-pass/guides/celeriac-metric-clean.pdf",
             "page": 2
           },
@@ -12788,7 +13323,7 @@
         ],
         "displayReferences": [
           {
-            "label": "16–17",
+            "label": "40–41",
             "pdf": "output/pdf/reader-edit-pass/guides/celeriac-metric-clean.pdf",
             "page": 1
           },
@@ -12814,14 +13349,14 @@
           {
             "source": "vegetable:celery",
             "prefix": "",
-            "folio": 90,
+            "folio": 42,
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_celery.pdf",
             "page": 1
           },
           {
             "source": "vegetable:celery",
             "prefix": "",
-            "folio": 91,
+            "folio": 43,
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_celery.pdf",
             "page": 2
           },
@@ -12842,7 +13377,7 @@
         ],
         "displayReferences": [
           {
-            "label": "90–91",
+            "label": "42–43",
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_celery.pdf",
             "page": 1
           },
@@ -12984,21 +13519,21 @@
           {
             "source": "vegetable:chicory",
             "prefix": "",
-            "folio": 52,
+            "folio": 44,
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_chicory.pdf",
             "page": 1
           },
           {
             "source": "vegetable:chicory",
             "prefix": "",
-            "folio": 53,
+            "folio": 45,
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_chicory.pdf",
             "page": 2
           }
         ],
         "displayReferences": [
           {
-            "label": "52–53",
+            "label": "44–45",
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_chicory.pdf",
             "page": 1
           }
@@ -13298,14 +13833,14 @@
           {
             "source": "technique:greenhouse-beds",
             "prefix": "",
-            "folio": 162,
+            "folio": 166,
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 17
           }
         ],
         "displayReferences": [
           {
-            "label": "162",
+            "label": "166",
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 17
           }
@@ -13326,14 +13861,14 @@
           {
             "source": "vegetable:marrow_courgette",
             "prefix": "",
-            "folio": 72,
+            "folio": 46,
             "pdf": "output/pdf/reader-edit-pass/guides/marrow_courgette-metric-clean.pdf",
             "page": 1
           },
           {
             "source": "vegetable:marrow_courgette",
             "prefix": "",
-            "folio": 73,
+            "folio": 47,
             "pdf": "output/pdf/reader-edit-pass/guides/marrow_courgette-metric-clean.pdf",
             "page": 2
           },
@@ -13375,7 +13910,7 @@
         ],
         "displayReferences": [
           {
-            "label": "72–73",
+            "label": "46–47",
             "pdf": "output/pdf/reader-edit-pass/guides/marrow_courgette-metric-clean.pdf",
             "page": 1
           },
@@ -13474,14 +14009,14 @@
           {
             "source": "vegetable:cucumber_greenhouse",
             "prefix": "",
-            "folio": 74,
+            "folio": 48,
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_cucumber_greenhouse.pdf",
             "page": 1
           },
           {
             "source": "vegetable:cucumber_greenhouse",
             "prefix": "",
-            "folio": 75,
+            "folio": 49,
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_cucumber_greenhouse.pdf",
             "page": 2
           },
@@ -13523,7 +14058,7 @@
         ],
         "displayReferences": [
           {
-            "label": "74–75",
+            "label": "48–49",
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_cucumber_greenhouse.pdf",
             "page": 1
           },
@@ -13549,14 +14084,14 @@
           {
             "source": "vegetable:cucumber_outdoor",
             "prefix": "",
-            "folio": 76,
+            "folio": 50,
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_cucumber_outdoor.pdf",
             "page": 1
           },
           {
             "source": "vegetable:cucumber_outdoor",
             "prefix": "",
-            "folio": 77,
+            "folio": 51,
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_cucumber_outdoor.pdf",
             "page": 2
           },
@@ -13598,7 +14133,7 @@
         ],
         "displayReferences": [
           {
-            "label": "76–77",
+            "label": "50–51",
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_cucumber_outdoor.pdf",
             "page": 1
           },
@@ -13964,7 +14499,7 @@
           {
             "source": "technique:watering",
             "prefix": "",
-            "folio": 160,
+            "folio": 164,
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 15
           }
@@ -13976,7 +14511,7 @@
             "page": 5
           },
           {
-            "label": "160",
+            "label": "164",
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 15
           }
@@ -14117,14 +14652,14 @@
           {
             "source": "vegetable:endive",
             "prefix": "",
-            "folio": 54,
+            "folio": 52,
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_endive.pdf",
             "page": 1
           },
           {
             "source": "vegetable:endive",
             "prefix": "",
-            "folio": 55,
+            "folio": 53,
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_endive.pdf",
             "page": 2
           },
@@ -14152,7 +14687,7 @@
         ],
         "displayReferences": [
           {
-            "label": "54–55",
+            "label": "52–53",
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_endive.pdf",
             "page": 1
           },
@@ -14185,14 +14720,14 @@
           {
             "source": "vegetable:florence_fennel",
             "prefix": "",
-            "folio": 92,
+            "folio": 54,
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_florence_fennel.pdf",
             "page": 1
           },
           {
             "source": "vegetable:florence_fennel",
             "prefix": "",
-            "folio": 93,
+            "folio": 55,
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_florence_fennel.pdf",
             "page": 2
           },
@@ -14206,7 +14741,7 @@
         ],
         "displayReferences": [
           {
-            "label": "92–93",
+            "label": "54–55",
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_florence_fennel.pdf",
             "page": 1
           },
@@ -14314,6 +14849,48 @@
         ]
       },
       {
+        "id": "horticultural-fleece",
+        "term": "Fleece, horticultural",
+        "refs": [
+          {
+            "source": "technique:netting",
+            "pageOffset": 0
+          },
+          {
+            "source": "technique:supports",
+            "pageOffset": 1
+          }
+        ],
+        "references": [
+          {
+            "source": "technique:netting",
+            "prefix": "",
+            "folio": 160,
+            "pdf": "output/pdf/topic-pages/netting-revised-draft.pdf",
+            "page": 1
+          },
+          {
+            "source": "technique:supports",
+            "prefix": "",
+            "folio": 163,
+            "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
+            "page": 2
+          }
+        ],
+        "displayReferences": [
+          {
+            "label": "160",
+            "pdf": "output/pdf/topic-pages/netting-revised-draft.pdf",
+            "page": 1
+          },
+          {
+            "label": "163",
+            "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
+            "page": 2
+          }
+        ]
+      },
+      {
         "id": "florence-fennel",
         "term": "Florence fennel",
         "see": "fennel-florence",
@@ -14369,42 +14946,42 @@
           {
             "source": "vegetable:kale",
             "prefix": "",
-            "folio": 40,
+            "folio": 58,
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_kale.pdf",
             "page": 1
           },
           {
             "source": "vegetable:kale",
             "prefix": "",
-            "folio": 41,
+            "folio": 59,
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_kale.pdf",
             "page": 2
           },
           {
             "source": "vegetable:oriental_leaves",
             "prefix": "",
-            "folio": 58,
+            "folio": 70,
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_oriental_leaves.pdf",
             "page": 1
           },
           {
             "source": "vegetable:oriental_leaves",
             "prefix": "",
-            "folio": 59,
+            "folio": 71,
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_oriental_leaves.pdf",
             "page": 2
           },
           {
             "source": "vegetable:garlic",
             "prefix": "",
-            "folio": 62,
+            "folio": 56,
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_garlic.pdf",
             "page": 1
           },
           {
             "source": "vegetable:garlic",
             "prefix": "",
-            "folio": 63,
+            "folio": 57,
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_garlic.pdf",
             "page": 2
           },
@@ -14425,18 +15002,13 @@
         ],
         "displayReferences": [
           {
-            "label": "40–41",
-            "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_kale.pdf",
-            "page": 1
-          },
-          {
-            "label": "58–59",
-            "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_oriental_leaves.pdf",
-            "page": 1
-          },
-          {
-            "label": "62–63",
+            "label": "56–59",
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_garlic.pdf",
+            "page": 1
+          },
+          {
+            "label": "70–71",
+            "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_oriental_leaves.pdf",
             "page": 1
           },
           {
@@ -14633,6 +15205,32 @@
         ]
       },
       {
+        "id": "fruit-cages",
+        "term": "Fruit cages",
+        "refs": [
+          {
+            "source": "technique:netting",
+            "pageOffset": 0
+          }
+        ],
+        "references": [
+          {
+            "source": "technique:netting",
+            "prefix": "",
+            "folio": 160,
+            "pdf": "output/pdf/topic-pages/netting-revised-draft.pdf",
+            "page": 1
+          }
+        ],
+        "displayReferences": [
+          {
+            "label": "160",
+            "pdf": "output/pdf/topic-pages/netting-revised-draft.pdf",
+            "page": 1
+          }
+        ]
+      },
+      {
         "id": "fruit-set-cucurbits",
         "term": "Fruit set, cucurbits",
         "refs": [
@@ -14815,14 +15413,14 @@
           {
             "source": "vegetable:garlic",
             "prefix": "",
-            "folio": 62,
+            "folio": 56,
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_garlic.pdf",
             "page": 1
           },
           {
             "source": "vegetable:garlic",
             "prefix": "",
-            "folio": 63,
+            "folio": 57,
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_garlic.pdf",
             "page": 2
           },
@@ -14850,7 +15448,7 @@
         ],
         "displayReferences": [
           {
-            "label": "62–63",
+            "label": "56–57",
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_garlic.pdf",
             "page": 1
           },
@@ -14971,14 +15569,14 @@
           {
             "source": "technique:greenhouse-choose",
             "prefix": "",
-            "folio": 161,
+            "folio": 165,
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 16
           }
         ],
         "displayReferences": [
           {
-            "label": "161",
+            "label": "165",
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 16
           }
@@ -14999,21 +15597,21 @@
           {
             "source": "technique:greenhouse-beds",
             "prefix": "",
-            "folio": 162,
+            "folio": 166,
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 17
           },
           {
             "source": "technique:greenhouse-no-dig-seasons",
             "prefix": "",
-            "folio": 163,
+            "folio": 167,
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 18
           }
         ],
         "displayReferences": [
           {
-            "label": "162–163",
+            "label": "166–167",
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 17
           }
@@ -15031,14 +15629,14 @@
           {
             "source": "technique:greenhouse-no-dig-seasons",
             "prefix": "",
-            "folio": 163,
+            "folio": 167,
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 18
           }
         ],
         "displayReferences": [
           {
-            "label": "163",
+            "label": "167",
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 18
           }
@@ -15495,6 +16093,32 @@
         ]
       },
       {
+        "id": "insect-proof-mesh",
+        "term": "Insect-proof mesh",
+        "refs": [
+          {
+            "source": "technique:netting",
+            "pageOffset": 0
+          }
+        ],
+        "references": [
+          {
+            "source": "technique:netting",
+            "prefix": "",
+            "folio": 160,
+            "pdf": "output/pdf/topic-pages/netting-revised-draft.pdf",
+            "page": 1
+          }
+        ],
+        "displayReferences": [
+          {
+            "label": "160",
+            "pdf": "output/pdf/topic-pages/netting-revised-draft.pdf",
+            "page": 1
+          }
+        ]
+      },
+      {
         "id": "jerusalem-artichokes",
         "term": "Jerusalem artichokes",
         "see": "artichokes-jerusalem",
@@ -15516,14 +16140,14 @@
           {
             "source": "vegetable:kale",
             "prefix": "",
-            "folio": 40,
+            "folio": 58,
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_kale.pdf",
             "page": 1
           },
           {
             "source": "vegetable:kale",
             "prefix": "",
-            "folio": 41,
+            "folio": 59,
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_kale.pdf",
             "page": 2
           },
@@ -15572,7 +16196,7 @@
         ],
         "displayReferences": [
           {
-            "label": "40–41",
+            "label": "58–59",
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_kale.pdf",
             "page": 1
           },
@@ -15623,14 +16247,14 @@
           {
             "source": "vegetable:kohl_rabi",
             "prefix": "",
-            "folio": 18,
+            "folio": 60,
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_kohl_rabi.pdf",
             "page": 1
           },
           {
             "source": "vegetable:kohl_rabi",
             "prefix": "",
-            "folio": 19,
+            "folio": 61,
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_kohl_rabi.pdf",
             "page": 2
           },
@@ -15679,7 +16303,7 @@
         ],
         "displayReferences": [
           {
-            "label": "18–19",
+            "label": "60–61",
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_kohl_rabi.pdf",
             "page": 1
           },
@@ -15923,14 +16547,14 @@
           {
             "source": "vegetable:leek",
             "prefix": "",
-            "folio": 64,
+            "folio": 62,
             "pdf": "output/pdf/reader-edit-pass/guides/leek-metric-clean.pdf",
             "page": 1
           },
           {
             "source": "vegetable:leek",
             "prefix": "",
-            "folio": 65,
+            "folio": 63,
             "pdf": "output/pdf/reader-edit-pass/guides/leek-metric-clean.pdf",
             "page": 2
           },
@@ -15958,7 +16582,7 @@
         ],
         "displayReferences": [
           {
-            "label": "64–65",
+            "label": "62–63",
             "pdf": "output/pdf/reader-edit-pass/guides/leek-metric-clean.pdf",
             "page": 1
           },
@@ -15984,14 +16608,14 @@
           {
             "source": "vegetable:lettuce",
             "prefix": "",
-            "folio": 56,
+            "folio": 64,
             "pdf": "output/pdf/reader-edit-pass/guides/lettuce-metric-clean.pdf",
             "page": 1
           },
           {
             "source": "vegetable:lettuce",
             "prefix": "",
-            "folio": 57,
+            "folio": 65,
             "pdf": "output/pdf/reader-edit-pass/guides/lettuce-metric-clean.pdf",
             "page": 2
           },
@@ -16019,7 +16643,7 @@
         ],
         "displayReferences": [
           {
-            "label": "56–57",
+            "label": "64–65",
             "pdf": "output/pdf/reader-edit-pass/guides/lettuce-metric-clean.pdf",
             "page": 1
           },
@@ -16431,21 +17055,21 @@
           {
             "source": "vegetable:mushroom",
             "prefix": "",
-            "folio": 96,
+            "folio": 66,
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_mushroom.pdf",
             "page": 1
           },
           {
             "source": "vegetable:mushroom",
             "prefix": "",
-            "folio": 97,
+            "folio": 67,
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_mushroom.pdf",
             "page": 2
           }
         ],
         "displayReferences": [
           {
-            "label": "96–97",
+            "label": "66–67",
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_mushroom.pdf",
             "page": 1
           }
@@ -16476,6 +17100,64 @@
             "label": "128",
             "pdf": "output/pdf/reader-edit-pass/guides/onion_and_leek_troubles-metric-clean.pdf",
             "page": 3
+          }
+        ]
+      },
+      {
+        "id": "netting",
+        "term": "Netting",
+        "refs": [
+          {
+            "source": "technique:netting"
+          }
+        ],
+        "references": [
+          {
+            "source": "technique:netting",
+            "prefix": "",
+            "folio": 160,
+            "pdf": "output/pdf/topic-pages/netting-revised-draft.pdf",
+            "page": 1
+          },
+          {
+            "source": "technique:netting",
+            "prefix": "",
+            "folio": 161,
+            "pdf": "output/pdf/topic-pages/netting-revised-draft.pdf",
+            "page": 2
+          }
+        ],
+        "displayReferences": [
+          {
+            "label": "160–161",
+            "pdf": "output/pdf/topic-pages/netting-revised-draft.pdf",
+            "page": 1
+          }
+        ]
+      },
+      {
+        "id": "netting-frames",
+        "term": "Netting frames",
+        "refs": [
+          {
+            "source": "technique:netting",
+            "pageOffset": 1
+          }
+        ],
+        "references": [
+          {
+            "source": "technique:netting",
+            "prefix": "",
+            "folio": 161,
+            "pdf": "output/pdf/topic-pages/netting-revised-draft.pdf",
+            "page": 2
+          }
+        ],
+        "displayReferences": [
+          {
+            "label": "161",
+            "pdf": "output/pdf/topic-pages/netting-revised-draft.pdf",
+            "page": 2
           }
         ]
       },
@@ -16516,14 +17198,14 @@
           {
             "source": "technique:greenhouse-no-dig-seasons",
             "prefix": "",
-            "folio": 163,
+            "folio": 167,
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 18
           }
         ],
         "displayReferences": [
           {
-            "label": "163",
+            "label": "167",
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 18
           }
@@ -16622,14 +17304,14 @@
           {
             "source": "vegetable:onion_shallot",
             "prefix": "",
-            "folio": 66,
+            "folio": 68,
             "pdf": "output/pdf/approved-two-page-guides/metric/onions_and_shallots.pdf",
             "page": 1
           },
           {
             "source": "vegetable:onion_shallot",
             "prefix": "",
-            "folio": 67,
+            "folio": 69,
             "pdf": "output/pdf/approved-two-page-guides/metric/onions_and_shallots.pdf",
             "page": 2
           },
@@ -16657,7 +17339,7 @@
         ],
         "displayReferences": [
           {
-            "label": "66–67",
+            "label": "68–69",
             "pdf": "output/pdf/approved-two-page-guides/metric/onions_and_shallots.pdf",
             "page": 1
           },
@@ -16708,14 +17390,14 @@
           {
             "source": "vegetable:oriental_leaves",
             "prefix": "",
-            "folio": 58,
+            "folio": 70,
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_oriental_leaves.pdf",
             "page": 1
           },
           {
             "source": "vegetable:oriental_leaves",
             "prefix": "",
-            "folio": 59,
+            "folio": 71,
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_oriental_leaves.pdf",
             "page": 2
           },
@@ -16736,7 +17418,7 @@
         ],
         "displayReferences": [
           {
-            "label": "58–59",
+            "label": "70–71",
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_oriental_leaves.pdf",
             "page": 1
           },
@@ -16797,14 +17479,14 @@
           {
             "source": "vegetable:parsnip",
             "prefix": "",
-            "folio": 20,
+            "folio": 72,
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_parsnip.pdf",
             "page": 1
           },
           {
             "source": "vegetable:parsnip",
             "prefix": "",
-            "folio": 21,
+            "folio": 73,
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_parsnip.pdf",
             "page": 2
           },
@@ -16832,7 +17514,7 @@
         ],
         "displayReferences": [
           {
-            "label": "20–21",
+            "label": "72–73",
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_parsnip.pdf",
             "page": 1
           },
@@ -16999,20 +17681,24 @@
           },
           {
             "source": "trouble:bean_and_pea_troubles"
+          },
+          {
+            "source": "technique:supports",
+            "pageOffset": 0
           }
         ],
         "references": [
           {
             "source": "vegetable:pea",
             "prefix": "",
-            "folio": 48,
+            "folio": 74,
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_pea.pdf",
             "page": 1
           },
           {
             "source": "vegetable:pea",
             "prefix": "",
-            "folio": 49,
+            "folio": 75,
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_pea.pdf",
             "page": 2
           },
@@ -17043,17 +17729,29 @@
             "folio": 103,
             "pdf": "output/pdf/book-preparation/bookvault/metric/trouble_bean_and_pea_troubles.pdf",
             "page": 4
+          },
+          {
+            "source": "technique:supports",
+            "prefix": "",
+            "folio": 162,
+            "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
+            "page": 1
           }
         ],
         "displayReferences": [
           {
-            "label": "48–49",
+            "label": "74–75",
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_pea.pdf",
             "page": 1
           },
           {
             "label": "100–103",
             "pdf": "output/pdf/book-preparation/bookvault/metric/trouble_bean_and_pea_troubles.pdf",
+            "page": 1
+          },
+          {
+            "label": "162",
+            "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
             "page": 1
           }
         ]
@@ -17098,21 +17796,21 @@
           {
             "source": "vegetable:capsicum",
             "prefix": "",
-            "folio": 70,
+            "folio": 34,
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_capsicum.pdf",
             "page": 1
           },
           {
             "source": "vegetable:capsicum",
             "prefix": "",
-            "folio": 71,
+            "folio": 35,
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_capsicum.pdf",
             "page": 2
           }
         ],
         "displayReferences": [
           {
-            "label": "70–71",
+            "label": "34–35",
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_capsicum.pdf",
             "page": 1
           }
@@ -17172,6 +17870,38 @@
             "label": "159",
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 14
+          }
+        ]
+      },
+      {
+        "id": "plant-supports",
+        "term": "Plant supports",
+        "refs": [
+          {
+            "source": "technique:supports"
+          }
+        ],
+        "references": [
+          {
+            "source": "technique:supports",
+            "prefix": "",
+            "folio": 162,
+            "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
+            "page": 1
+          },
+          {
+            "source": "technique:supports",
+            "prefix": "",
+            "folio": 163,
+            "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
+            "page": 2
+          }
+        ],
+        "displayReferences": [
+          {
+            "label": "162–163",
+            "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
+            "page": 1
           }
         ]
       },
@@ -17341,14 +18071,14 @@
           {
             "source": "vegetable:potato",
             "prefix": "",
-            "folio": 22,
+            "folio": 76,
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_potato.pdf",
             "page": 1
           },
           {
             "source": "vegetable:potato",
             "prefix": "",
-            "folio": 23,
+            "folio": 77,
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_potato.pdf",
             "page": 2
           },
@@ -17390,7 +18120,7 @@
         ],
         "displayReferences": [
           {
-            "label": "22–23",
+            "label": "76–77",
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_potato.pdf",
             "page": 1
           },
@@ -17532,14 +18262,14 @@
           {
             "source": "vegetable:radish",
             "prefix": "",
-            "folio": 24,
+            "folio": 78,
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_radish.pdf",
             "page": 1
           },
           {
             "source": "vegetable:radish",
             "prefix": "",
-            "folio": 25,
+            "folio": 79,
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_radish.pdf",
             "page": 2
           },
@@ -17560,7 +18290,7 @@
         ],
         "displayReferences": [
           {
-            "label": "24–25",
+            "label": "78–79",
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_radish.pdf",
             "page": 1
           },
@@ -17646,21 +18376,21 @@
           {
             "source": "vegetable:rhubarb",
             "prefix": "",
-            "folio": 94,
+            "folio": 80,
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_rhubarb.pdf",
             "page": 1
           },
           {
             "source": "vegetable:rhubarb",
             "prefix": "",
-            "folio": 95,
+            "folio": 81,
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_rhubarb.pdf",
             "page": 2
           }
         ],
         "displayReferences": [
           {
-            "label": "94–95",
+            "label": "80–81",
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_rhubarb.pdf",
             "page": 1
           }
@@ -17878,21 +18608,21 @@
           {
             "source": "vegetable:salsify_scorzonera",
             "prefix": "",
-            "folio": 26,
+            "folio": 82,
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_salsify_scorzonera.pdf",
             "page": 1
           },
           {
             "source": "vegetable:salsify_scorzonera",
             "prefix": "",
-            "folio": 27,
+            "folio": 83,
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_salsify_scorzonera.pdf",
             "page": 2
           }
         ],
         "displayReferences": [
           {
-            "label": "26–27",
+            "label": "82–83",
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_salsify_scorzonera.pdf",
             "page": 1
           }
@@ -18530,14 +19260,14 @@
           {
             "source": "vegetable:spinach",
             "prefix": "",
-            "folio": 60,
+            "folio": 84,
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_spinach.pdf",
             "page": 1
           },
           {
             "source": "vegetable:spinach",
             "prefix": "",
-            "folio": 61,
+            "folio": 85,
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_spinach.pdf",
             "page": 2
           },
@@ -18558,7 +19288,7 @@
         ],
         "displayReferences": [
           {
-            "label": "60–61",
+            "label": "84–85",
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_spinach.pdf",
             "page": 1
           },
@@ -18816,14 +19546,14 @@
           {
             "source": "vegetable:squash_pumpkin",
             "prefix": "",
-            "folio": 78,
+            "folio": 86,
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_squashes_and_pumpkins.pdf",
             "page": 1
           },
           {
             "source": "vegetable:squash_pumpkin",
             "prefix": "",
-            "folio": 79,
+            "folio": 87,
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_squashes_and_pumpkins.pdf",
             "page": 2
           },
@@ -18865,7 +19595,7 @@
         ],
         "displayReferences": [
           {
-            "label": "78–79",
+            "label": "86–87",
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_squashes_and_pumpkins.pdf",
             "page": 1
           },
@@ -18901,6 +19631,32 @@
             "label": "121",
             "pdf": "output/pdf/book-preparation/bookvault/metric/trouble_cucurbit_troubles.pdf",
             "page": 5
+          }
+        ]
+      },
+      {
+        "id": "staking",
+        "term": "Staking",
+        "refs": [
+          {
+            "source": "technique:supports",
+            "pageOffset": 1
+          }
+        ],
+        "references": [
+          {
+            "source": "technique:supports",
+            "prefix": "",
+            "folio": 163,
+            "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
+            "page": 2
+          }
+        ],
+        "displayReferences": [
+          {
+            "label": "163",
+            "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
+            "page": 2
           }
         ]
       },
@@ -19006,59 +19762,59 @@
           {
             "source": "vegetable:carrot",
             "prefix": "",
-            "folio": 14,
+            "folio": 36,
             "pdf": "output/pdf/reader-edit-pass/guides/carrot-metric-clean.pdf",
             "page": 1
           },
           {
             "source": "vegetable:carrot",
             "prefix": "",
-            "folio": 15,
+            "folio": 37,
             "pdf": "output/pdf/reader-edit-pass/guides/carrot-metric-clean.pdf",
             "page": 2
           },
           {
             "source": "vegetable:onion_shallot",
             "prefix": "",
-            "folio": 66,
+            "folio": 68,
             "pdf": "output/pdf/approved-two-page-guides/metric/onions_and_shallots.pdf",
             "page": 1
           },
           {
             "source": "vegetable:onion_shallot",
             "prefix": "",
-            "folio": 67,
+            "folio": 69,
             "pdf": "output/pdf/approved-two-page-guides/metric/onions_and_shallots.pdf",
             "page": 2
           },
           {
             "source": "vegetable:squash_pumpkin",
             "prefix": "",
-            "folio": 78,
+            "folio": 86,
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_squashes_and_pumpkins.pdf",
             "page": 1
           },
           {
             "source": "vegetable:squash_pumpkin",
             "prefix": "",
-            "folio": 79,
+            "folio": 87,
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_squashes_and_pumpkins.pdf",
             "page": 2
           }
         ],
         "displayReferences": [
           {
-            "label": "14–15",
+            "label": "36–37",
             "pdf": "output/pdf/reader-edit-pass/guides/carrot-metric-clean.pdf",
             "page": 1
           },
           {
-            "label": "66–67",
+            "label": "68–69",
             "pdf": "output/pdf/approved-two-page-guides/metric/onions_and_shallots.pdf",
             "page": 1
           },
           {
-            "label": "78–79",
+            "label": "86–87",
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_squashes_and_pumpkins.pdf",
             "page": 1
           }
@@ -19167,14 +19923,14 @@
           {
             "source": "vegetable:swede",
             "prefix": "",
-            "folio": 28,
+            "folio": 88,
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_swede.pdf",
             "page": 1
           },
           {
             "source": "vegetable:swede",
             "prefix": "",
-            "folio": 29,
+            "folio": 89,
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_swede.pdf",
             "page": 2
           },
@@ -19195,7 +19951,7 @@
         ],
         "displayReferences": [
           {
-            "label": "28–29",
+            "label": "88–89",
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_swede.pdf",
             "page": 1
           },
@@ -19246,21 +20002,21 @@
           {
             "source": "vegetable:sweet_corn",
             "prefix": "",
-            "folio": 80,
+            "folio": 90,
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_sweet_corn.pdf",
             "page": 1
           },
           {
             "source": "vegetable:sweet_corn",
             "prefix": "",
-            "folio": 81,
+            "folio": 91,
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_sweet_corn.pdf",
             "page": 2
           }
         ],
         "displayReferences": [
           {
-            "label": "80–81",
+            "label": "90–91",
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_sweet_corn.pdf",
             "page": 1
           }
@@ -19351,6 +20107,32 @@
         ]
       },
       {
+        "id": "tomato-cages",
+        "term": "Tomato cages",
+        "refs": [
+          {
+            "source": "technique:supports",
+            "pageOffset": 1
+          }
+        ],
+        "references": [
+          {
+            "source": "technique:supports",
+            "prefix": "",
+            "folio": 163,
+            "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
+            "page": 2
+          }
+        ],
+        "displayReferences": [
+          {
+            "label": "163",
+            "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
+            "page": 2
+          }
+        ]
+      },
+      {
         "id": "tomatoes-greenhouse",
         "term": "Tomatoes, greenhouse",
         "refs": [
@@ -19365,14 +20147,14 @@
           {
             "source": "vegetable:tomato_greenhouse",
             "prefix": "",
-            "folio": 82,
+            "folio": 92,
             "pdf": "output/pdf/reader-edit-pass/guides/tomato_greenhouse-metric-clean.pdf",
             "page": 1
           },
           {
             "source": "vegetable:tomato_greenhouse",
             "prefix": "",
-            "folio": 83,
+            "folio": 93,
             "pdf": "output/pdf/reader-edit-pass/guides/tomato_greenhouse-metric-clean.pdf",
             "page": 2
           },
@@ -19414,7 +20196,7 @@
         ],
         "displayReferences": [
           {
-            "label": "82–83",
+            "label": "92–93",
             "pdf": "output/pdf/reader-edit-pass/guides/tomato_greenhouse-metric-clean.pdf",
             "page": 1
           },
@@ -19434,20 +20216,24 @@
           },
           {
             "source": "trouble:tomato_troubles"
+          },
+          {
+            "source": "technique:supports",
+            "pageOffset": 1
           }
         ],
         "references": [
           {
             "source": "vegetable:tomato_outdoor",
             "prefix": "",
-            "folio": 84,
+            "folio": 94,
             "pdf": "output/pdf/approved-two-page-guides/metric/tomato_outdoor.pdf",
             "page": 1
           },
           {
             "source": "vegetable:tomato_outdoor",
             "prefix": "",
-            "folio": 85,
+            "folio": 95,
             "pdf": "output/pdf/approved-two-page-guides/metric/tomato_outdoor.pdf",
             "page": 2
           },
@@ -19485,11 +20271,18 @@
             "folio": 142,
             "pdf": "output/pdf/book-preparation/bookvault/metric/trouble_tomato_troubles.pdf",
             "page": 5
+          },
+          {
+            "source": "technique:supports",
+            "prefix": "",
+            "folio": 163,
+            "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
+            "page": 2
           }
         ],
         "displayReferences": [
           {
-            "label": "84–85",
+            "label": "94–95",
             "pdf": "output/pdf/approved-two-page-guides/metric/tomato_outdoor.pdf",
             "page": 1
           },
@@ -19497,6 +20290,11 @@
             "label": "138–142",
             "pdf": "output/pdf/book-preparation/bookvault/metric/trouble_tomato_troubles.pdf",
             "page": 1
+          },
+          {
+            "label": "163",
+            "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
+            "page": 2
           }
         ]
       },
@@ -19578,14 +20376,14 @@
           {
             "source": "vegetable:turnip",
             "prefix": "",
-            "folio": 30,
+            "folio": 96,
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_turnip.pdf",
             "page": 1
           },
           {
             "source": "vegetable:turnip",
             "prefix": "",
-            "folio": 31,
+            "folio": 97,
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_turnip.pdf",
             "page": 2
           },
@@ -19606,7 +20404,7 @@
         ],
         "displayReferences": [
           {
-            "label": "30–31",
+            "label": "96–97",
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_turnip.pdf",
             "page": 1
           },
@@ -19815,14 +20613,14 @@
           {
             "source": "technique:watering",
             "prefix": "",
-            "folio": 160,
+            "folio": 164,
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 15
           }
         ],
         "displayReferences": [
           {
-            "label": "160",
+            "label": "164",
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 15
           }
@@ -19840,14 +20638,14 @@
           {
             "source": "technique:watering",
             "prefix": "",
-            "folio": 160,
+            "folio": 164,
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 15
           }
         ],
         "displayReferences": [
           {
-            "label": "160",
+            "label": "164",
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 15
           }
@@ -20028,6 +20826,58 @@
         ]
       },
       {
+        "id": "wigwams",
+        "term": "Wigwams",
+        "refs": [
+          {
+            "source": "technique:supports",
+            "pageOffset": 0
+          }
+        ],
+        "references": [
+          {
+            "source": "technique:supports",
+            "prefix": "",
+            "folio": 162,
+            "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
+            "page": 1
+          }
+        ],
+        "displayReferences": [
+          {
+            "label": "162",
+            "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
+            "page": 1
+          }
+        ]
+      },
+      {
+        "id": "windbreaks",
+        "term": "Windbreaks",
+        "refs": [
+          {
+            "source": "technique:supports",
+            "pageOffset": 1
+          }
+        ],
+        "references": [
+          {
+            "source": "technique:supports",
+            "prefix": "",
+            "folio": 163,
+            "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
+            "page": 2
+          }
+        ],
+        "displayReferences": [
+          {
+            "label": "163",
+            "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
+            "page": 2
+          }
+        ]
+      },
+      {
         "id": "windowsill-raising-seedlings",
         "term": "Windowsill, raising seedlings",
         "refs": [
@@ -20070,60 +20920,60 @@
           {
             "source": "vegetable:parsnip",
             "prefix": "",
-            "folio": 20,
+            "folio": 72,
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_parsnip.pdf",
             "page": 1
           },
           {
             "source": "vegetable:parsnip",
             "prefix": "",
-            "folio": 21,
+            "folio": 73,
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_parsnip.pdf",
             "page": 2
           },
           {
             "source": "vegetable:kale",
             "prefix": "",
-            "folio": 40,
+            "folio": 58,
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_kale.pdf",
             "page": 1
           },
           {
             "source": "vegetable:kale",
             "prefix": "",
-            "folio": 41,
+            "folio": 59,
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_kale.pdf",
             "page": 2
           },
           {
             "source": "vegetable:leek",
             "prefix": "",
-            "folio": 64,
+            "folio": 62,
             "pdf": "output/pdf/reader-edit-pass/guides/leek-metric-clean.pdf",
             "page": 1
           },
           {
             "source": "vegetable:leek",
             "prefix": "",
-            "folio": 65,
+            "folio": 63,
             "pdf": "output/pdf/reader-edit-pass/guides/leek-metric-clean.pdf",
             "page": 2
           }
         ],
         "displayReferences": [
           {
-            "label": "20–21",
-            "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_parsnip.pdf",
-            "page": 1
-          },
-          {
-            "label": "40–41",
+            "label": "58–59",
             "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_kale.pdf",
             "page": 1
           },
           {
-            "label": "64–65",
+            "label": "62–63",
             "pdf": "output/pdf/reader-edit-pass/guides/leek-metric-clean.pdf",
+            "page": 1
+          },
+          {
+            "label": "72–73",
+            "pdf": "output/pdf/book-preparation/bookvault/metric/vegetable_parsnip.pdf",
             "page": 1
           }
         ]

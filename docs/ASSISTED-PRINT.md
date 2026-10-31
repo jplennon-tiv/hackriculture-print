@@ -25,8 +25,8 @@ format contracts below own design rules. Ordinary exports remain deterministic.
 3. Read live records and reviewed source-linked companions; preserve locks and
    manual edits. Select distinct crop-applicable advice before measuring. Keep
    complete diagnostic entries, meaningful unit pairs, methods and qualifications.
-   Resolve substantive facts through the repository's RHS-first organic-advice
-   rules, within the task's authorised scope.
+   Resolve substantive facts through the [Gardening Research hierarchy](../AGENTS.md#gardening-content-and-shared-data),
+   within the task's authorised scope.
 4. For book preparation, keep new editorial copy in separate source-linked working
    drafts; canonical records are unchanged. If shared editorial work is separately
    in scope, use its guarded writer and exact prior-byte backups. Never stamp

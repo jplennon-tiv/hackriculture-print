@@ -22,7 +22,8 @@ const entries=resolved.editions.imperial,byId=new Map(entries.map(e=>[e.id,e]));
 const items=entries.map(e=>({id:e.id,letter:(e.sortAs||e.term)[0].toUpperCase(),html:`<p class="entry" id="entry-${esc(e.id)}"><span class="term">${esc(e.term)}</span>${e.see?` <span class="crossref"><em>see</em> <a href="#entry-${esc(e.see)}">${esc(byId.get(e.see).term)}</a></span>`:`<span class="references">${e.displayReferences.map(ref=>`<a href="${integrated?esc(bookPdf)+'#page='+(parseInt(ref.label,10)+2):'/'+esc(ref.pdf)+'#page='+ref.page}" target="_blank">${esc(ref.label)}</a>`).join(', ')}</span>`}${e.seeAlso?.length?` <span class="crossref"><em>see also</em> ${e.seeAlso.map(id=>esc(byId.get(id).term)).join('; ')}</span>`:''}</p>`}));
 const legend=resolved.temporaryTopicReferences?'Review key: number = book · T = techniques · C = cultivation. T/C references are temporary.':'Page numbers follow the supplied book assembly and topic-page map.';
 const header=range=>`<header><h1>${esc(resolved.heading)}<span>${range}</span></h1>${integrated?'':`<p class="legend">${esc(legend)}</p>`}</header>`;
-const shell=body=>`<!doctype html><html lang="en-GB"><meta charset="utf-8"><title>The Vegetable Guru · Index proof</title><link rel="stylesheet" href="/docs/publication/book-index/index.css"><main>${body}</main></html>`;
+const stylesheet=integrated?'docs/publication/whole-book-order-preview/index.css':'docs/publication/book-index/index.css';
+const shell=body=>`<!doctype html><html lang="en-GB"><meta charset="utf-8"><title>The Vegetable Guru · Index proof</title><link rel="stylesheet" href="/${stylesheet}"><main>${body}</main></html>`;
 const browser=await chromium.launch();
 try{
  const page=await browser.newPage({viewport:{width:1000,height:1100}}),errors=[];

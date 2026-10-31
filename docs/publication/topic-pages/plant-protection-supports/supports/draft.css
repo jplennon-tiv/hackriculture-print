@@ -1,0 +1,27 @@
+@import url('../draft.css');
+
+/* This separate composition leaves the approved Netting source unchanged. */
+.bean-options{display:grid;grid-template-columns:1fr 1fr;gap:6mm;margin-top:3mm}
+.bean-options h2{font-size:21px;min-height:6.5mm;margin-bottom:0}
+.bean-options .art{height:42mm}
+.bean-options figcaption{margin-bottom:1.5mm}
+.bean-options p{font-size:12.6px;line-height:1.36}
+.method-row{display:grid;grid-template-columns:62mm 92mm;gap:6mm;align-items:center;padding:3mm 0;border-bottom:1px solid var(--rule)}
+.method-row .art{height:40mm}
+.method-row h2{font-size:22px}
+.method-peas{margin-top:3mm;border-top:1px solid var(--rule);border-bottom:0}
+.method-peas .art{height:32mm}
+.method-broad-beans{border-top:1px solid var(--rule);border-bottom:0;padding:2mm 0 0}
+.method-broad-beans .art{height:28mm}
+.method-rows{margin-top:3mm}
+.stakes .method-rows{margin-top:2.5mm}
+.stakes .method-row{padding:1.5mm 0}
+.stakes .method-brassica{padding-top:0}
+.method-brassica .art{height:38mm}
+.method-tomatoes .art{height:38mm}
+.method-tomatoes p{text-wrap:pretty}
+.art-pair{display:grid;grid-template-columns:1fr 1fr;grid-template-rows:minmax(0,1fr);gap:2mm;align-items:center}
+.art-pair img{width:100%;height:100%;min-width:0;min-height:0;object-fit:contain}
+.stakes .method-bracing{border-bottom:0;padding-bottom:0}
+.method-bracing .art{height:32mm}
+.closing{margin-top:2.5mm;padding:3mm 4mm;background:var(--leaf)}

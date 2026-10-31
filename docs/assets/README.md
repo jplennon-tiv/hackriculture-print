@@ -40,6 +40,11 @@ difficulty badges. Its frozen four-page proof and layout source are recorded
 in the manifest. All 44 headers are integrated into the full preview; the normal
 individual-guide exporter remains pending.
 
+The [30 October category-name approval](../publication/category-navigation-preview/APPROVAL.json)
+covers the larger coloured names on both pages of the Carrot and Kale examples.
+Guide-wide integration is pending. The how-to colour key in the same five-page
+proof was rejected; do not treat the complete proof as approved.
+
 ## Growing Techniques: cultivation
 
 John approved the four **Cultivation: Dig or No-Dig** pages on 8 October 2026,
@@ -67,22 +72,34 @@ John approved the [four-page index](../publication/book-index/REVIEW.html) on
 It reuses approved contents typography, palette and mirrored margins, with a
 text-only two-column composition. Editable words remain in shared
 `book-layout/index.json`. The current whole-book derivative has numeric folios
-at 164–167; historical T/C references remain only in the preserved standalone
-proof. It includes the five approved reader-edit entries plus eight nutrient-page terms: 286 entries and 35 see references. Source artwork and frozen proofs remain unchanged.
+at 168–171; historical T/C references remain only in the preserved standalone
+proof. It includes the reader-edit and nutrient terms plus 11 Netting/Supports
+entries: 297 entries and 35 see references. Source artwork and frozen proofs remain unchanged.
 
 ## Current section and reader-edit integration
 
 The [18 October section-order approval](../publication/techniques-sequence/APPROVAL-2026-10-18.json)
 freezes the earlier Growing Techniques source at 145–165, including blanks 150 and 162.
 John’s 19 October [subsection revision](../publication/techniques-subsections/README.md)
-removes those blanks and groups the headings, placing the section at 145–163.
+removes those blanks and groups the headings, placing the retained source at 145–163; Netting and Supports now extend the main book section to 145–167.
 It includes all [approved reader edits](../publication/reader-edit-pass/APPROVAL-2026-10-16.json).
 The [expanded rotation approval](../publication/topic-pages/crop-rotation-planning/APPROVAL-2026-10-18.json)
 replaces the earlier one-page rotation; current folios are 148–149. All older
-source pages remain protected. The [current integration receipt](../publication/whole-book-order-preview/integration-2026-10-18/INTEGRATION-CHECKS.json)
+source pages remain protected. The [current integration receipt](../publication/whole-book-order-preview/integration-2026-10-30/INTEGRATION-CHECKS.json)
 identifies every reused PDF and verifies preserved bodies and artwork.
 
 ## Extra opening and Growing Techniques pages
+
+The revised **Netting** section is approved by John on 29 October, including its
+two-page composition, copy and seven placed illustrations. The
+[exact approval and source hashes](../publication/topic-pages/plant-protection-supports/netting/APPROVAL.json)
+identify the [accepted source](../publication/topic-pages/plant-protection-supports/netting/README.md)
+and [PDF](../../output/pdf/topic-pages/netting-revised-draft.pdf). Current folios are
+160–161. John approved **Supports** on 30 October, including its final wording,
+nine placed illustrations and two-page layout; [exact source hashes](../publication/topic-pages/plant-protection-supports/supports/APPROVAL.json)
+freeze its [source PDF](../../output/pdf/topic-pages/supports-revised-draft.pdf).
+Supports occupies 162–163. Both are integrated, with source bodies and artwork
+preserved; the ordered production PDFs remain the earlier physical-proof baseline.
 
 The entire [thirteen-page expansion](../publication/topic-pages/techniques-expansion/REVIEW.html) is approved as complete on 12 October, including its final copy and Organic-second order. The [collection approval](../publication/topic-pages/techniques-expansion/COLLECTION-APPROVAL.json) preserves the final sources and both-unit proofs.
 
@@ -133,6 +150,14 @@ artwork remains part of the design. All 44 hero files are now installed under
 [Approval hashes](../redesign-rollout/APPROVAL.json).
 `src/print/heroArtwork.json` is the active mapping. [Gallery](../redesign-rollout/REVIEW.html)
 and [AI provenance](../redesign-rollout/ARTWORK.json). Old hero artwork is preserved.
+
+Current book Troubles wrapping resources: the [full Brassica proof](../publication/brassica-flow-preview/README.md)
+uses source-bound [SVG masks](../publication/brassica-flow-preview/MASKS.json) alongside
+unchanged diagnostic PNGs. Its image settings are [approved](../publication/troubles-image-size-study/APPROVAL.json);
+its complete-guide composition is for review. The four approved specimen masks
+are reused byte for byte; 25 further masks have overlay and full-PDF checks.
+These are invisible layout resources, not replacement artwork or new transparency
+versions. The maintained report owns reuse/validation instructions and source hashes.
 
 Retained A4 Troubles design: [Open Editorial v1](../troubles-style-pilot/editorial/REVIEW.html),
 approved by John on 28 September. Its [manifest](../troubles-style-pilot/editorial/DESIGN-APPROVAL.json)
@@ -265,6 +290,15 @@ all 81 current destinations are included. Blank 3 puts the contents on facing pa
 4–5, followed by blank 6, Introduction 7, blank 8 and the combined Vegetable Guides/how-to at right-hand page 9. Their current PDF is integrated into
 the complete imperial preview. The plain baseline and exact accepted illustrated
 4–5 proofs are retained under the contents reference folders. Original approved compact and A4 sources remain intact.
+
+John selected [contents colour option A on 30 October](../publication/contents-colour-study/APPROVAL.json):
+existing category deep colours on crop names and folios, 10.5 pt names at weight
+600. Exact A sources and its six-page comparison are retained; B and C are not
+selected. The [complete contents approval](../publication/contents-colour-study/key-preview/APPROVAL.json)
+restores page 4 to A and colours the Troubles entries on page 5, with a paler
+key panel beside H6 harvest. H5 seedlings remains omitted, as John allowed;
+both headers are retained.
+The complete composition is approved but not yet integrated.
 
 ## Illustrated how-to
 

@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-30",
+  "approvedBy": "John Lennon",
+  "statement": "I like the larger, bolder category names - that change is approved. The colour key makes the how-do page look cluttered without adding much value - let's abandon that idea.",
+  "status": "category labels approved; how-to colour key rejected; guide-wide integration pending",
+  "approvedScope": {
+    "categoryLabelPt": 10,
+    "font": "Nunito Sans, weight 900, uppercase",
+    "colour": "Existing family deep colour",
+    "placement": "Both pages of each vegetable guide; first-page category replaces the previous small label, practical heading moves slightly down at unchanged size.",
+    "proofPages": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "sampleFolios": [
+      36,
+      37,
+      58,
+      59
+    ],
+    "pdf": "output/pdf/category-navigation-preview/category-navigation-preview.pdf",
+    "sha256": "a5b4b45838b03ec0c9982a93307d841419063f1a4c4312a2a6200cf01cf84a75"
+  },
+  "rejectedScope": {
+    "proofPage": 1,
+    "description": "Colour key on the how-to page, including the smaller decorative title and illustration used to fit it.",
+    "retainedHowTo": "Current main-book page 9 remains unchanged."
+  },
+  "implementation": {
+    "scripts/build-category-navigation-preview.mjs": "8c132cdef888026247d4848b3fc4216461a827b3065dff31af361f7bd66f7f33",
+    "scripts/review-category-navigation-preview.py": "63ba98ef7450c7969e6a34002b106e2e2713ad6490fb34831b6930ab209a050b",
+    "docs/publication/category-navigation-preview/proposal.css": "554351dbc763f57c5ee60c01de035a8455c0877c5bf372968ddc7e826cf14939"
+  },
+  "nextWork": "Preview contents-page colour treatments separately. Apply approved category names without further approval when next integrating the selected navigation changes; do not integrate the rejected key."
+}

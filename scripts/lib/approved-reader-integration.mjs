@@ -15,7 +15,13 @@ export const approvedTopicOrder=[
  ['technique:greenhouse-beds',164],['technique:greenhouse-no-dig-seasons',165]
 ];
 // Saved 18 October sources keep their folios; the current section omits its two blanks.
-export const currentTopicOrder=approvedTopicOrder.map(([id,folio,count=1])=>[id,folio-(folio>150?1:0)-(folio>162?1:0),count]);
+const subsectionTopicOrder=approvedTopicOrder.map(([id,folio,count=1])=>[id,folio-(folio>150?1:0)-(folio>162?1:0),count]);
+export const plantCareApprovals=['netting','supports'].map(id=>`docs/publication/topic-pages/plant-protection-supports/${id}/APPROVAL.json`);
+// Insert the approved facing spreads without rebuilding the retained topic bodies.
+export const currentTopicOrder=subsectionTopicOrder.flatMap(([id,folio,count])=>[
+ ...(id==='technique:watering'?[['technique:netting',160,2],['technique:supports',162,2]]:[]),
+ [id,folio+(folio>=160?4:0),count]
+]);
 function verify(pdf,expected){const hash=sha256(fs.readFileSync(path.resolve(root,pdf)));if(hash!==expected)throw Error('Approved input changed: '+pdf);return hash;}
 export function loadReaderGuides(){
  const approval=json(readerReceipt),file='docs/publication/reader-edit-pass/guides/MANIFEST.json';
@@ -55,12 +61,20 @@ export function applyApprovedTopics(sources){
  const current=json(currentPath);
  for(const [p,h] of Object.entries(current.inputs))verify(p,h);
  for(const entry of current.entries){
-  const placement=currentTopicOrder.find(([id])=>id===entry.source);
+  const placement=subsectionTopicOrder.find(([id])=>id===entry.source);
   if(!placement||placement[1]!==entry.folio||placement[2]!==entry.physicalPages)throw Error('Subsection placement changed: '+entry.source);
   for(const proof of entry.proofs){
    verify(proof.pdf,proof.sha256);
    sources[proof.units][entry.source]={...proof,subsectionRevision:currentPath};
   }
+ }
+ for(const [i,id] of ['netting','supports'].entries()){
+  const approvalPath=plantCareApprovals[i],approval=json(approvalPath);
+  for(const f of approval.files)verify(f.path,f.sha256);
+  const pdf=`output/pdf/topic-pages/${id}-revised-draft.pdf`;
+  const accepted=approval.files.find(f=>path.resolve(root,f.path)===path.resolve(root,pdf));
+  if(!accepted)throw Error('Approved plant-care PDF missing: '+id);
+  for(const units of ['imperial','metric'])sources[units]['technique:'+id]={pdf,sha256:accepted.sha256,sourcePage:1,physicalPages:2,sourcePdfPages:2,approval:approvalPath};
  }
  return sources;
 }

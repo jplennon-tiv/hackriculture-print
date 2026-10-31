@@ -19,7 +19,7 @@
     "book:entries": "node scripts/build-guru-entry-pages.mjs",
     "book:build": "npm run book:check && npm run book:openings && npm run book:entries",
     "test:book-content": "node --test scripts/book-content.test.mjs",
-    "book:index": "node scripts/build-book-index.mjs --plan=docs/publication/contents-update/ASSEMBLY-PROPOSAL.json --topic-map=docs/publication/contents-update/TOPIC-FOLIOS.json --review-dir=docs/publication/whole-book-order-preview/index --output-dir=tmp/pdfs/whole-book-order-preview --start-page=164 --integrated --book-pdf=/output/pdf/whole-book-order-preview/the-vegetable-guru-order-preview.pdf",
+    "book:index": "node scripts/build-book-index.mjs --plan=docs/publication/contents-update/ASSEMBLY-PROPOSAL.json --topic-map=docs/publication/contents-update/TOPIC-FOLIOS.json --review-dir=docs/publication/whole-book-order-preview/index --output-dir=tmp/pdfs/whole-book-order-preview --start-page=168 --integrated --book-pdf=/output/pdf/whole-book-order-preview/the-vegetable-guru-order-preview.pdf",
     "test:book-index": "node --test scripts/book-index.test.mjs",
     "book:contents": "node scripts/build-updated-contents.mjs",
     "test:book-contents": "node --test scripts/book-contents.test.mjs",

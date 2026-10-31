@@ -1,0 +1,221 @@
+{
+  "date": "2026-10-31",
+  "status": "visually checked by agent; awaits John\u2019s composition review",
+  "scope": {
+    "guides": [
+      "brassica_troubles"
+    ],
+    "units": [
+      "imperial",
+      "metric"
+    ],
+    "folios": [
+      106,
+      107,
+      108,
+      109,
+      110,
+      111
+    ],
+    "entries": 29,
+    "spreads": [
+      [
+        106,
+        107
+      ],
+      [
+        108,
+        109
+      ],
+      [
+        110,
+        111
+      ]
+    ]
+  },
+  "visualReview": {
+    "allImperialPdfPages": true,
+    "actualFacingSpreads": true,
+    "all29MaskOverlays": true,
+    "beforeAfterGuideComparison": true,
+    "metricPagesPixelIdenticalToImperial": true,
+    "observations": [
+      "Complete source diagnostics and advice retained; no observed text/art collisions or clipping.",
+      "Normal inter-entry gaps; unequal lower edges intentional.",
+      "Folio 110 has unavoidable whole-entry whitespace; each possible five-entry split overflows.",
+      "Final page carries trailing space with natural gaps."
+    ]
+  },
+  "outputs": [
+    {
+      "units": "imperial",
+      "beforePages": 6,
+      "afterPages": 6,
+      "entries": 29,
+      "bodyGlyphsAndTypeSizesPreserved": true,
+      "embeddedImagesIdentical": 29,
+      "fontsEmbedded": [
+        "/CAAAAA+LilitaOne",
+        "Embedded Type3 glyphs"
+      ],
+      "output": "output/pdf/brassica-flow-preview/brassica-troubles-imperial.pdf",
+      "sha256": "99052ec05b4f2673a70f84e7b84687a43d8ff1c2ed8da711ddd9d772f43fcf88",
+      "trimMm": [
+        185,
+        240
+      ],
+      "packing": [
+        {
+          "folio": 106,
+          "capacityPx": 704.25,
+          "nextEntryCannotFitAnyOrderedSplit": true,
+          "leftColumnFilledFirst": true
+        },
+        {
+          "folio": 107,
+          "capacityPx": 763.546875,
+          "nextEntryCannotFitAnyOrderedSplit": true,
+          "leftColumnFilledFirst": true
+        },
+        {
+          "folio": 108,
+          "capacityPx": 763.546875,
+          "nextEntryCannotFitAnyOrderedSplit": true,
+          "leftColumnFilledFirst": true
+        },
+        {
+          "folio": 109,
+          "capacityPx": 763.546875,
+          "nextEntryCannotFitAnyOrderedSplit": true,
+          "leftColumnFilledFirst": true
+        },
+        {
+          "folio": 110,
+          "capacityPx": 763.546875,
+          "nextEntryCannotFitAnyOrderedSplit": true,
+          "leftColumnFilledFirst": true
+        },
+        {
+          "folio": 111,
+          "capacityPx": 763.546875,
+          "nextEntryCannotFitAnyOrderedSplit": false,
+          "leftColumnFilledFirst": true
+        }
+      ],
+      "mainBookBodyGlyphsAndTypePreserved": true
+    },
+    {
+      "units": "metric",
+      "beforePages": 6,
+      "afterPages": 6,
+      "entries": 29,
+      "bodyGlyphsAndTypeSizesPreserved": true,
+      "embeddedImagesIdentical": 29,
+      "fontsEmbedded": [
+        "/CAAAAA+LilitaOne",
+        "Embedded Type3 glyphs"
+      ],
+      "output": "output/pdf/brassica-flow-preview/brassica-troubles-metric.pdf",
+      "sha256": "32b9c806e911eea50fac048af1031a956184deaf60682e0834a9d27e5526f7e5",
+      "trimMm": [
+        185,
+        240
+      ],
+      "packing": [
+        {
+          "folio": 106,
+          "capacityPx": 704.25,
+          "nextEntryCannotFitAnyOrderedSplit": true,
+          "leftColumnFilledFirst": true
+        },
+        {
+          "folio": 107,
+          "capacityPx": 763.546875,
+          "nextEntryCannotFitAnyOrderedSplit": true,
+          "leftColumnFilledFirst": true
+        },
+        {
+          "folio": 108,
+          "capacityPx": 763.546875,
+          "nextEntryCannotFitAnyOrderedSplit": true,
+          "leftColumnFilledFirst": true
+        },
+        {
+          "folio": 109,
+          "capacityPx": 763.546875,
+          "nextEntryCannotFitAnyOrderedSplit": true,
+          "leftColumnFilledFirst": true
+        },
+        {
+          "folio": 110,
+          "capacityPx": 763.546875,
+          "nextEntryCannotFitAnyOrderedSplit": true,
+          "leftColumnFilledFirst": true
+        },
+        {
+          "folio": 111,
+          "capacityPx": 763.546875,
+          "nextEntryCannotFitAnyOrderedSplit": false,
+          "leftColumnFilledFirst": true
+        }
+      ],
+      "mainBookBodyGlyphsAndTypePreserved": null
+    }
+  ],
+  "checks": {
+    "routineTests": "43 passed in 7 files",
+    "compactExportTests": "5 passed",
+    "typeCheck": "passed",
+    "localLinksChecked": 432,
+    "missingLinks": [],
+    "approvedSpecimenHashesPreserved": true,
+    "historicalOverwriteGuards": [
+      {
+        "script": "scripts/build-troubles-mask-study.mjs",
+        "overwriteRefused": true
+      },
+      {
+        "script": "scripts/build-troubles-image-size-study.mjs",
+        "overwriteRefused": true
+      },
+      {
+        "script": "scripts/review-troubles-mask-study.py",
+        "overwriteRefused": true
+      },
+      {
+        "script": "scripts/review-troubles-image-size-study.py",
+        "overwriteRefused": true
+      }
+    ],
+    "staleAssetGuards": [
+      {
+        "field": "sourceSha256",
+        "staleAssetRejected": true
+      },
+      {
+        "field": "sha256",
+        "staleAssetRejected": true
+      }
+    ]
+  },
+  "boundaries": {
+    "mainBookChanged": false,
+    "canonicalDataChanged": false,
+    "otherGuidesRebuilt": false,
+    "A4Changed": false,
+    "newLayoutApprovedByUser": false,
+    "supplierFile": false
+  },
+  "sourceHashes": {
+    "src/print/book/renderCompact.ts": "91e28c6a835fc3ec98705c47a6b38ec5c487491eaa1cd8f56affc247de10bf31",
+    "src/print/book/troubleFlow.ts": "5f135b058988f9cdb9cf86980655b29fb5f943a8ac7831512f2b928bc79ab1a0",
+    "src/print/book/compact.css": "2ef16183fadf28bd4ec0e009bdd8cca1f304e23cec955a05206463a88dff488d",
+    "src/print/book/production.css": "37104408aaa64738b6adc02ee71f10046b907bf569ca696166df5b7d0549a8c1",
+    "src/print/book/bookvault.css": "3dd00547266db33c5b458c7a1e4942513961d68773560677a47fe9a4b14d1960",
+    "src/print/book/production.ts": "cf833a8f16ad9b3e3b866e3854b5b3743ba3d1eadd06b61a445e1a06e1e03087",
+    "scripts/build-brassica-flow-preview.mjs": "52a977dbdd9f42052ccb31c2bf4afd95f6e2fc1d1b68a114b7b0acb8ab5ae946",
+    "scripts/review-brassica-flow-preview.py": "6f77da3496179e6aa47deeb83bfbce3217b2b2271540e8d1d5f5a2cff2232dbd",
+    "scripts/lib/troubles-mask.mjs": "d3d00c2593b3bc9750a3b45c1faffa95e9edeaf16d9b62df03a60bb26d61dc4f",
+    "docs/publication/brassica-flow-preview/MASKS.json": "ff8c7c2ecfc08770beb1091ea488be4806ca1f509b6287a6f74dc8c5b75156f3"
+  }
+}

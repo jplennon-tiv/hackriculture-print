@@ -1,0 +1,7 @@
+/* Three isolated contents proposals. The book's accepted stylesheet is unchanged. */
+@import url('/docs/publication/contents-update/contents.css');
+@page{size:185mm 240mm;margin:0}
+.coloured-text .crop-row{color:var(--deep)}
+.coloured-text .crop-name{font-weight:600}
+.bracketed-categories .category{font-size:11px;font-weight:700;color:var(--deep);white-space:nowrap}
+.tinted-rows .crop-row{background:var(--soft);border-left:3px solid var(--deep);padding-left:5px;padding-right:5px;border-bottom-color:var(--paper);}

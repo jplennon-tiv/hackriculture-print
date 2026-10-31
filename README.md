@@ -13,13 +13,39 @@ entry point for current decisions, component status, outstanding work and
 publication/automation boundaries. It distinguishes approved designs from
 working book proofs and historical evidence. Follow John's latest instruction.
 
-**Next session, 26 October:** John is returning to the printed book. The
+**Current work, 31 October:** John has received the physical proof and is
+satisfied with its print quality, accurate colours, coated-paper feel and weight,
+and book size. The post-proof layout pass has started: all 44 vegetable guides
+now run in alphabetical order by their displayed titles, retaining their original
+category colours and complete facing pairs. Contents, index and internal page
+references follow that order. The larger category names are approved, awaiting integration; the how-to key
+was rejected. John has selected [contents option A](docs/publication/contents-colour-study/APPROVAL.json),
+with category-coloured crop names. The [revised contents proof](docs/publication/contents-colour-study/key-preview/README.md)
+colours the Troubles entries and restores the lower key panel beside the harvest
+basket with a paler background. John has approved it; navigation changes
+await integration into the main book. A separate proof removes the repeated
+“Recognise → Act → Prevent” page headers from Troubles and explains the sequence
+on its opener. The [revised section proof](docs/publication/troubles-header-refinement/README.md)
+retains the small labels within each problem's advice.
+John's 31 October request explores separate masks for text flowing around Troubles
+illustrations. He has approved the 4 mm gap and 25% larger proportions in the
+[Brassica size comparison](docs/publication/troubles-image-size-study/README.md)
+for all book Troubles guides, preserving source artwork and advice. He now wants
+unused space to trail on each guide's final page. The
+[complete Brassica proof](docs/publication/brassica-flow-preview/README.md) now combines
+both changes: six pages, all 29 problems, checked in both units, for review before
+rollout to other guides. An opt-in profile preserves ordinary exports and the main
+book. The maintained contract, skill and handover replace the old balancing rules.
+Netting and Supports are approved and integrated at **160–163** in the
+[main book](docs/publication/whole-book-order-preview/REVIEW.html#spread=81),
+with updated contents, page numbering, crop links and index. The introduction
+rewrite remains planned. The
 [website is live](https://hackriculture.com/) and he confirms the SSL issue has
 resolved. The [current handover](docs/handover/START-HERE.md#resume-here) records
 where to resume, the website/print boundary and outstanding publication decisions.
-The first physical proof is ordered: **BV3012332**, £12.58 including First Class.
-Arrival and physical review have not been confirmed here; preserve the ordered
-files and follow John's next print brief. Book sales have not been activated.
+Preserve the exact ordered files for proof **BV3012332**. Physical quality is
+accepted; final corrections, introduction and publication preparation remain.
+Book sales have not been activated.
 
 Before design or artwork work, use the handover's
 [project skill map](docs/handover/START-HERE.md#design-skills--use-before-design-work)
@@ -56,9 +82,9 @@ in this and future sessions. Its maintained source is shared across the data,
 print, website and video projects.
 
 The [current full preview](docs/publication/whole-book-order-preview/REVIEW.html)
-contains **168 interior pages plus four cover leaves: 172 PDF pages**, imperial.
+contains **172 interior pages plus four cover leaves: 176 PDF pages**, imperial.
 All approved reader edits, expanded Crop rotation & planning, the nutrient page
-and John's 19 October Growing Techniques headings are integrated. Its two internal
+and John's Growing Techniques headings, Netting and Supports are integrated. Its two internal
 blank pages have been removed. All 44 vegetables remain two-page facing guides. Contents, index and
 page references are refreshed; highlights are removed and original gardening
 JSON remains unchanged. [Current page map and evidence](docs/publication/whole-book-order-preview/README.md).
@@ -77,8 +103,8 @@ admin password. Keep its terminal open; Control-C stops it. Admin saves and
 browser-rendered PDFs need this server. Normal exports use no AI service.
 Detailed startup and check commands are in [SETUP.md](SETUP.md).
 
-The current index has 286 entries and 35 see references on pages 164–167.
-Contents retain two simple illustrated pages with 81 destinations and no extra
+The current index has 297 entries and 35 see references on pages 168–171.
+Contents retain two simple illustrated pages with 83 destinations and no extra
 subheadings. [Contents notes](docs/publication/contents-update/README.md) and
 [index notes](docs/publication/book-index/README.md) distinguish current derivatives
 from frozen approvals.

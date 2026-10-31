@@ -56,6 +56,14 @@ paper colour. Preserve readable text and separation
 from the introduction. Cropping the decorative hero is intentional; do not
 confuse that with permission to crop instructional or diagnostic drawings.
 
+John approved the [larger category-name treatment](publication/category-navigation-preview/APPROVAL.json)
+on 30 October: 10 pt bold Nunito Sans 900, uppercase, in the existing family deep
+colour on both pages. First-page names replace the previous small category label;
+the practical-page heading moves slightly down while retaining its wording and
+size. The approved Carrot and Kale examples preserve their entire guide bodies.
+Guide-wide integration is pending; retain the approved sources and check long
+titles when applying it. The how-to colour-key proposal was explicitly rejected.
+
 John approved the [revised header treatment](publication/vegetable-header-review/APPROVAL.json)
 on 15 October 2026. Normally the visible seasons widget ends 20 CSS px before
 the circle's left edge. If the actual title text (including its full stop)
@@ -103,17 +111,38 @@ headings and Recognise / Act / Prevent advice. Natural entry heights and text
 wrapping beside illustrations provide density; no padded equal-height cards.
 Use the condition-heading and guide-advice roles in the shared type hierarchy;
 the Troubles reference retains 11.25 pt advice leading.
-Diagnostic image boxes are 108 × 126 CSS px (about 29 × 33 mm), preserving aspect
-ratio and the complete drawing. Check diagnostic clarity; allow a larger drawing
-or another page for entries whose detail requires it.
+John's 30 October refinement removes the repeated “Recognise → Act → Prevent”
+line from each book page header, explaining the sequence on the section opener.
+The small inline advice labels remain. The initial header-only proof retained body positions; the later natural-flow
+proof reclaims the unused lower header space. A4 and frozen references stay unchanged. See the
+[focused section proof and checks](publication/troubles-header-refinement/README.md).
+John's approved 31 October treatment uses separate wrapping masks, a 4 mm
+`shape-margin` and diagnostic boxes of **135 × 157.5 CSS px** (about 36 × 42 mm),
+25% larger in each dimension than the retained 108 × 126 px references. Preserve
+aspect ratio, complete drawings and original image files. The
+[scoped approval](publication/troubles-image-size-study/APPROVAL.json) binds the
+Brassica specimen. The [full Brassica flow proof](publication/brassica-flow-preview/README.md)
+implements it for review; other guides and main-book integration remain pending. A4 stays unchanged.
 
-Pack complete entries first. Then **align the top text of the first entries and
-the bottom text of the last entries across the columns**, distributing spare
-height **between entries** in the shorter column. Preserve natural spacing inside
-entries; do not stretch text, illustrations or card heights. Check actual text
-edges rather than assuming equal container heights imply aligned text. Sparse
-end pages that cannot meet both edges without excessive gaps need a layout
-judgement, not filler or missing advice.
+John's 31 October pagination request supersedes distributing spare space across
+a whole Troubles guide: let complete entries progress naturally through earlier
+pages, with unused space trailing after the content on the final page. Keep
+coherent reading order and each diagnostic entry together. Do not spread entries
+backwards across the guide merely to equalise page fullness. Retain readable,
+consistent gaps and natural spacing inside advice; do not stretch text, drawings
+or card heights. Fill columns left to right; keep their first text edges aligned without forcing
+matching last lines. Check actual text and image edges. The full Brassica proof
+uses an opt-in renderer profile: minimum page count, earliest feasible page end,
+then earliest feasible left-column fill. It retains the normal 8 px inter-entry
+gap and 7 px entry top padding, with no added stretch. Header bottom space is
+14 px instead of the obsolete 30 px reserved for the removed arrowed line.
+This composition is for review; the approved image settings are not reopened.
+
+Whole entries can still leave space on earlier pages. In the Brassica proof,
+folio 110 cannot accept a third ordered entry in either column at the approved
+type/image size; that measured space is not distributed padding. Never reorder,
+cut advice or shrink artwork merely to eliminate such a gap. The final page
+also keeps natural gaps, with its remaining space below the content.
 
 The approved Carrot/Parsnip page contains the first six of fifteen conditions;
 all six preserve their complete source wording and drawings. Six per page is a
@@ -176,14 +205,13 @@ text inside print/binding safety, and adds real bleed. It uses physical folios
 and mirrored page margins; the normal web proof profile remains trim-sized.
 The badge stays top right over the enlarged hero and visible circle. A tilted
 title is positioned from its measured text bounds so long names stay safe too.
-Troubles keeps its natural entries and aligned first/last text; a 1 px reduction
-in section spacing accommodates the larger production labels. Exact-source
+Troubles uses a 1 px reduction in section spacing to accommodate larger
+production labels. Its current flow policy is owned by [Troubles](#troubles) above;
+the earlier first/last-edge balancing is retained only in legacy exports pending rollout. Exact-source
 crop summaries are separate AI drafts for John's review, not amendments to the
 approved source or frozen specimens. Measured Quick Facts grouping can move a
 long qualification into the wider column when it saves a full body line,
-preserving all wording. Production Troubles planning reduces avoidable
-single-entry columns and forced gaps; sparse final pages can retain unequal
-lower edges instead of a gap taller than a diagnostic illustration. Repeated
+preserving all wording. Repeated
 complete crop lists can use a full-membership legend on every page; partial
 applicability remains explicit. These are working adaptations with per-file
 evidence, not changes to the frozen approval or a collection-wide approval.

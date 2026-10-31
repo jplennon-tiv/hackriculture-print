@@ -1,0 +1,477 @@
+{
+  "baseBoxPx": [
+    108,
+    126
+  ],
+  "displayBoxPx": [
+    135,
+    157.5
+  ],
+  "shapeMarginMm": 4,
+  "masks": [
+    {
+      "key": "woody_kohl_rabi",
+      "src": "/images/troubles/brassica_troubles/woody_kohl_rabi-backfill-v1.png",
+      "width": 108,
+      "height": 126,
+      "bounds": {
+        "left": 1.722488038277512,
+        "top": 10.980861244019138,
+        "bottom": 113.98564593301435
+      },
+      "discardedPixels": 1808,
+      "sourceSha256": "9460748045f8cf971d0510ab584730b49d9e9bb4ec155e0a14da9dead23dda5e",
+      "sha256": "6dc8ff0b0f3416bbd979dafb7519c71fdacf974b02ee397773bbbaf275b53791",
+      "url": "/docs/publication/brassica-flow-preview/masks/woody_kohl_rabi.svg",
+      "reusedApprovedMask": true
+    },
+    {
+      "key": "white_blister_white_rust",
+      "src": "/images/troubles/cleaned/brassica_troubles/white_blister_white_rust-v1.png",
+      "width": 108,
+      "height": 126,
+      "bounds": {
+        "left": 8.267942583732058,
+        "top": 12.961722488038278,
+        "bottom": 112.00478468899522
+      },
+      "discardedPixels": 216,
+      "sourceSha256": "06e1f5fe74930501bf8cc77c8d34f29253f97bf9da5de5479673a3271e37bf46",
+      "sha256": "88148231693fed4b8b8abbd78328e97f3c53d11928564d4610c999b59db04ac4",
+      "url": "/docs/publication/brassica-flow-preview/masks/white_blister_white_rust.svg",
+      "reusedApprovedMask": true
+    },
+    {
+      "key": "pigeons",
+      "src": "/images/troubles/cleaned/brassica_troubles/pigeons-v1.png",
+      "width": 108,
+      "height": 126,
+      "bounds": {
+        "left": 7.83732057416268,
+        "top": 18.904306220095695,
+        "bottom": 108.04306220095694
+      },
+      "discardedPixels": 530,
+      "sourceSha256": "2d83c820d8b819bfd767f7adb0912d81ff031aed56bb136bdbc0308df1443b1f",
+      "sha256": "46f9ba6e487d9b13e8d506520a0a5921f24961ebbca2025ac025f65a4c6b2659",
+      "url": "/docs/publication/brassica-flow-preview/masks/pigeons.svg",
+      "reusedApprovedMask": true
+    },
+    {
+      "key": "leaf_spot_ring_spot",
+      "src": "/images/troubles/cleaned/brassica_troubles/leaf_spot_ring_spot-v1.png",
+      "width": 108,
+      "height": 126,
+      "bounds": {
+        "left": 13.866028708133973,
+        "top": 14.942583732057416,
+        "bottom": 112.00478468899522
+      },
+      "discardedPixels": 4,
+      "sourceSha256": "099a610a380c6ff468b9bd8d45fa71c509acdf8d0b6dea2c46b200e70d6c1ca5",
+      "sha256": "797d06c618832bfb472e9aa048d038e2c5ad610e3bb047c120a2c066aa529156",
+      "url": "/docs/publication/brassica-flow-preview/masks/leaf_spot_ring_spot.svg",
+      "reusedApprovedMask": true
+    },
+    {
+      "key": "club_root_finger_and_toe",
+      "src": "/images/troubles/cleaned/brassica_troubles/club_root_finger_and_toe-v1.png",
+      "width": 108,
+      "height": 126,
+      "bounds": {
+        "left": 6.545454545454546,
+        "top": 12.961722488038278,
+        "bottom": 112.00478468899522
+      },
+      "discardedPixels": 164,
+      "sourceSha256": "93ecf7c3accadcdf303d9a4460edfd8943923bc840eb0da7362a51d5012cdf8a",
+      "sha256": "1941e34b97d5d98758fab3298c707f55cc281b68d363f8b76258503e78e5f726",
+      "url": "/docs/publication/brassica-flow-preview/masks/club_root_finger_and_toe.svg",
+      "reusedApprovedMask": false
+    },
+    {
+      "key": "cabbage_caterpillars",
+      "src": "/images/troubles/cleaned/brassica_troubles/cabbage_caterpillars-v1.png",
+      "width": 108,
+      "height": 126,
+      "bounds": {
+        "left": 10.679425837320576,
+        "top": 14.942583732057416,
+        "bottom": 110.02392344497608
+      },
+      "discardedPixels": 500,
+      "sourceSha256": "281d9d9313e04497e319bc9a9a12db4fd9d600886016dbd9af0ff73d7f9fde08",
+      "sha256": "ef21cea1a5ababd73e596faf5638913139dcdb4d46d54fba43f8c0e7d7181f93",
+      "url": "/docs/publication/brassica-flow-preview/masks/cabbage_caterpillars.svg",
+      "reusedApprovedMask": false
+    },
+    {
+      "key": "flea_beetle",
+      "src": "/images/troubles/cleaned/brassica_troubles/flea_beetle-v1.png",
+      "width": 108,
+      "height": 126,
+      "bounds": {
+        "left": 13.779904306220097,
+        "top": 16.923444976076556,
+        "bottom": 110.02392344497608
+      },
+      "discardedPixels": 752,
+      "sourceSha256": "b5f44f3a3ad1c3d412f77568e853db1a4437c800401c3d2de8dd30f111d88f95",
+      "sha256": "3dbc8ee1aee8f084310385649b83e5335a8082c08abdc1deac38321795f9362c",
+      "url": "/docs/publication/brassica-flow-preview/masks/flea_beetle.svg",
+      "reusedApprovedMask": false
+    },
+    {
+      "key": "slugs_and_snails",
+      "src": "/images/troubles/cleaned/brassica_troubles/slugs_and_snails-v1.png",
+      "width": 108,
+      "height": 126,
+      "bounds": {
+        "left": 12.660287081339714,
+        "top": 14.942583732057416,
+        "bottom": 108.04306220095694
+      },
+      "discardedPixels": 554,
+      "sourceSha256": "e8b99b9a33eb0571d53db33792e764915a60ee054551394d76c0b136df8db953",
+      "sha256": "5bc676ff2e74fc6f0d98eccd8f221e1ef06b30ce837b05c1bcbd27bce43ab53f",
+      "url": "/docs/publication/brassica-flow-preview/masks/slugs_and_snails.svg",
+      "reusedApprovedMask": false
+    },
+    {
+      "key": "mealy_aphid",
+      "src": "/images/troubles/cleaned/brassica_troubles/mealy_aphid-v1.png",
+      "width": 108,
+      "height": 126,
+      "bounds": {
+        "left": 12.832535885167465,
+        "top": 12.961722488038278,
+        "bottom": 112.00478468899522
+      },
+      "discardedPixels": 67,
+      "sourceSha256": "4371e7d0454a01dba04ec8c9b022a4b20d963f670d7ca3d47d1b3963b7fecc29",
+      "sha256": "52fbe22f2d77db4668b30a2c918545a4cc8ce134099433149ee856becaf74e31",
+      "url": "/docs/publication/brassica-flow-preview/masks/mealy_aphid.svg",
+      "reusedApprovedMask": false
+    },
+    {
+      "key": "cabbage_whitefly",
+      "src": "/images/troubles/cleaned/brassica_troubles/cabbage_whitefly-v1.png",
+      "width": 108,
+      "height": 126,
+      "bounds": {
+        "left": 15.244019138755982,
+        "top": 12.961722488038278,
+        "bottom": 112.00478468899522
+      },
+      "discardedPixels": 38,
+      "sourceSha256": "e3ba4d3a9bb256cbb42e5ac7b9812d053290e01310c701d00296ee666c3e6893",
+      "sha256": "db2351e7153a134ca40cdb543d5d691512899000efd09550ff751c53b4b131cc",
+      "url": "/docs/publication/brassica-flow-preview/masks/cabbage_whitefly.svg",
+      "reusedApprovedMask": false
+    },
+    {
+      "key": "diamond_back_moth",
+      "src": "/images/troubles/cleaned/brassica_troubles/diamond_back_moth-v1.png",
+      "width": 108,
+      "height": 126,
+      "bounds": {
+        "left": 10.507177033492823,
+        "top": 12.961722488038278,
+        "bottom": 110.02392344497608
+      },
+      "discardedPixels": 496,
+      "sourceSha256": "54981751537deee89c3c44a09234eb468718090533665b760a973cb60eb231dd",
+      "sha256": "367e2215f16c97d2dabe72e8f93d4efb3ab83591957f535f3bd9cb54b7895c6f",
+      "url": "/docs/publication/brassica-flow-preview/masks/diamond_back_moth.svg",
+      "reusedApprovedMask": false
+    },
+    {
+      "key": "swede_midge",
+      "src": "/images/troubles/cleaned/brassica_troubles/swede_midge-v1.png",
+      "width": 108,
+      "height": 126,
+      "bounds": {
+        "left": 8.095693779904307,
+        "top": 16.923444976076556,
+        "bottom": 110.02392344497608
+      },
+      "discardedPixels": 28,
+      "sourceSha256": "cd588c2dfdb080a56c1e0d9ba30238d58456d29ffe3aca1f5340b1cec1cf11c0",
+      "sha256": "5bbc4901e2f5b3464b4d790943b12ec2c800affa500cb5df7b8a35f195e6d620",
+      "url": "/docs/publication/brassica-flow-preview/masks/swede_midge.svg",
+      "reusedApprovedMask": false
+    },
+    {
+      "key": "downy_mildew",
+      "src": "/images/troubles/cleaned/brassica_troubles/downy_mildew-v1.png",
+      "width": 108,
+      "height": 126,
+      "bounds": {
+        "left": 13.52153110047847,
+        "top": 10.980861244019138,
+        "bottom": 113.98564593301435
+      },
+      "discardedPixels": 0,
+      "sourceSha256": "ab68e1bf672cf455208df37e04b7b974bb929a57cd1b5d3a8d4e8b144010b8af",
+      "sha256": "55f3706d71437247dd11ac5681120f584240514fba5ba3851580a2627dd8ae07",
+      "url": "/docs/publication/brassica-flow-preview/masks/downy_mildew.svg",
+      "reusedApprovedMask": false
+    },
+    {
+      "key": "cabbage_root_fly",
+      "src": "/images/troubles/cleaned/brassica_troubles/cabbage_root_fly-v1.png",
+      "width": 108,
+      "height": 126,
+      "bounds": {
+        "left": 13.69377990430622,
+        "top": 22.866028708133975,
+        "bottom": 104.08133971291866
+      },
+      "discardedPixels": 337,
+      "sourceSha256": "a43fdc6144e33d85a6e567535408e11f9aa571b62e9cbcd0f4eae257c246e08d",
+      "sha256": "121fb3bab6598b46bb66d7af954f2deaf6217977dd1896160ab2c1dabde15ce3",
+      "url": "/docs/publication/brassica-flow-preview/masks/cabbage_root_fly.svg",
+      "reusedApprovedMask": false
+    },
+    {
+      "key": "black_rot",
+      "src": "/images/troubles/cleaned/brassica_troubles/black_rot-v1.png",
+      "width": 108,
+      "height": 126,
+      "bounds": {
+        "left": 5.339712918660288,
+        "top": 12.961722488038278,
+        "bottom": 113.98564593301435
+      },
+      "discardedPixels": 129,
+      "sourceSha256": "61e95e8e73f24a5dae93ac4456711b1cd378aa7cd5d214e4d6e50ce0e1e5fd2e",
+      "sha256": "a5fc9c868a9b7c68cbf46a5d9b1caae5c71dc8fde4bffca4e7358f160527f24a",
+      "url": "/docs/publication/brassica-flow-preview/masks/black_rot.svg",
+      "reusedApprovedMask": false
+    },
+    {
+      "key": "wire_stem",
+      "src": "/images/troubles/cleaned/brassica_troubles/wire_stem-v1.png",
+      "width": 108,
+      "height": 126,
+      "bounds": {
+        "left": 11.368421052631579,
+        "top": 16.923444976076556,
+        "bottom": 110.02392344497608
+      },
+      "discardedPixels": 241,
+      "sourceSha256": "ddcd64d475c0515442ad3b882d4bed6bad162bc2002ba8b253e27a2a97286c48",
+      "sha256": "06037b90110d8e207f4c5411b470e3671fda3dc92bc11fdd9a1a0c0c6f6bf21a",
+      "url": "/docs/publication/brassica-flow-preview/masks/wire_stem.svg",
+      "reusedApprovedMask": false
+    },
+    {
+      "key": "gall_weevil",
+      "src": "/images/troubles/cleaned/brassica_troubles/gall_weevil-v1.png",
+      "width": 108,
+      "height": 126,
+      "bounds": {
+        "left": 19.37799043062201,
+        "top": 12.961722488038278,
+        "bottom": 110.02392344497608
+      },
+      "discardedPixels": 141,
+      "sourceSha256": "c051f06dafb957868028beff7d4c9d35c993220ca56970814ac5d77804f4777c",
+      "sha256": "05df20d2d5c4ece328bdae093062f73f1664be67eeea769c777ccd21a167d834",
+      "url": "/docs/publication/brassica-flow-preview/masks/gall_weevil.svg",
+      "reusedApprovedMask": false
+    },
+    {
+      "key": "chafer_grubs",
+      "src": "/images/troubles/cleaned/brassica_troubles/chafer_grubs-v1.png",
+      "width": 108,
+      "height": 126,
+      "bounds": {
+        "left": 20.15311004784689,
+        "top": 12.961722488038278,
+        "bottom": 112.00478468899522
+      },
+      "discardedPixels": 194,
+      "sourceSha256": "98a248e5a7a718b98c539da51a24928aa59692630b484d7dd5687fab1661e552",
+      "sha256": "d0205e43934e0893254ecf2576ae4ae126cbc58cded3ad5be6ebe8c3a11c8685",
+      "url": "/docs/publication/brassica-flow-preview/masks/chafer_grubs.svg",
+      "reusedApprovedMask": false
+    },
+    {
+      "key": "cutworm",
+      "src": "/images/troubles/cleaned/brassica_troubles/cutworm-v1.png",
+      "width": 108,
+      "height": 126,
+      "bounds": {
+        "left": 6.7177033492822975,
+        "top": 18.904306220095695,
+        "bottom": 108.04306220095694
+      },
+      "discardedPixels": 38,
+      "sourceSha256": "89908991dddb0fad69667c8366fae9c02fbe023c901a666a3ee678402ad44768",
+      "sha256": "09ee4cc4b93d06e2f6ba201cc0a1c715a82c8e27439118b8036cc62036726637",
+      "url": "/docs/publication/brassica-flow-preview/masks/cutworm.svg",
+      "reusedApprovedMask": false
+    },
+    {
+      "key": "heartless_cabbages",
+      "src": "/images/troubles/cleaned/brassica_troubles/heartless_cabbages-v1.png",
+      "width": 108,
+      "height": 126,
+      "bounds": {
+        "left": 4.822966507177034,
+        "top": 16.923444976076556,
+        "bottom": 106.0622009569378
+      },
+      "discardedPixels": 1,
+      "sourceSha256": "ffd63126c0cb5b6aa9b29cbfc4f24438d6256e7d5912cef397ad11b8205e233d",
+      "sha256": "5bcf08a138ddc13e1ce9cf44cc7de9ca1511f60c44e4aea61f7110dac400fd70",
+      "url": "/docs/publication/brassica-flow-preview/masks/heartless_cabbages.svg",
+      "reusedApprovedMask": false
+    },
+    {
+      "key": "split_hearts",
+      "src": "/images/troubles/cleaned/brassica_troubles/split_hearts-v1.png",
+      "width": 108,
+      "height": 126,
+      "bounds": {
+        "left": 6.2009569377990434,
+        "top": 16.923444976076556,
+        "bottom": 102.10047846889952
+      },
+      "discardedPixels": 0,
+      "sourceSha256": "ce0feba35d6ddf3fc6271fe4b9e8f69459063d8a345a5aeeb7a6245b0edc7dc3",
+      "sha256": "8367a0df67aa192e62fb86419403835bad2dfe426c7686b85f7976caa81749a8",
+      "url": "/docs/publication/brassica-flow-preview/masks/split_hearts.svg",
+      "reusedApprovedMask": false
+    },
+    {
+      "key": "blown_brussels_sprouts",
+      "src": "/images/troubles/cleaned/brassica_troubles/blown_brussels_sprouts-v1.png",
+      "width": 108,
+      "height": 126,
+      "bounds": {
+        "left": 17.569377990430624,
+        "top": 12.961722488038278,
+        "bottom": 112.00478468899522
+      },
+      "discardedPixels": 78,
+      "sourceSha256": "6f88c549da499fd739aab647432859760e05c74bccfeece6c3854d1c2ea784fd",
+      "sha256": "3f58af62947ebe7bc2e21c0ca47645617e9846519a519df3d4470d16a1e8c74a",
+      "url": "/docs/publication/brassica-flow-preview/masks/blown_brussels_sprouts.svg",
+      "reusedApprovedMask": false
+    },
+    {
+      "key": "button_cauliflowers",
+      "src": "/images/troubles/cleaned/brassica_troubles/button_cauliflowers-v1.png",
+      "width": 108,
+      "height": 126,
+      "bounds": {
+        "left": 7.320574162679426,
+        "top": 16.923444976076556,
+        "bottom": 106.0622009569378
+      },
+      "discardedPixels": 34,
+      "sourceSha256": "344c09d0050454e61eba0cb87524de5424aea46fd515387e8b5c7007d3cdac43",
+      "sha256": "c1a7f419f7dd4eb8a58c2b19d185cd74a949a6bba3af47edb146891e6ff557dc",
+      "url": "/docs/publication/brassica-flow-preview/masks/button_cauliflowers.svg",
+      "reusedApprovedMask": false
+    },
+    {
+      "key": "whiptail",
+      "src": "/images/troubles/cleaned/brassica_troubles/whiptail-v1.png",
+      "width": 108,
+      "height": 126,
+      "bounds": {
+        "left": 9.818181818181818,
+        "top": 10.980861244019138,
+        "bottom": 110.02392344497608
+      },
+      "discardedPixels": 60,
+      "sourceSha256": "b6b9b2c51f6e776e23b41ce70844a888844664ecb9c42042fccb6ef45c63548c",
+      "sha256": "210b7d36cb8bf754ea9eb89836fbf470d7c8edbddfade438caf85dc266d6c69c",
+      "url": "/docs/publication/brassica-flow-preview/masks/whiptail.svg",
+      "reusedApprovedMask": false
+    },
+    {
+      "key": "boron_deficiency",
+      "src": "/images/troubles/cleaned/brassica_troubles/boron_deficiency-v1.png",
+      "width": 108,
+      "height": 126,
+      "bounds": {
+        "left": 11.282296650717704,
+        "top": 10.980861244019138,
+        "bottom": 112.00478468899522
+      },
+      "discardedPixels": 4,
+      "sourceSha256": "9a13d4c1df1cdde0e0ff0f0fc27c479eb79a55de851f4f8c98e3cc0f0767ccef",
+      "sha256": "36cfa1acf392f7961a4ab73ef1725f2537f53245285063f39bbc0b8e18bda8e5",
+      "url": "/docs/publication/brassica-flow-preview/masks/boron_deficiency.svg",
+      "reusedApprovedMask": false
+    },
+    {
+      "key": "magnesium_deficiency",
+      "src": "/images/troubles/cleaned/brassica_troubles/magnesium_deficiency-v1.png",
+      "width": 108,
+      "height": 126,
+      "bounds": {
+        "left": 15.330143540669857,
+        "top": 10.980861244019138,
+        "bottom": 113.98564593301435
+      },
+      "discardedPixels": 2,
+      "sourceSha256": "458ac787b57f9c40ae386fa92e750a5ae1ac2f8775da807240a9da9d51161de3",
+      "sha256": "81e987a6d0cb5a1b4bf0b7fee6ad5284b98053515fe18360c8c24703099bcd81",
+      "url": "/docs/publication/brassica-flow-preview/masks/magnesium_deficiency.svg",
+      "reusedApprovedMask": false
+    },
+    {
+      "key": "frost",
+      "src": "/images/troubles/brassica_troubles/frost-v2.png",
+      "width": 108,
+      "height": 126,
+      "bounds": {
+        "left": 1.5640243902439026,
+        "top": 15.626524390243901,
+        "bottom": 110.45579268292684
+      },
+      "discardedPixels": 593,
+      "sourceSha256": "6a54d2ea33c403006e3f0bcc162aaf7d6801acf4c550c71cd1a11d81c4bfd31d",
+      "sha256": "8062dd7389619aeee7722d88a4c78ba5a21d51b258f31ef7f9e02e7311fb0967",
+      "url": "/docs/publication/brassica-flow-preview/masks/frost.svg",
+      "reusedApprovedMask": false
+    },
+    {
+      "key": "cabbage_stem_flea_beetle",
+      "src": "/images/troubles/cleaned/brassica_troubles/cabbage_stem_flea_beetle-v1.png",
+      "width": 108,
+      "height": 126,
+      "bounds": {
+        "left": 8.354066985645934,
+        "top": 10.980861244019138,
+        "bottom": 113.98564593301435
+      },
+      "discardedPixels": 120,
+      "sourceSha256": "f8ef4ad698c2126c9445eebee6efdf6fdbef7644c7184e5e673144c2f4e8227a",
+      "sha256": "0007807355bbffe54b5a05c47387d101fbe5df3cd9553b38ae673067443630ed",
+      "url": "/docs/publication/brassica-flow-preview/masks/cabbage_stem_flea_beetle.svg",
+      "reusedApprovedMask": false
+    },
+    {
+      "key": "manganese_deficiency",
+      "src": "/images/troubles/cleaned/brassica_troubles/manganese_deficiency-v1.png",
+      "width": 108,
+      "height": 126,
+      "bounds": {
+        "left": 12.746411483253588,
+        "top": 12.961722488038278,
+        "bottom": 113.98564593301435
+      },
+      "discardedPixels": 7,
+      "sourceSha256": "ce35e253c5033302157d59e3aa6673f727a1b5961603de2492fbab5d413190c7",
+      "sha256": "088216a3492ac39bb919e30b986b0b0a05633ee6da40bfba2f9a05466b7c1ef3",
+      "url": "/docs/publication/brassica-flow-preview/masks/manganese_deficiency.svg",
+      "reusedApprovedMask": false
+    }
+  ]
+}

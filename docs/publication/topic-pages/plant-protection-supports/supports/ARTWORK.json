@@ -1,0 +1,344 @@
+{
+  "date": "2026-10-29",
+  "status": "Supports draft for John; not author-approved",
+  "mode": "Built-in image generation",
+  "prompts": {
+    "beans": "Use case: precise-object-edit. Edit the supplied bean-frame illustration for a printed gardening book. Keep its warm bamboo, green young bean plants, small soil base, perspective and illustration character. SIMPLIFY the structure to exactly four pairs of full-height bamboo canes, their feet forming two parallel rows, each opposing pair crossing only at the top apex, and exactly ONE horizontal ridge cane along the four crossings. Remove ALL lengthwise diagonal bracing poles, every small thin intermediate upright cane, and their spare ties. No side rails, no lower crossbars, no strings or netting, no extra braces. Leave full-height crossed pairs and top ridge only, with simple green lashings at those top crossings. The bean plants should stay short and sparse so the construction is immediately clear. Two opposing sloping canes at each position are structural legs, do not remove these. Entire structure in frame, true transparent background, no text, no labels.",
+    "peas": "Use case: precise-object-edit. Edit the supplied pea support illustration. Remove ONLY the two diagonal bamboo bracing poles, one crossing the front long side and one crossing the right short end, plus ties belonging solely to those diagonals. Retain the six vertical posts, all horizontal top rails, rectangular geometry, green open climbing net fastened to the frame, young peas and soil base. Fill in the net and plants naturally where the braces were removed. Keep all other features, perspective, simplified green foliage and warm bamboo rendering the same. No new poles, no diagonal braces, no text, entire structure inside image, true transparent background.",
+    "wigwam": "Use case: scientific-educational. One separate cut-out illustration for The Vegetable Guru, British vegetable gardening book. Images 1 and 2 are approved STYLE references: match bold broad forest/lime colour planes, graphic cream highlights and clear dimensional silhouettes. Image 3 is a bamboo/soil PROP style reference only, do not copy its long frame. Show a SIMPLE traditional bean WIGWAM: six sturdy long golden bamboo canes inserted firmly at six evenly spaced positions on a CIRCULAR patch of soil, all six poles slope inward and gather at ONE upper apex, firmly lashed together with a short green tie, short cane tips project above the tie. Slight elevated three-quarter view to make circular footprint obvious. Sparse small young climbing bean plants at the bases, few simple leaves, most poles entirely exposed so the structure is easy to count and understand. One tall compact cone, NOT a long A-frame, no middle vertical pole, no horizontal rails, no bracing, no extra strings, no tent fabric. Full structure inside generous transparent margins. Transparent background including space between canes, no glow, no shadow backdrop, no landscape, no lettering. Broad smooth bamboo planes, minimal soil detail. Intended print slot approximately 65mm wide x45mm high.",
+    "brassica": "Use case: scientific-educational. One clear cut-out teaching illustration for a British vegetable gardening book. Image 1 is authoritative approved Brussels sprout style and crop-identity reference, image 2 is supporting approved foliage style. Match broad graphic green colour planes and cream highlight strokes, simplified strong silhouettes, no fine veining or naturalistic texture. Show a WHOLE tall Brussels sprout plant growing firmly from a small oval soil patch, single thick upright green stem bearing small round sprouts at leaf axils, a crown of several large spreading green leaves. Immediately beside it stands ONE stout straight square-section wooden stake driven into the soil, taller than the main stem but not towering over the leaves. Two clear SOFT wide green figure-of-eight ties link stem to stake at well separated levels: separate loops around wood and stem with crossing between, loose around living stem, not crushing sprouts or tying leaf stalks. Show a small gap between stake and stem and complete ties visible. The plant is upright and supported, not leaning. Warm tan timber planes, dark/lime green foliage, minimal soil. Complete structure including top and ground inside canvas. Transparent background and no glow/halo. No other stakes, no cane frame, no cage, no netting, no arrows, no lettering. Portrait silhouette designed to print about55mm tall.",
+    "tomatoes": "Use case: precise-object-edit. Edit the supplied tomato cage drawing. REMOVE the entire vertical bamboo cane from inside the cage, its stem ties to that cane, and the entire external diagonal bamboo brace including its upper green lashing. Keep one complete cylindrical stiff grey-green wire-mesh cage, large square openings, seam fastened with three small wire joins, two clearly visible U-shaped ground pegs and small soil base. The tomato grows up inside and is supported by the cage, with a few branches resting through the openings and two small loose soft ties linking stem/branch to wire if needed. There must be NO BAMBOO CANES OR WOODEN POLES anywhere in this image. Keep the same sparsely leafy plant, two orange-red tomatoes, recognisable green tomato stems, warm green palette and original viewpoint. Recentre cage with balanced transparent margins after removing brace. No background glow, no text, no labels, no arrows, genuinely transparent cut-out. Keep cage sufficiently open to see the method and top uncovered.",
+    "bracing": "Use case: scientific-educational. Create ONE deliberately SIMPLE instructional illustration explaining diagonal BRACING separately from growing plants. Supplied image is a prop/style and rectangular-frame reference only. Show a bare rectangular box frame in three-quarter perspective, long front side and right short end visible. Exactly FOUR upright golden bamboo corner posts driven into a small flat soil patch, joined by FOUR horizontal bamboo top rails. NO NET, NO PLANTS, no intermediate posts or lower rails. Add TWO warm darker orange-brown bamboo diagonal braces on the front long side: one from foot of front-left upright to top of front-right upright, the other from foot of front-right to top of front-left, making a clear X and fastened together at crossing. Add ONE diagonal across the visible right short end, joining low on the front-right post to high on the rear-right post. Clearly visible short green lashings at each brace endpoint, all physical joints connected, no floating poles. Structural teaching must be geometrically consistent. Use simplified broad colour planes, minimal earth texture, crisp legible form like the book art. Complete frame inside canvas, genuine transparent background, NO GLOW. No arrows, text, measurements, leaves or extra poles. Landscape, readable at approximately65mm wide x36mm high.",
+    "tomatoCorrection": "Use case: precise-object-edit. Correct this exact tomato cage image. Remove the TWO dark-green ties/rings currently encircling the tomato stem halfway up. They are floating around the stem and not attached to the cage, so remove BOTH entirely, leaving a continuous plain green living stem. Do not add any replacement ties. Keep the cylindrical grey wire cage, its visible seam joins on the right side, two U-shaped ground pegs, tomato branches reaching through mesh openings, two red fruits, foliage, soil and all geometry unchanged. Absolutely no bamboo cane or diagonal brace. Retain the same framing and style and genuinely transparent alpha background; no glow or backdrop. This is only a targeted removal of two incorrect green rings."
+  },
+  "generationSources": {
+    "beans": {
+      "original": "/Users/johnlennon/.codex/generated_images/01a183cd-1dd2-7203-9dc6-7a90fed5b679/exec-77a1abdc-f906-4072-bf53-46d9e3a3e2d7.png",
+      "project": "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/topic-pages/plant-protection-supports/supports/assets/beans.png"
+    },
+    "peas": {
+      "original": "/Users/johnlennon/.codex/generated_images/01a183cd-1dd2-7203-9dc6-7a90fed5b679/exec-27bc9a04-d034-41d2-be59-c559a2fb3e84.png",
+      "project": "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/topic-pages/plant-protection-supports/supports/assets/peas.png"
+    },
+    "wigwam": {
+      "original": "/Users/johnlennon/.codex/generated_images/01a183cd-1dd2-7203-9dc6-7a90fed5b679/exec-85100d0f-a16a-41f4-a5c9-68891bb8db6d.png",
+      "project": "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/topic-pages/plant-protection-supports/supports/assets/wigwam.png"
+    },
+    "brassica": {
+      "original": "/Users/johnlennon/.codex/generated_images/01a183cd-1dd2-7203-9dc6-7a90fed5b679/exec-9eb55de4-0423-48c9-9751-622be7589117.png",
+      "project": "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/topic-pages/plant-protection-supports/supports/assets/brassica.png"
+    },
+    "tomatoes": {
+      "original": "/Users/johnlennon/.codex/generated_images/01a183cd-1dd2-7203-9dc6-7a90fed5b679/exec-664d2592-dc4d-47e9-bef3-0482538cd74e.png",
+      "project": "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/topic-pages/plant-protection-supports/supports/assets/tomatoes.png"
+    },
+    "bracing": {
+      "original": "/Users/johnlennon/.codex/generated_images/01a183cd-1dd2-7203-9dc6-7a90fed5b679/exec-b09499ad-2d41-4bdb-b945-f944914e4254.png",
+      "project": "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/topic-pages/plant-protection-supports/supports/assets/bracing.png"
+    }
+  },
+  "revisions": {
+    "tomatoes": {
+      "initial": "/Users/johnlennon/.codex/generated_images/01a183cd-1dd2-7203-9dc6-7a90fed5b679/exec-42278b73-a735-46b8-9bfc-27032790c2bf.png",
+      "change": "Removed two unconnected stem ties; final image has no cane, brace or floating ties."
+    }
+  },
+  "editTargets": [
+    "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/topic-pages/plant-protection-supports/assets/beans-v1.png",
+    "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/topic-pages/plant-protection-supports/assets/peas-v1.png",
+    "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/topic-pages/plant-protection-supports/assets/tomatoes-v1.png"
+  ],
+  "styleReferences": [
+    "/Users/johnlennon/Documents/web_site/hackriculture-print/public/images/heroes/richer-a/bean_french.png",
+    "/Users/johnlennon/Documents/web_site/hackriculture-print/public/images/heroes/richer-a/pea.png",
+    "/Users/johnlennon/Documents/web_site/hackriculture-print/public/images/heroes/richer-a/brussels_sprouts.png"
+  ],
+  "generatedSpecs": {
+    "wigwam": {
+      "prompt": "Use case: scientific-educational. One separate cut-out illustration for The Vegetable Guru, British vegetable gardening book. Images 1 and 2 are approved STYLE references: match bold broad forest/lime colour planes, graphic cream highlights and clear dimensional silhouettes. Image 3 is a bamboo/soil PROP style reference only, do not copy its long frame. Show a SIMPLE traditional bean WIGWAM: six sturdy long golden bamboo canes inserted firmly at six evenly spaced positions on a CIRCULAR patch of soil, all six poles slope inward and gather at ONE upper apex, firmly lashed together with a short green tie, short cane tips project above the tie. Slight elevated three-quarter view to make circular footprint obvious. Sparse small young climbing bean plants at the bases, few simple leaves, most poles entirely exposed so the structure is easy to count and understand. One tall compact cone, NOT a long A-frame, no middle vertical pole, no horizontal rails, no bracing, no extra strings, no tent fabric. Full structure inside generous transparent margins. Transparent background including space between canes, no glow, no shadow backdrop, no landscape, no lettering. Broad smooth bamboo planes, minimal soil detail. Intended print slot approximately 65mm wide x45mm high.",
+      "refs": [
+        "/Users/johnlennon/Documents/web_site/hackriculture-print/public/images/heroes/richer-a/bean_french.png",
+        "/Users/johnlennon/Documents/web_site/hackriculture-print/public/images/heroes/richer-a/pea.png",
+        "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/topic-pages/plant-protection-supports/assets/beans-v1.png"
+      ]
+    },
+    "brassica": {
+      "prompt": "Use case: scientific-educational. One clear cut-out teaching illustration for a British vegetable gardening book. Image 1 is authoritative approved Brussels sprout style and crop-identity reference, image 2 is supporting approved foliage style. Match broad graphic green colour planes and cream highlight strokes, simplified strong silhouettes, no fine veining or naturalistic texture. Show a WHOLE tall Brussels sprout plant growing firmly from a small oval soil patch, single thick upright green stem bearing small round sprouts at leaf axils, a crown of several large spreading green leaves. Immediately beside it stands ONE stout straight square-section wooden stake driven into the soil, taller than the main stem but not towering over the leaves. Two clear SOFT wide green figure-of-eight ties link stem to stake at well separated levels: separate loops around wood and stem with crossing between, loose around living stem, not crushing sprouts or tying leaf stalks. Show a small gap between stake and stem and complete ties visible. The plant is upright and supported, not leaning. Warm tan timber planes, dark/lime green foliage, minimal soil. Complete structure including top and ground inside canvas. Transparent background and no glow/halo. No other stakes, no cane frame, no cage, no netting, no arrows, no lettering. Portrait silhouette designed to print about55mm tall.",
+      "refs": [
+        "/Users/johnlennon/Documents/web_site/hackriculture-print/public/images/heroes/richer-a/brussels_sprouts.png",
+        "/Users/johnlennon/Documents/web_site/hackriculture-print/public/images/heroes/richer-a/pea.png"
+      ]
+    },
+    "tomatoes": {
+      "prompt": "Use case: precise-object-edit. Edit the supplied tomato cage drawing. REMOVE the entire vertical bamboo cane from inside the cage, its stem ties to that cane, and the entire external diagonal bamboo brace including its upper green lashing. Keep one complete cylindrical stiff grey-green wire-mesh cage, large square openings, seam fastened with three small wire joins, two clearly visible U-shaped ground pegs and small soil base. The tomato grows up inside and is supported by the cage, with a few branches resting through the openings and two small loose soft ties linking stem/branch to wire if needed. There must be NO BAMBOO CANES OR WOODEN POLES anywhere in this image. Keep the same sparsely leafy plant, two orange-red tomatoes, recognisable green tomato stems, warm green palette and original viewpoint. Recentre cage with balanced transparent margins after removing brace. No background glow, no text, no labels, no arrows, genuinely transparent cut-out. Keep cage sufficiently open to see the method and top uncovered.",
+      "refs": [
+        "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/topic-pages/plant-protection-supports/assets/tomatoes-v1.png"
+      ]
+    },
+    "bracing": {
+      "prompt": "Use case: scientific-educational. Create ONE deliberately SIMPLE instructional illustration explaining diagonal BRACING separately from growing plants. Supplied image is a prop/style and rectangular-frame reference only. Show a bare rectangular box frame in three-quarter perspective, long front side and right short end visible. Exactly FOUR upright golden bamboo corner posts driven into a small flat soil patch, joined by FOUR horizontal bamboo top rails. NO NET, NO PLANTS, no intermediate posts or lower rails. Add TWO warm darker orange-brown bamboo diagonal braces on the front long side: one from foot of front-left upright to top of front-right upright, the other from foot of front-right to top of front-left, making a clear X and fastened together at crossing. Add ONE diagonal across the visible right short end, joining low on the front-right post to high on the rear-right post. Clearly visible short green lashings at each brace endpoint, all physical joints connected, no floating poles. Structural teaching must be geometrically consistent. Use simplified broad colour planes, minimal earth texture, crisp legible form like the book art. Complete frame inside canvas, genuine transparent background, NO GLOW. No arrows, text, measurements, leaves or extra poles. Landscape, readable at approximately65mm wide x36mm high.",
+      "refs": [
+        "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/topic-pages/plant-protection-supports/assets/peas-v1.png"
+      ]
+    }
+  },
+  "methodSources": [
+    {
+      "url": "https://www.youtube.com/watch?v=sKHzTFe54VI",
+      "previouslyViewedSeconds": [
+        486,
+        811
+      ],
+      "role": "Original bean/pea geometry, bracing. Current user explicitly requests separate unbraced primary diagrams."
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=bzR9prfOEcI",
+      "previouslyViewedSeconds": [
+        278
+      ],
+      "role": "Wire cylinder seam and shape, pegs and fleece supported by narration."
+    },
+    {
+      "url": "https://www.rhs.org.uk/vegetables/runner-beans/grow-your-own",
+      "role": "Wigwam construction and compact footprint."
+    },
+    {
+      "url": "https://botanicgarden.wales/wp-content/uploads/2021/05/Runner-Beans-PDF.pdf",
+      "page": 3,
+      "role": "Actual wigwam photographs inspected; cane feet on perimeter, apex tied. Photograph not reproduced."
+    },
+    {
+      "canonical": "vegetables/brussels_sprouts",
+      "role": "Stout stake on exposed sites; firm soil and earthing up may suffice in shelter."
+    },
+    {
+      "url": "https://www.rhs.org.uk/plants/types/perennials/staking",
+      "role": "Soft figure-of-eight ties and clearance at stem."
+    }
+  ],
+  "slots": {
+    "beans": [
+      77,
+      42
+    ],
+    "wigwam": [
+      77,
+      42
+    ],
+    "peas": [
+      62,
+      32
+    ],
+    "brassica": [
+      62,
+      38
+    ],
+    "tomatoes": [
+      62,
+      38
+    ],
+    "bracing": [
+      62,
+      32
+    ],
+    "broad-beans": [
+      62,
+      28
+    ]
+  },
+  "notes": [
+    "Separate full PNG assets copied unchanged; original generations retained. No programmatic raster alteration.",
+    "Wigwam perspective shows five distinct feet with a rear pole potentially occluded; the printed text and caption specify no universal pole count.",
+    "Bracing drawing uses the rectangular-frame example to show both side and end bracing. Opposed bean-row diagonals are explained in the adjacent text.",
+    "Crop foliage and coloured planes were compared with approved heroes; practical props retain the original Supports illustration character. Actual cream-page proof determines cut-out appearance.",
+    "Exact output hashes and image dimensions are recorded in CHECKS.json after finishing."
+  ],
+  "imageRevision": {
+    "date": "2026-10-29",
+    "request": "Correct bean-row perspective; add stake-driving and wire-cage construction companions",
+    "mode": "Built-in image generation",
+    "records": [
+      {
+        "key": "beans-perspective-v2",
+        "refs": [
+          "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/topic-pages/plant-protection-supports/supports/assets/beans.png",
+          "/Users/johnlennon/Documents/web_site/hackriculture-print/public/images/heroes/richer-a/bean_french.png"
+        ],
+        "prompt": "Use case: precise-object-edit. Redraw the bean support in reference 1 with CORRECT STRONG THREE-QUARTER PERSPECTIVE, preserving its warm golden bamboo and green plants. Reference 2 is the approved broad graphic foliage style. Show a traditional LONG bean row: exactly four opposing pairs of canes, each pair crossing at its apex and joined by ONE continuous straight horizontal ridge cane along the length. The two rows of feet MUST clearly occupy different depth positions across a rectangular bed, one row in the foreground and the other row visibly behind it. View the bed obliquely from above and from its near short end; the long ridge recedes diagonally from lower-left foreground towards upper-right background. Nearest pair is largest, farthest pair smaller. The foot of the near-side cane at each station is lower in the picture than its opposite foot on the far side, with a generous clear strip of ground between the two rows. Eight feet placed on two straight parallel receding ground lines, four along each line, NOT a flat row of four frontal letter As. Each opposing pair leans inward across the bed, not sideways along the bed. Keep the full eight structural canes and one ridge visible as much as possible, use only tiny sparse young bean plants at the feet so depth stays legible. Broad simple bamboo planes and green lashings at the four apex joints. No diagonal braces, no extra poles, no side rails, no lower crossbars, no netting. A small continuous rectangular patch of soil reinforces the perspective. Landscape illustration with full support inside margins; true transparent cut-out around and between the canes, no glow or backdrop, no text, labels or arrows.",
+        "original": "/Users/johnlennon/.codex/generated_images/01a183cd-1dd2-7203-9dc6-7a90fed5b679/exec-4700266e-e0a3-452b-a7a7-e488dd92df95.png",
+        "project": "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/topic-pages/plant-protection-supports/supports/assets/beans-perspective-v2.png"
+      },
+      {
+        "key": "stake-install-v1",
+        "refs": [
+          "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/topic-pages/plant-protection-supports/supports/assets/brassica.png",
+          "/Users/johnlennon/Documents/web_site/hackriculture-print/public/images/heroes/richer-a/brussels_sprouts.png"
+        ],
+        "prompt": "Use case: scientific-educational. Make a new companion construction illustration for reference 1, matching its stout square golden timber stake, green brassica foliage, simple soil base and bold dimensional book illustration style. Reference 2 is approved broad green foliage style. Show the action of DRIVING A WOODEN STAKE INTO THE GROUND beside a small young Brussels sprout plant. Exactly one vertical stout square-section timber stake embedded in a small patch of soil. One gloved hand steadies its middle, safely well below its top; the other gloved hand holds the handle of a wooden garden mallet raised just above the flat top, with the FLAT STRIKING FACE correctly aligned to strike downward onto the stake. Hands only, short cuffs, no person or face. The wooden mallet head is horizontal with its lower flat face above the stake; handle extends sideways into the gripping hand. A little young Brussels plant stands to the left of the stake, leaves below the hand, roots hidden in ground; no mature sprouts or ties yet. Communicate hammering the stake, not hitting the plant. Keep action and whole stake/ground inside image, clear and physically credible. Narrow portrait composition designed to print about30mm wide by38mm high. Broad clean colour planes and cream highlights, simplified forms. True transparent background with empty space between objects, no halo, text, labels, arrows, extra tools or ghosted motion copies.",
+        "original": "/Users/johnlennon/.codex/generated_images/01a183cd-1dd2-7203-9dc6-7a90fed5b679/exec-4f831e96-face-4d29-847a-d70b3713a107.png",
+        "project": "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/topic-pages/plant-protection-supports/supports/assets/stake-install-v1.png"
+      },
+      {
+        "key": "cage-build-v1",
+        "refs": [
+          "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/topic-pages/plant-protection-supports/supports/assets/tomatoes.png"
+        ],
+        "prompt": "Use case: scientific-educational. New companion construction illustration to reference 1 showing HOW TO MAKE its cylindrical tomato cage from a sheet of STIFF SQUARE WIRE MESH. Match the reference's grey-green wire, bold clean coloured planes, dimensional book-illustration style. Draw one upright rectangular sheet of square wire fencing curved most of the way into a cylinder; leave its two vertical cut edges visibly slightly apart at the front-right seam so the curling sheet and its open top are unmistakeable. The sheet has large open squares like the finished reference cage, NOT chicken-wire hexagons. One gloved hand from the left holds and bends one vertical edge towards the other; the other gloved hand from the right uses a small pair of pliers at the seam to twist one short separate wire tie around the two meeting mesh edges. Show that tie physically linking both edge wires, with one already fastened tie lower on the seam. Clear natural hand and tool anatomy. Empty cage with NO tomato plant, NO centre cane, NO other stakes, NO solid panels, NO labels, arrows or numbers. Complete mesh cylinder inside generous margins, upright and open at top and bottom. Three-quarter view from slightly above so bending into a cylinder is obvious. Narrow portrait or near-square silhouette, readable at30mm wide by38mm high. Transparent background everywhere including mesh openings, no glow or backdrop. Keep construction simple rather than a cluttered workshop scene.",
+        "original": "/Users/johnlennon/.codex/generated_images/01a183cd-1dd2-7203-9dc6-7a90fed5b679/exec-fe12654e-7aaf-4cd1-aff3-74c742023bc1.png",
+        "project": "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/topic-pages/plant-protection-supports/supports/assets/cage-build-v1.png"
+      },
+      {
+        "key": "tomatoes-portrait-v2",
+        "refs": [
+          "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/topic-pages/plant-protection-supports/supports/assets/tomatoes.png"
+        ],
+        "prompt": "Use case: precise-object-edit. Reframe this exact existing tomato-cage illustration onto a TIGHT PORTRAIT CANVAS so it can be printed next to a construction drawing at the SAME HEIGHT. Preserve the artwork and its structural details: one tall cylindrical grey square wire-mesh cage with large openings and an uncovered top, sparse green tomato plant inside, two red tomatoes, seam joined at right, two ground pegs and soil patch. No bamboo cane, no wooden pole, no bracing, no floating stem ties. The ONLY requested change is the framing: remove surplus empty space at the LEFT and RIGHT, retain the whole cage including its soil base and leaf tips, with a small transparent margin of about3% around the content. The subject should occupy almost the entire image height and width, portrait aspect approximately3:4 or2:3. Keep the existing house illustration style and colours, no new props or tools. True transparent background including mesh openings, no glow, labels, text or cropped structure.",
+        "original": "/Users/johnlennon/.codex/generated_images/01a183cd-1dd2-7203-9dc6-7a90fed5b679/exec-f330deec-d734-4ab0-86d0-c585c3052064.png",
+        "project": "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/topic-pages/plant-protection-supports/supports/assets/tomatoes-portrait-v2.png"
+      }
+    ],
+    "notes": [
+      "Redrawn bean row separates the near and far rows of feet in three-quarter perspective.",
+      "Construction and completed supports occupy paired 30 by 38 mm cells.",
+      "Portrait reframing of the finished cage avoids shrinking its visible subject beside the construction view; earlier wide original remains intact.",
+      "Current asset map identifies the images used in the latest proof. Original generationSources and initial prompts remain as history."
+    ]
+  },
+  "activeAssets": [
+    {
+      "section": "beans",
+      "file": "beans-denser-v3.png",
+      "role": "Method illustration",
+      "slotMm": [
+        77,
+        42
+      ]
+    },
+    {
+      "section": "wigwam",
+      "file": "wigwam.png",
+      "role": "Method illustration",
+      "slotMm": [
+        77,
+        42
+      ]
+    },
+    {
+      "section": "peas",
+      "file": "peas.png",
+      "role": "Method illustration",
+      "slotMm": [
+        62,
+        32
+      ]
+    },
+    {
+      "section": "broad-beans",
+      "file": "broad-beans-support-v1.png",
+      "role": "Method illustration",
+      "slotMm": [
+        62,
+        28
+      ]
+    },
+    {
+      "section": "brassica",
+      "file": "stake-mature-v3.png",
+      "role": "Construction",
+      "slotMm": [
+        30,
+        38
+      ]
+    },
+    {
+      "section": "brassica",
+      "file": "brassica.png",
+      "role": "Finished support",
+      "slotMm": [
+        30,
+        38
+      ]
+    },
+    {
+      "section": "tomatoes",
+      "file": "cage-build-v1.png",
+      "role": "Construction",
+      "slotMm": [
+        30,
+        38
+      ]
+    },
+    {
+      "section": "tomatoes",
+      "file": "tomatoes-portrait-v2.png",
+      "role": "Finished support",
+      "slotMm": [
+        30,
+        38
+      ]
+    },
+    {
+      "section": "bracing",
+      "file": "bracing.png",
+      "role": "Method illustration",
+      "slotMm": [
+        62,
+        32
+      ]
+    }
+  ],
+  "densityAndBroadBeanRevision": {
+    "date": "2026-10-29",
+    "request": "Add canes and plants between the existing bean pairs, illustrate broad-bean supports, mature the stake-installation plant",
+    "mode": "Built-in image generation",
+    "records": [
+      {
+        "key": "beans-denser-v3",
+        "refs": [
+          "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/topic-pages/plant-protection-supports/supports/assets/beans-perspective-v2.png"
+        ],
+        "prompt": "Use case: precise-object-edit. Make a strictly targeted addition to this existing bean-row illustration. KEEP its correct oblique perspective, the same rectangular soil footprint, same length, same four original opposing pairs of canes and exactly one long ridge cane. ADD one extra full-height opposing pair of canes halfway between each neighbouring pair, with small young bean plants at both new feet. There are three gaps, so add THREE PAIRS (six canes) and six plants, giving SEVEN evenly spaced pairs and fourteen small plants in total. Each extra pair leans inward across the width of the bed exactly like the existing pairs, crosses at the ridge, and is tied there with the same green lashing. The two parallel rows of feet must stay visibly separated front to back. Maintain the current perspective and plant/cane scale, do not lengthen the row to accommodate additions. New canes may be a little slimmer than the four original pairs but same height at their respective perspective depth. Keep all planting density additions within the existing footprint. No diagonal lengthwise braces, no side rails, no strings or netting, no other poles, no text. Warm golden bamboo, small green climbing plants, unchanged simple dimensional book art. Full object in frame, same landscape composition, true transparent background including empty space between canes, no glow/backdrop.",
+        "original": "/Users/johnlennon/.codex/generated_images/01a183cd-1dd2-7203-9dc6-7a90fed5b679/exec-5c2df156-e66b-42d6-8e8f-5554dba7622e.png",
+        "project": "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/topic-pages/plant-protection-supports/supports/assets/beans-denser-v3.png"
+      },
+      {
+        "key": "stake-mature-v2",
+        "refs": [
+          "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/topic-pages/plant-protection-supports/supports/assets/stake-install-v1.png",
+          "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/topic-pages/plant-protection-supports/supports/assets/brassica.png",
+          "/Users/johnlennon/Documents/web_site/hackriculture-print/public/images/heroes/richer-a/brussels_sprouts.png"
+        ],
+        "prompt": "Use case: precise-object-edit. Edit image1, the stake-driving illustration. Replace ONLY the little juvenile brassica at the left with a substantially MORE MATURE Brussels sprout plant. Images2 and3 provide the mature plant identity and the established graphic foliage style. Use a tall thick green stem carrying small round developing Brussels sprouts, with a spreading crown of large leaves: crown should reach just below the top of the wooden stake (roughly twice the previous plant height), making this a plant that needs steadying. Its stem and a few developing sprouts must remain visible below the leafy crown. Keep plant to the LEFT of the stake, clear of the mallet's downward path. Preserve the exact single upright golden wooden stake, two green gloved hands, wooden mallet correctly poised over the stake top, and small soil base. Hands must grip stake/mallet as before; no stem ties yet, this is installation. Plant leaves may extend to left but must not cover the striking face or upper end of stake; adjust left transparent margin only if needed. Complete image inside canvas, narrow portrait composition for30x38mm print slot, bold broad green colour planes and pale highlights, no fine detail or text. True transparent cut-out, no halo or backdrop. Do not change this into the finished tied-support illustration.",
+        "original": "/Users/johnlennon/.codex/generated_images/01a183cd-1dd2-7203-9dc6-7a90fed5b679/exec-cad599e1-44ab-4225-944f-b225416404ed.png",
+        "project": "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/topic-pages/plant-protection-supports/supports/assets/stake-mature-v2.png"
+      },
+      {
+        "key": "broad-beans-support-v1",
+        "refs": [
+          "/Users/johnlennon/Documents/web_site/hackriculture-print/public/images/heroes/richer-a/bean_broad.png",
+          "/Users/johnlennon/Documents/web_site/hackriculture-print/public/images/heroes/richer-a/bean_french.png",
+          "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/topic-pages/plant-protection-supports/supports/assets/beans-perspective-v2.png"
+        ],
+        "prompt": "Use case: scientific-educational. New small instructional illustration for The Vegetable Guru book. Reference1 is approved broad-bean identity and colour-plane style; reference2 supports the graphic green foliage/highlight language; reference3 supplies only the warm timber and minimal soil styling, NOT its climbing-bean frame. Show a SIMPLE BROAD BEAN SUPPORT LAYOUT from an elevated three-quarter angle, landscape about2:1. Two closely spaced parallel rows of upright broad bean plants on a narrow rectangular soil patch, four plants per row. Plants have sturdy straight stems, pairs of oval grey-green leaves, a few recognisable broad bean pods, no tendrils and no climbing vines. Keep foliage sparse enough to see layout. SIX stout upright wooden stakes around OUTSIDE the planting: four corners plus one halfway along each long side. Stout straight twine runs HORIZONTALLY around the outside from stake to stake at two levels, making two continuous rectangular perimeter loops. Twine tied visibly to every stake; all plants contained loosely inside the strings, not individually tied to posts. Near and far strings, end returns and support stakes must read clearly. Crop tops extend above upper string. No overhead bars, no ridge, no netting, no mesh, no diagonals, no crossing bean poles, no roof, no individual plant ties. This illustrates perimeter stake-and-string support, NOT a climbing frame. Frame fully inside generous transparent margins, broad simplified planes, warm tan posts, readable cream/tan twine against forest/lime greenery, little soil texture. No text, labels, measurement arrows, backdrop or glow. True transparent background. Intended print slot62mm wide by28mm high.",
+        "original": "/Users/johnlennon/.codex/generated_images/01a183cd-1dd2-7203-9dc6-7a90fed5b679/exec-79d30fe7-3f6b-47f7-b8c0-41267a0b1460.png",
+        "project": "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/topic-pages/plant-protection-supports/supports/assets/broad-beans-support-v1.png"
+      },
+      {
+        "key": "stake-mature-v3",
+        "refs": [
+          "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/topic-pages/plant-protection-supports/supports/assets/stake-mature-v2.png"
+        ],
+        "prompt": "Use case: precise-object-edit. Framing correction ONLY to this exact illustration. The leftmost edges of the mature Brussels sprout leaves currently touch and are slightly cut by the left canvas edge. Restore the complete rounded tips of those leaves and fit the WHOLE existing drawing inside a slightly wider portrait transparent canvas, with a clear transparent margin of5% on left/right and3% at top/bottom. Keep the mature sprout stem and developing sprouts, broad green leaf crown, square wooden stake, steadying gloved hand, mallet-holding gloved hand and wooden mallet unchanged in their relative positions and appearance. No new subjects, no extra leaves or sprouts, no ties, no text. The plant remains mature with its crown just below the stake top. Preserve the same broad graphic colour-plane style and exact colours. Correct edge clearance only: no leaves, hands, tool or ground patch may touch any canvas edge. True transparent background including gaps, no glow/backdrop.",
+        "original": "/Users/johnlennon/.codex/generated_images/01a183cd-1dd2-7203-9dc6-7a90fed5b679/exec-29e7358d-d0fe-47d1-a4f4-7f1985a91b82.png",
+        "project": "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/topic-pages/plant-protection-supports/supports/assets/stake-mature-v3.png"
+      }
+    ],
+    "notes": [
+      "Extra opposing cane pairs and plants inserted in all three gaps, keeping corrected perspective and single ridge.",
+      "Broad-bean geometry follows canonical bean_broad looking_after_the_crop[2] and sowing_and_planting.method, read through the shared reader on 29 October. Six stakes and two string levels are a schematic example, not a universal count.",
+      "Stake illustration uses a mature stem and leafy crown; framing correction completes left leaf edges.",
+      "All body advice retained verbatim. New broad-bean caption only.",
+      "Original and superseded assets retained; activeAssets below identifies current use."
+    ]
+  }
+}

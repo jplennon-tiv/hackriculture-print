@@ -9,10 +9,14 @@ export const contentsArtwork = [
   {id:'H6',folio:5,role:'lower',file:'docs/assets/vegetable-guru-stock/assets/h6-growing-harvest-hero-style-v2.png'}
 ];
 
+// The book's visible titles determine reading order; family metadata and colours stay intact.
+export const compareGuideTitles=(a,b)=>a.label.localeCompare(b.label,'en-GB',{sensitivity:'base',ignorePunctuation:true});
+
 // Approved placement map; saved reference PDFs retain their original folios.
 export function createContentsPlan(base, sources, approvedGuides = {}, readerGuides = {}) {
   const plan = structuredClone(base);
-  plan.status = 'John-requested subsection headings and internal Techniques blank removal, 19 October 2026; earlier approved reader edits retained.';
+  plan.status = 'John-requested alphabetical vegetable order, 30 October 2026; approved bodies, family colours and all later sections retained.';
+  plan.vegetableOrder = 'Alphabetical by displayed guide title (en-GB); complete facing pairs, original family colours.';
   plan.openingPlan = [
     [1, 'Title'], [2, 'Publication details'],
     [3, 'Blank: places the contents on facing pages'],
@@ -23,6 +27,7 @@ export function createContentsPlan(base, sources, approvedGuides = {}, readerGui
   const topicOrder = currentTopicOrder;
   const topicMap = {};
   for (const [unit, edition] of Object.entries(plan.editions)) {
+    edition.documents=[...edition.documents.filter(d=>d.type==='vegetable').sort(compareGuideTitles),...edition.documents.filter(d=>d.type!=='vegetable')];
     let cursor = plan.openingPlan.length + 1;
     edition.openingPagesReserved = plan.openingPlan.length;
     edition.sectionOpeners = [{source:'opening:varieties',startPage:9,label:'Vegetable Guides'}];
@@ -107,7 +112,8 @@ export function renderUpdatedContents(data, units, plan) {
   };
   const art = (folio,role) => contentsArtwork.filter(a=>a.folio===folio&&a.role===role).map(a=>`<img src="/${esc(a.file)}" alt="" aria-hidden="true" data-artwork="${a.id}">`).join('');
   const sheet = (folio, body) => `<section class="sheet ${folio % 2 === 0 ? 'verso' : ''} contents-unified" data-folio="${folio}"><div class="content"><header class="contents-header"><h1>${esc(extra.page.heading.text)}</h1>${art(folio,'header')}</header>${body}${folio===5?`<div class="contents-lower-art" aria-hidden="true">${art(folio,'lower')}</div>`:''}</div><footer><span>${esc(data.book.title.toUpperCase())}</span><span>${units.toUpperCase()} · ${folio}</span></footer></section>`;
-  const crops = toc.families.flatMap(f => f.entries);
+  const cropLabels=new Map(toc.families.flatMap(f=>f.entries).map(item=>[item.key,item]));
+  const crops=edition.documents.filter(d=>d.type==='vegetable').map(d=>cropLabels.get(d.key));
   const first = sheet(4, `<ul class="opening-list">${['technique:why-grow'].map(row).join('')}</ul>${section('opening:varieties')}<div class="contents-grid"><ul>${row('opening:how-to')}${crops.slice(0,21).map(x => guideRow(x,'vegetable')).join('')}</ul><ul>${crops.slice(21).map(x => guideRow(x,'vegetable')).join('')}</ul></div>`);
   const second = sheet(5, `<div class="contents-grid"><section>${section('opening:troubles')}<ul>${toc.troubles.map(x => guideRow(x,'trouble')).join('')}</ul></section><section>${section('opening:techniques')}<ul>${extra.groups.flatMap(g => g.entries).map(x => row(x.source)).join('')}</ul><ul class="index-link">${row(extra.index.source)}</ul></section></div>`);
   if (seen.size !== sources.size + documents.size || [...sources.keys(),...documents.keys()].some(s => !seen.has(s))) throw Error('Contents do not cover every destination');

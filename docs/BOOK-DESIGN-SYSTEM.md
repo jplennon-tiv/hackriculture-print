@@ -100,7 +100,23 @@ These are RGB design values, not a confirmed CMYK/press specification.
 
 ### Family Tint
 
-Retain the family system in guides and approved reference contents. John’s current simple contents revision deliberately omits family headings. Exact `ink`, `dark`,
+Retain the family colour system in guides and approved reference contents.
+John’s 30 October instruction places complete vegetable spreads in title
+alphabetical order while retaining their family colours. Family blocks no longer
+determine reading order. His current simple contents deliberately omits family
+headings. John approved larger category names on both guide pages on 30 October:
+10 pt Nunito Sans 900, uppercase, in the existing family deep colour, with the
+practical title moved slightly down at its existing size. The
+[scoped approval and exact examples](publication/category-navigation-preview/APPROVAL.json)
+own this treatment; guide-wide integration is pending. The how-to colour key was
+rejected, including its smaller title/hero adaptation. The current how-to remains
+unchanged. John also selected [contents option A](publication/contents-colour-study/APPROVAL.json):
+vegetable titles and folios use the existing category `deep` colour; titles retain
+10.5 pt size with weight 600. Its integration is pending. The separate
+[complete contents approval](publication/contents-colour-study/key-preview/APPROVAL.json)
+also covers Troubles titles/folios in their group colours and the key beside H6
+harvest, with root-family `wash` as its pale fill. H5 seedlings is omitted.
+This later composition is approved, awaiting integration. Exact `ink`, `dark`,
 `deep`, `accent`, `soft`, `wash` and `paper` values live in the existing
 [familyThemes.json](../src/print/familyThemes.json), derived from the approved
 [Family Tint study](vegetable-style-pilot/group-colours/TINTED.html). Reuse those
@@ -208,7 +224,7 @@ cover wrap follows the confirmed stock, spine and supplier template.
 
 Preserve section grids: contents use a 9 mm column gap; practical vegetable
 columns use 18 CSS px (about 4.8 mm); Troubles uses 20 px (about 5.3 mm).
-The source styles own finer spacing. Keep aligned text edges and a clear reading
+The source styles own finer spacing. Follow each section's text-edge rules and keep a clear reading
 order; do not force a new universal baseline grid over the accepted layouts.
 
 The [Bookvault profile](../src/print/book/bookvault.css) changes binding allocation,
@@ -224,10 +240,10 @@ their page total is not the interior count used for print costing/spine calculat
 | Back cover | B5 dark green; cream title/count subtitle; left blurb and slightly angled torn fragments at right; price and ISBN area | Preferred [B5 artwork](publication/vegetable-guru-back-collage/B5.png); production adaptation uses exact book crops in place of generated snippets |
 | Title/publication | Cover-related title strip and quieter publication page | [Original pages 1–3 proposal](publication/vegetable-guru-opening-pages/REVIEW.html) retained; current assembly omits the welcome/author page. Metadata placeholders remain. |
 | Contents/how-to | Simple illustrated contents with calculated page references; original calendar, difficulty and needs explanations in the combined Guides panel | [Approved source pages 4–7](publication/vegetable-guru-entry-pages/REVIEW.html) remain frozen. The accepted [two-page contents](publication/contents-update/REVIEW.html) and [approved combined Guides/how-to](publication/combined-guides-opening/APPROVAL.json) are integrated in the full preview. |
-| Index | Two open columns; 9.45 pt reading type, orange folios, ruled alphabet headings, continued labels, no decorative artwork | [Four-page index](publication/book-index/REVIEW.html), approved 12 October; [frozen sources](publication/book-index/APPROVAL.json); current integrated folios 164–167 |
+| Index | Two open columns; 9.45 pt reading type, orange folios, ruled alphabet headings, continued labels, no decorative artwork | [Four-page index](publication/book-index/REVIEW.html), approved 12 October; [frozen sources](publication/book-index/APPROVAL.json); current integrated folios 168–171 |
 | Section openers | Vegetable Guides: right-hand title/H4 artwork above a lower peach how-to panel, centred orange panel heading, original explanations and clear native examples. Troubles/Techniques retain their existing recto title-page proposals. | [Combined Guides page approved 15 October](publication/combined-guides-opening/APPROVAL.json); blank 8 / combined 9, integrated into the full preview. Other [14 October opener proposals](publication/whole-book-order-preview/SECTION-OPENERS.json) remain for review. |
 | Vegetables | Expressive hero/circle/sticker opening, useful information hierarchy, practical continuation and full-width Final Tips | Approved [guide contract](BOOK-PRINT-STYLE.md#vegetable-opening-page); collection review remains separate |
-| Troubles | Open two-column entries, complete diagnostics, Recognise / Act / Prevent hierarchy, aligned first/last text with sparse-page exceptions | Approved [guide contract](BOOK-PRINT-STYLE.md#troubles); no enclosing equal-height cards |
+| Troubles | Open two-column entries, complete diagnostics, small Recognise / Act / Prevent advice labels. Approved separate wrapping masks, 4 mm gap and 25% larger drawings. Natural book flow leaves unused space after the final content, with normal gaps and unequal lower edges where complete entries require them. The full Brassica proof implements this for review; other guides and main-book integration remain pending. Explain the sequence on the opener instead of repeating the arrowed page header. | [Guide contract](BOOK-PRINT-STYLE.md#troubles); [image-treatment approval](publication/troubles-image-size-study/APPROVAL.json); [header revision](publication/troubles-header-refinement/README.md); no enclosing equal-height cards |
 
 Shared character comes from colour, typography and illustration language, with
 different information densities. Keep cover tiles rectangular and flush; do not
@@ -273,10 +289,16 @@ now explicitly outside the layout skills’ scope; use the agreed component desi
 and PDF checks directly.
 Each page uses one Contents title (25.5 pt), plain section titles and 10.5 pt
 reading rows. Section numbers, family/topic subheadings, coloured panels and
-explanatory notes remain omitted. After removing the welcome entry, all 81
+explanatory notes remain omitted. After adding the approved Netting and Supports sections, all 83
 current destinations are included. At John’s
 request, H1/H2 decorate the matching headers, with H5 seedlings and H6 harvest
-below the second page’s lists. A short deep-orange rule accents each header.
+below the second page’s lists. The 30 October integration scales these lower
+decorations to 45 × 33.75 mm in a 34 mm band to accommodate the two new rows;
+the 10.5 pt reading size remains. A short deep-orange rule accents each header.
+The later 30 October approval of option A colours the crop names and folios by
+category without changing their positions, size or the two-column list. The
+approved revised proof keeps that page clear and uses matching Troubles colours
+with a paler key panel low on page 5; the how-to key stays rejected.
 These reuse the current house-style stock verbatim; John accepted the illustrated
 contents for integration into the full preview. The plain baseline and accepted
 illustrated 4–5 proofs are retained. The current sequence puts a blank at 3,

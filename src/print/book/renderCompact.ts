@@ -4,11 +4,13 @@ import { join } from 'node:path';
 import { kaleBookCopy } from './kaleCopy';
 import {workingBookCopy,workingBookConsolidations} from './workingCopy';
 import {prepareProductionType,finishProductionPages,type BookProductionOptions} from './production';
+import {prepareTroubleFlow,type TroubleFlowOptions} from './troubleFlow';
 
 /** Reuse approved source-linked markup, then lay it out in a separate document.
  * React's A4 measurement effects cannot interfere with the book's geometry.
  * No canonical data, A4 styles or frozen reference files are modified here. */
-export async function prepareCompactBook(page: Page, baseUrl: string, type: 'vegetable'|'trouble', slug: string, units: string, root: string, production?:BookProductionOptions) {
+export async function prepareCompactBook(page: Page, baseUrl: string, type: 'vegetable'|'trouble', slug: string, units: string, root: string, production?:BookProductionOptions, troubleFlow?:TroubleFlowOptions) {
+    if(troubleFlow&&type!=='trouble')throw Error('Troubles flow is only valid for diagnostic guides');
     let css = await readFile(join(root, 'src/print/book/compact.css'), 'utf8');
     if(production) {
         if(!Number.isInteger(production.startPage)||production.startPage<1)throw Error('Production needs a positive physical start page');
@@ -24,17 +26,18 @@ export async function prepareCompactBook(page: Page, baseUrl: string, type: 'veg
     await page.setContent(`<!doctype html><html><head><meta charset="utf-8"><base href="${baseUrl}/"><style>${captured.css}\n${css}</style></head><body>${captured.html}</body></html>`);
     await page.evaluate(async () => { await document.fonts.ready; await Promise.all(Array.from(document.images, i => i.decode())); });
     const adjustedType=production?await prepareProductionType(page):[];
+    if(troubleFlow)await prepareTroubleFlow(page,root,troubleFlow);
     const edits=type==='vegetable'?(slug==='kale'?kaleBookCopy(units):production?workingBookCopy(slug,units):[]):[];
     const consolidations=production&&type==='vegetable'?workingBookConsolidations(slug):[];
-    const result=await page.evaluate(layoutCompactBook, { type, slug, units, edits, consolidations, startPage:production?.startPage });
+    const result=await page.evaluate(layoutCompactBook, { type, slug, units, edits, consolidations, startPage:production?.startPage, trailingTroubles:!!troubleFlow, balanceFinalTroubles:!!troubleFlow?.priority });
     const geometry=production?await finishProductionPages(page,production):undefined;
     return {...result,geometry,adjustedType};
 }
 
-type LayoutInput = {type:'vegetable'|'trouble';slug:string;units:string;edits:{selector:string;expected:string;proposed:string;label?:string}[];consolidations?:{selector:string;duplicateOf:string}[];startPage?:number};
+type LayoutInput = {type:'vegetable'|'trouble';slug:string;units:string;edits:{selector:string;expected:string;proposed:string;label?:string}[];consolidations?:{selector:string;duplicateOf:string}[];startPage?:number;trailingTroubles?:boolean;balanceFinalTroubles?:boolean};
 
 /** Browser-only DOM layout. Move whole content blocks; never truncate a page. */
-export function layoutCompactBook({type, slug, units, edits,consolidations=[],startPage}: LayoutInput) {
+export function layoutCompactBook({type, slug, units, edits,consolidations=[],startPage,trailingTroubles=false,balanceFinalTroubles=false}: LayoutInput) {
     const root = document.querySelector<HTMLElement>(type === 'vegetable' ? '.rich-print' : '.editorial-trouble')!;
     const warnings: string[] = [];
     let cropLabelLegend:{label:string;crops:string[];entries:string[]}|undefined;
@@ -213,6 +216,8 @@ export function layoutCompactBook({type, slug, units, edits,consolidations=[],st
     } else {
         const source = need(root,'.measure'), output = need(root,':scope>div:last-child');
         const template = need(source,'[data-template]');
+        // Explain this sequence once on the book's Troubles opener, not on every page.
+        template.querySelector('.navigation')?.remove();
         const entries = all(source,'[data-source-entry]');
         originalNodes = all(source,'[data-source-entry]');
         originalImages = all<HTMLImageElement>(source,'[data-source-entry] img');
@@ -247,9 +252,9 @@ export function layoutCompactBook({type, slug, units, edits,consolidations=[],st
             const img = entry.querySelector('.diagnostic'); if (img) need(entry,'.advice').prepend(img);
             firstColumn.append(entry);
         }
-        // Measure complete entries at the real column width. Choose ordered
-        // page/column breaks together: filling one column greedily can strand
-        // a single entry on the last page or leave its other column empty.
+        // Measure complete entries at the real column width and choose ordered
+        // page/column breaks together. The opt-in book flow fills forward;
+        // legacy exports retain their previous guide-wide balancing objective.
         const heights=entries.map(e=>e.getBoundingClientRect().height+parseFloat(getComputedStyle(e).marginBottom));
         const tails=entries.map(e=>parseFloat(getComputedStyle(e).marginBottom));
         const prefix=[0];heights.forEach(h=>prefix.push(prefix[prefix.length-1]+h));
@@ -267,7 +272,7 @@ export function layoutCompactBook({type, slug, units, edits,consolidations=[],st
                 for(let end=middle;end<=entries.length;end++) {
                     const right=span(middle,end);if(right>cap+.1)break;
                     const rest=plan(end,false);if(!rest)continue;
-                    // Page count first; production next minimises the worst
+                    // Legacy objective: page count first; production next minimises the worst
                     // inter-entry stretch needed for aligned text edges. Then
                     // balance page usage. Never drop or reorder an entry.
                     const single=(middle-from===1?1:0)+(end-middle===1?1:0);
@@ -281,7 +286,13 @@ export function layoutCompactBook({type, slug, units, edits,consolidations=[],st
                     const stretch=Math.abs(left-right)/(shorterCount<2?2:Math.max(1,shorterCount-1));
                     const cost=rest.cost+(2*cap-left-right)**2+(left-right)**2*.15+single*2500+(startPage!==undefined?4*stretch**2:0);
                     const candidate={pages:rest.pages+1,sparse:rest.sparse+(single&&(end!==entries.length||end-from>3)?1:0),maxStretch:Math.max(rest.maxStretch,stretch),cost,breaks:[[middle,end] as [number,number],...rest.breaks]};
-                    const preference=!best?0:startPage===undefined?candidate.cost-best.cost:
+                    // Book flow fills the earliest page with the largest ordered
+                    // prefix that fits, then fills its left column first.
+                    // No guide-wide fullness or gap-stretch objective applies.
+                    const preference=!best?0:trailingTroubles?
+                        best.breaks[0][1]-end||(balanceFinalTroubles&&end===entries.length?
+                            Math.abs(left-right)-Math.abs(span(from,best.breaks[0][0])-span(best.breaks[0][0],best.breaks[0][1])):0)||best.breaks[0][0]-middle:
+                        startPage===undefined?candidate.cost-best.cost:
                         candidate.sparse-best.sparse||candidate.maxStretch-best.maxStretch||candidate.cost-best.cost;
                     if(!best||candidate.pages<best.pages||candidate.pages===best.pages&&preference<0)best=candidate;
                 }
@@ -295,12 +306,18 @@ export function layoutCompactBook({type, slug, units, edits,consolidations=[],st
         chosen.breaks.forEach(([middle,end],index)=>{
             const sheet=index===0?first:addPage(), columns=all(sheet,'[data-column]');
             columns[0].append(...entries.slice(from,middle));columns[1].append(...entries.slice(middle,end));
-            sheet.dataset.columnBalance=JSON.stringify({entries:[middle-from,end-middle],method:'ordered measured page/column partition'});
+            sheet.dataset.columnBalance=JSON.stringify({entries:[middle-from,end-middle],method:trailingTroubles?'ordered front-filled pages; natural gaps; trailing final space':'ordered measured page/column partition'});
             from=end;
         });
         source.remove();
-        // Pack first, then share inter-entry space. A single entry is never stretched.
+        // The new book flow keeps natural gaps. Legacy exports still share
+        // inter-entry space after packing; a single entry is never stretched.
         for (const sheet of sheets()) {
+            if(trailingTroubles) {
+                all(sheet,'[data-column]').forEach(c=>{c.style.height='auto';c.style.alignSelf='start';});
+                sheet.dataset.alignmentException='Natural book flow: top edges aligned; complete entries keep normal gaps and unused final-page space trails below.';
+                continue;
+            }
             need(sheet,'.columns').classList.add('align-ends');
             const columns=all(sheet,'[data-column]');
             if(columns.length!==2||columns.some(c=>c.children.length<2)) {
@@ -335,7 +352,7 @@ export function layoutCompactBook({type, slug, units, edits,consolidations=[],st
             const heights=columns.map((c,i)=>c.getBoundingClientRect().height+extra[i]);
             columns.forEach((c,i)=>{c.style.alignSelf='start';c.style.height=`${heights[i]}px`;});
         }
-        if(startPage!==undefined) {
+        if(startPage!==undefined&&!trailingTroubles) {
             const last=sheets()[sheets().length-1], columns=all(last,'[data-column]');
             const tallestDrawing=Math.max(...all(last,'.diagnostic').map(e=>e.getBoundingClientRect().height));
             const largestGap=Math.max(...columns.flatMap(c=>all(c,':scope>.entry').slice(1).map((e,i)=>e.getBoundingClientRect().top-bottom(c.children[i]))));
@@ -381,6 +398,6 @@ export function layoutCompactBook({type, slug, units, edits,consolidations=[],st
         return {page:i+1,footerGapMm:(footer.top-contentBottom)/3.77952756,columns,alignmentException:sheet.dataset.alignmentException};
     });
     if (Array.from(document.images).some(i=>!i.complete||!i.naturalWidth)) throw Error('Compact book missing artwork');
-    document.body.dataset.bookChecks = JSON.stringify({type,slug,units,pages:checks,contentPreserved:true,consolidations,cropLabelLegend});
+    document.body.dataset.bookChecks = JSON.stringify({type,slug,units,pages:checks,contentPreserved:true,consolidations,cropLabelLegend,troubleFlow:trailingTroubles?'trailing-space-with-masks':'legacy'});
     return {pages:checks.length,warnings};
 }

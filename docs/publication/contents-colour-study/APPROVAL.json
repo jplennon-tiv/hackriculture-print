@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-30",
+  "approvedBy": "John Lennon",
+  "statement": "I like A too, we'll go with it. We might need a key at the bottom, in fairly small text. Try it for size.",
+  "status": "Option A approved; a compact bottom key requested for separate review; integration pending",
+  "approvedScope": {
+    "option": "A — Coloured crop names",
+    "proofPages": [
+      1,
+      2
+    ],
+    "cropNamePt": 10.5,
+    "cropNameWeight": 600,
+    "colours": "Existing category deep colours for crop names and folios",
+    "alphabeticalOrderRetained": true
+  },
+  "notApproved": [
+    "Options B and C",
+    "The newly requested contents key, until reviewed",
+    "The previously rejected how-to colour key"
+  ],
+  "files": [
+    {
+      "path": "output/pdf/contents-colour-study/contents-colour-options.pdf",
+      "sha256": "7cb994b573e6261abca4f50c11d4b023f7f1656e1039d71cb8d4edeb4d1cd194"
+    },
+    {
+      "path": "docs/publication/contents-colour-study/coloured-text-imperial.html",
+      "sha256": "4f5ef9cf7d6235b52282b9d97c7fecd9efde6d0bc79686cbf06eed43cb76a628"
+    },
+    {
+      "path": "docs/publication/contents-colour-study/coloured-text-metric.html",
+      "sha256": "68356ace22f223f6f6cc9eb9f86e3bb3337d9af4cdf17857277bb1c27f157904"
+    },
+    {
+      "path": "docs/publication/contents-colour-study/study.css",
+      "sha256": "8a13bda2f83c1ad5f6494a68de03db25baa12e721afda92584c59a65d8b7e62f"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+@import url('/docs/publication/contents-colour-study/study.css');
+.trouble-row{color:var(--deep)}
+.trouble-name{font-weight:600}
+.contents-unified .contents-lower-art{display:grid;grid-template-columns:minmax(0,1fr) 45mm;gap:9mm;align-items:center}
+.contents-lower-art img[data-artwork="H6"]{grid-column:2}
+.category-key-panel{align-self:stretch;display:flex;flex-direction:column;justify-content:center;background:var(--key-fill);border-radius:0 4mm 0 4mm;padding:3mm 4mm}
+.category-key-title{font:900 10pt/1.2 Nunito,sans-serif;margin:0 0 2mm;color:#173e2c}
+.category-key{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1mm 3mm;font-size:8pt;line-height:1.15;font-weight:600}
+.category-key-item{display:flex;align-items:center;gap:1.5mm;color:var(--deep);white-space:nowrap}
+.category-key-swatch{display:block;flex:0 0 3mm;height:1.5mm;border-radius:.3mm;background:var(--deep)}

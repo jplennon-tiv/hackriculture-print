@@ -17,6 +17,12 @@ export function headingPage(texts, heading) {
   return hits[0];
 }
 
+export function indexPageOffsets(ref, count) {
+  if(ref.pageOffset===undefined)return Array.from({length:count},(_,i)=>i);
+  if(!Number.isInteger(ref.pageOffset)||ref.pageOffset<0||ref.pageOffset>=count||ref.condition!==undefined)throw Error('Invalid index page offset: '+ref.source);
+  return [ref.pageOffset];
+}
+
 /** References remain structured until display; never compress C/T and numeric folios together. */
 export function compactReferences(refs) {
   const groups = new Map();
@@ -105,7 +111,7 @@ export function resolveIndex({planPath='docs/publication/book-preparation/ASSEMB
       for(const ref of entry.refs||[]) {
         const source=registry.get(ref.source);
         if(!source) throw Error('Unresolved index source: '+ref.source);
-        let offsets=source.texts.map((_,i)=>i),heading;
+        let offsets=indexPageOffsets(ref,source.texts.length),heading;
         if(ref.condition) {
           const key=ref.source.split(':')[1];
           const condition=troubles[key]?.conditions[ref.condition];

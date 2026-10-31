@@ -1,0 +1,27 @@
+{
+  "scope": "Brassica opening only; comparison PDF and unchanged facing-page context",
+  "shapeMarginMm": 4,
+  "checks": [
+    {
+      "units": "imperial",
+      "onePagePerVariant": true,
+      "glyphsAndTypeSizesPreserved": true,
+      "embeddedImagesIdentical": 4
+    },
+    {
+      "units": "metric",
+      "onePagePerVariant": true,
+      "glyphsAndTypeSizesPreserved": true,
+      "embeddedImagesIdentical": 4
+    }
+  ],
+  "trimMm": [
+    185,
+    240
+  ],
+  "outputPages": 2,
+  "output": "output/pdf/troubles-mask-study/brassica-mask-comparison.pdf",
+  "sha256": "e714fcfdf777d449aebc80440d0b9527c1b63104cb148ba1cf7a91713e692475",
+  "facingContextSource": "docs/publication/troubles-header-refinement/folio-107.png",
+  "facingContextSha256": "237219d8f1b7bfbee152e8a83e532df5e55bc70bd597fc6ff046e427defa9d7c"
+}
