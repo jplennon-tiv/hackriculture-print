@@ -316,7 +316,7 @@ blank after an odd-length crop. Troubles continue naturally. The default
 `continuous` policy adds no inter-guide blanks. Both use `compact-pagination.mjs`;
 `node --test scripts/compact-pagination.test.mjs` covers mixed guide lengths and
 invalid inputs. The earlier 148-page technical review has four crop blanks at physical
-folios 15, 69, 87 and 91. The current whole-book order preview uses 170 interior
+folios 15, 69, 87 and 91. The current whole-book order preview uses 176 interior
 pages, including the later sections; its current page map and blank positions
 are in the [handover](docs/handover/START-HERE.md). The old runner/plan is not
 the current full-book assembly route.
@@ -325,16 +325,16 @@ the current full-book assembly route.
 
 **Current book assembly:** `npm run book:preview` is the single current full-book
 route. It reuses the approved baseline and component PDFs, builds two illustrated
-contents pages (83 destinations) and the four-page index (297 entries / 35 see
+contents pages (85 destinations) and the four-page index (307 entries / 36 see
 references), refreshes reference footers, verifies native bodies and PDF links,
 and renders the facing-page viewer. No guide catalogue export is performed.
 The [whole-book workflow](docs/publication/whole-book-order-preview/README.md)
-records its exact inputs and checks. The current interior is 174 pages; the
-complete screen PDF has 178 pages including covers. Techniques occupy 147–169,
-without internal blanks, and the index occupies 170–173. Vegetables at 10–97
+records its exact inputs and checks. The current interior is 176 pages; the
+complete screen PDF has 180 pages including covers. Techniques occupy 147–171,
+without internal blanks, and the index occupies 172–175, followed by end blank 176. Vegetables at 10–97
 are alphabetised by displayed title; family metadata and page colours remain.
 The assembler moves intact native facing pairs, refreshes footers and patches
-three numeric-reference ranges in Techniques using their embedded fonts. The 88 approved category labels are native overlays; the rest of each vegetable body is preserved. `scripts/lib/approved-troubles.mjs` binds the accepted 14 PDFs and exact condition offsets; the index checks each mapped heading against actual PDF text. Coloured contents reuse the approved key stylesheet and existing family mapping. No shared JSON mutation is required for folios.
+three numeric-reference ranges in Techniques using their embedded fonts. The 88 approved category labels are native overlays; the rest of each vegetable body is preserved. `scripts/lib/approved-troubles.mjs` binds the accepted 14 PDFs and exact condition offsets; the index checks each mapped heading against actual PDF text. Coloured contents reuse the approved key stylesheet and existing family mapping. No shared JSON mutation is required for folios. Adding the approved turf destination used the guarded book-copy writer; the source PDF is frozen in its approval manifest. It follows Digging at 162, with Sowing 163 and Watering 168 around the preserved Netting/Supports spreads.
 
 `book:contents` builds both-unit contents and the placement plan;
 `book:index` builds the current integrated index. `scripts/lib/approved-reader-integration.mjs`

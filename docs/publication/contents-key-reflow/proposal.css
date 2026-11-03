@@ -1,0 +1,7 @@
+/* John's 3 November trial. Current integrated and frozen sources stay intact. */
+@import url('/docs/publication/contents-update/current.css');
+.contents-unified[data-folio="5"] li{padding:2px 0}
+.contents-unified .left-column-harvest{display:block;width:45mm;height:33.75mm;object-fit:contain;margin:8mm auto 0}
+.contents-unified .contents-lower-art{display:block;height:auto;margin-top:4mm}
+.contents-unified .category-key-panel{width:100%;padding:3mm 4mm}
+.contents-unified .category-key{grid-template-columns:repeat(4,minmax(0,1fr));grid-template-rows:repeat(2,auto);grid-auto-flow:column;gap:1mm 3mm}

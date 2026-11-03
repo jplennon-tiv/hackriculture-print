@@ -103,6 +103,13 @@ details when shortening prose. Repeated measurements can appear once only when
 their complete meaning remains clearly available. Preserve source-linked
 companions, attribution and exact-byte backups for any future shared data writes.
 
+Pests & diseases table labels and Key risks headings use sentence case, retaining proper names and
+scientific genera (for example, Colorado beetle and Grey mould (Botrytis)). This
+applies to source vegetable labels and shared-Troubles fallback labels alike;
+use `troubleLabel` at display boundaries. It changes neither condition IDs nor
+advice. [Source and table correction](publication/pest-title-case/README.md) and
+[Key risks correction](publication/key-risk-title-case/README.md), requested on 3 November.
+
 ## Troubles
 
 Use two open columns, fine separating rules, compact crop labels, condition

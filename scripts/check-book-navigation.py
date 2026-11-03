@@ -13,5 +13,5 @@ for i,p in enumerate(r.pages):
  for ref in p.get('/Annots',[]):
   a=ref.get_object();assert '/A' not in a;actual.append((i-1,ids[a['/Dest'][0].idnum]-1))
 assert Counter(actual)==Counter((l['folio'],l['target']) for l in proof['allLinks'])
-assert c['blankFolios']==[3,6,8,98]
+assert c['blankFolios']==[3,6,8,98,176]
 print(json.dumps({'status':'passed','pdfPages':len(r.pages),'internalLinks':len(actual),'checks':c['integrationReceipt']}))

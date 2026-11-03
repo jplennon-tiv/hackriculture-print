@@ -13,13 +13,13 @@ entry point for current decisions, component status, outstanding work and
 publication/automation boundaries. It distinguishes approved designs from
 working book proofs and historical evidence. Follow John's latest instruction.
 
-**Current book, 2 November:** the approved [Testing and adjusting pH page](docs/publication/topic-pages/soil-acidity/README.md)
-is integrated at **152**, and the approved three-panel guide intro at **9**.
-Contents, index, numbering and links are refreshed. The book remains **174 interior
-pages / 178 PDF pages**. Watering now faces Sowing, preserving Netting/Supports
-spreads without an added blank. The [promotional slides handover](docs/handover/PROMOTIONAL-SLIDES.md)
-identifies the current PDF and artwork for the next chat.
-The [sixteen vegetable wording proposals](docs/publication/soil-acidity-crop-edits/DIFF.html)
+**Current book, 3 November:** the approved [Lifting and using turf page](docs/publication/topic-pages/lifting-and-using-turf/README.md)
+is integrated after Digging at **162**, with updated contents, index, numbering
+and links. The book has **176 interior pages / 180 PDF pages**. Sowing is 163;
+Netting 164–165 and Supports 166–167 retain their facing spreads; Watering follows
+at 168, Greenhouses at 169–171, and the index at 172–175. A balancing blank follows at 176. The pH page remains at 152 and the approved guide intro at 9.
+The promotional slides project is complete. The
+[sixteen vegetable wording proposals](docs/publication/soil-acidity-crop-edits/DIFF.html)
 remain unapproved and unintegrated. Canonical advice and supplier files are unchanged.
 
 **Post-proof work:** John has received the physical proof and is
@@ -42,7 +42,7 @@ natural trailing space. Potato slugs remain unstarred. Contents, index,
 bookmarks, crop links and numeric cross-references follow the revised locations.
 The [main-book evidence](docs/publication/whole-book-order-preview/README.md)
 records source preservation and actual PDF checks. Netting is now **164–165**,
-Supports **166–167**, and the index **171–174**.
+Supports **166–167**, and the index **172–175**.
 The introduction
 rewrite remains planned. The
 [website is live](https://hackriculture.com/) and he confirms the SSL issue has
@@ -87,7 +87,7 @@ in this and future sessions. Its maintained source is shared across the data,
 print, website and video projects.
 
 The [current full preview](docs/publication/whole-book-order-preview/REVIEW.html)
-contains **174 interior pages plus four cover leaves: 178 PDF pages**, imperial.
+contains **176 interior pages plus four cover leaves: 180 PDF pages**, imperial.
 All approved reader edits, expanded Crop rotation & planning, the nutrient page
 and John's Growing Techniques headings, Netting and Supports are integrated. Its two internal
 blank pages have been removed. All 44 vegetables remain two-page facing guides. Contents, index and
@@ -107,8 +107,8 @@ admin password. Keep its terminal open; Control-C stops it. Admin saves and
 browser-rendered PDFs need this server. Normal exports use no AI service.
 Detailed startup and check commands are in [SETUP.md](SETUP.md).
 
-The current index has 303 entries and 35 see references on pages 171–174.
-Contents retain two simple illustrated pages with 84 destinations and no extra
+The current index has 307 entries and 36 see references on pages 172–175.
+Contents retain two simple illustrated pages with 85 destinations and no extra
 subheadings. [Contents notes](docs/publication/contents-update/README.md) and
 [index notes](docs/publication/book-index/README.md) distinguish current derivatives
 from frozen approvals.

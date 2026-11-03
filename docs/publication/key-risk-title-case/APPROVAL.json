@@ -1,0 +1,146 @@
+{
+  "date": "2026-11-03",
+  "approvedBy": "John Lennon",
+  "statement": "Much better, thanks. All changes approved.",
+  "status": "Approved and already integrated",
+  "scope": {
+    "keyRisks": "Sentence case for all 173 displayed headings across 44 vegetable opening pages; 157 headings changed.",
+    "pestsAndDiseases": "Sentence case for all 316 displayed table labels across 44 practical pages; 277 printed labels changed, following the guarded 350-key source correction.",
+    "contents": "Previously approved page-5 reflow retained: H6 under the left column; full-width pale key with four columns of two.",
+    "preserved": "Original fonts, descriptions, illustrations, line breaks, page positions, order, numbering and index."
+  },
+  "contentsApproval": "docs/publication/contents-key-reflow/APPROVAL.json",
+  "reviewedBook": {
+    "path": "output/pdf/whole-book-order-preview/the-vegetable-guru-order-preview.pdf",
+    "sha256": "8c75e0eb9114005edd7516bf2d86855cf90110e4d2fff0ee48a146571afbeea6",
+    "interiorPages": 176,
+    "pdfPages": 180,
+    "note": "Identifies the reviewed revision. The current output path may advance for later authorised edits; retain these immutable component proofs."
+  },
+  "files": [
+    {
+      "path": "docs/publication/pest-title-case/PDF-CHECKS.json",
+      "sha256": "91ae318b3f0b6777c624401a08b8ad7288002fb09220d8e19b083bb725ee50fc"
+    },
+    {
+      "path": "docs/publication/pest-title-case/PDF-PLAN.json",
+      "sha256": "549ca96fab91a24ec7c24fb298ab38590e4808e09966854978bb5f71385108a6"
+    },
+    {
+      "path": "docs/publication/pest-title-case/VISUAL-REVIEW.json",
+      "sha256": "9a2bac53e4b92e953234c92c863fe3a08c907af55130319df0cf495e61e200b0"
+    },
+    {
+      "path": "output/pdf/pest-title-case/corrected-guide-pages.pdf",
+      "sha256": "3af56b5ca55ae572e5648322c06e450a735d7ad2dbdfa4ee5204f2f1c9e2403a"
+    },
+    {
+      "path": "docs/publication/pest-title-case/check-pdf-runtime.py",
+      "sha256": "f8133435cab055d4f6ebe9f61d0c50f216652a54d21af7730534e083d37623b1"
+    },
+    {
+      "path": "docs/publication/pest-title-case/apply-pdf.py",
+      "sha256": "d6c009fc3e421c20ca6b6d3b1a1528bd8dcb7a5fe7aec57037181cce1e7daff6"
+    },
+    {
+      "path": "docs/publication/pest-title-case/prepare-pdf.py",
+      "sha256": "32ca17afacef6c9289978a474b7fc4ce23273673efc271b90393e4f668bb6f97"
+    },
+    {
+      "path": "docs/publication/pest-title-case/finish-pdf-plan.mjs",
+      "sha256": "75828ee7bdee90f75eca3be7200338e2fbd7bb99c56b941eacf7f46828cd411d"
+    },
+    {
+      "path": "docs/publication/pest-title-case/check-runtime.mjs",
+      "sha256": "6d3acff244ca1fb5e6acce449ca8d4b947df678f7cfa9b2a19696b497a49b7d5"
+    },
+    {
+      "path": "docs/publication/pest-title-case/save-source.mjs",
+      "sha256": "2b380f2f7ab84f9fc047fedc8ee1b0312aeae145a34dc05fe082180fa97f9ef7"
+    },
+    {
+      "path": "docs/publication/key-risk-title-case/PDF-CHECKS.json",
+      "sha256": "8ca1a98c2b09ae04978a93c62be617d5c3fd3297368f69161d3a858fbd7a32ad"
+    },
+    {
+      "path": "docs/publication/key-risk-title-case/PDF-PLAN.json",
+      "sha256": "a32abdaa1fdefc3f4336a7393582ca755518ac85dbe47b3d84f01b1ab277e0ed"
+    },
+    {
+      "path": "docs/publication/key-risk-title-case/VISUAL-REVIEW.json",
+      "sha256": "78f5add4f7c72f6a084084e5164c5dd72ccc350f1c6e062128552c1c3f319a68"
+    },
+    {
+      "path": "output/pdf/key-risk-title-case/corrected-opening-pages.pdf",
+      "sha256": "be0c4f68b13bcfd0e74a80fda17446067ac4999fd95ae602af996a0979aec703"
+    },
+    {
+      "path": "docs/publication/key-risk-title-case/check-pdf-runtime.py",
+      "sha256": "e3e9a5f06cb21622e30dc01e2e2b98bb07e6a8abfa7894ba11d7e032383591b2"
+    },
+    {
+      "path": "docs/publication/key-risk-title-case/render-review.py",
+      "sha256": "5997bde7895e7fcebc026efab773edfb717db4a0b8aac95b9fe42a428bd47d50"
+    },
+    {
+      "path": "docs/publication/key-risk-title-case/apply-pdf.py",
+      "sha256": "711217ebb8fa64bb49be8e3177560c942cc53eeb974118a7c66a44790f7ba2c4"
+    },
+    {
+      "path": "docs/publication/key-risk-title-case/prepare-pdf.py",
+      "sha256": "89abf317a6b40d5328bfa2f6867e897163de2440584f4f476b6685ab20ed7b4c"
+    },
+    {
+      "path": "docs/publication/key-risk-title-case/make-font-donor.mjs",
+      "sha256": "93127b3bbdbcba2d030341f7042e9901c64e27ef8b0567b2a39107d40776e605"
+    },
+    {
+      "path": "docs/publication/key-risk-title-case/finish-pdf-plan.mjs",
+      "sha256": "3b84bb44fc2356aa51f90f91933701fd2670f028dd5a32120f065056db83fcd0"
+    },
+    {
+      "path": "docs/publication/key-risk-title-case/check-runtime.mjs",
+      "sha256": "6e8853418aa8be9f65b62accc24ee3a3ea9e340a78b41c97b67f50027457a180"
+    },
+    {
+      "path": "docs/publication/pest-title-case/SAVE-RECEIPT.json",
+      "sha256": "2a31541168725e455db846abadfd45b111d3842271525a2c69a123f55ebc7434"
+    },
+    {
+      "path": "docs/publication/pest-title-case/SOURCE-CHANGES.json",
+      "sha256": "3bb8b416ad01d24cdf110a2579425fc8bd82fa78a8a5e84279f83ab5bbae3d0f"
+    },
+    {
+      "path": "docs/publication/key-risk-title-case/font-donor.pdf",
+      "sha256": "9fb80bec01e7403dd7be926bd378e0f32f6a532b597d2f88af6e2128159cf2c8"
+    },
+    {
+      "path": "docs/publication/key-risk-title-case/risks-4.jpg",
+      "sha256": "41dee4afcfe2e8e53626306c136405cb454f26bf0dad9bac4206acb858769883"
+    },
+    {
+      "path": "docs/publication/key-risk-title-case/risks-3.jpg",
+      "sha256": "b3ea0b03411769f199dc4d65101e24d8d2141a65bddf2a3e14df875f895ce754"
+    },
+    {
+      "path": "docs/publication/key-risk-title-case/risks-2.jpg",
+      "sha256": "cc86fb39c0d0607b373a1fd4f146303ba46c51e6dcbb9a7eae382e691d280a62"
+    },
+    {
+      "path": "docs/publication/key-risk-title-case/risks-1.jpg",
+      "sha256": "c28bec0bc08657083125b0712287dbab91e2eeb8a52eda451378f80371ac8cb0"
+    },
+    {
+      "path": "docs/publication/key-risk-title-case/broccoli-spread.jpg",
+      "sha256": "881b708bd133c3f627a901aa237bf31ecaaaecd6eee62afb0ebf752c55f3fb38"
+    },
+    {
+      "path": "docs/publication/key-risk-title-case/spinach-spread.jpg",
+      "sha256": "89c2a4d3d4758ed3941458a18835cd3f49713b09e914bf9273ff8f23858d2151"
+    }
+  ],
+  "limits": [
+    "Approval of the recent reviewed edits; no new supplier upload, order or publication action.",
+    "The separate unreviewed soil-acidity crop wording proposals and other deferred edits remain outside this approval."
+  ]
+}

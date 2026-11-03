@@ -5,6 +5,7 @@ import palettesJson from "./vegetable_palettes.json";
 import heroImageCropsJson from "./heroImageCrops.json";
 import type { GardeningData, TroublesData, Vegetable } from "../types";
 import { troubleIdentity, distinctTroubleEntries } from "../lib/troubleIdentity";
+import { troubleLabel } from "../lib/troubleLabel";
 import { getRiskIcon } from "../lib/keyRiskIcons";
 import { slugify } from "../lib/slug";
 import { rt, isStar } from "../lib/ranked";
@@ -1244,7 +1245,7 @@ function VegetablePrintSheet({
                                         <span
                                             className={styles.cheatKeyRiskName}
                                         >
-                                            {risk.name}
+                                            {troubleLabel(risk.name)}
                                         </span>
                                         <span
                                             className={styles.cheatKeyRiskText}
@@ -1505,13 +1506,7 @@ function VegetablePrintSheet({
                                                             styles.cheatPestLbl
                                                         }
                                                     >
-                                                        {k
-                                                            .toLowerCase()
-                                                            .replace(
-                                                                /\b\w/g,
-                                                                (c) =>
-                                                                    c.toUpperCase(),
-                                                            )}
+                                                        {troubleLabel(k)}
                                                     </td>
                                                     <td
                                                         className={

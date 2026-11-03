@@ -1,5 +1,5 @@
 {
-  "status": "Approved soil pH page and three-panel guide intro integrated, 2 November 2026; prior approved pages retained.",
+  "status": "Approved turf page integrated after Digging, 3 November 2026; prior approved pages retained.",
   "supplier": "bookvault",
   "updatedAt": "2026-10-06T09:20:32.692Z",
   "sourceRevision": "f15430f54b6011a7c68ea5b9448a091277f368a362a1df006172addc6d8bde64",
@@ -48,9 +48,9 @@
       "vegetablePages": 92,
       "troublePages": 45,
       "interstitialBlankPages": 4,
-      "lastContentPage": 174,
-      "endBlankPages": 0,
-      "plannedEvenTotal": 174,
+      "lastContentPage": 175,
+      "endBlankPages": 1,
+      "plannedEvenTotal": 176,
       "documents": [
         {
           "id": "imperial/vegetable/artichoke_globe",
@@ -1496,6 +1496,10 @@
         {
           "page": 98,
           "reason": "Faces Vegetable Troubles opener"
+        },
+        {
+          "page": 176,
+          "reason": "End balancing page"
         }
       ],
       "additions": [
@@ -1650,22 +1654,21 @@
           "startPage": 161
         },
         {
+          "source": "cultivation:turf",
+          "pdf": "output/pdf/lifting-and-using-turf/lifting-and-using-turf-draft.pdf",
+          "sha256": "5b2d982de7bf8157db205e3127717ae335d63b88ba52abafe11e2a5f28834638",
+          "sourcePage": 1,
+          "physicalPages": 1,
+          "sourcePdfPages": 1,
+          "approval": "docs/publication/topic-pages/lifting-and-using-turf/APPROVAL.json",
+          "startPage": 162
+        },
+        {
           "source": "technique:sowing",
           "units": "imperial",
           "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
           "sha256": "fe072b70b68703cc80d484f06968e52bd14dbb74a9c67a8a6f30dea0b26546a4",
           "sourcePage": 14,
-          "sourcePdfPages": 18,
-          "physicalPages": 1,
-          "subsectionRevision": "docs/publication/techniques-subsections/MANIFEST.json",
-          "startPage": 162
-        },
-        {
-          "source": "technique:watering",
-          "units": "imperial",
-          "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
-          "sha256": "fe072b70b68703cc80d484f06968e52bd14dbb74a9c67a8a6f30dea0b26546a4",
-          "sourcePage": 15,
           "sourcePdfPages": 18,
           "physicalPages": 1,
           "subsectionRevision": "docs/publication/techniques-subsections/MANIFEST.json",
@@ -1692,6 +1695,17 @@
           "startPage": 166
         },
         {
+          "source": "technique:watering",
+          "units": "imperial",
+          "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
+          "sha256": "fe072b70b68703cc80d484f06968e52bd14dbb74a9c67a8a6f30dea0b26546a4",
+          "sourcePage": 15,
+          "sourcePdfPages": 18,
+          "physicalPages": 1,
+          "subsectionRevision": "docs/publication/techniques-subsections/MANIFEST.json",
+          "startPage": 168
+        },
+        {
           "source": "technique:greenhouse-choose",
           "units": "imperial",
           "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
@@ -1700,7 +1714,7 @@
           "sourcePdfPages": 18,
           "physicalPages": 1,
           "subsectionRevision": "docs/publication/techniques-subsections/MANIFEST.json",
-          "startPage": 168
+          "startPage": 169
         },
         {
           "source": "technique:greenhouse-beds",
@@ -1711,7 +1725,7 @@
           "sourcePdfPages": 18,
           "physicalPages": 1,
           "subsectionRevision": "docs/publication/techniques-subsections/MANIFEST.json",
-          "startPage": 169
+          "startPage": 170
         },
         {
           "source": "technique:greenhouse-no-dig-seasons",
@@ -1722,7 +1736,7 @@
           "sourcePdfPages": 18,
           "physicalPages": 1,
           "subsectionRevision": "docs/publication/techniques-subsections/MANIFEST.json",
-          "startPage": 170
+          "startPage": 171
         }
       ],
       "index": {
@@ -1731,19 +1745,19 @@
         "sourcePage": 1,
         "physicalPages": 4,
         "source": "back:index",
-        "startPage": 171,
-        "endPage": 174
+        "startPage": 172,
+        "endPage": 175
       },
-      "techniquePages": 23
+      "techniquePages": 24
     },
     "metric": {
       "openingPagesReserved": 9,
       "vegetablePages": 92,
       "troublePages": 45,
       "interstitialBlankPages": 4,
-      "lastContentPage": 174,
-      "endBlankPages": 0,
-      "plannedEvenTotal": 174,
+      "lastContentPage": 175,
+      "endBlankPages": 1,
+      "plannedEvenTotal": 176,
       "documents": [
         {
           "id": "metric/vegetable/artichoke_globe",
@@ -3189,6 +3203,10 @@
         {
           "page": 98,
           "reason": "Faces Vegetable Troubles opener"
+        },
+        {
+          "page": 176,
+          "reason": "End balancing page"
         }
       ],
       "additions": [
@@ -3343,22 +3361,21 @@
           "startPage": 161
         },
         {
+          "source": "cultivation:turf",
+          "pdf": "output/pdf/lifting-and-using-turf/lifting-and-using-turf-draft.pdf",
+          "sha256": "5b2d982de7bf8157db205e3127717ae335d63b88ba52abafe11e2a5f28834638",
+          "sourcePage": 1,
+          "physicalPages": 1,
+          "sourcePdfPages": 1,
+          "approval": "docs/publication/topic-pages/lifting-and-using-turf/APPROVAL.json",
+          "startPage": 162
+        },
+        {
           "source": "technique:sowing",
           "units": "metric",
           "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
           "sha256": "14e72cfb5297eef1ca5e7ea345b416f9325865ddb5b3944876d36e2745a6a884",
           "sourcePage": 14,
-          "sourcePdfPages": 18,
-          "physicalPages": 1,
-          "subsectionRevision": "docs/publication/techniques-subsections/MANIFEST.json",
-          "startPage": 162
-        },
-        {
-          "source": "technique:watering",
-          "units": "metric",
-          "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
-          "sha256": "14e72cfb5297eef1ca5e7ea345b416f9325865ddb5b3944876d36e2745a6a884",
-          "sourcePage": 15,
           "sourcePdfPages": 18,
           "physicalPages": 1,
           "subsectionRevision": "docs/publication/techniques-subsections/MANIFEST.json",
@@ -3385,6 +3402,17 @@
           "startPage": 166
         },
         {
+          "source": "technique:watering",
+          "units": "metric",
+          "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
+          "sha256": "14e72cfb5297eef1ca5e7ea345b416f9325865ddb5b3944876d36e2745a6a884",
+          "sourcePage": 15,
+          "sourcePdfPages": 18,
+          "physicalPages": 1,
+          "subsectionRevision": "docs/publication/techniques-subsections/MANIFEST.json",
+          "startPage": 168
+        },
+        {
           "source": "technique:greenhouse-choose",
           "units": "metric",
           "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
@@ -3393,7 +3421,7 @@
           "sourcePdfPages": 18,
           "physicalPages": 1,
           "subsectionRevision": "docs/publication/techniques-subsections/MANIFEST.json",
-          "startPage": 168
+          "startPage": 169
         },
         {
           "source": "technique:greenhouse-beds",
@@ -3404,7 +3432,7 @@
           "sourcePdfPages": 18,
           "physicalPages": 1,
           "subsectionRevision": "docs/publication/techniques-subsections/MANIFEST.json",
-          "startPage": 169
+          "startPage": 170
         },
         {
           "source": "technique:greenhouse-no-dig-seasons",
@@ -3415,7 +3443,7 @@
           "sourcePdfPages": 18,
           "physicalPages": 1,
           "subsectionRevision": "docs/publication/techniques-subsections/MANIFEST.json",
-          "startPage": 170
+          "startPage": 171
         }
       ],
       "index": {
@@ -3424,10 +3452,10 @@
         "sourcePage": 1,
         "physicalPages": 4,
         "source": "back:index",
-        "startPage": 171,
-        "endPage": 174
+        "startPage": 172,
+        "endPage": 175
       },
-      "techniquePages": 23
+      "techniquePages": 24
     }
   },
   "vegetableOrder": "Alphabetical by displayed guide title (en-GB); complete facing pairs, original family colours.",
@@ -3439,6 +3467,7 @@
       "docs/publication/topic-pages/plant-protection-supports/supports/APPROVAL.json"
     ],
     "soilAcidityApproval": "docs/publication/topic-pages/soil-acidity/APPROVAL.json",
+    "turfApproval": "docs/publication/topic-pages/lifting-and-using-turf/APPROVAL.json",
     "troubles": "docs/publication/troubles-rollout/APPROVAL.json"
   },
   "troublesOpener": {
@@ -3471,8 +3500,8 @@
     "sha256": "6bf7eb471bda81a1f4c402b7e3cdd3b81c3449697bd9ea358e8b863586e70e2d"
   },
   "limits": [
-    "John approved the pH page and requested integration on 2 November 2026; the approved three-panel guide intro is also included.",
-    "174 interior pages; imperial full-book preview, not a final production/cost/spine specification.",
+    "John approved the turf page and requested integration after Digging on 3 November 2026.",
+    "176 interior pages; imperial full-book preview, not a final production/cost/spine specification.",
     "Both-unit reference mapping is checked; no full metric book is assembled.",
     "Frozen source PDFs and ordered Bookvault proof files remain unchanged."
   ]

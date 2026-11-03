@@ -11,7 +11,7 @@ from pypdf import PdfReader, PdfWriter, PageObject, Transformation
 from pypdf.generic import ContentStream, RectangleObject, DecodedStreamObject, NameObject
 from pypdf.annotations import Link
 import pdfplumber
-ROOT=Path(__file__).resolve().parents[1];D=ROOT/'docs/publication/whole-book-order-preview';I=D/'integration-2026-11-02';BASE=D/'integration-2026-10-18'
+ROOT=Path(__file__).resolve().parents[1];D=ROOT/'docs/publication/whole-book-order-preview';I=D/'integration-2026-11-03';BASE=D/'integration-2026-10-18'
 OUT=ROOT/'output/pdf/whole-book-order-preview/the-vegetable-guru-order-preview.pdf'
 CANDIDATE=ROOT/'tmp/pdfs/whole-book-order-preview/integrated.pdf'
 MM=72/25.4;W=185*MM;H=240*MM
@@ -24,11 +24,14 @@ module_spec=importlib.util.spec_from_file_location('reference_text',ROOT/'script
 reference_text=importlib.util.module_from_spec(module_spec);module_spec.loader.exec_module(reference_text)
 base=relative(BASE/'baseline.pdf');assert sha(base)=='39d437e8571d92aca177c31a2da4e2f371dada19a5f66465e4826678ac747cd6'
 oldmap=j(relative(BASE/'baseline-PAGE-MAP.json'))
-plan=j('docs/publication/contents-update/ASSEMBLY-PROPOSAL.json');e=plan['editions']['imperial'];total=e['plannedEvenTotal'];index_start=e['index']['startPage'];index_end=e['index']['endPage'];assert total==174 and index_start==171
+plan=j('docs/publication/contents-update/ASSEMBLY-PROPOSAL.json');e=plan['editions']['imperial'];total=e['plannedEvenTotal'];index_start=e['index']['startPage'];index_end=e['index']['endPage'];assert total==176 and index_start==172
 techniques_start=next(d['startPage'] for d in e['sectionOpeners'] if d['source']=='opening:techniques');assert techniques_start==147
 crops={d['key']:d for d in e['documents'] if d['type']=='vegetable'}
 crop_range=lambda key:f"{crops[key]['startPage']}–{crops[key]['endPage']}"
-reference_edits={149:('148–149','150–151'),151:('40–41',crop_range('kale')),170:('56–59',crop_range('lettuce')+', '+crop_range('oriental_leaves'))}
+topic_start=lambda source:next(d['startPage'] for d in e['additions'] if d['source']==source)
+nutrient_folio=topic_start('technique:nutrient-cycles');rotation_folio=topic_start('technique:rotation');greenhouse_seasons=topic_start('technique:greenhouse-no-dig-seasons')
+rotation_range=f'{rotation_folio}–{rotation_folio+1}'
+reference_edits={nutrient_folio:('148–149',rotation_range),rotation_folio+1:('40–41',crop_range('kale')),greenhouse_seasons:('56–59',crop_range('lettuce')+', '+crop_range('oriental_leaves'))}
 section='docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf'
 section_map=j('docs/publication/techniques-sequence/references/approved-2026-10-18/PAGE-MAP.json')
 assert sha(section)=='31f6607ad253ba30eb4d9819c833fbfd4085d2d0253bcbc6296018332a5db1a6'
@@ -57,6 +60,11 @@ inputs[plan['currentApprovals']['soilAcidityApproval']]=sha(plan['currentApprova
 for f in soil['files']:inputs[f['path']]=f['sha256']
 source_labels[(soil['proof']['path'],1)]='Organic growing · Testing and adjusting pH'
 source_folios[(soil['proof']['path'],1)]=152
+turf=j(plan['currentApprovals']['turfApproval'])
+inputs[plan['currentApprovals']['turfApproval']]=sha(plan['currentApprovals']['turfApproval'])
+for f in turf['files']:inputs[f['path']]=f['sha256']
+source_labels[(turf['proof']['path'],1)]='Cultivation · Lifting and using turf'
+source_folios[(turf['proof']['path'],1)]=turf['proof']['folio']
 plant_labels={'technique:netting':['Netting · Keep pests outside','Netting · Temporary netting frames'],'technique:supports':['Supports · Beans and peas','Supports · Stakes, cages and wind']}
 for approval in plan['currentApprovals']['plantCareApprovals']:
  inputs[approval]=sha(approval)
@@ -72,6 +80,14 @@ assert sorted(topic_edits)==list(range(148,index_start))
 canonical={p:h for p,h in nav['inputs'].items() if p.startswith('../hackriculture-data/vegetables/') or p.startswith('../hackriculture-data/troubles/')}
 assert len(canonical)==58
 category=j(relative(I/'CATEGORY-LABELS.json'));inputs.update(category['inputs']);inputs[category['pdf']]=category['sha256']
+case_receipt='docs/publication/pest-title-case/PDF-CHECKS.json'
+case=j(case_receipt);case_pages={p['folio']:p for p in case['pages']}
+assert len(case_pages)==44 and sum(c['changedLabels'] for c in case['checks'])==277
+inputs[case_receipt]=sha(case_receipt);inputs.update(case['inputs']);inputs[case['pdf']]=case['sha256']
+risk_receipt='docs/publication/key-risk-title-case/PDF-CHECKS.json'
+risk_case=j(risk_receipt);risk_pages={p['folio']:p for p in risk_case['pages']}
+assert len(risk_pages)==44 and sum(c['changedLabels'] for c in risk_case['checks'])==157
+inputs[risk_receipt]=sha(risk_receipt);inputs.update(risk_case['inputs']);inputs[risk_case['pdf']]=risk_case['sha256']
 trouble_opener=plan['troublesOpener'];inputs[trouble_opener['pdf']]=trouble_opener['sha256']
 for p,h in inputs.items():assert sha(p)==h,p
 # Import only the recursive footer-removal helpers; never run the old assembler.
@@ -100,6 +116,14 @@ for f in range(1,total+1):
   r=dict(oldmap[f+1],source=base,sourcePage=f+2)
   if f in crop_pages:r=crop_pages[f]
   if f in replacements:r.update(source=replacements[f][0],sourcePage=replacements[f][1])
+  if f in case_pages:
+   correction=case_pages[f]
+   assert (r['source'],r['sourcePage'])==(correction['source'],correction['sourcePage']),('Case correction source mismatch',f)
+   r.update(source=case['pdf'],sourcePage=correction['replacementPage'])
+  if f in risk_pages:
+   correction=risk_pages[f]
+   assert (r['source'],r['sourcePage'])==(correction['source'],correction['sourcePage']),('Key risks correction source mismatch',f)
+   r.update(source=risk_case['pdf'],sourcePage=correction['replacementPage'])
   if f==9:r.update(source=key['pdf'],sourcePage=1)
   if f in [4,5]:r.update(source=toc['pdf'],sourcePage=f-3)
  elif f==99:r={'folio':f,'label':'Vegetable Troubles','kind':'section-opener','source':trouble_opener['pdf'],'sourcePage':1}
@@ -171,7 +195,7 @@ for ref in toc['references']:
 body_refs=[]
 # Use the actual revised page text to measure link rectangles.
 reference_probe=ROOT/'tmp/pdfs/whole-book-order-preview/reference-probe.pdf';writer.write(reference_probe)
-for f,pattern,target in [(149,r'pages 150[–-]151',150),(151,'pages '+crop_range('kale'),crops['kale']['startPage']),(170,crop_range('lettuce'),crops['lettuce']['startPage']),(170,crop_range('oriental_leaves'),crops['oriental_leaves']['startPage'])]:
+for f,pattern,target in [(nutrient_folio,'pages '+rotation_range,rotation_folio),(rotation_folio+1,'pages '+crop_range('kale'),crops['kale']['startPage']),(greenhouse_seasons,crop_range('lettuce'),crops['lettuce']['startPage']),(greenhouse_seasons,crop_range('oriental_leaves'),crops['oriental_leaves']['startPage'])]:
  with pdfplumber.open(reference_probe) as doc:
   hits=doc.pages[f+1].search(pattern);assert len(hits)==1,(f,hits)
   m=hits[0];link(f,target,(m['x0'],H-m['bottom'],m['x1'],H-m['top']),'body-reference');body_refs.append({'folio':f,'text':m['text'],'target':target})
@@ -188,7 +212,7 @@ for d in e['additions']:
 writer.add_outline_item('Index',index_start+1);writer.add_outline_item('Back cover — B5',total+3)
 writer.set_page_label(0,0,prefix='Front cover');writer.set_page_label(1,1,prefix='Inside front cover');writer.set_page_label(2,total+1,style='/D',start=1);writer.set_page_label(total+2,total+2,prefix='Inside back cover');writer.set_page_label(total+3,total+3,prefix='Back cover')
 writer.page_layout='/TwoPageRight';writer.page_mode='/UseOutlines'
-writer.add_metadata({'/Title':'The Vegetable Guru — Complete book preview','/Author':'John Lennon','/Subject':'Approved soil pH page and three-panel guide intro integrated, 2 November 2026. 174 interior pages plus four cover leaves. Imperial screen review.'})
+writer.add_metadata({'/Title':'The Vegetable Guru — Complete book preview','/Author':'John Lennon','/Subject':'Approved contents reflow and requested sentence-case problem labels and Key risks headings, 3 November 2026. 176 interior pages plus four cover leaves. Imperial screen review.'})
 writer.write(CANDIDATE);del writer;clones.clear();gc.collect()
 # Verify every reused body against its exact PDF source, including coordinates and type size.
 body_checks=[];footer_checks=[];numeric_body_refs=[];sources={}
@@ -288,30 +312,38 @@ for i,p in enumerate(result.pages):
 assert Counter(actual)==Counter((l['folio'],l['target']) for l in links)
 assert all(d['physicalPages']==2 and d['startPage']%2==0 for d in e['documents'] if d['type']=='vegetable')
 assert [d['startPage'] for d in e['sectionOpeners']]==[9,99,147]
-assert sorted(b['page'] for b in e['extraBlanks'])==[3,6,8,98]
+assert sorted(b['page'] for b in e['extraBlanks'])==[3,6,8,98,176]
+assert topic_start('cultivation:turf')==topic_start('cultivation:digging-finish')+1==162
+assert all(topic_start(s)%2==0 for s in ['technique:netting','technique:supports','technique:greenhouse-beds'])
 for p,h in inputs.items():assert sha(p)==h,p
 CANDIDATE.replace(OUT)
-receipt={'date':'2026-11-02','status':'Approved changes integrated; actual PDF checks passed','pdf':relative(OUT),'sha256':sha(relative(OUT)),'bytes':OUT.stat().st_size,'units':'imperial','interiorPages':total,'pdfPages':total+4,'trimMm':[185,240],'folioMapping':'PDF page = interior folio + 2','guidesReexported':0,'guidePagesReused':135,'readerEditedGuidePages':len(replacements),'bodyPagesVerified':len(body_checks),'updatedFootersVerified':len(footer_checks),'contentsReferences':len(toc['references']),'indexEntries':idx['entries'],'indexSeeReferences':idx['crossReferences'],'indexNumericReferencesVerified':numeric,'internalIndexLinks':sum(l['kind']=='index' for l in links),'internalContentsLinks':sum(l['kind']=='contents' for l in links),'bodyReferences':body_refs,'blankFolios':[3,6,8,98],'sourceFilesUnchanged':True,'canonicalGardeningRecordsUnchanged':len(canonical),'navigation':{'internalLinks':sum(l['kind']=='see-also' for l in links),'pagesWithLinks':sum(bool(p['links']) for p in nav['pages']),'pageChecks':footer_checks,'highlights':'None'},'limits':['Screen preview; not a supplier upload.','Full assembled edition is imperial; contents and index references checked in both units.','Publication metadata placeholders retained. The accepted 168-page physical proof and ordered Bookvault files are preserved; this 174-page revision has not been prepared or uploaded for production.']}
+receipt={'date':'2026-11-03','status':'Approved changes integrated; actual PDF checks passed','pdf':relative(OUT),'sha256':sha(relative(OUT)),'bytes':OUT.stat().st_size,'units':'imperial','interiorPages':total,'pdfPages':total+4,'trimMm':[185,240],'folioMapping':'PDF page = interior folio + 2','guidesReexported':0,'guidePagesReused':135,'readerEditedGuidePages':len(replacements),'bodyPagesVerified':len(body_checks),'updatedFootersVerified':len(footer_checks),'contentsReferences':len(toc['references']),'indexEntries':idx['entries'],'indexSeeReferences':idx['crossReferences'],'indexNumericReferencesVerified':numeric,'internalIndexLinks':sum(l['kind']=='index' for l in links),'internalContentsLinks':sum(l['kind']=='contents' for l in links),'bodyReferences':body_refs,'blankFolios':[3,6,8,98,176],'sourceFilesUnchanged':True,'canonicalGardeningRecordsUnchanged':len(canonical),'navigation':{'internalLinks':sum(l['kind']=='see-also' for l in links),'pagesWithLinks':sum(bool(p['links']) for p in nav['pages']),'pageChecks':footer_checks,'highlights':'None'},'limits':['Screen preview; not a supplier upload.','Full assembled edition is imperial; contents and index references checked in both units.','Publication metadata placeholders retained. The accepted 168-page physical proof and ordered Bookvault files are preserved; this 176-page revision has not been prepared or uploaded for production.']}
 if topic_edits:
- receipt['status']='Approved soil pH page and three-panel guide intro integrated; actual PDF checks passed'
+ receipt['status']='Approved turf page integrated after Digging; actual PDF checks passed'
  receipt['finalCopyEditFolios']=[148,155,160,161]
  receipt['techniqueFolios']=sorted(topic_edits)
- receipt['newApprovedFolios']=[9,152]
+ receipt['newApprovedFolios']=[162]
+ receipt['turfApproval']=plan['currentApprovals']['turfApproval']
  receipt['soilAcidityApproval']=plan['currentApprovals']['soilAcidityApproval']
  receipt['guidesIntroApproval']=intro_approval
  receipt['mirroredTechniqueFolios']=[r['folio'] for r in comparisons if r['kind']=='technique' and abs(r['dx'])>MM]
- receipt['plantCareOrder']='Sowing 162, Watering 163, Netting 164–165, Supports 166–167; preserves accepted facing pairs without internal blanks.'
+ receipt['plantCareOrder']='Sowing 163, Netting 164–165, Supports 166–167, Watering 168; preserves accepted facing pairs without internal blanks.'
  receipt['plantCareApprovals']=plan['currentApprovals']['plantCareApprovals']
 receipt['vegetableOrder']=[{'key':d['key'],'title':d['label'],'startPage':d['startPage'],'endPage':d['endPage']} for d in crops.values()]
 receipt['inlineReferenceEdits']={str(f):{'before':a,'after':b} for f,(a,b) in reference_edits.items()}
-receipt['categoryIdentificationChanges']={'labels':88,'labelSizePt':10,'howToUnchanged':False,'howToApproval':intro_approval,'contentsKey':'Approved lower pale panel beside H6; H5 omitted'}
+receipt['status']='Approved contents reflow, sentence-case problem labels and Key risks headings integrated; actual PDF checks passed'
+receipt['problemLabelCorrection']={'receipt':case_receipt,'practicalPages':44,'changedLabels':277,'adviceAndOrderUnchanged':True}
+receipt['keyRiskHeadingCorrection']={'receipt':risk_receipt,'openingPages':44,'changedLabels':157,'descriptionsOrderAndArtUnchanged':True}
+receipt['canonicalGardeningRecordsUnchangedDuringAssembly']=receipt.pop('canonicalGardeningRecordsUnchanged')
+receipt['sourceCorrectionReceipt']='docs/publication/pest-title-case/SAVE-RECEIPT.json'
+receipt['categoryIdentificationChanges']={'labels':88,'labelSizePt':10,'howToUnchanged':False,'howToApproval':intro_approval,'contentsKey':'Approved full-width four-column pale key; H6 below the left column; H5 omitted','contentsApproval':'docs/publication/contents-key-reflow/APPROVAL.json'}
 receipt['troublesApproval']=plan['currentApprovals']['troubles']
 receipt['integrationReceipt']=relative(I/'INTEGRATION-CHECKS.json')
 receipt['subsectionManifest']=subsection_path
 write(relative(D/'CHECKS.json'),receipt);write(relative(D/'PAGE-MAP.json'),records)
 write(relative(I/'INTEGRATION-CHECKS.json'),{'pdfSha256':receipt['sha256'],'inputs':inputs,'bodyChecks':body_checks,'bodyReferencesFound':numeric_body_refs,'fontsEmbedded':list(fonts),'oldFooterTextObjectsRemoved':removed,'categoryHeaderChanges':category_removed,'allLinks':links,'canonicalRecords':canonical,'priorSourcesPreserved':True})
-write(relative(D/'NAVIGATION-PDF-CHECKS.json'),{'date':'2026-11-02','status':'passed','pdfSha256':receipt['sha256'],'linksByKind':dict(Counter(l['kind'] for l in links)),'actualDestinationPagesMentionChecked':len(mentioned),'cropsWithoutLinks':[d['key'] for d in nav['decisions'] if not d['links']],'minimumBodyToFooterMm':min(p['bodyToFooterMm'] for p in footer_checks),'fontsEmbedded':True,'numericBodyReferences':numeric_body_refs})
-write(relative(D/'SEQUENCE-CHECKS.json'),{'date':'2026-11-02','pdfSha256':receipt['sha256'],'interiorPages':total,'firstLeaves':records[:11],'sectionStartFolios':[9,99,147],'sectionStartSides':['recto']*3,'vegetableFacingPairs':44,'techniqueFacingPairs':[[f,f+1] for f in range(148,index_start,2)],'blankFolios':receipt['blankFolios'],'indexFolios':[index_start,index_end]})
-write(relative(D/'COMPONENT-CHECKS.json'),{'date':'2026-11-02','status':'Current integration; supersedes earlier component regeneration route','pdfSha256':receipt['sha256'],'integrationReceipt':relative(I/'INTEGRATION-CHECKS.json'),'sourcePlan':'docs/publication/contents-update/ASSEMBLY-PROPOSAL.json','approvedTechniques':'docs/publication/techniques-sequence/APPROVAL-2026-10-18.json','approvedReaderEdits':'docs/publication/reader-edit-pass/APPROVAL-2026-10-16.json','baseline':base,'copyUpdate':relative(I/'BOOK-COPY-UPDATE.json')})
+write(relative(D/'NAVIGATION-PDF-CHECKS.json'),{'date':'2026-11-03','status':'passed','pdfSha256':receipt['sha256'],'linksByKind':dict(Counter(l['kind'] for l in links)),'actualDestinationPagesMentionChecked':len(mentioned),'cropsWithoutLinks':[d['key'] for d in nav['decisions'] if not d['links']],'minimumBodyToFooterMm':min(p['bodyToFooterMm'] for p in footer_checks),'fontsEmbedded':True,'numericBodyReferences':numeric_body_refs})
+write(relative(D/'SEQUENCE-CHECKS.json'),{'date':'2026-11-03','pdfSha256':receipt['sha256'],'interiorPages':total,'firstLeaves':records[:11],'sectionStartFolios':[9,99,147],'sectionStartSides':['recto']*3,'vegetableFacingPairs':44,'techniqueFacingPairs':[[f,f+1] for f in range(148,index_start,2)],'blankFolios':receipt['blankFolios'],'indexFolios':[index_start,index_end]})
+write(relative(D/'COMPONENT-CHECKS.json'),{'date':'2026-11-03','status':'Current integration; supersedes earlier component regeneration route','pdfSha256':receipt['sha256'],'integrationReceipt':relative(I/'INTEGRATION-CHECKS.json'),'sourcePlan':'docs/publication/contents-update/ASSEMBLY-PROPOSAL.json','approvedTechniques':'docs/publication/techniques-sequence/APPROVAL-2026-10-18.json','approvedReaderEdits':'docs/publication/reader-edit-pass/APPROVAL-2026-10-16.json','baseline':base,'copyUpdate':relative(I/'BOOK-COPY-UPDATE.json')})
 print(json.dumps({k:receipt[k] for k in ['pdfPages','interiorPages','bytes','readerEditedGuidePages','contentsReferences','indexEntries','indexNumericReferencesVerified']}))
 reference_probe.unlink()

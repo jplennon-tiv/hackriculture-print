@@ -1,0 +1,19 @@
+@import url('../plant-protection-supports/draft.css');
+body{font-size:13px;line-height:1.39}
+header{margin-bottom:4mm}
+h1{white-space:normal}
+h1 span{display:inline-block;margin-left:1.6mm}
+.lead{font-size:13.5px;line-height:1.4}
+.turf-sections{display:grid;gap:4mm}
+.turf-row{display:grid;grid-template-columns:103mm 52mm;gap:5mm;align-items:center;padding-top:3mm;border-top:.25mm solid var(--rule);break-inside:avoid}
+.turf-row h2{font-size:22px;margin-bottom:2mm}
+.turf-row p+p{margin-top:2.2mm}
+.turf-row figure .art{height:38mm}
+.turf-row figcaption{font-size:10.6px;line-height:1.25}
+.row-stack figure .art{height:37mm}
+.row-bury figure .art{height:33mm}
+.weed-note{margin-top:4mm;background:var(--peach);border-radius:0 10px 0 10px;padding:3mm 4mm}
+.weed-note h2{font-size:19px;margin-bottom:1.4mm}
+.weed-note p{font-size:12.3px;line-height:1.35}
+.source-note{font-size:9px}
+@media screen{main{display:block;min-width:0;width:max-content;padding:16px;margin:auto}}

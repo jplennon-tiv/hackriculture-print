@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-03",
+  "status": "Requested case correction checked and integrated; not publication approval",
+  "pdfSha256": "be0c4f68b13bcfd0e74a80fda17446067ac4999fd95ae602af996a0979aec703",
+  "mainBookSha256": "8c75e0eb9114005edd7516bf2d86855cf90110e4d2fff0ee48a146571afbeea6",
+  "headings": 173,
+  "changedHeadings": 157,
+  "openingPages": 44,
+  "contactSheetsInspected": [
+    "risks-1.jpg",
+    "risks-2.jpg",
+    "risks-3.jpg",
+    "risks-4.jpg"
+  ],
+  "finalSpreadsInspected": [
+    "broccoli-spread.jpg",
+    "spinach-spread.jpg"
+  ],
+  "findings": [
+    "All 173 headings now follow sentence case, including wrapped labels and New Zealand.",
+    "Original Lilita One, type size, colour, baseline and line breaks retained.",
+    "No clipping, collisions or missing glyphs seen.",
+    "All other glyphs and image bytes match the source pages; descriptions, icons, order and selections unchanged.",
+    "Current main book retains 176 interior pages, 180 PDF pages and 590 checked internal links."
+  ],
+  "implementation": {
+    "src/lib/troubleLabel.ts": "04c72645670e537ba2fcdadb6deabb422b535d3fbf93fe622a30009b259f32e5",
+    "src/print/RichVegetablePage.tsx": "2a7061d4e7b4f8f491c288827c09870e384addb6bfd2ea76a970884e7d2a41a3",
+    "src/print/PrintVegetablePage.tsx": "ecb17254f2da314521132725226d050810f0f22432143613c3bd71b57a701532",
+    "docs/publication/key-risk-title-case/check-pdf-runtime.py": "e3e9a5f06cb21622e30dc01e2e2b98bb07e6a8abfa7894ba11d7e032383591b2",
+    "docs/publication/key-risk-title-case/render-review.py": "5997bde7895e7fcebc026efab773edfb717db4a0b8aac95b9fe42a428bd47d50",
+    "docs/publication/key-risk-title-case/apply-pdf.py": "711217ebb8fa64bb49be8e3177560c942cc53eeb974118a7c66a44790f7ba2c4",
+    "docs/publication/key-risk-title-case/prepare-pdf.py": "89abf317a6b40d5328bfa2f6867e897163de2440584f4f476b6685ab20ed7b4c",
+    "docs/publication/key-risk-title-case/make-font-donor.mjs": "93127b3bbdbcba2d030341f7042e9901c64e27ef8b0567b2a39107d40776e605",
+    "docs/publication/key-risk-title-case/finish-pdf-plan.mjs": "3b84bb44fc2356aa51f90f91933701fd2670f028dd5a32120f065056db83fcd0",
+    "docs/publication/key-risk-title-case/check-runtime.mjs": "6e8853418aa8be9f65b62accc24ee3a3ea9e340a78b41c97b67f50027457a180"
+  },
+  "checksRun": {
+    "routineTests": "43 passed",
+    "typeCheck": "passed",
+    "runtime": "Broccoli and Spinach actual compact PDFs, imperial and metric; every heading verified within its measured box",
+    "native": "All 44 opening pages; exact non-heading glyph and image preservation",
+    "assembly": "All 180 page bodies and 590 internal destinations, 554 numeric index references"
+  }
+}

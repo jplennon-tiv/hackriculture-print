@@ -1,0 +1,2028 @@
+{
+  "date": "2026-11-03",
+  "scope": "Case-only crop problem labels; stable crop/condition identities, advice, null entries, ranks, order, relationships and approved selections preserved.",
+  "expectedRevision": "15f89400c303d15e95dd0f4b82224bdfe26da362742175e147419794816e4492",
+  "actor": "admin-correction: John requested consistent sentence case for Pests & diseases titles on 3 November 2026; source correction by AI:Codex",
+  "recordCount": 44,
+  "labelChanges": 350,
+  "inputs": {
+    "../hackriculture-data/vegetables/artichoke_jerusalem/artichoke_jerusalem.json": "ba4a3ca79ec29cb0ef0cd4ff9a1ae263f5c4f30f353afa697db0d32d3693786e",
+    "../hackriculture-data/vegetables/artichoke_globe/artichoke_globe.json": "496b19be3495baf2faba795d2f943867f41077917355ebf0fb2c7300d44f61e6",
+    "../hackriculture-data/vegetables/asparagus/asparagus.json": "7c254427bcbb1186c168f0bf484202151c24a27fdbac03c08d3ec85514ac4b17",
+    "../hackriculture-data/vegetables/aubergine/aubergine.json": "f5e287f05241db2360b7988a28a96670b0bd9abf4ccc5a37dcb838237020f4f8",
+    "../hackriculture-data/vegetables/bean_broad/bean_broad.json": "b446a18b1ee992cd7f6b2c171278946f8f7357eb8d96d4ff7cc2f7cd9ce5a8f5",
+    "../hackriculture-data/vegetables/bean_french/bean_french.json": "c8475ac78d5dfcffd46bc102387c7774520e4da3ed2ac55d9ed1bfa91a82c671",
+    "../hackriculture-data/vegetables/bean_runner/bean_runner.json": "e1235f57d81b006cf1c521713112e316f8ca2b21c1d23fe8d7a5bdb4f69130e7",
+    "../hackriculture-data/vegetables/beet_leaf/beet_leaf.json": "d42537206089260908c9d224a2a90af7bc92903e9a7a8a9c37ea58a5be0f2234",
+    "../hackriculture-data/vegetables/beetroot/beetroot.json": "a05e43126a5dc28c0506acd129558ba21c89ba4e2128e1d2a77242ac1fe1dac7",
+    "../hackriculture-data/vegetables/broccoli/broccoli.json": "23e1aa3ffa68398d663d38be03f9de9942cf2d028d132cad54f45f613dda6bef",
+    "../hackriculture-data/vegetables/brussels_sprouts/brussels_sprouts.json": "2c5b7e8f210de8c7944a78dc97631da8237d110ef395337fac302a06d9397cab",
+    "../hackriculture-data/vegetables/cabbage/cabbage.json": "141c6d309e5fbf550c4ccbfccc8ec4f0265b0e269603f7675bcf2b8671e23553",
+    "../hackriculture-data/vegetables/capsicum/capsicum.json": "8ba9a68e3105584312a052c68b005a20d342744c74fef3bbe44157be505c6c8d",
+    "../hackriculture-data/vegetables/carrot/carrot.json": "c5f076beb6cfe55cc90f80a6bc4a5f9690a4a25358c4bb74085a68798cd3500e",
+    "../hackriculture-data/vegetables/cauliflower/cauliflower.json": "ca6000e5ae90a260f64a61508c6fc6416f02704ef7430e38088a04d9280f8402",
+    "../hackriculture-data/vegetables/celeriac/celeriac.json": "ac337c5fcb5e6b9e5088d3e085197b0360ec5ce70a70b357218a05044d5e814b",
+    "../hackriculture-data/vegetables/celery/celery.json": "3dab63f9e0215e7cac1e75b4d08c335fd032c5103ed6ca449bb026b2829a97ef",
+    "../hackriculture-data/vegetables/chicory/chicory.json": "c1aeb93bca2ab510ae44aa230beb59cfd90435c0bb566b9d80a610c12a702398",
+    "../hackriculture-data/vegetables/cucumber_greenhouse/cucumber_greenhouse.json": "4e4a4e078defc114b2c0edfa6677954256b2496559f4c7f85d9a22931beda5e7",
+    "../hackriculture-data/vegetables/cucumber_outdoor/cucumber_outdoor.json": "2fa66254d34fe5603e4e8c4cf5f8697108ff9019cc9693fb4385b9f109edaa25",
+    "../hackriculture-data/vegetables/endive/endive.json": "3851b3dca1d7df564695dd59a4f3da5b49821ff7aee11c5b412fde838cafff54",
+    "../hackriculture-data/vegetables/florence_fennel/florence_fennel.json": "e29705c338ab2e2fe87ef507889c64b3e523f57b8c541d51841a6c76fd093278",
+    "../hackriculture-data/vegetables/garlic/garlic.json": "95973cc7e837236ec8874f6ba502be7ab5a192e44de0a909fbe5e53d8bde8dce",
+    "../hackriculture-data/vegetables/kale/kale.json": "2127e8502c9852cbd118e743f90cc6db61ad060f9dd12df5acf873ed109350b7",
+    "../hackriculture-data/vegetables/kohl_rabi/kohl_rabi.json": "e5f93753c88b39cff3ab7444e048f5c1578d44f8c4186f33c70c819b964ff575",
+    "../hackriculture-data/vegetables/leek/leek.json": "4a1409e7caa2beeb94415b62a232963d10dfb3a89ec6bcdbd51c617722c3da09",
+    "../hackriculture-data/vegetables/lettuce/lettuce.json": "498782e48dc1496a943725a9ad723db8d63cacacb12e9a3adbcdec9418b16a91",
+    "../hackriculture-data/vegetables/marrow_courgette/marrow_courgette.json": "653aa99044904c75d6cde3b5d8dc259eeb232ea56402a5bd3f26403804f8b4a1",
+    "../hackriculture-data/vegetables/squash_pumpkin/squash_pumpkin.json": "e66d98cc37b7da6f87dc656a2832ea2d14c328806cdc1a6efa112b54ccc2d7eb",
+    "../hackriculture-data/vegetables/mushroom/mushroom.json": "5ddd7f2e31912666ec473fba5e36ac5cbdb559c46c15da19319bf4cf7620a30f",
+    "../hackriculture-data/vegetables/onion_shallot/onion_shallot.json": "7970e902671fc38c9c7eb0465dd3ddf04e3ca35f45426091a1e92c0cbbc82cb3",
+    "../hackriculture-data/vegetables/oriental_leaves/oriental_leaves.json": "3f660087e2cbf7dcae70216bb44f17db5c3cd05cfd35265bb83f87069da13ed8",
+    "../hackriculture-data/vegetables/parsnip/parsnip.json": "881ae0dd9a07e954475ad147fc933aca0f370da34b5c3804fe7b62fdf4c1509f",
+    "../hackriculture-data/vegetables/pea/pea.json": "d45019ba61a7873dbac94a7c28f7c39fdfa7a554581e1c5e4d2f9f5d10ddab51",
+    "../hackriculture-data/vegetables/potato/potato.json": "7f2d0445e3d4915ad8e3ea4f2c519882edceb0fea1ef1fb93e439500d6c10c70",
+    "../hackriculture-data/vegetables/radish/radish.json": "59e6af73342336440cdc859fa0942c53fe29442124090d6093d358050ece79c5",
+    "../hackriculture-data/vegetables/rhubarb/rhubarb.json": "5878f12fb894704d2a08a028d61de11a9baba3f7a7c56e7f531bafa5fb45f00f",
+    "../hackriculture-data/vegetables/salsify_scorzonera/salsify_scorzonera.json": "45fc088e83c30a3a27461830e9a7725f98a0a70dc73585535df3fe9dfb463675",
+    "../hackriculture-data/vegetables/spinach/spinach.json": "6cb3234a7c1d03445f2e6d1dad62436050400e724420ef62a1fd00a5869ffb39",
+    "../hackriculture-data/vegetables/swede/swede.json": "87db9a40118e4e0b6feb5ca0676df7d1e73b229f3b4e9a1dba6958aafef85832",
+    "../hackriculture-data/vegetables/sweet_corn/sweet_corn.json": "64f478ba874686eaba8060bd553175ce72b42c738390574491955ef23a58de78",
+    "../hackriculture-data/vegetables/tomato_greenhouse/tomato_greenhouse.json": "4db2f7e1fc25d9a115ad47e82b1af03ca4eccb17d9d390e89f391b22f1a76670",
+    "../hackriculture-data/vegetables/tomato_outdoor/tomato_outdoor.json": "bd4444fba94162621ac0d9303a6d594867993850cca990b6427a6440c9abfe94",
+    "../hackriculture-data/vegetables/turnip/turnip.json": "440b2f5d7174d315ad4000cc77c7ad9266d71f0db6974d3db039bda046363fc3"
+  },
+  "changes": [
+    {
+      "key": "artichoke_jerusalem",
+      "labels": [
+        {
+          "from": "SLUGS",
+          "to": "Slugs",
+          "valueSha256": "cd56f3633c14fb49ad3f7f157e03aeb1692f6f16218cde49542a5bab92246b3c"
+        },
+        {
+          "from": "SCLEROTINIA ROT",
+          "to": "Sclerotinia rot",
+          "valueSha256": "a4c0479bcf535b13a59fbae3c899ba43c00f64ad6a250985785686719e7e401b"
+        },
+        {
+          "from": "MICE",
+          "to": "Mice",
+          "valueSha256": "d5ed9d670004d8cde291380ca1f2c8dceaa271ea08f24588cd05d0ba0f4a6c3c"
+        }
+      ]
+    },
+    {
+      "key": "artichoke_globe",
+      "labels": [
+        {
+          "from": "APHID",
+          "to": "Aphid",
+          "valueSha256": "83128ea6690634741cf0c6fbfcf8df30115f92c21187a332d1feeeb56f9cabd9"
+        },
+        {
+          "from": "SLUGS AND SNAILS",
+          "to": "Slugs and snails",
+          "valueSha256": "71186149ad1da07c389076cd3c435573516ef975680b0cc44bef2d2ceac6cb07"
+        },
+        {
+          "from": "BOTRYTIS",
+          "to": "Botrytis",
+          "valueSha256": "d581ceed513fb90f068a9ded12e949b6b94a94cd85c37e445ec408e8400d0705"
+        },
+        {
+          "from": "ARTICHOKE LEAF SPOT",
+          "to": "Artichoke leaf spot",
+          "valueSha256": "9a867388d917ec2d81e79b656f5c80901142ea37e7c783ace92381a4791e4de2"
+        },
+        {
+          "from": "FROST DAMAGE",
+          "to": "Frost damage",
+          "valueSha256": "0f4bb8ba06f6192558bc457df778e76ce346e0ea90cffd724b7ace7854e576ab"
+        },
+        {
+          "from": "PETAL BLIGHT",
+          "to": "Petal blight",
+          "valueSha256": "71e12a155395e0eb0d3f80a42940d59dfff84b6c0e0a9716d2c1a611b088c861"
+        }
+      ]
+    },
+    {
+      "key": "asparagus",
+      "labels": [
+        {
+          "from": "ASPARAGUS BEETLE",
+          "to": "Asparagus beetle",
+          "valueSha256": "f6a790d015d42406d39123acf19c645090a5de1fba8976d6d185c6f93597914c"
+        },
+        {
+          "from": "VIOLET ROOT ROT",
+          "to": "Violet root rot",
+          "valueSha256": "95c0a8b9e107b65d28edd736d26a0b2312af412a58b6e07c2f5dd721313ca926"
+        },
+        {
+          "from": "SPINDLY SPEARS",
+          "to": "Spindly spears",
+          "valueSha256": "b0bc1eacc605f04dc5bd3909fc4b62120e70430146d134585ec1335949cb2249"
+        },
+        {
+          "from": "SLUGS",
+          "to": "Slugs",
+          "valueSha256": "79673bc6caf1c435510b8fa2bae4267d68706a64fd2781a6ff1b5dd1dc5af531"
+        },
+        {
+          "from": "FROST",
+          "to": "Frost",
+          "valueSha256": "17cd48c8556435347cc57fabac11226b00c3e81e984d776d5f18ec4047d620f4"
+        },
+        {
+          "from": "RUST",
+          "to": "Rust",
+          "valueSha256": "bc01ece4d74126249bbb8f697030ff4651588627b9df44308b4671ab76575711"
+        },
+        {
+          "from": "WIND ROCK",
+          "to": "Wind rock",
+          "valueSha256": "616de7007b974544656b20ee08835ca69a2b00ec492bc823c233299f8b328c88"
+        },
+        {
+          "from": "COLD SPRINGS",
+          "to": "Cold springs",
+          "valueSha256": "a0e8474a48cc5b180a5d1887daf15df817e0090b76661f91191db7ca155e2f37"
+        },
+        {
+          "from": "PERENNIAL WEEDS",
+          "to": "Perennial weeds",
+          "valueSha256": "6e5c7df3d3187e24158cc713e2f168feae34a73e54f112350a6b7b2650aa60d5"
+        }
+      ]
+    },
+    {
+      "key": "aubergine",
+      "labels": [
+        {
+          "from": "RED SPIDER MITE",
+          "to": "Red spider mite",
+          "valueSha256": "16fc9d8764d93ec099b77c3216fc14561815426581cb09b82c10876f194050f1"
+        },
+        {
+          "from": "APHID",
+          "to": "Aphid",
+          "valueSha256": "a8c3c64da0284aadb69bb8d1e02278255aee066ad947af9ff18ecbc740c12883"
+        },
+        {
+          "from": "WHITEFLY",
+          "to": "Whitefly",
+          "valueSha256": "256c811cedb69a84e6b3c8214fc6d25f941bbca6bc9fe0a1b5abcd654f294aae"
+        },
+        {
+          "from": "FLEA BEETLE",
+          "to": "Flea beetle",
+          "valueSha256": "15fd870a56577556055746948fb1e68ef469e81cc32794e551d6d5a63a69edc1"
+        },
+        {
+          "from": "MOULD",
+          "to": "Mould",
+          "valueSha256": "ff31ad070d638bcd92fc8006a9de059d32a85bb714c8e6f9ab78179bfd90d5fa"
+        },
+        {
+          "from": "SLUGS",
+          "to": "Slugs",
+          "valueSha256": "be31eb27303542862bce10a55198b5d119a200377293ecb787fd141f6c999927"
+        },
+        {
+          "from": "VERTICILLIUM WILT AND PHYTOPHTHORA BLIGHT",
+          "to": "Verticillium wilt and Phytophthora blight",
+          "valueSha256": "7fd60c094031c466c481113cd86b4b93360c04cfecf622b2ebfad12f8931c0ce"
+        }
+      ]
+    },
+    {
+      "key": "bean_broad",
+      "labels": [
+        {
+          "from": "Black Bean Aphid",
+          "to": "Black bean aphid",
+          "valueSha256": "f36b5831382727bf4a8f6089c37f7dc8115cdfc93c75eb1a5fe43bf901a7b04e"
+        },
+        {
+          "from": "Chocolate Spot",
+          "to": "Chocolate spot",
+          "valueSha256": "ac84961c804c3553e5be9a8d37f8819010f65560c38fc45f7f3137f0e523734a"
+        },
+        {
+          "from": "No Pods",
+          "to": "No pods",
+          "valueSha256": "eeeab766405d99574e841c792e78f36afcf692f008d695f0f6246d0c0196048d"
+        },
+        {
+          "from": "Pea and Bean Weevil",
+          "to": "Pea and bean weevil",
+          "valueSha256": "962f9c30fd7ed2a85fd3d2c70e6f4b43695c51269fa3f61944aa4cafd067ab94"
+        },
+        {
+          "from": "Halo Blight",
+          "to": "Halo blight",
+          "valueSha256": "c8bf01dfa3a8ba6e708956a28b0c268f0ede04b4ba003f14f156175d01c1101e"
+        },
+        {
+          "from": "Bean Seed Fly",
+          "to": "Bean seed fly",
+          "valueSha256": "ea026b0cd083f60c7a66c56a0621ac22475417e6602227db8548ee2431cfb5d9"
+        },
+        {
+          "from": "Foot Rot and Root Rot",
+          "to": "Foot rot and root rot",
+          "valueSha256": "cd5e1e7fa173cef7ec40108314df79d03560f9ca0b606887c6aa9ddef5d448cc"
+        },
+        {
+          "from": "Grey Mould (Botrytis)",
+          "to": "Grey mould (Botrytis)",
+          "valueSha256": "a1e9f1578f986777657d0c0e660d209ee4f46c46533ee26b0ef99894cea461a5"
+        },
+        {
+          "from": "No Flowers",
+          "to": "No flowers",
+          "valueSha256": "bddde9bb05e3d48f2693b563312f0c2ac7bc5714579e7b0e1e6fb70c4d2b756e"
+        },
+        {
+          "from": "Fusarium Wilt",
+          "to": "Fusarium wilt",
+          "valueSha256": "3229d5867f2583e4e41260311352d6a7678871b7cfd69b087dfe2b993f496b9b"
+        },
+        {
+          "from": "Leaf and Pod Spot",
+          "to": "Leaf and pod spot",
+          "valueSha256": "9c15a9b8526bc542408032a50a6ad5a0a014a31a96110a37637541e43b9e9d3e"
+        },
+        {
+          "from": "Seed Beetle",
+          "to": "Seed beetle",
+          "valueSha256": "f4ba60143d6b128bd09a1d5cb6b6ae8b9b1ffc424d80e0a9d69ced041fc65930"
+        },
+        {
+          "from": "Marsh Spot",
+          "to": "Marsh spot",
+          "valueSha256": "e7e2468e8c6f14e793f1561d987015f04d431434997524d3e2039d264959ede2"
+        }
+      ]
+    },
+    {
+      "key": "bean_french",
+      "labels": [
+        {
+          "from": "Black Bean Aphid",
+          "to": "Black bean aphid",
+          "valueSha256": "583cee31a3deea123ba12434f86608c157d56dbc75dc41bb511fc872d90f2db7"
+        },
+        {
+          "from": "No Pods",
+          "to": "No pods",
+          "valueSha256": "daad0e1f433c8bc7c72f854bbc26e4c9bb572e860b87a4952fe6d6fa22ecaede"
+        },
+        {
+          "from": "Pea and Bean Weevil",
+          "to": "Pea and bean weevil",
+          "valueSha256": "ad3230eac4a76b4bbcfacd06d9290a9f4d6f28d4ee8f9ca730d3ca2c0e9ed349"
+        },
+        {
+          "from": "Halo Blight",
+          "to": "Halo blight",
+          "valueSha256": "c8bf01dfa3a8ba6e708956a28b0c268f0ede04b4ba003f14f156175d01c1101e"
+        },
+        {
+          "from": "Bean Seed Fly",
+          "to": "Bean seed fly",
+          "valueSha256": "ea026b0cd083f60c7a66c56a0621ac22475417e6602227db8548ee2431cfb5d9"
+        },
+        {
+          "from": "Foot Rot and Root Rot",
+          "to": "Foot rot and root rot",
+          "valueSha256": "cd5e1e7fa173cef7ec40108314df79d03560f9ca0b606887c6aa9ddef5d448cc"
+        },
+        {
+          "from": "Grey Mould (Botrytis)",
+          "to": "Grey mould (Botrytis)",
+          "valueSha256": "a1e9f1578f986777657d0c0e660d209ee4f46c46533ee26b0ef99894cea461a5"
+        },
+        {
+          "from": "No Flowers",
+          "to": "No flowers",
+          "valueSha256": "b2bf0dc40344b0ed037d3b81e2bb383a4e31da73fe54384602213b23218bc1cc"
+        },
+        {
+          "from": "Fusarium Wilt",
+          "to": "Fusarium wilt",
+          "valueSha256": "3229d5867f2583e4e41260311352d6a7678871b7cfd69b087dfe2b993f496b9b"
+        },
+        {
+          "from": "Seed Beetle",
+          "to": "Seed beetle",
+          "valueSha256": "f4ba60143d6b128bd09a1d5cb6b6ae8b9b1ffc424d80e0a9d69ced041fc65930"
+        }
+      ]
+    },
+    {
+      "key": "bean_runner",
+      "labels": [
+        {
+          "from": "SLUGS",
+          "to": "Slugs",
+          "valueSha256": "7cb20a9268b7825af6b48f30ea4a96667fc5f1e019d39771e8c4dcdb2ed65d04"
+        },
+        {
+          "from": "NO PODS",
+          "to": "No pods",
+          "valueSha256": "d28f7836abbb070333dcd278026f7ad437f00a5e496773c306327fed0b359bb2"
+        },
+        {
+          "from": "BEAN DISEASE",
+          "to": "Bean disease",
+          "valueSha256": "928d41471df8a057ddda728b765241bb5bbd956d0fef7509561efd7365bd2a9e"
+        },
+        {
+          "from": "HALO BLIGHT",
+          "to": "Halo blight",
+          "valueSha256": "964cdee6573c29a70c751bf9889ed60eaade60ca5bb50a1c719e51cbeb240c0a"
+        },
+        {
+          "from": "MOSAIC DISEASE",
+          "to": "Mosaic disease",
+          "valueSha256": "0acf9df51e6aa83be0e91fa088e73ffee4eed271f2af08308e3a3dd673abc282"
+        },
+        {
+          "from": "BIRDS AND ANIMALS",
+          "to": "Birds and animals",
+          "valueSha256": "6bdbc0f1f2d88b6ca2282abfe3b5e444dafae75e3f469d72b71a0e08478bca83"
+        },
+        {
+          "from": "Black Bean Aphid",
+          "to": "Black bean aphid",
+          "valueSha256": "5b34a9521fe2eaeab20aa32d9323c54805824ec850ef150efdcd50d86bc220f8"
+        },
+        {
+          "from": "Bean Seed Fly",
+          "to": "Bean seed fly",
+          "valueSha256": "13897c2ff764af22e8166aae166109ba0f3719e105258b0b94ffe27bcb971247"
+        },
+        {
+          "from": "Foot Rot and Root Rot",
+          "to": "Foot rot and root rot",
+          "valueSha256": "0d78ff38ab381fa23e2c209bf854c51f5ad41d65e74bd37331e729713751f26f"
+        },
+        {
+          "from": "Pea and Bean Weevil",
+          "to": "Pea and bean weevil",
+          "valueSha256": "5261c4803fb34f021ef54c73e760ccb310a91a2fdda7a74053b18f8636c3ee01"
+        }
+      ]
+    },
+    {
+      "key": "beet_leaf",
+      "labels": [
+        {
+          "from": "Downy Mildew",
+          "to": "Downy mildew",
+          "valueSha256": "f6bd9f883797912e33b027c92b297cb45c7b6764a0868499e1f046d43d249a2e"
+        },
+        {
+          "from": "Manganese Deficiency",
+          "to": "Manganese deficiency",
+          "valueSha256": "daf2597a1b79f86de658a38d0a10a4e23549448ce75a21024ece395220eb6efb"
+        },
+        {
+          "from": "Leaf Spot",
+          "to": "Leaf spot",
+          "valueSha256": "b69d55f2720d12cb63977ef262a847473e4a1243979fdaf82c936597d6588438"
+        }
+      ]
+    },
+    {
+      "key": "beetroot",
+      "labels": [
+        {
+          "from": "Mangold Fly (Leaf Miner)",
+          "to": "Mangold fly (leaf miner)",
+          "valueSha256": "0cab1f1b4a6763f7373901a86fa856d1e6803181fdd46c9da8189607b214e739"
+        },
+        {
+          "from": "Heart Rot",
+          "to": "Heart rot",
+          "valueSha256": "e8d723e7c49d0f62ee216e49632d1201c6df290eba74679c18d9848e28d2ad23"
+        },
+        {
+          "from": "Speckled Yellows",
+          "to": "Speckled yellows",
+          "valueSha256": "57e25b48221d484fd3eef1afdac1a7a6c04c969fb6292715f0b820d4414be4bd"
+        },
+        {
+          "from": "Autumnal Fungal Root Rots",
+          "to": "Autumnal fungal root rots",
+          "valueSha256": "4d069ed280ebd714a845e3ec2eb29de505ed4abdbccd6fa7a0a241081b6dba1a"
+        },
+        {
+          "from": "Leaf Spot",
+          "to": "Leaf spot",
+          "valueSha256": "b46e0de4a655cc9520718e862de93758362a4c3f277c9901869e303b570bc5aa"
+        }
+      ]
+    },
+    {
+      "key": "broccoli",
+      "labels": [
+        {
+          "from": "Cabbage Caterpillars",
+          "to": "Cabbage caterpillars",
+          "valueSha256": "b635f9f1bcee137e16fb9478eecad262350789c27ee986ac2f8dfd10d105d046"
+        },
+        {
+          "from": "PIGEONS",
+          "to": "Pigeons",
+          "valueSha256": "e1d397d5ef38c1c58d1338ac7d340ce619e7533a6fb92bd743c63b72e2eabe7b"
+        },
+        {
+          "from": "Club Root (Finger and Toe)",
+          "to": "Club root (finger and toe)",
+          "valueSha256": "029c07fc489c1fe375aa183904a21f9f5ef159830be32e6369936d9d1627d282"
+        },
+        {
+          "from": "FROST",
+          "to": "Frost",
+          "valueSha256": "54c15e238a84c051dd09b37113501bdfd0ece6fd33d74b4e0eebc7bb0765899b"
+        },
+        {
+          "from": "Cabbage Root Fly",
+          "to": "Cabbage root fly",
+          "valueSha256": "3b05cc65910e05ab6c3e359a6f0c1c19e94665ed41b8e119d68b91e6059513fc"
+        },
+        {
+          "from": "Slugs and Snails",
+          "to": "Slugs and snails",
+          "valueSha256": "1dd71cce76e63d094886e16d09eaa13ba780d8dcd4bc7b248a81e02c8c426dfc"
+        },
+        {
+          "from": "Flea Beetle",
+          "to": "Flea beetle",
+          "valueSha256": "48489aa7ad5ad42515fa407c18a4dbdda4a1ee2f3eef8d083e78e97a9e7cc2ed"
+        }
+      ]
+    },
+    {
+      "key": "brussels_sprouts",
+      "labels": [
+        {
+          "from": "SLUGS",
+          "to": "Slugs",
+          "valueSha256": "1f4af05baa451a455ccb924f14aeb6506b98fbcae4e68205475084440b431629"
+        },
+        {
+          "from": "FROST",
+          "to": "Frost",
+          "valueSha256": "99966285172d85ba21408c41aa6ca7ec9f525c55eb422db3b922e805b9184750"
+        },
+        {
+          "from": "FUNGAL LEAF SPOTS",
+          "to": "Fungal leaf spots",
+          "valueSha256": "4021025d827502801395aaddb91bc11750b541c117925a9ba0855320b418efee"
+        },
+        {
+          "from": "BLOWN SPROUTS",
+          "to": "Blown sprouts",
+          "valueSha256": "35c425606196a8f2242823151c82e318ac6138720089a9afda45dda984e32c82"
+        },
+        {
+          "from": "PIGEONS",
+          "to": "Pigeons",
+          "valueSha256": "fd66b7d45fabdc882cbce5ced5052431e2a617f9eaeb245a11d5f41ba6c6e7d3"
+        },
+        {
+          "from": "Club Root (Finger and Toe)",
+          "to": "Club root (finger and toe)",
+          "valueSha256": "029c07fc489c1fe375aa183904a21f9f5ef159830be32e6369936d9d1627d282"
+        },
+        {
+          "from": "Cabbage Caterpillars",
+          "to": "Cabbage caterpillars",
+          "valueSha256": "f8145c02e3c4b90f182282ddc63b7ebccdd53ae7b96cddf8b5a00aa451340782"
+        },
+        {
+          "from": "Cabbage Root Fly",
+          "to": "Cabbage root fly",
+          "valueSha256": "3b05cc65910e05ab6c3e359a6f0c1c19e94665ed41b8e119d68b91e6059513fc"
+        },
+        {
+          "from": "Mealy Aphid",
+          "to": "Mealy aphid",
+          "valueSha256": "910cea4097defbdb038ffe3d71d88d2056e9f5387f7c0f85937c43e63949ac9a"
+        }
+      ]
+    },
+    {
+      "key": "cabbage",
+      "labels": [
+        {
+          "from": "Club Root (Finger and Toe)",
+          "to": "Club root (finger and toe)",
+          "valueSha256": "029c07fc489c1fe375aa183904a21f9f5ef159830be32e6369936d9d1627d282"
+        },
+        {
+          "from": "Cabbage Caterpillars",
+          "to": "Cabbage caterpillars",
+          "valueSha256": "46aec3ef29d75532f2215ac88e3bacb85397c878d793922be774c2424dd61e04"
+        },
+        {
+          "from": "Cabbage Root Fly",
+          "to": "Cabbage root fly",
+          "valueSha256": "3b05cc65910e05ab6c3e359a6f0c1c19e94665ed41b8e119d68b91e6059513fc"
+        },
+        {
+          "from": "Slugs and Snails",
+          "to": "Slugs and snails",
+          "valueSha256": "1dd71cce76e63d094886e16d09eaa13ba780d8dcd4bc7b248a81e02c8c426dfc"
+        },
+        {
+          "from": "Flea Beetle",
+          "to": "Flea beetle",
+          "valueSha256": "48489aa7ad5ad42515fa407c18a4dbdda4a1ee2f3eef8d083e78e97a9e7cc2ed"
+        },
+        {
+          "from": "Mealy Aphid",
+          "to": "Mealy aphid",
+          "valueSha256": "73362b05f6b6259b6d587764bd877ab4043978f51450df1729db9723a3261d64"
+        },
+        {
+          "from": "Cabbage Whitefly",
+          "to": "Cabbage whitefly",
+          "valueSha256": "06ace95ffeb80f70e9aad360879a65cb11ea393d52677073748733592d420778"
+        },
+        {
+          "from": "Boron Deficiency",
+          "to": "Boron deficiency",
+          "valueSha256": "6199e6f5be366d4751c482c8b19e759ed07a0a518fe6ee2a22742c1716699e77"
+        },
+        {
+          "from": "Downy Mildew",
+          "to": "Downy mildew",
+          "valueSha256": "2fd37fd21ebba9650b1a198ae0e741ef8cfdd11a000156bed3be080f4a119982"
+        },
+        {
+          "from": "Wire Stem",
+          "to": "Wire stem",
+          "valueSha256": "2663fef5d3d7db6f71fc35359a80a9e7bd880270a807b01689b8fb4a3d803946"
+        },
+        {
+          "from": "Split Hearts",
+          "to": "Split hearts",
+          "valueSha256": "4379e03c4b1cd23d337b8a0b15f4658dfa1aa4696dc28d9ca2e698f009a6e92d"
+        },
+        {
+          "from": "Magnesium Deficiency",
+          "to": "Magnesium deficiency",
+          "valueSha256": "9abdc812d49472b5cfce12d87ce5750b8a123fa5c2f743c70043f95063907288"
+        },
+        {
+          "from": "Diamond-back Moth",
+          "to": "Diamond-back moth",
+          "valueSha256": "6140cd5900a825fccea301b43da436518b1490109f446c62b6d8c1c9a03be867"
+        },
+        {
+          "from": "White Blister (White Rust)",
+          "to": "White blister (white rust)",
+          "valueSha256": "aa18f21ec49c6b19593f33009977d38f61acc3195bc94c77f860bc7f977cd4da"
+        },
+        {
+          "from": "Black Rot",
+          "to": "Black rot",
+          "valueSha256": "21ada1a14d1c77a86289594e5e4f801812a8b9ee1e69e4735df22a4b64cf1199"
+        },
+        {
+          "from": "Manganese Deficiency",
+          "to": "Manganese deficiency",
+          "valueSha256": "edc3bea3cbfb2e21e980cafb26aa926f16af3702f4c446576aa40dec6490262d"
+        },
+        {
+          "from": "Chafer Grubs",
+          "to": "Chafer grubs",
+          "valueSha256": "4091623417bddc70466671dae22513b08ff91ab41f728ed5023db6c87a318cf3"
+        },
+        {
+          "from": "Swede Midge",
+          "to": "Swede midge",
+          "valueSha256": "180e83ab576c26b3981840c6f880815cbac500fc90f8cd7fb9da1c54594fa5e6"
+        },
+        {
+          "from": "Cabbage Stem Flea Beetle",
+          "to": "Cabbage stem flea beetle",
+          "valueSha256": "12c075130ed23a4229295c32cc91a236877ae435e56cef636e2ab1a3cca163fe"
+        },
+        {
+          "from": "Gall Weevil",
+          "to": "Gall weevil",
+          "valueSha256": "894cd2c62bfb9e8b77d994cc8d25d9ee39492e14e3c2230adc81fcf7e70fe401"
+        }
+      ]
+    },
+    {
+      "key": "capsicum",
+      "labels": [
+        {
+          "from": "RED SPIDER MITE",
+          "to": "Red spider mite",
+          "valueSha256": "a558d4fb978b58508d5a63864dc9eebb1f5f54c9bbe0408c62f5f955729840dd"
+        },
+        {
+          "from": "APHID",
+          "to": "Aphid",
+          "valueSha256": "8d94be67c69efe7fde81ae82d6b050ca1134d4c5ea8561a9df841cfd49bcdd52"
+        },
+        {
+          "from": "BLOSSOM END ROT",
+          "to": "Blossom end rot",
+          "valueSha256": "4a4d2ed34f7d596020a3e870a4f65999a06a9d8385a58560082173bf93929ae4"
+        },
+        {
+          "from": "SLUGS",
+          "to": "Slugs",
+          "valueSha256": "66aa851515341c496b33e92c9c2759c96aeaa3b067d6a54b5338810ad26f0ccc"
+        },
+        {
+          "from": "POOR FRUIT SET",
+          "to": "Poor fruit set",
+          "valueSha256": "4d1ea3b32981cf9bbc0ff2146b1d462f06899c291f03cf967512b8394df8ebaa"
+        },
+        {
+          "from": "ANTHRACNOSE",
+          "to": "Anthracnose",
+          "valueSha256": "a1e1a4e5d572ffda7ddbbb091c343fbc43b7c51941e5d9196ba4b03dafdcdb93"
+        },
+        {
+          "from": "CUTWORM",
+          "to": "Cutworm",
+          "valueSha256": "4960946d396ebd372904de7834849f19a9dc43940ce576e61d0d0fbc40a5e01c"
+        },
+        {
+          "from": "Grey Mould",
+          "to": "Grey mould",
+          "valueSha256": "c7658cce20e8fdfbeaf03683adb920be4d50f456341e2497ad6b89caeb614dc8"
+        }
+      ]
+    },
+    {
+      "key": "carrot",
+      "labels": [
+        {
+          "from": "Carrot Fly",
+          "to": "Carrot fly",
+          "valueSha256": "88af3a639f9b982e9c12c98d67627ddb45ee9a3ca24521888afef566278ead0a"
+        },
+        {
+          "from": "Small Roots",
+          "to": "Small roots",
+          "valueSha256": "2e6163a44327d28326d22aa6a0f8e98b4f33db1d0582fbc49e95cdd69fcbc648"
+        },
+        {
+          "from": "Sclerotinia Rot",
+          "to": "Sclerotinia rot",
+          "valueSha256": "d89930dab4936d11a4a5a63089f1af0ff39392ab72498710316d62559143e647"
+        },
+        {
+          "from": "Carrot-Willow Aphid",
+          "to": "Carrot-willow aphid",
+          "valueSha256": "ab0c88dff40af2da55cac1cb270ea05a2926cd44ac249274cd8c1cab24d93f48"
+        },
+        {
+          "from": "Black Rot",
+          "to": "Black rot",
+          "valueSha256": "65b70fb3df76467c85730e606a8f091c95a0c0252893e2685d86bf73869aef97"
+        },
+        {
+          "from": "Motley Dwarf Virus",
+          "to": "Motley dwarf virus",
+          "valueSha256": "346435e003f2471b284f67423621f36dadd6109d2e58724fa2c1514f2e83c999"
+        },
+        {
+          "from": "Green Top",
+          "to": "Green top",
+          "valueSha256": "d7616834ae300961ee5467cb380395c9655f4acd82d3e0633c33a903a8f6b44f"
+        },
+        {
+          "from": "Violet Root Rot",
+          "to": "Violet root rot",
+          "valueSha256": "42ad44a249bb03a8c23190e77a81b2688dc3b051593203045f3dd9414d35ee4d"
+        },
+        {
+          "from": "Swift Moth",
+          "to": "Swift moth",
+          "valueSha256": "d99fb6b2a1654f7ab8485655a7a2224e264dd973fd1083befad1b4b86b13f57f"
+        }
+      ]
+    },
+    {
+      "key": "cauliflower",
+      "labels": [
+        {
+          "from": "Club Root (Finger and Toe)",
+          "to": "Club root (finger and toe)",
+          "valueSha256": "5988f3c82ca0c0d730f44c18416eb21b10979c89950f5e9a2b2d0a320f0ca2ff"
+        },
+        {
+          "from": "Cabbage Caterpillars",
+          "to": "Cabbage caterpillars",
+          "valueSha256": "e385dfc8acf2f9f689bb68daa86c3bc2725cfb1cdae9dc7a4e209065663c2b73"
+        },
+        {
+          "from": "Cabbage Root Fly",
+          "to": "Cabbage root fly",
+          "valueSha256": "f20a639e69928dbb05ac19c367c04ad4b4d7541fc1024a7431edff125189f3f2"
+        },
+        {
+          "from": "Button Cauliflowers",
+          "to": "Button cauliflowers",
+          "valueSha256": "dba3a16dc741ab389fa4dd848a3485dc38c60010d14de1e8a2ce5a0fe42003b4"
+        },
+        {
+          "from": "Blind Plants",
+          "to": "Blind plants",
+          "valueSha256": "6a0052c764befcddf9fd494cf3dcb7518fa7325c7f15b5b98d35ec8e52ec1461"
+        },
+        {
+          "from": "Slugs and Snails",
+          "to": "Slugs and snails",
+          "valueSha256": "a344fcc2e75dfca6daf742750bfd897dcbb1d9fc93a04356699ac6318ccb5d7e"
+        },
+        {
+          "from": "Boron Deficiency",
+          "to": "Boron deficiency",
+          "valueSha256": "8da359ec04beca5f09000b598c1e88a6fd1237a199884d19995cc6af6abff493"
+        },
+        {
+          "from": "Mealy Aphid",
+          "to": "Mealy aphid",
+          "valueSha256": "8639ba994a1dbb70351bd5c30bb2eea42533d026027e403fdfbdf7e6a7c6eafd"
+        },
+        {
+          "from": "Flea Beetle",
+          "to": "Flea beetle",
+          "valueSha256": "3424c076745b3d25716cc80ec61c442ab741a2ca551b614372c6bf8624f7b093"
+        },
+        {
+          "from": "SUNLIGHT ON CURDS",
+          "to": "Sunlight on curds",
+          "valueSha256": "780da6b13ba27639c6bbc12dbcd85a9b3a648328e2b81cca945ed4cc9cc89870"
+        }
+      ]
+    },
+    {
+      "key": "celeriac",
+      "labels": [
+        {
+          "from": "SLUGS",
+          "to": "Slugs",
+          "valueSha256": "f5c7a9497f60c8660a4f78f093b6cbb104859bb96b154dc1b14ac182355990e0"
+        },
+        {
+          "from": "CARROT FLY",
+          "to": "Carrot fly",
+          "valueSha256": "8c6aef1448eb658be0de1efa1c5b8088a98bcd3f6860cd154c450f0824433154"
+        },
+        {
+          "from": "Celery Fly (Leaf Miner)",
+          "to": "Celery fly (leaf miner)",
+          "valueSha256": "2c8d6210db3338acc700425a6006ff24d31c38bfd290e3f328dafb188030ecdc"
+        },
+        {
+          "from": "FROST",
+          "to": "Frost",
+          "valueSha256": "ef8270c6bb94c09ff43bb8f9eda5120736302a664ff31600c73a4244e64881f9"
+        },
+        {
+          "from": "HOLLOW OR HOLED ROOTS",
+          "to": "Hollow or holed roots",
+          "valueSha256": "409fe389580cabd3c2710e3d5a9f5045c9801e837a3573573d9785485003a7a5"
+        },
+        {
+          "from": "WOODLICE",
+          "to": "Woodlice",
+          "valueSha256": "d15a943b3a10110bce9c44f8afe1875be5af7cd649b737beef00ee84c4a03f04"
+        },
+        {
+          "from": "Celery Leaf Spot (Blight)",
+          "to": "Celery leaf spot (blight)",
+          "valueSha256": "7368bb8c22bbde8093ed7506d555696d963735a856be4570edce0127a7d8249d"
+        },
+        {
+          "from": "Damping Off",
+          "to": "Damping off",
+          "valueSha256": "29936a6ae2025469a9c8f94b33d1dec3061ea1c595b74ff8d33db73043455980"
+        }
+      ]
+    },
+    {
+      "key": "celery",
+      "labels": [
+        {
+          "from": "Slugs and Snails",
+          "to": "Slugs and snails",
+          "valueSha256": "aef9cc0c870b3063d0f396c7fe9cb7d2d673b09561e7d1febebb008fbab31194"
+        },
+        {
+          "from": "Celery Fly (Leaf Miner)",
+          "to": "Celery fly (leaf miner)",
+          "valueSha256": "4b380bb70754bc357cd1345cc4497f9e59e6fa0cb6a493259d341d889842b267"
+        },
+        {
+          "from": "Celery Leaf Spot (Blight)",
+          "to": "Celery leaf spot (blight)",
+          "valueSha256": "aa062de401d55d4dee587b59ca1c8333164e80b0f74176ebea9b8fca05511a74"
+        },
+        {
+          "from": "Damping Off",
+          "to": "Damping off",
+          "valueSha256": "10c8672328ee6768cbd9f6f8f390866f6905462120639f8161b6a1b60a03fba1"
+        },
+        {
+          "from": "Celery Heart Rot",
+          "to": "Celery heart rot",
+          "valueSha256": "afb34edadbf8470e9fc86f303909f96e5ec833dd04aceb41fa31d73c49f36200"
+        }
+      ]
+    },
+    {
+      "key": "chicory",
+      "labels": [
+        {
+          "from": "SOIL PESTS",
+          "to": "Soil pests",
+          "valueSha256": "c6d25bb6c48135bbf64389b4cd780c835e55c4c649fe78a4c0d89fce90439137"
+        },
+        {
+          "from": "Bitter Chicons",
+          "to": "Bitter chicons",
+          "valueSha256": "55dc690bb5511bf554b297edc5868d8c63f29d94a396f290a7103302ebfdfa95"
+        }
+      ]
+    },
+    {
+      "key": "cucumber_greenhouse",
+      "labels": [
+        {
+          "from": "LACK OF WARMTH",
+          "to": "Lack of warmth",
+          "valueSha256": "c01acd1dc5f47a25b1c09e0646ad726274d7aec1c505353438e9707ef6a6c91e"
+        },
+        {
+          "from": "BITTERNESS",
+          "to": "Bitterness",
+          "valueSha256": "de6397fa6d2b0b4755f222046ae3ef7d1694a933633ae433c6f87b765286d548"
+        },
+        {
+          "from": "MILDEW",
+          "to": "Mildew",
+          "valueSha256": "6f4e72e28a1674f3966759ef63bbdacf1f9bb97d6ad325a728e36943c3245f73"
+        },
+        {
+          "from": "RED SPIDER MITE",
+          "to": "Red spider mite",
+          "valueSha256": "93b931a10f3addf38f0e450df7ca287f30b3331e58dff66f0cf9780096e5cd34"
+        },
+        {
+          "from": "STEM AND FRUIT ROTS",
+          "to": "Stem and fruit rots",
+          "valueSha256": "c446d7d7f48f22f219929761ae32f9fc68a5d81ea5ff4441c01c19d8c919fd18"
+        },
+        {
+          "from": "Cucumber Mosaic Virus",
+          "to": "Cucumber mosaic virus",
+          "valueSha256": "0214c77139f3a37651193924c69ffd16f7c1c822da306d694cb539747d9ebd9b"
+        },
+        {
+          "from": "Root Rot",
+          "to": "Root rot",
+          "valueSha256": "ae28a39e50c0df938e0fcc12b070fac16814801a39de292e32efed8a5fb883f5"
+        },
+        {
+          "from": "Slugs and Snails",
+          "to": "Slugs and snails",
+          "valueSha256": "8d9da0a756bdadeeb438cf4e6211295693ca28927c3397d2c789c804e426999c"
+        },
+        {
+          "from": "Withering of Young Fruit",
+          "to": "Withering of young fruit",
+          "valueSha256": "7ea2e1f49d43c4eace0a727ed70be0fd1105b03b5c892b9d25f1f061d3865a19"
+        }
+      ]
+    },
+    {
+      "key": "cucumber_outdoor",
+      "labels": [
+        {
+          "from": "LACK OF WARMTH",
+          "to": "Lack of warmth",
+          "valueSha256": "fce8c4af2046061b4fc09a0cc5b66e67db506c288ad22a260f2ac17dcbb8eddd"
+        },
+        {
+          "from": "MILDEW",
+          "to": "Mildew",
+          "valueSha256": "6e76cdcb975832e281c2ab0f14454fda9ba4759b4bcfacb2a996236be8a8a691"
+        },
+        {
+          "from": "CUCUMBER MOSAIC VIRUS",
+          "to": "Cucumber mosaic virus",
+          "valueSha256": "27795f9147e4cfad547f6aa5b4e050540fbed796c0223dfbe338c98bc48e587e"
+        },
+        {
+          "from": "FROST",
+          "to": "Frost",
+          "valueSha256": "dc95214d9d17593a567954cd2e827de918894cc635fca04132012288ce99ec61"
+        },
+        {
+          "from": "Root Rot",
+          "to": "Root rot",
+          "valueSha256": "ae28a39e50c0df938e0fcc12b070fac16814801a39de292e32efed8a5fb883f5"
+        },
+        {
+          "from": "Grey Mould (Botrytis)",
+          "to": "Grey mould (Botrytis)",
+          "valueSha256": "a86124322b58a761558eae11850dddf600f78a6d56a90361c770e5d29697163b"
+        },
+        {
+          "from": "Poor Fruit Set",
+          "to": "Poor fruit set",
+          "valueSha256": "ec70cb08b6b84150fac8f19aefb5a57f5b39f948638346ec64a2cb84f82acd05"
+        },
+        {
+          "from": "Slugs and Snails",
+          "to": "Slugs and snails",
+          "valueSha256": "24ad9a1a373984bbe959ac13c352e8c242ae7f25e204cf6e49b5f5eca24a8d5a"
+        }
+      ]
+    },
+    {
+      "key": "endive",
+      "labels": [
+        {
+          "from": "SLUGS",
+          "to": "Slugs",
+          "valueSha256": "0732c5bee4801a56447873be6c683a58237d62a954dd866e76fe58e386e310a9"
+        },
+        {
+          "from": "APHID",
+          "to": "Aphid",
+          "valueSha256": "544b82feec7b659424c62d2b17410033fd761ccb78bbe74df9d67aeecfbe711b"
+        },
+        {
+          "from": "BOLTING",
+          "to": "Bolting",
+          "valueSha256": "b964baca3b97d3439182e4cad9043e50f41702543c678b427992636d61f09123"
+        },
+        {
+          "from": "ROTTING",
+          "to": "Rotting",
+          "valueSha256": "6564e4ad22ae3fa55c0970948050ab36493fe87fac72b98332393346511b9a28"
+        },
+        {
+          "from": "FROST",
+          "to": "Frost",
+          "valueSha256": "ad32823303624af9ae4dbb9ba62d8461247ddc14f172d34630b05bbdfaeae659"
+        }
+      ]
+    },
+    {
+      "key": "florence_fennel",
+      "labels": [
+        {
+          "from": "BOLTING OR STEMMY BULBS",
+          "to": "Bolting or stemmy bulbs",
+          "valueSha256": "b3e46cc8032fe13073c60510d883ea6665eec7129dda8d9b937bf46966820baa"
+        },
+        {
+          "from": "SMALL OR DRY BULBS",
+          "to": "Small or dry bulbs",
+          "valueSha256": "9876693d5eb2f03d15301ccba11923ef6e1c82cb6b91a7f3de701422bea61ff5"
+        },
+        {
+          "from": "LOWER SHEATH ROT",
+          "to": "Lower sheath rot",
+          "valueSha256": "73282f5c9e22c82c6cfeccdc0bcaed5c5f47e1def4ba518b8c11792c5d611e0c"
+        },
+        {
+          "from": "FROST",
+          "to": "Frost",
+          "valueSha256": "ed1ad2088c717c7f771b68d15039dc61095b86e399d04e5e506d10101b4fe28d"
+        }
+      ]
+    },
+    {
+      "key": "garlic",
+      "labels": [
+        {
+          "from": "WHITE ROT",
+          "to": "White rot",
+          "valueSha256": "4902fe60cfc7e056b76d2c6b25c77236188c6f26a3b9c69c8b73e2d45b6f4388"
+        },
+        {
+          "from": "RUST",
+          "to": "Rust",
+          "valueSha256": "11d6ee1bd946da9816dc1112742ad0a8e94f270bc1d28f5b2a3fb58f9644162f"
+        },
+        {
+          "from": "BIRDS OR FROST LIFTING CLOVES",
+          "to": "Birds or frost lifting cloves",
+          "valueSha256": "12bbd640870db3307df5cf945309b74066af07243c988ad17aba184dfbf7fed3"
+        },
+        {
+          "from": "POOR STORAGE",
+          "to": "Poor storage",
+          "valueSha256": "cf0bbf3e756ccd057bdbea77a139edbf07f4715d59d8bdbb6191f9e93e45afca"
+        },
+        {
+          "from": "Allium Leaf Miner",
+          "to": "Allium leaf miner",
+          "valueSha256": "6b5577791089f3921e22ba722e75e1a51c9fd2b2dc641ea6affea145b150241e"
+        },
+        {
+          "from": "Stem & Bulb Eelworm",
+          "to": "Stem & bulb eelworm",
+          "valueSha256": "567a397e77f5226c051b049b20e725a9773040fbbcf5ae520853f91d6cc468b5"
+        }
+      ]
+    },
+    {
+      "key": "kale",
+      "labels": [
+        {
+          "from": "Cabbage Caterpillars",
+          "to": "Cabbage caterpillars",
+          "valueSha256": "fb09c4ef321165a3e9032d633c040f7cfd25352f9f368c713d03c7c19623e747"
+        },
+        {
+          "from": "Cabbage Whitefly",
+          "to": "Cabbage whitefly",
+          "valueSha256": "9cdc8bba67d24a703723f4f530ccb0a8a10fab7a466cc5aae4182f9c84db356e"
+        },
+        {
+          "from": "Mealy Aphid",
+          "to": "Mealy aphid",
+          "valueSha256": "105d11438ef3f2ce48ccb20b9df1833af8cd2fa63ac73e080dbb28469515078f"
+        },
+        {
+          "from": "Club Root (Finger and Toe)",
+          "to": "Club root (finger and toe)",
+          "valueSha256": "a1fd74081b859c48920f493dbbfe45b3466b5ef180985fec66c8f14be710bbe9"
+        },
+        {
+          "from": "Slugs and Snails",
+          "to": "Slugs and snails",
+          "valueSha256": "e8ec42501127a096c88240a1f556d4f271a23c36bbd52f1b4faa2c098bd9b9ff"
+        },
+        {
+          "from": "Cabbage Root Fly",
+          "to": "Cabbage root fly",
+          "valueSha256": "64b5c96cb8bbe327f088fc7784da31f233f953cedc1c42f9d501fc46b62e80bc"
+        },
+        {
+          "from": "Flea Beetle",
+          "to": "Flea beetle",
+          "valueSha256": "58ce63aaf5b4ecaf6b43ce8fa6b06e340843af16454cc24fcf1b3c58629038c3"
+        },
+        {
+          "from": "Downy Mildew",
+          "to": "Downy mildew",
+          "valueSha256": "1008cc5d2e8c9304c0e1208d1840aad04dc09b352351bb03739ec37d55d5dff7"
+        },
+        {
+          "from": "Wire Stem",
+          "to": "Wire stem",
+          "valueSha256": "ea8ba4d0d69b5eac759ffe18ceede12285268e7f3b0352e7654202dd9cd8122e"
+        },
+        {
+          "from": "Magnesium Deficiency",
+          "to": "Magnesium deficiency",
+          "valueSha256": "56a6db64e52599fefcecf5ce4c8db15a40a63c6c42e198f65a4bc280282660aa"
+        },
+        {
+          "from": "Diamond-back Moth",
+          "to": "Diamond-back moth",
+          "valueSha256": "6364dca989db044cbfec6b5b57389faf61a60726070e636a4c790de0c19a701c"
+        },
+        {
+          "from": "White Blister (White Rust)",
+          "to": "White blister (white rust)",
+          "valueSha256": "cf2ff4bf406450bdd50c0b7aa073880cf7bfc8226cca79e284c1ed8bfd3b0cb9"
+        },
+        {
+          "from": "Black Rot",
+          "to": "Black rot",
+          "valueSha256": "bb781da4c90329d6f6d216780bc32ccd6f54920301a9e4f33c2d40cfab099e06"
+        },
+        {
+          "from": "Manganese Deficiency",
+          "to": "Manganese deficiency",
+          "valueSha256": "ce020f8261037d981eb40fa35296b4e8fe0f9375166944c5751c1a7f933eaf25"
+        },
+        {
+          "from": "Chafer Grubs",
+          "to": "Chafer grubs",
+          "valueSha256": "4091623417bddc70466671dae22513b08ff91ab41f728ed5023db6c87a318cf3"
+        },
+        {
+          "from": "Swede Midge",
+          "to": "Swede midge",
+          "valueSha256": "15548bb5e20c8b151c83c032c4d11b06638804f902e7aa1c2f8de5d65bf9ecb6"
+        },
+        {
+          "from": "Cabbage Stem Flea Beetle",
+          "to": "Cabbage stem flea beetle",
+          "valueSha256": "a0e8f3c4bf13d0d0e5d348f04e493678345585e7e879950b5f45d27d61c64c30"
+        },
+        {
+          "from": "Gall Weevil",
+          "to": "Gall weevil",
+          "valueSha256": "b65809e0d2ea19b3be7e12c94032819055512728120931819f6cffaa404f7dbd"
+        }
+      ]
+    },
+    {
+      "key": "kohl_rabi",
+      "labels": [
+        {
+          "from": "Woody Kohl Rabi",
+          "to": "Woody kohl rabi",
+          "valueSha256": "70cf46357878990a77681e87c2fbfee633e815975498f01e8098c02a8f698081"
+        },
+        {
+          "from": "Flea Beetle",
+          "to": "Flea beetle",
+          "valueSha256": "562697a4996a4b050bd67627de16918f1aab48fdf77e82e3c032e91b4be84358"
+        },
+        {
+          "from": "Cabbage Caterpillars",
+          "to": "Cabbage caterpillars",
+          "valueSha256": "05ff36d9ad2f4e65889d92c8c046ddff914336a36958dc46809b2086c9143bdf"
+        },
+        {
+          "from": "Club Root (Finger and Toe)",
+          "to": "Club root (finger and toe)",
+          "valueSha256": "d64bcc7d24be537ffcf1e77c9a2f683c67526833e215702fe034ddfa8fd86cad"
+        },
+        {
+          "from": "Cabbage Root Fly",
+          "to": "Cabbage root fly",
+          "valueSha256": "64b5c96cb8bbe327f088fc7784da31f233f953cedc1c42f9d501fc46b62e80bc"
+        },
+        {
+          "from": "Slugs and Snails",
+          "to": "Slugs and snails",
+          "valueSha256": "e8ec42501127a096c88240a1f556d4f271a23c36bbd52f1b4faa2c098bd9b9ff"
+        },
+        {
+          "from": "Mealy Aphid",
+          "to": "Mealy aphid",
+          "valueSha256": "a47bf0d983f99daca6b95c35f52307bc2fd84d53c0b491be2727c33deab72a51"
+        },
+        {
+          "from": "Cabbage Whitefly",
+          "to": "Cabbage whitefly",
+          "valueSha256": "9b74b2f412cca56eee942053875152ae4d1df8e1272cd5109bd35e36afaf25a7"
+        },
+        {
+          "from": "Downy Mildew",
+          "to": "Downy mildew",
+          "valueSha256": "1008cc5d2e8c9304c0e1208d1840aad04dc09b352351bb03739ec37d55d5dff7"
+        },
+        {
+          "from": "Wire Stem",
+          "to": "Wire stem",
+          "valueSha256": "ea8ba4d0d69b5eac759ffe18ceede12285268e7f3b0352e7654202dd9cd8122e"
+        },
+        {
+          "from": "Magnesium Deficiency",
+          "to": "Magnesium deficiency",
+          "valueSha256": "56a6db64e52599fefcecf5ce4c8db15a40a63c6c42e198f65a4bc280282660aa"
+        },
+        {
+          "from": "Diamond-back Moth",
+          "to": "Diamond-back moth",
+          "valueSha256": "6364dca989db044cbfec6b5b57389faf61a60726070e636a4c790de0c19a701c"
+        },
+        {
+          "from": "White Blister (White Rust)",
+          "to": "White blister (white rust)",
+          "valueSha256": "cf2ff4bf406450bdd50c0b7aa073880cf7bfc8226cca79e284c1ed8bfd3b0cb9"
+        },
+        {
+          "from": "Black Rot",
+          "to": "Black rot",
+          "valueSha256": "bb781da4c90329d6f6d216780bc32ccd6f54920301a9e4f33c2d40cfab099e06"
+        },
+        {
+          "from": "Manganese Deficiency",
+          "to": "Manganese deficiency",
+          "valueSha256": "ce020f8261037d981eb40fa35296b4e8fe0f9375166944c5751c1a7f933eaf25"
+        },
+        {
+          "from": "Chafer Grubs",
+          "to": "Chafer grubs",
+          "valueSha256": "4091623417bddc70466671dae22513b08ff91ab41f728ed5023db6c87a318cf3"
+        },
+        {
+          "from": "Swede Midge",
+          "to": "Swede midge",
+          "valueSha256": "15548bb5e20c8b151c83c032c4d11b06638804f902e7aa1c2f8de5d65bf9ecb6"
+        },
+        {
+          "from": "Cabbage Stem Flea Beetle",
+          "to": "Cabbage stem flea beetle",
+          "valueSha256": "a0e8f3c4bf13d0d0e5d348f04e493678345585e7e879950b5f45d27d61c64c30"
+        },
+        {
+          "from": "Gall Weevil",
+          "to": "Gall weevil",
+          "valueSha256": "b65809e0d2ea19b3be7e12c94032819055512728120931819f6cffaa404f7dbd"
+        }
+      ]
+    },
+    {
+      "key": "leek",
+      "labels": [
+        {
+          "from": "White Rot (Mouldy Nose)",
+          "to": "White rot (mouldy nose)",
+          "valueSha256": "8409c5e497d6e21ff8cf5b6e56b93f85c00df2ae4729dc4dcd93bdb8602ab44c"
+        },
+        {
+          "from": "Allium Leaf Miner",
+          "to": "Allium leaf miner",
+          "valueSha256": "6b5577791089f3921e22ba722e75e1a51c9fd2b2dc641ea6affea145b150241e"
+        },
+        {
+          "from": "Leek Moth",
+          "to": "Leek moth",
+          "valueSha256": "4f96dc4bc9ef04fe5859ba76b09ad0df360bf181647b19a57d3c05b54ca53002"
+        },
+        {
+          "from": "Stem & Bulb Eelworm",
+          "to": "Stem & bulb eelworm",
+          "valueSha256": "00479e27aef1e90dc41b3646da813f7c69a1c1a2e75a96b6f3e546a762686301"
+        },
+        {
+          "from": "White Tip",
+          "to": "White tip",
+          "valueSha256": "d21b73a70bd30720ddffd8327a2ae058b44c3825e9667290e975a30b67111e7e"
+        },
+        {
+          "from": "Downy Mildew",
+          "to": "Downy mildew",
+          "valueSha256": "25216076a47380a9391fe96456317fa421f4d0d076bd239a6da4f7769b3e1130"
+        },
+        {
+          "from": "Onion Fly",
+          "to": "Onion fly",
+          "valueSha256": "b36e9a2215bdc421d7a12e5f1a699a6a34807487fd23631f0c0183a3f0d9a14d"
+        },
+        {
+          "from": "Drooping Leaves",
+          "to": "Drooping leaves",
+          "valueSha256": "29eaf57f1296e217e32f9d48f3a023712c0bc72da0f42d308e1536e5f79b6077"
+        }
+      ]
+    },
+    {
+      "key": "lettuce",
+      "labels": [
+        {
+          "from": "SLUGS",
+          "to": "Slugs",
+          "valueSha256": "13df3c78143692abb60c311a95217535d46df0493b339ee5a5da70a76ad120b2"
+        },
+        {
+          "from": "Downy Mildew",
+          "to": "Downy mildew",
+          "valueSha256": "590f96ef0aa615a0350a5374fc1a3630e5d91e9594fdda9329fedfc5b8c86c08"
+        },
+        {
+          "from": "TIPBURN",
+          "to": "Tipburn",
+          "valueSha256": "1332e9d6ffe408a504afb241920b67ac0afa32979c73f30a707ffeca315cc717"
+        },
+        {
+          "from": "ROOT APHID",
+          "to": "Root aphid",
+          "valueSha256": "8f66c1b3969ef4258061d8cb781b9e34f1665b87d9c304beae36243dd14572c1"
+        },
+        {
+          "from": "Grey Mould (Botrytis)",
+          "to": "Grey mould (Botrytis)",
+          "valueSha256": "9013fa152d06b432db00cb33000398a778623ae315a28db559578594970f5c5e"
+        },
+        {
+          "from": "No Hearts",
+          "to": "No hearts",
+          "valueSha256": "b3a1e1c3d3ec30ee5a0717316ac918762946eb0e82f40dbd070a6aea108d9565"
+        }
+      ]
+    },
+    {
+      "key": "marrow_courgette",
+      "labels": [
+        {
+          "from": "SLUGS",
+          "to": "Slugs",
+          "valueSha256": "a9e29669e3c98388241f1f46eadb216949f2f4f0d9fc67b072cf690789cff113"
+        },
+        {
+          "from": "MILDEW",
+          "to": "Mildew",
+          "valueSha256": "d87e489acb702dd70d392dc38308c2e0e7c053cd9ea897e520f7c77f25db8e10"
+        },
+        {
+          "from": "POOR POLLINATION",
+          "to": "Poor pollination",
+          "valueSha256": "c9b5ee291a5bed30124c296b1e7df60ba6af78e49a261f1067dbbff132b63e99"
+        },
+        {
+          "from": "FRUIT ROT",
+          "to": "Fruit rot",
+          "valueSha256": "cb95952c6a3bba122c33e47c7514d98243dbda98341e3790a553f1856cd1f597"
+        },
+        {
+          "from": "Cucumber Mosaic Virus",
+          "to": "Cucumber mosaic virus",
+          "valueSha256": "9836db44f521331d9fd8ce27cef6d4baa5a5cf9cfbc60fb48fa08aa30f2a1487"
+        },
+        {
+          "from": "Root Rot",
+          "to": "Root rot",
+          "valueSha256": "dfa828203fd62af1b67b3990d2d4e3fb2b2858a554862e1bc0e6cc2b60307420"
+        },
+        {
+          "from": "VINE BORER",
+          "to": "Vine borer",
+          "valueSha256": "fef37d54f7ba625813e19f02671d66b3abf4a03d48de93bb7b0827a17e0b1c82"
+        }
+      ]
+    },
+    {
+      "key": "squash_pumpkin",
+      "labels": [
+        {
+          "from": "SOFT UNDERRIPE FRUIT",
+          "to": "Soft underripe fruit",
+          "valueSha256": "366d2fb409d6cb9bd5401b8d56b58dd48074f6027eb7d0344105f2d4c659de66"
+        },
+        {
+          "from": "MILDEW",
+          "to": "Mildew",
+          "valueSha256": "a32e7197d7bba9c49a9c8769f31ca4cbda0b8726e3a42d303041c3c953d46cdc"
+        },
+        {
+          "from": "STEM DAMAGE AND ROT",
+          "to": "Stem damage and rot",
+          "valueSha256": "70ec8c1eccb829597d1cc008ea2cd50496c407f28376787f7ef4afdd763ac695"
+        },
+        {
+          "from": "GROUND ROT",
+          "to": "Ground rot",
+          "valueSha256": "cbf9472954d3044563101d2f92238d0962fc7d295b76b8a8b4322194a752f993"
+        },
+        {
+          "from": "SLUGS",
+          "to": "Slugs",
+          "valueSha256": "d8b040085f22e7fb6c4063584a335931332644261c1dc1b1c2f75f879d5ac5a0"
+        },
+        {
+          "from": "No Fruit",
+          "to": "No fruit",
+          "valueSha256": "9db9065eea7ae208fc3e8f68c785342bc83b83315da7b33811e3fc3dc1572305"
+        },
+        {
+          "from": "Cucumber Mosaic Virus",
+          "to": "Cucumber mosaic virus",
+          "valueSha256": "8d6e02710a359926bd20edf79a83bb45ba819459f844e063bdfed3baa5630f1e"
+        },
+        {
+          "from": "Root Rot",
+          "to": "Root rot",
+          "valueSha256": "4e58d7d53cd2057323da9402a01fb79c0189b3a41d20eaa4285a463470ad4674"
+        }
+      ]
+    },
+    {
+      "key": "mushroom",
+      "labels": [
+        {
+          "from": "PESTS",
+          "to": "Pests",
+          "valueSha256": "7e08e26ff2e3a310ff9794138121d961b037f12b76e2c68c30435fbd8b2350a5"
+        }
+      ]
+    },
+    {
+      "key": "onion_shallot",
+      "labels": [
+        {
+          "from": "White Rot (Mouldy Nose)",
+          "to": "White rot (mouldy nose)",
+          "valueSha256": "8409c5e497d6e21ff8cf5b6e56b93f85c00df2ae4729dc4dcd93bdb8602ab44c"
+        },
+        {
+          "from": "Allium Leaf Miner",
+          "to": "Allium leaf miner",
+          "valueSha256": "b66fa2917a43e527b789fa23ef9ad4dd55d88b209fd9cbcc71063019df482066"
+        },
+        {
+          "from": "Downy Mildew",
+          "to": "Downy mildew",
+          "valueSha256": "cc3c435716e08cd560840e24139a68d76f47f1b0a431edd9e2112c6910bba6f8"
+        },
+        {
+          "from": "Neck Rot",
+          "to": "Neck rot",
+          "valueSha256": "2a47ad7620eb90035348d875898a306cf5480293b37e150481758733c0c36c52"
+        },
+        {
+          "from": "Onion Fly",
+          "to": "Onion fly",
+          "valueSha256": "5a260bc92401655425c36e2f133b3aa8b730764481dcd2aad63c28fbafbd8fdd"
+        },
+        {
+          "from": "Bull Neck (Thick Neck)",
+          "to": "Bull neck (thick neck)",
+          "valueSha256": "26637235234320e7519353b68348e06f287d649f8ee0ebc93b58f12c87916c59"
+        },
+        {
+          "from": "Birds Pulling Sets",
+          "to": "Birds pulling sets",
+          "valueSha256": "33d0518ee35de2a83eb4933ac4a2b65309364a90fe485805b7a7d19ebdd61bec"
+        },
+        {
+          "from": "Stem & Bulb Eelworm",
+          "to": "Stem & bulb eelworm",
+          "valueSha256": "567a397e77f5226c051b049b20e725a9773040fbbcf5ae520853f91d6cc468b5"
+        },
+        {
+          "from": "Leek Moth",
+          "to": "Leek moth",
+          "valueSha256": "66996265326d1aec82c4a773630d97977cd86a99c88662983bd15f1593481e9e"
+        },
+        {
+          "from": "Drooping Leaves",
+          "to": "Drooping leaves",
+          "valueSha256": "871dd8802080fa5b0496156a50d4fa677c307deab6a2dabd362eb3a477384f0f"
+        },
+        {
+          "from": "Set Division",
+          "to": "Set division",
+          "valueSha256": "ff9f060dfda8b7e56362740ebea2356d83debb2f6c37d0af393e366b5074f415"
+        }
+      ]
+    },
+    {
+      "key": "oriental_leaves",
+      "labels": [
+        {
+          "from": "FLEA BEETLE",
+          "to": "Flea beetle",
+          "valueSha256": "322a32143cfa07981095e139fcc21f2c01a007675ce6584ae5eb120aee74986b"
+        },
+        {
+          "from": "SLUGS",
+          "to": "Slugs",
+          "valueSha256": "3d5c1067e204631395be66c7b0c72d2fcf02734d6eb24600519601f7518b7551"
+        },
+        {
+          "from": "CABBAGE CATERPILLARS",
+          "to": "Cabbage caterpillars",
+          "valueSha256": "b82a74efcee67244e44f16f9ca7a1f05b4ae0774d1c9e8aa0d8177f0dc139eeb"
+        },
+        {
+          "from": "BOLTING",
+          "to": "Bolting",
+          "valueSha256": "1735a304212485f87b202e583cfdf3b9a6b84b3c3b5bb6869b50638171739d9b"
+        },
+        {
+          "from": "DRYNESS AND CHECKS",
+          "to": "Dryness and checks",
+          "valueSha256": "724bcad0f2fd355872099c0007d164b3e0e742a1b6ae43332c5c18892bc20ec7"
+        },
+        {
+          "from": "ROOT DISTURBANCE",
+          "to": "Root disturbance",
+          "valueSha256": "c00aebeac0cf0ea55b262410befa8c484436bada56e62c2d868382248150c028"
+        },
+        {
+          "from": "FROST",
+          "to": "Frost",
+          "valueSha256": "1bb4ce55985b5e0ead056d27c483f0c61bcd408d2379539d6137128f9a5e07c9"
+        },
+        {
+          "from": "CABBAGE ROOT FLY",
+          "to": "Cabbage root fly",
+          "valueSha256": "6668db0da9bb3c875a2899d2fa593e4b6f9eebd1ef21bab8bd2cff4a35201e1b"
+        }
+      ]
+    },
+    {
+      "key": "parsnip",
+      "labels": [
+        {
+          "from": "CANKER",
+          "to": "Canker",
+          "valueSha256": "77fd760631fa2e8e61cac861dc0404a2bdfc0fb3117604adada7fbfc7cd87965"
+        },
+        {
+          "from": "POOR GERMINATION",
+          "to": "Poor germination",
+          "valueSha256": "55ef2ec3ab435687ac8f37c8236a33e31e2f4084bdbbb4d676ca4a52fc231615"
+        },
+        {
+          "from": "CARROT ROOT FLY",
+          "to": "Carrot root fly",
+          "valueSha256": "726fce225a0ba7aa5bc2ebc8ec8f37fee883936c163f82227b52b4979f9a365a"
+        },
+        {
+          "from": "FORKING",
+          "to": "Forking",
+          "valueSha256": "b9e57541ec25a1d9b426f799d95b396113fb2e7de94787740437a01b2bedf198"
+        },
+        {
+          "from": "LEAF MINER",
+          "to": "Leaf miner",
+          "valueSha256": "609cbc9f666cd3386bd0fff4f88bd6b46a25e156ff729acd7b7e7f08460b4411"
+        },
+        {
+          "from": "Violet Root Rot",
+          "to": "Violet root rot",
+          "valueSha256": "ec0b731a99dd7f5e05bbf752de7b4bf66fb0cd68bdd2db8583e522e2e0f03043"
+        },
+        {
+          "from": "Sclerotinia Rot",
+          "to": "Sclerotinia rot",
+          "valueSha256": "dbd0991401da51dd12189b1fb705bbcb6f45f60f73071107e1a19386c09011da"
+        },
+        {
+          "from": "RUST FUNGUS",
+          "to": "Rust fungus",
+          "valueSha256": "9aa3ba5eb8fd6c4d50af2986c5e8ff2bbafc75f72d1f63b79f1ba42abb9bbfb1"
+        },
+        {
+          "from": "SPLITTING",
+          "to": "Splitting",
+          "valueSha256": "70d78df2137b8429a9b0b878f7c9bc83bf5b4878f304e80b687689dff5740bb5"
+        }
+      ]
+    },
+    {
+      "key": "pea",
+      "labels": [
+        {
+          "from": "PEA MOTH / CATERPILLARS",
+          "to": "Pea moth / caterpillars",
+          "valueSha256": "15cfcfc192d19584ce2e17bac1e5a4ac510fe77496ed53f1b0d1e7ca7538525b"
+        },
+        {
+          "from": "MILDEW",
+          "to": "Mildew",
+          "valueSha256": "597c479b881fce685581641a7811e9e732ac6175fefff4ab751424a085186b89"
+        },
+        {
+          "from": "BIRDS",
+          "to": "Birds",
+          "valueSha256": "b0c1bfc8b94e283a6379cc526daa03db65332fbb771e3e305530aba5af44d073"
+        },
+        {
+          "from": "MICE",
+          "to": "Mice",
+          "valueSha256": "656a512affcc64ef89a5a87123ab4152b19c47d5a2e28971b462c3547cd112fc"
+        },
+        {
+          "from": "SLUGS",
+          "to": "Slugs",
+          "valueSha256": "3bddf891a94f9195a17b2e41497f895acf805e9dbdc1e0a795759b95bb8b804f"
+        },
+        {
+          "from": "PEA AND BEAN WEEVIL",
+          "to": "Pea and bean weevil",
+          "valueSha256": "3c28d7e6fdc8740dab91010cf8c87eccbe2149c27fadedcdfc36d1cee9a764b2"
+        },
+        {
+          "from": "PEA THRIPS",
+          "to": "Pea thrips",
+          "valueSha256": "37e827ccc6b26a73769925a1ac668756c4d19071585ba8a5fe07140836277975"
+        },
+        {
+          "from": "Pea Aphid",
+          "to": "Pea aphid",
+          "valueSha256": "9ea42243c352f0c8dd7d31e624a909cb02fcff3bf14e489d287bac0e96894209"
+        },
+        {
+          "from": "Downy Mildew",
+          "to": "Downy mildew",
+          "valueSha256": "d94f26edb173d36ca7435cd7f2249f0ad8b5ea33d861f654101ea3ef1bf27068"
+        },
+        {
+          "from": "Foot Rot and Root Rot",
+          "to": "Foot rot and root rot",
+          "valueSha256": "210883971fa40209afd89fc0edc6f8c188a0bc43e6aac3b8fdf52148453d48e8"
+        }
+      ]
+    },
+    {
+      "key": "potato",
+      "labels": [
+        {
+          "from": "BLIGHT",
+          "to": "Blight",
+          "valueSha256": "daa0b9834ddc937cdbb7b94485b1a7ee7084a44e85fd27dcc8156534f46033fc"
+        },
+        {
+          "from": "SLUGS",
+          "to": "Slugs",
+          "valueSha256": "c65e082803f6e7df1762a01bcbc1455e9a4b366dc41f0175edf33664af606ed0"
+        },
+        {
+          "from": "SCAB",
+          "to": "Scab",
+          "valueSha256": "39afd88966e5e9726e0877acf4e60c8b191b3afed396873e785d0c4a64d0a7b0"
+        },
+        {
+          "from": "EELWORM",
+          "to": "Eelworm",
+          "valueSha256": "94b2db45def53b99b2f28e16edacebaf66432ee8c17530b849c6286395e76591"
+        },
+        {
+          "from": "FROST",
+          "to": "Frost",
+          "valueSha256": "973ad9452a11abfb2605e80490071eca407ed5d1473b4e085bb4b733f7f795ad"
+        },
+        {
+          "from": "STORAGE ROTS",
+          "to": "Storage rots",
+          "valueSha256": "0af7ac8154c4e42fe36477af578e685eac952dd902d00781e5e061400d55a6e4"
+        },
+        {
+          "from": "WART DISEASE",
+          "to": "Wart disease",
+          "valueSha256": "f675c5a0a890ce95e7b440b0b2d583631b20c46f2225764feab7121caf6ba05d"
+        },
+        {
+          "from": "COLORADO BEETLE",
+          "to": "Colorado beetle",
+          "valueSha256": "d06174b2bf27d238533c5806764f1b46bce91447ce5867ad0f94d48da1f47045"
+        }
+      ]
+    },
+    {
+      "key": "radish",
+      "labels": [
+        {
+          "from": "FLEA BEETLE",
+          "to": "Flea beetle",
+          "valueSha256": "6fd907d84398a5faf04ef73249215576f8239b5a7eb6b986ef56bcf8fe2aab03"
+        },
+        {
+          "from": "CABBAGE ROOT FLY",
+          "to": "Cabbage root fly",
+          "valueSha256": "09c680b63d1703785832ad2082dd10bcdea53bc9570a7b41e88166728d95c719"
+        },
+        {
+          "from": "BOLTING",
+          "to": "Bolting",
+          "valueSha256": "06f74ff80d7c8637a8d35042a8c7b6e6b626bfa4ecdba707494662e023154c7c"
+        },
+        {
+          "from": "WOODY OR HOLLOW ROOTS",
+          "to": "Woody or hollow roots",
+          "valueSha256": "90919a802c6d356daaa931d68744c9afb7686aa864606fd1023a0e2e1994f6d1"
+        },
+        {
+          "from": "ACID SOIL",
+          "to": "Acid soil",
+          "valueSha256": "4dbd33cf19a2c29c3880cc3af41bc4b7aa1b1bff65c595ccad138efdb24cbe0d"
+        },
+        {
+          "from": "Slugs and Snails",
+          "to": "Slugs and snails",
+          "valueSha256": "69d67f0a24301624b6500fddeff8e3c5b73906f1d97c49279cdfb1e124142698"
+        }
+      ]
+    },
+    {
+      "key": "rhubarb",
+      "labels": [
+        {
+          "from": "CROWN ROT",
+          "to": "Crown rot",
+          "valueSha256": "f3e3e82fcc8ff3c66ec6903d0f46391528102b05051f4b2a2535d5910c1a7d65"
+        },
+        {
+          "from": "HONEY FUNGUS",
+          "to": "Honey fungus",
+          "valueSha256": "72782ef63a8df5853301f3866a27ef7bb97708110e8fd8a827d02a172a9de71a"
+        },
+        {
+          "from": "SLUGS UNDER FORCING POTS",
+          "to": "Slugs under forcing pots",
+          "valueSha256": "0f897b914bc8b3c2a917a437e4563ecd575ecfbbcdf75d03ced91cdb732d908c"
+        },
+        {
+          "from": "FLOWERING",
+          "to": "Flowering",
+          "valueSha256": "41983d92606756442d80965c9f4c0f34f4ba0e1c70594462cbd72ec30a6b435a"
+        },
+        {
+          "from": "POOR GROWTH OR STRINGY STEMS",
+          "to": "Poor growth or stringy stems",
+          "valueSha256": "66cf78d666b2333ee44b4809747acc08997d35ffd0cae2270125a6b5abc54a01"
+        },
+        {
+          "from": "RHUBARB CURCULIO",
+          "to": "Rhubarb curculio",
+          "valueSha256": "02c6ba715c2ba2bc7b519cf88f877a98e8b66a8609e7044828960588846555c5"
+        }
+      ]
+    },
+    {
+      "key": "salsify_scorzonera",
+      "labels": [
+        {
+          "from": "WHITE BLISTER",
+          "to": "White blister",
+          "valueSha256": "096439551b7d82330587350264108abf62e7b7dabb877ceccc31561fef95bcb9"
+        },
+        {
+          "from": "FORKED ROOTS",
+          "to": "Forked roots",
+          "valueSha256": "7eda4d38fd4c5516d696fba860adea79197178f07b4c3035c2cb54554fd63fed"
+        },
+        {
+          "from": "SNAPPED ROOTS",
+          "to": "Snapped roots",
+          "valueSha256": "9c96d7ad198d855ef6855a74f65b91d28032f7515154b1cfbb91399cb30caf64"
+        },
+        {
+          "from": "BOLTING",
+          "to": "Bolting",
+          "valueSha256": "99f59c5f208d1d443e7604cea7efcb142260774c008681820c62f74fdfb411b1"
+        },
+        {
+          "from": "SMALL ROOTS",
+          "to": "Small roots",
+          "valueSha256": "a9dd2229d70b09e845934833f5fd5caaa5f231231a2f0b65ef4121cf05d249d7"
+        }
+      ]
+    },
+    {
+      "key": "spinach",
+      "labels": [
+        {
+          "from": "BOLTING",
+          "to": "Bolting",
+          "valueSha256": "d23a868514b97d6a35cd4a1a3c84e5d94ad5ed150a227b993d8b2863ac05e3ee"
+        },
+        {
+          "from": "MOULD OR DOWNY MILDEW",
+          "to": "Mould or downy mildew",
+          "valueSha256": "c5cd2cb06de31149af9059ec0c67497edfbfbe400dcb9cc76b0fde0508abfdab"
+        },
+        {
+          "from": "MANGANESE DEFICIENCY",
+          "to": "Manganese deficiency",
+          "valueSha256": "7bd5cb6071d968fe689db3d8b5c561d8561a567995c52cd1513c1317012dada4"
+        },
+        {
+          "from": "NEW ZEALAND SPINACH FROST",
+          "to": "New Zealand spinach frost",
+          "valueSha256": "3ed49afd08147307f1c390592cd5fe6955e9647cc9e1a152434fd93453b1b003"
+        },
+        {
+          "from": "Leaf Spot",
+          "to": "Leaf spot",
+          "valueSha256": "d13bf86d052e8ae991fef0cda649adbd3403f6a3f2598bb24cf7abb6757ab16a"
+        },
+        {
+          "from": "Spinach Blight",
+          "to": "Spinach blight",
+          "valueSha256": "308ea0a34c337b03262f02c26629782cb588f5a333f0b4085b387262bebdf5c9"
+        }
+      ]
+    },
+    {
+      "key": "swede",
+      "labels": [
+        {
+          "from": "FLEA BEETLE",
+          "to": "Flea beetle",
+          "valueSha256": "47d18ba6dc4bbaa3dff072894dbedf2f507038c565ed44bd1dc931737c11c20b"
+        },
+        {
+          "from": "CABBAGE ROOT FLY",
+          "to": "Cabbage root fly",
+          "valueSha256": "74b078016c2e48b65d0f938d0963794056be9df80d967da99b079d9afe7d311f"
+        },
+        {
+          "from": "BORON DEFICIENCY",
+          "to": "Boron deficiency",
+          "valueSha256": "832f3d149cfd481b23e290f7d84b14a6fd74ccff0c7bb119f43cfdbb593f4ad8"
+        },
+        {
+          "from": "BIRDS AND CATERPILLARS",
+          "to": "Birds and caterpillars",
+          "valueSha256": "1120375373de6d84babb63eaa24be6524059f12483a05eed670c62f9859956c9"
+        },
+        {
+          "from": "Soft Rot",
+          "to": "Soft rot",
+          "valueSha256": "354b0d0923ac88ae56faed13bab62279a02be4be92d609f5f8c90c427c3c82b9"
+        },
+        {
+          "from": "Black Rot",
+          "to": "Black rot",
+          "valueSha256": "146d2ffda77e60af1c1f95bddde8b5c0d139627c8eb93bd91b1b79f171c2a5b2"
+        },
+        {
+          "from": "QUALITY PROBLEMS",
+          "to": "Quality problems",
+          "valueSha256": "f6359f58649437f1de63c116af98ca13247516161187de02b19ed346df8af47d"
+        }
+      ]
+    },
+    {
+      "key": "sweet_corn",
+      "labels": [
+        {
+          "from": "SLUGS",
+          "to": "Slugs",
+          "valueSha256": "8b3320fdc0500b0de551cece1b12b61434164a772ea0656cbed1935ee3b9b33d"
+        },
+        {
+          "from": "COLD CHECK",
+          "to": "Cold check",
+          "valueSha256": "ed27333d2a994cb4882c39728e4ab3177b317e0a09e06cad0c664439687e8d9b"
+        },
+        {
+          "from": "POOR POLLINATION",
+          "to": "Poor pollination",
+          "valueSha256": "3e976034e1ad29c7024f526b8f7f8299c8960e0c0da50fa50cc05d5f1e06f50e"
+        },
+        {
+          "from": "CROSS POLLINATION",
+          "to": "Cross pollination",
+          "valueSha256": "68f0a86105969f30d54837f6e79878cd09d8833fc2151be316f0086177bf0298"
+        },
+        {
+          "from": "BIRDS",
+          "to": "Birds",
+          "valueSha256": "f91b772f3fe7975a5bfc7a2c93484aa6471b87c698be989de7f4ba5a1b7c2933"
+        },
+        {
+          "from": "BADGERS",
+          "to": "Badgers",
+          "valueSha256": "f40828e623ebdbd5504a135666e88d6749adfe6a609cdd7a2b30ae55761e46e1"
+        },
+        {
+          "from": "SMUT",
+          "to": "Smut",
+          "valueSha256": "3d5b8b1502dbbec227381fc17a97d459def14ab3e6a6afa75811d7b8009abf8c"
+        },
+        {
+          "from": "FRIT FLY",
+          "to": "Frit fly",
+          "valueSha256": "ce68bd4d8040d3671d8ce226810ea80dec40a5de91961d64748913e90cbb6f37"
+        }
+      ]
+    },
+    {
+      "key": "tomato_greenhouse",
+      "labels": [
+        {
+          "from": "BLIGHT",
+          "to": "Blight",
+          "valueSha256": "a52f82ff8b51625d0390069c9dceadf9ab537779e364e645023179211887b76a"
+        },
+        {
+          "from": "SPLIT FRUIT",
+          "to": "Split fruit",
+          "valueSha256": "91c86894d2f6bc8b2139d2657fb0843de37cb3b882c23aa0b820cf5ac89a31f8"
+        },
+        {
+          "from": "Greenhouse Whitefly",
+          "to": "Greenhouse whitefly",
+          "valueSha256": "ef8ae661d717c59e6fd3ca2b8421540b1ee7a82d752eab27430eb99bbedbc476"
+        },
+        {
+          "from": "Tomato Leaf Mould",
+          "to": "Tomato leaf mould",
+          "valueSha256": "6252aea769678524d64a67a5c55b446b85833ae2700dfcdd134fd543b22a7167"
+        },
+        {
+          "from": "Grey Mould (Botrytis)",
+          "to": "Grey mould (Botrytis)",
+          "valueSha256": "ac41ab9fbe94c674e13db4f2de180aa2ce747ff4921aa5b35887ef4b1e55209a"
+        },
+        {
+          "from": "Blossom End Rot",
+          "to": "Blossom end rot",
+          "valueSha256": "524b64285881e4e9f691c8eaaa26f2c61bb277318e9ac1f66e817c77879239eb"
+        },
+        {
+          "from": "Blossom Drop",
+          "to": "Blossom drop",
+          "valueSha256": "37e8c5bb137654506c3f9bae191b5699d590ca5accb669bedbdc52eddc6e0945"
+        },
+        {
+          "from": "Magnesium Deficiency",
+          "to": "Magnesium deficiency",
+          "valueSha256": "136a87f3a5d13b4e7273e31cc0448adf1802ec4d204ab64fae5bfe8f075b87fd"
+        }
+      ]
+    },
+    {
+      "key": "tomato_outdoor",
+      "labels": [
+        {
+          "from": "BLIGHT",
+          "to": "Blight",
+          "valueSha256": "d4b5644810792b36fa6cf9cf0cfe6fe421792d5ebb9963a1cc0237d2bc3b3da7"
+        },
+        {
+          "from": "SLUGS",
+          "to": "Slugs",
+          "valueSha256": "92dc3bbafa7fea056f19de811e410ad2e24d33af0c1fbb7e9a1c3f461782a024"
+        },
+        {
+          "from": "CUTWORMS",
+          "to": "Cutworms",
+          "valueSha256": "06110b34d29e7136a1e1ed299ff7d310bbfdac2484fd662e5ac98cd363b36b3f"
+        },
+        {
+          "from": "SPLIT FRUIT",
+          "to": "Split fruit",
+          "valueSha256": "750146b88d962f16a80d1a4da101bb3d44426f93e66d4999ada33870f2dd7c06"
+        },
+        {
+          "from": "Blossom End Rot",
+          "to": "Blossom end rot",
+          "valueSha256": "524b64285881e4e9f691c8eaaa26f2c61bb277318e9ac1f66e817c77879239eb"
+        },
+        {
+          "from": "Grey Mould (Botrytis)",
+          "to": "Grey mould (Botrytis)",
+          "valueSha256": "ac41ab9fbe94c674e13db4f2de180aa2ce747ff4921aa5b35887ef4b1e55209a"
+        },
+        {
+          "from": "Blossom Drop",
+          "to": "Blossom drop",
+          "valueSha256": "37e8c5bb137654506c3f9bae191b5699d590ca5accb669bedbdc52eddc6e0945"
+        }
+      ]
+    },
+    {
+      "key": "turnip",
+      "labels": [
+        {
+          "from": "FLEA BEETLE",
+          "to": "Flea beetle",
+          "valueSha256": "df2d191ed233d51db1299c2c70f03353789e7ad7c7a19b76f2d7cc10f5f1de5a"
+        },
+        {
+          "from": "CABBAGE ROOT FLY",
+          "to": "Cabbage root fly",
+          "valueSha256": "1cbdc5c0c591738850616eb1e4bc011b9ad6caa50bd0db111f9a61cfe45b6473"
+        },
+        {
+          "from": "BORON DEFICIENCY",
+          "to": "Boron deficiency",
+          "valueSha256": "fb7a6f5e6ce2d72ae110722ece07d47293d53555ab5fb89a7286b535ff9d7c98"
+        },
+        {
+          "from": "BIRDS AND CATERPILLARS",
+          "to": "Birds and caterpillars",
+          "valueSha256": "99e5eedf4fea40c223a2647b69cfaeca6317290a7c7d64f2d40d0b24a3ee30df"
+        },
+        {
+          "from": "Soft Rot",
+          "to": "Soft rot",
+          "valueSha256": "354b0d0923ac88ae56faed13bab62279a02be4be92d609f5f8c90c427c3c82b9"
+        },
+        {
+          "from": "Black Rot",
+          "to": "Black rot",
+          "valueSha256": "146d2ffda77e60af1c1f95bddde8b5c0d139627c8eb93bd91b1b79f171c2a5b2"
+        },
+        {
+          "from": "WOODY ROOTS",
+          "to": "Woody roots",
+          "valueSha256": "b2ba55734387190bfa8cb0c231532ffd710dcc55177cdb2b55d324bc61b9fbcc"
+        },
+        {
+          "from": "Turnip Mosaic Virus",
+          "to": "Turnip mosaic virus",
+          "valueSha256": "fe7511ed49161b74ffb550672c6de3bae84bceea7f3c4762a429e3119e6d1fcf"
+        }
+      ]
+    }
+  ],
+  "sharedTroublesRecordsChanged": 0,
+  "selectedRowsAndAdviceCheckedInBothUnits": true
+}

@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-03",
+  "status": "Assistant PDF and source comparison completed; awaiting John's content/art/layout review",
+  "coverage": {
+    "pages": 1,
+    "formatMm": [185, 240],
+    "units": "Identical unit-neutral copy for metric and imperial; one PDF",
+    "actualPdfRender": "page-162.png",
+    "sourceComparison": "context.png",
+    "currentSourceSpread": "../../whole-book-order-preview/spread-160-161.jpg",
+    "contextIsFacingSpread": false,
+    "folio": "162 is illustrative; main-book Sowing remains at 162"
+  },
+  "findings": [
+    "Read the complete final PDF render at page scale and enlarged; all three instructional sections, captions and the persistent-weed note are legible.",
+    "Green Cultivation title, orange qualifier, running title, cream paper, fonts, fine rules, peach note and footer continue the existing Cultivation treatment.",
+    "The lifting illustration shows a shallow horizontal cut under turf, a manageable rectangular grid, and the spade blade beneath the lifted piece.",
+    "The stack illustration shows brown soil uppermost and green grass pointing downward in every visible layer. Caption explains the partially opened cover.",
+    "The editable section has topsoil above inverted turf above loosened subsoil; labels and leader endpoints are clear. It is schematic, not a depth or soil-texture specification.",
+    "Two alternative turf uses are explicit in both the lead and the 'Or bury it' heading; the page does not imply that the reader must stack and then bury all turf.",
+    "The first fit trial left 0.1 mm before the source note. Trimming unused SVG canvas and reducing its reserved slot to 33 mm restored 6.11 mm clearance, without shrinking body text or cutting instructions.",
+    "No clipped text, missing glyphs, missing pictures, opaque image rectangles, overprinted labels or footer collisions found in the final render.",
+    "Compared with the actual current two-page Digging spread; existing methods and artwork are retained. The new content supplies the missing lawn/turf steps without duplicating the whole double-digging procedure."
+  ],
+  "limitations": [
+    "This is a separate draft, not John’s approval or a final printer proof.",
+    "No main-book insertion, re-pagination, index/contents update or supplier export performed.",
+    "Facing-page placement must be reviewed at integration, preserving the approved Netting and Supports pairs. The three-page context image is reading order only.",
+    "Existing pages were inspected as context, not re-edited or fully re-audited."
+  ]
+}

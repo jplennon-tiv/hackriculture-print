@@ -46,18 +46,18 @@ test('Specific technique mentions qualify and destinations follow a relocated pl
 
 test('Section labels follow the section boundaries; blanks and title have no footer',()=>{
   const n=resolveNavigation(edition,crops,troubles,texts);
-  for(const [folio,label] of [[2,'THE VEGETABLE GURU'],[7,'THE VEGETABLE GURU'],[9,'VEGETABLE GUIDES'],[97,'VEGETABLE GUIDES'],[99,'VEGETABLE TROUBLES'],[144,'VEGETABLE TROUBLES'],[145,'GROWING TECHNIQUES'],[161,'GROWING TECHNIQUES'],[168,'INDEX']]) {
+  for(const [folio,label] of [[2,'THE VEGETABLE GURU'],[7,'THE VEGETABLE GURU'],[9,'VEGETABLE GUIDES'],[97,'VEGETABLE GUIDES'],[99,'VEGETABLE TROUBLES'],[146,'VEGETABLE TROUBLES'],[147,'GROWING TECHNIQUES'],[162,'GROWING TECHNIQUES'],[171,'GROWING TECHNIQUES'],[172,'INDEX']]) {
     assert.equal(sectionLabel(folio,edition),label);
     assert.equal(n.pages.find(p=>p.folio===folio).label,label);
   }
-  for(const blank of [1,3,6,8,98,172])assert.ok(!n.pages.some(p=>p.folio===blank));
-  assert.equal(n.pages.length,166);
+  for(const blank of [1,3,6,8,98,176])assert.ok(!n.pages.some(p=>p.folio===blank));
+  assert.equal(n.pages.length,170);
   assert.ok(n.decisions.flatMap(d=>d.links).every(l=>[sectionNames.trouble,sectionNames.technique].includes(l.label)));
   assert.equal(Object.keys(topicHeadings).length,16);
   for(const heading of Object.values(topicHeadings))assert.ok(edition.additions.some(d=>d.source===heading.source));
 });
 
-test('Technique topic families keep a common first line and distinct page qualifiers',()=>{
+test('Retained technique topic families keep a common first line and distinct page qualifiers',()=>{
   const headings=Object.values(topicHeadings);
   assert.deepEqual(headings.filter(h=>h.group==='Cultivation').map(h=>[h.eyebrow,...h.lines]),[
     ['Growing Techniques - Cultivation','Cultivation','Dig or No-Dig?'],
@@ -72,5 +72,6 @@ test('Technique topic families keep a common first line and distinct page qualif
     assert.equal(new Set(pages.map(h=>h.lines[1])).size,pages.length,group);
     assert.ok(pages.every(h=>h.lines.length===2&&h.lines.every(Boolean)));
   }
-  assert.deepEqual(new Set(headings.map(h=>h.source)),new Set(edition.additions.filter(d=>!['technique:why-grow','technique:nutrient-cycles','technique:netting','technique:supports'].includes(d.source)).map(d=>d.source)));
+  // Later approved component PDFs already carry their own headings.
+  assert.deepEqual(new Set(headings.map(h=>h.source)),new Set(edition.additions.filter(d=>!['technique:why-grow','technique:nutrient-cycles','technique:netting','technique:supports','technique:soil-acidity','cultivation:turf'].includes(d.source)).map(d=>d.source)));
 });

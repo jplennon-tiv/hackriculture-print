@@ -1,12 +1,12 @@
 {
-  "date": "2026-11-02",
-  "status": "Approved soil pH page and three-panel guide intro integrated; actual PDF checks passed",
+  "date": "2026-11-03",
+  "status": "Approved contents reflow, sentence-case problem labels and Key risks headings integrated; actual PDF checks passed",
   "pdf": "output/pdf/whole-book-order-preview/the-vegetable-guru-order-preview.pdf",
-  "sha256": "1159ad172035bc5942b5586d51aa28634e53d457357bff5e7ff8d044a4753128",
-  "bytes": 703210781,
+  "sha256": "8c75e0eb9114005edd7516bf2d86855cf90110e4d2fff0ee48a146571afbeea6",
+  "bytes": 706892082,
   "units": "imperial",
-  "interiorPages": 174,
-  "pdfPages": 178,
+  "interiorPages": 176,
+  "pdfPages": 180,
   "trimMm": [
     185,
     240
@@ -15,14 +15,14 @@
   "guidesReexported": 0,
   "guidePagesReused": 135,
   "readerEditedGuidePages": 16,
-  "bodyPagesVerified": 178,
-  "updatedFootersVerified": 169,
-  "contentsReferences": 84,
-  "indexEntries": 303,
-  "indexSeeReferences": 35,
-  "indexNumericReferencesVerified": 548,
-  "internalIndexLinks": 416,
-  "internalContentsLinks": 84,
+  "bodyPagesVerified": 180,
+  "updatedFootersVerified": 170,
+  "contentsReferences": 85,
+  "indexEntries": 307,
+  "indexSeeReferences": 36,
+  "indexNumericReferencesVerified": 554,
+  "internalIndexLinks": 422,
+  "internalContentsLinks": 85,
   "bodyReferences": [
     {
       "folio": 149,
@@ -35,12 +35,12 @@
       "target": 58
     },
     {
-      "folio": 170,
+      "folio": 171,
       "text": "64–65",
       "target": 64
     },
     {
-      "folio": 170,
+      "folio": 171,
       "text": "70–71",
       "target": 70
     }
@@ -49,10 +49,10 @@
     3,
     6,
     8,
-    98
+    98,
+    176
   ],
   "sourceFilesUnchanged": true,
-  "canonicalGardeningRecordsUnchanged": 58,
   "navigation": {
     "internalLinks": 79,
     "pagesWithLinks": 36,
@@ -69,7 +69,7 @@
       },
       {
         "folio": 5,
-        "bodyToFooterMm": 11.238235806170959,
+        "bodyToFooterMm": 8.327819260771694,
         "links": 0
       },
       {
@@ -220,7 +220,7 @@
       {
         "folio": 37,
         "bodyToFooterMm": 14.022916082378794,
-        "links": 4
+        "links": 3
       },
       {
         "folio": 38,
@@ -500,7 +500,7 @@
       {
         "folio": 93,
         "bodyToFooterMm": 5.127624786348018,
-        "links": 3
+        "links": 4
       },
       {
         "folio": 94,
@@ -839,12 +839,12 @@
       },
       {
         "folio": 162,
-        "bodyToFooterMm": 4.130145581867956,
+        "bodyToFooterMm": 4.139146357680019,
         "links": 0
       },
       {
         "folio": 163,
-        "bodyToFooterMm": 4.130145581867796,
+        "bodyToFooterMm": 4.130145581867956,
         "links": 0
       },
       {
@@ -869,37 +869,42 @@
       },
       {
         "folio": 168,
-        "bodyToFooterMm": 4.130145581868117,
+        "bodyToFooterMm": 4.130145581867796,
         "links": 0
       },
       {
         "folio": 169,
-        "bodyToFooterMm": 4.130145581867956,
+        "bodyToFooterMm": 4.130145581868117,
         "links": 0
       },
       {
         "folio": 170,
-        "bodyToFooterMm": 4.130145581862983,
+        "bodyToFooterMm": 4.1301455818628225,
         "links": 0
       },
       {
         "folio": 171,
-        "bodyToFooterMm": 9.686395350352408,
+        "bodyToFooterMm": 4.130145581862983,
         "links": 0
       },
       {
         "folio": 172,
-        "bodyToFooterMm": 10.215561994970535,
+        "bodyToFooterMm": 8.363478738807288,
         "links": 0
       },
       {
         "folio": 173,
-        "bodyToFooterMm": 9.950978672666565,
+        "bodyToFooterMm": 12.332228573447862,
         "links": 0
       },
       {
         "folio": 174,
-        "bodyToFooterMm": 9.421812028048597,
+        "bodyToFooterMm": 8.363478738812422,
+        "links": 0
+      },
+      {
+        "folio": 175,
+        "bodyToFooterMm": 8.363478738812502,
         "links": 0
       }
     ],
@@ -908,7 +913,7 @@
   "limits": [
     "Screen preview; not a supplier upload.",
     "Full assembled edition is imperial; contents and index references checked in both units.",
-    "Publication metadata placeholders retained. The accepted 168-page physical proof and ordered Bookvault files are preserved; this 174-page revision has not been prepared or uploaded for production."
+    "Publication metadata placeholders retained. The accepted 168-page physical proof and ordered Bookvault files are preserved; this 176-page revision has not been prepared or uploaded for production."
   ],
   "finalCopyEditFolios": [
     148,
@@ -939,12 +944,13 @@
     167,
     168,
     169,
-    170
+    170,
+    171
   ],
   "newApprovedFolios": [
-    9,
-    152
+    162
   ],
+  "turfApproval": "docs/publication/topic-pages/lifting-and-using-turf/APPROVAL.json",
   "soilAcidityApproval": "docs/publication/topic-pages/soil-acidity/APPROVAL.json",
   "guidesIntroApproval": "docs/publication/guides-intro-detail/APPROVAL.json",
   "mirroredTechniqueFolios": [
@@ -956,14 +962,9 @@
     158,
     159,
     160,
-    161,
-    162,
-    163,
-    168,
-    169,
-    170
+    161
   ],
-  "plantCareOrder": "Sowing 162, Watering 163, Netting 164–165, Supports 166–167; preserves accepted facing pairs without internal blanks.",
+  "plantCareOrder": "Sowing 163, Netting 164–165, Supports 166–167, Watering 168; preserves accepted facing pairs without internal blanks.",
   "plantCareApprovals": [
     "docs/publication/topic-pages/plant-protection-supports/netting/APPROVAL.json",
     "docs/publication/topic-pages/plant-protection-supports/supports/APPROVAL.json"
@@ -1243,19 +1244,34 @@
       "before": "40–41",
       "after": "58–59"
     },
-    "170": {
+    "171": {
       "before": "56–59",
       "after": "64–65, 70–71"
     }
   },
+  "problemLabelCorrection": {
+    "receipt": "docs/publication/pest-title-case/PDF-CHECKS.json",
+    "practicalPages": 44,
+    "changedLabels": 277,
+    "adviceAndOrderUnchanged": true
+  },
+  "keyRiskHeadingCorrection": {
+    "receipt": "docs/publication/key-risk-title-case/PDF-CHECKS.json",
+    "openingPages": 44,
+    "changedLabels": 157,
+    "descriptionsOrderAndArtUnchanged": true
+  },
+  "canonicalGardeningRecordsUnchangedDuringAssembly": 58,
+  "sourceCorrectionReceipt": "docs/publication/pest-title-case/SAVE-RECEIPT.json",
   "categoryIdentificationChanges": {
     "labels": 88,
     "labelSizePt": 10,
     "howToUnchanged": false,
     "howToApproval": "docs/publication/guides-intro-detail/APPROVAL.json",
-    "contentsKey": "Approved lower pale panel beside H6; H5 omitted"
+    "contentsKey": "Approved full-width four-column pale key; H6 below the left column; H5 omitted",
+    "contentsApproval": "docs/publication/contents-key-reflow/APPROVAL.json"
   },
   "troublesApproval": "docs/publication/troubles-rollout/APPROVAL.json",
-  "integrationReceipt": "docs/publication/whole-book-order-preview/integration-2026-11-02/INTEGRATION-CHECKS.json",
+  "integrationReceipt": "docs/publication/whole-book-order-preview/integration-2026-11-03/INTEGRATION-CHECKS.json",
   "subsectionManifest": "docs/publication/techniques-subsections/MANIFEST.json"
 }

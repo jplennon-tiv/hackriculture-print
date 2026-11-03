@@ -52,7 +52,7 @@ Cultivation uses “Growing Techniques - Cultivation” on all four pages. John'
 Introduction 7 and the section divider 145 retain their established roles.
 
 John's 19 October subsection grouping is retained; these current folios include
-the 2 November integration. The [working heading definition](../src/print/book/techniques-subsections.json)
+the 3 November turf integration. The [working heading definition](../src/print/book/techniques-subsections.json)
 and [native-page derivative](publication/techniques-subsections/README.md) own the
 current presentation; earlier frozen proofs retain their dated titles.
 
@@ -61,13 +61,13 @@ current presentation; earlier frozen proofs retain their dated titles.
 | 148–152 | ORGANIC GROWING | Core ideas; Nutrient cycles; Rotation & planning; Testing and adjusting pH |
 | 153–155 | PLANNING A NEW PLOT | Choosing the right spot; Beds and paths; continued |
 | 156–157 | COMPOST | Making compost headings |
-| 158–161 | CULTIVATION | Dig or No-Dig?; No-Dig; Digging; Digging continued |
-| 162–167 | PLANT CARE | Sowing; Watering; Netting; Supports |
-| 168–170 | GREENHOUSES | Greenhouses headings |
+| 158–162 | CULTIVATION | Dig or No-Dig?; No-Dig; Digging; Digging continued; Lifting and using turf |
+| 163–168 | PLANT CARE | Sowing; Netting; Supports; Watering |
+| 169–171 | GREENHOUSES | Greenhouses headings |
 
-Current placement is owned by the handover and assembly plan. The 2 November
-pH insertion follows Rotation & planning. Watering now faces Sowing, preserving
-Netting and Supports facing spreads without restoring an internal blank. Native
+Current placement is owned by the handover and assembly plan. The pH page follows Rotation & planning; the 3 November turf page completes
+Cultivation. Watering follows Supports to preserve Netting and Supports facing
+spreads without restoring an internal blank. Native
 bodies on changed sides shift 9 mm to retain 17/8 mm gutters; cream fills the full
 page. Body type, artwork and frozen source proofs remain unchanged.
 
@@ -115,8 +115,9 @@ rejected, including its smaller title/hero adaptation. The how-to uses its separ
 vegetable titles and folios use the existing category `deep` colour; titles retain
 10.5 pt size with weight 600. It is integrated at 4–5. The separate
 [complete contents approval](publication/contents-colour-study/key-preview/APPROVAL.json)
-also covers Troubles titles/folios in their group colours and the key beside H6
-harvest, with root-family `wash` as its pale fill. H5 seedlings is omitted.
+also covers Troubles titles/folios in their group colours and the key, with
+root-family `wash` as its pale fill. The [3 November approval](publication/contents-key-reflow/APPROVAL.json)
+places H6 harvest below the left column and the key across the full page width. H5 seedlings is omitted.
 This approved composition is now integrated. Exact `ink`, `dark`,
 `deep`, `accent`, `soft`, `wash` and `paper` values live in the existing
 [familyThemes.json](../src/print/familyThemes.json), derived from the approved
@@ -241,7 +242,7 @@ their page total is not the interior count used for print costing/spine calculat
 | Back cover | B5 dark green; cream title/count subtitle; left blurb and slightly angled torn fragments at right; price and ISBN area | Preferred [B5 artwork](publication/vegetable-guru-back-collage/B5.png); production adaptation uses exact book crops in place of generated snippets |
 | Title/publication | Cover-related title strip and quieter publication page | [Original pages 1–3 proposal](publication/vegetable-guru-opening-pages/REVIEW.html) retained; current assembly omits the welcome/author page. Metadata placeholders remain. |
 | Contents/how-to | Simple illustrated contents with calculated page references; calendar, difficulty and needs explanations in the combined Guides opening | [Approved source pages 4–7](publication/vegetable-guru-entry-pages/REVIEW.html) remain frozen. The accepted [two-page contents](publication/contents-update/REVIEW.html) and [approved combined Guides/how-to](publication/combined-guides-opening/APPROVAL.json) are integrated in the full preview. |
-| Index | Two open columns; 9.45 pt reading type, orange folios, ruled alphabet headings, continued labels, no decorative artwork | [Four-page index](publication/book-index/REVIEW.html), approved 12 October; [frozen sources](publication/book-index/APPROVAL.json); current integrated folios 171–174 |
+| Index | Two open columns; 9.45 pt reading type, orange folios, ruled alphabet headings, continued labels, no decorative artwork | [Four-page index](publication/book-index/REVIEW.html), approved 12 October; [frozen sources](publication/book-index/APPROVAL.json); current integrated folios 172–175 |
 | Section openers | Vegetable Guides: right-hand title/H4 artwork, centred orange how-to heading above three separate peach panels, revised calendar wording and two crop/badge examples. Troubles/Techniques retain their existing recto title-page proposals. | [Three-panel revision approved 31 October](publication/guides-intro-detail/APPROVAL.json), integrated on 2 November; blank 8 / combined 9 remains. The earlier [15 October version](publication/combined-guides-opening/APPROVAL.json) is preserved as source evidence. Other [14 October opener proposals](publication/whole-book-order-preview/SECTION-OPENERS.json) remain for review. |
 | Vegetables | Expressive hero/circle/sticker opening, useful information hierarchy, practical continuation and full-width Final Tips | Approved [guide contract](BOOK-PRINT-STYLE.md#vegetable-opening-page); collection review remains separate |
 | Troubles | Open two-column entries, complete diagnostics, small Recognise / Act / Prevent advice labels. Approved separate wrapping masks, 4 mm gap and 25% larger drawings. Natural book flow leaves unused space after the final content, with normal gaps and unequal lower edges where complete entries require them. The Brassica specimen is accepted for rollout: descending importance, bounded fit moves and separated pale panels with top-right ribbons and no panel border; alphabetical ties are withdrawn. All 14 guides now use exactly 24 approved Common Pest / Common Disease / Common Problem highlights; potato slugs remain ordinary. Both-unit [complete section proofs](publication/troubles-rollout/README.md) are built; these exact approved pages are now integrated in the main book. Explain the sequence on the opener instead of repeating the arrowed page header. | [Guide contract](BOOK-PRINT-STYLE.md#troubles); [image-treatment approval](publication/troubles-image-size-study/APPROVAL.json); [header revision](publication/troubles-header-refinement/README.md); no enclosing equal-height cards |
@@ -289,12 +290,14 @@ simple pages. John has confirmed this structure. Contents and index pages are
 now explicitly outside the layout skills’ scope; use the agreed component design
 and PDF checks directly.
 Each page uses one Contents title (25.5 pt), plain section titles and 10.5 pt
-reading rows. Section numbers, family/topic subheadings and explanatory notes remain omitted. The later approved category key is the only contents panel. After adding the approved Netting and Supports sections, all 83
-current destinations are included. At John’s
-request, H1/H2 decorate the matching headers, originally with H5 seedlings and H6 harvest
-below the second page’s lists; the later approved key replaces H5. The 30 October integration scales these lower
-decorations to 45 × 33.75 mm in a 34 mm band to accommodate the two new rows;
-the 10.5 pt reading size remains. A short deep-orange rule accents each header.
+reading rows. Section numbers, family/topic subheadings and explanatory notes remain omitted. The later approved category key is the only contents panel. With the approved pH and turf additions, all 85 current destinations are included.
+The [3 November composition](publication/contents-key-reflow/APPROVAL.json) restores
+2 CSS px vertical row padding on page 5, retaining 10.5 pt type. H1/H2 decorate
+the headers; H6 harvest remains 45 × 33.75 mm beneath the left column with an
+8 mm top margin. The pale key spans the 160 mm text width beneath both columns:
+four columns of two, 8 pt labels, 10 pt heading, about 19.7 mm overall height.
+The original down-column category order is retained. H5 remains omitted.
+A short deep-orange rule accents each header.
 The later 30 October approval of option A colours the crop names and folios by
 category without changing their positions, size or the two-column list. The
 approved revised proof keeps that page clear and uses matching Troubles colours
@@ -319,9 +322,9 @@ endpoints and restored Low demand / High demand captions. The rejected third
 example and numeric-only endpoint trial are superseded.
 
 The exact accepted layout and dimensions are in the
-[page source](publication/guides-intro-detail/README.md). This revision is awaiting
-the next requested main-book update; the complete PDF still contains the earlier
-[15 October combined composition](publication/combined-guides-opening/APPROVAL.json).
+[page source](publication/guides-intro-detail/README.md). This revision was integrated at page 9 on 2 November; the earlier
+[15 October combined composition](publication/combined-guides-opening/APPROVAL.json)
+remains a preserved source, not the current page.
 Blank 8 / combined 9 and crop spreads beginning at 10 remain unchanged. Preserve
 all earlier approved compact and A4 originals; do not back-port this revision.
 

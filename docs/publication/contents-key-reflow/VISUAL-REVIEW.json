@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-03",
+  "status": "Visual checks passed; proposal awaits John\u2019s review, not integrated",
+  "pdfSha256ByEdition": {
+    "imperial": "e3f4ea3be7114286c4a2b5488c6ef334fad9f3a5baa077ec164271448b33124a",
+    "metric": "f5452c2e241416ade196848bee9f5bb3c9b2a27cb18730f618ccc51c129d27c7"
+  },
+  "inspected": [
+    "imperial-2.png",
+    "imperial-spread.png",
+    "metric-2.png",
+    "../contents-update/imperial-2.png"
+  ],
+  "findings": [
+    "H6 basket is centred below the Vegetable Troubles list with clear separation. Existing artwork and size are retained.",
+    "The pale key spans the text width and holds all eight labels in four columns, with two entries in each.",
+    "Original 2 CSS px list padding is restored; 10.5 pt contents text and 8 pt key text remain readable.",
+    "No missing illustrations, clipped labels, overlaps or footer collisions seen in either edition.",
+    "First contents page is pixel-identical to the integrated source in each edition."
+  ],
+  "footerClearanceMmByEdition": {
+    "imperial": 4.332552083333333,
+    "metric": 4.332552083333333
+  },
+  "keyPanelHeightMm": 19.707324218750017,
+  "mainBookChanged": false,
+  "checks": "Both two-page PDFs: 183 text blocks each, fonts embedded, exact 185 \u00d7 240 mm trim with 3 mm bleed. Source rows, key labels/colours and protected files preserved."
+}

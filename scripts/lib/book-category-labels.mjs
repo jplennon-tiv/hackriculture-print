@@ -7,7 +7,7 @@ import {root,sharedRoot,sha256,escapeHtml as esc} from './book-content.mjs';
 
 // Extend only the approved labels; keep each existing practical title's size.
 export async function buildCategoryLabels(){
- const dir='docs/publication/whole-book-order-preview/integration-2026-11-02';
+ const dir='docs/publication/whole-book-order-preview/integration-2026-11-03';
  const approval=JSON.parse(fs.readFileSync(path.join(root,'docs/publication/category-navigation-preview/APPROVAL.json')));
  if(sha256(fs.readFileSync(path.join(root,approval.approvedScope.pdf)))!==approval.approvedScope.sha256)throw Error('Accepted category proof changed');
  const edition=JSON.parse(fs.readFileSync(path.join(root,'docs/publication/contents-update/ASSEMBLY-PROPOSAL.json'))).editions.imperial;

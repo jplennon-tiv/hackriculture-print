@@ -1,0 +1,85 @@
+{
+  "date": "2026-11-03",
+  "status": "Proposed artwork, awaiting John\u2019s review",
+  "references": [
+    {
+      "path": "public/images/heroes/richer-a/carrot.png",
+      "role": "Approved style authority",
+      "sha256": "733b775e5e9f87d78669551ca911e39ea3eb61bed6bc54815e64b10c8fbdbfe9",
+      "inspectedPixels": true
+    },
+    {
+      "path": "public/images/heroes/richer-a/beetroot.png",
+      "role": "Approved style authority",
+      "sha256": "fa7251e6ce9ff76219b147cdff873b6c070e3649ce104c3a3bf9020584529eae",
+      "inspectedPixels": true
+    },
+    {
+      "path": "docs/publication/topic-pages/cultivation-dig-no-dig/assets/double-dig-sequence-v1.png",
+      "role": "Approved illustration: tool and soil continuity, not new turf evidence",
+      "sha256": "7330d64011436ee326e4ff6482af64a16ab84906c9e557c9cef1cecb9fcad31b",
+      "inspectedPixels": true
+    }
+  ],
+  "prompts": "PROMPTS.json",
+  "research": "../../../../../hackriculture-resources/summaries/lifting-and-using-turf/research-notes.md",
+  "assets": [
+    {
+      "path": "assets/lifting-turf-v1.png",
+      "tool": "built-in image_gen",
+      "original": "/Users/johnlennon/.codex/generated_images/01a183cd-1dd2-7203-9dc6-7a90fed5b679/exec-0e5f1711-c161-45b4-bf04-ba2b9ae38ba8.png",
+      "sha256": "5f7b2916c28fb8a7e81a6ece3766c38e96f1de6f3948270a49c3e0c42e96265d",
+      "sizePx": [
+        1448,
+        1086
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "slotMm": [
+        52,
+        38
+      ],
+      "purpose": "Show the spade slicing below the root mat, manageable rectangular pieces and a shallow cleared patch.",
+      "factualVisualReview": "Grass uppermost; blade under thin turf, not digging a trench; entire simplified spade visible. At print size the grid, blade and lifted edge remain distinguishable.",
+      "styleReview": "Broad graphic colour planes, bold silhouettes, vivid greens and clear highlights match direct hero references; simplified soil and tool treatment continues approved digging art. No generated lettering."
+    },
+    {
+      "path": "assets/turf-stack-v1.png",
+      "tool": "built-in image_gen",
+      "original": "/Users/johnlennon/.codex/generated_images/01a183cd-1dd2-7203-9dc6-7a90fed5b679/exec-92b67ecd-4b18-42a6-89d3-df44b3483dd5.png",
+      "sha256": "f2561182ed13956b3daecd147481e628ea8054173d513e4effabab9e02bf60bb",
+      "sizePx": [
+        1448,
+        1086
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "slotMm": [
+        52,
+        37
+      ],
+      "purpose": "Show upside-down layers under a weighted cover.",
+      "factualVisualReview": "All five depicted layers have soil up and grass down; brown uppermost face; opaque cover and weights clear. Caption explains the cover is folded back for visibility. Layer count is illustrative, not a quantity instruction.",
+      "styleReview": "Broad graphic colour planes, bold silhouettes, vivid greens and clear highlights match direct hero references; simplified soil and tool treatment continues approved digging art. No generated lettering."
+    },
+    {
+      "path": "assets/buried-turf.svg",
+      "tool": "editable vector schematic with native text",
+      "sha256": "1969f71b736bdf602ed38f0c5a08096b3ee9f0c6cbac49f054320eee1591a186",
+      "slotMm": [
+        52,
+        33
+      ],
+      "labelPt": 8.11,
+      "purpose": "Show topsoil above inverted turf above loosened subsoil; keep soil horizons separate.",
+      "factualVisualReview": "Leader endpoints identify topsoil, lower grassy face of inverted turf, and loosened subsoil. Fine roots face upward in the inverted turf. No depth scale implied; schematic clods show loosened lower soil.",
+      "styleReview": "Uses book greens and warm earth colours; diagram deliberately simpler than the raster drawings to preserve exact layer order and editable labels."
+    }
+  ]
+}

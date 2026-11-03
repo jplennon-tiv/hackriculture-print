@@ -40,6 +40,12 @@ The completed 31 October exception saves exactly John’s 24 selected Troubles s
 flags (two earlier Brassica flags plus 22 additions); potato slugs remain unstarred.
 [Receipt and exact backup](docs/publication/troubles-rollout/STAR-SAVE-RECEIPT.json).
 Ranks, advice and unknown fields are preserved. This is not wider editing authority.
+The completed 3 November case-only correction changes 350 vegetable `troubles`
+display-label keys across 44 records to sentence case, with proper names preserved.
+[Receipt and exact backup](docs/publication/pest-title-case/SAVE-RECEIPT.json).
+Advice, identities, selection, rank, nulls and order remain exact. Only the affected
+layout dependency hash and its attribution/time are refreshed after semantic checks;
+no layout approval, lock or selection is changed. Shared Troubles names remain intact.
 Book-specific guide rewrites live in separate exact-source-checked working drafts
 under `src/print/book/`. Opening and cover copy lives in the shared
 [book-layout JSON folder](../hackriculture-data/book-layout/README.md), read by

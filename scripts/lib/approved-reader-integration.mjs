@@ -19,12 +19,14 @@ const subsectionTopicOrder=approvedTopicOrder.map(([id,folio,count=1])=>[id,foli
 export const plantCareApprovals=['netting','supports'].map(id=>`docs/publication/topic-pages/plant-protection-supports/${id}/APPROVAL.json`);
 // Insert the approved facing spreads without rebuilding the retained topic bodies.
 export const soilAcidityApproval='docs/publication/topic-pages/soil-acidity/APPROVAL.json';
-// Final folios are calculated by the contents plan. Keep Sowing/Watering together
-// so the single-page insertion preserves both accepted plant-care facing spreads.
-export const currentTopicOrder=subsectionTopicOrder.flatMap(([id,folio,count])=>[
+export const turfApproval='docs/publication/topic-pages/lifting-and-using-turf/APPROVAL.json';
+// Final folios are calculated by the contents plan. Turf follows Digging;
+// Watering follows Supports so both accepted plant-care spreads still face.
+export const currentTopicOrder=subsectionTopicOrder.filter(([id])=>id!=='technique:watering').flatMap(([id,folio,count])=>[
  [id,folio,count],
  ...(id==='technique:rotation'?[['technique:soil-acidity',152,1]]:[]),
- ...(id==='technique:watering'?[['technique:netting',164,2],['technique:supports',166,2]]:[])
+ ...(id==='cultivation:digging-finish'?[['cultivation:turf',162,1]]:[]),
+ ...(id==='technique:sowing'?[['technique:netting',164,2],['technique:supports',166,2],['technique:watering',168,1]]:[])
 ]);
 function verify(pdf,expected){const hash=sha256(fs.readFileSync(path.resolve(root,pdf)));if(hash!==expected)throw Error('Approved input changed: '+pdf);return hash;}
 export function loadReaderGuides(){
@@ -83,5 +85,8 @@ export function applyApprovedTopics(sources){
  const acidity=json(soilAcidityApproval);
  for(const f of acidity.files)verify(f.path,f.sha256);
  for(const units of ['imperial','metric'])sources[units]['technique:soil-acidity']={pdf:acidity.proof.path,sha256:acidity.proof.sha256,sourcePage:1,physicalPages:1,sourcePdfPages:1,approval:soilAcidityApproval};
+ const turf=json(turfApproval);
+ for(const f of turf.files)verify(f.path,f.sha256);
+ for(const units of ['imperial','metric'])sources[units]['cultivation:turf']={pdf:turf.proof.path,sha256:turf.proof.sha256,sourcePage:1,physicalPages:1,sourcePdfPages:1,approval:turfApproval};
  return sources;
 }

@@ -15,7 +15,7 @@ export const compareGuideTitles=(a,b)=>a.label.localeCompare(b.label,'en-GB',{se
 // Approved placement map; saved reference PDFs retain their original folios.
 export function createContentsPlan(base, sources, approvedGuides = {}, readerGuides = {}, approvedTroubles = {}) {
   const plan = structuredClone(base);
-  plan.status = 'Approved soil pH page and three-panel guide intro integrated, 2 November 2026; prior approved pages retained.';
+  plan.status = 'Approved turf page integrated after Digging, 3 November 2026; prior approved pages retained.';
   plan.vegetableOrder = 'Alphabetical by displayed guide title (en-GB); complete facing pairs, original family colours.';
   plan.openingPlan = [
     [1, 'Title'], [2, 'Publication details'],
@@ -116,12 +116,12 @@ export function renderUpdatedContents(data, units, plan, themes, troubleFamilies
     return `<h2 class="contents-section" data-source="${esc(source)}"><span>${esc(item.label)}</span><span class="page-ref">${folio}</span></h2>`;
   };
   const art = (folio,role) => contentsArtwork.filter(a=>a.folio===folio&&a.role===role).map(a=>`<img src="/${esc(a.file)}" alt="" aria-hidden="true" data-artwork="${a.id}">`).join('');
-  const key=`<aside class="category-key-panel" style="--key-fill:${themes.find(t=>t.id==='roots').wash}"><h3 class="category-key-title">Category colours</h3><div class="category-key" aria-label="Vegetable category colours">${themes.map(t=>`<div class="category-key-item" style="--deep:${t.deep}"><span class="category-key-swatch" aria-hidden="true"></span><span class="category-key-label">${esc(t.group)}</span></div>`).join('')}</div></aside>`;
-  const sheet = (folio, body) => `<section class="sheet ${folio % 2 === 0 ? 'verso' : ''} contents-unified coloured-text" data-folio="${folio}"><div class="content"><header class="contents-header"><h1>${esc(extra.page.heading.text)}</h1>${art(folio,'header')}</header>${body}${folio===5?`<div class="contents-lower-art">${key}${art(folio,'lower')}</div>`:''}</div><footer><span>${esc(data.book.title.toUpperCase())}</span><span>${units.toUpperCase()} · ${folio}</span></footer></section>`;
+  const key=`<aside class="category-key-panel" style="--key-fill:${themes.find(t=>t.id==='roots').wash}"><h3 class="category-key-title">Category colours</h3><div class="category-key" aria-label="Vegetable category colours">${[0,2,4,6,1,3,5,7].map(i=>themes[i]).map(t=>`<div class="category-key-item" style="--deep:${t.deep}"><span class="category-key-swatch" aria-hidden="true"></span><span class="category-key-label">${esc(t.group)}</span></div>`).join('')}</div></aside>`;
+  const sheet = (folio, body) => `<section class="sheet ${folio % 2 === 0 ? 'verso' : ''} contents-unified coloured-text" data-folio="${folio}"><div class="content"><header class="contents-header"><h1>${esc(extra.page.heading.text)}</h1>${art(folio,'header')}</header>${body}${folio===5?`<div class="contents-lower-art">${key}</div>`:''}</div><footer><span>${esc(data.book.title.toUpperCase())}</span><span>${units.toUpperCase()} · ${folio}</span></footer></section>`;
   const cropLabels=new Map(toc.families.flatMap(f=>f.entries).map(item=>[item.key,item]));
   const crops=edition.documents.filter(d=>d.type==='vegetable').map(d=>cropLabels.get(d.key));
   const first = sheet(4, `<ul class="opening-list">${['technique:why-grow'].map(row).join('')}</ul>${section('opening:varieties')}<div class="contents-grid"><ul>${row('opening:how-to')}${crops.slice(0,21).map(x => guideRow(x,'vegetable')).join('')}</ul><ul>${crops.slice(21).map(x => guideRow(x,'vegetable')).join('')}</ul></div>`);
-  const second = sheet(5, `<div class="contents-grid"><section>${section('opening:troubles')}<ul>${toc.troubles.map(x => guideRow(x,'trouble')).join('')}</ul></section><section>${section('opening:techniques')}<ul>${extra.groups.flatMap(g => g.entries).map(x => row(x.source)).join('')}</ul><ul class="index-link">${row(extra.index.source)}</ul></section></div>`);
+  const second = sheet(5, `<div class="contents-grid"><section>${section('opening:troubles')}<ul>${toc.troubles.map(x => guideRow(x,'trouble')).join('')}</ul>${art(5,'lower').replace('<img ', '<img class="left-column-harvest" ')}</section><section>${section('opening:techniques')}<ul>${extra.groups.flatMap(g => g.entries).map(x => row(x.source)).join('')}</ul><ul class="index-link">${row(extra.index.source)}</ul></section></div>`);
   if (seen.size !== sources.size + documents.size || [...sources.keys(),...documents.keys()].some(s => !seen.has(s))) throw Error('Contents do not cover every destination');
   if (references.some((r,i) => i && r.startPage < references[i-1].startPage)) throw Error('Contents are not in manuscript order');
   return {body:first + second, references};

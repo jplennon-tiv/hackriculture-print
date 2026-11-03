@@ -1,28 +1,28 @@
 {
-  "date": "2026-11-02",
-  "status": "passed for inspected current imperial contents; both editions checked by actual PDF extraction",
+  "date": "2026-11-03",
+  "status": "Approved composition reproduced byte-for-byte in both unit PDFs; assembled facing spread inspected",
+  "approval": "docs/publication/contents-key-reflow/APPROVAL.json",
   "pdfSha256ByEdition": {
-    "imperial": "b479c23739dc57bbb7b4749628b6e8344eda92125885bc6fa54eb9b34dc151e1",
-    "metric": "3e8c7313e84f02a150a262e2b154e13fe5d4b4418271f7ca8143ad1b724c8244"
+    "imperial": "e3f4ea3be7114286c4a2b5488c6ef334fad9f3a5baa077ec164271448b33124a",
+    "metric": "f5452c2e241416ade196848bee9f5bb3c9b2a27cb18730f618ccc51c129d27c7"
   },
   "inspected": [
-    "imperial-2.png",
-    "../whole-book-order-preview/spread-4-5.jpg",
-    "../../../../output/promotion-source-pack/contact.jpg"
+    "imperial-spread-4-5.png",
+    "../whole-book-order-preview/spread-4-5.jpg"
   ],
   "findings": [
-    "All 84 destinations remain readable at 10.5 pt.",
-    "New pH row and revised folios fit; page-5 row padding 1.4 px preserves key/art geometry.",
-    "No footer overlap, missing art or text clipping."
+    "H6 below the left column; full-width pale key with four columns of two.",
+    "All 85 destinations retain 10.5 pt type; original 2 px row padding restored.",
+    "Actual PDFs are byte-identical to both accepted proposal proofs; no missing artwork or collisions."
   ],
   "footerClearanceMmByEdition": {
     "imperial": [
       15.023372395833333,
-      4.320149739583333
+      4.332552083333333
     ],
     "metric": [
       15.023372395833333,
-      4.320149739583333
+      4.332552083333333
     ]
   }
 }

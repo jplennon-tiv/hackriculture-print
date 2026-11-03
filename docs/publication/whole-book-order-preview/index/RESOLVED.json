@@ -1,11 +1,11 @@
 {
   "status": "Current integrated references from approved sources",
-  "sourceRevision": "51758489ad9794b48e9b5f8cf1556f898f3c5a28518819d29d34abb5b24d2e55",
+  "sourceRevision": "81360f23fa61106a6019d32f36b018a5d6b2a78ef726c4387d9ff9c7c45f9b22",
   "copyPath": "/Users/johnlennon/Documents/web_site/hackriculture-data/book-layout/index.json",
-  "copySha256": "97f5b9390838c88482f49451e10f938db8f991778fc38d4b92f981d2911f1c4d",
+  "copySha256": "84f1e5ab81954e013a135f8a6e50b8fe4d039ba16f9b157e23e3694d5f96d644",
   "assemblyPlan": {
     "path": "docs/publication/contents-update/ASSEMBLY-PROPOSAL.json",
-    "sha256": "14d9c3e640d42c7acade0b776dffe512560ba0a29c1b55a756e2f79e6e4755e9"
+    "sha256": "26de7112d155c29a2dc4adb82338ecf354a162c767a0c0710013ec2f1c3c5ff2"
   },
   "temporaryTopicReferences": false,
   "identicalEditionReferences": true,
@@ -262,6 +262,10 @@
     },
     "output/pdf/soil-acidity/soil-acidity-draft.pdf": {
       "sha256": "57e61bcc0ad8ade82027c6ee005ba71c256a82dfda7f335d8e3c45dc193aa5d0",
+      "pages": 1
+    },
+    "output/pdf/lifting-and-using-turf/lifting-and-using-turf-draft.pdf": {
+      "sha256": "5b2d982de7bf8157db205e3127717ae335d63b88ba52abafe11e2a5f28834638",
       "pages": 1
     },
     "output/pdf/topic-pages/netting-revised-draft.pdf": {
@@ -1375,14 +1379,14 @@
           {
             "source": "technique:greenhouse-beds",
             "prefix": "",
-            "folio": 169,
+            "folio": 170,
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 17
           }
         ],
         "displayReferences": [
           {
-            "label": "169",
+            "label": "170",
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 17
           }
@@ -3577,6 +3581,9 @@
         "refs": [
           {
             "source": "technique:compost-use"
+          },
+          {
+            "source": "cultivation:turf"
           }
         ],
         "references": [
@@ -3586,6 +3593,13 @@
             "folio": 157,
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 9
+          },
+          {
+            "source": "cultivation:turf",
+            "prefix": "",
+            "folio": 162,
+            "pdf": "output/pdf/lifting-and-using-turf/lifting-and-using-turf-draft.pdf",
+            "page": 1
           }
         ],
         "displayReferences": [
@@ -3593,6 +3607,11 @@
             "label": "157",
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 9
+          },
+          {
+            "label": "162",
+            "pdf": "output/pdf/lifting-and-using-turf/lifting-and-using-turf-draft.pdf",
+            "page": 1
           }
         ]
       },
@@ -3608,14 +3627,14 @@
           {
             "source": "technique:greenhouse-beds",
             "prefix": "",
-            "folio": 169,
+            "folio": 170,
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 17
           }
         ],
         "displayReferences": [
           {
-            "label": "169",
+            "label": "170",
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 17
           }
@@ -4106,6 +4125,9 @@
           },
           {
             "source": "cultivation:digging-finish"
+          },
+          {
+            "source": "cultivation:turf"
           }
         ],
         "references": [
@@ -4122,11 +4144,18 @@
             "folio": 161,
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 13
+          },
+          {
+            "source": "cultivation:turf",
+            "prefix": "",
+            "folio": 162,
+            "pdf": "output/pdf/lifting-and-using-turf/lifting-and-using-turf-draft.pdf",
+            "page": 1
           }
         ],
         "displayReferences": [
           {
-            "label": "160–161",
+            "label": "160–162",
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 12
           }
@@ -4279,7 +4308,7 @@
           {
             "source": "technique:watering",
             "prefix": "",
-            "folio": 163,
+            "folio": 168,
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 15
           }
@@ -4291,7 +4320,7 @@
             "page": 5
           },
           {
-            "label": "163",
+            "label": "168",
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 15
           }
@@ -5335,6 +5364,13 @@
         "displayReferences": []
       },
       {
+        "id": "grass-removing",
+        "term": "Grass, removing",
+        "see": "lawn-converting-to-vegetables",
+        "references": [],
+        "displayReferences": []
+      },
+      {
         "id": "greenback",
         "term": "Greenback",
         "refs": [
@@ -5381,14 +5417,14 @@
           {
             "source": "technique:greenhouse-choose",
             "prefix": "",
-            "folio": 168,
+            "folio": 169,
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 16
           }
         ],
         "displayReferences": [
           {
-            "label": "168",
+            "label": "169",
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 16
           }
@@ -5409,21 +5445,21 @@
           {
             "source": "technique:greenhouse-beds",
             "prefix": "",
-            "folio": 169,
+            "folio": 170,
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 17
           },
           {
             "source": "technique:greenhouse-no-dig-seasons",
             "prefix": "",
-            "folio": 170,
+            "folio": 171,
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 18
           }
         ],
         "displayReferences": [
           {
-            "label": "169–170",
+            "label": "170–171",
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 17
           }
@@ -5441,14 +5477,14 @@
           {
             "source": "technique:greenhouse-no-dig-seasons",
             "prefix": "",
-            "folio": 170,
+            "folio": 171,
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 18
           }
         ],
         "displayReferences": [
           {
-            "label": "170",
+            "label": "171",
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 18
           }
@@ -5695,14 +5731,14 @@
           {
             "source": "technique:sowing",
             "prefix": "",
-            "folio": 162,
+            "folio": 163,
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 14
           }
         ],
         "displayReferences": [
           {
-            "label": "162",
+            "label": "163",
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 14
           }
@@ -6127,6 +6163,31 @@
         ]
       },
       {
+        "id": "lawn-converting-to-vegetables",
+        "term": "Lawn, converting to vegetables",
+        "refs": [
+          {
+            "source": "cultivation:turf"
+          }
+        ],
+        "references": [
+          {
+            "source": "cultivation:turf",
+            "prefix": "",
+            "folio": 162,
+            "pdf": "output/pdf/lifting-and-using-turf/lifting-and-using-turf-draft.pdf",
+            "page": 1
+          }
+        ],
+        "displayReferences": [
+          {
+            "label": "162",
+            "pdf": "output/pdf/lifting-and-using-turf/lifting-and-using-turf-draft.pdf",
+            "page": 1
+          }
+        ]
+      },
+      {
         "id": "leaf-and-pod-spot",
         "term": "Leaf and pod spot",
         "refs": [
@@ -6527,6 +6588,31 @@
         ]
       },
       {
+        "id": "loam-from-turf",
+        "term": "Loam, from turf",
+        "refs": [
+          {
+            "source": "cultivation:turf"
+          }
+        ],
+        "references": [
+          {
+            "source": "cultivation:turf",
+            "prefix": "",
+            "folio": 162,
+            "pdf": "output/pdf/lifting-and-using-turf/lifting-and-using-turf-draft.pdf",
+            "page": 1
+          }
+        ],
+        "displayReferences": [
+          {
+            "label": "162",
+            "pdf": "output/pdf/lifting-and-using-turf/lifting-and-using-turf-draft.pdf",
+            "page": 1
+          }
+        ]
+      },
+      {
         "id": "lower-sheath-rot",
         "term": "Lower sheath rot",
         "refs": [
@@ -6803,14 +6889,14 @@
           {
             "source": "technique:sowing",
             "prefix": "",
-            "folio": 162,
+            "folio": 163,
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 14
           }
         ],
         "displayReferences": [
           {
-            "label": "162",
+            "label": "163",
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 14
           }
@@ -7042,14 +7128,14 @@
           {
             "source": "technique:greenhouse-no-dig-seasons",
             "prefix": "",
-            "folio": 170,
+            "folio": 171,
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 18
           }
         ],
         "displayReferences": [
           {
-            "label": "170",
+            "label": "171",
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 18
           }
@@ -7736,14 +7822,14 @@
           {
             "source": "technique:sowing",
             "prefix": "",
-            "folio": 162,
+            "folio": 163,
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 14
           }
         ],
         "displayReferences": [
           {
-            "label": "162",
+            "label": "163",
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 14
           }
@@ -8629,14 +8715,14 @@
           {
             "source": "technique:sowing",
             "prefix": "",
-            "folio": 162,
+            "folio": 163,
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 14
           }
         ],
         "displayReferences": [
           {
-            "label": "162",
+            "label": "163",
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 14
           }
@@ -10277,6 +10363,31 @@
         "displayReferences": []
       },
       {
+        "id": "turf-lifting-and-reusing",
+        "term": "Turf, lifting and reusing",
+        "refs": [
+          {
+            "source": "cultivation:turf"
+          }
+        ],
+        "references": [
+          {
+            "source": "cultivation:turf",
+            "prefix": "",
+            "folio": 162,
+            "pdf": "output/pdf/lifting-and-using-turf/lifting-and-using-turf-draft.pdf",
+            "page": 1
+          }
+        ],
+        "displayReferences": [
+          {
+            "label": "162",
+            "pdf": "output/pdf/lifting-and-using-turf/lifting-and-using-turf-draft.pdf",
+            "page": 1
+          }
+        ]
+      },
+      {
         "id": "turnip",
         "term": "Turnip",
         "refs": [
@@ -10535,14 +10646,14 @@
           {
             "source": "technique:watering",
             "prefix": "",
-            "folio": 163,
+            "folio": 168,
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 15
           }
         ],
         "displayReferences": [
           {
-            "label": "163",
+            "label": "168",
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 15
           }
@@ -10560,14 +10671,14 @@
           {
             "source": "technique:watering",
             "prefix": "",
-            "folio": 163,
+            "folio": 168,
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 15
           }
         ],
         "displayReferences": [
           {
-            "label": "163",
+            "label": "168",
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 15
           }
@@ -10585,6 +10696,9 @@
           },
           {
             "source": "cultivation:digging-finish"
+          },
+          {
+            "source": "cultivation:turf"
           }
         ],
         "references": [
@@ -10608,6 +10722,13 @@
             "folio": 161,
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 13
+          },
+          {
+            "source": "cultivation:turf",
+            "prefix": "",
+            "folio": 162,
+            "pdf": "output/pdf/lifting-and-using-turf/lifting-and-using-turf-draft.pdf",
+            "page": 1
           }
         ],
         "displayReferences": [
@@ -10622,7 +10743,7 @@
             "page": 11
           },
           {
-            "label": "161",
+            "label": "161–162",
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 13
           }
@@ -10811,14 +10932,14 @@
           {
             "source": "technique:sowing",
             "prefix": "",
-            "folio": 162,
+            "folio": 163,
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 14
           }
         ],
         "displayReferences": [
           {
-            "label": "162",
+            "label": "163",
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 14
           }
@@ -11891,14 +12012,14 @@
           {
             "source": "technique:greenhouse-beds",
             "prefix": "",
-            "folio": 169,
+            "folio": 170,
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 17
           }
         ],
         "displayReferences": [
           {
-            "label": "169",
+            "label": "170",
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 17
           }
@@ -14093,6 +14214,9 @@
         "refs": [
           {
             "source": "technique:compost-use"
+          },
+          {
+            "source": "cultivation:turf"
           }
         ],
         "references": [
@@ -14102,6 +14226,13 @@
             "folio": 157,
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 9
+          },
+          {
+            "source": "cultivation:turf",
+            "prefix": "",
+            "folio": 162,
+            "pdf": "output/pdf/lifting-and-using-turf/lifting-and-using-turf-draft.pdf",
+            "page": 1
           }
         ],
         "displayReferences": [
@@ -14109,6 +14240,11 @@
             "label": "157",
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 9
+          },
+          {
+            "label": "162",
+            "pdf": "output/pdf/lifting-and-using-turf/lifting-and-using-turf-draft.pdf",
+            "page": 1
           }
         ]
       },
@@ -14124,14 +14260,14 @@
           {
             "source": "technique:greenhouse-beds",
             "prefix": "",
-            "folio": 169,
+            "folio": 170,
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 17
           }
         ],
         "displayReferences": [
           {
-            "label": "169",
+            "label": "170",
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 17
           }
@@ -14622,6 +14758,9 @@
           },
           {
             "source": "cultivation:digging-finish"
+          },
+          {
+            "source": "cultivation:turf"
           }
         ],
         "references": [
@@ -14638,11 +14777,18 @@
             "folio": 161,
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 13
+          },
+          {
+            "source": "cultivation:turf",
+            "prefix": "",
+            "folio": 162,
+            "pdf": "output/pdf/lifting-and-using-turf/lifting-and-using-turf-draft.pdf",
+            "page": 1
           }
         ],
         "displayReferences": [
           {
-            "label": "160–161",
+            "label": "160–162",
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 12
           }
@@ -14795,7 +14941,7 @@
           {
             "source": "technique:watering",
             "prefix": "",
-            "folio": 163,
+            "folio": 168,
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 15
           }
@@ -14807,7 +14953,7 @@
             "page": 5
           },
           {
-            "label": "163",
+            "label": "168",
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 15
           }
@@ -15851,6 +15997,13 @@
         "displayReferences": []
       },
       {
+        "id": "grass-removing",
+        "term": "Grass, removing",
+        "see": "lawn-converting-to-vegetables",
+        "references": [],
+        "displayReferences": []
+      },
+      {
         "id": "greenback",
         "term": "Greenback",
         "refs": [
@@ -15897,14 +16050,14 @@
           {
             "source": "technique:greenhouse-choose",
             "prefix": "",
-            "folio": 168,
+            "folio": 169,
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 16
           }
         ],
         "displayReferences": [
           {
-            "label": "168",
+            "label": "169",
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 16
           }
@@ -15925,21 +16078,21 @@
           {
             "source": "technique:greenhouse-beds",
             "prefix": "",
-            "folio": 169,
+            "folio": 170,
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 17
           },
           {
             "source": "technique:greenhouse-no-dig-seasons",
             "prefix": "",
-            "folio": 170,
+            "folio": 171,
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 18
           }
         ],
         "displayReferences": [
           {
-            "label": "169–170",
+            "label": "170–171",
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 17
           }
@@ -15957,14 +16110,14 @@
           {
             "source": "technique:greenhouse-no-dig-seasons",
             "prefix": "",
-            "folio": 170,
+            "folio": 171,
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 18
           }
         ],
         "displayReferences": [
           {
-            "label": "170",
+            "label": "171",
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 18
           }
@@ -16211,14 +16364,14 @@
           {
             "source": "technique:sowing",
             "prefix": "",
-            "folio": 162,
+            "folio": 163,
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 14
           }
         ],
         "displayReferences": [
           {
-            "label": "162",
+            "label": "163",
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 14
           }
@@ -16643,6 +16796,31 @@
         ]
       },
       {
+        "id": "lawn-converting-to-vegetables",
+        "term": "Lawn, converting to vegetables",
+        "refs": [
+          {
+            "source": "cultivation:turf"
+          }
+        ],
+        "references": [
+          {
+            "source": "cultivation:turf",
+            "prefix": "",
+            "folio": 162,
+            "pdf": "output/pdf/lifting-and-using-turf/lifting-and-using-turf-draft.pdf",
+            "page": 1
+          }
+        ],
+        "displayReferences": [
+          {
+            "label": "162",
+            "pdf": "output/pdf/lifting-and-using-turf/lifting-and-using-turf-draft.pdf",
+            "page": 1
+          }
+        ]
+      },
+      {
         "id": "leaf-and-pod-spot",
         "term": "Leaf and pod spot",
         "refs": [
@@ -17043,6 +17221,31 @@
         ]
       },
       {
+        "id": "loam-from-turf",
+        "term": "Loam, from turf",
+        "refs": [
+          {
+            "source": "cultivation:turf"
+          }
+        ],
+        "references": [
+          {
+            "source": "cultivation:turf",
+            "prefix": "",
+            "folio": 162,
+            "pdf": "output/pdf/lifting-and-using-turf/lifting-and-using-turf-draft.pdf",
+            "page": 1
+          }
+        ],
+        "displayReferences": [
+          {
+            "label": "162",
+            "pdf": "output/pdf/lifting-and-using-turf/lifting-and-using-turf-draft.pdf",
+            "page": 1
+          }
+        ]
+      },
+      {
         "id": "lower-sheath-rot",
         "term": "Lower sheath rot",
         "refs": [
@@ -17319,14 +17522,14 @@
           {
             "source": "technique:sowing",
             "prefix": "",
-            "folio": 162,
+            "folio": 163,
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 14
           }
         ],
         "displayReferences": [
           {
-            "label": "162",
+            "label": "163",
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 14
           }
@@ -17558,14 +17761,14 @@
           {
             "source": "technique:greenhouse-no-dig-seasons",
             "prefix": "",
-            "folio": 170,
+            "folio": 171,
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 18
           }
         ],
         "displayReferences": [
           {
-            "label": "170",
+            "label": "171",
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 18
           }
@@ -18252,14 +18455,14 @@
           {
             "source": "technique:sowing",
             "prefix": "",
-            "folio": 162,
+            "folio": 163,
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 14
           }
         ],
         "displayReferences": [
           {
-            "label": "162",
+            "label": "163",
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 14
           }
@@ -19145,14 +19348,14 @@
           {
             "source": "technique:sowing",
             "prefix": "",
-            "folio": 162,
+            "folio": 163,
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 14
           }
         ],
         "displayReferences": [
           {
-            "label": "162",
+            "label": "163",
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 14
           }
@@ -20793,6 +20996,31 @@
         "displayReferences": []
       },
       {
+        "id": "turf-lifting-and-reusing",
+        "term": "Turf, lifting and reusing",
+        "refs": [
+          {
+            "source": "cultivation:turf"
+          }
+        ],
+        "references": [
+          {
+            "source": "cultivation:turf",
+            "prefix": "",
+            "folio": 162,
+            "pdf": "output/pdf/lifting-and-using-turf/lifting-and-using-turf-draft.pdf",
+            "page": 1
+          }
+        ],
+        "displayReferences": [
+          {
+            "label": "162",
+            "pdf": "output/pdf/lifting-and-using-turf/lifting-and-using-turf-draft.pdf",
+            "page": 1
+          }
+        ]
+      },
+      {
         "id": "turnip",
         "term": "Turnip",
         "refs": [
@@ -21051,14 +21279,14 @@
           {
             "source": "technique:watering",
             "prefix": "",
-            "folio": 163,
+            "folio": 168,
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 15
           }
         ],
         "displayReferences": [
           {
-            "label": "163",
+            "label": "168",
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 15
           }
@@ -21076,14 +21304,14 @@
           {
             "source": "technique:watering",
             "prefix": "",
-            "folio": 163,
+            "folio": 168,
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 15
           }
         ],
         "displayReferences": [
           {
-            "label": "163",
+            "label": "168",
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 15
           }
@@ -21101,6 +21329,9 @@
           },
           {
             "source": "cultivation:digging-finish"
+          },
+          {
+            "source": "cultivation:turf"
           }
         ],
         "references": [
@@ -21124,6 +21355,13 @@
             "folio": 161,
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 13
+          },
+          {
+            "source": "cultivation:turf",
+            "prefix": "",
+            "folio": 162,
+            "pdf": "output/pdf/lifting-and-using-turf/lifting-and-using-turf-draft.pdf",
+            "page": 1
           }
         ],
         "displayReferences": [
@@ -21138,7 +21376,7 @@
             "page": 11
           },
           {
-            "label": "161",
+            "label": "161–162",
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 13
           }
@@ -21327,14 +21565,14 @@
           {
             "source": "technique:sowing",
             "prefix": "",
-            "folio": 162,
+            "folio": 163,
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 14
           }
         ],
         "displayReferences": [
           {
-            "label": "162",
+            "label": "163",
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 14
           }

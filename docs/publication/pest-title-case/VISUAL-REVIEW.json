@@ -1,0 +1,36 @@
+{
+  "date": "2026-11-03",
+  "status": "Checked: requested case-only correction; not publication approval",
+  "pdfSha256": "3af56b5ca55ae572e5648322c06e450a735d7ad2dbdfa4ee5204f2f1c9e2403a",
+  "mainBookSha256": "7f55447ece53f6e07752fd9a870a54eac47681f75041da82dbeaee7046412aac",
+  "tableContactSheets": [
+    "tables-1.jpg",
+    "tables-2.jpg",
+    "tables-3.jpg",
+    "tables-4.jpg"
+  ],
+  "tablesInspected": 44,
+  "fullPageInspected": "tomato_outdoor.jpg",
+  "assembledSpreadsInspected": [
+    "broccoli-spread.jpg",
+    "tomato-spread.jpg",
+    "../whole-book-order-preview/spread-4-5.jpg"
+  ],
+  "findings": [
+    "All 316 table labels use sentence case; proper names are retained.",
+    "No label collision or clipping introduced. Original line breaks are retained.",
+    "Original advice positions, type, artwork, tables and rows remain; smaller inline labels leave a slightly larger gap before the existing dash.",
+    "Main-book source preservation, page numbers and links pass."
+  ],
+  "implementation": {
+    "src/lib/troubleLabel.ts": "e3a79bb04ce81391066d9331f30da6840d08fb07bc2c21ab573913c7af1f82d2",
+    "src/print/RichVegetablePage.tsx": "f8e6578a346442f154e7130cdb3911651e89dd2bd180f08d7c37d9549f3f373c",
+    "src/print/PrintVegetablePage.tsx": "e57f339a8f29a425c0412af6acb1f81f6cfa31237073e88542dea26594885889",
+    "docs/publication/pest-title-case/check-pdf-runtime.py": "f8133435cab055d4f6ebe9f61d0c50f216652a54d21af7730534e083d37623b1",
+    "docs/publication/pest-title-case/apply-pdf.py": "d6c009fc3e421c20ca6b6d3b1a1528bd8dcb7a5fe7aec57037181cce1e7daff6",
+    "docs/publication/pest-title-case/prepare-pdf.py": "32ca17afacef6c9289978a474b7fc4ce23273673efc271b90393e4f668bb6f97",
+    "docs/publication/pest-title-case/finish-pdf-plan.mjs": "75828ee7bdee90f75eca3be7200338e2fbd7bb99c56b941eacf7f46828cd411d",
+    "docs/publication/pest-title-case/check-runtime.mjs": "6d3acff244ca1fb5e6acce449ca8d4b947df678f7cfa9b2a19696b497a49b7d5",
+    "docs/publication/pest-title-case/save-source.mjs": "2b380f2f7ab84f9fc047fedc8ee1b0312aeae145a34dc05fe082180fa97f9ef7"
+  }
+}

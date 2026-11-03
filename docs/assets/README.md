@@ -54,9 +54,9 @@ hashes exact frozen PDFs in both units, text, layout sources and four placed
 illustration groups. Preserve its `references/approved-2026-10-08/` files.
 [Editable working text](../../../hackriculture-resources/summaries/cultivation-dig-no-dig/copy.json)
 remains in the resource library; John's later edits need updated proofs.
-The current imperial whole-book preview includes these pages at 157–160.
+The current imperial whole-book preview includes these pages at 158–161.
 The [author-requested digging derivative](../publication/digging-order/README.md)
-reorders the source-proof pages 158–159 (now 159–160): all double-digging steps first, single digging second. The
+reorders the source-proof pages 158–159 (now 160–161): all double-digging steps first, single digging second. The
 frozen approval remains the source; this changed layout is for review.
 The [earlier four-page derivative](../publication/cultivation-headings/README.md)
 also carries John's requested green “Cultivation” titles and orange page qualifiers.
@@ -64,6 +64,12 @@ The [current subsection derivative](../publication/techniques-subsections/README
 retains it, removes the two internal section blanks and mirrors the new folios.
 Final production integration remains pending; this is page approval, not
 supplier or physical-proof approval.
+
+The [3 November turf-page approval](../publication/topic-pages/lifting-and-using-turf/APPROVAL.json)
+freezes the exact copy, layout, two raster illustrations and editable soil section.
+It is integrated after the existing Digging pages at **162**. The
+[page notes](../publication/topic-pages/lifting-and-using-turf/README.md) link its
+research and artwork provenance. Existing Cultivation originals remain intact.
 
 ## Book index
 
@@ -304,7 +310,7 @@ hero-style roots decorate the two headers; H5 seedlings and H6 harvest fill the
 second page’s lower space. These are existing stock, reused without modification;
 John accepted these placements for integration. Family/topic subheadings and
 explanatory notes remain omitted. The welcome entry is removed at John’s request;
-all 83 current destinations are included. Blank 3 puts the contents on facing pages
+all 85 current destinations are included. Blank 3 puts the contents on facing pages
 4–5, followed by blank 6, Introduction 7, blank 8 and the combined Vegetable Guides/how-to at right-hand page 9. Their current PDF is integrated into
 the complete imperial preview. The plain baseline and exact accepted illustrated
 4–5 proofs are retained under the contents reference folders. Original approved compact and A4 sources remain intact.
@@ -314,8 +320,10 @@ existing category deep colours on crop names and folios, 10.5 pt names at weight
 600. Exact A sources and its six-page comparison are retained; B and C are not
 selected. The [complete contents approval](../publication/contents-colour-study/key-preview/APPROVAL.json)
 restores page 4 to A and colours the Troubles entries on page 5, with a paler
-key panel beside H6 harvest. H5 seedlings remains omitted, as John allowed;
-both headers are retained.
+key panel. The [3 November reflow approval](../publication/contents-key-reflow/APPROVAL.json)
+places H6 beneath the left column and the shallower key across the full width,
+in four columns of two. Original artwork, colours and type sizes are retained;
+H5 remains omitted and both headers remain.
 The complete composition is approved and integrated at 4–5, with current folios.
 
 ## Illustrated how-to
