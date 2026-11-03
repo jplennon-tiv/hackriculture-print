@@ -1,0 +1,4780 @@
+{
+  "pdfSha256": "1159ad172035bc5942b5586d51aa28634e53d457357bff5e7ff8d044a4753128",
+  "inputs": {
+    "docs/publication/whole-book-order-preview/integration-2026-10-18/baseline.pdf": "39d437e8571d92aca177c31a2da4e2f371dada19a5f66465e4826678ac747cd6",
+    "docs/publication/techniques-sequence/references/approved-2026-10-18/growing-techniques.pdf": "31f6607ad253ba30eb4d9819c833fbfd4085d2d0253bcbc6296018332a5db1a6",
+    "output/pdf/contents-update/contents-imperial.pdf": "b479c23739dc57bbb7b4749628b6e8344eda92125885bc6fa54eb9b34dc151e1",
+    "tmp/pdfs/whole-book-order-preview/vegetable-guru-index-draft.pdf": "39bfcd00b50afd90359c017d5f03eae2a6de2d29d1aac7d37a6a74ca5a23f315",
+    "tmp/pdfs/whole-book-order-preview/footers.pdf": "2a02a243e17138d895dae8ca589fe5cc3e2f8e952fa4aee7e631ed5d536efe41",
+    "output/pdf/guides-intro-detail/vegetable-guides-intro.pdf": "ba4afde9179f08b611a3f1ac05fed66b5cb61a2ca1015bac4a08243e4869bd65",
+    "output/pdf/troubles-rollout/bean_and_pea_troubles-imperial.pdf": "be96864f7453c5b418780d679423a3ab281a40381b2455016bd77f3770ef95e0",
+    "output/pdf/troubles-rollout/beetroot_troubles-imperial.pdf": "75045dedcd9f681e1b934be7c92abc1f8707f85eb0f82c7196aafa17c75387a3",
+    "output/pdf/troubles-rollout/brassica_troubles-imperial.pdf": "873a44ab452240b5fa8ef8b091560557ca1000dc214fae16f906401900017865",
+    "output/pdf/troubles-rollout/carrot_and_parsnip_troubles-imperial.pdf": "305d8bb8e71521cd3947b45d60bfa4e9c1f58df29699158cdce372b2e279ba26",
+    "output/pdf/troubles-rollout/celery_troubles-imperial.pdf": "32e78737b1f0c8d6d14ab81432890dc3caac43d7bbd140d4d91cb580b2f5cf55",
+    "output/pdf/troubles-rollout/cucurbit_troubles-imperial.pdf": "e7139461f8fbeb48fbcf4f837d668b29c7f92d970c8124159b1c81eb26324084",
+    "output/pdf/troubles-rollout/florence_fennel_troubles-imperial.pdf": "6d5bcd4cc029b9481ea5af84c5fbeb3197d4cd1d98a5e900ca623a3340f182f6",
+    "output/pdf/troubles-rollout/lettuce_troubles-imperial.pdf": "ac976427d7f7597030019f2a9d0841c5ca6fc85013909100b9a481880ac56b7d",
+    "output/pdf/troubles-rollout/onion_and_leek_troubles-imperial.pdf": "3ca91df64fc3dfed043bdd785f17dfbe4feff203e293535291bdf7969bc2b06b",
+    "output/pdf/troubles-rollout/oriental_leaves_troubles-imperial.pdf": "353d23b62a24855595ec4eb70848698a893f7da5c21e79190eb5df3b3ccd9d76",
+    "output/pdf/troubles-rollout/potato_troubles-imperial.pdf": "f8a45570c908bea6f617c966f63cabdc025e1edf99a72fe278554055d33ad049",
+    "output/pdf/troubles-rollout/spinach_troubles-imperial.pdf": "8663547f1446b1ab5d682ba1deb55de79932ad1a5d2ebd45626c465cf86aadf4",
+    "output/pdf/troubles-rollout/tomato_troubles-imperial.pdf": "59ad3b7e419fbebdd422fce3f45c5d451f62a92404e5951f12ad5c2e6fda4426",
+    "output/pdf/troubles-rollout/turnip_swede_radish_troubles-imperial.pdf": "16898b47d44bd57531d000f3305c39c3bab4e49234c858cb98df4e8c54959c3f",
+    "output/pdf/techniques-subsections/techniques-imperial.pdf": "fe072b70b68703cc80d484f06968e52bd14dbb74a9c67a8a6f30dea0b26546a4",
+    "output/pdf/soil-acidity/soil-acidity-draft.pdf": "57e61bcc0ad8ade82027c6ee005ba71c256a82dfda7f335d8e3c45dc193aa5d0",
+    "output/pdf/topic-pages/netting-revised-draft.pdf": "f059d4b961f8e597975546044deff9342079d2993c9ad3387e78aacdeb5f8032",
+    "output/pdf/topic-pages/supports-revised-draft.pdf": "aff9299b7f067b39fbe4c44a1e0922a5ba4d5f8929ba747e61bf3a86411f5ebc",
+    "docs/publication/contents-update/ASSEMBLY-PROPOSAL.json": "14d9c3e640d42c7acade0b776dffe512560ba0a29c1b55a756e2f79e6e4755e9",
+    "scripts/lib/book-navigation.mjs": "4495046ae01a711e8407a2bf5e1c06881bb0c84cd2cda96c7778ec26aa55fdf1",
+    "scripts/lib/book-review-refinements.mjs": "90262114e42ab7e1d0f7bca2b0c2559b28790a9ae8a4ab56903df5e746ad1130",
+    "public/fonts/richer-a-1.woff2": "d2575d4fa3632580aafcbcdf6978b3b57e144b90cf5bd9c2c98194f28b869704",
+    "public/fonts/richer-a-6.woff2": "29e3890496844a9ea81975c52771c587c872b4eb317026422d1995b88d21b57d",
+    "src/print/familyThemes.json": "e4c1dbb5d9d77a0060d518d4c751ec23f7282e6b89ea2d05ebe2c451812bc4df",
+    "../hackriculture-data/vegetables/artichoke_jerusalem/artichoke_jerusalem.json": "ba4a3ca79ec29cb0ef0cd4ff9a1ae263f5c4f30f353afa697db0d32d3693786e",
+    "../hackriculture-data/vegetables/artichoke_globe/artichoke_globe.json": "496b19be3495baf2faba795d2f943867f41077917355ebf0fb2c7300d44f61e6",
+    "../hackriculture-data/vegetables/asparagus/asparagus.json": "7c254427bcbb1186c168f0bf484202151c24a27fdbac03c08d3ec85514ac4b17",
+    "../hackriculture-data/vegetables/aubergine/aubergine.json": "f5e287f05241db2360b7988a28a96670b0bd9abf4ccc5a37dcb838237020f4f8",
+    "../hackriculture-data/vegetables/bean_broad/bean_broad.json": "b446a18b1ee992cd7f6b2c171278946f8f7357eb8d96d4ff7cc2f7cd9ce5a8f5",
+    "../hackriculture-data/vegetables/bean_french/bean_french.json": "c8475ac78d5dfcffd46bc102387c7774520e4da3ed2ac55d9ed1bfa91a82c671",
+    "../hackriculture-data/vegetables/bean_runner/bean_runner.json": "e1235f57d81b006cf1c521713112e316f8ca2b21c1d23fe8d7a5bdb4f69130e7",
+    "../hackriculture-data/vegetables/beet_leaf/beet_leaf.json": "d42537206089260908c9d224a2a90af7bc92903e9a7a8a9c37ea58a5be0f2234",
+    "../hackriculture-data/vegetables/beetroot/beetroot.json": "a05e43126a5dc28c0506acd129558ba21c89ba4e2128e1d2a77242ac1fe1dac7",
+    "../hackriculture-data/vegetables/broccoli/broccoli.json": "23e1aa3ffa68398d663d38be03f9de9942cf2d028d132cad54f45f613dda6bef",
+    "../hackriculture-data/vegetables/brussels_sprouts/brussels_sprouts.json": "2c5b7e8f210de8c7944a78dc97631da8237d110ef395337fac302a06d9397cab",
+    "../hackriculture-data/vegetables/cabbage/cabbage.json": "141c6d309e5fbf550c4ccbfccc8ec4f0265b0e269603f7675bcf2b8671e23553",
+    "../hackriculture-data/vegetables/capsicum/capsicum.json": "8ba9a68e3105584312a052c68b005a20d342744c74fef3bbe44157be505c6c8d",
+    "../hackriculture-data/vegetables/carrot/carrot.json": "c5f076beb6cfe55cc90f80a6bc4a5f9690a4a25358c4bb74085a68798cd3500e",
+    "../hackriculture-data/vegetables/cauliflower/cauliflower.json": "ca6000e5ae90a260f64a61508c6fc6416f02704ef7430e38088a04d9280f8402",
+    "../hackriculture-data/vegetables/celeriac/celeriac.json": "ac337c5fcb5e6b9e5088d3e085197b0360ec5ce70a70b357218a05044d5e814b",
+    "../hackriculture-data/vegetables/celery/celery.json": "3dab63f9e0215e7cac1e75b4d08c335fd032c5103ed6ca449bb026b2829a97ef",
+    "../hackriculture-data/vegetables/chicory/chicory.json": "c1aeb93bca2ab510ae44aa230beb59cfd90435c0bb566b9d80a610c12a702398",
+    "../hackriculture-data/vegetables/cucumber_greenhouse/cucumber_greenhouse.json": "4e4a4e078defc114b2c0edfa6677954256b2496559f4c7f85d9a22931beda5e7",
+    "../hackriculture-data/vegetables/cucumber_outdoor/cucumber_outdoor.json": "2fa66254d34fe5603e4e8c4cf5f8697108ff9019cc9693fb4385b9f109edaa25",
+    "../hackriculture-data/vegetables/endive/endive.json": "3851b3dca1d7df564695dd59a4f3da5b49821ff7aee11c5b412fde838cafff54",
+    "../hackriculture-data/vegetables/florence_fennel/florence_fennel.json": "e29705c338ab2e2fe87ef507889c64b3e523f57b8c541d51841a6c76fd093278",
+    "../hackriculture-data/vegetables/garlic/garlic.json": "95973cc7e837236ec8874f6ba502be7ab5a192e44de0a909fbe5e53d8bde8dce",
+    "../hackriculture-data/vegetables/kale/kale.json": "2127e8502c9852cbd118e743f90cc6db61ad060f9dd12df5acf873ed109350b7",
+    "../hackriculture-data/vegetables/kohl_rabi/kohl_rabi.json": "e5f93753c88b39cff3ab7444e048f5c1578d44f8c4186f33c70c819b964ff575",
+    "../hackriculture-data/vegetables/leek/leek.json": "4a1409e7caa2beeb94415b62a232963d10dfb3a89ec6bcdbd51c617722c3da09",
+    "../hackriculture-data/vegetables/lettuce/lettuce.json": "498782e48dc1496a943725a9ad723db8d63cacacb12e9a3adbcdec9418b16a91",
+    "../hackriculture-data/vegetables/marrow_courgette/marrow_courgette.json": "653aa99044904c75d6cde3b5d8dc259eeb232ea56402a5bd3f26403804f8b4a1",
+    "../hackriculture-data/vegetables/squash_pumpkin/squash_pumpkin.json": "e66d98cc37b7da6f87dc656a2832ea2d14c328806cdc1a6efa112b54ccc2d7eb",
+    "../hackriculture-data/vegetables/mushroom/mushroom.json": "5ddd7f2e31912666ec473fba5e36ac5cbdb559c46c15da19319bf4cf7620a30f",
+    "../hackriculture-data/vegetables/onion_shallot/onion_shallot.json": "7970e902671fc38c9c7eb0465dd3ddf04e3ca35f45426091a1e92c0cbbc82cb3",
+    "../hackriculture-data/vegetables/oriental_leaves/oriental_leaves.json": "3f660087e2cbf7dcae70216bb44f17db5c3cd05cfd35265bb83f87069da13ed8",
+    "../hackriculture-data/vegetables/parsnip/parsnip.json": "881ae0dd9a07e954475ad147fc933aca0f370da34b5c3804fe7b62fdf4c1509f",
+    "../hackriculture-data/vegetables/pea/pea.json": "d45019ba61a7873dbac94a7c28f7c39fdfa7a554581e1c5e4d2f9f5d10ddab51",
+    "../hackriculture-data/vegetables/potato/potato.json": "7f2d0445e3d4915ad8e3ea4f2c519882edceb0fea1ef1fb93e439500d6c10c70",
+    "../hackriculture-data/vegetables/radish/radish.json": "59e6af73342336440cdc859fa0942c53fe29442124090d6093d358050ece79c5",
+    "../hackriculture-data/vegetables/rhubarb/rhubarb.json": "5878f12fb894704d2a08a028d61de11a9baba3f7a7c56e7f531bafa5fb45f00f",
+    "../hackriculture-data/vegetables/salsify_scorzonera/salsify_scorzonera.json": "45fc088e83c30a3a27461830e9a7725f98a0a70dc73585535df3fe9dfb463675",
+    "../hackriculture-data/vegetables/spinach/spinach.json": "6cb3234a7c1d03445f2e6d1dad62436050400e724420ef62a1fd00a5869ffb39",
+    "../hackriculture-data/vegetables/swede/swede.json": "87db9a40118e4e0b6feb5ca0676df7d1e73b229f3b4e9a1dba6958aafef85832",
+    "../hackriculture-data/vegetables/sweet_corn/sweet_corn.json": "64f478ba874686eaba8060bd553175ce72b42c738390574491955ef23a58de78",
+    "../hackriculture-data/vegetables/tomato_greenhouse/tomato_greenhouse.json": "4db2f7e1fc25d9a115ad47e82b1af03ca4eccb17d9d390e89f391b22f1a76670",
+    "../hackriculture-data/vegetables/tomato_outdoor/tomato_outdoor.json": "bd4444fba94162621ac0d9303a6d594867993850cca990b6427a6440c9abfe94",
+    "../hackriculture-data/vegetables/turnip/turnip.json": "440b2f5d7174d315ad4000cc77c7ad9266d71f0db6974d3db039bda046363fc3",
+    "../hackriculture-data/troubles/bean_and_pea_troubles/bean_and_pea_troubles.json": "6cffc5b12f2bf15bff725603f7b6ad93a7a504c85c97ec57f5a1412e351243dd",
+    "../hackriculture-data/troubles/beetroot_troubles/beetroot_troubles.json": "7bb8a2f1e658b49984dc9cd569124a4d0bf9e5d9d36665007a02c453ccab4924",
+    "../hackriculture-data/troubles/brassica_troubles/brassica_troubles.json": "17b1951288f48e3dbb2e215c568eb22e7a34207eea7fd4d5c9863132b7d3ada7",
+    "../hackriculture-data/troubles/carrot_and_parsnip_troubles/carrot_and_parsnip_troubles.json": "add7ddf0a427047b4792783889998decf7c784fbbe7d3600e3d319030dff1ecc",
+    "../hackriculture-data/troubles/celery_troubles/celery_troubles.json": "4ecfa7d1611da6116de333bb9688b233e9f32d3385d5a094eb4c507cc6f5d392",
+    "../hackriculture-data/troubles/florence_fennel_troubles/florence_fennel_troubles.json": "381aca45cb049b2534eaf24f764525b6c3c1406cb6cc895675eefd8171f9eddb",
+    "../hackriculture-data/troubles/cucurbit_troubles/cucurbit_troubles.json": "77cb035c96d1d954c371b3772383d8d3994cb70f1f64a768bf6435673aa2c432",
+    "../hackriculture-data/troubles/lettuce_troubles/lettuce_troubles.json": "c77a1b89c64019f62461a240247071994056372ac6396cada6bd526dfc405b24",
+    "../hackriculture-data/troubles/oriental_leaves_troubles/oriental_leaves_troubles.json": "dffcc8cb818597d274e781cd0cc853121b5208aac83e85f0c8aeff6efbd4837c",
+    "../hackriculture-data/troubles/onion_and_leek_troubles/onion_and_leek_troubles.json": "ba537e1084cfa019f2f4bdd9cc29d0843948adb87c794589407685be0805f89a",
+    "../hackriculture-data/troubles/potato_troubles/potato_troubles.json": "70e0c9913803f714d68e63991d9422aff318b9fe485d97b892f15ed7798a7078",
+    "../hackriculture-data/troubles/spinach_troubles/spinach_troubles.json": "fee50b03b5087e0112a2ea7cd6308482a87662ff141c50c8c85f01b41f20c733",
+    "../hackriculture-data/troubles/tomato_troubles/tomato_troubles.json": "b93b1093163a2f7936f2218a6e671a3cfbcf73b059231cd302cf27a0a29c218e",
+    "../hackriculture-data/troubles/turnip_swede_radish_troubles/turnip_swede_radish_troubles.json": "eaf6d648401007d4ae27e0ecea86246b9544ea70c313a57ce4e00ef133d9632d",
+    "docs/publication/guides-intro-detail/APPROVAL.json": "408cdf909abc98b7737766c960aa07547a91299769547c5b8d3b621ea3a3c463",
+    "scripts/lib/pdf-reference-text.py": "042e49425aec93c62e0977503391e4177046d60204dfb7627b40b93f06c8405d",
+    "output/pdf/reader-edit-pass/guides/asparagus-imperial-clean.pdf": "1eca6b391ae99dee15eb8dcafcedc3a2c6148f2df5d4611e651bc837ca971815",
+    "output/pdf/reader-edit-pass/guides/cabbage-imperial-clean.pdf": "60cd9ffe1a08b761bc5f2c6d6b48b47e23b46c7172df32af57faf1a23eee40a1",
+    "output/pdf/reader-edit-pass/guides/carrot-imperial-clean.pdf": "ea76ab3642d2e626c1029cc656b6ecb71386b6e5f2cf0e377f2ed45cda8c81b0",
+    "output/pdf/reader-edit-pass/guides/celeriac-imperial-clean.pdf": "4f82918e59b9890f56e5425cee9166964027c8faec4aa999426be2fda72ead4b",
+    "output/pdf/reader-edit-pass/guides/marrow_courgette-imperial-clean.pdf": "04edee4c10ee296e90b9a2c949d2e45b21ac574c4a6e66130a38e0cf02504d4c",
+    "output/pdf/reader-edit-pass/guides/leek-imperial-clean.pdf": "ccd2438879f2c7591fd0324a906000b84db534ba13cff8583dd848711ddee6c0",
+    "output/pdf/reader-edit-pass/guides/lettuce-imperial-clean.pdf": "74ca827d14bcc3efd90cd9a066d918b868cbd0396b18eae6cbc95645cd67e8ff",
+    "output/pdf/reader-edit-pass/guides/tomato_greenhouse-imperial-clean.pdf": "3160ded1c04d9c3b96f9db89400fb9d71d8ac1033f53d792fe9f7fc8d442a4fb",
+    "docs/publication/techniques-subsections/MANIFEST.json": "8d8255555307d689423b040aa87f68977400ca6e77fe46c570ee78d7a6721a90",
+    "src/print/book/techniques-subsections.json": "5f7f872579be3b9ba48aad4ae9bd863f5239a9993c97ab89d2604396a7c8abf8",
+    "docs/publication/techniques-subsections/SOURCES.json": "41f696db795040ebe5d02a549e8ba649c82e034613cdd2791269301a59146626",
+    "output/pdf/final-text-edits/organic-imperial.pdf": "b90bb800bdd5466ac030d17230ce8fd7b54da46ea5c047a44563ca30c751ba42",
+    "output/pdf/final-text-edits/plot-layout-branching-imperial.pdf": "1e5ef1f1dc9568987230eefe0cd42e5921fda178353418b5692b7d3b16cd7fcb",
+    "output/pdf/cultivation-headings/digging-imperial.pdf": "f7ab8554ef22f24d97bee371e6b18ba270a81b77ec486a722d7f116d88429cc1",
+    "output/pdf/final-text-edits/organic-metric.pdf": "71fc916dd7fe6806dfd0d7705be1f88e3df7454d12cf2add1df4fa454d3318b6",
+    "docs/publication/topic-pages/crop-rotation-planning/references/approved-2026-10-18/crop-rotation-planning-metric.pdf": "c7cba0f3dd0999ee1643fe51b187ff672fe0cc5fabc8fe9c415e54b39023eb01",
+    "docs/publication/topic-pages/techniques-expansion/references/collection-approved-2026-10-12/metric.pdf": "89bbc47865e06a36dcae1f22c91a0089aee22068346cae2aa712d37a12c2faf9",
+    "output/pdf/final-text-edits/plot-layout-branching-metric.pdf": "66ffafdab2edaf37e7a653213c355ee9136dce3c605765a1f13785e44286d484",
+    "output/pdf/reader-edit-pass/techniques/techniques-metric-clean.pdf": "6acfaf301badc377baa57553b7bfd9680414a9e43e45dc3178a547ebb63082be",
+    "output/pdf/cultivation-headings/digging-metric.pdf": "addd211eacdca8e60b83e4d216f83af6dcab5bc226b555c85fe0dff91ef694a5",
+    "output/pdf/techniques-subsections/headers-imperial.pdf": "3472685dd2eb39f61436ba78cef84d6b42d12daf68cf4fefe999eacf721e4cd0",
+    "docs/publication/techniques-subsections/headers-imperial.html": "c6bdca4a799886acba599c5f9945b58883284dcc71edea9e55910ba474769abf",
+    "output/pdf/techniques-subsections/headers-metric.pdf": "3472685dd2eb39f61436ba78cef84d6b42d12daf68cf4fefe999eacf721e4cd0",
+    "docs/publication/techniques-subsections/headers-metric.html": "c6bdca4a799886acba599c5f9945b58883284dcc71edea9e55910ba474769abf",
+    "docs/publication/topic-pages/soil-acidity/APPROVAL.json": "0d8ac9cbab6eeb2607daac7a769b86cf0c1ecc1a3fb1f348a6a2d711c74e3cbe",
+    "src/print/book/soil-acidity/copy.json": "ec8d7ea251553948e129a58bc8743da7611d78e4c8abdcface4acc3682e1fcab",
+    "docs/publication/topic-pages/soil-acidity/draft.html": "9fde701c9288e97472e0ca216ff8f08d3ff6221f4b1736b2c7da4ec7d44df2b5",
+    "docs/publication/topic-pages/soil-acidity/draft.css": "90b7b0962b5acbc999e381b8b2e89fc0003aa06997fc25580cd580670455b2da",
+    "docs/publication/topic-pages/soil-acidity/page-152.png": "da13a72d503b38040579e7c36e148cfbb85b5323cec075529f5cf7650d49b624",
+    "docs/publication/topic-pages/soil-acidity/CHECKS.json": "ab43c774cafae33a638ad091b139cbbca07917e08fa385e87417494bad7858d3",
+    "docs/publication/topic-pages/soil-acidity/ARTWORK.json": "efcc73bb0148c0fd52c468dd2c0f28ee4c2f6cce2351a45b790d47cdec0a42af",
+    "docs/publication/topic-pages/soil-acidity/VISUAL-REVIEW.json": "aaa7ccdf63f2517ed48056564779579b4fd63905bbe6dace114f62d9fe4a64d6",
+    "docs/publication/topic-pages/soil-acidity/assets/ph-test-kit.png": "0a4c57381d1622285dc0bd827d4070a0d19ed76326f35a332ac1aad5f1ea1630",
+    "docs/publication/topic-pages/soil-acidity/assets/garden-lime.png": "2701f222b5f52cdb42f69175802ef8f1c9cb31301b77030e856e4c40a467e4a9",
+    "docs/publication/topic-pages/plant-protection-supports/netting/APPROVAL.json": "6336bd6b3a1fb5493e9ae6a56137deb1111c9c92470f9e9d89e32a978e4785b9",
+    "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/topic-pages/plant-protection-supports/netting/build.mjs": "1cdeadaa5ba3aea7da4afa08ef2bdfef9dc9bdb73b3a0b2bf98683013eaf888f",
+    "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/topic-pages/plant-protection-supports/netting/finish-proof.py": "4d227d92182b5b9f2efd881e73d9867f9360debd3eeffbb3e5d2cf7386030bf6",
+    "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/topic-pages/plant-protection-supports/netting/draft.css": "4af8ffaa9e1b0a0cc50020eaab553f8770f849a487cd54d9ec4ff5ceb1ebaaf5",
+    "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/topic-pages/plant-protection-supports/netting/draft.html": "9e25835d4c58f7b92a469d7f732834ea411ef814643997c1f32677784342aeb5",
+    "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/topic-pages/plant-protection-supports/netting/ARTWORK.json": "553aa98d3a3873458419e7ea8660950b71d1436fa897cbfad908d3dd8f9ac076",
+    "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/topic-pages/plant-protection-supports/netting/CHECKS.json": "930e7a88a7f0df8fab8b3fdb72892f38d1d576d6d2bd47d6fbbb15136a8ba122",
+    "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/topic-pages/plant-protection-supports/netting/page-160.png": "6478c119c475ca8320cf1d6c84cf680644df3c558028e28b1f75795f731497e7",
+    "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/topic-pages/plant-protection-supports/netting/page-161.png": "d380be3aed7bd99ba557a514aa1c6e9fbd85e77c2f3335855efd82e070a4d995",
+    "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/topic-pages/plant-protection-supports/netting/spread.png": "f361b8026caf3b9ddac9dd31a8c3ad695209330d288937851c558dd44a0cdc80",
+    "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/topic-pages/plant-protection-supports/draft.css": "5590e4b2805b28296262595a22941abbe921dbf2efd38e677c67ee4989361b4f",
+    "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/topic-pages/plant-protection-supports/assets/netting-bed-v1.png": "d32ca68ab95601b2c621a5b0290a434cf178a407d319030a37d7fd8819fedb88",
+    "/Users/johnlennon/Documents/web_site/hackriculture-print/output/pdf/topic-pages/netting-revised-draft.pdf": "f059d4b961f8e597975546044deff9342079d2993c9ad3387e78aacdeb5f8032",
+    "/Users/johnlennon/Documents/web_site/hackriculture-resources/summaries/plant-protection-supports/netting-copy.json": "4c6c3aa7d4f77a6dbe9608a6784f2e70c55fc14add7adb93f7b1cf7c7eea8688",
+    "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/topic-pages/plant-protection-supports/netting/assets/cover-birds.png": "8d511d2d173e9118d5467999ea4fe905c57e4ad6f71b76150bd9d8e925af2ac5",
+    "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/topic-pages/plant-protection-supports/netting/assets/cover-fleece.png": "56a00f5062ca1c79d9d01799236bddd70b2afce5ca30e957b6297676fbe674d2",
+    "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/topic-pages/plant-protection-supports/netting/assets/cover-insects.png": "4ae89eb5ba8d5e16155cf243f76ead8ae45fb038749abceb029b54fc072a072d",
+    "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/topic-pages/plant-protection-supports/netting/assets/fruit-cage.png": "8fd471f8b49e9058c9005057feddf15788133d22449b32d4feb8904626aa7c51",
+    "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/topic-pages/plant-protection-supports/netting/assets/manufactured-frame.png": "b38badad0e2197c1cf130debc04b41f3794a4128812da5ba73cc7eee0f4a7ae7",
+    "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/topic-pages/plant-protection-supports/netting/assets/tennis-frame.png": "e759b99d3b46a69956fd019292f7d97978b6206f1e8892043ee817704e514542",
+    "docs/publication/topic-pages/plant-protection-supports/supports/APPROVAL.json": "10f1a182cc1fc3d3bbcac3bfdd18f350da521fc4bd6e6282dce68fc552a2e97a",
+    "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/topic-pages/plant-protection-supports/supports/build.mjs": "455d97d14f69c8e59b0cecd2644d96e08741f76e71d37627bac1dd240373f66b",
+    "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/topic-pages/plant-protection-supports/supports/finish-proof.py": "66b1bf722f1f5390ba2edb1400a2f6b95f953ac9b2db3d399b1e66e75dee14c9",
+    "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/topic-pages/plant-protection-supports/supports/draft.css": "5306954833e32750635a580e8841b484c0bd317bb4a856abc874dfdf833f1769",
+    "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/topic-pages/plant-protection-supports/supports/draft.html": "6edebf46a5ae3d4ebfa7644bbd87a4949240542101fa68dafbea54c3de8e2736",
+    "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/topic-pages/plant-protection-supports/supports/ARTWORK.json": "3bafd07b1adc7d4f6c4331cb088c8db48c2ba0b3be60ae38b72d8c4edcbf7c00",
+    "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/topic-pages/plant-protection-supports/supports/CHECKS.json": "8c382d93568548b2bc14f0a2605ec38a1213d772e7faf401b606025f5717b0ca",
+    "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/topic-pages/plant-protection-supports/supports/page-162.png": "ce47fd7f52da39654be66a7f66875edc2262d39d13c7097ddfef745a8e224976",
+    "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/topic-pages/plant-protection-supports/supports/page-163.png": "a3beb3f1bdc00d824323816ec6d562db57270701aec89066fc6cbceeba09e894",
+    "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/topic-pages/plant-protection-supports/supports/spread.png": "6cd99477d93f2a37c05f23f39984a4fb53a5f416b2ade251d35eb4e6df285c62",
+    "/Users/johnlennon/Documents/web_site/hackriculture-print/output/pdf/topic-pages/supports-revised-draft.pdf": "aff9299b7f067b39fbe4c44a1e0922a5ba4d5f8929ba747e61bf3a86411f5ebc",
+    "/Users/johnlennon/Documents/web_site/hackriculture-resources/summaries/plant-protection-supports/supports-copy.json": "ba12e8ebbf1517c20058c5a07d3c42e5c5607eeb03ac29cddbde27f26b0b74e8",
+    "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/topic-pages/plant-protection-supports/supports/assets/beans-denser-v3.png": "bde463baf32a99ead376c249acf16a235776092e1642e31babc0c933e837ae58",
+    "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/topic-pages/plant-protection-supports/supports/assets/wigwam.png": "e7cfffbbaf7a0cfc731fc87565b520b11f7d96321b167c38fda790c46b082571",
+    "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/topic-pages/plant-protection-supports/supports/assets/peas.png": "07d2912226c330631005d87d9ed65c8844e84afe9274fc2af644e15e9778e292",
+    "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/topic-pages/plant-protection-supports/supports/assets/broad-beans-support-v1.png": "0836db65af809c1a64427ccc48938169d1e282ecf936e8d1b3a3dd1350d92b57",
+    "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/topic-pages/plant-protection-supports/supports/assets/stake-mature-v3.png": "3243f3be856a2e69d2207babb74aee0c3f7b90ac3f0b9f62c0b4b763b71b6a0d",
+    "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/topic-pages/plant-protection-supports/supports/assets/brassica.png": "d264b563d45622ff3bb8e6f6a590c775bcef62c7d6fdbe3b656059e25c70effa",
+    "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/topic-pages/plant-protection-supports/supports/assets/cage-build-v1.png": "da905823a45e34952ad0437c21e6a18aa6f96efe8e9124cf6bf4030b771aefc8",
+    "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/topic-pages/plant-protection-supports/supports/assets/tomatoes-portrait-v2.png": "4a2bb3bb6e4ca134988c70ba163391431e20cd78cb7f6fb727142198be6478f8",
+    "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/topic-pages/plant-protection-supports/supports/assets/bracing.png": "17c8580eec6c62b4b37652581d46333b6bcf739d57af38f1a14586801786f6a9",
+    "tmp/pdfs/whole-book-order-preview/category-labels.pdf": "ee293597ab957459f878193249012b14c185b2e7c8122524a96f2edea0c11b52",
+    "output/pdf/troubles-rollout/vegetable-troubles-imperial.pdf": "15a5ffccd56d5b58a8ca78cda1af7157d5f1b0dfdb0816c18c47cef13c65359a"
+  },
+  "bodyChecks": [
+    {
+      "folio": null,
+      "pdfPage": 1,
+      "glyphs": 0,
+      "images": 1,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": null,
+      "pdfPage": 2,
+      "glyphs": 0,
+      "images": 0,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 1,
+      "pdfPage": 3,
+      "glyphs": 87,
+      "images": 5,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 2,
+      "pdfPage": 4,
+      "glyphs": 842,
+      "images": 0,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 3,
+      "pdfPage": 5,
+      "glyphs": 0,
+      "images": 0,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 4,
+      "pdfPage": 6,
+      "glyphs": 642,
+      "images": 1,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 5,
+      "pdfPage": 7,
+      "glyphs": 855,
+      "images": 2,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 6,
+      "pdfPage": 8,
+      "glyphs": 0,
+      "images": 0,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 7,
+      "pdfPage": 9,
+      "glyphs": 1698,
+      "images": 1,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 8,
+      "pdfPage": 10,
+      "glyphs": 0,
+      "images": 0,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 9,
+      "pdfPage": 11,
+      "glyphs": 832,
+      "images": 3,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 10,
+      "pdfPage": 12,
+      "glyphs": 2032,
+      "images": 4,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 11,
+      "pdfPage": 13,
+      "glyphs": 2748,
+      "images": 1,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 12,
+      "pdfPage": 14,
+      "glyphs": 1769,
+      "images": 4,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 13,
+      "pdfPage": 15,
+      "glyphs": 2691,
+      "images": 1,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 14,
+      "pdfPage": 16,
+      "glyphs": 1784,
+      "images": 7,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 15,
+      "pdfPage": 17,
+      "glyphs": 2821,
+      "images": 4,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 16,
+      "pdfPage": 18,
+      "glyphs": 1808,
+      "images": 4,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 17,
+      "pdfPage": 19,
+      "glyphs": 2798,
+      "images": 1,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 18,
+      "pdfPage": 20,
+      "glyphs": 1762,
+      "images": 4,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 19,
+      "pdfPage": 21,
+      "glyphs": 2592,
+      "images": 1,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 20,
+      "pdfPage": 22,
+      "glyphs": 1809,
+      "images": 4,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 21,
+      "pdfPage": 23,
+      "glyphs": 2813,
+      "images": 1,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 22,
+      "pdfPage": 24,
+      "glyphs": 1915,
+      "images": 4,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 23,
+      "pdfPage": 25,
+      "glyphs": 2663,
+      "images": 1,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 24,
+      "pdfPage": 26,
+      "glyphs": 2011,
+      "images": 4,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 25,
+      "pdfPage": 27,
+      "glyphs": 2518,
+      "images": 1,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 26,
+      "pdfPage": 28,
+      "glyphs": 2059,
+      "images": 4,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 27,
+      "pdfPage": 29,
+      "glyphs": 2605,
+      "images": 1,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 28,
+      "pdfPage": 30,
+      "glyphs": 1976,
+      "images": 6,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 29,
+      "pdfPage": 31,
+      "glyphs": 2601,
+      "images": 1,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 30,
+      "pdfPage": 32,
+      "glyphs": 1814,
+      "images": 4,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 31,
+      "pdfPage": 33,
+      "glyphs": 2636,
+      "images": 1,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 32,
+      "pdfPage": 34,
+      "glyphs": 1862,
+      "images": 9,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 33,
+      "pdfPage": 35,
+      "glyphs": 2747,
+      "images": 3,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 34,
+      "pdfPage": 36,
+      "glyphs": 1803,
+      "images": 4,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 35,
+      "pdfPage": 37,
+      "glyphs": 2723,
+      "images": 1,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 36,
+      "pdfPage": 38,
+      "glyphs": 1933,
+      "images": 7,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 37,
+      "pdfPage": 39,
+      "glyphs": 2780,
+      "images": 4,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 38,
+      "pdfPage": 40,
+      "glyphs": 1765,
+      "images": 6,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 39,
+      "pdfPage": 41,
+      "glyphs": 2775,
+      "images": 1,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 40,
+      "pdfPage": 42,
+      "glyphs": 1846,
+      "images": 6,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 41,
+      "pdfPage": 43,
+      "glyphs": 2618,
+      "images": 4,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 42,
+      "pdfPage": 44,
+      "glyphs": 1930,
+      "images": 4,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 43,
+      "pdfPage": 45,
+      "glyphs": 2945,
+      "images": 1,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 44,
+      "pdfPage": 46,
+      "glyphs": 2008,
+      "images": 5,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 45,
+      "pdfPage": 47,
+      "glyphs": 2694,
+      "images": 1,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 46,
+      "pdfPage": 48,
+      "glyphs": 1717,
+      "images": 7,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 47,
+      "pdfPage": 49,
+      "glyphs": 2830,
+      "images": 3,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 48,
+      "pdfPage": 50,
+      "glyphs": 1895,
+      "images": 3,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 49,
+      "pdfPage": 51,
+      "glyphs": 2691,
+      "images": 1,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 50,
+      "pdfPage": 52,
+      "glyphs": 1787,
+      "images": 4,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 51,
+      "pdfPage": 53,
+      "glyphs": 2642,
+      "images": 1,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 52,
+      "pdfPage": 54,
+      "glyphs": 1855,
+      "images": 5,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 53,
+      "pdfPage": 55,
+      "glyphs": 2707,
+      "images": 1,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 54,
+      "pdfPage": 56,
+      "glyphs": 1901,
+      "images": 4,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 55,
+      "pdfPage": 57,
+      "glyphs": 2735,
+      "images": 1,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 56,
+      "pdfPage": 58,
+      "glyphs": 1759,
+      "images": 3,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 57,
+      "pdfPage": 59,
+      "glyphs": 2653,
+      "images": 1,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 58,
+      "pdfPage": 60,
+      "glyphs": 2251,
+      "images": 5,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 59,
+      "pdfPage": 61,
+      "glyphs": 2843,
+      "images": 1,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 60,
+      "pdfPage": 62,
+      "glyphs": 1894,
+      "images": 4,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 61,
+      "pdfPage": 63,
+      "glyphs": 2645,
+      "images": 1,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 62,
+      "pdfPage": 64,
+      "glyphs": 1744,
+      "images": 8,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 63,
+      "pdfPage": 65,
+      "glyphs": 2604,
+      "images": 3,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 64,
+      "pdfPage": 66,
+      "glyphs": 1607,
+      "images": 8,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 65,
+      "pdfPage": 67,
+      "glyphs": 2670,
+      "images": 3,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 66,
+      "pdfPage": 68,
+      "glyphs": 1219,
+      "images": 6,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 67,
+      "pdfPage": 69,
+      "glyphs": 2783,
+      "images": 1,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 68,
+      "pdfPage": 70,
+      "glyphs": 1982,
+      "images": 10,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 69,
+      "pdfPage": 71,
+      "glyphs": 2881,
+      "images": 5,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 70,
+      "pdfPage": 72,
+      "glyphs": 1909,
+      "images": 4,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 71,
+      "pdfPage": 73,
+      "glyphs": 2788,
+      "images": 1,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 72,
+      "pdfPage": 74,
+      "glyphs": 1754,
+      "images": 5,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 73,
+      "pdfPage": 75,
+      "glyphs": 2519,
+      "images": 1,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 74,
+      "pdfPage": 76,
+      "glyphs": 1644,
+      "images": 3,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 75,
+      "pdfPage": 77,
+      "glyphs": 2517,
+      "images": 1,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 76,
+      "pdfPage": 78,
+      "glyphs": 1835,
+      "images": 4,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 77,
+      "pdfPage": 79,
+      "glyphs": 2657,
+      "images": 1,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 78,
+      "pdfPage": 80,
+      "glyphs": 1905,
+      "images": 5,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 79,
+      "pdfPage": 81,
+      "glyphs": 2692,
+      "images": 1,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 80,
+      "pdfPage": 82,
+      "glyphs": 1697,
+      "images": 4,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 81,
+      "pdfPage": 83,
+      "glyphs": 2706,
+      "images": 1,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 82,
+      "pdfPage": 84,
+      "glyphs": 1705,
+      "images": 5,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 83,
+      "pdfPage": 85,
+      "glyphs": 2778,
+      "images": 1,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 84,
+      "pdfPage": 86,
+      "glyphs": 1649,
+      "images": 6,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 85,
+      "pdfPage": 87,
+      "glyphs": 2679,
+      "images": 1,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 86,
+      "pdfPage": 88,
+      "glyphs": 1908,
+      "images": 4,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 87,
+      "pdfPage": 89,
+      "glyphs": 2663,
+      "images": 1,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 88,
+      "pdfPage": 90,
+      "glyphs": 1570,
+      "images": 5,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 89,
+      "pdfPage": 91,
+      "glyphs": 2545,
+      "images": 1,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 90,
+      "pdfPage": 92,
+      "glyphs": 1644,
+      "images": 4,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 91,
+      "pdfPage": 93,
+      "glyphs": 2550,
+      "images": 1,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 92,
+      "pdfPage": 94,
+      "glyphs": 2164,
+      "images": 7,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 93,
+      "pdfPage": 95,
+      "glyphs": 3148,
+      "images": 3,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 94,
+      "pdfPage": 96,
+      "glyphs": 2100,
+      "images": 10,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 95,
+      "pdfPage": 97,
+      "glyphs": 2943,
+      "images": 3,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 96,
+      "pdfPage": 98,
+      "glyphs": 1732,
+      "images": 5,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 97,
+      "pdfPage": 99,
+      "glyphs": 2751,
+      "images": 1,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 98,
+      "pdfPage": 100,
+      "glyphs": 0,
+      "images": 0,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 99,
+      "pdfPage": 101,
+      "glyphs": 221,
+      "images": 3,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 100,
+      "pdfPage": 102,
+      "glyphs": 1901,
+      "images": 4,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 101,
+      "pdfPage": 103,
+      "glyphs": 1722,
+      "images": 5,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 102,
+      "pdfPage": 104,
+      "glyphs": 1988,
+      "images": 6,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 103,
+      "pdfPage": 105,
+      "glyphs": 1971,
+      "images": 6,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 104,
+      "pdfPage": 106,
+      "glyphs": 1696,
+      "images": 4,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 105,
+      "pdfPage": 107,
+      "glyphs": 1353,
+      "images": 4,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 106,
+      "pdfPage": 108,
+      "glyphs": 1973,
+      "images": 4,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 107,
+      "pdfPage": 109,
+      "glyphs": 2004,
+      "images": 5,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 108,
+      "pdfPage": 110,
+      "glyphs": 2311,
+      "images": 6,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 109,
+      "pdfPage": 111,
+      "glyphs": 2201,
+      "images": 6,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 110,
+      "pdfPage": 112,
+      "glyphs": 2026,
+      "images": 6,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 111,
+      "pdfPage": 113,
+      "glyphs": 763,
+      "images": 2,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 112,
+      "pdfPage": 114,
+      "glyphs": 2106,
+      "images": 5,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 113,
+      "pdfPage": 115,
+      "glyphs": 1919,
+      "images": 5,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 114,
+      "pdfPage": 116,
+      "glyphs": 1479,
+      "images": 5,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 115,
+      "pdfPage": 117,
+      "glyphs": 1910,
+      "images": 5,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 116,
+      "pdfPage": 118,
+      "glyphs": 585,
+      "images": 2,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 117,
+      "pdfPage": 119,
+      "glyphs": 1797,
+      "images": 4,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 118,
+      "pdfPage": 120,
+      "glyphs": 1993,
+      "images": 5,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 119,
+      "pdfPage": 121,
+      "glyphs": 2083,
+      "images": 6,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 120,
+      "pdfPage": 122,
+      "glyphs": 1889,
+      "images": 6,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 121,
+      "pdfPage": 123,
+      "glyphs": 1635,
+      "images": 5,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 122,
+      "pdfPage": 124,
+      "glyphs": 1513,
+      "images": 4,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 123,
+      "pdfPage": 125,
+      "glyphs": 1473,
+      "images": 4,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 124,
+      "pdfPage": 126,
+      "glyphs": 1879,
+      "images": 6,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 125,
+      "pdfPage": 127,
+      "glyphs": 959,
+      "images": 3,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 126,
+      "pdfPage": 128,
+      "glyphs": 1836,
+      "images": 4,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 127,
+      "pdfPage": 129,
+      "glyphs": 2012,
+      "images": 6,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 128,
+      "pdfPage": 130,
+      "glyphs": 1742,
+      "images": 6,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 129,
+      "pdfPage": 131,
+      "glyphs": 296,
+      "images": 1,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 130,
+      "pdfPage": 132,
+      "glyphs": 1563,
+      "images": 4,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 131,
+      "pdfPage": 133,
+      "glyphs": 1317,
+      "images": 4,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 132,
+      "pdfPage": 134,
+      "glyphs": 1912,
+      "images": 5,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 133,
+      "pdfPage": 135,
+      "glyphs": 1668,
+      "images": 6,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 134,
+      "pdfPage": 136,
+      "glyphs": 1756,
+      "images": 6,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 135,
+      "pdfPage": 137,
+      "glyphs": 1658,
+      "images": 6,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 136,
+      "pdfPage": 138,
+      "glyphs": 1222,
+      "images": 4,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 137,
+      "pdfPage": 139,
+      "glyphs": 1598,
+      "images": 4,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 138,
+      "pdfPage": 140,
+      "glyphs": 771,
+      "images": 2,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 139,
+      "pdfPage": 141,
+      "glyphs": 1988,
+      "images": 5,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 140,
+      "pdfPage": 142,
+      "glyphs": 1849,
+      "images": 5,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 141,
+      "pdfPage": 143,
+      "glyphs": 1916,
+      "images": 6,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 142,
+      "pdfPage": 144,
+      "glyphs": 1918,
+      "images": 6,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 143,
+      "pdfPage": 145,
+      "glyphs": 1904,
+      "images": 6,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 144,
+      "pdfPage": 146,
+      "glyphs": 1682,
+      "images": 4,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 145,
+      "pdfPage": 147,
+      "glyphs": 1552,
+      "images": 5,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 146,
+      "pdfPage": 148,
+      "glyphs": 601,
+      "images": 2,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 147,
+      "pdfPage": 149,
+      "glyphs": 254,
+      "images": 1,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 148,
+      "pdfPage": 150,
+      "glyphs": 1745,
+      "images": 0,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 149,
+      "pdfPage": 151,
+      "glyphs": 2405,
+      "images": 3,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true,
+      "referenceEdit": [
+        "148–149",
+        "150–151"
+      ]
+    },
+    {
+      "folio": 150,
+      "pdfPage": 152,
+      "glyphs": 1977,
+      "images": 3,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 151,
+      "pdfPage": 153,
+      "glyphs": 2023,
+      "images": 2,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true,
+      "referenceEdit": [
+        "40–41",
+        "58–59"
+      ]
+    },
+    {
+      "folio": 152,
+      "pdfPage": 154,
+      "glyphs": 1414,
+      "images": 2,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 153,
+      "pdfPage": 155,
+      "glyphs": 1681,
+      "images": 1,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 154,
+      "pdfPage": 156,
+      "glyphs": 1349,
+      "images": 2,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 155,
+      "pdfPage": 157,
+      "glyphs": 1414,
+      "images": 1,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 156,
+      "pdfPage": 158,
+      "glyphs": 1320,
+      "images": 3,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 157,
+      "pdfPage": 159,
+      "glyphs": 2156,
+      "images": 1,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 158,
+      "pdfPage": 160,
+      "glyphs": 1307,
+      "images": 1,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 159,
+      "pdfPage": 161,
+      "glyphs": 1485,
+      "images": 1,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 160,
+      "pdfPage": 162,
+      "glyphs": 1718,
+      "images": 1,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 161,
+      "pdfPage": 163,
+      "glyphs": 1772,
+      "images": 1,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 162,
+      "pdfPage": 164,
+      "glyphs": 1963,
+      "images": 1,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 163,
+      "pdfPage": 165,
+      "glyphs": 1819,
+      "images": 1,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 164,
+      "pdfPage": 166,
+      "glyphs": 1643,
+      "images": 4,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 165,
+      "pdfPage": 167,
+      "glyphs": 1924,
+      "images": 3,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 166,
+      "pdfPage": 168,
+      "glyphs": 1860,
+      "images": 4,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 167,
+      "pdfPage": 169,
+      "glyphs": 2108,
+      "images": 5,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 168,
+      "pdfPage": 170,
+      "glyphs": 2076,
+      "images": 0,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 169,
+      "pdfPage": 171,
+      "glyphs": 1691,
+      "images": 2,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 170,
+      "pdfPage": 172,
+      "glyphs": 1846,
+      "images": 1,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true,
+      "referenceEdit": [
+        "56–59",
+        "64–65, 70–71"
+      ]
+    },
+    {
+      "folio": 171,
+      "pdfPage": 173,
+      "glyphs": 1845,
+      "images": 0,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 172,
+      "pdfPage": 174,
+      "glyphs": 1563,
+      "images": 0,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 173,
+      "pdfPage": 175,
+      "glyphs": 1586,
+      "images": 0,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": 174,
+      "pdfPage": 176,
+      "glyphs": 1669,
+      "images": 0,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": null,
+      "pdfPage": 177,
+      "glyphs": 0,
+      "images": 0,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    },
+    {
+      "folio": null,
+      "pdfPage": 178,
+      "glyphs": 451,
+      "images": 1,
+      "textSizePositionsAndColoursPreservedOutsideReferenceEdits": true
+    }
+  ],
+  "bodyReferencesFound": [
+    {
+      "folio": 149,
+      "text": "pages 150–151"
+    },
+    {
+      "folio": 151,
+      "text": "pages 58–59"
+    },
+    {
+      "folio": 170,
+      "text": "pages 64–65"
+    }
+  ],
+  "fontsEmbedded": [],
+  "oldFooterTextObjectsRemoved": 448,
+  "categoryHeaderChanges": [
+    {
+      "folio": 10,
+      "removedTextObjects": 1
+    },
+    {
+      "folio": 11,
+      "removedTextObjects": 2
+    },
+    {
+      "folio": 12,
+      "removedTextObjects": 1
+    },
+    {
+      "folio": 13,
+      "removedTextObjects": 2
+    },
+    {
+      "folio": 14,
+      "removedTextObjects": 1
+    },
+    {
+      "folio": 15,
+      "removedTextObjects": 2
+    },
+    {
+      "folio": 16,
+      "removedTextObjects": 1
+    },
+    {
+      "folio": 17,
+      "removedTextObjects": 2
+    },
+    {
+      "folio": 18,
+      "removedTextObjects": 1
+    },
+    {
+      "folio": 19,
+      "removedTextObjects": 2
+    },
+    {
+      "folio": 20,
+      "removedTextObjects": 1
+    },
+    {
+      "folio": 21,
+      "removedTextObjects": 2
+    },
+    {
+      "folio": 22,
+      "removedTextObjects": 1
+    },
+    {
+      "folio": 23,
+      "removedTextObjects": 2
+    },
+    {
+      "folio": 24,
+      "removedTextObjects": 1
+    },
+    {
+      "folio": 25,
+      "removedTextObjects": 2
+    },
+    {
+      "folio": 26,
+      "removedTextObjects": 1
+    },
+    {
+      "folio": 27,
+      "removedTextObjects": 2
+    },
+    {
+      "folio": 28,
+      "removedTextObjects": 1
+    },
+    {
+      "folio": 29,
+      "removedTextObjects": 2
+    },
+    {
+      "folio": 30,
+      "removedTextObjects": 1
+    },
+    {
+      "folio": 31,
+      "removedTextObjects": 2
+    },
+    {
+      "folio": 32,
+      "removedTextObjects": 1
+    },
+    {
+      "folio": 33,
+      "removedTextObjects": 2
+    },
+    {
+      "folio": 34,
+      "removedTextObjects": 1
+    },
+    {
+      "folio": 35,
+      "removedTextObjects": 2
+    },
+    {
+      "folio": 36,
+      "removedTextObjects": 1
+    },
+    {
+      "folio": 37,
+      "removedTextObjects": 2
+    },
+    {
+      "folio": 38,
+      "removedTextObjects": 1
+    },
+    {
+      "folio": 39,
+      "removedTextObjects": 2
+    },
+    {
+      "folio": 40,
+      "removedTextObjects": 1
+    },
+    {
+      "folio": 41,
+      "removedTextObjects": 2
+    },
+    {
+      "folio": 42,
+      "removedTextObjects": 1
+    },
+    {
+      "folio": 43,
+      "removedTextObjects": 2
+    },
+    {
+      "folio": 44,
+      "removedTextObjects": 1
+    },
+    {
+      "folio": 45,
+      "removedTextObjects": 2
+    },
+    {
+      "folio": 46,
+      "removedTextObjects": 1
+    },
+    {
+      "folio": 47,
+      "removedTextObjects": 2
+    },
+    {
+      "folio": 48,
+      "removedTextObjects": 1
+    },
+    {
+      "folio": 49,
+      "removedTextObjects": 2
+    },
+    {
+      "folio": 50,
+      "removedTextObjects": 1
+    },
+    {
+      "folio": 51,
+      "removedTextObjects": 2
+    },
+    {
+      "folio": 52,
+      "removedTextObjects": 1
+    },
+    {
+      "folio": 53,
+      "removedTextObjects": 2
+    },
+    {
+      "folio": 54,
+      "removedTextObjects": 1
+    },
+    {
+      "folio": 55,
+      "removedTextObjects": 2
+    },
+    {
+      "folio": 56,
+      "removedTextObjects": 1
+    },
+    {
+      "folio": 57,
+      "removedTextObjects": 2
+    },
+    {
+      "folio": 58,
+      "removedTextObjects": 1
+    },
+    {
+      "folio": 59,
+      "removedTextObjects": 2
+    },
+    {
+      "folio": 60,
+      "removedTextObjects": 1
+    },
+    {
+      "folio": 61,
+      "removedTextObjects": 2
+    },
+    {
+      "folio": 62,
+      "removedTextObjects": 1
+    },
+    {
+      "folio": 63,
+      "removedTextObjects": 2
+    },
+    {
+      "folio": 64,
+      "removedTextObjects": 1
+    },
+    {
+      "folio": 65,
+      "removedTextObjects": 2
+    },
+    {
+      "folio": 66,
+      "removedTextObjects": 1
+    },
+    {
+      "folio": 67,
+      "removedTextObjects": 2
+    },
+    {
+      "folio": 68,
+      "removedTextObjects": 1
+    },
+    {
+      "folio": 69,
+      "removedTextObjects": 2
+    },
+    {
+      "folio": 70,
+      "removedTextObjects": 1
+    },
+    {
+      "folio": 71,
+      "removedTextObjects": 2
+    },
+    {
+      "folio": 72,
+      "removedTextObjects": 1
+    },
+    {
+      "folio": 73,
+      "removedTextObjects": 2
+    },
+    {
+      "folio": 74,
+      "removedTextObjects": 1
+    },
+    {
+      "folio": 75,
+      "removedTextObjects": 2
+    },
+    {
+      "folio": 76,
+      "removedTextObjects": 1
+    },
+    {
+      "folio": 77,
+      "removedTextObjects": 2
+    },
+    {
+      "folio": 78,
+      "removedTextObjects": 1
+    },
+    {
+      "folio": 79,
+      "removedTextObjects": 2
+    },
+    {
+      "folio": 80,
+      "removedTextObjects": 1
+    },
+    {
+      "folio": 81,
+      "removedTextObjects": 2
+    },
+    {
+      "folio": 82,
+      "removedTextObjects": 1
+    },
+    {
+      "folio": 83,
+      "removedTextObjects": 2
+    },
+    {
+      "folio": 84,
+      "removedTextObjects": 1
+    },
+    {
+      "folio": 85,
+      "removedTextObjects": 2
+    },
+    {
+      "folio": 86,
+      "removedTextObjects": 1
+    },
+    {
+      "folio": 87,
+      "removedTextObjects": 2
+    },
+    {
+      "folio": 88,
+      "removedTextObjects": 1
+    },
+    {
+      "folio": 89,
+      "removedTextObjects": 2
+    },
+    {
+      "folio": 90,
+      "removedTextObjects": 1
+    },
+    {
+      "folio": 91,
+      "removedTextObjects": 2
+    },
+    {
+      "folio": 92,
+      "removedTextObjects": 1
+    },
+    {
+      "folio": 93,
+      "removedTextObjects": 2
+    },
+    {
+      "folio": 94,
+      "removedTextObjects": 1
+    },
+    {
+      "folio": 95,
+      "removedTextObjects": 2
+    },
+    {
+      "folio": 96,
+      "removedTextObjects": 1
+    },
+    {
+      "folio": 97,
+      "removedTextObjects": 2
+    }
+  ],
+  "allLinks": [
+    {
+      "folio": 17,
+      "target": 150,
+      "kind": "see-also"
+    },
+    {
+      "folio": 19,
+      "target": 100,
+      "kind": "see-also"
+    },
+    {
+      "folio": 19,
+      "target": 151,
+      "kind": "see-also"
+    },
+    {
+      "folio": 19,
+      "target": 166,
+      "kind": "see-also"
+    },
+    {
+      "folio": 21,
+      "target": 100,
+      "kind": "see-also"
+    },
+    {
+      "folio": 23,
+      "target": 100,
+      "kind": "see-also"
+    },
+    {
+      "folio": 25,
+      "target": 137,
+      "kind": "see-also"
+    },
+    {
+      "folio": 25,
+      "target": 150,
+      "kind": "see-also"
+    },
+    {
+      "folio": 27,
+      "target": 104,
+      "kind": "see-also"
+    },
+    {
+      "folio": 27,
+      "target": 150,
+      "kind": "see-also"
+    },
+    {
+      "folio": 29,
+      "target": 106,
+      "kind": "see-also"
+    },
+    {
+      "folio": 29,
+      "target": 150,
+      "kind": "see-also"
+    },
+    {
+      "folio": 31,
+      "target": 106,
+      "kind": "see-also"
+    },
+    {
+      "folio": 31,
+      "target": 150,
+      "kind": "see-also"
+    },
+    {
+      "folio": 31,
+      "target": 167,
+      "kind": "see-also"
+    },
+    {
+      "folio": 33,
+      "target": 106,
+      "kind": "see-also"
+    },
+    {
+      "folio": 33,
+      "target": 149,
+      "kind": "see-also"
+    },
+    {
+      "folio": 37,
+      "target": 112,
+      "kind": "see-also"
+    },
+    {
+      "folio": 37,
+      "target": 150,
+      "kind": "see-also"
+    },
+    {
+      "folio": 37,
+      "target": 162,
+      "kind": "see-also"
+    },
+    {
+      "folio": 37,
+      "target": 164,
+      "kind": "see-also"
+    },
+    {
+      "folio": 39,
+      "target": 106,
+      "kind": "see-also"
+    },
+    {
+      "folio": 39,
+      "target": 150,
+      "kind": "see-also"
+    },
+    {
+      "folio": 41,
+      "target": 115,
+      "kind": "see-also"
+    },
+    {
+      "folio": 41,
+      "target": 150,
+      "kind": "see-also"
+    },
+    {
+      "folio": 43,
+      "target": 115,
+      "kind": "see-also"
+    },
+    {
+      "folio": 43,
+      "target": 150,
+      "kind": "see-also"
+    },
+    {
+      "folio": 45,
+      "target": 150,
+      "kind": "see-also"
+    },
+    {
+      "folio": 47,
+      "target": 117,
+      "kind": "see-also"
+    },
+    {
+      "folio": 47,
+      "target": 150,
+      "kind": "see-also"
+    },
+    {
+      "folio": 49,
+      "target": 117,
+      "kind": "see-also"
+    },
+    {
+      "folio": 49,
+      "target": 149,
+      "kind": "see-also"
+    },
+    {
+      "folio": 51,
+      "target": 117,
+      "kind": "see-also"
+    },
+    {
+      "folio": 51,
+      "target": 149,
+      "kind": "see-also"
+    },
+    {
+      "folio": 53,
+      "target": 123,
+      "kind": "see-also"
+    },
+    {
+      "folio": 53,
+      "target": 150,
+      "kind": "see-also"
+    },
+    {
+      "folio": 55,
+      "target": 122,
+      "kind": "see-also"
+    },
+    {
+      "folio": 55,
+      "target": 150,
+      "kind": "see-also"
+    },
+    {
+      "folio": 57,
+      "target": 126,
+      "kind": "see-also"
+    },
+    {
+      "folio": 57,
+      "target": 150,
+      "kind": "see-also"
+    },
+    {
+      "folio": 59,
+      "target": 106,
+      "kind": "see-also"
+    },
+    {
+      "folio": 59,
+      "target": 149,
+      "kind": "see-also"
+    },
+    {
+      "folio": 61,
+      "target": 106,
+      "kind": "see-also"
+    },
+    {
+      "folio": 63,
+      "target": 126,
+      "kind": "see-also"
+    },
+    {
+      "folio": 63,
+      "target": 150,
+      "kind": "see-also"
+    },
+    {
+      "folio": 63,
+      "target": 164,
+      "kind": "see-also"
+    },
+    {
+      "folio": 65,
+      "target": 123,
+      "kind": "see-also"
+    },
+    {
+      "folio": 65,
+      "target": 150,
+      "kind": "see-also"
+    },
+    {
+      "folio": 65,
+      "target": 162,
+      "kind": "see-also"
+    },
+    {
+      "folio": 65,
+      "target": 170,
+      "kind": "see-also"
+    },
+    {
+      "folio": 69,
+      "target": 126,
+      "kind": "see-also"
+    },
+    {
+      "folio": 69,
+      "target": 150,
+      "kind": "see-also"
+    },
+    {
+      "folio": 71,
+      "target": 130,
+      "kind": "see-also"
+    },
+    {
+      "folio": 71,
+      "target": 170,
+      "kind": "see-also"
+    },
+    {
+      "folio": 73,
+      "target": 112,
+      "kind": "see-also"
+    },
+    {
+      "folio": 73,
+      "target": 150,
+      "kind": "see-also"
+    },
+    {
+      "folio": 75,
+      "target": 100,
+      "kind": "see-also"
+    },
+    {
+      "folio": 75,
+      "target": 149,
+      "kind": "see-also"
+    },
+    {
+      "folio": 75,
+      "target": 162,
+      "kind": "see-also"
+    },
+    {
+      "folio": 75,
+      "target": 166,
+      "kind": "see-also"
+    },
+    {
+      "folio": 77,
+      "target": 132,
+      "kind": "see-also"
+    },
+    {
+      "folio": 77,
+      "target": 149,
+      "kind": "see-also"
+    },
+    {
+      "folio": 79,
+      "target": 144,
+      "kind": "see-also"
+    },
+    {
+      "folio": 79,
+      "target": 150,
+      "kind": "see-also"
+    },
+    {
+      "folio": 85,
+      "target": 137,
+      "kind": "see-also"
+    },
+    {
+      "folio": 85,
+      "target": 149,
+      "kind": "see-also"
+    },
+    {
+      "folio": 85,
+      "target": 170,
+      "kind": "see-also"
+    },
+    {
+      "folio": 87,
+      "target": 117,
+      "kind": "see-also"
+    },
+    {
+      "folio": 87,
+      "target": 150,
+      "kind": "see-also"
+    },
+    {
+      "folio": 89,
+      "target": 144,
+      "kind": "see-also"
+    },
+    {
+      "folio": 89,
+      "target": 150,
+      "kind": "see-also"
+    },
+    {
+      "folio": 93,
+      "target": 139,
+      "kind": "see-also"
+    },
+    {
+      "folio": 93,
+      "target": 149,
+      "kind": "see-also"
+    },
+    {
+      "folio": 93,
+      "target": 167,
+      "kind": "see-also"
+    },
+    {
+      "folio": 95,
+      "target": 139,
+      "kind": "see-also"
+    },
+    {
+      "folio": 95,
+      "target": 149,
+      "kind": "see-also"
+    },
+    {
+      "folio": 95,
+      "target": 167,
+      "kind": "see-also"
+    },
+    {
+      "folio": 97,
+      "target": 144,
+      "kind": "see-also"
+    },
+    {
+      "folio": 97,
+      "target": 150,
+      "kind": "see-also"
+    },
+    {
+      "folio": 171,
+      "target": 152,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 152,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 126,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 102,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 120,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 123,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 133,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 139,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 100,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 113,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 107,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 103,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 124,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 10,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 12,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 14,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 16,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 105,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 119,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 18,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 100,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 166,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 102,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 20,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 100,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 166,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 22,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 100,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 166,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 154,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 169,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 24,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 137,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 104,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 26,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 104,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 100,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 106,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 145,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 164,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 127,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 118,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 171,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 105,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 133,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 110,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 113,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 120,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 146,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 132,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 139,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 140,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 140,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 121,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 141,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 107,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 104,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 115,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 122,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 124,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 126,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 130,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 137,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 145,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 108,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 144,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 172,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 167,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 171,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 28,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 106,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 171,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 30,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 106,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 167,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 143,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 108,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 32,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 106,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 107,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 131,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 145,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 111,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 108,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 173,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 136,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 159,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 113,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 113,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 36,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 112,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 145,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 106,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 130,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 38,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 106,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 40,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 115,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 42,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 115,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 115,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 116,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 115,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 110,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 171,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 44,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 173,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 101,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 114,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 106,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 152,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 136,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 149,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 134,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 152,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 156,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 157,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 156,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 157,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 169,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 46,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 117,
+      "kind": "index"
+    },
+    {
+      "folio": 171,
+      "target": 150,
+      "kind": "index"
+    },
+    {
+      "folio": 172,
+      "target": 117,
+      "kind": "index"
+    },
+    {
+      "folio": 172,
+      "target": 119,
+      "kind": "index"
+    },
+    {
+      "folio": 172,
+      "target": 48,
+      "kind": "index"
+    },
+    {
+      "folio": 172,
+      "target": 117,
+      "kind": "index"
+    },
+    {
+      "folio": 172,
+      "target": 50,
+      "kind": "index"
+    },
+    {
+      "folio": 172,
+      "target": 117,
+      "kind": "index"
+    },
+    {
+      "folio": 172,
+      "target": 118,
+      "kind": "index"
+    },
+    {
+      "folio": 172,
+      "target": 158,
+      "kind": "index"
+    },
+    {
+      "folio": 172,
+      "target": 109,
+      "kind": "index"
+    },
+    {
+      "folio": 172,
+      "target": 124,
+      "kind": "index"
+    },
+    {
+      "folio": 172,
+      "target": 142,
+      "kind": "index"
+    },
+    {
+      "folio": 172,
+      "target": 115,
+      "kind": "index"
+    },
+    {
+      "folio": 172,
+      "target": 109,
+      "kind": "index"
+    },
+    {
+      "folio": 172,
+      "target": 160,
+      "kind": "index"
+    },
+    {
+      "folio": 172,
+      "target": 161,
+      "kind": "index"
+    },
+    {
+      "folio": 172,
+      "target": 102,
+      "kind": "index"
+    },
+    {
+      "folio": 172,
+      "target": 108,
+      "kind": "index"
+    },
+    {
+      "folio": 172,
+      "target": 123,
+      "kind": "index"
+    },
+    {
+      "folio": 172,
+      "target": 126,
+      "kind": "index"
+    },
+    {
+      "folio": 172,
+      "target": 137,
+      "kind": "index"
+    },
+    {
+      "folio": 172,
+      "target": 153,
+      "kind": "index"
+    },
+    {
+      "folio": 172,
+      "target": 163,
+      "kind": "index"
+    },
+    {
+      "folio": 172,
+      "target": 128,
+      "kind": "index"
+    },
+    {
+      "folio": 172,
+      "target": 133,
+      "kind": "index"
+    },
+    {
+      "folio": 172,
+      "target": 121,
+      "kind": "index"
+    },
+    {
+      "folio": 172,
+      "target": 125,
+      "kind": "index"
+    },
+    {
+      "folio": 172,
+      "target": 143,
+      "kind": "index"
+    },
+    {
+      "folio": 172,
+      "target": 52,
+      "kind": "index"
+    },
+    {
+      "folio": 172,
+      "target": 123,
+      "kind": "index"
+    },
+    {
+      "folio": 172,
+      "target": 172,
+      "kind": "index"
+    },
+    {
+      "folio": 172,
+      "target": 54,
+      "kind": "index"
+    },
+    {
+      "folio": 172,
+      "target": 122,
+      "kind": "index"
+    },
+    {
+      "folio": 172,
+      "target": 171,
+      "kind": "index"
+    },
+    {
+      "folio": 172,
+      "target": 155,
+      "kind": "index"
+    },
+    {
+      "folio": 172,
+      "target": 107,
+      "kind": "index"
+    },
+    {
+      "folio": 172,
+      "target": 131,
+      "kind": "index"
+    },
+    {
+      "folio": 172,
+      "target": 144,
+      "kind": "index"
+    },
+    {
+      "folio": 172,
+      "target": 164,
+      "kind": "index"
+    },
+    {
+      "folio": 172,
+      "target": 167,
+      "kind": "index"
+    },
+    {
+      "folio": 172,
+      "target": 172,
+      "kind": "index"
+    },
+    {
+      "folio": 172,
+      "target": 103,
+      "kind": "index"
+    },
+    {
+      "folio": 172,
+      "target": 56,
+      "kind": "index"
+    },
+    {
+      "folio": 172,
+      "target": 70,
+      "kind": "index"
+    },
+    {
+      "folio": 172,
+      "target": 150,
+      "kind": "index"
+    },
+    {
+      "folio": 172,
+      "target": 142,
+      "kind": "index"
+    },
+    {
+      "folio": 172,
+      "target": 102,
+      "kind": "index"
+    },
+    {
+      "folio": 172,
+      "target": 104,
+      "kind": "index"
+    },
+    {
+      "folio": 172,
+      "target": 112,
+      "kind": "index"
+    },
+    {
+      "folio": 172,
+      "target": 171,
+      "kind": "index"
+    },
+    {
+      "folio": 172,
+      "target": 109,
+      "kind": "index"
+    },
+    {
+      "folio": 172,
+      "target": 122,
+      "kind": "index"
+    },
+    {
+      "folio": 172,
+      "target": 131,
+      "kind": "index"
+    },
+    {
+      "folio": 172,
+      "target": 164,
+      "kind": "index"
+    },
+    {
+      "folio": 172,
+      "target": 118,
+      "kind": "index"
+    },
+    {
+      "folio": 172,
+      "target": 142,
+      "kind": "index"
+    },
+    {
+      "folio": 172,
+      "target": 103,
+      "kind": "index"
+    },
+    {
+      "folio": 172,
+      "target": 111,
+      "kind": "index"
+    },
+    {
+      "folio": 172,
+      "target": 135,
+      "kind": "index"
+    },
+    {
+      "folio": 172,
+      "target": 134,
+      "kind": "index"
+    },
+    {
+      "folio": 172,
+      "target": 152,
+      "kind": "index"
+    },
+    {
+      "folio": 172,
+      "target": 56,
+      "kind": "index"
+    },
+    {
+      "folio": 172,
+      "target": 126,
+      "kind": "index"
+    },
+    {
+      "folio": 172,
+      "target": 112,
+      "kind": "index"
+    },
+    {
+      "folio": 172,
+      "target": 143,
+      "kind": "index"
+    },
+    {
+      "folio": 172,
+      "target": 171,
+      "kind": "index"
+    },
+    {
+      "folio": 172,
+      "target": 141,
+      "kind": "index"
+    },
+    {
+      "folio": 172,
+      "target": 171,
+      "kind": "index"
+    },
+    {
+      "folio": 172,
+      "target": 168,
+      "kind": "index"
+    },
+    {
+      "folio": 172,
+      "target": 169,
+      "kind": "index"
+    },
+    {
+      "folio": 172,
+      "target": 170,
+      "kind": "index"
+    },
+    {
+      "folio": 172,
+      "target": 140,
+      "kind": "index"
+    },
+    {
+      "folio": 172,
+      "target": 114,
+      "kind": "index"
+    },
+    {
+      "folio": 172,
+      "target": 102,
+      "kind": "index"
+    },
+    {
+      "folio": 172,
+      "target": 119,
+      "kind": "index"
+    },
+    {
+      "folio": 172,
+      "target": 123,
+      "kind": "index"
+    },
+    {
+      "folio": 172,
+      "target": 139,
+      "kind": "index"
+    },
+    {
+      "folio": 172,
+      "target": 171,
+      "kind": "index"
+    },
+    {
+      "folio": 172,
+      "target": 122,
+      "kind": "index"
+    },
+    {
+      "folio": 172,
+      "target": 120,
+      "kind": "index"
+    },
+    {
+      "folio": 172,
+      "target": 101,
+      "kind": "index"
+    },
+    {
+      "folio": 172,
+      "target": 162,
+      "kind": "index"
+    },
+    {
+      "folio": 172,
+      "target": 108,
+      "kind": "index"
+    },
+    {
+      "folio": 172,
+      "target": 130,
+      "kind": "index"
+    },
+    {
+      "folio": 172,
+      "target": 124,
+      "kind": "index"
+    },
+    {
+      "folio": 172,
+      "target": 104,
+      "kind": "index"
+    },
+    {
+      "folio": 172,
+      "target": 143,
+      "kind": "index"
+    },
+    {
+      "folio": 172,
+      "target": 135,
+      "kind": "index"
+    },
+    {
+      "folio": 172,
+      "target": 143,
+      "kind": "index"
+    },
+    {
+      "folio": 172,
+      "target": 164,
+      "kind": "index"
+    },
+    {
+      "folio": 172,
+      "target": 171,
+      "kind": "index"
+    },
+    {
+      "folio": 172,
+      "target": 58,
+      "kind": "index"
+    },
+    {
+      "folio": 172,
+      "target": 106,
+      "kind": "index"
+    },
+    {
+      "folio": 172,
+      "target": 154,
+      "kind": "index"
+    },
+    {
+      "folio": 172,
+      "target": 60,
+      "kind": "index"
+    },
+    {
+      "folio": 172,
+      "target": 106,
+      "kind": "index"
+    },
+    {
+      "folio": 172,
+      "target": 103,
+      "kind": "index"
+    },
+    {
+      "folio": 173,
+      "target": 171,
+      "kind": "index"
+    },
+    {
+      "folio": 173,
+      "target": 155,
+      "kind": "index"
+    },
+    {
+      "folio": 173,
+      "target": 141,
+      "kind": "index"
+    },
+    {
+      "folio": 173,
+      "target": 134,
+      "kind": "index"
+    },
+    {
+      "folio": 173,
+      "target": 105,
+      "kind": "index"
+    },
+    {
+      "folio": 173,
+      "target": 138,
+      "kind": "index"
+    },
+    {
+      "folio": 173,
+      "target": 110,
+      "kind": "index"
+    },
+    {
+      "folio": 173,
+      "target": 126,
+      "kind": "index"
+    },
+    {
+      "folio": 173,
+      "target": 62,
+      "kind": "index"
+    },
+    {
+      "folio": 173,
+      "target": 126,
+      "kind": "index"
+    },
+    {
+      "folio": 173,
+      "target": 64,
+      "kind": "index"
+    },
+    {
+      "folio": 173,
+      "target": 123,
+      "kind": "index"
+    },
+    {
+      "folio": 173,
+      "target": 125,
+      "kind": "index"
+    },
+    {
+      "folio": 173,
+      "target": 152,
+      "kind": "index"
+    },
+    {
+      "folio": 173,
+      "target": 122,
+      "kind": "index"
+    },
+    {
+      "folio": 173,
+      "target": 109,
+      "kind": "index"
+    },
+    {
+      "folio": 173,
+      "target": 134,
+      "kind": "index"
+    },
+    {
+      "folio": 173,
+      "target": 141,
+      "kind": "index"
+    },
+    {
+      "folio": 173,
+      "target": 110,
+      "kind": "index"
+    },
+    {
+      "folio": 173,
+      "target": 138,
+      "kind": "index"
+    },
+    {
+      "folio": 173,
+      "target": 171,
+      "kind": "index"
+    },
+    {
+      "folio": 173,
+      "target": 171,
+      "kind": "index"
+    },
+    {
+      "folio": 173,
+      "target": 103,
+      "kind": "index"
+    },
+    {
+      "folio": 173,
+      "target": 101,
+      "kind": "index"
+    },
+    {
+      "folio": 173,
+      "target": 121,
+      "kind": "index"
+    },
+    {
+      "folio": 173,
+      "target": 149,
+      "kind": "index"
+    },
+    {
+      "folio": 173,
+      "target": 172,
+      "kind": "index"
+    },
+    {
+      "folio": 173,
+      "target": 173,
+      "kind": "index"
+    },
+    {
+      "folio": 173,
+      "target": 162,
+      "kind": "index"
+    },
+    {
+      "folio": 173,
+      "target": 124,
+      "kind": "index"
+    },
+    {
+      "folio": 173,
+      "target": 134,
+      "kind": "index"
+    },
+    {
+      "folio": 173,
+      "target": 159,
+      "kind": "index"
+    },
+    {
+      "folio": 173,
+      "target": 66,
+      "kind": "index"
+    },
+    {
+      "folio": 173,
+      "target": 127,
+      "kind": "index"
+    },
+    {
+      "folio": 173,
+      "target": 164,
+      "kind": "index"
+    },
+    {
+      "folio": 173,
+      "target": 165,
+      "kind": "index"
+    },
+    {
+      "folio": 173,
+      "target": 149,
+      "kind": "index"
+    },
+    {
+      "folio": 173,
+      "target": 170,
+      "kind": "index"
+    },
+    {
+      "folio": 173,
+      "target": 159,
+      "kind": "index"
+    },
+    {
+      "folio": 173,
+      "target": 149,
+      "kind": "index"
+    },
+    {
+      "folio": 173,
+      "target": 127,
+      "kind": "index"
+    },
+    {
+      "folio": 173,
+      "target": 68,
+      "kind": "index"
+    },
+    {
+      "folio": 173,
+      "target": 126,
+      "kind": "index"
+    },
+    {
+      "folio": 173,
+      "target": 148,
+      "kind": "index"
+    },
+    {
+      "folio": 173,
+      "target": 70,
+      "kind": "index"
+    },
+    {
+      "folio": 173,
+      "target": 130,
+      "kind": "index"
+    },
+    {
+      "folio": 173,
+      "target": 174,
+      "kind": "index"
+    },
+    {
+      "folio": 173,
+      "target": 131,
+      "kind": "index"
+    },
+    {
+      "folio": 173,
+      "target": 72,
+      "kind": "index"
+    },
+    {
+      "folio": 173,
+      "target": 112,
+      "kind": "index"
+    },
+    {
+      "folio": 173,
+      "target": 112,
+      "kind": "index"
+    },
+    {
+      "folio": 173,
+      "target": 114,
+      "kind": "index"
+    },
+    {
+      "folio": 173,
+      "target": 154,
+      "kind": "index"
+    },
+    {
+      "folio": 173,
+      "target": 100,
+      "kind": "index"
+    },
+    {
+      "folio": 173,
+      "target": 101,
+      "kind": "index"
+    },
+    {
+      "folio": 173,
+      "target": 74,
+      "kind": "index"
+    },
+    {
+      "folio": 173,
+      "target": 100,
+      "kind": "index"
+    },
+    {
+      "folio": 173,
+      "target": 166,
+      "kind": "index"
+    },
+    {
+      "folio": 173,
+      "target": 102,
+      "kind": "index"
+    },
+    {
+      "folio": 173,
+      "target": 34,
+      "kind": "index"
+    },
+    {
+      "folio": 173,
+      "target": 149,
+      "kind": "index"
+    },
+    {
+      "folio": 173,
+      "target": 152,
+      "kind": "index"
+    },
+    {
+      "folio": 173,
+      "target": 171,
+      "kind": "index"
+    },
+    {
+      "folio": 173,
+      "target": 162,
+      "kind": "index"
+    },
+    {
+      "folio": 173,
+      "target": 166,
+      "kind": "index"
+    },
+    {
+      "folio": 173,
+      "target": 153,
+      "kind": "index"
+    },
+    {
+      "folio": 173,
+      "target": 153,
+      "kind": "index"
+    },
+    {
+      "folio": 173,
+      "target": 100,
+      "kind": "index"
+    },
+    {
+      "folio": 173,
+      "target": 149,
+      "kind": "index"
+    },
+    {
+      "folio": 173,
+      "target": 132,
+      "kind": "index"
+    },
+    {
+      "folio": 173,
+      "target": 76,
+      "kind": "index"
+    },
+    {
+      "folio": 173,
+      "target": 132,
+      "kind": "index"
+    },
+    {
+      "folio": 173,
+      "target": 135,
+      "kind": "index"
+    },
+    {
+      "folio": 173,
+      "target": 171,
+      "kind": "index"
+    },
+    {
+      "folio": 173,
+      "target": 101,
+      "kind": "index"
+    },
+    {
+      "folio": 173,
+      "target": 117,
+      "kind": "index"
+    },
+    {
+      "folio": 173,
+      "target": 135,
+      "kind": "index"
+    },
+    {
+      "folio": 173,
+      "target": 174,
+      "kind": "index"
+    },
+    {
+      "folio": 173,
+      "target": 78,
+      "kind": "index"
+    },
+    {
+      "folio": 173,
+      "target": 144,
+      "kind": "index"
+    },
+    {
+      "folio": 173,
+      "target": 144,
+      "kind": "index"
+    },
+    {
+      "folio": 173,
+      "target": 171,
+      "kind": "index"
+    },
+    {
+      "folio": 173,
+      "target": 171,
+      "kind": "index"
+    },
+    {
+      "folio": 173,
+      "target": 117,
+      "kind": "index"
+    },
+    {
+      "folio": 173,
+      "target": 80,
+      "kind": "index"
+    },
+    {
+      "folio": 173,
+      "target": 125,
+      "kind": "index"
+    },
+    {
+      "folio": 173,
+      "target": 119,
+      "kind": "index"
+    },
+    {
+      "folio": 173,
+      "target": 141,
+      "kind": "index"
+    },
+    {
+      "folio": 173,
+      "target": 144,
+      "kind": "index"
+    },
+    {
+      "folio": 173,
+      "target": 136,
+      "kind": "index"
+    },
+    {
+      "folio": 173,
+      "target": 171,
+      "kind": "index"
+    },
+    {
+      "folio": 173,
+      "target": 171,
+      "kind": "index"
+    },
+    {
+      "folio": 173,
+      "target": 127,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 128,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 82,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 113,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 120,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 174,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 149,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 103,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 162,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 128,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 153,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 155,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 173,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 129,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 155,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 107,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 115,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 118,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 123,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 130,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 132,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 141,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 112,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 161,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 128,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 174,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 133,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 145,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 135,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 160,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 152,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 174,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 105,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 84,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 137,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 137,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 137,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 133,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 109,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 112,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 116,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 133,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 139,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 135,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 86,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 117,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 118,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 167,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 128,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 119,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 142,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 36,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 68,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 86,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 117,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 172,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 174,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 120,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 142,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 88,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 144,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 110,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 90,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 114,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 127,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 124,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 167,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 92,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 139,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 94,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 139,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 167,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 139,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 143,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 173,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 96,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 144,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 146,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 120,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 142,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 121,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 114,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 140,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 136,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 163,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 163,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 153,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 159,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 161,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 108,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 110,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 127,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 174,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 128,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 166,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 167,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 162,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 58,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 62,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 72,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 109,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 134,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 119,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 149,
+      "kind": "index"
+    },
+    {
+      "folio": 174,
+      "target": 106,
+      "kind": "index"
+    },
+    {
+      "folio": 4,
+      "target": 7,
+      "kind": "contents"
+    },
+    {
+      "folio": 4,
+      "target": 9,
+      "kind": "contents"
+    },
+    {
+      "folio": 4,
+      "target": 9,
+      "kind": "contents"
+    },
+    {
+      "folio": 4,
+      "target": 10,
+      "kind": "contents"
+    },
+    {
+      "folio": 4,
+      "target": 12,
+      "kind": "contents"
+    },
+    {
+      "folio": 4,
+      "target": 14,
+      "kind": "contents"
+    },
+    {
+      "folio": 4,
+      "target": 16,
+      "kind": "contents"
+    },
+    {
+      "folio": 4,
+      "target": 18,
+      "kind": "contents"
+    },
+    {
+      "folio": 4,
+      "target": 20,
+      "kind": "contents"
+    },
+    {
+      "folio": 4,
+      "target": 22,
+      "kind": "contents"
+    },
+    {
+      "folio": 4,
+      "target": 24,
+      "kind": "contents"
+    },
+    {
+      "folio": 4,
+      "target": 26,
+      "kind": "contents"
+    },
+    {
+      "folio": 4,
+      "target": 28,
+      "kind": "contents"
+    },
+    {
+      "folio": 4,
+      "target": 30,
+      "kind": "contents"
+    },
+    {
+      "folio": 4,
+      "target": 32,
+      "kind": "contents"
+    },
+    {
+      "folio": 4,
+      "target": 34,
+      "kind": "contents"
+    },
+    {
+      "folio": 4,
+      "target": 36,
+      "kind": "contents"
+    },
+    {
+      "folio": 4,
+      "target": 38,
+      "kind": "contents"
+    },
+    {
+      "folio": 4,
+      "target": 40,
+      "kind": "contents"
+    },
+    {
+      "folio": 4,
+      "target": 42,
+      "kind": "contents"
+    },
+    {
+      "folio": 4,
+      "target": 44,
+      "kind": "contents"
+    },
+    {
+      "folio": 4,
+      "target": 46,
+      "kind": "contents"
+    },
+    {
+      "folio": 4,
+      "target": 48,
+      "kind": "contents"
+    },
+    {
+      "folio": 4,
+      "target": 50,
+      "kind": "contents"
+    },
+    {
+      "folio": 4,
+      "target": 52,
+      "kind": "contents"
+    },
+    {
+      "folio": 4,
+      "target": 54,
+      "kind": "contents"
+    },
+    {
+      "folio": 4,
+      "target": 56,
+      "kind": "contents"
+    },
+    {
+      "folio": 4,
+      "target": 58,
+      "kind": "contents"
+    },
+    {
+      "folio": 4,
+      "target": 60,
+      "kind": "contents"
+    },
+    {
+      "folio": 4,
+      "target": 62,
+      "kind": "contents"
+    },
+    {
+      "folio": 4,
+      "target": 64,
+      "kind": "contents"
+    },
+    {
+      "folio": 4,
+      "target": 66,
+      "kind": "contents"
+    },
+    {
+      "folio": 4,
+      "target": 68,
+      "kind": "contents"
+    },
+    {
+      "folio": 4,
+      "target": 70,
+      "kind": "contents"
+    },
+    {
+      "folio": 4,
+      "target": 72,
+      "kind": "contents"
+    },
+    {
+      "folio": 4,
+      "target": 74,
+      "kind": "contents"
+    },
+    {
+      "folio": 4,
+      "target": 76,
+      "kind": "contents"
+    },
+    {
+      "folio": 4,
+      "target": 78,
+      "kind": "contents"
+    },
+    {
+      "folio": 4,
+      "target": 80,
+      "kind": "contents"
+    },
+    {
+      "folio": 4,
+      "target": 82,
+      "kind": "contents"
+    },
+    {
+      "folio": 4,
+      "target": 84,
+      "kind": "contents"
+    },
+    {
+      "folio": 4,
+      "target": 86,
+      "kind": "contents"
+    },
+    {
+      "folio": 4,
+      "target": 88,
+      "kind": "contents"
+    },
+    {
+      "folio": 4,
+      "target": 90,
+      "kind": "contents"
+    },
+    {
+      "folio": 4,
+      "target": 92,
+      "kind": "contents"
+    },
+    {
+      "folio": 4,
+      "target": 94,
+      "kind": "contents"
+    },
+    {
+      "folio": 4,
+      "target": 96,
+      "kind": "contents"
+    },
+    {
+      "folio": 5,
+      "target": 99,
+      "kind": "contents"
+    },
+    {
+      "folio": 5,
+      "target": 100,
+      "kind": "contents"
+    },
+    {
+      "folio": 5,
+      "target": 104,
+      "kind": "contents"
+    },
+    {
+      "folio": 5,
+      "target": 106,
+      "kind": "contents"
+    },
+    {
+      "folio": 5,
+      "target": 112,
+      "kind": "contents"
+    },
+    {
+      "folio": 5,
+      "target": 115,
+      "kind": "contents"
+    },
+    {
+      "folio": 5,
+      "target": 117,
+      "kind": "contents"
+    },
+    {
+      "folio": 5,
+      "target": 122,
+      "kind": "contents"
+    },
+    {
+      "folio": 5,
+      "target": 123,
+      "kind": "contents"
+    },
+    {
+      "folio": 5,
+      "target": 126,
+      "kind": "contents"
+    },
+    {
+      "folio": 5,
+      "target": 130,
+      "kind": "contents"
+    },
+    {
+      "folio": 5,
+      "target": 132,
+      "kind": "contents"
+    },
+    {
+      "folio": 5,
+      "target": 137,
+      "kind": "contents"
+    },
+    {
+      "folio": 5,
+      "target": 139,
+      "kind": "contents"
+    },
+    {
+      "folio": 5,
+      "target": 144,
+      "kind": "contents"
+    },
+    {
+      "folio": 5,
+      "target": 147,
+      "kind": "contents"
+    },
+    {
+      "folio": 5,
+      "target": 148,
+      "kind": "contents"
+    },
+    {
+      "folio": 5,
+      "target": 149,
+      "kind": "contents"
+    },
+    {
+      "folio": 5,
+      "target": 150,
+      "kind": "contents"
+    },
+    {
+      "folio": 5,
+      "target": 152,
+      "kind": "contents"
+    },
+    {
+      "folio": 5,
+      "target": 153,
+      "kind": "contents"
+    },
+    {
+      "folio": 5,
+      "target": 154,
+      "kind": "contents"
+    },
+    {
+      "folio": 5,
+      "target": 155,
+      "kind": "contents"
+    },
+    {
+      "folio": 5,
+      "target": 156,
+      "kind": "contents"
+    },
+    {
+      "folio": 5,
+      "target": 157,
+      "kind": "contents"
+    },
+    {
+      "folio": 5,
+      "target": 158,
+      "kind": "contents"
+    },
+    {
+      "folio": 5,
+      "target": 159,
+      "kind": "contents"
+    },
+    {
+      "folio": 5,
+      "target": 160,
+      "kind": "contents"
+    },
+    {
+      "folio": 5,
+      "target": 161,
+      "kind": "contents"
+    },
+    {
+      "folio": 5,
+      "target": 162,
+      "kind": "contents"
+    },
+    {
+      "folio": 5,
+      "target": 163,
+      "kind": "contents"
+    },
+    {
+      "folio": 5,
+      "target": 164,
+      "kind": "contents"
+    },
+    {
+      "folio": 5,
+      "target": 166,
+      "kind": "contents"
+    },
+    {
+      "folio": 5,
+      "target": 168,
+      "kind": "contents"
+    },
+    {
+      "folio": 5,
+      "target": 169,
+      "kind": "contents"
+    },
+    {
+      "folio": 5,
+      "target": 170,
+      "kind": "contents"
+    },
+    {
+      "folio": 5,
+      "target": 171,
+      "kind": "contents"
+    },
+    {
+      "folio": 149,
+      "target": 150,
+      "kind": "body-reference"
+    },
+    {
+      "folio": 151,
+      "target": 58,
+      "kind": "body-reference"
+    },
+    {
+      "folio": 170,
+      "target": 64,
+      "kind": "body-reference"
+    },
+    {
+      "folio": 170,
+      "target": 70,
+      "kind": "body-reference"
+    }
+  ],
+  "canonicalRecords": {
+    "../hackriculture-data/vegetables/artichoke_jerusalem/artichoke_jerusalem.json": "ba4a3ca79ec29cb0ef0cd4ff9a1ae263f5c4f30f353afa697db0d32d3693786e",
+    "../hackriculture-data/vegetables/artichoke_globe/artichoke_globe.json": "496b19be3495baf2faba795d2f943867f41077917355ebf0fb2c7300d44f61e6",
+    "../hackriculture-data/vegetables/asparagus/asparagus.json": "7c254427bcbb1186c168f0bf484202151c24a27fdbac03c08d3ec85514ac4b17",
+    "../hackriculture-data/vegetables/aubergine/aubergine.json": "f5e287f05241db2360b7988a28a96670b0bd9abf4ccc5a37dcb838237020f4f8",
+    "../hackriculture-data/vegetables/bean_broad/bean_broad.json": "b446a18b1ee992cd7f6b2c171278946f8f7357eb8d96d4ff7cc2f7cd9ce5a8f5",
+    "../hackriculture-data/vegetables/bean_french/bean_french.json": "c8475ac78d5dfcffd46bc102387c7774520e4da3ed2ac55d9ed1bfa91a82c671",
+    "../hackriculture-data/vegetables/bean_runner/bean_runner.json": "e1235f57d81b006cf1c521713112e316f8ca2b21c1d23fe8d7a5bdb4f69130e7",
+    "../hackriculture-data/vegetables/beet_leaf/beet_leaf.json": "d42537206089260908c9d224a2a90af7bc92903e9a7a8a9c37ea58a5be0f2234",
+    "../hackriculture-data/vegetables/beetroot/beetroot.json": "a05e43126a5dc28c0506acd129558ba21c89ba4e2128e1d2a77242ac1fe1dac7",
+    "../hackriculture-data/vegetables/broccoli/broccoli.json": "23e1aa3ffa68398d663d38be03f9de9942cf2d028d132cad54f45f613dda6bef",
+    "../hackriculture-data/vegetables/brussels_sprouts/brussels_sprouts.json": "2c5b7e8f210de8c7944a78dc97631da8237d110ef395337fac302a06d9397cab",
+    "../hackriculture-data/vegetables/cabbage/cabbage.json": "141c6d309e5fbf550c4ccbfccc8ec4f0265b0e269603f7675bcf2b8671e23553",
+    "../hackriculture-data/vegetables/capsicum/capsicum.json": "8ba9a68e3105584312a052c68b005a20d342744c74fef3bbe44157be505c6c8d",
+    "../hackriculture-data/vegetables/carrot/carrot.json": "c5f076beb6cfe55cc90f80a6bc4a5f9690a4a25358c4bb74085a68798cd3500e",
+    "../hackriculture-data/vegetables/cauliflower/cauliflower.json": "ca6000e5ae90a260f64a61508c6fc6416f02704ef7430e38088a04d9280f8402",
+    "../hackriculture-data/vegetables/celeriac/celeriac.json": "ac337c5fcb5e6b9e5088d3e085197b0360ec5ce70a70b357218a05044d5e814b",
+    "../hackriculture-data/vegetables/celery/celery.json": "3dab63f9e0215e7cac1e75b4d08c335fd032c5103ed6ca449bb026b2829a97ef",
+    "../hackriculture-data/vegetables/chicory/chicory.json": "c1aeb93bca2ab510ae44aa230beb59cfd90435c0bb566b9d80a610c12a702398",
+    "../hackriculture-data/vegetables/cucumber_greenhouse/cucumber_greenhouse.json": "4e4a4e078defc114b2c0edfa6677954256b2496559f4c7f85d9a22931beda5e7",
+    "../hackriculture-data/vegetables/cucumber_outdoor/cucumber_outdoor.json": "2fa66254d34fe5603e4e8c4cf5f8697108ff9019cc9693fb4385b9f109edaa25",
+    "../hackriculture-data/vegetables/endive/endive.json": "3851b3dca1d7df564695dd59a4f3da5b49821ff7aee11c5b412fde838cafff54",
+    "../hackriculture-data/vegetables/florence_fennel/florence_fennel.json": "e29705c338ab2e2fe87ef507889c64b3e523f57b8c541d51841a6c76fd093278",
+    "../hackriculture-data/vegetables/garlic/garlic.json": "95973cc7e837236ec8874f6ba502be7ab5a192e44de0a909fbe5e53d8bde8dce",
+    "../hackriculture-data/vegetables/kale/kale.json": "2127e8502c9852cbd118e743f90cc6db61ad060f9dd12df5acf873ed109350b7",
+    "../hackriculture-data/vegetables/kohl_rabi/kohl_rabi.json": "e5f93753c88b39cff3ab7444e048f5c1578d44f8c4186f33c70c819b964ff575",
+    "../hackriculture-data/vegetables/leek/leek.json": "4a1409e7caa2beeb94415b62a232963d10dfb3a89ec6bcdbd51c617722c3da09",
+    "../hackriculture-data/vegetables/lettuce/lettuce.json": "498782e48dc1496a943725a9ad723db8d63cacacb12e9a3adbcdec9418b16a91",
+    "../hackriculture-data/vegetables/marrow_courgette/marrow_courgette.json": "653aa99044904c75d6cde3b5d8dc259eeb232ea56402a5bd3f26403804f8b4a1",
+    "../hackriculture-data/vegetables/squash_pumpkin/squash_pumpkin.json": "e66d98cc37b7da6f87dc656a2832ea2d14c328806cdc1a6efa112b54ccc2d7eb",
+    "../hackriculture-data/vegetables/mushroom/mushroom.json": "5ddd7f2e31912666ec473fba5e36ac5cbdb559c46c15da19319bf4cf7620a30f",
+    "../hackriculture-data/vegetables/onion_shallot/onion_shallot.json": "7970e902671fc38c9c7eb0465dd3ddf04e3ca35f45426091a1e92c0cbbc82cb3",
+    "../hackriculture-data/vegetables/oriental_leaves/oriental_leaves.json": "3f660087e2cbf7dcae70216bb44f17db5c3cd05cfd35265bb83f87069da13ed8",
+    "../hackriculture-data/vegetables/parsnip/parsnip.json": "881ae0dd9a07e954475ad147fc933aca0f370da34b5c3804fe7b62fdf4c1509f",
+    "../hackriculture-data/vegetables/pea/pea.json": "d45019ba61a7873dbac94a7c28f7c39fdfa7a554581e1c5e4d2f9f5d10ddab51",
+    "../hackriculture-data/vegetables/potato/potato.json": "7f2d0445e3d4915ad8e3ea4f2c519882edceb0fea1ef1fb93e439500d6c10c70",
+    "../hackriculture-data/vegetables/radish/radish.json": "59e6af73342336440cdc859fa0942c53fe29442124090d6093d358050ece79c5",
+    "../hackriculture-data/vegetables/rhubarb/rhubarb.json": "5878f12fb894704d2a08a028d61de11a9baba3f7a7c56e7f531bafa5fb45f00f",
+    "../hackriculture-data/vegetables/salsify_scorzonera/salsify_scorzonera.json": "45fc088e83c30a3a27461830e9a7725f98a0a70dc73585535df3fe9dfb463675",
+    "../hackriculture-data/vegetables/spinach/spinach.json": "6cb3234a7c1d03445f2e6d1dad62436050400e724420ef62a1fd00a5869ffb39",
+    "../hackriculture-data/vegetables/swede/swede.json": "87db9a40118e4e0b6feb5ca0676df7d1e73b229f3b4e9a1dba6958aafef85832",
+    "../hackriculture-data/vegetables/sweet_corn/sweet_corn.json": "64f478ba874686eaba8060bd553175ce72b42c738390574491955ef23a58de78",
+    "../hackriculture-data/vegetables/tomato_greenhouse/tomato_greenhouse.json": "4db2f7e1fc25d9a115ad47e82b1af03ca4eccb17d9d390e89f391b22f1a76670",
+    "../hackriculture-data/vegetables/tomato_outdoor/tomato_outdoor.json": "bd4444fba94162621ac0d9303a6d594867993850cca990b6427a6440c9abfe94",
+    "../hackriculture-data/vegetables/turnip/turnip.json": "440b2f5d7174d315ad4000cc77c7ad9266d71f0db6974d3db039bda046363fc3",
+    "../hackriculture-data/troubles/bean_and_pea_troubles/bean_and_pea_troubles.json": "6cffc5b12f2bf15bff725603f7b6ad93a7a504c85c97ec57f5a1412e351243dd",
+    "../hackriculture-data/troubles/beetroot_troubles/beetroot_troubles.json": "7bb8a2f1e658b49984dc9cd569124a4d0bf9e5d9d36665007a02c453ccab4924",
+    "../hackriculture-data/troubles/brassica_troubles/brassica_troubles.json": "17b1951288f48e3dbb2e215c568eb22e7a34207eea7fd4d5c9863132b7d3ada7",
+    "../hackriculture-data/troubles/carrot_and_parsnip_troubles/carrot_and_parsnip_troubles.json": "add7ddf0a427047b4792783889998decf7c784fbbe7d3600e3d319030dff1ecc",
+    "../hackriculture-data/troubles/celery_troubles/celery_troubles.json": "4ecfa7d1611da6116de333bb9688b233e9f32d3385d5a094eb4c507cc6f5d392",
+    "../hackriculture-data/troubles/florence_fennel_troubles/florence_fennel_troubles.json": "381aca45cb049b2534eaf24f764525b6c3c1406cb6cc895675eefd8171f9eddb",
+    "../hackriculture-data/troubles/cucurbit_troubles/cucurbit_troubles.json": "77cb035c96d1d954c371b3772383d8d3994cb70f1f64a768bf6435673aa2c432",
+    "../hackriculture-data/troubles/lettuce_troubles/lettuce_troubles.json": "c77a1b89c64019f62461a240247071994056372ac6396cada6bd526dfc405b24",
+    "../hackriculture-data/troubles/oriental_leaves_troubles/oriental_leaves_troubles.json": "dffcc8cb818597d274e781cd0cc853121b5208aac83e85f0c8aeff6efbd4837c",
+    "../hackriculture-data/troubles/onion_and_leek_troubles/onion_and_leek_troubles.json": "ba537e1084cfa019f2f4bdd9cc29d0843948adb87c794589407685be0805f89a",
+    "../hackriculture-data/troubles/potato_troubles/potato_troubles.json": "70e0c9913803f714d68e63991d9422aff318b9fe485d97b892f15ed7798a7078",
+    "../hackriculture-data/troubles/spinach_troubles/spinach_troubles.json": "fee50b03b5087e0112a2ea7cd6308482a87662ff141c50c8c85f01b41f20c733",
+    "../hackriculture-data/troubles/tomato_troubles/tomato_troubles.json": "b93b1093163a2f7936f2218a6e671a3cfbcf73b059231cd302cf27a0a29c218e",
+    "../hackriculture-data/troubles/turnip_swede_radish_troubles/turnip_swede_radish_troubles.json": "eaf6d648401007d4ae27e0ecea86246b9544ea70c313a57ce4e00ef133d9632d"
+  },
+  "priorSourcesPreserved": true
+}

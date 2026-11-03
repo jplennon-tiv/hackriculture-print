@@ -1,0 +1,127 @@
+{
+  "status": "Proposed book-only wording changes for John’s review",
+  "date": "2026-11-02",
+  "scope": "Make liming conditional on a soil test; retain crop preferences, pH values and disease cautions. No canonical records or approved source files are changed.",
+  "guides": {
+    "asparagus": [
+      {
+        "selector": ".soil li",
+        "before": "lime very acid ground if needed",
+        "after": "lime only if a soil test shows a need",
+        "reason": "Make the basis for deciding explicit."
+      }
+    ],
+    "bean_broad": [
+      {
+        "selector": ".soil li",
+        "before": "Lime very acid soil to pH 6.5.",
+        "after": "About pH 6.5 suits the crop; test before liming.",
+        "reason": "Keep the pH preference without making it an automatic liming target."
+      }
+    ],
+    "bean_french": [
+      {
+        "selector": ".soil li",
+        "before": "Lime only if too acid.",
+        "after": "Test before liming acid soil.",
+        "reason": "Require a check before treatment."
+      }
+    ],
+    "bean_runner": [
+      {
+        "selector": ".soil li",
+        "before": "Lime acid soil if needed towards pH 6.5.",
+        "after": "About pH 6.5 suits the crop; test before liming.",
+        "reason": "Keep the pH preference without automatic treatment."
+      }
+    ],
+    "beetroot": [
+      {
+        "selector": ".soil li",
+        "before": "Lime acid soil towards pH 6.5; feed poor ground if needed.",
+        "after": "About pH 6.5 suits the crop; test before liming. Feed poor ground if needed.",
+        "reason": "Retain the crop preference and conditional feeding; qualify liming."
+      }
+    ],
+    "broccoli": [
+      {
+        "selector": ".soil li",
+        "before": "lime only if needed.",
+        "after": "lime only if a soil test shows a need.",
+        "reason": "Make the decision explicit; the clubroot table already says testing is needed and lime is not a cure."
+      }
+    ],
+    "brussels_sprouts": [
+      {
+        "selector": ".soil li",
+        "before": "Lime acid soil if needed.",
+        "after": "Lime only if a soil test shows a need.",
+        "reason": "Make the decision explicit; retain the separate clubroot caution."
+      }
+    ],
+    "cabbage": [
+      {
+        "selector": ".remember p",
+        "before": "Add organic matter and lime acid ground only if needed.",
+        "after": "Add organic matter; lime only if a soil test shows a need.",
+        "reason": "Bring the reminder into line with conditional soil advice."
+      },
+      {
+        "selector": ".soil li",
+        "before": "Lime acid ground if needed;",
+        "after": "Test before liming acid ground;",
+        "reason": "Carry the test requirement into the main instructions."
+      }
+    ],
+    "carrot": [
+      {
+        "selector": ".soil li",
+        "before": "lime acid soil in winter and prepare a fine seedbed.",
+        "after": "test before liming and prepare a fine seedbed.",
+        "reason": "Remove the suggestion of a routine winter treatment; retain the approved fresh-manure qualification."
+      }
+    ],
+    "lettuce": [
+      {
+        "selector": ".remember h3",
+        "before": "Avoid acid soil.",
+        "after": "Check before liming.",
+        "reason": "Make the reminder an action rather than a blanket warning about acidity."
+      },
+      {
+        "selector": ".remember p",
+        "before": "Lime if necessary and improve heavy clay with compost.",
+        "after": "Test before adding lime; improve heavy clay with compost.",
+        "reason": "Explain how to decide whether lime is necessary."
+      },
+      {
+        "selector": ".soil li",
+        "before": "Lime acid soil towards neutral;",
+        "after": "Test before liming towards neutral;",
+        "reason": "Retain the existing preference but require a check before correction."
+      }
+    ],
+    "potato": [
+      {
+        "selector": ".soil li",
+        "before": "Rotate; avoid liming.",
+        "after": "Rotate; avoid fresh lime.",
+        "reason": "Make the crop-specific timing clear, rather than imply that a rotation bed can never be limed."
+      },
+      {
+        "selector": ".pests td",
+        "before": "Avoid liming; keep soil moist as tubers form.",
+        "after": "Avoid fresh lime; keep soil moist as tubers form.",
+        "reason": "Retain the common-scab and moisture caution with clear timing."
+      }
+    ],
+    "radish": [
+      {
+        "selector": ".soil li",
+        "before": "Lime acid soil if needed.",
+        "after": "Test before liming acid soil.",
+        "reason": "Make the test requirement explicit; retain the existing ACID SOIL table entry."
+      }
+    ]
+  }
+}

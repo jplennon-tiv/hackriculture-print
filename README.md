@@ -13,18 +13,27 @@ entry point for current decisions, component status, outstanding work and
 publication/automation boundaries. It distinguishes approved designs from
 working book proofs and historical evidence. Follow John's latest instruction.
 
-**Current work, 31 October:** John has received the physical proof and is
+**Current book, 2 November:** the approved [Testing and adjusting pH page](docs/publication/topic-pages/soil-acidity/README.md)
+is integrated at **152**, and the approved three-panel guide intro at **9**.
+Contents, index, numbering and links are refreshed. The book remains **174 interior
+pages / 178 PDF pages**. Watering now faces Sowing, preserving Netting/Supports
+spreads without an added blank. The [promotional slides handover](docs/handover/PROMOTIONAL-SLIDES.md)
+identifies the current PDF and artwork for the next chat.
+The [sixteen vegetable wording proposals](docs/publication/soil-acidity-crop-edits/DIFF.html)
+remain unapproved and unintegrated. Canonical advice and supplier files are unchanged.
+
+**Post-proof work:** John has received the physical proof and is
 satisfied with its print quality, accurate colours, coated-paper feel and weight,
 and book size. The post-proof layout pass has started: all 44 vegetable guides
 now run in alphabetical order by their displayed titles, retaining their original
 category colours and complete facing pairs. Contents, index and internal page
 references follow that order. The approved larger category names now appear on both pages of all 44 guides. The
 [coloured contents and pale category key](docs/publication/contents-colour-study/key-preview/APPROVAL.json)
-are integrated at 4–5; the existing how-to page is unchanged.
+are integrated at 4–5; the approved three-panel how-to revision is now at 9.
 The subsequent [page-9 revision](docs/publication/guides-intro-detail/README.md)
 is now approved: three how-to panels, revised calendar copy, two difficulty
-examples and restored needs captions. Its exact proof is locked for the next
-requested book update; the complete book still contains the earlier page.
+examples and restored needs captions. Its exact approved proof is now
+integrated in the complete book.
 John approved the [complete revised Troubles set](docs/publication/troubles-rollout/APPROVAL.json)
 on 31 October and requested main-book integration. The exact approved pages are
 now at **99–146**, retaining 220 conditions, 24 classified highlights, separate
@@ -32,8 +41,8 @@ wrapping masks, 4 mm clearance, enlarged illustrations, importance order and
 natural trailing space. Potato slugs remain unstarred. Contents, index,
 bookmarks, crop links and numeric cross-references follow the revised locations.
 The [main-book evidence](docs/publication/whole-book-order-preview/README.md)
-records source preservation and actual PDF checks. Netting is now **162–163**,
-Supports **164–165**, and the index **170–173**.
+records source preservation and actual PDF checks. Netting is now **164–165**,
+Supports **166–167**, and the index **171–174**.
 The introduction
 rewrite remains planned. The
 [website is live](https://hackriculture.com/) and he confirms the SSL issue has
@@ -98,8 +107,8 @@ admin password. Keep its terminal open; Control-C stops it. Admin saves and
 browser-rendered PDFs need this server. Normal exports use no AI service.
 Detailed startup and check commands are in [SETUP.md](SETUP.md).
 
-The current index has 297 entries and 35 see references on pages 170–173.
-Contents retain two simple illustrated pages with 83 destinations and no extra
+The current index has 303 entries and 35 see references on pages 171–174.
+Contents retain two simple illustrated pages with 84 destinations and no extra
 subheadings. [Contents notes](docs/publication/contents-update/README.md) and
 [index notes](docs/publication/book-index/README.md) distinguish current derivatives
 from frozen approvals.

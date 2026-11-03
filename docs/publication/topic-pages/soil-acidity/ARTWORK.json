@@ -1,0 +1,39 @@
+{
+  "date": "2026-11-02",
+  "status": "New proposed artwork, not author-approved",
+  "generation": "Native image generation tool; transparent PNGs. Original files retained.",
+  "referenceRoles": [
+    {
+      "path": "public/images/heroes/richer-a/radish.png",
+      "role": "Authoritative approved hero drawing style",
+      "sha256": "ec100382eb7b5752f822e75cc0ca8d46dcde8ac473dde6fb55ce9fbe66aa26e1"
+    },
+    {
+      "path": "public/images/heroes/richer-a/kale.png",
+      "role": "Authoritative approved hero drawing style",
+      "sha256": "e1122f1645dd3b947b96c74ef355e49d33c6cdea37154ef19e7b87f0f8c38f2f"
+    },
+    {
+      "path": "docs/publication/topic-pages/techniques-expansion/assets/watering-check-v1.png",
+      "role": "Approved practical-tool illustration style",
+      "sha256": "c012e3b795590bdc0d094c1429962e9d10b3b81f9bb39309a02f516634c9c646"
+    }
+  ],
+  "assets": [
+    {
+      "file": "assets/ph-test-kit.png",
+      "original": "/Users/johnlennon/.codex/generated_images/01a183cd-1dd2-7203-9dc6-7a90fed5b679/exec-2861bad4-a9fc-4a15-b107-d564fc941f2f.png",
+      "prompt": "Use case: scientific-educational. Create ONE isolated landscape illustration for a printed UK vegetable gardening book. Input images 1 and 2 are authoritative drawing STYLE references only (radish and kale); image 3 is the approved practical-tool illustration style. New subject: a simple domestic soil pH colour-test kit alongside a clean garden trowel, a modest green plastic bowl containing a mixed soil sample, and one upright clear flat-bottom test vial with a little settled brown soil at bottom and transparent pale yellow-green liquid above. A separate small dropper bottle stands behind vial; no hand, no plants. To the right an upright generic comparator card with five broad coloured squares (warm orange, yellow, light green, darker green, muted blue) stacked vertically, WITHOUT letters, numbers or symbols. Card is just a generic visual cue; no precise result claimed. Compose objects as one readable compact still-life, trowel and soil bowl left, vial and comparator right. Bold simplified silhouettes, broad discrete colour and shadow planes, crisp pale highlight strokes, dimensional vector-like style matching the references. Forest greens, golden ochre handle, warm brown soil, cream paper card. Avoid photorealism, tiny soil stippling, fine etching, black outlines, labels/logos, extra duplicate tubes. Full objects completely visible with 6% breathing room, genuinely transparent background. Landscape aspect about 3:2. Designed for a 65 mm wide illustration.",
+      "sha256": "0a4c57381d1622285dc0bd827d4070a0d19ed76326f35a332ac1aad5f1ea1630"
+    },
+    {
+      "file": "assets/garden-lime.png",
+      "original": "/Users/johnlennon/.codex/generated_images/01a183cd-1dd2-7203-9dc6-7a90fed5b679/exec-a523a73c-2dbe-44d0-a52f-46a76e2e54c1.png",
+      "prompt": "Create ONE isolated educational still-life illustration for a UK vegetable gardening book. Use input 1 radish and input 2 kale as authoritative STYLE references only, input 3 watering tools as practical object style. Subject: a folded-open plain cream paper sack of horticultural ground limestone, a small dull silver garden scoop resting beside it containing a modest amount of pale cream fine lime, and a pair of green gardening gloves. Sack upright on left, scoop in front pointing right, gloves loosely together to right. No text, no labels, no logos, no garden, no human body or hands, no dust cloud, no scattered powder, no scale. Sack front should have one simple dark green rectangular printed field with a cream leaf silhouette ONLY. All objects completely visible. Bold simple dimensional vector-like illustration, broad separate colour planes, deep forest greens, warm cream highlights, ochre shadows, clean generous shapes and crisp light highlight strokes matching the approved references. No photorealism, no thin black outlines, no fine hatching. Transparent background with NO ground plane and no background glow or coloured haze. Compact landscape aspect about 3:2. Readable at 60 mm across.",
+      "sha256": "2701f222b5f52cdb42f69175802ef8f1c9cb31301b77030e856e4c40a467e4a9"
+    }
+  ],
+  "scale": "Omitted from the revised one-page composition at John\u2019s request to simplify; pH is explained in the introduction.",
+  "inspection": "Each generated illustration inspected against the hero and watering references. Bold simplified shapes, green/ochre palette, cream highlights and actual alpha are retained. No post-generation painting, removal or restyling.",
+  "currentPlacement": "One page: testing illustration in peach testing panel; lime illustration in pale green liming panel. Both original PNGs retained unchanged."
+}

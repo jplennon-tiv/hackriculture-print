@@ -18,9 +18,13 @@ export const approvedTopicOrder=[
 const subsectionTopicOrder=approvedTopicOrder.map(([id,folio,count=1])=>[id,folio-(folio>150?1:0)-(folio>162?1:0),count]);
 export const plantCareApprovals=['netting','supports'].map(id=>`docs/publication/topic-pages/plant-protection-supports/${id}/APPROVAL.json`);
 // Insert the approved facing spreads without rebuilding the retained topic bodies.
+export const soilAcidityApproval='docs/publication/topic-pages/soil-acidity/APPROVAL.json';
+// Final folios are calculated by the contents plan. Keep Sowing/Watering together
+// so the single-page insertion preserves both accepted plant-care facing spreads.
 export const currentTopicOrder=subsectionTopicOrder.flatMap(([id,folio,count])=>[
- ...(id==='technique:watering'?[['technique:netting',160,2],['technique:supports',162,2]]:[]),
- [id,folio+(folio>=160?4:0),count]
+ [id,folio,count],
+ ...(id==='technique:rotation'?[['technique:soil-acidity',152,1]]:[]),
+ ...(id==='technique:watering'?[['technique:netting',164,2],['technique:supports',166,2]]:[])
 ]);
 function verify(pdf,expected){const hash=sha256(fs.readFileSync(path.resolve(root,pdf)));if(hash!==expected)throw Error('Approved input changed: '+pdf);return hash;}
 export function loadReaderGuides(){
@@ -76,5 +80,8 @@ export function applyApprovedTopics(sources){
   if(!accepted)throw Error('Approved plant-care PDF missing: '+id);
   for(const units of ['imperial','metric'])sources[units]['technique:'+id]={pdf,sha256:accepted.sha256,sourcePage:1,physicalPages:2,sourcePdfPages:2,approval:approvalPath};
  }
+ const acidity=json(soilAcidityApproval);
+ for(const f of acidity.files)verify(f.path,f.sha256);
+ for(const units of ['imperial','metric'])sources[units]['technique:soil-acidity']={pdf:acidity.proof.path,sha256:acidity.proof.sha256,sourcePage:1,physicalPages:1,sourcePdfPages:1,approval:soilAcidityApproval};
  return sources;
 }

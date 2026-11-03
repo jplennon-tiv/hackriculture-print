@@ -36,6 +36,10 @@ pnpm-debug.log*
 
 # Local full-book review output (retain required reference files on disk)
 docs/publication/whole-book-order-preview/*
+# Preserve the current integration's verification and shared-copy save receipts.
+!docs/publication/whole-book-order-preview/integration-2026-11-02/
+docs/publication/whole-book-order-preview/integration-2026-11-02/*
+!docs/publication/whole-book-order-preview/integration-2026-11-02/*.json
 
 # Large generated sequence PDFs; approval records and source files stay tracked
 /docs/publication/techniques-sequence/references/**/growing-techniques.pdf

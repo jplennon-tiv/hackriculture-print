@@ -1,5 +1,5 @@
 {
-  "status": "Approved Troubles, category names and coloured contents integrated, 31 October 2026; alphabetical vegetables and approved bodies retained.",
+  "status": "Approved soil pH page and three-panel guide intro integrated, 2 November 2026; prior approved pages retained.",
   "supplier": "bookvault",
   "updatedAt": "2026-10-06T09:20:32.692Z",
   "sourceRevision": "f15430f54b6011a7c68ea5b9448a091277f368a362a1df006172addc6d8bde64",
@@ -48,8 +48,8 @@
       "vegetablePages": 92,
       "troublePages": 45,
       "interstitialBlankPages": 4,
-      "lastContentPage": 173,
-      "endBlankPages": 1,
+      "lastContentPage": 174,
+      "endBlankPages": 0,
       "plannedEvenTotal": 174,
       "documents": [
         {
@@ -1496,10 +1496,6 @@
         {
           "page": 98,
           "reason": "Faces Vegetable Troubles opener"
-        },
-        {
-          "page": 174,
-          "reason": "End balancing page"
         }
       ],
       "additions": [
@@ -1545,6 +1541,16 @@
           "startPage": 150
         },
         {
+          "source": "technique:soil-acidity",
+          "pdf": "output/pdf/soil-acidity/soil-acidity-draft.pdf",
+          "sha256": "57e61bcc0ad8ade82027c6ee005ba71c256a82dfda7f335d8e3c45dc193aa5d0",
+          "sourcePage": 1,
+          "physicalPages": 1,
+          "sourcePdfPages": 1,
+          "approval": "docs/publication/topic-pages/soil-acidity/APPROVAL.json",
+          "startPage": 152
+        },
+        {
           "source": "technique:plot-location",
           "units": "imperial",
           "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
@@ -1553,7 +1559,7 @@
           "sourcePdfPages": 18,
           "physicalPages": 1,
           "subsectionRevision": "docs/publication/techniques-subsections/MANIFEST.json",
-          "startPage": 152
+          "startPage": 153
         },
         {
           "source": "technique:plot-layout",
@@ -1564,7 +1570,7 @@
           "sourcePdfPages": 18,
           "physicalPages": 1,
           "subsectionRevision": "docs/publication/techniques-subsections/MANIFEST.json",
-          "startPage": 153
+          "startPage": 154
         },
         {
           "source": "technique:plot-layout-branching",
@@ -1575,7 +1581,7 @@
           "sourcePdfPages": 18,
           "physicalPages": 1,
           "subsectionRevision": "docs/publication/techniques-subsections/MANIFEST.json",
-          "startPage": 154
+          "startPage": 155
         },
         {
           "source": "technique:compost-bins",
@@ -1586,7 +1592,7 @@
           "sourcePdfPages": 18,
           "physicalPages": 1,
           "subsectionRevision": "docs/publication/techniques-subsections/MANIFEST.json",
-          "startPage": 155
+          "startPage": 156
         },
         {
           "source": "technique:compost-use",
@@ -1597,7 +1603,7 @@
           "sourcePdfPages": 18,
           "physicalPages": 1,
           "subsectionRevision": "docs/publication/techniques-subsections/MANIFEST.json",
-          "startPage": 156
+          "startPage": 157
         },
         {
           "source": "cultivation:overview",
@@ -1608,7 +1614,7 @@
           "sourcePdfPages": 18,
           "physicalPages": 1,
           "subsectionRevision": "docs/publication/techniques-subsections/MANIFEST.json",
-          "startPage": 157
+          "startPage": 158
         },
         {
           "source": "cultivation:no-dig",
@@ -1619,7 +1625,7 @@
           "sourcePdfPages": 18,
           "physicalPages": 1,
           "subsectionRevision": "docs/publication/techniques-subsections/MANIFEST.json",
-          "startPage": 158
+          "startPage": 159
         },
         {
           "source": "cultivation:digging",
@@ -1630,7 +1636,7 @@
           "sourcePdfPages": 18,
           "physicalPages": 1,
           "subsectionRevision": "docs/publication/techniques-subsections/MANIFEST.json",
-          "startPage": 159
+          "startPage": 160
         },
         {
           "source": "cultivation:digging-finish",
@@ -1641,7 +1647,7 @@
           "sourcePdfPages": 18,
           "physicalPages": 1,
           "subsectionRevision": "docs/publication/techniques-subsections/MANIFEST.json",
-          "startPage": 160
+          "startPage": 161
         },
         {
           "source": "technique:sowing",
@@ -1652,27 +1658,7 @@
           "sourcePdfPages": 18,
           "physicalPages": 1,
           "subsectionRevision": "docs/publication/techniques-subsections/MANIFEST.json",
-          "startPage": 161
-        },
-        {
-          "source": "technique:netting",
-          "pdf": "output/pdf/topic-pages/netting-revised-draft.pdf",
-          "sha256": "f059d4b961f8e597975546044deff9342079d2993c9ad3387e78aacdeb5f8032",
-          "sourcePage": 1,
-          "physicalPages": 2,
-          "sourcePdfPages": 2,
-          "approval": "docs/publication/topic-pages/plant-protection-supports/netting/APPROVAL.json",
           "startPage": 162
-        },
-        {
-          "source": "technique:supports",
-          "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
-          "sha256": "aff9299b7f067b39fbe4c44a1e0922a5ba4d5f8929ba747e61bf3a86411f5ebc",
-          "sourcePage": 1,
-          "physicalPages": 2,
-          "sourcePdfPages": 2,
-          "approval": "docs/publication/topic-pages/plant-protection-supports/supports/APPROVAL.json",
-          "startPage": 164
         },
         {
           "source": "technique:watering",
@@ -1683,6 +1669,26 @@
           "sourcePdfPages": 18,
           "physicalPages": 1,
           "subsectionRevision": "docs/publication/techniques-subsections/MANIFEST.json",
+          "startPage": 163
+        },
+        {
+          "source": "technique:netting",
+          "pdf": "output/pdf/topic-pages/netting-revised-draft.pdf",
+          "sha256": "f059d4b961f8e597975546044deff9342079d2993c9ad3387e78aacdeb5f8032",
+          "sourcePage": 1,
+          "physicalPages": 2,
+          "sourcePdfPages": 2,
+          "approval": "docs/publication/topic-pages/plant-protection-supports/netting/APPROVAL.json",
+          "startPage": 164
+        },
+        {
+          "source": "technique:supports",
+          "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
+          "sha256": "aff9299b7f067b39fbe4c44a1e0922a5ba4d5f8929ba747e61bf3a86411f5ebc",
+          "sourcePage": 1,
+          "physicalPages": 2,
+          "sourcePdfPages": 2,
+          "approval": "docs/publication/topic-pages/plant-protection-supports/supports/APPROVAL.json",
           "startPage": 166
         },
         {
@@ -1694,7 +1700,7 @@
           "sourcePdfPages": 18,
           "physicalPages": 1,
           "subsectionRevision": "docs/publication/techniques-subsections/MANIFEST.json",
-          "startPage": 167
+          "startPage": 168
         },
         {
           "source": "technique:greenhouse-beds",
@@ -1705,7 +1711,7 @@
           "sourcePdfPages": 18,
           "physicalPages": 1,
           "subsectionRevision": "docs/publication/techniques-subsections/MANIFEST.json",
-          "startPage": 168
+          "startPage": 169
         },
         {
           "source": "technique:greenhouse-no-dig-seasons",
@@ -1716,7 +1722,7 @@
           "sourcePdfPages": 18,
           "physicalPages": 1,
           "subsectionRevision": "docs/publication/techniques-subsections/MANIFEST.json",
-          "startPage": 169
+          "startPage": 170
         }
       ],
       "index": {
@@ -1725,18 +1731,18 @@
         "sourcePage": 1,
         "physicalPages": 4,
         "source": "back:index",
-        "startPage": 170,
-        "endPage": 173
+        "startPage": 171,
+        "endPage": 174
       },
-      "techniquePages": 22
+      "techniquePages": 23
     },
     "metric": {
       "openingPagesReserved": 9,
       "vegetablePages": 92,
       "troublePages": 45,
       "interstitialBlankPages": 4,
-      "lastContentPage": 173,
-      "endBlankPages": 1,
+      "lastContentPage": 174,
+      "endBlankPages": 0,
       "plannedEvenTotal": 174,
       "documents": [
         {
@@ -3183,10 +3189,6 @@
         {
           "page": 98,
           "reason": "Faces Vegetable Troubles opener"
-        },
-        {
-          "page": 174,
-          "reason": "End balancing page"
         }
       ],
       "additions": [
@@ -3232,6 +3234,16 @@
           "startPage": 150
         },
         {
+          "source": "technique:soil-acidity",
+          "pdf": "output/pdf/soil-acidity/soil-acidity-draft.pdf",
+          "sha256": "57e61bcc0ad8ade82027c6ee005ba71c256a82dfda7f335d8e3c45dc193aa5d0",
+          "sourcePage": 1,
+          "physicalPages": 1,
+          "sourcePdfPages": 1,
+          "approval": "docs/publication/topic-pages/soil-acidity/APPROVAL.json",
+          "startPage": 152
+        },
+        {
           "source": "technique:plot-location",
           "units": "metric",
           "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
@@ -3240,7 +3252,7 @@
           "sourcePdfPages": 18,
           "physicalPages": 1,
           "subsectionRevision": "docs/publication/techniques-subsections/MANIFEST.json",
-          "startPage": 152
+          "startPage": 153
         },
         {
           "source": "technique:plot-layout",
@@ -3251,7 +3263,7 @@
           "sourcePdfPages": 18,
           "physicalPages": 1,
           "subsectionRevision": "docs/publication/techniques-subsections/MANIFEST.json",
-          "startPage": 153
+          "startPage": 154
         },
         {
           "source": "technique:plot-layout-branching",
@@ -3262,7 +3274,7 @@
           "sourcePdfPages": 18,
           "physicalPages": 1,
           "subsectionRevision": "docs/publication/techniques-subsections/MANIFEST.json",
-          "startPage": 154
+          "startPage": 155
         },
         {
           "source": "technique:compost-bins",
@@ -3273,7 +3285,7 @@
           "sourcePdfPages": 18,
           "physicalPages": 1,
           "subsectionRevision": "docs/publication/techniques-subsections/MANIFEST.json",
-          "startPage": 155
+          "startPage": 156
         },
         {
           "source": "technique:compost-use",
@@ -3284,7 +3296,7 @@
           "sourcePdfPages": 18,
           "physicalPages": 1,
           "subsectionRevision": "docs/publication/techniques-subsections/MANIFEST.json",
-          "startPage": 156
+          "startPage": 157
         },
         {
           "source": "cultivation:overview",
@@ -3295,7 +3307,7 @@
           "sourcePdfPages": 18,
           "physicalPages": 1,
           "subsectionRevision": "docs/publication/techniques-subsections/MANIFEST.json",
-          "startPage": 157
+          "startPage": 158
         },
         {
           "source": "cultivation:no-dig",
@@ -3306,7 +3318,7 @@
           "sourcePdfPages": 18,
           "physicalPages": 1,
           "subsectionRevision": "docs/publication/techniques-subsections/MANIFEST.json",
-          "startPage": 158
+          "startPage": 159
         },
         {
           "source": "cultivation:digging",
@@ -3317,7 +3329,7 @@
           "sourcePdfPages": 18,
           "physicalPages": 1,
           "subsectionRevision": "docs/publication/techniques-subsections/MANIFEST.json",
-          "startPage": 159
+          "startPage": 160
         },
         {
           "source": "cultivation:digging-finish",
@@ -3328,7 +3340,7 @@
           "sourcePdfPages": 18,
           "physicalPages": 1,
           "subsectionRevision": "docs/publication/techniques-subsections/MANIFEST.json",
-          "startPage": 160
+          "startPage": 161
         },
         {
           "source": "technique:sowing",
@@ -3339,27 +3351,7 @@
           "sourcePdfPages": 18,
           "physicalPages": 1,
           "subsectionRevision": "docs/publication/techniques-subsections/MANIFEST.json",
-          "startPage": 161
-        },
-        {
-          "source": "technique:netting",
-          "pdf": "output/pdf/topic-pages/netting-revised-draft.pdf",
-          "sha256": "f059d4b961f8e597975546044deff9342079d2993c9ad3387e78aacdeb5f8032",
-          "sourcePage": 1,
-          "physicalPages": 2,
-          "sourcePdfPages": 2,
-          "approval": "docs/publication/topic-pages/plant-protection-supports/netting/APPROVAL.json",
           "startPage": 162
-        },
-        {
-          "source": "technique:supports",
-          "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
-          "sha256": "aff9299b7f067b39fbe4c44a1e0922a5ba4d5f8929ba747e61bf3a86411f5ebc",
-          "sourcePage": 1,
-          "physicalPages": 2,
-          "sourcePdfPages": 2,
-          "approval": "docs/publication/topic-pages/plant-protection-supports/supports/APPROVAL.json",
-          "startPage": 164
         },
         {
           "source": "technique:watering",
@@ -3370,6 +3362,26 @@
           "sourcePdfPages": 18,
           "physicalPages": 1,
           "subsectionRevision": "docs/publication/techniques-subsections/MANIFEST.json",
+          "startPage": 163
+        },
+        {
+          "source": "technique:netting",
+          "pdf": "output/pdf/topic-pages/netting-revised-draft.pdf",
+          "sha256": "f059d4b961f8e597975546044deff9342079d2993c9ad3387e78aacdeb5f8032",
+          "sourcePage": 1,
+          "physicalPages": 2,
+          "sourcePdfPages": 2,
+          "approval": "docs/publication/topic-pages/plant-protection-supports/netting/APPROVAL.json",
+          "startPage": 164
+        },
+        {
+          "source": "technique:supports",
+          "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
+          "sha256": "aff9299b7f067b39fbe4c44a1e0922a5ba4d5f8929ba747e61bf3a86411f5ebc",
+          "sourcePage": 1,
+          "physicalPages": 2,
+          "sourcePdfPages": 2,
+          "approval": "docs/publication/topic-pages/plant-protection-supports/supports/APPROVAL.json",
           "startPage": 166
         },
         {
@@ -3381,7 +3393,7 @@
           "sourcePdfPages": 18,
           "physicalPages": 1,
           "subsectionRevision": "docs/publication/techniques-subsections/MANIFEST.json",
-          "startPage": 167
+          "startPage": 168
         },
         {
           "source": "technique:greenhouse-beds",
@@ -3392,7 +3404,7 @@
           "sourcePdfPages": 18,
           "physicalPages": 1,
           "subsectionRevision": "docs/publication/techniques-subsections/MANIFEST.json",
-          "startPage": 168
+          "startPage": 169
         },
         {
           "source": "technique:greenhouse-no-dig-seasons",
@@ -3403,7 +3415,7 @@
           "sourcePdfPages": 18,
           "physicalPages": 1,
           "subsectionRevision": "docs/publication/techniques-subsections/MANIFEST.json",
-          "startPage": 169
+          "startPage": 170
         }
       ],
       "index": {
@@ -3412,10 +3424,10 @@
         "sourcePage": 1,
         "physicalPages": 4,
         "source": "back:index",
-        "startPage": 170,
-        "endPage": 173
+        "startPage": 171,
+        "endPage": 174
       },
-      "techniquePages": 22
+      "techniquePages": 23
     }
   },
   "vegetableOrder": "Alphabetical by displayed guide title (en-GB); complete facing pairs, original family colours.",
@@ -3426,6 +3438,7 @@
       "docs/publication/topic-pages/plant-protection-supports/netting/APPROVAL.json",
       "docs/publication/topic-pages/plant-protection-supports/supports/APPROVAL.json"
     ],
+    "soilAcidityApproval": "docs/publication/topic-pages/soil-acidity/APPROVAL.json",
     "troubles": "docs/publication/troubles-rollout/APPROVAL.json"
   },
   "troublesOpener": {
@@ -3458,7 +3471,7 @@
     "sha256": "6bf7eb471bda81a1f4c402b7e3cdd3b81c3449697bd9ea358e8b863586e70e2d"
   },
   "limits": [
-    "John approved revised Troubles and requested integration with category names and coloured contents on 31 October 2026.",
+    "John approved the pH page and requested integration on 2 November 2026; the approved three-panel guide intro is also included.",
     "174 interior pages; imperial full-book preview, not a final production/cost/spine specification.",
     "Both-unit reference mapping is checked; no full metric book is assembled.",
     "Frozen source PDFs and ordered Bookvault proof files remain unchanged."

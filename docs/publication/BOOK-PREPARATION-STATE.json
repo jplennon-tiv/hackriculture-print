@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "status": "print_design_on_hold_first_proof_ordered_website_session_next",
+  "status": "post_print_proof_corrections_soil_acidity_drafts_for_review",
   "documentRole": "Technical evidence ledger. wholeBookOrderPreview is the current reading derivative; bookvaultLocalProduction identifies the separate 19 October production PDFs for review. docs/handover/START-HERE.md owns current scope and next actions. Historical fields are retained evidence, not current work instructions.",
   "currentGuidance": "docs/handover/START-HERE.md",
   "automationStatus": "PAUSED",
@@ -30,7 +30,7 @@
   "deadlineUtc": "2026-10-06T18:00:00Z",
   "deadlineLocal": "6 October 2026, 19:00 Europe/London",
   "automationId": "prepare-compact-book-proof",
-  "brief": "The Vegetable Guru, 185 × 240 mm, UK full-colour paperback. The current imperial screen preview has 168 interior pages plus four cover leaves (172 PDF pages), with approved reader edits and John’s 19 October Techniques subsection headings and removal of its two internal blanks. All 44 vegetables occupy two facing pages. Canonical gardening records and frozen sources are unchanged. See the handover for current actions; both automations remain paused.",
+  "brief": "The Vegetable Guru, 185 × 240 mm, UK full-colour paperback. Current imperial screen book: 174 interior pages / 178 PDF pages. Approved pH page at 152 and three-panel guide intro at 9 integrated on 2 November with refreshed navigation. Ready as source material for promotional YouTube slides. Sixteen vegetable wording proposals remain unapproved. Ordered supplier files are unchanged; automations stay paused.",
   "format": "Compact Book v1, 185 x 240 mm; preserve the approved design and frozen reference proofs",
   "scope": {
     "vegetables": 44,
@@ -44,9 +44,9 @@
   "queue": [
     {
       "id": "interior",
-      "status": "imperial_production_prepared_for_review",
+      "status": "approved_pages_integrated",
       "task": "Review the prepared both-unit collection against approved compact sources and recorded exceptions; make only justified requested changes. Preserve content, artwork and source-linked working copy.",
-      "remaining": "Print design on hold while awaiting the first proof and next website session. Preserve exact ordered imperial PDFs; further copy/design changes only as John directs. Full metric assembly remains separate."
+      "remaining": "Promotional slides are the next separate creative task. Review sixteen vegetable wording proposals later; page-7 Introduction and collected proofreading remain. Preserve ordered supplier PDFs; full metric assembly remains separate."
     },
     {
       "id": "opening_pages",
@@ -724,37 +724,37 @@
     "coverageScope": "These checks and fullBookRegenerated=false describe the approved focused collection on 12 October. Its pages were later reused in wholeBookOrderPreview; current placement is recorded there."
   },
   "bookIndex": {
-    "date": "2026-10-19",
+    "date": "2026-11-02",
     "status": "current_numeric_derivative_integrated",
-    "review": "docs/publication/whole-book-order-preview/REVIEW.html#spread=83",
+    "review": "docs/publication/whole-book-order-preview/REVIEW.html#spread=86",
     "copy": "../hackriculture-data/book-layout/index.json",
     "pages": 4,
-    "entries": 286,
+    "entries": 303,
     "crossReferences": 35,
     "checks": "docs/publication/whole-book-order-preview/index/CHECKS.json",
     "resolvedReferences": "docs/publication/whole-book-order-preview/index/RESOLVED.json",
     "saveReceipt": "docs/publication/book-index/SAVE-RECEIPT.json",
     "indexPdf": {
-      "path": "output/pdf/book-index/vegetable-guru-index-draft.pdf",
-      "sha256": "5d3aad9ce673ca1d881a00821959d7cb02bb80077e9d9e969785579bd869116b"
+      "path": "tmp/pdfs/whole-book-order-preview/vegetable-guru-index-draft.pdf",
+      "sha256": "39bfcd00b50afd90359c017d5f03eae2a6de2d29d1aac7d37a6a74ca5a23f315"
     },
-    "temporaryReferences": "Historical standalone proof only: T = local techniques pages, C = cultivation pages. Current integrated derivative has numeric references and folios 164–167.",
-    "fullBookRegenerated": false,
+    "temporaryReferences": "Historical standalone proof only. Current integrated index uses numeric folios 171–174.",
+    "fullBookRegenerated": true,
     "next": "Approved reference preserved. Numeric integrated derivative is in the whole-book order preview; refresh it again only after order changes.",
     "approval": "docs/publication/book-index/APPROVAL.json",
     "approvedDate": "2026-10-12",
     "integratedPreview": "docs/publication/whole-book-order-preview/index/CHECKS.json",
     "integratedFolios": [
-      164,
-      167
+      171,
+      174
     ],
     "folios": [
-      164,
-      165,
-      166,
-      167
+      171,
+      172,
+      173,
+      174
     ],
-    "latestReferenceSave": "docs/publication/techniques-subsections/INDEX-REFERENCE-SAVE.json"
+    "latestReferenceSave": "docs/publication/whole-book-order-preview/integration-2026-11-02/BOOK-COPY-UPDATE.json"
   },
   "updatedContents": {
     "status": "author_requested_repagination_integrated",
@@ -762,14 +762,14 @@
     "checks": "docs/publication/contents-update/CHECKS.json",
     "pdfChecks": "docs/publication/contents-update/PDF-CHECKS.json",
     "plan": "docs/publication/contents-update/ASSEMBLY-PROPOSAL.json",
-    "plannedInteriorPages": 168,
+    "plannedInteriorPages": 174,
     "contentsPages": 2,
-    "referencesPerEdition": 81,
+    "referencesPerEdition": 84,
     "fullBookRegenerated": true,
     "wholeBookPreview": "docs/publication/whole-book-order-preview/REVIEW.html",
-    "scope": "Accepted contents at 4–5; all 81 destinations recalculated after removal of the two internal Techniques blanks. No wording or artwork change.",
+    "scope": "Current 4–5 coloured contents, 84 destinations including pH page. Page-5 row padding reduced to 1.4 px; retained 10.5 pt type, pale category key and art.",
     "visual": "docs/publication/contents-update/VISUAL-REVIEW.json",
-    "saveReceipt": "docs/publication/contents-update/SIMPLIFICATION-SAVE.json",
+    "saveReceipt": "docs/publication/whole-book-order-preview/integration-2026-11-02/BOOK-COPY-UPDATE.json",
     "fullBookIntegrationPending": false,
     "plainBaseline": "docs/publication/contents-update/references/simple-2026-10-14/",
     "layoutSkillScope": "Simple content pages only; contents and indexes excluded explicitly in both layout skills and routing.",
@@ -781,39 +781,38 @@
     "sequenceSave": "docs/publication/contents-update/SEQUENCE-SAVE.json",
     "contentsFacing": true,
     "introductionTitleSave": "docs/publication/contents-update/INTRODUCTION-TITLE-SAVE.json",
-    "referenceCount": 81,
-    "date": "2026-10-19"
+    "referenceCount": 84,
+    "date": "2026-11-02"
   },
   "wholeBookOrderPreview": {
-    "date": "2026-10-19",
-    "status": "Author-requested Techniques subsections and internal blank removal integrated; actual PDF checks passed",
+    "date": "2026-11-02",
+    "status": "Approved soil pH page and three-panel guide intro integrated; actual PDF checks passed",
     "pdf": "output/pdf/whole-book-order-preview/the-vegetable-guru-order-preview.pdf",
-    "sha256": "93c5be45e8a790cb3a4f91aeac8b7910035cfa37a142dbf41b8444644f88f5bf",
-    "interiorPages": 168,
-    "pdfPages": 172,
+    "sha256": "1159ad172035bc5942b5586d51aa28634e53d457357bff5e7ff8d044a4753128",
+    "interiorPages": 174,
+    "pdfPages": 178,
     "units": "imperial",
-    "guidePagesReused": 133,
+    "guidePagesReused": 135,
     "guidesReexported": 0,
     "blankFolios": [
       3,
       6,
       8,
-      98,
-      168
+      98
     ],
-    "contentsReferences": 81,
-    "indexEntries": 286,
+    "contentsReferences": 84,
+    "indexEntries": 303,
     "indexSeeReferences": 35,
     "review": "docs/publication/whole-book-order-preview/REVIEW.html",
     "notes": "docs/publication/whole-book-order-preview/README.md",
     "checks": "docs/publication/whole-book-order-preview/CHECKS.json",
     "pageMap": "docs/publication/whole-book-order-preview/PAGE-MAP.json",
     "visual": "docs/publication/whole-book-order-preview/VISUAL-REVIEW.json",
-    "integration": "docs/publication/whole-book-order-preview/integration-2026-10-18/INTEGRATION-CHECKS.json",
+    "integration": "docs/publication/whole-book-order-preview/integration-2026-11-02/INTEGRATION-CHECKS.json",
     "sectionStartFolios": [
       9,
       99,
-      145
+      147
     ],
     "sectionStartSides": [
       "recto",
@@ -825,36 +824,35 @@
       5
     ],
     "indexFolios": [
-      164,
-      167
+      171,
+      174
     ],
     "techniquesFolios": [
-      145,
-      163
+      147,
+      170
     ],
-    "relatedReadingLinks": 73,
+    "relatedReadingLinks": 79,
     "allApprovedReaderEditsIntegrated": true,
     "highlights": false,
     "canonicalGardeningRecordsChanged": false,
     "sharedBookCopyChanged": [
       "contents",
+      "how-to",
       "index"
     ],
-    "next": "Continue the final text/design pass with John’s next edit.",
+    "next": "Use docs/handover/PROMOTIONAL-SLIDES.md for the separate slides task. Pending crop wording edits remain unapproved.",
     "normalExporterIntegrationPending": true,
     "finalCopyEdits": {
       "folios": [
-        146,
-        152,
+        148,
         155,
-        156,
-        157,
-        158
+        160,
+        161
       ],
       "manifest": "docs/publication/final-text-edits/MANIFEST.json",
       "checks": "docs/publication/final-text-edits/PDF-CHECKS.json",
       "bothUnitPageProofsChecked": true,
-      "designApproval": "Organic growing page 146 approved on 18 October. Subsequent exact copy, heading and layout requests are integrated for review; current folios reflect the removal of two internal blanks.",
+      "designApproval": "Earlier approved copy retained; current placement is recorded by PAGE-MAP.json. Approved pH page at 152 and three-panel guide intro at 9 added on 2 November.",
       "canonicalDataChanged": false,
       "sharedBookCopyChanged": false,
       "approval": "docs/publication/final-text-edits/ORGANIC-APPROVAL-2026-10-18.json",
@@ -864,7 +862,7 @@
       "diggingCopy": "src/print/book/final-text-edits/digging.json",
       "currentPlacementManifest": "docs/publication/techniques-subsections/MANIFEST.json"
     },
-    "latestBookCopySave": "docs/publication/techniques-subsections/INDEX-REFERENCE-SAVE.json"
+    "latestBookCopySave": "docs/publication/whole-book-order-preview/integration-2026-11-02/BOOK-COPY-UPDATE.json"
   },
   "guideKey": {
     "date": "2026-10-14",
@@ -1299,7 +1297,7 @@
     "projectLabel": "Hackriculture Web Site",
     "projectDirectory": "/Users/johnlennon/Documents/web_site/hackriculture",
     "projectReadme": "../hackriculture/README.md",
-    "owningHandover": "docs/handover/START-HERE.md#next-session--website-sales-channel",
+    "owningHandover": "docs/handover/START-HERE.md",
     "websiteEditorialData": "../hackriculture-data/website/",
     "generatedUploadDirectory": "../hackriculture/dist/client/",
     "initialRoute": "Website book presentation linking to a Bookvault-hosted purchase page or Buy Now link; exact storefront and buyer flow to verify before activation",
@@ -1309,6 +1307,38 @@
     "livePurchaseUrl": null,
     "workingRetailPriceGBP": 17.5,
     "isbnDecision": "Deferred until after first physical proof",
-    "printWork": "On hold pending John’s return and physical proof review; preserve exact ordered PDFs"
+    "printWork": "Historical 19 October hold; superseded by John’s return to book editing and physical-quality acceptance on 28 October. Current scope is owned by the handover.",
+    "status": "historical_19_october_website_handover_completed"
+  },
+  "soilAcidityReview": {
+    "date": "2026-11-02",
+    "status": "page_approved_and_integrated_crop_proposals_pending",
+    "copy": "src/print/book/soil-acidity/copy.json",
+    "cropDiff": "docs/publication/soil-acidity-crop-edits/DIFF.html",
+    "cropChecks": "docs/publication/soil-acidity-crop-edits/VERIFICATION.json",
+    "cropCount": 12,
+    "proposedChanges": 16,
+    "bothUnitProofs": 24,
+    "mainBookChanged": true,
+    "canonicalRecordsChanged": false,
+    "laboratoryConfirmation": "Explicitly excluded by John",
+    "pageCount": 1,
+    "bodyWordCount": 218,
+    "composition": "Simple intro and two main panels: testing and lime. Both existing illustrations reused.",
+    "currentPreview": "docs/publication/topic-pages/soil-acidity/REVIEW.html",
+    "page": "docs/publication/topic-pages/soil-acidity/README.md",
+    "pageChecks": "docs/publication/topic-pages/soil-acidity/CHECKS.json",
+    "placement": "Integrated at 152 after Rotation & planning. Watering faces Sowing at 162–163; Netting 164–165 and Supports 166–167 preserve facing pairs; index 171–174 absorbs old end blank.",
+    "approval": "docs/publication/topic-pages/soil-acidity/APPROVAL.json",
+    "cropStatus": "Sixteen changes across twelve guides remain unapproved and unintegrated."
+  },
+  "promotionalSlides": {
+    "date": "2026-11-02",
+    "status": "source_pack_and_handover_ready",
+    "handover": "docs/handover/PROMOTIONAL-SLIDES.md",
+    "manifest": "docs/publication/promotion-source-pack/MANIFEST.json",
+    "slidesCreated": false,
+    "newChatCreated": false,
+    "bookSha256": "1159ad172035bc5942b5586d51aa28634e53d457357bff5e7ff8d044a4753128"
   }
 }

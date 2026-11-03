@@ -1,23 +1,40 @@
 # Current project handover
 
-Updated 31 October 2026 after approval of the revised Vegetable Guides intro.
+Updated 2 November 2026 after integrating the approved pH and guide-intro pages; promotional slides handover prepared.
 This document owns current scope, decisions and next actions. Read README,
 AGENTS and SHARED-DATA first. John's latest instruction takes precedence;
 dated reports and approvals are evidence, not instructions to resume old work.
 
 ## Resume here
 
-**Approved detail correction: Vegetable Guides intro, page 9.** John approved
-[the final three-panel page](../publication/guides-intro-detail/APPROVAL.json) on
-31 October. It has the heading above three peach panels, his revised UK calendar
-paragraph and Normal planting / Extended season headers, only radish 1/5 and
-tomato 3/5 difficulty examples, and restored Low demand / High demand captions.
-The exact PDF, editable layout, artwork references and checks are locked; do not
-rebuild them in place or ask for design approval again. Include this accepted page
-in the next requested book update, synchronising its approved copy through the
-guarded writer then. The current complete book still contains the earlier page 9;
-no shared JSON or canonical ratings changed. This is separate from the planned
-page-7 Introduction rewrite.
+**Approved pH page and guide intro are integrated; the book is ready as a source for promotional slides.**
+John approved the single-page **Organic growing / Testing and adjusting pH** and
+requested integration on 2 November. Its exact [approved page](../publication/topic-pages/soil-acidity/APPROVAL.json)
+is at **152**, after Rotation & planning. The previously approved
+[three-panel guide intro](../publication/guides-intro-detail/APPROVAL.json) is at
+**9**, with its accepted calendar wording synchronised through the guarded writer.
+The [current complete book](../publication/whole-book-order-preview/REVIEW.html)
+still contains **174 interior pages / 178 PDF pages**, with contents, index,
+folios, bookmarks and internal links refreshed. Watering now faces Sowing at
+162–163; Netting 164–165 and Supports 166–167 retain their facing arrangements.
+The index is 171–174, absorbing the former end blank. No internal blank was added.
+[Integration evidence](../publication/whole-book-order-preview/README.md).
+
+**Promotional YouTube sequence prepared separately.** The 45-second v4 sequence
+is installed in native CapCut project `1102`: retained intro, then complete real
+book spreads with brief context ribbons. John approved the complete v4 sequence
+and Book Launch thumbnail. His trimmed final take now follows the slides, with
+a matching dissolve and a timed website signup inset. A six-second Hackriculture
+closing card with the slide music is installed; the **5:52** edit is saved in 4K. The
+[promotional slides handover](PROMOTIONAL-SLIDES.md) owns current files, timing,
+source checks and the separate filmed ending. Promotional work does not edit
+the book or constitute publication approval.
+
+**Still awaiting review:** [sixteen wording edits across twelve vegetable guides](../publication/soil-acidity-crop-edits/DIFF.html).
+Both-unit crop proofs are checked, but these proposals are **not integrated or
+approved**. No canonical gardening advice changed. The page-7 Introduction rewrite,
+collected detail corrections and final publication preparation also remain open.
+Laboratory confirmation remains excluded. Ordered supplier files are unchanged.
 
 **John has received the printed proof and is satisfied with its physical quality.**
 On 28 October he reported a luxurious coated-paper feel, suitable paper weight,
@@ -34,9 +51,9 @@ freeze the exact accepted copy, artwork, layouts and PDFs.
 
 The [main book](../publication/whole-book-order-preview/REVIEW.html#spread=81)
 now has **174 interior pages plus four cover leaves: 178 PDF pages**, imperial.
-Netting is **162–163**, Supports **164–165**, Watering **166**, Greenhouses **167–169**,
-and the four-page index **170–173**, followed by blank 174. Contents remain at 4–5,
-with 83 destinations; the index has 297 entries and 35 see references. Both-unit
+Netting is **164–165**, Supports **166–167**, Watering **163**, Greenhouses **168–170**,
+and the four-page index **171–174**. Contents remain at 4–5,
+with 84 destinations; the index has 303 entries and 35 see references. Both-unit
 navigation is checked; approved page bodies and all 44 facing crop guides remain.
 The [integration evidence](../publication/whole-book-order-preview/README.md)
 records actual PDF checks, exact source comparisons and the earlier guarded book-copy save. The 31 October integration required no shared JSON mutation; existing stable locators resolve against the new page map.
@@ -111,13 +128,14 @@ only. See the [guide contract](../BOOK-PRINT-STYLE.md#troubles) for the current 
 **The 31 October integration is complete.** John approved the complete Troubles
 proofs and requested them in the main book with the approved category names and
 coloured contents. [Exact approval](../publication/troubles-rollout/APPROVAL.json)
-freezes the accepted set. The main interior now has 174 pages: Troubles 99–146,
-Techniques 147–169 and index 170–173, followed by blank 174. Contents, index,
+freezes the accepted set. That completed integration is retained; current placement after the 2 November
+pH insertion is Troubles 99–146, Techniques 147–170 and index 171–174. Contents, index,
 crop links, three numeric body references and bookmarks are refreshed together.
-All 44 vegetable pairs and approved source bodies remain. The how-to is unchanged.
-[Current integration evidence](../publication/whole-book-order-preview/integration-2026-10-31/INTEGRATION-CHECKS.json)
+All 44 vegetable pairs and approved source bodies remain. The approved three-panel how-to is now integrated at 9.
+[Current integration evidence](../publication/whole-book-order-preview/integration-2026-11-02/INTEGRATION-CHECKS.json)
 records glyph/art preservation and actual links. No guide catalogue was exported,
-and no canonical or book-layout JSON changed in this integration. The ordered
+and no canonical gardening advice changed. The 2 November book-copy save updates
+contents/index and the approved guide-intro wording; its receipt is linked above. The ordered
 supplier files remain unchanged. Introduction and collected copy corrections
 remain later work; do not reopen the approved choices.
 
@@ -224,8 +242,8 @@ The agent did not place the order or pay. No additional order is authorised.
 Metadata/barcode placeholders remain; automatic barcode insertion was off at upload.
 The reading preview below is preserved for continued copy/design work.
 
-The approved integration is complete; John's final copy changes update Organic growing, page 148, and Beds and paths, page 154. The current
-[full preview](../publication/whole-book-order-preview/REVIEW.html?revision=integrated-2026-10-31#spread=6)
+The approved integration is complete; John's final copy changes update Organic growing, page 148, and Beds and paths, page 155. The current
+[full preview](../publication/whole-book-order-preview/REVIEW.html?revision=integrated-2026-11-02#spread=6)
 has **174 interior pages plus four cover leaves: 178 PDF pages**, imperial,
 185 × 240 mm. [PDF](../../output/pdf/whole-book-order-preview/the-vegetable-guru-order-preview.pdf),
 [page map](../publication/whole-book-order-preview/PAGE-MAP.json),
@@ -237,21 +255,21 @@ follow-up shortens the middle paragraph to end “your garden will ultimately fl
 diagram, closing box and existing type sizes remain. John approved this revised
 page on 18 October; [the approval](../publication/final-text-edits/ORGANIC-APPROVAL-2026-10-18.json)
 freezes its copy and both-unit proofs. [Copy, sources and checks](../publication/final-text-edits/README.md).
-The latest exact replacement shortens “Sides are optional” on page 154 to end
+The latest exact replacement shortens “Sides are optional” on page 155 to end
 “Choose what makes the plot easier to use for you.” [Both-unit checks](../publication/final-text-edits/BEDS-PDF-CHECKS.json)
 confirm that all other page text and the existing type are preserved.
 John discarded the Top tip ribbon/splash idea on 18 October. The original green
-panels now at 153, 154, 156, 161 and 169 remain in the full preview; the proposals
+panels now at 154, 155, 157, 162 and 170 remain in the full preview; the proposals
 were never integrated. [Decision and verification](../publication/top-tip-panels/DECISION.json).
-The latest layout request moves all five double-digging steps onto page 159,
-with single digging first on 160, followed by path care and smothering.
+The latest layout request moves all five double-digging steps onto page 160,
+with single digging first on 161, followed by path care and smothering.
 [The changed spread](../publication/digging-order/README.md) retains the original
 copy and type; only the obsolete next-page instruction is removed.
-The four headings at 157–160 now share green “Cultivation”, followed in orange
+The four headings at 158–161 now share green “Cultivation”, followed in orange
 by “Dig or No-Dig?”, “No-Dig”, “Digging” and “Digging continued”.
 [Earlier four-page source proofs and checks](../publication/cultivation-headings/README.md)
 retain the reordered digging instructions and original reading sizes.
-Page 159 now opens “There are two ways of digging:” with “Single digging” and
+Page 160 now opens “There are two ways of digging:” with “Single digging” and
 “Double digging” in bold. Its heading reads “Double digging: start a new plot,
 or revive a tired one”; all five steps still fit at the existing type sizes.
 Resume the final text/design pass only when John returns to it; do not restart the completed
@@ -272,29 +290,34 @@ expanded spread. The optional holiday item remains excluded.
 | --- | --- |
 | 1–2 | Title and publication details |
 | 3 | Blank |
-| 4–5 | Approved coloured contents, facing; pale category key beside H6 harvest |
+| 4–5 | Coloured contents with pale category key |
 | 6–7 | Blank / Introduction — why grow your own |
-| 8–9 | Blank / existing combined Vegetable Guides and how-to |
-| 10–97 | All 44 vegetables, alphabetical by title, two facing pages each |
-| 98–99 | Blank / revised Vegetable Troubles opener |
-| 100–146 | Fourteen approved Troubles guides, 220 conditions and 24 highlights |
+| 8–9 | Blank / approved three-panel Vegetable Guides and how-to |
+| 10–97 | All 44 vegetables, alphabetical, two facing pages each |
+| 98–99 | Blank / Vegetable Troubles opener |
+| 100–146 | Fourteen Troubles guides, 220 conditions and 24 highlights |
 | 147 | Growing Techniques opener |
 | 148–149 | Organic growing / Nutrient cycles |
 | 150–151 | Crop rotation & planning |
-| 152 | Planning your plot: Choosing the right spot |
-| 153–154 | Planning your plot: Beds and paths / continued |
-| 155–156 | Compost |
-| 157–158 | Cultivation: Dig or No-Dig? / No-Dig |
-| 159–160 | Cultivation: Digging / Digging continued |
-| 161 | Plant care: Sowing and planting |
-| 162–163 | Netting |
-| 164–165 | Supports |
-| 166 | Watering |
-| 167–169 | Greenhouses |
-| 170–173 | Index |
-| 174 | End balancing blank |
+| 152 | Organic growing / Testing and adjusting pH |
+| 153 | Planning your plot: Choosing the right spot |
+| 154–155 | Beds and paths / continued |
+| 156–157 | Compost |
+| 158–159 | Cultivation: Dig or No-Dig? / No-Dig |
+| 160–161 | Cultivation: Digging / Digging continued |
+| 162–163 | Sowing and planting / Watering |
+| 164–165 | Netting |
+| 166–167 | Supports |
+| 168–170 | Greenhouses |
+| 171–174 | Index |
 
-PDF page = interior folio + 2. Section openers remain right-hand pages at 9, 99 and 147. Growing Techniques runs continuously; no new internal blank is needed. The two additional Troubles pages shift all later content by two pages, preserving its page sides and facing arrangements.
+PDF page = interior folio + 2. Openers remain right-hand pages 9, 99 and 147.
+The pH page completes Organic growing. Watering now faces Sowing, preserving
+Netting and Supports as facing spreads without adding an internal blank. Beds,
+Compost and each Cultivation pair also face. The index starts recto at 171; its
+last page absorbs the former end blank, so the total remains 174 interior pages.
+Bodies on changed page sides are shifted 9 mm to preserve mirrored 17/8 mm margins;
+text, art and type sizes are retained.
 
 ## Accepted content and design
 
@@ -321,9 +344,9 @@ PDF page = interior folio + 2. Section openers remain right-hand pages at 9, 99 
   publication copy and B5 blurb remain integrated. Exact provenance is in the
   [asset registry](../assets/README.md) and [full-preview notes](../publication/whole-book-order-preview/README.md).
 
-Contents retain two pages, simple headings and **83 destinations** at 10.5 pt.
+Contents retain two pages, simple headings and **84 destinations** at 10.5 pt.
 The approved category colours and pale key beside H6 are integrated; H1/H2 remain,
-H5 is intentionally omitted. The index stays four pages at 9.45 pt, with **297
+H5 is intentionally omitted. The index stays four pages at 9.45 pt, with **303
 entries / 35 see references**. Its condition locations and all crop links are
 recalculated from the accepted Troubles pages; the integration receipt records
 the actual link count. Editing annotations are absent; the 24 Troubles highlights
@@ -360,7 +383,7 @@ dated folios; they are inputs to this current derivative, not the current book.
 Canonical gardening JSON is unchanged. All 58 record hashes and reused native
 page bodies are checked. Shared contents/index changes have an exact-byte
 [backup receipt](../publication/whole-book-order-preview/integration-2026-10-18/BOOK-COPY-UPDATE.json).
-The single-digging index destination now follows its moved instructions at 158;
+The single-digging index destination now follows its instructions at 161;
 [the guarded save](../publication/techniques-subsections/INDEX-REFERENCE-SAVE.json) preserves exact previous bytes.
 Original source copy, A4 originals and approved references remain intact. Frozen
 source folios may differ from current book folios; never treat them as instructions.
@@ -398,7 +421,7 @@ a style/A4 reference only. Rejected cover studies are not alternatives to resume
 Missing copyright year, imprint, ISBN, edition and publication year remain
 placeholders by request. The imperial print-resolution interior, proposed cover wrap and local colour/font/geometry
 preflight and Bookvault file validation are complete. Physical quality is accepted.
-Final copy corrections, the new Techniques spread and introduction, later layout
+Final crop-copy review, the page-7 introduction rewrite, later layout
 tidying, full metric assembly if requested, final metadata and approval of the
 revised publication files remain outstanding.
 The fresh 168-page/150 gsm template specifies a **12 mm spine**, **388 × 246 mm

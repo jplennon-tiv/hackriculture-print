@@ -15,7 +15,7 @@ export const compareGuideTitles=(a,b)=>a.label.localeCompare(b.label,'en-GB',{se
 // Approved placement map; saved reference PDFs retain their original folios.
 export function createContentsPlan(base, sources, approvedGuides = {}, readerGuides = {}, approvedTroubles = {}) {
   const plan = structuredClone(base);
-  plan.status = 'Approved Troubles, category names and coloured contents integrated, 31 October 2026; alphabetical vegetables and approved bodies retained.';
+  plan.status = 'Approved soil pH page and three-panel guide intro integrated, 2 November 2026; prior approved pages retained.';
   plan.vegetableOrder = 'Alphabetical by displayed guide title (en-GB); complete facing pairs, original family colours.';
   plan.openingPlan = [
     [1, 'Title'], [2, 'Publication details'],

@@ -1,11 +1,11 @@
 {
   "status": "Current integrated references from approved sources",
-  "sourceRevision": "7ebeb1335ce429d09fce1ed0c545b783fe54cf465b9825bd0ec64a5fb1e5a148",
+  "sourceRevision": "51758489ad9794b48e9b5f8cf1556f898f3c5a28518819d29d34abb5b24d2e55",
   "copyPath": "/Users/johnlennon/Documents/web_site/hackriculture-data/book-layout/index.json",
-  "copySha256": "a2022a1b4b1c23a9823ffd403289c00b3fd66f6f302eecbbbe089889b1e43c26",
+  "copySha256": "97f5b9390838c88482f49451e10f938db8f991778fc38d4b92f981d2911f1c4d",
   "assemblyPlan": {
     "path": "docs/publication/contents-update/ASSEMBLY-PROPOSAL.json",
-    "sha256": "6ecff232fb6e359797e52dd5855ba026d9b2aca4d38e0b36966b2fc272cac618"
+    "sha256": "14d9c3e640d42c7acade0b776dffe512560ba0a29c1b55a756e2f79e6e4755e9"
   },
   "temporaryTopicReferences": false,
   "identicalEditionReferences": true,
@@ -259,6 +259,10 @@
     "output/pdf/techniques-subsections/techniques-imperial.pdf": {
       "sha256": "fe072b70b68703cc80d484f06968e52bd14dbb74a9c67a8a6f30dea0b26546a4",
       "pages": 18
+    },
+    "output/pdf/soil-acidity/soil-acidity-draft.pdf": {
+      "sha256": "57e61bcc0ad8ade82027c6ee005ba71c256a82dfda7f335d8e3c45dc193aa5d0",
+      "pages": 1
     },
     "output/pdf/topic-pages/netting-revised-draft.pdf": {
       "sha256": "f059d4b961f8e597975546044deff9342079d2993c9ad3387e78aacdeb5f8032",
@@ -520,6 +524,56 @@
   "editions": {
     "imperial": [
       {
+        "id": "acid-soil",
+        "term": "Acid soil",
+        "refs": [
+          {
+            "source": "technique:soil-acidity"
+          }
+        ],
+        "references": [
+          {
+            "source": "technique:soil-acidity",
+            "prefix": "",
+            "folio": 152,
+            "pdf": "output/pdf/soil-acidity/soil-acidity-draft.pdf",
+            "page": 1
+          }
+        ],
+        "displayReferences": [
+          {
+            "label": "152",
+            "pdf": "output/pdf/soil-acidity/soil-acidity-draft.pdf",
+            "page": 1
+          }
+        ]
+      },
+      {
+        "id": "alkaline-soil",
+        "term": "Alkaline soil",
+        "refs": [
+          {
+            "source": "technique:soil-acidity"
+          }
+        ],
+        "references": [
+          {
+            "source": "technique:soil-acidity",
+            "prefix": "",
+            "folio": 152,
+            "pdf": "output/pdf/soil-acidity/soil-acidity-draft.pdf",
+            "page": 1
+          }
+        ],
+        "displayReferences": [
+          {
+            "label": "152",
+            "pdf": "output/pdf/soil-acidity/soil-acidity-draft.pdf",
+            "page": 1
+          }
+        ]
+      },
+      {
         "id": "allium-leaf-miner",
         "term": "Allium leaf miner",
         "refs": [
@@ -1055,7 +1109,7 @@
           {
             "source": "technique:supports",
             "prefix": "",
-            "folio": 164,
+            "folio": 166,
             "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
             "page": 1
           }
@@ -1072,7 +1126,7 @@
             "page": 1
           },
           {
-            "label": "164",
+            "label": "166",
             "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
             "page": 1
           }
@@ -1167,7 +1221,7 @@
           {
             "source": "technique:supports",
             "prefix": "",
-            "folio": 164,
+            "folio": 166,
             "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
             "page": 1
           }
@@ -1184,7 +1238,7 @@
             "page": 1
           },
           {
-            "label": "164",
+            "label": "166",
             "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
             "page": 1
           }
@@ -1251,7 +1305,7 @@
           {
             "source": "technique:supports",
             "prefix": "",
-            "folio": 164,
+            "folio": 166,
             "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
             "page": 1
           }
@@ -1268,7 +1322,7 @@
             "page": 1
           },
           {
-            "label": "164",
+            "label": "166",
             "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
             "page": 1
           }
@@ -1289,21 +1343,21 @@
           {
             "source": "technique:plot-layout",
             "prefix": "",
-            "folio": 153,
+            "folio": 154,
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 6
           },
           {
             "source": "technique:plot-layout-branching",
             "prefix": "",
-            "folio": 154,
+            "folio": 155,
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 7
           }
         ],
         "displayReferences": [
           {
-            "label": "153–154",
+            "label": "154–155",
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 6
           }
@@ -1321,14 +1375,14 @@
           {
             "source": "technique:greenhouse-beds",
             "prefix": "",
-            "folio": 168,
+            "folio": 169,
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 17
           }
         ],
         "displayReferences": [
           {
-            "label": "168",
+            "label": "169",
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 17
           }
@@ -1522,7 +1576,7 @@
           {
             "source": "technique:netting",
             "prefix": "",
-            "folio": 162,
+            "folio": 164,
             "pdf": "output/pdf/topic-pages/netting-revised-draft.pdf",
             "page": 1
           }
@@ -1544,7 +1598,7 @@
             "page": 2
           },
           {
-            "label": "162",
+            "label": "164",
             "pdf": "output/pdf/topic-pages/netting-revised-draft.pdf",
             "page": 1
           }
@@ -2173,14 +2227,14 @@
           {
             "source": "technique:supports",
             "prefix": "",
-            "folio": 165,
+            "folio": 167,
             "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
             "page": 2
           }
         ],
         "displayReferences": [
           {
-            "label": "165",
+            "label": "167",
             "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
             "page": 2
           }
@@ -2357,7 +2411,7 @@
           {
             "source": "technique:supports",
             "prefix": "",
-            "folio": 165,
+            "folio": 167,
             "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
             "page": 2
           }
@@ -2374,7 +2428,7 @@
             "page": 1
           },
           {
-            "label": "165",
+            "label": "167",
             "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
             "page": 2
           }
@@ -2685,14 +2739,14 @@
           {
             "source": "cultivation:no-dig",
             "prefix": "",
-            "folio": 158,
+            "folio": 159,
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 11
           }
         ],
         "displayReferences": [
           {
-            "label": "158",
+            "label": "159",
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 11
           }
@@ -3300,6 +3354,9 @@
           {
             "source": "trouble:brassica_troubles",
             "condition": "club_root_finger_and_toe"
+          },
+          {
+            "source": "technique:soil-acidity"
           }
         ],
         "references": [
@@ -3311,12 +3368,24 @@
             "folio": 106,
             "pdf": "output/pdf/troubles-rollout/brassica_troubles-imperial.pdf",
             "page": 1
+          },
+          {
+            "source": "technique:soil-acidity",
+            "prefix": "",
+            "folio": 152,
+            "pdf": "output/pdf/soil-acidity/soil-acidity-draft.pdf",
+            "page": 1
           }
         ],
         "displayReferences": [
           {
             "label": "106",
             "pdf": "output/pdf/troubles-rollout/brassica_troubles-imperial.pdf",
+            "page": 1
+          },
+          {
+            "label": "152",
+            "pdf": "output/pdf/soil-acidity/soil-acidity-draft.pdf",
             "page": 1
           }
         ]
@@ -3381,6 +3450,9 @@
           {
             "source": "trouble:potato_troubles",
             "condition": "common_scab"
+          },
+          {
+            "source": "technique:soil-acidity"
           }
         ],
         "references": [
@@ -3392,6 +3464,13 @@
             "folio": 134,
             "pdf": "output/pdf/troubles-rollout/potato_troubles-imperial.pdf",
             "page": 3
+          },
+          {
+            "source": "technique:soil-acidity",
+            "prefix": "",
+            "folio": 152,
+            "pdf": "output/pdf/soil-acidity/soil-acidity-draft.pdf",
+            "page": 1
           }
         ],
         "displayReferences": [
@@ -3399,6 +3478,11 @@
             "label": "134",
             "pdf": "output/pdf/troubles-rollout/potato_troubles-imperial.pdf",
             "page": 3
+          },
+          {
+            "label": "152",
+            "pdf": "output/pdf/soil-acidity/soil-acidity-draft.pdf",
+            "page": 1
           }
         ]
       },
@@ -3414,14 +3498,14 @@
           {
             "source": "technique:compost-bins",
             "prefix": "",
-            "folio": 155,
+            "folio": 156,
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 8
           }
         ],
         "displayReferences": [
           {
-            "label": "155",
+            "label": "156",
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 8
           }
@@ -3439,14 +3523,14 @@
           {
             "source": "technique:compost-use",
             "prefix": "",
-            "folio": 156,
+            "folio": 157,
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 9
           }
         ],
         "displayReferences": [
           {
-            "label": "156",
+            "label": "157",
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 9
           }
@@ -3467,21 +3551,21 @@
           {
             "source": "technique:compost-bins",
             "prefix": "",
-            "folio": 155,
+            "folio": 156,
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 8
           },
           {
             "source": "technique:compost-use",
             "prefix": "",
-            "folio": 156,
+            "folio": 157,
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 9
           }
         ],
         "displayReferences": [
           {
-            "label": "155–156",
+            "label": "156–157",
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 8
           }
@@ -3499,14 +3583,14 @@
           {
             "source": "technique:compost-use",
             "prefix": "",
-            "folio": 156,
+            "folio": 157,
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 9
           }
         ],
         "displayReferences": [
           {
-            "label": "156",
+            "label": "157",
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 9
           }
@@ -3524,14 +3608,14 @@
           {
             "source": "technique:greenhouse-beds",
             "prefix": "",
-            "folio": 168,
+            "folio": 169,
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 17
           }
         ],
         "displayReferences": [
           {
-            "label": "168",
+            "label": "169",
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 17
           }
@@ -3880,14 +3964,14 @@
           {
             "source": "cultivation:overview",
             "prefix": "",
-            "folio": 157,
+            "folio": 158,
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 10
           }
         ],
         "displayReferences": [
           {
-            "label": "157",
+            "label": "158",
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 10
           }
@@ -4028,21 +4112,21 @@
           {
             "source": "cultivation:digging",
             "prefix": "",
-            "folio": 159,
+            "folio": 160,
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 12
           },
           {
             "source": "cultivation:digging-finish",
             "prefix": "",
-            "folio": 160,
+            "folio": 161,
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 13
           }
         ],
         "displayReferences": [
           {
-            "label": "159–160",
+            "label": "160–161",
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 12
           }
@@ -4060,14 +4144,14 @@
           {
             "source": "cultivation:digging-finish",
             "prefix": "",
-            "folio": 160,
+            "folio": 161,
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 13
           }
         ],
         "displayReferences": [
           {
-            "label": "160",
+            "label": "161",
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 13
           }
@@ -4188,26 +4272,26 @@
           {
             "source": "technique:plot-location",
             "prefix": "",
-            "folio": 152,
+            "folio": 153,
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 5
           },
           {
             "source": "technique:watering",
             "prefix": "",
-            "folio": 166,
+            "folio": 163,
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 15
           }
         ],
         "displayReferences": [
           {
-            "label": "152",
+            "label": "153",
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 5
           },
           {
-            "label": "166",
+            "label": "163",
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 15
           }
@@ -4467,14 +4551,14 @@
           {
             "source": "technique:plot-layout-branching",
             "prefix": "",
-            "folio": 154,
+            "folio": 155,
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 7
           }
         ],
         "displayReferences": [
           {
-            "label": "154",
+            "label": "155",
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 7
           }
@@ -4561,26 +4645,26 @@
           {
             "source": "technique:netting",
             "prefix": "",
-            "folio": 162,
+            "folio": 164,
             "pdf": "output/pdf/topic-pages/netting-revised-draft.pdf",
             "page": 1
           },
           {
             "source": "technique:supports",
             "prefix": "",
-            "folio": 165,
+            "folio": 167,
             "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
             "page": 2
           }
         ],
         "displayReferences": [
           {
-            "label": "162",
+            "label": "164",
             "pdf": "output/pdf/topic-pages/netting-revised-draft.pdf",
             "page": 1
           },
           {
-            "label": "165",
+            "label": "167",
             "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
             "page": 2
           }
@@ -4913,14 +4997,14 @@
           {
             "source": "technique:netting",
             "prefix": "",
-            "folio": 162,
+            "folio": 164,
             "pdf": "output/pdf/topic-pages/netting-revised-draft.pdf",
             "page": 1
           }
         ],
         "displayReferences": [
           {
-            "label": "162",
+            "label": "164",
             "pdf": "output/pdf/topic-pages/netting-revised-draft.pdf",
             "page": 1
           }
@@ -5091,6 +5175,31 @@
             "label": "134",
             "pdf": "output/pdf/troubles-rollout/potato_troubles-imperial.pdf",
             "page": 3
+          }
+        ]
+      },
+      {
+        "id": "garden-lime",
+        "term": "Garden lime",
+        "refs": [
+          {
+            "source": "technique:soil-acidity"
+          }
+        ],
+        "references": [
+          {
+            "source": "technique:soil-acidity",
+            "prefix": "",
+            "folio": 152,
+            "pdf": "output/pdf/soil-acidity/soil-acidity-draft.pdf",
+            "page": 1
+          }
+        ],
+        "displayReferences": [
+          {
+            "label": "152",
+            "pdf": "output/pdf/soil-acidity/soil-acidity-draft.pdf",
+            "page": 1
           }
         ]
       },
@@ -5272,14 +5381,14 @@
           {
             "source": "technique:greenhouse-choose",
             "prefix": "",
-            "folio": 167,
+            "folio": 168,
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 16
           }
         ],
         "displayReferences": [
           {
-            "label": "167",
+            "label": "168",
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 16
           }
@@ -5300,21 +5409,21 @@
           {
             "source": "technique:greenhouse-beds",
             "prefix": "",
-            "folio": 168,
+            "folio": 169,
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 17
           },
           {
             "source": "technique:greenhouse-no-dig-seasons",
             "prefix": "",
-            "folio": 169,
+            "folio": 170,
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 18
           }
         ],
         "displayReferences": [
           {
-            "label": "168–169",
+            "label": "169–170",
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 17
           }
@@ -5332,14 +5441,14 @@
           {
             "source": "technique:greenhouse-no-dig-seasons",
             "prefix": "",
-            "folio": 169,
+            "folio": 170,
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 18
           }
         ],
         "displayReferences": [
           {
-            "label": "169",
+            "label": "170",
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 18
           }
@@ -5586,14 +5695,14 @@
           {
             "source": "technique:sowing",
             "prefix": "",
-            "folio": 161,
+            "folio": 162,
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 14
           }
         ],
         "displayReferences": [
           {
-            "label": "161",
+            "label": "162",
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 14
           }
@@ -5808,14 +5917,14 @@
           {
             "source": "technique:netting",
             "prefix": "",
-            "folio": 162,
+            "folio": 164,
             "pdf": "output/pdf/topic-pages/netting-revised-draft.pdf",
             "page": 1
           }
         ],
         "displayReferences": [
           {
-            "label": "162",
+            "label": "164",
             "pdf": "output/pdf/topic-pages/netting-revised-draft.pdf",
             "page": 1
           }
@@ -5922,14 +6031,14 @@
           {
             "source": "technique:plot-layout",
             "prefix": "",
-            "folio": 153,
+            "folio": 154,
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 6
           }
         ],
         "displayReferences": [
           {
-            "label": "153",
+            "label": "154",
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 6
           }
@@ -6064,14 +6173,14 @@
           {
             "source": "technique:plot-layout-branching",
             "prefix": "",
-            "folio": 154,
+            "folio": 155,
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 7
           }
         ],
         "displayReferences": [
           {
-            "label": "154",
+            "label": "155",
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 7
           }
@@ -6393,6 +6502,31 @@
         ]
       },
       {
+        "id": "liming",
+        "term": "Liming",
+        "refs": [
+          {
+            "source": "technique:soil-acidity"
+          }
+        ],
+        "references": [
+          {
+            "source": "technique:soil-acidity",
+            "prefix": "",
+            "folio": 152,
+            "pdf": "output/pdf/soil-acidity/soil-acidity-draft.pdf",
+            "page": 1
+          }
+        ],
+        "displayReferences": [
+          {
+            "label": "152",
+            "pdf": "output/pdf/soil-acidity/soil-acidity-draft.pdf",
+            "page": 1
+          }
+        ]
+      },
+      {
         "id": "lower-sheath-rot",
         "term": "Lower sheath rot",
         "refs": [
@@ -6669,14 +6803,14 @@
           {
             "source": "technique:sowing",
             "prefix": "",
-            "folio": 161,
+            "folio": 162,
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 14
           }
         ],
         "displayReferences": [
           {
-            "label": "161",
+            "label": "162",
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 14
           }
@@ -6740,14 +6874,14 @@
           {
             "source": "cultivation:no-dig",
             "prefix": "",
-            "folio": 158,
+            "folio": 159,
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 11
           }
         ],
         "displayReferences": [
           {
-            "label": "158",
+            "label": "159",
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 11
           }
@@ -6825,21 +6959,21 @@
           {
             "source": "technique:netting",
             "prefix": "",
-            "folio": 162,
+            "folio": 164,
             "pdf": "output/pdf/topic-pages/netting-revised-draft.pdf",
             "page": 1
           },
           {
             "source": "technique:netting",
             "prefix": "",
-            "folio": 163,
+            "folio": 165,
             "pdf": "output/pdf/topic-pages/netting-revised-draft.pdf",
             "page": 2
           }
         ],
         "displayReferences": [
           {
-            "label": "162–163",
+            "label": "164–165",
             "pdf": "output/pdf/topic-pages/netting-revised-draft.pdf",
             "page": 1
           }
@@ -6858,14 +6992,14 @@
           {
             "source": "technique:netting",
             "prefix": "",
-            "folio": 163,
+            "folio": 165,
             "pdf": "output/pdf/topic-pages/netting-revised-draft.pdf",
             "page": 2
           }
         ],
         "displayReferences": [
           {
-            "label": "163",
+            "label": "165",
             "pdf": "output/pdf/topic-pages/netting-revised-draft.pdf",
             "page": 2
           }
@@ -6908,14 +7042,14 @@
           {
             "source": "technique:greenhouse-no-dig-seasons",
             "prefix": "",
-            "folio": 169,
+            "folio": 170,
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 18
           }
         ],
         "displayReferences": [
           {
-            "label": "169",
+            "label": "170",
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 18
           }
@@ -6933,14 +7067,14 @@
           {
             "source": "cultivation:no-dig",
             "prefix": "",
-            "folio": 158,
+            "folio": 159,
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 11
           }
         ],
         "displayReferences": [
           {
-            "label": "158",
+            "label": "159",
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 11
           }
@@ -7313,21 +7447,21 @@
           {
             "source": "technique:plot-layout",
             "prefix": "",
-            "folio": 153,
+            "folio": 154,
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 6
           },
           {
             "source": "technique:plot-layout-branching",
             "prefix": "",
-            "folio": 154,
+            "folio": 155,
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 7
           }
         ],
         "displayReferences": [
           {
-            "label": "153–154",
+            "label": "154–155",
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 6
           }
@@ -7450,7 +7584,7 @@
           {
             "source": "technique:supports",
             "prefix": "",
-            "folio": 164,
+            "folio": 166,
             "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
             "page": 1
           }
@@ -7467,7 +7601,7 @@
             "page": 1
           },
           {
-            "label": "164",
+            "label": "166",
             "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
             "page": 1
           }
@@ -7559,6 +7693,31 @@
         ]
       },
       {
+        "id": "ph-soil",
+        "term": "pH, soil",
+        "refs": [
+          {
+            "source": "technique:soil-acidity"
+          }
+        ],
+        "references": [
+          {
+            "source": "technique:soil-acidity",
+            "prefix": "",
+            "folio": 152,
+            "pdf": "output/pdf/soil-acidity/soil-acidity-draft.pdf",
+            "page": 1
+          }
+        ],
+        "displayReferences": [
+          {
+            "label": "152",
+            "pdf": "output/pdf/soil-acidity/soil-acidity-draft.pdf",
+            "page": 1
+          }
+        ]
+      },
+      {
         "id": "pigeons",
         "term": "Pigeons",
         "see": "bird-damage",
@@ -7577,14 +7736,14 @@
           {
             "source": "technique:sowing",
             "prefix": "",
-            "folio": 161,
+            "folio": 162,
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 14
           }
         ],
         "displayReferences": [
           {
-            "label": "161",
+            "label": "162",
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 14
           }
@@ -7602,21 +7761,21 @@
           {
             "source": "technique:supports",
             "prefix": "",
-            "folio": 164,
+            "folio": 166,
             "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
             "page": 1
           },
           {
             "source": "technique:supports",
             "prefix": "",
-            "folio": 165,
+            "folio": 167,
             "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
             "page": 2
           }
         ],
         "displayReferences": [
           {
-            "label": "164–165",
+            "label": "166–167",
             "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
             "page": 1
           }
@@ -7634,14 +7793,14 @@
           {
             "source": "technique:plot-location",
             "prefix": "",
-            "folio": 152,
+            "folio": 153,
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 5
           }
         ],
         "displayReferences": [
           {
-            "label": "152",
+            "label": "153",
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 5
           }
@@ -7665,28 +7824,28 @@
           {
             "source": "technique:plot-location",
             "prefix": "",
-            "folio": 152,
+            "folio": 153,
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 5
           },
           {
             "source": "technique:plot-layout",
             "prefix": "",
-            "folio": 153,
+            "folio": 154,
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 6
           },
           {
             "source": "technique:plot-layout-branching",
             "prefix": "",
-            "folio": 154,
+            "folio": 155,
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 7
           }
         ],
         "displayReferences": [
           {
-            "label": "152–154",
+            "label": "153–155",
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 5
           }
@@ -8470,14 +8629,14 @@
           {
             "source": "technique:sowing",
             "prefix": "",
-            "folio": 161,
+            "folio": 162,
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 14
           }
         ],
         "displayReferences": [
           {
-            "label": "161",
+            "label": "162",
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 14
           }
@@ -8526,26 +8685,26 @@
           {
             "source": "technique:plot-location",
             "prefix": "",
-            "folio": 152,
+            "folio": 153,
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 5
           },
           {
             "source": "technique:plot-layout-branching",
             "prefix": "",
-            "folio": 154,
+            "folio": 155,
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 7
           }
         ],
         "displayReferences": [
           {
-            "label": "152",
+            "label": "153",
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 5
           },
           {
-            "label": "154",
+            "label": "155",
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 7
           }
@@ -8598,14 +8757,14 @@
           {
             "source": "technique:plot-layout-branching",
             "prefix": "",
-            "folio": 154,
+            "folio": 155,
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 7
           }
         ],
         "displayReferences": [
           {
-            "label": "154",
+            "label": "155",
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 7
           }
@@ -8787,14 +8946,14 @@
           {
             "source": "cultivation:digging-finish",
             "prefix": "",
-            "folio": 160,
+            "folio": 161,
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 13
           }
         ],
         "displayReferences": [
           {
-            "label": "160",
+            "label": "161",
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 13
           }
@@ -8921,16 +9080,41 @@
           {
             "source": "cultivation:digging",
             "prefix": "",
-            "folio": 159,
+            "folio": 160,
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 12
           }
         ],
         "displayReferences": [
           {
-            "label": "159",
+            "label": "160",
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 12
+          }
+        ]
+      },
+      {
+        "id": "soil-testing",
+        "term": "Soil testing",
+        "refs": [
+          {
+            "source": "technique:soil-acidity"
+          }
+        ],
+        "references": [
+          {
+            "source": "technique:soil-acidity",
+            "prefix": "",
+            "folio": 152,
+            "pdf": "output/pdf/soil-acidity/soil-acidity-draft.pdf",
+            "page": 1
+          }
+        ],
+        "displayReferences": [
+          {
+            "label": "152",
+            "pdf": "output/pdf/soil-acidity/soil-acidity-draft.pdf",
+            "page": 1
           }
         ]
       },
@@ -9371,14 +9555,14 @@
           {
             "source": "technique:supports",
             "prefix": "",
-            "folio": 165,
+            "folio": 167,
             "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
             "page": 2
           }
         ],
         "displayReferences": [
           {
-            "label": "165",
+            "label": "167",
             "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
             "page": 2
           }
@@ -9850,14 +10034,14 @@
           {
             "source": "technique:supports",
             "prefix": "",
-            "folio": 165,
+            "folio": 167,
             "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
             "page": 2
           }
         ],
         "displayReferences": [
           {
-            "label": "165",
+            "label": "167",
             "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
             "page": 2
           }
@@ -10006,7 +10190,7 @@
           {
             "source": "technique:supports",
             "prefix": "",
-            "folio": 165,
+            "folio": 167,
             "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
             "page": 2
           }
@@ -10023,7 +10207,7 @@
             "page": 1
           },
           {
-            "label": "165",
+            "label": "167",
             "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
             "page": 2
           }
@@ -10351,14 +10535,14 @@
           {
             "source": "technique:watering",
             "prefix": "",
-            "folio": 166,
+            "folio": 163,
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 15
           }
         ],
         "displayReferences": [
           {
-            "label": "166",
+            "label": "163",
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 15
           }
@@ -10376,14 +10560,14 @@
           {
             "source": "technique:watering",
             "prefix": "",
-            "folio": 166,
+            "folio": 163,
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 15
           }
         ],
         "displayReferences": [
           {
-            "label": "166",
+            "label": "163",
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 15
           }
@@ -10407,38 +10591,38 @@
           {
             "source": "technique:plot-location",
             "prefix": "",
-            "folio": 152,
+            "folio": 153,
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 5
           },
           {
             "source": "cultivation:no-dig",
             "prefix": "",
-            "folio": 158,
+            "folio": 159,
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 11
           },
           {
             "source": "cultivation:digging-finish",
             "prefix": "",
-            "folio": 160,
+            "folio": 161,
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 13
           }
         ],
         "displayReferences": [
           {
-            "label": "152",
+            "label": "153",
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 5
           },
           {
-            "label": "158",
+            "label": "159",
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 11
           },
           {
-            "label": "160",
+            "label": "161",
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 13
           }
@@ -10576,14 +10760,14 @@
           {
             "source": "technique:supports",
             "prefix": "",
-            "folio": 164,
+            "folio": 166,
             "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
             "page": 1
           }
         ],
         "displayReferences": [
           {
-            "label": "164",
+            "label": "166",
             "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
             "page": 1
           }
@@ -10602,14 +10786,14 @@
           {
             "source": "technique:supports",
             "prefix": "",
-            "folio": 165,
+            "folio": 167,
             "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
             "page": 2
           }
         ],
         "displayReferences": [
           {
-            "label": "165",
+            "label": "167",
             "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
             "page": 2
           }
@@ -10627,14 +10811,14 @@
           {
             "source": "technique:sowing",
             "prefix": "",
-            "folio": 161,
+            "folio": 162,
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 14
           }
         ],
         "displayReferences": [
           {
-            "label": "161",
+            "label": "162",
             "pdf": "output/pdf/techniques-subsections/techniques-imperial.pdf",
             "page": 14
           }
@@ -10856,6 +11040,56 @@
     ],
     "metric": [
       {
+        "id": "acid-soil",
+        "term": "Acid soil",
+        "refs": [
+          {
+            "source": "technique:soil-acidity"
+          }
+        ],
+        "references": [
+          {
+            "source": "technique:soil-acidity",
+            "prefix": "",
+            "folio": 152,
+            "pdf": "output/pdf/soil-acidity/soil-acidity-draft.pdf",
+            "page": 1
+          }
+        ],
+        "displayReferences": [
+          {
+            "label": "152",
+            "pdf": "output/pdf/soil-acidity/soil-acidity-draft.pdf",
+            "page": 1
+          }
+        ]
+      },
+      {
+        "id": "alkaline-soil",
+        "term": "Alkaline soil",
+        "refs": [
+          {
+            "source": "technique:soil-acidity"
+          }
+        ],
+        "references": [
+          {
+            "source": "technique:soil-acidity",
+            "prefix": "",
+            "folio": 152,
+            "pdf": "output/pdf/soil-acidity/soil-acidity-draft.pdf",
+            "page": 1
+          }
+        ],
+        "displayReferences": [
+          {
+            "label": "152",
+            "pdf": "output/pdf/soil-acidity/soil-acidity-draft.pdf",
+            "page": 1
+          }
+        ]
+      },
+      {
         "id": "allium-leaf-miner",
         "term": "Allium leaf miner",
         "refs": [
@@ -11391,7 +11625,7 @@
           {
             "source": "technique:supports",
             "prefix": "",
-            "folio": 164,
+            "folio": 166,
             "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
             "page": 1
           }
@@ -11408,7 +11642,7 @@
             "page": 1
           },
           {
-            "label": "164",
+            "label": "166",
             "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
             "page": 1
           }
@@ -11503,7 +11737,7 @@
           {
             "source": "technique:supports",
             "prefix": "",
-            "folio": 164,
+            "folio": 166,
             "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
             "page": 1
           }
@@ -11520,7 +11754,7 @@
             "page": 1
           },
           {
-            "label": "164",
+            "label": "166",
             "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
             "page": 1
           }
@@ -11587,7 +11821,7 @@
           {
             "source": "technique:supports",
             "prefix": "",
-            "folio": 164,
+            "folio": 166,
             "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
             "page": 1
           }
@@ -11604,7 +11838,7 @@
             "page": 1
           },
           {
-            "label": "164",
+            "label": "166",
             "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
             "page": 1
           }
@@ -11625,21 +11859,21 @@
           {
             "source": "technique:plot-layout",
             "prefix": "",
-            "folio": 153,
+            "folio": 154,
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 6
           },
           {
             "source": "technique:plot-layout-branching",
             "prefix": "",
-            "folio": 154,
+            "folio": 155,
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 7
           }
         ],
         "displayReferences": [
           {
-            "label": "153–154",
+            "label": "154–155",
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 6
           }
@@ -11657,14 +11891,14 @@
           {
             "source": "technique:greenhouse-beds",
             "prefix": "",
-            "folio": 168,
+            "folio": 169,
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 17
           }
         ],
         "displayReferences": [
           {
-            "label": "168",
+            "label": "169",
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 17
           }
@@ -11858,7 +12092,7 @@
           {
             "source": "technique:netting",
             "prefix": "",
-            "folio": 162,
+            "folio": 164,
             "pdf": "output/pdf/topic-pages/netting-revised-draft.pdf",
             "page": 1
           }
@@ -11880,7 +12114,7 @@
             "page": 2
           },
           {
-            "label": "162",
+            "label": "164",
             "pdf": "output/pdf/topic-pages/netting-revised-draft.pdf",
             "page": 1
           }
@@ -12509,14 +12743,14 @@
           {
             "source": "technique:supports",
             "prefix": "",
-            "folio": 165,
+            "folio": 167,
             "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
             "page": 2
           }
         ],
         "displayReferences": [
           {
-            "label": "165",
+            "label": "167",
             "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
             "page": 2
           }
@@ -12693,7 +12927,7 @@
           {
             "source": "technique:supports",
             "prefix": "",
-            "folio": 165,
+            "folio": 167,
             "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
             "page": 2
           }
@@ -12710,7 +12944,7 @@
             "page": 1
           },
           {
-            "label": "165",
+            "label": "167",
             "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
             "page": 2
           }
@@ -13021,14 +13255,14 @@
           {
             "source": "cultivation:no-dig",
             "prefix": "",
-            "folio": 158,
+            "folio": 159,
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 11
           }
         ],
         "displayReferences": [
           {
-            "label": "158",
+            "label": "159",
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 11
           }
@@ -13636,6 +13870,9 @@
           {
             "source": "trouble:brassica_troubles",
             "condition": "club_root_finger_and_toe"
+          },
+          {
+            "source": "technique:soil-acidity"
           }
         ],
         "references": [
@@ -13647,12 +13884,24 @@
             "folio": 106,
             "pdf": "output/pdf/troubles-rollout/brassica_troubles-metric.pdf",
             "page": 1
+          },
+          {
+            "source": "technique:soil-acidity",
+            "prefix": "",
+            "folio": 152,
+            "pdf": "output/pdf/soil-acidity/soil-acidity-draft.pdf",
+            "page": 1
           }
         ],
         "displayReferences": [
           {
             "label": "106",
             "pdf": "output/pdf/troubles-rollout/brassica_troubles-metric.pdf",
+            "page": 1
+          },
+          {
+            "label": "152",
+            "pdf": "output/pdf/soil-acidity/soil-acidity-draft.pdf",
             "page": 1
           }
         ]
@@ -13717,6 +13966,9 @@
           {
             "source": "trouble:potato_troubles",
             "condition": "common_scab"
+          },
+          {
+            "source": "technique:soil-acidity"
           }
         ],
         "references": [
@@ -13728,6 +13980,13 @@
             "folio": 134,
             "pdf": "output/pdf/troubles-rollout/potato_troubles-metric.pdf",
             "page": 3
+          },
+          {
+            "source": "technique:soil-acidity",
+            "prefix": "",
+            "folio": 152,
+            "pdf": "output/pdf/soil-acidity/soil-acidity-draft.pdf",
+            "page": 1
           }
         ],
         "displayReferences": [
@@ -13735,6 +13994,11 @@
             "label": "134",
             "pdf": "output/pdf/troubles-rollout/potato_troubles-metric.pdf",
             "page": 3
+          },
+          {
+            "label": "152",
+            "pdf": "output/pdf/soil-acidity/soil-acidity-draft.pdf",
+            "page": 1
           }
         ]
       },
@@ -13750,14 +14014,14 @@
           {
             "source": "technique:compost-bins",
             "prefix": "",
-            "folio": 155,
+            "folio": 156,
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 8
           }
         ],
         "displayReferences": [
           {
-            "label": "155",
+            "label": "156",
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 8
           }
@@ -13775,14 +14039,14 @@
           {
             "source": "technique:compost-use",
             "prefix": "",
-            "folio": 156,
+            "folio": 157,
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 9
           }
         ],
         "displayReferences": [
           {
-            "label": "156",
+            "label": "157",
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 9
           }
@@ -13803,21 +14067,21 @@
           {
             "source": "technique:compost-bins",
             "prefix": "",
-            "folio": 155,
+            "folio": 156,
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 8
           },
           {
             "source": "technique:compost-use",
             "prefix": "",
-            "folio": 156,
+            "folio": 157,
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 9
           }
         ],
         "displayReferences": [
           {
-            "label": "155–156",
+            "label": "156–157",
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 8
           }
@@ -13835,14 +14099,14 @@
           {
             "source": "technique:compost-use",
             "prefix": "",
-            "folio": 156,
+            "folio": 157,
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 9
           }
         ],
         "displayReferences": [
           {
-            "label": "156",
+            "label": "157",
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 9
           }
@@ -13860,14 +14124,14 @@
           {
             "source": "technique:greenhouse-beds",
             "prefix": "",
-            "folio": 168,
+            "folio": 169,
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 17
           }
         ],
         "displayReferences": [
           {
-            "label": "168",
+            "label": "169",
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 17
           }
@@ -14216,14 +14480,14 @@
           {
             "source": "cultivation:overview",
             "prefix": "",
-            "folio": 157,
+            "folio": 158,
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 10
           }
         ],
         "displayReferences": [
           {
-            "label": "157",
+            "label": "158",
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 10
           }
@@ -14364,21 +14628,21 @@
           {
             "source": "cultivation:digging",
             "prefix": "",
-            "folio": 159,
+            "folio": 160,
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 12
           },
           {
             "source": "cultivation:digging-finish",
             "prefix": "",
-            "folio": 160,
+            "folio": 161,
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 13
           }
         ],
         "displayReferences": [
           {
-            "label": "159–160",
+            "label": "160–161",
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 12
           }
@@ -14396,14 +14660,14 @@
           {
             "source": "cultivation:digging-finish",
             "prefix": "",
-            "folio": 160,
+            "folio": 161,
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 13
           }
         ],
         "displayReferences": [
           {
-            "label": "160",
+            "label": "161",
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 13
           }
@@ -14524,26 +14788,26 @@
           {
             "source": "technique:plot-location",
             "prefix": "",
-            "folio": 152,
+            "folio": 153,
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 5
           },
           {
             "source": "technique:watering",
             "prefix": "",
-            "folio": 166,
+            "folio": 163,
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 15
           }
         ],
         "displayReferences": [
           {
-            "label": "152",
+            "label": "153",
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 5
           },
           {
-            "label": "166",
+            "label": "163",
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 15
           }
@@ -14803,14 +15067,14 @@
           {
             "source": "technique:plot-layout-branching",
             "prefix": "",
-            "folio": 154,
+            "folio": 155,
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 7
           }
         ],
         "displayReferences": [
           {
-            "label": "154",
+            "label": "155",
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 7
           }
@@ -14897,26 +15161,26 @@
           {
             "source": "technique:netting",
             "prefix": "",
-            "folio": 162,
+            "folio": 164,
             "pdf": "output/pdf/topic-pages/netting-revised-draft.pdf",
             "page": 1
           },
           {
             "source": "technique:supports",
             "prefix": "",
-            "folio": 165,
+            "folio": 167,
             "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
             "page": 2
           }
         ],
         "displayReferences": [
           {
-            "label": "162",
+            "label": "164",
             "pdf": "output/pdf/topic-pages/netting-revised-draft.pdf",
             "page": 1
           },
           {
-            "label": "165",
+            "label": "167",
             "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
             "page": 2
           }
@@ -15249,14 +15513,14 @@
           {
             "source": "technique:netting",
             "prefix": "",
-            "folio": 162,
+            "folio": 164,
             "pdf": "output/pdf/topic-pages/netting-revised-draft.pdf",
             "page": 1
           }
         ],
         "displayReferences": [
           {
-            "label": "162",
+            "label": "164",
             "pdf": "output/pdf/topic-pages/netting-revised-draft.pdf",
             "page": 1
           }
@@ -15427,6 +15691,31 @@
             "label": "134",
             "pdf": "output/pdf/troubles-rollout/potato_troubles-metric.pdf",
             "page": 3
+          }
+        ]
+      },
+      {
+        "id": "garden-lime",
+        "term": "Garden lime",
+        "refs": [
+          {
+            "source": "technique:soil-acidity"
+          }
+        ],
+        "references": [
+          {
+            "source": "technique:soil-acidity",
+            "prefix": "",
+            "folio": 152,
+            "pdf": "output/pdf/soil-acidity/soil-acidity-draft.pdf",
+            "page": 1
+          }
+        ],
+        "displayReferences": [
+          {
+            "label": "152",
+            "pdf": "output/pdf/soil-acidity/soil-acidity-draft.pdf",
+            "page": 1
           }
         ]
       },
@@ -15608,14 +15897,14 @@
           {
             "source": "technique:greenhouse-choose",
             "prefix": "",
-            "folio": 167,
+            "folio": 168,
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 16
           }
         ],
         "displayReferences": [
           {
-            "label": "167",
+            "label": "168",
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 16
           }
@@ -15636,21 +15925,21 @@
           {
             "source": "technique:greenhouse-beds",
             "prefix": "",
-            "folio": 168,
+            "folio": 169,
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 17
           },
           {
             "source": "technique:greenhouse-no-dig-seasons",
             "prefix": "",
-            "folio": 169,
+            "folio": 170,
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 18
           }
         ],
         "displayReferences": [
           {
-            "label": "168–169",
+            "label": "169–170",
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 17
           }
@@ -15668,14 +15957,14 @@
           {
             "source": "technique:greenhouse-no-dig-seasons",
             "prefix": "",
-            "folio": 169,
+            "folio": 170,
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 18
           }
         ],
         "displayReferences": [
           {
-            "label": "169",
+            "label": "170",
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 18
           }
@@ -15922,14 +16211,14 @@
           {
             "source": "technique:sowing",
             "prefix": "",
-            "folio": 161,
+            "folio": 162,
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 14
           }
         ],
         "displayReferences": [
           {
-            "label": "161",
+            "label": "162",
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 14
           }
@@ -16144,14 +16433,14 @@
           {
             "source": "technique:netting",
             "prefix": "",
-            "folio": 162,
+            "folio": 164,
             "pdf": "output/pdf/topic-pages/netting-revised-draft.pdf",
             "page": 1
           }
         ],
         "displayReferences": [
           {
-            "label": "162",
+            "label": "164",
             "pdf": "output/pdf/topic-pages/netting-revised-draft.pdf",
             "page": 1
           }
@@ -16258,14 +16547,14 @@
           {
             "source": "technique:plot-layout",
             "prefix": "",
-            "folio": 153,
+            "folio": 154,
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 6
           }
         ],
         "displayReferences": [
           {
-            "label": "153",
+            "label": "154",
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 6
           }
@@ -16400,14 +16689,14 @@
           {
             "source": "technique:plot-layout-branching",
             "prefix": "",
-            "folio": 154,
+            "folio": 155,
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 7
           }
         ],
         "displayReferences": [
           {
-            "label": "154",
+            "label": "155",
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 7
           }
@@ -16729,6 +17018,31 @@
         ]
       },
       {
+        "id": "liming",
+        "term": "Liming",
+        "refs": [
+          {
+            "source": "technique:soil-acidity"
+          }
+        ],
+        "references": [
+          {
+            "source": "technique:soil-acidity",
+            "prefix": "",
+            "folio": 152,
+            "pdf": "output/pdf/soil-acidity/soil-acidity-draft.pdf",
+            "page": 1
+          }
+        ],
+        "displayReferences": [
+          {
+            "label": "152",
+            "pdf": "output/pdf/soil-acidity/soil-acidity-draft.pdf",
+            "page": 1
+          }
+        ]
+      },
+      {
         "id": "lower-sheath-rot",
         "term": "Lower sheath rot",
         "refs": [
@@ -17005,14 +17319,14 @@
           {
             "source": "technique:sowing",
             "prefix": "",
-            "folio": 161,
+            "folio": 162,
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 14
           }
         ],
         "displayReferences": [
           {
-            "label": "161",
+            "label": "162",
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 14
           }
@@ -17076,14 +17390,14 @@
           {
             "source": "cultivation:no-dig",
             "prefix": "",
-            "folio": 158,
+            "folio": 159,
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 11
           }
         ],
         "displayReferences": [
           {
-            "label": "158",
+            "label": "159",
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 11
           }
@@ -17161,21 +17475,21 @@
           {
             "source": "technique:netting",
             "prefix": "",
-            "folio": 162,
+            "folio": 164,
             "pdf": "output/pdf/topic-pages/netting-revised-draft.pdf",
             "page": 1
           },
           {
             "source": "technique:netting",
             "prefix": "",
-            "folio": 163,
+            "folio": 165,
             "pdf": "output/pdf/topic-pages/netting-revised-draft.pdf",
             "page": 2
           }
         ],
         "displayReferences": [
           {
-            "label": "162–163",
+            "label": "164–165",
             "pdf": "output/pdf/topic-pages/netting-revised-draft.pdf",
             "page": 1
           }
@@ -17194,14 +17508,14 @@
           {
             "source": "technique:netting",
             "prefix": "",
-            "folio": 163,
+            "folio": 165,
             "pdf": "output/pdf/topic-pages/netting-revised-draft.pdf",
             "page": 2
           }
         ],
         "displayReferences": [
           {
-            "label": "163",
+            "label": "165",
             "pdf": "output/pdf/topic-pages/netting-revised-draft.pdf",
             "page": 2
           }
@@ -17244,14 +17558,14 @@
           {
             "source": "technique:greenhouse-no-dig-seasons",
             "prefix": "",
-            "folio": 169,
+            "folio": 170,
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 18
           }
         ],
         "displayReferences": [
           {
-            "label": "169",
+            "label": "170",
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 18
           }
@@ -17269,14 +17583,14 @@
           {
             "source": "cultivation:no-dig",
             "prefix": "",
-            "folio": 158,
+            "folio": 159,
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 11
           }
         ],
         "displayReferences": [
           {
-            "label": "158",
+            "label": "159",
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 11
           }
@@ -17649,21 +17963,21 @@
           {
             "source": "technique:plot-layout",
             "prefix": "",
-            "folio": 153,
+            "folio": 154,
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 6
           },
           {
             "source": "technique:plot-layout-branching",
             "prefix": "",
-            "folio": 154,
+            "folio": 155,
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 7
           }
         ],
         "displayReferences": [
           {
-            "label": "153–154",
+            "label": "154–155",
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 6
           }
@@ -17786,7 +18100,7 @@
           {
             "source": "technique:supports",
             "prefix": "",
-            "folio": 164,
+            "folio": 166,
             "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
             "page": 1
           }
@@ -17803,7 +18117,7 @@
             "page": 1
           },
           {
-            "label": "164",
+            "label": "166",
             "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
             "page": 1
           }
@@ -17895,6 +18209,31 @@
         ]
       },
       {
+        "id": "ph-soil",
+        "term": "pH, soil",
+        "refs": [
+          {
+            "source": "technique:soil-acidity"
+          }
+        ],
+        "references": [
+          {
+            "source": "technique:soil-acidity",
+            "prefix": "",
+            "folio": 152,
+            "pdf": "output/pdf/soil-acidity/soil-acidity-draft.pdf",
+            "page": 1
+          }
+        ],
+        "displayReferences": [
+          {
+            "label": "152",
+            "pdf": "output/pdf/soil-acidity/soil-acidity-draft.pdf",
+            "page": 1
+          }
+        ]
+      },
+      {
         "id": "pigeons",
         "term": "Pigeons",
         "see": "bird-damage",
@@ -17913,14 +18252,14 @@
           {
             "source": "technique:sowing",
             "prefix": "",
-            "folio": 161,
+            "folio": 162,
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 14
           }
         ],
         "displayReferences": [
           {
-            "label": "161",
+            "label": "162",
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 14
           }
@@ -17938,21 +18277,21 @@
           {
             "source": "technique:supports",
             "prefix": "",
-            "folio": 164,
+            "folio": 166,
             "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
             "page": 1
           },
           {
             "source": "technique:supports",
             "prefix": "",
-            "folio": 165,
+            "folio": 167,
             "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
             "page": 2
           }
         ],
         "displayReferences": [
           {
-            "label": "164–165",
+            "label": "166–167",
             "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
             "page": 1
           }
@@ -17970,14 +18309,14 @@
           {
             "source": "technique:plot-location",
             "prefix": "",
-            "folio": 152,
+            "folio": 153,
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 5
           }
         ],
         "displayReferences": [
           {
-            "label": "152",
+            "label": "153",
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 5
           }
@@ -18001,28 +18340,28 @@
           {
             "source": "technique:plot-location",
             "prefix": "",
-            "folio": 152,
+            "folio": 153,
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 5
           },
           {
             "source": "technique:plot-layout",
             "prefix": "",
-            "folio": 153,
+            "folio": 154,
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 6
           },
           {
             "source": "technique:plot-layout-branching",
             "prefix": "",
-            "folio": 154,
+            "folio": 155,
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 7
           }
         ],
         "displayReferences": [
           {
-            "label": "152–154",
+            "label": "153–155",
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 5
           }
@@ -18806,14 +19145,14 @@
           {
             "source": "technique:sowing",
             "prefix": "",
-            "folio": 161,
+            "folio": 162,
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 14
           }
         ],
         "displayReferences": [
           {
-            "label": "161",
+            "label": "162",
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 14
           }
@@ -18862,26 +19201,26 @@
           {
             "source": "technique:plot-location",
             "prefix": "",
-            "folio": 152,
+            "folio": 153,
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 5
           },
           {
             "source": "technique:plot-layout-branching",
             "prefix": "",
-            "folio": 154,
+            "folio": 155,
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 7
           }
         ],
         "displayReferences": [
           {
-            "label": "152",
+            "label": "153",
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 5
           },
           {
-            "label": "154",
+            "label": "155",
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 7
           }
@@ -18934,14 +19273,14 @@
           {
             "source": "technique:plot-layout-branching",
             "prefix": "",
-            "folio": 154,
+            "folio": 155,
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 7
           }
         ],
         "displayReferences": [
           {
-            "label": "154",
+            "label": "155",
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 7
           }
@@ -19123,14 +19462,14 @@
           {
             "source": "cultivation:digging-finish",
             "prefix": "",
-            "folio": 160,
+            "folio": 161,
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 13
           }
         ],
         "displayReferences": [
           {
-            "label": "160",
+            "label": "161",
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 13
           }
@@ -19257,16 +19596,41 @@
           {
             "source": "cultivation:digging",
             "prefix": "",
-            "folio": 159,
+            "folio": 160,
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 12
           }
         ],
         "displayReferences": [
           {
-            "label": "159",
+            "label": "160",
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 12
+          }
+        ]
+      },
+      {
+        "id": "soil-testing",
+        "term": "Soil testing",
+        "refs": [
+          {
+            "source": "technique:soil-acidity"
+          }
+        ],
+        "references": [
+          {
+            "source": "technique:soil-acidity",
+            "prefix": "",
+            "folio": 152,
+            "pdf": "output/pdf/soil-acidity/soil-acidity-draft.pdf",
+            "page": 1
+          }
+        ],
+        "displayReferences": [
+          {
+            "label": "152",
+            "pdf": "output/pdf/soil-acidity/soil-acidity-draft.pdf",
+            "page": 1
           }
         ]
       },
@@ -19707,14 +20071,14 @@
           {
             "source": "technique:supports",
             "prefix": "",
-            "folio": 165,
+            "folio": 167,
             "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
             "page": 2
           }
         ],
         "displayReferences": [
           {
-            "label": "165",
+            "label": "167",
             "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
             "page": 2
           }
@@ -20186,14 +20550,14 @@
           {
             "source": "technique:supports",
             "prefix": "",
-            "folio": 165,
+            "folio": 167,
             "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
             "page": 2
           }
         ],
         "displayReferences": [
           {
-            "label": "165",
+            "label": "167",
             "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
             "page": 2
           }
@@ -20342,7 +20706,7 @@
           {
             "source": "technique:supports",
             "prefix": "",
-            "folio": 165,
+            "folio": 167,
             "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
             "page": 2
           }
@@ -20359,7 +20723,7 @@
             "page": 1
           },
           {
-            "label": "165",
+            "label": "167",
             "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
             "page": 2
           }
@@ -20687,14 +21051,14 @@
           {
             "source": "technique:watering",
             "prefix": "",
-            "folio": 166,
+            "folio": 163,
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 15
           }
         ],
         "displayReferences": [
           {
-            "label": "166",
+            "label": "163",
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 15
           }
@@ -20712,14 +21076,14 @@
           {
             "source": "technique:watering",
             "prefix": "",
-            "folio": 166,
+            "folio": 163,
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 15
           }
         ],
         "displayReferences": [
           {
-            "label": "166",
+            "label": "163",
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 15
           }
@@ -20743,38 +21107,38 @@
           {
             "source": "technique:plot-location",
             "prefix": "",
-            "folio": 152,
+            "folio": 153,
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 5
           },
           {
             "source": "cultivation:no-dig",
             "prefix": "",
-            "folio": 158,
+            "folio": 159,
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 11
           },
           {
             "source": "cultivation:digging-finish",
             "prefix": "",
-            "folio": 160,
+            "folio": 161,
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 13
           }
         ],
         "displayReferences": [
           {
-            "label": "152",
+            "label": "153",
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 5
           },
           {
-            "label": "158",
+            "label": "159",
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 11
           },
           {
-            "label": "160",
+            "label": "161",
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 13
           }
@@ -20912,14 +21276,14 @@
           {
             "source": "technique:supports",
             "prefix": "",
-            "folio": 164,
+            "folio": 166,
             "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
             "page": 1
           }
         ],
         "displayReferences": [
           {
-            "label": "164",
+            "label": "166",
             "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
             "page": 1
           }
@@ -20938,14 +21302,14 @@
           {
             "source": "technique:supports",
             "prefix": "",
-            "folio": 165,
+            "folio": 167,
             "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
             "page": 2
           }
         ],
         "displayReferences": [
           {
-            "label": "165",
+            "label": "167",
             "pdf": "output/pdf/topic-pages/supports-revised-draft.pdf",
             "page": 2
           }
@@ -20963,14 +21327,14 @@
           {
             "source": "technique:sowing",
             "prefix": "",
-            "folio": 161,
+            "folio": 162,
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 14
           }
         ],
         "displayReferences": [
           {
-            "label": "161",
+            "label": "162",
             "pdf": "output/pdf/techniques-subsections/techniques-metric.pdf",
             "page": 14
           }

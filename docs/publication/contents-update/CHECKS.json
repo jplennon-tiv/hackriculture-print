@@ -1,16 +1,16 @@
 {
-  "date": "2026-10-31",
+  "date": "2026-11-02",
   "status": "Approved coloured contents and key with current folios: PDF/visual check pending",
-  "bookRevision": "7ebeb1335ce429d09fce1ed0c545b783fe54cf465b9825bd0ec64a5fb1e5a148",
+  "bookRevision": "51758489ad9794b48e9b5f8cf1556f898f3c5a28518819d29d34abb5b24d2e55",
   "copyInputs": {
     "../hackriculture-data/book-layout/book.json": "7cf5470e4a29859fadddaf32fa6d29370c2d6258d09fe25e57af2cc90f8df78e",
     "../hackriculture-data/book-layout/covers.json": "414327b71e1989f406412cf7f76f526b5c4b231df66348443ab5217847d74552",
     "../hackriculture-data/book-layout/publication.json": "1b9d3c3b8a6880de6fe5cf802b0c40ac25895ec6ba2a85b4c6cd8f70901256f1",
     "../hackriculture-data/book-layout/introduction.json": "7a54f281bf1b0ef07f656fcb9c4a252860e7dd2ba730225891777056b66b9e5d",
     "../hackriculture-data/book-layout/author.json": "244b1d0714c5b936f2ac5b8526c7f127996930609a0fc841b28a08edcd273176",
-    "../hackriculture-data/book-layout/contents.json": "813ce7b391f259ebf11c0955671e5ef3f013866aed55544fd84cbac84e471725",
-    "../hackriculture-data/book-layout/how-to.json": "003eb4e88e0fc08793de7fe1d9e4c38633bad61b8bc5e2471768cc0327236d61",
-    "../hackriculture-data/book-layout/index.json": "a2022a1b4b1c23a9823ffd403289c00b3fd66f6f302eecbbbe089889b1e43c26"
+    "../hackriculture-data/book-layout/contents.json": "8bf4f78c8417a2c2d4086d047970203c4d653186f2b436bc2a8db5769439c144",
+    "../hackriculture-data/book-layout/how-to.json": "e56ce1a5dc65035288483455e247cf09180089232eebbf614103ff188792ae7c",
+    "../hackriculture-data/book-layout/index.json": "97f5b9390838c88482f49451e10f938db8f991778fc38d4b92f981d2911f1c4d"
   },
   "sourcePdfs": {
     "output/pdf/book-preparation/bookvault/imperial/vegetable_artichoke_jerusalem.pdf": {
@@ -1128,9 +1128,9 @@
     {
       "units": "imperial",
       "pdf": "output/pdf/contents-update/contents-imperial.pdf",
-      "sha256": "a22609b83d383cae548b9524fca8cd7abf8cab4cc9f005f606155ffbcd547b23",
+      "sha256": "b479c23739dc57bbb7b4749628b6e8344eda92125885bc6fa54eb9b34dc151e1",
       "html": "docs/publication/contents-update/imperial.html",
-      "htmlSha256": "1cb7f03724209ebcfc8d0fdf5bf184be70eb6f1033f6a025ed3e039794bc1fa7",
+      "htmlSha256": "aa2f2d6ac3e49e9cdd79ba44f0dbd091d6aecb6ff5c7aa93cbe60a1425af02f5",
       "references": [
         {
           "source": "technique:why-grow",
@@ -1521,90 +1521,95 @@
           "startPage": 150
         },
         {
+          "source": "technique:soil-acidity",
+          "label": "Testing and adjusting pH",
+          "startPage": 152
+        },
+        {
           "source": "technique:plot-location",
           "label": "Choosing your plot",
-          "startPage": 152
+          "startPage": 153
         },
         {
           "source": "technique:plot-layout",
           "label": "Beds and paths",
-          "startPage": 153
+          "startPage": 154
         },
         {
           "source": "technique:plot-layout-branching",
           "label": "Finger and leaf bed patterns",
-          "startPage": 154
+          "startPage": 155
         },
         {
           "source": "technique:compost-bins",
           "label": "Making compost",
-          "startPage": 155
+          "startPage": 156
         },
         {
           "source": "technique:compost-use",
           "label": "Feeding and using your compost bin",
-          "startPage": 156
+          "startPage": 157
         },
         {
           "source": "cultivation:overview",
           "label": "Cultivation: dig or no-dig",
-          "startPage": 157
+          "startPage": 158
         },
         {
           "source": "cultivation:no-dig",
           "label": "No-dig vegetable growing",
-          "startPage": 158
+          "startPage": 159
         },
         {
           "source": "cultivation:digging",
           "label": "Single and double digging",
-          "startPage": 159
+          "startPage": 160
         },
         {
           "source": "cultivation:digging-finish",
           "label": "Finishing the bed and smothering",
-          "startPage": 160
+          "startPage": 161
         },
         {
           "source": "technique:sowing",
           "label": "Sowing and planting",
-          "startPage": 161
-        },
-        {
-          "source": "technique:netting",
-          "label": "Netting",
           "startPage": 162
-        },
-        {
-          "source": "technique:supports",
-          "label": "Supports",
-          "startPage": 164
         },
         {
           "source": "technique:watering",
           "label": "Watering",
+          "startPage": 163
+        },
+        {
+          "source": "technique:netting",
+          "label": "Netting",
+          "startPage": 164
+        },
+        {
+          "source": "technique:supports",
+          "label": "Supports",
           "startPage": 166
         },
         {
           "source": "technique:greenhouse-choose",
           "label": "Choosing and siting a greenhouse",
-          "startPage": 167
+          "startPage": 168
         },
         {
           "source": "technique:greenhouse-beds",
           "label": "Greenhouse pots, bags & raised beds",
-          "startPage": 168
+          "startPage": 169
         },
         {
           "source": "technique:greenhouse-no-dig-seasons",
           "label": "Greenhouses: no-dig beds and seasons",
-          "startPage": 169
+          "startPage": 170
         },
         {
           "source": "back:index",
           "label": "Index",
           "description": "Look up a crop, a problem or a technique by name.",
-          "startPage": 170
+          "startPage": 171
         }
       ],
       "dom": [
@@ -2298,7 +2303,7 @@
         },
         {
           "folio": 5,
-          "footerClearanceMm": 4.05556640625,
+          "footerClearanceMm": 4.320149739583333,
           "blocks": [
             {
               "text": "Contents",
@@ -2325,197 +2330,197 @@
               "text": "Bean and Pea",
               "left": 16.999479166666664,
               "right": 83.97626953125,
-              "top": 51.709505208333326,
-              "bottom": 56.89368489583333
+              "top": 51.54827473958333,
+              "bottom": 56.732454427083326
             },
             {
               "text": "100",
               "left": 85.82835286458334,
               "right": 92.49667968749999,
-              "top": 51.709505208333326,
-              "bottom": 56.89368489583333
+              "top": 51.54827473958333,
+              "bottom": 56.732454427083326
             },
             {
               "text": "Beetroot",
               "left": 16.999479166666664,
               "right": 83.97626953125,
-              "top": 58.216601562499996,
-              "bottom": 63.400781249999994
+              "top": 57.73291015625,
+              "bottom": 62.91708984375
             },
             {
               "text": "104",
               "left": 85.82835286458334,
               "right": 92.49667968749999,
-              "top": 58.216601562499996,
-              "bottom": 63.400781249999994
+              "top": 57.73291015625,
+              "bottom": 62.91708984375
             },
             {
               "text": "Brassica",
               "left": 16.999479166666664,
               "right": 83.97626953125,
-              "top": 64.72369791666667,
-              "bottom": 69.90787760416667
+              "top": 63.91754557291666,
+              "bottom": 69.10172526041667
             },
             {
               "text": "106",
               "left": 85.82835286458334,
               "right": 92.49667968749999,
-              "top": 64.72369791666667,
-              "bottom": 69.90787760416667
+              "top": 63.91754557291666,
+              "bottom": 69.10172526041667
             },
             {
               "text": "Carrot and Parsnip",
               "left": 16.999479166666664,
               "right": 83.97626953125,
-              "top": 71.23079427083333,
-              "bottom": 76.41497395833333
+              "top": 70.10218098958333,
+              "bottom": 75.28636067708332
             },
             {
               "text": "112",
               "left": 85.82835286458334,
               "right": 92.49667968749999,
-              "top": 71.23079427083333,
-              "bottom": 76.41497395833333
+              "top": 70.10218098958333,
+              "bottom": 75.28636067708332
             },
             {
               "text": "Celery",
               "left": 16.999479166666664,
               "right": 83.97626953125,
-              "top": 77.73789062499999,
-              "bottom": 82.9220703125
+              "top": 76.28681640625,
+              "bottom": 81.47099609375
             },
             {
               "text": "115",
               "left": 85.82835286458334,
               "right": 92.49667968749999,
-              "top": 77.73789062499999,
-              "bottom": 82.9220703125
+              "top": 76.28681640625,
+              "bottom": 81.47099609375
             },
             {
               "text": "Cucurbit",
               "left": 16.999479166666664,
               "right": 83.97626953125,
-              "top": 84.24498697916665,
-              "bottom": 89.42916666666666
+              "top": 82.47145182291666,
+              "bottom": 87.65563151041665
             },
             {
               "text": "117",
               "left": 85.82835286458334,
               "right": 92.49667968749999,
-              "top": 84.24498697916665,
-              "bottom": 89.42916666666666
+              "top": 82.47145182291666,
+              "bottom": 87.65563151041665
             },
             {
               "text": "Florence Fennel",
               "left": 16.999479166666664,
               "right": 83.97626953125,
-              "top": 90.75208333333332,
-              "bottom": 95.93626302083334
+              "top": 88.65608723958333,
+              "bottom": 93.84026692708333
             },
             {
               "text": "122",
               "left": 85.82835286458334,
               "right": 92.49667968749999,
-              "top": 90.75208333333332,
-              "bottom": 95.93626302083334
+              "top": 88.65608723958333,
+              "bottom": 93.84026692708333
             },
             {
               "text": "Lettuce",
               "left": 16.999479166666664,
               "right": 83.97626953125,
-              "top": 97.25917968750001,
-              "bottom": 102.443359375
+              "top": 94.84072265625001,
+              "bottom": 100.02490234375
             },
             {
               "text": "123",
               "left": 85.82835286458334,
               "right": 92.49667968749999,
-              "top": 97.25917968750001,
-              "bottom": 102.443359375
+              "top": 94.84072265625001,
+              "bottom": 100.02490234375
             },
             {
               "text": "Onion & Leek",
               "left": 16.999479166666664,
               "right": 83.97626953125,
-              "top": 103.76627604166667,
-              "bottom": 108.95045572916666
+              "top": 101.02535807291666,
+              "bottom": 106.20953776041665
             },
             {
               "text": "126",
               "left": 85.82835286458334,
               "right": 92.49667968749999,
-              "top": 103.76627604166667,
-              "bottom": 108.95045572916666
+              "top": 101.02535807291666,
+              "bottom": 106.20953776041665
             },
             {
               "text": "Oriental Leaves",
               "left": 16.999479166666664,
               "right": 83.97626953125,
-              "top": 110.27337239583333,
-              "bottom": 115.45755208333333
+              "top": 107.20999348958333,
+              "bottom": 112.39417317708332
             },
             {
               "text": "130",
               "left": 85.82835286458334,
               "right": 92.49667968749999,
-              "top": 110.27337239583333,
-              "bottom": 115.45755208333333
+              "top": 107.20999348958333,
+              "bottom": 112.39417317708332
             },
             {
               "text": "Potato",
               "left": 16.999479166666664,
               "right": 83.97626953125,
-              "top": 116.78046875,
-              "bottom": 121.96464843749999
+              "top": 113.39462890624999,
+              "bottom": 118.57880859375
             },
             {
               "text": "132",
               "left": 85.82835286458334,
               "right": 92.49667968749999,
-              "top": 116.78046875,
-              "bottom": 121.96464843749999
+              "top": 113.39462890624999,
+              "bottom": 118.57880859375
             },
             {
               "text": "Spinach",
               "left": 16.999479166666664,
               "right": 83.97626953125,
-              "top": 123.28756510416666,
-              "bottom": 128.47174479166665
+              "top": 119.57926432291667,
+              "bottom": 124.76344401041666
             },
             {
               "text": "137",
               "left": 85.82835286458334,
               "right": 92.49667968749999,
-              "top": 123.28756510416666,
-              "bottom": 128.47174479166665
+              "top": 119.57926432291667,
+              "bottom": 124.76344401041666
             },
             {
               "text": "Tomato",
               "left": 16.999479166666664,
               "right": 83.97626953125,
-              "top": 129.7946614583333,
-              "bottom": 134.97884114583334
+              "top": 125.76389973958332,
+              "bottom": 130.94807942708334
             },
             {
               "text": "139",
               "left": 85.82835286458334,
               "right": 92.49667968749999,
-              "top": 129.7946614583333,
-              "bottom": 134.97884114583334
+              "top": 125.76389973958332,
+              "bottom": 130.94807942708334
             },
             {
               "text": "Turnip, Swede & Radish",
               "left": 16.999479166666664,
               "right": 83.97626953125,
-              "top": 136.3017578125,
-              "bottom": 141.4859375
+              "top": 131.94853515625,
+              "bottom": 137.13271484375
             },
             {
               "text": "144",
               "left": 85.82835286458334,
               "right": 92.49667968749999,
-              "top": 136.3017578125,
-              "bottom": 141.4859375
+              "top": 131.94853515625,
+              "bottom": 137.13271484375
             },
             {
               "text": "Growing Techniques",
@@ -2535,344 +2540,358 @@
               "text": "Organic growing",
               "left": 101.49664713541667,
               "right": 168.47757161458333,
-              "top": 51.709505208333326,
-              "bottom": 56.89368489583333
+              "top": 51.54827473958333,
+              "bottom": 56.732454427083326
             },
             {
               "text": "148",
               "left": 170.32965494791665,
               "right": 176.99798177083332,
-              "top": 51.709505208333326,
-              "bottom": 56.89368489583333
+              "top": 51.54827473958333,
+              "bottom": 56.732454427083326
             },
             {
               "text": "Nutrient cycles",
               "left": 101.49664713541667,
               "right": 168.47757161458333,
-              "top": 58.216601562499996,
-              "bottom": 63.400781249999994
+              "top": 57.73291015625,
+              "bottom": 62.91708984375
             },
             {
               "text": "149",
               "left": 170.32965494791665,
               "right": 176.99798177083332,
-              "top": 58.216601562499996,
-              "bottom": 63.400781249999994
+              "top": 57.73291015625,
+              "bottom": 62.91708984375
             },
             {
               "text": "Crop rotation & planning",
               "left": 101.49664713541667,
               "right": 168.47757161458333,
-              "top": 64.72369791666667,
-              "bottom": 69.90787760416667
+              "top": 63.91754557291666,
+              "bottom": 69.10172526041667
             },
             {
               "text": "150",
               "left": 170.32965494791665,
               "right": 176.99798177083332,
-              "top": 64.72369791666667,
-              "bottom": 69.90787760416667
+              "top": 63.91754557291666,
+              "bottom": 69.10172526041667
             },
             {
-              "text": "Choosing your plot",
+              "text": "Testing and adjusting pH",
               "left": 101.49664713541667,
               "right": 168.47757161458333,
-              "top": 71.23079427083333,
-              "bottom": 76.41497395833333
+              "top": 70.10218098958333,
+              "bottom": 75.28636067708332
             },
             {
               "text": "152",
               "left": 170.32965494791665,
               "right": 176.99798177083332,
-              "top": 71.23079427083333,
-              "bottom": 76.41497395833333
+              "top": 70.10218098958333,
+              "bottom": 75.28636067708332
             },
             {
-              "text": "Beds and paths",
+              "text": "Choosing your plot",
               "left": 101.49664713541667,
               "right": 168.47757161458333,
-              "top": 77.73789062499999,
-              "bottom": 82.9220703125
+              "top": 76.28681640625,
+              "bottom": 81.47099609375
             },
             {
               "text": "153",
               "left": 170.32965494791665,
               "right": 176.99798177083332,
-              "top": 77.73789062499999,
-              "bottom": 82.9220703125
+              "top": 76.28681640625,
+              "bottom": 81.47099609375
             },
             {
-              "text": "Finger and leaf bed patterns",
+              "text": "Beds and paths",
               "left": 101.49664713541667,
               "right": 168.47757161458333,
-              "top": 84.24498697916665,
-              "bottom": 89.42916666666666
+              "top": 82.47145182291666,
+              "bottom": 87.65563151041665
             },
             {
               "text": "154",
               "left": 170.32965494791665,
               "right": 176.99798177083332,
-              "top": 84.24498697916665,
-              "bottom": 89.42916666666666
+              "top": 82.47145182291666,
+              "bottom": 87.65563151041665
             },
             {
-              "text": "Making compost",
+              "text": "Finger and leaf bed patterns",
               "left": 101.49664713541667,
               "right": 168.47757161458333,
-              "top": 90.75208333333332,
-              "bottom": 95.93626302083334
+              "top": 88.65608723958333,
+              "bottom": 93.84026692708333
             },
             {
               "text": "155",
               "left": 170.32965494791665,
               "right": 176.99798177083332,
-              "top": 90.75208333333332,
-              "bottom": 95.93626302083334
+              "top": 88.65608723958333,
+              "bottom": 93.84026692708333
             },
             {
-              "text": "Feeding and using your compost bin",
+              "text": "Making compost",
               "left": 101.49664713541667,
               "right": 168.47757161458333,
-              "top": 97.25917968750001,
-              "bottom": 102.443359375
+              "top": 94.84072265625001,
+              "bottom": 100.02490234375
             },
             {
               "text": "156",
               "left": 170.32965494791665,
               "right": 176.99798177083332,
-              "top": 97.25917968750001,
-              "bottom": 102.443359375
+              "top": 94.84072265625001,
+              "bottom": 100.02490234375
             },
             {
-              "text": "Cultivation: dig or no-dig",
+              "text": "Feeding and using your compost bin",
               "left": 101.49664713541667,
               "right": 168.47757161458333,
-              "top": 103.76627604166667,
-              "bottom": 108.95045572916666
+              "top": 101.02535807291666,
+              "bottom": 106.20953776041665
             },
             {
               "text": "157",
               "left": 170.32965494791665,
               "right": 176.99798177083332,
-              "top": 103.76627604166667,
-              "bottom": 108.95045572916666
+              "top": 101.02535807291666,
+              "bottom": 106.20953776041665
             },
             {
-              "text": "No-dig vegetable growing",
+              "text": "Cultivation: dig or no-dig",
               "left": 101.49664713541667,
               "right": 168.47757161458333,
-              "top": 110.27337239583333,
-              "bottom": 115.45755208333333
+              "top": 107.20999348958333,
+              "bottom": 112.39417317708332
             },
             {
               "text": "158",
               "left": 170.32965494791665,
               "right": 176.99798177083332,
-              "top": 110.27337239583333,
-              "bottom": 115.45755208333333
+              "top": 107.20999348958333,
+              "bottom": 112.39417317708332
             },
             {
-              "text": "Single and double digging",
+              "text": "No-dig vegetable growing",
               "left": 101.49664713541667,
               "right": 168.47757161458333,
-              "top": 116.78046875,
-              "bottom": 121.96464843749999
+              "top": 113.39462890624999,
+              "bottom": 118.57880859375
             },
             {
               "text": "159",
               "left": 170.32965494791665,
               "right": 176.99798177083332,
-              "top": 116.78046875,
-              "bottom": 121.96464843749999
+              "top": 113.39462890624999,
+              "bottom": 118.57880859375
             },
             {
-              "text": "Finishing the bed and smothering",
+              "text": "Single and double digging",
               "left": 101.49664713541667,
               "right": 168.47757161458333,
-              "top": 123.28756510416666,
-              "bottom": 128.47174479166665
+              "top": 119.57926432291667,
+              "bottom": 124.76344401041666
             },
             {
               "text": "160",
               "left": 170.32965494791665,
               "right": 176.99798177083332,
-              "top": 123.28756510416666,
-              "bottom": 128.47174479166665
+              "top": 119.57926432291667,
+              "bottom": 124.76344401041666
             },
             {
-              "text": "Sowing and planting",
+              "text": "Finishing the bed and smothering",
               "left": 101.49664713541667,
               "right": 168.47757161458333,
-              "top": 129.7946614583333,
-              "bottom": 134.97884114583334
+              "top": 125.76389973958332,
+              "bottom": 130.94807942708334
             },
             {
               "text": "161",
               "left": 170.32965494791665,
               "right": 176.99798177083332,
-              "top": 129.7946614583333,
-              "bottom": 134.97884114583334
+              "top": 125.76389973958332,
+              "bottom": 130.94807942708334
             },
             {
-              "text": "Netting",
+              "text": "Sowing and planting",
               "left": 101.49664713541667,
               "right": 168.47757161458333,
-              "top": 136.3017578125,
-              "bottom": 141.4859375
+              "top": 131.94853515625,
+              "bottom": 137.13271484375
             },
             {
               "text": "162",
               "left": 170.32965494791665,
               "right": 176.99798177083332,
-              "top": 136.3017578125,
-              "bottom": 141.4859375
-            },
-            {
-              "text": "Supports",
-              "left": 101.49664713541667,
-              "right": 168.47757161458333,
-              "top": 142.80885416666666,
-              "bottom": 147.99303385416667
-            },
-            {
-              "text": "164",
-              "left": 170.32965494791665,
-              "right": 176.99798177083332,
-              "top": 142.80885416666666,
-              "bottom": 147.99303385416667
+              "top": 131.94853515625,
+              "bottom": 137.13271484375
             },
             {
               "text": "Watering",
               "left": 101.49664713541667,
               "right": 168.47757161458333,
-              "top": 149.31595052083333,
-              "bottom": 154.50013020833333
+              "top": 138.13317057291667,
+              "bottom": 143.31735026041665
+            },
+            {
+              "text": "163",
+              "left": 170.32965494791665,
+              "right": 176.99798177083332,
+              "top": 138.13317057291667,
+              "bottom": 143.31735026041665
+            },
+            {
+              "text": "Netting",
+              "left": 101.49664713541667,
+              "right": 168.47757161458333,
+              "top": 144.31780598958332,
+              "bottom": 149.50198567708333
+            },
+            {
+              "text": "164",
+              "left": 170.32965494791665,
+              "right": 176.99798177083332,
+              "top": 144.31780598958332,
+              "bottom": 149.50198567708333
+            },
+            {
+              "text": "Supports",
+              "left": 101.49664713541667,
+              "right": 168.47757161458333,
+              "top": 150.50244140625,
+              "bottom": 155.68662109375
             },
             {
               "text": "166",
               "left": 170.32965494791665,
               "right": 176.99798177083332,
-              "top": 149.31595052083333,
-              "bottom": 154.50013020833333
+              "top": 150.50244140625,
+              "bottom": 155.68662109375
             },
             {
               "text": "Choosing and siting a greenhouse",
               "left": 101.49664713541667,
               "right": 168.47757161458333,
-              "top": 155.823046875,
-              "bottom": 161.0072265625
-            },
-            {
-              "text": "167",
-              "left": 170.32965494791665,
-              "right": 176.99798177083332,
-              "top": 155.823046875,
-              "bottom": 161.0072265625
-            },
-            {
-              "text": "Greenhouse pots, bags & raised beds",
-              "left": 101.49664713541667,
-              "right": 168.47757161458333,
-              "top": 162.33014322916665,
-              "bottom": 167.51432291666666
+              "top": 156.68707682291665,
+              "bottom": 161.87125651041666
             },
             {
               "text": "168",
               "left": 170.32965494791665,
               "right": 176.99798177083332,
-              "top": 162.33014322916665,
-              "bottom": 167.51432291666666
+              "top": 156.68707682291665,
+              "bottom": 161.87125651041666
             },
             {
-              "text": "Greenhouses: no-dig beds and seasons",
+              "text": "Greenhouse pots, bags & raised beds",
               "left": 101.49664713541667,
               "right": 168.47757161458333,
-              "top": 168.83723958333334,
-              "bottom": 174.02141927083332
+              "top": 162.87171223958333,
+              "bottom": 168.0558919270833
             },
             {
               "text": "169",
               "left": 170.32965494791665,
               "right": 176.99798177083332,
-              "top": 168.83723958333334,
-              "bottom": 174.02141927083332
+              "top": 162.87171223958333,
+              "bottom": 168.0558919270833
             },
             {
-              "text": "Index",
+              "text": "Greenhouses: no-dig beds and seasons",
               "left": 101.49664713541667,
               "right": 168.47757161458333,
-              "top": 181.34293619791666,
-              "bottom": 186.52711588541663
+              "top": 169.05634765624998,
+              "bottom": 174.24052734375002
             },
             {
               "text": "170",
               "left": 170.32965494791665,
               "right": 176.99798177083332,
-              "top": 181.34293619791666,
-              "bottom": 186.52711588541663
+              "top": 169.05634765624998,
+              "bottom": 174.24052734375002
+            },
+            {
+              "text": "Index",
+              "left": 101.49664713541667,
+              "right": 168.47757161458333,
+              "top": 181.23958333333334,
+              "bottom": 186.42376302083332
+            },
+            {
+              "text": "171",
+              "left": 170.32965494791665,
+              "right": 176.99798177083332,
+              "top": 181.23958333333334,
+              "bottom": 186.42376302083332
             },
             {
               "text": "Category colours",
               "left": 20.99716796875,
               "right": 119.00048828125,
-              "top": 196.21748046874998,
-              "bottom": 200.4466796875
+              "top": 195.95289713541663,
+              "bottom": 200.18209635416667
             },
             {
               "text": "Root Crops",
               "left": 25.490950520833334,
               "right": 39.87766927083333,
-              "top": 202.44345703124998,
-              "bottom": 205.68873697916663
+              "top": 202.17887369791666,
+              "bottom": 205.42415364583334
             },
             {
               "text": "Brassicas",
               "left": 75.98916015625,
               "right": 88.07317708333333,
-              "top": 202.44345703124998,
-              "bottom": 205.68873697916663
+              "top": 202.17887369791666,
+              "bottom": 205.42415364583334
             },
             {
               "text": "Peas & Beans",
               "left": 25.490950520833334,
               "right": 43.05266927083333,
-              "top": 206.68505859375,
-              "bottom": 209.93033854166666
+              "top": 206.42047526041665,
+              "bottom": 209.6657552083333
             },
             {
               "text": "Salads & Leaves",
               "left": 75.98916015625,
               "right": 97.03593749999999,
-              "top": 206.68505859375,
-              "bottom": 209.93033854166666
+              "top": 206.42047526041665,
+              "bottom": 209.6657552083333
             },
             {
               "text": "Onion Family",
               "left": 25.490950520833334,
               "right": 42.3912109375,
-              "top": 210.92666015625,
-              "bottom": 214.17194010416665
+              "top": 210.66207682291665,
+              "bottom": 213.9073567708333
             },
             {
               "text": "Fruiting Crops",
               "left": 75.98916015625,
               "right": 94.18753255208333,
-              "top": 210.92666015625,
-              "bottom": 214.17194010416665
+              "top": 210.66207682291665,
+              "bottom": 213.9073567708333
             },
             {
               "text": "Stalks & Shoots",
               "left": 25.490950520833334,
               "right": 45.876269531249996,
-              "top": 215.16826171874996,
-              "bottom": 218.41354166666665
+              "top": 214.90367838541667,
+              "bottom": 218.14895833333333
             },
             {
               "text": "Other",
               "left": 75.98916015625,
               "right": 83.39749348958333,
-              "top": 215.16826171874996,
-              "bottom": 218.41354166666665
+              "top": 214.90367838541667,
+              "bottom": 218.14895833333333
             },
             {
               "text": "THE VEGETABLE GURUIMPERIAL · 5",
@@ -2895,7 +2914,7 @@
               "src": "/docs/assets/vegetable-guru-stock/assets/h6-growing-harvest-hero-style-v2.png",
               "loaded": true,
               "left": 131.99814453125,
-              "top": 190.4421223958333,
+              "top": 190.17753906250002,
               "width": 44.999837239583336,
               "height": 33.74677734375
             }
@@ -2958,9 +2977,9 @@
     {
       "units": "metric",
       "pdf": "output/pdf/contents-update/contents-metric.pdf",
-      "sha256": "4ba0dcf4e6d8c25f02aff47f6cc7dcb238f0515f7ce742ceaec4eeba52dd9a8b",
+      "sha256": "3e8c7313e84f02a150a262e2b154e13fe5d4b4418271f7ca8143ad1b724c8244",
       "html": "docs/publication/contents-update/metric.html",
-      "htmlSha256": "35b1f85b95dd698c38f17bbd3f8244c2dc3d64c07fb05016b7ba0f6556b4f8d6",
+      "htmlSha256": "2bf941a6dd723ce39e7c6b0a92fb93af46ee607e18c3d3f792abf4bfef28f703",
       "references": [
         {
           "source": "technique:why-grow",
@@ -3351,90 +3370,95 @@
           "startPage": 150
         },
         {
+          "source": "technique:soil-acidity",
+          "label": "Testing and adjusting pH",
+          "startPage": 152
+        },
+        {
           "source": "technique:plot-location",
           "label": "Choosing your plot",
-          "startPage": 152
+          "startPage": 153
         },
         {
           "source": "technique:plot-layout",
           "label": "Beds and paths",
-          "startPage": 153
+          "startPage": 154
         },
         {
           "source": "technique:plot-layout-branching",
           "label": "Finger and leaf bed patterns",
-          "startPage": 154
+          "startPage": 155
         },
         {
           "source": "technique:compost-bins",
           "label": "Making compost",
-          "startPage": 155
+          "startPage": 156
         },
         {
           "source": "technique:compost-use",
           "label": "Feeding and using your compost bin",
-          "startPage": 156
+          "startPage": 157
         },
         {
           "source": "cultivation:overview",
           "label": "Cultivation: dig or no-dig",
-          "startPage": 157
+          "startPage": 158
         },
         {
           "source": "cultivation:no-dig",
           "label": "No-dig vegetable growing",
-          "startPage": 158
+          "startPage": 159
         },
         {
           "source": "cultivation:digging",
           "label": "Single and double digging",
-          "startPage": 159
+          "startPage": 160
         },
         {
           "source": "cultivation:digging-finish",
           "label": "Finishing the bed and smothering",
-          "startPage": 160
+          "startPage": 161
         },
         {
           "source": "technique:sowing",
           "label": "Sowing and planting",
-          "startPage": 161
-        },
-        {
-          "source": "technique:netting",
-          "label": "Netting",
           "startPage": 162
-        },
-        {
-          "source": "technique:supports",
-          "label": "Supports",
-          "startPage": 164
         },
         {
           "source": "technique:watering",
           "label": "Watering",
+          "startPage": 163
+        },
+        {
+          "source": "technique:netting",
+          "label": "Netting",
+          "startPage": 164
+        },
+        {
+          "source": "technique:supports",
+          "label": "Supports",
           "startPage": 166
         },
         {
           "source": "technique:greenhouse-choose",
           "label": "Choosing and siting a greenhouse",
-          "startPage": 167
+          "startPage": 168
         },
         {
           "source": "technique:greenhouse-beds",
           "label": "Greenhouse pots, bags & raised beds",
-          "startPage": 168
+          "startPage": 169
         },
         {
           "source": "technique:greenhouse-no-dig-seasons",
           "label": "Greenhouses: no-dig beds and seasons",
-          "startPage": 169
+          "startPage": 170
         },
         {
           "source": "back:index",
           "label": "Index",
           "description": "Look up a crop, a problem or a technique by name.",
-          "startPage": 170
+          "startPage": 171
         }
       ],
       "dom": [
@@ -4128,7 +4152,7 @@
         },
         {
           "folio": 5,
-          "footerClearanceMm": 4.05556640625,
+          "footerClearanceMm": 4.320149739583333,
           "blocks": [
             {
               "text": "Contents",
@@ -4155,197 +4179,197 @@
               "text": "Bean and Pea",
               "left": 16.999479166666664,
               "right": 83.97626953125,
-              "top": 51.709505208333326,
-              "bottom": 56.89368489583333
+              "top": 51.54827473958333,
+              "bottom": 56.732454427083326
             },
             {
               "text": "100",
               "left": 85.82835286458334,
               "right": 92.49667968749999,
-              "top": 51.709505208333326,
-              "bottom": 56.89368489583333
+              "top": 51.54827473958333,
+              "bottom": 56.732454427083326
             },
             {
               "text": "Beetroot",
               "left": 16.999479166666664,
               "right": 83.97626953125,
-              "top": 58.216601562499996,
-              "bottom": 63.400781249999994
+              "top": 57.73291015625,
+              "bottom": 62.91708984375
             },
             {
               "text": "104",
               "left": 85.82835286458334,
               "right": 92.49667968749999,
-              "top": 58.216601562499996,
-              "bottom": 63.400781249999994
+              "top": 57.73291015625,
+              "bottom": 62.91708984375
             },
             {
               "text": "Brassica",
               "left": 16.999479166666664,
               "right": 83.97626953125,
-              "top": 64.72369791666667,
-              "bottom": 69.90787760416667
+              "top": 63.91754557291666,
+              "bottom": 69.10172526041667
             },
             {
               "text": "106",
               "left": 85.82835286458334,
               "right": 92.49667968749999,
-              "top": 64.72369791666667,
-              "bottom": 69.90787760416667
+              "top": 63.91754557291666,
+              "bottom": 69.10172526041667
             },
             {
               "text": "Carrot and Parsnip",
               "left": 16.999479166666664,
               "right": 83.97626953125,
-              "top": 71.23079427083333,
-              "bottom": 76.41497395833333
+              "top": 70.10218098958333,
+              "bottom": 75.28636067708332
             },
             {
               "text": "112",
               "left": 85.82835286458334,
               "right": 92.49667968749999,
-              "top": 71.23079427083333,
-              "bottom": 76.41497395833333
+              "top": 70.10218098958333,
+              "bottom": 75.28636067708332
             },
             {
               "text": "Celery",
               "left": 16.999479166666664,
               "right": 83.97626953125,
-              "top": 77.73789062499999,
-              "bottom": 82.9220703125
+              "top": 76.28681640625,
+              "bottom": 81.47099609375
             },
             {
               "text": "115",
               "left": 85.82835286458334,
               "right": 92.49667968749999,
-              "top": 77.73789062499999,
-              "bottom": 82.9220703125
+              "top": 76.28681640625,
+              "bottom": 81.47099609375
             },
             {
               "text": "Cucurbit",
               "left": 16.999479166666664,
               "right": 83.97626953125,
-              "top": 84.24498697916665,
-              "bottom": 89.42916666666666
+              "top": 82.47145182291666,
+              "bottom": 87.65563151041665
             },
             {
               "text": "117",
               "left": 85.82835286458334,
               "right": 92.49667968749999,
-              "top": 84.24498697916665,
-              "bottom": 89.42916666666666
+              "top": 82.47145182291666,
+              "bottom": 87.65563151041665
             },
             {
               "text": "Florence Fennel",
               "left": 16.999479166666664,
               "right": 83.97626953125,
-              "top": 90.75208333333332,
-              "bottom": 95.93626302083334
+              "top": 88.65608723958333,
+              "bottom": 93.84026692708333
             },
             {
               "text": "122",
               "left": 85.82835286458334,
               "right": 92.49667968749999,
-              "top": 90.75208333333332,
-              "bottom": 95.93626302083334
+              "top": 88.65608723958333,
+              "bottom": 93.84026692708333
             },
             {
               "text": "Lettuce",
               "left": 16.999479166666664,
               "right": 83.97626953125,
-              "top": 97.25917968750001,
-              "bottom": 102.443359375
+              "top": 94.84072265625001,
+              "bottom": 100.02490234375
             },
             {
               "text": "123",
               "left": 85.82835286458334,
               "right": 92.49667968749999,
-              "top": 97.25917968750001,
-              "bottom": 102.443359375
+              "top": 94.84072265625001,
+              "bottom": 100.02490234375
             },
             {
               "text": "Onion & Leek",
               "left": 16.999479166666664,
               "right": 83.97626953125,
-              "top": 103.76627604166667,
-              "bottom": 108.95045572916666
+              "top": 101.02535807291666,
+              "bottom": 106.20953776041665
             },
             {
               "text": "126",
               "left": 85.82835286458334,
               "right": 92.49667968749999,
-              "top": 103.76627604166667,
-              "bottom": 108.95045572916666
+              "top": 101.02535807291666,
+              "bottom": 106.20953776041665
             },
             {
               "text": "Oriental Leaves",
               "left": 16.999479166666664,
               "right": 83.97626953125,
-              "top": 110.27337239583333,
-              "bottom": 115.45755208333333
+              "top": 107.20999348958333,
+              "bottom": 112.39417317708332
             },
             {
               "text": "130",
               "left": 85.82835286458334,
               "right": 92.49667968749999,
-              "top": 110.27337239583333,
-              "bottom": 115.45755208333333
+              "top": 107.20999348958333,
+              "bottom": 112.39417317708332
             },
             {
               "text": "Potato",
               "left": 16.999479166666664,
               "right": 83.97626953125,
-              "top": 116.78046875,
-              "bottom": 121.96464843749999
+              "top": 113.39462890624999,
+              "bottom": 118.57880859375
             },
             {
               "text": "132",
               "left": 85.82835286458334,
               "right": 92.49667968749999,
-              "top": 116.78046875,
-              "bottom": 121.96464843749999
+              "top": 113.39462890624999,
+              "bottom": 118.57880859375
             },
             {
               "text": "Spinach",
               "left": 16.999479166666664,
               "right": 83.97626953125,
-              "top": 123.28756510416666,
-              "bottom": 128.47174479166665
+              "top": 119.57926432291667,
+              "bottom": 124.76344401041666
             },
             {
               "text": "137",
               "left": 85.82835286458334,
               "right": 92.49667968749999,
-              "top": 123.28756510416666,
-              "bottom": 128.47174479166665
+              "top": 119.57926432291667,
+              "bottom": 124.76344401041666
             },
             {
               "text": "Tomato",
               "left": 16.999479166666664,
               "right": 83.97626953125,
-              "top": 129.7946614583333,
-              "bottom": 134.97884114583334
+              "top": 125.76389973958332,
+              "bottom": 130.94807942708334
             },
             {
               "text": "139",
               "left": 85.82835286458334,
               "right": 92.49667968749999,
-              "top": 129.7946614583333,
-              "bottom": 134.97884114583334
+              "top": 125.76389973958332,
+              "bottom": 130.94807942708334
             },
             {
               "text": "Turnip, Swede & Radish",
               "left": 16.999479166666664,
               "right": 83.97626953125,
-              "top": 136.3017578125,
-              "bottom": 141.4859375
+              "top": 131.94853515625,
+              "bottom": 137.13271484375
             },
             {
               "text": "144",
               "left": 85.82835286458334,
               "right": 92.49667968749999,
-              "top": 136.3017578125,
-              "bottom": 141.4859375
+              "top": 131.94853515625,
+              "bottom": 137.13271484375
             },
             {
               "text": "Growing Techniques",
@@ -4365,344 +4389,358 @@
               "text": "Organic growing",
               "left": 101.49664713541667,
               "right": 168.47757161458333,
-              "top": 51.709505208333326,
-              "bottom": 56.89368489583333
+              "top": 51.54827473958333,
+              "bottom": 56.732454427083326
             },
             {
               "text": "148",
               "left": 170.32965494791665,
               "right": 176.99798177083332,
-              "top": 51.709505208333326,
-              "bottom": 56.89368489583333
+              "top": 51.54827473958333,
+              "bottom": 56.732454427083326
             },
             {
               "text": "Nutrient cycles",
               "left": 101.49664713541667,
               "right": 168.47757161458333,
-              "top": 58.216601562499996,
-              "bottom": 63.400781249999994
+              "top": 57.73291015625,
+              "bottom": 62.91708984375
             },
             {
               "text": "149",
               "left": 170.32965494791665,
               "right": 176.99798177083332,
-              "top": 58.216601562499996,
-              "bottom": 63.400781249999994
+              "top": 57.73291015625,
+              "bottom": 62.91708984375
             },
             {
               "text": "Crop rotation & planning",
               "left": 101.49664713541667,
               "right": 168.47757161458333,
-              "top": 64.72369791666667,
-              "bottom": 69.90787760416667
+              "top": 63.91754557291666,
+              "bottom": 69.10172526041667
             },
             {
               "text": "150",
               "left": 170.32965494791665,
               "right": 176.99798177083332,
-              "top": 64.72369791666667,
-              "bottom": 69.90787760416667
+              "top": 63.91754557291666,
+              "bottom": 69.10172526041667
             },
             {
-              "text": "Choosing your plot",
+              "text": "Testing and adjusting pH",
               "left": 101.49664713541667,
               "right": 168.47757161458333,
-              "top": 71.23079427083333,
-              "bottom": 76.41497395833333
+              "top": 70.10218098958333,
+              "bottom": 75.28636067708332
             },
             {
               "text": "152",
               "left": 170.32965494791665,
               "right": 176.99798177083332,
-              "top": 71.23079427083333,
-              "bottom": 76.41497395833333
+              "top": 70.10218098958333,
+              "bottom": 75.28636067708332
             },
             {
-              "text": "Beds and paths",
+              "text": "Choosing your plot",
               "left": 101.49664713541667,
               "right": 168.47757161458333,
-              "top": 77.73789062499999,
-              "bottom": 82.9220703125
+              "top": 76.28681640625,
+              "bottom": 81.47099609375
             },
             {
               "text": "153",
               "left": 170.32965494791665,
               "right": 176.99798177083332,
-              "top": 77.73789062499999,
-              "bottom": 82.9220703125
+              "top": 76.28681640625,
+              "bottom": 81.47099609375
             },
             {
-              "text": "Finger and leaf bed patterns",
+              "text": "Beds and paths",
               "left": 101.49664713541667,
               "right": 168.47757161458333,
-              "top": 84.24498697916665,
-              "bottom": 89.42916666666666
+              "top": 82.47145182291666,
+              "bottom": 87.65563151041665
             },
             {
               "text": "154",
               "left": 170.32965494791665,
               "right": 176.99798177083332,
-              "top": 84.24498697916665,
-              "bottom": 89.42916666666666
+              "top": 82.47145182291666,
+              "bottom": 87.65563151041665
             },
             {
-              "text": "Making compost",
+              "text": "Finger and leaf bed patterns",
               "left": 101.49664713541667,
               "right": 168.47757161458333,
-              "top": 90.75208333333332,
-              "bottom": 95.93626302083334
+              "top": 88.65608723958333,
+              "bottom": 93.84026692708333
             },
             {
               "text": "155",
               "left": 170.32965494791665,
               "right": 176.99798177083332,
-              "top": 90.75208333333332,
-              "bottom": 95.93626302083334
+              "top": 88.65608723958333,
+              "bottom": 93.84026692708333
             },
             {
-              "text": "Feeding and using your compost bin",
+              "text": "Making compost",
               "left": 101.49664713541667,
               "right": 168.47757161458333,
-              "top": 97.25917968750001,
-              "bottom": 102.443359375
+              "top": 94.84072265625001,
+              "bottom": 100.02490234375
             },
             {
               "text": "156",
               "left": 170.32965494791665,
               "right": 176.99798177083332,
-              "top": 97.25917968750001,
-              "bottom": 102.443359375
+              "top": 94.84072265625001,
+              "bottom": 100.02490234375
             },
             {
-              "text": "Cultivation: dig or no-dig",
+              "text": "Feeding and using your compost bin",
               "left": 101.49664713541667,
               "right": 168.47757161458333,
-              "top": 103.76627604166667,
-              "bottom": 108.95045572916666
+              "top": 101.02535807291666,
+              "bottom": 106.20953776041665
             },
             {
               "text": "157",
               "left": 170.32965494791665,
               "right": 176.99798177083332,
-              "top": 103.76627604166667,
-              "bottom": 108.95045572916666
+              "top": 101.02535807291666,
+              "bottom": 106.20953776041665
             },
             {
-              "text": "No-dig vegetable growing",
+              "text": "Cultivation: dig or no-dig",
               "left": 101.49664713541667,
               "right": 168.47757161458333,
-              "top": 110.27337239583333,
-              "bottom": 115.45755208333333
+              "top": 107.20999348958333,
+              "bottom": 112.39417317708332
             },
             {
               "text": "158",
               "left": 170.32965494791665,
               "right": 176.99798177083332,
-              "top": 110.27337239583333,
-              "bottom": 115.45755208333333
+              "top": 107.20999348958333,
+              "bottom": 112.39417317708332
             },
             {
-              "text": "Single and double digging",
+              "text": "No-dig vegetable growing",
               "left": 101.49664713541667,
               "right": 168.47757161458333,
-              "top": 116.78046875,
-              "bottom": 121.96464843749999
+              "top": 113.39462890624999,
+              "bottom": 118.57880859375
             },
             {
               "text": "159",
               "left": 170.32965494791665,
               "right": 176.99798177083332,
-              "top": 116.78046875,
-              "bottom": 121.96464843749999
+              "top": 113.39462890624999,
+              "bottom": 118.57880859375
             },
             {
-              "text": "Finishing the bed and smothering",
+              "text": "Single and double digging",
               "left": 101.49664713541667,
               "right": 168.47757161458333,
-              "top": 123.28756510416666,
-              "bottom": 128.47174479166665
+              "top": 119.57926432291667,
+              "bottom": 124.76344401041666
             },
             {
               "text": "160",
               "left": 170.32965494791665,
               "right": 176.99798177083332,
-              "top": 123.28756510416666,
-              "bottom": 128.47174479166665
+              "top": 119.57926432291667,
+              "bottom": 124.76344401041666
             },
             {
-              "text": "Sowing and planting",
+              "text": "Finishing the bed and smothering",
               "left": 101.49664713541667,
               "right": 168.47757161458333,
-              "top": 129.7946614583333,
-              "bottom": 134.97884114583334
+              "top": 125.76389973958332,
+              "bottom": 130.94807942708334
             },
             {
               "text": "161",
               "left": 170.32965494791665,
               "right": 176.99798177083332,
-              "top": 129.7946614583333,
-              "bottom": 134.97884114583334
+              "top": 125.76389973958332,
+              "bottom": 130.94807942708334
             },
             {
-              "text": "Netting",
+              "text": "Sowing and planting",
               "left": 101.49664713541667,
               "right": 168.47757161458333,
-              "top": 136.3017578125,
-              "bottom": 141.4859375
+              "top": 131.94853515625,
+              "bottom": 137.13271484375
             },
             {
               "text": "162",
               "left": 170.32965494791665,
               "right": 176.99798177083332,
-              "top": 136.3017578125,
-              "bottom": 141.4859375
-            },
-            {
-              "text": "Supports",
-              "left": 101.49664713541667,
-              "right": 168.47757161458333,
-              "top": 142.80885416666666,
-              "bottom": 147.99303385416667
-            },
-            {
-              "text": "164",
-              "left": 170.32965494791665,
-              "right": 176.99798177083332,
-              "top": 142.80885416666666,
-              "bottom": 147.99303385416667
+              "top": 131.94853515625,
+              "bottom": 137.13271484375
             },
             {
               "text": "Watering",
               "left": 101.49664713541667,
               "right": 168.47757161458333,
-              "top": 149.31595052083333,
-              "bottom": 154.50013020833333
+              "top": 138.13317057291667,
+              "bottom": 143.31735026041665
+            },
+            {
+              "text": "163",
+              "left": 170.32965494791665,
+              "right": 176.99798177083332,
+              "top": 138.13317057291667,
+              "bottom": 143.31735026041665
+            },
+            {
+              "text": "Netting",
+              "left": 101.49664713541667,
+              "right": 168.47757161458333,
+              "top": 144.31780598958332,
+              "bottom": 149.50198567708333
+            },
+            {
+              "text": "164",
+              "left": 170.32965494791665,
+              "right": 176.99798177083332,
+              "top": 144.31780598958332,
+              "bottom": 149.50198567708333
+            },
+            {
+              "text": "Supports",
+              "left": 101.49664713541667,
+              "right": 168.47757161458333,
+              "top": 150.50244140625,
+              "bottom": 155.68662109375
             },
             {
               "text": "166",
               "left": 170.32965494791665,
               "right": 176.99798177083332,
-              "top": 149.31595052083333,
-              "bottom": 154.50013020833333
+              "top": 150.50244140625,
+              "bottom": 155.68662109375
             },
             {
               "text": "Choosing and siting a greenhouse",
               "left": 101.49664713541667,
               "right": 168.47757161458333,
-              "top": 155.823046875,
-              "bottom": 161.0072265625
-            },
-            {
-              "text": "167",
-              "left": 170.32965494791665,
-              "right": 176.99798177083332,
-              "top": 155.823046875,
-              "bottom": 161.0072265625
-            },
-            {
-              "text": "Greenhouse pots, bags & raised beds",
-              "left": 101.49664713541667,
-              "right": 168.47757161458333,
-              "top": 162.33014322916665,
-              "bottom": 167.51432291666666
+              "top": 156.68707682291665,
+              "bottom": 161.87125651041666
             },
             {
               "text": "168",
               "left": 170.32965494791665,
               "right": 176.99798177083332,
-              "top": 162.33014322916665,
-              "bottom": 167.51432291666666
+              "top": 156.68707682291665,
+              "bottom": 161.87125651041666
             },
             {
-              "text": "Greenhouses: no-dig beds and seasons",
+              "text": "Greenhouse pots, bags & raised beds",
               "left": 101.49664713541667,
               "right": 168.47757161458333,
-              "top": 168.83723958333334,
-              "bottom": 174.02141927083332
+              "top": 162.87171223958333,
+              "bottom": 168.0558919270833
             },
             {
               "text": "169",
               "left": 170.32965494791665,
               "right": 176.99798177083332,
-              "top": 168.83723958333334,
-              "bottom": 174.02141927083332
+              "top": 162.87171223958333,
+              "bottom": 168.0558919270833
             },
             {
-              "text": "Index",
+              "text": "Greenhouses: no-dig beds and seasons",
               "left": 101.49664713541667,
               "right": 168.47757161458333,
-              "top": 181.34293619791666,
-              "bottom": 186.52711588541663
+              "top": 169.05634765624998,
+              "bottom": 174.24052734375002
             },
             {
               "text": "170",
               "left": 170.32965494791665,
               "right": 176.99798177083332,
-              "top": 181.34293619791666,
-              "bottom": 186.52711588541663
+              "top": 169.05634765624998,
+              "bottom": 174.24052734375002
+            },
+            {
+              "text": "Index",
+              "left": 101.49664713541667,
+              "right": 168.47757161458333,
+              "top": 181.23958333333334,
+              "bottom": 186.42376302083332
+            },
+            {
+              "text": "171",
+              "left": 170.32965494791665,
+              "right": 176.99798177083332,
+              "top": 181.23958333333334,
+              "bottom": 186.42376302083332
             },
             {
               "text": "Category colours",
               "left": 20.99716796875,
               "right": 119.00048828125,
-              "top": 196.21748046874998,
-              "bottom": 200.4466796875
+              "top": 195.95289713541663,
+              "bottom": 200.18209635416667
             },
             {
               "text": "Root Crops",
               "left": 25.490950520833334,
               "right": 39.87766927083333,
-              "top": 202.44345703124998,
-              "bottom": 205.68873697916663
+              "top": 202.17887369791666,
+              "bottom": 205.42415364583334
             },
             {
               "text": "Brassicas",
               "left": 75.98916015625,
               "right": 88.07317708333333,
-              "top": 202.44345703124998,
-              "bottom": 205.68873697916663
+              "top": 202.17887369791666,
+              "bottom": 205.42415364583334
             },
             {
               "text": "Peas & Beans",
               "left": 25.490950520833334,
               "right": 43.05266927083333,
-              "top": 206.68505859375,
-              "bottom": 209.93033854166666
+              "top": 206.42047526041665,
+              "bottom": 209.6657552083333
             },
             {
               "text": "Salads & Leaves",
               "left": 75.98916015625,
               "right": 97.03593749999999,
-              "top": 206.68505859375,
-              "bottom": 209.93033854166666
+              "top": 206.42047526041665,
+              "bottom": 209.6657552083333
             },
             {
               "text": "Onion Family",
               "left": 25.490950520833334,
               "right": 42.3912109375,
-              "top": 210.92666015625,
-              "bottom": 214.17194010416665
+              "top": 210.66207682291665,
+              "bottom": 213.9073567708333
             },
             {
               "text": "Fruiting Crops",
               "left": 75.98916015625,
               "right": 94.18753255208333,
-              "top": 210.92666015625,
-              "bottom": 214.17194010416665
+              "top": 210.66207682291665,
+              "bottom": 213.9073567708333
             },
             {
               "text": "Stalks & Shoots",
               "left": 25.490950520833334,
               "right": 45.876269531249996,
-              "top": 215.16826171874996,
-              "bottom": 218.41354166666665
+              "top": 214.90367838541667,
+              "bottom": 218.14895833333333
             },
             {
               "text": "Other",
               "left": 75.98916015625,
               "right": 83.39749348958333,
-              "top": 215.16826171874996,
-              "bottom": 218.41354166666665
+              "top": 214.90367838541667,
+              "bottom": 218.14895833333333
             },
             {
               "text": "THE VEGETABLE GURUMETRIC · 5",
@@ -4725,7 +4763,7 @@
               "src": "/docs/assets/vegetable-guru-stock/assets/h6-growing-harvest-hero-style-v2.png",
               "loaded": true,
               "left": 131.99814453125,
-              "top": 190.4421223958333,
+              "top": 190.17753906250002,
               "width": 44.999837239583336,
               "height": 33.74677734375
             }
@@ -4788,14 +4826,15 @@
   ],
   "protectedFilesUnchanged": true,
   "implementation": {
-    "scripts/build-updated-contents.mjs": "42b72c6551ba78764708ddc4f9220df7067558f5c1d13cf7bd6b93aa9d6ea78f",
-    "scripts/lib/book-contents.mjs": "bd5322cfabb951101085d4393e6757527d96d27b315287e5bae960fd79af9391",
+    "scripts/build-updated-contents.mjs": "a9cb018b7937053db3f7ac750d88badb639d54b7e6a8fa909c621b13b3599196",
+    "scripts/lib/book-contents.mjs": "e606a7c84810aec5ca1296aa2fac8df7d5cbd19f2a3df25e39e625b9f1063867",
     "scripts/lib/book-content.mjs": "4f6b2de01ee6ef51b1392ceb6a97f8dff3273e3b9870855d4d5cbdb738921c2e",
     "docs/publication/contents-update/contents.css": "00d1a677a91e055391d1e8777d3e0ecbf14cd9a5b5f48291bab4bb0dfc15a603",
     "docs/publication/contents-colour-study/key-preview/key.css": "937e5e07b50b23b27d6edac0ed5963b5f9561c7dfc78029a63de5ff13fc49ba9",
     "docs/publication/contents-colour-study/study.css": "8a13bda2f83c1ad5f6494a68de03db25baa12e721afda92584c59a65d8b7e62f",
     "docs/publication/vegetable-guru-entry-pages/entry-pages.css": "9796fac872f5e80f95799912f2da7dd690734dffa2b7af7336f0b8bcd8c39d43",
-    "src/print/familyThemes.json": "e4c1dbb5d9d77a0060d518d4c751ec23f7282e6b89ea2d05ebe2c451812bc4df"
+    "src/print/familyThemes.json": "e4c1dbb5d9d77a0060d518d4c751ec23f7282e6b89ea2d05ebe2c451812bc4df",
+    "docs/publication/contents-update/current.css": "5c5d743219b749db57d3a4d31008be114fdf9d88ce847b0920fd6e44352253cd"
   },
-  "assemblyProposalSha256": "6ecff232fb6e359797e52dd5855ba026d9b2aca4d38e0b36966b2fc272cac618"
+  "assemblyProposalSha256": "14d9c3e640d42c7acade0b776dffe512560ba0a29c1b55a756e2f79e6e4755e9"
 }

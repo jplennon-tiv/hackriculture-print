@@ -5,8 +5,8 @@ John requested three separate panels, the heading above them, revised calendar
 copy and labels. His latest revision keeps only the first two difficulty examples
 and restores the Core Needs endpoint descriptions.
 The [approval record](APPROVAL.json) locks the exact accepted PDF, page render,
-editable layout, artwork references and checks. Main-book integration is pending
-the next requested book update; the existing full PDF remains unchanged.
+editable layout, artwork references and checks. The exact approved page was integrated into the main book on 2 November, with
+approved calendar wording synchronised through the guarded writer.
 
 [Page preview](page-9.png) · [PDF](../../../output/pdf/guides-intro-detail/vegetable-guides-intro.pdf)
 · [Previous / approved comparison](comparison.jpg) · [Facing spread](spread-8-9.jpg)
@@ -43,8 +43,9 @@ source comparison and facing spread are covered by [VISUAL-REVIEW.json](VISUAL-R
 
 The focused builder and review script now refuse to overwrite this approved set.
 Preserve these exact inputs; further revisions require separate working paths.
-At the next requested book update, reuse the accepted page and synchronise the
-approved calendar copy through the guarded shared book-copy writer. That save
-and main-book replacement have not yet been performed. The older frozen/A4
-sources remain intact. No further design approval is needed for this accepted
-page. It is distinct from the planned Introduction rewrite on page 7.
+The 2 November integration reuses the accepted page and synchronises its approved
+calendar paragraph and two headings through the guarded shared book-copy writer.
+[Save receipt](../whole-book-order-preview/integration-2026-11-02/BOOK-COPY-UPDATE.json).
+Legacy climate-name fields remain in the A4/standalone data contract; the approved
+compact proof does not display them. The older frozen/A4 sources remain intact.
+This is distinct from the planned Introduction rewrite on page 7.

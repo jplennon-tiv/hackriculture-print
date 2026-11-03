@@ -1,24 +1,28 @@
 {
-  "date": "2026-10-31",
-  "status": "passed for inspected both-unit PDF spreads and final assembled imperial contents",
-  "pdfs": [
-    {
-      "unit": "imperial",
-      "sha256": "a22609b83d383cae548b9524fca8cd7abf8cab4cc9f005f606155ffbcd547b23"
-    },
-    {
-      "unit": "metric",
-      "sha256": "4ba0dcf4e6d8c25f02aff47f6cc7dcb238f0515f7ce742ceaec4eeba52dd9a8b"
-    }
+  "date": "2026-11-02",
+  "status": "passed for inspected current imperial contents; both editions checked by actual PDF extraction",
+  "pdfSha256ByEdition": {
+    "imperial": "b479c23739dc57bbb7b4749628b6e8344eda92125885bc6fa54eb9b34dc151e1",
+    "metric": "3e8c7313e84f02a150a262e2b154e13fe5d4b4418271f7ca8143ad1b724c8244"
+  },
+  "inspected": [
+    "imperial-2.png",
+    "../whole-book-order-preview/spread-4-5.jpg",
+    "../../../../output/promotion-source-pack/contact.jpg"
   ],
-  "assembledPdfSha256": "2fdba2be30bfdb278dbc97f6e9b7346d039328ce10b54a4e9f1a206c1d22ae4d",
-  "inspected": "Imperial and metric actual PDF facing spreads, plus final contents 4–5 in the assembled imperial PDF.",
   "findings": [
-    "All 83 destinations fit; all 44 vegetables remain alphabetical and use their approved family colours. The 14 Troubles entries use the approved matching colours.",
-    "Pale roots.wash key panel sits low on page 5 beside H6 harvest; H5 seedlings is intentionally omitted. Both header illustrations remain.",
-    "The approved 10.5 pt rows and 8 pt category key remain readable, with no text/image or footer collision observed.",
-    "Troubles guides now span 100–146; Techniques begins 147, Netting 162, Supports 164 and index 170.",
-    "Non-numeric body glyphs, sizes and colours match the frozen composition; native positions differ by at most 0.23 mm in the bleed/trim route."
+    "All 84 destinations remain readable at 10.5 pt.",
+    "New pH row and revised folios fit; page-5 row padding 1.4 px preserves key/art geometry.",
+    "No footer overlap, missing art or text clipping."
   ],
-  "compositionEvidence": "../whole-book-order-preview/integration-2026-10-31/APPROVED-COMPARISONS.json"
+  "footerClearanceMmByEdition": {
+    "imperial": [
+      15.023372395833333,
+      4.320149739583333
+    ],
+    "metric": [
+      15.023372395833333,
+      4.320149739583333
+    ]
+  }
 }

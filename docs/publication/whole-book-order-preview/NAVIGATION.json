@@ -17,9 +17,10 @@
     "output/pdf/troubles-rollout/tomato_troubles-imperial.pdf": "59ad3b7e419fbebdd422fce3f45c5d451f62a92404e5951f12ad5c2e6fda4426",
     "output/pdf/troubles-rollout/turnip_swede_radish_troubles-imperial.pdf": "16898b47d44bd57531d000f3305c39c3bab4e49234c858cb98df4e8c54959c3f",
     "output/pdf/techniques-subsections/techniques-imperial.pdf": "fe072b70b68703cc80d484f06968e52bd14dbb74a9c67a8a6f30dea0b26546a4",
+    "output/pdf/soil-acidity/soil-acidity-draft.pdf": "57e61bcc0ad8ade82027c6ee005ba71c256a82dfda7f335d8e3c45dc193aa5d0",
     "output/pdf/topic-pages/netting-revised-draft.pdf": "f059d4b961f8e597975546044deff9342079d2993c9ad3387e78aacdeb5f8032",
     "output/pdf/topic-pages/supports-revised-draft.pdf": "aff9299b7f067b39fbe4c44a1e0922a5ba4d5f8929ba747e61bf3a86411f5ebc",
-    "docs/publication/contents-update/ASSEMBLY-PROPOSAL.json": "6ecff232fb6e359797e52dd5855ba026d9b2aca4d38e0b36966b2fc272cac618",
+    "docs/publication/contents-update/ASSEMBLY-PROPOSAL.json": "14d9c3e640d42c7acade0b776dffe512560ba0a29c1b55a756e2f79e6e4755e9",
     "scripts/lib/book-navigation.mjs": "4495046ae01a711e8407a2bf5e1c06881bb0c84cd2cda96c7778ec26aa55fdf1",
     "scripts/lib/book-review-refinements.mjs": "90262114e42ab7e1d0f7bca2b0c2559b28790a9ae8a4ab56903df5e746ad1130",
     "public/fonts/richer-a-1.woff2": "d2575d4fa3632580aafcbcdf6978b3b57e144b90cf5bd9c2c98194f28b869704",
@@ -203,14 +204,14 @@
           "source": "technique:supports",
           "offset": 0,
           "label": "Growing Techniques",
-          "start": 164,
-          "end": 164,
-          "text": "164",
+          "start": 166,
+          "end": 166,
+          "text": "166",
           "evidence": [
             {
               "source": "technique:supports",
               "offset": 0,
-              "folio": 164,
+              "folio": 166,
               "kind": "Growing Techniques",
               "term": "broad beans",
               "excerpt": "something to grip exposed spot add diagonal bracing to the frame broad beans need less tall broad beans in a windy spot can be supported by stout stakes and strings around the "
@@ -605,14 +606,14 @@
           "source": "technique:supports",
           "offset": 1,
           "label": "Growing Techniques",
-          "start": 165,
-          "end": 165,
-          "text": "165",
+          "start": 167,
+          "end": 167,
+          "text": "167",
           "evidence": [
             {
               "source": "technique:supports",
               "offset": 1,
-              "folio": 165,
+              "folio": 167,
               "kind": "Growing Techniques",
               "term": "brussels sprouts",
               "excerpt": "stake for tall brassicas on an exposed plot tall vegetables like brussels sprouts can rock in the wind and take damage to leaves and roots drive a stout stake beside the plant takin"
@@ -786,22 +787,32 @@
           "source": "technique:sowing",
           "offset": 0,
           "label": "Growing Techniques",
-          "start": 161,
+          "start": 162,
           "end": 162,
-          "text": "161–162",
+          "text": "162",
           "evidence": [
             {
               "source": "technique:sowing",
               "offset": 0,
-              "folio": 161,
+              "folio": 162,
               "kind": "Growing Techniques",
               "term": "carrots",
               "excerpt": "ten where the crop allows it check each guide s method and depth carrots lettuces and peas do not start in the same way"
-            },
+            }
+          ]
+        },
+        {
+          "source": "technique:netting",
+          "offset": 0,
+          "label": "Growing Techniques",
+          "start": 164,
+          "end": 164,
+          "text": "164",
+          "evidence": [
             {
               "source": "technique:netting",
               "offset": 0,
-              "folio": 162,
+              "folio": 164,
               "kind": "Growing Techniques",
               "term": "carrots",
               "excerpt": "shelter from cold winds birds check the openings a net brassicas carrots and leeks and light frost it is useful over that stops birds may let choose the grade for the insec"
@@ -1684,14 +1695,14 @@
           "source": "technique:netting",
           "offset": 0,
           "label": "Growing Techniques",
-          "start": 162,
-          "end": 162,
-          "text": "162",
+          "start": 164,
+          "end": 164,
+          "text": "164",
           "evidence": [
             {
               "source": "technique:netting",
               "offset": 0,
-              "folio": 162,
+              "folio": 164,
               "kind": "Growing Techniques",
               "term": "leeks",
               "excerpt": " cold winds birds check the openings a net brassicas carrots and leeks and light frost it is useful over that stops birds may let choose the grade for the insect young pl"
@@ -1764,14 +1775,14 @@
           "source": "technique:sowing",
           "offset": 0,
           "label": "Growing Techniques",
-          "start": 161,
-          "end": 161,
-          "text": "161",
+          "start": 162,
+          "end": 162,
+          "text": "162",
           "evidence": [
             {
               "source": "technique:sowing",
               "offset": 0,
-              "folio": 161,
+              "folio": 162,
               "kind": "Growing Techniques",
               "term": "lettuces",
               "excerpt": "e the crop allows it check each guide s method and depth carrots lettuces and peas do not start in the same way"
@@ -1782,14 +1793,14 @@
           "source": "technique:greenhouse-no-dig-seasons",
           "offset": 0,
           "label": "Growing Techniques",
-          "start": 169,
-          "end": 169,
-          "text": "169",
+          "start": 170,
+          "end": 170,
+          "text": "170",
           "evidence": [
             {
               "source": "technique:greenhouse-no-dig-seasons",
               "offset": 0,
-              "folio": 169,
+              "folio": 170,
               "kind": "Growing Techniques",
               "term": "lettuce",
               "excerpt": " early crops make room for keep autumn summer growing grow early lettuce or spinach harvest or clear the early raise suitable autumn while summer plants are small crops bef"
@@ -1921,14 +1932,14 @@
           "source": "technique:greenhouse-no-dig-seasons",
           "offset": 0,
           "label": "Growing Techniques",
-          "start": 169,
-          "end": 169,
-          "text": "Growing Techniques 169",
+          "start": 170,
+          "end": 170,
+          "text": "Growing Techniques 170",
           "evidence": [
             {
               "source": "technique:greenhouse-no-dig-seasons",
               "offset": 0,
-              "folio": 169,
+              "folio": 170,
               "kind": "Growing Techniques",
               "term": "oriental leaves",
               "excerpt": " summer plants are small crops before they crowd the lettuces or oriental leaves seed trays can occupy staging tomatoes and other summer before the summer crops use the crop guide "
@@ -2087,14 +2098,14 @@
           "source": "technique:sowing",
           "offset": 0,
           "label": "Growing Techniques",
-          "start": 161,
-          "end": 161,
-          "text": "161",
+          "start": 162,
+          "end": 162,
+          "text": "162",
           "evidence": [
             {
               "source": "technique:sowing",
               "offset": 0,
-              "folio": 161,
+              "folio": 162,
               "kind": "Growing Techniques",
               "term": "peas",
               "excerpt": "lows it check each guide s method and depth carrots lettuces and peas do not start in the same way"
@@ -2105,14 +2116,14 @@
           "source": "technique:supports",
           "offset": 0,
           "label": "Growing Techniques",
-          "start": 164,
-          "end": 165,
-          "text": "164–165",
+          "start": 166,
+          "end": 167,
+          "text": "166–167",
           "evidence": [
             {
               "source": "technique:supports",
               "offset": 0,
-              "folio": 164,
+              "folio": 166,
               "kind": "Growing Techniques",
               "term": "pea",
               "excerpt": "t the net supports the plants it is not insect proof mesh twiggy pea sticks are a simpler option or can help young plants reach the frame match the support height to th"
@@ -2120,7 +2131,7 @@
             {
               "source": "technique:supports",
               "offset": 1,
-              "folio": 165,
+              "folio": 167,
               "kind": "Growing Techniques",
               "term": "pea",
               "excerpt": "ls running in opposite directions along a bean row a rectangular pea frame also needs bracing across its ends as shown here check that joints cannot slide and the feet "
@@ -2192,8 +2203,8 @@
           "offset": 0,
           "label": "Growing Techniques",
           "start": 149,
-          "end": 152,
-          "text": "Growing Techniques 149–152",
+          "end": 153,
+          "text": "Growing Techniques 149–153",
           "evidence": [
             {
               "source": "technique:nutrient-cycles",
@@ -2220,9 +2231,17 @@
               "excerpt": "ce each year year bed a bed b bed c bed d 1 peas beans brassicas potatoes onions roots 2 brassicas potatoes onions roots peas beans 3 potatoes onions roots peas beans brassi"
             },
             {
-              "source": "technique:plot-location",
+              "source": "technique:soil-acidity",
               "offset": 0,
               "folio": 152,
+              "kind": "Growing Techniques",
+              "term": "potatoes",
+              "excerpt": "ssing on a no dig bed works more slowly avoid liming just before potatoes it can encourage common scab for brassicas correcting acid soil can reduce clubroot damage but cann"
+            },
+            {
+              "source": "technique:plot-location",
+              "offset": 0,
+              "folio": 153,
               "kind": "Growing Techniques",
               "term": "potatoes",
               "excerpt": "d regularly picked crops suit a small start a winter s supply of potatoes needs more space there is no single plot size that feeds every household and taking on too much gro"
@@ -2371,14 +2390,14 @@
           "source": "technique:greenhouse-no-dig-seasons",
           "offset": 0,
           "label": "Growing Techniques",
-          "start": 169,
-          "end": 169,
-          "text": "169",
+          "start": 170,
+          "end": 170,
+          "text": "170",
           "evidence": [
             {
               "source": "technique:greenhouse-no-dig-seasons",
               "offset": 0,
-              "folio": 169,
+              "folio": 170,
               "kind": "Growing Techniques",
               "term": "spinach",
               "excerpt": "s make room for keep autumn summer growing grow early lettuce or spinach harvest or clear the early raise suitable autumn while summer plants are small crops before they cr"
@@ -2630,32 +2649,22 @@
           "source": "technique:supports",
           "offset": 1,
           "label": "Growing Techniques",
-          "start": 165,
-          "end": 165,
-          "text": "165",
+          "start": 167,
+          "end": 170,
+          "text": "167–170",
           "evidence": [
             {
               "source": "technique:supports",
               "offset": 1,
-              "folio": 165,
+              "folio": 167,
               "kind": "Growing Techniques",
               "term": "tomatoes",
               "excerpt": "may be enough drive in the stake then add soft stem ties outdoor tomatoes in cages tomatoes can be staked too but the weight of the fruit can break stems particularly outdoo"
-            }
-          ]
-        },
-        {
-          "source": "technique:greenhouse-choose",
-          "offset": 0,
-          "label": "Growing Techniques",
-          "start": 167,
-          "end": 169,
-          "text": "167–169",
-          "evidence": [
+            },
             {
               "source": "technique:greenhouse-choose",
               "offset": 0,
-              "folio": 167,
+              "folio": 168,
               "kind": "Growing Techniques",
               "term": "tomatoes",
               "excerpt": "tender crops before choosing one work out what will go inside it tomatoes have an unfortunate habit of being much larger in august than they were in april choose useful find"
@@ -2663,7 +2672,7 @@
             {
               "source": "technique:greenhouse-beds",
               "offset": 0,
-              "folio": 168,
+              "folio": 169,
               "kind": "Growing Techniques",
               "term": "tomatoes",
               "excerpt": "peat free potting compost and containers with drainage holes for tomatoes choose pots at least 12 inches across let surplus water drain away and check pots and bags regularl"
@@ -2671,7 +2680,7 @@
             {
               "source": "technique:greenhouse-no-dig-seasons",
               "offset": 0,
-              "folio": 169,
+              "folio": 170,
               "kind": "Growing Techniques",
               "term": "tomatoes",
               "excerpt": "wd the lettuces or oriental leaves seed trays can occupy staging tomatoes and other summer before the summer crops use the crop guide s protected plants a little spare groun"
@@ -2768,14 +2777,14 @@
           "source": "technique:supports",
           "offset": 1,
           "label": "Growing Techniques",
-          "start": 165,
-          "end": 165,
-          "text": "165",
+          "start": 167,
+          "end": 167,
+          "text": "167",
           "evidence": [
             {
               "source": "technique:supports",
               "offset": 1,
-              "folio": 165,
+              "folio": 167,
               "kind": "Growing Techniques",
               "term": "outdoor tomatoes",
               "excerpt": "hing up may be enough drive in the stake then add soft stem ties outdoor tomatoes in cages tomatoes can be staked too but the weight of the fruit can break stems particularly outdoo"
@@ -3312,7 +3321,7 @@
         },
         {
           "description": "Reference labels match section names; destinations unchanged",
-          "text": "See also: Vegetable Troubles 100–103 · Growing Techniques 151 · 164",
+          "text": "See also: Vegetable Troubles 100–103 · Growing Techniques 151 · 166",
           "left": 48.02600911458333,
           "top": 228.5173177083333,
           "right": 135.97102864583334,
@@ -3402,20 +3411,20 @@
           "source": "technique:supports",
           "offset": 0,
           "label": "Growing Techniques",
-          "start": 164,
-          "end": 164,
-          "text": "164",
+          "start": 166,
+          "end": 166,
+          "text": "166",
           "evidence": [
             {
               "source": "technique:supports",
               "offset": 0,
-              "folio": 164,
+              "folio": 166,
               "kind": "Growing Techniques",
               "term": "broad beans",
               "excerpt": "something to grip exposed spot add diagonal bracing to the frame broad beans need less tall broad beans in a windy spot can be supported by stout stakes and strings around the "
             }
           ],
-          "target": 164,
+          "target": 166,
           "left": 131.20852864583333,
           "top": 228.25273437499996,
           "right": 135.97102864583334,
@@ -4119,7 +4128,7 @@
         },
         {
           "description": "Reference labels match section names; destinations unchanged",
-          "text": "See also: Vegetable Troubles 106–111 · Growing Techniques 150 · 165",
+          "text": "See also: Vegetable Troubles 106–111 · Growing Techniques 150 · 167",
           "left": 48.02600911458333,
           "top": 228.5173177083333,
           "right": 135.97102864583334,
@@ -4225,20 +4234,20 @@
           "source": "technique:supports",
           "offset": 1,
           "label": "Growing Techniques",
-          "start": 165,
-          "end": 165,
-          "text": "165",
+          "start": 167,
+          "end": 167,
+          "text": "167",
           "evidence": [
             {
               "source": "technique:supports",
               "offset": 1,
-              "folio": 165,
+              "folio": 167,
               "kind": "Growing Techniques",
               "term": "brussels sprouts",
               "excerpt": "stake for tall brassicas on an exposed plot tall vegetables like brussels sprouts can rock in the wind and take damage to leaves and roots drive a stout stake beside the plant takin"
             }
           ],
-          "target": 165,
+          "target": 167,
           "left": 131.20852864583333,
           "top": 228.25273437499996,
           "right": 135.97102864583334,
@@ -4526,10 +4535,10 @@
         },
         {
           "description": "Reference labels match section names; destinations unchanged",
-          "text": "See also: Vegetable Troubles 112–114 · Growing Techniques 150 · 161–162",
+          "text": "See also: Vegetable Troubles 112–114 · Growing Techniques 150 · 162 · 164",
           "left": 48.02600911458333,
           "top": 228.5173177083333,
-          "right": 142.0564453125,
+          "right": 142.89153645833332,
           "bottom": 231.95690104166667
         },
         {
@@ -4608,31 +4617,46 @@
           "source": "technique:sowing",
           "offset": 0,
           "label": "Growing Techniques",
-          "start": 161,
+          "start": 162,
           "end": 162,
-          "text": "161–162",
+          "text": "162",
           "evidence": [
             {
               "source": "technique:sowing",
               "offset": 0,
-              "folio": 161,
+              "folio": 162,
               "kind": "Growing Techniques",
               "term": "carrots",
               "excerpt": "ten where the crop allows it check each guide s method and depth carrots lettuces and peas do not start in the same way"
-            },
+            }
+          ],
+          "target": 162,
+          "left": 131.20852864583333,
+          "top": 228.25273437499996,
+          "right": 135.97102864583334,
+          "bottom": 231.95690104166667
+        },
+        {
+          "source": "technique:netting",
+          "offset": 0,
+          "label": "Growing Techniques",
+          "start": 164,
+          "end": 164,
+          "text": "164",
+          "evidence": [
             {
               "source": "technique:netting",
               "offset": 0,
-              "folio": 162,
+              "folio": 164,
               "kind": "Growing Techniques",
               "term": "carrots",
               "excerpt": "shelter from cold winds birds check the openings a net brassicas carrots and leeks and light frost it is useful over that stops birds may let choose the grade for the insec"
             }
           ],
-          "target": 161,
-          "left": 131.20852864583333,
+          "target": 164,
+          "left": 138.12903645833333,
           "top": 228.25273437499996,
-          "right": 142.0564453125,
+          "right": 142.89153645833332,
           "bottom": 231.95690104166667
         }
       ],
@@ -6336,7 +6360,7 @@
         },
         {
           "description": "Reference labels match section names; destinations unchanged",
-          "text": "See also: Vegetable Troubles 126–129 · Growing Techniques 150 · 162",
+          "text": "See also: Vegetable Troubles 126–129 · Growing Techniques 150 · 164",
           "left": 48.02600911458333,
           "top": 228.5173177083333,
           "right": 135.97102864583334,
@@ -6426,20 +6450,20 @@
           "source": "technique:netting",
           "offset": 0,
           "label": "Growing Techniques",
-          "start": 162,
-          "end": 162,
-          "text": "162",
+          "start": 164,
+          "end": 164,
+          "text": "164",
           "evidence": [
             {
               "source": "technique:netting",
               "offset": 0,
-              "folio": 162,
+              "folio": 164,
               "kind": "Growing Techniques",
               "term": "leeks",
               "excerpt": " cold winds birds check the openings a net brassicas carrots and leeks and light frost it is useful over that stops birds may let choose the grade for the insect young pl"
             }
           ],
-          "target": 162,
+          "target": 164,
           "left": 131.20852864583333,
           "top": 228.25273437499996,
           "right": 135.97102864583334,
@@ -6500,7 +6524,7 @@
         },
         {
           "description": "Reference labels match section names; destinations unchanged",
-          "text": "See also: Vegetable Troubles 123–125 · Growing Techniques 150 · 161 · 169",
+          "text": "See also: Vegetable Troubles 123–125 · Growing Techniques 150 · 162 · 170",
           "left": 48.02600911458333,
           "top": 228.5173177083333,
           "right": 142.89153645833332,
@@ -6582,20 +6606,20 @@
           "source": "technique:sowing",
           "offset": 0,
           "label": "Growing Techniques",
-          "start": 161,
-          "end": 161,
-          "text": "161",
+          "start": 162,
+          "end": 162,
+          "text": "162",
           "evidence": [
             {
               "source": "technique:sowing",
               "offset": 0,
-              "folio": 161,
+              "folio": 162,
               "kind": "Growing Techniques",
               "term": "lettuces",
               "excerpt": "e the crop allows it check each guide s method and depth carrots lettuces and peas do not start in the same way"
             }
           ],
-          "target": 161,
+          "target": 162,
           "left": 131.20852864583333,
           "top": 228.25273437499996,
           "right": 135.97102864583334,
@@ -6605,20 +6629,20 @@
           "source": "technique:greenhouse-no-dig-seasons",
           "offset": 0,
           "label": "Growing Techniques",
-          "start": 169,
-          "end": 169,
-          "text": "169",
+          "start": 170,
+          "end": 170,
+          "text": "170",
           "evidence": [
             {
               "source": "technique:greenhouse-no-dig-seasons",
               "offset": 0,
-              "folio": 169,
+              "folio": 170,
               "kind": "Growing Techniques",
               "term": "lettuce",
               "excerpt": " early crops make room for keep autumn summer growing grow early lettuce or spinach harvest or clear the early raise suitable autumn while summer plants are small crops bef"
             }
           ],
-          "target": 169,
+          "target": 170,
           "left": 138.12903645833333,
           "top": 228.25273437499996,
           "right": 142.89153645833332,
@@ -6890,7 +6914,7 @@
         },
         {
           "description": "Reference labels match section names; destinations unchanged",
-          "text": "See also: Vegetable Troubles 130–131 · Growing Techniques 169",
+          "text": "See also: Vegetable Troubles 130–131 · Growing Techniques 170",
           "left": 48.02600911458333,
           "top": 228.5173177083333,
           "right": 129.0505208333333,
@@ -6941,20 +6965,20 @@
           "source": "technique:greenhouse-no-dig-seasons",
           "offset": 0,
           "label": "Growing Techniques",
-          "start": 169,
-          "end": 169,
-          "text": "Growing Techniques 169",
+          "start": 170,
+          "end": 170,
+          "text": "Growing Techniques 170",
           "evidence": [
             {
               "source": "technique:greenhouse-no-dig-seasons",
               "offset": 0,
-              "folio": 169,
+              "folio": 170,
               "kind": "Growing Techniques",
               "term": "oriental leaves",
               "excerpt": " summer plants are small crops before they crowd the lettuces or oriental leaves seed trays can occupy staging tomatoes and other summer before the summer crops use the crop guide "
             }
           ],
-          "target": 169,
+          "target": 170,
           "left": 98.1025390625,
           "top": 228.25273437499996,
           "right": 129.0505208333333,
@@ -7148,7 +7172,7 @@
         },
         {
           "description": "Reference labels match section names; destinations unchanged",
-          "text": "See also: Vegetable Troubles 100–103 · Growing Techniques 149–151 · 161 · 164–165",
+          "text": "See also: Vegetable Troubles 100–103 · Growing Techniques 149–151 · 162 · 166–167",
           "left": 48.02600911458333,
           "top": 228.5173177083333,
           "right": 155.06236979166667,
@@ -7254,20 +7278,20 @@
           "source": "technique:sowing",
           "offset": 0,
           "label": "Growing Techniques",
-          "start": 161,
-          "end": 161,
-          "text": "161",
+          "start": 162,
+          "end": 162,
+          "text": "162",
           "evidence": [
             {
               "source": "technique:sowing",
               "offset": 0,
-              "folio": 161,
+              "folio": 162,
               "kind": "Growing Techniques",
               "term": "peas",
               "excerpt": "lows it check each guide s method and depth carrots lettuces and peas do not start in the same way"
             }
           ],
-          "target": 161,
+          "target": 162,
           "left": 137.2939453125,
           "top": 228.25273437499996,
           "right": 142.0564453125,
@@ -7277,14 +7301,14 @@
           "source": "technique:supports",
           "offset": 0,
           "label": "Growing Techniques",
-          "start": 164,
-          "end": 165,
-          "text": "164–165",
+          "start": 166,
+          "end": 167,
+          "text": "166–167",
           "evidence": [
             {
               "source": "technique:supports",
               "offset": 0,
-              "folio": 164,
+              "folio": 166,
               "kind": "Growing Techniques",
               "term": "pea",
               "excerpt": "t the net supports the plants it is not insect proof mesh twiggy pea sticks are a simpler option or can help young plants reach the frame match the support height to th"
@@ -7292,13 +7316,13 @@
             {
               "source": "technique:supports",
               "offset": 1,
-              "folio": 165,
+              "folio": 167,
               "kind": "Growing Techniques",
               "term": "pea",
               "excerpt": "ls running in opposite directions along a bean row a rectangular pea frame also needs bracing across its ends as shown here check that joints cannot slide and the feet "
             }
           ],
-          "target": 164,
+          "target": 166,
           "left": 144.214453125,
           "top": 228.25273437499996,
           "right": 155.06236979166667,
@@ -7359,7 +7383,7 @@
         },
         {
           "description": "Reference labels match section names; destinations unchanged",
-          "text": "See also: Vegetable Troubles 132–136 · Growing Techniques 149–152",
+          "text": "See also: Vegetable Troubles 132–136 · Growing Techniques 149–153",
           "left": 48.02600911458333,
           "top": 228.5173177083333,
           "right": 135.13593749999998,
@@ -7435,8 +7459,8 @@
           "offset": 0,
           "label": "Growing Techniques",
           "start": 149,
-          "end": 152,
-          "text": "Growing Techniques 149–152",
+          "end": 153,
+          "text": "Growing Techniques 149–153",
           "evidence": [
             {
               "source": "technique:nutrient-cycles",
@@ -7463,9 +7487,17 @@
               "excerpt": "ce each year year bed a bed b bed c bed d 1 peas beans brassicas potatoes onions roots 2 brassicas potatoes onions roots peas beans 3 potatoes onions roots peas beans brassi"
             },
             {
-              "source": "technique:plot-location",
+              "source": "technique:soil-acidity",
               "offset": 0,
               "folio": 152,
+              "kind": "Growing Techniques",
+              "term": "potatoes",
+              "excerpt": "ssing on a no dig bed works more slowly avoid liming just before potatoes it can encourage common scab for brassicas correcting acid soil can reduce clubroot damage but cann"
+            },
+            {
+              "source": "technique:plot-location",
+              "offset": 0,
+              "folio": 153,
               "kind": "Growing Techniques",
               "term": "potatoes",
               "excerpt": "d regularly picked crops suit a small start a winter s supply of potatoes needs more space there is no single plot size that feeds every household and taking on too much gro"
@@ -7789,7 +7821,7 @@
         },
         {
           "description": "Reference labels match section names; destinations unchanged",
-          "text": "See also: Vegetable Troubles 137–138 · Growing Techniques 149–150 · 169",
+          "text": "See also: Vegetable Troubles 137–138 · Growing Techniques 149–150 · 170",
           "left": 48.02600911458333,
           "top": 228.5173177083333,
           "right": 142.0564453125,
@@ -7871,20 +7903,20 @@
           "source": "technique:greenhouse-no-dig-seasons",
           "offset": 0,
           "label": "Growing Techniques",
-          "start": 169,
-          "end": 169,
-          "text": "169",
+          "start": 170,
+          "end": 170,
+          "text": "170",
           "evidence": [
             {
               "source": "technique:greenhouse-no-dig-seasons",
               "offset": 0,
-              "folio": 169,
+              "folio": 170,
               "kind": "Growing Techniques",
               "term": "spinach",
               "excerpt": "s make room for keep autumn summer growing grow early lettuce or spinach harvest or clear the early raise suitable autumn while summer plants are small crops before they cr"
             }
           ],
-          "target": 169,
+          "target": 170,
           "left": 137.2939453125,
           "top": 228.25273437499996,
           "right": 142.0564453125,
@@ -8297,10 +8329,10 @@
         },
         {
           "description": "Reference labels match section names; destinations unchanged",
-          "text": "See also: Vegetable Troubles 139–143 · Growing Techniques 149–150 · 165 · 167–169",
+          "text": "See also: Vegetable Troubles 139–143 · Growing Techniques 149–150 · 167–170",
           "left": 48.02600911458333,
           "top": 228.5173177083333,
-          "right": 155.06236979166667,
+          "right": 148.14186197916666,
           "bottom": 231.95690104166667
         },
         {
@@ -8403,37 +8435,22 @@
           "source": "technique:supports",
           "offset": 1,
           "label": "Growing Techniques",
-          "start": 165,
-          "end": 165,
-          "text": "165",
+          "start": 167,
+          "end": 170,
+          "text": "167–170",
           "evidence": [
             {
               "source": "technique:supports",
               "offset": 1,
-              "folio": 165,
+              "folio": 167,
               "kind": "Growing Techniques",
               "term": "tomatoes",
               "excerpt": "may be enough drive in the stake then add soft stem ties outdoor tomatoes in cages tomatoes can be staked too but the weight of the fruit can break stems particularly outdoo"
-            }
-          ],
-          "target": 165,
-          "left": 137.2939453125,
-          "top": 228.25273437499996,
-          "right": 142.0564453125,
-          "bottom": 231.95690104166667
-        },
-        {
-          "source": "technique:greenhouse-choose",
-          "offset": 0,
-          "label": "Growing Techniques",
-          "start": 167,
-          "end": 169,
-          "text": "167–169",
-          "evidence": [
+            },
             {
               "source": "technique:greenhouse-choose",
               "offset": 0,
-              "folio": 167,
+              "folio": 168,
               "kind": "Growing Techniques",
               "term": "tomatoes",
               "excerpt": "tender crops before choosing one work out what will go inside it tomatoes have an unfortunate habit of being much larger in august than they were in april choose useful find"
@@ -8441,7 +8458,7 @@
             {
               "source": "technique:greenhouse-beds",
               "offset": 0,
-              "folio": 168,
+              "folio": 169,
               "kind": "Growing Techniques",
               "term": "tomatoes",
               "excerpt": "peat free potting compost and containers with drainage holes for tomatoes choose pots at least 12 inches across let surplus water drain away and check pots and bags regularl"
@@ -8449,16 +8466,16 @@
             {
               "source": "technique:greenhouse-no-dig-seasons",
               "offset": 0,
-              "folio": 169,
+              "folio": 170,
               "kind": "Growing Techniques",
               "term": "tomatoes",
               "excerpt": "wd the lettuces or oriental leaves seed trays can occupy staging tomatoes and other summer before the summer crops use the crop guide s protected plants a little spare groun"
             }
           ],
           "target": 167,
-          "left": 144.214453125,
+          "left": 137.2939453125,
           "top": 228.25273437499996,
-          "right": 155.06236979166667,
+          "right": 148.14186197916666,
           "bottom": 231.95690104166667
         }
       ],
@@ -8516,7 +8533,7 @@
         },
         {
           "description": "Reference labels match section names; destinations unchanged",
-          "text": "See also: Vegetable Troubles 139–143 · Growing Techniques 149–150 · 165",
+          "text": "See also: Vegetable Troubles 139–143 · Growing Techniques 149–150 · 167",
           "left": 48.02600911458333,
           "top": 228.5173177083333,
           "right": 142.0564453125,
@@ -8622,20 +8639,20 @@
           "source": "technique:supports",
           "offset": 1,
           "label": "Growing Techniques",
-          "start": 165,
-          "end": 165,
-          "text": "165",
+          "start": 167,
+          "end": 167,
+          "text": "167",
           "evidence": [
             {
               "source": "technique:supports",
               "offset": 1,
-              "folio": 165,
+              "folio": 167,
               "kind": "Growing Techniques",
               "term": "outdoor tomatoes",
               "excerpt": "hing up may be enough drive in the stake then add soft stem ties outdoor tomatoes in cages tomatoes can be staked too but the weight of the fruit can break stems particularly outdoo"
             }
           ],
-          "target": 165,
+          "target": 167,
           "left": 137.2939453125,
           "top": 228.25273437499996,
           "right": 142.0564453125,
@@ -10988,7 +11005,7 @@
     },
     {
       "folio": 170,
-      "label": "INDEX",
+      "label": "GROWING TECHNIQUES",
       "heading": null,
       "footer": {
         "left": 7.99951171875,
@@ -10999,10 +11016,10 @@
       "changes": [
         {
           "description": "Section name matches contents and openers",
-          "text": "INDEX",
+          "text": "GROWING TECHNIQUES",
           "left": 7.99951171875,
           "top": 228.5173177083333,
-          "right": 16.7927734375,
+          "right": 41.349414062499996,
           "bottom": 231.99824218749998
         },
         {
@@ -11015,7 +11032,7 @@
         }
       ],
       "links": [],
-      "isIndex": true
+      "isIndex": false
     },
     {
       "folio": 171,
@@ -11104,6 +11121,37 @@
           "left": 171.96676432291667,
           "top": 228.5173177083333,
           "right": 176.99798177083332,
+          "bottom": 231.99824218749998
+        }
+      ],
+      "links": [],
+      "isIndex": true
+    },
+    {
+      "folio": 174,
+      "label": "INDEX",
+      "heading": null,
+      "footer": {
+        "left": 7.99951171875,
+        "top": 228.5173177083333,
+        "right": 167.99801432291665,
+        "bottom": 231.99824218749998
+      },
+      "changes": [
+        {
+          "description": "Section name matches contents and openers",
+          "text": "INDEX",
+          "left": 7.99951171875,
+          "top": 228.5173177083333,
+          "right": 16.7927734375,
+          "bottom": 231.99824218749998
+        },
+        {
+          "description": "Edition label moved to publication page",
+          "text": "174",
+          "left": 162.966796875,
+          "top": 228.5173177083333,
+          "right": 167.99801432291665,
           "bottom": 231.99824218749998
         }
       ],
@@ -11283,7 +11331,8 @@
     170,
     171,
     172,
-    173
+    173,
+    174
   ],
   "priorApproval": "references/navigation-approved-2026-10-15/APPROVAL.json",
   "approvedHighlightsRemoved": true,

@@ -7,7 +7,7 @@ import {readBookContent} from './lib/book-content.mjs';
 import {validateBookLayout} from '../../hackriculture-data/lib/book-layout.mjs';
 const base=JSON.parse(fs.readFileSync('docs/publication/book-preparation/ASSEMBLY-PLAN-BOOKVAULT.json'));
 const topics=JSON.parse(fs.readFileSync('docs/publication/topic-pages/techniques-expansion/COLLECTION-APPROVAL.json')).pageIds;
-const sources=Object.fromEntries(['imperial','metric'].map(u=>[u,Object.fromEntries([...topics.map(s=>'technique:'+s),...['overview','no-dig','digging','digging-finish'].map(s=>'cultivation:'+s),'technique:nutrient-cycles','technique:netting','technique:supports','back:index'].map(s=>[s,{pdf:'fixture.pdf',sourcePage:1,physicalPages:s==='back:index'?4:['technique:rotation','technique:netting','technique:supports'].includes(s)?2:1}]))]));
+const sources=Object.fromEntries(['imperial','metric'].map(u=>[u,Object.fromEntries([...topics.map(s=>'technique:'+s),...['overview','no-dig','digging','digging-finish'].map(s=>'cultivation:'+s),'technique:nutrient-cycles','technique:soil-acidity','technique:netting','technique:supports','back:index'].map(s=>[s,{pdf:'fixture.pdf',sourcePage:1,physicalPages:s==='back:index'?4:['technique:rotation','technique:netting','technique:supports'].includes(s)?2:1}]))]));
 test('proposed pagination covers every page once and preserves crop spreads and blanks',()=>{
  const before=structuredClone(base),{plan,topicMap}=createContentsPlan(base,sources);
  assert.deepEqual(base,before);
@@ -17,7 +17,7 @@ test('proposed pagination covers every page once and preserves crop spreads and 
   occupied.push(...e.sectionOpeners.filter(d=>d.startPage>9).map(d=>d.startPage),...e.extraBlanks.filter(d=>d.page>9).map(d=>d.page));
   occupied.push(...e.additions.filter(d=>d.source!=='technique:why-grow').flatMap(d=>Array.from({length:d.physicalPages},(_,i)=>d.startPage+i)),...Array.from({length:e.index.physicalPages},(_,i)=>e.index.startPage+i));
   assert.deepEqual(occupied.sort((a,b)=>a-b),Array.from({length:180},(_,i)=>i+1));
-  assert.equal(e.documents[0].startPage,10);assert.equal(e.index.startPage,176);assert.equal(e.techniquePages,22);
+  assert.equal(e.documents[0].startPage,10);assert.equal(e.index.startPage,177);assert.equal(e.techniquePages,23);
   assert.deepEqual(e.sectionOpeners.map(x=>x.startPage),[9,107,153]);
   assert.ok(e.sectionOpeners.filter(x=>x.source!=='opening:varieties').every(x=>x.startPage%2===1));
   assert.equal(e.sectionOpeners[0].startPage%2,1);
@@ -27,12 +27,12 @@ test('proposed pagination covers every page once and preserves crop spreads and 
   assert.ok(!e.extraBlanks.some(x=>x.page===9));
   for(const [a,b] of [['technique:plot-layout','technique:plot-layout-branching'],['cultivation:digging','cultivation:digging-finish'],['technique:compost-bins','technique:compost-use'],['technique:greenhouse-beds','technique:greenhouse-no-dig-seasons']])assert.equal(topicMap[unit][b],topicMap[unit][a]+1);
   assert.deepEqual(e.documents.map(d=>d.startPage%2),base.editions[unit].documents.map(d=>d.startPage%2));
-  assert.equal(topicMap[unit]['technique:why-grow'],7);assert.equal(topicMap[unit]['cultivation:overview'],163);
+  assert.equal(topicMap[unit]['technique:why-grow'],7);assert.equal(topicMap[unit]['cultivation:overview'],164);
  }
 });
 test('contents include every added destination once, and reject unresolved or duplicate destinations',()=>{
  const {data}=readBookContent(),{plan}=createContentsPlan(base,sources),themes=JSON.parse(fs.readFileSync('src/print/familyThemes.json'));
- for(const unit of ['imperial','metric'])assert.equal(renderUpdatedContents(data,unit,plan,themes,troubleFamilies).references.length,83);
+ for(const unit of ['imperial','metric'])assert.equal(renderUpdatedContents(data,unit,plan,themes,troubleFamilies).references.length,84);
  const bad=structuredClone(data);bad.contents.expanded.groups[0].entries[0].source='technique:missing';
  assert.throws(()=>renderUpdatedContents(bad,'imperial',plan,themes,troubleFamilies),/Missing or duplicate/);
  bad.contents.expanded.groups[0].entries[0].source=bad.contents.expanded.gettingStarted.entries[0].source;
@@ -44,7 +44,7 @@ test('four approved two-page guides remove overflow and alignment leaves, preser
  const before=structuredClone(base),{plan}=createContentsPlan(base,sources,replacements);
  assert.deepEqual(base,before);
  for(const [u,e] of Object.entries(plan.editions)){
-  assert.equal(e.plannedEvenTotal,172);assert.equal(e.index.startPage,168);
+  assert.equal(e.plannedEvenTotal,172);assert.equal(e.index.startPage,169);
   assert.ok(!e.extraBlanks.some(b=>b.page>=145&&b.page<168));
   assert.deepEqual(e.sectionOpeners.map(d=>d.startPage),[9,99,145]);
   const crops=e.documents.filter(d=>d.type==='vegetable');
@@ -68,12 +68,15 @@ test('approved revised Troubles drive downstream folios without changing vegetab
  const {loadReaderGuides}=await import('./lib/approved-reader-integration.mjs');
  const revised=loadApprovedTroubles(),{plan}=createContentsPlan(base,sources,loadApprovedTwoPageGuides().editions,loadReaderGuides(),revised.editions);
  for(const e of Object.values(plan.editions)){
-  assert.equal(e.plannedEvenTotal,174);assert.equal(e.index.startPage,170);assert.equal(e.index.endPage,173);
+  assert.equal(e.plannedEvenTotal,174);assert.equal(e.index.startPage,171);assert.equal(e.index.endPage,174);
   assert.deepEqual(e.sectionOpeners.map(d=>d.startPage),[9,99,147]);
   assert.equal(e.documents.filter(d=>d.type==='trouble').reduce((n,d)=>n+d.physicalPages,0),47);
   assert.ok(e.documents.filter(d=>d.type==='vegetable').every(d=>d.physicalPages===2&&d.startPage%2===0));
   assert.equal(e.documents.filter(d=>d.type==='trouble').reduce((n,d)=>n+Object.keys(d.troublesApprovedReplacement.conditionPages).length,0),220);
-  assert.equal(e.additions.find(d=>d.source==='technique:netting').startPage,162);
-  assert.equal(e.additions.find(d=>d.source==='technique:supports').startPage,164);
+  assert.equal(e.additions.find(d=>d.source==='technique:soil-acidity').startPage,152);
+  assert.equal(e.additions.find(d=>d.source==='technique:watering').startPage,163);
+  assert.deepEqual(e.extraBlanks.map(b=>b.page),[3,6,8,98]);
+  assert.equal(e.additions.find(d=>d.source==='technique:netting').startPage,164);
+  assert.equal(e.additions.find(d=>d.source==='technique:supports').startPage,166);
  }
 });

@@ -90,15 +90,26 @@ identifies every reused PDF and verifies preserved bodies and artwork.
 
 ## Extra opening and Growing Techniques pages
 
+The [Organic growing / Testing and adjusting pH page](../publication/topic-pages/soil-acidity/README.md)
+is **approved and integrated at page 152, 2 November**, superseding the first two-page
+version at John’s request. It inherits the accepted Techniques geometry and
+hierarchy, with a short intro and two panels. [Artwork provenance](../publication/topic-pages/soil-acidity/ARTWORK.json)
+records the unchanged test-kit and lime illustrations, their direct radish/kale
+hero and watering-tool style references, prompts and hashes. The separate pH
+scale is omitted. Copy lives under `src/print/book/soil-acidity/`;
+folio 152 follows Rotation & planning, at the end of Organic growing. The exact
+accepted files are frozen by its approval record. Current placement preserves
+Netting and Supports as facing spreads, with Watering beside Sowing.
+
 The revised **Netting** section is approved by John on 29 October, including its
 two-page composition, copy and seven placed illustrations. The
 [exact approval and source hashes](../publication/topic-pages/plant-protection-supports/netting/APPROVAL.json)
 identify the [accepted source](../publication/topic-pages/plant-protection-supports/netting/README.md)
 and [PDF](../../output/pdf/topic-pages/netting-revised-draft.pdf). Current folios are
-160–161. John approved **Supports** on 30 October, including its final wording,
+162–163. John approved **Supports** on 30 October, including its final wording,
 nine placed illustrations and two-page layout; [exact source hashes](../publication/topic-pages/plant-protection-supports/supports/APPROVAL.json)
 freeze its [source PDF](../../output/pdf/topic-pages/supports-revised-draft.pdf).
-Supports occupies 162–163. Both are integrated, with source bodies and artwork
+Supports occupies 164–165. Both are integrated, with source bodies and artwork
 preserved; the ordered production PDFs remain the earlier physical-proof baseline.
 
 The entire [thirteen-page expansion](../publication/topic-pages/techniques-expansion/REVIEW.html) is approved as complete on 12 October, including its final copy and Organic-second order. The [collection approval](../publication/topic-pages/techniques-expansion/COLLECTION-APPROVAL.json) preserves the final sources and both-unit proofs.
@@ -361,8 +372,8 @@ fix corners and visibility, retaining six instructional illustrations and the
 original captures as references. John approved the final composition on 15 October,
 with all needs rows on the same peach background and no Water stripe.
 The [approval record](../publication/combined-guides-opening/APPROVAL.json) preserves
-the exact PDF, rendered page and layout sources. It is now integrated at right-hand
-page 9, facing blank 8. Shared source copy and all frozen originals remain unchanged.
+the exact PDF, rendered page and layout sources. This earlier version remains
+source evidence; the approved three-panel successor below is now at 9.
 
 The [approved 31 October page-9 revision](../publication/guides-intro-detail/README.md)
 uses three separate peach panels and native difficulty badges above the existing
@@ -370,8 +381,8 @@ approved radish and outdoor tomato heroes (ratings 1 and 3). The latest revision
 removes the third example and restores Low demand / High demand. It retains
 H4 and the calendar/needs illustrations, replacing only the old difficulty
 endpoint art as requested. [Approval](../publication/guides-intro-detail/APPROVAL.json)
-locks its exact PDF, editable layout and asset hashes. Main-book replacement is
-pending the next requested update; the earlier approved source remains intact.
+locks its exact PDF, editable layout and asset hashes. The exact page is integrated
+at 9 in the 2 November book; the earlier approved source remains intact.
 
 ### Bookvault production adaptation — 19 October 2026
 

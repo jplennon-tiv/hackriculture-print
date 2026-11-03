@@ -1,0 +1,16 @@
+@import url('../plant-protection-supports/draft.css');
+body{font-size:13.5px;line-height:1.4}
+header{margin-bottom:5mm}
+h1{margin-bottom:3.5mm}
+h1 span{display:block;margin:1.3mm 0 0;font-size:30px;line-height:1.12}
+.lead{font-size:14px;line-height:1.4}
+.panels{display:grid;gap:5mm}
+.topic-panel{padding:4.5mm 5mm;border-radius:0 12px 0 12px;break-inside:avoid}
+.panel-testing{background:var(--peach)}
+.panel-liming{background:#e3ebc9}
+.topic-panel h2{font-size:23px;margin-bottom:2.5mm}
+.panel-grid{display:grid;grid-template-columns:minmax(0,1fr) 43mm;gap:4mm;align-items:center}
+.panel-grid p+p{margin-top:2.5mm}
+.panel-grid figure{height:33mm;align-self:center}
+.panel-note{margin-top:3mm;padding-top:2.5mm;border-top:.25mm solid #173e2c35;font-weight:700}
+@media screen{main{display:block;min-width:0;width:max-content;padding:16px;margin:auto}.sheet{box-shadow:0 2px 12px #0002}}

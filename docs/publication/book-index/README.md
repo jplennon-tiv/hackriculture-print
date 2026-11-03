@@ -1,11 +1,16 @@
 # Book index
 
 The current index is in the [full preview](../whole-book-order-preview/REVIEW.html#spread=86)
-at **170–173**. It has **297 entries and 35 see references**, four pages at the
+at **171–174**. It has **303 entries and 35 see references**, four pages at the
 approved 9.45 pt reading size. All original terms are retained, plus five approved
 reader-edit entries and eight terms for the nutrient page. The follow-on crops
 entry also links to the two-page rotation spread. The 30 October integration adds
 11 terms for Netting and Supports, and seven crop/problem references.
+
+The 2 November integration adds Acid soil, Alkaline soil, Garden lime, Liming,
+pH, soil, and Soil testing, all pointing to page 152. Clubroot and Common scab
+retain their diagnostic destinations and also link to the new page’s cautions.
+[Guarded save](../whole-book-order-preview/integration-2026-11-02/BOOK-COPY-UPDATE.json).
 
 The [12 October approval](APPROVAL.json) and [standalone review](REVIEW.html) are
 preserved source evidence: 273 entries / 33 see references with historical T/C
@@ -35,8 +40,8 @@ and actual PDF link destinations are verified during integration.
 
 The two-column cream-paper design retains forest-green text, orange references,
 ruled letter headings and mirrored 17/8 mm margins. Short letter groups stay
-together; longer groups use continued headings. The index faces across 170–171
-and 172–173. Full-book links jump to its own pages, including “see” destinations.
+together; longer groups use continued headings. The index begins on right-hand page 171, with 172–173 facing and its final page
+174 facing the inside back cover. Full-book links jump to its own pages, including “see” destinations.
 The current integrated stylesheet narrows the column gap to 7 mm and reduces
 space around letter headings, retaining 9.45 pt type and 1.28 line spacing.
 No frozen approval files or source stylesheets have been overwritten.

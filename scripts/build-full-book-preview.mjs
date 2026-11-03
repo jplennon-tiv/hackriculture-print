@@ -15,7 +15,7 @@ const plan=JSON.parse(fs.readFileSync(path.join(root,'docs/publication/contents-
 run(process.execPath,['scripts/build-book-index.mjs','--plan=docs/publication/contents-update/ASSEMBLY-PROPOSAL.json','--topic-map=docs/publication/contents-update/TOPIC-FOLIOS.json','--review-dir=docs/publication/whole-book-order-preview/index','--output-dir=tmp/pdfs/whole-book-order-preview',`--start-page=${plan.editions.imperial.index.startPage}`,'--integrated','--book-pdf=/output/pdf/whole-book-order-preview/the-vegetable-guru-order-preview.pdf']);
 await buildCategoryLabels();
 const footers=await buildNavigationOverlays({includeHeadings:false});
-fs.writeFileSync(path.join(root,'docs/publication/whole-book-order-preview/integration-2026-10-31/FOOTERS.json'),JSON.stringify(footers,null,2)+'\n');
+fs.writeFileSync(path.join(root,'docs/publication/whole-book-order-preview/integration-2026-11-02/FOOTERS.json'),JSON.stringify(footers,null,2)+'\n');
 run(python,['scripts/integrate-approved-book.py']);
 run(python,['scripts/check-book-navigation.py']);
 run(python,['scripts/review-whole-book-preview.py']);

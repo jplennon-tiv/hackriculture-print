@@ -1,38 +1,38 @@
 {
-  "date": "2026-10-31",
-  "status": "passed for inspected final assembled pages; implementation review of John’s approved changes, not new publication approval",
-  "pdfSha256": "2fdba2be30bfdb278dbc97f6e9b7346d039328ce10b54a4e9f1a206c1d22ae4d",
+  "date": "2026-11-02",
+  "status": "passed for inspected final assembled pages; approved-page integration, not publication approval",
+  "pdfSha256": "1159ad172035bc5942b5586d51aa28634e53d457357bff5e7ff8d044a4753128",
   "interiorPages": 174,
   "pdfPages": 178,
-  "method": "Actual assembled PDF renders inspected; both separate contents editions inspected. Native source comparison verifies all reused bodies, allowing the approved category/title bands and three bounded numeric-reference edits.",
+  "method": "Final actual PDF rendered after native source assembly; affected spreads inspected. All reused bodies compared against exact sources, allowing calculated margin shifts and bounded navigation changes.",
   "spreadFoliosInspected": [
     [
       4,
       5
     ],
     [
-      10,
-      11
+      8,
+      9
     ],
     [
-      98,
-      99
+      152,
+      153
     ],
     [
-      100,
-      101
+      154,
+      155
     ],
     [
-      146,
-      147
+      156,
+      157
     ],
     [
-      148,
-      149
+      158,
+      159
     ],
     [
-      150,
-      151
+      160,
+      161
     ],
     [
       162,
@@ -43,139 +43,43 @@
       165
     ],
     [
+      166,
+      167
+    ],
+    [
       168,
       169
+    ],
+    [
+      170,
+      171
+    ],
+    [
+      172,
+      173
     ]
   ],
   "additionalSingleFoliosInspected": [
-    9,
-    12,
-    132,
-    170,
-    171,
-    172,
-    173
+    174
   ],
-  "allCategoryHeaderFoliosInspected": [
-    10,
-    11,
-    12,
-    13,
-    14,
-    15,
-    16,
-    17,
-    18,
-    19,
-    20,
-    21,
-    22,
-    23,
-    24,
-    25,
-    26,
-    27,
-    28,
-    29,
-    30,
-    31,
-    32,
-    33,
-    34,
-    35,
-    36,
-    37,
-    38,
-    39,
-    40,
-    41,
-    42,
-    43,
-    44,
-    45,
-    46,
-    47,
-    48,
-    49,
-    50,
-    51,
-    52,
-    53,
-    54,
-    55,
-    56,
-    57,
-    58,
-    59,
-    60,
-    61,
-    62,
-    63,
-    64,
-    65,
-    66,
-    67,
-    68,
-    69,
-    70,
-    71,
-    72,
-    73,
-    74,
-    75,
-    76,
-    77,
-    78,
-    79,
-    80,
-    81,
-    82,
-    83,
-    84,
-    85,
-    86,
-    87,
-    88,
-    89,
-    90,
-    91,
-    92,
-    93,
-    94,
-    95,
-    96,
-    97
-  ],
-  "categoryHeaderContacts": [
-    "integration-2026-10-31/category-headers-1.jpg",
-    "integration-2026-10-31/category-headers-2.jpg",
-    "integration-2026-10-31/category-headers-3.jpg",
-    "integration-2026-10-31/category-headers-4.jpg",
-    "integration-2026-10-31/category-headers-5.jpg",
-    "integration-2026-10-31/category-headers-6.jpg",
-    "integration-2026-10-31/category-headers-7.jpg",
-    "integration-2026-10-31/category-headers-8.jpg"
-  ],
-  "approvedCompositionComparison": "integration-2026-10-31/APPROVED-COMPARISONS.json",
+  "sourcePackContactInspected": "output/promotion-source-pack/contact.jpg",
   "findings": [
-    "All 44 alphabetical facing vegetable guides retain their original artwork and page bodies; all 88 larger category labels fit without title collisions. Long practical titles retain their existing smaller sizes.",
-    "Coloured vegetable and Troubles contents entries remain readable. The pale key sits beside the harvest basket on page 5; H5 seedlings is intentionally omitted. Both header illustrations remain.",
-    "The existing how-to page remains intact and contains no rejected colour key.",
-    "The revised Troubles opener and exact approved guide bodies are included. Bean/Pea ribbons, Potato Blight’s Common Disease ribbon and ordinary potato slugs are correct in the inspected integrated pages. Natural trailing space remains on the final Troubles page.",
-    "The Techniques opener remains recto at 147. Netting 162–163 and Supports 164–165 retain their facing layouts.",
-    "The refreshed body references on 149, 151 and 169 fit and match their destinations.",
-    "All four index pages fit at the retained 9.45 pt body size. Long references wrap within their column; no footer collisions observed.",
-    "No missing images, clipped text or new overlaps seen in the inspected pages."
-  ],
-  "limits": [
-    "Full assembly is imperial; both-unit contents and condition/index reference resolution checked independently.",
-    "All 178 pages were rendered, but unchanged bodies were source-compared rather than visually reread in full. The 47-page Troubles set had its own full visual review before John’s approval.",
-    "The accepted 168-page ordered production proof and supplier files remain unchanged."
+    "Approved guide intro at 9 and pH page at 152 match their accepted bodies and illustrations.",
+    "Page-5 contents fit with 1.4 px row padding, retained 10.5 pt type, both header artworks and the pale category key.",
+    "Changed-side Techniques pages preserve 17/8 mm gutters and full cream paper; no white strips remain after mirroring.",
+    "Sowing and Watering face at 162–163; Netting and Supports remain complete facing spreads at 164–167.",
+    "All four index pages fit at 9.45 pt, including new pH/lime entries at 152.",
+    "No missing images, clipped text or new overlaps seen on inspected pages."
   ],
   "checksRun": {
-    "routineSuite": "npm test: 43 passed",
-    "navigationTests": "node --test scripts/book-contents.test.mjs scripts/book-index.test.mjs: 8 passed",
-    "bookCopyValidation": "npm run book:check: 8 JSON files, 83 contents destinations, 297 index entries",
-    "actualPdf": "540 numeric index references and all 574 internal links verified; fonts embedded; source body comparisons passed"
-  }
+    "focusedTests": "17 passed: book contents, index and shared book-copy tests.",
+    "bookCopyValidation": "8 documents valid; 84 contents destinations per edition; 303 index entries.",
+    "actualPdf": "548 numeric index references and 583 internal links verified; fonts embedded and reused source bodies preserved.",
+    "sourcePack": "15 PNGs at 300 dpi, sizes and hashes recorded in the manifest."
+  },
+  "limits": [
+    "Full assembled edition is imperial; both-unit contents and index reference mapping checked, not a complete metric book.",
+    "All pages rendered. Unchanged pages source-compared, not visually reread in full.",
+    "Ordered supplier files remain unchanged. Sixteen crop wording proposals remain unapproved."
+  ]
 }
