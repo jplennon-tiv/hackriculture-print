@@ -1,11 +1,227 @@
 # Current project handover
 
-Updated 3 November 2026: approved contents reflow, sentence-case problem labels and Key risks integrated.
+Updated 5 November 2026. All five sample crops approved. John is reviewing the remaining 39 vegetable spreads one crop at a time.
 This document owns current scope, decisions and next actions. Read README,
 AGENTS and SHARED-DATA first. John's latest instruction takes precedence;
 dated reports and approvals are evidence, not instructions to resume old work.
 
 ## Resume here
+
+**Active edit · crop-by-crop review of the 39-guide set.**
+John approved the five sample guides, including the final Beetroot wording
+“Sow late May–Jul for storage.” Exact approved review versions are recorded for
+[carrot](../publication/sowing-planting-mockups/carrot-revision/APPROVAL.json),
+[leek](../publication/sowing-planting-mockups/leek-revision/APPROVAL.json) and
+[beetroot, potato and outdoor tomato](../publication/sowing-planting-mockups/remaining-three/APPROVAL.json).
+
+John requested the same editorial and layout treatment for the remaining **39**
+vegetables. The [offline proof reader](../publication/sowing-rollout/REVIEW.html)
+shows all 39 facing pairs with their before/after planting text, new timing
+facts, individual PDF proofs and imperial/metric selector. The assembled review
+PDFs are 78 pages per edition. All retain the book folios, existing planting
+artwork and 9 pt planting text. Thirty-one guides keep all pest entries. Eight
+omit one bottom entry each after copy and layout trials. [Scope, omissions and
+checks](../publication/sowing-rollout/README.md) record the exact cuts.
+
+John has detailed notes and wants the full review readers kept available, with
+each amended crop presented as a separate one-off preview. The first is
+[Globe Artichoke](../publication/sowing-rollout/revisions/artichoke_globe/REVIEW.html),
+approved on 5 November. It changes “nutty” to “fine-flavoured”, removes the soil pH/liming
+reference and uses the existing straw-mulch icon for winter protection. Both-unit
+two-page proofs are checked. [Exact scope and evidence](../publication/sowing-rollout/revisions/artichoke_globe/README.md).
+The original full readers and review PDFs are preserved. Continue with John's
+next notes; do not regenerate the collection after each amendment.
+
+The [Jerusalem Artichoke amendment](../publication/sowing-rollout/revisions/artichoke_jerusalem/REVIEW.html)
+is also approved on 5 November. Its [approval record](../publication/sowing-rollout/revisions/artichoke_jerusalem/APPROVAL.json)
+freezes both editions. It adds the requested planting dates and wet-soil qualification
+to Plant tubers, replaces the severe-frost cloche with the straw-mulch icon, removes
+the general acidity qualification and rebalances Quick facts. Both units remain
+two pages with all three pest entries. [Scope and checks](../publication/sowing-rollout/revisions/artichoke_jerusalem/README.md).
+Eighteen amendments through Cucumber, Greenhouse are approved; the other 21
+crops in this set remain for individual review. Cucumber, Outdoor is the current
+amendment: reuse the approved Courgettes and Marrows fruit-on-board icon for its
+first Final tip, with the usual Quick facts and pH checks.
+
+The [Asparagus amendment](../publication/sowing-rollout/revisions/asparagus/REVIEW.html)
+is approved on 5 November, with its [exact approval record](../publication/sowing-rollout/revisions/asparagus/APPROVAL.json).
+Its three planting drawings are bottom-aligned by their
+visible artwork, superseding the centre-alignment trial; captions remain level.
+John likes the rebalanced Quick facts, which are retained. A second variety row
+adds researched book-only entries Pacific Purple, Mondeo and Guelph Millennium
+to use the spare space on page 1. The three existing varieties, original prose,
+artwork, four pest entries and two-page structure remain. John explicitly requests
+retention of the existing lime reference. Canonical gardening data is unchanged.
+[Scope and checks](../publication/sowing-rollout/revisions/asparagus/README.md).
+
+The [Aubergine amendment](../publication/sowing-rollout/revisions/aubergine/REVIEW.html)
+is approved on 5 November, with its [exact approval record](../publication/sowing-rollout/revisions/aubergine/APPROVAL.json).
+Plant out now begins “Wait until the soil is warm before
+planting.” Quick facts are regrouped under the standing crop-review rule, and the
+general soil-acidity sentence is removed. Both editions retain two pages, the
+original drawings and six selected pest entries; the prior Flea beetle omission
+is unchanged. [Scope and checks](../publication/sowing-rollout/revisions/aubergine/README.md).
+
+The [Broad Bean amendment](../publication/sowing-rollout/revisions/bean_broad/REVIEW.html)
+is approved on 5 November, with its [exact approval record](../publication/sowing-rollout/revisions/bean_broad/APPROVAL.json).
+Soil & preparation now explicitly says to choose sunny,
+moisture-retentive, well-drained ground and avoid where beans grew last year.
+The general lime/pH sentence is removed under the standing rule. The existing
+Quick facts arrangement fits and is retained. Both units remain two pages with
+all eight pest entries. [Scope and checks](../publication/sowing-rollout/revisions/bean_broad/README.md).
+
+The [French Bean amendment](../publication/sowing-rollout/revisions/bean_french/REVIEW.html)
+is approved on 5 November, with its [exact approval record](../publication/sowing-rollout/revisions/bean_french/APPROVAL.json). Birds in Key risks now gives examples of pigeon damage to
+seedlings/leaves and crows taking seeds or uprooting young plants, supported by
+focused research where the mixed-crop source lacked a French-bean match. The
+routine liming sentence is removed. The existing Quick facts grouping, all seven
+pest entries and two-page structure remain. [Scope, sources and checks](../publication/sowing-rollout/revisions/bean_french/README.md).
+
+The [Runner Bean amendment](../publication/sowing-rollout/revisions/bean_runner/REVIEW.html)
+is approved on 5 November at 22–23, with its [exact approval record](../publication/sowing-rollout/revisions/bean_runner/APPROVAL.json). John explicitly requested research and a canonical
+update for the missing yield, then conversion to a 10 ft row. The new Quick fact
+now reads **Yield (10 ft single row): Between 15–30 lb.**, with metric
+**Yield (3 m single row): Between 7–14 kg.**, following John’s shorter wording.
+The canonical seasonal/climbing-type qualifications and research are retained. It is a derived planning estimate from
+per-plant evidence and the existing spacing, not a measured row yield. The
+[save receipt](../publication/sowing-rollout/revisions/bean_runner/SAVE-RECEIPT.json)
+preserves exact previous bytes and scoped provenance. Existing layout approval
+and its old source signature remain intact and correctly stale; the separate
+compact amendment is now approved. All ten Quick facts fit after regrouping, the routine lime sentence
+is removed only in print, and both two-page editions retain all eight pests.
+[Scope, sources and checks](../publication/sowing-rollout/revisions/bean_runner/README.md).
+Fourteen of the 39 individual amendments are now approved.
+
+The [Leaf Beet amendment](../publication/sowing-rollout/revisions/beet_leaf/REVIEW.html)
+is approved on 5 November at 24–25, with its [exact approval record](../publication/sowing-rollout/revisions/beet_leaf/APPROVAL.json). The introduction now says “grown for leaves and
+stems”. Its own canonical record contains two additional problems, Bolting and
+Downy mildew; their existing crop-specific signs and controls are added verbatim
+to the table, retaining the original three rows. All five distinct source
+entries now appear, in rank order. Page 2’s trailing gap falls from 28.91 mm
+to 11.96 mm without artificial spacing. Quick facts are rebalanced, and the
+routine soil pH/liming sentence is removed; the specific manganese-deficiency
+diagnostic remains. Both-unit two-page proofs retain the artwork and four
+varieties. [Sources and checks](../publication/sowing-rollout/revisions/beet_leaf/README.md).
+Canonical data, approved crops, full readers and the main book are unchanged.
+
+The [Broccoli amendment](../publication/sowing-rollout/revisions/broccoli/REVIEW.html)
+is approved on 5 November at 28–29, with its [exact approval record](../publication/sowing-rollout/revisions/broccoli/APPROVAL.json). The last Harvesting & storage paragraph now opens
+“For overwintering sprouting broccoli, pick the main spear first”, making its
+subject explicit while retaining the picking advice and seasonal qualifications.
+The generic soil liming phrase is removed; the club-root-specific test-before-liming
+advice stays. All nine Quick facts, four varieties, six selected pest rows and
+original drawings remain. Both-unit two-page proofs are checked.
+[Scope and checks](../publication/sowing-rollout/revisions/broccoli/README.md).
+
+The [Brussels Sprouts amendment](../publication/sowing-rollout/revisions/brussels_sprouts/REVIEW.html)
+is approved on 5 November at 30–31, with its [exact approval record](../publication/sowing-rollout/revisions/brussels_sprouts/APPROVAL.json). The nine Quick facts
+already fit well and are retained. “Lime acid soil if needed” is removed from
+Soil & preparation; the specific club-root test-before-liming advice remains.
+All other content, four varieties, six selected pest rows and artwork stay
+unchanged, including the previously recorded Blown sprouts table omission.
+Both two-page editions are checked. [Scope and evidence](../publication/sowing-rollout/revisions/brussels_sprouts/README.md).
+
+The [Cabbage amendment](../publication/sowing-rollout/revisions/cabbage/REVIEW.html)
+is approved on 5 November at 32–33, with its [exact approval record](../publication/sowing-rollout/revisions/cabbage/APPROVAL.json). Its nine Quick facts retain their existing
+arrangement. Generic liming references are removed from the reminder banner and
+Soil & preparation; specific club-root advice remains. All six varieties, seven
+selected pest rows and original drawings are preserved. Both editions are checked.
+[Scope and evidence](../publication/sowing-rollout/revisions/cabbage/README.md).
+
+The [Capsicum amendment](../publication/sowing-rollout/revisions/capsicum/REVIEW.html)
+is approved on 5 November at 34–35, with its [exact approval record](../publication/sowing-rollout/revisions/capsicum/APPROVAL.json). The longer Sow indoors fact moves into
+the wider column, retaining all nine facts and improving wrapping in both units.
+No routine pH or liming references were present, so all gardening copy remains
+unchanged. The two-page proofs retain five varieties, nine selected pest rows
+and both original planting drawings. [Scope and checks](../publication/sowing-rollout/revisions/capsicum/README.md).
+
+The [Cauliflower amendment](../publication/sowing-rollout/revisions/cauliflower/REVIEW.html)
+is approved on 5 November at 38–39, with its [exact approval record](../publication/sowing-rollout/revisions/cauliflower/APPROVAL.json). Its nine Quick facts use a consistent
+five/four arrangement in both units: Ready in spans the left-hand column, with
+seasonal timings and spacing in the wider right-hand column. The generic
+acidity/liming instruction is removed; specific club-root, boron-deficiency and
+whiptail controls stay. Five varieties, ten selected pests and the original
+artwork remain. [Scope and checks](../publication/sowing-rollout/revisions/cauliflower/README.md).
+
+The [Celeriac amendment](../publication/sowing-rollout/revisions/celeriac/REVIEW.html)
+is approved on 5 November at 40–41, with its [exact approval record](../publication/sowing-rollout/revisions/celeriac/APPROVAL.json). The three planting illustrations share
+a visible bottom edge, using the established alignment method with original
+artwork and sizes retained. Quick facts move Planting depth to the wider column;
+all nine facts and other wording remain. No routine pH/liming references needed
+removal. Both two-page editions retain four varieties and all nine pests.
+[Scope and checks](../publication/sowing-rollout/revisions/celeriac/README.md).
+
+The [Celery amendment](../publication/sowing-rollout/revisions/celery/REVIEW.html)
+is approved on 5 November at 42–43, with its [exact approval record](../publication/sowing-rollout/revisions/celery/APPROVAL.json). Row spacing is **3 ft / 1 metre**, as John requested;
+three imperial primary-data strings were corrected with an exact backup and
+[save receipt](../publication/sowing-rollout/revisions/celery/SAVE-RECEIPT.json).
+Metric advice stays unchanged. Choose convenient practical measurements in each
+unit independently; the editing guidance records this preference. Final tips
+now use approved gloves and slug artwork; Quick facts are regrouped and the
+generic anti-liming aside is removed in print. Both editions retain four varieties,
+four pests and all safety advice. Historical canonical companion approvals stay
+preserved but stale; do not replay the completed save or refresh their signatures.
+[Scope and checks](../publication/sowing-rollout/revisions/celery/README.md).
+
+The [Chicory amendment](../publication/sowing-rollout/revisions/chicory/REVIEW.html)
+is approved on 5 November at 44–45, with its [exact approval record](../publication/sowing-rollout/revisions/chicory/APPROVAL.json). Sowing & planting expands into a wider column with
+three illustrated forcing steps. They replace the generic sow/thin drawings in
+this approved revision; originals remain intact. Soil/care/harvest are tightened and
+forcing advice moves out of care. Final tips keeps the two John selected, with
+an opaque-bucket icon replacing the cloche. Both editions retain all five pest
+rows, four varieties and normal type; footer gaps are 10.05 / 3.75 mm. Quick facts
+are regrouped and routine pH removed. Canonical Chicory is unchanged.
+[Copy, research, artwork and checks](../publication/sowing-rollout/revisions/chicory/README.md).
+
+The [Courgettes and Marrows amendment](../publication/sowing-rollout/revisions/marrow_courgette/REVIEW.html)
+is approved on 5 November, folios 46–47, with its [exact approval record](../publication/sowing-rollout/revisions/marrow_courgette/APPROVAL.json). “One plant” is capitalised; Soil & preparation
+explains the source's 12 in. / 30 cm planting pocket, with a new central cutaway
+beside the retained sowing picture. John's follow-up replaces the generic final
+picture with a transplant entering the enriched pocket; all three drawings are
+aligned by their visible bases, with level captions. Soil item 2 ends with his
+later addition: “For No-Dig, just make a low mound of compost; don't dig down.”
+Final tips gains marrow-on-board and
+compost-bin icons. Slug control uses John's exact greased-collar wording.
+Repeated soil advice and the pollination sentence are tightened; all three
+planting methods, harvest/safety wording, ten facts and five varieties remain.
+John removes the Bitterness table row as neither a pest nor a disease, leaving
+six entries; the harvesting warning to discard bitter fruit is retained. Metric sowing-depth values stay with their units. Both actual
+two-page PDFs fit with 5.70 mm practical-page footer clearance, using 51:49
+columns and the original planting-paragraph gaps. No canonical
+data, approved crop, full review or main-book file is replaced.
+[Changes, artwork and checks](../publication/sowing-rollout/revisions/marrow_courgette/README.md).
+
+The [Cucumber, Greenhouse amendment](../publication/sowing-rollout/revisions/cucumber_greenhouse/REVIEW.html)
+is approved on 5 November, folios 48–49, with its [exact approval record](../publication/sowing-rollout/revisions/cucumber_greenhouse/APPROVAL.json). Looking after the crop adds a short identification
+sentence: female flowers have a tiny cucumber behind the petals; males have a
+thin stalk. Existing variety-specific handling and seed-packet qualifications
+remain. John's requested Slugs and snails table row is removed; the other seven
+selected rows and the original Withering of young fruit omission remain.
+All eight Quick facts are regrouped for width; no routine pH/liming wording occurs.
+Both two-page editions retain four varieties and all original artwork, with
+14.12 / 6.78 mm footer gaps. Canonical data and all approved proofs are unchanged.
+[Sources and checks](../publication/sowing-rollout/revisions/cucumber_greenhouse/README.md).
+
+The [Cucumber, Outdoor amendment](../publication/sowing-rollout/revisions/cucumber_outdoor/REVIEW.html)
+is pending review, folios 50–51. The first Final tip reuses the exact approved
+Courgettes and Marrows fruit-on-board icon, replacing the cloche. All wording,
+ten Quick facts, four varieties and eight selected pest rows remain. The original
+Poor fruit set omission is unchanged. Quick facts fit as they are and no routine
+pH/liming occurs. Both actual PDFs retain 3.36 / 6.32 mm footer gaps.
+[Scope and checks](../publication/sowing-rollout/revisions/cucumber_outdoor/README.md).
+
+John also approved the improved Globe Artichoke Quick facts arrangement and asks
+for the same attention on every crop as it is reviewed. Remove pH/liming references
+from vegetable instructions unless there is a definite crop-specific need,
+consistent with never liming routinely. The [editing guidance](../publication/sowing-planting-mockups/CROP-EDITING-NOTES.md)
+owns these rules. The earlier sixteen pH wording proposals are historical
+comparison material, superseded by this stricter brief; do not install them as a batch.
+
+Next: John’s review of these 39 proposed spreads and individual amendments. The main 176-page interior and
+the approved guide derivatives are separate. Main-book installation is a later
+step. Keep the [editorial guidance](../publication/sowing-planting-mockups/CROP-EDITING-NOTES.md).
+The future Techniques page on clump growing, earlier research and provisional diagrams,
+and the late-sown leek research question retain their previous status.
 
 **Latest contents and heading corrections approved and integrated, 3 November.**
 John approved the basket beneath the left column and the full-width four-column
@@ -32,7 +248,7 @@ fonts, line breaks, descriptions, illustrations and page positions are preserved
 No further shared-data save was needed. Detailed Troubles chapter titles
 were already consistent and are unchanged. The page count and navigation remain
 176 interior / 180 PDF pages. This case-only correction is not authority for
-further source rewrites; the pending pH wording proposals remain unapproved.
+further source rewrites; current crop-specific pH edits follow the 5 November brief above.
 
 **Approved turf page integrated after Digging at 162.** John approved the
 [one-page Cultivation addition](../publication/topic-pages/lifting-and-using-turf/APPROVAL.json)
@@ -70,9 +286,10 @@ closing card with the slide music is installed; the **5:52** edit is saved in 4K
 source checks and the separate filmed ending. Promotional work does not edit
 the book or constitute publication approval.
 
-**Still awaiting review:** [sixteen wording edits across twelve vegetable guides](../publication/soil-acidity-crop-edits/DIFF.html).
-Both-unit crop proofs are checked, but these proposals are **not integrated or
-approved**. No canonical gardening advice changed. The page-7 Introduction rewrite,
+**Historical pH comparison:** [sixteen wording edits across twelve vegetable guides](../publication/soil-acidity-crop-edits/DIFF.html).
+These checked proposals were never approved or integrated. John's 5 November
+direction to remove routine pH/liming mentions supersedes their retention policy;
+apply the new rule as each crop is reviewed. No canonical gardening advice changed. The page-7 Introduction rewrite,
 collected detail corrections and final publication preparation also remain open.
 Laboratory confirmation remains excluded. Ordered supplier files are unchanged.
 

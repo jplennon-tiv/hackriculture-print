@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-05",
+  "status": "For John’s review",
+  "baselinePdfSha256": {
+    "imperial": "950dc343e2a9f8ac24d1d31d50345c1ef357e5dafdf38ebc94f41862be6725da",
+    "metric": "2341e888a57a154193ed2354d2dd7c6d0ff3795a9323147a164eb12b19d2936b"
+  },
+  "edits": [
+    {
+      "selector": ".key-risks article:nth-child(4) p",
+      "before": "Birds can be a nuisance in several ways.",
+      "after": "Pigeons can eat seedlings and peck young leaves. Crows may dig up seeds or pull out young plants."
+    },
+    {
+      "selector": ".soil li:first-child",
+      "before": " Lime only if too acid.",
+      "after": ""
+    }
+  ],
+  "sourceNote": "Canonical troubles.Birds gives examples mainly for peas, broad beans and runner beans, not an exact French-bean match. Focused online sources support the new examples after local-source checks; see the linked research note. Canonical data is unchanged.",
+  "sources": [
+    "https://www.notcutts.co.uk/garden-advice/how-to-guides/grow-your-own/how-to-grow-your-own-french-beans",
+    "https://www.rhs.org.uk/biodiversity/pigeons",
+    "https://teagasc.ie/media/website/publications/2020/A-Guide-to-Vegetable-Growing---9th-Edition.pdf",
+    "https://extension.umd.edu/resource/vegetable-seedlings-or-transplants-are-damaged-eaten-or-fall-over"
+  ],
+  "quickFactsNote": "Existing six-short/three-long arrangement checked and retained; all nine facts fit."
+}

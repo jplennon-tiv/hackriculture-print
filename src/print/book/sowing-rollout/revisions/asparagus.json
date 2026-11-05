@@ -1,0 +1,63 @@
+{
+  "date": "2026-11-05",
+  "status": "For John’s review",
+  "baselinePdfSha256": {
+    "imperial": "ceb3a2d4de7e5cfebeedafe34388b1d1f2d87b2c7b3780769c05684ba7fdf7a9",
+    "metric": "622eaf935b4e967b1f28ad07be8754f339b710f634c8c814ebb0d520f05bf1b2"
+  },
+  "factColumns": [
+    [
+      "Harvest",
+      "Seed depth",
+      "Yield per mature plant",
+      "Plant spacing",
+      "Plant crowns"
+    ],
+    [
+      "Row spacing",
+      "Ready in",
+      "From seed"
+    ]
+  ],
+  "factWidths": [
+    54,
+    46
+  ],
+  "edits": [],
+  "keepLimeReference": "John explicitly requested retention of the existing lime reference for Asparagus.",
+  "artworkSha256": {
+    "public/images/planting/asparagus/prepare-mound-v1.png": "7ec98d2888c0bc0843eb3adc8205d9a82a6c500d6da29e92b27928941c277146",
+    "public/images/planting/asparagus/spread-roots-v1.png": "de9279053dabaf6d73fdb3aff563437a963bf20e8d5970faa6e58193dbf48f0e",
+    "public/images/planting/asparagus/initial-cover-v1.png": "d6552666bbb527483c8f2da4e5f9428c931720cdbfa8dd16cff4ddc9afa6ce4e"
+  },
+  "wideFacts": [
+    "Plant crowns"
+  ],
+  "plantingImageAlignment": "bottom",
+  "additionalVarieties": [
+    {
+      "name": "Pacific Purple",
+      "text": "Tender purple spears with a sweet flavour. The colour fades with cooking; try them lightly steamed or raw in salads.",
+      "sources": [
+        "https://www.rhs.org.uk/plants/239708/asparagus-officinalis-pacific-purple/details",
+        "https://www.rhsplants.co.uk/plants/_/asparagus-pacific-purple/classid.2000007613/"
+      ]
+    },
+    {
+      "name": "Mondeo",
+      "text": "An all-male hybrid with good yields of green spears, especially early in the season. A useful alternative to Gijnlim.",
+      "sources": [
+        "https://www.rhs.org.uk/plants/319393/asparagus-officinalis-mondeo/details",
+        "https://www.thompson-morgan.com/p/asparagus-spring-planting-collection/wkh6904TM"
+      ]
+    },
+    {
+      "name": "Guelph Millennium",
+      "text": "A cold-tolerant, all-male Canadian hybrid producing green spears. A useful option for a colder garden, provided the soil drains well.",
+      "sources": [
+        "https://www.rootsplants.co.uk/products/guelph-millennium-asparagus-plant",
+        "https://www.westcoastseeds.com/collections/perennials/products/guelph-millennium"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-05",
+  "status": "For John’s review",
+  "baselinePdfSha256": {
+    "imperial": "27c239959fa33cb38794eba91fd33f89da31c84caf8b3d628e654bc4620b1962",
+    "metric": "31808205b74509373ab91ac57ab669d895685dcee93a774982b71b9ebad4b80e"
+  },
+  "edits": [
+    {
+      "selector": ".soil li:first-child",
+      "before": "Sun; moist, drained soil without last year’s beans. Lime very acid soil to pH 6.5.",
+      "after": "Choose a sunny spot with moisture-retentive, well-drained soil. Avoid ground where beans grew last year."
+    }
+  ],
+  "sourceNote": "The rewrite preserves canonical soil_facts.0.text (moisture retention/drainage) and soil_facts.1.text (sun and no beans the previous year). The general lime/pH instruction is removed under John’s standing crop-review guidance. No master change.",
+  "quickFactsNote": "Existing six-short/three-long arrangement checked and retained; all nine facts fit."
+}

@@ -82,6 +82,12 @@ Below: full introduction; compact illustrated Quick Facts with short values
 grouped beside longer qualifications; calendar beside Core Needs; ranked
 varieties and Key Risks. Retain the approved information richness.
 
+John approved the [Globe Artichoke Quick facts refinement](publication/sowing-rollout/revisions/artichoke_globe/APPROVAL.json)
+on 5 November and requests the same attention as each vegetable is reviewed.
+Rebalance short facts and longer qualifications, adjusting column widths and
+placement for comfortable wrapping while retaining the facts, icons and type size.
+This is a crop-by-crop refinement, not a fixed layout to impose across the set.
+
 ## Vegetable continuation
 
 The frozen reference uses **Growing & harvesting** and the three-part reminder
@@ -94,6 +100,12 @@ the original guide proofs and ordinary exporter are unchanged. Omit the redundan
 “crop / Growing Guide” line. Keep two practical-advice columns, illustrated
 planting instructions, the useful pest table and **full-width Final Tips**.
 Use the practical-title and section-heading roles in the shared type hierarchy.
+Allow clear space between the category, practical title and reminder banner.
+For a crowded vegetable spread, prune unnecessary text and adjust the advice
+and table column widths first, with the title and “See also” footer in place.
+Only if the full ranked Pests & diseases table still fails to fit may the bottom
+entry be removed. Remeasure after each removal and stop once both editions fit.
+Keep the rest in order and record the omissions for that crop.
 
 The displayed Kale summaries and measurement consolidations are part of the
 approved specimen. [Source-matched copy](publication/book-pilot/page-two-copy.mjs)

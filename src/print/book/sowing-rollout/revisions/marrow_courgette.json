@@ -1,0 +1,83 @@
+{
+  "date": "2026-11-05",
+  "status": "For John’s review",
+  "composition": "courgette-pocket-v1",
+  "baselinePdfSha256": {
+    "imperial": "e1ce7375dd0076b56d2b02b2dc3dac819c52ffff480635cde7a229fdbc9ef6d0",
+    "metric": "a9865a1c7f653827038f6c16373aefe8b2e2196338f26c52ca0a0c499bda1162"
+  },
+  "edits": [
+    {
+      "selector": ".fact-grid article:has(img[src$=\"/plant_spacing.svg\"]) p",
+      "before": "one plant per prepared pocket or station",
+      "after": "One plant per prepared pocket or station"
+    },
+    {
+      "selector": ".soil li:nth-child(1)",
+      "before": " Prepare compost-rich planting pockets.",
+      "after": ""
+    },
+    {
+      "selector": ".pests tbody tr:first-child td:last-child",
+      "before": "Protect establishment; inspect and hand-pick in damp weather.",
+      "after": "Protect transplants with greased collars made of cardboard or sectioned plastic bottles."
+    },
+    {
+      "selector": ".tips > div:nth-of-type(1) img",
+      "attribute": "src",
+      "before": "/images/coloured-icons/style-a-v1/protection.svg",
+      "after": "/images/planting/marrow_courgette/revision-v1/marrow-on-board.svg",
+      "alt": "Marrow resting on a board"
+    },
+    {
+      "selector": ".tips > div:nth-of-type(2) img",
+      "attribute": "src",
+      "before": "/images/coloured-icons/style-a-v1/harvest.svg",
+      "after": "/images/planting/marrow_courgette/revision-v1/compost-remains.svg",
+      "alt": "Healthy plant remains going into a compost bin"
+    },
+    {
+      "unit": "imperial",
+      "selector": ".soil li:nth-child(2)",
+      "before": "Mulch generously and leave enough room for the chosen bush or trailing type. Avoid poorly drained ground.",
+      "after": "A pocket is a hole about 12 in. deep and wide. Refill with soil mixed with mature compost or well-rotted manure, leaving a slight mound. For No-Dig, just make a low mound of compost; don't dig down."
+    },
+    {
+      "unit": "metric",
+      "selector": ".soil li:nth-child(2)",
+      "before": "Mulch generously and leave enough room for the chosen bush or trailing type. Avoid poorly drained ground.",
+      "after": "A pocket is a hole about 30 cm deep and wide. Refill with soil mixed with mature compost or well-rotted manure, leaving a slight mound. For No-Dig, just make a low mound of compost; don't dig down."
+    },
+    {
+      "selector": ".care li:nth-child(2)",
+      "before": "Let insects reach the flowers. If fruit fails to set, transfer pollen from a male flower to the centre of a female flower, recognisable by the tiny fruit behind it.",
+      "after": "Let insects reach the flowers. If fruit fails to set, transfer pollen from a male to the centre of a female flower (with the tiny fruit behind)."
+    },
+    {
+      "selector": ".planting .compact-sequence figure:last-child img",
+      "attribute": "src",
+      "before": "/images/planting/marrow_courgette/plant-one-strong-plant-v1.png",
+      "after": "/images/planting/marrow_courgette/revision-v1/plant-into-pocket.png",
+      "alt": "Courgette transplant being planted into a compost-enriched pocket, shown in cutaway."
+    }
+  ],
+  "plantingArt": [
+    "/images/planting/marrow_courgette/sow-on-edge-v1.png",
+    "/images/planting/marrow_courgette/revision-v1/prepared-pocket.png",
+    "/images/planting/marrow_courgette/revision-v1/plant-into-pocket.png"
+  ],
+  "sourceNote": "Pockets explanation follows exact canonical soil_facts[2], sowing_and_planting.pocket_depth and pocket_width. John’s supplied slug-control sentence is used verbatim in the working print draft. No primary-data edits. Original sowing drawing retained; the final transplant drawing is replaced at John’s request by a matching planting-into-pocket cutaway. All three illustrations align at their visible bases. The separate prepared-pocket cutaway and two new native SVG icons remain proposed. Original artwork is preserved. The later No-Dig sentence is John's exact requested addition to Soil & preparation item 2 (with a closing full stop). Six pest rows remain after John explicitly removes Bitterness from the table; harvesting safety advice and all fact values remain, apart from initial capital O. Pocket definition sits in Soil & preparation, immediately above its cutaway in Sowing & planting. Repeated mulch/drainage/room wording is covered by care, the first soil item, spacing facts and planting advice. The pollination sentence is shortened while retaining the flower centre and female-fruit identification. No harvest or safety wording changes.",
+  "assetSha256": {
+    "public/images/planting/marrow_courgette/revision-v1/prepared-pocket.png": "047309df2a9c4b70115782c334d35f66afbb6098c7c4e64356719206b92d0b6d",
+    "public/images/planting/marrow_courgette/revision-v1/marrow-on-board.svg": "223e05a9bf33bb9174ca156f9a7900f7d16e2d4994027a07bc9692b64c31ed9a",
+    "public/images/planting/marrow_courgette/revision-v1/compost-remains.svg": "4058178e1786cb40fddd9733f3969b1104979c850e07dd70cf234a9935b44f78",
+    "public/images/planting/marrow_courgette/revision-v1/plant-into-pocket.png": "bde7a8d1f3f467950dd7d568a6d6f4e40596394487732b24efca56b537ae00cf"
+  },
+  "plantingImageAlignment": "bottom",
+  "excludedPests": [
+    {
+      "name": "Bitterness",
+      "reason": "John removes it from Pests & diseases because it is neither a pest nor a disease. The Harvesting & storage warning to discard unusually bitter fruit is retained."
+    }
+  ]
+}

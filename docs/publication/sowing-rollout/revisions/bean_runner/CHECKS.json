@@ -1,0 +1,70 @@
+{
+  "imperial": {
+    "onlyAddedYieldAndPrintLimeRemoval": true,
+    "allOtherFrontWordsPreserved": true,
+    "methodsVarietiesPestsArtworkAndNavigationPreserved": true,
+    "yieldRecoveredFromPrintedBounds": true,
+    "facts": 10,
+    "varieties": 5,
+    "pests": 8,
+    "pdfPages": 2,
+    "folios": [
+      "22",
+      "23"
+    ],
+    "gapsMm": [
+      3.69,
+      7.94
+    ],
+    "latestEditOnlyYieldDisplayWording": true
+  },
+  "metric": {
+    "onlyAddedYieldAndPrintLimeRemoval": true,
+    "allOtherFrontWordsPreserved": true,
+    "methodsVarietiesPestsArtworkAndNavigationPreserved": true,
+    "yieldRecoveredFromPrintedBounds": true,
+    "facts": 10,
+    "varieties": 5,
+    "pests": 8,
+    "pdfPages": 2,
+    "folios": [
+      "22",
+      "23"
+    ],
+    "gapsMm": [
+      3.69,
+      7.94
+    ],
+    "latestEditOnlyYieldDisplayWording": true
+  },
+  "exactCanonicalBackupAndCurrentHashVerified": true,
+  "allUnrelatedCanonicalFieldsAndApprovalStatesPreserved": true,
+  "sixApprovedCropDerivativesUnchanged": true,
+  "fullReviewPdfsAndMainBookUnchanged": true,
+  "tests": {
+    "command": "npx vitest run src/lib/facts.test.ts src/data.integrity.test.ts",
+    "passed": 26,
+    "scope": "Run for the preceding yield-data addition; this wording-only follow-up uses both-unit PDF/content/preservation checks."
+  },
+  "visualReview": "Both final PDF spreads re-inspected after the short wording edit: the single-row labels, all ten facts, drawings, five varieties, eight pests and See also remain readable and unclipped.",
+  "reader": {
+    "editions": {
+      "imperial": {
+        "allReaderLinks200": true,
+        "tenFactsPresent": true
+      },
+      "metric": {
+        "allReaderLinks200": true,
+        "tenFactsPresent": true
+      }
+    },
+    "noBrowserErrors": true
+  },
+  "latestWordingEdit": {
+    "date": "2026-11-05",
+    "imperial": "Between 15\u201330 lb.",
+    "metric": "Between 7\u201314 kg.",
+    "canonicalRecordUnchanged": true,
+    "bothPrintedYieldFactsVerified": true
+  }
+}

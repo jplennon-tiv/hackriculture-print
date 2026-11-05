@@ -1,0 +1,104 @@
+{
+  "date": "2026-11-05",
+  "actor": "admin-correction: John requested Celery trench-row spacing rounded to 3 ft, retaining 1 metre in metric, on 5 November 2026; source update by AI:Codex",
+  "authorisation": "Round 3 ft 3 in. to 3 ft in row spacing and primary data; user subsequently specified retaining 1 metre, choosing memorable measurements independently for each unit.",
+  "result": {
+    "changed": 1,
+    "revision": "51b3607638001eff46bbed54d1816b997f06f400d2bfec59a2ffbbc634d535e4"
+  },
+  "backup": "/Users/johnlennon/Documents/web_site/hackriculture-data/backups/admin/2026-11-05T21-02-32.811Z-e0a2b464-cc02-4621-aae3-bdc4b856fb84",
+  "record": "/Users/johnlennon/Documents/web_site/hackriculture-data/vegetables/celery/celery.json",
+  "beforeSha256": "37f4b8f45a74a5d93d6a64fa2512d16780fa4c9ecda9f215aa2ccfa13d762caf",
+  "afterSha256": "0bc33666a29fa1c804097c8d5b6628b218c60c138d1f920af188900f49edad6f",
+  "changedContentPaths": [
+    "soil_facts.3.text.imperial",
+    "soil_facts.3.short_text.imperial",
+    "sowing_and_planting.row_spacing.imperial"
+  ],
+  "exactPreviousBytesVerified": true,
+  "metricAdviceUnchanged": true,
+  "unrelatedFieldsAndApprovalStatesPreserved": true,
+  "validation": "GardeningDataSchema before/after; changed-path equality; ranked soil fields; exact previous-byte backup; print companion and historical metadata equality.",
+  "dependencies": {
+    "before": {
+      "layoutDependencies": {
+        "name": "fnv1a64:9fd52b4e49e6eac3",
+        "image": "fnv1a64:b9f42e8f494130d1",
+        "image_thumbnail": "fnv1a64:5b9bc4ba528108e4",
+        "ease_of_cultivation": "fnv1a64:e15d2a46579da3b0",
+        "hero_header": "fnv1a64:3decff66c4c50485",
+        "difficulty": "fnv1a64:af63a84c86019430",
+        "introduction": "fnv1a64:e3de2d2e1124462e",
+        "soil_facts": "fnv1a64:8046942325e0f32c",
+        "looking_after_the_crop": "fnv1a64:126e824dc0b8dba0",
+        "harvesting": "fnv1a64:33104192af4d425c",
+        "in_the_kitchen": "fnv1a64:138dd9c7212c4906",
+        "varieties": "fnv1a64:849c75aa123b64ad",
+        "troubles": "fnv1a64:b89b1a6eca5d68ce",
+        "calendar": "fnv1a64:c64477eb38d1d75b",
+        "troubles_detail": "fnv1a64:29c44c1a16b4fba2",
+        "category": "fnv1a64:3ccfaacd43108bc5",
+        "seed_and_growing_facts": "fnv1a64:655f0c85ccdaa893",
+        "sowing_and_planting": "fnv1a64:9ed10a72d05c9410",
+        "key_notes": "fnv1a64:22fb6a9699f9f724",
+        "yield": "fnv1a64:e9de25ea01d427cb",
+        "time_to_harvest": "fnv1a64:fd6c9fa12ce52071",
+        "core_needs": "fnv1a64:44fdd40f259fe850",
+        "print_planting": "fnv1a64:c7ed4713ccd2b407"
+      },
+      "layout": {
+        "layout": {
+          "pest_limit": 4,
+          "target_pages": 2,
+          "tips_position": "left-column",
+          "align_bottoms": true,
+          "intro_sentences": 5,
+          "variety_count": 4,
+          "fill_bottoms": true
+        },
+        "warning": null
+      },
+      "extractWarnings": [],
+      "plantingIssue": null
+    },
+    "after": {
+      "layoutDependencies": {
+        "name": "fnv1a64:9fd52b4e49e6eac3",
+        "image": "fnv1a64:b9f42e8f494130d1",
+        "image_thumbnail": "fnv1a64:5b9bc4ba528108e4",
+        "ease_of_cultivation": "fnv1a64:e15d2a46579da3b0",
+        "hero_header": "fnv1a64:3decff66c4c50485",
+        "difficulty": "fnv1a64:af63a84c86019430",
+        "introduction": "fnv1a64:e3de2d2e1124462e",
+        "soil_facts": "fnv1a64:045154f587785d30",
+        "looking_after_the_crop": "fnv1a64:126e824dc0b8dba0",
+        "harvesting": "fnv1a64:33104192af4d425c",
+        "in_the_kitchen": "fnv1a64:138dd9c7212c4906",
+        "varieties": "fnv1a64:849c75aa123b64ad",
+        "troubles": "fnv1a64:b89b1a6eca5d68ce",
+        "calendar": "fnv1a64:c64477eb38d1d75b",
+        "troubles_detail": "fnv1a64:29c44c1a16b4fba2",
+        "category": "fnv1a64:3ccfaacd43108bc5",
+        "seed_and_growing_facts": "fnv1a64:655f0c85ccdaa893",
+        "sowing_and_planting": "fnv1a64:f30a1980223977c2",
+        "key_notes": "fnv1a64:22fb6a9699f9f724",
+        "yield": "fnv1a64:e9de25ea01d427cb",
+        "time_to_harvest": "fnv1a64:fd6c9fa12ce52071",
+        "core_needs": "fnv1a64:44fdd40f259fe850",
+        "print_planting": "fnv1a64:c7ed4713ccd2b407"
+      },
+      "layout": {
+        "layout": null,
+        "warning": "Vegetable saved layout: layout source changed; automatic fitting used."
+      },
+      "extractWarnings": [
+        "key_notes: source changed; existing source rendering used.",
+        "soil_facts: source changed; existing source rendering used.",
+        "sowing_notes: source changed; existing source rendering used.",
+        "final_tips: source changed; existing source rendering used."
+      ],
+      "plantingIssue": null
+    }
+  },
+  "notes": "Only three imperial source strings plus automatic leaf attribution changed. Historical normalisation metadata and print companion approvals/signatures remain preserved; affected companions report stale source truthfully. The compact proof is a separately source-bound review derivative."
+}

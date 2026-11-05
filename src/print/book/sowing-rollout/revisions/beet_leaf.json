@@ -1,0 +1,64 @@
+{
+  "date": "2026-11-05",
+  "status": "For John’s review",
+  "baselinePdfSha256": {
+    "imperial": "2400a03313b0b0703656f00969366ac5fd1dbb7688a8ae26f52950d4e23b28df",
+    "metric": "3c8801f668ae0fd857075c9998889bfc8f81b4a857500bd9204ebcc26c5a9ca9"
+  },
+  "edits": [
+    {
+      "selector": ".intro",
+      "before": "grown for leaves, not swollen roots",
+      "after": "grown for leaves and stems"
+    },
+    {
+      "selector": ".soil li:first-child",
+      "before": " Check pH before liming; about 6.5 suits the crop.",
+      "after": ""
+    }
+  ],
+  "factColumns": [
+    [
+      "Harvest",
+      "Germination",
+      "Sowing depth",
+      "Row spacing",
+      "{Yield (10 ft row)~Yield (3 m row)}"
+    ],
+    [
+      "Sow",
+      "Plant spacing",
+      "Ready in"
+    ]
+  ],
+  "factWidths": [
+    52,
+    48
+  ],
+  "additionalPests": [
+    {
+      "name": "Bolting",
+      "before": "Slugs",
+      "signs": "Flower stems rise; leaf production declines.",
+      "control": "Remove early flower stems; replace plants once flowering persists.",
+      "rank": 10,
+      "sourcePaths": [
+        "troubles.Bolting.signs",
+        "troubles.Bolting.control"
+      ]
+    },
+    {
+      "name": "Downy mildew",
+      "before": "Manganese deficiency",
+      "signs": "Yellow patches above; grey-purple mould below.",
+      "control": "Remove diseased leaves; thin promptly and improve drainage.",
+      "rank": 7,
+      "sourcePaths": [
+        "troubles.Downy mildew.signs",
+        "troubles.Downy mildew.control"
+      ]
+    }
+  ],
+  "sourceNote": "Five distinct entries exist in the canonical Leaf Beet record; the old print selection showed only Slugs, Manganese deficiency and Leaf spot. Add the Leaf Beet-specific Bolting and Downy mildew wording verbatim from this crop record, not the true-spinach advice in the shared group. Preserve all three original rows and their relative order; insert the two additions by source rank. Canonical data remains unchanged.",
+  "pHNote": "Remove the routine soil pH/liming instruction under John’s standing rule. Retain the diagnostic pH check and warning against over-liming under Manganese deficiency, where it has a specific purpose."
+}

@@ -1,0 +1,36 @@
+{
+  "date": "2026-11-05",
+  "status": "For John’s review",
+  "baselinePdfSha256": {
+    "imperial": "8e29c6db5b8d4e37a23868e47dba43c7cad1d8ad0204e18c5d76418639a5f424",
+    "metric": "36025d1d0a2f9c633ad02f3676a1f677a4bda2b90d9a089fb08117940be320b4"
+  },
+  "edits": [],
+  "factColumns": [
+    [
+      "Harvest",
+      "Germination",
+      "Sow indoors",
+      "Row spacing",
+      "Yield ({10 ft~3 m} row)",
+      "Plant spacing"
+    ],
+    [
+      "Planting depth",
+      "Ready in",
+      "Plant out"
+    ]
+  ],
+  "factWidths": [
+    50,
+    50
+  ],
+  "plantingImageAlignment": "bottom",
+  "artworkSha256": {
+    "public/images/planting/celeriac/surface-sow-v1.png": "da433146a1fa29f0cce470cb130ca2e81f0eed4b80ba306cc003f6a328eb28b1",
+    "public/images/planting/celeriac/grow-on-v1.png": "1b0b16e876774c4807947dc1e7b05e522aa3b0badb3980f90f59fa2968134af5",
+    "public/images/planting/celeriac/crown-clear-v1.png": "94b777a0eea3a4a26809b06ce2074e9b8cd82eeec93e4877b7ec0844bc97c80f"
+  },
+  "quickFactsNote": "Move the longer Planting depth text to the wider right-hand column and the shorter Plant spacing fact into the left-hand grid. Retain all nine facts, exact wording and icons, with the same arrangement in both editions.",
+  "sourceNote": "John requested the visible bases of the three Sowing & planting illustrations to align. Reuse the established bottom-alignment method, preserving original artwork and painted sizes. The standing Quick facts review improves grouping; no routine pH/liming references occur in the spread, so no gardening copy is removed. All four varieties, nine selected pests and original wording remain. Canonical data unchanged."
+}

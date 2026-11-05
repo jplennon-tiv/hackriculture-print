@@ -1,0 +1,67 @@
+{
+  "date": "2026-11-05",
+  "status": "For John’s review",
+  "baselinePdfSha256": {
+    "imperial": "f9c8c8c8a0325a8079c3ff559fe297104f591213ae39186282ce4d178d14ccc3",
+    "metric": "9e2c3ba75b60de545779bba16311920a137a94cdf823ebd201d3caa9afcb60a1"
+  },
+  "sourceUpdate": {
+    "beforeSha256": "37f4b8f45a74a5d93d6a64fa2512d16780fa4c9ecda9f215aa2ccfa13d762caf",
+    "afterSha256": "0bc33666a29fa1c804097c8d5b6628b218c60c138d1f920af188900f49edad6f",
+    "receipt": "docs/publication/sowing-rollout/revisions/celery/SAVE-RECEIPT.json"
+  },
+  "edits": [
+    {
+      "unit": "imperial",
+      "selector": ".fact-grid article:has(img[src$=\"/row_spacing.svg\"]) p",
+      "before": "3 ft 3 in.",
+      "after": "3 ft"
+    },
+    {
+      "selector": ".soil li:nth-child(1)",
+      "before": "; do not lime routinely",
+      "after": ""
+    },
+    {
+      "selector": ".tips > div:nth-of-type(1) img",
+      "attribute": "src",
+      "before": "/images/coloured-icons/style-a-v1/protection.svg",
+      "after": "/images/coloured-icons/style-a-v1/gloves.svg",
+      "alt": "Gardening gloves"
+    },
+    {
+      "selector": ".tips > div:nth-of-type(2) img",
+      "attribute": "src",
+      "before": "/images/coloured-icons/style-a-v1/protection.svg",
+      "after": "/images/key-risk-icons/naturalistic-v3/slug.png",
+      "alt": "Slug"
+    }
+  ],
+  "factColumns": [
+    [
+      "Harvest",
+      "Germination",
+      "Yield ({10 ft~3 m} row)",
+      "Plant out",
+      "Sow indoors"
+    ],
+    [
+      "Sowing depth",
+      "Row spacing",
+      "Plant spacing",
+      "Ready in"
+    ]
+  ],
+  "factWidths": [
+    42,
+    58
+  ],
+  "wideFacts": [
+    "Sow indoors"
+  ],
+  "iconSha256": {
+    "public/images/coloured-icons/style-a-v1/gloves.svg": "d9246d07c4219b6fa81d9ddd2706767848d2889a295c892beb2d79fa710a8c98",
+    "public/images/key-risk-icons/naturalistic-v3/slug.png": "0860a239c9aee58ed96f08a346bd1d7fa8b337240df3749aabd2e462fc466c87"
+  },
+  "sourceNote": "John requested 3 ft trench-row spacing in imperial and explicitly retained 1 m in metric: choose convenient, memorable values for each unit rather than exact conversions. Only three imperial master strings were corrected with exact backup. Final tips reuse the approved gloves and slug artwork; both cloche icons are replaced. Improve Quick facts grouping and remove the generic anti-liming aside only in print; all safety advice, other prose, four varieties and four selected pest rows remain."
+}

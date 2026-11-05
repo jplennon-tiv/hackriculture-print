@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-05",
+  "status": "For John’s review",
+  "baselinePdfSha256": {
+    "imperial": "c63d5979f8cf602d6e3ef65e58462fcd44f84aa4ab5b9ece65e60290f076cca5",
+    "metric": "2416f420fa59753e5710a669420af1544ddc525bac0fa6e0dfd6e9ffba6e535a"
+  },
+  "edits": [
+    {
+      "selector": ".intro",
+      "before": "distinctive, nutty crop",
+      "after": "distinctive, fine-flavoured crop"
+    },
+    {
+      "selector": ".soil li:nth-child(2)",
+      "before": "Work compost or well-rotted manure deeply into soil. Test before liming to pH 6.5; mulch.",
+      "after": "Work compost or well-rotted manure deeply into soil. Mulch."
+    },
+    {
+      "selector": ".tips > div:last-child img",
+      "attribute": "src",
+      "before": "/images/coloured-icons/style-a-v1/protection.svg",
+      "after": "/images/coloured-icons/style-a-v1/mulching.svg",
+      "alt": "Loose straw mulch around a plant"
+    }
+  ]
+}

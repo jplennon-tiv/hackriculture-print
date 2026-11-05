@@ -1,0 +1,52 @@
+/* Isolated mock-ups. Approved book/A4 styles and data remain unchanged. */
+@page{size:185mm 240mm;margin:0}
+body{margin:0}
+.sowing-review .sheet{position:relative!important;top:0!important;left:0!important}
+.sowing-review .sheet>header>.eyebrow{visibility:hidden!important}
+.mock-category{position:absolute;top:5.8mm;left:var(--left);font:900 10pt/1 'Nunito Sans';color:var(--deep);letter-spacing:.2px}
+.mock-title{position:absolute;left:var(--left);top:9mm;width:138mm}
+.sowing-review .mock-title h1{position:static!important;margin:0!important;white-space:nowrap;letter-spacing:0!important;line-height:1.08!important}
+.sowing-review footer{display:flex;align-items:baseline;gap:3mm;letter-spacing:.7px;font-weight:900;line-height:1.4}
+.sowing-review footer .section-label,.sowing-review footer .folio{white-space:nowrap}
+.sowing-review footer .folio{margin-left:auto}
+.sowing-review .sheet.verso footer{flex-direction:row}
+.sowing-review .sowing-proposal{padding:8px 10px!important;margin-top:8px!important}
+.sowing-review .sowing-proposal:first-child{margin-top:0!important}
+.sowing-review .sowing-method{margin-top:8px;break-inside:avoid;display:flow-root}
+.sowing-review .sowing-method h3{font:900 13px/1.15 'Nunito Sans';margin:0 0 4px;color:var(--deep)}
+.sowing-review .sowing-method p{font:400 12px/1.26 'Nunito Sans';margin:0!important}
+.sowing-review .method-art{display:flex;gap:7px;margin:0 0 4px;align-items:center;justify-content:center}
+.sowing-review .method-art img{display:block;min-width:0;width:100%;height:63px;object-fit:contain;mix-blend-mode:multiply}
+.sowing-review .clump-diagram{float:right;width:86px;margin:0 0 3px 6px;text-align:center}
+.sowing-review .clump-diagram img{display:block;width:100%;height:63px}
+.sowing-review .clump-diagram figcaption{font:800 10px/1.15 'Nunito Sans';margin-top:3px}
+.sowing-review .growing-columns{align-items:start}
+.sowing-review .growing-columns section+section{margin-top:9px!important}
+.sowing-review .calendar .month-row{grid-template-columns:57px repeat(12,1fr)}
+.sowing-review .calendar p{font-size:9.4px!important;line-height:1.2}
+.sowing-review .calendar .planting-time span.usual{background:#d7e8b1}
+.sowing-review .mock-continuation .mock-title{top:9mm}
+.sowing-review .mock-continuation .mock-title h1{font-size:25pt!important}
+.sowing-review .three-page-sowing .full-soil{margin:12px 0 14px!important}
+.sowing-review .three-page-sowing .full-soil ol{columns:2;column-gap:34px;margin:6px 0 0;padding-left:16px}
+.sowing-review .three-page-sowing .full-soil li{font:400 12px/1.24 'Nunito Sans';padding-left:1px;break-inside:avoid;margin-bottom:3px}
+.sowing-review .three-page-sowing .method-columns{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.sowing-review .three-page-sowing .sowing-proposal{margin-top:0!important;padding:12px 12px 14px!important}
+.sowing-review .three-page-sowing .sowing-method{margin-top:12px}
+.sowing-review .three-page-sowing .sowing-method h3{font-size:14px;margin-bottom:5px}
+.sowing-review .three-page-sowing .method-art img{height:100px}
+.sowing-review .three-page-sowing .clump-diagram{float:none;width:100%;margin:0 0 8px}
+.sowing-review .three-page-sowing .clump-diagram img{height:100px}
+.sowing-review .three-page-sowing .clump-diagram figcaption{font-size:11px}
+.sowing-review .mock-continuation .growing-columns{margin-top:12px!important;grid-template-columns:1fr 1fr!important}
+.sowing-review .mock-continuation .harvest{margin-top:0!important}
+.sowing-review .mock-continuation .pests{margin-top:16px!important}
+.sowing-review .compact-sequence{display:flex;gap:6px;margin-top:6px}
+.sowing-review .compact-sequence figure{margin:0;flex:1;min-width:0;text-align:center}
+.sowing-review .compact-sequence img{width:100%;height:52px;object-fit:contain;mix-blend-mode:multiply}
+.sowing-review .compact-sequence figcaption{font:800 10px/1.15 'Nunito Sans'}
+.sowing-review .front.tight-opening .quick,.sowing-review .front.tight-opening .year-needs,.sowing-review .front.tight-opening .varieties,.sowing-review .front.tight-opening .key-risks{margin-top:5px!important}
+.sowing-review .front.tight-opening .varieties{padding-top:6px!important;padding-bottom:6px!important}
+.sowing-review .front.tight-opening .key-risks{margin-top:4px!important}
+.sowing-review .fact-grid .new-action-fact{grid-template-columns:1fr}
+.sowing-review .preparation-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-bottom:3px}

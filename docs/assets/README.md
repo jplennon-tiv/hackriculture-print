@@ -189,6 +189,24 @@ protects the four reference proofs, source snapshots, layout files, palette inpu
 and diagnostic artwork dependencies. Keep these references during cleanup;
 the detailed diagnostic illustrations remain part of the design.
 
+The [Chicory forcing revision](../publication/sowing-rollout/revisions/chicory/README.md)
+is approved on 5 November: three instructional scenes replace its generic sow/thin
+strip, and an opaque-bucket icon replaces the cloche in Final tips. The
+[approval](../publication/sowing-rollout/revisions/chicory/APPROVAL.json) binds the
+new PNG, editable SVG, composition and both-unit proofs; the
+[artwork record](../publication/sowing-rollout/revisions/chicory/ARTWORK.json)
+retains the built-in generation prompt and direct planting-style reference.
+Original Chicory drawings remain intact. This is the approved one-off working
+spread, awaiting later main-book integration.
+
+The [Courgettes and Marrows revision](../publication/sowing-rollout/revisions/marrow_courgette/README.md)
+is approved on 5 November. Its two pocket cutaways, marrow-on-board and compost-bin
+icons are approved as placed, with the three planting drawings bottom-aligned.
+The [approval](../publication/sowing-rollout/revisions/marrow_courgette/APPROVAL.json)
+binds copy, artwork, composition and both proofs; the [artwork record](../publication/sowing-rollout/revisions/marrow_courgette/ARTWORK.json)
+retains prompts and direct references. The original generic transplant picture
+remains intact. The approved working spread awaits later main-book integration.
+
 Active coloured icons: 36 Style-A SVG/PNG pairs under
 `public/images/coloured-icons/style-a-v1/`. All approved by John on 23 September.
 [Hashes](COLOURED-SET-APPROVAL.json).

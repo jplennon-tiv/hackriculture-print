@@ -1,0 +1,36 @@
+{
+  "date": "2026-11-05",
+  "actor": "admin-correction: John requested researched Runner Bean yield per 10 ft row on 5 November 2026; source update by AI:Codex",
+  "authorisation": "Research and update missing yield, then add to page; subsequently express as yield per 10 ft row.",
+  "result": {
+    "changed": 1,
+    "revision": "1c7c2cbb5b0eb4865a72db55dc7bc44a95a8c7b0e5a7ae0dde26fc547ec32646"
+  },
+  "backup": "/Users/johnlennon/Documents/web_site/hackriculture-data/backups/admin/2026-11-05T19-58-08.766Z-4fadebf3-b0a5-4642-a5b5-cc9204bc85b1",
+  "record": "/Users/johnlennon/Documents/web_site/hackriculture-data/vegetables/bean_runner/bean_runner.json",
+  "beforeSha256": "317a0f1d7ce936680fdbaa80119c02ae5f1841766800280515d6151252fc0f43",
+  "afterSha256": "d4652f7409687189e284be49c5b76f16b00c5f75265781d8fdae3acf90f00683",
+  "changedContentPaths": [
+    "yield.by_variety.climbing.per_10_ft_row",
+    "metadata.yield_research"
+  ],
+  "exactPreviousBytesVerified": true,
+  "unrelatedFieldsAndApprovalStatesPreserved": true,
+  "layoutDependency": {
+    "imperial": {
+      "label": "Yield (10 ft row)",
+      "value": "About 15–30 lb of fresh pods per season (climbing types, single row)"
+    },
+    "metric": {
+      "label": "Yield (3 m row)",
+      "value": "About 6.8-13.6 kg of fresh pods per season (climbing types, single row)"
+    },
+    "previousYieldDependency": "fnv1a64:98c3015481ecd63a",
+    "currentYieldDependency": "fnv1a64:11dbb7de149c90de",
+    "layout": {
+      "layout": null,
+      "warning": "Vegetable saved layout: layout source changed; automatic fitting used."
+    }
+  },
+  "notes": "The saved layout keeps its historical approved state and stale source hash. New copy and compact layout are pending John’s review; no master layout approval is conferred."
+}

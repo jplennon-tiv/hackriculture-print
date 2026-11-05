@@ -1,0 +1,118 @@
+{
+  "status": "Passed; unresolved two-page fit recorded separately",
+  "checks": [
+    {
+      "key": "carrot",
+      "unit": "imperial",
+      "pages": 3,
+      "sha256": "33a1104ca5ccc51360d227126a189d00c35ca364b9bc00719b9ab234851ae49f",
+      "paragraphsVerified": 3,
+      "minFooterGapMm": 14.56,
+      "mainTypePt": 9,
+      "twoPageShortfallMm": 7.4
+    },
+    {
+      "key": "beetroot",
+      "unit": "imperial",
+      "pages": 2,
+      "sha256": "c4865d6f0c85b7ff3f440d99c2cbf75c4bf4082d2d99642e42e79b6bd63fc107",
+      "paragraphsVerified": 2,
+      "minFooterGapMm": 9.58,
+      "mainTypePt": 9,
+      "twoPageShortfallMm": 0
+    },
+    {
+      "key": "leek",
+      "unit": "imperial",
+      "pages": 3,
+      "sha256": "ba748c3a4f753eeb5c2caf0e8ddc87c867e291b6e64354af43c83dcd892d0c2f",
+      "paragraphsVerified": 3,
+      "minFooterGapMm": 8.31,
+      "mainTypePt": 9,
+      "twoPageShortfallMm": 9.0
+    },
+    {
+      "key": "tomato_outdoor",
+      "unit": "imperial",
+      "pages": 3,
+      "sha256": "1db780a236172e3109c932cb27a967f4f2333e668c5193c25e23ad0556a6250f",
+      "paragraphsVerified": 4,
+      "minFooterGapMm": 3.63,
+      "mainTypePt": 9,
+      "twoPageShortfallMm": 23.4
+    },
+    {
+      "key": "potato",
+      "unit": "imperial",
+      "pages": 3,
+      "sha256": "c4374668f65cfcf600742715ee74ff818e5a925c96e101e04567c5f73c1c4dff",
+      "paragraphsVerified": 4,
+      "minFooterGapMm": 3.72,
+      "mainTypePt": 9,
+      "twoPageShortfallMm": 25.6
+    },
+    {
+      "key": "carrot",
+      "unit": "metric",
+      "pages": 3,
+      "sha256": "2654a689b2e19a384387f4d022f1a6e2131ea98a2d94730a0a0f1435c8815eaa",
+      "paragraphsVerified": 3,
+      "minFooterGapMm": 14.56,
+      "mainTypePt": 9,
+      "twoPageShortfallMm": 7.4
+    },
+    {
+      "key": "beetroot",
+      "unit": "metric",
+      "pages": 2,
+      "sha256": "7e3f0a4cdb37ee1f3011a223ac1e33bfdb2a50161c08589003a2d1d8487805d0",
+      "paragraphsVerified": 2,
+      "minFooterGapMm": 9.58,
+      "mainTypePt": 9,
+      "twoPageShortfallMm": 0
+    },
+    {
+      "key": "leek",
+      "unit": "metric",
+      "pages": 3,
+      "sha256": "f43e687bf0a22eac8ed898b95afd5476886e1f57c00c494d3ac55fcaa23cb0e6",
+      "paragraphsVerified": 3,
+      "minFooterGapMm": 4.37,
+      "mainTypePt": 9,
+      "twoPageShortfallMm": 9.0
+    },
+    {
+      "key": "tomato_outdoor",
+      "unit": "metric",
+      "pages": 3,
+      "sha256": "393550aa29e3676d8e88e54a941b843ae41e6a85ce43ae36643136f3c6c41bc8",
+      "paragraphsVerified": 4,
+      "minFooterGapMm": 3.63,
+      "mainTypePt": 9,
+      "twoPageShortfallMm": 23.4
+    },
+    {
+      "key": "potato",
+      "unit": "metric",
+      "pages": 3,
+      "sha256": "b886b311602c6997447ce56a3c7eeb12213abb9a1a1fdf8cd4294035352ff88c",
+      "paragraphsVerified": 4,
+      "minFooterGapMm": 3.72,
+      "mainTypePt": 9,
+      "twoPageShortfallMm": 25.6
+    }
+  ],
+  "outputs": [
+    {
+      "path": "output/pdf/sowing-planting-mockups/conventional/five-crop-conventional-imperial.pdf",
+      "pages": 14,
+      "sha256": "e7ae5194ae8ec8ca803aa01da26ebbfcdd4cafb7fe5280ca6aef9711852c14d6"
+    },
+    {
+      "path": "output/pdf/sowing-planting-mockups/conventional/five-crop-conventional-metric.pdf",
+      "pages": 14,
+      "sha256": "60a172aaa150120172738f5b99e8110757f4fd7c7c57d1d137fb3d97a8cbf264"
+    }
+  ],
+  "protectedInputsUnchanged": true
+}

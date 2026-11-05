@@ -117,14 +117,20 @@ changing a data structure or write route.
 - Research summaries preserve exact authoritative JSON measurements. When a
   separate dimension-editing task or lower-tier advice allows it, round practical
   dimensions to easy numbers where useful (approximately
-  10–15% either way can be acceptable), retaining coherent metric/imperial pairs,
-  crop context and clear row/plant/clump meanings. Do not apply this tolerance to
+  10–15% either way can be acceptable), retaining practical metric/imperial pairs,
+  crop context and clear row/plant/clump meanings. John prefers easy-to-remember values chosen independently in each unit
+  (5 November: Celery **3 ft / 1 m**); do not force an exact conversion when
+  the other unit already has a convenient value. Do not apply this tolerance to
   temperatures, pH, treatment quantities or biological limits. Preserve timings,
   alternative methods and qualifying advice when condensing.
 - Pest tables select distinct useful crop-applicable problems before measuring.
   No fixed row quota or first-overflow cutoff as final curation. Merge duplicate
   labels, condense table prose while preserving full advice, then remeasure and
-  inspect actual PDFs in both units. Record why useful candidates were omitted.
+  inspect actual PDFs in both units. For a crowded compact vegetable spread, John
+  permits trimming the selected table from the bottom one row at a time as a
+  last resort, after pruning unnecessary text and trying column widths with
+  the full table, title and “See also” footer in place. Stop when both editions fit. Record
+  why useful candidates were omitted.
 - Gardening JSON lives only in `../hackriculture-data/`. Never recreate mirrors.
   Preserve keyed objects, unknown fields, ranked text, unit pairs and cyclic
   `--MM` values. Keep types, Zod schemas and admin validation aligned; reuse

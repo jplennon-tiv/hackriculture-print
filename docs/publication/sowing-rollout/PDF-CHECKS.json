@@ -1,0 +1,1492 @@
+{
+  "outputs": {
+    "imperial": {
+      "path": "output/pdf/sowing-rollout/vegetable-guides-review-imperial.pdf",
+      "pages": 78,
+      "crops": 39,
+      "sha256": "40885c64b157d3f1d4883fbb983d5c4d48964c5366160c216e974ff91f547810"
+    },
+    "metric": {
+      "path": "output/pdf/sowing-rollout/vegetable-guides-review-metric.pdf",
+      "pages": 78,
+      "crops": 39,
+      "sha256": "364329d6d3bc5283a40ccb4b648431862dd1949573e954b206d599efa1e98cfa"
+    }
+  },
+  "proofs": [
+    [
+      {
+        "key": "artichoke_globe",
+        "unit": "imperial",
+        "pdf": "output/pdf/sowing-rollout/individual/artichoke_globe-imperial.pdf",
+        "sha256": "c63d5979f8cf602d6e3ef65e58462fcd44f84aa4ab5b9ece65e60290f076cca5",
+        "gaps": [
+          3.81,
+          8.81
+        ],
+        "retained": 6,
+        "omitted": [
+          "Petal blight"
+        ],
+        "facts": 3,
+        "methods": 2,
+        "links": []
+      },
+      {
+        "key": "artichoke_globe",
+        "unit": "metric",
+        "pdf": "output/pdf/sowing-rollout/individual/artichoke_globe-metric.pdf",
+        "sha256": "2416f420fa59753e5710a669420af1544ddc525bac0fa6e0dfd6e9ffba6e535a",
+        "gaps": [
+          3.26,
+          8.81
+        ],
+        "retained": 6,
+        "omitted": [
+          "Petal blight"
+        ],
+        "facts": 3,
+        "methods": 2,
+        "links": []
+      }
+    ],
+    [
+      {
+        "key": "artichoke_jerusalem",
+        "unit": "imperial",
+        "pdf": "output/pdf/sowing-rollout/individual/artichoke_jerusalem-imperial.pdf",
+        "sha256": "d57db9e74329b3fecd3e3320a3cb144aab01e0cff08ca81d7f0ba3dea22ea6ac",
+        "gaps": [
+          25.53,
+          6.17
+        ],
+        "retained": 3,
+        "omitted": [],
+        "facts": 1,
+        "methods": 1,
+        "links": []
+      },
+      {
+        "key": "artichoke_jerusalem",
+        "unit": "metric",
+        "pdf": "output/pdf/sowing-rollout/individual/artichoke_jerusalem-metric.pdf",
+        "sha256": "b2ac68460f3c0788b3529d8f8542e28da82a6286b351e38155b792d2e229c9f1",
+        "gaps": [
+          25.53,
+          6.17
+        ],
+        "retained": 3,
+        "omitted": [],
+        "facts": 1,
+        "methods": 1,
+        "links": []
+      }
+    ],
+    [
+      {
+        "key": "asparagus",
+        "unit": "imperial",
+        "pdf": "output/pdf/sowing-rollout/individual/asparagus-imperial.pdf",
+        "sha256": "ceb3a2d4de7e5cfebeedafe34388b1d1f2d87b2c7b3780769c05684ba7fdf7a9",
+        "gaps": [
+          25.79,
+          7.06
+        ],
+        "retained": 4,
+        "omitted": [],
+        "facts": 2,
+        "methods": 2,
+        "links": []
+      },
+      {
+        "key": "asparagus",
+        "unit": "metric",
+        "pdf": "output/pdf/sowing-rollout/individual/asparagus-metric.pdf",
+        "sha256": "622eaf935b4e967b1f28ad07be8754f339b710f634c8c814ebb0d520f05bf1b2",
+        "gaps": [
+          25.79,
+          7.06
+        ],
+        "retained": 4,
+        "omitted": [],
+        "facts": 2,
+        "methods": 2,
+        "links": []
+      }
+    ],
+    [
+      {
+        "key": "aubergine",
+        "unit": "imperial",
+        "pdf": "output/pdf/sowing-rollout/individual/aubergine-imperial.pdf",
+        "sha256": "3b47c29f19933ffc564aeae0a21c6d6bc6304423dd7492fb2c6a5f3f712c98e2",
+        "gaps": [
+          14.71,
+          3.28
+        ],
+        "retained": 6,
+        "omitted": [
+          "Flea beetle"
+        ],
+        "facts": 2,
+        "methods": 3,
+        "links": [
+          152
+        ]
+      },
+      {
+        "key": "aubergine",
+        "unit": "metric",
+        "pdf": "output/pdf/sowing-rollout/individual/aubergine-metric.pdf",
+        "sha256": "7cff6d7c449cc83964b14c67d0e1d72f5df54135b9111735d388b3d7aca0ada6",
+        "gaps": [
+          10.77,
+          3.28
+        ],
+        "retained": 6,
+        "omitted": [
+          "Flea beetle"
+        ],
+        "facts": 2,
+        "methods": 3,
+        "links": [
+          152
+        ]
+      }
+    ],
+    [
+      {
+        "key": "bean_broad",
+        "unit": "imperial",
+        "pdf": "output/pdf/sowing-rollout/individual/bean_broad-imperial.pdf",
+        "sha256": "27c239959fa33cb38794eba91fd33f89da31c84caf8b3d628e654bc4620b1962",
+        "gaps": [
+          5.78,
+          5.25
+        ],
+        "retained": 8,
+        "omitted": [],
+        "facts": 2,
+        "methods": 2,
+        "links": [
+          102,
+          153,
+          168
+        ]
+      },
+      {
+        "key": "bean_broad",
+        "unit": "metric",
+        "pdf": "output/pdf/sowing-rollout/individual/bean_broad-metric.pdf",
+        "sha256": "31808205b74509373ab91ac57ab669d895685dcee93a774982b71b9ebad4b80e",
+        "gaps": [
+          5.78,
+          5.25
+        ],
+        "retained": 8,
+        "omitted": [],
+        "facts": 2,
+        "methods": 2,
+        "links": [
+          102,
+          153,
+          168
+        ]
+      }
+    ],
+    [
+      {
+        "key": "bean_french",
+        "unit": "imperial",
+        "pdf": "output/pdf/sowing-rollout/individual/bean_french-imperial.pdf",
+        "sha256": "950dc343e2a9f8ac24d1d31d50345c1ef357e5dafdf38ebc94f41862be6725da",
+        "gaps": [
+          6.45,
+          3.07
+        ],
+        "retained": 7,
+        "omitted": [],
+        "facts": 2,
+        "methods": 2,
+        "links": [
+          102
+        ]
+      },
+      {
+        "key": "bean_french",
+        "unit": "metric",
+        "pdf": "output/pdf/sowing-rollout/individual/bean_french-metric.pdf",
+        "sha256": "2341e888a57a154193ed2354d2dd7c6d0ff3795a9323147a164eb12b19d2936b",
+        "gaps": [
+          6.45,
+          3.07
+        ],
+        "retained": 7,
+        "omitted": [],
+        "facts": 2,
+        "methods": 2,
+        "links": [
+          102
+        ]
+      }
+    ],
+    [
+      {
+        "key": "bean_runner",
+        "unit": "imperial",
+        "pdf": "output/pdf/sowing-rollout/individual/bean_runner-imperial.pdf",
+        "sha256": "bde872c3fe9974aea8302d7c76ba6a2598159e2f996b609417366177cd33ddb4",
+        "gaps": [
+          3.69,
+          4
+        ],
+        "retained": 8,
+        "omitted": [],
+        "facts": 3,
+        "methods": 3,
+        "links": [
+          102
+        ]
+      },
+      {
+        "key": "bean_runner",
+        "unit": "metric",
+        "pdf": "output/pdf/sowing-rollout/individual/bean_runner-metric.pdf",
+        "sha256": "36c451745a263077fbace595c6dcaccfb4fe26a5d07752dd8468793647b903b2",
+        "gaps": [
+          3.69,
+          4
+        ],
+        "retained": 8,
+        "omitted": [],
+        "facts": 3,
+        "methods": 3,
+        "links": [
+          102
+        ]
+      }
+    ],
+    [
+      {
+        "key": "beet_leaf",
+        "unit": "imperial",
+        "pdf": "output/pdf/sowing-rollout/individual/beet_leaf-imperial.pdf",
+        "sha256": "2400a03313b0b0703656f00969366ac5fd1dbb7688a8ae26f52950d4e23b28df",
+        "gaps": [
+          6.12,
+          28.91
+        ],
+        "retained": 3,
+        "omitted": [],
+        "facts": 1,
+        "methods": 1,
+        "links": [
+          139,
+          152
+        ]
+      },
+      {
+        "key": "beet_leaf",
+        "unit": "metric",
+        "pdf": "output/pdf/sowing-rollout/individual/beet_leaf-metric.pdf",
+        "sha256": "3c8801f668ae0fd857075c9998889bfc8f81b4a857500bd9204ebcc26c5a9ca9",
+        "gaps": [
+          6.12,
+          28.91
+        ],
+        "retained": 3,
+        "omitted": [],
+        "facts": 1,
+        "methods": 1,
+        "links": [
+          139,
+          152
+        ]
+      }
+    ],
+    [
+      {
+        "key": "broccoli",
+        "unit": "imperial",
+        "pdf": "output/pdf/sowing-rollout/individual/broccoli-imperial.pdf",
+        "sha256": "259e60658a67b152be9a2afbedca6fa1fc5404564d1a2ab42afcfcba890950da",
+        "gaps": [
+          3.42,
+          14.69
+        ],
+        "retained": 6,
+        "omitted": [],
+        "facts": 2,
+        "methods": 2,
+        "links": [
+          108,
+          152
+        ]
+      },
+      {
+        "key": "broccoli",
+        "unit": "metric",
+        "pdf": "output/pdf/sowing-rollout/individual/broccoli-metric.pdf",
+        "sha256": "b2f9958eef8208a4ea87b423dd1b87a2ae088bbb9fe10f64c0e2c4c48f2a4259",
+        "gaps": [
+          3.42,
+          14.69
+        ],
+        "retained": 6,
+        "omitted": [],
+        "facts": 2,
+        "methods": 2,
+        "links": [
+          108,
+          152
+        ]
+      }
+    ],
+    [
+      {
+        "key": "brussels_sprouts",
+        "unit": "imperial",
+        "pdf": "output/pdf/sowing-rollout/individual/brussels_sprouts-imperial.pdf",
+        "sha256": "de5710dd735523c6f037abf7c170affbab6567c0dab4f9ec9358e2a26d1d3f2a",
+        "gaps": [
+          7.16,
+          10.66
+        ],
+        "retained": 6,
+        "omitted": [
+          "Blown sprouts"
+        ],
+        "facts": 2,
+        "methods": 2,
+        "links": [
+          108,
+          152,
+          169
+        ]
+      },
+      {
+        "key": "brussels_sprouts",
+        "unit": "metric",
+        "pdf": "output/pdf/sowing-rollout/individual/brussels_sprouts-metric.pdf",
+        "sha256": "ea5dd7bb2924dc7c4ce7aa48c1c3dfa3b1dc2c76743a9dd6c1f0014097a796d3",
+        "gaps": [
+          7.16,
+          10.66
+        ],
+        "retained": 6,
+        "omitted": [
+          "Blown sprouts"
+        ],
+        "facts": 2,
+        "methods": 2,
+        "links": [
+          108,
+          152,
+          169
+        ]
+      }
+    ],
+    [
+      {
+        "key": "cabbage",
+        "unit": "imperial",
+        "pdf": "output/pdf/sowing-rollout/individual/cabbage-imperial.pdf",
+        "sha256": "7da9b50de9f260b1f39482c821245c7088273068343b064db9941405ebe86395",
+        "gaps": [
+          3.65,
+          3.47
+        ],
+        "retained": 7,
+        "omitted": [],
+        "facts": 2,
+        "methods": 2,
+        "links": [
+          108,
+          151
+        ]
+      },
+      {
+        "key": "cabbage",
+        "unit": "metric",
+        "pdf": "output/pdf/sowing-rollout/individual/cabbage-metric.pdf",
+        "sha256": "7e116c5b5edd1a32438624df9bc7188f14d2e65940a0376c71547a43f8ff9c9b",
+        "gaps": [
+          3.65,
+          3.47
+        ],
+        "retained": 7,
+        "omitted": [],
+        "facts": 2,
+        "methods": 2,
+        "links": [
+          108,
+          151
+        ]
+      }
+    ],
+    [
+      {
+        "key": "capsicum",
+        "unit": "imperial",
+        "pdf": "output/pdf/sowing-rollout/individual/capsicum-imperial.pdf",
+        "sha256": "a8f6e0e993153f3d6e5630b17134bce8fc0ab959f52bf3dc1cddd7ba895f5b5d",
+        "gaps": [
+          7.09,
+          6.11
+        ],
+        "retained": 9,
+        "omitted": [],
+        "facts": 2,
+        "methods": 3,
+        "links": []
+      },
+      {
+        "key": "capsicum",
+        "unit": "metric",
+        "pdf": "output/pdf/sowing-rollout/individual/capsicum-metric.pdf",
+        "sha256": "14f339967b2aaa65ef75e49d7da86127aeb8f8f54a4eeaf1d3292e97a2489401",
+        "gaps": [
+          7.09,
+          6.11
+        ],
+        "retained": 9,
+        "omitted": [],
+        "facts": 2,
+        "methods": 3,
+        "links": []
+      }
+    ],
+    [
+      {
+        "key": "cauliflower",
+        "unit": "imperial",
+        "pdf": "output/pdf/sowing-rollout/individual/cauliflower-imperial.pdf",
+        "sha256": "634b7501f17ff67e6cbbe3c56f680bfc00354563030100e8bb90b338c749b123",
+        "gaps": [
+          3.15,
+          3.6
+        ],
+        "retained": 10,
+        "omitted": [],
+        "facts": 2,
+        "methods": 2,
+        "links": [
+          108,
+          152
+        ]
+      },
+      {
+        "key": "cauliflower",
+        "unit": "metric",
+        "pdf": "output/pdf/sowing-rollout/individual/cauliflower-metric.pdf",
+        "sha256": "e820464f16185e186d4032a915d95d7436a0f1743071ae837262766fb068a68c",
+        "gaps": [
+          3.15,
+          3.6
+        ],
+        "retained": 10,
+        "omitted": [],
+        "facts": 2,
+        "methods": 2,
+        "links": [
+          108,
+          152
+        ]
+      }
+    ],
+    [
+      {
+        "key": "celeriac",
+        "unit": "imperial",
+        "pdf": "output/pdf/sowing-rollout/individual/celeriac-imperial.pdf",
+        "sha256": "8e29c6db5b8d4e37a23868e47dba43c7cad1d8ad0204e18c5d76418639a5f424",
+        "gaps": [
+          7.29,
+          5.29
+        ],
+        "retained": 9,
+        "omitted": [],
+        "facts": 2,
+        "methods": 3,
+        "links": [
+          117,
+          152
+        ]
+      },
+      {
+        "key": "celeriac",
+        "unit": "metric",
+        "pdf": "output/pdf/sowing-rollout/individual/celeriac-metric.pdf",
+        "sha256": "36025d1d0a2f9c633ad02f3676a1f677a4bda2b90d9a089fb08117940be320b4",
+        "gaps": [
+          3.35,
+          5.29
+        ],
+        "retained": 9,
+        "omitted": [],
+        "facts": 2,
+        "methods": 3,
+        "links": [
+          117,
+          152
+        ]
+      }
+    ],
+    [
+      {
+        "key": "celery",
+        "unit": "imperial",
+        "pdf": "output/pdf/sowing-rollout/individual/celery-imperial.pdf",
+        "sha256": "f9c8c8c8a0325a8079c3ff559fe297104f591213ae39186282ce4d178d14ccc3",
+        "gaps": [
+          6.03,
+          4.17
+        ],
+        "retained": 4,
+        "omitted": [],
+        "facts": 2,
+        "methods": 3,
+        "links": [
+          117,
+          152
+        ]
+      },
+      {
+        "key": "celery",
+        "unit": "metric",
+        "pdf": "output/pdf/sowing-rollout/individual/celery-metric.pdf",
+        "sha256": "9e2c3ba75b60de545779bba16311920a137a94cdf823ebd201d3caa9afcb60a1",
+        "gaps": [
+          6.85,
+          4.17
+        ],
+        "retained": 4,
+        "omitted": [],
+        "facts": 2,
+        "methods": 3,
+        "links": [
+          117,
+          152
+        ]
+      }
+    ],
+    [
+      {
+        "key": "chicory",
+        "unit": "imperial",
+        "pdf": "output/pdf/sowing-rollout/individual/chicory-imperial.pdf",
+        "sha256": "be5482e89350254a5f025ba530bcaec2eac206e720aab144ca1d04ccf8504a0d",
+        "gaps": [
+          6.12,
+          3.79
+        ],
+        "retained": 5,
+        "omitted": [],
+        "facts": 1,
+        "methods": 1,
+        "links": [
+          152
+        ]
+      },
+      {
+        "key": "chicory",
+        "unit": "metric",
+        "pdf": "output/pdf/sowing-rollout/individual/chicory-metric.pdf",
+        "sha256": "34e00ace03710d223bfcd5ebd7d893c98976f97d107428eb2fc7306adbbb0d61",
+        "gaps": [
+          6.12,
+          3.79
+        ],
+        "retained": 5,
+        "omitted": [],
+        "facts": 1,
+        "methods": 1,
+        "links": [
+          152
+        ]
+      }
+    ],
+    [
+      {
+        "key": "marrow_courgette",
+        "unit": "imperial",
+        "pdf": "output/pdf/sowing-rollout/individual/marrow_courgette-imperial.pdf",
+        "sha256": "e1ce7375dd0076b56d2b02b2dc3dac819c52ffff480635cde7a229fdbc9ef6d0",
+        "gaps": [
+          9.65,
+          3.34
+        ],
+        "retained": 7,
+        "omitted": [],
+        "facts": 3,
+        "methods": 3,
+        "links": [
+          119,
+          152
+        ]
+      },
+      {
+        "key": "marrow_courgette",
+        "unit": "metric",
+        "pdf": "output/pdf/sowing-rollout/individual/marrow_courgette-metric.pdf",
+        "sha256": "a9865a1c7f653827038f6c16373aefe8b2e2196338f26c52ca0a0c499bda1162",
+        "gaps": [
+          6.54,
+          3.34
+        ],
+        "retained": 7,
+        "omitted": [],
+        "facts": 3,
+        "methods": 3,
+        "links": [
+          119,
+          152
+        ]
+      }
+    ],
+    [
+      {
+        "key": "cucumber_greenhouse",
+        "unit": "imperial",
+        "pdf": "output/pdf/sowing-rollout/individual/cucumber_greenhouse-imperial.pdf",
+        "sha256": "74cd6227e1b8ae648d936c37aad5c291f91bdb26d4dea9fcb7ef0b9cae0917ef",
+        "gaps": [
+          3.78,
+          5.82
+        ],
+        "retained": 8,
+        "omitted": [
+          "Withering of young fruit"
+        ],
+        "facts": 2,
+        "methods": 3,
+        "links": [
+          119,
+          151
+        ]
+      },
+      {
+        "key": "cucumber_greenhouse",
+        "unit": "metric",
+        "pdf": "output/pdf/sowing-rollout/individual/cucumber_greenhouse-metric.pdf",
+        "sha256": "9bc617d714b816e3a5ec405f265c72e077923036f1f8cf1c3487b0495602f596",
+        "gaps": [
+          3.78,
+          5.82
+        ],
+        "retained": 8,
+        "omitted": [
+          "Withering of young fruit"
+        ],
+        "facts": 2,
+        "methods": 3,
+        "links": [
+          119,
+          151
+        ]
+      }
+    ],
+    [
+      {
+        "key": "cucumber_outdoor",
+        "unit": "imperial",
+        "pdf": "output/pdf/sowing-rollout/individual/cucumber_outdoor-imperial.pdf",
+        "sha256": "6ce4c3c7b1f26ef6efd8908cc5f4ad3b74e78419a266983fcc5d3e8e2867bc24",
+        "gaps": [
+          3.36,
+          6.32
+        ],
+        "retained": 8,
+        "omitted": [
+          "Poor fruit set"
+        ],
+        "facts": 3,
+        "methods": 3,
+        "links": [
+          119,
+          151
+        ]
+      },
+      {
+        "key": "cucumber_outdoor",
+        "unit": "metric",
+        "pdf": "output/pdf/sowing-rollout/individual/cucumber_outdoor-metric.pdf",
+        "sha256": "fa65f32f426b8e6614ce1b5476f4d760c1401f2233d965cf71818496c48ce5bc",
+        "gaps": [
+          3.36,
+          6.32
+        ],
+        "retained": 8,
+        "omitted": [
+          "Poor fruit set"
+        ],
+        "facts": 3,
+        "methods": 3,
+        "links": [
+          119,
+          151
+        ]
+      }
+    ],
+    [
+      {
+        "key": "endive",
+        "unit": "imperial",
+        "pdf": "output/pdf/sowing-rollout/individual/endive-imperial.pdf",
+        "sha256": "b66cbddeb2b804fa596959bb2157acae3efe95a5cf7c582019b2b4a2ee6b7049",
+        "gaps": [
+          5.86,
+          4.23
+        ],
+        "retained": 5,
+        "omitted": [],
+        "facts": 2,
+        "methods": 1,
+        "links": [
+          125,
+          152
+        ]
+      },
+      {
+        "key": "endive",
+        "unit": "metric",
+        "pdf": "output/pdf/sowing-rollout/individual/endive-metric.pdf",
+        "sha256": "ed1b2947f324c7f64cd339f88d625288875895b999a0f6072ab46aed3ebd8b33",
+        "gaps": [
+          9.8,
+          4.23
+        ],
+        "retained": 5,
+        "omitted": [],
+        "facts": 2,
+        "methods": 1,
+        "links": [
+          125,
+          152
+        ]
+      }
+    ],
+    [
+      {
+        "key": "florence_fennel",
+        "unit": "imperial",
+        "pdf": "output/pdf/sowing-rollout/individual/florence_fennel-imperial.pdf",
+        "sha256": "fd63a84e2ba7e87d773d29e7e8c6e250f41fef1a3588584fd627d922e1f8e6aa",
+        "gaps": [
+          24.76,
+          16.28
+        ],
+        "retained": 4,
+        "omitted": [],
+        "facts": 2,
+        "methods": 2,
+        "links": [
+          124,
+          152
+        ]
+      },
+      {
+        "key": "florence_fennel",
+        "unit": "metric",
+        "pdf": "output/pdf/sowing-rollout/individual/florence_fennel-metric.pdf",
+        "sha256": "c5a5bca9cdafbe321d1d8c23e7ff66e51d9b8822f3589c887631d02756939088",
+        "gaps": [
+          24.76,
+          16.28
+        ],
+        "retained": 4,
+        "omitted": [],
+        "facts": 2,
+        "methods": 2,
+        "links": [
+          124,
+          152
+        ]
+      }
+    ],
+    [
+      {
+        "key": "garlic",
+        "unit": "imperial",
+        "pdf": "output/pdf/sowing-rollout/individual/garlic-imperial.pdf",
+        "sha256": "5e8dbb5ca2d0dddb1cf669889c6cd77050d0a3f2064a527f79246bc517705a1b",
+        "gaps": [
+          16.51,
+          10.28
+        ],
+        "retained": 6,
+        "omitted": [],
+        "facts": 1,
+        "methods": 2,
+        "links": [
+          128,
+          152
+        ]
+      },
+      {
+        "key": "garlic",
+        "unit": "metric",
+        "pdf": "output/pdf/sowing-rollout/individual/garlic-metric.pdf",
+        "sha256": "7c0c1095809ea011237e5d15c03d2c0d514ad71d5cb991a1922bb84bc617b509",
+        "gaps": [
+          20.1,
+          10.28
+        ],
+        "retained": 6,
+        "omitted": [],
+        "facts": 1,
+        "methods": 2,
+        "links": [
+          128,
+          152
+        ]
+      }
+    ],
+    [
+      {
+        "key": "kale",
+        "unit": "imperial",
+        "pdf": "output/pdf/sowing-rollout/individual/kale-imperial.pdf",
+        "sha256": "35977b267bcb7bc1977de0765d27ca594f6211b111fcdbaa23510c283166153c",
+        "gaps": [
+          10.16,
+          5.32
+        ],
+        "retained": 8,
+        "omitted": [],
+        "facts": 2,
+        "methods": 2,
+        "links": [
+          108,
+          151
+        ]
+      },
+      {
+        "key": "kale",
+        "unit": "metric",
+        "pdf": "output/pdf/sowing-rollout/individual/kale-metric.pdf",
+        "sha256": "2968602d0f3ebca10048cfa81e09e5f9f3e3b0a5a1a1185ff9d1ed5ddb81b900",
+        "gaps": [
+          10.16,
+          5.32
+        ],
+        "retained": 8,
+        "omitted": [],
+        "facts": 2,
+        "methods": 2,
+        "links": [
+          108,
+          151
+        ]
+      }
+    ],
+    [
+      {
+        "key": "kohl_rabi",
+        "unit": "imperial",
+        "pdf": "output/pdf/sowing-rollout/individual/kohl_rabi-imperial.pdf",
+        "sha256": "925aaa925d2ebdd6d7e92247057356a6b92fdf604680a6a7bd720122d2048bbd",
+        "gaps": [
+          17.83,
+          3.41
+        ],
+        "retained": 8,
+        "omitted": [],
+        "facts": 1,
+        "methods": 2,
+        "links": [
+          108
+        ]
+      },
+      {
+        "key": "kohl_rabi",
+        "unit": "metric",
+        "pdf": "output/pdf/sowing-rollout/individual/kohl_rabi-metric.pdf",
+        "sha256": "f904fb18dcfefa73c344faab9054094873f1cc47de88b352801e31eb701732a1",
+        "gaps": [
+          13.89,
+          3.41
+        ],
+        "retained": 8,
+        "omitted": [],
+        "facts": 1,
+        "methods": 2,
+        "links": [
+          108
+        ]
+      }
+    ],
+    [
+      {
+        "key": "lettuce",
+        "unit": "imperial",
+        "pdf": "output/pdf/sowing-rollout/individual/lettuce-imperial.pdf",
+        "sha256": "8ccae394c8f66089718f1a296d5fbaed5cb1719549a735245ac3d9d17f5f8174",
+        "gaps": [
+          3.32,
+          3.47
+        ],
+        "retained": 9,
+        "omitted": [],
+        "facts": 2,
+        "methods": 2,
+        "links": [
+          125,
+          152,
+          165,
+          173
+        ]
+      },
+      {
+        "key": "lettuce",
+        "unit": "metric",
+        "pdf": "output/pdf/sowing-rollout/individual/lettuce-metric.pdf",
+        "sha256": "7b40a6e831b5a6797f000dd6f5aa4456e3d440d35ae0e0e3ac7485bba7bbf7de",
+        "gaps": [
+          3.32,
+          3.47
+        ],
+        "retained": 9,
+        "omitted": [],
+        "facts": 2,
+        "methods": 2,
+        "links": [
+          125,
+          152,
+          165,
+          173
+        ]
+      }
+    ],
+    [
+      {
+        "key": "mushroom",
+        "unit": "imperial",
+        "pdf": "output/pdf/sowing-rollout/individual/mushroom-imperial.pdf",
+        "sha256": "e09ef8dfb1d59d366ecf3263d76b27e52e853de0039fb2239e81d9d42f5d904a",
+        "gaps": [
+          83.73,
+          3.55
+        ],
+        "retained": 3,
+        "omitted": [],
+        "facts": 1,
+        "methods": 2,
+        "links": []
+      },
+      {
+        "key": "mushroom",
+        "unit": "metric",
+        "pdf": "output/pdf/sowing-rollout/individual/mushroom-metric.pdf",
+        "sha256": "93dd4a51d466ffc075a9c6c2410c4a4e50adfd9752bd5ae8cb4f9c44c5ad0167",
+        "gaps": [
+          83.73,
+          3.55
+        ],
+        "retained": 3,
+        "omitted": [],
+        "facts": 1,
+        "methods": 2,
+        "links": []
+      }
+    ],
+    [
+      {
+        "key": "onion_shallot",
+        "unit": "imperial",
+        "pdf": "output/pdf/sowing-rollout/individual/onion_shallot-imperial.pdf",
+        "sha256": "36ff031361d42b620174e731a7e6563bef6627163edc0e0411862f00fda3d0cb",
+        "gaps": [
+          6.03,
+          7.49
+        ],
+        "retained": 10,
+        "omitted": [],
+        "facts": 2,
+        "methods": 2,
+        "links": [
+          128,
+          152
+        ]
+      },
+      {
+        "key": "onion_shallot",
+        "unit": "metric",
+        "pdf": "output/pdf/sowing-rollout/individual/onion_shallot-metric.pdf",
+        "sha256": "2a4b89dc5e10049c653cfb11e0bc9362d5927d907e23000c814f7e4ac2b2dd02",
+        "gaps": [
+          6.03,
+          7.49
+        ],
+        "retained": 10,
+        "omitted": [],
+        "facts": 2,
+        "methods": 2,
+        "links": [
+          128,
+          152
+        ]
+      }
+    ],
+    [
+      {
+        "key": "oriental_leaves",
+        "unit": "imperial",
+        "pdf": "output/pdf/sowing-rollout/individual/oriental_leaves-imperial.pdf",
+        "sha256": "3496b1bbb9a32c27b6772421baf6d19b583df609bfa0771e072cb416662788af",
+        "gaps": [
+          6.66,
+          5.25
+        ],
+        "retained": 8,
+        "omitted": [],
+        "facts": 2,
+        "methods": 2,
+        "links": [
+          132,
+          173
+        ]
+      },
+      {
+        "key": "oriental_leaves",
+        "unit": "metric",
+        "pdf": "output/pdf/sowing-rollout/individual/oriental_leaves-metric.pdf",
+        "sha256": "58217d0db09177fccce3afe72ab0867d1883d6767fa94d30395a9d0ca3a99327",
+        "gaps": [
+          6.42,
+          5.25
+        ],
+        "retained": 8,
+        "omitted": [],
+        "facts": 2,
+        "methods": 2,
+        "links": [
+          132,
+          173
+        ]
+      }
+    ],
+    [
+      {
+        "key": "parsnip",
+        "unit": "imperial",
+        "pdf": "output/pdf/sowing-rollout/individual/parsnip-imperial.pdf",
+        "sha256": "783d7935bdf57b948a562420b26be0824ad4bfb0f5ec4b7795c99d8a9602b5fb",
+        "gaps": [
+          14.71,
+          12.1
+        ],
+        "retained": 7,
+        "omitted": [],
+        "facts": 1,
+        "methods": 1,
+        "links": [
+          114,
+          152
+        ]
+      },
+      {
+        "key": "parsnip",
+        "unit": "metric",
+        "pdf": "output/pdf/sowing-rollout/individual/parsnip-metric.pdf",
+        "sha256": "50bdfb73758b081314ef471f1bb3e7db2e0f7a550caa039c6346bfe34cbdc08f",
+        "gaps": [
+          10.77,
+          12.1
+        ],
+        "retained": 7,
+        "omitted": [],
+        "facts": 1,
+        "methods": 1,
+        "links": [
+          114,
+          152
+        ]
+      }
+    ],
+    [
+      {
+        "key": "pea",
+        "unit": "imperial",
+        "pdf": "output/pdf/sowing-rollout/individual/pea-imperial.pdf",
+        "sha256": "5a5cfb8b8a8f3add16d3c2ee9cad9ef2ae23ccdc5ef0ed9b15bbd21f503d3b8c",
+        "gaps": [
+          9.59,
+          17.95
+        ],
+        "retained": 10,
+        "omitted": [],
+        "facts": 1,
+        "methods": 2,
+        "links": [
+          102,
+          151,
+          165,
+          168
+        ]
+      },
+      {
+        "key": "pea",
+        "unit": "metric",
+        "pdf": "output/pdf/sowing-rollout/individual/pea-metric.pdf",
+        "sha256": "fb425ac25159fe09d5b9190fa665efb517d9cdb150676d6c25e204c650d5299c",
+        "gaps": [
+          9.59,
+          17.95
+        ],
+        "retained": 10,
+        "omitted": [],
+        "facts": 1,
+        "methods": 2,
+        "links": [
+          102,
+          151,
+          165,
+          168
+        ]
+      }
+    ],
+    [
+      {
+        "key": "radish",
+        "unit": "imperial",
+        "pdf": "output/pdf/sowing-rollout/individual/radish-imperial.pdf",
+        "sha256": "b682d5a14234352c016ad4d2a393101269041b4faba769fe6753ee065d4b45d4",
+        "gaps": [
+          4.95,
+          6.82
+        ],
+        "retained": 6,
+        "omitted": [],
+        "facts": 2,
+        "methods": 1,
+        "links": [
+          146,
+          152
+        ]
+      },
+      {
+        "key": "radish",
+        "unit": "metric",
+        "pdf": "output/pdf/sowing-rollout/individual/radish-metric.pdf",
+        "sha256": "d72c0879fed80682080a4d0c448b5d6161529b4b377472d3d79c66b113877a5a",
+        "gaps": [
+          4.95,
+          6.82
+        ],
+        "retained": 6,
+        "omitted": [],
+        "facts": 2,
+        "methods": 1,
+        "links": [
+          146,
+          152
+        ]
+      }
+    ],
+    [
+      {
+        "key": "rhubarb",
+        "unit": "imperial",
+        "pdf": "output/pdf/sowing-rollout/individual/rhubarb-imperial.pdf",
+        "sha256": "e31e36c963bdbdb2f1586328a94529820966f036094c0cadc42a6413a69b01d6",
+        "gaps": [
+          25.45,
+          3.93
+        ],
+        "retained": 4,
+        "omitted": [
+          "Flowering"
+        ],
+        "facts": 2,
+        "methods": 2,
+        "links": []
+      },
+      {
+        "key": "rhubarb",
+        "unit": "metric",
+        "pdf": "output/pdf/sowing-rollout/individual/rhubarb-metric.pdf",
+        "sha256": "24e5f8b310d2ddde8b14944ecd8dae86ea14c03beb29aa70822e85cd2a5d64c1",
+        "gaps": [
+          25.45,
+          3.93
+        ],
+        "retained": 4,
+        "omitted": [
+          "Flowering"
+        ],
+        "facts": 2,
+        "methods": 2,
+        "links": []
+      }
+    ],
+    [
+      {
+        "key": "salsify_scorzonera",
+        "unit": "imperial",
+        "pdf": "output/pdf/sowing-rollout/individual/salsify_scorzonera-imperial.pdf",
+        "sha256": "eafe292eb170bc67728da455ea0f5e7d46034db630a81505941fa5a0a6fa79bb",
+        "gaps": [
+          17.73,
+          3.64
+        ],
+        "retained": 5,
+        "omitted": [],
+        "facts": 1,
+        "methods": 2,
+        "links": []
+      },
+      {
+        "key": "salsify_scorzonera",
+        "unit": "metric",
+        "pdf": "output/pdf/sowing-rollout/individual/salsify_scorzonera-metric.pdf",
+        "sha256": "2f99ad9d6f5c0cb3839c46d830ea4479077a5a987f891df15fa7da726568281a",
+        "gaps": [
+          17.73,
+          3.64
+        ],
+        "retained": 5,
+        "omitted": [],
+        "facts": 1,
+        "methods": 2,
+        "links": []
+      }
+    ],
+    [
+      {
+        "key": "spinach",
+        "unit": "imperial",
+        "pdf": "output/pdf/sowing-rollout/individual/spinach-imperial.pdf",
+        "sha256": "d852cfd7af6545c75d7f38a57603a6de3e152c5cf194a689e4cd32bb2f4a9834",
+        "gaps": [
+          9.93,
+          3.49
+        ],
+        "retained": 6,
+        "omitted": [],
+        "facts": 2,
+        "methods": 2,
+        "links": [
+          139,
+          151,
+          173
+        ]
+      },
+      {
+        "key": "spinach",
+        "unit": "metric",
+        "pdf": "output/pdf/sowing-rollout/individual/spinach-metric.pdf",
+        "sha256": "ed216581cd512f31390b59d9e54b711e6342427f14eeb6d7133b3f1f6810cb2c",
+        "gaps": [
+          9.93,
+          3.49
+        ],
+        "retained": 6,
+        "omitted": [],
+        "facts": 2,
+        "methods": 2,
+        "links": [
+          139,
+          151,
+          173
+        ]
+      }
+    ],
+    [
+      {
+        "key": "squash_pumpkin",
+        "unit": "imperial",
+        "pdf": "output/pdf/sowing-rollout/individual/squash_pumpkin-imperial.pdf",
+        "sha256": "765c54748195da3958ec7226c7fe96327d8801250602130d459669febac1e16c",
+        "gaps": [
+          6.53,
+          5.57
+        ],
+        "retained": 8,
+        "omitted": [
+          "Root rot"
+        ],
+        "facts": 3,
+        "methods": 3,
+        "links": [
+          119,
+          152
+        ]
+      },
+      {
+        "key": "squash_pumpkin",
+        "unit": "metric",
+        "pdf": "output/pdf/sowing-rollout/individual/squash_pumpkin-metric.pdf",
+        "sha256": "fb1a6180b48ebe66b75779aafc61f23983767ed1fbf786b0585e085a5b68dd4e",
+        "gaps": [
+          6.53,
+          5.57
+        ],
+        "retained": 8,
+        "omitted": [
+          "Root rot"
+        ],
+        "facts": 3,
+        "methods": 3,
+        "links": [
+          119,
+          152
+        ]
+      }
+    ],
+    [
+      {
+        "key": "swede",
+        "unit": "imperial",
+        "pdf": "output/pdf/sowing-rollout/individual/swede-imperial.pdf",
+        "sha256": "829fe72075566a2fb2f79a0f37207f97bd284ea987c7b9eb24433fbcbe7d717c",
+        "gaps": [
+          19.09,
+          14.99
+        ],
+        "retained": 7,
+        "omitted": [],
+        "facts": 2,
+        "methods": 2,
+        "links": [
+          146,
+          152
+        ]
+      },
+      {
+        "key": "swede",
+        "unit": "metric",
+        "pdf": "output/pdf/sowing-rollout/individual/swede-metric.pdf",
+        "sha256": "9d8190657bed8a2a122f97117aa4d049e62ef78949ebbd5a30e7af34294618c8",
+        "gaps": [
+          15.16,
+          14.99
+        ],
+        "retained": 7,
+        "omitted": [],
+        "facts": 2,
+        "methods": 2,
+        "links": [
+          146,
+          152
+        ]
+      }
+    ],
+    [
+      {
+        "key": "sweet_corn",
+        "unit": "imperial",
+        "pdf": "output/pdf/sowing-rollout/individual/sweet_corn-imperial.pdf",
+        "sha256": "ef992fe8d75d1fb469b95eb15bf82f39d7287c91af360431e888996b2e8cede1",
+        "gaps": [
+          7.07,
+          3.7
+        ],
+        "retained": 8,
+        "omitted": [],
+        "facts": 3,
+        "methods": 2,
+        "links": []
+      },
+      {
+        "key": "sweet_corn",
+        "unit": "metric",
+        "pdf": "output/pdf/sowing-rollout/individual/sweet_corn-metric.pdf",
+        "sha256": "2608da7f807ebb4e9dbb7b852cdeb381eaa815dc279e88f58b20ccf644ccaabd",
+        "gaps": [
+          7.07,
+          3.7
+        ],
+        "retained": 8,
+        "omitted": [],
+        "facts": 3,
+        "methods": 2,
+        "links": []
+      }
+    ],
+    [
+      {
+        "key": "tomato_greenhouse",
+        "unit": "imperial",
+        "pdf": "output/pdf/sowing-rollout/individual/tomato_greenhouse-imperial.pdf",
+        "sha256": "4631a993675f5c6af443fda635141b48facdb506d183abd7f01975bc45d0b497",
+        "gaps": [
+          3.31,
+          8.33
+        ],
+        "retained": 9,
+        "omitted": [
+          "Magnesium deficiency"
+        ],
+        "facts": 4,
+        "methods": 3,
+        "links": [
+          141,
+          151,
+          169,
+          171
+        ]
+      },
+      {
+        "key": "tomato_greenhouse",
+        "unit": "metric",
+        "pdf": "output/pdf/sowing-rollout/individual/tomato_greenhouse-metric.pdf",
+        "sha256": "0a850f1e4ba95e00e537d3237d8337846fbeddc2d1e23356a2959ed11c3384ec",
+        "gaps": [
+          3.31,
+          8.33
+        ],
+        "retained": 9,
+        "omitted": [
+          "Magnesium deficiency"
+        ],
+        "facts": 4,
+        "methods": 3,
+        "links": [
+          141,
+          151,
+          169,
+          171
+        ]
+      }
+    ],
+    [
+      {
+        "key": "turnip",
+        "unit": "imperial",
+        "pdf": "output/pdf/sowing-rollout/individual/turnip-imperial.pdf",
+        "sha256": "ac0ecaccf68b2ffbb04d2bf0f1fcffe8cc147d4c78045c5becdeb24f067cb1da",
+        "gaps": [
+          5.23,
+          6.84
+        ],
+        "retained": 8,
+        "omitted": [],
+        "facts": 1,
+        "methods": 1,
+        "links": [
+          146,
+          152
+        ]
+      },
+      {
+        "key": "turnip",
+        "unit": "metric",
+        "pdf": "output/pdf/sowing-rollout/individual/turnip-metric.pdf",
+        "sha256": "c0c49c5a6fcb8304bfab5371eb2b74d2bd2adb44d606c58e80ba131fe8ed25e4",
+        "gaps": [
+          5.23,
+          6.84
+        ],
+        "retained": 8,
+        "omitted": [],
+        "facts": 1,
+        "methods": 1,
+        "links": [
+          146,
+          152
+        ]
+      }
+    ]
+  ]
+}

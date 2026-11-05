@@ -1,0 +1,105 @@
+{
+  "date": "2026-11-05",
+  "status": "For John\u2019s review",
+  "composition": "chicory-forcing-v1",
+  "baselinePdfSha256": {
+    "imperial": "be5482e89350254a5f025ba530bcaec2eac206e720aab144ca1d04ccf8504a0d",
+    "metric": "34e00ace03710d223bfcd5ebd7d893c98976f97d107428eb2fc7306adbbb0d61"
+  },
+  "edits": [
+    {
+      "selector": ".soil li:nth-child(1)",
+      "before": "Choose sunny, fertile, well-drained soil, pH 6\u20137. Chicory also tolerates modest fertility; heavy feeding is unnecessary.",
+      "after": "Choose sunny, fertile, well-drained soil; heavy feeding is unnecessary."
+    },
+    {
+      "selector": ".soil li:nth-child(2)",
+      "before": "Deep, loose soil gives straight forcing roots that lift undamaged in autumn.",
+      "after": "Loosen soil deeply so forcing roots grow straight and lift undamaged."
+    },
+    {
+      "selector": ".soil li:nth-child(3)",
+      "before": "Add mature compost where humus is low. Rake a fine seedbed just before sowing; use organic feed only on poor soil.",
+      "after": "Add mature compost where humus is low. Rake a fine seedbed; feed only poor soil."
+    },
+    {
+      "selector": ".care li:nth-child(1)",
+      "before": "For baby leaves, thin to 2 in.. Give forcing roots and heads their wider spacings in Quick facts.",
+      "after": "Thin baby leaves to 2 in.; use Quick facts for roots and heads.",
+      "unit": "imperial"
+    },
+    {
+      "selector": ".care li:nth-child(1)",
+      "before": "For baby leaves, thin to 5 cm. Give forcing roots and heads their wider spacings in Quick facts.",
+      "after": "Thin baby leaves to 5 cm; use Quick facts for roots and heads.",
+      "unit": "metric"
+    },
+    {
+      "selector": ".care li:nth-child(2)",
+      "before": "Hoe regularly and water new seedlings and established plants in dry spells. Eat useful thinnings.",
+      "after": "Hoe regularly and water in dry spells, especially young seedlings. Eat useful thinnings."
+    },
+    {
+      "selector": ".harvest li:nth-child(1)",
+      "before": "Pick green leaves for summer salads as needed. Cut non-forcing heads in autumn; use promptly or keep cool, and protect crops left standing from frost.",
+      "after": "Pick green salad leaves as needed. Cut non-forcing heads in autumn; use promptly or keep cool. Protect standing crops from frost."
+    },
+    {
+      "selector": ".harvest li:nth-child(2)",
+      "before": "Chicons are usually ready after three or four weeks of forcing. Cut or break them just above the crown without damaging the root.",
+      "after": "Chicons usually take three or four weeks of forcing. Cut or break just above the crown, leaving the root intact."
+    },
+    {
+      "selector": ".harvest li:nth-child(3)",
+      "before": "For a smaller second crop, water compost and replace the dark cover. Keep harvested chicons dark: light makes them greener and more bitter.",
+      "after": "Water and cover again for a possible smaller second crop. Keep harvested chicons cool and dark to limit greening and bitterness."
+    }
+  ],
+  "copy": {
+    "sow": [
+      "Sow",
+      "Space seeds thinly in drills about {\u00bd in.~1 cm} deep and cover with fine soil. Use forcing varieties such as Witloof for winter chicons; other types form outdoor heads."
+    ],
+    "steps": [
+      [
+        "1 \u00b7 Lift and trim",
+        "Lift forcing roots in November. Keep sound roots at least {1 in.~2.5 cm} across the crown (the top of the root); discard weak, badly forked or rotten ones. Trim leaves to {1 in.~2.5 cm} above the crown, keeping the growing point."
+      ],
+      [
+        "2 \u00b7 Pot a batch",
+        "Stand a few roots upright, close together, in a deep pot of moist compost, with crowns exposed. Shorten roots only if needed to fit. Store the rest horizontally in sand in a cool shed for later batches."
+      ],
+      [
+        "3 \u00b7 Exclude light",
+        "Cover with an upturned opaque bucket or large pot. Block holes in the cover and leave room for shoots. Keep in complete darkness at {50\u201359\u00b0F~10\u201315\u00b0C}."
+      ]
+    ]
+  },
+  "factColumns": [
+    [
+      "Harvest",
+      "Germination",
+      "Sowing depth",
+      "Row spacing",
+      "Yield ({10 ft~3 m} row)",
+      "Ready in"
+    ],
+    [
+      "Sow",
+      "Plant spacing"
+    ]
+  ],
+  "factWidths": [
+    48,
+    52
+  ],
+  "wideFacts": [],
+  "assetSha256": {
+    "public/images/planting/chicory/forcing-v1/forcing-sequence.png": "6a863b6e87c0ce4db257a0f39c4dab14365d705cf8839283953e61e95e17c2af",
+    "public/images/planting/chicory/forcing-v1/opaque-cover.svg": "ab064349bc45aa9e8d693ebb6813965f4e3b00d8afc5699b21108efb2b817e0a"
+  },
+  "sourceNote": "Canonical Chicory unchanged. Forcing details restored from exact master care/harvesting fields; opaque cover mechanics supported by RHS and D. T. Brown. First and fourth Final tips removed as John requested; forcing care items move into expanded planting sequence. Usual fact grouping and routine pH removal applied. Five pest rows retained. The two generic sow/thin drawings are intentionally replaced in this proposal by the three forcing scenes; original files and baseline remain intact.",
+  "plantingArt": [
+    "/images/planting/chicory/forcing-v1/forcing-sequence.png"
+  ]
+}

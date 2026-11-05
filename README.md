@@ -20,7 +20,9 @@ Netting 164–165 and Supports 166–167 retain their facing spreads; Watering f
 at 168, Greenhouses at 169–171, and the index at 172–175. A balancing blank follows at 176. The pH page remains at 152 and the approved guide intro at 9.
 The promotional slides project is complete. The
 [sixteen vegetable wording proposals](docs/publication/soil-acidity-crop-edits/DIFF.html)
-remain unapproved and unintegrated. Canonical advice and supplier files are unchanged.
+remain historical and unintegrated. John's 5 November guidance supersedes their
+retention policy: remove routine pH/liming references as each crop is reviewed,
+retaining only definite crop-specific needs. Canonical advice and supplier files are unchanged.
 
 **Post-proof work:** John has received the physical proof and is
 satisfied with its print quality, accurate colours, coated-paper feel and weight,

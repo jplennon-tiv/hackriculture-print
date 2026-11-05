@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-05",
+  "status": "For John’s review",
+  "baselinePdfSha256": {
+    "imperial": "6ce4c3c7b1f26ef6efd8908cc5f4ad3b74e78419a266983fcc5d3e8e2867bc24",
+    "metric": "fa65f32f426b8e6614ce1b5476f4d760c1401f2233d965cf71818496c48ce5bc"
+  },
+  "edits": [
+    {
+      "selector": ".tips > div:nth-of-type(1) img",
+      "attribute": "src",
+      "before": "/images/coloured-icons/style-a-v1/protection.svg",
+      "after": "/images/planting/marrow_courgette/revision-v1/marrow-on-board.svg",
+      "alt": "Fruit resting on a board"
+    }
+  ],
+  "assetSha256": {
+    "public/images/planting/marrow_courgette/revision-v1/marrow-on-board.svg": "223e05a9bf33bb9174ca156f9a7900f7d16e2d4994027a07bc9692b64c31ed9a"
+  },
+  "sourceNote": "John requests the exact same first Final tips icon as approved for Courgettes and Marrows: marrow-on-board.svg is reused unchanged, replacing the incorrect cloche. All tip wording and other gardening copy remain exact. Usual checks confirm all ten Quick facts fit in the existing arrangement; trial regrouping made the opening page more crowded, so the original layout is retained. No routine pH or liming reference occurs. Four varieties, eight selected pest rows, original planting drawings and the baseline Poor fruit set omission remain. Canonical data unchanged."
+}

@@ -1,0 +1,51 @@
+{
+  "date": "2026-11-05",
+  "status": "For John’s review",
+  "baselinePdfSha256": {
+    "imperial": "bde872c3fe9974aea8302d7c76ba6a2598159e2f996b609417366177cd33ddb4",
+    "metric": "36c451745a263077fbace595c6dcaccfb4fe26a5d07752dd8468793647b903b2"
+  },
+  "sourceUpdate": {
+    "beforeSha256": "317a0f1d7ce936680fdbaa80119c02ae5f1841766800280515d6151252fc0f43",
+    "afterSha256": "d4652f7409687189e284be49c5b76f16b00c5f75265781d8fdae3acf90f00683",
+    "receipt": "docs/publication/sowing-rollout/revisions/bean_runner/SAVE-RECEIPT.json"
+  },
+  "edits": [
+    {
+      "selector": ".soil li:first-child",
+      "before": " Lime acid soil if needed towards pH 6.5.",
+      "after": ""
+    }
+  ],
+  "additionalFacts": [
+    {
+      "id": "yield",
+      "label": "{Yield (10 ft single row)~Yield (3 m single row)}",
+      "value": "{Between 15–30 lb.~Between 7–14 kg.}",
+      "icon": "/images/coloured-icons/style-a-v1/yield.svg",
+      "sourcePath": "yield.by_variety.climbing.per_10_ft_row",
+      "note": "John’s requested short display wording, 5 November: Between 15–30 lb. / Between 7–14 kg. Derived seasonal estimate; single row. Metric print wording rounds the canonical imperial estimate to whole kg. Canonical evidence and qualifications are retained."
+    }
+  ],
+  "factColumns": [
+    [
+      "Sow",
+      "Harvest",
+      "Germination",
+      "Sowing depth",
+      "Row spacing",
+      "Plant spacing"
+    ],
+    [
+      "Ready in",
+      "Sow indoors",
+      "Plant out",
+      "{Yield (10 ft single row)~Yield (3 m single row)}"
+    ]
+  ],
+  "factWidths": [
+    53,
+    47
+  ],
+  "sourceNote": "John explicitly requested researched canonical yield followed by a per-10-ft-row estimate. See the exact source update receipt and linked resource-library research note. Source artwork, advice and baseline proofs are retained; routine lime sentence omitted only in this print derivative under standing guidance."
+}

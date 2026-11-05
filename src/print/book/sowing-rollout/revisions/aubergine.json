@@ -1,0 +1,38 @@
+{
+  "date": "2026-11-05",
+  "status": "For John’s review",
+  "baselinePdfSha256": {
+    "imperial": "3b47c29f19933ffc564aeae0a21c6d6bc6304423dd7492fb2c6a5f3f712c98e2",
+    "metric": "7cff6d7c449cc83964b14c67d0e1d72f5df54135b9111735d388b3d7aca0ada6"
+  },
+  "factColumns": [
+    [
+      "Harvest",
+      "Germination",
+      "Yield per plant",
+      "Plant spacing",
+      "Row spacing",
+      "Ready in"
+    ],
+    [
+      "Sow indoors",
+      "Plant out"
+    ]
+  ],
+  "factWidths": [
+    54,
+    46
+  ],
+  "edits": [
+    {
+      "selector": ".planting .sowing-method:nth-of-type(3) p",
+      "before": "Warm the soil before planting.",
+      "after": "Wait until the soil is warm before planting."
+    },
+    {
+      "selector": ".soil li:nth-child(2)",
+      "before": "Slightly acid to neutral soil suits the crop. ",
+      "after": ""
+    }
+  ]
+}

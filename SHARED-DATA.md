@@ -46,6 +46,22 @@ display-label keys across 44 records to sentence case, with proper names preserv
 Advice, identities, selection, rank, nulls and order remain exact. Only the affected
 layout dependency hash and its attribution/time are refreshed after semantic checks;
 no layout approval, lock or selection is changed. Shared Troubles names remain intact.
+The completed 5 November Runner Bean exception saves a researched, derived
+climbing-bean yield per 10 ft single row and its provenance, as John explicitly
+requested. [Receipt and exact backup](docs/publication/sowing-rollout/revisions/bean_runner/SAVE-RECEIPT.json).
+Only `yield.by_variety.climbing.per_10_ft_row`, `metadata.yield_research` and
+automatic leaf attribution change. The old approved layout and its source
+signature remain preserved and correctly stale; the separate compact proof
+is now [approved](docs/publication/sowing-rollout/revisions/bean_runner/APPROVAL.json). Do not refresh that historical approval or repeat this consumed save.
+The completed 5 November Celery exception rounds trench-row spacing to **3 ft**
+in three imperial source strings (`soil_facts[3]` full/short text and
+`sowing_and_planting.row_spacing`). John explicitly retains **1 m** in metric,
+preferring practical values independently in each unit. [Exact backup and receipt](docs/publication/sowing-rollout/revisions/celery/SAVE-RECEIPT.json).
+All metric advice, block spacing, unknown fields, historical metadata and print
+approval states remain unchanged. Affected companion source signatures remain
+truthfully stale; the separate compact proof is now
+[approved](docs/publication/sowing-rollout/revisions/celery/APPROVAL.json). Do not
+repeat the consumed save or treat it as approval of old companion output.
 Book-specific guide rewrites live in separate exact-source-checked working drafts
 under `src/print/book/`. Opening and cover copy lives in the shared
 [book-layout JSON folder](../hackriculture-data/book-layout/README.md), read by

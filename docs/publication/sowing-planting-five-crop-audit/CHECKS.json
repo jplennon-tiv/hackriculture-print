@@ -1,0 +1,94 @@
+{
+  "date": "2026-11-03",
+  "status": "passed",
+  "scope": "Five-crop text audit and standalone review only",
+  "book": {
+    "sha256": "8c75e0eb9114005edd7516bf2d86855cf90110e4d2fff0ee48a146571afbeea6",
+    "unchanged": true,
+    "matches_latest_approved_revision": true
+  },
+  "canonical_records": [
+    {
+      "key": "carrot",
+      "sha256": "d463ee4d59258663f16500bfc61ac89bf238fda2dc76c4798ee815d539452c31",
+      "unchanged": true
+    },
+    {
+      "key": "beetroot",
+      "sha256": "1f459597e8eb102abaccc198738ba76dd7a78582adb1d6097838ba43c52815fe",
+      "unchanged": true
+    },
+    {
+      "key": "leek",
+      "sha256": "a71c4e44a07ee8cd23c433fe40b7b038064c7a0ea841cde48138ba7c80c2c7da",
+      "unchanged": true
+    },
+    {
+      "key": "tomato_outdoor",
+      "sha256": "d2855c8c52bce13533193ee2eabb6994d0dae8e86c260dee21ed395d0b83dfd6",
+      "unchanged": true
+    },
+    {
+      "key": "potato",
+      "sha256": "b1bb1957c5615376c6e01f13185b9279a328e5388325640617df3320f28ae741",
+      "unchanged": true
+    }
+  ],
+  "shared_data_git_clean_before_and_after": true,
+  "copy_checks": [
+    {
+      "key": "carrot",
+      "before_word_inventory_matches_current_page": true,
+      "before_blocks": 4,
+      "after_blocks": 3
+    },
+    {
+      "key": "beetroot",
+      "before_word_inventory_matches_current_page": true,
+      "before_blocks": 4,
+      "after_blocks": 4
+    },
+    {
+      "key": "leek",
+      "before_word_inventory_matches_current_page": true,
+      "before_blocks": 6,
+      "after_blocks": 4
+    },
+    {
+      "key": "tomato_outdoor",
+      "before_word_inventory_matches_current_page": true,
+      "before_blocks": 4,
+      "after_blocks": 4
+    },
+    {
+      "key": "potato",
+      "before_word_inventory_matches_current_page": true,
+      "before_blocks": 6,
+      "after_blocks": 5
+    }
+  ],
+  "local_review_links_valid": [
+    "../../../../hackriculture-resources/summaries/sowing-planting-five-crop-audit/DRAFTS.txt",
+    "../../../../hackriculture-resources/summaries/sowing-planting-five-crop-audit/SOURCES.md",
+    "#carrot",
+    "#beetroot",
+    "#leek",
+    "#tomato_outdoor",
+    "#potato"
+  ],
+  "markdown_local_links_valid": true,
+  "no_images_in_text_review": true,
+  "review_unit": "imperial; metric source pairs retained, no metric proof created",
+  "semantic_review": "Manual review of action sequence, date qualifiers, single versus clump spacings, retained printed advice, source paths, new proposals and deliberate omissions. Before captions compared in reading order with current PDF text; automated word inventory is a supplementary check, not exact sequence proof.",
+  "not_run": [
+    "App tests/typecheck: no runtime change",
+    "PDF layout/fit or both-unit rendering: not requested",
+    "Full-book assembly: explicitly excluded"
+  ],
+  "limitations": [
+    "All new prose and proposed Quick Facts await author review",
+    "New clump spacings are sourced proposals, not a claimed exact-spacing consensus or canonical changes",
+    "Ambiguous late-sown leek harvest note withheld from finished draft and recorded for a decision",
+    "Text extraction is not a visual PDF review"
+  ]
+}

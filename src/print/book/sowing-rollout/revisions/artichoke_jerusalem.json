@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-05",
+  "status": "For John’s review",
+  "baselinePdfSha256": {
+    "imperial": "d57db9e74329b3fecd3e3320a3cb144aab01e0cff08ca81d7f0ba3dea22ea6ac",
+    "metric": "b2ac68460f3c0788b3529d8f8542e28da82a6286b351e38155b792d2e229c9f1"
+  },
+  "factColumns": [
+    [
+      "Harvest",
+      "Shoots appear",
+      "Tuber depth",
+      "Row spacing",
+      "Yield per plant",
+      "Plant spacing"
+    ],
+    [
+      "Plant tubers",
+      "Ready in"
+    ]
+  ],
+  "factWidths": [
+    54,
+    46
+  ],
+  "edits": [
+    {
+      "selector": ".planting .sowing-method p",
+      "before": "Choose a position",
+      "after": "Plant in Feb–Mar, or later if the soil is too wet to work. Choose a position"
+    },
+    {
+      "selector": ".soil li:first-child",
+      "before": "not very acid or waterlogged",
+      "after": "not waterlogged"
+    },
+    {
+      "selector": ".tips > div:nth-of-type(3) img",
+      "attribute": "src",
+      "before": "/images/coloured-icons/style-a-v1/protection.svg",
+      "after": "/images/coloured-icons/style-a-v1/mulching.svg",
+      "alt": "Loose straw mulch around a plant"
+    }
+  ]
+}

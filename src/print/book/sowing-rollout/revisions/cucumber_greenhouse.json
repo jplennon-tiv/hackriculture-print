@@ -1,0 +1,54 @@
+{
+  "date": "2026-11-05",
+  "status": "For John’s review",
+  "baselinePdfSha256": {
+    "imperial": "74cd6227e1b8ae648d936c37aad5c291f91bdb26d4dea9fcb7ef0b9cae0917ef",
+    "metric": "9bc617d714b816e3a5ec405f265c72e077923036f1f8cf1c3487b0495602f596"
+  },
+  "edits": [
+    {
+      "selector": ".care li:nth-child(3)",
+      "before": "Remove male flowers for unpollinated fruit, even on all-female types. Keep them if pollination is needed: check the packet. Give regular organic liquid feed as fruit swells.",
+      "after": "Female flowers have a tiny cucumber behind the petals; males have just a thin stalk. Remove male flowers for unpollinated fruit, even on all-female types. Keep them if pollination is needed: check the packet. Give regular organic liquid feed as fruit swells."
+    },
+    {
+      "selector": ".pests tbody tr:last-child",
+      "before": "Slugs and snails",
+      "remove": true
+    },
+    {
+      "selector": ".growing-columns",
+      "attribute": "style",
+      "before": "38fr 62fr",
+      "after": "37fr 63fr"
+    }
+  ],
+  "factColumns": [
+    [
+      "Harvest",
+      "Germination",
+      "Sowing depth",
+      "Yield per plant",
+      "Ready in"
+    ],
+    [
+      "Sow indoors",
+      "Plant under glass",
+      "Plant spacing"
+    ]
+  ],
+  "factWidths": [
+    48,
+    52
+  ],
+  "wideFacts": [
+    "Ready in"
+  ],
+  "excludedPests": [
+    {
+      "name": "Slugs and snails",
+      "reason": "John explicitly removes this row to make room for the male/female flower explanation."
+    }
+  ],
+  "sourceNote": "The canonical looking_after_the_crop[4] keeps the variety-specific male-flower instruction. Canonical/local sources do not identify the visible distinction: the added sentence follows RHS (tiny fruit behind female petals, absent in males) and Moles Seeds (male thin stalk). The source-linked working draft retains all original flower handling and feeding copy, three planting methods, four varieties, original drawings and safety advice. John removes Slugs and snails from the table; the seven other selected rows remain. The baseline Withering of young fruit omission is retained. Quick facts are regrouped with all eight values unchanged; no routine pH/liming wording occurs. Canonical data unchanged."
+}

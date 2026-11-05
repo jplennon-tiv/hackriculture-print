@@ -1,5 +1,11 @@
 # Vegetable guides — pH and liming wording review
 
+**Historical comparison, superseded 5 November.** John now requests removal of
+pH/liming instructions unless there is a definite crop-specific need. Apply that
+rule during the individual vegetable review. The older proposals below were
+never approved or integrated and must not be installed as a batch. The current
+[crop editing guidance](../sowing-planting-mockups/CROP-EDITING-NOTES.md) owns the rule.
+
 2 November 2026. **Sixteen proposed changes across twelve guides**, following
 John’s request to update the vegetable pages and show a diff alongside the new
 [soil acidity page](../topic-pages/soil-acidity/README.md).
@@ -8,7 +14,7 @@ John’s request to update the vegetable pages and show a diff alongside the new
 The comparison links to clean and highlighted compact proofs in both editions.
 Current book folios are retained. No integration or renumbering has taken place.
 
-Changed guides: Asparagus; Broad, French and Runner Beans; Beetroot; Broccoli;
+The historical comparison changed: Asparagus; Broad, French and Runner Beans; Beetroot; Broccoli;
 Brussels Sprouts; Cabbage; Carrot; Lettuce; Potato; Radish. The other 32 retain
 their present wording. Existing crop pH numbers and reasonable soil preferences
 remain. Advice already requiring a test, avoiding unnecessary lime, or diagnosing

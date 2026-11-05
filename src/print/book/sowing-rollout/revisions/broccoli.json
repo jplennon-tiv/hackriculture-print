@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-05",
+  "status": "For John’s review",
+  "baselinePdfSha256": {
+    "imperial": "259e60658a67b152be9a2afbedca6fa1fc5404564d1a2ab42afcfcba890950da",
+    "metric": "b2f9958eef8208a4ea87b423dd1b87a2ae088bbb9fe10f64c0e2c4c48f2a4259"
+  },
+  "edits": [
+    {
+      "selector": ".harvest li:last-child",
+      "before": "Pick the main sprouting spear first",
+      "after": "For overwintering sprouting broccoli, pick the main spear first"
+    },
+    {
+      "selector": ".soil li:first-child",
+      "before": "; lime only if needed.",
+      "after": "."
+    }
+  ],
+  "sourceNote": "Canonical harvesting items 3–4 and the existing introduction identify the sprouting-broccoli harvest through winter and spring. Clarify the final Harvesting & storage paragraph without changing the sequence, January/April–May qualifications or later-shoot detail. Canonical data remains unchanged.",
+  "pHNote": "Remove generic lime-only-if-needed advice under standing guidance; retain the test-before-liming advice for the specific club-root problem. All six selected pest entries remain.",
+  "quickFactsNote": "All nine existing facts and their grouping retained after both-unit fit review. A wider Ready in entry increased the total block height, so it was not adopted."
+}
