@@ -14,3 +14,21 @@
 .sowing-review .front.paired-facts .fact-column {grid-template-columns:1fr!important}
 .sowing-review .front.paired-facts .fact-column article h3,.sowing-review .front.paired-facts .fact-column article p {display:inline!important;margin:0!important}
 .sowing-review .front.paired-facts .fact-column article h3 {margin-right:5px!important}
+
+.sowing-review .mushroom-compost {
+  margin: 3mm 0 0;
+  padding: 3mm 4mm;
+  background: var(--wash);
+  border-radius: 3mm 5mm 3mm 4mm;
+}
+.sowing-review .mushroom-compost h2 { margin: 0 0 1mm; color: var(--deep); }
+.sowing-review .mushroom-compost p { margin: 0; font: 400 9pt/1.28 'Nunito Sans', sans-serif; }
+.sowing-review .mushroom-compost .compost-stages {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5mm;
+  margin: 2.4mm 0;
+}
+.sowing-review .mushroom-compost h3 { margin: 0 0 .8mm; font: 900 10pt/1.15 'Nunito Sans', sans-serif; color: var(--deep); }
+.sowing-review .mushroom-compost .small-batch { border-top: .25mm solid var(--deep); padding-top: 1.5mm; }
+.sowing-review .compact-sequence img[src^="/images/planting/mushroom/kit-v1/"] { height: 21mm; }

@@ -207,6 +207,8 @@ binds copy, artwork, composition and both proofs; the [artwork record](../public
 retains prompts and direct references. The original generic transplant picture
 remains intact. The approved working spread awaits later main-book integration.
 
+The [Mushroom kit drawings](../publication/sowing-rollout/revisions/mushroom/ARTWORK.json) are approved as placed on page 67. The first shows white threads beneath a level clear lid; the second shows loose casing added from a sachet. The [approval record](../publication/sowing-rollout/revisions/mushroom/APPROVAL.json) identifies the final PNGs and both editions.
+
 Active coloured icons: 36 Style-A SVG/PNG pairs under
 `public/images/coloured-icons/style-a-v1/`. All approved by John on 23 September.
 [Hashes](COLOURED-SET-APPROVAL.json).

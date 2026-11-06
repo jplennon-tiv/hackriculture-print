@@ -5,6 +5,7 @@ import {reviseGuide,fitFront,fitBack} from '../../src/print/book/sowing-rollout/
 import {measureMockup} from '../../src/print/book/sowing-planting-mockups/layout.mjs';
 import {composeChicory,fitChicory} from '../../src/print/book/sowing-rollout/revisions/chicory-forcing.mjs';
 import {composeCourgette,fitCourgette} from '../../src/print/book/sowing-rollout/revisions/courgette-pocket.mjs';
+import {addMushroomCompostPanel} from '../../src/print/book/sowing-rollout/revisions/mushroom-compost.mjs';
 const args=process.argv.slice(2),revision=args.includes('--revision'),keys=args.filter(a=>a!=='--revision');
 if(revision&&keys.length!==1)throw Error('A one-off revision requires exactly one crop key.');
 const revisionPath=revision?'/revisions/'+keys[0]:'';
@@ -23,11 +24,14 @@ for(const raw of copy.split('\n')){
  spec[field||'methods'].push((field?line.slice(1):line).split('|').map(s=>s.trim()));
 }
 if(Object.keys(specs).length!==39)throw Error('Expected 39 individual guides');
+// A later proof can have its own directory while using the original crop snapshot.
+const selectedKeys = amendments?.cropKey ? [amendments.cropKey] : keys;
+if (selectedKeys.some(key => !Object.hasOwn(specs, key))) throw Error('Unknown crop in spread request.');
 const css=await fs.readFile('src/print/book/sowing-rollout/layout.css','utf8');
 const browser=await chromium.launch();let failures=0;
 try{
  for(const [key,spec] of Object.entries(specs)){
-  if(keys.length&&!keys.includes(key))continue;
+  if(selectedKeys.length&&!selectedKeys.includes(key))continue;
   const pages=[];
   try{
    for(const unit of ['imperial','metric']){
@@ -89,7 +93,7 @@ try{
           if([...factColumns.flat()].sort().join('|')!==[...names].sort().join('|'))throw Error('Fact regrouping must preserve every fact exactly once.');
           document.querySelectorAll('.fact-column').forEach((col,i)=>col.replaceChildren(...factColumns[i].map(name=>articles.find(e=>e.querySelector('h3').textContent===name))));
           if(factWidths)document.querySelector('.fact-grid').style.setProperty('grid-template-columns',factWidths.map(w=>w+'fr').join(' '),'important');
-          for(const name of wideFacts||[]){const el=articles.find(e=>e.querySelector('h3').textContent===name);if(!el)throw Error('Missing wide fact '+name);el.style.setProperty('grid-column','1 / -1','important');}
+          for(const name of (wideFacts||[]).map(pick)){const el=articles.find(e=>e.querySelector('h3').textContent===name);if(!el)throw Error('Missing wide fact '+name);el.style.setProperty('grid-column','1 / -1','important');}
         }
         for(const pest of additionalPests||[]){
           const tbody=document.querySelector('.pests tbody'),rows=[...tbody.rows];
@@ -111,6 +115,10 @@ try{
           for(const item of grid.children)item.style.setProperty('grid-column','span 2','important');
         }
       },{...amendments,unit});
+      if(amendments.composition==='mushroom-compost-v1'){
+        if(key!=='mushroom')throw Error('Mushroom compost panel is crop-specific.');
+        await page.evaluate(addMushroomCompostPanel,amendments.compostPanel);
+      }
       if(amendments.composition==='chicory-forcing-v1'){
         if(key!=='chicory')throw Error('Chicory composition is crop-specific');
         await page.evaluate(composeChicory,{unit,copy:amendments.copy});
@@ -154,8 +162,9 @@ try{
       const box=e=>{const r=e.getBoundingClientRect(),s=e.closest('.sheet').getBoundingClientRect();return [r.left-s.left,r.top-s.top,r.right-s.left,r.bottom-s.top].map(v=>v*.75);};
       const all=s=>[...document.querySelectorAll(s)];
       const sample=e=>({text:e.innerText,box:box(e)});
+      const panelBlocks=all('.mushroom-compost h2, .mushroom-compost h3, .mushroom-compost p').map(sample);
       return {actions:all('.fact-grid [data-action]').map(sample),additionalFacts:all('.fact-grid [data-added-fact]').map(sample),additionalPestCells:all('.pests [data-added-pest]').flatMap(row=>[...row.cells].map(sample)),methods:all('.sowing-method').map(sample),varieties:all('.varieties article').map(sample),pests:all('.pests tbody tr').map(e=>e.querySelector('th,strong')?.textContent),calendar:all('.calendar .month-row b').map(e=>e.textContent).filter(Boolean),
-       art:all('.planting img').map(e=>e.getAttribute('src')), nav:all('.recto nav a').map(e=>({text:e.textContent,box:box(e)})),text:all('.sheet').map(e=>e.innerText)};
+       ...(panelBlocks.length?{panelBlocks}:{}),art:all('.planting img').map(e=>e.getAttribute('src')), nav:all('.recto nav a').map(e=>({text:e.textContent,box:box(e)})),text:all('.sheet').map(e=>e.innerText)};
     });
     const expectedArt=amendments?.plantingArt??meta.art;
     if(m.pages.length!==2||!m.fontsReady||m.images.some(e=>!e.loaded)||m.methodFonts.some(e=>e.sizePt!==9)||proof.art.join('|')!==expectedArt.join('|'))throw Error('Invalid page/font/image coverage');

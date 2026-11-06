@@ -1,0 +1,58 @@
+{
+  "date": "2026-11-06",
+  "status": "For John’s review",
+  "baselinePdfSha256": {
+    "imperial": "8ccae394c8f66089718f1a296d5fbaed5cb1719549a735245ac3d9d17f5f8174",
+    "metric": "7b40a6e831b5a6797f000dd6f5aa4456e3d440d35ae0e0e3ac7485bba7bbf7de"
+  },
+  "edits": [
+    {
+      "selector": ".tips > div:nth-of-type(1) img",
+      "attribute": "src",
+      "before": "/images/coloured-icons/style-a-v1/protection.svg",
+      "after": "/images/coloured-icons/style-a-v1/shade.svg",
+      "alt": "Seed tray under a shade screen, out of direct sun"
+    },
+    {
+      "selector": ".remember > div:nth-child(3) h3",
+      "before": "Avoid acid soil.",
+      "after": "Water deeply."
+    },
+    {
+      "selector": ".remember > div:nth-child(3) p",
+      "before": "Lime if necessary and improve heavy clay with compost.",
+      "after": "Give hearting lettuces a good soak when the soil dries out."
+    },
+    {
+      "selector": ".soil li:nth-child(2)",
+      "before": "Lime acid soil towards neutral; compost heavy clay repeatedly.",
+      "after": "Add compost regularly to heavy clay."
+    }
+  ],
+  "factColumns": [
+    [
+      "Germination",
+      "Sowing depth",
+      "Harvest",
+      "{Yield (10 ft row)~Yield (3 m row)}",
+      "Ready in"
+    ],
+    [
+      "Sow",
+      "Plant out",
+      "Row spacing",
+      "Plant spacing"
+    ]
+  ],
+  "factWidths": [
+    48,
+    52
+  ],
+  "wideFacts": [
+    "Ready in"
+  ],
+  "assetSha256": {
+    "public/images/coloured-icons/style-a-v1/shade.svg": "412fd4f7d6a1e119cebe72190f2ad1e442a0a107d68bf7baeed1ed91ac6a33ba"
+  },
+  "sourceNote": "Use the existing shade icon for the summer seed-tray tip. Keep the tip wording and other icons. Replace routine liming directions with the source-backed deep-watering reminder for hearting lettuce (looking_after_the_crop). Retain the heavy-clay compost advice in Soil & preparation. Keep all nine Quick facts and their original values and icons, with extra width for sowing dates and spacing. Book-only changes."
+}

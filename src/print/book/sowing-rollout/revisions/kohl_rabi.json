@@ -1,0 +1,63 @@
+{
+  "date": "2026-11-06",
+  "status": "For John’s review",
+  "baselinePdfSha256": {
+    "imperial": "925aaa925d2ebdd6d7e92247057356a6b92fdf604680a6a7bd720122d2048bbd",
+    "metric": "f904fb18dcfefa73c344faab9054094873f1cc47de88b352801e31eb701732a1"
+  },
+  "edits": [
+    {
+      "selector": ".soil li:nth-child(1)",
+      "before": " Test soil before adding lime.",
+      "after": ""
+    }
+  ],
+  "factColumns": [
+    [
+      "Germination",
+      "Sowing depth",
+      "Harvest",
+      "{Yield (10 ft row)~Yield (3 m row)}",
+      "Ready in"
+    ],
+    [
+      "Sow",
+      "Row spacing",
+      "Plant spacing"
+    ]
+  ],
+  "factWidths": [
+    46,
+    54
+  ],
+  "wideFacts": [
+    "Ready in"
+  ],
+  "sourceNote": "Use the wider right column for the sowing window and both spacing entries. Full-width Ready in sits below the short facts on the left. All eight values and icons are retained. Remove the general soil-test/liming instruction in Soil & preparation. Keep the specific test-before-liming advice in the club root row.",
+  "additionalVarieties": [
+    {
+      "name": "Green Vienna",
+      "text": "An early variety with green skin and white flesh. Sow in spring or summer.",
+      "sourcePath": "varieties.Green Vienna",
+      "sources": [
+        "https://thomasetty.co.uk/seeds/vegetables-flowers-2026.pdf"
+      ]
+    },
+    {
+      "name": "Lanro",
+      "text": "An open-pollinated variety with pale green globes and white flesh. Pick them young while they are tender.",
+      "sourcePath": "varieties.Lanro",
+      "sources": [
+        "https://www.seedcooperative.org.uk/collections/kohlrabi"
+      ]
+    },
+    {
+      "name": "Purple Vienna",
+      "text": "A useful choice for a late crop. Pick the purple-skinned globes while they are still young and tender.",
+      "sourcePath": "varieties.Purple Vienna",
+      "sources": [
+        "https://premierseedsdirect.com/product/kohlrabi-purple-vienna-organic/"
+      ]
+    }
+  ]
+}

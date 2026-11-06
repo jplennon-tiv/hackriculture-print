@@ -71,7 +71,7 @@ def finish_one(info):
     w.set_page_label(0,1,style=PageLabelStyle.DECIMAL,start=info['folio'])
     w.add_metadata({'/Title':info['name']+' · '+unit+' review'});w.write(path)
     with pdfplumber.open(path) as pdf:
-        for i,parts in enumerate([info['actions']+info.get('additionalFacts',[])+info.get('varieties',[]),info['methods']+info.get('additionalPestCells',[])]):
+        for i,parts in enumerate([info['actions']+info.get('additionalFacts',[])+info.get('varieties',[])+info.get('panelBlocks',[]),info['methods']+info.get('additionalPestCells',[])]):
             for part in parts:
                 l,t,r,b=part['box']
                 tx=pdf.pages[i].crop((l-.1,t-.35,r+.1,b+.55)).extract_text(x_tolerance=1,y_tolerance=2) or ''

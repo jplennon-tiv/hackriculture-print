@@ -1,13 +1,13 @@
 # Current project handover
 
-Updated 5 November 2026. All five sample crops approved. John is reviewing the remaining 39 vegetable spreads one crop at a time.
+Updated 6 November 2026. All five sample crops approved. John is reviewing the remaining 39 vegetable spreads one crop at a time.
 This document owns current scope, decisions and next actions. Read README,
 AGENTS and SHARED-DATA first. John's latest instruction takes precedence;
 dated reports and approvals are evidence, not instructions to resume old work.
 
 ## Resume here
 
-**Active edit · crop-by-crop review of the 39-guide set.**
+**Resume with [Onions and Shallots, pages 68–69](../publication/sowing-rollout/REVIEW.html#onion_shallot/imperial), when John returns with his notes.** The five sample crops and 26 of the other 39 guides are approved through Mushroom. Continue the one-off review in both units, checking Quick facts fit and retaining pH or lime advice only for a definite need. Approved one-off spreads are queued for later book assembly.
 John approved the five sample guides, including the final Beetroot wording
 “Sow late May–Jul for storage.” Exact approved review versions are recorded for
 [carrot](../publication/sowing-planting-mockups/carrot-revision/APPROVAL.json),
@@ -38,10 +38,17 @@ freezes both editions. It adds the requested planting dates and wet-soil qualifi
 to Plant tubers, replaces the severe-frost cloche with the straw-mulch icon, removes
 the general acidity qualification and rebalances Quick facts. Both units remain
 two pages with all three pest entries. [Scope and checks](../publication/sowing-rollout/revisions/artichoke_jerusalem/README.md).
-Eighteen amendments through Cucumber, Greenhouse are approved; the other 21
-crops in this set remain for individual review. Cucumber, Outdoor is the current
-amendment: reuse the approved Courgettes and Marrows fruit-on-board icon for its
-first Final tip, with the usual Quick facts and pH checks.
+John approved the Endive single SOW row and wet-leaf icon and the regrouped
+Florence Fennel Quick facts on 6 November. [Endive approval](../publication/sowing-rollout/revisions/endive/APPROVAL.json) · [Florence Fennel approval](../publication/sowing-rollout/revisions/florence_fennel/APPROVAL.json).
+On 6 November John approved the single-row yields and requested the master and both editions be updated. The two master records now carry the bulb counts and their spacing basis. John also approved both imperial and metric spreads. [Garlic approval](../publication/sowing-rollout/revisions/garlic_yield/APPROVAL.json) · [Florence Fennel approval](../publication/sowing-rollout/revisions/florence_fennel_yield/APPROVAL.json). Garlic at 56–57 has seven Quick facts. Florence Fennel at 54–55 has eight. Each preview includes its previous individual spread for comparison. [Garlic](../publication/sowing-rollout/revisions/garlic_yield/REVIEW.html) · [Florence Fennel](../publication/sowing-rollout/revisions/florence_fennel_yield/REVIEW.html) · [Research and receipts](../../../hackriculture-resources/summaries/garlic-florence-fennel-yield/SOURCES.md). The [44-guide yield check](../publication/sowing-rollout/README.md#yield-coverage-across-all-44-guides) identified Mushroom and Oriental Leaves as the only two gaps. John chose to leave Yield out for both crops.
+
+[Kale at 58–59](../publication/sowing-rollout/revisions/kale/REVIEW.html) is [approved in both editions](../publication/sowing-rollout/revisions/kale/APPROVAL.json). Quick facts group the timing entries together. Soil & preparation loses the general lime instruction, while the club root table entry retains its test-before-liming precaution.
+
+[Kohl Rabi at 60–61](../publication/sowing-rollout/revisions/kohl_rabi/REVIEW.html) is [approved in both editions](../publication/sowing-rollout/revisions/kohl_rabi/APPROVAL.json). The new second row brings the list to six varieties, adding Green Vienna, Lanro and Purple Vienna from the master catalogue. Both editions have 10.36 mm above the opening footer. The wider Quick facts column groups sowing and spacing; the club root entry carries the only liming advice.
+
+[Lettuce at 64–65](../publication/sowing-rollout/revisions/lettuce/REVIEW.html) is [approved in both editions](../publication/sowing-rollout/revisions/lettuce/APPROVAL.json). The first Final tip now illustrates shading a seed tray. The dates and spacings share a wider Quick facts column. The routine lime instructions are removed and the reminder highlights watering hearting lettuces.
+
+[Mushroom at 66–67](../publication/sowing-rollout/revisions/mushroom/REVIEW.html) is [approved in both editions](../publication/sowing-rollout/revisions/mushroom/APPROVAL.json), including the level-lid redraw. The working spread identifies Mushroom flies, explains growing oysters on straw and illustrates casing a plastic kit. [Sources, copy and checks](../publication/sowing-rollout/revisions/mushroom/README.md).
 
 The [Asparagus amendment](../publication/sowing-rollout/revisions/asparagus/REVIEW.html)
 is approved on 5 November, with its [exact approval record](../publication/sowing-rollout/revisions/asparagus/APPROVAL.json).
@@ -203,7 +210,7 @@ Both two-page editions retain four varieties and all original artwork, with
 [Sources and checks](../publication/sowing-rollout/revisions/cucumber_greenhouse/README.md).
 
 The [Cucumber, Outdoor amendment](../publication/sowing-rollout/revisions/cucumber_outdoor/REVIEW.html)
-is pending review, folios 50–51. The first Final tip reuses the exact approved
+is approved on 5 November, folios 50–51, with its [exact approval record](../publication/sowing-rollout/revisions/cucumber_outdoor/APPROVAL.json). The first Final tip reuses the exact approved
 Courgettes and Marrows fruit-on-board icon, replacing the cloche. All wording,
 ten Quick facts, four varieties and eight selected pest rows remain. The original
 Poor fruit set omission is unchanged. Quick facts fit as they are and no routine

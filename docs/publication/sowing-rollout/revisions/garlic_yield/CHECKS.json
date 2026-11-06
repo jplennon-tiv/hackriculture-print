@@ -1,0 +1,43 @@
+{
+  "sourceSha256": "e2858f3cbd738df26976ff743da3c7a47e953ef0ead2120c4b5f139bbba1928b",
+  "comparison": "../garlic/",
+  "checks": [
+    "Master and rollback byte hashes match save receipt",
+    "Yield copy agrees with master and unit labels",
+    "Original page text, sowing illustrations, retained pest entries and footer links compared",
+    "Unit-specific preview, comparison link, image and PDF available; edition switch checked"
+  ],
+  "editions": {
+    "imperial": {
+      "yieldLabel": "Yield (10 ft row)",
+      "yieldValue": "About 20 ordinary garlic bulbs or 10 elephant garlic bulbs.",
+      "folios": [
+        "56",
+        "57"
+      ],
+      "footerClearanceMm": [
+        10.31,
+        10.28
+      ],
+      "retainedVarieties": 4,
+      "retainedPests": 6,
+      "pdfSha256": "083eed13db313626a2ee505b7f62442f59f45c203844e2b18359962149dd578a"
+    },
+    "metric": {
+      "yieldLabel": "Yield (3 m row)",
+      "yieldValue": "About 20 ordinary garlic bulbs or 10 elephant garlic bulbs.",
+      "folios": [
+        "56",
+        "57"
+      ],
+      "footerClearanceMm": [
+        10.31,
+        10.28
+      ],
+      "retainedVarieties": 4,
+      "retainedPests": 6,
+      "pdfSha256": "33363e70ba685597446672146bce0d985ffd3d1d82a7b3bda48ebc49b67d5c4e"
+    }
+  },
+  "visualReview": "Inspected both rendered spreads. The new Yield fact sits in the left Quick facts column. The varieties, practical page and footers fit."
+}

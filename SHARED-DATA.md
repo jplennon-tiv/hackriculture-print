@@ -62,6 +62,7 @@ approval states remain unchanged. Affected companion source signatures remain
 truthfully stale; the separate compact proof is now
 [approved](docs/publication/sowing-rollout/revisions/celery/APPROVAL.json). Do not
 repeat the consumed save or treat it as approval of old companion output.
+On 6 November John approved single-row bulb counts for Garlic and Florence Fennel. A guarded two-record save added the qualified yield and its spacing evidence to each master. The prior layouts retain their historical signatures. [Garlic receipt](docs/publication/sowing-rollout/revisions/garlic_yield/SAVE-RECEIPT.json) · [Florence Fennel receipt](docs/publication/sowing-rollout/revisions/florence_fennel_yield/SAVE-RECEIPT.json).
 Book-specific guide rewrites live in separate exact-source-checked working drafts
 under `src/print/book/`. Opening and cover copy lives in the shared
 [book-layout JSON folder](../hackriculture-data/book-layout/README.md), read by

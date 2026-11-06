@@ -1,0 +1,38 @@
+{
+  "date": "2026-11-06",
+  "status": "For John’s review",
+  "baselinePdfSha256": {
+    "imperial": "35977b267bcb7bc1977de0765d27ca594f6211b111fcdbaa23510c283166153c",
+    "metric": "2968602d0f3ebca10048cfa81e09e5f9f3e3b0a5a1a1185ff9d1ed5ddb81b900"
+  },
+  "edits": [
+    {
+      "selector": ".soil li:nth-child(2)",
+      "before": "wet ground; lime only if a soil test indicates a need.",
+      "after": "wet ground."
+    }
+  ],
+  "factColumns": [
+    [
+      "Germination",
+      "Sowing depth",
+      "Row spacing",
+      "Yield per plant",
+      "Plant spacing"
+    ],
+    [
+      "Sow",
+      "Transplant",
+      "Harvest",
+      "Ready in"
+    ]
+  ],
+  "factWidths": [
+    46,
+    54
+  ],
+  "wideFacts": [
+    "Plant spacing"
+  ],
+  "sourceNote": "Keep the nine original facts and icons. Group sowing, transplanting and harvest timings in the wider right column. Give the plant spacing and variety qualification the full left column width. Remove the general lime instruction and retain the specific test-before-liming precaution in the club root table row."
+}

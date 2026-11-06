@@ -1,0 +1,50 @@
+{
+  "date": "2026-11-06",
+  "status": "Approved by John in the Mushroom spread on 6 November 2026, including the level-lid redraw.",
+  "method": "Transparent original illustrations made with built-in ImageGen. The first image was redrawn from the open tub and the earlier closed drawing to align its clear lid with the rim.",
+  "sources": [
+    {
+      "url": "https://www.suttons.co.uk/all/mushroom-windowsill-kit-white-button_MH-12527",
+      "basis": "A kit with base tray, transparent lid and separate casing; watch for white threads before loosely spreading the topping."
+    },
+    {
+      "url": "https://www.mrfothergills.co.nz/blogs/all/white-button-mushroom-kits",
+      "basis": "White growth is the visual cue; spread the casing loosely. Its plastic-lined kit is left open after casing, so the second scene avoids prescribing a lid position after setup."
+    }
+  ],
+  "images": [
+    {
+      "path": "public/images/planting/mushroom/kit-v1/check-mycelium-v2.png",
+      "caption": "Check for white threads",
+      "references": [
+        "public/images/planting/mushroom/kit-v1/spread-casing.png",
+        "public/images/planting/mushroom/kit-v1/check-mycelium.png"
+      ],
+      "prompt": "Redraw the FIRST illustration of a two-step gardening guide: a CLOSED mushroom kit. Final is one isolated object on true transparent background. The user noticed the lid on the previous sketch is crooked. Use reference 1 (the OPEN kit) as the authority for the exact squat slate-blue moulded tub shape, rim, FRONT-CENTRED viewpoint and the existing fine pencil/watercolour illustration style. Imagine that same open tub with a precisely fitted clear lid; REMOVE hand, pouch, and falling casing. Reference 2 is the earlier CLOSED drawing to correct: keep its pre-casing subject, compost and fine white mycelium, but discard its skewed lid geometry AND camera tilt. Absolutely level, symmetrical, centred perspective: camera looking straight towards the centre of the long front side from slightly above, no yaw or roll; FRONT long rim is horizontal; REAR long rim is horizontal; left and right short edges recede equally as mirror images. The clear lid is a shallow rigid rounded rectangular cap: its flat top is level, shallow sidewalls are equal height all around, four corners sit directly above the corresponding tub corners and its thin lower lip clips flush onto the tub’s full rim with uniform overlap. Draw the lid as one simple closed, continuous moulded shape. The left and right front corners are exactly the same height and back corners exactly the same height; no cant, no gap, no displaced edge, no floating corner. Through the transparent lid see brown compost with several fine soft wispy patches of white fungal threads. A soft pale blue edge and two small reflections make the closed transparent plastic clear at a very small print size without clouding the view. Match the scale of reference 1's tub: tub nearly fills a wide horizontal 2:1 frame, modest clear margins, complete silhouette. No text, no diagrams, no double image, no labels, no wood, no mushrooms, no scene/ground or shadows. Entire tub, one level lid only.",
+      "sha256": "01792c18a1291416948d03b2faab067ec0f381b9c0d8665aedbfbfcac651825a"
+    },
+    {
+      "path": "public/images/planting/mushroom/kit-v1/spread-casing.png",
+      "caption": "Spread the casing",
+      "references": [
+        "public/images/planting/mushroom/kit-v1/check-mycelium.png",
+        "public/images/planting/mushroom/maintain-moisture-v1.png"
+      ],
+      "prompt": "Second matching spot illustration for the same gardening book. Use image 1 as the EXACT container and drawing style to continue; image 2 only shows the book's scale of hand/action. On transparent background redraw the identical slate-blue injection moulded plastic grow tub, the same squat proportions and slight overhead front three-quarter view, at exactly the next step. Its transparent lid has been taken completely out of frame. The growing medium has now been colonised densely, showing small creamy-white cottony, feathery mycelium across its surface. Illustrate the moment of ADDING THE CASING: one small plain pale-cream paper sachet, tipped nearly sideways and downwards, entering above the top right of the kit; a clean hand with fingers pinching the far end of the little sachet. Dark brown loose crumbly damp casing falls from the sachet in a short clearly visible stream onto the surface of the compost. Show the result: most of the right half of the surface is covered by a thin even dark casing layer with a ragged boundary, leaving white colonised compost clearly recognisable at left. This is loose earth, NOT water and NOT grain. The tub is the main subject: hold the sachet low over the rim, hand small, so framing remains wide and low with little increase in total height over image 1. Gentle natural hand pose. All kit edges visible. Keep the lid, spray bottles, mushrooms, labels, text, arrows, backdrop, wood and ground shadow out of this second image. No other container. True alpha background. Loose confident instructional line and restrained colour-pencil shading, low detail for very small print size.",
+      "sha256": "70f99d3c37cadfa5810fd48764220a2c68443c9b5eb0e6863aa6e80a90e5d51d"
+    }
+  ],
+  "previousDrawings": [
+    {
+      "path": "public/images/planting/mushroom/kit-v1/check-mycelium.png",
+      "caption": "Check for white threads",
+      "references": [
+        "public/images/planting/chicory/forcing-v1/forcing-sequence.png",
+        "public/images/planting/mushroom/spawned-compost-v1.png"
+      ],
+      "prompt": "Create ONE isolated horizontal instructional spot illustration, first of a two-step sequence for The Vegetable Guru gardening book. Illustration will print only about 33 mm wide, so it must read as a clean manufactured plastic mushroom kit immediately. Transparent background, compact wide composition, entire object in frame. The two attached illustrations are house STYLE references only: lightly hand-drawn outlines, warm coloured-pencil / restrained watercolour, simplified credible shapes, easy on cream paper. Do not copy their subjects, pots, timber or cutaway. Subject: small rectangular rounded-corner, slate/blue-grey moulded plastic grow tub, a smooth tapered base with a narrow rolled plastic rim, fitted with a shallow, rigid, CLEAR colourless propagation lid, with rounded corners and very subtly blue edges. Three-quarter view from above, show long front and short right side. Through the lid you can clearly see dark brown mushroom compost with a few soft patches and branching wispy WHITE mycelium ON ITS SURFACE. The lid must read as transparent plastic with two restrained glints, very clear and closed for this single starter stage. No fruiting mushrooms. No separate packets or props, no hands, no lettering, no labels, no arrows, no wood, no grain, no screws, no cutaway, no roots, no ghosted diagram, no background, no cast shadow. Broad, squat silhouette, about twice as wide as it is tall including lid, modest clear margin all around, warm neutral paper look within the drawing only.",
+      "sha256": "a8916301c4cdecfb7bbb074f3ba4985cd32536048b5fa66b279e661c710234c5",
+      "reason": "Superseded at John’s request to level the lid."
+    }
+  ]
+}

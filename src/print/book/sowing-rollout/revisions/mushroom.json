@@ -1,0 +1,132 @@
+{
+  "date": "2026-11-06",
+  "status": "For John’s review",
+  "baselinePdfSha256": {
+    "imperial": "e09ef8dfb1d59d366ecf3263d76b27e52e853de0039fb2239e81d9d42f5d904a",
+    "metric": "93dd4a51d466ffc075a9c6c2410c4a4e50adfd9752bd5ae8cb4f9c44c5ad0167"
+  },
+  "edits": [
+    {
+      "selector": ".key-risks article:first-child h3",
+      "before": "Pests",
+      "after": "Mushroom flies"
+    },
+    {
+      "selector": ".key-risks article:first-child p",
+      "before": "Mushroom flies can infest compost and damage developing mushrooms.",
+      "after": "Small flies around the trays may be the first sign. Their larvae feed in the compost and can damage young mushrooms."
+    },
+    {
+      "selector": ".pests tbody tr:first-child th",
+      "before": "Pests",
+      "after": "Mushroom flies"
+    },
+    {
+      "selector": ".intro",
+      "before": "This guide covers cultivated button and chestnut mushrooms (Agaricus bisporus), grown",
+      "after": "Mushrooms grow"
+    },
+    {
+      "selector": ".intro",
+      "before": " Preparing compost from raw ingredients needs controlled composting and conditioning; other mushroom species need different substrates and conditions.",
+      "after": ""
+    },
+    {
+      "selector": ".soil li:first-child",
+      "before": "Button mushrooms need prepared mushroom compost, not garden soil. Buy fresh spawned compost or a kit. Commercial compost often uses straw, manure and gypsum, processed before spawning.",
+      "after": "Kit mushrooms grow on prepared mushroom compost. For a small crop, buy a kit with the spawn already growing through the compost."
+    },
+    {
+      "selector": ".soil li:nth-child(2)",
+      "before": "Home preparation needs initial composting plus controlled pasteurisation and conditioning to remove ammonia. Looks or a fixed number of turns cannot prove readiness; use a complete tested method and suitable equipment.",
+      "remove": true
+    },
+    {
+      "selector": ".soil li:last-child",
+      "before": "After colonisation, button mushrooms need a moist casing layer. Follow the kit’s casing material and timing; keep moist, never saturated. Other species may not need casing.",
+      "after": "Kits usually come with a separate bag of casing. This is the loose top layer that holds moisture and helps the mushrooms form."
+    },
+    {
+      "selector": ".sowing-method:has(+ .sowing-method) p",
+      "before": "Use fresh, ready-spawned button-mushroom compost in its bag, bucket or box. Stand it in shade away from direct sun.",
+      "after": "Stand the kit out of direct sunlight. Check when to add the casing. Some kits are ready straight away, while others need a few days for white threads to spread across the compost."
+    },
+    {
+      "selector": ".sowing-method + .sowing-method p",
+      "before": "Follow the kit instructions for when to add the casing layer. Moisten it lightly and keep it damp without soaking the compost.",
+      "after": "When it’s ready, spread the casing loosely over the surface and keep it damp. Follow the kit instructions for temperature and whether to leave the lid on."
+    },
+    {
+      "selector": ".planting h2",
+      "before": "Establishing the crop",
+      "after": "Starting a mushroom kit"
+    },
+    {
+      "selector": ".planting .compact-sequence figure:first-child img",
+      "attribute": "src",
+      "before": "/images/planting/mushroom/spawned-compost-v1.png",
+      "after": "/images/planting/mushroom/kit-v1/check-mycelium-v2.png"
+    },
+    {
+      "selector": ".planting .compact-sequence figure:first-child figcaption",
+      "before": "Start with spawned compost",
+      "after": "Check for white threads"
+    },
+    {
+      "selector": ".planting .compact-sequence figure:last-child img",
+      "attribute": "src",
+      "before": "/images/planting/mushroom/maintain-moisture-v1.png",
+      "after": "/images/planting/mushroom/kit-v1/spread-casing.png"
+    },
+    {
+      "selector": ".planting .compact-sequence figure:last-child figcaption",
+      "before": "Maintain moisture",
+      "after": "Spread the casing"
+    }
+  ],
+  "factColumns": [
+    [
+      "Start kit"
+    ],
+    [
+      "Harvest",
+      "Ready in"
+    ]
+  ],
+  "factWidths": [
+    44,
+    56
+  ],
+  "wideFacts": [
+    "Start kit"
+  ],
+  "composition": "mushroom-compost-v1",
+  "compostPanel": {
+    "title": "Fancy making your own growing medium?",
+    "intro": "If you don’t want to buy a complete kit, oyster mushrooms will grow in clean straw from a friendly farmer or bedding straw from a pet shop. You will need a suitable PVC box or strong plastic bag to keep the medium contained and clean. A spawn supplier can recommend a suitable wrapping or container and may be able to supply it. Buying commercial spawn is always recommended – you need to be certain what type of mushrooms you are growing!",
+    "stages": [
+      {
+        "title": "Prepare the straw",
+        "text": "Put the straw in a heatproof container and pour boiling water over it. Follow the supplier’s advice on how much water to use and how long to soak it. Let the straw cool to room temperature and drain off the excess water."
+      },
+      {
+        "title": "Add the oyster spawn",
+        "text": "With clean hands, layer the damp straw and spawn in your chosen wrapping or container. Follow the supplier’s advice on air holes. Once white threads have spread through the straw, give the mushrooms fresh air and indirect daylight."
+      }
+    ],
+    "smallBatch": {
+      "title": "Button and chestnut mushrooms.",
+      "text": "These have more exacting requirements and usually require additional ingredients for the medium, such as manure and gypsum. Again, your spawn supplier can advise."
+    }
+  },
+  "sourceNote": "The shared source entry Pests describes mushroom flies. Both book headings use that name. The opening covers mushroom kits generally. Casing research on page 67 concerns button and chestnut kits. The panel uses John’s Foragers Table oyster straw-log instructions. The book gives general directions for bought oyster spawn. The supplier may recommend or supply suitable wrapping or a container and can advise on quantities, soak times and openings. The withdrawn button-compost timetable remains archived; no Yield entry is needed.",
+  "plantingArt": [
+    "/images/planting/mushroom/kit-v1/check-mycelium-v2.png",
+    "/images/planting/mushroom/kit-v1/spread-casing.png"
+  ],
+  "plantingImageAlignment": "bottom",
+  "assetSha256": {
+    "public/images/planting/mushroom/kit-v1/spread-casing.png": "70f99d3c37cadfa5810fd48764220a2c68443c9b5eb0e6863aa6e80a90e5d51d",
+    "public/images/planting/mushroom/kit-v1/check-mycelium-v2.png": "01792c18a1291416948d03b2faab067ec0f381b9c0d8665aedbfbfcac651825a"
+  }
+}

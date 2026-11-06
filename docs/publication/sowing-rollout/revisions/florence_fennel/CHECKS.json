@@ -1,0 +1,140 @@
+{
+  "sourceSha256": "89c321bbbe9e4c50fcb65b2f1b9cba98081ce404a9fd94135073e87aebd82e2b",
+  "checks": [
+    "Quick facts layout",
+    "Soil pH and liming references"
+  ],
+  "editions": {
+    "imperial": {
+      "quickFacts": [
+        [
+          {
+            "label": "Harvest",
+            "value": "Jul – Oct",
+            "lines": 1,
+            "icon": "/images/coloured-icons/style-a-v1/harvest.svg"
+          },
+          {
+            "label": "Sowing depth",
+            "value": "5/8 in.",
+            "lines": 1,
+            "icon": "/images/coloured-icons/style-a-v1/depth.svg"
+          },
+          {
+            "label": "Row spacing",
+            "value": "12 in. between rows",
+            "lines": 1,
+            "icon": "/images/coloured-icons/style-a-v1/row_spacing.svg"
+          },
+          {
+            "label": "Plant spacing",
+            "value": "12 in. for full bulbs, 6 in. for baby bulbs.",
+            "lines": 1,
+            "icon": "/images/coloured-icons/style-a-v1/plant_spacing.svg"
+          }
+        ],
+        [
+          {
+            "label": "Sow",
+            "value": "Jun–Jul outdoors. Use an early variety under cover in May.",
+            "lines": 2,
+            "icon": "/images/coloured-icons/style-a-v1/sow.svg"
+          },
+          {
+            "label": "Plant out",
+            "value": "Late May–Jul, before roots fill the modules.",
+            "lines": 2,
+            "icon": "/images/coloured-icons/style-a-v1/planting.svg"
+          },
+          {
+            "label": "Ready in",
+            "value": "From sowing: baby bulbs ~6 weeks; full bulbs 12–16 weeks",
+            "lines": 2,
+            "icon": "/images/coloured-icons/style-a-v1/ready_in.svg"
+          }
+        ]
+      ],
+      "routinePhOrLimingReferences": 0,
+      "footerClearanceMm": [
+        24.76,
+        16.28
+      ],
+      "proofSha256": "8c9f6e1b304ce0a622b7baee4745a14ba19afee0f33d1235b3fa6878f8bab05e",
+      "varieties": 3,
+      "pests": [
+        "Bolting or stemmy bulbs",
+        "Small or dry bulbs",
+        "Lower sheath rot",
+        "Frost"
+      ],
+      "copyComparedWithBaseline": true,
+      "readerLinksChecked": true
+    },
+    "metric": {
+      "quickFacts": [
+        [
+          {
+            "label": "Harvest",
+            "value": "Jul – Oct",
+            "lines": 1,
+            "icon": "/images/coloured-icons/style-a-v1/harvest.svg"
+          },
+          {
+            "label": "Sowing depth",
+            "value": "1.5 cm",
+            "lines": 1,
+            "icon": "/images/coloured-icons/style-a-v1/depth.svg"
+          },
+          {
+            "label": "Row spacing",
+            "value": "30 cm between rows",
+            "lines": 1,
+            "icon": "/images/coloured-icons/style-a-v1/row_spacing.svg"
+          },
+          {
+            "label": "Plant spacing",
+            "value": "30 cm for full bulbs, 15 cm for baby bulbs.",
+            "lines": 1,
+            "icon": "/images/coloured-icons/style-a-v1/plant_spacing.svg"
+          }
+        ],
+        [
+          {
+            "label": "Sow",
+            "value": "Jun–Jul outdoors. Use an early variety under cover in May.",
+            "lines": 2,
+            "icon": "/images/coloured-icons/style-a-v1/sow.svg"
+          },
+          {
+            "label": "Plant out",
+            "value": "Late May–Jul, before roots fill the modules.",
+            "lines": 2,
+            "icon": "/images/coloured-icons/style-a-v1/planting.svg"
+          },
+          {
+            "label": "Ready in",
+            "value": "From sowing: baby bulbs ~6 weeks; full bulbs 12–16 weeks",
+            "lines": 2,
+            "icon": "/images/coloured-icons/style-a-v1/ready_in.svg"
+          }
+        ]
+      ],
+      "routinePhOrLimingReferences": 0,
+      "footerClearanceMm": [
+        24.76,
+        16.28
+      ],
+      "proofSha256": "1c23c0c3038aff3b3f8fecfba71e2a8dcc80c81daf1c6055b3434f88938b62fb",
+      "varieties": 3,
+      "pests": [
+        "Bolting or stemmy bulbs",
+        "Small or dry bulbs",
+        "Lower sheath rot",
+        "Frost"
+      ],
+      "copyComparedWithBaseline": true,
+      "readerLinksChecked": true
+    }
+  },
+  "visualReview": "Inspected both final rendered spreads. Sow, Plant out and Ready in share one column. Each spacing value has room for its full wording at book size."
+}

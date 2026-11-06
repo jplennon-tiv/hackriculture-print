@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-06",
+  "crop": "florence_fennel",
+  "actor": "admin-correction: single-row Garlic and Florence Fennel bulb yields approved by John on 6 November 2026, recorded by AI:Codex",
+  "result": {
+    "changed": 2,
+    "revision": "c9223eba15472f66ba31815483c7082c7a74137d411094b846857865a09c8824"
+  },
+  "authorisation": "John approved the researched bulb counts and requested their addition to the master and both print editions.",
+  "record": "vegetables/florence_fennel/florence_fennel.json",
+  "backup": "/Users/johnlennon/Documents/web_site/hackriculture-data/backups/admin/2026-11-06T07-40-52.928Z-a72a2c44-92cb-476b-a856-12238ed22275",
+  "backupFile": "/Users/johnlennon/Documents/web_site/hackriculture-data/backups/admin/2026-11-06T07-40-52.928Z-a72a2c44-92cb-476b-a856-12238ed22275/1.json",
+  "beforeSha256": "89c321bbbe9e4c50fcb65b2f1b9cba98081ce404a9fd94135073e87aebd82e2b",
+  "afterSha256": "f274ac4c6a2159a6e1f3a1451f3d4dc34c8fe564418f5f460f63d5201cd11827",
+  "exactPreviousBytesVerified": true,
+  "changedContentPaths": [
+    "yield",
+    "metadata.yield_research"
+  ],
+  "publishedFigure": "About 10 full-size bulbs or 20 baby bulbs.",
+  "layoutDependency": {
+    "previous": "fnv1a64:5b9bc4ba528108e4",
+    "current": "fnv1a64:9efb6ae4198c157a",
+    "warning": "Vegetable saved layout: layout source changed; automatic fitting used."
+  },
+  "research": "../hackriculture-resources/summaries/garlic-florence-fennel-yield/SOURCES.md"
+}

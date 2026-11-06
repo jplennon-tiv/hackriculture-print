@@ -1,0 +1,43 @@
+{
+  "sourceSha256": "f274ac4c6a2159a6e1f3a1451f3d4dc34c8fe564418f5f460f63d5201cd11827",
+  "comparison": "../florence_fennel/",
+  "checks": [
+    "Master and rollback byte hashes match save receipt",
+    "Yield copy agrees with master and unit labels",
+    "Original page text, sowing illustrations, retained pest entries and footer links compared",
+    "Unit-specific preview, comparison link, image and PDF available; edition switch checked"
+  ],
+  "editions": {
+    "imperial": {
+      "yieldLabel": "Yield (10 ft row)",
+      "yieldValue": "About 10 full-size bulbs or 20 baby bulbs.",
+      "folios": [
+        "54",
+        "55"
+      ],
+      "footerClearanceMm": [
+        15.54,
+        16.28
+      ],
+      "retainedVarieties": 3,
+      "retainedPests": 4,
+      "pdfSha256": "232e91ea434b9ed10969b6f79c2a598596b4034097eab46801a1e04285d5014c"
+    },
+    "metric": {
+      "yieldLabel": "Yield (3 m row)",
+      "yieldValue": "About 10 full-size bulbs or 20 baby bulbs.",
+      "folios": [
+        "54",
+        "55"
+      ],
+      "footerClearanceMm": [
+        15.54,
+        16.28
+      ],
+      "retainedVarieties": 3,
+      "retainedPests": 4,
+      "pdfSha256": "d9b6832d6cc8462cc27fafcdcd3f12444d1f91338d5c91fc0f55e57dad54db1d"
+    }
+  },
+  "visualReview": "Inspected both rendered spreads. The new Yield fact sits in the left Quick facts column. The varieties, practical page and footers fit."
+}

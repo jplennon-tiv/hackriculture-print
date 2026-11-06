@@ -1,0 +1,60 @@
+{
+  "date": "2026-11-06",
+  "status": "For John’s review",
+  "baselinePdfSha256": {
+    "imperial": "b66cbddeb2b804fa596959bb2157acae3efe95a5cf7c582019b2b4a2ee6b7049",
+    "metric": "ed1b2947f324c7f64cd339f88d625288875895b999a0f6072ab46aed3ebd8b33"
+  },
+  "edits": [
+    {
+      "selector": ".calendar .sowing_time span:nth-of-type(3)",
+      "attribute": "class",
+      "before": "",
+      "after": "extra"
+    },
+    {
+      "selector": ".calendar .sowing_time span:nth-of-type(4)",
+      "attribute": "class",
+      "before": "",
+      "after": "extra"
+    },
+    {
+      "selector": ".tips > div:last-child img",
+      "attribute": "src",
+      "before": "/images/coloured-icons/style-a-v1/protection.svg",
+      "after": "/images/planting/endive/revision-v1/wet-leaf.svg",
+      "alt": "Water droplets on an endive leaf"
+    },
+    {
+      "selector": ".soil li:first-child",
+      "before": "soil around pH 6–7.",
+      "after": "soil."
+    }
+  ],
+  "factColumns": [
+    [
+      "Harvest",
+      "Germination",
+      "Sowing depth",
+      "Yield ({10 ft~3 m} row)",
+      "Row spacing"
+    ],
+    [
+      "Early sowing",
+      "Sow",
+      "Plant spacing",
+      "Ready in"
+    ]
+  ],
+  "factWidths": [
+    48,
+    52
+  ],
+  "wideFacts": [
+    "Row spacing"
+  ],
+  "assetSha256": {
+    "public/images/planting/endive/revision-v1/wet-leaf.svg": "fd5f9acc5d5000b642b874fd1ee95a40dd3fa2f3b3ebf6b752a2f2b8ecdd2e2c"
+  },
+  "sourceNote": "The Endive record, calendar.sowing_time, gives March–April for both indoor sowing and the extended season. The reviewed Early sowing fact gives the same dates and specifies warmth. At John’s request the existing SOW row shows March and April in the muted sowing colour and May–August in the usual bright colour. Quick facts carry the indoor qualification. The last tip illustrates wet foliage. The usual review groups the longer seasonal facts together and removes the routine pH range from soil preparation."
+}

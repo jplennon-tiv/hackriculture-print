@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-06",
+  "crop": "garlic",
+  "actor": "admin-correction: single-row Garlic and Florence Fennel bulb yields approved by John on 6 November 2026, recorded by AI:Codex",
+  "result": {
+    "changed": 2,
+    "revision": "c9223eba15472f66ba31815483c7082c7a74137d411094b846857865a09c8824"
+  },
+  "authorisation": "John approved the researched bulb counts and requested their addition to the master and both print editions.",
+  "record": "vegetables/garlic/garlic.json",
+  "backup": "/Users/johnlennon/Documents/web_site/hackriculture-data/backups/admin/2026-11-06T07-40-52.928Z-a72a2c44-92cb-476b-a856-12238ed22275",
+  "backupFile": "/Users/johnlennon/Documents/web_site/hackriculture-data/backups/admin/2026-11-06T07-40-52.928Z-a72a2c44-92cb-476b-a856-12238ed22275/0.json",
+  "beforeSha256": "a3aa66f20271c01959aed1e9d4bb7cfb65dadf264f1128fa532b7844c4fdd1dc",
+  "afterSha256": "e2858f3cbd738df26976ff743da3c7a47e953ef0ead2120c4b5f139bbba1928b",
+  "exactPreviousBytesVerified": true,
+  "changedContentPaths": [
+    "yield",
+    "metadata.yield_research"
+  ],
+  "publishedFigure": "About 20 ordinary garlic bulbs or 10 elephant garlic bulbs.",
+  "layoutDependency": {
+    "previous": "fnv1a64:5b9bc4ba528108e4",
+    "current": "fnv1a64:e379704d60742a16",
+    "warning": "Vegetable saved layout: layout source changed; automatic fitting used."
+  },
+  "research": "../hackriculture-resources/summaries/garlic-florence-fennel-yield/SOURCES.md"
+}

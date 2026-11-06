@@ -1,6 +1,6 @@
 # Cucumber, Outdoor — corrected Final tips icon
 
-5 November 2026. [Review both editions](REVIEW.html). **For John’s review.**
+5 November 2026. [Review both editions](REVIEW.html). **Approved by John.** The [exact approval record](APPROVAL.json) freezes both editions and their supporting files.
 Folios 50–51 remain a two-page 185 × 240 mm spread. No canonical edit or
 main-book integration is made.
 
@@ -33,4 +33,4 @@ running through `start.command`, the reproduction route is
 `node scripts/sowing-rollout/build.mjs --revision cucumber_outdoor`, followed by
 the bundled Python runtime with
 `scripts/sowing-rollout/finish.py --revision cucumber_outdoor`.
-Do not regenerate the collection or overwrite approved amendments.
+Do not regenerate the collection or overwrite approved amendments. This approval now prevents rebuilding these files; use a separate revision for later changes.

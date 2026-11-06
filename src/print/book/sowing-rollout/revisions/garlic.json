@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-06",
+  "status": "For John’s review",
+  "baselinePdfSha256": {
+    "imperial": "5e8dbb5ca2d0dddb1cf669889c6cd77050d0a3f2064a527f79246bc517705a1b",
+    "metric": "7c0c1095809ea011237e5d15c03d2c0d514ad71d5cb991a1922bb84bc617b509"
+  },
+  "edits": [
+    {
+      "selector": ".sheet.front",
+      "attribute": "class",
+      "before": "tight-opening",
+      "after": "tight-opening paired-facts"
+    }
+  ],
+  "factColumns": [
+    [
+      "Plant cloves",
+      "Harvest",
+      "Ready in"
+    ],
+    [
+      "Clove depth",
+      "Row spacing",
+      "Plant spacing"
+    ]
+  ],
+  "factWidths": [
+    50,
+    50
+  ],
+  "sourceNote": "Two equally wide Quick facts columns put the planting and harvest timing on the left and depth and spacing on the right. Both units use the existing paired-facts style so that the depth qualification and the ordinary and elephant garlic spacings have room. The printed advice contains no reference to soil acidity, pH or lime."
+}
