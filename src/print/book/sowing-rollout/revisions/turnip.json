@@ -1,0 +1,37 @@
+{
+  "date": "2026-11-10",
+  "status": "For John’s review",
+  "baselinePdfSha256": {
+    "imperial": "ac0ecaccf68b2ffbb04d2bf0f1fcffe8cc147d4c78045c5becdeb24f067cb1da",
+    "metric": "c0c49c5a6fcb8304bfab5371eb2b74d2bd2adb44d606c58e80ba131fe8ed25e4"
+  },
+  "edits": [
+    {
+      "selector": ".soil li:nth-child(2)",
+      "before": "Test acid soil before liming; drain wet ground.",
+      "after": "Drain wet ground."
+    }
+  ],
+  "factColumns": [
+    [
+      "Harvest",
+      "Germination",
+      "Sowing depth",
+      "Row spacing",
+      "Ready in"
+    ],
+    [
+      "Sow",
+      "Yield ({10 ft~3 m} row)",
+      "Plant spacing"
+    ]
+  ],
+  "factWidths": [
+    50,
+    50
+  ],
+  "wideFacts": [
+    "Ready in"
+  ],
+  "sourceNote": "The two standard checks only. Regroup all eight Quick facts to balance the columns, preserving all exact values and qualifications. Remove the general soil-testing/liming clause from Soil & preparation while retaining drainage advice. Retain the specific Boron deficiency soil-test and treatment caution. All other book wording, varieties, selected pests and artwork remain unchanged. Canonical soil advice was read through readRecord; no master changes."
+}

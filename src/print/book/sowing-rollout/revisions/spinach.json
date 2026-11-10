@@ -1,0 +1,79 @@
+{
+  "date": "2026-11-10",
+  "status": "For John’s review",
+  "baselinePdfSha256": {
+    "imperial": "d852cfd7af6545c75d7f38a57603a6de3e152c5cf194a689e4cd32bb2f4a9834",
+    "metric": "ed216581cd512f31390b59d9e54b711e6342427f14eeb6d7133b3f1f6810cb2c"
+  },
+  "edits": [
+    {
+      "selector": ".varieties article:nth-child(1) small",
+      "before": "Summer",
+      "after": "TRUE SPINACH · SUMMER"
+    },
+    {
+      "selector": ".varieties article:nth-child(2) small",
+      "before": "Summer",
+      "after": "TRUE SPINACH · SUMMER"
+    },
+    {
+      "selector": ".varieties article:nth-child(3) small",
+      "before": "Summer",
+      "after": "TRUE SPINACH · SUMMER"
+    },
+    {
+      "selector": ".varieties article:nth-child(4) small",
+      "before": "Winter",
+      "after": "TRUE SPINACH · WINTER"
+    },
+    {
+      "selector": ".soil li:nth-child(1)",
+      "before": " Aim for pH 6–6.5; test before liming and avoid over-liming.",
+      "after": ""
+    },
+    {
+      "selector": ".intro",
+      "before": "New Zealand spinach is a separate, frost-tender summer substitute for hot weather; perpetual spinach (spinach beet) is a leaf beet.",
+      "after": "New Zealand spinach is a separate, frost-tender summer substitute for hot weather, usually sold simply as ‘New Zealand spinach’ without a variety name. Perpetual spinach (spinach beet) is a leaf beet."
+    }
+  ],
+  "additionalVarieties": [
+    {
+      "name": "New Zealand spinach",
+      "groupLabel": "SUMMER ALTERNATIVE",
+      "text": "Heat-tolerant but frost-tender; a spreading summer alternative. Cook the tender shoots in water and discard the water.",
+      "sourcePaths": [
+        "varieties.new_zealand_variety.text",
+        "soil_facts.7.text"
+      ],
+      "sources": [
+        "https://www.chilternseeds.co.uk/item_1366_new_zealand_spinach",
+        "https://vitalseeds.co.uk/product/new-zealand-spinach-new-zealand-spinach-organic/"
+      ]
+    }
+  ],
+  "varietyColumns": 3,
+  "factColumns": [
+    [
+      "Harvest",
+      "Germination",
+      "Sowing depth",
+      "Yield ({10 ft~3 m} row)",
+      "Ready in"
+    ],
+    [
+      "Sow",
+      "Row spacing",
+      "Plant spacing",
+      "New Zealand spinach"
+    ]
+  ],
+  "factWidths": [
+    50,
+    50
+  ],
+  "wideFacts": [
+    "Ready in"
+  ],
+  "sourceNote": "Clarify every original named selection as true spinach using the existing small seasonal labels. Preserve all four descriptions and classify New Zealand spinach as a separate summer alternative, not an invented true-spinach cultivar. Its description and cooking instruction follow the exact canonical entry; UK supplier listings support the common sales name. Regroup all nine Quick facts without changing values. Remove routine soil pH/liming advice but retain the specific manganese-deficiency diagnostic and precaution. No master changes."
+}

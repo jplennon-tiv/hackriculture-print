@@ -1,0 +1,72 @@
+{
+  "date": "2026-11-07",
+  "status": "For John’s review",
+  "baselinePdfSha256": {
+    "imperial": "783d7935bdf57b948a562420b26be0824ad4bfb0f5ec4b7795c99d8a9602b5fb",
+    "metric": "50bdfb73758b081314ef471f1bb3e7db2e0f7a550caa039c6346bfe34cbdc08f"
+  },
+  "edits": [
+    {
+      "selector": ".varieties article:nth-child(2) p",
+      "before": "A traditional parsnip grown for long roots and good flavour. Keep as the familiar open-pollinated alternative.",
+      "after": "A traditional parsnip with long roots and good flavour. Best grown in deep, stone-free soil."
+    },
+    {
+      "selector": ".soil li:nth-child(2)",
+      "before": "Rake clean; test acid soil before liming to pH 6.5.",
+      "after": "Rake clean."
+    }
+  ],
+  "factColumns": [
+    [
+      "Harvest",
+      "Germination",
+      "Sowing depth",
+      "Yield ({10 ft~3 m} row)",
+      "Ready in"
+    ],
+    [
+      "Sow",
+      "Row spacing",
+      "Plant spacing"
+    ]
+  ],
+  "factWidths": [
+    50,
+    50
+  ],
+  "sourceNote": "John requests layman’s language for Tender and True. Replace the editorial breeding description with a practical description: traditional, long roots and good flavour retained from varieties.Tender and True.short_text; deep stone-free soil from its full text. Remove routine test/liming-to-pH instruction from Soil & preparation under the standing rule. Retain the crop-specific acid-soil risk in the Canker diagnostic. Book-only changes, with canonical data unchanged.",
+  "quickFactsNote": "John requested a better-balanced second pass. Use equal-width columns: four short facts in a two-by-two grid with Ready in spanning the full width beneath; Sow and both spacings on the right. Retain all eight facts, exact values, qualifications, icons and type sizes. This supersedes the lopsided four-left/four-right arrangement.",
+  "wideFacts": [
+    "Ready in"
+  ],
+  "additionalVarieties": [
+    {
+      "name": "White Gem",
+      "text": "Sweet, stocky roots for shallower or heavier soil, with some canker resistance.",
+      "sourcePath": "varieties.White Gem",
+      "sources": [
+        "https://www.suttons.co.uk/vegetable-seeds/parsnip-seeds/parsnip-seeds-white-gem_MH-1333"
+      ]
+    },
+    {
+      "name": "Hollow Crown Improved",
+      "text": "Long, tapering roots for cooking or showing. Give them deep, loose soil without stones.",
+      "sourcePath": "varieties.Hollow Crown Improved",
+      "sources": [
+        "https://www.stclareseeds.com/product/parsnip-hollow-crown-improved/",
+        "https://www.rhs.org.uk/plants/173862/pastinaca-sativa-hollow-crown-improved/details"
+      ]
+    },
+    {
+      "name": "The Student",
+      "text": "Medium-sized, thick, tapering roots with a sweet flavour.",
+      "sourcePath": "varieties.The Student",
+      "sources": [
+        "https://thomasetty.co.uk/seeds/vegetables-flowers-2026.pdf",
+        "https://www.thompson-morgan.com/brands-heritage"
+      ]
+    }
+  ],
+  "varietySelectionNote": "Use the spare opening-page space for three more existing master entries: White Gem (rank 6), Hollow Crown Improved and The Student (rank 4). Descriptions are condensed only from their canonical full text; the existing top three and all master rankings remain unchanged. Supplier listings checked by exact name. Avonresister (rank 4) remains in the master but is omitted from this print selection because a current supplier could not be verified. No unavailable/discontinued claim is made. Hollow Crown Improved retains its exact canonical identity; no synonym merge with Hollow Crown or Improved Hollow Crowned is inferred."
+}

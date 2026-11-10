@@ -1,0 +1,73 @@
+{
+  "date": "2026-11-10",
+  "status": "For John’s review",
+  "baselinePdfSha256": {
+    "imperial": "829fe72075566a2fb2f79a0f37207f97bd284ea987c7b9eb24433fbcbe7d717c",
+    "metric": "9d8190657bed8a2a122f97117aa4d049e62ef78949ebbd5a30e7af34294618c8"
+  },
+  "edits": [
+    {
+      "selector": ".soil li:nth-child(2)",
+      "before": "seedbed; test acid soil before liming.",
+      "after": "seedbed."
+    },
+    {
+      "selector": ".varieties article:nth-child(2) p",
+      "before": " Retain as an established, currently listed UK choice.",
+      "after": ""
+    },
+    {
+      "selector": ".care li:nth-child(3)",
+      "before": "; diagnose brown heart before adding nutrients.",
+      "after": "."
+    }
+  ],
+  "factColumns": [
+    [
+      "Harvest",
+      "Germination",
+      "Sowing depth",
+      "Row spacing",
+      "Yield ({10 ft~3 m} row)",
+      "Ready in"
+    ],
+    [
+      "Sow",
+      "Plant spacing",
+      "Plant out"
+    ]
+  ],
+  "factWidths": [
+    55,
+    45
+  ],
+  "sourceNote": "Regroup all nine Quick facts and remove the generic liming clause while retaining specific Boron deficiency advice. Add Joan, Best of All and Ruby from the canonical reserve catalogue in a second variety row. John then requests removal of the internal editorial sentence from Marian and the duplicated brown-heart clause from care point 3. All other copy, facts, pests and artwork remain unchanged. No canonical edits.",
+  "additionalVarieties": [
+    {
+      "name": "Joan",
+      "text": "Good-flavoured roots for autumn cropping. Sow in late spring or early summer.",
+      "sourcePath": "varieties.Joan.text",
+      "sources": [
+        "https://realseeds.co.uk/swedes.html"
+      ]
+    },
+    {
+      "name": "Best of All",
+      "text": "A hardy, reliable swede with purple skin and yellow flesh.",
+      "sourcePath": "varieties.Best of All.text",
+      "sources": [
+        "https://www.growseed.co.uk/vegetables/swede-seeds/best-of-all.html"
+      ]
+    },
+    {
+      "name": "Ruby",
+      "text": "Sweet, yellow-fleshed roots with purple skin. Winter-hardy, with resistance to powdery mildew.",
+      "sourcePath": "varieties.Ruby.text",
+      "sources": [
+        "https://www.growseed.co.uk/vegetables/swede-seeds/ruby.html"
+      ]
+    }
+  ],
+  "varietyColumns": 3,
+  "varietySelectionNote": "Three canonical rank-4 reserves, listed by current UK suppliers under their exact names. Descriptions use canonical facts only. Joan’s spacing instructions remain in the master; the page already gives both spacings. Best of All drops the generic catalogue-availability phrase. Ruby’s canonical description is retained verbatim. Kings replacing Ruby with Gowrie does not imply unavailability elsewhere: Growseed currently lists Ruby. Master rankings and full catalogue remain unchanged."
+}

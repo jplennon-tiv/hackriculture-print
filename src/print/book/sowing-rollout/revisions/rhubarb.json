@@ -1,0 +1,64 @@
+{
+  "date": "2026-11-07",
+  "status": "For John’s review",
+  "baselinePdfSha256": {
+    "imperial": "e31e36c963bdbdb2f1586328a94529820966f036094c0cadc42a6413a69b01d6",
+    "metric": "24e5f8b310d2ddde8b14944ecd8dae86ea14c03beb29aa70822e85cd2a5d64c1"
+  },
+  "edits": [
+    {
+      "selector": ".sowing-method:nth-child(1) p",
+      "before": " Crowns preserve a named variety.",
+      "after": ""
+    },
+    {
+      "selector": ".soil li:nth-child(2)",
+      "before": " Rhubarb tolerates slightly acid soil; do not lime routinely.",
+      "after": ""
+    },
+    {
+      "selector": ".varieties > div",
+      "attribute": "style",
+      "before": "",
+      "after": "grid-template-columns:repeat(4,minmax(0,1fr))!important;"
+    }
+  ],
+  "factColumns": [
+    [
+      "Harvest",
+      "Yield per mature plant",
+      "Row spacing",
+      "Plant spacing"
+    ],
+    [
+      "Plant crowns",
+      "Sow",
+      "Ready in"
+    ]
+  ],
+  "factWidths": [
+    50,
+    50
+  ],
+  "sourceNote": "Book-only removal requested by John: remove the final sentence about crown divisions retaining a named variety. The earlier explanatory replacement was judged self-evident. All practical planting steps and seed-growing advice remain. Group both spacing facts together and crown/seed timings together, preserving all seven values and icons. Remove the general acid-soil/liming sentence under John’s standing rule; preserve compost, drainage and root-space guidance. No master changes.",
+  "additionalVarieties": [
+    {
+      "name": "Fulton's Strawberry Surprise",
+      "text": "Vigorous plants with bright red stalks and a well-balanced flavour. A useful maincrop choice.",
+      "sources": [
+        "https://www.rhs.org.uk/plants/126771/rheum-%C3%97-hybridum-fultons-strawberry-surprise/details",
+        "https://rwwalpole.co.uk/plants/fultons-strawberry-surprise-rhubarb/",
+        "https://www.otterfarm.co.uk/product/fultons-strawberry-surprise/"
+      ]
+    },
+    {
+      "name": "Stockbridge Arrow",
+      "text": "Long, thick red stalks with good flavour. Also suitable for forcing.",
+      "sources": [
+        "https://www.rhs.org.uk/plants/87687/rheum-%C3%97-hybridum-stockbridge-arrow/details",
+        "https://rwwalpole.co.uk/plants/stockbridge-arrow-rhubarb/"
+      ]
+    }
+  ],
+  "varietyExpansionNote": "John requests more varieties to use the spare opening-page space. Retain all four existing entries and add two researched book-only choices in a third row of two. The unused canonical Champagne Early entry remains a provisional reserve because its precise modern identity is not established; do not conflate it with Champagne or Red Champagne. Canonical variety catalogue and ranks unchanged. All original type sizes retained."
+}

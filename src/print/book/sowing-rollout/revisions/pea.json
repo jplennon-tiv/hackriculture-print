@@ -1,0 +1,77 @@
+{
+  "date": "2026-11-07",
+  "status": "For John’s review",
+  "baselinePdfSha256": {
+    "imperial": "5a5cfb8b8a8f3add16d3c2ee9cad9ef2ae23ccdc5ef0ed9b15bbd21f503d3b8c",
+    "metric": "fb425ac25159fe09d5b9190fa665efb517d9cdb150676d6c25e204c650d5299c"
+  },
+  "edits": [
+    {
+      "unit": "imperial",
+      "selector": ".fact-column:last-child article:nth-child(3) p",
+      "before": " or about 3 in. each way in deep beds",
+      "after": ""
+    },
+    {
+      "unit": "metric",
+      "selector": ".fact-column:last-child article:nth-child(3) p",
+      "before": " or about 8 cm each way in deep beds",
+      "after": ""
+    }
+  ],
+  "factColumns": [
+    [
+      "Harvest",
+      "Germination",
+      "Sowing depth",
+      "Yield ({10 ft~3 m} row)",
+      "Ready in"
+    ],
+    [
+      "Sow",
+      "Row spacing",
+      "Seed spacing"
+    ]
+  ],
+  "factWidths": [
+    50,
+    50
+  ],
+  "wideFacts": [
+    "Ready in"
+  ],
+  "additionalVarieties": [
+    {
+      "name": "Meteor",
+      "groupLabel": "Round",
+      "text": "A compact round-seeded pea for colder or exposed sites. Useful for early crops.",
+      "sourcePath": "varieties.Round varieties.Meteor",
+      "sources": [
+        "https://www.kingsseeds.com/30313-pea-meteor",
+        "https://www.wholesale.molesseeds.co.uk/conventional-vegetables/d-p/pea/first-early/pea-meteor-vpe025"
+      ]
+    },
+    {
+      "name": "Douce Provence",
+      "groupLabel": "Round",
+      "text": "A sweet, round-seeded pea with robust growth.",
+      "sourcePath": "varieties.Round varieties.Douce Provence",
+      "sources": [
+        "https://www.kingsseedsdirect.com/pea-07-pea-douce-provence-p-passport-apisum-sativum-bgb40557-clotbelow-dgb"
+      ]
+    },
+    {
+      "name": "Norli",
+      "groupLabel": "Mangetout",
+      "text": "Compact mangetout with sweet, flat pods. Pick while the peas inside are tiny.",
+      "sourcePath": "varieties.Mangetout varieties.Norli",
+      "sources": [
+        "https://www.chilternseeds.co.uk/item_1371Y_pea_mange_tout_norli_seeds"
+      ]
+    }
+  ],
+  "quickFactsNote": "Retain all eight facts and their icons; remove only the deep-bed seed-spacing alternative as requested. Use equal-width columns, with Ready in spanning the left column below four shorter facts; Sow and both spacing entries occupy the right column.",
+  "sourceNote": "John requests a round-seeded variety and removal of the deep-bed instruction from Seed spacing. Add Meteor, already a rank-6 Round varieties entry, without replacing the existing five selections or changing master ranks. Its compact habit and suitability for cold/exposed sites come from the master; round seed and earliness are confirmed by current seed suppliers. Heights are omitted because suppliers differ from the master; no canonical measurements change. There are no pH or liming references in this working spread. Original page-2 copy, ten pest rows and artwork remain.",
+  "varietyColumns": 4,
+  "varietyExpansionNote": "John asks whether more varieties will fit. Add two rank-6 selections from the existing master: Douce Provence for sweetness and robust growth, and Norli for compact mangetout. Keep all six existing entries and use two rows of four at unchanged type sizes. Preliminary DOM trials in both units found nine entries in the three-column design overflowed by 8.78 mm; eight in four columns left 7.12 mm above the footer. The scoped column override does not alter other crops."
+}

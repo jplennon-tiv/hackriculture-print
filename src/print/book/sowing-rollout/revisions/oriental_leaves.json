@@ -1,0 +1,39 @@
+{
+  "date": "2026-11-07",
+  "status": "For John’s review",
+  "baselinePdfSha256": {
+    "imperial": "3496b1bbb9a32c27b6772421baf6d19b583df609bfa0771e072cb416662788af",
+    "metric": "58217d0db09177fccce3afe72ab0867d1883d6767fa94d30395a9d0ca3a99327"
+  },
+  "edits": [
+    {
+      "selector": ".soil li:first-child",
+      "before": " Most of these brassica crops dislike very acid ground.",
+      "after": ""
+    }
+  ],
+  "factColumns": [
+    [
+      "Sow",
+      "Plant out",
+      "Harvest"
+    ],
+    [
+      "Sowing depth",
+      "Row spacing",
+      "Plant spacing",
+      "Ready in"
+    ]
+  ],
+  "factWidths": [
+    48,
+    52
+  ],
+  "wideFacts": [
+    "Sow",
+    "Plant out",
+    "Harvest"
+  ],
+  "sourceNote": "Standing two checks only. Remove the general acidity statement from Soil & preparation, retaining compost, drainage and moisture-retention advice. Preserve the agreed Yield omission. Book-only revision; original artwork and all remaining advice retained, canonical data unchanged.",
+  "quickFactsNote": "Give Sow and Plant out the full left-column width, with Harvest below; group depth, spacings and Ready in on the right. Retain all seven facts, measurements, qualifiers and icons, and use the same order in both units."
+}

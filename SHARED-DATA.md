@@ -63,6 +63,15 @@ truthfully stale; the separate compact proof is now
 [approved](docs/publication/sowing-rollout/revisions/celery/APPROVAL.json). Do not
 repeat the consumed save or treat it as approval of old companion output.
 On 6 November John approved single-row bulb counts for Garlic and Florence Fennel. A guarded two-record save added the qualified yield and its spacing evidence to each master. The prior layouts retain their historical signatures. [Garlic receipt](docs/publication/sowing-rollout/revisions/garlic_yield/SAVE-RECEIPT.json) · [Florence Fennel receipt](docs/publication/sowing-rollout/revisions/florence_fennel_yield/SAVE-RECEIPT.json).
+On 10 November John explicitly requested two replacement Greenhouse Tomato Final
+tips and matching icons in the core data. One guarded save revises care entry 1
+(retaining gradual removal and healthy-foliage cautions), adds mulching entry 10
+and updates the Final tips extract with his exact wording and pruning/mulching
+icons. [Exact backup and receipt](docs/publication/sowing-rollout/revisions/tomato_greenhouse/SAVE-RECEIPT.json).
+The changed extract is a source-linked draft. Other historical extract/layout
+approvals and signatures are preserved, correctly stale where affected. The
+variety catalogue/ranks remain unchanged; Red Alert is selected only in the
+separate working proof. Do not repeat this consumed save.
 Book-specific guide rewrites live in separate exact-source-checked working drafts
 under `src/print/book/`. Opening and cover copy lives in the shared
 [book-layout JSON folder](../hackriculture-data/book-layout/README.md), read by

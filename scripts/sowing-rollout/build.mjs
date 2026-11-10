@@ -62,13 +62,13 @@ try{
       if(sha(await fs.readFile(baseline.pdf))!==amendments.baselinePdfSha256[unit])throw Error('Reviewed baseline changed: '+unit);
       const before=await page.evaluate(()=>[...document.querySelectorAll('.sheet')].map(e=>e.innerText));
       if(before.join('\n')!==baseline.text.join('\n'))throw Error('Recreated baseline text differs: '+unit);
-      await page.evaluate(({edits,factColumns,factWidths,wideFacts,additionalVarieties,additionalFacts,additionalPests,unit})=>{
+      await page.evaluate(({edits,factColumns,factWidths,wideFacts,additionalVarieties,varietyColumns,additionalFacts,additionalPests,unit})=>{
         const pick=s=>s.replace(/\{([^~{}]+)~([^{}]+)\}/g,(_,a,b)=>unit==='imperial'?a:b);
         for(const change of edits){
           if(change.unit&&change.unit!==unit)continue;
           const elements=[...document.querySelectorAll(change.selector)];
           if(elements.length!==1)throw Error('Expected exactly one '+change.selector);
-          const el=elements[0],old=change.attribute?el.getAttribute(change.attribute):el.textContent;
+          const el=elements[0],old=change.attribute?(el.getAttribute(change.attribute)??''):el.textContent;
           if(!old.includes(change.before)||old.indexOf(change.before)!==old.lastIndexOf(change.before))throw Error('Changed source for '+change.selector);
           if(change.remove===true){
             if(change.attribute)throw Error('Element removal cannot target an attribute.');
@@ -108,9 +108,19 @@ try{
         }
         if(additionalVarieties?.length){
           const grid=document.querySelector('.varieties > div'),template=grid.querySelector('article');
+          if(varietyColumns!==undefined){
+            if(![3,4].includes(varietyColumns))throw Error('Variety columns must be three or four.');
+            grid.style.setProperty('grid-template-columns',`repeat(${varietyColumns*2},1fr)`,'important');
+          }
           for(const variety of additionalVarieties){
             if([...grid.querySelectorAll('h3')].some(e=>e.textContent===variety.name))throw Error('Duplicate variety '+variety.name);
-            const item=template.cloneNode(true);item.querySelector('h3').textContent=variety.name;item.querySelector('p').textContent=variety.text;item.querySelector('small')?.remove();grid.append(item);
+            const item=template.cloneNode(true);item.querySelector('h3').textContent=variety.name;item.querySelector('p').textContent=variety.text;
+            if(variety.groupLabel){
+              let label=item.querySelector('small');
+              if(!label){label=document.createElement('small');item.insertBefore(label,item.querySelector('h3'));}
+              label.textContent=variety.groupLabel;
+            }else item.querySelector('small')?.remove();
+            grid.append(item);
           }
           for(const item of grid.children)item.style.setProperty('grid-column','span 2','important');
         }
@@ -131,8 +141,10 @@ try{
       await page.evaluate(fitFront);
       if(amendments.composition==='chicory-forcing-v1')trial.revision=await page.evaluate(fitChicory);
       if(amendments.composition==='courgette-pocket-v1')trial.revision=await page.evaluate(fitCourgette);
-      if(amendments.plantingImageAlignment)imageAlignment=await page.evaluate(mode=>{
-        const images=[...document.querySelectorAll('.compact-sequence img')];
+      if(amendments.plantingImageAlignment)imageAlignment=await page.evaluate(({mode,sources})=>{
+        const allImages=[...document.querySelectorAll('.compact-sequence img')];
+        const images=sources?allImages.filter(img=>sources.includes(img.getAttribute('src'))):allImages;
+        if(!images.length||(sources&&(new Set(sources).size!==sources.length||sources.some(src=>allImages.filter(img=>img.getAttribute('src')===src).length!==1))))throw Error('Planting alignment sources must each match exactly one image');
         const entries=images.map(img=>{
           const canvas=document.createElement('canvas');canvas.width=img.naturalWidth;canvas.height=img.naturalHeight;
           const ctx=canvas.getContext('2d',{willReadFrequently:true});ctx.drawImage(img,0,0);
@@ -155,7 +167,7 @@ try{
           return {src:e.img.getAttribute('src'),beforeAlignmentMm:mm(coordinate(e)-sheetTop),shiftMm:mm(shift),afterAlignmentMm:mm(target-sheetTop),captionTopMm:mm(e.img.closest('figure').querySelector('figcaption').getBoundingClientRect().top-sheetTop)};
         });
         return {method:'Visible artwork '+mode+' alignment, alpha > 8; existing image sizes and caption baselines retained',images:records};
-      },amendments.plantingImageAlignment);
+      },{mode:amendments.plantingImageAlignment,sources:amendments.plantingImageAlignmentSources});
     }
     const m=await page.evaluate(measureMockup);
     const proof=await page.evaluate(()=>{

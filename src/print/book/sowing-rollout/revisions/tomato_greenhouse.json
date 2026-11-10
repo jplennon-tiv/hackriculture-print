@@ -1,0 +1,117 @@
+{
+  "date": "2026-11-10",
+  "status": "For John’s review",
+  "baselinePdfSha256": {
+    "imperial": "4631a993675f5c6af443fda635141b48facdb506d183abd7f01975bc45d0b497",
+    "metric": "0a850f1e4ba95e00e537d3237d8337846fbeddc2d1e23356a2959ed11c3384ec"
+  },
+  "edits": [
+    {
+      "selector": ".intro",
+      "before": "Grow cordon tomatoes on a single stem for fruit from summer into autumn. Give them bright light, steady moisture and good ventilation. Pots and growbags dry out quickly.",
+      "after": "Greenhouse tomatoes offer flavours rarely found in shops. Cordons grow tall: train one main stem up a cane or string, removing side shoots. Bush types branch naturally; normally leave their side shoots and growing tips intact. Both need bright light, steady moisture and good ventilation. Pots and growbags dry out quickly."
+    },
+    {
+      "selector": ".fact-column:first-child article:first-child p",
+      "before": "Late Feb–Mar. Late Jan only with heat and good light.",
+      "after": "Late Feb–Mar. Late Jan only with a heated greenhouse and bright light."
+    },
+    {
+      "selector": ".remember > div:nth-child(2) p",
+      "before": "Remove side shoots from cordons; bush types need a different routine.",
+      "after": "Remove side shoots from cordons; leave bush side shoots to grow."
+    },
+    {
+      "selector": ".soil li:first-child",
+      "before": "soil with compost",
+      "after": "soil with added compost"
+    },
+    {
+      "selector": ".care li:first-child",
+      "before": "Bush and semi-determinate pruning differs.",
+      "after": "For semi-determinate varieties, follow the seed packet."
+    },
+    {
+      "selector": ".harvest li:first-child",
+      "before": "apple or banana can help.",
+      "after": "apple or banana can help ripen the remaining tomatoes."
+    },
+    {
+      "selector": ".varieties article:nth-child(4) p",
+      "before": "A cordon tomato producing many small red cherry fruits. Complements orange Sungold with a familiar red-fruited alternative.",
+      "after": "A cordon with many small red cherry fruits: a red-fruited alternative to orange Sungold."
+    },
+    {
+      "selector": ".varieties article:nth-child(5) p",
+      "before": "A plum tomato for sauces and cooking. Give it warm protected conditions and distinguish it from fresh-eating cherry selections.",
+      "after": "A plum tomato for sauces and cooking rather than fresh salads. Give it warm, protected conditions."
+    },
+    {
+      "selector": ".tips div:nth-of-type(1) p",
+      "before": "Check leaf undersides often; manage whitefly while numbers are low.",
+      "after": "Remove lower leaves as the plants grow tall: this aids ventilation and the extra light will help the lower fruit to ripen."
+    },
+    {
+      "selector": ".tips div:nth-of-type(2) p",
+      "before": "Avoid excess high-potash feed: nutrient balance matters as much as quantity.",
+      "after": "Mulch soil beds and growbags with compost or well-rotted manure as the plants grow; tomatoes are heavy feeders."
+    },
+    {
+      "selector": ".tips div:nth-of-type(1) img",
+      "attribute": "src",
+      "before": "/images/coloured-icons/style-a-v1/protection.svg",
+      "after": "/images/coloured-icons/style-a-v1/pruning.svg"
+    },
+    {
+      "selector": ".tips div:nth-of-type(2) img",
+      "attribute": "src",
+      "before": "/images/coloured-icons/style-a-v1/feeding.svg",
+      "after": "/images/coloured-icons/style-a-v1/mulching.svg"
+    },
+    {
+      "selector": ".care li:first-child",
+      "before": "; keep healthy leaves to feed and shade fruit.",
+      "after": "."
+    }
+  ],
+  "factColumns": [
+    [
+      "Harvest",
+      "Germination",
+      "Yield per plant",
+      "Plant under glass",
+      "Ready in"
+    ],
+    [
+      "Sow indoors",
+      "Containers",
+      "Bed spacing"
+    ]
+  ],
+  "factWidths": [
+    53,
+    47
+  ],
+  "wideFacts": [
+    "Ready in"
+  ],
+  "sourceNote": "Book-only revision. Expand the introduction to explain cordons and bushes, using canonical greenhouse and outdoor tomato descriptions of their growth habits. Replace vague reminder and care qualifications with actionable copy. Keep January pale: the canonical late-January heated-greenhouse exception is corroborated by Garden Organic; specify the heated greenhouse and bright light in Quick facts. Late February–March remains the normal sowing period, supported by RHS. Retain all five varieties and add the canonical bush variety Red Alert, with greenhouse suitability corroborated by RHS and Thompson & Morgan. Shorten the two neighbouring lower-row descriptions to preserve meaning at three-column width. Apply John’s soil and ripening wording. John explicitly requests the two replacement Final tips and icons in the core JSON. Apply his wording verbatim in the working spread; the guarded save receipt binds the core care and Final tips changes. Other earlier book changes remain book-only. John’s latest book correction removes the healthy-leaves feeding/shading clause from the care paragraph to avoid conflict with Final tips. This is a working-page deletion; the previous guarded core-data save remains unchanged.",
+  "additionalVarieties": [
+    {
+      "name": "Red Alert",
+      "groupLabel": "Bush",
+      "text": "An early bush cherry tomato for greenhouse beds or pots. Leave the side shoots to grow.",
+      "sourcePath": "varieties.bush_and_semi_determinate_varieties.Red Alert.text",
+      "sources": [
+        "https://www.rhs.org.uk/plants/293949/solanum-lycopersicum-red-alert/details",
+        "https://www.thompson-morgan.com/p/tomato-red-alert/812TM"
+      ]
+    }
+  ],
+  "varietyColumns": 3,
+  "sourceUpdate": {
+    "beforeSha256": "8d35031f0705bc89ad595ca9c10a9e4a9dba9fcb1c91c5cc3bf7827e3527933d",
+    "afterSha256": "1dd9d90cfb4b6033530125b2ac45a6e4913086fefc9259bbdbcbf63e1d01cb72",
+    "receipt": "docs/publication/sowing-rollout/revisions/tomato_greenhouse/SAVE-RECEIPT.json"
+  }
+}

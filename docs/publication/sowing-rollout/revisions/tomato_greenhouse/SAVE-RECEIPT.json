@@ -1,0 +1,132 @@
+{
+  "date": "2026-11-10",
+  "crop": "tomato_greenhouse",
+  "actor": "admin-correction: John requested two replacement greenhouse tomato Final tips and matching icons in the core data on 10 November 2026; recorded by AI:Codex",
+  "authorisation": "John requested the supplied two Final tips, their matching icons and the core JSON update. The six-variety compact spread is still pending review.",
+  "result": {
+    "changed": 1,
+    "revision": "727d102ba8f3cd92e029d7a87a2fadc1338f7a15dcf1a1338a99c660cecafc3a"
+  },
+  "record": "vegetables/tomato_greenhouse/tomato_greenhouse.json",
+  "backup": "/Users/johnlennon/Documents/web_site/hackriculture-data/backups/admin/2026-11-10T22-23-40.202Z-0f08edd1-45c3-4a7b-82ba-b48aee227b6c",
+  "backupFile": "/Users/johnlennon/Documents/web_site/hackriculture-data/backups/admin/2026-11-10T22-23-40.202Z-0f08edd1-45c3-4a7b-82ba-b48aee227b6c/0.json",
+  "beforeSha256": "8d35031f0705bc89ad595ca9c10a9e4a9dba9fcb1c91c5cc3bf7827e3527933d",
+  "afterSha256": "1dd9d90cfb4b6033530125b2ac45a6e4913086fefc9259bbdbcbf63e1d01cb72",
+  "exactPreviousBytesVerified": true,
+  "changedContentPaths": [
+    "looking_after_the_crop.1.text",
+    "looking_after_the_crop.1.short_text",
+    "looking_after_the_crop.1.icon",
+    "looking_after_the_crop.10",
+    "ai_print_extracts.sections.final_tips.value.0.text",
+    "ai_print_extracts.sections.final_tips.value.0.icon",
+    "ai_print_extracts.sections.final_tips.value.1.text",
+    "ai_print_extracts.sections.final_tips.value.1.icon",
+    "ai_print_extracts.sections.final_tips.dependencies.key_notes",
+    "ai_print_extracts.sections.final_tips.dependencies.looking_after_the_crop",
+    "ai_print_extracts.sections.final_tips.dependencies.harvesting",
+    "ai_print_extracts.sections.final_tips.dependencies.sowing_and_planting",
+    "ai_print_extracts.sections.final_tips.dependencies.calendar",
+    "ai_print_extracts.sections.final_tips.dependencies.looking_after_the_crop.1",
+    "ai_print_extracts.sections.final_tips.dependencies.looking_after_the_crop.10",
+    "ai_print_extracts.sections.final_tips.output_checksum",
+    "ai_print_extracts.sections.final_tips.updated_at",
+    "ai_print_extracts.sections.final_tips.updated_by",
+    "ai_print_extracts.sections.final_tips.status",
+    "ai_print_extracts.sections.final_tips.editorial_note"
+  ],
+  "publishedTips": [
+    {
+      "text": "Remove lower leaves as the plants grow tall: this aids ventilation and the extra light will help the lower fruit to ripen.",
+      "rank": 8,
+      "icon": "pruning"
+    },
+    {
+      "text": "Mulch soil beds and growbags with compost or well-rotted manure as the plants grow; tomatoes are heavy feeders.",
+      "rank": 8,
+      "icon": "mulching"
+    }
+  ],
+  "validation": "GardeningDataSchema and current admin semantic checks before/after; exact changed-field scope; exact prior-byte backup; previous layout, other extracts, variety catalogue and unrelated fields preserved.",
+  "dependencies": {
+    "before": {
+      "layoutDependencies": {
+        "name": "fnv1a64:8f0677863570d694",
+        "image": "fnv1a64:47d7c2dbf8a62401",
+        "image_thumbnail": "fnv1a64:5b9bc4ba528108e4",
+        "ease_of_cultivation": "fnv1a64:7b3d270f252753a7",
+        "hero_header": "fnv1a64:8ee3971cc996afce",
+        "difficulty": "fnv1a64:af63ae4c86019e62",
+        "introduction": "fnv1a64:47a57916a0462b93",
+        "types": "fnv1a64:a3aead6dca30fce4",
+        "soil_facts": "fnv1a64:00df6791c10456d3",
+        "looking_after_the_crop": "fnv1a64:d2167f348230ba02",
+        "harvesting": "fnv1a64:b07bc907ea044fc6",
+        "in_the_kitchen": "fnv1a64:104417fe9c4df8b8",
+        "varieties": "fnv1a64:8b26efe2ed5e4171",
+        "troubles": "fnv1a64:26e874df09316e86",
+        "calendar": "fnv1a64:87603a6f8f853b2e",
+        "troubles_detail": "fnv1a64:09612b07b5ecb5a5",
+        "category": "fnv1a64:9ca8dadf0dc14c92",
+        "seed_and_growing_facts": "fnv1a64:fc1ec4d094245d0d",
+        "sowing_and_planting": "fnv1a64:3190159a71f4df73",
+        "key_notes": "fnv1a64:0def053eeac4b322",
+        "yield": "fnv1a64:14b430e28a3179d1",
+        "time_to_harvest": "fnv1a64:a6a97304f5b493ef",
+        "core_needs": "fnv1a64:563428ecafe91206",
+        "print_planting": "fnv1a64:2e99bb1b91066d67"
+      },
+      "layout": {
+        "layout": {
+          "tips_position": "full-width",
+          "intro_sentences": 5,
+          "variety_count": 5,
+          "pest_limit": 10,
+          "target_pages": 2,
+          "align_bottoms": true,
+          "fill_bottoms": true
+        },
+        "warning": null
+      },
+      "extractWarnings": []
+    },
+    "after": {
+      "layoutDependencies": {
+        "name": "fnv1a64:8f0677863570d694",
+        "image": "fnv1a64:47d7c2dbf8a62401",
+        "image_thumbnail": "fnv1a64:5b9bc4ba528108e4",
+        "ease_of_cultivation": "fnv1a64:7b3d270f252753a7",
+        "hero_header": "fnv1a64:8ee3971cc996afce",
+        "difficulty": "fnv1a64:af63ae4c86019e62",
+        "introduction": "fnv1a64:47a57916a0462b93",
+        "types": "fnv1a64:a3aead6dca30fce4",
+        "soil_facts": "fnv1a64:00df6791c10456d3",
+        "looking_after_the_crop": "fnv1a64:99f5a0a9250a7fe5",
+        "harvesting": "fnv1a64:b07bc907ea044fc6",
+        "in_the_kitchen": "fnv1a64:104417fe9c4df8b8",
+        "varieties": "fnv1a64:8b26efe2ed5e4171",
+        "troubles": "fnv1a64:26e874df09316e86",
+        "calendar": "fnv1a64:87603a6f8f853b2e",
+        "troubles_detail": "fnv1a64:09612b07b5ecb5a5",
+        "category": "fnv1a64:9ca8dadf0dc14c92",
+        "seed_and_growing_facts": "fnv1a64:fc1ec4d094245d0d",
+        "sowing_and_planting": "fnv1a64:3190159a71f4df73",
+        "key_notes": "fnv1a64:0def053eeac4b322",
+        "yield": "fnv1a64:14b430e28a3179d1",
+        "time_to_harvest": "fnv1a64:a6a97304f5b493ef",
+        "core_needs": "fnv1a64:563428ecafe91206",
+        "print_planting": "fnv1a64:2e99bb1b91066d67"
+      },
+      "layout": {
+        "layout": null,
+        "warning": "Vegetable saved layout: layout source changed; automatic fitting used."
+      },
+      "extractWarnings": [
+        "key_notes: source changed; existing source rendering used.",
+        "looking_after_the_crop: source changed; existing source rendering used.",
+        "final_tips: draft awaiting approval; existing source rendering used."
+      ]
+    }
+  },
+  "notes": "Final tips is a freshly source-linked draft, using the user-supplied wording. Historical layout and other extract approval states remain intact and correctly stale where affected. Their signatures have not been refreshed merely to bypass review. Website/video prose and published outputs are unchanged."
+}

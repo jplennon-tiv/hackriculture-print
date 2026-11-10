@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-07",
+  "status": "For John’s review",
+  "baselinePdfSha256": {
+    "imperial": "b682d5a14234352c016ad4d2a393101269041b4faba769fe6753ee065d4b45d4",
+    "metric": "d72c0879fed80682080a4d0c448b5d6161529b4b377472d3d79c66b113877a5a"
+  },
+  "edits": [
+    {
+      "selector": ".fact-grid img[src=\"/images/header_chars/season_winter.png\"]",
+      "attribute": "style",
+      "before": "",
+      "after": "mix-blend-mode:multiply;"
+    },
+    {
+      "selector": ".harvest li:nth-child(2)",
+      "before": "Spring varieties often take 40–50 days; the quickest take 3–4 weeks in good conditions.",
+      "after": "Spring varieties often take about 6–7 weeks; the quickest take 3–4 weeks in good conditions."
+    },
+    {
+      "selector": ".soil li:nth-child(2)",
+      "before": " Lime acid soil if needed.",
+      "after": ""
+    }
+  ],
+  "assetSha256": {
+    "public/images/header_chars/season_winter.png": "ca39face0f863f4298f7c4e04dc460b57bd74675d8a3bd73d4704bfab97c5ab1"
+  },
+  "sourceNote": "Book-only corrections. Retain the existing snowflake artwork, blending its white paper into the page as for existing season icons. Express 40–50 days approximately as about 6–7 weeks, keeping the quickest 3–4-week qualification and surplus-root advice. Remove the routine soil-liming sentence under John’s standing rule; retain the Acid soil diagnostic row and its test-before-liming condition. All nine Quick facts retain their existing arrangement after a wider Ready in trial left the two columns less balanced. Canonical gardening records unchanged."
+}

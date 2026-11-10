@@ -1,0 +1,65 @@
+{
+  "date": "2026-11-07",
+  "status": "Approved by John, 7 November 2026",
+  "baselinePdfSha256": {
+    "imperial": "5a5cfb8b8a8f3add16d3c2ee9cad9ef2ae23ccdc5ef0ed9b15bbd21f503d3b8c",
+    "metric": "fb425ac25159fe09d5b9190fa665efb517d9cdb150676d6c25e204c650d5299c"
+  },
+  "edits": [
+    {
+      "unit": "imperial",
+      "selector": ".fact-column:last-child article:nth-child(3) p",
+      "before": " or about 3 in. each way in deep beds",
+      "after": ""
+    },
+    {
+      "unit": "metric",
+      "selector": ".fact-column:last-child article:nth-child(3) p",
+      "before": " or about 8 cm each way in deep beds",
+      "after": ""
+    },
+    {
+      "selector": ".intro",
+      "before": "Peas are a reward of early summer: freshly picked pods are sweet, but sugars soon turn to starch. Although long grown for canning, freezing and drying, home-grown peas taste best picked young and eaten or cooked at once.",
+      "after": "Peas are a reward of early summer: freshly picked pods are sweet, but sugars soon turn to starch. Although long grown for canning, freezing and drying, home-grown peas taste best picked young and eaten or cooked at once. The names round and wrinkled describe the dry seed in the packet. Round-seeded varieties are generally hardier, making them useful for early crops; wrinkled varieties are usually sweeter."
+    }
+  ],
+  "factColumns": [
+    [
+      "Harvest",
+      "Germination",
+      "Sowing depth",
+      "Yield ({10 ft~3 m} row)",
+      "Ready in"
+    ],
+    [
+      "Sow",
+      "Row spacing",
+      "Seed spacing"
+    ]
+  ],
+  "factWidths": [
+    50,
+    50
+  ],
+  "wideFacts": [
+    "Ready in"
+  ],
+  "additionalVarieties": [
+    {
+      "name": "Meteor",
+      "groupLabel": "Round",
+      "text": "A compact round-seeded pea for colder or exposed sites. Useful for early crops.",
+      "sourcePath": "varieties.Round varieties.Meteor",
+      "sources": [
+        "https://www.kingsseeds.com/30313-pea-meteor",
+        "https://www.wholesale.molesseeds.co.uk/conventional-vegetables/d-p/pea/first-early/pea-meteor-vpe025"
+      ]
+    }
+  ],
+  "quickFactsNote": "Retain all eight facts and their icons; remove only the deep-bed seed-spacing alternative as requested. Use equal-width columns, with Ready in spanning the left column below four shorter facts; Sow and both spacing entries occupy the right column.",
+  "sourceNote": "John requests a round-seeded variety and removal of the deep-bed instruction from Seed spacing. Add Meteor, already a rank-6 Round varieties entry, without replacing the existing five selections or changing master ranks. Its compact habit and suitability for cold/exposed sites come from the master; round seed and earliness are confirmed by current seed suppliers. Heights are omitted because suppliers differ from the master; no canonical measurements change. There are no pH or liming references in this working spread. Original page-2 copy, ten pest rows and artwork remain.",
+  "varietyColumns": 3,
+  "cropKey": "pea",
+  "introductionNote": "Alternative requested by John: retain six varieties (original five plus Meteor) and expand the introduction instead of adding Douce Provence and Norli. Hardiness and sweetness are from the canonical introduction; the dry-seed meaning is confirmed by Teagasc and the John Innes Centre. Existing eight-variety proofs remain available for comparison. John approved the six-variety fuller-introduction alternative on 7 November 2026."
+}

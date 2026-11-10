@@ -1,0 +1,67 @@
+{
+  "date": "2026-11-10",
+  "status": "For John’s review",
+  "baselinePdfSha256": {
+    "imperial": "eafe292eb170bc67728da455ea0f5e7d46034db630a81505941fa5a0a6fa79bb",
+    "metric": "2f99ad9d6f5c0cb3839c46d830ea4479077a5a987f891df15fa7da726568281a"
+  },
+  "edits": [
+    {
+      "unit": "imperial",
+      "selector": ".care li:nth-child(1)",
+      "before": "Thin salsify to 4 in.. Follow the packet for scorzonera. Hand-weed near the crowns to avoid damaging the narrow roots.",
+      "after": "Thin salsify carefully to 4 in. apart. Follow the seed packet for scorzonera."
+    },
+    {
+      "unit": "metric",
+      "selector": ".care li:nth-child(1)",
+      "before": "Thin salsify to 10 cm. Follow the packet for scorzonera. Hand-weed near the crowns to avoid damaging the narrow roots.",
+      "after": "Thin salsify carefully to 10 cm apart. Follow the seed packet for scorzonera."
+    },
+    {
+      "selector": ".care li:nth-child(2)",
+      "before": "Keep hoes away from crowns and narrow, easily damaged roots. Hand-weed close to the plants.",
+      "after": "Keep young plants free of weeds. Hand-weed near the crowns; hoes can damage the narrow roots."
+    },
+    {
+      "selector": ".soil li:nth-child(3)",
+      "before": "Aim for pH 6–7; test before liming. ",
+      "after": ""
+    }
+  ],
+  "factColumns": [
+    [
+      "Sow",
+      "Harvest",
+      "Germination",
+      "Ready in"
+    ],
+    [
+      "Sowing depth",
+      "Row spacing",
+      "Plant spacing",
+      "Yield ({10 ft~3 m} row)"
+    ]
+  ],
+  "factWidths": [
+    50,
+    50
+  ],
+  "sourceNote": "Book-only revision: focus care point 1 on careful thinning and point 2 on weeding, retaining the canonical salsify spacing and the warning about root damage. Remove the generic soil pH/liming sentence under John’s standing rule. Regroup all eight Quick facts without changing their values or icons. Canonical gardening records remain unchanged.",
+  "wideFacts": [
+    "Sow",
+    "Ready in"
+  ],
+  "additionalVarieties": [
+    {
+      "name": "Duplex (scorzonera)",
+      "text": "A productive scorzonera with long, dark-skinned roots and a delicate flavour.",
+      "sources": [
+        "https://www.simpsonsseeds.co.uk/acatalog/Duplex-S_SCO002.html",
+        "https://www.chilternseeds.co.uk/item_1364f_scorzonera_duplex_seeds"
+      ]
+    }
+  ],
+  "varietyColumns": 3,
+  "varietyExpansionNote": "Add one researched book-only selection, Duplex, in a three-column row. Preserve the existing two descriptions. The master’s Giant is unconfirmed; Russian Giant is not added as a separate fourth choice because commercial naming overlaps with Duplex. Do not treat Mammoth/Sandwich Island aliases or crop-type headings as additional varieties. No canonical changes."
+}

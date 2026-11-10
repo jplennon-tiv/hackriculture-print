@@ -1,0 +1,51 @@
+{
+  "date": "2026-11-07",
+  "status": "For John’s review",
+  "baselinePdfSha256": {
+    "imperial": "36ff031361d42b620174e731a7e6563bef6627163edc0e0411862f00fda3d0cb",
+    "metric": "2a4b89dc5e10049c653cfb11e0bc9362d5927d907e23000c814f7e4ac2b2dd02"
+  },
+  "edits": [
+    {
+      "selector": ".soil li:nth-child(2)",
+      "before": "Rake a fine seedbed for sowing; test acid soil before liming.",
+      "after": "Rake a fine seedbed for sowing."
+    }
+  ],
+  "factColumns": [
+    [
+      "Germination",
+      "Seed depth",
+      "Harvest",
+      "Yield ({10 ft~3 m} row)",
+      "Ready in"
+    ],
+    [
+      "Sow",
+      "Plant sets",
+      "Row spacing",
+      "Plant spacing"
+    ]
+  ],
+  "factWidths": [
+    45,
+    55
+  ],
+  "wideFacts": [
+    "Ready in"
+  ],
+  "plantingImageAlignment": "bottom",
+  "plantingImageAlignmentSources": [
+    "/images/planting/onion_shallot/seed-sow-v1.png",
+    "/images/planting/onion_shallot/seed-space-v1.png",
+    "/images/planting/onion_shallot/set-tip-v2.png"
+  ],
+  "artworkSha256": {
+    "public/images/planting/onion_shallot/seed-sow-v1.png": "ead8d3a21131ea7cec4486317184c1b79cf0839714e9f6251e1b90efdcdae301",
+    "public/images/planting/onion_shallot/seed-space-v1.png": "f7b820eef45d0f325dca62e2391bf7998a0879163590f61d3a0806cce42861a5",
+    "public/images/planting/onion_shallot/set-tip-v2.png": "e58c4906ca0e279d32177f9c62061fbb2d1f4692569b71c7acac093962598ca7",
+    "public/images/planting/onion_shallot/set-growth-v1.png": "277b33423b3d1014e0191dd2a22a4378ffa19672c6b9f1ee247cf70d3133be2a"
+  },
+  "quickFactsNote": "Group short facts in the left grid, with Ready in across its full width. Group Sow, Plant sets and both spacings in the wider right column. Preserve all nine facts, their wording, measurements and icons.",
+  "sourceNote": "John requested bottom alignment of the three soil cross-sections. Align their visible artwork (excluding transparent margins), retaining painted sizes and level captions. Leave the fourth bulb-growth illustration in place. Remove the general test-before-liming clause under the standing crop-review rule; retain rotation and fine seedbed advice. Book-only revision; original spreads, full readers, canonical data and main book unchanged."
+}
