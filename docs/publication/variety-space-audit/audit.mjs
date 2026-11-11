@@ -26,7 +26,7 @@ for(const crop of [...crops,...samples]){
   }
   units[unit]={...chosen,hashes};
  }
- sources.push({crop,name:records[crop].name,approval:folder+'/APPROVAL.json',review:folder+'/REVIEW.html',folios:approval.folios,units,recordSha256:sha(await fs.readFile(`../hackriculture-data/vegetables/${crop}/${crop}.json`))});
+ sources.push({crop,name:records[crop].name,approval:folder+'/APPROVAL.json',review:['beetroot','potato','tomato_outdoor'].includes(crop)?'docs/publication/sowing-planting-mockups/remaining-three/REVIEW.html':folder+'/REVIEW.html',folios:approval.folios,units,recordSha256:sha(await fs.readFile(`../hackriculture-data/vegetables/${crop}/${crop}.json`))});
 }
 if(sources.length!==44)throw Error('Expected 44');
 const browser=await chromium.launch();

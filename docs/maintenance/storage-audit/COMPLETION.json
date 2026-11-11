@@ -1,0 +1,99 @@
+{
+  "date": "2026-11-10",
+  "status": "complete",
+  "authorisedBy": "John Lennon",
+  "instruction": "Please go ahead with the recommended 12.35 GB cleanup of hackriculture-print. Leave the data folder and Git history alone, and update the handover when done.",
+  "manifest": "MANIFEST.json",
+  "manifestSha256": "80f6b514b11cb79884a0784cf0af1101e49db093efc7a19b8c69cf7fa2c1ab3a",
+  "selectedGroupIds": [
+    "scratch_renders",
+    "test_exports",
+    "old_assembled_books",
+    "kdp_exports",
+    "old_ph_proofs"
+  ],
+  "excludedGroupIds": [
+    "video_caches"
+  ],
+  "beforePrintAllocatedBytes": 33438846976,
+  "startedAt": "2026-11-10T23:38:42.520407+00:00",
+  "groups": [
+    {
+      "id": "scratch_renders",
+      "removedFiles": 1627,
+      "removedBytes": 6408281881,
+      "removedAllocatedBytes": 6415982592
+    },
+    {
+      "id": "test_exports",
+      "removedFiles": 25,
+      "removedBytes": 208398360,
+      "removedAllocatedBytes": 208449536
+    },
+    {
+      "id": "old_assembled_books",
+      "removedFiles": 7,
+      "removedBytes": 3168921533,
+      "removedAllocatedBytes": 3168931840
+    },
+    {
+      "id": "kdp_exports",
+      "removedFiles": 356,
+      "removedBytes": 2019982721,
+      "removedAllocatedBytes": 2020708352
+    },
+    {
+      "id": "old_ph_proofs",
+      "removedFiles": 72,
+      "removedBytes": 541623633,
+      "removedAllocatedBytes": 541773824
+    }
+  ],
+  "retiredPreviewLinks": 45,
+  "retiredLinkDocuments": [
+    "docs/publication/book-preparation/REVIEW.html",
+    "docs/publication/soil-acidity-crop-edits/DIFF.html"
+  ],
+  "preflight": {
+    "filesMatchedAudit": 2087,
+    "approvalJsonFilesScanned": 92,
+    "explicitApprovalPathCollisions": 0,
+    "openCandidateFiles": 0,
+    "sourceDependencyExceptionsRetained": true
+  },
+  "deletionErrors": [],
+  "removedFiles": 2087,
+  "removedBytes": 12347208128,
+  "removedAllocatedBytes": 12355846144,
+  "removedEmptyDirectories": 203,
+  "deletedAt": "2026-11-10T23:38:43.422305+00:00",
+  "afterPrintAllocatedBytes": 21082996736,
+  "verification": {
+    "verifiedAt": "2026-11-10T23:40:02.918068+00:00",
+    "protectedFileHashesChecked": 221,
+    "protectedFileHashesUnchanged": true,
+    "latestVarietyApprovalFilesChecked": 97,
+    "latestVarietyApprovalValid": true,
+    "removedFilesMatchExactAuthorisedSet": true,
+    "onlyIntendedDocumentationChanged": true,
+    "changedDocumentation": [
+      "docs/handover/START-HERE.md",
+      "docs/maintenance/storage-audit/README.md",
+      "docs/publication/book-preparation/REVIEW.html",
+      "docs/publication/soil-acidity-crop-edits/DIFF.html",
+      "docs/publication/soil-acidity-crop-edits/README.md"
+    ],
+    "dataFolderFilesChecked": 1779,
+    "dataFolderInventoryUnchanged": true,
+    "dataFolderInventorySha256": "29b7393614d6019fc98bf14d034b41209051f2b29b0dcd6b5fbefeaeb70ad69c",
+    "printGitFilesChecked": 3119,
+    "printGitInventoryUnchanged": true,
+    "printGitInventorySha256": "3811edf28e8ae44bee66f50f3c76e8076505df683b7352a48882e74ffa387431",
+    "optionalVideoCacheFilesChecked": 9660,
+    "optionalVideoCachesUnchanged": true,
+    "remainingReaderLinksToRemovedFiles": 0,
+    "missingHandoverReportLinks": 0,
+    "errors": []
+  },
+  "allocatedFolderReductionBytes": 12355850240
+}

@@ -4,6 +4,8 @@
 
 The five approved sample guides are recorded in their own approval files. All 39 subsequent individual revisions are now approved in both editions. The original full reader and combined PDFs remain the baseline; use the exact approved one-off versions for the next book integration. The main book remains the separate 176-page interior.
 
+**Variety-addition follow-up, 10 November:** [Jerusalem Artichoke's fourth variety](revisions/artichoke_jerusalem_varieties/REVIEW.html) is now [approved](revisions/artichoke_jerusalem_varieties/APPROVAL.json). John requested the remaining shortlist as a batch: the [complete review set](../variety-additions/REVIEW.html) adds fourteen entries across twelve further guides, in both units. It includes approved Jerusalem at the start, making thirteen spreads / 26 pages per edition. The twelve new drafts, including four-across Carrot, Endive and Florence Fennel panels, are now [approved in both units](../variety-additions/APPROVAL.json). Detail edits are paused at John’s request; no main-book integration was requested. [Scope, selection sources and actual PDF checks](../variety-additions/README.md). Canonical data, baseline approvals, original full readers and the main book remain unchanged.
+
 John has completed the crop-by-crop review, with the complete baseline reader
 kept available and each approved amendment saved separately. [Globe Artichoke](revisions/artichoke_globe/REVIEW.html)
 is approved on 5 November; [Jerusalem Artichoke](revisions/artichoke_jerusalem/REVIEW.html)

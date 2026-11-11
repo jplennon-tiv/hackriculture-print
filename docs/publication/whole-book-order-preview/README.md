@@ -7,6 +7,16 @@ and Key risks headings are integrated. John has [approved all these recent chang
 folios, bookmarks and internal links. The approved pH page and guide intro remain
 integrated. The promotional project is complete; ordered Bookvault files are unchanged.
 
+**Later approved work, 10 November:** all 44 revised vegetable spreads and the
+[complete variety-addition set](../variety-additions/README.md) are approved in
+both units, in separate focused proofs. This assembled PDF has **not** been
+updated with those November guide revisions. Preserve it as the current assembled
+baseline; later integration must select the latest approved derivative for each
+crop rather than re-exporting the old catalogue. Cover artwork and supporting
+copy are the next focus; see the [handover](../../handover/START-HERE.md#resume-here).
+The authorised cleanup preserved this PDF, its frozen assembly inputs and current
+sources; retired legacy exports must not be regenerated as routine startup.
+
 ## Current placement
 
 | Interior pages | Content |

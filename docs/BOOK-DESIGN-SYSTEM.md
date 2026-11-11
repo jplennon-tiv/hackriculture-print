@@ -1,6 +1,6 @@
 # The Vegetable Guru — book design system
 
-Consolidated 8 October; status references updated 19 October 2026. Based on the selected covers, approved Compact Book v1,
+Consolidated 8 October; cover/source-status references updated 10 November 2026. Based on the selected covers, approved Compact Book v1,
 approved contents/how-to and current opening-page proposals. This is the shared
 design reference for the 185 × 240 mm paperback. It records existing choices;
 creating this document does not approve unfinished designs or change any artwork.
@@ -16,8 +16,11 @@ Latest instructions from John take precedence. Preserve the separate A4 contract
 
 Editable words and image references live in the shared
 [book-layout JSON folder](../../hackriculture-data/book-layout/README.md).
-Use its validated builders for new working opening proofs; shared style rules
-stay here and in their existing CSS. Frozen source proofs remain unchanged.
+Use its validated builders for the components they own; shared style rules
+stay here and in their existing CSS. The installed introduction at page 7 instead
+comes from the illustrated `why-grow` Techniques source; shared `introduction.json`
+belongs to an omitted welcome layout. Consult the [source map](handover/START-HERE.md#resume-here)
+before the requested rewrite. Frozen source proofs remain unchanged.
 
 Status labels below distinguish **approved** designs, **selected** visual
 directions and **working** proposals/adaptations. Working values are useful
@@ -238,7 +241,7 @@ their page total is not the interior count used for print costing/spine calculat
 
 | Area | Carry forward | Status/source |
 | --- | --- | --- |
-| Front cover | G2 cream title centre; flush vegetable tiles above/below; bold dark lettering; author name below subtitle; no count footer | Selected [G2 artwork](publication/vegetable-guru-grid-variations/assets/G2-centre-title.png); [native production adaptation and wrap](publication/bookvault-print-ready/REVIEW.html) prepared for review |
+| Front cover | G2 cream title centre; flush vegetable tiles above/below; bold dark lettering; author name below subtitle; no count footer | Selected [G2 artwork](publication/vegetable-guru-grid-variations/assets/G2-centre-title.png); [native production adaptation and wrap](publication/bookvault-print-ready/REVIEW.html) used for the first physical proof; new cover work follows the handover |
 | Back cover | B5 dark green; cream title/count subtitle; left blurb and slightly angled torn fragments at right; price and ISBN area | Preferred [B5 artwork](publication/vegetable-guru-back-collage/B5.png); production adaptation uses exact book crops in place of generated snippets |
 | Title/publication | Cover-related title strip and quieter publication page | [Original pages 1–3 proposal](publication/vegetable-guru-opening-pages/REVIEW.html) retained; current assembly omits the welcome/author page. Metadata placeholders remain. |
 | Contents/how-to | Simple illustrated contents with calculated page references; calendar, difficulty and needs explanations in the combined Guides opening | [Approved source pages 4–7](publication/vegetable-guru-entry-pages/REVIEW.html) remain frozen. The accepted [two-page contents](publication/contents-update/REVIEW.html) and [approved combined Guides/how-to](publication/combined-guides-opening/APPROVAL.json) are integrated in the full preview. |
@@ -261,7 +264,9 @@ John's 19 October production-review direction adds **John Lennon** to the front
 and spine and gives the five intentional interior blanks (3, 6, 8, 98, 168) the
 same warm cream as surrounding pages. On the selected white coated stock this
 is a printed tint, continued through bleed. The current production adaptation
-implements this; its native cover lettering/composition still needs visual review.
+implements this and was used for the first physical proof. John accepted its
+physical quality on 28 October. The requested cover reconstruction is a new
+revision; its design and final geometry still need review.
 
 ## Illustration and reuse
 
@@ -346,8 +351,9 @@ After John's decision, update the owning rule here (or the detailed guide
 contract), the affected working implementation and its approval/source record.
 Do not create another competing style guide or overwrite a frozen proof.
 
-Open decisions remain: finished cover typography and exact snippets; pages 1–3
-design/copy and publication metadata; stock-image allocation; inside-cover use;
-blank-page policy; stock-dependent wrap/spine and final print colour/detail checks.
-Consult the handover for their latest status. Creating this system does not
+Next-session work covers revised artwork, introduction and cover text. The final
+cover typography/snippets, publication metadata, stock-dependent wrap/spine and
+revised print files remain to be settled. Retain the current opening sequence
+and cream blank-page treatment unless John changes them. Consult the handover
+for current scope; old proposal-stage questions are not a renewed work queue. Creating this system does not
 resolve them or authorise guide regeneration, publication or a physical-proof order.

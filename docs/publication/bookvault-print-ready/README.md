@@ -1,5 +1,13 @@
 # Bookvault production review — 19 October 2026
 
+**Current status, 10 November:** these are the exact retained files for physical
+proof BV3012332. John reported receipt and accepted print quality, colours, paper
+and size on 28 October. The order/portal observations below are dated history.
+The next session will rebuild cover artwork and revise supporting copy, preserving
+these proof files. No revised cover is approved yet. The current assembled book
+has 176 interior pages; the proof below has 168. Its spine/template is not a
+current specification for the revised edition. [Current handover](../../handover/START-HERE.md#resume-here).
+
 [Open the review](REVIEW.html). The exact files below were uploaded to Bookvault
 title **3822688**, SKU **9669932000017**, and both passed its automated checks.
 The cover and sampled interior spreads were inspected in its visual proof. John

@@ -1,11 +1,48 @@
 # Current project handover
 
-Updated 10 November 2026. All 44 vegetable working spreads are approved in both editions: five samples plus all 39 rollout guides. This review pass is complete; main-book integration remains a separate task.
+Updated 10 November 2026. All 44 vegetable baseline working spreads and the complete subsequent variety-addition set are approved in both editions. John has paused detail edits. The next session will rebuild the cover artwork and revise supporting literature, chiefly the page-7 introduction and cover text. Main-book integration remains a separate task. [Copy-and-paste session brief](NEXT-SESSION.md).
+The [authorised storage cleanup](../maintenance/storage-audit/README.md) is complete: **2,087 temporary/legacy files removed, 12.35 GB of file data**, reducing print from 33.44 GB to about **21.08 GB**. The data folder, both Git histories, approved/current sources and optional video caches remain unchanged. [Completion ledger](../maintenance/storage-audit/COMPLETION.json).
 This document owns current scope, decisions and next actions. Read README,
 AGENTS and SHARED-DATA first. John's latest instruction takes precedence;
 dated reports and approvals are evidence, not instructions to resume old work.
 
 ## Resume here
+
+**Next session: cover artwork and supporting copy.** John has named the work,
+but has not yet supplied the new visual brief or replacement words. Begin with
+the existing sources below and his next instructions; no new cover or prose has
+been drafted or approved in this handover. Preserve the selected concepts and
+physical-proof files while developing separate revisions for review. Do not
+restart vegetable detail edits, run cleanup again or integrate the whole book
+merely to get started. [Copy-and-paste brief](NEXT-SESSION.md).
+
+| Item | Correct starting point and distinction |
+| --- | --- |
+| Front artwork | Selected **G2 Cream centre**, [original image](../publication/vegetable-guru-grid-variations/assets/G2-centre-title.png) and [provenance](../publication/vegetable-guru-grid-variations/ARTWORK.json). Cream centre, flush vegetable grid, no guide-count footer. |
+| Back artwork | Preferred **B5 Off-centre collage**, [original image](../publication/vegetable-guru-back-collage/B5.png) and [provenance](../publication/vegetable-guru-back-collage/ARTWORK.json). Dark green, left blurb, angled torn-page fragments at right. Generated snippets are concepts, not exact page text. |
+| Physical-proof cover | [19 October production adaptation](../publication/bookvault-print-ready/README.md), [concept/production comparison](../publication/bookvault-print-ready/cover-comparison.jpg), [editable HTML](../publication/bookvault-print-ready/cover.html) and [source/placement record](../publication/bookvault-print-ready/COVER-PREPARATION.json). This uses native lettering, approved heroes, exact historical page crops, and John Lennon on front/spine. It differs from G2/B5. The old `scripts/build-bookvault-cover.mjs` writes into the retained proof folder: do not run it unchanged for the new artwork. |
+| Cover and publication words | Shared [covers.json](../../../hackriculture-data/book-layout/covers.json), [book.json](../../../hackriculture-data/book-layout/book.json) and [publication.json](../../../hackriculture-data/book-layout/publication.json); [15 October copy approval/source notes](../publication/publication-copy/README.md). These remain the approved starting words, not new revisions. Use the guarded book-copy writer for later authorised shared edits. |
+| Current introduction | **Interior page 7 / PDF page 9, “Introduction — why grow your own”.** Its installed body is retained in the [assembly baseline](../publication/whole-book-order-preview/integration-2026-10-18/baseline.pdf). The underlying illustrated source is the `why-grow` page in [Techniques expansion](../publication/topic-pages/techniques-expansion/README.md), with [frozen approval](../publication/topic-pages/techniques-expansion/WHY-GROW-APPROVAL.json) and [resource-library copy](../../../hackriculture-resources/summaries/techniques-expansion/copy.json). Start a separate source-linked rewrite from the actual page. |
+| Similarly named but different pages | Shared `book-layout/introduction.json` belongs to the old **welcome/about-author** composition, omitted from the current book; changing it alone will not replace page 7. The approved **Vegetable Guides/how-to page 9** is another distinct component. Neither is the requested introduction by default. |
+
+Read the [design skill map](#design-skills--use-before-design-work), shared design
+system and asset registry; apply the artwork workflow to new cover illustrations
+and Write Like John to new book prose. Inspect the concepts and production cover
+before proposing changes. Check affected proofs rather than regenerating the
+catalogue. Cover mock-ups can proceed at the approved 185 × 240 mm panel size;
+final wrap geometry must use the eventual page count and fresh supplier template.
+The **12 mm spine / 388 × 246 mm wrap belongs to the old 168-page physical proof**,
+not automatically to the current 176-page interior or any later edition. The
+working price is £17.50; ISBN, imprint, edition/year and publication metadata
+remain unresolved placeholders. Keep them provisional until John supplies them.
+
+**Current handover / cleanup:** John approved the entire variety set and paused detail edits. He then explicitly authorised the recommended 12.35 GB print cleanup, leaving data and Git history alone. The [completed cleanup report](../maintenance/storage-audit/README.md) records removal of the five agreed groups and retirement of 45 old preview links. Current approved proofs, assembly inputs (including the retained `tmp/pdfs/whole-book-order-preview/` files and old imperial Bookvault artwork PDF), physical-proof files and video media remain intact. Print is now about 21.08 GB; data remains about 1.37 GB. The optional 0.55 GB video caches were not included. The manifest is consumed historical evidence, not an instruction to rerun cleanup or regenerate deleted legacy exports. Read the report and follow John's next instruction; do not resume crop edits or rebuild the main book automatically.
+
+**[Variety additions: complete review set](../publication/variety-additions/REVIEW.html) is now [approved in both units](../publication/variety-additions/APPROVAL.json).** Fourteen additions across Aubergine, Leaf Beet, Beetroot, Capsicum, Carrot, Greenhouse Cucumber, Endive, Florence Fennel, Garlic, Lettuce, Oriental Leaves and Turnip are frozen. The reader also includes approved Jerusalem Artichoke: thirteen spreads / 26 pages per edition, with before/after and unit switches. The four-across panels for Carrot, Endive and Florence Fennel are approved at unchanged type sizes. All existing variety descriptions, facts and artwork remain; practical pages match their approved PDF sources. [Scope, sources and checks](../publication/variety-additions/README.md). These separate approved proofs are the latest sources for later integration. Canonical records, original full readers and the 176-page main interior remain unchanged.
+
+**[Jerusalem Artichoke: fourth variety](../publication/sowing-rollout/revisions/artichoke_jerusalem_varieties/REVIEW.html), pages 12–13, is [approved in both units](../publication/sowing-rollout/revisions/artichoke_jerusalem_varieties/APPROVAL.json).** Gerard joins the three original entries in a two-by-two panel. Its supplier-availability qualification, existing type sizes and 21.50 / 6.17 mm clearances are frozen. [Source and check notes](../publication/sowing-rollout/revisions/artichoke_jerusalem_varieties/README.md). Use this approved derivative for later integration, preserving the earlier 5 November source.
+
+**Variety-space audit, 10 November:** all 44 approved openings were checked in both units using their exact approved PDFs and images. The [dated findings](../publication/variety-space-audit/README.md) retain the baseline measurements and reasons for leaving marginal cases alone. The requested shortlist has now been turned into the separate proofs linked above, with named chard identities researched and actual PDFs for the three four-across additions. The audit's temporary capacity trials remain evidence only, not installable copy. Use the approved new set for later integration; no baseline approvals, canonical records, full readers or main book were overwritten.
 
 **[Turnip, pages 96–97](../publication/sowing-rollout/revisions/turnip/REVIEW.html), is now [approved in both editions](../publication/sowing-rollout/revisions/turnip/APPROVAL.json).** All eight Quick facts are regrouped, moving Ready in below the four short left-column facts and retaining every value/qualification. Fact-column heights are 38.33 / 31.92 mm. The routine soil-testing/liming clause is removed; specific Boron deficiency testing and no-overdosing advice remains. Both actual PDFs keep all four varieties, eight pests, original artwork and both See also links. Footer gaps are 10.00 / 6.84 mm; no pest rows are omitted. [Scope and checks](../publication/sowing-rollout/revisions/turnip/README.md). Canonical data, original full readers and the main book are unchanged. Turnip completes the 39-guide rollout review. Together with the five samples, all 44 vegetable working spreads are approved. Preserve these exact approved versions for later main-book integration; this approval does not itself request a full-book rebuild.
 
@@ -246,9 +283,10 @@ consistent with never liming routinely. The [editing guidance](../publication/so
 owns these rules. The earlier sixteen pH wording proposals are historical
 comparison material, superseded by this stricter brief; do not install them as a batch.
 
-Next: John’s review of these 39 proposed spreads and individual amendments. The main 176-page interior and
-the approved guide derivatives are separate. Main-book installation is a later
-step. Keep the [editorial guidance](../publication/sowing-planting-mockups/CROP-EDITING-NOTES.md).
+Completed: all 39 rollout amendments and the five sample crops are approved in
+both units, followed by the approved variety additions. Their latest derivatives
+remain separate from the main 176-page interior. Installation is a later task;
+the next session concerns cover artwork and supporting copy. Keep the [editorial guidance](../publication/sowing-planting-mockups/CROP-EDITING-NOTES.md).
 The future Techniques page on clump growing, earlier research and provisional diagrams,
 and the late-sown leek research question retain their previous status.
 
@@ -536,7 +574,7 @@ has **176 interior pages plus four cover leaves: 180 PDF pages**, imperial,
 [page map](../publication/whole-book-order-preview/PAGE-MAP.json),
 [checks](../publication/whole-book-order-preview/CHECKS.json) and
 [visual review](../publication/whole-book-order-preview/VISUAL-REVIEW.json).
-The introduction loses its last sentence and the three named advice paragraphs
+The Organic growing page's introductory paragraph loses its last sentence and the three named advice paragraphs
 use John's replacement text, with spelling/punctuation corrections only. His
 follow-up shortens the middle paragraph to end “your garden will ultimately flourish.” The
 diagram, closing box and existing type sizes remain. John approved this revised
@@ -713,9 +751,11 @@ a style/A4 reference only. Rejected cover studies are not alternatives to resume
 Missing copyright year, imprint, ISBN, edition and publication year remain
 placeholders by request. The imperial print-resolution interior, proposed cover wrap and local colour/font/geometry
 preflight and Bookvault file validation are complete. Physical quality is accepted.
-Final crop-copy review, the page-7 introduction rewrite, later layout
-tidying, full metric assembly if requested, final metadata and approval of the
-revised publication files remain outstanding.
+The completed vegetable review and subsequent variety additions await main-book
+integration. Cover artwork reconstruction and supporting copy, chiefly the page-7
+introduction and cover text, are next. Full metric assembly if requested, final
+metadata, final spine/template checks and approval of revised publication files
+remain outstanding.
 The fresh 168-page/150 gsm template specifies a **12 mm spine**, **388 × 246 mm
 cover wrap**, and **191 × 246 mm interior** including 3 mm all-round bleed;
 interior safety is 17 mm at the binding and 5 mm elsewhere. Regenerate templates

@@ -1,0 +1,241 @@
+{
+  "date": "2026-11-10",
+  "approvedBy": "John Lennon",
+  "statement": "This si all good - approved.",
+  "scope": "All fourteen proposed additions across twelve guides in imperial and metric, including four-across Carrot, Endive and Florence Fennel. The set includes the already approved Jerusalem Artichoke derivative. Main-book integration remains a separate task.",
+  "crops": [
+    {
+      "key": "aubergine",
+      "folios": [
+        16,
+        17
+      ],
+      "additions": [
+        "Black Beauty",
+        "Rosa Bianca"
+      ],
+      "layout": "two-by-three"
+    },
+    {
+      "key": "beet_leaf",
+      "folios": [
+        24,
+        25
+      ],
+      "additions": [
+        "Lucullus",
+        "White Silver 2"
+      ],
+      "layout": "two-by-three"
+    },
+    {
+      "key": "beetroot",
+      "folios": [
+        26,
+        27
+      ],
+      "additions": [
+        "Red Ace F1"
+      ],
+      "layout": "two-by-three"
+    },
+    {
+      "key": "capsicum",
+      "folios": [
+        34,
+        35
+      ],
+      "additions": [
+        "Gypsy F1"
+      ],
+      "layout": "two-by-three"
+    },
+    {
+      "key": "carrot",
+      "folios": [
+        36,
+        37
+      ],
+      "additions": [
+        "Amsterdam Forcing"
+      ],
+      "layout": "four-across"
+    },
+    {
+      "key": "cucumber_greenhouse",
+      "folios": [
+        48,
+        49
+      ],
+      "additions": [
+        "Pepinex F1"
+      ],
+      "layout": "balanced-five"
+    },
+    {
+      "key": "endive",
+      "folios": [
+        52,
+        53
+      ],
+      "additions": [
+        "Bubikopf"
+      ],
+      "layout": "four-across"
+    },
+    {
+      "key": "florence_fennel",
+      "folios": [
+        54,
+        55
+      ],
+      "additions": [
+        "Finale"
+      ],
+      "layout": "four-across"
+    },
+    {
+      "key": "garlic",
+      "folios": [
+        56,
+        57
+      ],
+      "additions": [
+        "Spanish Roja"
+      ],
+      "layout": "balanced-five"
+    },
+    {
+      "key": "lettuce",
+      "folios": [
+        64,
+        65
+      ],
+      "additions": [
+        "Webb’s Wonderful"
+      ],
+      "layout": "two-by-three"
+    },
+    {
+      "key": "oriental_leaves",
+      "folios": [
+        70,
+        71
+      ],
+      "additions": [
+        "Shungiku"
+      ],
+      "layout": "two-by-three"
+    },
+    {
+      "key": "turnip",
+      "folios": [
+        96,
+        97
+      ],
+      "additions": [
+        "Snowball"
+      ],
+      "layout": "balanced-five"
+    }
+  ],
+  "files": {
+    "src/print/book/variety-additions.json": "6f78f1a57ded2aa2aee8df350d20c26ed7e580bd3e1c0f37c2c200c10b56aa88",
+    "docs/publication/variety-additions/CHECKS.json": "7f02c69878d19548f3421ec91a73a9fc9546e9f8aecca5ef5317716b33a6e4b1",
+    "docs/publication/variety-additions/PDF-CHECKS.json": "bc76dbb12a099a803a4787dcc71db5c6bb9c4e127eae3ba86d85db3ff6a97cef",
+    "docs/publication/variety-additions/ASSEMBLY-CHECKS.json": "2ce70ee79ae511ed8889e743b8c749e04f818f0c0165f9d4f55b997e8ecb7014",
+    "docs/publication/variety-additions/DELIVERY-CHECKS.json": "06e113d893c28a119a1181a848fef9e39590c8114ffd8edf63018342a5d77b0e",
+    "docs/publication/variety-additions/build.mjs": "f7f9fe97c9fce8de02e1db0e5f6eb844a897513bdce6f0880daa334705947069",
+    "docs/publication/variety-additions/prepare.mjs": "efc44a1cb05ab293be56cefa6c6188497df3f8e57622a160222c32b8a1063f5d",
+    "docs/publication/variety-additions/finish.py": "ac0a8dcee68b88facb2bca50147fdf922ac674bcb2cdaafc53d0da2db5fd6121",
+    "docs/publication/variety-additions/write-review.mjs": "a5e2d9ec037cc48237b58819049a011f2848291eab7d694b34f77d8189820c1b",
+    "docs/publication/variety-additions/SOURCES.md": "104bb06c73759351664e2ef5285bea60f049c83ec90871d1dcdbc7fa778c7c6c",
+    "../hackriculture-resources/summaries/vegetable-variety-additions/SOURCES.md": "6b9aea93dfb6bea972897d8dd2be9271c4e10284b405a30d4fd86c9254f81ff0",
+    "output/pdf/variety-additions/vegetable-variety-additions-imperial.pdf": "6bed4b1a44aaa3db5441b6edb7f369d50e7fc4e88d32fac2ca0f4614b4a62bfd",
+    "output/pdf/variety-additions/vegetable-variety-additions-metric.pdf": "b385d7b7e4d0622d51eb16063a8ec97c6c26b34a74dea13ba6ece4a464eb2618",
+    "docs/publication/variety-additions/checks/aubergine.json": "7ed3cc3b9f90c405bbcf010f64f4dbd0d22f5d429f317b032a80d4ec1e56c9ad",
+    "docs/publication/variety-additions/aubergine-imperial.html": "a6fee7be93d68882ee78a10feead5f23fcf2744abe04fb22c1908ba0ecf6b0a4",
+    "docs/publication/variety-additions/spreads/aubergine-imperial.jpg": "1b2b6b58ba4a5bb62d631d7883f4fe15f79968dd516a47b5136442508f7db215",
+    "output/pdf/variety-additions/aubergine-imperial.pdf": "ba7b82097c308faf5191e7ea843ff3779c2da5cf3f925d28a206512017fd936b",
+    "docs/publication/variety-additions/aubergine-metric.html": "cd3dbfd0094daaa51051a0a40058bbe7a0ad5ff52420860e2bacbbb380dc320e",
+    "docs/publication/variety-additions/spreads/aubergine-metric.jpg": "b193dcf58dc7341d9d68f3fe324450657171b68bf37bc674e904d6edf058c646",
+    "output/pdf/variety-additions/aubergine-metric.pdf": "bc6e44ffe8856649c88e43f5774e5cc3e1b3bb107769597ea1e3ab199577547a",
+    "docs/publication/variety-additions/checks/beet_leaf.json": "0e25f0322da8887bf084f9adc5466d644da48935f5beed023f3fd26a86197332",
+    "docs/publication/variety-additions/beet_leaf-imperial.html": "4eab2b6fa288e7cf528c869fc1008ac7e1cd3126c3996404d550f970c313f1f1",
+    "docs/publication/variety-additions/spreads/beet_leaf-imperial.jpg": "56ab8902d928e75034107adbc5d9fe00156c95e3ecd32d6e590e3243007ece32",
+    "output/pdf/variety-additions/beet_leaf-imperial.pdf": "6b0588902fa3e4c4cc29711ab03db7fd81b606ad424e85a6112d84b7c3ae663d",
+    "docs/publication/variety-additions/beet_leaf-metric.html": "2b8c7f92787e771565c9062ef4e16bd257557b0edd79bb3caac48bcb3fbd1170",
+    "docs/publication/variety-additions/spreads/beet_leaf-metric.jpg": "c34a85a493a3871b5cc64196ccf4babbad0c5d6d0cc3ac69af1a541656a0a8dd",
+    "output/pdf/variety-additions/beet_leaf-metric.pdf": "0395d1c7c0fd5c796aba4998be8d85325f6bd28c9c060cbcd5008ea93ec78dc3",
+    "docs/publication/variety-additions/checks/beetroot.json": "c318a51174eda7cab3656ce0ece42dac13395ef2792e41a1640e1fd1a3e356c4",
+    "docs/publication/variety-additions/beetroot-imperial.html": "d7fddbc09d9d9a53a9de43e17070d6758e5053df1ad7343eb30bde196babc40c",
+    "docs/publication/variety-additions/spreads/beetroot-imperial.jpg": "7b1c83dbe94ad637cea9169dfe1663480c12dfad1ef83507a5e228e2bfc7f616",
+    "output/pdf/variety-additions/beetroot-imperial.pdf": "9d90d6154a1c5186bcce8992ffb9e8ed4eb765c924c0950bef233db868d3dccd",
+    "docs/publication/variety-additions/beetroot-metric.html": "f3309f656e1049a623a75dc1576386fbd197a383ea13926de531932514634b7a",
+    "docs/publication/variety-additions/spreads/beetroot-metric.jpg": "76d1a3109d699df602cd3778741b4488e3f97a1d2536c334c15d656a4daa9059",
+    "output/pdf/variety-additions/beetroot-metric.pdf": "e7c6cd2e1cc04b258005f0ef3f1f486c1ffe48fc86a48aafc66125e25cf28392",
+    "docs/publication/variety-additions/checks/capsicum.json": "a8c9fc9163ae39dc9b64a2887431b3bb85ef15846ee1675d8c076fd1f0aee9fb",
+    "docs/publication/variety-additions/capsicum-imperial.html": "e7ff39e210d3f71698fd20b375551ace5de9409ca0afbaacc428c9e797494dc3",
+    "docs/publication/variety-additions/spreads/capsicum-imperial.jpg": "aedc4dacbac7938942ee8a4c5cc1962b12e3ba1c2e3967678bf3cbdec0d75192",
+    "output/pdf/variety-additions/capsicum-imperial.pdf": "213bf34c36fa06c45d08bab2e95b45be22d5541f9dbd0809694b747007bbb234",
+    "docs/publication/variety-additions/capsicum-metric.html": "c4ab6799cd0eda2d6fe28b8c5356ae5ec989aa04df4ba369b005cd619c063d69",
+    "docs/publication/variety-additions/spreads/capsicum-metric.jpg": "9e4841a02649f6b6edc20ac4a20dc66fe804c39f81fd01bc497cc580114b1168",
+    "output/pdf/variety-additions/capsicum-metric.pdf": "597074e060c90c62138471a6e1dd7706f3ebb338665a1b97deef41a2a52fd6cb",
+    "docs/publication/variety-additions/checks/carrot.json": "e17ec0fa1210f93f4de0cde977622b2d4cd46ba33b913ba7f326105acc82f33e",
+    "docs/publication/variety-additions/carrot-imperial.html": "0d18ba4db575770551c0979a77a4a937a48e95d16b86fd7d8a7ad32e3ddb3ccf",
+    "docs/publication/variety-additions/spreads/carrot-imperial.jpg": "5eccbe8d8f7f37bf53022f94d5c2a3f0980dbc3aae5becc2fab5ba77b87a0409",
+    "output/pdf/variety-additions/carrot-imperial.pdf": "b69a9237fb2d626486eefb69056ec101350903b05c5877a6af624713fb38069f",
+    "docs/publication/variety-additions/carrot-metric.html": "57a57d2e60be08b82663634dd1cac6405152ada962d49565698530a0767643ef",
+    "docs/publication/variety-additions/spreads/carrot-metric.jpg": "5d3f8fd2681c0af95d592cb56b0a39bcc2b4e108e51d7902799c9d563c7453e3",
+    "output/pdf/variety-additions/carrot-metric.pdf": "3d1b560c55ac39c4970859098f372cfc8aef1703e4804110e9a3c18d5ad98a76",
+    "docs/publication/variety-additions/checks/cucumber_greenhouse.json": "c9576cef4fb6403002c7c3f9556cbfbdc2cc29de667194f10442dc0db3d07f05",
+    "docs/publication/variety-additions/cucumber_greenhouse-imperial.html": "7b7cf60eb91e201e89ceb85c31d00cd826f0a1fdb71770e62a352a24042db48e",
+    "docs/publication/variety-additions/spreads/cucumber_greenhouse-imperial.jpg": "5deec46d97d2f45ae1ef762f07be88e3dcf01048b6c45b42b6c390a9de14ac5c",
+    "output/pdf/variety-additions/cucumber_greenhouse-imperial.pdf": "feb2455823c25921da597fb6d8a69b0868f03148980aba587d695366aa608a9f",
+    "docs/publication/variety-additions/cucumber_greenhouse-metric.html": "1599a8d0c281648589f545df31878dccb6655fadf1356451558d3479d489244f",
+    "docs/publication/variety-additions/spreads/cucumber_greenhouse-metric.jpg": "87c2edcf16b87f1be19715ed45d7ce70090fd3a9de567e581e84409f7fb1d482",
+    "output/pdf/variety-additions/cucumber_greenhouse-metric.pdf": "269318278071d838bef5681793b55704bf86e7a25fb3e9b47349b17915120182",
+    "docs/publication/variety-additions/checks/endive.json": "4b9b017d0006f9ff8ab2d78ff9b9b6aff4337e0aab31099d2b61803c6b65fbb9",
+    "docs/publication/variety-additions/endive-imperial.html": "f76dd5246125bfb379682555b9171b50371b06817620c5070be1b36a6c18350d",
+    "docs/publication/variety-additions/spreads/endive-imperial.jpg": "ec6403aa9f9e11cc38bfbae4b744b7862ee990a3a5ff67d6f222aee93210f59e",
+    "output/pdf/variety-additions/endive-imperial.pdf": "83bb58dcb76835b6b78370a72f6d3880fe5f071184068d6ed89fb6a697e91a4a",
+    "docs/publication/variety-additions/endive-metric.html": "e2095cd76480421405fc9e3b995b337a6c6515eeb491459db70336c45e986c9f",
+    "docs/publication/variety-additions/spreads/endive-metric.jpg": "0773cf0c53f575d191f933e7fa5170140562c46d9931facece44f6e6d03323ae",
+    "output/pdf/variety-additions/endive-metric.pdf": "3d7dfc5b7df9679e660841189b742a16203100311036cdb89bc504e107ff00f2",
+    "docs/publication/variety-additions/checks/florence_fennel.json": "c77e0093fe27236bcec154cfbaf27fb63fe5c56474079f38ddf0cde3ed635936",
+    "docs/publication/variety-additions/florence_fennel-imperial.html": "f062a4a23c4562ac981f8e1fdf1757830c1574769a596e81546de75c19c2030f",
+    "docs/publication/variety-additions/spreads/florence_fennel-imperial.jpg": "b6a7943ca2baf7d61430493cf32907df3eff6622ec07f1266a69a24598fb9903",
+    "output/pdf/variety-additions/florence_fennel-imperial.pdf": "97d76c64f131624a3de16074b06f7d9064f3eafa406502be24627539e5772a75",
+    "docs/publication/variety-additions/florence_fennel-metric.html": "40567235af3a2f7ed4efe895a9a27a0394de2d98f3f559e3d169e56d1f1c7736",
+    "docs/publication/variety-additions/spreads/florence_fennel-metric.jpg": "6a7fdb3e5943aba823d5fa6c98f99064e14bfe52d191b62e678bd25ec3fe7700",
+    "output/pdf/variety-additions/florence_fennel-metric.pdf": "2809b32c3861056cd4dc94412daaffd02293c4fe1d0261cc6717009178b51430",
+    "docs/publication/variety-additions/checks/garlic.json": "fc8a2ecb0c824152eab760e73a67c4ba70bedff00648149fca0eaac620220b06",
+    "docs/publication/variety-additions/garlic-imperial.html": "375eac1b97a0f6f5dd206c36a83b98bc0b9d00d716f340a41da8a5e9e0e553c8",
+    "docs/publication/variety-additions/spreads/garlic-imperial.jpg": "e84be2c1b461497b800f82386805eb6c909ddf119926bd79883f00a277219f17",
+    "output/pdf/variety-additions/garlic-imperial.pdf": "be62a609b623ec8f6a414418f5172ead62870cf2451aa0b472119c560c448651",
+    "docs/publication/variety-additions/garlic-metric.html": "4faee221d1590fbc5da9c42dc2da0a98f95b3200e5053de5f43be33ccf36f1fe",
+    "docs/publication/variety-additions/spreads/garlic-metric.jpg": "7a6645edbd2d30b1b8840a33d348ebb05551e8905fd54f2953ee644c7059ac27",
+    "output/pdf/variety-additions/garlic-metric.pdf": "bca5b4ba2617e2ef5931582ae49f9d0de40c3453b9739b9fa787f23ebf2589d3",
+    "docs/publication/variety-additions/checks/lettuce.json": "bd3a85775237b3fcfb8e3d5d6f8caf04e8e036e254b56084b4625b2c97643307",
+    "docs/publication/variety-additions/lettuce-imperial.html": "19d8e88e05a6c04b72a662e0d25a6f2a353e92a4193be0449390a8c51610ea55",
+    "docs/publication/variety-additions/spreads/lettuce-imperial.jpg": "90dd029f65962ebf85de1d2ccbb5bce24d55f6600115e426c2c4675f3404083f",
+    "output/pdf/variety-additions/lettuce-imperial.pdf": "47a5c3b3ab84dd1260e41501f27c878b1d6e7ad5316e489507d6585e808a43d6",
+    "docs/publication/variety-additions/lettuce-metric.html": "2623d8f76a0d30febc48bb8117a1e0ead2061bf606ec51411a4e3d180c0cec3a",
+    "docs/publication/variety-additions/spreads/lettuce-metric.jpg": "cda77b3940471dd007e7436ad82a958fefc3103677cd2f1d236e7cef80251efa",
+    "output/pdf/variety-additions/lettuce-metric.pdf": "2c4d9e594d302d3a72bf7b44802580639d9e82a6248b2bf4d5ce9c5f12f64d81",
+    "docs/publication/variety-additions/checks/oriental_leaves.json": "96a3960cde61462089a5395736c07b3d3d60061cc1644ed06bf22606bf149cc3",
+    "docs/publication/variety-additions/oriental_leaves-imperial.html": "b74d34caca77bf17bd86c24bb8a0e0b7243826610741098af42ee2a403d0fdbd",
+    "docs/publication/variety-additions/spreads/oriental_leaves-imperial.jpg": "edcc36f982e223e29230ae78bb731b3334d46d6ebcb34a9b4e5318596d936fdc",
+    "output/pdf/variety-additions/oriental_leaves-imperial.pdf": "6f3c1f748b839da00d674493c26dca8e85159e352ae3325208ddd25750dc405b",
+    "docs/publication/variety-additions/oriental_leaves-metric.html": "d69b072197cddc22034529b6c67a32e587c90c4cf1f9f5691d9eb2dfc01d0a49",
+    "docs/publication/variety-additions/spreads/oriental_leaves-metric.jpg": "0d2484330ccafe07637acc18c6b3568f55ff72238b5600fe2bf44e33c9e60f4f",
+    "output/pdf/variety-additions/oriental_leaves-metric.pdf": "bbdaad5145422db2a5dfd22cd9875c8ee8296559a52faa450aca59e2d139564e",
+    "docs/publication/variety-additions/checks/turnip.json": "179299fd8ba251a4bd5819c675aaaf4644055abf9b18b01fced989f5dff196e3",
+    "docs/publication/variety-additions/turnip-imperial.html": "b4505a3c6c015d9afc0b160dfc4ed9d65a893a81dedf4968eaa12eb3fe5f164b",
+    "docs/publication/variety-additions/spreads/turnip-imperial.jpg": "87e61aef0434a68afdd7b84b4966daa444542e94540b4bd51a223e2b5b9877f2",
+    "output/pdf/variety-additions/turnip-imperial.pdf": "5de39923e03272c77594412da5dcd8beba1c816a6d7fc1e36ee5ae3ad3876555",
+    "docs/publication/variety-additions/turnip-metric.html": "9893c888739a943a7653f68504f0a7163e464f8f7a28b862dee476e4ad1d4ff5",
+    "docs/publication/variety-additions/spreads/turnip-metric.jpg": "02984dbdc2d6645d1a291ff7a076bb6457300654fce6173c835057b040bb1658",
+    "output/pdf/variety-additions/turnip-metric.pdf": "0143155d251c66e957ac0b480bc6c50932ff8c28f0fc8fe16cd753fc43251960"
+  }
+}

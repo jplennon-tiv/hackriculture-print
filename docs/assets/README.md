@@ -15,7 +15,16 @@ Editable book opening/cover words now live in the shared
 The [8 October migration receipt](../publication/book-layout-working/MIGRATION.json)
 records verbatim extraction and matching proofs. Frozen HTML/PDFs below remain
 references; edit the JSON and build separate working pages rather than overwriting
-them. Cover JSON stores copy for later reconstruction of the selected raster art.
+them. Cover JSON supplies editable copy; the selected G2/B5 concept lettering is raster,
+while the separate 19 October production cover already has native type.
+
+**Introduction ownership:** the installed page 7 is the illustrated `why-grow`
+source from [Techniques expansion](../publication/topic-pages/techniques-expansion/README.md),
+retained in the current assembly baseline. Shared `book-layout/introduction.json`
+renders the older welcome/about-author composition, which is omitted. It is not
+the owner of that installed page-7 body. The approved Guides/how-to at page 9 is
+also separate. The [handover source map](../handover/START-HERE.md#resume-here)
+identifies the correct starting files for the requested rewrite.
 
 ## Section opener proposals
 
@@ -280,7 +289,9 @@ record this distinction. Rebuild a selected composition using exact crops for
 production. John now prefers **B5 Off-centre collage** (7 October); its source
 hash and exact decision are recorded in the provenance file. Preserve its dark
 green, left-hand blurb and angled paper collage on the right during refinement.
-Final cover production remains pending.
+The separate native production adaptation below was used for the first physical
+proof. Final revised artwork remains pending; John has named cover reconstruction
+as the next session’s work. The G2/B5 originals remain the selected references.
 
 ## Title, publication and welcome
 
@@ -415,12 +426,14 @@ at 9 in the 2 November book; the earlier approved source remains intact.
 ### Bookvault production adaptation — 19 October 2026
 
 The [production review and provenance](../publication/bookvault-print-ready/README.md)
-identify the separate 168-page imperial print interior and proposed G2/B5 native
-cover wrap, with 12 mm spine and current Bookvault bleed. Current copy and native
-text geometry are preserved. Original 600 dpi page-art streams restore the
-screen derivative's detail. The cover intentionally uses native type, approved
-vegetable heroes and exact current-page crops; those differences need John's
-review and do not supersede the selected concept originals. The production
-manifest records hashes, crop recipes and colour preparation. No upload or
-supplier/design approval is implied.
+identify the separate 168-page imperial print interior and native G2/B5 cover
+adaptation used for physical proof BV3012332. It has a 12 mm spine and Bookvault
+bleed for that edition. Both files passed supplier checks and were used for the
+ordered proof; John accepted its physical quality on 28 October. The native type,
+original heroes and exact historical page crops differ from the selected concepts.
+Preserve those originals and the exact proof files during the new cover work.
+The production manifest records hashes, crop recipes and colour preparation.
+Neither physical-quality acceptance nor that old spine establishes approval or
+geometry for the next revised cover. Follow the current handover and obtain the
+appropriate template once the eventual page count/stock is settled.
 

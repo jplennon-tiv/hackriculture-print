@@ -13,7 +13,17 @@ entry point for current decisions, component status, outstanding work and
 publication/automation boundaries. It distinguishes approved designs from
 working book proofs and historical evidence. Follow John's latest instruction.
 
-**Current book, 3 November:** the approved [Lifting and using turf page](docs/publication/topic-pages/lifting-and-using-turf/README.md)
+**Latest state, 10 November:** all 44 vegetable working spreads and the subsequent
+variety additions are approved in both units, but are **not yet integrated** into
+the assembled book below. Detail edits are paused. The next session concerns
+cover artwork reconstruction and supporting literature, chiefly the introduction
+and cover text. [Current scope and exact sources](docs/handover/START-HERE.md#resume-here)
+· [Copy-and-paste handover](docs/handover/NEXT-SESSION.md).
+The authorised cleanup removed 12.35 GB of temporary/legacy files; print is now
+about 21.08 GB. Data, both Git histories, approved sources and optional video
+caches were preserved. [Completed cleanup](docs/maintenance/storage-audit/README.md).
+
+**Assembled book baseline, 3 November:** the approved [Lifting and using turf page](docs/publication/topic-pages/lifting-and-using-turf/README.md)
 is integrated after Digging at **162**, with updated contents, index, numbering
 and links. The book has **176 interior pages / 180 PDF pages**. Sowing is 163;
 Netting 164–165 and Supports 166–167 retain their facing spreads; Watering follows
@@ -90,7 +100,7 @@ print, website and video projects.
 
 The [current full preview](docs/publication/whole-book-order-preview/REVIEW.html)
 contains **176 interior pages plus four cover leaves: 180 PDF pages**, imperial.
-All approved reader edits, expanded Crop rotation & planning, the nutrient page
+The October reader edits, expanded Crop rotation & planning, the nutrient page
 and John's Growing Techniques headings, Netting and Supports are integrated. Its two internal
 blank pages have been removed. All 44 vegetables remain two-page facing guides. Contents, index and
 page references are refreshed; editing annotations are absent. The approved Troubles highlights remain intentional. Canonical advice is unchanged; the previously approved 24 star flags are retained. [Current page map and evidence](docs/publication/whole-book-order-preview/README.md).

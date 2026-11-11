@@ -1,7 +1,13 @@
 # Publication and back-cover copy
 
 Approved by John on 15 October 2026 and now integrated in the [complete book](../whole-book-order-preview/REVIEW.html?revision=integrated-two-page). [Retained wording review](REVIEW.html).
-This is an editorial review, not a new cover design or a print-layout proof.
+This records the 15 October editorial approval. John has now named cover text and
+the introduction among the next session’s revisions; no replacement wording has
+yet been supplied or approved. Preserve the existing words as the starting point.
+[Current scope and source map](../../handover/START-HERE.md#resume-here).
+The separate [19 October production cover](../bookvault-print-ready/README.md)
+uses native lettering and exact page fragments and was used for the physical
+proof. Its historical dimensions and assets remain separate from a new revision.
 
 The editable owners are `../hackriculture-data/book-layout/publication.json` and
 `covers.json`, accessed from the print project root. [SAVE-RECEIPT.json](SAVE-RECEIPT.json)
@@ -23,8 +29,9 @@ are retained. The original B5 reference remains intact. A [recorded image edit](
 clears its placeholder paragraph in a separate derivative; approved native text is
 placed over that background. [Integration checks](integration/CHECKS.json) record
 its source hashes and measured copy area. The title/count, collage, price and
-barcode reservation remain. Final exact page crops, remaining editable lettering
-and production wrap remain separate work.
+barcode reservation remain. The 19 October production adaptation supplied exact historical page crops, native
+lettering and a wrap for the physical proof. The next cover revision remains
+separate work and must preserve both the concept and proof sources.
 
 The publication page now includes all approved prose, preserving missing metadata.
 The current full viewer and PDF include this wording and all four approved two-page

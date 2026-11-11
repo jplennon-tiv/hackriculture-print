@@ -27,7 +27,7 @@ try{
     [...g.children].forEach(e=>e.style.setProperty('grid-column','span 1','important'));
     return {gapMm:(f.querySelector('footer').getBoundingClientRect().top-f.querySelector('.key-risks').getBoundingClientRect().bottom)*25.4/96,count:g.children.length};
    },{crop,additions});
-   if(unit==='imperial')await page.locator('.front').screenshot({path:`${dir}/${crop}-capacity-probe.png`});
+   if(process.argv.includes('--screenshots')&&unit==='imperial')await page.locator('.front').screenshot({path:`${dir}/${crop}-capacity-probe.png`});
   }
   out.push({crop,kind:crop==='beet_leaf'?'Geometry test with duplicated existing entries: no proposed cultivar choices.':'Four-column alternative: unapproved composition, not a finished PDF.',additions:crop==='beet_leaf'?null:additions,units});
  }

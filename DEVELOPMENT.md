@@ -323,6 +323,22 @@ the current full-book assembly route.
 
 ### Editable book copy
 
+**10 November handover:** the next work is cover artwork and supporting copy;
+the approved November vegetable derivatives and variety additions have not yet
+been integrated. See the [source map](docs/handover/START-HERE.md#resume-here).
+Page 7 is the installed `why-grow` Techniques source in the assembly baseline,
+not the omitted welcome page rendered from shared `introduction.json`. Rewriting
+that JSON alone will not update the current introduction. Preserve the frozen
+page and develop a separate replacement for review before integration.
+
+The existing `scripts/build-bookvault-cover.mjs` renders the historical 168-page
+proof adaptation and overwrites its saved HTML/provenance. Use a separate working
+output/receipt for a new cover; do not run the old builder unchanged. Its 12 mm
+spine and 388 × 246 mm wrap need revalidation against the final interior and
+supplier template. G2/B5 concept originals, the native proof adaptation and
+approved cover words are distinct inputs. The completed cleanup does not require
+rebuilding its removed legacy outputs.
+
 **Current book assembly:** `npm run book:preview` is the single current full-book
 route. It reuses the approved baseline and component PDFs, builds two illustrated
 contents pages (85 destinations) and the four-page index (307 entries / 36 see

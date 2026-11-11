@@ -11,8 +11,10 @@ John’s request to update the vegetable pages and show a diff alongside the new
 [soil acidity page](../topic-pages/soil-acidity/README.md).
 
 [Full before-and-after comparison](DIFF.html) · [Plain-text comparison](DIFF.md).
-The comparison links to clean and highlighted compact proofs in both editions.
-Current book folios are retained. No integration or renumbering has taken place.
+The text comparisons, copy and verification evidence are retained. John authorised
+removal of the 72 generated crop proofs/previews on 10 November; their PDF links
+have been retired. [Cleanup record](../../maintenance/storage-audit/README.md).
+The dated folios and checks below describe the historical proposal, not current output.
 
 The historical comparison changed: Asparagus; Broad, French and Runner Beans; Beetroot; Broccoli;
 Brussels Sprouts; Cabbage; Carrot; Lettuce; Potato; Radish. The other 32 retain
@@ -49,9 +51,13 @@ Troubles guides, website and supplier files remain unchanged. No shared-data
 transaction or approval has been created. No numeric cross-reference to the new
 page is inserted before its location is accepted.
 
-## Reproduce and verify
+## Historical reproduction workflow
 
-With `start.command` running on loopback:
+The following commands document the original workflow. Do not regenerate the retired
+proposals as routine setup or cleanup verification. If John requests a new comparison,
+first reconcile its copy and source bindings with the latest approved crop pages.
+
+The original workflow used `start.command` on loopback:
 
 ```sh
 node scripts/build-soil-acidity-crop-edits.mjs
@@ -68,6 +74,6 @@ text, proves that no other DOM prose changes, confirms complete replacement text
 in each actual PDF, checks clean/highlighted text identity, embedded fonts, exact
 trim, decoded images and source preservation. Dense retained pages with 2.7 mm
 footer clearance remain at their baseline clearance; no new footer regression is
-accepted. Both-unit page contact sheets and individual rendered page images are
-saved for visual inspection. [Visual review](VISUAL-REVIEW.json) records its exact
+accepted. Both-unit page contact sheets and individual rendered page images were
+used for the dated visual inspection; generated previews have now been removed. [Visual review](VISUAL-REVIEW.json) records its exact
 coverage and limits. These checks are not author approval.
