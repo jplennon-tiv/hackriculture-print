@@ -1,0 +1,11 @@
+# Courgette 01 — single upper illustration trial
+
+16 November 2026. John chose source 01 for a trial: “Ok - let's give 01 a go.” This selects the source for development, not the resulting artwork or production cover. John subsequently called it “Not bad” but found the stems disconnected; the [source-02 trial](../revision-18-courgette-02/README.md) is now the active comparison. This trial remains intact.
+
+[Courgette-01-cover-trial.pdf](https://chatgpt.com/library?file_id=libfile_fde3_f-8a2b90163ee481918b9a91472d040057_968f6e806ba48191b80ffb1b7a35f663&account_id=personal) shows the front at 185 × 240 mm, then the selected photograph, approved hero references and new drawing. [Local front](Front-cover.pdf) · [Layout](LAYOUT.json) · [Checks](CHECKS.json) · [Generation](GENERATION.json) · [Builder](build.py).
+
+The top now has one long courgette growing horizontally, a small folded yellow flower and asymmetrical lobed leaves. The left leaf reaches into the cream title field. Soil, damaged leaf detail and most crossing stalks from the photograph were deliberately omitted. Richer A courgette and capsicum heroes were direct style inputs; the selected photograph supplied composition only. The original generated PNG and reusable illustration copy are retained.
+
+The exact centre lettering/sprout, subtitle, author, lower tomato illustration and tilted foreground sticker remain. At 100 dpi, the entire cover below y380 and 88,335 original centre-ink pixels match the preceding Version 4 render exactly. Both review pages were inspected, plus transparency on cream/dark green and the direct hero comparison. No new numbered version or production approval is inferred. Versions 1–4, revision 07 back and main book remain intact.
+
+Source credit: **Zuchinni 1107.jpg**, **Pollinator**, [CC BY 2.5](https://creativecommons.org/licenses/by/2.5/), [Wikimedia Commons source](https://commons.wikimedia.org/wiki/File:Zuchinni_1107.jpg). Adapted as an illustrated redraw with simplified subjects, transparent background and new framing. Credit is carried on the review's source page, PDF metadata and generation record; carry it into final publication credits if this source-derived artwork is adopted.

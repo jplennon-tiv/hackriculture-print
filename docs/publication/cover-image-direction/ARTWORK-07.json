@@ -1,0 +1,39 @@
+{
+  "date": "2026-11-11",
+  "revision": "07",
+  "status": "two requested single-family typography studies generated; no lettering selection yet",
+  "brief": "BRIEF-07.json",
+  "base_cover": "generated_images/exec-61becb7d-a229-4a3d-b62c-78dc70c46bc0.png",
+  "base_sha256": "bb836ed4569a1bb715bb4844ff7b0405cbe9eda3f07eac1f7d7301f44c095a4d",
+  "variants": [
+    {
+      "id": "07A",
+      "name": "Stronger current serif",
+      "output": "generated_images/exec-fec4e57e-b01a-4631-94f3-e4f2870f5180.png",
+      "sha256": "ad538c12286f86272dea1e828dc89e5aeeb423c2ab3c7d3dc97c7cdb08c2314d",
+      "size_px": [
+        1100,
+        1430
+      ],
+      "status": "typography proposal awaiting John’s preference"
+    },
+    {
+      "id": "07B",
+      "name": "Warmer rounded serif",
+      "output": "generated_images/exec-663252be-6606-4bc8-9040-82e850fb99c1.png",
+      "sha256": "cc41917b830b1c5a2404c2d52b29a73e822e7fe864399bfa54436ae830d47cc5",
+      "size_px": [
+        1100,
+        1430
+      ],
+      "status": "typography proposal awaiting John’s preference"
+    }
+  ],
+  "model": "Native image tool; exact model version not exposed",
+  "generation": "Two independent edits of selected 06B Lighter sage. No mixed serif/sans treatment: title, upright The, sticker and author are requested in one coherent serif family per trial.",
+  "review": {
+    "observed": "Both outputs visually inspected in generation results. 07A strengthens the existing sharp serif; 07B has visibly rounder terminals and softer forms. Both use serif lettering for the sticker and author as well as the title. Exact wording remains readable. The selected pale sage appearance, cream title/sticker, dark-green supporting text, overlapping V/G, rectangular photo, clear right border and lower-left sticker remain visually consistent.",
+    "limits": "These are generated lettering studies, not embedded or identified font files. Exact family identity and pixel-level preservation are not guaranteed by generation. No font-name, print-resolution or production approval is asserted."
+  },
+  "preservation": "Selected 06B SHA-256 verified unchanged; all earlier trials preserved. No interior, canonical-data or supplier changes."
+}

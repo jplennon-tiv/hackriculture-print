@@ -1,0 +1,76 @@
+{
+  "date": "2026-11-11",
+  "revision": "12",
+  "status": "12A tending tomatoes selected by John; white lettering/sticker trial follows",
+  "brief": "BRIEF-12.json",
+  "base_cover": {
+    "path": "generated_images/exec-1cfba607-75f3-4e24-86ef-5bb9fb20dd21.png",
+    "sha256": "332db1b1aa178c99347ad908c6e780bd7609e0a3ca6bb518da47398f7285b3ca",
+    "size_px": [
+      1100,
+      1430
+    ]
+  },
+  "identity_reference": {
+    "path": "docs/publication/cover-photo-search/tomato-harvest-study/previews/T05.jpg",
+    "sha256": "9af49c789610d39b21d48e5532fcc8b8eda32c3c8f1e02f2c91ccd595df7f144",
+    "size_px": [
+      1600,
+      900
+    ]
+  },
+  "carried_forward_decisions": [
+    "06B lighter sage selected",
+    "Revision 09 Lilita One lettering accepted",
+    "Revision 10 centred photographic rectangle retained",
+    "11A person-led direction selected and likeness judged good by John"
+  ],
+  "outputs": [
+    {
+      "id": "12A",
+      "label": "Tending tomatoes",
+      "path": "generated_images/exec-ed6f9623-4d34-41c6-8eef-11f2dc4a651e.png",
+      "sha256": "c3ee133bca09312072ea1e5132a1775b5935cb75eccc52c34959a4550821ab6d",
+      "size_px": [
+        1100,
+        1430
+      ],
+      "visual_review": "Three-quarter face looks towards hands tying a tomato stem to a cane. Face and hands clear of title. Two modest trusses provide ripe/red and green fruit on growing plants. Natural garden bed and greenhouse context; no harvest display."
+    },
+    {
+      "id": "12B",
+      "label": "Weeding a vegetable bed",
+      "path": "generated_images/exec-609c33fe-7e49-4443-8a61-de78af1a6b8f.png",
+      "sha256": "988d15ab2d3df68e28de798b6df4f0fc8ad9927fad35fd23bd2e6f7971752ac6",
+      "size_px": [
+        1100,
+        1430
+      ],
+      "visual_review": "John kneels on a worn pad, looking towards one hand holding weeds; other hand rests on a knee. Face and hands clear of lettering. Soil gaps, small weeds, beetroot, chard and lettuces provide an ordinary productive-garden setting. No arranged harvest."
+    },
+    {
+      "id": "12C",
+      "label": "Pushing a wheelbarrow",
+      "path": "generated_images/exec-d0807a47-9493-4545-9fba-e7cbf2175584.png",
+      "sha256": "01686bac4a0a90c5a68f708ca688a487238ae5e001c505f1462f4fda6eba7fd3",
+      "size_px": [
+        1100,
+        1430
+      ],
+      "visual_review": "Fuller-body mid-step view with both hands gripping separate barrow handles. Modest compost/green-trimming load; vegetables grow beside the path. Face and grips clear of title. The wheel approaches the lower photo edge; the subtitle sticker overlaps an incidental portion of the left foreground. John is smaller in this composition than in A/B."
+    }
+  ],
+  "checks": {
+    "method": "Each complete generated cover visually inspected as returned by the image tool; actual PNG dimensions and hashes read from disk. Base cover and original T05 preview hashes verified unchanged.",
+    "observed": "All three show John occupied with a practical gardening action, with face and hands clear of fixed lettering. Produce stays in the growing garden in modest quantities. Sage field, centred panel, crossing cream title, subtitle circle and author remain visually consistent, with all wording present.",
+    "limits": "Generated scene/likeness variations require John’s review. Visual consistency is not pixel identity or exact font metrics. These are concept rasters, not documentary garden photographs or print-ready files."
+  },
+  "preservation": "11A, T05 and every prior trial retained. No interior, canonical gardening data, full-book export or supplier changes.",
+  "next_step": "Revision 13 tests white title lettering and sticker background on 12A, retaining dark-green supporting type.",
+  "user_decision": {
+    "date": "2026-11-11",
+    "selected_variant": "12A",
+    "user_words": "Great - let's use A - it looks very natural.",
+    "scope": "Selection of the tomato-tending image. No final-cover or production approval; next request changes title and sticker colours to white."
+  }
+}

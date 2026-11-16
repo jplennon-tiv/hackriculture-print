@@ -1,0 +1,36 @@
+{
+  "date": "2026-11-16",
+  "status": "Cleaned inset-left Traditional placement saved as Version 6-2 at John’s request.",
+  "user_direction": {
+    "cover": "John set aside the handwritten organic experiments and returned to saved Version 6-1.",
+    "editions": "Two measurement versions; main market for non-metric version will be USA.",
+    "scope": "Cover-placement trials authorised. John requested about two-thirds diameter and then lower-left placement inset from the edge."
+  },
+  "style_source": "docs/publication/cover-versions/version-6-1/Version-6-1.png",
+  "initial_concepts": {
+    "spec": {
+      "transparent_background": false,
+      "prompt": "Create a polished graphic-design concept sheet for edition stickers for the British vegetable-growing book The Vegetable Guru. This sheet contains THREE DIFFERENT DESIGN OPTIONS, each as a MATCHED PAIR: one IMPERIAL sticker and one METRIC sticker. Exactly six stickers total. These are standalone sticker design proposals ONLY, no book cover, no vegetables, no hands, no background props. Landscape 3:2 canvas, high resolution, quiet warm-white background and generous whitespace. Three equal columns headed with small discreet dark-green text 'A  Round seal', 'B  Compact label', 'C  Garden tag'. In each column the IMPERIAL sticker is above its matching METRIC sticker. Clear, balanced, restrained professional presentation, all six fully visible with no clipping.\n\nBOOK IDENTITY: friendly practical gardening, warm cream paper #fff8e9, deep forest green #064d32, warm burnt orange #a44007. Large display lettering with friendly rounded heavy forms inspired by Lilita One, smaller supporting text in a very legible rounded sans inspired by Nunito Sans. No cursive writing. Use solid, high-contrast colours, not gradients or distressed textures. Lettering must be confidently legible at small cover-sticker scale. Avoid red because the cover already has a red Organic ribbon and a red YouTube mark. Distinction comes from the WORDS as well as colour, never colour alone. Imperial accents use burnt orange, Metric accents deep forest green. Each pair must have identical structure, dimensions, borders and type sizing; never make METRIC larger merely because the word is shorter.\n\nEXACT COPY on every Imperial sticker, in three levels:\nIMPERIAL\nEDITION\nlb · oz · ft · in\nEXACT COPY on every Metric sticker:\nMETRIC\nEDITION\nkg · g · m · cm\nThe unit name is the biggest, strongest line, EDITION is a small supporting line, and the units form an easily readable third line. Do not add any other text inside stickers. Keep lowercase unit symbols, no flags, numbers, scales, ruler icons, leaves, stars, awards, certification marks or ornamental flourishes.\n\nOPTION A / first column: ROUND SEALS. Smooth circular paper stickers, not scalloped or starbursts. Imperial solid burnt-orange field with cream lettering; Metric solid forest-green field with cream lettering. Thin inset cream ring. Straight horizontal word IMPERIAL or METRIC centred, no curved lettering. A narrow cream paper edge, subtle short cast shadow suggesting a real adhesive sticker. Each rotated very slightly, 3 degrees clockwise, no dramatic peel. This is the bolder badge option.\n\nOPTION B / middle column: COMPACT ROUNDED RECTANGLE LABELS. Cream paper face, softly rounded corners, clean single coloured outline and a narrow solid coloured band along the left edge: burnt orange for Imperial, green for Metric. Large deep-forest title lettering on BOTH. Small EDITION and units in deep forest green. Approximately 2:1 width-to-height proportions, allowing a comfortable line of unit symbols. All three text levels centred in remaining face. Narrow cream edge and a barely visible shallow paper shadow. Slight 3 degree clockwise tilt. Keep this option beautifully simple and quieter than the round seals, a practical easy-to-read edition identifier. This is the recommended understated option, but do not put a recommended badge on the sheet.\n\nOPTION C / third column: SMALL GARDEN / LUGGAGE-TAG LABELS. Compact horizontal die-cut cream paper tags, clipped corners at the left end, a small circular punched-hole impression in that end, NO string. Single coloured outline, Imperial burnt orange and Metric forest green; matching small colour tab behind hole. Large forest-green edition name on both, same clear three-level text arrangement. Roughly 2:1 proportions, friendly garden seed-packet feel without illustrations. Subtle paper shadow and slight 3 degree clockwise tilt. Not long narrow plant stakes, not price labels.\n\nEnsure visual hierarchy and exact spelling, no duplicated or missing stickers, equal margins. One clean concept board, not a production die-cut sheet and not applied to the book."
+    },
+    "output": "generated_images/exec-500411a3-4f64-4e90-955a-73aaaf01c2cc.png",
+    "options": [
+      "A Round seal",
+      "B Compact label",
+      "C Garden tag"
+    ],
+    "review": "Six readable stickers inspected as three pairs; correct unit symbols. Initial IMPERIAL heading is now provisional following US-market clarification. Generated concept lettering and colour are not production specifications.",
+    "sha256": "c94ecdf5c52829363650ca56e7dba6c05be64b13095a2dd4fdd2a803bdd502d5"
+  },
+  "terminology": {
+    "confirmed": "NIST recommends U.S. customary system of measurement and distinguishes it from British Imperial.",
+    "source": "https://www.nist.gov/pml/owm/faqs/us-metrication-faqs",
+    "qualification": "John believes there are no fluid measures in the book; no audit performed. No book content changed.",
+    "selected_labels": [
+      "Traditional measurements",
+      "Metric measurements"
+    ],
+    "selection_basis": "John accepted Traditional measurements to include British and American readers."
+  },
+  "latest_revision": "docs/publication/edition-stickers/revision-05-youtube-cleanup/ARTWORK.json",
+  "saved_cover_version": "docs/publication/cover-versions/version-6-2/VERSION.json"
+}

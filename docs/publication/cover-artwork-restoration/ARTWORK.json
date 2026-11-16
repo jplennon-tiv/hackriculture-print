@@ -1,0 +1,122 @@
+{
+  "date": "2026-11-16",
+  "status": "Restoration proof awaiting John's review; saved Version 6-2 and comparison PDFs unchanged.",
+  "request": "Investigate mottled artwork in Version 6-2 compared with Version 3; determine whether repeated saving caused it and try cleaning it.",
+  "finding": "The saved PDFs, including Version 6-2 inside the comparison, contain exact RGB source-image pixels with lossless Flate compression. Export/saving did not introduce the mottling. Visual source comparison and generation history indicate accumulated redraw changes from repeated whole-cover image edits: soft cloudy colour areas, altered highlights and weaker edges.",
+  "scope_note": "This identifies a visual-generation issue separately from the approximately 151 dpi resolution of the full-cover raster. The new proof is a source-guided redraw, not an exact restoration of original pixels or a production-ready layered master.",
+  "checks": {
+    "3": {
+      "source_px": [
+        1101,
+        1428
+      ],
+      "effective_dpi_at_185mm": 151.2,
+      "pdf_images": 1,
+      "pdf_filters": [
+        "['/ASCII85Decode', '/FlateDecode']"
+      ],
+      "pdf_image_exact_rgb_match": true
+    },
+    "6": {
+      "source_px": [
+        1100,
+        1430
+      ],
+      "effective_dpi_at_185mm": 151,
+      "pdf_images": 1,
+      "pdf_filters": [
+        "['/ASCII85Decode', '/FlateDecode']"
+      ],
+      "pdf_image_exact_rgb_match": true
+    },
+    "6-1": {
+      "source_px": [
+        1100,
+        1430
+      ],
+      "effective_dpi_at_185mm": 151,
+      "pdf_images": 1,
+      "pdf_filters": [
+        "['/ASCII85Decode', '/FlateDecode']"
+      ],
+      "pdf_image_exact_rgb_match": true
+    },
+    "6-2": {
+      "source_px": [
+        1100,
+        1430
+      ],
+      "effective_dpi_at_185mm": 151,
+      "pdf_images": 1,
+      "pdf_filters": [
+        "['/ASCII85Decode', '/FlateDecode']"
+      ],
+      "pdf_image_exact_rgb_match": true
+    },
+    "comparison_pdf_version_6_2_exact_rgb_match": true,
+    "docs/publication/cover-refined-direction/revision-13-photo-seeded-illustrations/tomato-illustration.png": {
+      "size": [
+        1860,
+        846
+      ],
+      "mode": "RGBA"
+    },
+    "docs/publication/cover-refined-direction/revision-13-photo-seeded-illustrations/courgette-illustration.png": {
+      "size": [
+        2079,
+        756
+      ],
+      "mode": "RGBA"
+    }
+  },
+  "spec": {
+    "referenced_image_paths": [
+      "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/cover-versions/version-6-2/Version-6-2.png",
+      "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/cover-refined-direction/revision-13-photo-seeded-illustrations/tomato-illustration.png",
+      "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/cover-refined-direction/revision-19-courgette-leaf/courgette-02-leaf-illustration.png",
+      "/Users/johnlennon/Documents/web_site/hackriculture-print/public/images/heroes/richer-a/tomato-greenhouse.png",
+      "/Users/johnlennon/Documents/web_site/hackriculture-print/public/images/heroes/richer-a/marrow_courgette.png"
+    ],
+    "transparent_background": false,
+    "prompt": "RESTORE THE ARTWORK QUALITY of this exact gardening book cover while preserving its finished layout. Image 1 is the saved Version 6-2 layout, but its artwork has degraded through repeated edits: blotchy mottled surfaces, fuzzy wobbly highlights, smeared green shapes and cloudy colour bands. It is a POSITION AND WORDING reference, not the surface-quality reference. Image 2 is the ORIGINAL, much cleaner tomato illustration used for the lower scene. Image 3 is the ORIGINAL clean courgette illustration used at upper right. Images 4 and 5 are AUTHORITATIVE house drawing-style references only: broad discrete colour planes and crisp graphic highlights; IGNORE their background haze/glow and do not borrow their fruit arrangement, striped marrow or spotted skin.\n\nReconstruct the cover's TWO illustrations faithfully FROM ORIGINALS 2 AND 3, fitted into precisely their CURRENT footprints in Image 1. Preserve the observed natural tomato layout, fruit count and positions, unequal sizes, ripeness, broad lobed foliage, crossing stems and hanging trusses. Preserve the top-right pair of plain DARK GREEN courgettes, their overlapping angle, and leaves hiding the stem base. No flowers, no large striped marrow, no rearranging the vegetable groups. Restore each tomato's original crisp cream tapered highlights and its broad clean red/orange/green shading planes from image 2. Restore continuous, distinct leaf midribs and large uninterrupted green colour/shadow planes, with crisp organically shaped boundaries. Each plane should have an even colour, at most a very gentle controlled broad transition. Remove small random light/dark cloudlets, muddiness, pimples, grain, speckles, bumps, banding and smeared highlights. Restore sharp smooth outlines with clean antialiasing. NOT an oversharpen filter, no ringing or halos, no blur/airbrushing, no photographic gloss, no painterly texture or fine new veins. Dimensional, polished graphic botanical drawing, not flat featureless silhouettes. Use the original clear forest and lime greens and vibrant tomatoes, avoiding the artificial neon wash that has crept into Image 1.\n\nPreserve Version 6-2's WHOLE composition and every typographic element in Image 1: same title scale, position, line breaks and friendly rounded chunky lettering, 'The Vegetable Guru' at upper left; same smaller two-line subtitle 'Your at-a-glance' / 'growing companion'; 'John Lennon'; same red diagonal top-left ribbon '100% Organic'. Restore the large title's deep-green surfaces to clean even shapes, without patchy clouds or grain, while keeping letterforms unchanged. Preserve the warm cream hue and generous negative space; make the cream background smooth and even, without simulated paper grain or mottling.\n\nRetain the two stickers in EXACTLY their current positions and sizes: white circular YouTube sticker at middle right, clean smooth edge, flat white face and subtle external shadow, with red play logo and green 'As seen on' / 'YouTube' / '@hackriculture'; small black-and-gold Traditional Measurements sticker inset at LOWER LEFT on top of the foliage, about two-thirds the white sticker's diameter, same subtle clockwise angle, exact gold unit lines 'lb · oz' and 'ft · in' enclosed by the gold outlined scale weight, TRADITIONAL curved above and MEASUREMENTS below. Do not enlarge, move or duplicate either sticker. Do not add any new words or elements.\n\nThis is a CLEAN RESTORATION of the existing composition using its original illustration sources, not a new cover design. Output a complete flat portrait cover at maximum available native resolution, ideally at least 2200 by2860 pixels, with crisp large-format graphic clarity. No texture overlays, no photographic scene or mockup, no comparison layout or annotations. Do not retain the damaged mottled surfaces from Image 1."
+  },
+  "output": "generated_images/exec-f936ef10-07a0-47ba-9e33-4298c2306942.png",
+  "review": [
+    "Original Version 3, saved Version 6-2, original separate tomato/courgette illustrations and two approved house-style heroes inspected.",
+    "New proof compared visually: cleaner discrete colour planes, sharper cream highlights and clearer foliage structure; much less cloudy mottling.",
+    "Version 6-2 layout, wording, red ribbon and two sticker placements retained visually, not pixel-exact.",
+    "Saved numbered versions and delivered PDFs have not been replaced."
+  ],
+  "next_step": "Review this proof. For final production, use original illustration sources and separate native typography/sticker layers; do not treat repeated whole-cover generated edits as a lossless layout workflow. Assess future proofs against original artwork as well as the immediate previous design.",
+  "output_px": [
+    1100,
+    1430
+  ],
+  "effective_dpi_at_185mm": 151.0,
+  "files": {
+    "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/cover-versions/version-6-2/Version-6-2.png": {
+      "sha256": "3f9d08bb65ca7f5dc211cc5173de8f4806fbe8dc4db4fc4b0f76a347d7414520",
+      "bytes": 1883849
+    },
+    "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/cover-refined-direction/revision-13-photo-seeded-illustrations/tomato-illustration.png": {
+      "sha256": "2893e5fa16c171f0794547b6733cd1b0f166d4d59921c01e121f3789b2d3fffb",
+      "bytes": 1856392
+    },
+    "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/cover-refined-direction/revision-19-courgette-leaf/courgette-02-leaf-illustration.png": {
+      "sha256": "673b0d39aacdaed332601d70dd455aac12ad9e702123b5b287a47b248bc53cc6",
+      "bytes": 1088527
+    },
+    "/Users/johnlennon/Documents/web_site/hackriculture-print/public/images/heroes/richer-a/tomato-greenhouse.png": {
+      "sha256": "5e3cd5a884582bd13d74cde606c69c2cd9513cd36fa6845833da469ff3a3c3d7",
+      "bytes": 1696895
+    },
+    "/Users/johnlennon/Documents/web_site/hackriculture-print/public/images/heroes/richer-a/marrow_courgette.png": {
+      "sha256": "0ee564ae042a1815ad2fc4a5aa7f875a0f005d59c02e6c8c9fbb4eceb4b969b0",
+      "bytes": 1745414
+    },
+    "generated_images/exec-f936ef10-07a0-47ba-9e33-4298c2306942.png": {
+      "sha256": "6c374a22603c68c28dc9f7464d29fd8a2323bd7c20e53f9400b85211d767ac40",
+      "bytes": 1764173
+    }
+  }
+}

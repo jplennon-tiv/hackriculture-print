@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-11",
+  "revision": "06",
+  "status": "sage selected as direction; lightness trials requested, not yet approved",
+  "feedback": "John: The sage works best. Could we try 3 lightness variations - same, lighter and darker.",
+  "base_cover": "generated_images/exec-0cd47e05-643a-4df6-9e7d-c080e3bf68ec.png",
+  "base_sha256": "7ed318af31047a7e3af3eeadafb6fb1cff50b418e89daf4c6bc4196d9b67c46a",
+  "controls": "Reuse 05B unchanged as Same. Generate Lighter and Darker independently from 05B. Same hue, composition, wording, cream type/sticker and dark-green supporting text requested throughout. Approximate colours are prompt guidance, not measured print specifications.",
+  "variants": [
+    {
+      "id": "06A",
+      "name": "Same sage",
+      "source": "05B",
+      "reused": true,
+      "output": "generated_images/exec-0cd47e05-643a-4df6-9e7d-c080e3bf68ec.png"
+    },
+    {
+      "id": "06B",
+      "name": "Lighter sage",
+      "prompt": "Edit the supplied existing book cover with a tightly controlled BACKGROUND LIGHTNESS CHANGE ONLY. Keep the original portrait aspect ratio and reproduce the supplied cover as closely as possible.\n\nThe user's selected colour is the muted sage green outer field in this exact reference. Preserve that SAME sage hue and muted character. Do not switch to blue, mint, olive, khaki, yellow-green or forest green. Alter only the lightness of the continuous sage surround: top, broad left field, narrow right border and bottom footer. Preserve its restrained matte finish and subtle tonality.\n\nMake the sage surround visibly LIGHTER than the reference by roughly 12 percentage points of perceptual lightness: a soft pale sage in the approximate vicinity of #BFCCB9. This must be a clear lighter step while remaining recognisably the same sage, with sufficient green body to see the cream title. Do not turn the surround white, cream or yellow.\n\nKeep the photograph untouched as closely as possible: exact face and expression, beard and hair, checked shirt and olive T-shirt, hands, red tomatoes, metal colander and greenhouse foliage. Do not relight, recolour, beautify or change any photographic content. Do not apply an overall image tint or exposure change.\n\nKeep the oversized warm cream serif lettering and exact word positions, including the huge V and G crossing the photo boundary and the long G swash. Preserve the clean rectangular photo, original crop, substantial right border and all geometry. Preserve the warm cream circular subtitle sticker at bottom left, overlapping both photograph and outer field, with its exact scale, position and subtle shadow. Its dark-green text remains centred on four lines:\nYour\nat-a-glance\ngrowing\ncompanion\n\nKeep the dark-green John Lennon author credit at lower right, and the full title The Vegetable Guru, all exactly as supplied. Do not change title, sticker or author colours to compensate for background brightness. No new lettering, labels, swatches, comparison panels, decorative objects or layout changes. Output ONE complete flat cover image, not a book mockup."
+    },
+    {
+      "id": "06C",
+      "name": "Darker sage",
+      "prompt": "Edit the supplied existing book cover with a tightly controlled BACKGROUND LIGHTNESS CHANGE ONLY. Keep the original portrait aspect ratio and reproduce the supplied cover as closely as possible.\n\nThe user's selected colour is the muted sage green outer field in this exact reference. Preserve that SAME sage hue and muted character. Do not switch to blue, mint, olive, khaki, yellow-green or forest green. Alter only the lightness of the continuous sage surround: top, broad left field, narrow right border and bottom footer. Preserve its restrained matte finish and subtle tonality.\n\nMake the sage surround visibly DARKER than the reference by roughly 12 percentage points of perceptual lightness: a medium muted sage in the approximate vicinity of #819575. This must be a clear darker step while remaining recognisably the same sage hue, not an olive or forest-green redesign. Preserve the muted saturation and do not darken the photograph.\n\nKeep the photograph untouched as closely as possible: exact face and expression, beard and hair, checked shirt and olive T-shirt, hands, red tomatoes, metal colander and greenhouse foliage. Do not relight, recolour, beautify or change any photographic content. Do not apply an overall image tint or exposure change.\n\nKeep the oversized warm cream serif lettering and exact word positions, including the huge V and G crossing the photo boundary and the long G swash. Preserve the clean rectangular photo, original crop, substantial right border and all geometry. Preserve the warm cream circular subtitle sticker at bottom left, overlapping both photograph and outer field, with its exact scale, position and subtle shadow. Its dark-green text remains centred on four lines:\nYour\nat-a-glance\ngrowing\ncompanion\n\nKeep the dark-green John Lennon author credit at lower right, and the full title The Vegetable Guru, all exactly as supplied. Do not change title, sticker or author colours to compensate for background brightness. No new lettering, labels, swatches, comparison panels, decorative objects or layout changes. Output ONE complete flat cover image, not a book mockup."
+    }
+  ]
+}

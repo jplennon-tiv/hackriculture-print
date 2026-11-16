@@ -1,0 +1,67 @@
+{
+  "date": "2026-11-16",
+  "output": "docs/publication/cover-versions/versions-6-comparison/The-Vegetable-Guru-Versions-6-6-1-6-2.pdf",
+  "sha256": "99a5a3ec1271e0fb1a6e7c2abcb51202632779dec10bc6ba29deae11947bb98a",
+  "bytes": 9460246,
+  "pages": 4,
+  "overview": {
+    "page": 1,
+    "dimensions_mm": [
+      297,
+      210
+    ],
+    "placements_mm": {
+      "6": [
+        10.0,
+        49,
+        88,
+        114.16216216216216
+      ],
+      "6-1": [
+        104.5,
+        49,
+        88,
+        114.16216216216216
+      ],
+      "6-2": [
+        199.0,
+        49,
+        88,
+        114.16216216216216
+      ]
+    }
+  },
+  "individual_pages": {
+    "pages": [
+      2,
+      3,
+      4
+    ],
+    "dimensions_mm": [
+      210,
+      297
+    ],
+    "cover_dimensions_mm": [
+      185,
+      240
+    ]
+  },
+  "sources": {
+    "6": {
+      "path": "docs/publication/cover-versions/version-6/Version-6.pdf",
+      "sha256": "752584813ae5822c99ecc7e9c45cb4ce177c5e7e5194640873987ee91103aa04",
+      "bytes": 3060780
+    },
+    "6-1": {
+      "path": "docs/publication/cover-versions/version-6-1/Version-6-1.pdf",
+      "sha256": "4687a51d86f3d7e2672d3ed6d45b9787e8970b41c4ff00c5ff20ce87b6b54fe1",
+      "bytes": 3189880
+    },
+    "6-2": {
+      "path": "docs/publication/cover-versions/version-6-2/Version-6-2.pdf",
+      "sha256": "6d1f6f4d1f0a2640616e5f746b09677744e6ac3403571bf9b169dd94157cb9c6",
+      "bytes": 3207409
+    }
+  },
+  "preservation": "Existing PDFs reused directly; sources unchanged. New 6-2 PDF embeds selected PNG without pixel changes. No artwork regenerated or backs added."
+}

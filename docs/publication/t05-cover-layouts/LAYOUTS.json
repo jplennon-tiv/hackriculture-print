@@ -1,0 +1,202 @@
+{
+  "date": "2026-11-11",
+  "status": "three unapproved front-cover layout proposals",
+  "preferred_source": "T05, chosen by John for cover trials",
+  "trim_mm": [
+    185,
+    240
+  ],
+  "source": "docs/publication/cover-photo-search/tomato-harvest-study/frames/T05_05m16s042_4K.png",
+  "source_sha256": "53cb40d0389e366daaebcdb3b10879435290e213746aa6a5476fde53e2156e48",
+  "copy": {
+    "title": "The Vegetable Guru",
+    "subtitle": "Your at-a-glance growing companion",
+    "author": "John Lennon"
+  },
+  "photo_treatment": "Original T05 pixels, clipped and scaled within PDF panels. No retouching, generative changes or upscaling. PDF embeds a high-quality JPEG derivative; original PNG retained.",
+  "type_treatment": "Resolution-independent vector outlines from local Lilita One and Nunito Sans at 600/800; Georgia regular is a new cover-only proposal. Exact letters remain editable in the Python source. Font files and vector glyphs are read locally; no remote font dependency.",
+  "layouts": {
+    "A": {
+      "name": "Cream masthead",
+      "text": [
+        {
+          "text": "The",
+          "font": "Nunito800",
+          "point_size": 14,
+          "x_mm": 88.114,
+          "baseline_from_top_mm": 15,
+          "width_mm": 8.771
+        },
+        {
+          "text": "Vegetable",
+          "font": "Lilita",
+          "point_size": 64,
+          "x_mm": 43.822,
+          "baseline_from_top_mm": 39,
+          "width_mm": 97.355
+        },
+        {
+          "text": "Guru",
+          "font": "Lilita",
+          "point_size": 78,
+          "x_mm": 63.539,
+          "baseline_from_top_mm": 65,
+          "width_mm": 57.923
+        },
+        {
+          "text": "Your at-a-glance growing companion",
+          "font": "Nunito600",
+          "point_size": 12.5,
+          "x_mm": 55.033,
+          "baseline_from_top_mm": 76,
+          "width_mm": 74.934
+        },
+        {
+          "text": "John Lennon",
+          "font": "Nunito800",
+          "point_size": 17,
+          "x_mm": 73.584,
+          "baseline_from_top_mm": 233,
+          "width_mm": 37.833
+        }
+      ],
+      "photo": {
+        "panel_mm": [
+          0,
+          84,
+          185,
+          137
+        ],
+        "source_crop_xyxy": [
+          804.672,
+          0,
+          3235.328,
+          1800
+        ],
+        "effective_ppi": 333.7
+      }
+    },
+    "B": {
+      "name": "Forest frame",
+      "text": [
+        {
+          "text": "The",
+          "font": "Georgia",
+          "point_size": 18,
+          "x_mm": 87.153,
+          "baseline_from_top_mm": 17,
+          "width_mm": 10.694
+        },
+        {
+          "text": "Vegetable",
+          "font": "Georgia",
+          "point_size": 52,
+          "x_mm": 52.864,
+          "baseline_from_top_mm": 38,
+          "width_mm": 79.272
+        },
+        {
+          "text": "Guru",
+          "font": "Georgia",
+          "point_size": 74,
+          "x_mm": 62.672,
+          "baseline_from_top_mm": 64,
+          "width_mm": 59.655
+        },
+        {
+          "text": "Your at-a-glance growing companion",
+          "font": "Nunito600",
+          "point_size": 12.5,
+          "x_mm": 55.033,
+          "baseline_from_top_mm": 77,
+          "width_mm": 74.934
+        },
+        {
+          "text": "John Lennon",
+          "font": "Nunito800",
+          "point_size": 17,
+          "x_mm": 73.584,
+          "baseline_from_top_mm": 231,
+          "width_mm": 37.833
+        }
+      ],
+      "photo": {
+        "panel_mm": [
+          12,
+          88,
+          161,
+          126
+        ],
+        "source_crop_xyxy": [
+          870.0,
+          0,
+          3170.0,
+          1800
+        ],
+        "effective_ppi": 362.9
+      }
+    },
+    "C": {
+      "name": "Photograph first",
+      "text": [
+        {
+          "text": "The Vegetable",
+          "font": "Georgia",
+          "point_size": 34,
+          "x_mm": 11,
+          "baseline_from_top_mm": 176,
+          "width_mm": 74.924
+        },
+        {
+          "text": "Guru",
+          "font": "Georgia",
+          "point_size": 59,
+          "x_mm": 11,
+          "baseline_from_top_mm": 199,
+          "width_mm": 47.563
+        },
+        {
+          "text": "Your at-a-glance growing companion",
+          "font": "Nunito600",
+          "point_size": 12.5,
+          "x_mm": 11,
+          "baseline_from_top_mm": 213,
+          "width_mm": 74.934
+        },
+        {
+          "text": "John Lennon",
+          "font": "Nunito800",
+          "point_size": 17,
+          "x_mm": 11,
+          "baseline_from_top_mm": 233,
+          "width_mm": 37.833
+        }
+      ],
+      "photo": {
+        "panel_mm": [
+          11,
+          11,
+          163,
+          146
+        ],
+        "source_crop_xyxy": [
+          1015.205,
+          0,
+          3024.795,
+          1800
+        ],
+        "effective_ppi": 313.2
+      }
+    }
+  },
+  "context_spread": {
+    "path": "docs/publication/sowing-rollout/revisions/tomato_greenhouse/spreads/tomato_greenhouse-imperial.jpg",
+    "sha256": "2355fa3ec259637827a0012863de860a494e4477cbf901c105a824fefae22273",
+    "status": "Approved 10 November; reused unchanged."
+  },
+  "font_inputs": {
+    "/Users/johnlennon/Documents/web_site/hackriculture-print/public/fonts/richer-a-1.woff2": "d2575d4fa3632580aafcbcdf6978b3b57e144b90cf5bd9c2c98194f28b869704",
+    "/Users/johnlennon/Documents/web_site/hackriculture-print/public/fonts/richer-a-6.woff2": "29e3890496844a9ea81975c52771c587c872b4eb317026422d1995b88d21b57d",
+    "/System/Library/Fonts/Supplemental/Georgia.ttf": "4f54eb299fccea7f103edeb0d92437359bfd4441811d53222b82b335369f6218"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-11",
+  "revision": "10",
+  "status": "centred placeholder-photo layout requested; revision 09 lettering accepted",
+  "user_words": "Ok let's go with that. Next I'd like to look at the photo. I want to replace it with a generated one, so regard it as a placeholder for now. Firstly it should be centred horizontally.",
+  "base_cover": "generated_images/exec-94f70154-e743-4c92-a5a8-ea42849b91f4.png",
+  "base_sha256": "57f1f7f5634e95680a0d2f25e0cb684a7ade692fea075c68e0dac77d201289eb",
+  "scope": "John accepts revision 09 type treatment. Centre the photo rectangle horizontally on the cover, retaining its crop/size and vertical position. Current image is a placeholder for a later generated replacement; no replacement-scene brief supplied yet.",
+  "target_geometry": {
+    "reference_cover_px": [
+      1100,
+      1430
+    ],
+    "photo_rect_approx_px": [
+      154,
+      152,
+      946,
+      1275
+    ],
+    "photo_side_margins_percent": 14,
+    "horizontal_shift_approx_px": -84
+  },
+  "fixed": "Approved Lilita title, The, author and sticker retain cover positions and size. Keep selected lighter sage. Do not centre the person within an unchanged offset frame.",
+  "prompt": "Make a single precise POSITION EDIT to the supplied book cover: centre the RECTANGULAR PHOTOGRAPH horizontally on the overall cover. The current picture is a temporary placeholder; do not replace its subject yet.\n\nThe cover is 1100 x 1430 pixels in the reference. The photo currently spans approximately x=238 to x=1030, with its top at y=152 and bottom at y=1275. Move the complete photo rectangle AND its existing image contents approximately 84 pixels LEFT, without resizing, so that it spans approximately x=154 to x=946. This gives equal 154-pixel sage margins on the left and right. Equivalently, the photo occupies the middle 72% of the cover width, bounded at 14% and 86%, with its centre at precisely 50%. Preserve its present vertical position and height.\n\nThis is centring the PHOTO FRAME on the cover, not moving the person inside an unchanged right-offset frame. Move the whole image and its rectangular boundary together, maintaining the current crop, scale and internal content. Fill the old exposed area at the right with matching light sage; retain a clean rectangular boundary and equal side margins. Do not widen the photo, stretch it, centre the entire page composition or crop the whole cover.\n\nFREEZE THE APPROVED LETTERING:\nKeep the exact existing Lilita One title design, letter sizes, spacing, colour, and placement. Keep \"The\", \"Vegetable\", \"Guru\" and the author \"John Lennon\" precisely in their supplied cover positions. The title remains layered IN FRONT OF the repositioned photo. Do not move, shrink, restyle or reflow any title lettering to accommodate the placeholder image.\nKeep the cream circular subtitle sticker and its dark-green Lilita text exactly where they are, at the lower left, layered in front of the photograph. It should still overlap the photo and the sage border. Do not move the sticker along with the photo.\n\nPRESERVE:\nThe selected pale light sage background hue and brightness, cream lettering/sticker, dark-green author/subtitle, surface finish and overall portrait dimensions.\nThe existing placeholder photograph's content: John with his checked shirt and olive T-shirt, grey beard and hair, the ripe tomatoes in the metal colander and greenhouse foliage. This image will be replaced later, so do not redesign the scene now. Keep text layers in front, with any resulting overlaps arising naturally from the horizontal shift only.\n\nExact wording stays unchanged:\nThe Vegetable Guru\nYour at-a-glance growing companion\nJohn Lennon\n\nReturn ONE flat complete front-cover image, same portrait dimensions as the reference. No labels, rulers, guides, annotations or alternative designs. The only intended change is the photograph shifted horizontally to give equal left and right margins."
+}

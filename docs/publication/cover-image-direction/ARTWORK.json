@@ -1,0 +1,32 @@
+{
+  "date": "2026-11-11",
+  "revision": "01",
+  "status": "generated concept for review; unapproved",
+  "brief": "BRIEF.json",
+  "output": "generated_images/exec-8b0b677c-1a16-4984-a182-c744e8220bf7.png",
+  "output_sha256": "f0e27d5ec920d65f4dab27dd2d6664e73feed8548de84833b04442b83969d035",
+  "size_px": [
+    1101,
+    1428
+  ],
+  "references": [
+    {
+      "role": "author photograph and identity",
+      "path": "docs/publication/cover-photo-search/tomato-harvest-study/frames/T05_05m16s042_4K.png",
+      "sha256": "53cb40d0389e366daaebcdb3b10879435290e213746aa6a5476fde53e2156e48"
+    },
+    {
+      "role": "cover composition inspiration, not reusable production artwork",
+      "path": "docs/publication/cover-direction-study/references/grow-easy.jpg",
+      "sha256": "9c3d7d5e5f1f6067045b75cde22d3f090231723d848db8464fa8d19f7815daf8"
+    }
+  ],
+  "model": "Not exposed by the native image-generation tool; no confirmed GPT-Image-2.6 identifier",
+  "generation": "One native image-generation call with T05 and Grow Easy cover as direct references; complete cover rendered together.",
+  "review": {
+    "observed": "Generated tool image visually inspected: title, subtitle and author present; golden-yellow surround, cream overlapping title, greenhouse portrait and full colander visible.",
+    "limits": "Generated interpretation of the photograph, not a pixel-preserving photographic composite. Likeness, exact typography and print detail are not approved.",
+    "scope": "Front-cover image concept only. No final print wrap, bleed, spine, publication upload or book integration."
+  },
+  "preservation": "Original T05, Grow Easy reference, G2/B5, production covers and B typography trials unchanged."
+}

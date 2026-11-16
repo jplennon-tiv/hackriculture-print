@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-11",
+  "revision": "15",
+  "status": "Requested lighter-yellow trial",
+  "user_request": "Can we go a bit lighter with the yellow?",
+  "generation_input": {
+    "prompt": "Create one colour variation of this book cover, retaining the complete exact front-cover composition. Reference 1 is the user's selected original tomato-tending cover and is authoritative for the PHOTOGRAPH and the typography/geometry. Reference 2 is the latest yellow version; the user now asks to go A BIT LIGHTER WITH THE YELLOW. Make the surrounding page background a slightly lighter, softer sunny yellow than reference 2, about 20–25% towards white, approximately #F5DA70. It should clearly still be yellow, not cream, beige, mustard, orange or sage. An airy warm light yellow, not glaring fluorescent yellow; even colour with only subtle matte texture. The large title 'The Vegetable Guru', INCLUDING 'The', and the lower-left circular subtitle sticker background must be clean bright WHITE, as in reference 2 (not cream as in reference 1). The subtitle lettering 'Your at-a-glance growing companion' and author 'John Lennon' remain DARK GREEN. Match every letter shape, typeface (Lilita One), type size, line break, position, photo border width and sticker size/position to reference 1. Keep the centred rectangular photograph and the title's deliberate overlaps across its edges. Preserve the original natural PHOTOGRAPH FROM REFERENCE 1 as faithfully as possible, especially the author's likeness, natural facial/hair/skin detail, exact pose, hand shapes, tomato plants and greenhouse. Do not reinterpret or beautify the face, do not introduce painterly skin, excessive sharpening or synthetic textures; do not tint or lighten the photograph when lightening the yellow. Only the surrounding page colour and the specified white title/sticker differ from reference 1. All visible page surround outside the photo becomes the lighter yellow, including top, sides and footer. No other graphic changes, no extra text, no mockup. Return one complete flat cover, same 1100 x 1430 portrait proportions.",
+    "referenced_image_paths": [
+      "/Users/johnlennon/Documents/web_site/hackriculture-print/generated_images/exec-ed6f9623-4d34-41c6-8eef-11f2dc4a651e.png",
+      "/Users/johnlennon/Documents/web_site/hackriculture-print/generated_images/exec-da6b1d0a-2c2b-4c11-9e72-72022049c88b.png"
+    ],
+    "transparent_background": false
+  },
+  "source_roles": {
+    "selected_photograph_and_geometry": "Revision 12A, used directly to minimise cumulative photographic drift",
+    "colour_baseline": "Revision 14 yellow; lighten its surround modestly while retaining white title/sticker"
+  },
+  "target": "Approximately #F5DA70 as a prompt aid, not a final press colour; lighter sunny yellow rather than cream.",
+  "scope": "Colour comparison only. Keep selected photo, Lilita lettering and dark-green supporting text. Preserve earlier files."
+}

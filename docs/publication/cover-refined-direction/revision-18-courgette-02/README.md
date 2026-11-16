@@ -1,0 +1,11 @@
+# Courgette 02 — two-fruit upper illustration trial
+
+16 November 2026. John found trial 01 “Not bad” but its stems “a little disconnected”, and requested the other source photograph. This trial uses source 02, Thomas Parker's two overlapping courgettes. It is a comparison proposal, not final artwork approval or a new numbered version.
+
+[Current updated preview](https://chatgpt.com/library?file_id=libfile_fde3_f-2d6fffdbb6788191a9c5ee7d985852ed_968f6e806ba48191b80ffb1b7a35f663&account_id=personal) now opens the [leaf and lower-border revision](../revision-19-courgette-leaf/README.md). This earlier [local review PDF](Courgette-02-cover-trial.pdf) is retained: front at 185 × 240 mm, followed by the real photograph, approved hero references and original drawing. [Local front](Front-cover.pdf) · [Layout](LAYOUT.json) · [Checks](CHECKS.json) · [Generation](GENERATION.json) · [Builder](build.py).
+
+Two fruits of different sizes overlap at the source's angles. Their short ribbed stalks join a visible plant crown at the right. Leaf stalks connect into that structure or pass behind the fruit; loose stems are omitted. The photograph's large blossom and dense background are deliberately removed. The left leaf tip gives a small overlap into the cream title field. Actual approved Richer A courgette and capsicum heroes supplied the drawing style.
+
+Both review pages and the final cover render were visually inspected. Transparency was checked on cream and dark green. At 100 dpi, the complete area below y380 and 88,335 original centre-ink pixels match the retained baseline exactly. The centre, lower tomatoes and tilted foreground sticker remain. [Trial 01](../revision-17-courgette-01/README.md), Versions 1–4, the back and main book are retained. John subsequently preferred this composition and requested a leaf over the exposed stem base and removal of the partial line above the lower image; the linked revision addresses both.
+
+Composition source: **Thomas Parker / Pexels**, [Fresh Zucchini Growing in a Lush Garden Patch](https://www.pexels.com/photo/fresh-zucchini-growing-in-a-lush-garden-patch-37521727/), [Pexels License](https://www.pexels.com/license/). The review carries this credit and identifies the illustrated redraw, omissions and framing changes.

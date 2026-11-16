@@ -30,6 +30,8 @@ const match=location.hash.match(/spread=(\d+)/);show(match?Number(match[1]):0,fa
 if checks.get('finalCopyEditFolios'):
     folios=', '.join(map(str,checks['finalCopyEditFolios']))
     template=template.replace('<ul><li><strong>Growing Techniques runs',f'<ul><li><strong>John’s final copy edits are included on pages {folios}.</strong> Earlier approved sources remain preserved.</li><li><strong>Growing Techniques runs').replace('All earlier approved copy is retained. The new Troubles feature panels are intentional; editing annotations are absent.','Earlier approved pages remain, with the requested copy replacements and no review highlights.')
+if checks.get('introductionApproval'):
+    template=template.replace('3 NOVEMBER 2026','15 NOVEMBER 2026').replace('<h2>Current book</h2><ul>','<h2>Current book</h2><ul><li><strong>The approved personal introduction and 1991 garden photograph are installed at page 7.</strong> The three cover candidates are under separate review.</li>')
 template=template.replace('__REVISION__',checks['sha256'][:12]).replace('__TOTAL__',str(checks['interiorPages'])).replace('__PDFTOTAL__',str(checks['pdfPages'])).replace('__CONTENTS__',str(next(p['folio'] for p in pages if p['kind']=='contents'))).replace('__INDEX__',str(next(p['folio'] for p in pages if p['kind']=='index'))).replace('__PDF__',html.escape(pdf)).replace('__SIZE__',f"{checks['bytes']/1024**2:.1f}").replace('__PAGES__',json.dumps(pages,ensure_ascii=False).replace('</','<\\/')).replace('__PDFJSON__',json.dumps(pdf))
 (DOC/'REVIEW.html').write_text(template)
 (DOC/'PAGE-MAP.json').write_text(json.dumps(pages,ensure_ascii=False,indent=2)+'\n')

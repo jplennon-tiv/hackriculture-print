@@ -1,9 +1,9 @@
 {
-  "date": "2026-11-03",
-  "status": "Approved contents reflow, sentence-case problem labels and Key risks headings integrated; actual PDF checks passed",
+  "date": "2026-11-15",
+  "status": "Approved personal introduction installed at page 7; other 179 pages retained",
   "pdf": "output/pdf/whole-book-order-preview/the-vegetable-guru-order-preview.pdf",
-  "sha256": "8c75e0eb9114005edd7516bf2d86855cf90110e4d2fff0ee48a146571afbeea6",
-  "bytes": 706892082,
+  "sha256": "5b4856e75e23ddf0a2be9b17641cf5fb2844e9d4e0417eca9f6032bae3b3124d",
+  "bytes": 714212550,
   "units": "imperial",
   "interiorPages": 176,
   "pdfPages": 180,
@@ -1272,6 +1272,8 @@
     "contentsApproval": "docs/publication/contents-key-reflow/APPROVAL.json"
   },
   "troublesApproval": "docs/publication/troubles-rollout/APPROVAL.json",
-  "integrationReceipt": "docs/publication/whole-book-order-preview/integration-2026-11-03/INTEGRATION-CHECKS.json",
-  "subsectionManifest": "docs/publication/techniques-subsections/MANIFEST.json"
+  "integrationReceipt": "docs/publication/whole-book-order-preview/integration-2026-11-15-introduction/INTEGRATION-CHECKS.json",
+  "subsectionManifest": "docs/publication/techniques-subsections/MANIFEST.json",
+  "introductionApproval": "docs/publication/introduction-revision/APPROVAL.json",
+  "previousFullAssemblyChecks": "docs/publication/whole-book-order-preview/integration-2026-11-15-introduction/before-CHECKS.json"
 }

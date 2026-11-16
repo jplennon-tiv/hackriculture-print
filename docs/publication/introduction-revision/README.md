@@ -1,0 +1,19 @@
+# Official personal introduction — page 7
+
+**Approved by John on 15 November 2026.** [Approval and frozen source hashes](APPROVAL.json). Revision 2 is the official introduction: exact revised wording, harvest header, enhanced garden photograph, caption and Cornwall sign-off. It is installed at interior page 7 / PDF page 9 in the assembled preview, with no pagination changes. [Installation checks](../whole-book-order-preview/integration-2026-11-15-introduction/INTEGRATION-CHECKS.json). The [first preview](references/01-text-only/Introduction-preview.pdf) and original photograph remain preserved.
+
+- [One-page PDF](../../../output/pdf/introduction-revision/Introduction-preview.pdf)
+- [Actual PDF raster](../../../output/pdf/introduction-revision/Introduction-preview.png)
+- [Editable wording](introduction.txt)
+- [Offline renderer](build.swift)
+- [Fit, font, text and visual checks](CHECKS.json)
+
+330 words from John's latest supplied copy. Only spelling/punctuation corrections: vegetables, gardener's singular possessive, colon before the two benefits, punctuation around ‘No’, lower-case organic after the semicolon, a comma before the book-damage clause and a colon before the battered-book explanation. His reinstated organic/mainstream emphasis and revised description of alphabetical vegetable guides/plant-group pests are retained. Sign-off now includes Cornwall, England. Hard line breaks are normalised for typesetting.
+
+The original photograph is preserved in [assets/garden-1991-original.jpg](assets/garden-1991-original.jpg), with the [approved restoration](assets/garden-1991-restored.png). See [ARTWORK.json](ARTWORK.json) for original path, exact prompt, file hashes and review limits. The photo is 78 × 53.1 mm, below the main copy and beside the closing message. Caption: “The author’s first food garden, 1991.” AI restoration reconstructs fine detail; the source remains available for substitution.
+
+The source comparison is the [approved Why Grow page](../topic-pages/techniques-expansion/WHY-GROW-APPROVAL.json). This revision intentionally replaces its old encouragement copy, three-column explanations and closing panel with John's continuous first-person introduction. Its approved harvest-bowl artwork remains beside the heading; the header was made 8 mm shallower for the garden-photo row. Lilita, Nunito Sans, cream paper, green text, recto 17/8 mm margins and footer position carry forward the book design language. The body is 10.5 pt with 14.5 pt leading; folio 7 is retained. Page 6 remains blank; page 8 is not consumed. No unit-dependent wording exists, so the same preview serves both editions.
+
+The Vite launcher failed with EPERM on loopback in this session. This bounded preview was generated offline using native CoreText/CoreGraphics, reading the existing local font files directly and embedding them in the PDF. Rebuild from the project root with `swift -module-cache-path /tmp/intro-swift-module-cache docs/publication/introduction-revision/build.swift`. Render that PDF with Ghostscript and refresh the verification receipt after any change. The renderer resets visual status to pending.
+
+Inspected the actual PDF raster against the approved original and checked the page-6/page-7 pairing. All paragraphs and sign-off fit and match PDF extraction after normalising font ligatures and nonbreaking phrase typography. Both font families are embedded. The title, artwork, photograph, caption, paragraphs, sign-off and footer are clear, with 6.7 mm clearance above the footer. Body type remains 10.5 pt; no words were cut to fit the image. This is a trim-size review proof, not a new supplier file. The current full-book builder installs the frozen approved page through `scripts/install-approved-introduction.py`; it must not use the older omitted `book-layout/introduction.json`. The enhanced image is also saved in the [book photograph resources](../../assets/book-photographs/README.md).

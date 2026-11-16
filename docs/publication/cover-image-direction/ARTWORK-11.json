@@ -1,0 +1,67 @@
+{
+  "date": "2026-11-11",
+  "revision": "11",
+  "status": "11A person-led direction selected and likeness accepted; more candid action variations requested",
+  "brief": "BRIEF-11.json",
+  "fixed_choices": {
+    "background": "06B lighter sage",
+    "lettering": "Accepted revision 09 visual treatment, Lilita One throughout",
+    "composition_base": "Revision 10 centred photographic panel; retained subtitle sticker and author placement"
+  },
+  "base_cover": {
+    "path": "generated_images/exec-3d4e38cf-9868-4229-aedc-ff4325ef9a72.png",
+    "sha256": "f494d0a3b9854c7e4b3799e053e6bf40c3283efbd9b66e394b125b4a7f800776",
+    "size_px": [
+      1100,
+      1430
+    ]
+  },
+  "identity_reference": {
+    "used_for": "11A only, original T05 likeness rather than the generated revision 10 face",
+    "path": "docs/publication/cover-photo-search/tomato-harvest-study/previews/T05.jpg",
+    "sha256": "9af49c789610d39b21d48e5532fcc8b8eda32c3c8f1e02f2c91ccd595df7f144",
+    "size_px": [
+      1600,
+      900
+    ],
+    "original_frame": "docs/publication/cover-photo-search/tomato-harvest-study/frames/T05_05m16s042_4K.png",
+    "original_sha256": "53cb40d0389e366daaebcdb3b10879435290e213746aa6a5476fde53e2156e48"
+  },
+  "outputs": [
+    {
+      "id": "11A",
+      "label": "John arranging the harvest",
+      "path": "generated_images/exec-1cfba607-75f3-4e24-86ef-5bb9fb20dd21.png",
+      "sha256": "332db1b1aa178c99347ad908c6e780bd7609e0a3ca6bb518da47398f7285b3ca",
+      "size_px": [
+        1100,
+        1430
+      ],
+      "visual_review": "John appears at the right, with neatly reduced wisps, receding hairline and grey beard retained. Face and both hands are clear of the lettering. One hand places carrots; the other is beside tomatoes. Vegetable groups and wooden table are clearly readable below, with garden and greenhouse behind. John subsequently confirmed that the likeness is good; requested a less staged scene."
+    },
+    {
+      "id": "11B",
+      "label": "Harvest table only",
+      "path": "generated_images/exec-f59de7ff-7760-46c7-927e-dd671aca162c.png",
+      "sha256": "78ad15bff4ab87982c9caafc0668a0f9aeff4aa45a7698111154c01abbacd0cc",
+      "size_px": [
+        1100,
+        1430
+      ],
+      "visual_review": "Closer three-quarter table view, with tomatoes, carrots, beetroot, courgettes, onions, squash, cabbage and a bean basket. No person. Main vegetable groups dominate the lower photo; Guru crosses some upper foliage/cabbage leaves but no face or essential harvest grouping. Garden and greenhouse remain in the background."
+    }
+  ],
+  "checks": {
+    "method": "Both full-cover tool outputs visually inspected; actual image dimensions and SHA-256 hashes read from disk. Original T05 preview and revision 10 inspected before generation.",
+    "observed": "Both retain a visually centred photographic rectangle, lighter sage surround, cream crossing title, cream subtitle sticker and dark-green author. Exact title/subtitle/author wording present. Original revision 10 and 4K T05 hashes match retained records.",
+    "limits": "Generated photographic concepts, not documentary images of John’s actual garden/harvest. Visual consistency is not pixel identity; letterforms are not embedded fonts and these are not production files. No print fit/colour or full-book checks requested or performed."
+  },
+  "preservation": "All original photographs, earlier cover trials, approved interior and canonical data retained. No whole-book rebuild, supplier action or publication.",
+  "next_step": "Revision 12 supplies independent tomato-tending, weeding and wheelbarrow scenes from 11A plus original T05 likeness reference; await John’s comparison.",
+  "user_decision": {
+    "date": "2026-11-11",
+    "selected_variant": "11A",
+    "user_words": "The first image, or a variation on that theme, is the one to use. The likeness is good!",
+    "scope": "Author-led photographic direction and likeness accepted; staged harvest arrangement to be explored through more natural gardening action scenes. No finished cover or production approval."
+  }
+}

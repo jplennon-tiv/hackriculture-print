@@ -1,0 +1,214 @@
+{
+  "date": "2026-11-12",
+  "route": 2,
+  "status": "2A preferred over 2B; new reference-led 2C/2D proposals await comparison; no final selection",
+  "briefs": [
+    "BRIEF-01.json",
+    "BRIEF-02-B.json",
+    "BRIEF-03-CD.json"
+  ],
+  "direct_references": [
+    {
+      "path": "public/images/heroes/richer-a/carrot.png",
+      "sha256": "733b775e5e9f87d78669551ca911e39ea3eb61bed6bc54815e64b10c8fbdbfe9",
+      "size_bytes": 1586483,
+      "size_px": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "path": "public/images/heroes/richer-a/tomato-greenhouse.png",
+      "sha256": "5e3cd5a884582bd13d74cde606c69c2cd9513cd36fa6845833da469ff3a3c3d7",
+      "size_bytes": 1696895,
+      "size_px": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "path": "public/images/heroes/richer-a/bean_french.png",
+      "sha256": "8f00499fd49d4931b805cef1b02e10f2fb3ded60dc02bbdad432c82037674d19",
+      "size_bytes": 1626815,
+      "size_px": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "path": "docs/publication/cover-image-direction/font-references/H-actual-font.png",
+      "sha256": "f9a251633754bb319067d5830bd0b9bf392b24ee9a9d6a405a88285ea7b6908d",
+      "size_bytes": 65386,
+      "size_px": [
+        1600,
+        1350
+      ]
+    }
+  ],
+  "book_context": {
+    "path": "docs/publication/sowing-rollout/revisions/tomato_greenhouse/spreads/tomato_greenhouse-imperial.jpg",
+    "sha256": "2355fa3ec259637827a0012863de860a494e4477cbf901c105a824fefae22273",
+    "size_bytes": 671959,
+    "size_px": [
+      2085,
+      1350
+    ]
+  },
+  "outputs": [
+    {
+      "variant": "2A",
+      "label": "Harvest on cream",
+      "revision": "01",
+      "file": {
+        "path": "generated_images/exec-fac69b04-7360-40e7-b7f7-804e2cfc9eec.png",
+        "sha256": "86eb7cdef95123b615b58592b54eba80babc131953dabefa3b8a629c9cca10f8",
+        "size_bytes": 1887828,
+        "size_px": [
+          1101,
+          1429
+        ]
+      },
+      "status": "Preferred of the first pair; retained for comparison, not final approval",
+      "visual_review": "Bold crop silhouettes, broad red/orange/green shadow planes, cream slashes and rhythmic highlight strips closely follow the actual carrot/tomato/bean heroes. One overlapping harvest grouping; vegetation rises beside Guru. Title, subtitle, author and channel wording are clear. More densely filled than the spacious prompt target; no user approval implied."
+    },
+    {
+      "variant": "2B",
+      "label": "Kitchen garden on forest",
+      "revision": "01",
+      "file": {
+        "path": "generated_images/exec-7d01cf33-e196-4c39-ab4e-f3c940bad412.png",
+        "sha256": "223d825a555a513db7dc0a7cf38ba8819ead45bc57ca9d3d414d100e9f4e4444",
+        "size_bytes": 1886023,
+        "size_px": [
+          1101,
+          1429
+        ]
+      },
+      "status": "Superseded visual-QA draft; retain for history",
+      "visual_review": "Coherent path/greenhouse/bed composition and readable white type, but carrots and beetroot stand implausibly above ground. Corrected in revision 02."
+    },
+    {
+      "variant": "2B",
+      "label": "Kitchen garden on forest",
+      "revision": "02",
+      "file": {
+        "path": "generated_images/exec-e941f03e-d0e6-48f7-9945-7fceeb5c6e48.png",
+        "sha256": "72c7c4d0c0f869c67db80c76e0cb74d6d3e837e5e1cf1584fd0dfd66dbfb437c",
+        "size_bytes": 1897685,
+        "size_px": [
+          1100,
+          1429
+        ]
+      },
+      "status": "Not preferred by John; retained as comparison history",
+      "visual_review": "Carrot roots now below opaque soil with small crowns visible; beetroot shoulders partly buried. Soil simplified into broad planes. Connected garden and path remain legible; large foliage and crop colour planes preserve the hero language. Stylised perspective and crop scale remain editorial proposals, not measured horticultural diagrams."
+    },
+    {
+      "variant": "2C",
+      "label": "Structured crop grid",
+      "revision": "03",
+      "file": {
+        "path": "generated_images/exec-cf5917a9-398f-4557-bf48-665b94e03529.png",
+        "sha256": "84b477a0e1338d227aec45e213818b16ad339742b10e749fec75b0964613eef7",
+        "size_bytes": 1633493,
+        "size_px": [
+          1102,
+          1428
+        ]
+      },
+      "status": "Current proposal",
+      "visual_review": "Six consistent crop cells on a shared yellow ground, forest rules and Lilita-style type. Carrot, beetroot and beans carry the approved broad planes/highlight vocabulary; tomatoes, onions and lettuce follow that treatment. All crops stay within their cells. Required title, subtitle, author and YouTube text present. Clear alternative to the large harvest cluster; not user-approved."
+    },
+    {
+      "variant": "2D",
+      "label": "Plants and roots",
+      "revision": "03",
+      "file": {
+        "path": "generated_images/exec-38fe7bbf-59a3-4611-94ef-d823d09c91a2.png",
+        "sha256": "2f058ce1477872c49767f970c4918fd06952accba6a06a3b945bec97f096ea62",
+        "size_bytes": 1628941,
+        "size_px": [
+          1101,
+          1428
+        ]
+      },
+      "status": "Current proposal",
+      "visual_review": "Muted blue open ground, dark title and a single side-on growing strip. Carrot and beetroot bodies are below a clear soil line; simplified roots of the other plants occupy the lower dark band, clear of the white author. Broad foliage and crop highlights relate to the approved heroes at smaller scale. No perspective garden, greenhouse/path or 3D book mockup. Required wording present. Simplified diagrammatic scene, not a scale planting plan."
+    }
+  ],
+  "checks": {
+    "coverage": "Actual approved hero pixels, exact-font specimen and approved interior spread inspected before generation. All three complete outputs inspected; reference comparison covers silhouette, foliage shapes, shadow planes, highlight rhythm and texture. Image dimensions and SHA-256 measured from disk. Review-page local image/link targets checked. For C/D, both exact downloaded publisher covers and the approved beetroot were visually inspected; three hero references plus the actual font specimen were supplied directly to each generation. Full C/D outputs checked for text, crop framing, source/style roles and roots below the diagrammatic soil line. Source hashes and PNG dimensions recorded.",
+    "limits": "Full-cover raster studies; no embedded-font/print-PDF checks, no press colour validation or actual-size print approval. Deliberate opaque cover backgrounds; transparency checks for isolated assets are not applicable. Neither concept is approved."
+  },
+  "intentional_changes": "New cream/forest palettes and coherent illustrations; direct subtitle rather than circular sticker; no photograph/portrait. Exact cover words, one typeface and channel feature carried forward. C adds a shared yellow six-cell grid; D substitutes a blue side-on plants/root band for B’s forest perspective scene. These are proposals based on the two named publisher references.",
+  "preservation": "Approved heroes, all photographic trials and 93-file photographic archive retained. No canonical data, crop proofs, book assembly or supplier changes.",
+  "user_feedback_2026_11_12": {
+    "preferred": "2A",
+    "words": "A looks better. B does look a bit AI generated.",
+    "next_request": "Two new concepts inspired by How to Grow Food and The Permaculture Garden, with the house font and illustration style."
+  },
+  "publisher_composition_references": [
+    {
+      "id": "grow-food",
+      "title": "How to Grow Food",
+      "author": "Huw Richards & Sam Cooper",
+      "year": 2026,
+      "publisher": "DK",
+      "file": "9780241819210_jacket_0.jpg",
+      "url": "https://dk.com/products/9780241767030-how-to-grow-food",
+      "image_url": "https://dk.com/cdn/shop/files/9780241819210_jacket_0.jpg?v=1768758562&width=900",
+      "lesson": "Bright yellow and a six-cell grid still feel coherent. One background, consistent marks and a clear title hierarchy unite the parts.",
+      "local_file": "references/grow-food.jpg",
+      "accessed": "2026-11-11",
+      "status": "Visual reference for criticism and comparison; not approved production artwork.",
+      "file_info": {
+        "path": "docs/publication/cover-direction-study/references/grow-food.jpg",
+        "sha256": "6f900467a13b837df05b077d3c9e844e410b19465a7d50c0f9a867b8c6d3186e",
+        "size_bytes": 107190,
+        "size_px": [
+          636,
+          800
+        ]
+      },
+      "role": "Broad composition/organisation only; original book title, logos and artwork not reproduced"
+    },
+    {
+      "id": "permaculture",
+      "title": "The Permaculture Garden",
+      "author": "Huw Richards",
+      "year": 2025,
+      "publisher": "DK",
+      "file": "the-permaculture-garden.jpg",
+      "url": "https://shop.kew.org/permaculture-garden",
+      "image_url": "https://shop.kew.org/media/catalog/product/t/h/the-permaculture-garden.jpg",
+      "lesson": "Plants, roots and insects share a single garden scene. A calm blue ground and orderly type make the detail feel purposeful.",
+      "local_file": "references/permaculture.jpg",
+      "accessed": "2026-11-11",
+      "status": "Visual reference for criticism and comparison; not approved production artwork.",
+      "file_info": {
+        "path": "docs/publication/cover-direction-study/references/permaculture.jpg",
+        "sha256": "d86b7286f15f65d0a25bb1a575b32796e9c32112444874f062a9f7f574f5de99",
+        "size_bytes": 61771,
+        "size_px": [
+          650,
+          650
+        ]
+      },
+      "role": "Broad composition/organisation only; original book title, logos and artwork not reproduced"
+    }
+  ],
+  "additional_style_reference": {
+    "path": "public/images/heroes/richer-a/beetroot.png",
+    "sha256": "fa7251e6ce9ff76219b147cdff873b6c070e3649ce104c3a3bf9020584529eae",
+    "size_bytes": 1793711,
+    "size_px": [
+      1024,
+      1536
+    ]
+  },
+  "current_review": [
+    "2C",
+    "2D"
+  ],
+  "preferred_previous": "2A"
+}

@@ -1,0 +1,182 @@
+{
+  "date": "2026-11-11",
+  "status": "Title-only font proposals; no font selected",
+  "feedback": "John prefers 07B to 07A but finds it reminiscent of the 1970s. He requests more variations and permits a written title list rather than full covers.",
+  "title": "The Vegetable Guru",
+  "output": "docs/publication/cover-image-direction/font-list/Title-font-comparison.png",
+  "size_px": [
+    2480,
+    3508
+  ],
+  "sha256": "0caeabae6ee3d68bd62d6a4579c631d672fbf721a639ebf7a6234a509e111ae1",
+  "method": "Pillow/FreeType actual local fonts, comparable H-capital heights; regular shaping, no width distortion or synthetic font recreation. Raster specimen at 300 dpi.",
+  "cover_controls": "06B lighter sage remains fixed. One typeface throughout each future cover. Existing artwork untouched.",
+  "variants": [
+    {
+      "id": "A",
+      "label": "Charter Bold",
+      "font_file": "/System/Library/Fonts/Supplemental/Charter.ttc",
+      "face_index": 3,
+      "weight_axis": null,
+      "reported_font_name": [
+        "Charter",
+        "Bold"
+      ],
+      "render_size_px": 132,
+      "capital_height_px": 89,
+      "title_bbox_px": [
+        170,
+        476,
+        1381,
+        603
+      ],
+      "font_sha256": "58bb71a9ce92888987eb98d79818f95554903aa1c141936fd4b224b484e88265"
+    },
+    {
+      "id": "B",
+      "label": "Baskerville SemiBold",
+      "font_file": "/System/Library/Fonts/Supplemental/Baskerville.ttc",
+      "face_index": 4,
+      "weight_axis": null,
+      "reported_font_name": [
+        "Baskerville",
+        "SemiBold"
+      ],
+      "render_size_px": 136,
+      "capital_height_px": 91,
+      "title_bbox_px": [
+        170,
+        833,
+        1445,
+        959
+      ],
+      "font_sha256": "049ec225cd13060da91d0042f304174c71854db38c71e70f84760f4b0f063d8a"
+    },
+    {
+      "id": "C",
+      "label": "Georgia Bold",
+      "font_file": "/System/Library/Fonts/Supplemental/Georgia Bold.ttf",
+      "face_index": 0,
+      "weight_axis": null,
+      "reported_font_name": [
+        "Georgia",
+        "Bold"
+      ],
+      "render_size_px": 128,
+      "capital_height_px": 89,
+      "title_bbox_px": [
+        170,
+        1190,
+        1473,
+        1315
+      ],
+      "font_sha256": "1cfa9abd55be746c798c22ef4eba88fce82257934897404be2dae53ed0a4142a"
+    },
+    {
+      "id": "D",
+      "label": "Optima Bold",
+      "font_file": "/System/Library/Fonts/Optima.ttc",
+      "face_index": 1,
+      "weight_axis": null,
+      "reported_font_name": [
+        "Optima",
+        "Bold"
+      ],
+      "render_size_px": 128,
+      "capital_height_px": 89,
+      "title_bbox_px": [
+        170,
+        1547,
+        1294,
+        1678
+      ],
+      "font_sha256": "4f663009136c7debd4fe9aae1ca18d10b0826e54705f776ad271113d9558ab8b"
+    },
+    {
+      "id": "E",
+      "label": "Avenir Next Demi Bold",
+      "font_file": "/System/Library/Fonts/Avenir Next.ttc",
+      "face_index": 2,
+      "weight_axis": null,
+      "reported_font_name": [
+        "Avenir Next",
+        "Demi Bold"
+      ],
+      "render_size_px": 125,
+      "capital_height_px": 89,
+      "title_bbox_px": [
+        170,
+        1904,
+        1339,
+        2029
+      ],
+      "font_sha256": "e03834eefdb4164c2af2c35b985285eb4fd67ff8db54aaed3bdc6d9c8b7f3c3c"
+    },
+    {
+      "id": "F",
+      "label": "Helvetica Neue Medium",
+      "font_file": "/System/Library/Fonts/HelveticaNeue.ttc",
+      "face_index": 10,
+      "weight_axis": null,
+      "reported_font_name": [
+        "Helvetica Neue",
+        "Medium"
+      ],
+      "render_size_px": 125,
+      "capital_height_px": 89,
+      "title_bbox_px": [
+        170,
+        2261,
+        1317,
+        2378
+      ],
+      "font_sha256": "f589d70dc741853a336fcb0d11aa1505d1646898fba2340a0f5999ea920406b3"
+    },
+    {
+      "id": "G",
+      "label": "Nunito Sans ExtraBold",
+      "font_file": "/Users/johnlennon/Documents/web_site/hackriculture-print/public/fonts/richer-a-6.woff2",
+      "face_index": 0,
+      "weight_axis": 800,
+      "reported_font_name": [
+        "Nunito Sans 12pt ExtraLight 12pt",
+        "Regular"
+      ],
+      "render_size_px": 127,
+      "capital_height_px": 90,
+      "title_bbox_px": [
+        170,
+        2618,
+        1382,
+        2734
+      ],
+      "font_sha256": "29e3890496844a9ea81975c52771c587c872b4eb317026422d1995b88d21b57d"
+    },
+    {
+      "id": "H",
+      "label": "Lilita One",
+      "font_file": "/Users/johnlennon/Documents/web_site/hackriculture-print/public/fonts/richer-a-1.woff2",
+      "face_index": 0,
+      "weight_axis": null,
+      "reported_font_name": [
+        "Lilita One",
+        "Regular"
+      ],
+      "render_size_px": 128,
+      "capital_height_px": 89,
+      "title_bbox_px": [
+        170,
+        2975,
+        1237,
+        3090
+      ],
+      "font_sha256": "d2575d4fa3632580aafcbcdf6978b3b57e144b90cf5bd9c2c98194f28b869704"
+    }
+  ],
+  "visual_review": "Full rendered sheet inspected: all eight title lines and font names visible, no clipping or collisions, broad margins and consistent capital height. Exact local faces and weight axis confirmed. This is a lettering specimen, not cover artwork.",
+  "delivery": {
+    "library_file_id": "libfile_fde3_f-69263eb8a0a88191a386ed9c773a85ff_968f6e806ba48191b80ffb1b7a35f663",
+    "url": "https://chatgpt.com/library?file_id=libfile_fde3_f-69263eb8a0a88191a386ed9c773a85ff_968f6e806ba48191b80ffb1b7a35f663&account_id=personal",
+    "local_identity_metadata": "applied successfully"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "date": "2026-11-11",
+  "status": "three checked proposals; no lettering approval",
+  "pdf": {
+    "file": "B-typography-review.pdf",
+    "page_count": 5,
+    "page_sizes_mm": [
+      [
+        297.0389,
+        209.9028
+      ],
+      [
+        185.0,
+        240.0
+      ],
+      [
+        185.0,
+        240.0
+      ],
+      [
+        185.0,
+        240.0
+      ],
+      [
+        297.0389,
+        209.9028
+      ]
+    ],
+    "bytes": 6209393,
+    "sha256": "fd2687e13862f59383a6d384582878236a8e351f12f7e465cb1e61c7915f9b2f",
+    "embedded_images": [
+      {
+        "pixels": [
+          3840,
+          2160
+        ],
+        "sha256": "77855d16a317d39f263960d4d1fbe00c426d56fb21fa3e0872068bd8da4ea0f0"
+      },
+      {
+        "pixels": [
+          2085,
+          1350
+        ],
+        "sha256": "2355fa3ec259637827a0012863de860a494e4477cbf901c105a824fefae22273"
+      }
+    ],
+    "external_image_references": false
+  },
+  "controls": {
+    "photo_crop_identical_to_B": true,
+    "subtitle_author_text_and_geometry_identical_to_B": true,
+    "rendered_pixels_below_70mm_identical_to_original_B_on_all_three_covers": true,
+    "wording_unchanged": true,
+    "source_photo_and_approved_interior_hashes_unchanged": true,
+    "original_layout_manifest_and_review_PDF_hashes_unchanged": true,
+    "font_sources_unchanged": true
+  },
+  "visual_review": {
+    "renderer": "Poppler pdftoppm; PNG at 1600 px longest edge",
+    "pages_inspected": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "result": "All images and glyphs render. No visible overlaps or clipped text. Main titles and their relationship to the approved interior inspected at full page and thumbnail sizes.",
+    "cover_text": "Vector outlines: checked by source strings, geometry and visual inspection; not selectable PDF text."
+  },
+  "comparison_preview": {
+    "file": "B-typography-comparison.png",
+    "sha256": "0a13b3f057f5f8b63dbcb20300e1b8dba181f47155370cf4286882232a99775c"
+  },
+  "scope": "Title lettering trials only. No original cover, main-book, shared copy or gardening-data changes. No application tests, whole-book exports or supplier actions.",
+  "local_document_links_checked": 25
+}

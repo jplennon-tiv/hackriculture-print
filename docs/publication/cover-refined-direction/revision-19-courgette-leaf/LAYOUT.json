@@ -1,0 +1,152 @@
+{
+  "date": "2026-11-16",
+  "status": "Source 02 leaf and border revision ready for John\u2019s review",
+  "request": "Hide the exposed plant-stem base with a leaf; remove the partial thin dark line at the top of the lower image.",
+  "generation": "GENERATION.json",
+  "source": "docs/publication/cover-courgette-source-search/sources/02-overlapping-fruits-Thomas-Parker.jpg",
+  "dimensions_mm": [
+    185,
+    240
+  ],
+  "top_placement": [
+    0,
+    16,
+    1100,
+    370.74074074074076
+  ],
+  "top_clip_points": [
+    [
+      0,
+      0
+    ],
+    [
+      1100,
+      0
+    ],
+    [
+      1100,
+      380
+    ],
+    [
+      700,
+      380
+    ],
+    [
+      700,
+      332
+    ],
+    [
+      270,
+      332
+    ],
+    [
+      270,
+      380
+    ],
+    [
+      0,
+      380
+    ]
+  ],
+  "centre_clip_points": [
+    [
+      150,
+      332
+    ],
+    [
+      878,
+      332
+    ],
+    [
+      878,
+      410
+    ],
+    [
+      1015,
+      410
+    ],
+    [
+      1015,
+      332
+    ],
+    [
+      1100,
+      332
+    ],
+    [
+      1100,
+      988
+    ],
+    [
+      255,
+      988
+    ],
+    [
+      255,
+      858
+    ],
+    [
+      0,
+      858
+    ],
+    [
+      0,
+      450
+    ],
+    [
+      132,
+      450
+    ],
+    [
+      132,
+      415
+    ],
+    [
+      150,
+      415
+    ]
+  ],
+  "lower_seam_fix": {
+    "cleanup_rectangle": [
+      255,
+      985,
+      845,
+      4
+    ],
+    "units": "1100 \u00d7 1430 cover coordinates",
+    "method": "A cream PDF rectangle covers the old photographic boundary fringe before the unchanged transparent tomato asset is placed."
+  },
+  "cream_rgb": [
+    249,
+    240,
+    222
+  ],
+  "preserved": "Centre lettering/sprout, subtitle, author, lower tomato artwork/placement, tilted foreground sticker; all prior versions, back and main book.",
+  "intentional_replacements": "A small foreground leaf hides the exposed crown base. The retained centre\u2019s lower fringe is covered with matching cream to remove the partial rule. Two-fruit arrangement and house style retained. Earlier source-01 and source-02 trials preserved.",
+  "files": {
+    "docs/publication/cover-refined-direction/revision-19-courgette-leaf/courgette-02-leaf-illustration.png": {
+      "sha256": "673b0d39aacdaed332601d70dd455aac12ad9e702123b5b287a47b248bc53cc6",
+      "bytes": 1088527
+    },
+    "docs/publication/cover-refined-direction/revision-19-courgette-leaf/Front-cover.pdf": {
+      "sha256": "f957dcdadf21a209b8d975544ef4455d5c4448adc1588417f54cd2f4aa2e396f",
+      "bytes": 8674849
+    },
+    "docs/publication/cover-refined-direction/revision-19-courgette-leaf/Courgette-02-cover-trial.pdf": {
+      "sha256": "0acd839abf8693229128f8ab9e2f4b4f65dc5ae0de326f579a73f6b8edb2f97e",
+      "bytes": 16372999
+    },
+    "docs/publication/cover-courgette-source-search/sources/02-overlapping-fruits-Thomas-Parker.jpg": {
+      "sha256": "3490f66fec5492e3f584f091ed4858589d041fd41e6e7b22f3e94b848b9dd2af",
+      "bytes": 100268
+    },
+    "public/images/heroes/richer-a/marrow_courgette.png": {
+      "sha256": "0ee564ae042a1815ad2fc4a5aa7f875a0f005d59c02e6c8c9fbb4eceb4b969b0",
+      "bytes": 1745414
+    },
+    "public/images/heroes/richer-a/capsicum.png": {
+      "sha256": "4c44da3ac94745def5e74b4a05f99b3a9ecd64b8e34f9cfd2d848602feca55d6",
+      "bytes": 1594322
+    }
+  }
+}

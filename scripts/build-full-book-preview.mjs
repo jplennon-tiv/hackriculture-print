@@ -17,6 +17,7 @@ await buildCategoryLabels();
 const footers=await buildNavigationOverlays({includeHeadings:false});
 fs.writeFileSync(path.join(root,'docs/publication/whole-book-order-preview/integration-2026-11-03/FOOTERS.json'),JSON.stringify(footers,null,2)+'\n');
 run(python,['scripts/integrate-approved-book.py']);
+run(python,['scripts/install-approved-introduction.py']);
 run(python,['scripts/check-book-navigation.py']);
 run(python,['scripts/review-whole-book-preview.py']);
 console.log('Full preview rebuilt. Inspect the changed pages and record the visual review separately.');

@@ -1,0 +1,39 @@
+{
+  "date": "2026-11-16",
+  "raster_checks": {
+    "complete_below_y380_max_channel_difference": 0,
+    "original_centre_ink_pixels_checked": 88335,
+    "original_centre_ink_max_channel_difference": 0,
+    "ink_mask": "y332..988 with any original RGB channel below [210,210,170]; excludes cream field where new leaf overlap is intended"
+  },
+  "refinement": "Initial comparison found fourteen centre-ink pixels different by one channel level due to a near-transparent image fringe. Placing the exact clipped centre after the new top restored an exact match while retaining left leaf overflow.",
+  "pages_mm": [
+    [
+      185.0,
+      240.0
+    ],
+    [
+      185.0,
+      240.0
+    ]
+  ],
+  "alpha_range": [
+    0,
+    255
+  ],
+  "transparent_pixel_fraction": 0.4920728854671474,
+  "preserved_files": {
+    "docs/publication/cover-refined-direction/revision-17-courgette-01/Front-cover.pdf": "cf132b4f2fac8cd0d621b775707b4a1456470efd88ceb4cce8e3e287e6f6389f",
+    "docs/publication/cover-refined-direction/revision-17-courgette-01/Courgette-01-cover-trial.pdf": "29491c56b7799d6feae88474b7ed7a54f75f84892209f0f28b1c86fd2aca3429",
+    "docs/publication/cover-versions/version-4/Version-4.pdf": "89572bab4a82ca9190e2d3b297067e440e9c6adaf40bce43754114130ea50905"
+  },
+  "visual_review": [
+    "Both review pages inspected at 100 dpi; final cover rerender inspected after centre layering adjustment.",
+    "Two unequal courgettes overlap; both short ribbed fruit stalks visibly join the right-hand plant crown.",
+    "Left leaf petiole passes behind the fruit; no detached floating stalk observed.",
+    "Large source blossom omitted; fruit remains dominant.",
+    "Cream title clearance, restrained far-left leaf overlap and lower tomato/sticker placement checked.",
+    "Alpha silhouette checked on cream and dark green; broad planes and cream highlights compared with approved heroes on page 2."
+  ],
+  "status": "Trial ready for John\u2019s feedback; no production approval."
+}

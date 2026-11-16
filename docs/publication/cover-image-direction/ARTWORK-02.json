@@ -1,0 +1,32 @@
+{
+  "date": "2026-11-11",
+  "revision": "02",
+  "status": "generated concept for review; unapproved",
+  "brief": "BRIEF-02.json",
+  "output": "generated_images/exec-0f4bd613-aed4-4128-83ae-ec6c67f9b342.png",
+  "output_sha256": "5f8c6534ea0fbb1f656740e9447187991164e5e859d81cba353d409b9dc6fe2b",
+  "size_px": [
+    1100,
+    1429
+  ],
+  "references": [
+    {
+      "role": "original author photograph and identity",
+      "path": "docs/publication/cover-photo-search/tomato-harvest-study/frames/T05_05m16s042_4K.png",
+      "sha256": "53cb40d0389e366daaebcdb3b10879435290e213746aa6a5476fde53e2156e48"
+    },
+    {
+      "role": "direct graphic-composition seed",
+      "path": "docs/publication/cover-direction-study/references/grow-easy.jpg",
+      "sha256": "9c3d7d5e5f1f6067045b75cde22d3f090231723d848db8464fa8d19f7815daf8"
+    }
+  ],
+  "model": "Native image tool; exact version not exposed",
+  "generation": "Single complete-cover generation using original T05 and the exact retained Grow Easy cover as direct seeds. Revision 01 was not a generation input.",
+  "review": {
+    "observed": "Generated result visually inspected: oversized V and G cross yellow field/photo boundary; offset portrait at right; leaf crosses lower-left photo edge; subtitle and author at lower left; all required wording present; face and bowl visible.",
+    "limits": "Generated interpretation of T05, not a pixel-preserving composite. Exact likeness and final print quality remain for review. Requested flat yellow has slight tonal variation.",
+    "approval": "No user approval of image, typography or production."
+  },
+  "preservation": "Source hashes and revision 01 output verified unchanged; no book or canonical-data edits."
+}

@@ -1,0 +1,7 @@
+# Version 5 simplification — upper title and garlic
+
+John found the first Version 5 composition too busy and requested four changes: remove the courgette image, restore The relative to the title, raise the entire title group, and move the garlic to the top-right corner. [Retained upper-title preview](../../cover-versions/version-5/references/upper-title-before-proportions/Version-5-review.pdf) · [Generation](GENERATION.json) · [Layout](LAYOUT.json) · [Checks](CHECKS.json) · [Builder](build.py).
+
+The first Version 5 image was edited directly, with the quieter source showing the old word relationship. The result removes the flower/courgette group, returns The just above the left third of Vegetable and Guru beneath it, and floats the garlic separately at top right. The subtitle, author, lower tomatoes and tilted sticker continue. This is a generated proposal with no claim of exact source-pixel identity. The previous comparison is retained; the current review is one front-cover page for focused feedback.
+
+Previous Version 5 and named Version 4 hashes are in [PRESERVED.json](PRESERVED.json). Earlier designs, source drawings, back and main book remain intact. John subsequently authorised the [proportion refinements](../revision-22-proportions/README.md). This historical builder writes to the Version 5 paths and must not be rerun over the current version. No production approval is inferred.

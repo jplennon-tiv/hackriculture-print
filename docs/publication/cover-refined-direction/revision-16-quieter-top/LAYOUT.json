@@ -1,0 +1,69 @@
+{
+  "date": "2026-11-15",
+  "status": "Quieter-top Version 4 trial awaiting John\u2019s review",
+  "request": "John authorised the proposed simplification: reduce upper artwork height by roughly a third; smaller courgette group left, garlic pair right; omit cabbage and leave a generous uninterrupted band of cream above the title.",
+  "base": "docs/publication/cover-refined-direction/revision-15-full-width-cream/LAYOUT.json",
+  "dimensions_mm": [
+    185,
+    240
+  ],
+  "placements": {
+    "flowers": [
+      42,
+      0,
+      250,
+      250
+    ],
+    "garlic": [
+      805,
+      8,
+      234,
+      234
+    ]
+  },
+  "scale_change": {
+    "flowers": 0.6684491978609626,
+    "garlic": 0.6685714285714286
+  },
+  "clear_cream_band_cover_coordinates": [
+    0,
+    250,
+    1100,
+    82
+  ],
+  "cream_rgb": [
+    249,
+    240,
+    222
+  ],
+  "intentional_omissions": "Cabbage removed from this front only; artwork and source photographs retained. The latest review PDF is front-only; original source-reference page remains in earlier revision archives.",
+  "preserved": "Exact courgette/garlic image files; tomato artwork/placement; cream field above and below; centre lettering/sprout/author; sticker position/angle/size/foreground order. All prior cover revisions, back and main book retained.",
+  "artwork_method": "Native PDF placement only, using uniform scaling; no regeneration, distortion or recolouring.",
+  "review": "Complete \u2014 full cover visual inspection and focused PDF/raster preservation checks; see CHECKS.json. Await John\u2019s feedback.",
+  "files": {
+    "docs/publication/cover-versions/version-4/Version-4.pdf": {
+      "bytes": 11121208,
+      "sha256": "89572bab4a82ca9190e2d3b297067e440e9c6adaf40bce43754114130ea50905"
+    },
+    "docs/publication/cover-versions/version-4/Version-4-review.pdf": {
+      "bytes": 11121208,
+      "sha256": "89572bab4a82ca9190e2d3b297067e440e9c6adaf40bce43754114130ea50905"
+    },
+    "docs/publication/cover-versions/version-1/Version-1.png": {
+      "bytes": 2418374,
+      "sha256": "4860d3f0ae959cf7f47da771d2098787e878ada6644a57526afe89e67da0bd20"
+    },
+    "docs/publication/cover-refined-direction/revision-13-photo-seeded-illustrations/tomato-illustration.png": {
+      "bytes": 1856392,
+      "sha256": "2893e5fa16c171f0794547b6733cd1b0f166d4d59921c01e121f3789b2d3fffb"
+    },
+    "docs/publication/cover-refined-direction/revision-14-three-square-panels/flowers-illustration.png": {
+      "bytes": 1367471,
+      "sha256": "24a88a0ce8d1e74e25d2136f6c4d97bb5829226d017d3960e8cf4798db72fd1d"
+    },
+    "docs/publication/cover-refined-direction/revision-14-three-square-panels/garlic-illustration.png": {
+      "bytes": 1329686,
+      "sha256": "ba38fc591ed5d54be51faa1035c506dd85937d233f53bd02d0c0ca47bd9328da"
+    }
+  }
+}

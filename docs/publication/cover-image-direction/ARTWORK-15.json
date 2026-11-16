@@ -1,0 +1,43 @@
+{
+  "date": "2026-11-11",
+  "revision": "15",
+  "status": "Lighter yellow judged too light; midpoint between 14 and 15 requested",
+  "brief": "BRIEF-15.json",
+  "base_cover": {
+    "path": "generated_images/exec-ed6f9623-4d34-41c6-8eef-11f2dc4a651e.png",
+    "sha256": "c3ee133bca09312072ea1e5132a1775b5935cb75eccc52c34959a4550821ab6d",
+    "size_px": [
+      1100,
+      1430
+    ],
+    "surround_sample_median_rgb": [
+      189,
+      216,
+      195
+    ]
+  },
+  "output": {
+    "path": "generated_images/exec-cf8cb9b3-49e7-43ff-9eed-cf99e7ab1f13.png",
+    "sha256": "5f17363465dab1e403a59bd047fe2f47f21fd834cc558cdc1ec1e649042ff4db",
+    "size_px": [
+      1100,
+      1430
+    ],
+    "surround_sample_median_rgb": [
+      253,
+      222,
+      115
+    ]
+  },
+  "review": {
+    "observed": "Full generated cover visually inspected. White title and sticker, dark-green supporting text, centred tomato-tending scene and overall layout retained. Yellow surround differs as requested.",
+    "colour_sample_box_xyxy": [
+      1010,
+      700,
+      1070,
+      900
+    ],
+    "limits": "Generated raster with some photographic rendering drift, not a pixel-preserving edit or a press specification. No final colour or production approval."
+  },
+  "preservation": "All earlier artwork retained; no interior, data, full-book or supplier changes."
+}

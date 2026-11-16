@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-03",
-  "pdfSha256": "8c75e0eb9114005edd7516bf2d86855cf90110e4d2fff0ee48a146571afbeea6",
+  "date": "2026-11-15",
+  "pdfSha256": "5b4856e75e23ddf0a2be9b17641cf5fb2844e9d4e0417eca9f6032bae3b3124d",
   "interiorPages": 176,
   "firstLeaves": [
     {
@@ -9,7 +9,9 @@
       "kind": "cover",
       "source": "docs/publication/whole-book-order-preview/integration-2026-10-18/baseline.pdf",
       "sourcePage": 1,
-      "pdfPage": 1
+      "pdfPage": 1,
+      "changes": [],
+      "image": "pages/page-001.jpg"
     },
     {
       "folio": null,
@@ -17,7 +19,9 @@
       "kind": "blank",
       "source": "docs/publication/whole-book-order-preview/integration-2026-10-18/baseline.pdf",
       "sourcePage": 2,
-      "pdfPage": 2
+      "pdfPage": 2,
+      "changes": [],
+      "image": "pages/page-002.jpg"
     },
     {
       "folio": 1,
@@ -25,7 +29,9 @@
       "kind": "opening",
       "source": "docs/publication/whole-book-order-preview/integration-2026-10-18/baseline.pdf",
       "sourcePage": 3,
-      "pdfPage": 3
+      "pdfPage": 3,
+      "changes": [],
+      "image": "pages/page-003.jpg"
     },
     {
       "folio": 2,
@@ -33,7 +39,9 @@
       "kind": "opening",
       "source": "docs/publication/whole-book-order-preview/integration-2026-10-18/baseline.pdf",
       "sourcePage": 4,
-      "pdfPage": 4
+      "pdfPage": 4,
+      "changes": [],
+      "image": "pages/page-004.jpg"
     },
     {
       "folio": 3,
@@ -41,7 +49,9 @@
       "kind": "blank",
       "source": "docs/publication/whole-book-order-preview/integration-2026-10-18/baseline.pdf",
       "sourcePage": 5,
-      "pdfPage": 5
+      "pdfPage": 5,
+      "changes": [],
+      "image": "pages/page-005.jpg"
     },
     {
       "folio": 4,
@@ -49,7 +59,9 @@
       "kind": "contents",
       "source": "output/pdf/contents-update/contents-imperial.pdf",
       "sourcePage": 1,
-      "pdfPage": 6
+      "pdfPage": 6,
+      "changes": [],
+      "image": "pages/page-006.jpg"
     },
     {
       "folio": 5,
@@ -57,7 +69,9 @@
       "kind": "contents",
       "source": "output/pdf/contents-update/contents-imperial.pdf",
       "sourcePage": 2,
-      "pdfPage": 7
+      "pdfPage": 7,
+      "changes": [],
+      "image": "pages/page-007.jpg"
     },
     {
       "folio": 6,
@@ -65,15 +79,20 @@
       "kind": "blank",
       "source": "docs/publication/whole-book-order-preview/integration-2026-10-18/baseline.pdf",
       "sourcePage": 8,
-      "pdfPage": 8
+      "pdfPage": 8,
+      "changes": [],
+      "image": "pages/page-008.jpg"
     },
     {
       "folio": 7,
-      "label": "Introduction — why grow your own",
-      "kind": "techniques",
-      "source": "docs/publication/whole-book-order-preview/integration-2026-10-18/baseline.pdf",
-      "sourcePage": 9,
-      "pdfPage": 9
+      "label": "Introduction",
+      "kind": "introduction",
+      "source": "docs/publication/introduction-revision/references/approved-2026-11-15/Introduction.pdf",
+      "sourcePage": 1,
+      "pdfPage": 9,
+      "changes": [],
+      "image": "pages/page-009.jpg",
+      "approval": "docs/publication/introduction-revision/APPROVAL.json"
     },
     {
       "folio": 8,
@@ -81,7 +100,9 @@
       "kind": "blank",
       "source": "docs/publication/whole-book-order-preview/integration-2026-10-18/baseline.pdf",
       "sourcePage": 10,
-      "pdfPage": 10
+      "pdfPage": 10,
+      "changes": [],
+      "image": "pages/page-010.jpg"
     },
     {
       "folio": 9,
@@ -89,7 +110,9 @@
       "kind": "combined-guides-opening",
       "source": "output/pdf/guides-intro-detail/vegetable-guides-intro.pdf",
       "sourcePage": 1,
-      "pdfPage": 11
+      "pdfPage": 11,
+      "changes": [],
+      "image": "pages/page-011.jpg"
     }
   ],
   "sectionStartFolios": [
@@ -163,5 +186,7 @@
   "indexFolios": [
     172,
     175
-  ]
+  ],
+  "introductionApproval": "docs/publication/introduction-revision/APPROVAL.json",
+  "introductionIntegration": "docs/publication/whole-book-order-preview/integration-2026-11-15-introduction/INTEGRATION-CHECKS.json"
 }

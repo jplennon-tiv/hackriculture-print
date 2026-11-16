@@ -1,0 +1,63 @@
+{
+  "date": "2026-11-11",
+  "revision": "08",
+  "status": "Three full-cover studies complete in requested H, A, E order; no finished-cover or final-font approval",
+  "brief": "BRIEF-08.json",
+  "base_cover": "generated_images/exec-61becb7d-a229-4a3d-b62c-78dc70c46bc0.png",
+  "base_sha256": "bb836ed4569a1bb715bb4844ff7b0405cbe9eda3f07eac1f7d7301f44c095a4d",
+  "font_references": "FONT-REFERENCES-08.json",
+  "user_preference_at_request": [
+    "H - Lilita One",
+    "A - Charter Bold",
+    "E - Avenir Next Demi Bold"
+  ],
+  "variants": [
+    {
+      "id": "08H",
+      "shortlist_id": "H",
+      "intended_font": "Lilita One",
+      "font_reference": "docs/publication/cover-image-direction/font-references/H-actual-font.png",
+      "output": "generated_images/exec-2974d644-ab7c-4bc0-97b8-6aa4ee1be664.png",
+      "sha256": "35aecc8a59f21778771243deda2477f75688747005d6c61715ee26ef0e3f500e",
+      "size_px": [
+        1100,
+        1430
+      ],
+      "status": "full-cover typography proposal awaiting John’s preference"
+    },
+    {
+      "id": "08A",
+      "shortlist_id": "A",
+      "intended_font": "Charter Bold",
+      "font_reference": "docs/publication/cover-image-direction/font-references/A-actual-font.png",
+      "output": "generated_images/exec-3955aa56-bd12-4926-b386-07b85b8102e1.png",
+      "sha256": "e83db82d994a8ddeadeabf5bab93280f9e7403522dfe2cfd481c5eb3f13b70f3",
+      "size_px": [
+        1100,
+        1430
+      ],
+      "status": "full-cover typography proposal awaiting John’s preference"
+    },
+    {
+      "id": "08E",
+      "shortlist_id": "E",
+      "intended_font": "Avenir Next Demi Bold",
+      "font_reference": "docs/publication/cover-image-direction/font-references/E-actual-font.png",
+      "output": "generated_images/exec-0552d39b-3090-4dcb-824b-d043151c2e97.png",
+      "sha256": "b802d6993c390568566136c96a141e3721f093d230390c8056785c4d56b353c5",
+      "size_px": [
+        1100,
+        1430
+      ],
+      "status": "full-cover typography proposal awaiting John’s preference"
+    }
+  ],
+  "generation": "Each is an independent native image edit of 06B with its own separate exact-font specimen as the second reference. No chaining between variants.",
+  "model": "Native image tool; exact version not exposed",
+  "review": {
+    "observed": "All three generation outputs visually inspected alongside the font specimens. H uses the chunky rounded Lilita-like sans forms throughout; A uses sturdy Charter-like serif forms; E uses clean Avenir-like sans forms. Each applies a consistent family treatment to title, The, sticker and author. Required wording is present and legible; photo face/hands/tomatoes remain unobscured. Pale sage, cream title/sticker, dark-green supporting text, rectangular photo, right border and overlapping lower-left sticker remain visually consistent.",
+    "intentional_adaptation": "The old curled serif G tail is removed. Title sizing/spacing adapts to each font’s natural glyph shapes while retaining the large words crossing the photo boundary.",
+    "limits": "Generated studies guided by exact local-font specimens, not font-embedded production files. Exact glyph identity, image pixels and colour values are not guaranteed by generation. Full production quality and photographic fidelity remain unapproved."
+  },
+  "preservation": "Selected 06B, all three font specimens and font-file hashes verified unchanged. All previous images retained. No canonical-data, interior, supplier or whole-book changes."
+}

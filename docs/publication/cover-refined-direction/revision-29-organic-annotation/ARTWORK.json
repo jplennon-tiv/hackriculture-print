@@ -1,0 +1,34 @@
+{
+  "date": "2026-11-16",
+  "status": "Earlier cursive/caret experiment; superseded by revision-30-organic-print. Source retained.",
+  "base": "docs/publication/cover-versions/version-6/Version-6.png",
+  "request": "Instead of the ribbon, add organic after at-a-glance in smaller red angled handwriting, like ^ organic.",
+  "referenced_image_paths": [
+    "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/cover-versions/version-6/Version-6.png"
+  ],
+  "transparent_background": false,
+  "prompt": "Edit this exact supplied original Version 6 book cover with ONE small handwritten editorial addition to the subtitle. Use this ribbon-free reference as the base. There must be NO corner ribbon, banner or 100% Organic badge.\n\nThe existing subtitle is two left-aligned lines: 'Your at-a-glance' / 'growing companion'. Immediately after 'at-a-glance' on the FIRST line, add a small red insertion caret '^' followed by the lowercase word 'organic', as if the author has added it by hand with a red felt-tip pen. Exact added annotation: '^ organic'. Keep ALL existing printed words, type sizes, positions, line breaks and alignment unchanged.\n\nMake 'organic' visibly HANDWRITTEN: loose confident cursive/italic pen lettering, mildly irregular natural strokes, legible and friendly, not the chunky printed cover font. It should be slightly smaller than the printed subtitle (about 65–70% of its letter height), in rich warm red (#C83324), and angled upward to the right about 8–12 degrees. Use one fine caret and one word only. The caret is the conventional upward-pointing editorial insertion mark positioned just after the end of the printed first line, and the organic word follows it with a slight handwritten lift.\n\nOn the 1100x1430 reference, the first subtitle line spans approximately x=88..560 and y=645..694. Place the small caret around x=575 near that first-line baseline, and fit the handwritten word roughly within x=592..735, tilted and a little raised relative to the baseline. It must be comfortably separated from the printed text and must end before the white YouTube sticker at about x=758. Do not touch or overlap the sticker or the second subtitle line. Do NOT move, reduce or distort the existing subtitle to make room. The intended effect is a charming red handwritten insertion: 'Your at-a-glance ^ organic' above 'growing companion'.\n\nPreserve the entire rest of the cover unchanged: upper-right courgettes and foliage, green title 'The Vegetable Guru' without title sprout, original cream corner and background, left-aligned 'John Lennon', lower tomatoes, and the raised white slightly clockwise sticker 'As seen on' / 'YouTube' / '@hackriculture'. Keep all imagery, typography, spacing, colours and sticker placement. No other red writing, arrows, underlines or decoration. One complete flat portrait cover, same aspect ratio, no mockup.",
+  "output": "generated_images/exec-7e2a2424-4980-4cdd-a469-23e7d16958a2.png",
+  "preserved_saved_variant": "docs/publication/cover-versions/version-6-1/VERSION.json",
+  "review": [
+    "Generated full cover inspected.",
+    "Ribbon absent; exactly one red caret and lowercase organic after at-a-glance.",
+    "Word is smaller, handwritten and angled upward to the right; it clears the second subtitle line and white sticker.",
+    "Other cover wording, illustrations and layout retained visually.",
+    "Original Version 6, saved red-ribbon 6-1 and six-cover PDF not overwritten."
+  ],
+  "files": {
+    "docs/publication/cover-versions/version-6/Version-6.png": {
+      "sha256": "26016f8810000d25176d7bbc1fcedf894d704a1188e18d54c29d8decbc70670d",
+      "bytes": 1884410
+    },
+    "generated_images/exec-7e2a2424-4980-4cdd-a469-23e7d16958a2.png": {
+      "sha256": "8f4093e3e3838d4bb473c0968a09bf4d7a40d189f67fb1b3ec243fde8e5c2309",
+      "bytes": 1881071
+    },
+    "docs/publication/cover-versions/version-6-1/Version-6-1.png": {
+      "sha256": "a528ccf669790a8e4a9c96edc22e293f096b2f8d1c8d3bb87445557151fa19da",
+      "bytes": 1906172
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "date": "2026-11-11",
+  "revision": "13",
+  "status": "White title and sticker-background colour trial for review; 12A photograph selected",
+  "brief": "BRIEF-13.json",
+  "base_cover": {
+    "path": "generated_images/exec-ed6f9623-4d34-41c6-8eef-11f2dc4a651e.png",
+    "sha256": "c3ee133bca09312072ea1e5132a1775b5935cb75eccc52c34959a4550821ab6d",
+    "size_px": [
+      1100,
+      1430
+    ]
+  },
+  "output": {
+    "path": "generated_images/exec-6fd5d160-869a-4450-bfab-204c83ed5c1a.png",
+    "sha256": "813abc837fe41c6ae83e911d47c45c552d1917572a7edb7ace4fcd4cbb1532ac",
+    "size_px": [
+      1100,
+      1430
+    ]
+  },
+  "requested_changes": [
+    "The Vegetable Guru lettering from cream to white",
+    "Subtitle circle background from cream to white"
+  ],
+  "retained_choices": [
+    "12A tomato-tending photograph",
+    "06B lighter sage surround",
+    "Revision 09 Lilita One visual lettering treatment",
+    "Centred photo frame and existing sticker/author positions",
+    "Dark-green subtitle lettering and author"
+  ],
+  "checks": {
+    "method": "Full returned cover visually inspected; actual dimensions, hashes and two small interior RGB patches read from disk.",
+    "observed": "Title and subtitle-circle field are visibly clean white. Subtitle text and author remain dark green. Selected tomato-tending scene, sage surround and overall geometry remain visually consistent. All wording retained.",
+    "rgb_patch_medians": {
+      "12A_cream": {
+        "title_The": [
+          253,
+          239,
+          217
+        ],
+        "sticker_blank_field": [
+          253,
+          240,
+          219
+        ]
+      },
+      "13_white": {
+        "title_The": [
+          254,
+          254,
+          254
+        ],
+        "sticker_blank_field": [
+          254,
+          254,
+          254
+        ]
+      }
+    },
+    "limits": "A generative colour edit; photograph detail is not pixel-preserved and has minor rendering variation. This remains a review raster, not embedded-font production artwork."
+  },
+  "preservation": "12A hash verified unchanged. All preceding artwork retained; no interior, data or supplier changes.",
+  "next_step": "Await John’s review of white versus the preceding cream."
+}

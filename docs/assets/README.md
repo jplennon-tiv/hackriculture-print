@@ -18,13 +18,7 @@ references; edit the JSON and build separate working pages rather than overwriti
 them. Cover JSON supplies editable copy; the selected G2/B5 concept lettering is raster,
 while the separate 19 October production cover already has native type.
 
-**Introduction ownership:** the installed page 7 is the illustrated `why-grow`
-source from [Techniques expansion](../publication/topic-pages/techniques-expansion/README.md),
-retained in the current assembly baseline. Shared `book-layout/introduction.json`
-renders the older welcome/about-author composition, which is omitted. It is not
-the owner of that installed page-7 body. The approved Guides/how-to at page 9 is
-also separate. The [handover source map](../handover/START-HERE.md#resume-here)
-identifies the correct starting files for the requested rewrite.
+**Introduction ownership:** the official page 7 is now [John's approved personal introduction](../publication/introduction-revision/APPROVAL.json), installed on 15 November. Its [copy, renderer and frozen proof](../publication/introduction-revision/README.md) supersede the earlier `why-grow` body. The [enhanced 1991 garden photograph](book-photographs/README.md) is a saved, approved book asset. Shared `book-layout/introduction.json` still belongs to the omitted older welcome/about-author composition; it is not this page's owner. The approved Guides/how-to page 9 is also separate. Preserve prior source proofs as historical evidence.
 
 ## Section opener proposals
 
@@ -290,8 +284,7 @@ production. John now prefers **B5 Off-centre collage** (7 October); its source
 hash and exact decision are recorded in the provenance file. Preserve its dark
 green, left-hand blurb and angled paper collage on the right during refinement.
 The separate native production adaptation below was used for the first physical
-proof. Final revised artwork remains pending; John has named cover reconstruction
-as the next session’s work. The G2/B5 originals remain the selected references.
+proof. G2/B5 remain historical selected sources. Following the later three-direction review, direction 1 is the preferred development base. Its [15 November revision 07](../publication/cover-refined-direction/revision-07/README.md) now proposes varied matte crop artwork and three crossed carrots, paired with a native back containing original T05 photo pixels and an actual approved Carrot spread. [Exact sources, prompts and hashes](../publication/cover-refined-direction/revision-07/ARTWORK.json) distinguish generated front artwork from the authentic photograph. Revised artwork and placement await review; no new cover is approved.
 
 ## Title, publication and welcome
 

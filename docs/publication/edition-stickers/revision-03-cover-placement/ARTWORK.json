@@ -1,0 +1,39 @@
+{
+  "date": "2026-11-16",
+  "status": "Earlier full-size placement retained; current smaller inset-left trial is revision-04-small-sticker.",
+  "request": "I like these. Let's try adding one of them to the 6-1 cover, below the YouTube sticker. Make it the same size.",
+  "choice": "Traditional Measurements sticker selected for this first placement.",
+  "base": "docs/publication/cover-versions/version-6-1/Version-6-1.png",
+  "sticker_source": "generated_images/exec-80f08576-e40d-49ec-acf9-35b9e80c42d4.png",
+  "spec": {
+    "referenced_image_paths": [
+      "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/cover-versions/version-6-1/Version-6-1.png",
+      "/Users/johnlennon/Documents/web_site/hackriculture-print/generated_images/exec-80f08576-e40d-49ec-acf9-35b9e80c42d4.png"
+    ],
+    "transparent_background": false,
+    "prompt": "Make one precise compositional addition to the supplied book cover. Image 1 is the saved Version 6-1 cover and must be preserved as the full background. Image 2 contains the user's selected black-and-gold measurement stickers; use ONLY THE LEFT, TRADITIONAL MEASUREMENTS sticker. Add exactly ONE copy of that left sticker to Image 1, immediately BELOW the existing white YouTube sticker. Do NOT add the Metric sticker and do not change either sticker design.\n\nSIZE AND POSITION: the new black sticker must be THE SAME DIAMETER as the existing white YouTube sticker, approximately 300 pixels on this 1100 x 1430 cover. Keep the original white sticker at its current size and position (approximately x=756..1054, y=550..862). Align the centres vertically: new black sticker centre at approximately x=905, y=1035, bounding box approximately x=755..1055, y=885..1185. This creates a small clear gap of around 20–25 pixels between the two stickers. Do not make the new sticker smaller or larger. Keep the full circular black sticker inside the page with the same right margin as the white sticker. A tiny 3–4 degree CLOCKWISE tilt to the new sticker's lettering creates a hand-applied feel. Add a shallow subtle paper shadow comparable to the white sticker.\n\nThe new sticker must visibly lie ON TOP OF the page and the lower tomato illustration: its upper portion lies on cream and its lower portion overlaps the green tomato foliage. Its opaque black face and gold perimeter completely cover anything behind its circular footprint. No leaves or stems may cross in front of the sticker. Do not cut holes in it or blend it with the foliage. Preserve the foliage around it; do not rearrange the lower image to make space.\n\nCopy the selected sticker faithfully: matte black circle, gold perimeter ring, curved gold uppercase TRADITIONAL above, curved gold uppercase MEASUREMENTS below, classic gold-outlined scale-weight icon in the middle with exact gold lowercase unit lines 'lb · oz' and 'ft · in' inside. Retain the rounded bold letter style and all four unit symbols. This is the same selected sticker, simply scaled and placed.\n\nPreserve every other detail of the Version 6-1 cover: red top-left ribbon reading '100% Organic'; title The Vegetable Guru; upper-right courgettes and their leaves; two-line subtitle 'Your at-a-glance' / 'growing companion'; author John Lennon; white angled As seen on YouTube @hackriculture sticker; cream background; full lower tomato artwork. Do not add handwritten organic to the subtitle. Do not shift or resize the original typography, white sticker, ribbon or illustrations. One full flat portrait front cover, same aspect ratio and framing, no mockup, no added captions."
+  },
+  "output": "generated_images/exec-6b7f2308-dbb7-40aa-9dbe-a0e45dce0b4e.png",
+  "review": [
+    "Full generated cover inspected against saved Version 6-1 and the selected sticker pair.",
+    "One Traditional Measurements sticker placed below the unchanged white YouTube sticker, at a visually matching diameter.",
+    "Black sticker lies over the lower foliage, with a slight clockwise tilt and subtle shadow.",
+    "Traditional, Measurements and lb · oz / ft · in are legible; no Metric sticker added.",
+    "Original cover wording, red ribbon, artwork and layout retained visually, not claimed pixel-exact."
+  ],
+  "saved_versions": "No saved numbered version or collection PDF overwritten; no new numbered version assigned.",
+  "files": {
+    "docs/publication/cover-versions/version-6-1/Version-6-1.png": {
+      "sha256": "a528ccf669790a8e4a9c96edc22e293f096b2f8d1c8d3bb87445557151fa19da",
+      "bytes": 1906172
+    },
+    "generated_images/exec-80f08576-e40d-49ec-acf9-35b9e80c42d4.png": {
+      "sha256": "b46f209aa44ad1171725c0c13aeaa1fad820c7949be53c2b0471e3ee9a780dbb",
+      "bytes": 1451443
+    },
+    "generated_images/exec-6b7f2308-dbb7-40aa-9dbe-a0e45dce0b4e.png": {
+      "sha256": "e25645ab4065865b693bd97563af882bb63727d1b9cf70fea3df7a97597cd38b",
+      "bytes": 1925344
+    }
+  }
+}

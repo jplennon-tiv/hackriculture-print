@@ -1,0 +1,90 @@
+{
+  "date": "2026-11-15",
+  "status": "Revised Version 4 proposal awaiting review",
+  "request": "Correct the square requirement: make the three images fit horizontally across the top space. Remove pale green backgrounds and use title-area cream, explicitly including the lower image.",
+  "base": "docs/publication/cover-refined-direction/revision-14-three-square-panels/LAYOUT.json",
+  "dimensions_mm": [
+    185,
+    240
+  ],
+  "top_zones": [
+    [
+      0.0,
+      0,
+      366.6666666666667,
+      330
+    ],
+    [
+      366.6666666666667,
+      0,
+      366.6666666666667,
+      330
+    ],
+    [
+      733.3333333333334,
+      0,
+      366.6666666666667,
+      330
+    ]
+  ],
+  "placements": {
+    "flowers": [
+      -8,
+      -12,
+      374,
+      374
+    ],
+    "garlic": [
+      374,
+      -8,
+      350,
+      350
+    ],
+    "cabbage": [
+      728,
+      -10,
+      380,
+      380
+    ]
+  },
+  "top_gutters": 0,
+  "cream_rgb": [
+    249,
+    240,
+    222
+  ],
+  "lower_background": "Same cream; tomato artwork and placement unchanged",
+  "preserved": "Exact three illustration files, tomato artwork, centre lettering/sprout/author, sticker size/angle/position/foreground order; earlier Version 4 preserved in references/three-square-panels; Versions 1\u20133, back and main book unchanged.",
+  "artwork_method": "Native PDF placement and background fills only; uniform image scaling, no stretching, recolouring, regeneration or retouching.",
+  "review": "Complete \u2014 focused 150 dpi cover review and PDF/source-preservation checks; see CHECKS.json. Await feedback.",
+  "files": {
+    "docs/publication/cover-versions/version-4/Version-4.pdf": {
+      "bytes": 13285006,
+      "sha256": "e1b2623bbdaf2af2f37ab4aadf448d1668f2045fe02876507e95dc842ad9eb83"
+    },
+    "docs/publication/cover-versions/version-4/Version-4-review.pdf": {
+      "bytes": 25338168,
+      "sha256": "295b8edf24ff15eda1e5c510d3d5504cbcc56b05770f39ba10c9118acc0ecff4"
+    },
+    "docs/publication/cover-versions/version-1/Version-1.png": {
+      "bytes": 2418374,
+      "sha256": "4860d3f0ae959cf7f47da771d2098787e878ada6644a57526afe89e67da0bd20"
+    },
+    "docs/publication/cover-refined-direction/revision-13-photo-seeded-illustrations/tomato-illustration.png": {
+      "bytes": 1856392,
+      "sha256": "2893e5fa16c171f0794547b6733cd1b0f166d4d59921c01e121f3789b2d3fffb"
+    },
+    "docs/publication/cover-refined-direction/revision-14-three-square-panels/flowers-illustration.png": {
+      "bytes": 1367471,
+      "sha256": "24a88a0ce8d1e74e25d2136f6c4d97bb5829226d017d3960e8cf4798db72fd1d"
+    },
+    "docs/publication/cover-refined-direction/revision-14-three-square-panels/garlic-illustration.png": {
+      "bytes": 1329686,
+      "sha256": "ba38fc591ed5d54be51faa1035c506dd85937d233f53bd02d0c0ca47bd9328da"
+    },
+    "docs/publication/cover-refined-direction/revision-14-three-square-panels/cabbage-illustration.png": {
+      "bytes": 1456468,
+      "sha256": "5ce9a9fe52e7c86a38cc7bf991caffa4042f564e66c00727df92356d35199258"
+    }
+  }
+}

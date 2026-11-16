@@ -1,0 +1,233 @@
+{
+  "date": "2026-11-11",
+  "status": "Three proposed lettering trials; B composition preferred by John, lettering not approved",
+  "base_layout": "B - Forest frame",
+  "base_manifest_sha256": "170384755cfcc1c5e7b3ea2baf7231d3b21395888246cca28d67b641e94e8d2d",
+  "original_review_sha256": "e09f9f98ac3c214a00f720ef5eda4886ac373904c768a90bd08a42fa6a79bc6a",
+  "source": "docs/publication/cover-photo-search/tomato-harvest-study/frames/T05_05m16s042_4K.png",
+  "source_sha256": "53cb40d0389e366daaebcdb3b10879435290e213746aa6a5476fde53e2156e48",
+  "trim_mm": [
+    185,
+    240
+  ],
+  "copy": {
+    "title": "The Vegetable Guru",
+    "subtitle": "Your at-a-glance growing companion",
+    "author": "John Lennon"
+  },
+  "fixed_elements": [
+    "T05 source pixels and crop",
+    "photo position and size",
+    "green field",
+    "cream frame",
+    "subtitle",
+    "author"
+  ],
+  "type_treatment": "Original local font vector outlines, no artificial weight or width modification. Sizes differ to compare similar visual widths. Cover text remains editable in this script, not selectable as PDF text.",
+  "layouts": {
+    "B1": {
+      "name": "Lilita One",
+      "text": [
+        {
+          "text": "The",
+          "font": "Nunito800",
+          "point_size": 14,
+          "x_mm": 88.114,
+          "baseline_from_top_mm": 17,
+          "width_mm": 8.771,
+          "tracking_pt": 0
+        },
+        {
+          "text": "Vegetable",
+          "font": "Lilita",
+          "point_size": 54,
+          "x_mm": 51.428,
+          "baseline_from_top_mm": 38,
+          "width_mm": 82.144,
+          "tracking_pt": 0
+        },
+        {
+          "text": "Guru",
+          "font": "Lilita",
+          "point_size": 74,
+          "x_mm": 65.024,
+          "baseline_from_top_mm": 64,
+          "width_mm": 54.952,
+          "tracking_pt": 0
+        },
+        {
+          "text": "Your at-a-glance growing companion",
+          "font": "Nunito600",
+          "point_size": 12.5,
+          "x_mm": 55.033,
+          "baseline_from_top_mm": 77,
+          "width_mm": 74.934,
+          "tracking_pt": 0
+        },
+        {
+          "text": "John Lennon",
+          "font": "Nunito800",
+          "point_size": 17,
+          "x_mm": 73.584,
+          "baseline_from_top_mm": 231,
+          "width_mm": 37.833,
+          "tracking_pt": 0.65
+        }
+      ],
+      "photo": {
+        "panel_mm": [
+          12,
+          88,
+          161,
+          126
+        ],
+        "source_crop_xyxy": [
+          870.0,
+          0,
+          3170.0,
+          1800
+        ],
+        "effective_ppi": 362.9
+      }
+    },
+    "B2": {
+      "name": "Nunito Sans",
+      "text": [
+        {
+          "text": "The",
+          "font": "Nunito800",
+          "point_size": 14,
+          "x_mm": 88.114,
+          "baseline_from_top_mm": 17,
+          "width_mm": 8.771,
+          "tracking_pt": 0
+        },
+        {
+          "text": "Vegetable",
+          "font": "Nunito900",
+          "point_size": 48,
+          "x_mm": 50.209,
+          "baseline_from_top_mm": 38,
+          "width_mm": 84.582,
+          "tracking_pt": 0
+        },
+        {
+          "text": "Guru",
+          "font": "Nunito900",
+          "point_size": 70,
+          "x_mm": 63.077,
+          "baseline_from_top_mm": 64,
+          "width_mm": 58.847,
+          "tracking_pt": 0
+        },
+        {
+          "text": "Your at-a-glance growing companion",
+          "font": "Nunito600",
+          "point_size": 12.5,
+          "x_mm": 55.033,
+          "baseline_from_top_mm": 77,
+          "width_mm": 74.934,
+          "tracking_pt": 0
+        },
+        {
+          "text": "John Lennon",
+          "font": "Nunito800",
+          "point_size": 17,
+          "x_mm": 73.584,
+          "baseline_from_top_mm": 231,
+          "width_mm": 37.833,
+          "tracking_pt": 0.65
+        }
+      ],
+      "photo": {
+        "panel_mm": [
+          12,
+          88,
+          161,
+          126
+        ],
+        "source_crop_xyxy": [
+          870.0,
+          0,
+          3170.0,
+          1800
+        ],
+        "effective_ppi": 362.9
+      }
+    },
+    "B3": {
+      "name": "Combined lettering",
+      "text": [
+        {
+          "text": "The",
+          "font": "Nunito800",
+          "point_size": 14,
+          "x_mm": 88.114,
+          "baseline_from_top_mm": 17,
+          "width_mm": 8.771,
+          "tracking_pt": 0
+        },
+        {
+          "text": "Vegetable",
+          "font": "Nunito800",
+          "point_size": 48,
+          "x_mm": 51.073,
+          "baseline_from_top_mm": 38,
+          "width_mm": 82.855,
+          "tracking_pt": 0
+        },
+        {
+          "text": "Guru",
+          "font": "Lilita",
+          "point_size": 74,
+          "x_mm": 65.024,
+          "baseline_from_top_mm": 64,
+          "width_mm": 54.952,
+          "tracking_pt": 0
+        },
+        {
+          "text": "Your at-a-glance growing companion",
+          "font": "Nunito600",
+          "point_size": 12.5,
+          "x_mm": 55.033,
+          "baseline_from_top_mm": 77,
+          "width_mm": 74.934,
+          "tracking_pt": 0
+        },
+        {
+          "text": "John Lennon",
+          "font": "Nunito800",
+          "point_size": 17,
+          "x_mm": 73.584,
+          "baseline_from_top_mm": 231,
+          "width_mm": 37.833,
+          "tracking_pt": 0.65
+        }
+      ],
+      "photo": {
+        "panel_mm": [
+          12,
+          88,
+          161,
+          126
+        ],
+        "source_crop_xyxy": [
+          870.0,
+          0,
+          3170.0,
+          1800
+        ],
+        "effective_ppi": 362.9
+      }
+    }
+  },
+  "context_spread": {
+    "path": "docs/publication/sowing-rollout/revisions/tomato_greenhouse/spreads/tomato_greenhouse-imperial.jpg",
+    "sha256": "2355fa3ec259637827a0012863de860a494e4477cbf901c105a824fefae22273",
+    "status": "Approved 10 November; reused unchanged."
+  },
+  "font_inputs": {
+    "public/fonts/richer-a-1.woff2": "d2575d4fa3632580aafcbcdf6978b3b57e144b90cf5bd9c2c98194f28b869704",
+    "public/fonts/richer-a-6.woff2": "29e3890496844a9ea81975c52771c587c872b4eb317026422d1995b88d21b57d"
+  }
+}

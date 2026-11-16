@@ -1,0 +1,95 @@
+{
+  "date": "2026-11-11",
+  "revision": "06",
+  "status": "John selected sage as the colour direction; same, lighter and darker available for comparison; no finished-cover approval",
+  "brief": "BRIEF-06.json",
+  "base_cover": "generated_images/exec-0cd47e05-643a-4df6-9e7d-c080e3bf68ec.png",
+  "base_sha256": "7ed318af31047a7e3af3eeadafb6fb1cff50b418e89daf4c6bc4196d9b67c46a",
+  "variants": [
+    {
+      "id": "06A",
+      "name": "Same sage",
+      "output": "generated_images/exec-0cd47e05-643a-4df6-9e7d-c080e3bf68ec.png",
+      "sha256": "7ed318af31047a7e3af3eeadafb6fb1cff50b418e89daf4c6bc4196d9b67c46a",
+      "size_px": [
+        1100,
+        1430
+      ],
+      "reused_without_regeneration": true,
+      "background_sample": {
+        "box_px": [
+          20,
+          20,
+          120,
+          120
+        ],
+        "mean_rgb": [
+          158.6,
+          178.99,
+          149.72
+        ],
+        "relative_luminance": 0.4176
+      },
+      "status": "lightness comparison awaiting John’s preference"
+    },
+    {
+      "id": "06B",
+      "name": "Lighter sage",
+      "output": "generated_images/exec-61becb7d-a229-4a3d-b62c-78dc70c46bc0.png",
+      "sha256": "bb836ed4569a1bb715bb4844ff7b0405cbe9eda3f07eac1f7d7301f44c095a4d",
+      "size_px": [
+        1100,
+        1430
+      ],
+      "reused_without_regeneration": false,
+      "background_sample": {
+        "box_px": [
+          20,
+          20,
+          120,
+          120
+        ],
+        "mean_rgb": [
+          184.99,
+          201.82,
+          180.17
+        ],
+        "relative_luminance": 0.5577
+      },
+      "status": "lightness comparison awaiting John’s preference"
+    },
+    {
+      "id": "06C",
+      "name": "Darker sage",
+      "output": "generated_images/exec-966bc7d0-438a-45d5-b4a6-1cc16a8f64d0.png",
+      "sha256": "ea34aca2bd231439765c09a0104492507a5b40c058d0ce4b45b3f8ee4443d971",
+      "size_px": [
+        1100,
+        1430
+      ],
+      "reused_without_regeneration": false,
+      "background_sample": {
+        "box_px": [
+          20,
+          20,
+          120,
+          120
+        ],
+        "mean_rgb": [
+          125.54,
+          145.84,
+          111.94
+        ],
+        "relative_luminance": 0.2608
+      },
+      "status": "lightness comparison awaiting John’s preference"
+    }
+  ],
+  "model": "Native image tool; exact model version not exposed",
+  "generation": "06A reuses 05B unchanged. 06B and 06C independently edit 05B directly.",
+  "review": {
+    "observed": "Both generated outputs visually inspected. The outer field has a clearly lighter or darker sage treatment. Crossing cream serif title, clean rectangular photograph, right margin, lower-left circular subtitle sticker and dark-green author remain visually consistent; all required wording is present. A fixed upper-left background sample confirms darker < same < lighter in relative luminance.",
+    "limits": "Generative edits do not guarantee exact pixel identity or exact colour hue outside the requested lightness change. The colour samples are screen-image checks, not press specifications. Likeness and finished print production remain unapproved."
+  },
+  "preservation": "05B SHA-256 verified unchanged. All prior images retained; no main-book or canonical-data changes."
+}

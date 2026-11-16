@@ -1,0 +1,53 @@
+{
+  "date": "2026-11-16",
+  "status": "Resolved: both revised PDFs replaced online and read successfully.",
+  "diagnosis": "PDF structures validated. Previous sandbox links addressed local Mac files, while online copies were stale after a failed upload.",
+  "connection_findings": [
+    "Shell transfer attempt failed at DNS before preparing uploads.",
+    "Node runtime had network access; system Python lacked a trusted issuer certificate.",
+    "Primary runtime Python verified TLS. Current helper discovery reported prepare_uploads unavailable; direct owned-file replacements completed in order with original version guards."
+  ],
+  "deliveries": [
+    {
+      "library_file_id": "libfile_fde3_f-d33f00190b4c8191b5893aa4fd21ef9a_968f6e806ba48191b80ffb1b7a35f663",
+      "file_id": "file_000000003c7881f4a65d90d311873c6d",
+      "file_name": "Version-3.pdf",
+      "local_path": "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/cover-versions/version-3/Version-3.pdf",
+      "metadata_applied": true,
+      "expected_previous_version": 0,
+      "version": "1"
+    },
+    {
+      "library_file_id": "libfile_fde3_f-28e2f51ae9188191a766ae0668b399ed_968f6e806ba48191b80ffb1b7a35f663",
+      "file_id": "file_0000000033bc81f49b0c8ac7c398799f",
+      "file_name": "The-Vegetable-Guru-Front-Covers-Versions-1-to-6.pdf",
+      "local_path": "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/cover-versions/front-cover-collection/The-Vegetable-Guru-Front-Covers-Versions-1-to-6.pdf",
+      "metadata_applied": true,
+      "expected_previous_version": 0,
+      "version": "1"
+    }
+  ],
+  "verification": [
+    {
+      "library_file_id": "libfile_fde3_f-d33f00190b4c8191b5893aa4fd21ef9a_968f6e806ba48191b80ffb1b7a35f663",
+      "file_id": "file_000000003c7881f4a65d90d311873c6d",
+      "version": "1",
+      "pages_read": [
+        1
+      ],
+      "num_pages": 1,
+      "warnings": []
+    },
+    {
+      "library_file_id": "libfile_fde3_f-28e2f51ae9188191a766ae0668b399ed_968f6e806ba48191b80ffb1b7a35f663",
+      "file_id": "file_0000000033bc81f49b0c8ac7c398799f",
+      "version": "1",
+      "pages_read": [
+        4
+      ],
+      "num_pages": 7,
+      "warnings": []
+    }
+  ],
+  "scope": "Delivery repair only. No artwork or PDF content rebuilt."
+}

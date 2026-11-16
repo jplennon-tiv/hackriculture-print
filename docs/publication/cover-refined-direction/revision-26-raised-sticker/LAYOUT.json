@@ -1,0 +1,47 @@
+{
+  "version": "4a",
+  "date": "2026-11-16",
+  "status": "Raised sticker proposal awaiting feedback",
+  "front": "docs/publication/cover-versions/version-4a/Version-4a.pdf",
+  "review": "docs/publication/cover-versions/version-4a/Version-4a-review.pdf",
+  "comparison_previous_4a": "docs/publication/cover-versions/version-4a/references/left-text-low-sticker/Version-4a.pdf",
+  "source_version_4": "docs/publication/cover-versions/version-4/Version-4.pdf",
+  "generation": "docs/publication/cover-refined-direction/revision-26-raised-sticker/GENERATION.json",
+  "dimensions_mm": [
+    185,
+    240
+  ],
+  "image_px": [
+    1100,
+    1430
+  ],
+  "design": "Existing sticker raised into the cream space beside the left-aligned subtitle and author; size and clockwise tilt retained visually. Lower-right tomato foliage revealed/reconstructed.",
+  "requested_targets": {
+    "sticker_translate_y_px": -350,
+    "sticker_size_retained": true,
+    "sticker_clockwise_tilt_retained": true
+  },
+  "precision": "Generated composition study; dimensions and source-pixel preservation are approximate, not production geometry.",
+  "files": {
+    "generated_images/exec-d045a40d-3f19-43ce-9e55-741d3791c51c.png": {
+      "sha256": "26016f8810000d25176d7bbc1fcedf894d704a1188e18d54c29d8decbc70670d",
+      "bytes": 1884410
+    },
+    "docs/publication/cover-versions/version-4a/Version-4a.png": {
+      "sha256": "26016f8810000d25176d7bbc1fcedf894d704a1188e18d54c29d8decbc70670d",
+      "bytes": 1884410
+    },
+    "docs/publication/cover-versions/version-4a/Version-4a.pdf": {
+      "sha256": "752584813ae5822c99ecc7e9c45cb4ce177c5e7e5194640873987ee91103aa04",
+      "bytes": 3060780
+    },
+    "docs/publication/cover-versions/version-4a/Version-4a-review.pdf": {
+      "sha256": "0c46ab9ccae7ec7ead8d9f79495889169830c3bd32f44fcdc0c5089ff4d19dac",
+      "bytes": 8991776
+    },
+    "docs/publication/cover-versions/version-4a/references/left-text-low-sticker/Version-4a.pdf": {
+      "sha256": "d4fb57e66dfbb42c98d5f15cf3254647562b335239cbb06be48e3db80e820fe1",
+      "bytes": 2871310
+    }
+  }
+}

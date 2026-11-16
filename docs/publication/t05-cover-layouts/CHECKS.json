@@ -1,0 +1,126 @@
+{
+  "date": "2026-11-11",
+  "status": "proposal review checked; no user layout approval",
+  "pdf": {
+    "filename": "Cover-layouts-review.pdf",
+    "page_count": 5,
+    "page_sizes_mm": [
+      [
+        297.0389,
+        209.9028
+      ],
+      [
+        185.0,
+        240.0
+      ],
+      [
+        185.0,
+        240.0
+      ],
+      [
+        185.0,
+        240.0
+      ],
+      [
+        297.0389,
+        209.9028
+      ]
+    ],
+    "bytes": 6223831,
+    "sha256": "e09f9f98ac3c214a00f720ef5eda4886ac373904c768a90bd08a42fa6a79bc6a",
+    "embedded_images": [
+      {
+        "name": "/FormXob.a90d1f731150f1e273f8ea34a3da1a2d",
+        "pixels": [
+          3840,
+          2160
+        ],
+        "filter": "['/ASCII85Decode', '/DCTDecode']",
+        "stream_bytes": 4190934
+      },
+      {
+        "name": "/FormXob.dab77e21383f19c6050c99e5f48d5fc9",
+        "pixels": [
+          2085,
+          1350
+        ],
+        "filter": "['/ASCII85Decode', '/DCTDecode']",
+        "stream_bytes": 671959
+      }
+    ],
+    "external_image_references": false
+  },
+  "photo_ppi": {
+    "A": 333.7,
+    "B": 362.9,
+    "C": 313.2
+  },
+  "source_integrity": {
+    "T05_matches_input_hash": true,
+    "approved_interior_matches_input_hash": true,
+    "font_files_match_input_hashes": true
+  },
+  "visual_review": {
+    "renderer": "Poppler pdftoppm, JPEG, longest edge 1600 px",
+    "pages_inspected": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "result": "All five pages visually inspected. Images and letterforms render; no visible overlaps or clipped text. Face, hands and full colander retained in each front. Overview and interior comparison fit.",
+    "text": "Cover lettering is vector outlines; wording and geometry checked from LAYOUTS.json and by visual inspection, not PDF text extraction."
+  },
+  "previews": {
+    "Cover-layouts-comparison.jpg": {
+      "page": 1,
+      "size_px": [
+        1600,
+        1131
+      ],
+      "sha256": "7898fdb546ddd116f5b69ee909a14632fad6b6f681ead6a20314d481bb819573"
+    },
+    "A-cream-masthead.jpg": {
+      "page": 2,
+      "size_px": [
+        1234,
+        1600
+      ],
+      "sha256": "a4abf12bdf2a7462d03b733abbc1fc6ce493a1afa3322866cbcbf7112148f399"
+    },
+    "B-forest-frame.jpg": {
+      "page": 3,
+      "size_px": [
+        1234,
+        1600
+      ],
+      "sha256": "faf19ba409edc5a74f25bcac797fe05bde6200ba02048c8b17afea6adce1d015"
+    },
+    "C-photograph-first.jpg": {
+      "page": 4,
+      "size_px": [
+        1234,
+        1600
+      ],
+      "sha256": "f6979fc6d0be496e1be6f9341465fd641a6d7bfeae6c5d67bb69c26d46202b80"
+    },
+    "Interior-comparison.jpg": {
+      "page": 5,
+      "size_px": [
+        1600,
+        1131
+      ],
+      "sha256": "5128806068b3068d577f581df84c51a722c1adf1082bdc9d553306cdbdbaba9a"
+    }
+  },
+  "scope": {
+    "front_only": true,
+    "bleed": false,
+    "supplier_ready": false,
+    "main_book_regenerated": false,
+    "canonical_data_changed": false,
+    "app_tests_run": false
+  },
+  "local_document_links_checked": 24
+}

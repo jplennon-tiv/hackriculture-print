@@ -1,0 +1,61 @@
+{
+  "date": "2026-11-15",
+  "revision": 7,
+  "status": "New front/back proposal awaiting John\u2019s review; not approved or installed",
+  "front": "generated_images/exec-900e55bf-96a1-4efe-9fb6-5f6f5e584aaf.png",
+  "back": "output/pdf/cover-refined-direction/revision-07/Back-cover.pdf",
+  "preview": "output/pdf/cover-refined-direction/revision-07/Cover-pair.png",
+  "reviewPdf": "output/pdf/cover-refined-direction/revision-07/The-Vegetable-Guru-Cover-Development.pdf",
+  "brief": "docs/publication/cover-refined-direction/revision-07/BRIEF.json",
+  "checks": "docs/publication/cover-refined-direction/revision-07/CHECKS.json",
+  "frontGeneration": "Native imagegen edit using exact previous front and two approved hero style references; prompt retained in BRIEF.json",
+  "backComposition": "CoreText/CoreGraphics layout. Untouched original T05 decoded pixels embedded with portrait clip; exact original carrot spread JPEG bytes embedded. All existing blurb/title/count/price retained. New author name caption only. Actual Lilita One throughout cover text.",
+  "changes": [
+    "Less uniform matte crop artwork; crossed carrots",
+    "Original author photo on back",
+    "Reduced real interior spread",
+    "Third paragraph moves beside photo",
+    "Back main text in actual Lilita One; prior generated body was lighter sans",
+    "Old back sprout omitted to leave the title compact and provide space for the photograph"
+  ],
+  "preserved": [
+    "All earlier cover trials",
+    "Approved introduction and main book",
+    "Canonical gardening data and shared cover copy",
+    "No supplier actions"
+  ],
+  "files": {
+    "generated_images/exec-4e5246c9-2427-492a-8eb4-bb092933c6fc.png": {
+      "sha256": "f0bad413c7ba1bed0f9a4a80be41261b319f003675db86c626dff0147ae10985",
+      "bytes": 1963697
+    },
+    "public/images/heroes/richer-a/carrot.png": {
+      "sha256": "733b775e5e9f87d78669551ca911e39ea3eb61bed6bc54815e64b10c8fbdbfe9",
+      "bytes": 1586483
+    },
+    "public/images/heroes/richer-a/bean_french.png": {
+      "sha256": "8f00499fd49d4931b805cef1b02e10f2fb3ded60dc02bbdad432c82037674d19",
+      "bytes": 1626815
+    },
+    "generated_images/exec-900e55bf-96a1-4efe-9fb6-5f6f5e584aaf.png": {
+      "sha256": "600059da7cb80c11b6195de4a32c5da55a1c7d33fea58a48ce204f8e46cc24e7",
+      "bytes": 1948542
+    },
+    "docs/publication/cover-photo-search/tomato-harvest-study/frames/T05_05m16s042_4K.png": {
+      "sha256": "53cb40d0389e366daaebcdb3b10879435290e213746aa6a5476fde53e2156e48",
+      "bytes": 18230569
+    },
+    "docs/publication/variety-additions/spreads/carrot-imperial.jpg": {
+      "sha256": "5eccbe8d8f7f37bf53022f94d5c2a3f0980dbc3aae5becc2fab5ba77b87a0409",
+      "bytes": 735898
+    },
+    "generated_images/exec-bf09bae9-3c30-426f-942d-00f2966edf86.png": {
+      "sha256": "ffede1028b15c30162f1a7c5e6b0481d901383dffe3d8d69e4f9547c52183966",
+      "bytes": 2013431
+    },
+    "output/pdf/cover-refined-direction/revision-07/The-Vegetable-Guru-Cover-Development.pdf": {
+      "sha256": "77a2550f6679e5f537f0f4ebf3ae8c622789f7656a628355c19100a487b4fc69",
+      "bytes": 26761200
+    }
+  }
+}

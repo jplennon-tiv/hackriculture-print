@@ -1,0 +1,83 @@
+{
+  "date": "2026-11-16",
+  "overall_selection": "Version 6 is John’s strongest base for further development. Red organic ribbon saved as Version 6-1. No production sign-off.",
+  "original_recommendation": "docs/publication/cover-direction-study/README.md#proposed-next-comparison",
+  "directions": [
+    {
+      "id": 1,
+      "name": "Refined existing idea",
+      "status": "Versions 1–6, 6-1 and 6-2 saved; no production approval.",
+      "artwork_record": "docs/publication/cover-refined-direction/ARTWORK.json",
+      "current_front": "docs/publication/cover-versions/version-6-2/Version-6-2.pdf",
+      "latest_revision": "docs/publication/cover-artwork-restoration/ARTWORK.json",
+      "current_back": "output/pdf/cover-refined-direction/revision-07/Back-cover.pdf",
+      "saved_front_version": "docs/publication/cover-versions/version-6-2/VERSION.json",
+      "front_trials": {
+        "A": "docs/publication/cover-refined-direction/revision-11-real-photos/Front-A.pdf",
+        "B": "docs/publication/cover-refined-direction/revision-11-real-photos/Front-B.pdf"
+      },
+      "saved_front_versions": [
+        "docs/publication/cover-versions/version-1/VERSION.json",
+        "docs/publication/cover-versions/version-2/VERSION.json",
+        "docs/publication/cover-versions/version-3/VERSION.json",
+        "docs/publication/cover-versions/version-4/VERSION.json",
+        "docs/publication/cover-versions/version-5/VERSION.json",
+        "docs/publication/cover-versions/version-6/VERSION.json",
+        "docs/publication/cover-versions/version-6-1/VERSION.json",
+        "docs/publication/cover-versions/version-6-2/VERSION.json"
+      ],
+      "quieter_source_front": "docs/publication/cover-versions/version-4/references/quieter-two-group/Version-4.pdf",
+      "retained_development_version": "docs/publication/cover-versions/version-4a/VERSION.json",
+      "front_collection": "docs/publication/cover-versions/front-cover-collection/COLLECTION.json",
+      "version_3_revision": "docs/publication/cover-refined-direction/revision-27-version3-cream/LAYOUT.json",
+      "preferred_base": "docs/publication/cover-versions/version-6/VERSION.json",
+      "current_front_trial": "generated_images/exec-f936ef10-07a0-47ba-9e33-4298c2306942.png"
+    },
+    {
+      "id": 2,
+      "name": "New illustrated composition",
+      "status": "Not favoured by reviewers; archived comparison candidate, no further development planned",
+      "working_folder": "docs/publication/cover-illustrated-direction/",
+      "current_outputs": {
+        "front": "generated_images/exec-1b38cabc-10b2-4146-818f-3070c878915e.png",
+        "back": "generated_images/exec-bdb6a50e-d5dc-4f06-ac37-8ae34309621e.png"
+      },
+      "review": "docs/publication/cover-illustrated-direction/REVIEW.html",
+      "preferred_previous": {
+        "2A": "generated_images/exec-fac69b04-7360-40e7-b7f7-804e2cfc9eec.png"
+      },
+      "selected_pair": "docs/publication/cover-illustrated-direction/SELECTED-PAIR.json"
+    },
+    {
+      "id": 3,
+      "name": "Photographic design",
+      "status": "Human presence liked; retain as reference for bringing an original photograph into direction 1",
+      "revision": "17",
+      "current_image": "generated_images/exec-15c41806-e3dd-478a-a983-99bed9ec3437.png",
+      "archive_folder": "docs/publication/cover-comparisons/saved-photographic-2026-11-12"
+    }
+  ],
+  "constraints": [
+    "Preserve all originals and current approvals",
+    "No main-book rebuild or vegetable-detail edits",
+    "No supplier upload, purchase or publication"
+  ],
+  "current_work": "Review separate artwork restoration proof after cumulative mottling identified. PDF RGB checks exclude export loss. Saved 6-2 and comparison PDFs unchanged; layered production master not yet built.",
+  "feedback_2026_11_15": {
+    "direction_1": "Best of three for layout and design after discussion",
+    "direction_2": "No reviewers liked it; retire from active development, preserve files",
+    "direction_3": "Liked for human presence, alongside concern over AI-generated-looking artwork",
+    "next_preferences": [
+      "Photograph, probably on back cover",
+      "More hand-drawn-looking front illustration",
+      "More natural variation in carrot angles and arrangement"
+    ],
+    "photo_recommendation": "Use original T05 video frame for a real photograph of John; earlier generated photographic cover is a concept, not the untouched source."
+  },
+  "photo_source_shortlist": "docs/publication/summer-cover-photo-search/SHORTLIST.json",
+  "photo_source_selection": "docs/publication/summer-cover-photo-search/SELECTION.json",
+  "courgette_source_study": "docs/publication/cover-courgette-source-search/SOURCES.json",
+  "courgette_source_selection": "docs/publication/cover-courgette-source-search/SELECTION.json",
+  "edition_sticker_study": "docs/publication/edition-stickers/revision-05-youtube-cleanup/ARTWORK.json",
+  "version_6_family_comparison": "docs/publication/cover-versions/versions-6-comparison/COLLECTION.json"
+}

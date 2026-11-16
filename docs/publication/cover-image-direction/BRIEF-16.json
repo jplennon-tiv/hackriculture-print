@@ -1,0 +1,85 @@
+{
+  "date": "2026-11-11",
+  "revision": "16",
+  "status": "Requested midpoint-yellow trial",
+  "user_request": "Too light - can we go half-way between the two?",
+  "source_measurements": {
+    "sources": {
+      "13": {
+        "path": "generated_images/exec-6fd5d160-869a-4450-bfab-204c83ed5c1a.png",
+        "sha256": "813abc837fe41c6ae83e911d47c45c552d1917572a7edb7ace4fcd4cbb1532ac",
+        "size_px": [
+          1100,
+          1430
+        ],
+        "surround_sample_median_rgb": [
+          189,
+          217,
+          196
+        ]
+      },
+      "14": {
+        "path": "generated_images/exec-da6b1d0a-2c2b-4c11-9e72-72022049c88b.png",
+        "sha256": "e98d196f8ccb1a34c0762ebed145b44438b6a176d12bfd6c4e75a5dbb725bfaf",
+        "size_px": [
+          1100,
+          1430
+        ],
+        "surround_sample_median_rgb": [
+          240,
+          201,
+          69
+        ]
+      },
+      "15": {
+        "path": "generated_images/exec-cf8cb9b3-49e7-43ff-9eed-cf99e7ab1f13.png",
+        "sha256": "5f17363465dab1e403a59bd047fe2f47f21fd834cc558cdc1ec1e649042ff4db",
+        "size_px": [
+          1100,
+          1430
+        ],
+        "surround_sample_median_rgb": [
+          253,
+          222,
+          115
+        ]
+      },
+      "12A": {
+        "path": "generated_images/exec-ed6f9623-4d34-41c6-8eef-11f2dc4a651e.png",
+        "sha256": "c3ee133bca09312072ea1e5132a1775b5935cb75eccc52c34959a4550821ab6d",
+        "size_px": [
+          1100,
+          1430
+        ],
+        "surround_sample_median_rgb": [
+          189,
+          216,
+          195
+        ]
+      }
+    },
+    "midpoint_rgb": [
+      246,
+      212,
+      92
+    ],
+    "midpoint_hex": "#F6D45C"
+  },
+  "target": {
+    "rgb": [
+      246,
+      212,
+      92
+    ],
+    "hex": "#F6D45C",
+    "method": "Arithmetic midpoint of matching unobstructed side-border median RGB samples in 14 and 15; approximate digital target, not a press specification."
+  },
+  "generation_input": {
+    "prompt": "Edit this cover's yellow page surround to a shade HALFWAY BETWEEN the two reference images. Reference 1 is revision 14, the deeper yellow; reference 2 is revision 15, the lighter yellow that the user found TOO LIGHT. Split the difference: medium sunny yellow, midway in lightness/saturation between these exact versions. Border samples give RGB 240,201,69 for reference 1 and RGB 253,222,115 for reference 2. Aim for the intermediate RGB 246,212,92 / #F6D45C, not either endpoint. Change ONLY the exposed page surround outside the photograph. Maintain the same subtle matte surface; no strong gradient or vignette. Keep the photograph’s own colour, exposure, face, hands, plants and detail unchanged; do not retouch, stylise or redraw the photographic subjects. Preserve the exact complete cover composition and proportions from reference 1: centred rectangular photo of John tending a tomato plant; WHITE Lilita One title 'The Vegetable Guru', including 'The'; WHITE subtitle circle partly overlapping the lower-left photo edge; DARK GREEN 'Your at-a-glance growing companion' in the circle; DARK GREEN 'John Lennon' bottom right. All shapes, fonts, spacing, letter sizes, line breaks, overlap positions and margins unchanged. White must stay white, not creamy/yellow, and dark green must stay dark green. Return ONE full flat front-cover image in the same 1100 x 1430 portrait proportions, no mockup or comparison sheet.",
+    "referenced_image_paths": [
+      "/Users/johnlennon/Documents/web_site/hackriculture-print/generated_images/exec-da6b1d0a-2c2b-4c11-9e72-72022049c88b.png",
+      "/Users/johnlennon/Documents/web_site/hackriculture-print/generated_images/exec-cf8cb9b3-49e7-43ff-9eed-cf99e7ab1f13.png"
+    ],
+    "transparent_background": false
+  }
+}

@@ -1,6 +1,8 @@
 # Current complete book preview
 
-Updated **3 November 2026**. [Browse the book](REVIEW.html) or [open the PDF](../../../output/pdf/whole-book-order-preview/the-vegetable-guru-order-preview.pdf).
+Updated **15 November 2026**. [Browse the book](REVIEW.html) or [open the PDF](../../../output/pdf/whole-book-order-preview/the-vegetable-guru-order-preview.pdf).
+The [approved personal introduction](../introduction-revision/APPROVAL.json) is now installed at page 7, including the 1991 garden photograph. [Focused installation checks](integration-2026-11-15-introduction/INTEGRATION-CHECKS.json) confirm the other 179 pages and all navigation are retained.
+
 The imperial book contains **176 interior pages plus four cover leaves: 180 PDF pages**.
 The approved contents reflow and requested sentence-case Pests & diseases labels
 and Key risks headings are integrated. John has [approved all these recent changes](../key-risk-title-case/APPROVAL.json). The turf page follows Digging at 162, with refreshed contents, index,
@@ -24,7 +26,7 @@ sources; retired legacy exports must not be regenerated as routine startup.
 | 1–2 | Title and publication details |
 | 3 | Blank |
 | 4–5 | Coloured contents with pale category key |
-| 6–7 | Blank / Introduction — why grow your own |
+| 6–7 | Blank / approved personal Introduction |
 | 8–9 | Blank / approved three-panel Vegetable Guides and how-to |
 | 10–97 | All 44 vegetables, alphabetical, two facing pages each |
 | 98–99 | Blank / Vegetable Troubles opener |
@@ -72,8 +74,7 @@ text, art and type sizes are retained.
 - Earlier approved reader edits, expanded rotation, nutrients, Organic growing/Beds copy, Cultivation headings and digging order remain included. Selected G2 front and preferred B5 back remain.
 
 The separate [sixteen vegetable wording proposals](../soil-acidity-crop-edits/DIFF.html)
-are **not approved or integrated**. The page-7 Introduction rewrite and collected
-corrections remain open. Metadata placeholders remain. The requested case-only
+are **not approved or integrated**. The page-7 Introduction rewrite is approved and installed; collected corrections remain open. Metadata placeholders remain. The requested case-only
 source correction is recorded above; no guide catalogue export, supplier upload
 or publication action was performed.
 

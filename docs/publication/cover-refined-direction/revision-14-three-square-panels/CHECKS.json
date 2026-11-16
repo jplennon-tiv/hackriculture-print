@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-15",
+  "render_dpi": 120,
+  "front_size_mm": [
+    185,
+    240
+  ],
+  "square_panels_mm": 55.38461538461539,
+  "front_pages": 1,
+  "review_pages": 2,
+  "visual_review": "Both pages inspected alongside real photo seeds and approved hero references. Clear smaller courgette/flower image, intact asymmetrical garlic pair, and proposed cabbage with small lower-edge overlap. No lettering/sticker collision or obvious alpha halo at cover size.",
+  "title": {
+    "identical": false,
+    "maximum_channel_difference": 1
+  },
+  "author": {
+    "identical": true,
+    "maximum_channel_difference": 0
+  },
+  "bottom": {
+    "identical": true,
+    "maximum_channel_difference": 0
+  },
+  "initial_exact_comparison": "Initial whole-area equality assertion found 88 pixels differing by 1/255 in the upper cream area, where the former illustration had extremely faint alpha pixels. Focused author and lower-band comparison is exact; no lettering was regenerated."
+}

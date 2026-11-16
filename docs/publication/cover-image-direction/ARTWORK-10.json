@@ -1,0 +1,44 @@
+{
+  "date": "2026-11-11",
+  "revision": "10",
+  "status": "centred placeholder photograph for review; revision 09 typography accepted",
+  "brief": "BRIEF-10.json",
+  "base_cover": "generated_images/exec-94f70154-e743-4c92-a5a8-ea42849b91f4.png",
+  "base_sha256": "57f1f7f5634e95680a0d2f25e0cb684a7ade692fea075c68e0dac77d201289eb",
+  "output": "generated_images/exec-3d4e38cf-9868-4229-aedc-ff4325ef9a72.png",
+  "sha256": "f494d0a3b9854c7e4b3799e053e6bf40c3283efbd9b66e394b125b4a7f800776",
+  "size_px": [
+    1100,
+    1430
+  ],
+  "photo_status": "Temporary placeholder. John wants a generated replacement later; its new subject/composition brief is not yet supplied.",
+  "geometry_check": {
+    "method": "Median adjacent-pixel colour change across seven unobstructed rows, within narrow windows around expected vertical photo boundaries.",
+    "sample_rows_px": [
+      700,
+      750,
+      800,
+      850,
+      900,
+      950,
+      980
+    ],
+    "detected_photo_edges_x_px": [
+      155,
+      947
+    ],
+    "side_margins_px": [
+      155,
+      153
+    ],
+    "photo_centre_x_px": 551.0,
+    "cover_centre_x_px": 550.0,
+    "result": "Side margins match within 4 pixels in the generated raster."
+  },
+  "review": {
+    "observed": "Generated cover visually inspected against revision 09. Photograph is horizontally centred with equal-looking sage side margins, retaining its vertical position and approximate size. Approved lettering, author and sticker remain visually consistent in cover position and treatment. Sticker still overlaps photo and sage surround. All required wording is present.",
+    "layout_consequence": "Moving the placeholder image left brings part of the face under the right end of Guru. This is retained as a consequence of moving only the image; the later generated replacement needs space for the fixed title.",
+    "limits": "Generative edit, not a pixel-preserving translation. Artwork remains a concept, not embedded-font production files or a final photographic approval."
+  },
+  "preservation": "Revision 09 source hash verified unchanged. All earlier sources and generated trials retained; no interior, canonical-data or supplier changes."
+}

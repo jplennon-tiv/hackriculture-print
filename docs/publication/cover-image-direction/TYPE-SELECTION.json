@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-11",
+  "selected_typeface": "Lilita One",
+  "user_words": "Lilita One is the closest match to the interior so we should use it - is there a slightly slimmer version though? Just thought I’d ask..",
+  "selected_direction": "08H",
+  "reference_image": "generated_images/exec-2974d644-ab7c-4bc0-97b8-6aa4ee1be664.png",
+  "reference_sha256": "35aecc8a59f21778771243deda2477f75688747005d6c61715ee26ef0e3f500e",
+  "font_file": "public/fonts/richer-a-1.woff2",
+  "font_sha256": "d2575d4fa3632580aafcbcdf6978b3b57e144b90cf5bd9c2c98194f28b869704",
+  "constraint": "One typeface throughout the cover; 06B lighter sage remains fixed.",
+  "scope": "Lilita One and the revision 09 visual title size/spacing are accepted by John. Native production typography and finished cover remain to be prepared; this is not full-cover or supplier approval.",
+  "availability_check": {
+    "checked": "2026-11-11",
+    "source": "https://github.com/google/fonts/blob/main/ofl/lilitaone/METADATA.pb",
+    "finding": "The official family contains one normal style, weight 400, LilitaOne-Regular.ttf; no lighter or condensed style is listed. Local declarations also use 400.",
+    "local_source": "src/print/local-fonts.css"
+  },
+  "possible_refinement": "The revision 09 size-and-spacing treatment is accepted. Carry it forward while changing the placeholder image; no artificial thinning or different font is requested.",
+  "current_trial": {
+    "revision": "09",
+    "record": "ARTWORK-09.json",
+    "status": "accepted by John on 11 November 2026",
+    "user_words": "Ok let's go with that.",
+    "reference_image": "generated_images/exec-94f70154-e743-4c92-a5a8-ea42849b91f4.png",
+    "sha256": "57f1f7f5634e95680a0d2f25e0cb684a7ade692fea075c68e0dac77d201289eb"
+  }
+}

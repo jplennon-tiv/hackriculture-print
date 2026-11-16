@@ -1,0 +1,50 @@
+{
+  "date": "2026-11-16",
+  "status": "Set aside by John: handwriting experiment not working; saved Version 6-1 retained.",
+  "base": "docs/publication/cover-versions/version-6/Version-6.png",
+  "request": "Remove the caret, use separate slightly bolder handwritten letters, then try the word in capitals.",
+  "attempts": [
+    {
+      "name": "Lowercase hand-printing",
+      "referenced_image_paths": [
+        "/Users/johnlennon/Documents/web_site/hackriculture-print/generated_images/exec-7e2a2424-4980-4cdd-a469-23e7d16958a2.png"
+      ],
+      "transparent_background": false,
+      "prompt": "Make a tiny local text edit to this exact supplied cover. Only change the red handwritten addition after 'Your at-a-glance'.\n1. Completely REMOVE the red caret '^', restoring matching cream background in its place. No caret, arrow, insertion mark or underline should remain.\n2. Replace the joined cursive red word with the exact lowercase word 'organic' written as NON-JOINED handwritten printing. Every letter must be a separate, individually formed glyph with a small visible cream gap between adjacent letters: o r g a n i c. Normal word spacing, not a widely letter-spaced label. No connecting strokes, no cursive ligatures, no brush-script swashes. Friendly, slightly irregular hand-printed marker lettering, as if written by hand with a red felt-tip pen; a single-storey a and simple g are appropriate. Increase stroke weight modestly, around 20–25% bolder than the existing thin cursive. Keep it handwritten, not the chunky typeset font of the main title.\nKeep the same warm red colour, lowercase spelling and gentle upward-right angle of the word. It should remain slightly smaller than the printed green subtitle and occupy approximately the same area just after 'at-a-glance'. Use the space freed by removing the caret if needed to keep separate letters readable and comfortably clear of the YouTube sticker; do not overlap the sticker or second subtitle line. Do not enlarge the lettering dramatically.\nPreserve ALL other content, positions, sizes, illustrations and colours: original ribbon-free cream upper-left corner; upper courgettes; The Vegetable Guru; the unchanged printed green subtitle 'Your at-a-glance' / 'growing companion'; John Lennon; lower tomatoes; raised white tilted YouTube sticker. Do not move or resize any existing printed words. No ribbon. Same full flat portrait cover and aspect ratio.",
+      "output": "generated_images/exec-4d20c1ee-97a8-49fe-868c-bce6896d5dc1.png",
+      "status": "Earlier trial; superseded by requested capitals experiment."
+    },
+    {
+      "name": "Capitals hand-printing",
+      "referenced_image_paths": [
+        "/Users/johnlennon/Documents/web_site/hackriculture-print/generated_images/exec-4d20c1ee-97a8-49fe-868c-bce6896d5dc1.png"
+      ],
+      "transparent_background": false,
+      "prompt": "Edit this exact supplied book cover with one very small local lettering change: replace the red lowercase handwritten word 'organic' after 'Your at-a-glance' with the exact ALL-CAPITAL word 'ORGANIC'. Seven separate uppercase letters, O R G A N I C, with normal word spacing and visible cream gaps between each glyph. Preserve the friendly, slightly irregular hand-printed felt-tip pen character and moderately bold strokes of the current red addition; NOT joined-up cursive, not calligraphy, no connecting strokes, not the chunky typeset title font. Keep the same warm red colour and gentle upward-to-the-right tilt, approximately 10 degrees, in the same location immediately after 'at-a-glance'. Keep the annotation slightly smaller than the printed green subtitle and compact enough to fit between the printed line and the white YouTube sticker, approximately the same width as the current organic word. It must not touch the sticker or the subtitle's second line. No caret, arrow, insertion mark, underline or ribbon. Preserve ALL other cover elements and layout visually unchanged: the cream background, courgettes at top right, The Vegetable Guru title at upper left, printed two-line subtitle 'Your at-a-glance' / 'growing companion', John Lennon, white angled YouTube sticker, and the lower tomato artwork. Do not move or resize existing printed text, illustrations or sticker. Same complete flat portrait cover and aspect ratio.",
+      "output": "generated_images/exec-887012f5-ebc8-465d-bc87-60473ff8dda1.png",
+      "status": "Set aside; retained as historical trial."
+    }
+  ],
+  "current_output": "generated_images/exec-887012f5-ebc8-465d-bc87-60473ff8dda1.png",
+  "review": [
+    "Both full-cover outputs inspected.",
+    "Current annotation reads ORGANIC in seven separate red uppercase letters, slightly bolder and angled upward to the right.",
+    "No caret or ribbon; word clears printed subtitle and YouTube sticker.",
+    "Other artwork, wording and placement retained visually; not claimed pixel-exact.",
+    "Saved numbered versions, six-cover PDF, back cover and book are unchanged."
+  ],
+  "files": {
+    "docs/publication/cover-versions/version-6/Version-6.png": {
+      "sha256": "26016f8810000d25176d7bbc1fcedf894d704a1188e18d54c29d8decbc70670d",
+      "bytes": 1884410
+    },
+    "generated_images/exec-4d20c1ee-97a8-49fe-868c-bce6896d5dc1.png": {
+      "sha256": "ff275de5c523c1b9c395e6029de24be6e830ac5482203b2ca444466c97543050",
+      "bytes": 1888230
+    },
+    "generated_images/exec-887012f5-ebc8-465d-bc87-60473ff8dda1.png": {
+      "sha256": "7898fa59a331324f600cd0c13c543bc0d1e141c0165139dd53fb47e8d61b649a",
+      "bytes": 1889824
+    }
+  }
+}

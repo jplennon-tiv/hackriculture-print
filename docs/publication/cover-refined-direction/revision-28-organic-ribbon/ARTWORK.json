@@ -1,0 +1,48 @@
+{
+  "date": "2026-11-16",
+  "preferred_base": "Version 6 — John describes it as the strongest of the saved versions",
+  "source": "docs/publication/cover-versions/version-6/Version-6.png",
+  "status": "Red ribbon saved as Version 6-1 at John’s request; green ribbon retained as trial; no production approval.",
+  "stages": [
+    {
+      "name": "Green organic ribbon",
+      "referenced_image_paths": [
+        "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/cover-versions/version-6/Version-6.png"
+      ],
+      "transparent_background": false,
+      "prompt": "Edit this exact supplied Version 6 front cover by adding ONE small, attractive diagonal corner ribbon at the TOP LEFT. Preserve the existing entire cover composition, every illustration, all typography, wording, sizes, positions, cream background, title, subtitle, author and raised slightly clockwise YouTube sticker. This is a corner-ribbon trial, not a redesign.\n\nAdd a forest-green ribbon crossing diagonally from the LEFT edge near the top to the TOP edge near the left, as if wrapped over the top-left corner. Its slope goes up toward the right, about 45 degrees. Use the supplied 1100x1430 image coordinate system as guidance: the ribbon occupies the band approximately between x+y=185 and x+y=295, wrapping off the top and left page edges. This means its visible diagonal face has about 75 pixels of perpendicular thickness and leaves the illustration and title completely clear. It should NOT extend over 'The' or the upper-left corner of the big V, and should NOT touch the courgette leaves. Keep the original cream corner triangle visible above/left of the ribbon where appropriate, as a classic corner sash. Give it a restrained folded-paper edge and very subtle shadow so it reads as a physical ribbon lying on top of the cover, not a large floating badge. No bow, medallion, certification symbol, border or extra decoration.\n\nPrint the exact words '100% Organic' in one line, in warm cream, centred along and rotated with the ribbon. Use the same friendly chunky rounded lettering character as the existing cover, at a clearly readable size with comfortable margins. Capital O in Organic; all other letters lowercase. Deep forest green should echo the title colour. No additional text.\n\nEverything else stays visually identical: courgettes at upper right; left-aligned title 'The Vegetable Guru' with no decorative title sprout; 'Your at-a-glance' / 'growing companion'; 'John Lennon'; white sticker 'As seen on' / 'YouTube' / '@hackriculture' in its current raised right-hand position; lower tomato stems, leaves and fruits. Same portrait aspect ratio, full flat cover, no mockup.",
+      "output": "generated_images/exec-a299de5f-6a90-4f0b-bdd9-ad8d9b211cc2.png"
+    },
+    {
+      "name": "Red organic ribbon",
+      "referenced_image_paths": [
+        "/Users/johnlennon/Documents/web_site/hackriculture-print/generated_images/exec-a299de5f-6a90-4f0b-bdd9-ad8d9b211cc2.png"
+      ],
+      "transparent_background": false,
+      "prompt": "Make ONE colour-only edit to this exact cover: change the diagonal TOP-LEFT corner ribbon from dark green to a rich warm tomato RED, around #C83324, echoing the red tomatoes and YouTube icon. Keep the ribbon’s cream '100% Organic' lettering, wording, size, angle and position, and retain its subtle raised-paper shadow. The ribbon must read unmistakably red, not brown, pink or orange. Preserve everything else exactly as shown: upper courgettes, all green title/subtitle/author lettering and their placement, continuous cream background, lower tomato foliage, and the raised white YouTube sticker. Do not recolour any other green element. No added elements, no redesigned layout. Same portrait aspect ratio and full flat front cover.",
+      "output": "generated_images/exec-1255c0b0-6f6a-492c-bdb5-b1c49b16cd50.png"
+    }
+  ],
+  "files": {
+    "generated_images/exec-1255c0b0-6f6a-492c-bdb5-b1c49b16cd50.png": {
+      "sha256": "a528ccf669790a8e4a9c96edc22e293f096b2f8d1c8d3bb87445557151fa19da",
+      "bytes": 1906172
+    },
+    "docs/publication/cover-versions/version-6-1/Version-6-1.png": {
+      "sha256": "a528ccf669790a8e4a9c96edc22e293f096b2f8d1c8d3bb87445557151fa19da",
+      "bytes": 1906172
+    },
+    "docs/publication/cover-versions/version-6-1/Version-6-1.pdf": {
+      "sha256": "4687a51d86f3d7e2672d3ed6d45b9787e8970b41c4ff00c5ff20ce87b6b54fe1",
+      "bytes": 3189880
+    },
+    "docs/publication/cover-versions/version-6/Version-6.png": {
+      "sha256": "26016f8810000d25176d7bbc1fcedf894d704a1188e18d54c29d8decbc70670d",
+      "bytes": 1884410
+    },
+    "docs/publication/cover-versions/version-6/Version-6.pdf": {
+      "sha256": "752584813ae5822c99ecc7e9c45cb4ce177c5e7e5194640873987ee91103aa04",
+      "bytes": 3060780
+    }
+  }
+}

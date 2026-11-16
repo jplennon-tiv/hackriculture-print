@@ -78,5 +78,12 @@
   },
   "keyRiskCorrection": "../key-risk-title-case/PDF-CHECKS.json",
   "priorTableCorrection": "../pest-title-case/PDF-CHECKS.json",
-  "contentsApproval": "../contents-key-reflow/APPROVAL.json"
+  "contentsApproval": "../contents-key-reflow/APPROVAL.json",
+  "introductionApprovalUpdate": {
+    "date": "2026-11-15",
+    "pdfSha256": "5b4856e75e23ddf0a2be9b17641cf5fb2844e9d4e0417eca9f6032bae3b3124d",
+    "folio": 7,
+    "result": "Installed page raster matches exact approved page pixel-for-pixel; other 179 page content streams/text and all links unchanged.",
+    "receipt": "docs/publication/whole-book-order-preview/integration-2026-11-15-introduction/INTEGRATION-CHECKS.json"
+  }
 }

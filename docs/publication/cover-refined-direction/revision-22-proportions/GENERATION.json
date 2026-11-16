@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-16",
+  "status": "Version 5 proportion refinement awaiting review",
+  "request": "John authorised the proposed subtitle reduction, author lift and garlic inset.",
+  "source": "docs/publication/cover-versions/version-5/references/upper-title-before-proportions/Version-5.png",
+  "output": "generated_images/exec-99adf328-74f6-4adf-bdec-cd70c16870f9.png",
+  "attempts": [
+    {
+      "referenced_image_paths": [
+        "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/cover-versions/version-5/references/upper-title-before-proportions/Version-5.png"
+      ],
+      "transparent_background": false,
+      "prompt": "Apply ONLY three tiny layout refinements to this existing book cover. This is a precise local edit, not a redesign. Keep the same 1100 × 1430 portrait canvas, all existing lettering style and wording, warm cream texture, title and sprout, tomato drawing and foreground tilted sticker. Preserve unaffected pixels as closely as possible.\n\n1. The TWO-LINE SUBTITLE reading exactly 'Your at-a-glance' / 'growing companion' must be uniformly scaled to 90% of its current size (10% smaller width and height), centred on its existing centre at approximately x550,y753. Preserve the two line breaks and relative line spacing by scaling the group together. Its previous visible bounding box is approximately x240..861,y696..814; target about x271..830,y702..808. Same chunky forest-green letterforms, not thinner or a different font. Fill vacated area seamlessly with matching cream.\n2. Move the author text 'John Lennon' UP by approximately 18 pixels (equivalent to 3 mm on this 185 × 240 mm cover). No scaling, no horizontal movement, no wording or font change. Its previous top is about y850: revised top about y832, with the entire author word group translated upwards together. Blend the vacated lower area into the cream background.\n3. Move the complete paired GARLIC illustration in the upper right LEFT 18 pixels and DOWN 18 pixels (about 3 mm each). Do not rotate, scale, redraw, change colour or separate the bulbs. Keep all of the bulb/root/papery-tip silhouette intact. Blend vacated upper/right pixels seamlessly into the existing cream background. Keep comfortable separation from the large title below.\n\nThese are the ONLY changes. The title 'The Vegetable Guru', the two-leaf sprout, all tomato foliage, and the white circular clockwise-tilted YouTube sticker must retain their current positions, scales, proportions and appearance. Exact sticker text remains 'As seen on' / 'YouTube' / '@hackriculture'. Do not add illustrations, rules, borders or decoration. Do not reintroduce any courgette or flowers. Produce one complete refined cover.",
+      "output": "generated_images/exec-a5df4b63-a02d-47d1-9ba0-0b80b5124166.png",
+      "assessment": "Subtitle reduced; garlic moved farther left than intended and author lift was small, prompting one correction."
+    },
+    {
+      "referenced_image_paths": [
+        "/Users/johnlennon/Documents/web_site/hackriculture-print/generated_images/exec-a5df4b63-a02d-47d1-9ba0-0b80b5124166.png"
+      ],
+      "transparent_background": false,
+      "prompt": "Make TWO tiny positional corrections to this precise existing cover. Keep the 1100 × 1430 canvas and all other pixels/objects as close to identical as possible. Do NOT redesign or redraw.\n1. Translate the entire garlic pair exactly about 38 pixels to the RIGHT and 4 pixels UP. The paired garlic currently has visible bounds roughly x745..990,y36..247. Its new bounds should be roughly x783..1028,y32..243. Keep its size, orientation and appearance. This is only about 3.5% of the cover width rightwards, and a barely perceptible upward nudge. Maintain cream margin at right, no touching lettering. Fill the vacated area naturally with matching cream.\n2. Translate the entire 'John Lennon' text 11 pixels UP, with absolutely no size or font change and no horizontal shift. Its current ink top is about y841: new top should be y830, bottom about y887. Keep the name centred and fill the vacated area with cream.\nKeep the already reduced two-line subtitle at exactly its current position and size. Preserve the complete The Vegetable Guru title, sprout, all tomato foliage and the white tilted YouTube sticker exactly as they are. No courgettes, flowers, additional objects, extra text, borders or lines. Same forest-green lettering and cream background. Return the complete cover.",
+      "output": "generated_images/exec-99adf328-74f6-4adf-bdec-cd70c16870f9.png"
+    }
+  ],
+  "precision": "Generated visual adjustments are approximate; measured bounds are in CHECKS.json. Exact pixel identity and exact millimetre offsets are not claimed."
+}

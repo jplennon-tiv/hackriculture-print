@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-16",
+  "reviewed": "Full cover and source/style page rendered at 100 dpi and inspected. Illustration checked on dark green and cream; direct approved-hero comparison on page 2.",
+  "raster_checks": {
+    "complete_below_y380": {
+      "max_channel_difference": 0,
+      "changed_pixels": 0
+    },
+    "original_centre_ink": {
+      "mask": "y332..988; any original RGB channel below [210,210,170], excluding cream background",
+      "pixels_checked": 88335,
+      "max_channel_difference": 0
+    }
+  },
+  "comparison_note": "A full-rectangle check at y332 initially included the deliberately added leaf/cream overlap. Original ink pixels and the complete area below y380 are unchanged.",
+  "pages_mm": [
+    [
+      185.0,
+      240.0
+    ],
+    [
+      185.0,
+      240.0
+    ]
+  ],
+  "source_licence_links": 2,
+  "alpha_range": [
+    0,
+    255
+  ],
+  "transparent_pixel_fraction": 0.4926002882475466,
+  "visual_findings": [
+    "Horizontal fruit dominates; folded flower is secondary.",
+    "Broad green planes, simplified lobed leaves and cream highlights relate to approved hero references.",
+    "Left leaf overlaps cream title field; no lettering collision observed.",
+    "Lower tomatoes and tilted foreground sticker are unchanged in rendered comparison."
+  ],
+  "prior_v4_sha256": "89572bab4a82ca9190e2d3b297067e440e9c6adaf40bce43754114130ea50905",
+  "status": "Checks completed; trial awaits John\u2019s feedback, not production approval."
+}

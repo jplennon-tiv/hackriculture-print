@@ -1,0 +1,12 @@
+# Courgette source search — 16 November 2026
+
+John rejected the quieter two-group Version 4 top and requested a return to one drawn upper image, using a better courgette photograph. Search online first; his video collection remains a fallback. The cream field, centre lettering, author, tilted sticker and lower tomatoes remain the retained components.
+
+[Courgette-source-options.pdf](https://chatgpt.com/library?file_id=libfile_fde3_f-8a4d2ce292d48191b99ffb0af6578e28_968f6e806ba48191b80ffb1b7a35f663&account_id=personal) presents two inspected photographs with indicative shallow crops and proposed drawing treatment.
+
+- **01 — recommended:** Pollinator's horizontal full-sized fruit on the plant. Keep its clear long silhouette and a few irregular framing leaves; the small flower can remain secondary. Source labels include CC BY 2.5.
+- **02 — alternative:** Thomas Parker's two overlapping fruits, listed on Pexels. Their unequal sizes and angles offer movement; omit the large upper blossom and simplify surrounding foliage. Pexels' licence permits modifications and lists books among its uses.
+
+John first tried 01, then described its stems as disconnected and requested **02 for the next trial**. See [SELECTION.json](SELECTION.json), the retained [01 cover](../cover-refined-direction/revision-17-courgette-01/README.md) and the current [02 cover](../cover-refined-direction/revision-19-courgette-leaf/README.md). The source-study PDF and SOURCES.json retain the search-stage assessment; John preferred 02 and requested a leaf over the exposed stem base plus removal of the thin lower-image border line; that revision is now [saved as Version 4](../cover-versions/version-4/README.md). Original source URLs, licence links, dimensions, hashes, crop coordinates and rejected candidates are in [SOURCES.json](SOURCES.json). Eight images were visually inspected; the Kaboompics image was unavailable and was not assessed. No local-video search was needed for this shortlist. Both review pages were rendered and checked; see [CHECKS.json](CHECKS.json). [build_review.py](build_review.py) reproduces the PDF from retained source bytes.
+
+Both authorised trials use their photographs as composition inputs and actual approved Richer A summer-crop heroes as separate style inputs. Preserve a shallow top and cream clearance above the title. Version 4, all earlier versions, the revision 07 back and main book remain untouched by this source search.

@@ -1,0 +1,99 @@
+{
+  "date": "2026-11-16",
+  "status": "Selected by John and saved as Version 6-2 on 16 November 2026.",
+  "request": "The YouTube sticker has pixelation along its edge and shading towards the top right of its background.",
+  "input": "generated_images/exec-1d260333-2dde-4144-be55-bed4d7f055e5.png",
+  "spec": {
+    "referenced_image_paths": [
+      "/Users/johnlennon/Documents/web_site/hackriculture-print/generated_images/exec-1d260333-2dde-4144-be55-bed4d7f055e5.png"
+    ],
+    "transparent_background": false,
+    "prompt": "Clean up ONLY the white YouTube sticker in the middle-right of this exact supplied book cover. This is a local quality repair, not a redesign.\n\nThe sticker currently has a ragged/pixelated perimeter with green flecks, especially around the upper-left and upper-right edge, and grey shading across its white paper face. Replace its perimeter with a beautifully smooth, clean, anti-aliased circular cut edge. REMOVE every green fringe, speckle, coloured hairline, jagged step and dark rim around the circumference. Make ALL the sticker's paper face a flat, uniform clean WHITE (#FFFFFF), including its upper-right quadrant: no grey gradient, grey corner shading, vignette, texture, bevel, crease, plastic glare or simulated curvature. Retain only a very restrained soft contact shadow OUTSIDE and beneath the lower-right edge to make it sit on top of the cream page; no shadow inside its face. The edge should look like crisp professionally printed paper.\n\nKeep this sticker exactly the same overall diameter, position and gentle clockwise text angle as it is now. Preserve its existing red YouTube play symbol and exact green lettering, layout, line breaks and scale: 'As seen on' / 'YouTube' / '@hackriculture'. Keep the typography clean and sharply legible. Do not add a border or change the wording.\n\nPreserve EVERYTHING outside this local white sticker and tiny external shadow: the red 100% Organic ribbon, cream page background, entire title The Vegetable Guru, upper courgettes, two-line subtitle, John Lennon, all lower tomato foliage and fruit, and ESPECIALLY the SMALL black-and-gold Traditional Measurements sticker inset at the lower-left, with its same size, position, tilt and exact lettering. Do not move or regenerate a new arrangement. No extra sticker. Same flat full portrait front cover, crop, aspect ratio and dimensions."
+  },
+  "output": "generated_images/exec-4634838f-b13c-46ce-8c7d-b17a058688bc.png",
+  "review": [
+    "Full cover visually compared with preceding inset-left preview.",
+    "YouTube sticker edge is smooth; prior green flecks and jagged fringe removed.",
+    "White face is visually even, including upper-right; subtle external shadow retained.",
+    "YouTube wording, symbol, position and angle retained.",
+    "Small Traditional sticker retains accepted lower-left inset and size; other cover elements retained visually, not claimed pixel-exact."
+  ],
+  "preserved": "Saved Version 6-1 and all numbered variants and PDFs remain unchanged. No new cover number assigned.",
+  "files": {
+    "generated_images/exec-1d260333-2dde-4144-be55-bed4d7f055e5.png": {
+      "sha256": "b0f37eea2b09bed8109c464f8db053abfc4a78a541364ed034b9c0f0677d5bff",
+      "bytes": 1911288
+    },
+    "generated_images/exec-4634838f-b13c-46ce-8c7d-b17a058688bc.png": {
+      "sha256": "3f9d08bb65ca7f5dc211cc5173de8f4806fbe8dc4db4fc4b0f76a347d7414520",
+      "bytes": 1883849
+    }
+  },
+  "white_face_spot_check": [
+    {
+      "point_px": [
+        980,
+        630
+      ],
+      "before": [
+        232,
+        230,
+        230
+      ],
+      "after": [
+        255,
+        254,
+        254
+      ]
+    },
+    {
+      "point_px": [
+        960,
+        590
+      ],
+      "before": [
+        224,
+        225,
+        225
+      ],
+      "after": [
+        253,
+        253,
+        253
+      ]
+    },
+    {
+      "point_px": [
+        960,
+        810
+      ],
+      "before": [
+        244,
+        243,
+        243
+      ],
+      "after": [
+        254,
+        253,
+        253
+      ]
+    },
+    {
+      "point_px": [
+        900,
+        830
+      ],
+      "before": [
+        246,
+        246,
+        246
+      ],
+      "after": [
+        254,
+        254,
+        254
+      ]
+    }
+  ],
+  "saved_version": "docs/publication/cover-versions/version-6-2/VERSION.json"
+}

@@ -1,0 +1,165 @@
+{
+  "date": "2026-11-15",
+  "status": "Version 4 proposal for review; cabbage not yet selected by John",
+  "request": "Save Version 3; replace dominant upper flowers with three square photo-seeded house-style illustrations, including smaller courgette flowers and the earlier garlic pair.",
+  "base": "docs/publication/cover-versions/version-3/Version-3.pdf",
+  "dimensions_mm": [
+    185,
+    240
+  ],
+  "panel_boxes_cover_coordinates": [
+    [
+      0.0,
+      0,
+      329.31392931392935,
+      330
+    ],
+    [
+      385.3430353430353,
+      0,
+      329.31392931392935,
+      330
+    ],
+    [
+      770.6860706860706,
+      0,
+      329.31392931392935,
+      330
+    ]
+  ],
+  "panel_size_mm": 55.38461538461539,
+  "placements": {
+    "flowers": [
+      -5,
+      -5,
+      340,
+      340
+    ],
+    "garlic": [
+      389.3430353430353,
+      4,
+      322,
+      322
+    ],
+    "cabbage": [
+      761.6860706860706,
+      -2,
+      350,
+      350
+    ]
+  },
+  "tomato_placement": [
+    0,
+    929.6774193548388,
+    1100,
+    500.3225806451613
+  ],
+  "preserved": "Exact Version 3 tomato image and placement, centre lettering, sprout, author and foreground tilted sticker; all previous versions, back and main book.",
+  "sources": {
+    "flowers": {
+      "photo": "docs/publication/summer-cover-photo-search/selected-stills/P04-courgette-flower.jpeg",
+      "crop": [
+        1500,
+        0,
+        5148,
+        3648
+      ],
+      "note": "Square crop reveals developing courgette below the flower, absent from the earlier narrow strip."
+    },
+    "garlic": {
+      "id": "L037",
+      "original": "/Volumes/Videos/Movies/DJI Videos/Photographs/Allotment/DSC09815.jpeg",
+      "copy": "garlic-source.jpeg",
+      "crop": [
+        900,
+        0,
+        5200,
+        3080
+      ],
+      "note": "Exact earlier two elephant-garlic bulbs on wood, one partly opened."
+    },
+    "cabbage": {
+      "id": "S011",
+      "original": "/Volumes/Videos/Movies/July 2026/Heatwave/DJI_20260712125617_0068_D.MP4",
+      "raw_camera_seconds": 27.177,
+      "copy": "cabbage-source.png",
+      "native_dimensions": [
+        3840,
+        2160
+      ],
+      "crop": [
+        140,
+        170,
+        2720,
+        2160
+      ],
+      "status": "Assistant-proposed third source, subject to John\u2019s review",
+      "note": "Broader crop coverage and a clear folded-leaf silhouette; bottles, netting and soil intentionally omitted from drawing."
+    }
+  },
+  "scouting": "Reused retained photo contacts 01\u201304 and summer video contacts 01\u201303. Inspected native garlic/pepper/broad-bean photos and a fresh native cabbage frame. Not a new exhaustive archive scan. Pepper/broad-bean alternatives retained as leads; previously rejected P02/P03/P05/P06 not reused.",
+  "generation": "GENERATION.json",
+  "files": {
+    "docs/publication/cover-versions/version-4/Version-4.pdf": {
+      "sha256": "fd28c7f6fc1ede66f57da1998a9f0a0e5d0cabc29bc2b96531538e87ec5b9bcf",
+      "bytes": 13285060
+    },
+    "docs/publication/cover-versions/version-4/Version-4-review.pdf": {
+      "sha256": "71ae19da6fdd7610adfc63760fc45af06ce3fdeb82adfa50386b1496b7841e5e",
+      "bytes": 25338225
+    },
+    "docs/publication/cover-refined-direction/revision-14-three-square-panels/Source-photographs.pdf": {
+      "sha256": "0a625b8f7ad4757807ed8e522b9e2ae361f845555082f02b0bd57ee84cdd836c",
+      "bytes": 12054250
+    },
+    "docs/publication/cover-refined-direction/revision-14-three-square-panels/garlic-source.jpeg": {
+      "sha256": "10bf97380197e1d8a10eab585a32e572277dc6e600fd7f0d75f2b2ecedad141f",
+      "bytes": 2788115
+    },
+    "docs/publication/cover-refined-direction/revision-14-three-square-panels/cabbage-source.png": {
+      "sha256": "a17b5099b9e729439a5f5965440f0ded7db51c9d376bdd2b468c89e1a31d7659",
+      "bytes": 44264472
+    },
+    "docs/publication/cover-refined-direction/revision-14-three-square-panels/flowers-illustration.png": {
+      "sha256": "24a88a0ce8d1e74e25d2136f6c4d97bb5829226d017d3960e8cf4798db72fd1d",
+      "bytes": 1367471
+    },
+    "docs/publication/cover-refined-direction/revision-14-three-square-panels/garlic-illustration.png": {
+      "sha256": "ba38fc591ed5d54be51faa1035c506dd85937d233f53bd02d0c0ca47bd9328da",
+      "bytes": 1329686
+    },
+    "docs/publication/cover-refined-direction/revision-14-three-square-panels/cabbage-illustration.png": {
+      "sha256": "5ce9a9fe52e7c86a38cc7bf991caffa4042f564e66c00727df92356d35199258",
+      "bytes": 1456468
+    },
+    "docs/publication/cover-refined-direction/revision-14-three-square-panels/flowers-square.jpg": {
+      "sha256": "6e9da93fc9e22c91006238afd0810b602edb6cfa9bd15c20b959adf13c1b70e1",
+      "bytes": 597611
+    },
+    "docs/publication/cover-refined-direction/revision-14-three-square-panels/garlic-seed.jpg": {
+      "sha256": "e7cdfbd002e763a5a47bd838f19fb2aade5d230b4cb2173bdd4f6bbec7806f9f",
+      "bytes": 676452
+    },
+    "docs/publication/cover-refined-direction/revision-14-three-square-panels/cabbage-seed.jpg": {
+      "sha256": "04908b8aa88743029140b54345b467b46c12b6aa1d7c678abbec2db60b301d96",
+      "bytes": 525240
+    },
+    "public/images/heroes/richer-a/marrow_courgette.png": {
+      "sha256": "0ee564ae042a1815ad2fc4a5aa7f875a0f005d59c02e6c8c9fbb4eceb4b969b0",
+      "bytes": 1745414
+    },
+    "public/images/heroes/richer-a/garlic.png": {
+      "sha256": "f30d3e308b5412105fb3d6ba85ca93e732d20e9f8adb61cf906268b5f1618364",
+      "bytes": 1677814
+    },
+    "public/images/heroes/richer-a/cabbage.png": {
+      "sha256": "99b901ebff5e1b4d1dba063cef707a8f791452fc4e5fdf14180a878aba27d7ff",
+      "bytes": 1876140
+    },
+    "public/images/heroes/richer-a/capsicum.png": {
+      "sha256": "4c44da3ac94745def5e74b4a05f99b3a9ecd64b8e34f9cfd2d848602feca55d6",
+      "bytes": 1594322
+    }
+  },
+  "review": "Focused rendered review complete; CHECKS.json records exact comparison coverage and small upper-cream alpha differences. Await John\u2019s feedback."
+}

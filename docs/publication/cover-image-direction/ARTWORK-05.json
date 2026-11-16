@@ -1,0 +1,50 @@
+{
+  "date": "2026-11-11",
+  "revision": "05",
+  "status": "three generated colour experiments for review; no colour selected",
+  "brief": "BRIEF-05.json",
+  "base_cover": "generated_images/exec-2a968ca9-37aa-4115-a84b-4e3f79db12af.png",
+  "base_sha256": "d9a77d4f6473e8b112a82cfc5c2e8100e0452642bb6497963402fb2aa184fa7f",
+  "variants": [
+    {
+      "id": "05A",
+      "name": "Powder blue",
+      "output": "generated_images/exec-00c3a862-5549-4b6b-8db9-90624c7dd3e9.png",
+      "sha256": "4a0ec29b9945a65dc43dc91b12c129d38975c1ba3179124769f8057f6179ee47",
+      "size_px": [
+        1100,
+        1430
+      ],
+      "status": "unapproved colour experiment"
+    },
+    {
+      "id": "05B",
+      "name": "Pale sage",
+      "output": "generated_images/exec-0cd47e05-643a-4df6-9e7d-c080e3bf68ec.png",
+      "sha256": "7ed318af31047a7e3af3eeadafb6fb1cff50b418e89daf4c6bc4196d9b67c46a",
+      "size_px": [
+        1100,
+        1430
+      ],
+      "status": "unapproved colour experiment"
+    },
+    {
+      "id": "05C",
+      "name": "Sea glass",
+      "output": "generated_images/exec-499d15cb-accb-4fac-8744-ec3c90718cc5.png",
+      "sha256": "17b64b2748edc81ba17a08ce2b8b003f2b400c57bbc860bc4324de1eb6d9b327",
+      "size_px": [
+        1100,
+        1430
+      ],
+      "status": "unapproved colour experiment"
+    }
+  ],
+  "model": "Native image tool; exact version not exposed",
+  "generation": "Three independent image edits, each using revision 04 directly, not successive edits of one another.",
+  "review": {
+    "observed": "All three generated images visually inspected in the tool output. The mustard field is replaced with powder blue, pale sage or sea-glass blue-green. Cream crossing title and subtitle sticker, dark-green author, rectangular photo, right margin and overall composition remain visually consistent. All required wording remains visible.",
+    "limits": "These are generative colour edits; exact pixel identity outside the background is not asserted. Colours are visual concepts, not measured press specifications. Likeness and final print quality remain unapproved."
+  },
+  "preservation": "Revision 04 hash verified unchanged. All originals and earlier trials retained; no main-book or canonical-data edits."
+}

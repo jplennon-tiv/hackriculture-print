@@ -17,10 +17,7 @@ Latest instructions from John take precedence. Preserve the separate A4 contract
 Editable words and image references live in the shared
 [book-layout JSON folder](../../hackriculture-data/book-layout/README.md).
 Use its validated builders for the components they own; shared style rules
-stay here and in their existing CSS. The installed introduction at page 7 instead
-comes from the illustrated `why-grow` Techniques source; shared `introduction.json`
-belongs to an omitted welcome layout. Consult the [source map](handover/START-HERE.md#resume-here)
-before the requested rewrite. Frozen source proofs remain unchanged.
+stay here and in their existing CSS. The installed page-7 introduction uses the [approved personal copy and photo composition](publication/introduction-revision/APPROVAL.json) from 15 November, replacing the earlier `why-grow` body. Shared `introduction.json` belongs to an omitted welcome layout. Consult the [source map](handover/START-HERE.md#resume-here) before later edits. Frozen source proofs remain unchanged.
 
 Status labels below distinguish **approved** designs, **selected** visual
 directions and **working** proposals/adaptations. Working values are useful
@@ -102,6 +99,12 @@ the existing proofs. Do not make small explanatory text depend on a pale accent
 alone. The selected cover rasters contain tonal variations; these interior tokens
 are not permission to recolour the selected images or claim exact cover ink values.
 These are RGB design values, not a confirmed CMYK/press specification.
+
+For the saved photographic front-cover candidate, John selected **revision 16
+midpoint yellow**, superseding the earlier 06B lighter sage. The [colour decision](publication/cover-image-direction/COLOUR-SELECTION.json)
+identifies the exact visual reference. This is a cover-specific selection; the
+interior palette above remains unchanged, and the generated colour is not yet a
+measured press specification. Cover typography is still under discussion.
 
 ### Family Tint
 
@@ -195,10 +198,42 @@ for the retained original opening proposal. Current title/publication placement 
 | Welcome heading / lead / main paragraphs | 38.25 / 13.5 / 10.5 pt |
 | Welcome pull quote / author heading / author body | 19.5 / 19.5 / 9.75 pt |
 
-Cover font selection, exact title/subtitle sizes and editable lettering remain
-unresolved. Use the selected composition and visual weight when preparing those
-proofs; adopting an interior font for the cover would be a proposal, not a match
-already established by the raster concept.
+The separate **approved personal introduction** uses Lilita 32.25 pt, Nunito Sans body/sign-off 10.5 pt with 14.5 pt leading, and an 8.25 pt photograph caption. Its 78 × 53.1 mm garden photograph sits beside the closing message; exact composition is frozen in the [15 November approval](publication/introduction-revision/APPROVAL.json).
+
+John selected **Lilita One for the cover** on 11 November after full-cover trial
+08H, linking it directly to the interior headings. The [type decision](publication/cover-image-direction/TYPE-SELECTION.json)
+records that choice. John accepted revision 09’s visual title size/spacing
+on 11 November. Exact native font metrics and editable production lettering
+remain to be prepared. The official family supplies only Regular/400; do not label
+a generated thinning as an available font weight. Revision 09 is an authorised
+size-and-spacing study of the two main title words, retaining the natural font
+weight; John has now accepted its visual treatment. Revision 10 centres the
+photo frame. John selected revision 11A’s person-led direction and likeness,
+then requested candid gardening action. **Revision 12A, tending tomatoes, is
+the selected photograph**; the weeding and wheelbarrow variants are comparisons.
+Keep faces, hands and principal subjects clear of the title. Revision 13 introduced white
+title lettering and a white subtitle circle, retaining dark-green supporting text.
+John reopened yellow as a surround colour in 14, found the lighter 15 too light,
+and accepted **midpoint yellow 16**. Earlier sage and yellow versions remain
+comparisons. **Revision 17 proposes a compact YouTube feature at top right**,
+with red play symbol, dark-green ‘As seen on YouTube’ and ‘@hackriculture’, using
+the existing lettering style. On 12 November John asked to save this candidate
+and explore a new illustrated composition before choosing between the three
+directions; see the [comparison tracker](publication/cover-comparisons/README.md). Lilita and
+the selected 12A photograph continue; no finished-cover or production approval
+is implied.
+
+For the current front-cover trials, John requires **one typeface throughout each
+cover**, with size and weight providing hierarchy (11 November). This supersedes
+the proposed serif-title / Nunito-supporting-text combination for the cover.
+The [revision 07 studies](publication/cover-image-direction/README.md) test two
+serif treatments; John prefers 07B but finds it reminiscent of the 1970s.
+A subsequent title-only list compared eight actual fonts. John ranked Lilita One
+first, then Charter Bold and Avenir Next Demi Bold, and requested full covers
+in those three. Revision 08 now provides these separate generated trials with
+actual-font specimens as direct references. John subsequently selected Lilita One
+(08H) and then accepted revision 09’s size/spacing; final execution remains open. The approved interior
+type roles above remain unchanged.
 
 Folios are an explicit profile exception: the frozen guide proof uses 6 pt;
 the working supplier profile raises guide footers and sub-7-pt utility labels
@@ -310,7 +345,7 @@ with a paler key panel low on page 5; the how-to key stays rejected.
 These reuse the current house-style stock verbatim; John accepted the illustrated
 contents for integration into the full preview. The plain baseline and accepted
 illustrated 4–5 proofs are retained. The current sequence puts a blank at 3,
-contents facing at 4–5, blank 6 and Introduction — why grow your own at 7.
+contents facing at 4–5, blank 6 and the approved personal Introduction at 7.
 The current complete preview retains John's approved opening sequence with
 blank 8 / combined right-hand Vegetable Guides opener and how-to at 9;
 Troubles 99 and Techniques 147 remain recto.
@@ -351,7 +386,7 @@ After John's decision, update the owning rule here (or the detailed guide
 contract), the affected working implementation and its approval/source record.
 Do not create another competing style guide or overwrite a frozen proof.
 
-Next-session work covers revised artwork, introduction and cover text. The final
+Next-session work covers revised cover artwork and cover text; the personal introduction is approved and installed. The final
 cover typography/snippets, publication metadata, stock-dependent wrap/spine and
 revised print files remain to be settled. Retain the current opening sequence
 and cream blank-page treatment unless John changes them. Consult the handover

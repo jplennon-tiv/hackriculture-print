@@ -1,0 +1,69 @@
+{
+  "date": "2026-11-11",
+  "revision": "16",
+  "status": "Midpoint-yellow colour accepted; YouTube feature requested next",
+  "brief": "BRIEF-16.json",
+  "references": {
+    "14": {
+      "path": "generated_images/exec-da6b1d0a-2c2b-4c11-9e72-72022049c88b.png",
+      "sha256": "e98d196f8ccb1a34c0762ebed145b44438b6a176d12bfd6c4e75a5dbb725bfaf",
+      "size_px": [
+        1100,
+        1430
+      ],
+      "surround_sample_median_rgb": [
+        240,
+        201,
+        69
+      ]
+    },
+    "15": {
+      "path": "generated_images/exec-cf8cb9b3-49e7-43ff-9eed-cf99e7ab1f13.png",
+      "sha256": "5f17363465dab1e403a59bd047fe2f47f21fd834cc558cdc1ec1e649042ff4db",
+      "size_px": [
+        1100,
+        1430
+      ],
+      "surround_sample_median_rgb": [
+        253,
+        222,
+        115
+      ]
+    }
+  },
+  "output": {
+    "path": "generated_images/exec-3541657a-f667-4b99-9799-10184a607045.png",
+    "sha256": "972fbac37897855aa7a4b8091fb91273eb4d5141eaefcbf3b272e37b3dd1118b",
+    "size_px": [
+      1100,
+      1430
+    ]
+  },
+  "colour_check": {
+    "sample_box_xyxy": [
+      1010,
+      700,
+      1070,
+      900
+    ],
+    "target_midpoint_rgb": [
+      246,
+      212,
+      92
+    ],
+    "actual_median_rgb": [
+      248,
+      209,
+      88
+    ],
+    "scope": "Approximate digital appearance; not a press specification."
+  },
+  "visual_review": "Complete tool output inspected: intermediate yellow surround, white title/sticker, dark-green subtitle/author and selected tomato-tending composition retained. Generative photographic rendering drift remains visible; later production should use selected 12A as the photograph reference rather than inherit successive colour-edit texture changes.",
+  "preservation": "All earlier artwork retained. No interior, canonical data, book rebuild or supplier changes.",
+  "next_step": "Revision 17 adds a proposed top-right YouTube feature for review.",
+  "user_decision": {
+    "date": "2026-11-11",
+    "user_words": "That's great.",
+    "scope": "Acceptance of the midpoint-yellow appearance for the continuing cover design; no completed-cover or production approval."
+  }
+}

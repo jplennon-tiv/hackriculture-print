@@ -1,0 +1,38 @@
+{
+  "date": "2026-11-11",
+  "revision": "14",
+  "status": "Requested yellow-surround comparison; no colour replacement approved",
+  "user_request": "And lets' try the same page background yellow as Grow Easy as well - we are now sufficiently individual in terms of theme that we can't be accused of copying.",
+  "interpretation": "Try Grow Easy’s yellow background on revision 13 with white title/sticker. Latest request permits the yellow exploration previously excluded. Preserve the chosen 12A photo and retain sage versions for comparison.",
+  "generation_input": {
+    "prompt": "Edit ONLY the surrounding page background colour of the FIRST reference cover, The Vegetable Guru. Preserve the exact existing complete layout: centred tomato-tending photograph, the same man and pose and hands and natural photographic likeness, plants and greenhouse, huge WHITE Lilita One title 'The Vegetable Guru', WHITE circular subtitle sticker at lower left with DARK GREEN words 'Your at-a-glance growing companion', and DARK GREEN 'John Lennon' at bottom right. Retain all letter shapes, typeface, size, spacing, positions, photo frame dimensions and sticker geometry. The intentional title spilling across the photo boundary remains. Do not change the photograph or its greens, exposure or skin tones.\n\nChange the PALE SAGE PAGE SURROUND (all exposed page area outside the central photo, behind the title and author, around the sticker) to the SAME YELLOW AS THE PAGE BACKGROUND OF THE SECOND REFERENCE, Grow Easy. The second reference is for background COLOUR ONLY: use its sunny golden yellow, approximately RGB 238,203,75 / #EECB4B as sampled from its flat right border. Match its clear lively yellow, avoiding dark muddy mustard, pale cream or orange. Use a consistent matte yellow across the full exposed surround; any paper texture must be very subtle, no green undertone, no dark vignette. The large title and sticker field stay clean WHITE (#FFFFFF), not yellow tinted. The sticker words and author stay the original dark green. Do not borrow any design elements, lettering, wording, plants, photograph or book-spine shadow from Grow Easy. Keep the FIRST reference composition completely unchanged except for the sage-to-yellow surround colour. Return ONE complete flat front cover in the same 1100 x 1430 portrait proportions, no comparison layout or mockup.",
+    "referenced_image_paths": [
+      "/Users/johnlennon/Documents/web_site/hackriculture-print/generated_images/exec-6fd5d160-869a-4450-bfab-204c83ed5c1a.png",
+      "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/cover-direction-study/references/grow-easy.jpg"
+    ],
+    "transparent_background": false
+  },
+  "colour_reference": {
+    "path": "docs/publication/cover-direction-study/references/grow-easy.jpg",
+    "sample_box_xyxy": [
+      420,
+      250,
+      440,
+      450
+    ],
+    "median_rgb": [
+      238,
+      203,
+      75
+    ],
+    "hex": "#EECB4B",
+    "scope": "Sample of the supplied digital reference, not a press specification; use only its page background colour."
+  },
+  "fixed_choices": [
+    "Selected 12A tomato-tending scene",
+    "Accepted Lilita One title treatment",
+    "White title and circle from revision 13",
+    "Dark-green subtitle text and author",
+    "Centred photo and existing geometry"
+  ]
+}

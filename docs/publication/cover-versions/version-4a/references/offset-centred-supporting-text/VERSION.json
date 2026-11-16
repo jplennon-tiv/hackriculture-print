@@ -1,0 +1,47 @@
+{
+  "version": "4a",
+  "date": "2026-11-16",
+  "status": "Offset Version 4a proposal awaiting feedback",
+  "front": "docs/publication/cover-versions/version-4a/Version-4a.pdf",
+  "review": "docs/publication/cover-versions/version-4a/Version-4a-review.pdf",
+  "source_version_4": "docs/publication/cover-versions/version-4/Version-4.pdf",
+  "generation": "docs/publication/cover-refined-direction/revision-24-offset-title/GENERATION.json",
+  "dimensions_mm": [
+    185,
+    240
+  ],
+  "image_px": [
+    1101,
+    1429
+  ],
+  "design": "Smaller courgette group at upper right; main title up and left with decorative sprout removed; lower elements visually retained.",
+  "requested_targets": {
+    "upper_art_scale_relative_to_previous": 0.83,
+    "title_up_page_fraction": 0.07,
+    "title_left_page_fraction": 0.07,
+    "remove_title_sprout": true
+  },
+  "precision": "Generated composition study; dimensions and source-pixel preservation are approximate, not production geometry.",
+  "files": {
+    "generated_images/exec-63c2be1e-4bf2-4f7f-bc1e-2098a89dc4e1.png": {
+      "sha256": "7b941413a5784ee4ba110ee92a9a96b1cd7f9763718e7d5c392dc1a09ffbfc56",
+      "bytes": 1819598
+    },
+    "docs/publication/cover-versions/version-4a/Version-4a.png": {
+      "sha256": "7b941413a5784ee4ba110ee92a9a96b1cd7f9763718e7d5c392dc1a09ffbfc56",
+      "bytes": 1819598
+    },
+    "docs/publication/cover-versions/version-4a/Version-4a.pdf": {
+      "sha256": "565c29b4eb6dcfeec0556664f955350a7f53320efd978b6c39cec4d1e3f0d1a1",
+      "bytes": 2811369
+    },
+    "docs/publication/cover-versions/version-4a/Version-4a-review.pdf": {
+      "sha256": "0389aa762658e5a16f7f3301725d4653e52cc7b5f8d8772b1f711afb54a34c4c",
+      "bytes": 14313184
+    },
+    "docs/publication/cover-versions/version-4/Version-4.pdf": {
+      "sha256": "f957dcdadf21a209b8d975544ef4455d5c4448adc1588417f54cd2f4aa2e396f",
+      "bytes": 8674849
+    }
+  }
+}

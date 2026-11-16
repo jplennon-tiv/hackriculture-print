@@ -1,0 +1,78 @@
+{
+  "date": "2026-11-16",
+  "status": "Unnumbered smaller-sticker placement trial awaiting feedback; current position is inset lower-left.",
+  "requests": [
+    "Make it smaller - say two-thirds size, and put it in the bottom right corner.",
+    "Try it towards the bottom left - not fully to the left, leave a bit of a gap."
+  ],
+  "base": "docs/publication/cover-versions/version-6-1/Version-6-1.png",
+  "attempts": [
+    {
+      "name": "First lower-right reduction",
+      "spec": {
+        "referenced_image_paths": [
+          "/Users/johnlennon/Documents/web_site/hackriculture-print/generated_images/exec-6b7f2308-dbb7-40aa-9dbe-a0e45dce0b4e.png",
+          "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/cover-versions/version-6-1/Version-6-1.png",
+          "/Users/johnlennon/Documents/web_site/hackriculture-print/generated_images/exec-80f08576-e40d-49ec-acf9-35b9e80c42d4.png"
+        ],
+        "transparent_background": false,
+        "prompt": "Revise the placement of ONE sticker on this exact book cover. Image 1 is the current cover with a black-and-gold Traditional Measurements sticker directly under the white YouTube sticker. Image 2 is the clean original Version 6-1 cover before that black sticker was added; it supplies the exact background and foliage to restore at the old position. Image 3 is the high-resolution pair of sticker designs; only its LEFT Traditional sticker may be used.\n\nUSER'S PRECISE CHANGE: Reduce the black-and-gold Traditional Measurements sticker to TWO-THIRDS OF ITS CURRENT DIAMETER (linear size 66.7%, approximately 200 pixels diameter instead of 300 on the 1100 x 1430 cover), and MOVE it to the BOTTOM-RIGHT CORNER of the page. Leave approximately 30 pixels of margin to both the right edge and the bottom edge. Target bounding circle x=870..1070, y=1200..1400, centre=(970,1300). It should be noticeably smaller than the unchanged white YouTube sticker, and sit low in the actual bottom-right corner, NOT beneath YouTube near the centre of the page. Keep the entire black circle visible within the page, with a small even edge clearance. Retain its slight clockwise tilt, about 3–4 degrees, and shallow realistic paper shadow.\n\nRemove the black sticker entirely from its OLD position around x=740..1040,y=870..1170. Restore the cream and tomato foliage underneath using Image 2, leaving no remnant, outline, dark patch or ghost. There must be exactly ONE Traditional sticker in the final image, at the new bottom-right position.\n\nThe reduced sticker remains an opaque black-and-gold disc placed ON TOP of the lower-right tomato foliage. No leaf, stem or tomato can pass over its face. Faithfully retain the selected design from the left side of Image 3: gold outer ring, TRADITIONAL curved above, MEASUREMENTS curved below, gold outlined old-fashioned scale weight in the centre enclosing two exact lowercase unit lines 'lb · oz' and 'ft · in'. Scale the whole design together, maintaining its proportions and text. No Metric sticker.\n\nEverything else must stay visually unchanged from Version 6-1: red 100% Organic corner ribbon, cream paper background, upper courgette artwork, green The Vegetable Guru title, two-line subtitle 'Your at-a-glance' / 'growing companion', John Lennon, white As seen on YouTube @hackriculture sticker at its ORIGINAL SIZE and POSITION, and the lower tomato arrangement. No handwritten organic addition, no moved or resized title, author, subtitle or YouTube sticker. Same full flat portrait cover, framing and aspect ratio; no mockup or captions."
+      },
+      "output": "generated_images/exec-b1a4759b-5147-4feb-b983-ca43a8a83142.png",
+      "status": "Retained; generated diameter looked too large, so reduced further."
+    },
+    {
+      "name": "Refined lower-right size",
+      "spec": {
+        "referenced_image_paths": [
+          "/Users/johnlennon/Documents/web_site/hackriculture-print/generated_images/exec-b1a4759b-5147-4feb-b983-ca43a8a83142.png",
+          "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/cover-versions/version-6-1/Version-6-1.png"
+        ],
+        "transparent_background": false,
+        "prompt": "A tiny size correction to image 1. Keep the new black Traditional Measurements sticker in the bottom-right corner, but REDUCE ITS CURRENT DIAMETER BY ANOTHER 17 PERCENT. The current black disc is about 240px wide; it needs to be only 200px wide on this 1100px-wide cover. Thus it must be about TWO-THIRDS the diameter of the WHITE YouTube sticker. Do NOT shrink the YouTube sticker. Please make this size reduction clearly visible.\n\nUse a 200 by 200 pixel bounding square x=870..1070 and y=1200..1400 on the 1100 by1430 cover. That is a right margin of 30px and bottom margin of 30px; black sticker centre x=970,y=1300. Its diameter is about 18% of the entire page width, NOT 22%. Keep all of its printed graphics and text scaled together, the same light clockwise tilt, gold ring, scale-weight symbol, and wording 'TRADITIONAL', 'MEASUREMENTS', 'lb · oz', 'ft · in'. One opaque black circle on top of the green foliage.\n\nRestore the foliage exposed around its reduced size using image 2, which is the same cover before any black sticker was added. Change nothing else whatsoever. Preserve the original cream background, 100% Organic red ribbon, title The Vegetable Guru, courgettes, subtitle, author, tomato arrangement, and WHITE YouTube sticker at exactly the same sizes and positions. Do not add a second black sticker or leave any black/gold remnants outside the smaller circle. Same full flat portrait cover and framing."
+      },
+      "output": "generated_images/exec-790d2625-d75c-4b93-981c-d48843dc40a5.png",
+      "status": "Retained comparison; followed by John's request for lower-left placement."
+    },
+    {
+      "name": "Inset lower-left",
+      "spec": {
+        "referenced_image_paths": [
+          "/Users/johnlennon/Documents/web_site/hackriculture-print/generated_images/exec-790d2625-d75c-4b93-981c-d48843dc40a5.png",
+          "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/cover-versions/version-6-1/Version-6-1.png"
+        ],
+        "transparent_background": false,
+        "prompt": "Move ONLY the small black-and-gold Traditional Measurements sticker on this exact cover. Image 1 is the current full cover, with the already-reduced sticker at bottom right. Image 2 is the clean original Version 6-1 cover without the black sticker, provided ONLY for restoring the background where the sticker is removed.\n\nSlide the existing small black sticker horizontally across to the LOWER LEFT of the page, but NOT tight against the left edge. Leave a generous clear inset of about 100 pixels from the left edge on this 1100 by1430 image (roughly one-half of the sticker's own diameter). Keep its CURRENT REDUCED SIZE, approximately 190–200 pixels across, about two-thirds of the white YouTube sticker. Keep its current vertical level near the bottom, its existing small clockwise tilt and subtle shadow. Target circle bounds about x=100..295, y=1178..1373, centre roughly x=198,y=1275. The gap between sticker and left page edge must be clearly visible, and it must sit entirely within the page with about 55–60 pixels below it. Do not make the sticker larger again, do not move it into the title or cream centre, and do not centre it horizontally. It lies over the large green leaves at bottom left, below the tomatoes at upper left of the lower illustration.\n\nCompletely REMOVE the black sticker from the bottom-right and restore the unobstructed original tomato foliage from image 2. Only ONE black sticker should remain, in the new inset lower-left position. The sticker is opaque and sits ON TOP of the artwork, with no foliage crossing its face. Preserve the existing exact black-and-gold design, gold circle outline, TRADITIONAL upper arc, MEASUREMENTS lower arc, scale-weight outline and two lowercase unit lines 'lb · oz' / 'ft · in'.\n\nPreserve ALL other cover elements unchanged: red top-left 100% Organic ribbon, cream background, The Vegetable Guru title, upper courgettes and leaves, subtitle 'Your at-a-glance' / 'growing companion', John Lennon, original white YouTube sticker at original size and location, and the same lower tomato composition. The ONLY design change is the horizontal relocation of the reduced Traditional sticker, with background restored at its old location. Same complete flat portrait cover and aspect ratio; no extra text or mockup."
+      },
+      "output": "generated_images/exec-1d260333-2dde-4144-be55-bed4d7f055e5.png",
+      "status": "Current preview"
+    }
+  ],
+  "current_output": "generated_images/exec-1d260333-2dde-4144-be55-bed4d7f055e5.png",
+  "review": [
+    "Generated covers visually inspected.",
+    "Current Traditional sticker is substantially smaller than YouTube, approximately two-thirds of the original diameter.",
+    "Current sticker lies on top of the lower-left foliage with a visible gap from the left edge and clearance below.",
+    "Old right-side sticker removed and foliage restored; exactly one Traditional sticker remains.",
+    "Lettering and units retained and readable; other cover elements retained visually, not claimed pixel-exact."
+  ],
+  "preserved": "Saved Version 6-1, prior placement trial, numbered versions, back, book and collection PDF unchanged. No new version number or PDF.",
+  "files": {
+    "docs/publication/cover-versions/version-6-1/Version-6-1.png": {
+      "sha256": "a528ccf669790a8e4a9c96edc22e293f096b2f8d1c8d3bb87445557151fa19da",
+      "bytes": 1906172
+    },
+    "generated_images/exec-b1a4759b-5147-4feb-b983-ca43a8a83142.png": {
+      "sha256": "5473b83e6fe38baa723fd7d7cc8d7498d2da50b500127f58bc98c416fc51da29",
+      "bytes": 1906755
+    },
+    "generated_images/exec-790d2625-d75c-4b93-981c-d48843dc40a5.png": {
+      "sha256": "bd2513241ce9cb883e37d838578ec8c5fba8b050f9c808e1f49be995d8d72aa2",
+      "bytes": 1897147
+    },
+    "generated_images/exec-1d260333-2dde-4144-be55-bed4d7f055e5.png": {
+      "sha256": "b0f37eea2b09bed8109c464f8db053abfc4a78a541364ed034b9c0f0677d5bff",
+      "bytes": 1911288
+    }
+  }
+}
