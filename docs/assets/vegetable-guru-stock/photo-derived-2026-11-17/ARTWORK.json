@@ -1,0 +1,1872 @@
+{
+  "collection": "The Vegetable Guru: 30 photo-derived illustration choices",
+  "created": "2026-11-17",
+  "scope": "Six accepted original masters plus 24 new candidates; no page installation or production approval.",
+  "numbering": "01–04 and 07–08 retained verbatim. 05/06 remain excluded following John’s feedback. New choices are 09–32.",
+  "source_mix": "John’s Photos library, mounted photo/video archives and nine openly licensed online photographs. Native local video frames were used instead of compressed channel copies.",
+  "style": "Direct approved richer-a heroes. Each new illustration starts from its source photo and approved style references, never from a repeated redraw of a page.",
+  "alpha_note": "Transparent original PNG bytes retained. Some near-transparent edge pixels have alpha 1–2; the substantial silhouette is fully contained. Hidden RGB can show a halo in viewers that ignore alpha.",
+  "recreation": "Original source photographs/stills, exact generation requests and style references are retained. Generative reruns are not deterministic; the supplied PNG masters are the exact reusable results.",
+  "assets": [
+    {
+      "id": "01-pepper-harvest",
+      "title": "Pepper harvest",
+      "kind": "Compact harvest group",
+      "asset_path": "assets/01-pepper-harvest.png",
+      "sha256": "1fa48f53efdf528ff31b9d4525ac5d869a83cbe606991df0f8efdde9626cf2d2",
+      "generated_original": "/Users/johnlennon/Documents/web_site/hackriculture-print/generated_images/exec-2580f71e-2e7f-43cd-ac03-b30b7abd6b99.png",
+      "source_id": "PH040",
+      "source_path": "sources/01-pepper-harvest.jpeg",
+      "source_sha256": "3226ef9fcc543e1b5a1edce3eb637af65cabb10636f1ec65fa4519c64cefdf90",
+      "prompt": "Create one standalone botanical illustration for The Vegetable Guru inner pages, not a page layout. The FIRST reference is John's real photograph: use it for the actual vegetable shapes, their asymmetry, angles, overlap and natural composition. References 2 and 3 are the APPROVED BOOK HERO ART and must govern drawing style: bold simplified silhouettes, broad crisp colour and shadow planes, dimensional hand-shaped vector-like botanical drawing, rich natural crop colours, lime and forest greens, tapered cream highlight slashes and occasional rhythmic scalloped highlights, a few major veins only. No fine ink hatching, no watercolour, no pencil, no grain or mottled texture, no photographic skin gloss, no black outline. Ignore and DO NOT reproduce the reference heroes' green/black background haze. Truly transparent PNG background, no glow, no halo, no cast shadow or ground plane, no white backing, no lettering or border. Keep entire silhouette inside canvas with 7% clear padding. Large high resolution. Landscape 3:2 composition. Isolate a loose low harvest group from the photo: the two curved long dark-green chillies at the left and four uneven squat lobed peppers from the centre/right (one red, one orange, two green). Keep their observed irregular lobing, downward/sideways orientations, varied size and slight overlap; arrange as a relaxed shallow arc derived from their positions in the photograph, not a uniform row or decorative symmetry. All stalks should have natural endpoints. Omit the kitchen board, every background object and other peppers. Complete any edges clipped by the photo sparingly. No leaves invented for harvested fruits.",
+      "direct_style_references": [
+        {
+          "original_path": "public/images/heroes/richer-a/pea.png",
+          "retained_path": "style-references/pea.png",
+          "sha256": "72dacd9636ea428ca82761ab5231274b0a72f30f283f17af8c2a463c8be2c6df"
+        },
+        {
+          "original_path": "public/images/heroes/richer-a/beetroot.png",
+          "retained_path": "style-references/beetroot.png",
+          "sha256": "fa7251e6ce9ff76219b147cdff873b6c070e3649ce104c3a3bf9020584529eae"
+        }
+      ],
+      "dimensions_px": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "edge_alpha_max": 1,
+      "solid_bbox_alpha_gt_128": [
+        88,
+        41,
+        1412,
+        984
+      ],
+      "complete_solid_silhouette": true,
+      "max_canvas_mm_at_300dpi": [
+        130.0,
+        86.7
+      ],
+      "intentional_changes": "Six fruits selected from the photograph; varied lobes, colours and angles retained. Background and surplus fruit omitted.",
+      "proposed_use": "A colourful contents header or end-of-section illustration.",
+      "status": "accepted_by_John",
+      "installed_in_book": false,
+      "selection_record": "ACCEPTED-SELECTION.json",
+      "original_collection": "photo-derived-2026-11",
+      "source": {
+        "id": "01-pepper-harvest",
+        "source_id": "PH040",
+        "source_type": "John Photos original",
+        "original_path": "/Users/johnlennon/Pictures/Photos Library.photoslibrary/originals/9/9874712F-6910-4EE1-B607-037CAB1BAF9A.jpeg",
+        "original_filename": "DSC09671.JPG",
+        "photos_uuid": "9874712F-6910-4EE1-B607-037CAB1BAF9A",
+        "captured": "2019-09-22T16:16:35",
+        "retained_path": "sources/01-pepper-harvest.jpeg",
+        "sha256": "3226ef9fcc543e1b5a1edce3eb637af65cabb10636f1ec65fa4519c64cefdf90",
+        "creator": "John Lennon",
+        "rights": "User-owned photograph/video supplied for this project"
+      }
+    },
+    {
+      "id": "02-peas-on-plant",
+      "title": "Peas on the plant",
+      "kind": "Tall plant detail",
+      "asset_path": "assets/02-peas-on-plant.png",
+      "sha256": "241fbf0b8beca62d6050f2f4ea1efbd2a1849e4651bb373d2560fd9209b209bd",
+      "generated_original": "/Users/johnlennon/Documents/web_site/hackriculture-print/generated_images/exec-8b4bb330-37a9-485e-8ac5-5e6e6b584e01.png",
+      "source_id": "P02",
+      "source_path": "sources/02-peas-on-plant.png",
+      "source_sha256": "6b7716bbef0d756d5580425b0321af618cd480272d2943571cb3e960f0e297ef",
+      "prompt": "Create one standalone botanical illustration for The Vegetable Guru inner pages, not a page layout. The FIRST reference is John's real photograph: use it for the actual vegetable shapes, their asymmetry, angles, overlap and natural composition. References 2 and 3 are the APPROVED BOOK HERO ART and must govern drawing style: bold simplified silhouettes, broad crisp colour and shadow planes, dimensional hand-shaped vector-like botanical drawing, rich natural crop colours, lime and forest greens, tapered cream highlight slashes and occasional rhythmic scalloped highlights, a few major veins only. No fine ink hatching, no watercolour, no pencil, no grain or mottled texture, no photographic skin gloss, no black outline. Ignore and DO NOT reproduce the reference heroes' green/black background haze. Truly transparent PNG background, no glow, no halo, no cast shadow or ground plane, no white backing, no lettering or border. Keep entire silhouette inside canvas with 7% clear padding. Large high resolution. Portrait 2:3 composition. Isolate the central pea stem with the prominent long slightly curved closed pea pod facing downward, a shorter pod to its left and the slimmer pod on its lower right, exactly as the photograph suggests. Keep these recognisably peas rather than beans, with pea stipules/rounded leaflets, connected branching stems and two short relaxed tendrils. Show five or six simplified leaves at uneven angles framing but not hiding the three edible pods. Do NOT copy the open pod from the style example: keep the photo's closed pods. Omit bamboo stakes, green plastic net, garden scene and unrelated background plants. The plant cutting must end naturally behind its lowest leaf, without a free cut stem floating below. Clear open silhouette, no tangled mass.",
+      "direct_style_references": [
+        {
+          "original_path": "public/images/heroes/richer-a/pea.png",
+          "retained_path": "style-references/pea.png",
+          "sha256": "72dacd9636ea428ca82761ab5231274b0a72f30f283f17af8c2a463c8be2c6df"
+        },
+        {
+          "original_path": "public/images/heroes/richer-a/beetroot.png",
+          "retained_path": "style-references/beetroot.png",
+          "sha256": "fa7251e6ce9ff76219b147cdff873b6c070e3649ce104c3a3bf9020584529eae"
+        }
+      ],
+      "dimensions_px": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "edge_alpha_max": 1,
+      "solid_bbox_alpha_gt_128": [
+        74,
+        19,
+        990,
+        1493
+      ],
+      "complete_solid_silhouette": true,
+      "max_canvas_mm_at_300dpi": [
+        86.7,
+        130.0
+      ],
+      "intentional_changes": "Three closed pods and their branching plant selected from the central video frame. Netting and supports omitted; foliage simplified.",
+      "proposed_use": "A narrow title-page or margin illustration.",
+      "status": "accepted_by_John",
+      "installed_in_book": false,
+      "selection_record": "ACCEPTED-SELECTION.json",
+      "original_collection": "photo-derived-2026-11",
+      "source": {
+        "id": "02-peas-on-plant",
+        "source_id": "P02",
+        "source_type": "John video still",
+        "original_path": "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/summer-cover-photo-search/selected-stills/P02-peas-on-the-plant.png",
+        "original_filename": "P02-peas-on-the-plant.png",
+        "source_note": "Video still: DJI_20260628145752_0049_D.MP4, 10 seconds",
+        "retained_path": "sources/02-peas-on-plant.png",
+        "sha256": "6b7716bbef0d756d5580425b0321af618cd480272d2943571cb3e960f0e297ef",
+        "original_video_path": "/Volumes/Videos/Movies/June 2026/June at the allotment/DJI_20260628145752_0049_D.MP4",
+        "timestamp_seconds": 10,
+        "creator": "John Lennon",
+        "rights": "User-owned photograph/video supplied for this project"
+      }
+    },
+    {
+      "id": "03-onions",
+      "title": "Onion harvest",
+      "kind": "Upright harvest group",
+      "asset_path": "assets/03-onions.png",
+      "sha256": "ee1b2e8e81ade1b830a67b8fbf6d6b9c62f21e201a271cf304d4056077c708b7",
+      "generated_original": "/Users/johnlennon/Documents/web_site/hackriculture-print/generated_images/exec-f663ac44-bbd8-442c-a1db-757654eefd61.png",
+      "source_id": "PH015",
+      "source_path": "sources/03-onions.jpeg",
+      "source_sha256": "c9e713039fe1c592a1f83633fc4dc8e26d02b863a3807b78d21dfdfa8d89a47f",
+      "prompt": "Create one standalone botanical illustration for The Vegetable Guru inner pages, not a page layout. The FIRST reference is John's real photograph: use it for the actual vegetable shapes, their asymmetry, angles, overlap and natural composition. References 2 and 3 are the APPROVED BOOK HERO ART and must govern drawing style: bold simplified silhouettes, broad crisp colour and shadow planes, dimensional hand-shaped vector-like botanical drawing, rich natural crop colours, lime and forest greens, tapered cream highlight slashes and occasional rhythmic scalloped highlights, a few major veins only. No fine ink hatching, no watercolour, no pencil, no grain or mottled texture, no photographic skin gloss, no black outline. Ignore and DO NOT reproduce the reference heroes' green/black background haze. Truly transparent PNG background, no glow, no halo, no cast shadow or ground plane, no white backing, no lettering or border. Keep entire silhouette inside canvas with 7% clear padding. Large high resolution. Portrait 2:3 composition, a small three-onion harvest group. Select three uneven golden onions from the left foreground of the source photograph. Retain their different sizes, slight lean and naturally bent green-grey necks flopping up and back in different directions. Show just a few broad ribbon-like tops, not the whole tangle. Golden papery skins in discrete warm ochre planes, cream highlight slashes, sparse short root tufts of 4-5 confident strokes each. Keep bulbs and top leaves fully within canvas. Omit all other onions, chickenwire, table, boat, lawn and scenery. No ground shadow; airy asymmetrical composition.",
+      "direct_style_references": [
+        {
+          "original_path": "public/images/heroes/richer-a/garlic.png",
+          "retained_path": "style-references/garlic.png",
+          "sha256": "f30d3e308b5412105fb3d6ba85ca93e732d20e9f8adb61cf906268b5f1618364"
+        },
+        {
+          "original_path": "public/images/heroes/richer-a/beetroot.png",
+          "retained_path": "style-references/beetroot.png",
+          "sha256": "fa7251e6ce9ff76219b147cdff873b6c070e3649ce104c3a3bf9020584529eae"
+        }
+      ],
+      "dimensions_px": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "edge_alpha_max": 1,
+      "solid_bbox_alpha_gt_128": [
+        25,
+        80,
+        981,
+        1461
+      ],
+      "complete_solid_silhouette": true,
+      "max_canvas_mm_at_300dpi": [
+        86.7,
+        130.0
+      ],
+      "intentional_changes": "Three bulbs selected from the drying harvest. Bulbs, bent tops and roots simplified; the rack and other onions omitted.",
+      "proposed_use": "A title-page companion or taller section detail.",
+      "status": "accepted_by_John",
+      "installed_in_book": false,
+      "selection_record": "ACCEPTED-SELECTION.json",
+      "original_collection": "photo-derived-2026-11",
+      "source": {
+        "id": "03-onions",
+        "source_id": "PH015",
+        "source_type": "John Photos original",
+        "original_path": "/Users/johnlennon/Pictures/Photos Library.photoslibrary/originals/9/910224E3-811F-4ADA-A8C0-5EA31DA05BE2.jpeg",
+        "original_filename": "DSC08507.JPG",
+        "photos_uuid": "910224E3-811F-4ADA-A8C0-5EA31DA05BE2",
+        "captured": "2018-07-22T08:55:15",
+        "retained_path": "sources/03-onions.jpeg",
+        "sha256": "c9e713039fe1c592a1f83633fc4dc8e26d02b863a3807b78d21dfdfa8d89a47f",
+        "creator": "John Lennon",
+        "rights": "User-owned photograph/video supplied for this project"
+      }
+    },
+    {
+      "id": "04-cabbage",
+      "title": "Cabbage in leaf",
+      "kind": "Single leafy plant",
+      "asset_path": "assets/04-cabbage.png",
+      "sha256": "482ba5a9a0e9e7b19a649e716303d1cb3410a0e4e84785cc3b1f00fbd968fa0c",
+      "generated_original": "/Users/johnlennon/Documents/web_site/hackriculture-print/generated_images/exec-40c0bf75-6ba1-4abe-ab72-1b5f4992d404.png",
+      "source_id": "S011-27.177",
+      "source_path": "sources/04-cabbage-video.png",
+      "source_sha256": "a17b5099b9e729439a5f5965440f0ded7db51c9d376bdd2b468c89e1a31d7659",
+      "prompt": "Create one standalone botanical illustration for The Vegetable Guru inner pages, not a page layout. The FIRST reference is John's real photograph: use it for the actual vegetable shapes, their asymmetry, angles, overlap and natural composition. References 2 and 3 are the APPROVED BOOK HERO ART and must govern drawing style: bold simplified silhouettes, broad crisp colour and shadow planes, dimensional hand-shaped vector-like botanical drawing, rich natural crop colours, lime and forest greens, tapered cream highlight slashes and occasional rhythmic scalloped highlights, a few major veins only. No fine ink hatching, no watercolour, no pencil, no grain or mottled texture, no photographic skin gloss, no black outline. Ignore and DO NOT reproduce the reference heroes' green/black background haze. Truly transparent PNG background, no glow, no halo, no cast shadow or ground plane, no white backing, no lettering or border. Keep entire silhouette inside canvas with 7% clear padding. Large high resolution. Square composition, a single GREEN cabbage plant extracted from the centre-left of the photograph. Preserve its irregular turning folds: the partially cupped pale green centre, upright rolled outer leaf at left, wide foreground leaf folding towards the right, and broad low wrapper leaves. Only the major midribs and 2-3 branch veins on each leaf. Simplify all surface detail into broad green planes like the style cabbage. Use the reference photograph's green colours, no purple cabbage and no extra second head. Remove bottles, mesh, all soil, insect marks and other plants. Complete obscured outer tips sparingly; full leafy silhouette contained on transparency with padding, no horizon or hard crop.",
+      "direct_style_references": [
+        {
+          "original_path": "public/images/heroes/richer-a/cabbage.png",
+          "retained_path": "style-references/cabbage.png",
+          "sha256": "99b901ebff5e1b4d1dba063cef707a8f791452fc4e5fdf14180a878aba27d7ff"
+        },
+        {
+          "original_path": "public/images/heroes/richer-a/pea.png",
+          "retained_path": "style-references/pea.png",
+          "sha256": "72dacd9636ea428ca82761ab5231274b0a72f30f283f17af8c2a463c8be2c6df"
+        }
+      ],
+      "dimensions_px": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "edge_alpha_max": 1,
+      "solid_bbox_alpha_gt_128": [
+        52,
+        95,
+        1210,
+        1183
+      ],
+      "complete_solid_silhouette": true,
+      "max_canvas_mm_at_300dpi": [
+        106.2,
+        106.2
+      ],
+      "intentional_changes": "Folded leaves derived from the original video frame. Bottles, fleece and soil omitted; leaf veins simplified and obscured tips completed.",
+      "proposed_use": "A compact corner image or leafy section opener.",
+      "status": "accepted_by_John",
+      "installed_in_book": false,
+      "selection_record": "ACCEPTED-SELECTION.json",
+      "original_collection": "photo-derived-2026-11",
+      "source": {
+        "id": "04-cabbage",
+        "source_id": "S011-27.177",
+        "source_type": "John video still",
+        "original_path": "/Volumes/Videos/Movies/July 2026/Heatwave/DJI_20260712125617_0068_D.MP4",
+        "original_filename": "DJI_20260712125617_0068_D.MP4",
+        "timestamp_seconds": 27.177,
+        "retained_path": "sources/04-cabbage-video.png",
+        "sha256": "a17b5099b9e729439a5f5965440f0ded7db51c9d376bdd2b468c89e1a31d7659",
+        "source_note": "Native 3840x2160 frame retained by the earlier cover search.",
+        "creator": "John Lennon",
+        "rights": "User-owned photograph/video supplied for this project"
+      }
+    },
+    {
+      "id": "07-garlic-pair",
+      "title": "Elephant garlic pair",
+      "kind": "Compact bulb pair",
+      "asset_path": "assets/07-garlic-pair.png",
+      "sha256": "18f66096b430e04b1cee814f64ddb40e39fc92b7ae579b291fdc92d0994abfe1",
+      "generated_original": "/Users/johnlennon/Documents/web_site/hackriculture-print/generated_images/exec-d772d250-c4cb-44c6-878c-ba5aa207e9a0.png",
+      "source_id": "L037",
+      "source_path": "sources/07-garlic-pair.jpeg",
+      "source_sha256": "10bf97380197e1d8a10eab585a32e572277dc6e600fd7f0d75f2b2ecedad141f",
+      "prompt": "Create one standalone botanical illustration for The Vegetable Guru inner pages, not a page layout. The FIRST reference is John's real photograph: use it for the actual vegetable shapes, their asymmetry, angles, overlap and natural composition. References 2 and 3 are the APPROVED BOOK HERO ART and must govern drawing style: bold simplified silhouettes, broad crisp colour and shadow planes, dimensional hand-shaped vector-like botanical drawing, rich natural crop colours, lime and forest greens, tapered cream highlight slashes and occasional rhythmic scalloped highlights, a few major veins only. No fine ink hatching, no watercolour, no pencil, no grain or mottled texture, no photographic skin gloss, no black outline. Ignore and DO NOT reproduce the reference heroes' green/black background haze. Truly transparent PNG background, no glow, no halo, no cast shadow or ground plane, no white backing, no lettering or border. Keep entire silhouette inside canvas with 7% clear padding. Large high resolution. Square composition. Exactly TWO elephant-garlic bulbs in the diagonal observed in the source: the partly opened bulb at upper left with three broad tan cloves exposed in torn cream papery wrapper; intact rounded cream bulb lower right turned with its brown root plate facing up/back. Preserve source rotation, uneven proportions and gently overlapping diagonal arrangement. Style palette warm cream, straw and muted pale mauve, not strongly purple. Root tufts reduced to a few bold curved strokes, wrapper folds broad angular cream shapes, no fine hair, wrinkles or grain. No extra cloves, no foliage, no board, no cast shadows. Complete silhouettes with generous transparent margin.",
+      "direct_style_references": [
+        {
+          "original_path": "public/images/heroes/richer-a/garlic.png",
+          "retained_path": "style-references/garlic.png",
+          "sha256": "f30d3e308b5412105fb3d6ba85ca93e732d20e9f8adb61cf906268b5f1618364"
+        },
+        {
+          "original_path": "public/images/heroes/richer-a/beetroot.png",
+          "retained_path": "style-references/beetroot.png",
+          "sha256": "fa7251e6ce9ff76219b147cdff873b6c070e3649ce104c3a3bf9020584529eae"
+        }
+      ],
+      "dimensions_px": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "edge_alpha_max": 1,
+      "solid_bbox_alpha_gt_128": [
+        41,
+        36,
+        1165,
+        1218
+      ],
+      "complete_solid_silhouette": true,
+      "max_canvas_mm_at_300dpi": [
+        106.2,
+        106.2
+      ],
+      "intentional_changes": "The opened and intact bulbs retain the photo diagonal. Wood omitted; wrappers and roots translated into broad drawing shapes.",
+      "proposed_use": "A small title-page detail or corner illustration.",
+      "status": "accepted_by_John",
+      "installed_in_book": false,
+      "selection_record": "ACCEPTED-SELECTION.json",
+      "original_collection": "photo-derived-2026-11",
+      "source": {
+        "id": "07-garlic-pair",
+        "source_id": "L037",
+        "source_type": "John drive photo",
+        "original_path": "/Volumes/Videos/Movies/DJI Videos/Photographs/Allotment/DSC09815.jpeg",
+        "original_filename": "DSC09815.jpeg",
+        "source_note": "John original photograph",
+        "retained_path": "sources/07-garlic-pair.jpeg",
+        "sha256": "10bf97380197e1d8a10eab585a32e572277dc6e600fd7f0d75f2b2ecedad141f",
+        "creator": "John Lennon",
+        "rights": "User-owned photograph/video supplied for this project"
+      }
+    },
+    {
+      "id": "08-chilli-plant",
+      "title": "Chilli plant in a pot",
+      "kind": "Tall container plant",
+      "asset_path": "assets/08-chilli-plant.png",
+      "sha256": "8c2c8c4954d7e444f71151172a419abc269a206317bd30bca94c2145e3b5265f",
+      "generated_original": "/Users/johnlennon/Documents/web_site/hackriculture-print/generated_images/exec-aa09152c-6830-47d0-be94-292747566d28.png",
+      "source_id": "PH164",
+      "source_path": "sources/08-chilli-plant.jpeg",
+      "source_sha256": "ae5cd8ca093071c5057d661391172fef8e7a3a216d838823ebb2cbeac009a1ea",
+      "prompt": "Create one standalone botanical illustration for The Vegetable Guru inner pages, not a page layout. The FIRST reference is John's real photograph: use it for the actual vegetable shapes, their asymmetry, angles, overlap and natural composition. References 2 and 3 are the APPROVED BOOK HERO ART and must govern drawing style: bold simplified silhouettes, broad crisp colour and shadow planes, dimensional hand-shaped vector-like botanical drawing, rich natural crop colours, lime and forest greens, tapered cream highlight slashes and occasional rhythmic scalloped highlights, a few major veins only. No fine ink hatching, no watercolour, no pencil, no grain or mottled texture, no photographic skin gloss, no black outline. Ignore and DO NOT reproduce the reference heroes' green/black background haze. Truly transparent PNG background, no glow, no halo, no cast shadow or ground plane, no white backing, no lettering or border. Keep entire silhouette inside canvas with 7% clear padding. Large high resolution. Portrait 2:3 composition. Extract ONLY the taller plant and its reddish-brown pot on the RIGHT of the photo. Preserve its branching airy asymmetry, stem leaning slightly right and irregular hanging long pale green chilli fruits. Simplify to 8 clearly attached elongated green chillies of unequal sizes/angles and a modest set of pointed leaves; retain one small red chilli amongst green ones as seen in the photo. Keep recognisable woody main stem, branching stems attached, lower stem growing into dark soil inside a complete terracotta-coloured nursery pot. Draw pot in the same broad three-plane style, a simple thick rim, no labels or branding. No other plant, greenhouse, lawn, fence, stake, cast shadow or background. Important: airy readable gaps between leaves, the edible fruit must stand out, entire pot and top leaf inside canvas with 8% padding.",
+      "direct_style_references": [
+        {
+          "original_path": "public/images/heroes/richer-a/pea.png",
+          "retained_path": "style-references/pea.png",
+          "sha256": "72dacd9636ea428ca82761ab5231274b0a72f30f283f17af8c2a463c8be2c6df"
+        },
+        {
+          "original_path": "public/images/heroes/richer-a/beetroot.png",
+          "retained_path": "style-references/beetroot.png",
+          "sha256": "fa7251e6ce9ff76219b147cdff873b6c070e3649ce104c3a3bf9020584529eae"
+        }
+      ],
+      "dimensions_px": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "edge_alpha_max": 1,
+      "solid_bbox_alpha_gt_128": [
+        29,
+        23,
+        991,
+        1512
+      ],
+      "complete_solid_silhouette": true,
+      "max_canvas_mm_at_300dpi": [
+        86.7,
+        130.0
+      ],
+      "intentional_changes": "The taller right-hand plant selected. Fruit, branching and pot simplified; the other plant, labels and greenhouse omitted.",
+      "proposed_use": "A vertical growing-techniques or container-growing illustration.",
+      "status": "accepted_by_John",
+      "installed_in_book": false,
+      "selection_record": "ACCEPTED-SELECTION.json",
+      "original_collection": "photo-derived-2026-11",
+      "source": {
+        "id": "08-chilli-plant",
+        "source_id": "PH164",
+        "source_type": "John Photos original",
+        "original_path": "/Users/johnlennon/Pictures/Photos Library.photoslibrary/originals/6/609D35B3-9888-4F05-9136-F69A88690CDC.jpeg",
+        "original_filename": "DSC02371.JPG",
+        "photos_uuid": "609D35B3-9888-4F05-9136-F69A88690CDC",
+        "captured": "2024-08-28T16:48:13",
+        "retained_path": "sources/08-chilli-plant.jpeg",
+        "sha256": "ae5cd8ca093071c5057d661391172fef8e7a3a216d838823ebb2cbeac009a1ea",
+        "creator": "John Lennon",
+        "rights": "User-owned photograph/video supplied for this project"
+      }
+    },
+    {
+      "id": "09-plum-tomato-truss",
+      "title": "Plum tomato truss",
+      "kind": "Tall fruiting stem",
+      "asset_path": "assets/09-plum-tomato-truss.png",
+      "generated_original": "/Users/johnlennon/Documents/web_site/hackriculture-print/generated_images/exec-91cd5239-090f-42fe-a687-3acc4aa740d8.png",
+      "generation_job_id": "09-plum-tomato-truss",
+      "source_id": "L022",
+      "source_path": "sources/L022-plum-tomatoes.jpeg",
+      "source_sha256": "a05fd452df6d203475027a3ef6147588683d09ce8a292eca7b766e185b11bd58",
+      "source": {
+        "source_id": "L022",
+        "subject": "plum-tomatoes",
+        "original_path": "/Volumes/Videos/Movies/DJI Videos/Photographs/Allotment/DSC00294.jpeg",
+        "original_filename": "DSC00294.jpeg",
+        "retained_path": "sources/L022-plum-tomatoes.jpeg",
+        "sha256": "a05fd452df6d203475027a3ef6147588683d09ce8a292eca7b766e185b11bd58",
+        "creator": "John Lennon",
+        "rights": "User-owned photograph; supplied for this project",
+        "source_kind": "Mounted video/photo archive"
+      },
+      "prompt": "Create ONE standalone botanical illustration for The Vegetable Guru inner pages, not a page layout. The FIRST reference is a real photograph: use it for the vegetable shapes, asymmetry, angles, overlap and natural composition. References 2 and 3 are APPROVED BOOK HERO ART and must govern drawing style: bold simplified silhouettes, broad crisp colour and shadow planes, dimensional hand-shaped vector-like botanical drawing, rich natural crop colours, lime and forest greens, tapered cream highlight slashes and occasional rhythmic scalloped highlights, a few major veins only. No fine ink hatching, no watercolour, no pencil, no grain or mottled texture, no photographic skin gloss, no black outline. Ignore and DO NOT reproduce the reference heroes' green/black background haze. Genuinely transparent PNG background, no glow, no halo, no cast shadow or ground plane, no white backing, no lettering or border. Keep the entire silhouette inside the canvas with 7% clear padding. Large high resolution. Portrait illustration: isolate one of the photograph's hanging trusses of LONG PLUM TOMATOES: five or six irregular elongated fruits in varied green, orange and red stages on the same naturally branched stem, with three or four of the adjacent tomato leaves. Preserve drooping angles and uneven overlap; do not turn the fruit into identical round tomatoes. Omit all greenhouse, support canes, wires, pots and distant plants. A graceful tapering botanical fragment suitable beside a column of text.",
+      "direct_style_references": [
+        {
+          "original_path": "public/images/heroes/richer-a/tomato-greenhouse.png",
+          "retained_path": "style-references/tomato-greenhouse.png",
+          "sha256": "5e3cd5a884582bd13d74cde606c69c2cd9513cd36fa6845833da469ff3a3c3d7"
+        },
+        {
+          "original_path": "public/images/heroes/richer-a/bean_french.png",
+          "retained_path": "style-references/bean_french.png",
+          "sha256": "8f00499fd49d4931b805cef1b02e10f2fb3ded60dc02bbdad432c82037674d19"
+        }
+      ],
+      "intentional_changes": "One truss selected; background omitted and leaves simplified.",
+      "proposed_use": "A narrow opening-page or margin illustration.",
+      "status": "candidate_for_John_review",
+      "installed_in_book": false,
+      "sha256": "e0c154faca1564c997c38c8248f4d3c07d4a5dc404a4a4fcc83d052517e4d7ea",
+      "dimensions_px": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "edge_alpha_max": 1,
+      "solid_bbox_alpha_gt_128": [
+        82,
+        72,
+        943,
+        1464
+      ],
+      "complete_solid_silhouette": true,
+      "max_canvas_mm_at_300dpi": [
+        86.7,
+        130.0
+      ]
+    },
+    {
+      "id": "10-broad-bean-pods",
+      "title": "Broad bean pods",
+      "kind": "Plant detail",
+      "asset_path": "assets/10-broad-bean-pods.png",
+      "generated_original": "/Users/johnlennon/Documents/web_site/hackriculture-print/generated_images/exec-5685cbef-2d97-4da4-91ab-c691bfa06760.png",
+      "generation_job_id": "10-broad-bean-pods",
+      "source_id": "L030",
+      "source_path": "sources/L030-broad-bean-pods.jpeg",
+      "source_sha256": "9cf5beaafa74c75c8ccafbb51cd7871007a521ec3cb6222b6a01908c458fe452",
+      "source": {
+        "source_id": "L030",
+        "subject": "broad-bean-pods",
+        "original_path": "/Volumes/Videos/Movies/DJI Videos/Photographs/Allotment/DSC08357.jpeg",
+        "original_filename": "DSC08357.jpeg",
+        "retained_path": "sources/L030-broad-bean-pods.jpeg",
+        "sha256": "9cf5beaafa74c75c8ccafbb51cd7871007a521ec3cb6222b6a01908c458fe452",
+        "creator": "John Lennon",
+        "rights": "User-owned photograph; supplied for this project",
+        "source_kind": "Mounted video/photo archive"
+      },
+      "prompt": "Create ONE standalone botanical illustration for The Vegetable Guru inner pages, not a page layout. The FIRST reference is a real photograph: use it for the vegetable shapes, asymmetry, angles, overlap and natural composition. References 2 and 3 are APPROVED BOOK HERO ART and must govern drawing style: bold simplified silhouettes, broad crisp colour and shadow planes, dimensional hand-shaped vector-like botanical drawing, rich natural crop colours, lime and forest greens, tapered cream highlight slashes and occasional rhythmic scalloped highlights, a few major veins only. No fine ink hatching, no watercolour, no pencil, no grain or mottled texture, no photographic skin gloss, no black outline. Ignore and DO NOT reproduce the reference heroes' green/black background haze. Genuinely transparent PNG background, no glow, no halo, no cast shadow or ground plane, no white backing, no lettering or border. Keep the entire silhouette inside the canvas with 7% clear padding. Large high resolution. Portrait 2:3. Isolate the FOREGROUND RIGHT broad-bean stem and its four or five thick pods projecting at their actual different angles from successive nodes. Keep the asymmetrical sideward and downward curves and a few paired oval leaves. Show each pod connected plausibly to the upright thick stem. Omit support canes, distant crop, damaged leaf spots and background. Not climbing French beans: preserve broad-bean's stout stem, short fleshy pods and rounded leaves. Let the stem end cleanly beneath the lowest pod.",
+      "direct_style_references": [
+        {
+          "original_path": "public/images/heroes/richer-a/bean_french.png",
+          "retained_path": "style-references/bean_french.png",
+          "sha256": "8f00499fd49d4931b805cef1b02e10f2fb3ded60dc02bbdad432c82037674d19"
+        },
+        {
+          "original_path": "public/images/heroes/richer-a/beet_leaf.png",
+          "retained_path": "style-references/beet_leaf.png",
+          "sha256": "8dea29348b4bd311bd0057aad2bc795c857d0e9bbd688c08005998c2859c9e8e"
+        }
+      ],
+      "intentional_changes": "A branching group of pods selected; fine hairs and surplus foliage omitted.",
+      "proposed_use": "A tall section-opening detail.",
+      "status": "candidate_for_John_review",
+      "installed_in_book": false,
+      "sha256": "5fcbde6b96ba97f4ee0d32dbec582d18047508cbd666db6bd7311d37ab061556",
+      "dimensions_px": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "edge_alpha_max": 1,
+      "solid_bbox_alpha_gt_128": [
+        64,
+        60,
+        940,
+        1480
+      ],
+      "complete_solid_silhouette": true,
+      "max_canvas_mm_at_300dpi": [
+        86.7,
+        130.0
+      ]
+    },
+    {
+      "id": "11-green-lettuce",
+      "title": "Green lettuce",
+      "kind": "Single leafy plant",
+      "asset_path": "assets/11-green-lettuce.png",
+      "generated_original": "/Users/johnlennon/Documents/web_site/hackriculture-print/generated_images/exec-ed7c168e-c2ba-422a-968e-05a4293d981f.png",
+      "generation_job_id": "11-green-lettuce",
+      "source_id": "L023",
+      "source_path": "sources/L023-lettuces.jpeg",
+      "source_sha256": "94c10a93312b218a30ff9cd9f6179c8fec700e78e83e7fe9a4a993ebf1f7151a",
+      "source": {
+        "source_id": "L023",
+        "subject": "lettuces",
+        "original_path": "/Volumes/Videos/Movies/DJI Videos/Photographs/Allotment/DSC02012.jpeg",
+        "original_filename": "DSC02012.jpeg",
+        "retained_path": "sources/L023-lettuces.jpeg",
+        "sha256": "94c10a93312b218a30ff9cd9f6179c8fec700e78e83e7fe9a4a993ebf1f7151a",
+        "creator": "John Lennon",
+        "rights": "User-owned photograph; supplied for this project",
+        "source_kind": "Mounted video/photo archive"
+      },
+      "prompt": "Create ONE standalone botanical illustration for The Vegetable Guru inner pages, not a page layout. The FIRST reference is a real photograph: use it for the vegetable shapes, asymmetry, angles, overlap and natural composition. References 2 and 3 are APPROVED BOOK HERO ART and must govern drawing style: bold simplified silhouettes, broad crisp colour and shadow planes, dimensional hand-shaped vector-like botanical drawing, rich natural crop colours, lime and forest greens, tapered cream highlight slashes and occasional rhythmic scalloped highlights, a few major veins only. No fine ink hatching, no watercolour, no pencil, no grain or mottled texture, no photographic skin gloss, no black outline. Ignore and DO NOT reproduce the reference heroes' green/black background haze. Genuinely transparent PNG background, no glow, no halo, no cast shadow or ground plane, no white backing, no lettering or border. Keep the entire silhouette inside the canvas with 7% clear padding. Large high resolution. Square canvas. Isolate the closest light-green looseleaf LETTUCE head from the foreground right of the photo, viewed obliquely from above. Preserve its uneven rosette with folded central leaves and a broad low silhouette; simplify complex ruffles to bold scalloped planes. One intact plant, no roots, soil, bed edges or other crops. Do not turn it into cabbage. Natural leaf overlap rather than symmetrical fan.",
+      "direct_style_references": [
+        {
+          "original_path": "public/images/heroes/richer-a/lettuce.png",
+          "retained_path": "style-references/lettuce.png",
+          "sha256": "8209a032a6042b448b4e6b56b7ee1cc66bad78f9855c21fb170a45e14b66880a"
+        },
+        {
+          "original_path": "public/images/heroes/richer-a/beet_leaf.png",
+          "retained_path": "style-references/beet_leaf.png",
+          "sha256": "8dea29348b4bd311bd0057aad2bc795c857d0e9bbd688c08005998c2859c9e8e"
+        }
+      ],
+      "intentional_changes": "The green head selected from a photograph containing several lettuces.",
+      "proposed_use": "A compact corner or small introductory illustration.",
+      "status": "candidate_for_John_review",
+      "installed_in_book": false,
+      "sha256": "7ed55bc9bb79d2cc88ea1c691b9ac3e472b233bfe156de697a924dc4d777d370",
+      "dimensions_px": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "edge_alpha_max": 1,
+      "solid_bbox_alpha_gt_128": [
+        40,
+        105,
+        1220,
+        1154
+      ],
+      "complete_solid_silhouette": true,
+      "max_canvas_mm_at_300dpi": [
+        106.2,
+        106.2
+      ]
+    },
+    {
+      "id": "12-red-lettuce",
+      "title": "Red lettuce",
+      "kind": "Single leafy plant",
+      "asset_path": "assets/12-red-lettuce.png",
+      "generated_original": "/Users/johnlennon/Documents/web_site/hackriculture-print/generated_images/exec-c3192626-4b60-4f37-8bc5-e85a00242ea2.png",
+      "generation_job_id": "12-red-lettuce",
+      "source_id": "L023",
+      "source_path": "sources/L023-lettuces.jpeg",
+      "source_sha256": "94c10a93312b218a30ff9cd9f6179c8fec700e78e83e7fe9a4a993ebf1f7151a",
+      "source": {
+        "source_id": "L023",
+        "subject": "lettuces",
+        "original_path": "/Volumes/Videos/Movies/DJI Videos/Photographs/Allotment/DSC02012.jpeg",
+        "original_filename": "DSC02012.jpeg",
+        "retained_path": "sources/L023-lettuces.jpeg",
+        "sha256": "94c10a93312b218a30ff9cd9f6179c8fec700e78e83e7fe9a4a993ebf1f7151a",
+        "creator": "John Lennon",
+        "rights": "User-owned photograph; supplied for this project",
+        "source_kind": "Mounted video/photo archive"
+      },
+      "prompt": "Create ONE standalone botanical illustration for The Vegetable Guru inner pages, not a page layout. The FIRST reference is a real photograph: use it for the vegetable shapes, asymmetry, angles, overlap and natural composition. References 2 and 3 are APPROVED BOOK HERO ART and must govern drawing style: bold simplified silhouettes, broad crisp colour and shadow planes, dimensional hand-shaped vector-like botanical drawing, rich natural crop colours, lime and forest greens, tapered cream highlight slashes and occasional rhythmic scalloped highlights, a few major veins only. No fine ink hatching, no watercolour, no pencil, no grain or mottled texture, no photographic skin gloss, no black outline. Ignore and DO NOT reproduce the reference heroes' green/black background haze. Genuinely transparent PNG background, no glow, no halo, no cast shadow or ground plane, no white backing, no lettering or border. Keep the entire silhouette inside the canvas with 7% clear padding. Large high resolution. Square canvas. Isolate the closest burgundy-red looseleaf LETTUCE head at the LEFT foreground of the photo. Keep its irregular spreading shape, bronze/burgundy outer leaves and green heart, naturally staggered and curled lobes. One intact head, no roots, soil, bed edges or other crops. Use large crisp leaf planes and just the main ribs, not a finely textured botanical engraving.",
+      "direct_style_references": [
+        {
+          "original_path": "public/images/heroes/richer-a/lettuce.png",
+          "retained_path": "style-references/lettuce.png",
+          "sha256": "8209a032a6042b448b4e6b56b7ee1cc66bad78f9855c21fb170a45e14b66880a"
+        },
+        {
+          "original_path": "public/images/heroes/richer-a/beet_leaf.png",
+          "retained_path": "style-references/beet_leaf.png",
+          "sha256": "8dea29348b4bd311bd0057aad2bc795c857d0e9bbd688c08005998c2859c9e8e"
+        }
+      ],
+      "intentional_changes": "The red head selected from the same photograph; broad folds simplified.",
+      "proposed_use": "A contrasting leafy corner or end-of-section image.",
+      "status": "candidate_for_John_review",
+      "installed_in_book": false,
+      "sha256": "0c72cb75acaac0ce8493f55600c457352f20f39985c284ba9c42706586a4aaf6",
+      "dimensions_px": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "edge_alpha_max": 0,
+      "solid_bbox_alpha_gt_128": [
+        44,
+        90,
+        1212,
+        1165
+      ],
+      "complete_solid_silhouette": true,
+      "max_canvas_mm_at_300dpi": [
+        106.2,
+        106.2
+      ]
+    },
+    {
+      "id": "13-courgette-plant",
+      "title": "Courgette on the plant",
+      "kind": "Low plant detail",
+      "asset_path": "assets/13-courgette-plant.png",
+      "generated_original": "/Users/johnlennon/Documents/web_site/hackriculture-print/generated_images/exec-9da95632-101c-4f72-8e71-d6028063c59f.png",
+      "generation_job_id": "13-courgette-plant",
+      "source_id": "X326",
+      "source_path": "sources/X326-courgette-plant.jpeg",
+      "source_sha256": "83f754e1be1072d608e369c20f84276a24ac7136f2c1be82eecc2406014e0e0f",
+      "source": {
+        "source_id": "X326",
+        "subject": "courgette-plant",
+        "original_path": "/Users/johnlennon/Pictures/Photos Library.photoslibrary/originals/7/793488A5-DA2D-4296-BB50-2410B8344B48.jpeg",
+        "original_filename": "DSC02237.JPG",
+        "retained_path": "sources/X326-courgette-plant.jpeg",
+        "sha256": "83f754e1be1072d608e369c20f84276a24ac7136f2c1be82eecc2406014e0e0f",
+        "creator": "John Lennon",
+        "rights": "User-owned photograph; supplied for this project",
+        "source_kind": "Photos library"
+      },
+      "prompt": "Create ONE standalone botanical illustration for The Vegetable Guru inner pages, not a page layout. The FIRST reference is a real photograph: use it for the vegetable shapes, asymmetry, angles, overlap and natural composition. References 2 and 3 are APPROVED BOOK HERO ART and must govern drawing style: bold simplified silhouettes, broad crisp colour and shadow planes, dimensional hand-shaped vector-like botanical drawing, rich natural crop colours, lime and forest greens, tapered cream highlight slashes and occasional rhythmic scalloped highlights, a few major veins only. No fine ink hatching, no watercolour, no pencil, no grain or mottled texture, no photographic skin gloss, no black outline. Ignore and DO NOT reproduce the reference heroes' green/black background haze. Genuinely transparent PNG background, no glow, no halo, no cast shadow or ground plane, no white backing, no lettering or border. Keep the entire silhouette inside the canvas with 7% clear padding. Large high resolution. Landscape 3:2. Draw the small COURGETTE plant viewed from above in the photograph: five or six differently angled lobed leaves from a connected central crown, one small green courgette with its yellow blossom attached and a second smaller bloom. Keep fruit visible; omit damaged spots and excessive small serrations. Remove soil, tape measure, bricks, cut stems and all background. Compact asymmetrical low plant silhouette, enough space between leaves to understand attachments; not a floral bouquet.",
+      "direct_style_references": [
+        {
+          "original_path": "public/images/heroes/richer-a/marrow_courgette.png",
+          "retained_path": "style-references/marrow_courgette.png",
+          "sha256": "0ee564ae042a1815ad2fc4a5aa7f875a0f005d59c02e6c8c9fbb4eceb4b969b0"
+        },
+        {
+          "original_path": "public/images/heroes/richer-a/beet_leaf.png",
+          "retained_path": "style-references/beet_leaf.png",
+          "sha256": "8dea29348b4bd311bd0057aad2bc795c857d0e9bbd688c08005998c2859c9e8e"
+        }
+      ],
+      "intentional_changes": "Fruit and connected stems selected; foliage reduced and obscured tips completed.",
+      "proposed_use": "A wide section opener or growing-techniques page.",
+      "status": "candidate_for_John_review",
+      "installed_in_book": false,
+      "sha256": "1084f21cca2d127672c032814d82420c02e8ae02e06e2f986fa91c34c22a2388",
+      "dimensions_px": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "edge_alpha_max": 2,
+      "solid_bbox_alpha_gt_128": [
+        117,
+        14,
+        1436,
+        1007
+      ],
+      "complete_solid_silhouette": true,
+      "max_canvas_mm_at_300dpi": [
+        130.0,
+        86.7
+      ]
+    },
+    {
+      "id": "14-runner-bean-flowers",
+      "title": "Runner bean flowers",
+      "kind": "Flowering stem",
+      "asset_path": "assets/14-runner-bean-flowers.png",
+      "generated_original": "/Users/johnlennon/Documents/web_site/hackriculture-print/generated_images/exec-f11ba991-a593-47b1-9168-b81439c43bb5.png",
+      "generation_job_id": "14-runner-bean-flowers",
+      "source_id": "X502",
+      "source_path": "sources/X502-runner-beans.jpeg",
+      "source_sha256": "1530c9188b228afb37524d7ec668ff948a26aeb8a62db43f00abaf1f6536c608",
+      "source": {
+        "source_id": "X502",
+        "subject": "runner-beans",
+        "original_path": "/Users/johnlennon/Pictures/Photos Library.photoslibrary/originals/D/DFEA7646-3610-435E-8966-25382B55C3C1.jpeg",
+        "original_filename": "DSC08518.JPG",
+        "retained_path": "sources/X502-runner-beans.jpeg",
+        "sha256": "1530c9188b228afb37524d7ec668ff948a26aeb8a62db43f00abaf1f6536c608",
+        "creator": "John Lennon",
+        "rights": "User-owned photograph; supplied for this project",
+        "source_kind": "Photos library"
+      },
+      "prompt": "Create ONE standalone botanical illustration for The Vegetable Guru inner pages, not a page layout. The FIRST reference is a real photograph: use it for the vegetable shapes, asymmetry, angles, overlap and natural composition. References 2 and 3 are APPROVED BOOK HERO ART and must govern drawing style: bold simplified silhouettes, broad crisp colour and shadow planes, dimensional hand-shaped vector-like botanical drawing, rich natural crop colours, lime and forest greens, tapered cream highlight slashes and occasional rhythmic scalloped highlights, a few major veins only. No fine ink hatching, no watercolour, no pencil, no grain or mottled texture, no photographic skin gloss, no black outline. Ignore and DO NOT reproduce the reference heroes' green/black background haze. Genuinely transparent PNG background, no glow, no halo, no cast shadow or ground plane, no white backing, no lettering or border. Keep the entire silhouette inside the canvas with 7% clear padding. Large high resolution. Portrait 2:3. Isolate a small naturally winding RUNNER BEAN shoot from the photo with three large heart-shaped trifoliate leaves and two short racemes of scarlet pea-like flowers at different heights. Preserve the flowers' actual pea-blossom form, not orange lilies. Rotate the camera view upright; show stem connections. Omit sky, supports and background. A light ascending botanical fragment, not a flower bouquet. Do not invent ripe pods that are not in the photo.",
+      "direct_style_references": [
+        {
+          "original_path": "public/images/heroes/richer-a/bean_french.png",
+          "retained_path": "style-references/bean_french.png",
+          "sha256": "8f00499fd49d4931b805cef1b02e10f2fb3ded60dc02bbdad432c82037674d19"
+        },
+        {
+          "original_path": "public/images/heroes/richer-a/pea.png",
+          "retained_path": "style-references/pea.png",
+          "sha256": "72dacd9636ea428ca82761ab5231274b0a72f30f283f17af8c2a463c8be2c6df"
+        }
+      ],
+      "intentional_changes": "A natural flower cluster selected and turned upright; surplus leaves omitted.",
+      "proposed_use": "Flowering and pollination topics; a narrow decorative detail.",
+      "status": "candidate_for_John_review",
+      "installed_in_book": false,
+      "sha256": "13e4b4a2bc7e30197f9a43064022f40d27d00ce6cdf0be7ae6cb055612992b5c",
+      "dimensions_px": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "edge_alpha_max": 1,
+      "solid_bbox_alpha_gt_128": [
+        49,
+        17,
+        950,
+        1519
+      ],
+      "complete_solid_silhouette": true,
+      "max_canvas_mm_at_300dpi": [
+        86.7,
+        130.0
+      ]
+    },
+    {
+      "id": "15-beetroot-crown",
+      "title": "Beetroot crown",
+      "kind": "Root and leaves",
+      "asset_path": "assets/15-beetroot-crown.png",
+      "generated_original": "/Users/johnlennon/Documents/web_site/hackriculture-print/generated_images/exec-e2d3933e-422e-4267-8c10-bd17fee8cfcf.png",
+      "generation_job_id": "15-beetroot-crown",
+      "source_id": "S004-00135.405",
+      "source_path": "sources/S004-00135.405.png",
+      "source_sha256": "53c8b1329651e0962f4b5babe8f0e8ee0a0c31c545b41941dff175ea0cf1ff78",
+      "source": {
+        "retained_path": "sources/S004-00135.405.png",
+        "sha256": "53c8b1329651e0962f4b5babe8f0e8ee0a0c31c545b41941dff175ea0cf1ff78",
+        "source_id": "S004-00135.405",
+        "original_path": "/Volumes/Videos/Movies/Aug 2026/Aug in the garden/DJI_20260805162908_0033_D.MP4",
+        "time_seconds": 135.405,
+        "creator": "John Lennon",
+        "rights": "User-owned video; supplied for this project",
+        "source_kind": "Native video still"
+      },
+      "prompt": "Create ONE standalone botanical illustration for The Vegetable Guru inner pages, not a page layout. The FIRST reference is a real photograph: use it for the vegetable shapes, asymmetry, angles, overlap and natural composition. References 2 and 3 are APPROVED BOOK HERO ART and must govern drawing style: bold simplified silhouettes, broad crisp colour and shadow planes, dimensional hand-shaped vector-like botanical drawing, rich natural crop colours, lime and forest greens, tapered cream highlight slashes and occasional rhythmic scalloped highlights, a few major veins only. No fine ink hatching, no watercolour, no pencil, no grain or mottled texture, no photographic skin gloss, no black outline. Ignore and DO NOT reproduce the reference heroes' green/black background haze. Genuinely transparent PNG background, no glow, no halo, no cast shadow or ground plane, no white backing, no lettering or border. Keep the entire silhouette inside the canvas with 7% clear padding. Large high resolution. Square. The photo is a BEETROOT crown growing in soil: isolate its visible round burgundy bulb shoulder with six long red leaf stalks arching at unequal angles and their broad green leaves with red midribs. Preserve the naturally spreading asymmetric arrangement. Show the exposed upper bulb shape and a short simple taper beneath it; omit soil and neighbours. Leaves all belong to this one crown; no detached floating stems.",
+      "direct_style_references": [
+        {
+          "original_path": "public/images/heroes/richer-a/beetroot.png",
+          "retained_path": "style-references/beetroot.png",
+          "sha256": "fa7251e6ce9ff76219b147cdff873b6c070e3649ce104c3a3bf9020584529eae"
+        },
+        {
+          "original_path": "public/images/heroes/richer-a/beet_leaf.png",
+          "retained_path": "style-references/beet_leaf.png",
+          "sha256": "8dea29348b4bd311bd0057aad2bc795c857d0e9bbd688c08005998c2859c9e8e"
+        }
+      ],
+      "intentional_changes": "The crown and leaves selected from a video frame; background omitted.",
+      "proposed_use": "A compact plant portrait or harvesting topic.",
+      "status": "candidate_for_John_review",
+      "installed_in_book": false,
+      "sha256": "7e548db96a624e2288602582b017b6bb753719c3e0586f87b03079268e942ec1",
+      "dimensions_px": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "edge_alpha_max": 1,
+      "solid_bbox_alpha_gt_128": [
+        25,
+        47,
+        1225,
+        1219
+      ],
+      "complete_solid_silhouette": true,
+      "max_canvas_mm_at_300dpi": [
+        106.2,
+        106.2
+      ]
+    },
+    {
+      "id": "16-butternut-on-vine",
+      "title": "Butternut on the vine",
+      "kind": "Fruiting plant detail",
+      "asset_path": "assets/16-butternut-on-vine.png",
+      "generated_original": "/Users/johnlennon/Documents/web_site/hackriculture-print/generated_images/exec-5df0169e-793e-4a58-8b4b-cf3e4b8c55cf.png",
+      "generation_job_id": "16-butternut-on-vine",
+      "source_id": "S002-00429.309",
+      "source_path": "sources/S002-00429.309.png",
+      "source_sha256": "2412abec02a4a0908efc44c1bf57f96b30c74672622bbdac75bd45e6c3a0f4c6",
+      "source": {
+        "retained_path": "sources/S002-00429.309.png",
+        "sha256": "2412abec02a4a0908efc44c1bf57f96b30c74672622bbdac75bd45e6c3a0f4c6",
+        "source_id": "S002-00429.309",
+        "original_path": "/Volumes/Videos/Movies/Aug 2026/Aug at the allotment/DJI_20260819121904_0035_D.MP4",
+        "time_seconds": 429.309,
+        "creator": "John Lennon",
+        "rights": "User-owned video; supplied for this project",
+        "source_kind": "Native video still"
+      },
+      "prompt": "Create ONE standalone botanical illustration for The Vegetable Guru inner pages, not a page layout. The FIRST reference is a real photograph: use it for the vegetable shapes, asymmetry, angles, overlap and natural composition. References 2 and 3 are APPROVED BOOK HERO ART and must govern drawing style: bold simplified silhouettes, broad crisp colour and shadow planes, dimensional hand-shaped vector-like botanical drawing, rich natural crop colours, lime and forest greens, tapered cream highlight slashes and occasional rhythmic scalloped highlights, a few major veins only. No fine ink hatching, no watercolour, no pencil, no grain or mottled texture, no photographic skin gloss, no black outline. Ignore and DO NOT reproduce the reference heroes' green/black background haze. Genuinely transparent PNG background, no glow, no halo, no cast shadow or ground plane, no white backing, no lettering or border. Keep the entire silhouette inside the canvas with 7% clear padding. Large high resolution. Landscape 3:2. Isolate the long pale tan BUTTERNUT SQUASH lying diagonally in the photo, with its attached short vine and two adjacent lobed green leaves. The thick straight neck leads to the rounded seed-bearing bulb at the RIGHT. Remove the person's hand and naturally complete the small fruit area it obscures. Keep actual elongated proportions and lightly striped cream skin. No second fruit, soil, grass, cast shadow or vignette. Large clean broad planes; fruit clearly visible, relaxed organic composition.",
+      "direct_style_references": [
+        {
+          "original_path": "public/images/heroes/richer-a/squash_pumpkin.png",
+          "retained_path": "style-references/squash_pumpkin.png",
+          "sha256": "a3bcc1e7937b96767809bd4538d9e7ece9964070a8db301b2998c4bbd8a90336"
+        },
+        {
+          "original_path": "public/images/heroes/richer-a/beet_leaf.png",
+          "retained_path": "style-references/beet_leaf.png",
+          "sha256": "8dea29348b4bd311bd0057aad2bc795c857d0e9bbd688c08005998c2859c9e8e"
+        }
+      ],
+      "intentional_changes": "The fruit and short connected vine retained; the hand and background omitted.",
+      "proposed_use": "A wide growing or harvesting illustration.",
+      "status": "candidate_for_John_review",
+      "installed_in_book": false,
+      "sha256": "42da806d1c5596a283c8e3d3f31a64521d028305b4ddc17bc9cc162823a33a22",
+      "dimensions_px": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "edge_alpha_max": 1,
+      "solid_bbox_alpha_gt_128": [
+        49,
+        50,
+        1492,
+        929
+      ],
+      "complete_solid_silhouette": true,
+      "max_canvas_mm_at_300dpi": [
+        130.0,
+        86.7
+      ]
+    },
+    {
+      "id": "17-sweetcorn-in-husk",
+      "title": "Sweetcorn in its husk",
+      "kind": "Tall crop detail",
+      "asset_path": "assets/17-sweetcorn-in-husk.png",
+      "generated_original": "/Users/johnlennon/Documents/web_site/hackriculture-print/generated_images/exec-dd0dbeb6-c278-41ba-bb4a-6a573396ce9b.png",
+      "generation_job_id": "17-sweetcorn-in-husk",
+      "source_id": "S002-00524.711",
+      "source_path": "sources/S002-00524.711.png",
+      "source_sha256": "7ecdde8f9dfd7167ff56c0b5400167f6e1a97679281fb6abaa1015133cfb991d",
+      "source": {
+        "retained_path": "sources/S002-00524.711.png",
+        "sha256": "7ecdde8f9dfd7167ff56c0b5400167f6e1a97679281fb6abaa1015133cfb991d",
+        "source_id": "S002-00524.711",
+        "original_path": "/Volumes/Videos/Movies/Aug 2026/Aug at the allotment/DJI_20260819121904_0035_D.MP4",
+        "time_seconds": 524.711,
+        "creator": "John Lennon",
+        "rights": "User-owned video; supplied for this project",
+        "source_kind": "Native video still"
+      },
+      "prompt": "Create ONE standalone botanical illustration for The Vegetable Guru inner pages, not a page layout. The FIRST reference is a real photograph: use it for the vegetable shapes, asymmetry, angles, overlap and natural composition. References 2 and 3 are APPROVED BOOK HERO ART and must govern drawing style: bold simplified silhouettes, broad crisp colour and shadow planes, dimensional hand-shaped vector-like botanical drawing, rich natural crop colours, lime and forest greens, tapered cream highlight slashes and occasional rhythmic scalloped highlights, a few major veins only. No fine ink hatching, no watercolour, no pencil, no grain or mottled texture, no photographic skin gloss, no black outline. Ignore and DO NOT reproduce the reference heroes' green/black background haze. Genuinely transparent PNG background, no glow, no halo, no cast shadow or ground plane, no white backing, no lettering or border. Keep the entire silhouette inside the canvas with 7% clear padding. Large high resolution. Portrait 2:3. Isolate the right foreground SWEETCORN stalk with one prominent ear enclosed in green husk and two sweeping strap leaves, as photographed. Preserve the oblique upward cob direction and surrounding plant joints; show a modest brown silk tuft naturally at the husk tip. The ear remains covered, do not add exposed yellow kernels. Omit sky, ground, supports and other plants. A restrained tall fragment with broad negative spaces and complete leaf tips.",
+      "direct_style_references": [
+        {
+          "original_path": "public/images/heroes/richer-a/sweet_corn.png",
+          "retained_path": "style-references/sweet_corn.png",
+          "sha256": "ad7459f4145bfed8217a53a4dbcc7c6007173e27cb7deb67d1310d261d450dd3"
+        },
+        {
+          "original_path": "public/images/heroes/richer-a/bean_french.png",
+          "retained_path": "style-references/bean_french.png",
+          "sha256": "8f00499fd49d4931b805cef1b02e10f2fb3ded60dc02bbdad432c82037674d19"
+        }
+      ],
+      "intentional_changes": "The cob and its husk selected; hand and background omitted.",
+      "proposed_use": "A tall section-opening or harvest illustration.",
+      "status": "candidate_for_John_review",
+      "installed_in_book": false,
+      "sha256": "de274b06d53a1f596de9cebbde990992c61e2e0b4cf3cd8a13403528bb706bf2",
+      "dimensions_px": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "edge_alpha_max": 1,
+      "solid_bbox_alpha_gt_128": [
+        81,
+        37,
+        967,
+        1503
+      ],
+      "complete_solid_silhouette": true,
+      "max_canvas_mm_at_300dpi": [
+        86.7,
+        130.0
+      ]
+    },
+    {
+      "id": "18-green-chilli-branch",
+      "title": "Green chilli branch",
+      "kind": "Narrow fruiting stem",
+      "asset_path": "assets/18-green-chilli-branch.png",
+      "generated_original": "/Users/johnlennon/Documents/web_site/hackriculture-print/generated_images/exec-f74c9b3b-8a00-4afa-87da-3e3a75e206fb.png",
+      "generation_job_id": "18-green-chilli-branch",
+      "source_id": "S007-00048.772",
+      "source_path": "sources/S007-00048.772.png",
+      "source_sha256": "cb8db4c4181465f18eb401cf341f77292967fe75459763eab105ba15e74d62d7",
+      "source": {
+        "retained_path": "sources/S007-00048.772.png",
+        "sha256": "cb8db4c4181465f18eb401cf341f77292967fe75459763eab105ba15e74d62d7",
+        "source_id": "S007-00048.772",
+        "original_path": "/Volumes/Videos/Movies/July 2026/Heatwave/DJI_20260712121801_0064_D.MP4",
+        "time_seconds": 48.772,
+        "creator": "John Lennon",
+        "rights": "User-owned video; supplied for this project",
+        "source_kind": "Native video still"
+      },
+      "prompt": "Create ONE standalone botanical illustration for The Vegetable Guru inner pages, not a page layout. The FIRST reference is a real photograph: use it for the vegetable shapes, asymmetry, angles, overlap and natural composition. References 2 and 3 are APPROVED BOOK HERO ART and must govern drawing style: bold simplified silhouettes, broad crisp colour and shadow planes, dimensional hand-shaped vector-like botanical drawing, rich natural crop colours, lime and forest greens, tapered cream highlight slashes and occasional rhythmic scalloped highlights, a few major veins only. No fine ink hatching, no watercolour, no pencil, no grain or mottled texture, no photographic skin gloss, no black outline. Ignore and DO NOT reproduce the reference heroes' green/black background haze. Genuinely transparent PNG background, no glow, no halo, no cast shadow or ground plane, no white backing, no lettering or border. Keep the entire silhouette inside the canvas with 7% clear padding. Large high resolution. Portrait 2:3. Isolate one naturally forked branch of the green CHILLI plant in the photo with five long curved green fruits at unequal heights and angles, and four simple lanceolate leaves. Retain the distinctive bent and curled chilli shapes, uneven overlap and clear short stalk attachments, rather than evenly hanging copies. Omit greenhouse, string and other plants. Leave open space between leaves and fruits. No red ripe fruits added.",
+      "direct_style_references": [
+        {
+          "original_path": "public/images/heroes/richer-a/capsicum.png",
+          "retained_path": "style-references/capsicum.png",
+          "sha256": "4c44da3ac94745def5e74b4a05f99b3a9ecd64b8e34f9cfd2d848602feca55d6"
+        },
+        {
+          "original_path": "public/images/heroes/richer-a/bean_french.png",
+          "retained_path": "style-references/bean_french.png",
+          "sha256": "8f00499fd49d4931b805cef1b02e10f2fb3ded60dc02bbdad432c82037674d19"
+        }
+      ],
+      "intentional_changes": "Curving fruits and supporting branch selected; surplus foliage omitted.",
+      "proposed_use": "A narrow margin or container-growing detail.",
+      "status": "candidate_for_John_review",
+      "installed_in_book": false,
+      "sha256": "0074bab37ae9a422b84e8d2e932592711cea6fff9651aee8c19e9ba56000a86f",
+      "dimensions_px": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "edge_alpha_max": 1,
+      "solid_bbox_alpha_gt_128": [
+        44,
+        48,
+        940,
+        1489
+      ],
+      "complete_solid_silhouette": true,
+      "max_canvas_mm_at_300dpi": [
+        86.7,
+        130.0
+      ]
+    },
+    {
+      "id": "19-tomato-colander",
+      "title": "Tomatoes in a colander",
+      "kind": "Wide harvest group",
+      "asset_path": "assets/19-tomato-colander.png",
+      "generated_original": "/Users/johnlennon/Documents/web_site/hackriculture-print/generated_images/exec-dee438ca-ee6f-495a-a662-6c81696f2764.png",
+      "generation_job_id": "19-tomato-colander",
+      "source_id": "S016-00060.560",
+      "source_path": "sources/S016-00060.560.png",
+      "source_sha256": "92474d95aadb4bd33c62e7015a5411fe7b686f0d2b4c6b6c7b1ffe1aa43e1184",
+      "source": {
+        "retained_path": "sources/S016-00060.560.png",
+        "sha256": "92474d95aadb4bd33c62e7015a5411fe7b686f0d2b4c6b6c7b1ffe1aa43e1184",
+        "source_id": "S016-00060.560",
+        "original_path": "/Volumes/Videos/Movies/July 2026/Passata/DJI_20260729124656_0026_D.MP4",
+        "time_seconds": 60.56,
+        "creator": "John Lennon",
+        "rights": "User-owned video; supplied for this project",
+        "source_kind": "Native video still"
+      },
+      "prompt": "Create ONE standalone botanical illustration for The Vegetable Guru inner pages, not a page layout. The FIRST reference is a real photograph: use it for the vegetable shapes, asymmetry, angles, overlap and natural composition. References 2 and 3 are APPROVED BOOK HERO ART and must govern drawing style: bold simplified silhouettes, broad crisp colour and shadow planes, dimensional hand-shaped vector-like botanical drawing, rich natural crop colours, lime and forest greens, tapered cream highlight slashes and occasional rhythmic scalloped highlights, a few major veins only. No fine ink hatching, no watercolour, no pencil, no grain or mottled texture, no photographic skin gloss, no black outline. Ignore and DO NOT reproduce the reference heroes' green/black background haze. Genuinely transparent PNG background, no glow, no halo, no cast shadow or ground plane, no white backing, no lettering or border. Keep the entire silhouette inside the canvas with 7% clear padding. Large high resolution. Landscape 3:2. Isolate the metal COLANDER overflowing with John's freshly picked red tomatoes from the bottom right of the kitchen photograph. Preserve the natural jumble of different sized tomatoes and some green calyxes, the two handles, and the rounded low bowl profile. Draw metal in a few flat pale-grey/dark-grey planes with a small number of simplified drain holes. No kitchen, hands, worktop, lettering or cast shadow. The tomatoes make an uneven low mound, not a patterned grid. Calm broad shapes suited to a chapter footer.",
+      "direct_style_references": [
+        {
+          "original_path": "public/images/heroes/richer-a/tomato-greenhouse.png",
+          "retained_path": "style-references/tomato-greenhouse.png",
+          "sha256": "5e3cd5a884582bd13d74cde606c69c2cd9513cd36fa6845833da469ff3a3c3d7"
+        },
+        {
+          "original_path": "public/images/heroes/richer-a/beetroot.png",
+          "retained_path": "style-references/beetroot.png",
+          "sha256": "fa7251e6ce9ff76219b147cdff873b6c070e3649ce104c3a3bf9020584529eae"
+        }
+      ],
+      "intentional_changes": "The uneven harvest retained; metal and fruit simplified into broad planes.",
+      "proposed_use": "An opening-page, storage or harvest illustration.",
+      "status": "candidate_for_John_review",
+      "installed_in_book": false,
+      "sha256": "98e912af4329ebe4b28500b06f14f3db2707142da43998453ae3cb09cbebc167",
+      "dimensions_px": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "edge_alpha_max": 1,
+      "solid_bbox_alpha_gt_128": [
+        37,
+        42,
+        1503,
+        999
+      ],
+      "complete_solid_silhouette": true,
+      "max_canvas_mm_at_300dpi": [
+        130.0,
+        86.7
+      ]
+    },
+    {
+      "id": "20-pea-harvest",
+      "title": "Pea harvest",
+      "kind": "Low harvest group",
+      "asset_path": "assets/20-pea-harvest.png",
+      "generated_original": "/Users/johnlennon/Documents/web_site/hackriculture-print/generated_images/exec-32860533-2e2c-4489-b47d-d2d8b8d1bd84.png",
+      "generation_job_id": "20-pea-harvest",
+      "source_id": "L029",
+      "source_path": "sources/L029-pea-harvest.jpeg",
+      "source_sha256": "21a7a83ab895d4f0d413552acde5e6dc5a600e719acf5897ae6c03e6bd6aab81",
+      "source": {
+        "retained_path": "sources/L029-pea-harvest.jpeg",
+        "sha256": "21a7a83ab895d4f0d413552acde5e6dc5a600e719acf5897ae6c03e6bd6aab81",
+        "source_id": "L029",
+        "original_path": "/Volumes/Videos/Movies/DJI Videos/Photographs/Allotment/DSC06620.jpeg",
+        "original_filename": "DSC06620.jpeg",
+        "creator": "John Lennon",
+        "rights": "User-owned photograph; supplied for this project",
+        "source_kind": "Mounted photo archive"
+      },
+      "prompt": "Create ONE standalone botanical illustration for The Vegetable Guru inner pages, not a page layout. The FIRST reference is a real photograph: use it for the vegetable shapes, asymmetry, angles, overlap and natural composition. References 2 and 3 are APPROVED BOOK HERO ART and must govern drawing style: bold simplified silhouettes, broad crisp colour and shadow planes, dimensional hand-shaped vector-like botanical drawing, rich natural crop colours, lime and forest greens, tapered cream highlight slashes and occasional rhythmic scalloped highlights, a few major veins only. No fine ink hatching, no watercolour, no pencil, no grain or mottled texture, no photographic skin gloss, no black outline. Ignore and DO NOT reproduce the reference heroes' green/black background haze. Genuinely transparent PNG background, no glow, no halo, no cast shadow or ground plane, no white backing, no lettering or border. Keep the entire silhouette inside the canvas with 7% clear padding. Large high resolution. Landscape 3:2. Isolate the casually heaped fresh pea pods at the front of the photograph, retaining the photographed varied directions, curves and overlaps. Select about twelve pods to form a loose shallow pile with some full silhouettes visible. Remove the container and background vines; no invented flowers or loose shelled peas. Avoid a tidy fan, row or symmetrical display. Keep bright fresh green pods and a few blunt pedicels, graphic highlights and readable large forms.",
+      "direct_style_references": [
+        {
+          "original_path": "public/images/heroes/richer-a/pea.png",
+          "retained_path": "style-references/pea.png",
+          "sha256": "72dacd9636ea428ca82761ab5231274b0a72f30f283f17af8c2a463c8be2c6df"
+        },
+        {
+          "original_path": "public/images/heroes/richer-a/bean_french.png",
+          "retained_path": "style-references/bean_french.png",
+          "sha256": "8f00499fd49d4931b805cef1b02e10f2fb3ded60dc02bbdad432c82037674d19"
+        }
+      ],
+      "intentional_changes": "A loose selection of closed pods retained; background and surplus pods omitted.",
+      "proposed_use": "A shallow footer or harvesting illustration.",
+      "status": "candidate_for_John_review",
+      "installed_in_book": false,
+      "sha256": "5c560007c86b224a48ce508ef9216e523ff49ea5a69a44d02b4500faba000481",
+      "dimensions_px": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "edge_alpha_max": 1,
+      "solid_bbox_alpha_gt_128": [
+        34,
+        41,
+        1500,
+        990
+      ],
+      "complete_solid_silhouette": true,
+      "max_canvas_mm_at_300dpi": [
+        130.0,
+        86.7
+      ]
+    },
+    {
+      "id": "21-potatoes-in-hands",
+      "title": "Potatoes in the hands",
+      "kind": "Human harvest detail",
+      "asset_path": "assets/21-potatoes-in-hands.png",
+      "generated_original": "/Users/johnlennon/Documents/web_site/hackriculture-print/generated_images/exec-54b677ba-1e92-419f-b02f-c871cb23c436.png",
+      "generation_job_id": "21-potatoes-in-hands",
+      "source_id": "P03",
+      "source_path": "sources/P03-potatoes-in-hands.png",
+      "source_sha256": "2225a8bac3ad498f5ac979358fc26fddb5a503ecfa0a45a77ef50aa647e6326b",
+      "source": {
+        "retained_path": "sources/P03-potatoes-in-hands.png",
+        "sha256": "2225a8bac3ad498f5ac979358fc26fddb5a503ecfa0a45a77ef50aa647e6326b",
+        "source_id": "P03",
+        "original_path": "docs/publication/summer-cover-photo-search/selected-stills/P03-potatoes-in-hands.png",
+        "time_seconds": 65,
+        "creator": "John Lennon",
+        "rights": "User-owned video; supplied for this project",
+        "source_kind": "Retained native video still",
+        "source_record": "docs/publication/summer-cover-photo-search/NATIVE-JOBS.json",
+        "video_original_path": "/Volumes/Videos/Movies/June 2026/June at the allotment/DJI_20260624173302_0045_D.MP4"
+      },
+      "prompt": "Create ONE standalone botanical illustration for The Vegetable Guru inner pages, not a page layout. The FIRST reference is a real photograph: use it for the vegetable shapes, asymmetry, angles, overlap and natural composition. References 2 and 3 are APPROVED BOOK HERO ART and must govern drawing style: bold simplified silhouettes, broad crisp colour and shadow planes, dimensional hand-shaped vector-like botanical drawing, rich natural crop colours, lime and forest greens, tapered cream highlight slashes and occasional rhythmic scalloped highlights, a few major veins only. No fine ink hatching, no watercolour, no pencil, no grain or mottled texture, no photographic skin gloss, no black outline. Ignore and DO NOT reproduce the reference heroes' green/black background haze. Genuinely transparent PNG background, no glow, no halo, no cast shadow or ground plane, no white backing, no lettering or border. Keep the entire silhouette inside the canvas with 7% clear padding. Large high resolution. Landscape 3:2. Draw only John's two cupped HANDS gently holding the irregular freshly dug golden potatoes in the photo. Preserve the natural pile of roughly six different-sized tubers, the actual left/right hand pose with plausible five fingers each, and a small wrist/forearm section with simple clean endings. Omit shirt, watch, person, tools, background and ground. The potatoes have a few broad muted brown soil marks, no gritty speckles. Translate the hands into warm flat skin-colour planes and restrained shadows, same clean graphic language as the approved vegetable illustrations. No face or text.",
+      "direct_style_references": [
+        {
+          "original_path": "public/images/heroes/richer-a/potato.png",
+          "retained_path": "style-references/potato.png",
+          "sha256": "0e5ec8f78ab63a9c2e3d68b83d0ea03850e515978e7d609df7106915993c3048"
+        },
+        {
+          "original_path": "public/images/heroes/richer-a/beetroot.png",
+          "retained_path": "style-references/beetroot.png",
+          "sha256": "fa7251e6ce9ff76219b147cdff873b6c070e3649ce104c3a3bf9020584529eae"
+        }
+      ],
+      "intentional_changes": "Cupped hands and irregular potatoes retained; person, watch and background omitted.",
+      "proposed_use": "A practical harvesting or introductory illustration.",
+      "status": "candidate_for_John_review",
+      "installed_in_book": false,
+      "sha256": "053a16c60dfe5f7dedc4ef596b930715814e044d3d209246a018c4d32e1679c4",
+      "dimensions_px": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "edge_alpha_max": 0,
+      "solid_bbox_alpha_gt_128": [
+        98,
+        19,
+        1507,
+        1009
+      ],
+      "complete_solid_silhouette": true,
+      "max_canvas_mm_at_300dpi": [
+        130.0,
+        86.7
+      ]
+    },
+    {
+      "id": "22-green-tomato-truss",
+      "title": "Green tomato truss",
+      "kind": "Fruiting stem",
+      "asset_path": "assets/22-green-tomato-truss.png",
+      "generated_original": "/Users/johnlennon/Documents/web_site/hackriculture-print/generated_images/exec-37537c16-27ea-40b8-b50c-c78047dc163a.png",
+      "generation_job_id": "22-green-tomato-truss",
+      "source_id": "P05",
+      "source_path": "sources/P05-green-tomato-truss.png",
+      "source_sha256": "d75e6c2bf39fe347d3c5a6a2d988d9fa2f68c32d3730fdd79bfce1d73391da86",
+      "source": {
+        "retained_path": "sources/P05-green-tomato-truss.png",
+        "sha256": "d75e6c2bf39fe347d3c5a6a2d988d9fa2f68c32d3730fdd79bfce1d73391da86",
+        "source_id": "P05",
+        "original_path": "docs/publication/summer-cover-photo-search/selected-stills/P05-green-tomato-truss.png",
+        "time_seconds": 740,
+        "creator": "John Lennon",
+        "rights": "User-owned video; supplied for this project",
+        "source_kind": "Retained native video still",
+        "source_record": "docs/publication/summer-cover-photo-search/NATIVE-JOBS.json",
+        "video_original_path": "/Volumes/Videos/Movies/Aug 2026/Aug in the garden/DJI_20260805162908_0033_D.MP4"
+      },
+      "prompt": "Create ONE standalone botanical illustration for The Vegetable Guru inner pages, not a page layout. The FIRST reference is a real photograph: use it for the vegetable shapes, asymmetry, angles, overlap and natural composition. References 2 and 3 are APPROVED BOOK HERO ART and must govern drawing style: bold simplified silhouettes, broad crisp colour and shadow planes, dimensional hand-shaped vector-like botanical drawing, rich natural crop colours, lime and forest greens, tapered cream highlight slashes and occasional rhythmic scalloped highlights, a few major veins only. No fine ink hatching, no watercolour, no pencil, no grain or mottled texture, no photographic skin gloss, no black outline. Ignore and DO NOT reproduce the reference heroes' green/black background haze. Genuinely transparent PNG background, no glow, no halo, no cast shadow or ground plane, no white backing, no lettering or border. Keep the entire silhouette inside the canvas with 7% clear padding. Large high resolution. Portrait 2:3. Isolate the photographed compact truss of five ROUND GREEN TOMATOES with its connected branching stem and three adjacent leaves. Keep the actual irregular fruit sizes, slightly flattened lobing, close natural overlaps and downward hang. Preserve unripe green colour, no red fruits. Omit greenhouse, sky, string and distant plants. Bold simplified planes and sparse cream highlights; no skin speckles or fine veins.",
+      "direct_style_references": [
+        {
+          "original_path": "public/images/heroes/richer-a/tomato-greenhouse.png",
+          "retained_path": "style-references/tomato-greenhouse.png",
+          "sha256": "5e3cd5a884582bd13d74cde606c69c2cd9513cd36fa6845833da469ff3a3c3d7"
+        },
+        {
+          "original_path": "public/images/heroes/richer-a/beet_leaf.png",
+          "retained_path": "style-references/beet_leaf.png",
+          "sha256": "8dea29348b4bd311bd0057aad2bc795c857d0e9bbd688c08005998c2859c9e8e"
+        }
+      ],
+      "intentional_changes": "Unripe fruits retained on their connected truss; background omitted.",
+      "proposed_use": "A ripening or crop-care illustration.",
+      "status": "candidate_for_John_review",
+      "installed_in_book": false,
+      "sha256": "348c3a5ed4bf2d32ee80152caadf97c74baecbbee77eaaba05cda370dd831908",
+      "dimensions_px": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "edge_alpha_max": 1,
+      "solid_bbox_alpha_gt_128": [
+        31,
+        30,
+        964,
+        1475
+      ],
+      "complete_solid_silhouette": true,
+      "max_canvas_mm_at_300dpi": [
+        86.7,
+        130.0
+      ]
+    },
+    {
+      "id": "23-young-plant-rootball",
+      "title": "Young plant rootball",
+      "kind": "Whole young plant",
+      "asset_path": "assets/23-young-plant-rootball.png",
+      "generated_original": "/Users/johnlennon/Documents/web_site/hackriculture-print/generated_images/exec-8aea14d6-b2ef-4116-ab7f-3cd45ad1cf00.png",
+      "generation_job_id": "23-young-courgette-rootball",
+      "source_id": "X336",
+      "source_path": "sources/X336-young-plant-rootball.jpeg",
+      "source_sha256": "51dcfa3ef802237afdb400b70271ce356dce13ff1636f8c0444160ce60c89e4d",
+      "source": {
+        "retained_path": "sources/X336-young-plant-rootball.jpeg",
+        "sha256": "51dcfa3ef802237afdb400b70271ce356dce13ff1636f8c0444160ce60c89e4d",
+        "source_id": "X336",
+        "original_path": "/Users/johnlennon/Pictures/Photos Library.photoslibrary/originals/5/548D0DAB-6168-49B9-A9E8-FD276D4EFB79.jpeg",
+        "original_filename": "DSC02021.JPG",
+        "creator": "John Lennon",
+        "rights": "User-owned photograph; supplied for this project",
+        "source_kind": "Photos library"
+      },
+      "prompt": "Create ONE standalone botanical illustration for The Vegetable Guru inner pages, not a page layout. The FIRST reference is a real photograph: use it for the vegetable shapes, asymmetry, angles, overlap and natural composition. References 2 and 3 are APPROVED BOOK HERO ART and must govern drawing style: bold simplified silhouettes, broad crisp colour and shadow planes, dimensional hand-shaped vector-like botanical drawing, rich natural crop colours, lime and forest greens, tapered cream highlight slashes and occasional rhythmic scalloped highlights, a few major veins only. No fine ink hatching, no watercolour, no pencil, no grain or mottled texture, no photographic skin gloss, no black outline. Ignore and DO NOT reproduce the reference heroes' green/black background haze. Genuinely transparent PNG background, no glow, no halo, no cast shadow or ground plane, no white backing, no lettering or border. Keep the entire silhouette inside the canvas with 7% clear padding. Large high resolution. Portrait 2:3. Isolate the YOUNG COURGETTE plant and its cylindrical root ball from the photograph. Complete the small leaf tips clipped at the photo top in the same observed shape. Keep its few unevenly angled soft lobed leaves, plausible leaf stalks and squat brown pot-shaped root ball. Omit the hand, soil bed, bags and all background. Render root ball as two or three broad dark-brown planes with just a few stylised pale winding roots; no root-hair mesh, grain or dirty shadow. A fresh transplant ready for planting, not in a pot.",
+      "direct_style_references": [
+        {
+          "original_path": "public/images/heroes/richer-a/marrow_courgette.png",
+          "retained_path": "style-references/marrow_courgette.png",
+          "sha256": "0ee564ae042a1815ad2fc4a5aa7f875a0f005d59c02e6c8c9fbb4eceb4b969b0"
+        },
+        {
+          "original_path": "public/images/heroes/richer-a/beet_leaf.png",
+          "retained_path": "style-references/beet_leaf.png",
+          "sha256": "8dea29348b4bd311bd0057aad2bc795c857d0e9bbd688c08005998c2859c9e8e"
+        }
+      ],
+      "intentional_changes": "The rootball and plant retained; hand removed, roots simplified and clipped tips completed. Crop identity is unconfirmed.",
+      "proposed_use": "A planting-out or raising-plants illustration.",
+      "status": "candidate_for_John_review",
+      "installed_in_book": false,
+      "sha256": "fe789d1a70969c30c757c06ca7bd021c9ea0be28e67ea3c0f58cf6e3345dc72d",
+      "dimensions_px": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "edge_alpha_max": 1,
+      "solid_bbox_alpha_gt_128": [
+        32,
+        61,
+        992,
+        1485
+      ],
+      "complete_solid_silhouette": true,
+      "max_canvas_mm_at_300dpi": [
+        86.7,
+        130.0
+      ]
+    },
+    {
+      "id": "24-carrot-harvest",
+      "title": "Carrot harvest",
+      "kind": "Low root group",
+      "asset_path": "assets/24-carrot-harvest.png",
+      "generated_original": "/Users/johnlennon/Documents/web_site/hackriculture-print/generated_images/exec-cf855060-19f6-4ffa-bb5f-a7079212752a.png",
+      "generation_job_id": "24-carrot-harvest",
+      "source_id": "W-carrots",
+      "source_path": "sources/W-carrots.jpg",
+      "source_sha256": "29b4784913d3b19298664858fab078a988b71a22658b52739e071d6ab1708aa5",
+      "source": {
+        "retained_path": "sources/W-carrots.jpg",
+        "sha256": "29b4784913d3b19298664858fab078a988b71a22658b52739e071d6ab1708aa5",
+        "source_id": "W-carrots",
+        "source_kind": "Online photograph",
+        "creator": "Charles Rondeau",
+        "rights": "CC0 1.0 / Public Domain",
+        "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "source_page": "https://www.publicdomainpictures.net/en/view-image.php?image=288160&picture=carrots",
+        "download_url": "https://www.publicdomainpictures.net/pictures/290000/velka/carrots-1552911733d8N.jpg",
+        "downloaded": "2026-11-17",
+        "rights_evidence": "Source page identifies public-domain photo; free-download terms specify CC0, commercial use and modification permitted. Standard free resolution retained."
+      },
+      "prompt": "Create ONE standalone botanical illustration for The Vegetable Guru inner pages, not a page layout. The FIRST reference is a real photograph: use it for the vegetable shapes, asymmetry, angles, overlap and natural composition. References 2 and 3 are APPROVED BOOK HERO ART and must govern drawing style: bold simplified silhouettes, broad crisp colour and shadow planes, dimensional hand-shaped vector-like botanical drawing, rich natural crop colours, lime and forest greens, tapered cream highlight slashes and occasional rhythmic scalloped highlights, a few major veins only. No fine ink hatching, no watercolour, no pencil, no grain or mottled texture, no photographic skin gloss, no black outline. Ignore and DO NOT reproduce the reference heroes' green/black background haze. Genuinely transparent PNG background, no glow, no halo, no cast shadow or ground plane, no white backing, no lettering or border. Keep the entire silhouette inside the canvas with 7% clear padding. Large high resolution. Landscape 3:2. Isolate FIVE of the carrots from the photographed harvest pile, keeping the actual different sizes, blunted/tapering ends, bends and untidy overlapping directions. Choose a shallow irregular group from the foreground, one carrot crossing the others at an angle; NOT a bouquet with all points aligned. These carrots are topped: show their short trimmed green stem ends, no invented leafy fronds. Omit basket, other produce and surface. Sparse broad pale horizontal marks only, no skin grain or dirt speckles.",
+      "direct_style_references": [
+        {
+          "original_path": "public/images/heroes/richer-a/carrot.png",
+          "retained_path": "style-references/carrot.png",
+          "sha256": "733b775e5e9f87d78669551ca911e39ea3eb61bed6bc54815e64b10c8fbdbfe9"
+        },
+        {
+          "original_path": "public/images/heroes/richer-a/beetroot.png",
+          "retained_path": "style-references/beetroot.png",
+          "sha256": "fa7251e6ce9ff76219b147cdff873b6c070e3649ce104c3a3bf9020584529eae"
+        }
+      ],
+      "intentional_changes": "Five roots selected from the loose pile; topped stalks retained, background omitted.",
+      "proposed_use": "A wide harvest or root-crop detail.",
+      "status": "candidate_for_John_review",
+      "installed_in_book": false,
+      "sha256": "d0fd7ad21ab8aaa88d37aa521a39cefd1df08f0201c2a466e041996093ed45ff",
+      "dimensions_px": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "edge_alpha_max": 1,
+      "solid_bbox_alpha_gt_128": [
+        47,
+        81,
+        1483,
+        933
+      ],
+      "complete_solid_silhouette": true,
+      "max_canvas_mm_at_300dpi": [
+        130.0,
+        86.7
+      ]
+    },
+    {
+      "id": "25-home-grown-leeks",
+      "title": "Home-grown leeks",
+      "kind": "Diagonal harvest group",
+      "asset_path": "assets/25-home-grown-leeks.png",
+      "generated_original": "/Users/johnlennon/Documents/web_site/hackriculture-print/generated_images/exec-452b21ca-f7ff-4231-9baa-116214f5502c.png",
+      "generation_job_id": "25-home-grown-leeks",
+      "source_id": "W-leeks",
+      "source_path": "sources/W-leeks.jpg",
+      "source_sha256": "98ba8873e8acb8dc83aea62ec4e26aa592d596cf74984180c3e4724c3e771a7b",
+      "source": {
+        "retained_path": "sources/W-leeks.jpg",
+        "sha256": "98ba8873e8acb8dc83aea62ec4e26aa592d596cf74984180c3e4724c3e771a7b",
+        "source_id": "W-leeks",
+        "source_kind": "Online photograph",
+        "creator": "Ian Bunyan",
+        "rights": "CC0 1.0 / Public Domain",
+        "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "source_page": "https://www.publicdomainpictures.net/en/view-image.php?image=102235&picture=crop-of-home-grown-leeks",
+        "download_url": "https://www.publicdomainpictures.net/pictures/110000/velka/crop-of-home-grown-leeks.jpg",
+        "downloaded": "2026-11-17",
+        "rights_evidence": "Source page identifies public-domain photo; free-download terms specify CC0, commercial use and modification permitted. Standard free resolution retained."
+      },
+      "prompt": "Create ONE standalone botanical illustration for The Vegetable Guru inner pages, not a page layout. The FIRST reference is a real photograph: use it for the vegetable shapes, asymmetry, angles, overlap and natural composition. References 2 and 3 are APPROVED BOOK HERO ART and must govern drawing style: bold simplified silhouettes, broad crisp colour and shadow planes, dimensional hand-shaped vector-like botanical drawing, rich natural crop colours, lime and forest greens, tapered cream highlight slashes and occasional rhythmic scalloped highlights, a few major veins only. No fine ink hatching, no watercolour, no pencil, no grain or mottled texture, no photographic skin gloss, no black outline. Ignore and DO NOT reproduce the reference heroes' green/black background haze. Genuinely transparent PNG background, no glow, no halo, no cast shadow or ground plane, no white backing, no lettering or border. Keep the entire silhouette inside the canvas with 7% clear padding. Large high resolution. Landscape 3:2. Isolate THREE of the foreground leeks in the source photo, lying diagonally with unequal white shanks and layered green tops extending to the upper right. Keep their natural imperfect overlaps and widths, not a neat parallel bundle. Omit watering can, stone bench, earth and ties. Show a few simplified wiry tan roots, not a dense tangled hairy mass; complete clipped top leaves with clean tapered ends. All three whole leeks inside the frame with ample breathing room.",
+      "direct_style_references": [
+        {
+          "original_path": "public/images/heroes/richer-a/leek.png",
+          "retained_path": "style-references/leek.png",
+          "sha256": "6b3b9a4823d233d217ffffbb1ab2143ff9c2869cfa44d85c9fa1bea77b24d228"
+        },
+        {
+          "original_path": "public/images/heroes/richer-a/parsnip.png",
+          "retained_path": "style-references/parsnip.png",
+          "sha256": "7b279b81b1b461ccdd6918f66af2a627b492803b03630974c2333d88654b7de0"
+        }
+      ],
+      "intentional_changes": "Three overlapping leeks selected; bench and watering can omitted, clipped tops completed.",
+      "proposed_use": "A wide corner or end-of-section illustration.",
+      "status": "candidate_for_John_review",
+      "installed_in_book": false,
+      "sha256": "1a634ea8e0110b0b4dd9b785207b7c8dcc6593f774eeb66367c3e943763b6038",
+      "dimensions_px": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "edge_alpha_max": 1,
+      "solid_bbox_alpha_gt_128": [
+        56,
+        42,
+        1501,
+        987
+      ],
+      "complete_solid_silhouette": true,
+      "max_canvas_mm_at_300dpi": [
+        130.0,
+        86.7
+      ]
+    },
+    {
+      "id": "26-fresh-radishes",
+      "title": "Fresh radishes",
+      "kind": "Root-and-leaf group",
+      "asset_path": "assets/26-fresh-radishes.png",
+      "generated_original": "/Users/johnlennon/Documents/web_site/hackriculture-print/generated_images/exec-8e471573-f9be-4944-8593-3883130c6635.png",
+      "generation_job_id": "26-fresh-radishes",
+      "source_id": "W-radishes",
+      "source_path": "sources/W-radishes.jpg",
+      "source_sha256": "ad64b5cbfd69bcd320a779ecf941c8933442aa841bc96c98c7d3657369e5e990",
+      "source": {
+        "retained_path": "sources/W-radishes.jpg",
+        "sha256": "ad64b5cbfd69bcd320a779ecf941c8933442aa841bc96c98c7d3657369e5e990",
+        "source_id": "W-radishes",
+        "source_kind": "Online photograph",
+        "creator": "Charles Rondeau",
+        "rights": "CC0 1.0 / Public Domain",
+        "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "source_page": "https://www.publicdomainpictures.net/en/view-image.php?image=299528&picture=radishes",
+        "download_url": "https://www.publicdomainpictures.net/pictures/300000/velka/radishes-1563367731XvH.jpg",
+        "downloaded": "2026-11-17",
+        "rights_evidence": "Source page identifies public-domain photo; free-download terms specify CC0, commercial use and modification permitted. Standard free resolution retained."
+      },
+      "prompt": "Create ONE standalone botanical illustration for The Vegetable Guru inner pages, not a page layout. The FIRST reference is a real photograph: use it for the vegetable shapes, asymmetry, angles, overlap and natural composition. References 2 and 3 are APPROVED BOOK HERO ART and must govern drawing style: bold simplified silhouettes, broad crisp colour and shadow planes, dimensional hand-shaped vector-like botanical drawing, rich natural crop colours, lime and forest greens, tapered cream highlight slashes and occasional rhythmic scalloped highlights, a few major veins only. No fine ink hatching, no watercolour, no pencil, no grain or mottled texture, no photographic skin gloss, no black outline. Ignore and DO NOT reproduce the reference heroes' green/black background haze. Genuinely transparent PNG background, no glow, no halo, no cast shadow or ground plane, no white backing, no lettering or border. Keep the entire silhouette inside the canvas with 7% clear padding. Large high resolution. Square. Isolate the SMALL NATURAL CLUSTER of red radishes in the source photo: five irregular rose-red round/oval roots, at different depths and angles, hanging from their pale-green stalks with a few intact lobed leaves above. Keep varied root sizes, slight overlaps and individual thin tapering root ends. Remove clinging soil and background; no string or tied bouquet. Broad smooth graphic colour planes, just a few highlights, not gritty realistic surfaces. Use a naturally leaning silhouette.",
+      "direct_style_references": [
+        {
+          "original_path": "public/images/heroes/richer-a/beetroot.png",
+          "retained_path": "style-references/beetroot.png",
+          "sha256": "fa7251e6ce9ff76219b147cdff873b6c070e3649ce104c3a3bf9020584529eae"
+        },
+        {
+          "original_path": "public/images/heroes/richer-a/carrot.png",
+          "retained_path": "style-references/carrot.png",
+          "sha256": "733b775e5e9f87d78669551ca911e39ea3eb61bed6bc54815e64b10c8fbdbfe9"
+        }
+      ],
+      "intentional_changes": "Five unequal roots selected with foliage; dirt and surplus roots omitted.",
+      "proposed_use": "A colourful compact harvest illustration.",
+      "status": "candidate_for_John_review",
+      "installed_in_book": false,
+      "sha256": "d1affb7ba4540fd9b09c03016084b22150c1b809c0b6b9415e37cafc86656bca",
+      "dimensions_px": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "edge_alpha_max": 1,
+      "solid_bbox_alpha_gt_128": [
+        29,
+        20,
+        1191,
+        1229
+      ],
+      "complete_solid_silhouette": true,
+      "max_canvas_mm_at_300dpi": [
+        106.2,
+        106.2
+      ]
+    },
+    {
+      "id": "27-asparagus-growing",
+      "title": "Asparagus growing",
+      "kind": "Tall spear group",
+      "asset_path": "assets/27-asparagus-growing.png",
+      "generated_original": "/Users/johnlennon/Documents/web_site/hackriculture-print/generated_images/exec-6c7baa86-9087-4136-bd8b-9e8bf7b53b84.png",
+      "generation_job_id": "27-asparagus-growing",
+      "source_id": "W-asparagus",
+      "source_path": "sources/W-asparagus.jpg",
+      "source_sha256": "dfe4ef46d28fa1a17ac17e29cf4f57d6a593a66b81639b45d0c08aa34028c729",
+      "source": {
+        "retained_path": "sources/W-asparagus.jpg",
+        "sha256": "dfe4ef46d28fa1a17ac17e29cf4f57d6a593a66b81639b45d0c08aa34028c729",
+        "source_id": "W-asparagus",
+        "source_kind": "Online photograph",
+        "creator": "Lydia Jacobs",
+        "rights": "CC0 1.0 / Public Domain",
+        "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "source_page": "https://www.publicdomainpictures.net/en/view-image.php?image=122517&picture=asparagus-spears",
+        "download_url": "https://www.publicdomainpictures.net/pictures/130000/velka/asparagus-spears.jpg",
+        "downloaded": "2026-11-17",
+        "rights_evidence": "Source page identifies public-domain photo; free-download terms specify CC0, commercial use and modification permitted. Standard free resolution retained."
+      },
+      "prompt": "Create ONE standalone botanical illustration for The Vegetable Guru inner pages, not a page layout. The FIRST reference is a real photograph: use it for the vegetable shapes, asymmetry, angles, overlap and natural composition. References 2 and 3 are APPROVED BOOK HERO ART and must govern drawing style: bold simplified silhouettes, broad crisp colour and shadow planes, dimensional hand-shaped vector-like botanical drawing, rich natural crop colours, lime and forest greens, tapered cream highlight slashes and occasional rhythmic scalloped highlights, a few major veins only. No fine ink hatching, no watercolour, no pencil, no grain or mottled texture, no photographic skin gloss, no black outline. Ignore and DO NOT reproduce the reference heroes' green/black background haze. Genuinely transparent PNG background, no glow, no halo, no cast shadow or ground plane, no white backing, no lettering or border. Keep the entire silhouette inside the canvas with 7% clear padding. Large high resolution. Portrait 2:3. Isolate the FOUR asparagus spears emerging at uneven heights in the photograph. Keep their exact unequal heights, slight bends and closed purple-green tips; taller spear at right, shorter fresh shoot in front. Omit fence, grass, earth and all background. Give each stalk a natural clean endpoint near the same basal region, without a surrounding soil patch. Broad green planes and simplified pointed scales, not fine stippling or photographic texture. Do not arrange a tied shop bunch.",
+      "direct_style_references": [
+        {
+          "original_path": "public/images/heroes/richer-a/asparagus.png",
+          "retained_path": "style-references/asparagus.png",
+          "sha256": "613c1efee4c443d04d4578b0cbfe20abf6de0326d208bd0f8166f631c1bf5958"
+        },
+        {
+          "original_path": "public/images/heroes/richer-a/bean_french.png",
+          "retained_path": "style-references/bean_french.png",
+          "sha256": "8f00499fd49d4931b805cef1b02e10f2fb3ded60dc02bbdad432c82037674d19"
+        }
+      ],
+      "intentional_changes": "Four unequal spears selected; grass, fence and soil omitted.",
+      "proposed_use": "A tall margin or perennial-crop illustration.",
+      "status": "candidate_for_John_review",
+      "installed_in_book": false,
+      "sha256": "2ad92b5156df0874cb89edba09e40c00bfd0bfe3917144f232cb9d61b3be4e90",
+      "dimensions_px": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "edge_alpha_max": 1,
+      "solid_bbox_alpha_gt_128": [
+        168,
+        35,
+        953,
+        1511
+      ],
+      "complete_solid_silhouette": true,
+      "max_canvas_mm_at_300dpi": [
+        86.7,
+        130.0
+      ]
+    },
+    {
+      "id": "28-aubergines-on-plant",
+      "title": "Aubergines on the plant",
+      "kind": "Fruiting plant detail",
+      "asset_path": "assets/28-aubergines-on-plant.png",
+      "generated_original": "/Users/johnlennon/Documents/web_site/hackriculture-print/generated_images/exec-c296bd69-3669-48fb-93be-148ae90ab536.png",
+      "generation_job_id": "28-aubergines-on-plant",
+      "source_id": "W-aubergine",
+      "source_path": "sources/W-aubergine.jpg",
+      "source_sha256": "2e55b31e9817dff0f761560748e1ed96e685d7baf0f970c0b83dc78f50e12c14",
+      "source": {
+        "retained_path": "sources/W-aubergine.jpg",
+        "sha256": "2e55b31e9817dff0f761560748e1ed96e685d7baf0f970c0b83dc78f50e12c14",
+        "source_id": "W-aubergine",
+        "source_kind": "Online photograph",
+        "creator": "Lynn Greyling",
+        "rights": "CC0 1.0 / Public Domain",
+        "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "source_page": "https://www.publicdomainpictures.net/en/view-image.php?image=201937&picture=aubergine-fruit-on-plant",
+        "download_url": "https://www.publicdomainpictures.net/pictures/210000/velka/aubergine-fruit-on-plant.jpg",
+        "downloaded": "2026-11-17",
+        "rights_evidence": "Source page identifies public-domain photo; free-download terms specify CC0, commercial use and modification permitted. Standard free resolution retained."
+      },
+      "prompt": "Create ONE standalone botanical illustration for The Vegetable Guru inner pages, not a page layout. The FIRST reference is a real photograph: use it for the vegetable shapes, asymmetry, angles, overlap and natural composition. References 2 and 3 are APPROVED BOOK HERO ART and must govern drawing style: bold simplified silhouettes, broad crisp colour and shadow planes, dimensional hand-shaped vector-like botanical drawing, rich natural crop colours, lime and forest greens, tapered cream highlight slashes and occasional rhythmic scalloped highlights, a few major veins only. No fine ink hatching, no watercolour, no pencil, no grain or mottled texture, no photographic skin gloss, no black outline. Ignore and DO NOT reproduce the reference heroes' green/black background haze. Genuinely transparent PNG background, no glow, no halo, no cast shadow or ground plane, no white backing, no lettering or border. Keep the entire silhouette inside the canvas with 7% clear padding. Large high resolution. Portrait 2:3. Isolate the TWO small round-to-oval purple AUBERGINES on their actual branching stem from the photograph. Keep their fat rounded proportions, large green pointed calyxes, different heights and partial overlap, with two adjacent large soft lobed leaves. Complete edges only enough for a self-contained plant fragment. Not long supermarket aubergines. Remove photographic background; no extra fruits or ornamental blooms. Rich purple shadow planes and broad pale graphic highlights.",
+      "direct_style_references": [
+        {
+          "original_path": "public/images/heroes/richer-a/aubergine.png",
+          "retained_path": "style-references/aubergine.png",
+          "sha256": "9083225c24ce8609633c6ebf3ada3045a1d694e8503d2f6d1d35247287375baf"
+        },
+        {
+          "original_path": "public/images/heroes/richer-a/beet_leaf.png",
+          "retained_path": "style-references/beet_leaf.png",
+          "sha256": "8dea29348b4bd311bd0057aad2bc795c857d0e9bbd688c08005998c2859c9e8e"
+        }
+      ],
+      "intentional_changes": "The two short round fruits retained; foliage reduced and background omitted.",
+      "proposed_use": "A compact fruiting-crop or greenhouse illustration.",
+      "status": "candidate_for_John_review",
+      "installed_in_book": false,
+      "sha256": "99269e94e5558ee96c4917012be19f3e5e8273de92e0c4901114c9dc6f8bf06f",
+      "dimensions_px": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "edge_alpha_max": 1,
+      "solid_bbox_alpha_gt_128": [
+        32,
+        64,
+        1001,
+        1359
+      ],
+      "complete_solid_silhouette": true,
+      "max_canvas_mm_at_300dpi": [
+        86.7,
+        130.0
+      ]
+    },
+    {
+      "id": "29-rhubarb-crown",
+      "title": "Rhubarb crown",
+      "kind": "Leafy perennial detail",
+      "asset_path": "assets/29-rhubarb-crown.png",
+      "generated_original": "/Users/johnlennon/Documents/web_site/hackriculture-print/generated_images/exec-8b4ad963-b0f7-4961-9ceb-6136be0edea7.png",
+      "generation_job_id": "29-rhubarb-crown",
+      "source_id": "W-rhubarb",
+      "source_path": "sources/W-rhubarb.jpg",
+      "source_sha256": "a23313982fdcd528cc8d3bf95e96c1d756ff9c8788cf6d0d0f374763ea43a2b6",
+      "source": {
+        "retained_path": "sources/W-rhubarb.jpg",
+        "sha256": "a23313982fdcd528cc8d3bf95e96c1d756ff9c8788cf6d0d0f374763ea43a2b6",
+        "source_id": "W-rhubarb",
+        "source_kind": "Online photograph",
+        "creator": "Rheo Gauthier",
+        "rights": "CC0 1.0 / Public Domain",
+        "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "source_page": "https://www.publicdomainpictures.net/en/view-image.php?image=286991&picture=rhubarb",
+        "download_url": "https://www.publicdomainpictures.net/pictures/290000/velka/rhubarb.jpg",
+        "downloaded": "2026-11-17",
+        "rights_evidence": "Source page identifies public-domain photo; free-download terms specify CC0, commercial use and modification permitted. Standard free resolution retained."
+      },
+      "prompt": "Create ONE standalone botanical illustration for The Vegetable Guru inner pages, not a page layout. The FIRST reference is a real photograph: use it for the vegetable shapes, asymmetry, angles, overlap and natural composition. References 2 and 3 are APPROVED BOOK HERO ART and must govern drawing style: bold simplified silhouettes, broad crisp colour and shadow planes, dimensional hand-shaped vector-like botanical drawing, rich natural crop colours, lime and forest greens, tapered cream highlight slashes and occasional rhythmic scalloped highlights, a few major veins only. No fine ink hatching, no watercolour, no pencil, no grain or mottled texture, no photographic skin gloss, no black outline. Ignore and DO NOT reproduce the reference heroes' green/black background haze. Genuinely transparent PNG background, no glow, no halo, no cast shadow or ground plane, no white backing, no lettering or border. Keep the entire silhouette inside the canvas with 7% clear padding. Large high resolution. Square. From the photo isolate a single rhubarb crown with FIVE thick pink/red-green stalks spreading in unequal directions and their large irregular broad leaves, the closest leaf leaning down-left. Retain the natural criss-crossing stalks and plant form; do not make a tidy fan of harvested sticks. Simplify the crowded scene to this connected crown, omit neighbours, weeds, flowers and soil. Make the fleshy stalks clearly visible. A handful of bold veins per leaf, not a dense etched network.",
+      "direct_style_references": [
+        {
+          "original_path": "public/images/heroes/richer-a/rhubarb.png",
+          "retained_path": "style-references/rhubarb.png",
+          "sha256": "d54cc06c79d4596d5d20a71fb80aef6b017d256d8fc80cc2d6e5c5e47bd91b0b"
+        },
+        {
+          "original_path": "public/images/heroes/richer-a/beet_leaf.png",
+          "retained_path": "style-references/beet_leaf.png",
+          "sha256": "8dea29348b4bd311bd0057aad2bc795c857d0e9bbd688c08005998c2859c9e8e"
+        }
+      ],
+      "intentional_changes": "Five connected stalks selected; crown and leaves simplified, background omitted.",
+      "proposed_use": "A broad section-opening illustration.",
+      "status": "candidate_for_John_review",
+      "installed_in_book": false,
+      "sha256": "0d03314c435598c679631016ee829c4f05dfc42d98af32e5b21143c20340861e",
+      "dimensions_px": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "edge_alpha_max": 1,
+      "solid_bbox_alpha_gt_128": [
+        13,
+        27,
+        1241,
+        1231
+      ],
+      "complete_solid_silhouette": true,
+      "max_canvas_mm_at_300dpi": [
+        106.2,
+        106.2
+      ]
+    },
+    {
+      "id": "30-chard-growing",
+      "title": "Chard growing",
+      "kind": "Leaf-and-stem group",
+      "asset_path": "assets/30-chard-growing.png",
+      "generated_original": "/Users/johnlennon/Documents/web_site/hackriculture-print/generated_images/exec-e14905b6-dbdc-47c5-9596-745d4a429976.png",
+      "generation_job_id": "30-chard-growing",
+      "source_id": "W-chard-plant",
+      "source_path": "sources/W-chard-plant.jpg",
+      "source_sha256": "b58b0d8c94037c243873a3b6db0b26210f2ce4ecef3f63fdee65186af948c4cf",
+      "source": {
+        "source_id": "W-chard-plant",
+        "retained_path": "sources/W-chard-plant.jpg",
+        "sha256": "b58b0d8c94037c243873a3b6db0b26210f2ce4ecef3f63fdee65186af948c4cf",
+        "source_kind": "Online photograph",
+        "creator": "Luis Méndez Alejo",
+        "rights": "CC0 1.0 / Public Domain",
+        "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "source_page": "https://wordpress.org/photos/photo/6296291465/",
+        "download_url": "https://pd.w.org/2022/05/6296291465dee4804.08676050-rotated.jpg",
+        "downloaded": "2026-11-17"
+      },
+      "prompt": "Create ONE standalone botanical illustration for The Vegetable Guru inner pages, not a page layout. The FIRST reference is a real photograph: use it for the vegetable shapes, asymmetry, angles, overlap and natural composition. References 2 and 3 are APPROVED BOOK HERO ART and must govern drawing style: bold simplified silhouettes, broad crisp colour and shadow planes, dimensional hand-shaped vector-like botanical drawing, rich natural crop colours, lime and forest greens, tapered cream highlight slashes and occasional rhythmic scalloped highlights, a few major veins only. No fine ink hatching, no watercolour, no pencil, no grain or mottled texture, no photographic skin gloss, no black outline. Ignore and DO NOT reproduce the reference heroes' green/black background haze. Genuinely transparent PNG background, no glow, no halo, no cast shadow or ground plane, no white backing, no lettering or border. Keep the entire silhouette inside the canvas with 7% clear padding. Large high resolution. Portrait 2:3. Isolate the front red-stemmed CHARD leaf cluster from the real photograph: four or five broad elongated leaves on red petioles, with the nearest leaf drooping forward and another standing higher behind. Preserve the varied angles and natural folds, show that leaves connect to one base. Omit sky, surrounding plants, ground and any flower/seed stalks. Do not draw the entire tall bolting plant. Render leaves as bold folded planes and sparse red veins with tapered pale highlights. Clean complete silhouette, not a symmetrical tied bunch.",
+      "direct_style_references": [
+        {
+          "original_path": "public/images/heroes/richer-a/beet_leaf.png",
+          "retained_path": "style-references/beet_leaf.png",
+          "sha256": "8dea29348b4bd311bd0057aad2bc795c857d0e9bbd688c08005998c2859c9e8e"
+        },
+        {
+          "original_path": "public/images/heroes/richer-a/rhubarb.png",
+          "retained_path": "style-references/rhubarb.png",
+          "sha256": "d54cc06c79d4596d5d20a71fb80aef6b017d256d8fc80cc2d6e5c5e47bd91b0b"
+        }
+      ],
+      "intentional_changes": "Front leaves selected with one forward droop; bolting stalks and background omitted.",
+      "proposed_use": "A leafy corner or growing-techniques illustration.",
+      "status": "candidate_for_John_review",
+      "installed_in_book": false,
+      "sha256": "5ffb786bb957f961d1a089b8baad3d35e5ff018864245c1a84741ba9638eb4e5",
+      "dimensions_px": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "edge_alpha_max": 1,
+      "solid_bbox_alpha_gt_128": [
+        30,
+        65,
+        995,
+        1479
+      ],
+      "complete_solid_silhouette": true,
+      "max_canvas_mm_at_300dpi": [
+        86.7,
+        130.0
+      ]
+    },
+    {
+      "id": "31-broccoli-head",
+      "title": "Broccoli head",
+      "kind": "Compact crop portrait",
+      "asset_path": "assets/31-broccoli-head.png",
+      "generated_original": "/Users/johnlennon/Documents/web_site/hackriculture-print/generated_images/exec-9adde23a-a8fd-46bf-bcdd-c69b0877807b.png",
+      "generation_job_id": "31-broccoli-head",
+      "source_id": "W-broccoli",
+      "source_path": "sources/W-broccoli.jpg",
+      "source_sha256": "627b26ad97a7f2f10be868afd9a0d8ac01b6dcd9479e929ef75524fa76f6b3a4",
+      "source": {
+        "retained_path": "sources/W-broccoli.jpg",
+        "sha256": "627b26ad97a7f2f10be868afd9a0d8ac01b6dcd9479e929ef75524fa76f6b3a4",
+        "source_id": "W-broccoli",
+        "source_kind": "Online photograph",
+        "creator": "Lode Van de Velde",
+        "rights": "CC0 1.0 / Public Domain",
+        "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "source_page": "https://www.publicdomainpictures.net/en/view-image.php?image=70594&picture=broccoli",
+        "download_url": "https://www.publicdomainpictures.net/pictures/80000/velka/broccoli.jpg",
+        "downloaded": "2026-11-17",
+        "rights_evidence": "Source page identifies public-domain photo; free-download terms specify CC0, commercial use and modification permitted. Standard free resolution retained."
+      },
+      "prompt": "Create ONE standalone botanical illustration for The Vegetable Guru inner pages, not a page layout. The FIRST reference is a real photograph: use it for the vegetable shapes, asymmetry, angles, overlap and natural composition. References 2 and 3 are APPROVED BOOK HERO ART and must govern drawing style: bold simplified silhouettes, broad crisp colour and shadow planes, dimensional hand-shaped vector-like botanical drawing, rich natural crop colours, lime and forest greens, tapered cream highlight slashes and occasional rhythmic scalloped highlights, a few major veins only. No fine ink hatching, no watercolour, no pencil, no grain or mottled texture, no photographic skin gloss, no black outline. Ignore and DO NOT reproduce the reference heroes' green/black background haze. Genuinely transparent PNG background, no glow, no halo, no cast shadow or ground plane, no white backing, no lettering or border. Keep the entire silhouette inside the canvas with 7% clear padding. Large high resolution. Square. Isolate the actual dense green BROCCOLI head and its short branching stem from the photograph. Omit the terracotta pot entirely and end the stalk naturally below the visible branch junction. Preserve its uneven broad dome, off-centre branching and recognisable tight green florets. Simplify florets into large interlocking rounded clusters with a restrained rhythm of highlights, not thousands of dots. No purple florets, soil, pot, background, shadow or unrelated leaves. One edible head tilted very slightly as photographed.",
+      "direct_style_references": [
+        {
+          "original_path": "public/images/heroes/richer-a/broccoli.png",
+          "retained_path": "style-references/broccoli.png",
+          "sha256": "09cc19f37a07a5327d332ac37be3b5e121abb90a7bad940faae0267af4e3dacb"
+        },
+        {
+          "original_path": "public/images/heroes/richer-a/cauliflower.png",
+          "retained_path": "style-references/cauliflower.png",
+          "sha256": "2062fdd556cdef4f111ddde7d16a7f5ac289b3aeec4012aab7df945054b60eeb"
+        }
+      ],
+      "intentional_changes": "The head and short stem selected; flowerpot omitted, floret clusters simplified.",
+      "proposed_use": "A small spot or section-ending illustration.",
+      "status": "candidate_for_John_review",
+      "installed_in_book": false,
+      "sha256": "9e9202d49ee4b8013ab9a85f0450597b3ec7c4ea4d70b49554af755cd8738926",
+      "dimensions_px": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "edge_alpha_max": 1,
+      "solid_bbox_alpha_gt_128": [
+        30,
+        94,
+        1210,
+        1171
+      ],
+      "complete_solid_silhouette": true,
+      "max_canvas_mm_at_300dpi": [
+        106.2,
+        106.2
+      ]
+    },
+    {
+      "id": "32-cauliflower-and-section",
+      "title": "Cauliflower and section",
+      "kind": "Whole-and-cut crop pair",
+      "asset_path": "assets/32-cauliflower-and-section.png",
+      "generated_original": "/Users/johnlennon/Documents/web_site/hackriculture-print/generated_images/exec-0d4097ad-2505-4a1f-8e8b-ecbfd8977ad5.png",
+      "generation_job_id": "32-cauliflower-and-section",
+      "source_id": "W-cauliflower",
+      "source_path": "sources/W-cauliflower.jpg",
+      "source_sha256": "8f6a2731d9fe7198be5ebfb774fde6053a450bb7eb5045651e81a3bdb8435783",
+      "source": {
+        "retained_path": "sources/W-cauliflower.jpg",
+        "sha256": "8f6a2731d9fe7198be5ebfb774fde6053a450bb7eb5045651e81a3bdb8435783",
+        "source_id": "W-cauliflower",
+        "source_kind": "Online photograph",
+        "creator": "loren biser",
+        "rights": "CC0 1.0 / Public Domain",
+        "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "source_page": "https://www.publicdomainpictures.net/en/view-image.php?image=484151&picture=organic-cauliflower",
+        "download_url": "https://www.publicdomainpictures.net/pictures/490000/velka/organic-cauliflower.jpg",
+        "downloaded": "2026-11-17",
+        "rights_evidence": "Source page identifies public-domain photo; free-download terms specify CC0, commercial use and modification permitted. Standard free resolution retained."
+      },
+      "prompt": "Create ONE standalone botanical illustration for The Vegetable Guru inner pages, not a page layout. The FIRST reference is a real photograph: use it for the vegetable shapes, asymmetry, angles, overlap and natural composition. References 2 and 3 are APPROVED BOOK HERO ART and must govern drawing style: bold simplified silhouettes, broad crisp colour and shadow planes, dimensional hand-shaped vector-like botanical drawing, rich natural crop colours, lime and forest greens, tapered cream highlight slashes and occasional rhythmic scalloped highlights, a few major veins only. No fine ink hatching, no watercolour, no pencil, no grain or mottled texture, no photographic skin gloss, no black outline. Ignore and DO NOT reproduce the reference heroes' green/black background haze. Genuinely transparent PNG background, no glow, no halo, no cast shadow or ground plane, no white backing, no lettering or border. Keep the entire silhouette inside the canvas with 7% clear padding. Large high resolution. Landscape 3:2. Preserve the source photo's natural unequal pairing: a larger whole cream CAULIFLOWER head with a few small green wrapper leaves on the right, and a smaller cut half leaning obliquely on the left with its branching pale interior visible. Retain observed relative sizes and angles with modest overlap. Simplify curd into clear rounded masses and broad cream shadow planes, not stippled grain. No surface, cast shadows, knife or added props. A calm low composition with all edges complete.",
+      "direct_style_references": [
+        {
+          "original_path": "public/images/heroes/richer-a/cauliflower.png",
+          "retained_path": "style-references/cauliflower.png",
+          "sha256": "2062fdd556cdef4f111ddde7d16a7f5ac289b3aeec4012aab7df945054b60eeb"
+        },
+        {
+          "original_path": "public/images/heroes/richer-a/beet_leaf.png",
+          "retained_path": "style-references/beet_leaf.png",
+          "sha256": "8dea29348b4bd311bd0057aad2bc795c857d0e9bbd688c08005998c2859c9e8e"
+        }
+      ],
+      "intentional_changes": "Unequal whole and cut heads retained; background omitted, curds simplified.",
+      "proposed_use": "A wide introductory or kitchen-related illustration.",
+      "status": "candidate_for_John_review",
+      "installed_in_book": false,
+      "sha256": "d3096d53488d0399b9b7c5984dd359f90c144b24d2a62f9c75b5807bf5892d39",
+      "dimensions_px": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "edge_alpha_max": 1,
+      "solid_bbox_alpha_gt_128": [
+        47,
+        70,
+        1505,
+        966
+      ],
+      "complete_solid_silhouette": true,
+      "max_canvas_mm_at_300dpi": [
+        130.0,
+        86.7
+      ]
+    }
+  ]
+}

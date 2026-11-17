@@ -1,0 +1,41 @@
+{
+  "reviewed": "2026-11-17",
+  "reviewer": "Assistant technical and visual inspection; not John’s approval",
+  "source_review": "All selected source photographs/video frames and approved hero references inspected.",
+  "style_sample": "First new tomato/broad-bean pair compared directly with approved heroes at large and small scales; all new images then compared together.",
+  "image_review": {
+    "count": 30,
+    "cream_composites": [
+      "review/cream-1.jpg",
+      "review/cream-2.jpg",
+      "review/cream-3.jpg",
+      "review/cream-4.jpg"
+    ],
+    "dark_composites": [
+      "review/dark-1.jpg",
+      "review/dark-2.jpg",
+      "review/dark-3.jpg",
+      "review/dark-4.jpg"
+    ],
+    "findings": "Complete visible silhouettes; no visible black/coloured background halo when alpha is honoured. Leaf tips, roots and stems remain contained. Natural asymmetry varies by source; final preference remains John’s choice."
+  },
+  "pdf_review": {
+    "pages_rendered": 13,
+    "renderer": "Ghostscript at 110 dpi with antialiasing",
+    "overview": "review/pdf-overview.jpg",
+    "full_size_samples": [
+      1,
+      7,
+      10,
+      13
+    ],
+    "findings": "All 13 pages inspected in the overview, four representative pages enlarged. Titles, drawings, sources and notes fit without clipping or overlap.",
+    "renderer_warning": "Fontconfig reported unwritable cache directories; rendering completed successfully and the inspected text was legible."
+  },
+  "qualifications": [
+    "23 has a general young-plant/rootball label because exact crop identity is unconfirmed. The initial prompt’s courgette wording is retained only as provenance.",
+    "Several silhouettes have less than the requested 7% padding. All solid pixels are contained; place using contain-fit with surrounding layout space.",
+    "Approximate native 300-dpi canvas sizes are 87×130, 130×87 or 106×106 mm. Larger placements require separate checks.",
+    "Only 01–04, 07 and 08 have prior user acceptance. 09–32 are proposed, not installed."
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-16",
+  "kind": "Transparency matte only",
+  "reference": "sources/alpha-input.png",
+  "generated": "sources/vegetable-alpha-reference.png",
+  "original_generated_path": "generated_images/exec-c4441a8f-c2dd-4284-9fda-1fec1f77cc37.png",
+  "prompt": "Precise background removal / cut-out ONLY. Keep the complete original portrait canvas and the exact existing pixel positions, scale, contours, and arrangement of ALL vegetables in this reference. Remove every part of the cream wooden surface to genuine transparency, including all background between leaves and roots. Remove ALL cast and contact shadows on that surface, especially beneath the bottom carrots and kale: the bottom group must have no floor shadow or grey haze. Keep only the upper tomatoes, red onion, cut onion, peas and tendrils, and lower carrots with fine foliage and roots, and kale. Preserve pale onion flesh as opaque. Preserve delicate edges, roots, leaves and tendrils. Completely transparent centre. The tiny stray dark green mark around x145 y425 is leftover lettering and must also be removed. Do not rearrange, crop, resize, add or redraw objects. Do not add outlines, shadows, text, gradients, paper or ground. The exact silhouette alignment is critical because only this output's alpha channel will be used over the original unaltered photographic RGB pixels. Same portrait aspect ratio as reference, entire 1100 x 1430 composition.",
+  "usage": "Only the alpha channel is used. All generated RGB is discarded; visible photographic RGB is retained from sources/repaired-cover.png. Bottom cast shadow removed.",
+  "wood_source": {
+    "file": "sources/cream-wood.png",
+    "original_generated_path": "generated_images/exec-fb4a9081-29b1-47d1-ac9e-fa5efd45a8c1.png",
+    "description": "Separately generated empty pale cream scrubbed wood. Displayed as subdued grayscale texture over an editable cream fill. Exact original prompt not recovered from this generation; retained pixels are authoritative."
+  }
+}

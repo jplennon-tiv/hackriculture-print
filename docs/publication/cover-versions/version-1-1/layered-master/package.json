@@ -1,0 +1,9 @@
+{
+  "name": "vegetable-guru-cream-cover-layers",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {"node": ">=20.9.0"},
+  "scripts": {"build": "node build-layers.mjs && node package-formats.mjs"},
+  "dependencies": {"sharp": "0.35.4"}
+}

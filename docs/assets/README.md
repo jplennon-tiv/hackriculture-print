@@ -22,6 +22,10 @@ while the separate 19 October production cover already has native type.
 
 ## Section opener proposals
 
+The [John gardening set](vegetable-guru-stock/john-gardening-2026-11-17/README.md) adds **four new illustrated likeness proposals** from John’s own frames/photos: a standing harvest portrait and three working scenes. Sources, reconstruction notes, approved style references, transparent masters, prompts, checks and a five-page comparison are retained. John parked the people experiment because face/body detail is too fine for the in-house style; no approved page is changed.
+
+The [17 November photo-derived collection](vegetable-guru-stock/photo-derived-2026-11-17/README.md) contains **30 separate inner-page illustrations**: byte-exact accepted 01–04, 07 and 08 from the [first collection](vegetable-guru-stock/photo-derived-2026-11/README.md), plus 24 new candidates numbered 09–32. 05/06 remain set aside as too arranged. Original photos/native video frames, nine credited online sources, direct approved hero references, exact prompts, transparent PNGs, a 13-page comparison PDF and separate original sources are retained. Redundant large delivery ZIPs were pruned on 17 November. John finds the plant sketches useful; selection and page placement are deferred until the interior resumes; this is reusable stock, not approved page substitution. Existing October stock and frozen page artwork are preserved.
+
 The [14 October section openers](../publication/whole-book-order-preview/SECTION-OPENERS.json)
 are new composition proposals for Vegetable Guides, Vegetable Troubles and
 Growing Techniques. They reuse H4 summer stock, the established aphid/mildew/slug
@@ -228,6 +232,18 @@ Current mappings live in `src/lib/quickFactIcons.ts` and `src/lib/keyRiskIcons.t
 Crop bubbles are outside this task. Rejected/unused experiments and duplicate
 Troubles artwork were removed; approved live drawings, hero originals/crops and
 planting assets remain. Git holds superseded versions.
+
+## Current cover reconstruction sources
+
+The [cover-source register](cover-sources/README.md) owns the source map for the
+numbered front covers 1–6, 6-1 and 6-2, retained 4a trials, their original photos
+and separate illustrations, edition stickers and the retained revision 07 back.
+It includes exact file hashes, generation prompts, crop/placement records,
+fonts and build scripts. Its read-only verifier detects missing or changed files.
+The cleaner 16 November restoration remains separate from saved Version 6-2.
+Native editable type and sticker layers have not yet been assembled into a
+production master. Use the [handover](../handover/START-HERE.md#resume-here) for
+current choices; older cover approvals below remain historical source evidence.
 
 ## Cover C
 

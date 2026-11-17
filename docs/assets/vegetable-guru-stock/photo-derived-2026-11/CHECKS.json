@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-16",
+  "pdf_pages": 6,
+  "all_asset_rgb_pixels_embedded_exactly": {
+    "01-pepper-harvest": true,
+    "02-peas-on-plant": true,
+    "03-onions": true,
+    "04-cabbage": true,
+    "05-potatoes": true,
+    "06-carrots-and-beetroot": true,
+    "07-garlic-pair": true,
+    "08-chilli-plant": true
+  },
+  "asset_sha256_matches_generated_original": true,
+  "source_sha256_matches_retained_copy": true,
+  "all_solid_silhouettes_contained": true,
+  "all_pngs_transparent_rgba": true,
+  "pdf_interpolation_enabled": true,
+  "pdf_sha256": "cc67a6b49ace2193f5596ce7344548bc43b2c50b7946a1285d930c63d53af71f",
+  "image_filters": [
+    "['/DCTDecode']",
+    "['/FlateDecode']"
+  ],
+  "visual_pdf_review": "All six pages rendered with Ghostscript and inspected in a montage; final source-preview compression checked on page 2. No missing artwork, clipped content or overlap observed.",
+  "existing_book_pages_modified": false
+}

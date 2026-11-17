@@ -6,7 +6,7 @@ John requested that the current generated front be saved as **Version 1**, then 
 
 - [Six-candidate contact sheet](Summer-Cover-Photo-Shortlist.png)
 - [Four-page PDF: overview, originals and proposed strip crops](Summer-Cover-Photo-Shortlist.pdf)
-- [Stills, retained carrot preview and source notes](Cover-Photo-Shortlist-Stills.zip)
+- [Separate original stills](selected-stills/) and [source notes](SOURCE-NOTES.md); duplicate delivery ZIP pruned on 17 November after byte verification.
 - [Source manifest](SHORTLIST.json) and [readable source notes](SOURCE-NOTES.md)
 
 **Current selected sources:** P04 courgette flowers above and P01 tomato trusses below. John liked the flower top in context but found P03 potatoes/hands less effective on the cover. [Exact selection](SELECTION.json). The requested [flowers-and-tomatoes front](../cover-refined-direction/revision-12-flowers-tomatoes/README.md) is ready for review. P02/P03/P05/P06 are not active cover candidates; all source files and earlier trials remain intact.

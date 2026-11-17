@@ -2,7 +2,7 @@
 
 Saved 12 November 2026 at John’s request. This is a comparison candidate, not the selected final book cover or print-ready artwork. The next exploration is Direction 2: a new illustrated composition. The final choice between all three routes remains open.
 
-[Open the saved cover](Cover.png) · [Complete cover package](The-Vegetable-Guru-Direction-03-Photographic-2026-11-12.zip)
+[Open the saved cover](Cover.png) · [Exact source manifest](MANIFEST.json). The duplicate delivery ZIP was pruned on 17 November; all separate originals remain, with its older design-system document retained in the cleanup evidence.
 
 ## Design captured
 
@@ -15,7 +15,7 @@ Saved 12 November 2026 at John’s request. This is a comparison candidate, not 
 
 ## What the package preserves
 
-The current cover, every generated cover variation referenced by the working records, original T05 frame and preview, approved interior style reference, exact-font specimens, Lilita One font and licence, generation prompts, source hashes, decision records and the original three-direction study. Original project-relative paths are preserved inside the ZIP; `MANIFEST.json` maps each item to its source and SHA-256. System fonts used only in rejected comparison specimens are not redistributed; their rendered specimens and source descriptions are retained.
+The current cover, every generated cover variation referenced by the working records, original T05 frame and preview, approved interior style reference, exact-font specimens, Lilita One font and licence, generation prompts, source hashes, decision records and the original three-direction study. The former ZIP used original project-relative paths; `MANIFEST.json` maps each item to its source and SHA-256. System fonts used only in rejected comparison specimens are not redistributed; their rendered specimens and source descriptions are retained.
 
 Open `Cover.png` for the candidate. For the selected photographic reference use `generated_images/exec-ed6f9623-4d34-41c6-8eef-11f2dc4a651e.png`. The original likeness reference is under `docs/publication/cover-photo-search/tomato-harvest-study/frames/`. Prompts and their reference roles are under `docs/publication/cover-image-direction/`.
 

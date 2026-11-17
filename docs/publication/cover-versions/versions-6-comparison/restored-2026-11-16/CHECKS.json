@@ -1,0 +1,37 @@
+{
+  "date": "2026-11-16",
+  "strict_pdf_parse": true,
+  "pages": 4,
+  "embedded_images_exact_source_RGB": true,
+  "JPEG_recompression": false,
+  "PDF_image_interpolation_enabled": true,
+  "full_size_fronts_mm": [
+    185,
+    240
+  ],
+  "source_raster_px": [
+    1100,
+    1430
+  ],
+  "effective_dpi": 151.0,
+  "original_numbered_fronts_unchanged": true,
+  "source_hashes": {
+    "generated_images/exec-df679729-f2e0-445a-8c36-443fd445d2cf.png": "41a40af562d0ab75270eac6431bf13440a6a43bc7641f1f4e08e4d794f537e8f",
+    "generated_images/exec-f936ef10-07a0-47ba-9e33-4298c2306942.png": "6c374a22603c68c28dc9f7464d29fd8a2323bd7c20e53f9400b85211d767ac40"
+  },
+  "original_front_hashes": {
+    "docs/publication/cover-versions/version-6/Version-6.png": "26016f8810000d25176d7bbc1fcedf894d704a1188e18d54c29d8decbc70670d",
+    "docs/publication/cover-versions/version-6/Version-6.pdf": "752584813ae5822c99ecc7e9c45cb4ce177c5e7e5194640873987ee91103aa04",
+    "docs/publication/cover-versions/version-6-1/Version-6-1.png": "a528ccf669790a8e4a9c96edc22e293f096b2f8d1c8d3bb87445557151fa19da",
+    "docs/publication/cover-versions/version-6-1/Version-6-1.pdf": "4687a51d86f3d7e2672d3ed6d45b9787e8970b41c4ff00c5ff20ce87b6b54fe1",
+    "docs/publication/cover-versions/version-6-2/Version-6-2.png": "3f9d08bb65ca7f5dc211cc5173de8f4806fbe8dc4db4fc4b0f76a347d7414520",
+    "docs/publication/cover-versions/version-6-2/Version-6-2.pdf": "6d1f6f4d1f0a2640616e5f746b09677744e6ac3403571bf9b169dd94157cb9c6"
+  },
+  "visual_review": [
+    "All four PDF pages rendered successfully at 130 dpi.",
+    "Overview and full-size 6-2 inspected after enabling PDF image interpolation; cleaner edges and retained colour planes.",
+    "Ribbon and measurement-sticker overlay edges inspected: no obvious clipping or rectangular seams at the reviewed scale.",
+    "Version 6 and 6-1 use the same base artwork; optional overlays account for the intended differences."
+  ],
+  "ghostscript_exit_code": 0
+}

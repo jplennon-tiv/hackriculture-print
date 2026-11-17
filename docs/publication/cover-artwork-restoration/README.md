@@ -4,6 +4,6 @@
 
 [Restoration proof](../../../generated_images/exec-f936ef10-07a0-47ba-9e33-4298c2306942.png) · [Prompts, exact sources and diagnostic checks](ARTWORK.json) · [Saved Version 6-2](../cover-versions/version-6-2/README.md).
 
-The proof uses the saved 6-2 layout plus the original separate tomato and courgette illustrations, with approved house-style heroes as references. It restores clearer colour planes, highlights and leaf structure. It remains a generated redraw rather than exact source-pixel restoration, and awaits John's feedback. Saved numbered versions and all delivered PDFs remain unchanged.
+The proof uses the saved 6-2 layout plus the original separate tomato and courgette illustrations, with approved house-style heroes as references. It restores clearer colour planes, highlights and leaf structure. It remains a generated redraw rather than exact source-pixel restoration, and John has responded ‘That’s better’. He requested careful tracking of the originals; the [cover-source register](../../assets/cover-sources/README.md) now records them. Saved numbered versions and all delivered PDFs remain unchanged.
 
 The full-cover previews are about 151 dpi at 185 × 240 mm; this is separate from the mottled-colour issue. Final production should preserve original illustration assets and native type/sticker layers in an assembled layout. Future image proofs should be compared with those original sources, not only the previous generated cover. Do not silently promote this proof to saved Version 6-2 or claim a high-resolution production master has been built.

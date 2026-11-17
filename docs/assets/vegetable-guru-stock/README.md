@@ -1,5 +1,9 @@
 # The Vegetable Guru — illustration stock
 
+**John gardening, 17 November:** [four photo-derived people-and-garden illustrations](john-gardening-2026-11-17/README.md): standing with the harvest, tomato picking, salad picking and planting out. Separate transparent masters, original source records and a five-page source comparison are retained. John found face/body detail too fine for the house style and parked the experiment. No revision or page substitution is requested.
+
+**Current collection, 17 November:** [30 photo-derived illustration choices](photo-derived-2026-11-17/README.md): the six accepted originals (01–04, 07, 08) plus 24 new candidates (09–32). Sources include John's Photos/archive photographs and native video frames, with nine credited CC0/public-domain online photographs. Separate transparent PNG masters, a 13-page source-comparison PDF, exact prompts/source records and smaller downloadable artwork sets are retained; redundant large ZIPs were pruned on 17 November. 05/06 remain set aside as too arranged. John finds the plant sketches useful; selection and placement are deferred until work returns to the interior; the [first collection](photo-derived-2026-11/README.md), October collection below and existing book pages are unchanged.
+
 [Review all eight illustrations and placement studies](REVIEW.html).
 Generated and restyled 7 October 2026 with the built-in image-generation tool.
 The gallery now shows the revised set; John said the redraws are better.

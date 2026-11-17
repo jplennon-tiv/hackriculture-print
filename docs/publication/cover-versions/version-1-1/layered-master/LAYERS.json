@@ -1,0 +1,170 @@
+{
+  "date": "2026-11-16",
+  "status": "Layered technical master; visual/user review pending",
+  "source": "sources/repaired-cover.png",
+  "source_sha256": "f611337d7a0ffde83b1588be54c5002277f938962bb84629b80619676fe2eb46",
+  "underlay": "sources/hidden-area-underlay.png",
+  "underlay_sha256": "987afb1571ca670aa8ddc84282563308990760749295c4b433b48c1617d9f00d",
+  "native_px": [
+    1100,
+    1430
+  ],
+  "layers": [
+    {
+      "index": 1,
+      "id": "paper-colour",
+      "label": "01 Paper colour",
+      "ora_file": "ora-layers/01-paper-colour.png"
+    },
+    {
+      "index": 2,
+      "id": "wood-grain",
+      "label": "02 Scrubbed wood texture",
+      "ora_file": "ora-layers/02-wood-grain.png"
+    },
+    {
+      "index": 3,
+      "id": "top-vegetables",
+      "label": "03 Top photographic vegetables",
+      "ora_file": "ora-layers/03-top-vegetables.png"
+    },
+    {
+      "index": 4,
+      "id": "bottom-vegetables",
+      "label": "04 Bottom photographic vegetables",
+      "ora_file": "ora-layers/04-bottom-vegetables.png"
+    },
+    {
+      "index": 5,
+      "id": "title",
+      "label": "05 Title artwork",
+      "ora_file": "ora-layers/05-title.png"
+    },
+    {
+      "index": 6,
+      "id": "subtitle",
+      "label": "06 Subtitle artwork",
+      "ora_file": "ora-layers/06-subtitle.png"
+    },
+    {
+      "index": 7,
+      "id": "author",
+      "label": "07 Author artwork",
+      "ora_file": "ora-layers/07-author.png"
+    },
+    {
+      "index": 8,
+      "id": "organic-ribbon",
+      "label": "08 Organic ribbon — editable fill",
+      "ora_file": "ora-layers/08-organic-ribbon.png"
+    },
+    {
+      "index": 9,
+      "id": "youtube-sticker",
+      "label": "09 YouTube sticker",
+      "ora_file": "ora-layers/09-youtube-sticker.png"
+    },
+    {
+      "index": 10,
+      "id": "measurements-sticker",
+      "label": "10 Traditional measurements sticker",
+      "ora_file": "ora-layers/10-measurements-sticker.png"
+    }
+  ],
+  "assets": [
+    {
+      "name": "top-vegetables",
+      "file": "assets/top-vegetables.png",
+      "sha256": "52ae483ea8a317350ddd071c146e28fcf02066966db9f8189dad230c9e0a8a73",
+      "full_canvas_px": [
+        1100,
+        1430
+      ],
+      "visible_opaque_original_pixels": 618,
+      "changed_original_RGB_pixels": 0,
+      "hidden_reconstructed_opaque_pixels": 73
+    },
+    {
+      "name": "bottom-vegetables",
+      "file": "assets/bottom-vegetables.png",
+      "sha256": "968c1971cb67424331736da5f743e45cf15147cc86bb13b15ac71ccb41a99b53",
+      "full_canvas_px": [
+        1100,
+        1430
+      ],
+      "visible_opaque_original_pixels": 226,
+      "changed_original_RGB_pixels": 0,
+      "hidden_reconstructed_opaque_pixels": 28
+    },
+    {
+      "name": "title",
+      "file": "assets/title.png",
+      "sha256": "88189602352ac65876ea2d82ee466351c23943fbfdcb088509de139d0ee9b9aa",
+      "full_canvas_px": [
+        1100,
+        1430
+      ]
+    },
+    {
+      "name": "subtitle",
+      "file": "assets/subtitle.png",
+      "sha256": "7fdf853595ae812965912b03ca3ebef3b82d5dd0f0b87f89f7eb5b4791cc1da2",
+      "full_canvas_px": [
+        1100,
+        1430
+      ]
+    },
+    {
+      "name": "author",
+      "file": "assets/author.png",
+      "sha256": "753df6a14c76127dc6d8eb14cd064012d62a2f8d6954ef0689bc85c326b1218b",
+      "full_canvas_px": [
+        1100,
+        1430
+      ]
+    },
+    {
+      "name": "ribbon-lettering",
+      "file": "assets/ribbon-lettering.png",
+      "sha256": "533a6ac4913ee598bae4735341d7d6baed546da41e88e8faf91abce276e22018",
+      "full_canvas_px": [
+        1100,
+        1430
+      ]
+    },
+    {
+      "name": "youtube-sticker",
+      "file": "assets/youtube-sticker.png",
+      "sha256": "5a159482abd8487dfbb684b6c362e128cd84dca6913dbfbae6af10499eaf7d9e",
+      "full_canvas_px": [
+        1100,
+        1430
+      ]
+    },
+    {
+      "name": "measurements-sticker",
+      "file": "assets/measurements-sticker.png",
+      "sha256": "b28237d92d3742aa2b35f4de10d331d729ebebc6ec81a7e75e907038844ff237",
+      "full_canvas_px": [
+        1100,
+        1430
+      ]
+    }
+  ],
+  "alpha_reference": {
+    "source": "sources/vegetable-alpha-reference.png",
+    "sha256": "e726c140cdf04013debc55d04be147acaa34a9119a40b1afa55e6f0be592599e",
+    "usage": "Alpha only; generated RGB discarded. No bottom-group drop shadow."
+  },
+  "background": {
+    "source": "sources/cream-wood.png",
+    "sha256": "b62165a22556fe65cd5ce73e6687dbb932f9afa2affc87c1ba5d06d56304b5e1",
+    "display": "Separate cream fill and subdued grayscale wood texture from a dedicated full-portrait background."
+  },
+  "limitations": [
+    "Previously obscured areas are reconstructed; not recovered original camera pixels.",
+    "Photographic RGB pixels in visible opaque regions are unchanged; transparency mattes are new. Bottom-group cast and contact shadows removed; top-group contact shadow retained.",
+    "Lettering is preserved as separately movable graphic artwork, not editable font text.",
+    "Native photographic resolution remains 1100 x 1430; not a final high-resolution print master."
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "date": "2026-11-16",
+  "purpose": "Complete portable cream-cover layered master, native components and source inputs",
+  "source_rule": "Frozen source bytes; future composition edits should use layers rather than serial full-cover generation.",
+  "files": [
+    {
+      "path": "CHECKS.json",
+      "bytes": 2154,
+      "sha256": "867a970f61006e7bdf74379848d0230449c22a21a54f915a0d92bd41db469998"
+    },
+    {
+      "path": "LAYERS.json",
+      "bytes": 5079,
+      "sha256": "8de9aabd6de47b45a5c96d41b14eacffeee8f6045f055fbd199f10b626ded9fc"
+    },
+    {
+      "path": "Layered-Master-Preview.pdf",
+      "bytes": 2803261,
+      "sha256": "01500f144062b122a0f13cf60efe4e14d7024c0943a07cb61b79ad1d2ac7265c"
+    },
+    {
+      "path": "Layered-Master-Preview.png",
+      "bytes": 2485825,
+      "sha256": "ba3aa1b883ae47e36009e997babdae13eccb3879417c3ba201d5bb6e1bf11a96"
+    },
+    {
+      "path": "MATTE-GENERATION.json",
+      "bytes": 2005,
+      "sha256": "2c981a2464cc3b2a6459cc1bf06d3d19ac57d364d9f7ce57f2062d3821c842da"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4439,
+      "sha256": "4ae7240a11baa794be4968043672f435768a8c57b4dedef0109b633cf952c63b"
+    },
+    {
+      "path": "RESTORATION-GENERATION.json",
+      "bytes": 4258,
+      "sha256": "d4634d6b0010f37e75b2a87cface303827633e3ba00c01736cbd607973e2ddf8"
+    },
+    {
+      "path": "UNDERLAY-GENERATION.json",
+      "bytes": 2775,
+      "sha256": "c753ba73a085c631c4fb6ad921e82d211d6085d7c80f3d678633fab4436fe367"
+    },
+    {
+      "path": "Vegetable-Guru-Layered-Master.ora",
+      "bytes": 5794970,
+      "sha256": "2b645923fbc892e1a7f896be2eb2af5b62db12ec92048a8b477c22210a6fe1f4"
+    },
+    {
+      "path": "Vegetable-Guru-Layered-Master.psd",
+      "bytes": 67640082,
+      "sha256": "e818d4a80c4f45b0c29b3c602896c1252847a8e5ecee89bf574a5e7c9447a4ca"
+    },
+    {
+      "path": "Vegetable-Guru-Layered-Master.svg",
+      "bytes": 6449847,
+      "sha256": "84974308dae437338de79be1993b8a02e4931cee32879355a5f6fa0249e63b63"
+    },
+    {
+      "path": "assets/author.png",
+      "bytes": 41899,
+      "sha256": "753df6a14c76127dc6d8eb14cd064012d62a2f8d6954ef0689bc85c326b1218b"
+    },
+    {
+      "path": "assets/bottom-vegetables.png",
+      "bytes": 1514505,
+      "sha256": "968c1971cb67424331736da5f743e45cf15147cc86bb13b15ac71ccb41a99b53"
+    },
+    {
+      "path": "assets/measurements-sticker.png",
+      "bytes": 76573,
+      "sha256": "b28237d92d3742aa2b35f4de10d331d729ebebc6ec81a7e75e907038844ff237"
+    },
+    {
+      "path": "assets/ribbon-lettering.png",
+      "bytes": 16957,
+      "sha256": "533a6ac4913ee598bae4735341d7d6baed546da41e88e8faf91abce276e22018"
+    },
+    {
+      "path": "assets/subtitle.png",
+      "bytes": 76272,
+      "sha256": "7fdf853595ae812965912b03ca3ebef3b82d5dd0f0b87f89f7eb5b4791cc1da2"
+    },
+    {
+      "path": "assets/title.png",
+      "bytes": 257307,
+      "sha256": "88189602352ac65876ea2d82ee466351c23943fbfdcb088509de139d0ee9b9aa"
+    },
+    {
+      "path": "assets/top-vegetables.png",
+      "bytes": 1017883,
+      "sha256": "52ae483ea8a317350ddd071c146e28fcf02066966db9f8189dad230c9e0a8a73"
+    },
+    {
+      "path": "assets/wood-texture.png",
+      "bytes": 1726390,
+      "sha256": "b62165a22556fe65cd5ce73e6687dbb932f9afa2affc87c1ba5d06d56304b5e1"
+    },
+    {
+      "path": "assets/youtube-sticker.png",
+      "bytes": 107537,
+      "sha256": "5a159482abd8487dfbb684b6c362e128cd84dca6913dbfbae6af10499eaf7d9e"
+    },
+    {
+      "path": "build-layers.mjs",
+      "bytes": 10250,
+      "sha256": "df40fc92b133c86d71004017bbe924200686b6af33c6e80537b77204487c6ebe"
+    },
+    {
+      "path": "check-files.py",
+      "bytes": 3598,
+      "sha256": "c012deba71c07ba94c98a2dae2bb8c6d5b0c9b1d6861def537313c519110b18e"
+    },
+    {
+      "path": "layout.json",
+      "bytes": 144,
+      "sha256": "95754982446d50b880e68e77cce9df6ddaf2f7b12f82534184acb1a0589817b3"
+    },
+    {
+      "path": "package-delivery.py",
+      "bytes": 2112,
+      "sha256": "48888d96235ceda23ea940380465bfeffcfb90712a28150840270d1ee34dfc81"
+    },
+    {
+      "path": "package-formats.mjs",
+      "bytes": 2884,
+      "sha256": "cf69ce1cb62c39f611a10423c34ce30fabf80e9e05af756a321c91b96fa89b0b"
+    },
+    {
+      "path": "package.json",
+      "bytes": 262,
+      "sha256": "817160381c200e1f39c3707ed99bf65a1f158353b824909f186ec1e38f5f1aca"
+    },
+    {
+      "path": "sources/alpha-input.png",
+      "bytes": 3421279,
+      "sha256": "ff170b7b0f0866247559893033dbc327b57fa07f707ae648d81f4a2102af3bf7"
+    },
+    {
+      "path": "sources/cream-trial-before-restoration.png",
+      "bytes": 2308101,
+      "sha256": "4c9099ddb394b7f026191c7754772ac3b39ca29e90321e996da1ee3ec8b8a9f0"
+    },
+    {
+      "path": "sources/cream-wood.png",
+      "bytes": 1726390,
+      "sha256": "b62165a22556fe65cd5ce73e6687dbb932f9afa2affc87c1ba5d06d56304b5e1"
+    },
+    {
+      "path": "sources/earliest-photographic-reference.png",
+      "bytes": 2438018,
+      "sha256": "ca095b06f3ae3221a48897fc6526e0393cf40fffc3c22b8e99879b128f1401e5"
+    },
+    {
+      "path": "sources/hidden-area-underlay.png",
+      "bytes": 2557493,
+      "sha256": "987afb1571ca670aa8ddc84282563308990760749295c4b433b48c1617d9f00d"
+    },
+    {
+      "path": "sources/repaired-cover.png",
+      "bytes": 2583377,
+      "sha256": "f611337d7a0ffde83b1588be54c5002277f938962bb84629b80619676fe2eb46"
+    },
+    {
+      "path": "sources/vegetable-alpha-reference.png",
+      "bytes": 1851590,
+      "sha256": "e726c140cdf04013debc55d04be147acaa34a9119a40b1afa55e6f0be592599e"
+    }
+  ]
+}

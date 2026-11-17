@@ -1,0 +1,15 @@
+{
+  "branch": "print-proof",
+  "head_before": "72dfe2a053c8c137a5c237624170b335bfe9f348",
+  "upstream_before": "f6efdfab81f924560420c9daa3208d31b3ff3a08",
+  "gitignore_sha256": "4b24c7f098744ed5c62415f174fd8d3c4f82b3292ff2a7de812d0b5223838c19",
+  "remove_from_commit": [
+    "docs/publication/summer-cover-photo-search/Cover-Photo-Shortlist-Stills.zip",
+    "docs/publication/cover-comparisons/saved-photographic-2026-11-12/The-Vegetable-Guru-Direction-03-Photographic-2026-11-12.zip"
+  ],
+  "stage_other": [
+    ".gitignore"
+  ],
+  "preserve": "All other committed and uncommitted changes; ordinary fast-forward push remains possible if remote is unchanged.",
+  "not_performed": "No live commit, ref, index or remote mutation during the audit."
+}
