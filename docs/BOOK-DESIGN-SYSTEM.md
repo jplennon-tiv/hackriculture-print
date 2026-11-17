@@ -1,6 +1,6 @@
 # The Vegetable Guru — book design system
 
-Consolidated 8 October; cover/source-status references updated 10 November 2026. Based on the selected covers, approved Compact Book v1,
+Consolidated 8 October; cover/source-status references updated 17 November 2026. Based on the selected covers, approved Compact Book v1,
 approved contents/how-to and current opening-page proposals. This is the shared
 design reference for the 185 × 240 mm paperback. It records existing choices;
 creating this document does not approve unfinished designs or change any artwork.
@@ -77,9 +77,7 @@ exporter, frozen references and A4 outputs retain their existing treatments.
 ## Identity and colour
 
 Front title: **The Vegetable Guru**. Subtitle: **Your at-a-glance growing companion**.
-Keep the front free of the removed guide-count footer. The back uses the title
-and **44 growing guides and 14 troubleshooting guides**, with the current price,
-blurb and ISBN/barcode area as directed in the handover.
+Guide counts are omitted from both covers at John’s request. The rear carries the title, blurb, working price and ISBN/barcode area. See the handover for the current proof.
 
 The established interior colour vocabulary is:
 
@@ -100,11 +98,7 @@ alone. The selected cover rasters contain tonal variations; these interior token
 are not permission to recolour the selected images or claim exact cover ink values.
 These are RGB design values, not a confirmed CMYK/press specification.
 
-For the saved photographic front-cover candidate, John selected **revision 16
-midpoint yellow**, superseding the earlier 06B lighter sage. The [colour decision](publication/cover-image-direction/COLOUR-SELECTION.json)
-identifies the exact visual reference. This is a cover-specific selection; the
-interior palette above remains unchanged, and the generated colour is not yet a
-measured press specification. Cover typography is still under discussion.
+The current cover choice is the **cream development of Version 1-1**, selected on 17 November. Its [layered working master](publication/cover-versions/version-1-1/layered-master/README.md) owns the cream scrubbed-wood treatment, photographic-style vegetables, yellow Organic ribbon and separate stickers. Preserve its source pixels and edit components independently. These are working cover values, not new interior tokens or a measured press specification. The [saved yellow photographic candidate](publication/cover-image-direction/COLOUR-SELECTION.json) and original sage/ivory Version 1-1 remain historical references. Follow the [handover](handover/START-HERE.md#resume-here) for current scope.
 
 ### Family Tint
 
@@ -200,40 +194,9 @@ for the retained original opening proposal. Current title/publication placement 
 
 The separate **approved personal introduction** uses Lilita 32.25 pt, Nunito Sans body/sign-off 10.5 pt with 14.5 pt leading, and an 8.25 pt photograph caption. Its 78 × 53.1 mm garden photograph sits beside the closing message; exact composition is frozen in the [15 November approval](publication/introduction-revision/APPROVAL.json).
 
-John selected **Lilita One for the cover** on 11 November after full-cover trial
-08H, linking it directly to the interior headings. The [type decision](publication/cover-image-direction/TYPE-SELECTION.json)
-records that choice. John accepted revision 09’s visual title size/spacing
-on 11 November. Exact native font metrics and editable production lettering
-remain to be prepared. The official family supplies only Regular/400; do not label
-a generated thinning as an available font weight. Revision 09 is an authorised
-size-and-spacing study of the two main title words, retaining the natural font
-weight; John has now accepted its visual treatment. Revision 10 centres the
-photo frame. John selected revision 11A’s person-led direction and likeness,
-then requested candid gardening action. **Revision 12A, tending tomatoes, is
-the selected photograph**; the weeding and wheelbarrow variants are comparisons.
-Keep faces, hands and principal subjects clear of the title. Revision 13 introduced white
-title lettering and a white subtitle circle, retaining dark-green supporting text.
-John reopened yellow as a surround colour in 14, found the lighter 15 too light,
-and accepted **midpoint yellow 16**. Earlier sage and yellow versions remain
-comparisons. **Revision 17 proposes a compact YouTube feature at top right**,
-with red play symbol, dark-green ‘As seen on YouTube’ and ‘@hackriculture’, using
-the existing lettering style. On 12 November John asked to save this candidate
-and explore a new illustrated composition before choosing between the three
-directions; see the [comparison tracker](publication/cover-comparisons/README.md). Lilita and
-the selected 12A photograph continue; no finished-cover or production approval
-is implied.
+John selected **Lilita One** during the earlier photographic cover studies; its [type decision](publication/cover-image-direction/TYPE-SELECTION.json) and [trial history](publication/cover-image-direction/README.md) retain the exact preference and references. The official family supplies only Regular/400; do not label a generated thinning as an available font weight. Those dated requests are completed experiments, not current cover instructions.
 
-For the current front-cover trials, John requires **one typeface throughout each
-cover**, with size and weight providing hierarchy (11 November). This supersedes
-the proposed serif-title / Nunito-supporting-text combination for the cover.
-The [revision 07 studies](publication/cover-image-direction/README.md) test two
-serif treatments; John prefers 07B but finds it reminiscent of the 1970s.
-A subsequent title-only list compared eight actual fonts. John ranked Lilita One
-first, then Charter Bold and Avenir Next Demi Bold, and requested full covers
-in those three. Revision 08 now provides these separate generated trials with
-actual-font specimens as direct references. John subsequently selected Lilita One
-(08H) and then accepted revision 09’s size/spacing; final execution remains open. The approved interior
-type roles above remain unchanged.
+The selected cream Version 1-1 master preserves the accepted-looking title, subtitle, author and badge lettering as separate **raster artwork**, not live fonts. Preserve that lettering when making layout changes. Exact editable production type is unresolved and must be compared visually with the selected source. Earlier one-typeface photographic trials do not require removing the later accepted distinct lettering in the Organic ribbon or measurement sticker. Interior type roles above remain unchanged.
 
 Folios are an explicit profile exception: the frozen guide proof uses 6 pt;
 the working supplier profile raises guide footers and sub-7-pt utility labels
@@ -276,8 +239,8 @@ their page total is not the interior count used for print costing/spine calculat
 
 | Area | Carry forward | Status/source |
 | --- | --- | --- |
-| Front cover | G2 cream title centre; flush vegetable tiles above/below; bold dark lettering; author name below subtitle; no count footer | Selected [G2 artwork](publication/vegetable-guru-grid-variations/assets/G2-centre-title.png); [native production adaptation and wrap](publication/bookvault-print-ready/REVIEW.html) used for the first physical proof; new cover work follows the handover |
-| Back cover | B5 dark green; cream title/count subtitle; left blurb and slightly angled torn fragments at right; price and ISBN area | Preferred [B5 artwork](publication/vegetable-guru-back-collage/B5.png); production adaptation uses exact book crops in place of generated snippets |
+| Front cover | Cream scrubbed-wood background; natural photographic-style vegetable groups; dark title; subtitle and author; yellow Organic corner ribbon; YouTube and black/gold Traditional Measurements stickers; no title leaves or lower cast shadow | Selected [cream Version 1-1 development](publication/cover-versions/version-1-1/DIRECTION-SELECTION.json), [ten-layer working master](publication/cover-versions/version-1-1/layered-master/README.md). Original sage/ivory 1-1 and G2/proof covers remain frozen references; final production approval is separate |
+| Back cover | Current proposal continues the cream wood across both faces. A smaller Kitchen roots arrangement accompanies the headline. The rear carries the book blurb, a tilted rectangular sticker combining the greenhouse portrait and author note, price and ISBN/barcode area. | [Cream rear cover with rectangular sticker](publication/cover-versions/version-1-1/rear-cream-harvest/rectangle/README.md). [Revision 07](publication/cover-refined-direction/revision-07/README.md) and [B5](publication/vegetable-guru-back-collage/B5.png) are historical references |
 | Title/publication | Cover-related title strip and quieter publication page | [Original pages 1–3 proposal](publication/vegetable-guru-opening-pages/REVIEW.html) retained; current assembly omits the welcome/author page. Metadata placeholders remain. |
 | Contents/how-to | Simple illustrated contents with calculated page references; calendar, difficulty and needs explanations in the combined Guides opening | [Approved source pages 4–7](publication/vegetable-guru-entry-pages/REVIEW.html) remain frozen. The accepted [two-page contents](publication/contents-update/REVIEW.html) and [approved combined Guides/how-to](publication/combined-guides-opening/APPROVAL.json) are integrated in the full preview. |
 | Index | Two open columns; 9.45 pt reading type, orange folios, ruled alphabet headings, continued labels, no decorative artwork | [Four-page index](publication/book-index/REVIEW.html), approved 12 October; [frozen sources](publication/book-index/APPROVAL.json); current integrated folios 172–175 |
@@ -286,8 +249,9 @@ their page total is not the interior count used for print costing/spine calculat
 | Troubles | Open two-column entries, complete diagnostics, small Recognise / Act / Prevent advice labels. Approved separate wrapping masks, 4 mm gap and 25% larger drawings. Natural book flow leaves unused space after the final content, with normal gaps and unequal lower edges where complete entries require them. The Brassica specimen is accepted for rollout: descending importance, bounded fit moves and separated pale panels with top-right ribbons and no panel border; alphabetical ties are withdrawn. All 14 guides now use exactly 24 approved Common Pest / Common Disease / Common Problem highlights; potato slugs remain ordinary. Both-unit [complete section proofs](publication/troubles-rollout/README.md) are built; these exact approved pages are now integrated in the main book. Explain the sequence on the opener instead of repeating the arrowed page header. | [Guide contract](BOOK-PRINT-STYLE.md#troubles); [image-treatment approval](publication/troubles-image-size-study/APPROVAL.json); [header revision](publication/troubles-header-refinement/README.md); no enclosing equal-height cards |
 
 Shared character comes from colour, typography and illustration language, with
-different information densities. Keep cover tiles rectangular and flush; do not
-spread that grid across editorial pages. Rounded/asymmetric supporting fields,
+different information densities. The selected cover permits natural vegetable
+overflows; the earlier G2 flush-tile grid is a historical treatment, not a
+constraint on this cover or on editorial pages. Rounded/asymmetric supporting fields,
 small tilted ribbons and fine rules retain their existing roles. A diagnostic
 entry stays open even when a contents panel has a coloured background.
 
@@ -305,7 +269,9 @@ revision; its design and final geometry still need review.
 
 ## Illustration and reuse
 
-Decorative vegetables use the bold simplified silhouettes, broad colour planes
+For garden-grown photographic arrangements, use [Photorealistic Vegetables](skills/photorealistic-vegetables/SKILL.md). The [natural-pile cover](publication/cover-versions/version-1-1/garden-harvest-natural-pile/Allotment-Harvest.png) establishes the reference for anatomy, overlap and restrained handling marks. This treatment is also available for explicitly photographic interior commissions.
+
+Graphic vegetable heroes use the bold simplified silhouettes, broad colour planes
 and graphic highlights of the approved heroes. The
 [artwork skill](../.agents/skills/vegetable-guru-artwork/SKILL.md) owns generation
 and direct-reference comparison. Use existing assets before creating more.
@@ -386,7 +352,9 @@ After John's decision, update the owning rule here (or the detailed guide
 contract), the affected working implementation and its approval/source record.
 Do not create another competing style guide or overwrite a frozen proof.
 
-Next-session work covers revised cover artwork and cover text; the personal introduction is approved and installed. The final
+The next session concerns the selected cream cover exclusively, following the
+handover and John’s next brief; no new copy rewrite is requested. The personal
+introduction is approved and installed. The final
 cover typography/snippets, publication metadata, stock-dependent wrap/spine and
 revised print files remain to be settled. Retain the current opening sequence
 and cream blank-page treatment unless John changes them. Consult the handover

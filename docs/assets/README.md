@@ -15,7 +15,7 @@ Editable book opening/cover words now live in the shared
 The [8 October migration receipt](../publication/book-layout-working/MIGRATION.json)
 records verbatim extraction and matching proofs. Frozen HTML/PDFs below remain
 references; edit the JSON and build separate working pages rather than overwriting
-them. Cover JSON supplies editable copy; the selected G2/B5 concept lettering is raster,
+them. Cover JSON supplies editable copy; the historical G2/B5 concept lettering is raster,
 while the separate 19 October production cover already has native type.
 
 **Introduction ownership:** the official page 7 is now [John's approved personal introduction](../publication/introduction-revision/APPROVAL.json), installed on 15 November. Its [copy, renderer and frozen proof](../publication/introduction-revision/README.md) supersede the earlier `why-grow` body. The [enhanced 1991 garden photograph](book-photographs/README.md) is a saved, approved book asset. Shared `book-layout/introduction.json` still belongs to the omitted older welcome/about-author composition; it is not this page's owner. The approved Guides/how-to page 9 is also separate. Preserve prior source proofs as historical evidence.
@@ -241,8 +241,11 @@ and separate illustrations, edition stickers and the retained revision 07 back.
 It includes exact file hashes, generation prompts, crop/placement records,
 fonts and build scripts. Its read-only verifier detects missing or changed files.
 The cleaner 16 November restoration remains separate from saved Version 6-2.
-Native editable type and sticker layers have not yet been assembled into a
-production master. Use the [handover](../handover/START-HERE.md#resume-here) for
+The selected [cream Version 1-1 working master](../publication/cover-versions/version-1-1/layered-master/README.md)
+now has ten independent layers, including separate lettering, yellow ribbon and
+stickers. Its source PNGs, masks, reconstructed occlusions, recipes and local
+manifest are retained in that folder. It is not a final print master: lettering
+is raster and native resolution remains about 151 dpi. Use the [handover](../handover/START-HERE.md#resume-here) for
 current choices; older cover approvals below remain historical source evidence.
 
 ## Cover C
@@ -300,7 +303,7 @@ production. John now prefers **B5 Off-centre collage** (7 October); its source
 hash and exact decision are recorded in the provenance file. Preserve its dark
 green, left-hand blurb and angled paper collage on the right during refinement.
 The separate native production adaptation below was used for the first physical
-proof. G2/B5 remain historical selected sources. Following the later three-direction review, direction 1 is the preferred development base. Its [15 November revision 07](../publication/cover-refined-direction/revision-07/README.md) now proposes varied matte crop artwork and three crossed carrots, paired with a native back containing original T05 photo pixels and an actual approved Carrot spread. [Exact sources, prompts and hashes](../publication/cover-refined-direction/revision-07/ARTWORK.json) distinguish generated front artwork from the authentic photograph. Revised artwork and placement await review; no new cover is approved.
+proof. G2/B5 remain historical selected sources. The retained [15 November revision 07 back](../publication/cover-refined-direction/revision-07/README.md) contains original T05 photo pixels and an actual approved Carrot spread; its front has been superseded by the selected cream Version 1-1 direction. [Exact sources, prompts and hashes](../publication/cover-refined-direction/revision-07/ARTWORK.json) distinguish generated front artwork from the authentic photograph. The back is a reference for later adaptation, not a final back approved for the chosen cream front.
 
 ## Title, publication and welcome
 

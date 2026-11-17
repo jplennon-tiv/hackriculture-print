@@ -1,6 +1,6 @@
 # Cover originals and reconstruction register
 
-16 November 2026. John requested careful tracking of all originals after accepting
+Updated 17 November 2026. John requested careful tracking of all originals after accepting
 the improvement in the separate artwork-restoration proof. This register covers
 the numbered fronts, their retained development sources and the revision 07 back.
 It does not replace the [handover](../../handover/START-HERE.md#resume-here) as the
@@ -11,11 +11,13 @@ owner of current choices or grant production approval.
 
 The [cleaned 6 / 6-1 / 6-2 comparison](../../publication/cover-versions/versions-6-comparison/restored-2026-11-16/README.md) adds one new clean base and a native overlay recipe. These are tracked separately from the saved originals. The earlier downloadable register ZIP remains a dated snapshot of the initial 362-file inventory.
 
-The [V1a layout trial](../../publication/cover-versions/version-1a/README.md) adds a direct edit from frozen V1, with the exact source, prompt and generated master retained. It changes subtitle spacing/scale and sticker scale; it awaits John’s review.
+The [V1a layout trial](../../publication/cover-versions/version-1a/README.md) adds a direct edit from frozen V1, with the exact source, prompt and generated master retained. It changes subtitle spacing/scale and sticker scale; it is a historical development step leading to Version 1-1, not a pending review task.
 
-The [V1b wood-background trial](../../publication/cover-versions/version-1b/README.md) continues from V1a and harmonises the central surface. Its source and generated master are retained separately; review is pending.
+The [V1b wood-background trial](../../publication/cover-versions/version-1b/README.md) continues from V1a and harmonises the central surface. Its source and generated master are retained separately as historical development, not a pending review task.
 
 [Version 1-1](../../publication/cover-versions/version-1-1/README.md) is the saved yellow-ribbon design, selected by John. V1c/d records preserve the red-to-yellow graphic development and exact restored-6-2 references. Its subsequent cream experiment is separate. The [cream layered master](../../publication/cover-versions/version-1-1/layered-master/README.md) retains the photographic restoration, transparency masks, hidden-area reconstruction, wood background, ten layers, source hashes and rebuild recipes. Its bottom vegetable shadow is removed; saved Version 1-1 is unchanged.
+
+For the selected cream cover, start with its [component/source notes](../../publication/cover-versions/version-1-1/layered-master/README.md) and [local source manifest](../../publication/cover-versions/version-1-1/layered-master/SOURCE-MANIFEST.json). The main inventory below also covers earlier designs; its existence does not make each design current. [Uploaded working preview](https://chatgpt.com/library?file_id=libfile_fde3_f-1865419f78e881919b08e6707882a86e_968f6e806ba48191b80ffb1b7a35f663&account_id=personal).
 
 ## Start with these originals
 
@@ -51,6 +53,8 @@ and [6 / 6-1 / 6-2 builder](../../publication/cover-versions/versions-6-comparis
 are retained with their delivered PDFs and checks. Exact frozen images/PDFs are
 the authority for reproducing a saved design. Generation prompts document intent
 and references; rerunning them will not reproduce identical pixels.
+
+John selected the **cream Version 1-1 direction** for refinement and use on 17 November. The [layered working master](../../publication/cover-versions/version-1-1/layered-master/README.md) is the editable source; [selection scope](../../publication/cover-versions/version-1-1/DIRECTION-SELECTION.json) distinguishes direction selection from final production approval.
 
 ## Preservation and future work
 

@@ -13,11 +13,14 @@ entry point for current decisions, component status, outstanding work and
 publication/automation boundaries. It distinguishes approved designs from
 working book proofs and historical evidence. Follow John's latest instruction.
 
-**Latest state, 10 November:** all 44 vegetable working spreads and the subsequent
-variety additions are approved in both units, but are **not yet integrated** into
-the assembled book below. Detail edits are paused. The next session concerns
-cover artwork reconstruction and supporting literature, chiefly the introduction
-and cover text. [Current scope and exact sources](docs/handover/START-HERE.md#resume-here)
+**Latest state, 17 November:** the next session is exclusively about the selected
+**cream development of Version 1-1**. Its [ten-layer working master](docs/publication/cover-versions/version-1-1/layered-master/README.md)
+is ready for refinement; the original sage/ivory Version 1-1 remains frozen.
+Use component edits to protect the restored photographic detail. The personal
+introduction is approved and installed at page 7. All 44 vegetable working spreads
+and subsequent variety additions are approved in both units but still await
+main-book integration; interior work and illustration experiments are parked.
+[Current scope and exact sources](docs/handover/START-HERE.md#resume-here)
 · [Copy-and-paste handover](docs/handover/NEXT-SESSION.md).
 The authorised cleanup removed 12.35 GB of temporary/legacy files; print is now
 about 21.08 GB. Data, both Git histories, approved sources and optional video
@@ -55,13 +58,13 @@ bookmarks, crop links and numeric cross-references follow the revised locations.
 The [main-book evidence](docs/publication/whole-book-order-preview/README.md)
 records source preservation and actual PDF checks. Netting is now **164–165**,
 Supports **166–167**, and the index **172–175**.
-The introduction
-rewrite remains planned. The
+The [personal introduction](docs/publication/introduction-revision/README.md)
+is approved and installed. The
 [website is live](https://hackriculture.com/) and he confirms the SSL issue has
 resolved. The [current handover](docs/handover/START-HERE.md#resume-here) records
 where to resume, the website/print boundary and outstanding publication decisions.
 Preserve the exact ordered files for proof **BV3012332**. Physical quality is
-accepted; final corrections, introduction and publication preparation remain.
+accepted; final corrections and publication preparation remain.
 Book sales have not been activated.
 
 Before design or artwork work, use the handover's
@@ -108,7 +111,7 @@ page references are refreshed; editing annotations are absent. The approved Trou
 The opening sequence is title, publication, blank 3, facing contents 4–5,
 blank 6, Introduction 7, blank 8 and combined Guides/how-to at 9. Troubles and
 Techniques start on right-hand pages 99 and 147. G2 front, B5 back and approved
-publication/back-cover copy are retained, with missing metadata left as placeholders.
+publication/back-cover copy are retained in that assembled baseline, with missing metadata left as placeholders. They are historical cover references; the selected cream Version 1-1 front has not been integrated into the book or sent to the supplier.
 Exact component sources are in the [asset registry](docs/assets/README.md).
 The older [technical pack](docs/publication/book-preparation/REVIEW.html) is
 historical evidence, not the current complete book or a current production specification.

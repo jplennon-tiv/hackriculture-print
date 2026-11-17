@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2498" height="983" viewBox="-6 -6 141 55.5">
+  <defs>
+    <!-- All dimensions are in millimetres on the printed note. -->
+    <path id="sheet" d="M .02 .05 C 20 .15 33 .03 48 -.12 C 65 -.25 86 -.48 103 -.35 C 113 -.24 121 .04 128.97 -.04 C 128.87 9.4 129.12 19.7 129.12 29.8 C 129.13 34.5 129.08 38.6 128.78 41.48 Q 127.76 42.64 125.94 43.37 C 119.1 43.38 113.6 43.02 107 42.58 C 97 41.9 90 41.13 79.5 41.42 C 67.5 41.77 59.6 43.03 48.4 43.32 C 31.2 43.72 16.6 43.51 0 43.48 C .15 28.6 -.06 13.9 .02 .05 Z"/>
+    <clipPath id="paperClip"><use href="#sheet"/></clipPath>
+    <filter id="soft" filterUnits="userSpaceOnUse" x="-6" y="-5" width="141" height="55"><feGaussianBlur stdDeviation="1.05"/></filter>
+    <filter id="near" filterUnits="userSpaceOnUse" x="-6" y="-5" width="141" height="55"><feGaussianBlur stdDeviation=".37"/></filter>
+    <filter id="contact" filterUnits="userSpaceOnUse" x="-6" y="-5" width="141" height="55"><feGaussianBlur stdDeviation=".15"/></filter>
+    <linearGradient id="stock" x2=".18" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#fff"/><stop offset=".56" stop-color="#fff"/><stop offset="1" stop-color="#fcfbf7"/>
+    </linearGradient>
+    <radialGradient id="bend" cx="52%" cy="110%" r="60%">
+      <stop stop-color="#8b806c" stop-opacity=".18"/><stop offset=".57" stop-color="#a99e8b" stop-opacity=".085"/><stop offset="1" stop-color="#afa591" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="turned" x1="0" y1="0" x2="1" y2=".9">
+      <stop stop-color="#b9ad97"/><stop offset=".4" stop-color="#d8d0bd"/><stop offset=".8" stop-color="#f9f6ee"/><stop offset="1" stop-color="#fffdfa"/>
+    </linearGradient>
+  </defs>
+  <!-- Contact stays tight at the fixings. The broad mid-edge cast travels down and left. -->
+  <path d="M .0 .1 L 128.7 -.1 L 128.6 40.8 Q 128 43.9 125 44.1 C 109 44.7 96 46.4 79 46.15 C 65 45.94 57 44.84 47 44.3 Q 25 44.25 -.1 43.85 Z"
+        transform="translate(-.45 .27)" fill="#3c301e" opacity=".30" filter="url(#soft)"/>
+  <path d="M 0 .1 L 128.9 .0 L 128.7 41.6 Q 127.6 43.8 125.2 43.9 C 110.4 44.1 94.7 44.98 78.9 45 C 64.4 45 55.2 44.4 47 43.93 Q 22 43.9 -.1 43.75 Z"
+        transform="translate(-.24 .08)" fill="#413524" opacity=".22" filter="url(#near)"/>
+  <use href="#sheet" transform="translate(-.12 .22)" fill="#453a29" opacity=".31" filter="url(#contact)"/>
+  <use href="#sheet" fill="url(#stock)" stroke="#b9af9b" stroke-opacity=".23" stroke-width=".12"/>
+  <g clip-path="url(#paperClip)">
+    <path d="M 48 32 H 124 V 43.8 H 48 Z" fill="url(#bend)"/>
+    <path d="M 48.5 43.27 C 63 42.9 69 41.38 79.5 41.37 C 94.4 40.99 105 43.19 123.8 43.34" fill="none" stroke="#fffefa" stroke-width=".31"/>
+    <!-- The unpinned tip beyond the lower-right tack turns back a fraction. -->
+    <path d="M 125.2 43.45 C 126.7 43.02 128.16 42.31 128.83 41.11 Q 127.05 41.46 125.2 43.45 Z" fill="url(#turned)" stroke="#c0b69e" stroke-width=".055"/>
+  </g>
+</svg>

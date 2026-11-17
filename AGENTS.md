@@ -36,8 +36,9 @@ Before adapting any component, identify its approved source in the
 useful content and accepted choices. Compare the new proof with that source as
 well as checking fit. Record intentional omissions/replacements; do not silently
 substitute a new design because the trim or binding changed. The compact cover
-redesign has reached selected G2 for the front and preferred B5 for the back;
-continue those directions from the handover. Cover C guides colour/style only.
+choice and working master are owned by the current handover; follow its selected
+cream Version 1-1 development. G2/B5 and the physical-proof adaptation are retained
+historical references, not the current front. Cover C guides colour/style only.
 Preserve the approved compact contents/how-to and their A4 source designs;
 replacement artwork in the rough preview remains proposed. Keep all approved A4
 originals intact. Excluding A4-sized PDFs and old folios from compact exports
@@ -67,6 +68,10 @@ PDFs; ordinary browser export remains deterministic without an external AI API.
 Contents and index pages are outside the layout skills' scope. Use their agreed
 structure and the book design system directly, with actual PDF checks. Covers,
 overall book ordering and full-book assembly use the book-design workflow.
+
+For photographic harvest artwork, including a specifically requested photographic
+interior, use [Photorealistic Vegetables](docs/skills/photorealistic-vegetables/SKILL.md).
+For graphic illustrations use the artwork workflow below.
 
 For The Vegetable Guru vegetable illustration generation, restyling or style
 comparison, use [vegetable-guru-artwork](.agents/skills/vegetable-guru-artwork/SKILL.md).

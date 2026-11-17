@@ -1,24 +1,32 @@
 # Current project handover
 
-Updated 17 November 2026. The revised personal introduction, photograph and layout are [approved and installed at page 7](../publication/introduction-revision/APPROVAL.json). The [enhanced 1991 garden photograph](../assets/book-photographs/README.md) is saved as a reusable book resource. The assembled book remains 176 interior / 180 PDF pages; all other page bodies and navigation are retained. Following friends’ feedback, direction 1 is the preferred cover base; add a real photograph, probably on the back, and make the front artwork more naturally varied. All 44 vegetable working spreads and subsequent variety additions remain approved but await their separate main-book integration. [Copy-and-paste session brief](NEXT-SESSION.md).
-The [authorised storage cleanup](../maintenance/storage-audit/README.md) is complete: **2,087 temporary/legacy files removed, 12.35 GB of file data**, reducing print from 33.44 GB to about **21.08 GB**. The data folder, both Git histories, approved/current sources and optional video caches remain unchanged. [Completion ledger](../maintenance/storage-audit/COMPLETION.json).
+Updated 17 November 2026. **The next session concerns the selected cream Version 1-1 cover exclusively.** The ten-layer working master is ready for refinement; use the component sources to preserve photographic detail. [Copy-and-paste session brief](NEXT-SESSION.md).
+
+The [personal introduction](../publication/introduction-revision/APPROVAL.json) is approved and installed at page 7, with the [enhanced 1991 photograph](../assets/book-photographs/README.md) saved. The assembled book remains 176 interior / 180 PDF pages. The approved 44 vegetable working spreads and variety additions still await separate integration; interior work and image-library experiments are parked. The earlier [storage cleanup](../maintenance/storage-audit/README.md) and [17 November duplicate-ZIP cleanup](../maintenance/git-size-cleanup-2026-11-17/README.md) are complete, not new work queues.
+
 This document owns current scope, decisions and next actions. Read README,
 AGENTS and SHARED-DATA first. John's latest instruction takes precedence;
 dated reports and approvals are evidence, not instructions to resume old work.
 
 ## Resume here
 
-**GitHub size cleanup — working files pruned; one commit repair remains.**
-[The 17 November cleanup](../maintenance/git-size-cleanup-2026-11-17/README.md) removed eight verified duplicate ZIPs, saving 1.71 GB while preserving separate artwork, sources, PDFs and differing historical metadata. New ignore rules exclude rebuilt delivery ZIPs. The live Git index/history is unchanged: `72dfe2a` still contains the 189.4 MiB blocker. The guarded, isolated-tested `repair_push.py --apply` must run in John's terminal to amend that single pending commit before a normal push; it verifies the live remote first. Do not repeat consumed pruning or rewrite other history. Afterwards resume cover development from John's incoming purchaser feedback.
+**Current cover choice — cream Version 1-1, with the layered master ready for refinement.**
+On 17 November John selected the **cream development of Version 1-1** as the clear purchaser favourite and the cover to refine and use ([decision](../publication/cover-versions/version-1-1/DIRECTION-SELECTION.json)). Earlier, he saved the yellow-ribbon sage design as **[Version 1-1](../publication/cover-versions/version-1-1/README.md)**; that exact saved image remains unchanged. The subsequent cream trial developed mottled photographic detail. PNG integrity/round-trip checks passed; visual comparison points to successive generative changes rather than lossless saving. A [separate restoration](../publication/cover-versions/version-1-1/photographic-restoration/README.md) used the earliest photographic source. At John’s request, the [cream layered master](../publication/cover-versions/version-1-1/layered-master/README.md) now has ten independent layers: paper colour, wood texture, top/bottom vegetables, title, subtitle, author, ribbon, YouTube and Traditional Measurements stickers. The starting master omits the shadow beneath the bottom vegetables and retains the sticker shadows. The later harvest trials develop shadows on both vegetable groups. Visible photographic RGB outside explicitly reconstructed occluded regions is preserved exactly. The background-removal result supplies alpha only, never replacement RGB. PSD, SVG, OpenRaster, transparent PNG components, sources, recipes and checks are retained together. Lettering is graphic artwork, not live text; native photos remain 1100 × 1430 px, about 151 dpi. The cream design direction is selected; individual layer-proof details and final production approval remain separate. This is not a new numbered version. Future layout/colour edits must use the component master rather than another flattened-image generation. Original V1, V1-1 and all prior trials remain intact; no book page or back cover changed.
+
+**Chat preview delivery.** [Open the uploaded cream preview](https://chatgpt.com/library?file_id=libfile_fde3_f-1865419f78e881919b08e6707882a86e_968f6e806ba48191b80ffb1b7a35f663&account_id=personal); [exact delivery receipt](../publication/cover-versions/version-1-1/layered-master/PREVIEW-DELIVERY.json). The previous local Mac links failed in chat. Use uploaded preview links in conversation, retain their file identities for updates, and label local master paths for Finder use. Do not regenerate artwork to fix delivery.
+
+**Selected front artwork:** John preferred the [natural-pile original harvest](../publication/cover-versions/version-1-1/garden-harvest-natural-pile/Allotment-Harvest.png) and requested the other six arrangements in that style. Use [Photorealistic Vegetables](../skills/photorealistic-vegetables/SKILL.md) and the [trial record](../publication/cover-versions/version-1-1/natural-harvest-trials/ARTWORK.json) for this comparison. The solid forest-green lettering and restored cream woodgrain carry through the proofs. John accepted the [full Original harvest lighting](../publication/cover-versions/version-1-1/original-harvest-light-study/README.md), including shadows from the raised tomato truss on wood and neighbouring fruit. The [current seven-cover review](../publication/cover-versions/version-1-1/harvest-light-review/README.md) shows that reference and the six alternatives with casts specific to their own stems, leaves, roots and pods. John selected **01 · Original harvest** for the front. Use the [selected layered SVG](../publication/cover-versions/version-1-1/original-harvest-light-study/Original-Harvest-Cast-Shadows.svg) for further front-cover changes. The [six alternative arrangements](../assets/harvest-alternatives/README.md) are saved as reusable vegetable artwork.
+
+**Rear cover for review.** The [rectangular author sticker](../publication/cover-versions/version-1-1/rear-cream-harvest/rectangle/README.md) groups John’s original greenhouse photo and his author note on a slightly tilted white rectangle. Smaller beetroot and shallots sit beside “A book for muddy hands.” The expanded blurb uses leeks as an example. The working price is £17.50, with a separate ISBN/barcode space.
+
+**GitHub cleanup — working cleanup complete; John handling the push.**
+[The 17 November cleanup](../maintenance/git-size-cleanup-2026-11-17/README.md) removed eight verified duplicate ZIPs, saving 1.71 GB and preserving separate originals. GitHub rejected the subsequent push at c7a4313. The 189.4 MiB ZIP survives in the first of two pending commits. A [new two-commit repair](../maintenance/print-push-recovery/repair.py) is prepared for local application. See the cleanup record for usage and scope.
 
 **John gardening — experiment parked after review, 17 November.**
 John finds the face/body rendering too detailed for the in-house style. Keep the [four-image experiment](../assets/vegetable-guru-stock/john-gardening-2026-11-17/README.md) and sources, but do not revise or place it now. [Exact decision](../assets/vegetable-guru-stock/john-gardening-2026-11-17/REVIEW-DECISION.json).
 
 **Photo-derived inner-page artwork — useful stock, deferred until the interior resumes.**
 John reviewed the [30-image collection](../assets/vegetable-guru-stock/photo-derived-2026-11-17/README.md) as useful. It contains six byte-exact accepted originals and 24 new candidates; 05/06 remain set aside. Separate transparent masters, native photographs/video frames, nine credited online sources, direct approved hero references, prompts and the 13-page comparison remain. Redundant large ZIPs were pruned; the smaller downloadable artwork sets remain. Image 23 retains a generic young-plant/rootball label because crop identity is unconfirmed. No new page placement or blanket illustration approval is implied; preserve the original acceptance record.
-
-**Current cover work — cream cover separated into layers; bottom shadow removed.**
-John selected the yellow-ribbon sage design as **[Version 1-1](../publication/cover-versions/version-1-1/README.md)**; that exact saved image remains unchanged. The subsequent cream trial developed mottled photographic detail. PNG integrity/round-trip checks passed; visual comparison points to successive generative changes rather than lossless saving. A [separate restoration](../publication/cover-versions/version-1-1/photographic-restoration/README.md) used the earliest photographic source. At John’s request, the [cream layered master](../publication/cover-versions/version-1-1/layered-master/README.md) now has ten independent layers: paper colour, wood texture, top/bottom vegetables, title, subtitle, author, ribbon, YouTube and Traditional Measurements stickers. His latest request removes the shadow beneath the bottom vegetables; sticker shadows remain. Visible photographic RGB outside explicitly reconstructed occluded regions is preserved exactly. The background-removal result supplies alpha only, never replacement RGB. PSD, SVG, OpenRaster, transparent PNG components, sources, recipes and checks are retained together. Lettering is graphic artwork, not live text; native photos remain 1100 × 1430 px, about 151 dpi. This working master awaits review and is not a new numbered version or production approval. Future layout/colour edits must use the component master rather than another flattened-image generation. Original V1, V1-1 and all prior trials remain intact; no book page or back cover changed.
 
 **Cleaned 6 / 6-1 / 6-2 comparison rebuilt and delivered.**
 John received the separate restoration positively and asked for the comparison PDF to be regenerated. The [cleaned four-page comparison](../publication/cover-versions/versions-6-comparison/restored-2026-11-16/README.md) now replaces the online file under its existing identity. It uses one clean base for all three, with native PDF overlays for the red ribbon and black/gold sticker. PDF image interpolation is enabled for smoother scaled display; embedded RGB source pixels remain exact. This addresses both mottled redraw artefacts and jagged scaled display, while native cover resolution remains about 151 dpi. The previous local comparison and saved numbered fronts are preserved. The [source register](../assets/cover-sources/README.md) records the new base, prompt, overlays and builder; no final editable typography/print master, new cover number or production approval is implied. Keep this cleaned comparison as a reference; current discussion has moved to V1. Compare any future artwork against the original separate illustrations.
@@ -28,105 +36,14 @@ The [official introduction](../publication/introduction-revision/README.md) is c
 
 The three cover candidates are recorded in the [comparison tracker](../publication/cover-comparisons/README.md), with a two-page side-by-side PDF for feedback. Numbering remains 1 refined existing, 2 new illustrated, 3 photographic. Direction 1 now has [saved Versions 1–6](../publication/cover-comparisons/README.md) for front comparison, with the centred two-courgette cover retained as Version 4, garlic/top-title cover as Version 5 and offset courgette/raised-sticker cover as Version 6, alongside the retained [revision 07 back](../publication/cover-refined-direction/revision-07/ARTWORK.json); the earlier [half-clockwise-tilt front](../publication/cover-refined-direction/ARTWORK-06-HALF-TILT.json) and its back remain comparison sources. John selected the [yellow C front and open tomato-tending back](../publication/cover-illustrated-direction/SELECTED-PAIR.json) for the illustrated direction. The [photographic candidate](../publication/cover-comparisons/saved-photographic-2026-11-12/README.md) has no back yet. Preserve all three; direction 1 is now preferred for development, with final revised artwork and production approval still pending. Generated microtext and exact typography remain concept-level and need exact source placement for production.
 
-**Background to the cover review.** Following feedback that the
-physical-proof artwork lacks sophistication, John has opened the visual brief
-from a subtle makeover to a complete rework, including photographs or original
-video stills. Respect the interior identity without requiring an identical style.
-The [11 November cover study](../publication/cover-direction-study/README.md)
-contains six UK-market references, a five-page visual review, limited channel
-scouting and three proposed directions. John's subsequent preference for the
-T05 photograph and layout B led to the subsequent selected lettering and
-generated tomato-tending photograph recorded below; new words remain unresolved. G2/B5 and the production
-proposals remain preserved comparison sources, not constraints against exploring
-alternatives. John then requested a photographic source search, extended to the
-newly connected NODE NAME photo folders. The [archive photo review](../publication/cover-photo-search/README.md)
-contains a six-page assessment, 12-candidate gallery, exact source paths and
-YouTube timestamps, with explicit sampling limits. John considers garlic on wood
-the strongest photograph in that shortlist, but wants a clearer subject frame.
-At his request, the [tomato harvest follow-up](../publication/cover-photo-search/tomato-harvest-study/README.md)
-now retains six native 3840 × 2160 PNGs from YouTube 4K playback, with full-frame
-and portrait comparisons. John has now confirmed he can view the PDF and prefers
-**T05 at about 5:16**, facing the camera and offering the colander, for the next
-cover trials. At his request, [three separate front-cover layouts](../publication/t05-cover-layouts/README.md)
-now test A Cream masthead, B Forest frame and C Photograph first. Their five-page
-PDF includes an overview, three 185 × 240 mm front panels and an approved interior
-comparison. John initially preferred **B — Forest frame** and requested closer
-interior lettering. The separate [B lettering trials](../publication/t05-cover-layouts/typography-study/README.md)
-then compared Lilita One, Nunito Sans and combined lettering. He finds none
-stronger than the others and has now requested a completely different direction:
-**use image generation with the T05 photograph as a seed to compose the whole
-front cover as a picture in one pass**. He specifically likes Anna Greenland's
-*Grow Easy* (Mitchell Beazley): use its warm yellow surround, oversized title and
-photo/type relationship as inspiration with T05. The [image-generation brief](../publication/cover-image-direction/BRIEF.json)
-records the exact prompt and reference roles. The [generated concepts](../publication/cover-image-direction/README.md)
-now include revision 02: John requested more adventurous text spilling across
-areas after revision 01. The new image uses T05 and the exact Grow Easy cover
-as direct seeds, with offset photography, oversized letters crossing its edge
-and a leaf breaking the boundary. John called this progress but requested more
-right border and removal of the odd bottom-left cut-out. Revision 03 now has a
-wider yellow right margin, a clean rectangular photograph and footer text below;
-the crossing title remains. John said revision 03 was better and requested the
-subtitle in a pretend sticker at bottom left, partly on and off the photograph.
-Revision 04 now supplies a cream circular subtitle sticker across that corner,
-with the former footer subtitle removed and author retained at lower right.
-John said revision 04 was good and requested light blue/green backgrounds,
-excluding light yellow and the dark/mustard feel. Revision 05 now offers three
-independent colour edits: 05A Powder blue, 05B Pale sage and 05C Sea glass.
-John selected 05B Pale sage. Revision 06 compares 06A Same sage (05B reused),
-06B Lighter sage and 06C Darker sage; the two new versions independently edit 05B.
-John earlier selected **06B Lighter sage**; the later yellow trials below reopen
-that colour choice. The [colour decision](../publication/cover-image-direction/COLOUR-SELECTION.json) records the exact image.
-John authorised two typography trials, then required **one typeface throughout
-each cover**, including title, sticker and author. Revision 07 now compares
-07A Stronger current serif and 07B Warmer rounded serif, independently edited
-from 06B. The earlier proposal to mix serif and Nunito Sans is superseded.
-John prefers 07B but finds its lettering reminiscent of the 1970s. He requested
-a wider font range and a title-only written comparison. The
-[eight-font list](../publication/cover-image-direction/font-list/Title-font-comparison.png)
-now shows actual local fonts, including the two interior families as references.
-John ranked **H—Lilita One first, then A—Charter Bold and E—Avenir Next Demi Bold**,
-and requested full covers in all three. Revision 08 now supplies 08H, 08A and 08E,
-independently generated from 06B plus exact-font specimens. John has now chosen
-**Lilita One (08H)** for its relationship to the interior and asked whether a
-slimmer version exists. The [type decision](../publication/cover-image-direction/TYPE-SELECTION.json)
-records the selection and official single Regular/400 style. John then authorised
-a small size-and-spacing adjustment and has now **accepted revision 09**.
-Carry its smaller, more openly spaced Lilita title forward. Keep lighter sage
-and one typeface throughout. **Revision 10** centres the photographic rectangle
-horizontally with equal side margins. John selected revision 11A’s person-led
-direction and confirmed its likeness, then requested more natural gardening
-action. Revision 12 supplied A tending tomatoes, B weeding and C pushing a
-wheelbarrow, with modest produce quantities growing in the garden.
-**John selected 12A: ‘Great - let’s use A - it looks very natural.’** The
-[revision 12 record](../publication/cover-image-direction/ARTWORK-12.json) binds the image.
-Revision 13 changed the title and subtitle-circle field to white, retaining
-dark-green subtitle text/author. John then requested Grow Easy’s yellow surround
-(14), a lighter yellow (15), and judged 15 too light. **John accepted revision 16 midpoint yellow** with
-‘That’s great.’ The [colour decision](../publication/cover-image-direction/COLOUR-SELECTION.json)
-records this choice, superseding sage for the current cover. **Current proposal:
-revision 17, a compact YouTube feature at top right:** red play symbol, ‘As seen
-on YouTube’ and ‘@hackriculture’ in dark-green Lilita-style lettering. Its
-[brief](../publication/cover-image-direction/BRIEF-17.json) and
-[image record](../publication/cover-image-direction/ARTWORK-17.json) retain sources and checks.
-This photographic candidate is now parked while the illustrated route is explored.
-Preserve 12A as the selected photographic
-reference: successive generated colour edits have introduced fine-detail drift.
-These are generated scenes and letterforms, not documentary photos or embedded
-fonts; the old curled G tail remains removed.
-No finished cover is approved. These remain generated interpretations, not
-pixel-preserving composites of T05. B's geometry and lettering are no longer
-constraints. Retain the book's identity, exact title/subtitle/author and original
-source photo; preserve all prior trials. No generated cover or new copy is
-approved. He asked about GPT-Image-2.6; the available native image tool exposes
-neither its model version nor a selector for that name, so do not claim its use.
-The original camera video has not been acquired. Develop revisions separately.
-Do not restart vegetable detail edits, run cleanup again or integrate
-the whole book merely to get started. [Copy-and-paste brief](NEXT-SESSION.md).
+**Earlier cover development is historical evidence.** The [comparison tracker](../publication/cover-comparisons/README.md), [photographic candidate history](../publication/cover-image-direction/README.md) and [source register](../assets/cover-sources/README.md) retain the three directions, font/colour trials, source searches and numbered fronts. Current selection is the cream Version 1-1 above, not the earlier G2/B5, yellow person-led candidate, illustrated Version 3 or Version 6. Preserve those sources; their old requests are not pending tasks.
 
 | Item | Correct starting point and distinction |
 | --- | --- |
-| Front artwork | Selected **G2 Cream centre**, [original image](../publication/vegetable-guru-grid-variations/assets/G2-centre-title.png) and [provenance](../publication/vegetable-guru-grid-variations/ARTWORK.json). Cream centre, flush vegetable grid, no guide-count footer. |
-| Back artwork | Preferred **B5 Off-centre collage**, [original image](../publication/vegetable-guru-back-collage/B5.png) and [provenance](../publication/vegetable-guru-back-collage/ARTWORK.json). Dark green, left blurb, angled torn-page fragments at right. Generated snippets are concepts, not exact page text. |
+| Historical front artwork | Previously selected **G2 Cream centre**, [original image](../publication/vegetable-guru-grid-variations/assets/G2-centre-title.png) and [provenance](../publication/vegetable-guru-grid-variations/ARTWORK.json). Cream centre, flush vegetable grid, no guide-count footer. |
+| Historical back artwork | Previously preferred **B5 Off-centre collage**, [original image](../publication/vegetable-guru-back-collage/B5.png) and [provenance](../publication/vegetable-guru-back-collage/ARTWORK.json). Dark green, left blurb, angled torn-page fragments at right. Generated snippets are concepts, not exact page text. |
+| Selected working front | [Cream Version 1-1 layered master](../publication/cover-versions/version-1-1/layered-master/README.md), [selection](../publication/cover-versions/version-1-1/DIRECTION-SELECTION.json) and [source register](../assets/cover-sources/README.md). Ten layers; original sage Version 1-1 stays frozen. |
+| Retained newer back | [Revision 07](../publication/cover-refined-direction/revision-07/README.md): original T05 photograph and exact book-page crop. Reference for later adaptation, not final approval for the cream front. |
 | Physical-proof cover | [19 October production adaptation](../publication/bookvault-print-ready/README.md), [concept/production comparison](../publication/bookvault-print-ready/cover-comparison.jpg), [editable HTML](../publication/bookvault-print-ready/cover.html) and [source/placement record](../publication/bookvault-print-ready/COVER-PREPARATION.json). This uses native lettering, approved heroes, exact historical page crops, and John Lennon on front/spine. It differs from G2/B5. The old `scripts/build-bookvault-cover.mjs` writes into the retained proof folder: do not run it unchanged for the new artwork. |
 | Cover and publication words | Shared [covers.json](../../../hackriculture-data/book-layout/covers.json), [book.json](../../../hackriculture-data/book-layout/book.json) and [publication.json](../../../hackriculture-data/book-layout/publication.json); [15 October copy approval/source notes](../publication/publication-copy/README.md). These remain the approved starting words, not new revisions. Use the guarded book-copy writer for later authorised shared edits. |
 | Current introduction | **Interior page 7 / PDF page 9, Introduction.** [Official 15 November approval](../publication/introduction-revision/APPROVAL.json), [frozen PDF](../publication/introduction-revision/references/approved-2026-11-15/Introduction.pdf), [editable copy and renderer](../publication/introduction-revision/README.md). Installed in the current assembled preview. Earlier `why-grow` sources remain historical references. |
@@ -845,22 +762,16 @@ be enabled later for the shop listing. £17.50 remains a working cover price,
 not a saved retail price. Shopify / native YouTube Shopping is deferred; KDP
 is a comparison/fallback.
 
-G2 Cream centre is selected for the front; B5 Off-centre collage is preferred for
-the back. Preserve the cream/grid front without a count footer and the dark-green
-back with 44 growing / 14 Troubles wording. Approved blurb is native text above a
-separate B5 derivative; original raster art is intact. A separate native production adaptation now supplies editable lettering, exact
-current-page snippets and the 12 mm wrap. John accepted the first proof's physical
-quality on 28 October; final revised publication files remain open. Cover C is
-a style/A4 reference only. Rejected cover studies are not alternatives to resume.
+The selected front is the **cream Version 1-1 development**, with its layered working master linked above. Original G2/B5 and the 19 October production cover remain historical references. Revision 07 retains the source photograph. The separate cream rear-cover proposal linked above is the current design for review. The current selection does not approve final typography, resolution, back cover or supplier files. John accepted the first proof's physical quality on 28 October; final revised publication files remain open. Cover C is a style/A4 reference only.
 
 Missing copyright year, imprint, ISBN, edition and publication year remain
 placeholders by request. The imperial print-resolution interior, proposed cover wrap and local colour/font/geometry
 preflight and Bookvault file validation are complete. Physical quality is accepted.
 The completed vegetable review and subsequent variety additions await main-book
-integration. Cover artwork and cover text are next; the personal introduction is approved and installed. Full metric assembly if requested, final
+integration. The next session is cover-only; no new copy rewrite is requested. The personal introduction is approved and installed. Full metric assembly if requested, final
 metadata, final spine/template checks and approval of revised publication files
 remain outstanding.
-The fresh 168-page/150 gsm template specifies a **12 mm spine**, **388 × 246 mm
+The historical 168-page/150 gsm proof template specifies a **12 mm spine**, **388 × 246 mm
 cover wrap**, and **191 × 246 mm interior** including 3 mm all-round bleed;
 interior safety is 17 mm at the binding and 5 mm elsewhere. Regenerate templates
 if stock, binding or pagination changes. The old 148-page templates and their
@@ -880,7 +791,8 @@ the [asset registry](../assets/README.md) owns source provenance.
 | Book design, openings, covers, illustrated topics, ordering | [vegetable-guru-book-design](../../.agents/skills/vegetable-guru-book-design/SKILL.md) and its [topic workflow](../../.agents/skills/vegetable-guru-book-design/references/illustrated-topic-pages.md) |
 | Simple bound-book pages and facing-spread fit | [book-layout-review](../../.agents/skills/book-layout-review/SKILL.md) |
 | Contents/index and whole-book assembly | Agreed structure and book design directly; outside layout-review scope |
-| Vegetable illustration style | [vegetable-guru-artwork](../../.agents/skills/vegetable-guru-artwork/SKILL.md) |
+| Photographic garden-grown vegetables for covers or expressly photographic interiors | [Photorealistic Vegetables](../skills/photorealistic-vegetables/SKILL.md) · [visual benchmark](../publication/cover-versions/version-1-1/garden-harvest-natural-pile/Allotment-Harvest.png) |
+| Graphic vegetable illustration style | [vegetable-guru-artwork](../../.agents/skills/vegetable-guru-artwork/SKILL.md) |
 | Retained A4 sheets | [guide-layout-review](../../.agents/skills/guide-layout-review/SKILL.md) |
 | John's writing voice | [Write Like John](/Users/johnlennon/.codex/skills/write-like-john/SKILL.md) |
 | Gardening research | [Gardening Research](/Users/johnlennon/.codex/skills/gardening-research/SKILL.md) |

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2498" height="983" viewBox="-6 -6 141 55.5">
+  <defs>
+    <radialGradient id="rim" cx="67%" cy="24%" r="85%">
+      <stop stop-color="#fcf0bf"/><stop offset=".55" stop-color="#c9a556"/><stop offset=".83" stop-color="#8b6b32"/><stop offset="1" stop-color="#594725"/>
+    </radialGradient>
+    <radialGradient id="dome" cx="65%" cy="23%" r="85%">
+      <stop stop-color="#fff4cf"/><stop offset=".23" stop-color="#ecd7a2"/><stop offset=".54" stop-color="#c8aa68"/><stop offset=".79" stop-color="#a08243"/><stop offset="1" stop-color="#786136"/>
+    </radialGradient>
+    <filter id="shadow" x="-60%" y="-65%" width="240%" height="255%"><feGaussianBlur stdDeviation=".22"/></filter>
+    <g id="tack">
+      <ellipse cx="-.28" cy=".45" rx="1.62" ry="1.49" fill="#423621" opacity=".41" filter="url(#shadow)"/>
+      <ellipse cx="-.09" cy=".12" rx="1.66" ry="1.52" fill="#665232"/>
+      <ellipse rx="1.66" ry="1.53" fill="url(#rim)"/>
+      <ellipse cx=".02" cy="-.05" rx="1.46" ry="1.32" fill="url(#dome)"/>
+      <path d="M .12 -1.26 Q .75 -1.29 1.16 -.77" stroke="#fff7d8" stroke-width=".11" fill="none" stroke-linecap="round"/>
+      <path d="M -1.17 .68 Q -.80 1.26 -.19 1.28" stroke="#6e542a" opacity=".45" stroke-width=".09" fill="none" stroke-linecap="round"/>
+    </g>
+  </defs>
+  <use href="#tack" transform="translate(3.2 3.0) rotate(-5)"/>
+  <use href="#tack" transform="translate(125.7 3.1) rotate(4) scale(.98)"/>
+  <use href="#tack" transform="translate(3.25 40.1) rotate(-3) scale(.98)"/>
+  <use href="#tack" transform="translate(125.2 39.9) rotate(5)"/>
+</svg>

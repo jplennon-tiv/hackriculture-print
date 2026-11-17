@@ -8,7 +8,17 @@ video stills, PDFs, layered cover files, generation recipes and approvals remain
 [CLEANUP.json](CLEANUP.json) records every archive member and its retained hash.
 This completed removal is not permission to run a fresh cleanup automatically.
 
-## Push blocker and remaining action
+## Subsequent user update
+
+GitHub rejected the later push at `c7a4313`. The working tree already excludes both duplicate ZIPs, but `72dfe2a` includes them. The **current [two-commit repair](../print-push-recovery/repair.py)** checks the live remote against `f6efdfa`, recreates the two pending commits with the archives omitted in the first, and checks the final tree and outgoing blob sizes. It updates the branch and creates a local backup ref in a single transaction. The real index and working files are left in place. Application and the GitHub push are pending. From the project root, run:
+
+```sh
+python3 docs/maintenance/print-push-recovery/repair.py --apply && git push origin print-proof
+```
+
+The old one-commit procedure below is historical.
+
+## Original push blocker and prepared repair
 
 Local `print-proof` has one commit beyond its remote-tracking branch:
 `72dfe2a053c8c137a5c237624170b335bfe9f348`, parent
