@@ -10,6 +10,8 @@ The [book design system](../BOOK-DESIGN-SYSTEM.md) consolidates shared colour,
 type, geometry and section treatments, linking back here for source provenance.
 It distinguishes approved components from selected directions and working proposals.
 
+The [garden photo and video catalogue](garden-media-library/README.md) records source paths, camera seeks and derivative status. Its location leads support the generation of new Growing Techniques artwork set in John's home garden and allotment.
+
 Editable book opening/cover words now live in the shared
 [book-layout JSON folder](../../../hackriculture-data/book-layout/README.md).
 The [8 October migration receipt](../publication/book-layout-working/MIGRATION.json)

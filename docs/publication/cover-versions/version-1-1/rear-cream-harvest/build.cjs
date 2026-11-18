@@ -7,9 +7,10 @@ const sharp = require('sharp');
 
 const root = path.resolve(__dirname, '../../../../..');
 const source = path.resolve(__dirname, '../original-harvest-light-study/Original-Harvest-Cast-Shadows.svg');
-const edition = ['pinned', 'rectangle', 'oval', 'portrait'].find(name => process.argv.includes('--' + name)) ?? '';
+const edition = ['photo-grid-04', 'photo-grid-03', 'photo-grid-02', 'photo-grid', 'pinned', 'rectangle', 'oval', 'portrait'].find(name => process.argv.includes('--' + name)) ?? '';
+const photoGrid = edition.startsWith('photo-grid');
 const revisions = edition ? [path.join(__dirname, 'portrait/revision.json')] : [];
-if (['oval', 'rectangle', 'pinned'].includes(edition)) revisions.push(path.join(__dirname, 'oval/revision.json'));
+if (photoGrid || ['oval', 'rectangle', 'pinned'].includes(edition)) revisions.push(path.join(__dirname, 'oval/revision.json'));
 if (edition === 'rectangle' || edition === 'pinned') revisions.push('--' + edition);
 const output = path.join(root, 'output/pdf/rear-cream-harvest', edition);
 
@@ -34,6 +35,26 @@ async function build() {
     assert.deepEqual(await edge(board,0),await edge(rear,1099));
     const front = path.join(temp,'selected-front.png');
     await sharp(Buffer.from(svg.replace('width="185mm" height="240mm"','width="1100" height="1430"'))).png().toFile(front);
+    if (photoGrid) {
+      const revision = edition.slice('photo-grid-'.length);
+      const manifest = revision ? './photo-grid/revision-' + revision + '/tiles.json' : './photo-grid/tiles.json';
+      if (revision === '04') {
+        await require('./photo-grid/revision-04/protected-master/copy-crops.cjs')(temp);
+      } else {
+        await require('./photo-grid/prepare.cjs')(root, temp, require(manifest));
+      }
+      revisions.push('--' + edition, temp);
+      if (['photo-grid-03', 'photo-grid-04'].includes(edition)) {
+        const footer = require('./photo-grid/revision-03/footer.json');
+        const pages = require(path.join(root, 'docs/publication/whole-book-order-preview/PAGE-MAP.json'));
+        const bullets = footer.bullets.map(({section, label}) => {
+          const count = pages.filter(page => page.kind === section).length;
+          assert.ok(count > 0, 'No content pages found for ' + section);
+          return count + ' ' + label;
+        });
+        await fs.writeFile(path.join(temp, 'footer.json'), JSON.stringify({bullets, invitation:footer.invitation}));
+      }
+    }
     if (edition === 'pinned') {
       for (const layer of ['paper', 'pins']) {
         const file = path.join(temp, layer + '.png');

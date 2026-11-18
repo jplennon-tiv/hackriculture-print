@@ -1,0 +1,49 @@
+{
+  "date": "2026-11-18",
+  "status": "Second-round generated studies for John’s review",
+  "previous_trials": "location-trials-01.json",
+  "source_register": "local-references/sources.json",
+  "john_feedback": {
+    "greenhouse": "The setting was convincing but showed an older garden, and there were construction errors in the greenhouse frame. The specific members were not identified.",
+    "allotment": "The setting was convincing; the covered bed was drawn over a path."
+  },
+  "trials": [
+    {
+      "subject": "Allotment revision",
+      "references": [
+        "A02",
+        "A08",
+        "allotment trial 1"
+      ],
+      "image": "../../../generated_images/exec-113460c5-de3d-4eca-a854-fb69e4b23297.png",
+      "prompt": "Create a corrected photorealistic landscape book photograph, 3:2, of John's actual allotment. This is a spatial correction. Reference 1 is the real high-angle photograph and is definitive for the bed layout. Reference 2 is another real photograph of this plot showing a good example of mesh contained within a single bed, and paths beside it. Reference 3 is the earlier AI trial: retain its convincing ordinary ground-level atmosphere, March daylight, pale green shed and suburban background; its white cover runs the WRONG DIRECTION across a walking path, so disregard that cover's placement entirely.\n\nUse a slightly elevated standing viewpoint tipped down enough to see the outline of a WHOLE bed. In reference 1 look just below the standing gardener, LEFT of the long central grass path, at the distinct long low rectangular bed covered with black fabric weighted by a few bricks. For this new photograph, imagine lifting the black fabric on that one existing bed and protecting growing brassicas on its soil with a low neat, translucent off-white horticultural mesh tunnel. Its LONG axis runs TRANSVERSELY across the image, left-to-right like the original long edge of the black fabric, parallel to the other transverse rows. Show the long side to the camera, not the short end. Make the cover a little smaller than the soil bed, with a visibly continuous thin border of loose dark planted earth around all four sides. Every support foot, mesh edge and weight sits wholly on that one patch of earth. Leave the full narrow paver walkway exposed in front of the bed, the separate narrow route behind it, and the continuous grass path at its right-hand end. Let the front paver path visibly meet the grass path at a clear T junction. The rectangle of soil, its border and the T junction must be readable together in the frame. Preserve the existing sheds and their relative scale and position from reference 1, with John's small pale mint green shed at the far end and a neighbour's brown shed well to the right. Keep the other black-covered beds where they are. No person, no text or drawn outlines, no photo montage. An ordinary bright Cornish allotment photograph. The mesh foreground should read as a practical crop protection on one real bed, not as a barricade across a path.",
+      "review": "The new tunnel runs parallel to the transverse bed. A strip of soil separates the mesh weights from the exposed front pavers, which meet the grass path on the right. Exact placement on the plot awaits John’s review."
+    },
+    {
+      "subject": "Greenhouse revision",
+      "references": [
+        "H08 raw clip at 1.000 s",
+        "H01",
+        "H07"
+      ],
+      "image": "../../../generated_images/exec-e147bd94-ba28-4895-8791-c4637d835177.png",
+      "prompt": "Make a precise documentary photographic edit, a reconstruction of an unglazed greenhouse in the garden as it looks in 2026. One landscape photo, no graphics. Use reference 1 (the real May 2026 eye-level photograph of two adjacent greenhouses) as your base image. Keep the camera angle, perspective, object outlines and placement of the pair. The larger greenhouse on the LEFT is the only one under construction. The smaller finished and glazed greenhouse stays at the RIGHT in its original position. Keep the blue shed glimpsed through the larger frame on the left, the weathered rear fence, the gap with a black water butt between the houses, grass and original stepping stones. Keep the exact geometry of the existing LEFT greenhouse from the base photo. Show it at the stage when its aluminium skeleton stands on the masonry but it has no glazing: take out the transparent panes, the movable glazed door leaf, the white drainpipe, the pots, bench and mature growing crop from that left structure. The garden beyond it can be seen cleanly through the empty apertures, with no reflective glass or dirt floating in them. Inside it retain the actual low masonry-edged beds, the earth and the access aisle. Do not widen or restyle the building. Use a slightly looser crop at the upper left if needed to show the gable.\n\nReference 2 is the actual bare greenhouse. Use it as direct photographic evidence for the arrangement of individual uprights, rafter continuity, front gable members, slender diagonal braces, door opening and low plinth. Keep the real spacing of the frame members: at the eaves, each rafter lines up with the corresponding vertical glazing bar, the ridge is a single straight continuous member, the front opening is on the gable and the masonry stops at the threshold. The projecting horizontal sliding-door runner, where visible, is a single light extrusion at the correct door-head level; do not invent a second pitched structure or a canopy around the gable. Keep the photographed profiles and corner connections, no extra structural parts. Do not bring forward the old garden background from reference 2. Reference 3 is a contemporary overhead photo verifying the shed is on the left, then larger and smaller houses side by side with parallel ridges, then hedge, in the compact current garden. Do not turn the final image into an aerial shot. No person, captions, labels or diagram. Natural light and texture of a UK gardening field photograph. The result should look like a local edit of reference 1 at an earlier stage of construction, with no temporal change to the surrounding garden.",
+      "review": "Contemporary ground-level placement of the two structures. The crop cuts off the ridge, and the inner masonry reads like a central bed. Prefer the wider trial for judging the structure.",
+      "raw_source": {
+        "video": "DJI_20260508112844_0122_D.MP4",
+        "clip_time_seconds": 1
+      }
+    },
+    {
+      "subject": "Greenhouse revision, full frame",
+      "references": [
+        "H01",
+        "H07",
+        "H21"
+      ],
+      "image": "../../../generated_images/exec-f8ee795b-77b3-49bb-9178-7d075070787b.png",
+      "prompt": "A photographic location reconstruction for a real UK gardening book. Use image 1, John's real construction photograph, as the primary plate. Preserve that existing REAL bare greenhouse frame, fundamentally trace its actual metalwork, maintaining the same camera azimuth, lens projection and the overlap of every member in the source. Do not redesign the structure or rotate the camera. Show the actual slender metal bars as photographed; do not improve or modernise the greenhouse itself. Open the field of view slightly on every edge, especially above the ridge, leaving visible sky over the highest point. Fit the entire bare frame, including both gables, ridge, all four base corners where visible, and doorway, within a landscape 3:2 composition.\n\nThe job is to UPDATE THE SURROUNDING GARDEN to John's present-day setting as shown in the two other real photographs. The larger house on its existing low grey brick plinth is the one being shown unglazed. To its right, parallel and slightly set back with one narrow gap, is the smaller completed glazed greenhouse. It may be partly visible at the right of frame in this projection. The bright blue shed and the timber-clad outbuilding behind it are on the left. Keep the grass and spaced pale square stepping stones in front, the grey timber fence at the rear. Use contemporary reference 2 as a floor plan and reference 3 for materials and finish. No people. Exclude the historic double gate where now screened by the timber outbuilding. Do not duplicate or mirror greenhouses.\n\nVery important: the existing aluminium structure in image 1 is the subject. Copy the count, positions and relative thicknesses of the side bays, individual roof bars, diagonals, single ridge and gable profiles directly from it. Keep one real sliding-door opening in the front gable, its actual rail and interrupted low masonry beneath. Inside, the walking aisle starts at the threshold and runs down the centre for the length of the house. The planting borders run ALONG THE SIDE WALLS, with their inner faces defining the edges of this central aisle. No freestanding island bed in the aisle. Preserve the bare-frame build state with no glazing in this larger structure and no invented replacement braces or decorative crossbeams. Leave the smaller greenhouse glazed. Make a documentary photograph with naturally diffuse Cornish daylight, realistic slightly used materials and honest scale. No montage, drawing, text or labels.",
+      "review": "The complete ridge and central aisle are visible. The blue shed, timber-clad outbuilding, stepping stones and second glazed greenhouse appear in view. The generated gable joints, door gear and bracing require comparison with the construction photograph and John’s review."
+    }
+  ]
+}

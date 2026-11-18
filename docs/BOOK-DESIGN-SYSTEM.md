@@ -239,8 +239,8 @@ their page total is not the interior count used for print costing/spine calculat
 
 | Area | Carry forward | Status/source |
 | --- | --- | --- |
-| Front cover | Cream scrubbed-wood background; natural photographic-style vegetable groups; dark title; subtitle and author; yellow Organic corner ribbon; YouTube and black/gold Traditional Measurements stickers; no title leaves or lower cast shadow | Selected [cream Version 1-1 development](publication/cover-versions/version-1-1/DIRECTION-SELECTION.json), [ten-layer working master](publication/cover-versions/version-1-1/layered-master/README.md). Original sage/ivory 1-1 and G2/proof covers remain frozen references; final production approval is separate |
-| Back cover | Current proposal continues the cream wood across both faces. A smaller Kitchen roots arrangement accompanies the headline. The rear carries the book blurb, a tilted rectangular sticker combining the greenhouse portrait and author note, price and ISBN/barcode area. | [Cream rear cover with rectangular sticker](publication/cover-versions/version-1-1/rear-cream-harvest/rectangle/README.md). [Revision 07](publication/cover-refined-direction/revision-07/README.md) and [B5](publication/vegetable-guru-back-collage/B5.png) are historical references |
+| Front cover | Cream scrubbed-wood background; natural photographic-style vegetable groups; dark title; subtitle and author; original gold (#F2CC35) Organic corner ribbon; YouTube and black/gold Traditional Measurements stickers; selected Original harvest with upper and lower vegetable shadows | Selected [cream Version 1-1 development](publication/cover-versions/version-1-1/DIRECTION-SELECTION.json), [ten-layer starting master](publication/cover-versions/version-1-1/layered-master/README.md) and [completed cover design](publication/cover-versions/version-1-1/selected-gold-cover/README.md). Original sage/ivory 1-1 and G2/proof covers remain frozen references; final production approval is separate |
+| Back cover | The selected working layout places sixteen garden and harvest photographs in a four-by-four grid on cream woodgrain. Below it sit the compact title, author name, three section page counts, YouTube invitation, price and ISBN/barcode space. | [Current rear-cover proof](publication/cover-versions/version-1-1/rear-cream-harvest/photo-grid/revision-04/README.md) and [earlier rectangular sticker](publication/cover-versions/version-1-1/rear-cream-harvest/rectangle/README.md) |
 | Title/publication | Cover-related title strip and quieter publication page | [Original pages 1–3 proposal](publication/vegetable-guru-opening-pages/REVIEW.html) retained; current assembly omits the welcome/author page. Metadata placeholders remain. |
 | Contents/how-to | Simple illustrated contents with calculated page references; calendar, difficulty and needs explanations in the combined Guides opening | [Approved source pages 4–7](publication/vegetable-guru-entry-pages/REVIEW.html) remain frozen. The accepted [two-page contents](publication/contents-update/REVIEW.html) and [approved combined Guides/how-to](publication/combined-guides-opening/APPROVAL.json) are integrated in the full preview. |
 | Index | Two open columns; 9.45 pt reading type, orange folios, ruled alphabet headings, continued labels, no decorative artwork | [Four-page index](publication/book-index/REVIEW.html), approved 12 October; [frozen sources](publication/book-index/APPROVAL.json); current integrated folios 172–175 |
@@ -352,10 +352,9 @@ After John's decision, update the owning rule here (or the detailed guide
 contract), the affected working implementation and its approval/source record.
 Do not create another competing style guide or overwrite a frozen proof.
 
-The next session concerns the selected cream cover exclusively, following the
-handover and John’s next brief; no new copy rewrite is requested. The personal
+Cover design is complete. The next phase starts by cataloguing photographs and footage for interior artwork. The personal
 introduction is approved and installed. The final
-cover typography/snippets, publication metadata, stock-dependent wrap/spine and
+production typography checks, publication metadata, stock-dependent wrap/spine and
 revised print files remain to be settled. Retain the current opening sequence
 and cream blank-page treatment unless John changes them. Consult the handover
 for current scope; old proposal-stage questions are not a renewed work queue. Creating this system does not

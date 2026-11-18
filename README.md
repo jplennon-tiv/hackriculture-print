@@ -13,13 +13,7 @@ entry point for current decisions, component status, outstanding work and
 publication/automation boundaries. It distinguishes approved designs from
 working book proofs and historical evidence. Follow John's latest instruction.
 
-**Latest state, 17 November:** the next session is exclusively about the selected
-**cream development of Version 1-1**. Its [ten-layer working master](docs/publication/cover-versions/version-1-1/layered-master/README.md)
-is ready for refinement; the original sage/ivory Version 1-1 remains frozen.
-Use component edits to protect the restored photographic detail. The personal
-introduction is approved and installed at page 7. All 44 vegetable working spreads
-and subsequent variety additions are approved in both units but still await
-main-book integration; interior work and illustration experiments are parked.
+**Latest state, 18 November:** John completed the [cream cover design with the original gold Organic ribbon](docs/publication/cover-versions/version-1-1/selected-gold-cover/README.md). The [garden media catalogue](docs/assets/garden-media-library/README.md) supplies references for a skill to generate new photorealistic artwork for the fixed Growing Techniques pages. The introduction is installed at page 7. The 44 approved vegetable spreads and variety additions still await integration.
 [Current scope and exact sources](docs/handover/START-HERE.md#resume-here)
 · [Copy-and-paste handover](docs/handover/NEXT-SESSION.md).
 The authorised cleanup removed 12.35 GB of temporary/legacy files; print is now

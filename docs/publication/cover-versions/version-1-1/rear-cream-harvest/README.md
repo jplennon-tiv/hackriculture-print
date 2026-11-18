@@ -1,8 +1,8 @@
 # Cream rear cover proposal
 
-[Open the rear cover and front/back pairing](https://chatgpt.com/library?file_id=libfile_fde3_f-7e917d3e1a9c8191aaedf89f7ba61c8a_968f6e806ba48191b80ffb1b7a35f663&account_id=personal).
+[Open the revised garden grid and front/back pairing](https://chatgpt.com/library?file_id=libfile_fde3_f-05047090a4d081918aec801bbd0ef867_968f6e806ba48191b80ffb1b7a35f663&account_id=personal).
 
-John requested a complete rebuild on 17 November 2026. The [rectangular author sticker](rectangle/README.md) is the current proof. Use the build command on its revision page.
+John selected the [garden photo grid](photo-grid/revision-04/README.md) as the working direction. The [first grid](photo-grid/README.md) and the [rectangular author sticker](rectangle/README.md) are retained for comparison.
 
 ## First rear proposal
 

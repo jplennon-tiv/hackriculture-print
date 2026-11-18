@@ -143,10 +143,62 @@ func ovalLayout(_ c:CGContext,_ portrait:PortraitRevision,_ words:OvalRevision) 
     authorSticker(c,portrait,words)
     line(c,price,font(true,16),15,227.9,green)
 }
+let gridRevision = args.count > 9 ? String(args[9].dropFirst("--photo-grid-".count)) : ""
+let revisedGrid = args.count > 9 && args[9].hasPrefix("--photo-grid-")
+let isPhotoGrid = revisedGrid || (args.count > 9 && args[9] == "--photo-grid")
+let gridPhotos: [CGImage] = isPhotoGrid ? (0..<16).map {
+    image(URL(fileURLWithPath:args[10]).appendingPathComponent("tile-" + String($0) + ".jpg"))
+} : []
+struct CountFooter: Decodable {
+    let bullets: [String]
+    let invitation: String
+}
+let countFooter: CountFooter? = ["03", "04"].contains(gridRevision) ? try JSONDecoder().decode(
+    CountFooter.self, from: Data(contentsOf: URL(fileURLWithPath:args[10]).appendingPathComponent("footer.json"))
+) : nil
+func photoGrid(_ c:CGContext, _ words:OvalRevision) {
+    for (i, photo) in gridPhotos.enumerated() {
+        let left = 9.5 + CGFloat(i % 4) * 41.75
+        let top = 9.5 + CGFloat(i / 4) * 40.5
+        c.draw(photo, in:rect(left,top,40.75,39.5))
+    }
+    line(c,"The Vegetable Guru",font(true,30),9.5,185.6,green)
+    if !revisedGrid {
+        line(c,"Your at-a-glance growing companion",font(false,13.2,680),9.5,193,green)
+    }
+    if let footer = countFooter {
+        line(c,words.authorName,font(false,13.0,850),9.5,196.5,green)
+        for (index, text) in footer.bullets.enumerated() {
+            let baseline = 204.0 + CGFloat(index) * 6.2
+            line(c,"•",font(false,12.0,700),9.5,baseline,green)
+            line(c,text,font(false,11.9,540),14.0,baseline,ink)
+        }
+        line(c,footer.invitation,font(false,11.7,720),9.5,228.1,green)
+    } else {
+        line(c,words.authorName,font(false,12.6,850),9.5,revisedGrid ? 200.3 : 206.4,green)
+        let authorParagraph = words.authorLines.joined(separator:" ")
+            .replacingOccurrences(of:"years. Come", with:"years.\nCome")
+            .replacingOccurrences(of:"Cornwall on YouTube", with:"Cornwall\non YouTube")
+        paragraph(c,authorParagraph,font(false,12.4,520),
+                  x:9.5,top:revisedGrid ? 203 : 209,width:113,limit:233,leading:16.3,colour:ink)
+    }
+    let priceFont=font(true,16)
+    let priceWidth=CTLineGetTypographicBounds(CTLineCreateWithAttributedString(
+        NSAttributedString(string:price,attributes:[.font:priceFont])),nil,nil,nil)
+    line(c,price,priceFont,175.5-CGFloat(priceWidth)/mm,196.5,green)
+    c.setFillColor(NSColor.white.cgColor)
+    c.fill(rect(123.5,200.5,52,30))
+    line(c,"ISBN / BARCODE",font(false,7.2,700),126.5,205.5,muted,0.55)
+}
 func rear(_ c:CGContext) {
     c.saveGState()
     c.clip(to:rect(0,0,185,240))
     c.draw(board,in:rect(0,0,185,240))
+    if isPhotoGrid {
+        photoGrid(c,oval!)
+        c.restoreGState()
+        return
+    }
     c.setFillColor(gold.cgColor); c.fill(rect(15,12.3,8,1.2))
     line(c,copy.runningTitle,font(false,9.4,850),26,14,green,1.25)
     let headline = revision?.headline ?? copy.headline
@@ -180,7 +232,9 @@ func rear(_ c:CGContext) {
     c.restoreGState()
 }
 let filename: String
-if pinnedSticker { filename = "The-Vegetable-Guru-Pinned-Author-Note.pdf" }
+if revisedGrid { filename = "The-Vegetable-Guru-Garden-Photo-Grid-" + gridRevision + ".pdf" }
+else if isPhotoGrid { filename = "The-Vegetable-Guru-Garden-Photo-Grid.pdf" }
+else if pinnedSticker { filename = "The-Vegetable-Guru-Pinned-Author-Note.pdf" }
 else if rectangularSticker { filename = "The-Vegetable-Guru-Rectangular-Sticker.pdf" }
 else if oval != nil { filename = "The-Vegetable-Guru-Oval-Rear-Cover.pdf" }
 else if revision != nil { filename = "The-Vegetable-Guru-Portrait-Rear-Cover.pdf" }
