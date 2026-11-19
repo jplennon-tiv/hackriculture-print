@@ -1,0 +1,174 @@
+{
+  "folio": 156,
+  "revision": 3,
+  "date": "2026-11-19",
+  "status": "awaiting John’s review",
+  "previous": "../revision-02/trial.json",
+  "proof": "Vegetable-Guru-Making-Compost-Page-156.pdf",
+  "archive": "Vegetable-Guru-Making-Compost-Photographs.zip",
+  "hero": {
+    "source_clip": "/Volumes/five_backup/Videos backup 11 May 2026/Movies/April 2026/The Compost Cycle/DJI_20260412112256_0148_D.MP4",
+    "base": "C02 at 00:48, with the two door corrections from revision 02",
+    "source_frames": {
+      "02:14": "references/0148-at-02m14s-left-bay.jpg",
+      "03:20": "references/0148-at-03m20s-middle-bay.jpg"
+    },
+    "crop_xywh": [
+      80,
+      532,
+      3760,
+      1256
+    ],
+    "method": "Tripod-registered, feather-masked photographic composite of the two actual open bays over the true camera background; no generated pixels.",
+    "mask_design_coordinates_on_800x450": {
+      "left": [
+        [
+          221,
+          113
+        ],
+        [
+          390,
+          113
+        ],
+        [
+          389,
+          165
+        ],
+        [
+          385,
+          187
+        ],
+        [
+          383,
+          208
+        ],
+        [
+          382,
+          221
+        ],
+        [
+          390,
+          242
+        ],
+        [
+          394,
+          247
+        ],
+        [
+          393,
+          255
+        ],
+        [
+          219,
+          258
+        ],
+        [
+          215,
+          249
+        ],
+        [
+          239,
+          211
+        ],
+        [
+          243,
+          205
+        ]
+      ],
+      "middle": [
+        [
+          390,
+          118
+        ],
+        [
+          538,
+          118
+        ],
+        [
+          539,
+          127
+        ],
+        [
+          533,
+          139
+        ],
+        [
+          505,
+          202
+        ],
+        [
+          501,
+          214
+        ],
+        [
+          515,
+          223
+        ],
+        [
+          539,
+          240
+        ],
+        [
+          549,
+          245
+        ],
+        [
+          547,
+          252
+        ],
+        [
+          396,
+          256
+        ],
+        [
+          390,
+          250
+        ],
+        [
+          391,
+          242
+        ],
+        [
+          381,
+          220
+        ],
+        [
+          381,
+          211
+        ],
+        [
+          383,
+          199
+        ]
+      ]
+    },
+    "mask_blur_source_px": 1.8
+  },
+  "brick": {
+    "previous_image": "../revision-02/02-building-the-brick-bin.jpg",
+    "lid_reference": "C08-lid-boards-DSC09839.JPG",
+    "generated_master": "generated_images/exec-e6912b0c-7b29-4335-9800-2ba2cf25b323.png",
+    "prompt": "Edit the FIRST supplied square documentary photograph for the Vegetable Guru, with a single addition. This is the actual appearance already selected for the publication. Keep the new empty brick compost bay, weathered pale reused bricks and concrete lintel, hand on the spirit level, and older wooden bay on the right. All the real roughness, damp ground, scale and colours should still look like the first picture. Show a clearly PARTIALLY ASSEMBLED WOODEN LID on the ground BESIDE the new brick bay, at the LEFT side of the opening. SECOND photo is John's actual unfinished lid: match this type, tone, width and thickness of rough-sawn plank. The partly built lid should be recognisable as a lid for this bin: two long parallel cross-battens with only four or five tightly adjacent decking boards screwed across part of them, one continuous unfinished strip where the remaining boards have yet to go. Bare exposed batten ends visible in that gap. NO hinges, handle, roofing felt, diagonal brace or lattice on the part-built lid. A few screw heads. It must read as a single unfinished panel, nearly the full footprint of the bay, NOT just a collection of offcuts. Lean it on its edge, back against the outside of the LEFT side wall of the new bin, just to the left of the front jamb, with the partially boarded underside facing us at a legible angle. Entire lid rests on ground and is visible inside the crop. The brick doorway and both jambs are also readable. You may pull back the camera enough and reveal a little more garden to the left to fit it in naturally; keep the bay and lid dominant. Keep the working hand and level over the new brickwork. Square, tightly framed realistic British garden photograph, useful at small print size, no words, graphics or border.",
+    "print_crop": "centred 1254 by 1195"
+  },
+  "timber": "Retained from revision 02",
+  "artwork": [
+    {
+      "file": "01-three-bins-front-garden.png",
+      "sha256": "7dc7ca131c8f8cc3a13d331a93e3b77223960b330fcd2e56eb1d83c9be63fcc1"
+    },
+    {
+      "file": "02-building-the-brick-bin.jpg",
+      "sha256": "30eb1895c65feaf04fd6b785f5799b3a0abe0d8b8d72673d42e32adddeb46104"
+    },
+    {
+      "file": "03-building-the-timber-bin.jpg",
+      "sha256": "5feeac958e077e9897100d82bd68590f0049647b4e424a7b063f39403ccc6f3d"
+    }
+  ],
+  "checks": {
+    "original_text_and_trim_identical": true,
+    "print_differences_outside_two_images_at_144ppi": 0,
+    "timber_print_bytes_identical": true
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "folio": 159,
+  "title": "Cultivation No-Dig",
+  "stage": "Approved photographic set",
+  "approval": {
+    "date": "2026-11-18",
+    "by": "John Lennon",
+    "scope": "Page 159 No-Dig proof and all three revision 09 photographs",
+    "statement": "Yes that's better. Please use these instead of the previous approved set.",
+    "supersedes": "../revision-08/trial.json"
+  },
+  "source_section": "output/pdf/section-extracts/Vegetable-Guru-Growing-Techniques.pdf",
+  "source_section_index": 12,
+  "revision_of": "../revision-08/trial.json",
+  "approved_camera_trial": "../porch-location-trial-02/trial.json",
+  "site": "The no-dig bed at the porch end of the back garden. Camera faces the greenhouses. A small strip of grass on the right is an imagined addition requested by John.",
+  "specified_bed_width_m": 1.2,
+  "timing": [
+    "Day one: overlap cardboard",
+    "Day one: distribute surface compost using a garden fork",
+    "One week later: beetroot and spinach plugs in the far half of the same bed; John sets the fifth lettuce at the near end."
+  ],
+  "wardrobe": [
+    "Teal fleece, olive beanie and jeans",
+    "Same day and outfit",
+    "J01 checked shirt with blue jeans, bareheaded"
+  ],
+  "references": {
+    "approved_location_photo": "generated_images/exec-cb9b2fab-9d8c-424b-8f36-7e60f96187bc.png",
+    "camera_original": "docs/assets/garden-media-library/local-references/home-garden/H16-DSC01820.JPG",
+    "comparison_photo": "DSC01827.JPG (see porch-location-trial-02/trial.json for original path)",
+    "face": "docs/skills/vegetable-guru-garden-photography/assets/john-looking-down.jpg",
+    "wardrobe": "docs/assets/garden-media-library/local-references/home-garden/H10-0124-00065.559.jpg"
+  },
+  "photographs": [
+    {
+      "file": "01-cover-the-ground.png",
+      "dimensions_px": [
+        716,
+        716
+      ],
+      "source_crop_px": [
+        4,
+        4,
+        720,
+        720
+      ],
+      "page_bounds_pt": [
+        48.1875,
+        401.66998291015625,
+        175.6875,
+        529.1699829101562
+      ],
+      "paragraph_starts_with": "Mark out a bed",
+      "sha256": "171f1a3784183ba8c90b0e413f99432bdf744e680389fe334114d59e1d6f6150"
+    },
+    {
+      "file": "02-add-the-compost.png",
+      "dimensions_px": [
+        716,
+        716
+      ],
+      "source_crop_px": [
+        728,
+        4,
+        1444,
+        720
+      ],
+      "page_bounds_pt": [
+        204.5625,
+        401.66998291015625,
+        332.0625,
+        529.1699829101562
+      ],
+      "paragraph_starts_with": "Spread about",
+      "sha256": "f3688f8f55c158dc4eceb50410c2c7917d1cfd13e4c2c65b842b4314695dd09e"
+    },
+    {
+      "file": "03-start-growing.png",
+      "dimensions_px": [
+        716,
+        716
+      ],
+      "source_crop_px": [
+        1452,
+        4,
+        2168,
+        720
+      ],
+      "page_bounds_pt": [
+        360.8052062988281,
+        401.66998291015625,
+        488.3052062988281,
+        529.1699829101562
+      ],
+      "paragraph_starts_with": "You can plant",
+      "sha256": "b22702a88eb0e24602e522f2f3337bc5114a299932dee0fedb6d92ad3e4be30a"
+    }
+  ],
+  "page_proof": "Vegetable-Guru-No-Dig-Page-159.pdf",
+  "originals_zip": "Vegetable-Guru-No-Dig-Photographs.zip",
+  "checks": {
+    "same_text_trim_and_folio": true,
+    "unchanged_pdf_content_stream": true,
+    "three_new_image_objects": true,
+    "identical_render_outside_three_frames_vs_previous_proof": true,
+    "visible_change_bounds_144dpi": [
+      96,
+      302,
+      977,
+      558
+    ],
+    "gap_mm": [
+      10.19,
+      10.14
+    ],
+    "print_width_mm": 44.98,
+    "effective_image_ppi_by_panel": [
+      404.3,
+      404.3,
+      404.3
+    ],
+    "verified_zip_contains_exact_pngs": true
+  },
+  "joint_render": {
+    "file": "generated_images/exec-1b1b2e0b-cfc8-429d-b559-d54b2be10eba.png",
+    "sha256": "66f1174d518670506be3a5359435cfbdd916420ed546fd135f13753fc727fd1c",
+    "dimensions_px": [
+      2172,
+      724
+    ],
+    "references_in_order": [
+      "docs/skills/vegetable-guru-garden-photography/assets/john-lowered-profile-reference.png",
+      "generated_images/exec-37aedd38-dcf8-4a72-959d-de9dca8ae306.png",
+      "docs/assets/garden-media-library/local-references/home-garden/H16-DSC01820.JPG",
+      "docs/assets/garden-media-library/local-references/home-garden/H10-0124-00065.559.jpg"
+    ],
+    "prompt": "Create a FRESH photorealistic re-shoot of the complete three-shot no-dig sequence for the book The Vegetable Guru. All three in ONE PASS. Output one ultrawide 3:1 strip of three equally sized independent SQUARE photographs, edge to edge, hard joins at the thirds. No borders, writing, number, inset or caption on any photograph.\n\nUse the FIRST supplied reference (the four-tile face guide) as the primary anchor for John's face in EVERY shot. The first three tiles are real footage of the gardener taken on 11 April. The fourth is the specific profile he recognised as his own in the earlier illustration. Use the SECOND reference, the wide three-photo storyboard, for setting, continuity, stage order, wardrobe changes, and accurate planting. Shoot three fresh natural working instants, with John turning his face slightly to expose the same gentle lowered profile as the April footage. Do not just replicate the faces from the earlier generated wide strip. Reference 3 is the real greenhouse-facing garden; reference 4 is the real John bareheaded in his checked shirt.\n\nThe test is the working profile, particularly viewed from slightly above. In the left picture show John mostly in near profile, studying the cardboard edge (mirror the facing direction of the board's 0:13 real still for his gaze to the right). In the middle more three-quarter, eyes on the fork, like the board's 2:20 still. In the right show the near profile, looking down to his right at the lettuce. Recreate the actual contour in each: the nose projects the farthest; the lower lip sits visibly in front of the small receding chin. From just beneath the lip the short grey stubble sweeps diagonally BACK toward the throat. Little underside of the jaw shows as his head lowers, almost merging into the collar. Cheeks naturally soft, short beard lying against the jaw, no prominent shelf, square strong chin, long tuft or rounded pad of white beard. Preserve the ear shape, age, balding hairline in shot three, same man at same apparent scale across the sequence. Faces visible, ordinary natural daylight, shoulders and legs relaxed. Match each person's garden job and avoid posed gesturing. At actual book size photo and hands must still read.\n\nCamera on the same tripod facing the greenhouse at the porch end of John's Cornish back garden, porch behind the camera. Subdued green grass, greenhouse on buff brick plinth, wooden fence, rain butt, corner of blue shed, pot and raised berry planter as in reference 2. Modest right-side grassy verge. EXACTLY the same 1.2-metre-wide patch in all three, broad near end, with pale marker at each near corner and right/left long edges tracing the same perspective to the far end. Maintain rectangular footprint but crumbly imperfect edges when composted; isolated little spills and loose grains into the grass especially along front and right side, partial grass blades show through.\n\nLEFT: overlap wet, plain old flattened cardboard cartons with no tape on the lawn. John kneels at the left edge in olive knit cap, teal fleece, jeans and boots; caught smoothing one sheet with a palm while laying its near edge generously over the lower sheet with the other hand. Gently irregular folds, cardboard area broad and continuous, grass clearly outside it. No compost or plants in the bed.\nMIDDLE: same day, clothing and lighting. John stands on lawn at left. Distribute/level a forkful of dark well-rotted compost over the cardboard, most of the bed already covered about 10 cm deep, still a little cardboard at far end. A real wood shaft and D-handle terminating in a well-proportioned steel GARDEN FORK with four sturdy parallel tines, no rake. Relaxed two-handed grip, shallow movement dislodging compost rather than digging into the underlying turf. Clearly legible tool.\nRIGHT: a slightly brighter day one week later. John kneels on left, bareheaded, cream/plum/charcoal checked shirt over dark tee with rolled sleeves, jeans. His near-profile skin and chin silhouette like ref 1, bare head and wardrobe like ref 4. At the near end there are EXACTLY FIVE small muted olive-green lettuce plugs across one transverse row. The leftmost one is under John's fingertips as he firms it in; FOUR additional lettuces to its right. Equal real spacing: plant centres at 10,30,50,70,90 percent of local bed width; no others in the front. Module tray of spare seedlings on left grass. Dark compost behind row. Young red-stemmed beetroot and young green spinach occupy roughly the far half as in ref 2, distinct rows with soil between plugs. Nothing on the path. Lifelike imperfect crops. Keep excellent candid photography and scale consistency all across the three images."
+  },
+  "profile_comparison": {
+    "status": "John selected the set after reviewing the lowered-profile comparison",
+    "camera_date": "2026-04-11",
+    "panels": [
+      {
+        "step": "Cover the ground",
+        "timecode": "2:20",
+        "comparison_still_mirrored": false
+      },
+      {
+        "step": "Add the compost",
+        "timecode": "1:55",
+        "comparison_still_mirrored": true
+      },
+      {
+        "step": "Start growing",
+        "timecode": "0:13",
+        "comparison_still_mirrored": true
+      }
+    ],
+    "review_pdf": "Vegetable-Guru-No-Dig-Profile-Test.pdf"
+  }
+}

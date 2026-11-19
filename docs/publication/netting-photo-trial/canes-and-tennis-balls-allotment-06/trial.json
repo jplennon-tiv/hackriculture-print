@@ -1,0 +1,115 @@
+{
+  "folio": 165,
+  "section": "Canes and tennis balls",
+  "approved_page": "docs/assets/vegetable-guru-stock/allotment-handover-2026-11-19/approved-proofs/Vegetable-Guru-Netting-Page-165.pdf",
+  "production_book_updated": false,
+  "camera": {
+    "original": "DJI_20260411113112_0139_D.MP4",
+    "source": "/Volumes/five_backup/Videos backup 11 May 2026/Movies/April 2026/April At The Allotment/DJI_20260411113112_0139_D.MP4",
+    "seek_seconds": 260,
+    "local_frame": "docs/publication/netting-photo-trial/canes-and-tennis-balls-allotment-02/April-allotment-04m20s.jpg",
+    "frame_px": [
+      3840,
+      2160
+    ],
+    "crop_xywh": [
+      478,
+      370,
+      2984,
+      1790
+    ],
+    "generation_reference_px": [
+      1619,
+      971
+    ],
+    "view": "Looking along the allotment bed between two brick finger paths. The grass crosses beyond the bed, before the neighbour’s hoops and timber beds."
+  },
+  "layout": {
+    "print_art_px": [
+      1619,
+      971
+    ],
+    "bounds_pt_from_top": [
+      54.801,
+      414.24,
+      234.969,
+      521.553
+    ],
+    "image_object": "/X27",
+    "inset": {
+      "source": "docs/assets/vegetable-guru-stock/allotment-handover-2026-11-19/approved-proofs/Canes-and-Tennis-Balls.jpg",
+      "source_crop_xywh": [
+        1174,
+        576,
+        429,
+        345
+      ],
+      "print_origin_xy": [
+        1203,
+        635
+      ],
+      "placement": "Bottom right, with the thin original pale border and clearance beside the front-right ball. Resampled once from the approved joint photograph.",
+      "print_size_px": [
+        400,
+        322
+      ]
+    }
+  },
+  "checks": {
+    "render_comparison_dpi": 144,
+    "change_bounds_exclusive_px": [
+      109,
+      828,
+      470,
+      1044
+    ],
+    "effective_ppi": 647,
+    "identical": [
+      "Straight front cane, x565–1119 y778–790, matches the earlier straight span",
+      "Rendered detail and surrounding scene outside x543–1148 y755–812 match revision 5",
+      "Bottom-right inset matches the resized approved joint detail",
+      "Page text, media box, trim box, content stream and three other image objects"
+    ],
+    "visual_review": [
+      "Straight front cane meeting both front tennis balls",
+      "Gentle curvature in the middle and side canes",
+      "Plant variation and bottom-right detail",
+      "Page 165 viewed beside 164"
+    ]
+  },
+  "revision": 6,
+  "status": "John approved this Canes and tennis balls image on 19 November 2026.",
+  "approval": {
+    "scope": "The Canes and tennis balls illustration, revision 6",
+    "date": "2026-11-19",
+    "art_sha256": "0ecff4da3b98715cd441ff2293b5e404b943464c875801390cabe80cfd3dddd4"
+  },
+  "previous_trial": "docs/publication/netting-photo-trial/canes-and-tennis-balls-allotment-05/trial.json",
+  "brief": "The bamboo cane across the front of the frame should be straight. Keep the slight irregularity in the other canes, the varied planting and the bottom-right connector inset.",
+  "generation": {
+    "tool": "Built-in ImageGen",
+    "prompt": "Correct only the single FRONT horizontal bamboo cane in the FIRST image. This is the lowest horizontal cane in the picture: it spans the two big yellow tennis balls NEAREST the camera. Currently it is visibly S-shaped. The SECOND image has exactly the straight front cane John wants. Restore that exact span from image 2 back into image 1, as one straight unsagging piece of garden bamboo emerging from the centres of the left and right front tennis balls. Use a straight centreline from end to end; slight changes in thickness at natural bamboo nodes are enough. Preserve the ball positions and connectors. Change only this front crossbar and the tiny strips of soil and leaf it covers and reveals. Keep the MIDDLE crossbar, side rails and uprights of image 1, including their slight natural curvature; also keep the very different sizes and positions of the four brassicas, original bottom-right detail inset, allotment, pose, hands and likeness of John. Images 3 and 4 are his actual downward face references for likeness only. Keep the exact camera position, crop and lighting. No text, graphic overlays or extra changes.",
+    "references": [
+      "docs/publication/netting-photo-trial/canes-and-tennis-balls-allotment-05/Canes-and-Tennis-Balls.png",
+      "docs/publication/netting-photo-trial/canes-and-tennis-balls-allotment-04/Canes-and-Tennis-Balls.png",
+      "docs/skills/vegetable-guru-garden-photography/assets/john-lowered-profile-reference.png",
+      "docs/skills/vegetable-guru-garden-photography/assets/likeness/face-down-left.png"
+    ],
+    "use": "Straight-cane visual edit master. For the page itself the exact straight span was available in revision 4."
+  },
+  "master": "imagegen-master.png",
+  "master_crop_xywh": [
+    0,
+    0,
+    1619,
+    971
+  ],
+  "master_size_px": [
+    1620,
+    971
+  ],
+  "art": "Canes-and-Tennis-Balls.png",
+  "proof": "Vegetable-Guru-Netting-Page-165.pdf",
+  "comparison": "Camera-and-illustration.jpg",
+  "composition": "Revision 5 with only the patch around the front span restored from revision 4. Soft-edged placement of the earlier rail also restores the small areas of leaf and soil immediately behind it. It runs straight between the same two tennis balls."
+}

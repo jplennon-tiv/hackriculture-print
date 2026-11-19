@@ -1,0 +1,33 @@
+{
+  "folio": 156,
+  "revision": 4,
+  "date": "2026-11-19",
+  "status": "timber picture for review; overview and brick picture accepted",
+  "previous": "../revision-03/trial.json",
+  "proof": "Vegetable-Guru-Making-Compost-Page-156.pdf",
+  "archive": "Vegetable-Guru-Making-Compost-Photographs.zip",
+  "seed": "../revision-02/03-building-the-timber-bin.jpg",
+  "timber_master": "generated_images/exec-7bf5817f-4e87-488b-a23d-9c340bf2745d.png",
+  "joinery": "Four vertical battens, two per side, one in front of and one behind the sliding boards. Photographic wood textures placed to follow the joint geometry.",
+  "prompt": "Create an entirely new, photorealistic field photograph from scratch of building a British garden compost bin. The FIRST input is the ORIGINAL seed photograph for the garden, weathered wood, the wooden lid leaned against the left wall of the bin, and the gardener lowering a plank. Use it for photographic character. The SECOND input is the exact, mechanically correct 3D joinery and viewing angle to photograph. Follow the actual solid shapes of the second reference for the box and for the sliding front, including which edges occlude the boards. Do not graft new sticks on top of the original image. Give the correct structure genuine photographic texture.\n\nFrame it as a fresh shot from modestly above the opening, almost front on, so the top ends of the twin wooden guides and the inside of each side wall can both be seen. Like the second input, the thick, plain side walls terminate at the front in simple square ends. Within EACH side of the opening are EXACTLY TWO full-height vertical retaining strips, no other vertical timbers or thin guide-like edges in that opening. The two bits of square stock are screwed to the SAME INNER FACE of the thick side wall. One is slightly nearer to the photographer, the second directly BEHIND it towards the compost. The rails are at two depths. Their two small horizontal end-grain squares show the dark board-width gap BETWEEN them when seen from above. Exactly match the end geometry of reference 2. The left and right tips of the loose horizontal board slide down this gap, visibly hidden by the FRONT lip and passing in front of the BACK lip; the stacked lower boards run in these identical channels. The front strip's narrow face makes a continuous vertical line over the board ends. Only two small flat batten tops on the left, only two on the right. No additional beading, layered runners, intermediate shims, loose little pegs, metal rails, faceted beam, fences of thin spars or gratuitous joinery. Lower slats are separate, unsecured, with no screw heads through them.\n\nKeep one hand from the right holding the loose front board inboard of the guide so both tracks show. Plain snug side/back boards, realistic reclaimed wood grain, irregular earth on the floor, natural daylight and hedge in an ordinary working garden. Slight colour variation between battens and boards, nothing polished. The existing wooden lid leaning beside the bin is recognisable and its crossbatten should be visible. Gently pull back to keep both sides and the loose lid safely in the square. Bin and working joint are the subject. The second input is an untextured model solely to convey the four strips; final result must look like a real gardening photograph, not an illustration, no text or layout.",
+  "technical_reference": "https://dec.vermont.gov/sites/dec/files/wmp/SolidWaste/Documents/ANR%20On-Site%20Composting%20Designing%20a%20Bin%20System%20for%20Hot%20Composting.pdf",
+  "photos": [
+    {
+      "file": "01-three-bins-front-garden.png",
+      "sha256": "7dc7ca131c8f8cc3a13d331a93e3b77223960b330fcd2e56eb1d83c9be63fcc1"
+    },
+    {
+      "file": "02-building-the-brick-bin.jpg",
+      "sha256": "30eb1895c65feaf04fd6b785f5799b3a0abe0d8b8d72673d42e32adddeb46104"
+    },
+    {
+      "file": "03-building-the-timber-bin.jpg",
+      "sha256": "e55bcc41b026cfbecaffa6e3c74868ae71d3192136afa2f1f2d39fb57a06b0ea"
+    }
+  ],
+  "verification": {
+    "original_text_and_trim_retained": true,
+    "identical_accepted_photos": true,
+    "changed_pixels_outside_timber_frame_at_144ppi": 0
+  }
+}

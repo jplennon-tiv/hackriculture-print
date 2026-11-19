@@ -1,0 +1,149 @@
+{
+  "folio": 159,
+  "title": "Cultivation No-Dig",
+  "stage": "Revised planting photograph on folio 159 for review",
+  "source_section": "output/pdf/section-extracts/Vegetable-Guru-Growing-Techniques.pdf",
+  "source_section_index": 12,
+  "revision_of": "../revision-04/trial.json",
+  "approved_camera_trial": "../porch-location-trial-02/trial.json",
+  "site": "The no-dig bed at the porch end of the back garden. Camera faces the greenhouses. A small strip of grass on the right is an imagined addition requested by John.",
+  "specified_bed_width_m": 1.2,
+  "timing": [
+    "Day one: overlap cardboard",
+    "Day one: distribute surface compost using a garden fork",
+    "One week later: begin planting lettuce"
+  ],
+  "wardrobe": [
+    "Teal fleece, olive beanie and jeans",
+    "Same day and outfit",
+    "J01 checked shirt with blue jeans, bareheaded"
+  ],
+  "references": {
+    "approved_location_photo": "generated_images/exec-cb9b2fab-9d8c-424b-8f36-7e60f96187bc.png",
+    "camera_original": "docs/assets/garden-media-library/local-references/home-garden/H16-DSC01820.JPG",
+    "comparison_photo": "DSC01827.JPG (see porch-location-trial-02/trial.json for original path)",
+    "face": "docs/skills/vegetable-guru-garden-photography/assets/john-looking-down.jpg",
+    "wardrobe": "docs/assets/garden-media-library/local-references/home-garden/H10-0124-00065.559.jpg"
+  },
+  "photographs": [
+    {
+      "file": "01-cover-the-ground.png",
+      "source_crop_px": [
+        3,
+        4,
+        719,
+        720
+      ],
+      "page_bounds_pt": [
+        48.1875,
+        401.66998291015625,
+        175.6875,
+        529.1699829101562
+      ],
+      "paragraph_starts_with": "Mark out a bed",
+      "sha256": "9337072e7154b8958ad79c348676d0be8275b97c1d74b573f818f7013037f33c",
+      "dimensions_px": [
+        716,
+        716
+      ],
+      "copied_from": "../revision-04/01-cover-the-ground.png"
+    },
+    {
+      "file": "02-add-the-compost.png",
+      "source_crop_px": [
+        728,
+        4,
+        1444,
+        720
+      ],
+      "page_bounds_pt": [
+        204.5625,
+        401.66998291015625,
+        332.0625,
+        529.1699829101562
+      ],
+      "paragraph_starts_with": "Spread about",
+      "sha256": "8b21faa9d96938584c0bb5aa91bfdf241ce83f5450caa2010ef116948e1cc0f2",
+      "dimensions_px": [
+        716,
+        716
+      ],
+      "copied_from": "../revision-04/02-add-the-compost.png"
+    },
+    {
+      "file": "03-start-growing.png",
+      "page_bounds_pt": [
+        360.8052062988281,
+        401.66998291015625,
+        488.3052062988281,
+        529.1699829101562
+      ],
+      "paragraph_starts_with": "You can plant",
+      "sha256": "2e6fa322f83406d0342c7f824f233ace8299149702751755eb1aeda06f4beaea",
+      "dimensions_px": [
+        1254,
+        1254
+      ]
+    }
+  ],
+  "page_proof": "Vegetable-Guru-No-Dig-Page-159.pdf",
+  "originals_zip": "Vegetable-Guru-No-Dig-Photographs.zip",
+  "checks": {
+    "same_text_trim_and_folio": true,
+    "unchanged_pdf_content_stream": true,
+    "separate_image_objects": 3,
+    "first_two_png_and_pdf_images_byte_identical": true,
+    "visible_change_bounds_144dpi": [
+      721,
+      302,
+      977,
+      558
+    ],
+    "identical_render_outside_planting_panel_vs_previous_proof": true,
+    "gap_mm": [
+      10.19,
+      10.14
+    ],
+    "print_width_mm": 44.98,
+    "effective_image_ppi_by_panel": [
+      404.3,
+      404.3,
+      708.1
+    ],
+    "verified_zip_contains_exact_pngs": true
+  },
+  "previous_joint_render": {
+    "file": "generated_images/exec-4a91a220-8661-4c5d-8660-3cdf96b4272c.png",
+    "applies_to_steps": [
+      1,
+      2
+    ],
+    "record": "../revision-04/trial.json"
+  },
+  "planting_photo": {
+    "file": "generated_images/exec-49a0783e-d4ae-4bc0-8906-5135d98e9e60.png",
+    "sha256": "2e6fa322f83406d0342c7f824f233ace8299149702751755eb1aeda06f4beaea",
+    "visual_references": [
+      "../revision-04/02-add-the-compost.png",
+      "../revision-04/03-start-growing.png"
+    ],
+    "planting_references": [
+      {
+        "source": "Charles Dowding, transplanting lettuce and freshly planted no-dig bed, April 2020",
+        "url": "https://charlesdowding.co.uk/blogs/homeacres/april-2020-no-dig-methods-to-sow-and-plant-transplant-size-what-is-compost-keep-sowing",
+        "used_for": "Small module-grown seedlings and in-ground appearance."
+      },
+      {
+        "source": "BBC Gardeners’ World Magazine, Plant out module-grown lettuce, May 2024",
+        "url": "https://pocketmags.com/gardeners-world-magazine/may-2024/articles/fruit-and-veg",
+        "used_for": "30 cm centre spacing for standard hearting types, plugs firmed into the compost."
+      },
+      {
+        "source": "Vegetable Guru metric lettuce crop proof",
+        "path": "output/pdf/sowing-rollout/revisions/lettuce/lettuce-metric.pdf",
+        "used_for": "Hearting lettuce spacing in the book: 30 cm."
+      }
+    ],
+    "prompt": "Create ONE photorealistic SQUARE documentary photograph as the corrected third panel of a British printed gardening sequence. No text, inset, screen furniture, arrows or collage. Two source photographs of the SAME fixed camera: use the FIRST (standing man, garden fork) as the actual camera plate and geometrical record, especially the rectangular bed corners and entire grass/compost boundary. Use the SECOND (kneeling bareheaded man in check shirt) for the identity, wardrobe, face with gently receding chin viewed looking down, relaxed kneeling posture and later week. Rebuild the PLANTING photograph on the footprint of the FIRST photograph.\n\nMake the near LEFT concrete corner marker return to the position in reference ONE: centre at about 9% of frame width, 93% down, close to the lower-left image edge. The other near corner stone stays at 84%, 95% down. The entire LEFT long edge of the 1.2 m wide rectangular bed is one clean straight receding diagonal between near corner (7%,89%) and far left corner (~73%,31%), passing roughly through 40%,60%. Give it the small, irregular crumb texture of compost on mown turf, NO long bowed arc, NO ellipse. Visually follow a taut invisible string line. Very slightly sloping near end between the original two stones, same broad foreground perspective as first photo. Right grass margin, glazed aluminium greenhouse and brick plinth, fence, black barrel and established plants behind absolutely fixed. Camera faces away from the porch. One week later: cardboard fully covered in level dark mature compost; no fork, no standing person. Only ONE John. He kneels on the grass LEFT of this edge, checked cream/charcoal shirt and jeans as ref 2, head and shoulders same apparent size and in same area. Shift his knees and seedling tray slightly back into the grass if needed to fit the correct lawn shape, neither on the newly prepared compost. Place the small black plug tray directly to his left on the grass (partly cropped at frame edge if necessary). Natural overcast spring daylight and unstyled editorial colour.\n\nShow the beginning of planting a standard green HEARTING/COS LETTUCE. Real four-week-old module plants: just three or four small soft oval true leaves on a short stem, gently irregular, narrow near base, some leaning, restrained greyish medium leaf-green with slightly bronze outer leaf tips, real subtle daylight variation. NOT bright lemon/chartreuse, not saturated, not full leafy rosettes or miniature mature lettuce heads. Blade length about 4–6 cm, comparable to the distal length of John's thumb. Flat-black nursery cells about 3–4 cm wide amid visible dark compost: most have one modest seedling of the same age and variety, two or three cells empty. Two small plugs are already planted, stems emerge naturally from the compost and the root blocks are buried. John is bending forward and using fingertips to seat a third one, plug almost at compost level, one hand holding the small plug the other drawing compost to it. No presentation to camera and no huge black root cube. Little contact shadows and slight fingertip marks convey actual planting.\n\nSpacing MATTERS: show three planting positions across ONE understated transverse row in the nearer half of the bed: John's third plug on the left, two already planted to its right. Centre to centre is 30 cm, one quarter of the LOCAL width of the 1.2 metre bed at THAT depth, not one quarter of the whole frame. E.g. if aligned at ~72% down the frame, the bed extends approximately 25% to 91% across there: place the plug under John's fingers around 38% across, and the two planted seedlings around 54% and 70% across. Adjust for the same slight perspective slant as the near short edge. Maintain about 15 cm or more to the bed edge. The hand action should feel reachable and deft. A week's growth has not occurred yet; these have just been planted. Plant heights close to 1/6 the gap, not a third of the gap. Everything farther up the long bed remains plain level compost: the job has only just begun. Match the real skin texture, clothing, greenhouse glazing and ordinary wet-Cornish-garden light in the references, a casual but clear photograph for a gardening book. Square edge to edge."
+  }
+}

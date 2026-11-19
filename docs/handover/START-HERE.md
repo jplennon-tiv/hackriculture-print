@@ -1,6 +1,6 @@
 # Current project handover
 
-Updated 18 November 2026. **The cover design is complete. The current experiment is a photographic location skill for the fixed Growing Techniques pages.** [Copy-and-paste session brief](NEXT-SESSION.md).
+Updated 19 November 2026. **The cover design is complete. Working Map 03 of John’s allotment is ready for review for the Growing Techniques photographs.** [Copy-and-paste session brief](NEXT-SESSION.md).
 
 The [personal introduction](../publication/introduction-revision/APPROVAL.json) is approved and installed at page 7, with the [enhanced 1991 photograph](../assets/book-photographs/README.md) saved. The assembled book remains 176 interior / 180 PDF pages. The approved 44 vegetable working spreads and variety additions still await separate integration; page integration is a later task. The archive supplies visual references for generating new images. The earlier [storage cleanup](../maintenance/storage-audit/README.md) and [17 November duplicate-ZIP cleanup](../maintenance/git-size-cleanup-2026-11-17/README.md) are complete, not new work queues.
 
@@ -10,7 +10,9 @@ dated reports and approvals are evidence, not instructions to resume old work.
 
 ## Resume here
 
-**Growing Techniques — photographic location skill.** John has fixed the book's layout and text. Use his photographs and footage as reference material to build a reusable skill that generates new photorealistic views of his home garden and allotment from different angles. Start with separate location references, then test one existing Techniques image in its current space. The [working brief](NEXT-SESSION.md#first-location-and-artwork-tests) and [local location references and archive audit](../assets/garden-media-library/local-references/README.md) own the next steps. The earlier 42-entry catalogue and contact sheet are source-finding aids.
+Review the [revised allotment plan beside the original flyover frames](../assets/vegetable-guru-stock/allotment-map-03/Johns-Allotment-Working-Map-03.pdf), especially the dashed stretches behind the shed and at the ends of the beds. The [map record and editable Blender model](../assets/vegetable-guru-stock/allotment-map-03/README.md) preserve the evidence for future illustrations.
+
+**Growing Techniques photographs.** The [offline atlas](../assets/garden-media-library/local-references/viewpoint-atlas/Garden-and-Allotment-Viewpoints.pdf) and [camera-position guide](../skills/vegetable-guru-garden-photography/references/choosing-a-viewpoint.md) cover both gardens, with 74 newly retained views. Use [Vegetable Guru Garden Photography](../skills/vegetable-guru-garden-photography/SKILL.md) for the next photographic page. The page 160 exercise established the working approach. The [working brief](NEXT-SESSION.md#first-location-and-artwork-tests), [offline site references](../assets/garden-media-library/local-references/README.md) and [six photographed outfits](../assets/garden-media-library/wardrobe/John-Gardening-Wardrobe.pdf) support further illustrations in the fixed book layout.
 
 **Cover design complete.** John chose the original gold ribbon (#F2CC35) with the accepted kerning and spine, the Original harvest front and the protected rear 04. [Selected design and editable master](../publication/cover-versions/version-1-1/selected-gold-cover/README.md) · [uploaded wrap proof](https://chatgpt.com/library?file_id=libfile_fde3_f-7612f536f3148191b74e7b6cee1905ac_968f6e806ba48191b80ffb1b7a35f663&account_id=personal) · [protected rear photographs](../publication/cover-versions/version-1-1/rear-cream-harvest/photo-grid/revision-04/protected-master/README.md). The six [alternative harvest arrangements](../assets/harvest-alternatives/README.md) remain available as photographic assets. Earlier sage/ivory Version 1-1 and the cream starting master are frozen. The 12.5 mm spine is provisional pending final print specifications. Use uploaded links for chat previews.
 
@@ -786,6 +788,7 @@ the [asset registry](../assets/README.md) owns source provenance.
 | Book design, openings, covers, illustrated topics, ordering | [vegetable-guru-book-design](../../.agents/skills/vegetable-guru-book-design/SKILL.md) and its [topic workflow](../../.agents/skills/vegetable-guru-book-design/references/illustrated-topic-pages.md) |
 | Simple bound-book pages and facing-spread fit | [book-layout-review](../../.agents/skills/book-layout-review/SKILL.md) |
 | Contents/index and whole-book assembly | Agreed structure and book design directly; outside layout-review scope |
+| On-site technique photographs, John as demonstrator, new views of the garden or allotment | [Vegetable Guru Garden Photography](../skills/vegetable-guru-garden-photography/SKILL.md) |
 | Photographic garden-grown vegetables for covers or expressly photographic interiors | [Photorealistic Vegetables](../skills/photorealistic-vegetables/SKILL.md) · [visual benchmark](../publication/cover-versions/version-1-1/garden-harvest-natural-pile/Allotment-Harvest.png) |
 | Graphic vegetable illustration style | [vegetable-guru-artwork](../../.agents/skills/vegetable-guru-artwork/SKILL.md) |
 | Retained A4 sheets | [guide-layout-review](../../.agents/skills/guide-layout-review/SKILL.md) |
@@ -836,3 +839,9 @@ messages, rights declarations, contract acceptance, distribution activation and
 deployment need applicable authorisation; completed actions are not standing
 approval for new ones. Preserve existing KDP titles; the old Practical Gardener
 draft is unrelated.
+
+
+<!-- vegetable-guru-allotment-handover-2026-11-19 -->
+## Allotment photography
+
+[Working Map 03 and the March flyover evidence](../assets/vegetable-guru-stock/allotment-map-03/README.md) · [Working Map 02 and the dated handover](../assets/vegetable-guru-stock/allotment-handover-2026-11-19/HANDOVER.md). Pages 156–158 and the page 165 frame photographs are approved, including the [bottle pair](../publication/netting-photo-trial/bottles-over-canes-01/trial.json) and [allotment tennis-ball frame](../publication/netting-photo-trial/canes-and-tennis-balls-allotment-06/trial.json). The [current Netting spread](../publication/netting-photo-trial/permanent-fruit-cage-03/Vegetable-Guru-Netting-164-165.pdf) shows John’s approved fruit-cage illustration, revision 3, in an imagined corner of his home garden on page 164. “Choose the covering for the job” is deferred. John approved [all five cane illustrations](../publication/supports-photo-trial/allotment-beans-and-bracing-03/trial.json) in the [current Supports proof on pages 166–167](../publication/supports-photo-trial/allotment-beans-and-bracing-03/Vegetable-Guru-Supports-166-167.pdf). The next Supports task is the tall-brassica stake sequence on page 167, deferred to a future session. The [garden photography guidance](../skills/vegetable-guru-garden-photography/references/cane-structures.md) keeps the cane construction and camera evidence together.

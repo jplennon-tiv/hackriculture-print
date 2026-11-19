@@ -1,0 +1,50 @@
+{
+  "folio": 164,
+  "section": "A permanent fruit cage",
+  "revision": 4,
+  "status": "Shadow trial set aside by John on 19 November 2026. Use revision 3.",
+  "production_book_updated": false,
+  "previous_trial": "docs/publication/netting-photo-trial/permanent-fruit-cage-03/trial.json",
+  "site": "Fictional corner of John’s home garden, as in revision 1.",
+  "brief": "Show the shadows cast by the timber framework at its feet, across the lawn and the bare soil within the enclosure.",
+  "generation": {
+    "tool": "Built-in ImageGen",
+    "edit_reference": "docs/publication/netting-photo-trial/permanent-fruit-cage-03/A-Permanent-Fruit-Cage.png",
+    "prompt": "Photographic shadow correction ONLY, to this exact image. The point of this edit is to make the cast shadows of the wooden fruit-cage FRAME genuinely visible and immediately readable on a small printed book page. Keep the original photograph's composition and camera registration, every timber and joint, flush post tops, closed diagonally braced gate, wire mesh, roof net, currant bushes and red berries, darker small weed seedlings, grass fringe, robin perched on the separate fence, garden background, overall colour and exposure. No people or labels.\nThe current frame seems pasted in because the ground at the feet is lit uniformly. Use one plausible moderately high summer sun from above and the upper LEFT and slightly BEHIND the cage, consistent with the illuminated tops, so the framework throws real, medium-strength, slightly cool shadows to the RIGHT and slightly FORWARD (toward lower right of picture). Every cast shadow begins at its actual object: an upright casts a narrow grounded shadow from its foot in that single direction, and the tops of these post shadows connect to the long ground shadow of the corresponding raised horizontal rail. Make the closest corner post’s shadow especially legible: clearly follow it out from the timber foot across the tufted grass onto the cut lawn. On the open right-hand foreground lawn the door posts and the front top rail should produce recognisable angled strips of shade as one projected frame; the actual gate brace can create one lighter diagonal within the corresponding patch on the grass. Continue the remaining shadows across exposed soil inside where the sun angle calls for them, hidden or broken naturally by plants. Coherent perspective, shadow widths consistent with the slim timber; modest penumbra widening with height, soft but readable edges, strongest at contact and still evident farther out. Allow grass blades to interrupt the shadow edges and keep grass/soil texture visible within them; use natural reflected daylight for the shadow colour. Sparse faint wire shadows close to the ground, barely perceptible from the roof mesh. The enclosure lets light through: no large solid dark roof silhouette, no artificially heavy black outlines, no dense chessboard, no arbitrary strips or shadows from imaginary objects. No change to the scene other than illumination where the actual frame blocks the sun. Rectangular, full-frame, 4:3 landscape.",
+    "print_finishing": "Transferred the generated ground lighting to revision 3 using feathered lawn/soil masks and a smoothed luminance ratio. The original fine grass, wire and ground texture remain visible across each shadow. Upper frame, roof and robin retain the original pixels."
+  },
+  "art": "A-Permanent-Fruit-Cage.png",
+  "art_sha256": "7a8bfac10829ebb591ef2011300dc8411a3098723cd1b7c7ae078c7e3b9d28c3",
+  "page_proof": "Vegetable-Guru-Netting-Page-164.pdf",
+  "spread_proof": "Vegetable-Guru-Netting-164-165.pdf",
+  "checks": {
+    "art_px": [
+      1448,
+      1086
+    ],
+    "page_bounds_pt_from_top": [
+      36.784,
+      445.008,
+      233.468,
+      592.094
+    ],
+    "actual_art_change_bounds_px": [
+      0,
+      556,
+      1448,
+      1086
+    ],
+    "page_change_bounds_at_144dpi": [
+      73,
+      1041,
+      467,
+      1185
+    ],
+    "verified": [
+      "Spot-checked post contact, top rail and gate projection on the lawn; checked shadows on the bare soil",
+      "Inspected rendered proof at page and spread size",
+      "Page 165 matches the approved proof pixel-for-pixel at 144 dpi",
+      "Page copy, geometry, and upper page 164 art verified"
+    ]
+  }
+}

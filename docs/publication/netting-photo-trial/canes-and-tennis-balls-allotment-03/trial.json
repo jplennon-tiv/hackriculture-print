@@ -1,0 +1,108 @@
+{
+  "folio": 165,
+  "section": "Canes and tennis balls",
+  "approved_page": "docs/assets/vegetable-guru-stock/allotment-handover-2026-11-19/approved-proofs/Vegetable-Guru-Netting-Page-165.pdf",
+  "production_book_updated": false,
+  "camera": {
+    "original": "DJI_20260411113112_0139_D.MP4",
+    "source": "/Volumes/five_backup/Videos backup 11 May 2026/Movies/April 2026/April At The Allotment/DJI_20260411113112_0139_D.MP4",
+    "seek_seconds": 260,
+    "local_frame": "docs/publication/netting-photo-trial/canes-and-tennis-balls-allotment-02/April-allotment-04m20s.jpg",
+    "frame_px": [
+      3840,
+      2160
+    ],
+    "crop_xywh": [
+      478,
+      370,
+      2984,
+      1790
+    ],
+    "generation_reference_px": [
+      1619,
+      971
+    ],
+    "view": "Looking along the allotment bed between two brick finger paths. The grass crosses beyond the bed, before the neighbour’s hoops and timber beds."
+  },
+  "layout": {
+    "print_art_px": [
+      1619,
+      971
+    ],
+    "bounds_pt_from_top": [
+      54.801,
+      414.24,
+      234.969,
+      521.553
+    ],
+    "image_object": "/X27",
+    "inset": {
+      "source": "docs/assets/vegetable-guru-stock/allotment-handover-2026-11-19/approved-proofs/Canes-and-Tennis-Balls.jpg",
+      "source_crop_xywh": [
+        1174,
+        576,
+        429,
+        345
+      ],
+      "print_origin_xy": [
+        18,
+        18
+      ],
+      "placement": "Upper left, clear of all six joints. The light border is part of the original close-up."
+    }
+  },
+  "checks": {
+    "render_comparison_dpi": 144,
+    "change_bounds_exclusive_px": [
+      109,
+      828,
+      470,
+      1044
+    ],
+    "effective_ppi": 647,
+    "identical": [
+      "Original inset pixels",
+      "Page text, media box, trim box, content stream and three other image objects"
+    ],
+    "visual_review": [
+      "Original 04:20 site view, grass strip and both brick paths",
+      "Six supports and the rail John is fitting",
+      "Downward-facing profile",
+      "Whole page and facing 164"
+    ]
+  },
+  "revision": 3,
+  "status": "Raised frame and corner close-up proposed for John’s review",
+  "previous_trial": "docs/publication/netting-photo-trial/canes-and-tennis-balls-allotment-02/trial.json",
+  "brief": "Keep the corrected view, put the frame roughly 12 inches (30 cm) above the soil, and give the cane-and-ball joint a corner close-up like the manufactured-frame picture. The height is an illustrated estimate.",
+  "generation": {
+    "tool": "Built-in ImageGen",
+    "prompt": "Make a local photographic edit of the FIRST image. It is the print illustration to preserve, including its single pale-bordered upper-left corner detail showing three canes joined inside a tennis ball. Deliver the same landscape camera framing and the same inset in this corner. Primary requested change: LIFT the whole horizontal bamboo grid higher above the soil, keeping all SIX feet planted in precisely their original spots in the centre of the bed. It now needs real, visible vertical sides about 12 inches / 30 cm tall, a little below a kneeling gardener's knee when standing. Use a tennis ball ~2.6 inches diameter as a built-in ruler, allow perspective: in the foreground the total height from soil to TOP of ball should read as about four and a half ball diameters, rather than the current two. At the front corners in the first image the feet are almost at the bottom edge; keep the feet there and move their yellow balls and horizontal front rail noticeably UP (roughly 12% of entire image height). The rails on the near and far rows form a single level rectangular plane at the new height, the rear posts look shorter only through perspective. Show one straight vertical bamboo support below each of the six balls (two front corner supports, two mid-side supports, two rear corner supports). Keep two side rails and three crossbars, holes snug, ball joints clear. Preserve the original size and wear of the balls, crops, frame width, length, camera perspective and plants' original scale. The young plants come part-way up the legs, with light and air between their leaves and the rails. Leave existing soil visible around the central frame. John still kneels at the far end in the same pose and clothes; move his hands up to meet the raised rear-left joint and crossbar. Keep his gentle downward-facing profile and short grey beard. Inset shows the same separate existing macro corner joint in the upper left. No second close-up, no words, ruler or dimension labels. Second reference is the actual allotment camera image for the exact grass path, brick paths, winter beds and unchanged camera crop. The two final images are photographs of John's lowered left-facing profile for likeness only. Bed borders, continuous crosswise grass path and neighbour's hoops must retain the exact site position. Natural documentary gardening photograph.",
+    "references": [
+      {
+        "path": "docs/publication/netting-photo-trial/canes-and-tennis-balls-allotment-02/Canes-and-Tennis-Balls.png",
+        "role": "Centred-bed composition supplied for the edit, including John and the corner inset"
+      },
+      {
+        "path": "docs/publication/netting-photo-trial/canes-and-tennis-balls-allotment-02/April-allotment-04m20s.jpg",
+        "crop": "See camera.crop_xywh"
+      },
+      "docs/skills/vegetable-guru-garden-photography/assets/john-lowered-profile-reference.png",
+      "docs/skills/vegetable-guru-garden-photography/assets/likeness/face-down-left.png"
+    ]
+  },
+  "master": "imagegen-master.png",
+  "master_crop_xywh": [
+    0,
+    0,
+    1619,
+    971
+  ],
+  "master_size_px": [
+    1620,
+    971
+  ],
+  "art": "Canes-and-Tennis-Balls.png",
+  "proof": "Vegetable-Guru-Netting-Page-165.pdf",
+  "comparison": "Camera-and-illustration.jpg"
+}

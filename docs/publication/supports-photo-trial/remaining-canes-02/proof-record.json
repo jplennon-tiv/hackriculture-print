@@ -1,0 +1,186 @@
+{
+  "status": "John approved the finished wigwam on 19 November 2026. The person-free traditional bean row is approved. He selected the pea photograph as the exact base for the braced view. The broad-bean and bracing pictures in this proof are historical.",
+  "date": "2026-11-19",
+  "baseline_spread": "docs/publication/supports-photo-trial/bean-row-04/Vegetable-Guru-Supports-166-167.pdf",
+  "baseline_sha256": "63d61ea7cd16e7986f81707466a9df13aae46e77216533914ba609ad287ef0e2",
+  "spread": "Vegetable-Guru-Supports-166-167.pdf",
+  "spread_sha256": "6aadb70787a15628f4dce4b3b4193142d89f84f57408ab760e669e27b8ef8f41",
+  "close_ups": "Cane-supports-close-ups.pdf",
+  "production_updated": false,
+  "approved_bean_row_sha256": "be7ea8294bbc24c12c3e08ae60f5a147d8a7b66874bf6a600db33fd81354f57d",
+  "page_checks": {
+    "166": {
+      "unchanged_image_streams": [
+        "/X7"
+      ],
+      "replaced_image_streams": [
+        "/X12",
+        "/X14",
+        "/X16"
+      ],
+      "changed_pixels_outside_specified_image_bounds_at_144dpi": 0,
+      "text_and_page_commands_equal": true,
+      "trim_and_all_page_boxes_equal": true,
+      "all_image_positions_equal": true,
+      "single_page_pdf_matches_spread_render": true
+    },
+    "167": {
+      "unchanged_image_streams": [
+        "/X22",
+        "/X24",
+        "/X26",
+        "/X28"
+      ],
+      "replaced_image_streams": [
+        "/X30"
+      ],
+      "changed_pixels_outside_specified_image_bounds_at_144dpi": 0,
+      "text_and_page_commands_equal": true,
+      "trim_and_all_page_boxes_equal": true,
+      "all_image_positions_equal": true,
+      "single_page_pdf_matches_spread_render": true
+    }
+  },
+  "artwork": {
+    "wigwam": {
+      "heading": "A wigwam for a small space",
+      "folio": 166,
+      "object": "/X12",
+      "site": "2018 home garden alongside the blue shed",
+      "reconstruction": "Early-stage reconstruction of the July cone. June bed photographs support the slim canes and timber surround. Seven feet, one bound apex and mixed young climbers.",
+      "selected_generation": "pass-7",
+      "master": "masters/02-bean-wigwam.png",
+      "master_sha256": "e631a0d2d3876aaf35b0f27f5e55367be65e7f13266ad12bc9c9a80924a905b3",
+      "master_pixels": [
+        1254,
+        1254
+      ],
+      "print_crop_ltrb_pixels": [
+        0,
+        23,
+        1254,
+        1230
+      ],
+      "print_image": "artwork/02-bean-wigwam.jpg",
+      "print_pixels": [
+        1254,
+        1207
+      ],
+      "print_sha256": "3303e364dbd646a7e7ad2e7129792ad7d262775676e904827dc0bdf444e2d4cc",
+      "print_bounds_pt_from_top": [
+        305.535,
+        147.085,
+        429.401,
+        265.654
+      ],
+      "effective_ppi": 729,
+      "approval": {
+        "by": "John",
+        "date": "2026-11-19",
+        "scope": "The blue-shed bean wigwam shown in this proof."
+      }
+    },
+    "peas": {
+      "heading": "Give peas plenty to catch",
+      "folio": 166,
+      "object": "/X14",
+      "site": "June 2026 allotment pea bed",
+      "reconstruction": "An unbraced instructional reconstruction of the taller frame in the footage. Four corner canes and open climbing net. The wire and open mesh are separately visible in clip 0032 at 00:08.",
+      "selected_generation": "pass-8",
+      "master": "masters/03-pea-net.png",
+      "master_sha256": "b8cfc246dff750b38cfa10e3f6eeb710cc0334d107e7856c9ba6e06f30cb3ded",
+      "master_pixels": [
+        1536,
+        1024
+      ],
+      "print_crop_ltrb_pixels": [
+        1,
+        0,
+        1535,
+        1024
+      ],
+      "print_image": "artwork/03-pea-net.jpg",
+      "print_pixels": [
+        1534,
+        1024
+      ],
+      "print_sha256": "affd9eb36475be4a37fc96d59a9cca1d3f794fcb7a2dbbc0af5ef072199238a1",
+      "print_bounds_pt_from_top": [
+        42.79,
+        390.977,
+        178.667,
+        481.78
+      ],
+      "effective_ppi": 812
+    },
+    "broad-beans": {
+      "heading": "Broad beans need less",
+      "folio": 166,
+      "object": "/X16",
+      "site": "2018 home garden in the timber-edged beds",
+      "reconstruction": "Reconstruction at an earlier stage of growth to expose the string and the double row. Two levels of string steady the leafy upright plants.",
+      "selected_generation": "pass-3",
+      "master": "masters/04-broad-bean-strings.png",
+      "master_sha256": "57f8c485e39e76ee5332b4e29a6039ab2888b73e396bf324e8981820c389f14c",
+      "master_pixels": [
+        1859,
+        846
+      ],
+      "print_crop_ltrb_pixels": [
+        0,
+        1,
+        1859,
+        845
+      ],
+      "print_image": "artwork/04-broad-bean-strings.jpg",
+      "print_pixels": [
+        1859,
+        844
+      ],
+      "print_sha256": "254eaa0429816f5b845e074ce093a117ec104f1bbd7f2b5c3b66ba2000968762",
+      "print_bounds_pt_from_top": [
+        23.272,
+        520.052,
+        198.185,
+        599.598
+      ],
+      "effective_ppi": 764
+    },
+    "bracing": {
+      "heading": "Brace a frame against the wind",
+      "folio": 167,
+      "object": "/X30",
+      "site": "June 2026 allotment pea bed",
+      "reconstruction": "The net is left off to expose the two long-face diagonals and one end diagonal. The reconstructed frame stands on one patch of soil. The June footage supplies the site and real joints.",
+      "selected_generation": "pass-5",
+      "master": "masters/09-diagonal-bracing.png",
+      "master_sha256": "fc5af99e6615458df218bc6e7fb80953d3c9545bf5e3054a6340a536139d77e5",
+      "master_pixels": [
+        1671,
+        941
+      ],
+      "print_crop_ltrb_pixels": [
+        0,
+        0,
+        1671,
+        940
+      ],
+      "print_image": "artwork/09-diagonal-bracing.jpg",
+      "print_pixels": [
+        1671,
+        940
+      ],
+      "print_sha256": "265a992e7d8207e2831b480b924f19dbeff5ed948d9cb54b6a66fc9e4d3a8099",
+      "print_bounds_pt_from_top": [
+        55.552,
+        405.986,
+        216.952,
+        496.788
+      ],
+      "effective_ppi": 745
+    }
+  },
+  "four_picture_preview": "Four-cane-supports.jpg",
+  "visual_review": "Inspected all four final photographs and their placements on the 185 × 240 mm spread. The wigwam tips and circular footprint fit the image. Light on the front pea net separates it from the foliage. The broad-bean strings run in two courses round the plants. The long-face X, end brace and four feet read over one cultivated bed.",
+  "next_proof": "../allotment-beans-and-bracing-03/Vegetable-Guru-Supports-166-167.pdf"
+}

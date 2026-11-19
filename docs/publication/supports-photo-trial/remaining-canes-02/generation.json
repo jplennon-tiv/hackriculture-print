@@ -1,0 +1,229 @@
+{
+  "date": "2026-11-19",
+  "tool": "Built-in ImageGen, reference-image editing",
+  "base": "The actual camera images establish place and scale. The final illustrations reconstruct the teaching arrangements. All four are person-free.",
+  "camera_register": "docs/publication/supports-photo-trial/revision-01/camera/sources.json",
+  "bean_row_camera_register": "docs/publication/supports-photo-trial/bean-row-camera-review/sources.json",
+  "added_local_references": {
+    "Pea-net-joint-0032-00m08s.jpg": {
+      "type": "camera still",
+      "camera_source": "/Volumes/Videos/Movies/June 2026/Bean and pea Supports/DJI_20260609172727_0032_D.MP4",
+      "camera_date": "2026-06-09",
+      "seek_seconds_in_raw_clip": 8,
+      "extraction": "1920-pixel wide JPEG, unaltered full frame",
+      "sha256": "70b04e27bf36f8f7892ba7b115a665d8b4cda6cd43504b488457427943332429"
+    },
+    "brace-construction.png": {
+      "type": "construction drawing",
+      "description": "Working perspective guide, long-side X and separate short-end diagonal.",
+      "sha256": "476e323ad7db373cb680f01c8ed6a8211c2be753aacfc724ce4f441d82a93890"
+    },
+    "pea-construction.png": {
+      "type": "construction drawing",
+      "description": "Working perspective guide, four posts with two net faces.",
+      "sha256": "0e2933351ab7acbaae01bc581c916eaa060714b6a2e102b2c2c59de3f67c9eb6"
+    }
+  },
+  "passes": [
+    {
+      "id": "pass-1",
+      "picture": "wigwam",
+      "purpose": "Wigwam, site and scale",
+      "reference_inputs_in_order": [
+        {
+          "project_file": "docs/publication/supports-photo-trial/revision-01/camera/DSC08473.jpg"
+        },
+        {
+          "project_file": "docs/publication/supports-photo-trial/revision-01/camera/DSC08354.jpg"
+        },
+        {
+          "project_file": "docs/publication/supports-photo-trial/revision-01/camera/DSC08474.jpg"
+        },
+        {
+          "project_file": "docs/publication/supports-photo-trial/bean-row-04/Traditional-bean-row.png"
+        },
+        {
+          "project_file": "docs/publication/supports-photo-trial/bean-row-camera-review/F-0026-00-34.jpg"
+        }
+      ],
+      "prompt": "A single natural colour documentary gardening photograph, nearly square 1:1 with a little safe margin on all sides for a book. Revisit the first photograph of John's Cornish home garden beside the blue-painted timber shed. Take the same gardener's-eye view of this actual weathered board-edged bed with the narrow grass path along it and the wooden fence, in the early growing season before the runner beans grow thick. The second photo shows the earlier planting and bamboo slenderness here. The third confirms where the real flowering bean cone stands, the fourth is John's approved photograph of his long bamboo for scale and material only, and the fifth is his small hand-twisted wire. In the foreground book the WHOLE full-height traditional runner bean wigwam from every foot in loose cultivated soil up to absolutely all tips AND a few centimetres of sky above, looking very slightly across the bed. Allow a little room below its nearest foot. From eye level, the slim tip bundle rises around shed-eaves height; the canes are over 7 feet long, roughly pencil/finger thick when first picked up, finely tapered, weathered grey-tan and slightly varied. Show seven distinct individual slender ordinary UK garden canes, short uneven projecting tips, each slowly leaning from its OWN foot on the ground circle to ONE compact hand-fastened apex. The visible round footprint projects as an ellipse with several feet clearly forward and several clearly behind. Near and far feet physically attach to their individual shafts. A little muted green plastic-coated garden wire gathers the apex: a couple of tight loops and short twisted ends, small enough to barely show. Slight gentle natural bow in a few shafts only, individual heights vary; no fat poles, deliberate curves, lashings, horizontal rails, side braces or extra structures in this bed. Plant young climbing runner beans at the foot of the canes, at subtly different sizes and angles, a few shoots just beginning to climb; plenty of visible bare cane. A glimpse of the same blue weatherboard shed off to the LEFT, side grass path and quiet timber fence for location; keep its size proportionate, a normal domestic shed. Shoot the scene for the teaching detail, not a general garden view. True photographic textures and natural daylight, no person, text, collage, captions or graphic. Do not import the allotment or A-frame from the last two photographs.",
+      "output_sha256": "52577ea87c1c932a4106210604cc467aeebdbc0ae447e4d34bf8c453a84c322e",
+      "selected": false
+    },
+    {
+      "id": "pass-2",
+      "picture": "peas",
+      "purpose": "Peas, site and open climbing net",
+      "reference_inputs_in_order": [
+        {
+          "project_file": "docs/publication/supports-photo-trial/revision-01/camera/0032-45.12.jpg"
+        },
+        {
+          "project_file": "docs/publication/supports-photo-trial/revision-01/camera/0025-586.8.jpg"
+        },
+        {
+          "project_file": "docs/publication/supports-photo-trial/remaining-canes-02/references/Pea-net-joint-0032-00m08s.jpg"
+        },
+        {
+          "project_file": "docs/publication/supports-photo-trial/bean-row-04/Traditional-bean-row.png"
+        },
+        {
+          "project_file": "docs/publication/supports-photo-trial/remaining-canes-02/references/pea-construction.png"
+        }
+      ],
+      "prompt": "Make ONE documentary colour photograph for the book image “Give peas plenty to catch”. Landscape 3:2 framed with a little safe room including all four upright tips AND all feet. Start from the actual first allotment camera image, the open ground-level pea bed between narrow worn brick finger paths, mottled grey wall, ordinary wooden outbuilding and clipped hedge in the distance, second picture shows across-bed context. The third is a camera close-up ONLY of the real fine hand-knotted open green pea net and John's short green plastic-coated wire joint; the fourth is scale and material of his slender weathered garden bamboo. The fifth working diagram is the basic disposition of four posts and rails, not a design style: interpret in this real site as a natural garden photograph at eye level, showing the long side and the depth of the bed at a three-quarter angle. A gardener has erected one tall and distinctly narrow long rectangular pea frame for climbing peas, noticeably taller than the waist (about human shoulder to eye height), four small-diameter uprights at four distinct near/far soil feet and four thin upper rails tied at their ACTUAL physical crossings with short individually hand-twisted green coated wire. A few cm of upright project at the upper joints. Thin tapered ordinary grey-tan UK garden bamboo, real subtle joints and slight differences of lean. The two longitudinal sides carry open climbing pea net to catch tendrils. Show an actual piece of supple garden pea net hung from the long upper cane with large roughly hand-size squares or diamonds and tied at the edges; lightly irregular squares, distinct against subdued soil/wall, not rigid fencing. A small double row of young pea vines with compound rounded leaves and curling tendrils begins to reach the net, each plant different, irregularity in size and posture. Uprights go into distinct points of cultivated soil clear of the pavers. Frame feels full sized and quite tall compared with plants and wall; in the real photo only 1–2 cm diameter cane, not timber pipe. Pea net is the subject. For this one OMIT ALL diagonal cane bracing, both along the sides and across ends; four posts and simple rectangular top rails suffice. No roof net, no horizontal lower pole, no insect mesh, no beans. Keep the whole teaching object within the picture, no people, no inset, text or diagrams. Neutral daylight with enough light on the open mesh for a book reader; natural documentary photograph, no diagram styling.",
+      "output_sha256": "9e26ea11101d600a89ab56665ebcbce86511cd6386eecb2ab90d5f68bf9fa304",
+      "selected": false
+    },
+    {
+      "id": "pass-3",
+      "picture": "broad-beans",
+      "purpose": "Broad beans, perimeter strings",
+      "reference_inputs_in_order": [
+        {
+          "project_file": "docs/publication/supports-photo-trial/revision-01/camera/DSC08356.jpg"
+        },
+        {
+          "project_file": "docs/publication/supports-photo-trial/revision-01/camera/DSC08354.jpg"
+        },
+        {
+          "project_file": "docs/publication/supports-photo-trial/bean-row-04/Traditional-bean-row.png"
+        }
+      ],
+      "prompt": "One authentic high-quality photographic illustration for a practical UK gardening book, WIDE panoramic 2.2:1, horizontal. The first genuine photo is the source of the view: John's actual board-edged domestic garden bed in Cornwall, compact garden with other plants, grass paths, fennel, onions and quiet white windows beyond. Show the broad beans a little earlier in the season when both rows and their supporting string can be clearly seen. The second photo locates the old timber bed and narrow turf paths, the last is only a guide to slender ordinary weathered garden bamboo. Frame the bed not the house, close enough for an immediately readable, oblique long-side view (can look down slightly). Keep ALL critical content, both row ends, tips, strings, feet and front edge in central 80% of height for a 2.2:1 landscape print picture. A garden bed with a double row of established FREESTANDING broad beans (Vicia faba), substantial upright individual vegetable plants with blue-green blunt oval leaflets and here and there a white flower with a dark blotch. Ten or twelve plants of different heights, fullness and lean, about knee to thigh high, tallest already reaching upper string. The support is a low enclosure: four slender but sound short bamboo corner stakes and ONE intermediate on each long side, a total of SIX ordinary cut garden canes. Put each foot down in the soil just outside the double row, each opposite row properly set back. Tie two plain narrow courses of natural pale garden string around the OUTSIDE perimeter of these six stakes, each looping along each long face and around each end at its own height. Close enough to support the foliage, a little natural sag and a different neat small hitch at the posts. The near strands should stand out against dark green foliage and the far strands should be visible between the plants; no strings through the plants or across the top. Bare soil visible between plants to reveal the two rows. All six cane tips should only stand modestly above the growing plants, ends slightly irregular. Choose light and camera height that disentangle the near and far edges. Stout enough to steady the beans but still slim, mottled, grey-tan UK bamboo, not stakes made of timber/logs or a cage. No horizontal bamboo rails; horizontal cream lines are STRING, not bamboo, no metal wire, bracing, nets, climbing runner beans, giant poles, people, text, vignette or inset. Keep the garden, light and soil textures convincingly photographic.",
+      "output_sha256": "57f8c485e39e76ee5332b4e29a6039ab2888b73e396bf324e8981820c389f14c",
+      "selected": true
+    },
+    {
+      "id": "pass-4",
+      "picture": "bracing",
+      "purpose": "Wind bracing, side and end",
+      "reference_inputs_in_order": [
+        {
+          "project_file": "docs/publication/supports-photo-trial/revision-01/camera/0032-45.12.jpg"
+        },
+        {
+          "project_file": "docs/publication/supports-photo-trial/remaining-canes-02/references/brace-construction.png"
+        },
+        {
+          "project_file": "docs/publication/supports-photo-trial/revision-01/camera/0025-586.8.jpg"
+        },
+        {
+          "project_file": "docs/publication/supports-photo-trial/remaining-canes-02/references/Pea-net-joint-0032-00m08s.jpg"
+        },
+        {
+          "project_file": "docs/publication/supports-photo-trial/bean-row-04/Traditional-bean-row.png"
+        }
+      ],
+      "prompt": "One photorealistic documentary gardening photograph, wide 16:9 landscape for “Brace a frame against the wind”. The FIRST source is John's actual Cornish allotment pea-frame bed. Start from its level open earth, narrow brick paths, weathered block wall, outbuilding and background vegetation on the right day. The SECOND is an exact guide to structural topology and near/far ground perspective, NOT an art style. Pose an empty rectangular cane frame at a three-quarter angle showing a particularly legible long side and one short end, like the diagram. The third is the alternate site view, the fourth a real plastic-coated wire fixing, and the final photograph sets the natural pencil-thin long bamboo scale and materials. Create exactly FOUR slender upright garden canes pushed well down into four separate soil corners. Four light rails outlining a plain rectangular top. The tall yet long rectangular frame (human shoulder-height or taller, few metres long and about 90cm wide) should fit from all projecting tips to all planted feet, with small margins. The two working braces of the camera-facing LONG side form ONE CLEAR X, each shaft continuous from the lower fixing on one corner post up to the opposite upper joint on the SAME LONG FACE. Tie the two at their crossing. The third diagonal is on the visible RIGHT SHORT END, from the lower near-right corner to the UPPER far-right corner, secured at both ends. The far side and the roof are open; exactly three diagonals. Use two ties at different angles where several sticks meet. Tapered weathered UK garden bamboo, warm grey/buff with a node here and there, LONG and very slender, just individually gently bowed, most straight. Short green plastic-coated hand-twisted wire wraps contact the bamboo, individually different tail direction as in the close-up, some ties almost hidden, no chunky green knots. The braces should actually touch and fasten low on each upright and at the tops. ALL four corner feet visually trace back to their own posts with the nearest two LOWER in the frame than the far two; no disconnected tips, extra poles, diagonal shadows that mimic extra canes, triangles in the roof or planted fifth foot. Plant in a bed of bare early-season soil with only a trace of weeds near its edge, no net and no foliage hiding braces. Ordinary slightly overcast daylight and quiet enough background to read very slim bamboo without artificially thickening it. Single documentary photograph from the real allotment, no people, inset, text, borders, diagrams or collage.",
+      "output_sha256": "d4fddc52244162f5b214e7c56dd3eacb5c24b84bba6abe1108f19e5883161a2b",
+      "selected": false
+    },
+    {
+      "id": "pass-5",
+      "picture": "bracing",
+      "purpose": "Move the path behind the frame and remove the doubled diagonal",
+      "reference_inputs_in_order": [
+        {
+          "previous_generation": "pass-4"
+        },
+        {
+          "project_file": "docs/publication/supports-photo-trial/remaining-canes-02/references/brace-construction.png"
+        },
+        {
+          "project_file": "docs/publication/supports-photo-trial/revision-01/camera/0032-45.12.jpg"
+        }
+      ],
+      "prompt": "Surgical correction to the FIRST photograph, in the original 16:9 format, with the second construction diagram only for interpreting which cane is which, and the real third camera image for allotment earth and brick texture. Keep the photographed four posts, four top rails, long-side X and single short-end diagonal, their exact positions, ends, height and framing, and the real garden scene. Correct the EARTH AND PATH, not the layout of the canes. In the bottom right the paved strip currently passes diagonally THROUGH the footprint of the frame so that the right rear upright looks planted in a different bed. The X-frame must stand over ONE continuous rectangle of cultivated earth. Fill that cutting strip seamlessly with matching cultivated earth. If a single-brick-wide cross path can be seen, it is BEHIND BOTH rear posts, running parallel to the long face and a little beyond its rear edge. At the right rear upright all around the foot is soil and there is also uninterrupted soil between that foot and the front-right upright. The entire near face, short end and underside contain dark soil; on the far left a small section of existing path outside the bed can remain. The rear and front lines of feet are different in depth. Also inspect the single long diagonal rising from the lower-left fixing to the upper-right: there is a little duplicate, parallel stubble shaft beside its lower-left stretch. There should be one continuous gently tapered diagonal along this entire course, from its one single binding to the opposite top joint. Its up-left to down-right companion and the short end brace are already correct; preserve them. Keep the tiny different green wire ties at all joints and at the crossing. All central background features (ordinary wall, shed, hedge, sky) stay in their photographed places. Garden canes remain long, thin and weathered. No crops, container, mat, timber edging, new lines or markings. Edge-to-edge single realistic manual-of-gardening photograph.",
+      "output_sha256": "fc5af99e6615458df218bc6e7fb80953d3c9545bf5e3054a6340a536139d77e5",
+      "selected": true
+    },
+    {
+      "id": "pass-6",
+      "picture": "wigwam",
+      "purpose": "Taper the apex and remove the printed border",
+      "reference_inputs_in_order": [
+        {
+          "previous_generation": "pass-1"
+        },
+        {
+          "project_file": "docs/publication/supports-photo-trial/bean-row-camera-review/F-0026-00-34.jpg"
+        },
+        {
+          "project_file": "docs/publication/supports-photo-trial/bean-row-04/Traditional-bean-row.png"
+        }
+      ],
+      "prompt": "A precision edit of the first documentary photograph, keeping the blue shed, fence, individual runner-bean plants, sun, viewpoint, bed boards, seven circular soil foot positions, full height and apex position. Remove the thin white printer's border and give edge-to-edge photography. Refine the BAMBOO: the existing uprights are attractive and tall but the sticking-up tips look like a fistful of fat flat-cut dowels. These are ordinary UK tapered bamboo garden canes well over 7 feet long just as in the approved materials in inputs 2 and 3. Their BUTTS are the stout ends in the soil. Every cane should narrow progressively upwards from its foot so at the top the little tips are characterfully fine, weathered and gently uneven in both diameter and protruding length, some near pencil width or less, about half the present top end diameter. Reduce the diameter of the high portions and apex bundle correspondingly; still seven continuous distinct canes from each soil foot to one common genuinely tight apex. No branches, forked poles or tips flaring like pegs. Let one or two canes bend imperceptibly and singly in one direction under the small binding, with the other shafts close to straight. A short piece of dark green plastic-coated wire encircles the small joint and twists to secure, a little hand-twisted tail tucked around a shaft. Avoid fat green knot. Do not introduce a row or any horizontal rail. Retain the full circle of feet, the tall, slender proportions and individuality of the young beans and their leaves. Put the seven feet and all top tips well inside the composition WITH at least five percent photographed sky margin above the highest tip if needed for trim. The rest of the picture should look like the same photograph, in square near 1:1 format. Full-bleed authentic real photograph of an empty home vegetable garden, no text, white margins or collage. Input 1 is the picture being edited, the other two are only documentary material references.",
+      "output_sha256": "c013edd483a9cc27850a8bac3295776764160ba032d83410cde7e9eb1eb2dffc",
+      "selected": false
+    },
+    {
+      "id": "pass-7",
+      "picture": "wigwam",
+      "purpose": "Carry the diameter through the tie and give the tips blunt cut ends",
+      "reference_inputs_in_order": [
+        {
+          "previous_generation": "pass-6"
+        },
+        {
+          "project_file": "docs/publication/supports-photo-trial/bean-row-camera-review/D-0026-00-01.jpg"
+        },
+        {
+          "project_file": "docs/publication/supports-photo-trial/bean-row-camera-review/F-0026-00-34.jpg"
+        }
+      ],
+      "prompt": "A very local photographic correction on the FIRST, square image. The garden and wigwam are finished. Change only the short projecting ends of the seven bamboo canes immediately ABOVE the green binding at the apex. Look at the cut ends of gardening canes in the genuine second allotment photograph and the one crossing the wire joint in third photograph. In the current wigwam the seven shafts remain about pencil-thick just below the tie but suddenly sprout thin pointed splinters above it, like a paintbrush. The identical shaft must pass THROUGH the binding with the same small diameter on either side. Bamboo is a hollow cylinder. Give each visible tip quite slim but distinctly blunt, cut round/oval ends, slightly varied in diameter, visibly connected continuously from its own cane below. The lengths projecting above the wire should vary between about 4 and 10 centimetres, most modest, not a large spray. Judge scale by the pencil-size cane JUST BELOW the wire. Neither thicken nor sharpen anything drastically over the binding. At this 1254-pixel print image about 4 to 6 pixels width per cut tip, not a needle or a chunky dowel. Allow a few to overlap where they cross, natural tiny asymmetry. Keep the rest visibly identical including full height, perhaps a tiny green twisted tail on the little binding, distinct feet, slender shafts, young climbing beans, blue shed, hanging basket, brown fence, sun, dirt and fully photographed square edges. Input 1 alone sets geometry/site. Do not add, remove or redraw poles below the binding, lettering, people or objects. High quality real photograph.",
+      "output_sha256": "e631a0d2d3876aaf35b0f27f5e55367be65e7f13266ad12bc9c9a80924a905b3",
+      "selected": true
+    },
+    {
+      "id": "pass-8",
+      "picture": "peas",
+      "purpose": "Separate the open net from the shadowed background for its 48 mm print slot",
+      "reference_inputs_in_order": [
+        {
+          "previous_generation": "pass-2"
+        },
+        {
+          "project_file": "docs/publication/supports-photo-trial/remaining-canes-02/references/Pea-net-joint-0032-00m08s.jpg"
+        },
+        {
+          "project_file": "docs/publication/supports-photo-trial/revision-01/camera/0032-45.12.jpg"
+        }
+      ],
+      "prompt": "Refine only the visibility of the traditional green open climbing PEA NET in the first photograph as it will be printed just 48 mm / two inches wide in a practical gardening book. This is a real scene, a photo, so keep the original long fine canes, the four correctly separate cane posts, thin upper rails, frame geometry, plants, bed and paths, wall, building and hedge. Second source is the gardener's close-up of exactly this type of open green net and a plastic-coated wire tie to distinguish them. Third source shows the allotment itself. At present the near long-side mesh vanishes against green foliage in the middle distance. Make the whole NEAR long curtain of netting readable. A run of real climbing net from near-left post to near-right post should be in focus. Make the supple cord about 2 millimetres thick relative to a 14–18 mm bamboo shaft (a tiny bit thicker than the thinnest thread in the first image, no more). Large roughly hand-size open squares / slight diamonds. Physically strung tied top, running the full length of the long side from near-left to near-right and reaching to a handbreadth above soil, small natural variations in tension with a little sag between attachment points, pea tendrils starting to grasp it. A softer, shaded, quieter background and pale green light glinting selectively on the yarn against darker greens will make an open, legible pattern. Keep looking straight through the empty square openings. Net may sit back gently behind a few leaves, avoiding a dominant artificial grid across entire photograph. Keep the back net subtler to distinguish the two planes, and keep the right hand SHORT END OPEN so the two curtains read as separate planes. Give full height and at least small empty *photographic* space above and below all the posts. No opaque mesh, wire fence panels, solid screen, diagonal cane brace, exaggerated thick bamboo, crop, borders, labels or montage. Single edge-to-edge documentary gardener's photo, 3:2 landscape.",
+      "output_sha256": "b8cfc246dff750b38cfa10e3f6eeb710cc0334d107e7856c9ba6e06f30cb3ded",
+      "selected": true
+    }
+  ],
+  "selected_images": {
+    "wigwam": {
+      "master": "masters/02-bean-wigwam.png",
+      "master_sha256": "e631a0d2d3876aaf35b0f27f5e55367be65e7f13266ad12bc9c9a80924a905b3",
+      "site": "2018 home garden alongside the blue shed",
+      "reconstruction": "Early-stage reconstruction of the July cone. June bed photographs support the slim canes and timber surround. Seven feet, one bound apex and mixed young climbers.",
+      "selected_generation": "pass-7"
+    },
+    "peas": {
+      "master": "masters/03-pea-net.png",
+      "master_sha256": "b8cfc246dff750b38cfa10e3f6eeb710cc0334d107e7856c9ba6e06f30cb3ded",
+      "site": "June 2026 allotment pea bed",
+      "reconstruction": "An unbraced instructional reconstruction of the taller frame in the footage. Four corner canes and open climbing net. The wire and open mesh are separately visible in clip 0032 at 00:08.",
+      "selected_generation": "pass-8"
+    },
+    "broad-beans": {
+      "master": "masters/04-broad-bean-strings.png",
+      "master_sha256": "57f8c485e39e76ee5332b4e29a6039ab2888b73e396bf324e8981820c389f14c",
+      "site": "2018 home garden in the timber-edged beds",
+      "reconstruction": "Reconstruction at an earlier stage of growth to expose the string and the double row. Two levels of string steady the leafy upright plants.",
+      "selected_generation": "pass-3"
+    },
+    "bracing": {
+      "master": "masters/09-diagonal-bracing.png",
+      "master_sha256": "fc5af99e6615458df218bc6e7fb80953d3c9545bf5e3054a6340a536139d77e5",
+      "site": "June 2026 allotment pea bed",
+      "reconstruction": "The net is left off to expose the two long-face diagonals and one end diagonal. The reconstructed frame stands on one patch of soil. The June footage supplies the site and real joints.",
+      "selected_generation": "pass-5"
+    }
+  }
+}

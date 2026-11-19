@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en-GB"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Extract flyover stills</title>
+<style>
+*{box-sizing:border-box}body{font:16px/1.55 "Source Sans 3",system-ui,sans-serif;color:#243b30;background:#f7f6ee;margin:0}main{max-width:660px;margin:8vh auto;padding:0 24px}h1{font:normal clamp(32px,6vw,45px)/1.15 Georgia,serif;margin:0 0 12px}p{margin:10px 0 24px}label{display:block;font-weight:620}input{font:inherit;max-width:100%;margin:6px 0 18px;padding:7px 10px;border:1px solid #899589;border-radius:4px;background:white}input[type=file]{width:100%}.row{display:flex;gap:20px;flex-wrap:wrap}.row input{width:135px}button,a{font:inherit;font-weight:620;background:#2e5a42;color:white;border:0;border-radius:5px;padding:10px 16px;display:inline-block;cursor:pointer}button:disabled{opacity:.55}a[hidden]{display:none}small{font:inherit;color:#546256}#status{min-height:1.6em;margin:16px 0}progress{width:100%;accent-color:#2e5a42}video{display:block;max-width:100%;max-height:210px;margin:20px 0}video:not([src]){display:none}
+</style>
+<main><h1>Extract flyover stills</h1><p>Choose the drone movie on your Mac. This page takes a JPEG every three seconds from 01:52 to the end of the clip. You can change the interval or stop time below.</p>
+<label for="movie">Drone movie</label><input id="movie" type="file" accept="video/*,.mp4,.mov,.m4v">
+<div class="row"><label>Start <small>(m:ss)</small><br><input id="start" value="01:52"></label><label>Stop <small>(m:ss)</small><br><input id="stop" placeholder="Clip end"></label><label>Interval <small>(seconds)</small><br><input id="step" type="number" min="1" step="1" value="3"></label></div>
+<button id="run" disabled>Extract stills</button><div role="status" id="status" aria-live="polite"></div><progress id="progress" hidden></progress><a id="save" hidden>Save stills as ZIP</a><video id="video" preload="auto" playsinline muted></video>
+</main><script>
+'use strict';
+const el = id => document.getElementById(id);
+const movie = el('movie'), video = el('video'), run = el('run'), save = el('save');
+const fieldIds = ['movie','start','stop','step'];
+const textEncoder = new TextEncoder();
+let sourceUrl, zipUrl;
+function revokeDownload() {
+  if (zipUrl) URL.revokeObjectURL(zipUrl);
+  zipUrl = undefined;
+  save.hidden = true;
+}
+function clock(value) {
+  const match = /^(?:(\d+):([0-5]\d)|(\d+))$/.exec(value.trim());
+  if (!match) throw Error('Enter a time in minutes and seconds, for example 01:52.');
+  return match[3] === undefined ? Number(match[1])*60+Number(match[2]) : Number(match[3]);
+}
+function stamp(seconds) {
+  const pad = n => String(n).padStart(2,'0');
+  return pad(Math.floor(seconds/60))+'m'+pad(Math.floor(seconds%60))+'s';
+}
+const crcTable = new Uint32Array(256);
+for (let i=0;i<256;i++) {
+  let crc=i;
+  for (let bit=0;bit<8;bit++) crc=(crc>>>1)^((crc&1)?0xedb88320:0);
+  crcTable[i]=crc;
+}
+function checksum(data) {
+  let crc=0xffffffff;
+  for(const byte of data) crc=(crc>>>8)^crcTable[(crc^byte)&255];
+  return (crc^0xffffffff)>>>0;
+}
+// JPEGs are already compressed. Store each frame directly in a standard ZIP.
+class FrameArchive {
+  constructor(){this.parts=[];this.index=[];this.offset=0;}
+  add(name,data) {
+    const label=textEncoder.encode(name), length=data.length, crc=checksum(data);
+    if (this.offset+length+label.length+30>0xf0000000 || this.index.length>=65534)
+      throw Error('This sequence is too large for one archive. Use a shorter time range.');
+    const header=new Uint8Array(30+label.length), h=new DataView(header.buffer);
+    h.setUint32(0,0x04034b50,true);h.setUint16(4,20,true);h.setUint16(6,2048,true);
+    h.setUint16(12,33,true);h.setUint32(14,crc,true);h.setUint32(18,length,true);
+    h.setUint32(22,length,true);h.setUint16(26,label.length,true);header.set(label,30);
+    const record=new Uint8Array(46+label.length), c=new DataView(record.buffer);
+    c.setUint32(0,0x02014b50,true);c.setUint16(4,20,true);record.set(header.subarray(4,28),6);
+    c.setUint32(42,this.offset,true);record.set(label,46);
+    this.parts.push(header,data);this.index.push(record);this.offset+=header.length+length;
+  }
+  finish() {
+    const end=new Uint8Array(22), e=new DataView(end.buffer);
+    e.setUint32(0,0x06054b50,true);e.setUint16(8,this.index.length,true);
+    e.setUint16(10,this.index.length,true);
+    e.setUint32(12,this.index.reduce((size,item)=>size+item.length,0),true);
+    e.setUint32(16,this.offset,true);
+    return new Blob([...this.parts,...this.index,end],{type:'application/zip'});
+  }
+}
+function seekTo(seconds) {
+  if (Math.abs(video.currentTime-seconds)<0.0001 && video.readyState>=2) return Promise.resolve();
+  return new Promise((resolve,reject)=>{
+    const finish=error=>{
+      clearTimeout(timer); video.removeEventListener('seeked',onSeek);video.removeEventListener('error',onError);
+      if(error) reject(error); else resolve();
+    };
+    const onSeek=()=>finish(), onError=()=>finish(Error('The browser could not decode this frame.'));
+    const timer=setTimeout(()=>finish(Error('The movie did not finish seeking. Try Safari or attach the video clip.')),25000);
+    video.addEventListener('seeked',onSeek,{once:true});video.addEventListener('error',onError,{once:true});
+    video.currentTime=seconds;
+  });
+}
+movie.onchange=()=>{
+  revokeDownload();run.disabled=true;el('status').textContent='';el('progress').hidden=true;
+  if(sourceUrl)URL.revokeObjectURL(sourceUrl);
+  const file=movie.files[0];
+  if(!file){video.removeAttribute('src');return;}
+  sourceUrl=URL.createObjectURL(file);video.src=sourceUrl;video.load();
+};
+video.onloadeddata=()=>{run.disabled=false;el('status').textContent='Movie ready. Duration '+stamp(video.duration)+'.';};
+video.onerror=()=>{run.disabled=true;el('status').textContent='This browser could not read the movie. Try opening this page in Safari on your Mac.';};
+run.onclick=async()=>{
+  const progress=el('progress'), status=el('status'), canvas=document.createElement('canvas');
+  revokeDownload();progress.hidden=true;
+  try{
+    const start=clock(el('start').value),input=el('stop').value.trim();
+    const stop=input?clock(input):video.duration,step=Number(el('step').value);
+    if (!Number.isInteger(step)||step<1||start>=video.duration||stop<start||stop>video.duration+0.001)
+      throw Error('Choose a start and stop within the movie and an interval of at least one second.');
+    const last=Math.min(stop,video.duration-0.001);
+    const count=Math.floor((last-start)/step)+1;
+    if(count<1) throw Error('The time range contains no frames.');
+    const source=movie.files[0].name,stem=source.replace(/\.[^.]+$/,'');
+    const archive=new FrameArchive(), ctx=canvas.getContext('2d');
+    canvas.width=video.videoWidth;canvas.height=video.videoHeight;
+    run.disabled=true;fieldIds.forEach(id=>el(id).disabled=true);
+    progress.hidden=false;progress.max=count;progress.value=0;
+    for(let index=0;index<count;index++){
+      const seconds=start+index*step;status.textContent='Extracting '+(index+1)+' of '+count+' at '+stamp(seconds)+'…';
+      await seekTo(seconds);ctx.drawImage(video,0,0);
+      const blob=await new Promise(resolve=>canvas.toBlob(resolve,'image/jpeg',0.90));
+      if (!blob) throw Error('The browser could not encode the still.');
+      archive.add(stem+'_'+stamp(seconds)+'.jpg',new Uint8Array(await blob.arrayBuffer()));
+      progress.value=index+1;
+    }
+    zipUrl=URL.createObjectURL(archive.finish());save.href=zipUrl;save.download=stem+'_stills.zip';save.hidden=false;
+    status.textContent=count+' stills are ready. Save the ZIP and attach it to the conversation.';
+  }catch(error){status.textContent=error.message;}
+  finally{fieldIds.forEach(id=>el(id).disabled=false);run.disabled=video.readyState<2;}
+};
+</script></html>

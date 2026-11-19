@@ -1,0 +1,190 @@
+{
+  "date": "2026-11-19",
+  "status": "John approved all five cane illustrations in this proof. The tall-brassica stake pictures on page 167 are the next task for a future session.",
+  "production_updated": false,
+  "baseline_spread": "docs/publication/supports-photo-trial/remaining-canes-02/Vegetable-Guru-Supports-166-167.pdf",
+  "baseline_sha256": "6aadb70787a15628f4dce4b3b4193142d89f84f57408ab760e669e27b8ef8f41",
+  "spread": "Vegetable-Guru-Supports-166-167.pdf",
+  "spread_sha256": "34f62550f6da7b948c7b20ca821df993764e060413a388b6a931a4fa637f3133",
+  "comparison": "Camera-and-frame-comparison.jpg",
+  "camera": {
+    "source": "/Volumes/Videos/Movies/May 2026/May At The Allotment/DJI_20260525133652_0014_D.MP4",
+    "date": "2026-05-25",
+    "timebase": "seconds from the start of the raw camera file",
+    "episode": "May At The Allotment | Beans, Peas, Potatoes & Cabbages",
+    "episode_id": "N2UnUOP30qY",
+    "episode_identification": "John identifies the broad-bean row in the published video at approximately 02:38. This is a separate timebase from the raw camera stills.",
+    "stills": [
+      {
+        "file": "references/Broad-bean-bed-0014-02m35s.jpg",
+        "sha256": "684f442892be477741dce97e64bdff04fefaab6c370511d947587415b5dfdcc4",
+        "seconds": 155,
+        "role": "Camera and plot position, grass on left and brick path at right",
+        "native_pixels": [
+          3840,
+          2160
+        ]
+      },
+      {
+        "file": "references/Broad-bean-corner-0014-02m18s.jpg",
+        "sha256": "8d1af9659516e66d1cd70ca947c3bdaa7c486301aac277f9db850dc1440f3def",
+        "seconds": 138,
+        "role": "Closer view of crop, cane rails, bed edge and paving",
+        "native_pixels": [
+          3840,
+          2160
+        ]
+      }
+    ]
+  },
+  "broad_beans": {
+    "artwork": "artwork/04-broad-beans-on-the-allotment.jpg",
+    "master": "masters/04-broad-beans-on-the-allotment.png",
+    "master_sha256": "498ae01747981b4b8a6e9ad2f8b5ad1d6ec31c7abd63b3574a39347ce9b07193",
+    "crop_ltrb_px": [
+      0,
+      0,
+      1861,
+      845
+    ],
+    "print_sha256": "0d32b7d2abb1e7e081f08feafe87943fcecb95f52a4966a5831063e999fbb378",
+    "method": "Reconstruction at an earlier growth stage in the filmed bed. The horizontal rails visible in the raw take are replaced by the two outside courses of string described in the book. A later edit removed an invented row of canes beyond the bed.",
+    "reference_inputs": [
+      "references/Broad-bean-bed-0014-02m35s.jpg",
+      "references/Broad-bean-corner-0014-02m18s.jpg"
+    ],
+    "initial_prompt": "An accurate photographic edit of John's REAL broad-bean row in his allotment, from his 25 May camera recording. The first reference is the actual location, light, bed and camera direction. Base the illustration directly on this very image. The second is a few seconds earlier from the same camera at the near corner: use it for the actual broad bean leaf, blossom, soil surface and how the brick path abuts the bare, unedged soil. Make a clear, horizontal, wide panoramic 2.2:1 photograph for the small printed section \"Broad beans need less.\" Hold the first camera position: mown green grass finger path to the LEFT, narrowing toward the actual low grey wall and coils of green hose, adjoining vegetables and low hedge as seen; exposed, crumbly dark earth with a natural low soil lip, the BRICK path passing diagonally beside the near RIGHT of the broad bean bed. Preserve these real plot boundaries, view and landmarks. The bed is OPEN GROUND with NO raised wooden boards, no timber sides, no stone curb. Keep the sunny May side light, sky and natural site colours exactly from this scene. Bring the broad beans gently BACK by a few weeks to knee/thigh-high, defined freestanding plants in two staggered rows. Real broad beans with individually varied stout upright stems, blunt bluish oval leaflets and a few white black-spotted flowers; allow dark foliage to contrast with the string. Depict the book's string-support method instead of the horizontal bamboo rails actually filmed. Keep the idea of the four corner stakes and add an intermediate stake on each long side to carry two continuous tiers of slightly weathered cream garden twine around the entire OUTSIDE of both rows. Gentle catenary, hand-tied small knots, a couple of tiny loose ends; short, solid-enough, slender real weathered cane stakes only just above the plants. Both faces of the string enclosure, the four corner feet and both intermediate tips should be legible, full length of crop contained, especially nearest soil feet, no cropped off end. A little more of the bed itself may show at the two ends so the construction fits, keeping the source camera/scene. Bare soil between plants, no climbing or oversize poles. There must be no horizontal cane rails, wire mesh, flat wooden box, house sitting inside bed, artificial frame, captions, labels, people, white border or graphics. This is an edge-to-edge natural UK allotment photograph. Emphasise the different levels of pale string against real foliage while keeping the location unmistakeably the first picture.",
+    "first_generation_sha256": "d6fca35e7a69404292e81897b1bd508af7cc6cec74ea2d2a4214002b0c8e6ace",
+    "refinement_inputs": [
+      "first broad-bean generation",
+      "references/Broad-bean-bed-0014-02m35s.jpg"
+    ],
+    "refinement_prompt": "Refine the FIRST photograph of the broad beans. The planted bed and the two tiers of pale string in the foreground read well. Keep those plants, stakes, string, soil and right-hand brick edging path at the exact same scale, composition and lighting. Keep this 2.2:1 panoramic crop. Correct one factual error in the background. The spindly mass of forty NEW repeating crisscrossed tan bean poles along the top RIGHT behind the beans is invented. Remove that entire distant tan X-shaped line. The REAL allotment in the SECOND camera photograph from May has a low horizontal green hedge, patches of cultivated ground/quiet green vegetation beyond it, with AT MOST one or two thin vertical canes rising here and there. The single blue low hoop over the adjoining bed at the right edge can remain where the real camera saw it. No distant plantation of cane A frames, trellis, diamond lattice, fencing array or further tall supports. Reconstruct the little gaps between the upper foreground leaves so that the hedge and quiet adjoining beds continue naturally. Match the ordinary, slightly untidy Cornish allotment in the genuine still. Keep the grass path and grey block wall with the hose on the left, the nearby crops, soil bank and brick path on the right, the upper edges of the white houses and the sunny May light. Preserve the photographic quality and the distinct broad-bean leaves with black-and-white flowers. Exact same foreground teaching picture as the first reference. No person, captions, panels, text or boards around the bed."
+  },
+  "bracing": {
+    "master": "masters/09-braced-pea-frame.png",
+    "master_sha256": "f5573919c93a0498c94f9420c7a296e4b4b8234e4d87d1e80c8293a778b3f208",
+    "original_master": "docs/publication/supports-photo-trial/remaining-canes-02/masters/03-pea-net.png",
+    "original_sha256": "b8cfc246dff750b38cfa10e3f6eeb710cc0334d107e7856c9ba6e06f30cb3ded",
+    "original_print": "docs/publication/supports-photo-trial/remaining-canes-02/artwork/03-pea-net.jpg",
+    "original_print_sha256": "affd9eb36475be4a37fc96d59a9cca1d3f794fcb7a2dbbc0af5ef072199238a1",
+    "reference_inputs": [
+      "docs/publication/supports-photo-trial/remaining-canes-02/masters/03-pea-net.png",
+      "references/Brace-placement.svg registered over that exact master",
+      "docs/publication/supports-photo-trial/remaining-canes-02/references/Pea-net-joint-0032-00m08s.jpg"
+    ],
+    "prompt": "This is a tightly registered local photo EDIT. Duplicate the first reference photograph EXACTLY at its native 1536x1024, 3:2 aspect. Add ONLY three physical diagonal bamboo braces and their small hand-twisted green wire fixings to that very pea support, like a gardener has just added them without moving the camera. The first photo is the untouched background plate. The SECOND is an exact duplicate with three thin coloured placement guides. Replace the three coloured guide centre lines with three true photographic, slender, weathered, finely tapered natural grey/tan bamboo garden canes. Use the endpoint of each coloured line as a registered target. The third genuine close-up shows the green plastic-coated wire for the fixings; apply a short, discreet, individually twisted binding to the physical joints. The diagonal tracing MAGENTA runs from low on the left post (x287 y596) to the TOP front-right joint (x1027 y74). The CYAN one runs from the TOP LEFT joint (x283 y206) down to the base of that same front-right post (x1010 y947). These two continuous slender canes cross in an X on the front long face, outside the existing open climbing net, with one small dark green fixing where they actually cross. The AMBER marked third cane runs from the base of the front-right post (x1010 y947) to the TOP of the far-right post (x1314 y118), diagonally across the narrow end. Keep their individual one-direction gentle flex slight, cane diameter at full image about 6–11 pixels in perspective and a little different from one cane to the next. Each shaft can extend a few pixels beyond its real joint; at the lower junctions the original posts continue down into their original soil feet. Show distinctive tiny wire tails, small nodes and photographic daylight on the bamboo. The entire image must align pixel for pixel with the first reference. Retain the existing net in full including its irregular strands and net knots, the exact pea plants, tendrils, soil texture, paths, outlines and camera angle. Keep all four existing uprights, rails, feet, net, shadows, sky, hedge, hose, wall and timber buildings in their original positions. No crop, zoom, rotation, changing height or source colour; no new vertical stakes, no horizontal bottom bars, neither braces nor mesh across the roof. Do not retain any of the coloured reference tracing or add text, no inset. Edge to edge, one natural photograph.",
+    "generation_before_extraction_sha256": "42350e0b56cdc72723d78f461155525083021461e1fa94daa87f794fe7d62ff5",
+    "alpha_layer": "masters/Three-diagonals-and-ties.png",
+    "alpha_layer_sha256": "ae9bbe02ebc6e1951b8136edfd0ef9ecbf48e6202ba3c0897ef5f9ea5941a1ee",
+    "alpha_extraction": "references/Brace-extraction.svg rasterised at 1536 × 1024, Gaussian antialias 0.56 px. Only the shafts and ties from the generated edit are placed over the source.",
+    "print_crop_ltrb_px": [
+      1,
+      0,
+      1535,
+      1024
+    ],
+    "print_preview": "artwork/09-braced-pea-frame.png",
+    "native_changed_pixels": 47602,
+    "native_changed_pixels_outside_alpha": 0,
+    "print_changed_pixels_outside_alpha": 0,
+    "shared_pdf_photo_object": true,
+    "form_matrix": "0.841860465116 0 0 1.000000000000 0.079069767442 0.000000000000 cm",
+    "method": "The page 167 PDF reuses the exact page 166 image object and adds three masked diagonals. The paired views have the same physical height, width and crop. The narrower image is centred within the former 16:9 bracing slot."
+  },
+  "exact_wigwam_carried_forward": {
+    "master": "docs/publication/supports-photo-trial/remaining-canes-02/masters/02-bean-wigwam.png",
+    "master_sha256": "e631a0d2d3876aaf35b0f27f5e55367be65e7f13266ad12bc9c9a80924a905b3",
+    "print_sha256": "3303e364dbd646a7e7ad2e7129792ad7d262775676e904827dc0bdf444e2d4cc",
+    "status": "Approved by John"
+  },
+  "print_boxes_pt_from_top": {
+    "broad_beans": [
+      23.27172,
+      520.05191,
+      198.18496,
+      599.59809
+    ],
+    "unbraced_peas": [
+      42.78994,
+      390.97698,
+      178.66675,
+      481.77969
+    ],
+    "braced_frame": [
+      68.31376,
+      405.98569,
+      204.19058,
+      496.78841
+    ],
+    "former_bracing_image_area": [
+      55.55185,
+      405.98569,
+      216.95249,
+      496.78841
+    ]
+  },
+  "verified": {
+    "166": {
+      "unchanged_images": [
+        "/X12",
+        "/X14",
+        "/X7"
+      ],
+      "changed_pixels_outside_requested_slot_at_144_dpi": 0,
+      "text_and_paint_commands_match": true,
+      "page_boxes_match": true,
+      "single_page_proof_matches_combined_render": true
+    },
+    "167": {
+      "unchanged_images": [
+        "/X22",
+        "/X24",
+        "/X26",
+        "/X28"
+      ],
+      "changed_pixels_outside_requested_slot_at_144_dpi": 0,
+      "text_and_paint_commands_match": true,
+      "page_boxes_match": true,
+      "single_page_proof_matches_combined_render": true
+    }
+  },
+  "visual_check": "Inspected the camera comparison and the rendered pair of book pages. Both string courses read in the allotment bed. The crossing on the long side and the single end brace are visible through the paired pea photographs at their matching 47.93 × 32.03 mm size.",
+  "cane_illustration_approval": {
+    "approved_by": "John",
+    "date": "2026-11-19",
+    "scope": "The five cane illustrations on pages 166–167",
+    "pictures": [
+      {
+        "title": "The traditional bean row",
+        "folio": 166,
+        "project_file": "docs/publication/supports-photo-trial/bean-row-04/Traditional-bean-row.png",
+        "sha256": "be7ea8294bbc24c12c3e08ae60f5a147d8a7b66874bf6a600db33fd81354f57d"
+      },
+      {
+        "title": "A wigwam for a small space",
+        "folio": 166,
+        "project_file": "docs/publication/supports-photo-trial/remaining-canes-02/masters/02-bean-wigwam.png",
+        "sha256": "e631a0d2d3876aaf35b0f27f5e55367be65e7f13266ad12bc9c9a80924a905b3"
+      },
+      {
+        "title": "Give peas plenty to catch",
+        "folio": 166,
+        "project_file": "docs/publication/supports-photo-trial/remaining-canes-02/masters/03-pea-net.png",
+        "sha256": "b8cfc246dff750b38cfa10e3f6eeb710cc0334d107e7856c9ba6e06f30cb3ded"
+      },
+      {
+        "title": "Broad beans need less",
+        "folio": 166,
+        "project_file": "docs/publication/supports-photo-trial/allotment-beans-and-bracing-03/masters/04-broad-beans-on-the-allotment.png",
+        "sha256": "498ae01747981b4b8a6e9ad2f8b5ad1d6ec31c7abd63b3574a39347ce9b07193"
+      },
+      {
+        "title": "Brace a frame against the wind",
+        "folio": 167,
+        "project_file": "docs/publication/supports-photo-trial/allotment-beans-and-bracing-03/masters/09-braced-pea-frame.png",
+        "sha256": "f5573919c93a0498c94f9420c7a296e4b4b8234e4d87d1e80c8293a778b3f208"
+      }
+    ]
+  }
+}

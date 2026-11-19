@@ -69,6 +69,9 @@ Contents and index pages are outside the layout skills' scope. Use their agreed
 structure and the book design system directly, with actual PDF checks. Covers,
 overall book ordering and full-book assembly use the book-design workflow.
 
+For on-site book photographs and sequences of John demonstrating a technique, use
+[Vegetable Guru Garden Photography](docs/skills/vegetable-guru-garden-photography/SKILL.md).
+
 For photographic harvest artwork, including a specifically requested photographic
 interior, use [Photorealistic Vegetables](docs/skills/photorealistic-vegetables/SKILL.md).
 For graphic illustrations use the artwork workflow below.

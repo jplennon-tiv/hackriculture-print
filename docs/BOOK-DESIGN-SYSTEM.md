@@ -269,6 +269,8 @@ revision; its design and final geometry still need review.
 
 ## Illustration and reuse
 
+Whenever several plants appear together, draw them as individuals. Vary their size and placement within the spacing the technique teaches. Give each a recognisable silhouette through differences in leaf number, spread and direction. Check that the variation reads at the printed size.
+
 For garden-grown photographic arrangements, use [Photorealistic Vegetables](skills/photorealistic-vegetables/SKILL.md). The [natural-pile cover](publication/cover-versions/version-1-1/garden-harvest-natural-pile/Allotment-Harvest.png) establishes the reference for anatomy, overlap and restrained handling marks. This treatment is also available for explicitly photographic interior commissions.
 
 Graphic vegetable heroes use the bold simplified silhouettes, broad colour planes

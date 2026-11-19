@@ -1,0 +1,64 @@
+{
+  "section": "The traditional bean row",
+  "folio": 166,
+  "revision": 4,
+  "art": "Traditional-bean-row.png",
+  "status": "John approved the finished person-free bean-row illustration on 19 November 2026.",
+  "production_book_updated": false,
+  "previous_art": "docs/publication/supports-photo-trial/bean-row-03/Traditional-bean-row.png",
+  "brief": "Remove John and his cast shadow from the approved cane arrangement while retaining the two planting rows and across-bed viewpoint.",
+  "source_camera": {
+    "original": "/Volumes/Videos/Movies/June 2026/Bean and pea Supports/DJI_20260608164109_0022_D.MP4",
+    "take_date": "2026-06-08",
+    "seek_seconds": 15,
+    "timebase": "raw camera clip",
+    "local_reference": "Empty-bed-0022-00m15s.jpg",
+    "role": "Unoccupied view of the shed, door, water butt and bed behind the figure, taken from the same camera as still B."
+  },
+  "tool": "Built-in ImageGen background reconstruction with a local compositing mask. Foreground shafts were protected where they passed through the shadow area.",
+  "edit_mask": "figure-and-shadow-mask.png",
+  "generation_prompt": "Photographic local inpainting edit of the FIRST image, at the exact same camera position, framing and proportions (1536 × 1024, 3:2 landscape). Remove only the man in the blue fleece standing in front of the pale-green shed, from the top of his head through both shoes, and the shadow his body casts onto the bed and path to his left. There should be no person in the frame. Naturally fill ONLY the area that he and his shadow conceal. The SECOND image is a genuine camera still of the same unoccupied bed and open shed just prior to installing canes; it is reference solely for what is behind him. The small pale mint-green shed has an open dark doorway, the same natural-timber framed door swung out on the left, the green fascia and triangular gable, black water butt at its right; the woman/man should not be replaced by any new object. Carry through the existing beds, fine fleeced/netted bed nearer the shed, foliage, the narrow pale brick cross-path immediately under his boots, bare cultivated brown soil with a few young plants and the light/shadows of the original. Shed size and its visible trim must register exactly with the First image. Resist adding tools, pots, extra poles, text, extra sheds or people. Do not move a single part of the foreground bamboo. ALL seven pairs of canes, the slight curvature and taper of every shaft, fourteen feet and short tips, seven short green wire twists, light/shade of the bamboo, and the single continuous high ridge are an approved photographic asset. Preserve them pixel for pixel: their onscreen positions and shape, crossing order and depth. The foreground seedling rows remain in place. Original sky, background landmarks, tree, shed number seven, rooflines, borders, perspective, lighting, sunny weather, exposure and white balance stay fixed. No restyling, cropping, zooming or refocusing. The FIRST image is the editable image; do not turn the perspective into the reference. An authentic documentary photograph of an empty working allotment bed with its completed support frame. No added graphics.",
+  "art_sha256": "be7ea8294bbc24c12c3e08ae60f5a147d8a7b66874bf6a600db33fd81354f57d",
+  "page_proof": "Vegetable-Guru-Supports-Page-166.pdf",
+  "spread_proof": "Vegetable-Guru-Supports-166-167.pdf",
+  "checks": {
+    "pixels": [
+      1536,
+      1024
+    ],
+    "print_bounds_pt_from_top": [
+      42.79,
+      147.085,
+      221.457,
+      265.654
+    ],
+    "effective_ppi": 619,
+    "render_comparison_at_144_dpi": [
+      [
+        161,
+        333,
+        237,
+        490
+      ],
+      null
+    ],
+    "source_proof": "docs/publication/supports-photo-trial/bean-row-03/Vegetable-Guru-Supports-166-167.pdf",
+    "source_sha256": "1bb335c2be51ceab9a083a25d12868633ffc89295af55be9cc21fba28d7bb4a5",
+    "confirmed": "Both folios preserve the text, trim, image positions and page drawing commands. All rendered changes on page 166 lie inside the bean-row picture. Page 167 is pixel-identical to the preceding proof."
+  },
+  "image_check": {
+    "previous_art_sha256": "f67d0773b1d4da1534e30e1fc4bd378ae600ae26b039508d03a43fe113a12307",
+    "changed_bounds_xyxy": [
+      330,
+      171,
+      643,
+      834
+    ],
+    "changed_pixels": 120248,
+    "changed_pixels_outside_mask": 0,
+    "changed_pixels_in_protected_shaft_interiors": 0,
+    "ridge_and_seven_wire_joints": "Matched previous master pixels",
+    "reference_sha256": "86a868d0e8dc935afa020c98ef3964a56b4c79b2ac9a56fe43a40c2171e5b229",
+    "reviewed": "Inspected the reconstructed gable, doorway, water butt, bed cover, path beneath the shoes and sunlit soil. Compared the cane pairs, ridge, ties and two lines of feet to the previous artwork."
+  }
+}

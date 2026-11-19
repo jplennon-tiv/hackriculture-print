@@ -1,0 +1,78 @@
+{
+  "status": "Separate photographic panels on page 160 for review",
+  "source_artwork": "docs/publication/digging-photo-trial/revision-03/digging-wall.png",
+  "source_sha256": "67c03121e68ab2132f8bda8950f1ea58f8b186320f5ed51a05de4812ee8242d0",
+  "based_on": "docs/publication/digging-photo-trial/revision-03/Vegetable-Guru-Digging-Garden-Wall.pdf",
+  "panels": [
+    {
+      "file": "01-open-the-first-trench.png",
+      "source_crop_px": [
+        1,
+        0,
+        719,
+        724
+      ],
+      "page_bounds_pt": [
+        22.67578125,
+        364.16998291015625,
+        143.91265970303868,
+        486.41998291015625
+      ],
+      "paragraph": "Clear weeds and mark out the"
+    },
+    {
+      "file": "02-loosen-underneath.png",
+      "source_crop_px": [
+        727,
+        0,
+        1445,
+        724
+      ],
+      "page_bounds_pt": [
+        178.5703125,
+        364.16998291015625,
+        299.8071909530387,
+        486.41998291015625
+      ],
+      "paragraph": "Add a couple of spadefuls"
+    },
+    {
+      "file": "03-move-along-the-bed.png",
+      "source_crop_px": [
+        1453,
+        0,
+        2171,
+        724
+      ],
+      "page_bounds_pt": [
+        334.4765625,
+        364.16998291015625,
+        455.7134409530387,
+        486.41998291015625
+      ],
+      "paragraph": "Dig the next trench alongside"
+    }
+  ],
+  "proof": "Vegetable-Guru-Digging-Three-Steps.pdf",
+  "bundle": "Vegetable-Guru-Digging-Photographs.zip",
+  "panel_size_mm": [
+    42.77,
+    43.13
+  ],
+  "gaps_mm": [
+    12.226,
+    12.231
+  ],
+  "checks": {
+    "paragraph_origins_match_image_left_edges": true,
+    "pdf_image_objects": 3,
+    "text_and_trim_equal_to_previous": true,
+    "rendered_change_bounds_144dpi": [
+      45,
+      387,
+      912,
+      633
+    ],
+    "separate_png_crops_are_lossless": true
+  }
+}

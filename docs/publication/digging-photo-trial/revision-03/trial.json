@@ -1,0 +1,71 @@
+{
+  "status": "Boundary-wall correction for review",
+  "folio": 160,
+  "previous_trial": "docs/publication/digging-photo-trial/revision-02/trial.json",
+  "image": "docs/publication/digging-photo-trial/revision-03/digging-wall.png",
+  "original_actor_strip": "generated_images/exec-9a6849e0-e8bc-46c0-b46f-e8fc4b7c3b7c.png",
+  "generated_wall_source": "generated_images/exec-d34f702a-0500-4fb0-af35-c0e281292d28.png",
+  "wall_references": [
+    {
+      "path": "docs/assets/garden-media-library/local-references/home-garden/H13-DSC01841.JPG",
+      "crop_normalised_ltrb": [
+        0.43,
+        0,
+        0.79,
+        0.29
+      ]
+    },
+    {
+      "path": "docs/assets/garden-media-library/local-references/home-garden/H02-DSC01842.JPG",
+      "crop_normalised_ltrb": [
+        0.22,
+        0,
+        0.6,
+        0.24
+      ]
+    },
+    {
+      "path": "docs/assets/garden-media-library/local-references/home-garden/H07-0016-00065.000.jpg",
+      "crop_normalised_ltrb": [
+        0.29,
+        0,
+        0.49,
+        0.18
+      ]
+    }
+  ],
+  "direction": "John liked the closer digging sequence and identified the missing low wall beneath the rear fence.",
+  "finish": "A masked patch of the generated wall was placed behind the shed edge, foreground vegetation and John in each of the three original panels.",
+  "prompt": "Perform ONE very small local photographic retouch to reference 1, the already accepted wide page-160 illustration triptych of a gardener digging. Deliver the full original 2172x724, 3:1, three equal edge-to-edge square panels exactly as framed with the two same thin white separators. In the tiny strip at the very top background of each panel, correct the base of the wooden rear fence. It sits ON TOP OF A LOW WEATHERED MASONRY WALL, shown directly in photos 2,3 (actual ground-level detail of this precise rear boundary) and photo 4 (same wall by the blue shed). Show this continuous low wall running beneath and exactly in the plane of the timber fence. There are no masonry bonds required: in the photos it is a rough, largely continuous greyish buff, weather-worn sandy grey concrete/masonry face with subtle dull moss-green staining, naturally uneven texture, occasional darker joint, bottom timber rail immediately above it and sparse greenery at its foot. In each panel the wall is BEHIND the pile of loose earth and BEHIND the gardener. Keep the small cropped blue shed foreground left in front of the wall, with the wall extending right from behind its edge until naturally obscured by the man. Preserve a slender strip of the horizontal timber fence above it, and a little boundary vegetation below. Let the upper part of the timber fence disappear out of the picture in order to make room for the masonry under it. Roughly 25–45 pixels of exposed wall face at the unobstructed bits within the top 65–75 pixels of a 724px-high panel. The band should register at book size and read as the same wall in the three panels. No brick pattern, new fence, detached garden wall, raised bed border, coping stones, planters or change in ground level. In particular please DO NOT move the camera, zoom out, show more shed, redraw the soil or give more prominence to scenery. Treat each old foreground pixel, the shape of the soil mound, man's head, face, plaid shirt, hand/leg positions, tools, turves, dug bed and dust as locked. Keep the exact THREE DIFFERENT actions from source 1: spade lifting in left, boot on deeply engaged four-tine fork in centre, soil falling from spade in right. Match original lighting and sharpness. Modify the rear fence background only; please do not reproduce the close-up references as separate panels. No writing or additional objects.",
+  "proof": "docs/publication/digging-photo-trial/revision-03/Vegetable-Guru-Digging-Garden-Wall.pdf",
+  "image_sha256": "67c03121e68ab2132f8bda8950f1ea58f8b186320f5ed51a05de4812ee8242d0",
+  "checks": {
+    "changed_pixels_within_each_panel_ltrb": [
+      [
+        98,
+        0,
+        471,
+        74
+      ],
+      [
+        99,
+        0,
+        461,
+        74
+      ],
+      [
+        100,
+        0,
+        462,
+        74
+      ]
+    ],
+    "proof_changed_pixels_vs_previous_144dpi_ltrb": [
+      165,
+      387,
+      778,
+      415
+    ],
+    "page_text_bounds_and_instructions_match": true
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "folio": 164,
+  "section": "A permanent fruit cage",
+  "revision": 3,
+  "status": "Approved by John on 19 November 2026 for the page 164 fruit-cage illustration.",
+  "production_book_updated": false,
+  "previous_trial": "docs/publication/netting-photo-trial/permanent-fruit-cage-02/trial.json",
+  "site": "Imagined corner of John’s home garden, following the setting recorded in revision 1.",
+  "brief": "Deepen the green of the plants inside and the weeds. Make the weeds smaller and more numerous. Trim the cage corner posts flush with the top rails.",
+  "generation": {
+    "tool": "Built-in ImageGen",
+    "edit_reference": "docs/publication/netting-photo-trial/permanent-fruit-cage-02/A-Permanent-Fruit-Cage.png",
+    "prompt": "Make three precise photographic changes to this existing 4:3 book illustration of a home-made walk-in fruit cage. Keep the camera and existing illustration closely registered, the natural summer daylight, original composition and full structure. \n1. Change the LEAF COLOUR of the currant bushes INSIDE the mesh. The current yellowish lime foliage especially on the foremost bush should now read as a distinctly deeper, natural mature currant-leaf green, with varied mid-green lit surfaces and darker green undersides and shadows. Avoid flat colour. Maintain the original placement, varied sizes and silhouettes of the individual currant bushes. The small hanging strings of redcurrants stay red and visible. This is a local change to the leaf colour, not a dark filter on the entire scene: retain light on the timber, visible silver wire, sunlit lawn and background foliage, and the original exposure of the soil.\n2. On the visible bare earth INSIDE the cage remove the existing two large weeds and in their place show about nine small very young darker green weed seedlings in irregular positions: a couple visible against the earth by the front mesh, a few nearer the gate, and a few beneath or between the bushes. Each is much smaller than the two conspicuous existing weeds, roughly a quarter to a third of their previous leaf span. Vary species silhouettes, leaf counts, lean, distances and growth stage: a tiny pair of oval leaves here, a short three-leaf rosette there, a couple slightly more established seedlings. Make them natural green and still discernible on soil while leaving predominantly bare earth. They do not form rows or a path. Leave the longer outside grass fringe intact.\n3. TRIM ALL FOUR CORNER POSTS FLUSH WITH THE CAGE'S TOP RAILS. Remove the small rectangular wooden projections currently sticking UP from the roof corners, especially the prominent square nub at the near central corner (about 47% of image width), the far-right outline, and the far-left corner. Top rails and post tops must meet at the same level, giving a continuous flat roof perimeter with no proud ends, caps or finials. At the near corner this means cutting the post down to where the two level rails meet and revealing the roof mesh behind its former protrusion. The line of the rails and net should run cleanly into each corner while preserving the uprights flush below and all the neat net attachments. Keep the thin uprights, simple metal fixings, gate diagonal, latch, bare-soil interior, and the little robin on the separate fence behind exactly as they are. The garden fence and its own posts are independent of the cage.\nSame natural documentary photograph, 4:3 landscape, no lettering, text, new features or inset.",
+    "print_finishing": "Selectively darkened and cooled the eight scattered weed seedlings after generation, keeping the soil and mesh detail."
+  },
+  "art": "A-Permanent-Fruit-Cage.png",
+  "art_sha256": "d468970be4e4089741193a0b4a1e973acec27c34ca06a181f56da3573710b768",
+  "page_proof": "Vegetable-Guru-Netting-Page-164.pdf",
+  "spread_proof": "Vegetable-Guru-Netting-164-165.pdf",
+  "checks": {
+    "art_px": [
+      1448,
+      1086
+    ],
+    "printed_image_bounds_pt_from_top": [
+      36.784,
+      445.008,
+      233.468,
+      592.094
+    ],
+    "difference_vs_previous_proof_at_144dpi": [
+      73,
+      890,
+      467,
+      1185
+    ],
+    "verified": [
+      "Original page text, trim, drawing commands and upper illustrations verified",
+      "Facing folio 165 matches the approved proof pixel-for-pixel at 144 dpi",
+      "Reviewed dark currant foliage, dispersed dark seedlings, flush corner tops, robin and longer grass on the finished illustration and proof spread"
+    ]
+  }
+}

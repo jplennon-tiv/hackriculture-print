@@ -1,8 +1,10 @@
 # Local location references
 
-18 November 2026. [Open the offline reference board](index.html) or [view the five-page location contact sheet](https://chatgpt.com/library?file_id=libfile_fde3_f-a5ce50d3d35c8191a3098f7b9e7c5831_968f6e806ba48191b80ffb1b7a35f663&account_id=personal). The board opens 17 camera-original photographs, 16 full-resolution camera frames and two 35-second drone excerpts. The 22 home and 11 allotment stills include two comparison views, H09 and A03. The retained media occupy about 291 MiB on the Mac. The [source register](sources.json), [motion register](motion-references.json) and [seven-clip drone index](drone-index.csv) record the original locations, dates and camera seeks. Each local media copy has a checksum. The folders of working media and the HTML board are excluded from Git staging. Rebuild the board with [the local builder](build-reference-board.py) and Python with Pillow.
+19 November 2026. The [offline viewpoint board](index.html) and [illustrated garden and allotment atlas](viewpoint-atlas/Garden-and-Allotment-Viewpoints.pdf) contain 118 stills, 62 for the home garden and 56 for the allotment. The board also opens two 35-second drone excerpts. H09 and A03 are reserved comparison views. The collection now includes 44 original photographs, 64 native-resolution camera frames and 10 published video frames. Retained source media including the two excerpts occupy approximately 526 MiB. The [coverage record](viewpoint-atlas/README.md), [source register](sources.json) and [motion register](motion-references.json) give the original locations, dates and timecodes. Each local media copy has a checksum. Keep the working media in folder backups. [Original five-page location sheet](Vegetable-Guru-Location-Contact-Sheet.pdf).
 
 ## Date and location screening
+
+**Home rear boundary.** The horizontal timber fence stands on a low, rough, grey-buff masonry wall with patches of green weathering. Use H13 and H02 for the face directly below the timber panels. H07 locates the same boundary beside the blue shed. The pale front edge in H13 is a separate feature closer to the camera.
 
 John moved to the current home in August 2016. Exclude earlier capture dates from both location sets. Check the setting for move-month images. Hold undated material aside unless independent evidence establishes its capture period. A file's modification date or the publication date of a film cannot date an inserted archive photograph. Photos of someone else's plot and generated or retouched pictures do not establish either setting.
 
@@ -25,6 +27,10 @@ These counts cover the two named inventories. In the earlier 42-entry catalogue,
 
 ## Drone footage
 
+A12–A22 are eleven new 4K stills from the March allotment flyover, beginning at 01:52. The [map, model, footage sequence and source reconciliation](../../vegetable-guru-stock/allotment-map-03/README.md) trace the grass behind the shed and seven paved cross-paths. A16 is the full camera frame for the earlier B01 crop.
+
+For page 156, the [compost-bin reference sheet](compost-bins/Vegetable-Guru-Home-Compost-Bins-Reference-Sheet.pdf) shows the three bays in John's front garden. The [source register](compost-bins/sources.json) covers six full-resolution Sony originals and eight unretouched 4K frames stored locally. It includes the earlier two bays, the extension on the left and three April views of the bays changing jobs.
+
 John identified the Home and Allotment folders on Videos. All seven camera clips were probed and 74 frames visually reviewed, spanning each clip from near its start to its end. The four home and three allotment clips total 32 minutes 50 seconds; all are 3840 × 2160. High town-wide views were passed over where a lower view provided clearer garden geometry.
 
 | Local excerpt | Camera clip and raw time | Useful relationship |
@@ -41,9 +47,9 @@ The excerpts are 1080p, with the original camera time ranges in the motion regis
 - H07, from the March 2026 home drone shoot, places both greenhouses, the blue shed, beds and paving in a single oblique view. H08–H10 come from May's four *Greenhouse Bases* clips. Both the May originals on Videos and the equivalent shoot folder on five_backup were located.
 - A01–A03 are from three March 2026 allotment drone clips, showing paths, beds and adjoining sheds from different positions. Use the pale green shed to match these views. The frame positions John confirmed apply specifically to A02 and A05. Detailed subjects can then be matched to the June support footage.
 
-## Channel comparison and downloads
+## Channel comparison on 18 November
 
-The [first video cross-check](channel-crosscheck.csv) covers the 70 entries in the [8 October Videos-tab snapshot](../../../../../hackriculture-resources/local/hackriculture-youtube/CHANNEL-INVENTORY-2026-10-08.json). It omits Shorts, live videos and subsequent uploads. Live channel verification was unavailable this session. Renew the source list before calling the channel inventory complete.
+The [first video cross-check](channel-crosscheck.csv) covers the 70 entries in the [8 October Videos-tab snapshot](../../../../../hackriculture-resources/local/hackriculture-youtube/CHANNEL-INVENTORY-2026-10-08.json). It omits Shorts, live videos and subsequent uploads. Live verification followed on 19 November. The [current channel review](viewpoint-atlas/channel-review.csv) covers 74 public Videos-tab entries and identifies the published images saved locally.
 
 Two entries have locally retained picture streams tied to their YouTube IDs. Six have likely finished exports matched by subject/title and a probed runtime within two seconds. Thirty-three have named raw shoot leads, including overlaps with complete edits. These are usable search leads, not frame-accurate matches. The 62 episodes without a matched finished copy are not a download queue. A transcript or audio track alone supplies no visual reference.
 
@@ -51,12 +57,12 @@ The search included the Videos and five_backup movie trees **and their separate 
 
 | Priority | Episode | Reason |
 | --- | --- | --- |
-| First | [Greenhouse Cleaning and Repairs, 20 January](https://www.youtube.com/watch?v=-9YOuMxFFh8) | The saved transcript discusses a replacement pane and glazing clips in the real structure. No corresponding picture copy or clearly identified shoot was located in this pass. |
-| Optional | [January at the Allotment, 18 January](https://www.youtube.com/watch?v=Xe6z-bRBzdg) | Winter tour of covered beds and paths. Useful for a different season if the local March aerial and summer ground views leave a gap. No matching finished copy was identified. |
+| Sampled 19 November | [Greenhouse Cleaning and Repairs, 20 January](https://www.youtube.com/watch?v=-9YOuMxFFh8) | The saved transcript discusses a replacement pane and glazing clips in the real structure. H37 now supplies a local frame from the published greenhouse edit. |
+| Sampled 19 November | [January at the Allotment, 18 January](https://www.youtube.com/watch?v=Xe6z-bRBzdg) | Winter tour of covered beds and paths. Useful for a different season if the local March aerial and summer ground views leave a gap. A41 now supplies a local frame from the published winter tour. |
 
 ## Next visual pass
 
 1. Use the confirmed A02 and A05 landmarks when selecting further views for a teaching action. H16–H18 already record the cardboard, compost and finished stages of a single home-garden no-dig bed on 9 March 2024.
-2. Map each setting separately, beginning with the aerial views and the fixed landmarks in ground-level photographs. Distinguish the particular greenhouse, bed or boundary and whether the scene has changed since it was photographed.
+2. Choose a position from the [paired viewpoint guide](../../../skills/vegetable-guru-garden-photography/references/choosing-a-viewpoint.md). Match the particular greenhouse, bed or boundary to a dated ground-level view and use the aerials to check what lies beyond it.
 3. Keep selected originals and full-resolution frames locally. Retain a short clip locally only when a camera move or construction action explains more than individual frames. Keep its source in/out times. Index long rushes and duplicate backups where they live.
-4. Build the generation skill after the location references are established. For the greenhouse test, use the 2022 construction evidence for structure and build stage, with a supported angle from the current garden references for context. Reserve H09 and A03 for comparison. Review the first generated artwork at the fixed Techniques illustration size.
+4. Use [Vegetable Guru Garden Photography](../../../skills/vegetable-guru-garden-photography/SKILL.md) for page generation. Reserve H09 and A03 for comparison. Review new artwork at its actual Techniques placement size.

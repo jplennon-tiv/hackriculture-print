@@ -1,0 +1,150 @@
+[
+  {
+    "id": "FACE-FRONT",
+    "title": "Straight towards the camera",
+    "note": "Upright and bareheaded, with lips together. Use for the width of the lower face.",
+    "file": "face-front.png",
+    "sha256": "3b89465441004af2241223781060836e2426e225a19d550ee1ed896a90a2e5ee",
+    "media": "original camera frame crop",
+    "source": "/Volumes/Videos/Movies/September 2026/DJI_20260907121438_0036_D.MP4",
+    "source_register_id": "J06",
+    "seek_seconds": 80,
+    "timebase": "raw camera clip",
+    "frame_dimensions": [
+      3840,
+      2160
+    ],
+    "source_crop_px": [
+      1540,
+      275,
+      2640,
+      1485
+    ]
+  },
+  {
+    "id": "FACE-LEFT",
+    "title": "Side view, head level",
+    "note": "Bareheaded, facing the left edge of the picture. The space between beard and throat is visible.",
+    "file": "face-left.png",
+    "sha256": "20f409ff31ba3b7355a1a17ccff00217b90d07a19007d88a39239730dc684e0a",
+    "media": "original camera frame crop",
+    "source": "/Volumes/Videos/Movies/May 2026/Greenhouse Bases/DJI_20260508112844_0122_D.MP4",
+    "source_register_id": "H08",
+    "seek_seconds": 110,
+    "timebase": "raw camera clip",
+    "frame_dimensions": [
+      3840,
+      2160
+    ],
+    "source_crop_px": [
+      2130,
+      160,
+      2610,
+      688
+    ]
+  },
+  {
+    "id": "FACE-TURN",
+    "title": "Turning to the right",
+    "note": "Three-quarter turn in a cap, seen while walking. The far cheek still shows.",
+    "file": "face-turn.png",
+    "sha256": "1a954b7dc93f656496a8ae0b21e65195e0d22e67417a711bf42914b0c10df76c",
+    "media": "original camera frame crop",
+    "source": "/Volumes/five_backup/Videos backup 11 May 2026/Movies/April 2026/April At The Allotment/DJI_20260411113112_0139_D.MP4",
+    "source_register_id": "A11",
+    "seek_seconds": 171,
+    "timebase": "raw camera clip",
+    "frame_dimensions": [
+      3840,
+      2160
+    ],
+    "source_crop_px": [
+      2150,
+      720,
+      2510,
+      1116
+    ]
+  },
+  {
+    "id": "FACE-DOWN-LEFT",
+    "title": "Looking down to the left",
+    "note": "The side-on April view used in the earlier likeness sheet. Follow the slope below the lower lip.",
+    "file": "face-down-left.png",
+    "sha256": "2495f53999f76a2c7341c04c95db4805bb99687661194f7346c0afd673bb381d",
+    "media": "original camera frame crop",
+    "source": "/Volumes/five_backup/Videos backup 11 May 2026/Movies/April 2026/April At The Allotment/DJI_20260411113112_0139_D.MP4",
+    "source_register_id": "A11",
+    "seek_seconds": 13,
+    "timebase": "raw camera clip",
+    "frame_dimensions": [
+      3840,
+      2160
+    ],
+    "source_crop_px": [
+      1608,
+      656,
+      2056,
+      1160
+    ]
+  },
+  {
+    "id": "FACE-DOWN-RIGHT",
+    "title": "Looking down to the right",
+    "note": "Near side-on, with a cap. The outline of the nose, lips and beard is visible against the distant roof.",
+    "file": "face-down-right.png",
+    "sha256": "92e4943aaf855dccb53cbada4a162efa4a0d21b906c06df9f79dba24faf02f3c",
+    "media": "original camera frame crop",
+    "source": "/Volumes/five_backup/Videos backup 11 May 2026/Movies/April 2026/April At The Allotment/DJI_20260411113112_0139_D.MP4",
+    "source_register_id": "A11",
+    "seek_seconds": 166,
+    "timebase": "raw camera clip",
+    "frame_dimensions": [
+      3840,
+      2160
+    ],
+    "source_crop_px": [
+      1990,
+      676,
+      2350,
+      1072
+    ]
+  },
+  {
+    "id": "FACE-DOWN-BARE",
+    "title": "Looking down, bareheaded",
+    "note": "A close three-quarter view from above in the greenhouse. The crown extends beyond the original camera frame. Use for the lower face and the curve under the beard.",
+    "file": "face-down-bare.png",
+    "sha256": "63f1049530a65902ec7f86c07b969defeae0a178351631e3575d5d92a68b7873",
+    "media": "original camera frame crop",
+    "source": "/Volumes/five_backup/Videos backup 11 May 2026/Movies/May 2026/May Meal From My Garden/DJI_20260510114410_0138_D.MP4",
+    "source_register_id": "L573",
+    "seek_seconds": 152,
+    "timebase": "raw camera clip",
+    "frame_dimensions": [
+      3840,
+      2160
+    ],
+    "source_crop_px": [
+      745,
+      0,
+      2455,
+      1881
+    ]
+  },
+  {
+    "id": "FACE-ANGLES",
+    "title": "John at work, six camera views",
+    "file": "john-camera-angles.jpg",
+    "sha256": "9b3b1bf5d3612b9a069c29d35cc360bb588aa26a98467ad906a4c45bd6b5798a",
+    "note": "Six original camera crops in reading order. Choose the individual crop closest to the intended pose.",
+    "media": "comparison sheet",
+    "source_ids": [
+      "FACE-FRONT",
+      "FACE-LEFT",
+      "FACE-TURN",
+      "FACE-DOWN-LEFT",
+      "FACE-DOWN-RIGHT",
+      "FACE-DOWN-BARE"
+    ]
+  }
+]

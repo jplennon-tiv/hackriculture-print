@@ -53,6 +53,8 @@ reference unless its approval status explicitly establishes otherwise.
   applying every highlight motif to every object.
 - Foliage described by a bold midrib, a few clear branches and large lobes or
   folded planes. Crop-specific complexity, such as kale curls, stays graphic.
+- In groups, vary each plant’s size, position and leaf silhouette. Keep the
+  planting pattern readable and the individuals distinct at book size.
 - Root tips and surface markings simplified to confident shapes. Preserve crop
   identity and plausible attachments while simplifying the rendering.
 

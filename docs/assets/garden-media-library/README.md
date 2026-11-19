@@ -1,9 +1,15 @@
 # The Vegetable Guru · Garden media library
 
+For new book photographs, use [Vegetable Guru Garden Photography](../../skills/vegetable-guru-garden-photography/SKILL.md). The [wardrobe reference sheet](wardrobe/John-Gardening-Wardrobe.pdf) shows six real outfits. Its [register](wardrobe/references.json) gives offline frame paths, raw camera sources, timecodes and checksums.
+
 The first review sheet shows 12 images from John's photographs and raw camera footage. The searchable catalogue also includes further crop references, one published frame and seven cover artwork derivatives. John's revised brief uses the archive as location evidence for a generation skill. The contact sheet records the initial crop search.
 
 - [Open the first contact sheet](https://chatgpt.com/library?file_id=libfile_fde3_f-93c457bae2208191b70900eaf64cf6b4_968f6e806ba48191b80ffb1b7a35f663&account_id=personal) · [project PDF](Vegetable-Guru-Media-Contact-Sheet-01.pdf) — VG01–VG06 follow sowing to fruiting. VG07–VG12 cover harvest and storage. The full CSV is also attached inside the PDF.
 - [Searchable media catalogue, CSV](Vegetable-Guru-Media-Catalogue.csv) — open in Numbers or filter by crop, action, media type, or VG number. Each record identifies the source and the image used for viewing. Relative paths start at the print repository root.
+
+Choose a shooting position from the [offline viewpoint atlas](local-references/viewpoint-atlas/Garden-and-Allotment-Viewpoints.pdf) or the [full-size picture board](local-references/index.html). The [camera-position guide](../../skills/vegetable-guru-garden-photography/references/choosing-a-viewpoint.md) gives sightlines and comparison images for both sites.
+
+For the March allotment, use the [revised plan, Blender model and timestamped frames](../vegetable-guru-stock/allotment-map-03/README.md).
 
 The [local location references and archive audit](local-references/README.md) now govern selection. VG09 and VG12 predate the August 2016 move and are excluded from this working set.
 
@@ -35,6 +41,8 @@ Close details of seed placement, emergence and thinning are gaps in this **selec
 | --- | --- | --- |
 | Home garden candidate, May salad shoot | [L555, Broadcast salads](../../publication/cover-photo-search/VIDEO-SCOUT.json) at 15:55.106 and 17:55.000 | The camera moves between the greenhouse path and the raised bed next to a woodpile and shed. Follow the intervening footage to establish how those views connect. VG01 and VG13 repeat the bed angle. |
 | Allotment, June bean-support shoot | [S023 and S024, Bean and pea Supports](../../publication/summer-cover-photo-search/SCOUT.json) at 02:19.427 and 03:41.357 respectively | Compare the view across the planted rows with the view along the cane frame. Use the bed edges, adjoining paths and sheds to register the views. |
+
+The [Supports camera register](../../publication/supports-photo-trial/revision-01/camera/sources.json) retains four June allotment stills and four 2018 garden photographs, including two flowering views of the wigwam beside the blue shed and an earlier view of its bed. The [six bean-row stills](../../publication/supports-photo-trial/bean-row-camera-review/sources.json) show cane scale, the two lines of feet and John's tying wire. The [pea-net joint at 00:08 in raw clip 0032](../../publication/supports-photo-trial/remaining-canes-02/references/Pea-net-joint-0032-00m08s.jpg) distinguishes the open mesh from the separate wire fixing. John’s broad-bean bed is visible at [02:35](../../publication/supports-photo-trial/allotment-beans-and-bracing-03/references/Broad-bean-bed-0014-02m35s.jpg) and its corner at [02:18](../../publication/supports-photo-trial/allotment-beans-and-bracing-03/references/Broad-bean-corner-0014-02m18s.jpg) in raw clip 0014 from the 25 May allotment shoot. The [source and reconstruction record](../../publication/supports-photo-trial/allotment-beans-and-bracing-03/trial.json) identifies the filmed cane rails and the book’s string version.
 
 These are starting points for two location reference sets. More angles, repeatable landmark relationships and a held-back comparison view will be more useful for that purpose than a longer crop shortlist. Keep coverage of other gardens, including Sophia's, separately identified.
 

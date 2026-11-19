@@ -1,0 +1,88 @@
+{
+  "folio": 165,
+  "section": "Canes and tennis balls",
+  "status": "New allotment artwork and page proof for John’s review",
+  "previous_approved_page": "docs/assets/vegetable-guru-stock/allotment-handover-2026-11-19/approved-proofs/Vegetable-Guru-Netting-Page-165.pdf",
+  "production_book_updated": false,
+  "location": "Reconstruction of the open foreground bed in the A11 camera view on 11 April 2026. John kneels on the brick strip with the grass access at left and the open pale-green shed and water butt behind him. The brassicas, cane frame and fitting action are illustrative.",
+  "generation": {
+    "tool": "Built-in ImageGen",
+    "inputs_in_order": [
+      {
+        "path": "docs/assets/garden-media-library/local-references/allotment/A11-0139-00101.301.jpg",
+        "role": "A11 • real site, camera direction, actor and April clothes"
+      },
+      {
+        "path": "docs/assets/vegetable-guru-stock/allotment-handover-2026-11-19/approved-proofs/Canes-and-Tennis-Balls.jpg",
+        "role": "Original approved cane-and-ball construction and joint detail"
+      },
+      {
+        "path": "docs/skills/vegetable-guru-garden-photography/assets/john-lowered-profile-reference.png",
+        "role": "LOOKDOWN • lowered-head guide"
+      },
+      {
+        "path": "docs/skills/vegetable-guru-garden-photography/assets/likeness/face-down-left.png",
+        "role": "FACE-DOWN-LEFT • individual real profile, 00:13 in the same 11 April clip"
+      }
+    ],
+    "prompt": "Create a single landscape documentary gardening photograph for print, about 5:3. Start by EDITING the first reference, the real 11 April camera view of John's Cornish allotment. This is a reconstruction of John demonstrating the cane-and-tennis-ball frame in his own foreground vegetable bed. The first photograph is the location and wardrobe master. Preserve its recognisable ground-level viewpoint and lighting, narrow grass path to the left, brick finger path, open flat unboarded dark soil bed in the foreground, neighbouring covered strip beyond, smaller grey shed to the left of John's distinctive pale turquoise-green horizontal-boarded shed in the right background, with dark open gable doorway, natural timber diagonal door bracing and adjacent black water butt, bungalow rooflines. Keep the real buildings in their photographed positions. A moderately closer crop than the wide first source is desirable, leaving some of the actual shed visible and using most of the pixels for the working hands, frame and crop. No new garden architecture.\nUse ONLY the bamboo construction from the SECOND image as the design for a low uncovered rectangular cuboid: four slim weathered bamboo corner uprights plus one intermediate upright halfway down EACH long side, six used regulation tennis balls at upper nodes, TWO parallel long rails, three short cross rails at the two ends and centre. One upright directly under each ball. Canes meet INSIDE snug holes in dull, scuffed, yellow-green felt balls, ends hidden. Keep individual cane nodes visible and balls convincingly about 6.7 cm across. Place all six upright feet on bare soil inside the same single real existing bed, long axis approximately parallel to its brick edge, with growing room above two modest rows of young brassicas. Show the ball connectors and cane edges against contrasting ground. No timber planks around this bed. No net over the foreground frame. Remove the foreground bottles and loose folded cover from the demonstration bed. Frame comfortably inside image, not clipped by the photo edges.\nShow John once, wearing the same moss-green knitted cap, worn blue/teal zip fleece, green jumper, blue jeans and working shoes as in photo 1. Kneeling OUTSIDE the back long rail on the existing narrow brick access strip, torso in upper middle/right, looking down and facing the LEFT of the picture as in photo 4. Capture a quiet practical moment with one hand steadying the nearest rear ball and the other pressing a horizontal cane into it. Keep his silhouette clear of the other connectors; fingers wrap naturally round cane and ball. The TWO final references show his real appearance and head angle. His lower lip is visibly forward of his small receding chin, short grey beard following the slope back into the throat. Match the actual supplied man, ordinary unposed face at ease, weathered skin, realistic size against the shed and frame. Natural overcast April daylight, good detail and subtle colours, no cinematic treatment. Main image only: render one continuous photograph, no inset, collage, text, graphic or border. The original approved close-up will be placed in the bottom right during book layout; leave the lower-right quarter mainly unremarkable soil or paving, keep all important joints, hands and face above or to the left of this corner."
+  },
+  "camera_source": {
+    "record": "A11",
+    "original": "DJI_20260411113112_0139_D.MP4",
+    "seek_seconds": 101.301,
+    "timebase": "original camera clip",
+    "source_register": "docs/assets/garden-media-library/local-references/sources.json",
+    "location_checks": [
+      "A02 and A03 for plot and neighbouring boundaries",
+      "A24 for shed structure",
+      "A42 for the view along the beds towards the shed"
+    ]
+  },
+  "layout": {
+    "previous_inset_source_px": [
+      1174,
+      576,
+      1603,
+      921
+    ],
+    "inset_origin_px": [
+      18,
+      18
+    ],
+    "inset": "Original 429 × 345 pixel close-up and border. Moved to the upper left to keep all six joints visible.",
+    "page_image_object": "/X27",
+    "bounds_pt_from_top": [
+      54.801,
+      414.24,
+      234.969,
+      521.553
+    ],
+    "review_facing_source": "output/pdf/section-extracts/Vegetable-Guru-Growing-Techniques.pdf",
+    "facing_page_zero_based_index": 17
+  },
+  "checks": {
+    "original_inset_pixel_identical": true,
+    "outside_inset_identical_to_generated_master": true,
+    "page_text_trim_and_content_stream_identical": true,
+    "other_three_image_objects_identical": true,
+    "only_changed_area_in_144dpi_page_render_px": [
+      109,
+      828,
+      470,
+      1044
+    ],
+    "effective_resolution_ppi": 647,
+    "visually_reviewed": [
+      "all six connector balls and uprights, side rails and middle cross rail",
+      "head direction and lower-lip-to-chin outline against the 00:13 camera profile",
+      "shed, grass and path in A11",
+      "complete 165 proof and facing 164 at book proportions"
+    ]
+  },
+  "files": {
+    "allotment-camera-master.png": "3f14f4285795d483f09238c7d363c7814ac4fb5bb6b5a84d946be9c3340b58cd",
+    "Canes-and-Tennis-Balls.png": "130cf589858ced6fb1d117f884522bb47b2b604d18f7b9820c239bd88bc76264",
+    "Vegetable-Guru-Netting-Page-165.pdf": "b261a0f91220a98a268145a995c2d2c45d1bddf1bafd86ae7a1089d3f8d5f843"
+  }
+}
