@@ -1,0 +1,60 @@
+{
+  "date": "2026-11-19",
+  "status": "John approved page 167 and its artwork on 19 November 2026.",
+  "source_proof": "docs/publication/supports-photo-trial/tomato-cages-02/Vegetable-Guru-Supports-166-167-Tomato-Cage-Proof.pdf",
+  "source_proof_sha256": "236d4513ffca637d8edf2c5bf602f32b3bc9f1737d64e698d33b55aa72fa79ab",
+  "proof": "Vegetable-Guru-Supports-166-167-Tomato-Cage-Proof.pdf",
+  "folio": 167,
+  "preserved_staking_approval": "../brassica-stakes-02/APPROVAL.json",
+  "camera_sources": "../tomato-cage-scout/SOURCES.json",
+  "previous_trial": "../tomato-cages-02/trial.json",
+  "revision": "Redrew the planted photograph around the actual caged cordon filmed on 5 August: a gently bent single leader, visible lower pruning scars, mature naturally curling leaves and uneven, mainly green trusses. The barehanded construction photograph from revision 02 is byte-exact in this proof.",
+  "additional_camera_frame": {
+    "source": "/Volumes/Videos/Movies/Aug 2026/Aug in the garden/DJI_20260805162908_0033_D.MP4",
+    "raw_seek_seconds": 497.998,
+    "file": "references/August-08m18s-Native-Frame.jpg",
+    "sha256": "927ab2339df3ebf4f961e75de0af54fc462da5340db52872f0b164d49cde6c4d"
+  },
+  "generator": {
+    "final_pass": "generated_images/exec-7ab7c463-6498-4585-acb4-462103930c55.png",
+    "preserved_master": "masters/Outdoor-Cordon-Tomato.png",
+    "references": [
+      "docs/publication/supports-photo-trial/tomato-cages-02/artwork/08-tomato-in-cage.jpg",
+      "August-08m14s-Right-Tomato.jpg",
+      "August-08m12s-Base-and-Leaves.jpg",
+      "August-08m18s-Plant-Detail.jpg"
+    ],
+    "generation": "Make ONE portrait 2:3 documentary gardening photograph, an exact-scene edit of input 1. Revise ONLY the appearance of the tomato growing inside the cage. Input 1 is the existing full-width portrait photograph, authoritative for the crop and camera, same slender handmade wire cylinder, same rings and front-right seam with small twisted wire joins, exactly two metal pegs visibly over the bottom wire, real garden soil, hedge, quiet lighting, a thin foreground bed edge. Replicate those things, relative positions and entire composition. Keep the whole cage and base at the same scale in the portrait. The only substantial edit is to replace the too-straight and sparsely leafed plant with a faithful reconstruction of the very specific real plant in inputs 2–4.\n\nINPUT 2 is the 5 August 08:14 close portrait crop of John's actual right-hand caged tomato. Treat the actual plant there as the direct model: botanical construction, disposition and volume of mature foliage, irregular main stem and the real trusses, not just a mood reference. INPUT 3 shows the same plant's cleared lower stem, soil and naturally hanging leaves around lower fruit at 08:12. INPUT 4 shows its actual full, heavy leaflets and fruits from a step closer, 08:18. Transfer the growing plant from that August reference as closely as you can into the same cage and set of input 1. Use its working optical reality. The foliage in these images is the target.\n\nFollow its real anatomy: precisely one continuously growing green main leader, the bottom 15–20% with a few pruned petiole scars, starting from a single root on the inside of the cage, then a substantial slightly crooked pale green stem below the middle. Its path bends gently around the weight of its fruit and its asymmetrical leaves. Approximate the loose irregular bends and gentle lean shown in the original, visibly tapering up to one modest growing tip near the top. NO ruler-straight bare rod, symmetrical rungs or evenly spaced separate leaf sprigs, no second leader or new basal sucker. The real plant is properly pruned to a single cordon, yet retains many full compound leaves. Most dense natural foliage is in upper-middle and middle-lower thirds, with longer arching green petioles and irregular cool grey-green serrated leaflets, many naturally drooping and curling inward at the edges as in this actual plant. Let the larger true leaves overlap each other and partially obscure the stem in places. Several leaf tips emerge through the wire. Leave natural openings showing the stem and mesh. The plant should look substantially fuller and more lived-in than input 1, about as leafy as the actual plant in reference 2. Some older leaves can be duller or slightly mottled like the source. One later fruiting truss toward the lower half has several irregular green beefy outdoor fruits with one just turning amber, with higher trusses at uneven positions with green fruit of different sizes, often three or four on a real branching truss. Give fruit and leaves the natural relative scale of the close-up, not single fruit dangling on isolated long stalks or decorative bright-red balls at regular intervals. The tip is modest and softly leafy. Prioritise real outdoor growing habit and actual crop proportions over a simplified botanical diagram effect.\n\nThe old timber canes, diagonal braces, log pile, fleece and other plants shown in inputs 2–4 are setting and plant references only. Keep the clean scene and sole tall wire cage of input 1. Do not bring those things back, add supports around the cage, or add a vertical wood stake inside. Keep one subtle cloth tie loosely linking the living stem to a cage upright where it actually reaches, distinct from the small silver wire-only seam joins; if a naturally overlapping leaf partly hides the tie, that is fine. No metal wrapped around the plant. The grass and soil depth, fine wire silhouette, whole upper opening, base, tied metal seam and holding pegs are still readable. No border, typography, hands or second panel. Use the full same 2:3 photographed panel from input 1; match its background and scale."
+  },
+  "print_replacements": [
+    {
+      "pdf_resource": "/X28",
+      "path": "artwork/08-tomato-in-cage.jpg",
+      "crop_box_px": [
+        0,
+        0,
+        1024,
+        1536
+      ],
+      "photo_sha256": "03dce4ccb4b226a62b59dd7257f047205332b2f41d531ce422d7a869b632fd51",
+      "print_bounds_pt_from_top": [
+        145.636,
+        266.405,
+        217.703,
+        374.467
+      ]
+    }
+  ],
+  "checks": {
+    "print_size_mm": [
+      185,
+      240
+    ],
+    "retained_pdf_page_geometry_text_and_paint_stream": true,
+    "identical_other_artwork_streams": true,
+    "changed_pixels_outside_planted_tomato_frame_at_144_dpi": 0,
+    "source_pdf_unchanged": true,
+    "visual_review": "Compared the planted picture with the same 5 August plant at 08:12, 08:14 and 08:18. Checked the single leader, fuller curved leaflets, uneven green and ripening trusses, visible lower stem and the complete cage in the actual page and spread."
+  },
+  "approval": "APPROVAL.json"
+}
