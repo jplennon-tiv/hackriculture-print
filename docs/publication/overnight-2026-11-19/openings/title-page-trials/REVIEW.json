@@ -1,0 +1,83 @@
+{
+  "date": "2026-11-22",
+  "status": "Four proposals for John to compare; no selection or installation",
+  "files": [
+    {
+      "file": "output/pdf/title-page-trials/Vegetable-Guru-Title-Page-Trials-A-and-C.pdf",
+      "sha256": "f8514f89fe189ad4551a94f45f3cfd7ba4adc20efb45ca0a157993d3c9ef9c62"
+    },
+    {
+      "file": "docs/publication/overnight-2026-11-19/openings/title-page-trials/Vegetable-Guru-Title-Page-Trials-Comparison.png",
+      "sha256": "f05cc112e58a8f98472582b4ddc5a41d4d093347ea44686baec680e1386e4bed"
+    },
+    {
+      "file": "docs/publication/overnight-2026-11-19/openings/title-page-trials/A1.png",
+      "sha256": "703c9803d71f61cfaa708efd3aee97d681be0bfbfb6db8de4f3ae6488a883434"
+    },
+    {
+      "file": "docs/publication/overnight-2026-11-19/openings/title-page-trials/A2.png",
+      "sha256": "8362e1521f989adf3a63ce0770176f4854dbe7a1f6bcb3e4fefca7b40c3f8c00"
+    },
+    {
+      "file": "docs/publication/overnight-2026-11-19/openings/title-page-trials/C1.png",
+      "sha256": "a160d0be36a14ee1302f67d447f13a8607ce86310fcd679e71042bd706a4c55f"
+    },
+    {
+      "file": "docs/publication/overnight-2026-11-19/openings/title-page-trials/C2.png",
+      "sha256": "ab8525447d87b3bbbe6e1c0e559a1c552e3ef2ac6bca6573daf931eb02a5d82a"
+    }
+  ],
+  "sourceArtworkHashesVerified": true,
+  "sourceTitlePage": "output/pdf/whole-book-order-preview/the-vegetable-guru-order-preview.pdf#page=3",
+  "sourceTitlePageNote": "Exact title/subtitle/author/brand/imprint wording retained; measurement-edition line added as requested; original title page has no printed folio.",
+  "coverGroups": [
+    {
+      "id": "top-vegetables",
+      "source": "docs/publication/cover-versions/version-1-1/selected-gold-cover/The-Vegetable-Guru-Front.svg",
+      "sourceSHA256": "4c023818db44f6235d7294825c785f68edea072c382077cdd9de9e759f20b5f1",
+      "method": "Exact embedded main vegetable image bytes extracted. Cover-specific contact shadows, fold shadows and edge reconstruction layers omitted; original vegetable pixels retained.",
+      "isolatedArtwork": {
+        "file": "docs/publication/overnight-2026-11-19/openings/title-page-trials/assets/top-vegetables-artwork.png",
+        "sha256": "7274894d722632a7042060391418369cc5d4beb9da92e4ee0707a0260ff4d55b",
+        "sourceImagePlacement": {
+          "x": "49.160305343511425",
+          "y": "1",
+          "width": "1001.6793893129772",
+          "height": "405"
+        },
+        "method": "Exact embedded main vegetable image bytes extracted. Cover-specific contact shadows, fold shadows and edge reconstruction layers omitted; original vegetable pixels retained."
+      }
+    },
+    {
+      "id": "bottom-vegetables",
+      "source": "docs/publication/cover-versions/version-1-1/selected-gold-cover/The-Vegetable-Guru-Front.svg",
+      "sourceSHA256": "4c023818db44f6235d7294825c785f68edea072c382077cdd9de9e759f20b5f1",
+      "method": "Exact embedded main vegetable image bytes extracted. Cover-specific contact shadows, fold shadows and edge reconstruction layers omitted; original vegetable pixels retained.",
+      "isolatedArtwork": {
+        "file": "docs/publication/overnight-2026-11-19/openings/title-page-trials/assets/bottom-vegetables-artwork.png",
+        "sha256": "cce006e01d1757a1d96c01df851160d550d96e49488e509212c3fb3b263bb63b",
+        "sourceImagePlacement": {
+          "x": "17.43918918918928",
+          "y": "866",
+          "width": "1065.1216216216214",
+          "height": "559"
+        },
+        "method": "Exact embedded main vegetable image bytes extracted. Cover-specific contact shadows, fold shadows and edge reconstruction layers omitted; original vegetable pixels retained."
+      }
+    }
+  ],
+  "intentionalReplacements": [
+    "Original title-page wording retained, with the requested measurement label added.",
+    "Multicoloured top rule and old straight five-tile strip deliberately removed.",
+    "Author, imprint placeholder and unprinted title-page folio retained.",
+    "No generated replacements; original artwork remains intact.",
+    "C uses the exact native vegetable cutouts from the approved cover; cover-specific shadow and fold layers are omitted."
+  ],
+  "visualReview": {
+    "allFourPages": "Complete four-up comparison inspected after final render; clear typography, intact photos and vignette edges, no overlaps or clipping",
+    "facingContext": "Original blank inside front cover rendered beside C1; recto 17 mm inside/8 mm outside safety maintained in all four",
+    "imprint": "Existing placeholder retained pending final metadata",
+    "measurementScope": "Traditional measurements title-page trials; no guide or unit-content change"
+  },
+  "scope": "Four standalone title-page proposals only; no approved page modified or full-book integration"
+}

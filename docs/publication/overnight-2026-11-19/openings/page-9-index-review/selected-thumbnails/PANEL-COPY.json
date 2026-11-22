@@ -1,0 +1,110 @@
+{
+  "date": "2026-11-22",
+  "status": "John-supplied wording, with veriety corrected to variety; revised page and thumbnails await review",
+  "heading": "Reading the calendar",
+  "intro": "",
+  "exampleTitle": "Runner beans · example",
+  "exampleSource": {
+    "approval": "docs/publication/sowing-rollout/revisions/bean_runner/APPROVAL.json",
+    "pdf": "output/pdf/sowing-rollout/revisions/bean_runner/bean_runner-imperial.pdf",
+    "sha256": "e861fa13bff3a3233dbeb2ccf381949d552e5ee97f551db1d16f0a6be3502045"
+  },
+  "rows": [
+    {
+      "label": "SOW",
+      "class": "month-row sowing_time",
+      "months": [
+        "",
+        "",
+        "",
+        "",
+        "usual",
+        "usual",
+        "extra",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "label": "SOW INDOORS",
+      "class": "month-row sowing_time",
+      "months": [
+        "",
+        "",
+        "",
+        "usual",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "label": "PLANT OUT",
+      "class": "month-row sowing_time",
+      "months": [
+        "",
+        "",
+        "",
+        "",
+        "usual",
+        "usual",
+        "extra",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "label": "HARVEST",
+      "class": "month-row harvest_time",
+      "months": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "usual",
+        "usual",
+        "usual",
+        "extra",
+        "",
+        ""
+      ]
+    }
+  ],
+  "legendColumns": [
+    "Usual",
+    "Less usual"
+  ],
+  "legendRows": [
+    "Sow / plant",
+    "Harvest"
+  ],
+  "qualification": "Muted months may need protection, suitable varieties or milder conditions.",
+  "otherRows": "Each row refers to a task. Starting methods can vary, depending on the variety, and whether you have access to a greenhouse or a windowsill for starting seedlings off in a protected environment.",
+  "palette": {
+    "background": "#064d32",
+    "usualStart": "#d6ea9b",
+    "lessUsualStart": "#6b9069",
+    "usualHarvest": "#ff781f",
+    "lessUsualHarvest": "#ae7950"
+  },
+  "intentionalChanges": [
+    "Remove the complete Each row names introductory block",
+    "Replace the lower explanatory block with John’s exact text, correcting only veriety to variety",
+    "Keep the approved-source runner-bean example, colour key and muted-month qualification unchanged",
+    "Reflow the smaller panel at the page foot; preserve all 44 index entries, photographs, title and folio"
+  ],
+  "userRequestedText": "Each row refers to a task. Starting methods can vary, depending on the veriety, and whether you have access to a greenhouse or a windowsill for starting seedlings off in a protected environment."
+}

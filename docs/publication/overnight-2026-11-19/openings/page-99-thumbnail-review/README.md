@@ -1,0 +1,16 @@
+# Page 99 · Vegetable Troubles thumbnail choices
+
+22 November 2026. John approved the [page 147 D2 proof with restored folio](../page-147-layout-review/selected-d2-folio/APPROVAL.json) and asked to reuse its format, with variations, for other section and inside title pages, starting with Vegetable Troubles.
+
+The page-99 brief is to retain only **Vegetable Troubles** and **99** from the old wording, add section contents, and scatter chosen pictures at the approved approximately **29 mm square** size. The [book design system](../../../../BOOK-DESIGN-SYSTEM.md#approved-section-and-inside-title-opener-format) owns this reusable format. John has now selected **01, 05, 06, 09, 10, 13, 15 and 16**. [Exact selection](SELECTION.json) · [Four page-layout variations](../page-99-layout-review/README.md).
+
+[Full-size numbered contact sheet](Vegetable-Guru-Page-99-Thumbnail-Choices.png) · [Open contact sheet](https://chatgpt.com/library?file_id=libfile_fde3_f-a901db30e0b081919b89bb8a44d8c3c1_968f6e806ba48191b80ffb1b7a35f663&account_id=personal).
+
+- **01–04:** the exact four retained source files from the previous divider study. 01–03 are earlier generated photographic studies; 04 is John's original camera photograph.
+- **05–16:** twelve new generated photographic studies, covering pests, crop damage, a beneficial insect and leaf inspection. These are proposals, not approved diagnostic photographs or original camera evidence.
+
+The [source manifest](THUMBNAILS.json) identifies every numbered file, crop and SHA-256. The [generation record](GENERATION.json) preserves both prompts and reference paths. Existing files are unchanged; square derivatives preserve proportions. All sixteen pictures were inspected full-size and in a [small-thumbnail check](thumbnail-size-check.png). Numbers and labels were checked on the final contact sheet. The [builder](build-contact-sheet.cjs) reproduces the sheet.
+
+Subject checking used the exact canonical conditions in the shared bean/pea, brassica, onion/leek, tomato and carrot/parsnip records, read through `lib/records.mjs`. The retained [morphology reference](references/morphology-reference.png) assembles their existing diagnostic drawings; its illustration style was not used for the new pictures. The [real allotment photograph](../../../../assets/garden-media-library/local-references/allotment/A08-DSC02294.JPG) supplied garden context, and the [existing four-picture preview](references/existing-four-preview.png) supplied photographic tone. Additional morphology checks used RHS descriptions of [cabbage caterpillars](https://www.rhs.org.uk/biodiversity/cabbage-caterpillars), [cabbage whitefly](https://www.rhs.org.uk/biodiversity/cabbage-whitefly) and [flea beetles](https://www.rhs.org.uk/biodiversity/flea-beetles-on-brassicas-and-allied-plants). No gardening text or advice was edited.
+
+[Contents destinations](CONTENTS.json) record the fourteen existing crop-group guides covering pages 100–146, taken from the current page map. Their exact titles and destinations are carried forward for the later page proof; no new subsection grouping has been approved. John approved option D from the page variations, using this eight-picture pool; see its separate approval record. No page master, whole-book PDF, canonical record, earlier approved proof or supplier file was changed.

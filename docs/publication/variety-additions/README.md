@@ -2,6 +2,8 @@
 
 10 November 2026. **Approved by John in both editions.** [Exact approval](APPROVAL.json). [Open the whole set](REVIEW.html). The approved Jerusalem Artichoke addition is included unchanged at the start, making thirteen spreads / 26 pages per edition. Its [approval](../sowing-rollout/revisions/artichoke_jerusalem_varieties/APPROVAL.json) is separate.
 
+**22 November integration:** the exact thirteen approved Traditional measurements spreads are now installed in the [current full book](../whole-book-order-preview/README.md). Both-unit source proofs and approvals remain unchanged. The notes below record the original focused review.
+
 John requested the remaining shortlist as a batch. Fourteen new entries are appended across twelve guides; original descriptions remain verbatim. Carrot, Endive and Florence Fennel use the approved four-across panels. Five-entry panels use three above and two below; six-entry panels use two rows of three. The marginal candidates and optional Spinach suggestion remain untouched.
 
 | Guide | Folios | Added | Arrangement | P1 footer gap, imperial / metric mm |

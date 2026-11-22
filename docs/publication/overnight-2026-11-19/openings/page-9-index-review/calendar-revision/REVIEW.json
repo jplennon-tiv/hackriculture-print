@@ -1,0 +1,83 @@
+{
+  "date": "2026-11-22",
+  "status": "Proposed page and replacement calendar explanation; awaiting John’s review",
+  "folio": 9,
+  "pdf": {
+    "file": "output/pdf/page-9-index-review/calendar-revision/Vegetable-Guru-Page-9-Index-Proposal.pdf",
+    "sha256": "aa08d17cf8e79dafc801902991de78b2a9640a812fe597977a256f0d651bf0b4",
+    "pages": 1,
+    "trimMM": [
+      185,
+      240
+    ]
+  },
+  "render": {
+    "file": "docs/publication/overnight-2026-11-19/openings/page-9-index-review/calendar-revision/Page-9-Expanded-Calendar.png",
+    "sha256": "9495abafa35caded9ad31d5d8032f18f0bca4a5303966c77c85d7e17991bb13b"
+  },
+  "audit": {
+    "guides": 44,
+    "htmlAndPDFHashesMatched": true,
+    "allPDFRowLabelsExtracted": true,
+    "rowFrequencies": {
+      "PLANT OFFSETS": 1,
+      "SOW": 32,
+      "HARVEST": 44,
+      "PLANT TUBERS": 2,
+      "PLANT CROWNS": 2,
+      "SOW INDOORS": 12,
+      "PLANT OUT": 14,
+      "TRANSPLANT": 6,
+      "PLANT UNDER GLASS": 2,
+      "PLANT CLOVES": 1,
+      "START KIT": 1,
+      "PLANT SETS": 1
+    },
+    "visualExcerpts": [
+      "carrot",
+      "bean_runner",
+      "leek",
+      "tomato_greenhouse",
+      "artichoke_globe",
+      "potato",
+      "onion_shallot",
+      "garlic",
+      "rhubarb",
+      "mushroom"
+    ],
+    "editionInspected": "Latest approved imperial source for each crop; no guide regeneration"
+  },
+  "exampleSource": {
+    "approval": "docs/publication/sowing-rollout/revisions/bean_runner/APPROVAL.json",
+    "pdf": "output/pdf/sowing-rollout/revisions/bean_runner/bean_runner-imperial.pdf",
+    "sha256": "e861fa13bff3a3233dbeb2ccf381949d552e5ee97f551db1d16f0a6be3502045"
+  },
+  "checks": {
+    "allIndexNamesAndReferencesExtracted": true,
+    "allPanelCopyExtracted": true,
+    "noTextImageCollisions": true,
+    "safeBounds": true,
+    "indexFontPt": 10.5,
+    "panelBodyPt": 10.5,
+    "indexCalendarGapMM": 6.07359551069473,
+    "panelMM": [
+      17,
+      146,
+      160,
+      80
+    ],
+    "panelBottomInkPaddingMM": 2.775494121805764,
+    "sourceHashesUnchanged": true,
+    "originalPage9PDFUnchanged": true,
+    "visualReview": "Inspected full final rendered page and enlarged panel. Corrected tight bottom spacing by shortening the qualification and raising the final paragraph 2 mm. Chart row order/month states match the approved runner-bean source; all 44 index entries, photographs, title and folio remain clear."
+  },
+  "intentionalChanges": [
+    "Remove Vegetable index heading",
+    "Replace older two-row example with exact approved four-row runner-bean data",
+    "Explain action rows, alternative starting methods and specialised starting materials",
+    "Replace climate pictures and Normal planting / Extended season headings with an action/harvest colour key",
+    "Omit the older US-zone equivalence statement; panel addresses the meaning of the book’s calendars and preserves local-condition qualifications",
+    "Retain 44 index names, three original photos and folio 9; reposition to fit a larger panel"
+  ],
+  "scope": "Standalone proof and documentation only; no shared data changes, guide regeneration, full-book integration, supplier work or generated images."
+}

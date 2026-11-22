@@ -1,0 +1,102 @@
+{
+  "date": "2026-11-22",
+  "approved_by": "John Lennon",
+  "source": "D is a nice variation - let's use it.",
+  "status": "approved",
+  "folio": 99,
+  "option": "D",
+  "proof": {
+    "file": "output/pdf/page-99-layout-review/Vegetable-Guru-Page-99-Layout-Options.pdf",
+    "sha256": "493e6486675ebe85b068b489b5123aa59dfab0c67f2888181770fb214d352406",
+    "pages": 4,
+    "order": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "trimMM": [
+      185,
+      240
+    ],
+    "selectedPage": 4
+  },
+  "render": {
+    "file": "docs/publication/overnight-2026-11-19/openings/page-99-layout-review/Option-D.png",
+    "sha256": "97e49919f3ba2ceac41f416ec6d54fae3a5e2cf740187c3bb69ce02fc9a866e7"
+  },
+  "variant": {
+    "id": "D",
+    "label": "Staggered columns",
+    "description": "Contents columns start at different heights, with photos filling the open corners.",
+    "columns": [
+      {
+        "first": 0,
+        "count": 7,
+        "x": 17,
+        "y": 62,
+        "width": 75.5,
+        "row": 13
+      },
+      {
+        "first": 7,
+        "count": 7,
+        "x": 101.5,
+        "y": 111,
+        "width": 75.5,
+        "row": 12.5
+      }
+    ],
+    "photos": [
+      {
+        "id": 16,
+        "x": 111,
+        "y": 12,
+        "size": 29
+      },
+      {
+        "id": 10,
+        "x": 148,
+        "y": 26,
+        "size": 29
+      },
+      {
+        "id": 6,
+        "x": 115.4,
+        "y": 65,
+        "size": 29
+      },
+      {
+        "id": 9,
+        "x": 148.2,
+        "y": 79,
+        "size": 29
+      },
+      {
+        "id": 1,
+        "x": 17,
+        "y": 160,
+        "size": 29
+      },
+      {
+        "id": 5,
+        "x": 49.8,
+        "y": 176,
+        "size": 29
+      },
+      {
+        "id": 13,
+        "x": 17,
+        "y": 193,
+        "size": 29
+      },
+      {
+        "id": 15,
+        "x": 82.6,
+        "y": 201,
+        "size": 29
+      }
+    ]
+  },
+  "scope": "Approved standalone page design and selected eight-picture arrangement. Full-book and supplier integration remain separate."
+}

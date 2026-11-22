@@ -1,0 +1,180 @@
+{
+  "date": "2026-11-22",
+  "status": "Fit and visual review complete; page approval pending",
+  "folio": 7,
+  "selectedNumbers": [
+    2,
+    12,
+    16
+  ],
+  "selectedArtwork": [
+    {
+      "number": 2,
+      "title": "Tomato harvest",
+      "kind": "Original camera photograph crop",
+      "file": "docs/publication/overnight-2026-11-19/openings/page-7-thumbnail-review/thumbnails/02-tomato-harvest.jpg",
+      "sha256": "716010ff624e6d496abbbede18b8ec558d5c09b865c1c032b7123c5c6a890558",
+      "original": "docs/assets/vegetable-guru-stock/john-gardening-2026-11-17/sources/T05_05m16s042_4K.png",
+      "originalSHA256": "53cb40d0389e366daaebcdb3b10879435290e213746aa6a5476fde53e2156e48",
+      "referenceID": "T05",
+      "crop": {
+        "left": 932,
+        "top": 11,
+        "width": 2052,
+        "height": 2052
+      }
+    },
+    {
+      "number": 12,
+      "title": "Gathering salad",
+      "kind": "New generated photographic study",
+      "file": "docs/publication/overnight-2026-11-19/openings/page-7-thumbnail-review/thumbnails/12-gathering-salad.png",
+      "sha256": "06d54435d5977524292874d7f7f506837d3eb035feb06da9bfdecf2901d0a432",
+      "master": "generated_images/exec-3802183c-83c3-4595-a450-ec2a682c0374.png",
+      "masterSHA256": "505da0fbd81887d9ce8f6810280fa0b68ab273f5cd4339620390b744cf13352b",
+      "crop": {
+        "left": 629,
+        "top": 629,
+        "width": 623,
+        "height": 623
+      }
+    },
+    {
+      "number": 16,
+      "title": "A pause on the plot",
+      "kind": "New generated photographic study",
+      "file": "docs/publication/overnight-2026-11-19/openings/page-7-thumbnail-review/thumbnails/16-a-pause-on-the-plot.png",
+      "sha256": "06c91e0c4e76a39d48e3b45e8a96b2c83e163c4187f6d6f7f646f0a30f50eaf0",
+      "master": "generated_images/exec-c80d439b-df2a-4166-afda-4abbb2180c35.png",
+      "masterSHA256": "d81a3325ab71f0058d0c9459eb799d44876ef51b6b7841970f7054ca7944665c",
+      "crop": {
+        "left": 629,
+        "top": 629,
+        "width": 623,
+        "height": 623
+      }
+    }
+  ],
+  "approvedSource": {
+    "file": "docs/publication/introduction-revision/references/approved-2026-11-15/Introduction.pdf",
+    "sha256": "33c9bad835aff19f8b9d61a23c6efa3f998e213a03552a6c36f538a2e0c2f162"
+  },
+  "proof": {
+    "file": "output/pdf/introduction-three-thumbnails/Vegetable-Guru-Introduction-Three-Thumbnails.pdf",
+    "sha256": "67508c38ae362de118638bdd3e0f294193ba3bcd3b3b278380776af9506c3b98"
+  },
+  "renderer": {
+    "file": "docs/publication/overnight-2026-11-19/openings/page-7-thumbnail-review/three-thumbnail-proof/build.swift",
+    "sha256": "415002986ca48f1438d6a0d7e32cb94d62a4196220e672006a0448ac5645c133"
+  },
+  "pdfCheckScript": {
+    "file": "docs/publication/overnight-2026-11-19/openings/page-7-thumbnail-review/three-thumbnail-proof/check-and-render.swift",
+    "sha256": "4a4df7b1fb9309862bc9552ce0d980c46f691684c6c9613c9057796cae37989f"
+  },
+  "pageRender": {
+    "file": "docs/publication/overnight-2026-11-19/openings/page-7-thumbnail-review/three-thumbnail-proof/Introduction-Three-Thumbnails.png",
+    "sha256": "897ab403a2e6feddfd978ead2297037caae5809d38d193c6ae5db77575c1fea8"
+  },
+  "facingSpread": {
+    "file": "docs/publication/overnight-2026-11-19/openings/page-7-thumbnail-review/three-thumbnail-proof/facing-spread.jpg",
+    "sha256": "047c0fa1073f7915b762306834061f409a8789dc8b79061f3a75770e31b2c542"
+  },
+  "pdfChecks": {
+    "bodyFrameTopMM": 45,
+    "changedCharacterBounds": 0,
+    "date": "2026-11-22",
+    "facingPage": {
+      "changes": [],
+      "folio": 6,
+      "image": "pages/page-008.jpg",
+      "kind": "blank",
+      "label": "Blank — faces the introduction",
+      "pdfPage": 8,
+      "source": "docs/publication/whole-book-order-preview/integration-2026-10-18/baseline.pdf",
+      "sourcePage": 8
+    },
+    "facingPageBlank": true,
+    "lowestThumbnailBottomMM": 42,
+    "pages": 1,
+    "textMatchesApproved": true,
+    "thumbnailHorizontalGapsMM": [
+      2,
+      2
+    ],
+    "thumbnailSizeMM": 29,
+    "titleToFirstThumbnailGapMM": 6.482925805555581,
+    "trimMM": [
+      184.99998277777777,
+      240.00001388888887
+    ]
+  },
+  "rasterChecks": {
+    "changedPixelsBelowHeader": 0,
+    "comparisonStartsMM": 45,
+    "approved1991PhotoAndBodyUnchanged": true
+  },
+  "layoutChecks": {
+    "allTextFits": true,
+    "artwork": "Selected thumbnails 02, 12 and 16 replace harvest bowl; approved 1991 photograph retained unchanged",
+    "bodyFontPt": 10.5,
+    "bodyLeadingPt": 14.5,
+    "caption": "The author’s first food garden, 1991.",
+    "contentBottomMm": 221.80255225276386,
+    "date": "2026-11-22",
+    "folio": 7,
+    "fonts": [
+      "NunitoSans12ptExtraLight12pt-Regular_Regular",
+      "LilitaOne"
+    ],
+    "footerClearanceMm": 6.6974477472361444,
+    "mainLineCount": 20,
+    "mainTextBottomMm": 155.7722222222222,
+    "pages": 1,
+    "photoSizeMm": [
+      78,
+      53.06052631578948
+    ],
+    "photoTopMm": 162.77222222222218,
+    "renderer": "Offline CoreText/CoreGraphics",
+    "revision": "three-thumbnail proposal",
+    "status": "Selected 02, 12 and 16 in an unchanged-text page-7 proposal; not integrated or approved",
+    "trimMm": [
+      185,
+      240
+    ],
+    "units": "Identical copy for both editions; no measurements",
+    "visualReview": "Actual PDF page and facing blank page 6 inspected; no overlaps or clipping; three selected thumbnails readable at 29 mm",
+    "wordCount": 330
+  },
+  "placementsMM": [
+    {
+      "number": 2,
+      "x": 86,
+      "y": 10,
+      "width": 29,
+      "height": 29
+    },
+    {
+      "number": 12,
+      "x": 117,
+      "y": 13,
+      "width": 29,
+      "height": 29
+    },
+    {
+      "number": 16,
+      "x": 148,
+      "y": 10,
+      "width": 29,
+      "height": 29
+    }
+  ],
+  "visualReview": {
+    "actualPageInspected": true,
+    "actualFacingSpreadInspected": true,
+    "titleAndImagesClear": true,
+    "noClippingOrOverlap": true,
+    "allThreeFacesReadable": true
+  },
+  "scope": "Standalone proof only; original approved page and installed book unchanged. No full-book integration or supplier work."
+}

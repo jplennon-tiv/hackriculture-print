@@ -1,0 +1,64 @@
+{
+  "folio": 151,
+  "status": "For John’s review",
+  "source": "docs/publication/overnight-2026-11-19/techniques/Vegetable-Guru-Growing-Techniques-Photographic-Proof.pdf",
+  "source_sha256": "39d7a01184891444b016db5e1f8d138bfe6a407e3375a2a4d4caa8529da22fa8",
+  "proof": "output/pdf/page-151-review/Vegetable-Guru-Page-151-Square-Photo-Review.pdf",
+  "proof_sha256": "d2e9f5915e757921c2574658b0db857baba79dcdaca76e8e477584911a67ae13",
+  "page_image": "output/pdf/page-151-review/Vegetable-Guru-Page-151-Square-Photo-Review.png",
+  "facing_proof": {
+    "path": "output/pdf/page-150-review/Vegetable-Guru-Page-150-Square-Photo-Review.pdf",
+    "sha256": "51cb5c00ee2dd47a04bc38fda0b55fc7c85d3fff76c7e6ee938455dec104c211",
+    "pdf_page": 1
+  },
+  "square_frame_mm": [
+    19.05,
+    19.05
+  ],
+  "matched_text_and_page_boxes": true,
+  "render_comparison_dpi": 172.79999999999998,
+  "identical_pixels_outside_two_photo_rectangles": true,
+  "artwork": [
+    {
+      "crop": "Broad beans",
+      "kind": "Unretouched crop of a retained camera still",
+      "capture_date": "2026-05-25",
+      "video": "/Volumes/Videos/Movies/May 2026/May At The Allotment/DJI_20260525133652_0014_D.MP4",
+      "raw_seconds": 138,
+      "master": "docs/publication/supports-photo-trial/allotment-beans-and-bracing-03/references/Broad-bean-corner-0014-02m18s.jpg",
+      "master_sha256": "8d1af9659516e66d1cd70ca947c3bdaa7c486301aac277f9db850dc1440f3def",
+      "square_crop_xy_side_px": [
+        1660,
+        0,
+        2160
+      ],
+      "placement_xywh_points": [
+        68.25,
+        502.92,
+        54,
+        54
+      ],
+      "square_reference": "docs/publication/overnight-2026-11-19/techniques/page-151-same-bed-review/Broad-Beans-Square.png",
+      "square_reference_sha256": "b26c1aa056d10a22d0a0ef128d8efce8a58c2a7e3993308bcbf11ecbe4461df2"
+    },
+    {
+      "crop": "Cavolo Nero",
+      "kind": "Photographic reconstruction of kale succeeding broad beans in the same allotment bed",
+      "location": "Camera angle, brick path, shed and water butt from the broad bean frame. The part of the bed and hedge hidden behind the beans is reconstructed.",
+      "master": "docs/publication/overnight-2026-11-19/techniques/page-151-same-bed-review/Kale-Square.png",
+      "master_sha256": "4808bfb1dd21feae27360023287b2f994edd7ddc867b1b4f912bee69390a0d0f",
+      "original_generated_output": "generated_images/exec-2571533d-07eb-42f5-9bdd-1ff983316fe7.png",
+      "placement_xywh_points": [
+        153.0,
+        502.92,
+        54,
+        54
+      ],
+      "references": [
+        "docs/publication/overnight-2026-11-19/techniques/page-151-same-bed-review/Broad-Beans-Square.png",
+        "docs/publication/overnight-2026-11-19/techniques/artwork/151-kale.jpg"
+      ],
+      "prompt": "Edit the first image into exactly one square 1:1 full-bleed photograph. It is the right-hand after image in a before-and-after pair on page 151 of The Vegetable Guru. The unedited first image is the left-hand before photograph of John’s real allotment in Cornwall. Photograph this EXACT SAME BED from the SAME fixed camera position, focal length, height, tilt and crop a few weeks later, in summer, after the broad beans were cut at soil level and young kale established in their place. Only edit the former broad bean row and what it directly occluded. Preserve the original pixels and geometry everywhere else as closely as possible. Lock the pale sage-green shed siding sliver and large cropped black water butt on the far right to their exact sizes and positions, the pale pavers and their joint angles down the bottom right, the diagonal bare soil edge, the exposed strip of lawn, the far hedge and roofline, and the neighbouring bed and its existing canes. Do not recenter, zoom, tilt or invent a structure or edging. Preserve warm clear sun and direction of cast shadows, with additional open sun on the soil where the bean canopy was removed. Remove all broad bean plants and horizontal canes/green ties only from that row, keeping supports that are actually behind it. Reveal plausible ordinary dark crumbly soil inside exactly the same row footprint. In that soil put one line of clearly recognisable, substantial but young established Cavolo Nero, approximately 3 or 4 individually spaced plants, following the same near-left to far-right receding line. Use image 2 only for leaf anatomy: elongated upright dark blue-green strap-shaped, bubbled and softly drooping narrow leaves, coherent natural central rosettes and separately visible individual leaves. The nearest kale is a distinct large readable motif, rooted in the lower-left foreground, enough clear foliage to register at 19 mm, stepping back to progressively smaller projected plants. A little open soil between each; allow two tiny neutral cut bean stem stubs close to ground if natural. Keep the cut at the photograph’s existing left edge where the row extends beyond it. Keep actual ground, path and crumbling soil join continuous. Match depth of field, midtone values and real video still style. Natural working allotment, no people or hands, no text/marks, no half-and-half image, no studio treatment. The BEFORE photo exists already. Output only the AFTER photo."
+    }
+  ]
+}

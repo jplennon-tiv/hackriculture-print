@@ -339,27 +339,13 @@ supplier template. G2/B5 concept originals, the native proof adaptation and
 approved cover words are distinct inputs. The completed cleanup does not require
 rebuilding its removed legacy outputs.
 
-**Current book assembly:** `npm run book:preview` is the single current full-book
-route. It reuses the approved baseline and component PDFs, builds two illustrated
-contents pages (85 destinations) and the four-page index (307 entries / 36 see
-references), refreshes reference footers, verifies native bodies and PDF links,
-and renders the facing-page viewer. No guide catalogue export is performed.
-The [whole-book workflow](docs/publication/whole-book-order-preview/README.md)
-records its exact inputs and checks. The current interior is 176 pages; the
-complete screen PDF has 180 pages including covers. Techniques occupy 147–171,
-without internal blanks, and the index occupies 172–175, followed by end blank 176. Vegetables at 10–97
-are alphabetised by displayed title; family metadata and page colours remain.
-The assembler moves intact native facing pairs, refreshes footers and patches
-three numeric-reference ranges in Techniques using their embedded fonts. The 88 approved category labels are native overlays; the rest of each vegetable body is preserved. `scripts/lib/approved-troubles.mjs` binds the accepted 14 PDFs and exact condition offsets; the index checks each mapped heading against actual PDF text. Coloured contents reuse the approved key stylesheet and existing family mapping. No shared JSON mutation is required for folios. Adding the approved turf destination used the guarded book-copy writer; the source PDF is frozen in its approval manifest. It follows Digging at 162, with Sowing 163 and Watering 168 around the preserved Netting/Supports spreads.
+**Current book assembly:** `npm run book:preview` consumes the frozen [22 November source manifest](docs/publication/whole-book-order-preview/integration-2026-11-22/SOURCES.json) offline. It verifies all 110 source hashes, assembles exact approved native PDF pages, restores the approved full-resolution compost panorama, applies the approved caption/cane/publication-label changes, rebuilds 662 internal links and retains 90 bookmarks. It then makes a browsing derivative, inventories placed resolution, compares all 180 rendered pages and installs the checked result. The [whole-book workflow](docs/publication/whole-book-order-preview/README.md) records exact coverage and remaining print-resolution findings. Vite and catalogue export are not needed for this route.
 
-`book:contents` builds both-unit contents and the placement plan;
-`book:index` builds the current integrated index. `scripts/lib/approved-reader-integration.mjs`
-verifies approved section/reader sources; `scripts/integrate-approved-book.py`
-assembles and checks the current PDF. The original `prepare-whole-book-preview.mjs`
-and `assemble-whole-book-preview.py` execution paths are retired and stop with
-an explicit redirect, preventing loss of later approved edits.
+The current book has 176 interior / 180 PDF pages, including selected cover panels. All 44 latest vegetable pairs, thirteen variety derivatives, the new photographic openings and Techniques are integrated. Contents now have 84 entries without category colours/key. The four-page index retains 307 entries and 36 see references. Folios remain unchanged. The source-manifest preparation script is a one-time baseline binding and must not be rerun against the newly installed book. Native candidates are saved atomically; installation refuses to replace an unrecognised current book. Approved components, canonical JSON and supplier files are never rewritten.
 
-The current combined Guides/how-to is reused at page 9; blank 8 faces it.
+`book:contents`, `book:index` and the older integration scripts preserve historical component workflows; they are not the current approved-page assembly route. Do not use them to overwrite the current contents, guide-index/calendar page or source bindings. The original whole-book preparation/assembly paths remain retired.
+
+The approved photographic Guides index/calendar is now at page 9; blank 8 faces it.
 The welcome page is omitted. `book:guide-key` retains the previous standalone
 one-page key, while `book:build`/`book:entries` retain the original seven-page
 opening composition. The following implementation notes describe those retained

@@ -105,6 +105,8 @@ identifies every reused PDF and verifies preserved bodies and artwork.
 
 ## Extra opening and Growing Techniques pages
 
+The [page 147 D2 divider with restored folio](../publication/overnight-2026-11-19/openings/page-147-layout-review/selected-d2-folio/APPROVAL.json) is approved on 22 November and supplies the [reusable opener format](../BOOK-DESIGN-SYSTEM.md#approved-section-and-inside-title-opener-format). Its exact PDF and eight photo sources remain frozen. The [approved page-99 D variation](../publication/overnight-2026-11-19/openings/page-99-layout-review/APPROVAL.json) uses eight chosen pictures from the [Troubles contact sheet](../publication/overnight-2026-11-19/openings/page-99-thumbnail-review/README.md); its manifest distinguishes camera material from generated studies. The [new page-9 index/calendar proposal](../publication/overnight-2026-11-19/openings/page-9-index-review/README.md) reuses three original camera photographs and preserves the exact approved calendar panel.
+
 The [Organic growing / Testing and adjusting pH page](../publication/topic-pages/soil-acidity/README.md)
 is **approved and integrated at page 152, 2 November**, superseding the first two-page
 version at John’s request. It inherits the accepted Techniques geometry and
@@ -205,8 +207,7 @@ strip, and an opaque-bucket icon replaces the cloche in Final tips. The
 new PNG, editable SVG, composition and both-unit proofs; the
 [artwork record](../publication/sowing-rollout/revisions/chicory/ARTWORK.json)
 retains the built-in generation prompt and direct planting-style reference.
-Original Chicory drawings remain intact. This is the approved one-off working
-spread, awaiting later main-book integration.
+Original Chicory drawings remain intact. This exact approved working spread is installed in the 22 November book.
 
 The [Courgettes and Marrows revision](../publication/sowing-rollout/revisions/marrow_courgette/README.md)
 is approved on 5 November. Its two pocket cutaways, marrow-on-board and compost-bin
@@ -214,7 +215,7 @@ icons are approved as placed, with the three planting drawings bottom-aligned.
 The [approval](../publication/sowing-rollout/revisions/marrow_courgette/APPROVAL.json)
 binds copy, artwork, composition and both proofs; the [artwork record](../publication/sowing-rollout/revisions/marrow_courgette/ARTWORK.json)
 retains prompts and direct references. The original generic transplant picture
-remains intact. The approved working spread awaits later main-book integration.
+remains intact. The exact approved working spread is installed in the 22 November book.
 
 The [Mushroom kit drawings](../publication/sowing-rollout/revisions/mushroom/ARTWORK.json) are approved as placed on page 67. The first shows white threads beneath a level clear lid; the second shows loose casing added from a sachet. The [approval record](../publication/sowing-rollout/revisions/mushroom/APPROVAL.json) identifies the final PNGs and both editions.
 
@@ -309,6 +310,8 @@ proof. G2/B5 remain historical selected sources. The retained [15 November revis
 
 ## Title, publication and welcome
 
+**Title page approved, 22 November:** John approved [exact option 01](../publication/overnight-2026-11-19/openings/title-page-trials/mixed-size-variations/APPROVAL.json), PDF page 1 of the six mixed-size trials: large tomatoes, medium rainbow chard and three small existing photographs. The displayed “Traditional measurements edition” wording is included in approval; branding and imprint are omitted. The exact title is installed in the [22 November assembly](../publication/whole-book-order-preview/README.md); publication page 2 retains its metadata but omits the measurement-edition prefix. Earlier alternatives and cover cutouts are retained. The [interior artwork audit](../publication/overnight-2026-11-19/ARTWORK-STATUS-2026-11-22.md) identifies retained diagrams and remaining production checks.
+
 The [7 October three-page compact proposal](../publication/vegetable-guru-opening-pages/REVIEW.html)
 uses selected G2 for title hierarchy, cream/green palette and the vegetable-tile
 idea, the approved tomato/onion/pea/carrot/kale heroes, and the original harvest
@@ -333,6 +336,8 @@ opening header a distinct drawing. These remain candidates for John's review;
 approved sources and existing PDFs are unchanged.
 
 ## Contents
+
+**Approved standalone spread, 22 November:** the [single-colour contents](../publication/overnight-2026-11-19/openings/contents-no-category-colours/README.md) removes the category colours/key at John's request and uses seven selected photographs at 32 mm. All destinations are retained in 84 entries after the requested Introduction/Vegetable Guides label update. The [exact approval](../publication/overnight-2026-11-19/openings/contents-no-category-colours/swapped-headers/APPROVAL.json) freezes the final swapped-header proof. Integration remains separate; the approved sources below remain intact and installed.
 
 Harvest corner A, approved 29 September:
 [installed PDF](../../public/front-matter/contents-A4.pdf),

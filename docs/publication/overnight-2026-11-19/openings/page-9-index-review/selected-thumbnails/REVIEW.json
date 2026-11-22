@@ -1,0 +1,58 @@
+{
+  "date": "2026-11-22",
+  "folio": 9,
+  "status": "Page proposal from John’s six-picture selection; page approval pending",
+  "pdf": {
+    "file": "output/pdf/page-9-index-review/selected-thumbnails/Vegetable-Guru-Page-9-Index-Proposal.pdf",
+    "sha256": "4b9fe4962329b9190a497e4be93d5ec0d3efb2d681d7dbda1edbfb6a60d7886d",
+    "pages": 1,
+    "trimMM": [
+      185,
+      240
+    ]
+  },
+  "render": {
+    "file": "docs/publication/overnight-2026-11-19/openings/page-9-index-review/selected-thumbnails/Page-9-Selected-Thumbnails.png",
+    "sha256": "089066398ccc8df7d8934708d072aaab81dc5bc8467498792ee825995fb22160"
+  },
+  "selection": "docs/publication/overnight-2026-11-19/openings/page-9-thumbnail-review/SELECTION.json",
+  "usedNumbers": [
+    2,
+    8,
+    15
+  ],
+  "placements": [
+    {
+      "number": 8,
+      "crop": "Sweet pepper",
+      "xMM": 111,
+      "yMM": 12,
+      "sizeMM": 29
+    },
+    {
+      "number": 15,
+      "crop": "Onion",
+      "xMM": 148,
+      "yMM": 26,
+      "sizeMM": 29
+    },
+    {
+      "number": 2,
+      "crop": "Pea",
+      "xMM": 78.2,
+      "yMM": 34,
+      "sizeMM": 29
+    }
+  ],
+  "checks": {
+    "exactPDFTextUnchanged": true,
+    "textGeometryUnchanged": true,
+    "all44IndexNamesAndFoliosPresent": true,
+    "noCollisions": true,
+    "safeBounds": true,
+    "sourceHashesMatched": true,
+    "outsidePhotoChangedPixels": 0,
+    "visualReview": "Complete rendered page inspected. Pepper, onion and pea remain legible at 29 mm; original image proportions preserved by clipping a centred cover fit. Calendar, index, title and folio unchanged."
+  },
+  "scope": "Standalone proposed page only. Six pictures selected as a pool; not all are required in this composition. No new image generation, canonical record edit, full-book integration or supplier work."
+}

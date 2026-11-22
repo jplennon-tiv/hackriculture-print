@@ -1,5 +1,7 @@
 # Current two-page contents
 
+**22 November current contents:** the [approved swapped-header spread](../overnight-2026-11-19/openings/contents-no-category-colours/swapped-headers/APPROVAL.json) is now installed in the [current full book](../whole-book-order-preview/README.md). It uses seven 32 mm photographs, no category colours/key, plain folios and 84 entries after shortening Introduction and merging the duplicate Vegetable Guides entry. The older component workflow and dated evidence below remain historical; do not run them over the current approved spread.
+
 [Review the contents](REVIEW.html), integrated at facing pages **4–5** in the
 [current full book](../whole-book-order-preview/REVIEW.html).
 The approved simple headings, chronological lists and H1/H2 header art remain.
@@ -27,13 +29,13 @@ the approved current placement map. The [guarded save](../whole-book-order-previ
 records exact previous bytes. The earlier plain/illustrated proofs remain frozen
 in `references/`; old folios in them are source provenance.
 
-`npm run book:contents` builds these two pages in both units and the current plan.
+`npm run book:contents` retains the older two-page component workflow in both units and its placement plan; it is not the current approved photographic spread.
 Use bundled Python/Poppler for `scripts/check-updated-contents.py`, then inspect
 its renders. [Build checks](CHECKS.json), [PDF checks](PDF-CHECKS.json) and
 [visual review](VISUAL-REVIEW.json) identify coverage. `npm run book:preview`
 performs the complete integration; it does not regenerate the guide catalogue.
 
-The current PDFs reproduce the accepted contents proof exactly in both units.
+The retained component PDFs reproduce their earlier accepted contents proof in both units.
 The [frozen review](../contents-key-reflow/REVIEW.html) preserves the comparison;
-its draft labels are historical. Use the current builder above for later work,
+its draft labels are historical. Preserve the newer approved photographic spread during later work,
 not the consumed proposal builder.

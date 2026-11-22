@@ -1,0 +1,102 @@
+{
+  "folio": 151,
+  "status": "For John's review",
+  "proof": "output/pdf/page-151-review/Vegetable-Guru-Page-151-Winter-Review.pdf",
+  "proof_sha256": "eacac05213e7143acbb8a1a6707bee2b9f72de0337758b47f2fc227387083f9d",
+  "page_image": "output/pdf/page-151-review/Vegetable-Guru-Page-151-Winter-Review.png",
+  "original_proof": "docs/publication/overnight-2026-11-19/techniques/Vegetable-Guru-Growing-Techniques-Photographic-Proof.pdf",
+  "previous_square_proof": "output/pdf/page-151-review/Vegetable-Guru-Page-151-Square-Photo-Review.pdf",
+  "previous_square_proof_sha256": "d2e9f5915e757921c2574658b0db857baba79dcdaca76e8e477584911a67ae13",
+  "facing_approved_proof": {
+    "path": "output/pdf/page-150-review/Vegetable-Guru-Page-150-Square-Photo-Review.pdf",
+    "sha256": "51cb5c00ee2dd47a04bc38fda0b55fc7c85d3fff76c7e6ee938455dec104c211",
+    "pdf_page": 1
+  },
+  "square_frame_mm": [
+    19.05,
+    19.05
+  ],
+  "render_comparison_dpi": 172.8,
+  "matching_boxes_and_text": true,
+  "matching_pixels_outside_the_photo_frames": true,
+  "artwork": [
+    {
+      "key": "beans",
+      "stem": "Broad-Beans-Pods.png",
+      "raw": "generated_images/exec-06beccae-5014-4b41-9bbf-c8c75d369b3b.png",
+      "subject": "Broad beans, May",
+      "description": "Edited square crop of John's 25 May camera frame. Shadow detail lifted and three pods added.",
+      "inputs": [
+        {
+          "file": "Broad-Beans-Square.png",
+          "role": "Exact previous square and site geometry"
+        },
+        {
+          "file": "/Volumes/Videos/Movies/DJI Videos/Photographs/Allotment/DSC08357.jpeg",
+          "role": "John's real attached pod shape, colour and scale, resized to 1000 px for reference"
+        }
+      ],
+      "prompt": "Precise photographic edit of image 1, the square frame of John's real Cornish allotment broad beans from a May video. Output one exact 1:1 square image with the same crop and camera. Keep the actual plants, canopy silhouette and bamboo rails, pale-green shed and cropped black water butt at the right, diagonal brick path, background, sunny blue sky, white highlights and natural camera detail in place. Only make two subtle revisions. First lift the existing dark shadow detail under the canopy and on the deep green inner foliage by about half a stop, reducing harshness while preserving believable cast shadows, original highlights and their direction. Do not brighten the full frame or shift hue. Second add only three clearly legible attached broad bean pods in the near plant: two substantial but normal green fava pods hanging off adjacent short stalks from a foreground leaf axil just above and slightly left of centre where dark leaves are behind them, one partly overlapped by a leaf; and one smaller pod at a different height a little to the right. Use image 2, John's actual broad bean photograph, for the shape, attachment, scaling and skin only. Each pod is naturally blunt, broad fleshy almost straight gently curved, with a light hint of bean bulges and subtle natural seams, two unequal lengths and slight natural angle differences, no open pod, no peas, no graceful decorative sprays. They are large enough to show as pods at 19 mm without obscuring the real structure. Maintain real stem anatomy, existing plant density and sense of place. No people, text, framing, extra produce, repeat clusters or restyling of the scene.",
+      "dimensions_px": [
+        1254,
+        1254
+      ],
+      "master": "docs/publication/overnight-2026-11-19/techniques/page-151-same-bed-review/winter-revision/Broad-Beans-Pods.png",
+      "master_sha256": "83fa8e6df772d304c9e9b436c17359a119cb0fe584ad17b0aebe0674cd58272b",
+      "placement_xywh_points": [
+        68.25,
+        502.92,
+        54,
+        54
+      ]
+    },
+    {
+      "key": "kale",
+      "stem": "Cavolo-Nero-Early-Winter.png",
+      "raw": "generated_images/exec-0d62c619-acb6-439a-a863-4641b971bf01.png",
+      "subject": "Cavolo Nero, early December",
+      "description": "Reconstruction in the same bed under overcast early-winter conditions. The growing sequence is illustrative.",
+      "inputs": [
+        {
+          "file": "Kale-Square.png",
+          "role": "Earlier square for permanent geometry only"
+        },
+        {
+          "page": "https://charlesdowding.co.uk/blogs/homeacres/sept-15th-sow-salads-for-winter-no-dig-small-garden-harvests-watering",
+          "image": "https://uploads-ssl.webflow.com/644a89905644b6ece0c63cde/65076217a0ff465ce78775f4_Name_23.jpg",
+          "credit": "Charles Dowding",
+          "role": "Partly picked crop, leaf shapes and overlaps"
+        },
+        {
+          "page": "https://www.homesandgardens.com/gardens/why-it-is-important-to-fertilize-a-vegetable-garden-in-the-fall",
+          "image": "https://cdn.mos.cms.futurecdn.net/3kQyUYYxtEWsnxacwrHxAK.jpg",
+          "credit": "Getty Images/Capchure",
+          "role": "Late-season plants with variable height and leaf scars"
+        },
+        {
+          "file": "docs/assets/garden-media-library/local-references/viewpoints-2026-11-19/A42.jpg",
+          "role": "John's November allotment, seasonal colour and dampness"
+        },
+        {
+          "page": "https://charlesdowding.co.uk/blogs/homeacres/february-2019-a-few-sowings-compost-and-mulching-courses-snow-and-pigeons",
+          "image": "https://uploads-ssl.webflow.com/644a89905644b6ece0c63cde/65070f5b8f4a66cd4555483f_Name_11.jpg",
+          "credit": "Charles Dowding",
+          "role": "Overwintering row and individual spacing; snow excluded from the Cornwall reconstruction"
+        }
+      ],
+      "prompt": "Replace ALL the artificial-looking kale plants in the first square with a grounded, candid early-DECEMBER documentary photo on John's exact allotment bed in Cornwall. Output one full-bleed 1:1 square. Image 1 is authority for camera position and permanent geometry ONLY: preserve the precise path width and diagonal perspective and individual paver joint angles, crumbly unedged bed on the left, the pale green shed edge and the cropped black water butt on the right at the same scale, the roofline and hedge position. This is a fixed-camera follow-up months later: do not move or zoom camera. Image 2 (actual partly harvested Cavolo Nero) shows matte leaf anatomy, overlapping soft uneven forms and varied attachment at the crown. Image 3 (real late-season plants) and image 5 (real overwintering row) show different plant sizes, outer leaves bending or hanging down, irregular leaf scars up stems and realistic spacing. These are botanical observations only, use no elements of their setting or photographic compositions. Image 4 is John's real November allotment as a reference for season, dampness and cool soft light, not framing. Make what an allotment grower would really see after several autumn pickings: an untidy uneven line of healthy mature summer-planted Cavolo Nero, one prominent plant rooted about a third of the way in from the left, two less conspicuous differently sized neighbours staggered up the bed, one partly hidden behind another. The foreground plant has an off-vertical real stalk, irregular dull scars for picked lower leaves, an off-centre crown of narrow upright younger leaves, an older long dark slate-green leaf twisting forward, other thick heavily crinkled leaves layered across different directions, tips hanging irregularly, one notched margin, natural small insect holes in just one older leaf, and an ageing pale lower leaf on another plant. Keep a realistic mix of modest texture and crinkle, branching pale ribs, darker and lighter leaf surfaces, leave some shadowed overlaps. No repeated plant silhouettes, no identical radial fans, no glossy plastic, no cloned curves, no regular quilted pebble pattern, no cartoon injury or visibly severed fake stems. Soft overcast pale grey December sky, low-contrast cool but neutral light, damp dark brown soil with a few scattered spent leaves, muted green grass, bare twig tips in the hedgerow, sparser winter growth on adjoining beds, no long summer shadows. Mild damp coastal Cornish early winter with no snow and no heavy frost. Weather changes the tones without moving structures. Keep plants clearly recognisable at 19 mm and avoid making the scene uniformly dark. Realistic ordinary working allotment snapshot, no people or type.",
+      "dimensions_px": [
+        1254,
+        1254
+      ],
+      "master": "docs/publication/overnight-2026-11-19/techniques/page-151-same-bed-review/winter-revision/Cavolo-Nero-Early-Winter.png",
+      "master_sha256": "a38b094b6d34304ac648fefde3408ccea477990da0698f1d4a5aee32cb7c541a",
+      "placement_xywh_points": [
+        153.0,
+        502.92,
+        54,
+        54
+      ]
+    }
+  ]
+}

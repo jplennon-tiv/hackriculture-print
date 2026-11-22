@@ -1,6 +1,6 @@
 # The Vegetable Guru — book design system
 
-Consolidated 8 October; cover/source-status references updated 17 November 2026. Based on the selected covers, approved Compact Book v1,
+Consolidated 8 October; opener approval added 22 November 2026. Based on the selected covers, approved Compact Book v1,
 approved contents/how-to and current opening-page proposals. This is the shared
 design reference for the 185 × 240 mm paperback. It records existing choices;
 creating this document does not approve unfinished designs or change any artwork.
@@ -34,8 +34,14 @@ Those additions are retained, with review highlights removed from the current bo
 The approved navigation and heading treatment is:
 - Use **Vegetable Guides**, **Vegetable Troubles** and **Growing Techniques**
   consistently in section navigation and related-reading labels.
-- State **Imperial edition** once in the publication details; show only the
-  folio on the right of the footer. Retain section identification at left.
+- John's 22 November instruction reserves measurement-edition wording for the
+  **cover and title page only**. Use **Traditional measurements**, not “Imperial”,
+  for this edition. Do not repeat the edition label in publication details,
+  contents or interior footers. Show only the folio at the right of the footer;
+  retain section identification at left on content pages. The approved
+  section/inside-title opener format below keeps only the folio. Frozen older
+  proofs may still contain edition labels; remove those during the next
+  authorised integration rather than regenerating the book for this rule change.
 - Every Growing Techniques content page uses a flowing display heading:
   a shared topic name in green, then a page-specific qualifier in deep orange.
   Related pages repeat the topic name. The small running title groups pages into
@@ -102,7 +108,12 @@ The current cover choice is the **cream development of Version 1-1**, selected o
 
 ### Family Tint
 
-Retain the family colour system in guides and approved reference contents.
+Retain the family colour system in guides and frozen reference contents. John approved the
+[revised contents on 22 November](publication/overnight-2026-11-19/openings/contents-no-category-colours/swapped-headers/APPROVAL.json):
+house dark-green text, no category colours/key, seven 32 mm photographic thumbnails,
+84 entries, shortened Introduction and one Vegetable Guides section heading.
+The approved standalone spread awaits later authorised integration; installed
+contents remain the earlier approved composition.
 John’s 30 October instruction places complete vegetable spreads in title
 alphabetical order while retaining their family colours. Family blocks no longer
 determine reading order. His current simple contents deliberately omits family
@@ -179,18 +190,20 @@ Sources: frozen [pilot.css](publication/book-pilot/pilot.css), maintained
 Preserve existing local overrides such as climate-key headings. Main guide type
 must not shrink to force two pages; use sensible reflow and extra pages instead.
 
-### Working title, publication and welcome hierarchy
+### Title, publication and welcome hierarchy
 
 These values are recorded from [opening-pages.css](publication/vegetable-guru-opening-pages/opening-pages.css)
 for the retained original opening proposal. Current title/publication placement and approved copy are recorded in the handover; its omitted welcome page is not pending work.
 
-| Role | Current proposed size |
+| Role | Recorded size |
 | --- | --- |
 | Title-page The / Vegetable / Guru | 24.75 / 58.5 / 82.5 pt, Lilita |
 | Title-page subtitle | 15.75 pt, Nunito Sans 800 |
 | Publication title / section heading / paragraph | 24 / 18.75 / 9.375 pt |
 | Welcome heading / lead / main paragraphs | 38.25 / 13.5 / 10.5 pt |
 | Welcome pull quote / author heading / author body | 19.5 / 19.5 / 9.75 pt |
+
+The **approved title page, option 01, 22 November** retains the title/subtitle type sizes above and the cream/dark-green palette. Its photographic composition uses one large tomato image, one medium chard image and three smaller thumbnails. HACKRICULTURE and the imprint line are omitted; “Traditional measurements edition” is approved as displayed. It remains folio 1 without a visible page number. The [exact approval and source positions](publication/overnight-2026-11-19/openings/title-page-trials/mixed-size-variations/APPROVAL.json) own this standalone composition; integration and production-resolution preparation remain separate. This is the selected inside-title variation of the section-opening format, not a change to all section thumbnail sizes.
 
 The separate **approved personal introduction** uses Lilita 32.25 pt, Nunito Sans body/sign-off 10.5 pt with 14.5 pt leading, and an 8.25 pt photograph caption. Its 78 × 53.1 mm garden photograph sits beside the closing message; exact composition is frozen in the [15 November approval](publication/introduction-revision/APPROVAL.json).
 
@@ -244,9 +257,27 @@ their page total is not the interior count used for print costing/spine calculat
 | Title/publication | Cover-related title strip and quieter publication page | [Original pages 1–3 proposal](publication/vegetable-guru-opening-pages/REVIEW.html) retained; current assembly omits the welcome/author page. Metadata placeholders remain. |
 | Contents/how-to | Simple illustrated contents with calculated page references; calendar, difficulty and needs explanations in the combined Guides opening | [Approved source pages 4–7](publication/vegetable-guru-entry-pages/REVIEW.html) remain frozen. The accepted [two-page contents](publication/contents-update/REVIEW.html) and [approved combined Guides/how-to](publication/combined-guides-opening/APPROVAL.json) are integrated in the full preview. |
 | Index | Two open columns; 9.45 pt reading type, orange folios, ruled alphabet headings, continued labels, no decorative artwork | [Four-page index](publication/book-index/REVIEW.html), approved 12 October; [frozen sources](publication/book-index/APPROVAL.json); current integrated folios 172–175 |
-| Section openers | Vegetable Guides: right-hand title/H4 artwork, centred orange how-to heading above three separate peach panels, revised calendar wording and two crop/badge examples. Troubles/Techniques retain their existing recto title-page proposals. | [Three-panel revision approved 31 October](publication/guides-intro-detail/APPROVAL.json), integrated on 2 November; blank 8 / combined 9 remains. The earlier [15 October version](publication/combined-guides-opening/APPROVAL.json) is preserved as source evidence. Other [14 October opener proposals](publication/whole-book-order-preview/SECTION-OPENERS.json) remain for review. |
+| Section openers | Page 147 establishes the approved title, grouped mini-contents, scattered square-photo and folio format below. Apply with variations to other section and inside title pages as directed, starting with Vegetable Troubles at 99. Page 99 option D is also approved. Page 9 is now approved with a vegetable index without a separate heading, three selected photographs and the revised bottom calendar explanation, following John’s removal of the Difficulty/Core Needs panels and how-to heading. Its original source stays installed until later integration. | [Exact page 147 approval](publication/overnight-2026-11-19/openings/page-147-layout-review/selected-d2-folio/APPROVAL.json); [page 99 D approval](publication/overnight-2026-11-19/openings/page-99-layout-review/APPROVAL.json); [page 9 approval](publication/overnight-2026-11-19/openings/page-9-index-review/selected-thumbnails/APPROVAL.json). Earlier opener studies remain historical. The [three-panel Guides revision](publication/guides-intro-detail/APPROVAL.json) remains the installed page-9 source. |
 | Vegetables | Expressive hero/circle/sticker opening, useful information hierarchy, practical continuation and full-width Final Tips | Approved [guide contract](BOOK-PRINT-STYLE.md#vegetable-opening-page); collection review remains separate |
-| Troubles | Open two-column entries, complete diagnostics, small Recognise / Act / Prevent advice labels. Approved separate wrapping masks, 4 mm gap and 25% larger drawings. Natural book flow leaves unused space after the final content, with normal gaps and unequal lower edges where complete entries require them. The Brassica specimen is accepted for rollout: descending importance, bounded fit moves and separated pale panels with top-right ribbons and no panel border; alphabetical ties are withdrawn. All 14 guides now use exactly 24 approved Common Pest / Common Disease / Common Problem highlights; potato slugs remain ordinary. Both-unit [complete section proofs](publication/troubles-rollout/README.md) are built; these exact approved pages are now integrated in the main book. Explain the sequence on the opener instead of repeating the arrowed page header. | [Guide contract](BOOK-PRINT-STYLE.md#troubles); [image-treatment approval](publication/troubles-image-size-study/APPROVAL.json); [header revision](publication/troubles-header-refinement/README.md); no enclosing equal-height cards |
+| Troubles | Open two-column entries, complete diagnostics, small Recognise / Act / Prevent advice labels. Approved separate wrapping masks, 4 mm gap and 25% larger drawings. Natural book flow leaves unused space after the final content, with normal gaps and unequal lower edges where complete entries require them. The Brassica specimen is accepted for rollout: descending importance, bounded fit moves and separated pale panels with top-right ribbons and no panel border; alphabetical ties are withdrawn. All 14 guides now use exactly 24 approved Common Pest / Common Disease / Common Problem highlights; potato slugs remain ordinary. Both-unit [complete section proofs](publication/troubles-rollout/README.md) are built; these exact approved pages are now integrated in the main book. The guide entries retain their advice labels; the new page-99 brief replaces the earlier opener explanation with mini-contents. | [Guide contract](BOOK-PRINT-STYLE.md#troubles); [image-treatment approval](publication/troubles-image-size-study/APPROVAL.json); [header revision](publication/troubles-header-refinement/README.md); no enclosing equal-height cards |
+
+### Approved section and inside-title opener format
+
+John approved the exact **page 147 D2 with restored folio** on 22 November and chose it as the model for other section and inside title pages, with variations. The [approved proof](publication/overnight-2026-11-19/openings/page-147-layout-review/selected-d2-folio/README.md), [approval and hash](publication/overnight-2026-11-19/openings/page-147-layout-review/selected-d2-folio/APPROVAL.json), and [editable builder](publication/overnight-2026-11-19/openings/page-147-layout-review/selected-d2-folio/build-proof.swift) are the direct design sources. Approval covers this standalone page and reusable format; new page compositions still need review and book integration remains separate.
+
+Retain the title and page number. Replace old branding lines, section badges, straplines and prose with concise mini-contents using the section's actual topics and page references, retaining established subsection groups where present. Do not invent new groups as established book structure. For page 99, this supersedes the earlier opener's Recognise / Act / Prevent explanation; the guide entries retain their advice labels.
+
+The approved reference geometry is:
+
+| Role | Page 147 source |
+| --- | --- |
+| Page and palette | 185 × 240 mm; warm paper `#fff8e9`, main ink `#173e2c`, display emphasis `#a44007` |
+| Title | Two lines, 45 pt Lilita One, green then deep orange; left 17 mm, top 14 mm |
+| Mini-contents | Two 75.5 mm columns with 9 mm gap, starting 59 mm from top; 16 pt Lilita group headings; 10 pt Nunito Sans entries, weight 400, and folios, weight 700; 13 pt leading |
+| Pictures | Proportionally cropped squares, approximately 29 mm: upper pair 29 mm and lower six 28.8 mm. Scatter in a partial checkerboard with purposeful empty cells, including pictures in the upper-right space. Preserve original files and photographic detail. |
+| Folio | Lower-right Nunito Sans 7.35 pt, weight 900; 8 mm outer and ink-bottom margins; no left section label |
+
+Use this hierarchy and thumbnail scale while varying the selected pictures, their positions and the contents arrangement to fit the new page. Eight pictures and the precise page-147 coordinates are reference choices, not a quota for every opener. Check the actual page at trim size and its contents destinations before presenting a new composition. Other opening pages remain separately scoped; do not remove their useful content or regenerate them as an incidental consequence of this rule.
 
 Shared character comes from colour, typography and illustration language, with
 different information densities. The selected cover permits natural vegetable

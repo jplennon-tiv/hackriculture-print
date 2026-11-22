@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-22",
+  "status": "Approved by John Lennon on 22 November 2026; see APPROVAL.json",
+  "userInstruction": "Can we swop the three thumbnails at the head for P2 for the two at the head of P1? Thanks.",
+  "folioMapping": {
+    "P1": 4,
+    "P2": 5
+  },
+  "headerPictureNumbers": {
+    "4": [
+      6,
+      10,
+      11
+    ],
+    "5": [
+      16,
+      15
+    ]
+  },
+  "lowerPictureNumbers": [
+    8,
+    9
+  ],
+  "pictureSizeMM": 32,
+  "change": "Exchanged header groups; x positions shifted 9 mm for opposite mirrored margins; vertical stagger retained",
+  "proof": "output/pdf/contents-no-category-colours/swapped-headers/Vegetable-Guru-Contents-No-Category-Colours.pdf",
+  "proofSHA256": "8e541f8683d37ace1cf902e53ee22a40925a01ef204ab2dff989d5bb64111324",
+  "sourceCopySHA256": "faa68657a47fcef8f3e0436c997631657298c9b67c7c42de10c50f9e78a04a89",
+  "sourceCopyUnchanged": true,
+  "checks": "All 84 PDF label/destination pairs; zero changed pixels outside header pictures; actual facing spread visually inspected",
+  "visualReview": "Clear title spacing, intact crops, no overlap or clipped text",
+  "scope": "Standalone two-page proof; no book integration or supplier changes"
+}

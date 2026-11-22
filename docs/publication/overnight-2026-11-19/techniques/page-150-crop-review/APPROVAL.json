@@ -1,0 +1,64 @@
+{
+  "date": "2026-11-21",
+  "approved_by": "John Lennon",
+  "folio": 150,
+  "approved_scope": "The exact square Crop rotation & planning proof with the pea and cabbage crops and the new carrot bunch.",
+  "source": "Great - Page 150 is approved.",
+  "proof": {
+    "path": "output/pdf/page-150-review/Vegetable-Guru-Page-150-Square-Photo-Review.pdf",
+    "sha256": "51cb5c00ee2dd47a04bc38fda0b55fc7c85d3fff76c7e6ee938455dec104c211",
+    "pdf_page": 1
+  },
+  "page_content_sha256": "df5c30347903087dcff14f69509d631f727e0fd7ad47bee846bd8691de2e49e0",
+  "artwork_record": "SQUARE-ARTWORK.json",
+  "photos": [
+    {
+      "crop": "Peas",
+      "master": "generated_images/exec-f9517289-97e8-4382-9874-4c9fd7adef00.png",
+      "master_sha256": "b01ac3a176b942611bf9dbfe00df9f7981b53c596c385d0e593c39245fd385a8",
+      "square_crop_xy_side_px": [
+        0,
+        385,
+        1024
+      ],
+      "rectangle_xywh_points": [
+        190.125,
+        449.67,
+        67.5,
+        67.5
+      ]
+    },
+    {
+      "crop": "Cabbages",
+      "master": "generated_images/exec-0a84ba14-c49c-4943-80b4-766ca8dc1abc.png",
+      "master_sha256": "85951c84f77483cdccf6f0d4538fe9049a9e45c7169a0a30b2b4d3403606202f",
+      "square_crop_xy_side_px": [
+        0,
+        245,
+        1024
+      ],
+      "rectangle_xywh_points": [
+        289.5,
+        449.67,
+        67.5,
+        67.5
+      ]
+    },
+    {
+      "crop": "Carrots",
+      "master": "docs/publication/overnight-2026-11-19/techniques/page-150-crop-review/Carrots-Square.png",
+      "master_sha256": "79fcfc2743dbd43bade81031694bc5499cc676dc42e320610c66606852d13e4e",
+      "square_crop_xy_side_px": [
+        0,
+        0,
+        1254
+      ],
+      "rectangle_xywh_points": [
+        388.5,
+        449.67,
+        67.5,
+        67.5
+      ]
+    }
+  ]
+}

@@ -13,12 +13,7 @@ entry point for current decisions, component status, outstanding work and
 publication/automation boundaries. It distinguishes approved designs from
 working book proofs and historical evidence. Follow John's latest instruction.
 
-**Latest state, 18 November:** John completed the [cream cover design with the original gold Organic ribbon](docs/publication/cover-versions/version-1-1/selected-gold-cover/README.md). The [garden media catalogue](docs/assets/garden-media-library/README.md) supplies references for a skill to generate new photorealistic artwork for the fixed Growing Techniques pages. The introduction is installed at page 7. The 44 approved vegetable spreads and variety additions still await integration.
-[Current scope and exact sources](docs/handover/START-HERE.md#resume-here)
-· [Copy-and-paste handover](docs/handover/NEXT-SESSION.md).
-The authorised cleanup removed 12.35 GB of temporary/legacy files; print is now
-about 21.08 GB. Data, both Git histories, approved sources and optional video
-caches were preserved. [Completed cleanup](docs/maintenance/storage-audit/README.md).
+**Latest state, 22 November:** the [authorised integration pass](docs/publication/whole-book-order-preview/README.md) is complete: approved photographic openings and Techniques, all 44 latest vegetable guides and variety additions, and selected gold cover panels are in the current 176-page interior / 180-page screen book. Page 164's caption is removed, page 170's canes corrected and page 156's full-resolution approved panorama restored. Final resolution decisions remain for the title tomato and two cover raster placements; supplier work remains separate.
 
 **Assembled book baseline, 3 November:** the approved [Lifting and using turf page](docs/publication/topic-pages/lifting-and-using-turf/README.md)
 is integrated after Digging at **162**, with updated contents, index, numbering
@@ -96,16 +91,15 @@ in this and future sessions. Its maintained source is shared across the data,
 print, website and video projects.
 
 The [current full preview](docs/publication/whole-book-order-preview/REVIEW.html)
-contains **176 interior pages plus four cover leaves: 180 PDF pages**, imperial.
+contains **176 interior pages plus four cover leaves: 180 PDF pages**, Traditional measurements edition.
 The October reader edits, expanded Crop rotation & planning, the nutrient page
 and John's Growing Techniques headings, Netting and Supports are integrated. Its two internal
 blank pages have been removed. All 44 vegetables remain two-page facing guides. Contents, index and
 page references are refreshed; editing annotations are absent. The approved Troubles highlights remain intentional. Canonical advice is unchanged; the previously approved 24 star flags are retained. [Current page map and evidence](docs/publication/whole-book-order-preview/README.md).
 
 The opening sequence is title, publication, blank 3, facing contents 4–5,
-blank 6, Introduction 7, blank 8 and combined Guides/how-to at 9. Troubles and
-Techniques start on right-hand pages 99 and 147. G2 front, B5 back and approved
-publication/back-cover copy are retained in that assembled baseline, with missing metadata left as placeholders. They are historical cover references; the selected cream Version 1-1 front has not been integrated into the book or sent to the supplier.
+blank 6, Introduction 7, blank 8 and the approved Guides index/calendar at 9. Troubles and
+Techniques start on right-hand pages 99 and 147. The selected gold cover panels are included for screen review. Publication metadata remains as placeholders; final supplier files are separate. G2/B5 remain historical references.
 Exact component sources are in the [asset registry](docs/assets/README.md).
 The older [technical pack](docs/publication/book-preparation/REVIEW.html) is
 historical evidence, not the current complete book or a current production specification.
@@ -117,8 +111,7 @@ browser-rendered PDFs need this server. Normal exports use no AI service.
 Detailed startup and check commands are in [SETUP.md](SETUP.md).
 
 The current index has 307 entries and 36 see references on pages 172–175.
-Contents retain two simple illustrated pages with 85 destinations and no extra
-subheadings. [Contents notes](docs/publication/contents-update/README.md) and
+Contents use the approved photographic pages with 84 entries, one Vegetable Guides section heading and no category colours/key. [Contents notes](docs/publication/contents-update/README.md) and
 [index notes](docs/publication/book-index/README.md) distinguish current derivatives
 from frozen approvals.
 

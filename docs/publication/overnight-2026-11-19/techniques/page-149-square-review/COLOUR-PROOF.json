@@ -1,0 +1,84 @@
+{
+  "folio": 149,
+  "source_proof": "output/pdf/page-149-review/preview/Vegetable-Guru-Page-149-Photo-Review.pdf",
+  "source_proof_sha256": "6d885f37bb4e701c08e3ae60c3ddb66a5431793d65464e05deb8f840900bb3d1",
+  "colour_proof": "output/pdf/page-149-review/colour/Vegetable-Guru-Page-149-Colour-Proof.pdf",
+  "colour_proof_sha256": "ab26fe00869aebed376f0f86440eb46332afbc5f5147daad2cbf5ce1e70222f5",
+  "status": "approved by John on 2026-11-21",
+  "method": "per-image RGB decode ranges on the compact PDF; embedded JPEG streams are unchanged",
+  "exact_page_text_trim_and_paint_stream_verified": true,
+  "raster_comparison_dpi": 144,
+  "unchanged_pixels_outside_photos_in_both_renderers": true,
+  "per_image_max_mean_channel_delta": {
+    "PDFium": [
+      9.0,
+      7.3,
+      17.0
+    ],
+    "Ghostscript": [
+      9.0,
+      7.3,
+      17.0
+    ]
+  },
+  "images": [
+    {
+      "slot": 1,
+      "rgb_decode_ranges": [
+        0.036,
+        1.0,
+        0.042,
+        0.992,
+        0.052,
+        0.994
+      ],
+      "luma_p10_p50_before": [
+        43.3,
+        92.9
+      ],
+      "luma_p10_p50_after": [
+        51.3,
+        98.6
+      ]
+    },
+    {
+      "slot": 2,
+      "rgb_decode_ranges": [
+        0.047,
+        0.99,
+        0.05,
+        0.989,
+        0.055,
+        0.99
+      ],
+      "luma_p10_p50_before": [
+        41.6,
+        100.9
+      ],
+      "luma_p10_p50_after": [
+        51.3,
+        107.0
+      ]
+    },
+    {
+      "slot": 3,
+      "rgb_decode_ranges": [
+        0.112,
+        1.0,
+        0.086,
+        0.997,
+        0.061,
+        0.964
+      ],
+      "luma_p10_p50_before": [
+        29.5,
+        95.1
+      ],
+      "luma_p10_p50_after": [
+        49.0,
+        108.5
+      ]
+    }
+  ],
+  "approval_record": "APPROVAL.json"
+}

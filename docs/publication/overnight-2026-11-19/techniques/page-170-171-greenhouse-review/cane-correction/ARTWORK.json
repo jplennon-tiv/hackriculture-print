@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-22",
+  "status": "Approved by John Lennon on 22 November 2026",
+  "user_request": "The growbags on the left have two extra canes slightly to the left which appear out of nowhere. Please remove them, leaving just the two canes coming from the bags.",
+  "source": {
+    "file": "docs/publication/overnight-2026-11-19/techniques/artwork/170-pots-and-growbags.jpg",
+    "sha256": "563a38ed8a67f36be4e8c79bfc19cc82bd0be3fa760971e03ca1207b1635caef"
+  },
+  "generation": {
+    "tool": "image_gen.imagegen",
+    "prompt": "PROMPT.txt",
+    "referenced_image_paths": [
+      "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/overnight-2026-11-19/techniques/artwork/170-pots-and-growbags.jpg"
+    ],
+    "generated_master": "generated_images/exec-64e50411-7757-4382-977d-1154eb3e25c2.png",
+    "generated_master_sha256": "27de2c87ca115a672da0b1de5f2f67de949474b956d9b73834cd07f6a8f6c9f0"
+  },
+  "output": {
+    "file": "docs/publication/overnight-2026-11-19/techniques/page-170-171-greenhouse-review/cane-correction/Greenhouse-Pots-and-Growbags-Two-Canes.png",
+    "sha256": "27de2c87ca115a672da0b1de5f2f67de949474b956d9b73834cd07f6a8f6c9f0",
+    "pixels": [
+      1536,
+      1024
+    ]
+  },
+  "visual_check": "The two leftmost stray canes are removed. Two tall supports remain above the growbags. The greenhouse layout, staging, pots, plants and paved aisle remain recognisable; no demonstrators are present. This is a generated local correction, not a pixel-exact restoration.",
+  "placement": "Standalone revised image only; the previously displayed spread and source PDF still contain the pre-correction picture.",
+  "approval_scope": "This corrected standalone image is approved in APPROVAL.json. Images 2 and 3 are approved separately in ../APPROVAL.json. Full-book and supplier work remain separate."
+}

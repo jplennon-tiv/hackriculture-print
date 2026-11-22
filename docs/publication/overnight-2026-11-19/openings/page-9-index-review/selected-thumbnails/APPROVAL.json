@@ -1,0 +1,110 @@
+{
+  "date": "2026-11-22",
+  "approved_by": "John Lennon",
+  "source": "Good work - approved.",
+  "status": "approved",
+  "folio": 9,
+  "proof": {
+    "file": "output/pdf/page-9-index-review/selected-thumbnails/Vegetable-Guru-Page-9-Index-Proposal.pdf",
+    "sha256": "4b9fe4962329b9190a497e4be93d5ec0d3efb2d681d7dbda1edbfb6a60d7886d",
+    "pages": 1,
+    "trimMM": [
+      185,
+      240
+    ]
+  },
+  "render": {
+    "file": "docs/publication/overnight-2026-11-19/openings/page-9-index-review/selected-thumbnails/Page-9-Selected-Thumbnails.png",
+    "sha256": "089066398ccc8df7d8934708d072aaab81dc5bc8467498792ee825995fb22160"
+  },
+  "placements": [
+    {
+      "number": 8,
+      "crop": "Sweet pepper",
+      "xMM": 111,
+      "yMM": 12,
+      "sizeMM": 29
+    },
+    {
+      "number": 15,
+      "crop": "Onion",
+      "xMM": 148,
+      "yMM": 26,
+      "sizeMM": 29
+    },
+    {
+      "number": 2,
+      "crop": "Pea",
+      "xMM": 78.2,
+      "yMM": 34,
+      "sizeMM": 29
+    }
+  ],
+  "selectedPool": [
+    2,
+    5,
+    8,
+    11,
+    15,
+    16
+  ],
+  "copy": {
+    "file": "docs/publication/overnight-2026-11-19/openings/page-9-index-review/selected-thumbnails/PANEL-COPY.json",
+    "sha256": "10e2e315b2ff3321fc8880623f7b85253be5c019f26fd72d0bdb23d763ad0d74"
+  },
+  "builder": {
+    "file": "docs/publication/overnight-2026-11-19/openings/page-9-index-review/selected-thumbnails/build-proof.swift",
+    "sha256": "db599639c8905502f2589761b4e95bc096590bb3f18ed1353b2f8e709213c6f0"
+  },
+  "delivery": {
+    "date": "2026-11-22",
+    "file": "/Users/johnlennon/Documents/web_site/hackriculture-print/output/pdf/page-9-index-review/selected-thumbnails/Vegetable-Guru-Page-9-Index-Proposal.pdf",
+    "library_file_id": "libfile_fde3_f-d4ba6ad38d2c8191aa597255b49eb66f_968f6e806ba48191b80ffb1b7a35f663",
+    "current_version_number": 3,
+    "xattrsApplied": true
+  },
+  "limits": [
+    "Approval covers this exact standalone page. Full-book integration and supplier work remain separate tasks for John’s approval."
+  ],
+  "artworkSources": [
+    {
+      "number": 2,
+      "title": "Pea",
+      "file": "docs/publication/overnight-2026-11-19/openings/page-9-thumbnail-review/thumbnails/02-pea.png",
+      "sha256": "e381a86b7ffecf2dc57476bc0a66a554766091e982a156a05c7dce1b6dfcaf98",
+      "crop": {
+        "left": 316,
+        "top": 2,
+        "width": 309,
+        "height": 310
+      },
+      "kind": "New generated photographic study; not camera evidence"
+    },
+    {
+      "number": 8,
+      "title": "Sweet pepper",
+      "file": "docs/publication/overnight-2026-11-19/openings/page-9-thumbnail-review/thumbnails/08-sweet-pepper.png",
+      "sha256": "fd868c1b816b096305b604cbabec9e643c5e09203c8edf0fe07e453a14af01af",
+      "crop": {
+        "left": 943,
+        "top": 316,
+        "width": 309,
+        "height": 309
+      },
+      "kind": "New generated photographic study; not camera evidence"
+    },
+    {
+      "number": 15,
+      "title": "Onion",
+      "file": "docs/publication/overnight-2026-11-19/openings/page-9-thumbnail-review/thumbnails/15-onion.png",
+      "sha256": "ac48ba601062c8e9f9ed511d2d805f3e9c267996e00b296bd27d098cb0e88db0",
+      "crop": {
+        "left": 629,
+        "top": 943,
+        "width": 310,
+        "height": 309
+      },
+      "kind": "New generated photographic study; not camera evidence"
+    }
+  ]
+}

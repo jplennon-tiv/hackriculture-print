@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-22",
+  "status": "Revised page awaiting review; new thumbnail selection pending",
+  "pdf": {
+    "file": "output/pdf/page-9-index-review/calendar-text-revision/Vegetable-Guru-Page-9-Index-Proposal.pdf",
+    "sha256": "1e6a88d7c9c94c93521765452663f63f84882baaad7cefd0252bc124421aa617",
+    "pages": 1,
+    "trimMM": [
+      185,
+      240
+    ]
+  },
+  "render": {
+    "file": "docs/publication/overnight-2026-11-19/openings/page-9-index-review/calendar-text-revision/Page-9-Expanded-Calendar.png",
+    "sha256": "b43c06a7afe68a1a2ea60b03231f97754cef2bd7985358729ebaf8a0f3c4f0c8"
+  },
+  "copy": {
+    "userTextPreserved": true,
+    "onlySpellingCorrection": "veriety → variety",
+    "oldIntroRemoved": true,
+    "oldBottomBlockRemoved": true,
+    "replacementExtractedExactly": true,
+    "exampleAndColourKeyUnchanged": true
+  },
+  "layout": {
+    "panelMM": [
+      17,
+      160,
+      160,
+      66
+    ],
+    "indexCalendarGapMM": 10.134706621805833,
+    "indexEntries": 44,
+    "indexFontPt": 10.5,
+    "panelBodyPt": 10.5,
+    "photos": "Three original placeholders unchanged pending selection",
+    "intentionalReflow": "Panel reduced to 66 mm high and remains bottom-aligned; index starts at 72 mm with 15 pt row spacing."
+  },
+  "verification": {
+    "boundsClear": true,
+    "collisionsClear": true,
+    "visualReview": "Full rendered page inspected: removed heading and old introductory paragraph absent; new user paragraph, chart, key, all index columns, photographs and folio visible. No new image selection applied."
+  },
+  "scope": "Standalone copy/layout revision only; no shared JSON edit, guide regeneration, full-book integration or supplier work."
+}

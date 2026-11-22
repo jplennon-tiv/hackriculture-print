@@ -1,0 +1,98 @@
+{
+  "date": "2026-11-22",
+  "folio": 147,
+  "status": "Four layout proposals for John to choose; no final layout approval",
+  "selectedThumbnailPool": [
+    3,
+    4,
+    5,
+    6,
+    12,
+    13,
+    15,
+    16
+  ],
+  "selectionRecord": "../page-147-thumbnail-review/SELECTION.json",
+  "pdf": {
+    "file": "output/pdf/page-147-layout-review/Vegetable-Guru-Page-147-Layout-Options.pdf",
+    "sha256": "698db63f401db671ddc3c5374ec7bdd80736896b403aa7da0aa83e5831f84080",
+    "pages": 4,
+    "order": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "trimMM": [
+      185,
+      240
+    ]
+  },
+  "comparison": {
+    "file": "docs/publication/overnight-2026-11-19/openings/page-147-layout-review/Vegetable-Guru-Page-147-Layout-Comparison.png",
+    "sha256": "e14e7301dcbf436827d9cbaabde6bf9fb00bcca9e4c54bd2b5ab82c8991554ec"
+  },
+  "sources": [
+    "CONTENTS.json",
+    "../page-147-thumbnail-review/THUMBNAILS.json"
+  ],
+  "layoutChanges": "Removed all original page text except Growing Techniques, including the small section badge, brand line, lead, description, lower strapline and folio. Added six established subsection groups, 19 topic entries and page references covering 148–171 exactly once.",
+  "photoHandling": "Selected source files retained unchanged. Layout derivatives use proportional central square crops, with no stretching, retouching or regeneration.",
+  "verification": "All four final PDF pages rendered and visually inspected. Local Lilita One and Nunito Sans used. All topic and group titles extracted. Text glyph and photo bounds have no collisions and stay within content safety. The original divider was inspected for source comparison. No whole-book or supplier work.",
+  "options": [
+    {
+      "letter": "A",
+      "name": "Checkerboard above",
+      "photos": [
+        "photo-03",
+        "photo-06",
+        "photo-13",
+        "photo-04",
+        "photo-12",
+        "photo-16"
+      ],
+      "contentBottomMM": 205.11233865169953
+    },
+    {
+      "letter": "B",
+      "name": "Contents beside photos",
+      "photos": [
+        "photo-03",
+        "photo-12",
+        "photo-15",
+        "photo-05",
+        "photo-13",
+        "photo-04",
+        "photo-16"
+      ],
+      "contentBottomMM": 224.602339043579
+    },
+    {
+      "letter": "C",
+      "name": "Six photo-led groups",
+      "photos": [
+        "photo-12",
+        "photo-05",
+        "photo-04",
+        "photo-06",
+        "photo-13",
+        "photo-03"
+      ],
+      "contentBottomMM": 218.46389448716909
+    },
+    {
+      "letter": "D",
+      "name": "Checkerboard at the foot",
+      "photos": [
+        "photo-03",
+        "photo-12",
+        "photo-15",
+        "photo-05",
+        "photo-13",
+        "photo-16"
+      ],
+      "contentBottomMM": 220.33333333333334
+    }
+  ],
+  "delivery": "DELIVERY.json"
+}

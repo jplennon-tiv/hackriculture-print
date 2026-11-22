@@ -1,119 +1,52 @@
 # Current complete book preview
 
-Updated **15 November 2026**. [Browse the book](REVIEW.html) or [open the PDF](../../../output/pdf/whole-book-order-preview/the-vegetable-guru-order-preview.pdf).
-The [approved personal introduction](../introduction-revision/APPROVAL.json) is now installed at page 7, including the 1991 garden photograph. [Focused installation checks](integration-2026-11-15-introduction/INTEGRATION-CHECKS.json) confirm the other 179 pages and all navigation are retained.
+Updated **22 November 2026**. John authorised the approved-page integration pass. [Browse the book](REVIEW.html) · [browsing PDF](../../../output/pdf/whole-book-order-preview/Vegetable-Guru-Updated-Book-Review.pdf) · [full-resolution native PDF](../../../output/pdf/whole-book-order-preview/the-vegetable-guru-order-preview.pdf).
 
-The imperial book contains **176 interior pages plus four cover leaves: 180 PDF pages**.
-The approved contents reflow and requested sentence-case Pests & diseases labels
-and Key risks headings are integrated. John has [approved all these recent changes](../key-risk-title-case/APPROVAL.json). The turf page follows Digging at 162, with refreshed contents, index,
-folios, bookmarks and internal links. The approved pH page and guide intro remain
-integrated. The promotional project is complete; ordered Bookvault files are unchanged.
+The Traditional measurements edition contains **176 interior pages plus four cover leaves: 180 PDF pages**. All 44 latest approved vegetable-guide pairs, including thirteen variety-addition derivatives, are installed alongside the approved photographic opening pages and Growing Techniques. No guide was re-exported. The selected gold cover panels replace the old G2/B5 screen placeholders; the original wrap and supplier files are unchanged.
 
-**Later approved work, 10 November:** all 44 revised vegetable spreads and the
-[complete variety-addition set](../variety-additions/README.md) are approved in
-both units, in separate focused proofs. This assembled PDF has **not** been
-updated with those November guide revisions. Preserve it as the current assembled
-baseline; later integration must select the latest approved derivative for each
-crop rather than re-exporting the old catalogue. Cover artwork and supporting
-copy are the next focus; see the [handover](../../handover/START-HERE.md#resume-here).
-The authorised cleanup preserved this PDF, its frozen assembly inputs and current
-sources; retired legacy exports must not be regenerated as routine startup.
+[Integration receipt](integration-2026-11-22/INTEGRATION-CHECKS.json) · [exact source manifest](integration-2026-11-22/SOURCES.json) · [page map](PAGE-MAP.json).
 
-## Current placement
+## Installed updates
 
-| Interior pages | Content |
+| Printed pages | Current approved source or treatment |
 | --- | --- |
-| 1–2 | Title and publication details |
-| 3 | Blank |
-| 4–5 | Coloured contents with pale category key |
-| 6–7 | Blank / approved personal Introduction |
-| 8–9 | Blank / approved three-panel Vegetable Guides and how-to |
-| 10–97 | All 44 vegetables, alphabetical, two facing pages each |
-| 98–99 | Blank / Vegetable Troubles opener |
-| 100–146 | Fourteen Troubles guides, 220 conditions and 24 highlights |
-| 147 | Growing Techniques opener |
-| 148–149 | Organic growing / Nutrient cycles |
-| 150–151 | Crop rotation & planning |
-| 152 | Organic growing / Testing and adjusting pH |
-| 153 | Planning your plot: Choosing the right spot |
-| 154–155 | Beds and paths / continued |
-| 156–157 | Compost |
-| 158–159 | Cultivation: Dig or No-Dig? / No-Dig |
-| 160–161 | Cultivation: Digging / Digging continued |
-| 162 | Cultivation: Lifting and using turf |
-| 163 | Sowing and planting |
-| 164–165 | Netting |
-| 166–167 | Supports |
-| 168 | Watering |
-| 169–171 | Greenhouses |
-| 172–175 | Index |
-| 176 | End balancing blank |
+| 1 | Title option 01: large tomatoes, medium chard and three thumbnails; Traditional measurements edition; no branding/imprint line |
+| 2 | Existing publication page, with the measurement-edition prefix removed; metadata placeholders retained |
+| 4–5 | Seven 32 mm photographic thumbnails, swapped upper groups, 84 contents entries and plain folios; category colours/key removed |
+| 7 | Approved two-thumbnail Introduction; exact text and 1991 photograph retained |
+| 9 | Approved 44-entry vegetable index with the expanded calendar panel and selected photographs |
+| 10–97 | All 44 latest approved vegetable-guide pairs, including the thirteen variety derivatives |
+| 99 | Approved Vegetable Troubles option D |
+| 100–146 | Fourteen accepted illustrated Troubles guides, 220 conditions and 24 highlights, retained |
+| 147 | Approved Growing Techniques D2 opener with restored folio |
+| 148–171 | Approved photographic Techniques, including latest 149–153, 160, 164, 168 and 170–171 approvals |
+| 156 | Exact approved 3760 × 1256 compost panorama restored in place of the reduced proof image |
+| 164 | Redundant caption removed, with no replacement |
+| 170 | Exact approved corrected image with the two growbag supports |
+| 172–175 | Existing four-page index, 307 entries and 36 see references, retained |
 
-PDF page = interior folio + 2. Openers remain right-hand pages 9, 99 and 147.
-The pH page completes Organic growing. The turf page follows Digging, facing
-Sowing at 163. Watering follows Supports at 168, preserving the accepted Netting
-164–165 and Supports 166–167 facing spreads without an internal blank. Beds,
-Compost and each original Cultivation pair also face. Greenhouses opens on recto
-169, followed by its practical facing spread 170–171. The index occupies two
-spreads, 172–175, with blank 176 balancing the end.
-Bodies on changed page sides are shifted 9 mm to preserve mirrored 17/8 mm margins;
-text, art and type sizes are retained.
+Page 151 uses the revised winter kale and 168 the fresh camera-grounded watering redraw. Earlier approved photos on 154–159 and 161–167 are retained. The nutrient loop at 148 and measured greenhouse plan at 169 remain intentional diagrams. Guide and Troubles body artwork remains illustrated.
 
-## Integrated sources and scope
+PDF page = interior folio + 2. Blanks 3, 6, 8, 98 and 176 remain. Openers 9, 99 and 147 remain on right-hand pages; all 44 vegetable pairs and Techniques facing spreads retain their approved placement. The selected cover panels are review leaves, not a new print wrap.
 
-- [Lifting and using turf approval](../topic-pages/lifting-and-using-turf/APPROVAL.json): exact copy, two raster illustrations and labelled vector soil section, now 162. The [guarded book-copy save](integration-2026-11-03/BOOK-COPY-UPDATE.json) adds the contents destination and four index entries, plus three references in existing entries.
+## Checks and remaining print decisions
 
-- [Testing and adjusting pH approval](../topic-pages/soil-acidity/APPROVAL.json): exact one-page PDF, both illustrations, accepted copy and type, now 152.
-- [Guide intro approval](../guides-intro-detail/APPROVAL.json): exact three-panel page at 9; calendar text and headings synchronised through the [guarded save](integration-2026-11-02/BOOK-COPY-UPDATE.json).
-- [Complete Troubles approval](../troubles-rollout/APPROVAL.json): 220 conditions, 24 separated classified ribbons, larger masked drawings, 4 mm clearance, importance order and natural trailing space. Potato slugs remain unstarred.
-- [Category names](../category-navigation-preview/APPROVAL.json) remain 10 pt on all 88 vegetable pages; original bodies and art are retained.
-- [Coloured contents/key](../contents-colour-study/key-preview/APPROVAL.json) remain at 4–5. The [approved 3 November reflow](../contents-key-reflow/APPROVAL.json) places H6 below the left column and the pale key full width in four columns of two. Original 2 px row padding is restored; 10.5 pt type, art and all **85 destinations** remain.
-- [Problem-label correction](../pest-title-case/README.md): sentence case for 277 printed labels on 44 practical pages; original embedded font and all other text/art preserved. The guarded canonical correction covers 350 keys across 44 vegetables; advice and identities are unchanged.
-- [Key risks heading correction](../key-risk-title-case/README.md): 157 headings across all 44 opening pages use the same sentence case, preserving original type, line breaks, icons, descriptions and positions. No further source JSON changed.
-- [Netting](../topic-pages/plant-protection-supports/netting/APPROVAL.json) and [Supports](../topic-pages/plant-protection-supports/supports/APPROVAL.json) retain their exact approved bodies.
-- Earlier approved reader edits, expanded rotation, nutrients, Organic growing/Beds copy, Cultivation headings and digging order remain included. Selected G2 front and preferred B5 back remain.
+- All **110 bound source files** remain byte-for-byte unchanged. **174 page content streams** are exact native reuse; the remaining changes are two cropped cover panels, the publication-label removal, caption removal and two exact approved image replacements.
+- All **180 pages** were rendered and compared between native and browsing PDFs. All **178 non-cover leaves** were compared with their exact approved sources: zero changed pixels outside the four intentional edit regions. Six contact sheets covering openings, all 88 guide pages, all 25 Techniques pages, covers and index were visually inspected.
+- **662 internal links** match expected targets, including **84 contents links** and **77 new mini-contents links**. There are **90 bookmarks** after removing one duplicate baseline entry. Index/body destinations are preserved; no new index curation was performed.
+- The full-resolution native book is about **820 MB**. The approximately **148 MB browsing copy** keeps native text, page geometry and navigation while reducing RGB images to a maximum 1200 pixels. Use the native book for source-resolution inspection.
+- The [placed-resolution inventory](integration-2026-11-22/IMAGE-RESOLUTION.json) covers **796 visible image placements**. At the 200 dpi review threshold, three substantial placements remain flagged: **title-page tomato 162 dpi; front cover 151 dpi; back-cover background 151 dpi**. This threshold is a review aid, not supplier approval. The restored compost panorama is about 429 dpi. No artificial upscaling or new artwork was used.
 
-The separate [sixteen vegetable wording proposals](../soil-acidity-crop-edits/DIFF.html)
-are **not approved or integrated**. The page-7 Introduction rewrite is approved and installed; collected corrections remain open. Metadata placeholders remain. The requested case-only
-source correction is recorded above; no guide catalogue export, supplier upload
-or publication action was performed.
+[Final verification](integration-2026-11-22/FINAL-VERIFICATION.json) · [Native checks](integration-2026-11-22/NATIVE-CHECKS.json) · [render comparisons and inspection](integration-2026-11-22/VISUAL-CHECKS.json) · [browsing-copy checks](integration-2026-11-22/READING-COPY.json) · [navigation](NAVIGATION-PDF-CHECKS.json) · [sequence](SEQUENCE-CHECKS.json).
 
-## Navigation and verification
+The current picture-selection/page-design review and integration are complete. Overall image production is not declared complete while the title/cover resolution decisions remain. The conditional print-colour reminder is still pending. Metadata placeholders, final colour/print preparation, revised spine/template and supplier approval remain separate. The prior accepted physical proof was a 168-page production edition; this no-bleed screen PDF must not be uploaded as the print interior.
 
-The index has **307 entries and 36 see references**, still four pages at **9.45 pt** and 1.28 line spacing. The current derivative
-removes the former 0.3 CSS px extra paragraph gap to accommodate the new entries;
-no terms or reading type are reduced.
-Six new pH/lime terms point to 152; Clubroot and Common scab also link to its cautions.
-Turf, Loam and Lawn entries point to 162, with Grass referring to Lawn; existing
-Double digging, potting mix and new-plot weeds entries gain the same destination.
-Condition locators verify exact headings in the accepted Troubles PDFs. Both unit
-maps agree. Crop links follow explicit mentions in destination pages.
+The in-chat upload attempt failed before tool discovery; the local browsing PDF and viewer are complete. [Delivery record](integration-2026-11-22/DELIVERY.json).
 
-[Checks](CHECKS.json), [page map](PAGE-MAP.json), [navigation checks](NAVIGATION-PDF-CHECKS.json),
-[sequence](SEQUENCE-CHECKS.json) and [visual review](VISUAL-REVIEW.json) describe this PDF.
-The [integration receipt](integration-2026-11-03/INTEGRATION-CHECKS.json) verifies
-reused glyphs, type, text colours and image counts against exact sources, allowing
-only calculated mirrored-margin shifts, approved header/footer overlays and three
-bounded numeric-reference replacements. All links and embedded fonts are checked.
-All 58 canonical records remain unchanged during assembly, after the requested
-case-only source correction. Frozen source proofs remain intact.
+## Rebuild deliberately
 
-The accepted physical proof was the earlier 168-page production edition. This
-screen PDF is suitable for book review and video-page material; it is not a supplier
-upload and does not establish final spine geometry or publication readiness.
+`npm run book:preview` now uses the frozen 22 November manifest **offline**, without Vite, canonical JSON writes or guide catalogue export. It verifies source hashes, assembles approved native pages, creates the browsing derivative, audits resolution, compares rendered pages and installs the checked result. Actual changed renders still require visual inspection; a rebuild resets that status to pending.
 
-## Rebuilding after an authorised change
+The first manifest preparation is already complete. Do not rerun `prepare-approved-integration-2026-11-22.py` against the new book or run older contents/index/assembly workflows over the approved pages. For new changes, first bind the separately approved source deliberately. Installation rejects an unrecognised current-book hash. Native candidates are written atomically so the installed book survives failed rebuilds.
 
-Start Vite through `start.command` on loopback, then run `npm run book:preview`.
-The route builds both contents editions, resolves the index, creates category and
-footer overlays, reuses approved native bodies, verifies navigation and refreshes
-the facing-page viewer. It never exports the guide catalogue. Inspect affected
-pages and update the visual receipt after a rebuild.
-
-The turf, pH and guide-intro focused builders refuse to overwrite their approved inputs.
-For later changes, use separate review paths. Existing frozen/A4/production sources
-and dated receipts remain evidence, not instructions to rerun old proposals.
-
-The [promotional slides handover](../../handover/PROMOTIONAL-SLIDES.md) records the
-completed separate project; its frozen source pack is historical and is not rebuilt
-by book integration.
+The [prior complete book](integration-2026-11-22/before-book.pdf), its six metadata records and every approved component proof are preserved. The earlier [15 November introduction integration](integration-2026-11-15-introduction/INTEGRATION-CHECKS.json) and [3 November assembly](integration-2026-11-03/INTEGRATION-CHECKS.json) remain historical evidence. Supplier files, canonical gardening data and the completed promotional project are unchanged.

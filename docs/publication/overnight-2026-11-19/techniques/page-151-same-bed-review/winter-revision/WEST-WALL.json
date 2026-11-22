@@ -1,0 +1,51 @@
+{
+  "folio": 151,
+  "status": "For John's review",
+  "proof": "output/pdf/page-151-review/Vegetable-Guru-Page-151-West-Wall-Review.pdf",
+  "proof_sha256": "c2d3a5c55edf1e88d088de3aea913fcc88b7ff77c76a4cf761d383ff5e11612b",
+  "page_image": "output/pdf/page-151-review/Vegetable-Guru-Page-151-West-Wall-Review.png",
+  "previous_proof": "output/pdf/page-151-review/Vegetable-Guru-Page-151-Winter-Review.pdf",
+  "previous_proof_sha256": "eacac05213e7143acbb8a1a6707bee2b9f72de0337758b47f2fc227387083f9d",
+  "original_kale_master": "docs/publication/overnight-2026-11-19/techniques/page-151-same-bed-review/winter-revision/Cavolo-Nero-Early-Winter.png",
+  "cane_removal_intermediate": "generated_images/exec-d2c84b97-7d2e-4126-812d-965b9db83c95.png",
+  "cane_removal_sha256": "1f5a0443ea827f998cccbb305b25ef840ac640e326ffff4bf4b666b897d8be1e",
+  "master": "docs/publication/overnight-2026-11-19/techniques/page-151-same-bed-review/winter-revision/Cavolo-Nero-Early-Winter-West-Wall.png",
+  "master_sha256": "40c0f23eeb598b7f1a553f2a4e58ca1eae1d3a180ea0a835464e096327ec058b",
+  "original_generated_master": "generated_images/exec-5c3cb5a4-6118-42bb-bc68-ab40374da3ee.png",
+  "placement_xywh_points": [
+    153.0,
+    502.92,
+    54,
+    54
+  ],
+  "square_frame_mm": [
+    19.05,
+    19.05
+  ],
+  "facing_approved_proof": {
+    "path": "output/pdf/page-150-review/Vegetable-Guru-Page-150-Square-Photo-Review.pdf",
+    "sha256": "51cb5c00ee2dd47a04bc38fda0b55fc7c85d3fff76c7e6ee938455dec104c211",
+    "pdf_page": 1
+  },
+  "unchanged_decoded_broad_beans_image": true,
+  "matching_text_and_pdf_page_content": true,
+  "matching_pixels_outside_kale_frame_at_172_8_dpi": true,
+  "removal_prompt": "Precise inpainting, object removal only, on the supplied 1:1 full-bleed early-December photograph of John's allotment. REMOVE THE FIVE TALL BAMBOO CANES used temporarily for the preceding broad bean bed. They are the five long, light tan poles that reach the top edge or run very high through the sky, passing in front of the far hedge. Their approximate horizontal positions at the top edge are 41%, 53%, 63%, 74%, and 90%; some lean diagonally along their lengths. Remove every visible section of those exact five poles, down to the ground or occlusion by kale. Fill only the narrow former cane silhouettes with the immediately adjoining pale grey sky, branches, hedge, grass or soil appropriate to each segment. Keep the short dark supports and the low horizontal mesh in the neighbouring background bed, the fine distant utility wires, and any twiggy plants. The crop, leaf shape, scars, insect holes, shadows, damp soil, shed, black water butt, brick path, season, focus, camera angle, exposure, fixed square framing and all other scene detail must remain as close to the input as possible. Do not place any new supports. Return just one matching 1:1 image with those five long poles gone.",
+  "viewpoint_prompt": "Make one precise, subtle change to this exact real-looking early-December photograph of mature Cavolo Nero growing in John's Cornish allotment. Rephotograph this same scene at the same moment from an ALMOST IDENTICAL nearby handheld viewpoint: the camera operator has stepped only about one brick's width farther to the right on the paved path, and turns the lens very slightly left towards the foreground kale. Approximately three to five degrees difference in horizontal viewing angle. Keep the camera height, focal length, image scale, time, lighting and full-bleed 1:1 square composition. It must look like a neighbouring frame, with small physically plausible parallax: the paver lines and view of the near side of the first kale read at a subtly different angle while the path still follows the right edge and the pale-green shed and cropped black water butt remain at the far right, almost the same size. The three actual plants remain at their same real bed positions with their exact natural uneven layout, drooping leaves, picked-leaf scars, small hole and the yellowing lower leaf. Preserve the close weathered leaf detail and all seasonal cues. Maintain the late-season grey sky, damp soil, scattered fallen leaves, hedge, roofs and neighbour's low mesh. The five obsolete tall bamboo canes are already gone: keep the skyline, hedge and bed free of those tall canes. No new objects, plants, camera-style effects, seasonal changes, reframing or full-face shift. Keep the change distinctly incremental, natural and visible in the perspective of the pavers and the foreground kale. One square photograph, edge to edge.",
+  "wall_prompt": "Make one precise, local BACKGROUND correction to image 1, the established square December kale view on John's allotment. Keep the first image's small handheld viewpoint shift, kale plants and their full detail, soil, narrow pavers, shed, black water butt, overcast winter light, distant roofline and neighbouring low mesh exactly in place. The prior broad bean canes have been removed: do not bring back tall bamboo poles. Replace ONLY the continuous tall-looking green hedge plane spanning the middle background with John's actual WEST boundary as documented in his camera images 2, 3 and 4. It is a modest-height weathered GREY masonry wall of large rectangular concrete brick/block units with visible horizontal mortar courses and offset joints, multi-toned mottled grey aggregate, light grime, slightly uneven darker top coping. Image 2 shows its exact block texture and usual block proportions; image 3 shows how that same low wall reads behind the beds; image 4 shows glimpses through crops at a comparable angle. Use that masonry, never red or ornamental brick, tiny decorative blocks, rock-rubble or a pristine barrier. Render a visibly exposed continuous grey lower boundary beginning beyond the far grass and adjoining low bed, partly occluded by existing distant foliage and mesh. It rises about halfway up the background between the boundary ground and the upper tree line. Keep its top gently receding along the existing site boundary in the current perspective. Keep existing distant bare winter branches and roofs visible ABOVE it. A modest amount of real-looking uneven evergreen overhang is fine above parts of the masonry, as in the camera references, but the exposed wall face must read distinctly across most of the background even on a 19 mm print inset. No new vegetation covering the wall's face, timber fence, pillars, giant retaining wall or changes to foreground. Preserve everything else from the first image, including shifted path perspective and plant sizes, and return one exact 1:1 square only.",
+  "wall_references": [
+    {
+      "id": "A37",
+      "file": "docs/assets/garden-media-library/local-references/viewpoints-2026-11-19/A37.jpg"
+    },
+    {
+      "id": "A38",
+      "file": "docs/assets/garden-media-library/local-references/viewpoints-2026-11-19/A38.jpg"
+    },
+    {
+      "id": "A48",
+      "file": "docs/assets/garden-media-library/local-references/viewpoints-2026-11-19/A48.jpg"
+    }
+  ],
+  "wall_subject": "West boundary, weathered masonry in the December kale background. In the May photograph the broad beans obscure the wall."
+}

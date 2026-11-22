@@ -1,40 +1,373 @@
 {
-  "date": "2026-11-15",
-  "status": "passed",
-  "pdfSha256": "5b4856e75e23ddf0a2be9b17641cf5fb2844e9d4e0417eca9f6032bae3b3124d",
-  "linksByKind": {
-    "see-also": 79,
-    "index": 422,
-    "contents": 85,
-    "body-reference": 4
-  },
-  "actualDestinationPagesMentionChecked": 59,
-  "cropsWithoutLinks": [
-    "artichoke_globe",
-    "artichoke_jerusalem",
-    "asparagus",
-    "capsicum",
-    "mushroom",
-    "rhubarb",
-    "salsify_scorzonera",
-    "sweet_corn"
-  ],
-  "minimumBodyToFooterMm": 3.565319459208259,
-  "fontsEmbedded": true,
-  "numericBodyReferences": [
+  "date": "2026-11-22",
+  "status": "All 662 internal destinations matched to expected targets",
+  "pdfSha256": "8ac3bddaa4022fc32794931ebec6b9eeab6c2a428ce0bfb3965bfad8278cf95c",
+  "integrationReceipt": "integration-2026-11-22/INTEGRATION-CHECKS.json",
+  "internalLinks": 662,
+  "contentsLinks": 84,
+  "newOpenerLinks": 77,
+  "bookmarks": [
     {
-      "folio": 149,
-      "text": "pages 150–151"
+      "title": "Front cover",
+      "targetPage": 0
     },
     {
-      "folio": 151,
-      "text": "pages 58–59"
+      "title": "Opening pages",
+      "targetPage": 2
     },
     {
-      "folio": 171,
-      "text": "pages 64–65"
+      "title": "Title",
+      "targetPage": 2
+    },
+    {
+      "title": "Publication details",
+      "targetPage": 3
+    },
+    {
+      "title": "Contents",
+      "targetPage": 5
+    },
+    {
+      "title": "Introduction",
+      "targetPage": 8
+    },
+    {
+      "title": "Vegetable Guides",
+      "targetPage": 10
+    },
+    {
+      "title": "Artichoke, Globe",
+      "targetPage": 11
+    },
+    {
+      "title": "Artichoke, Jerusalem",
+      "targetPage": 13
+    },
+    {
+      "title": "Asparagus",
+      "targetPage": 15
+    },
+    {
+      "title": "Aubergine",
+      "targetPage": 17
+    },
+    {
+      "title": "Bean, Broad",
+      "targetPage": 19
+    },
+    {
+      "title": "Bean, French",
+      "targetPage": 21
+    },
+    {
+      "title": "Bean, Runner",
+      "targetPage": 23
+    },
+    {
+      "title": "Beet, Leaf",
+      "targetPage": 25
+    },
+    {
+      "title": "Beetroot",
+      "targetPage": 27
+    },
+    {
+      "title": "Broccoli",
+      "targetPage": 29
+    },
+    {
+      "title": "Brussels Sprouts",
+      "targetPage": 31
+    },
+    {
+      "title": "Cabbage",
+      "targetPage": 33
+    },
+    {
+      "title": "Capsicum",
+      "targetPage": 35
+    },
+    {
+      "title": "Carrot",
+      "targetPage": 37
+    },
+    {
+      "title": "Cauliflower",
+      "targetPage": 39
+    },
+    {
+      "title": "Celeriac",
+      "targetPage": 41
+    },
+    {
+      "title": "Celery",
+      "targetPage": 43
+    },
+    {
+      "title": "Chicory",
+      "targetPage": 45
+    },
+    {
+      "title": "Courgettes and Marrows",
+      "targetPage": 47
+    },
+    {
+      "title": "Cucumber, Greenhouse",
+      "targetPage": 49
+    },
+    {
+      "title": "Cucumber, Outdoor",
+      "targetPage": 51
+    },
+    {
+      "title": "Endive",
+      "targetPage": 53
+    },
+    {
+      "title": "Florence Fennel",
+      "targetPage": 55
+    },
+    {
+      "title": "Garlic",
+      "targetPage": 57
+    },
+    {
+      "title": "Kale",
+      "targetPage": 59
+    },
+    {
+      "title": "Kohl Rabi",
+      "targetPage": 61
+    },
+    {
+      "title": "Leek",
+      "targetPage": 63
+    },
+    {
+      "title": "Lettuce",
+      "targetPage": 65
+    },
+    {
+      "title": "Mushroom",
+      "targetPage": 67
+    },
+    {
+      "title": "Onions and Shallots",
+      "targetPage": 69
+    },
+    {
+      "title": "Oriental Leaves",
+      "targetPage": 71
+    },
+    {
+      "title": "Parsnip",
+      "targetPage": 73
+    },
+    {
+      "title": "Pea",
+      "targetPage": 75
+    },
+    {
+      "title": "Potato",
+      "targetPage": 77
+    },
+    {
+      "title": "Radish",
+      "targetPage": 79
+    },
+    {
+      "title": "Rhubarb",
+      "targetPage": 81
+    },
+    {
+      "title": "Salsify & Scorzonera",
+      "targetPage": 83
+    },
+    {
+      "title": "Spinach",
+      "targetPage": 85
+    },
+    {
+      "title": "Squashes and Pumpkins",
+      "targetPage": 87
+    },
+    {
+      "title": "Swede",
+      "targetPage": 89
+    },
+    {
+      "title": "Sweet Corn",
+      "targetPage": 91
+    },
+    {
+      "title": "Tomato, Greenhouse",
+      "targetPage": 93
+    },
+    {
+      "title": "Tomato, Outdoor",
+      "targetPage": 95
+    },
+    {
+      "title": "Turnip",
+      "targetPage": 97
+    },
+    {
+      "title": "Vegetable Troubles",
+      "targetPage": 100
+    },
+    {
+      "title": "Bean and Pea Troubles",
+      "targetPage": 101
+    },
+    {
+      "title": "Beetroot Troubles",
+      "targetPage": 105
+    },
+    {
+      "title": "Brassica Troubles",
+      "targetPage": 107
+    },
+    {
+      "title": "Carrot and Parsnip Troubles",
+      "targetPage": 113
+    },
+    {
+      "title": "Celery Troubles",
+      "targetPage": 116
+    },
+    {
+      "title": "Cucurbit Troubles",
+      "targetPage": 118
+    },
+    {
+      "title": "Florence Fennel Troubles",
+      "targetPage": 123
+    },
+    {
+      "title": "Lettuce Troubles",
+      "targetPage": 124
+    },
+    {
+      "title": "Onion & Leek Troubles",
+      "targetPage": 127
+    },
+    {
+      "title": "Oriental Leaves Troubles",
+      "targetPage": 131
+    },
+    {
+      "title": "Potato Troubles",
+      "targetPage": 133
+    },
+    {
+      "title": "Spinach Troubles",
+      "targetPage": 138
+    },
+    {
+      "title": "Tomato Troubles",
+      "targetPage": 140
+    },
+    {
+      "title": "Turnip, Swede & Radish Troubles",
+      "targetPage": 145
+    },
+    {
+      "title": "Growing Techniques",
+      "targetPage": 148
+    },
+    {
+      "title": "Organic growing",
+      "targetPage": 149
+    },
+    {
+      "title": "Nutrient cycles",
+      "targetPage": 150
+    },
+    {
+      "title": "Crop rotation & planning",
+      "targetPage": 151
+    },
+    {
+      "title": "Testing and adjusting pH",
+      "targetPage": 153
+    },
+    {
+      "title": "Choosing your plot",
+      "targetPage": 154
+    },
+    {
+      "title": "Beds and paths",
+      "targetPage": 155
+    },
+    {
+      "title": "Finger and leaf bed patterns",
+      "targetPage": 156
+    },
+    {
+      "title": "Making compost",
+      "targetPage": 157
+    },
+    {
+      "title": "Feeding and using your compost bin",
+      "targetPage": 158
+    },
+    {
+      "title": "Cultivation: dig or no-dig",
+      "targetPage": 159
+    },
+    {
+      "title": "No-dig vegetable growing",
+      "targetPage": 160
+    },
+    {
+      "title": "Single and double digging",
+      "targetPage": 161
+    },
+    {
+      "title": "Finishing the bed and smothering",
+      "targetPage": 162
+    },
+    {
+      "title": "Lifting and using turf",
+      "targetPage": 163
+    },
+    {
+      "title": "Sowing and planting",
+      "targetPage": 164
+    },
+    {
+      "title": "Netting",
+      "targetPage": 165
+    },
+    {
+      "title": "Supports",
+      "targetPage": 167
+    },
+    {
+      "title": "Watering",
+      "targetPage": 169
+    },
+    {
+      "title": "Choosing and siting a greenhouse",
+      "targetPage": 170
+    },
+    {
+      "title": "Greenhouse pots, bags & raised beds",
+      "targetPage": 171
+    },
+    {
+      "title": "Greenhouses: no-dig beds and seasons",
+      "targetPage": 172
+    },
+    {
+      "title": "Index",
+      "targetPage": 173
+    },
+    {
+      "title": "Back cover",
+      "targetPage": 179
     }
   ],
-  "introductionApproval": "docs/publication/introduction-revision/APPROVAL.json",
-  "introductionIntegration": "docs/publication/whole-book-order-preview/integration-2026-11-15-introduction/INTEGRATION-CHECKS.json"
+  "detail": "integration-2026-11-22/NATIVE-CHECKS.json",
+  "limits": "Existing index/body destinations preserved; no new index curation."
 }

@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-22",
+  "folio": 9,
+  "status": "Proposed page awaiting John’s review",
+  "pdf": {
+    "file": "output/pdf/page-9-index-review/Vegetable-Guru-Page-9-Index-Proposal.pdf",
+    "sha256": "84b95047ad984fc46026b244a51b242c70bfc8aceb4cfd2b1cb21a84ece6960f",
+    "pages": 1,
+    "trimMM": [
+      185,
+      240
+    ]
+  },
+  "render": {
+    "file": "docs/publication/overnight-2026-11-19/openings/page-9-index-review/Page-9-Index-Proposal.png",
+    "sha256": "c6aa46c24624cfcff4ebbaab60883fa2fea07f770da6795fb0c977a0f61143db"
+  },
+  "changes": "Removed Difficulty rating, Core needs and How to use the guides. Replaced H4 header artwork with three proposed original camera photos. Added complete alphabetical 44-vegetable index using current guide titles and opening folios. Relocated the exact original calendar panel to the foot, unchanged in content and printed size. Retained title and folio 9.",
+  "calendar": {
+    "file": "docs/publication/overnight-2026-11-19/openings/page-9-index-review/calendar-panel-600dpi.png",
+    "sha256": "ba4afde9179f08b611a3f1ac05fed66b5cb61a2ca1015bac4a08243e4869bd65",
+    "pdf": "output/pdf/guides-intro-detail/vegetable-guides-intro.pdf",
+    "sourcePage": 1,
+    "cropMM": {
+      "x": 17,
+      "y": 69.56061197916667,
+      "width": 160,
+      "height": 61.11875
+    },
+    "renderDPI": 600,
+    "placementMM": {
+      "x": 17,
+      "y": 165,
+      "width": 160,
+      "height": 61.11875
+    },
+    "method": "Exact approved Calendar panel rendered as a 600 dpi crop and relocated without content or printed-size change.",
+    "technicalNote": "This standalone proof uses the exact rendered calendar panel at 600 dpi; its internal text is not selectable in this PDF. Editable original HTML and vector PDF remain unchanged for later authorised integration."
+  },
+  "checks": {
+    "indexEntries": 44,
+    "fontPt": 10.5,
+    "columns": [
+      15,
+      15,
+      14
+    ],
+    "wrappedNames": 0,
+    "indexCalendarGapMM": 7.134706621805805,
+    "calendarFooterInkGapMM": 5.881250000000001,
+    "sourceHashesUnchanged": true,
+    "noOverlaps": true,
+    "visualReview": "Complete final page compared with the original page-9 proof and approved page-147 opener; calendar text, dates, swatches and illustrations preserved; title, all index columns, three photos and folio visually inspected."
+  },
+  "scope": "Standalone page proposal only. No shared-copy changes, full-book integration, supplier preparation or artwork regeneration."
+}

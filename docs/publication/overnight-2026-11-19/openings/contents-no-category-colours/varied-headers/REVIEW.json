@@ -1,0 +1,235 @@
+{
+  "date": "2026-11-22",
+  "status": "Proposal awaiting John’s review",
+  "request": "Remove measurement edition label from contents footers; vary upper thumbnail placement",
+  "folios": [
+    4,
+    5
+  ],
+  "proof": {
+    "file": "output/pdf/contents-no-category-colours/varied-headers/Vegetable-Guru-Contents-No-Category-Colours.pdf",
+    "sha256": "4a2e294b6b2f8b731a88e813e4421dca53dcbc4fac6c5afdf8f3059fbf7efcdc"
+  },
+  "spread": {
+    "file": "docs/publication/overnight-2026-11-19/openings/contents-no-category-colours/varied-headers/contents-spread.jpg",
+    "sha256": "f953080921ac7c7e5a37f2daed67de2f90323b6efa58a90de4a5605b2e8ddb72"
+  },
+  "builder": {
+    "file": "docs/publication/overnight-2026-11-19/openings/contents-no-category-colours/varied-headers/build.swift",
+    "sha256": "583adef569d3f88d0814e2012b9b204af70edc705d96cfedb269742d9957c75a"
+  },
+  "sourceContent": {
+    "file": "docs/publication/overnight-2026-11-19/openings/contents-no-category-colours/CONTENTS.json",
+    "sha256": "f9411390ea6e6d8ea760fedd985b12bad5299f243304fa6a4fd08c528e5e387c"
+  },
+  "sourcePDF": {
+    "file": "output/pdf/contents-update/contents-imperial.pdf",
+    "sha256": "e3f4ea3be7114286c4a2b5488c6ef334fad9f3a5baa077ec164271448b33124a"
+  },
+  "artwork": [
+    {
+      "name": "roots",
+      "file": "docs/publication/overnight-2026-11-19/openings/thumbnails/roots.jpg",
+      "sha256": "5751c5e5abd733d5cf1c2d96ff500c18ceeed21decc08f7c3b0b0d03e83c89ee",
+      "provenance": {
+        "name": "Carrot and beetroot",
+        "source": "docs/publication/summer-cover-photo-search/selected-stills/P06-carrot-and-beetroot.jpg",
+        "sourceSHA256": "0a8e27bcf54a358880d1ba5bc1437c57c9e3abc4021641766e6dda17122746da",
+        "kind": "camera source",
+        "cropCentre": [
+          0.48,
+          0.5
+        ],
+        "thumbnailSHA256": "5751c5e5abd733d5cf1c2d96ff500c18ceeed21decc08f7c3b0b0d03e83c89ee"
+      }
+    },
+    {
+      "name": "peas",
+      "file": "docs/publication/overnight-2026-11-19/openings/thumbnails/peas.jpg",
+      "sha256": "8fb2c5c0f9e1290e2b898788dde4ee1895744e67e4a96967e7716cdad9517ccc",
+      "provenance": {
+        "name": "Peas on the plant",
+        "source": "docs/publication/summer-cover-photo-search/selected-stills/P02-peas-on-the-plant.png",
+        "sourceSHA256": "6b7716bbef0d756d5580425b0321af618cd480272d2943571cb3e960f0e297ef",
+        "kind": "camera source",
+        "cropCentre": [
+          0.52,
+          0.5
+        ],
+        "thumbnailSHA256": "8fb2c5c0f9e1290e2b898788dde4ee1895744e67e4a96967e7716cdad9517ccc"
+      }
+    },
+    {
+      "name": "beans",
+      "file": "docs/publication/overnight-2026-11-19/openings/thumbnails/beans.jpg",
+      "sha256": "a9bda615658f32c0ccf92462052e080ea5677be4cce5423283db9fd36f2bfa4c",
+      "provenance": {
+        "name": "Broad bean pods",
+        "source": "docs/assets/vegetable-guru-stock/photo-derived-2026-11-17/sources/L030-broad-bean-pods.jpeg",
+        "sourceSHA256": "9cf5beaafa74c75c8ccafbb51cd7871007a521ec3cb6222b6a01908c458fe452",
+        "kind": "camera source",
+        "cropCentre": [
+          0.52,
+          0.48
+        ],
+        "thumbnailSHA256": "a9bda615658f32c0ccf92462052e080ea5677be4cce5423283db9fd36f2bfa4c"
+      }
+    },
+    {
+      "name": "squash",
+      "file": "docs/publication/overnight-2026-11-19/openings/thumbnails/squash.jpg",
+      "sha256": "4ffdad24ccd3f32db53afcc51d1d9961451d79035c581dfd0ec52ee287187420",
+      "provenance": {
+        "name": "Squash on the vine",
+        "source": "docs/assets/vegetable-guru-stock/photo-derived-2026-11-17/sources/X446-squash-on-vine.jpeg",
+        "sourceSHA256": "a5c8e66f937adac341782b0fd6990cfda83e7578bd5c4c4b8f94db600878da5a",
+        "kind": "camera source",
+        "cropCentre": [
+          0.49,
+          0.53
+        ],
+        "thumbnailSHA256": "4ffdad24ccd3f32db53afcc51d1d9961451d79035c581dfd0ec52ee287187420"
+      }
+    },
+    {
+      "name": "colander",
+      "file": "docs/publication/overnight-2026-11-19/openings/thumbnails/colander.jpg",
+      "sha256": "17d2a481f9cd8d5178a329444c68b2fccea6049dbc446e87d26583443522757e",
+      "provenance": {
+        "name": "Garden salad in a colander",
+        "source": "docs/publication/cover-versions/version-1-1/rear-cream-harvest/photo-grid/revision-04/protected-master/crops/07.jpg",
+        "sourceSHA256": "58e8265bf63a47f8ac3ddb4f6c3ab3288305b434543af37c4fa0b53800996d20",
+        "kind": "camera source",
+        "cropCentre": [
+          0.49,
+          0.5
+        ],
+        "thumbnailSHA256": "17d2a481f9cd8d5178a329444c68b2fccea6049dbc446e87d26583443522757e"
+      }
+    },
+    {
+      "name": "peppers",
+      "file": "docs/publication/overnight-2026-11-19/openings/thumbnails/peppers.jpg",
+      "sha256": "2a0e99c856d7d3265c14bcc0e964fe83595588df9f6d62dcc441467d9e06dda3",
+      "provenance": {
+        "name": "Peppers from the garden",
+        "source": "docs/assets/vegetable-guru-stock/photo-derived-2026-11-17/sources/01-pepper-harvest.jpeg",
+        "sourceSHA256": "3226ef9fcc543e1b5a1edce3eb637af65cabb10636f1ec65fa4519c64cefdf90",
+        "kind": "camera source",
+        "cropCentre": [
+          0.5,
+          0.5
+        ],
+        "thumbnailSHA256": "2a0e99c856d7d3265c14bcc0e964fe83595588df9f6d62dcc441467d9e06dda3"
+      }
+    }
+  ],
+  "changes": [
+    "Measurement edition label and separator removed from both footers; folios retained",
+    "Page 4 upper pictures use a wider gap and upward stagger",
+    "Page 5 upper pictures use a closer gap and downward stagger"
+  ],
+  "preserved": [
+    "All 85 entry labels and page references",
+    "10.5 pt reading type",
+    "Two-column lists, section headings, trim size, mirrored margins and printed folios"
+  ],
+  "omittedEarlierPhotoStudyThumbnails": [
+    "greens",
+    "flower",
+    "onions"
+  ],
+  "sourceEditionsHaveIdenticalEntryPairs": true,
+  "verification": {
+    "all85EntriesPreserved": true,
+    "categoryKeyAbsent": true,
+    "copyChanges": [
+      "Removed measurement edition label from footer"
+    ],
+    "date": "2026-11-22",
+    "hyperlinks": "Standalone visual proof; cross-book PDF link installation remains part of later authorised integration.",
+    "measurementLabelsAbsent": true,
+    "pages": 2,
+    "printedFoliosRetained": true,
+    "sourceComparison": "Every source label and folio verified in its corresponding PDF row",
+    "trimMM": [
+      185,
+      240
+    ],
+    "verifiedLabelDestinationPairs": 85,
+    "visualReview": "Actual full contents spread inspected: clear title/image separation, readable rows, no overlaps or clipping, matching thumbnail scale and page folios."
+  },
+  "scope": "Standalone contents proposal only; guides keep their category colours. No main-book integration, canonical data change or supplier work.",
+  "knownRetainedLabels": [
+    "Introduction — why grow your own",
+    "Vegetable guides — how to use"
+  ],
+  "labelNote": "These existing contents labels are retained in this colour/artwork proposal; label changes can follow separately.",
+  "rasterComparison": {
+    "comparison": "Previous contents proposal",
+    "pages": [
+      {
+        "folio": 4,
+        "comparedTopMM": 49,
+        "comparedBottomMM": 227,
+        "changedPixels": 0
+      },
+      {
+        "folio": 5,
+        "comparedTopMM": 49,
+        "comparedBottomMM": 227,
+        "changedPixels": 0
+      }
+    ],
+    "bodyAndLowerPicturesUnchanged": true
+  },
+  "placements": [
+    {
+      "folio": 4,
+      "name": "roots",
+      "sizeMM": 32,
+      "xMM": 81,
+      "yMM": 14
+    },
+    {
+      "folio": 4,
+      "name": "peas",
+      "sizeMM": 32,
+      "xMM": 136,
+      "yMM": 8
+    },
+    {
+      "folio": 5,
+      "name": "beans",
+      "sizeMM": 32,
+      "xMM": 108,
+      "yMM": 8
+    },
+    {
+      "folio": 5,
+      "name": "squash",
+      "sizeMM": 32,
+      "xMM": 145,
+      "yMM": 15
+    },
+    {
+      "folio": 5,
+      "name": "colander",
+      "sizeMM": 32,
+      "xMM": 17,
+      "yMM": 164
+    },
+    {
+      "folio": 5,
+      "name": "peppers",
+      "sizeMM": 32,
+      "xMM": 54,
+      "yMM": 177
+    }
+  ],
+  "measurementWordingRule": "Traditional measurements on the cover and title page only; no measurement-edition label elsewhere in the interior",
+  "sourcePreviousProof": {
+    "file": "output/pdf/contents-no-category-colours/Vegetable-Guru-Contents-No-Category-Colours.pdf",
+    "sha256": "2c64fd74fd5c3d42d1da6681f3903866fb4a9ac61583cc7b81fdbbfdb78d6076"
+  }
+}

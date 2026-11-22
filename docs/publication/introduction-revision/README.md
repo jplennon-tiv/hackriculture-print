@@ -2,6 +2,8 @@
 
 **Approved by John on 15 November 2026.** [Approval and frozen source hashes](APPROVAL.json). Revision 2 is the official introduction: exact revised wording, harvest header, enhanced garden photograph, caption and Cornwall sign-off. It is installed at interior page 7 / PDF page 9 in the assembled preview, with no pagination changes. [Installation checks](../whole-book-order-preview/integration-2026-11-15-introduction/INTEGRATION-CHECKS.json). The [first preview](references/01-text-only/Introduction-preview.pdf) and original photograph remain preserved.
 
+**22 November thumbnail approval:** John retained 02 and 16, removing 12 from the [contact sheet featuring him](../overnight-2026-11-19/openings/page-7-thumbnail-review/README.md). The [standalone two-thumbnail proposal](../overnight-2026-11-19/openings/page-7-thumbnail-review/two-thumbnail-proof/README.md) fits them at 29 mm beside the title and is now [approved](../overnight-2026-11-19/openings/page-7-thumbnail-review/two-thumbnail-proof/APPROVAL.json). Exact text and character positions match the frozen approved PDF; the rendered page below 45 mm is unchanged, including the 1991 photograph, caption, sign-off and folio. This exact two-thumbnail page is now installed in the [22 November full book](../whole-book-order-preview/README.md); the original frozen source below remains preserved.
+
 - [One-page PDF](../../../output/pdf/introduction-revision/Introduction-preview.pdf)
 - [Actual PDF raster](../../../output/pdf/introduction-revision/Introduction-preview.png)
 - [Editable wording](introduction.txt)

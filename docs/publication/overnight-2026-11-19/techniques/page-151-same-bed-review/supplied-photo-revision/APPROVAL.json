@@ -1,0 +1,48 @@
+{
+  "date": "2026-11-21",
+  "approved_by": "John Lennon",
+  "folio": 151,
+  "approved_scope": "Exact supplied-photo square page with John's broad bean photograph and the earlier December kale reconstruction.",
+  "source": "Thanks. This will do for now - page approved.",
+  "proof": {
+    "path": "output/pdf/page-151-review/Vegetable-Guru-Page-151-Supplied-Photo-Square-Review.pdf",
+    "sha256": "bf591bf4c42173e5f6ede1522da60663e254597a8cf9576b46e4ddc2fa4bc70d",
+    "pdf_page": 1
+  },
+  "page_content_sha256": "32c047c5f53631a5246f004d5effed961f0de9f57d259ad1fef27051a254c82c",
+  "artwork_record": "SQUARE-ARTWORK.json",
+  "photos": [
+    {
+      "subject": "Broad beans",
+      "master": "docs/publication/overnight-2026-11-19/techniques/page-151-same-bed-review/supplied-photo-revision/Broad-Beans-Supplied.png",
+      "sha256": "c06344c711a75ce97b5f582a0c94b8c2038d868ab92ec82018926287292714d5",
+      "placement_xywh_points": [
+        68.25,
+        502.92,
+        54.0,
+        54.0
+      ],
+      "square_crop_xy_side_px": [
+        245,
+        0,
+        1672
+      ]
+    },
+    {
+      "subject": "Cavolo Nero after the background crops have been harvested",
+      "master": "docs/publication/overnight-2026-11-19/techniques/page-151-same-bed-review/supplied-photo-revision/Cavolo-Nero-Harvested-Beds.png",
+      "sha256": "ab59cc23b14d18fe0cc2bdf0229f7511d12a3cb9df0901fac0f6c0ac1d311700",
+      "placement_xywh_points": [
+        153.0,
+        502.92,
+        54.0,
+        54.0
+      ],
+      "square_crop_xy_side_px": [
+        143,
+        0,
+        972
+      ]
+    }
+  ]
+}

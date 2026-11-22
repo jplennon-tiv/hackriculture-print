@@ -1,0 +1,44 @@
+{
+  "date": "2026-11-21",
+  "approved_by": "John Lennon",
+  "folio": 151,
+  "approved_scope": "The exact revised page 151 proof pairing John's original broad bean photo with the redrawn early-December Cavolo Nero scene.",
+  "source": "That's better too - revised P151 is approved.",
+  "proof": {
+    "path": "output/pdf/page-151-review/Vegetable-Guru-Page-151-Winter-Kale-Review.pdf",
+    "sha256": "562623e8d131ecc6336e4f628f676b67a5bc796dc3aac30d01f7215d21903c8f",
+    "pdf_page": 1
+  },
+  "page_content_sha256": "1f2ecbef9ee8abd81f8e6c7a773ccb45fb243c8b20248eed6f468daf4c6f03ab",
+  "supersedes_approval": "../supplied-photo-revision/APPROVAL.json",
+  "artwork_record": "ARTWORK.json",
+  "photos": [
+    {
+      "subject": "Broad beans",
+      "master": "docs/publication/overnight-2026-11-19/techniques/page-151-same-bed-review/supplied-photo-revision/Broad-Beans-Supplied.png",
+      "sha256": "c06344c711a75ce97b5f582a0c94b8c2038d868ab92ec82018926287292714d5",
+      "placement_xywh_points": [
+        68.25,
+        502.92,
+        54.0,
+        54.0
+      ],
+      "square_crop_xy_side_px": [
+        245,
+        0,
+        1672
+      ]
+    },
+    {
+      "subject": "Redrawn early-December Cavolo Nero",
+      "master": "docs/publication/overnight-2026-11-19/techniques/page-151-same-bed-review/camera-grounded-winter-review/Cavolo-Nero-Early-December.png",
+      "sha256": "0f35d7cc13c77859d90c5fa40199cc89c9df839b6b19429d847938aee6c54252",
+      "placement_xywh_points": [
+        153.0,
+        502.92,
+        54.0,
+        54.0
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "folio": 151,
+  "status": "For John's review",
+  "proof": "output/pdf/page-151-review/Vegetable-Guru-Page-151-Supplied-Photo-Square-Review.pdf",
+  "proof_sha256": "bf591bf4c42173e5f6ede1522da60663e254597a8cf9576b46e4ddc2fa4bc70d",
+  "page_image": "output/pdf/page-151-review/Vegetable-Guru-Page-151-Supplied-Photo-Square-Review.png",
+  "supersedes": "output/pdf/page-151-review/Vegetable-Guru-Page-151-May-Video-Review.pdf",
+  "superseded_proof_sha256": "12b9ef4a5d9d091169997468680b30215a5f7b93437a31a6257653c781071568",
+  "facing_approved_proof": {
+    "path": "output/pdf/page-150-review/Vegetable-Guru-Page-150-Square-Photo-Review.pdf",
+    "sha256": "51cb5c00ee2dd47a04bc38fda0b55fc7c85d3fff76c7e6ee938455dec104c211",
+    "pdf_page": 1
+  },
+  "matched_text_page_boxes_and_surrounding_artwork": true,
+  "render_comparison_dpi": 172.8,
+  "artwork": [
+    {
+      "subject": "Broad beans",
+      "source_original": "docs/publication/overnight-2026-11-19/techniques/page-151-same-bed-review/supplied-photo-revision/Broad-Beans-Supplied.png",
+      "reference_upload": "Screenshot 2026-11-21 at 17.51.10.png",
+      "method": "The source screenshot is byte-exact. The PDF clips to square and embeds the exact full-resolution RGB samples and Display P3 profile.",
+      "master": "docs/publication/overnight-2026-11-19/techniques/page-151-same-bed-review/supplied-photo-revision/Broad-Beans-Supplied.png",
+      "sha256": "c06344c711a75ce97b5f582a0c94b8c2038d868ab92ec82018926287292714d5",
+      "placement_xywh_points": [
+        68.25,
+        502.92,
+        54.0,
+        54.0
+      ],
+      "square_crop_xy_side_px": [
+        245,
+        0,
+        1672
+      ]
+    },
+    {
+      "subject": "Cavolo Nero after the background crops have been harvested",
+      "method": "Early December illustrative reconstruction from John's supplied May image.",
+      "master": "docs/publication/overnight-2026-11-19/techniques/page-151-same-bed-review/supplied-photo-revision/Cavolo-Nero-Harvested-Beds.png",
+      "sha256": "ab59cc23b14d18fe0cc2bdf0229f7511d12a3cb9df0901fac0f6c0ac1d311700",
+      "original_generated_master": "docs/publication/overnight-2026-11-19/techniques/page-151-same-bed-review/supplied-photo-revision/Cavolo-Nero-Harvested-Beds.png",
+      "placement_xywh_points": [
+        153.0,
+        502.92,
+        54.0,
+        54.0
+      ],
+      "square_crop_xy_side_px": [
+        143,
+        0,
+        972
+      ],
+      "prompt": "Create one naturalistic LANDSCAPE photograph matching the supplied wide image (about 5:3), as the second picture in a same-bed seasonal pair for The Vegetable Guru. The supplied photograph is the exact starting image of John's allotment; the original will itself be used for the May broad beans. For YOUR output only, make it early DECEMBER in coastal Cornwall. Use the supplied input as authority for the actual bed footprint, the path and depth, and positions of permanent landmarks. Left background only: show the real low weathered grey block wall under the clipped evergreen overhang, with the same slate roofs behind. The wall is exposed to the left of the bed. Separate vegetation and boundary hedge farther right stay where the original shows them. Keep the clipped pale green shed edge on the far right and the narrow paving near it. Do not extend the left grey wall across the right side, move the shed, invent a water butt, taller wall, extra shed or enclose the open soil bed. Allow a very slight natural change of camera view, a few inches to one side on the path, similar scale and frame. Keep all the landmarks recognisable. Remove all foreground broad beans and their temporary poles, tall canes, crossbars and ties. In the SAME foreground footprint, grow a small group / receding row of established, partly picked Cavolo Nero. A prominent near plant shows dark slate-green, crinkled strap leaves with genuine varied sizes and folds, older leaves hanging and overlapping unevenly, a bare lower stem with natural leaf scars, a small uneven insect hole in one older leaf, and subtle yellowing on one lower leaf of another plant. Other plants individually lean differently, at noticeably varying heights, spacing, and silhouettes. Three to four grounded plants, healthy and productive, no clones, no perfect fans of radial leaves and no glossy plastic. Distinct vegetation mass and recognisable crop at small print scale. The key seasonal change is that ALL the OTHER cultivated plants behind and beside the kale have already BEEN HARVESTED. Remove standing alliums, scapes, wilted summer rows and any tall vegetable foliage from those background and side beds, leaving open dark damp soil with a few understated harvest stubs, scattered leaf litter and some low empty blue hoops or short structural stakes only where present. Keep the grass paths, real evergreen hedging and other noncrop landscape in its place. Muted natural grey winter sky, soft light and cool neutral colours, damp brick path and ground, sparse deciduous branches; no snow, harsh direct summer sun, hands or labels. Do not crop into a square. Output one wide, edge-to-edge follow-up photograph, no collage or border."
+    }
+  ]
+}

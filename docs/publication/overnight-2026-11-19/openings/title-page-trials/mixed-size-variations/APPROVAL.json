@@ -1,0 +1,233 @@
+{
+  "date": "2026-11-22",
+  "approved_by": "John Lennon",
+  "source": "01 is good - we'll use that (Approved).",
+  "status": "approved",
+  "folio": 1,
+  "option": "01",
+  "proof": {
+    "file": "output/pdf/title-page-trials/mixed-size-variations/Vegetable-Guru-Title-Page-Six-Variations.pdf",
+    "sha256": "0c568115235a249691501a83a7742d63b58be7f80449e8690a0318cfff3e41bb",
+    "pages": 6,
+    "trimMM": [
+      185,
+      240
+    ],
+    "selectedPage": 1
+  },
+  "render": {
+    "id": "01",
+    "file": "docs/publication/overnight-2026-11-19/openings/title-page-trials/mixed-size-variations/01.png",
+    "sha256": "43a87179f266457395327cd241dcc60505c125ea65eca2f4d7f3cd15d10bb5a3"
+  },
+  "variant": {
+    "id": "01",
+    "title": "Lower-left anchor",
+    "text": {
+      "cx": 97,
+      "tops": [
+        43,
+        55,
+        78,
+        109,
+        117,
+        133,
+        142
+      ]
+    },
+    "photos": [
+      {
+        "key": "tomatoes",
+        "role": "large",
+        "x": 20,
+        "y": 153,
+        "w": 69,
+        "h": 69
+      },
+      {
+        "key": "chard",
+        "role": "medium",
+        "x": 126,
+        "y": 171,
+        "w": 43,
+        "h": 43
+      },
+      {
+        "key": "pea",
+        "role": "thumbnail",
+        "x": 26,
+        "y": 24,
+        "w": 23,
+        "h": 23
+      },
+      {
+        "key": "onion",
+        "role": "thumbnail",
+        "x": 149,
+        "y": 18,
+        "w": 21,
+        "h": 21
+      },
+      {
+        "key": "courgette",
+        "role": "thumbnail",
+        "x": 99,
+        "y": 207,
+        "w": 21,
+        "h": 21
+      }
+    ]
+  },
+  "text": {
+    "eyebrow": "",
+    "title": [
+      "The",
+      "Vegetable",
+      "Guru"
+    ],
+    "subtitle": [
+      "Your at-a-glance",
+      "growing companion"
+    ],
+    "author": "John Lennon",
+    "measurementLabel": "Traditional measurements edition",
+    "imprint": ""
+  },
+  "artworkSources": [
+    {
+      "key": "tomatoes",
+      "role": "large",
+      "x": 20,
+      "y": 153,
+      "w": 69,
+      "h": 69,
+      "source": {
+        "number": 10,
+        "title": "Ripening tomatoes",
+        "file": "docs/publication/overnight-2026-11-19/openings/contents-thumbnail-review/thumbnails/10-ripening-tomatoes.png",
+        "sha256": "cad96955ab32170a49ef021b939b99fec94a34ca252a03722a22aa15465a4625",
+        "group": "New choice",
+        "status": "Approved on contents pages 4–5; see swapped-headers/APPROVAL.json",
+        "kind": "Generated photographic study; not camera evidence",
+        "source": "generated_images/exec-334e1c80-f1d4-437c-9628-88418eef44fb.png",
+        "sourceSHA256": "f225ba15b129ed0d0510c3b2bfbc166f8378c796567d86aececd8a555180fc1c",
+        "generationCell": 1,
+        "crop": {
+          "left": 2,
+          "top": 2,
+          "width": 440,
+          "height": 440
+        },
+        "nativePixels": [
+          440,
+          440
+        ]
+      }
+    },
+    {
+      "key": "chard",
+      "role": "medium",
+      "x": 126,
+      "y": 171,
+      "w": 43,
+      "h": 43,
+      "source": {
+        "number": 11,
+        "title": "Rainbow chard",
+        "file": "docs/publication/overnight-2026-11-19/openings/contents-thumbnail-review/thumbnails/11-rainbow-chard.png",
+        "sha256": "55603856ac3a679b3d30ae13a981b462f95183ea95602c38689d920b9e6d5d03",
+        "group": "New choice",
+        "status": "Approved on contents pages 4–5; see swapped-headers/APPROVAL.json",
+        "kind": "Generated photographic study; not camera evidence",
+        "source": "generated_images/exec-334e1c80-f1d4-437c-9628-88418eef44fb.png",
+        "sourceSHA256": "f225ba15b129ed0d0510c3b2bfbc166f8378c796567d86aececd8a555180fc1c",
+        "generationCell": 2,
+        "crop": {
+          "left": 446,
+          "top": 2,
+          "width": 439,
+          "height": 440
+        },
+        "nativePixels": [
+          439,
+          440
+        ]
+      }
+    },
+    {
+      "key": "pea",
+      "role": "thumbnail",
+      "x": 26,
+      "y": 24,
+      "w": 23,
+      "h": 23,
+      "source": {
+        "title": "Pea",
+        "file": "docs/publication/overnight-2026-11-19/openings/page-9-thumbnail-review/thumbnails/02-pea.png",
+        "sha256": "e381a86b7ffecf2dc57476bc0a66a554766091e982a156a05c7dce1b6dfcaf98",
+        "status": "Approved on Vegetable Guides page 9",
+        "kind": "New generated photographic study; not camera evidence",
+        "nativePixels": [
+          309,
+          310
+        ]
+      }
+    },
+    {
+      "key": "onion",
+      "role": "thumbnail",
+      "x": 149,
+      "y": 18,
+      "w": 21,
+      "h": 21,
+      "source": {
+        "title": "Onion",
+        "file": "docs/publication/overnight-2026-11-19/openings/page-9-thumbnail-review/thumbnails/15-onion.png",
+        "sha256": "ac48ba601062c8e9f9ed511d2d805f3e9c267996e00b296bd27d098cb0e88db0",
+        "status": "Approved on Vegetable Guides page 9",
+        "kind": "New generated photographic study; not camera evidence",
+        "nativePixels": [
+          310,
+          309
+        ]
+      }
+    },
+    {
+      "key": "courgette",
+      "role": "thumbnail",
+      "x": 99,
+      "y": 207,
+      "w": 21,
+      "h": 21,
+      "source": {
+        "title": "Courgette",
+        "file": "docs/publication/overnight-2026-11-19/openings/contents-thumbnail-review/thumbnails/07-courgette.png",
+        "sha256": "d450623354316cb2522b3b17775d4730e2957fbe2fedbe37c1b7c305ad079f42",
+        "status": "Earlier selected page-9 favourite; original choice 05",
+        "kind": "Generated photographic study; not camera evidence",
+        "nativePixels": [
+          310,
+          309
+        ]
+      }
+    }
+  ],
+  "builder": {
+    "file": "docs/publication/overnight-2026-11-19/openings/title-page-trials/mixed-size-variations/build.swift",
+    "sha256": "80c5af490f00d3429dac268b205f5f4936a81b71bef19b14e695dc2b0280df55"
+  },
+  "delivery": {
+    "date": "2026-11-22",
+    "status": "Saved successfully",
+    "file": "output/pdf/title-page-trials/mixed-size-variations/Vegetable-Guru-Title-Page-Six-Variations.pdf",
+    "library_file_id": "libfile_fde3_f-cd822f153ea0819188113e3d2c9b8429_968f6e806ba48191b80ffb1b7a35f663",
+    "current_version_number": 0,
+    "url": "https://chatgpt.com/library?file_id=libfile_fde3_f-cd822f153ea0819188113e3d2c9b8429_968f6e806ba48191b80ffb1b7a35f663&account_id=personal",
+    "localVersionMetadataApplied": true
+  },
+  "scope": [
+    "Exact option 01 composition, existing photographs and displayed title copy, including Traditional measurements edition.",
+    "No HACKRICULTURE, imprint or visible folio; book position remains folio 1.",
+    "Standalone approval; full-book integration, image production preparation and supplier work are separate."
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "date": "2026-11-22",
+  "status": "Proposed thumbnail studies; no placement approval",
+  "batches": [
+    {
+      "key": "page147_batch_a",
+      "refs": [
+        "/tmp/page147-existing-six.png",
+        "/tmp/page147-bed-reference.jpg",
+        "/tmp/greenhouse-review-refs/H57.jpg"
+      ],
+      "prompt": "Create SIX different photographic thumbnail candidates for a British vegetable-growing book section divider, arranged as an EXACT 3-column x 2-row contact sheet. Landscape 3:2 canvas, six equal SQUARE images, perfectly flush rectilinear grid, no gutters, no borders, no text, no numbering. Each square is a separate photograph; never blend scenes across seams. Clean documentary photography, bright but believable soft Cornish daylight, natural understated greens, rich crumbly soil, ordinary slightly weathered garden objects, authentic imperfect growing plants. The supplied first image is a sheet of existing photos for photographic tone ONLY; do not copy its composition. Second input is the actual home garden for soil, timber edges and setting clues. Third is the actual greenhouse bench for the seedling image. All NEW subjects are tightly framed details so no face or full person appears, no invented wider garden layout.\nTile order left-to-right top row then bottom:\n1. A single ordinary adult gardener's hand, aged skin and soil under short nails, pinching a tiny few carrot seeds between thumb and index finger directly above a shallow soil drill; the remaining fingers curl naturally. Close view, soil drill diagonal across square, no packet, no labels.\n2. One hand gently holding the compact root plug of a small lettuce plant, lowering it into a correctly sized hole in a crumbly bed. Rootball mostly exposed at the rim of the hole, leaves differ naturally in size and direction; tiny neighbouring plant out of focus. Natural human anatomy.\n3. Close-up of the rose and end of a green watering-can spout entering from upper left, a gentle fine shower landing on SOIL beside a young beetroot's crown. Can body and person outside frame. Plant off-centre right, leaves irregular and naturally textured.\n4. A worn steel garden fork with four separate straight tines resting partly in dark cultivated soil beside a weathered timber bed edge; handle exits upper frame. Soil crumbs on metal, believable tool construction, no hand.\n5. Two cupped adult hands holding mature dark crumbly garden compost, a few tiny pale woody fibres, fine natural texture. Hands emerge from opposite lower sides, five fingers anatomically coherent per hand, compost partly hides them. Close detail, blurred compost bay behind.\n6. Black module tray of young lettuce seedlings on the exact weathered slatted greenhouse bench from input three. A tight diagonal view with part of the aluminium greenhouse frame and blue shed softly visible beyond. Each seedling different size, lean and leaf orientation, one empty cell, ordinary lived-in horticulture, not rows of identical cloned plants.\nPhotorealism, crisp enough at thumbnail size, not illustration or 3D rendering. Keep each main subject within its own square.",
+      "master": "generated_images/exec-69bb2bcf-6f10-4006-b90b-e60e7d557838.png"
+    },
+    {
+      "key": "page147_batch_b",
+      "refs": [
+        "/tmp/page147-cane-reference.jpg",
+        "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/overnight-2026-11-19/techniques/page-152-trowel-review/Soil-Testing-Trowel-and-Card.png",
+        "/tmp/page147-existing-six.png"
+      ],
+      "prompt": "Create FOUR photographic thumbnail candidates for a British vegetable-growing book section divider in an EXACT 2-column x 2-row grid. Square canvas, four equal SQUARE photographs, no gutters, no borders, no text, no numbering. Four separate scenes, no blending across tile seams. Authentic documentary photography in bright natural Cornish daylight, same natural colour and lived-in textures as supplied camera references, never CGI or decorative drawing. Frame details close enough to read at very small print size. No faces or full figures. No invented wide garden layout.\nFirst reference shows REAL bamboo and short green plastic-coated wire ties on John's allotment; use its bottom/close joint examples to make believable canes, varying small diameters, nodes and real single continuous shafts. Second reference is approved soil-testing art with full adult trowel and a FLAT cardboard colour card; use its real object relationships. Third reference gives actual garden soil/bed and blue-hoop context.\nFour subjects, row-major order:\nTop LEFT: very clear close detail of two slender bamboo canes crossing at a support joint, attached to a horizontal bamboo ridge by a short modest twist of GREEN PLASTIC-COATED WIRE as in the first reference. Each of the three shafts stays continuous through the joint, slight irregularities and natural nodes, loose sky/green allotment blur behind. Show no hands. Wire wraps tightly round joint, small varied loops and short ends, no giant bow or rope.\nTop RIGHT: soil testing still life cropped to a square from the second reference's idea: one upright transparent test tube containing pale liquid over a little soil sediment, flat thin cardboard colour swatch on weathered greenhouse bench, part of normal adult steel trowel along bottom and a little dark soil at side. Preserve scale, no illegible words, no laboratory fantasy; five simple horizontal colour swatches on the card.\nBottom LEFT: close view of fine white insect-proof mesh draping over ONE smooth blue polythene hoop on the real garden bed. An ordinary brick holds the bottom edge snug against the soil in foreground. Small lettuces visible softly through the mesh, recognisable weave, natural folds and secured edge, useful growing detail.\nBottom RIGHT: a climbing runner bean's young stem twining naturally around ONE slender weathered bamboo cane, realistic heart-shaped bean leaves facing different ways, a few tiny red flowers to one side, soft earth and green garden background. One continuous cane with natural nodes, no repeated uniform curves, no metal cage or excess supports.\nEach main object within its own square. Photographic realism, pleasing natural texture, daylight without crushed shadows or plastic shine.",
+      "master": "generated_images/exec-93ee15c9-b974-42d4-b05e-66798c7df289.png"
+    }
+  ],
+  "referenceArchive": [
+    {
+      "used_input": "/tmp/page147-existing-six.png",
+      "retained_copy": "docs/publication/overnight-2026-11-19/openings/page-147-thumbnail-review/references/existing-six.png",
+      "origin": "Exact six original crops assembled for reference",
+      "sha256": "efb2b46f69e09af90d6cd0a9db17a1679a2f56937ecae7679002c324e8cbd82a"
+    },
+    {
+      "used_input": "/tmp/page147-bed-reference.jpg",
+      "retained_copy": "docs/publication/overnight-2026-11-19/openings/page-147-thumbnail-review/references/home-bed-H16.jpg",
+      "origin": "docs/assets/garden-media-library/local-references/home-garden/H16-DSC01820.JPG",
+      "sha256": "8e7a49d124a398b00a1be473971387f1cb21f9746bc11ee3a4ed73f7207ba9ad"
+    },
+    {
+      "used_input": "/tmp/page147-cane-reference.jpg",
+      "retained_copy": "docs/publication/overnight-2026-11-19/openings/page-147-thumbnail-review/references/cane-reference.jpg",
+      "origin": "docs/skills/vegetable-guru-garden-photography/assets/cane-reference.jpg",
+      "sha256": "e243f44034b1fa8b4a5f2345cf6991d3371ab9e9deaee48cddd1dff801d6f0c5"
+    },
+    {
+      "used_input": "/tmp/greenhouse-review-refs/H57.jpg",
+      "retained_copy": "docs/publication/overnight-2026-11-19/openings/page-147-thumbnail-review/references/greenhouse-bench-H57.jpg",
+      "origin": "docs/assets/garden-media-library/local-references/viewpoints-2026-11-19/H57.jpeg",
+      "sha256": "791ab2bacc41bd813f74330f9aea2a0cd1529103d678db1793b5a1f1373a0c3d"
+    }
+  ]
+}

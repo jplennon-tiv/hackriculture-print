@@ -1,0 +1,340 @@
+{
+  "date": "2026-11-22",
+  "folio": 99,
+  "status": "John approved option D; A\u2013C remain comparison evidence.",
+  "selectedThumbnailPool": [
+    1,
+    5,
+    6,
+    9,
+    10,
+    13,
+    15,
+    16
+  ],
+  "selectionRecord": "../page-99-thumbnail-review/SELECTION.json",
+  "pdf": {
+    "file": "output/pdf/page-99-layout-review/Vegetable-Guru-Page-99-Layout-Options.pdf",
+    "sha256": "493e6486675ebe85b068b489b5123aa59dfab0c67f2888181770fb214d352406",
+    "pages": 4,
+    "order": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "trimMM": [
+      185,
+      240
+    ]
+  },
+  "comparison": {
+    "file": "docs/publication/overnight-2026-11-19/openings/page-99-layout-review/Vegetable-Guru-Page-99-Layout-Comparison.png",
+    "sha256": "22b7da0e9192744d21ae402b7fe30a26b493f56e8511d94be41acc451fcddd8a"
+  },
+  "designSource": "docs/publication/overnight-2026-11-19/openings/page-147-layout-review/selected-d2-folio/APPROVAL.json",
+  "sources": [
+    "CONTENTS.json",
+    "VARIANTS.json",
+    "../page-99-thumbnail-review/THUMBNAILS.json"
+  ],
+  "changes": "Old page-99 wording retained only as title and folio. Added all fourteen existing crop-group headings and their full page ranges. Repeated Troubles suffix omitted under the section title; no other group names changed. Orange 16 pt Lilita group-heading role and green 10 pt Nunito page references reused from the approved format.",
+  "photoHandling": "All eight selected source files unchanged; proportional central square derivatives, all placed at 29 mm. No new artwork generation.",
+  "verification": {
+    "actualPDFRendered": true,
+    "allGroupTitlesAndRangesExtracted": true,
+    "folioOnEveryPage": true,
+    "noOverlapsOrUnsafeBounds": true,
+    "sourceMapHashUnchanged": true,
+    "allEightSourceHashesUnchanged": true,
+    "visualInspection": "All four final PDF renders inspected, including individual option C and final labelled comparison; no visible clipping, incorrect crops or missing folios."
+  },
+  "options": [
+    {
+      "id": "A",
+      "label": "Two columns \u00b7 scattered foot",
+      "description": "Closest to the approved page 147 arrangement.",
+      "columns": [
+        {
+          "first": 0,
+          "count": 7,
+          "x": 17,
+          "y": 62,
+          "width": 75.5,
+          "row": 13
+        },
+        {
+          "first": 7,
+          "count": 7,
+          "x": 101.5,
+          "y": 62,
+          "width": 75.5,
+          "row": 13
+        }
+      ],
+      "photos": [
+        {
+          "id": 16,
+          "x": 111,
+          "y": 12,
+          "size": 29
+        },
+        {
+          "id": 10,
+          "x": 148,
+          "y": 26,
+          "size": 29
+        },
+        {
+          "id": 1,
+          "x": 17,
+          "y": 160,
+          "size": 29
+        },
+        {
+          "id": 6,
+          "x": 82.6,
+          "y": 160,
+          "size": 29
+        },
+        {
+          "id": 15,
+          "x": 115.4,
+          "y": 160,
+          "size": 29
+        },
+        {
+          "id": 5,
+          "x": 49.8,
+          "y": 192.8,
+          "size": 29
+        },
+        {
+          "id": 9,
+          "x": 115.4,
+          "y": 192.8,
+          "size": 29
+        },
+        {
+          "id": 13,
+          "x": 148.2,
+          "y": 192.8,
+          "size": 29
+        }
+      ]
+    },
+    {
+      "id": "B",
+      "label": "Single list \u00b7 side scatter",
+      "description": "One continuous contents list with a staggered photographic edge.",
+      "columns": [
+        {
+          "first": 0,
+          "count": 14,
+          "x": 17,
+          "y": 62,
+          "width": 90,
+          "row": 10.5
+        }
+      ],
+      "photos": [
+        {
+          "id": 16,
+          "x": 111,
+          "y": 12,
+          "size": 29
+        },
+        {
+          "id": 10,
+          "x": 148,
+          "y": 26,
+          "size": 29
+        },
+        {
+          "id": 1,
+          "x": 115.4,
+          "y": 73,
+          "size": 29
+        },
+        {
+          "id": 5,
+          "x": 148.2,
+          "y": 93,
+          "size": 29
+        },
+        {
+          "id": 6,
+          "x": 115.4,
+          "y": 126,
+          "size": 29
+        },
+        {
+          "id": 9,
+          "x": 148.2,
+          "y": 146,
+          "size": 29
+        },
+        {
+          "id": 15,
+          "x": 115.4,
+          "y": 179,
+          "size": 29
+        },
+        {
+          "id": 13,
+          "x": 148.2,
+          "y": 197,
+          "size": 29
+        }
+      ]
+    },
+    {
+      "id": "C",
+      "label": "Contents between pictures",
+      "description": "A centred two-column list framed by loose upper and lower picture groups.",
+      "columns": [
+        {
+          "first": 0,
+          "count": 7,
+          "x": 17,
+          "y": 102,
+          "width": 75.5,
+          "row": 11.8
+        },
+        {
+          "first": 7,
+          "count": 7,
+          "x": 101.5,
+          "y": 102,
+          "width": 75.5,
+          "row": 11.8
+        }
+      ],
+      "photos": [
+        {
+          "id": 16,
+          "x": 111,
+          "y": 12,
+          "size": 29
+        },
+        {
+          "id": 10,
+          "x": 148,
+          "y": 26,
+          "size": 29
+        },
+        {
+          "id": 6,
+          "x": 17,
+          "y": 60,
+          "size": 29
+        },
+        {
+          "id": 15,
+          "x": 82.6,
+          "y": 60,
+          "size": 29
+        },
+        {
+          "id": 1,
+          "x": 17,
+          "y": 193,
+          "size": 29
+        },
+        {
+          "id": 5,
+          "x": 49.8,
+          "y": 195,
+          "size": 29
+        },
+        {
+          "id": 9,
+          "x": 115.4,
+          "y": 190,
+          "size": 29
+        },
+        {
+          "id": 13,
+          "x": 148.2,
+          "y": 197,
+          "size": 29
+        }
+      ]
+    },
+    {
+      "id": "D",
+      "label": "Staggered columns",
+      "description": "Contents columns start at different heights, with photos filling the open corners.",
+      "columns": [
+        {
+          "first": 0,
+          "count": 7,
+          "x": 17,
+          "y": 62,
+          "width": 75.5,
+          "row": 13
+        },
+        {
+          "first": 7,
+          "count": 7,
+          "x": 101.5,
+          "y": 111,
+          "width": 75.5,
+          "row": 12.5
+        }
+      ],
+      "photos": [
+        {
+          "id": 16,
+          "x": 111,
+          "y": 12,
+          "size": 29
+        },
+        {
+          "id": 10,
+          "x": 148,
+          "y": 26,
+          "size": 29
+        },
+        {
+          "id": 6,
+          "x": 115.4,
+          "y": 65,
+          "size": 29
+        },
+        {
+          "id": 9,
+          "x": 148.2,
+          "y": 79,
+          "size": 29
+        },
+        {
+          "id": 1,
+          "x": 17,
+          "y": 160,
+          "size": 29
+        },
+        {
+          "id": 5,
+          "x": 49.8,
+          "y": 176,
+          "size": 29
+        },
+        {
+          "id": 13,
+          "x": 17,
+          "y": 193,
+          "size": 29
+        },
+        {
+          "id": 15,
+          "x": 82.6,
+          "y": 201,
+          "size": 29
+        }
+      ]
+    }
+  ],
+  "delivery": "DELIVERY.json",
+  "approvalRecord": "APPROVAL.json"
+}

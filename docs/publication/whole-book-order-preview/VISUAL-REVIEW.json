@@ -1,89 +1,31 @@
 {
-  "date": "2026-11-03",
-  "status": "Current correction passed native source and visual checks; not publication approval",
-  "pdfSha256": "8c75e0eb9114005edd7516bf2d86855cf90110e4d2fff0ee48a146571afbeea6",
-  "interiorPages": 176,
-  "pdfPages": 180,
-  "method": "All 180 final pages rendered; all 44 revised Key risks strips inspected from actual PDFs, plus final Broccoli/Spinach facing spreads. Exact source comparisons cover every assembled page.",
-  "spreadFoliosInspected": [
-    [
-      28,
-      29
+  "date": "2026-11-22",
+  "status": "All native/source and reading-copy comparisons passed; rendered contact sheets visually inspected",
+  "pdfSha256": "8ac3bddaa4022fc32794931ebec6b9eeab6c2a428ce0bfb3965bfad8278cf95c",
+  "integrationReceipt": "integration-2026-11-22/INTEGRATION-CHECKS.json",
+  "pagesRendered": 180,
+  "nativeSourceComparisons": 178,
+  "unchangedPixelsOutsideApprovedEdits": true,
+  "detail": "integration-2026-11-22/VISUAL-CHECKS.json",
+  "resolutionReport": "integration-2026-11-22/IMAGE-RESOLUTION.json",
+  "inspection": {
+    "date": "2026-11-22",
+    "reviewer": "Codex visual inspection; not new user or supplier approval",
+    "contacts": [
+      "openings-contact.jpg",
+      "techniques-a-contact.jpg",
+      "techniques-b-contact.jpg",
+      "guide-openings-contact.jpg",
+      "guide-practical-contact.jpg",
+      "covers-and-index-contact.jpg"
     ],
-    [
-      84,
-      85
+    "coverage": "All 88 guide pages, all 25 Techniques pages, seven opening/contents pages plus publication details, selected cover panels and four index pages. Native/source pixel comparison covers all 178 non-cover leaves; browsing comparison covers all 180 pages.",
+    "findings": [
+      "No missing pictures, displaced text or new visible clipping in the inspected assembly.",
+      "Latest winter kale and watering proofs are placed; greenhouse correction and page 164 caption omission are visible.",
+      "Compost panorama retains its approved composition with the full-resolution source restored.",
+      "All previously approved guide artwork and retained functional diagrams carry forward.",
+      "Remaining print-resolution findings are recorded separately."
     ]
-  ],
-  "keyRiskFoliosInspected": [
-    10,
-    12,
-    14,
-    16,
-    18,
-    20,
-    22,
-    24,
-    26,
-    28,
-    30,
-    32,
-    34,
-    36,
-    38,
-    40,
-    42,
-    44,
-    46,
-    48,
-    50,
-    52,
-    54,
-    56,
-    58,
-    60,
-    62,
-    64,
-    66,
-    68,
-    70,
-    72,
-    74,
-    76,
-    78,
-    80,
-    82,
-    84,
-    86,
-    88,
-    90,
-    92,
-    94,
-    96
-  ],
-  "findings": [
-    "All 173 headings now follow sentence case, including wrapped labels and New Zealand.",
-    "Original Lilita One, type size, colour, baseline and line breaks retained.",
-    "No clipping, collisions or missing glyphs seen.",
-    "All other glyphs and image bytes match the source pages; descriptions, icons, order and selections unchanged.",
-    "Current main book retains 176 interior pages, 180 PDF pages and 590 checked internal links.",
-    "The previously checked Pests & diseases correction and approved contents reflow remain intact. Detailed Troubles titles remain unchanged."
-  ],
-  "checksRun": {
-    "routineTests": "43 passed",
-    "typeCheck": "passed",
-    "runtime": "Broccoli and Spinach actual compact PDFs, imperial and metric; every heading verified within its measured box",
-    "native": "All 44 opening pages; exact non-heading glyph and image preservation",
-    "assembly": "All 180 page bodies and 590 internal destinations, 554 numeric index references"
-  },
-  "keyRiskCorrection": "../key-risk-title-case/PDF-CHECKS.json",
-  "priorTableCorrection": "../pest-title-case/PDF-CHECKS.json",
-  "contentsApproval": "../contents-key-reflow/APPROVAL.json",
-  "introductionApprovalUpdate": {
-    "date": "2026-11-15",
-    "pdfSha256": "5b4856e75e23ddf0a2be9b17641cf5fb2844e9d4e0417eca9f6032bae3b3124d",
-    "folio": 7,
-    "result": "Installed page raster matches exact approved page pixel-for-pixel; other 179 page content streams/text and all links unchanged.",
-    "receipt": "docs/publication/whole-book-order-preview/integration-2026-11-15-introduction/INTEGRATION-CHECKS.json"
   }
 }

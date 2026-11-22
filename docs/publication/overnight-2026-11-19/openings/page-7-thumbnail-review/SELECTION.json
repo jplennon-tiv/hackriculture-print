@@ -1,0 +1,52 @@
+{
+  "date": "2026-11-22",
+  "folio": 7,
+  "userInstruction": "Too many pictures of me - let's just have the first and the third.",
+  "status": "Pictures 02 and 16 and their two-thumbnail page placement approved on 22 November; 12 removed",
+  "selectedNumbers": [
+    2,
+    16
+  ],
+  "entries": [
+    {
+      "number": 2,
+      "title": "Tomato harvest",
+      "kind": "Original camera photograph crop",
+      "file": "docs/publication/overnight-2026-11-19/openings/page-7-thumbnail-review/thumbnails/02-tomato-harvest.jpg",
+      "sha256": "716010ff624e6d496abbbede18b8ec558d5c09b865c1c032b7123c5c6a890558",
+      "original": "docs/assets/vegetable-guru-stock/john-gardening-2026-11-17/sources/T05_05m16s042_4K.png",
+      "originalSHA256": "53cb40d0389e366daaebcdb3b10879435290e213746aa6a5476fde53e2156e48",
+      "referenceID": "T05",
+      "crop": {
+        "left": 932,
+        "top": 11,
+        "width": 2052,
+        "height": 2052
+      }
+    },
+    {
+      "number": 16,
+      "title": "A pause on the plot",
+      "kind": "New generated photographic study",
+      "file": "docs/publication/overnight-2026-11-19/openings/page-7-thumbnail-review/thumbnails/16-a-pause-on-the-plot.png",
+      "sha256": "06c91e0c4e76a39d48e3b45e8a96b2c83e163c4187f6d6f7f646f0a30f50eaf0",
+      "master": "generated_images/exec-c80d439b-df2a-4166-afda-4abbb2180c35.png",
+      "masterSHA256": "d81a3325ab71f0058d0c9459eb799d44876ef51b6b7841970f7054ca7944665c",
+      "crop": {
+        "left": 629,
+        "top": 629,
+        "width": 623,
+        "height": 623
+      }
+    }
+  ],
+  "contactSheet": {
+    "file": "docs/publication/overnight-2026-11-19/openings/page-7-thumbnail-review/Vegetable-Guru-Introduction-Thumbnail-Choices.png",
+    "sha256": "9d3f77190d9f780cc2ffa1eb5d47bff1686b707d400a522d89ba99e85d434694",
+    "width": 1800,
+    "height": 2350
+  },
+  "scope": "Use the first and third selected pictures only (02 and 16). Approved introduction copy and 1991 photograph remain unchanged. No full-book integration.",
+  "supersedes": "Three-thumbnail placement shown in three-thumbnail-proof; retained for comparison.",
+  "approval": "two-thumbnail-proof/APPROVAL.json"
+}

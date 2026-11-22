@@ -1,0 +1,65 @@
+{
+  "date": "2026-11-22",
+  "status": "Option 01 approved by John after numerical and visual checks; see APPROVAL.json",
+  "pdf": {
+    "file": "output/pdf/title-page-trials/mixed-size-variations/Vegetable-Guru-Title-Page-Six-Variations.pdf",
+    "sha256": "0c568115235a249691501a83a7742d63b58be7f80449e8690a0318cfff3e41bb",
+    "pages": 6,
+    "trimMM": [
+      185,
+      240
+    ]
+  },
+  "renders": [
+    {
+      "id": "01",
+      "file": "docs/publication/overnight-2026-11-19/openings/title-page-trials/mixed-size-variations/01.png",
+      "sha256": "43a87179f266457395327cd241dcc60505c125ea65eca2f4d7f3cd15d10bb5a3"
+    },
+    {
+      "id": "02",
+      "file": "docs/publication/overnight-2026-11-19/openings/title-page-trials/mixed-size-variations/02.png",
+      "sha256": "a752af375b5c67732099cad4042001959b52879e2b7562ef65c81485e7bdd1eb"
+    },
+    {
+      "id": "03",
+      "file": "docs/publication/overnight-2026-11-19/openings/title-page-trials/mixed-size-variations/03.png",
+      "sha256": "e0513cc96ce5f58fc4e6ba1ab6a3e2b2e12e911f028fd3eb15d844c253038a23"
+    },
+    {
+      "id": "04",
+      "file": "docs/publication/overnight-2026-11-19/openings/title-page-trials/mixed-size-variations/04.png",
+      "sha256": "af10be1a022e30c391bdadadf550cf1343902719f013cf088e952d3824927735"
+    },
+    {
+      "id": "05",
+      "file": "docs/publication/overnight-2026-11-19/openings/title-page-trials/mixed-size-variations/05.png",
+      "sha256": "485a3da72951704e72eb6fcd772ffa754dc932447f73328091b9d0d67fa37dd7"
+    },
+    {
+      "id": "06",
+      "file": "docs/publication/overnight-2026-11-19/openings/title-page-trials/mixed-size-variations/06.png",
+      "sha256": "00081ae44e1a1f8211ed1a09d6cae4b31b07abd5e4359ef12d2baba29b5842fa"
+    }
+  ],
+  "sourcesVerified": true,
+  "pictureCountEach": 5,
+  "roleCountEach": {
+    "large": 1,
+    "medium": 1,
+    "thumbnail": 3
+  },
+  "copyVerifiedOnAllPages": true,
+  "minimumEffectiveDPI": 161.97101449275362,
+  "productionStatus": "Layout comparison only; no full-book integration or supplier preparation",
+  "visualReview": {
+    "allSixPDFRenders": "Inspected together at 440 px wide per page for composition, hierarchy, complete photographs and consistency with the preceding A proof",
+    "fullRenderSize": [
+      "04",
+      "06"
+    ],
+    "result": "Readable complete copy; distinct size hierarchy; no clipped or overlapping artwork/type. Large images remain existing artwork; no new generation.",
+    "approval": "John approved option 01; see APPROVAL.json"
+  },
+  "approval": "APPROVAL.json"
+}

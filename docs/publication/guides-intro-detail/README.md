@@ -1,5 +1,7 @@
 # Vegetable Guides intro: approved three-panel page
 
+**22 November replacement approved and integrated:** the [selected page-9 index/calendar composition](../overnight-2026-11-19/openings/page-9-index-review/selected-thumbnails/APPROVAL.json), with the revised calendar paragraph and selected photographs, is installed in the [current full book](../whole-book-order-preview/README.md). Difficulty/Core Needs panels and the how-to heading are omitted as requested. The three-panel page below remains a historical approved source.
+
 **Approved by John on 31 October 2026** for interior page **9**, facing blank 8.
 John requested three separate panels, the heading above them, revised calendar
 copy and labels. His latest revision keeps only the first two difficulty examples

@@ -1,0 +1,35 @@
+{
+  "folio": 151,
+  "status": "For John's review",
+  "proof": "output/pdf/page-151-review/Vegetable-Guru-Page-151-Revised-Kale-Review.pdf",
+  "proof_sha256": "43a11d316337f4538772f2f9415162fde910c70eb3a834ae658724ec46ce4858",
+  "page_image": "output/pdf/page-151-review/Vegetable-Guru-Page-151-Revised-Kale-Review.png",
+  "previous_proof": "output/pdf/page-151-review/Vegetable-Guru-Page-151-Winter-Review.pdf",
+  "previous_proof_sha256": "eacac05213e7143acbb8a1a6707bee2b9f72de0337758b47f2fc227387083f9d",
+  "original_kale_master": "docs/publication/overnight-2026-11-19/techniques/page-151-same-bed-review/winter-revision/Cavolo-Nero-Early-Winter.png",
+  "cane_removal_intermediate": "generated_images/exec-d2c84b97-7d2e-4126-812d-965b9db83c95.png",
+  "cane_removal_sha256": "1f5a0443ea827f998cccbb305b25ef840ac640e326ffff4bf4b666b897d8be1e",
+  "master": "docs/publication/overnight-2026-11-19/techniques/page-151-same-bed-review/winter-revision/Cavolo-Nero-Early-Winter-Revised-View.png",
+  "master_sha256": "b3e913096305697bfe890db3bca5dfbd288bf98c9465bf474a38520394a9e514",
+  "original_generated_master": "generated_images/exec-a259e4ec-901c-4dda-a2f1-7719199321a8.png",
+  "placement_xywh_points": [
+    153.0,
+    502.92,
+    54,
+    54
+  ],
+  "square_frame_mm": [
+    19.05,
+    19.05
+  ],
+  "facing_approved_proof": {
+    "path": "output/pdf/page-150-review/Vegetable-Guru-Page-150-Square-Photo-Review.pdf",
+    "sha256": "51cb5c00ee2dd47a04bc38fda0b55fc7c85d3fff76c7e6ee938455dec104c211",
+    "pdf_page": 1
+  },
+  "unchanged_decoded_broad_beans_image": true,
+  "matching_text_and_pdf_page_content": true,
+  "matching_pixels_outside_kale_frame_at_172_8_dpi": true,
+  "removal_prompt": "Precise inpainting, object removal only, on the supplied 1:1 full-bleed early-December photograph of John's allotment. REMOVE THE FIVE TALL BAMBOO CANES used temporarily for the preceding broad bean bed. They are the five long, light tan poles that reach the top edge or run very high through the sky, passing in front of the far hedge. Their approximate horizontal positions at the top edge are 41%, 53%, 63%, 74%, and 90%; some lean diagonally along their lengths. Remove every visible section of those exact five poles, down to the ground or occlusion by kale. Fill only the narrow former cane silhouettes with the immediately adjoining pale grey sky, branches, hedge, grass or soil appropriate to each segment. Keep the short dark supports and the low horizontal mesh in the neighbouring background bed, the fine distant utility wires, and any twiggy plants. The crop, leaf shape, scars, insect holes, shadows, damp soil, shed, black water butt, brick path, season, focus, camera angle, exposure, fixed square framing and all other scene detail must remain as close to the input as possible. Do not place any new supports. Return just one matching 1:1 image with those five long poles gone.",
+  "viewpoint_prompt": "Make one precise, subtle change to this exact real-looking early-December photograph of mature Cavolo Nero growing in John's Cornish allotment. Rephotograph this same scene at the same moment from an ALMOST IDENTICAL nearby handheld viewpoint: the camera operator has stepped only about one brick's width farther to the right on the paved path, and turns the lens very slightly left towards the foreground kale. Approximately three to five degrees difference in horizontal viewing angle. Keep the camera height, focal length, image scale, time, lighting and full-bleed 1:1 square composition. It must look like a neighbouring frame, with small physically plausible parallax: the paver lines and view of the near side of the first kale read at a subtly different angle while the path still follows the right edge and the pale-green shed and cropped black water butt remain at the far right, almost the same size. The three actual plants remain at their same real bed positions with their exact natural uneven layout, drooping leaves, picked-leaf scars, small hole and the yellowing lower leaf. Preserve the close weathered leaf detail and all seasonal cues. Maintain the late-season grey sky, damp soil, scattered fallen leaves, hedge, roofs and neighbour's low mesh. The five obsolete tall bamboo canes are already gone: keep the skyline, hedge and bed free of those tall canes. No new objects, plants, camera-style effects, seasonal changes, reframing or full-face shift. Keep the change distinctly incremental, natural and visible in the perspective of the pavers and the foreground kale. One square photograph, edge to edge."
+}
