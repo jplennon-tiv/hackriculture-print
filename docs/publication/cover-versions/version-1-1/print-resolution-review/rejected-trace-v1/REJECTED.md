@@ -1,0 +1,1 @@
+John rejected the lettering on 22 November 2026: melted shapes and notches at edges in the title, ribbon and YouTube badge. This tracing approach is superseded by clean font-derived curves. Retained as evidence only; do not reuse or install.

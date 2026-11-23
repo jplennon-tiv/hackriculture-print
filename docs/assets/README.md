@@ -35,6 +35,10 @@ risk drawings and the approved starter-plot illustration respectively. All
 source files remain unchanged; editable wording is in shared `book.sectionOpeners`.
 The requested section order is implemented separately from design approval.
 
+## Photographic vegetable-header experiment — set aside
+
+The [22 November Carrot/Kale trials](../publication/vegetable-photo-header-trials-2026-11-22/README.md) use new generated photographs of plants growing in soil, grounded in John's camera views and the approved winter kale study. John set all three header layouts per crop aside on 22 November; the original illustrated headers stay. Preserve the experiment without integrating it or awaiting a selection. The linked ARTWORK.json preserves full prompts, exact references and masters. Earlier harvested cutouts are explicitly set aside after John's clarification.
+
 ## Compact guide design
 
 The publication format follows [Compact Book v1](../BOOK-PRINT-STYLE.md), with
@@ -238,6 +242,8 @@ planting assets remain. Git holds superseded versions.
 
 ## Current cover reconstruction sources
 
+**22 November approved cover:** the [corrected native-font wrap and component archive](../publication/cover-versions/version-1-1/print-resolution-review/PRESERVATION.md) are the current approved design. They preserve the high-resolution harvest layers, finer wood, clean font outlines, protected rear photos and revised spine positions. The earlier masters below remain historical sources; book installation and supplier geometry are separate.
+
 The [cover-source register](cover-sources/README.md) owns the source map for the
 numbered front covers 1–6, 6-1 and 6-2, retained 4a trials, their original photos
 and separate illustrations, edition stickers and the retained revision 07 back.
@@ -310,7 +316,7 @@ proof. G2/B5 remain historical selected sources. The retained [15 November revis
 
 ## Title, publication and welcome
 
-**Title page approved, 22 November:** John approved [exact option 01](../publication/overnight-2026-11-19/openings/title-page-trials/mixed-size-variations/APPROVAL.json), PDF page 1 of the six mixed-size trials: large tomatoes, medium rainbow chard and three small existing photographs. The displayed “Traditional measurements edition” wording is included in approval; branding and imprint are omitted. The exact title is installed in the [22 November assembly](../publication/whole-book-order-preview/README.md); publication page 2 retains its metadata but omits the measurement-edition prefix. Earlier alternatives and cover cutouts are retained. The [interior artwork audit](../publication/overnight-2026-11-19/ARTWORK-STATUS-2026-11-22.md) identifies retained diagrams and remaining production checks.
+**Current title/copyright approved, 22 November:** John selected [C — Pictures above](../publication/title-copyright-trials/APPROVAL.json), exact PDF page 4 of the five-page trials. Existing tomatoes at 54 mm, pea at 21 mm and chard at 36 mm sit above the title; core copyright and ISBN sit at the bottom. The native fonts, cream/green palette and “Traditional measurements edition” wording are retained; no branding/imprint. C is installed in the [current book](../publication/whole-book-order-preview/README.md); old publication page 2 and blank page 3 are removed, with downstream folios/references updated. Copyright year/ISBN remain placeholders. AI/design credit, source note and UK growing-conditions guidance are omitted for now as requested. The [earlier option 01](../publication/overnight-2026-11-19/openings/title-page-trials/mixed-size-variations/APPROVAL.json), all trial alternatives and exact prior book remain preserved. C’s tomato is approximately 207 dpi; its smaller placement resolves the former 162 dpi finding.
 
 The [7 October three-page compact proposal](../publication/vegetable-guru-opening-pages/REVIEW.html)
 uses selected G2 for title hierarchy, cream/green palette and the vegetable-tile

@@ -13,48 +13,13 @@ entry point for current decisions, component status, outstanding work and
 publication/automation boundaries. It distinguishes approved designs from
 working book proofs and historical evidence. Follow John's latest instruction.
 
-**Latest state, 22 November:** the [authorised integration pass](docs/publication/whole-book-order-preview/README.md) is complete: approved photographic openings and Techniques, all 44 latest vegetable guides and variety additions, and selected gold cover panels are in the current 176-page interior / 180-page screen book. Page 164's caption is removed, page 170's canes corrected and page 156's full-resolution approved panorama restored. Final resolution decisions remain for the title tomato and two cover raster placements; supplier work remains separate.
+**Latest state, 23 November:** the [restored-quality original-margin interior](docs/publication/bookvault-second-proof-2026-11-22/interior/quality-restored-option1/README.md) and unchanged production cover are supplier Approved. John reviewed the selected file and will order the next proof himself. The [local PDF cleanup](docs/maintenance/pdf-cleanup-2026-11-23/README.md) removed 38 obsolete diagnostics/intermediates (8.62 GB), preserving current printer files, source masters and approved proofs. The [header bleed correction](docs/publication/header-placement-review-2026-11-23/README.md) remains complete across all 88 guide and 47 Troubles pages. The [contents/index/Troubles follow-up](docs/publication/whole-book-order-preview/navigation-polish-2026-11-22/README.md) is installed. Contents have their original section names without Pt labels; 44 main vegetable-guide ranges are bold and other index references regular; Troubles banners tilt by 4° and FIX has no background. The earlier [six interior fixes](docs/publication/whole-book-order-preview/interior-six-fixes-2026-11-22/README.md) remain, including PART labels on section openers only. The [current book](docs/publication/whole-book-order-preview/README.md) remains **174 interior / 178 PDF pages**, retaining approved combined title/copyright C and the earlier two-page removal. All advice, artwork, 662 links and 89 bookmarks are preserved. The separately approved corrected cover wrap remains safely preserved; supplier work is separate.
 
-**Assembled book baseline, 3 November:** the approved [Lifting and using turf page](docs/publication/topic-pages/lifting-and-using-turf/README.md)
-is integrated after Digging at **162**, with updated contents, index, numbering
-and links. The book has **176 interior pages / 180 PDF pages**. Sowing is 163;
-Netting 164–165 and Supports 166–167 retain their facing spreads; Watering follows
-at 168, Greenhouses at 169–171, and the index at 172–175. A balancing blank follows at 176. The pH page remains at 152 and the approved guide intro at 9.
-The promotional slides project is complete. The
-[sixteen vegetable wording proposals](docs/publication/soil-acidity-crop-edits/DIFF.html)
-remain historical and unintegrated. John's 5 November guidance supersedes their
-retention policy: remove routine pH/liming references as each crop is reviewed,
-retaining only definite crop-specific needs. Canonical advice and supplier files are unchanged.
+The [garden-photo header experiment](docs/publication/vegetable-photo-header-trials-2026-11-22/README.md) is **set aside at John’s request**; original illustrated headers remain. The standard-setting second Bookvault proof now has [prepared production-colour files and checks](docs/publication/bookvault-second-proof-2026-11-22/README.md), including five focused photographic shadow corrections and consistent cream backgrounds. John reviewed them on 23 November and requested the header repair now completed above; he has now accepted the corrected proofs. The heavier-cover enquiry is deferred. The [readiness review](docs/publication/second-proof-readiness-2026-11-22.md) retains the remaining metadata and final supplier checks.
 
-**Post-proof work:** John has received the physical proof and is
-satisfied with its print quality, accurate colours, coated-paper feel and weight,
-and book size. The post-proof layout pass has started: all 44 vegetable guides
-now run in alphabetical order by their displayed titles, retaining their original
-category colours and complete facing pairs. Contents, index and internal page
-references follow that order. The approved larger category names now appear on both pages of all 44 guides. The
-[coloured contents and pale category key](docs/publication/contents-colour-study/key-preview/APPROVAL.json)
-are integrated at 4–5; the approved three-panel how-to revision is now at 9.
-The subsequent [page-9 revision](docs/publication/guides-intro-detail/README.md)
-is now approved: three how-to panels, revised calendar copy, two difficulty
-examples and restored needs captions. Its exact approved proof is now
-integrated in the complete book.
-John approved the [complete revised Troubles set](docs/publication/troubles-rollout/APPROVAL.json)
-on 31 October and requested main-book integration. The exact approved pages are
-now at **99–146**, retaining 220 conditions, 24 classified highlights, separate
-wrapping masks, 4 mm clearance, enlarged illustrations, importance order and
-natural trailing space. Potato slugs remain unstarred. Contents, index,
-bookmarks, crop links and numeric cross-references follow the revised locations.
-The [main-book evidence](docs/publication/whole-book-order-preview/README.md)
-records source preservation and actual PDF checks. Netting is now **164–165**,
-Supports **166–167**, and the index **172–175**.
-The [personal introduction](docs/publication/introduction-revision/README.md)
-is approved and installed. The
-[website is live](https://hackriculture.com/) and he confirms the SSL issue has
-resolved. The [current handover](docs/handover/START-HERE.md#resume-here) records
-where to resume, the website/print boundary and outstanding publication decisions.
-Preserve the exact ordered files for proof **BV3012332**. Physical quality is
-accepted; final corrections and publication preparation remain.
-Book sales have not been activated.
+The approved photographic openings and Techniques, all 44 latest guide pairs and thirteen variety derivatives remain installed. The caption omission, corrected greenhouse canes and full-resolution compost panorama are retained at current pages 162, 168 and 154. Contents are now 2–3, Introduction 5, Guides 7, Troubles 97, Techniques 145 and index 170–173. Older proof filenames retain prior folios; the current page map is authoritative.
+
+John accepted the physical proof’s print quality, colours, coated-paper feel, weight and size. That is physical-quality acceptance, not approval of revised supplier files. Preserve proof BV3012332 and all approved original components. Book sales remain inactive. The [current handover](docs/handover/START-HERE.md#resume-here) owns the next internal-page correction and publication boundaries. Canonical gardening advice is unchanged.
 
 Before design or artwork work, use the handover's
 [project skill map](docs/handover/START-HERE.md#design-skills--use-before-design-work)
@@ -91,15 +56,15 @@ in this and future sessions. Its maintained source is shared across the data,
 print, website and video projects.
 
 The [current full preview](docs/publication/whole-book-order-preview/REVIEW.html)
-contains **176 interior pages plus four cover leaves: 180 PDF pages**, Traditional measurements edition.
+contains **174 interior pages plus four cover leaves: 178 PDF pages**, Traditional measurements edition.
 The October reader edits, expanded Crop rotation & planning, the nutrient page
 and John's Growing Techniques headings, Netting and Supports are integrated. Its two internal
 blank pages have been removed. All 44 vegetables remain two-page facing guides. Contents, index and
 page references are refreshed; editing annotations are absent. The approved Troubles highlights remain intentional. Canonical advice is unchanged; the previously approved 24 star flags are retained. [Current page map and evidence](docs/publication/whole-book-order-preview/README.md).
 
-The opening sequence is title, publication, blank 3, facing contents 4–5,
-blank 6, Introduction 7, blank 8 and the approved Guides index/calendar at 9. Troubles and
-Techniques start on right-hand pages 99 and 147. The selected gold cover panels are included for screen review. Publication metadata remains as placeholders; final supplier files are separate. G2/B5 remain historical references.
+The opening sequence is combined title/copyright 1, facing contents 2–3,
+blank 4, Introduction 5, blank 6 and the approved Guides index/calendar at 7. Troubles and
+Techniques start on right-hand pages 97 and 145. The selected gold cover panels remain included for screen review; the corrected wrap is separately approved. Copyright year and ISBN remain placeholders. Final supplier files are separate. G2/B5 remain historical references.
 Exact component sources are in the [asset registry](docs/assets/README.md).
 The older [technical pack](docs/publication/book-preparation/REVIEW.html) is
 historical evidence, not the current complete book or a current production specification.
@@ -110,7 +75,7 @@ admin password. Keep its terminal open; Control-C stops it. Admin saves and
 browser-rendered PDFs need this server. Normal exports use no AI service.
 Detailed startup and check commands are in [SETUP.md](SETUP.md).
 
-The current index has 307 entries and 36 see references on pages 172–175.
+The current index has 307 entries and 36 see references on pages 170–173.
 Contents use the approved photographic pages with 84 entries, one Vegetable Guides section heading and no category colours/key. [Contents notes](docs/publication/contents-update/README.md) and
 [index notes](docs/publication/book-index/README.md) distinguish current derivatives
 from frozen approvals.

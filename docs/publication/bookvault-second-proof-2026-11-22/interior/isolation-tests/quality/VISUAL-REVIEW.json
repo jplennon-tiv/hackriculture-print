@@ -1,0 +1,56 @@
+{
+  "reviewed_at": "2026-11-23T19:52:20.908998+00:00",
+  "status": "Review complete; recommendations not installed or approved",
+  "comparison_pdf": "output/pdf/bookvault-isolation-2026-11-23/Vegetable-Guru-Quality-Comparison.pdf",
+  "pdf_sha256": "499fb46c081c59c56d0e9135b32d065ae1cfc6842f66c4672544a9948f069781",
+  "page_count": 11,
+  "book_overview": {
+    "pages": 174,
+    "dpi": 120,
+    "contact_sheets_seen": 9,
+    "finding": "No missing page, main content block or artwork found at overview scale."
+  },
+  "details_300dpi_seen": [
+    2,
+    7,
+    24,
+    25,
+    67,
+    98,
+    146,
+    154,
+    162,
+    167
+  ],
+  "report_pages_rendered": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "report_contact_sheet_seen": true,
+  "report_crop_revision": "Pages 2, 24, 25 and 98 comparison crops now include complete contents names, complete header titles/badges and both complete planting diagrams.",
+  "additional_check": {
+    "page": 131,
+    "dpi": 180,
+    "finding": "Apparent small-contact banner clipping investigated; source and diagnostic both contain full identical banner."
+  },
+  "text_evidence": "TEXT-RECONCILIATION.json",
+  "numeric_evidence": "CHECKS.json",
+  "recommendation_record": "README.md",
+  "source_master_unchanged": true,
+  "canonical_data_unchanged": true,
+  "production_replacement_installed": false,
+  "limitations": [
+    "Not a line-by-line editorial proofread.",
+    "Not a physical-print colour contract.",
+    "Local checks are not certified PDF/X conformance validation."
+  ]
+}

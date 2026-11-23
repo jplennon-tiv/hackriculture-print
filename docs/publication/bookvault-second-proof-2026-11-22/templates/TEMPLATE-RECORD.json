@@ -1,0 +1,46 @@
+{
+  "date": "2026-11-22",
+  "source": "Bookvault live public quote tool and displayed PDF template",
+  "quote_url": "https://quote.bookvault.app/",
+  "selected_specification": {
+    "trim_mm": [
+      185,
+      240
+    ],
+    "interior_pages": 174,
+    "colour_pages": 174,
+    "mono_pages": 0,
+    "paper": "150 gsm coated",
+    "binding": "Perfect Bound",
+    "lamination": "Matt",
+    "cover_stock": "Cover Board",
+    "toner": false,
+    "bespoke_finishes": false
+  },
+  "printing_only_quote_gbp": 6.5,
+  "quote_limit": "UK1\u201399-copy tier; excludes shipping and any account-specific or tax adjustments. No order or account mutation.",
+  "cover_template_url": "https://bookvault-template.s3.eu-west-1.amazonaws.com/v4_PerfectBound_Cover_240_185_12.006.pdf",
+  "interior_template_url": "https://bookvault-template.s3.eu-west-1.amazonaws.com/v4_Text_240_185.pdf",
+  "cover_spine_mm_from_generated_url": 12.006,
+  "cover_document_mm_derived": [
+    388.006,
+    246
+  ],
+  "cover_displayed_rounded_labels": {
+    "spine_mm": 12,
+    "document_mm": [
+      388,
+      246
+    ],
+    "panel_mm": [
+      185,
+      240
+    ],
+    "bleed_mm": 3
+  },
+  "local_template_bytes_available": false,
+  "download_limit": "Browser displayed the actual cover PDF. Both documented download methods failed to save it; direct file transfer was unavailable. No downloaded file or exact MediaBox verification is claimed.",
+  "page_count_handling": "Retain174 supplied interior pages exactly, as entered and accepted by the public quote. Bookvault may append its manufacturing barcode and padding. No automatic end-page positions/count beyond supplied174 have been confirmed. Check final account validation/preview at stage5.",
+  "production_barcode_guidance": "https://help.bookvault.app/blank-page-and-barcode",
+  "fresh_account_template_verification": "Checked 23 November after saving title 3822688 at 174 pages. Fresh account URL ends _12.pdf; actual downloaded MediaBox 388.000169 x 246.000058 mm; labelled spine 12 mm. See ../ACCOUNT-UPLOAD-2026-11-23.json for exact source, hash and upload blocker. Original public-quote provenance above is retained."
+}

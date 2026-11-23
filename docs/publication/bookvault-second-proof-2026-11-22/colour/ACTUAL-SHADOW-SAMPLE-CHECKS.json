@@ -1,0 +1,77 @@
+{
+  "pdf": "output/pdf/bookvault-second-proof-2026-11-22/interior/Vegetable-Guru-Print-Shadow-Samples.pdf",
+  "sha256": "28ef9fbbbbab387e14fd0c7207c6abbd509fd2fda157ccebdb7234c026458829",
+  "method": "Independent same-profile LittleCMS transforms of retained source sRGB art; compare actual PDF CMYK image samples, with full four-sided outside-region byte checks. Native text checked separately by production agent.",
+  "pages": [
+    {
+      "folio": 154,
+      "artSizePixels": [
+        4512,
+        5812
+      ],
+      "selectedPixelBox": [
+        504,
+        1108,
+        3796,
+        2484
+      ],
+      "actualChangedBounds": [
+        504,
+        1108,
+        3796,
+        2484
+      ],
+      "outsideAllByteIdentical": true,
+      "insideExactlyMatchesIndependentBpcTransform": true,
+      "actualArtSha256": "9db37f5c43927875ac986c98ccc310f4668f6bec23d591c9b02bdecd79cff23e"
+    },
+    {
+      "folio": 155,
+      "artSizePixels": [
+        4512,
+        5812
+      ],
+      "selectedPixelBox": [
+        910,
+        1243,
+        2285,
+        2243
+      ],
+      "actualChangedBounds": [
+        910,
+        1243,
+        2285,
+        2243
+      ],
+      "outsideAllByteIdentical": true,
+      "insideExactlyMatchesIndependentBpcTransform": true,
+      "actualArtSha256": "c18a698439fab4b3747c7c564e2c76f826227de1cac6e98dfbb784813aa216a9"
+    },
+    {
+      "folio": 168,
+      "artSizePixels": [
+        4512,
+        5812
+      ],
+      "selectedPixelBox": [
+        258,
+        2855,
+        2077,
+        4068
+      ],
+      "actualChangedBounds": [
+        258,
+        2855,
+        2077,
+        4068
+      ],
+      "outsideAllByteIdentical": true,
+      "insideExactlyMatchesIndependentBpcTransform": true,
+      "actualArtSha256": "74da6ba4ab40ecd2e8b2655f8aa427430addfa344058365cb7d6c1f1476b522a"
+    }
+  ],
+  "visualRenderDpi": 150,
+  "visualReview": "All three actual PDF pages inspected through explicit sRGB display and FOGRA39 default CMYK profiles; useful photo texture retained and no visible photo-boundary artefacts. Whole-book native text checks are separate.",
+  "layoutReleaseStatus": "Sample positions confirmed correct by root and independent sequential144dpi rerender; whole-book native text visibility and geometry checks are separate.",
+  "isFinalReleaseFile": false
+}

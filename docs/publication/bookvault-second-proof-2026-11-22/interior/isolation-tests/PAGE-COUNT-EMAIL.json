@@ -1,0 +1,69 @@
+{
+  "subject": "BookVAULT Text Error",
+  "date_header": "2026-11-23T14:31:23+00:00",
+  "gmail_message_id": "1a208d19c4e909ac",
+  "email_link": "https://mail.google.com/mail/u/?authuser=jplennon.tiv%40gmail.com#all/1a208d19c4e909ac",
+  "sku": "9669932000017",
+  "expected_pages": 174,
+  "reported_file_pages": 168,
+  "filename_or_validation_event_identifier": null,
+  "interpretation": "The 168-page count matches the old October edition revalidated after the 174-page specification change. This is a plausible attribution, not proven by the notice, which names no upload file or event. The notice predates the later PDF/X and font/300dpi/combined tests and cannot by itself explain their results.",
+  "page_count_recheck": [
+    {
+      "path": "output/pdf/bookvault-print-ready/the-vegetable-guru-interior.pdf",
+      "pages": 168,
+      "role": "October accepted original"
+    },
+    {
+      "path": "output/pdf/header-placement-review-2026-11-23/Vegetable-Guru-Interior-Corrected-Headers.pdf",
+      "pages": 174,
+      "role": "interior"
+    },
+    {
+      "path": "output/pdf/header-placement-review-2026-11-23/Vegetable-Guru-Interior-Supplier-Compatible.pdf",
+      "pages": 174,
+      "role": "interior_compatibility_retry"
+    },
+    {
+      "path": "output/pdf/header-placement-review-2026-11-23/Vegetable-Guru-Interior-PDFX3.pdf",
+      "pages": 174,
+      "role": "interior_pdfx3_retry"
+    },
+    {
+      "path": "output/pdf/header-placement-review-2026-11-23/Vegetable-Guru-Interior-PDFX3-Optimised.pdf",
+      "pages": 174,
+      "role": "interior_optimised_pdfx3_retry"
+    },
+    {
+      "path": "output/pdf/header-placement-review-2026-11-23/Vegetable-Guru-Interior-PDFX1a.pdf",
+      "pages": 174,
+      "role": "interior_pdfx1a_retry"
+    },
+    {
+      "path": "output/pdf/header-placement-review-2026-11-23/Vegetable-Guru-Interior-Nunito-Fractions.pdf",
+      "pages": 174,
+      "role": "interior_nunito_fractions_retry"
+    },
+    {
+      "path": "output/pdf/header-placement-review-2026-11-23/Vegetable-Guru-Interior-Nunito-Bold.pdf",
+      "pages": 174,
+      "role": "interior_nunito_bold_retry"
+    },
+    {
+      "path": "output/pdf/header-placement-review-2026-11-23/Vegetable-Guru-Interior-All-300dpi.pdf",
+      "pages": 174,
+      "role": "interior_all_300dpi_retry"
+    },
+    {
+      "path": "output/pdf/header-placement-review-2026-11-23/Vegetable-Guru-Interior-Gutter20-Outlined.pdf",
+      "pages": 174,
+      "role": "interior_gutter20_outlined_retry"
+    },
+    {
+      "path": "output/pdf/header-placement-review-2026-11-23/Vegetable-Guru-Interior-Gutter20-Native.pdf",
+      "pages": 174,
+      "role": "interior_gutter20_native_isolation"
+    }
+  ],
+  "checked_at": "2026-11-23T19:27:44.163390+00:00"
+}

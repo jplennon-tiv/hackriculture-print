@@ -1,0 +1,71 @@
+{
+  "file": "output/pdf/bookvault-second-proof-2026-11-22/cover/Vegetable-Guru-Second-Proof-Cover-CMYK.pdf",
+  "sha256": "a37c9d4216c14643bd7bb46c9fd066bf12fe400a6301365e01b997a8e0821a8e",
+  "bytes": 119456583,
+  "profileSha256": "c6b4b62f0726243742eced8b9669476a6be89e581f50a7600ed8b6fcbb9cdab8",
+  "profileByteIdenticalToAcceptedFirstProof": true,
+  "independentPhotoChecks": [
+    {
+      "photo": "colander",
+      "pixelBox": [
+        2268,
+        1252,
+        3230,
+        2185
+      ],
+      "exactIndependentBpcMatch": true
+    },
+    {
+      "photo": "kneeling-john",
+      "pixelBox": [
+        296,
+        3166,
+        1257,
+        4098
+      ],
+      "exactIndependentBpcMatch": true
+    }
+  ],
+  "outsidePhotoPixelsCompared": 51479594,
+  "outsidePhotoByteIdentical": true,
+  "outsidePhotoBaselineSha256": "651cedd6ade4bd93e19ec380d5fcbac2467542c9b9ae7eb768ebf7b4358df80a",
+  "outsidePhotoActualSha256": "651cedd6ade4bd93e19ec380d5fcbac2467542c9b9ae7eb768ebf7b4358df80a",
+  "visualReview": {
+    "wholeWrap": true,
+    "renderDpi": 150,
+    "renderer": "Poppler with explicit sRGB display and FOGRA39 default CMYK",
+    "result": "Clear genuine vector lettering and native text; both corrected rear tiles retain useful shadow detail; no visible photo-boundary artefacts; front harvest and warm background retain intended contrast."
+  },
+  "producerEvidence": {
+    "genuineFontOutlineGroups": 29,
+    "glyphGeometryDeltaPt": 1.831998588386341e-07,
+    "activeTransparency": [],
+    "artRecomposition600Dpi": {
+      "dpi": 600,
+      "excluded": "Actual type-only painted pixels plus 2-pixel antialias halo",
+      "compared_pixels": 49375559,
+      "maximum_channel_difference": 12,
+      "mean_channel_difference": 3.1729598578654406e-07,
+      "changed_pixels": 2,
+      "render_hashes": {
+        "cover-native-600dpi.png": "460e84053b2d1736dd00de3443360b5880a4ba824ff026fd6b5a19e13fc2b014",
+        "cover-art-600dpi.png": "0be085ff4e8808d54a1d83003e018289bf4fabec1fc544cf29db8d7c82b4cd35",
+        "cover-type-600dpi.png": "225d698f5a2f0e04279abe482cbc22ac5cf5f9f935ba4f170c61757eb3467f3a"
+      },
+      "native_pdf_sha256": "172626821cc9441d68fc996b5699a3e5408a48962ab9418502cad39f7a8a54a7",
+      "assessment": "49,375,557 of 49,375,559 tested non-type pixels are exact. Two isolated renderer samples differ by at most 12/255; no visible layout or artwork change.",
+      "residual_pixels_xy": [
+        [
+          8841,
+          4631
+        ],
+        [
+          7895,
+          4870
+        ]
+      ]
+    },
+    "measuredMaximumInkPercent": 300.784
+  },
+  "scope": "Production colour review complete for this exact cover. No physical colour guarantee, supplier upload approval or metadata approval."
+}

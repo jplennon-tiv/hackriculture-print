@@ -1,0 +1,384 @@
+{
+  "date": "2026-11-22",
+  "status": "Native cover preservation and visual review complete; supplier-template and metadata checks remain separate.",
+  "template": {
+    "geometry_record": "docs/publication/bookvault-second-proof-2026-11-22/cover/SUPPLIER-GEOMETRY.json",
+    "geometry_record_sha256": "c7ac25a9794f38d8664905a0ff895f88d8238f79c82a818e81f018be653a4fdd",
+    "source_url": "https://bookvault-template.s3.eu-west-1.amazonaws.com/v4_PerfectBound_Cover_240_185_12.006.pdf",
+    "media_mm": [
+      388.006,
+      246.0
+    ],
+    "local_template_mediabox_verified": false,
+    "basis": "Exact spine value in fresh supplier-generated template URL; browser-visible printed measurements rounded. Local template bytes unavailable."
+  },
+  "spine_mm": 12.005999999999977,
+  "panels_mm": [
+    185,
+    12.005999999999977,
+    185
+  ],
+  "bleed_mm": 3,
+  "spine_type": [
+    {
+      "center_from_top_mm": 90,
+      "font_file": "richer-a-1.woff2",
+      "ink_bottom_mm": 119.74269444444445,
+      "ink_left_mm": 2.8174166666666554,
+      "ink_right_mm": 9.188583333333321,
+      "ink_top_mm": 60.257305555555554,
+      "size_pt": 20,
+      "text": "The Vegetable Guru",
+      "tracking_pt": 0.24
+    },
+    {
+      "center_from_top_mm": 140,
+      "font_file": "richer-a-6.woff2",
+      "ink_bottom_mm": 153.69388151804606,
+      "ink_left_mm": 4.424319444444434,
+      "ink_right_mm": 7.581680555555543,
+      "ink_top_mm": 126.30611848195394,
+      "size_pt": 12.5,
+      "text": "John Lennon",
+      "tracking_pt": 0.37
+    }
+  ],
+  "source_preservation": {
+    "Rear": {
+      "native_content_stream_exact": true,
+      "sha256": "83796d3864316ab5c730808ff832873eec486d1ee2dcc5d68e44dbba1ff4ad82"
+    },
+    "Front": {
+      "native_content_stream_exact": true,
+      "sha256": "637a6892c335ce5443015d026e2ab22678b05c84e2eb78b3dc715da0e9e98800"
+    }
+  },
+  "protected_rear_photographs": [
+    {
+      "photo": 1,
+      "encoded_jpeg_sha256": "6697c9bc9487109f82cd9e5436f4fae04984b5357345d36ee299716a922a2639",
+      "exact": true
+    },
+    {
+      "photo": 2,
+      "encoded_jpeg_sha256": "fc6e0c1cd47135eab685c8787a4b8a4111c7a130e876aa3a697f9787d1b4f868",
+      "exact": true
+    },
+    {
+      "photo": 3,
+      "encoded_jpeg_sha256": "369043109649dc48b07a30092c66182373d6edca70d89b982864a6ccf2cb9c8c",
+      "exact": true
+    },
+    {
+      "photo": 4,
+      "encoded_jpeg_sha256": "ada8c5bcf3408273feb4ab07a559a845462d99b081823df6b8b44dd4501beb56",
+      "exact": true
+    },
+    {
+      "photo": 5,
+      "encoded_jpeg_sha256": "f7a37ecc4a37e7eb7e5e2c7cb453ec13e38a42d839c53313306f9275efdcdfc4",
+      "exact": true
+    },
+    {
+      "photo": 6,
+      "encoded_jpeg_sha256": "83668bd67c17e1f7d7d7d256570610b4779ccaf9c30da35552c6a5042e75acf4",
+      "exact": true
+    },
+    {
+      "photo": 7,
+      "encoded_jpeg_sha256": "58e8265bf63a47f8ac3ddb4f6c3ab3288305b434543af37c4fa0b53800996d20",
+      "exact": true
+    },
+    {
+      "photo": 8,
+      "encoded_jpeg_sha256": "ecfecc107c595b2be3b21d467213dab189f219fa8216831bffe64c9a65bed74c",
+      "exact": true
+    },
+    {
+      "photo": 9,
+      "encoded_jpeg_sha256": "8ea3c07a60099aa3f7e1a10db9dde0fa996f832452aa91e3be4f58a594b2042a",
+      "exact": true
+    },
+    {
+      "photo": 10,
+      "encoded_jpeg_sha256": "0b99f2d8450a37f7c3817b286e72afcc237b63c3ae53309968903d6418ec08d4",
+      "exact": true
+    },
+    {
+      "photo": 11,
+      "encoded_jpeg_sha256": "3df6d3c96b9a906bb8ce1b987c3828a8e7cf0887336d0620c3362bab69e14482",
+      "exact": true
+    },
+    {
+      "photo": 12,
+      "encoded_jpeg_sha256": "9fe25433e7388f3064bccbeaa921d33fa763a5014b93d1b996e6cd4b481aa512",
+      "exact": true
+    },
+    {
+      "photo": 13,
+      "encoded_jpeg_sha256": "2f86bca4588b89edd9d7d0dc71183c907596fdff9c25a5b2c1ff8b1622879103",
+      "exact": true
+    },
+    {
+      "photo": 14,
+      "encoded_jpeg_sha256": "6e00dddded712d5af6dcd02cdccf9dcb66467e52f3f486ed878bd8bfc13ae31f",
+      "exact": true
+    },
+    {
+      "photo": 15,
+      "encoded_jpeg_sha256": "e1d9fb0a48c8404d5ebd75baf392319473c2ddc1d0b1efcfb5468eea2de60015",
+      "exact": true
+    },
+    {
+      "photo": 16,
+      "encoded_jpeg_sha256": "f0dfe65ad863d96e84224592c7acce541eed3652db92dab6604472252ec52fb9",
+      "exact": true
+    }
+  ],
+  "nonvisual_cleanup": "Removed only the empty BT/ET default Helvetica setup and unused unembedded font resource from the rear wood-background form. No drawn text, photographs or outer rear content changed.",
+  "embedded_fonts": [
+    {
+      "location": "page//ApprovedTrim//Rear//TT1",
+      "font": "/AAAAAB+LilitaOne",
+      "embedded": true
+    },
+    {
+      "location": "page//ApprovedTrim//Rear//TT2",
+      "font": "/AAAAAC+NunitoSans12ptExtraLight12pt-Regular_wght3520000",
+      "embedded": true
+    },
+    {
+      "location": "page//ApprovedTrim//Rear//TT3",
+      "font": "/AAAAAD+NunitoSans12ptExtraLight12pt-Regular_Bold",
+      "embedded": true
+    },
+    {
+      "location": "page//ApprovedTrim//Rear//TT4",
+      "font": "/AAAAAE+NunitoSans12ptExtraLight12pt-Regular_wght21C0000",
+      "embedded": true
+    },
+    {
+      "location": "page//ApprovedTrim//Rear//TT5",
+      "font": "/AAAAAF+NunitoSans12ptExtraLight12pt-Regular_wght2D00000",
+      "embedded": true
+    },
+    {
+      "location": "page//ApprovedTrim//Rear//TT6",
+      "font": "/AAAAAG+LilitaOne",
+      "embedded": true
+    },
+    {
+      "location": "page//ApprovedTrim//Rear//TT7",
+      "font": "/AAAAAH+NunitoSans12ptExtraLight12pt-Regular_Bold",
+      "embedded": true
+    },
+    {
+      "location": "page//ApprovedTrim//Spine//TT1",
+      "font": "/AAAAAB+LilitaOne",
+      "embedded": true
+    },
+    {
+      "location": "page//ApprovedTrim//Spine//TT2",
+      "font": "/AAAAAC+NunitoSans12ptExtraLight12pt-Regular_wght33E0000",
+      "embedded": true
+    }
+  ],
+  "trim_pixel_comparison_254dpi": {
+    "reference": "Unmodified approved front/rear PDFs positioned on the same viewport, plus the adapted spine. Includes verification that removal of unused background font changes no visible pixels.",
+    "maximum_channel_difference": 0,
+    "mean_channel_difference": 0.0
+  },
+  "bleed_method": "Only external 3 mm strips. Front: existing SVG geometry extended beyond trim at the original physical scale, with continued wood tiles and extended Organic ribbon polygon; real font paths and photograph bounds retained. Rear and spine wood-only edges: exact edge artwork reflected outward. Strips rendered at 600 dpi. Native approved trim artwork unchanged; no empty padding, whole-cover stretch, image generation or hidden duplicated text.",
+  "front_bleed_geometry": {
+    "svg": "docs/publication/bookvault-second-proof-2026-11-22/cover/front-bleed-source.svg",
+    "svg_sha256": "81513dff112d99d9252873bbd6f639a25131f930c0f43a1a0ef6a58cc2d7f35f",
+    "pdf": "output/pdf/bookvault-second-proof-2026-11-22/cover/front-bleed-source.pdf",
+    "pdf_sha256": "fe1dcda7491e4d97ea85676e6d82a33938c1c213fcd45f7e2b25ef3837200b2a"
+  },
+  "bleed_strips": [
+    {
+      "edge": "bottom",
+      "pixels": [
+        9024,
+        71
+      ],
+      "placement_mm": [
+        3.0,
+        0.0,
+        382.006,
+        3.0
+      ]
+    },
+    {
+      "edge": "top",
+      "pixels": [
+        9024,
+        71
+      ],
+      "placement_mm": [
+        3.0,
+        243.0,
+        382.006,
+        3.0
+      ]
+    },
+    {
+      "edge": "left",
+      "pixels": [
+        71,
+        5670
+      ],
+      "placement_mm": [
+        0.0,
+        3.0,
+        3.0,
+        240.0
+      ]
+    },
+    {
+      "edge": "right",
+      "pixels": [
+        71,
+        5670
+      ],
+      "placement_mm": [
+        385.006,
+        3.0,
+        3.0,
+        240.0
+      ]
+    },
+    {
+      "edge": "bottom-left",
+      "pixels": [
+        71,
+        71
+      ],
+      "placement_mm": [
+        0.0,
+        0.0,
+        3.0,
+        3.0
+      ]
+    },
+    {
+      "edge": "bottom-right",
+      "pixels": [
+        71,
+        71
+      ],
+      "placement_mm": [
+        385.006,
+        0.0,
+        3.0,
+        3.0
+      ]
+    },
+    {
+      "edge": "top-left",
+      "pixels": [
+        71,
+        71
+      ],
+      "placement_mm": [
+        0.0,
+        243.0,
+        3.0,
+        3.0
+      ]
+    },
+    {
+      "edge": "top-right",
+      "pixels": [
+        71,
+        71
+      ],
+      "placement_mm": [
+        385.006,
+        243.0,
+        3.0,
+        3.0
+      ]
+    },
+    {
+      "edge": "front-top",
+      "method": "extended approved SVG geometry",
+      "pixels": [
+        4370,
+        71
+      ],
+      "placement_mm": [
+        200.00599999999997,
+        243.0,
+        185.0,
+        3.0
+      ]
+    },
+    {
+      "edge": "front-bottom",
+      "method": "extended approved SVG geometry",
+      "pixels": [
+        4370,
+        71
+      ],
+      "placement_mm": [
+        200.00599999999997,
+        0.0,
+        185.0,
+        3.0
+      ]
+    },
+    {
+      "edge": "front-right-and-corners",
+      "method": "extended approved SVG geometry",
+      "pixels": [
+        71,
+        5812
+      ],
+      "placement_mm": [
+        385.0059999999999,
+        0.0,
+        3.0,
+        246.0
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "file": "output/pdf/cover-print-resolution-review/Vegetable-Guru-Front-Print-Resolution-Proposal.pdf",
+      "sha256": "0e43eff8b027ddd78592f2026afb49d721fb1093672a2f503c73a6382e4c062b"
+    },
+    {
+      "file": "output/pdf/cover-print-resolution-review/Vegetable-Guru-Rear-Print-Resolution-Proposal.pdf",
+      "sha256": "8ca5faa9c2a359a11f31b31949bb55d7e9ae2ff9d7facc18a6c8c77adb2db077"
+    },
+    {
+      "file": "output/pdf/cover-print-resolution-review/Vegetable-Guru-Corrected-Cover-Wrap-Proof.pdf",
+      "sha256": "5b1f446d33b80c5e4f4f7f340f6b772aa6c016f74ca6d41f4587391eeecdbf2b"
+    },
+    {
+      "file": "docs/publication/cover-versions/version-1-1/print-resolution-review/assets/retained-spine-grain-and-shadows.png",
+      "sha256": "82c43f67536a642a9d10f2472a2695572428d0342f8913f495d613e8db7af40b"
+    }
+  ],
+  "output": {
+    "file": "output/pdf/bookvault-second-proof-2026-11-22/cover/Vegetable-Guru-Second-Proof-Cover.pdf",
+    "bytes": 27294533,
+    "sha256": "172626821cc9441d68fc996b5699a3e5408a48962ab9418502cad39f7a8a54a7"
+  },
+  "limits": [
+    "Native RGB with existing transparency; no CMYK/PDF-X conversion or conformance claim.",
+    "Copyright/ISBN/price decisions and final supplier preflight remain later stages.",
+    "The provisional spine background is rescaled only horizontally to the supplier width; all type retains its approved physical size and vertical position.",
+    "Front bleed extends original SVG geometry; only rear/spine wood-only edges use reflection. No invented image content.",
+    "Downloaded template bytes and exact MediaBox comparison remain pending; dimensions follow the fresh supplier-issued URL, not a guessed spine."
+  ],
+  "visual_review": {
+    "full_wrap": true,
+    "spine_lettering_clear_of_shadow": true,
+    "organic_ribbon_bleed": true,
+    "lettering_curves_smooth": true,
+    "approved_source_comparison": true,
+    "date": "2026-11-22"
+  }
+}

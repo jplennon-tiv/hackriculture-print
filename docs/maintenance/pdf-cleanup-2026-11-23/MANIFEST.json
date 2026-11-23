@@ -1,0 +1,411 @@
+{
+  "date": "2026-11-23",
+  "authorisation": "Looks good! Are there a lot of orphaned PDF's lying around? Please clean up the old copies we won't be using going forwards. I'll place an order in Bookvault for the next print privew.",
+  "scope": "Only explicitly listed superseded diagnostic PDFs and rebuildable intermediates; no source artwork, approval proofs, current build inputs, cover components, other media, Git or sibling data changes.",
+  "candidateCount": 38,
+  "candidateBytes": 8618495658,
+  "entries": [
+    {
+      "path": "output/pdf/header-placement-review-2026-11-23/Vegetable-Guru-Interior-All-300dpi.pdf",
+      "bytes": 167984301,
+      "mtime": 1795458062.349929,
+      "sha256": "e63823a8d71b559622758918dc8809f460d5bc7a6426b00058cc1ecabca29a6f",
+      "reason": "Superseded failed supplier/font/resolution diagnostic; result and recipe retained"
+    },
+    {
+      "path": "output/pdf/header-placement-review-2026-11-23/Vegetable-Guru-Interior-PDFX1a.pdf",
+      "bytes": 206405096,
+      "mtime": 1795449379.461853,
+      "sha256": "c4e3299056c15f0c048fe1eb3e3b3cf2aabe1b792e904ffbdc32ebe20e6b9534",
+      "reason": "Superseded failed supplier/font/resolution diagnostic; result and recipe retained"
+    },
+    {
+      "path": "output/pdf/header-placement-review-2026-11-23/Vegetable-Guru-Interior-PDFX3-Optimised.pdf",
+      "bytes": 197344337,
+      "mtime": 1795448121.561023,
+      "sha256": "8e3f9a24cbcdbfe3b17009a940662a45c370307d7db07fe9483b43bf42e07d7c",
+      "reason": "Superseded failed supplier/font/resolution diagnostic; result and recipe retained"
+    },
+    {
+      "path": "output/pdf/header-placement-review-2026-11-23/Vegetable-Guru-Interior-Gutter20-Native.pdf",
+      "bytes": 168935887,
+      "mtime": 1795460396.6256635,
+      "sha256": "2b9f5974699d120c7b2120151e60c15c838267d9cfe0dd13dde7eaa97ba6fb1e",
+      "reason": "Superseded failed supplier/font/resolution diagnostic; result and recipe retained"
+    },
+    {
+      "path": "output/pdf/header-placement-review-2026-11-23/Vegetable-Guru-Interior-PDFX3.pdf",
+      "bytes": 545965373,
+      "mtime": 1795446187.7568026,
+      "sha256": "3fab6007b25ee8f88a568f1e346813e8c03bba0f181f013c9e2f84d667cd09f9",
+      "reason": "Superseded failed supplier/font/resolution diagnostic; result and recipe retained"
+    },
+    {
+      "path": "output/pdf/header-placement-review-2026-11-23/Vegetable-Guru-Interior-Supplier-Compatible.pdf",
+      "bytes": 662850119,
+      "mtime": 1795437550.0010076,
+      "sha256": "76c85908e3b29c4ffc0a72660ae62790f76b709d4fb4d8a511aee0c52e62b4cd",
+      "reason": "Superseded failed supplier/font/resolution diagnostic; result and recipe retained"
+    },
+    {
+      "path": "output/pdf/header-placement-review-2026-11-23/Vegetable-Guru-Interior-Nunito-Bold.pdf",
+      "bytes": 206404140,
+      "mtime": 1795456839.3091433,
+      "sha256": "9219a432b1be214452b48bbc68487c81f44affde17766ae56b28a7820a715243",
+      "reason": "Superseded failed supplier/font/resolution diagnostic; result and recipe retained"
+    },
+    {
+      "path": "output/pdf/header-placement-review-2026-11-23/Vegetable-Guru-Bold-Font-Checks.pdf",
+      "bytes": 6155077,
+      "mtime": 1795456844.087185,
+      "sha256": "2874113b5a5eaf18cd2290f0a441cedb687b6099c2f5b5d7dfe0a2765d61bb03",
+      "reason": "Superseded failed supplier/font/resolution diagnostic; result and recipe retained"
+    },
+    {
+      "path": "output/pdf/bookvault-isolation-2026-11-23/Vegetable-Guru-Interior-Original-Gutter-Outlined.pdf",
+      "bytes": 247343718,
+      "mtime": 1795462473.6270754,
+      "sha256": "05d3835cd6f8b907203ae1e17a45dd9725f21c96982fee322a5ee50677a35e68",
+      "reason": "Completed isolation control; selected restored-quality file supersedes it; results retained"
+    },
+    {
+      "path": "output/pdf/bookvault-isolation-2026-11-23/Vegetable-Guru-Interior-Original-Gutter-GS-Native.pdf",
+      "bytes": 168995423,
+      "mtime": 1795462624.6392264,
+      "sha256": "2989d0d3d63e29321bc07195fa782af4f9de8e578d21d4515b1ed1be667acecf",
+      "reason": "Completed isolation control; selected restored-quality file supersedes it; results retained"
+    },
+    {
+      "path": "tmp/pdfs/bookvault-supplier-compatibility/Vegetable-Guru-Interior-PDFX3-Candidate.pdf",
+      "bytes": 545907527,
+      "mtime": 1795437292.7422717,
+      "sha256": "ac8dddcb15b5774228c6233aa951ad7e9b257ede8f28de4cd4e50aa16b44e233",
+      "reason": "Disposable completed font/PDF-X experiment intermediate"
+    },
+    {
+      "path": "tmp/pdfs/bookvault-supplier-compatibility/normalised-type3.pdf",
+      "bytes": 795687696,
+      "mtime": 1795437188.6752102,
+      "sha256": "5bb1ad72e7077869081431b9c7b6d459dd19143062091cfff22201ea55fc5b1b",
+      "reason": "Disposable completed font/PDF-X experiment intermediate"
+    },
+    {
+      "path": "tmp/pdfs/bookvault-pdfx-retry/control-x3.pdf",
+      "bytes": 31397680,
+      "mtime": 1795445666.4029377,
+      "sha256": "1c87f69d600d3bee66a573166a1c4c387b245ed4fa8d74440b9fcd6c1888e50a",
+      "reason": "Disposable completed font/PDF-X experiment intermediate"
+    },
+    {
+      "path": "tmp/pdfs/bookvault-pdfx-retry/single-x3.pdf",
+      "bytes": 15166370,
+      "mtime": 1795445664.2409723,
+      "sha256": "6fa7c4d8864752930bbf854b0c6da0facadb4ed1cda7514b6646a662cedaf08d",
+      "reason": "Disposable completed font/PDF-X experiment intermediate"
+    },
+    {
+      "path": "tmp/pdfs/bookvault-pdfx-retry/single.pdf",
+      "bytes": 18399185,
+      "mtime": 1795445649.1890936,
+      "sha256": "0271bba26f9e115caf05c4f8dc8963ad2769019dcd20d5359cf4090cd1ccd7ee",
+      "reason": "Disposable completed font/PDF-X experiment intermediate"
+    },
+    {
+      "path": "tmp/pdfs/bookvault-pdfx-retry/unique-names.pdf",
+      "bytes": 38605235,
+      "mtime": 1795446002.6932411,
+      "sha256": "c86149205db03baa8841030bbb0c7ae9f78ed07f8e59fc3abbcebeae7789f7c5",
+      "reason": "Disposable completed font/PDF-X experiment intermediate"
+    },
+    {
+      "path": "tmp/pdfs/bookvault-pdfx-retry/renamed.pdf",
+      "bytes": 38588169,
+      "mtime": 1795445649.4910653,
+      "sha256": "423c1085fdf2a7a25e9faca2432e0b4e93f8eca564115463073669294e67ab94",
+      "reason": "Disposable completed font/PDF-X experiment intermediate"
+    },
+    {
+      "path": "tmp/pdfs/bookvault-pdfx-retry/unique-names-x3.pdf",
+      "bytes": 31407364,
+      "mtime": 1795446006.5508492,
+      "sha256": "e864818b0b0029f85e00288ac1727b89e327e2ac9a202a737679f7d7de752dab",
+      "reason": "Disposable completed font/PDF-X experiment intermediate"
+    },
+    {
+      "path": "tmp/pdfs/bookvault-pdfx-retry/control.pdf",
+      "bytes": 38588169,
+      "mtime": 1795445649.3517816,
+      "sha256": "16543531a06b3387051713de4ea89bab4878c4d58406ec954250ec8e6f02100d",
+      "reason": "Disposable completed font/PDF-X experiment intermediate"
+    },
+    {
+      "path": "tmp/pdfs/bookvault-pdfx-retry/renamed-x3.pdf",
+      "bytes": 31401435,
+      "mtime": 1795445666.4063344,
+      "sha256": "7c5def9d5c54c178edc559abc7ca596b538cbd02feee99b8b2c5413cfe31fa4b",
+      "reason": "Disposable completed font/PDF-X experiment intermediate"
+    },
+    {
+      "path": "tmp/pdfs/bookvault-pdfx-retry/interior-normalised-fonts.pdf",
+      "bytes": 663214720,
+      "mtime": 1795446050.6854708,
+      "sha256": "d9c7279ed8f0b79a1af6a8eb4457d5de9b15461bb8c80d33fcf433f0f3b0ef35",
+      "reason": "Disposable completed font/PDF-X experiment intermediate"
+    },
+    {
+      "path": "docs/publication/bookvault-second-proof-2026-11-22/interior/gutter-outline-retry/raw-Gutter20-Outlined.pdf",
+      "bytes": 247621478,
+      "mtime": 1795460503.7583537,
+      "sha256": "3d6a0e14cfb9a10c9eb974f3c43a740921dda9b2bdb4c0d4b67778a95cf43f8e",
+      "reason": "Raw converter output superseded by checked final PDF; source, command and checks retained"
+    },
+    {
+      "path": "docs/publication/bookvault-second-proof-2026-11-22/interior/quality-restored-option1/raw-outlined.pdf",
+      "bytes": 284733840,
+      "mtime": 1795464511.6240184,
+      "sha256": "e8e1d83d20620a462128c8d9b4f64394c6e09fa304c07fd7f5950e2db3c62fab",
+      "reason": "Raw converter output superseded by checked final PDF; source, command and checks retained"
+    },
+    {
+      "path": "docs/publication/bookvault-second-proof-2026-11-22/interior/pdfx1a-retry/raw-Ghostscript-PDFX1a.pdf",
+      "bytes": 206332695,
+      "mtime": 1795449272.7011387,
+      "sha256": "44affa8858208e4dcb075df21d869d5402791af4ad8bfa2078856cba79cc3fe4",
+      "reason": "Raw converter output superseded by checked final PDF; source, command and checks retained"
+    },
+    {
+      "path": "docs/publication/bookvault-second-proof-2026-11-22/interior/colour-work/only-text-native-168.pdf",
+      "bytes": 197095,
+      "mtime": 1795387550.5614274,
+      "sha256": "b3c918fc0b4a244b299a0cb573bb3c76226a68a3cde7d16d7cf86fe189b80964",
+      "reason": "Rebuildable colour-conversion PDF intermediate/test; native source, final colour baseline, masks and original photograph inputs retained"
+    },
+    {
+      "path": "docs/publication/bookvault-second-proof-2026-11-22/interior/colour-work/native-168.pdf",
+      "bytes": 5528857,
+      "mtime": 1795387106.2868207,
+      "sha256": "ac39ee2e0c8180fba5e26b4b8039147739625dcee1036d4e21cdf948338b97a6",
+      "reason": "Rebuildable colour-conversion PDF intermediate/test; native source, final colour baseline, masks and original photograph inputs retained"
+    },
+    {
+      "path": "docs/publication/bookvault-second-proof-2026-11-22/interior/colour-work/text.pdf",
+      "bytes": 19433105,
+      "mtime": 1795386446.7601378,
+      "sha256": "57331cf1a3885b7e388da131ed69a87a7d35cbafe7b3d03978cba5677a38c1cf",
+      "reason": "Rebuildable colour-conversion PDF intermediate/test; native source, final colour baseline, masks and original photograph inputs retained"
+    },
+    {
+      "path": "docs/publication/bookvault-second-proof-2026-11-22/interior/colour-work/gs-168.pdf",
+      "bytes": 3331667,
+      "mtime": 1795387107.236031,
+      "sha256": "c7d4a2e8b99860362a0f9b9a4628e5dfae4fd9110b6b960abb0199e667564bf0",
+      "reason": "Rebuildable colour-conversion PDF intermediate/test; native source, final colour baseline, masks and original photograph inputs retained"
+    },
+    {
+      "path": "docs/publication/bookvault-second-proof-2026-11-22/interior/colour-work/art.pdf",
+      "bytes": 817459958,
+      "mtime": 1795386432.2281759,
+      "sha256": "55a5ab683c8bcc4c1ddadf6eda23948ab2a43d06000e070e5d821cea159480ce",
+      "reason": "Rebuildable colour-conversion PDF intermediate/test; native source, final colour baseline, masks and original photograph inputs retained"
+    },
+    {
+      "path": "docs/publication/bookvault-second-proof-2026-11-22/interior/colour-work/gs13-168.pdf",
+      "bytes": 1233311,
+      "mtime": 1795387168.4488375,
+      "sha256": "ed9ff41d5bb5c1432ad6fa335b387a75e17c842ec9302ccb14f22dbdee0969be",
+      "reason": "Rebuildable colour-conversion PDF intermediate/test; native source, final colour baseline, masks and original photograph inputs retained"
+    },
+    {
+      "path": "docs/publication/bookvault-second-proof-2026-11-22/interior/colour-work/gs-test-native.pdf",
+      "bytes": 78951574,
+      "mtime": 1795387359.0135462,
+      "sha256": "ca6e0aa65a15b021a96c2546fc04ff9d1142e4ab9b409612663a9a54c5590e41",
+      "reason": "Rebuildable colour-conversion PDF intermediate/test; native source, final colour baseline, masks and original photograph inputs retained"
+    },
+    {
+      "path": "docs/publication/bookvault-second-proof-2026-11-22/interior/colour-work/only-text-existing-168.pdf",
+      "bytes": 197095,
+      "mtime": 1795387550.7899115,
+      "sha256": "b3c918fc0b4a244b299a0cb573bb3c76226a68a3cde7d16d7cf86fe189b80964",
+      "reason": "Rebuildable colour-conversion PDF intermediate/test; native source, final colour baseline, masks and original photograph inputs retained"
+    },
+    {
+      "path": "docs/publication/bookvault-second-proof-2026-11-22/interior/colour-work/gs-test-cmyk.pdf",
+      "bytes": 104290957,
+      "mtime": 1795387396.8364222,
+      "sha256": "939b20173af382f3ef295889d384d46f1e306fc40b6b4f4e185158cc13b99388",
+      "reason": "Rebuildable colour-conversion PDF intermediate/test; native source, final colour baseline, masks and original photograph inputs retained"
+    },
+    {
+      "path": "docs/publication/bookvault-second-proof-2026-11-22/interior/colour-work/interior-before-cream.pdf",
+      "bytes": 797161862,
+      "mtime": 1795387729.8447568,
+      "sha256": "fa0c4e6ad48d948ee0827f4d6936c89eddd8bef53f71764430c2123da9ce3ea4",
+      "reason": "Rebuildable colour-conversion PDF intermediate/test; native source, final colour baseline, masks and original photograph inputs retained"
+    },
+    {
+      "path": "docs/publication/bookvault-second-proof-2026-11-22/interior/colour-work/gs-rgb-168.pdf",
+      "bytes": 1363536,
+      "mtime": 1795387167.77162,
+      "sha256": "99a73a7f832727489f224b7e7f72d5766e654c25c19fd953ca7caf5e15103d57",
+      "reason": "Rebuildable colour-conversion PDF intermediate/test; native source, final colour baseline, masks and original photograph inputs retained"
+    },
+    {
+      "path": "docs/publication/bookvault-second-proof-2026-11-22/interior/colour-work/interior-cmyk-no-bpc.pdf",
+      "bytes": 807653246,
+      "mtime": 1795386822.7914937,
+      "sha256": "7fd068a726057d07c36be7924971c87dc3a2aa473c4a985657b91ca5ecbc2119",
+      "reason": "Rebuildable colour-conversion PDF intermediate/test; native source, final colour baseline, masks and original photograph inputs retained"
+    },
+    {
+      "path": "docs/publication/bookvault-second-proof-2026-11-22/interior/isolation-tests/raw-Original-Gutter-Outlined.pdf",
+      "bytes": 247335297,
+      "mtime": 1795462473.3082244,
+      "sha256": "98499c2ebbc583abfcee38ca6fd46becb792f5117da1191fb303fb09313583de",
+      "reason": "Raw converter output superseded by checked final PDF; source, command and checks retained"
+    },
+    {
+      "path": "docs/publication/bookvault-second-proof-2026-11-22/interior/isolation-tests/raw-Original-Gutter-GS-Native.pdf",
+      "bytes": 168923064,
+      "mtime": 1795462622.270179,
+      "sha256": "740e90a390776308189cf53a495cfc65a9c4eed0b052307dfe6be8586a0babe4",
+      "reason": "Raw converter output superseded by checked final PDF; source, command and checks retained"
+    }
+  ],
+  "skippedOpenFiles": [],
+  "criticalPreservation": [
+    {
+      "path": "output/pdf/bookvault-quality-restored-2026-11-23/Vegetable-Guru-Interior-Original-Margins.pdf",
+      "bytes": 284742266,
+      "sha256": "3a71d0011d7d12f29a13ce35f94f0068b5e3cc798d24a68a5a4d6cf07903fb59"
+    },
+    {
+      "path": "output/pdf/bookvault-quality-restored-2026-11-23/Vegetable-Guru-Restored-Quality-Checks.pdf",
+      "bytes": 18994110,
+      "sha256": "1cf7437a240f0f0a0a97e43b2019ea95932e23669efe690686139848f3aaac7b"
+    },
+    {
+      "path": "output/pdf/header-placement-review-2026-11-23/Vegetable-Guru-Interior-Nunito-Fractions.pdf",
+      "bytes": 206403322,
+      "sha256": "a7af3c88d43d7671a7e4904269f30af350b9be9194ea2dd74c4ccc09b1435b12"
+    },
+    {
+      "path": "output/pdf/header-placement-review-2026-11-23/Vegetable-Guru-Interior-Corrected-Headers.pdf",
+      "bytes": 805528443,
+      "sha256": "dc7d056fbb9bc7f8380d516b27624a049ec2ed85547508e668b9202631e5483c"
+    },
+    {
+      "path": "output/pdf/header-placement-review-2026-11-23/Vegetable-Guru-Interior-Gutter20-Outlined.pdf",
+      "bytes": 247629902,
+      "sha256": "f12de8331d706379ae652e3995d9c185b0cb328600ee0526f604f6a1daeaf930"
+    },
+    {
+      "path": "output/pdf/bookvault-second-proof-2026-11-22/cover/Vegetable-Guru-Second-Proof-Cover-CMYK.pdf",
+      "bytes": 119456583,
+      "sha256": "a37c9d4216c14643bd7bb46c9fd066bf12fe400a6301365e01b997a8e0821a8e"
+    },
+    {
+      "path": "output/pdf/whole-book-order-preview/the-vegetable-guru-order-preview.pdf",
+      "bytes": 839522835,
+      "sha256": "f87ea66a3dcd06314e518e627c54e574dabac31a31a3035aba69013ad8e1f682"
+    },
+    {
+      "path": "output/pdf/whole-book-order-preview/Vegetable-Guru-Updated-Book-Review.pdf",
+      "bytes": 166633297,
+      "sha256": "67585cb75671629ccbfa309baa268764316ae37ef7ee94bbb3189d262926e01e"
+    },
+    {
+      "path": "output/pdf/bookvault-second-proof-2026-11-22/interior/Vegetable-Guru-Interior-Colour-Managed.pdf",
+      "bytes": 789595632,
+      "sha256": "341ce74932cd81f6a8cc838b742ec7095e471d0ee7d9fcb7b247dd1b417e6b47"
+    },
+    {
+      "path": "output/pdf/bookvault-second-proof-2026-11-22/interior/Vegetable-Guru-Interior-Production-Preparation.pdf",
+      "bytes": 828858325,
+      "sha256": "e1d870ce328a0fdc76f447c69f7512f7c34d805caaccd3f4c196b625ec90b3c1"
+    },
+    {
+      "path": "docs/publication/whole-book-order-preview/navigation-polish-2026-11-22/PLAN.json",
+      "bytes": 201927,
+      "sha256": "c5fa6938bce4847c5c090c20d2cf600d93fefa8d93282dcb0e4bfd12eb792b19"
+    },
+    {
+      "path": "docs/publication/whole-book-order-preview/interior-six-fixes-2026-11-22/TEXT-MAP.json",
+      "bytes": 200708537,
+      "sha256": "04643d61c21468d870bdf14cdb006351ed01546cb40aba9795bbcc36a43cb971"
+    },
+    {
+      "path": "docs/publication/whole-book-order-preview/interior-six-fixes-2026-11-22/before-reading.pdf",
+      "bytes": 149022589,
+      "sha256": "dd925b09c7df4d5ab4ffd072291650f7465475e81f97bc0adfc8d8e86c3adc0a"
+    },
+    {
+      "path": "docs/publication/whole-book-order-preview/interior-six-fixes-2026-11-22/before-native.pdf",
+      "bytes": 818665906,
+      "sha256": "36701d00a856b8545c556804bf7bf43140c8729c10a1ecb585e7422ef6ae5040"
+    },
+    {
+      "path": "src/print/book/index-primary-references.json",
+      "bytes": 1805,
+      "sha256": "a0160ad7ddb0bcac34a935f0152a03a0d87245bc3c65930d793cf55303b50ecf"
+    },
+    {
+      "path": "output/pdf/bookvault-print-ready/the-vegetable-guru-cover.pdf",
+      "bytes": 31107263,
+      "sha256": "8554f9bcb536e05b05a8bd6f3a92b8221fcb7ec57cbb0834e2e99db82a20cad1"
+    },
+    {
+      "path": "output/pdf/bookvault-print-ready/the-vegetable-guru-interior.pdf",
+      "bytes": 463945557,
+      "sha256": "90bb9bb70ab6b5efac3574048c465fb738cc1dfbb4fa229dc515f20926b91bd4"
+    },
+    {
+      "path": "tmp/pdfs/whole-book-order-preview/category-labels.pdf",
+      "bytes": 78011,
+      "sha256": "164777ed4f717b048eb48a59482f13702997ad4ad646d7a03f22a763f748fd1b"
+    },
+    {
+      "path": "tmp/pdfs/whole-book-order-preview/cultivation.pdf",
+      "bytes": 8456363,
+      "sha256": "4b5d9df66378bb2e89d4fcbd455f61056661378a8749d628b4a11a07af8f1028"
+    },
+    {
+      "path": "tmp/pdfs/whole-book-order-preview/opening.pdf",
+      "bytes": 9244098,
+      "sha256": "f475cccc8a741c826b0b7d1f03d172527e919ff59f9eece66bd5d5cf40d3f898"
+    },
+    {
+      "path": "tmp/pdfs/whole-book-order-preview/techniques.pdf",
+      "bytes": 35664145,
+      "sha256": "32556149a2366947343b013442adeae46e050085ad04097c917257a1ddf6ecd2"
+    },
+    {
+      "path": "tmp/pdfs/whole-book-order-preview/section-openers.pdf",
+      "bytes": 3559486,
+      "sha256": "7783acfe30b936551f92bcbfc95199dba84bbe8f158ac4cadec5046a41201d0e"
+    },
+    {
+      "path": "tmp/pdfs/whole-book-order-preview/reference-edit-check.pdf",
+      "bytes": 6673447,
+      "sha256": "cf32ed5104c5e3c2dd22c3438d50364d459063f15e3e42a92a7ab229d0ec4c6e"
+    },
+    {
+      "path": "tmp/pdfs/whole-book-order-preview/footers.pdf",
+      "bytes": 159518,
+      "sha256": "8bd05201797a678eacf004253b67fa681fb459a2df75a9f1875f24d6e93b8d71"
+    },
+    {
+      "path": "tmp/pdfs/whole-book-order-preview/vegetable-guru-index-draft.pdf",
+      "bytes": 222471,
+      "sha256": "2f475dbb99d0cf37a3770cd55bf8be6689926c2c26ed4a2e994e83e9822a138e"
+    },
+    {
+      "path": "tmp/pdfs/whole-book-order-preview/how-to.pdf",
+      "bytes": 4383113,
+      "sha256": "a0803033af64c8ce1507a7612b68a874084dbf0c75a4cc42047f63a4d3d42a4c"
+    }
+  ],
+  "approvalRecordsChecked": 114,
+  "approvalCollisions": [],
+  "status": "consumed: listed PDFs removed; never rerun"
+}

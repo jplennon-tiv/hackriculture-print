@@ -1,0 +1,42 @@
+# Second-proof interior preparation
+
+**23 November successor:** use the [selected original-margin restored-quality printer file](quality-restored-option1/README.md), now supplier Approved and reviewed by John. The [header-bleed record](../../header-placement-review-2026-11-23/README.md) documents the approved repair on its retained source. The files and hashes below describe the preserved **22 November colour baseline**, not the current upload file. The [completed cleanup](../../../maintenance/pdf-cleanup-2026-11-23/README.md) removed only reproducible PDF intermediates/tests in `colour-work/`; native preparation and final colour baselines, RGB artwork inputs, masks, ICC profiles and recipes remain. Historical colour steps may need their preceding conversion intermediates regenerated in a separate work directory; no such regeneration is currently needed.
+
+22 November 2026. **The 174-page colour-managed interior is prepared; metadata decisions, author approval and supplier validation remain.** No upload or order has been made.
+
+[Colour-managed interior PDF](../../../../output/pdf/bookvault-second-proof-2026-11-22/interior/Vegetable-Guru-Interior-Colour-Managed.pdf) · [preserved native-colour baseline](../../../../output/pdf/bookvault-second-proof-2026-11-22/interior/Vegetable-Guru-Interior-Production-Preparation.pdf) · [colour/geometry/font checks](COLOUR-PRODUCTION-CHECKS.json) · [font preservation](FONT-PRODUCTION-PRESERVATION.json) · [actual visible-ink comparison](ACTUAL-VISIBLE-INK-CHECK.json).
+
+Both files have **174 interior pages**, **185 × 240 mm trim**, **191 × 246 mm media**, and **3 mm bleed** on every edge. They retain the current native book's pagination, approved artwork, header sketches, corrections and printed references, excluding only the four screen-review cover leaves. No canonical gardening records or generator layouts were changed. The current master, approved components and old supplier files remain intact. Copyright-year and ISBN placeholders remain for the next stage.
+
+## Print colour and lettering
+
+The production file uses the exact accepted first-proof **ISO Coated v2 300% (ECI), FOGRA39** profile, SHA-256 `c6b4b62f0726243742eced8b9669476a6be89e581f50a7600ed8b6fcbb9cdab8`, embedded as the output intent. The baseline transformation uses LittleCMS relative colourimetric intent without black-point compensation. Poppler honours embedded image/artwork profiles into an explicit sRGB composite before conversion; native type is converted from its actually active device or embedded ICC space. Generic RGB, Skia, sRGB and the Display-tagged photograph were not blindly reinterpreted as one untagged source space.
+
+Non-text artwork and transparency are composited at **600 dpi with lossless compression**. This does not add detail absent from the approved source images. All **340,299 native glyphs**, their positions, font names, font programs, character maps, Type 3 glyph procedures and metrics remain unchanged. Native lettering is retained separately from the page artwork. The unused Helvetica resource/empty font selections on folios 147–149 are removed after confirming that no painted text uses them. Every remaining font resource is embedded.
+
+Two bounded, authorised corrections follow the baseline conversion:
+
+- **Shadow detail:** black-point compensation is applied only to the main compost panorama on 154, the left compost-bin photograph on 155, and the lower greenhouse photograph on 168. Conversion starts from the same retained RGB art pixels; no CMYK round trip occurs. All other CMYK samples and every native page content stream remain identical. See [the shadow correction receipt](SELECTIVE-SHADOW-CORRECTION.json) and [the colour team's plan](../colour/SELECTIVE-PHOTO-BPC.json).
+- **Shared cream:** the flat page background on dividers 7, 97 and 145 is matched to the book's standard cream, CMYK `[0,7,29,0]`, correcting their Generic RGB background's `[0,7,24,0]` result. Exact flat-colour masks exclude every actual photographic image placement plus a two-pixel guard; the calendar panel and native type remain unchanged. All 171 other artwork streams and all 174 native content streams/geometry are byte-identical to the preceding checkpoint. See [the cream receipt](CREAM-MATCH-CHECK.json) and [audited masks](../colour/CREAM-BACKGROUND-CORRECTION.json).
+
+Preserved 22 November baseline SHA-256: `341ce74932cd81f6a8cc838b742ec7095e471d0ee7d9fcb7b247dd1b417e6b47`; **789,595,632 bytes**. Earlier receipts identify their exact intermediate hashes; the cream receipt and final production checks identify this delivered file. The companion `.production.json` records the full chain.
+
+## Bleed and preservation
+
+In the native-colour baseline, source content streams, original image streams, embedded font programs and character maps are preserved byte-for-byte. Pages are translated 3 mm without rescaling. Added bleed uses lossless, 254 dpi reflections of actual page-edge colour/artwork. Some source pages contain a white rounding sliver at the exact trim edge; the bleed extension repairs only the **outer 0.2 mm perimeter**. This is an intentional boundary correction, not a claim that every trim pixel is unchanged.
+
+All 174 baseline pages were compared with the source at an identical translated device origin. **Every pixel more than 0.3 mm inside trim is identical at 254 dpi**; the allowance covers the 0.2 mm repair and one pixel of edge antialiasing. The nearest visible source glyph is **5.809 mm from trim**. Blank folios **4, 6, 96 and 174** are uniformly `#fff8e9` in the native baseline, including bleed. See [preservation checks](VERIFICATION.json), [text-edge checks](TEXT-EDGE-CHECK.json), [blank-colour checks](BLANK-COLOUR-CHECK.json) and [enlarged before/after edge comparisons](EDGE-COMPARISON.jpg).
+
+## Actual output checks and limits
+
+All 174 final pages pass the font, native-glyph geometry, opaque CMYK, image-resolution and page-box checks. Every native and production page was also rendered sequentially at 144 dpi with explicit colour profiles. Actual dark pixels inside all native character bounds were compared, allowing one pixel for antialiasing. Only three source dark pixels across the whole book were absent beyond that tolerance. Additional dark threshold crossings are small glyph-edge differences from the intended colour conversion; the worst case, folio 58, was inspected. No missing or displaced text blocks were found. The three corrected cream pages were re-rendered and rechecked after their isolated image changes.
+
+Eleven [actual final contact sheets](colour-contacts/) and all 174 page renders are retained. The native and final full renders both complete successfully with the same pre-existing Type 3 warning (`q` before `d0/d1`) in preserved source glyph procedures. Font procedures were not rewritten speculatively; supplier preflight remains a separate check. This is not a PDF/X certification or supplier-acceptance claim.
+
+An initial concern about displaced text on folio 168 was **not reproducible**: the fresh sequential render was pixel-identical to the original review PNG, and both had the correct header/intro/footer positions. Independent reinspection resolved the concern. No speculative font or paint-order change was applied. The alternative Ghostscript test was not used: it rasterised complete guide pages and lost a visible apostrophe in the compost heading.
+
+## Retained components and reproduction
+
+`prepare.py` builds/verifies the protected native bleed baseline. `finish-colour.py` creates the ICC-aware opaque artwork/native-text derivative; it retains exact RGB inputs for the three shadow photographs. `selective-shadows.py` applies the audited photo rectangles. `match-cream.py` applies the audited background masks and refuses to overwrite its existing checkpoint. `check-colour.py`, `check-font-preservation.py`, `check-visible-colour.py` and `make-colour-contacts.py` record the actual output checks.
+
+The `colour-work/` folder retains intermediate PDFs, art/text layers, the exact three RGB photo inputs, explicit render profile, actual page renders and diagnostic tests. These are components/checkpoints, not additional supplier files. Rebuild in an isolated copied work area if required; do not overwrite current prepared checkpoints or reuse masks against a changed source hash. Final metadata and Bookvault validation follow before an order.

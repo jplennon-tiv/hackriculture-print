@@ -1,0 +1,151 @@
+{
+  "date": "2026-11-22",
+  "approved_by": "John Lennon",
+  "instruction": "C is the one for me.",
+  "status": "approved",
+  "option": "C",
+  "folio": 1,
+  "proof": {
+    "file": "output/pdf/title-copyright-trials/Vegetable-Guru-Title-Copyright-Design-Trials.pdf",
+    "sha256": "9b73a2b17f6c5e9f4f6bf69f8d0c83f71c66f850c5a4d523542d66a0572f55c1",
+    "bytes": 1644316,
+    "pages": 5,
+    "page1": "Labelled A3 overview",
+    "pages2to5": "A–D at 185 × 240 mm",
+    "selectedPage": 4
+  },
+  "variant": {
+    "id": "C",
+    "title": "Pictures above",
+    "description": "Three staggered photographs above a lower title block.",
+    "text": {
+      "cx": 97,
+      "tops": [
+        80,
+        92,
+        115,
+        146,
+        154,
+        170,
+        179
+      ]
+    },
+    "footerAlign": "centre",
+    "photos": [
+      {
+        "key": "tomatoes",
+        "x": 23,
+        "y": 15,
+        "w": 54,
+        "h": 54,
+        "role": "large"
+      },
+      {
+        "key": "pea",
+        "x": 91,
+        "y": 25,
+        "w": 21,
+        "h": 21,
+        "role": "thumbnail"
+      },
+      {
+        "key": "chard",
+        "x": 132,
+        "y": 33,
+        "w": 36,
+        "h": 36,
+        "role": "medium"
+      }
+    ]
+  },
+  "text": {
+    "eyebrow": "",
+    "title": [
+      "The",
+      "Vegetable",
+      "Guru"
+    ],
+    "subtitle": [
+      "Your at-a-glance",
+      "growing companion"
+    ],
+    "author": "John Lennon",
+    "measurementLabel": "Traditional measurements edition",
+    "imprint": "",
+    "copyrightLines": [
+      "Text © John Lennon [year].",
+      "All rights reserved. Except as permitted by law, no part of the text may be",
+      "reproduced, stored or transmitted in any form without the copyright holder’s permission.",
+      "ISBN [To be supplied]"
+    ]
+  },
+  "artworkSources": {
+    "tomatoes": {
+      "number": 10,
+      "title": "Ripening tomatoes",
+      "file": "docs/publication/overnight-2026-11-19/openings/contents-thumbnail-review/thumbnails/10-ripening-tomatoes.png",
+      "sha256": "cad96955ab32170a49ef021b939b99fec94a34ca252a03722a22aa15465a4625",
+      "group": "New choice",
+      "status": "Approved on contents pages 4–5; see swapped-headers/APPROVAL.json",
+      "kind": "Generated photographic study; not camera evidence",
+      "source": "generated_images/exec-334e1c80-f1d4-437c-9628-88418eef44fb.png",
+      "sourceSHA256": "f225ba15b129ed0d0510c3b2bfbc166f8378c796567d86aececd8a555180fc1c",
+      "generationCell": 1,
+      "crop": {
+        "left": 2,
+        "top": 2,
+        "width": 440,
+        "height": 440
+      },
+      "nativePixels": [
+        440,
+        440
+      ]
+    },
+    "pea": {
+      "title": "Pea",
+      "file": "docs/publication/overnight-2026-11-19/openings/page-9-thumbnail-review/thumbnails/02-pea.png",
+      "sha256": "e381a86b7ffecf2dc57476bc0a66a554766091e982a156a05c7dce1b6dfcaf98",
+      "status": "Approved on Vegetable Guides page 9",
+      "kind": "New generated photographic study; not camera evidence",
+      "nativePixels": [
+        309,
+        310
+      ]
+    },
+    "chard": {
+      "number": 11,
+      "title": "Rainbow chard",
+      "file": "docs/publication/overnight-2026-11-19/openings/contents-thumbnail-review/thumbnails/11-rainbow-chard.png",
+      "sha256": "55603856ac3a679b3d30ae13a981b462f95183ea95602c38689d920b9e6d5d03",
+      "group": "New choice",
+      "status": "Approved on contents pages 4–5; see swapped-headers/APPROVAL.json",
+      "kind": "Generated photographic study; not camera evidence",
+      "source": "generated_images/exec-334e1c80-f1d4-437c-9628-88418eef44fb.png",
+      "sourceSHA256": "f225ba15b129ed0d0510c3b2bfbc166f8378c796567d86aececd8a555180fc1c",
+      "generationCell": 2,
+      "crop": {
+        "left": 446,
+        "top": 2,
+        "width": 439,
+        "height": 440
+      },
+      "nativePixels": [
+        439,
+        440
+      ]
+    }
+  },
+  "render": {
+    "file": "docs/publication/title-copyright-trials/C-final.png",
+    "sha256": "3c16867caacb6a05bfcf4ccbf53654e2e4e189e8ff895bb133077791d95489a9"
+  },
+  "integration_authorisation": "Thanks. And please remove the two following pages as discussed.",
+  "scope": [
+    "Exact combined title/copyright C design and displayed wording.",
+    "Omit AI/design credit, source note and UK growing-conditions guidance for now.",
+    "Install C, delete prior publication page 2 and blank page 3, and update downstream pagination/references.",
+    "Final supplier pagination, spine, bleed and cover installation remain separate."
+  ],
+  "installed_in": "docs/publication/whole-book-order-preview/title-copyright-integration-2026-11-22/INTEGRATION-CHECKS.json"
+}

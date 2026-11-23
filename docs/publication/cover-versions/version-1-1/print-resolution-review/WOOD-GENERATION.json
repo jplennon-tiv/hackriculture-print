@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-22",
+  "status": "proposal, awaiting visual review",
+  "tool": "image_gen.imagegen",
+  "prompt": "Create a print-quality restoration of ONLY this very pale cream wood texture, in a portrait 185:240 aspect ratio. This is the background for an approved book cover; retain its exact warm cream colour, very subtle peach-beige hairline horizontal grain, low contrast, evenly lit flat surface and understated look. Preserve broad grain directions and density. Reconstruct crisp natural very fine wood fibres with high native resolution, at least 3000 pixels wide if supported, maximum detail output. No boards, seams, knots, scratches, extra shading, vignette, dark grain, perspective, objects, letters, frame, mottling or decorative texture. It must remain a pale quiet backdrop for black book lettering and vegetable photographs. Fill every edge. Match the reference's overall lightness and hue. This is a subtle quality restoration, not a change of design.",
+  "reference": "docs/publication/cover-versions/version-1-1/print-resolution-review/assets/wood-generation-reference.png",
+  "reference_sha256": "3c8aab9dd6e0f8c0ba0fd32d62127de729dbdb18c2e37ac51c43f72f5c356e44",
+  "generated_original": "generated_images/exec-da46070f-f591-4dda-8b1a-11d774c0e028.png",
+  "retained_copy": "assets/wood-restored.png",
+  "generated_sha256": "3b3e6fefde89d6e64e53dd44a5569053ccc924ff85f0d3b0e81aae5f19acb8a5",
+  "native_pixels": [
+    1101,
+    1429
+  ],
+  "placement": "Four mirrored 92.5 x 120 mm tiles, approximately 302 dpi; finer grain scale than the approved background.",
+  "requested_resolution_not_reached": true
+}

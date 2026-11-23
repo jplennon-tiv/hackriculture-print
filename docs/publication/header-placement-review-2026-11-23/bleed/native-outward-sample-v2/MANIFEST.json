@@ -1,0 +1,106 @@
+{
+  "sourceMasterSHA256": "f87ea66a3dcd06314e518e627c54e574dabac31a31a3035aba69013ad8e1f682",
+  "sourceProductionSHA256": "341ce74932cd81f6a8cc838b742ec7095e471d0ee7d9fcb7b247dd1b417e6b47",
+  "overlayPDF": "docs/publication/header-placement-review-2026-11-23/bleed/native-outward-sample-v2/Native-Outward-Bleed-Overlays.pdf",
+  "overlaySHA256": "5aed2907d5d3aa6dcabb07ae77a9ef05fe2b8eb21bdbcf73bf3c9cb9ec572e55",
+  "samplePDF": "output/pdf/header-placement-review-2026-11-23/bleed/Vegetable-Guru-Native-Outward-Bleed-sample-v2.pdf",
+  "sampleSHA256": "d235cd491a1ddad5c95cd96d958c6860899f5c4e358c40aab144c44969411958",
+  "beforePDF": "docs/publication/header-placement-review-2026-11-23/bleed/native-outward-sample-v2/Before-Header-Bleed.pdf",
+  "profileSHA256": "c6b4b62f0726243742eced8b9669476a6be89e581f50a7600ed8b6fcbb9cdab8",
+  "method": "Retained native paths with outer/top/right clips and actual full-page painted backgrounds expanded, all transforms and header-bottom/left limits preserved. Poppler600dpi honours source ICCs into explicit sRGB, followed by original FOGRA39 relative1/noBPC. Only narrow opaque CMYK top/right raster strips are supplied, strictly clipped outside TrimBox. Original production page content and artwork remain unmodified.",
+  "reconstructibleInputs": "Full600dpi RGB rasters and expanded native derivation pages removed after strip extraction for overlay-only runs; hashes retained. Two selected samples remain separately.",
+  "pages": [
+    {
+      "folio": 24,
+      "clipEdits": {
+        "pageDeviceClips": 17,
+        "headerDeviceClips": 1,
+        "pointPageClips": 1,
+        "fullPageFormBBoxes": 1,
+        "fullPagePaintedRectangles": 3,
+        "fullPagePaintedPolygons": 0
+      },
+      "backgroundRGB": [
+        255,
+        248,
+        233
+      ],
+      "sourcePage": 26,
+      "sourceContentSHA256": "5f746794cd7c197dedf20f36c6eebf0b8944ad1f12854c1270788bee671b8b6f",
+      "preserved": "All image/path transforms and existing header-bottom/left limits; edited only outer/top/right clipping, declared page/form bounds, and matching full-page background extents to cover historical white/grey canvas rounding.",
+      "fullRasterPixels": [
+        4512,
+        5812
+      ],
+      "topStripPixels": [
+        4512,
+        71
+      ],
+      "rightStripPixels": [
+        71,
+        5812
+      ],
+      "topClipPoints": [
+        0,
+        688.8188976377953,
+        541.4173228346457,
+        8.503937007874017
+      ],
+      "rightClipPoints": [
+        532.9133858267717,
+        8.503937007874017,
+        8.503937007874017,
+        680.3149606299213
+      ],
+      "expandedNativeSHA256": "cdafd679729ac1e00598b12ebf0e1880e7a83881702d3a9c566766d8f4b46fb9",
+      "expandedSRGBRasterSHA256": "db14b7bb0581f20123b151f57cbb7760901574cd79ce6f74c8cbda26b1194dc8",
+      "overlayPage": 1
+    },
+    {
+      "folio": 98,
+      "clipEdits": {
+        "pageDeviceClips": 0,
+        "headerDeviceClips": 0,
+        "pointPageClips": 0,
+        "fullPageFormBBoxes": 0,
+        "fullPagePaintedRectangles": 0,
+        "fullPagePaintedPolygons": 3
+      },
+      "backgroundRGB": [
+        255,
+        248,
+        233
+      ],
+      "sourcePage": 100,
+      "sourceContentSHA256": "398426a578845e558a6b2c7691753d9871b1dad6725f04ca7eb929f8a75605ca",
+      "preserved": "All image/path transforms and existing header-bottom/left limits; edited only outer/top/right clipping, declared page/form bounds, and matching full-page background extents to cover historical white/grey canvas rounding.",
+      "fullRasterPixels": [
+        4512,
+        5812
+      ],
+      "topStripPixels": [
+        4512,
+        71
+      ],
+      "rightStripPixels": [
+        71,
+        5812
+      ],
+      "topClipPoints": [
+        0,
+        688.8188976377953,
+        541.4173228346457,
+        8.503937007874017
+      ],
+      "rightClipPoints": [
+        532.9133858267717,
+        8.503937007874017,
+        8.503937007874017,
+        680.3149606299213
+      ],
+      "expandedNativeSHA256": "1db7cf2d6a828121969379b16ad1284b4015a71f0e52becb401c97ef9a7c0dd5",
+      "expandedSRGBRasterSHA256": "6c7d44ea4d7a3088d7dc3c9bf919e8ffcaba3fc258cfaf9757701a3c44f9758d",
+      "overlayPage": 2
+    }
+  ]
+}

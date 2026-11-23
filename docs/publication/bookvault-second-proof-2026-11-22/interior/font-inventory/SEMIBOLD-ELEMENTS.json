@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-23",
+  "scope": "Element mapping followed by the authorised isolated substitution; see current test receipt.",
+  "source": "output/pdf/header-placement-review-2026-11-23/Vegetable-Guru-Interior-Corrected-Headers.pdf",
+  "sourceSHA256": "dc7d056fbb9bc7f8380d516b27624a049ec2ed85547508e668b9202631e5483c",
+  "semibold_uses": [
+    {
+      "folio": 1,
+      "element": "Traditional measurements edition"
+    },
+    {
+      "folios": [
+        2,
+        3
+      ],
+      "element": "Ordinary contents entry labels: Introduction, vegetable names, trouble-group names, technique topics and Index."
+    }
+  ],
+  "other_front_matter_fonts": {
+    "main_title_and_Contents_headings": "Lilita One",
+    "title_subtitle_and_author": "Nunito Sans ExtraBold",
+    "copyright_and_ISBN": "Nunito Sans Regular",
+    "contents_section_headings_and_page_references": "Nunito Sans Black"
+  },
+  "recommended_substitute": "Nunito Sans Bold",
+  "reason": "Same family, one step heavier than SemiBold; Bold already occurs in both the accepted October PDF and current interior.",
+  "caveat": "Supplier acceptance of the older document is evidence for a controlled test, not proof that this font or the new derivative will pass.",
+  "test_status": "Built, checked and uploaded once; terminal Failed confirmed 23 November 18:19. See ../all-300dpi-retry/README.md for the next user-requested test.",
+  "test_record": "../semibold-retry/README.md"
+}

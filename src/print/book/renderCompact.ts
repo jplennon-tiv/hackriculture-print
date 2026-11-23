@@ -182,6 +182,11 @@ export function layoutCompactBook({type, slug, units, edits,consolidations=[],st
         for (const tips of all(root,'.tips')) tips.style.setProperty('--book-tip-rows',String(Math.ceil(all(tips,':scope>div').length/2)));
         parity(); number();
         const title = need(front,'h1');
+        // The practical-page title names the crop directly (22 November review).
+        const cropTitle=title.textContent!.replace(/\.$/,'').trim();
+        const practicalTitle=need(back,'h1');
+        practicalTitle.textContent=cropTitle;
+        practicalTitle.style.color='var(--deep)';
         title.style.removeProperty('max-width');
         title.style.removeProperty('white-space');
         // Keep the approved Kale header exactly. Longer names use the left title area.
@@ -245,6 +250,12 @@ export function layoutCompactBook({type, slug, units, edits,consolidations=[],st
     } else {
         const source = need(root,'.measure'), output = need(root,':scope>div:last-child');
         const template = need(source,'[data-template]');
+        need(template,'h1').textContent=need(template,'h1').textContent!.replace(/\s+troubles$/i,'')+' troubles';
+        need(template,'.ribbon').textContent='Vegetable troubles';
+        for(const label of all(source,'.advice h3')) {
+            const replacement={recognise:'IDENTIFICATION',act:'FIX',prevent:'PREVENTION'}[label.textContent!.trim().toLowerCase() as 'recognise'|'act'|'prevent'];
+            if(replacement)label.textContent=replacement;
+        }
         // Explain this sequence once on the book's Troubles opener, not on every page.
         template.querySelector('.navigation')?.remove();
         const entries = all(source,'[data-source-entry]');

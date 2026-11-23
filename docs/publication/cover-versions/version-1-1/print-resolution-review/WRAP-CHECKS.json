@@ -1,0 +1,90 @@
+{
+  "date": "2026-11-22",
+  "status": "spine lettering clearance revision requested by John; design proof, not supplier approval",
+  "panels_mm": [
+    185,
+    12.5,
+    185
+  ],
+  "wrap_mm": [
+    382.5,
+    240
+  ],
+  "spine_provisional": true,
+  "native_panel_streams_preserved": true,
+  "spine": "Original 74 x 1430 RGB background/shadows retained exactly; native Lilita One/Nunito Sans fonts, sizes and tracking retained; positions revised by spine-type-clear.swift",
+  "spine_background_decoded_sha256": "d38666e1513413dddffbeeebd8a36ae1cd6baa2ade9e1df614ab477378183b9a",
+  "spine_type_geometry": [
+    {
+      "center_from_top_mm": 90,
+      "font_file": "richer-a-1.woff2",
+      "ink_bottom_mm": 119.74269444444445,
+      "ink_left_mm": 3.064416666666666,
+      "ink_right_mm": 9.435583333333332,
+      "ink_top_mm": 60.257305555555554,
+      "size_pt": 20,
+      "text": "The Vegetable Guru",
+      "tracking_pt": 0.24
+    },
+    {
+      "center_from_top_mm": 140,
+      "font_file": "richer-a-6.woff2",
+      "ink_bottom_mm": 153.69388151804606,
+      "ink_left_mm": 4.671319444444444,
+      "ink_right_mm": 7.828680555555554,
+      "ink_top_mm": 126.30611848195394,
+      "size_pt": 12.5,
+      "text": "John Lennon",
+      "tracking_pt": 0.37
+    }
+  ],
+  "sources": [
+    {
+      "file": "output/pdf/cover-print-resolution-review/Vegetable-Guru-Front-Print-Resolution-Proposal.pdf",
+      "sha256": "0e43eff8b027ddd78592f2026afb49d721fb1093672a2f503c73a6382e4c062b"
+    },
+    {
+      "file": "output/pdf/cover-print-resolution-review/Vegetable-Guru-Rear-Print-Resolution-Proposal.pdf",
+      "sha256": "8ca5faa9c2a359a11f31b31949bb55d7e9ae2ff9d7facc18a6c8c77adb2db077"
+    },
+    {
+      "file": "output/pdf/selected-gold-cover/The-Vegetable-Guru-Selected-Cover.pdf",
+      "sha256": "9a4d422499fe70cfe14d791348df94fd2269537c8b68873ce3a563ba9e5043c5"
+    },
+    {
+      "file": "tmp/cover-print-resolution/wrap-spine-type.pdf",
+      "sha256": "fd2c03ad8b0e912cc770dae4ef834d1045b8678e611cf993edc21bd3592efe2f"
+    }
+  ],
+  "panel_render_comparison_at_254dpi": {
+    "rear": {
+      "mean_channel_difference": 0.0,
+      "maximum_channel_difference": 0
+    },
+    "front": {
+      "mean_channel_difference": 0.1916753937433944,
+      "maximum_channel_difference": 12
+    },
+    "spine_vs_original_positions": {
+      "mean_channel_difference": 13.814241596416434,
+      "maximum_channel_difference": 247,
+      "expected_change": "title shifted 10 mm upward; author shifted 18 mm upward"
+    },
+    "revision_changed_pixel_bounds_at_254dpi": [
+      1880,
+      602,
+      1944,
+      1717
+    ]
+  },
+  "output": {
+    "file": "output/pdf/cover-print-resolution-review/Vegetable-Guru-Corrected-Cover-Wrap-Proof.pdf",
+    "bytes": 23608012,
+    "sha256": "5b1f446d33b80c5e4f4f7f340f6b772aa6c016f74ca6d41f4587391eeecdbf2b"
+  },
+  "limits": [
+    "Spine width remains provisional until final paper/page-count supplier specification.",
+    "Trim-only design proof; no supplier bleed or production conversion.",
+    "Earlier spine background sampling retained; new finer wood remains on front and rear."
+  ]
+}

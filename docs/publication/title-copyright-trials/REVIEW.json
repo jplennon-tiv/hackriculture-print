@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-22",
+  "status": "C approved by John Lennon and installed; A, B and D retained as unselected proposals",
+  "pdf": {
+    "file": "output/pdf/title-copyright-trials/Vegetable-Guru-Title-Copyright-Design-Trials.pdf",
+    "sha256": "9b73a2b17f6c5e9f4f6bf69f8d0c83f71c66f850c5a4d523542d66a0572f55c1",
+    "bytes": 1644316,
+    "pages": 5,
+    "page1": "Labelled A3 overview",
+    "pages2to5": "A–D at 185 × 240 mm"
+  },
+  "all_expected_copy_verified": true,
+  "same_copy_on_all_four": true,
+  "all_requested_omissions_verified": true,
+  "all_artwork_source_hashes_verified": true,
+  "minimum_placed_image_dpi": 203.2,
+  "geometry_checks": "docs/publication/title-copyright-trials/CHECKS.json",
+  "scope": "Traditional measurements title-page trials only; original approval and book assembly preserved.",
+  "visual_review": {
+    "coverage": [
+      "Labelled overview",
+      "Full-size A, B, C and D",
+      "Original approved title option 01",
+      "Approved contents page 4 for style comparison"
+    ],
+    "result": "No clipping, overlapping text/images or missing assets observed. Typeface sizes and original wording retained; omissions explicit."
+  },
+  "approval": "APPROVAL.json",
+  "integration": "docs/publication/whole-book-order-preview/title-copyright-integration-2026-11-22/INTEGRATION-CHECKS.json"
+}

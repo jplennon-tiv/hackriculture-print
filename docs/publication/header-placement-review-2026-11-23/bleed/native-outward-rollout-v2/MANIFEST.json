@@ -1,0 +1,4200 @@
+{
+  "sourceMasterSHA256": "f87ea66a3dcd06314e518e627c54e574dabac31a31a3035aba69013ad8e1f682",
+  "sourceProductionSHA256": "341ce74932cd81f6a8cc838b742ec7095e471d0ee7d9fcb7b247dd1b417e6b47",
+  "overlayPDF": "docs/publication/header-placement-review-2026-11-23/bleed/native-outward-rollout-v2/Native-Outward-Bleed-Overlays.pdf",
+  "overlaySHA256": "05eaed6cad840b429ba59ffc2b9fc61643514d7489f13a313f0055f40314824f",
+  "samplePDF": null,
+  "sampleSHA256": null,
+  "beforePDF": null,
+  "profileSHA256": "c6b4b62f0726243742eced8b9669476a6be89e581f50a7600ed8b6fcbb9cdab8",
+  "method": "Retained native paths with outer/top/right clips and actual full-page painted backgrounds expanded, all transforms and header-bottom/left limits preserved. Poppler600dpi honours source ICCs into explicit sRGB, followed by original FOGRA39 relative1/noBPC. Only narrow opaque CMYK top/right raster strips are supplied, strictly clipped outside TrimBox. Original production page content and artwork remain unmodified.",
+  "reconstructibleInputs": "Full600dpi RGB rasters and expanded native derivation pages removed after strip extraction for overlay-only runs; hashes retained. Two selected samples remain separately.",
+  "pages": [
+    {
+      "folio": 8,
+      "clipEdits": {
+        "pageDeviceClips": 17,
+        "headerDeviceClips": 1,
+        "pointPageClips": 1,
+        "fullPageFormBBoxes": 1,
+        "fullPagePaintedRectangles": 3,
+        "fullPagePaintedPolygons": 0
+      },
+      "backgroundRGB": [
+        241,
+        246,
+        242
+      ],
+      "sourcePage": 10,
+      "sourceContentSHA256": "264b062bfaf6920a7498f315680a2ec948058b9e81436a38d0b14e900c860351",
+      "preserved": "All image/path transforms and existing header-bottom/left limits; edited only outer/top/right clipping, declared page/form bounds, and matching full-page background extents to cover historical white/grey canvas rounding.",
+      "fullRasterPixels": [
+        4512,
+        5812
+      ],
+      "topStripPixels": [
+        4512,
+        71
+      ],
+      "rightStripPixels": [
+        71,
+        5812
+      ],
+      "topClipPoints": [
+        0,
+        688.8188976377953,
+        541.4173228346457,
+        8.503937007874017
+      ],
+      "rightClipPoints": [
+        532.9133858267717,
+        8.503937007874017,
+        8.503937007874017,
+        680.3149606299213
+      ],
+      "expandedNativeSHA256": "906eff8922100ec2279c363250afaad9894636d49582ce9ce625c310dba9aea0",
+      "expandedSRGBRasterSHA256": "0aefec8ff80980a899278662385e9737f44d67576e4dddeee93a585a603915fe",
+      "overlayPage": 1
+    },
+    {
+      "folio": 10,
+      "clipEdits": {
+        "pageDeviceClips": 15,
+        "headerDeviceClips": 1,
+        "pointPageClips": 1,
+        "fullPageFormBBoxes": 1,
+        "fullPagePaintedRectangles": 3,
+        "fullPagePaintedPolygons": 0
+      },
+      "backgroundRGB": [
+        255,
+        248,
+        233
+      ],
+      "sourcePage": 12,
+      "sourceContentSHA256": "f6468322909ba1b647df238cfe46397c8f4dd6536e0370aae63c66509caa2eca",
+      "preserved": "All image/path transforms and existing header-bottom/left limits; edited only outer/top/right clipping, declared page/form bounds, and matching full-page background extents to cover historical white/grey canvas rounding.",
+      "fullRasterPixels": [
+        4512,
+        5812
+      ],
+      "topStripPixels": [
+        4512,
+        71
+      ],
+      "rightStripPixels": [
+        71,
+        5812
+      ],
+      "topClipPoints": [
+        0,
+        688.8188976377953,
+        541.4173228346457,
+        8.503937007874017
+      ],
+      "rightClipPoints": [
+        532.9133858267717,
+        8.503937007874017,
+        8.503937007874017,
+        680.3149606299213
+      ],
+      "expandedNativeSHA256": "5055925111b025ed71ba03b3b231448b0a224b1b5ee49c1ce37630d606379981",
+      "expandedSRGBRasterSHA256": "38db37ab6a5845be02333236849defd92189529221ff1be8651ad4e6a6f8f0c4",
+      "overlayPage": 2
+    },
+    {
+      "folio": 12,
+      "clipEdits": {
+        "pageDeviceClips": 16,
+        "headerDeviceClips": 1,
+        "pointPageClips": 1,
+        "fullPageFormBBoxes": 1,
+        "fullPagePaintedRectangles": 3,
+        "fullPagePaintedPolygons": 0
+      },
+      "backgroundRGB": [
+        241,
+        246,
+        242
+      ],
+      "sourcePage": 14,
+      "sourceContentSHA256": "19556ed4ff3401baadbf9e64aeef50f1b60bbb86a949c9e247e42680c5a4c5a1",
+      "preserved": "All image/path transforms and existing header-bottom/left limits; edited only outer/top/right clipping, declared page/form bounds, and matching full-page background extents to cover historical white/grey canvas rounding.",
+      "fullRasterPixels": [
+        4512,
+        5812
+      ],
+      "topStripPixels": [
+        4512,
+        71
+      ],
+      "rightStripPixels": [
+        71,
+        5812
+      ],
+      "topClipPoints": [
+        0,
+        688.8188976377953,
+        541.4173228346457,
+        8.503937007874017
+      ],
+      "rightClipPoints": [
+        532.9133858267717,
+        8.503937007874017,
+        8.503937007874017,
+        680.3149606299213
+      ],
+      "expandedNativeSHA256": "4135b8502a517d593cee6bb63563b11e0519a8ec261a9b41d8b71d91e3d0ae5e",
+      "expandedSRGBRasterSHA256": "67bb8ab4415a3ede62bea559142a586f8ceeabdcbe7e07434ac81bb784bdcce5",
+      "overlayPage": 3
+    },
+    {
+      "folio": 14,
+      "clipEdits": {
+        "pageDeviceClips": 16,
+        "headerDeviceClips": 1,
+        "pointPageClips": 1,
+        "fullPageFormBBoxes": 1,
+        "fullPagePaintedRectangles": 3,
+        "fullPagePaintedPolygons": 0
+      },
+      "backgroundRGB": [
+        255,
+        248,
+        233
+      ],
+      "sourcePage": 16,
+      "sourceContentSHA256": "0fce46ff5eec57335e056fc4a2dd9da02cdecfe531102d0928f590f20472eaca",
+      "preserved": "All image/path transforms and existing header-bottom/left limits; edited only outer/top/right clipping, declared page/form bounds, and matching full-page background extents to cover historical white/grey canvas rounding.",
+      "fullRasterPixels": [
+        4512,
+        5812
+      ],
+      "topStripPixels": [
+        4512,
+        71
+      ],
+      "rightStripPixels": [
+        71,
+        5812
+      ],
+      "topClipPoints": [
+        0,
+        688.8188976377953,
+        541.4173228346457,
+        8.503937007874017
+      ],
+      "rightClipPoints": [
+        532.9133858267717,
+        8.503937007874017,
+        8.503937007874017,
+        680.3149606299213
+      ],
+      "expandedNativeSHA256": "44a45cb52a13c4741a4c86f7705a4e8716a21256551ca500eb216e4c511af036",
+      "expandedSRGBRasterSHA256": "ce1915ad90983d0bcb40dd6a6d551766e36f5f646941f82dbcb55af649f873cc",
+      "overlayPage": 4
+    },
+    {
+      "folio": 16,
+      "clipEdits": {
+        "pageDeviceClips": 17,
+        "headerDeviceClips": 1,
+        "pointPageClips": 1,
+        "fullPageFormBBoxes": 1,
+        "fullPagePaintedRectangles": 3,
+        "fullPagePaintedPolygons": 0
+      },
+      "backgroundRGB": [
+        255,
+        248,
+        233
+      ],
+      "sourcePage": 18,
+      "sourceContentSHA256": "81082c1aa2768302cbaddb069865d41afea8ba1c226bee6d5961e49adfee63d7",
+      "preserved": "All image/path transforms and existing header-bottom/left limits; edited only outer/top/right clipping, declared page/form bounds, and matching full-page background extents to cover historical white/grey canvas rounding.",
+      "fullRasterPixels": [
+        4512,
+        5812
+      ],
+      "topStripPixels": [
+        4512,
+        71
+      ],
+      "rightStripPixels": [
+        71,
+        5812
+      ],
+      "topClipPoints": [
+        0,
+        688.8188976377953,
+        541.4173228346457,
+        8.503937007874017
+      ],
+      "rightClipPoints": [
+        532.9133858267717,
+        8.503937007874017,
+        8.503937007874017,
+        680.3149606299213
+      ],
+      "expandedNativeSHA256": "93491036858dc97b7bd845361d0a9c8140cc885623a3982db51be7426a49feb1",
+      "expandedSRGBRasterSHA256": "78957c57b6ec171ce4787f80c51537abe78190ebe7a8b04e7ff12b0866e34c7a",
+      "overlayPage": 5
+    },
+    {
+      "folio": 18,
+      "clipEdits": {
+        "pageDeviceClips": 17,
+        "headerDeviceClips": 1,
+        "pointPageClips": 1,
+        "fullPageFormBBoxes": 1,
+        "fullPagePaintedRectangles": 3,
+        "fullPagePaintedPolygons": 0
+      },
+      "backgroundRGB": [
+        255,
+        248,
+        233
+      ],
+      "sourcePage": 20,
+      "sourceContentSHA256": "7f695d0353f643ee079c29c13d8544a786fb4ebe5e5f9d5176b661cc23b30292",
+      "preserved": "All image/path transforms and existing header-bottom/left limits; edited only outer/top/right clipping, declared page/form bounds, and matching full-page background extents to cover historical white/grey canvas rounding.",
+      "fullRasterPixels": [
+        4512,
+        5812
+      ],
+      "topStripPixels": [
+        4512,
+        71
+      ],
+      "rightStripPixels": [
+        71,
+        5812
+      ],
+      "topClipPoints": [
+        0,
+        688.8188976377953,
+        541.4173228346457,
+        8.503937007874017
+      ],
+      "rightClipPoints": [
+        532.9133858267717,
+        8.503937007874017,
+        8.503937007874017,
+        680.3149606299213
+      ],
+      "expandedNativeSHA256": "53edb52c7cb7ae45a69c820831fd267739618da849b61ab8ff6e03a3fb2e29d5",
+      "expandedSRGBRasterSHA256": "e3837c12381dc841c4c5b481a3faaea373e799643432de491a9fe76307afdb8e",
+      "overlayPage": 6
+    },
+    {
+      "folio": 20,
+      "clipEdits": {
+        "pageDeviceClips": 18,
+        "headerDeviceClips": 1,
+        "pointPageClips": 1,
+        "fullPageFormBBoxes": 1,
+        "fullPagePaintedRectangles": 3,
+        "fullPagePaintedPolygons": 0
+      },
+      "backgroundRGB": [
+        255,
+        248,
+        233
+      ],
+      "sourcePage": 22,
+      "sourceContentSHA256": "89ff8c812af77e386715d5d65b0efe17439162f2fc272ef4d86dfbaf55c96989",
+      "preserved": "All image/path transforms and existing header-bottom/left limits; edited only outer/top/right clipping, declared page/form bounds, and matching full-page background extents to cover historical white/grey canvas rounding.",
+      "fullRasterPixels": [
+        4512,
+        5812
+      ],
+      "topStripPixels": [
+        4512,
+        71
+      ],
+      "rightStripPixels": [
+        71,
+        5812
+      ],
+      "topClipPoints": [
+        0,
+        688.8188976377953,
+        541.4173228346457,
+        8.503937007874017
+      ],
+      "rightClipPoints": [
+        532.9133858267717,
+        8.503937007874017,
+        8.503937007874017,
+        680.3149606299213
+      ],
+      "expandedNativeSHA256": "9523804170133b8e0ecf8f028948327ec941acbe6fe46fc8e91ac88fe1f3f90c",
+      "expandedSRGBRasterSHA256": "f1e5ccb0fc3746d4bc4ceb95b4d1e9897f02bec8f18c6ec030ea492ffa9c061b",
+      "overlayPage": 7
+    },
+    {
+      "folio": 22,
+      "clipEdits": {
+        "pageDeviceClips": 16,
+        "headerDeviceClips": 1,
+        "pointPageClips": 1,
+        "fullPageFormBBoxes": 1,
+        "fullPagePaintedRectangles": 3,
+        "fullPagePaintedPolygons": 0
+      },
+      "backgroundRGB": [
+        244,
+        247,
+        237
+      ],
+      "sourcePage": 24,
+      "sourceContentSHA256": "dfb509bb40d319c061bd370ff4f006980f4ead89392efa4f0ae0d5a865fdb3cd",
+      "preserved": "All image/path transforms and existing header-bottom/left limits; edited only outer/top/right clipping, declared page/form bounds, and matching full-page background extents to cover historical white/grey canvas rounding.",
+      "fullRasterPixels": [
+        4512,
+        5812
+      ],
+      "topStripPixels": [
+        4512,
+        71
+      ],
+      "rightStripPixels": [
+        71,
+        5812
+      ],
+      "topClipPoints": [
+        0,
+        688.8188976377953,
+        541.4173228346457,
+        8.503937007874017
+      ],
+      "rightClipPoints": [
+        532.9133858267717,
+        8.503937007874017,
+        8.503937007874017,
+        680.3149606299213
+      ],
+      "expandedNativeSHA256": "424c8acb1084b1912b816760ce3a7cff2ca06a9230de57739cce8292beed1db1",
+      "expandedSRGBRasterSHA256": "f58e00beeee9c1a1efa15d4e884bb60c08c8e4b8dd8d17041edf5d9d1a609880",
+      "overlayPage": 8
+    },
+    {
+      "folio": 24,
+      "clipEdits": {
+        "pageDeviceClips": 17,
+        "headerDeviceClips": 1,
+        "pointPageClips": 1,
+        "fullPageFormBBoxes": 1,
+        "fullPagePaintedRectangles": 3,
+        "fullPagePaintedPolygons": 0
+      },
+      "backgroundRGB": [
+        255,
+        248,
+        233
+      ],
+      "sourcePage": 26,
+      "sourceContentSHA256": "5f746794cd7c197dedf20f36c6eebf0b8944ad1f12854c1270788bee671b8b6f",
+      "preserved": "All image/path transforms and existing header-bottom/left limits; edited only outer/top/right clipping, declared page/form bounds, and matching full-page background extents to cover historical white/grey canvas rounding.",
+      "fullRasterPixels": [
+        4512,
+        5812
+      ],
+      "topStripPixels": [
+        4512,
+        71
+      ],
+      "rightStripPixels": [
+        71,
+        5812
+      ],
+      "topClipPoints": [
+        0,
+        688.8188976377953,
+        541.4173228346457,
+        8.503937007874017
+      ],
+      "rightClipPoints": [
+        532.9133858267717,
+        8.503937007874017,
+        8.503937007874017,
+        680.3149606299213
+      ],
+      "expandedNativeSHA256": "cdafd679729ac1e00598b12ebf0e1880e7a83881702d3a9c566766d8f4b46fb9",
+      "expandedSRGBRasterSHA256": "db14b7bb0581f20123b151f57cbb7760901574cd79ce6f74c8cbda26b1194dc8",
+      "overlayPage": 9
+    },
+    {
+      "folio": 26,
+      "clipEdits": {
+        "pageDeviceClips": 17,
+        "headerDeviceClips": 1,
+        "pointPageClips": 1,
+        "fullPageFormBBoxes": 1,
+        "fullPagePaintedRectangles": 3,
+        "fullPagePaintedPolygons": 0
+      },
+      "backgroundRGB": [
+        255,
+        248,
+        233
+      ],
+      "sourcePage": 28,
+      "sourceContentSHA256": "9a3c879b11a8037575fac5dec32a8887a7e21a1575ba0ef51055ae123752622d",
+      "preserved": "All image/path transforms and existing header-bottom/left limits; edited only outer/top/right clipping, declared page/form bounds, and matching full-page background extents to cover historical white/grey canvas rounding.",
+      "fullRasterPixels": [
+        4512,
+        5812
+      ],
+      "topStripPixels": [
+        4512,
+        71
+      ],
+      "rightStripPixels": [
+        71,
+        5812
+      ],
+      "topClipPoints": [
+        0,
+        688.8188976377953,
+        541.4173228346457,
+        8.503937007874017
+      ],
+      "rightClipPoints": [
+        532.9133858267717,
+        8.503937007874017,
+        8.503937007874017,
+        680.3149606299213
+      ],
+      "expandedNativeSHA256": "80d6a3264cf831a17c65104c9b8626f3ea52084046acfa59aa6619358f16346e",
+      "expandedSRGBRasterSHA256": "9e9227f8a36d086ff1cc28fa71f1004d9e6241c48a1b2be11d0e481f7395e2be",
+      "overlayPage": 10
+    },
+    {
+      "folio": 28,
+      "clipEdits": {
+        "pageDeviceClips": 17,
+        "headerDeviceClips": 1,
+        "pointPageClips": 1,
+        "fullPageFormBBoxes": 1,
+        "fullPagePaintedRectangles": 3,
+        "fullPagePaintedPolygons": 0
+      },
+      "backgroundRGB": [
+        255,
+        248,
+        233
+      ],
+      "sourcePage": 30,
+      "sourceContentSHA256": "54b1a801613ddb39da562969b618b536533a6bd496b2e4a3738e435f4ba86cbe",
+      "preserved": "All image/path transforms and existing header-bottom/left limits; edited only outer/top/right clipping, declared page/form bounds, and matching full-page background extents to cover historical white/grey canvas rounding.",
+      "fullRasterPixels": [
+        4512,
+        5812
+      ],
+      "topStripPixels": [
+        4512,
+        71
+      ],
+      "rightStripPixels": [
+        71,
+        5812
+      ],
+      "topClipPoints": [
+        0,
+        688.8188976377953,
+        541.4173228346457,
+        8.503937007874017
+      ],
+      "rightClipPoints": [
+        532.9133858267717,
+        8.503937007874017,
+        8.503937007874017,
+        680.3149606299213
+      ],
+      "expandedNativeSHA256": "b39932878477f195bc91f0247715e8655cf5361b55462016b366336a5010e6e9",
+      "expandedSRGBRasterSHA256": "ae5c2b389f64ad5b244e5c29fabb1dfc039360b4658d4ea23d3dacb55c0386fa",
+      "overlayPage": 11
+    },
+    {
+      "folio": 30,
+      "clipEdits": {
+        "pageDeviceClips": 17,
+        "headerDeviceClips": 1,
+        "pointPageClips": 1,
+        "fullPageFormBBoxes": 1,
+        "fullPagePaintedRectangles": 3,
+        "fullPagePaintedPolygons": 0
+      },
+      "backgroundRGB": [
+        255,
+        248,
+        233
+      ],
+      "sourcePage": 32,
+      "sourceContentSHA256": "5037db2c4777b7ba83ed3d86badcbfbf8dc69f4c0469d5d2c9d38e38067b49f2",
+      "preserved": "All image/path transforms and existing header-bottom/left limits; edited only outer/top/right clipping, declared page/form bounds, and matching full-page background extents to cover historical white/grey canvas rounding.",
+      "fullRasterPixels": [
+        4512,
+        5812
+      ],
+      "topStripPixels": [
+        4512,
+        71
+      ],
+      "rightStripPixels": [
+        71,
+        5812
+      ],
+      "topClipPoints": [
+        0,
+        688.8188976377953,
+        541.4173228346457,
+        8.503937007874017
+      ],
+      "rightClipPoints": [
+        532.9133858267717,
+        8.503937007874017,
+        8.503937007874017,
+        680.3149606299213
+      ],
+      "expandedNativeSHA256": "a8a22a650e2ee550e92786c29873691084d292723e40c0a5802f29fe4438938f",
+      "expandedSRGBRasterSHA256": "8cf65e1371754e093751c549aa5e4f916e0ca204a088e2e8c7950f4a59d51f6a",
+      "overlayPage": 12
+    },
+    {
+      "folio": 32,
+      "clipEdits": {
+        "pageDeviceClips": 17,
+        "headerDeviceClips": 1,
+        "pointPageClips": 1,
+        "fullPageFormBBoxes": 1,
+        "fullPagePaintedRectangles": 3,
+        "fullPagePaintedPolygons": 0
+      },
+      "backgroundRGB": [
+        255,
+        248,
+        233
+      ],
+      "sourcePage": 34,
+      "sourceContentSHA256": "dff970ab25fe3e0bcb2a59d87855947a3acb7fdce064e97e0c543b3ce787a903",
+      "preserved": "All image/path transforms and existing header-bottom/left limits; edited only outer/top/right clipping, declared page/form bounds, and matching full-page background extents to cover historical white/grey canvas rounding.",
+      "fullRasterPixels": [
+        4512,
+        5812
+      ],
+      "topStripPixels": [
+        4512,
+        71
+      ],
+      "rightStripPixels": [
+        71,
+        5812
+      ],
+      "topClipPoints": [
+        0,
+        688.8188976377953,
+        541.4173228346457,
+        8.503937007874017
+      ],
+      "rightClipPoints": [
+        532.9133858267717,
+        8.503937007874017,
+        8.503937007874017,
+        680.3149606299213
+      ],
+      "expandedNativeSHA256": "e0fcd942352ce0abc8346a261b324932e12e46457d4ea46cf8a62146dcc502a6",
+      "expandedSRGBRasterSHA256": "d45d94c495583f9de17c6043e5e52cfb94e9a385e85984120e5e0c0881c91a48",
+      "overlayPage": 13
+    },
+    {
+      "folio": 34,
+      "clipEdits": {
+        "pageDeviceClips": 16,
+        "headerDeviceClips": 1,
+        "pointPageClips": 1,
+        "fullPageFormBBoxes": 1,
+        "fullPagePaintedRectangles": 3,
+        "fullPagePaintedPolygons": 0
+      },
+      "backgroundRGB": [
+        255,
+        248,
+        233
+      ],
+      "sourcePage": 36,
+      "sourceContentSHA256": "246626bf7d70a1efd4775d856105c8264775debd5cead7890a4088c010a31426",
+      "preserved": "All image/path transforms and existing header-bottom/left limits; edited only outer/top/right clipping, declared page/form bounds, and matching full-page background extents to cover historical white/grey canvas rounding.",
+      "fullRasterPixels": [
+        4512,
+        5812
+      ],
+      "topStripPixels": [
+        4512,
+        71
+      ],
+      "rightStripPixels": [
+        71,
+        5812
+      ],
+      "topClipPoints": [
+        0,
+        688.8188976377953,
+        541.4173228346457,
+        8.503937007874017
+      ],
+      "rightClipPoints": [
+        532.9133858267717,
+        8.503937007874017,
+        8.503937007874017,
+        680.3149606299213
+      ],
+      "expandedNativeSHA256": "37ba183e79ff195a48b59f6c84a57f064909cca612cb55385f80cec413177b9e",
+      "expandedSRGBRasterSHA256": "73204970e1f7745f673fed3187579403dc1f58c5b0d9e8de13d604ed127cf13c",
+      "overlayPage": 14
+    },
+    {
+      "folio": 36,
+      "clipEdits": {
+        "pageDeviceClips": 17,
+        "headerDeviceClips": 1,
+        "pointPageClips": 1,
+        "fullPageFormBBoxes": 1,
+        "fullPagePaintedRectangles": 3,
+        "fullPagePaintedPolygons": 0
+      },
+      "backgroundRGB": [
+        255,
+        248,
+        233
+      ],
+      "sourcePage": 38,
+      "sourceContentSHA256": "a3b6e6f218a18b58edac85c49499cc0fa0cbdb1430686708757bfe8426d66a08",
+      "preserved": "All image/path transforms and existing header-bottom/left limits; edited only outer/top/right clipping, declared page/form bounds, and matching full-page background extents to cover historical white/grey canvas rounding.",
+      "fullRasterPixels": [
+        4512,
+        5812
+      ],
+      "topStripPixels": [
+        4512,
+        71
+      ],
+      "rightStripPixels": [
+        71,
+        5812
+      ],
+      "topClipPoints": [
+        0,
+        688.8188976377953,
+        541.4173228346457,
+        8.503937007874017
+      ],
+      "rightClipPoints": [
+        532.9133858267717,
+        8.503937007874017,
+        8.503937007874017,
+        680.3149606299213
+      ],
+      "expandedNativeSHA256": "de21a481e3e92c4bc82fa9b99ca715d2f78c7adccd9972d953ff17b56ecae9cd",
+      "expandedSRGBRasterSHA256": "dcaab79db7a20ce66e9970c16db8e0ace66b2a99484ef1a5aeacfb78bd659c9a",
+      "overlayPage": 15
+    },
+    {
+      "folio": 38,
+      "clipEdits": {
+        "pageDeviceClips": 17,
+        "headerDeviceClips": 1,
+        "pointPageClips": 1,
+        "fullPageFormBBoxes": 1,
+        "fullPagePaintedRectangles": 3,
+        "fullPagePaintedPolygons": 0
+      },
+      "backgroundRGB": [
+        255,
+        248,
+        233
+      ],
+      "sourcePage": 40,
+      "sourceContentSHA256": "604290025fe770c6c9080a12a0aec807f2722f5789a897da6bf6cbde5c166a6b",
+      "preserved": "All image/path transforms and existing header-bottom/left limits; edited only outer/top/right clipping, declared page/form bounds, and matching full-page background extents to cover historical white/grey canvas rounding.",
+      "fullRasterPixels": [
+        4512,
+        5812
+      ],
+      "topStripPixels": [
+        4512,
+        71
+      ],
+      "rightStripPixels": [
+        71,
+        5812
+      ],
+      "topClipPoints": [
+        0,
+        688.8188976377953,
+        541.4173228346457,
+        8.503937007874017
+      ],
+      "rightClipPoints": [
+        532.9133858267717,
+        8.503937007874017,
+        8.503937007874017,
+        680.3149606299213
+      ],
+      "expandedNativeSHA256": "4072ad3c41d77e977415d1c3724a8adc7237be841d61eb1e92f8ac14ce921183",
+      "expandedSRGBRasterSHA256": "77d8d632e910b834fc3d50ef96ce4cdd3dc685b76fd4e0012308f2a0e6d89b43",
+      "overlayPage": 16
+    },
+    {
+      "folio": 40,
+      "clipEdits": {
+        "pageDeviceClips": 17,
+        "headerDeviceClips": 1,
+        "pointPageClips": 1,
+        "fullPageFormBBoxes": 1,
+        "fullPagePaintedRectangles": 3,
+        "fullPagePaintedPolygons": 0
+      },
+      "backgroundRGB": [
+        241,
+        246,
+        242
+      ],
+      "sourcePage": 42,
+      "sourceContentSHA256": "4b6585fe6e68e0c58172e5934aad6b754f3fcf3ab15a9016e7ce4ee1274fff55",
+      "preserved": "All image/path transforms and existing header-bottom/left limits; edited only outer/top/right clipping, declared page/form bounds, and matching full-page background extents to cover historical white/grey canvas rounding.",
+      "fullRasterPixels": [
+        4512,
+        5812
+      ],
+      "topStripPixels": [
+        4512,
+        71
+      ],
+      "rightStripPixels": [
+        71,
+        5812
+      ],
+      "topClipPoints": [
+        0,
+        688.8188976377953,
+        541.4173228346457,
+        8.503937007874017
+      ],
+      "rightClipPoints": [
+        532.9133858267717,
+        8.503937007874017,
+        8.503937007874017,
+        680.3149606299213
+      ],
+      "expandedNativeSHA256": "f1a3258753d5c68c0f04b101f33a13e2af98b6c21096d4aff3809f7097bd3486",
+      "expandedSRGBRasterSHA256": "074f4ebe302fcb7ad2d890dd617cb2f565a414f659217100caddd3e99e4c2491",
+      "overlayPage": 17
+    },
+    {
+      "folio": 42,
+      "clipEdits": {
+        "pageDeviceClips": 16,
+        "headerDeviceClips": 1,
+        "pointPageClips": 1,
+        "fullPageFormBBoxes": 1,
+        "fullPagePaintedRectangles": 3,
+        "fullPagePaintedPolygons": 0
+      },
+      "backgroundRGB": [
+        244,
+        247,
+        237
+      ],
+      "sourcePage": 44,
+      "sourceContentSHA256": "03ecc7b52724a93b433c41a7cfcc7046c15f884ed665f1aea01cc8bfb4aefd4d",
+      "preserved": "All image/path transforms and existing header-bottom/left limits; edited only outer/top/right clipping, declared page/form bounds, and matching full-page background extents to cover historical white/grey canvas rounding.",
+      "fullRasterPixels": [
+        4512,
+        5812
+      ],
+      "topStripPixels": [
+        4512,
+        71
+      ],
+      "rightStripPixels": [
+        71,
+        5812
+      ],
+      "topClipPoints": [
+        0,
+        688.8188976377953,
+        541.4173228346457,
+        8.503937007874017
+      ],
+      "rightClipPoints": [
+        532.9133858267717,
+        8.503937007874017,
+        8.503937007874017,
+        680.3149606299213
+      ],
+      "expandedNativeSHA256": "14fb175772b3a73160e4bfdfb438b535fde368e2d6bfa8854249fa446b283302",
+      "expandedSRGBRasterSHA256": "afd8e81355d0eacf872ad7beb3261500df3d910edf938b3ed0672409bb15fff9",
+      "overlayPage": 18
+    },
+    {
+      "folio": 44,
+      "clipEdits": {
+        "pageDeviceClips": 18,
+        "headerDeviceClips": 1,
+        "pointPageClips": 1,
+        "fullPageFormBBoxes": 1,
+        "fullPagePaintedRectangles": 3,
+        "fullPagePaintedPolygons": 0
+      },
+      "backgroundRGB": [
+        255,
+        248,
+        233
+      ],
+      "sourcePage": 46,
+      "sourceContentSHA256": "96c5a6513d022a729f5ce4f6469ed83922b3a0569d7d5eb572130c7141a84f0d",
+      "preserved": "All image/path transforms and existing header-bottom/left limits; edited only outer/top/right clipping, declared page/form bounds, and matching full-page background extents to cover historical white/grey canvas rounding.",
+      "fullRasterPixels": [
+        4512,
+        5812
+      ],
+      "topStripPixels": [
+        4512,
+        71
+      ],
+      "rightStripPixels": [
+        71,
+        5812
+      ],
+      "topClipPoints": [
+        0,
+        688.8188976377953,
+        541.4173228346457,
+        8.503937007874017
+      ],
+      "rightClipPoints": [
+        532.9133858267717,
+        8.503937007874017,
+        8.503937007874017,
+        680.3149606299213
+      ],
+      "expandedNativeSHA256": "813a28192326d470bac37e27e044767e8cf018b032b2ac0812d1a282342efca6",
+      "expandedSRGBRasterSHA256": "12106948ef5201a39ae75c426170fcfd60965611a9d35b69556790d4446baa94",
+      "overlayPage": 19
+    },
+    {
+      "folio": 46,
+      "clipEdits": {
+        "pageDeviceClips": 16,
+        "headerDeviceClips": 1,
+        "pointPageClips": 1,
+        "fullPageFormBBoxes": 1,
+        "fullPagePaintedRectangles": 3,
+        "fullPagePaintedPolygons": 0
+      },
+      "backgroundRGB": [
+        255,
+        248,
+        233
+      ],
+      "sourcePage": 48,
+      "sourceContentSHA256": "1d335eb9c57415ad54fd238ff7ff1487040338d7ca9739e11e1fbe689e0a2e6f",
+      "preserved": "All image/path transforms and existing header-bottom/left limits; edited only outer/top/right clipping, declared page/form bounds, and matching full-page background extents to cover historical white/grey canvas rounding.",
+      "fullRasterPixels": [
+        4512,
+        5812
+      ],
+      "topStripPixels": [
+        4512,
+        71
+      ],
+      "rightStripPixels": [
+        71,
+        5812
+      ],
+      "topClipPoints": [
+        0,
+        688.8188976377953,
+        541.4173228346457,
+        8.503937007874017
+      ],
+      "rightClipPoints": [
+        532.9133858267717,
+        8.503937007874017,
+        8.503937007874017,
+        680.3149606299213
+      ],
+      "expandedNativeSHA256": "741c9ec0990699f397841f4386bfe0c55164d8affd6a03af69f31ed3614f1426",
+      "expandedSRGBRasterSHA256": "e6af437b5f4a3fe7676b0ac02d69b3ca4b5ad68f443fd1bb1e3eced24e71f932",
+      "overlayPage": 20
+    },
+    {
+      "folio": 48,
+      "clipEdits": {
+        "pageDeviceClips": 18,
+        "headerDeviceClips": 1,
+        "pointPageClips": 1,
+        "fullPageFormBBoxes": 1,
+        "fullPagePaintedRectangles": 3,
+        "fullPagePaintedPolygons": 0
+      },
+      "backgroundRGB": [
+        255,
+        248,
+        233
+      ],
+      "sourcePage": 50,
+      "sourceContentSHA256": "4cce3ab62231b27f470d0b2bffb3b2341ef2234cef0424cdb937c1094c2719d7",
+      "preserved": "All image/path transforms and existing header-bottom/left limits; edited only outer/top/right clipping, declared page/form bounds, and matching full-page background extents to cover historical white/grey canvas rounding.",
+      "fullRasterPixels": [
+        4512,
+        5812
+      ],
+      "topStripPixels": [
+        4512,
+        71
+      ],
+      "rightStripPixels": [
+        71,
+        5812
+      ],
+      "topClipPoints": [
+        0,
+        688.8188976377953,
+        541.4173228346457,
+        8.503937007874017
+      ],
+      "rightClipPoints": [
+        532.9133858267717,
+        8.503937007874017,
+        8.503937007874017,
+        680.3149606299213
+      ],
+      "expandedNativeSHA256": "b00e6b879561c96a2b371d7b4a5c0a16c1962dcf838c75fe29523276c7719d8b",
+      "expandedSRGBRasterSHA256": "13a4ad64b620d3a32d526d17294bd2ea57ed88dbbc97a8cbd3b6fd278a3efdaf",
+      "overlayPage": 21
+    },
+    {
+      "folio": 50,
+      "clipEdits": {
+        "pageDeviceClips": 17,
+        "headerDeviceClips": 1,
+        "pointPageClips": 1,
+        "fullPageFormBBoxes": 1,
+        "fullPagePaintedRectangles": 3,
+        "fullPagePaintedPolygons": 0
+      },
+      "backgroundRGB": [
+        244,
+        247,
+        237
+      ],
+      "sourcePage": 52,
+      "sourceContentSHA256": "d42b094ee2828781fad9e38afe99ed608bb97a34cceaa58902988679fa4b2b13",
+      "preserved": "All image/path transforms and existing header-bottom/left limits; edited only outer/top/right clipping, declared page/form bounds, and matching full-page background extents to cover historical white/grey canvas rounding.",
+      "fullRasterPixels": [
+        4512,
+        5812
+      ],
+      "topStripPixels": [
+        4512,
+        71
+      ],
+      "rightStripPixels": [
+        71,
+        5812
+      ],
+      "topClipPoints": [
+        0,
+        688.8188976377953,
+        541.4173228346457,
+        8.503937007874017
+      ],
+      "rightClipPoints": [
+        532.9133858267717,
+        8.503937007874017,
+        8.503937007874017,
+        680.3149606299213
+      ],
+      "expandedNativeSHA256": "0c62d3d1daf0b260fbcc901a44d804402e45d8f9dee371d404d9f2e80710450a",
+      "expandedSRGBRasterSHA256": "dd84488fa55986bf93c1cfd48db5c5fae0004c3b839ad35fc0c4db10c7a566a6",
+      "overlayPage": 22
+    },
+    {
+      "folio": 52,
+      "clipEdits": {
+        "pageDeviceClips": 16,
+        "headerDeviceClips": 1,
+        "pointPageClips": 1,
+        "fullPageFormBBoxes": 1,
+        "fullPagePaintedRectangles": 3,
+        "fullPagePaintedPolygons": 0
+      },
+      "backgroundRGB": [
+        241,
+        246,
+        242
+      ],
+      "sourcePage": 54,
+      "sourceContentSHA256": "1589b48346f3159103fea84c745ee2beab79dc8e000d5377ae7832f7ac0726a8",
+      "preserved": "All image/path transforms and existing header-bottom/left limits; edited only outer/top/right clipping, declared page/form bounds, and matching full-page background extents to cover historical white/grey canvas rounding.",
+      "fullRasterPixels": [
+        4512,
+        5812
+      ],
+      "topStripPixels": [
+        4512,
+        71
+      ],
+      "rightStripPixels": [
+        71,
+        5812
+      ],
+      "topClipPoints": [
+        0,
+        688.8188976377953,
+        541.4173228346457,
+        8.503937007874017
+      ],
+      "rightClipPoints": [
+        532.9133858267717,
+        8.503937007874017,
+        8.503937007874017,
+        680.3149606299213
+      ],
+      "expandedNativeSHA256": "217913ecbfb9b62987d93b8599db7aa62b2c1c6f6216d045ea70725780b217a5",
+      "expandedSRGBRasterSHA256": "55ad30b6bd5426e4cfea4d6ee64ceb8c59fe9436ca50e69dd57930fe5c96aaf5",
+      "overlayPage": 23
+    },
+    {
+      "folio": 54,
+      "clipEdits": {
+        "pageDeviceClips": 14,
+        "headerDeviceClips": 1,
+        "pointPageClips": 1,
+        "fullPageFormBBoxes": 1,
+        "fullPagePaintedRectangles": 3,
+        "fullPagePaintedPolygons": 0
+      },
+      "backgroundRGB": [
+        250,
+        243,
+        246
+      ],
+      "sourcePage": 56,
+      "sourceContentSHA256": "6225755c5642442323b3ce68a0c0750fcc84085e54b6d1bb304cde481b6308ba",
+      "preserved": "All image/path transforms and existing header-bottom/left limits; edited only outer/top/right clipping, declared page/form bounds, and matching full-page background extents to cover historical white/grey canvas rounding.",
+      "fullRasterPixels": [
+        4512,
+        5812
+      ],
+      "topStripPixels": [
+        4512,
+        71
+      ],
+      "rightStripPixels": [
+        71,
+        5812
+      ],
+      "topClipPoints": [
+        0,
+        688.8188976377953,
+        541.4173228346457,
+        8.503937007874017
+      ],
+      "rightClipPoints": [
+        532.9133858267717,
+        8.503937007874017,
+        8.503937007874017,
+        680.3149606299213
+      ],
+      "expandedNativeSHA256": "a6d2ecc44d580f0a948030c721d9b24dc4a3857cf0ea2968be31ff329cd5779b",
+      "expandedSRGBRasterSHA256": "91ef4b9dff2e924c0f95248b4db99ca3cef5a7841cb11fa0d0cf11093a51d74a",
+      "overlayPage": 24
+    },
+    {
+      "folio": 56,
+      "clipEdits": {
+        "pageDeviceClips": 17,
+        "headerDeviceClips": 1,
+        "pointPageClips": 1,
+        "fullPageFormBBoxes": 1,
+        "fullPagePaintedRectangles": 3,
+        "fullPagePaintedPolygons": 0
+      },
+      "backgroundRGB": [
+        255,
+        248,
+        233
+      ],
+      "sourcePage": 58,
+      "sourceContentSHA256": "21757b9793ba80e128b4fe606fad67c22ee1d3b8f2dd993d1d1e7cdff017b3d2",
+      "preserved": "All image/path transforms and existing header-bottom/left limits; edited only outer/top/right clipping, declared page/form bounds, and matching full-page background extents to cover historical white/grey canvas rounding.",
+      "fullRasterPixels": [
+        4512,
+        5812
+      ],
+      "topStripPixels": [
+        4512,
+        71
+      ],
+      "rightStripPixels": [
+        71,
+        5812
+      ],
+      "topClipPoints": [
+        0,
+        688.8188976377953,
+        541.4173228346457,
+        8.503937007874017
+      ],
+      "rightClipPoints": [
+        532.9133858267717,
+        8.503937007874017,
+        8.503937007874017,
+        680.3149606299213
+      ],
+      "expandedNativeSHA256": "6ada1dbf31ad2783754ad3405ba656391f0d01b966881e8c60805d73afb12ab5",
+      "expandedSRGBRasterSHA256": "5b0334cb2e371758e785a7299a0e28f92a49f04a589cbc8e64cbbe7c6303c085",
+      "overlayPage": 25
+    },
+    {
+      "folio": 58,
+      "clipEdits": {
+        "pageDeviceClips": 16,
+        "headerDeviceClips": 1,
+        "pointPageClips": 1,
+        "fullPageFormBBoxes": 1,
+        "fullPagePaintedRectangles": 3,
+        "fullPagePaintedPolygons": 0
+      },
+      "backgroundRGB": [
+        255,
+        248,
+        233
+      ],
+      "sourcePage": 60,
+      "sourceContentSHA256": "506c55f5b9eba4c75e6de6f85967169da882942ccb9b58000af6d28c66f3b43b",
+      "preserved": "All image/path transforms and existing header-bottom/left limits; edited only outer/top/right clipping, declared page/form bounds, and matching full-page background extents to cover historical white/grey canvas rounding.",
+      "fullRasterPixels": [
+        4512,
+        5812
+      ],
+      "topStripPixels": [
+        4512,
+        71
+      ],
+      "rightStripPixels": [
+        71,
+        5812
+      ],
+      "topClipPoints": [
+        0,
+        688.8188976377953,
+        541.4173228346457,
+        8.503937007874017
+      ],
+      "rightClipPoints": [
+        532.9133858267717,
+        8.503937007874017,
+        8.503937007874017,
+        680.3149606299213
+      ],
+      "expandedNativeSHA256": "392d28742ade8c7331f3c9b4edb87c7eec3f87bef23a4f4703bb07d576dbe3b1",
+      "expandedSRGBRasterSHA256": "397f0e2c2c60126467edaff7b8a03b25940b724439770b9e93fd8071d32902fa",
+      "overlayPage": 26
+    },
+    {
+      "folio": 60,
+      "clipEdits": {
+        "pageDeviceClips": 17,
+        "headerDeviceClips": 1,
+        "pointPageClips": 1,
+        "fullPageFormBBoxes": 1,
+        "fullPagePaintedRectangles": 3,
+        "fullPagePaintedPolygons": 0
+      },
+      "backgroundRGB": [
+        250,
+        243,
+        246
+      ],
+      "sourcePage": 62,
+      "sourceContentSHA256": "21b6d2695bdec84a71ee3a6f374941b6f6ba5455119aeb1fcb82ed116034b9d1",
+      "preserved": "All image/path transforms and existing header-bottom/left limits; edited only outer/top/right clipping, declared page/form bounds, and matching full-page background extents to cover historical white/grey canvas rounding.",
+      "fullRasterPixels": [
+        4512,
+        5812
+      ],
+      "topStripPixels": [
+        4512,
+        71
+      ],
+      "rightStripPixels": [
+        71,
+        5812
+      ],
+      "topClipPoints": [
+        0,
+        688.8188976377953,
+        541.4173228346457,
+        8.503937007874017
+      ],
+      "rightClipPoints": [
+        532.9133858267717,
+        8.503937007874017,
+        8.503937007874017,
+        680.3149606299213
+      ],
+      "expandedNativeSHA256": "aa2f940fed7e560821930c0cfdb25c8128b8e922ee8ed9d1861a6d0765996e03",
+      "expandedSRGBRasterSHA256": "ebc0346578d22df2a3cfe5469e76c9ca4f5384a5ff04971bb1e7e917e278aeb0",
+      "overlayPage": 27
+    },
+    {
+      "folio": 62,
+      "clipEdits": {
+        "pageDeviceClips": 17,
+        "headerDeviceClips": 1,
+        "pointPageClips": 1,
+        "fullPageFormBBoxes": 1,
+        "fullPagePaintedRectangles": 3,
+        "fullPagePaintedPolygons": 0
+      },
+      "backgroundRGB": [
+        244,
+        247,
+        237
+      ],
+      "sourcePage": 64,
+      "sourceContentSHA256": "9f5dee23d08b8081f7b24833346b32b4c8b49fb7e56d4500c7a3e7981b00f55d",
+      "preserved": "All image/path transforms and existing header-bottom/left limits; edited only outer/top/right clipping, declared page/form bounds, and matching full-page background extents to cover historical white/grey canvas rounding.",
+      "fullRasterPixels": [
+        4512,
+        5812
+      ],
+      "topStripPixels": [
+        4512,
+        71
+      ],
+      "rightStripPixels": [
+        71,
+        5812
+      ],
+      "topClipPoints": [
+        0,
+        688.8188976377953,
+        541.4173228346457,
+        8.503937007874017
+      ],
+      "rightClipPoints": [
+        532.9133858267717,
+        8.503937007874017,
+        8.503937007874017,
+        680.3149606299213
+      ],
+      "expandedNativeSHA256": "4004b7ce778ef27f14148144abb7dea013302e4aace0b2a8fcb0f1b601fcf15d",
+      "expandedSRGBRasterSHA256": "6228f281b6f1c5faa120bf618704f6c55a605019ff5ef25d7aca9b5288befce4",
+      "overlayPage": 28
+    },
+    {
+      "folio": 64,
+      "clipEdits": {
+        "pageDeviceClips": 10,
+        "headerDeviceClips": 1,
+        "pointPageClips": 1,
+        "fullPageFormBBoxes": 1,
+        "fullPagePaintedRectangles": 3,
+        "fullPagePaintedPolygons": 0
+      },
+      "backgroundRGB": [
+        255,
+        248,
+        233
+      ],
+      "sourcePage": 66,
+      "sourceContentSHA256": "eee18c67d9bd204f5c300d1d9439493e5dfe767d7a8617a721d3d29011d0e39f",
+      "preserved": "All image/path transforms and existing header-bottom/left limits; edited only outer/top/right clipping, declared page/form bounds, and matching full-page background extents to cover historical white/grey canvas rounding.",
+      "fullRasterPixels": [
+        4512,
+        5812
+      ],
+      "topStripPixels": [
+        4512,
+        71
+      ],
+      "rightStripPixels": [
+        71,
+        5812
+      ],
+      "topClipPoints": [
+        0,
+        688.8188976377953,
+        541.4173228346457,
+        8.503937007874017
+      ],
+      "rightClipPoints": [
+        532.9133858267717,
+        8.503937007874017,
+        8.503937007874017,
+        680.3149606299213
+      ],
+      "expandedNativeSHA256": "acec3839beebb93542985cd0e0e02b01c0cb92b208d501cb85bb1065ee93a0ed",
+      "expandedSRGBRasterSHA256": "f41ba85af8d0f1d152891374455cf097f881ef3eb861876fd8b9373ee4188d9b",
+      "overlayPage": 29
+    },
+    {
+      "folio": 66,
+      "clipEdits": {
+        "pageDeviceClips": 17,
+        "headerDeviceClips": 1,
+        "pointPageClips": 1,
+        "fullPageFormBBoxes": 1,
+        "fullPagePaintedRectangles": 3,
+        "fullPagePaintedPolygons": 0
+      },
+      "backgroundRGB": [
+        250,
+        243,
+        246
+      ],
+      "sourcePage": 68,
+      "sourceContentSHA256": "f6e86730a781dd2da048e1f8d4d4f5aad5313abe764883bc97333ea8ddb61766",
+      "preserved": "All image/path transforms and existing header-bottom/left limits; edited only outer/top/right clipping, declared page/form bounds, and matching full-page background extents to cover historical white/grey canvas rounding.",
+      "fullRasterPixels": [
+        4512,
+        5812
+      ],
+      "topStripPixels": [
+        4512,
+        71
+      ],
+      "rightStripPixels": [
+        71,
+        5812
+      ],
+      "topClipPoints": [
+        0,
+        688.8188976377953,
+        541.4173228346457,
+        8.503937007874017
+      ],
+      "rightClipPoints": [
+        532.9133858267717,
+        8.503937007874017,
+        8.503937007874017,
+        680.3149606299213
+      ],
+      "expandedNativeSHA256": "26c9935a2109c5c88c145646e6a1647332cd9facd88ad6ddf15c6e64562a7452",
+      "expandedSRGBRasterSHA256": "9e5057e0610ee2774e764527d44eb398982b9ed0a0bacbc776bbcf5b4c4b2111",
+      "overlayPage": 30
+    },
+    {
+      "folio": 68,
+      "clipEdits": {
+        "pageDeviceClips": 15,
+        "headerDeviceClips": 1,
+        "pointPageClips": 1,
+        "fullPageFormBBoxes": 1,
+        "fullPagePaintedRectangles": 3,
+        "fullPagePaintedPolygons": 0
+      },
+      "backgroundRGB": [
+        244,
+        247,
+        237
+      ],
+      "sourcePage": 70,
+      "sourceContentSHA256": "e2872f883548d1e2b1f74bd1ecd791e34a50b56f30d3527eaa45e96e9985a6c3",
+      "preserved": "All image/path transforms and existing header-bottom/left limits; edited only outer/top/right clipping, declared page/form bounds, and matching full-page background extents to cover historical white/grey canvas rounding.",
+      "fullRasterPixels": [
+        4512,
+        5812
+      ],
+      "topStripPixels": [
+        4512,
+        71
+      ],
+      "rightStripPixels": [
+        71,
+        5812
+      ],
+      "topClipPoints": [
+        0,
+        688.8188976377953,
+        541.4173228346457,
+        8.503937007874017
+      ],
+      "rightClipPoints": [
+        532.9133858267717,
+        8.503937007874017,
+        8.503937007874017,
+        680.3149606299213
+      ],
+      "expandedNativeSHA256": "87d1345eb6c57c2de18f307c4f7141f793564dfd83a40f06ba204c66e9823d0b",
+      "expandedSRGBRasterSHA256": "df888792132472434aa98e95a6bba26979be07a828d4b0c90af3cbd170048f0e",
+      "overlayPage": 31
+    },
+    {
+      "folio": 70,
+      "clipEdits": {
+        "pageDeviceClips": 16,
+        "headerDeviceClips": 1,
+        "pointPageClips": 1,
+        "fullPageFormBBoxes": 1,
+        "fullPagePaintedRectangles": 3,
+        "fullPagePaintedPolygons": 0
+      },
+      "backgroundRGB": [
+        255,
+        248,
+        233
+      ],
+      "sourcePage": 72,
+      "sourceContentSHA256": "24f0ce3c3f2b71769519639d65a462be549f383aba00e1ba4ff61df35e219d1b",
+      "preserved": "All image/path transforms and existing header-bottom/left limits; edited only outer/top/right clipping, declared page/form bounds, and matching full-page background extents to cover historical white/grey canvas rounding.",
+      "fullRasterPixels": [
+        4512,
+        5812
+      ],
+      "topStripPixels": [
+        4512,
+        71
+      ],
+      "rightStripPixels": [
+        71,
+        5812
+      ],
+      "topClipPoints": [
+        0,
+        688.8188976377953,
+        541.4173228346457,
+        8.503937007874017
+      ],
+      "rightClipPoints": [
+        532.9133858267717,
+        8.503937007874017,
+        8.503937007874017,
+        680.3149606299213
+      ],
+      "expandedNativeSHA256": "1c470b0b10a8f9f9d7cf9211fc35ef74c89fce9fb30fbe118ed2b66a2f748975",
+      "expandedSRGBRasterSHA256": "b2bd85e62acdbe0a8a938f666ef728382b78589901e1d34eb0817f4038872a9a",
+      "overlayPage": 32
+    },
+    {
+      "folio": 72,
+      "clipEdits": {
+        "pageDeviceClips": 16,
+        "headerDeviceClips": 1,
+        "pointPageClips": 1,
+        "fullPageFormBBoxes": 1,
+        "fullPagePaintedRectangles": 3,
+        "fullPagePaintedPolygons": 0
+      },
+      "backgroundRGB": [
+        255,
+        248,
+        233
+      ],
+      "sourcePage": 74,
+      "sourceContentSHA256": "4fc9642ada381aa17085cdcc232b7cbc0da731c13370da8a9a34384594c8ca02",
+      "preserved": "All image/path transforms and existing header-bottom/left limits; edited only outer/top/right clipping, declared page/form bounds, and matching full-page background extents to cover historical white/grey canvas rounding.",
+      "fullRasterPixels": [
+        4512,
+        5812
+      ],
+      "topStripPixels": [
+        4512,
+        71
+      ],
+      "rightStripPixels": [
+        71,
+        5812
+      ],
+      "topClipPoints": [
+        0,
+        688.8188976377953,
+        541.4173228346457,
+        8.503937007874017
+      ],
+      "rightClipPoints": [
+        532.9133858267717,
+        8.503937007874017,
+        8.503937007874017,
+        680.3149606299213
+      ],
+      "expandedNativeSHA256": "606bb809958f57226798e9a872afcccbf999b85b3842a4744a609258bd035eb6",
+      "expandedSRGBRasterSHA256": "af0b88f9ee7f0f6eb53c1d11ab9f9ee0b785d976ddffe12e61396b015373ed7d",
+      "overlayPage": 33
+    },
+    {
+      "folio": 74,
+      "clipEdits": {
+        "pageDeviceClips": 15,
+        "headerDeviceClips": 1,
+        "pointPageClips": 1,
+        "fullPageFormBBoxes": 1,
+        "fullPagePaintedRectangles": 3,
+        "fullPagePaintedPolygons": 0
+      },
+      "backgroundRGB": [
+        255,
+        248,
+        233
+      ],
+      "sourcePage": 76,
+      "sourceContentSHA256": "caaff5302f87bfe83cc1dba8ea52b34487960349f781c199801fa3785da15b38",
+      "preserved": "All image/path transforms and existing header-bottom/left limits; edited only outer/top/right clipping, declared page/form bounds, and matching full-page background extents to cover historical white/grey canvas rounding.",
+      "fullRasterPixels": [
+        4512,
+        5812
+      ],
+      "topStripPixels": [
+        4512,
+        71
+      ],
+      "rightStripPixels": [
+        71,
+        5812
+      ],
+      "topClipPoints": [
+        0,
+        688.8188976377953,
+        541.4173228346457,
+        8.503937007874017
+      ],
+      "rightClipPoints": [
+        532.9133858267717,
+        8.503937007874017,
+        8.503937007874017,
+        680.3149606299213
+      ],
+      "expandedNativeSHA256": "85294da5ef7acd3ba17b00cb6c1686c85ab1816a0aa5eaa7fdecf51b587e17a7",
+      "expandedSRGBRasterSHA256": "20d18410946f4f368ee7ec7db47f599623ac646d98b52fd10566c76a16c3e83f",
+      "overlayPage": 34
+    },
+    {
+      "folio": 76,
+      "clipEdits": {
+        "pageDeviceClips": 16,
+        "headerDeviceClips": 1,
+        "pointPageClips": 1,
+        "fullPageFormBBoxes": 1,
+        "fullPagePaintedRectangles": 3,
+        "fullPagePaintedPolygons": 0
+      },
+      "backgroundRGB": [
+        255,
+        248,
+        233
+      ],
+      "sourcePage": 78,
+      "sourceContentSHA256": "dfc5cc7530b07f8057c8a98daabedca003b90dd6065ec73fddaa5f02107da680",
+      "preserved": "All image/path transforms and existing header-bottom/left limits; edited only outer/top/right clipping, declared page/form bounds, and matching full-page background extents to cover historical white/grey canvas rounding.",
+      "fullRasterPixels": [
+        4512,
+        5812
+      ],
+      "topStripPixels": [
+        4512,
+        71
+      ],
+      "rightStripPixels": [
+        71,
+        5812
+      ],
+      "topClipPoints": [
+        0,
+        688.8188976377953,
+        541.4173228346457,
+        8.503937007874017
+      ],
+      "rightClipPoints": [
+        532.9133858267717,
+        8.503937007874017,
+        8.503937007874017,
+        680.3149606299213
+      ],
+      "expandedNativeSHA256": "786014e0b1bde1db38e30d7c3725edc4ec54e6d6d95f061f8555f5b86c9dfad7",
+      "expandedSRGBRasterSHA256": "2cc56bab9284443bc70e39e3ec74784855f8963cbc702cc18ff6aae5c99f518a",
+      "overlayPage": 35
+    },
+    {
+      "folio": 78,
+      "clipEdits": {
+        "pageDeviceClips": 15,
+        "headerDeviceClips": 1,
+        "pointPageClips": 1,
+        "fullPageFormBBoxes": 1,
+        "fullPagePaintedRectangles": 3,
+        "fullPagePaintedPolygons": 0
+      },
+      "backgroundRGB": [
+        241,
+        246,
+        242
+      ],
+      "sourcePage": 80,
+      "sourceContentSHA256": "ba7b3ef69a131efedbe53a4da9209d1849ca576f3962217edad17147f244b5fc",
+      "preserved": "All image/path transforms and existing header-bottom/left limits; edited only outer/top/right clipping, declared page/form bounds, and matching full-page background extents to cover historical white/grey canvas rounding.",
+      "fullRasterPixels": [
+        4512,
+        5812
+      ],
+      "topStripPixels": [
+        4512,
+        71
+      ],
+      "rightStripPixels": [
+        71,
+        5812
+      ],
+      "topClipPoints": [
+        0,
+        688.8188976377953,
+        541.4173228346457,
+        8.503937007874017
+      ],
+      "rightClipPoints": [
+        532.9133858267717,
+        8.503937007874017,
+        8.503937007874017,
+        680.3149606299213
+      ],
+      "expandedNativeSHA256": "f4f26e0cab758fb3629b3e78f8c320a712f2d68ee32eeaa703142fbed24f9716",
+      "expandedSRGBRasterSHA256": "2071f812754400fd1fce2b18f345890ca1e500cad67c2a83d78a931e3f13357f",
+      "overlayPage": 36
+    },
+    {
+      "folio": 80,
+      "clipEdits": {
+        "pageDeviceClips": 16,
+        "headerDeviceClips": 1,
+        "pointPageClips": 1,
+        "fullPageFormBBoxes": 1,
+        "fullPagePaintedRectangles": 3,
+        "fullPagePaintedPolygons": 0
+      },
+      "backgroundRGB": [
+        255,
+        248,
+        233
+      ],
+      "sourcePage": 82,
+      "sourceContentSHA256": "99ffd9b78c64bf0306c236ef528173860f9fef6bf0c874c25f8a794ae50751ed",
+      "preserved": "All image/path transforms and existing header-bottom/left limits; edited only outer/top/right clipping, declared page/form bounds, and matching full-page background extents to cover historical white/grey canvas rounding.",
+      "fullRasterPixels": [
+        4512,
+        5812
+      ],
+      "topStripPixels": [
+        4512,
+        71
+      ],
+      "rightStripPixels": [
+        71,
+        5812
+      ],
+      "topClipPoints": [
+        0,
+        688.8188976377953,
+        541.4173228346457,
+        8.503937007874017
+      ],
+      "rightClipPoints": [
+        532.9133858267717,
+        8.503937007874017,
+        8.503937007874017,
+        680.3149606299213
+      ],
+      "expandedNativeSHA256": "41d8dd4777c4b46fc98c1ea767201ae738496a75c07400bcf4bb7022d27360ff",
+      "expandedSRGBRasterSHA256": "594d58d3941c8106b1d0258794e128ea62d590c1596671b4a3ff9b25be17db97",
+      "overlayPage": 37
+    },
+    {
+      "folio": 82,
+      "clipEdits": {
+        "pageDeviceClips": 17,
+        "headerDeviceClips": 1,
+        "pointPageClips": 1,
+        "fullPageFormBBoxes": 1,
+        "fullPagePaintedRectangles": 3,
+        "fullPagePaintedPolygons": 0
+      },
+      "backgroundRGB": [
+        244,
+        247,
+        237
+      ],
+      "sourcePage": 84,
+      "sourceContentSHA256": "22e6cba1aabaebebda0a2bcecfc83bf55050f9c047c16e1cb08b919375d86ceb",
+      "preserved": "All image/path transforms and existing header-bottom/left limits; edited only outer/top/right clipping, declared page/form bounds, and matching full-page background extents to cover historical white/grey canvas rounding.",
+      "fullRasterPixels": [
+        4512,
+        5812
+      ],
+      "topStripPixels": [
+        4512,
+        71
+      ],
+      "rightStripPixels": [
+        71,
+        5812
+      ],
+      "topClipPoints": [
+        0,
+        688.8188976377953,
+        541.4173228346457,
+        8.503937007874017
+      ],
+      "rightClipPoints": [
+        532.9133858267717,
+        8.503937007874017,
+        8.503937007874017,
+        680.3149606299213
+      ],
+      "expandedNativeSHA256": "bba461d25914eb9465eca5ded0d6dfb8662ae53a63b43ddfb96e58d88d116af4",
+      "expandedSRGBRasterSHA256": "7b7b8a145fa4267283536cc9fa5a1f8cca6bca61b0df338bf0acc86a3f3dfb4d",
+      "overlayPage": 38
+    },
+    {
+      "folio": 84,
+      "clipEdits": {
+        "pageDeviceClips": 18,
+        "headerDeviceClips": 1,
+        "pointPageClips": 1,
+        "fullPageFormBBoxes": 1,
+        "fullPagePaintedRectangles": 3,
+        "fullPagePaintedPolygons": 0
+      },
+      "backgroundRGB": [
+        255,
+        248,
+        233
+      ],
+      "sourcePage": 86,
+      "sourceContentSHA256": "55bc3f40c7313377355a626734ea70592c6cce515cb7f0abf8329f7e0f97bb2d",
+      "preserved": "All image/path transforms and existing header-bottom/left limits; edited only outer/top/right clipping, declared page/form bounds, and matching full-page background extents to cover historical white/grey canvas rounding.",
+      "fullRasterPixels": [
+        4512,
+        5812
+      ],
+      "topStripPixels": [
+        4512,
+        71
+      ],
+      "rightStripPixels": [
+        71,
+        5812
+      ],
+      "topClipPoints": [
+        0,
+        688.8188976377953,
+        541.4173228346457,
+        8.503937007874017
+      ],
+      "rightClipPoints": [
+        532.9133858267717,
+        8.503937007874017,
+        8.503937007874017,
+        680.3149606299213
+      ],
+      "expandedNativeSHA256": "d3c8b17b6af11e39309d564a347a649658d8ac30d614b592ce9edb2fd3774d04",
+      "expandedSRGBRasterSHA256": "529d30195aa8c938877b28ad30e01ca13b85ff6ca1979b3de2e2998d05029b08",
+      "overlayPage": 39
+    },
+    {
+      "folio": 86,
+      "clipEdits": {
+        "pageDeviceClips": 17,
+        "headerDeviceClips": 1,
+        "pointPageClips": 1,
+        "fullPageFormBBoxes": 1,
+        "fullPagePaintedRectangles": 3,
+        "fullPagePaintedPolygons": 0
+      },
+      "backgroundRGB": [
+        255,
+        248,
+        233
+      ],
+      "sourcePage": 88,
+      "sourceContentSHA256": "1c5d022ad357c7a43a2894082e6460beb786a7ab01a74869c92090c753afe9cf",
+      "preserved": "All image/path transforms and existing header-bottom/left limits; edited only outer/top/right clipping, declared page/form bounds, and matching full-page background extents to cover historical white/grey canvas rounding.",
+      "fullRasterPixels": [
+        4512,
+        5812
+      ],
+      "topStripPixels": [
+        4512,
+        71
+      ],
+      "rightStripPixels": [
+        71,
+        5812
+      ],
+      "topClipPoints": [
+        0,
+        688.8188976377953,
+        541.4173228346457,
+        8.503937007874017
+      ],
+      "rightClipPoints": [
+        532.9133858267717,
+        8.503937007874017,
+        8.503937007874017,
+        680.3149606299213
+      ],
+      "expandedNativeSHA256": "b625b71b92157c17502de1a0349a083da1a5faf0b4e5b6aceac9cbe83b192c3f",
+      "expandedSRGBRasterSHA256": "dad48398101f936322994f2fe49810d8f7b0e9c01387b3059cfd53b8583a2d00",
+      "overlayPage": 40
+    },
+    {
+      "folio": 88,
+      "clipEdits": {
+        "pageDeviceClips": 18,
+        "headerDeviceClips": 1,
+        "pointPageClips": 1,
+        "fullPageFormBBoxes": 1,
+        "fullPagePaintedRectangles": 3,
+        "fullPagePaintedPolygons": 0
+      },
+      "backgroundRGB": [
+        255,
+        248,
+        233
+      ],
+      "sourcePage": 90,
+      "sourceContentSHA256": "a21b9a8b1d64df1312dd7157d2b590f701371c697574e0da026f38fa46acb513",
+      "preserved": "All image/path transforms and existing header-bottom/left limits; edited only outer/top/right clipping, declared page/form bounds, and matching full-page background extents to cover historical white/grey canvas rounding.",
+      "fullRasterPixels": [
+        4512,
+        5812
+      ],
+      "topStripPixels": [
+        4512,
+        71
+      ],
+      "rightStripPixels": [
+        71,
+        5812
+      ],
+      "topClipPoints": [
+        0,
+        688.8188976377953,
+        541.4173228346457,
+        8.503937007874017
+      ],
+      "rightClipPoints": [
+        532.9133858267717,
+        8.503937007874017,
+        8.503937007874017,
+        680.3149606299213
+      ],
+      "expandedNativeSHA256": "79328d342359325f0ec27c5cd704e503b395473b9fbeec880fb50c2c5527490d",
+      "expandedSRGBRasterSHA256": "81b9a20796533c609eff7ea4c5d2d1be47c8fe9645308f4104f2f5b81b10f139",
+      "overlayPage": 41
+    },
+    {
+      "folio": 90,
+      "clipEdits": {
+        "pageDeviceClips": 16,
+        "headerDeviceClips": 1,
+        "pointPageClips": 1,
+        "fullPageFormBBoxes": 1,
+        "fullPagePaintedRectangles": 3,
+        "fullPagePaintedPolygons": 0
+      },
+      "backgroundRGB": [
+        255,
+        248,
+        233
+      ],
+      "sourcePage": 92,
+      "sourceContentSHA256": "859539d90e58e34bf3a1fb7f426c0458f5ab1e8a6d94899eac0da3886c63e4d6",
+      "preserved": "All image/path transforms and existing header-bottom/left limits; edited only outer/top/right clipping, declared page/form bounds, and matching full-page background extents to cover historical white/grey canvas rounding.",
+      "fullRasterPixels": [
+        4512,
+        5812
+      ],
+      "topStripPixels": [
+        4512,
+        71
+      ],
+      "rightStripPixels": [
+        71,
+        5812
+      ],
+      "topClipPoints": [
+        0,
+        688.8188976377953,
+        541.4173228346457,
+        8.503937007874017
+      ],
+      "rightClipPoints": [
+        532.9133858267717,
+        8.503937007874017,
+        8.503937007874017,
+        680.3149606299213
+      ],
+      "expandedNativeSHA256": "8b5eba2e14007bb0758c851df1a35420f3c8dab4e1782ab1c4e56e60e143893b",
+      "expandedSRGBRasterSHA256": "d6be4f3d76c7f1d44218921166cd5236be709cdd0612c457ac5fd3296e26770d",
+      "overlayPage": 42
+    },
+    {
+      "folio": 92,
+      "clipEdits": {
+        "pageDeviceClips": 15,
+        "headerDeviceClips": 1,
+        "pointPageClips": 1,
+        "fullPageFormBBoxes": 1,
+        "fullPagePaintedRectangles": 3,
+        "fullPagePaintedPolygons": 0
+      },
+      "backgroundRGB": [
+        255,
+        248,
+        233
+      ],
+      "sourcePage": 94,
+      "sourceContentSHA256": "180d6aac30911e8ae04fb9d4641cf0f6ad959c72aa7b9195902fe951159f7c29",
+      "preserved": "All image/path transforms and existing header-bottom/left limits; edited only outer/top/right clipping, declared page/form bounds, and matching full-page background extents to cover historical white/grey canvas rounding.",
+      "fullRasterPixels": [
+        4512,
+        5812
+      ],
+      "topStripPixels": [
+        4512,
+        71
+      ],
+      "rightStripPixels": [
+        71,
+        5812
+      ],
+      "topClipPoints": [
+        0,
+        688.8188976377953,
+        541.4173228346457,
+        8.503937007874017
+      ],
+      "rightClipPoints": [
+        532.9133858267717,
+        8.503937007874017,
+        8.503937007874017,
+        680.3149606299213
+      ],
+      "expandedNativeSHA256": "8e7e460b6a6658c2e4a394c4ff13dee1d050ed1e3499106e080df30bcd6f1fda",
+      "expandedSRGBRasterSHA256": "f1a88a2f6ccaf124e21a74a475c670e18045fff20a38003ab7e833bdf8bb81f4",
+      "overlayPage": 43
+    },
+    {
+      "folio": 94,
+      "clipEdits": {
+        "pageDeviceClips": 16,
+        "headerDeviceClips": 1,
+        "pointPageClips": 1,
+        "fullPageFormBBoxes": 1,
+        "fullPagePaintedRectangles": 3,
+        "fullPagePaintedPolygons": 0
+      },
+      "backgroundRGB": [
+        255,
+        248,
+        233
+      ],
+      "sourcePage": 96,
+      "sourceContentSHA256": "15f91c1e598482653aad8cc409fc2cd3260940c3f69667197bcf1e5916a7f1ac",
+      "preserved": "All image/path transforms and existing header-bottom/left limits; edited only outer/top/right clipping, declared page/form bounds, and matching full-page background extents to cover historical white/grey canvas rounding.",
+      "fullRasterPixels": [
+        4512,
+        5812
+      ],
+      "topStripPixels": [
+        4512,
+        71
+      ],
+      "rightStripPixels": [
+        71,
+        5812
+      ],
+      "topClipPoints": [
+        0,
+        688.8188976377953,
+        541.4173228346457,
+        8.503937007874017
+      ],
+      "rightClipPoints": [
+        532.9133858267717,
+        8.503937007874017,
+        8.503937007874017,
+        680.3149606299213
+      ],
+      "expandedNativeSHA256": "5aa613c812ff5ce990f3b34de3cabf398b7f8ce1ff1c0e9f90b3c4fb3b27e4a3",
+      "expandedSRGBRasterSHA256": "a30da80a8b1643d377f059bae6bea144e5100c408de5e6a6e9a620ec920c52c5",
+      "overlayPage": 44
+    },
+    {
+      "folio": 98,
+      "clipEdits": {
+        "pageDeviceClips": 0,
+        "headerDeviceClips": 0,
+        "pointPageClips": 0,
+        "fullPageFormBBoxes": 0,
+        "fullPagePaintedRectangles": 0,
+        "fullPagePaintedPolygons": 3
+      },
+      "backgroundRGB": [
+        255,
+        248,
+        233
+      ],
+      "sourcePage": 100,
+      "sourceContentSHA256": "398426a578845e558a6b2c7691753d9871b1dad6725f04ca7eb929f8a75605ca",
+      "preserved": "All image/path transforms and existing header-bottom/left limits; edited only outer/top/right clipping, declared page/form bounds, and matching full-page background extents to cover historical white/grey canvas rounding.",
+      "fullRasterPixels": [
+        4512,
+        5812
+      ],
+      "topStripPixels": [
+        4512,
+        71
+      ],
+      "rightStripPixels": [
+        71,
+        5812
+      ],
+      "topClipPoints": [
+        0,
+        688.8188976377953,
+        541.4173228346457,
+        8.503937007874017
+      ],
+      "rightClipPoints": [
+        532.9133858267717,
+        8.503937007874017,
+        8.503937007874017,
+        680.3149606299213
+      ],
+      "expandedNativeSHA256": "1db7cf2d6a828121969379b16ad1284b4015a71f0e52becb401c97ef9a7c0dd5",
+      "expandedSRGBRasterSHA256": "6c7d44ea4d7a3088d7dc3c9bf919e8ffcaba3fc258cfaf9757701a3c44f9758d",
+      "overlayPage": 45
+    },
+    {
+      "folio": 99,
+      "clipEdits": {
+        "pageDeviceClips": 0,
+        "headerDeviceClips": 0,
+        "pointPageClips": 0,
+        "fullPageFormBBoxes": 0,
+        "fullPagePaintedRectangles": 0,
+        "fullPagePaintedPolygons": 3
+      },
+      "backgroundRGB": [
+        255,
+        248,
+        233
+      ],
+      "sourcePage": 101,
+      "sourceContentSHA256": "157b0d2788c5db6d3f3e3ce4b1276771c8a0c281ebcde94fca32fdc93a501700",
+      "preserved": "All image/path transforms and existing header-bottom/left limits; edited only outer/top/right clipping, declared page/form bounds, and matching full-page background extents to cover historical white/grey canvas rounding.",
+      "fullRasterPixels": [
+        4512,
+        5812
+      ],
+      "topStripPixels": [
+        4512,
+        71
+      ],
+      "rightStripPixels": [
+        71,
+        5812
+      ],
+      "topClipPoints": [
+        0,
+        688.8188976377953,
+        541.4173228346457,
+        8.503937007874017
+      ],
+      "rightClipPoints": [
+        532.9133858267717,
+        8.503937007874017,
+        8.503937007874017,
+        680.3149606299213
+      ],
+      "expandedNativeSHA256": "b852cc658b3d05c376ae4cc992a5db014cfc43a072e13a0b1e1a48b71410fe4a",
+      "expandedSRGBRasterSHA256": "36b2b9ff008a7f2a669ab642721f23b2014c19739c5e6ed1556a00722f5fe599",
+      "overlayPage": 46
+    },
+    {
+      "folio": 100,
+      "clipEdits": {
+        "pageDeviceClips": 0,
+        "headerDeviceClips": 0,
+        "pointPageClips": 0,
+        "fullPageFormBBoxes": 0,
+        "fullPagePaintedRectangles": 0,
+        "fullPagePaintedPolygons": 3
+      },
+      "backgroundRGB": [
+        255,
+        248,
+        233
+      ],
+      "sourcePage": 102,
+      "sourceContentSHA256": "f910a4e1a0d06a17fa4c5e7790f4578243ae3dbfd313567469c0114e516023fa",
+      "preserved": "All image/path transforms and existing header-bottom/left limits; edited only outer/top/right clipping, declared page/form bounds, and matching full-page background extents to cover historical white/grey canvas rounding.",
+      "fullRasterPixels": [
+        4512,
+        5812
+      ],
+      "topStripPixels": [
+        4512,
+        71
+      ],
+      "rightStripPixels": [
+        71,
+        5812
+      ],
+      "topClipPoints": [
+        0,
+        688.8188976377953,
+        541.4173228346457,
+        8.503937007874017
+      ],
+      "rightClipPoints": [
+        532.9133858267717,
+        8.503937007874017,
+        8.503937007874017,
+        680.3149606299213
+      ],
+      "expandedNativeSHA256": "1955d24e054afbb349e898ee024f45d43840be4a1c23c7a296ade15847a7c9cd",
+      "expandedSRGBRasterSHA256": "c20742b7ddff7e241db5f44d64eba26fee460c3d53cfc0621cae8d81c39a75d7",
+      "overlayPage": 47
+    },
+    {
+      "folio": 101,
+      "clipEdits": {
+        "pageDeviceClips": 0,
+        "headerDeviceClips": 0,
+        "pointPageClips": 0,
+        "fullPageFormBBoxes": 0,
+        "fullPagePaintedRectangles": 0,
+        "fullPagePaintedPolygons": 3
+      },
+      "backgroundRGB": [
+        255,
+        248,
+        233
+      ],
+      "sourcePage": 103,
+      "sourceContentSHA256": "ef090810f63557293f2defa8a2e1f6fa168b642561b91a82793e3f92dff04213",
+      "preserved": "All image/path transforms and existing header-bottom/left limits; edited only outer/top/right clipping, declared page/form bounds, and matching full-page background extents to cover historical white/grey canvas rounding.",
+      "fullRasterPixels": [
+        4512,
+        5812
+      ],
+      "topStripPixels": [
+        4512,
+        71
+      ],
+      "rightStripPixels": [
+        71,
+        5812
+      ],
+      "topClipPoints": [
+        0,
+        688.8188976377953,
+        541.4173228346457,
+        8.503937007874017
+      ],
+      "rightClipPoints": [
+        532.9133858267717,
+        8.503937007874017,
+        8.503937007874017,
+        680.3149606299213
+      ],
+      "expandedNativeSHA256": "7248b2363a569f3a0938e6a901337825b4695e8618cc2985facef24dae3852c9",
+      "expandedSRGBRasterSHA256": "c395b5713a9237a7931a5d16b5bf75884f5373cea79a4c37bf844891c2003e84",
+      "overlayPage": 48
+    },
+    {
+      "folio": 102,
+      "clipEdits": {
+        "pageDeviceClips": 0,
+        "headerDeviceClips": 0,
+        "pointPageClips": 0,
+        "fullPageFormBBoxes": 0,
+        "fullPagePaintedRectangles": 0,
+        "fullPagePaintedPolygons": 3
+      },
+      "backgroundRGB": [
+        255,
+        248,
+        233
+      ],
+      "sourcePage": 104,
+      "sourceContentSHA256": "4f80cbf5b4e783ac02bd179407ea07a5cf1f12e7e74e6a0632da49893d2a9f97",
+      "preserved": "All image/path transforms and existing header-bottom/left limits; edited only outer/top/right clipping, declared page/form bounds, and matching full-page background extents to cover historical white/grey canvas rounding.",
+      "fullRasterPixels": [
+        4512,
+        5812
+      ],
+      "topStripPixels": [
+        4512,
+        71
+      ],
+      "rightStripPixels": [
+        71,
+        5812
+      ],
+      "topClipPoints": [
+        0,
+        688.8188976377953,
+        541.4173228346457,
+        8.503937007874017
+      ],
+      "rightClipPoints": [
+        532.9133858267717,
+        8.503937007874017,
+        8.503937007874017,
+        680.3149606299213
+      ],
+      "expandedNativeSHA256": "546e8334a7a499a3e9c5458d30b3c25087c0fa2545d2a787af3890df67b7e3b7",
+      "expandedSRGBRasterSHA256": "19449b333494c13ab1536cf2bf6a97713840e0184321388dc6427ac1fee370ba",
+      "overlayPage": 49
+    },
+    {
+      "folio": 103,
+      "clipEdits": {
+        "pageDeviceClips": 0,
+        "headerDeviceClips": 0,
+        "pointPageClips": 0,
+        "fullPageFormBBoxes": 0,
+        "fullPagePaintedRectangles": 0,
+        "fullPagePaintedPolygons": 3
+      },
+      "backgroundRGB": [
+        255,
+        248,
+        233
+      ],
+      "sourcePage": 105,
+      "sourceContentSHA256": "d02ac74c441dabce60da2f665697f5d1e5198ddcae0cde8bd03b4a8581c4a701",
+      "preserved": "All image/path transforms and existing header-bottom/left limits; edited only outer/top/right clipping, declared page/form bounds, and matching full-page background extents to cover historical white/grey canvas rounding.",
+      "fullRasterPixels": [
+        4512,
+        5812
+      ],
+      "topStripPixels": [
+        4512,
+        71
+      ],
+      "rightStripPixels": [
+        71,
+        5812
+      ],
+      "topClipPoints": [
+        0,
+        688.8188976377953,
+        541.4173228346457,
+        8.503937007874017
+      ],
+      "rightClipPoints": [
+        532.9133858267717,
+        8.503937007874017,
+        8.503937007874017,
+        680.3149606299213
+      ],
+      "expandedNativeSHA256": "1b7e8bef59b189ba4cce198c54663d02104246e7e88bccfe37ff3fcbc596769f",
+      "expandedSRGBRasterSHA256": "9e39dd281141657e74f64181731d836c17eb6dbc2c74c13e7e26298737fcf952",
+      "overlayPage": 50
+    },
+    {
+      "folio": 104,
+      "clipEdits": {
+        "pageDeviceClips": 0,
+        "headerDeviceClips": 0,
+        "pointPageClips": 0,
+        "fullPageFormBBoxes": 0,
+        "fullPagePaintedRectangles": 0,
+        "fullPagePaintedPolygons": 3
+      },
+      "backgroundRGB": [
+        255,
+        248,
+        233
+      ],
+      "sourcePage": 106,
+      "sourceContentSHA256": "68932f4fdc59bb95293adca94a05eaada1773bd8d39de07f4071c149ab5d53cd",
+      "preserved": "All image/path transforms and existing header-bottom/left limits; edited only outer/top/right clipping, declared page/form bounds, and matching full-page background extents to cover historical white/grey canvas rounding.",
+      "fullRasterPixels": [
+        4512,
+        5812
+      ],
+      "topStripPixels": [
+        4512,
+        71
+      ],
+      "rightStripPixels": [
+        71,
+        5812
+      ],
+      "topClipPoints": [
+        0,
+        688.8188976377953,
+        541.4173228346457,
+        8.503937007874017
+      ],
+      "rightClipPoints": [
+        532.9133858267717,
+        8.503937007874017,
+        8.503937007874017,
+        680.3149606299213
+      ],
+      "expandedNativeSHA256": "b1c626e6a1d6262424b8017250a73921765a0686ea4a40afe596bc10a0bf10ef",
+      "expandedSRGBRasterSHA256": "1239fe49eb059b30c20482ab988a4e0c44cf5f639cae4d0cb8b816dc04c784cc",
+      "overlayPage": 51
+    },
+    {
+      "folio": 105,
+      "clipEdits": {
+        "pageDeviceClips": 0,
+        "headerDeviceClips": 0,
+        "pointPageClips": 0,
+        "fullPageFormBBoxes": 0,
+        "fullPagePaintedRectangles": 0,
+        "fullPagePaintedPolygons": 3
+      },
+      "backgroundRGB": [
+        255,
+        248,
+        233
+      ],
+      "sourcePage": 107,
+      "sourceContentSHA256": "a2db2c9e730fbfb34f63bb4ec3bbfc294a0beef26b4f9973b2d7cd1465da8162",
+      "preserved": "All image/path transforms and existing header-bottom/left limits; edited only outer/top/right clipping, declared page/form bounds, and matching full-page background extents to cover historical white/grey canvas rounding.",
+      "fullRasterPixels": [
+        4512,
+        5812
+      ],
+      "topStripPixels": [
+        4512,
+        71
+      ],
+      "rightStripPixels": [
+        71,
+        5812
+      ],
+      "topClipPoints": [
+        0,
+        688.8188976377953,
+        541.4173228346457,
+        8.503937007874017
+      ],
+      "rightClipPoints": [
+        532.9133858267717,
+        8.503937007874017,
+        8.503937007874017,
+        680.3149606299213
+      ],
+      "expandedNativeSHA256": "f18795e424d5afb14b9621c4a540e729f757ab34149fffe74c4bb82a956e45d3",
+      "expandedSRGBRasterSHA256": "a84c956354c4e8fc322d3f6fbb099c8fad4758da48e0b6f3b7d921cd6c43c254",
+      "overlayPage": 52
+    },
+    {
+      "folio": 106,
+      "clipEdits": {
+        "pageDeviceClips": 0,
+        "headerDeviceClips": 0,
+        "pointPageClips": 0,
+        "fullPageFormBBoxes": 0,
+        "fullPagePaintedRectangles": 0,
+        "fullPagePaintedPolygons": 3
+      },
+      "backgroundRGB": [
+        255,
+        248,
+        233
+      ],
+      "sourcePage": 108,
+      "sourceContentSHA256": "d37d526ac3656a7a37d28d323c26060ffc197b5b88e4ace2dfc6c62aae231cdb",
+      "preserved": "All image/path transforms and existing header-bottom/left limits; edited only outer/top/right clipping, declared page/form bounds, and matching full-page background extents to cover historical white/grey canvas rounding.",
+      "fullRasterPixels": [
+        4512,
+        5812
+      ],
+      "topStripPixels": [
+        4512,
+        71
+      ],
+      "rightStripPixels": [
+        71,
+        5812
+      ],
+      "topClipPoints": [
+        0,
+        688.8188976377953,
+        541.4173228346457,
+        8.503937007874017
+      ],
+      "rightClipPoints": [
+        532.9133858267717,
+        8.503937007874017,
+        8.503937007874017,
+        680.3149606299213
+      ],
+      "expandedNativeSHA256": "9bacf0580cd1cebdf49d5730f35aff072b1b58ef4c09a8d7d43238ec258dbedb",
+      "expandedSRGBRasterSHA256": "17bc0fedee91e7ca9b1b0ca41be52194483202e4b5892d8638b947811338728e",
+      "overlayPage": 53
+    },
+    {
+      "folio": 107,
+      "clipEdits": {
+        "pageDeviceClips": 0,
+        "headerDeviceClips": 0,
+        "pointPageClips": 0,
+        "fullPageFormBBoxes": 0,
+        "fullPagePaintedRectangles": 0,
+        "fullPagePaintedPolygons": 3
+      },
+      "backgroundRGB": [
+        255,
+        248,
+        233
+      ],
+      "sourcePage": 109,
+      "sourceContentSHA256": "4ca5beab1f75394933584a50fe70706a95354fbdb1f576c33e073985b29b2de4",
+      "preserved": "All image/path transforms and existing header-bottom/left limits; edited only outer/top/right clipping, declared page/form bounds, and matching full-page background extents to cover historical white/grey canvas rounding.",
+      "fullRasterPixels": [
+        4512,
+        5812
+      ],
+      "topStripPixels": [
+        4512,
+        71
+      ],
+      "rightStripPixels": [
+        71,
+        5812
+      ],
+      "topClipPoints": [
+        0,
+        688.8188976377953,
+        541.4173228346457,
+        8.503937007874017
+      ],
+      "rightClipPoints": [
+        532.9133858267717,
+        8.503937007874017,
+        8.503937007874017,
+        680.3149606299213
+      ],
+      "expandedNativeSHA256": "d0189a2206ebfc7db3571a8e890c7fa403c1426bd53c280cff1f5869e194c028",
+      "expandedSRGBRasterSHA256": "8f9c48ab8a810f79b84bc1145706577de2c04d1dd5d7ed38548fa6d1bc0d38bf",
+      "overlayPage": 54
+    },
+    {
+      "folio": 108,
+      "clipEdits": {
+        "pageDeviceClips": 0,
+        "headerDeviceClips": 0,
+        "pointPageClips": 0,
+        "fullPageFormBBoxes": 0,
+        "fullPagePaintedRectangles": 0,
+        "fullPagePaintedPolygons": 3
+      },
+      "backgroundRGB": [
+        255,
+        248,
+        233
+      ],
+      "sourcePage": 110,
+      "sourceContentSHA256": "8b5b4ce6e83f32cd0d11da99fbdf13937a043de1c4cd85df968428cb45b2c2f7",
+      "preserved": "All image/path transforms and existing header-bottom/left limits; edited only outer/top/right clipping, declared page/form bounds, and matching full-page background extents to cover historical white/grey canvas rounding.",
+      "fullRasterPixels": [
+        4512,
+        5812
+      ],
+      "topStripPixels": [
+        4512,
+        71
+      ],
+      "rightStripPixels": [
+        71,
+        5812
+      ],
+      "topClipPoints": [
+        0,
+        688.8188976377953,
+        541.4173228346457,
+        8.503937007874017
+      ],
+      "rightClipPoints": [
+        532.9133858267717,
+        8.503937007874017,
+        8.503937007874017,
+        680.3149606299213
+      ],
+      "expandedNativeSHA256": "95ab2f7868527a67f956a1203e097c82c0bf51a83ffe136e11ce81799994aa8d",
+      "expandedSRGBRasterSHA256": "04d19edc4fac649664e52b499fd9d0b0fb9c7af87b4a84defcc863938394fd99",
+      "overlayPage": 55
+    },
+    {
+      "folio": 109,
+      "clipEdits": {
+        "pageDeviceClips": 0,
+        "headerDeviceClips": 0,
+        "pointPageClips": 0,
+        "fullPageFormBBoxes": 0,
+        "fullPagePaintedRectangles": 0,
+        "fullPagePaintedPolygons": 3
+      },
+      "backgroundRGB": [
+        255,
+        248,
+        233
+      ],
+      "sourcePage": 111,
+      "sourceContentSHA256": "e9ad7f2c5b993a03b69739c440319c2615b1977f2ef23dc53188b19228cd255a",
+      "preserved": "All image/path transforms and existing header-bottom/left limits; edited only outer/top/right clipping, declared page/form bounds, and matching full-page background extents to cover historical white/grey canvas rounding.",
+      "fullRasterPixels": [
+        4512,
+        5812
+      ],
+      "topStripPixels": [
+        4512,
+        71
+      ],
+      "rightStripPixels": [
+        71,
+        5812
+      ],
+      "topClipPoints": [
+        0,
+        688.8188976377953,
+        541.4173228346457,
+        8.503937007874017
+      ],
+      "rightClipPoints": [
+        532.9133858267717,
+        8.503937007874017,
+        8.503937007874017,
+        680.3149606299213
+      ],
+      "expandedNativeSHA256": "aea1a8308e2fd0f4b3e7aacf5396c95e9df0477be4dc21163a3dc3d5253db38c",
+      "expandedSRGBRasterSHA256": "a576c23d4d373486ea885aa45a1ef4f455a43dce90c69340715069b605b8b2dc",
+      "overlayPage": 56
+    },
+    {
+      "folio": 110,
+      "clipEdits": {
+        "pageDeviceClips": 0,
+        "headerDeviceClips": 0,
+        "pointPageClips": 0,
+        "fullPageFormBBoxes": 0,
+        "fullPagePaintedRectangles": 0,
+        "fullPagePaintedPolygons": 3
+      },
+      "backgroundRGB": [
+        255,
+        248,
+        233
+      ],
+      "sourcePage": 112,
+      "sourceContentSHA256": "6413afe20cca08abe9b06afe287e6c80018e6297eb446d2c5949a2faeb388d4d",
+      "preserved": "All image/path transforms and existing header-bottom/left limits; edited only outer/top/right clipping, declared page/form bounds, and matching full-page background extents to cover historical white/grey canvas rounding.",
+      "fullRasterPixels": [
+        4512,
+        5812
+      ],
+      "topStripPixels": [
+        4512,
+        71
+      ],
+      "rightStripPixels": [
+        71,
+        5812
+      ],
+      "topClipPoints": [
+        0,
+        688.8188976377953,
+        541.4173228346457,
+        8.503937007874017
+      ],
+      "rightClipPoints": [
+        532.9133858267717,
+        8.503937007874017,
+        8.503937007874017,
+        680.3149606299213
+      ],
+      "expandedNativeSHA256": "382a35c28f85d7612c3ef80e60b35445cbd14c178662dd4799fa2341fc8ebb47",
+      "expandedSRGBRasterSHA256": "0887c1110ed7e053400f4b0e7a6dc81c121e3e4c2c0a2a17ad3540bded179e71",
+      "overlayPage": 57
+    },
+    {
+      "folio": 111,
+      "clipEdits": {
+        "pageDeviceClips": 0,
+        "headerDeviceClips": 0,
+        "pointPageClips": 0,
+        "fullPageFormBBoxes": 0,
+        "fullPagePaintedRectangles": 0,
+        "fullPagePaintedPolygons": 3
+      },
+      "backgroundRGB": [
+        255,
+        248,
+        233
+      ],
+      "sourcePage": 113,
+      "sourceContentSHA256": "717a1339621f371b27ca8d447872bcb293f2a7af963e97e0bdbc9189081c81ea",
+      "preserved": "All image/path transforms and existing header-bottom/left limits; edited only outer/top/right clipping, declared page/form bounds, and matching full-page background extents to cover historical white/grey canvas rounding.",
+      "fullRasterPixels": [
+        4512,
+        5812
+      ],
+      "topStripPixels": [
+        4512,
+        71
+      ],
+      "rightStripPixels": [
+        71,
+        5812
+      ],
+      "topClipPoints": [
+        0,
+        688.8188976377953,
+        541.4173228346457,
+        8.503937007874017
+      ],
+      "rightClipPoints": [
+        532.9133858267717,
+        8.503937007874017,
+        8.503937007874017,
+        680.3149606299213
+      ],
+      "expandedNativeSHA256": "ee4f2f1236bee99cf6f452929b86189dfada72fc9a459c097a5ac377b874d96c",
+      "expandedSRGBRasterSHA256": "ed83a14c062b9d98943a822b6db165aef4caa090b5b5719cc3717a812a77fd79",
+      "overlayPage": 58
+    },
+    {
+      "folio": 112,
+      "clipEdits": {
+        "pageDeviceClips": 0,
+        "headerDeviceClips": 0,
+        "pointPageClips": 0,
+        "fullPageFormBBoxes": 0,
+        "fullPagePaintedRectangles": 0,
+        "fullPagePaintedPolygons": 3
+      },
+      "backgroundRGB": [
+        255,
+        248,
+        233
+      ],
+      "sourcePage": 114,
+      "sourceContentSHA256": "94bb60711ed7cf349ea1621c6d900c073e24c76f842235fb7edff2ac351367ca",
+      "preserved": "All image/path transforms and existing header-bottom/left limits; edited only outer/top/right clipping, declared page/form bounds, and matching full-page background extents to cover historical white/grey canvas rounding.",
+      "fullRasterPixels": [
+        4512,
+        5812
+      ],
+      "topStripPixels": [
+        4512,
+        71
+      ],
+      "rightStripPixels": [
+        71,
+        5812
+      ],
+      "topClipPoints": [
+        0,
+        688.8188976377953,
+        541.4173228346457,
+        8.503937007874017
+      ],
+      "rightClipPoints": [
+        532.9133858267717,
+        8.503937007874017,
+        8.503937007874017,
+        680.3149606299213
+      ],
+      "expandedNativeSHA256": "1402cd9e298e11dafdc53c2dbc20ec3b1de4a509f44d460d0537923b3de88d12",
+      "expandedSRGBRasterSHA256": "06f874627d44cd0c23b881dbc7f5d4b247ea4e0b9551e85ee7ede50040b4c3f3",
+      "overlayPage": 59
+    },
+    {
+      "folio": 113,
+      "clipEdits": {
+        "pageDeviceClips": 0,
+        "headerDeviceClips": 0,
+        "pointPageClips": 0,
+        "fullPageFormBBoxes": 0,
+        "fullPagePaintedRectangles": 0,
+        "fullPagePaintedPolygons": 3
+      },
+      "backgroundRGB": [
+        241,
+        246,
+        242
+      ],
+      "sourcePage": 115,
+      "sourceContentSHA256": "c8b04b493cd9e41f9d80209f6b00b4b1c206a300c0c1778db2f84c1c922bc528",
+      "preserved": "All image/path transforms and existing header-bottom/left limits; edited only outer/top/right clipping, declared page/form bounds, and matching full-page background extents to cover historical white/grey canvas rounding.",
+      "fullRasterPixels": [
+        4512,
+        5812
+      ],
+      "topStripPixels": [
+        4512,
+        71
+      ],
+      "rightStripPixels": [
+        71,
+        5812
+      ],
+      "topClipPoints": [
+        0,
+        688.8188976377953,
+        541.4173228346457,
+        8.503937007874017
+      ],
+      "rightClipPoints": [
+        532.9133858267717,
+        8.503937007874017,
+        8.503937007874017,
+        680.3149606299213
+      ],
+      "expandedNativeSHA256": "a999b435c4b01663df8237f818a0e0d922574abba05299d571b139e487e7343e",
+      "expandedSRGBRasterSHA256": "9908b04b6704bb5e1fba0fcba5a92aa27485f9e2278d48e3e33638bd50e0cea4",
+      "overlayPage": 60
+    },
+    {
+      "folio": 114,
+      "clipEdits": {
+        "pageDeviceClips": 0,
+        "headerDeviceClips": 0,
+        "pointPageClips": 0,
+        "fullPageFormBBoxes": 0,
+        "fullPagePaintedRectangles": 0,
+        "fullPagePaintedPolygons": 3
+      },
+      "backgroundRGB": [
+        241,
+        246,
+        242
+      ],
+      "sourcePage": 116,
+      "sourceContentSHA256": "bbe3276bc616b6b83eb586ea76eb0ac40e92092e04f81d7654077153c1833989",
+      "preserved": "All image/path transforms and existing header-bottom/left limits; edited only outer/top/right clipping, declared page/form bounds, and matching full-page background extents to cover historical white/grey canvas rounding.",
+      "fullRasterPixels": [
+        4512,
+        5812
+      ],
+      "topStripPixels": [
+        4512,
+        71
+      ],
+      "rightStripPixels": [
+        71,
+        5812
+      ],
+      "topClipPoints": [
+        0,
+        688.8188976377953,
+        541.4173228346457,
+        8.503937007874017
+      ],
+      "rightClipPoints": [
+        532.9133858267717,
+        8.503937007874017,
+        8.503937007874017,
+        680.3149606299213
+      ],
+      "expandedNativeSHA256": "796e6972e9b1b9b32812cdd565416914be100a892e5b4c7c0389f0c1cbe7cd26",
+      "expandedSRGBRasterSHA256": "33c864a92fea3bb79ae64144e9377b316756c80f974858bbd7385e32d03fbe66",
+      "overlayPage": 61
+    },
+    {
+      "folio": 115,
+      "clipEdits": {
+        "pageDeviceClips": 0,
+        "headerDeviceClips": 0,
+        "pointPageClips": 0,
+        "fullPageFormBBoxes": 0,
+        "fullPagePaintedRectangles": 0,
+        "fullPagePaintedPolygons": 3
+      },
+      "backgroundRGB": [
+        255,
+        248,
+        233
+      ],
+      "sourcePage": 117,
+      "sourceContentSHA256": "1286b76719ff514b0400287f19f47024ff087d1a2c6aa7ce97b6e8122de839b8",
+      "preserved": "All image/path transforms and existing header-bottom/left limits; edited only outer/top/right clipping, declared page/form bounds, and matching full-page background extents to cover historical white/grey canvas rounding.",
+      "fullRasterPixels": [
+        4512,
+        5812
+      ],
+      "topStripPixels": [
+        4512,
+        71
+      ],
+      "rightStripPixels": [
+        71,
+        5812
+      ],
+      "topClipPoints": [
+        0,
+        688.8188976377953,
+        541.4173228346457,
+        8.503937007874017
+      ],
+      "rightClipPoints": [
+        532.9133858267717,
+        8.503937007874017,
+        8.503937007874017,
+        680.3149606299213
+      ],
+      "expandedNativeSHA256": "66de6962a0f1a0edb90faa4f1321864152c6b201692f6dba3a900718ecca553e",
+      "expandedSRGBRasterSHA256": "acf9babe42f62b0778bfcb8ed9bd026d961a9c2107d60cf968ea61c48d14da4c",
+      "overlayPage": 62
+    },
+    {
+      "folio": 116,
+      "clipEdits": {
+        "pageDeviceClips": 0,
+        "headerDeviceClips": 0,
+        "pointPageClips": 0,
+        "fullPageFormBBoxes": 0,
+        "fullPagePaintedRectangles": 0,
+        "fullPagePaintedPolygons": 3
+      },
+      "backgroundRGB": [
+        255,
+        248,
+        233
+      ],
+      "sourcePage": 118,
+      "sourceContentSHA256": "ec617c8bd5a65e731a393c66fbbe869f0de5bce5417b04cbf55598c0dab2b7fa",
+      "preserved": "All image/path transforms and existing header-bottom/left limits; edited only outer/top/right clipping, declared page/form bounds, and matching full-page background extents to cover historical white/grey canvas rounding.",
+      "fullRasterPixels": [
+        4512,
+        5812
+      ],
+      "topStripPixels": [
+        4512,
+        71
+      ],
+      "rightStripPixels": [
+        71,
+        5812
+      ],
+      "topClipPoints": [
+        0,
+        688.8188976377953,
+        541.4173228346457,
+        8.503937007874017
+      ],
+      "rightClipPoints": [
+        532.9133858267717,
+        8.503937007874017,
+        8.503937007874017,
+        680.3149606299213
+      ],
+      "expandedNativeSHA256": "be2984226bfb9e613133f99ce15e44d816a10b4130474181e8d2c3132eeffdda",
+      "expandedSRGBRasterSHA256": "4216ac84370e1a127ef937afbfe1fd78e63ff36744c71d73133d751ed7801140",
+      "overlayPage": 63
+    },
+    {
+      "folio": 117,
+      "clipEdits": {
+        "pageDeviceClips": 0,
+        "headerDeviceClips": 0,
+        "pointPageClips": 0,
+        "fullPageFormBBoxes": 0,
+        "fullPagePaintedRectangles": 0,
+        "fullPagePaintedPolygons": 3
+      },
+      "backgroundRGB": [
+        255,
+        248,
+        233
+      ],
+      "sourcePage": 119,
+      "sourceContentSHA256": "f78f264e7df11403c596bc4c1e445aa5dc87ea6af727353f361157f9c736f1dc",
+      "preserved": "All image/path transforms and existing header-bottom/left limits; edited only outer/top/right clipping, declared page/form bounds, and matching full-page background extents to cover historical white/grey canvas rounding.",
+      "fullRasterPixels": [
+        4512,
+        5812
+      ],
+      "topStripPixels": [
+        4512,
+        71
+      ],
+      "rightStripPixels": [
+        71,
+        5812
+      ],
+      "topClipPoints": [
+        0,
+        688.8188976377953,
+        541.4173228346457,
+        8.503937007874017
+      ],
+      "rightClipPoints": [
+        532.9133858267717,
+        8.503937007874017,
+        8.503937007874017,
+        680.3149606299213
+      ],
+      "expandedNativeSHA256": "44634de53e8d3bc3434eed0dd07f02ae4444756e36457e0269b0dbf6db6906e8",
+      "expandedSRGBRasterSHA256": "3c64f3f66754d31fef5e9bafe07f2bfcc703f7fdcbb67ac708db2bb98e6e8a94",
+      "overlayPage": 64
+    },
+    {
+      "folio": 118,
+      "clipEdits": {
+        "pageDeviceClips": 0,
+        "headerDeviceClips": 0,
+        "pointPageClips": 0,
+        "fullPageFormBBoxes": 0,
+        "fullPagePaintedRectangles": 0,
+        "fullPagePaintedPolygons": 3
+      },
+      "backgroundRGB": [
+        255,
+        248,
+        233
+      ],
+      "sourcePage": 120,
+      "sourceContentSHA256": "b1c09af360590febcea892be8641aebc0d20d8fa96d9f62c805c59e4b0593e11",
+      "preserved": "All image/path transforms and existing header-bottom/left limits; edited only outer/top/right clipping, declared page/form bounds, and matching full-page background extents to cover historical white/grey canvas rounding.",
+      "fullRasterPixels": [
+        4512,
+        5812
+      ],
+      "topStripPixels": [
+        4512,
+        71
+      ],
+      "rightStripPixels": [
+        71,
+        5812
+      ],
+      "topClipPoints": [
+        0,
+        688.8188976377953,
+        541.4173228346457,
+        8.503937007874017
+      ],
+      "rightClipPoints": [
+        532.9133858267717,
+        8.503937007874017,
+        8.503937007874017,
+        680.3149606299213
+      ],
+      "expandedNativeSHA256": "061e1495cad93162b3b738a1357a1d2f133496eb4283de0b67044f47bc571a7d",
+      "expandedSRGBRasterSHA256": "9b8fd0bfe864ed714e75f1d7d810be7af7c73b39cdef51dcabc838cf708fad16",
+      "overlayPage": 65
+    },
+    {
+      "folio": 119,
+      "clipEdits": {
+        "pageDeviceClips": 0,
+        "headerDeviceClips": 0,
+        "pointPageClips": 0,
+        "fullPageFormBBoxes": 0,
+        "fullPagePaintedRectangles": 0,
+        "fullPagePaintedPolygons": 3
+      },
+      "backgroundRGB": [
+        255,
+        248,
+        233
+      ],
+      "sourcePage": 121,
+      "sourceContentSHA256": "3a1ff302d3b1473466e5f650696992efbba65270b2f62bd4e279be58fb325153",
+      "preserved": "All image/path transforms and existing header-bottom/left limits; edited only outer/top/right clipping, declared page/form bounds, and matching full-page background extents to cover historical white/grey canvas rounding.",
+      "fullRasterPixels": [
+        4512,
+        5812
+      ],
+      "topStripPixels": [
+        4512,
+        71
+      ],
+      "rightStripPixels": [
+        71,
+        5812
+      ],
+      "topClipPoints": [
+        0,
+        688.8188976377953,
+        541.4173228346457,
+        8.503937007874017
+      ],
+      "rightClipPoints": [
+        532.9133858267717,
+        8.503937007874017,
+        8.503937007874017,
+        680.3149606299213
+      ],
+      "expandedNativeSHA256": "38b48fa370933d3f861579736f7f88e7ac96ce09a9db00bbb271956872193a43",
+      "expandedSRGBRasterSHA256": "c1ffd1e504af40e7d083fd66e9cce2e02bfcf85a24ac674ae7ddf12e52091658",
+      "overlayPage": 66
+    },
+    {
+      "folio": 120,
+      "clipEdits": {
+        "pageDeviceClips": 0,
+        "headerDeviceClips": 0,
+        "pointPageClips": 0,
+        "fullPageFormBBoxes": 0,
+        "fullPagePaintedRectangles": 0,
+        "fullPagePaintedPolygons": 3
+      },
+      "backgroundRGB": [
+        241,
+        246,
+        242
+      ],
+      "sourcePage": 122,
+      "sourceContentSHA256": "600884ba2604185b4e661611c9bd9f11ce0d379e2679c5f6ccf721ba7191839a",
+      "preserved": "All image/path transforms and existing header-bottom/left limits; edited only outer/top/right clipping, declared page/form bounds, and matching full-page background extents to cover historical white/grey canvas rounding.",
+      "fullRasterPixels": [
+        4512,
+        5812
+      ],
+      "topStripPixels": [
+        4512,
+        71
+      ],
+      "rightStripPixels": [
+        71,
+        5812
+      ],
+      "topClipPoints": [
+        0,
+        688.8188976377953,
+        541.4173228346457,
+        8.503937007874017
+      ],
+      "rightClipPoints": [
+        532.9133858267717,
+        8.503937007874017,
+        8.503937007874017,
+        680.3149606299213
+      ],
+      "expandedNativeSHA256": "1199abfca3d4ec686246b6c7b854df3e54c663d0ede5492300783916aaec025a",
+      "expandedSRGBRasterSHA256": "5f0fb36dba86deaa07c777e3c3e3461ec4de7d830e56f678d750a84fcd82d3ac",
+      "overlayPage": 67
+    },
+    {
+      "folio": 121,
+      "clipEdits": {
+        "pageDeviceClips": 0,
+        "headerDeviceClips": 0,
+        "pointPageClips": 0,
+        "fullPageFormBBoxes": 0,
+        "fullPagePaintedRectangles": 0,
+        "fullPagePaintedPolygons": 3
+      },
+      "backgroundRGB": [
+        244,
+        247,
+        237
+      ],
+      "sourcePage": 123,
+      "sourceContentSHA256": "5bf5150b98358a564e85b4a328520c0a251f41976313e592acf65f6771ee233d",
+      "preserved": "All image/path transforms and existing header-bottom/left limits; edited only outer/top/right clipping, declared page/form bounds, and matching full-page background extents to cover historical white/grey canvas rounding.",
+      "fullRasterPixels": [
+        4512,
+        5812
+      ],
+      "topStripPixels": [
+        4512,
+        71
+      ],
+      "rightStripPixels": [
+        71,
+        5812
+      ],
+      "topClipPoints": [
+        0,
+        688.8188976377953,
+        541.4173228346457,
+        8.503937007874017
+      ],
+      "rightClipPoints": [
+        532.9133858267717,
+        8.503937007874017,
+        8.503937007874017,
+        680.3149606299213
+      ],
+      "expandedNativeSHA256": "df23005f59e1794c53f8f17ad9169c6890ae44c6e2d757b8223bac95b93ebd92",
+      "expandedSRGBRasterSHA256": "476d349a1aba20c1c1ca0b16c24548f922bcd75bf5abfaadbeba9a5fa2a36511",
+      "overlayPage": 68
+    },
+    {
+      "folio": 122,
+      "clipEdits": {
+        "pageDeviceClips": 0,
+        "headerDeviceClips": 0,
+        "pointPageClips": 0,
+        "fullPageFormBBoxes": 0,
+        "fullPagePaintedRectangles": 0,
+        "fullPagePaintedPolygons": 3
+      },
+      "backgroundRGB": [
+        244,
+        247,
+        237
+      ],
+      "sourcePage": 124,
+      "sourceContentSHA256": "ec859236c4ecb0800c35f8bef20cbb7a5f1a5245a0b84a6effb282b663961714",
+      "preserved": "All image/path transforms and existing header-bottom/left limits; edited only outer/top/right clipping, declared page/form bounds, and matching full-page background extents to cover historical white/grey canvas rounding.",
+      "fullRasterPixels": [
+        4512,
+        5812
+      ],
+      "topStripPixels": [
+        4512,
+        71
+      ],
+      "rightStripPixels": [
+        71,
+        5812
+      ],
+      "topClipPoints": [
+        0,
+        688.8188976377953,
+        541.4173228346457,
+        8.503937007874017
+      ],
+      "rightClipPoints": [
+        532.9133858267717,
+        8.503937007874017,
+        8.503937007874017,
+        680.3149606299213
+      ],
+      "expandedNativeSHA256": "9fc4a408d42b90fddb9e2f744850aa896ac107db93f26e787f8537cb3557e91e",
+      "expandedSRGBRasterSHA256": "1a2e17eedec7a5888fc91d2d0744d1eb041010ecf7808ed7d4a5e745d8d24b9f",
+      "overlayPage": 69
+    },
+    {
+      "folio": 123,
+      "clipEdits": {
+        "pageDeviceClips": 0,
+        "headerDeviceClips": 0,
+        "pointPageClips": 0,
+        "fullPageFormBBoxes": 0,
+        "fullPagePaintedRectangles": 0,
+        "fullPagePaintedPolygons": 3
+      },
+      "backgroundRGB": [
+        244,
+        247,
+        237
+      ],
+      "sourcePage": 125,
+      "sourceContentSHA256": "0c6b188afdd4e4d76f20f6fb3d142c828358ebbae98afd5d72e2caff89d99203",
+      "preserved": "All image/path transforms and existing header-bottom/left limits; edited only outer/top/right clipping, declared page/form bounds, and matching full-page background extents to cover historical white/grey canvas rounding.",
+      "fullRasterPixels": [
+        4512,
+        5812
+      ],
+      "topStripPixels": [
+        4512,
+        71
+      ],
+      "rightStripPixels": [
+        71,
+        5812
+      ],
+      "topClipPoints": [
+        0,
+        688.8188976377953,
+        541.4173228346457,
+        8.503937007874017
+      ],
+      "rightClipPoints": [
+        532.9133858267717,
+        8.503937007874017,
+        8.503937007874017,
+        680.3149606299213
+      ],
+      "expandedNativeSHA256": "a8783dbe5c895f8d4073351f1c26e5d1b13402693883f78d511305907b164d97",
+      "expandedSRGBRasterSHA256": "24ffedf6077dfeca57cac9b4a7b501f4c5795f7c1361c6cf5ab9df2c29098594",
+      "overlayPage": 70
+    },
+    {
+      "folio": 124,
+      "clipEdits": {
+        "pageDeviceClips": 0,
+        "headerDeviceClips": 0,
+        "pointPageClips": 0,
+        "fullPageFormBBoxes": 0,
+        "fullPagePaintedRectangles": 0,
+        "fullPagePaintedPolygons": 3
+      },
+      "backgroundRGB": [
+        250,
+        243,
+        246
+      ],
+      "sourcePage": 126,
+      "sourceContentSHA256": "ced5d2cfeac7a14a0848d01c638d2e22b9c2ef6d30ffac9375d0ec9a619a8bf3",
+      "preserved": "All image/path transforms and existing header-bottom/left limits; edited only outer/top/right clipping, declared page/form bounds, and matching full-page background extents to cover historical white/grey canvas rounding.",
+      "fullRasterPixels": [
+        4512,
+        5812
+      ],
+      "topStripPixels": [
+        4512,
+        71
+      ],
+      "rightStripPixels": [
+        71,
+        5812
+      ],
+      "topClipPoints": [
+        0,
+        688.8188976377953,
+        541.4173228346457,
+        8.503937007874017
+      ],
+      "rightClipPoints": [
+        532.9133858267717,
+        8.503937007874017,
+        8.503937007874017,
+        680.3149606299213
+      ],
+      "expandedNativeSHA256": "ed57db79150b5c8ddbe3d3bae9ab6d8334b0b43ed795944e65355c1ff5f02872",
+      "expandedSRGBRasterSHA256": "42952f1c614d96ecbf00cb4a0d041d87854803a04debd4ea3b0dcc6a89a62339",
+      "overlayPage": 71
+    },
+    {
+      "folio": 125,
+      "clipEdits": {
+        "pageDeviceClips": 0,
+        "headerDeviceClips": 0,
+        "pointPageClips": 0,
+        "fullPageFormBBoxes": 0,
+        "fullPagePaintedRectangles": 0,
+        "fullPagePaintedPolygons": 3
+      },
+      "backgroundRGB": [
+        250,
+        243,
+        246
+      ],
+      "sourcePage": 127,
+      "sourceContentSHA256": "5d6ea72d3608df20f270bb372fd4a54f3d07d5b0b0e168deebf7d47749da62f6",
+      "preserved": "All image/path transforms and existing header-bottom/left limits; edited only outer/top/right clipping, declared page/form bounds, and matching full-page background extents to cover historical white/grey canvas rounding.",
+      "fullRasterPixels": [
+        4512,
+        5812
+      ],
+      "topStripPixels": [
+        4512,
+        71
+      ],
+      "rightStripPixels": [
+        71,
+        5812
+      ],
+      "topClipPoints": [
+        0,
+        688.8188976377953,
+        541.4173228346457,
+        8.503937007874017
+      ],
+      "rightClipPoints": [
+        532.9133858267717,
+        8.503937007874017,
+        8.503937007874017,
+        680.3149606299213
+      ],
+      "expandedNativeSHA256": "6e97201718ffeab3bda1d15d6fdc91c5eb71791b2fcdd62fb1e1ee4b2cce0e5c",
+      "expandedSRGBRasterSHA256": "e69a527b94dc0dd9230fb3d790f10c94c4eb8e03ff47a83e9a492856ef6b762f",
+      "overlayPage": 72
+    },
+    {
+      "folio": 126,
+      "clipEdits": {
+        "pageDeviceClips": 0,
+        "headerDeviceClips": 0,
+        "pointPageClips": 0,
+        "fullPageFormBBoxes": 0,
+        "fullPagePaintedRectangles": 0,
+        "fullPagePaintedPolygons": 3
+      },
+      "backgroundRGB": [
+        250,
+        243,
+        246
+      ],
+      "sourcePage": 128,
+      "sourceContentSHA256": "26dcd89e42d9f3192be0823eedad4c8958ba7ad8b8c61355dfc93802040f0765",
+      "preserved": "All image/path transforms and existing header-bottom/left limits; edited only outer/top/right clipping, declared page/form bounds, and matching full-page background extents to cover historical white/grey canvas rounding.",
+      "fullRasterPixels": [
+        4512,
+        5812
+      ],
+      "topStripPixels": [
+        4512,
+        71
+      ],
+      "rightStripPixels": [
+        71,
+        5812
+      ],
+      "topClipPoints": [
+        0,
+        688.8188976377953,
+        541.4173228346457,
+        8.503937007874017
+      ],
+      "rightClipPoints": [
+        532.9133858267717,
+        8.503937007874017,
+        8.503937007874017,
+        680.3149606299213
+      ],
+      "expandedNativeSHA256": "2b41045a191c5060a495a4c76cc1d9106cdea478f1e04087a584f28af6fe327c",
+      "expandedSRGBRasterSHA256": "8ce33a23dcf1686acf99096808a29a3e229e3f73bb59cbc3eddc32c3e2a08b2f",
+      "overlayPage": 73
+    },
+    {
+      "folio": 127,
+      "clipEdits": {
+        "pageDeviceClips": 0,
+        "headerDeviceClips": 0,
+        "pointPageClips": 0,
+        "fullPageFormBBoxes": 0,
+        "fullPagePaintedRectangles": 0,
+        "fullPagePaintedPolygons": 3
+      },
+      "backgroundRGB": [
+        250,
+        243,
+        246
+      ],
+      "sourcePage": 129,
+      "sourceContentSHA256": "fddfa27e352dd389e027e0b9bb394b09b14dbcf888e1a15151eaf79319c10fb8",
+      "preserved": "All image/path transforms and existing header-bottom/left limits; edited only outer/top/right clipping, declared page/form bounds, and matching full-page background extents to cover historical white/grey canvas rounding.",
+      "fullRasterPixels": [
+        4512,
+        5812
+      ],
+      "topStripPixels": [
+        4512,
+        71
+      ],
+      "rightStripPixels": [
+        71,
+        5812
+      ],
+      "topClipPoints": [
+        0,
+        688.8188976377953,
+        541.4173228346457,
+        8.503937007874017
+      ],
+      "rightClipPoints": [
+        532.9133858267717,
+        8.503937007874017,
+        8.503937007874017,
+        680.3149606299213
+      ],
+      "expandedNativeSHA256": "1a2b4faba448903e3fb69350a0b98d4ab4e7b6044b818de0ffa42bde723bb12f",
+      "expandedSRGBRasterSHA256": "1fc5476b9d9946973d0baea0aa1c8466ccfae7a641e6ad90d5ee11d6f37fed52",
+      "overlayPage": 74
+    },
+    {
+      "folio": 128,
+      "clipEdits": {
+        "pageDeviceClips": 0,
+        "headerDeviceClips": 0,
+        "pointPageClips": 0,
+        "fullPageFormBBoxes": 0,
+        "fullPagePaintedRectangles": 0,
+        "fullPagePaintedPolygons": 3
+      },
+      "backgroundRGB": [
+        244,
+        247,
+        237
+      ],
+      "sourcePage": 130,
+      "sourceContentSHA256": "8aa55cdc89dca70d507db4c149c503be1731bd4a90177159861cf1011d536b0a",
+      "preserved": "All image/path transforms and existing header-bottom/left limits; edited only outer/top/right clipping, declared page/form bounds, and matching full-page background extents to cover historical white/grey canvas rounding.",
+      "fullRasterPixels": [
+        4512,
+        5812
+      ],
+      "topStripPixels": [
+        4512,
+        71
+      ],
+      "rightStripPixels": [
+        71,
+        5812
+      ],
+      "topClipPoints": [
+        0,
+        688.8188976377953,
+        541.4173228346457,
+        8.503937007874017
+      ],
+      "rightClipPoints": [
+        532.9133858267717,
+        8.503937007874017,
+        8.503937007874017,
+        680.3149606299213
+      ],
+      "expandedNativeSHA256": "7cf63145829ec06b6f65a76b7d167a9e9210eaa3a752a516f20ee948dfac30ec",
+      "expandedSRGBRasterSHA256": "6a32fd22113be74db3055f6284005a003366fd41742a4dd850eeba19694a51cc",
+      "overlayPage": 75
+    },
+    {
+      "folio": 129,
+      "clipEdits": {
+        "pageDeviceClips": 0,
+        "headerDeviceClips": 0,
+        "pointPageClips": 0,
+        "fullPageFormBBoxes": 0,
+        "fullPagePaintedRectangles": 0,
+        "fullPagePaintedPolygons": 3
+      },
+      "backgroundRGB": [
+        244,
+        247,
+        237
+      ],
+      "sourcePage": 131,
+      "sourceContentSHA256": "1a4937d02b8428983c5e31a79884ad0efd88019222faf945d0fe3d2ef94100c8",
+      "preserved": "All image/path transforms and existing header-bottom/left limits; edited only outer/top/right clipping, declared page/form bounds, and matching full-page background extents to cover historical white/grey canvas rounding.",
+      "fullRasterPixels": [
+        4512,
+        5812
+      ],
+      "topStripPixels": [
+        4512,
+        71
+      ],
+      "rightStripPixels": [
+        71,
+        5812
+      ],
+      "topClipPoints": [
+        0,
+        688.8188976377953,
+        541.4173228346457,
+        8.503937007874017
+      ],
+      "rightClipPoints": [
+        532.9133858267717,
+        8.503937007874017,
+        8.503937007874017,
+        680.3149606299213
+      ],
+      "expandedNativeSHA256": "7ca0217805e1b9646fe669d994718fd674915f803e010703a6abc7bfa7dbc62a",
+      "expandedSRGBRasterSHA256": "56457fa93f62d4041697167d821840997253f606da7f211c0e4726e9f24deee0",
+      "overlayPage": 76
+    },
+    {
+      "folio": 130,
+      "clipEdits": {
+        "pageDeviceClips": 0,
+        "headerDeviceClips": 0,
+        "pointPageClips": 0,
+        "fullPageFormBBoxes": 0,
+        "fullPagePaintedRectangles": 0,
+        "fullPagePaintedPolygons": 3
+      },
+      "backgroundRGB": [
+        255,
+        248,
+        233
+      ],
+      "sourcePage": 132,
+      "sourceContentSHA256": "b51ddbab995e5d72d6ecf74b06f0780583dadea56d7594fe1052db53604154ec",
+      "preserved": "All image/path transforms and existing header-bottom/left limits; edited only outer/top/right clipping, declared page/form bounds, and matching full-page background extents to cover historical white/grey canvas rounding.",
+      "fullRasterPixels": [
+        4512,
+        5812
+      ],
+      "topStripPixels": [
+        4512,
+        71
+      ],
+      "rightStripPixels": [
+        71,
+        5812
+      ],
+      "topClipPoints": [
+        0,
+        688.8188976377953,
+        541.4173228346457,
+        8.503937007874017
+      ],
+      "rightClipPoints": [
+        532.9133858267717,
+        8.503937007874017,
+        8.503937007874017,
+        680.3149606299213
+      ],
+      "expandedNativeSHA256": "4580bd8e7f6af7978eb9bfd6039254592c52ae867a3ac2dae231df2dc7ef42b1",
+      "expandedSRGBRasterSHA256": "8398c4281a55e92254845ee8af262d178e383059aef057d14bcad4993c8ebab8",
+      "overlayPage": 77
+    },
+    {
+      "folio": 131,
+      "clipEdits": {
+        "pageDeviceClips": 0,
+        "headerDeviceClips": 0,
+        "pointPageClips": 0,
+        "fullPageFormBBoxes": 0,
+        "fullPagePaintedRectangles": 0,
+        "fullPagePaintedPolygons": 3
+      },
+      "backgroundRGB": [
+        255,
+        248,
+        233
+      ],
+      "sourcePage": 133,
+      "sourceContentSHA256": "f030f5df621016cf629062661fc60de92f376c63a0a4845fe0a393ef7ff2ca24",
+      "preserved": "All image/path transforms and existing header-bottom/left limits; edited only outer/top/right clipping, declared page/form bounds, and matching full-page background extents to cover historical white/grey canvas rounding.",
+      "fullRasterPixels": [
+        4512,
+        5812
+      ],
+      "topStripPixels": [
+        4512,
+        71
+      ],
+      "rightStripPixels": [
+        71,
+        5812
+      ],
+      "topClipPoints": [
+        0,
+        688.8188976377953,
+        541.4173228346457,
+        8.503937007874017
+      ],
+      "rightClipPoints": [
+        532.9133858267717,
+        8.503937007874017,
+        8.503937007874017,
+        680.3149606299213
+      ],
+      "expandedNativeSHA256": "117d7c8984e78e2d934ccec1091200aa9802b5bfe13136c77182112405dbf35a",
+      "expandedSRGBRasterSHA256": "8cc155c2962d46b6add67883381728e9a69a57fa94420c3e4fb5110ff366a3a8",
+      "overlayPage": 78
+    },
+    {
+      "folio": 132,
+      "clipEdits": {
+        "pageDeviceClips": 0,
+        "headerDeviceClips": 0,
+        "pointPageClips": 0,
+        "fullPageFormBBoxes": 0,
+        "fullPagePaintedRectangles": 0,
+        "fullPagePaintedPolygons": 3
+      },
+      "backgroundRGB": [
+        255,
+        248,
+        233
+      ],
+      "sourcePage": 134,
+      "sourceContentSHA256": "654632ae01b21035d00719f9f39b58b8dc20fcef5bb493efcb5e1b6505fbb9d7",
+      "preserved": "All image/path transforms and existing header-bottom/left limits; edited only outer/top/right clipping, declared page/form bounds, and matching full-page background extents to cover historical white/grey canvas rounding.",
+      "fullRasterPixels": [
+        4512,
+        5812
+      ],
+      "topStripPixels": [
+        4512,
+        71
+      ],
+      "rightStripPixels": [
+        71,
+        5812
+      ],
+      "topClipPoints": [
+        0,
+        688.8188976377953,
+        541.4173228346457,
+        8.503937007874017
+      ],
+      "rightClipPoints": [
+        532.9133858267717,
+        8.503937007874017,
+        8.503937007874017,
+        680.3149606299213
+      ],
+      "expandedNativeSHA256": "9ec94d371c12d5b91eaa4bf7e6795e5f899cdece6bfff1e643aece56a1c2ce67",
+      "expandedSRGBRasterSHA256": "3abc868269b39d1461cc95aadb49629350b65e7903181cc12cc9f39d11eca82f",
+      "overlayPage": 79
+    },
+    {
+      "folio": 133,
+      "clipEdits": {
+        "pageDeviceClips": 0,
+        "headerDeviceClips": 0,
+        "pointPageClips": 0,
+        "fullPageFormBBoxes": 0,
+        "fullPagePaintedRectangles": 0,
+        "fullPagePaintedPolygons": 3
+      },
+      "backgroundRGB": [
+        255,
+        248,
+        233
+      ],
+      "sourcePage": 135,
+      "sourceContentSHA256": "5fa688a312f4f6353d3a7afecbb451f800335daf1ad4dea4b96e12e270413c9d",
+      "preserved": "All image/path transforms and existing header-bottom/left limits; edited only outer/top/right clipping, declared page/form bounds, and matching full-page background extents to cover historical white/grey canvas rounding.",
+      "fullRasterPixels": [
+        4512,
+        5812
+      ],
+      "topStripPixels": [
+        4512,
+        71
+      ],
+      "rightStripPixels": [
+        71,
+        5812
+      ],
+      "topClipPoints": [
+        0,
+        688.8188976377953,
+        541.4173228346457,
+        8.503937007874017
+      ],
+      "rightClipPoints": [
+        532.9133858267717,
+        8.503937007874017,
+        8.503937007874017,
+        680.3149606299213
+      ],
+      "expandedNativeSHA256": "5a9930727416f826423aaa67f8d2154ee80cb883b7bb3e702c4aed2b12866859",
+      "expandedSRGBRasterSHA256": "ce60f188a31c0d90123d9293a69ebd3e2bad238331a0d8055f1a08a5faad4c14",
+      "overlayPage": 80
+    },
+    {
+      "folio": 134,
+      "clipEdits": {
+        "pageDeviceClips": 0,
+        "headerDeviceClips": 0,
+        "pointPageClips": 0,
+        "fullPageFormBBoxes": 0,
+        "fullPagePaintedRectangles": 0,
+        "fullPagePaintedPolygons": 3
+      },
+      "backgroundRGB": [
+        255,
+        248,
+        233
+      ],
+      "sourcePage": 136,
+      "sourceContentSHA256": "c5de5311f98be4ca68a8b4c16ebcf091985f5aed18d9d29cd08180b39c760d05",
+      "preserved": "All image/path transforms and existing header-bottom/left limits; edited only outer/top/right clipping, declared page/form bounds, and matching full-page background extents to cover historical white/grey canvas rounding.",
+      "fullRasterPixels": [
+        4512,
+        5812
+      ],
+      "topStripPixels": [
+        4512,
+        71
+      ],
+      "rightStripPixels": [
+        71,
+        5812
+      ],
+      "topClipPoints": [
+        0,
+        688.8188976377953,
+        541.4173228346457,
+        8.503937007874017
+      ],
+      "rightClipPoints": [
+        532.9133858267717,
+        8.503937007874017,
+        8.503937007874017,
+        680.3149606299213
+      ],
+      "expandedNativeSHA256": "06c90441403fbfd679f05d1eb1861ed38f8d38efcce47a15fdea2d156ea8804a",
+      "expandedSRGBRasterSHA256": "ff9b89e5918d63c7f9e3ffce6266a81689ccee3e3855a16bf0c64dfcc4f59188",
+      "overlayPage": 81
+    },
+    {
+      "folio": 135,
+      "clipEdits": {
+        "pageDeviceClips": 0,
+        "headerDeviceClips": 0,
+        "pointPageClips": 0,
+        "fullPageFormBBoxes": 0,
+        "fullPagePaintedRectangles": 0,
+        "fullPagePaintedPolygons": 3
+      },
+      "backgroundRGB": [
+        244,
+        247,
+        237
+      ],
+      "sourcePage": 137,
+      "sourceContentSHA256": "9ffbb490c6cec0a9ee6c6227881741964fa45b18da9724e761b50c3f70a8d9e1",
+      "preserved": "All image/path transforms and existing header-bottom/left limits; edited only outer/top/right clipping, declared page/form bounds, and matching full-page background extents to cover historical white/grey canvas rounding.",
+      "fullRasterPixels": [
+        4512,
+        5812
+      ],
+      "topStripPixels": [
+        4512,
+        71
+      ],
+      "rightStripPixels": [
+        71,
+        5812
+      ],
+      "topClipPoints": [
+        0,
+        688.8188976377953,
+        541.4173228346457,
+        8.503937007874017
+      ],
+      "rightClipPoints": [
+        532.9133858267717,
+        8.503937007874017,
+        8.503937007874017,
+        680.3149606299213
+      ],
+      "expandedNativeSHA256": "8d8734f4011dce11a6cf8a9ee6208f8241ef1703f198bc91ccef311d234c0e5e",
+      "expandedSRGBRasterSHA256": "d0eed52f53feda19c95f3d7fb2f417128abbc61547f887cd662b7331d67cd558",
+      "overlayPage": 82
+    },
+    {
+      "folio": 136,
+      "clipEdits": {
+        "pageDeviceClips": 0,
+        "headerDeviceClips": 0,
+        "pointPageClips": 0,
+        "fullPageFormBBoxes": 0,
+        "fullPagePaintedRectangles": 0,
+        "fullPagePaintedPolygons": 3
+      },
+      "backgroundRGB": [
+        244,
+        247,
+        237
+      ],
+      "sourcePage": 138,
+      "sourceContentSHA256": "26ad5f1ae1b5c45812746d7a9aac3d80dbb4bdbd3738e8da848df1217c81dace",
+      "preserved": "All image/path transforms and existing header-bottom/left limits; edited only outer/top/right clipping, declared page/form bounds, and matching full-page background extents to cover historical white/grey canvas rounding.",
+      "fullRasterPixels": [
+        4512,
+        5812
+      ],
+      "topStripPixels": [
+        4512,
+        71
+      ],
+      "rightStripPixels": [
+        71,
+        5812
+      ],
+      "topClipPoints": [
+        0,
+        688.8188976377953,
+        541.4173228346457,
+        8.503937007874017
+      ],
+      "rightClipPoints": [
+        532.9133858267717,
+        8.503937007874017,
+        8.503937007874017,
+        680.3149606299213
+      ],
+      "expandedNativeSHA256": "06d359bff44d897c363b3a8883e1c776333a87bcee65598c0e6c212aa1a47e1a",
+      "expandedSRGBRasterSHA256": "17d0bc5760576c087a040b8bb22d16f414cdd979e9174449f63b73dbe287a3d0",
+      "overlayPage": 83
+    },
+    {
+      "folio": 137,
+      "clipEdits": {
+        "pageDeviceClips": 0,
+        "headerDeviceClips": 0,
+        "pointPageClips": 0,
+        "fullPageFormBBoxes": 0,
+        "fullPagePaintedRectangles": 0,
+        "fullPagePaintedPolygons": 3
+      },
+      "backgroundRGB": [
+        255,
+        248,
+        233
+      ],
+      "sourcePage": 139,
+      "sourceContentSHA256": "c2cf57e903aed9f62317d69a5e1339e3c083c6a97ea77b1a4604472ca3954555",
+      "preserved": "All image/path transforms and existing header-bottom/left limits; edited only outer/top/right clipping, declared page/form bounds, and matching full-page background extents to cover historical white/grey canvas rounding.",
+      "fullRasterPixels": [
+        4512,
+        5812
+      ],
+      "topStripPixels": [
+        4512,
+        71
+      ],
+      "rightStripPixels": [
+        71,
+        5812
+      ],
+      "topClipPoints": [
+        0,
+        688.8188976377953,
+        541.4173228346457,
+        8.503937007874017
+      ],
+      "rightClipPoints": [
+        532.9133858267717,
+        8.503937007874017,
+        8.503937007874017,
+        680.3149606299213
+      ],
+      "expandedNativeSHA256": "0d62fcf319f4fbd330e212834dea5acab8f1ff0d488733df62442504048f5044",
+      "expandedSRGBRasterSHA256": "caff0a4fcc8214f6f698fa3c94e5d25521dcec0e53035bb155f99b12b82d9e62",
+      "overlayPage": 84
+    },
+    {
+      "folio": 138,
+      "clipEdits": {
+        "pageDeviceClips": 0,
+        "headerDeviceClips": 0,
+        "pointPageClips": 0,
+        "fullPageFormBBoxes": 0,
+        "fullPagePaintedRectangles": 0,
+        "fullPagePaintedPolygons": 3
+      },
+      "backgroundRGB": [
+        255,
+        248,
+        233
+      ],
+      "sourcePage": 140,
+      "sourceContentSHA256": "6693b5fc4b8249c57f2c4b4440a19990978fcdb35e8ecdc6aa5f2dfbfe3e3cd8",
+      "preserved": "All image/path transforms and existing header-bottom/left limits; edited only outer/top/right clipping, declared page/form bounds, and matching full-page background extents to cover historical white/grey canvas rounding.",
+      "fullRasterPixels": [
+        4512,
+        5812
+      ],
+      "topStripPixels": [
+        4512,
+        71
+      ],
+      "rightStripPixels": [
+        71,
+        5812
+      ],
+      "topClipPoints": [
+        0,
+        688.8188976377953,
+        541.4173228346457,
+        8.503937007874017
+      ],
+      "rightClipPoints": [
+        532.9133858267717,
+        8.503937007874017,
+        8.503937007874017,
+        680.3149606299213
+      ],
+      "expandedNativeSHA256": "8f8ea014140d84b8a1013a621ddc527c2d8900157346ca08b889ac1fb82e8a3f",
+      "expandedSRGBRasterSHA256": "350c5b98379c2051a69e7e6979c59ce9beda1d5424c31accd57b3b60ad5b4900",
+      "overlayPage": 85
+    },
+    {
+      "folio": 139,
+      "clipEdits": {
+        "pageDeviceClips": 0,
+        "headerDeviceClips": 0,
+        "pointPageClips": 0,
+        "fullPageFormBBoxes": 0,
+        "fullPagePaintedRectangles": 0,
+        "fullPagePaintedPolygons": 3
+      },
+      "backgroundRGB": [
+        255,
+        248,
+        233
+      ],
+      "sourcePage": 141,
+      "sourceContentSHA256": "d82742649c77695c0bbeceb96995f261e00661c61bc399b43ee8887eecc05b54",
+      "preserved": "All image/path transforms and existing header-bottom/left limits; edited only outer/top/right clipping, declared page/form bounds, and matching full-page background extents to cover historical white/grey canvas rounding.",
+      "fullRasterPixels": [
+        4512,
+        5812
+      ],
+      "topStripPixels": [
+        4512,
+        71
+      ],
+      "rightStripPixels": [
+        71,
+        5812
+      ],
+      "topClipPoints": [
+        0,
+        688.8188976377953,
+        541.4173228346457,
+        8.503937007874017
+      ],
+      "rightClipPoints": [
+        532.9133858267717,
+        8.503937007874017,
+        8.503937007874017,
+        680.3149606299213
+      ],
+      "expandedNativeSHA256": "4046f6fe31b2a3311d9457965723e9d46e813d251a49c72c5a68f8f24c7192d4",
+      "expandedSRGBRasterSHA256": "2004d84bcd96570b3b7f7fd13bf87769690c9727286436c0cf57b7e19af751b5",
+      "overlayPage": 86
+    },
+    {
+      "folio": 140,
+      "clipEdits": {
+        "pageDeviceClips": 0,
+        "headerDeviceClips": 0,
+        "pointPageClips": 0,
+        "fullPageFormBBoxes": 0,
+        "fullPagePaintedRectangles": 0,
+        "fullPagePaintedPolygons": 3
+      },
+      "backgroundRGB": [
+        255,
+        248,
+        233
+      ],
+      "sourcePage": 142,
+      "sourceContentSHA256": "c7349217d0dce4f5f590cd827e371de889db561ed7fe2cd1c56c9746fdd25778",
+      "preserved": "All image/path transforms and existing header-bottom/left limits; edited only outer/top/right clipping, declared page/form bounds, and matching full-page background extents to cover historical white/grey canvas rounding.",
+      "fullRasterPixels": [
+        4512,
+        5812
+      ],
+      "topStripPixels": [
+        4512,
+        71
+      ],
+      "rightStripPixels": [
+        71,
+        5812
+      ],
+      "topClipPoints": [
+        0,
+        688.8188976377953,
+        541.4173228346457,
+        8.503937007874017
+      ],
+      "rightClipPoints": [
+        532.9133858267717,
+        8.503937007874017,
+        8.503937007874017,
+        680.3149606299213
+      ],
+      "expandedNativeSHA256": "b1ec535c19afa3d10153d6989e63f12d14ad22a376b4f6222d3100984cdb39fb",
+      "expandedSRGBRasterSHA256": "ebdc3e83d291115b5a7765b5e55679e95505533bae7e09920b9ab20da2f8da40",
+      "overlayPage": 87
+    },
+    {
+      "folio": 141,
+      "clipEdits": {
+        "pageDeviceClips": 0,
+        "headerDeviceClips": 0,
+        "pointPageClips": 0,
+        "fullPageFormBBoxes": 0,
+        "fullPagePaintedRectangles": 0,
+        "fullPagePaintedPolygons": 3
+      },
+      "backgroundRGB": [
+        255,
+        248,
+        233
+      ],
+      "sourcePage": 143,
+      "sourceContentSHA256": "ae058574ce914729cbdfb4e0ee7facd7280b7dfd60116d1b4a00f1ba1a6b3616",
+      "preserved": "All image/path transforms and existing header-bottom/left limits; edited only outer/top/right clipping, declared page/form bounds, and matching full-page background extents to cover historical white/grey canvas rounding.",
+      "fullRasterPixels": [
+        4512,
+        5812
+      ],
+      "topStripPixels": [
+        4512,
+        71
+      ],
+      "rightStripPixels": [
+        71,
+        5812
+      ],
+      "topClipPoints": [
+        0,
+        688.8188976377953,
+        541.4173228346457,
+        8.503937007874017
+      ],
+      "rightClipPoints": [
+        532.9133858267717,
+        8.503937007874017,
+        8.503937007874017,
+        680.3149606299213
+      ],
+      "expandedNativeSHA256": "5118982cca725d70fe2ae397c083af3b03ca70f6fd62b2ec10b0cd2b08c05882",
+      "expandedSRGBRasterSHA256": "164db0aa737515d0e19d53b696d11def48074daa0d433648e27973ba7cd0c7c7",
+      "overlayPage": 88
+    },
+    {
+      "folio": 142,
+      "clipEdits": {
+        "pageDeviceClips": 0,
+        "headerDeviceClips": 0,
+        "pointPageClips": 0,
+        "fullPageFormBBoxes": 0,
+        "fullPagePaintedRectangles": 0,
+        "fullPagePaintedPolygons": 3
+      },
+      "backgroundRGB": [
+        255,
+        248,
+        233
+      ],
+      "sourcePage": 144,
+      "sourceContentSHA256": "6b1456373c6e07d0f88c7c5d12520b9e5bb88804ea53233919a77c7e919445f4",
+      "preserved": "All image/path transforms and existing header-bottom/left limits; edited only outer/top/right clipping, declared page/form bounds, and matching full-page background extents to cover historical white/grey canvas rounding.",
+      "fullRasterPixels": [
+        4512,
+        5812
+      ],
+      "topStripPixels": [
+        4512,
+        71
+      ],
+      "rightStripPixels": [
+        71,
+        5812
+      ],
+      "topClipPoints": [
+        0,
+        688.8188976377953,
+        541.4173228346457,
+        8.503937007874017
+      ],
+      "rightClipPoints": [
+        532.9133858267717,
+        8.503937007874017,
+        8.503937007874017,
+        680.3149606299213
+      ],
+      "expandedNativeSHA256": "86ad7324e038bedfaafebd3639cb4110e5cdc6bec0677d3e410b5fc536fc1550",
+      "expandedSRGBRasterSHA256": "a77c40549bdcd65bd190fbed3d6f1c35c878a240d923bd1cfdb5408f55931965",
+      "overlayPage": 89
+    },
+    {
+      "folio": 143,
+      "clipEdits": {
+        "pageDeviceClips": 0,
+        "headerDeviceClips": 0,
+        "pointPageClips": 0,
+        "fullPageFormBBoxes": 0,
+        "fullPagePaintedRectangles": 0,
+        "fullPagePaintedPolygons": 3
+      },
+      "backgroundRGB": [
+        255,
+        248,
+        233
+      ],
+      "sourcePage": 145,
+      "sourceContentSHA256": "70825fead0a400587789a189eb5a4ba8036620e5015c5d01db219f365107e971",
+      "preserved": "All image/path transforms and existing header-bottom/left limits; edited only outer/top/right clipping, declared page/form bounds, and matching full-page background extents to cover historical white/grey canvas rounding.",
+      "fullRasterPixels": [
+        4512,
+        5812
+      ],
+      "topStripPixels": [
+        4512,
+        71
+      ],
+      "rightStripPixels": [
+        71,
+        5812
+      ],
+      "topClipPoints": [
+        0,
+        688.8188976377953,
+        541.4173228346457,
+        8.503937007874017
+      ],
+      "rightClipPoints": [
+        532.9133858267717,
+        8.503937007874017,
+        8.503937007874017,
+        680.3149606299213
+      ],
+      "expandedNativeSHA256": "4432d4b084f79f5af6a48b5a6b75500031815b2fa5a4180f78bda389104867f0",
+      "expandedSRGBRasterSHA256": "3092fb057b89ddd8414008be4dd42158a5ac1f14146c27b943a955e259f6c846",
+      "overlayPage": 90
+    },
+    {
+      "folio": 144,
+      "clipEdits": {
+        "pageDeviceClips": 0,
+        "headerDeviceClips": 0,
+        "pointPageClips": 0,
+        "fullPageFormBBoxes": 0,
+        "fullPagePaintedRectangles": 0,
+        "fullPagePaintedPolygons": 3
+      },
+      "backgroundRGB": [
+        255,
+        248,
+        233
+      ],
+      "sourcePage": 146,
+      "sourceContentSHA256": "93fe776f2a3600d94662df42d64531e04d09981d8ba26a68be52411ea209b917",
+      "preserved": "All image/path transforms and existing header-bottom/left limits; edited only outer/top/right clipping, declared page/form bounds, and matching full-page background extents to cover historical white/grey canvas rounding.",
+      "fullRasterPixels": [
+        4512,
+        5812
+      ],
+      "topStripPixels": [
+        4512,
+        71
+      ],
+      "rightStripPixels": [
+        71,
+        5812
+      ],
+      "topClipPoints": [
+        0,
+        688.8188976377953,
+        541.4173228346457,
+        8.503937007874017
+      ],
+      "rightClipPoints": [
+        532.9133858267717,
+        8.503937007874017,
+        8.503937007874017,
+        680.3149606299213
+      ],
+      "expandedNativeSHA256": "aa1df943d2075bca4410c2e96bf975ae605cb89eaec002f456e57cf03eb78bf7",
+      "expandedSRGBRasterSHA256": "c058786911444f6032a7e7f7dfc9e0b139a0679b009c414aea9e8658d6557b36",
+      "overlayPage": 91
+    }
+  ]
+}

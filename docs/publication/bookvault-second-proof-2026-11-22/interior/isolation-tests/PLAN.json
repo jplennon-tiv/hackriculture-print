@@ -1,0 +1,51 @@
+{
+  "created_at": "2026-11-23T19:22:06.737162+00:00",
+  "authorisation": "John: I\u2019d like to know what the fault was. We should do further tests; also check quality/regressions and keep sensible changes or revert others. Confirmed: Good plan - go for it.",
+  "accepted_control": "output/pdf/header-placement-review-2026-11-23/Vegetable-Guru-Interior-Gutter20-Outlined.pdf",
+  "accepted_control_sha256": "f12de8331d706379ae652e3995d9c185b0cb328600ee0526f604f6a1daeaf930",
+  "first_test": {
+    "id": "gutter20_native",
+    "file": "output/pdf/header-placement-review-2026-11-23/Vegetable-Guru-Interior-Gutter20-Native.pdf",
+    "sha256": "2b9f5974699d120c7b2120151e60c15c838267d9cfe0dd13dde7eaa97ba6fb1e",
+    "bytes": 168935887,
+    "purpose": "Does the 20 mm gutter derivative pass while retaining live fonts?",
+    "status": "Failed",
+    "selected_at": "2026-11-23T19:22:22.752Z",
+    "result_record": "GUTTER20-NATIVE-RESULT.json"
+  },
+  "branches": [
+    "If native20 fails, test original-gutter outlined version with the same outline conversion settings.",
+    "If native20 passes, test a no-layout re-save control to distinguish gutter geometry from PDF reserialisation.",
+    "Separate a font-preserving Ghostscript rewrite from outline conversion if results require it.",
+    "Only investigate individual font families once the evidence implicates font representation."
+  ],
+  "quality_audit": [
+    "Inventory every change since the approved corrected-header production master.",
+    "Compare image detail and original CMYK data at equal placement/scale.",
+    "Compare typography, spacing and page geometry; retain original content and approved artwork.",
+    "Classify intended production corrections, user-requested fixes and temporary diagnostic workarounds."
+  ],
+  "rules": [
+    "One supplier test at a time; wait for a terminal result before replacing it.",
+    "Record exact hash, filename and result for each test.",
+    "Do not create a title, order, pay or accept proof-responsibility terms.",
+    "Keep accepted control and editable sources intact; restore an accepted file if a test fails and testing is paused.",
+    "Do not claim a sole cause from confounded results."
+  ],
+  "second_test": {
+    "status": "Approved",
+    "result_record": "ORIGINAL-OUTLINE-RESULT.json"
+  },
+  "current_test": null,
+  "next_action": "Present gutter options; await geometry choice before the final quality-restored production derivative. No further diagnostic upload pending.",
+  "isolation_status": "Complete",
+  "final_control": {
+    "status": "Failed",
+    "result_record": "ORIGINAL-GS-NATIVE-RESULT.json"
+  },
+  "restoration": {
+    "status": "Approved",
+    "result_record": "RESTORATION-RESULT.json"
+  },
+  "quality_review_status": "Complete; restoration recommendations endorsed by John; gutter undecided"
+}

@@ -1,31 +1,29 @@
 {
   "date": "2026-11-22",
-  "status": "All native/source and reading-copy comparisons passed; rendered contact sheets visually inspected",
-  "pdfSha256": "8ac3bddaa4022fc32794931ebec6b9eeab6c2a428ce0bfb3965bfad8278cf95c",
-  "integrationReceipt": "integration-2026-11-22/INTEGRATION-CHECKS.json",
-  "pagesRendered": 180,
-  "nativeSourceComparisons": 178,
-  "unchangedPixelsOutsideApprovedEdits": true,
-  "detail": "integration-2026-11-22/VISUAL-CHECKS.json",
-  "resolutionReport": "integration-2026-11-22/IMAGE-RESOLUTION.json",
+  "status": "passed",
+  "pdfSha256": "f87ea66a3dcd06314e518e627c54e574dabac31a31a3035aba69013ad8e1f682",
+  "integrationReceipt": "navigation-polish-2026-11-22/INTEGRATION-CHECKS.json",
+  "pagesRendered": 178,
+  "detail": "navigation-polish-2026-11-22/NATIVE-VERIFICATION.json",
   "inspection": {
     "date": "2026-11-22",
-    "reviewer": "Codex visual inspection; not new user or supplier approval",
-    "contacts": [
-      "openings-contact.jpg",
-      "techniques-a-contact.jpg",
-      "techniques-b-contact.jpg",
-      "guide-openings-contact.jpg",
-      "guide-practical-contact.jpg",
-      "covers-and-index-contact.jpg"
+    "status": "passed",
+    "scope": "Technical visual inspection; author approval not inferred.",
+    "nativeSHA256": "f87ea66a3dcd06314e518e627c54e574dabac31a31a3035aba69013ad8e1f682",
+    "readingSHA256": "67585cb75671629ccbfa309baa268764316ae37ef7ee94bbb3189d262926e01e",
+    "inspected": [
+      "contents-review.jpg",
+      "index-review.jpg",
+      "troubles-review.jpg",
+      "check-170.png",
+      "check-98.png"
     ],
-    "coverage": "All 88 guide pages, all 25 Techniques pages, seven opening/contents pages plus publication details, selected cover panels and four index pages. Native/source pixel comparison covers all 178 non-cover leaves; browsing comparison covers all 180 pages.",
-    "findings": [
-      "No missing pictures, displaced text or new visible clipping in the inspected assembly.",
-      "Latest winter kale and watering proofs are placed; greenhouse correction and page 164 caption omission are visible.",
-      "Compost panorama retains its approved composition with the full-resolution source restored.",
-      "All previously approved guide artwork and retained functional diagrams carry forward.",
-      "Remaining print-resolution findings are recorded separately."
-    ]
+    "observations": [
+      "Contents restored to pre-Pt layout with current folios.",
+      "All four index pages retain readable 9.45 pt type; 44 main guide ranges distinguished from regular other references.",
+      "Troubles badges tilt clockwise by four degrees, including long-title page 142.",
+      "FIX backgrounds removed; all body pixels outside the defined edits match."
+    ],
+    "verification": "Both complete 178-page PDFs passed navigation, artwork, text, body geometry and pixel-region checks."
   }
 }

@@ -1,0 +1,49 @@
+{
+  "sourceRGBPreparationSHA256": "e1d870ce328a0fdc76f447c69f7512f7c34d805caaccd3f4c196b625ec90b3c1",
+  "noBPCBaselineSHA256": "7fd068a726057d07c36be7924971c87dc3a2aa473c4a985657b91ca5ecbc2119",
+  "finalSHA256": "fa0c4e6ad48d948ee0827f4d6936c89eddd8bef53f71764430c2123da9ce3ea4",
+  "bytes": 797161862,
+  "profileSHA256": "c6b4b62f0726243742eced8b9669476a6be89e581f50a7600ed8b6fcbb9cdab8",
+  "intent": 1,
+  "selectiveFlags": 8192,
+  "regions": [
+    {
+      "folio": 154,
+      "pixelRect": [
+        504,
+        1108,
+        3796,
+        2484
+      ],
+      "changedCMYKPixels": 4526060,
+      "outsideRectangleCMYKBytesIdentical": true,
+      "nativePageContentSHA256": "0bf1f3c94fc18736267012ff242bb5bf421f82121749ebf278e2d89fe87b1f01"
+    },
+    {
+      "folio": 155,
+      "pixelRect": [
+        910,
+        1243,
+        2285,
+        2243
+      ],
+      "changedCMYKPixels": 1366801,
+      "outsideRectangleCMYKBytesIdentical": true,
+      "nativePageContentSHA256": "4b8f3177ae9627b6136fe53926d5a8f0ebacb294b03bbff3d6d7b24f65d4d46f"
+    },
+    {
+      "folio": 168,
+      "pixelRect": [
+        258,
+        2855,
+        2077,
+        4068
+      ],
+      "changedCMYKPixels": 2192835,
+      "outsideRectangleCMYKBytesIdentical": true,
+      "nativePageContentSHA256": "c5d0d1cf13b2e3814529d162a2d109315166429df899e17bfbb8ad20137dd63b"
+    }
+  ],
+  "all174NativePageContentStreamsUnchangedBySelectiveCorrection": true,
+  "noRoundTrip": "BPC conversion starts from the same retained explicit-sRGB Poppler artwork rasters, not CMYK output."
+}

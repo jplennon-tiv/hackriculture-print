@@ -11,6 +11,8 @@ import {loadApprovedTwoPageGuides} from './approved-two-page-guides.mjs';
 export const hash = bytes => createHash('sha256').update(bytes).digest('hex');
 export const normal = s => s.normalize('NFKC').replace(/\u00ad/g, '').replace(/\s+/g, '').toLowerCase();
 const json = p => JSON.parse(fs.readFileSync(path.resolve(root, p), 'utf8'));
+const primaryIndexSources=json('src/print/book/index-primary-references.json');
+export const isPrimaryIndexReference=(entryId,source)=>primaryIndexSources[entryId]===source;
 
 export function headingPage(texts, heading) {
   const hits = texts.flatMap((text, i) => text.split(/\n\s*\n|\n(?=RECOGNISE(?:\n|$))/).some(block => normal(block) === normal(heading)) ? [i] : []);
@@ -37,8 +39,8 @@ export function compactReferences(refs) {
     const rows = [...groups.get(prefix).values()].sort((a,b) => a.folio - b.folio);
     for (let i=0; i<rows.length; i++) {
       const first=rows[i]; let last=first;
-      while (i+1<rows.length && rows[i+1].folio===last.folio+1) last=rows[++i];
-      output.push({label:prefix+first.folio+(last!==first?'–'+prefix+last.folio:''), pdf:first.pdf, page:first.page});
+      while (i+1<rows.length && rows[i+1].folio===last.folio+1 && Boolean(rows[i+1].primary)===Boolean(first.primary)) last=rows[++i];
+      output.push({label:prefix+first.folio+(last!==first?'–'+prefix+last.folio:''), pdf:first.pdf, page:first.page,...(first.primary?{primary:true}:{})});
     }
   }
   return output;
@@ -125,7 +127,7 @@ export function resolveIndex({planPath='docs/publication/book-preparation/ASSEMB
           if(heading && !normal(source.texts[offset]).includes(normal(heading))) throw Error('Heading missing from actual PDF: '+heading);
           const mapped=topicMap?.[units]?.[ref.source];
           if(topicMap && source.prefix && (!Number.isInteger(mapped)||mapped<1)) throw Error('Missing final topic folio: '+ref.source);
-          references.push({source:ref.source,...(heading?{condition:ref.condition,heading}:{}),prefix:mapped?'':source.prefix,folio:mapped?mapped+offset:source.start+offset,pdf:source.pdf,page:(source.sourceOffset||0)+offset+1});
+          references.push({source:ref.source,...(isPrimaryIndexReference(entry.id,ref.source)?{primary:true}:{}),...(heading?{condition:ref.condition,heading}:{}),prefix:mapped?'':source.prefix,folio:mapped?mapped+offset:source.start+offset,pdf:source.pdf,page:(source.sourceOffset||0)+offset+1});
         }
       }
       return {...entry,references,displayReferences:compactReferences(references)};

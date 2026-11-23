@@ -1,0 +1,200 @@
+{
+  "date": "2026-11-22",
+  "status": "Experiment set aside by John on 2026-11-22; original illustrated headers retained; no integration",
+  "pdf": "output/pdf/vegetable-photo-header-trials/Vegetable-Guru-Garden-Photo-Header-Trials.pdf",
+  "sha256": "f7e2dd82c1d88ca749f7950bab812f863574f4d08fe35e3166521e1ca9c0de31",
+  "bytes": 11138821,
+  "pages": 8,
+  "trimMm": [
+    185,
+    240
+  ],
+  "sourceBookUnchanged": true,
+  "sourceSHA256": "67585cb75671629ccbfa309baa268764316ae37ef7ee94bbb3189d262926e01e",
+  "guideBodies": [
+    {
+      "option": "A",
+      "crop": "carrot",
+      "pdfPage": 3,
+      "originalPDFPage": 36,
+      "bodyPixelsChanged": 0,
+      "bodyTextAndGeometryUnchanged": true,
+      "headerMetadataPresent": true
+    },
+    {
+      "option": "A",
+      "crop": "kale",
+      "pdfPage": 4,
+      "originalPDFPage": 58,
+      "bodyPixelsChanged": 0,
+      "bodyTextAndGeometryUnchanged": true,
+      "headerMetadataPresent": true
+    },
+    {
+      "option": "B",
+      "crop": "carrot",
+      "pdfPage": 5,
+      "originalPDFPage": 36,
+      "bodyPixelsChanged": 0,
+      "bodyTextAndGeometryUnchanged": true,
+      "headerMetadataPresent": true
+    },
+    {
+      "option": "B",
+      "crop": "kale",
+      "pdfPage": 6,
+      "originalPDFPage": 58,
+      "bodyPixelsChanged": 0,
+      "bodyTextAndGeometryUnchanged": true,
+      "headerMetadataPresent": true
+    },
+    {
+      "option": "C",
+      "crop": "carrot",
+      "pdfPage": 7,
+      "originalPDFPage": 36,
+      "bodyPixelsChanged": 0,
+      "bodyTextAndGeometryUnchanged": true,
+      "headerMetadataPresent": true
+    },
+    {
+      "option": "C",
+      "crop": "kale",
+      "pdfPage": 8,
+      "originalPDFPage": 58,
+      "bodyPixelsChanged": 0,
+      "bodyTextAndGeometryUnchanged": true,
+      "headerMetadataPresent": true
+    }
+  ],
+  "photos": {
+    "body": "Not drawn or edited by this header renderer",
+    "headerHeightMM": 33,
+    "nativeFonts": [
+      "Lilita One",
+      "Nunito Sans"
+    ],
+    "pictures": [
+      {
+        "crop": "carrot",
+        "effectiveDPI": 520.1919999999999,
+        "focus": [
+          0.63,
+          0.82
+        ],
+        "frameMM": [
+          110,
+          0,
+          75,
+          33
+        ]
+      },
+      {
+        "crop": "kale",
+        "effectiveDPI": 520.1919999999999,
+        "focus": [
+          0.63,
+          0.82
+        ],
+        "frameMM": [
+          110,
+          0,
+          75,
+          33
+        ]
+      },
+      {
+        "crop": "carrot",
+        "effectiveDPI": 591.1272727272727,
+        "focus": [
+          0.62,
+          0.8
+        ],
+        "frameMM": [
+          111,
+          3.199999999999994,
+          66,
+          28.199999999999996
+        ]
+      },
+      {
+        "crop": "kale",
+        "effectiveDPI": 591.1272727272727,
+        "focus": [
+          0.62,
+          0.8
+        ],
+        "frameMM": [
+          111,
+          3.199999999999994,
+          66,
+          28.199999999999996
+        ]
+      },
+      {
+        "crop": "carrot",
+        "effectiveDPI": 368.06037735849054,
+        "focus": [
+          0.62,
+          0.87
+        ],
+        "frameMM": [
+          79,
+          0,
+          105.99999999999999,
+          33
+        ]
+      },
+      {
+        "crop": "kale",
+        "effectiveDPI": 368.06037735849054,
+        "focus": [
+          0.62,
+          0.87
+        ],
+        "frameMM": [
+          79,
+          0,
+          105.99999999999999,
+          33
+        ]
+      }
+    ],
+    "status": "proposal"
+  },
+  "intentionalChanges": [
+    "A/B retain original native title, category and harvest-season icons/words.",
+    "C repositions native-font title/category/season words; small season icons are omitted in this proposal.",
+    "The rating remains Fairly Easy, two filled dots out of five, and 2/5 on all six trials.",
+    "Illustrated hero replaced only in the proposed header."
+  ],
+  "visualInspection": {
+    "status": "passed",
+    "inspected": [
+      "Header-Comparison.jpg",
+      "pages/page-01.png",
+      "pages/page-02.png",
+      "pages/page-06.png",
+      "pages/page-07.png",
+      "carrot-B-facing-spread.jpg",
+      "kale-B-facing-spread.jpg"
+    ],
+    "findings": [
+      "Plants are rooted in soil, with real garden context and natural plant variation.",
+      "All six headers fit within 33 mm, retaining the current guide bodies and footer positions.",
+      "Original category, title, difficulty rating and harvest season wording are retained; C deliberately omits the tiny season icons.",
+      "B gives the least obstructed photograph. A/C retain the overlaid sticker as comparison choices.",
+      "Two original camera references and the approved winter kale study were visually checked; generated scenes are proposals, not literal documentary photographs."
+    ],
+    "authorApproval": false
+  },
+  "sourceFiles": {
+    "docs/publication/vegetable-photo-header-trials-2026-11-22/ARTWORK.json": "472fd1ed669001f125dfa437e8244bb11703454ef4bf3cc0ecabeb22495df10e",
+    "docs/publication/vegetable-photo-header-trials-2026-11-22/build.swift": "bfb200da9080fa6c7a924ae981cc8d4bb64a01267a6334136e3da327da857256",
+    "docs/publication/vegetable-photo-header-trials-2026-11-22/prepare-headers.py": "5f90d2a9800c62133afa3daf9b8060c96d0834067aa18a5272b9c515baef5de8",
+    "docs/publication/vegetable-photo-header-trials-2026-11-22/build-proof.py": "8e9650430a1b71c0d5fabe12d0169a5382d89e0d59f6a79110f34e90f574a2d0",
+    "public/fonts/richer-a-1.woff2": "d2575d4fa3632580aafcbcdf6978b3b57e144b90cf5bd9c2c98194f28b869704",
+    "public/fonts/richer-a-6.woff2": "29e3890496844a9ea81975c52771c587c872b4eb317026422d1995b88d21b57d"
+  },
+  "decision": "DECISION.json"
+}

@@ -1,0 +1,211 @@
+{
+  "revision": 2,
+  "status": "corrected proposal awaiting review",
+  "reason": "John rejected raster-derived vector curves as melted/notched",
+  "method": "FreeType loads the bundled Lilita One and system Arial Bold; font quadratic/cubic outlines are copied without tracing or smoothing. Placement uses the approved letter/text regions.",
+  "fonts": {
+    "lilita": {
+      "file": "/Users/johnlennon/Documents/web_site/hackriculture-print/public/fonts/richer-a-1.woff2",
+      "sha256": "d2575d4fa3632580aafcbcdf6978b3b57e144b90cf5bd9c2c98194f28b869704"
+    },
+    "arial": {
+      "file": "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
+      "sha256": "d72db21f9242aedd6b917d8549ad5921766b24d5f8d0becfda2ff4c620b3c2e0"
+    }
+  },
+  "elements": [
+    {
+      "element": "letter-The-1-T",
+      "font": "Lilita One",
+      "position": "accepted horizontal boxes; revised line clearance for native g descender",
+      "box": [
+        274.0,
+        358.0,
+        53,
+        76
+      ]
+    },
+    {
+      "element": "letter-The-2-h",
+      "font": "Lilita One",
+      "position": "accepted horizontal boxes; revised line clearance for native g descender",
+      "box": [
+        329.0,
+        356.0,
+        49,
+        78
+      ]
+    },
+    {
+      "element": "letter-The-3-e",
+      "font": "Lilita One",
+      "position": "accepted horizontal boxes; revised line clearance for native g descender",
+      "box": [
+        379.0,
+        373.0,
+        52,
+        62
+      ]
+    },
+    {
+      "element": "letter-Vegetable-1-V",
+      "font": "Lilita One",
+      "position": "accepted horizontal boxes; revised line clearance for native g descender",
+      "box": [
+        108.0,
+        402.0,
+        149,
+        156
+      ]
+    },
+    {
+      "element": "letter-Vegetable-2-e",
+      "font": "Lilita One",
+      "position": "accepted horizontal boxes; revised line clearance for native g descender",
+      "box": [
+        240.0,
+        443.0,
+        101,
+        113
+      ]
+    },
+    {
+      "element": "letter-Vegetable-3-g",
+      "font": "Lilita One",
+      "position": "accepted horizontal boxes; revised line clearance for native g descender",
+      "box": [
+        345.0,
+        443.0,
+        109,
+        139
+      ]
+    },
+    {
+      "element": "letter-Vegetable-4-e",
+      "font": "Lilita One",
+      "position": "accepted horizontal boxes; revised line clearance for native g descender",
+      "box": [
+        461.0,
+        444.0,
+        96,
+        112
+      ]
+    },
+    {
+      "element": "letter-Vegetable-5-t",
+      "font": "Lilita One",
+      "position": "accepted horizontal boxes; revised line clearance for native g descender",
+      "box": [
+        558.0,
+        421.0,
+        73,
+        134
+      ]
+    },
+    {
+      "element": "letter-Vegetable-6-a",
+      "font": "Lilita One",
+      "position": "accepted horizontal boxes; revised line clearance for native g descender",
+      "box": [
+        631.0,
+        443.0,
+        96,
+        112
+      ]
+    },
+    {
+      "element": "letter-Vegetable-7-b",
+      "font": "Lilita One",
+      "position": "accepted horizontal boxes; revised line clearance for native g descender",
+      "box": [
+        734.0,
+        402.0,
+        99,
+        154
+      ]
+    },
+    {
+      "element": "letter-Vegetable-8-l",
+      "font": "Lilita One",
+      "position": "accepted horizontal boxes; revised line clearance for native g descender",
+      "box": [
+        841.0,
+        405.0,
+        45,
+        152
+      ]
+    },
+    {
+      "element": "letter-Vegetable-9-e",
+      "font": "Lilita One",
+      "position": "accepted horizontal boxes; revised line clearance for native g descender",
+      "box": [
+        893.0,
+        443.0,
+        99,
+        116
+      ]
+    },
+    {
+      "element": "letter-Guru-1-G",
+      "font": "Lilita One",
+      "position": "accepted horizontal boxes; revised line clearance for native g descender",
+      "box": [
+        244.0,
+        590.0,
+        174,
+        160.0
+      ]
+    },
+    {
+      "element": "letter-Guru-2-u",
+      "font": "Lilita One",
+      "position": "accepted horizontal boxes; revised line clearance for native g descender",
+      "box": [
+        425.0,
+        619.5238095238095,
+        140,
+        128.57142857142856
+      ]
+    },
+    {
+      "element": "letter-Guru-3-r",
+      "font": "Lilita One",
+      "position": "accepted horizontal boxes; revised line clearance for native g descender",
+      "box": [
+        574.0,
+        617.6190476190476,
+        112,
+        128.57142857142856
+      ]
+    },
+    {
+      "element": "letter-Guru-4-u",
+      "font": "Lilita One",
+      "position": "accepted horizontal boxes; revised line clearance for native g descender",
+      "box": [
+        693.0,
+        619.5238095238095,
+        143,
+        127.6190476190476
+      ]
+    },
+    {
+      "element": "organic-ribbon",
+      "font": "Arial Bold",
+      "angle_degrees": -43.06506769044723
+    },
+    {
+      "element": "youtube-sticker",
+      "font": "Arial Bold",
+      "angle_degrees": 4.5
+    },
+    {
+      "element": "measurements-sticker",
+      "font": "Arial Bold",
+      "curved_labels": "each glyph uses original font curves, rotated on circular baselines"
+    }
+  ],
+  "unchanged": "Photographs, wood treatment, rear panel and overall composition from the preceding quality proposal.",
+  "design_limit": "Clean native letterforms deliberately replace the original generated raster letterforms; exact appearance requires John\u2019s review."
+}

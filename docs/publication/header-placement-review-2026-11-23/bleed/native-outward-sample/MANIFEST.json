@@ -1,0 +1,97 @@
+{
+  "sourceMasterSHA256": "f87ea66a3dcd06314e518e627c54e574dabac31a31a3035aba69013ad8e1f682",
+  "sourceProductionSHA256": "341ce74932cd81f6a8cc838b742ec7095e471d0ee7d9fcb7b247dd1b417e6b47",
+  "overlayPDF": "docs/publication/header-placement-review-2026-11-23/bleed/native-outward-sample/Native-Outward-Bleed-Overlays.pdf",
+  "overlaySHA256": "188d6e2d5adad35da1af1fffe175cb1d1528f7046652949b61f1070f04c02f46",
+  "samplePDF": "output/pdf/header-placement-review-2026-11-23/bleed/Vegetable-Guru-Native-Outward-Bleed-sample.pdf",
+  "sampleSHA256": "e41d0c17cb720da697d2a52b99f8717b39d2b590855a9e062f17d3097d36e32a",
+  "beforePDF": "docs/publication/header-placement-review-2026-11-23/bleed/native-outward-sample/Before-Header-Bleed.pdf",
+  "profileSHA256": "c6b4b62f0726243742eced8b9669476a6be89e581f50a7600ed8b6fcbb9cdab8",
+  "method": "Retained native paths with outer/top/right clips expanded, all transforms and header-bottom/left limits preserved. Poppler600dpi honours source ICCs into explicit sRGB, followed by original FOGRA39 relative1/noBPC. Only narrow opaque CMYK top/right raster strips are supplied, strictly clipped outside TrimBox. Original production page content and artwork remain unmodified.",
+  "pages": [
+    {
+      "folio": 24,
+      "clipEdits": {
+        "pageDeviceClips": 17,
+        "headerDeviceClips": 1,
+        "pointPageClips": 1,
+        "fullPageFormBBoxes": 1
+      },
+      "backgroundRGB": [
+        255,
+        248,
+        233
+      ],
+      "sourcePage": 26,
+      "sourceContentSHA256": "5f746794cd7c197dedf20f36c6eebf0b8944ad1f12854c1270788bee671b8b6f",
+      "preserved": "All image/path transforms and existing header-bottom/left limits; edited only outer/top/right clipping and declared page/form bounds.",
+      "fullRasterPixels": [
+        4512,
+        5812
+      ],
+      "topStripPixels": [
+        4512,
+        71
+      ],
+      "rightStripPixels": [
+        71,
+        5812
+      ],
+      "topClipPoints": [
+        0,
+        688.8188976377953,
+        541.4173228346457,
+        8.503937007874017
+      ],
+      "rightClipPoints": [
+        532.9133858267717,
+        8.503937007874017,
+        8.503937007874017,
+        680.3149606299213
+      ],
+      "overlayPage": 1
+    },
+    {
+      "folio": 98,
+      "clipEdits": {
+        "pageDeviceClips": 0,
+        "headerDeviceClips": 0,
+        "pointPageClips": 0,
+        "fullPageFormBBoxes": 0
+      },
+      "backgroundRGB": [
+        255,
+        248,
+        233
+      ],
+      "sourcePage": 100,
+      "sourceContentSHA256": "398426a578845e558a6b2c7691753d9871b1dad6725f04ca7eb929f8a75605ca",
+      "preserved": "All image/path transforms and existing header-bottom/left limits; edited only outer/top/right clipping and declared page/form bounds.",
+      "fullRasterPixels": [
+        4512,
+        5812
+      ],
+      "topStripPixels": [
+        4512,
+        71
+      ],
+      "rightStripPixels": [
+        71,
+        5812
+      ],
+      "topClipPoints": [
+        0,
+        688.8188976377953,
+        541.4173228346457,
+        8.503937007874017
+      ],
+      "rightClipPoints": [
+        532.9133858267717,
+        8.503937007874017,
+        8.503937007874017,
+        680.3149606299213
+      ],
+      "overlayPage": 2
+    }
+  ]
+}

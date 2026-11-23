@@ -1,0 +1,12 @@
+{
+  "date": "2026-11-23",
+  "scope": "Browser error/warning console only, during active PDF/X-1a upload. No private network/API access.",
+  "observed": [
+    {
+      "timestamp": "2026-11-23T15:58:34.796Z",
+      "message": "TypeError reading loadAnimation from undefined in lottieInit",
+      "assessment": "Page animation initialisation; no established relationship to PDF validation."
+    }
+  ],
+  "useful_pdf_validation_cause_found": false
+}

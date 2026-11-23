@@ -90,13 +90,13 @@ This is a crop-by-crop refinement, not a fixed layout to impose across the set.
 
 ## Vegetable continuation
 
-The frozen reference uses **Growing & harvesting** and the three-part reminder
-banner. John’s 15 October navigation correction replaces the practical-page title
-in the current whole-book review with **Growing guide · <crop>**, as one Lilita
-heading block. Fit the whole heading for longer names; preserve body type and
-the reminder banner. “See also” references must name the crop on every destination
-page; omit the line where none qualify. John approved this treatment on 15 October;
-the original guide proofs and ordinary exporter are unchanged. Omit the redundant
+The current practical-page title is **the crop name alone**, in Lilita and the
+existing category colour. John's 22 November instruction removes the earlier
+“Growing guide · ” prefix from all 44 second pages. Preserve the title's existing
+size, body type and three-part reminder banner. “See also” references must name
+the crop on every destination page; omit the line where none qualify. Original
+approved PDFs remain intact; the compact renderer and current book use this
+updated presentation. Omit the redundant
 “crop / Growing Guide” line. Keep two practical-advice columns, illustrated
 planting instructions, the useful pest table and **full-width Final Tips**.
 Use the practical-title and section-heading roles in the shared type hierarchy.
@@ -125,13 +125,18 @@ advice. [Source and table correction](publication/pest-title-case/README.md) and
 ## Troubles
 
 Use two open columns, fine separating rules, compact crop labels, condition
-headings and Recognise / Act / Prevent advice. Natural entry heights and text
+headings and **IDENTIFICATION / FIX / PREVENTION** advice labels, as requested
+on 22 November. Preserve every existing paragraph; do not add a missing advice
+type just to make a triplet. Every page title, including continuations, ends in
+lowercase **troubles** and the upper-right banner reads **Vegetable troubles**
+on two lines, tilted 4° clockwise. FIX has no background highlight; retain its
+existing spacing and the full-entry feature panels. Natural entry heights and text
 wrapping beside illustrations provide density; no padded equal-height cards.
 Use the condition-heading and guide-advice roles in the shared type hierarchy;
 the Troubles reference retains 11.25 pt advice leading.
 John's 30 October refinement removes the repeated “Recognise → Act → Prevent”
 line from each book page header, explaining the sequence on the section opener.
-The small inline advice labels remain. The initial header-only proof retained body positions; the later natural-flow
+The small inline advice labels remain, with the new wording above. The initial header-only proof retained body positions; the later natural-flow
 proof reclaims the unused lower header space. A4 and frozen references stay unchanged. See the
 [focused section proof and checks](publication/troubles-header-refinement/README.md).
 John's approved 31 October treatment uses separate wrapping masks, a 4 mm

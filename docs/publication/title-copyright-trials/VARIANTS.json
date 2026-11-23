@@ -1,0 +1,298 @@
+{
+  "date": "2026-11-22",
+  "status": "C approved by John Lennon and installed; A, B and D retained as unselected proposals",
+  "folio": 1,
+  "trimMM": [
+    185,
+    240
+  ],
+  "text": {
+    "eyebrow": "",
+    "title": [
+      "The",
+      "Vegetable",
+      "Guru"
+    ],
+    "subtitle": [
+      "Your at-a-glance",
+      "growing companion"
+    ],
+    "author": "John Lennon",
+    "measurementLabel": "Traditional measurements edition",
+    "imprint": "",
+    "copyrightLines": [
+      "Text © John Lennon [year].",
+      "All rights reserved. Except as permitted by law, no part of the text may be",
+      "reproduced, stored or transmitted in any form without the copyright holder’s permission.",
+      "ISBN [To be supplied]"
+    ]
+  },
+  "assets": {
+    "tomatoes": {
+      "number": 10,
+      "title": "Ripening tomatoes",
+      "file": "docs/publication/overnight-2026-11-19/openings/contents-thumbnail-review/thumbnails/10-ripening-tomatoes.png",
+      "sha256": "cad96955ab32170a49ef021b939b99fec94a34ca252a03722a22aa15465a4625",
+      "group": "New choice",
+      "status": "Approved on contents pages 4–5; see swapped-headers/APPROVAL.json",
+      "kind": "Generated photographic study; not camera evidence",
+      "source": "generated_images/exec-334e1c80-f1d4-437c-9628-88418eef44fb.png",
+      "sourceSHA256": "f225ba15b129ed0d0510c3b2bfbc166f8378c796567d86aececd8a555180fc1c",
+      "generationCell": 1,
+      "crop": {
+        "left": 2,
+        "top": 2,
+        "width": 440,
+        "height": 440
+      },
+      "nativePixels": [
+        440,
+        440
+      ]
+    },
+    "chard": {
+      "number": 11,
+      "title": "Rainbow chard",
+      "file": "docs/publication/overnight-2026-11-19/openings/contents-thumbnail-review/thumbnails/11-rainbow-chard.png",
+      "sha256": "55603856ac3a679b3d30ae13a981b462f95183ea95602c38689d920b9e6d5d03",
+      "group": "New choice",
+      "status": "Approved on contents pages 4–5; see swapped-headers/APPROVAL.json",
+      "kind": "Generated photographic study; not camera evidence",
+      "source": "generated_images/exec-334e1c80-f1d4-437c-9628-88418eef44fb.png",
+      "sourceSHA256": "f225ba15b129ed0d0510c3b2bfbc166f8378c796567d86aececd8a555180fc1c",
+      "generationCell": 2,
+      "crop": {
+        "left": 446,
+        "top": 2,
+        "width": 439,
+        "height": 440
+      },
+      "nativePixels": [
+        439,
+        440
+      ]
+    },
+    "pea": {
+      "title": "Pea",
+      "file": "docs/publication/overnight-2026-11-19/openings/page-9-thumbnail-review/thumbnails/02-pea.png",
+      "sha256": "e381a86b7ffecf2dc57476bc0a66a554766091e982a156a05c7dce1b6dfcaf98",
+      "status": "Approved on Vegetable Guides page 9",
+      "kind": "New generated photographic study; not camera evidence",
+      "nativePixels": [
+        309,
+        310
+      ]
+    },
+    "onion": {
+      "title": "Onion",
+      "file": "docs/publication/overnight-2026-11-19/openings/page-9-thumbnail-review/thumbnails/15-onion.png",
+      "sha256": "ac48ba601062c8e9f9ed511d2d805f3e9c267996e00b296bd27d098cb0e88db0",
+      "status": "Approved on Vegetable Guides page 9",
+      "kind": "New generated photographic study; not camera evidence",
+      "nativePixels": [
+        310,
+        309
+      ]
+    }
+  },
+  "variants": [
+    {
+      "id": "A",
+      "title": "Familiar scatter",
+      "description": "Four photographs; closest to the approved title page.",
+      "text": {
+        "cx": 97,
+        "tops": [
+          40,
+          52,
+          75,
+          106,
+          114,
+          130,
+          139
+        ]
+      },
+      "footerAlign": "centre",
+      "photos": [
+        {
+          "key": "pea",
+          "x": 26,
+          "y": 20,
+          "w": 23,
+          "h": 23,
+          "role": "thumbnail"
+        },
+        {
+          "key": "onion",
+          "x": 149,
+          "y": 15,
+          "w": 21,
+          "h": 21,
+          "role": "thumbnail"
+        },
+        {
+          "key": "tomatoes",
+          "x": 22,
+          "y": 149,
+          "w": 54,
+          "h": 54,
+          "role": "large"
+        },
+        {
+          "key": "chard",
+          "x": 130,
+          "y": 160,
+          "w": 39,
+          "h": 39,
+          "role": "medium"
+        }
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Two-picture balance",
+      "description": "Tomatoes and chard only; more space above the title.",
+      "text": {
+        "cx": 97,
+        "tops": [
+          32,
+          44,
+          67,
+          98,
+          106,
+          122,
+          131
+        ]
+      },
+      "footerAlign": "centre",
+      "photos": [
+        {
+          "key": "tomatoes",
+          "x": 29,
+          "y": 146,
+          "w": 55,
+          "h": 55,
+          "role": "large"
+        },
+        {
+          "key": "chard",
+          "x": 124,
+          "y": 159,
+          "w": 40,
+          "h": 40,
+          "role": "medium"
+        }
+      ]
+    },
+    {
+      "id": "C",
+      "title": "Pictures above",
+      "description": "Three staggered photographs above a lower title block.",
+      "text": {
+        "cx": 97,
+        "tops": [
+          80,
+          92,
+          115,
+          146,
+          154,
+          170,
+          179
+        ]
+      },
+      "footerAlign": "centre",
+      "photos": [
+        {
+          "key": "tomatoes",
+          "x": 23,
+          "y": 15,
+          "w": 54,
+          "h": 54,
+          "role": "large"
+        },
+        {
+          "key": "pea",
+          "x": 91,
+          "y": 25,
+          "w": 21,
+          "h": 21,
+          "role": "thumbnail"
+        },
+        {
+          "key": "chard",
+          "x": 132,
+          "y": 33,
+          "w": 36,
+          "h": 36,
+          "role": "medium"
+        }
+      ]
+    },
+    {
+      "id": "D",
+      "title": "Side column",
+      "description": "Three photographs along the left; title set to the right.",
+      "text": {
+        "cx": 130,
+        "tops": [
+          46,
+          58,
+          81,
+          112,
+          120,
+          136,
+          145
+        ]
+      },
+      "footerAlign": "left",
+      "photos": [
+        {
+          "key": "tomatoes",
+          "x": 17,
+          "y": 28,
+          "w": 52,
+          "h": 52,
+          "role": "large"
+        },
+        {
+          "key": "chard",
+          "x": 29,
+          "y": 98,
+          "w": 38,
+          "h": 38,
+          "role": "medium"
+        },
+        {
+          "key": "pea",
+          "x": 42,
+          "y": 156,
+          "w": 24,
+          "h": 24,
+          "role": "thumbnail"
+        }
+      ]
+    }
+  ],
+  "sourceApproval": "docs/publication/overnight-2026-11-19/openings/title-page-trials/mixed-size-variations/APPROVAL.json",
+  "publicationCopySource": {
+    "file": "output/pdf/whole-book-order-preview/Vegetable-Guru-Updated-Book-Review.pdf",
+    "pdfPage": 4,
+    "printedPage": 2,
+    "retained": "Existing copyright declaration and ISBN placeholder, wording unchanged apart from line wrapping."
+  },
+  "intentionalChanges": [
+    "Add core copyright declaration and ISBN at the bottom of the title page.",
+    "Omit AI/design credit, source note and UK growing-conditions guidance, explicitly requested by John.",
+    "No separate author/imprint/edition-year metadata panel; author and Traditional measurements edition remain in title hierarchy.",
+    "Reduce/rearrange existing pictures; courgette omitted from all trials.",
+    "Pages 2 and 3 to be removed after a combined title layout is approved; pagination and book assembly unchanged for these standalone trials."
+  ],
+  "productionNotes": [
+    "Reduced photo placements use the same native source pixels; no enlargement or generated replacement.",
+    "Copyright year and ISBN are not supplied, so placeholders remain.",
+    "No visible folio on the title page.",
+    "Original title approval, source pictures, assembled book and supplier files remain intact."
+  ],
+  "approval": "APPROVAL.json",
+  "integration": "docs/publication/whole-book-order-preview/title-copyright-integration-2026-11-22/INTEGRATION-CHECKS.json"
+}

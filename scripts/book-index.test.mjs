@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {headingPage,compactReferences,indexPageOffsets} from './lib/book-index.mjs';
+import {headingPage,compactReferences,indexPageOffsets,isPrimaryIndexReference} from './lib/book-index.mjs';
 import {readBookLayout,validateBookLayout} from '../../hackriculture-data/lib/book-layout.mjs';
 
 test('condition locators use the explanation heading rather than an incidental mention',()=>{
@@ -15,6 +15,13 @@ test('ranges deduplicate consecutive pages and keep temporary topic namespaces d
  assert.deepEqual(compactReferences(rows).map(r=>r.label),['8–9','11','C2','T2–T3']);
  const moved=rows.map(x=>({...x,folio:x.folio+10}));
  assert.deepEqual(compactReferences(moved).map(r=>r.label),['18–19','21','C12','T12–T13']);
+});
+test('primary guide references stay distinct from incidental mentions and adjacent ranges',()=>{
+ assert.equal(isPrimaryIndexReference('beans-broad','vegetable:bean_broad'),true);
+ assert.equal(isPrimaryIndexReference('beans-broad','trouble:bean_and_pea_troubles'),false);
+ assert.equal(isPrimaryIndexReference('follow-on-crops','vegetable:kale'),false);
+ const refs=compactReferences([{folio:8,primary:true},{folio:9,primary:true},{folio:10},{folio:11}]);
+ assert.deepEqual(refs.map(r=>[r.label,Boolean(r.primary)]),[['8–9',true],['10–11',false]]);
 });
 test('page-specific index locators stay within the named section',()=>{
  assert.deepEqual(indexPageOffsets({source:'technique:netting'},2),[0,1]);

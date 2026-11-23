@@ -75,8 +75,9 @@ body .sheet:last-child{break-after:auto!important}
 /* Book diagnostic study: natural two-column entries and wrapping artwork. */
 .editorial-trouble header{padding-top:26px;min-height:0;height:auto;padding-bottom:30px}
 .editorial-trouble header>.eyebrow{display:none}
-.editorial-trouble h1{font-size:34px;line-height:1.06;margin-top:0;max-width:80%;letter-spacing:-.5px}
-.editorial-trouble .ribbon{top:26px;font-size:16px;padding:6px 10px 8px}
+.editorial-trouble h1{font-size:34px;line-height:1.06;margin-top:0;max-width:calc(100% - 125px);letter-spacing:-.5px}
+.editorial-trouble .ribbon{top:26px;font-size:16px;padding:6px 10px 8px;width:100px;white-space:normal;text-align:center;line-height:1.05;transform:rotate(4deg)}
+.editorial-trouble .act h3{background:transparent}
 .editorial-trouble .intro{margin-top:9px;line-height:1.25;white-space:normal}
 .editorial-trouble .navigation{bottom:8px;font-size:9px}
 .editorial-trouble .columns{display:grid;grid-template-columns:1fr 1fr;gap:20px}
@@ -130,6 +131,7 @@ body .sheet:last-child{break-after:auto!important}
 
 /* Working renderer: preserve the design with varying crop titles and content. */
 .rich-print .front h1{font-size:var(--book-title-size,76px)!important;max-width:var(--book-title-width,455px)!important}
+.rich-print .front h1>span{margin-left:.06em;text-shadow:none}
 .rich-print .front .header-seasons{left:var(--book-seasons-left,190px);top:var(--book-seasons-top,12px)}
 .rich-print .front .header-seasons b{white-space:normal}
 .rich-print .varieties>div{grid-template-columns:repeat(6,1fr)!important}

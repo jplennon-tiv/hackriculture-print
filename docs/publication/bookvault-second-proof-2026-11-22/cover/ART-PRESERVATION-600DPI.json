@@ -1,0 +1,25 @@
+{
+  "dpi": 600,
+  "excluded": "Actual type-only painted pixels plus 2-pixel antialias halo",
+  "compared_pixels": 49375559,
+  "maximum_channel_difference": 12,
+  "mean_channel_difference": 3.1729598578654406e-07,
+  "changed_pixels": 2,
+  "render_hashes": {
+    "cover-native-600dpi.png": "460e84053b2d1736dd00de3443360b5880a4ba824ff026fd6b5a19e13fc2b014",
+    "cover-art-600dpi.png": "0be085ff4e8808d54a1d83003e018289bf4fabec1fc544cf29db8d7c82b4cd35",
+    "cover-type-600dpi.png": "225d698f5a2f0e04279abe482cbc22ac5cf5f9f935ba4f170c61757eb3467f3a"
+  },
+  "native_pdf_sha256": "172626821cc9441d68fc996b5699a3e5408a48962ab9418502cad39f7a8a54a7",
+  "assessment": "49,375,557 of 49,375,559 tested non-type pixels are exact. Two isolated renderer samples differ by at most 12/255; no visible layout or artwork change.",
+  "residual_pixels_xy": [
+    [
+      8841,
+      4631
+    ],
+    [
+      7895,
+      4870
+    ]
+  ]
+}

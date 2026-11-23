@@ -1,143 +1,217 @@
 {
   "date": "2026-11-22",
-  "pdfSha256": "8ac3bddaa4022fc32794931ebec6b9eeab6c2a428ce0bfb3965bfad8278cf95c",
-  "interiorPages": 176,
+  "pdfSha256": "f87ea66a3dcd06314e518e627c54e574dabac31a31a3035aba69013ad8e1f682",
+  "integrationReceipt": "navigation-polish-2026-11-22/INTEGRATION-CHECKS.json",
+  "interiorPages": 174,
+  "pdfPages": 178,
   "firstLeaves": [
     {
       "folio": null,
       "label": "Front cover — selected gold design",
       "kind": "cover",
-      "source": "output/pdf/selected-gold-cover/The-Vegetable-Guru-Selected-Cover.pdf",
+      "source": "docs/publication/whole-book-order-preview/title-copyright-integration-2026-11-22/before-book.pdf",
       "sourcePage": 1,
       "pdfPage": 1,
       "changes": [
         "Selected approved cover panel at trim; wrap and spine remain unchanged"
       ],
-      "image": "integration-2026-11-22/pages/page-001.jpg",
-      "cropXMM": 197.5
+      "image": "navigation-polish-2026-11-22/pages/page-001.jpg",
+      "cropXMM": 197.5,
+      "previousFolio": null,
+      "priorSource": {
+        "source": "output/pdf/selected-gold-cover/The-Vegetable-Guru-Selected-Cover.pdf",
+        "sourcePage": 1,
+        "approval": null
+      }
     },
     {
       "folio": null,
       "label": "Inside front cover",
       "kind": "blank",
-      "source": "docs/publication/whole-book-order-preview/integration-2026-11-22/before-book.pdf",
+      "source": "docs/publication/whole-book-order-preview/interior-six-fixes-2026-11-22/updated-native.pdf",
       "sourcePage": 2,
       "pdfPage": 2,
       "changes": [],
-      "image": "integration-2026-11-22/pages/page-002.jpg"
+      "image": "navigation-polish-2026-11-22/pages/page-002.jpg",
+      "previousFolio": null,
+      "priorSource": {
+        "source": "docs/publication/whole-book-order-preview/integration-2026-11-22/before-book.pdf",
+        "sourcePage": 2,
+        "approval": null
+      },
+      "previousPresentationSource": {
+        "source": "docs/publication/whole-book-order-preview/title-copyright-integration-2026-11-22/before-book.pdf",
+        "sourcePage": 2
+      },
+      "presentationUpdate": "docs/publication/whole-book-order-preview/interior-six-fixes-2026-11-22/SOURCE.json"
     },
     {
       "folio": 1,
-      "label": "Title",
+      "label": "Title and copyright — approved C",
       "kind": "opening",
-      "source": "output/pdf/title-page-trials/mixed-size-variations/Vegetable-Guru-Title-Page-Six-Variations.pdf",
-      "sourcePage": 1,
+      "source": "output/pdf/title-copyright-trials/Vegetable-Guru-Title-Copyright-Design-Trials.pdf",
+      "sourcePage": 4,
       "pdfPage": 3,
       "changes": [
         "Approved page replacement"
       ],
-      "image": "integration-2026-11-22/pages/page-003.jpg",
-      "approval": "docs/publication/overnight-2026-11-19/openings/title-page-trials/mixed-size-variations/APPROVAL.json"
+      "image": "navigation-polish-2026-11-22/pages/page-003.jpg",
+      "approval": "docs/publication/title-copyright-trials/APPROVAL.json",
+      "previousFolio": 1,
+      "priorSource": {
+        "source": "output/pdf/title-page-trials/mixed-size-variations/Vegetable-Guru-Title-Page-Six-Variations.pdf",
+        "sourcePage": 1,
+        "approval": "docs/publication/overnight-2026-11-19/openings/title-page-trials/mixed-size-variations/APPROVAL.json"
+      }
     },
     {
       "folio": 2,
-      "label": "Publication details",
-      "kind": "opening",
-      "source": "docs/publication/whole-book-order-preview/integration-2026-11-22/before-book.pdf",
+      "label": "Contents",
+      "kind": "contents",
+      "source": "docs/publication/whole-book-order-preview/navigation-polish-2026-11-22/updated-native.pdf",
       "sourcePage": 4,
       "pdfPage": 4,
       "changes": [
-        "Remove measurement-edition prefix from publication details; retain metadata placeholder"
+        "Approved page replacement"
       ],
-      "image": "integration-2026-11-22/pages/page-004.jpg"
+      "image": "navigation-polish-2026-11-22/pages/page-004.jpg",
+      "approval": "docs/publication/overnight-2026-11-19/openings/contents-no-category-colours/swapped-headers/APPROVAL.json",
+      "previousFolio": 4,
+      "priorSource": {
+        "source": "output/pdf/contents-no-category-colours/swapped-headers/Vegetable-Guru-Contents-No-Category-Colours.pdf",
+        "sourcePage": 1,
+        "approval": "docs/publication/overnight-2026-11-19/openings/contents-no-category-colours/swapped-headers/APPROVAL.json"
+      },
+      "previousPresentationSource": {
+        "source": "docs/publication/whole-book-order-preview/title-copyright-integration-2026-11-22/before-book.pdf",
+        "sourcePage": 6
+      },
+      "presentationUpdate": "docs/publication/whole-book-order-preview/interior-six-fixes-2026-11-22/SOURCE.json",
+      "priorPolishSource": {
+        "source": "docs/publication/whole-book-order-preview/interior-six-fixes-2026-11-22/updated-native.pdf",
+        "sourcePage": 4
+      },
+      "navigationPolishSource": "docs/publication/whole-book-order-preview/navigation-polish-2026-11-22/SOURCE.json"
     },
     {
       "folio": 3,
-      "label": "Blank — places the contents on facing pages",
-      "kind": "blank",
-      "source": "docs/publication/whole-book-order-preview/integration-2026-11-22/before-book.pdf",
+      "label": "Contents — continued",
+      "kind": "contents",
+      "source": "docs/publication/whole-book-order-preview/navigation-polish-2026-11-22/updated-native.pdf",
       "sourcePage": 5,
       "pdfPage": 5,
-      "changes": [],
-      "image": "integration-2026-11-22/pages/page-005.jpg"
-    },
-    {
-      "folio": 4,
-      "label": "Contents",
-      "kind": "contents",
-      "source": "output/pdf/contents-no-category-colours/swapped-headers/Vegetable-Guru-Contents-No-Category-Colours.pdf",
-      "sourcePage": 1,
-      "pdfPage": 6,
       "changes": [
         "Approved page replacement"
       ],
-      "image": "integration-2026-11-22/pages/page-006.jpg",
-      "approval": "docs/publication/overnight-2026-11-19/openings/contents-no-category-colours/swapped-headers/APPROVAL.json"
+      "image": "navigation-polish-2026-11-22/pages/page-005.jpg",
+      "approval": "docs/publication/overnight-2026-11-19/openings/contents-no-category-colours/swapped-headers/APPROVAL.json",
+      "previousFolio": 5,
+      "priorSource": {
+        "source": "output/pdf/contents-no-category-colours/swapped-headers/Vegetable-Guru-Contents-No-Category-Colours.pdf",
+        "sourcePage": 2,
+        "approval": "docs/publication/overnight-2026-11-19/openings/contents-no-category-colours/swapped-headers/APPROVAL.json"
+      },
+      "previousPresentationSource": {
+        "source": "docs/publication/whole-book-order-preview/title-copyright-integration-2026-11-22/before-book.pdf",
+        "sourcePage": 7
+      },
+      "presentationUpdate": "docs/publication/whole-book-order-preview/interior-six-fixes-2026-11-22/SOURCE.json",
+      "priorPolishSource": {
+        "source": "docs/publication/whole-book-order-preview/interior-six-fixes-2026-11-22/updated-native.pdf",
+        "sourcePage": 5
+      },
+      "navigationPolishSource": "docs/publication/whole-book-order-preview/navigation-polish-2026-11-22/SOURCE.json"
+    },
+    {
+      "folio": 4,
+      "label": "Blank — faces the introduction",
+      "kind": "blank",
+      "source": "docs/publication/whole-book-order-preview/interior-six-fixes-2026-11-22/updated-native.pdf",
+      "sourcePage": 6,
+      "pdfPage": 6,
+      "changes": [],
+      "image": "navigation-polish-2026-11-22/pages/page-006.jpg",
+      "previousFolio": 6,
+      "priorSource": {
+        "source": "docs/publication/whole-book-order-preview/integration-2026-11-22/before-book.pdf",
+        "sourcePage": 8,
+        "approval": null
+      },
+      "previousPresentationSource": {
+        "source": "docs/publication/whole-book-order-preview/title-copyright-integration-2026-11-22/before-book.pdf",
+        "sourcePage": 8
+      },
+      "presentationUpdate": "docs/publication/whole-book-order-preview/interior-six-fixes-2026-11-22/SOURCE.json"
     },
     {
       "folio": 5,
-      "label": "Contents — continued",
-      "kind": "contents",
-      "source": "output/pdf/contents-no-category-colours/swapped-headers/Vegetable-Guru-Contents-No-Category-Colours.pdf",
-      "sourcePage": 2,
+      "label": "Introduction",
+      "kind": "introduction",
+      "source": "docs/publication/whole-book-order-preview/title-copyright-integration-2026-11-22/before-book.pdf",
+      "sourcePage": 9,
       "pdfPage": 7,
       "changes": [
         "Approved page replacement"
       ],
-      "image": "integration-2026-11-22/pages/page-007.jpg",
-      "approval": "docs/publication/overnight-2026-11-19/openings/contents-no-category-colours/swapped-headers/APPROVAL.json"
+      "image": "navigation-polish-2026-11-22/pages/page-007.jpg",
+      "approval": "docs/publication/overnight-2026-11-19/openings/page-7-thumbnail-review/two-thumbnail-proof/APPROVAL.json",
+      "previousFolio": 7,
+      "priorSource": {
+        "source": "output/pdf/introduction-two-thumbnails/Vegetable-Guru-Introduction-Two-Thumbnails.pdf",
+        "sourcePage": 1,
+        "approval": "docs/publication/overnight-2026-11-19/openings/page-7-thumbnail-review/two-thumbnail-proof/APPROVAL.json"
+      }
     },
     {
       "folio": 6,
-      "label": "Blank — faces the introduction",
+      "label": "Blank — faces the combined vegetable guides opener",
       "kind": "blank",
-      "source": "docs/publication/whole-book-order-preview/integration-2026-11-22/before-book.pdf",
+      "source": "docs/publication/whole-book-order-preview/interior-six-fixes-2026-11-22/updated-native.pdf",
       "sourcePage": 8,
       "pdfPage": 8,
       "changes": [],
-      "image": "integration-2026-11-22/pages/page-008.jpg"
+      "image": "navigation-polish-2026-11-22/pages/page-008.jpg",
+      "previousFolio": 8,
+      "priorSource": {
+        "source": "docs/publication/whole-book-order-preview/integration-2026-11-22/before-book.pdf",
+        "sourcePage": 10,
+        "approval": null
+      },
+      "previousPresentationSource": {
+        "source": "docs/publication/whole-book-order-preview/title-copyright-integration-2026-11-22/before-book.pdf",
+        "sourcePage": 10
+      },
+      "presentationUpdate": "docs/publication/whole-book-order-preview/interior-six-fixes-2026-11-22/SOURCE.json"
     },
     {
       "folio": 7,
-      "label": "Introduction",
-      "kind": "introduction",
-      "source": "output/pdf/introduction-two-thumbnails/Vegetable-Guru-Introduction-Two-Thumbnails.pdf",
-      "sourcePage": 1,
+      "label": "Vegetable Guides",
+      "kind": "combined-guides-opening",
+      "source": "docs/publication/whole-book-order-preview/interior-six-fixes-2026-11-22/updated-native.pdf",
+      "sourcePage": 9,
       "pdfPage": 9,
       "changes": [
         "Approved page replacement"
       ],
-      "image": "integration-2026-11-22/pages/page-009.jpg",
-      "approval": "docs/publication/overnight-2026-11-19/openings/page-7-thumbnail-review/two-thumbnail-proof/APPROVAL.json"
-    },
-    {
-      "folio": 8,
-      "label": "Blank — faces the combined vegetable guides opener",
-      "kind": "blank",
-      "source": "docs/publication/whole-book-order-preview/integration-2026-11-22/before-book.pdf",
-      "sourcePage": 10,
-      "pdfPage": 10,
-      "changes": [],
-      "image": "integration-2026-11-22/pages/page-010.jpg"
-    },
-    {
-      "folio": 9,
-      "label": "Vegetable Guides",
-      "kind": "combined-guides-opening",
-      "source": "output/pdf/page-9-index-review/selected-thumbnails/Vegetable-Guru-Page-9-Index-Proposal.pdf",
-      "sourcePage": 1,
-      "pdfPage": 11,
-      "changes": [
-        "Approved page replacement"
-      ],
-      "image": "integration-2026-11-22/pages/page-011.jpg",
-      "approval": "docs/publication/overnight-2026-11-19/openings/page-9-index-review/selected-thumbnails/APPROVAL.json"
+      "image": "navigation-polish-2026-11-22/pages/page-009.jpg",
+      "approval": "docs/publication/overnight-2026-11-19/openings/page-9-index-review/selected-thumbnails/APPROVAL.json",
+      "previousFolio": 9,
+      "priorSource": {
+        "source": "output/pdf/page-9-index-review/selected-thumbnails/Vegetable-Guru-Page-9-Index-Proposal.pdf",
+        "sourcePage": 1,
+        "approval": "docs/publication/overnight-2026-11-19/openings/page-9-index-review/selected-thumbnails/APPROVAL.json"
+      },
+      "previousPresentationSource": {
+        "source": "docs/publication/whole-book-order-preview/title-copyright-integration-2026-11-22/before-book.pdf",
+        "sourcePage": 11
+      },
+      "presentationUpdate": "docs/publication/whole-book-order-preview/interior-six-fixes-2026-11-22/SOURCE.json"
     }
   ],
   "sectionStartFolios": [
-    9,
-    99,
-    147
+    7,
+    97,
+    145
   ],
   "sectionStartSides": [
     "recto",
@@ -146,6 +220,10 @@
   ],
   "vegetableFacingPairs": 44,
   "techniqueFacingPairs": [
+    [
+      146,
+      147
+    ],
     [
       148,
       149
@@ -189,23 +267,17 @@
     [
       168,
       169
-    ],
-    [
-      170,
-      171
     ]
   ],
   "blankFolios": [
-    3,
+    4,
     6,
-    8,
-    98,
-    176
+    96,
+    174
   ],
   "indexFolios": [
-    172,
-    175
+    170,
+    173
   ],
-  "integrationReceipt": "integration-2026-11-22/INTEGRATION-CHECKS.json",
-  "pdfPages": 180
+  "allRetainedPageSidesPreserved": true
 }

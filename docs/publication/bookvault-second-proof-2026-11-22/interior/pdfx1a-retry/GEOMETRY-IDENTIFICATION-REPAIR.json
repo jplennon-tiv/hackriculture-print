@@ -1,0 +1,19 @@
+{
+  "raw": "docs/publication/bookvault-second-proof-2026-11-22/interior/pdfx1a-retry/raw-Ghostscript-PDFX1a.pdf",
+  "rawSHA256": "44affa8858208e4dcb075df21d869d5402791af4ad8bfa2078856cba79cc3fe4",
+  "candidate": "output/pdf/header-placement-review-2026-11-23/Vegetable-Guru-Interior-PDFX1a.pdf",
+  "candidateSHA256": "c4e3299056c15f0c048fe1eb3e3b3cf2aabe1b792e904ffbdc32ebe20e6b9534",
+  "candidateBytes": 206405096,
+  "pageInstructionsUnchangedFromRawConversion": true,
+  "allFourPageBoxesExactFromSource": true,
+  "identification": {
+    "GTS_PDFXVersion": "PDF/X-1:2001",
+    "GTS_PDFXConformance": "PDF/X-1a:2001"
+  },
+  "reason": "Ghostscript PDF/X-1 mode emitted only a full-page ArtBox and no explicit TrimBox/BleedBox, and omitted the separate 2001 conformance key. Restore exact checked print geometry, remove ArtBox (mutually exclusive with TrimBox) and set the specific 2001 identification pair. No page instructions, fonts, artwork or profile are edited.",
+  "sources": [
+    "https://www.pwg.org/archives/sm/2003/000557.html",
+    "https://pdfa.org/twenty-years-of-pdf-x-part-ii/",
+    "https://wwws.loc.gov/preservation/digital/formats/fdd/fdd000124.shtml"
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "source": "output/pdf/bookvault-second-proof-2026-11-22/interior/Vegetable-Guru-Interior-Colour-Managed.pdf",
+  "sourceSHA256": "341ce74932cd81f6a8cc838b742ec7095e471d0ee7d9fcb7b247dd1b417e6b47",
+  "sample": "output/pdf/header-placement-review-2026-11-23/bleed/Vegetable-Guru-Practical-Headers-Bleed-Sample.pdf",
+  "sampleSHA256": "dd693db17fe1e75af9c15d5f477c70446b963bb9769a4a99f4f83cc53619bd76",
+  "sourceUnchanged": true,
+  "geometry": "191\u00d7246mm media,185\u00d7240mm trim,3mm bleed; two folios retained at original scale",
+  "colour": "Exact existing FOGRA39 OutputIntent retained; original CMYKartwork streams untouched; only matching native CMYKcream rectangle appended outside TrimBox.",
+  "diagnosis": "Original hero begins inside trim near the top edge. Symmetric continuation copied inward leaves into otherwise blank bleed. Full header hero was never duplicated in trim.",
+  "records": [
+    {
+      "folio": 17,
+      "samplePage": 1,
+      "fillCMYK8bit": [
+        0,
+        7,
+        29,
+        0
+      ],
+      "rectPDFPoints": [
+        0,
+        688.818898,
+        541.417323,
+        8.503937000000064
+      ],
+      "rectMediaMM": [
+        0,
+        243.00000012777775,
+        191.0000000583333,
+        2.999999997222245
+      ],
+      "sourceNativeContentSHA256": "ef33754009e2c49a1e1628bf93aa274f619a8321584bf83e6346927adbff1c72",
+      "originalContentBytesPreservedAsPrefix": true,
+      "allOriginalImageStreamsUnchanged": true,
+      "allFontResourcesUnchanged": true,
+      "trimBoxUnchanged": true,
+      "changeScope": "Only3mm top bleed outside TrimBox; no0.2mm trim repair or other edge changed.",
+      "renderDPI": 254,
+      "renderShape": [
+        2461,
+        1911,
+        3
+      ],
+      "changedPixels": 33424,
+      "changedPixelBoundsXYXY": [
+        0,
+        0,
+        1910,
+        30
+      ],
+      "changedPixelsInsideTrim": 0,
+      "changedPixelsBelowTopBleed": 0
+    },
+    {
+      "folio": 19,
+      "samplePage": 2,
+      "fillCMYK8bit": [
+        0,
+        7,
+        29,
+        0
+      ],
+      "rectPDFPoints": [
+        0,
+        688.818898,
+        541.417323,
+        8.503937000000064
+      ],
+      "rectMediaMM": [
+        0,
+        243.00000012777775,
+        191.0000000583333,
+        2.999999997222245
+      ],
+      "sourceNativeContentSHA256": "9dc12379442ebe012e17458824e61cd2624370b37828097e12bd4c395f98366f",
+      "originalContentBytesPreservedAsPrefix": true,
+      "allOriginalImageStreamsUnchanged": true,
+      "allFontResourcesUnchanged": true,
+      "trimBoxUnchanged": true,
+      "changeScope": "Only3mm top bleed outside TrimBox; no0.2mm trim repair or other edge changed.",
+      "renderDPI": 254,
+      "renderShape": [
+        2461,
+        1911,
+        3
+      ],
+      "changedPixels": 33381,
+      "changedPixelBoundsXYXY": [
+        0,
+        0,
+        1910,
+        30
+      ],
+      "changedPixelsInsideTrim": 0,
+      "changedPixelsBelowTopBleed": 0
+    }
+  ],
+  "status": "Focused sample prepared and exact trim pixel comparison passed; author review pending."
+}
