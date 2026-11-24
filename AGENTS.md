@@ -37,10 +37,10 @@ useful content and accepted choices. Compare the new proof with that source as
 well as checking fit. Record intentional omissions/replacements; do not silently
 substitute a new design because the trim or binding changed. The compact cover
 choice and working master are owned by the current handover; follow its selected
-cream Version 1-1 development. G2/B5 and the physical-proof adaptation are retained
+cream Version 1-1 development. G2/B5 and the first-proof cover adaptation are retained
 historical references, not the current front. Cover C guides colour/style only.
-Preserve the approved compact contents/how-to and their A4 source designs;
-replacement artwork in the rough preview remains proposed. Keep all approved A4
+Preserve the approved compact openings and their A4 source designs;
+use the current handover and asset registry for installed approvals and new proposals. Keep all approved A4
 originals intact. Excluding A4-sized PDFs and old folios from compact exports
 does not exclude reusing those designs and explanations.
 

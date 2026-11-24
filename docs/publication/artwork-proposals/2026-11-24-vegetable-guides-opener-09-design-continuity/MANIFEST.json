@@ -1,0 +1,102 @@
+{
+  "date": "2026-11-24",
+  "status": "John selected A for further separate design experiments; no production integration",
+  "calendar": "Parked at John's request",
+  "opener_seed": "9A plus B with contents moved 4 mm left",
+  "guide_seed": "Exact ordered interior, physical pages 8-9; native reading-book pages 10-11 retained for editable reference",
+  "concepts": [
+    {
+      "code": "A",
+      "title": "A quiet family resemblance",
+      "subtitle": "Angled heading, terminal dot and rounded dark panel. Guide pages unchanged.",
+      "description": "The smallest step: borrow the guide title angle and soft panel corners while keeping the photographic drama."
+    },
+    {
+      "code": "B",
+      "title": "Bring the pale paper into the photograph",
+      "subtitle": "Cream contents card with green lettering. Guide pages unchanged.",
+      "description": "The pale card echoes the guides' readable, softly rounded information panels. My preferred bridge."
+    },
+    {
+      "code": "C",
+      "title": "Give the opener a guide-style heading",
+      "subtitle": "Cream heading band above the full-width photograph. Guide pages unchanged.",
+      "description": "The strongest connection without editing the guides. A quieter opener, with less uninterrupted photograph."
+    },
+    {
+      "code": "D",
+      "title": "A shared title ribbon",
+      "subtitle": "A bolder experiment: the opener and both guide headings share a dark ribbon.",
+      "description": "Tests a small change to guide headings only. Illustrations, colour families, advice, diagrams and body layout stay in place."
+    }
+  ],
+  "photo_pixels": [
+    1105,
+    1423
+  ],
+  "effective_photo_ppi": 146.93,
+  "production_ready": false,
+  "checks": {
+    "four_distinct_opener_designs": true,
+    "all_44_crop_names_and_folios_preserved": true,
+    "A_B_C_guide_content_streams_unchanged": true,
+    "D_changes_only_guide_title_bands": true,
+    "media_mm": [
+      191,
+      246
+    ],
+    "trim_mm": [
+      185,
+      240
+    ],
+    "bleed_mm": 3
+  },
+  "files": {
+    "assets/ordered-artichoke-p8-9.pdf": {
+      "sha256": "fc223d0810818ec21d15a37e3e6015eca3bc15f39a13cc64e9da75c7cf89a86b",
+      "bytes": 3265235
+    },
+    "assets/native-artichoke-p8-9.pdf": {
+      "sha256": "07b04245006b9c44ed639754c70cad52d172e169337cd75e3d9d8cd08c3c9a90",
+      "bytes": 1667781
+    },
+    "assets/Nunito-Bold.ttf": {
+      "sha256": "497b2e968dddfb4e03e6e15906b3fc473f8e794960c3cbccbc92b60f884f919a",
+      "bytes": 31356
+    },
+    "assets/selected-opener.pdf": {
+      "sha256": "3f84557c5aca3fe727b6eaccbd2dcf021ea595863585b3c2eb778c8e42cf719a",
+      "bytes": 5349300
+    },
+    "assets/Nunito.ttf": {
+      "sha256": "f58f79cf28de1d86202295e0305ccfd12df9cc4816d9af97a810ace35564c5aa",
+      "bytes": 7424
+    },
+    "assets/09-leeks-native.png": {
+      "sha256": "9bbface5b946c7e128a645f8ff48e8e619c31510ee45bd84a1dcc71354ee5231",
+      "bytes": 2843527
+    },
+    "assets/Lilita.ttf": {
+      "sha256": "0a7ebafdcf666fbc2d23fdf44a722b3731d4d192f0b7450dbbcf9db652a7e8a1",
+      "bytes": 22856
+    },
+    "Vegetable-Guru-Continuity-Openers.pdf": {
+      "sha256": "8137e33901102ae71241ba4991a2269ecb17d2de7f972a2bdca25e270787f736",
+      "bytes": 21295696
+    },
+    "Vegetable-Guru-Continuity-Page-Proofs.pdf": {
+      "sha256": "6a8c0119b72c4c0c3fbd55a6670d865358dd4fecb660a313a8fec42de8441dcb",
+      "bytes": 37021213
+    },
+    "Vegetable-Guru-Continuity-Studies.pdf": {
+      "sha256": "05f3c99cc06e642c81d2eba47c056691fde6f76201a904e94af9b602cdfcba12",
+      "bytes": 45051645
+    }
+  },
+  "selection": {
+    "option": "A",
+    "date": "2026-11-24",
+    "record": "SELECTION.json",
+    "next": "../2026-11-24-vegetable-guides-opener-10-ovals/README.md"
+  }
+}

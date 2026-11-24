@@ -1,0 +1,78 @@
+{
+  "date": "2026-11-23",
+  "status": "ordered_by_john_user_confirmed",
+  "confirmation_source": "John's message in this conversation",
+  "user_statement": "I have placed the order - thanks for the hard work! I'd like to start a new session now to try out some new ideas whilst I wait from the print copy. Please bring all documentation up to date and write me a copy & paste handover script explaining where to find the project info. Thanks!",
+  "ordered_by": "John",
+  "order_reference": null,
+  "order_reference_note": "Not supplied; do not confuse with first-proof order BV3012332.",
+  "dispatch_or_delivery_date": null,
+  "amount_paid": null,
+  "payment_details": "Not supplied or independently checked.",
+  "agent_order_submitted": false,
+  "agent_payment_submitted": false,
+  "account_reopened_for_this_record": false,
+  "bookvault_title_id": "3822688",
+  "internal_sku": "9669932000017",
+  "edition": "Traditional measurements",
+  "specification": {
+    "interior_pages": 174,
+    "trim_mm": [
+      185,
+      240
+    ],
+    "bleed_mm": 3,
+    "inside_margin_mm": 17,
+    "outside_margin_mm": 8,
+    "interior_paper": "150 gsm coated",
+    "cover_board": "standard 250 gsm Cover Board",
+    "lamination": "matt",
+    "binding": "perfect-bound paperback",
+    "printing": "standard inkjet, full colour"
+  },
+  "recorded_proof_files": [
+    {
+      "role": "interior",
+      "path": "output/pdf/bookvault-quality-restored-2026-11-23/Vegetable-Guru-Interior-Original-Margins.pdf",
+      "bytes": 284742266,
+      "sha256": "3a71d0011d7d12f29a13ce35f94f0068b5e3cc798d24a68a5a4d6cf07903fb59",
+      "local_bytes_reverified_on": "2026-11-23",
+      "supplier_status_previously_observed": "Approved"
+    },
+    {
+      "role": "cover",
+      "path": "output/pdf/bookvault-second-proof-2026-11-22/cover/Vegetable-Guru-Second-Proof-Cover-CMYK.pdf",
+      "bytes": 119456583,
+      "sha256": "a37c9d4216c14643bd7bb46c9fd066bf12fe400a6301365e01b997a8e0821a8e",
+      "local_bytes_reverified_on": "2026-11-23",
+      "supplier_status_previously_observed": "Approved"
+    }
+  ],
+  "file_binding_basis": "The last observed supplier-approved pair and the file John reviewed immediately before confirming his order. No new order receipt or checkout record was inspected.",
+  "preservation": "Retain these exact files as the second-proof comparison baseline. Keep native/editable masters and all approved source assets. New ideas use separate proposal files; do not overwrite or re-upload the ordered pair.",
+  "next_session": "Explore John's next ideas in separate working proofs while awaiting the physical copy. No automatic rebuild, upload, order, cleanup or resume of parked experiments.",
+  "physical_proof_watchpoints": [
+    "Cover and spine registration, author-lettering clearance and laminate/board feel.",
+    "Guide and Troubles header edges, circles and bleed.",
+    "Small lettering, fine diagrams, pale mesh and readability at the original gutter.",
+    "Compost photographs at 154–155, greenhouse at 168, dark cover photographs and cream consistency.",
+    "Printed page count, folios, contents/index references, end blanks and any manufacturer-added pages."
+  ],
+  "deferred": [
+    "Final copyright year, registered ISBN/barcode and cover price before retail publication.",
+    "Optional thicker-cover enquiry.",
+    "Physical acceptance of this second proof.",
+    "Metric full-book assembly and any retail/distribution/sales activation."
+  ],
+  "handover_documentation_checks": {
+    "date": "2026-11-23",
+    "files_updated_or_created": 18,
+    "local_links_checked": 923,
+    "broken_local_links": 0,
+    "git_diff_whitespace_check": "passed",
+    "json_and_fence_checks": "passed",
+    "production_file_hashes_unchanged": true,
+    "code_data_or_pdf_edits": false,
+    "application_tests_or_book_generation": "Not needed; documentation/status updates only."
+  }
+}

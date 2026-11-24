@@ -1,0 +1,55 @@
+{
+  "date": "2026-11-24",
+  "task": "Dedicated 4x upscale of selected folio 7 leek photograph",
+  "authorization": "John explicitly authorised the credit-consuming 4x test; screenshot supplied in current conversation and prior context recovered. No subscription purchase authorised.",
+  "source_path": "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/artwork-proposals/2026-11-24-vegetable-guides-opener-10-ovals/assets/09-leeks-native.png",
+  "source_pixels": [
+    1105,
+    1423
+  ],
+  "target_pixels": [
+    4420,
+    5692
+  ],
+  "upload": {
+    "asset_id": "b0104e0723c64949b3df2615debc3176",
+    "file_id": "file_0000000071108210898063b5f04536bb",
+    "name": "09-leeks-native.png",
+    "mime_type": "image/png",
+    "size_bytes": 2843527,
+    "status": "processing"
+  },
+  "request": {
+    "image": {
+      "type": "asset_id",
+      "asset_id": "b0104e0723c64949b3df2615debc3176"
+    },
+    "scale": 4,
+    "engine": "auto",
+    "enhanceFaces": false
+  },
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"error\": true, \"message\": \"Upscaling is available on paid plans. See plans: https://app.heygen.com/home?surface=codex_plans&utm_source=codex\", \"status_code\": 402, \"retryable\": false, \"error_code\": \"insufficient_credit\", \"plans_url\": \"https://app.heygen.com/home?surface=codex_plans&utm_source=codex\", \"doc_url\": \"https://developers.heygen.com/docs/error-codes#insufficient-credit\", \"next_steps\": \"Explain the allowance and any stated renewal, and include this link in your reply: [See plans](https://app.heygen.com/home?surface=codex_plans&utm_source=codex). Do not automatically retry or invent a reset time.\"}"
+      }
+    ],
+    "structuredContent": {
+      "error": true,
+      "message": "Upscaling is available on paid plans. See plans: https://app.heygen.com/home?surface=codex_plans&utm_source=codex",
+      "status_code": 402,
+      "retryable": false,
+      "error_code": "INVALID_ARGUMENT",
+      "plans_url": "https://app.heygen.com/home?surface=codex_plans&utm_source=codex",
+      "doc_url": "https://developers.heygen.com/docs/error-codes#insufficient-credit",
+      "next_steps": "Explain the allowance and any stated renewal, and include this link in your reply: [See plans](https://app.heygen.com/home?surface=codex_plans&utm_source=codex). Do not automatically retry or invent a reset time."
+    },
+    "isError": true
+  },
+  "status": "blocked_paid_plan_required",
+  "job_id": null,
+  "output_created": false,
+  "next_action": "Await John's subscription decision. Do not purchase, automatically retry, or re-upload. Reuse saved asset_id if John enables a paid plan and asks to continue.",
+  "preservation": "Approved original photo, selected page PDF and ordered production pair remain unchanged."
+}

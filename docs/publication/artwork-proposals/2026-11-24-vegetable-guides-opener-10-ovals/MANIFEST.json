@@ -1,0 +1,170 @@
+{
+  "date": "2026-11-24",
+  "status": "John selected option 3; folio 7 added in proposal 11; 300 dpi photo requirement remains pending",
+  "selected_parent": "../2026-11-24-vegetable-guides-opener-09-design-continuity/SELECTION.json",
+  "source_photo": "assets/09-leeks-native.png",
+  "source_title": "assets/selected-A.pdf",
+  "visual_shape_reference": "assets/troubles-reference-p98.pdf",
+  "calendar": "parked",
+  "guide_pages": "unchanged",
+  "title_angle_degrees": 3,
+  "title_sizes_pt": [
+    72,
+    84
+  ],
+  "contents_size_pt": 9.75,
+  "contents_position": "identical to selected A; first baseline124mm, columns64/124mm from media left",
+  "title_oval": {
+    "cx": 77,
+    "cy": 39,
+    "rx": 103,
+    "ry": 46,
+    "angle": 3
+  },
+  "contents_oval": {
+    "cx": 167,
+    "cy": 173,
+    "rx": 137,
+    "ry": 91,
+    "angle": 0
+  },
+  "variations": [
+    {
+      "id": 1,
+      "name": "A faint title oval",
+      "title_oval": {
+        "fill": "#153e2a",
+        "alpha": 0.34
+      },
+      "contents": "panel",
+      "contents_alpha": 0.84,
+      "contents_fill": "#153e2a",
+      "title_ink": "#ffffff",
+      "list_ink": "#ffffff",
+      "caption": "Title oval 34% opaque; selected dark panel retained."
+    },
+    {
+      "id": 2,
+      "name": "A pale title oval",
+      "title_oval": {
+        "fill": "#fff8e9",
+        "alpha": 0.82
+      },
+      "contents": "panel",
+      "contents_alpha": 0.84,
+      "contents_fill": "#153e2a",
+      "title_ink": "#173e2c",
+      "list_ink": "#ffffff",
+      "caption": "Title oval 82% opaque; green lettering on cream."
+    },
+    {
+      "id": 3,
+      "name": "A dark contents oval",
+      "title_oval": null,
+      "contents": "oval",
+      "contents_alpha": 0.84,
+      "contents_fill": "#153e2a",
+      "title_ink": "#ffffff",
+      "list_ink": "#ffffff",
+      "caption": "Contents oval 84% opaque; title stays open."
+    },
+    {
+      "id": 4,
+      "name": "A pale contents oval",
+      "title_oval": null,
+      "contents": "oval",
+      "contents_alpha": 0.92,
+      "contents_fill": "#fff8e9",
+      "title_ink": "#ffffff",
+      "list_ink": "#173e2c",
+      "caption": "Contents oval 92% opaque; green list on cream."
+    },
+    {
+      "id": 5,
+      "name": "Two translucent green ovals",
+      "title_oval": {
+        "fill": "#153e2a",
+        "alpha": 0.28
+      },
+      "contents": "oval",
+      "contents_alpha": 0.76,
+      "contents_fill": "#153e2a",
+      "title_ink": "#ffffff",
+      "list_ink": "#ffffff",
+      "caption": "Title 28% / contents 76% opaque; more photo visible."
+    },
+    {
+      "id": 6,
+      "name": "Pale title, dark contents",
+      "title_oval": {
+        "fill": "#fff8e9",
+        "alpha": 0.82
+      },
+      "contents": "oval",
+      "contents_alpha": 0.84,
+      "contents_fill": "#153e2a",
+      "title_ink": "#173e2c",
+      "list_ink": "#ffffff",
+      "caption": "Cream title oval and dark green contents oval."
+    }
+  ],
+  "media_mm": [
+    191,
+    246
+  ],
+  "trim_mm": [
+    185,
+    240
+  ],
+  "bleed_mm": 3,
+  "native_photo_pixels": [
+    1105,
+    1423
+  ],
+  "effective_ppi": 146.93,
+  "production_ready": false,
+  "photo_retouched": false,
+  "checks": {
+    "six_distinct_pages": true,
+    "exact_all_44_contents_names_and_folios": true,
+    "fonts_embedded": true,
+    "contents_text_inside_oval_with_3mm_inset": true,
+    "original_source_photo_hash_verified": true,
+    "visual_review": "All six inspected on actual rendered contact sheet; full-page 1, 3 and 5 inspected for title/list clarity and ellipse boundaries."
+  },
+  "files": {
+    "Vegetable-Guru-Oval-Studies.pdf": {
+      "bytes": 5337475,
+      "sha256": "8cd540e963e6b5d5d8bc04d24ba60ab511947badc035b19705424a9182b0e417"
+    },
+    "Vegetable-Guru-Oval-Contact-Sheet.jpg": {
+      "bytes": 1189914,
+      "sha256": "1d82c844518099e3edfbc9fb8bc137865533dfbcfbc39e27e76cfe504eb4120e"
+    },
+    "assets/selected-A.pdf": {
+      "bytes": 5324105,
+      "sha256": "933e7dfc9b5614b7b0b8afc442b1982a8c8d2946c1860dc79e15d21c02806af3"
+    },
+    "assets/Nunito-Bold.ttf": {
+      "bytes": 31356,
+      "sha256": "497b2e968dddfb4e03e6e15906b3fc473f8e794960c3cbccbc92b60f884f919a"
+    },
+    "assets/Nunito.ttf": {
+      "bytes": 7424,
+      "sha256": "f58f79cf28de1d86202295e0305ccfd12df9cc4816d9af97a810ace35564c5aa"
+    },
+    "assets/09-leeks-native.png": {
+      "bytes": 2843527,
+      "sha256": "9bbface5b946c7e128a645f8ff48e8e619c31510ee45bd84a1dcc71354ee5231"
+    },
+    "assets/troubles-reference-p98.pdf": {
+      "bytes": 1254622,
+      "sha256": "5b4742a2f5344118893dfdeae128f2a3ab4788c50ee8e72c6e7ecd75f89b7000"
+    },
+    "assets/Lilita.ttf": {
+      "bytes": 22856,
+      "sha256": "0a7ebafdcf666fbc2d23fdf44a722b3731d4d192f0b7450dbbcf9db652a7e8a1"
+    }
+  },
+  "selection_record": "SELECTION.json"
+}

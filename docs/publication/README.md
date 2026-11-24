@@ -1,6 +1,6 @@
 # Publication research and production evidence
 
-Documentation updated 19 October 2026; supplier research retains its stated dates.
+Documentation updated 23 November 2026; supplier research retains its stated dates.
 This document owns dated supplier research and cost
 assumptions. **Current scope, decisions, component status and next actions are
 maintained in [the handover](../handover/START-HERE.md).** Do not treat older
@@ -8,63 +8,23 @@ recommendations or quote specifications as a current work queue.
 
 ## Current proof and next session
 
-The [19 October production files](bookvault-print-ready/README.md) are uploaded and
-validated in Bookvault. John confirmed proof approval, then ordered and reported
-payment for **BV3012332**: one copy, **£12.58** including Royal Mail First Class.
-[Supplier checks and order evidence](bookvault-print-ready/SUPPLIER-CHECKS.json)
-identify the exact PDFs and review coverage. The order was last observed as
-**Created**; checkout estimated dispatch 28 October and delivery 29–30 October.
+**Second proof ordered by John, 23 November.** The [production record](bookvault-second-proof-2026-11-22/README.md) owns the exact supplier-approved 174-page interior and corrected cover. The [order confirmation](bookvault-second-proof-2026-11-22/ORDER-CONFIRMATION.json) records John's statement and retained file hashes; no new order reference or delivery date was supplied. Standard settings remain 185 × 240 mm, 150 gsm coated text, standard 250 gsm cover board, matt lamination and standard inkjet.
 
-Print design is on hold while John starts a new session in the sibling
-[`hackriculture` website project](../../../hackriculture/README.md), to make
-hackriculture.com a sales channel for the book. Use the [website handover](../handover/START-HERE.md#next-session--website-sales-channel)
-for source locations, assets and launch boundaries. The intended first route is
-an external Bookvault purchase link; no public listing or live buy link is active.
-The [19 October setup notes](bookvault-setup-2026-10-19/README.md) supersede older
-cost assumptions for this proof. Final price, metadata and publication approval
-remain open; ISBN purchase is deferred until after the physical proof.
+John wants the next session to explore **new ideas while waiting for the print copy**. Keep proposals separate from the ordered files and approved masters. Start with the [current handover](../handover/START-HERE.md) and [copy-and-paste brief](../handover/NEXT-SESSION.md). No repeated upload/conversion tests, catalogue regeneration, supplier account action or automatic restart of parked experiments is pending.
+
+The [19 October first-proof files](bookvault-print-ready/README.md) and order **BV3012332** are preserved as historical comparisons. John accepted that copy's paper, print quality, colours, weight and size. Its 168-page specification, cost and order number do not describe the second proof. The heavier-cover enquiry is deferred; final copyright/ISBN/barcode/price and retail approval remain later decisions. Book sales/distribution are inactive.
 
 ## Review files and source designs
 
-Start with the [current full preview](whole-book-order-preview/REVIEW.html):
-**168 interior pages plus four cover leaves (172 PDF pages), imperial**.
-All approved reader edits, the expanded rotation spread, nutrient page and
-Growing Techniques order are integrated. John's 19 October update adds subsection
-headings and removes its two internal blank pages.
-Contents remain two simple illustrated pages; the numeric index is four pages
-at 164–167. All 44 vegetable guides remain two-page facing spreads.
-[Preview notes](whole-book-order-preview/README.md) own the current sources,
-page map and checks. This is a screen review, not a supplier upload.
+The [searchable reading book](whole-book-order-preview/REVIEW.html) is the Traditional measurements edition, **174 interior pages plus four cover-review leaves: 178 PDF pages**. It retains approved title/copyright C, photographic contents 2–3, Introduction 5, section openers 7/97/145, all 44 vegetable pairs and the four-page index at 170–173 (307 entries and 36 see references). The [book record and page map](whole-book-order-preview/README.md) identify all placements and checks. Older approval filenames retain their former folios.
 
-Approved components and historical proofs remain preserved separately:
+The reading PDF uses native/searchable type and older cover-review leaves; the ordered production pair has the final colour, cover, header-bleed and font-outline preparation. Use the production pair to inspect the arriving copy, and preserved native sources to develop new ideas. Do not upload the reading PDF.
 
-- [Four cultivation pages](topic-pages/cultivation-dig-no-dig/APPROVAL.json), now 155–158,
-  with later reordered digging instructions and headings retained.
-- [Original thirteen-page expansion](topic-pages/techniques-expansion/COLLECTION-APPROVAL.json),
-  with later approved reader edits layered into the current book. Its original
-  one-page rotation is superseded by [Crop rotation & planning](topic-pages/crop-rotation-planning/APPROVAL-2026-10-18.json), now 148–149.
-- [Nutrient cycles](topic-pages/nutrient-cycles/APPROVAL-2026-10-18.json), now 147,
-  and [approved section order](techniques-sequence/APPROVAL-2026-10-18.json).
-- [Original index approval](book-index/APPROVAL.json); its historical T/C labels
-  remain only in the frozen standalone proof. Current index has 286 entries.
-- [Original compact contents/how-to](vegetable-guru-entry-pages/REVIEW.html),
-  retained alongside the accepted two-page contents and combined opener at 9.
+The [asset registry](../assets/README.md) identifies approved component sources and exact manifests. The [corrected cover archive](cover-versions/version-1-1/print-resolution-review/PRESERVATION.md) preserves the approved gold/cream Version 1-1 design, genuine font curves, clearer spine lettering and all source layers. G2/B5 and the first-proof cover adaptation are historical. The photographic vegetable-header experiment is set aside; original guide and Troubles illustrations remain.
 
-The [asset registry](../assets/README.md) identifies exact approved sources.
-Editable opening/cover/index and section-opener copy lives in shared
-[book-layout JSON](../../../hackriculture-data/book-layout/README.md); topic copy
-stays in the resource library. Copy edits require affected proofs and explicit
-reassembly to update the full preview; they do not rewrite existing PDFs or
-raster cover lettering automatically. Use the [skill map](../handover/START-HERE.md#design-skills--use-before-design-work)
-and [shared-data skill](../../../hackriculture-data/.agents/skills/hackriculture-data/SKILL.md).
+Editable opening/cover/index words live in shared [book-layout JSON](../../../hackriculture-data/book-layout/README.md); use its [shared-data skill](../../../hackriculture-data/.agents/skills/hackriculture-data/SKILL.md) and guarded writer when that work is requested. The installed personal Introduction has its own [approved source](introduction-revision/README.md). Read the [skill map](../handover/START-HERE.md#design-skills--use-before-design-work) before design work. New proposals do not silently change approved components or the ordered PDFs.
 
-G2 Cream centre is selected for **The Vegetable Guru: Your at-a-glance growing
-companion**, without the count footer. B5 Off-centre collage is the preferred
-back: dark green, left blurb, angled torn-page snippets. The [production adaptation](bookvault-print-ready/README.md#cover-adaptation-to-review)
-now uses exact page crops, editable text and a 12 mm-spine wrap with John Lennon
-on the front and spine. It is being tested in the first proof. Cover C is an A4 approval
-and a colour/style reference only. The working price remains **£17.50**;
-Bookvault and direct Great British Bookshop links are the selected working route.
+The [23 November cleanup](../maintenance/pdf-cleanup-2026-11-23/README.md) removed 38 superseded diagnostic/intermediate PDFs (8.62 GB) and preserved current printer files, native sources, approved proofs and first-proof files. Its manifest is consumed. Dated research and prior quote scenarios below remain historical evidence.
 
 ### Earlier technical evidence
 

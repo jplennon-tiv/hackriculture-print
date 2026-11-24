@@ -1,6 +1,6 @@
 # Current complete book preview
 
-Updated **22 November 2026**. The contents, index and Troubles follow-up is installed. [Browse the book](REVIEW.html) · [browsing PDF](../../../output/pdf/whole-book-order-preview/Vegetable-Guru-Updated-Book-Review.pdf) · [full-resolution native PDF](../../../output/pdf/whole-book-order-preview/the-vegetable-guru-order-preview.pdf).
+Documentation updated **23 November 2026**; this screen-book assembly remains the checked **22 November** version. The contents, index and Troubles follow-up is installed. [Browse the book](REVIEW.html) · [browsing PDF](../../../output/pdf/whole-book-order-preview/Vegetable-Guru-Updated-Book-Review.pdf) · [full-resolution native PDF](../../../output/pdf/whole-book-order-preview/the-vegetable-guru-order-preview.pdf).
 
 The Traditional measurements edition remains **174 interior pages plus four cover leaves: 178 PDF pages**. Approved title/copyright C and the earlier removal of former pages 2–3 are retained. The previous books and original component proofs are preserved.
 
@@ -42,7 +42,7 @@ The latest follow-up passed complete pixel-region checks on both PDFs, exact con
 - [Verification and visual sheets](interior-six-fixes-2026-11-22/README.md#verification) · [navigation](NAVIGATION-PDF-CHECKS.json) · [sequence](SEQUENCE-CHECKS.json).
 - Native PDF approximately **840 MB**; browsing PDF approximately **167 MB**, with the original browsing image sizes and native type. No further downsampling was applied.
 
-The corrected complete cover wrap is separately approved and preserved; the current screen review keeps the earlier selected gold cover leaves. Supplier files, canonical gardening data, final metadata, bleed, spine/template work and full metric assembly are separate. Overall image production has not been declared complete, and the conditional print-colour reminder remains pending. This screen proof must not be uploaded as the print interior.
+The [second-proof production pair](../bookvault-second-proof-2026-11-22/README.md) has passed supplier validation and John confirmed the order on 23 November. It adds the completed production-colour preparation and header-bleed repair and uses the approved corrected cover. This searchable screen review keeps the earlier selected gold cover leaves and native lettering; it is a design/reading source, not the ordered print pair. The colour reminder is fulfilled. Preserve this book and its frozen build inputs; explore new ideas separately while awaiting the proof. Final retail metadata, full metric assembly and canonical gardening changes remain separate. Do not upload this 178-page screen proof as the print interior.
 
 ## Rebuild deliberately
 

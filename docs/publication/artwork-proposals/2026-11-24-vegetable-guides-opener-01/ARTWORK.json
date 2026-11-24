@@ -1,0 +1,158 @@
+{
+  "title": "Vegetable Guides — photographic section-opener contact sheet",
+  "date": "2026-11-24",
+  "status": "proposal_awaiting_john_selection",
+  "scope": "Six photographic directions for the Vegetable Guides section opener, current folio 7. Concept selection only; no book integration or supplier changes.",
+  "brief": "Contact sheets first; redraw selected ideas at full page size later. Large white section title anticipated. Existing contents treatment remains undecided.",
+  "tool": "built-in image_gen",
+  "review_file": "Vegetable-Guides-Contact-Sheet-02-Page-Proportions.png",
+  "target_page_mm": {
+    "width": 185,
+    "height": 240
+  },
+  "candidates": [
+    {
+      "number": 1,
+      "title": "The productive home garden",
+      "basis": [
+        "H44",
+        "J02"
+      ],
+      "note": "Summer development of actual garden setting. Bed/path/glasshouse relationships anchored to camera views."
+    },
+    {
+      "number": 2,
+      "title": "Summer at the allotment",
+      "basis": [
+        "A31"
+      ],
+      "note": "Summer development of 8 June 2026 view. Pale green shed is John's; brown shed is a neighbour's. New crop arrangement is a concept, not a factual photographic record."
+    },
+    {
+      "number": 3,
+      "title": "A modest basket harvest",
+      "basis": [
+        "photorealistic-vegetables guidance"
+      ],
+      "note": "New staged harvest concept; modest real-size vegetables and natural background."
+    },
+    {
+      "number": 4,
+      "title": "From plot to kitchen",
+      "basis": [
+        "photorealistic-vegetables guidance"
+      ],
+      "note": "New near-overhead harvest concept on weathered timber."
+    },
+    {
+      "number": 5,
+      "title": "John with a handful of harvest",
+      "basis": [
+        "FACE-FRONT",
+        "J02",
+        "H44"
+      ],
+      "note": "Summer olive T-shirt and shorts, bareheaded; holding carrots and a courgette."
+    },
+    {
+      "number": 6,
+      "title": "John among the leaves",
+      "basis": [
+        "FACE-FRONT",
+        "LOOKDOWN",
+        "J02",
+        "H44"
+      ],
+      "note": "Summer wardrobe; mandatory real lowered-profile sheet included in both generations."
+    }
+  ],
+  "source_context": [
+    {
+      "id": "H44",
+      "captured": "2024-05-31 05:38:48",
+      "role": "Home garden geometry and crop-height view."
+    },
+    {
+      "id": "A31",
+      "captured": "2026-06-08T16:41:09Z",
+      "role": "Allotment geometry."
+    },
+    {
+      "id": "J02",
+      "captured": "2026-07-12",
+      "role": "Body, summer clothes and second garden view."
+    },
+    {
+      "id": "FACE-FRONT",
+      "role": "Real photographic front likeness."
+    },
+    {
+      "id": "LOOKDOWN",
+      "role": "Real downward-profile camera comparison; illustrated panel is not the photographic identity source."
+    },
+    {
+      "id": "H31",
+      "captured": "2024-07-18 15:06:22",
+      "role": "Inspected for independent context but not attached to successful calls."
+    },
+    {
+      "id": "FACE-DOWN-BARE",
+      "role": "Inspected for independent likeness context but not attached to successful calls."
+    },
+    {
+      "id": "Allotment-Harvest.png",
+      "role": "Existing approved-style harvest benchmark inspected, not attached to successful calls."
+    }
+  ],
+  "generations": [
+    {
+      "revision": 1,
+      "file": "Vegetable-Guides-Contact-Sheet-01-Initial.png",
+      "source_file": "/Users/johnlennon/Documents/web_site/generated_images/exec-0df1a2e5-ecd3-44e5-b34a-5d6df99f554b.png",
+      "sha256": "1e63c112c8d289e0db9ef265908c505689f3f34155a4f636625ab6e4c18f9299",
+      "review": "Six directions produced, but photo panels too narrow for book proportions; retained as development evidence.",
+      "request": {
+        "prompt": "Use case: photorealistic-natural.\nCreate ONE beautifully clear photographic contact sheet for choosing a full-page section-opening image for the British gardening book The Vegetable Guru, section Vegetable Guides. This is an exploratory sheet, not a book cover or finished page. Six distinct photographic compositions, arranged in THREE COLUMNS and TWO ROWS, numbered 1–6 left to right across rows. Each photo is a tall PORTRAIT rectangle at the book's 185:240 proportions (about 0.771 width/height). Equal panels, narrow off-white outer margins and gutters. Small understated black numeral centred on a separate off-white strip BELOW each photograph. The ONLY text on the sheet is those six numerals. No titles, caption words, logos, badges or lettering within the photographs.\n\nReference roles:\nImage 1 (H44): REAL home garden view: long vegetable bed, blue hoops, paved path on right and greenhouse gable beyond. Preserve recognisable relationships; do not invent a grand landscaped estate. Camera reference, not a target to edit.\nImage 2 (A31): REAL allotment geometry, pale green shed and water butt, paving and planted strips. The brown shed is a neighbour's, not John's. Use for panel 2 only.\nImage 3: John's REAL front face for precise likeness, age, short greying receding hair and short grey beard.\nImage 4: mandatory lowered-profile comparison sheet; use the actual camera panels to keep his profile accurate when looking down. Do NOT reproduce the sheet or its illustrated panel. The hat and winter clothes are not to be copied: he is bareheaded in summer, using image 3 for hair.\nImage 5 (J02): REAL John in the garden for body/build, SUMMER WARDROBE and second angle on the working garden: olive short-sleeved T-shirt and olive shorts, no hat. Same outfit in panels 5 and 6. Omit microphone. Preserve natural mature proportions.\n\nShared photographic direction: convincing high-quality real-camera British garden editorial photography, soft summer daylight with gently warm colour, clear natural texture, believable depth, varied imperfect plants, healthy productive crops with occasional small leaf nibbles, no CGI or painted look. Natural, personal and inviting rather than staged advertising. Balanced exposure: luminous vegetables, rich green foliage, no harsh black shadows or artificially applied vignette.\nThese will later carry a large WHITE section title. Compose each photograph with a substantial naturally quiet mid-dark upper area (soft foliage, shaded background or weathered wood) that would support white lettering; do not add the lettering now. Keep faces, hands, harvest and other focal details below the upper quarter and comfortably away from outer/binding edges. Lowest 12% can be cropped or covered by a future contents strip without losing the main subject. Maintain enough natural surroundings, not excessive blurred black empty space.\n\n1 — THE PRODUCTIVE HOME GARDEN. No person. Portrait crop-height view along the real long garden bed towards its glasshouse, grounded in images 1 and 5. Mixed green and burgundy lettuce, chard and a few courgette leaves fill the lower two-thirds, varied sizes and modest gaps in dark cultivated soil, recognisable slab path at right, a glimpse of the greenhouse farther back. Frame towards the hedge so the top has calmer dark greenery instead of blank sky. Abundant but ordinary believable small productive garden; avoid a uniformly manicured display.\n\n2 — SUMMER AT THE ALLOTMENT. No person. A different portrait view along vegetable planting strips and modest climbing-bean canes at John's allotment using image 3. A foreground of naturally varied leafy vegetables and onions, bean foliage giving height, real paving leading towards the small pale green shed. Summer development from the reference is intentional. Keep the shed small and secondary; more foliage than structures, little or no bright sky. Living plants, modest rows with imperfect spacing, no masses of identical vegetables.\n\n3 — A MODEST BASKET HARVEST. No person. Intimate low three-quarter photograph of a small shallow worn wicker basket resting naturally on the edge of a garden slab beside the bed. A practical just-picked handful: three unequal carrots with some tops, one small courgette, a few red and orange tomatoes, one small beetroot and a little loose chard. Loose, asymmetric overlap, gravity and convincing contacts, not a huge perfect market display. Produce in the middle/lower part; soft real foliage above with quiet dark green space. Keep important produce out of the bottom strip.\n\n4 — FROM PLOT TO KITCHEN. No person. Near-overhead portrait still life on a worn grey-brown timber outdoor table: a few just-picked carrots with leafy tops, two drying red onions, three uneven tomatoes and a small loose handful of green beans. Uneven lengths, mild traces of soil only in root crevices, clean edible leaves and fruit, no dew sprayed everywhere. Natural casual asymmetry and some loose stems, not a flat-lay grid. Harvest clustered across middle and lower-middle; upper third mostly shaded textured timber with a few leaves entering from one side. Gentle side light makes this distinctly different from basket option 3. No kitchen props, bowls or cutlery.\n\n5 — JOHN WITH A HANDFUL OF HARVEST. Candid portrait, John standing in his real home vegetable garden, framed roughly from thighs upwards but placed lower in the overall image so there is foliage above his head for a title. Accurate face from image 3, build/outfit from image 5. A relaxed warm slight smile, hands naturally holding a modest bunch of mixed-size carrots and one small courgette near his waist. Show believable fingers and crop weight. Garden crops surround him; a small authentic greenhouse glimpse at side. No massive basket, studio pose or oversized vegetables. Keep head and hands well clear of edges.\n\n6 — JOHN AMONG THE LEAVES. Candid three-quarter slightly elevated portrait view of John crouched beside the real home garden bed, quietly checking a lettuce at crop height. His head is lowered and turned toward the plant, matching the real camera downward-profile reference 4 and likeness from image 3. Short natural grey beard following jaw down towards throat, lower lip ahead of chin, no projecting round or square beard, no invented youthful face. Same olive summer outfit as panel 5. One hand gently parts outer leaves; other rests naturally on his knee. Clearly readable practical action, natural anatomy. Main figure in middle/lower image, productive foliage and a little glasshouse structure behind, calm upper green area. No severed plant or knife.\n\nRender all six as finished-looking photographic IDEAS at contact-sheet scale. Strongly differentiated compositions, coherent colour and light. Do not create actual white titles, mini contents, page folios, inset images or decorative graphics. Keep the numerals outside each photo.",
+        "referenced_image_paths": [
+          "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/assets/garden-media-library/local-references/viewpoints-2026-11-19/H44.jpeg",
+          "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/assets/garden-media-library/local-references/viewpoints-2026-11-19/A31.jpg",
+          "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/skills/vegetable-guru-garden-photography/assets/likeness/face-front.png",
+          "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/skills/vegetable-guru-garden-photography/assets/john-lowered-profile-reference.png",
+          "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/assets/garden-media-library/wardrobe/J02-DJI_20260712121334_0062_D-8s.jpg"
+        ],
+        "transparent_background": false
+      }
+    },
+    {
+      "revision": 2,
+      "file": "Vegetable-Guides-Contact-Sheet-02-Page-Proportions.png",
+      "source_file": "/Users/johnlennon/Documents/web_site/generated_images/exec-11ec792c-9869-4fbf-ad36-3d6e25ffb357.png",
+      "sha256": "ddd23136fc640b06f83ce2fdb6d62f18b2990cdf273d0a909f398d9a267835b7",
+      "review": "Broader portrait panels close to page proportions; six numerals outside photographs. Concept sheet only, not measured print artwork.",
+      "request": {
+        "prompt": "Edit the FIRST IMAGE, the six-photo concept contact sheet. Preserve its six compositions, subject choices, natural photographic rendering and numbering order, but CORRECT THE CONTACT SHEET GEOMETRY.\n\nThe existing sheet has incorrectly skinny, tall photo panels. The requested deliverable is ONE NEAR-SQUARE LANDSCAPE contact sheet, THREE columns by TWO rows, approximately 1660 pixels WIDE by 1500 pixels HIGH. Every individual photograph must be the book page ratio 185:240 = 0.771 width to height, roughly 520 pixels WIDE by 675 pixels HIGH. Photos MUST be noticeably WIDER relative to height than in the original sheet. Expand/recompose the six photographs sideways naturally; no stretching or squashing people or plants. Narrow cream gutters and a little separate label space below each photo with ONLY the numerals 1, 2, 3 across top row and 4, 5, 6 across bottom row. No other text. Do not crop to produce skinny panels again. Overall sheet MUST be wider than it is tall.\n\nReference 1 is the EDIT TARGET and controls the six concepts and olive summer clothing.\nReference 2 is John's actual front face, preserve his real likeness.\nReference 3 is the actual required downward-profile reference sheet for figure 6. Use photographic panels only, no hat or winter jacket, no copying illustrated panel. Maintain short naturally tapered grey beard, lower lip in front of chin, mature natural face.\nReference 4 is the actual home garden angle for photo1 and geometry context for 5/6: greenhouse gable, long bed, slab path at right, blue hoops. It is a real site, don't redesign.\nReference 5 is the actual allotment camera reference for photo2: John's pale-green shed, black butt beside it, bean supports and paving. Brown shed belongs to neighbour. Preserve this setting.\n\n1: Natural productive garden bed, mixed green/burgundy lettuces, a little chard and courgette foliage, greenhouse beyond; balanced natural growth with gaps and variation.\n2: Bean supports and productive summer allotment, John's pale green shed small beyond. Natural small allotment with imperfect plants.\n3: Small wicker basket of a modest carrot/courgette/tomato/beetroot harvest, actual sizes and weights. Calm shaded foliage above.\n4: Carrots, red onions, tomatoes and beans loosely on weathered grey timber, maintain casual asymmetric overlap. Calm timber area above.\n5: John in olive summer T-shirt and olive shorts casually holding three carrots and small courgette, front likeness from reference2, natural slight smile, modest body, keep figure and hands fully within safe frame.\n6: John crouched by lettuce, olive summer clothes, looking down with accurate profile from reference3. Gently touch outer lettuce leaves with one hand, other hand on his knee. Show enough scene at right that arm/elbow are not cut off by outer edge.\n\nALL panels intended for full-page book section photographs, so arrange an unobtrusive naturally quieter darker upper quarter for later white title lettering. Keep important face/hand/harvest detail below this and above bottom 12%, at least 8% from side edges. Natural soft daylight, rich green, honest vegetables with varied shape. No fake vignette or excessive blur. No white titles now. This is a photographic concept sheet, not the printed book.\nPriority: deliver the CORRECT broad portrait proportions inside a LANDSCAPE overall sheet while preserving the established six directions.",
+        "referenced_image_paths": [
+          "/Users/johnlennon/Documents/web_site/generated_images/exec-0df1a2e5-ecd3-44e5-b34a-5d6df99f554b.png",
+          "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/skills/vegetable-guru-garden-photography/assets/likeness/face-front.png",
+          "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/skills/vegetable-guru-garden-photography/assets/john-lowered-profile-reference.png",
+          "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/assets/garden-media-library/local-references/viewpoints-2026-11-19/H44.jpeg",
+          "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/assets/garden-media-library/local-references/viewpoints-2026-11-19/A31.jpg"
+        ],
+        "transparent_background": false
+      }
+    }
+  ],
+  "checks": [
+    "Viewed actual site, likeness, profile, wardrobe and harvest references.",
+    "Inspected both generated contact sheets visually.",
+    "Copied original generated PNG bytes without alteration and verified matching SHA-256."
+  ],
+  "remaining_for_selected_image": [
+    "Redraw selected composition from original camera/likeness references at full page size.",
+    "Check precise setting geometry against second angle and plant/human anatomy at native resolution.",
+    "Refine upper title space, particularly in option 5; options 1/2 have busier backgrounds.",
+    "Test separate editable white typography and optional contents treatments only after image choice.",
+    "Verify exact final crop, bleed and print resolution before any later integration."
+  ],
+  "boundaries": "No source artwork, approved opener, ordered PDF, editable master, canonical JSON, book build, upload, order, cleanup, or parked experiment changed."
+}

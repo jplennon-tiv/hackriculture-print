@@ -1,0 +1,265 @@
+{
+  "date": "2026-11-24",
+  "status": "Layout proposals only; higher native resolution still required",
+  "brief": "Ranked candidates 21 then 9; full-bleed photographs with white Vegetable Guides title only.",
+  "trim_mm": [
+    185,
+    240
+  ],
+  "bleed_mm": 3,
+  "media_mm": [
+    191,
+    246
+  ],
+  "target_ppi": 300,
+  "minimum_pixels_at_300ppi": [
+    2256,
+    2906
+  ],
+  "native_artwork": [
+    {
+      "id": 21,
+      "rank": 1,
+      "file": "21-red-cabbage-native.png",
+      "sha256": "00e29d7c3e4835651ecc54e4b9510fb05691fb82ac726cfff3c1402e1cda685a",
+      "width": 1105,
+      "height": 1423,
+      "effective_ppi_full_bleed": 146.92764227642274,
+      "meets_300_ppi": false
+    },
+    {
+      "id": 9,
+      "rank": 2,
+      "file": "09-leeks-native.png",
+      "sha256": "9bbface5b946c7e128a645f8ff48e8e619c31510ee45bd84a1dcc71354ee5231",
+      "width": 1105,
+      "height": 1423,
+      "effective_ppi_full_bleed": 146.92764227642274,
+      "meets_300_ppi": false
+    }
+  ],
+  "font": {
+    "family": "Lilita One",
+    "weight": 400,
+    "source": "public/fonts/richer-a-1.woff2",
+    "sha256": "d2575d4fa3632580aafcbcdf6978b3b57e144b90cf5bd9c2c98194f28b869704"
+  },
+  "image_processing": "Native generated PNG bytes copied unchanged. Page placement crops a negligible strip to exact media aspect ratio. No source-image upsampling, retouching or colour conversion.",
+  "colour": "RGB layout proof. Future production conversion should reuse the exact approved ISOcoated_v2_300_eci.icc profile after artwork/layout approval. This is not a Bookvault upload file or a certified PDF/X file.",
+  "title_treatment": "Solid white native text; no gradient, outline, shadow, panel, subtitle, part number, contents or folio.",
+  "options": [
+    {
+      "code": "21A",
+      "arrangement": "Upper left / large stack"
+    },
+    {
+      "code": "21B",
+      "arrangement": "Top / centred single line"
+    },
+    {
+      "code": "21C",
+      "arrangement": "Lower right / compact stack"
+    },
+    {
+      "code": "9A",
+      "arrangement": "Upper left / large stack"
+    },
+    {
+      "code": "9B",
+      "arrangement": "Top / centred single line"
+    },
+    {
+      "code": "9C",
+      "arrangement": "Lower right / compact stack"
+    }
+  ],
+  "production_files": "Untouched; no book build, upload or order performed.",
+  "pdf_font": {
+    "source_pdf": "docs/publication/key-risk-title-case/font-donor.pdf",
+    "source_resource": "/F4",
+    "base_font": "/AAAAAA+LilitaOne",
+    "extracted_ttf_sha256": "0a7ebafdcf666fbc2d23fdf44a722b3731d4d192f0b7450dbbcf9db652a7e8a1",
+    "required_glyphs_present": true,
+    "font_embedding": "Native embedded TrueType subset"
+  },
+  "layout": [
+    {
+      "code": "21A",
+      "title": "Vegetable Guides",
+      "bounds_mm_from_bleed_bottom_left": [
+        20.0,
+        170.7178,
+        129.5248,
+        228.0
+      ]
+    },
+    {
+      "code": "21B",
+      "title": "Vegetable Guides",
+      "bounds_mm_from_bleed_bottom_left": [
+        34.3922,
+        205.874,
+        165.6078,
+        226.0
+      ]
+    },
+    {
+      "code": "21C",
+      "title": "Vegetable Guides",
+      "bounds_mm_from_bleed_bottom_left": [
+        82.6446,
+        19.0,
+        180.0,
+        70.5502
+      ]
+    },
+    {
+      "code": "9A",
+      "title": "Vegetable Guides",
+      "bounds_mm_from_bleed_bottom_left": [
+        20.0,
+        170.7178,
+        129.5248,
+        228.0
+      ]
+    },
+    {
+      "code": "9B",
+      "title": "Vegetable Guides",
+      "bounds_mm_from_bleed_bottom_left": [
+        34.3922,
+        205.874,
+        165.6078,
+        226.0
+      ]
+    },
+    {
+      "code": "9C",
+      "title": "Vegetable Guides",
+      "bounds_mm_from_bleed_bottom_left": [
+        82.6446,
+        19.0,
+        180.0,
+        70.5502
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "code": "21A",
+      "text": "Vegetable Guides",
+      "embedded_lilita": true,
+      "embedded_artwork_pixels": [
+        1105,
+        1423
+      ],
+      "media_mm": [
+        191,
+        246
+      ],
+      "trim_mm": [
+        185,
+        240
+      ],
+      "bleed_mm": 3
+    },
+    {
+      "code": "21B",
+      "text": "Vegetable Guides",
+      "embedded_lilita": true,
+      "embedded_artwork_pixels": [
+        1105,
+        1423
+      ],
+      "media_mm": [
+        191,
+        246
+      ],
+      "trim_mm": [
+        185,
+        240
+      ],
+      "bleed_mm": 3
+    },
+    {
+      "code": "21C",
+      "text": "Vegetable Guides",
+      "embedded_lilita": true,
+      "embedded_artwork_pixels": [
+        1105,
+        1423
+      ],
+      "media_mm": [
+        191,
+        246
+      ],
+      "trim_mm": [
+        185,
+        240
+      ],
+      "bleed_mm": 3
+    },
+    {
+      "code": "9A",
+      "text": "Vegetable Guides",
+      "embedded_lilita": true,
+      "embedded_artwork_pixels": [
+        1105,
+        1423
+      ],
+      "media_mm": [
+        191,
+        246
+      ],
+      "trim_mm": [
+        185,
+        240
+      ],
+      "bleed_mm": 3
+    },
+    {
+      "code": "9B",
+      "text": "Vegetable Guides",
+      "embedded_lilita": true,
+      "embedded_artwork_pixels": [
+        1105,
+        1423
+      ],
+      "media_mm": [
+        191,
+        246
+      ],
+      "trim_mm": [
+        185,
+        240
+      ],
+      "bleed_mm": 3
+    },
+    {
+      "code": "9C",
+      "text": "Vegetable Guides",
+      "embedded_lilita": true,
+      "embedded_artwork_pixels": [
+        1105,
+        1423
+      ],
+      "media_mm": [
+        191,
+        246
+      ],
+      "trim_mm": [
+        185,
+        240
+      ],
+      "bleed_mm": 3
+    }
+  ],
+  "pdf_sha256": "b08436c262e76ae73b90b9449b02c209b9f3d3d043434795784d1ccfd7ff3b76",
+  "readiness": {
+    "layout_review": true,
+    "native_300ppi_artwork": false,
+    "production_colour_conversion": false,
+    "book_integration": false,
+    "supplier_upload": false
+  }
+}

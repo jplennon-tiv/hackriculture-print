@@ -108,7 +108,7 @@
       "path": "output/pdf/header-placement-review-2026-11-23/Vegetable-Guru-Interior-PDFX1a.pdf",
       "bytes": 206405096,
       "sha256": "c4e3299056c15f0c048fe1eb3e3b3cf2aabe1b792e904ffbdc32ebe20e6b9534",
-      "result": "Transfer completed, followed by Downloading File and Processing. Validation Results then displayed Failed: Font Embedding \u2014 1 key font was unembedded ('Unknown'). Size, Page Count and File Health passed. A separate fresh File Processing Logs view confirms terminal Failed for this exact filename.",
+      "result": "Transfer completed, followed by Downloading File and Processing. Validation Results then displayed Failed: Font Embedding — 1 key font was unembedded ('Unknown'). Size, Page Count and File Health passed. A separate fresh File Processing Logs view confirms terminal Failed for this exact filename.",
       "saved_history_result": "Failed",
       "upload_started_at": "2026-11-23T15:59:39.842424+00:00",
       "changes": "Genuine Ghostscript PDF/X-1 mode export of checked 197 MB PDF/X-3; original trim/bleed/crop/media boxes restored after exporter omitted trim and bleed, and explicit 2001 version/conformance pair completed. No further image resampling or recolouring.",
@@ -130,7 +130,7 @@
       "result": "Single transfer completed in the previous turn. John reported failure; a freshly reloaded File Processing Logs view now independently confirms terminal Failed for the exact Nunito-fractions filename, logged 23 November 16:40. No detailed rejection reason or final subcheck results were exposed in this history view.",
       "saved_history_result": "Failed",
       "upload_started_at": "2026-11-23T16:39:13.859584+00:00",
-      "changes": "Both \u215d characters replaced by 5/8 in existing Nunito Sans Regular; the two fallback resources removed. No imported fonts or image changes.",
+      "changes": "Both ⅝ characters replaced by 5/8 in existing Nunito Sans Regular; the two fallback resources removed. No imported fonts or image changes.",
       "checks": "interior/font-inventory/FRACTION-CHECKS.json; interior/font-inventory/INDEPENDENT-CHECKS.json",
       "last_observed_at": "2026-11-23T17:43:04.382230+00:00",
       "history_upload_time": "23/11/2026 16:40",
@@ -143,7 +143,7 @@
       "sha256": "9219a432b1be214452b48bbc68487c81f44affde17766ae56b28a7820a715243",
       "result": "John reported failure; saved File Processing Logs independently confirm terminal Failed for the exact filename. No detailed cause exposed.",
       "saved_history_result": "Failed",
-      "changes": "SemiBold replaced by a genuine static 700-weight instance of the original Nunito Sans on pages 1\u20133 only; preceding 5/8 cleanup retained.",
+      "changes": "SemiBold replaced by a genuine static 700-weight instance of the original Nunito Sans on pages 1–3 only; preceding 5/8 cleanup retained.",
       "checks": "interior/semibold-retry/CHECKS.json; interior/semibold-retry/INDEPENDENT-CHECKS.json",
       "upload_recorded_at": "2026-11-23T18:02:48.050860+00:00",
       "history_upload_time": "23/11/2026 18:03",
@@ -292,10 +292,10 @@
   ],
   "cover_upload_attempted": true,
   "new_files_uploaded": true,
-  "order_submitted": false,
-  "payment_submitted": false,
+  "order_submitted": true,
+  "payment_submitted": null,
   "handoff_url": "https://portal.bookvault.app/files/Upload/3822688",
-  "next_action": "John reviewed the selected file and will place the proof order himself. Await his order confirmation; no further agent upload, account approval, order or payment action is requested.",
+  "next_action": "Explore John's new ideas in separate proposal files while awaiting the physical proof. Preserve the exact ordered interior/cover. No upload, order, payment or cleanup is pending.",
   "screenshot": "docs/publication/bookvault-second-proof-2026-11-22/interior/quality-restored-option1/Bookvault-Restored-Quality-Approved.jpg",
   "extension_access": "John enabled local-file access; Chrome reconnected and both PDF selections/transfers succeeded.",
   "final_save_verified": true,
@@ -307,7 +307,7 @@
   },
   "failure_evidence": "interior/pdfx1a-retry/Bookvault-PDFX1a-font-error.jpg",
   "discarded_pdfx_trial": "Earlier exploratory Ghostscript trial remains rejected and was never uploaded. The new repaired PDF/X-3 derivative is a separate checked file; see interior/pdfx-retry/README.md.",
-  "status": "Selected restored-quality original-margin interior and unchanged cover Approved; final title approval/order remain",
+  "status": "Second proof ordered by John, confirmed in conversation on 23 November; awaiting physical copy",
   "cover_save_verified": true,
   "title_listing": "Historical observation: title remains under original 19 October record; replacement uploads do not create a second title. Current file state is owned by active_upload_handoff and File Processing Logs.",
   "support_lookup": {
@@ -337,13 +337,13 @@
   "local_font_cleanup": {
     "record": "interior/font-inventory/README.md",
     "added_variants": {
-      "Nunito Sans SemiBold": "Page 1 edition line and pages 2\u20133 contents entries",
-      "Lucida Grande Regular": "Only \u215d on pages 61 and 67"
+      "Nunito Sans SemiBold": "Page 1 edition line and pages 2–3 contents entries",
+      "Lucida Grande Regular": "Only ⅝ on pages 61 and 67"
     },
     "path": "output/pdf/header-placement-review-2026-11-23/Vegetable-Guru-Interior-Nunito-Fractions.pdf",
     "bytes": 206403322,
     "sha256": "a7af3c88d43d7671a7e4904269f30af350b9be9194ea2dd74c4ccc09b1435b12",
-    "changes": "Both \u215d characters replaced by 5/8 in existing Nunito Sans Regular; the two fallback resources removed. No imported fonts or image changes.",
+    "changes": "Both ⅝ characters replaced by 5/8 in existing Nunito Sans Regular; the two fallback resources removed. No imported fonts or image changes.",
     "checks": "interior/font-inventory/FRACTION-CHECKS.json; interior/font-inventory/INDEPENDENT-CHECKS.json",
     "supplier_upload": true,
     "causal_conclusion": "Bookvault Unknown font remains unidentified; this is a focused diagnostic candidate, not a proven fix.",
@@ -509,8 +509,8 @@
     "findings": [
       "Corrected complete cover and spine visible with supplier safety/bleed/spine overlays.",
       "Title page 1 appears on the right opposite an unlabelled white inside-cover area.",
-      "Guide 24\u201325 retains repaired Beetroot header, original margins, planting artwork and clean lettering.",
-      "Final index spread 172\u2013173 is present with bold main guide references.",
+      "Guide 24–25 retains repaired Beetroot header, original margins, planting artwork and clean lettering.",
+      "Final index spread 172–173 is present with bold main guide references.",
       "Final supplied page 174 is cream; next navigation is unavailable. An unlabelled white inside-cover area faces it.",
       "No extra barcode or padding pages appear in this virtual preview. This does not establish what manufacturing-only inserts may be added."
     ],
@@ -531,8 +531,10 @@
     "user_message": "Looks good! Are there a lot of orphaned PDF's lying around? Please clean up the old copies we won't be using going forwards. I'll place an order in Bookvault for the next print privew.",
     "selected_file_reviewed": true,
     "order_owner": "John",
-    "order_confirmation_observed": false,
-    "account_untouched_during_cleanup": true
+    "order_confirmation_observed": true,
+    "account_untouched_during_cleanup": true,
+    "order_confirmation_basis": "John's later message, not portal inspection",
+    "order_confirmation_record": "docs/publication/bookvault-second-proof-2026-11-22/ORDER-CONFIRMATION.json"
   },
   "local_pdf_cleanup": {
     "record": "docs/maintenance/pdf-cleanup-2026-11-23/README.md",
@@ -542,5 +544,11 @@
     "current_supplier_interior_and_cover_preserved": true,
     "historical_attempt_receipts_retained": true,
     "consumed": true
-  }
+  },
+  "order_submitted_by": "John",
+  "order_confirmation_source": "User statement in conversation; not a fresh portal/receipt observation",
+  "order_confirmation_record": "docs/publication/bookvault-second-proof-2026-11-22/ORDER-CONFIRMATION.json",
+  "agent_order_submitted": false,
+  "agent_payment_submitted": false,
+  "payment_status": "Not supplied or independently checked for the second order; agent submitted no payment."
 }

@@ -1,17 +1,17 @@
 # Second-proof colour preparation and review
 
-22 November 2026. **Production-colour preparation is complete.** The actual 174-page interior and complete cover wrap have been converted and checked using the exact accepted first-proof FOGRA39 / ISO Coated v2 300% profile. Five bounded photo corrections preserve useful shadow texture; three opener backgrounds now match the shared cream. No further colour change is indicated by the completed checks. Physical proof acceptance, metadata and supplier approval remain separate.
+22 November 2026. **Production-colour preparation is complete.** The actual 174-page interior and complete cover wrap have been converted and checked using the exact accepted first-proof FOGRA39 / ISO Coated v2 300% profile. Five bounded photo corrections preserve useful shadow texture; three opener backgrounds now match the shared cream. No further colour change is indicated by the completed checks. The later header/font derivatives retain this colour work; both final printer files passed supplier validation and John confirmed his second-proof order on 23 November. [Exact ordered pair](../ORDER-CONFIRMATION.json). Physical-proof acceptance and final retail metadata remain separate.
 
 [Open the seven-page production-colour viewing PDF](../../../../output/pdf/bookvault-second-proof-2026-11-22/colour/Vegetable-Guru-Production-Colour-Checks.pdf). It shows actual converted cover/pages, before-and-after photograph comparisons and the corrected openers. It is a compact viewing document, not a supplier file or physical print simulation.
 
-## Prepared files
+## Preserved colour baselines — 22 November
 
 | Production file | SHA-256 |
 |---|---|
 | [174-page interior](../../../../output/pdf/bookvault-second-proof-2026-11-22/interior/Vegetable-Guru-Interior-Colour-Managed.pdf) | `341ce74932cd81f6a8cc838b742ec7095e471d0ee7d9fcb7b247dd1b417e6b47` |
 | [Complete cover wrap](../../../../output/pdf/bookvault-second-proof-2026-11-22/cover/Vegetable-Guru-Second-Proof-Cover-CMYK.pdf) | `a37c9d4216c14643bd7bb46c9fd066bf12fe400a6301365e01b997a8e0821a8e` |
 
-The standard UK 185 × 240 mm, 150 gsm coated, perfect-bound, matt-laminated, standard inkjet proof choice is unchanged. [Production-colour findings](PRODUCTION-COLOUR.md) record official supplier guidance, exact profile, source handling and the evidence below.
+The interior in this table is the preserved colour baseline, superseded for printing by the [original-margin restored-quality derivative](../interior/quality-restored-option1/README.md). The cover remains the ordered file. The standard UK 185 × 240 mm, 150 gsm coated, perfect-bound, matt-laminated, standard inkjet proof choice is unchanged. [Production-colour findings](PRODUCTION-COLOUR.md) record official supplier guidance, exact profile, source handling and the evidence below.
 
 ## Completed checks and changes
 
@@ -27,7 +27,7 @@ Independent receipts: [interior](FINAL-INTERIOR-COLOUR-CHECKS.json), [cover](FIN
 
 The physical second proof should confirm deep texture in the five treated photos, pale netting/fleece on P162, even cream on blank and opener pages, and the warm cover under matt laminate. The software checks establish controlled preparation and visible screen results; they do not measure the press, paper or laminate, and no physical copy was examined here.
 
-**After John accepts the physical proof, keep these production PDFs, ICC profile, rendering intents and conversion recipe fixed for the print run.** Any later regeneration or colour change must be deliberate and checked.
+**Keep the exact pair identified by the order record, ICC profile, rendering intents and conversion recipe as the second-proof baseline.** After physical acceptance, use that accepted pair for any separately authorised print run; do not substitute the older interior colour baseline in the table above. Any later regeneration or colour change must be deliberate and checked.
 
 ## Earlier source review and reproduction
 

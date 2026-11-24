@@ -4,7 +4,7 @@ Use this inventory before adapting a book component. Inspect its approved source
 and preserve accepted artwork and explanation; record deliberate departures.
 Current status and next actions belong in the [handover](../handover/START-HERE.md).
 Approval manifests record decisions at their date; their historical pending
-items are not a current work queue. Do not overwrite hashed references.
+items are not a current work queue. Do not overwrite hashed references. John confirmed the second-proof order on 23 November; [its exact production pair](../publication/bookvault-second-proof-2026-11-22/ORDER-CONFIRMATION.json) is now the print-comparison baseline. New ideas remain separate proposals while awaiting the copy.
 
 The [book design system](../BOOK-DESIGN-SYSTEM.md) consolidates shared colour,
 type, geometry and section treatments, linking back here for source provenance.
@@ -20,7 +20,7 @@ references; edit the JSON and build separate working pages rather than overwriti
 them. Cover JSON supplies editable copy; the historical G2/B5 concept lettering is raster,
 while the separate 19 October production cover already has native type.
 
-**Introduction ownership:** the official page 7 is now [John's approved personal introduction](../publication/introduction-revision/APPROVAL.json), installed on 15 November. Its [copy, renderer and frozen proof](../publication/introduction-revision/README.md) supersede the earlier `why-grow` body. The [enhanced 1991 garden photograph](book-photographs/README.md) is a saved, approved book asset. Shared `book-layout/introduction.json` still belongs to the omitted older welcome/about-author composition; it is not this page's owner. The approved Guides/how-to page 9 is also separate. Preserve prior source proofs as historical evidence.
+**Introduction ownership:** the official Introduction is now at folio 5 (former page 7), using [John's approved personal introduction](../publication/introduction-revision/APPROVAL.json), installed on 15 November. Its [copy, renderer and frozen proof](../publication/introduction-revision/README.md) supersede the earlier `why-grow` body. The [enhanced 1991 garden photograph](book-photographs/README.md) is a saved, approved book asset. Shared `book-layout/introduction.json` still belongs to the omitted older welcome/about-author composition; it is not this page's owner. The approved Guides index/calendar opener is at folio 7 (former page 9) and has its own source. Preserve prior source proofs as historical evidence.
 
 ## Section opener proposals
 
@@ -93,7 +93,7 @@ text-only two-column composition. Editable words remain in shared
 `book-layout/index.json`. The current whole-book derivative has numeric folios
 at 170–173; historical T/C references remain only in the preserved standalone
 proof. It includes the reader-edit and nutrient terms plus 11 Netting/Supports
-entries: 297 entries and 35 see references. Source artwork and frozen proofs remain unchanged.
+entries; the latest installed index has 307 entries and 36 see references, with main vegetable-guide ranges bold. Source artwork and frozen proofs remain unchanged.
 
 ## Current section and reader-edit integration
 
@@ -131,7 +131,7 @@ and [PDF](../../output/pdf/topic-pages/netting-revised-draft.pdf). Current folio
 nine placed illustrations and two-page layout; [exact source hashes](../publication/topic-pages/plant-protection-supports/supports/APPROVAL.json)
 freeze its [source PDF](../../output/pdf/topic-pages/supports-revised-draft.pdf).
 Supports occupies 164–165. Both are integrated, with source bodies and artwork
-preserved; the ordered production PDFs remain the earlier physical-proof baseline.
+preserved in the historical source proofs. The later photographic revisions and current placements are in the [whole-book record](../publication/whole-book-order-preview/README.md); the newly ordered second-proof pair is separate from the first-proof baseline.
 
 The entire [thirteen-page expansion](../publication/topic-pages/techniques-expansion/REVIEW.html) is approved as complete on 12 October, including its final copy and Organic-second order. The [collection approval](../publication/topic-pages/techniques-expansion/COLLECTION-APPROVAL.json) preserves the final sources and both-unit proofs.
 
@@ -242,7 +242,7 @@ planting assets remain. Git holds superseded versions.
 
 ## Current cover reconstruction sources
 
-**22 November approved cover:** the [corrected native-font wrap and component archive](../publication/cover-versions/version-1-1/print-resolution-review/PRESERVATION.md) are the current approved design. They preserve the high-resolution harvest layers, finer wood, clean font outlines, protected rear photos and revised spine positions. The earlier masters below remain historical sources; book installation and supplier geometry are separate.
+**22 November approved cover:** the [corrected native-font wrap and component archive](../publication/cover-versions/version-1-1/print-resolution-review/PRESERVATION.md) are the current approved design. They preserve the high-resolution harvest layers, finer wood, clean font outlines, protected rear photos and revised spine positions. The [ordered second-proof cover](../publication/bookvault-second-proof-2026-11-22/cover/README.md) adapts these exact panels to verified supplier geometry and FOGRA39 colour. The earlier masters below remain historical sources; the reading book still uses earlier cover-review leaves.
 
 The [cover-source register](cover-sources/README.md) owns the source map for the
 numbered front covers 1–6, 6-1 and 6-2, retained 4a trials, their original photos

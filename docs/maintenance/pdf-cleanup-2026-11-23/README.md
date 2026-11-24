@@ -1,6 +1,6 @@
 # Local PDF cleanup — 23 November 2026
 
-Completed at John's request after he reviewed the selected second-proof file. **38 obsolete PDFs removed, totalling 8,618,495,658 bytes (8.62 GB).** No Bookvault account action, order or payment was performed. John said he will place the proof order himself; his order confirmation has not yet been recorded.
+Completed at John's request after he reviewed the selected second-proof file. **38 obsolete PDFs removed, totalling 8,618,495,658 bytes (8.62 GB).** No Bookvault account action, order or payment was performed during cleanup. John subsequently confirmed that he placed the order himself; see the [second-proof order record](../../publication/bookvault-second-proof-2026-11-22/ORDER-CONFIRMATION.json).
 
 This is a completed cleanup, not a reusable deletion plan. The [manifest](MANIFEST.json) is consumed. The [deletion journal](DELETION-JOURNAL.json) records each removed file and its SHA-256; [verification](COMPLETION.json) records preservation checks. Historical conversion, upload and diagnostic receipts retain their original paths and hashes as evidence, even where the disposable PDF has been retired.
 

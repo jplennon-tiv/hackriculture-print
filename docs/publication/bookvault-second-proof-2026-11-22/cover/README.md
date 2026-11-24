@@ -4,7 +4,7 @@
 
 ## Colour-managed proof derivative
 
-Use [Vegetable-Guru-Second-Proof-Cover-CMYK.pdf](../../../../output/pdf/bookvault-second-proof-2026-11-22/cover/Vegetable-Guru-Second-Proof-Cover-CMYK.pdf) for the next production checks. It is one **388.006 × 246 mm** page with a **12.006 mm spine** and **3 mm outer bleed**. See the [full-wrap soft proof](final-cmyk-wrap.jpg) and [technical colour checks](COLOUR-CHECKS.json).
+Use [Vegetable-Guru-Second-Proof-Cover-CMYK.pdf](../../../../output/pdf/bookvault-second-proof-2026-11-22/cover/Vegetable-Guru-Second-Proof-Cover-CMYK.pdf) as the preserved ordered-cover baseline. John confirmed the second-proof order on 23 November; [order record](../ORDER-CONFIRMATION.json). It is one **388.006 × 246 mm** page with a **12.006 mm spine** and **3 mm outer bleed**. See the [full-wrap soft proof](final-cmyk-wrap.jpg) and [technical colour checks](COLOUR-CHECKS.json).
 
 The exact **ISO Coated v2 300% (ECI), FOGRA39** profile used by the accepted first proof is embedded as the output intent. Non-type artwork is flattened at 600 dpi through colour-managed Poppler, honouring its embedded source profiles and compositing into explicit sRGB. LittleCMS applies relative colourimetric conversion to the exact historical profile. There is **no remaining live transparency or RGB painting**. This is not a claim of certified PDF/X conformance.
 
@@ -21,7 +21,7 @@ The measured peak ink coverage is 300.784%, the small 8-bit quantisation excess 
 - [Full-wrap preview](../../../../output/pdf/bookvault-second-proof-2026-11-22/cover/Vegetable-Guru-Second-Proof-Cover-Preview.png), [spine detail](spine-detail.png), [ribbon/bleed detail](front-ribbon-bleed-detail.png).
 - [Source and preservation checks](CHECKS.json), [supplier geometry evidence](SUPPLIER-GEOMETRY.json), [builder](build.py).
 
-The precise spine comes from the fresh Bookvault-generated URL `v4_PerfectBound_Cover_240_185_12.006.pdf`, supplied by the parent agent's live 174-page quote. The template was visible in the browser, with printed diagram labels rounded to 12 mm and 388 × 246 mm, but local download was unavailable. **Exact comparison with the template's local MediaBox remains pending**; no downloaded-template hash is invented. A future run can use `--template <downloaded.pdf>` instead of the explicit geometry record.
+The precise spine comes from the fresh Bookvault-generated URL `v4_PerfectBound_Cover_240_185_12.006.pdf` for the 174-page quote. The initial browser-only template was followed on 23 November by the [downloaded account template](../templates/Bookvault-Account-Cover-174p-2026-11-23.pdf) and [completed geometry comparison](../templates/TEMPLATE-RECORD.json). The template MediaBox is 388.000169 × 246.000058 mm with a rounded 12 mm spine label; the prepared wrap is under 0.01 mm wider. Its exact checked bytes were retained and passed supplier validation. No template comparison or cover upload is pending.
 
 The front's actual font outlines and the rear's native lettering remain native PDF content. Both outer panel streams are byte-exact. All sixteen rear JPEG streams retain their exact original encoded bytes. The 12.5 mm provisional spine background is scaled only horizontally to 12.006 mm, while the title/author retain their approved font sizes, tracking and vertical centres at 90/140 mm below the top. The author stays clear of the leaf shadow.
 
@@ -33,9 +33,9 @@ The actual full-wrap PDF, enlarged spine and ribbon/bleed corner were visually i
 
 The native file retains RGB colour and transparency and is the untouched preservation baseline for the finished colour derivative. The full-wrap and enlarged lettering/spine views have been visually checked. A same-sampling 600 dpi comparison verifies the separated non-type artwork against the actual approved-layout native PDF; source front transparency grouping is retained during rendering before flattening. This is distinct from the retained 254 dpi diagnostic, where differently sampled wood grain and photograph edges naturally differ. The final figures and hashes are in [ART-PRESERVATION-600DPI.json](ART-PRESERVATION-600DPI.json) and [COLOUR-CHECKS.json](COLOUR-CHECKS.json).
 
-**Still separate:** final downloaded supplier-template MediaBox comparison, ISBN/barcode and working-price decisions, account validation, upload and order. The cover remains a preparation derivative until those checks are complete. No account or supplier action has been taken.
+**Current status:** geometry comparison, visual checks, supplier upload and account validation are complete. John confirmed placing the second-proof order on 23 November. Preserve this exact PDF and every source component; physical-proof acceptance and final retail ISBN/barcode/price remain separate.
 
-Rebuild with the project's primary Python, from repository root:
+Historical rebuild recipe, retained for deliberate future revisions. Do not run it over the ordered baseline merely to resume a session. Use the project's primary Python and separate output paths if a new revision is requested:
 
 ```sh
 python docs/publication/bookvault-second-proof-2026-11-22/cover/build.py --geometry-record docs/publication/bookvault-second-proof-2026-11-22/cover/SUPPLIER-GEOMETRY.json

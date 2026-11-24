@@ -17,7 +17,7 @@ Latest instructions from John take precedence. Preserve the separate A4 contract
 Editable words and image references live in the shared
 [book-layout JSON folder](../../hackriculture-data/book-layout/README.md).
 Use its validated builders for the components they own; shared style rules
-stay here and in their existing CSS. The installed page-7 introduction uses the [approved personal copy and photo composition](publication/introduction-revision/APPROVAL.json) from 15 November, replacing the earlier `why-grow` body. Shared `introduction.json` belongs to an omitted welcome layout. Consult the [source map](handover/START-HERE.md#resume-here) before later edits. Frozen source proofs remain unchanged.
+stay here and in their existing CSS. The installed Introduction at folio 5 (former page 7) uses the [approved personal copy and photo composition](publication/introduction-revision/APPROVAL.json) from 15 November, replacing the earlier `why-grow` body. Shared `introduction.json` belongs to an omitted welcome layout. Consult the [source map](handover/START-HERE.md#resume-here) before later edits. Frozen source proofs remain unchanged.
 
 Status labels below distinguish **approved** designs, **selected** visual
 directions and **working** proposals/adaptations. Working values are useful

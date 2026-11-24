@@ -1,0 +1,1839 @@
+{
+  "date": "2026-11-24",
+  "status": "awaiting_layout_selection",
+  "selected_photo": 7,
+  "palette": {
+    "selected_colour_option": 3,
+    "name": "Pale sage",
+    "fill": "#DFE9D3",
+    "ink": "#173E2C",
+    "opacity": 0.82
+  },
+  "variants": [
+    {
+      "id": 1,
+      "name": "Lifted / broad oval",
+      "title": {
+        "x": 14,
+        "top": 14,
+        "sizes": [
+          72,
+          56
+        ],
+        "gap": 24,
+        "angle": 3
+      },
+      "oval": {
+        "cx": 115,
+        "cy": 267,
+        "rx": 180,
+        "ry": 151,
+        "angle": 0
+      },
+      "description": "Title shifted up and left into a balanced block; existing broad oval retained."
+    },
+    {
+      "id": 2,
+      "name": "Higher / flatter oval",
+      "title": {
+        "x": 20,
+        "top": 11,
+        "sizes": [
+          64,
+          54
+        ],
+        "gap": 21,
+        "angle": 0
+      },
+      "oval": {
+        "cx": 95,
+        "cy": 290,
+        "rx": 245,
+        "ry": 159,
+        "angle": 0
+      },
+      "description": "Higher, tighter, level title; flatter lower arc reveals more of the bed."
+    },
+    {
+      "id": 3,
+      "name": "Level / rounder oval",
+      "title": {
+        "x": 16,
+        "top": 22,
+        "sizes": [
+          62,
+          52
+        ],
+        "gap": 21,
+        "angle": 0
+      },
+      "oval": {
+        "cx": 95,
+        "cy": 230,
+        "rx": 120,
+        "ry": 120,
+        "angle": 0
+      },
+      "description": "Level title comfortably on the left; rounder, centred cropped oval."
+    },
+    {
+      "id": 4,
+      "name": "Lower / right offset",
+      "title": {
+        "x": 16,
+        "top": 40,
+        "sizes": [
+          58,
+          48
+        ],
+        "gap": 19,
+        "angle": 3
+      },
+      "oval": {
+        "cx": 175,
+        "cy": 245,
+        "rx": 260,
+        "ry": 132,
+        "angle": 0
+      },
+      "description": "Title lowered into the left foliage; oval offset right, rising towards the right edge."
+    },
+    {
+      "id": 5,
+      "name": "Raised / left offset",
+      "title": {
+        "x": 16,
+        "top": 13,
+        "sizes": [
+          68,
+          54
+        ],
+        "gap": 23,
+        "angle": 2
+      },
+      "oval": {
+        "cx": 25,
+        "cy": 250,
+        "rx": 255,
+        "ry": 135,
+        "angle": 0
+      },
+      "description": "Raised title with gentle tilt; oval offset left, descending towards the right edge."
+    },
+    {
+      "id": 6,
+      "name": "Inset / tilted oval",
+      "title": {
+        "x": 20,
+        "top": 25,
+        "sizes": [
+          60,
+          50
+        ],
+        "gap": 21,
+        "angle": 0
+      },
+      "oval": {
+        "cx": 100,
+        "cy": 245,
+        "rx": 180,
+        "ry": 125,
+        "angle": 14
+      },
+      "description": "Compact level title inset on the left; true ellipse tilted clockwise by 14 degrees."
+    }
+  ],
+  "checks": [
+    {
+      "id": 1,
+      "complete_contents_and_folio": true,
+      "all_fonts_embedded": true,
+      "contents_inside_oval_inset_mm": 3,
+      "positions": [
+        {
+          "text": "Organic growing",
+          "left_mm": 26,
+          "right_mm": 60.30322916666667,
+          "baseline_mm": 149
+        },
+        {
+          "text": "The core ideas",
+          "left_mm": 26,
+          "right_mm": 50.70023,
+          "baseline_mm": 156.0
+        },
+        {
+          "text": "146",
+          "left_mm": 92.142,
+          "right_mm": 99.0,
+          "baseline_mm": 156.0
+        },
+        {
+          "text": "Nutrient cycles",
+          "left_mm": 26,
+          "right_mm": 51.51557,
+          "baseline_mm": 161.2
+        },
+        {
+          "text": "147",
+          "left_mm": 92.142,
+          "right_mm": 99.0,
+          "baseline_mm": 161.2
+        },
+        {
+          "text": "Rotation & planning",
+          "left_mm": 26,
+          "right_mm": 60.09569,
+          "baseline_mm": 166.4
+        },
+        {
+          "text": "148\u2013149",
+          "left_mm": 83.379,
+          "right_mm": 99.0,
+          "baseline_mm": 166.4
+        },
+        {
+          "text": "Testing and adjusting pH",
+          "left_mm": 26,
+          "right_mm": 68.95393999999999,
+          "baseline_mm": 171.6
+        },
+        {
+          "text": "150",
+          "left_mm": 92.142,
+          "right_mm": 99.0,
+          "baseline_mm": 171.6
+        },
+        {
+          "text": "Planning a new plot",
+          "left_mm": 26,
+          "right_mm": 67.22208333333333,
+          "baseline_mm": 180.5
+        },
+        {
+          "text": "Choosing the right spot",
+          "left_mm": 26,
+          "right_mm": 66.02404999999999,
+          "baseline_mm": 187.5
+        },
+        {
+          "text": "151",
+          "left_mm": 92.142,
+          "right_mm": 99.0,
+          "baseline_mm": 187.5
+        },
+        {
+          "text": "Beds and paths",
+          "left_mm": 26,
+          "right_mm": 52.58999,
+          "baseline_mm": 192.7
+        },
+        {
+          "text": "152\u2013153",
+          "left_mm": 83.379,
+          "right_mm": 99.0,
+          "baseline_mm": 192.7
+        },
+        {
+          "text": "Compost",
+          "left_mm": 26,
+          "right_mm": 44.43263888888889,
+          "baseline_mm": 212
+        },
+        {
+          "text": "The secret\u2019s in the bin",
+          "left_mm": 26,
+          "right_mm": 63.29228,
+          "baseline_mm": 219.0
+        },
+        {
+          "text": "154",
+          "left_mm": 92.142,
+          "right_mm": 99.0,
+          "baseline_mm": 219.0
+        },
+        {
+          "text": "Feed it, leave it, use it",
+          "left_mm": 26,
+          "right_mm": 62.808409999999995,
+          "baseline_mm": 224.2
+        },
+        {
+          "text": "155",
+          "left_mm": 92.142,
+          "right_mm": 99.0,
+          "baseline_mm": 224.2
+        },
+        {
+          "text": "Cultivation",
+          "left_mm": 108,
+          "right_mm": 130.4454861111111,
+          "baseline_mm": 149
+        },
+        {
+          "text": "Dig or No-Dig?",
+          "left_mm": 108,
+          "right_mm": 133.56891,
+          "baseline_mm": 156.0
+        },
+        {
+          "text": "156",
+          "left_mm": 173.142,
+          "right_mm": 180.0,
+          "baseline_mm": 156.0
+        },
+        {
+          "text": "No-Dig",
+          "left_mm": 108,
+          "right_mm": 120.4968,
+          "baseline_mm": 161.2
+        },
+        {
+          "text": "157",
+          "left_mm": 173.142,
+          "right_mm": 180.0,
+          "baseline_mm": 161.2
+        },
+        {
+          "text": "Digging",
+          "left_mm": 108,
+          "right_mm": 121.45692,
+          "baseline_mm": 166.4
+        },
+        {
+          "text": "158\u2013159",
+          "left_mm": 164.379,
+          "right_mm": 180.0,
+          "baseline_mm": 166.4
+        },
+        {
+          "text": "Lifting and using turf",
+          "left_mm": 108,
+          "right_mm": 143.53206,
+          "baseline_mm": 171.6
+        },
+        {
+          "text": "160",
+          "left_mm": 173.142,
+          "right_mm": 180.0,
+          "baseline_mm": 171.6
+        },
+        {
+          "text": "Plant care",
+          "left_mm": 108,
+          "right_mm": 128.76979166666666,
+          "baseline_mm": 180.5
+        },
+        {
+          "text": "Sowing and planting",
+          "left_mm": 108,
+          "right_mm": 143.45586,
+          "baseline_mm": 187.5
+        },
+        {
+          "text": "161",
+          "left_mm": 173.142,
+          "right_mm": 180.0,
+          "baseline_mm": 187.5
+        },
+        {
+          "text": "Netting",
+          "left_mm": 108,
+          "right_mm": 120.79398,
+          "baseline_mm": 192.7
+        },
+        {
+          "text": "162\u2013163",
+          "left_mm": 164.379,
+          "right_mm": 180.0,
+          "baseline_mm": 192.7
+        },
+        {
+          "text": "Supports",
+          "left_mm": 108,
+          "right_mm": 123.57147,
+          "baseline_mm": 197.9
+        },
+        {
+          "text": "164\u2013165",
+          "left_mm": 164.379,
+          "right_mm": 180.0,
+          "baseline_mm": 197.9
+        },
+        {
+          "text": "Watering",
+          "left_mm": 108,
+          "right_mm": 124.21916999999999,
+          "baseline_mm": 203.1
+        },
+        {
+          "text": "166",
+          "left_mm": 173.142,
+          "right_mm": 180.0,
+          "baseline_mm": 203.1
+        },
+        {
+          "text": "Greenhouses",
+          "left_mm": 108,
+          "right_mm": 134.70086805555556,
+          "baseline_mm": 212
+        },
+        {
+          "text": "What, where & how big?",
+          "left_mm": 108,
+          "right_mm": 150.43578,
+          "baseline_mm": 219.0
+        },
+        {
+          "text": "167",
+          "left_mm": 173.142,
+          "right_mm": 180.0,
+          "baseline_mm": 219.0
+        },
+        {
+          "text": "Pots and raised beds",
+          "left_mm": 108,
+          "right_mm": 143.68827,
+          "baseline_mm": 224.2
+        },
+        {
+          "text": "168",
+          "left_mm": 173.142,
+          "right_mm": 180.0,
+          "baseline_mm": 224.2
+        },
+        {
+          "text": "No-dig beds and seasons",
+          "left_mm": 108,
+          "right_mm": 151.36160999999998,
+          "baseline_mm": 229.4
+        },
+        {
+          "text": "169",
+          "left_mm": 173.142,
+          "right_mm": 180.0,
+          "baseline_mm": 229.4
+        },
+        {
+          "text": "145",
+          "left_mm": 175.33275,
+          "right_mm": 180.0,
+          "baseline_mm": 235
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "complete_contents_and_folio": true,
+      "all_fonts_embedded": true,
+      "contents_inside_oval_inset_mm": 3,
+      "positions": [
+        {
+          "text": "Organic growing",
+          "left_mm": 26,
+          "right_mm": 60.30322916666667,
+          "baseline_mm": 149
+        },
+        {
+          "text": "The core ideas",
+          "left_mm": 26,
+          "right_mm": 50.70023,
+          "baseline_mm": 156.0
+        },
+        {
+          "text": "146",
+          "left_mm": 92.142,
+          "right_mm": 99.0,
+          "baseline_mm": 156.0
+        },
+        {
+          "text": "Nutrient cycles",
+          "left_mm": 26,
+          "right_mm": 51.51557,
+          "baseline_mm": 161.2
+        },
+        {
+          "text": "147",
+          "left_mm": 92.142,
+          "right_mm": 99.0,
+          "baseline_mm": 161.2
+        },
+        {
+          "text": "Rotation & planning",
+          "left_mm": 26,
+          "right_mm": 60.09569,
+          "baseline_mm": 166.4
+        },
+        {
+          "text": "148\u2013149",
+          "left_mm": 83.379,
+          "right_mm": 99.0,
+          "baseline_mm": 166.4
+        },
+        {
+          "text": "Testing and adjusting pH",
+          "left_mm": 26,
+          "right_mm": 68.95393999999999,
+          "baseline_mm": 171.6
+        },
+        {
+          "text": "150",
+          "left_mm": 92.142,
+          "right_mm": 99.0,
+          "baseline_mm": 171.6
+        },
+        {
+          "text": "Planning a new plot",
+          "left_mm": 26,
+          "right_mm": 67.22208333333333,
+          "baseline_mm": 180.5
+        },
+        {
+          "text": "Choosing the right spot",
+          "left_mm": 26,
+          "right_mm": 66.02404999999999,
+          "baseline_mm": 187.5
+        },
+        {
+          "text": "151",
+          "left_mm": 92.142,
+          "right_mm": 99.0,
+          "baseline_mm": 187.5
+        },
+        {
+          "text": "Beds and paths",
+          "left_mm": 26,
+          "right_mm": 52.58999,
+          "baseline_mm": 192.7
+        },
+        {
+          "text": "152\u2013153",
+          "left_mm": 83.379,
+          "right_mm": 99.0,
+          "baseline_mm": 192.7
+        },
+        {
+          "text": "Compost",
+          "left_mm": 26,
+          "right_mm": 44.43263888888889,
+          "baseline_mm": 212
+        },
+        {
+          "text": "The secret\u2019s in the bin",
+          "left_mm": 26,
+          "right_mm": 63.29228,
+          "baseline_mm": 219.0
+        },
+        {
+          "text": "154",
+          "left_mm": 92.142,
+          "right_mm": 99.0,
+          "baseline_mm": 219.0
+        },
+        {
+          "text": "Feed it, leave it, use it",
+          "left_mm": 26,
+          "right_mm": 62.808409999999995,
+          "baseline_mm": 224.2
+        },
+        {
+          "text": "155",
+          "left_mm": 92.142,
+          "right_mm": 99.0,
+          "baseline_mm": 224.2
+        },
+        {
+          "text": "Cultivation",
+          "left_mm": 108,
+          "right_mm": 130.4454861111111,
+          "baseline_mm": 149
+        },
+        {
+          "text": "Dig or No-Dig?",
+          "left_mm": 108,
+          "right_mm": 133.56891,
+          "baseline_mm": 156.0
+        },
+        {
+          "text": "156",
+          "left_mm": 173.142,
+          "right_mm": 180.0,
+          "baseline_mm": 156.0
+        },
+        {
+          "text": "No-Dig",
+          "left_mm": 108,
+          "right_mm": 120.4968,
+          "baseline_mm": 161.2
+        },
+        {
+          "text": "157",
+          "left_mm": 173.142,
+          "right_mm": 180.0,
+          "baseline_mm": 161.2
+        },
+        {
+          "text": "Digging",
+          "left_mm": 108,
+          "right_mm": 121.45692,
+          "baseline_mm": 166.4
+        },
+        {
+          "text": "158\u2013159",
+          "left_mm": 164.379,
+          "right_mm": 180.0,
+          "baseline_mm": 166.4
+        },
+        {
+          "text": "Lifting and using turf",
+          "left_mm": 108,
+          "right_mm": 143.53206,
+          "baseline_mm": 171.6
+        },
+        {
+          "text": "160",
+          "left_mm": 173.142,
+          "right_mm": 180.0,
+          "baseline_mm": 171.6
+        },
+        {
+          "text": "Plant care",
+          "left_mm": 108,
+          "right_mm": 128.76979166666666,
+          "baseline_mm": 180.5
+        },
+        {
+          "text": "Sowing and planting",
+          "left_mm": 108,
+          "right_mm": 143.45586,
+          "baseline_mm": 187.5
+        },
+        {
+          "text": "161",
+          "left_mm": 173.142,
+          "right_mm": 180.0,
+          "baseline_mm": 187.5
+        },
+        {
+          "text": "Netting",
+          "left_mm": 108,
+          "right_mm": 120.79398,
+          "baseline_mm": 192.7
+        },
+        {
+          "text": "162\u2013163",
+          "left_mm": 164.379,
+          "right_mm": 180.0,
+          "baseline_mm": 192.7
+        },
+        {
+          "text": "Supports",
+          "left_mm": 108,
+          "right_mm": 123.57147,
+          "baseline_mm": 197.9
+        },
+        {
+          "text": "164\u2013165",
+          "left_mm": 164.379,
+          "right_mm": 180.0,
+          "baseline_mm": 197.9
+        },
+        {
+          "text": "Watering",
+          "left_mm": 108,
+          "right_mm": 124.21916999999999,
+          "baseline_mm": 203.1
+        },
+        {
+          "text": "166",
+          "left_mm": 173.142,
+          "right_mm": 180.0,
+          "baseline_mm": 203.1
+        },
+        {
+          "text": "Greenhouses",
+          "left_mm": 108,
+          "right_mm": 134.70086805555556,
+          "baseline_mm": 212
+        },
+        {
+          "text": "What, where & how big?",
+          "left_mm": 108,
+          "right_mm": 150.43578,
+          "baseline_mm": 219.0
+        },
+        {
+          "text": "167",
+          "left_mm": 173.142,
+          "right_mm": 180.0,
+          "baseline_mm": 219.0
+        },
+        {
+          "text": "Pots and raised beds",
+          "left_mm": 108,
+          "right_mm": 143.68827,
+          "baseline_mm": 224.2
+        },
+        {
+          "text": "168",
+          "left_mm": 173.142,
+          "right_mm": 180.0,
+          "baseline_mm": 224.2
+        },
+        {
+          "text": "No-dig beds and seasons",
+          "left_mm": 108,
+          "right_mm": 151.36160999999998,
+          "baseline_mm": 229.4
+        },
+        {
+          "text": "169",
+          "left_mm": 173.142,
+          "right_mm": 180.0,
+          "baseline_mm": 229.4
+        },
+        {
+          "text": "145",
+          "left_mm": 175.33275,
+          "right_mm": 180.0,
+          "baseline_mm": 235
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "complete_contents_and_folio": true,
+      "all_fonts_embedded": true,
+      "contents_inside_oval_inset_mm": 3,
+      "positions": [
+        {
+          "text": "Organic growing",
+          "left_mm": 26,
+          "right_mm": 60.30322916666667,
+          "baseline_mm": 149
+        },
+        {
+          "text": "The core ideas",
+          "left_mm": 26,
+          "right_mm": 50.70023,
+          "baseline_mm": 156.0
+        },
+        {
+          "text": "146",
+          "left_mm": 92.142,
+          "right_mm": 99.0,
+          "baseline_mm": 156.0
+        },
+        {
+          "text": "Nutrient cycles",
+          "left_mm": 26,
+          "right_mm": 51.51557,
+          "baseline_mm": 161.2
+        },
+        {
+          "text": "147",
+          "left_mm": 92.142,
+          "right_mm": 99.0,
+          "baseline_mm": 161.2
+        },
+        {
+          "text": "Rotation & planning",
+          "left_mm": 26,
+          "right_mm": 60.09569,
+          "baseline_mm": 166.4
+        },
+        {
+          "text": "148\u2013149",
+          "left_mm": 83.379,
+          "right_mm": 99.0,
+          "baseline_mm": 166.4
+        },
+        {
+          "text": "Testing and adjusting pH",
+          "left_mm": 26,
+          "right_mm": 68.95393999999999,
+          "baseline_mm": 171.6
+        },
+        {
+          "text": "150",
+          "left_mm": 92.142,
+          "right_mm": 99.0,
+          "baseline_mm": 171.6
+        },
+        {
+          "text": "Planning a new plot",
+          "left_mm": 26,
+          "right_mm": 67.22208333333333,
+          "baseline_mm": 180.5
+        },
+        {
+          "text": "Choosing the right spot",
+          "left_mm": 26,
+          "right_mm": 66.02404999999999,
+          "baseline_mm": 187.5
+        },
+        {
+          "text": "151",
+          "left_mm": 92.142,
+          "right_mm": 99.0,
+          "baseline_mm": 187.5
+        },
+        {
+          "text": "Beds and paths",
+          "left_mm": 26,
+          "right_mm": 52.58999,
+          "baseline_mm": 192.7
+        },
+        {
+          "text": "152\u2013153",
+          "left_mm": 83.379,
+          "right_mm": 99.0,
+          "baseline_mm": 192.7
+        },
+        {
+          "text": "Compost",
+          "left_mm": 26,
+          "right_mm": 44.43263888888889,
+          "baseline_mm": 212
+        },
+        {
+          "text": "The secret\u2019s in the bin",
+          "left_mm": 26,
+          "right_mm": 63.29228,
+          "baseline_mm": 219.0
+        },
+        {
+          "text": "154",
+          "left_mm": 92.142,
+          "right_mm": 99.0,
+          "baseline_mm": 219.0
+        },
+        {
+          "text": "Feed it, leave it, use it",
+          "left_mm": 26,
+          "right_mm": 62.808409999999995,
+          "baseline_mm": 224.2
+        },
+        {
+          "text": "155",
+          "left_mm": 92.142,
+          "right_mm": 99.0,
+          "baseline_mm": 224.2
+        },
+        {
+          "text": "Cultivation",
+          "left_mm": 108,
+          "right_mm": 130.4454861111111,
+          "baseline_mm": 149
+        },
+        {
+          "text": "Dig or No-Dig?",
+          "left_mm": 108,
+          "right_mm": 133.56891,
+          "baseline_mm": 156.0
+        },
+        {
+          "text": "156",
+          "left_mm": 173.142,
+          "right_mm": 180.0,
+          "baseline_mm": 156.0
+        },
+        {
+          "text": "No-Dig",
+          "left_mm": 108,
+          "right_mm": 120.4968,
+          "baseline_mm": 161.2
+        },
+        {
+          "text": "157",
+          "left_mm": 173.142,
+          "right_mm": 180.0,
+          "baseline_mm": 161.2
+        },
+        {
+          "text": "Digging",
+          "left_mm": 108,
+          "right_mm": 121.45692,
+          "baseline_mm": 166.4
+        },
+        {
+          "text": "158\u2013159",
+          "left_mm": 164.379,
+          "right_mm": 180.0,
+          "baseline_mm": 166.4
+        },
+        {
+          "text": "Lifting and using turf",
+          "left_mm": 108,
+          "right_mm": 143.53206,
+          "baseline_mm": 171.6
+        },
+        {
+          "text": "160",
+          "left_mm": 173.142,
+          "right_mm": 180.0,
+          "baseline_mm": 171.6
+        },
+        {
+          "text": "Plant care",
+          "left_mm": 108,
+          "right_mm": 128.76979166666666,
+          "baseline_mm": 180.5
+        },
+        {
+          "text": "Sowing and planting",
+          "left_mm": 108,
+          "right_mm": 143.45586,
+          "baseline_mm": 187.5
+        },
+        {
+          "text": "161",
+          "left_mm": 173.142,
+          "right_mm": 180.0,
+          "baseline_mm": 187.5
+        },
+        {
+          "text": "Netting",
+          "left_mm": 108,
+          "right_mm": 120.79398,
+          "baseline_mm": 192.7
+        },
+        {
+          "text": "162\u2013163",
+          "left_mm": 164.379,
+          "right_mm": 180.0,
+          "baseline_mm": 192.7
+        },
+        {
+          "text": "Supports",
+          "left_mm": 108,
+          "right_mm": 123.57147,
+          "baseline_mm": 197.9
+        },
+        {
+          "text": "164\u2013165",
+          "left_mm": 164.379,
+          "right_mm": 180.0,
+          "baseline_mm": 197.9
+        },
+        {
+          "text": "Watering",
+          "left_mm": 108,
+          "right_mm": 124.21916999999999,
+          "baseline_mm": 203.1
+        },
+        {
+          "text": "166",
+          "left_mm": 173.142,
+          "right_mm": 180.0,
+          "baseline_mm": 203.1
+        },
+        {
+          "text": "Greenhouses",
+          "left_mm": 108,
+          "right_mm": 134.70086805555556,
+          "baseline_mm": 212
+        },
+        {
+          "text": "What, where & how big?",
+          "left_mm": 108,
+          "right_mm": 150.43578,
+          "baseline_mm": 219.0
+        },
+        {
+          "text": "167",
+          "left_mm": 173.142,
+          "right_mm": 180.0,
+          "baseline_mm": 219.0
+        },
+        {
+          "text": "Pots and raised beds",
+          "left_mm": 108,
+          "right_mm": 143.68827,
+          "baseline_mm": 224.2
+        },
+        {
+          "text": "168",
+          "left_mm": 173.142,
+          "right_mm": 180.0,
+          "baseline_mm": 224.2
+        },
+        {
+          "text": "No-dig beds and seasons",
+          "left_mm": 108,
+          "right_mm": 151.36160999999998,
+          "baseline_mm": 229.4
+        },
+        {
+          "text": "169",
+          "left_mm": 173.142,
+          "right_mm": 180.0,
+          "baseline_mm": 229.4
+        },
+        {
+          "text": "145",
+          "left_mm": 175.33275,
+          "right_mm": 180.0,
+          "baseline_mm": 235
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "complete_contents_and_folio": true,
+      "all_fonts_embedded": true,
+      "contents_inside_oval_inset_mm": 3,
+      "positions": [
+        {
+          "text": "Organic growing",
+          "left_mm": 26,
+          "right_mm": 60.30322916666667,
+          "baseline_mm": 149
+        },
+        {
+          "text": "The core ideas",
+          "left_mm": 26,
+          "right_mm": 50.70023,
+          "baseline_mm": 156.0
+        },
+        {
+          "text": "146",
+          "left_mm": 92.142,
+          "right_mm": 99.0,
+          "baseline_mm": 156.0
+        },
+        {
+          "text": "Nutrient cycles",
+          "left_mm": 26,
+          "right_mm": 51.51557,
+          "baseline_mm": 161.2
+        },
+        {
+          "text": "147",
+          "left_mm": 92.142,
+          "right_mm": 99.0,
+          "baseline_mm": 161.2
+        },
+        {
+          "text": "Rotation & planning",
+          "left_mm": 26,
+          "right_mm": 60.09569,
+          "baseline_mm": 166.4
+        },
+        {
+          "text": "148\u2013149",
+          "left_mm": 83.379,
+          "right_mm": 99.0,
+          "baseline_mm": 166.4
+        },
+        {
+          "text": "Testing and adjusting pH",
+          "left_mm": 26,
+          "right_mm": 68.95393999999999,
+          "baseline_mm": 171.6
+        },
+        {
+          "text": "150",
+          "left_mm": 92.142,
+          "right_mm": 99.0,
+          "baseline_mm": 171.6
+        },
+        {
+          "text": "Planning a new plot",
+          "left_mm": 26,
+          "right_mm": 67.22208333333333,
+          "baseline_mm": 180.5
+        },
+        {
+          "text": "Choosing the right spot",
+          "left_mm": 26,
+          "right_mm": 66.02404999999999,
+          "baseline_mm": 187.5
+        },
+        {
+          "text": "151",
+          "left_mm": 92.142,
+          "right_mm": 99.0,
+          "baseline_mm": 187.5
+        },
+        {
+          "text": "Beds and paths",
+          "left_mm": 26,
+          "right_mm": 52.58999,
+          "baseline_mm": 192.7
+        },
+        {
+          "text": "152\u2013153",
+          "left_mm": 83.379,
+          "right_mm": 99.0,
+          "baseline_mm": 192.7
+        },
+        {
+          "text": "Compost",
+          "left_mm": 26,
+          "right_mm": 44.43263888888889,
+          "baseline_mm": 212
+        },
+        {
+          "text": "The secret\u2019s in the bin",
+          "left_mm": 26,
+          "right_mm": 63.29228,
+          "baseline_mm": 219.0
+        },
+        {
+          "text": "154",
+          "left_mm": 92.142,
+          "right_mm": 99.0,
+          "baseline_mm": 219.0
+        },
+        {
+          "text": "Feed it, leave it, use it",
+          "left_mm": 26,
+          "right_mm": 62.808409999999995,
+          "baseline_mm": 224.2
+        },
+        {
+          "text": "155",
+          "left_mm": 92.142,
+          "right_mm": 99.0,
+          "baseline_mm": 224.2
+        },
+        {
+          "text": "Cultivation",
+          "left_mm": 108,
+          "right_mm": 130.4454861111111,
+          "baseline_mm": 149
+        },
+        {
+          "text": "Dig or No-Dig?",
+          "left_mm": 108,
+          "right_mm": 133.56891,
+          "baseline_mm": 156.0
+        },
+        {
+          "text": "156",
+          "left_mm": 173.142,
+          "right_mm": 180.0,
+          "baseline_mm": 156.0
+        },
+        {
+          "text": "No-Dig",
+          "left_mm": 108,
+          "right_mm": 120.4968,
+          "baseline_mm": 161.2
+        },
+        {
+          "text": "157",
+          "left_mm": 173.142,
+          "right_mm": 180.0,
+          "baseline_mm": 161.2
+        },
+        {
+          "text": "Digging",
+          "left_mm": 108,
+          "right_mm": 121.45692,
+          "baseline_mm": 166.4
+        },
+        {
+          "text": "158\u2013159",
+          "left_mm": 164.379,
+          "right_mm": 180.0,
+          "baseline_mm": 166.4
+        },
+        {
+          "text": "Lifting and using turf",
+          "left_mm": 108,
+          "right_mm": 143.53206,
+          "baseline_mm": 171.6
+        },
+        {
+          "text": "160",
+          "left_mm": 173.142,
+          "right_mm": 180.0,
+          "baseline_mm": 171.6
+        },
+        {
+          "text": "Plant care",
+          "left_mm": 108,
+          "right_mm": 128.76979166666666,
+          "baseline_mm": 180.5
+        },
+        {
+          "text": "Sowing and planting",
+          "left_mm": 108,
+          "right_mm": 143.45586,
+          "baseline_mm": 187.5
+        },
+        {
+          "text": "161",
+          "left_mm": 173.142,
+          "right_mm": 180.0,
+          "baseline_mm": 187.5
+        },
+        {
+          "text": "Netting",
+          "left_mm": 108,
+          "right_mm": 120.79398,
+          "baseline_mm": 192.7
+        },
+        {
+          "text": "162\u2013163",
+          "left_mm": 164.379,
+          "right_mm": 180.0,
+          "baseline_mm": 192.7
+        },
+        {
+          "text": "Supports",
+          "left_mm": 108,
+          "right_mm": 123.57147,
+          "baseline_mm": 197.9
+        },
+        {
+          "text": "164\u2013165",
+          "left_mm": 164.379,
+          "right_mm": 180.0,
+          "baseline_mm": 197.9
+        },
+        {
+          "text": "Watering",
+          "left_mm": 108,
+          "right_mm": 124.21916999999999,
+          "baseline_mm": 203.1
+        },
+        {
+          "text": "166",
+          "left_mm": 173.142,
+          "right_mm": 180.0,
+          "baseline_mm": 203.1
+        },
+        {
+          "text": "Greenhouses",
+          "left_mm": 108,
+          "right_mm": 134.70086805555556,
+          "baseline_mm": 212
+        },
+        {
+          "text": "What, where & how big?",
+          "left_mm": 108,
+          "right_mm": 150.43578,
+          "baseline_mm": 219.0
+        },
+        {
+          "text": "167",
+          "left_mm": 173.142,
+          "right_mm": 180.0,
+          "baseline_mm": 219.0
+        },
+        {
+          "text": "Pots and raised beds",
+          "left_mm": 108,
+          "right_mm": 143.68827,
+          "baseline_mm": 224.2
+        },
+        {
+          "text": "168",
+          "left_mm": 173.142,
+          "right_mm": 180.0,
+          "baseline_mm": 224.2
+        },
+        {
+          "text": "No-dig beds and seasons",
+          "left_mm": 108,
+          "right_mm": 151.36160999999998,
+          "baseline_mm": 229.4
+        },
+        {
+          "text": "169",
+          "left_mm": 173.142,
+          "right_mm": 180.0,
+          "baseline_mm": 229.4
+        },
+        {
+          "text": "145",
+          "left_mm": 175.33275,
+          "right_mm": 180.0,
+          "baseline_mm": 235
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "complete_contents_and_folio": true,
+      "all_fonts_embedded": true,
+      "contents_inside_oval_inset_mm": 3,
+      "positions": [
+        {
+          "text": "Organic growing",
+          "left_mm": 26,
+          "right_mm": 60.30322916666667,
+          "baseline_mm": 149
+        },
+        {
+          "text": "The core ideas",
+          "left_mm": 26,
+          "right_mm": 50.70023,
+          "baseline_mm": 156.0
+        },
+        {
+          "text": "146",
+          "left_mm": 92.142,
+          "right_mm": 99.0,
+          "baseline_mm": 156.0
+        },
+        {
+          "text": "Nutrient cycles",
+          "left_mm": 26,
+          "right_mm": 51.51557,
+          "baseline_mm": 161.2
+        },
+        {
+          "text": "147",
+          "left_mm": 92.142,
+          "right_mm": 99.0,
+          "baseline_mm": 161.2
+        },
+        {
+          "text": "Rotation & planning",
+          "left_mm": 26,
+          "right_mm": 60.09569,
+          "baseline_mm": 166.4
+        },
+        {
+          "text": "148\u2013149",
+          "left_mm": 83.379,
+          "right_mm": 99.0,
+          "baseline_mm": 166.4
+        },
+        {
+          "text": "Testing and adjusting pH",
+          "left_mm": 26,
+          "right_mm": 68.95393999999999,
+          "baseline_mm": 171.6
+        },
+        {
+          "text": "150",
+          "left_mm": 92.142,
+          "right_mm": 99.0,
+          "baseline_mm": 171.6
+        },
+        {
+          "text": "Planning a new plot",
+          "left_mm": 26,
+          "right_mm": 67.22208333333333,
+          "baseline_mm": 180.5
+        },
+        {
+          "text": "Choosing the right spot",
+          "left_mm": 26,
+          "right_mm": 66.02404999999999,
+          "baseline_mm": 187.5
+        },
+        {
+          "text": "151",
+          "left_mm": 92.142,
+          "right_mm": 99.0,
+          "baseline_mm": 187.5
+        },
+        {
+          "text": "Beds and paths",
+          "left_mm": 26,
+          "right_mm": 52.58999,
+          "baseline_mm": 192.7
+        },
+        {
+          "text": "152\u2013153",
+          "left_mm": 83.379,
+          "right_mm": 99.0,
+          "baseline_mm": 192.7
+        },
+        {
+          "text": "Compost",
+          "left_mm": 26,
+          "right_mm": 44.43263888888889,
+          "baseline_mm": 212
+        },
+        {
+          "text": "The secret\u2019s in the bin",
+          "left_mm": 26,
+          "right_mm": 63.29228,
+          "baseline_mm": 219.0
+        },
+        {
+          "text": "154",
+          "left_mm": 92.142,
+          "right_mm": 99.0,
+          "baseline_mm": 219.0
+        },
+        {
+          "text": "Feed it, leave it, use it",
+          "left_mm": 26,
+          "right_mm": 62.808409999999995,
+          "baseline_mm": 224.2
+        },
+        {
+          "text": "155",
+          "left_mm": 92.142,
+          "right_mm": 99.0,
+          "baseline_mm": 224.2
+        },
+        {
+          "text": "Cultivation",
+          "left_mm": 108,
+          "right_mm": 130.4454861111111,
+          "baseline_mm": 149
+        },
+        {
+          "text": "Dig or No-Dig?",
+          "left_mm": 108,
+          "right_mm": 133.56891,
+          "baseline_mm": 156.0
+        },
+        {
+          "text": "156",
+          "left_mm": 173.142,
+          "right_mm": 180.0,
+          "baseline_mm": 156.0
+        },
+        {
+          "text": "No-Dig",
+          "left_mm": 108,
+          "right_mm": 120.4968,
+          "baseline_mm": 161.2
+        },
+        {
+          "text": "157",
+          "left_mm": 173.142,
+          "right_mm": 180.0,
+          "baseline_mm": 161.2
+        },
+        {
+          "text": "Digging",
+          "left_mm": 108,
+          "right_mm": 121.45692,
+          "baseline_mm": 166.4
+        },
+        {
+          "text": "158\u2013159",
+          "left_mm": 164.379,
+          "right_mm": 180.0,
+          "baseline_mm": 166.4
+        },
+        {
+          "text": "Lifting and using turf",
+          "left_mm": 108,
+          "right_mm": 143.53206,
+          "baseline_mm": 171.6
+        },
+        {
+          "text": "160",
+          "left_mm": 173.142,
+          "right_mm": 180.0,
+          "baseline_mm": 171.6
+        },
+        {
+          "text": "Plant care",
+          "left_mm": 108,
+          "right_mm": 128.76979166666666,
+          "baseline_mm": 180.5
+        },
+        {
+          "text": "Sowing and planting",
+          "left_mm": 108,
+          "right_mm": 143.45586,
+          "baseline_mm": 187.5
+        },
+        {
+          "text": "161",
+          "left_mm": 173.142,
+          "right_mm": 180.0,
+          "baseline_mm": 187.5
+        },
+        {
+          "text": "Netting",
+          "left_mm": 108,
+          "right_mm": 120.79398,
+          "baseline_mm": 192.7
+        },
+        {
+          "text": "162\u2013163",
+          "left_mm": 164.379,
+          "right_mm": 180.0,
+          "baseline_mm": 192.7
+        },
+        {
+          "text": "Supports",
+          "left_mm": 108,
+          "right_mm": 123.57147,
+          "baseline_mm": 197.9
+        },
+        {
+          "text": "164\u2013165",
+          "left_mm": 164.379,
+          "right_mm": 180.0,
+          "baseline_mm": 197.9
+        },
+        {
+          "text": "Watering",
+          "left_mm": 108,
+          "right_mm": 124.21916999999999,
+          "baseline_mm": 203.1
+        },
+        {
+          "text": "166",
+          "left_mm": 173.142,
+          "right_mm": 180.0,
+          "baseline_mm": 203.1
+        },
+        {
+          "text": "Greenhouses",
+          "left_mm": 108,
+          "right_mm": 134.70086805555556,
+          "baseline_mm": 212
+        },
+        {
+          "text": "What, where & how big?",
+          "left_mm": 108,
+          "right_mm": 150.43578,
+          "baseline_mm": 219.0
+        },
+        {
+          "text": "167",
+          "left_mm": 173.142,
+          "right_mm": 180.0,
+          "baseline_mm": 219.0
+        },
+        {
+          "text": "Pots and raised beds",
+          "left_mm": 108,
+          "right_mm": 143.68827,
+          "baseline_mm": 224.2
+        },
+        {
+          "text": "168",
+          "left_mm": 173.142,
+          "right_mm": 180.0,
+          "baseline_mm": 224.2
+        },
+        {
+          "text": "No-dig beds and seasons",
+          "left_mm": 108,
+          "right_mm": 151.36160999999998,
+          "baseline_mm": 229.4
+        },
+        {
+          "text": "169",
+          "left_mm": 173.142,
+          "right_mm": 180.0,
+          "baseline_mm": 229.4
+        },
+        {
+          "text": "145",
+          "left_mm": 175.33275,
+          "right_mm": 180.0,
+          "baseline_mm": 235
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "complete_contents_and_folio": true,
+      "all_fonts_embedded": true,
+      "contents_inside_oval_inset_mm": 3,
+      "positions": [
+        {
+          "text": "Organic growing",
+          "left_mm": 26,
+          "right_mm": 60.30322916666667,
+          "baseline_mm": 149
+        },
+        {
+          "text": "The core ideas",
+          "left_mm": 26,
+          "right_mm": 50.70023,
+          "baseline_mm": 156.0
+        },
+        {
+          "text": "146",
+          "left_mm": 92.142,
+          "right_mm": 99.0,
+          "baseline_mm": 156.0
+        },
+        {
+          "text": "Nutrient cycles",
+          "left_mm": 26,
+          "right_mm": 51.51557,
+          "baseline_mm": 161.2
+        },
+        {
+          "text": "147",
+          "left_mm": 92.142,
+          "right_mm": 99.0,
+          "baseline_mm": 161.2
+        },
+        {
+          "text": "Rotation & planning",
+          "left_mm": 26,
+          "right_mm": 60.09569,
+          "baseline_mm": 166.4
+        },
+        {
+          "text": "148\u2013149",
+          "left_mm": 83.379,
+          "right_mm": 99.0,
+          "baseline_mm": 166.4
+        },
+        {
+          "text": "Testing and adjusting pH",
+          "left_mm": 26,
+          "right_mm": 68.95393999999999,
+          "baseline_mm": 171.6
+        },
+        {
+          "text": "150",
+          "left_mm": 92.142,
+          "right_mm": 99.0,
+          "baseline_mm": 171.6
+        },
+        {
+          "text": "Planning a new plot",
+          "left_mm": 26,
+          "right_mm": 67.22208333333333,
+          "baseline_mm": 180.5
+        },
+        {
+          "text": "Choosing the right spot",
+          "left_mm": 26,
+          "right_mm": 66.02404999999999,
+          "baseline_mm": 187.5
+        },
+        {
+          "text": "151",
+          "left_mm": 92.142,
+          "right_mm": 99.0,
+          "baseline_mm": 187.5
+        },
+        {
+          "text": "Beds and paths",
+          "left_mm": 26,
+          "right_mm": 52.58999,
+          "baseline_mm": 192.7
+        },
+        {
+          "text": "152\u2013153",
+          "left_mm": 83.379,
+          "right_mm": 99.0,
+          "baseline_mm": 192.7
+        },
+        {
+          "text": "Compost",
+          "left_mm": 26,
+          "right_mm": 44.43263888888889,
+          "baseline_mm": 212
+        },
+        {
+          "text": "The secret\u2019s in the bin",
+          "left_mm": 26,
+          "right_mm": 63.29228,
+          "baseline_mm": 219.0
+        },
+        {
+          "text": "154",
+          "left_mm": 92.142,
+          "right_mm": 99.0,
+          "baseline_mm": 219.0
+        },
+        {
+          "text": "Feed it, leave it, use it",
+          "left_mm": 26,
+          "right_mm": 62.808409999999995,
+          "baseline_mm": 224.2
+        },
+        {
+          "text": "155",
+          "left_mm": 92.142,
+          "right_mm": 99.0,
+          "baseline_mm": 224.2
+        },
+        {
+          "text": "Cultivation",
+          "left_mm": 108,
+          "right_mm": 130.4454861111111,
+          "baseline_mm": 149
+        },
+        {
+          "text": "Dig or No-Dig?",
+          "left_mm": 108,
+          "right_mm": 133.56891,
+          "baseline_mm": 156.0
+        },
+        {
+          "text": "156",
+          "left_mm": 173.142,
+          "right_mm": 180.0,
+          "baseline_mm": 156.0
+        },
+        {
+          "text": "No-Dig",
+          "left_mm": 108,
+          "right_mm": 120.4968,
+          "baseline_mm": 161.2
+        },
+        {
+          "text": "157",
+          "left_mm": 173.142,
+          "right_mm": 180.0,
+          "baseline_mm": 161.2
+        },
+        {
+          "text": "Digging",
+          "left_mm": 108,
+          "right_mm": 121.45692,
+          "baseline_mm": 166.4
+        },
+        {
+          "text": "158\u2013159",
+          "left_mm": 164.379,
+          "right_mm": 180.0,
+          "baseline_mm": 166.4
+        },
+        {
+          "text": "Lifting and using turf",
+          "left_mm": 108,
+          "right_mm": 143.53206,
+          "baseline_mm": 171.6
+        },
+        {
+          "text": "160",
+          "left_mm": 173.142,
+          "right_mm": 180.0,
+          "baseline_mm": 171.6
+        },
+        {
+          "text": "Plant care",
+          "left_mm": 108,
+          "right_mm": 128.76979166666666,
+          "baseline_mm": 180.5
+        },
+        {
+          "text": "Sowing and planting",
+          "left_mm": 108,
+          "right_mm": 143.45586,
+          "baseline_mm": 187.5
+        },
+        {
+          "text": "161",
+          "left_mm": 173.142,
+          "right_mm": 180.0,
+          "baseline_mm": 187.5
+        },
+        {
+          "text": "Netting",
+          "left_mm": 108,
+          "right_mm": 120.79398,
+          "baseline_mm": 192.7
+        },
+        {
+          "text": "162\u2013163",
+          "left_mm": 164.379,
+          "right_mm": 180.0,
+          "baseline_mm": 192.7
+        },
+        {
+          "text": "Supports",
+          "left_mm": 108,
+          "right_mm": 123.57147,
+          "baseline_mm": 197.9
+        },
+        {
+          "text": "164\u2013165",
+          "left_mm": 164.379,
+          "right_mm": 180.0,
+          "baseline_mm": 197.9
+        },
+        {
+          "text": "Watering",
+          "left_mm": 108,
+          "right_mm": 124.21916999999999,
+          "baseline_mm": 203.1
+        },
+        {
+          "text": "166",
+          "left_mm": 173.142,
+          "right_mm": 180.0,
+          "baseline_mm": 203.1
+        },
+        {
+          "text": "Greenhouses",
+          "left_mm": 108,
+          "right_mm": 134.70086805555556,
+          "baseline_mm": 212
+        },
+        {
+          "text": "What, where & how big?",
+          "left_mm": 108,
+          "right_mm": 150.43578,
+          "baseline_mm": 219.0
+        },
+        {
+          "text": "167",
+          "left_mm": 173.142,
+          "right_mm": 180.0,
+          "baseline_mm": 219.0
+        },
+        {
+          "text": "Pots and raised beds",
+          "left_mm": 108,
+          "right_mm": 143.68827,
+          "baseline_mm": 224.2
+        },
+        {
+          "text": "168",
+          "left_mm": 173.142,
+          "right_mm": 180.0,
+          "baseline_mm": 224.2
+        },
+        {
+          "text": "No-dig beds and seasons",
+          "left_mm": 108,
+          "right_mm": 151.36160999999998,
+          "baseline_mm": 229.4
+        },
+        {
+          "text": "169",
+          "left_mm": 173.142,
+          "right_mm": 180.0,
+          "baseline_mm": 229.4
+        },
+        {
+          "text": "145",
+          "left_mm": 175.33275,
+          "right_mm": 180.0,
+          "baseline_mm": 235
+        }
+      ]
+    }
+  ],
+  "photo_source": "/Users/johnlennon/Documents/web_site/hackriculture-print/docs/publication/artwork-proposals/2026-11-24-growing-techniques-planting-opener-08/assets/planting-option-07.png",
+  "photo_sha256": "9d434f8475e9d7a48600e255b865e703dab57f934cf403ba039827a279d60edf",
+  "all_photo_pixels_unchanged": true,
+  "no_image_generation": true,
+  "fixed_elements": [
+    "photo and crop",
+    "pale sage and 82% opacity",
+    "dark ink",
+    "complete contents and destinations",
+    "contents positions and font sizes",
+    "folio 145"
+  ],
+  "pdf_pages": 7,
+  "pdf_sha256": "9397a54c3a1fa9c0617cb1365c435c8e031271cb190a71ad53722622e1119297",
+  "production_ready": false,
+  "book_integration": false,
+  "upscale_gate": "Mandatory before printer upload if adopted; paid upscaling deferred.",
+  "visual_review": {
+    "contact_sheet_reviewed": true,
+    "titles_clear_of_john": true,
+    "contents_and_folio_legible": true,
+    "oval_arcs_and_page_edges_clean": true
+  }
+}
