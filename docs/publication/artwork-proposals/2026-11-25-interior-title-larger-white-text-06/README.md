@@ -1,0 +1,7 @@
+# Interior title: slightly larger white text
+
+25 November 2026. John selected shape 6, Cropped sweep, after previously selecting D and Pale sage colour option 4. He requested slightly larger white text. John subsequently selected this combination and requested wheelbarrow repair and independent layers. The [repaired layered package](../2026-11-25-interior-title-wheelbarrow-layered-07/README.md) holds the next revision. This one-page trial increases all six white lines (title, subtitle and author) by 10%, retaining their exact left and top anchors. Fonts remain native embedded Lilita One and Nunito Sans Bold.
+
+The D photograph and crop, gradient, pale sage oval geometry/opacity, and dark fine print are unchanged. The missing wheelbarrow frame loop remains deferred. This trial is awaiting review, not production approval. Background upscaling and detail inspection remain required before any printer upload.
+
+`build.py` creates the 185 × 240 mm layered PDF from page 7 of the shape-options PDF. `LAYOUT.json` records sizes and visible glyph bounds. Complete text extraction, native-font resources, six layers, minimum 2 mm visible line gaps and unchanged non-white-text layers are verified. The rendered page was visually reviewed; title, subtitle and author remain clear of John. The preview PNG is a derived display image; the PDF retains editable type and independent photograph/overlay layers.
